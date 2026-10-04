@@ -1,0 +1,14 @@
+import { prepareAmphibianResearchInput } from './prepare-amphibia-research-input.mjs'
+const citation = { pmc: 'PMC3800836', year: 2013, license: 'CC BY 3.0', licenseUrl: 'https://creativecommons.org/licenses/by/3.0/', readScope: 'Species ecological notes, excluding transfer of syntopic species observations' }
+prepareAmphibianResearchInput([
+  { colId: '755WG', name: 'Oreophryne cameroni', ...citation, sections: [
+    ['ecology', 'Different encounter settings in two mountain ranges', '两个山脉的不同发现环境', 'The author collected a subadult male in primary lowland rainforest on a steep Torricelli Mountains slope at 550 m. Two calling animals in the Adelbert Mountains at 850 m perched at night about 2.5–3.5 m above ground; other heard callers were higher. These sampled encounters retain their different stages and sites, without establishing a species-wide preferred elevation or perch height.', '作者在 Torricelli 山脉海拔 550 米陡坡的原生低地雨林采集一只亚成体雄性。Adelbert 山脉海拔 850 米的两只鸣叫个体夜间栖于离地约 2.5—3.5 米处，其他听到的鸣叫者更高。这些采样发现保留不同阶段与地点，不能确立全物种偏好海拔或栖位高度。']
+  ] },
+  { colId: '6STXX', name: 'Oreophryne parkopanorum', ...citation, sections: [
+    ['ecology', 'Mossy trunks in cloud forest', '云雾林的苔藓树干', 'The study found specimens active at night on moss-covered trunks 6 cm to 2 m above ground in primary mossy cloud forest at 1200–1300 m. The forest had many epiphytes and thick litter. These observations describe sampled activity and substrates, without establishing exclusive nocturnality, egg sites or physiological elevation limits.', '研究在海拔 1200—1300 米原生苔藓云雾林中，于夜间在离地 6 厘米至 2 米的苔藓树干发现活动标本。林中附生植物多、落叶层厚。这些观察描述采样活动与基质，不能确立严格夜行性、卵位或生理海拔极限。']
+  ] },
+  { colId: '6STWC', name: 'Oreophryne gagneorum', ...citation, sections: [
+    ['ecology', 'Cloud forest and lower secondary-forest encounters', '云雾林与较低次生林发现', 'At the Mt. Rossel type locality, frogs were described as abundant in dense ridge cloud forest with persistent fog drip. They occurred less commonly in tall lowland secondary forest at 280 m. These qualitative encounter descriptions retain the contrasting sites, without providing standardized density estimates or proving a causal effect of forest condition.', '在 Rossel 山模式地点，作者描述个体在持续雾滴的茂密山脊云雾林中较多；海拔 280 米高大低地次生林中发现较少。这些定性发现描述保留地点差异，未提供标准化密度估计，也不能证明森林状况的因果影响。'],
+    ['reproduction', 'Calling under wet and drier conditions', '湿润与较干条件下的鸣叫', 'At the type locality, calling extended from late afternoon through early morning, usually from stems or leaves 1–4 m above ground. Longer advertisement calls occurred under wet conditions; under drier conditions calls were slower and more irregular, often from hidden perches. The account documents calling variation rather than a complete breeding calendar or observed egg-deposition sites.', '在模式地点，鸣叫从傍晚延续至清晨，通常位于离地 1—4 米的茎或叶片。湿润条件下出现较长广告鸣声；较干条件下鸣叫较慢、间隔更不规则，常来自隐蔽栖位。记述记录鸣叫变化，不是完整繁殖日历或已观察产卵地点。']
+  ] }
+])

@@ -1,0 +1,6678 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Necturus maculosus
+    name:
+      en: Necturus maculosus
+      zh: Necturus maculosus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1639"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 1481
+      - topic: ecology
+        title:
+          en: Selected thermal preference estimate
+          zh: 选列的温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "2607"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 2380
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Caudata
+      family: Proteidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 1481
+        values:
+          - "1639"
+          - Patrice Pottier
+          - Erskine_and_Hutchison_1982
+          - Reduced thermal tolerance in an amphibian treated with melatonin
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(82)90043-2
+          - English
+          - Necturus_maculosus_pop2
+          - Necturus_maculosus_pop2_UTL_co1
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "21"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - control
+          - NA
+          - "0"
+          - mg/kg
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.91423671"
+          - "0.246998285"
+          - "9"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/0/values/83
+      - rowNumber: 2380
+        values:
+          - "2607"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 1 day after exposure to CTmax (33.74 C), measured during scotophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "12.85"
+          - "1.04"
+          - "8"
+          - sd
+          - 1 day after exposure to CTmax (33.74 C)
+      - rowNumber: 2381
+        values:
+          - "2608"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 2 days after exposure to CTmax(33.74 C), measured during scotophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.91"
+          - "0.18"
+          - "8"
+          - sd
+          - 2 days after exposure to CTmax (33.74 C)
+      - rowNumber: 2382
+        values:
+          - "2609"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 3 days after exposure to CTmax(33.74 C), measured during scotophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.87"
+          - "0.16"
+          - "8"
+          - sd
+          - 3 days after exposure to CTmax (33.74 C)
+      - rowNumber: 2383
+        values:
+          - "2610"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 1 day after exposure to CTmax(33.74 C), measured during photophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "12.21"
+          - "2.16"
+          - "8"
+          - sd
+          - 1 day after exposure to CTmax (33.74 C)
+      - rowNumber: 2384
+        values:
+          - "2611"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 2 days after exposure to CTmax(33.74 C), measured during photophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.72"
+          - "0.2"
+          - "8"
+          - sd
+          - 2 days after exposure to CTmax (33.74 C)
+      - rowNumber: 2385
+        values:
+          - "2612"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 3 days after exposure to CTmax(33.74 C), measured during photophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.14"
+          - "0.21"
+          - "8"
+          - sd
+          - 3 days after exposure to CTmax (33.74 C)
+      - rowNumber: 2386
+        values:
+          - "2613"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 1 day after exposure to just below CTmax (30.99 C), measured during scotophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "13.91"
+          - "0.89"
+          - "8"
+          - sd
+          - 1 day after exposure to just below CTmax (30.99 C)
+      - rowNumber: 2387
+        values:
+          - "2614"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 2 days after exposure to just below CTmax (30.99 C), measured during scotophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "11.73"
+          - "0.78"
+          - "8"
+          - sd
+          - 2 days after exposure to just below CTmax (30.99 C)
+      - rowNumber: 2388
+        values:
+          - "2615"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 3 days after exposure to just below CTmax (30.99 C), measured during scotophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.13"
+          - "0.62"
+          - "8"
+          - sd
+          - 3 days after exposure to just below CTmax (30.99 C)
+      - rowNumber: 2389
+        values:
+          - "2616"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 1 day after exposure to just below CTmax (30.99 C), measured during photophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "13.44"
+          - "2.53"
+          - "8"
+          - sd
+          - 1 day after exposure to just below CTmax (30.99 C)
+      - rowNumber: 2390
+        values:
+          - "2617"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 2 days after exposure to just below CTmax (30.99 C), measured during photophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "11.09"
+          - "1.22"
+          - "8"
+          - sd
+          - 2 days after exposure to just below CTmax (30.99 C)
+      - rowNumber: 2391
+        values:
+          - "2618"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - 3 days after exposure to just below CTmax (30.99 C), measured during photophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.3"
+          - "0.7"
+          - "8"
+          - sd
+          - 3 days after exposure to just below CTmax (30.99 C)
+      - rowNumber: 2392
+        values:
+          - "2619"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - first day in gradient, measured during scotophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.37"
+          - "0.32"
+          - "8"
+          - sd
+          - first day in gradient
+      - rowNumber: 2393
+        values:
+          - "2620"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - second day in gradient, measured during scotophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "11.36"
+          - "0.79"
+          - "8"
+          - sd
+          - second day in gradient
+      - rowNumber: 2394
+        values:
+          - "2621"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - third day in gradient, measured during scotophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.64"
+          - "0.35"
+          - "8"
+          - sd
+          - third day in gradient
+      - rowNumber: 2395
+        values:
+          - "2622"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - first day in gradient, measured during photophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.56"
+          - "0.91"
+          - "8"
+          - sd
+          - first day in gradient
+      - rowNumber: 2396
+        values:
+          - "2623"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - second day in gradient, measured during photophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.99"
+          - "0.66"
+          - "8"
+          - sd
+          - second day in gradient
+      - rowNumber: 2397
+        values:
+          - "2624"
+          - Natalie_Claunch
+          - Hutchison_and_Murphy_1985
+          - Behavioural thermoregulation in the salamander Necturus maculosus after heat shock
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(85)90873-4
+          - English
+          - Necturus_maculosus_pop3
+          - Necturus_maculosus_pop3_PBT_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - September
+          - December
+          - Purchased from a dealer
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "101"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - "2"
+          - linear
+          - "5"
+          - "30"
+          - third day in gradient, measured during photophase
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "6.83"
+          - "0.27"
+          - "8"
+          - sd
+          - third day in gradient
+      - rowNumber: 2398
+        values:
+          - "2625"
+          - Patrice Pottier
+          - Hutchison_and_Ritchart_1989
+          - Annual Cycle of Thermal Tolerance in the Salamander, Necturus maculosus
+          - "1989"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1564319
+          - English
+          - Necturus_maculosus_pop4
+          - Necturus_maculosus_pop4_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/19/values/12
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "444"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/19/values/42
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "32.75"
+          - "0.84"
+          - "8"
+          - sd
+          - NA
+      - rowNumber: 2399
+        values:
+          - "2626"
+          - Patrice Pottier
+          - Hutchison_and_Ritchart_1989
+          - Annual Cycle of Thermal Tolerance in the Salamander, Necturus maculosus
+          - "1989"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1564319
+          - English
+          - Necturus_maculosus_pop4
+          - Necturus_maculosus_pop4_UTL_co10
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/20/values/12
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "444"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/20/values/42
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "33.08"
+          - "0.47"
+          - "11"
+          - sd
+          - NA
+      - rowNumber: 2400
+        values:
+          - "2627"
+          - Patrice Pottier
+          - Hutchison_and_Ritchart_1989
+          - Annual Cycle of Thermal Tolerance in the Salamander, Necturus maculosus
+          - "1989"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1564319
+          - English
+          - Necturus_maculosus_pop4
+          - Necturus_maculosus_pop4_UTL_co11
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/21/values/12
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "444"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/21/values/42
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "32.8"
+          - "0.69"
+          - "4"
+          - sd
+          - NA
+      - rowNumber: 2401
+        values:
+          - "2628"
+          - Patrice Pottier
+          - Hutchison_and_Ritchart_1989
+          - Annual Cycle of Thermal Tolerance in the Salamander, Necturus maculosus
+          - "1989"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1564319
+          - English
+          - Necturus_maculosus_pop4
+          - Necturus_maculosus_pop4_UTL_co2
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/22/values/12
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "444"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/22/values/42
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "33.37"
+          - "0.49"
+          - "11"
+          - sd
+          - NA
+      - rowNumber: 2402
+        values:
+          - "2629"
+          - Patrice Pottier
+          - Hutchison_and_Ritchart_1989
+          - Annual Cycle of Thermal Tolerance in the Salamander, Necturus maculosus
+          - "1989"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1564319
+          - English
+          - Necturus_maculosus_pop4
+          - Necturus_maculosus_pop4_UTL_co3
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/23/values/12
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "444"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/23/values/42
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "33.64"
+          - "0.81"
+          - "18"
+          - sd
+          - NA
+      - rowNumber: 2403
+        values:
+          - "2630"
+          - Patrice Pottier
+          - Hutchison_and_Ritchart_1989
+          - Annual Cycle of Thermal Tolerance in the Salamander, Necturus maculosus
+          - "1989"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1564319
+          - English
+          - Necturus_maculosus_pop4
+          - Necturus_maculosus_pop4_UTL_co4
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/24/values/12
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "444"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/24/values/42
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "33.93"
+          - "0.59"
+          - "15"
+          - sd
+          - NA
+      - rowNumber: 2404
+        values:
+          - "2631"
+          - Patrice Pottier
+          - Hutchison_and_Ritchart_1989
+          - Annual Cycle of Thermal Tolerance in the Salamander, Necturus maculosus
+          - "1989"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1564319
+          - English
+          - Necturus_maculosus_pop4
+          - Necturus_maculosus_pop4_UTL_co5
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/25/values/12
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "444"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/25/values/42
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "33.86"
+          - "0.79"
+          - "18"
+          - sd
+          - NA
+      - rowNumber: 2405
+        values:
+          - "2632"
+          - Patrice Pottier
+          - Hutchison_and_Ritchart_1989
+          - Annual Cycle of Thermal Tolerance in the Salamander, Necturus maculosus
+          - "1989"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1564319
+          - English
+          - Necturus_maculosus_pop4
+          - Necturus_maculosus_pop4_UTL_co6
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/26/values/12
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "444"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/26/values/42
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "34.02"
+          - "0.99"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 2406
+        values:
+          - "2633"
+          - Patrice Pottier
+          - Hutchison_and_Ritchart_1989
+          - Annual Cycle of Thermal Tolerance in the Salamander, Necturus maculosus
+          - "1989"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1564319
+          - English
+          - Necturus_maculosus_pop4
+          - Necturus_maculosus_pop4_UTL_co7
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/27/values/12
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "444"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/27/values/42
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "33.55"
+          - "0.22"
+          - "6"
+          - sd
+          - NA
+      - rowNumber: 2407
+        values:
+          - "2634"
+          - Patrice Pottier
+          - Hutchison_and_Ritchart_1989
+          - Annual Cycle of Thermal Tolerance in the Salamander, Necturus maculosus
+          - "1989"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1564319
+          - English
+          - Necturus_maculosus_pop4
+          - Necturus_maculosus_pop4_UTL_co8
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/28/values/12
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "444"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/28/values/42
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "33.14"
+          - "0.56"
+          - "5"
+          - sd
+          - NA
+      - rowNumber: 2408
+        values:
+          - "2635"
+          - Patrice Pottier
+          - Hutchison_and_Ritchart_1989
+          - Annual Cycle of Thermal Tolerance in the Salamander, Necturus maculosus
+          - "1989"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1564319
+          - English
+          - Necturus_maculosus_pop4
+          - Necturus_maculosus_pop4_UTL_co9
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/29/values/12
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "444"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/29/values/42
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "32.87"
+          - "0.91"
+          - "6"
+          - sd
+          - NA
+      - rowNumber: 2409
+        values:
+          - "2636"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co1
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "1"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "35.0952381"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/30/values/83
+      - rowNumber: 2410
+        values:
+          - "2637"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co10
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "3"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "35.76190476"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/31/values/83
+      - rowNumber: 2411
+        values:
+          - "2638"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co11
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "4"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "35.81746032"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/32/values/83
+      - rowNumber: 2412
+        values:
+          - "2639"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co12
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "5"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "35.70634921"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/33/values/83
+      - rowNumber: 2413
+        values:
+          - "2640"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co13
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "6"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "35.61904762"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/34/values/83
+      - rowNumber: 2414
+        values:
+          - "2641"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co14
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "9"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "35.6031746"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/35/values/83
+      - rowNumber: 2415
+        values:
+          - "2642"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co15
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "11"
+          - Animals were acclimated for periods of 11 days to 4 weeks. The acclimation time was taken as 11 days
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "31.81129272"
+          - "1.832095097"
+          - "13"
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/36/values/83
+      - rowNumber: 2416
+        values:
+          - "2643"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co16
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "11"
+          - Animals were acclimated for periods of 11 days to 4 weeks. The acclimation time was taken as 11 days
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "33.87072808"
+          - "0.615156018"
+          - "10"
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/37/values/83
+      - rowNumber: 2417
+        values:
+          - "2644"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co17
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "11"
+          - Animals were acclimated for periods of 11 days to 4 weeks. The acclimation time was taken as 11 days
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.55572065"
+          - "0.548291233"
+          - "15"
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/38/values/83
+      - rowNumber: 2418
+        values:
+          - "2645"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co18
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "11"
+          - Animals were acclimated for periods of 11 days to 4 weeks. The acclimation time was taken as 11 days
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "32.25"
+          - "1.44"
+          - NA
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/39/values/83
+      - rowNumber: 2419
+        values:
+          - "2646"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co19
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "11"
+          - Animals were acclimated for periods of 11 days to 4 weeks. The acclimation time was taken as 11 days
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "34.47"
+          - "0.25"
+          - NA
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/40/values/83
+      - rowNumber: 2420
+        values:
+          - "2647"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co2
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "2"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.51587302"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/41/values/83
+      - rowNumber: 2421
+        values:
+          - "2648"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co20
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "11"
+          - Animals were acclimated for periods of 11 days to 4 weeks. The acclimation time was taken as 11 days
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "35.67"
+          - "0.44"
+          - NA
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/42/values/83
+      - rowNumber: 2422
+        values:
+          - "2649"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co3
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "4"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.6984127"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/43/values/83
+      - rowNumber: 2423
+        values:
+          - "2650"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co4
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "5"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.12698413"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/44/values/83
+      - rowNumber: 2424
+        values:
+          - "2651"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co5
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.13492063"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/45/values/83
+      - rowNumber: 2425
+        values:
+          - "2652"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co6
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "13"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.36507937"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/46/values/83
+      - rowNumber: 2426
+        values:
+          - "2653"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co7
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.32539683"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/47/values/83
+      - rowNumber: 2427
+        values:
+          - "2654"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co8
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "1"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.34126984"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/48/values/83
+      - rowNumber: 2428
+        values:
+          - "2655"
+          - Patrice Pottier
+          - Hutchison_and_Rowlan_1975
+          - Thermal acclimation and tolerance in the mudpuppy, Necturus maculosus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.2307/1562944
+          - English
+          - Necturus_maculosus_pop1
+          - Necturus_maculosus_pop1_UTL_co9
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "45.442269"
+          - "-90.1282"
+          - "522"
+          - NA
+          - NA
+          - "1972"
+          - November_1972
+          - December_1972
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "2"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.20634921"
+          - NA
+          - "4"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/49/values/83
+      - rowNumber: 2429
+        values:
+          - "2656"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co1
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - first day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.38"
+          - "0.26"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2430
+        values:
+          - "2657"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co1
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - second day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.92"
+          - "0.22"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2431
+        values:
+          - "2658"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co2
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - first day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "12.03"
+          - "0.16"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2432
+        values:
+          - "2659"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co2
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - second day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.54"
+          - "0.16"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2433
+        values:
+          - "2660"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co3
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - first day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "11.65"
+          - "0.24"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2434
+        values:
+          - "2661"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co3
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - second day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.2"
+          - "0.23"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2435
+        values:
+          - "2662"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co4
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - first day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "11.66"
+          - "0.23"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2436
+        values:
+          - "2663"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co4
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - second day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "12.53"
+          - "0.24"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2437
+        values:
+          - "2664"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co5
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - first day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "13.07"
+          - "0.21"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2438
+        values:
+          - "2665"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co5
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - second day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "11.82"
+          - "0.23"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2439
+        values:
+          - "2666"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co6
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - first day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "13.42"
+          - "0.19"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2440
+        values:
+          - "2667"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co6
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - second day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "13.99"
+          - "0.21"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2441
+        values:
+          - "2668"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co7
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - first day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.09"
+          - "0.18"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2442
+        values:
+          - "2669"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co7
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - second day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.36"
+          - "0.18"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2443
+        values:
+          - "2670"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co8
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - first day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.92"
+          - "0.22"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2444
+        values:
+          - "2671"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co8
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - second day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "11.16"
+          - "0.21"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2445
+        values:
+          - "2672"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co9
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - first day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.94"
+          - "0.22"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 2446
+        values:
+          - "2673"
+          - Natalie_Claunch
+          - Hutchison_and_Spriestersback_1986
+          - Diel and seasonal cycles of activity and behavioral thermoregulation in the salamander Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1444941
+          - English
+          - Necturus_maculosus_pop6
+          - Necturus_maculosus_pop6_PBT_co9
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Mix of wild and captive animals; "lab" was used for origin.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - Acclimated for at least two weeks
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "2"
+          - linear
+          - "5"
+          - "35"
+          - second day in gradient
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.68"
+          - "0.18"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 3752
+        values:
+          - "4099"
+          - Patrice Pottier
+          - Ritchart_and_Hutchison_1986
+          - The effects of ATP and cAMP on the thermal tolerance of the mudpuppy, Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1016/0306-4565(86)90017-3
+          - English
+          - Necturus_maculosus_pop7
+          - Necturus_maculosus_pop7_UTL_co1
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - "93.6"
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. body_mass was reported in the main text.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - control
+          - NA
+          - "0"
+          - mg/kg
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "33.3"
+          - "0.67"
+          - "25"
+          - sd
+          - Data was taken from the main text (results section) because Rohr et al. 2018 did not report SD.
+      - rowNumber: 3753
+        values:
+          - "4108"
+          - Patrice Pottier
+          - Ritchart_and_Hutchison_1986
+          - The effects of ATP and cAMP on the thermal tolerance of the mudpuppy, Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1016/0306-4565(86)90017-3
+          - English
+          - Necturus_maculosus_pop7
+          - Necturus_maculosus_pop7_UTL_co2
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - "93.6"
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. body_mass was reported in the main text.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - control
+          - NA
+          - "0"
+          - mg/kg
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "32.81"
+          - "0.68"
+          - "18"
+          - sd
+          - Data was taken from the main text (results section) because Rohr et al. 2018 did not report SD.
+      - rowNumber: 3754
+        values:
+          - "4109"
+          - Patrice Pottier
+          - Ritchart_and_Hutchison_1986
+          - The effects of ATP and cAMP on the thermal tolerance of the mudpuppy, Necturus maculosus
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1016/0306-4565(86)90017-3
+          - English
+          - Necturus_maculosus_pop7
+          - Necturus_maculosus_pop7_UTL_co3
+          - NA
+          - Caudata
+          - Proteidae
+          - Necturus maculosus
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "265"
+          - "93.6"
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. body_mass was reported in the main text.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - control
+          - NA
+          - "0"
+          - mg/kg
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "34"
+          - "0.63"
+          - "21"
+          - sd
+          - Data was taken from the main text (results section) because Rohr et al. 2018 did not report SD.
+    originalStudyCitations:
+      - ref: Erskine_and_Hutchison_1982
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: https://doi.org/10.1016/0306-4565(82)90043-2
+        year: "1982"
+      - ref: Hutchison_and_Murphy_1985
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: https://doi.org/10.1016/0300-9629(85)90873-4
+        year: "1985"
+      - ref: Hutchison_and_Ritchart_1989
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/2/title
+          format: heading
+        doi: https://doi.org/10.2307/1564319
+        year: "1989"
+      - ref: Hutchison_and_Rowlan_1975
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/3/title
+          format: heading
+        doi: 10.2307/1562944
+        year: "1975"
+      - ref: Hutchison_and_Spriestersback_1986
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/4/title
+          format: heading
+        doi: https://doi.org/10.2307/1444941
+        year: "1986"
+      - ref: Ritchart_and_Hutchison_1986
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/5/title
+          format: heading
+        doi: 10.1016/0306-4565(86)90017-3
+        year: "1986"
+    selectedEstimateRowNumbers:
+      - 1481
+      - 2380
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 463VD
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Necturus maculosus — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 1481, 2380, 2381, 2382, 2383, 2384, 2385, 2386, 2387, 2388, 2389, 2390, 2391, 2392, 2393, 2394, 2395, 2396, 2397, 2398, 2399, 2400, 2401, 2402, 2403, 2404, 2405, 2406, 2407, 2408, 2409, 2410, 2411, 2412, 2413, 2414, 2415, 2416, 2417, 2418, 2419, 2420, 2421, 2422, 2423, 2424, 2425, 2426, 2427, 2428, 2429, 2430, 2431, 2432, 2433, 2434, 2435, 2436, 2437, 2438, 2439, 2440, 2441, 2442, 2443, 2444, 2445, 2446, 3752, 3753, 3754; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/0/values/83 -->
+Data was digitised from figure 1 because Rohr et al. 2018 did not report sd_trait. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/19/values/12 -->
+Animals tested in January. Animals were considered the same population as in Ritchart and Hutchison 1986 because animals originated from the same supplier.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/19/values/42 -->
+The acclimation period was between 6 and 18 months (mean = 14.6 months) but the precise acclimation time for animals tested in each month was not reported. The mean acclimation time was assigned to each group
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/20/values/12 -->
+Animals tested in November. Animals were considered the same population as in Ritchart and Hutchison 1986 because animals originated from the same supplier.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/20/values/42 -->
+The acclimation period was between 6 and 18 months (mean = 14.6 months) but the precise acclimation time for animals tested in each month was not reported. The mean acclimation time was assigned to each group
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/21/values/12 -->
+Animals tested in December. Animals were considered the same population as in Ritchart and Hutchison 1986 because animals originated from the same supplier.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/21/values/42 -->
+The acclimation period was between 6 and 18 months (mean = 14.6 months) but the precise acclimation time for animals tested in each month was not reported. The mean acclimation time was assigned to each group
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/22/values/12 -->
+Animals tested in February. Animals were considered the same population as in Ritchart and Hutchison 1986 because animals originated from the same supplier.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/22/values/42 -->
+The acclimation period was between 6 and 18 months (mean = 14.6 months) but the precise acclimation time for animals tested in each month was not reported. The mean acclimation time was assigned to each group
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/23/values/12 -->
+Animals tested in March. Animals were considered the same population as in Ritchart and Hutchison 1986 because animals originated from the same supplier.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/23/values/42 -->
+The acclimation period was between 6 and 18 months (mean = 14.6 months) but the precise acclimation time for animals tested in each month was not reported. The mean acclimation time was assigned to each group
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/24/values/12 -->
+Animals tested in April Animals were considered the same population as in Ritchart and Hutchison 1986 because animals originated from the same supplier.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/24/values/42 -->
+The acclimation period was between 6 and 18 months (mean = 14.6 months) but the precise acclimation time for animals tested in each month was not reported. The mean acclimation time was assigned to each group
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/25/values/12 -->
+Animals tested in May. Animals were considered the same population as in Ritchart and Hutchison 1986 because animals originated from the same supplier.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/25/values/42 -->
+The acclimation period was between 6 and 18 months (mean = 14.6 months) but the precise acclimation time for animals tested in each month was not reported. The mean acclimation time was assigned to each group
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/26/values/12 -->
+Animals tested in June. Animals were considered the same population as in Ritchart and Hutchison 1986 because animals originated from the same supplier.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/26/values/42 -->
+The acclimation period was between 6 and 18 months (mean = 14.6 months) but the precise acclimation time for animals tested in each month was not reported. The mean acclimation time was assigned to each group
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/27/values/12 -->
+Animals tested in July. Animals were considered the same population as in Ritchart and Hutchison 1986 because animals originated from the same supplier.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/27/values/42 -->
+The acclimation period was between 6 and 18 months (mean = 14.6 months) but the precise acclimation time for animals tested in each month was not reported. The mean acclimation time was assigned to each group
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/28/values/12 -->
+Animals tested in September. Animals were considered the same population as in Ritchart and Hutchison 1986 because animals originated from the same supplier.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/28/values/42 -->
+The acclimation period was between 6 and 18 months (mean = 14.6 months) but the precise acclimation time for animals tested in each month was not reported. The mean acclimation time was assigned to each group
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/29/values/12 -->
+Animals tested in October. Animals were considered the same population as in Ritchart and Hutchison 1986 because animals originated from the same supplier.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/29/values/42 -->
+The acclimation period was between 6 and 18 months (mean = 14.6 months) but the precise acclimation time for animals tested in each month was not reported. The mean acclimation time was assigned to each group
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/30/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/31/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/32/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/33/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/34/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/35/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/36/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. The data for animals returned to their CTmax was not included.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/37/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. The data for animals returned to their CTmax was not included.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/38/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. The data for animals returned to their CTmax was not included.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/39/values/83 -->
+Data was taken from the main text (results section). It was unclear whether the error presented was the standard deviation or standard error. It was assumed to be the SD.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/40/values/83 -->
+Data was taken from the main text (results section). It was unclear whether the error presented was the standard deviation or standard error. It was assumed to be the SD.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/41/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/42/values/83 -->
+Data was taken from the main text (results section). It was unclear whether the error presented was the standard deviation or standard error. It was assumed to be the SD.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/43/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/44/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/45/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/46/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/47/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/48/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/49/values/83 -->
+Data was digitised from figure because this data was not reported in Rohr et al. 2018. Sample size was taken as the mean of the range presented (3 to 5 animals)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

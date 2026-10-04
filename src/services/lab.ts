@@ -227,6 +227,8 @@ async function sha256(bytes: Uint8Array): Promise<string> {
 }
 
 async function createQueryPackageFiles(result: LabResult, release: ReleaseMetadata): Promise<Record<string, Uint8Array>> {
+  const { default: fullManifestText } = await import('../../data/manifest.json?raw')
+  const fullSourceManifest = JSON.parse(fullManifestText)
   const readme = [
     'Evo Atlas query export',
     `Application version: ${release.appVersion}`,
@@ -275,7 +277,7 @@ async function createQueryPackageFiles(result: LabResult, release: ReleaseMetada
     'methods.md': strToU8(`${methods}\n`),
     'citations.json': strToU8(JSON.stringify(citationRecords, null, 2)),
     'citations.bib': strToU8(makeBibtex()),
-    'dataset-manifest.json': strToU8(JSON.stringify(manifest, null, 2)),
+    'dataset-manifest.json': strToU8(JSON.stringify(fullSourceManifest, null, 2)),
     'release.json': strToU8(JSON.stringify(release, null, 2)),
   }
   const checksumLines = await Promise.all(Object.entries(files).sort(([left], [right]) => left.localeCompare(right)).map(async ([path, bytes]) => `${await sha256(bytes)}  ${path}`))

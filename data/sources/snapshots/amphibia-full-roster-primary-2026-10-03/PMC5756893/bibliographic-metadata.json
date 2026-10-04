@@ -1,0 +1,3305 @@
+{
+  "pmcid": "PMC5756893",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+  "sha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+  "articleType": "research-article",
+  "title": "A general modeling framework for describing spatially structured population dynamics",
+  "authors": [
+    {
+      "name": "Christine Sample",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Christine",
+        "surname": "Sample",
+        "suffix": null
+      },
+      "originalName": "SampleChristine",
+      "attributes": {
+        "id": "ece33685-cr-0001",
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-5874-2256"
+        }
+      ]
+    },
+    {
+      "name": "John M. Fryxell",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "John M.",
+        "surname": "Fryxell",
+        "suffix": null
+      },
+      "originalName": "FryxellJohn M.",
+      "attributes": {
+        "id": "ece33685-cr-0002",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Joanna A. Bieri",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Joanna A.",
+        "surname": "Bieri",
+        "suffix": null
+      },
+      "originalName": "BieriJoanna A.",
+      "attributes": {
+        "id": "ece33685-cr-0003",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Paula Federico",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Paula",
+        "surname": "Federico",
+        "suffix": null
+      },
+      "originalName": "FedericoPaula",
+      "attributes": {
+        "id": "ece33685-cr-0004",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Julia E. Earl",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Julia E.",
+        "surname": "Earl",
+        "suffix": null
+      },
+      "originalName": "EarlJulia E.",
+      "attributes": {
+        "id": "ece33685-cr-0005",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Ruscena Wiederholt",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Ruscena",
+        "surname": "Wiederholt",
+        "suffix": null
+      },
+      "originalName": "WiederholtRuscena",
+      "attributes": {
+        "id": "ece33685-cr-0006",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Brady J. Mattsson",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Brady J.",
+        "surname": "Mattsson",
+        "suffix": null
+      },
+      "originalName": "MattssonBrady J.",
+      "attributes": {
+        "id": "ece33685-cr-0007",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "D. T. Tyler Flockhart",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "D. T. Tyler",
+        "surname": "Flockhart",
+        "suffix": null
+      },
+      "originalName": "FlockhartD. T. Tyler",
+      "attributes": {
+        "id": "ece33685-cr-0008",
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-5832-8610"
+        }
+      ]
+    },
+    {
+      "name": "Sam Nicol",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Sam",
+        "surname": "Nicol",
+        "suffix": null
+      },
+      "originalName": "NicolSam",
+      "attributes": {
+        "id": "ece33685-cr-0009",
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-1160-7444"
+        }
+      ]
+    },
+    {
+      "name": "Jay E. Diffendorfer",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Jay E.",
+        "surname": "Diffendorfer",
+        "suffix": null
+      },
+      "originalName": "DiffendorferJay E.",
+      "attributes": {
+        "id": "ece33685-cr-0010",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Wayne E. Thogmartin",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Wayne E.",
+        "surname": "Thogmartin",
+        "suffix": null
+      },
+      "originalName": "ThogmartinWayne E.",
+      "attributes": {
+        "id": "ece33685-cr-0011",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Richard A. Erickson",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Richard A.",
+        "surname": "Erickson",
+        "suffix": null
+      },
+      "originalName": "EricksonRichard A.",
+      "attributes": {
+        "id": "ece33685-cr-0012",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "D. Ryan Norris",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "D. Ryan",
+        "surname": "Norris",
+        "suffix": null
+      },
+      "originalName": "NorrisD. Ryan",
+      "attributes": {
+        "id": "ece33685-cr-0013",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC5756893"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC5756893.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "5756893"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "5756893"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "29321888"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1002/ece3.3685"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "ECE33685"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2017",
+      "month": "11",
+      "day": "30"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2018",
+      "month": "1",
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {
+        "license-type": "creativeCommonsBy"
+      },
+      "links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "ece33685-sup-0001",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-8-493-s001.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-8-493-s001.docx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ece33685-sup-0002",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-8-493-s002.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-8-493-s002.docx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "ece33685-bib-0001",
+      "position": 0,
+      "title": "Mechanistic models of animal migration behaviour – their diversity, structure and use",
+      "source": "Journal of Animal Ecology",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0001"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "82"
+        ],
+        "fpage": [
+          "498"
+        ],
+        "lpage": [
+          "508"
+        ]
+      },
+      "originalCitationText": "Bauer, S.\n, & \nKlaassen, M.\n (2013). Mechanistic models of animal migration behaviour – their diversity, structure and use. Journal of Animal Ecology, 82, 498–508. https://doi.org/10.1111/1365-2656.12054\n2337351510.1111/1365-2656.12054PMC3670972",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "23373515"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/1365-2656.12054"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3670972"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1111/1365-2656.12054"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0001",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0003",
+      "position": 1,
+      "title": "Carry‐over effects, sequential density dependence and the dynamics of populations in a seasonal environment",
+      "source": "Proceedings of the Royal Society, London: Biological Sciences",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0003"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "280"
+        ],
+        "fpage": [
+          "20130110"
+        ]
+      },
+      "originalCitationText": "Betini, G. S.\n, \nGriswold, C. K.\n, & \nNorris, D. R.\n (2013). Carry‐over effects, sequential density dependence and the dynamics of populations in a seasonal environment. Proceedings of the Royal Society, London: Biological Sciences, 280, 20130110\nhttps://doi.org/10.1098/rspb.2013.0110\n10.1098/rspb.2013.0110PMC361950423516241",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rspb.2013.0110"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3619504"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23516241"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1098/rspb.2013.0110"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0003",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0004",
+      "position": 2,
+      "title": "Modelling population reinforcement at a large spatial scale as a conservation strategy for the declining little bustard (Tetrax tetrax) in agricultural habitats",
+      "source": "Animal Conservation",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0004"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "59"
+        ],
+        "lpage": [
+          "68"
+        ]
+      },
+      "originalCitationText": "Bretagnolle, V.\n, & \nInchausti, P.\n (2005). Modelling population reinforcement at a large spatial scale as a conservation strategy for the declining little bustard (Tetrax tetrax) in agricultural habitats. Animal Conservation, 8, 59–68. https://doi.org/10.1017/S1367943004001866",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1017/S1367943004001866"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0004",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0005",
+      "position": 3,
+      "title": "On the relationship between abundance and distribution of species",
+      "source": "American Naturalist",
+      "year": "1984",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0005"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "124"
+        ],
+        "fpage": [
+          "255"
+        ],
+        "lpage": [
+          "279"
+        ]
+      },
+      "originalCitationText": "Brown, J. H.\n (1984). On the relationship between abundance and distribution of species. American Naturalist, 124, 255–279. https://doi.org/10.1086/284267",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1086/284267"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0005",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0006",
+      "position": 4,
+      "title": "Spatial variation in abundance",
+      "source": "Ecology",
+      "year": "1995",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0006"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "76"
+        ],
+        "fpage": [
+          "2028"
+        ],
+        "lpage": [
+          "2043"
+        ]
+      },
+      "originalCitationText": "Brown, J. H.\n, \nMehlman, C. R.\n, & \nStevens, G. C.\n (1995). Spatial variation in abundance. Ecology, 76, 2028–2043. https://doi.org/10.2307/1941678",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.2307/1941678"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0006",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0007",
+      "position": 5,
+      "title": "Radar analysis of fall bird migration stopover sites in the northeastern U.S",
+      "source": "The Condor",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0007"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "116"
+        ],
+        "fpage": [
+          "357"
+        ],
+        "lpage": [
+          "370"
+        ]
+      },
+      "originalCitationText": "Buler, J. J.\n, & \nDawson, D. K.\n (2014). Radar analysis of fall bird migration stopover sites in the northeastern U.S. The Condor, 116, 357–370. https://doi.org/10.1650/CONDOR-13-162.1",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1650/CONDOR-13-162.1"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0007",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0008",
+      "position": 6,
+      "title": null,
+      "source": "Animal movement across scales",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33685-cit-0008"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Hansson",
+              "givenNames": "L. A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HanssonL. A."
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Åkesson",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ÅkessonS."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "11"
+        ],
+        "lpage": [
+          "35"
+        ],
+        "publisher-name": [
+          "Oxford University Press"
+        ],
+        "publisher-loc": [
+          "New York, NY"
+        ]
+      },
+      "originalCitationText": "Chapman, B. B.\n, \nHulthén, K.\n, \nWellenreuther, M.\n, \nHansson, L. A.\n, \nNilsson, J. Å.\n, & \nBrönmark, C.\n (2014). Patterns of animal migration In HanssonL. A., & ÅkessonS. (Eds.), Animal movement across scales (pp. 11–35). New York, NY: Oxford University Press\nhttps://doi.org/10.1093/acprof:oso/9780199677184.001.0001",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1093/acprof:oso/9780199677184.001.0001"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0008",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0009",
+      "position": 7,
+      "title": "Importance of spatial and temporal dynamics in species regional abundance and distribution",
+      "source": "Ecology",
+      "year": "1991",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0009"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "72"
+        ],
+        "fpage": [
+          "654"
+        ],
+        "lpage": [
+          "664"
+        ]
+      },
+      "originalCitationText": "Collins, S. L.\n, & \nGlenn, S. M.\n (1991). Importance of spatial and temporal dynamics in species regional abundance and distribution. Ecology, 72, 654–664. https://doi.org/10.2307/2937205",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.2307/2937205"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0009",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0010",
+      "position": 8,
+      "title": "The movement shortfall in bird conservation: Accounting for nomadic, dispersive and irruptive species",
+      "source": "Animal Conservation",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0010"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "227"
+        ],
+        "lpage": [
+          "234"
+        ]
+      },
+      "originalCitationText": "Cottee‐Jones, H. E. W.\n, \nMatthews, T. J.\n, & \nWhittaker, R. J.\n (2016). The movement shortfall in bird conservation: Accounting for nomadic, dispersive and irruptive species. Animal Conservation, 19, 227–234. https://doi.org/10.1111/acv.12243",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1111/acv.12243"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0010",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0011",
+      "position": 9,
+      "title": "Physiological condition differentially affects the behavior and survival of two populations of sockeye salmon during their freshwater spawning migration",
+      "source": "Physiological and Biochemical Zoology",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0011"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "83"
+        ],
+        "fpage": [
+          "446"
+        ],
+        "lpage": [
+          "458"
+        ]
+      },
+      "originalCitationText": "Donaldson, M. R.\n, \nHinch, S. G.\n, \nPatterson, D. A.\n, \nFarrell, A. P.\n, \nShrimpton, J. M.\n, \nMiller‐Saunders, K. M.\n, … \nEnglish, K. K.\n (2010). Physiological condition differentially affects the behavior and survival of two populations of sockeye salmon during their freshwater spawning migration. Physiological and Biochemical Zoology, 83, 446–458. https://doi.org/10.1086/649627\n2036731910.1086/649627",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "20367319"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1086/649627"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1086/649627"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0011",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0013",
+      "position": 10,
+      "title": "A stage‐structured, spatially explicit migration model for Myotis bats: Mortality location affects system dynamics",
+      "source": "Letters in Biomathematics",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0013"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "1"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "157"
+        ],
+        "lpage": [
+          "172"
+        ]
+      },
+      "originalCitationText": "Erickson, R. A.\n, \nThogmartin, W. E.\n, \nRussell, R. E.\n, \nDiffendorfer, J. E.\n, & \nSzymanski, J. A.\n (2014). A stage‐structured, spatially explicit migration model for Myotis bats: Mortality location affects system dynamics. Letters in Biomathematics, 1(2), 157–172. https://doi.org/10.1080/23737867.2014.11414477",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1080/23737867.2014.11414477"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0013",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0014",
+      "position": 11,
+      "title": "Applying metapopulation theory to conservation of migratory birds",
+      "source": "Conservation Biology",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0014"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "366"
+        ],
+        "lpage": [
+          "372"
+        ]
+      },
+      "originalCitationText": "Esler, D.\n (2000). Applying metapopulation theory to conservation of migratory birds. Conservation Biology, 14, 366–372. https://doi.org/10.1046/j.1523-1739.2000.98147.x",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1046/j.1523-1739.2000.98147.x"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0014",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0015",
+      "position": 12,
+      "title": "Brazilian free‐tailed bats as insect pest regulators in transgenic and conventional cotton crops",
+      "source": "Ecological Applications",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0015"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "826"
+        ],
+        "lpage": [
+          "837"
+        ]
+      },
+      "originalCitationText": "Federico, P.\n, \nHallam, T. G.\n, \nMcCracken, G. F.\n, \nPurucker, S. T.\n, \nGrant, W. E.\n, \nCorrea‐Sandoval, A. N.\n, … \nLópez, J. D.\n (2008). Brazilian free‐tailed bats as insect pest regulators in transgenic and conventional cotton crops. Ecological Applications, 18, 826–837. https://doi.org/10.1890/07-0556.1\n1853624510.1890/07-0556.1",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "18536245"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1890/07-0556.1"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1890/07-0556.1"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0015",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0016",
+      "position": 13,
+      "title": "Experimental examination of intraspecific density‐dependent competition during the breeding period in monarch butterflies (Danaus plexippus)",
+      "source": "PLoS ONE",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0016"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "issue": [
+          "9"
+        ],
+        "fpage": [
+          "e45080"
+        ]
+      },
+      "originalCitationText": "Flockhart, D. T. T.\n, \nMartin, T. G.\n, & \nNorris, D. R.\n (2012). Experimental examination of intraspecific density‐dependent competition during the breeding period in monarch butterflies (Danaus plexippus). PLoS ONE, 7(9), e45080\nhttps://doi.org/10.1371/journal.pone.0045080\n2298461410.1371/journal.pone.0045080PMC3440312",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "22984614"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1371/journal.pone.0045080"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3440312"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1371/journal.pone.0045080"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0016",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0017",
+      "position": 14,
+      "title": "Unravelling the annual cycle in a migratory animal: Breeding‐season habitat loss drives population declines of monarch butterflies",
+      "source": "Journal of Animal Ecology",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0017"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "84"
+        ],
+        "fpage": [
+          "155"
+        ],
+        "lpage": [
+          "165"
+        ]
+      },
+      "originalCitationText": "Flockhart, D. T. T.\n, \nPichancourt, J. B.\n, \nNorris, D. R.\n, & \nMartin, T. G.\n (2015). Unravelling the annual cycle in a migratory animal: Breeding‐season habitat loss drives population declines of monarch butterflies. Journal of Animal Ecology, 84, 155–165. https://doi.org/10.1111/1365-2656.12253\n2490308510.1111/1365-2656.12253",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "24903085"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/1365-2656.12253"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1111/1365-2656.12253"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0017",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0018",
+      "position": 15,
+      "title": "Spatial network structure and amphibian persistence in stochastic environments",
+      "source": "Proceedings of the Royal Society, London: Biological Sciences",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0018"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "273"
+        ],
+        "fpage": [
+          "1429"
+        ],
+        "lpage": [
+          "1434"
+        ]
+      },
+      "originalCitationText": "Fortuna, M. A.\n, \nGomez‐Rodriguez, C.\n, & \nBascompte, J.\n (2006). Spatial network structure and amphibian persistence in stochastic environments. Proceedings of the Royal Society, London: Biological Sciences, 273, 1429–1434. https://doi.org/10.1098/rspb.2005.3448\n10.1098/rspb.2005.3448PMC156030316777733",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rspb.2005.3448"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1560303"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16777733"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1098/rspb.2005.3448"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0018",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0019",
+      "position": 16,
+      "title": "Why are metapopulations so rare?",
+      "source": "Ecology",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0019"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "93"
+        ],
+        "fpage": [
+          "1967"
+        ],
+        "lpage": [
+          "1978"
+        ]
+      },
+      "originalCitationText": "Fronhofer, E. A.\n, \nKubisch, A.\n, \nHilker, F. M.\n, \nHovestadt, T.\n, & \nPoethke, H. J.\n (2012). Why are metapopulations so rare?\nEcology, 93, 1967–1978. https://doi.org/10.1890/11-1814.1\n2292842410.1890/11-1814.1",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "22928424"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1890/11-1814.1"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1890/11-1814.1"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0019",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0020",
+      "position": 17,
+      "title": "Dispersal: Population consequences and evolution",
+      "source": "Ecology",
+      "year": "1971",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0020"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "52"
+        ],
+        "fpage": [
+          "253"
+        ],
+        "lpage": [
+          "261"
+        ]
+      },
+      "originalCitationText": "Gadgil, M.\n (1971). Dispersal: Population consequences and evolution. Ecology, 52, 253–261. https://doi.org/10.2307/1934583",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.2307/1934583"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0020",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0021",
+      "position": 18,
+      "title": "Effects of scale and habitat on the relationship between regional distribution and local abundance",
+      "source": "Oikos",
+      "year": "1990",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0021"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "58"
+        ],
+        "fpage": [
+          "329"
+        ],
+        "lpage": [
+          "335"
+        ]
+      },
+      "originalCitationText": "Gaston, K. J.\n, & \nLawton, J. H.\n (1990). Effects of scale and habitat on the relationship between regional distribution and local abundance. Oikos, 58, 329–335. https://doi.org/10.2307/3545224",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.2307/3545224"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0021",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0023",
+      "position": 19,
+      "title": null,
+      "source": "Metapopulation ecology",
+      "year": "1999",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33685-cit-0023"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Oxford University Press"
+        ],
+        "publisher-loc": [
+          "Oxford, UK"
+        ]
+      },
+      "originalCitationText": "Hanski, I.\n, & \nHanski, I. A.\n (1999). Metapopulation ecology. Oxford, UK: Oxford University Press.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0023",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0024",
+      "position": 20,
+      "title": "Carry‐over effects as drivers of fitness differences in animals",
+      "source": "Journal of Animal Ecology",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0024"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "80"
+        ],
+        "fpage": [
+          "4"
+        ],
+        "lpage": [
+          "18"
+        ]
+      },
+      "originalCitationText": "Harrison, X. A.\n, \nBlount, J. D.\n, \nInger, R.\n, \nNorris, D. R.\n, & \nBearhop, S.\n (2011). Carry‐over effects as drivers of fitness differences in animals. Journal of Animal Ecology, 80, 4–18. https://doi.org/10.1111/j.1365-2656.2010.01740.x\n2072692410.1111/j.1365-2656.2010.01740.x",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "20726924"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/j.1365-2656.2010.01740.x"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1111/j.1365-2656.2010.01740.x"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0024",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0100",
+      "position": 21,
+      "title": null,
+      "source": "The northern Yellowstone elk: ecology and management",
+      "year": "1982",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33685-cit-0100"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Macmillan"
+        ],
+        "publisher-loc": [
+          "New York, NY"
+        ]
+      },
+      "originalCitationText": "Houston, D. B.\n (1982). The northern Yellowstone elk: ecology and management. New York, NY: Macmillan.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0100",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0025",
+      "position": 22,
+      "title": "Migratory connectivity magnifies the consequences of habitat loss from sea‐level rise for shorebird populations",
+      "source": "Proceedings of the Royal Society of London: Biological Sciences",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0025"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "280"
+        ],
+        "fpage": [
+          "20130325"
+        ]
+      },
+      "originalCitationText": "Iwamura, T.\n, \nPossingham, H. P.\n, \nChades, I.\n, \nMinton, C.\n, \nMurray, N. J.\n, \nRogers, D. I.\n, … \nFuller, R. A.\n (2013). Migratory connectivity magnifies the consequences of habitat loss from sea‐level rise for shorebird populations. Proceedings of the Royal Society of London: Biological Sciences, 280, 20130325\nhttps://doi.org/10.1098/rspb.2013.0325\n10.1098/rspb.2013.0325PMC365243723760637",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rspb.2013.0325"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3652437"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23760637"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1098/rspb.2013.0325"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0025",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0026",
+      "position": 23,
+      "title": null,
+      "source": "Animal migration: A synthesis",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33685-cit-0026"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Milner‐Gulland",
+              "givenNames": "E. J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Milner‐GullandE. J."
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Fryxell",
+              "givenNames": "J. M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FryxellJ. M."
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Sinclair",
+              "givenNames": "A. R. E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SinclairA. R. E."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "91"
+        ],
+        "lpage": [
+          "110"
+        ],
+        "publisher-name": [
+          "Oxford University Press"
+        ],
+        "publisher-loc": [
+          "New York, NY"
+        ]
+      },
+      "originalCitationText": "Jonzén, N.\n, \nKnudsen, E.\n, \nHolt, R. D.\n, & \nSæther, B. E.\n (2011). Animal migration: A synthesis In Milner‐GullandE. J., FryxellJ. M., & SinclairA. R. E. (Eds.), Animal migration: A synthesis (pp. 91–110). New York, NY: Oxford University Press.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0026",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0027",
+      "position": 24,
+      "title": "Reinterpreting space, time lags, and functional responses in ecological models",
+      "source": "Science",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0027"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "290"
+        ],
+        "fpage": [
+          "1758"
+        ],
+        "lpage": [
+          "1761"
+        ]
+      },
+      "originalCitationText": "Keeling, M. J.\n, \nWilson, H. B.\n, & \nPacala, S. W.\n (2000). Reinterpreting space, time lags, and functional responses in ecological models. Science, 290, 1758–1761. https://doi.org/10.1126/science.290.5497.1758\n1109941310.1126/science.290.5497.1758",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "11099413"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/science.290.5497.1758"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1126/science.290.5497.1758"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0027",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0028",
+      "position": 25,
+      "title": "Local migration promotes competitive restraint in a host‐pathogen ‘tragedy of the commons’",
+      "source": "Nature",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0028"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "442"
+        ],
+        "fpage": [
+          "75"
+        ],
+        "lpage": [
+          "78"
+        ]
+      },
+      "originalCitationText": "Kerr, B.\n, \nNeuhauser, C.\n, \nBohannan, B. J.\n, & \nDean, A. M.\n (2006). Local migration promotes competitive restraint in a host‐pathogen ‘tragedy of the commons’. Nature, 442, 75–78. https://doi.org/10.1038/nature04864\n1682345210.1038/nature04864",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "16823452"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nature04864"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1038/nature04864"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0028",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0029",
+      "position": 26,
+      "title": "Roles of corridors in plant dispersal: An example with the endangered Ranunculus nodiflorus",
+      "source": "Conservation Biology",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0029"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "fpage": [
+          "401"
+        ],
+        "lpage": [
+          "410"
+        ]
+      },
+      "originalCitationText": "Kircher, F.\n, \nFerdy, J. B.\n, \nAndalo, C.\n, \nColas, B.\n, & \nMoret, J.\n (2003). Roles of corridors in plant dispersal: An example with the endangered Ranunculus nodiflorus\n. Conservation Biology, 17, 401–410. https://doi.org/10.1046/j.1523-1739.2003.01392.x",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1046/j.1523-1739.2003.01392.x"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0029",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0030",
+      "position": 27,
+      "title": "Dispersal rates affect species composition in metacommunities of Sarracenia purpurea inquilines",
+      "source": "American Naturalist",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0030"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "162"
+        ],
+        "fpage": [
+          "165"
+        ],
+        "lpage": [
+          "171"
+        ]
+      },
+      "originalCitationText": "Kneitel, J. M.\n, & \nMiller, T. E.\n (2003). Dispersal rates affect species composition in metacommunities of Sarracenia purpurea inquilines\n. American Naturalist, 162, 165–171. https://doi.org/10.1086/376585\n10.1086/37658512858261",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1086/376585"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12858261"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1086/376585"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0030",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0032",
+      "position": 28,
+      "title": "Where am I and why? Synthesizing range biology and the eco‐evolutionary dynamics of dispersal",
+      "source": "Oikos",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0032"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "123"
+        ],
+        "fpage": [
+          "5"
+        ],
+        "lpage": [
+          "22"
+        ]
+      },
+      "originalCitationText": "Kubisch, A.\n, \nHolt, R. D.\n, \nPoethke, H. J.\n, & \nFronhofer, E. A.\n (2014). Where am I and why? Synthesizing range biology and the eco‐evolutionary dynamics of dispersal. Oikos, 123, 5–22. https://doi.org/10.1111/j.1600-0706.2013.00706.x",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1111/j.1600-0706.2013.00706.x"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0032",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0033",
+      "position": 29,
+      "title": "Metapopulation dynamics of species with cryptic life stages",
+      "source": "American Naturalist",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0033"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "181"
+        ],
+        "fpage": [
+          "479"
+        ],
+        "lpage": [
+          "491"
+        ]
+      },
+      "originalCitationText": "Lamy, T.\n, \nGimenez, O.\n, \nPointier, J.‐P.\n, \nJarne, P.\n, & \nDavid, P.\n (2013). Metapopulation dynamics of species with cryptic life stages. American Naturalist, 181, 479–491. https://doi.org/10.1086/669676\n10.1086/66967623535613",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1086/669676"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23535613"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1086/669676"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0033",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0034",
+      "position": 30,
+      "title": "Stochastic seasonality and nonlinear density‐dependent factors regulate population size in an African rodent",
+      "source": "Nature",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0034"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "389"
+        ],
+        "fpage": [
+          "176"
+        ],
+        "lpage": [
+          "180"
+        ]
+      },
+      "originalCitationText": "Leirs, H.\n, \nStenseth, N. C.\n, \nNichols, J. D.\n, \nHines, J. E.\n, \nVerhagen, R.\n, & \nVerheyen, W.\n (1997). Stochastic seasonality and nonlinear density‐dependent factors regulate population size in an African rodent. Nature, 389, 176–180.929649410.1038/38271",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "9296494"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/38271"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0034",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0036",
+      "position": 31,
+      "title": "Extinction",
+      "source": "Lectures on Mathematics in the Life Sciences",
+      "year": "1970",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0036"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "75"
+        ],
+        "lpage": [
+          "107"
+        ]
+      },
+      "originalCitationText": "Levins, R.\n (1970). Extinction. Lectures on Mathematics in the Life Sciences, 2, 75–107.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0036",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0200",
+      "position": 32,
+      "title": "Population models for elk, mule deer, and moose on Yellowstone's northern range (No. Scientific Monograph NPS/NRYELL/NRSM‐93/22, pp. 270‐305)",
+      "source": null,
+      "year": "1993",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33685-cit-0200"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "National Park Service"
+        ]
+      },
+      "originalCitationText": "Mack, J. A.\n, & \nSinger, F. J\n. (1993). Population models for elk, mule deer, and moose on Yellowstone's northern range (No. Scientific Monograph NPS/NRYELL/NRSM‐93/22, pp. 270‐305). National Park Service.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0200",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0037",
+      "position": 33,
+      "title": null,
+      "source": "Geographical ecology: Patterns in the distribution of species",
+      "year": "1972",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33685-cit-0037"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Princeton University Press"
+        ],
+        "publisher-loc": [
+          "Princeton, NJ"
+        ]
+      },
+      "originalCitationText": "MacArthur, R. H.\n (1972). Geographical ecology: Patterns in the distribution of species. Princeton, NJ: Princeton University Press.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0037",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0039",
+      "position": 34,
+      "title": "A modeling framework for integrated harvest and habitat management of North American waterfowl: Case‐study of northern pintail metapopulation dynamics",
+      "source": "Ecological Modelling",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0039"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "225"
+        ],
+        "fpage": [
+          "146"
+        ],
+        "lpage": [
+          "158"
+        ]
+      },
+      "originalCitationText": "Mattsson, B. J.\n, \nRunge, M. C.\n, \nDevries, J. H.\n, \nBoomer, G. S.\n, \nEadie, J. M.\n, \nHaukos, D. A.\n, … \nClark, R. G.\n (2012). A modeling framework for integrated harvest and habitat management of North American waterfowl: Case‐study of northern pintail metapopulation dynamics. Ecological Modelling, 225, 146–158. https://doi.org/10.1016/j.ecolmodel.2011.10.028",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1016/j.ecolmodel.2011.10.028"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0039",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0040",
+      "position": 35,
+      "title": "Genetic structure in migratory and nonmigratory populations of Brazilian free‐tailed bats",
+      "source": "Journal of Mammalogy",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0040"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "78"
+        ],
+        "fpage": [
+          "348"
+        ],
+        "lpage": [
+          "357"
+        ]
+      },
+      "originalCitationText": "McCracken, G. F.\n, & \nGassel, M. F.\n (1997). Genetic structure in migratory and nonmigratory populations of Brazilian free‐tailed bats. Journal of Mammalogy, 78, 348–357. https://doi.org/10.2307/1382888",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.2307/1382888"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0040",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0041",
+      "position": 36,
+      "title": "The evolution of dispersal in spatially and temporally varying environments",
+      "source": "American Naturalist",
+      "year": "1992",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0041"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "140"
+        ],
+        "fpage": [
+          "1010"
+        ],
+        "lpage": [
+          "1027"
+        ]
+      },
+      "originalCitationText": "McPeek, M. A.\n, & \nHolt, R. D.\n (1992). The evolution of dispersal in spatially and temporally varying environments. American Naturalist, 140, 1010–1027. https://doi.org/10.1086/285453",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1086/285453"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0041",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0042",
+      "position": 37,
+      "title": "Animal migration amid shifting patterns of phenology and predation: Lessons from a Yellowstone elk herd",
+      "source": "Ecology",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0042"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "94"
+        ],
+        "fpage": [
+          "1245"
+        ],
+        "lpage": [
+          "1256"
+        ]
+      },
+      "originalCitationText": "Middleton, A. D.\n, \nKauffman, M. J.\n, \nMcWhirter, D. E.\n, \nCook, J. G.\n, \nCook, R. C.\n, \nNelson, A. A.\n, … \nKlaver, R. W.\n (2013). Animal migration amid shifting patterns of phenology and predation: Lessons from a Yellowstone elk herd. Ecology, 94, 1245–1256. https://doi.org/10.1890/11-2298.1\n2392348510.1890/11-2298.1",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "23923485"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1890/11-2298.1"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1890/11-2298.1"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0042",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0043",
+      "position": 38,
+      "title": "Graph theory as a proxy for spatially explicit population models in conservation planning",
+      "source": "Ecological Applications",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0043"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "fpage": [
+          "1771"
+        ],
+        "lpage": [
+          "1782"
+        ]
+      },
+      "originalCitationText": "Minor, E. S.\n, & \nUrban, D. L.\n (2007). Graph theory as a proxy for spatially explicit population models in conservation planning. Ecological Applications, 17, 1771–1782. https://doi.org/10.1890/06-1073.1\n1791313910.1890/06-1073.1",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "17913139"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1890/06-1073.1"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1890/06-1073.1"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0043",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0044",
+      "position": 39,
+      "title": "A graph‐theory framework for evaluating landscape connectivity and conservation planning",
+      "source": "Conservation Biology",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0044"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "fpage": [
+          "297"
+        ],
+        "lpage": [
+          "307"
+        ]
+      },
+      "originalCitationText": "Minor, E. S.\n, & \nUrban, D. L.\n (2008). A graph‐theory framework for evaluating landscape connectivity and conservation planning. Conservation Biology, 22, 297–307. https://doi.org/10.1111/j.1523-1739.2007.00871.x\n1824123810.1111/j.1523-1739.2007.00871.x",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "18241238"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/j.1523-1739.2007.00871.x"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1111/j.1523-1739.2007.00871.x"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0044",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0045",
+      "position": 40,
+      "title": "Tests of density‐dependent habitat selection in a patchy environment",
+      "source": "Ecological Monographs",
+      "year": "1987",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0045"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "54"
+        ],
+        "fpage": [
+          "269"
+        ],
+        "lpage": [
+          "281"
+        ]
+      },
+      "originalCitationText": "Morris, D. W.\n (1987). Tests of density‐dependent habitat selection in a patchy environment. Ecological Monographs, 54, 269–281. https://doi.org/10.2307/2937087",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.2307/2937087"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0045",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0046",
+      "position": 41,
+      "title": "Density‐dependent habitat selection: Testing the theory with fitness data",
+      "source": "Evolutionary Ecology",
+      "year": "1989",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0046"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "fpage": [
+          "80"
+        ],
+        "lpage": [
+          "94"
+        ]
+      },
+      "originalCitationText": "Morris, D. W.\n (1989). Density‐dependent habitat selection: Testing the theory with fitness data. Evolutionary Ecology, 3, 80–94. https://doi.org/10.1007/BF02147934",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1007/BF02147934"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0046",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0047",
+      "position": 42,
+      "title": "Dispersal among habitats varying in fitness: Reciprocating migration through ideal habitat selection",
+      "source": "Oikos",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0047"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "107"
+        ],
+        "fpage": [
+          "559"
+        ],
+        "lpage": [
+          "575"
+        ]
+      },
+      "originalCitationText": "Morris, D. W.\n, \nDiffendorfer, J. E.\n, & \nLundberg, P.\n (2004). Dispersal among habitats varying in fitness: Reciprocating migration through ideal habitat selection. Oikos, 107, 559–575. https://doi.org/10.1111/j.0030-1299.2004.12894.x",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1111/j.0030-1299.2004.12894.x"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0047",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0048",
+      "position": 43,
+      "title": null,
+      "source": "The migration ecology of birds",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33685-cit-0048"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Academic Press"
+        ],
+        "publisher-loc": [
+          "London, UK"
+        ]
+      },
+      "originalCitationText": "Newton, I.\n (2010). The migration ecology of birds. London, UK: Academic Press.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0048",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0049",
+      "position": 44,
+      "title": "Adapting environmental management to uncertain but inevitable change",
+      "source": "Proceedings of the Royal Society. B, Biological Sciences",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0049"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "282"
+        ],
+        "fpage": [
+          "20142984"
+        ]
+      },
+      "originalCitationText": "Nicol, S.\n, \nFuller, R. A.\n, \nIwamura, T.\n, & \nChades, I.\n (2015). Adapting environmental management to uncertain but inevitable change. Proceedings of the Royal Society. B, Biological Sciences, 282, 20142984\nhttps://doi.org/10.1098/rspb.2014.2984\n2597246310.1098/rspb.2014.2984PMC4455793",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "25972463"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rspb.2014.2984"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4455793"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1098/rspb.2014.2984"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0049",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0050",
+      "position": 45,
+      "title": "Integrating demographic and genetic effects of connections on the viability of an endangered plant in a highly fragmented habitat",
+      "source": "Biological Conservation",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0050"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "158"
+        ],
+        "fpage": [
+          "167"
+        ],
+        "lpage": [
+          "174"
+        ]
+      },
+      "originalCitationText": "Noël, F.\n, \nMachon, N.\n, & \nRobert, A.\n (2013). Integrating demographic and genetic effects of connections on the viability of an endangered plant in a highly fragmented habitat. Biological Conservation, 158, 167–174. https://doi.org/10.1016/j.biocon.2012.07.029",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1016/j.biocon.2012.07.029"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0050",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0052",
+      "position": 46,
+      "title": "Migratory connectivity of a widely distributed songbird, the American redstart (Setophaga ruticilla)",
+      "source": "Ornithological Monographs",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0052"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "61"
+        ],
+        "fpage": [
+          "14"
+        ],
+        "lpage": [
+          "28"
+        ]
+      },
+      "originalCitationText": "Norris, D. R.\n, \nMarra, P. P.\n, \nBowen, G. J.\n, \nRatcliffe, L. M.\n, \nRoyle, J. A.\n, & \nKyser, T. K.\n (2006). Migratory connectivity of a widely distributed songbird, the American redstart (Setophaga ruticilla). Ornithological Monographs, 61, 14–28. https://doi.org/10.2307/40166836",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.2307/40166836"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0052",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0053",
+      "position": 47,
+      "title": "Predicting the consequences of carry‐over effects for migratory populations",
+      "source": "Biology Letters",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0053"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "148"
+        ],
+        "lpage": [
+          "151"
+        ]
+      },
+      "originalCitationText": "Norris, D. R.\n, & \nTaylor, C. M.\n (2006). Predicting the consequences of carry‐over effects for migratory populations. Biology Letters, 2, 148–151. https://doi.org/10.1098/rsbl.2005.0397\n1714835010.1098/rsbl.2005.0397PMC1617207",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "17148350"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rsbl.2005.0397"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1617207"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1098/rsbl.2005.0397"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0053",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0054",
+      "position": 48,
+      "title": "Biological carryover effects: Linking common concepts and mechanisms in ecology and evolution",
+      "source": "Ecosphere",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0054"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "11"
+        ]
+      },
+      "originalCitationText": "O'Connor, C. M.\n, \nNorris, D. R.\n, \nCrossin, G. T.\n, & \nCooke, S. J.\n (2014). Biological carryover effects: Linking common concepts and mechanisms in ecology and evolution. Ecosphere, 5(3), 1–11.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0054",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0055",
+      "position": 49,
+      "title": "Demographic network and multi‐season occupancy modeling of Rana sylvatica reveal spatial and temporal patterns of population connectivity and persistence",
+      "source": "Landscape Ecology",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0055"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "1601"
+        ],
+        "lpage": [
+          "1613"
+        ]
+      },
+      "originalCitationText": "Peterman, W. E.\n, \nRittenhouse, T. A. G.\n, \nEarl, J. E.\n, & \nSemlitsch, R. D.\n (2013). Demographic network and multi‐season occupancy modeling of Rana sylvatica reveal spatial and temporal patterns of population connectivity and persistence. Landscape Ecology, 28, 1601–1613. https://doi.org/10.1007/s10980-013-9906-9",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1007/s10980-013-9906-9"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0055",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0056",
+      "position": 50,
+      "title": "On r‐ and K‐selection",
+      "source": "American Naturalist",
+      "year": "1970",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0056"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "104"
+        ],
+        "fpage": [
+          "592"
+        ],
+        "lpage": [
+          "597"
+        ]
+      },
+      "originalCitationText": "Pianka, E. R.\n (1970). On r‐ and K‐selection. American Naturalist, 104, 592–597. https://doi.org/10.1086/282697",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1086/282697"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0056",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0057",
+      "position": 51,
+      "title": "Network thinking in ecology and evolution",
+      "source": "Trends in Ecology & Evolution",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0057"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "fpage": [
+          "345"
+        ],
+        "lpage": [
+          "353"
+        ]
+      },
+      "originalCitationText": "Proulx, S. R.\n, \nPromislow, D. E.\n, & \nPhillips, P. C.\n (2005). Network thinking in ecology and evolution. Trends in Ecology & Evolution, 20, 345–353. https://doi.org/10.1016/j.tree.2005.04.004\n1670139110.1016/j.tree.2005.04.004",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "16701391"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.tree.2005.04.004"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1016/j.tree.2005.04.004"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0057",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0058",
+      "position": 52,
+      "title": null,
+      "source": "The Monarch butterfly: Biology and conservation",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33685-cit-0058"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Oberhauser",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OberhauserK."
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Solensky",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SolenskyM."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "9"
+        ],
+        "lpage": [
+          "20"
+        ],
+        "publisher-name": [
+          "Cornell Press"
+        ],
+        "publisher-loc": [
+          "Ithaca, NY"
+        ]
+      },
+      "originalCitationText": "Prysby, M.\n, & \nOberhauser, K.\n (2004) Temporal and geographic variation in monarch densities: Citizen scientists document monarch population patterns In OberhauserK. & SolenskyM. (Eds.), The Monarch butterfly: Biology and conservation (pp. 9–20). Ithaca, NY: Cornell Press.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0058",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0060",
+      "position": 53,
+      "title": "The role of landscape connectivity in planning and implementing conservation and restoration priorities",
+      "source": "Issues in Ecology",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0060"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "20"
+        ]
+      },
+      "originalCitationText": "Rudnick, D.\n, \nRyan, S. J.\n, \nPeier, P.\n, \nCushman, S. A.\n, \nDieffenbach, F.\n, \nEpps, C.\n, \nGerber, L. R.\n, … \nMerenlender, A. M.\n (2012). The role of landscape connectivity in planning and implementing conservation and restoration priorities. Issues in Ecology, 16, 1–20.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0060",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0061",
+      "position": 54,
+      "title": "The role of local populations within a landscape context: Defining and classifying sources and sinks",
+      "source": "American Naturalist",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0061"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "167"
+        ],
+        "fpage": [
+          "925"
+        ],
+        "lpage": [
+          "938"
+        ]
+      },
+      "originalCitationText": "Runge, J. P.\n, \nRunge, M. C.\n, & \nNichols, J. D.\n (2006). The role of local populations within a landscape context: Defining and classifying sources and sinks. American Naturalist, 167, 925–938. https://doi.org/10.1086/503531\n10.1086/50353116615034",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1086/503531"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16615034"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1086/503531"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0061",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0062",
+      "position": 55,
+      "title": "NIMBioS‐NetworkCode/MigrationNetwork: Generalized Network Framework Code",
+      "source": null,
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "miscellaneous",
+        "id": "ece33685-cit-0062"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sample, C.\n, \nFryxell, J.\n, \nBieri, J.\n, \nFederico, P.\n, \nEarl, J.\n, \nWiederholt, R.\n, & \nNorris, D. R.\n (2017). NIMBioS‐NetworkCode/MigrationNetwork: Generalized Network Framework Code. Zenodo. Retrieved from https://doi.org/10.5281/zenodo.237369",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.5281/zenodo.237369"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0062",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0063",
+      "position": 56,
+      "title": "Integrated population models: A novel analysis framework for deeper insights into population dynamics",
+      "source": "Journal of Ornithology",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0063"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "152"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "227"
+        ],
+        "lpage": [
+          "237"
+        ]
+      },
+      "originalCitationText": "Schaub, M.\n, & \nAbadi, F.\n (2011). Integrated population models: A novel analysis framework for deeper insights into population dynamics. Journal of Ornithology, 152(1), 227–237. https://doi.org/10.1007/s10336-010-0632-7",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1007/s10336-010-0632-7"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0063",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0300",
+      "position": 57,
+      "title": "Density dependence, compensation, and environmental effects on elk calf mortality in Yellowstone National Park",
+      "source": "The Journal of Wildlife Management",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0300"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "61"
+        ],
+        "fpage": [
+          "12"
+        ],
+        "lpage": [
+          "25"
+        ]
+      },
+      "originalCitationText": "Singer, F. J.\n, \nHarting, A.\n, \nSymonds, K. K.\n, & \nCoughenour, M. B.\n (1997). Density dependence, compensation, and environmental effects on elk calf mortality in Yellowstone National Park. The Journal of Wildlife Management, 61, 12–25.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0300",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0066",
+      "position": 58,
+      "title": "Connectivity of wood thrush breeding, wintering, and migration sites based on range‐wide tracking",
+      "source": "Conservation Biology",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0066"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "164"
+        ],
+        "lpage": [
+          "174"
+        ]
+      },
+      "originalCitationText": "Stanley, C. Q.\n, \nMcKinnon, E. A.\n, \nFraser, K. C.\n, \nMacpherson, M. P.\n, \nCasbourn, G.\n, \nFriesen, L.\n, … \nStutchbury, B. J.\n (2015). Connectivity of wood thrush breeding, wintering, and migration sites based on range‐wide tracking. Conservation Biology, 29(1), 164–174. https://doi.org/10.1111/cobi.12352\n2505279510.1111/cobi.12352",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "25052795"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/cobi.12352"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1111/cobi.12352"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0066",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0400",
+      "position": 59,
+      "title": "The northern Yellowstone elk: Density dependence and climatic conditions",
+      "source": "The Journal of Wildlife Management",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0400"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "66"
+        ],
+        "fpage": [
+          "106"
+        ],
+        "lpage": [
+          "122"
+        ]
+      },
+      "originalCitationText": "Taper, M. L.\n, & \nGogan, P. J.\n (2002). The northern Yellowstone elk: Density dependence and climatic conditions. The Journal of Wildlife Management, 66, 106–122.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0400",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0067",
+      "position": 60,
+      "title": "Metapopulation models for seasonally migratory animals",
+      "source": "Biology Letters",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0067"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "477"
+        ],
+        "lpage": [
+          "480"
+        ]
+      },
+      "originalCitationText": "Taylor, C. M.\n, & \nHall, R. J.\n (2012). Metapopulation models for seasonally migratory animals. Biology Letters, 8, 477–480. https://doi.org/10.1098/rsbl.2011.0916\n2209020510.1098/rsbl.2011.0916PMC3367723",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "22090205"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rsbl.2011.0916"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3367723"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1098/rsbl.2011.0916"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0067",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0068",
+      "position": 61,
+      "title": "Predicting conditions for migration: Effects of density dependence and habitat quality",
+      "source": "Biology Letters",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0068"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "fpage": [
+          "280"
+        ],
+        "lpage": [
+          "283"
+        ]
+      },
+      "originalCitationText": "Taylor, C. M.\n, & \nNorris, D. R.\n (2007). Predicting conditions for migration: Effects of density dependence and habitat quality. Biology Letters, 3, 280–283. https://doi.org/10.1098/rsbl.2007.0053\n1737458810.1098/rsbl.2007.0053PMC2464694",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "17374588"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rsbl.2007.0053"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2464694"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1098/rsbl.2007.0053"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0068",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0069",
+      "position": 62,
+      "title": "Population dynamics in migratory networks",
+      "source": "Theoretical Ecology",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0069"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "fpage": [
+          "65"
+        ],
+        "lpage": [
+          "73"
+        ]
+      },
+      "originalCitationText": "Taylor, C. M.\n, & \nNorris, D. R.\n (2010). Population dynamics in migratory networks. Theoretical Ecology, 3, 65–73. https://doi.org/10.1007/s12080-009-0054-4",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1007/s12080-009-0054-4"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0069",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0070",
+      "position": 63,
+      "title": null,
+      "source": "Spatial ecology: The role of space in population dynamics and interspecific interactions (Vol. 30)",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece33685-cit-0070"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Princeton University Press"
+        ],
+        "publisher-loc": [
+          "Princeton, NJ"
+        ]
+      },
+      "originalCitationText": "Tilman, D.\n, & \nKareiva, P. M.\n (1997). Spatial ecology: The role of space in population dynamics and interspecific interactions (Vol. 30). Princeton, NJ: Princeton University Press.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0070",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0071",
+      "position": 64,
+      "title": "Landscape connectivity: A graph‐theoretic perspective",
+      "source": "Ecology",
+      "year": "2001",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0071"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "82"
+        ],
+        "issue": [
+          "5"
+        ],
+        "fpage": [
+          "1205"
+        ],
+        "lpage": [
+          "1218"
+        ]
+      },
+      "originalCitationText": "Urban, D.\n, & \nKeitt, T.\n (2001). Landscape connectivity: A graph‐theoretic perspective. Ecology, 82(5), 1205–1218. https://doi.org/10.1890/0012-9658(2001)082[1205:LCAGTP]2.0.CO;2",
+      "identifiers": [],
+      "externalLinks": [
+        "https://doi.org/10.1890/0012-9658(2001)082[1205:LCAGTP]2.0.CO;2"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0071",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0072",
+      "position": 65,
+      "title": "Graph models of habitat mosaics",
+      "source": "Ecology Letters",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0072"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "260"
+        ],
+        "lpage": [
+          "273"
+        ]
+      },
+      "originalCitationText": "Urban, D. L.\n, \nMinor, E. S.\n, \nTreml, E. A.\n, & \nSchick, R. S.\n (2009). Graph models of habitat mosaics. Ecology Letters, 12, 260–273. https://doi.org/10.1111/j.1461-0248.2008.01271.x\n1916143210.1111/j.1461-0248.2008.01271.x",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "19161432"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/j.1461-0248.2008.01271.x"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1111/j.1461-0248.2008.01271.x"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0072",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0074",
+      "position": 66,
+      "title": "Moving across the border: Modeling migratory bat populations",
+      "source": "Ecosphere",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0074"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "114"
+        ]
+      },
+      "originalCitationText": "Wiederholt, R.\n, \nLópez‐Hoffman, L.\n, \nCline, J.\n, \nMedellin, R.\n, \nCryan, P.\n, \nRussell, A.\n, … \nSemmens, D.\n (2013). Moving across the border: Modeling migratory bat populations. Ecosphere, 4, 114.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0074",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0075",
+      "position": 67,
+      "title": "Evaluating the effects of Anthropogenic stressors on source‐sink dynamics in pond‐breeding amphibians",
+      "source": "Conservation Biology",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0075"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "595"
+        ],
+        "lpage": [
+          "604"
+        ]
+      },
+      "originalCitationText": "Willson, J. D.\n, & \nHopkins, W. A.\n (2013). Evaluating the effects of Anthropogenic stressors on source‐sink dynamics in pond‐breeding amphibians. Conservation Biology, 27(3), 595–604. https://doi.org/10.1111/cobi.12044\n2355149710.1111/cobi.12044",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "23551497"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/cobi.12044"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1111/cobi.12044"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0075",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece33685-bib-0076",
+      "position": 68,
+      "title": "Making leaps in amphibian ecotoxicology: Translating individual‐level effects of contaminants to population viability",
+      "source": "Ecological Applications",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece33685-cit-0076"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "1791"
+        ],
+        "lpage": [
+          "1802"
+        ]
+      },
+      "originalCitationText": "Willson, J. D.\n, \nHopkins, W. A.\n, \nBergeron, C. M.\n, & \nTodd, B. D.\n (2012). Making leaps in amphibian ecotoxicology: Translating individual‐level effects of contaminants to population viability. Ecological Applications, 22(6), 1791–1802. https://doi.org/10.1890/11-0915.1\n2309201610.1890/11-0915.1",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "23092016"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1890/11-0915.1"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1890/11-0915.1"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5756893/article.xml",
+        "articleSha256": "a76889ef2abb2a5896c0bcba6c81e6bb9aecdf0ffdc0710c181731f9fadbac34",
+        "referenceId": "ece33685-bib-0076",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Ecology and Evolution"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Ecol Evol"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Ecol Evol"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "1740"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ece"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101566408"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "ECE3"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2045-7758"
+      }
+    ],
+    "publisherNames": [
+      "Wiley"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "8"
+    ],
+    "issue": [
+      "1"
+    ],
+    "fpage": [
+      "493"
+    ],
+    "lpage": [
+      "508"
+    ]
+  }
+}

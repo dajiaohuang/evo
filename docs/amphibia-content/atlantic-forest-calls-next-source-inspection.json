@@ -1,0 +1,46 @@
+{
+  "pmc": "PMC6746222",
+  "nextBatch": 276,
+  "licenseAsRecorded": "Creative Commons Attribution; version not yet independently checked",
+  "readThisTurn": [
+    "XML sec2 complete Materials and Methods including Table1 and acquisition, filtering, standardization, call definitions and statistics"
+  ],
+  "sourceSampling": {
+    "audioFiles": 50,
+    "speciesLabels": 20,
+    "recordingDates": "1963–2016 as Table1",
+    "recordingSources": "Multiple recordists, localities, devices and FNJV archive"
+  },
+  "requiredBeforeAuthoring": [
+    "Inspect all20 named Results accounts, associated per-species temperatures and temporal/spectral units",
+    "Extract Table1 with original row/cell structure: male count versus call count, filters, locality, dates, FNJV ID, identification criterion and historical conservation column",
+    "Resolve frozen-name changes, particularly Ololygon combinations, without guessing from epithet",
+    "Retain Table1 tripui calls analyzed ?? and any Results denominator discrepancy; no invented number",
+    "Identify download links and accessibility for archived audio; no acoustic reanalysis or voucher review claimed unless actually performed"
+  ],
+  "limitsAlreadyIdentified": [
+    "Historic recordings and bounded samples, not current species distributions or universal call ranges",
+    "Repeated calls from one male not independent biological replicates",
+    "Means/SD calculated from male means for multiple males according to Methods; not interchangeable with pooled-call statistics",
+    "Files standardized44.1kHz/16bit and peaknormalized minus0.8dB: no calibrated source-level loudness inferred",
+    "Bandpass settings species-specific and heterogeneous equipment/conditions retained",
+    "Methods print FFT1024,50percentoverlap, temporalhop256samples and grid93.8Hz; apparent specification inconsistency retained, not silently recalculated as a verified analysis setting",
+    "Bandwidth90percent and Frequency5/95percent measure energy-defined bands, not absolute waveform minimum/maximum frequency",
+    "2014MMA threat labels and2019 call-description gaps are historical statements, not current conservation assessments or current missing-call census",
+    "Museum material cited for identification is not automatically the individually recorded vocalizing male"
+  ],
+  "fullArticleRead": false,
+  "speciesAssigned": false,
+  "contentAuthoredFromThisSource": false,
+  "testsRun": false,
+  "authoringOutcome": {
+    "speciesPages": 20,
+    "speciesSections": 107,
+    "groupGenera": 12,
+    "groupSections": 38,
+    "routes": 20,
+    "licenseVerified": "CC BY4.0 explicitXMLhref",
+    "sourceLimits": "atlantic-calls-source-limits.json",
+    "fullArticleRead": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "source": "PMC12905593",
+  "doi": "10.3897/BDJ.14.e183994",
+  "year": 2026,
+  "colId": "QT3BP",
+  "license": "CC BY 4.0",
+  "licenseEvidence": "article.xml license-p explicitly names CC BY 4.0",
+  "readScope": "Selected methods, sex-specific adult and staged-larval descriptions, raw XML sec10 diagnostic list, distribution, ecology and discussion",
+  "limits": [
+    {
+      "kind": "source-direction-versus-coordinate-conflict",
+      "locators": ["reading-sections section 6 paragraphs 1–2", "reading-sections section 8 paragraph 0"],
+      "asRecorded": ["Type: 29.24203 N, 108.902202 E", "New: 28.77761 N, 107.26797 E", "Discussion: approximately 300 km northwest"],
+      "handling": "New latitude is lower and longitude farther west. Coordinates and source claim retained separately; neither direction wording nor distance independently certified as a derived distribution metric."
+    },
+    {
+      "kind": "larval-nostril-wording-versus-ratio",
+      "locators": ["reading-sections section 4 paragraph 11"],
+      "asRecorded": ["Nostrils closer to eye than snout", "NED/SND = 1.19"],
+      "handling": "Word/numeric discrepancy retained; no silent ratio inversion or corrected identification feature."
+    },
+    {
+      "kind": "vocal-sac-description-revision",
+      "locators": ["reading-sections section 4 paragraph 3", "reading-sections section 8 paragraph 1", "XML sec10 diagnosis list"],
+      "asRecorded": ["New Guizhou males have internal vocal sacs", "Authors contrast original type-locality description and propose earlier descriptive inaccuracy"],
+      "handling": "Attributed source revision, not experimentally demonstrated geographic divergence or independent re-examination of every type specimen."
+    },
+    {
+      "kind": "measurement-and-sampling-units",
+      "locators": ["reading-sections section 1 paragraphs 1, 7–8", "reading-sections section 4 paragraphs 10–15", "XML sec10 diagnosis list"],
+      "handling": "Three males, three females and five larvae at one new locality are not eleven adults or eleven independent populations. Stage-30 total length, body length and SVL retain source labels. Reference-larva values are not silently made additive or substituted for adult SVL. Caliper accuracy is 0.1 mm as recorded; source-reported decimal precision is not a new instrument certification."
+    },
+    {
+      "kind": "dated-conservation-and-unmeasured-reproductive-functions",
+      "locators": ["reading-sections section 7 paragraph 0", "reading-sections section 8 paragraph 2"],
+      "handling": "Circular nests and night calling do not establish guarding, clutch count, success or measured acoustics. IUCN 2022 unassessed statement is attributed and dated, not current status verification. Potential pollution and fragmentation are not measured population decline."
+    }
+  ],
+  "fullArticleRead": false,
+  "biologicalReaderComplete": false,
+  "contemporaryConceptEquivalenceIndependentlyCertified": false,
+  "testsRun": false
+}

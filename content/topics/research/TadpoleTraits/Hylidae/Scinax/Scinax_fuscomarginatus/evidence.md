@@ -1,0 +1,550 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Scinax fuscomarginatus
+    name:
+      en: Scinax fuscomarginatus
+      zh: Scinax fuscomarginatus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/2/text/zh
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Hylidae
+      genus: Scinax
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 2476
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/0/values/0
+          - Scinax fuscomarginatus
+          - Hylidae
+          - Scinax
+          - Scinax fuscomarginatus
+          - 11
+          - 34, 39
+          - 30.71
+          - 1.68
+          - 10.39
+          - 0.44
+          - 5.12
+          - 0.57
+          - 5.91
+          - 0.52
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.64
+          - 0.27
+          - 2.73
+          - 0.29
+          - 2.44
+          - 0.29
+          - 2.17
+          - 0.23
+          - null
+          - null
+          - null
+          - null
+          - 2.56
+          - 0.21
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.56
+          - 0.12
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.45
+          - 0.05
+          - null
+          - null
+          - null
+          - null
+          - 1.69
+          - 0.21
+    originalImageRows:
+      - rowNumber: 1718
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/0/values/0
+          - Measurement
+          - Color image
+          - Scinax fuscomarginatus
+          - Hylidae
+          - Scinax
+          - Scinax fuscomarginatus
+          - 36 (Judging based on the picture)
+          - 34.508
+          - 9.875
+          - 24.75
+          - 6.63
+          - 7.504
+          - 2.25
+          - 2.878
+          - 2.878
+          - 5.751
+          - 1.75
+          - 2.761
+          - 0.286165526834357
+          - 0.71722499136364
+          - 0.19212936137523
+          - 0.21745682166584
+          - 0.65222719369422
+          - 0.8349554239
+          - 0.8349554239
+          - 0.16665777824
+          - 0.57128781731772
+          - 0.81432363599
+          - Yanfang Song
+      - rowNumber: 1719
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/1/values/0
+          - Measurement
+          - Color image
+          - Scinax fuscomarginatus
+          - Hylidae
+          - Scinax
+          - Scinax fuscomarginatus
+          - 26 (Judging based on the picture)
+          - 20.111
+          - 5.221
+          - 14.667
+          - 4.001
+          - 4.556
+          - 1.555
+          - 1.555
+          - 1.67
+          - 3.333
+          - 1.333
+          - 2.249
+          - 0.25969169111432
+          - 0.7293237183638
+          - 0.19894585529561
+          - 0.2265426888115
+          - 0.7732869176728
+          - 0.7732869176728
+          - 0.83391328128885
+          - 0.165731974446
+          - 0.662821341554373
+          - 0.111829347123465
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1718
+        scientificName: Scinax fuscomarginatus
+        sourceField: TMH/TL
+        suppliedRatio: 0.65222719369422
+        originalNumerator: 2.25
+        originalTotalLength: 34.508
+        computedRatio: 0.06520227193694215
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1718
+        scientificName: Scinax fuscomarginatus
+        sourceField: DFH/TL
+        suppliedRatio: 0.8349554239
+        originalNumerator: 2.878
+        originalTotalLength: 34.508
+        computedRatio: 0.0834009505042309
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1718
+        scientificName: Scinax fuscomarginatus
+        sourceField: VFH/TL
+        suppliedRatio: 0.8349554239
+        originalNumerator: 2.878
+        originalTotalLength: 34.508
+        computedRatio: 0.0834009505042309
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1718
+        scientificName: Scinax fuscomarginatus
+        sourceField: TMW/TL
+        suppliedRatio: 0.57128781731772
+        originalNumerator: 1.75
+        originalTotalLength: 34.508
+        computedRatio: 0.05071287817317723
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1718
+        scientificName: Scinax fuscomarginatus
+        sourceField: OD/TL
+        suppliedRatio: 0.81432363599
+        originalNumerator: 2.761
+        originalTotalLength: 34.508
+        computedRatio: 0.08001043236350991
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1719
+        scientificName: Scinax fuscomarginatus
+        sourceField: TMH/TL
+        suppliedRatio: 0.7732869176728
+        originalNumerator: 1.555
+        originalTotalLength: 20.111
+        computedRatio: 0.0773208691760728
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1719
+        scientificName: Scinax fuscomarginatus
+        sourceField: DFH/TL
+        suppliedRatio: 0.7732869176728
+        originalNumerator: 1.555
+        originalTotalLength: 20.111
+        computedRatio: 0.0773208691760728
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1719
+        scientificName: Scinax fuscomarginatus
+        sourceField: VFH/TL
+        suppliedRatio: 0.83391328128885
+        originalNumerator: 1.67
+        originalTotalLength: 20.111
+        computedRatio: 0.08303913281288847
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1719
+        scientificName: Scinax fuscomarginatus
+        sourceField: TMW/TL
+        suppliedRatio: 0.662821341554373
+        originalNumerator: 1.333
+        originalTotalLength: 20.111
+        computedRatio: 0.06628213415543732
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.286165526834357
+        row: 1718
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.71722499136364
+        row: 1718
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.19212936137523
+        row: 1718
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.21745682166584
+        row: 1718
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.16665777824
+        row: 1718
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4VJWQ
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Scinax fuscomarginatus — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2476; Picture measurement data rows 1718, 1719; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/0/values/0 -->
+Santos, D. L., Feio, R. N. & Nomura, F. (2023). Morphological characterization and taxonomic key for tadpoles of Brazilian Cerrado. Biota Neotropica, 23(2), 20231486-20231529.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/0/values/0 -->
+Dubeux, M. J. M., Nascimento, F. A. C. D., Lima, L. R., Magalhães, F. D. M., Silva, I. R. S. D., Gonçalves, U., Almeida, J. P. F., Correia, L. L., Garda, A. A., Mesquita, D. O., Rossa-Feres, D. D. C. & Mott, T. (2020). Morphological characterization and taxonomic key of tadpoles (Amphibia: Anura) from the northern region of the Atlantic Forest. Biota Neotropica, 20(2), e20180718.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/1/values/0 -->
+Alves-Ferreira, G., Paixão, I. B. F. D. & Nomura, F. (2021). Morphological characterization and diversity of tadpoles (Amphibia: Anura) at Emas National Park and its surrounding, Goiás State, Brazil. Biota Neotropica, 21(4), 20201178-20201190.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

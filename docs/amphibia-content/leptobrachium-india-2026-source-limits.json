@@ -1,0 +1,53 @@
+{
+  "source": "PMC12794644",
+  "doi": "10.7717/peerj.20397",
+  "year": 2026,
+  "license": "CC BY-NC 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "licenseEvidence": "article.xml license/ext-link uses by-nc/4.0 and license-p explicitly limits reuse to non-commercial purposes, despite abbreviated link label Creative Commons Attribution License",
+  "scope": "Selected molecular methods and individually read bompu, aryatium, sylheticum, mechuka and somani paragraphs; not full article certification",
+  "limits": [
+    {
+      "colId": "Q9ZYD",
+      "kind": "impossible-pulse-timing-as-printed",
+      "locator": "reading-sections section 5 paragraph 20",
+      "asRecorded": ["Maximum amplitude pulse duration 7.4 ms", "Pulse rise time 74.7 ms", "Pulse fall time 5.9 ms"],
+      "handling": "Rise time exceeds total pulse duration; explicitly flagged and not used as a valid pulse measure. No guessed decimal correction."
+    },
+    {
+      "colId": "Q9ZYD",
+      "kind": "frequency-range-comparison-wording",
+      "locator": "reading-sections section 5 paragraph 22",
+      "asRecorded": ["New frequency range 1.34–1.46 kHz", "Original description range 1.4–1.9 kHz", "Text suggests new values fall within old range"],
+      "handling": "Ranges only partly overlap. Mean falls in old range; entire new range does not. Different call terminology limits direct comparison to frequency and pulse rate as authors specify."
+    },
+    {
+      "colId": "V37RS",
+      "kind": "malformed-head-dimension-wording",
+      "locator": "reading-sections section 5 paragraph 2",
+      "asRecorded": "head narrower than wide",
+      "handling": "No head length/width ratio inferred or silent repair. Other explicitly described external characters retained."
+    },
+    {
+      "colId": "3TKBG",
+      "kind": "malformed-terminal-cranial-sentence",
+      "locator": "reading-sections section 4 paragraph 2",
+      "handling": "Final joined cranial wording is not reconstructed; clear earlier diagnostic statements are separately attributed."
+    },
+    {
+      "colId": "Q9ZYD",
+      "kind": "confirmed-versus-predicted-distribution",
+      "locator": "reading-sections section 5 paragraph 23",
+      "handling": "Indian genetically confirmed sites remain separate from tentative southern Assam historical smithi reassignment and predicted Nagaland occurrence. Geographic proximity does not provide voucher genetic confirmation."
+    },
+    {
+      "kind": "marker-and-acoustic-units",
+      "locators": ["reading-sections section 1 paragraphs 0–1", "reading-sections section 4 paragraph 11", "reading-sections section 5 paragraphs 20, 22"],
+      "handling": "Mitochondrial 12S/tRNA-Val/16S phylogeny is not nuclear genomic isolation evidence; 120 dataset samples are not species-specific adult counts. Call groups, individual calls, pulses and independent frogs remain different units. Cited earlier bompu calls and larvae are not new independent measurements."
+    }
+  ],
+  "fullArticleRead": false,
+  "biologicalReaderComplete": false,
+  "contemporaryConceptEquivalenceIndependentlyCertified": false,
+  "testsRun": false
+}

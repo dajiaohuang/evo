@@ -1,0 +1,2026 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  caecilian-traits-reader:
+    scientificName: Caecilia tentaculata
+    name:
+      en: Caecilia tentaculata
+      zh: Caecilia tentaculata
+    sourceClassification:
+      family: Caeciliidae
+      genus: Caecilia
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited caecilian record
+          zh: 存档中的蚓螈记录
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Measurement material
+          zh: 测量材料
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/1/text/zh
+      - topic: ecology
+        title:
+          en: Compiled habitat categories
+          zh: 汇编的栖地类别
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/2/text/zh
+      - topic: morphology
+        title:
+          en: Compiled anatomical counts
+          zh: 汇编的解剖计数
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+          metadataVariant: 0
+          sourceKey: caeciliantraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - rightsEvidenceUrl
+            - licenseAssessment
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    originalSpeciesRow:
+      rowNumber: 36
+      values:
+        - Caeciliidae
+        - Caecilia
+        - Caecilia tentaculata
+        - markdown: evidence.md
+          field: /records/caecilian-traits-reader/originalSpeciesRow/values/3
+        - Terrestrial
+        - Fossorial
+        - It is a subterranean species
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - "IUCN. The IUCN Red List of Threatened Species. Version 2023-1, <https://www.iucnredlist.org> (2023). "
+        - 365.6
+        - null
+        - null
+        - null
+        - null
+        - 8.3
+        - 9.6
+        - 5.6
+        - null
+        - 7.9
+        - 9.9
+        - 7.7
+        - null
+        - null
+        - 5.3
+        - null
+        - null
+        - null
+        - 5.2
+        - 3
+        - 3.5
+        - 3.5
+        - 1.4
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 3.2
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 2.2
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 124.6
+        - 35.6
+        - null
+        - 0
+        - 0
+        - 0
+        - 3
+        - null
+    originalMeasurementRows:
+      - rowNumber: 1451
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/0/values/0
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - P
+          - PAGS
+          - null
+          - 513.6±98.9
+          - null
+          - null
+          - null
+          - null
+          - 13.7±2.9
+          - 17.2±4.6
+          - 9.6±2.3
+          - null
+          - 15.3±4.2
+          - 15.7±2.7
+          - 11.7±2.3
+          - null
+          - null
+          - 9±2.2
+          - null
+          - null
+          - null
+          - 7.3±1.3
+          - 4.1±0.6
+          - 5.2±0.9
+          - 5.5±1.1
+          - 2.3±0.5
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 4.8±0.9
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.6±0.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 119.7±3.7
+          - 36.1±4.9
+          - null
+          - 17±2
+          - 16±2.7
+          - 14.4±1.5
+          - 2.5±1
+          - null
+      - rowNumber: 1452
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/1/values/0
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - P
+          - Manaus region
+          - null
+          - 605.5±238.7
+          - null
+          - null
+          - null
+          - null
+          - 14.2±9
+          - 18.7±10.8
+          - 9.1±6.2
+          - null
+          - 17.1±10.2
+          - 16.3±8.8
+          - 12.4±6.8
+          - null
+          - null
+          - 9.7±5.5
+          - null
+          - null
+          - null
+          - 8.4±4.6
+          - 4.6±2.6
+          - 6±3.5
+          - 5.8±3.1
+          - 2.6±1.5
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5.3±2.9
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.5±0.5
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 126.2±3.1
+          - 38±4.1
+          - null
+          - 15.3±6.6
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1453
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/2/values/0
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - P
+          - PAB
+          - null
+          - 460.7±65
+          - null
+          - null
+          - null
+          - null
+          - 11.1±5.5
+          - 13.7±7
+          - 7.2±3.7
+          - null
+          - 12.4±6.3
+          - 14±5.6
+          - 9.8±3.4
+          - null
+          - null
+          - 7.4±3
+          - null
+          - null
+          - null
+          - 6.2±1.6
+          - 3.5±1.2
+          - 4.4±1.8
+          - 4.7±1.6
+          - 1.8±0.6
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 4.2±1.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.4±0.7
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 122.4±2.7
+          - 28.5±7.9
+          - null
+          - 15.3±7.7
+          - 17±7.5
+          - 13.6±6.4
+          - 3.4±1.6
+          - null
+      - rowNumber: 1454
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/3/values/0
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - P
+          - Mato Grosso
+          - null
+          - 365.6±98.9
+          - null
+          - null
+          - null
+          - null
+          - 8.3±2.6
+          - 9.6±3.1
+          - 5.6±2.3
+          - null
+          - 7.9±3.2
+          - 9.9±1.5
+          - 7.7±1
+          - null
+          - null
+          - 5.3±2.4
+          - null
+          - null
+          - null
+          - 5.2±0.8
+          - 3±0.5
+          - 3.5±0.6
+          - 3.5±0.6
+          - 1.4±0.3
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.2±0.5
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.2±0.6
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 124.6±2.4
+          - 35.6±4.6
+          - null
+          - 16.1±3.1
+          - 16.5±4.8
+          - 15.4±3.8
+          - 3±1.1
+          - null
+      - rowNumber: 1455
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/4/values/0
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - P
+          - Acre
+          - null
+          - 677±114.6
+          - null
+          - null
+          - null
+          - null
+          - 16.9±1.8
+          - 22±3
+          - 13.7±2.5
+          - null
+          - 19.8±2.4
+          - 19±2.3
+          - 15.1±2.3
+          - null
+          - null
+          - 10.6±1.5
+          - null
+          - null
+          - null
+          - 9.9±1.5
+          - 5.8±1.1
+          - 6.9±1.2
+          - 6.8±1
+          - 2.9±0.3
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.3±1
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.2±0.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 120.7±2.8
+          - 34±1.8
+          - null
+          - 17.2±1.9
+          - 14.3±6.2
+          - 10±4.3
+          - 2
+          - null
+      - rowNumber: 1456
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - AMNH 49475
+          - M
+          - "437"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "13"
+          - null
+          - null
+          - "17.2"
+          - null
+          - null
+          - "12.5"
+          - null
+          - null
+          - "14"
+          - "17"
+          - "22"
+          - "6.6"
+          - null
+          - null
+          - "4.1"
+          - "2.25"
+          - null
+          - null
+          - null
+          - null
+          - "6.4"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 9-1-9
+          - 9-1-9
+          - 11-11
+          - 2-2
+          - null
+      - rowNumber: 1457
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - AMNH 49961
+          - null
+          - "631"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "20"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "20.5"
+          - null
+          - null
+          - "21.5"
+          - "28"
+          - "33"
+          - null
+          - null
+          - null
+          - "9"
+          - "4.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "122"
+          - null
+          - null
+          - null
+          - 12-1-12
+          - 11-10
+          - 2-2
+          - null
+      - rowNumber: 1458
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 35683
+          - null
+          - "582"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "22.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "19"
+          - null
+          - null
+          - "23"
+          - "26.8"
+          - "33.8"
+          - null
+          - null
+          - null
+          - "8.4"
+          - "1.9"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "121"
+          - "33"
+          - null
+          - 8-1-8
+          - 9-1-9
+          - 8-8
+          - 1-2
+          - null
+      - rowNumber: 1459
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 98518
+          - null
+          - "490"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "15.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "13.4"
+          - null
+          - null
+          - "15.8"
+          - "20.2"
+          - "28"
+          - null
+          - null
+          - null
+          - "7"
+          - "2.7"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "119"
+          - "23"
+          - null
+          - 11-1-11
+          - 11-1-11
+          - 10-10
+          - 3-?
+          - null
+      - rowNumber: 1460
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 125318
+          - null
+          - "324"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "9.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "9.7"
+          - null
+          - null
+          - "11"
+          - "13.7"
+          - "17.6"
+          - null
+          - null
+          - null
+          - "4.2"
+          - "2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "121"
+          - "43"
+          - null
+          - 11-1-11
+          - 10-1-10
+          - 10-10
+          - 2-2
+          - null
+      - rowNumber: 1461
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 125319
+          - null
+          - "399"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "12.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "11"
+          - null
+          - null
+          - "14.6"
+          - "17.3"
+          - "22"
+          - null
+          - null
+          - null
+          - "5"
+          - "2.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "119"
+          - "45"
+          - null
+          - 9-1-9
+          - 10-1-9
+          - 11-11
+          - 2-2
+          - null
+      - rowNumber: 1462
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 125320
+          - M
+          - "638"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "24.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "16"
+          - null
+          - null
+          - "20"
+          - "24.7"
+          - "32.8"
+          - null
+          - null
+          - null
+          - "8.6"
+          - "3.9"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "118"
+          - "31"
+          - null
+          - 10-1-10
+          - 12-1-12
+          - 9-9
+          - 3-3
+          - null
+      - rowNumber: 1463
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 125321
+          - M
+          - "712"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "28"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "19"
+          - null
+          - null
+          - null
+          - "28"
+          - "35"
+          - null
+          - null
+          - null
+          - "9.4"
+          - "4.1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "119"
+          - "50"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1464
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 125322
+          - null
+          - "583"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "21.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "17"
+          - null
+          - null
+          - "20"
+          - "25.6"
+          - "32"
+          - null
+          - null
+          - null
+          - "9.1"
+          - "4.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "118"
+          - "36"
+          - null
+          - 11-1-11
+          - 10-1-11
+          - 12-12
+          - 3-3
+          - null
+      - rowNumber: 1465
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 125323
+          - null
+          - "606"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "28"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "22"
+          - null
+          - null
+          - "23"
+          - "28"
+          - "36"
+          - null
+          - null
+          - null
+          - "9.9"
+          - "4"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "116"
+          - "44"
+          - null
+          - 9-1-9
+          - 12-1-12
+          - 10-10
+          - 2-2
+          - null
+      - rowNumber: 1466
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 104434
+          - null
+          - "770"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "33"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "20"
+          - null
+          - null
+          - "22"
+          - "30"
+          - "37"
+          - null
+          - null
+          - null
+          - "10"
+          - "4.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "115"
+          - "40"
+          - null
+          - 10-1-10
+          - 11-1-10
+          - 10-10
+          - 2-2
+          - null
+      - rowNumber: 1467
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 104435
+          - null
+          - "805"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "32"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "21"
+          - null
+          - null
+          - "23"
+          - "29.2"
+          - "40"
+          - null
+          - null
+          - null
+          - "9"
+          - "4"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "119"
+          - "34"
+          - null
+          - 10-1-10
+          - 13-1-14
+          - 13-13
+          - 3-3
+          - null
+      - rowNumber: 1468
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 104436
+          - M
+          - "780"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "29"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "19"
+          - null
+          - null
+          - "23"
+          - "30"
+          - "38"
+          - null
+          - null
+          - null
+          - "10"
+          - "4.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "122"
+          - "37"
+          - null
+          - 12-1-14
+          - 13-1-13
+          - 12-12
+          - 3-3
+          - null
+      - rowNumber: 1469
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 104437
+          - M
+          - "710"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "24"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "19"
+          - null
+          - null
+          - "22.5"
+          - "27"
+          - "37"
+          - null
+          - null
+          - null
+          - "9"
+          - "3.7"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "119"
+          - "34"
+          - null
+          - 10-1-11
+          - 13-1-12
+          - 12-12
+          - 3-2
+          - null
+      - rowNumber: 1470
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 104438
+          - null
+          - "800"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "31.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "21"
+          - null
+          - null
+          - "25"
+          - "33"
+          - "41"
+          - null
+          - null
+          - null
+          - "10"
+          - "4.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "119"
+          - "34"
+          - null
+          - 12-1-12
+          - 14-1-15
+          - 13-13
+          - 3-3
+          - null
+      - rowNumber: 1471
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 104439
+          - M
+          - "850"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "32"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "23"
+          - null
+          - null
+          - "25"
+          - "34"
+          - "42"
+          - null
+          - null
+          - null
+          - "9"
+          - "4.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "119"
+          - "32"
+          - null
+          - 12-1-12
+          - 15-1-15
+          - 13-13
+          - 1-2
+          - null
+      - rowNumber: 1472
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 119392
+          - null
+          - "612"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "17.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "16"
+          - null
+          - null
+          - "22.5"
+          - "27"
+          - "36"
+          - null
+          - null
+          - null
+          - "8"
+          - "2.3"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "121"
+          - "38"
+          - null
+          - 13-1-13
+          - 11-1-11
+          - 10-10
+          - 1-2
+          - null
+      - rowNumber: 1473
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - KUMNH 119394
+          - M
+          - "602"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "20"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "16"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.8"
+          - "2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "122"
+          - "45"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1474
+        values:
+          - Taylor, E. H. 1974. The caecilians of Ecuador. University of Kansas science bulletin 50:333-346.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - USNM 160370
+          - null
+          - "1025"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "32"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "214"
+          - "62"
+          - null
+          - 11-1-11
+          - 11-1-11
+          - 10-11
+          - null
+          - null
+      - rowNumber: 1475
+        values:
+          - Taylor, E. H. 1974. The caecilians of Ecuador. University of Kansas science bulletin 50:333-346.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia tentaculata
+          - I
+          - JAP 2066
+          - null
+          - "510"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "17"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "123"
+          - "57"
+          - null
+          - 12-1-12
+          - 10-1-10
+          - 13-13
+          - null
+          - null
+    originalColumns:
+      species:
+        - Family
+        - Genus
+        - Species
+        - biome
+        - Habitats
+        - Microhabitat
+        - Metadata_microhabitat
+        - Reproduction
+        - Metadata_reproduction
+        - Aquatic larvae
+        - Max clutch size
+        - Min clutch size
+        - Mean clutch size
+        - Reference
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - ADD
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+      measurement:
+        - Reference
+        - Family
+        - Genus
+        - Species
+        - Type
+        - ID
+        - Sex
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - "ADD "
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - P7TJ
+    quantitativeLengthUnits: not-confirmed-from-deposited-column-definitions; dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/caecilian-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/caecilian-traits-reader/limitations/zh
+    variableDefinitionCitation:
+      doi: 10.1038/s41597-025-04728-z
+      sourceFile: data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.xml
+      locator: Methods, species-level ecological and life-history data; Data Records
+---
+
+# Caecilia tentaculata — CaecilianTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/locator -->
+CaecilianTraits.xlsx, Species level data row 36; Individual level data rows 1451, 1452, 1453, 1454, 1455, 1456, 1457, 1458, 1459, 1460, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475; Supplementary Table 1 for variable meanings
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalSpeciesRow / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalSpeciesRow/values/3 -->
+Tropical & Subtropical Moist Broadleaf Forests; Tropical & Subtropical Dry Broadleaf Forests; Tropical & Subtropical Grasslands, Savannas & Shrublands
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/0/values/0 -->
+Maciel, A. O., and M. S. Hoogmoed. 2011. Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification. Zootaxa 2984:1-53.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/1/values/0 -->
+Maciel, A. O., and M. S. Hoogmoed. 2011. Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification. Zootaxa 2984:1-53.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/2/values/0 -->
+Maciel, A. O., and M. S. Hoogmoed. 2011. Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification. Zootaxa 2984:1-53.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/3/values/0 -->
+Maciel, A. O., and M. S. Hoogmoed. 2011. Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification. Zootaxa 2984:1-53.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/4/values/0 -->
+Maciel, A. O., and M. S. Hoogmoed. 2011. Taxonomy and distribution of caecilian amphibians (Gymnophiona) of Brazilian Amazonia, with a key to their identification. Zootaxa 2984:1-53.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / limitations
+
+<!-- evo:text /records/caecilian-traits-reader/limitations/en -->
+Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets and external expert review remain to be resolved.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / limitations
+
+<!-- evo:text /records/caecilian-traits-reader/limitations/zh -->
+本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题及外部专家审评仍待核对。
+<!-- /evo:text -->

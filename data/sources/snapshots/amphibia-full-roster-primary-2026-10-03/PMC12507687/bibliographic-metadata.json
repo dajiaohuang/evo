@@ -1,0 +1,3711 @@
+{
+  "pmcid": "PMC12507687",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+  "sha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+  "articleType": "research-article",
+  "title": "EdgeHOG: a method for fine-grained ancestral gene order inference at large scale",
+  "authors": [
+    {
+      "name": "Charles Bernard",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Charles",
+        "surname": "Bernard",
+        "suffix": null
+      },
+      "originalName": "BernardCharles",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Yannis Nevers",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yannis",
+        "surname": "Nevers",
+        "suffix": null
+      },
+      "originalName": "NeversYannis",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-8604-2943"
+        }
+      ]
+    },
+    {
+      "name": "Naga Bhushana Rao Karampudi",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Naga Bhushana Rao",
+        "surname": "Karampudi",
+        "suffix": null
+      },
+      "originalName": "KarampudiNaga Bhushana Rao",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-0503-4301"
+        }
+      ]
+    },
+    {
+      "name": "Kimberly J. Gilbert",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Kimberly J.",
+        "surname": "Gilbert",
+        "suffix": null
+      },
+      "originalName": "GilbertKimberly J.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Clément Train",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Clément",
+        "surname": "Train",
+        "suffix": null
+      },
+      "originalName": "TrainClément",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Alex Warwick Vesztrocy",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Alex",
+        "surname": "Warwick Vesztrocy",
+        "suffix": null
+      },
+      "originalName": "Warwick VesztrocyAlex",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Natasha Glover",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Natasha",
+        "surname": "Glover",
+        "suffix": null
+      },
+      "originalName": "GloverNatasha",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Adrian Altenhoff",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Adrian",
+        "surname": "Altenhoff",
+        "suffix": null
+      },
+      "originalName": "AltenhoffAdrian",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0001-7492-1273"
+        }
+      ]
+    },
+    {
+      "name": "Christophe Dessimoz",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Christophe",
+        "surname": "Dessimoz",
+        "suffix": null
+      },
+      "originalName": "DessimozChristophe",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-2170-853X"
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC12507687"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC12507687.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "12507687"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "12507687"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "40830726"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1038/s41559-025-02818-0"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "2818"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2025",
+      "month": "8",
+      "day": "19"
+    },
+    {
+      "pub-type": "ppub",
+      "year": "2025",
+      "month": null,
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "MOESM1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "41559_2025_2818_MOESM1_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41559_2025_2818_MOESM1_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM2",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "41559_2025_2818_MOESM2_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41559_2025_2818_MOESM2_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM3",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "41559_2025_2818_MOESM3_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41559_2025_2818_MOESM3_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM4",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "41559_2025_2818_MOESM4_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41559_2025_2818_MOESM4_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "CR1",
+      "position": 0,
+      "title": "The origin of animals: an ancestral reconstruction of the unicellular-to-multicellular transition",
+      "source": "Open Biol.",
+      "year": "2021",
+      "citationAttributes": {
+        "id": "ec-CR1",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ros-Rocher",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Ros-RocherN"
+            },
+            {
+              "surname": "Pérez-Posada",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Pérez-PosadaA"
+            },
+            {
+              "surname": "Leger",
+              "givenNames": "MM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LegerMM"
+            },
+            {
+              "surname": "Ruiz-Trillo",
+              "givenNames": "I",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Ruiz-TrilloI"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "200359"
+        ]
+      },
+      "originalCitationText": "Ros-RocherNPérez-PosadaALegerMMRuiz-TrilloIThe origin of animals: an ancestral reconstruction of the unicellular-to-multicellular transitionOpen Biol.20211120035910.1098/rsob.20035933622103PMC8061703",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1098/rsob.200359"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33622103"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8061703"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33622103"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rsob.200359"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8061703"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR2",
+      "position": 1,
+      "title": "Divergent genomic trajectories predate the origin of animals and fungi",
+      "source": "Nature",
+      "year": "2022",
+      "citationAttributes": {
+        "id": "ec-CR2",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ocaña-Pallarès",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Ocaña-PallarèsE"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "609"
+        ],
+        "fpage": [
+          "747"
+        ],
+        "lpage": [
+          "753"
+        ]
+      },
+      "originalCitationText": "Ocaña-PallarèsEDivergent genomic trajectories predate the origin of animals and fungiNature202260974775310.1038/s41586-022-05110-436002568PMC9492541",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41586-022-05110-4"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36002568"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9492541"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36002568"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41586-022-05110-4"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9492541"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR3",
+      "position": 2,
+      "title": "Reconstruction of hundreds of reference ancestral genomes across the eukaryotic kingdom",
+      "source": "Nat. Ecol. Evol.",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR3",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Muffato",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MuffatoM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "355"
+        ],
+        "lpage": [
+          "366"
+        ]
+      },
+      "originalCitationText": "MuffatoMReconstruction of hundreds of reference ancestral genomes across the eukaryotic kingdomNat. Ecol. Evol.2023735536610.1038/s41559-022-01956-z36646945PMC9998269",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41559-022-01956-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36646945"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9998269"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36646945"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41559-022-01956-z"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9998269"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR4",
+      "position": 3,
+      "title": "From comparative gene content and gene order to ancestral contigs, chromosomes and karyotypes",
+      "source": "Sci. Rep.",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR4",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Xu",
+              "givenNames": "Q",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XuQ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "6095"
+        ]
+      },
+      "originalCitationText": "XuQFrom comparative gene content and gene order to ancestral contigs, chromosomes and karyotypesSci. Rep.202313609510.1038/s41598-023-33029-x37055453PMC10102168",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41598-023-33029-x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37055453"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10102168"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37055453"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41598-023-33029-x"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10102168"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR5",
+      "position": 4,
+      "title": "Reconstructing contiguous regions of an ancestral genome",
+      "source": "Genome Res.",
+      "year": "2006",
+      "citationAttributes": {
+        "id": "ec-CR5",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ma",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaJ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "fpage": [
+          "1557"
+        ],
+        "lpage": [
+          "1565"
+        ]
+      },
+      "originalCitationText": "MaJReconstructing contiguous regions of an ancestral genomeGenome Res.2006161557156510.1101/gr.538350616983148PMC1665639",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/gr.5383506"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16983148"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1665639"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16983148"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1101/gr.5383506"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1665639"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR6",
+      "position": 5,
+      "title": "Reconstruction and evolutionary history of eutherian chromosomes",
+      "source": "Proc. Natl Acad. Sci. USA",
+      "year": "2017",
+      "citationAttributes": {
+        "id": "ec-CR6",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kim",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KimJ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "114"
+        ],
+        "fpage": [
+          "E5379"
+        ],
+        "lpage": [
+          "E5388"
+        ]
+      },
+      "originalCitationText": "KimJReconstruction and evolutionary history of eutherian chromosomesProc. Natl Acad. Sci. USA2017114E5379E538810.1073/pnas.170201211428630326PMC5502614",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1702012114"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28630326"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5502614"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28630326"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1073/pnas.1702012114"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5502614"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR7",
+      "position": 6,
+      "title": "DeCoSTAR: reconstructing the ancestral organization of genes or genomes using reconciled phylogenies",
+      "source": "Genome Biol. Evol.",
+      "year": "2017",
+      "citationAttributes": {
+        "id": "ec-CR7",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Duchemin",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DucheminW"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "1312"
+        ],
+        "lpage": [
+          "1319"
+        ]
+      },
+      "originalCitationText": "DucheminWDeCoSTAR: reconstructing the ancestral organization of genes or genomes using reconciled phylogeniesGenome Biol. Evol.201791312131910.1093/gbe/evx06928402423PMC5441342",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/gbe/evx069"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28402423"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5441342"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28402423"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/gbe/evx069"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5441342"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR8",
+      "position": 7,
+      "title": "EvolClustDB: exploring eukaryotic gene clusters with evolutionarily conserved genomic neighbourhoods",
+      "source": "J. Mol. Biol.",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR8",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Marcet-Houben",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Marcet-HoubenM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "435"
+        ],
+        "fpage": [
+          "168013"
+        ]
+      },
+      "originalCitationText": "Marcet-HoubenMEvolClustDB: exploring eukaryotic gene clusters with evolutionarily conserved genomic neighbourhoodsJ. Mol. Biol.202343516801310.1016/j.jmb.2023.16801336806474",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.jmb.2023.168013"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36806474"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36806474"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.jmb.2023.168013"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR9",
+      "position": 8,
+      "title": "Predicting the evolution of syntenies—an algorithmic review",
+      "source": "Algorithms",
+      "year": "2021",
+      "citationAttributes": {
+        "id": "ec-CR9",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "El-Mabrouk",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "El-MabroukN"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "152"
+        ]
+      },
+      "originalCitationText": "El-MabroukNPredicting the evolution of syntenies—an algorithmic reviewAlgorithms20211415210.3390/a14050152",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/a14050152"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR10",
+      "position": 9,
+      "title": "Earth BioGenome Project: sequencing life for the future of life",
+      "source": "Proc. Natl Acad. Sci. USA",
+      "year": "2018",
+      "citationAttributes": {
+        "id": "ec-CR10",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lewin",
+              "givenNames": "HA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LewinHA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "115"
+        ],
+        "fpage": [
+          "4325"
+        ],
+        "lpage": [
+          "4333"
+        ]
+      },
+      "originalCitationText": "LewinHAEarth BioGenome Project: sequencing life for the future of lifeProc. Natl Acad. Sci. USA20181154325433310.1073/pnas.172011511529686065PMC5924910",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1720115115"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29686065"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5924910"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29686065"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1073/pnas.1720115115"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5924910"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR11",
+      "position": 10,
+      "title": "OMA orthology in 2024: improved prokaryote coverage, ancestral and extant GO enrichment, a revamped synteny viewer and more in the OMA Ecosystem",
+      "source": "Nucleic Acids Res.",
+      "year": "2024",
+      "citationAttributes": {
+        "id": "ec-CR11",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Altenhoff",
+              "givenNames": "AM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AltenhoffAM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "52"
+        ],
+        "fpage": [
+          "D513"
+        ],
+        "lpage": [
+          "D521"
+        ]
+      },
+      "originalCitationText": "AltenhoffAMOMA orthology in 2024: improved prokaryote coverage, ancestral and extant GO enrichment, a revamped synteny viewer and more in the OMA EcosystemNucleic Acids Res.202452D513D52110.1093/nar/gkad102037962356PMC10767875",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkad1020"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37962356"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10767875"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37962356"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/nar/gkad1020"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10767875"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR12",
+      "position": 11,
+      "title": "HieranoiDB: a database of orthologs inferred by Hieranoid",
+      "source": "Nucleic Acids Res.",
+      "year": "2017",
+      "citationAttributes": {
+        "id": "ec-CR12",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kaduk",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KadukM"
+            },
+            {
+              "surname": "Riegler",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RieglerC"
+            },
+            {
+              "surname": "Lemp",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LempO"
+            },
+            {
+              "surname": "Sonnhammer",
+              "givenNames": "ELL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SonnhammerELL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "45"
+        ],
+        "fpage": [
+          "D687"
+        ],
+        "lpage": [
+          "D690"
+        ]
+      },
+      "originalCitationText": "KadukMRieglerCLempOSonnhammerELLHieranoiDB: a database of orthologs inferred by HieranoidNucleic Acids Res.201745D687D69010.1093/nar/gkw92327742821PMC5210627",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkw923"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27742821"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5210627"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27742821"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/nar/gkw923"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5210627"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR13",
+      "position": 12,
+      "title": "eggNOG 6.0: enabling comparative genomics across 12 535 organisms",
+      "source": "Nucleic Acids Res.",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR13",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hernández-Plaza",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Hernández-PlazaA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "51"
+        ],
+        "fpage": [
+          "D389"
+        ],
+        "lpage": [
+          "D394"
+        ]
+      },
+      "originalCitationText": "Hernández-PlazaAeggNOG 6.0: enabling comparative genomics across 12 535 organismsNucleic Acids Res.202351D389D39410.1093/nar/gkac102236399505PMC9825578",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkac1022"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36399505"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9825578"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36399505"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/nar/gkac1022"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9825578"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR14",
+      "position": 13,
+      "title": "Ensembl comparative genomics resources",
+      "source": "Database",
+      "year": "2016",
+      "citationAttributes": {
+        "id": "ec-CR14",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Herrero",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HerreroJ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2016"
+        ],
+        "fpage": [
+          "bav096"
+        ]
+      },
+      "originalCitationText": "HerreroJEnsembl comparative genomics resourcesDatabase20162016bav09610.1093/database/bav09626896847PMC4761110",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/database/bav096"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26896847"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4761110"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26896847"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/database/bav096"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4761110"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR15",
+      "position": 14,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Majidian, S. et al. Orthology inference at scale with FastOMA. Nat. Methods.22, 269–272 (2025).10.1038/s41592-024-02552-8PMC1181077439753922",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41592-024-02552-8"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11810774"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "39753922"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR16",
+      "position": 15,
+      "title": "OMA standalone: orthology inference among public and custom genomes and transcriptomes",
+      "source": "Genome Res.",
+      "year": "2019",
+      "citationAttributes": {
+        "id": "ec-CR16",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Altenhoff",
+              "givenNames": "AM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AltenhoffAM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "1152"
+        ],
+        "lpage": [
+          "1163"
+        ]
+      },
+      "originalCitationText": "AltenhoffAMOMA standalone: orthology inference among public and custom genomes and transcriptomesGenome Res.2019291152116310.1101/gr.243212.11831235654PMC6633268",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/gr.243212.118"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31235654"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6633268"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31235654"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1101/gr.243212.118"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6633268"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR17",
+      "position": 16,
+      "title": "Orthology prediction at scalable resolution by phylogenetic tree analysis",
+      "source": "BMC Bioinf.",
+      "year": "2007",
+      "citationAttributes": {
+        "id": "ec-CR17",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "van der Heijden",
+              "givenNames": "RTJM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "van der HeijdenRTJM"
+            },
+            {
+              "surname": "Snel",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SnelB"
+            },
+            {
+              "surname": "van Noort",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "van NoortV"
+            },
+            {
+              "surname": "Huynen",
+              "givenNames": "MA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuynenMA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "83"
+        ]
+      },
+      "originalCitationText": "van der HeijdenRTJMSnelBvan NoortVHuynenMAOrthology prediction at scalable resolution by phylogenetic tree analysisBMC Bioinf.200788310.1186/1471-2105-8-83PMC183843217346331",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/1471-2105-8-83"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1838432"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17346331"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/1471-2105-8-83"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1838432"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17346331"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR18",
+      "position": 17,
+      "title": "The human phylome",
+      "source": "Genome Biol.",
+      "year": "2007",
+      "citationAttributes": {
+        "id": "ec-CR18",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Huerta-Cepas",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Huerta-CepasJ"
+            },
+            {
+              "surname": "Dopazo",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DopazoH"
+            },
+            {
+              "surname": "Dopazo",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DopazoJ"
+            },
+            {
+              "surname": "Gabaldón",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GabaldónT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "R109"
+        ]
+      },
+      "originalCitationText": "Huerta-CepasJDopazoHDopazoJGabaldónTThe human phylomeGenome Biol.20078R10910.1186/gb-2007-8-6-r10917567924PMC2394744",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/gb-2007-8-6-r109"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17567924"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2394744"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17567924"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/gb-2007-8-6-r109"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2394744"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR19",
+      "position": 18,
+      "title": "Identifying orthologs with OMA: a primer",
+      "source": "F1000Res.",
+      "year": "2020",
+      "citationAttributes": {
+        "id": "ec-CR19",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zahn-Zabal",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Zahn-ZabalM"
+            },
+            {
+              "surname": "Dessimoz",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DessimozC"
+            },
+            {
+              "surname": "Glover",
+              "givenNames": "NM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GloverNM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "27"
+        ]
+      },
+      "originalCitationText": "Zahn-ZabalMDessimozCGloverNMIdentifying orthologs with OMA: a primerF1000Res.202092710.12688/f1000research.21508.132089838PMC7014581",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.12688/f1000research.21508.1"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32089838"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7014581"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32089838"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.12688/f1000research.21508.1"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7014581"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR20",
+      "position": 19,
+      "title": "The Yeast Gene Order Browser: combining curated homology and syntenic context reveals gene fate in polyploid species",
+      "source": "Genome Res.",
+      "year": "2005",
+      "citationAttributes": {
+        "id": "ec-CR20",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Byrne",
+              "givenNames": "KP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ByrneKP"
+            },
+            {
+              "surname": "Wolfe",
+              "givenNames": "KH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WolfeKH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "1456"
+        ],
+        "lpage": [
+          "1461"
+        ]
+      },
+      "originalCitationText": "ByrneKPWolfeKHThe Yeast Gene Order Browser: combining curated homology and syntenic context reveals gene fate in polyploid speciesGenome Res.2005151456146110.1101/gr.367230516169922PMC1240090",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/gr.3672305"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16169922"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1240090"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16169922"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1101/gr.3672305"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1240090"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR21",
+      "position": 20,
+      "title": "The use of gene clusters to infer functional coupling",
+      "source": "Proc. Natl Acad. Sci. USA",
+      "year": "1999",
+      "citationAttributes": {
+        "id": "ec-CR21",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Overbeek",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OverbeekR"
+            },
+            {
+              "surname": "Fonstein",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FonsteinM"
+            },
+            {
+              "surname": "D’Souza",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "D’SouzaM"
+            },
+            {
+              "surname": "Pusch",
+              "givenNames": "GD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PuschGD"
+            },
+            {
+              "surname": "Maltsev",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaltsevN"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "96"
+        ],
+        "fpage": [
+          "2896"
+        ],
+        "lpage": [
+          "2901"
+        ]
+      },
+      "originalCitationText": "OverbeekRFonsteinMD’SouzaMPuschGDMaltsevNThe use of gene clusters to infer functional couplingProc. Natl Acad. Sci. USA1999962896290110.1073/pnas.96.6.289610077608PMC15866",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.96.6.2896"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10077608"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC15866"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10077608"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1073/pnas.96.6.2896"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC15866"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR22",
+      "position": 21,
+      "title": "TimeTree 5: an expanded resource for species divergence times",
+      "source": "Mol. Biol. Evol.",
+      "year": "2022",
+      "citationAttributes": {
+        "id": "ec-CR22",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kumar",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KumarS"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "39"
+        ],
+        "fpage": [
+          "msac174"
+        ]
+      },
+      "originalCitationText": "KumarSTimeTree 5: an expanded resource for species divergence timesMol. Biol. Evol.202239msac17410.1093/molbev/msac17435932227PMC9400175",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/molbev/msac174"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35932227"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9400175"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35932227"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/molbev/msac174"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9400175"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR23",
+      "position": 22,
+      "title": "Sex chromosome evolution: historical insights and future perspectives",
+      "source": "Proc. Biol. Sci.",
+      "year": "2017",
+      "citationAttributes": {
+        "id": "ec-CR23",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Abbott",
+              "givenNames": "JK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AbbottJK"
+            },
+            {
+              "surname": "Nordén",
+              "givenNames": "AK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NordénAK"
+            },
+            {
+              "surname": "Hansson",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HanssonB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "284"
+        ],
+        "fpage": [
+          "20162806"
+        ]
+      },
+      "originalCitationText": "AbbottJKNordénAKHanssonBSex chromosome evolution: historical insights and future perspectivesProc. Biol. Sci.2017284201628062846901710.1098/rspb.2016.2806PMC5443938",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "28469017"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rspb.2016.2806"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5443938"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28469017"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rspb.2016.2806"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5443938"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR24",
+      "position": 23,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Eirín-López, J. M., González-Romero, R., Dryhurst, D., Méndez, J. & Ausió, J. in Evolutionary Biology 139–162 (Springer, 2009).10.1186/1471-2148-9-31PMC264467519193230",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/1471-2148-9-31"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2644675"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19193230"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR25",
+      "position": 24,
+      "title": "Self-assembling viral histones are evolutionary intermediates between archaeal and eukaryotic nucleosomes",
+      "source": "Nat. Microbiol.",
+      "year": "2024",
+      "citationAttributes": {
+        "id": "ec-CR25",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Irwin",
+              "givenNames": "NAT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IrwinNAT"
+            },
+            {
+              "surname": "Richards",
+              "givenNames": "TA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RichardsTA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "1713"
+        ],
+        "lpage": [
+          "1724"
+        ]
+      },
+      "originalCitationText": "IrwinNATRichardsTASelf-assembling viral histones are evolutionary intermediates between archaeal and eukaryotic nucleosomesNat. Microbiol.202491713172410.1038/s41564-024-01707-938806669PMC11222145",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41564-024-01707-9"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38806669"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11222145"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38806669"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41564-024-01707-9"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11222145"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR26",
+      "position": 25,
+      "title": "Convergent evolution of chicken Z and human X chromosomes by expansion and gene acquisition",
+      "source": "Nature",
+      "year": "2010",
+      "citationAttributes": {
+        "id": "ec-CR26",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bellott",
+              "givenNames": "DW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BellottDW"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "466"
+        ],
+        "fpage": [
+          "612"
+        ],
+        "lpage": [
+          "616"
+        ]
+      },
+      "originalCitationText": "BellottDWConvergent evolution of chicken Z and human X chromosomes by expansion and gene acquisitionNature201046661261610.1038/nature0917220622855PMC2943333",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature09172"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20622855"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2943333"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20622855"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nature09172"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2943333"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR27",
+      "position": 26,
+      "title": "Chimpanzee and human Y chromosomes are remarkably divergent in structure and gene content",
+      "source": "Nature",
+      "year": "2010",
+      "citationAttributes": {
+        "id": "ec-CR27",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hughes",
+              "givenNames": "JF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HughesJF"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "463"
+        ],
+        "fpage": [
+          "536"
+        ],
+        "lpage": [
+          "539"
+        ]
+      },
+      "originalCitationText": "HughesJFChimpanzee and human Y chromosomes are remarkably divergent in structure and gene contentNature201046353653910.1038/nature0870020072128PMC3653425",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature08700"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20072128"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3653425"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20072128"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nature08700"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3653425"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR28",
+      "position": 27,
+      "title": "Sex-chromosome evolution: recent progress and the influence of male and female heterogamety",
+      "source": "Nat. Rev. Genet.",
+      "year": "2011",
+      "citationAttributes": {
+        "id": "ec-CR28",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ellegren",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EllegrenH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "157"
+        ],
+        "lpage": [
+          "166"
+        ]
+      },
+      "originalCitationText": "EllegrenHSex-chromosome evolution: recent progress and the influence of male and female heterogametyNat. Rev. Genet.20111215716610.1038/nrg294821301475",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nrg2948"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21301475"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21301475"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nrg2948"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR29",
+      "position": 28,
+      "title": "Sequencing the mouse Y chromosome reveals convergent gene acquisition and amplification on both sex chromosomes",
+      "source": "Cell",
+      "year": "2014",
+      "citationAttributes": {
+        "id": "ec-CR29",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Soh",
+              "givenNames": "YQS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SohYQS"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "159"
+        ],
+        "fpage": [
+          "800"
+        ],
+        "lpage": [
+          "813"
+        ]
+      },
+      "originalCitationText": "SohYQSSequencing the mouse Y chromosome reveals convergent gene acquisition and amplification on both sex chromosomesCell201415980081310.1016/j.cell.2014.09.05225417157PMC4260969",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cell.2014.09.052"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25417157"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4260969"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25417157"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cell.2014.09.052"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4260969"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR30",
+      "position": 29,
+      "title": "Unique structure and positive selection promote the rapid divergence of Drosophila Y chromosomes",
+      "source": "eLife",
+      "year": "2022",
+      "citationAttributes": {
+        "id": "ec-CR30",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chang",
+              "givenNames": "C-H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChangC-H"
+            },
+            {
+              "surname": "Gregory",
+              "givenNames": "LE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GregoryLE"
+            },
+            {
+              "surname": "Gordon",
+              "givenNames": "KE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GordonKE"
+            },
+            {
+              "surname": "Meiklejohn",
+              "givenNames": "CD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeiklejohnCD"
+            },
+            {
+              "surname": "Larracuente",
+              "givenNames": "AM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LarracuenteAM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "e75795"
+        ]
+      },
+      "originalCitationText": "ChangC-HGregoryLEGordonKEMeiklejohnCDLarracuenteAMUnique structure and positive selection promote the rapid divergence of Drosophila Y chromosomeseLife202211e7579510.7554/eLife.7579534989337PMC8794474",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.7554/eLife.75795"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34989337"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8794474"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34989337"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.7554/eLife.75795"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8794474"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR31",
+      "position": 30,
+      "title": "Sex chromosome evolution: So many exceptions to the rules",
+      "source": "Genome Biol. Evol.",
+      "year": "2020",
+      "citationAttributes": {
+        "id": "ec-CR31",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Furman",
+              "givenNames": "BLS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FurmanBLS"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "750"
+        ],
+        "lpage": [
+          "763"
+        ]
+      },
+      "originalCitationText": "FurmanBLSSex chromosome evolution: So many exceptions to the rulesGenome Biol. Evol.20201275076310.1093/gbe/evaa08132315410PMC7268786",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/gbe/evaa081"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32315410"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7268786"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32315410"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/gbe/evaa081"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7268786"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR32",
+      "position": 31,
+      "title": "The zebrafish reference genome sequence and its relationship to the human genome",
+      "source": "Nature",
+      "year": "2013",
+      "citationAttributes": {
+        "id": "ec-CR32",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Howe",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HoweK"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "496"
+        ],
+        "fpage": [
+          "498"
+        ],
+        "lpage": [
+          "503"
+        ]
+      },
+      "originalCitationText": "HoweKThe zebrafish reference genome sequence and its relationship to the human genomeNature201349649850310.1038/nature1211123594743PMC3703927",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature12111"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23594743"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3703927"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23594743"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nature12111"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3703927"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR33",
+      "position": 32,
+      "title": "Wild sex in zebrafish: loss of the natural sex determinant in domesticated strains",
+      "source": "Genetics",
+      "year": "2014",
+      "citationAttributes": {
+        "id": "ec-CR33",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wilson",
+              "givenNames": "CA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WilsonCA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "198"
+        ],
+        "fpage": [
+          "1291"
+        ],
+        "lpage": [
+          "1308"
+        ]
+      },
+      "originalCitationText": "WilsonCAWild sex in zebrafish: loss of the natural sex determinant in domesticated strainsGenetics20141981291130810.1534/genetics.114.16928425233988PMC4224167",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1534/genetics.114.169284"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25233988"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4224167"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25233988"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1534/genetics.114.169284"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4224167"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR34",
+      "position": 33,
+      "title": "Reversal of an ancient sex chromosome to an autosome in Drosophila",
+      "source": "Nature",
+      "year": "2013",
+      "citationAttributes": {
+        "id": "ec-CR34",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Vicoso",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VicosoB"
+            },
+            {
+              "surname": "Bachtrog",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BachtrogD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "499"
+        ],
+        "fpage": [
+          "332"
+        ],
+        "lpage": [
+          "335"
+        ]
+      },
+      "originalCitationText": "VicosoBBachtrogDReversal of an ancient sex chromosome to an autosome in DrosophilaNature201349933233510.1038/nature1223523792562PMC4120283",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature12235"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23792562"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4120283"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23792562"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nature12235"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4120283"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR35",
+      "position": 34,
+      "title": "Unusual sequence characteristics of human chromosome 19 are conserved across 11 nonhuman primates",
+      "source": "BMC Evol. Biol.",
+      "year": "2020",
+      "citationAttributes": {
+        "id": "ec-CR35",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Harris",
+              "givenNames": "RA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HarrisRA"
+            },
+            {
+              "surname": "Raveendran",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RaveendranM"
+            },
+            {
+              "surname": "Worley",
+              "givenNames": "KC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WorleyKC"
+            },
+            {
+              "surname": "Rogers",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RogersJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "fpage": [
+          "33"
+        ]
+      },
+      "originalCitationText": "HarrisRARaveendranMWorleyKCRogersJUnusual sequence characteristics of human chromosome 19 are conserved across 11 nonhuman primatesBMC Evol. Biol.2020203310.1186/s12862-020-1595-932106815PMC7045612",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12862-020-1595-9"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32106815"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7045612"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32106815"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s12862-020-1595-9"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7045612"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR36",
+      "position": 35,
+      "title": "Evolutionary analysis of a complete chicken genome",
+      "source": "Proc. Natl Acad. Sci. USA",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR36",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Huang",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuangZ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "120"
+        ],
+        "fpage": [
+          "e2216641120"
+        ]
+      },
+      "originalCitationText": "HuangZEvolutionary analysis of a complete chicken genomeProc. Natl Acad. Sci. USA2023120e221664112010.1073/pnas.221664112036780517PMC9974502",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.2216641120"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36780517"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9974502"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36780517"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1073/pnas.2216641120"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9974502"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR37",
+      "position": 36,
+      "title": "ALF—a simulation framework for genome evolution",
+      "source": "Mol. Biol. Evol.",
+      "year": "2012",
+      "citationAttributes": {
+        "id": "ec-CR37",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dalquen",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DalquenDA"
+            },
+            {
+              "surname": "Anisimova",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AnisimovaM"
+            },
+            {
+              "surname": "Gonnet",
+              "givenNames": "GH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GonnetGH"
+            },
+            {
+              "surname": "Dessimoz",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DessimozC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "1115"
+        ],
+        "lpage": [
+          "1123"
+        ]
+      },
+      "originalCitationText": "DalquenDAAnisimovaMGonnetGHDessimozCALF—a simulation framework for genome evolutionMol. Biol. Evol.2012291115112310.1093/molbev/msr26822160766PMC3341827",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/molbev/msr268"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22160766"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3341827"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22160766"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/molbev/msr268"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3341827"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR38",
+      "position": 37,
+      "title": "GOATOOLS: a Python library for Gene Ontology analyses",
+      "source": "Sci. Rep.",
+      "year": "2018",
+      "citationAttributes": {
+        "id": "ec-CR38",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Klopfenstein",
+              "givenNames": "DV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KlopfensteinDV"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "10872"
+        ]
+      },
+      "originalCitationText": "KlopfensteinDVGOATOOLS: a Python library for Gene Ontology analysesSci. Rep.201881087210.1038/s41598-018-28948-z30022098PMC6052049",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41598-018-28948-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30022098"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6052049"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30022098"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41598-018-28948-z"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6052049"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR39",
+      "position": 38,
+      "title": "Cytoscape: a software environment for integrated models of biomolecular interaction networks",
+      "source": "Genome Res.",
+      "year": "2003",
+      "citationAttributes": {
+        "id": "ec-CR39",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Shannon",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShannonP"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "2498"
+        ],
+        "lpage": [
+          "2504"
+        ]
+      },
+      "originalCitationText": "ShannonPCytoscape: a software environment for integrated models of biomolecular interaction networksGenome Res.2003132498250410.1101/gr.123930314597658PMC403769",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/gr.1239303"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "14597658"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC403769"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "14597658"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1101/gr.1239303"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC403769"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR40",
+      "position": 39,
+      "title": "iHam and pyHam: visualizing and processing hierarchical orthologous groups",
+      "source": "Bioinformatics",
+      "year": "2019",
+      "citationAttributes": {
+        "id": "ec-CR40",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Train",
+              "givenNames": "C-M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TrainC-M"
+            },
+            {
+              "surname": "Pignatelli",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PignatelliM"
+            },
+            {
+              "surname": "Altenhoff",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AltenhoffA"
+            },
+            {
+              "surname": "Dessimoz",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DessimozC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "35"
+        ],
+        "fpage": [
+          "2504"
+        ],
+        "lpage": [
+          "2506"
+        ]
+      },
+      "originalCitationText": "TrainC-MPignatelliMAltenhoffADessimozCiHam and pyHam: visualizing and processing hierarchical orthologous groupsBioinformatics2019352504250610.1093/bioinformatics/bty99430508066PMC6612847",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/bty994"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30508066"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6612847"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30508066"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/bty994"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6612847"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR41",
+      "position": 40,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bernard, C. edgehog_figshare_repository.zip. Figshare10.6084/m9.figshare.26425081.v2 (2025).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR42",
+      "position": 41,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bernard, C. et al. Edgehog Supplementary Data 1. Figshare10.6084/m9.figshare.26425081.v2 (2025).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR43",
+      "position": 42,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bernard, C. et al. Edgehog software. Figshare10.6084/m9.figshare.29378213 (2025).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR44",
+      "position": 43,
+      "title": "A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life",
+      "source": "Nat. Biotechnol.",
+      "year": "2018",
+      "citationAttributes": {
+        "id": "ec-CR44",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Parks",
+              "givenNames": "DH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ParksDH"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "36"
+        ],
+        "fpage": [
+          "996"
+        ],
+        "lpage": [
+          "1004"
+        ]
+      },
+      "originalCitationText": "ParksDHA standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of lifeNat. Biotechnol.201836996100410.1038/nbt.422930148503",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nbt.4229"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30148503"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30148503"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nbt.4229"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC12507687/article.xml",
+        "articleSha256": "60cd0ddd1a4fb044ca936a8ec5e0779052777d3d776610413ede63c6289de800",
+        "referenceId": "CR44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Nature Ecology & Evolution"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Nat Ecol Evol"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Nat Ecol Evol"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "981"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "npgopen"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101698577"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2397-334X"
+      }
+    ],
+    "publisherNames": [],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "9"
+    ],
+    "issue": [
+      "10"
+    ],
+    "fpage": [
+      "1951"
+    ],
+    "lpage": [
+      "1961"
+    ]
+  }
+}

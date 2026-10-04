@@ -71,6 +71,7 @@ describe('lab query helpers', () => {
     expect(Object.keys(files)).toContain('chart.svg')
     expect(Object.keys(files)).toContain('methods.md')
     expect(JSON.parse(strFromU8(files['release.json'])).datasetVersion).toBe(manifest.datasetVersion)
+    expect(JSON.parse(strFromU8(files['dataset-manifest.json']))).toEqual(manifest)
   })
 
   it('exports the full-match aggregates separately from capped result rows', async () => {

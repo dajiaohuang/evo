@@ -1,0 +1,3991 @@
+{
+  "pmcid": "PMC13072414",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+  "sha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+  "articleType": "research-article",
+  "title": "TMacaque-FaceNet: Automatic Facial Recognition Based on Vision Transformer for Wild Tibetan Macaques",
+  "authors": [
+    {
+      "name": "Qiyang Gao",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Qiyang",
+        "surname": "Gao",
+        "suffix": null
+      },
+      "originalName": "GaoQiyang",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Lele Zhang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Lele",
+        "surname": "Zhang",
+        "suffix": null
+      },
+      "originalName": "ZhangLele",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "He Luo",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "He",
+        "surname": "Luo",
+        "suffix": null
+      },
+      "originalName": "LuoHe",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Zhao Lv",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Zhao",
+        "surname": "Lv",
+        "suffix": null
+      },
+      "originalName": "LvZhao",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "true",
+          "value": "https://orcid.org/0000-0001-9727-366X"
+        }
+      ]
+    },
+    {
+      "name": "Dongpo Xia",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Dongpo",
+        "surname": "Xia",
+        "suffix": null
+      },
+      "originalName": "XiaDongpo",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "true",
+          "value": "https://orcid.org/0000-0002-1266-2285"
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC13072414"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC13072414.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "13072414"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "13072414"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "41976085"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.3390/ani16071107"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "animals-16-01107"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2026",
+      "month": "4",
+      "day": "03"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2026",
+      "month": "4",
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "animals-16-01107-s001",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "animals-16-01107-s001.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "animals-16-01107-s001.zip",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "B1-animals-16-01107",
+      "position": 0,
+      "title": "An efficient and consistent framework for multi-rank taxonomic identification in wildlife images",
+      "source": "Sci. Rep.",
+      "year": "2026",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zhang",
+              "givenNames": "Q.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangQ."
+            },
+            {
+              "surname": "Ahmed",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AhmedK."
+            },
+            {
+              "surname": "Xu",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XuC."
+            },
+            {
+              "surname": "Khan",
+              "givenNames": "M.I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhanM.I."
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangH."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "elocation-id": [
+          "4628"
+        ]
+      },
+      "originalCitationText": "ZhangQ.\nAhmedK.\nXuC.\nKhanM.I.\nWangH.\nAn efficient and consistent framework for multi-rank taxonomic identification in wildlife imagesSci. Rep.202616462810.1038/s41598-025-34944-x41565731PMC12868716",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41598-025-34944-x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "41565731"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC12868716"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B1-animals-16-01107",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B2-animals-16-01107",
+      "position": 1,
+      "title": "Individuals and populations: The role of long-term, individual-based studies of animals in ecology and evolutionary biology",
+      "source": "Trends Ecol. Evol.",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Clutton-Brock",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Clutton-BrockT."
+            },
+            {
+              "surname": "Sheldon",
+              "givenNames": "B.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SheldonB.C."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "562"
+        ],
+        "lpage": [
+          "573"
+        ]
+      },
+      "originalCitationText": "Clutton-BrockT.\nSheldonB.C.\nIndividuals and populations: The role of long-term, individual-based studies of animals in ecology and evolutionary biologyTrends Ecol. Evol.20102556257310.1016/j.tree.2010.08.00220828863",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.tree.2010.08.002"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20828863"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B2-animals-16-01107",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B3-animals-16-01107",
+      "position": 2,
+      "title": "Should we consider individual behavior differences in applied wildlife conservation studies?",
+      "source": "Biol. Conserv.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Merrick",
+              "givenNames": "M.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MerrickM.J."
+            },
+            {
+              "surname": "Koprowski",
+              "givenNames": "J.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KoprowskiJ.L."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "209"
+        ],
+        "fpage": [
+          "34"
+        ],
+        "lpage": [
+          "44"
+        ]
+      },
+      "originalCitationText": "MerrickM.J.\nKoprowskiJ.L.\nShould we consider individual behavior differences in applied wildlife conservation studies?Biol. Conserv.2017209344410.1016/j.biocon.2017.01.021",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.biocon.2017.01.021"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B3-animals-16-01107",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B4-animals-16-01107",
+      "position": 3,
+      "title": "Pre-screening acoustic and other natural signatures for use in noninvasive individual identification",
+      "source": "J. Appl. Ecol.",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pollard",
+              "givenNames": "K.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PollardK.A."
+            },
+            {
+              "surname": "Blumstein",
+              "givenNames": "D.T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BlumsteinD.T."
+            },
+            {
+              "surname": "Griffin",
+              "givenNames": "S.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GriffinS.C."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "47"
+        ],
+        "fpage": [
+          "1103"
+        ],
+        "lpage": [
+          "1109"
+        ]
+      },
+      "originalCitationText": "PollardK.A.\nBlumsteinD.T.\nGriffinS.C.\nPre-screening acoustic and other natural signatures for use in noninvasive individual identificationJ. Appl. Ecol.2010471103110910.1111/j.1365-2664.2010.01851.x",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1365-2664.2010.01851.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B4-animals-16-01107",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B5-animals-16-01107",
+      "position": 4,
+      "title": "Modeling infection transmission in primate networks to predict centrality-based risk",
+      "source": "Am. J. Primatol.",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Romano",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RomanoV."
+            },
+            {
+              "surname": "Duboscq",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DuboscqJ."
+            },
+            {
+              "surname": "Sarabian",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SarabianC."
+            },
+            {
+              "surname": "Thomas",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThomasE."
+            },
+            {
+              "surname": "Sueur",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SueurC."
+            },
+            {
+              "surname": "MacIntosh",
+              "givenNames": "A.J.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MacIntoshA.J.J."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "78"
+        ],
+        "fpage": [
+          "767"
+        ],
+        "lpage": [
+          "779"
+        ]
+      },
+      "originalCitationText": "RomanoV.\nDuboscqJ.\nSarabianC.\nThomasE.\nSueurC.\nMacIntoshA.J.J.\nModeling infection transmission in primate networks to predict centrality-based riskAm. J. Primatol.20167876777910.1002/ajp.2254226954727",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/ajp.22542"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26954727"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B5-animals-16-01107",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B6-animals-16-01107",
+      "position": 5,
+      "title": "Deep learning for automatic facial detection and recognition in Japanese macaques: Illuminating social networks",
+      "source": "Primates",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Paulet",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PauletJ."
+            },
+            {
+              "surname": "Molina",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MolinaA."
+            },
+            {
+              "surname": "Beltzung",
+              "givenNames": "B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BeltzungB."
+            },
+            {
+              "surname": "Suzumura",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SuzumuraT."
+            },
+            {
+              "surname": "Yamamoto",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YamamotoS."
+            },
+            {
+              "surname": "Sueur",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SueurC."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "65"
+        ],
+        "fpage": [
+          "265"
+        ],
+        "lpage": [
+          "279"
+        ]
+      },
+      "originalCitationText": "PauletJ.\nMolinaA.\nBeltzungB.\nSuzumuraT.\nYamamotoS.\nSueurC.\nDeep learning for automatic facial detection and recognition in Japanese macaques: Illuminating social networksPrimates20246526527910.1007/s10329-024-01137-538758427",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10329-024-01137-5"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38758427"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B6-animals-16-01107",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B7-animals-16-01107",
+      "position": 6,
+      "title": "A method of identifying individual lions Panthera leo with an analysis of the reliability of identification",
+      "source": "J. Zool.",
+      "year": "1970",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pennycuick",
+              "givenNames": "C.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PennycuickC.J."
+            },
+            {
+              "surname": "Rudnai",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RudnaiJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "160"
+        ],
+        "fpage": [
+          "497"
+        ],
+        "lpage": [
+          "508"
+        ]
+      },
+      "originalCitationText": "PennycuickC.J.\nRudnaiJ.\nA method of identifying individual lions Panthera leo with an analysis of the reliability of identificationJ. Zool.197016049750810.1111/j.1469-7998.1970.tb03093.x",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1469-7998.1970.tb03093.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B7-animals-16-01107",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B8-animals-16-01107",
+      "position": 7,
+      "title": "Perspectives on individual animal identification from biology and computer vision",
+      "source": "Integr. Comp. Biol.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Vidal",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VidalM."
+            },
+            {
+              "surname": "Wolf",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WolfN."
+            },
+            {
+              "surname": "Rosenberg",
+              "givenNames": "B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RosenbergB."
+            },
+            {
+              "surname": "Harris",
+              "givenNames": "B.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HarrisB.P."
+            },
+            {
+              "surname": "Mathis",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MathisA."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "61"
+        ],
+        "fpage": [
+          "900"
+        ],
+        "lpage": [
+          "916"
+        ]
+      },
+      "originalCitationText": "VidalM.\nWolfN.\nRosenbergB.\nHarrisB.P.\nMathisA.\nPerspectives on individual animal identification from biology and computer visionIntegr. Comp. Biol.20216190091610.1093/icb/icab10734050741PMC8490693",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/icb/icab107"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34050741"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8490693"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B8-animals-16-01107",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B9-animals-16-01107",
+      "position": 8,
+      "title": "Individual identification of brown bears using pose-aware metric learning",
+      "source": "Curr. Biol.",
+      "year": "2026",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Rosenberg",
+              "givenNames": "B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RosenbergB."
+            },
+            {
+              "surname": "Zhou",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhouM."
+            },
+            {
+              "surname": "Wolf",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WolfN."
+            },
+            {
+              "surname": "Mathis",
+              "givenNames": "M.W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MathisM.W."
+            },
+            {
+              "surname": "Harris",
+              "givenNames": "B.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HarrisB.P."
+            },
+            {
+              "surname": "Mathis",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MathisA."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "in press"
+        ]
+      },
+      "originalCitationText": "RosenbergB.\nZhouM.\nWolfN.\nMathisM.W.\nHarrisB.P.\nMathisA.\nIndividual identification of brown bears using pose-aware metric learningCurr. Biol.2026in press10.1016/j.cub.2025.12.02241558480",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cub.2025.12.022"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "41558480"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B9-animals-16-01107",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B10-animals-16-01107",
+      "position": 9,
+      "title": "Evidence for synergistic cumulative impacts of marking and hunting in a wildlife species",
+      "source": "J. Appl. Ecol.",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "LeTourneux",
+              "givenNames": "F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeTourneuxF."
+            },
+            {
+              "surname": "Gauthier",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GauthierG."
+            },
+            {
+              "surname": "Pradel",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PradelR."
+            },
+            {
+              "surname": "Lefebvre",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LefebvreJ."
+            },
+            {
+              "surname": "Legagneux",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LegagneuxP."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "59"
+        ],
+        "fpage": [
+          "2705"
+        ],
+        "lpage": [
+          "2715"
+        ]
+      },
+      "originalCitationText": "LeTourneuxF.\nGauthierG.\nPradelR.\nLefebvreJ.\nLegagneuxP.\nEvidence for synergistic cumulative impacts of marking and hunting in a wildlife speciesJ. Appl. Ecol.2022592705271510.1111/1365-2664.14268",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/1365-2664.14268"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B10-animals-16-01107",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B11-animals-16-01107",
+      "position": 10,
+      "title": "Reliability of flipper-banded penguins as indicators of climate change",
+      "source": "Nature",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Saraux",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SarauxC."
+            },
+            {
+              "surname": "Le Bohec",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Le BohecC."
+            },
+            {
+              "surname": "Durant",
+              "givenNames": "J.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DurantJ.M."
+            },
+            {
+              "surname": "Viblanc",
+              "givenNames": "V.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ViblancV.A."
+            },
+            {
+              "surname": "Gauthier-Clerc",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Gauthier-ClercM."
+            },
+            {
+              "surname": "Beaune",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BeauneD."
+            },
+            {
+              "surname": "Park",
+              "givenNames": "Y.-H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ParkY.-H."
+            },
+            {
+              "surname": "Yoccoz",
+              "givenNames": "N.G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YoccozN.G."
+            },
+            {
+              "surname": "Stenseth",
+              "givenNames": "N.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StensethN.C."
+            },
+            {
+              "surname": "Le Maho",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Le MahoY."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "469"
+        ],
+        "fpage": [
+          "203"
+        ],
+        "lpage": [
+          "206"
+        ]
+      },
+      "originalCitationText": "SarauxC.\nLe BohecC.\nDurantJ.M.\nViblancV.A.\nGauthier-ClercM.\nBeauneD.\nParkY.-H.\nYoccozN.G.\nStensethN.C.\nLe MahoY.\nReliability of flipper-banded penguins as indicators of climate changeNature201146920320610.1038/nature0963021228875",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature09630"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21228875"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B11-animals-16-01107",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B12-animals-16-01107",
+      "position": 11,
+      "title": "Spot the match—Wildlife photo-identification using information theory",
+      "source": "Front. Zool.",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Speed",
+              "givenNames": "C.W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SpeedC.W."
+            },
+            {
+              "surname": "Meekan",
+              "givenNames": "M.G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeekanM.G."
+            },
+            {
+              "surname": "Bradshaw",
+              "givenNames": "C.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BradshawC.J."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "elocation-id": [
+          "2"
+        ]
+      },
+      "originalCitationText": "SpeedC.W.\nMeekanM.G.\nBradshawC.J.\nSpot the match—Wildlife photo-identification using information theoryFront. Zool.20074210.1186/1742-9994-4-217227581PMC1781941",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/1742-9994-4-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17227581"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1781941"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B12-animals-16-01107",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B13-animals-16-01107",
+      "position": 12,
+      "title": "Recognition of monkey faces by monkey experts",
+      "source": "J. Ethol.",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dufour",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DufourV."
+            },
+            {
+              "surname": "Petit",
+              "givenNames": "O.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PetitO."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "231"
+        ],
+        "lpage": [
+          "238"
+        ]
+      },
+      "originalCitationText": "DufourV.\nPetitO.\nRecognition of monkey faces by monkey expertsJ. Ethol.20102823123810.1007/s10164-009-0174-8",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10164-009-0174-8"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B13-animals-16-01107",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B14-animals-16-01107",
+      "position": 13,
+      "title": "Review on methods used for wildlife species and individual identification",
+      "source": "Eur. J. Wildl. Res.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Petso",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PetsoT."
+            },
+            {
+              "surname": "Jamisola",
+              "givenNames": "R.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JamisolaR.S."
+            },
+            {
+              "surname": "Mpoeleng",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MpoelengD."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "68"
+        ],
+        "elocation-id": [
+          "3"
+        ]
+      },
+      "originalCitationText": "PetsoT.\nJamisolaR.S.\nMpoelengD.\nReview on methods used for wildlife species and individual identificationEur. J. Wildl. Res.202168310.1007/s10344-021-01549-4",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10344-021-01549-4"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B14-animals-16-01107",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B15-animals-16-01107",
+      "position": 14,
+      "title": "Non-invasive DNA extraction for molecular identification of royal Bengal tiger Panthera tigris tigris",
+      "source": "Dhaka Univ. J. Biol. Sci.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Alam",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlamM."
+            },
+            {
+              "surname": "Rahaman",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RahamanM."
+            },
+            {
+              "surname": "Begum",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BegumR."
+            },
+            {
+              "surname": "Shahjahan",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShahjahanR."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "325"
+        ],
+        "lpage": [
+          "330"
+        ]
+      },
+      "originalCitationText": "AlamM.\nRahamanM.\nBegumR.\nShahjahanR.\nNon-invasive DNA extraction for molecular identification of royal Bengal tiger Panthera tigris tigrisDhaka Univ. J. Biol. Sci.20213032533010.3329/dujbs.v30i2.54657",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3329/dujbs.v30i2.54657"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B15-animals-16-01107",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B16-animals-16-01107",
+      "position": 15,
+      "title": "Towards automatic wild animal monitoring: Identification of animal species in camera-trap images using very deep convolutional neural networks",
+      "source": "Ecol. Inform.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gomez Villa",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Gomez VillaA."
+            },
+            {
+              "surname": "Salazar",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SalazarA."
+            },
+            {
+              "surname": "Vargas",
+              "givenNames": "F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VargasF."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "41"
+        ],
+        "fpage": [
+          "24"
+        ],
+        "lpage": [
+          "32"
+        ]
+      },
+      "originalCitationText": "Gomez VillaA.\nSalazarA.\nVargasF.\nTowards automatic wild animal monitoring: Identification of animal species in camera-trap images using very deep convolutional neural networksEcol. Inform.201741243210.1016/j.ecoinf.2017.07.004",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ecoinf.2017.07.004"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B16-animals-16-01107",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B17-animals-16-01107",
+      "position": 16,
+      "title": "Insights and approaches using deep learning to classify wildlife",
+      "source": "Sci. Rep.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Miao",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MiaoZ."
+            },
+            {
+              "surname": "Gaynor",
+              "givenNames": "K.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GaynorK.M."
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangJ."
+            },
+            {
+              "surname": "Liu",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuZ."
+            },
+            {
+              "surname": "Muellerklein",
+              "givenNames": "O.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MuellerkleinO."
+            },
+            {
+              "surname": "Norouzzadeh",
+              "givenNames": "M.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NorouzzadehM.S."
+            },
+            {
+              "surname": "McInturff",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McInturffA."
+            },
+            {
+              "surname": "Bowie",
+              "givenNames": "R.C.K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BowieR.C.K."
+            },
+            {
+              "surname": "Nathan",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NathanR."
+            },
+            {
+              "surname": "Yu",
+              "givenNames": "S.X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YuS.X."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "elocation-id": [
+          "8137"
+        ]
+      },
+      "originalCitationText": "MiaoZ.\nGaynorK.M.\nWangJ.\nLiuZ.\nMuellerkleinO.\nNorouzzadehM.S.\nMcInturffA.\nBowieR.C.K.\nNathanR.\nYuS.X.\n\nInsights and approaches using deep learning to classify wildlifeSci. Rep.20199813710.1038/s41598-019-44565-w31148564PMC6544615",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41598-019-44565-w"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31148564"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6544615"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B17-animals-16-01107",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B18-animals-16-01107",
+      "position": 17,
+      "title": "A deep active learning system for species identification and counting in camera trap images",
+      "source": "Methods Ecol. Evol.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Norouzzadeh",
+              "givenNames": "M.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NorouzzadehM.S."
+            },
+            {
+              "surname": "Morris",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MorrisD."
+            },
+            {
+              "surname": "Beery",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BeeryS."
+            },
+            {
+              "surname": "Joshi",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JoshiN."
+            },
+            {
+              "surname": "Jojic",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JojicN."
+            },
+            {
+              "surname": "Clune",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CluneJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "150"
+        ],
+        "lpage": [
+          "161"
+        ]
+      },
+      "originalCitationText": "NorouzzadehM.S.\nMorrisD.\nBeeryS.\nJoshiN.\nJojicN.\nCluneJ.\nA deep active learning system for species identification and counting in camera trap imagesMethods Ecol. Evol.20211215016110.1111/2041-210X.13504",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/2041-210X.13504"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B18-animals-16-01107",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B19-animals-16-01107",
+      "position": 18,
+      "title": "A deep learning approach to photo-identification demonstrates high performance on two dozen cetacean species",
+      "source": "Methods Ecol. Evol.",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Patton",
+              "givenNames": "P.T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PattonP.T."
+            },
+            {
+              "surname": "Cheeseman",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CheesemanT."
+            },
+            {
+              "surname": "Abe",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AbeK."
+            },
+            {
+              "surname": "Yamaguchi",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YamaguchiT."
+            },
+            {
+              "surname": "Reade",
+              "givenNames": "W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ReadeW."
+            },
+            {
+              "surname": "Southerland",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SoutherlandK."
+            },
+            {
+              "surname": "Howard",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HowardA."
+            },
+            {
+              "surname": "Oleson",
+              "givenNames": "E.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OlesonE.M."
+            },
+            {
+              "surname": "Allen",
+              "givenNames": "J.B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AllenJ.B."
+            },
+            {
+              "surname": "Ashe",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AsheE."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "2611"
+        ],
+        "lpage": [
+          "2625"
+        ]
+      },
+      "originalCitationText": "PattonP.T.\nCheesemanT.\nAbeK.\nYamaguchiT.\nReadeW.\nSoutherlandK.\nHowardA.\nOlesonE.M.\nAllenJ.B.\nAsheE.\n\nA deep learning approach to photo-identification demonstrates high performance on two dozen cetacean speciesMethods Ecol. Evol.2023142611262510.1111/2041-210X.14167",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/2041-210X.14167"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B19-animals-16-01107",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B20-animals-16-01107",
+      "position": 19,
+      "title": "Chimpanzee face recognition from videos in the wild using deep learning",
+      "source": "Sci. Adv.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Schofield",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchofieldD."
+            },
+            {
+              "surname": "Nagrani",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NagraniA."
+            },
+            {
+              "surname": "Zisserman",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZissermanA."
+            },
+            {
+              "surname": "Hayashi",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HayashiM."
+            },
+            {
+              "surname": "Matsuzawa",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MatsuzawaT."
+            },
+            {
+              "surname": "Biro",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BiroD."
+            },
+            {
+              "surname": "Carvalho",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CarvalhoS."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "elocation-id": [
+          "eaaw0736"
+        ]
+      },
+      "originalCitationText": "SchofieldD.\nNagraniA.\nZissermanA.\nHayashiM.\nMatsuzawaT.\nBiroD.\nCarvalhoS.\nChimpanzee face recognition from videos in the wild using deep learningSci. Adv.20195eaaw073610.1126/sciadv.aaw073631517043PMC6726454",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/sciadv.aaw0736"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31517043"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6726454"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B20-animals-16-01107",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B21-animals-16-01107",
+      "position": 20,
+      "title": "Automatic identification of individual primates with deep learning techniques",
+      "source": "iScience",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Guo",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuoS."
+            },
+            {
+              "surname": "Xu",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XuP."
+            },
+            {
+              "surname": "Miao",
+              "givenNames": "Q.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MiaoQ."
+            },
+            {
+              "surname": "Shao",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShaoG."
+            },
+            {
+              "surname": "Chapman",
+              "givenNames": "C.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChapmanC.A."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenX."
+            },
+            {
+              "surname": "He",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HeG."
+            },
+            {
+              "surname": "Fang",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FangD."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangH."
+            },
+            {
+              "surname": "Sun",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SunY."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "elocation-id": [
+          "101412"
+        ]
+      },
+      "originalCitationText": "GuoS.\nXuP.\nMiaoQ.\nShaoG.\nChapmanC.A.\nChenX.\nHeG.\nFangD.\nZhangH.\nSunY.\n\nAutomatic identification of individual primates with deep learning techniquesiScience20202310141210.1016/j.isci.2020.10141232771973PMC7415925",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.isci.2020.101412"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32771973"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7415925"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B21-animals-16-01107",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B22-animals-16-01107",
+      "position": 21,
+      "title": "A survey on deep learning tools dealing with data scarcity: Definitions, challenges, solutions, tips, and applications",
+      "source": "J. Big Data",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Alzubaidi",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlzubaidiL."
+            },
+            {
+              "surname": "Bai",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BaiJ."
+            },
+            {
+              "surname": "Al-Sabaawi",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Al-SabaawiA."
+            },
+            {
+              "surname": "Santamaría",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SantamaríaJ."
+            },
+            {
+              "surname": "Albahri",
+              "givenNames": "A.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlbahriA.S."
+            },
+            {
+              "surname": "Al-dabbagh",
+              "givenNames": "B.S.N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Al-dabbaghB.S.N."
+            },
+            {
+              "surname": "Fadhel",
+              "givenNames": "M.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FadhelM.A."
+            },
+            {
+              "surname": "Manoufali",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ManoufaliM."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangJ."
+            },
+            {
+              "surname": "Al-Timemy",
+              "givenNames": "A.H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Al-TimemyA.H."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "elocation-id": [
+          "46"
+        ]
+      },
+      "originalCitationText": "AlzubaidiL.\nBaiJ.\nAl-SabaawiA.\nSantamaríaJ.\nAlbahriA.S.\nAl-dabbaghB.S.N.\nFadhelM.A.\nManoufaliM.\nZhangJ.\nAl-TimemyA.H.\n\nA survey on deep learning tools dealing with data scarcity: Definitions, challenges, solutions, tips, and applicationsJ. Big Data2023104610.1186/s40537-023-00727-2",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s40537-023-00727-2"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B22-animals-16-01107",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B23-animals-16-01107",
+      "position": 22,
+      "title": null,
+      "source": "The Behavioral Ecology of the Tibetan Macaque",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Li",
+              "givenNames": "J.-H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiJ.-H."
+            },
+            {
+              "surname": "Sun",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SunL."
+            },
+            {
+              "surname": "Kappeler",
+              "givenNames": "P.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KappelerP.M."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Springer International Publishing"
+        ],
+        "publisher-loc": [
+          "Cham, Switzerland"
+        ]
+      },
+      "originalCitationText": "LiJ.-H.\nSunL.\nKappelerP.M.\nThe Behavioral Ecology of the Tibetan MacaqueSpringer International PublishingCham, Switzerland202010.1007/978-3-030-27920-2",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/978-3-030-27920-2"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B23-animals-16-01107",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B24-animals-16-01107",
+      "position": 23,
+      "title": "Grooming reciprocity in male Tibetan macaques",
+      "source": "Am. J. Primatol.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Xia",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XiaD."
+            },
+            {
+              "surname": "Li",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiJ."
+            },
+            {
+              "surname": "Garber",
+              "givenNames": "P.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GarberP.A."
+            },
+            {
+              "surname": "Matheson",
+              "givenNames": "M.D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MathesonM.D."
+            },
+            {
+              "surname": "Sun",
+              "givenNames": "B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SunB."
+            },
+            {
+              "surname": "Zhu",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhuY."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "75"
+        ],
+        "fpage": [
+          "1009"
+        ],
+        "lpage": [
+          "1020"
+        ]
+      },
+      "originalCitationText": "XiaD.\nLiJ.\nGarberP.A.\nMathesonM.D.\nSunB.\nZhuY.\nGrooming reciprocity in male Tibetan macaquesAm. J. Primatol.2013751009102010.1002/ajp.2216523696343",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/ajp.22165"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23696343"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B24-animals-16-01107",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B25-animals-16-01107",
+      "position": 24,
+      "title": "Seasonal variation and synchronization of sexual behaviors in free-ranging male Tibetan macaques (Macaca thibetana) at Huangshan, China",
+      "source": "Zool. Res.",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Xia",
+              "givenNames": "D.-P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XiaD.-P."
+            },
+            {
+              "surname": "Li",
+              "givenNames": "J.-H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiJ.-H."
+            },
+            {
+              "surname": "Zhu",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhuY."
+            },
+            {
+              "surname": "Sun",
+              "givenNames": "B.-H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SunB.-H."
+            },
+            {
+              "surname": "Sheeran",
+              "givenNames": "L.K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SheeranL.K."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "fpage": [
+          "509"
+        ],
+        "lpage": [
+          "515"
+        ]
+      },
+      "originalCitationText": "XiaD.-P.\nLiJ.-H.\nZhuY.\nSunB.-H.\nSheeranL.K.\nSeasonal variation and synchronization of sexual behaviors in free-ranging male Tibetan macaques (Macaca thibetana) at Huangshan, ChinaZool. Res.20103150951510.3724/SP.J.1141.2010.0550920979253",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3724/SP.J.1141.2010.05509"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20979253"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B25-animals-16-01107",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B26-animals-16-01107",
+      "position": 25,
+      "title": "An Image Is Worth 16 × 16 Words: Transformers for Image Recognition at Scale",
+      "source": "arXiv",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dosovitskiy",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DosovitskiyA."
+            },
+            {
+              "surname": "Beyer",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BeyerL."
+            },
+            {
+              "surname": "Kolesnikov",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KolesnikovA."
+            },
+            {
+              "surname": "Weissenborn",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeissenbornD."
+            },
+            {
+              "surname": "Zhai",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhaiX."
+            },
+            {
+              "surname": "Unterthiner",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "UnterthinerT."
+            },
+            {
+              "surname": "Dehghani",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DehghaniM."
+            },
+            {
+              "surname": "Minderer",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MindererM."
+            },
+            {
+              "surname": "Heigold",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HeigoldG."
+            },
+            {
+              "surname": "Gelly",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GellyS."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "DosovitskiyA.\nBeyerL.\nKolesnikovA.\nWeissenbornD.\nZhaiX.\nUnterthinerT.\nDehghaniM.\nMindererM.\nHeigoldG.\nGellyS.\n\nAn Image Is Worth 16 × 16 Words: Transformers for Image Recognition at ScalearXiv202110.48550/arXiv.2010.119292010.11929",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.48550/arXiv.2010.11929"
+        },
+        {
+          "pub-id-type": "arxiv",
+          "value": "2010.11929"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B26-animals-16-01107",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B27-animals-16-01107",
+      "position": 26,
+      "title": "Fine-grained recognition: Accounting for subtle differences between similar classes",
+      "source": "Proceedings of the AAAI Conference on Artificial Intelligence, New York, NY, USA, 7–12 February",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sun",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SunG."
+            },
+            {
+              "surname": "Cholakkal",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CholakkalH."
+            },
+            {
+              "surname": "Khan",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhanS."
+            },
+            {
+              "surname": "Khan",
+              "givenNames": "F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhanF."
+            },
+            {
+              "surname": "Shao",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShaoL."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "Volume 34"
+        ],
+        "fpage": [
+          "12047"
+        ],
+        "lpage": [
+          "12054"
+        ],
+        "publisher-name": [
+          "AAAI Press"
+        ],
+        "publisher-loc": [
+          "Washington, DC, USA"
+        ]
+      },
+      "originalCitationText": "SunG.\nCholakkalH.\nKhanS.\nKhanF.\nShaoL.\nFine-grained recognition: Accounting for subtle differences between similar classesProceedings of the AAAI Conference on Artificial Intelligence, New York, NY, USA, 7–12 FebruaryAAAI PressWashington, DC, USA2020Volume 34120471205410.1609/aaai.v34i07.6882",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1609/aaai.v34i07.6882"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B27-animals-16-01107",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B28-animals-16-01107",
+      "position": 27,
+      "title": "An infrared and visible image fusion algorithm based on ResNet-152",
+      "source": "Multimed. Tools Appl.",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zhang",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangL."
+            },
+            {
+              "surname": "Li",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiH."
+            },
+            {
+              "surname": "Zhu",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhuR."
+            },
+            {
+              "surname": "Du",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DuP."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "81"
+        ],
+        "fpage": [
+          "9277"
+        ],
+        "lpage": [
+          "9287"
+        ]
+      },
+      "originalCitationText": "ZhangL.\nLiH.\nZhuR.\nDuP.\nAn infrared and visible image fusion algorithm based on ResNet-152Multimed. Tools Appl.2022819277928710.1007/s11042-021-11549-w",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s11042-021-11549-w"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B28-animals-16-01107",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B29-animals-16-01107",
+      "position": 28,
+      "title": "DS-TransUNet: Dual swin transformer U-net for medical image segmentation",
+      "source": "IEEE Trans. Instrum. Meas.",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lin",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LinA."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenB."
+            },
+            {
+              "surname": "Xu",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XuJ."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangZ."
+            },
+            {
+              "surname": "Lu",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuG."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangD."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "71"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "15"
+        ]
+      },
+      "originalCitationText": "LinA.\nChenB.\nXuJ.\nZhangZ.\nLuG.\nZhangD.\nDS-TransUNet: Dual swin transformer U-net for medical image segmentationIEEE Trans. Instrum. Meas.20227111510.1109/TIM.2022.3178991",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/TIM.2022.3178991"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B29-animals-16-01107",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B30-animals-16-01107",
+      "position": 29,
+      "title": "Identification of pests and diseases in greenhouse rice based on convnext-t neural network",
+      "source": "2024 International Conference on Distributed Computing and Optimization Techniques (ICDCOT)",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Li",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiD."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangC."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "7"
+        ],
+        "publisher-name": [
+          "IEEE"
+        ],
+        "publisher-loc": [
+          "Piscataway, NJ, USA"
+        ]
+      },
+      "originalCitationText": "LiD.\nZhangC.\nIdentification of pests and diseases in greenhouse rice based on convnext-t neural network2024 International Conference on Distributed Computing and Optimization Techniques (ICDCOT)IEEEPiscataway, NJ, USA20241710.1109/ICDCOT61034.2024.10515357",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/ICDCOT61034.2024.10515357"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B30-animals-16-01107",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B31-animals-16-01107",
+      "position": 30,
+      "title": "Enhanced Melanoma Detection Using a Fine-Tuned EfficientNetV2-L Model on Dermoscopic Images",
+      "source": "Proceedings of the 2024 Second International Conference on Intelligent Cyber Physical Systems and Internet of Things (ICoICI), Coimbatore, India, 28–30 August 2024",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nasra",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NasraP."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "7"
+        ],
+        "publisher-name": [
+          "IEEE"
+        ],
+        "publisher-loc": [
+          "Piscataway, NJ, USA"
+        ]
+      },
+      "originalCitationText": "NasraP.\nEnhanced Melanoma Detection Using a Fine-Tuned EfficientNetV2-L Model on Dermoscopic ImagesProceedings of the 2024 Second International Conference on Intelligent Cyber Physical Systems and Internet of Things (ICoICI), Coimbatore, India, 28–30 August 2024IEEEPiscataway, NJ, USA20241710.1109/ICoICI62503.2024.10696263",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/ICoICI62503.2024.10696263"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B31-animals-16-01107",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B32-animals-16-01107",
+      "position": 31,
+      "title": "Investigation on the Performance of DeiT Model in Medical Image Classification",
+      "source": "Proceedings of the 2025 International Conference on Data Science, Agents & Artificial Intelligence (ICDSAAI), Chennai, India, 28–29 March 2025",
+      "year": "2025",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Davidraj",
+              "givenNames": "P.Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DavidrajP.Y."
+            },
+            {
+              "surname": "Elavarasan",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ElavarasanS."
+            },
+            {
+              "surname": "Vivek",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VivekT."
+            },
+            {
+              "surname": "Munirathinam",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MunirathinamR."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "5"
+        ],
+        "publisher-name": [
+          "IEEE"
+        ],
+        "publisher-loc": [
+          "Piscataway, NJ, USA"
+        ]
+      },
+      "originalCitationText": "DavidrajP.Y.\nElavarasanS.\nVivekT.\nMunirathinamR.\nInvestigation on the Performance of DeiT Model in Medical Image ClassificationProceedings of the 2025 International Conference on Data Science, Agents & Artificial Intelligence (ICDSAAI), Chennai, India, 28–29 March 2025IEEEPiscataway, NJ, USA20251510.1109/ICDSAAI65575.2025.11011722",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/ICDSAAI65575.2025.11011722"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B32-animals-16-01107",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B33-animals-16-01107",
+      "position": 32,
+      "title": "CutMix: Regularization strategy to train strong classifiers with localizable features",
+      "source": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), Seoul, Republic of Korea, 27 October–2 November 2019",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yun",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YunS."
+            },
+            {
+              "surname": "Han",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HanD."
+            },
+            {
+              "surname": "Chun",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChunS."
+            },
+            {
+              "surname": "Oh",
+              "givenNames": "S.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OhS.J."
+            },
+            {
+              "surname": "Yoo",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YooY."
+            },
+            {
+              "surname": "Choe",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChoeJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "6023"
+        ],
+        "lpage": [
+          "6032"
+        ],
+        "publisher-name": [
+          "IEEE"
+        ],
+        "publisher-loc": [
+          "Piscataway, NJ, USA"
+        ]
+      },
+      "originalCitationText": "YunS.\nHanD.\nChunS.\nOhS.J.\nYooY.\nChoeJ.\nCutMix: Regularization strategy to train strong classifiers with localizable featuresProceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), Seoul, Republic of Korea, 27 October–2 November 2019IEEEPiscataway, NJ, USA20196023603210.1109/ICCV.2019.00612",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/ICCV.2019.00612"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B33-animals-16-01107",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B34-animals-16-01107",
+      "position": 33,
+      "title": "mixup: Beyond empirical risk minimization",
+      "source": "arXiv",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zhang",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangH."
+            },
+            {
+              "surname": "Cisse",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CisseM."
+            },
+            {
+              "surname": "Dauphin",
+              "givenNames": "Y.N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DauphinY.N."
+            },
+            {
+              "surname": "Lopez-Paz",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Lopez-PazD."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "ZhangH.\nCisseM.\nDauphinY.N.\nLopez-PazD.\nmixup: Beyond empirical risk minimizationarXiv201710.48550/arXiv.1710.094121710.09412",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.48550/arXiv.1710.09412"
+        },
+        {
+          "pub-id-type": "arxiv",
+          "value": "1710.09412"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B34-animals-16-01107",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B35-animals-16-01107",
+      "position": 34,
+      "title": "ROC and AUC with a binary predictor: A potentially misleading metric",
+      "source": "J. Classif.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Muschelli",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MuschelliJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "37"
+        ],
+        "fpage": [
+          "696"
+        ],
+        "lpage": [
+          "708"
+        ]
+      },
+      "originalCitationText": "MuschelliJ.\nROC and AUC with a binary predictor: A potentially misleading metricJ. Classif.20203769670810.1007/s00357-019-09345-133250548PMC7695228",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s00357-019-09345-1"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33250548"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7695228"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B35-animals-16-01107",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B36-animals-16-01107",
+      "position": 35,
+      "title": "UMAP: Uniform manifold approximation and projection for dimension reduction",
+      "source": "arXiv",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "McInnes",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McInnesL."
+            },
+            {
+              "surname": "Healy",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HealyJ."
+            },
+            {
+              "surname": "Melville",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MelvilleJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "McInnesL.\nHealyJ.\nMelvilleJ.\nUMAP: Uniform manifold approximation and projection for dimension reductionarXiv201810.48550/arXiv.1802.034261802.03426",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.48550/arXiv.1802.03426"
+        },
+        {
+          "pub-id-type": "arxiv",
+          "value": "1802.03426"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B36-animals-16-01107",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B37-animals-16-01107",
+      "position": 36,
+      "title": "Novel loss functions for improved data visualization in t-SNE",
+      "source": "Mach. Learn. Knowl. Extr.",
+      "year": "2026",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nassar",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NassarS."
+            },
+            {
+              "surname": "Hedjam",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HedjamR."
+            },
+            {
+              "surname": "Belhaouari",
+              "givenNames": "S.B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BelhaouariS.B."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "elocation-id": [
+          "47"
+        ]
+      },
+      "originalCitationText": "NassarS.\nHedjamR.\nBelhaouariS.B.\nNovel loss functions for improved data visualization in t-SNEMach. Learn. Knowl. Extr.202684710.3390/make8020047",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/make8020047"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B37-animals-16-01107",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B38-animals-16-01107",
+      "position": 37,
+      "title": "Quantifying Attention Flow in Transformers",
+      "source": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, Online, 5–10 July 2020",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Abnar",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AbnarS."
+            },
+            {
+              "surname": "Zuidema",
+              "givenNames": "W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZuidemaW."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "4190"
+        ],
+        "lpage": [
+          "4197"
+        ],
+        "publisher-name": [
+          "Association for Computational Linguistics"
+        ],
+        "publisher-loc": [
+          "Stroudsburg, PA, USA"
+        ]
+      },
+      "originalCitationText": "AbnarS.\nZuidemaW.\nQuantifying Attention Flow in TransformersProceedings of the 58th Annual Meeting of the Association for Computational Linguistics, Online, 5–10 July 2020Association for Computational LinguisticsStroudsburg, PA, USA20204190419710.18653/v1/2020.acl-main.385",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.18653/v1/2020.acl-main.385"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B38-animals-16-01107",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B39-animals-16-01107",
+      "position": 38,
+      "title": "Transformer Interpretability Beyond Attention Visualization",
+      "source": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Nashville, TN, USA, 20–25 June 2021",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chefer",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CheferH."
+            },
+            {
+              "surname": "Gur",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GurS."
+            },
+            {
+              "surname": "Wolf",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WolfL."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "782"
+        ],
+        "lpage": [
+          "791"
+        ],
+        "publisher-name": [
+          "IEEE"
+        ],
+        "publisher-loc": [
+          "Piscataway, NJ, USA"
+        ]
+      },
+      "originalCitationText": "CheferH.\nGurS.\nWolfL.\nTransformer Interpretability Beyond Attention VisualizationProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Nashville, TN, USA, 20–25 June 2021IEEEPiscataway, NJ, USA202178279110.1109/CVPR46437.2021.00084",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/CVPR46437.2021.00084"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B39-animals-16-01107",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B40-animals-16-01107",
+      "position": 39,
+      "title": "Attention Temperature Matters in Abstractive Summarization Distillation",
+      "source": "Volume 1: Long Papers, Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics, Dublin, Ireland, 22–27 May 2022",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zhang",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangS."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangX."
+            },
+            {
+              "surname": "Bao",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BaoH."
+            },
+            {
+              "surname": "Wei",
+              "givenNames": "F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeiF."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "127"
+        ],
+        "lpage": [
+          "141"
+        ],
+        "publisher-name": [
+          "Association for Computational Linguistics"
+        ],
+        "publisher-loc": [
+          "Stroudsburg, PA, USA"
+        ]
+      },
+      "originalCitationText": "ZhangS.\nZhangX.\nBaoH.\nWeiF.\nAttention Temperature Matters in Abstractive Summarization DistillationVolume 1: Long Papers, Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics, Dublin, Ireland, 22–27 May 2022Association for Computational LinguisticsStroudsburg, PA, USA202212714110.18653/v1/2022.acl-long.11",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.18653/v1/2022.acl-long.11"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B40-animals-16-01107",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B41-animals-16-01107",
+      "position": 40,
+      "title": "A survey of the vision transformers and their CNN-transformer based variants",
+      "source": "Artif. Intell. Rev.",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Khan",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhanA."
+            },
+            {
+              "surname": "Rauf",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RaufZ."
+            },
+            {
+              "surname": "Sohail",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SohailA."
+            },
+            {
+              "surname": "Khan",
+              "givenNames": "A.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhanA.R."
+            },
+            {
+              "surname": "Asif",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AsifH."
+            },
+            {
+              "surname": "Asif",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AsifA."
+            },
+            {
+              "surname": "Farooq",
+              "givenNames": "U.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FarooqU."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "56"
+        ],
+        "fpage": [
+          "2917"
+        ],
+        "lpage": [
+          "2970"
+        ]
+      },
+      "originalCitationText": "KhanA.\nRaufZ.\nSohailA.\nKhanA.R.\nAsifH.\nAsifA.\nFarooqU.\nA survey of the vision transformers and their CNN-transformer based variantsArtif. Intell. Rev.2023562917297010.1007/s10462-023-10595-0",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10462-023-10595-0"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B41-animals-16-01107",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B42-animals-16-01107",
+      "position": 41,
+      "title": "Identification of animal individuals using deep learning: A case study of giant panda",
+      "source": "Biol. Conserv.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hou",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HouJ."
+            },
+            {
+              "surname": "He",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HeY."
+            },
+            {
+              "surname": "Yang",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YangH."
+            },
+            {
+              "surname": "Connor",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ConnorT."
+            },
+            {
+              "surname": "Gao",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GaoJ."
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangY."
+            },
+            {
+              "surname": "Zeng",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZengY."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangJ."
+            },
+            {
+              "surname": "Huang",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuangJ."
+            },
+            {
+              "surname": "Zheng",
+              "givenNames": "B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhengB."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "242"
+        ],
+        "elocation-id": [
+          "108414"
+        ]
+      },
+      "originalCitationText": "HouJ.\nHeY.\nYangH.\nConnorT.\nGaoJ.\nWangY.\nZengY.\nZhangJ.\nHuangJ.\nZhengB.\n\nIdentification of animal individuals using deep learning: A case study of giant pandaBiol. Conserv.202024210841410.1016/j.biocon.2020.108414",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.biocon.2020.108414"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B42-animals-16-01107",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B43-animals-16-01107",
+      "position": 42,
+      "title": "LemurFaceID: A face recognition system to facilitate individual identification of lemurs",
+      "source": "BMC Zool.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Crouse",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CrouseD."
+            },
+            {
+              "surname": "Jacobs",
+              "givenNames": "R.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JacobsR.L."
+            },
+            {
+              "surname": "Richardson",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RichardsonZ."
+            },
+            {
+              "surname": "Klum",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KlumS."
+            },
+            {
+              "surname": "Jain",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JainA."
+            },
+            {
+              "surname": "Baden",
+              "givenNames": "A.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BadenA.L."
+            },
+            {
+              "surname": "Tecot",
+              "givenNames": "S.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TecotS.R."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "elocation-id": [
+          "2"
+        ]
+      },
+      "originalCitationText": "CrouseD.\nJacobsR.L.\nRichardsonZ.\nKlumS.\nJainA.\nBadenA.L.\nTecotS.R.\nLemurFaceID: A face recognition system to facilitate individual identification of lemursBMC Zool.20172210.1186/s40850-016-0011-9",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s40850-016-0011-9"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B43-animals-16-01107",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B44-animals-16-01107",
+      "position": 43,
+      "title": "Individual identification of endangered amphibians using deep learning and smartphone images: Case study of the Japanese giant salamander (Andrias japonicus)",
+      "source": "Sci. Rep.",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Takaya",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TakayaK."
+            },
+            {
+              "surname": "Taguchi",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TaguchiY."
+            },
+            {
+              "surname": "Ise",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IseT."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "elocation-id": [
+          "16212"
+        ]
+      },
+      "originalCitationText": "TakayaK.\nTaguchiY.\nIseT.\nIndividual identification of endangered amphibians using deep learning and smartphone images: Case study of the Japanese giant salamander (Andrias japonicus)Sci. Rep.2023131621210.1038/s41598-023-40814-137758778PMC10533547",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41598-023-40814-1"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37758778"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10533547"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B44-animals-16-01107",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B45-animals-16-01107",
+      "position": 44,
+      "title": "Automated facial recognition for wildlife that lack unique markings: A deep learning approach for brown bears",
+      "source": "Ecol. Evol.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Clapham",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ClaphamM."
+            },
+            {
+              "surname": "Miller",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MillerE."
+            },
+            {
+              "surname": "Nguyen",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NguyenM."
+            },
+            {
+              "surname": "Darimont",
+              "givenNames": "C.T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DarimontC.T."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "12883"
+        ],
+        "lpage": [
+          "12892"
+        ]
+      },
+      "originalCitationText": "ClaphamM.\nMillerE.\nNguyenM.\nDarimontC.T.\nAutomated facial recognition for wildlife that lack unique markings: A deep learning approach for brown bearsEcol. Evol.202010128831289210.1002/ece3.684033304501PMC7713984",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/ece3.6840"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33304501"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7713984"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13072414/article.xml",
+        "articleSha256": "6ee348dbaed91abd85bf393fff01813d3cb422b48440928fe02023cd9ac89e79",
+        "referenceId": "B45-animals-16-01107",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Animals : an Open Access Journal from MDPI"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Animals (Basel)"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Animals (Basel)"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "2763"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "animals"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101635614"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "animals"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2076-2615"
+      }
+    ],
+    "publisherNames": [
+      "Multidisciplinary Digital Publishing Institute  (MDPI)"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "16"
+    ],
+    "issue": [
+      "7"
+    ],
+    "elocation-id": [
+      "1107"
+    ]
+  }
+}

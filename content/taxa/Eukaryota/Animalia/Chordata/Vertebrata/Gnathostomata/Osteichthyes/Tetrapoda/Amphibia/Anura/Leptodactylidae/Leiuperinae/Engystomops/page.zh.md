@@ -1,0 +1,441 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Engystomops
+
+<!-- evo:text /records/catalogue-profile/sections/0/title/zh -->
+## 接受名称与分类位置
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+COL26.8 将 Engystomops 接受为 Leiuperinae 下的属级记录。完整接受种查询在这条分类路径下收录 9 种。这是有版本日期的目录计数，各名称和分类概念保留在来源记载的层级中。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/title/zh -->
+## 阅读路线
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+从本属进入下级类群和物种，先在同一版本内比较接受名称，再查阅物种研究。分类层级提供目录阅读路线，但不能据此确定全部后代的共有性状或生物学历史。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/title/zh -->
+## 历史汇编中的觅食层位
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+AmphiBIO 在 Frost 2011 来源分类的 Engystomops 下保留 9 条记录。觅食类别的正值计数为穴居 1 条、陆栖 8 条、水栖 4 条；同一记录可以同时属于多个类别，未报告值仍为未知。这些计数描述汇编中有代表的历史概念，不表示当前类群所有物种的性状比例。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/title/zh -->
+## 所记发育类别
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+在同一历史来源子集中，正值代码记载幼体发育 7 条。代码记录不是独立种群样本；缺失类别不能推断为不存在。种级读本保留原值和汇编范围。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/title/zh -->
+## 沿所记分类树继续阅读
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/0/label/zh -->
+Engystomops coloradorum
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/1/label/zh -->
+Engystomops freibergi
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/2/label/zh -->
+Engystomops guayaco
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/3/label/zh -->
+Engystomops montubio
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/4/label/zh -->
+Engystomops petersi
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/5/label/zh -->
+Engystomops pustulatus
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/6/label/zh -->
+Engystomops pustulosus
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/7/label/zh -->
+Engystomops puyango
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/8/label/zh -->
+Engystomops randi
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+以下已编写子页面遵循固定分类。限定来源的生物学记录保留各自身份和审阅边界。
+
+- [Engystomops coloradorum](Engystomops_coloradorum/page.zh.md)
+- [Engystomops freibergi](Engystomops_freibergi/page.zh.md)
+- [Engystomops guayaco](Engystomops_guayaco/page.zh.md)
+- [Engystomops montubio](Engystomops_montubio/page.zh.md)
+- [Engystomops petersi](Engystomops_petersi/page.zh.md)
+- [Engystomops pustulatus](Engystomops_pustulatus/page.zh.md)
+- [Engystomops pustulosus](Engystomops_pustulosus/page.zh.md)
+- [Engystomops puyango](Engystomops_puyango/page.zh.md)
+- [Engystomops randi](Engystomops_randi/page.zh.md)
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/title/zh -->
+## 已取得的热生理证据
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
+在固定清理版本的 AmphiTherm 来源分类中，名称 Engystomops 匹配 5 个存档物种概念与 47 条估计行。所记指标：CTmin，27 行、涉及 4 个来源概念；CTmax，18 行、涉及 5 个来源概念；LT50_hot，2 行、涉及 1 个来源概念。CTmax、CTmin 涉及临界温度限，LT50_hot、LT50_cold 为致死限实验，Tpref 为温度偏好。各指标来自不同实验，不能合并为一个耐受范围；指标间概念重叠，计数不能直接相加为独立物种数或动物数。来源发育阶段代码为 adults、larvae。这些有年代限定的材料说明研究覆盖，不代表每个当前成员的生理特征；来源的 2018 年分类与当代类群范围分别保留。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/6/title/zh -->
+## 命名名册路径保留历史地方取样范围
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
+所选 Engystomops 子集包含厄瓜多尔 Pastaza 的 Fátima 教区研究 1 个名义物种行及 36 个累计记录；2026 年发表，来自 2013 年九月至 2018 年九月监测。这是来源归属记录，不是当前全省普查、独立认证不同动物或每面积密度。昼夜目视/照片遇见、样方、样线、陷阱跨六类地方生境。九百至一千一百米地点梯度不确立每种完整海拔范围，较晚天气摘要不确立生理耐受。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/7/title/zh -->
+## 印出风险分配及排名陈述是不同证据
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/7/text/zh -->
+物种读本在结果有提供时保留个别状态列分配及具体生境排名。这些有日期来源类别不是新核实当前 IUCN 评估或定量地方灭绝概率。森林或设施样本中占优势不证明普遍生境偏好、扰动因果收益或种群恢复。Atelopus 与 Hyloscirtus 泛受威胁属措辞不覆盖表二 spumarius、phyllognathus 的 LC 条目。名册未确立疾病流行率、繁殖实验或已检验热机制。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/title/zh -->
+## 覆盖及不一致总数要求有限解释
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/text/zh -->
+总体覆盖 97.4% 描述所采群落，不是发现全省所有物种的比例。高生境覆盖不能消除未检测稀有种。方法下一记录措辞、逐生境努力总数及 Simpson 指数解释仍未解决。结果枚举七十五个混合类群行，讨论称八十五种；印出保育表尾不合计为 614 个总记录。保留差异，不猜测修正。第五年多样性变化与 Jaccard 更替是群落观察，不是因果气候响应或每个链接种趋势。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/9/title/zh -->
+## 阅读所采物种
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/9/readingLinks/0/label/zh -->
+Engystomops petersi
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/9/text/zh -->
+这些页面保留本研究所采物种与证据限制。此选择覆盖研究样本，不是全属所有有效成员，也不覆盖全部生物学主题。
+
+- [Engystomops petersi](Engystomops_petersi/page.zh.md)
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/10/title/zh -->
+## 野外温度路径保留地点及测量类型
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/10/text/zh -->
+所选 Engystomops 路径保留哥伦比亚 Tolima 2018 年九月至十二月夜间取样 1 种、6 个所报成年记录。逐种页分开每个地点/海拔及森林/开阔行，体温、基质、空气温度按摄氏度均值 ± 标准差及观察范围列出。体温指遇见时背部皮温，附近空气在蛙上方二十厘米测量。这是观察温度，不是临界限、偏好温度或全属完整生理生态位。研究未确立全年暴露或独立标记不同个体。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/11/title/zh -->
+## 内部温度假设及冠盖定义保持有限范围
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/11/text/zh -->
+研究以四种九个动物重复皮温—泄殖腔比较，假设背皮代表内部温度；差异不显著不独立认证每个取样种、环境等效。六个每小时地面记录仪覆盖三海拔、两广义冠盖类别，不在每只蛙基质处。森林冠盖高于百分之六十、开阔不高于百分之四十，中间冠盖不在这些定义内。汇总分析校正体型但无系统发育模型，物种组成、生境选择限制进化因果主张。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/12/title/zh -->
+## 关联及未解决概率不证明耐受
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/12/text/zh -->
+来源恢复更强汇总体温—基质而非体温—空气关联，并提出传导换热，但未测热通量、水分损失或逐种温度选择。开阔/森林均值差异低/中海拔显著、最高处不显著，生境方差亦不显著。表二印 p < 0.000 及低处开阔体温—空气 p > 0.789，正文却称全部显著；不默默修正条目。讨论亦称部分同海拔种温度相似，尽管印出均值不同。森林专化及较低耐受是拟议未来检验，不是已确立变暖脆弱性或保护结果。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/13/title/zh -->
+## 阅读所采物种
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/13/readingLinks/0/label/zh -->
+Engystomops pustulosus
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/13/text/zh -->
+这些页面保留本研究所采物种与证据限制。此选择覆盖研究样本，不是全属所有有效成员，也不覆盖全部生物学主题。
+
+- [Engystomops pustulosus](Engystomops_pustulosus/page.zh.md)
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/14/title/zh -->
+## 城市路径保留来源地区类别及混合取样史
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/14/text/zh -->
+所选 Engystomops 子集有 2 个瓜亚基尔名册行：2 个记保护地区、2 个未列保护原生残存植被、1 个城市公园。类别重叠且为出现分配，不是相加不同种群或密度。来源结合 2008–2025 野外工作、馆藏、数据库及筛选次级记录，包括部分近边界地点。路径不代表每个城市生境一致覆盖或全部瓜亚基尔土地当前出现。详细标本附录、照片尚未独立取得并检查。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/15/title/zh -->
+## 国家特有及模式产地标记具有不同含义
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/15/text/zh -->
+此子集中 1 个来源行标厄瓜多尔特有，1 个指瓜亚基尔模式产地。均不意味仅城市分布，亦不核实历史模式地点全部当前种群。论文分类跟随 2025 来源框架，读本路径使用冻结 COL26.8 精确名称候选。同名匹配不独立认证原凭证或生物学概念等同性。总体模式产地数在表与讨论不同，保留差异，不猜测修正。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/16/title/zh -->
+## 持续出现、风险类别及城市韧性仍是不同主张
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/16/text/zh -->
+全球 IUCN 2025、厄瓜多尔 2021 两栖类别作为不同地理尺度有日期来源分配保留。出现在保护类别不证明有效保护，城市记录不实验确立污染耐受、繁殖率或遗传适应。讨论引用 Bd 报告不是新流行率测量；蚓螈再发现不是种群估计，引入牛蛙记录不是测得地方影响。GIS 土地覆盖变化与生物持续出现描述不同证据流。恢复、入侵种监测及教育建议仍是拟议行动。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/17/title/zh -->
+## 阅读所采物种
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/17/readingLinks/0/label/zh -->
+Engystomops pustulatus
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/17/readingLinks/1/label/zh -->
+Engystomops randi
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/17/text/zh -->
+这些页面保留本研究所采物种与证据限制。此选择覆盖研究样本，不是全属所有有效成员，也不覆盖全部生物学主题。
+
+- [Engystomops pustulatus](Engystomops_pustulatus/page.zh.md)
+- [Engystomops randi](Engystomops_randi/page.zh.md)
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/18/title/zh -->
+## 新增地点知识不是实证范围扩张
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/18/text/zh -->
+所选 Engystomops 路径（Engystomops montubio）保留厄瓜多尔西部个体遇见、凭证与海拔。来源新增省记录及已知记录间距描述知识变化，不是观察定殖、连续占据或测得扩散率。非系统搜索不确立未访点缺失。历史引用海拔范围与更低/更高新记录分开，精确遇见海拔不能换成营地海拔。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/19/title/zh -->
+## 先读个体观察，再读一般生态主张
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/19/text/zh -->
+关联页把雄、雌、幼体及性别未定动物分开，不把每个体长作成年范围。溪洼附近停栖不证明卵位置、幼体生境或量化偏好。抱对、发声保持特定报告事件，不推断补充或声学参数。方法 2014–2023 窗口不同于一条 2008 及一条 2024 记述；两小数体长不认证比所述 0.1 毫米方法更细精度。引用鉴定描述及有日期威胁类别不是独立刷新标本诊断或风险评估。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/20/title/zh -->
+## 阅读所采物种
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/20/readingLinks/0/label/zh -->
+Engystomops montubio
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/20/text/zh -->
+这些页面保留本研究所采物种与证据限制。此选择覆盖研究样本，不是全属所有有效成员，也不覆盖全部生物学主题。
+
+- [Engystomops montubio](Engystomops_montubio/page.zh.md)
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/21/title/zh -->
+## 命名路径与未解决鉴定保持区分
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/21/text/zh -->
+S3 表 Engystomops 子集含 1 来源行。1 名与冻结 COL26.8 种精确匹配并有所选阅读路径。0 行保持未解决。cf.、aff.、gr.、sp. 按印出保留，不把相似、种组或未鉴定标本当接受种。完整名册九十九两栖概念含未解决标签，故九十九不是逐一认证接受种页数。精确匹配亦不独立验证馆藏凭证或生物概念等同性。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/22/title/zh -->
+## 地区总数涉及来源行及重叠证据
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/22/text/zh -->
+子集在 Conceição do Araguaia 有 0 行、Carajás Mosaic 1 行、Ourilândia do Norte/São Félix do Xingu 1 行、São Geraldo do Araguaia 0 行。野外代码一分别出现于 0、0、0、0 行。推导数含上述未解决标签，计出现/来源分配，不是个体或不同种群；地区及证据类别重叠。S5 努力记本项目未直接考察 Carajás，其他地区取样不等。馆藏、文献出现不能自动定为 2021–2022 野外，空格不实证缺失。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/23/title/zh -->
+## 生境标签与条形码覆盖不是实验功能
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/23/text/zh -->
+F、O、Pa 描述汇总森林、开阔植被及人类活动周围生境标签。不测全属成员偏好、污染耐受、繁殖或采矿影响。IUCN 项是有来源日期分配，无逐行评估日期，横杠值保留。区域序列总数及标记分组不认证每行条形码或遗传诊断。所选物种页保留逐行来源格与较早专题证据；未检查工作簿、树、叫声及标本资料不呈为独立验证。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/24/title/zh -->
+## 阅读所采物种
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/24/readingLinks/0/label/zh -->
+Engystomops freibergi
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/24/text/zh -->
+这些页面保留本研究所采物种与证据限制。此选择覆盖研究样本，不是全属所有有效成员，也不覆盖全部生物学主题。
+
+- [Engystomops freibergi](Engystomops_freibergi/page.zh.md)
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/25/title/zh -->
+## 选定参考组装及其范围
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/25/text/zh -->
+无尾目比较基因组研究为所选 Engystomops 页面列出：Engystomops pustulosus: GCA_018994145.1, 2.16 Gbp, contigN50 21,805.6 Kbp。这些值受具体组装及研究在2024年10月29日的 NCBI 快照范围限制，不是细胞 DNA 含量的直接测量或全属不变的基因组大小。页面选择依据当前精确名称与明确冻结命名链接；这里没有独立认证原标本及基因组身份。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/26/title/zh -->
+## 重复数据编号需要澄清
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/26/text/zh -->
+主文表1与补充S1的61行没有“精确物种名＋编号”同时一致的对应：59个精确匹配名称均携不同编号，另两名使用不同拼写或组合。链接的物种页逐一保留具体冲突。因此，这里不把补充 TE 数量、比例及按编号列出的窝卵、幼体记录分配为已核实属成员性状。已核读主表没有给五百分比 BUSCO 向量标分量名称；contigN50 是连续性统计，不是完整性认证。这里没有重跑序列处理流程、原组装和重复库。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/27/title/zh -->
+## 比较模型及提出的机制
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/27/text/zh -->
+作者用系统模型、contigN50 协变量及多重检验校正比较61个组装。RepeatMasker 命中、占据长度和比例是不同指标；与重复共识的分歧是年龄或活跃程度代理，不是当前转座观察。暂定全长 Ty3 的 ORF 相似性不能证明蛋白质正在表达。发育限制和 TE 扩增是对跨物种关联的解释，不是每个选定属成员的操纵实验依据。来源中的 TE 比例、ORF 总数及 GC 关联陈述冲突保持未解决。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/28/title/zh -->
+## 阅读选定基因组研究条目
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/28/readingLinks/0/label/zh -->
+Engystomops pustulosus
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/28/text/zh -->
+逐页区分所列组装统计、有冲突的重复数据、名称对应及比较假说。选定参考组装不构成完整全属生物学。
+
+- [Engystomops pustulosus](Engystomops_pustulosus/page.zh.md)
+<!-- /evo:text -->
+
+## catalogue-profile / limitations
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+本页为分类与限定来源范围的类群介绍；不将历史来源子集视为整个当前类群的等同物。尚未代表的生物学证据仍需核对，未经过外部领域专家评审。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/0/evidenceSummary/zh -->
+所选 Engystomops 子集包含厄瓜多尔 Pastaza 的 Fátima 教区研究 1 个名义物种行及 36 个累计记录；2026 年发表，来自 2013 年九月至 2018 年九月监测。这是来源归属记录，不是当前全省普查、独立认证不同动物或每面积密度。昼夜目视/照片遇见、样方、样线、陷阱跨六类地方生境。九百至一千一百米地点梯度不确立每种完整海拔范围，较晚天气摘要不确立生理耐受。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/1/evidenceSummary/zh -->
+物种读本在结果有提供时保留个别状态列分配及具体生境排名。这些有日期来源类别不是新核实当前 IUCN 评估或定量地方灭绝概率。森林或设施样本中占优势不证明普遍生境偏好、扰动因果收益或种群恢复。Atelopus 与 Hyloscirtus 泛受威胁属措辞不覆盖表二 spumarius、phyllognathus 的 LC 条目。名册未确立疾病流行率、繁殖实验或已检验热机制。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/2/evidenceSummary/zh -->
+总体覆盖 97.4% 描述所采群落，不是发现全省所有物种的比例。高生境覆盖不能消除未检测稀有种。方法下一记录措辞、逐生境努力总数及 Simpson 指数解释仍未解决。结果枚举七十五个混合类群行，讨论称八十五种；印出保育表尾不合计为 614 个总记录。保留差异，不猜测修正。第五年多样性变化与 Jaccard 更替是群落观察，不是因果气候响应或每个链接种趋势。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/1/sectionEvidence/0/evidenceSummary/zh -->
+所选 Engystomops 路径保留哥伦比亚 Tolima 2018 年九月至十二月夜间取样 1 种、6 个所报成年记录。逐种页分开每个地点/海拔及森林/开阔行，体温、基质、空气温度按摄氏度均值 ± 标准差及观察范围列出。体温指遇见时背部皮温，附近空气在蛙上方二十厘米测量。这是观察温度，不是临界限、偏好温度或全属完整生理生态位。研究未确立全年暴露或独立标记不同个体。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/1/sectionEvidence/1/evidenceSummary/zh -->
+研究以四种九个动物重复皮温—泄殖腔比较，假设背皮代表内部温度；差异不显著不独立认证每个取样种、环境等效。六个每小时地面记录仪覆盖三海拔、两广义冠盖类别，不在每只蛙基质处。森林冠盖高于百分之六十、开阔不高于百分之四十，中间冠盖不在这些定义内。汇总分析校正体型但无系统发育模型，物种组成、生境选择限制进化因果主张。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/1/sectionEvidence/2/evidenceSummary/zh -->
+来源恢复更强汇总体温—基质而非体温—空气关联，并提出传导换热，但未测热通量、水分损失或逐种温度选择。开阔/森林均值差异低/中海拔显著、最高处不显著，生境方差亦不显著。表二印 p < 0.000 及低处开阔体温—空气 p > 0.789，正文却称全部显著；不默默修正条目。讨论亦称部分同海拔种温度相似，尽管印出均值不同。森林专化及较低耐受是拟议未来检验，不是已确立变暖脆弱性或保护结果。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/2/sectionEvidence/0/evidenceSummary/zh -->
+所选 Engystomops 子集有 2 个瓜亚基尔名册行：2 个记保护地区、2 个未列保护原生残存植被、1 个城市公园。类别重叠且为出现分配，不是相加不同种群或密度。来源结合 2008–2025 野外工作、馆藏、数据库及筛选次级记录，包括部分近边界地点。路径不代表每个城市生境一致覆盖或全部瓜亚基尔土地当前出现。详细标本附录、照片尚未独立取得并检查。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/2/sectionEvidence/1/evidenceSummary/zh -->
+此子集中 1 个来源行标厄瓜多尔特有，1 个指瓜亚基尔模式产地。均不意味仅城市分布，亦不核实历史模式地点全部当前种群。论文分类跟随 2025 来源框架，读本路径使用冻结 COL26.8 精确名称候选。同名匹配不独立认证原凭证或生物学概念等同性。总体模式产地数在表与讨论不同，保留差异，不猜测修正。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/2/sectionEvidence/2/evidenceSummary/zh -->
+全球 IUCN 2025、厄瓜多尔 2021 两栖类别作为不同地理尺度有日期来源分配保留。出现在保护类别不证明有效保护，城市记录不实验确立污染耐受、繁殖率或遗传适应。讨论引用 Bd 报告不是新流行率测量；蚓螈再发现不是种群估计，引入牛蛙记录不是测得地方影响。GIS 土地覆盖变化与生物持续出现描述不同证据流。恢复、入侵种监测及教育建议仍是拟议行动。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/3/sectionEvidence/0/evidenceSummary/zh -->
+所选 Engystomops 路径（Engystomops montubio）保留厄瓜多尔西部个体遇见、凭证与海拔。来源新增省记录及已知记录间距描述知识变化，不是观察定殖、连续占据或测得扩散率。非系统搜索不确立未访点缺失。历史引用海拔范围与更低/更高新记录分开，精确遇见海拔不能换成营地海拔。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/3/sectionEvidence/1/evidenceSummary/zh -->
+关联页把雄、雌、幼体及性别未定动物分开，不把每个体长作成年范围。溪洼附近停栖不证明卵位置、幼体生境或量化偏好。抱对、发声保持特定报告事件，不推断补充或声学参数。方法 2014–2023 窗口不同于一条 2008 及一条 2024 记述；两小数体长不认证比所述 0.1 毫米方法更细精度。引用鉴定描述及有日期威胁类别不是独立刷新标本诊断或风险评估。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/4/sectionEvidence/0/evidenceSummary/zh -->
+S3 表 Engystomops 子集含 1 来源行。1 名与冻结 COL26.8 种精确匹配并有所选阅读路径。0 行保持未解决。cf.、aff.、gr.、sp. 按印出保留，不把相似、种组或未鉴定标本当接受种。完整名册九十九两栖概念含未解决标签，故九十九不是逐一认证接受种页数。精确匹配亦不独立验证馆藏凭证或生物概念等同性。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/4/sectionEvidence/1/evidenceSummary/zh -->
+子集在 Conceição do Araguaia 有 0 行、Carajás Mosaic 1 行、Ourilândia do Norte/São Félix do Xingu 1 行、São Geraldo do Araguaia 0 行。野外代码一分别出现于 0、0、0、0 行。推导数含上述未解决标签，计出现/来源分配，不是个体或不同种群；地区及证据类别重叠。S5 努力记本项目未直接考察 Carajás，其他地区取样不等。馆藏、文献出现不能自动定为 2021–2022 野外，空格不实证缺失。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/4/sectionEvidence/2/evidenceSummary/zh -->
+F、O、Pa 描述汇总森林、开阔植被及人类活动周围生境标签。不测全属成员偏好、污染耐受、繁殖或采矿影响。IUCN 项是有来源日期分配，无逐行评估日期，横杠值保留。区域序列总数及标记分组不认证每行条形码或遗传诊断。所选物种页保留逐行来源格与较早专题证据；未检查工作簿、树、叫声及标本资料不呈为独立验证。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/5/sectionEvidence/0/evidenceSummary/zh -->
+无尾目比较基因组研究为所选 Engystomops 页面列出：Engystomops pustulosus: GCA_018994145.1, 2.16 Gbp, contigN50 21,805.6 Kbp。这些值受具体组装及研究在2024年10月29日的 NCBI 快照范围限制，不是细胞 DNA 含量的直接测量或全属不变的基因组大小。页面选择依据当前精确名称与明确冻结命名链接；这里没有独立认证原标本及基因组身份。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/5/sectionEvidence/1/evidenceSummary/zh -->
+主文表1与补充S1的61行没有“精确物种名＋编号”同时一致的对应：59个精确匹配名称均携不同编号，另两名使用不同拼写或组合。链接的物种页逐一保留具体冲突。因此，这里不把补充 TE 数量、比例及按编号列出的窝卵、幼体记录分配为已核实属成员性状。已核读主表没有给五百分比 BUSCO 向量标分量名称；contigN50 是连续性统计，不是完整性认证。这里没有重跑序列处理流程、原组装和重复库。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/5/sectionEvidence/2/evidenceSummary/zh -->
+作者用系统模型、contigN50 协变量及多重检验校正比较61个组装。RepeatMasker 命中、占据长度和比例是不同指标；与重复共识的分歧是年龄或活跃程度代理，不是当前转座观察。暂定全长 Ty3 的 ORF 相似性不能证明蛋白质正在表达。发育限制和 TE 扩增是对跨物种关联的解释，不是每个选定属成员的操纵实验依据。来源中的 TE 比例、ORF 总数及 GC 关联陈述冲突保持未解决。
+<!-- /evo:text -->
+
+## 研究正文待整理
+
+<!-- evo:text /records/amphibia-collection-placeholder/sections/0/text/zh -->
+本节为占位内容。所记来源快照的 reference 元数据与索引已收集。形态、生活史、生态、演化、分布、化石及保护的详实正文，待材料核对后再整理。本页已有来源摘要继续保留。检索结果或文献记录不等于已核实的生物学主张。
+<!-- /evo:text -->

@@ -1,0 +1,43 @@
+{
+  "pmc": "PMC8436961",
+  "nextBatch": 332,
+  "s1": {
+    "file": "peerj-09-12012-s001.docx",
+    "sha256": "00302990c080c18f315fd72f2f8bdab2b18e7fa99ce687315bc1e25db1ebd5af",
+    "dataRowsRead": 77,
+    "allCellsRead": true,
+    "scope": "All77donor rows/three columns read; donor labels and strings preserved. No original GenBank record authenticated."
+  },
+  "s2": {
+    "file": "peerj-09-12012-s002.xlsx",
+    "sha256": "28003821f2b8f75438e005fa8e39385716101e09e048fd012e9cbd8a4e063270",
+    "worksheet": "Plan1",
+    "labelsRead": 40,
+    "selectedNumericCellsRead": 39,
+    "remainingMatrixCellsRead": false,
+    "focalRows": [
+      {
+        "row": 26,
+        "sheetRow": 27,
+        "label": "P. korekore",
+        "number": 26
+      }
+    ],
+    "units": "Stored decimals; no unit label in inspected header; main Table3 percentages are a distinct attributed representation."
+  },
+  "limits": [
+    "S1CycloramphusboraceiensisDQ283097 conflicts with MethodsCycloramphusacangatan; preserve bothsource roles without substituting accepted species",
+    "S1GenbankAcession column contains local korekore voucher strings andfour strussmannae identifiers rather thanaccession strings",
+    "S1Odontophrynusgenusonly,JX564880;americanusMG/ARGqualifiers andOdontpphrynus typo notcollapsed",
+    "S1does not list occidentalis label thatappears inS2; do notassign JX564880 tooccidentalis byinference",
+    "S2hasoneaggregated korekore label,notthree separatelyidentified sequenced specimens",
+    "S2criticeps spelling remainsunreconciled",
+    "Originalsequences,alignment,rawsound,vouchers notauthenticated"
+  ],
+  "assignedReaderClaims": true,
+  "testsRun": false,
+  "assignedInBatches": [
+    332,
+    333
+  ]
+}

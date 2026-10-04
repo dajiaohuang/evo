@@ -1,0 +1,4537 @@
+{
+  "pmcid": "PMC10898777",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+  "sha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+  "articleType": "research-article",
+  "title": "Enhancing predictive performance for spectroscopic studies in wildlife science through a multi-model approach: A case study for species classification of live amphibians",
+  "authors": [
+    {
+      "name": "Li-Dunn Chen",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Li-Dunn",
+        "surname": "Chen",
+        "suffix": null
+      },
+      "originalName": "ChenLi-Dunn",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Michael A. Caprio",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Michael A.",
+        "surname": "Caprio",
+        "suffix": null
+      },
+      "originalName": "CaprioMichael A.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Devin M. Chen",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Devin M.",
+        "surname": "Chen",
+        "suffix": null
+      },
+      "originalName": "ChenDevin M.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Andrew J. Kouba",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Andrew J.",
+        "surname": "Kouba",
+        "suffix": null
+      },
+      "originalName": "KoubaAndrew J.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "authenticated": "true",
+          "contrib-id-type": "orcid",
+          "value": "https://orcid.org/0000-0002-9653-9814"
+        }
+      ]
+    },
+    {
+      "name": "Carrie K. Kouba",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Carrie K.",
+        "surname": "Kouba",
+        "suffix": null
+      },
+      "originalName": "KoubaCarrie K.",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "authenticated": "true",
+          "contrib-id-type": "orcid",
+          "value": "https://orcid.org/0000-0001-8466-6077"
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC10898777"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC10898777.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "10898777"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "10898777"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "38354202"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1371/journal.pcbi.1011876"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "PCOMPBIOL-D-23-00569"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2024",
+      "month": "2",
+      "day": "14"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2024",
+      "month": "2",
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "pcbi.1011876.s001",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1011876.s001.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1011876.s001.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1011876.s002",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1011876.s002.Rmd",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1011876.s002.Rmd",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1011876.s003",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1011876.s003.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1011876.s003.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1011876.s004",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1011876.s004.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1011876.s004.docx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1011876.s005",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1011876.s005.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1011876.s005.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1011876.s006",
+      "position": 5,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1011876.s006.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1011876.s006.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "pcbi.1011876.ref001",
+      "position": 0,
+      "title": "Near infrared spectroscopy in wildlife and biodiversity",
+      "source": "J Near Infrared Spectrosc",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "25"
+        ]
+      },
+      "originalCitationText": "VanceCK, TollesonDR, KinoshitaK, RodriguezJ, FoleyWJ. Near infrared spectroscopy in wildlife and biodiversity. J Near Infrared Spectrosc. 2016;24(1):1–25.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref001",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref002",
+      "position": 1,
+      "title": null,
+      "source": "The Application of NIRS to Determine Animal Physiological Traits for Wildlife Management and Conservation",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "14"
+        ]
+      },
+      "originalCitationText": "MorganLR, MarshKJ, TollesonDR, YoungentobKN. The Application of NIRS to Determine Animal Physiological Traits for Wildlife Management and Conservation. 2021;1–14.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref002",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref003",
+      "position": 2,
+      "title": "Proceedings of the research workshop on the rapid estimation of fish age using Fourier Transform Near Infrared Spectroscopy (FT-NIRS)",
+      "source": "AFSC Processed Report",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "53"
+        ]
+      },
+      "originalCitationText": "HelserTE, BensonIM, BarnettBK. Proceedings of the research workshop on the rapid estimation of fish age using Fourier Transform Near Infrared Spectroscopy (FT-NIRS). AFSC Processed Report. 2019;53.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref003",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref004",
+      "position": 3,
+      "title": null,
+      "source": "Applied Predictive Modeling",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Springer"
+        ]
+      },
+      "originalCitationText": "KuhnM, JohnsonK. Applied Predictive Modeling. Springer; 2013.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref004",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref005",
+      "position": 4,
+      "title": null,
+      "source": "2021 International Conference on Emerging Smart Computing and Informatics, ESCI 2021",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "216"
+        ],
+        "lpage": [
+          "22"
+        ],
+        "publisher-name": [
+          "Institute of Electrical and Electronics Engineers Inc."
+        ]
+      },
+      "originalCitationText": "YadavSS, KadamVJ, JadhavSM, JagtapS, PathakPR. Machine learning based malaria prediction using clinical findings. In: 2021 International Conference on Emerging Smart Computing and Informatics, ESCI 2021. Institute of Electrical and Electronics Engineers Inc.; 2021; p. 216–22.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref005",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref006",
+      "position": 5,
+      "title": "Ensemble Modelling of Skipjack Tuna (Katsuwonus pelamis) Habitats in the Western North Pacific Using Satellite Remotely Sensed Data; a Comparative Analysis Using Machine-Learning Models",
+      "source": "Remote Sens (Basel)",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "issue": [
+          "16"
+        ],
+        "fpage": [
+          "2591"
+        ]
+      },
+      "originalCitationText": "MugoR, SaitohSI. Ensemble Modelling of Skipjack Tuna (Katsuwonus pelamis) Habitats in the Western North Pacific Using Satellite Remotely Sensed Data; a Comparative Analysis Using Machine-Learning Models. Remote Sens (Basel). 2020;12(16):2591.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref006",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref007",
+      "position": 6,
+      "title": null,
+      "source": "DATA 2019—Proceedings of the 8th International Conference on Data Science, Technology and Applications",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "296"
+        ],
+        "lpage": [
+          "303"
+        ],
+        "publisher-name": [
+          "SciTePress"
+        ]
+      },
+      "originalCitationText": "ShahbazM, AliS, GuergachiA, NiaziA, UmerA. Classification of Alzheimer’s disease using machine learning techniques. In: DATA 2019—Proceedings of the 8th International Conference on Data Science, Technology and Applications. SciTePress; 2019; p. 296–303.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref007",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref008",
+      "position": 7,
+      "title": "Rapid identification of papillary thyroid carcinoma and papillary microcarcinoma based on serum Raman spectroscopy combined with machine learning models",
+      "source": "Photodiagnosis Photodyn Ther",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "37"
+        ]
+      },
+      "originalCitationText": "SongH, DongC, ZhangX, WuW, ChenC, MaB, et al. Rapid identification of papillary thyroid carcinoma and papillary microcarcinoma based on serum Raman spectroscopy combined with machine learning models. Photodiagnosis Photodyn Ther. 2022;37. doi: 10.1016/j.pdpdt.2021.102647\n34818598",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.pdpdt.2021.102647"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34818598"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref008",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref009",
+      "position": 8,
+      "title": "Performance of machine learning-based multi-model voting ensemble methods for network threat detection in agriculture 4.0",
+      "source": "Sensors",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "issue": [
+          "22"
+        ],
+        "fpage": [
+          "7475"
+        ]
+      },
+      "originalCitationText": "PeppesN, DaskalakisE, AlexakisT, AdamopoulouE, DemestichasK. Performance of machine learning-based multi-model voting ensemble methods for network threat detection in agriculture 4.0. Sensors. 2021;21(22).7475. doi: 10.3390/s2122747534833551\nPMC8622709",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/s21227475"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34833551"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8622709"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref009",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref010",
+      "position": 9,
+      "title": "A novel deep learning-based multi-model ensemble method for the prediction of neuromuscular disorders",
+      "source": "Neural Comput Appl",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "issue": [
+          "15"
+        ],
+        "fpage": [
+          "11083"
+        ],
+        "lpage": [
+          "95"
+        ]
+      },
+      "originalCitationText": "KhampariaA, SinghA, AnandD, GuptaD, KhannaA, Arun KumarN, et al. A novel deep learning-based multi-model ensemble method for the prediction of neuromuscular disorders. Neural Comput Appl. 2020;32(15):11083–95.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref010",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref011",
+      "position": 10,
+      "title": "A deep learning-based multi-model ensemble method for cancer prediction",
+      "source": "Comput Methods Programs Biomed",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "153"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "9"
+        ]
+      },
+      "originalCitationText": "XiaoY, WuJ, LinZ, ZhaoX. A deep learning-based multi-model ensemble method for cancer prediction. Comput Methods Programs Biomed. 2018;153:1–9. doi: 10.1016/j.cmpb.2017.09.005\n29157442",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cmpb.2017.09.005"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29157442"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref011",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref012",
+      "position": 11,
+      "title": null,
+      "source": "Proceedings—2018 IEEE International Conference on Systems, Man, and Cybernetics, SMC 2018",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "1743"
+        ],
+        "lpage": [
+          "8"
+        ],
+        "publisher-name": [
+          "Institute of Electrical and Electronics Engineers Inc."
+        ]
+      },
+      "originalCitationText": "De OliveiraH, ProdelM, AugustoV. Binary Classification on French Hospital Data: Benchmark of 7 Machine Learning Algorithms. In: Proceedings—2018 IEEE International Conference on Systems, Man, and Cybernetics, SMC 2018. Institute of Electrical and Electronics Engineers Inc.; 2019. p. 1743–8.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref012",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref013",
+      "position": 12,
+      "title": null,
+      "source": "Machine Learning Approaches for Inferring Liver Diseases and Detecting Blood Donors from Medical Diagnosis",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "MostafaFB, HasanE. Machine Learning Approaches for Inferring Liver Diseases and Detecting Blood Donors from Medical Diagnosis. 2021. ArXiv, abs/2104.12055.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref013",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref014",
+      "position": 13,
+      "title": null,
+      "source": "SustainBench: Benchmarks for Monitoring the Sustainable Development Goals with Machine Learning",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "YehC, MengC, WangS, DriscollA, RoziE, LiuP, et al. SustainBench: Benchmarks for Monitoring the Sustainable Development Goals with Machine Learning. 2021; Available from: http://arxiv.org/abs/2111.04724",
+      "identifiers": [],
+      "externalLinks": [
+        "http://arxiv.org/abs/2111.04724"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref014",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref015",
+      "position": 14,
+      "title": "Electrical imaging of soil water availability to grapevine: a benchmark experiment of several machine-learning techniques",
+      "source": "Precis Agric",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "637"
+        ],
+        "lpage": [
+          "58"
+        ]
+      },
+      "originalCitationText": "BrillanteL, BoisB, MathieuO, LévêqueJ. Electrical imaging of soil water availability to grapevine: a benchmark experiment of several machine-learning techniques. Precis Agric. 2016;17(6):637–58.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref015",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref016",
+      "position": 15,
+      "title": "Multivariate regression models obtained from near-infrared spectroscopy data for prediction of the physical properties of biodiesel and its blends",
+      "source": "Fuel",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "261"
+        ]
+      },
+      "originalCitationText": "CunhaCL, TorresAR, LunaAS. Multivariate regression models obtained from near-infrared spectroscopy data for prediction of the physical properties of biodiesel and its blends. Fuel. 2020;261.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref016",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref017",
+      "position": 16,
+      "title": "Global regression model for moisture content determination using near-infrared spectroscopy",
+      "source": "European Journal of Pharmaceutics and Biopharmaceutics",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "119"
+        ],
+        "fpage": [
+          "343"
+        ],
+        "lpage": [
+          "52"
+        ]
+      },
+      "originalCitationText": "ClavaudM, RoggoY, DégardinK, SacréPY, HubertP, ZiemonsE. Global regression model for moisture content determination using near-infrared spectroscopy. European Journal of Pharmaceutics and Biopharmaceutics. 2017;119:343–52. doi: 10.1016/j.ejpb.2017.07.007\n28729179",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ejpb.2017.07.007"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28729179"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref017",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref018",
+      "position": 17,
+      "title": "A study of machine learning regression methods for major elemental analysis of rocks using laser-induced breakdown spectroscopy",
+      "source": "Spectrochim Acta Part B At Spectrosc",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "107"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "10"
+        ]
+      },
+      "originalCitationText": "BoucherTF, OzanneM V., CarmosinoML, DyarMD, MahadevanS, BrevesEA, et al. A study of machine learning regression methods for major elemental analysis of rocks using laser-induced breakdown spectroscopy. Spectrochim Acta Part B At Spectrosc. 2015;107:1–10.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref018",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref019",
+      "position": 18,
+      "title": "Near-Infrared Spectroscopy (NIRS) as a Method for Biological Sex Discrimination in the Endangered Houston Toad (Anaxyrus houstonensis)",
+      "source": "Methods Protoc",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "4"
+        ]
+      },
+      "originalCitationText": "ChenLD, Santos-RiveraM, BurgerIJ, KoubaAJ, BarberDM, VanceCK. Near-Infrared Spectroscopy (NIRS) as a Method for Biological Sex Discrimination in the Endangered Houston Toad (Anaxyrus houstonensis). Methods Protoc. 2021;5(1):4. doi: 10.3390/mps5010004\n35076558\nPMC8788558",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/mps5010004"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35076558"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8788558"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref019",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref020",
+      "position": 19,
+      "title": "Faecal spectroscopy: A practical tool to assess diet quality in an opportunistic omnivore",
+      "source": "Wildlife Biol",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "431"
+        ],
+        "lpage": [
+          "8"
+        ]
+      },
+      "originalCitationText": "SteyaertSMJG, HütterFJ, ElfströmM, ZedrosserA, HackländerK, LêMH, et al. Faecal spectroscopy: A practical tool to assess diet quality in an opportunistic omnivore. Wildlife Biol. 2012;18(4):431–8.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref020",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref021",
+      "position": 20,
+      "title": "Classification of fish species from different ecosystems using the near infrared diffuse reflectance spectra of otoliths",
+      "source": "J Near Infrared Spectrosc",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "224"
+        ],
+        "lpage": [
+          "35"
+        ]
+      },
+      "originalCitationText": "BensonIM, BarnettBK, HelserTE. Classification of fish species from different ecosystems using the near infrared diffuse reflectance spectra of otoliths. J Near Infrared Spectrosc. 2020;28(4):224–35.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref021",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref022",
+      "position": 21,
+      "title": "Age estimation of barramundi (Lates calcarifer) over multiple seasons from the southern Gulf of Carpentaria using FT-NIR spectroscopy",
+      "source": "Mar Freshw Res",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "72"
+        ],
+        "issue": [
+          "9"
+        ],
+        "fpage": [
+          "1268"
+        ],
+        "lpage": [
+          "79"
+        ]
+      },
+      "originalCitationText": "WrightC, WeddingBB, GraufS, WhybirdOJ. Age estimation of barramundi (Lates calcarifer) over multiple seasons from the southern Gulf of Carpentaria using FT-NIR spectroscopy. Mar Freshw Res. 2021;72(9):1268–79.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref022",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref023",
+      "position": 22,
+      "title": "Exploring Effects of Sample Storage, Preparation, and Tissue Type on Fourier Transform-Near Infrared Spectroscopy (FT-NIRS) Ageing across Fish Taxa",
+      "source": null,
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "FullerK.\nExploring Effects of Sample Storage, Preparation, and Tissue Type on Fourier Transform-Near Infrared Spectroscopy (FT-NIRS) Ageing across Fish Taxa. 2021. https://scholarcommons.sc.edu/etd/6227",
+      "identifiers": [],
+      "externalLinks": [
+        "https://scholarcommons.sc.edu/etd/6227"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref023",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref024",
+      "position": 23,
+      "title": "Fourier transform near infrared spectroscopy as a tool to predict spawning status in Alaskan fishes with variable reproductive strategies",
+      "source": "J Near Infrared Spectrosc",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "179"
+        ],
+        "lpage": [
+          "188"
+        ]
+      },
+      "originalCitationText": "TenBrinkT, NeidetcherS, ArringtonM, BensonI, ConrathC, HelserT. Fourier transform near infrared spectroscopy as a tool to predict spawning status in Alaskan fishes with variable reproductive strategies. J Near Infrared Spectrosc. 2022;30(4):179–188.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref024",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref025",
+      "position": 24,
+      "title": "A transformative approach to ageing fish otoliths using fourier transform near infrared spectroscopy: A case study of eastern bering sea walleye pollock (gadus chalcogrammus)",
+      "source": "Can of Fish and Aqu Sci",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "76"
+        ],
+        "issue": [
+          "5"
+        ],
+        "fpage": [
+          "780"
+        ],
+        "lpage": [
+          "9"
+        ]
+      },
+      "originalCitationText": "HelserTE, BensonI, EricksonJ, HealyJ, KastelleC, ShortJA. A transformative approach to ageing fish otoliths using fourier transform near infrared spectroscopy: A case study of eastern bering sea walleye pollock (gadus chalcogrammus). Can of Fish and Aqu Sci. 2019;76(5):780–9.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref025",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref026",
+      "position": 25,
+      "title": "Near-Infrared Spectroscopy and Imaging Studies of Fertilized Fish Eggs",
+      "source": "Vivo Monitoring of Egg Growth at the Molecular Level. Sci Rep",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ]
+      },
+      "originalCitationText": "IshigakiM, KawasakiS, IshikawaD, OzakiY. Near-Infrared Spectroscopy and Imaging Studies of Fertilized Fish Eggs: In Vivo Monitoring of Egg Growth at the Molecular Level. Sci Rep. 2016\nJan\n28;6.10.1038/srep20066PMC473018426818027",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/srep20066"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4730184"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26818027"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref026",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref027",
+      "position": 26,
+      "title": "A novel method for the age estimation of Saddletail snapper (Lutjanus malabaricus) using Fourier Transform-near infrared (FT-NIR) spectroscopy",
+      "source": "Mar Freshw Res",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "65"
+        ],
+        "issue": [
+          "10"
+        ],
+        "fpage": [
+          "894"
+        ],
+        "lpage": [
+          "900"
+        ]
+      },
+      "originalCitationText": "WeddingBB, ForrestAJ, WrightC, GraufS, ExleyP, PooleSE. A novel method for the age estimation of Saddletail snapper (Lutjanus malabaricus) using Fourier Transform-near infrared (FT-NIR) spectroscopy. Mar Freshw Res. 2014;65(10):894–900.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref027",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref028",
+      "position": 27,
+      "title": "Age estimation of red snapper (Lutjanus campechanus) using FT-NIR spectroscopy: Feasibility of application to production ageing for management",
+      "source": "ICES J of Marine Sci",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "77"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "2144"
+        ],
+        "lpage": [
+          "56"
+        ]
+      },
+      "originalCitationText": "PasserottiMS, HelserTE, BensonIM, BarnettBK, BallengerJC, BubleyWJ, et al. Age estimation of red snapper (Lutjanus campechanus) using FT-NIR spectroscopy: Feasibility of application to production ageing for management. ICES J of Marine Sci. 2020;77(6):2144–56.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref028",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref029",
+      "position": 28,
+      "title": "A novel use of near infrared spectroscopy: ageing deep water sharks",
+      "source": "NIR news",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "26"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "4"
+        ],
+        "lpage": [
+          "5"
+        ]
+      },
+      "originalCitationText": "RigbyCL, WeddingBB, GraufS, SimpfendorferCA. A novel use of near infrared spectroscopy: ageing deep water sharks. NIR news. 2015;26(4):4–5.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref029",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref030",
+      "position": 29,
+      "title": "The utility of near infrared spectroscopy for age estimation of deepwater sharks",
+      "source": "Deep Sea Res 1 Oceanogr Res Pap",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "94"
+        ],
+        "fpage": [
+          "184"
+        ],
+        "lpage": [
+          "94"
+        ]
+      },
+      "originalCitationText": "RigbyCL, WeddingBB, GraufS, SimpfendorferCA. The utility of near infrared spectroscopy for age estimation of deepwater sharks. Deep Sea Res 1 Oceanogr Res Pap. 2014;94:184–94. Available from: doi: 10.1016/j.dsr.2014.09.004",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.dsr.2014.09.004"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref030",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref031",
+      "position": 30,
+      "title": "Rapid noninvasive characterization of ovarian follicular atresia in cultured white sturgeon (Acipenser transmontanus) by near infrared spectroscopy",
+      "source": "Aquaculture",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "315"
+        ],
+        "issue": [
+          "3–4"
+        ],
+        "fpage": [
+          "290"
+        ],
+        "lpage": [
+          "7"
+        ]
+      },
+      "originalCitationText": "ServidSA, TalbottMJ, Van EenennaamJP, DoroshovSI, StruffeneggerP, WebbMAH, et al. Rapid noninvasive characterization of ovarian follicular atresia in cultured white sturgeon (Acipenser transmontanus) by near infrared spectroscopy. Aquaculture. 2011;315(3–4):290–7.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref031",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref032",
+      "position": 31,
+      "title": "Rapid age estimation of longnose skate (Raja rhina) vertebrae using near-infrared spectroscopy",
+      "source": "Mar Freshw Res",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "73"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "71"
+        ],
+        "lpage": [
+          "80"
+        ]
+      },
+      "originalCitationText": "ArringtonMB, HelserTE, BensonIM, EssingtonTE, MattaME, PuntAE. Rapid age estimation of longnose skate (Raja rhina) vertebrae using near-infrared spectroscopy. Mar Freshw Res. 2021;73(1):71–80.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref032",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref033",
+      "position": 32,
+      "title": "Near Infrared Spectroscopy Applications in Amphibian Ecology and Conservation: Gender and Species Identification",
+      "source": "NIR news",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "10"
+        ],
+        "lpage": [
+          "5"
+        ]
+      },
+      "originalCitationText": "VanceCK, KoubaAJ, WillardST. Near Infrared Spectroscopy Applications in Amphibian Ecology and Conservation: Gender and Species Identification. NIR news. 2014;25(4):10–5.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref033",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref034",
+      "position": 33,
+      "title": "Effectiveness of Fourier transform near-infrared spectroscopy spectra for species identification of anurans fixed in formaldehyde and conserved in alcohol: A new tool for integrative taxonomy",
+      "source": "J of Zool System and Evol Res",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "59"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "442"
+        ],
+        "lpage": [
+          "58"
+        ]
+      },
+      "originalCitationText": "TorralvoK, MagnussonWE, DurganteF. Effectiveness of Fourier transform near-infrared spectroscopy spectra for species identification of anurans fixed in formaldehyde and conserved in alcohol: A new tool for integrative taxonomy. J of Zool System and Evol Res. 2021;59(2):442–58.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref034",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref035",
+      "position": 34,
+      "title": "Near infrared spectroscopy for the identification of live anurans: Towards rapid and automated identification of species in the field",
+      "source": "J Near Infrared Spectrosc",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "80"
+        ],
+        "lpage": [
+          "88"
+        ]
+      },
+      "originalCitationText": "TorralvoK, DurganteF, PasquiniC, MagnussonWE. Near infrared spectroscopy for the identification of live anurans: Towards rapid and automated identification of species in the field. J Near Infrared Spectrosc. 2023;31(2):80–88.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref035",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref036",
+      "position": 35,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Vance CK, Graham K, Kouba A, Swillard S. In vivo sex identification of the endangered Mississippi Gopher frog (Lithobates sevosa) using near infrared reflectance spectroscopy. 17th International Conference on Near Infrared Spectroscopy. 2015; #34396.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref036",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref037",
+      "position": 36,
+      "title": "Near Infrared Reflectance Spectroscopy Studies of Chinese Giant Salamanders in Aquaculture Production",
+      "source": "NIR news",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "26"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "4"
+        ],
+        "lpage": [
+          "7"
+        ]
+      },
+      "originalCitationText": "VanceCK, KoubaAJ, ZhangHX, ZhaoH, WangQ, WillardST. Near Infrared Reflectance Spectroscopy Studies of Chinese Giant Salamanders in Aquaculture Production. NIR news. 2015;26(2):4–7.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref037",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref038",
+      "position": 37,
+      "title": "Comparison of the diets of sympatric dugongs and green turtles on the Orman Reefs, Torres Strait, Australia",
+      "source": "Wildlife Res",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "53"
+        ],
+        "lpage": [
+          "62"
+        ]
+      },
+      "originalCitationText": "AndréJ, GyurisE, LawlerIR. Comparison of the diets of sympatric dugongs and green turtles on the Orman Reefs, Torres Strait, Australia. Wildlife Res. 2005;32(1):53–62.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref038",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref039",
+      "position": 38,
+      "title": "Prediction of the nutritional composition of the crop contents of free-living scarlet macaw chicks by near-infrared reflectance spectroscopy",
+      "source": "Wildlife Res",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "39"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "230"
+        ],
+        "lpage": [
+          "3"
+        ]
+      },
+      "originalCitationText": "CornejoJ, TaylorR, SliffeT, BaileyCA, BrightsmithDJ. Prediction of the nutritional composition of the crop contents of free-living scarlet macaw chicks by near-infrared reflectance spectroscopy. Wildlife Res. 2012;39(3):230–3.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref039",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref040",
+      "position": 39,
+      "title": "Excretal Near Infrared Reflectance Spectrometry to monitor the nutrient content of diets of grazing young ostriches (Struthio camelus)",
+      "source": "S Afr J Anim Sci",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "36"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "248"
+        ],
+        "lpage": [
+          "56"
+        ]
+      },
+      "originalCitationText": "LandauS, NitzanR, BarkaiD, DvashL. Excretal Near Infrared Reflectance Spectrometry to monitor the nutrient content of diets of grazing young ostriches (Struthio camelus). S Afr J Anim Sci. 2006;36(4):248–56.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref040",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref041",
+      "position": 40,
+      "title": "What triggers the aerobic dive limit? Patterns of muscle oxygen depletion during dives of emperor penguins",
+      "source": "J of Exp Bio",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "214"
+        ],
+        "issue": [
+          "11"
+        ],
+        "fpage": [
+          "1802"
+        ],
+        "lpage": [
+          "12"
+        ]
+      },
+      "originalCitationText": "WilliamsCL, MeirJU, PonganisPJ. What triggers the aerobic dive limit? Patterns of muscle oxygen depletion during dives of emperor penguins. J of Exp Bio. 2011;214(11):1802–12. doi: 10.1242/jeb.052233\n21562166\nPMC3092726",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1242/jeb.052233"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21562166"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3092726"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref041",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref042",
+      "position": 41,
+      "title": "Reflectance spectroscopy: A new approach for reconstructing penguin population size from Antarctic ornithogenic sediments",
+      "source": "J Paleolimnol",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "45"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "213"
+        ],
+        "lpage": [
+          "22"
+        ]
+      },
+      "originalCitationText": "LiuX, SunJ, SunL, LiuW, WangY. Reflectance spectroscopy: A new approach for reconstructing penguin population size from Antarctic ornithogenic sediments. J Paleolimnol. 2011;45(2):213–22.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref042",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref043",
+      "position": 42,
+      "title": "Near-Infrared Spectroscopy and Mode Cloning (NIR-MC) for In-Situ Analysis of Crude Protein in Bamboo",
+      "source": "Remote Sens (Basel)",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "1302"
+        ]
+      },
+      "originalCitationText": "ShengQ, Santos-RiveraM, OuyangX, KoubaAJ, VanceCK. Near-Infrared Spectroscopy and Mode Cloning (NIR-MC) for In-Situ Analysis of Crude Protein in Bamboo. Remote Sens (Basel). 2022;14(6):1302.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref043",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref044",
+      "position": 43,
+      "title": "Fecal near infrared spectroscopy to discriminate physiological status in giant pandas",
+      "source": "PLoS One",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "issue": [
+          "6"
+        ]
+      },
+      "originalCitationText": "WiedowerEE, KoubaAJ, VanceCK, HansenRL, StuthJW, TollesonDR. Fecal near infrared spectroscopy to discriminate physiological status in giant pandas. PLoS One. 2012;7(6). doi: 10.1371/journal.pone.0038908\n22719982\nPMC3374779",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0038908"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22719982"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3374779"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref044",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref045",
+      "position": 44,
+      "title": "Spectral pattern of urinary water as a biomarker of estrus in the giant panda",
+      "source": "Sci Rep",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ]
+      },
+      "originalCitationText": "KinoshitaK, MiyazakiM, MoritaH, VassilevaM, TangC, LiD, et al. Spectral pattern of urinary water as a biomarker of estrus in the giant panda. Sci Rep. 2012;2. doi: 10.1038/srep00856\n23181188\nPMC3504474",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/srep00856"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23181188"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3504474"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref045",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref046",
+      "position": 45,
+      "title": "Predicting herbivore faecal nitrogen using a multispecies near-infrared reflectance spectroscopy calibration",
+      "source": "PLoS One",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "15"
+        ]
+      },
+      "originalCitationText": "VillamuelasM, SerranoE, EspunyesJ, FernándezN, López-OlveraJR, GarelM, et al. Predicting herbivore faecal nitrogen using a multispecies near-infrared reflectance spectroscopy calibration. PLoS One. 2017;12(4):1–15. doi: 10.1371/journal.pone.0176635\n28453544\nPMC5409079",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0176635"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28453544"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5409079"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref046",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref047",
+      "position": 46,
+      "title": "Near infrared reflectance spectroscopy analysis to predict diet composition of a mountain ungulate species",
+      "source": "Animals",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "issue": [
+          "5"
+        ]
+      },
+      "originalCitationText": "Jarque-bascuñanaL, BartoloméJ, SerranoE, EspunyesJ, GarelM, AlarcónJAC, et al. Near infrared reflectance spectroscopy analysis to predict diet composition of a mountain ungulate species. Animals. 2021;11(5). doi: 10.3390/ani11051449\n34070176\nPMC8158497",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/ani11051449"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34070176"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8158497"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref047",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref048",
+      "position": 47,
+      "title": "Predicting seasonal and spatial variations in diet quality of Pyrenean chamois (Rupicapra pyrenaica pyrenaica) using near infrared reflectance spectroscopy",
+      "source": "Eur J Wildl Res",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "59"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "115"
+        ],
+        "lpage": [
+          "21"
+        ]
+      },
+      "originalCitationText": "Gálvez-CerónA, SerranoE, BartoloméJ, MentaberreG, Fernández-AguilarX, Fernández-SireraL, et al. Predicting seasonal and spatial variations in diet quality of Pyrenean chamois (Rupicapra pyrenaica pyrenaica) using near infrared reflectance spectroscopy. Eur J Wildl Res. 2013;59(1):115–21.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref048",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref049",
+      "position": 48,
+      "title": "Determination of sex and species in red and fallow deer by near infrared reflectance spectroscopy of the faeces",
+      "source": "Small Ruminant Res",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "57"
+        ],
+        "issue": [
+          "2–3"
+        ],
+        "fpage": [
+          "141"
+        ],
+        "lpage": [
+          "50"
+        ]
+      },
+      "originalCitationText": "TollesonDR, RandelRD, StuthJW, NeuendorffDA. Determination of sex and species in red and fallow deer by near infrared reflectance spectroscopy of the faeces. Small Ruminant Res. 2005;57(2–3):141–50.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref049",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref050",
+      "position": 49,
+      "title": "Near infrared reflectance spectroscopy (NIRS) for predicting glucocorticoid metabolites in lyophilised and oven-dried faeces of red deer",
+      "source": "Ecol Indic",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "45"
+        ],
+        "fpage": [
+          "522"
+        ],
+        "lpage": [
+          "8"
+        ]
+      },
+      "originalCitationText": "SantosJPV, VicenteJ, VillamuelasM, AlbanellE, SerranoE, CarvalhoJ, et al. Near infrared reflectance spectroscopy (NIRS) for predicting glucocorticoid metabolites in lyophilised and oven-dried faeces of red deer. Ecol Indic. 2014;45:522–8. Available from: 10.1016/j.ecolind.2014.05.021",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ecolind.2014.05.021"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref050",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref051",
+      "position": 50,
+      "title": "Prediction of diet quality parameters of Rocky Mountain Elk via near infrared reflectance spectroscopy (NIRS) fecal profiling",
+      "source": "Proc Tex Chapt, Wild Soc College Station",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "16"
+        ]
+      },
+      "originalCitationText": "KeatingMS, StuthJW, TollesonDR. Prediction of diet quality parameters of Rocky Mountain Elk via near infrared reflectance spectroscopy (NIRS) fecal profiling. Proc Tex Chapt, Wild Soc College Station. 2005;16. Available from: http://scholar.google.com/scholar?hl=en&btnG=Search&q=intitle:PREDICTION+OF+DIET+QUALITY+PARAMETERS+OF+ROCKY+MOUNTAIN+ELK#0",
+      "identifiers": [],
+      "externalLinks": [
+        "http://scholar.google.com/scholar?hl=en&btnG=Search&q=intitle:PREDICTION+OF+DIET+QUALITY+PARAMETERS+OF+ROCKY+MOUNTAIN+ELK#0"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref051",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref052",
+      "position": 51,
+      "title": null,
+      "source": "Infrared Reflectance Analysis of Forage Quality for Elk",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "48"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "254"
+        ],
+        "lpage": [
+          "8"
+        ]
+      },
+      "originalCitationText": "BrooksJ, AndersonM, UrnessPT. Infrared Reflectance Analysis of Forage Quality for Elk. 2010;48(1):254–8.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref052",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref053",
+      "position": 52,
+      "title": null,
+      "source": "The Effects of a Rotational Cattle Grazing System on Elk Diets in Arizona Piñon-Juniper Rangeland",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "19"
+        ],
+        "lpage": [
+          "25"
+        ]
+      },
+      "originalCitationText": "TollesonD, HalsteadL, HoweryL, SchaferD, PrinceS, BanikK. The Effects of a Rotational Cattle Grazing System on Elk Diets in Arizona Piñon-Juniper Rangeland. 2012.34(1),19–25.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref053",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref054",
+      "position": 53,
+      "title": "A nirs-aided methodology to elucidate the nutrition of the endangered mountain gazelle (Gazella gazella) using samples of rumen contents from roadkills",
+      "source": "Remote Sens (Basel)",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "issue": [
+          "21"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "18"
+        ]
+      },
+      "originalCitationText": "ArnonA, LandauSY, IzhakiI, MalkinsonD, Levy-PazY, Deutch-TraubmanT, et al. A nirs-aided methodology to elucidate the nutrition of the endangered mountain gazelle (Gazella gazella) using samples of rumen contents from roadkills. Remote Sens (Basel). 2021;13(21):1–18.36817948",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref054",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref055",
+      "position": 54,
+      "title": "Effects of breed, sex, and age on the variation and ability of fecal near-infrared reflectance spectra to predict the composition of goat diets",
+      "source": "J Anim Sci",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "85"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "518"
+        ],
+        "lpage": [
+          "26"
+        ]
+      },
+      "originalCitationText": "WalkerJW, CampbellES, LuptonCJ, TaylorCA, WaldronDF, LandauSY. Effects of breed, sex, and age on the variation and ability of fecal near-infrared reflectance spectra to predict the composition of goat diets. J Anim Sci. 2007;85(2):518–26. doi: 10.2527/jas.2006-202\n17235035",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.2527/jas.2006-202"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17235035"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref055",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref056",
+      "position": 55,
+      "title": "Fecal NIRS: Detection of tick infestations in cattle and horses",
+      "source": "Vet Parasitol",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "144"
+        ],
+        "issue": [
+          "1–2"
+        ],
+        "fpage": [
+          "146"
+        ],
+        "lpage": [
+          "52"
+        ]
+      },
+      "originalCitationText": "TollesonDR, TeelPD, StuthJW, StreyOF, WelshTH, CarstensGE. Fecal NIRS: Detection of tick infestations in cattle and horses. Vet Parasitol. 2007;144(1–2):146–52. doi: 10.1016/j.vetpar.2006.09.018\n17097809",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.vetpar.2006.09.018"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17097809"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref056",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref057",
+      "position": 56,
+      "title": "Multivariate calibration of near infrared spectra for predicting nutrient concentrations of solid moose rumen contents",
+      "source": "Silva Fennica",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "52"
+        ],
+        "issue": [
+          "1"
+        ]
+      },
+      "originalCitationText": "TigabuM, FeltonAM. Multivariate calibration of near infrared spectra for predicting nutrient concentrations of solid moose rumen contents. Silva Fennica. 2018;52(1). doi: 10.14214/sf.7822",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.14214/sf.7822"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref057",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref058",
+      "position": 57,
+      "title": "Estimating the suitability for the reintroduced arabian oryx (Oryx leucoryx, Pallas 1777) of two desert environments by NIRS-aided fecal chemistry",
+      "source": "Remote Sensing",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "issue": [
+          "10"
+        ],
+        "fpage": [
+          "1876"
+        ]
+      },
+      "originalCitationText": "LandauSY, IslerI, DvashL, ShalmonB, ArnonA, SaltzD. Estimating the suitability for the reintroduced arabian oryx (Oryx leucoryx, Pallas 1777) of two desert environments by NIRS-aided fecal chemistry. Vol. 13, Remote Sensing. 2021.13(10) 1876; doi: 10.3390/rs13101876",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/rs13101876"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref058",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref059",
+      "position": 58,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Greyling MD. (2010). Sex and age related distinctions in the feeding ecology of the African elephant. 2010. Thesis. http://hdl.handle.net/10539/7489",
+      "identifiers": [],
+      "externalLinks": [
+        "http://hdl.handle.net/10539/7489"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref059",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref060",
+      "position": 59,
+      "title": "Shining NIR light on ivory: A practical enforcement tool for elephant ivory identification",
+      "source": "Conserv Sci Pract",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "issue": [
+          "9"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "11"
+        ]
+      },
+      "originalCitationText": "ChaitaeA, RittironR, GordonIJ, MarshH, AddisonJ, PochanagoneS, et al. Shining NIR light on ivory: A practical enforcement tool for elephant ivory identification. Conserv Sci Pract. 2021;3(9):1–11.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref060",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref061",
+      "position": 60,
+      "title": "Forensic identification of elephant and giraffe hair artifacts using HATR FTIR spectroscopy and discriminant analysis",
+      "source": "Endanger Species Res",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "239"
+        ],
+        "lpage": [
+          "46"
+        ]
+      },
+      "originalCitationText": "EspinozaEO, BakerBW, MooresTD, VoinD. Forensic identification of elephant and giraffe hair artifacts using HATR FTIR spectroscopy and discriminant analysis. Endanger Species Res. 2009;9(3):239–46.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref061",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref062",
+      "position": 61,
+      "title": "Forensic Science International: Animals and Environments Species discrimination from blood traces using ATR FT-IR spectroscopy and chemometrics: Application in wildlife forensics",
+      "source": "Forensic Science International: Animals and Environments",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "fpage": [
+          "100060"
+        ]
+      },
+      "originalCitationText": "PrakashC, SharmaS, SinghR. Forensic Science International: Animals and Environments Species discrimination from blood traces using ATR FT-IR spectroscopy and chemometrics: Application in wildlife forensics. Forensic Science International: Animals and Environments [Internet]. 2023;3(December 2022):100060. Available from: 10.1016/j.fsiae.2022.100060",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.fsiae.2022.100060"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref062",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref063",
+      "position": 62,
+      "title": "Use of nirs in wild rodents’ research: A review of timid beginnings",
+      "source": "Remote Sens (Basel)",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "issue": [
+          "16"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "13"
+        ]
+      },
+      "originalCitationText": "ČepelkaL, JánováE, SuchomelJ, HeroldováM. Use of nirs in wild rodents’ research: A review of timid beginnings. Remote Sens (Basel). 2021;13(16):1–13.36817948",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref063",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref064",
+      "position": 63,
+      "title": "Novel frontier in wildlife monitoring: identification of small rodent species from faecal pellets using Near-Infrared Reflectance Spectroscopy (NIRS)",
+      "source": "Ecol and Evol",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "e9857"
+        ]
+      },
+      "originalCitationText": "TuomiMW, MuguzurFJA, HosetKS, SoininenEM, VesterinenE, UtsiTAa, et al. Novel frontier in wildlife monitoring: identification of small rodent species from faecal pellets using Near-Infrared Reflectance Spectroscopy (NIRS). Ecol and Evol. 2023; 13(3) e9857. doi: 10.1002/ece3.9857PMC1002499836950367",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/ece3.9857"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10024998"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36950367"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref064",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref065",
+      "position": 64,
+      "title": "Fecal Near Infrared Reflectance FNIR Spectroscopy for discrimination of species and gender for Amur leopards and snow leopards",
+      "source": "NIR 2013 - 16th International Conference on Near Infrared Spectroscopy",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "495"
+        ],
+        "lpage": [
+          "505"
+        ]
+      },
+      "originalCitationText": "Johnson-UlrichL, VanceCK, KougaAJ, WillardST. Fecal Near Infrared Reflectance FNIR Spectroscopy for discrimination of species and gender for Amur leopards and snow leopards. NIR 2013 - 16th International Conference on Near Infrared Spectroscopy [Internet]. 2013;:495–505. Available from: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.654.6433&rep=rep1&type=pdf#page=19",
+      "identifiers": [],
+      "externalLinks": [
+        "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.654.6433&rep=rep1&type=pdf#page=19"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref065",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref066",
+      "position": 65,
+      "title": "Rapid assessment of the nutritional value of foods eaten by mountain gorillas: Applying near-infrared reflectance spectroscopy to primatology",
+      "source": "Int J Primatol",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "issue": [
+          "5"
+        ],
+        "fpage": [
+          "729"
+        ],
+        "lpage": [
+          "42"
+        ]
+      },
+      "originalCitationText": "RothmanJM, ChapmanCA, HansenJL, CherneyDJR, PellAN. Rapid assessment of the nutritional value of foods eaten by mountain gorillas: Applying near-infrared reflectance spectroscopy to primatology. Int J Primatol. 2009;30(5):729–42.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref066",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref067",
+      "position": 66,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rojas H, Rodriguez-Fernandez J. Near infrared spectroscopy in hairs: a rapid and non-invasive identification of species and sex in primates. 17th International Conference on Near Infrared Spectroscopy. 2015.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref067",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref068",
+      "position": 67,
+      "title": "Detection of urinary estrogen conjugates and creatinine using near infrared spectroscopy in Bornean orangutans (Pongo Pygmaeus)",
+      "source": "Primates",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "57"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "51"
+        ],
+        "lpage": [
+          "9"
+        ]
+      },
+      "originalCitationText": "KinoshitaK, KuzeN, KobayashiT, MiyakawaE, NaritaH, Inoue-MurayamaM, et al. Detection of urinary estrogen conjugates and creatinine using near infrared spectroscopy in Bornean orangutans (Pongo Pygmaeus). Primates. 2016;57(1):51–9. doi: 10.1007/s10329-015-0501-3\n26561334",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10329-015-0501-3"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26561334"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref068",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref069",
+      "position": 68,
+      "title": "Near infrared spectroscopy as a rapid and inexpensive means of dietary analysis for a marine herbivore, dugong Dugong dugon",
+      "source": "Mar Ecol Prog Ser",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "257"
+        ],
+        "fpage": [
+          "259"
+        ],
+        "lpage": [
+          "66"
+        ]
+      },
+      "originalCitationText": "AndréJ, LawlerIR. Near infrared spectroscopy as a rapid and inexpensive means of dietary analysis for a marine herbivore, dugong Dugong dugon. Mar Ecol Prog Ser. 2003;257:259–66.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref069",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref070",
+      "position": 69,
+      "title": "Near-infrared reflectance spectroscopy is a rapid, cost-effective predictor of seagrass nutrients",
+      "source": "J Chem Ecol",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "1353"
+        ],
+        "lpage": [
+          "65"
+        ]
+      },
+      "originalCitationText": "LawlerIR, AragonesL, BerdingN, MarshH, FoleyW. Near-infrared reflectance spectroscopy is a rapid, cost-effective predictor of seagrass nutrients. J Chem Ecol. 2006;32(6):1353–65. doi: 10.1007/s10886-006-9088-x\n16770723",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10886-006-9088-x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16770723"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref070",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref071",
+      "position": 70,
+      "title": "Can near infrared spectroscopy be used to improve assessment of marine mammal diets via fecal analysis?",
+      "source": "Marine Mammal Sci",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "261"
+        ],
+        "lpage": [
+          "275"
+        ]
+      },
+      "originalCitationText": "KanekoH, LawlerIR. Can near infrared spectroscopy be used to improve assessment of marine mammal diets via fecal analysis?\nMarine Mammal Sci. 2006;22(2):261–275.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref071",
+        "position": 70,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref072",
+      "position": 71,
+      "title": "Palatability mapping: A koala’s eye view of spatial variation in habitat quality",
+      "source": "Ecology",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "91"
+        ],
+        "issue": [
+          "11"
+        ],
+        "fpage": [
+          "3165"
+        ],
+        "lpage": [
+          "76"
+        ]
+      },
+      "originalCitationText": "MooreBD, LawlerIR, WallisIR, BealeCM, FoleyWJ. Palatability mapping: A koala’s eye view of spatial variation in habitat quality. Ecology. 2010;91(11):3165–76. doi: 10.1890/09-1714.1\n21141178",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1890/09-1714.1"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21141178"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref072",
+        "position": 71,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref073",
+      "position": 72,
+      "title": "Near infrared reflectance spectroscopy in ecological studies of plant–animal interactions",
+      "source": "Spectroscopy Eur",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "issue": [
+          "5"
+        ],
+        "fpage": [
+          "6"
+        ],
+        "lpage": [
+          "9"
+        ]
+      },
+      "originalCitationText": "FoleyWJ. Near infrared reflectance spectroscopy in ecological studies of plant–animal interactions. Spectroscopy Eur. 2009;21(5):6–9.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref073",
+        "position": 72,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref074",
+      "position": 73,
+      "title": "Kangaroo faeces: a reflection of kangaroo nutrition",
+      "source": "Pest or Guest",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "182"
+        ],
+        "lpage": [
+          "4"
+        ]
+      },
+      "originalCitationText": "BillingJ.\nKangaroo faeces: a reflection of kangaroo nutrition. Pest or Guest. 2007;182–4.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref074",
+        "position": 73,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref075",
+      "position": 74,
+      "title": "Rapid evaluation of pasture quality for a critically endangered mammal, the northern hairy-nosed wombat (Lasiorhinus krefftii)",
+      "source": "Wildlife Res",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "91"
+        ],
+        "lpage": [
+          "100"
+        ]
+      },
+      "originalCitationText": "WoolnoughAP, FoleyWJ. Rapid evaluation of pasture quality for a critically endangered mammal, the northern hairy-nosed wombat (Lasiorhinus krefftii). Wildlife Res. 2002;29(1):91–100.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref075",
+        "position": 74,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref076",
+      "position": 75,
+      "title": "Illuminating the flesh of bone identification–An application of near infrared spectroscopy",
+      "source": "Vib Spectrosc",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "98"
+        ],
+        "fpage": [
+          "64"
+        ],
+        "lpage": [
+          "8"
+        ]
+      },
+      "originalCitationText": "PowerAC, ChapmanJ, ChandraS, RobertsJJ, CozzolinoD. Illuminating the flesh of bone identification–An application of near infrared spectroscopy. Vib Spectrosc. 2018;98:64–8.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref076",
+        "position": 75,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref077",
+      "position": 76,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Santos-Rivera M, Feeney RZ, Julien AR, Guy E, Gillis A, Zhang HX, Kouba AJ, Vance CK. Gender discrimination using Near Infrared Reflectance (NIR) Spectroscopy in three caudate species. In: Proceedings of the 19th International Council for Near Infrared Spectroscopy Conference (NIR-2019), Gold Coast, Australia, 15–20 September 2019. 2020. p. 423–7.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref077",
+        "position": 76,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref078",
+      "position": 77,
+      "title": "The skin as an endocrine organ",
+      "source": "Dermatoendocrinol",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "1"
+        ],
+        "issue": [
+          "5"
+        ],
+        "fpage": [
+          "250"
+        ],
+        "lpage": [
+          "2"
+        ]
+      },
+      "originalCitationText": "ZouboulisCC. The skin as an endocrine organ. Dermatoendocrinol. 2009;1(5):250–2. doi: 10.4161/derm.1.5.9499\n20808511\nPMC2836429",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.4161/derm.1.5.9499"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20808511"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2836429"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref078",
+        "position": 77,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref079",
+      "position": 78,
+      "title": "Supervised Machine Learning Algorithms: Classification and Comparison",
+      "source": "International J of Comp Trends and Tech",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "48"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "128"
+        ],
+        "lpage": [
+          "38"
+        ]
+      },
+      "originalCitationText": "OsisanwoFY, JAkinsolaE.T, AwodeleO, HinmikaiyeJO, OlakanmiO, AkinjobiJ. Supervised Machine Learning Algorithms: Classification and Comparison. International J of Comp Trends and Tech. 2017;48(3):128–38.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref079",
+        "position": 78,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref080",
+      "position": 79,
+      "title": "The future of fish age estimation: deep machine learning coupled with Fourier transform near-infrared spectroscopy of otoliths",
+      "source": "Can of Fish Aqua Sci",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "80"
+        ],
+        "issue": [
+          "9"
+        ],
+        "fpage": [
+          "1482"
+        ],
+        "lpage": [
+          "94"
+        ]
+      },
+      "originalCitationText": "BensonIM, HelserTE, MarchettiG, BarnettBK. The future of fish age estimation: deep machine learning coupled with Fourier transform near-infrared spectroscopy of otoliths. Can of Fish Aqua Sci. 2023;80(9):1482–94.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref080",
+        "position": 79,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref081",
+      "position": 80,
+      "title": "Machine learning methods to predict solubilities of rock samples",
+      "source": "J Chemom",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "13"
+        ]
+      },
+      "originalCitationText": "HanzelikPP, GergelyS, GáspárC, GyőryL. Machine learning methods to predict solubilities of rock samples. J Chemom. 2020;34(2):1–13.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref081",
+        "position": 80,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref082",
+      "position": 81,
+      "title": "The Lack of a Priori Distinctions between Learning Algorithms",
+      "source": "Neural Comput",
+      "year": "1996",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "issue": [
+          "7"
+        ],
+        "fpage": [
+          "1341"
+        ],
+        "lpage": [
+          "90"
+        ]
+      },
+      "originalCitationText": "WolpertDH. The Lack of a Priori Distinctions between Learning Algorithms. Neural Comput. 1996;8(7):1341–90.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref082",
+        "position": 81,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref083",
+      "position": 82,
+      "title": "Drivers of distributions and niches of North American cold-adapted amphibians: evaluating both climate and land use",
+      "source": "Ecological App",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "issue": [
+          "2"
+        ]
+      },
+      "originalCitationText": "SeabornT, GoldbergCS, CrespiEJ. Drivers of distributions and niches of North American cold-adapted amphibians: evaluating both climate and land use. Ecological App. 2021;31(2). doi: 10.1002/eap.2236\n33052615",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/eap.2236"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33052615"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref083",
+        "position": 82,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref084",
+      "position": 83,
+      "title": "Phylogeography and conservation genetics of the hellbender salamander (Cryptobranchus alleganiensis)",
+      "source": "Con Genetics",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "5"
+        ],
+        "fpage": [
+          "1235"
+        ],
+        "lpage": [
+          "46"
+        ]
+      },
+      "originalCitationText": "SabatinoSJ, RoutmanEJ. Phylogeography and conservation genetics of the hellbender salamander (Cryptobranchus alleganiensis). Con Genetics. 2009;10(5):1235–46.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref084",
+        "position": 83,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref085",
+      "position": 84,
+      "title": "Building Predictive Models in R Using the Caret Package",
+      "source": "J Stat Soft",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "issue": [
+          "5"
+        ]
+      },
+      "originalCitationText": "Building Predictive Models in R Using the Caret Package, J Stat Soft. 2008;28(5). doi: 10.18637/jss.v028.i05",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.18637/jss.v028.i05"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref085",
+        "position": 84,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref086",
+      "position": 85,
+      "title": "Evolutionary shifts in courtship pheromone composition revealed by EST analysis of plethodontid salamander mental glands",
+      "source": "Gene",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "432"
+        ],
+        "issue": [
+          "1–2"
+        ],
+        "fpage": [
+          "75"
+        ],
+        "lpage": [
+          "81"
+        ]
+      },
+      "originalCitationText": "Kiemnec-TyburczyKM, WattsRA, GreggRG, von BorstelD, ArnoldSJ. Evolutionary shifts in courtship pheromone composition revealed by EST analysis of plethodontid salamander mental glands. Gene. 2009;432(1–2):75–81. doi: 10.1016/j.gene.2008.11.007\n19084057",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.gene.2008.11.007"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19084057"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref086",
+        "position": 85,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref087",
+      "position": 86,
+      "title": "Reproductive behaviour, cutaneous morphology, and skin secretion analysis in the anuran Dermatonotus muelleri",
+      "source": "iScience",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "issue": [
+          "4"
+        ]
+      },
+      "originalCitationText": "AntoniazziMM, Mailho-FontanaPL, NomuraF, AzevedoHB, PimentaDC, ScianiJM, et al. Reproductive behaviour, cutaneous morphology, and skin secretion analysis in the anuran Dermatonotus muelleri. iScience. 2022;25(4). doi: 10.1016/j.isci.2022.104073\n35372815\nPMC8968045",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.isci.2022.104073"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35372815"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8968045"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref087",
+        "position": 86,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref088",
+      "position": 87,
+      "title": null,
+      "source": "General and Comparative Endocrinology",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "147"
+        ],
+        "fpage": [
+          "54"
+        ],
+        "lpage": [
+          "61"
+        ],
+        "publisher-name": [
+          "Academic Press Inc"
+        ]
+      },
+      "originalCitationText": "UchiyamaM, KonnoN. Hormonal regulation of ion and water transport in anuran amphibians. Vol. 147, General and Comparative Endocrinology. Academic Press Inc.; 2006. p. 54–61.16472810\n10.1016/j.ygcen.2005.12.018",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "16472810"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.ygcen.2005.12.018"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref088",
+        "position": 87,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref089",
+      "position": 88,
+      "title": "Cutaneous tail glands, noxious skin secretions, and scent marking in a terrestrial salamander (Plethodon shermani)",
+      "source": "Herpetologica",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "64"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "270"
+        ],
+        "lpage": [
+          "80"
+        ]
+      },
+      "originalCitationText": "LargenW, WoodleySK. Cutaneous tail glands, noxious skin secretions, and scent marking in a terrestrial salamander (Plethodon shermani). Herpetologica. 2008;64(3):270–80.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref089",
+        "position": 88,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref090",
+      "position": 89,
+      "title": "Disease state associated with chronic toe lesions in hellbenders may alter anti-chytrid skin defenses",
+      "source": "Sci Rep",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "issue": [
+          "1"
+        ]
+      },
+      "originalCitationText": "HardmanRH, ReinertLK, IrwinKJ, OziminskiK, Rollins-SmithL, MillerDL. Disease state associated with chronic toe lesions in hellbenders may alter anti-chytrid skin defenses. Sci Rep. 2023;13(1). doi: 10.1038/s41598-023-28334-4\n36737574\nPMC9898527",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41598-023-28334-4"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36737574"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9898527"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref090",
+        "position": 89,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref091",
+      "position": 90,
+      "title": "Proteomic analysis of the skin of Chinese giant salamander (Andrias davidianus)",
+      "source": "J Proteomics",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "119"
+        ],
+        "fpage": [
+          "196"
+        ],
+        "lpage": [
+          "208"
+        ]
+      },
+      "originalCitationText": "GengX, WeiH, ShangH, ZhouM, ChenB, ZhangF, et al. Proteomic analysis of the skin of Chinese giant salamander (Andrias davidianus). J Proteomics. 2015;119:196–208. doi: 10.1016/j.jprot.2015.02.008\n25725404",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.jprot.2015.02.008"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25725404"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref091",
+        "position": 90,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref092",
+      "position": 91,
+      "title": "The natural history of amphibian skin secretions, their normal functioning and potential medical applications",
+      "source": "Biol Rev Camb Philos Soc",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "72"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "365"
+        ],
+        "lpage": [
+          "79"
+        ]
+      },
+      "originalCitationText": "ClarkeB.\nThe natural history of amphibian skin secretions, their normal functioning and potential medical applications. Biol Rev Camb Philos Soc. 1997;72(3):365–79. doi: 10.1017/s0006323197005045\n9336100",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1017/s0006323197005045"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "9336100"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref092",
+        "position": 91,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref093",
+      "position": 92,
+      "title": "Biochemical Taxonomy of South American Amphibians by Means of Skin Amines and Polypeptides",
+      "source": null,
+      "year": "1966",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ]
+      },
+      "originalCitationText": "CeiJM, ErspamerV. Biochemical Taxonomy of South American Amphibians by Means of Skin Amines and Polypeptides. Vol. 22. 1966. https://www.jstor.org/stable/1440763",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.jstor.org/stable/1440763"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref093",
+        "position": 92,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref094",
+      "position": 93,
+      "title": "Resistance to chytridiomycosis varies among amphibian species and is correlated with skin peptide defenses",
+      "source": "Anim Conserv",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "409"
+        ],
+        "lpage": [
+          "17"
+        ]
+      },
+      "originalCitationText": "WoodhamsDC, ArdipradjaK, AlfordRA, MarantelliG, ReinertLK, Rollins-SmithLA. Resistance to chytridiomycosis varies among amphibian species and is correlated with skin peptide defenses. Anim Conserv. 2007;10(4):409–17.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref094",
+        "position": 93,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref095",
+      "position": 94,
+      "title": "Using multi-model ensembles of CMIP5 global climate models to reproduce observed monthly rainfall and temperature with machine learning methods in Australia",
+      "source": "Int of Clim",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "38"
+        ],
+        "issue": [
+          "13"
+        ],
+        "fpage": [
+          "4891"
+        ],
+        "lpage": [
+          "902"
+        ]
+      },
+      "originalCitationText": "WangB, ZhengL, LiuDL, JiF, ClarkA, YuQ. Using multi-model ensembles of CMIP5 global climate models to reproduce observed monthly rainfall and temperature with machine learning methods in Australia. Int of Clim. 2018;38(13):4891–902.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref095",
+        "position": 94,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref096",
+      "position": 95,
+      "title": "An effective adaptive customization framework for small manufacturing plants using extreme gradient boosting-XGBoost and random forest ensemble learning algorithms in an Industry 4.0 environment",
+      "source": "Machine Learning with App",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "100024"
+        ]
+      },
+      "originalCitationText": "KiangalaSK, WangZ. An effective adaptive customization framework for small manufacturing plants using extreme gradient boosting-XGBoost and random forest ensemble learning algorithms in an Industry 4.0 environment. Machine Learning with App. 2021;4:100024.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref096",
+        "position": 95,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref097",
+      "position": 96,
+      "title": "Wildlife Poaching Prediction with Data and Human Knowledge",
+      "source": null,
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "GurumurthyS, YuL, ZhangC, JinY, LiW, ZhangX, et al. Wildlife Poaching Prediction with Data and Human Knowledge. 2018. Available from: https://arxiv.org/abs/1805.05356",
+      "identifiers": [],
+      "externalLinks": [
+        "https://arxiv.org/abs/1805.05356"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref097",
+        "position": 96,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref098",
+      "position": 97,
+      "title": "An overview of variable selection methods in multivariate analysis of near-infrared spectra",
+      "source": "TrAC—Trends in Analytical Chemistry",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "113"
+        ],
+        "fpage": [
+          "102"
+        ],
+        "lpage": [
+          "15"
+        ]
+      },
+      "originalCitationText": "YunYH, LiHD, DengBC, CaoDS. An overview of variable selection methods in multivariate analysis of near-infrared spectra. TrAC—Trends in Analytical Chemistry. 2019;113:102–15. Available from: 10.1016/j.trac.2019.01.018",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.trac.2019.01.018"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref098",
+        "position": 97,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref099",
+      "position": 98,
+      "title": "A survey on feature selection methods",
+      "source": "Com and Elect Eng",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "40"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "16"
+        ],
+        "lpage": [
+          "28"
+        ]
+      },
+      "originalCitationText": "ChandrashekarG, SahinF. A survey on feature selection methods. Com and Elect Eng. 2014;40(1):16–28.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref099",
+        "position": 98,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref100",
+      "position": 99,
+      "title": "Sample selection, calibration and validation of models developed from a large dataset of near infrared spectra of tree leaves",
+      "source": "J Near Infrared Spectrosc",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "186"
+        ],
+        "lpage": [
+          "203"
+        ]
+      },
+      "originalCitationText": "AuJ, YoungentobKN, FoleyWJ, MooreBD, FearnT. Sample selection, calibration and validation of models developed from a large dataset of near infrared spectra of tree leaves. J Near Infrared Spectrosc. 2020;28(4):186–203.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref100",
+        "position": 99,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref101",
+      "position": 100,
+      "title": "Nested cross-validation when selecting classifiers is overzealous for most practical applications",
+      "source": "Expert Syst Appl",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "182"
+        ]
+      },
+      "originalCitationText": "WainerJ, CawleyG. Nested cross-validation when selecting classifiers is overzealous for most practical applications. Expert Syst Appl. 2021;182. doi: 10.1016/j.eswa.2021.115222",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.eswa.2021.115222"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref101",
+        "position": 100,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref102",
+      "position": 101,
+      "title": "Machine learning algorithm validation with a limited sample size",
+      "source": "PLoS One",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "issue": [
+          "11"
+        ]
+      },
+      "originalCitationText": "VabalasA, GowenE, PoliakoffE, CassonAJ. Machine learning algorithm validation with a limited sample size. PLoS One. 2019;14(11). doi: 10.1371/journal.pone.0224365\n31697686\nPMC6837442",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0224365"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31697686"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6837442"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref102",
+        "position": 101,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref103",
+      "position": 102,
+      "title": "The sample, the spectra and the maths-The critical pillars in the development of robust and sound applications of vibrational spectroscopy",
+      "source": "Molecules",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "issue": [
+          "16"
+        ]
+      },
+      "originalCitationText": "CozzolinoD.\nThe sample, the spectra and the maths-The critical pillars in the development of robust and sound applications of vibrational spectroscopy. Molecules. 2020;25(16). doi: 10.3390/molecules25163674\n32806655\nPMC7466136",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/molecules25163674"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32806655"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7466136"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref103",
+        "position": 102,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref104",
+      "position": 103,
+      "title": null,
+      "source": "R: A language and environment for statistical computing",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "R Foundation for Statistical Computing"
+        ],
+        "publisher-loc": [
+          "Vienna, Austria"
+        ]
+      },
+      "originalCitationText": "R Core Team. R: A language and environment for statistical computing. [Internet]. Vienna, Austria: R Foundation for Statistical Computing; 2022. Available from: https://www.r-project.org/",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.r-project.org/"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref104",
+        "position": 103,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref105",
+      "position": 104,
+      "title": null,
+      "source": "RStudio: Integrated Development for R",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "R Studio"
+        ],
+        "publisher-loc": [
+          "Boston, MA"
+        ]
+      },
+      "originalCitationText": "RStudio Team. RStudio: Integrated Development for R [Internet]. Boston, MA: R Studio; 2022. Available from: https://www.rstudio.com/",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.rstudio.com/"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref105",
+        "position": 104,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref106",
+      "position": 105,
+      "title": "mlr: Machine Learning in R",
+      "source": "J of Machine Learning Res",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ]
+      },
+      "originalCitationText": "BischlB, LangM, KotthoffL, SchiffnerJ, RichterJ, StuderusE, et al. mlr: Machine Learning in R [Internet]. Vol. 17, J of Machine Learning Res. 2016. Available from: https://github.com/mlr-org/mlr",
+      "identifiers": [],
+      "externalLinks": [
+        "https://github.com/mlr-org/mlr"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref106",
+        "position": 105,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref107",
+      "position": 106,
+      "title": null,
+      "source": "xgboost: eXtreme Gradient Boosting",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "ChenT, HeT. xgboost: eXtreme Gradient Boosting. 2017.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref107",
+        "position": 106,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref108",
+      "position": 107,
+      "title": null,
+      "source": "Package ‘ glmnet ‘ R topics documented",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "JeromeA, HastieT, TibshiraniR, TayK, SimonN, YangJ. Package ‘ glmnet ‘ R topics documented: 2022.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref108",
+        "position": 107,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref109",
+      "position": 108,
+      "title": null,
+      "source": "An introduction to the prospectr package",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "StevensA, Ramirez-LopezL. An introduction to the prospectr package. 2014. https://antoinestevens.github.io/prospectr/",
+      "identifiers": [],
+      "externalLinks": [
+        "https://antoinestevens.github.io/prospectr/"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref109",
+        "position": 108,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref110",
+      "position": 109,
+      "title": null,
+      "source": "Package “Boruta”: Wrapper Algorithm for All Relevant Feature Selection",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "KursaM. Package “Boruta”: Wrapper Algorithm for All Relevant Feature Selection [Internet]. 2018. Available from: https://notabug.org/mbq/Boruta/",
+      "identifiers": [],
+      "externalLinks": [
+        "https://notabug.org/mbq/Boruta/"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref110",
+        "position": 109,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref111",
+      "position": 110,
+      "title": "Machine Learning Algorithms for Classification of MALDI-TOF MS Spectra from Phylogenetically Closely Related Species Brucella melitensis, Brucella abortus and Brucella suis",
+      "source": "Microorganisms",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "8"
+        ]
+      },
+      "originalCitationText": "DematheisF, WalterMC, LangD, AntwerpenM, ScholzHC, PfalzgrafMT, et al. Machine Learning Algorithms for Classification of MALDI-TOF MS Spectra from Phylogenetically Closely Related Species Brucella melitensis, Brucella abortus and Brucella suis. Microorganisms. 2022;10(8). doi: 10.3390/microorganisms10081658\n36014076\nPMC9416640",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/microorganisms10081658"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36014076"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9416640"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref111",
+        "position": 110,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref112",
+      "position": 111,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "SAS Institute Inc. JMP. Cary, NC: SAS Institute Inc.; 2023.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref112",
+        "position": 111,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref113",
+      "position": 112,
+      "title": null,
+      "source": "Trends in Food Science and Technology",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "112"
+        ],
+        "fpage": [
+          "431"
+        ],
+        "lpage": [
+          "41"
+        ],
+        "publisher-name": [
+          "Elsevier Ltd"
+        ]
+      },
+      "originalCitationText": "ZhangX, YangJ, LinT, YingY. Food and agro-product quality evaluation based on spectroscopy and deep learning: A review. Vol. 112, Trends in Food Science and Technology. Elsevier Ltd; 2021. p. 431–41.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref113",
+        "position": 112,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref114",
+      "position": 113,
+      "title": "Predicting pregnancy status from mid-infrared spectroscopy in dairy cow milk using deep learning",
+      "source": "J Dairy Sci",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "104"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "4980"
+        ],
+        "lpage": [
+          "90"
+        ]
+      },
+      "originalCitationText": "BrandW, WellsAT, SmithSL, DenholmSJ, WallE, CoffeyMP. Predicting pregnancy status from mid-infrared spectroscopy in dairy cow milk using deep learning. J Dairy Sci. 2021;104(4):4980–90. doi: 10.3168/jds.2020-18367\n33485687",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3168/jds.2020-18367"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33485687"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref114",
+        "position": 113,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1011876.ref115",
+      "position": 114,
+      "title": "Application of deep learning and near infrared spectroscopy in cereal analysis",
+      "source": "Vib Spectrosc",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "106"
+        ]
+      },
+      "originalCitationText": "LeBT. Application of deep learning and near infrared spectroscopy in cereal analysis. Vib Spectrosc. 2020;106. doi: 10.1016/j.vibspec.2019.103009",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.vibspec.2019.103009"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10898777/article.xml",
+        "articleSha256": "c509bfacb421c74b390b6acfc9e7b06d1b41390ebb479ddd7b8cfc1a1030cb98",
+        "referenceId": "pcbi.1011876.ref115",
+        "position": 114,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "PLOS Computational Biology"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "PLoS Comput Biol"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "PLoS Comput Biol"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "328"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ploscomp"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101238922"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "plos"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "ppub",
+        "value": "1553-734X"
+      },
+      {
+        "pub-type": "epub",
+        "value": "1553-7358"
+      }
+    ],
+    "publisherNames": [
+      "PLOS"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "20"
+    ],
+    "issue": [
+      "2"
+    ],
+    "elocation-id": [
+      "e1011876"
+    ]
+  }
+}

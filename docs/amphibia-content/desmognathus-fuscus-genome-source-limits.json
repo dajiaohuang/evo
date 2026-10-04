@@ -1,0 +1,47 @@
+{
+  "source": "PMC12405886",
+  "doi": "10.1093/g3journal/jkaf157",
+  "year": 2025,
+  "colId": "V5HJ7",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "limits": [
+    {
+      "kind": "pooled-and-different-lineages",
+      "locator": "XML jkaf157-s2.1 paragraphs 0–5; section 1 paragraphs 0–6",
+      "handling": "Two North Carolina B3 genomes pooled; separate Kentucky B1/B2 female/embryos for mapping. Different-lineage mismatch may affect scaffolding. Single/subadult body sizes not adult ranges or complete habitat evidence."
+    },
+    {
+      "kind": "voucher-and-tissue-wording-conflicts",
+      "locator": "XML jkaf157-s2.1 paragraphs 0–3; section 1 paragraph 2",
+      "handling": "Sampling paragraph1 prints AMNH A-190468 versus A-194068 elsewhere; Sampling RNA assigns liver068/kidney069 whereas Assembly transcript paragraph reverses tissues. Preserve source conflict, no silent voucher/tissue certification."
+    },
+    {
+      "kind": "embryo-count-stages-and-parentage",
+      "locator": "XML jkaf157-s2.1 paragraphs 4–5; section 1 paragraphs 5–6; section 2 paragraph 4",
+      "handling": "21 embryos collected, 20 RNA-sequenced, 19 offspring in linkage description/results, but linkage-method paragraph6 says all20 offspring. No certified full clutch count; guarding female presumed parent."
+    },
+    {
+      "kind": "partial-scaffolding-and-size",
+      "locator": "section 2 paragraphs 1–2, 4–7",
+      "handling": "16.1Gb purged pooled assembly may retain duplicated/repetitive artifacts; 7.5Gb/47% scaffolding is partial despite title wording. 14 LG plus two smaller scaffolds are chromosome portions, not complete chromosomes or independently validated telomere-to-telomere assembly."
+    },
+    {
+      "kind": "BUSCO-category-boundary",
+      "locator": "section 2 paragraph 3",
+      "handling": "4941/5310 identified includes4243 single-copy+370duplicated+328fragmented. 93.1% not complete-single-copy percentage. RNA transcript/gene count not unique functional genes."
+    },
+    {
+      "kind": "repeat-denominators-and-function",
+      "locator": "section 2 paragraphs 7–9",
+      "handling": "Genome coverage, repeat coverage and element counts distinct. Unknown TEs/relative divergence not demonstrated adaptive mechanism or independently dated activity."
+    },
+    {
+      "kind": "annotation-count-conflict",
+      "locator": "section 2 paragraph 10",
+      "handling": "97159 total isoforms versus81973mRNA+15881tRNA do not sum; unique common-name12408 source lower bound only. Mixed tRNA/gene/exon means and stated median relationships not standardized definitive species dimensions."
+    }
+  ],
+  "fullArticleReadCertified": false,
+  "biologicalCoverageComplete": false
+}

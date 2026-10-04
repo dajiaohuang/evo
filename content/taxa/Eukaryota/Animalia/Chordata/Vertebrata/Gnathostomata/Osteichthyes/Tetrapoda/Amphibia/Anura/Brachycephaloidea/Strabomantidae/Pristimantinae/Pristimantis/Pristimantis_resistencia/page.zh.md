@@ -1,0 +1,78 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Pristimantis resistencia
+
+<!-- evo:text /records/catalogue-profile/sections/0/title/zh -->
+## 接受名称与分类位置
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+COL26.8 接受 Pristimantis resistencia Ortega, Brito-M. & Ron, 2022 为种级记录，所记分类路径为 Anura（目） → Strabomantidae（科） → Pristimantis（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/title/zh -->
+## 阅读路线
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/title/zh -->
+## 小性别样本及有时不明显的褶
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+诊断报告一雌吻肛长 24.59 毫米，雄值 18.90 毫米关联三雄，该句无明确范围。保留后者为报告值，不赋虚构散布。resistencia 有鼓膜和鼓环、趾基蹼、宽指趾缘、无声裂或婚垫。腹盘褶于部分个体可不明显，未见不自动为解剖缺失。小样本不确定全种群性别体长极限。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/title/zh -->
+## Ankaku 云雾林夜间栖位
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+resistencia 于 Llanganates 国家公园 Ankaku 周围已知，报告海拔 2,271—2,451 米。夜采在多附生植物云雾林离地 60—300 厘米叶或枝；正模及一副模于雨夜采。这是遭遇条件，不是降雨触发实验、完整繁殖季或卵产这些高度证据。地方记录不支持扩至全部生态系统海拔带或全部附近林。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/title/zh -->
+## 附近砍伐及有年代建议
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+作者因种群量及分布所知不足建议数据缺乏。2018 年图示采点 7.2 千米外有砍伐区，促其担忧人为土地使用推进。图距不是实测耐受阈值、种群下降率或采点死亡直接证据。建议有来源年代，不是核实当前类别；账户不确定完整范围当前占据或有效保护。
+<!-- /evo:text -->
+
+## catalogue-profile / limitations
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。未经过外部领域专家评审。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/0/evidenceSummary/zh -->
+诊断报告一雌吻肛长 24.59 毫米，雄值 18.90 毫米关联三雄，该句无明确范围。保留后者为报告值，不赋虚构散布。resistencia 有鼓膜和鼓环、趾基蹼、宽指趾缘、无声裂或婚垫。腹盘褶于部分个体可不明显，未见不自动为解剖缺失。小样本不确定全种群性别体长极限。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/1/evidenceSummary/zh -->
+resistencia 于 Llanganates 国家公园 Ankaku 周围已知，报告海拔 2,271—2,451 米。夜采在多附生植物云雾林离地 60—300 厘米叶或枝；正模及一副模于雨夜采。这是遭遇条件，不是降雨触发实验、完整繁殖季或卵产这些高度证据。地方记录不支持扩至全部生态系统海拔带或全部附近林。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/2/evidenceSummary/zh -->
+作者因种群量及分布所知不足建议数据缺乏。2018 年图示采点 7.2 千米外有砍伐区，促其担忧人为土地使用推进。图距不是实测耐受阈值、种群下降率或采点死亡直接证据。建议有来源年代，不是核实当前类别；账户不确定完整范围当前占据或有效保护。
+<!-- /evo:text -->
+
+## 研究正文待整理
+
+<!-- evo:text /records/amphibia-collection-placeholder/sections/0/text/zh -->
+本节为占位内容。所记来源快照的 reference 元数据与索引已收集。形态、生活史、生态、演化、分布、化石及保护的详实正文，待材料核对后再整理。本页已有来源摘要继续保留。检索结果或文献记录不等于已核实的生物学主张。
+<!-- /evo:text -->

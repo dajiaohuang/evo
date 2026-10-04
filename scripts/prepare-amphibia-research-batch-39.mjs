@@ -1,0 +1,7 @@
+import { prepareAmphibianResearchInput } from './prepare-amphibia-research-input.mjs'
+prepareAmphibianResearchInput([
+  { colId: '6VWG9', name: 'Pristimantis yanezi', pmc: 'PMC4926633', year: 2016, readScope: 'Species distribution and natural-history account', sections: [
+    ['distribution', 'Two Llanganates locality records', '两个 Llanganates 地点记录', 'The description reported two Llanganates National Park localities in Ecuador’s Tungurahua and Pastaza provinces, at 2095–2280 m, separated by 32 km in a straight line. Both were assigned to eastern montane forest. Continuous forest mapped at those sites does not establish continuous species occupancy, and the authors lacked population data and extensive regional amphibian inventories.', '原始描述报告厄瓜多尔 Tungurahua 与 Pastaza 省 Llanganates 国家公园两个地点，海拔 2095—2280 米，直线相距 32 千米，均归于东坡山地林。地点地图显示森林连续，不能确立本种连续占据；作者尚缺种群数据及广泛区域两栖动物调查。'],
+    ['ecology', 'Night vegetation records after logging', '采伐后的夜间植被记录', 'The holotype and same-locality paratypes were collected at night on vegetation in recently logged forest. Another paratype was found at night on a roughly 1 cm diameter branch 2 m above ground. These encounters retain the collection context, without establishing tolerance of logging, successful reproduction in disturbed forest or a universal perch-height preference.', '正模与同地点副模夜间采自近期采伐林中的植被；另一件副模夜间发现于离地 2 米、直径约 1 厘米的枝条。这些发现保留采集背景，不能确立耐受采伐、在受干扰林成功繁殖或通用栖位高度偏好。']
+  ] }
+])

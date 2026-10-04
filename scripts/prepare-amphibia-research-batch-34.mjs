@@ -1,0 +1,7 @@
+import { prepareAmphibianResearchInput } from './prepare-amphibia-research-input.mjs'
+prepareAmphibianResearchInput([
+  { colId: '4MJLD', name: 'Pristimantis phoxocephalus', pmc: 'PMC6687670', year: 2019, readScope: 'Species distribution, natural-history and conservation-status account', sections: [
+    ['ecology', 'Daytime bromeliad records under the revised concept', '修订概念下的日间凤梨科植物记录', 'The revision reported the Pilaló type locality in Cotopaxi, Ecuador, at 2340–2820 m in western montane forest. Its study specimens were found by day inside bromeliads 2–4 m above ground on scattered pasture trees. These records retain the revision’s species concept and sampled setting, without establishing breeding in bromeliads, pasture preference or equivalent identity for all earlier records under the name.', '修订报告厄瓜多尔 Cotopaxi 的 Pilaló 模式地点，海拔 2340—2820 米，属于西坡山地林。其研究标本日间发现于牧场散生树木上离地 2—4 米的凤梨科植物内部。这些记录保留修订物种概念与采样环境，不能确立在凤梨科植物繁殖、偏好牧场或旧名称下所有早期记录身份相同。'],
+    ['conservation', 'A revision-dependent dated reassessment', '依赖分类修订的有日期重新评估', 'The 2019 authors contrasted an earlier Least Concern treatment with their proposed Critically Endangered category after reassessing species identity and the restricted known locality. The account illustrates how taxonomic scope changes the interpreted range. It is a dated author proposal, without independently confirming a current IUCN category or importing the earlier broad range into the revised concept.', '2019 年作者在重新评估物种身份及受限已知地点后，将此前无危处理与其建议极危类别进行比较。记述显示分类范围如何改变分布解释。这是有日期的作者建议，未独立核实当前 IUCN 类别，也不将早期较宽分布导入修订概念。']
+  ] }
+])

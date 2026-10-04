@@ -1,0 +1,3458 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Hyperolius marmoratus
+    name:
+      en: Hyperolius marmoratus
+      zh: Hyperolius marmoratus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1347"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 1198
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1365"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 1216
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Anura
+      family: Hyperoliidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 1198
+        values:
+          - "1347"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop1
+          - Hyperolius_marmoratus_pop1_UTL_co1
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "6"
+          - NA
+          - NA
+          - NA
+          - "2010"
+          - "2011"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1C
+          - NA
+          - NA
+          - "44.14420063"
+          - "0.752351097"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/0/values/83
+      - rowNumber: 1199
+        values:
+          - "1348"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop1
+          - Hyperolius_marmoratus_pop1_UTL_co2
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "6"
+          - NA
+          - NA
+          - NA
+          - "2010"
+          - "2011"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1C
+          - NA
+          - NA
+          - "45.11598746"
+          - "0.65830721"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/1/values/83
+      - rowNumber: 1200
+        values:
+          - "1349"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop1
+          - Hyperolius_marmoratus_pop1_UTL_co3
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "6"
+          - NA
+          - NA
+          - NA
+          - "2010"
+          - "2011"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1C
+          - NA
+          - NA
+          - "44.5830721"
+          - "0.626959248"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/2/values/83
+      - rowNumber: 1201
+        values:
+          - "1350"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop1
+          - Hyperolius_marmoratus_pop1_UTL_co4
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "6"
+          - NA
+          - NA
+          - NA
+          - "2011"
+          - "2012"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1D
+          - NA
+          - NA
+          - "41.17307692"
+          - "0.769230769"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/83
+      - rowNumber: 1202
+        values:
+          - "1351"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop1
+          - Hyperolius_marmoratus_pop1_UTL_co5
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "6"
+          - NA
+          - NA
+          - NA
+          - "2011"
+          - "2012"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1D
+          - NA
+          - NA
+          - "43.60897436"
+          - "0.897435897"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/4/values/83
+      - rowNumber: 1203
+        values:
+          - "1352"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop1
+          - Hyperolius_marmoratus_pop1_UTL_co6
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "6"
+          - NA
+          - NA
+          - NA
+          - "2011"
+          - "2012"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1D
+          - NA
+          - NA
+          - "45.8525641"
+          - "0.769230769"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/5/values/83
+      - rowNumber: 1204
+        values:
+          - "1353"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_UTL_co1
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "77"
+          - NA
+          - NA
+          - NA
+          - "2010"
+          - "2011"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1C
+          - NA
+          - NA
+          - "43.73667712"
+          - "0.909090909"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/6/values/83
+      - rowNumber: 1205
+        values:
+          - "1354"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_UTL_co2
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "77"
+          - NA
+          - NA
+          - NA
+          - "2010"
+          - "2011"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1C
+          - NA
+          - NA
+          - "43.5799373"
+          - "0.626959248"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/7/values/83
+      - rowNumber: 1206
+        values:
+          - "1355"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_UTL_co3
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "77"
+          - NA
+          - NA
+          - NA
+          - "2010"
+          - "2011"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1C
+          - NA
+          - NA
+          - "45.05329154"
+          - "0.721003135"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/8/values/83
+      - rowNumber: 1207
+        values:
+          - "1356"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_UTL_co4
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "77"
+          - NA
+          - NA
+          - NA
+          - "2011"
+          - "2012"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1D
+          - NA
+          - NA
+          - "39.63461538"
+          - "1.025641026"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/9/values/83
+      - rowNumber: 1208
+        values:
+          - "1357"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_UTL_co5
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "77"
+          - NA
+          - NA
+          - NA
+          - "2011"
+          - "2012"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1D
+          - NA
+          - NA
+          - "44.85897436"
+          - "1.057692308"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/10/values/83
+      - rowNumber: 1209
+        values:
+          - "1358"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_UTL_co6
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "77"
+          - NA
+          - NA
+          - NA
+          - "2011"
+          - "2012"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1D
+          - NA
+          - NA
+          - "47.42307692"
+          - "1.057692308"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/11/values/83
+      - rowNumber: 1210
+        values:
+          - "1359"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_UTL_co1
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "170"
+          - NA
+          - NA
+          - NA
+          - "2010"
+          - "2011"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1C
+          - NA
+          - NA
+          - "43.01567398"
+          - "0.564263323"
+          - "6"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/12/values/83
+      - rowNumber: 1211
+        values:
+          - "1360"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_UTL_co2
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "170"
+          - NA
+          - NA
+          - NA
+          - "2010"
+          - "2011"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1C
+          - NA
+          - NA
+          - "44.70846395"
+          - "0.626959248"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/13/values/83
+      - rowNumber: 1212
+        values:
+          - "1361"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_UTL_co3
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "170"
+          - NA
+          - NA
+          - NA
+          - "2010"
+          - "2011"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1C
+          - NA
+          - NA
+          - "46.15047022"
+          - "0.595611285"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/14/values/83
+      - rowNumber: 1213
+        values:
+          - "1362"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_UTL_co4
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "170"
+          - NA
+          - NA
+          - NA
+          - "2011"
+          - "2012"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1D
+          - NA
+          - NA
+          - "43.22435897"
+          - "0.737179487"
+          - "6"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/15/values/83
+      - rowNumber: 1214
+        values:
+          - "1363"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_UTL_co5
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "170"
+          - NA
+          - NA
+          - NA
+          - "2011"
+          - "2012"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1D
+          - NA
+          - NA
+          - "44.25"
+          - "0.641025641"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/16/values/83
+      - rowNumber: 1215
+        values:
+          - "1364"
+          - Yefeng Yang
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_UTL_co6
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "170"
+          - NA
+          - NA
+          - NA
+          - "2011"
+          - "2012"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "100"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1D
+          - NA
+          - NA
+          - "46.04487179"
+          - "0.705128205"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/17/values/83
+      - rowNumber: 1216
+        values:
+          - "1365"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop1
+          - Hyperolius_marmoratus_pop1_LTL_co1
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "9"
+          - NA
+          - NA
+          - NA
+          - December_2011
+          - February_2012
+          - Year 2. Strand population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "3.198347107"
+          - "0.338842975"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1217
+        values:
+          - "1366"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop1
+          - Hyperolius_marmoratus_pop1_LTL_co2
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "9"
+          - NA
+          - NA
+          - NA
+          - December_2011
+          - February_2012
+          - Year 2. Strand population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "2.371900826"
+          - "0.363636364"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1218
+        values:
+          - "1367"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop1
+          - Hyperolius_marmoratus_pop1_LTL_co3
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "9"
+          - NA
+          - NA
+          - NA
+          - December_2011
+          - February_2012
+          - Year 2. Strand population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "3.26446281"
+          - "0.32231405"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1219
+        values:
+          - "1368"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop2
+          - Hyperolius_marmoratus_pop2_LTL_co1
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "166"
+          - NA
+          - NA
+          - NA
+          - December_2010
+          - February_2011
+          - Year 1. Strand population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "0.661157025"
+          - "0.26446281"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1220
+        values:
+          - "1369"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop2
+          - Hyperolius_marmoratus_pop2_LTL_co2
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "166"
+          - NA
+          - NA
+          - NA
+          - December_2010
+          - February_2011
+          - Year 1. Strand population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "1.305785124"
+          - "0.20661157"
+          - "8"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1221
+        values:
+          - "1370"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop2
+          - Hyperolius_marmoratus_pop2_LTL_co3
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-34.098"
+          - "18.821"
+          - "166"
+          - NA
+          - NA
+          - NA
+          - December_2010
+          - February_2011
+          - Year 1. Strand population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "2.090909091"
+          - "0.198347107"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1222
+        values:
+          - "1371"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_LTL_co1
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "85"
+          - NA
+          - NA
+          - NA
+          - December_2010
+          - February_2011
+          - Year 1. Stellenbosch population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "0.190082645"
+          - "0.446280992"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1223
+        values:
+          - "1372"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_LTL_co2
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "85"
+          - NA
+          - NA
+          - NA
+          - December_2010
+          - February_2011
+          - Year 1. Stellenbosch population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "0.892561983"
+          - "0.32231405"
+          - "8"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1224
+        values:
+          - "1373"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_LTL_co3
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "85"
+          - NA
+          - NA
+          - NA
+          - December_2010
+          - February_2011
+          - Year 1. Stellenbosch population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "1.41322314"
+          - "0.347107438"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1225
+        values:
+          - "1374"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_LTL_co4
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "85"
+          - NA
+          - NA
+          - NA
+          - December_2011
+          - February_2012
+          - Year 2. Stellenbosch population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "1.652892562"
+          - "0.289256198"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1226
+        values:
+          - "1375"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_LTL_co5
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "85"
+          - NA
+          - NA
+          - NA
+          - December_2011
+          - February_2012
+          - Year 2. Stellenbosch population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "2.041322314"
+          - "0.297520661"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1227
+        values:
+          - "1376"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop3
+          - Hyperolius_marmoratus_pop3_LTL_co6
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.992"
+          - "18.82"
+          - "85"
+          - NA
+          - NA
+          - NA
+          - December_2011
+          - February_2012
+          - Year 2. Stellenbosch population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "3.066115702"
+          - "0.314049587"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1228
+        values:
+          - "1377"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_LTL_co1
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "166"
+          - NA
+          - NA
+          - NA
+          - December_2010
+          - February_2011
+          - Year 1. Durbanville population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "1.710743802"
+          - "0.338842975"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1229
+        values:
+          - "1378"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_LTL_co2
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "166"
+          - NA
+          - NA
+          - NA
+          - December_2010
+          - February_2011
+          - Year 1. Durbanville population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "1.537190083"
+          - "0.380165289"
+          - "8"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1230
+        values:
+          - "1379"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_LTL_co3
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "166"
+          - NA
+          - NA
+          - NA
+          - December_2010
+          - February_2011
+          - Year 1. Durbanville population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "2.561983471"
+          - "0.371900826"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1231
+        values:
+          - "1380"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_LTL_co4
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "166"
+          - NA
+          - NA
+          - NA
+          - December_2011
+          - February_2012
+          - Year 2. Durbanville population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "3.73553719"
+          - "0.603305785"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1232
+        values:
+          - "1381"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_LTL_co5
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "166"
+          - NA
+          - NA
+          - NA
+          - December_2011
+          - February_2012
+          - Year 2. Durbanville population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "2.26446281"
+          - "0.537190083"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+      - rowNumber: 1233
+        values:
+          - "1382"
+          - Patrice_Pottier
+          - Davies_et_al_2015
+          - Plasticity of thermal tolerance and metabolism but not water loss in an invasive reed frog
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+          - English
+          - Hyperolius_marmoratus_pop4
+          - Hyperolius_marmoratus_pop4_LTL_co6
+          - NA
+          - Anura
+          - Hyperoliidae
+          - Hyperolius marmoratus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-33.872"
+          - "18.624"
+          - "166"
+          - NA
+          - NA
+          - NA
+          - December_2011
+          - February_2012
+          - Year 2. Durbanville population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "3.107438017"
+          - "0.545454545"
+          - "7"
+          - se
+          - Total sample size from Table 3 was divided equally among populations.
+    originalStudyCitations:
+      - ref: Davies_et_al_2015
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: http://dx.doi.org/10.1016/j.cbpa.2015.06.033
+        year: "2015"
+    selectedEstimateRowNumbers:
+      - 1198
+      - 1216
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3NQVK
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Hyperolius marmoratus — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 1198, 1199, 1200, 1201, 1202, 1203, 1204, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1212, 1213, 1214, 1215, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1224, 1225, 1226, 1227, 1228, 1229, 1230, 1231, 1232, 1233; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/0/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/1/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/2/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/4/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/5/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/6/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/7/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/8/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/9/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/10/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/11/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/12/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/13/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/14/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/15/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/16/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/17/values/83 -->
+Data was digitised from figure 1. Only the total sample size across populations was presented. Sample size was divided equally between populations
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

@@ -1,0 +1,5416 @@
+{
+  "pmcid": "PMC5741667",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+  "sha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+  "articleType": "research-article",
+  "title": "Reading and editing the Pleurodeles waltl genome reveals novel features of tetrapod regeneration",
+  "authors": [
+    {
+      "name": "Ahmed Elewa",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Ahmed",
+        "surname": "Elewa",
+        "suffix": null
+      },
+      "originalName": "ElewaAhmed",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes",
+        "equal-contrib": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Heng Wang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Heng",
+        "surname": "Wang",
+        "suffix": null
+      },
+      "originalName": "WangHeng",
+      "attributes": {
+        "contrib-type": "author",
+        "equal-contrib": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Carlos Talavera-López",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Carlos",
+        "surname": "Talavera-López",
+        "suffix": null
+      },
+      "originalName": "Talavera-LópezCarlos",
+      "attributes": {
+        "contrib-type": "author",
+        "equal-contrib": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Alberto Joven",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Alberto",
+        "surname": "Joven",
+        "suffix": null
+      },
+      "originalName": "JovenAlberto",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Gonçalo Brito",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Gonçalo",
+        "surname": "Brito",
+        "suffix": null
+      },
+      "originalName": "BritoGonçalo",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0003-2134-7583"
+        }
+      ]
+    },
+    {
+      "name": "Anoop Kumar",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Anoop",
+        "surname": "Kumar",
+        "suffix": null
+      },
+      "originalName": "KumarAnoop",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "L. Shahul Hameed",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "L. Shahul",
+        "surname": "Hameed",
+        "suffix": null
+      },
+      "originalName": "HameedL. Shahul",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "May Penrad-Mobayed",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "May",
+        "surname": "Penrad-Mobayed",
+        "suffix": null
+      },
+      "originalName": "Penrad-MobayedMay",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Zeyu Yao",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Zeyu",
+        "surname": "Yao",
+        "suffix": null
+      },
+      "originalName": "YaoZeyu",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Neda Zamani",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Neda",
+        "surname": "Zamani",
+        "suffix": null
+      },
+      "originalName": "ZamaniNeda",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Yamen Abbas",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yamen",
+        "surname": "Abbas",
+        "suffix": null
+      },
+      "originalName": "AbbasYamen",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Ilgar Abdullayev",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Ilgar",
+        "surname": "Abdullayev",
+        "suffix": null
+      },
+      "originalName": "AbdullayevIlgar",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Rickard Sandberg",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Rickard",
+        "surname": "Sandberg",
+        "suffix": null
+      },
+      "originalName": "SandbergRickard",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0001-6473-1740"
+        }
+      ]
+    },
+    {
+      "name": "Manfred Grabherr",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Manfred",
+        "surname": "Grabherr",
+        "suffix": null
+      },
+      "originalName": "GrabherrManfred",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Björn Andersson",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Björn",
+        "surname": "Andersson",
+        "suffix": null
+      },
+      "originalName": "AnderssonBjörn",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-4624-0259"
+        }
+      ]
+    },
+    {
+      "name": "András Simon",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "András",
+        "surname": "Simon",
+        "suffix": null
+      },
+      "originalName": "SimonAndrás",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC5741667"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC5741667.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "5741667"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "5741667"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "29273779"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1038/s41467-017-01964-9"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "1964"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2017",
+      "month": "12",
+      "day": "22"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2017",
+      "month": null,
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {
+        "license-type": "OpenAccess"
+      },
+      "links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "MOESM1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2017_1964_MOESM1_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2017_1964_MOESM1_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM2",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2017_1964_MOESM2_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2017_1964_MOESM2_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM3",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2017_1964_MOESM3_ESM.mp4",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2017_1964_MOESM3_ESM.mp4",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM4",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2017_1964_MOESM4_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2017_1964_MOESM4_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM5",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2017_1964_MOESM5_ESM.txt",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2017_1964_MOESM5_ESM.txt",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM6",
+      "position": 5,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2017_1964_MOESM6_ESM.txt",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2017_1964_MOESM6_ESM.txt",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM7",
+      "position": 6,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2017_1964_MOESM7_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2017_1964_MOESM7_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "CR1",
+      "position": 0,
+      "title": "The molecular and cellular choreography of appendage regeneration",
+      "source": "Cell",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "165"
+        ],
+        "fpage": [
+          "1598"
+        ],
+        "lpage": [
+          "1608"
+        ]
+      },
+      "originalCitationText": "TanakaEMThe molecular and cellular choreography of appendage regenerationCell20161651598160810.1016/j.cell.2016.05.03827315477",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cell.2016.05.038"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27315477"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR2",
+      "position": 1,
+      "title": "The zebrafish as a model for complex tissue regeneration",
+      "source": "Trends Genet.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gemberling",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GemberlingM"
+            },
+            {
+              "surname": "Bailey",
+              "givenNames": "TJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BaileyTJ"
+            },
+            {
+              "surname": "Hyde",
+              "givenNames": "DR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HydeDR"
+            },
+            {
+              "surname": "Poss",
+              "givenNames": "KD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PossKD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "611"
+        ],
+        "lpage": [
+          "620"
+        ]
+      },
+      "originalCitationText": "GemberlingMBaileyTJHydeDRPossKDThe zebrafish as a model for complex tissue regenerationTrends Genet.20132961162010.1016/j.tig.2013.07.00323927865PMC3812420",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.tig.2013.07.003"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23927865"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3812420"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR3",
+      "position": 2,
+      "title": "The Hydra model: disclosing an apoptosis-driven generator of Wnt-based regeneration",
+      "source": "Trends Cell Biol.",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Galliot",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GalliotB"
+            },
+            {
+              "surname": "Chera",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CheraS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "fpage": [
+          "514"
+        ],
+        "lpage": [
+          "523"
+        ]
+      },
+      "originalCitationText": "GalliotBCheraSThe Hydra model: disclosing an apoptosis-driven generator of Wnt-based regenerationTrends Cell Biol.20102051452310.1016/j.tcb.2010.05.00620691596",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.tcb.2010.05.006"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20691596"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR4",
+      "position": 3,
+      "title": "On the organ trail: insights into organ regeneration in the planarian",
+      "source": "Curr. Opin. Genet. Dev.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Roberts-Galbraith",
+              "givenNames": "RH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Roberts-GalbraithRH"
+            },
+            {
+              "surname": "Newmark",
+              "givenNames": "PA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NewmarkPA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "fpage": [
+          "37"
+        ],
+        "lpage": [
+          "46"
+        ]
+      },
+      "originalCitationText": "Roberts-GalbraithRHNewmarkPAOn the organ trail: insights into organ regeneration in the planarianCurr. Opin. Genet. Dev.201532374610.1016/j.gde.2015.01.00925703843",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.gde.2015.01.009"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25703843"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR5",
+      "position": 4,
+      "title": "Amphibian limb regeneration: rebuilding a complex structure",
+      "source": "Science",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Brockes",
+              "givenNames": "JP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BrockesJP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "276"
+        ],
+        "fpage": [
+          "81"
+        ],
+        "lpage": [
+          "87"
+        ]
+      },
+      "originalCitationText": "BrockesJPAmphibian limb regeneration: rebuilding a complex structureScience1997276818710.1126/science.276.5309.819082990",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.276.5309.81"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "9082990"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR6",
+      "position": 5,
+      "title": "Limb regeneration",
+      "source": "Wiley interdisciplinary Rev. Dev. Biol.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Simon",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimonA"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "291"
+        ],
+        "lpage": [
+          "300"
+        ]
+      },
+      "originalCitationText": "SimonATanakaEMLimb regenerationWiley interdisciplinary Rev. Dev. Biol.2013229130010.1002/wdev.7324009038",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/wdev.73"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24009038"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR7",
+      "position": 6,
+      "title": "Fundamental differences in dedifferentiation and stem cell recruitment during skeletal muscle regeneration in two salamander species",
+      "source": "Cell Stem Cell",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sandoval-Guzman",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Sandoval-GuzmanT"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "174"
+        ],
+        "lpage": [
+          "187"
+        ]
+      },
+      "originalCitationText": "Sandoval-GuzmanTFundamental differences in dedifferentiation and stem cell recruitment during skeletal muscle regeneration in two salamander speciesCell Stem Cell20141417418710.1016/j.stem.2013.11.00724268695",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.stem.2013.11.007"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24268695"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR8",
+      "position": 7,
+      "title": "A de novo assembly of the newt transcriptome combined with proteomic validation identifies new protein families expressed during tissue regeneration",
+      "source": "Genome Biol.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Looso",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LoosoM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "R16"
+        ]
+      },
+      "originalCitationText": "LoosoMA de novo assembly of the newt transcriptome combined with proteomic validation identifies new protein families expressed during tissue regenerationGenome Biol.201314R1610.1186/gb-2013-14-2-r1623425577PMC4054090",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/gb-2013-14-2-r16"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23425577"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4054090"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR9",
+      "position": 8,
+      "title": "A reference transcriptome and inferred proteome for the salamander Notophthalmus viridescens",
+      "source": "Exp. Cell. Res.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Abdullayev",
+              "givenNames": "I",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AbdullayevI"
+            },
+            {
+              "surname": "Kirkham",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KirkhamM"
+            },
+            {
+              "surname": "Bjorklund",
+              "givenNames": "AK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BjorklundAK"
+            },
+            {
+              "surname": "Simon",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimonA"
+            },
+            {
+              "surname": "Sandberg",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SandbergR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "319"
+        ],
+        "fpage": [
+          "1187"
+        ],
+        "lpage": [
+          "1197"
+        ]
+      },
+      "originalCitationText": "AbdullayevIKirkhamMBjorklundAKSimonASandbergRA reference transcriptome and inferred proteome for the salamander Notophthalmus viridescensExp. Cell. Res.20133191187119710.1016/j.yexcr.2013.02.01323454602",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.yexcr.2013.02.013"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23454602"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR10",
+      "position": 9,
+      "title": "A tissue-mapped axolotl de novo transcriptome enables identification of limb regeneration factors",
+      "source": "Cell Rep.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bryant",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BryantDM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "762"
+        ],
+        "lpage": [
+          "776"
+        ]
+      },
+      "originalCitationText": "BryantDMA tissue-mapped axolotl de novo transcriptome enables identification of limb regeneration factorsCell Rep.20171876277610.1016/j.celrep.2016.12.06328099853PMC5419050",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.celrep.2016.12.063"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28099853"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5419050"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR11",
+      "position": 10,
+      "title": "Transcriptomic analysis of endangered Chinese salamander: identification of immune, sex and reproduction-related genes and genetic markers",
+      "source": "PLoS ONE",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Che",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CheR"
+            },
+            {
+              "surname": "Sun",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SunY"
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangR"
+            },
+            {
+              "surname": "Xu",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XuT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "e87940"
+        ]
+      },
+      "originalCitationText": "CheRSunYWangRXuTTranscriptomic analysis of endangered Chinese salamander: identification of immune, sex and reproduction-related genes and genetic markersPLoS ONE20149e8794010.1371/journal.pone.008794024498226PMC3909259",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0087940"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24498226"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3909259"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR12",
+      "position": 11,
+      "title": "A transcriptome for the study of early processes of retinal regeneration in the adult newt, Cynops pyrrhogaster",
+      "source": "PLoS ONE",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nakamura",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NakamuraK"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "e109831"
+        ]
+      },
+      "originalCitationText": "NakamuraKA transcriptome for the study of early processes of retinal regeneration in the adult newt, Cynops pyrrhogasterPLoS ONE20149e10983110.1371/journal.pone.010983125290450PMC4188609",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0109831"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25290450"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4188609"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR13",
+      "position": 12,
+      "title": "Molecular genetic system for regenerative studies using newts",
+      "source": "Dev. Growth Differ.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hayashi",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HayashiT"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "55"
+        ],
+        "fpage": [
+          "229"
+        ],
+        "lpage": [
+          "236"
+        ]
+      },
+      "originalCitationText": "HayashiTMolecular genetic system for regenerative studies using newtsDev. Growth Differ.20135522923610.1111/dgd.1201923305125",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/dgd.12019"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23305125"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR14",
+      "position": 13,
+      "title": "Etude descriptive des chromosomes en écouvillon dans le genre pleurodeles (Amphibien, Urodèle)",
+      "source": "Ann. Embryol. Morphogen.",
+      "year": "1968",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lacroix",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LacroixJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "1"
+        ],
+        "fpage": [
+          "179"
+        ],
+        "lpage": [
+          "202"
+        ]
+      },
+      "originalCitationText": "LacroixJEtude descriptive des chromosomes en écouvillon dans le genre pleurodeles (Amphibien, Urodèle)Ann. Embryol. Morphogen.19681179202",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR15",
+      "position": 14,
+      "title": "ReAS: recovery of ancestral sequences for transposable elements from the unassembled reads of a whole genome shotgun",
+      "source": "PLoS Comput. Biol.",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Li",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiR"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "1"
+        ],
+        "fpage": [
+          "e43"
+        ]
+      },
+      "originalCitationText": "LiRReAS: recovery of ancestral sequences for transposable elements from the unassembled reads of a whole genome shotgunPLoS Comput. Biol.20051e4310.1371/journal.pcbi.001004316184192PMC1232128",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pcbi.0010043"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16184192"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1232128"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR16",
+      "position": 15,
+      "title": "Repbase Update, a database of repetitive elements in eukaryotic genomes",
+      "source": "Mobile DNA",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bao",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BaoW"
+            },
+            {
+              "surname": "Kojima",
+              "givenNames": "KK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KojimaKK"
+            },
+            {
+              "surname": "Kohany",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KohanyO"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "11"
+        ]
+      },
+      "originalCitationText": "BaoWKojimaKKKohanyORepbase Update, a database of repetitive elements in eukaryotic genomesMobile DNA201561110.1186/s13100-015-0041-926045719PMC4455052",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13100-015-0041-9"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26045719"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4455052"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR17",
+      "position": 16,
+      "title": "Genome-wide synteny through highly sensitive sequence alignment: Satsuma",
+      "source": "Bioinformatics",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Grabherr",
+              "givenNames": "MG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GrabherrMG"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "26"
+        ],
+        "fpage": [
+          "1145"
+        ],
+        "lpage": [
+          "1151"
+        ]
+      },
+      "originalCitationText": "GrabherrMGGenome-wide synteny through highly sensitive sequence alignment: SatsumaBioinformatics2010261145115110.1093/bioinformatics/btq10220208069PMC2859124",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btq102"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20208069"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2859124"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR18",
+      "position": 17,
+      "title": "Harbinger transposons and an ancient HARBI1 gene derived from a transposase",
+      "source": "DNA Cell Biol.",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kapitonov",
+              "givenNames": "VV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KapitonovVV"
+            },
+            {
+              "surname": "Jurka",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JurkaJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "fpage": [
+          "311"
+        ],
+        "lpage": [
+          "324"
+        ]
+      },
+      "originalCitationText": "KapitonovVVJurkaJHarbinger transposons and an ancient HARBI1 gene derived from a transposaseDNA Cell Biol.20042331132410.1089/10445490432309094915169610",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1089/104454904323090949"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15169610"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR19",
+      "position": 18,
+      "title": "Transposition of a reconstructed Harbinger element in human cells and functional homology with two transposon-derived cellular genes",
+      "source": "Proc. Natl Acad. Sci. USA",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sinzelle",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SinzelleL"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "105"
+        ],
+        "fpage": [
+          "4715"
+        ],
+        "lpage": [
+          "4720"
+        ]
+      },
+      "originalCitationText": "SinzelleLTransposition of a reconstructed Harbinger element in human cells and functional homology with two transposon-derived cellular genesProc. Natl Acad. Sci. USA20081054715472010.1073/pnas.070774610518339812PMC2290759",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.0707746105"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18339812"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2290759"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR20",
+      "position": 19,
+      "title": "A living fossil in the genome of a living fossil: Harbinger transposons in the coelacanth genome",
+      "source": "Mol. Biol. Evol.",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Smith",
+              "givenNames": "JJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SmithJJ"
+            },
+            {
+              "surname": "Sumiyama",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SumiyamaK"
+            },
+            {
+              "surname": "Amemiya",
+              "givenNames": "CT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AmemiyaCT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "985"
+        ],
+        "lpage": [
+          "993"
+        ]
+      },
+      "originalCitationText": "SmithJJSumiyamaKAmemiyaCTA living fossil in the genome of a living fossil: Harbinger transposons in the coelacanth genomeMol. Biol. Evol.20122998599310.1093/molbev/msr26722045999PMC3278475",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/molbev/msr267"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22045999"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3278475"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR21",
+      "position": 20,
+      "title": "The functions of animal microRNAs",
+      "source": "Nature",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ambros",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AmbrosV"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "431"
+        ],
+        "fpage": [
+          "350"
+        ],
+        "lpage": [
+          "355"
+        ]
+      },
+      "originalCitationText": "AmbrosVThe functions of animal microRNAsNature200443135035510.1038/nature0287115372042",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature02871"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15372042"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR22",
+      "position": 21,
+      "title": "MicroRNAs: genomics, biogenesis, mechanism, and function",
+      "source": "Cell",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bartel",
+              "givenNames": "DP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BartelDP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "116"
+        ],
+        "fpage": [
+          "281"
+        ],
+        "lpage": [
+          "297"
+        ]
+      },
+      "originalCitationText": "BartelDPMicroRNAs: genomics, biogenesis, mechanism, and functionCell200411628129710.1016/S0092-8674(04)00045-514744438",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0092-8674(04)00045-5"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "14744438"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR23",
+      "position": 22,
+      "title": "MicroRNAs: target recognition and regulatory functions",
+      "source": "Cell",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bartel",
+              "givenNames": "DP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BartelDP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "136"
+        ],
+        "fpage": [
+          "215"
+        ],
+        "lpage": [
+          "233"
+        ]
+      },
+      "originalCitationText": "BartelDPMicroRNAs: target recognition and regulatory functionsCell200913621523310.1016/j.cell.2009.01.00219167326PMC3794896",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cell.2009.01.002"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19167326"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3794896"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR24",
+      "position": 23,
+      "title": "Highly efficient miRNA-mediated reprogramming of mouse and human somatic cells to pluripotency",
+      "source": "Cell Stem Cell",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Anokye-Danso",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Anokye-DansoF"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "376"
+        ],
+        "lpage": [
+          "388"
+        ]
+      },
+      "originalCitationText": "Anokye-DansoFHighly efficient miRNA-mediated reprogramming of mouse and human somatic cells to pluripotencyCell Stem Cell2011837638810.1016/j.stem.2011.03.00121474102PMC3090650",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.stem.2011.03.001"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21474102"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3090650"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR25",
+      "position": 24,
+      "title": "Xenopus microRNA genes are predominantly located within introns and are differentially expressed in adult frog tissues via post-transcriptional regulation",
+      "source": "Genome Res.",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tang",
+              "givenNames": "GQ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TangGQ"
+            },
+            {
+              "surname": "Maxwell",
+              "givenNames": "ES",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaxwellES"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "104"
+        ],
+        "lpage": [
+          "112"
+        ]
+      },
+      "originalCitationText": "TangGQMaxwellESXenopus microRNA genes are predominantly located within introns and are differentially expressed in adult frog tissues via post-transcriptional regulationGenome Res.20081810411210.1101/gr.653910818032731PMC2134782",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/gr.6539108"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18032731"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2134782"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR26",
+      "position": 25,
+      "title": "Stage-specific expression of microRNAs during Xenopus development",
+      "source": "FEBS Lett.",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Watanabe",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WatanabeT"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "579"
+        ],
+        "fpage": [
+          "318"
+        ],
+        "lpage": [
+          "324"
+        ]
+      },
+      "originalCitationText": "WatanabeTStage-specific expression of microRNAs during Xenopus developmentFEBS Lett.200557931832410.1016/j.febslet.2004.11.06715642338",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.febslet.2004.11.067"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15642338"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR27",
+      "position": 26,
+      "title": "MicroRNAs regulate brain morphogenesis in zebrafish",
+      "source": "Science",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Giraldez",
+              "givenNames": "AJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GiraldezAJ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "308"
+        ],
+        "fpage": [
+          "833"
+        ],
+        "lpage": [
+          "838"
+        ]
+      },
+      "originalCitationText": "GiraldezAJMicroRNAs regulate brain morphogenesis in zebrafishScience200530883383810.1126/science.110902015774722",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1109020"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15774722"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR28",
+      "position": 27,
+      "title": "Human embryonic stem cells express a unique set of microRNAs",
+      "source": "Dev. Biol.",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Suh",
+              "givenNames": "MR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SuhMR"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "270"
+        ],
+        "fpage": [
+          "488"
+        ],
+        "lpage": [
+          "498"
+        ]
+      },
+      "originalCitationText": "SuhMRHuman embryonic stem cells express a unique set of microRNAsDev. Biol.200427048849810.1016/j.ydbio.2004.02.01915183728",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ydbio.2004.02.019"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15183728"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR29",
+      "position": 28,
+      "title": "microRNA control of mouse and human pluripotent stem cell behavior",
+      "source": "Annu. Rev. Cell. Dev. Biol.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Greve",
+              "givenNames": "TS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GreveTS"
+            },
+            {
+              "surname": "Judson",
+              "givenNames": "RL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JudsonRL"
+            },
+            {
+              "surname": "Blelloch",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BlellochR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "213"
+        ],
+        "lpage": [
+          "239"
+        ]
+      },
+      "originalCitationText": "GreveTSJudsonRLBlellochRmicroRNA control of mouse and human pluripotent stem cell behaviorAnnu. Rev. Cell. Dev. Biol.20132921323910.1146/annurev-cellbio-101512-12234323875649PMC4793955",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1146/annurev-cellbio-101512-122343"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23875649"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4793955"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR30",
+      "position": 29,
+      "title": "The developmental miRNA profiles of zebrafish as determined by small RNA cloning",
+      "source": "Genes Dev.",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chen",
+              "givenNames": "PY",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenPY"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "1288"
+        ],
+        "lpage": [
+          "1293"
+        ]
+      },
+      "originalCitationText": "ChenPYThe developmental miRNA profiles of zebrafish as determined by small RNA cloningGenes Dev.2005191288129310.1101/gad.131060515937218PMC1142552",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/gad.1310605"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15937218"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1142552"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR31",
+      "position": 30,
+      "title": "The early evolution of the tetrapod humerus",
+      "source": "Science",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Shubin",
+              "givenNames": "NH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShubinNH"
+            },
+            {
+              "surname": "Daeschler",
+              "givenNames": "EB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DaeschlerEB"
+            },
+            {
+              "surname": "Coates",
+              "givenNames": "MI",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CoatesMI"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "304"
+        ],
+        "fpage": [
+          "90"
+        ],
+        "lpage": [
+          "93"
+        ]
+      },
+      "originalCitationText": "ShubinNHDaeschlerEBCoatesMIThe early evolution of the tetrapod humerusScience2004304909310.1126/science.109429515064415",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1094295"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15064415"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR32",
+      "position": 31,
+      "title": "Salamander limb development: integrating genes, morphology, and fossils",
+      "source": "Dev. Dyn.",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Frobisch",
+              "givenNames": "NB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FrobischNB"
+            },
+            {
+              "surname": "Shubin",
+              "givenNames": "NH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShubinNH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "240"
+        ],
+        "fpage": [
+          "1087"
+        ],
+        "lpage": [
+          "1099"
+        ]
+      },
+      "originalCitationText": "FrobischNBShubinNHSalamander limb development: integrating genes, morphology, and fossilsDev. Dyn.20112401087109910.1002/dvdy.2262921465623",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/dvdy.22629"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21465623"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR33",
+      "position": 32,
+      "title": "The developmental control of transposable elements and the evolution of higher species",
+      "source": "Annu. Rev. Cell Dev. Biol.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Friedli",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FriedliM"
+            },
+            {
+              "surname": "Trono",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TronoD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "fpage": [
+          "429"
+        ],
+        "lpage": [
+          "451"
+        ]
+      },
+      "originalCitationText": "FriedliMTronoDThe developmental control of transposable elements and the evolution of higher speciesAnnu. Rev. Cell Dev. Biol.20153142945110.1146/annurev-cellbio-100814-12551426393776",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1146/annurev-cellbio-100814-125514"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26393776"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR34",
+      "position": 33,
+      "title": "Loss of transcriptional control over endogenous retroelements during reprogramming to pluripotency",
+      "source": "Genome Res.",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Friedli",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FriedliM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "fpage": [
+          "1251"
+        ],
+        "lpage": [
+          "1259"
+        ]
+      },
+      "originalCitationText": "FriedliMLoss of transcriptional control over endogenous retroelements during reprogramming to pluripotencyGenome Res.2014241251125910.1101/gr.172809.11424879558PMC4120079",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/gr.172809.114"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24879558"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4120079"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR35",
+      "position": 34,
+      "title": "Genome-wide midrange transcription profiles reveal expression level relationships in human tissue specification",
+      "source": "Bioinformatics",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yanai",
+              "givenNames": "I",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YanaiI"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "fpage": [
+          "650"
+        ],
+        "lpage": [
+          "659"
+        ]
+      },
+      "originalCitationText": "YanaiIGenome-wide midrange transcription profiles reveal expression level relationships in human tissue specificationBioinformatics20052165065910.1093/bioinformatics/bti04215388519",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/bti042"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15388519"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR36",
+      "position": 35,
+      "title": "Sal-Site: research resources for the Mexican axolotl",
+      "source": "Methods Mol. Biol.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Baddar",
+              "givenNames": "NW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BaddarNW"
+            },
+            {
+              "surname": "Woodcock",
+              "givenNames": "MR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WoodcockMR"
+            },
+            {
+              "surname": "Khatri",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhatriS"
+            },
+            {
+              "surname": "Kump",
+              "givenNames": "DK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KumpDK"
+            },
+            {
+              "surname": "Voss",
+              "givenNames": "SR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VossSR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "1290"
+        ],
+        "fpage": [
+          "321"
+        ],
+        "lpage": [
+          "336"
+        ]
+      },
+      "originalCitationText": "BaddarNWWoodcockMRKhatriSKumpDKVossSRSal-Site: research resources for the Mexican axolotlMethods Mol. Biol.2015129032133610.1007/978-1-4939-2495-0_2525740497",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/978-1-4939-2495-0_25"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25740497"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR37",
+      "position": 36,
+      "title": "Initial characterization of the large genome of the salamander Ambystoma mexicanum using shotgun and laser capture chromosome sequencing",
+      "source": "Sci. Rep.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Keinath",
+              "givenNames": "MC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KeinathMC"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "16413"
+        ]
+      },
+      "originalCitationText": "KeinathMCInitial characterization of the large genome of the salamander Ambystoma mexicanum using shotgun and laser capture chromosome sequencingSci. Rep.201551641310.1038/srep1641326553646PMC4639759",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/srep16413"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26553646"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4639759"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR38",
+      "position": 37,
+      "title": "Comparative transcriptional profiling of the axolotl limb identifies a tripartite regeneration-specific gene program",
+      "source": "PLoS ONE",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Knapp",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KnappD"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "e61352"
+        ]
+      },
+      "originalCitationText": "KnappDComparative transcriptional profiling of the axolotl limb identifies a tripartite regeneration-specific gene programPLoS ONE20138e6135210.1371/journal.pone.006135223658691PMC3641036",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0061352"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23658691"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3641036"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR39",
+      "position": 38,
+      "title": "Pax3 and vertebrate development",
+      "source": "Methods Mol. Biol.",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Epstein",
+              "givenNames": "JA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EpsteinJA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "137"
+        ],
+        "fpage": [
+          "459"
+        ],
+        "lpage": [
+          "470"
+        ]
+      },
+      "originalCitationText": "EpsteinJAPax3 and vertebrate developmentMethods Mol. Biol.20001374594701094856010.1385/1-59259-066-7:459",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "10948560"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1385/1-59259-066-7:459"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR40",
+      "position": 39,
+      "title": "Spatiotemporal patterns of Pax3, Pax6, and Pax7 expression in the developing brain of a urodele amphibian, Pleurodeles waltl",
+      "source": "J. Comp. Neurol.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Joven",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JovenA"
+            },
+            {
+              "surname": "Morona",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MoronaR"
+            },
+            {
+              "surname": "Gonzalez",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GonzalezA"
+            },
+            {
+              "surname": "Moreno",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MorenoN"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "521"
+        ],
+        "fpage": [
+          "3913"
+        ],
+        "lpage": [
+          "3953"
+        ]
+      },
+      "originalCitationText": "JovenAMoronaRGonzalezAMorenoNSpatiotemporal patterns of Pax3, Pax6, and Pax7 expression in the developing brain of a urodele amphibian, Pleurodeles waltlJ. Comp. Neurol.20135213913395310.1002/cne.2327623784810",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/cne.23276"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23784810"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR41",
+      "position": 40,
+      "title": "PAX3 and PAX7 as upstream regulators of myogenesis",
+      "source": "Semin. Cell Dev. Biol.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Buckingham",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BuckinghamM"
+            },
+            {
+              "surname": "Relaix",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RelaixF"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "44"
+        ],
+        "fpage": [
+          "115"
+        ],
+        "lpage": [
+          "125"
+        ]
+      },
+      "originalCitationText": "BuckinghamMRelaixFPAX3 and PAX7 as upstream regulators of myogenesisSemin. Cell Dev. Biol.20154411512510.1016/j.semcdb.2015.09.01726424495",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.semcdb.2015.09.017"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26424495"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR42",
+      "position": 41,
+      "title": "LTR retrotransposons contribute to genomic gigantism in plethodontid salamanders",
+      "source": "Genome Biol. Evol.",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sun",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SunC"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "168"
+        ],
+        "lpage": [
+          "183"
+        ]
+      },
+      "originalCitationText": "SunCLTR retrotransposons contribute to genomic gigantism in plethodontid salamandersGenome Biol. Evol.2012416818310.1093/gbe/evr13922200636PMC3318908",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/gbe/evr139"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22200636"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3318908"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR43",
+      "position": 42,
+      "title": "Lampbrush chromosomes and associated bodies: new insights into principles of nuclear structure and function",
+      "source": "Chromosome Res.",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Morgan",
+              "givenNames": "GT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MorganGT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "177"
+        ],
+        "lpage": [
+          "200"
+        ]
+      },
+      "originalCitationText": "MorganGTLampbrush chromosomes and associated bodies: new insights into principles of nuclear structure and functionChromosome Res.20021017720010.1023/A:101522702065212067208",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1023/A:1015227020652"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12067208"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR44",
+      "position": 43,
+      "title": "The role of grafted skin in the regeneration of x-irradiated axolotl limbs",
+      "source": "Dev. Biol.",
+      "year": "1977",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dunis",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DunisDA"
+            },
+            {
+              "surname": "Namenwirth",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NamenwirthM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "56"
+        ],
+        "fpage": [
+          "97"
+        ],
+        "lpage": [
+          "109"
+        ]
+      },
+      "originalCitationText": "DunisDANamenwirthMThe role of grafted skin in the regeneration of x-irradiated axolotl limbsDev. Biol.1977569710910.1016/0012-1606(77)90157-9320068",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/0012-1606(77)90157-9"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "320068"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR45",
+      "position": 44,
+      "title": "Distinct roles for Pax7 and Pax3 in adult regenerative myogenesis",
+      "source": "J. Cell Biol.",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kuang",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KuangS"
+            },
+            {
+              "surname": "Chargé",
+              "givenNames": "SB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChargéSB"
+            },
+            {
+              "surname": "Seale",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SealeP"
+            },
+            {
+              "surname": "Huh",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuhM"
+            },
+            {
+              "surname": "Rudnicki",
+              "givenNames": "MA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RudnickiMA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "172"
+        ],
+        "fpage": [
+          "103"
+        ],
+        "lpage": [
+          "113"
+        ]
+      },
+      "originalCitationText": "KuangSChargéSBSealePHuhMRudnickiMADistinct roles for Pax7 and Pax3 in adult regenerative myogenesisJ. Cell Biol.200617210311310.1083/jcb.20050800116391000PMC2063538",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1083/jcb.200508001"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16391000"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2063538"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR46",
+      "position": 45,
+      "title": "Skeletal muscle dedifferentiation during salamander limb regeneration",
+      "source": "Curr. Opin. Genet. Dev.",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wang",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangH"
+            },
+            {
+              "surname": "Simon",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimonA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "40"
+        ],
+        "fpage": [
+          "108"
+        ],
+        "lpage": [
+          "112"
+        ]
+      },
+      "originalCitationText": "WangHSimonASkeletal muscle dedifferentiation during salamander limb regenerationCurr. Opin. Genet. Dev.20164010811210.1016/j.gde.2016.06.01327399887",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.gde.2016.06.013"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27399887"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR46",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR47",
+      "position": 46,
+      "title": "Zebrafish MiR-430 promotes deadenylation and clearance of maternal mRNAs",
+      "source": "Science",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Giraldez",
+              "givenNames": "AJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GiraldezAJ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "312"
+        ],
+        "fpage": [
+          "75"
+        ],
+        "lpage": [
+          "79"
+        ]
+      },
+      "originalCitationText": "GiraldezAJZebrafish MiR-430 promotes deadenylation and clearance of maternal mRNAsScience2006312757910.1126/science.112268916484454",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1122689"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16484454"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR47",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR48",
+      "position": 47,
+      "title": "Deadenylation of maternal mRNAs mediated by miR-427 in Xenopus laevis embryos",
+      "source": "RNA.",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lund",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LundE"
+            },
+            {
+              "surname": "Liu",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuM"
+            },
+            {
+              "surname": "Hartley",
+              "givenNames": "RS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HartleyRS"
+            },
+            {
+              "surname": "Sheets",
+              "givenNames": "MD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SheetsMD"
+            },
+            {
+              "surname": "Dahlberg",
+              "givenNames": "JE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DahlbergJE"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "2351"
+        ],
+        "lpage": [
+          "2363"
+        ]
+      },
+      "originalCitationText": "LundELiuMHartleyRSSheetsMDDahlbergJEDeadenylation of maternal mRNAs mediated by miR-427 in Xenopus laevis embryosRNA.2009152351236310.1261/rna.188200919854872PMC2779678",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1261/rna.1882009"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19854872"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2779678"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR48",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR49",
+      "position": 48,
+      "title": "[Change in the karyotype by a homozygous pericentric inversion in the newt Pleurodeles waltlii Michahelles]",
+      "source": "Chromosoma",
+      "year": "1971",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Jaylet",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JayletA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "35"
+        ],
+        "fpage": [
+          "288"
+        ],
+        "lpage": [
+          "299"
+        ]
+      },
+      "originalCitationText": "JayletA[Change in the karyotype by a homozygous pericentric inversion in the newt Pleurodeles waltlii Michahelles]Chromosoma19713528829910.1007/BF003262795133544",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/BF00326279"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "5133544"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR49",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR50",
+      "position": 49,
+      "title": "[The karyotype of the urodele Pleurodeles poireti Gervais. Comparative study of karyotypes in the genus Pleurodeles].",
+      "source": "C. R. Acad. Sci. Hebd. Seances Acad. Sci. D",
+      "year": "1966",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gallien",
+              "givenNames": "CL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GallienCL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "262"
+        ],
+        "fpage": [
+          "122"
+        ],
+        "lpage": [
+          "125"
+        ]
+      },
+      "originalCitationText": "GallienCL[The karyotype of the urodele Pleurodeles poireti Gervais. Comparative study of karyotypes in the genus Pleurodeles].C. R. Acad. Sci. Hebd. Seances Acad. Sci. D19662621221254955664",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "4955664"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR50",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR51",
+      "position": 50,
+      "title": "Tips and tricks for preparing lampbrush chromosome spreads from Xenopus tropicalis oocytes",
+      "source": "Methods",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Penrad-Mobayed",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Penrad-MobayedM"
+            },
+            {
+              "surname": "Kanhoush",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KanhoushR"
+            },
+            {
+              "surname": "Perrin",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PerrinC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "51"
+        ],
+        "fpage": [
+          "37"
+        ],
+        "lpage": [
+          "44"
+        ]
+      },
+      "originalCitationText": "Penrad-MobayedMKanhoushRPerrinCTips and tricks for preparing lampbrush chromosome spreads from Xenopus tropicalis oocytesMethods201051374410.1016/j.ymeth.2010.01.01420085818",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ymeth.2010.01.014"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20085818"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR51",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR52",
+      "position": 51,
+      "title": "Estimation of nuclear DNA content in plants using flow cytometry",
+      "source": "Nat. Protoc.",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dolezel",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DolezelJ"
+            },
+            {
+              "surname": "Greilhuber",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GreilhuberJ"
+            },
+            {
+              "surname": "Suda",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SudaJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "2233"
+        ],
+        "lpage": [
+          "2244"
+        ]
+      },
+      "originalCitationText": "DolezelJGreilhuberJSudaJEstimation of nuclear DNA content in plants using flow cytometryNat. Protoc.200722233224410.1038/nprot.2007.31017853881",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nprot.2007.310"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17853881"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR52",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR53",
+      "position": 52,
+      "title": "Genome size and metabolic-rate in salamanders",
+      "source": "Comp. Biochem. Phys. B",
+      "year": "1991",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Licht",
+              "givenNames": "LE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LichtLE"
+            },
+            {
+              "surname": "Lowcock",
+              "givenNames": "LA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LowcockLA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "100"
+        ],
+        "fpage": [
+          "83"
+        ],
+        "lpage": [
+          "92"
+        ]
+      },
+      "originalCitationText": "LichtLELowcockLAGenome size and metabolic-rate in salamandersComp. Biochem. Phys. B1991100839210.1016/0305-0491(91)90089-V",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/0305-0491(91)90089-V"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR53",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR54",
+      "position": 53,
+      "title": "Sirenids - family of polyploid urodeles",
+      "source": "Experientia",
+      "year": "1974",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Morescalchi",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MorescalchiA"
+            },
+            {
+              "surname": "Olmo",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OlmoE"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "491"
+        ],
+        "lpage": [
+          "492"
+        ]
+      },
+      "originalCitationText": "MorescalchiAOlmoESirenids - family of polyploid urodelesExperientia19743049149210.1007/BF019263104857644",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/BF01926310"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "4857644"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR54",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR55",
+      "position": 54,
+      "title": "Determination of cellular DNA content of Iberian salamanders by flow cytometry",
+      "source": "Amphibia-Reptilia",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lizana",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LizanaM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "fpage": [
+          "411"
+        ],
+        "lpage": [
+          "418"
+        ]
+      },
+      "originalCitationText": "LizanaMDetermination of cellular DNA content of Iberian salamanders by flow cytometryAmphibia-Reptilia20002141141810.1163/156853800300059304",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1163/156853800300059304"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR55",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR56",
+      "position": 55,
+      "title": "Mathematics vs. evolution: mathematical evolutionary theory",
+      "source": "Science",
+      "year": "1989",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Felsenstein",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FelsensteinJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "246"
+        ],
+        "fpage": [
+          "941"
+        ],
+        "lpage": [
+          "942"
+        ]
+      },
+      "originalCitationText": "FelsensteinJMathematics vs. evolution: mathematical evolutionary theoryScience198924694194210.1126/science.246.4932.94117812579",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.246.4932.941"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17812579"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR56",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR57",
+      "position": 56,
+      "title": "MUSCLE: multiple sequence alignment with high accuracy and high throughput",
+      "source": "Nucleic Acids Res.",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Edgar",
+              "givenNames": "RC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EdgarRC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "fpage": [
+          "1792"
+        ],
+        "lpage": [
+          "1797"
+        ]
+      },
+      "originalCitationText": "EdgarRCMUSCLE: multiple sequence alignment with high accuracy and high throughputNucleic Acids Res.2004321792179710.1093/nar/gkh34015034147PMC390337",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkh340"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15034147"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC390337"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR57",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR58",
+      "position": 57,
+      "title": "Approximate likelihood-ratio test for branches: a fast, accurate, and powerful alternative",
+      "source": "Syst. Biol.",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Anisimova",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AnisimovaM"
+            },
+            {
+              "surname": "Gascuel",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GascuelO"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "55"
+        ],
+        "fpage": [
+          "539"
+        ],
+        "lpage": [
+          "552"
+        ]
+      },
+      "originalCitationText": "AnisimovaMGascuelOApproximate likelihood-ratio test for branches: a fast, accurate, and powerful alternativeSyst. Biol.20065553955210.1080/1063515060075545316785212",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1080/10635150600755453"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16785212"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR58",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR59",
+      "position": 58,
+      "title": "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood",
+      "source": "Syst. Biol.",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Guindon",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuindonS"
+            },
+            {
+              "surname": "Gascuel",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GascuelO"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "52"
+        ],
+        "fpage": [
+          "696"
+        ],
+        "lpage": [
+          "704"
+        ]
+      },
+      "originalCitationText": "GuindonSGascuelOA simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihoodSyst. Biol.20035269670410.1080/1063515039023552014530136",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1080/10635150390235520"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "14530136"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR59",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR60",
+      "position": 59,
+      "title": "Husbandry of Spanish ribbed newts (Pleurodeles waltl)",
+      "source": "Methods Mol. Biol.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Joven",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JovenA"
+            },
+            {
+              "surname": "Kirkham",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KirkhamM"
+            },
+            {
+              "surname": "Simon",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimonA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "1290"
+        ],
+        "fpage": [
+          "47"
+        ],
+        "lpage": [
+          "70"
+        ]
+      },
+      "originalCitationText": "JovenAKirkhamMSimonAHusbandry of Spanish ribbed newts (Pleurodeles waltl)Methods Mol. Biol.20151290477010.1007/978-1-4939-2495-0_425740476",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/978-1-4939-2495-0_4"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25740476"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR60",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR61",
+      "position": 60,
+      "title": "Gene manipulation for regenerative studies using the Iberian ribbed newt, Pleurodeles waltl",
+      "source": "Methods Mol. Biol.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hayashi",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HayashiT"
+            },
+            {
+              "surname": "Takeuchi",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TakeuchiT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "1290"
+        ],
+        "fpage": [
+          "297"
+        ],
+        "lpage": [
+          "305"
+        ]
+      },
+      "originalCitationText": "HayashiTTakeuchiTGene manipulation for regenerative studies using the Iberian ribbed newt, Pleurodeles waltlMethods Mol. Biol.2015129029730510.1007/978-1-4939-2495-0_2325740495",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/978-1-4939-2495-0_23"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25740495"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR61",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR62",
+      "position": 61,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Monsoro-Burq, A. H. A rapid protocol for whole-mount in situ hybridization on Xenopus embryos. CSH Prot. 2007, pdbprot4809, 10.1101/pdb.prot4809 (2007).10.1101/pdb.prot480921357147",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1101/pdb.prot4809"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21357147"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR62",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR63",
+      "position": 62,
+      "title": "Progenitor cell dynamics in the Newt Telencephalon during homeostasis and neuronal regeneration",
+      "source": "Stem cell reports",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kirkham",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KirkhamM"
+            },
+            {
+              "surname": "Hameed",
+              "givenNames": "LS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HameedLS"
+            },
+            {
+              "surname": "Berg",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BergDA"
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangH"
+            },
+            {
+              "surname": "Simon",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimonA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "507"
+        ],
+        "lpage": [
+          "519"
+        ]
+      },
+      "originalCitationText": "KirkhamMHameedLSBergDAWangHSimonAProgenitor cell dynamics in the Newt Telencephalon during homeostasis and neuronal regenerationStem cell reports2014250751910.1016/j.stemcr.2014.01.01824749074PMC3986684",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.stemcr.2014.01.018"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24749074"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3986684"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR63",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR64",
+      "position": 63,
+      "title": "Turning terminally differentiated skeletal muscle cells into regenerative progenitors",
+      "source": "Nat. Commun.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wang",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangH"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "7916"
+        ]
+      },
+      "originalCitationText": "WangHTurning terminally differentiated skeletal muscle cells into regenerative progenitorsNat. Commun.20156791610.1038/ncomms891626243583PMC4765497",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/ncomms8916"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26243583"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4765497"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR64",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR65",
+      "position": 64,
+      "title": "RNA-sequence data normalization through in silico prediction of reference genes: the bacterial response to DNA damage as case study",
+      "source": "BioData Min.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Berghoff",
+              "givenNames": "BA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BerghoffBA"
+            },
+            {
+              "surname": "Karlsson",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KarlssonT"
+            },
+            {
+              "surname": "Källman",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KällmanT"
+            },
+            {
+              "surname": "Wagner",
+              "givenNames": "EGH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WagnerEGH"
+            },
+            {
+              "surname": "Grabherr",
+              "givenNames": "MG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GrabherrMG"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "30"
+        ]
+      },
+      "originalCitationText": "BerghoffBAKarlssonTKällmanTWagnerEGHGrabherrMGRNA-sequence data normalization through in silico prediction of reference genes: the bacterial response to DNA damage as case studyBioData Min.2017103010.1186/s13040-017-0150-828878825PMC5584328",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13040-017-0150-8"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28878825"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5584328"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR65",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR66",
+      "position": 65,
+      "title": "TimeTree: a resource for timelines, timetrees, and divergence times",
+      "source": "Mol. Biol. Evol.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kumar",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KumarS"
+            },
+            {
+              "surname": "Stecher",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StecherG"
+            },
+            {
+              "surname": "Suleski",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SuleskiM"
+            },
+            {
+              "surname": "Hedges",
+              "givenNames": "SB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HedgesSB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "fpage": [
+          "1812"
+        ],
+        "lpage": [
+          "1819"
+        ]
+      },
+      "originalCitationText": "KumarSStecherGSuleskiMHedgesSBTimeTree: a resource for timelines, timetrees, and divergence timesMol. Biol. Evol.2017341812181910.1093/molbev/msx11628387841",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/molbev/msx116"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28387841"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR66",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR67",
+      "position": 66,
+      "title": "Retinal stem/progenitor cells in the ciliary marginal zone complete retinal regeneration: a study of retinal regeneration in a novel animal model",
+      "source": "Dev. Neurobiol.",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Miyake",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MiyakeA"
+            },
+            {
+              "surname": "Araki",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ArakiM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "74"
+        ],
+        "fpage": [
+          "739"
+        ],
+        "lpage": [
+          "756"
+        ]
+      },
+      "originalCitationText": "MiyakeAArakiMRetinal stem/progenitor cells in the ciliary marginal zone complete retinal regeneration: a study of retinal regeneration in a novel animal modelDev. Neurobiol.20147473975610.1002/dneu.2216924488715",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/dneu.22169"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24488715"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR67",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR68",
+      "position": 67,
+      "title": "Neural retinal regeneration in the anuran amphibian Xenopus laevis post-metamorphosis: transdifferentiation of retinal pigmented epithelium regenerates the neural retina",
+      "source": "Dev. Biol.",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yoshii",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YoshiiC"
+            },
+            {
+              "surname": "Ueda",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "UedaY"
+            },
+            {
+              "surname": "Okamoto",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OkamotoM"
+            },
+            {
+              "surname": "Araki",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ArakiM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "303"
+        ],
+        "fpage": [
+          "45"
+        ],
+        "lpage": [
+          "56"
+        ]
+      },
+      "originalCitationText": "YoshiiCUedaYOkamotoMArakiMNeural retinal regeneration in the anuran amphibian Xenopus laevis post-metamorphosis: transdifferentiation of retinal pigmented epithelium regenerates the neural retinaDev. Biol.2007303455610.1016/j.ydbio.2006.11.02417184765",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ydbio.2006.11.024"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17184765"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR68",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR69",
+      "position": 68,
+      "title": "Lizard tail skeletal regeneration combines aspects of fracture healing and blastema-based regeneration",
+      "source": "Development",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lozito",
+              "givenNames": "TP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LozitoTP"
+            },
+            {
+              "surname": "Tuan",
+              "givenNames": "RS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TuanRS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "143"
+        ],
+        "fpage": [
+          "2946"
+        ],
+        "lpage": [
+          "2957"
+        ]
+      },
+      "originalCitationText": "LozitoTPTuanRSLizard tail skeletal regeneration combines aspects of fracture healing and blastema-based regenerationDevelopment20161432946295710.1242/dev.12958527387871PMC5004880",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1242/dev.129585"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27387871"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5004880"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR69",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR70",
+      "position": 69,
+      "title": "Efficient regeneration by activation of neurogenesis in homeostatically quiescent regions of the adult vertebrate brain",
+      "source": "Development",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Berg",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BergDA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "137"
+        ],
+        "fpage": [
+          "4127"
+        ],
+        "lpage": [
+          "4134"
+        ]
+      },
+      "originalCitationText": "BergDAEfficient regeneration by activation of neurogenesis in homeostatically quiescent regions of the adult vertebrate brainDevelopment20101374127413410.1242/dev.05554121068061",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1242/dev.055541"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21068061"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR70",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR71",
+      "position": 70,
+      "title": "Coexistence of Y, W, and Z sex chromosomes in Xenopus tropicalis",
+      "source": "Proc. Natl Acad. Sci. USA",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Roco",
+              "givenNames": "Aacute",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RocoAacute"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "112"
+        ],
+        "fpage": [
+          "E4752"
+        ],
+        "lpage": [
+          "E4761"
+        ]
+      },
+      "originalCitationText": "RocoAacuteCoexistence of Y, W, and Z sex chromosomes in Xenopus tropicalisProc. Natl Acad. Sci. USA2015112E4752E476110.1073/pnas.150529111226216983PMC4553762",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1505291112"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26216983"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4553762"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR71",
+        "position": 70,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR72",
+      "position": 71,
+      "title": "Genome evolution in the allotetraploid frog Xenopus laevis",
+      "source": "Nature",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Session",
+              "givenNames": "AM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SessionAM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "538"
+        ],
+        "fpage": [
+          "336"
+        ],
+        "lpage": [
+          "343"
+        ]
+      },
+      "originalCitationText": "SessionAMGenome evolution in the allotetraploid frog Xenopus laevisNature201653833634310.1038/nature1984027762356PMC5313049",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature19840"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27762356"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5313049"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR72",
+        "position": 71,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR73",
+      "position": 72,
+      "title": "Evolutionary cytogenetics in salamanders",
+      "source": "Chromosome Res.",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sessions",
+              "givenNames": "SK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SessionsSK"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "fpage": [
+          "183"
+        ],
+        "lpage": [
+          "201"
+        ]
+      },
+      "originalCitationText": "SessionsSKEvolutionary cytogenetics in salamandersChromosome Res.20081618320110.1007/s10577-007-1205-318293112",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10577-007-1205-3"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18293112"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR73",
+        "position": 72,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR74",
+      "position": 73,
+      "title": "Zebrafish sex: a complicated affair",
+      "source": "Brief Funct. Genomics",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Liew",
+              "givenNames": "WC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiewWC"
+            },
+            {
+              "surname": "Orbán",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OrbánL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "172"
+        ],
+        "lpage": [
+          "187"
+        ]
+      },
+      "originalCitationText": "LiewWCOrbánLZebrafish sex: a complicated affairBrief Funct. Genomics20141317218710.1093/bfgp/elt04124148942PMC3954038",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bfgp/elt041"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24148942"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3954038"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5741667/article.xml",
+        "articleSha256": "bc6c6c7fe4b3849bfad9afa7262b2ad37fbde466e2d24b27d592b9114fb284ea",
+        "referenceId": "CR74",
+        "position": 73,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Nature Communications"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Nat Commun"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Nat Commun"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "2873"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ncomms"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101528555"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2041-1723"
+      }
+    ],
+    "publisherNames": [
+      "Nature Publishing Group"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "8"
+    ],
+    "elocation-id": [
+      "2286"
+    ]
+  }
+}

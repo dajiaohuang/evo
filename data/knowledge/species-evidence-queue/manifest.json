@@ -10,13 +10,14 @@
     "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
     "hierarchyNodeFiles": 256,
     "hierarchyNodeCount": 2429092,
-    "profilePath": "data/knowledge/catalogue-profiles.json",
-    "profileSha256": "eaecd564bb49c4772f3417b7199c38d93ebd60c8c4e45d684fc2654ef1bf8c82",
-    "profileRecordCount": 702,
+    "profilePath": "data/knowledge/catalogue-profiles.json.gz",
+    "profileSha256": "d9e07eaa94365f0d31d1c8c5e3656167dde08c31efa19f7eace7303492a3df2c",
+    "profileDecodedSha256": "dd8f912eb748316aa27e4824965d20fb8726e73b5d70ef4f428a856883b555fc",
+    "profileRecordCount": 10379,
     "dossierBasePath": "data/knowledge/catalogue-dossiers.json",
     "dossierBaseSha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5",
     "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
-    "dossierIndexSha256": "671feb22ea6c6824b98830a9e445962985f4ff24cc429da14c9eb40a240802ea",
+    "dossierIndexSha256": "b960be26801686c139d63a5e05fe75baeac8eb7e1eb1649fe7bf7b6de824675d",
     "dossierShards": [
       {
         "path": "data/knowledge/catalogue-dossiers-actinopterygii-batch-2026-09-24.jsonl.br",
@@ -39,8 +40,8 @@
       {
         "path": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
         "recordCount": 5,
-        "compressedSha256": "331192026db70dcbf077ff1be4a26ebe6b1112aff21c609b4952652a5639efe5",
-        "decodedSha256": "62b8fc750584e1caf663e129de25d76622b8e82c43a089664d4344172e72803f"
+        "compressedSha256": "7a504cca567715780bba8de79b876954c966b0fdf378d6f3e3bee873755196a5",
+        "decodedSha256": "13c664c47cea24f498df0eeaa71cb0d601ce2e7939eefdaa659aa526f1345d37"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-aves-batch-1.jsonl.br",
@@ -171,8 +172,8 @@
       {
         "path": "data/knowledge/catalogue-dossiers-multi-clade-evidence-batch30-2026-09-25.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "067b885d01b6fa81bcaf88d6c2f447a8f8d858a5805be9a945641ac5ced1e9b1",
-        "decodedSha256": "3f7d0eb50957cca651dea7c7da200a5939907c0b61ea34bbf801c49066e2c76c"
+        "compressedSha256": "2d184fd21a880b43d178cf8937c5941e25c57e93740d3e2e0f6a9c0db708c713",
+        "decodedSha256": "a126897a382d526cd5871f5abd9154342224add47d2f89d8d042f4a67a5b2319"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-oomycota-saprolegnia-parasitica-2026-09-24.jsonl.br",
@@ -315,8 +316,8 @@
       {
         "path": "data/knowledge/catalogue-dossiers-primates-macaca-radiata-core-2026-09-26.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "bf6d330de9eaf3999019e976b25eed56f6813047de5c251b3a9c6d77b3930252",
-        "decodedSha256": "4486d4e3fd2ec0fefb584887ab885546590d863b5157ca35adba3178dff03dfa"
+        "compressedSha256": "390f8b2ac9692814ef21d69dff8e3577570ed8798daa04a0fd105602a56a6119",
+        "decodedSha256": "6833ec545d596f9f1a33a456236090e2da2f02b0a7592d43b65d3bf4688f5b7b"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-mandrillus-leucophaeus-batch17-2026-09-24.jsonl.br",
@@ -507,8 +508,8 @@
       {
         "path": "data/knowledge/catalogue-dossiers-cross-clade-species-evidence-2026-09-28.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "cafb752d28653c5b76096884075ee6a9909e1b3dcf876e26635d4e1c80e0343c",
-        "decodedSha256": "75388212926fd036536ed52f0b127705ef7c3126efb0c5998502c78be74f7039"
+        "compressedSha256": "d4b50798f275d02c7bdadfb75a052a20c77a1cbdee3543903cf1031b0377a770",
+        "decodedSha256": "c514bfe62befaa671b5f4db6568be2adc9324179518669fda44c14d82c4d5a2d"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-cross-clade-priority-species-evidence-2026-09-28.jsonl.br",
@@ -705,12 +706,12 @@
   "counts": {
     "acceptedSpecies": 2183133,
     "sourceOriginalAssociatedSpecies": 80838,
-    "introductorySummarySpecies": 598,
+    "introductorySummarySpecies": 9525,
     "dossierSpecies": 36354,
     "completeDossierSpecies": 0,
     "externallyReviewedSpecies": 0,
-    "speciesWithAnyEvidenceStage": 81512,
-    "speciesWithoutAnyEvidenceStage": 2101621,
+    "speciesWithAnyEvidenceStage": 90430,
+    "speciesWithoutAnyEvidenceStage": 2092703,
     "speciesWithoutDossier": 2146779,
     "sourceOriginalCollectionSpecies": {
       "brazilFloraDescriptions": 28896,
@@ -729,10 +730,14 @@
       "turkeyDescriptions": 262
     },
     "profileRanks": {
-      "family": 10,
-      "genus": 83,
-      "order": 11,
-      "species": 598
+      "class": 1,
+      "family": 90,
+      "genus": 684,
+      "order": 14,
+      "species": 9525,
+      "subfamily": 61,
+      "suborder": 1,
+      "superfamily": 3
     },
     "dossierStatuses": {
       "missing": 2146779,
@@ -775,10 +780,10 @@
       },
       "evolution": {
         "supported": 0,
-        "partially-supported": 66,
+        "partially-supported": 67,
         "searched-no-evidence": 0,
         "conflicted": 0,
-        "not-assessed": 2183067
+        "not-assessed": 2183066
       },
       "distribution": {
         "supported": 0,
@@ -810,10 +815,10 @@
       "prefix": "0",
       "path": "data/knowledge/species-evidence-queue/0.jsonl.br",
       "recordCount": 135942,
-      "decodedBytes": 97623213,
-      "decodedSha256": "a367d335be8e0df882056bd4b79ae8e1f2162e4b11845a039d920297c4a234a5",
-      "compressedBytes": 4661935,
-      "compressedSha256": "35653fa54278a357a109d18272048ec87caf9aa4de6336d0513c1d2cdd66da7d",
+      "decodedBytes": 97674927,
+      "decodedSha256": "e097540e66d6e2dad6bb2070fd513c5094d750186eccc34bb3a4b587aeb63531",
+      "compressedBytes": 4669589,
+      "compressedSha256": "5aeffee8c77ac730a9d53d03b6d9c3b6840784421e9e818e3c6678084cf239cd",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -821,10 +826,10 @@
       "prefix": "1",
       "path": "data/knowledge/species-evidence-queue/1.jsonl.br",
       "recordCount": 136976,
-      "decodedBytes": 98351678,
-      "decodedSha256": "769e388d9a1326c4fc084661f65a4e99f4e36368f5e9d2746ff7f8937089fe4e",
-      "compressedBytes": 4688725,
-      "compressedSha256": "d4c25d142ea33f7a0146d5ddfdc5f9d1aa434668f7b978c2f185c1818a34bcac",
+      "decodedBytes": 98405742,
+      "decodedSha256": "45f312a6adc1096d11f929c36d2342ef08981048738dedcf1090ccf7796eec84",
+      "compressedBytes": 4696757,
+      "compressedSha256": "9f13fe781723ff486dfa14c53b16719bda6a0407bf3ef0de846b2353bea654b9",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -832,10 +837,10 @@
       "prefix": "2",
       "path": "data/knowledge/species-evidence-queue/2.jsonl.br",
       "recordCount": 136881,
-      "decodedBytes": 98300068,
-      "decodedSha256": "3a54a3957bb6c3ab0a98e494b9693c264397f995aa5003aef7ce253edb15b206",
-      "compressedBytes": 4687875,
-      "compressedSha256": "ca65a9f2bb46c9032ef4a1921e44fe559a7472a5666ac20ac68380cc02dab53e",
+      "decodedBytes": 98352209,
+      "decodedSha256": "2c5c4a5b4893b47826e2f1cda97ce7c09e05ab1ad7973bffb289cd45c199974b",
+      "compressedBytes": 4695047,
+      "compressedSha256": "ee3674eac5088ed7a6da03ba85e694c763b8de4d1553583fa75bf08dcb195812",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -843,10 +848,10 @@
       "prefix": "3",
       "path": "data/knowledge/species-evidence-queue/3.jsonl.br",
       "recordCount": 136169,
-      "decodedBytes": 97796461,
-      "decodedSha256": "0d23c479933eb39028b164a4e1ac0c9b93d36a95ca97a1dbcba9348e0ba2812e",
-      "compressedBytes": 4667467,
-      "compressedSha256": "e926438cb73cd914144388332dc07848509e5ee93214852a3e28b2aacf8f3a1f",
+      "decodedBytes": 97848259,
+      "decodedSha256": "326e3f535ff574992eba2d2f783f177b71fdc5228c0028682aab6a5985bb358b",
+      "compressedBytes": 4675190,
+      "compressedSha256": "ca3fe8f020783c3027bf315981b47be8ad20dd733380070636045aee9f7d7bd2",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -854,10 +859,10 @@
       "prefix": "4",
       "path": "data/knowledge/species-evidence-queue/4.jsonl.br",
       "recordCount": 136426,
-      "decodedBytes": 97966762,
-      "decodedSha256": "2ca6f880024ad0589d596bce7fd52f17bf158710b49776d735b6d8f283486c98",
-      "compressedBytes": 4669934,
-      "compressedSha256": "5b104590e591cb526a445d3d4ac8e984b8eff7c2ecf91838a821c62f59613cbd",
+      "decodedBytes": 98022404,
+      "decodedSha256": "364b47803372c756ebb267d8e8af08edd41fa3cd572353d0cb01a6ee56fb10d9",
+      "compressedBytes": 4677818,
+      "compressedSha256": "f023b80d60618d2d75f1d2bbd557828e73afdfbabe98401a8a9c9dc93c695780",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -865,10 +870,10 @@
       "prefix": "5",
       "path": "data/knowledge/species-evidence-queue/5.jsonl.br",
       "recordCount": 136354,
-      "decodedBytes": 97913076,
-      "decodedSha256": "2bc13bed072515b5dab27519947fc74d137c5d5611eebb15f4b49cd806494891",
-      "compressedBytes": 4669612,
-      "compressedSha256": "7049fbe7c7c6a71d545d8a40f769a9eec3e19dfe0a90eac0dcfb13e71399c4e1",
+      "decodedBytes": 97966455,
+      "decodedSha256": "42342cd1248c840cb41ce876cacdc79de9ea17f054735439921dc426cca5038e",
+      "compressedBytes": 4677098,
+      "compressedSha256": "be03a0c856cb225fcde472846e24a3c3be3bcd8c3a3956f09d587ef2943e6894",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -876,10 +881,10 @@
       "prefix": "6",
       "path": "data/knowledge/species-evidence-queue/6.jsonl.br",
       "recordCount": 136391,
-      "decodedBytes": 97952340,
-      "decodedSha256": "e56730e4432a474207869bfea7996794f08bee31d2266eb3416d42e8090c6a34",
-      "compressedBytes": 4675292,
-      "compressedSha256": "81eb009c5c4bababc54f8302a6ef9a7964f2345c16bade18cc334ea224c7e8eb",
+      "decodedBytes": 98008627,
+      "decodedSha256": "470417550c8ab2806d74c1a277d99c001921728db620be1a7878c3cc8c24c380",
+      "compressedBytes": 4683634,
+      "compressedSha256": "1218564ba2029cba2bbfb2213a0f6a992960c969e923b12f20b5d171c3406147",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -887,10 +892,10 @@
       "prefix": "7",
       "path": "data/knowledge/species-evidence-queue/7.jsonl.br",
       "recordCount": 136584,
-      "decodedBytes": 98084475,
-      "decodedSha256": "bb4524c1c25ad41ab18209040b419f98075852491ae4c34ca1b759f022c4c311",
-      "compressedBytes": 4678963,
-      "compressedSha256": "abce0c8fe0d72e85d8c7598dda833dad8e3da565cdd2eb16fea87004607fa696",
+      "decodedBytes": 98139027,
+      "decodedSha256": "c62c6e2912fabc04cc4968ceaf1cb8cde509a0710cc8c62f449a43d6c7eada5a",
+      "compressedBytes": 4686573,
+      "compressedSha256": "d23d6204f887f3395dc41fdda3a159fc0f9b6af1f70728ce44c31c53335eec9a",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -898,10 +903,10 @@
       "prefix": "8",
       "path": "data/knowledge/species-evidence-queue/8.jsonl.br",
       "recordCount": 136479,
-      "decodedBytes": 98005559,
-      "decodedSha256": "8f205c2a61dd5cc91bd85bf2f0f64d232d8f998563b0e82396358d167f4a0d63",
-      "compressedBytes": 4672376,
-      "compressedSha256": "9c684fca69eb4c6e8e9c70e4d974d51d0b6811da6aa2e909d70bd50c094d7e1d",
+      "decodedBytes": 98062464,
+      "decodedSha256": "45a4f2eda734fa86d450243f3303d450c5e4d88fe2a53e75321265cfe553dfa1",
+      "compressedBytes": 4510151,
+      "compressedSha256": "05c69cf611c4230b5698c0c52beec8fc12b0e3abdee4079b4ed519b4db2c342b",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -909,10 +914,10 @@
       "prefix": "9",
       "path": "data/knowledge/species-evidence-queue/9.jsonl.br",
       "recordCount": 136401,
-      "decodedBytes": 97951261,
-      "decodedSha256": "c19686ce80d83cb9b54bd6bd94e4fe7090aab23047e339e9025dc2e356f0b85e",
-      "compressedBytes": 4670784,
-      "compressedSha256": "73122921c5ac92634407ad1908564594968cbb1d0e52f54c197c5d4458bcff58",
+      "decodedBytes": 98007252,
+      "decodedSha256": "94a3d951ad694703e660152a7f6a42626111feeaf9e6bdb6a252e64ffee4d490",
+      "compressedBytes": 4678808,
+      "compressedSha256": "33dd5d2610c309abfda2317a9d6b696ca211f856d71e7029a6ddab0c382ff0b0",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -920,10 +925,10 @@
       "prefix": "a",
       "path": "data/knowledge/species-evidence-queue/a.jsonl.br",
       "recordCount": 136281,
-      "decodedBytes": 97865199,
-      "decodedSha256": "c5ffbc3860f03bd6d4ed2f551e5f6cb91de2797504b4e1b7b378ad3ca6e780ac",
-      "compressedBytes": 4667278,
-      "compressedSha256": "9548a64b2cf13466b1ca237733a6a43179c1268095e53511e3204b28b04c8d1f",
+      "decodedBytes": 97920357,
+      "decodedSha256": "b033e35a394ea39a69815e30747221a6f07faf75c1774e351ec018f69aa1708c",
+      "compressedBytes": 4675075,
+      "compressedSha256": "4a4342257e2495c3324bcf3f35f78d97cbf1c5a83c3b4134e55af10ae6333472",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -931,10 +936,10 @@
       "prefix": "b",
       "path": "data/knowledge/species-evidence-queue/b.jsonl.br",
       "recordCount": 135951,
-      "decodedBytes": 97635854,
-      "decodedSha256": "176bceb5ecbf970ef8146b4db184ef5da1bf91b0456fd206d50f698b40c8d1c2",
-      "compressedBytes": 4656746,
-      "compressedSha256": "06aefafe0c16da4e3c653f093650dc510d75bde03773eeedef5235f6d12fd3d0",
+      "decodedBytes": 97688084,
+      "decodedSha256": "70204f9d3da9aa5e539bac9fdf73682c488278fd68e0c03727cd9a838830286b",
+      "compressedBytes": 4664253,
+      "compressedSha256": "cec4360235441bdd877a8e476ed94dfed950641c624446aab2b0cd9c15c925e2",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -942,10 +947,10 @@
       "prefix": "c",
       "path": "data/knowledge/species-evidence-queue/c.jsonl.br",
       "recordCount": 136532,
-      "decodedBytes": 98049841,
-      "decodedSha256": "f11ac868c073ba95edb1400310aed265746f41ae10ac502caaa1a273718c358a",
-      "compressedBytes": 4674493,
-      "compressedSha256": "f617302ad2f3b88f1767e65914f991a2ad8977008e1e792ada39144b166ce120",
+      "decodedBytes": 98106114,
+      "decodedSha256": "cf88b2586bebadd8e1c61ea90079aadf93165c6bba054d0c2e89b4b20df6785f",
+      "compressedBytes": 4683072,
+      "compressedSha256": "1764e566a888d6ef3e741e654eb069478cd3be51b84bb2ce1bcddf4a16291d6e",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -953,10 +958,10 @@
       "prefix": "d",
       "path": "data/knowledge/species-evidence-queue/d.jsonl.br",
       "recordCount": 136588,
-      "decodedBytes": 98089458,
-      "decodedSha256": "73c9fca491f6c709c41cf4b66514d9c22f9493ebfddd432e74bd0f74dc38cbf4",
-      "compressedBytes": 4677385,
-      "compressedSha256": "f6c792b7aeead6ee1824524f36c1bbdf9b9dbe40b078b9f0023f4f4fc235e5da",
+      "decodedBytes": 98151333,
+      "decodedSha256": "0025e20c4b7c73127a52ad4815b18408c29278de05a2f21fed112e61148880fa",
+      "compressedBytes": 4686260,
+      "compressedSha256": "f74fe6b0e17923d219c086db373797cf19c04e991bc41ea599badf852ed86b9a",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -964,10 +969,10 @@
       "prefix": "e",
       "path": "data/knowledge/species-evidence-queue/e.jsonl.br",
       "recordCount": 136267,
-      "decodedBytes": 97857001,
-      "decodedSha256": "ae963463a4f8b37bc49df40415f0c9036dbd30d9d11f19573e4e30754c094a95",
-      "compressedBytes": 4665404,
-      "compressedSha256": "e54afe479d48eb5272fc3ca9bb6c7974575747bb1ca946674e1c4a11c691ca67",
+      "decodedBytes": 97910992,
+      "decodedSha256": "d60aa593c3014380baaed7c1acbe1152368d648c6aa55b9a2fa35b4d8962aa54",
+      "compressedBytes": 4673639,
+      "compressedSha256": "f90a1df36e7beee019fdfc3f6c901b135c77df2732ecdd3f0d1221c64dcfb31c",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -975,10 +980,10 @@
       "prefix": "f",
       "path": "data/knowledge/species-evidence-queue/f.jsonl.br",
       "recordCount": 136911,
-      "decodedBytes": 98319352,
-      "decodedSha256": "f0474b6069fa854278df3084379530061120f56d777ef61c61faafd4d0a55656",
-      "compressedBytes": 4686704,
-      "compressedSha256": "0efda10229f7cf8f1ff8d8b24e05c582434a1063ffbd16fc2bc47d125ee64245",
+      "decodedBytes": 98380441,
+      "decodedSha256": "a167c4cbedebc47d6c7694d15735774aa7cd895de4ac693ae52e0595794f3c5e",
+      "compressedBytes": 4695411,
+      "compressedSha256": "5a475ee7cc0b564d23831f72c672762730eb80202db3505b7a5ba0f181c647fb",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     }

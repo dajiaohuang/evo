@@ -1,0 +1,1808 @@
+{
+  "pmcid": "PMC8700054",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+  "sha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+  "articleType": "research-article",
+  "title": "Exploiting deep neural network and long short-term memory method-ologies in bioacoustic classification of LPC-based features",
+  "authors": [
+    {
+      "name": "Cihun-Siyong Alex Gong",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Cihun-Siyong Alex",
+        "surname": "Gong",
+        "suffix": null
+      },
+      "originalName": "GongCihun-Siyong Alex",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "authenticated": "true",
+          "contrib-id-type": "orcid",
+          "value": "https://orcid.org/0000-0001-9414-3798"
+        }
+      ]
+    },
+    {
+      "name": "Chih-Hui Simon Su",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Chih-Hui Simon",
+        "surname": "Su",
+        "suffix": null
+      },
+      "originalName": "SuChih-Hui Simon",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Kuo-Wei Chao",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Kuo-Wei",
+        "surname": "Chao",
+        "suffix": null
+      },
+      "originalName": "ChaoKuo-Wei",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Yi-Chu Chao",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yi-Chu",
+        "surname": "Chao",
+        "suffix": null
+      },
+      "originalName": "ChaoYi-Chu",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Chin-Kai Su",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Chin-Kai",
+        "surname": "Su",
+        "suffix": null
+      },
+      "originalName": "SuChin-Kai",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Wei-Hang Chiu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Wei-Hang",
+        "surname": "Chiu",
+        "suffix": null
+      },
+      "originalName": "ChiuWei-Hang",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC8700054"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC8700054.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "8700054"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "8700054"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "34941869"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1371/journal.pone.0259140"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "PONE-D-21-08235"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2021",
+      "month": "12",
+      "day": "23"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2021",
+      "month": null,
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [],
+  "citedReferences": [
+    {
+      "id": "pone.0259140.ref001",
+      "position": 0,
+      "title": "Applications of bioacoustics in animal ecology",
+      "source": "Ecol. Complex",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "43"
+        ]
+      },
+      "originalCitationText": "PenarW., MagieraA., KlocekC.\nApplications of bioacoustics in animal ecology. Ecol. Complex. 2020, 43.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref001",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref002",
+      "position": 1,
+      "title": "Acoustic classification of frog within-species and species-specific calls",
+      "source": "Appl. Acoust",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "131"
+        ],
+        "fpage": [
+          "79"
+        ],
+        "lpage": [
+          "86"
+        ]
+      },
+      "originalCitationText": "XieJ., IndraswariK., SchwarzkopfL., TowseyM., ZhangJ., RoeP.\nAcoustic classification of frog within-species and species-specific calls. Appl. Acoust. 2018, 131, 79–86.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref002",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref003",
+      "position": 2,
+      "title": "Active learning for bird sound classification via a kernel-based extreme learning machine",
+      "source": "J. Acoust. Soc. Am",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "142"
+        ],
+        "fpage": [
+          "1796"
+        ],
+        "lpage": [
+          "1804"
+        ]
+      },
+      "originalCitationText": "QianK., ZhangZ., BairdA., SchullerB.\nActive learning for bird sound classification via a kernel-based extreme learning machine. J. Acoust. Soc. Am. 2017, 142, 1796–1804. doi: 10.1121/1.5004570\n29092546",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1121/1.5004570"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29092546"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref003",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref004",
+      "position": 3,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Chao K. W., Chao Y. C., Su C. K., Hu N. Z., Chiu W. H. Using machine learning method to identify for frog classification. IEEE Eurasia Conf. IOT, Comm. Eng., Yunlin, Taiwan, 3–6 Oct. 2019, IEEE.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref004",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref005",
+      "position": 4,
+      "title": "An expert system for the diagnosis of faults in rotating machinery using adaptive order-tracking algorithm",
+      "source": "Expert Syst. Appl",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "36"
+        ],
+        "fpage": [
+          "5424"
+        ],
+        "lpage": [
+          "5431"
+        ]
+      },
+      "originalCitationText": "WuJ. D., BaiM. R., SuF. C., HuangC. W.\nAn expert system for the diagnosis of faults in rotating machinery using adaptive order-tracking algorithm. Expert Syst. Appl. 2009, 36, 5424–5431.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref005",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref006",
+      "position": 5,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Li J., Qu W. Aero-engine Sensor Fault Diagnosis Based on Convolutional Neural Network. 37th Chi. Ctrl. Conf., Wuhan, China, 25–27 July 2018, IEEE.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref006",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref007",
+      "position": 6,
+      "title": "Non-sequential automatic classification of anuran sounds for the estimation of climate-change indicators",
+      "source": "Expert Syst. Appl",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "95"
+        ],
+        "fpage": [
+          "248"
+        ],
+        "lpage": [
+          "260"
+        ]
+      },
+      "originalCitationText": "LuqueA., Romero-LemosJ., CarrascoA., BarbanchoJ.\nNon-sequential automatic classification of anuran sounds for the estimation of climate-change indicators. Expert Syst. Appl. 2018, 95, 248–260.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref007",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref008",
+      "position": 7,
+      "title": "Deep metric learning for bioacoustic classification: overcoming training data scarcity using dynamic triplet loss",
+      "source": "J. Acoust. Soc. Am",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "146"
+        ],
+        "fpage": [
+          "534"
+        ],
+        "lpage": [
+          "547"
+        ]
+      },
+      "originalCitationText": "ThakurA., ThaparD., RajanP., NigamA.\nDeep metric learning for bioacoustic classification: overcoming training data scarcity using dynamic triplet loss. J. Acoust. Soc. Am. 2019, 146, 534–547. doi: 10.1121/1.5118245\n31370640",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1121/1.5118245"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31370640"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref008",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref009",
+      "position": 8,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Noda Arencibia J. J., Travieso C. M., Sánchez-Rodríguez D., Dutta M. K., Vyas G. Automatic classification of frogs calls based on fusion of features and SVM. Eighth Int. Conf. Contemp. Computing, Noida, India, 20–22 Aug. 2015, IEEE.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref009",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref010",
+      "position": 9,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Strout J., Rogan B., Seyednezhad S. M., Smart K., Bush M., Ribeiro E. Anuran call classification with deep learning. IEEE Int. Conf. Acoust., Speech Signal Process., New Orleans, LA, 5–9 Mar. 2017, IEEE.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref010",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref011",
+      "position": 10,
+      "title": "Investigation of acoustic and visual features for frog call classification",
+      "source": "J. Signal Process. Syst",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "92"
+        ],
+        "fpage": [
+          "23"
+        ],
+        "lpage": [
+          "36"
+        ]
+      },
+      "originalCitationText": "XieJ., TowseyM., ZhangJ., RoeP.\nInvestigation of acoustic and visual features for frog call classification. J. Signal Process. Syst. 2019, 92, 23–36.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref011",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref012",
+      "position": 11,
+      "title": "Acoustic monitoring in terrestrial environments using microphone arrays: applications, technological considerations and prospectus",
+      "source": "J. Appl. Ecol",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "48"
+        ],
+        "fpage": [
+          "758"
+        ],
+        "lpage": [
+          "767"
+        ]
+      },
+      "originalCitationText": "BlumsteinD. T., MennillD. J., CleminsP., GirodL., YaoK., PatricelliG., et al. Acoustic monitoring in terrestrial environments using microphone arrays: applications, technological considerations and prospectus. J. Appl. Ecol. 2011, 48, 758–767.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref012",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref013",
+      "position": 12,
+      "title": "A deep machine learning method for classifying cyclic time series of biological signals using time-growing neural network",
+      "source": "IEEE Trans. Neural Netw. Learn. Syst",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "4102"
+        ],
+        "lpage": [
+          "4115"
+        ]
+      },
+      "originalCitationText": "GharehbaghiA., LindénM.\nA deep machine learning method for classifying cyclic time series of biological signals using time-growing neural network. IEEE Trans. Neural Netw. Learn. Syst. 2017, 29, 4102–4115. doi: 10.1109/TNNLS.2017.2754294\n29035230",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/TNNLS.2017.2754294"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29035230"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref013",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref014",
+      "position": 13,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Narasimhan R., Fern X. Z., Raich R. Simultaneous segmentation and classification of bird song using CNN. IEEE Int. Conf. Acoust., Speech Signal Process., New Orleans, LA, 5–9 Mar. 2017, IEEE.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref014",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref015",
+      "position": 14,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Souza L. S., Gatto B. B., Fukui K. Classification of bioacoustic signals with tangent singular spectrum analysis. IEEE Int. Conf. Acoust., Speech Signal Process. Brighton, UK, 12–17 May 2019, IEEE.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref015",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref016",
+      "position": 15,
+      "title": "Implementation of artificial intelligence for classification of frogs in bioacoustics",
+      "source": "MDPI Symmetry",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ]
+      },
+      "originalCitationText": "ChaoK. W., HuN. Z., ChaoY. C., SuC. K., ChiuW. H.\nImplementation of artificial intelligence for classification of frogs in bioacoustics. MDPI Symmetry, 2019, 11.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref016",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref017",
+      "position": 16,
+      "title": "AI-enabled massive devices multiple access for smart city",
+      "source": "IEEE Internet Things J",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "7623"
+        ],
+        "lpage": [
+          "7634"
+        ]
+      },
+      "originalCitationText": "PengW., GaoW., LiuJ.\nAI-enabled massive devices multiple access for smart city. IEEE Internet Things J. 2019, 6, 7623–7634.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref017",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref018",
+      "position": 17,
+      "title": "Coordination between control layer AI and on-board AI in optical transport networks [Invited]",
+      "source": "J. Opt. Commun. Netw",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "A49"
+        ],
+        "lpage": [
+          "A57"
+        ]
+      },
+      "originalCitationText": "ZhaoY., YanB., LiZ., WangW., WangY., ZhangJ.\nCoordination between control layer AI and on-board AI in optical transport networks [Invited]. J. Opt. Commun. Netw. 2019, 12, A49–A57.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref018",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref019",
+      "position": 18,
+      "title": "Speech enhancement based on teacher-student deep learning using improved speech presence probability for noise-robust speech recognition",
+      "source": "IEEE/ACM Trans. Audio, Speech, and Language Process",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "fpage": [
+          "2080"
+        ],
+        "lpage": [
+          "2091"
+        ]
+      },
+      "originalCitationText": "TuY. H., DuJ., LeeC. H.\nSpeech enhancement based on teacher-student deep learning using improved speech presence probability for noise-robust speech recognition. IEEE/ACM Trans. Audio, Speech, and Language Process. 2019, 27, 2080–2091.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref019",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref020",
+      "position": 19,
+      "title": "Feature trend extraction and adaptive density peaks search for intelligent fault diagnosis of machines",
+      "source": "IEEE Trans. Industr. Inform",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "105"
+        ],
+        "lpage": [
+          "115"
+        ]
+      },
+      "originalCitationText": "WangY., WeiZ., YangJ.\nFeature trend extraction and adaptive density peaks search for intelligent fault diagnosis of machines. IEEE Trans. Industr. Inform. 2018, 15, 105–115.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref020",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref021",
+      "position": 20,
+      "title": null,
+      "source": "Data Mining and Machine Learning in Cybersecurity",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Auerbach Publications"
+        ],
+        "publisher-loc": [
+          "Boston, U.S."
+        ],
+        "edition": [
+          "1st ed"
+        ]
+      },
+      "originalCitationText": "DuaS., DuX.\nData Mining and Machine Learning in Cybersecurity, 1st ed., Auerbach Publications: Boston, U.S., 2011.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref021",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref022",
+      "position": 21,
+      "title": "Applications of machine learning in animal behaviour studies",
+      "source": "Animal Behaviour",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "124"
+        ],
+        "fpage": [
+          "203"
+        ],
+        "lpage": [
+          "220"
+        ]
+      },
+      "originalCitationText": "VallettaJ. J., TorneyC., KingsM., ThorntonA., MaddenJ.\nApplications of machine learning in animal behaviour studies. Animal Behaviour, 2017, 124, 203–220.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref022",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref023",
+      "position": 22,
+      "title": "Multispecies bioacoustic classification using transfer learning of deep convolutional neural networks with pseudo-labeling",
+      "source": "Applied Acoustics",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "166"
+        ]
+      },
+      "originalCitationText": "ZhongM., LeBienJ., Campos-CerqueiraM., DodhiaR., FerresJ. L., VelevJ. P., et al. Multispecies bioacoustic classification using transfer learning of deep convolutional neural networks with pseudo-labeling. Applied Acoustics, 2020, 166.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref023",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref024",
+      "position": 23,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lee K. H., Kim D. H. Design of a convolutional neural network for speech emotion recognition. Int. Conf. Inform. Comm. Tech. Conv., Jeju, Korea (South), 21–23 Oct. 2020, IEEE.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref024",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref025",
+      "position": 24,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Abbasi A. N., He M. Convolutional neural network with PCA and batch normalization for hyperspectral image classification. Int. Geosci. Rem. Sens. Symp., Yokohama, Japan, 28 July-2 Aug. 2019, IEEE.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref025",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref026",
+      "position": 25,
+      "title": "Convolutional neural networks for speech recognition",
+      "source": "IEEE/ACM Trans. Audio, Speech, Language Process",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "fpage": [
+          "1533"
+        ],
+        "lpage": [
+          "1545"
+        ]
+      },
+      "originalCitationText": "Abdel-HamidO., MohamedA. r., JiangH., DengL, PennG., YuD. Convolutional neural networks for speech recognition. IEEE/ACM Trans. Audio, Speech, Language Process. 2014, 22, 1533–1545.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref026",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref027",
+      "position": 26,
+      "title": "Robust acoustic event classification using deep neural networks.",
+      "source": "Inform. Sci",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "396"
+        ],
+        "fpage": [
+          "24"
+        ],
+        "lpage": [
+          "32"
+        ]
+      },
+      "originalCitationText": "SharanR. V., MoirT. J.\nRobust acoustic event classification using deep neural networks.\nInform. Sci. 2017, 396, 24–32.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref027",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref028",
+      "position": 27,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kao C. C., Sun M., Wang W., Wang C. A comparison of pooling methods on LSTM models for rare acoustic event classification. Int. Conf. Acoust., Speech and Signal Process., Barcelona, Spain, 4–8 May 2020, IEEE.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref028",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref029",
+      "position": 28,
+      "title": "Fusing MFCC and LPC features using 1D triplet CNN for speaker recognition in severely degraded audio signals",
+      "source": "IEEE Trans. Inf. Forensics Secur",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "1616"
+        ],
+        "lpage": [
+          "1629"
+        ]
+      },
+      "originalCitationText": "ChowdhuryA., RossA.\nFusing MFCC and LPC features using 1D triplet CNN for speaker recognition in severely degraded audio signals. IEEE Trans. Inf. Forensics Secur. 2019, 15, 1616–1629.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref029",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref030",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Chakrasali S., Bilembagi U., Indira K. Formants and LPC analysis of kannada vowel speech signals. 3rd IEEE Int. Conf. Recent Trends Elec. Inform. Comm. Tech., Bangalore, India, 18–19 May 2018, IEEE.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref030",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref031",
+      "position": 30,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Dixit A., Vidwans A., Sharma P. Improved MFCC and LPC algorithm for bundelkhandi isolated digit speech recognition. Int. Conf. Electr., Elec., and Optim. Techniques, Chennai, India, 3–5 Mar. 2016, IEEE.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref031",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref032",
+      "position": 31,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zhang X., Ren X. Two dimensional principal component analysis based independent component analysis for face recognition. Int. Conf. Multimed. Technol., Hangzhou, China, 26–28 July 2011.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref032",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref033",
+      "position": 32,
+      "title": "An analysis of the influence of deep neural network (DNN) topology in bottleneck feature based language recognition",
+      "source": "PLOS ONE",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lozano-DiezA., ZazoR., ToledanoD. T., Gonzalez-RodriguezJ.\nAn analysis of the influence of deep neural network (DNN) topology in bottleneck feature based language recognition. PLOS ONE\n2017. doi: 10.1371/journal.pone.0182580\n28796806PMC5552160",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0182580"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28796806"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5552160"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref033",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref034",
+      "position": 33,
+      "title": "Automatic recognition of fundamental heart sound segments from PCG corrupted with lung sounds and speech",
+      "source": "IEEE Access",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "179983"
+        ],
+        "lpage": [
+          "179994"
+        ]
+      },
+      "originalCitationText": "BabuK. A., RamkumarB.\nAutomatic recognition of fundamental heart sound segments from PCG corrupted with lung sounds and speech. IEEE Access\n2020, 8, 179983–179994.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref034",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref035",
+      "position": 34,
+      "title": null,
+      "source": "Artificial Neural Networks in Biological and Environmental Analysis",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "CRC Press"
+        ],
+        "publisher-loc": [
+          "Boca Raton, U.S."
+        ],
+        "edition": [
+          "1st ed"
+        ]
+      },
+      "originalCitationText": "HanrahanG.\nArtificial Neural Networks in Biological and Environmental Analysis, 1st ed., CRC Press: Boca Raton, U.S., 2011.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref035",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref036",
+      "position": 35,
+      "title": "Modeling vehicle interactions via modified LSTM models for trajectory prediction",
+      "source": "IEEE Access",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "38287"
+        ],
+        "lpage": [
+          "38296"
+        ]
+      },
+      "originalCitationText": "DaiS., LiL., LiZ.\nModeling vehicle interactions via modified LSTM models for trajectory prediction. IEEE Access\n2019, 7, 38287–38296.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref036",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref037",
+      "position": 36,
+      "title": "An LSTM-based model for person identification using ECG signal",
+      "source": "IEEE Sens. Letter",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ]
+      },
+      "originalCitationText": "JyotishiD., DandapatS.\nAn LSTM-based model for person identification using ECG signal. IEEE Sens. Letter\n2020, 4.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref037",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref038",
+      "position": 37,
+      "title": "Language identification in short utterances using long short-term memory (LSTM) recurrent neural networks.",
+      "source": "PLOS ONE",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "ZazoR., Lozano-DiezA., Gonzalez-DominguezJ., ToledanoD. T., Gonzalez-RodriguezJ.\nLanguage identification in short utterances using long short-term memory (LSTM) recurrent neural networks.\nPLOS ONE\n2016. doi: 10.1371/journal.pone.0146917\n26824467PMC4732772",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0146917"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26824467"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4732772"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref038",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref039",
+      "position": 38,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Swedia E. R., Mutiara A. B., Subali M., Ernastuti Deep learning long-short term memory (LSTM) for Indonesian speech digit recognition using LPC and MFCC feature. 3rd Int. Conf. Inform. Comput., Palembang, Indonesia, 17–18 Oct. 2018.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref039",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref040",
+      "position": 39,
+      "title": null,
+      "source": "Deep Learning with Applications using Python",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Apress"
+        ],
+        "publisher-loc": [
+          "New York, USA"
+        ],
+        "edition": [
+          "1st ed"
+        ]
+      },
+      "originalCitationText": "ManaswiN. K.\nDeep Learning with Applications using Python, 1st ed., Apress: New York, USA, 2018.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref040",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref041",
+      "position": 40,
+      "title": null,
+      "source": "Machine Learning for Audio, Image and Video Analysis",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Springer"
+        ],
+        "publisher-loc": [
+          "London, U.K"
+        ]
+      },
+      "originalCitationText": "CamastraF., VinciarelliA.\nMachine Learning for Audio, Image and Video Analysis, Springer: London, U.K., 2015.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref041",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref042",
+      "position": 41,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wang F., Xu W. A comparison of algorithms for the calculation of LPC coefficients. IEEE Int. Conf. Inform. Sci., Elec. Elect. Eng., Sapporo, Japan, 26–28 April 2014.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref042",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref043",
+      "position": 42,
+      "title": null,
+      "source": "Digital Speech Processing using Matlab",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Springer"
+        ],
+        "publisher-loc": [
+          "Berlin, Germany"
+        ],
+        "edition": [
+          "1st ed"
+        ]
+      },
+      "originalCitationText": "GopiE. S.\nDigital Speech Processing using Matlab, 1st ed., Springer: Berlin, Germany, 2013.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref043",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref044",
+      "position": 43,
+      "title": null,
+      "source": "Introduction to Deep Learning from Logical Calculus to Artificial Intelligence",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Springer"
+        ],
+        "publisher-loc": [
+          "Berlin, Germany"
+        ],
+        "edition": [
+          "1st ed"
+        ]
+      },
+      "originalCitationText": "SkansiS.\nIntroduction to Deep Learning from Logical Calculus to Artificial Intelligence, 1st ed., Springer: Berlin, Germany, 2018.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref044",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref045",
+      "position": 44,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hajiaghayi M., Vahedi E. Code failure prediction and pattern extraction using LSTM networks. IEEE 5th Int. Conf. Big Data Computing Ser. Appl., Newark, CA, USA, 4–9 April 2019.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref045",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref046",
+      "position": 45,
+      "title": null,
+      "source": "Nature-Inspired Design of Hybrid Intelligent Systems",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Springer"
+        ],
+        "publisher-loc": [
+          "London, U.K"
+        ]
+      },
+      "originalCitationText": "MelinP., CastilloO., KacprzykJ.\nNature-Inspired Design of Hybrid Intelligent Systems, Springer: London, U.K., 2017.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref046",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref047",
+      "position": 46,
+      "title": null,
+      "source": "Neural Networks and Deep Learning, A Textbook",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Springer"
+        ],
+        "publisher-loc": [
+          "Berlin, Germany"
+        ],
+        "edition": [
+          "1st ed"
+        ]
+      },
+      "originalCitationText": "AggarwalC. C.\nNeural Networks and Deep Learning, A Textbook, 1st ed., Springer: Berlin, Germany, 2018.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref047",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref048",
+      "position": 47,
+      "title": "Implementation of machine learning for fault classification on vehicle power transmission system",
+      "source": "IEEE Sens. J.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "fpage": [
+          "15163"
+        ],
+        "lpage": [
+          "15176"
+        ]
+      },
+      "originalCitationText": "GongC. A., SuC. S., TsengK. H.\nImplementation of machine learning for fault classification on vehicle power transmission system. IEEE Sens. J., 2020, 20, 15163–15176.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref048",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref049",
+      "position": 48,
+      "title": "Frog classification using machine learning techniques.",
+      "source": "Expert Syst. Appl",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "36"
+        ],
+        "fpage": [
+          "3737"
+        ],
+        "lpage": [
+          "3743"
+        ]
+      },
+      "originalCitationText": "HuangC. J., YangY. J., YangD. X., ChenY. J.\nFrog classification using machine learning techniques.\nExpert Syst. Appl. 2009, 36, 3737–3743.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref049",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref050",
+      "position": 49,
+      "title": "Spectral–spatial features integrated convolution neural network for breast cancer classification",
+      "source": "MDPI Sensors",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ]
+      },
+      "originalCitationText": "MewadaH. K., PatelA. V., HassaballahM., AlkinaniM. H., MahantK.\nSpectral–spatial features integrated convolution neural network for breast cancer classification., MDPI Sensors, 2020, 20. doi: 10.3390/s20174747\n32842640PMC7506633",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/s20174747"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32842640"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7506633"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref050",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pone.0259140.ref051",
+      "position": 50,
+      "title": "Heart sound cancellation from lung sound recordings using recurrence time statistics and nonlinear prediction",
+      "source": "IEEE Signal Process. Letters",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "812"
+        ],
+        "lpage": [
+          "815"
+        ]
+      },
+      "originalCitationText": "AhlstromC., LiljefeldtO., HultP., AskP.\nHeart sound cancellation from lung sound recordings using recurrence time statistics and nonlinear prediction. IEEE Signal Process. Letters\n2005, 12, 812–815.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8700054/article.xml",
+        "articleSha256": "5a850444ea1104e644420a09edca3b72ef88d86d7cef2dd672cbb1876e5b7b9d",
+        "referenceId": "pone.0259140.ref051",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "PLoS ONE"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "PLoS One"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "PLoS One"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "440"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "plosone"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101285081"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "plos"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "1932-6203"
+      }
+    ],
+    "publisherNames": [
+      "PLOS"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "16"
+    ],
+    "issue": [
+      "12"
+    ],
+    "elocation-id": [
+      "e0259140"
+    ]
+  }
+}

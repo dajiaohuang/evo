@@ -1,0 +1,63 @@
+{
+  "pmc": "PMC12822217",
+  "nextBatch": 278,
+  "licenseAsRecorded": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "readThisTurn": [
+    "XML Sec3 repeat-annotation methods including Table1 and nested Sec5 correlational-analysis methods",
+    "Table1 complete assembly rows as flattened text; cell-based extraction still needed"
+  ],
+  "sourceSampling": {
+    "ncbiDownloadDateAsReported": "2024-10-29",
+    "initialReferenceAssemblies": 64,
+    "retainedAssemblies": 61,
+    "excluded": [
+      {
+        "sourceName": "Pseudis tocantins",
+        "accession": "GCA_023970735.1"
+      },
+      {
+        "sourceName": "Scaphiopus couchii",
+        "accession": "GCA_009364435.1"
+      },
+      {
+        "sourceName": "Scaphiopus holbrookii",
+        "accession": "GCA_009364455.1"
+      }
+    ],
+    "exclusionCriterion": "contig N50 below1kb"
+  },
+  "requiredBeforeAuthoring": [
+    "Extract Table1 cells preserving family rowspan, accession versions, assembly sizes Gbp, contigN50 Kbp, BUSCO vectors and sequencing-tech columns",
+    "Check BUSCO vector category labels: five percentages cannot be assigned guessed S/D/F/I/M order",
+    "Read remainderMethods Sec6–8 and allResults Sec9–15 andDiscussion Sec16–20",
+    "Inspect supplement links and retrieval for per-species TE counts/length/percent, clutchsize55species andlarvalperiod39species",
+    "Resolve exactfrozen acceptednames andexplicitnameusage bridges for historical Rana and other changed combinations without assigning by epithet alone"
+  ],
+  "limitsAlreadyIdentified": [
+    "Table1 genome sizes are assembly-bounded summaries, not automatically measured haploidC-values, cell DNA contents or ploidy",
+    "Referenceassemblies are an NCBl snapshot2024-10-29, not all current livinganuran species or all current public genomes",
+    "RepeatMasker hits calledinsertions byauthors; not independently verified full-length functional insertionevents",
+    "Superfamily labels may aggregate distinct TEfamilies; count/occupiedlength/proportion metrics distinct",
+    "PGLS fixedearlierprunedtree with estimatedlambda, contigN50covariate andBH correction; association not manipulativecausal proof",
+    "Clutch/larvalsource ranges analyzed using min/max/midrange separately; midrange not necessarily observedpopulationmean",
+    "Eleutherodactyluscoqui excludedfrom larvalperiod analysis fordirectdevelopment, not a zero-duration aquaticlarval datum",
+    "Assemblies/rawsequences/repeatlibraries/softwarepipeline notindependently rerun; no functional/expression/ploidy certification"
+  ],
+  "fullArticleRead": false,
+  "speciesAssigned": true,
+  "contentAuthoredFromThisSource": true,
+  "testsRun": false,
+  "readScopeCompleted": "Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.",
+  "sourceLimitsFile": "anuran-genome-source-limits.json",
+  "assignedSpeciesCount": 60,
+  "unassignedTable1Name": "Rana sylvaticus",
+  "batches": [
+    278,
+    279
+  ],
+  "speciesSections": 309,
+  "directGroups": 44,
+  "groupSections": 137,
+  "selectedReadingRoutes": 60
+}

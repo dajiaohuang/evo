@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "pmc": "PMC12776023",
+      "doi": "10.3897/zookeys.1265.171020",
+      "year": 2025,
+      "license": "CC BY 4.0",
+      "colIds": [
+        "7DBLC",
+        "TNJJT"
+      ]
+    },
+    {
+      "pmc": "PMC12673973",
+      "doi": "10.1080/23802359.2025.2597137",
+      "year": 2025,
+      "license": "CC BY-NC 4.0",
+      "colIds": [
+        "Q37W5"
+      ]
+    }
+  ],
+  "limits": [
+    {
+      "kind": "single-individual-and-assembly",
+      "locator": "PMC12776023 section 5 paragraph 3; PMC12673973 section 1 paragraph 0",
+      "handling": "One specimen per newly sequenced species; assembly/accession labels published, not independently sequence-verified. No population diversity, heteroplasmy, nuclear species-tree or full distribution certification."
+    },
+    {
+      "kind": "mitochondrial-partitions-and-sampling",
+      "locator": "PMC12776023 XML SECID0EMGAE paragraph 0; section 4 paragraphs 0–3; section 5 paragraph 1",
+      "handling": "Methods nineteen species versus Results twenty-one mitogenomes and fifteen of forty-three genus species are different stated units. PCG and 16S–ND2 placements not interchangeable exhaustive sister relationships; retain marker scope. KR733683 reassignment source proposal for another taxon, no pinned catalogue mutation."
+    },
+    {
+      "kind": "protein-codon-conflicts",
+      "locator": "PMC12776023 XML SECID0EFPBG paragraphs 1, 3",
+      "handling": "ND3 stop-codon statements conflict internally: paragraph first contrasts incomplete anguliceps with TAA ngoclinhensis, then lists ND3 among remaining incomplete genes. GUA described both as Val and Ser1. Omit conflicted claims from certified biological conclusions, retain text as source uncertainty."
+    },
+    {
+      "kind": "predicted-function-and-future-assays",
+      "locator": "PMC12776023 section 3 paragraph 1; section 5 paragraphs 0, 2–4",
+      "handling": "tRNA secondary structures computational; functional significance unresolved. Proposed eDNA assays not validated for sensitivity/specificity. Short-read pseudogene/artifact and repeat-region validation limitations remain explicit."
+    },
+    {
+      "kind": "dated-status-and-tree-interpretation",
+      "locator": "PMC12673973 XML S0001 paragraphs 0–1; S0003 paragraph 0; section 2 paragraph 0",
+      "handling": "2023 Vulnerable citation separate from original 2021 Endangered proposal; no current assessment check. Korean mitochondrial clade not direct gene-flow measurement. Five of seven Korean species coverage not exhaustive genus sampling; rounded base percentages sum 99.9, not silently altered."
+    },
+    {
+      "kind": "distinct-accession-and-locality-history",
+      "locator": "PMC12776023 section 1 paragraph 0; section 2 paragraph 0",
+      "handling": "PX673616 new mitogenome distinct from corrected LC757221–223 original ND2 labels. Quang Ngai administrative wording retained as recorded, not silent rewrite of earlier locality evidence."
+    }
+  ],
+  "fullArticleReadCertified": false,
+  "biologicalCoverageComplete": false
+}

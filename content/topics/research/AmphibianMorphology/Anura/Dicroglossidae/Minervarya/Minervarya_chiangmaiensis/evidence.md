@@ -1,0 +1,244 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphibian-morphology-reader:
+    scientificName: Minervarya chiangmaiensis
+    name:
+      en: Minervarya chiangmaiensis
+      zh: Minervarya chiangmaiensis
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Minervarya
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphibian-morphology-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphibian-morphology-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphibian-morphology-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphibian-morphology-reader/sections/1/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+          metadataVariant: 0
+          sourceKey: amphibian-morphology
+          usage:
+            locator: Anura.csv, rows 3349; Reference.csv rows 3267
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphibian-morphology-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphibian-morphology-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - rightsEvidenceUrl
+            - licenseAssessment
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3349
+        values:
+          - Dicroglossidae
+          - Minervarya
+          - Minervarya chiangmaiensis
+          - M
+          - "28.1"
+          - "11.48333333"
+          - "10.325"
+          - "3.766666667"
+          - NA
+          - "2.4"
+          - "1.9"
+          - "2.608333333"
+          - "3.525"
+          - "2.733333333"
+          - "5.083333333"
+          - "2.441666667"
+          - NA
+          - "18.15"
+          - "11.71666667"
+          - "15.26666667"
+          - NA
+          - "14.75"
+          - NA
+          - NA
+          - "48.71666667"
+          - "1.525"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.216666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3267
+        values:
+          - Anura
+          - Minervarya_chiangmaiensis
+          - markdown: evidence.md
+            field: /records/amphibian-morphology-reader/originalReferenceRows/0/values/2
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - FLL
+      - LAL
+      - FL
+      - TL
+      - HLL
+      - IMT
+      - Fin1L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6RLV7
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphibian-morphology-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphibian-morphology-reader/limitations/zh
+---
+
+# Minervarya chiangmaiensis — morphology source
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphibian-morphology-reader/sources/referenceBindings/0/usage/scope/en -->
+Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphibian-morphology-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+<!-- /evo:text -->
+
+## amphibian-morphology-reader / originalReferenceRows / values
+
+<!-- evo:text /records/amphibian-morphology-reader/originalReferenceRows/0/values/2 -->
+Suwannapoom, C., Yuan, Z.-Y., Poyarkov, N., Yan, F., Kamtaeja, S., Murphy, R., & Che, J. (2016). A new species of genus Fejervarya (Anura: Dicroglossidae) from northern Thailand. Zoological Research, 37, 327-337. https://doi.org/10.13918/j.issn.2095-8137.2016.6.327
+<!-- /evo:text -->
+
+## amphibian-morphology-reader / limitations
+
+<!-- evo:text /records/amphibian-morphology-reader/limitations/en -->
+The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units or external expert review.
+<!-- /evo:text -->
+
+## amphibian-morphology-reader / limitations
+
+<!-- evo:text /records/amphibian-morphology-reader/limitations/zh -->
+读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位或外部专家审评。
+<!-- /evo:text -->

@@ -1,0 +1,3884 @@
+{
+  "pmcid": "PMC10502032",
+  "sourceVersion": {
+    "prefix": "PMC10502032.1/",
+    "sourceUrl": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10502032.1/PMC10502032.1.xml?md5=e1049bd4b115738628b54bcae343e450",
+    "declaredSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de"
+  },
+  "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+  "sha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+  "articleType": "data-paper",
+  "title": "A scATAC-seq atlas of chromatin accessibility in axolotl brain regions",
+  "authors": [
+    {
+      "name": "Weimin Feng",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Weimin",
+        "surname": "Feng",
+        "suffix": null
+      },
+      "originalName": "FengWeimin",
+      "attributes": {
+        "contrib-type": "author",
+        "equal-contrib": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Shuai Liu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Shuai",
+        "surname": "Liu",
+        "suffix": null
+      },
+      "originalName": "LiuShuai",
+      "attributes": {
+        "contrib-type": "author",
+        "equal-contrib": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Qiuting Deng",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Qiuting",
+        "surname": "Deng",
+        "suffix": null
+      },
+      "originalName": "DengQiuting",
+      "attributes": {
+        "contrib-type": "author",
+        "equal-contrib": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Sulei Fu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Sulei",
+        "surname": "Fu",
+        "suffix": null
+      },
+      "originalName": "FuSulei",
+      "attributes": {
+        "contrib-type": "author",
+        "equal-contrib": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Yunzhi Yang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yunzhi",
+        "surname": "Yang",
+        "suffix": null
+      },
+      "originalName": "YangYunzhi",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Xi Dai",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Xi",
+        "surname": "Dai",
+        "suffix": null
+      },
+      "originalName": "DaiXi",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Shuai Wang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Shuai",
+        "surname": "Wang",
+        "suffix": null
+      },
+      "originalName": "WangShuai",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Yijin Wang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yijin",
+        "surname": "Wang",
+        "suffix": null
+      },
+      "originalName": "WangYijin",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Yang Liu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yang",
+        "surname": "Liu",
+        "suffix": null
+      },
+      "originalName": "LiuYang",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Xiumei Lin",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Xiumei",
+        "surname": "Lin",
+        "suffix": null
+      },
+      "originalName": "LinXiumei",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Xiangyu Pan",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Xiangyu",
+        "surname": "Pan",
+        "suffix": null
+      },
+      "originalName": "PanXiangyu",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Shijie Hao",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Shijie",
+        "surname": "Hao",
+        "suffix": null
+      },
+      "originalName": "HaoShijie",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Yue Yuan",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yue",
+        "surname": "Yuan",
+        "suffix": null
+      },
+      "originalName": "YuanYue",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Ying Gu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Ying",
+        "surname": "Gu",
+        "suffix": null
+      },
+      "originalName": "GuYing",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0001-7822-0570"
+        }
+      ]
+    },
+    {
+      "name": "Xiuqing Zhang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Xiuqing",
+        "surname": "Zhang",
+        "suffix": null
+      },
+      "originalName": "ZhangXiuqing",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Hanbo Li",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Hanbo",
+        "surname": "Li",
+        "suffix": null
+      },
+      "originalName": "LiHanbo",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0001-8778-9988"
+        }
+      ]
+    },
+    {
+      "name": "Longqi Liu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Longqi",
+        "surname": "Liu",
+        "suffix": null
+      },
+      "originalName": "LiuLongqi",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-5828-5542"
+        }
+      ]
+    },
+    {
+      "name": "Chuanyu Liu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Chuanyu",
+        "surname": "Liu",
+        "suffix": null
+      },
+      "originalName": "LiuChuanyu",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0003-2258-0897"
+        }
+      ]
+    },
+    {
+      "name": "Ji-Feng Fei",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Ji-Feng",
+        "surname": "Fei",
+        "suffix": null
+      },
+      "originalName": "FeiJi-Feng",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0003-2426-9402"
+        }
+      ]
+    },
+    {
+      "name": "Xiaoyu Wei",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Xiaoyu",
+        "surname": "Wei",
+        "suffix": null
+      },
+      "originalName": "WeiXiaoyu",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC10502032"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC10502032.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "10502032"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "10502032"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "37709774"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1038/s41597-023-02533-0"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "2533"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2023",
+      "month": "9",
+      "day": "14"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2023",
+      "month": null,
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "MOESM1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "41597_2023_2533_MOESM1_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41597_2023_2533_MOESM1_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM2",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "41597_2023_2533_MOESM2_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41597_2023_2533_MOESM2_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM3",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "41597_2023_2533_MOESM3_ESM.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41597_2023_2533_MOESM3_ESM.docx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM4",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "41597_2023_2533_MOESM4_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41597_2023_2533_MOESM4_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "CR1",
+      "position": 0,
+      "title": "Appendage regeneration in adult vertebrates and implications for regenerative medicine",
+      "source": "Science",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Brockes",
+              "givenNames": "JP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BrockesJP"
+            },
+            {
+              "surname": "Kumar",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KumarA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "310"
+        ],
+        "fpage": [
+          "1919"
+        ],
+        "lpage": [
+          "1923"
+        ]
+      },
+      "originalCitationText": "BrockesJPKumarAAppendage regeneration in adult vertebrates and implications for regenerative medicineScience20053101919192310.1126/science.111520016373567",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1115200"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16373567"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR2",
+      "position": 1,
+      "title": "Limb regeneration",
+      "source": "Wiley Interdiscip Rev Dev Biol",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Simon",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimonA"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "291"
+        ],
+        "lpage": [
+          "300"
+        ]
+      },
+      "originalCitationText": "SimonATanakaEMLimb regenerationWiley Interdiscip Rev Dev Biol2013229130010.1002/wdev.7324009038",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/wdev.73"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24009038"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR3",
+      "position": 2,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Joven, A., Elewa, A. & Simon, A. Model systems for regeneration: salamanders. Development146, 10.1242/dev.167700 (2019).10.1242/dev.167700PMC667935831332037",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1242/dev.167700"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6679358"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31332037"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR4",
+      "position": 3,
+      "title": "Reconstitution of the central and peripheral nervous system during salamander tail regeneration",
+      "source": "Proc Natl Acad Sci USA",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "McHedlishvili",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McHedlishviliL"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "109"
+        ],
+        "fpage": [
+          "E2258"
+        ],
+        "lpage": [
+          "2266"
+        ]
+      },
+      "originalCitationText": "McHedlishviliLReconstitution of the central and peripheral nervous system during salamander tail regenerationProc Natl Acad Sci USA2012109E2258226610.1073/pnas.111673810922829665PMC3427070",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1116738109"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22829665"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3427070"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR5",
+      "position": 4,
+      "title": "Changes in Regenerative Capacity through Lifespan",
+      "source": "Int J Mol Sci",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yun",
+              "givenNames": "MH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YunMH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "fpage": [
+          "25392"
+        ],
+        "lpage": [
+          "25432"
+        ]
+      },
+      "originalCitationText": "YunMHChanges in Regenerative Capacity through LifespanInt J Mol Sci201516253922543210.3390/ijms16102539226512653PMC4632807",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/ijms161025392"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26512653"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4632807"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR6",
+      "position": 5,
+      "title": "Single-cell Stereo-seq reveals induced progenitor cells involved in axolotl brain regeneration",
+      "source": "Science",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wei",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeiX"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "377"
+        ],
+        "fpage": [
+          "eabp9444"
+        ]
+      },
+      "originalCitationText": "WeiXSingle-cell Stereo-seq reveals induced progenitor cells involved in axolotl brain regenerationScience2022377eabp944410.1126/science.abp944436048929",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.abp9444"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36048929"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR7",
+      "position": 6,
+      "title": "Single-cell analyses of axolotl telencephalon organization, neurogenesis, and regeneration",
+      "source": "Science",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lust",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LustK"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "377"
+        ],
+        "fpage": [
+          "eabp9262"
+        ]
+      },
+      "originalCitationText": "LustKSingle-cell analyses of axolotl telencephalon organization, neurogenesis, and regenerationScience2022377eabp926210.1126/science.abp926236048956",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.abp9262"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36048956"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR8",
+      "position": 7,
+      "title": "The axolotl genome and the evolution of key tissue formation regulators",
+      "source": "Nature",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nowoshilow",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NowoshilowS"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "554"
+        ],
+        "fpage": [
+          "50"
+        ],
+        "lpage": [
+          "55"
+        ]
+      },
+      "originalCitationText": "NowoshilowSThe axolotl genome and the evolution of key tissue formation regulatorsNature2018554505510.1038/nature2545829364872",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature25458"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29364872"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR9",
+      "position": 8,
+      "title": "Transposition of native chromatin for fast and sensitive epigenomic profiling of open chromatin, DNA-binding proteins and nucleosome position",
+      "source": "Nat Methods",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Buenrostro",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BuenrostroJD"
+            },
+            {
+              "surname": "Giresi",
+              "givenNames": "PG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GiresiPG"
+            },
+            {
+              "surname": "Zaba",
+              "givenNames": "LC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZabaLC"
+            },
+            {
+              "surname": "Chang",
+              "givenNames": "HY",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChangHY"
+            },
+            {
+              "surname": "Greenleaf",
+              "givenNames": "WJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GreenleafWJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "1213"
+        ],
+        "lpage": [
+          "1218"
+        ]
+      },
+      "originalCitationText": "BuenrostroJDGiresiPGZabaLCChangHYGreenleafWJTransposition of native chromatin for fast and sensitive epigenomic profiling of open chromatin, DNA-binding proteins and nucleosome positionNat Methods2013101213121810.1038/nmeth.268824097267PMC3959825",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nmeth.2688"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24097267"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3959825"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR10",
+      "position": 9,
+      "title": "Mapping human epigenomes",
+      "source": "Cell",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Rivera",
+              "givenNames": "CM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RiveraCM"
+            },
+            {
+              "surname": "Ren",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RenB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "155"
+        ],
+        "fpage": [
+          "39"
+        ],
+        "lpage": [
+          "55"
+        ]
+      },
+      "originalCitationText": "RiveraCMRenBMapping human epigenomesCell2013155395510.1016/j.cell.2013.09.01124074860PMC3838898",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cell.2013.09.011"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24074860"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3838898"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR11",
+      "position": 10,
+      "title": "Multiplex single cell profiling of chromatin accessibility by combinatorial cellular indexing",
+      "source": "Science",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Cusanovich",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CusanovichDA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "348"
+        ],
+        "fpage": [
+          "910"
+        ],
+        "lpage": [
+          "914"
+        ]
+      },
+      "originalCitationText": "CusanovichDAMultiplex single cell profiling of chromatin accessibility by combinatorial cellular indexingScience201534891091410.1126/science.aab160125953818PMC4836442",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.aab1601"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25953818"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4836442"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR12",
+      "position": 11,
+      "title": "Single-cell chromatin accessibility reveals principles of regulatory variation",
+      "source": "Nature",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Buenrostro",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BuenrostroJD"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "523"
+        ],
+        "fpage": [
+          "486"
+        ],
+        "lpage": [
+          "490"
+        ]
+      },
+      "originalCitationText": "BuenrostroJDSingle-cell chromatin accessibility reveals principles of regulatory variationNature201552348649010.1038/nature1459026083756PMC4685948",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature14590"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26083756"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4685948"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR13",
+      "position": 12,
+      "title": "Massively parallel single-cell chromatin landscapes of human immune cell development and intratumoral T cell exhaustion",
+      "source": "Nat Biotechnol",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Satpathy",
+              "givenNames": "AT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SatpathyAT"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "37"
+        ],
+        "fpage": [
+          "925"
+        ],
+        "lpage": [
+          "936"
+        ]
+      },
+      "originalCitationText": "SatpathyATMassively parallel single-cell chromatin landscapes of human immune cell development and intratumoral T cell exhaustionNat Biotechnol20193792593610.1038/s41587-019-0206-z31375813PMC7299161",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41587-019-0206-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31375813"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7299161"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR14",
+      "position": 13,
+      "title": "Integrative single-cell analysis of transcriptional and epigenetic states in the human adult brain",
+      "source": "Nat Biotechnol",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lake",
+              "givenNames": "BB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LakeBB"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "36"
+        ],
+        "fpage": [
+          "70"
+        ],
+        "lpage": [
+          "80"
+        ]
+      },
+      "originalCitationText": "LakeBBIntegrative single-cell analysis of transcriptional and epigenetic states in the human adult brainNat Biotechnol201836708010.1038/nbt.403829227469PMC5951394",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nbt.4038"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29227469"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5951394"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR15",
+      "position": 14,
+      "title": "A Single-Cell Atlas of In Vivo Mammalian Chromatin Accessibility",
+      "source": "Cell",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Cusanovich",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CusanovichDA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "174"
+        ],
+        "fpage": [
+          "1309"
+        ],
+        "lpage": [
+          "1324 e1318"
+        ]
+      },
+      "originalCitationText": "CusanovichDAA Single-Cell Atlas of In Vivo Mammalian Chromatin AccessibilityCell201817413091324 e131810.1016/j.cell.2018.06.05230078704PMC6158300",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cell.2018.06.052"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30078704"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6158300"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR16",
+      "position": 15,
+      "title": "Single-nucleus analysis of accessible chromatin in developing mouse forebrain reveals cell-type-specific transcriptional regulation",
+      "source": "Nat Neurosci",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Preissl",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PreisslS"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "fpage": [
+          "432"
+        ],
+        "lpage": [
+          "439"
+        ]
+      },
+      "originalCitationText": "PreisslSSingle-nucleus analysis of accessible chromatin in developing mouse forebrain reveals cell-type-specific transcriptional regulationNat Neurosci20182143243910.1038/s41593-018-0079-329434377PMC5862073",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41593-018-0079-3"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29434377"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5862073"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR17",
+      "position": 16,
+      "title": "Enhancer viruses for combinatorial cell-subclass-specific labeling",
+      "source": "Neuron",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Graybuck",
+              "givenNames": "LT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GraybuckLT"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "109"
+        ],
+        "fpage": [
+          "1449"
+        ],
+        "lpage": [
+          "1464 e1413"
+        ]
+      },
+      "originalCitationText": "GraybuckLTEnhancer viruses for combinatorial cell-subclass-specific labelingNeuron202110914491464 e141310.1016/j.neuron.2021.03.01133789083PMC8610077",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.neuron.2021.03.011"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33789083"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8610077"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR18",
+      "position": 17,
+      "title": "A rapid and robust method for single cell chromatin accessibility profiling",
+      "source": "Nat Commun",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chen",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenX"
+            },
+            {
+              "surname": "Miragaia",
+              "givenNames": "RJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MiragaiaRJ"
+            },
+            {
+              "surname": "Natarajan",
+              "givenNames": "KN",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NatarajanKN"
+            },
+            {
+              "surname": "Teichmann",
+              "givenNames": "SA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TeichmannSA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "5345"
+        ]
+      },
+      "originalCitationText": "ChenXMiragaiaRJNatarajanKNTeichmannSAA rapid and robust method for single cell chromatin accessibility profilingNat Commun20189534510.1038/s41467-018-07771-030559361PMC6297232",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41467-018-07771-0"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30559361"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6297232"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR19",
+      "position": 18,
+      "title": "Single-Nucleus Chromatin Accessibility Landscape Reveals Diversity in Regulatory Regions Across Distinct Adult Rat Cortex",
+      "source": "Front Mol Neurosci",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yu",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YuY"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "651355"
+        ]
+      },
+      "originalCitationText": "YuYSingle-Nucleus Chromatin Accessibility Landscape Reveals Diversity in Regulatory Regions Across Distinct Adult Rat CortexFront Mol Neurosci20211465135510.3389/fnmol.2021.65135534079438PMC8166204",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3389/fnmol.2021.651355"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34079438"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8166204"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR20",
+      "position": 19,
+      "title": "An improved ATAC-seq protocol reduces background and enables interrogation of frozen tissues",
+      "source": "Nat Methods",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Corces",
+              "givenNames": "MR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CorcesMR"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "959"
+        ],
+        "lpage": [
+          "962"
+        ]
+      },
+      "originalCitationText": "CorcesMRAn improved ATAC-seq protocol reduces background and enables interrogation of frozen tissuesNat Methods20171495996210.1038/nmeth.439628846090PMC5623106",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nmeth.4396"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28846090"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5623106"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR21",
+      "position": 20,
+      "title": "Single-nucleus and single-cell transcriptomes compared in matched cortical cell types",
+      "source": "PLoS One",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bakken",
+              "givenNames": "TE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BakkenTE"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "e0209648"
+        ]
+      },
+      "originalCitationText": "BakkenTESingle-nucleus and single-cell transcriptomes compared in matched cortical cell typesPLoS One201813e020964810.1371/journal.pone.020964830586455PMC6306246",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0209648"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30586455"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6306246"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR22",
+      "position": 21,
+      "title": "Single-Nucleus RNA-Seq Is Not Suitable for Detection of Microglial Activation Genes in Humans",
+      "source": "Cell Rep",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Thrupp",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThruppN"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "fpage": [
+          "108189"
+        ]
+      },
+      "originalCitationText": "ThruppNSingle-Nucleus RNA-Seq Is Not Suitable for Detection of Microglial Activation Genes in HumansCell Rep20203210818910.1016/j.celrep.2020.10818932997994PMC7527779",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.celrep.2020.108189"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32997994"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7527779"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR23",
+      "position": 22,
+      "title": "A reference human genome dataset of the BGISEQ-500 sequencer",
+      "source": "Gigascience",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Huang",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuangJ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "9"
+        ]
+      },
+      "originalCitationText": "HuangJA reference human genome dataset of the BGISEQ-500 sequencerGigascience201761910.1093/gigascience/gix02428379488PMC5467036",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/gigascience/gix024"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28379488"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5467036"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR24",
+      "position": 23,
+      "title": "Fast and accurate short read alignment with Burrows-Wheeler transform",
+      "source": "Bioinformatics",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Li",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiH"
+            },
+            {
+              "surname": "Durbin",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DurbinR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "1754"
+        ],
+        "lpage": [
+          "1760"
+        ]
+      },
+      "originalCitationText": "LiHDurbinRFast and accurate short read alignment with Burrows-Wheeler transformBioinformatics2009251754176010.1093/bioinformatics/btp32419451168PMC2705234",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btp324"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19451168"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2705234"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR25",
+      "position": 24,
+      "title": "Droplet-based combinatorial indexing for massive-scale single-cell chromatin accessibility",
+      "source": "Nat Biotechnol",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lareau",
+              "givenNames": "CA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LareauCA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "37"
+        ],
+        "fpage": [
+          "916"
+        ],
+        "lpage": [
+          "924"
+        ]
+      },
+      "originalCitationText": "LareauCADroplet-based combinatorial indexing for massive-scale single-cell chromatin accessibilityNat Biotechnol20193791692410.1038/s41587-019-0147-631235917PMC10299900",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41587-019-0147-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31235917"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10299900"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR26",
+      "position": 25,
+      "title": "ArchR is a scalable software package for integrative single-cell chromatin accessibility analysis",
+      "source": "Nat Genet",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Granja",
+              "givenNames": "JM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GranjaJM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "53"
+        ],
+        "fpage": [
+          "403"
+        ],
+        "lpage": [
+          "411"
+        ]
+      },
+      "originalCitationText": "GranjaJMArchR is a scalable software package for integrative single-cell chromatin accessibility analysisNat Genet20215340341110.1038/s41588-021-00790-633633365PMC8012210",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41588-021-00790-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33633365"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8012210"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR27",
+      "position": 26,
+      "title": "Model-based analysis of ChIP-Seq (MACS)",
+      "source": "Genome Biol",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zhang",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangY"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "R137"
+        ]
+      },
+      "originalCitationText": "ZhangYModel-based analysis of ChIP-Seq (MACS)Genome Biol20089R13710.1186/gb-2008-9-9-r13718798982PMC2592715",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/gb-2008-9-9-r137"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18798982"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2592715"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR28",
+      "position": 27,
+      "title": null,
+      "source": "CNGB Nucleotide Sequence Archive",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "data"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "2023CNGB Nucleotide Sequence Archivehttps://db.cngb.org/search/project/CNP0004118/",
+      "identifiers": [
+        {
+          "pub-id-type": "publisher-id",
+          "{http://www.w3.org/1999/xlink}href": "https://db.cngb.org/search/project/CNP0004118/",
+          "value": "https://db.cngb.org/search/project/CNP0004118/"
+        }
+      ],
+      "externalLinks": [
+        "https://db.cngb.org/search/project/CNP0004118/"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR29",
+      "position": 28,
+      "title": null,
+      "source": "NCBI Sequence Read Archive",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "data"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "2023NCBI Sequence Read ArchiveSRP448692",
+      "identifiers": [
+        {
+          "pub-id-type": "accession",
+          "assigning-authority": "ncbi",
+          "{http://www.w3.org/1999/xlink}href": "https://identifiers.org/ncbi/insdc.sra:SRP448692",
+          "value": "SRP448692"
+        }
+      ],
+      "externalLinks": [
+        "https://identifiers.org/ncbi/insdc.sra:SRP448692"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR30",
+      "position": 29,
+      "title": null,
+      "source": "Figshare",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "data"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "FengW2023A scATAC-seq atlas of chromatin accessibility in axolotl brain regionsFigshare10.6084/m9.figshare.22548400.v7PMC1050203237709774",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.6084/m9.figshare.22548400.v7"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10502032"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37709774"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR31",
+      "position": 30,
+      "title": "Homeostatic and regenerative neurogenesis in salamanders",
+      "source": "Prog Neurobiol",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Joven",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JovenA"
+            },
+            {
+              "surname": "Simon",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimonA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "170"
+        ],
+        "fpage": [
+          "81"
+        ],
+        "lpage": [
+          "98"
+        ]
+      },
+      "originalCitationText": "JovenASimonAHomeostatic and regenerative neurogenesis in salamandersProg Neurobiol2018170819810.1016/j.pneurobio.2018.04.00629654836",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.pneurobio.2018.04.006"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29654836"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR32",
+      "position": 31,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Joven, A. et al. Cellular basis of brain maturation and acquisition of complex behaviors in salamanders. Development145, 10.1242/dev.160051 (2018).10.1242/dev.16005129217751",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1242/dev.160051"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29217751"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR33",
+      "position": 32,
+      "title": "CHD7 promotes proliferation of neural stem cells mediated by MIF",
+      "source": "Mol Brain",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ohta",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OhtaS"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "96"
+        ]
+      },
+      "originalCitationText": "OhtaSCHD7 promotes proliferation of neural stem cells mediated by MIFMol Brain201699610.1186/s13041-016-0275-627955690PMC5154087",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13041-016-0275-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27955690"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5154087"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR34",
+      "position": 33,
+      "title": "Ivy cells: a population of nitric-oxide-producing, slow-spiking GABAergic neurons and their involvement in hippocampal network activity",
+      "source": "Neuron",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Fuentealba",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FuentealbaP"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "57"
+        ],
+        "fpage": [
+          "917"
+        ],
+        "lpage": [
+          "929"
+        ]
+      },
+      "originalCitationText": "FuentealbaPIvy cells: a population of nitric-oxide-producing, slow-spiking GABAergic neurons and their involvement in hippocampal network activityNeuron20085791792910.1016/j.neuron.2008.01.03418367092PMC4487557",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.neuron.2008.01.034"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18367092"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4487557"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR35",
+      "position": 34,
+      "title": "Immunocytochemical characterization of hippocamposeptal projecting GABAergic nonprincipal neurons in the mouse brain: a retrograde labeling study",
+      "source": "Brain Res",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Jinno",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JinnoS"
+            },
+            {
+              "surname": "Kosaka",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KosakaT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "945"
+        ],
+        "fpage": [
+          "219"
+        ],
+        "lpage": [
+          "231"
+        ]
+      },
+      "originalCitationText": "JinnoSKosakaTImmunocytochemical characterization of hippocamposeptal projecting GABAergic nonprincipal neurons in the mouse brain: a retrograde labeling studyBrain Res200294521923110.1016/s0006-8993(02)02804-412126884",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/s0006-8993(02)02804-4"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12126884"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR36",
+      "position": 35,
+      "title": "Absence of NEFL in patient-specific neurons in early-onset Charcot-Marie-Tooth neuropathy",
+      "source": "Neurol Genet",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sainio",
+              "givenNames": "MT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SainioMT"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "e244"
+        ]
+      },
+      "originalCitationText": "SainioMTAbsence of NEFL in patient-specific neurons in early-onset Charcot-Marie-Tooth neuropathyNeurol Genet20184e24410.1212/NXG.000000000000024429888333PMC5991776",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1212/NXG.0000000000000244"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29888333"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5991776"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR37",
+      "position": 36,
+      "title": "NOVA1 acts on Impact to regulate hypothalamic function and translation in inhibitory neurons",
+      "source": "Cell Rep",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tajima",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TajimaY"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "42"
+        ],
+        "fpage": [
+          "112050"
+        ]
+      },
+      "originalCitationText": "TajimaYNOVA1 acts on Impact to regulate hypothalamic function and translation in inhibitory neuronsCell Rep20234211205010.1016/j.celrep.2023.11205036716149PMC10382602",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.celrep.2023.112050"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36716149"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10382602"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR38",
+      "position": 37,
+      "title": "The novel centriolar satellite protein SSX2IP targets Cep290 to the ciliary transition zone",
+      "source": "Mol Biol Cell",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Klinger",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KlingerM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "495"
+        ],
+        "lpage": [
+          "507"
+        ]
+      },
+      "originalCitationText": "KlingerMThe novel centriolar satellite protein SSX2IP targets Cep290 to the ciliary transition zoneMol Biol Cell20142549550710.1091/mbc.E13-09-052624356449PMC3923641",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1091/mbc.E13-09-0526"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24356449"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3923641"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR39",
+      "position": 38,
+      "title": "Centrosomal and ciliary targeting of CCDC66 requires cooperative action of centriolar satellites, microtubules and molecular motors",
+      "source": "Sci Rep",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Conkar",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ConkarD"
+            },
+            {
+              "surname": "Bayraktar",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BayraktarH"
+            },
+            {
+              "surname": "Firat-Karalar",
+              "givenNames": "EN",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Firat-KaralarEN"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "14250"
+        ]
+      },
+      "originalCitationText": "ConkarDBayraktarHFirat-KaralarENCentrosomal and ciliary targeting of CCDC66 requires cooperative action of centriolar satellites, microtubules and molecular motorsSci Rep201991425010.1038/s41598-019-50530-431582766PMC6776500",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41598-019-50530-4"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31582766"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6776500"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR40",
+      "position": 39,
+      "title": "Cell Type- and Sex-Dependent Transcriptome Profiles of Rat Anterior Pituitary Cells",
+      "source": "Front Endocrinol (Lausanne)",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Fletcher",
+              "givenNames": "PA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FletcherPA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "623"
+        ]
+      },
+      "originalCitationText": "FletcherPACell Type- and Sex-Dependent Transcriptome Profiles of Rat Anterior Pituitary CellsFront Endocrinol (Lausanne)20191062310.3389/fendo.2019.0062331620083PMC6760010",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3389/fendo.2019.00623"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31620083"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6760010"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR41",
+      "position": 40,
+      "title": "Proliferation zones in the axolotl brain and regeneration of the telencephalon",
+      "source": "Neural Dev",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Maden",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MadenM"
+            },
+            {
+              "surname": "Manwell",
+              "givenNames": "LA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ManwellLA"
+            },
+            {
+              "surname": "Ormerod",
+              "givenNames": "BK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OrmerodBK"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "1"
+        ]
+      },
+      "originalCitationText": "MadenMManwellLAOrmerodBKProliferation zones in the axolotl brain and regeneration of the telencephalonNeural Dev20138110.1186/1749-8104-8-123327114PMC3554517",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/1749-8104-8-1"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23327114"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3554517"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR42",
+      "position": 41,
+      "title": "Progenitor cell dynamics in the Newt Telencephalon during homeostasis and neuronal regeneration",
+      "source": "Stem Cell Reports",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kirkham",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KirkhamM"
+            },
+            {
+              "surname": "Hameed",
+              "givenNames": "LS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HameedLS"
+            },
+            {
+              "surname": "Berg",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BergDA"
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangH"
+            },
+            {
+              "surname": "Simon",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimonA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "507"
+        ],
+        "lpage": [
+          "519"
+        ]
+      },
+      "originalCitationText": "KirkhamMHameedLSBergDAWangHSimonAProgenitor cell dynamics in the Newt Telencephalon during homeostasis and neuronal regenerationStem Cell Reports2014250751910.1016/j.stemcr.2014.01.01824749074PMC3986684",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.stemcr.2014.01.018"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24749074"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3986684"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR43",
+      "position": 42,
+      "title": "Bcl11a is essential for lymphoid development and negatively regulates p53",
+      "source": "J Exp Med",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yu",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YuY"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "209"
+        ],
+        "fpage": [
+          "2467"
+        ],
+        "lpage": [
+          "2483"
+        ]
+      },
+      "originalCitationText": "YuYBcl11a is essential for lymphoid development and negatively regulates p53J Exp Med20122092467248310.1084/jem.2012184623230003PMC3526365",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1084/jem.20121846"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23230003"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3526365"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR44",
+      "position": 43,
+      "title": "Bcl11b prevents catastrophic autoimmunity by controlling multiple aspects of a regulatory T cell gene expression program",
+      "source": "Sci Adv",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hasan",
+              "givenNames": "SN",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HasanSN"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "eaaw0706"
+        ]
+      },
+      "originalCitationText": "HasanSNBcl11b prevents catastrophic autoimmunity by controlling multiple aspects of a regulatory T cell gene expression programSci Adv20195eaaw070610.1126/sciadv.aaw070631457081PMC6685721",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/sciadv.aaw0706"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31457081"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6685721"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR45",
+      "position": 44,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Adnani, L. et al. Plag1 and Plagl2 have overlapping and distinct functions in telencephalic development. Biol Open7, 10.1242/bio.038661 (2018).10.1242/bio.038661PMC626285730361413",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1242/bio.038661"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6262857"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30361413"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR46",
+      "position": 45,
+      "title": "Loss of BETA2/NeuroD leads to malformation of the dentate gyrus and epilepsy",
+      "source": "Proc Natl Acad Sci USA",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Liu",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "97"
+        ],
+        "fpage": [
+          "865"
+        ],
+        "lpage": [
+          "870"
+        ]
+      },
+      "originalCitationText": "LiuMLoss of BETA2/NeuroD leads to malformation of the dentate gyrus and epilepsyProc Natl Acad Sci USA20009786587010.1073/pnas.97.2.86510639171PMC15422",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.97.2.865"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10639171"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC15422"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR46",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR47",
+      "position": 46,
+      "title": "The Role of Neurod Genes in Brain Development, Function, and Disease",
+      "source": "Front Mol Neurosci",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tutukova",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TutukovaS"
+            },
+            {
+              "surname": "Tarabykin",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TarabykinV"
+            },
+            {
+              "surname": "Hernandez-Miranda",
+              "givenNames": "LR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Hernandez-MirandaLR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "662774"
+        ]
+      },
+      "originalCitationText": "TutukovaSTarabykinVHernandez-MirandaLRThe Role of Neurod Genes in Brain Development, Function, and DiseaseFront Mol Neurosci20211466277410.3389/fnmol.2021.66277434177462PMC8221396",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3389/fnmol.2021.662774"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34177462"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8221396"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR47",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR48",
+      "position": 47,
+      "title": "Neuronal basic helix-loop-helix proteins (NEX, neuroD, NDRF): spatiotemporal expression and targeted disruption of the NEX gene in transgenic mice",
+      "source": "J Neurosci",
+      "year": "1998",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Schwab",
+              "givenNames": "MH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchwabMH"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "1408"
+        ],
+        "lpage": [
+          "1418"
+        ]
+      },
+      "originalCitationText": "SchwabMHNeuronal basic helix-loop-helix proteins (NEX, neuroD, NDRF): spatiotemporal expression and targeted disruption of the NEX gene in transgenic miceJ Neurosci1998181408141810.1523/JNEUROSCI.18-04-01408.19989454850PMC6792741",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1523/JNEUROSCI.18-04-01408.1998"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "9454850"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6792741"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR48",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR49",
+      "position": 48,
+      "title": "CTCF is required for neural development and stochastic expression of clustered Pcdh genes in neurons",
+      "source": "Cell Rep",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hirayama",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HirayamaT"
+            },
+            {
+              "surname": "Tarusawa",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TarusawaE"
+            },
+            {
+              "surname": "Yoshimura",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YoshimuraY"
+            },
+            {
+              "surname": "Galjart",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GaljartN"
+            },
+            {
+              "surname": "Yagi",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YagiT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "345"
+        ],
+        "lpage": [
+          "357"
+        ]
+      },
+      "originalCitationText": "HirayamaTTarusawaEYoshimuraYGaljartNYagiTCTCF is required for neural development and stochastic expression of clustered Pcdh genes in neuronsCell Rep2012234535710.1016/j.celrep.2012.06.01422854024",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.celrep.2012.06.014"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22854024"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR49",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR50",
+      "position": 49,
+      "title": "Neuronal excitation upregulates Tbr1, a high-confidence risk gene of autism, mediating Grin2b expression in the adult brain",
+      "source": "Front Cell Neurosci",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chuang",
+              "givenNames": "HC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChuangHC"
+            },
+            {
+              "surname": "Huang",
+              "givenNames": "TN",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuangTN"
+            },
+            {
+              "surname": "Hsueh",
+              "givenNames": "YP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HsuehYP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "280"
+        ]
+      },
+      "originalCitationText": "ChuangHCHuangTNHsuehYPNeuronal excitation upregulates Tbr1, a high-confidence risk gene of autism, mediating Grin2b expression in the adult brainFront Cell Neurosci2014828010.3389/fncel.2014.0028025309323PMC4159980",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3389/fncel.2014.00280"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25309323"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4159980"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR50",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR51",
+      "position": 50,
+      "title": "A Single-Cell Roadmap of Lineage Bifurcation in Human ESC Models of Embryonic Brain Development",
+      "source": "Cell Stem Cell",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yao",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YaoZ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "fpage": [
+          "120"
+        ],
+        "lpage": [
+          "134"
+        ]
+      },
+      "originalCitationText": "YaoZA Single-Cell Roadmap of Lineage Bifurcation in Human ESC Models of Embryonic Brain DevelopmentCell Stem Cell20172012013410.1016/j.stem.2016.09.01128094016PMC5261831",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.stem.2016.09.011"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28094016"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5261831"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR51",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR52",
+      "position": 51,
+      "title": "Survival of a Novel Subset of Midbrain Dopaminergic Neurons Projecting to the Lateral Septum Is Dependent on NeuroD Proteins",
+      "source": "J Neurosci",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Khan",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhanS"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "37"
+        ],
+        "fpage": [
+          "2305"
+        ],
+        "lpage": [
+          "2316"
+        ]
+      },
+      "originalCitationText": "KhanSSurvival of a Novel Subset of Midbrain Dopaminergic Neurons Projecting to the Lateral Septum Is Dependent on NeuroD ProteinsJ Neurosci2017372305231610.1523/JNEUROSCI.2414-16.201628130357PMC5354344",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1523/JNEUROSCI.2414-16.2016"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28130357"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5354344"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR52",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR53",
+      "position": 52,
+      "title": "The role of Jun transcription factor expression and phosphorylation in neuronal differentiation, neuronal cell death, and plastic adaptations in vivo",
+      "source": "Cell Mol Neurobiol",
+      "year": "1994",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Schlingensiepen",
+              "givenNames": "KH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchlingensiepenKH"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "487"
+        ],
+        "lpage": [
+          "505"
+        ]
+      },
+      "originalCitationText": "SchlingensiepenKHThe role of Jun transcription factor expression and phosphorylation in neuronal differentiation, neuronal cell death, and plastic adaptations in vivoCell Mol Neurobiol19941448750510.1007/BF020888337621509PMC11566974",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/BF02088833"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "7621509"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11566974"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC10502032/PMC10502032.1/objects/c682181315f4f4b4-PMC10502032.1.xml",
+        "articleSha256": "3e580532a4e5d4b995240f4da252a6f6d2befc32e0c8474ea15d6d92858e73de",
+        "referenceId": "CR53",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Scientific Data"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Sci Data"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Sci Data"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "2628"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "sdata"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101640192"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2052-4463"
+      }
+    ],
+    "publisherNames": [
+      "Nature Publishing Group"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "10"
+    ],
+    "elocation-id": [
+      "627"
+    ]
+  }
+}

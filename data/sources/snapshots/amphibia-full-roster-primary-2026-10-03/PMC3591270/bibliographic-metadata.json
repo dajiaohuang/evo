@@ -1,0 +1,3059 @@
+{
+  "pmcid": "PMC3591270",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+  "sha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+  "articleType": "research-article",
+  "title": "Comparative RNA-seq Analysis in the Unsequenced Axolotl: The Oncogene Burst Highlights Early Gene Expression in the Blastema",
+  "authors": [],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC3591270"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "3591270"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "3591270"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "23505351"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1371/journal.pcbi.1002936"
+    }
+  ],
+  "publicationDates": [
+    {
+      "year": "2013",
+      "month": "3",
+      "day": "7"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "pcbi.1002936.s001",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s001.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s001.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1002936.s002",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s002.eps",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s002.eps",
+            "mimetype": "application",
+            "mime-subtype": "postscript"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1002936.s003",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s003.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s003.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1002936.s004",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s004.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s004.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1002936.s005",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s005.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s005.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1002936.s006",
+      "position": 5,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s006.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s006.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1002936.s007",
+      "position": 6,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s007.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s007.xlsx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1002936.s008",
+      "position": 7,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s008.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s008.xlsx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1002936.s009",
+      "position": 8,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s009.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s009.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1002936.s010",
+      "position": 9,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s010.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s010.xlsx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1002936.s011",
+      "position": 10,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s011.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s011.xlsx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1002936.s012",
+      "position": 11,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s012.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s012.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material1_reqid_",
+      "position": 12,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s001.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s001.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material2_reqid_",
+      "position": 13,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s002.eps",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s002.eps",
+            "mimetype": "application",
+            "mime-subtype": "postscript"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material3_reqid_",
+      "position": 14,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s003.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s003.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material4_reqid_",
+      "position": 15,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s004.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s004.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material5_reqid_",
+      "position": 16,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s005.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s005.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material6_reqid_",
+      "position": 17,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s006.tif",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s006.tif",
+            "mimetype": "image",
+            "mime-subtype": "tiff"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material7_reqid_",
+      "position": 18,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s007.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s007.xlsx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material8_reqid_",
+      "position": 19,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s008.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s008.xlsx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material9_reqid_",
+      "position": 20,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s009.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s009.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material10_reqid_",
+      "position": 21,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s010.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s010.xlsx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material11_reqid_",
+      "position": 22,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s011.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s011.xlsx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material12_reqid_",
+      "position": 23,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1002936.s012.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1002936.s012.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "pcbi.1002936-Dinsmore1",
+      "position": 0,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Dinsmore CE (1991) A History of Regeneration Research. Cambridge (England): Cambridge University Press. 228 p.",
+      "identifiers": [],
+      "externalLinks": [
+        "Dinsmore CE (1991) A History of Regeneration Research. Cambridge (England): Cambridge University Press. 228 p."
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Dinsmore1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Rao1",
+      "position": 1,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rao N, Jhamb D, Milner DJ, Li B, Song F, et al.  (2009) Proteomic analysis of blastema formation in regenerating axolotl limbs. BMC Biol\n7: 83.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1741-7007-7-83",
+        "PMC2794268",
+        "19948009",
+        "journal=BMC Biol&title=Proteomic analysis of blastema formation in regenerating axolotl limbs&author=N Rao&author=D Jhamb&author=DJ Milner&author=B Li&author=F Song&volume=7&publication_year=2009&pages=83&pmid=19948009&doi=10.1186/1741-7007-7-83&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Rao1",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Monaghan1",
+      "position": 2,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Monaghan J, Epp L, Putta S, Page R, Walker J, et al.  (2009) Microarray and cDNA sequence analysis of transcription during nerve-dependent limb regeneration. BMC Biology\n7: 1.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1741-7007-7-1",
+        "PMC2630914",
+        "19144100",
+        "journal=BMC Biology&title=Microarray and cDNA sequence analysis of transcription during nerve-dependent limb regeneration&author=J Monaghan&author=L Epp&author=S Putta&author=R Page&author=J Walker&volume=7&publication_year=2009&pages=1&pmid=19144100&doi=10.1186/1741-7007-7-1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Monaghan1",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Kragl1",
+      "position": 3,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kragl M, Knapp D, Nacu E, Khattak S, Maden M, et al.  (2009) Cells keep a memory of their tissue origin during axolotl limb regeneration. Nature\n460: 60–65.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature08152",
+        "19571878",
+        "journal=Nature&title=Cells keep a memory of their tissue origin during axolotl limb regeneration&author=M Kragl&author=D Knapp&author=E Nacu&author=S Khattak&author=M Maden&volume=460&publication_year=2009&pages=60-65&pmid=19571878&doi=10.1038/nature08152&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Kragl1",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Brockes1",
+      "position": 4,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Brockes JP, Kumar A (2005) Appendage Regeneration in Adult Vertebrates and Implications for Regenerative Medicine. Science\n310: 1919–1923.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.1115200",
+        "16373567",
+        "journal=Science&title=Appendage Regeneration in Adult Vertebrates and Implications for Regenerative Medicine&author=JP Brockes&author=A Kumar&volume=310&publication_year=2005&pages=1919-1923&pmid=16373567&doi=10.1126/science.1115200&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Brockes1",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Carlson1",
+      "position": 5,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Carlson BM (2007) Principles of Regenerative Biology. London: Academic Press.",
+      "identifiers": [],
+      "externalLinks": [
+        "Carlson BM (2007) Principles of Regenerative Biology. London: Academic Press."
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Carlson1",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Nye1",
+      "position": 6,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Nye HL, Cameron JA, Chernoff EA, Stocum DL (2003) Regeneration of the urodele limb: a review. Dev Dyn\n226: 280–294.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/dvdy.10236",
+        "12557206",
+        "journal=Dev Dyn&title=Regeneration of the urodele limb: a review&author=HL Nye&author=JA Cameron&author=EA Chernoff&author=DL Stocum&volume=226&publication_year=2003&pages=280-294&pmid=12557206&doi=10.1002/dvdy.10236&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Nye1",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Tamura1",
+      "position": 7,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Tamura K, Ohgo S, Yokoyama H (2010) Limb blastema cell: a stem cell for morphological regeneration. Develop, Growth DIffer\n52: 89–99.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1440-169X.2009.01144.x",
+        "19891640",
+        "journal=Develop, Growth DIffer&title=Limb blastema cell: a stem cell for morphological regeneration&author=K Tamura&author=S Ohgo&author=H Yokoyama&volume=52&publication_year=2010&pages=89-99&pmid=19891640&doi=10.1111/j.1440-169X.2009.01144.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Tamura1",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Tsonis1",
+      "position": 8,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Tsonis PA (1996) Limb regeneration. Cambridge England; New York, NY, USA: Cambridge University Press. xii, 241 p. p.",
+      "identifiers": [],
+      "externalLinks": [
+        "Tsonis PA (1996) Limb regeneration. Cambridge England; New York, NY, USA: Cambridge University Press. xii, 241 p. p."
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Tsonis1",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Whited1",
+      "position": 9,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Whited JL, Tabin CJ (2010) Regeneration review reprise. Journal of Biology\n9: 15.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/jbiol224",
+        "PMC2871519",
+        "20236485",
+        "journal=Journal of Biology&title=Regeneration review reprise&author=JL Whited&author=CJ Tabin&volume=9&publication_year=2010&pages=15&pmid=20236485&doi=10.1186/jbiol224&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Whited1",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Monaghan2",
+      "position": 10,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Monaghan J, Athippozhy A, Seifert A, Putta S, Stromberg A, et al.  (2012) Gene expression patterns specific to the regenerating limb of the Mexican axolotl. BIO Biology Open\n1: 937–948.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/bio.20121594",
+        "PMC3507169",
+        "23213371",
+        "journal=BIO Biology Open&title=Gene expression patterns specific to the regenerating limb of the Mexican axolotl&author=J Monaghan&author=A Athippozhy&author=A Seifert&author=S Putta&author=A Stromberg&volume=1&publication_year=2012&pages=937-948&pmid=23213371&doi=10.1242/bio.20121594&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Monaghan2",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Pearl1",
+      "position": 11,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pearl EJ, Barker D, Day RC, Beck CW (2008) Identification of genes associated with regenerative success of Xenopus laevis hindlimbs. BMC developmental biology\n8: 66.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1471-213X-8-66",
+        "PMC2483965",
+        "18570684",
+        "journal=BMC developmental biology&title=Identification of genes associated with regenerative success of Xenopus laevis hindlimbs&author=EJ Pearl&author=D Barker&author=RC Day&author=CW Beck&volume=8&publication_year=2008&pages=66&pmid=18570684&doi=10.1186/1471-213X-8-66&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Pearl1",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Campbell1",
+      "position": 12,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Campbell LJ, Suarez-Castillo EC, Ortiz-Zuazaga H, Knapp D, Tanaka EM, et al.  (2011) Gene expression profile of the regeneration epithelium during axolotl limb regeneration. Developmental dynamics: an official publication of the American Association of Anatomists\n240: 1826–1840.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/dvdy.22669",
+        "PMC3297817",
+        "21648017",
+        "journal=Developmental dynamics: an official publication of the American Association of Anatomists&title=Gene expression profile of the regeneration epithelium during axolotl limb regeneration&author=LJ Campbell&author=EC Suarez-Castillo&author=H Ortiz-Zuazaga&author=D Knapp&author=EM Tanaka&volume=240&publication_year=2011&pages=1826-1840&pmid=21648017&doi=10.1002/dvdy.22669&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Campbell1",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Borchardt1",
+      "position": 13,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Borchardt T, Looso M, Bruckskotten M, Weis P, Kruse J, et al.  (2010) Analysis of newly established EST databases reveals similarities between heart regeneration in newt and fish. BMC Genomics\n11: 4.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1471-2164-11-4",
+        "PMC2823690",
+        "20047682",
+        "journal=BMC Genomics&title=Analysis of newly established EST databases reveals similarities between heart regeneration in newt and fish&author=T Borchardt&author=M Looso&author=M Bruckskotten&author=P Weis&author=J Kruse&volume=11&publication_year=2010&pages=4&pmid=20047682&doi=10.1186/1471-2164-11-4&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Borchardt1",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Bruckskotten1",
+      "position": 14,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bruckskotten M, Looso M, Reinhardt R, Braun T, Borchardt T (2012) Newt-omics: a comprehensive repository for omics data from the newt Notophthalmus viridescens. Nucleic acids research\n40: D895–900.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/nar/gkr873",
+        "PMC3245081",
+        "22039101",
+        "journal=Nucleic acids research&title=Newt-omics: a comprehensive repository for omics data from the newt Notophthalmus viridescens&author=M Bruckskotten&author=M Looso&author=R Reinhardt&author=T Braun&author=T Borchardt&volume=40&publication_year=2012&pages=D895-900&pmid=22039101&doi=10.1093/nar/gkr873&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Bruckskotten1",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Maki1",
+      "position": 15,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Maki N, Martinson J, Nishimura O, Tarui H, Meller J, et al.  (2010) Expression profiles during dedifferentiation in newt lens regeneration revealed by expressed sequence tags. Molecular vision\n16: 72–78.",
+      "identifiers": [],
+      "externalLinks": [
+        "PMC2807617",
+        "20090923",
+        "journal=Molecular vision&title=Expression profiles during dedifferentiation in newt lens regeneration revealed by expressed sequence tags&author=N Maki&author=J Martinson&author=O Nishimura&author=H Tarui&author=J Meller&volume=16&publication_year=2010&pages=72-78&pmid=20090923&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Maki1",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Wang1",
+      "position": 16,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wang Z, Gerstein M, Snyder M (2009) RNA-Seq: a revolutionary tool for transcriptomics. Nature reviews Genetics\n10: 57–63.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nrg2484",
+        "PMC2949280",
+        "19015660",
+        "journal=Nature reviews Genetics&title=RNA-Seq: a revolutionary tool for transcriptomics&author=Z Wang&author=M Gerstein&author=M Snyder&volume=10&publication_year=2009&pages=57-63&pmid=19015660&doi=10.1038/nrg2484&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Wang1",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Smith1",
+      "position": 17,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Smith JJ, Putta S, Zhu W, Pao GM, Verma IM, et al.  (2009) Genic regions of a large salamander genome contain long introns and novel genes. BMC Genomics\n10: 19.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1471-2164-10-19",
+        "PMC2633012",
+        "19144141",
+        "journal=BMC Genomics&title=Genic regions of a large salamander genome contain long introns and novel genes&author=JJ Smith&author=S Putta&author=W Zhu&author=GM Pao&author=IM Verma&volume=10&publication_year=2009&pages=19&pmid=19144141&doi=10.1186/1471-2164-10-19&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Smith1",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Li1",
+      "position": 18,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Li B, Dewey CN (2011) RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome. BMC bioinformatics\n12: 323.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1471-2105-12-323",
+        "PMC3163565",
+        "21816040",
+        "journal=BMC bioinformatics&title=RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome&author=B Li&author=CN Dewey&volume=12&publication_year=2011&pages=323&pmid=21816040&doi=10.1186/1471-2105-12-323&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Li1",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Thornton1",
+      "position": 19,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Thornton J (1968) Amphibian Limb Regeneration. In: Brachet L and King TJ, editors. Advances in Morphogenesis 7. New York: Academic Press. pp. 205–244",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/b978-1-4831-9954-2.50010-0",
+        "4881307",
+        "Thornton J (1968) Amphibian Limb Regeneration. In: Brachet L and King TJ, editors. Advances in Morphogenesis 7. New York: Academic Press. pp. 205–244"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Thornton1",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Khan1",
+      "position": 20,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Khan P, Linkhart B, Simon HG (2002) Different regulation of T-box genes Tbx4 and Tbx5 during limb development and limb regeneration. Developmental Biology\n250: 383–392.",
+      "identifiers": [],
+      "externalLinks": [
+        "12376111",
+        "journal=Developmental Biology&title=Different regulation of T-box genes Tbx4 and Tbx5 during limb development and limb regeneration&author=P Khan&author=B Linkhart&author=HG Simon&volume=250&publication_year=2002&pages=383-392&pmid=12376111&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Khan1",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Li2",
+      "position": 21,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Li B, Ruotti V, Stewart RM, Thomson JA, Dewey CN (2010) RNA-Seq gene expression estimation with read mapping uncertainty. Bioinformatics\n26: 493–500.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btp692",
+        "PMC2820677",
+        "20022975",
+        "journal=Bioinformatics&title=RNA-Seq gene expression estimation with read mapping uncertainty&author=B Li&author=V Ruotti&author=RM Stewart&author=JA Thomson&author=CN Dewey&volume=26&publication_year=2010&pages=493-500&pmid=20022975&doi=10.1093/bioinformatics/btp692&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Li2",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Huggins1",
+      "position": 22,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Huggins P, Johnson CK, Schoergendorfer A, Putta S, Bathke AC, et al.  (2012) Identification of differentially expressed thyroid hormone responsive genes from the brain of the Mexican Axolotl (Ambystoma mexicanum). Comparative biochemistry and physiology Toxicology & pharmacology: CBP\n155: 128–135.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.cbpc.2011.03.006",
+        "PMC3166550",
+        "21457787",
+        "journal=Comparative biochemistry and physiology Toxicology & pharmacology: CBP&title=Identification of differentially expressed thyroid hormone responsive genes from the brain of the Mexican Axolotl (Ambystoma mexicanum)&author=P Huggins&author=CK Johnson&author=A Schoergendorfer&author=S Putta&author=AC Bathke&volume=155&publication_year=2012&pages=128-135&pmid=21457787&doi=10.1016/j.cbpc.2011.03.006&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Huggins1",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Ramskld1",
+      "position": 23,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ramsköld D, Wang ET, Burge CB, Sandberg R (2009) An Abundance of Ubiquitously Expressed Genes Revealed by Tissue Transcriptome Sequence Data. PLoS Comput Biol\n5: e1000598.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pcbi.1000598",
+        "PMC2781110",
+        "20011106",
+        "journal=PLoS Comput Biol&title=An Abundance of Ubiquitously Expressed Genes Revealed by Tissue Transcriptome Sequence Data&author=D Ramsköld&author=ET Wang&author=CB Burge&author=R Sandberg&volume=5&publication_year=2009&pages=e1000598&pmid=20011106&doi=10.1371/journal.pcbi.1000598&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Ramskld1",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Robinson1",
+      "position": 24,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Robinson MD, McCarthy DJ, Smyth GK (2010) edgeR: a Bioconductor package for differential expression analysis of digital gene expression data. Bioinformatics\n26: 139–140.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btp616",
+        "PMC2796818",
+        "19910308",
+        "journal=Bioinformatics&title=edgeR: a Bioconductor package for differential expression analysis of digital gene expression data&author=MD Robinson&author=DJ McCarthy&author=GK Smyth&volume=26&publication_year=2010&pages=139-140&pmid=19910308&doi=10.1093/bioinformatics/btp616&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Robinson1",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Suzuki1",
+      "position": 25,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Suzuki R, Shimodaira H (2006) Pvclust: an R package for assessing the uncertainty in hierarchical clustering. Bioinformatics\n22: 1540–1542.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btl117",
+        "16595560",
+        "journal=Bioinformatics&title=Pvclust: an R package for assessing the uncertainty in hierarchical clustering&author=R Suzuki&author=H Shimodaira&volume=22&publication_year=2006&pages=1540-1542&pmid=16595560&doi=10.1093/bioinformatics/btl117&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Suzuki1",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Huret1",
+      "position": 26,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Huret JL, Minor SL, Dorkeld F, Dessen P, Bernheim A (2000) Atlas of genetics and cytogenetics in oncology and haematology, an interactive database. Nucleic acids research\n28: 349–351.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/nar/28.1.349",
+        "PMC102493",
+        "10592271",
+        "journal=Nucleic acids research&title=Atlas of genetics and cytogenetics in oncology and haematology, an interactive database&author=JL Huret&author=SL Minor&author=F Dorkeld&author=P Dessen&author=A Bernheim&volume=28&publication_year=2000&pages=349-351&pmid=10592271&doi=10.1093/nar/28.1.349&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Huret1",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Higgins1",
+      "position": 27,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Higgins ME, Claremont M, Major JE, Sander C, Lash AE (2007) CancerGenes: a gene selection resource for cancer genome projects. Nucleic acids research\n35: D721–726.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/nar/gkl811",
+        "PMC1781153",
+        "17088289",
+        "journal=Nucleic acids research&title=CancerGenes: a gene selection resource for cancer genome projects&author=ME Higgins&author=M Claremont&author=JE Major&author=C Sander&author=AE Lash&volume=35&publication_year=2007&pages=D721-726&pmid=17088289&doi=10.1093/nar/gkl811&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Higgins1",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Vinarsky1",
+      "position": 28,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Vinarsky V, Atkinson DL, Stevenson TJ, Keating MT, Odelberg SJ (2005) Normal newt limb regeneration requires matrix metalloproteinase function. Developmental Biology\n279: 86–98.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ydbio.2004.12.003",
+        "15708560",
+        "journal=Developmental Biology&title=Normal newt limb regeneration requires matrix metalloproteinase function&author=V Vinarsky&author=DL Atkinson&author=TJ Stevenson&author=MT Keating&author=SJ Odelberg&volume=279&publication_year=2005&pages=86-98&pmid=15708560&doi=10.1016/j.ydbio.2004.12.003&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Vinarsky1",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Bermudez1",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bermudez O, Pages G, Gimond C (2010) The dual-specificity MAP kinase phosphatases: critical roles in development and cancer. American journal of physiology Cell physiology\n299: C189–202.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1152/ajpcell.00347.2009",
+        "20463170",
+        "journal=American journal of physiology Cell physiology&title=The dual-specificity MAP kinase phosphatases: critical roles in development and cancer&author=O Bermudez&author=G Pages&author=C Gimond&volume=299&publication_year=2010&pages=C189-202&pmid=20463170&doi=10.1152/ajpcell.00347.2009&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Bermudez1",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Levesque1",
+      "position": 30,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Levesque M, Gatien S, Finnson K, Desmeules S, Villiard E, et al.  (2007) Transforming growth factor: beta signaling is essential for limb regeneration in axolotls. PLoS ONE\n2: e1227.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0001227",
+        "PMC2082079",
+        "18043735",
+        "journal=PLoS ONE&title=Transforming growth factor: beta signaling is essential for limb regeneration in axolotls&author=M Levesque&author=S Gatien&author=K Finnson&author=S Desmeules&author=E Villiard&volume=2&publication_year=2007&pages=e1227&pmid=18043735&doi=10.1371/journal.pone.0001227&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Levesque1",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Pacifici1",
+      "position": 31,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pacifici M (1995) Tenascin-C and the development of articular cartilage. Matrix biology: journal of the International Society for Matrix Biology\n14: 689–698.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0945-053x(05)80011-3",
+        "8785583",
+        "journal=Matrix biology: journal of the International Society for Matrix Biology&title=Tenascin-C and the development of articular cartilage&author=M Pacifici&volume=14&publication_year=1995&pages=689-698&pmid=8785583&doi=10.1016/s0945-053x(05)80011-3&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Pacifici1",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Onda1",
+      "position": 32,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Onda H, Poulin ML, Tassava RA, Chiu IM (1991) Characterization of a newt tenascin cDNA and localization of tenascin mRNA during newt limb regeneration by in situ hybridization. Developmental Biology\n148: 219–232.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/0012-1606(91)90331-v",
+        "1718799",
+        "journal=Developmental Biology&title=Characterization of a newt tenascin cDNA and localization of tenascin mRNA during newt limb regeneration by in situ hybridization&author=H Onda&author=ML Poulin&author=RA Tassava&author=IM Chiu&volume=148&publication_year=1991&pages=219-232&pmid=1718799&doi=10.1016/0012-1606(91)90331-v&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Onda1",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Martin1",
+      "position": 33,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Martin JF, Olson EN (2000) Identification of a prx1 limb enhancer. Genesis\n26: 225–229.",
+      "identifiers": [],
+      "externalLinks": [
+        "10748458",
+        "journal=Genesis&title=Identification of a prx1 limb enhancer&author=JF Martin&author=EN Olson&volume=26&publication_year=2000&pages=225-229&pmid=10748458&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Martin1",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Mercader1",
+      "position": 34,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Mercader N, Fischer S, Neumann CJ (2006) Prdm1 acts downstream of a sequential RA, Wnt and Fgf signaling cascade during zebrafish forelimb induction. Development\n133: 2805–2815.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.02455",
+        "16790478",
+        "journal=Development&title=Prdm1 acts downstream of a sequential RA, Wnt and Fgf signaling cascade during zebrafish forelimb induction&author=N Mercader&author=S Fischer&author=CJ Neumann&volume=133&publication_year=2006&pages=2805-2815&pmid=16790478&doi=10.1242/dev.02455&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Mercader1",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Tanaka1",
+      "position": 35,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Tanaka M, Tickle C (2004) Tbx18 and boundary formation in chick somite and wing development. Developmental Biology\n268: 470–480.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ydbio.2003.12.036",
+        "15063182",
+        "journal=Developmental Biology&title=Tbx18 and boundary formation in chick somite and wing development&author=M Tanaka&author=C Tickle&volume=268&publication_year=2004&pages=470-480&pmid=15063182&doi=10.1016/j.ydbio.2003.12.036&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Tanaka1",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Kawakami1",
+      "position": 36,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kawakami Y, Uchiyama Y, Rodriguez Esteban C, Inenaga T, Koyano-Nakagawa N, et al.  (2009) Sall genes regulate region-specific morphogenesis in the mouse limb by modulating Hox activities. Development\n136: 585–594.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.027748",
+        "PMC3266482",
+        "19168674",
+        "journal=Development&title=Sall genes regulate region-specific morphogenesis in the mouse limb by modulating Hox activities&author=Y Kawakami&author=Y Uchiyama&author=C Rodriguez Esteban&author=T Inenaga&author=N Koyano-Nakagawa&volume=136&publication_year=2009&pages=585-594&pmid=19168674&doi=10.1242/dev.027748&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Kawakami1",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Agarwal1",
+      "position": 37,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Agarwal P, Wylie JN, Galceran J, Arkhitko O, Li C, et al.  (2003) Tbx5 is essential for forelimb bud initiation following patterning of the limb field in the mouse embryo. Development\n130: 623–633.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.00191",
+        "12490567",
+        "journal=Development&title=Tbx5 is essential for forelimb bud initiation following patterning of the limb field in the mouse embryo&author=P Agarwal&author=JN Wylie&author=J Galceran&author=O Arkhitko&author=C Li&volume=130&publication_year=2003&pages=623-633&pmid=12490567&doi=10.1242/dev.00191&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Agarwal1",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Barna1",
+      "position": 38,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Barna M, Pandolfi PP, Niswander L (2005) Gli3 and Plzf cooperate in proximal limb patterning at early stages of limb development. Nature\n436: 277–281.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature03801",
+        "16015334",
+        "journal=Nature&title=Gli3 and Plzf cooperate in proximal limb patterning at early stages of limb development&author=M Barna&author=PP Pandolfi&author=L Niswander&volume=436&publication_year=2005&pages=277-281&pmid=16015334&doi=10.1038/nature03801&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Barna1",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Neff1",
+      "position": 39,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Neff AW, King MW, Mescher AL (2011) Dedifferentiation and the role of sall4 in reprogramming and patterning during amphibian limb regeneration. Developmental dynamics: an official publication of the American Association of Anatomists\n240: 979–989.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/dvdy.22554",
+        "21305648",
+        "journal=Developmental dynamics: an official publication of the American Association of Anatomists&title=Dedifferentiation and the role of sall4 in reprogramming and patterning during amphibian limb regeneration&author=AW Neff&author=MW King&author=AL Mescher&volume=240&publication_year=2011&pages=979-989&pmid=21305648&doi=10.1002/dvdy.22554&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Neff1",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Landeira1",
+      "position": 40,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Landeira D, Sauer S, Poot R, Dvorkina M, Mazzarella L, et al.  (2010) Jarid2 is a PRC2 component in embryonic stem cells required for multi-lineage differentiation and recruitment of PRC1 and RNA Polymerase II to developmental regulators. Nature cell biology\n12: 618–624.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/ncb2065",
+        "PMC3572404",
+        "20473294",
+        "journal=Nature cell biology&title=Jarid2 is a PRC2 component in embryonic stem cells required for multi-lineage differentiation and recruitment of PRC1 and RNA Polymerase II to developmental regulators&author=D Landeira&author=S Sauer&author=R Poot&author=M Dvorkina&author=L Mazzarella&volume=12&publication_year=2010&pages=618-624&pmid=20473294&doi=10.1038/ncb2065&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Landeira1",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Nishino1",
+      "position": 41,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Nishino J, Kim I, Chada K, Morrison SJ (2008) Hmga2 Promotes Neural Stem Cell Self-Renewal in Young but Not Old Mice by Reducing p16Ink4a and p19Arf Expression. Cell\n135: 227–239.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.cell.2008.09.01",
+        "PMC2582221",
+        "18957199",
+        "journal=Cell&title=Hmga2 Promotes Neural Stem Cell Self-Renewal in Young but Not Old Mice by Reducing p16Ink4a and p19Arf Expression&author=J Nishino&author=I Kim&author=K Chada&author=SJ Morrison&volume=135&publication_year=2008&pages=227-239&pmid=18957199&doi=10.1016/j.cell.2008.09.01&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Nishino1",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Karantzali1",
+      "position": 42,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Karantzali E, Lekakis V, Ioannou M, Hadjimichael C, Papamatheakis J, et al.  (2011) Sall1 regulates embryonic stem cell differentiation in association with nanog. The Journal of biological chemistry\n286: 1037–1045.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1074/jbc.M110.170050",
+        "PMC3020710",
+        "21062744",
+        "journal=The Journal of biological chemistry&title=Sall1 regulates embryonic stem cell differentiation in association with nanog&author=E Karantzali&author=V Lekakis&author=M Ioannou&author=C Hadjimichael&author=J Papamatheakis&volume=286&publication_year=2011&pages=1037-1045&pmid=21062744&doi=10.1074/jbc.M110.170050&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Karantzali1",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Brown1",
+      "position": 43,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Brown L, Brown S (2009) Zic2 is expressed in pluripotent cells in the blastocyst and adult brain expression overlaps with makers of neurogenesis. Gene expression patterns: GEP\n9: 43–49.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.gep.2008.08.002",
+        "18755297",
+        "journal=Gene expression patterns: GEP&title=Zic2 is expressed in pluripotent cells in the blastocyst and adult brain expression overlaps with makers of neurogenesis&author=L Brown&author=S Brown&volume=9&publication_year=2009&pages=43-49&pmid=18755297&doi=10.1016/j.gep.2008.08.002&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Brown1",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Zhang1",
+      "position": 44,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zhang J, Tam WL, Tong GQ, Wu Q, Chan HY, et al.  (2006) Sall4 modulates embryonic stem cell pluripotency and early embryonic development by the transcriptional regulation of Pou5f1. Nature cell biology\n8: 1114–1123.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/ncb1481",
+        "16980957",
+        "journal=Nature cell biology&title=Sall4 modulates embryonic stem cell pluripotency and early embryonic development by the transcriptional regulation of Pou5f1&author=J Zhang&author=WL Tam&author=GQ Tong&author=Q Wu&author=HY Chan&volume=8&publication_year=2006&pages=1114-1123&pmid=16980957&doi=10.1038/ncb1481&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Zhang1",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Yue1",
+      "position": 45,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Yue S, Chen Y, Cheng SY (2009) Hedgehog signaling promotes the degradation of tumor suppressor Sufu through the ubiquitin-proteasome pathway. Oncogene\n28: 492–499.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/onc.2008.403",
+        "18997815",
+        "journal=Oncogene&title=Hedgehog signaling promotes the degradation of tumor suppressor Sufu through the ubiquitin-proteasome pathway&author=S Yue&author=Y Chen&author=SY Cheng&volume=28&publication_year=2009&pages=492-499&pmid=18997815&doi=10.1038/onc.2008.403&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Yue1",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Gaspar1",
+      "position": 46,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gaspar C, Franken P, Molenaar L, Breukel C, van der Valk M, et al.  (2009) A targeted constitutive mutation in the APC tumor suppressor gene underlies mammary but not intestinal tumorigenesis. PLoS genetics\n5: e1000547.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pgen.1000547",
+        "PMC2697381",
+        "19578404",
+        "journal=PLoS genetics&title=A targeted constitutive mutation in the APC tumor suppressor gene underlies mammary but not intestinal tumorigenesis&author=C Gaspar&author=P Franken&author=L Molenaar&author=C Breukel&author=M van der Valk&volume=5&publication_year=2009&pages=e1000547&pmid=19578404&doi=10.1371/journal.pgen.1000547&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Gaspar1",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Schwartz1",
+      "position": 47,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Schwartz YB, Pirrotta V (2008) Polycomb complexes and epigenetic states. Current opinion in cell biology\n20: 266–273.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ceb.2008.03.002",
+        "18439810",
+        "journal=Current opinion in cell biology&title=Polycomb complexes and epigenetic states&author=YB Schwartz&author=V Pirrotta&volume=20&publication_year=2008&pages=266-273&pmid=18439810&doi=10.1016/j.ceb.2008.03.002&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Schwartz1",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Huangda1",
+      "position": 48,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Huang da W, Sherman BT, Lempicki RA (2009) Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources. Nature protocols\n4: 44–57.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nprot.2008.211",
+        "19131956",
+        "journal=Nature protocols&title=Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources&author=W Huang da&author=BT Sherman&author=RA Lempicki&volume=4&publication_year=2009&pages=44-57&pmid=19131956&doi=10.1038/nprot.2008.211&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Huangda1",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Maki2",
+      "position": 49,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Maki N, Suetsugu-Maki R, Tarui H, Agata K, Rio-Tsonis KD, et al.  (2009) Expression of stem cell pluripotency factors during regeneration in newts. Developmental Dynamics\n238: 1613–1616.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/dvdy.21959",
+        "PMC2749736",
+        "19384853",
+        "journal=Developmental Dynamics&title=Expression of stem cell pluripotency factors during regeneration in newts&author=N Maki&author=R Suetsugu-Maki&author=H Tarui&author=K Agata&author=KD Rio-Tsonis&volume=238&publication_year=2009&pages=1613-1616&pmid=19384853&doi=10.1002/dvdy.21959&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Maki2",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Christen1",
+      "position": 50,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Christen B, Robles V, Raya M, Paramonov I, Belmonte JCI (2010) Regeneration and reprogramming compared. BMC Biol\n8: 5.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1741-7007-8-5",
+        "PMC2826312",
+        "20089153",
+        "journal=BMC Biol&title=Regeneration and reprogramming compared&author=B Christen&author=V Robles&author=M Raya&author=I Paramonov&author=JCI Belmonte&volume=8&publication_year=2010&pages=5&pmid=20089153&doi=10.1186/1741-7007-8-5&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Christen1",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Young1",
+      "position": 51,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Young RA (2011) Control of the embryonic stem cell state. Cell\n144: 940–954.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.cell.2011.01.032",
+        "PMC3099475",
+        "21414485",
+        "journal=Cell&title=Control of the embryonic stem cell state&author=RA Young&volume=144&publication_year=2011&pages=940-954&pmid=21414485&doi=10.1016/j.cell.2011.01.032&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Young1",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-GalanCaridad1",
+      "position": 52,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Galan-Caridad JM, Harel S, Arenzana TL, Hou ZE, Doetsch FK, et al.  (2007) Zfx controls the self-renewal of embryonic and hematopoietic stem cells. Cell\n129: 345–357.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.cell.2007.03.014",
+        "PMC1899089",
+        "17448993",
+        "journal=Cell&title=Zfx controls the self-renewal of embryonic and hematopoietic stem cells&author=JM Galan-Caridad&author=S Harel&author=TL Arenzana&author=ZE Hou&author=FK Doetsch&volume=129&publication_year=2007&pages=345-357&pmid=17448993&doi=10.1016/j.cell.2007.03.014&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-GalanCaridad1",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Seale1",
+      "position": 53,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Seale P, Sabourin LA, Girgis-Gabardo A, Mansouri A, Gruss P, et al.  (2000) Pax7 is required for the specification of myogenic satellite cells. Cell\n102: 777–786.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0092-8674(00)00066-0",
+        "11030621",
+        "journal=Cell&title=Pax7 is required for the specification of myogenic satellite cells&author=P Seale&author=LA Sabourin&author=A Girgis-Gabardo&author=A Mansouri&author=P Gruss&volume=102&publication_year=2000&pages=777-786&pmid=11030621&doi=10.1016/s0092-8674(00)00066-0&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Seale1",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-KoshibaTakeuchi1",
+      "position": 54,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Koshiba-Takeuchi K, Takeuchi JK, Arruda EP, Kathiriya IS, Mo R, et al.  (2006) Cooperative and antagonistic interactions between Sall4 and Tbx5 pattern the mouse limb and heart. Nature genetics\n38: 175–183.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/ng1707",
+        "16380715",
+        "journal=Nature genetics&title=Cooperative and antagonistic interactions between Sall4 and Tbx5 pattern the mouse limb and heart&author=K Koshiba-Takeuchi&author=JK Takeuchi&author=EP Arruda&author=IS Kathiriya&author=R Mo&volume=38&publication_year=2006&pages=175-183&pmid=16380715&doi=10.1038/ng1707&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-KoshibaTakeuchi1",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Yang1",
+      "position": 55,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Yang J, Gao C, Chai L, Ma Y (2010) A novel SALL4/OCT4 transcriptional feedback network for pluripotency of embryonic stem cells. PLoS ONE\n5: e10766.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0010766",
+        "PMC2874005",
+        "20505821",
+        "journal=PLoS ONE&title=A novel SALL4/OCT4 transcriptional feedback network for pluripotency of embryonic stem cells&author=J Yang&author=C Gao&author=L Chai&author=Y Ma&volume=5&publication_year=2010&pages=e10766&pmid=20505821&doi=10.1371/journal.pone.0010766&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Yang1",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Aguila1",
+      "position": 56,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Aguila JR, Liao W, Yang J, Avila C, Hagag N, et al.  (2011) SALL4 is a robust stimulator for the expansion of hematopoietic stem cells. Blood\n118: 576–585.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1182/blood-2011-01-333641",
+        "PMC3142902",
+        "21602528",
+        "journal=Blood&title=SALL4 is a robust stimulator for the expansion of hematopoietic stem cells&author=JR Aguila&author=W Liao&author=J Yang&author=C Avila&author=N Hagag&volume=118&publication_year=2011&pages=576-585&pmid=21602528&doi=10.1182/blood-2011-01-333641&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Aguila1",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Pajcini1",
+      "position": 57,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pajcini KV, Corbel SY, Sage J, Pomerantz JH, Blau HM (2010) Transient Inactivation of Rb and ARF Yields Regenerative Cells from Postmitotic Mammalian Muscle. Cell Stem Cell\n7: 198–213.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.stem.2010.05.022",
+        "PMC2919350",
+        "20682446",
+        "journal=Cell Stem Cell&title=Transient Inactivation of Rb and ARF Yields Regenerative Cells from Postmitotic Mammalian Muscle&author=KV Pajcini&author=SY Corbel&author=J Sage&author=JH Pomerantz&author=HM Blau&volume=7&publication_year=2010&pages=198-213&pmid=20682446&doi=10.1016/j.stem.2010.05.022&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Pajcini1",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Oviedo1",
+      "position": 58,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Oviedo NJ, Beane WS (2009) Regeneration: The origin of cancer or a possible cure?\nSeminars in cell & developmental biology\n20: 557–564.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.semcdb.2009.04.005",
+        "PMC2706275",
+        "19427247",
+        "journal=Seminars in cell & developmental biology&title=Regeneration: The origin of cancer or a possible cure?&author=NJ Oviedo&author=WS Beane&volume=20&publication_year=2009&pages=557-564&pmid=19427247&doi=10.1016/j.semcdb.2009.04.005&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Oviedo1",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Lee1",
+      "position": 59,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lee D, Kwon JH, Kim EH, Kim ES, Choi KY (2010) HMGB2 stabilizes p53 by interfering with E6/E6AP-mediated p53 degradation in human papillomavirus-positive HeLa cells. Cancer letters\n292: 125–132.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.canlet.2009.11.015",
+        "20036050",
+        "journal=Cancer letters&title=HMGB2 stabilizes p53 by interfering with E6/E6AP-mediated p53 degradation in human papillomavirus-positive HeLa cells&author=D Lee&author=JH Kwon&author=EH Kim&author=ES Kim&author=KY Choi&volume=292&publication_year=2010&pages=125-132&pmid=20036050&doi=10.1016/j.canlet.2009.11.015&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Lee1",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Wang2",
+      "position": 60,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wang X, He H, Tang W, Zhang XA, Hua X, et al.  (2012) Two origins of blastemal progenitors define blastemal regeneration of zebrafish lower jaw. PLoS ONE\n7: e45380.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0045380",
+        "PMC3448660",
+        "23028974",
+        "journal=PLoS ONE&title=Two origins of blastemal progenitors define blastemal regeneration of zebrafish lower jaw&author=X Wang&author=H He&author=W Tang&author=XA Zhang&author=X Hua&volume=7&publication_year=2012&pages=e45380&pmid=23028974&doi=10.1371/journal.pone.0045380&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Wang2",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-McCusker1",
+      "position": 61,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "McCusker C, Gardiner DM (2011) The Axolotl Model for Regeneration and Aging Research: A Mini-Review. Gerontology\n7: 198–213.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1159/000323761",
+        "21372551",
+        "journal=Gerontology&title=The Axolotl Model for Regeneration and Aging Research: A Mini-Review&author=C McCusker&author=DM Gardiner&volume=7&publication_year=2011&pages=198-213&pmid=21372551&doi=10.1159/000323761&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-McCusker1",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Federico1",
+      "position": 62,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Federico A, Pallante P, Bianco M, Ferraro A, Esposito F, et al.  (2009) Chromobox Protein Homologue 7 Protein, with Decreased Expression in Human Carcinomas, Positively Regulateds E-Cadherin Expression by Interacting with the Histone Deacetylase 2 Protein. Cancer Res\n69: 7079–7087.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1158/0008-5472.CAN-09-1542",
+        "19706751",
+        "journal=Cancer Res&title=Chromobox Protein Homologue 7 Protein, with Decreased Expression in Human Carcinomas, Positively Regulateds E-Cadherin Expression by Interacting with the Histone Deacetylase 2 Protein&author=A Federico&author=P Pallante&author=M Bianco&author=A Ferraro&author=F Esposito&volume=69&publication_year=2009&pages=7079-7087&pmid=19706751&doi=10.1158/0008-5472.CAN-09-1542&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Federico1",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Zhou1",
+      "position": 63,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zhou Y, Santoro R, Grummt I (2002) The chromatin remodeling complex NoRC targets HDAC1 to the ribosomal gene promoter and represses RNA polymerase I transcription. The EMBO journal\n21: 4632–4640.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/emboj/cdf460",
+        "PMC126197",
+        "12198165",
+        "journal=The EMBO journal&title=The chromatin remodeling complex NoRC targets HDAC1 to the ribosomal gene promoter and represses RNA polymerase I transcription&author=Y Zhou&author=R Santoro&author=I Grummt&volume=21&publication_year=2002&pages=4632-4640&pmid=12198165&doi=10.1093/emboj/cdf460&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Zhou1",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Bilodeau1",
+      "position": 64,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bilodeau S, Kagey MH, Frampton GM, Rahl PB, Young RA (2009) SetDB1 contributes to repression of genes encoding developmental regulators and maintenance of ES cell state. Genes & development\n23: 2484–2489.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1101/gad.1837309",
+        "PMC2779743",
+        "19884255",
+        "journal=Genes & development&title=SetDB1 contributes to repression of genes encoding developmental regulators and maintenance of ES cell state&author=S Bilodeau&author=MH Kagey&author=GM Frampton&author=PB Rahl&author=RA Young&volume=23&publication_year=2009&pages=2484-2489&pmid=19884255&doi=10.1101/gad.1837309&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Bilodeau1",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Braun1",
+      "position": 65,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Braun T, Winter B, Bober E, Arnold HH (1990) Transcriptional activation domain of the muscle-specific gene-regulatory protein myf5. Nature\n346: 663–665.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/346663a0",
+        "2385294",
+        "journal=Nature&title=Transcriptional activation domain of the muscle-specific gene-regulatory protein myf5&author=T Braun&author=B Winter&author=E Bober&author=HH Arnold&volume=346&publication_year=1990&pages=663-665&pmid=2385294&doi=10.1038/346663a0&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Braun1",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Kamei1",
+      "position": 66,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kamei Y, Miura S, Suzuki M, Kai Y, Mizukami J, et al.  (2004) Skeletal muscle FOXO1 (FKHR) transgenic mice have less skeletal muscle mass, down-regulated Type I (slow twitch/red muscle) fiber genes, and impaired glycemic control. The Journal of biological chemistry\n279: 41114–41123.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1074/jbc.M400674200",
+        "15272020",
+        "journal=The Journal of biological chemistry&title=Skeletal muscle FOXO1 (FKHR) transgenic mice have less skeletal muscle mass, down-regulated Type I (slow twitch/red muscle) fiber genes, and impaired glycemic control&author=Y Kamei&author=S Miura&author=M Suzuki&author=Y Kai&author=J Mizukami&volume=279&publication_year=2004&pages=41114-41123&pmid=15272020&doi=10.1074/jbc.M400674200&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Kamei1",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Chen1",
+      "position": 67,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Chen MJ, Yokomizo T, Zeigler BM, Dzierzak E, Speck NA (2009) Runx1 is required for the endothelial to haematopoietic cell transition but not thereafter. Nature\n457: 887–891.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature07619",
+        "PMC2744041",
+        "19129762",
+        "journal=Nature&title=Runx1 is required for the endothelial to haematopoietic cell transition but not thereafter&author=MJ Chen&author=T Yokomizo&author=BM Zeigler&author=E Dzierzak&author=NA Speck&volume=457&publication_year=2009&pages=887-891&pmid=19129762&doi=10.1038/nature07619&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Chen1",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Wang3",
+      "position": 68,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wang Q, Stacy T, Miller JD, Lewis AF, Gu TL, et al.  (1996) The CBFbeta subunit is essential for CBFalpha2 (AML1) function in vivo. Cell\n87: 697–708.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/s0092-8674(00)81389-6",
+        "8929538",
+        "journal=Cell&title=The CBFbeta subunit is essential for CBFalpha2 (AML1) function in vivo&author=Q Wang&author=T Stacy&author=JD Miller&author=AF Lewis&author=TL Gu&volume=87&publication_year=1996&pages=697-708&pmid=8929538&doi=10.1016/s0092-8674(00)81389-6&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Wang3",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Robertson1",
+      "position": 69,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Robertson EJ, Charatsi I, Joyner CJ, Koonce CH, Morgan M, et al.  (2007) Blimp1 regulates development of the posterior forelimb, caudal pharyngeal arches, heart and sensory vibrissae in mice. Development\n134: 4335–4345.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.012047",
+        "PMC7116377",
+        "18039967",
+        "journal=Development&title=Blimp1 regulates development of the posterior forelimb, caudal pharyngeal arches, heart and sensory vibrissae in mice&author=EJ Robertson&author=I Charatsi&author=CJ Joyner&author=CH Koonce&author=M Morgan&volume=134&publication_year=2007&pages=4335-4345&pmid=18039967&doi=10.1242/dev.012047&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Robertson1",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Ohinata1",
+      "position": 70,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ohinata Y, Payer B, O'Carroll D, Ancelin K, Ono Y, et al.  (2005) Blimp1 is a critical determinant of the germ cell lineage in mice. Nature\n436: 207–213.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature03813",
+        "15937476",
+        "journal=Nature&title=Blimp1 is a critical determinant of the germ cell lineage in mice&author=Y Ohinata&author=B Payer&author=D O'Carroll&author=K Ancelin&author=Y Ono&volume=436&publication_year=2005&pages=207-213&pmid=15937476&doi=10.1038/nature03813&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Ohinata1",
+        "position": 70,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Zhu1",
+      "position": 71,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zhu W, Pao GM, Satoh A, Cummings G, Monaghan JR, et al.  (2012) Activation of germline-specific genes is required for limb regeneration in the Mexican axolotl. Developmental Biology\n370: 42–51.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ydbio.2012.07.021",
+        "PMC3755950",
+        "22841627",
+        "journal=Developmental Biology&title=Activation of germline-specific genes is required for limb regeneration in the Mexican axolotl&author=W Zhu&author=GM Pao&author=A Satoh&author=G Cummings&author=JR Monaghan&volume=370&publication_year=2012&pages=42-51&pmid=22841627&doi=10.1016/j.ydbio.2012.07.021&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Zhu1",
+        "position": 71,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Zhu2",
+      "position": 72,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zhu W, Kuo D, Nathanson J, Satoh A, Pao GM, et al.  (2012) Retrotransposon long interspersed nucleotide element-1 (LINE-1) is activated during salamander limb regeneration. Development, growth & differentiation\n54: 673–685.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1440-169X.2012.01368.x",
+        "PMC3529008",
+        "22913491",
+        "journal=Development, growth & differentiation&title=Retrotransposon long interspersed nucleotide element-1 (LINE-1) is activated during salamander limb regeneration&author=W Zhu&author=D Kuo&author=J Nathanson&author=A Satoh&author=GM Pao&volume=54&publication_year=2012&pages=673-685&pmid=22913491&doi=10.1111/j.1440-169X.2012.01368.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Zhu2",
+        "position": 72,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Pourebrahim1",
+      "position": 73,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pourebrahim R, Houtmeyers R, Ghogomu S, Janssens S, Thelie A, et al.  (2011) Transcription factor Zic2 inhibits Wnt/beta-catenin protein signaling. The Journal of biological chemistry\n286: 37732–37740.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1074/jbc.M111.242826",
+        "PMC3199516",
+        "21908606",
+        "journal=The Journal of biological chemistry&title=Transcription factor Zic2 inhibits Wnt/beta-catenin protein signaling&author=R Pourebrahim&author=R Houtmeyers&author=S Ghogomu&author=S Janssens&author=A Thelie&volume=286&publication_year=2011&pages=37732-37740&pmid=21908606&doi=10.1074/jbc.M111.242826&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Pourebrahim1",
+        "position": 73,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Kiefer1",
+      "position": 74,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kiefer SM, Robbins L, Stumpff KM, Lin C, Ma L, et al.  (2010) Sall1-dependent signals affect Wnt signaling and ureter tip fate to initiate kidney development. Development\n137: 3099–3106.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.037812",
+        "PMC2926958",
+        "20702564",
+        "journal=Development&title=Sall1-dependent signals affect Wnt signaling and ureter tip fate to initiate kidney development&author=SM Kiefer&author=L Robbins&author=KM Stumpff&author=C Lin&author=L Ma&volume=137&publication_year=2010&pages=3099-3106&pmid=20702564&doi=10.1242/dev.037812&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Kiefer1",
+        "position": 74,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Bohm1",
+      "position": 75,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bohm J, Sustmann C, Wilhelm C, Kohlhase J (2006) SALL4 is directly activated by TCF/LEF in the canonical Wnt signaling pathway. Biochemical and biophysical research communications\n348: 898–907.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.bbrc.2006.07.124",
+        "16899215",
+        "journal=Biochemical and biophysical research communications&title=SALL4 is directly activated by TCF/LEF in the canonical Wnt signaling pathway&author=J Bohm&author=C Sustmann&author=C Wilhelm&author=J Kohlhase&volume=348&publication_year=2006&pages=898-907&pmid=16899215&doi=10.1016/j.bbrc.2006.07.124&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Bohm1",
+        "position": 75,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Ulloa1",
+      "position": 76,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ulloa F, Itasaki N, Briscoe J (2007) Inhibitory Gli3 activity negatively regulates Wnt/beta-catenin signaling. Current biology: CB\n17: 545–550.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.cub.2007.01.062",
+        "17331723",
+        "journal=Current biology: CB&title=Inhibitory Gli3 activity negatively regulates Wnt/beta-catenin signaling&author=F Ulloa&author=N Itasaki&author=J Briscoe&volume=17&publication_year=2007&pages=545-550&pmid=17331723&doi=10.1016/j.cub.2007.01.062&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Ulloa1",
+        "position": 76,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Fromigue1",
+      "position": 77,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Fromigue O, Hay E, Barbara A, Marie PJ (2010) Essential role of nuclear factor of activated T cells (NFAT)-mediated Wnt signaling in osteoblast differentiation induced by strontium ranelate. The Journal of biological chemistry\n285: 25251–25258.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1074/jbc.M110.110502",
+        "PMC2919088",
+        "20554534",
+        "journal=The Journal of biological chemistry&title=Essential role of nuclear factor of activated T cells (NFAT)-mediated Wnt signaling in osteoblast differentiation induced by strontium ranelate&author=O Fromigue&author=E Hay&author=A Barbara&author=PJ Marie&volume=285&publication_year=2010&pages=25251-25258&pmid=20554534&doi=10.1074/jbc.M110.110502&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Fromigue1",
+        "position": 77,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Sinner1",
+      "position": 78,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sinner D, Kordich JJ, Spence JR, Opoka R, Rankin S, et al.  (2007) Sox17 and Sox4 differentially regulate beta-catenin/T-cell factor activity and proliferation of colon carcinoma cells. Molecular and Cellular Biology\n27: 7802–7815.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1128/MCB.02179-06",
+        "PMC2169141",
+        "17875931",
+        "journal=Molecular and Cellular Biology&title=Sox17 and Sox4 differentially regulate beta-catenin/T-cell factor activity and proliferation of colon carcinoma cells&author=D Sinner&author=JJ Kordich&author=JR Spence&author=R Opoka&author=S Rankin&volume=27&publication_year=2007&pages=7802-7815&pmid=17875931&doi=10.1128/MCB.02179-06&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Sinner1",
+        "position": 78,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Yamaguchi1",
+      "position": 79,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Yamaguchi TP, Bradley A, McMahon AP, Jones S (1999) A Wnt5a pathway underlies outgrowth of multiple structures in the vertebrate embryo. Development\n126: 1211–1223.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.126.6.1211",
+        "10021340",
+        "journal=Development&title=A Wnt5a pathway underlies outgrowth of multiple structures in the vertebrate embryo&author=TP Yamaguchi&author=A Bradley&author=AP McMahon&author=S Jones&volume=126&publication_year=1999&pages=1211-1223&pmid=10021340&doi=10.1242/dev.126.6.1211&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Yamaguchi1",
+        "position": 79,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Kawakami2",
+      "position": 80,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kawakami Y, Rodriguez Esteban C, Raya M, Kawakami H, Marti M, et al.  (2006) Wnt/beta-catenin signaling regulates vertebrate limb regeneration. Genes & development\n20: 3232–3237.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1101/gad.1475106",
+        "PMC1686599",
+        "17114576",
+        "journal=Genes & development&title=Wnt/beta-catenin signaling regulates vertebrate limb regeneration&author=Y Kawakami&author=C Rodriguez Esteban&author=M Raya&author=H Kawakami&author=M Marti&volume=20&publication_year=2006&pages=3232-3237&pmid=17114576&doi=10.1101/gad.1475106&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Kawakami2",
+        "position": 80,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Hill1",
+      "position": 81,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hill TP, Taketo MM, Birchmeier W, Hartmann C (2006) Multiple roles of mesenchymal beta-catenin during murine limb patterning. Development\n133: 1219–1229.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.02298",
+        "16495310",
+        "journal=Development&title=Multiple roles of mesenchymal beta-catenin during murine limb patterning&author=TP Hill&author=MM Taketo&author=W Birchmeier&author=C Hartmann&volume=133&publication_year=2006&pages=1219-1229&pmid=16495310&doi=10.1242/dev.02298&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Hill1",
+        "position": 81,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Ferretti1",
+      "position": 82,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ferretti P, Fekete DM, Patterson M, Lane EB (1989) Transient expression of simple epithelial keratins by mesenchymal cells of regenerating newt limb. Developmental Biology\n133: 415–424.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/0012-1606(89)90045-6",
+        "2471654",
+        "journal=Developmental Biology&title=Transient expression of simple epithelial keratins by mesenchymal cells of regenerating newt limb&author=P Ferretti&author=DM Fekete&author=M Patterson&author=EB Lane&volume=133&publication_year=1989&pages=415-424&pmid=2471654&doi=10.1016/0012-1606(89)90045-6&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Ferretti1",
+        "position": 82,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Asahina1",
+      "position": 83,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Asahina K, Obara M, Yoshizato K (1999) Expression of genes of type I and type II collagen in the formation and development of the blastema of regenerating newt limb. Developmental dynamics: an official publication of the American Association of Anatomists\n216: 59–71.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/(SICI)1097-0177(199909)216:1<59::AID-DVDY8>3.0.CO;2-B",
+        "10474166",
+        "journal=Developmental dynamics: an official publication of the American Association of Anatomists&title=Expression of genes of type I and type II collagen in the formation and development of the blastema of regenerating newt limb&author=K Asahina&author=M Obara&author=K Yoshizato&volume=216&publication_year=1999&pages=59-71&pmid=10474166&doi=10.1002/(SICI)1097-0177(199909)216:1<59::AID-DVDY8>3.0.CO;2-B&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Asahina1",
+        "position": 83,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Zhao1",
+      "position": 84,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zhao B, Li L, Lei Q, Guan KL (2010) The Hippo-YAP pathway in organ size control and tumorigenesis: an updated version. Genes & development\n24: 862–874.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1101/gad.1909210",
+        "PMC2861185",
+        "20439427",
+        "journal=Genes & development&title=The Hippo-YAP pathway in organ size control and tumorigenesis: an updated version&author=B Zhao&author=L Li&author=Q Lei&author=KL Guan&volume=24&publication_year=2010&pages=862-874&pmid=20439427&doi=10.1101/gad.1909210&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Zhao1",
+        "position": 84,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Kim1",
+      "position": 85,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kim JB, Greber B, Arauzo-Bravo MJ, Meyer J, Park KI, et al.  (2009) Direct reprogramming of human neural stem cells by OCT4. Nature\n461: 649–643.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature08436",
+        "19718018",
+        "journal=Nature&title=Direct reprogramming of human neural stem cells by OCT4&author=JB Kim&author=B Greber&author=MJ Arauzo-Bravo&author=J Meyer&author=KI Park&volume=461&publication_year=2009&pages=649-643&pmid=19718018&doi=10.1038/nature08436&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Kim1",
+        "position": 85,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Stocum1",
+      "position": 86,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Stocum DL (2004) Amphibian regeneration and stem cells. Curr Top Microbiol Immunol\n280: 1–70.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/978-3-642-18846-6_1",
+        "14594207",
+        "journal=Curr Top Microbiol Immunol&title=Amphibian regeneration and stem cells&author=DL Stocum&volume=280&publication_year=2004&pages=1-70&pmid=14594207&doi=10.1007/978-3-642-18846-6_1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Stocum1",
+        "position": 86,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Stocum2",
+      "position": 87,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Stocum DL, Zupanc GK (2008) Stretching the limits: stem cells in regeneration science. Dev Dyn\n237: 3648–3671.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1002/dvdy.21774",
+        "18985720",
+        "journal=Dev Dyn&title=Stretching the limits: stem cells in regeneration science&author=DL Stocum&author=GK Zupanc&volume=237&publication_year=2008&pages=3648-3671&pmid=18985720&doi=10.1002/dvdy.21774&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Stocum2",
+        "position": 87,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Chen2",
+      "position": 88,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Chen G, Gulbranson DR, Hou Z, Bolin JM, Ruotti V, et al.  (2011) Chemically defined conditions for human iPSC derivation and culture. Nature Methods\n8: 424–429.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nmeth.1593",
+        "PMC3084903",
+        "21478862",
+        "journal=Nature Methods&title=Chemically defined conditions for human iPSC derivation and culture&author=G Chen&author=DR Gulbranson&author=Z Hou&author=JM Bolin&author=V Ruotti&volume=8&publication_year=2011&pages=424-429&pmid=21478862&doi=10.1038/nmeth.1593&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Chen2",
+        "position": 88,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Yu1",
+      "position": 89,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Yu J, Hu K, Smuga-Otto K, Tian S, Stewart R, et al.  (2009) Human induced pluripotent stem cells free of vector and transgene sequences. Science\n324: 797–801.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.1172482",
+        "PMC2758053",
+        "19325077",
+        "journal=Science&title=Human induced pluripotent stem cells free of vector and transgene sequences&author=J Yu&author=K Hu&author=K Smuga-Otto&author=S Tian&author=R Stewart&volume=324&publication_year=2009&pages=797-801&pmid=19325077&doi=10.1126/science.1172482&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Yu1",
+        "position": 89,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Sengupta1",
+      "position": 90,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sengupta S, Ruotti V, Bolin J, Elwell A, Hernandez A, et al.  (2010) Highly consistent, fully representative mRNA-Seq libraries from ten nanograms of total RNA. BioTechniques\n49: 898–904.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.2144/000113556",
+        "21143212",
+        "journal=BioTechniques&title=Highly consistent, fully representative mRNA-Seq libraries from ten nanograms of total RNA&author=S Sengupta&author=V Ruotti&author=J Bolin&author=A Elwell&author=A Hernandez&volume=49&publication_year=2010&pages=898-904&pmid=21143212&doi=10.2144/000113556&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Sengupta1",
+        "position": 90,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Chevreux1",
+      "position": 91,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Chevreux B, Pfisterer T, Drescher B, Driesel AJ, Muller WE, et al.  (2004) Using the miraEST assembler for reliable and automated mRNA transcript assembly and SNP detection in sequenced ESTs. Genome research\n14: 1147–1159.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1101/gr.1917404",
+        "PMC419793",
+        "15140833",
+        "journal=Genome research&title=Using the miraEST assembler for reliable and automated mRNA transcript assembly and SNP detection in sequenced ESTs&author=B Chevreux&author=T Pfisterer&author=B Drescher&author=AJ Driesel&author=WE Muller&volume=14&publication_year=2004&pages=1147-1159&pmid=15140833&doi=10.1101/gr.1917404&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Chevreux1",
+        "position": 91,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Langmead1",
+      "position": 92,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Langmead B, Trapnell C, Pop M, Salzberg SL (2009) Ultrafast and memory-efficient alignment of short DNA sequences to the human genome. Genome biology\n10: R25.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/gb-2009-10-3-r25",
+        "PMC2690996",
+        "19261174",
+        "journal=Genome biology&title=Ultrafast and memory-efficient alignment of short DNA sequences to the human genome&author=B Langmead&author=C Trapnell&author=M Pop&author=SL Salzberg&volume=10&publication_year=2009&pages=R25&pmid=19261174&doi=10.1186/gb-2009-10-3-r25&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Langmead1",
+        "position": 92,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Pruitt1",
+      "position": 93,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pruitt KD, Tatusova T, Klimke W, Maglott DR (2009) NCBI Reference Sequences: current status, policy and new initiatives. Nucleic acids research\n37: D32–36.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/nar/gkn721",
+        "PMC2686572",
+        "18927115",
+        "journal=Nucleic acids research&title=NCBI Reference Sequences: current status, policy and new initiatives&author=KD Pruitt&author=T Tatusova&author=W Klimke&author=DR Maglott&volume=37&publication_year=2009&pages=D32-36&pmid=18927115&doi=10.1093/nar/gkn721&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Pruitt1",
+        "position": 93,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Benjamini1",
+      "position": 94,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Benjamini Y, Hochberg Y (1995) Controlling the false discovery rate: A practical and powerful approach to multiple testing. Journal of the Royal Statistical Society Series B\n57: 289–300.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Journal of the Royal Statistical Society Series B&title=Controlling the false discovery rate: A practical and powerful approach to multiple testing&author=Y Benjamini&author=Y Hochberg&volume=57&publication_year=1995&pages=289-300&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Benjamini1",
+        "position": 94,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Felsenstein1",
+      "position": 95,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Felsenstein J (1985) Confidence limits on phylogenies: an approach using the bootstrap. Evolution\n39: 783–791.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1558-5646.1985.tb00420.x",
+        "28561359",
+        "journal=Evolution&title=Confidence limits on phylogenies: an approach using the bootstrap&author=J Felsenstein&volume=39&publication_year=1985&pages=783-791&pmid=28561359&doi=10.1111/j.1558-5646.1985.tb00420.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Felsenstein1",
+        "position": 95,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1002936-Shimodaira1",
+      "position": 96,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Shimodaira H, Hasegawa M (2001) CONSEL: for assessing the confidence of phylogenetic tree selection. Bioinformatics\n17: 1246–1247.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/17.12.1246",
+        "11751242",
+        "journal=Bioinformatics&title=CONSEL: for assessing the confidence of phylogenetic tree selection&author=H Shimodaira&author=M Hasegawa&volume=17&publication_year=2001&pages=1246-1247&pmid=11751242&doi=10.1093/bioinformatics/17.12.1246&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC3591270/article.xml",
+        "articleSha256": "64a0aeccb2712cf2207203ce16342f6a1c7d8cc99f042dc7764e5befd4e53211",
+        "referenceId": "pcbi.1002936-Shimodaira1",
+        "position": 96,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "PLoS Computational Biology"
+    ],
+    "abbreviations": [
+      {
+        "value": "PLoS Comput Biol"
+      }
+    ],
+    "identifiers": [
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "328"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ploscomp"
+      }
+    ],
+    "issns": [],
+    "publisherNames": [
+      "PLOS"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "9"
+    ],
+    "issue": [
+      "3"
+    ],
+    "fpage": [
+      "e1002936"
+    ]
+  }
+}

@@ -1,0 +1,1291 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Hoplobatrachus rugulosus
+    name:
+      en: Hoplobatrachus rugulosus
+      zh: Hoplobatrachus rugulosus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1672"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 1509
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1676"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 1513
+      - topic: ecology
+        title:
+          en: Selected thermal preference estimate
+          zh: 选列的温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1680"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/3/text/zh
+        sourceRowNumber: 1517
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 1509
+        values:
+          - "1672"
+          - Rachel Oh
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop2
+          - Hoplobatrachus_rugulosus_pop2_UTL_co1
+          - NA
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "25"
+          - NA
+          - NA
+          - Acclimation conditions were unclear, but it seems like animals were raised in lab conditions at 25C until testing.
+          - larvae
+          - "33"
+          - "13.29"
+          - "0.81"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - "25"
+          - "0.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (28-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "43.30357143"
+          - "0.089285714"
+          - "120"
+          - se
+          - Data was digitised from figure 1. This data was digitised by PPottier.
+      - rowNumber: 1510
+        values:
+          - "1673"
+          - Rachel Oh
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop2
+          - Hoplobatrachus_rugulosus_pop2_UTL_co2
+          - NA
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "25"
+          - NA
+          - NA
+          - Acclimation conditions were unclear, but it seems like animals were raised in lab conditions at 25C until testing.
+          - juveniles
+          - NA
+          - "22.98"
+          - "1.16"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - "25"
+          - "0.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "35.51785714"
+          - "0.446428571"
+          - "13"
+          - se
+          - Data was digitised from figure 1. This data was digitised by PPottier.
+      - rowNumber: 1511
+        values:
+          - "1674"
+          - Rachel Oh
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop2
+          - Hoplobatrachus_rugulosus_pop2_UTL_co3
+          - NA
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "25"
+          - NA
+          - NA
+          - Acclimation conditions were unclear, but it seems like animals were raised in lab conditions at 25C until testing.
+          - juveniles
+          - NA
+          - "62.01"
+          - "30.49"
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - "25"
+          - "0.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were sub-adults so they were taken as "juveniles"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.01785714"
+          - "0.142857143"
+          - "89"
+          - se
+          - Data was digitised from figure 1. This data was digitised by PPottier.
+      - rowNumber: 1512
+        values:
+          - "1675"
+          - Rachel Oh
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop2
+          - Hoplobatrachus_rugulosus_pop2_UTL_co4
+          - NA
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "25"
+          - NA
+          - NA
+          - Acclimation conditions were unclear, but it seems like animals were raised in lab conditions at 25C until testing.
+          - juveniles
+          - NA
+          - "66.94"
+          - "56.53"
+          - NA
+          - female
+          - CTmax
+          - LRR
+          - water
+          - "25"
+          - "0.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were sub-adults so they were taken as "juveniles"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.57142857"
+          - "0.410714286"
+          - "11"
+          - se
+          - Data was digitised from figure 1. This data was digitised by PPottier.
+      - rowNumber: 1513
+        values:
+          - "1676"
+          - Rachel Oh/ Patrice Pottier
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop1
+          - Hoplobatrachus_rugulosus_pop1_LTL_co1
+          - The same individuals were assessed for CTmin and PBT, hence the shared cohort IDs
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "33"
+          - "25"
+          - NA
+          - NA
+          - Unclear acclimation conditions, but tadpoles were likely acclimated to 25C
+          - larvae
+          - NA
+          - "13.29"
+          - "0.81"
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.73246753"
+          - "0.109090909"
+          - "120"
+          - se
+          - NA
+      - rowNumber: 1514
+        values:
+          - "1677"
+          - Rachel Oh/ Patrice Pottier
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop1
+          - Hoplobatrachus_rugulosus_pop1_LTL_co2
+          - The same individuals were assessed for CTmin and PBT, hence the shared cohort IDs
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "25"
+          - NA
+          - "2"
+          - NA
+          - juveniles
+          - NA
+          - "22.98"
+          - "1.16"
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "13.86493506"
+          - "0.342857143"
+          - "13"
+          - se
+          - NA
+      - rowNumber: 1515
+        values:
+          - "1678"
+          - Rachel Oh/ Patrice Pottier
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop1
+          - Hoplobatrachus_rugulosus_pop1_LTL_co3
+          - The same individuals were assessed for CTmin and PBT, hence the shared cohort IDs
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "25"
+          - NA
+          - "2"
+          - NA
+          - juveniles
+          - NA
+          - "62.01"
+          - "30.49"
+          - NA
+          - female
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "11.26233766"
+          - "0.202597403"
+          - "11"
+          - se
+          - NA
+      - rowNumber: 1516
+        values:
+          - "1679"
+          - Rachel Oh/ Patrice Pottier
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop1
+          - Hoplobatrachus_rugulosus_pop1_LTL_co4
+          - The same individuals were assessed for CTmin and PBT, hence the shared cohort IDs
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "25"
+          - NA
+          - "2"
+          - NA
+          - juveniles
+          - NA
+          - "66.94"
+          - "56.53"
+          - NA
+          - male
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.85714286"
+          - "0.109090909"
+          - "89"
+          - se
+          - NA
+      - rowNumber: 1517
+        values:
+          - "1680"
+          - Rachel Oh/ Patrice Pottier
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop1
+          - Hoplobatrachus_rugulosus_pop1_PBT_co1
+          - The same individuals were assessed for CTmin and PBT, hence the shared cohort IDs
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "33"
+          - "25"
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/8/values/42
+          - larvae
+          - NA
+          - "13.29"
+          - "0.81"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.5"
+          - "2"
+          - linear
+          - "10"
+          - "42"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "28.22506394"
+          - "0.322250639"
+          - "120"
+          - se
+          - NA
+      - rowNumber: 1518
+        values:
+          - "1681"
+          - Rachel Oh/ Patrice Pottier
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop1
+          - Hoplobatrachus_rugulosus_pop1_PBT_co2
+          - The same individuals were assessed for CTmin and PBT, hence the shared cohort IDs
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "25"
+          - NA
+          - "1"
+          - PBT measurements were done one day prior to CTmin measurements
+          - juveniles
+          - NA
+          - "22.98"
+          - "1.16"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+          - "1"
+          - linear
+          - "20"
+          - "45"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "24.15089514"
+          - "0.57544757"
+          - "13"
+          - se
+          - NA
+      - rowNumber: 1519
+        values:
+          - "1682"
+          - Rachel Oh/ Patrice Pottier
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop1
+          - Hoplobatrachus_rugulosus_pop1_PBT_co3
+          - The same individuals were assessed for CTmin and PBT, hence the shared cohort IDs
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "25"
+          - NA
+          - "1"
+          - PBT measurements were done one day prior to CTmin measurements
+          - juveniles
+          - NA
+          - "62.01"
+          - "30.49"
+          - NA
+          - female
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+          - "1"
+          - linear
+          - "20"
+          - "45"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "28.06393862"
+          - "0.874680307"
+          - "11"
+          - se
+          - NA
+      - rowNumber: 1520
+        values:
+          - "1683"
+          - Rachel Oh/ Patrice Pottier
+          - Fan_et_al_2012
+          - Ontogenetic shifts in selected body temperature and thermal tolerance of the tiger frog, Hoplobatrachus chinensis
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10. 5846 / stxb201202290271
+          - Simplified Chinese
+          - Hoplobatrachus_rugulosus_pop1
+          - Hoplobatrachus_rugulosus_pop1_PBT_co4
+          - The same individuals were assessed for CTmin and PBT, hence the shared cohort IDs
+          - Anura
+          - Dicroglossidae
+          - Hoplobatrachus rugulosus
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "25"
+          - NA
+          - "1"
+          - PBT measurements were done one day prior to CTmin measurements
+          - juveniles
+          - NA
+          - "66.94"
+          - "56.53"
+          - NA
+          - male
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+          - "1"
+          - linear
+          - "20"
+          - "45"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "29.23785166"
+          - "0.368286445"
+          - "89"
+          - se
+          - NA
+    originalStudyCitations:
+      - ref: Fan_et_al_2012
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: 10. 5846 / stxb201202290271
+        year: "2012"
+    selectedEstimateRowNumbers:
+      - 1509
+      - 1513
+      - 1517
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Hoplobatrachus rugulosus — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 1509, 1510, 1511, 1512, 1513, 1514, 1515, 1516, 1517, 1518, 1519, 1520; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/8/values/42 -->
+Unclear acclimation conditions, but tadpoles were likely acclimated to 25C. PBT measurements were done one day prior to CTmin measurements
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

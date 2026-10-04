@@ -1,0 +1,1954 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Kurixalus naso
+    name:
+      en: Kurixalus naso
+      zh: Kurixalus naso
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Rhacophoridae
+      genus: Kurixalus
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 4875
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/0/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 26
+          - 15.68
+          - 0.45
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4876
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/1/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 27
+          - 15.78
+          - 0.42
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4877
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/2/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 28
+          - 16
+          - 0.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4878
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/3/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 29
+          - 16.78
+          - 0.04
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4879
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/4/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 30
+          - 17.97
+          - 0.05
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4880
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/5/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 31
+          - 19.48
+          - 0.05
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4881
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/6/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 32
+          - 19.94
+          - 0.04
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4882
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/7/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 33
+          - 20.08
+          - 0.18
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4883
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/8/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 34
+          - 21.09
+          - 0.16
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4884
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/9/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 35
+          - 22
+          - 0.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4885
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/10/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 36
+          - 23.04
+          - 0.12
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4886
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/11/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 37
+          - 24.04
+          - 0.12
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4887
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/12/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 38
+          - 24.78
+          - 0.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4888
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/13/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 39
+          - 25.38
+          - 0.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4889
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/14/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 40
+          - 25.77
+          - 0.04
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4890
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/15/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 41
+          - 26.17
+          - 0.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4891
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/16/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 42
+          - 27.38
+          - 0.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4892
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/17/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 43
+          - 15.27
+          - 0.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4893
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/18/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 44
+          - 14
+          - 0.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4894
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/19/values/0
+          - Kurixalus naso
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus naso
+          - 10
+          - 45
+          - 13.37
+          - 0.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows: []
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies: []
+    selectedSourceRatios: []
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3RG4N
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Kurixalus naso — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 4875, 4876, 4877, 4878, 4879, 4880, 4881, 4882, 4883, 4884, 4885, 4886, 4887, 4888, 4889, 4890, 4891, 4892, 4893, 4894; Picture measurement data rows none; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/0/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/1/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/2/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/3/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/4/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/5/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/6/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/7/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/8/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/9/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/10/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/11/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/12/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/13/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/14/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/15/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/16/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/17/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/18/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/19/values/0 -->
+Shangpliang, P. W., Shadap, R., K. Hooroo, R. N., Nongkynrih, S. J., Kharkongor, M., Rangad, D. & Lyngdoh Tron, R. K. (2021). The First Comprehensive Description of the Normal Development of Annandale’s High Altitude Frog, Kurixalus naso (Annandale, 1912). Current Herpetology, 40.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

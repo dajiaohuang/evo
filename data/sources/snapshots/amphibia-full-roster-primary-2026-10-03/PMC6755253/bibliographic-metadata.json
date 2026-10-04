@@ -1,0 +1,1681 @@
+{
+  "pmcid": "PMC6755253",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+  "sha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+  "articleType": "research-article",
+  "title": "Chromosome-level assembly of the mustache toad genome using third-generation DNA sequencing and Hi-C analysis",
+  "authors": [],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC6755253"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "6755253"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "6755253"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "31544214"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1093/gigascience/giz114"
+    }
+  ],
+  "publicationDates": [
+    {
+      "year": "2019",
+      "month": "9",
+      "day": "23"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "sup1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_giga-d-19-00099_original_submission.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_giga-d-19-00099_original_submission.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "sup2",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_giga-d-19-00099_revision_1.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_giga-d-19-00099_revision_1.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "sup3",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_giga-d-19-00099_revision_2.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_giga-d-19-00099_revision_2.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "sup4",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_response_to_reviewer_comments_original_submission.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_response_to_reviewer_comments_original_submission.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "sup5",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_response_to_reviewer_comments_revision_1.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_response_to_reviewer_comments_revision_1.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "sup6",
+      "position": 5,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_reviewer_1_report_original_submission.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_reviewer_1_report_original_submission.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "sup7",
+      "position": 6,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_reviewer_1_report_revision_1.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_reviewer_1_report_revision_1.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "sup8",
+      "position": 7,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_reviewer_2_report_original_submission.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_reviewer_2_report_original_submission.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "sup9",
+      "position": 8,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_supplementary_files.doc",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_supplementary_files.doc",
+            "mimetype": "application",
+            "mime-subtype": "msword"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material1_reqid_",
+      "position": 9,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_giga-d-19-00099_original_submission.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_giga-d-19-00099_original_submission.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material2_reqid_",
+      "position": 10,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_giga-d-19-00099_revision_1.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_giga-d-19-00099_revision_1.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material3_reqid_",
+      "position": 11,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_giga-d-19-00099_revision_2.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_giga-d-19-00099_revision_2.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material4_reqid_",
+      "position": 12,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_response_to_reviewer_comments_original_submission.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_response_to_reviewer_comments_original_submission.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material5_reqid_",
+      "position": 13,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_response_to_reviewer_comments_revision_1.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_response_to_reviewer_comments_revision_1.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material6_reqid_",
+      "position": 14,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_reviewer_1_report_original_submission.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_reviewer_1_report_original_submission.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material7_reqid_",
+      "position": 15,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_reviewer_1_report_revision_1.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_reviewer_1_report_revision_1.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material8_reqid_",
+      "position": 16,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_reviewer_2_report_original_submission.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_reviewer_2_report_original_submission.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material9_reqid_",
+      "position": 17,
+      "links": [
+        {
+          "element": "media",
+          "href": "giz114_supplementary_files.doc",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "giz114_supplementary_files.doc",
+            "mimetype": "application",
+            "mime-subtype": "msword"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "bib1",
+      "position": 0,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Liang F, Changyuan Y. \nAmphibians of China. Beijing: Science Press; 2016;466-485.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Amphibians of China&author=F Liang&author=Y Changyuan&publication_year=2016&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib2",
+      "position": 1,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Matsui M, Hamidy A, Murphy RW, et al.. \nPhylogenetic relationships of megophryid frogs of the genus Leptobrachium (Amphibia, Anura) as revealed by mtDNA gene sequences. Mol Phylogenet Evol. 2010;56(1):259–72.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ympev.2010.03.014",
+        "20302957",
+        "journal=Mol Phylogenet Evol&title=Phylogenetic relationships of megophryid frogs of the genus Leptobrachium (Amphibia, Anura) as revealed by mtDNA gene sequences&author=M Matsui&author=A Hamidy&author=RW Murphy&volume=56&issue=1&publication_year=2010&pages=259-72&pmid=20302957&doi=10.1016/j.ympev.2010.03.014&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib3",
+      "position": 2,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Matsui M.\nA newLeptobrachium (Vibrissaphora) from Laos (Anura: Megophryidae). Curr Herpetol. 2013;32(2):182–9.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Curr Herpetol&title=A newLeptobrachium (Vibrissaphora) from Laos (Anura: Megophryidae)&author=M Matsui&volume=32&issue=2&publication_year=2013&pages=182-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib4",
+      "position": 3,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Liu C-C, Hu S-Q, Zhao EM. \nPreliminary study of genus Vibrissaphora (Amphibia: Salientia) and discussion on problems of amphibian classification [in Chinese]. Acta Herpetologica Sinica. 1980;31:1–9.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Acta Herpetologica Sinica&title=Preliminary study of genus Vibrissaphora (Amphibia: Salientia) and discussion on problems of amphibian classification [in Chinese]&author=C-C Liu&author=S-Q Hu&author=EM Zhao&volume=31&publication_year=1980&pages=1-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib5",
+      "position": 4,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rao DQ, Wilkinson JA. \nPhylogenetic relationships of the mustache toads inferred from mtDNA sequences. Mol Phyl Evol. 2008;46(1):61–73.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ympev.2007.10.005",
+        "18024176",
+        "journal=Mol Phyl Evol&title=Phylogenetic relationships of the mustache toads inferred from mtDNA sequences&author=DQ Rao&author=JA Wilkinson&volume=46&issue=1&publication_year=2008&pages=61-73&pmid=18024176&doi=10.1016/j.ympev.2007.10.005&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib6",
+      "position": 5,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zheng Y, Li S, Fu J. \nA phylogenetic analysis of the frog genera Vibrissaphoraand Leptobrachium, and the correlated evolution of nuptial spine and reversed sexual size dimorphism. Mol Phylogenet Evol. 2008;46(2):695–707.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ympev.2007.09.019",
+        "17981478",
+        "journal=Mol Phylogenet Evol&title=A phylogenetic analysis of the frog genera Vibrissaphoraand Leptobrachium, and the correlated evolution of nuptial spine and reversed sexual size dimorphism&author=Y Zheng&author=S Li&author=J Fu&volume=46&issue=2&publication_year=2008&pages=695-707&pmid=17981478&doi=10.1016/j.ympev.2007.09.019&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib7",
+      "position": 6,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zheng Y, Deng D, Li S, et al.. \nAspects of the breeding biology of the Omei mustache toad (Leptobrachium boringii): polygamy and paternal care. Amphibia-Reptilia. 2010;31(2):183–94.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Amphibia-Reptilia&title=Aspects of the breeding biology of the Omei mustache toad (Leptobrachium boringii): polygamy and paternal care&author=Y Zheng&author=D Deng&author=S Li&volume=31&issue=2&publication_year=2010&pages=183-94&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib8",
+      "position": 7,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zhang W, Guo Y, Li J, et al.. \nTranscriptome analysis reveals the genetic basis underlying the seasonal development of keratinized nuptial spines in Leptobrachium boringii. BMC Genomics. 2016;17(1):978.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/s12864-016-3295-9",
+        "PMC5126826",
+        "27894252",
+        "journal=BMC Genomics&title=Transcriptome analysis reveals the genetic basis underlying the seasonal development of keratinized nuptial spines in Leptobrachium boringii&author=W Zhang&author=Y Guo&author=J Li&volume=17&issue=1&publication_year=2016&pages=978&pmid=27894252&doi=10.1186/s12864-016-3295-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib9",
+      "position": 8,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zheng Y, Rao D, Murphy RW, et al.. \nReproductive behavior and underwater calls in the Emei mustache toad, Leptobrachium boringii. Asian Herpetol Res. 2011;2(4):199–215.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Asian Herpetol Res&title=Reproductive behavior and underwater calls in the Emei mustache toad, Leptobrachium boringii&author=Y Zheng&author=D Rao&author=RW Murphy&volume=2&issue=4&publication_year=2011&pages=199-215&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib10",
+      "position": 9,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hudson CM, Xianjin HE, Jinzhong FU. \nKeratinized nuptial spines are used for male combat in the Emei moustache toad (Leptobrachium boringii). Asian Herpetol Res. 2011;2(3):142–8.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Asian Herpetol Res&title=Keratinized nuptial spines are used for male combat in the Emei moustache toad (Leptobrachium boringii)&author=CM Hudson&author=HE Xianjin&author=FU Jinzhong&volume=2&issue=3&publication_year=2011&pages=142-8&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib11",
+      "position": 10,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Genome 10K Community of Scientists\n. Genome 10K: a proposal to obtain whole-genome sequence for 10,000 vertebrate species. J Hered. 2009;100(6):659–74.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/jhered/esp086",
+        "PMC2877544",
+        "19892720",
+        "journal=J Hered&title=. Genome 10K: a proposal to obtain whole-genome sequence for 10,000 vertebrate species&volume=100&issue=6&publication_year=2009&pages=659-74&pmid=19892720&doi=10.1093/jhered/esp086&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib12",
+      "position": 11,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "WTDBG. https://github.com/ruanjue/wtdbg-1.2.8. Accessed 30 August 2019.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://github.com/ruanjue/wtdbg-1.2.8"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib13",
+      "position": 12,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pryszcz LP, Gabaldón T. \nRedundans: an assembly pipeline for highly heterozygous genomes. Nucleic Acids Res. 2016;44(12):e113.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/nar/gkw294",
+        "PMC4937319",
+        "27131372",
+        "journal=Nucleic Acids Res&title=Redundans: an assembly pipeline for highly heterozygous genomes&author=LP Pryszcz&author=T Gabaldón&volume=44&issue=12&publication_year=2016&pages=e113&pmid=27131372&doi=10.1093/nar/gkw294&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib14",
+      "position": 13,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Simão FA, Waterhouse RM, Panagiotis I, et al.. \nBUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. Bioinformatics. 2015;31(19):3210–2.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btv351",
+        "26059717",
+        "journal=Bioinformatics&title=BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs&author=FA Simão&author=RM Waterhouse&author=I Panagiotis&volume=31&issue=19&publication_year=2015&pages=3210-2&pmid=26059717&doi=10.1093/bioinformatics/btv351&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib15",
+      "position": 14,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Walker BJ, Abeel T, Shea T, et al.. \nPilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement. PLoS One. 2014;9(11):e112963.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pone.0112963",
+        "PMC4237348",
+        "25409509",
+        "journal=PLoS One&title=Pilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement&author=BJ Walker&author=T Abeel&author=T Shea&volume=9&issue=11&publication_year=2014&pages=e112963&pmid=25409509&doi=10.1371/journal.pone.0112963&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib16",
+      "position": 15,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Servant N, Varoquaux N, Lajoie BR, et al.. \nHiC-Pro: an optimized and flexible pipeline for Hi-C data processing. Genome Biol. 2015;16(1):259.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/s13059-015-0831-x",
+        "PMC4665391",
+        "26619908",
+        "journal=Genome Biol&title=HiC-Pro: an optimized and flexible pipeline for Hi-C data processing&author=N Servant&author=N Varoquaux&author=BR Lajoie&volume=16&issue=1&publication_year=2015&pages=259&pmid=26619908&doi=10.1186/s13059-015-0831-x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib17",
+      "position": 16,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Durand N, Shamim M, Machol I, et al.. \nJuicer provides a one-click system for analyzing loop-resolution Hi-C experiments. Cell Syst. 2016;3(1):95–8.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.cels.2016.07.002",
+        "PMC5846465",
+        "27467249",
+        "journal=Cell Syst&title=Juicer provides a one-click system for analyzing loop-resolution Hi-C experiments&author=N Durand&author=M Shamim&author=I Machol&volume=3&issue=1&publication_year=2016&pages=95-8&pmid=27467249&doi=10.1016/j.cels.2016.07.002&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib18",
+      "position": 17,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Dudchenko O, Batra SS, Omer AD, et al.. \nDe novo assembly of the Aedes aegypti genome using Hi-C yields chromosome-length scaffolds. Science. 2017;356(6333):92.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.aal3327",
+        "PMC5635820",
+        "28336562",
+        "journal=Science&title=De novo assembly of the Aedes aegypti genome using Hi-C yields chromosome-length scaffolds&author=O Dudchenko&author=SS Batra&author=AD Omer&volume=356&issue=6333&publication_year=2017&pages=92&pmid=28336562&doi=10.1126/science.aal3327&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib19",
+      "position": 18,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wilkinson JA.\nA new species of the genus Vibrissaphora(Anura: Megophryidae) from Yunnan Province, China. Herpetologica. 2006;62(1):90–5.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Herpetologica&title=A new species of the genus Vibrissaphora(Anura: Megophryidae) from Yunnan Province, China&author=JA Wilkinson&volume=62&issue=1&publication_year=2006&pages=90-5&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib20",
+      "position": 19,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Li H, Durbin R. \nFast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics. 2009;25(14):1754–60.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btp324",
+        "PMC2705234",
+        "19451168",
+        "journal=Bioinformatics&title=Fast and accurate short read alignment with Burrows-Wheeler transform&author=H Li&author=R Durbin&volume=25&issue=14&publication_year=2009&pages=1754-60&pmid=19451168&doi=10.1093/bioinformatics/btp324&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib21",
+      "position": 20,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Chang Z, Li G, Liu J, et al.. \nBridger: a new framework for de novo transcriptome assembly using RNA-seq data. Genome Biol. 2015;16(1):30.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/s13059-015-0596-2",
+        "PMC4342890",
+        "25723335",
+        "journal=Genome Biol&title=Bridger: a new framework for de novo transcriptome assembly using RNA-seq data&author=Z Chang&author=G Li&author=J Liu&volume=16&issue=1&publication_year=2015&pages=30&pmid=25723335&doi=10.1186/s13059-015-0596-2&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib22",
+      "position": 21,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pertea G, Huang X, Liang F, et al.. \nTIGR Gene Indices clustering tools (TGICL): a software system for fast clustering of large EST datasets. Bioinformatics. 2003;19(5):651–2.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btg034",
+        "12651724",
+        "journal=Bioinformatics&title=TIGR Gene Indices clustering tools (TGICL): a software system for fast clustering of large EST datasets&author=G Pertea&author=X Huang&author=F Liang&volume=19&issue=5&publication_year=2003&pages=651-2&pmid=12651724&doi=10.1093/bioinformatics/btg034&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib23",
+      "position": 22,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Benson G.\nTandem Repeats Finder: a program to analyze DNA sequences. Nucleic Acids Res. 1999;27(2):573–80.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/nar/27.2.573",
+        "PMC148217",
+        "9862982",
+        "journal=Nucleic Acids Res&title=Tandem Repeats Finder: a program to analyze DNA sequences&author=G Benson&volume=27&issue=2&publication_year=1999&pages=573-80&pmid=9862982&doi=10.1093/nar/27.2.573&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib24",
+      "position": 23,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bedell JA, Korf I, Gish W. \nMaskerAid: a performance enhancement to RepeatMasker. Bioinformatics. 2000;16(11):1040–1.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/16.11.1040",
+        "11159316",
+        "journal=Bioinformatics&title=MaskerAid: a performance enhancement to RepeatMasker&author=JA Bedell&author=I Korf&author=W Gish&volume=16&issue=11&publication_year=2000&pages=1040-1&pmid=11159316&doi=10.1093/bioinformatics/16.11.1040&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib25",
+      "position": 24,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Stanke M, Waack S. \nGene prediction with a hidden Markov model and a new intron submodel. Bioinformatics. 2003;19(suppl 2):215–25.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btg1080",
+        "14534192",
+        "journal=Bioinformatics&title=Gene prediction with a hidden Markov model and a new intron submodel&author=M Stanke&author=S Waack&volume=19&issue=suppl 2&publication_year=2003&pages=215-25&pmid=14534192&doi=10.1093/bioinformatics/btg1080&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib26",
+      "position": 25,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kerstin H, Clark MD, Torroja CF, et al.. \nThe zebrafish reference genome sequence and its relationship to the human genome. Nature. 2013;496(7446):498–503.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature12111",
+        "PMC3703927",
+        "23594743",
+        "journal=Nature&title=The zebrafish reference genome sequence and its relationship to the human genome&author=H Kerstin&author=MD Clark&author=CF Torroja&volume=496&issue=7446&publication_year=2013&pages=498-503&pmid=23594743&doi=10.1038/nature12111&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib27",
+      "position": 26,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Yan-Bo S, Zi-Jun X, Xue-Yan X, et al.. \nWhole-genome sequence of the Tibetan frog Nanorana parkeri and the comparative evolution of tetrapod genomes. Proc Natl Acad Sci U S A. 2015;11(112):E1257–E62.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.1501764112",
+        "PMC4371989",
+        "25733869",
+        "journal=Proc Natl Acad Sci U S A&title=Whole-genome sequence of the Tibetan frog Nanorana parkeri and the comparative evolution of tetrapod genomes&author=S Yan-Bo&author=X Zi-Jun&author=X Xue-Yan&volume=11&issue=112&publication_year=2015&pages=E1257-E62&pmid=25733869&doi=10.1073/pnas.1501764112&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib28",
+      "position": 27,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lander ES, Linton LM, Birren B, et al.. \nInitial sequencing and analysis of the human genome. Nature. 2001;409(6822):860–921.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/35057062",
+        "11237011",
+        "journal=Nature&title=Initial sequencing and analysis of the human genome&author=ES Lander&author=LM Linton&author=B Birren&volume=409&issue=6822&publication_year=2001&pages=860-921&pmid=11237011&doi=10.1038/35057062&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib29",
+      "position": 28,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "International Chicken Genome Sequencing Consortium. Sequence and comparative analysis of the chicken genome provide unique perspectives on vertebrate evolution. Nature. 2004;432(7018):695–716.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature03154",
+        "15592404",
+        "journal=Nature&title=Sequence and comparative analysis of the chicken genome provide unique perspectives on vertebrate evolution&volume=432&issue=7018&publication_year=2004&pages=695-716&pmid=15592404&doi=10.1038/nature03154&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib30",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wang Z, Pascual-Anaya J, Zadissa A, et al.. \nThe draft genomes of soft-shell turtle and green sea turtle yield insights into the development and evolution of the turtle-specific body plan. Nat Genet. 2013;45(6):701–6.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/ng.2615",
+        "PMC4000948",
+        "23624526",
+        "journal=Nat Genet&title=The draft genomes of soft-shell turtle and green sea turtle yield insights into the development and evolution of the turtle-specific body plan&author=Z Wang&author=J Pascual-Anaya&author=A Zadissa&volume=45&issue=6&publication_year=2013&pages=701-6&pmid=23624526&doi=10.1038/ng.2615&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib31",
+      "position": 30,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Session AM, Uno Y, Kwon T, et al.. \nGenome evolution in the allotetraploid frog Xenopus laevis. Nature. 2016;538(7625):336–43.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature19840",
+        "PMC5313049",
+        "27762356",
+        "journal=Nature&title=Genome evolution in the allotetraploid frog Xenopus laevis&author=AM Session&author=Y Uno&author=T Kwon&volume=538&issue=7625&publication_year=2016&pages=336-43&pmid=27762356&doi=10.1038/nature19840&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib32",
+      "position": 31,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Smith JJ, Timoshevskaya N. \nThe sea lamprey germline genome provides insights into programmed genome rearrangement and vertebrate evolution. 2018;50(2):270–7.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41588-017-0036-1",
+        "PMC5805609",
+        "29358652",
+        "Smith JJ, Timoshevskaya N. The sea lamprey germline genome provides insights into programmed genome rearrangement and vertebrate evolution. 2018;50(2):270–7."
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib33",
+      "position": 32,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Haas BJ, Salzberg SL, Zhu W, et al.. \nAutomated eukaryotic gene structure annotation using EVidenceModeler and the Program to Assemble Spliced Alignments. Genome Biol. 2008;9(1):R7.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/gb-2008-9-1-r7",
+        "PMC2395244",
+        "18190707",
+        "journal=Genome Biol&title=Automated eukaryotic gene structure annotation using EVidenceModeler and the Program to Assemble Spliced Alignments&author=BJ Haas&author=SL Salzberg&author=W Zhu&volume=9&issue=1&publication_year=2008&pages=R7&pmid=18190707&doi=10.1186/gb-2008-9-1-r7&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib34",
+      "position": 33,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Aföldi J, Di Palma F, Grabherr M, et al.. \nThe genome of the green anole lizard and a comparative analysis with birds and mammals. Nature. 2011;477(7366):587–91.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature10390",
+        "PMC3184186",
+        "21881562",
+        "journal=Nature&title=The genome of the green anole lizard and a comparative analysis with birds and mammals&author=J Aföldi&author=F Di Palma&author=M Grabherr&volume=477&issue=7366&publication_year=2011&pages=587-91&pmid=21881562&doi=10.1038/nature10390&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib35",
+      "position": 34,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Edwards RJ, Tuipulotu DE, Amos TG, et al.. \nDraft genome assembly of the invasive cane toad, Rhinella marina. Gigascience. 2018;7(9), doi: 10.1093/gigascience/giy095.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/gigascience/giy095",
+        "PMC6145236",
+        "30101298",
+        "journal=Gigascience&title=Draft genome assembly of the invasive cane toad, Rhinella marina&author=RJ Edwards&author=DE Tuipulotu&author=TG Amos&volume=7&issue=9&publication_year=2018&pmid=30101298&doi=10.1093/gigascience/giy095&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib36",
+      "position": 35,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hammond SA, Warren RL, Vandervalk BP, et al.. \nThe North American bullfrog draft genome provides insight into hormonal regulation of long noncoding RNA. 2017;8(1):1433.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41467-017-01316-7",
+        "PMC5681567",
+        "29127278",
+        "Hammond SA, Warren RL, Vandervalk BP, et al.. The North American bullfrog draft genome provides insight into hormonal regulation of long noncoding RNA. 2017;8(1):1433."
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib37",
+      "position": 36,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Smith JJ, Timoshevskaya N, Timoshevskiy VA, et al.. \nA chromosome-scale assembly of the axolotl genome. Genome Res. 2019;29(2):317–24.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1101/gr.241901.118",
+        "PMC6360810",
+        "30679309",
+        "journal=Genome Res&title=A chromosome-scale assembly of the axolotl genome&author=JJ Smith&author=N Timoshevskaya&author=VA Timoshevskiy&volume=29&issue=2&publication_year=2019&pages=317-24&pmid=30679309&doi=10.1101/gr.241901.118&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib38",
+      "position": 37,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Nowoshilow S, Schloissnig S, Fei JF, et al.. \nThe axolotl genome and the evolution of key tissue formation regulators. Nature. 2018;554:7690.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nature25458",
+        "29364872",
+        "journal=Nature&title=The axolotl genome and the evolution of key tissue formation regulators&author=S Nowoshilow&author=S Schloissnig&author=JF Fei&volume=554&publication_year=2018&pages=7690&pmid=29364872&doi=10.1038/nature25458&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib39",
+      "position": 38,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wan QH, Pan SK, Hu L, et al.. \nGenome analysis and signature discovery for diving and sensory properties of the endangered Chinese alligator. Cell Res. 2013;23(9):1091–105.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/cr.2013.104",
+        "PMC3760627",
+        "23917531",
+        "journal=Cell Res&title=Genome analysis and signature discovery for diving and sensory properties of the endangered Chinese alligator&author=QH Wan&author=SK Pan&author=L Hu&volume=23&issue=9&publication_year=2013&pages=1091-105&pmid=23917531&doi=10.1038/cr.2013.104&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib40",
+      "position": 39,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Li L, Stoeckert CJ Jr, Roos DS. \nOrthoMCL: identification of ortholog groups for eukaryotic genomes. Genome Res. 2003;13(9):2178–89.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1101/gr.1224503",
+        "PMC403725",
+        "12952885",
+        "journal=Genome Res&title=OrthoMCL: identification of ortholog groups for eukaryotic genomes&author=L Li&author=CJ Stoeckert&author=DS Roos&volume=13&issue=9&publication_year=2003&pages=2178-89&pmid=12952885&doi=10.1101/gr.1224503&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib41",
+      "position": 40,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Edgar RC.\nMUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res. 2004;32(5):1792–7.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/nar/gkh340",
+        "PMC390337",
+        "15034147",
+        "journal=Nucleic Acids Res&title=MUSCLE: multiple sequence alignment with high accuracy and high throughput&author=RC Edgar&volume=32&issue=5&publication_year=2004&pages=1792-7&pmid=15034147&doi=10.1093/nar/gkh340&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib42",
+      "position": 41,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Edgar RC.\nMUSCLE: a multiple sequence alignment method with reduced time and space complexity. BMC Bioinformatics. 2004;5:113.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1471-2105-5-113",
+        "PMC517706",
+        "15318951",
+        "journal=BMC Bioinformatics&title=MUSCLE: a multiple sequence alignment method with reduced time and space complexity&author=RC Edgar&volume=5&publication_year=2004&pages=113&pmid=15318951&doi=10.1186/1471-2105-5-113&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib43",
+      "position": 42,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Alexandros S.\nRAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics. 2014;30(9):1312–3.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btu033",
+        "PMC3998144",
+        "24451623",
+        "journal=Bioinformatics&title=RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies&author=S Alexandros&volume=30&issue=9&publication_year=2014&pages=1312-3&pmid=24451623&doi=10.1093/bioinformatics/btu033&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib44",
+      "position": 43,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Yang Z.\nPAML 4: phylogenetic analysis by maximum likelihood. Mol Biol Evol. 2007;24(8):1586–91.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/molbev/msm088",
+        "17483113",
+        "journal=Mol Biol Evol&title=PAML 4: phylogenetic analysis by maximum likelihood&author=Z Yang&volume=24&issue=8&publication_year=2007&pages=1586-91&pmid=17483113&doi=10.1093/molbev/msm088&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib45",
+      "position": 44,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "TimeTree. www.timetree.org. Accessed 30 August 2019.",
+      "identifiers": [],
+      "externalLinks": [
+        "http://www.timetree.org"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib46",
+      "position": 45,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Tijl DB, Nello C, Demuth JP, et al.. \nCAFE: a computational tool for the study of gene family evolution. Bioinformatics. 2006;22(10):1269–71.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btl097",
+        "16543274",
+        "journal=Bioinformatics&title=CAFE: a computational tool for the study of gene family evolution&author=DB Tijl&author=C Nello&author=JP Demuth&volume=22&issue=10&publication_year=2006&pages=1269-71&pmid=16543274&doi=10.1093/bioinformatics/btl097&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib46",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib47",
+      "position": 46,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Takezaki N, Rzhetsky A, Nei M. \nPhylogenetic test of the molecular clock and linearized trees. Mol Biol Evol. 1995;12(5):823–33.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/oxfordjournals.molbev.a040259",
+        "7476128",
+        "journal=Mol Biol Evol&title=Phylogenetic test of the molecular clock and linearized trees&author=N Takezaki&author=A Rzhetsky&author=M Nei&volume=12&issue=5&publication_year=1995&pages=823-33&pmid=7476128&doi=10.1093/oxfordjournals.molbev.a040259&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib47",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib48",
+      "position": 47,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Green RE, Braun EL, Joel A, et al.. \nThree crocodilian genomes reveal ancestral patterns of evolution among archosaurs. Science. 2014;346(6215):1254449.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.1254449",
+        "PMC4386873",
+        "25504731",
+        "journal=Science&title=Three crocodilian genomes reveal ancestral patterns of evolution among archosaurs&author=RE Green&author=EL Braun&author=A Joel&volume=346&issue=6215&publication_year=2014&pages=1254449&pmid=25504731&doi=10.1126/science.1254449&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib48",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib49",
+      "position": 48,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Li Y, Ren Y, Zhang D, et al.. \nSupporting data for “Chromosome-level assembly of the mustache toad genome using third-generation DNA sequencing and Hi-C analysis.”. GigaScience. 2019. \n10.5524/100624.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.5524/100624",
+        "PMC6755253",
+        "31544214",
+        "journal=GigaScience&title=Supporting data for “Chromosome-level assembly of the mustache toad genome using third-generation DNA sequencing and Hi-C analysis.”&author=Y Li&author=Y Ren&author=D Zhang&publication_year=2019&pmid=31544214&doi=10.5524/100624&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6755253/article.xml",
+        "articleSha256": "ef61f1a4957ccde0b2f3334ce3769cf1e183524925d7a24a154a257a78c7d245",
+        "referenceId": "bib49",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "GigaScience"
+    ],
+    "abbreviations": [
+      {
+        "value": "Gigascience"
+      }
+    ],
+    "identifiers": [
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "2056"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "gigasci"
+      }
+    ],
+    "issns": [],
+    "publisherNames": [
+      "Oxford University Press"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "8"
+    ],
+    "issue": [
+      "9"
+    ],
+    "fpage": [
+      "giz114"
+    ]
+  }
+}

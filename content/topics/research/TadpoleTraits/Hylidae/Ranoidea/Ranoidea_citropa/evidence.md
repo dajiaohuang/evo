@@ -1,0 +1,622 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Ranoidea citropa
+    name:
+      en: Ranoidea citropa
+      zh: Ranoidea citropa
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/2/text/zh
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Hylidae
+      genus: Ranoidea
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 1492
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Ratio
+          - Color image
+          - Litoria citropa
+          - Hylidae
+          - Ranoidea
+          - Ranoidea citropa
+          - 36
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.374769873327288
+          - 0.621712966779326
+          - 0.167065094935839
+          - 0.178028741791004
+          - 0.0752342483444619
+          - 0.0707278872310609
+          - 0.0415739290522903
+          - null
+          - null
+          - null
+          - Rui Tian
+      - rowNumber: 1493
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria citropa
+          - Hylidae
+          - Ranoidea
+          - Ranoidea citropa
+          - 27
+          - 29.551
+          - 13.547
+          - 17.92
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.686
+          - 2.264
+          - null
+          - 0.45842782781632
+          - 0.664925856993
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.26927215859
+          - 0.766133125782545
+          - null
+          - Rui Tian
+      - rowNumber: 1494
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image(Dorsal view, Ventral view) + Hand-drawn picture(Oral disc, Side view)
+          - Litoria citropa
+          - Hylidae
+          - Ranoidea
+          - Ranoidea citropa
+          - 35
+          - 32.778
+          - 13.134
+          - 19.823
+          - 6.15
+          - 6.037
+          - 2.931
+          - 2.356
+          - 1.57
+          - 11.656
+          - 3.092
+          - 3.106
+          - 0.469558854485
+          - 0.6476539142175
+          - 0.1876258466443
+          - 0.184178412349747
+          - 0.894197327475746
+          - 0.718774787967539
+          - 0.47897983526756
+          - 0.3556436878394
+          - 0.94331563853844
+          - 0.94758679621722
+          - Rui Tian
+      - rowNumber: 1495
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria citropa
+          - Hylidae
+          - Ranoidea
+          - Ranoidea citropa
+          - 37
+          - 53.074
+          - 19.513
+          - 34.119
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 12.675
+          - 2.632
+          - null
+          - 0.367656479632212
+          - 0.642857142857143
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.23881759428
+          - 0.49591136931918
+          - null
+          - Rui Tian
+      - rowNumber: 1496
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria citropa
+          - Hylidae
+          - Ranoidea
+          - Ranoidea citropa
+          - 38
+          - 40.708
+          - 14.625
+          - 25.839
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 9.61
+          - 2.841
+          - 3.921
+          - 0.359265991942616
+          - 0.634741226
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.236715338584
+          - 0.69789721921989
+          - 0.96321336346664
+          - Rui Tian
+      - rowNumber: 1497
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria citropa
+          - Hylidae
+          - Ranoidea
+          - Ranoidea citropa
+          - 29
+          - 25.099
+          - 9.901
+          - 14.589
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5.612
+          - 1.127
+          - null
+          - 0.394477867644129
+          - 0.581258217458863
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.22359456552539
+          - 0.4492187338141
+          - null
+          - Rui Tian
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1493
+        scientificName: Ranoidea citropa
+        sourceField: TaL/TL
+        suppliedRatio: 0.664925856993
+        originalNumerator: 17.92
+        originalTotalLength: 29.551
+        computedRatio: 0.60640925856993
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1493
+        scientificName: Ranoidea citropa
+        sourceField: BMW/TL
+        suppliedRatio: 0.26927215859
+        originalNumerator: 7.686
+        originalTotalLength: 29.551
+        computedRatio: 0.26009272105850906
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1493
+        scientificName: Ranoidea citropa
+        sourceField: TMW/TL
+        suppliedRatio: 0.766133125782545
+        originalNumerator: 2.264
+        originalTotalLength: 29.551
+        computedRatio: 0.07661331257825454
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1494
+        scientificName: Ranoidea citropa
+        sourceField: BL/TL
+        suppliedRatio: 0.469558854485
+        originalNumerator: 13.134
+        originalTotalLength: 32.778
+        computedRatio: 0.4006955885044847
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1494
+        scientificName: Ranoidea citropa
+        sourceField: TaL/TL
+        suppliedRatio: 0.6476539142175
+        originalNumerator: 19.823
+        originalTotalLength: 32.778
+        computedRatio: 0.6047653914210751
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1494
+        scientificName: Ranoidea citropa
+        sourceField: TMH/TL
+        suppliedRatio: 0.894197327475746
+        originalNumerator: 2.931
+        originalTotalLength: 32.778
+        computedRatio: 0.0894197327475746
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1494
+        scientificName: Ranoidea citropa
+        sourceField: DFH/TL
+        suppliedRatio: 0.718774787967539
+        originalNumerator: 2.356
+        originalTotalLength: 32.778
+        computedRatio: 0.07187747879675392
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1494
+        scientificName: Ranoidea citropa
+        sourceField: VFH/TL
+        suppliedRatio: 0.47897983526756
+        originalNumerator: 1.57
+        originalTotalLength: 32.778
+        computedRatio: 0.047897980352675576
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1494
+        scientificName: Ranoidea citropa
+        sourceField: TMW/TL
+        suppliedRatio: 0.94331563853844
+        originalNumerator: 3.092
+        originalTotalLength: 32.778
+        computedRatio: 0.09433156385380438
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1494
+        scientificName: Ranoidea citropa
+        sourceField: OD/TL
+        suppliedRatio: 0.94758679621722
+        originalNumerator: 3.106
+        originalTotalLength: 32.778
+        computedRatio: 0.09475867960217219
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1495
+        scientificName: Ranoidea citropa
+        sourceField: TMW/TL
+        suppliedRatio: 0.49591136931918
+        originalNumerator: 2.632
+        originalTotalLength: 53.074
+        computedRatio: 0.04959113690319177
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1496
+        scientificName: Ranoidea citropa
+        sourceField: TMW/TL
+        suppliedRatio: 0.69789721921989
+        originalNumerator: 2.841
+        originalTotalLength: 40.708
+        computedRatio: 0.06978972192198095
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1496
+        scientificName: Ranoidea citropa
+        sourceField: OD/TL
+        suppliedRatio: 0.96321336346664
+        originalNumerator: 3.921
+        originalTotalLength: 40.708
+        computedRatio: 0.0963201336346664
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1497
+        scientificName: Ranoidea citropa
+        sourceField: TMW/TL
+        suppliedRatio: 0.4492187338141
+        originalNumerator: 1.127
+        originalTotalLength: 25.099
+        computedRatio: 0.04490218733814096
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.374769873327288
+        row: 1492
+        stage: 36
+        type: Ratio
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.621712966779326
+        row: 1492
+        stage: 36
+        type: Ratio
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.167065094935839
+        row: 1492
+        stage: 36
+        type: Ratio
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.178028741791004
+        row: 1492
+        stage: 36
+        type: Ratio
+        imageType: Color image
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.0752342483444619
+        row: 1492
+        stage: 36
+        type: Ratio
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Ranoidea citropa — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1492, 1493, 1494, 1495, 1496, 1497; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

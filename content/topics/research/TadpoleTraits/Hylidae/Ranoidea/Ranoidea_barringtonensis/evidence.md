@@ -1,0 +1,549 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Ranoidea barringtonensis
+    name:
+      en: Ranoidea barringtonensis
+      zh: Ranoidea barringtonensis
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/2/text/zh
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Hylidae
+      genus: Ranoidea
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 1458
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Ratio
+          - Color image
+          - Litoria barringtonensis
+          - Hylidae
+          - Ranoidea
+          - Ranoidea barringtonensis
+          - 41
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.341959334565619
+          - 0.643517296012675
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.221019276472142
+          - 0.0736730921573805
+          - 0.0565091101135463
+          - Rui Tian
+      - rowNumber: 1459
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria barringtonensis
+          - Hylidae
+          - Ranoidea
+          - Ranoidea barringtonensis
+          - 34
+          - 27.814
+          - 10.881
+          - 16.763
+          - 4.497
+          - 5.3
+          - 2.139
+          - 1.969
+          - 1.572
+          - 7.019
+          - 1.666
+          - null
+          - 0.39125867548717
+          - 0.626821253829
+          - 0.161681167757245
+          - 0.1955152816855
+          - 0.76937175523118
+          - 0.77916876393183
+          - 0.5651831366218
+          - 0.252354929172359
+          - 0.598978931473359
+          - null
+          - Rui Tian
+      - rowNumber: 1460
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image(Dorsal view) + Hand-drawn picture(Side view, Oral disc)
+          - Litoria barringtonensis
+          - Hylidae
+          - Ranoidea
+          - Ranoidea barringtonensis
+          - 36
+          - 29.393
+          - 12.021
+          - 17.284
+          - 5.818
+          - 5.767
+          - 1.939
+          - 2.143
+          - 1.687
+          - 6.701
+          - 2.207
+          - 3.214
+          - 0.48974926279
+          - 0.58831163882557
+          - 0.197938284625591
+          - 0.19623177627326
+          - 0.65968876399143
+          - 0.72985156329738
+          - 0.573946177661348
+          - 0.22797945889668
+          - 0.75859487267
+          - 0.19345762596537
+          - Rui Tian
+      - rowNumber: 1461
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria barringtonensis
+          - Hylidae
+          - Ranoidea
+          - Ranoidea barringtonensis
+          - 30
+          - 24.481
+          - 9.302
+          - 15.094
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5.785
+          - 2.028
+          - null
+          - 0.379968138556431
+          - 0.61655978154695
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.2363576466239
+          - 0.82839753278524
+          - null
+          - Rui Tian
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1459
+        scientificName: Ranoidea barringtonensis
+        sourceField: TaL/TL
+        suppliedRatio: 0.626821253829
+        originalNumerator: 16.763
+        originalTotalLength: 27.814
+        computedRatio: 0.6026821025382901
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1459
+        scientificName: Ranoidea barringtonensis
+        sourceField: MTH/TL
+        suppliedRatio: 0.1955152816855
+        originalNumerator: 5.3
+        originalTotalLength: 27.814
+        computedRatio: 0.1905515208168548
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1459
+        scientificName: Ranoidea barringtonensis
+        sourceField: TMH/TL
+        suppliedRatio: 0.76937175523118
+        originalNumerator: 2.139
+        originalTotalLength: 27.814
+        computedRatio: 0.07690371755231178
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1459
+        scientificName: Ranoidea barringtonensis
+        sourceField: DFH/TL
+        suppliedRatio: 0.77916876393183
+        originalNumerator: 1.969
+        originalTotalLength: 27.814
+        computedRatio: 0.07079168763931833
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1459
+        scientificName: Ranoidea barringtonensis
+        sourceField: VFH/TL
+        suppliedRatio: 0.5651831366218
+        originalNumerator: 1.572
+        originalTotalLength: 27.814
+        computedRatio: 0.056518300136621846
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1459
+        scientificName: Ranoidea barringtonensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.598978931473359
+        originalNumerator: 1.666
+        originalTotalLength: 27.814
+        computedRatio: 0.05989789314733587
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1460
+        scientificName: Ranoidea barringtonensis
+        sourceField: BL/TL
+        suppliedRatio: 0.48974926279
+        originalNumerator: 12.021
+        originalTotalLength: 29.393
+        computedRatio: 0.4089749260027898
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1460
+        scientificName: Ranoidea barringtonensis
+        sourceField: TMH/TL
+        suppliedRatio: 0.65968876399143
+        originalNumerator: 1.939
+        originalTotalLength: 29.393
+        computedRatio: 0.06596808763991427
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1460
+        scientificName: Ranoidea barringtonensis
+        sourceField: DFH/TL
+        suppliedRatio: 0.72985156329738
+        originalNumerator: 2.143
+        originalTotalLength: 29.393
+        computedRatio: 0.07290851563297383
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1460
+        scientificName: Ranoidea barringtonensis
+        sourceField: VFH/TL
+        suppliedRatio: 0.573946177661348
+        originalNumerator: 1.687
+        originalTotalLength: 29.393
+        computedRatio: 0.057394617766134796
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1460
+        scientificName: Ranoidea barringtonensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.75859487267
+        originalNumerator: 2.207
+        originalTotalLength: 29.393
+        computedRatio: 0.07508590480726703
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1460
+        scientificName: Ranoidea barringtonensis
+        sourceField: OD/TL
+        suppliedRatio: 0.19345762596537
+        originalNumerator: 3.214
+        originalTotalLength: 29.393
+        computedRatio: 0.10934576259653658
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1461
+        scientificName: Ranoidea barringtonensis
+        sourceField: TMW/TL
+        suppliedRatio: 0.82839753278524
+        originalNumerator: 2.028
+        originalTotalLength: 24.481
+        computedRatio: 0.08283975327805236
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.341959334565619
+        row: 1458
+        stage: 41
+        type: Ratio
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.643517296012675
+        row: 1458
+        stage: 41
+        type: Ratio
+        imageType: Color image
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.221019276472142
+        row: 1458
+        stage: 41
+        type: Ratio
+        imageType: Color image
+      - field: TMW/TL
+        label:
+          en: tail muscle width / total length
+          zh: 尾肌宽度/全长
+        value: 0.0736730921573805
+        row: 1458
+        stage: 41
+        type: Ratio
+        imageType: Color image
+      - field: OD/TL
+        label:
+          en: oral disc width / total length
+          zh: 口盘宽度/全长
+        value: 0.0565091101135463
+        row: 1458
+        stage: 41
+        type: Ratio
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Ranoidea barringtonensis — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1458, 1459, 1460, 1461; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

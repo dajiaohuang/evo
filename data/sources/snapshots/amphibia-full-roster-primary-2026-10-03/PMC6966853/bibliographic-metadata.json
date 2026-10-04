@@ -1,0 +1,1467 @@
+{
+  "pmcid": "PMC6966853",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+  "sha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+  "articleType": "research-article",
+  "title": "Lag penalized weighted correlation for time series clustering",
+  "authors": [],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC6966853"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "6966853"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "6966853"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "31948388"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1186/s12859-019-3324-1"
+    }
+  ],
+  "publicationDates": [
+    {
+      "year": "2020",
+      "month": "7",
+      "day": "17"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "http://creativecommons.org/licenses/by/4.0/",
+        "http://creativecommons.org/publicdomain/zero/1.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "MOESM1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "12859_2019_3324_MOESM1_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "12859_2019_3324_MOESM1_ESM.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM2",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "12859_2019_3324_MOESM2_ESM.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "12859_2019_3324_MOESM2_ESM.zip",
+            "mimetype": "application",
+            "mime-subtype": "zip"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM3",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "12859_2019_3324_MOESM3_ESM.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "12859_2019_3324_MOESM3_ESM.zip",
+            "mimetype": "application",
+            "mime-subtype": "zip"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM4",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "12859_2019_3324_MOESM4_ESM.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "12859_2019_3324_MOESM4_ESM.zip",
+            "mimetype": "application",
+            "mime-subtype": "zip"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM5",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "12859_2019_3324_MOESM5_ESM.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "12859_2019_3324_MOESM5_ESM.zip",
+            "mimetype": "application",
+            "mime-subtype": "zip"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material1_reqid_",
+      "position": 5,
+      "links": [
+        {
+          "element": "media",
+          "href": "12859_2019_3324_MOESM1_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "12859_2019_3324_MOESM1_ESM.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material2_reqid_",
+      "position": 6,
+      "links": [
+        {
+          "element": "media",
+          "href": "12859_2019_3324_MOESM2_ESM.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "12859_2019_3324_MOESM2_ESM.zip",
+            "mimetype": "application",
+            "mime-subtype": "zip"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material3_reqid_",
+      "position": 7,
+      "links": [
+        {
+          "element": "media",
+          "href": "12859_2019_3324_MOESM3_ESM.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "12859_2019_3324_MOESM3_ESM.zip",
+            "mimetype": "application",
+            "mime-subtype": "zip"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material4_reqid_",
+      "position": 8,
+      "links": [
+        {
+          "element": "media",
+          "href": "12859_2019_3324_MOESM4_ESM.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "12859_2019_3324_MOESM4_ESM.zip",
+            "mimetype": "application",
+            "mime-subtype": "zip"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material5_reqid_",
+      "position": 9,
+      "links": [
+        {
+          "element": "media",
+          "href": "12859_2019_3324_MOESM5_ESM.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "12859_2019_3324_MOESM5_ESM.zip",
+            "mimetype": "application",
+            "mime-subtype": "zip"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "CR1",
+      "position": 0,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bar-Joseph Z, Gitter A, Simon I. Studying and modelling dynamic biological processes using time-series gene expression data. Nat Rev Genet. 2012;13(8):552–64. doi: 10.1038/nrg3244.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nrg3244",
+        "22805708",
+        "journal=Nat Rev Genet&title=Studying and modelling dynamic biological processes using time-series gene expression data&author=Z Bar-Joseph&author=A Gitter&author=I Simon&volume=13&issue=8&publication_year=2012&pages=552-64&pmid=22805708&doi=10.1038/nrg3244&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR2",
+      "position": 1,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Spies D, Ciaudo C. Dynamics in Transcriptomics: Advancements in RNA-seq Time Course and Downstream Analysis. Comput Struct Biotechnol J. 2015;13:469–77. doi: 10.1016/j.csbj.2015.08.004.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.csbj.2015.08.004",
+        "PMC4564389",
+        "26430493",
+        "journal=Comput Struct Biotechnol J&title=Dynamics in Transcriptomics: Advancements in RNA-seq Time Course and Downstream Analysis&author=D Spies&author=C Ciaudo&volume=13&publication_year=2015&pages=469-77&pmid=26430493&doi=10.1016/j.csbj.2015.08.004&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR3",
+      "position": 2,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Liang Y, Kelemen A. Dynamic modeling and network approaches for omics time course data: overview of computational approaches and applications. Brief Bioinform. 2017. 10.1093/bib/bbx036.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bib/bbx036",
+        "28430854"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR4",
+      "position": 3,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gibbons FD, Roth FP. Judging the quality of gene expression-based clustering methods using gene annotation. Genome Res. 2002;12(10):1574–81. doi: 10.1101/gr.397002.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1101/gr.397002",
+        "PMC187526",
+        "12368250",
+        "journal=Genome Res&title=Judging the quality of gene expression-based clustering methods using gene annotation&author=FD Gibbons&author=FP Roth&volume=12&issue=10&publication_year=2002&pages=1574-81&pmid=12368250&doi=10.1101/gr.397002&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR5",
+      "position": 4,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Jaskowiak PA, Campello RJ, Costa IG. On the selection of appropriate distances for gene expression data clustering. BMC Bioinformatics. 2014;15(Suppl 2):2. doi: 10.1186/1471-2105-15-S2-S2.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1471-2105-15-S2-S2",
+        "PMC4072854",
+        "24564555",
+        "journal=BMC Bioinformatics&title=On the selection of appropriate distances for gene expression data clustering&author=PA Jaskowiak&author=RJ Campello&author=IG Costa&volume=15&issue=Suppl 2&publication_year=2014&pages=2&pmid=24564555&doi=10.1186/1471-2105-15-S2-S2&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR6",
+      "position": 5,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kleyman M, Sefer E, Nicola T, Espinoza C, Chhabra D, Hagood JS, Kaminski N, Ambalavanan N, Bar-Joseph Z. Selecting the most appropriate time points to profile in high-throughput studies. eLife. 2017;6:18541. doi: 10.7554/eLife.18541.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.7554/eLife.18541",
+        "PMC5319842",
+        "28124972",
+        "journal=eLife&title=Selecting the most appropriate time points to profile in high-throughput studies&author=M Kleyman&author=E Sefer&author=T Nicola&author=C Espinoza&author=D Chhabra&volume=6&publication_year=2017&pages=18541&pmid=28124972&doi=10.7554/eLife.18541&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR7",
+      "position": 6,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "McDowell IC, Manandhar D, Vockley CM, Schmid AK, Reddy TE, Engelhardt BE. Clustering gene expression time series data using an infinite Gaussian process mixture model. PLoS Comput Biol. 2018;14(1):1005896. doi: 10.1371/journal.pcbi.1005896.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pcbi.1005896",
+        "PMC5786324",
+        "29337990",
+        "journal=PLoS Comput Biol&title=Clustering gene expression time series data using an infinite Gaussian process mixture model&author=IC McDowell&author=D Manandhar&author=CM Vockley&author=AK Schmid&author=TE Reddy&volume=14&issue=1&publication_year=2018&pages=1005896&pmid=29337990&doi=10.1371/journal.pcbi.1005896&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR8",
+      "position": 7,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Giorgino T. Computing and visualizing dynamic time warping alignments in R: the dtw package. J Stat Softw. 2009;31(7):1–24.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=J Stat Softw&title=Computing and visualizing dynamic time warping alignments in R: the dtw package&author=T Giorgino&volume=31&issue=7&publication_year=2009&pages=1-24&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR9",
+      "position": 8,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Aach J, Church GM. Aligning gene expression time series with time warping algorithms. Bioinformatics. 2001;17(6):495–508. doi: 10.1093/bioinformatics/17.6.495.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/17.6.495",
+        "11395426",
+        "journal=Bioinformatics&title=Aligning gene expression time series with time warping algorithms&author=J Aach&author=GM Church&volume=17&issue=6&publication_year=2001&pages=495-508&pmid=11395426&doi=10.1093/bioinformatics/17.6.495&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR10",
+      "position": 9,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Specht AT, Li J. LEAP: constructing gene co-expression networks for single-cell rna-sequencing data using pseudotime ordering. Bioinformatics. 2017;33(5):764–6. doi: 10.1093/bioinformatics/btw729.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btw729",
+        "PMC5860270",
+        "27993778",
+        "journal=Bioinformatics&title=LEAP: constructing gene co-expression networks for single-cell rna-sequencing data using pseudotime ordering&author=AT Specht&author=J Li&volume=33&issue=5&publication_year=2017&pages=764-6&pmid=27993778&doi=10.1093/bioinformatics/btw729&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR11",
+      "position": 10,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Alonso AM, Peña D. Clustering time series by linear dependency. Stat Comput. 2019;29(4):655–76.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Stat Comput&title=Clustering time series by linear dependency&author=AM Alonso&author=D Peña&volume=29&issue=4&publication_year=2019&pages=655-76&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR12",
+      "position": 11,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Möller-Levet CS, Klawonn F, Cho K-H, Wolkenhauer O. Fuzzy Clustering of Short Time-Series and Unevenly Distributed Sampling Points. In: Advances in Intelligent Data Analysis V, Lecture Notes in Computer Science. Springer: 2003. p. 330–40. 10.1007/978-3-540-45231-7_31.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR13",
+      "position": 12,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bacher R, Leng N, Chu L-F, Ni Z, Thomson JA, Kendziorski C, Stewart R. Trendy: segmented regression analysis of expression dynamics in high-throughput ordered profiling experiments. BMC Bioinformatics. 2018;19(1):380. doi: 10.1186/s12859-018-2405-x.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/s12859-018-2405-x",
+        "PMC6192113",
+        "30326833",
+        "journal=BMC Bioinformatics&title=Trendy: segmented regression analysis of expression dynamics in high-throughput ordered profiling experiments&author=R Bacher&author=N Leng&author=L-F Chu&author=Z Ni&author=JA Thomson&volume=19&issue=1&publication_year=2018&pages=380&pmid=30326833&doi=10.1186/s12859-018-2405-x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR14",
+      "position": 13,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Montero P, Vilar JA, et al.  TSclust: An R package for time series clustering. J Stat Softw. 2014;62(1):1–43.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=J Stat Softw&title=TSclust: An R package for time series clustering&author=P Montero&author=JA Vilar&volume=62&issue=1&publication_year=2014&pages=1-43&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR15",
+      "position": 14,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Vilar JA, Alonso AM, Vilar JM. Non-linear time series clustering based on non-parametric forecast densities. Comput Stat Data Anal. 2010;54(11):2850–65.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=Comput Stat Data Anal&title=Non-linear time series clustering based on non-parametric forecast densities&author=JA Vilar&author=AM Alonso&author=JM Vilar&volume=54&issue=11&publication_year=2010&pages=2850-65&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR16",
+      "position": 15,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Magni P, Ferrazzi F, Sacchi L, Bellazzi R. TimeClust: a clustering tool for gene expression time series. Bioinformatics. 2007;24(3):430–2. doi: 10.1093/bioinformatics/btm605.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btm605",
+        "18065427",
+        "journal=Bioinformatics&title=TimeClust: a clustering tool for gene expression time series&author=P Magni&author=F Ferrazzi&author=L Sacchi&author=R Bellazzi&volume=24&issue=3&publication_year=2007&pages=430-2&pmid=18065427&doi=10.1093/bioinformatics/btm605&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR17",
+      "position": 16,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ferrazzi F, Magni P, Bellazzi R. Random walk models for Bayesian clustering of gene expression profiles. Appl Bioinforma. 2005;4(4):263–76. doi: 10.2165/00822942-200504040-00006.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.2165/00822942-200504040-00006",
+        "16309344",
+        "journal=Appl Bioinforma&title=Random walk models for Bayesian clustering of gene expression profiles&author=F Ferrazzi&author=P Magni&author=R Bellazzi&volume=4&issue=4&publication_year=2005&pages=263-76&pmid=16309344&doi=10.2165/00822942-200504040-00006&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR18",
+      "position": 17,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sacchi L, Bellazzi R, Larizza C, Magni P, Curk T, Petrovic U, Zupan B. TA-clustering: Cluster analysis of gene expression profiles through temporal abstractions. Int J Med Inform. 2005;74(7-8):505–17. doi: 10.1016/j.ijmedinf.2005.03.014.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ijmedinf.2005.03.014",
+        "15941669",
+        "journal=Int J Med Inform&title=TA-clustering: Cluster analysis of gene expression profiles through temporal abstractions&author=L Sacchi&author=R Bellazzi&author=C Larizza&author=P Magni&author=T Curk&volume=74&issue=7-8&publication_year=2005&pages=505-17&pmid=15941669&doi=10.1016/j.ijmedinf.2005.03.014&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR19",
+      "position": 18,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ernst J, Bar-Joseph Z. STEM: a tool for the analysis of short time series gene expression data. BMC Bioinformatics. 2006;7:191. doi: 10.1186/1471-2105-7-191.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1471-2105-7-191",
+        "PMC1456994",
+        "16597342",
+        "journal=BMC Bioinformatics&title=STEM: a tool for the analysis of short time series gene expression data&author=J Ernst&author=Z Bar-Joseph&volume=7&publication_year=2006&pages=191&pmid=16597342&doi=10.1186/1471-2105-7-191&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR20",
+      "position": 19,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sivriver J, Habib N, Friedman N. An integrative clustering and modeling algorithm for dynamical gene expression data. Bioinformatics. 2011;27(13):392–400. doi: 10.1093/bioinformatics/btr250.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btr250",
+        "PMC3117368",
+        "21685097",
+        "journal=Bioinformatics&title=An integrative clustering and modeling algorithm for dynamical gene expression data&author=J Sivriver&author=N Habib&author=N Friedman&volume=27&issue=13&publication_year=2011&pages=392-400&pmid=21685097&doi=10.1093/bioinformatics/btr250&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR21",
+      "position": 20,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sander J, Schultze JL, Yosef N. ImpulseDE: detection of differentially expressed genes in time series data using impulse models. Bioinformatics (Oxford, England) 2017;33(5):757–9. doi: 10.1093/bioinformatics/btw665.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btw665",
+        "PMC5859984",
+        "27797772",
+        "journal=Bioinformatics (Oxford, England)&title=ImpulseDE: detection of differentially expressed genes in time series data using impulse models&author=J Sander&author=JL Schultze&author=N Yosef&volume=33&issue=5&publication_year=2017&pages=757-9&pmid=27797772&doi=10.1093/bioinformatics/btw665&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR22",
+      "position": 21,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Straube J, Huang BE, Lê Cao K-A. DynOmics to identify delays and co-expression patterns across time course experiments. Sci Rep. 2017;7:40131. doi: 10.1038/srep40131.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/srep40131",
+        "PMC5220332",
+        "28065937",
+        "journal=Sci Rep&title=DynOmics to identify delays and co-expression patterns across time course experiments&author=J Straube&author=BE Huang&author=K-A Lê Cao&volume=7&publication_year=2017&pages=40131&pmid=28065937&doi=10.1038/srep40131&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR23",
+      "position": 22,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Costa IG, Schönhuth A, Schliep A. The Graphical Query Language: a tool for analysis of gene expression time-courses. Bioinformatics (Oxford, England) 2005;21(10):2544–5. doi: 10.1093/bioinformatics/bti311.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/bti311",
+        "15701683",
+        "journal=Bioinformatics (Oxford, England)&title=The Graphical Query Language: a tool for analysis of gene expression time-courses&author=IG Costa&author=A Schönhuth&author=A Schliep&volume=21&issue=10&publication_year=2005&pages=2544-5&pmid=15701683&doi=10.1093/bioinformatics/bti311&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR24",
+      "position": 23,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bar-Joseph Z, Gerber GK, Gifford DK, Jaakkola TS, Simon I. Continuous representations of time-series gene expression data. J Comput Biol. 2003;10(3-4):341–56. doi: 10.1089/10665270360688057.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1089/10665270360688057",
+        "12935332",
+        "journal=J Comput Biol&title=Continuous representations of time-series gene expression data&author=Z Bar-Joseph&author=GK Gerber&author=DK Gifford&author=TS Jaakkola&author=I Simon&volume=10&issue=3-4&publication_year=2003&pages=341-56&pmid=12935332&doi=10.1089/10665270360688057&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR25",
+      "position": 24,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wang C, Xu Y, Wang X, Zhang L, Wei S, Ye Q, Zhu Y, Yin H, Nainwal M, Tanon-Reyes L, Cheng F, Yin T, Ye N. GEsture: an online hand-drawing tool for gene expression pattern search. PeerJ. 2018;6:4927. doi: 10.7717/peerj.4927.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.7717/peerj.4927",
+        "PMC6015481",
+        "29942676",
+        "journal=PeerJ&title=GEsture: an online hand-drawing tool for gene expression pattern search&author=C Wang&author=Y Xu&author=X Wang&author=L Zhang&author=S Wei&volume=6&publication_year=2018&pages=4927&pmid=29942676&doi=10.7717/peerj.4927&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR26",
+      "position": 25,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kordestani M, Alkhateeb A, Rezaeian I, Rueda L, Saif M. A new clustering method using wavelet based probability density functions for identifying patterns in time-series data. In: 2016 IEEE EMBS International Student Conference (ISC): 2016. p. 1–4. 10.1109/EMBSISC.2016.7508616.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR27",
+      "position": 26,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ramoni MF, Sebastiani P, Kohane IS. Cluster analysis of gene expression dynamics. Proc Natl Acad Sci. 2002;99(14):9121–6. doi: 10.1073/pnas.132656399.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.132656399",
+        "PMC123104",
+        "12082179",
+        "journal=Proc Natl Acad Sci&title=Cluster analysis of gene expression dynamics&author=MF Ramoni&author=P Sebastiani&author=IS Kohane&volume=99&issue=14&publication_year=2002&pages=9121-6&pmid=12082179&doi=10.1073/pnas.132656399&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR28",
+      "position": 27,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cooke EJ, Savage RS, Kirk PD, Darkins R, Wild DL. Bayesian hierarchical clustering for microarray time series data with replicates and outlier measurements. BMC Bioinformatics. 2011;12(1):399. doi: 10.1186/1471-2105-12-399.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1471-2105-12-399",
+        "PMC3228548",
+        "21995452",
+        "journal=BMC Bioinformatics&title=Bayesian hierarchical clustering for microarray time series data with replicates and outlier measurements&author=EJ Cooke&author=RS Savage&author=PD Kirk&author=R Darkins&author=DL Wild&volume=12&issue=1&publication_year=2011&pages=399&pmid=21995452&doi=10.1186/1471-2105-12-399&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR29",
+      "position": 28,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Medvedovic M, Sivaganesan S. Bayesian infinite mixture model based clustering of gene expression profiles. Bioinformatics. 2002;18(9):1194–206. doi: 10.1093/bioinformatics/18.9.1194.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/18.9.1194",
+        "12217911",
+        "journal=Bioinformatics&title=Bayesian infinite mixture model based clustering of gene expression profiles&author=M Medvedovic&author=S Sivaganesan&volume=18&issue=9&publication_year=2002&pages=1194-206&pmid=12217911&doi=10.1093/bioinformatics/18.9.1194&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR30",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hennig C, Meila M, Murtagh F, Rocci R.  Handbook of Cluster Analysis. Florida: CRC Press; 2015.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Handbook of Cluster Analysis&author=C Hennig&author=M Meila&author=F Murtagh&author=R Rocci&publication_year=2015&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR31",
+      "position": 30,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Dahl DB. In: Do K-A, Vannucci M, Müller P, (eds).Model-Based Clustering for Expression Data via a Dirichlet Process Mixture Model. Bayesian Inference for Gene Expression and Proteomics: Cambridge University Press; 2006, pp. 201–18. 10.1017/CBO9780511584589.011.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1017/CBO9780511584589.011"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR32",
+      "position": 31,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kanshin E, Bergeron-Sandoval L-P, Isik SS, Thibault P, Michnick SW. A Cell-Signaling Network Temporally Resolves Specific versus Promiscuous Phosphorylation. Cell Rep. 2015;10(7):1202–14. doi: 10.1016/j.celrep.2015.01.052.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.celrep.2015.01.052",
+        "25704821",
+        "journal=Cell Rep&title=A Cell-Signaling Network Temporally Resolves Specific versus Promiscuous Phosphorylation&author=E Kanshin&author=L-P Bergeron-Sandoval&author=SS Isik&author=P Thibault&author=SW Michnick&volume=10&issue=7&publication_year=2015&pages=1202-14&pmid=25704821&doi=10.1016/j.celrep.2015.01.052&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR33",
+      "position": 32,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Stewart R, Rascón CA, Tian S, Nie J, Barry C, Chu L-F, Ardalani H, Wagner RJ, Probasco MD, Bolin JM, Leng N, Sengupta S, Volkmer M, Habermann B, Tanaka EM, Thomson JA, Dewey CN. Comparative RNA-seq Analysis in the Unsequenced Axolotl: The Oncogene Burst Highlights Early Gene Expression in the Blastema. PLOS Comput Biol. 2013;9(3):1002936. doi: 10.1371/journal.pcbi.1002936.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pcbi.1002936",
+        "PMC3591270",
+        "23505351",
+        "journal=PLOS Comput Biol&title=Comparative RNA-seq Analysis in the Unsequenced Axolotl: The Oncogene Burst Highlights Early Gene Expression in the Blastema&author=R Stewart&author=CA Rascón&author=S Tian&author=J Nie&author=C Barry&volume=9&issue=3&publication_year=2013&pages=1002936&pmid=23505351&doi=10.1371/journal.pcbi.1002936&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR34",
+      "position": 33,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Äijö T, Butty V, Chen Z, Salo V, Tripathi S, Burge CB, Lahesmaa R, Lähdesmäki H. Methods for time series analysis of RNA-seq data with application to human Th17 cell differentiation. Bioinformatics. 2014;30(12):113–20. doi: 10.1093/bioinformatics/btu274.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btu274",
+        "PMC4058923",
+        "24931974",
+        "journal=Bioinformatics&title=Methods for time series analysis of RNA-seq data with application to human Th17 cell differentiation&author=T Äijö&author=V Butty&author=Z Chen&author=V Salo&author=S Tripathi&volume=30&issue=12&publication_year=2014&pages=113-20&pmid=24931974&doi=10.1093/bioinformatics/btu274&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR35",
+      "position": 34,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "D’haeseleer P, Wen X, Fuhrman S, Somogyi R.  Biocomputing’99. New Jersey: World Scientific; 1999. Linear modeling of mRNA expression levels during CNS development and injury.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1142/9789814447300_0005",
+        "10380184",
+        "title=Biocomputing’99&author=P D’haeseleer&author=X Wen&author=S Fuhrman&author=R Somogyi&publication_year=1999&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR36",
+      "position": 35,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bar-Joseph Z, Gerber G, Gifford DK, Jaakkola TS, Simon I.  Proceedings of the Sixth Annual International Conference on Computational Biology. New York: ACM; 2002. A new approach to analyzing gene expression time series data.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Proceedings of the Sixth Annual International Conference on Computational Biology&author=Z Bar-Joseph&author=G Gerber&author=DK Gifford&author=TS Jaakkola&author=I Simon&publication_year=2002&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR37",
+      "position": 36,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hensman J, Lawrence ND, Rattray M. Hierarchical Bayesian modelling of gene expression time series across irregularly sampled replicates and clusters. BMC Bioinformatics. 2013;14(1):1–12. doi: 10.1186/1471-2105-14-252.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/1471-2105-14-252",
+        "PMC3766667",
+        "23962281",
+        "journal=BMC Bioinformatics&title=Hierarchical Bayesian modelling of gene expression time series across irregularly sampled replicates and clusters&author=J Hensman&author=ND Lawrence&author=M Rattray&volume=14&issue=1&publication_year=2013&pages=1-12&pmid=23962281&doi=10.1186/1471-2105-14-252&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR38",
+      "position": 37,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Crescenzi P, Silvestri R, Trevisan L.  Proceedings of the 4th IEEE Israel Symposium on Theory of Computing And Systems, volume 96. California: IEEE Computer Society; 1996. To weight or not to weight: where is the question?",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Proceedings of the 4th IEEE Israel Symposium on Theory of Computing And Systems, volume 96&author=P Crescenzi&author=R Silvestri&author=L Trevisan&publication_year=1996&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR39",
+      "position": 38,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kann V. Maximum Cut. 2000. http://www.nada.kth.se/~viggo/wwwcompendium/node85.html. Accessed 26 Mar 2018.",
+      "identifiers": [],
+      "externalLinks": [
+        "http://www.nada.kth.se/~viggo/wwwcompendium/node85.html"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR40",
+      "position": 39,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rand WM. Objective Criteria for the Evaluation of Clustering Methods. J Am Stat Assoc. 1971;66(336):846–50.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=J Am Stat Assoc&title=Objective Criteria for the Evaluation of Clustering Methods&author=WM Rand&volume=66&issue=336&publication_year=1971&pages=846-50&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR41",
+      "position": 40,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rousseeuw PJ. Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. J Comput Appl Math. 1987;20(Supplement C):53–65.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=J Comput Appl Math&title=Silhouettes: A graphical aid to the interpretation and validation of cluster analysis&author=PJ Rousseeuw&volume=20&issue=Supplement C&publication_year=1987&pages=53-65&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR42",
+      "position": 41,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Robinson MD, Smyth GK. Small-sample estimation of negative binomial dispersion, with applications to SAGE data. Biostatistics. 2007;9(2):321–32. doi: 10.1093/biostatistics/kxm030.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/biostatistics/kxm030",
+        "17728317",
+        "journal=Biostatistics&title=Small-sample estimation of negative binomial dispersion, with applications to SAGE data&author=MD Robinson&author=GK Smyth&volume=9&issue=2&publication_year=2007&pages=321-32&pmid=17728317&doi=10.1093/biostatistics/kxm030&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR43",
+      "position": 42,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Huang DW, Sherman BT, Lempicki RA. Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists. Nucleic Acids Res. 2008;37(1):1–13. doi: 10.1093/nar/gkn923.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/nar/gkn923",
+        "PMC2615629",
+        "19033363",
+        "journal=Nucleic Acids Res&title=Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists&author=DW Huang&author=BT Sherman&author=RA Lempicki&volume=37&issue=1&publication_year=2008&pages=1-13&pmid=19033363&doi=10.1093/nar/gkn923&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR44",
+      "position": 43,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Huang DW, Sherman BT, Lempicki RA. Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources. Nat Protoc. 2008;4(1):44. doi: 10.1038/nprot.2008.211.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nprot.2008.211",
+        "19131956",
+        "journal=Nat Protoc&title=Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources&author=DW Huang&author=BT Sherman&author=RA Lempicki&volume=4&issue=1&publication_year=2008&pages=44&pmid=19131956&doi=10.1038/nprot.2008.211&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR45",
+      "position": 44,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ashburner M, Ball CA, Blake JA, Botstein D, Butler H, Cherry JM, Davis AP, Dolinski K, Dwight SS, Eppig JT, Harris MA, Hill DP, Issel-Tarver L, Kasarskis A, Lewis S, Matese JC, Richardson JE, Ringwald M, Rubin GM, Sherlock G. Gene Ontology: tool for the unification of biology. Nat Genet. 2000;25(1):25–9. doi: 10.1038/75556.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/75556",
+        "PMC3037419",
+        "10802651",
+        "journal=Nat Genet&title=Gene Ontology: tool for the unification of biology&author=M Ashburner&author=CA Ball&author=JA Blake&author=D Botstein&author=H Butler&volume=25&issue=1&publication_year=2000&pages=25-9&pmid=10802651&doi=10.1038/75556&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR46",
+      "position": 45,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kanehisa M, Goto S. Kegg: Kyoto encyclopedia of genes and genomes. Nucleic Acids Res. 2000;28(1):27–30. doi: 10.1093/nar/28.1.27.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/nar/28.1.27",
+        "PMC102409",
+        "10592173",
+        "journal=Nucleic Acids Res&title=Kegg: Kyoto encyclopedia of genes and genomes&author=M Kanehisa&author=S Goto&volume=28&issue=1&publication_year=2000&pages=27-30&pmid=10592173&doi=10.1093/nar/28.1.27&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR46",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR47",
+      "position": 46,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Project Jupyter, Bussonnier M, Forde J, Freeman J, Granger B, Head T, Holdgraf C, Kelley K, Nalvarte G, Osheroff A, Pacer M, Panda Y, Perez F, Ragan-Kelley B, Willing C. Binder 2.0 - Reproducible, interactive, sharable environments for science at scale; 2018. pp. 113–20. 10.25080/Majora-4af1f417-011.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6966853/article.xml",
+        "articleSha256": "28f169c934020ce50c4189bbafc46534fc0dbbbe4b508ad22cc3b7d3e1aff7d2",
+        "referenceId": "CR47",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "BMC Bioinformatics"
+    ],
+    "abbreviations": [
+      {
+        "value": "BMC Bioinformatics"
+      }
+    ],
+    "identifiers": [
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "13"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "bmcbioi"
+      }
+    ],
+    "issns": [],
+    "publisherNames": [
+      "BMC"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "21"
+    ],
+    "fpage": [
+      "21"
+    ]
+  }
+}

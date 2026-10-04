@@ -1,0 +1,3933 @@
+{
+  "pmcid": "PMC11056320",
+  "sourceVersion": {
+    "prefix": "PMC11056320.2/",
+    "sourceUrl": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11056320.2/PMC11056320.2.xml?md5=22a1a1bb633ea3b8adedd477af2edd04",
+    "declaredSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46"
+  },
+  "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+  "sha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+  "articleType": "research-article",
+  "title": "Fast, parallel, and cache-friendly suffix array construction",
+  "authors": [
+    {
+      "name": "Jamshed Khan",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Jamshed",
+        "surname": "Khan",
+        "suffix": null
+      },
+      "originalName": "KhanJamshed",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Tobias Rubel",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Tobias",
+        "surname": "Rubel",
+        "suffix": null
+      },
+      "originalName": "RubelTobias",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Erin Molloy",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Erin",
+        "surname": "Molloy",
+        "suffix": null
+      },
+      "originalName": "MolloyErin",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Laxman Dhulipala",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Laxman",
+        "surname": "Dhulipala",
+        "suffix": null
+      },
+      "originalName": "DhulipalaLaxman",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Rob Patro",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Rob",
+        "surname": "Patro",
+        "suffix": null
+      },
+      "originalName": "PatroRob",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC11056320"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC11056320.2"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "11056320"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "11057185"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "38679714"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1186/s13015-024-00263-5"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "263"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "11056320"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1186/s13015-024-00263-5"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "11057185"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1186/s13015-024-00263-5"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2024",
+      "month": "4",
+      "day": "28"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2024",
+      "month": null,
+      "day": null
+    },
+    {
+      "year": "2024",
+      "month": "04",
+      "day": "28"
+    },
+    {
+      "year": "2024",
+      "month": "04",
+      "day": "28"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [],
+  "citedReferences": [
+    {
+      "id": "CR1",
+      "position": 0,
+      "title": "Replacing suffix trees with enhanced suffix arrays",
+      "source": "J Discrete Algorithm",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Abouelhoda",
+              "givenNames": "Mohamed Ibrahim",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AbouelhodaMohamed Ibrahim"
+            },
+            {
+              "surname": "Kurtz",
+              "givenNames": "Stefan",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KurtzStefan"
+            },
+            {
+              "surname": "Ohlebusch",
+              "givenNames": "Enno",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OhlebuschEnno"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "53"
+        ],
+        "lpage": [
+          "86"
+        ]
+      },
+      "originalCitationText": "AbouelhodaMohamed IbrahimKurtzStefanOhlebuschEnnoReplacing suffix trees with enhanced suffix arraysJ Discrete Algorithm200421538610.1016/S1570-8667(03)00065-0",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S1570-8667(03)00065-0"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR2",
+      "position": 1,
+      "title": "Technology dictates algorithms: recent developments in read alignment",
+      "source": "Genome Biol",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Alser",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlserM"
+            },
+            {
+              "surname": "Rotman",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RotmanJ"
+            },
+            {
+              "surname": "Deshpande",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DeshpandeD"
+            },
+            {
+              "surname": "Taraszka",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TaraszkaK"
+            },
+            {
+              "surname": "Shi",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShiH"
+            },
+            {
+              "surname": "Baykal",
+              "givenNames": "PI",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BaykalPI"
+            },
+            {
+              "surname": "Yang",
+              "givenNames": "HT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YangHT"
+            },
+            {
+              "surname": "Xue",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XueV"
+            },
+            {
+              "surname": "Knyazev",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KnyazevS"
+            },
+            {
+              "surname": "Singer",
+              "givenNames": "BD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SingerBD"
+            },
+            {
+              "surname": "Balliu",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BalliuB"
+            },
+            {
+              "surname": "Koslicki",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KoslickiD"
+            },
+            {
+              "surname": "Skums",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SkumsP"
+            },
+            {
+              "surname": "Zelikovsky",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZelikovskyA"
+            },
+            {
+              "surname": "Alkan",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlkanC"
+            },
+            {
+              "surname": "Mutlu",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MutluO"
+            },
+            {
+              "surname": "Mangul",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MangulS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "249"
+        ]
+      },
+      "originalCitationText": "AlserMRotmanJDeshpandeDTaraszkaKShiHBaykalPIYangHTXueVKnyazevSSingerBDBalliuBKoslickiDSkumsPZelikovskyAAlkanCMutluOMangulSTechnology dictates algorithms: recent developments in read alignmentGenome Biol202122124910.1186/s13059-021-02443-734446078PMC8390189",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13059-021-02443-7"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34446078"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8390189"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR3",
+      "position": 2,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Daniel A, Guy E. Blelloch, Laxman Dhulipala, Magdalen Dobson, and Yihan Sun. The problem-based benchmark suite (PBBS), v2. In Proceedings of the 27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, PPoPP ’22, page 445-447, New York, NY, USA, 2022. Association for Computing Machinery. 10.1145/3503221.3508422.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR4",
+      "position": 3,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Axtmann M, Witt S, Ferizovic D, Sanders P, Samplesort In-Place Parallel Super Scalar, (IPSSSSo). In 25th Annual European Symposium on Algorithms (ESA,. volume 87 of Leibniz International Proceedings in Informatics (LIPIcs), p. 9:1–9:14. Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik. 2017;2017. 10.4230/LIPIcs.ESA.2017.9.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR5",
+      "position": 4,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Timo B. Scalable string and suffix sorting: Algorithms, techniques, and tools. arXiv preprint arXiv:1808.00963, 2018.",
+      "identifiers": [],
+      "externalLinks": [
+        "http://arxiv.org/abs/1808.00963"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR6",
+      "position": 5,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Timo B, Patrick D, Johannes F, Florian K, Enno O, Peter S. Scalable text index construction, pages 252–284. Springer Nature Switzerland. Cham10.1007/978-3-031-21534-6_14.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR7",
+      "position": 6,
+      "title": "Engineering parallel string sorting",
+      "source": "Algorithmica",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bingmann",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BingmannT"
+            },
+            {
+              "surname": "Eberle",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EberleA"
+            },
+            {
+              "surname": "Sanders",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SandersP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "77"
+        ],
+        "fpage": [
+          "235"
+        ],
+        "lpage": [
+          "286"
+        ]
+      },
+      "originalCitationText": "BingmannTEberleASandersPEngineering parallel string sortingAlgorithmica20177723528610.1007/s00453-015-0071-1",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s00453-015-0071-1"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR8",
+      "position": 7,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Timo B and Peter S. Parallel string sample sort. In Algorithms–ESA 2013: 21st Annual European Symposium, Sophia Antipolis, France, September 2-4, 2013. Proceedings 21, p. 169–180. Springer, 2013.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR9",
+      "position": 8,
+      "title": "Exploring bacterial diversity via a curated and searchable snapshot of archived DNA sequences",
+      "source": "PLOS Biol",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Blackwell",
+              "givenNames": "GA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BlackwellGA"
+            },
+            {
+              "surname": "Hunt",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuntM"
+            },
+            {
+              "surname": "Malone",
+              "givenNames": "KM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaloneKM"
+            },
+            {
+              "surname": "Lima",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LimaL"
+            },
+            {
+              "surname": "Horesh",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HoreshG"
+            },
+            {
+              "surname": "Alako",
+              "givenNames": "BTF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlakoBTF"
+            },
+            {
+              "surname": "Thomson",
+              "givenNames": "NR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThomsonNR"
+            },
+            {
+              "surname": "Iqbal",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IqbalZ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "issue": [
+          "11"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "16"
+        ]
+      },
+      "originalCitationText": "BlackwellGAHuntMMaloneKMLimaLHoreshGAlakoBTFThomsonNRIqbalZExploring bacterial diversity via a curated and searchable snapshot of archived DNA sequencesPLOS Biol2021191111610.1371/journal.pbio.3001421PMC857772534752446",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pbio.3001421"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8577725"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34752446"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR10",
+      "position": 9,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Blelloch GE, Anderson D, Dhulipala L. Parlaylib-a toolkit for parallel algorithms on shared-memory multicore machines. In Proceedings of the 32nd ACM Symposium on Parallelism in Algorithms and Architectures, p. 507–509. 2020.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR11",
+      "position": 10,
+      "title": "Computing the multi-string bwt and lcp array in external memory",
+      "source": "Theor Computer Sci",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bonizzoni",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BonizzoniP"
+            },
+            {
+              "surname": "Vedova",
+              "givenNames": "GD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VedovaGD"
+            },
+            {
+              "surname": "Pirola",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PirolaY"
+            },
+            {
+              "surname": "Previtali",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PrevitaliM"
+            },
+            {
+              "surname": "Rizzi",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RizziR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "862"
+        ],
+        "fpage": [
+          "42"
+        ],
+        "lpage": [
+          "58"
+        ]
+      },
+      "originalCitationText": "BonizzoniPVedovaGDPirolaYPrevitaliMRizziRComputing the multi-string bwt and lcp array in external memoryTheor Computer Sci2021862425810.1016/j.tcs.2020.11.041",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.tcs.2020.11.041"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR12",
+      "position": 11,
+      "title": "Data structures to represent a set of k-long DNA sequences",
+      "source": "ACM Comput Surv",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Rayan",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RayanC"
+            },
+            {
+              "surname": "Jan",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JanH"
+            },
+            {
+              "surname": "Paul",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PaulM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "RayanCJanHPaulMData structures to represent a set of k-long DNA sequencesACM Comput Surv202110.1145/3445967PMC1296549541798316",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1145/3445967"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC12965495"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "41798316"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR13",
+      "position": 12,
+      "title": "Revisiting bounded context block-sorting transformations",
+      "source": "Softw Pract Exper",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Shane Culpepper",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Shane CulpepperJ"
+            },
+            {
+              "surname": "Petri",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PetriM"
+            },
+            {
+              "surname": "Puglisi",
+              "givenNames": "SJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PuglisiSJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "42"
+        ],
+        "issue": [
+          "8"
+        ],
+        "fpage": [
+          "1037"
+        ],
+        "lpage": [
+          "1054"
+        ]
+      },
+      "originalCitationText": "Shane CulpepperJPetriMPuglisiSJRevisiting bounded context block-sorting transformationsSoftw Pract Exper20124281037105410.1002/spe.1112",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/spe.1112"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR14",
+      "position": 13,
+      "title": "STAR: ultrafast universal RNA-seq aligner",
+      "source": "Bioinformatics",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dobin",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DobinA"
+            },
+            {
+              "surname": "Davis",
+              "givenNames": "CA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DavisCA"
+            },
+            {
+              "surname": "Schlesinger",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchlesingerF"
+            },
+            {
+              "surname": "Drenkow",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DrenkowJ"
+            },
+            {
+              "surname": "Zaleski",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZaleskiC"
+            },
+            {
+              "surname": "Jha",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JhaS"
+            },
+            {
+              "surname": "Batut",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BatutP"
+            },
+            {
+              "surname": "Chaisson",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChaissonM"
+            },
+            {
+              "surname": "Gingeras",
+              "givenNames": "TR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GingerasTR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "15"
+        ],
+        "lpage": [
+          "21"
+        ]
+      },
+      "originalCitationText": "DobinADavisCASchlesingerFDrenkowJZaleskiCJhaSBatutPChaissonMGingerasTRSTAR: ultrafast universal RNA-seq alignerBioinformatics2013291152110.1093/bioinformatics/bts63523104886PMC3530905",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/bts635"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23104886"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3530905"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR15",
+      "position": 14,
+      "title": "External memory bwt and lcp computation for sequence collections with applications",
+      "source": "Algorithm Mol Biol",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Egidi",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EgidiL"
+            },
+            {
+              "surname": "Louza",
+              "givenNames": "F A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LouzaF A"
+            },
+            {
+              "surname": "Manzini",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ManziniG"
+            },
+            {
+              "surname": "Telles",
+              "givenNames": "GP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TellesGP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "6"
+        ]
+      },
+      "originalCitationText": "EgidiLLouzaF AManziniGTellesGPExternal memory bwt and lcp computation for sequence collections with applicationsAlgorithm Mol Biol2019141610.1186/s13015-019-0140-0PMC640886430899322",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13015-019-0140-0"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6408864"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30899322"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR16",
+      "position": 15,
+      "title": "Lightweight bwt and lcp merging via the gap algorithm",
+      "source": "String Processing and Information Retrieval",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lavinia",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LaviniaE"
+            },
+            {
+              "surname": "Giovanni",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GiovanniM"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Fici",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FiciG"
+            },
+            {
+              "surname": "Sciortino",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SciortinoM"
+            },
+            {
+              "surname": "Venturini",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VenturiniR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Springer International Publishing"
+        ],
+        "publisher-loc": [
+          "Berlin"
+        ]
+      },
+      "originalCitationText": "LaviniaEGiovanniMFiciGSciortinoMVenturiniRLightweight bwt and lcp merging via the gap algorithmString Processing and Information Retrieval2017BerlinSpringer International Publishing",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR17",
+      "position": 16,
+      "title": "Optimal suffix tree construction with large alphabets",
+      "source": "Ann Sympos Foundations Computer Sci Pages.",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Farach",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FarachM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "FarachMOptimal suffix tree construction with large alphabetsAnn Sympos Foundations Computer Sci Pages.199710.1109/SFCS.1997.646102",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/SFCS.1997.646102"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR18",
+      "position": 17,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Fischer J, Kurpicz F. Dismantling divsufsort. In Prague Stringology Conference 2017, p.  62, 2017.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR19",
+      "position": 18,
+      "title": "Lightweight distributed suffix array construction",
+      "source": "Soc Indust Appl Mathemat",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Johannes",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JohannesF"
+            },
+            {
+              "surname": "Florian",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FlorianK"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "JohannesFFlorianKLightweight distributed suffix array constructionSoc Indust Appl Mathemat201910.1137/1.9781611975499.3",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1137/1.9781611975499.3"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR20",
+      "position": 19,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Flick P, Aluru S. Parallel distributed memory construction of suffix and longest common prefix arrays. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, SC ’15, New York, NY, USA, 2015. Association for Computing Machinery. 10.1145/2807591.2807609.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR21",
+      "position": 20,
+      "title": "Samplesort: a sampling approach to minimal storage tree sorting",
+      "source": "Journal of the ACM",
+      "year": "1970",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Donald Frazer",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Donald FrazerW"
+            },
+            {
+              "surname": "McKellar",
+              "givenNames": "AC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McKellarAC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "496"
+        ],
+        "lpage": [
+          "507"
+        ]
+      },
+      "originalCitationText": "Donald FrazerWMcKellarACSamplesort: a sampling approach to minimal storage tree sortingJournal of the ACM197017349650710.1145/321592.321600",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1145/321592.321600"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR22",
+      "position": 21,
+      "title": "Algorithms on strings, trees, and sequences: computer science and computational biology",
+      "source": "Computer Sci Comput Biol",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gusfield",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GusfieldD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "GusfieldDAlgorithms on strings, trees, and sequences: computer science and computational biologyComputer Sci Comput Biol199710.1017/CBO9780511574931",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1017/CBO9780511574931"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR23",
+      "position": 22,
+      "title": "KABOOM! a new suffix array based algorithm for clustering expression data",
+      "source": "Bioinformatics",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hazelhurst",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HazelhurstS"
+            },
+            {
+              "surname": "Lipták",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiptákZ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "issue": [
+          "24"
+        ],
+        "fpage": [
+          "3348"
+        ],
+        "lpage": [
+          "3355"
+        ]
+      },
+      "originalCitationText": "HazelhurstSLiptákZKABOOM! a new suffix array based algorithm for clustering expression dataBioinformatics201127243348335510.1093/bioinformatics/btr56021984769",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btr560"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21984769"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR24",
+      "position": 23,
+      "title": "HiTEC: accurate error correction in high-throughput sequencing data",
+      "source": "Bioinformatics",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ilie",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IlieL"
+            },
+            {
+              "surname": "Fazayeli",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FazayeliF"
+            },
+            {
+              "surname": "Ilie",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IlieS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "295"
+        ],
+        "lpage": [
+          "302"
+        ]
+      },
+      "originalCitationText": "IlieLFazayeliFIlieSHiTEC: accurate error correction in high-throughput sequencing dataBioinformatics201127329530210.1093/bioinformatics/btq65321115437",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btq653"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21115437"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR25",
+      "position": 24,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Itoh H, Tanaka H. An efficient method for in memory construction of suffix arrays. In 6th International Symposium on String Processing and Information Retrieval. 5th International Workshop on Groupware (Cat. No. PR00268), p. 81–88. IEEE, 1999.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR26",
+      "position": 25,
+      "title": "Engineering a lightweight external memory suffix array construction algorithm",
+      "source": "Math Computer Sci",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kärkkäinen",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KärkkäinenJ"
+            },
+            {
+              "surname": "Kempa",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KempaD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "137"
+        ],
+        "lpage": [
+          "149"
+        ]
+      },
+      "originalCitationText": "KärkkäinenJKempaDEngineering a lightweight external memory suffix array construction algorithmMath Computer Sci20171113714910.1007/s11786-016-0281-1",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s11786-016-0281-1"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR27",
+      "position": 26,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kärkkäinen J, Kempa D. Engineering external memory LCP array construction: Parallel, in-place and large alphabet. In 16th International Symposium on Experimental Algorithms (SEA 2017). Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik, 2017.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR28",
+      "position": 27,
+      "title": "Parallel external memory suffix sorting",
+      "source": "Combinatorial pattern matching",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Juha",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JuhaK"
+            },
+            {
+              "surname": "Dominik",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DominikK"
+            },
+            {
+              "surname": "Puglisi",
+              "givenNames": "SJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PuglisiSJ"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Cicalese",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CicaleseF"
+            },
+            {
+              "surname": "Porat",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PoratE"
+            },
+            {
+              "surname": "Vaccaro",
+              "givenNames": "U",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VaccaroU"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Springer International Publishing"
+        ],
+        "publisher-loc": [
+          "Berlin"
+        ]
+      },
+      "originalCitationText": "JuhaKDominikKPuglisiSJCicaleseFPoratEVaccaroUParallel external memory suffix sortingCombinatorial pattern matching2015BerlinSpringer International Publishing",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR29",
+      "position": 28,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kärkkäinen J, Kempa D, Puglisi SJ, Zhukova B. Engineering external memory induced suffix sorting. In 2017 Proceedings of the Ninteenth Workshop on Algorithm Engineering and Experiments (ALENEX), p. 98–108. SIAM, 2017.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR30",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kärkkäinen J, Sanders P. Simple linear work suffix array construction. In Automata, Languages and Programming: 30th International Colloquium, ICALP 2003 Eindhoven, The Netherlands, June 30–July 4, 2003 Proceedings. Springer. 30, p. 943–955, 2003.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR31",
+      "position": 30,
+      "title": "Linear work suffix array construction",
+      "source": "Journal of the ACM (JACM)",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kärkkäinen",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KärkkäinenJ"
+            },
+            {
+              "surname": "Sanders",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SandersP"
+            },
+            {
+              "surname": "Burkhardt",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BurkhardtS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "53"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "918"
+        ],
+        "lpage": [
+          "936"
+        ]
+      },
+      "originalCitationText": "KärkkäinenJSandersPBurkhardtSLinear work suffix array constructionJournal of the ACM (JACM)200653691893610.1145/1217856.1217858",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1145/1217856.1217858"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR32",
+      "position": 31,
+      "title": "Scalable, ultra-fast, and low-memory construction of compacted de bruijn graphs with Cuttlefish 2",
+      "source": "Genome Biol",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Khan",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhanJ"
+            },
+            {
+              "surname": "Kokot",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KokotM"
+            },
+            {
+              "surname": "Deorowicz",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DeorowiczS"
+            },
+            {
+              "surname": "Patro",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PatroR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "190"
+        ]
+      },
+      "originalCitationText": "KhanJKokotMDeorowiczSPatroRScalable, ultra-fast, and low-memory construction of compacted de bruijn graphs with Cuttlefish 2Genome Biol202223119010.1186/s13059-022-02743-636076275PMC9454175",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13059-022-02743-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36076275"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9454175"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR33",
+      "position": 32,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Khan J, Rubel T, Dhulipala L, Molloy E, Patro R. Fast, parallel, and cache-friendly suffix array construction. In Djamal Belazzougui and Aïda Ouangraoua, editors, 23rd International Workshop on Algorithms in Bioinformatics (WABI 2023), volume 273 of Leibniz International Proceedings in Informatics (LIPIcs), p. 16:1–16:21, Dagstuhl, Germany, 2023. Schloss Dagstuhl – Leibniz-Zentrum für Informatik. 10.4230/LIPIcs.WABI.2023.16.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR34",
+      "position": 33,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kim DK, Sim JS, Park H, Park K. Linear-time construction of suffix arrays. In combinatorial pattern matching: 14th Annual Symposium, CPM 2003 Morelia, Michoacán, Mexico, June 25–27, 2003 Proceedings. Springer. 14, p. 186–199, 2003.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR35",
+      "position": 34,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ko P, Aluru S. Space efficient linear time construction of suffix arrays. In Combinatorial Pattern Matching: 14th Annual Symposium, CPM 2003 Morelia, Michoacán, Mexico, June 25–27, 2003 Proceedings.Springer. 2003 p. 200–210",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR36",
+      "position": 35,
+      "title": "Scalable parallel suffix array construction",
+      "source": "Parallel Computing",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kulla",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KullaF"
+            },
+            {
+              "surname": "Sanders",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SandersP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "33"
+        ],
+        "issue": [
+          "9"
+        ],
+        "fpage": [
+          "605"
+        ],
+        "lpage": [
+          "612"
+        ]
+      },
+      "originalCitationText": "KullaFSandersPScalable parallel suffix array constructionParallel Computing200733960561210.1016/j.parco.2007.06.004",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.parco.2007.06.004"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR37",
+      "position": 36,
+      "title": "Parallel lightweight wavelet tree, suffix array and fm-index construction",
+      "source": "J Discrete Algorithm",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Labeit",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LabeitJ"
+            },
+            {
+              "surname": "Shun",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShunJ"
+            },
+            {
+              "surname": "Blelloch",
+              "givenNames": "GE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BlellochGE"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "43"
+        ],
+        "fpage": [
+          "2"
+        ],
+        "lpage": [
+          "17"
+        ]
+      },
+      "originalCitationText": "LabeitJShunJBlellochGEParallel lightweight wavelet tree, suffix array and fm-index constructionJ Discrete Algorithm20174321710.1016/j.jda.2017.04.001",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.jda.2017.04.001"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR38",
+      "position": 37,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Li Z, Li J, Huo H. Optimal in-place suffix sorting. In String Processing and Information Retrieval: 25th International Symposium, SPIRE 2018, Lima, Peru, October 9-11, 2018, Proceedings, p. 268–284. Springer, 2018.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR39",
+      "position": 38,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Liao G, Ma L, Zang G, Tang L. Parallel DC3 algorithm for suffix array construction on many-core accelerators. In 2015 15th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing, p. 1155–1158, 2015. 10.1109/CCGrid.2015.56.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR40",
+      "position": 39,
+      "title": "Suffix arrays: a new method for on-line string searches siam",
+      "source": "J Comput",
+      "year": "1993",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Manber",
+              "givenNames": "U",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ManberU"
+            },
+            {
+              "surname": "Myers",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MyersG"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "issue": [
+          "5"
+        ],
+        "fpage": [
+          "935"
+        ],
+        "lpage": [
+          "948"
+        ]
+      },
+      "originalCitationText": "ManberUMyersGSuffix arrays: a new method for on-line string searches siamJ Comput1993225935948",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR41",
+      "position": 40,
+      "title": "White shark genome reveals ancient elasmobranch adaptations associated with wound healing and the maintenance of genome stability",
+      "source": "Proc Natl Acad Sci",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Marra",
+              "givenNames": "NJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MarraNJ"
+            },
+            {
+              "surname": "Stanhope",
+              "givenNames": "MJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StanhopeMJ"
+            },
+            {
+              "surname": "Jue",
+              "givenNames": "NK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JueNK"
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangM"
+            },
+            {
+              "surname": "Sun",
+              "givenNames": "Q",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SunQ"
+            },
+            {
+              "surname": "Paulina Bitar",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Paulina BitarP"
+            },
+            {
+              "surname": "Richards",
+              "givenNames": "VP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RichardsVP"
+            },
+            {
+              "surname": "Komissarov",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KomissarovA"
+            },
+            {
+              "surname": "Rayko",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RaykoM"
+            },
+            {
+              "surname": "Kliver",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KliverS"
+            },
+            {
+              "surname": "Stanhope",
+              "givenNames": "BJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StanhopeBJ"
+            },
+            {
+              "surname": "Winkler",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WinklerC"
+            },
+            {
+              "surname": "O’Brien",
+              "givenNames": "SJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "O’BrienSJ"
+            },
+            {
+              "surname": "Antunes",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AntunesA"
+            },
+            {
+              "surname": "Jorgensen",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JorgensenS"
+            },
+            {
+              "surname": "Shivji",
+              "givenNames": "MS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShivjiMS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "116"
+        ],
+        "issue": [
+          "10"
+        ],
+        "fpage": [
+          "4446"
+        ],
+        "lpage": [
+          "4455"
+        ]
+      },
+      "originalCitationText": "MarraNJStanhopeMJJueNKWangMSunQPaulina BitarPRichardsVPKomissarovARaykoMKliverSStanhopeBJWinklerCO’BrienSJAntunesAJorgensenSShivjiMSWhite shark genome reveals ancient elasmobranch adaptations associated with wound healing and the maintenance of genome stabilityProc Natl Acad Sci2019116104446445510.1073/pnas.181977811630782839PMC6410855",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1819778116"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30782839"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6410855"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR42",
+      "position": 41,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Mori Y. divsufsort. https://github.com/y-256/libdivsufsort. 2015. (Accessed on 1 May 2023).",
+      "identifiers": [],
+      "externalLinks": [
+        "https://github.com/y-256/libdivsufsort"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR43",
+      "position": 42,
+      "title": "Merging string sequences by longest common prefixes",
+      "source": "IPSJ Digital Courier",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ng",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NgW"
+            },
+            {
+              "surname": "Kakehi",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KakehiK"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "69"
+        ],
+        "lpage": [
+          "78"
+        ]
+      },
+      "originalCitationText": "NgWKakehiKMerging string sequences by longest common prefixesIPSJ Digital Courier20084697810.2197/ipsjdc.4.69",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.2197/ipsjdc.4.69"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR44",
+      "position": 43,
+      "title": "Two efficient algorithms for linear time suffix array construction",
+      "source": "IEEE Trans comput",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nong",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NongG"
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangS"
+            },
+            {
+              "surname": "Chan",
+              "givenNames": "WH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChanWH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "60"
+        ],
+        "issue": [
+          "10"
+        ],
+        "fpage": [
+          "1471"
+        ],
+        "lpage": [
+          "1484"
+        ]
+      },
+      "originalCitationText": "NongGZhangSChanWHTwo efficient algorithms for linear time suffix array constructionIEEE Trans comput201060101471148410.1109/TC.2010.188",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/TC.2010.188"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR45",
+      "position": 44,
+      "title": "The complete sequence of a human genome",
+      "source": "Science",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nurk",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NurkS"
+            },
+            {
+              "surname": "Koren",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KorenS"
+            },
+            {
+              "surname": "Rhie",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RhieA"
+            },
+            {
+              "surname": "Rautiainen",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RautiainenM"
+            },
+            {
+              "surname": "Bzikadze",
+              "givenNames": "AV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BzikadzeAV"
+            },
+            {
+              "surname": "Mikheenko",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MikheenkoA"
+            },
+            {
+              "surname": "Vollger",
+              "givenNames": "MR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VollgerMR"
+            },
+            {
+              "surname": "Altemose",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AltemoseN"
+            },
+            {
+              "surname": "Uralsky",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "UralskyL"
+            },
+            {
+              "surname": "Gershman",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GershmanA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "376"
+        ],
+        "issue": [
+          "6588"
+        ],
+        "fpage": [
+          "44"
+        ],
+        "lpage": [
+          "53"
+        ]
+      },
+      "originalCitationText": "NurkSKorenSRhieARautiainenMBzikadzeAVMikheenkoAVollgerMRAltemoseNUralskyLGershmanAThe complete sequence of a human genomeScience20223766588445310.1126/science.abj698735357919PMC9186530",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.abj6987"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35357919"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9186530"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR46",
+      "position": 45,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Petri M, Navarro G, Culpepper JS, Puglisi SJ. Backwards search in context bound text transformations. In 2011 First International Conference on Data Compression, communications and processing, 2011. p. 82–91. IEEE",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR46",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR47",
+      "position": 46,
+      "title": "High-complexity regions in mammalian genomes are enriched for developmental genes",
+      "source": "Bioinformatics",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pirogov",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PirogovA"
+            },
+            {
+              "surname": "Pfaffelhuber",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PfaffelhuberP"
+            },
+            {
+              "surname": "Börsch-Haubold",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Börsch-HauboldA"
+            },
+            {
+              "surname": "Haubold",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HauboldB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "35"
+        ],
+        "issue": [
+          "11"
+        ],
+        "fpage": [
+          "1813"
+        ],
+        "lpage": [
+          "1819"
+        ]
+      },
+      "originalCitationText": "PirogovAPfaffelhuberPBörsch-HauboldAHauboldBHigh-complexity regions in mammalian genomes are enriched for developmental genesBioinformatics201935111813181910.1093/bioinformatics/bty92230395202PMC6546125",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/bty922"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30395202"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6546125"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR47",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR48",
+      "position": 47,
+      "title": "A taxonomy of suffix array construction algorithms",
+      "source": "Acm Computing Surveys (CSUR)",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Puglisi",
+              "givenNames": "SJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PuglisiSJ"
+            },
+            {
+              "surname": "Smyth",
+              "givenNames": "WF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SmythWF"
+            },
+            {
+              "surname": "Turpin",
+              "givenNames": "AH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TurpinAH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "39"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "4Ã¢â‚¬â€œes"
+        ]
+      },
+      "originalCitationText": "PuglisiSJSmythWFTurpinAHA taxonomy of suffix array construction algorithmsAcm Computing Surveys (CSUR)20073924Ã¢â‚¬â€œes10.1145/1242471.1242472",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1145/1242471.1242472"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR48",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR49",
+      "position": 48,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sanders P, Winkel S. Super scalar sample sort. In Algorithms–ESA 2004: 12th Annual European Symposium, Bergen, Norway, September 14-17, 2004. Proceedings 12, p. 784–796. Springer, 2004.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR49",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR50",
+      "position": 49,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Schindler M. A fast block-sorting algorithm for lossless data compression. In Proceedings DCC ’97. Data Compression Conference. 1997. p. 469 10.1109/DCC.1997.582137.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR50",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR51",
+      "position": 50,
+      "title": "A bioinformatician’s guide to the forefront of suffix array construction algorithms",
+      "source": "Brief Bioinform",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Shrestha",
+              "givenNames": "AMS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShresthaAMS"
+            },
+            {
+              "surname": "Frith",
+              "givenNames": "MC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FrithMC"
+            },
+            {
+              "surname": "Horton",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HortonP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "138"
+        ],
+        "lpage": [
+          "154"
+        ]
+      },
+      "originalCitationText": "ShresthaAMSFrithMCHortonPA bioinformatician’s guide to the forefront of suffix array construction algorithmsBrief Bioinform201415213815410.1093/bib/bbt08124413184PMC3956071",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bib/bbt081"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24413184"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3956071"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR51",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR52",
+      "position": 51,
+      "title": "A chromosome-scale assembly of the axolotl genome",
+      "source": "Genome Res",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Smith",
+              "givenNames": "JJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SmithJJ"
+            },
+            {
+              "surname": "Timoshevskaya",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TimoshevskayaN"
+            },
+            {
+              "surname": "Timoshevskiy",
+              "givenNames": "VA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TimoshevskiyVA"
+            },
+            {
+              "surname": "Keinath",
+              "givenNames": "Melissa C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KeinathMelissa C"
+            },
+            {
+              "surname": "Hardy",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HardyD"
+            },
+            {
+              "surname": "Voss",
+              "givenNames": "RS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VossRS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "317"
+        ],
+        "lpage": [
+          "324"
+        ]
+      },
+      "originalCitationText": "SmithJJTimoshevskayaNTimoshevskiyVAKeinathMelissa CHardyDVossRSA chromosome-scale assembly of the axolotl genomeGenome Res201929231732410.1101/gr.241901.11830679309PMC6360810",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/gr.241901.118"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30679309"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6360810"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR52",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR53",
+      "position": 52,
+      "title": "essaMEM: finding maximal exact matches using enhanced sparse suffix arrays",
+      "source": "Bioinformatics",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Vyverman",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VyvermanM"
+            },
+            {
+              "surname": "De Baets",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "De BaetsB"
+            },
+            {
+              "surname": "Fack",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FackV"
+            },
+            {
+              "surname": "Dawyndt",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DawyndtP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "802"
+        ],
+        "lpage": [
+          "804"
+        ]
+      },
+      "originalCitationText": "VyvermanMDe BaetsBFackVDawyndtPessaMEM: finding maximal exact matches using enhanced sparse suffix arraysBioinformatics201329680280410.1093/bioinformatics/btt04223349213",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btt042"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23349213"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR53",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR54",
+      "position": 53,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Weiner P. Linear pattern matching algorithms. In 14th Annual Symposium on Switching and Automata Theory (swat 1973), 1973. p. 1–11.10.1109/SWAT.1973.13.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR54",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR55",
+      "position": 54,
+      "title": "RAPSearch: a fast protein similarity search tool for short reads",
+      "source": "BMC Bioinform",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ye",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YeY"
+            },
+            {
+              "surname": "Choi",
+              "givenNames": "JH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChoiJH"
+            },
+            {
+              "surname": "Tang",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TangH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "159"
+        ]
+      },
+      "originalCitationText": "YeYChoiJHTangHRAPSearch: a fast protein similarity search tool for short readsBMC Bioinform201112115910.1186/1471-2105-12-159PMC311394321575167",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/1471-2105-12-159"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3113943"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21575167"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR55",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR56",
+      "position": 55,
+      "title": "Strain level microbial detection and quantification with applications to single cell metagenomics",
+      "source": "Nature Commun",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "kind": "collab",
+              "originalName": "Zhu K, Schäffer AA, Robinson W, Junyan Xu, Ruppin E, Ergun AF, Ye Y, Sahinalp SC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "6430"
+        ]
+      },
+      "originalCitationText": "Zhu K, Schäffer AA, Robinson W, Junyan Xu, Ruppin E, Ergun AF, Ye Y, Sahinalp SCStrain level microbial detection and quantification with applications to single cell metagenomicsNature Commun2022131643010.1038/s41467-022-33869-736307411PMC9616933",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41467-022-33869-7"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36307411"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9616933"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR56",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR57",
+      "position": 56,
+      "title": "Extensive sequencing of seven human genomes to characterize benchmark reference materials",
+      "source": "Sci Data",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zook",
+              "givenNames": "JM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZookJM"
+            },
+            {
+              "surname": "Catoe",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CatoeD"
+            },
+            {
+              "surname": "McDaniel",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McDanielJ"
+            },
+            {
+              "surname": "Vang",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VangL"
+            },
+            {
+              "surname": "Spies",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SpiesN"
+            },
+            {
+              "surname": "Sidow",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SidowA"
+            },
+            {
+              "surname": "Weng",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WengZ"
+            },
+            {
+              "surname": "Liu",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuY"
+            },
+            {
+              "surname": "Mason",
+              "givenNames": "CE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MasonCE"
+            },
+            {
+              "surname": "Alexander",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlexanderN"
+            },
+            {
+              "surname": "Henaff",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HenaffE"
+            },
+            {
+              "surname": "McIntyre",
+              "givenNames": "ABR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McIntyreABR"
+            },
+            {
+              "surname": "Chandramohan",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChandramohanD"
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenF"
+            },
+            {
+              "surname": "Jaeger",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JaegerE"
+            },
+            {
+              "surname": "Moshrefi",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MoshrefiA"
+            },
+            {
+              "surname": "Pham",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PhamK"
+            },
+            {
+              "surname": "Stedman",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StedmanW"
+            },
+            {
+              "surname": "Liang",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiangT"
+            },
+            {
+              "surname": "Saghbini",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SaghbiniM"
+            },
+            {
+              "surname": "Dzakula",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DzakulaZ"
+            },
+            {
+              "surname": "Hastie",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HastieA"
+            },
+            {
+              "surname": "Cao",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CaoH"
+            },
+            {
+              "surname": "Deikus",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DeikusG"
+            },
+            {
+              "surname": "Schadt",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchadtE"
+            },
+            {
+              "surname": "Sebra",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SebraR"
+            },
+            {
+              "surname": "Bashir",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BashirA"
+            },
+            {
+              "surname": "Truty",
+              "givenNames": "RM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TrutyRM"
+            },
+            {
+              "surname": "Chang",
+              "givenNames": "CC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChangCC"
+            },
+            {
+              "surname": "Gulbahce",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GulbahceN"
+            },
+            {
+              "surname": "Zhao",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhaoK"
+            },
+            {
+              "surname": "Ghosh",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GhoshS"
+            },
+            {
+              "surname": "Hyland",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HylandF"
+            },
+            {
+              "surname": "Yutao",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YutaoF"
+            },
+            {
+              "surname": "Chaisson",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChaissonM"
+            },
+            {
+              "surname": "Xiao",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XiaoC"
+            },
+            {
+              "surname": "Trow",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TrowJ"
+            },
+            {
+              "surname": "Sherry",
+              "givenNames": "ST",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SherryST"
+            },
+            {
+              "surname": "Zaranek",
+              "givenNames": "AW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZaranekAW"
+            },
+            {
+              "surname": "Ball",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BallM"
+            },
+            {
+              "surname": "Bobe",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BobeJ"
+            },
+            {
+              "surname": "Estep",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EstepP"
+            },
+            {
+              "surname": "Church",
+              "givenNames": "GM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChurchGM"
+            },
+            {
+              "surname": "Marks",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MarksP"
+            },
+            {
+              "surname": "Sofia",
+              "givenNames": "KP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SofiaKP"
+            },
+            {
+              "surname": "Grace",
+              "givenNames": "XYZ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GraceXYZ"
+            },
+            {
+              "surname": "Michael",
+              "givenNames": "ML",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MichaelML"
+            },
+            {
+              "surname": "Heather",
+              "givenNames": "SO",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HeatherSO"
+            },
+            {
+              "surname": "Patrice",
+              "givenNames": "AM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PatriceAM"
+            },
+            {
+              "surname": "Kristina",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KristinaG"
+            },
+            {
+              "surname": "Ying",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YingS"
+            },
+            {
+              "surname": "Karoline Bjarnesdatter",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Karoline BjarnesdatterR"
+            },
+            {
+              "surname": "Misc",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MiscS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "160025"
+        ]
+      },
+      "originalCitationText": "ZookJMCatoeDMcDanielJVangLSpiesNSidowAWengZLiuYMasonCEAlexanderNHenaffEMcIntyreABRChandramohanDChenFJaegerEMoshrefiAPhamKStedmanWLiangTSaghbiniMDzakulaZHastieACaoHDeikusGSchadtESebraRBashirATrutyRMChangCCGulbahceNZhaoKGhoshSHylandFYutaoFChaissonMXiaoCTrowJSherrySTZaranekAWBallMBobeJEstepPChurchGMMarksPSofiaKPGraceXYZMichaelMLHeatherSOPatriceAMKristinaGYingSKaroline BjarnesdatterRMiscSExtensive sequencing of seven human genomes to characterize benchmark reference materialsSci Data20163116002510.1038/sdata.2016.2527271295PMC4896128",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/sdata.2016.25"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27271295"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4896128"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11056320/PMC11056320.2/objects/b81860cd85a33d15-PMC11056320.2.xml",
+        "articleSha256": "e7c3fbcbbcce15618c2b9f2dad9438755800447b083d7baa10ce21f811439f46",
+        "referenceId": "CR57",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Algorithms for Molecular Biology : AMB"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Algorithms Mol Biol"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Algorithms Mol Biol"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "403"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "amolbio"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101265088"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "1748-7188"
+      }
+    ],
+    "publisherNames": [
+      "BMC"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "19"
+    ],
+    "elocation-id": [
+      "16"
+    ]
+  }
+}

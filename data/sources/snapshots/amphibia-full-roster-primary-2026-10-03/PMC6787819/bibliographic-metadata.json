@@ -1,0 +1,2352 @@
+{
+  "pmcid": "PMC6787819",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+  "sha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+  "articleType": "research-article",
+  "title": "Predicting species occurrences with habitat network models",
+  "authors": [],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC6787819"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "6787819"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "6787819"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "31624560"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1002/ece3.5567"
+    }
+  ],
+  "publicationDates": [
+    {
+      "year": "2019",
+      "month": "9",
+      "day": "4"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "ece35567-sup-0001",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s001.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s001.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ece35567-sup-0002",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s002.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s002.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ece35567-sup-0003",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s003.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s003.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ece35567-sup-0004",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s004.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s004.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ece35567-sup-0005",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s005.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s005.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ece35567-sup-0006",
+      "position": 5,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s006.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s006.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ece35567-sup-0007",
+      "position": 6,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s007.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s007.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ece35567-sup-0008",
+      "position": 7,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s008.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s008.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material1_reqid_",
+      "position": 8,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s001.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s001.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material2_reqid_",
+      "position": 9,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s002.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s002.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material3_reqid_",
+      "position": 10,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s003.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s003.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material4_reqid_",
+      "position": 11,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s004.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s004.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material5_reqid_",
+      "position": 12,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s005.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s005.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material6_reqid_",
+      "position": 13,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s006.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s006.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material7_reqid_",
+      "position": 14,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s007.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s007.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material8_reqid_",
+      "position": 15,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-9-10457-s008.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-9-10457-s008.pdf",
+            "mimetype": "application",
+            "mime-subtype": "pdf"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "ece35567-bib-0001",
+      "position": 0,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0001"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Adamack, A. T.\n, & \nGruber, B.\n (2014). PopGenReport: Simplifying basic population genetic analyses in R. Methods in Ecology and Evolution, 5, 384–387. 10.1111/2041-210x.12158",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/2041-210x.12158",
+        "journal=Methods in Ecology and Evolution&title=PopGenReport: Simplifying basic population genetic analyses in R&author=A. T. Adamack&author=B. Gruber&volume=5&publication_year=2014&pages=384-387&doi=10.1111/2041-210x.12158&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0001",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0002",
+      "position": 1,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0002"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Adriaensen, F.\n, \nChardon, J. P.\n, \nDe Blust, G.\n, \nSwinnen, E.\n, \nVillalba, S.\n, \nGulinck, H.\n, & \nMatthysen, E.\n (2003). The application of ‘least‐cost’ modelling as a functional landscape model. Landscape and Urban Planning, 64, 233–247. 10.1016/S0169-2046(02)00242-6",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/S0169-2046(02)00242-6",
+        "journal=Landscape and Urban Planning&title=The application of ‘least‐cost’ modelling as a functional landscape model&author=F. Adriaensen&author=J. P. Chardon&author=G. De Blust&author=E. Swinnen&author=S. Villalba&volume=64&publication_year=2003&pages=233-247&doi=10.1016/S0169-2046(02)00242-6&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0002",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0003",
+      "position": 2,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0003"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Albert, R.\n, & \nBarabási, A.‐L.\n (2000). Topology of evolving networks: Local events and universality. Physical Review Letters, 85, 5234\n10.1103/PhysRevLett.85.5234",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1103/PhysRevLett.85.5234",
+        "11102229",
+        "journal=Physical Review Letters&title=Topology of evolving networks: Local events and universality&author=R. Albert&author=A.‐L. Barabási&volume=85&publication_year=2000&pages=5234&pmid=11102229&doi=10.1103/PhysRevLett.85.5234&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0003",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0004",
+      "position": 3,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0004"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Alvarez‐Buylla, E. R.\n, \nBenítez, M.\n, \nDávila, E. B.\n, \nChaos, Á.\n, \nEspinosa‐Soto, C.\n, & \nPadilla‐Longoria, P.\n (2007). Gene regulatory network models for plant development. Current Opinion in Plant Biology, 10, 83–91. 10.1016/j.pbi.2006.11.008",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.pbi.2006.11.008",
+        "17142086",
+        "journal=Current Opinion in Plant Biology&title=Gene regulatory network models for plant development&author=E. R. Alvarez‐Buylla&author=M. Benítez&author=E. B. Dávila&author=Á. Chaos&author=C. Espinosa‐Soto&volume=10&publication_year=2007&pages=83-91&pmid=17142086&doi=10.1016/j.pbi.2006.11.008&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0004",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0005",
+      "position": 4,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0005"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Anderson, R. P.\n (2003). Real vs. artefactual absences in species distributions: Tests for Oryzomys albigularis (Rodentia : Muridae) in Venezuela. Journal of Biogeography, 30, 591–605. 10.1046/j.1365-2699.2003.00867.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1046/j.1365-2699.2003.00867.x",
+        "journal=Journal of Biogeography&title=Real vs. artefactual absences in species distributions: Tests for Oryzomys albigularis (Rodentia : Muridae) in Venezuela&author=R. P. Anderson&volume=30&publication_year=2003&pages=591-605&doi=10.1046/j.1365-2699.2003.00867.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0005",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0006",
+      "position": 5,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0006"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "ARE\n(2010). Nationales Personenverkehrsmodell des UVEK (NPVM). Berne, Switzerland: ARE.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Nationales Personenverkehrsmodell des UVEK (NPVM)&publication_year=2010&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0006",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0007",
+      "position": 6,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0007"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "BAFU\n(2016). Amphibienlaichgebiete. Berne, Switzerland: BAFU.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Amphibienlaichgebiete&publication_year=2016&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0007",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0008",
+      "position": 7,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0008"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Baranyi, G.\n, \nSaura, S.\n, \nPodani, J.\n, & \nJordán, F.\n (2011). Contribution of habitat patches to network connectivity: Redundancy and uniqueness of topological indices. Ecological Indicators, 11, 1301–1310. 10.1016/j.ecolind.2011.02.003",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ecolind.2011.02.003",
+        "journal=Ecological Indicators&title=Contribution of habitat patches to network connectivity: Redundancy and uniqueness of topological indices&author=G. Baranyi&author=S. Saura&author=J. Podani&author=F. Jordán&volume=11&publication_year=2011&pages=1301-1310&doi=10.1016/j.ecolind.2011.02.003&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0008",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0009",
+      "position": 8,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0009"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Barbet‐Massin, M.\n, \nJiguet, F.\n, \nAlbert, C. H.\n, & \nThuiller, W.\n (2012). Selecting pseudo‐absences for species distribution models: How, where and how many?\nMethods in Ecology and Evolution, 3, 327–338. 10.1111/j.2041-210X.2011.00172.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.2041-210X.2011.00172.x",
+        "journal=Methods in Ecology and Evolution&title=Selecting pseudo‐absences for species distribution models: How, where and how many?&author=M. Barbet‐Massin&author=F. Jiguet&author=C. H. Albert&author=W. Thuiller&volume=3&publication_year=2012&pages=327-338&doi=10.1111/j.2041-210X.2011.00172.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0009",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0010",
+      "position": 9,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0010"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Barrat, A.\n, \nBarthélemy, M.\n, \nPastor‐Satorras, R.\n, & \nVespignani, A.\n (2004). The architecture of complex weighted networks. Proceedings of the National Academy of Sciences of the United States of America, 101, 3747–3752. 10.1073/pnas.0400087101",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1073/pnas.0400087101",
+        "PMC374315",
+        "15007165",
+        "journal=Proceedings of the National Academy of Sciences of the United States of America&title=The architecture of complex weighted networks&author=A. Barrat&author=M. Barthélemy&author=R. Pastor‐Satorras&author=A. Vespignani&volume=101&publication_year=2004&pages=3747-3752&pmid=15007165&doi=10.1073/pnas.0400087101&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0010",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0011",
+      "position": 10,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0011"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Barve, N.\n, \nBarve, V.\n, \nJiménez‐Valverde, A.\n, \nLira‐Noriega, A.\n, \nMaher, S. P.\n, \nPeterson, A. T.\n, … \nVillalobos, F.\n (2011). The crucial role of the accessible area in ecological niche modeling and species distribution modeling. Ecological Modelling, 222, 1810–1819. 10.1016/j.ecolmodel.2011.02.011",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ecolmodel.2011.02.011",
+        "journal=Ecological Modelling&title=The crucial role of the accessible area in ecological niche modeling and species distribution modeling&author=N. Barve&author=V. Barve&author=A. Jiménez‐Valverde&author=A. Lira‐Noriega&author=S. P. Maher&volume=222&publication_year=2011&pages=1810-1819&doi=10.1016/j.ecolmodel.2011.02.011&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0011",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0012",
+      "position": 11,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0012"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "BFS\n(2013). Waldmischungsgrad der Schweiz. Berne, Switzerland: BFS.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Waldmischungsgrad der Schweiz&publication_year=2013&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0012",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0013",
+      "position": 12,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0013"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "BFS\n(2015). Statistik der Bevölkerung und der Haushalte (STATPOP). Berne, Switzerland: BFS.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Statistik der Bevölkerung und der Haushalte (STATPOP)&publication_year=2015&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0013",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0014",
+      "position": 13,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0014"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Boyce, M. S.\n, \nVernier, P. R.\n, \nNielsen, S. E.\n, & \nSchmiegelow, F. K. A.\n (2002). Evaluating resource selection functions. Ecological Modelling, 157, 281–300. 10.1016/S0304-3800(02)00200-4",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/S0304-3800(02)00200-4",
+        "journal=Ecological Modelling&title=Evaluating resource selection functions&author=M. S. Boyce&author=P. R. Vernier&author=S. E. Nielsen&author=F. K. A. Schmiegelow&volume=157&publication_year=2002&pages=281-300&doi=10.1016/S0304-3800(02)00200-4&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0014",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0015",
+      "position": 14,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0015"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Broennimann, O.\n, \nRandin, C.\n, \nZimmermann, N. E.\n, & \nGuisan, A.\n (2003). Swiss Eco‐Climatic GIS data. Lausanne, Switzerland: Ecospat Spatial Ecology Group, University of Lausanne.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Swiss Eco‐Climatic GIS data&author=O. Broennimann&author=C. Randin&author=N. E. Zimmermann&author=A. Guisan&publication_year=2003&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0015",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0016",
+      "position": 15,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0016"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bulluck, L.\n, \nFleishman, E.\n, \nBetrus, C.\n, & \nBlair, R.\n (2006). Spatial and temporal variations in species occurrence rate affect the accuracy of occurrence models. Global Ecology and Biogeography, 15, 27–38. 10.1111/j.1466-822X.2006.00170.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1466-822X.2006.00170.x",
+        "journal=Global Ecology and Biogeography&title=Spatial and temporal variations in species occurrence rate affect the accuracy of occurrence models&author=L. Bulluck&author=E. Fleishman&author=C. Betrus&author=R. Blair&volume=15&publication_year=2006&pages=27-38&doi=10.1111/j.1466-822X.2006.00170.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0016",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0017",
+      "position": 16,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0017"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bunn, A. G.\n, \nUrban, D. L.\n, & \nKeitt, T. H.\n (2000). Landscape connectivity: A conservation application of graph theory. Journal of Environmental Management, 59, 265–278. 10.1006/jema.2000.0373",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1006/jema.2000.0373",
+        "journal=Journal of Environmental Management&title=Landscape connectivity: A conservation application of graph theory&author=A. G. Bunn&author=D. L. Urban&author=T. H. Keitt&volume=59&publication_year=2000&pages=265-278&doi=10.1006/jema.2000.0373&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0017",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0018",
+      "position": 17,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0018"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Clauzel, C.\n, \nGirardet, X.\n, & \nFoltete, J. C.\n (2013). Impact assessment of a high‐speed railway line on species distribution: Application to the European tree frog (Hyla arborea) in Franche‐Comte. Journal of Environmental Management, 127, 125–134. 10.1016/j.jenvman.2013.04.018",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.jenvman.2013.04.018",
+        "23685273",
+        "journal=Journal of Environmental Management&title=Impact assessment of a high‐speed railway line on species distribution: Application to the European tree frog (Hyla arborea) in Franche‐Comte&author=C. Clauzel&author=X. Girardet&author=J. C. Foltete&volume=127&publication_year=2013&pages=125-134&pmid=23685273&doi=10.1016/j.jenvman.2013.04.018&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0018",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0019",
+      "position": 18,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0019"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Csardi, G.\n, & \nNepusz, T.\n (2006). The igraph software package for complex network research. InterJournal Complex Systems, 1695, 1–9.",
+      "identifiers": [],
+      "externalLinks": [
+        "journal=InterJournal Complex Systems&title=The igraph software package for complex network research&author=G. Csardi&author=T. Nepusz&volume=1695&publication_year=2006&pages=1-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0019",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0020",
+      "position": 19,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0020"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Deiner, K.\n, \nBik, H. M.\n, \nMächler, E.\n, \nSeymour, M.\n, \nLacoursière‐Roussel, A.\n, \nAltermatt, F.\n, … \nBernatchez, L.\n (2017). Environmental DNA metabarcoding: Transforming how we survey animal and plant communities. Molecular Ecology, 26, 5872–5895.",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/mec.14350",
+        "28921802",
+        "journal=Molecular Ecology&title=Environmental DNA metabarcoding: Transforming how we survey animal and plant communities&author=K. Deiner&author=H. M. Bik&author=E. Mächler&author=M. Seymour&author=A. Lacoursière‐Roussel&volume=26&publication_year=2017&pages=5872-5895&pmid=28921802&doi=10.1111/mec.14350&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0020",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0021",
+      "position": 20,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0021"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Duflot, R.\n, \nAvon, C.\n, \nRoche, P.\n, & \nBergès, L.\n (2018). Combining habitat suitability models and spatial graphs for more effective landscape conservation planning: An applied methodological framework and a species case study. Journal for Nature Conservation, 46, 38–47. 10.1016/j.jnc.2018.08.005",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.jnc.2018.08.005",
+        "journal=Journal for Nature Conservation&title=Combining habitat suitability models and spatial graphs for more effective landscape conservation planning: An applied methodological framework and a species case study&author=R. Duflot&author=C. Avon&author=P. Roche&author=L. Bergès&volume=46&publication_year=2018&pages=38-47&doi=10.1016/j.jnc.2018.08.005&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0021",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0022",
+      "position": 21,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0022"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Elith, J.\n (2002). Quantitative methods for modeling species habitat: comparative performance and an application to Australian plants In Ferson S., & Burgman M. (Eds.), Quantitative methods for conservation biology (pp. 39–58). New York: Springer.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Quantitative methods for conservation biology&author=J. Elith&publication_year=2002&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0022",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0023",
+      "position": 22,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0023"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Elith, J.\n, & \nLeathwick, J.\n (2017). Boosted Regression Trees for ecological modeling. R documentation. Retrieved from https://cran.r-project.org/web/packages/dismo/vignettes/brt.pdf",
+      "identifiers": [],
+      "externalLinks": [
+        "https://cran.r-project.org/web/packages/dismo/vignettes/brt.pdf",
+        "title=Boosted Regression Trees for ecological modeling&author=J. Elith&author=J. Leathwick&publication_year=2017&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0023",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0024",
+      "position": 23,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0024"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Elith, J.\n, \nLeathwick, J. R.\n, & \nHastie, T.\n (2008). A working guide to boosted regression trees. Journal of Animal Ecology, 77, 802–813. 10.1111/j.1365-2656.2008.01390.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1365-2656.2008.01390.x",
+        "18397250",
+        "journal=Journal of Animal Ecology&title=A working guide to boosted regression trees&author=J. Elith&author=J. R. Leathwick&author=T. Hastie&volume=77&publication_year=2008&pages=802-813&pmid=18397250&doi=10.1111/j.1365-2656.2008.01390.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0024",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0025",
+      "position": 24,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0025"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "EMPA\n(2011). Aufbereitung von flächendeckenden Grundlagen für die Schallausbreitungsmodellierung in den Bereichen Meteorologie und Bodeneigenschaften. Dübendorf, Switzerland: EMPA.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Aufbereitung von flächendeckenden Grundlagen für die Schallausbreitungsmodellierung in den Bereichen Meteorologie und Bodeneigenschaften&publication_year=2011&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0025",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0026",
+      "position": 25,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0026"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "ESRI\n(2016). ArcGIS Desktop: Release 10.4.1. Redlands, CA: Environmental Systems Research Institute.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=ArcGIS Desktop: Release 10.4.1&publication_year=2016&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0026",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0027",
+      "position": 26,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0027"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Etherington, T. R.\n (2016). Least‐cost modelling and landscape ecology: Concepts, applications, and opportunities. Current Landscape Ecology Reports, 1, 40–53. 10.1007/s40823-016-0006-9",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s40823-016-0006-9",
+        "journal=Current Landscape Ecology Reports&title=Least‐cost modelling and landscape ecology: Concepts, applications, and opportunities&author=T. R. Etherington&volume=1&publication_year=2016&pages=40-53&doi=10.1007/s40823-016-0006-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0027",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0028",
+      "position": 27,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0028"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Foltête, J.‐C.\n (2019). How ecological networks could benefit from landscape graphs: A response to the paper by Spartaco Gippoliti and Corrado Battisti. Land Use Policy, 80, 391–394. 10.1016/j.landusepol.2018.04.020",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.landusepol.2018.04.020",
+        "journal=Land Use Policy&title=How ecological networks could benefit from landscape graphs: A response to the paper by Spartaco Gippoliti and Corrado Battisti&author=J.‐C. Foltête&volume=80&publication_year=2019&pages=391-394&doi=10.1016/j.landusepol.2018.04.020&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0028",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0029",
+      "position": 28,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0029"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Freeman, L. C.\n (1978). Centrality in social networks conceptual clarification. Social Networks, 1, 215–239. 10.1016/0378-8733(78)90021-7",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/0378-8733(78)90021-7",
+        "journal=Social Networks&title=Centrality in social networks conceptual clarification&author=L. C. Freeman&volume=1&publication_year=1978&pages=215-239&doi=10.1016/0378-8733(78)90021-7&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0029",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0030",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0030"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Gillham, N. W.\n (2001). A life of Sir Francis Galton: From African exploration to the birth of eugenics. Oxford, UK: Oxford University Press.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=A life of Sir Francis Galton: From African exploration to the birth of eugenics&author=N. W. Gillham&publication_year=2001&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0030",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0031",
+      "position": 30,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0031"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Guisan, A.\n, \nBroennimann, O.\n, \nEngler, R.\n, \nVust, M.\n, \nYoccoz, N. G.\n, \nLehmann, A.\n, & \nZimmermann, N. E.\n (2006). Using niche‐based models to improve the sampling of rare species. Conservation Biology, 20, 501–511. 10.1111/j.1523-1739.2006.00354.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1523-1739.2006.00354.x",
+        "16903111",
+        "journal=Conservation Biology&title=Using niche‐based models to improve the sampling of rare species&author=A. Guisan&author=O. Broennimann&author=R. Engler&author=M. Vust&author=N. G. Yoccoz&volume=20&publication_year=2006&pages=501-511&pmid=16903111&doi=10.1111/j.1523-1739.2006.00354.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0031",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0032",
+      "position": 31,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0032"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Guisan, A.\n, & \nZimmermann, N. E.\n (2000). Predictive habitat distribution models in ecology. Ecological Modelling, 135, 147–186. 10.1016/S0304-3800(00)00354-9",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/S0304-3800(00)00354-9",
+        "journal=Ecological Modelling&title=Predictive habitat distribution models in ecology&author=A. Guisan&author=N. E. Zimmermann&volume=135&publication_year=2000&pages=147-186&doi=10.1016/S0304-3800(00)00354-9&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0032",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0033",
+      "position": 32,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0033"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hanski, I.\n (1992). Inferences from ecological incidence functions. The American Naturalist, 139, 657–662. 10.1086/285349",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1086/285349",
+        "journal=The American Naturalist&title=Inferences from ecological incidence functions&author=I. Hanski&volume=139&publication_year=1992&pages=657-662&doi=10.1086/285349&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0033",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0034",
+      "position": 33,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0034"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hanski, I.\n (1998). Metapopulation dynamics. Nature, 396, 41\n10.1038/23876",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/23876",
+        "journal=Nature&title=Metapopulation dynamics&author=I. Hanski&volume=396&publication_year=1998&pages=41&doi=10.1038/23876&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0034",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0035",
+      "position": 34,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0035"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hijmans, R. J.\n, \nPhillips, S.\n, \nLeathwick, J.\n, & \nElith, J.\n (2017) Package ‘dismo’. dismo: species distribution modeling. R package version 1.1‐4. Retrieved from https://CRAN.R-project.org/package=dismo",
+      "identifiers": [],
+      "externalLinks": [
+        "https://CRAN.R-project.org/package=dismo",
+        "title=Package ‘dismo’. dismo: species distribution modeling&author=R. J. Hijmans&author=S. Phillips&author=J. Leathwick&author=J. Elith&publication_year=2017&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0035",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0036",
+      "position": 35,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0036"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hodgson, J. A.\n, \nMoilanen, A.\n, \nWintle, B. A.\n, & \nThomas, C. D.\n (2011). Habitat area, quality and connectivity: Striking the balance for efficient conservation. Journal of Applied Ecology, 48, 148–152. 10.1111/j.1365-2664.2010.01919.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1365-2664.2010.01919.x",
+        "journal=Journal of Applied Ecology&title=Habitat area, quality and connectivity: Striking the balance for efficient conservation&author=J. A. Hodgson&author=A. Moilanen&author=B. A. Wintle&author=C. D. Thomas&volume=48&publication_year=2011&pages=148-152&doi=10.1111/j.1365-2664.2010.01919.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0036",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0037",
+      "position": 36,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0037"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Jenkins, D. G.\n, \nBrescacin, C. R.\n, \nDuxbury, C. V.\n, \nElliott, J. A.\n, \nEvans, J. A.\n, \nGrablow, K. R.\n, … \nWilliams, S. E.\n (2007). Does size matter for dispersal distance?\nGlobal Ecology and Biogeography, 16, 415–425. 10.1111/j.1466-8238.2007.00312.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1466-8238.2007.00312.x",
+        "journal=Global Ecology and Biogeography&title=Does size matter for dispersal distance?&author=D. G. Jenkins&author=C. R. Brescacin&author=C. V. Duxbury&author=J. A. Elliott&author=J. A. Evans&volume=16&publication_year=2007&pages=415-425&doi=10.1111/j.1466-8238.2007.00312.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0037",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0038",
+      "position": 37,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0038"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Jordán, F.\n, \nMagura, T.\n, \nTóthmérész, B.\n, \nVasas, V.\n, & \nKödöböcz, V.\n (2007). Carabids (Coleoptera: Carabidae) in a forest patchwork: A connectivity analysis of the Bereg Plain landscape graph. Landscape Ecology, 22, 1527–1539. 10.1007/s10980-007-9149-8",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10980-007-9149-8",
+        "journal=Landscape Ecology&title=Carabids (Coleoptera: Carabidae) in a forest patchwork: A connectivity analysis of the Bereg Plain landscape graph&author=F. Jordán&author=T. Magura&author=B. Tóthmérész&author=V. Vasas&author=V. Ködöböcz&volume=22&publication_year=2007&pages=1527-1539&doi=10.1007/s10980-007-9149-8&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0038",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0039",
+      "position": 38,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0039"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Jordán, F.\n, & \nScheuring, I.\n (2004). Network ecology: Topological constraints on ecosystem dynamics. Physics of Life Reviews, 1, 139–172. 10.1016/j.plrev.2004.08.001",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.plrev.2004.08.001",
+        "journal=Physics of Life Reviews&title=Network ecology: Topological constraints on ecosystem dynamics&author=F. Jordán&author=I. Scheuring&volume=1&publication_year=2004&pages=139-172&doi=10.1016/j.plrev.2004.08.001&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0039",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0040",
+      "position": 39,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0040"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kauffman, S. A.\n (1993). The origins of order: self‐organization and selection in evolution. Oxford, UK: Oxford University Press.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=The origins of order: self‐organization and selection in evolution&author=S. A. Kauffman&publication_year=1993&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0040",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0041",
+      "position": 40,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0041"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kéry, M.\n, & \nSchaub, M.\n (2012). Estimation of occupancy and species distributions from detection/nondetection data in metapopulation designs using site‐occupancy models In Kéry M., & Schaub M. (Eds.), Bayesian population analysis using WinBUGS (pp. 413–461). Boston, MA: Academic Press.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Bayesian population analysis using WinBUGS&author=M. Kéry&author=M. Schaub&publication_year=2012&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0041",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0042",
+      "position": 41,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0042"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kool, J. T.\n, \nMoilanen, A.\n, & \nTreml, E. A.\n (2013). Population connectivity: Recent advances and new perspectives. Landscape Ecology, 28, 165–185. 10.1007/s10980-012-9819-z",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10980-012-9819-z",
+        "journal=Landscape Ecology&title=Population connectivity: Recent advances and new perspectives&author=J. T. Kool&author=A. Moilanen&author=E. A. Treml&volume=28&publication_year=2013&pages=165-185&doi=10.1007/s10980-012-9819-z&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0042",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0043",
+      "position": 42,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0043"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "MacKenzie, D. I.\n, \nNichols, J. D.\n, \nLachman, G. B.\n, \nDroege, S.\n, \nRoyle, J. A.\n, & \nLangtimm, C. A.\n (2002). Estimating site occupancy rates when detection probabilities are less than one. Ecology, 83, 2248–2255. 10.1890/0012-9658(2002)083[2248:Esorwd]2.0.Co;2",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1890/0012-9658(2002)083[2248:Esorwd]2.0.Co;2",
+        "journal=Ecology&title=Estimating site occupancy rates when detection probabilities are less than one&author=D. I. MacKenzie&author=J. D. Nichols&author=G. B. Lachman&author=S. Droege&author=J. A. Royle&volume=83&publication_year=2002&pages=2248-2255&doi=10.1890/0012-9658(2002)083[2248:Esorwd]2.0.Co;2&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0043",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0044",
+      "position": 43,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0044"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "MacKenzie, D. I.\n, \nNichols, J. D.\n, \nRoyle, J. A.\n, \nPollock, K. H.\n, \nBailey, L. L.\n, & \nHines, J. E.\n (2006). Occupancy estimation and modeling: Inferring patterns and dynamics of species occurrence. San Diego, CA: Elsevier.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Occupancy estimation and modeling: Inferring patterns and dynamics of species occurrence&author=D. I. MacKenzie&author=J. D. Nichols&author=J. A. Royle&author=K. H. Pollock&author=L. L. Bailey&publication_year=2006&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0044",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0045",
+      "position": 44,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0045"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "McRae, B. H.\n (2006). Isolation by resistance. Evolution, 60, 1551–1561. 10.1111/j.0014-3820.2006.tb00500.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.0014-3820.2006.tb00500.x",
+        "17017056",
+        "journal=Evolution&title=Isolation by resistance&author=B. H. McRae&volume=60&publication_year=2006&pages=1551-1561&pmid=17017056&doi=10.1111/j.0014-3820.2006.tb00500.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0045",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0046",
+      "position": 45,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0046"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Müller‐Jentsch, D.\n (2012). Wie dicht ist die Schweiz besiedelt? Avenir Suisse. Retrieved from https://www.avenir-suisse.ch/wie-dicht-ist-die-schweiz-besiedelt/",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.avenir-suisse.ch/wie-dicht-ist-die-schweiz-besiedelt/",
+        "title=Wie dicht ist die Schweiz besiedelt?&author=D. Müller‐Jentsch&publication_year=2012&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0046",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0047",
+      "position": 46,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0047"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Naimi, B.\n, \nHamm, N. A.\n, \nGroen, T. A.\n, \nSkidmore, A. K.\n, & \nToxopeus, A. G.\n (2014). Where is positional uncertainty a problem for species distribution modelling?\nEcography, 37, 191–203. 10.1111/j.1600-0587.2013.00205.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1600-0587.2013.00205.x",
+        "journal=Ecography&title=Where is positional uncertainty a problem for species distribution modelling?&author=B. Naimi&author=N. A. Hamm&author=T. A. Groen&author=A. K. Skidmore&author=A. G. Toxopeus&volume=37&publication_year=2014&pages=191-203&doi=10.1111/j.1600-0587.2013.00205.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0047",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0048",
+      "position": 47,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0048"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "OFEV\n(2010). Inventaire fédéral des bas‐marais d'importance nationale. Berne, Switzerland: OFEV.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Inventaire fédéral des bas‐marais d'importance nationale&publication_year=2010&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0048",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0049",
+      "position": 48,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0049"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "OFEV\n(2011). Régions biogéographiques de Suisse. Neuchâtel, Switzerland: OFEV.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Régions biogéographiques de Suisse&publication_year=2011&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0049",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0050",
+      "position": 49,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0050"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "OFS\n(2010). Statistique de la superficie selon nomenclature 2004 – Occupation du sol (Land Cover). Berne, Switzerland: OFS.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Statistique de la superficie selon nomenclature 2004 – Occupation du sol (Land Cover)&publication_year=2010&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0050",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0051",
+      "position": 50,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0051"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Oliphant, T. E.\n (2006). A guide to NumPy. USA: Trelgol Publishing.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=A guide to NumPy&author=T. E. Oliphant&publication_year=2006&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0051",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0052",
+      "position": 51,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0052"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pellet, J.\n, \nHoehn, S.\n, & \nPerrin, N.\n (2004). Multiscale determinants of tree frog (Hyla arborea L.) calling ponds in western Switzerland. Biodiversity and Conservation, 13, 2227–2235. 10.1023/B:BIOC.0000047904.75245.1f",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1023/B:BIOC.0000047904.75245.1f",
+        "journal=Biodiversity and Conservation&title=Multiscale determinants of tree frog (Hyla arborea L.) calling ponds in western Switzerland&author=J. Pellet&author=S. Hoehn&author=N. Perrin&volume=13&publication_year=2004&pages=2227-2235&doi=10.1023/B:BIOC.0000047904.75245.1f&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0052",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0053",
+      "position": 52,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0053"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Prevedello, J. A.\n, & \nVieira, M. V.\n (2009). Does the type of matrix matter? A quantitative review of the evidence. Biodiversity and Conservation, 19, 1205–1223. 10.1007/s10531-009-9750-z",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10531-009-9750-z",
+        "journal=Biodiversity and Conservation&title=Does the type of matrix matter? A quantitative review of the evidence&author=J. A. Prevedello&author=M. V. Vieira&volume=19&publication_year=2009&pages=1205-1223&doi=10.1007/s10531-009-9750-z&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0053",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0055",
+      "position": 53,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0055"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "R Development Core Team\n(2016). R: A language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=R: A language and environment for statistical computing&publication_year=2016&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0055",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0056",
+      "position": 54,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0056"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Roth, U.\n, \nSchwick, C.\n, & \nSpichtig, F.\n (2010). Zustand der Landschaft in der Schweiz. Zwischenbericht Landschaftsbeobachtung Schweiz (LABES). Berne, Switzerland: ARE.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Zustand der Landschaft in der Schweiz. Zwischenbericht Landschaftsbeobachtung Schweiz (LABES)&author=U. Roth&author=C. Schwick&author=F. Spichtig&publication_year=2010&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0056",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0057",
+      "position": 55,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0057"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Saura, S.\n, & \nPascual‐Hortal, L.\n (2007). A new habitat availability index to integrate connectivity in landscape conservation planning: Comparison with existing indices and application to a case study. Landscape and Urban Planning, 83, 91–103. 10.1016/j.landurbplan.2007.03.005",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.landurbplan.2007.03.005",
+        "journal=Landscape and Urban Planning&title=A new habitat availability index to integrate connectivity in landscape conservation planning: Comparison with existing indices and application to a case study&author=S. Saura&author=L. Pascual‐Hortal&volume=83&publication_year=2007&pages=91-103&doi=10.1016/j.landurbplan.2007.03.005&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0057",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0058",
+      "position": 56,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0058"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Sinatra, R.\n, \nWang, D.\n, \nDeville, P.\n, \nSong, C.\n, & \nBarabási, A.‐L.\n (2016). Quantifying the evolution of individual scientific impact. Science, 354, aaf5239\n10.1126/science.aaf5239",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.aaf5239",
+        "27811240",
+        "journal=Science&title=Quantifying the evolution of individual scientific impact&author=R. Sinatra&author=D. Wang&author=P. Deville&author=C. Song&author=A.‐L. Barabási&volume=354&publication_year=2016&pages=aaf5239&pmid=27811240&doi=10.1126/science.aaf5239&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0058",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0059",
+      "position": 57,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0059"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Smith, M. A.\n, & \nGreen, D. M.\n (2005). Dispersal and the metapopulation paradigm in amphibian ecology and conservation: Are all amphibian populations metapopulations?\nEcography, 28, 110–128. 10.1111/j.0906-7590.2005.04042.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.0906-7590.2005.04042.x",
+        "journal=Ecography&title=Dispersal and the metapopulation paradigm in amphibian ecology and conservation: Are all amphibian populations metapopulations?&author=M. A. Smith&author=D. M. Green&volume=28&publication_year=2005&pages=110-128&doi=10.1111/j.0906-7590.2005.04042.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0059",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0060",
+      "position": 58,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0060"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Straka, M.\n, \nPaule, L.\n, \nIonescu, O.\n, \nŠtofík, J.\n, & \nAdamec, M.\n (2012). Microsatellite diversity and structure of Carpathian brown bears (Ursus arctos): Consequences of human caused fragmentation. Conservation Genetics, 13, 153–164. 10.1007/s10592-011-0271-4",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10592-011-0271-4",
+        "journal=Conservation Genetics&title=Microsatellite diversity and structure of Carpathian brown bears (Ursus arctos): Consequences of human caused fragmentation&author=M. Straka&author=L. Paule&author=O. Ionescu&author=J. Štofík&author=M. Adamec&volume=13&publication_year=2012&pages=153-164&doi=10.1007/s10592-011-0271-4&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0060",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0061",
+      "position": 59,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0061"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Swisstopo\n(2016). Catalogue des objets swissTLM3D 1.4. Berne, Switzerland: Swisstopo.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Catalogue des objets swissTLM3D 1.4&publication_year=2016&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0061",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0062",
+      "position": 60,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0062"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Swisstopo\n(2018). swissALTI3D: The high precision digital elevation model of Switzerland. Berne, Switzerland: Swisstopo.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=swissALTI3D: The high precision digital elevation model of Switzerland&publication_year=2018&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0062",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0063",
+      "position": 61,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0063"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Taylor, P. D.\n, \nFahrig, L.\n, \nHenein, K.\n, & \nMerriam, G.\n (1993). Connectivity is a vital element of landscape structure. Oikos, 68, 571–573. 10.2307/3544927",
+      "identifiers": [],
+      "externalLinks": [
+        "10.2307/3544927",
+        "journal=Oikos&title=Connectivity is a vital element of landscape structure&author=P. D. Taylor&author=L. Fahrig&author=K. Henein&author=G. Merriam&volume=68&publication_year=1993&pages=571-573&doi=10.2307/3544927&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0063",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0064",
+      "position": 62,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0064"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Thuiller, W.\n, \nGeorges, D.\n, \nEngler, R.\n, & \nBreiner, F.\n (2016). biomod2: ensemble platform for species distribution modeling. R package version 3.3‐7. Retrieved from https://CRAN.R-project.org/package=biomod2",
+      "identifiers": [],
+      "externalLinks": [
+        "https://CRAN.R-project.org/package=biomod2",
+        "title=biomod2: ensemble platform for species distribution modeling&author=W. Thuiller&author=D. Georges&author=R. Engler&author=F. Breiner&publication_year=2016&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0064",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0065",
+      "position": 63,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0065"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Thuiller, W.\n, & \nMünkemüller, T.\n (2010). Habitat suitability modeling In Møller A. P., Fiedler W., & Berthold P. (Eds.), Effects of climate change on birds (pp. 77–85). New York, NY: Oxford University Press.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Effects of climate change on birds&author=W. Thuiller&author=T. Münkemüller&publication_year=2010&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0065",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0066",
+      "position": 64,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0066"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Urban, D. L.\n, \nMinor, E. S.\n, \nTreml, E. A.\n, & \nSchick, R. S.\n (2009). Graph models of habitat mosaics. Ecology Letters, 12, 260–273. 10.1111/j.1461-0248.2008.01271.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1461-0248.2008.01271.x",
+        "19161432",
+        "journal=Ecology Letters&title=Graph models of habitat mosaics&author=D. L. Urban&author=E. S. Minor&author=E. A. Treml&author=R. S. Schick&volume=12&publication_year=2009&pages=260-273&pmid=19161432&doi=10.1111/j.1461-0248.2008.01271.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0066",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0067",
+      "position": 65,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0067"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Van Buskirk, J.\n (2005). Local and landscape influence on amphibian occurrence and abundance. Ecology, 86, 1936–1947. 10.1890/04-1237",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1890/04-1237",
+        "journal=Ecology&title=Local and landscape influence on amphibian occurrence and abundance&author=J. Van Buskirk&volume=86&publication_year=2005&pages=1936-1947&doi=10.1890/04-1237&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0067",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0068",
+      "position": 66,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0068"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Van Buskirk, J.\n (2011). Amphibian phenotypic variation along a gradient in canopy cover: Species differences and plasticity. Oikos, 120, 906–914. 10.1111/j.1600-0706.2010.18845.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1600-0706.2010.18845.x",
+        "journal=Oikos&title=Amphibian phenotypic variation along a gradient in canopy cover: Species differences and plasticity&author=J. Van Buskirk&volume=120&publication_year=2011&pages=906-914&doi=10.1111/j.1600-0706.2010.18845.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0068",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0069",
+      "position": 67,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0069"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "van Langevelde, F.\n, & \nJaarsma, C. F.\n (2009). Modeling the effect of traffic calming on local animal population persistence. Ecology and Society, 14, 39\n10.5751/ES-03061-140239",
+      "identifiers": [],
+      "externalLinks": [
+        "10.5751/ES-03061-140239",
+        "journal=Ecology and Society&title=Modeling the effect of traffic calming on local animal population persistence&author=F. van Langevelde&author=C. F. Jaarsma&volume=14&publication_year=2009&pages=39&doi=10.5751/ES-03061-140239&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0069",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0054",
+      "position": 68,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0054"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "van Rossum, G.\n (1995). Python tutorial, Technical Report CS-R9526. Amsterdam, The Netherlands: Centrum voor Wiskunde en Informatica (CWI).",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Python tutorial, Technical Report CS-R9526&author=G. van Rossum&publication_year=1995&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0054",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0070",
+      "position": 69,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0070"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Van Strien, M. J.\n, & \nGrêt‐Regamey, A.\n (2016). How is habitat connectivity affected by settlement and road network configurations? Results from simulating coupled habitat and human networks. Ecological Modelling, 342, 186–198. 10.1016/j.ecolmodel.2016.09.025",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ecolmodel.2016.09.025",
+        "journal=Ecological Modelling&title=How is habitat connectivity affected by settlement and road network configurations? Results from simulating coupled habitat and human networks&author=M. J. Van Strien&author=A. Grêt‐Regamey&volume=342&publication_year=2016&pages=186-198&doi=10.1016/j.ecolmodel.2016.09.025&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0070",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0071",
+      "position": 70,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0071"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "van Strien, M. J.\n, \nKeller, D.\n, \nHolderegger, R.\n, \nGhazoul, J.\n, \nKienast, F.\n, & \nBolliger, J.\n (2014). Landscape genetics as a tool for conservation planning: Predicting the effects of landscape change on gene flow. Ecological Applications, 24, 327–339. 10.1890/13-0442.1",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1890/13-0442.1",
+        "24689144",
+        "journal=Ecological Applications&title=Landscape genetics as a tool for conservation planning: Predicting the effects of landscape change on gene flow&author=M. J. van Strien&author=D. Keller&author=R. Holderegger&author=J. Ghazoul&author=F. Kienast&volume=24&publication_year=2014&pages=327-339&pmid=24689144&doi=10.1890/13-0442.1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0071",
+        "position": 70,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0072",
+      "position": 71,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0072"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Watts, D. J.\n, & \nStrogatz, S. H.\n (1998). Collective dynamics of ‘small‐world’ networks. Nature, 393, 440\n10.1038/30918",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/30918",
+        "9623998",
+        "journal=Nature&title=Collective dynamics of ‘small‐world’ networks&author=D. J. Watts&author=S. H. Strogatz&volume=393&publication_year=1998&pages=440&pmid=9623998&doi=10.1038/30918&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0072",
+        "position": 71,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0073",
+      "position": 72,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0073"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zanini, F.\n, \nPellet, J.\n, & \nSchmidt, B. R.\n (2009). The transferability of distribution models across regions: An amphibian case study. Diversity and Distributions, 15, 469–480. 10.1111/j.1472-4642.2008.00556.x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1111/j.1472-4642.2008.00556.x",
+        "journal=Diversity and Distributions&title=The transferability of distribution models across regions: An amphibian case study&author=F. Zanini&author=J. Pellet&author=B. R. Schmidt&volume=15&publication_year=2009&pages=469-480&doi=10.1111/j.1472-4642.2008.00556.x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0073",
+        "position": 72,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece35567-bib-0074",
+      "position": 73,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "id": "ece35567-cit-0074"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ziółkowska, E.\n, \nOstapowicz, K.\n, \nRadeloff, V. C.\n, & \nKuemmerle, T.\n (2014). Effects of different matrix representations and connectivity measures on habitat network assessments. Landscape Ecology, 29, 1551–1570. 10.1007/s10980-014-0075-2",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1007/s10980-014-0075-2",
+        "journal=Landscape Ecology&title=Effects of different matrix representations and connectivity measures on habitat network assessments&author=E. Ziółkowska&author=K. Ostapowicz&author=V. C. Radeloff&author=T. Kuemmerle&volume=29&publication_year=2014&pages=1551-1570&doi=10.1007/s10980-014-0075-2&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6787819/article.xml",
+        "articleSha256": "c2483592c53711f71a51d19fff0865193cf8f1f8d7a9cf8a1d16774c0294ff82",
+        "referenceId": "ece35567-bib-0074",
+        "position": 73,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Ecology and Evolution"
+    ],
+    "abbreviations": [
+      {
+        "value": "Ecol Evol"
+      }
+    ],
+    "identifiers": [
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "1740"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ece"
+      }
+    ],
+    "issns": [],
+    "publisherNames": [
+      "Wiley"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "9"
+    ],
+    "issue": [
+      "18"
+    ],
+    "fpage": [
+      "10457"
+    ]
+  }
+}

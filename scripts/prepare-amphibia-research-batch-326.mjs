@@ -1,0 +1,17 @@
+import fs from 'node:fs'
+const b='docs/amphibia-content',pmc='PMC10351143',f=`${b}/primary-direct-group-authoring-input.json`,inputs=JSON.parse(fs.readFileSync(f)),s=inputs.find(s=>s.pmc===pmc&&s.name==='Amolops')
+if(!s)throw Error('Missing Amolops source group')
+const additions=[
+ ['evolution','Read each distance in its own gene and source-label context','按基因及来源标签解读距离',
+ 'Tables 2 and 3 report uncorrected mitochondrial distances from the ailao label. The ottorum comparison is NA for 16S and COI and 5.0% for CYTB; ottorum remains an unmatched source label in the frozen accepted-species roster. For loloensis the values are 2.1%, 4.7% and 7.0%; for jinjiangensis they are 2.1%, 5.8% and 6.4%, respectively. Sangzhiensis has 1.9% for 16S and 4.5% for COI but no named row in Table 3. These gene-specific values describe the sampled source comparisons. Neither NA nor an omitted row proves that a species lacks a gene, and a single distance is not a universal species-delimitation threshold. The source alignment and original sequence records have not been authenticated.',
+ '表2和表3报告与ailao标签的未校正线粒体距离。Ottorum比较的16S和COI为NA，CYTB为5.0%；ottorum在冻结接受种名册中仍是未匹配来源标签。Loloensis三值依次为2.1%、4.7%、7.0%，jinjiangensis依次为2.1%、5.8%、6.4%。Sangzhiensis的16S为1.9%、COI为4.5%，但表3没有该具名行。这些基因特定值描述来源采样比较；NA或省略行均不证明物种缺少某基因，单个距离不是普遍物种划界阈值。原比对及序列记录尚未认证。',
+ 'Tab2 row1 columns2,3,4,13 and rows2,3,4,13 column1; Tab3 rows2,3,9 column1; yunnan-amolops-focal-distance-reading.json'],
+ ['taxonomy','Qualified mantzorum and quoted jinjiangensis labels remain separate','具限定mantzorum及引号jinjiangensis标签保持分离',
+ 'The distance tables distinguish A. m. mantzorum, A. m. ssp., A. m. xinduqiao and A. “jinjiangensis”. Against ailao, the nominate mantzorum label has 16S 2.2%, COI 4.0% and CYTB 7.0%; the unspecified subspecies has NA, NA and 7.0%; xinduqiao has NA, NA and 6.7%; the quoted jinjiangensis label has NA, NA and 7.3%. They are not interchangeable whole-species records. The quoted donor also differs from the unquoted jinjiangensis comparison, whose CYTB value is 6.4%. Preserve the original qualifications and donor context when discussing these results; do not silently transfer the subspecies or quoted-label values to a frozen accepted species. Table 3 prints only header columns 1–11 despite twelve numbered data-label rows; the selected first-column cells remain explicitly located.',
+ '距离表区分A. m. mantzorum、A. m. ssp.、A. m. xinduqiao及A. “jinjiangensis”。与ailao比较，指名mantzorum标签的16S为2.2%、COI为4.0%、CYTB为7.0%；未指定亚种为NA、NA、7.0%；xinduqiao为NA、NA、6.7%；带引号jinjiangensis为NA、NA、7.3%。这些不是可互换的全种记录。带引号供体也不同于CYTB值为6.4%的无引号jinjiangensis比较。讨论时保留原限定及供体背景，不把亚种或引号标签值静默转移到冻结接受种。表3有十二个编号数据标签行，表头却仅印1–11列；所选第一列单元格仍有明确定位。',
+ 'Tab2 rows5–8 column1 and row1 columns5–8; Tab3 rows3,4,6,7,8 column1; yunnan-amolops-focal-distance-reading.json']
+]
+for(const [topic,enTitle,zhTitle,en,zh,locator] of additions){const row=[topic,enTitle,zhTitle,en,zh],loc=`${pmc} article.xml ${locator}`,i=s.sections.findIndex(r=>r[1]===enTitle);if(i>=0){s.sections[i]=row;s.sectionLocators[i]=loc}else{s.sections.push(row);s.sectionLocators.push(loc)}}
+s.readScope+='; 35 selected focal gene-distance cells read with original qualifiers and table addresses; no sequence/alignments authenticated'
+fs.writeFileSync(f,JSON.stringify(inputs,null,2)+'\n')
+console.log(JSON.stringify({extendedGroups:1,addedSections:2,sourceGroupSections:inputs.filter(s=>s.pmc===pmc).reduce((n,s)=>n+s.sections.length,0),testsRun:false}))

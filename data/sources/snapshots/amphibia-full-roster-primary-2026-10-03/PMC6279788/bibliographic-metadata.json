@@ -1,0 +1,5796 @@
+{
+  "pmcid": "PMC6279788",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+  "sha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+  "articleType": "research-article",
+  "title": "Transcriptomic landscape of the blastema niche in regenerating adult axolotl limbs at single-cell resolution",
+  "authors": [
+    {
+      "name": "Nicholas D. Leigh",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Nicholas D.",
+        "surname": "Leigh",
+        "suffix": null
+      },
+      "originalName": "LeighNicholas D.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Garrett S. Dunlap",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Garrett S.",
+        "surname": "Dunlap",
+        "suffix": null
+      },
+      "originalName": "DunlapGarrett S.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-2627-0506"
+        }
+      ]
+    },
+    {
+      "name": "Kimberly Johnson",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Kimberly",
+        "surname": "Johnson",
+        "suffix": null
+      },
+      "originalName": "JohnsonKimberly",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0001-6781-0831"
+        }
+      ]
+    },
+    {
+      "name": "Rachelle Mariano",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Rachelle",
+        "surname": "Mariano",
+        "suffix": null
+      },
+      "originalName": "MarianoRachelle",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Rachel Oshiro",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Rachel",
+        "surname": "Oshiro",
+        "suffix": null
+      },
+      "originalName": "OshiroRachel",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Alan Y. Wong",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Alan Y.",
+        "surname": "Wong",
+        "suffix": null
+      },
+      "originalName": "WongAlan Y.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0001-5908-6820"
+        }
+      ]
+    },
+    {
+      "name": "Donald M. Bryant",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Donald M.",
+        "surname": "Bryant",
+        "suffix": null
+      },
+      "originalName": "BryantDonald M.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Bess M. Miller",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Bess M.",
+        "surname": "Miller",
+        "suffix": null
+      },
+      "originalName": "MillerBess M.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Alex Ratner",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Alex",
+        "surname": "Ratner",
+        "suffix": null
+      },
+      "originalName": "RatnerAlex",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Andy Chen",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Andy",
+        "surname": "Chen",
+        "suffix": null
+      },
+      "originalName": "ChenAndy",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "William W. Ye",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "William W.",
+        "surname": "Ye",
+        "suffix": null
+      },
+      "originalName": "YeWilliam W.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Brian J. Haas",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Brian J.",
+        "surname": "Haas",
+        "suffix": null
+      },
+      "originalName": "HaasBrian J.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Jessica L. Whited",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Jessica L.",
+        "surname": "Whited",
+        "suffix": null
+      },
+      "originalName": "WhitedJessica L.",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC6279788"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC6279788.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "6279788"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "6279788"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "30514844"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1038/s41467-018-07604-0"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "7604"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2018",
+      "month": "12",
+      "day": "4"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2018",
+      "month": null,
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {
+        "license-type": "OpenAccess"
+      },
+      "links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "MOESM1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM1_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM1_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM2",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM2_ESM.txt",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM2_ESM.txt",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM3",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM3_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM3_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM4",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM4_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM4_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM5",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM5_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM5_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM6",
+      "position": 5,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM6_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM6_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM7",
+      "position": 6,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM7_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM7_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM8",
+      "position": 7,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM8_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM8_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM9",
+      "position": 8,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM9_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM9_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM10",
+      "position": 9,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM10_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM10_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM11",
+      "position": 10,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM11_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM11_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM12",
+      "position": 11,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM12_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM12_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM13",
+      "position": 12,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM13_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM13_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM14",
+      "position": 13,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM14_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM14_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM15",
+      "position": 14,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM15_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM15_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM16",
+      "position": 15,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM16_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM16_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM17",
+      "position": 16,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM17_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM17_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM18",
+      "position": 17,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM18_ESM.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM18_ESM.docx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM19",
+      "position": 18,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM19_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM19_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM20",
+      "position": 19,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2018_7604_MOESM20_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2018_7604_MOESM20_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "CR1",
+      "position": 0,
+      "title": "A quantitative histological analysis of forelimb regeneration Triturus viridescens",
+      "source": "J. Morphol.",
+      "year": "1954",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chalkley",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChalkleyD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "94"
+        ],
+        "fpage": [
+          "21"
+        ],
+        "lpage": [
+          "70"
+        ]
+      },
+      "originalCitationText": "ChalkleyDA quantitative histological analysis of forelimb regeneration Triturus viridescensJ. Morphol.195494217010.1002/jmor.1050940103",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/jmor.1050940103"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR2",
+      "position": 1,
+      "title": "Apical epithelial cap morphology and fibronectin gene expression in regenerating axolotl limbs",
+      "source": "Dev. Dyn.",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Christensen",
+              "givenNames": "RN",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChristensenRN"
+            },
+            {
+              "surname": "Tassava",
+              "givenNames": "RA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TassavaRA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "217"
+        ],
+        "fpage": [
+          "216"
+        ],
+        "lpage": [
+          "224"
+        ]
+      },
+      "originalCitationText": "ChristensenRNTassavaRAApical epithelial cap morphology and fibronectin gene expression in regenerating axolotl limbsDev. Dyn.200021721622410.1002/(SICI)1097-0177(200002)217:2<216::AID-DVDY8>3.0.CO;2-810706145",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/(SICI)1097-0177(200002)217:2<216::AID-DVDY8>3.0.CO;2-8"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10706145"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR3",
+      "position": 2,
+      "title": "Cells keep a memory of their tissue origin during axolotl limb regeneration",
+      "source": "Nature",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kragl",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KraglM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "460"
+        ],
+        "fpage": [
+          "60"
+        ],
+        "lpage": [
+          "65"
+        ]
+      },
+      "originalCitationText": "KraglMCells keep a memory of their tissue origin during axolotl limb regenerationNature2009460606510.1038/nature0815219571878",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature08152"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19571878"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR4",
+      "position": 3,
+      "title": "Live imaging of Axolotl digit regeneration reveals spatiotemporal choreography of diverse connective tissue progenitor pools",
+      "source": "Dev. Cell",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Currie",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CurrieJD"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "39"
+        ],
+        "fpage": [
+          "411"
+        ],
+        "lpage": [
+          "423"
+        ]
+      },
+      "originalCitationText": "CurrieJDLive imaging of Axolotl digit regeneration reveals spatiotemporal choreography of diverse connective tissue progenitor poolsDev. Cell20163941142310.1016/j.devcel.2016.10.01327840105PMC5127896",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.devcel.2016.10.013"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27840105"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5127896"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR5",
+      "position": 4,
+      "title": "Cartilage and bone cells do not participate in skeletal regeneration in Ambystoma mexicanum limbs",
+      "source": "Dev. Biol.",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "McCusker",
+              "givenNames": "CD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McCuskerCD"
+            },
+            {
+              "surname": "Diaz-Castillo",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Diaz-CastilloC"
+            },
+            {
+              "surname": "Sosnik",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SosnikJ"
+            },
+            {
+              "surname": "A",
+              "givenNames": "QP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AQP"
+            },
+            {
+              "surname": "Gardiner",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GardinerDM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "416"
+        ],
+        "fpage": [
+          "26"
+        ],
+        "lpage": [
+          "33"
+        ]
+      },
+      "originalCitationText": "McCuskerCDDiaz-CastilloCSosnikJAQPGardinerDMCartilage and bone cells do not participate in skeletal regeneration in Ambystoma mexicanum limbsDev. Biol.2016416263310.1016/j.ydbio.2016.05.03227316294",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ydbio.2016.05.032"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27316294"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR6",
+      "position": 5,
+      "title": "Efficient gene knockin in axolotl and its use to test the role of satellite cells in limb regeneration",
+      "source": "Proc. Natl. Acad. Sci. USA",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Fei",
+              "givenNames": "JF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FeiJF"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "114"
+        ],
+        "fpage": [
+          "12501"
+        ],
+        "lpage": [
+          "12506"
+        ]
+      },
+      "originalCitationText": "FeiJFEfficient gene knockin in axolotl and its use to test the role of satellite cells in limb regenerationProc. Natl. Acad. Sci. USA2017114125011250610.1073/pnas.170685511429087939PMC5703281",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1706855114"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29087939"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5703281"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR7",
+      "position": 6,
+      "title": "The effect of apical cap removal on limb regeneration in Amblystoma larvae",
+      "source": "J. Exp. Zool.",
+      "year": "1957",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Thornton",
+              "givenNames": "CS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThorntonCS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "134"
+        ],
+        "fpage": [
+          "357"
+        ],
+        "lpage": [
+          "381"
+        ]
+      },
+      "originalCitationText": "ThorntonCSThe effect of apical cap removal on limb regeneration in Amblystoma larvaeJ. Exp. Zool.195713435738110.1002/jez.140134020913428959",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/jez.1401340209"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "13428959"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR8",
+      "position": 7,
+      "title": "Effects on adult newt limb regeneration of partial and complete skin flaps over the amputation surface",
+      "source": "J. Exp. Zool.",
+      "year": "1976",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Mescher",
+              "givenNames": "AL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MescherAL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "195"
+        ],
+        "fpage": [
+          "117"
+        ],
+        "lpage": [
+          "128"
+        ]
+      },
+      "originalCitationText": "MescherALEffects on adult newt limb regeneration of partial and complete skin flaps over the amputation surfaceJ. Exp. Zool.197619511712810.1002/jez.14019501111255117",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/jez.1401950111"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "1255117"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR9",
+      "position": 8,
+      "title": "Epidermal–mesodermal interaction during morphogenesis of the limb regeneration blastema in larval salamanders",
+      "source": "J. Exp. Zool.",
+      "year": "1972",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Stocum",
+              "givenNames": "DL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StocumDL"
+            },
+            {
+              "surname": "Dearlove",
+              "givenNames": "GE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DearloveGE"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "181"
+        ],
+        "fpage": [
+          "49"
+        ],
+        "lpage": [
+          "61"
+        ]
+      },
+      "originalCitationText": "StocumDLDearloveGEEpidermal–mesodermal interaction during morphogenesis of the limb regeneration blastema in larval salamandersJ. Exp. Zool.1972181496110.1002/jez.1401810106",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/jez.1401810106"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR10",
+      "position": 9,
+      "title": "In vitro control of blastema cell proliferation by extracts from epidermal cap and mesenchyme of regenerating limbs of axolotls",
+      "source": "Roux Arch. Dev. Biol.",
+      "year": "1990",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Boilly",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BoillyB"
+            },
+            {
+              "surname": "Albert",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlbertP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "198"
+        ],
+        "fpage": [
+          "443"
+        ],
+        "lpage": [
+          "447"
+        ]
+      },
+      "originalCitationText": "BoillyBAlbertPIn vitro control of blastema cell proliferation by extracts from epidermal cap and mesenchyme of regenerating limbs of axolotlsRoux Arch. Dev. Biol.199019844344710.1007/BF0039905428305671",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/BF00399054"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28305671"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR11",
+      "position": 10,
+      "title": "The effects of microquantitles of beryllium ion on the regenerating forelimb of the adult newt, Triturus",
+      "source": "J. Exp. Zool.",
+      "year": "1957",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Scheuing",
+              "givenNames": "MR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ScheuingMR"
+            },
+            {
+              "surname": "Singer",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SingerM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "136"
+        ],
+        "fpage": [
+          "301"
+        ],
+        "lpage": [
+          "327"
+        ]
+      },
+      "originalCitationText": "ScheuingMRSingerMThe effects of microquantitles of beryllium ion on the regenerating forelimb of the adult newt, TriturusJ. Exp. Zool.195713630132710.1002/jez.140136020713525590",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/jez.1401360207"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "13525590"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR12",
+      "position": 11,
+      "title": "Influence of an eccentric epidermal cap on limb regeneration in Amblystoma larvae",
+      "source": "Dev. Biol.",
+      "year": "1960",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Thornton",
+              "givenNames": "CS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThorntonCS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "551"
+        ],
+        "lpage": [
+          "569"
+        ]
+      },
+      "originalCitationText": "ThorntonCSInfluence of an eccentric epidermal cap on limb regeneration in Amblystoma larvaeDev. Biol.1960255156910.1016/0012-1606(60)90054-313776717",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/0012-1606(60)90054-3"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "13776717"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR13",
+      "position": 12,
+      "title": "Macrophages are required for adult salamander limb regeneration",
+      "source": "Proc. Natl. Acad. Sci. USA",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Godwin",
+              "givenNames": "JW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GodwinJW"
+            },
+            {
+              "surname": "Pinto",
+              "givenNames": "AR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PintoAR"
+            },
+            {
+              "surname": "Rosenthal",
+              "givenNames": "NA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RosenthalNA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "110"
+        ],
+        "fpage": [
+          "9415"
+        ],
+        "lpage": [
+          "9420"
+        ]
+      },
+      "originalCitationText": "GodwinJWPintoARRosenthalNAMacrophages are required for adult salamander limb regenerationProc. Natl. Acad. Sci. USA20131109415942010.1073/pnas.130029011023690624PMC3677454",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1300290110"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23690624"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3677454"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR14",
+      "position": 13,
+      "title": "The influence of the nerve in regeneration of the amphibian extremity",
+      "source": "Q. Rev. Biol.",
+      "year": "1952",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Singer",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SingerM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "fpage": [
+          "169"
+        ],
+        "lpage": [
+          "200"
+        ]
+      },
+      "originalCitationText": "SingerMThe influence of the nerve in regeneration of the amphibian extremityQ. Rev. Biol.19522716920010.1086/39887314949331",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1086/398873"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "14949331"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR15",
+      "position": 14,
+      "title": "Cellular contribution from dermis and cartilage to the regenerating limb blastema in axolotls",
+      "source": "Dev. Biol.",
+      "year": "1986",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Muneoka",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MuneokaK"
+            },
+            {
+              "surname": "Fox",
+              "givenNames": "WF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FoxWF"
+            },
+            {
+              "surname": "Bryant",
+              "givenNames": "SV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BryantSV"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "116"
+        ],
+        "fpage": [
+          "256"
+        ],
+        "lpage": [
+          "260"
+        ]
+      },
+      "originalCitationText": "MuneokaKFoxWFBryantSVCellular contribution from dermis and cartilage to the regenerating limb blastema in axolotlsDev. Biol.198611625626010.1016/0012-1606(86)90062-X3732605",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/0012-1606(86)90062-X"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "3732605"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR16",
+      "position": 15,
+      "title": "The axolotl genome and the evolution of key tissue formation regulators",
+      "source": "Nature",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nowoshilow",
+              "givenNames": "Sergej",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NowoshilowSergej"
+            },
+            {
+              "surname": "Schloissnig",
+              "givenNames": "Siegfried",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchloissnigSiegfried"
+            },
+            {
+              "surname": "Fei",
+              "givenNames": "Ji-Feng",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FeiJi-Feng"
+            },
+            {
+              "surname": "Dahl",
+              "givenNames": "Andreas",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DahlAndreas"
+            },
+            {
+              "surname": "Pang",
+              "givenNames": "Andy W. C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PangAndy W. C."
+            },
+            {
+              "surname": "Pippel",
+              "givenNames": "Martin",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PippelMartin"
+            },
+            {
+              "surname": "Winkler",
+              "givenNames": "Sylke",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WinklerSylke"
+            },
+            {
+              "surname": "Hastie",
+              "givenNames": "Alex R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HastieAlex R."
+            },
+            {
+              "surname": "Young",
+              "givenNames": "George",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YoungGeorge"
+            },
+            {
+              "surname": "Roscito",
+              "givenNames": "Juliana G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RoscitoJuliana G."
+            },
+            {
+              "surname": "Falcon",
+              "givenNames": "Francisco",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FalconFrancisco"
+            },
+            {
+              "surname": "Knapp",
+              "givenNames": "Dunja",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KnappDunja"
+            },
+            {
+              "surname": "Powell",
+              "givenNames": "Sean",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PowellSean"
+            },
+            {
+              "surname": "Cruz",
+              "givenNames": "Alfredo",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CruzAlfredo"
+            },
+            {
+              "surname": "Cao",
+              "givenNames": "Han",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CaoHan"
+            },
+            {
+              "surname": "Habermann",
+              "givenNames": "Bianca",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HabermannBianca"
+            },
+            {
+              "surname": "Hiller",
+              "givenNames": "Michael",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HillerMichael"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "Elly M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaElly M."
+            },
+            {
+              "surname": "Myers",
+              "givenNames": "Eugene W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MyersEugene W."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "554"
+        ],
+        "issue": [
+          "7690"
+        ],
+        "fpage": [
+          "50"
+        ],
+        "lpage": [
+          "55"
+        ]
+      },
+      "originalCitationText": "NowoshilowSergejSchloissnigSiegfriedFeiJi-FengDahlAndreasPangAndy W. C.PippelMartinWinklerSylkeHastieAlex R.YoungGeorgeRoscitoJuliana G.FalconFranciscoKnappDunjaPowellSeanCruzAlfredoCaoHanHabermannBiancaHillerMichaelTanakaElly M.MyersEugene W.The axolotl genome and the evolution of key tissue formation regulatorsNature20185547690505510.1038/nature2545829364872",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature25458"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29364872"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR17",
+      "position": 16,
+      "title": "Advances in decoding axolotl limb regeneration",
+      "source": "Trends Genet.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Haas",
+              "givenNames": "BJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaasBJ"
+            },
+            {
+              "surname": "Whited",
+              "givenNames": "JL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WhitedJL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "33"
+        ],
+        "fpage": [
+          "553"
+        ],
+        "lpage": [
+          "565"
+        ]
+      },
+      "originalCitationText": "HaasBJWhitedJLAdvances in decoding axolotl limb regenerationTrends Genet.20173355356510.1016/j.tig.2017.05.00628648452PMC5534018",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.tig.2017.05.006"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28648452"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5534018"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR18",
+      "position": 17,
+      "title": "Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors",
+      "source": "Science",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Villani",
+              "givenNames": "Alexandra-Chloé",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VillaniAlexandra-Chloé"
+            },
+            {
+              "surname": "Satija",
+              "givenNames": "Rahul",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SatijaRahul"
+            },
+            {
+              "surname": "Reynolds",
+              "givenNames": "Gary",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ReynoldsGary"
+            },
+            {
+              "surname": "Sarkizova",
+              "givenNames": "Siranush",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SarkizovaSiranush"
+            },
+            {
+              "surname": "Shekhar",
+              "givenNames": "Karthik",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShekharKarthik"
+            },
+            {
+              "surname": "Fletcher",
+              "givenNames": "James",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FletcherJames"
+            },
+            {
+              "surname": "Griesbeck",
+              "givenNames": "Morgane",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GriesbeckMorgane"
+            },
+            {
+              "surname": "Butler",
+              "givenNames": "Andrew",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ButlerAndrew"
+            },
+            {
+              "surname": "Zheng",
+              "givenNames": "Shiwei",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhengShiwei"
+            },
+            {
+              "surname": "Lazo",
+              "givenNames": "Suzan",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LazoSuzan"
+            },
+            {
+              "surname": "Jardine",
+              "givenNames": "Laura",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JardineLaura"
+            },
+            {
+              "surname": "Dixon",
+              "givenNames": "David",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DixonDavid"
+            },
+            {
+              "surname": "Stephenson",
+              "givenNames": "Emily",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StephensonEmily"
+            },
+            {
+              "surname": "Nilsson",
+              "givenNames": "Emil",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NilssonEmil"
+            },
+            {
+              "surname": "Grundberg",
+              "givenNames": "Ida",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GrundbergIda"
+            },
+            {
+              "surname": "McDonald",
+              "givenNames": "David",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McDonaldDavid"
+            },
+            {
+              "surname": "Filby",
+              "givenNames": "Andrew",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FilbyAndrew"
+            },
+            {
+              "surname": "Li",
+              "givenNames": "Weibo",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiWeibo"
+            },
+            {
+              "surname": "De Jager",
+              "givenNames": "Philip L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "De JagerPhilip L."
+            },
+            {
+              "surname": "Rozenblatt-Rosen",
+              "givenNames": "Orit",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Rozenblatt-RosenOrit"
+            },
+            {
+              "surname": "Lane",
+              "givenNames": "Andrew A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LaneAndrew A."
+            },
+            {
+              "surname": "Haniffa",
+              "givenNames": "Muzlifah",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaniffaMuzlifah"
+            },
+            {
+              "surname": "Regev",
+              "givenNames": "Aviv",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RegevAviv"
+            },
+            {
+              "surname": "Hacohen",
+              "givenNames": "Nir",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HacohenNir"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "356"
+        ],
+        "issue": [
+          "6335"
+        ],
+        "fpage": [
+          "eaah4573"
+        ]
+      },
+      "originalCitationText": "VillaniAlexandra-ChloéSatijaRahulReynoldsGarySarkizovaSiranushShekharKarthikFletcherJamesGriesbeckMorganeButlerAndrewZhengShiweiLazoSuzanJardineLauraDixonDavidStephensonEmilyNilssonEmilGrundbergIdaMcDonaldDavidFilbyAndrewLiWeiboDe JagerPhilip L.Rozenblatt-RosenOritLaneAndrew A.HaniffaMuzlifahRegevAvivHacohenNirSingle-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitorsScience20173566335eaah457310.1126/science.aah457328428369PMC5775029",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.aah4573"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28428369"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5775029"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR19",
+      "position": 18,
+      "title": "Highly parallel genome-wide expression profiling of individual cells using nanoliter droplets",
+      "source": "Cell",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Macosko",
+              "givenNames": "EZ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MacoskoEZ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "161"
+        ],
+        "fpage": [
+          "1202"
+        ],
+        "lpage": [
+          "1214"
+        ]
+      },
+      "originalCitationText": "MacoskoEZHighly parallel genome-wide expression profiling of individual cells using nanoliter dropletsCell20151611202121410.1016/j.cell.2015.05.00226000488PMC4481139",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cell.2015.05.002"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26000488"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4481139"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR20",
+      "position": 19,
+      "title": "Mapping the mouse cell atlas by Microwell-Seq",
+      "source": "Cell",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Han",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HanX"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "173"
+        ],
+        "fpage": [
+          "1307"
+        ]
+      },
+      "originalCitationText": "HanXMapping the mouse cell atlas by Microwell-SeqCell2018173130710.1016/j.cell.2018.05.01229775597",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cell.2018.05.012"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29775597"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR21",
+      "position": 20,
+      "title": "Droplet barcoding for single-cell transcriptomics applied to embryonic stem cells",
+      "source": "Cell",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Klein",
+              "givenNames": "AM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KleinAM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "161"
+        ],
+        "fpage": [
+          "1187"
+        ],
+        "lpage": [
+          "1201"
+        ]
+      },
+      "originalCitationText": "KleinAMDroplet barcoding for single-cell transcriptomics applied to embryonic stem cellsCell20151611187120110.1016/j.cell.2015.04.04426000487PMC4441768",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cell.2015.04.044"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26000487"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4441768"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR22",
+      "position": 21,
+      "title": "Single-cell barcoding and sequencing using droplet microfluidics",
+      "source": "Nat. Protoc.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zilionis",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZilionisR"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "44"
+        ],
+        "lpage": [
+          "73"
+        ]
+      },
+      "originalCitationText": "ZilionisRSingle-cell barcoding and sequencing using droplet microfluidicsNat. Protoc.201712447310.1038/nprot.2016.15427929523",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nprot.2016.154"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27929523"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR23",
+      "position": 22,
+      "title": "Integrating single-cell transcriptomic data across different conditions, technologies, and species",
+      "source": "Nat. Biotechnol.",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Butler",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ButlerA"
+            },
+            {
+              "surname": "Hoffman",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HoffmanP"
+            },
+            {
+              "surname": "Smibert",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SmibertP"
+            },
+            {
+              "surname": "Papalexi",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PapalexiE"
+            },
+            {
+              "surname": "Satija",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SatijaR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "36"
+        ],
+        "fpage": [
+          "411"
+        ],
+        "lpage": [
+          "420"
+        ]
+      },
+      "originalCitationText": "ButlerAHoffmanPSmibertPPapalexiESatijaRIntegrating single-cell transcriptomic data across different conditions, technologies, and speciesNat. Biotechnol.20183641142010.1038/nbt.409629608179PMC6700744",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nbt.4096"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29608179"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6700744"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR24",
+      "position": 23,
+      "title": "A single-cell atlas of the airway epithelium reveals the CFTR-rich pulmonary ionocyte",
+      "source": "Nature",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Plasschaert",
+              "givenNames": "Lindsey W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PlasschaertLindsey W."
+            },
+            {
+              "surname": "Žilionis",
+              "givenNames": "Rapolas",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ŽilionisRapolas"
+            },
+            {
+              "surname": "Choo-Wing",
+              "givenNames": "Rayman",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Choo-WingRayman"
+            },
+            {
+              "surname": "Savova",
+              "givenNames": "Virginia",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SavovaVirginia"
+            },
+            {
+              "surname": "Knehr",
+              "givenNames": "Judith",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KnehrJudith"
+            },
+            {
+              "surname": "Roma",
+              "givenNames": "Guglielmo",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RomaGuglielmo"
+            },
+            {
+              "surname": "Klein",
+              "givenNames": "Allon M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KleinAllon M."
+            },
+            {
+              "surname": "Jaffe",
+              "givenNames": "Aron B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JaffeAron B."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "560"
+        ],
+        "issue": [
+          "7718"
+        ],
+        "fpage": [
+          "377"
+        ],
+        "lpage": [
+          "381"
+        ]
+      },
+      "originalCitationText": "PlasschaertLindsey W.ŽilionisRapolasChoo-WingRaymanSavovaVirginiaKnehrJudithRomaGuglielmoKleinAllon M.JaffeAron B.A single-cell atlas of the airway epithelium reveals the CFTR-rich pulmonary ionocyteNature2018560771837738110.1038/s41586-018-0394-630069046PMC6108322",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41586-018-0394-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30069046"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6108322"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR25",
+      "position": 24,
+      "title": "Germline transgenic methods for tracking cells and testing gene function during regeneration in the axolotl",
+      "source": "Stem Cell Rep.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Khattak",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhattakS"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "1"
+        ],
+        "fpage": [
+          "90"
+        ],
+        "lpage": [
+          "103"
+        ]
+      },
+      "originalCitationText": "KhattakSGermline transgenic methods for tracking cells and testing gene function during regeneration in the axolotlStem Cell Rep.201319010310.1016/j.stemcr.2013.03.002PMC375774224052945",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.stemcr.2013.03.002"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3757742"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24052945"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR26",
+      "position": 25,
+      "title": "LAD-1, the linear IgA bullous dermatosis autoantigen, is a novel 120-kDa anchoring filament protein synthesized by epidermal cells",
+      "source": "J. Invest. Dermatol.",
+      "year": "1996",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Marinkovich",
+              "givenNames": "MP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MarinkovichMP"
+            },
+            {
+              "surname": "Taylor",
+              "givenNames": "TB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TaylorTB"
+            },
+            {
+              "surname": "Keene",
+              "givenNames": "DR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KeeneDR"
+            },
+            {
+              "surname": "Burgeson",
+              "givenNames": "RE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BurgesonRE"
+            },
+            {
+              "surname": "Zone",
+              "givenNames": "JJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZoneJJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "106"
+        ],
+        "fpage": [
+          "734"
+        ],
+        "lpage": [
+          "738"
+        ]
+      },
+      "originalCitationText": "MarinkovichMPTaylorTBKeeneDRBurgesonREZoneJJLAD-1, the linear IgA bullous dermatosis autoantigen, is a novel 120-kDa anchoring filament protein synthesized by epidermal cellsJ. Invest. Dermatol.199610673473810.1111/1523-1747.ep123457828618013",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/1523-1747.ep12345782"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "8618013"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR27",
+      "position": 26,
+      "title": "A secretory cell type develops alongside multiciliated cells, ionocytes and goblet cells, and provides a protective, anti-infective function in the frog embryonic mucociliary epidermis",
+      "source": "Development",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dubaissi",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DubaissiE"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "141"
+        ],
+        "fpage": [
+          "1514"
+        ],
+        "lpage": [
+          "1525"
+        ]
+      },
+      "originalCitationText": "DubaissiEA secretory cell type develops alongside multiciliated cells, ionocytes and goblet cells, and provides a protective, anti-infective function in the frog embryonic mucociliary epidermisDevelopment20141411514152510.1242/dev.10242624598166PMC3957375",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1242/dev.102426"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24598166"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3957375"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR28",
+      "position": 27,
+      "title": "Chitin is endogenously produced in vertebrates",
+      "source": "Curr. Biol.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tang",
+              "givenNames": "WJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TangWJ"
+            },
+            {
+              "surname": "Fernandez",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FernandezJ"
+            },
+            {
+              "surname": "Sohn",
+              "givenNames": "JJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SohnJJ"
+            },
+            {
+              "surname": "Amemiya",
+              "givenNames": "CT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AmemiyaCT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "897"
+        ],
+        "lpage": [
+          "900"
+        ]
+      },
+      "originalCitationText": "TangWJFernandezJSohnJJAmemiyaCTChitin is endogenously produced in vertebratesCurr. Biol.20152589790010.1016/j.cub.2015.01.05825772447PMC4382437",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cub.2015.01.058"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25772447"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4382437"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR29",
+      "position": 28,
+      "title": "Molecular basis for the nerve dependence of limb regeneration in an adult vertebrate",
+      "source": "Science",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kumar",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KumarA"
+            },
+            {
+              "surname": "Godwin",
+              "givenNames": "JW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GodwinJW"
+            },
+            {
+              "surname": "Gates",
+              "givenNames": "PB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GatesPB"
+            },
+            {
+              "surname": "Garza-Garcia",
+              "givenNames": "AA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Garza-GarciaAA"
+            },
+            {
+              "surname": "Brockes",
+              "givenNames": "JP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BrockesJP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "318"
+        ],
+        "fpage": [
+          "772"
+        ],
+        "lpage": [
+          "777"
+        ]
+      },
+      "originalCitationText": "KumarAGodwinJWGatesPBGarza-GarciaAABrockesJPMolecular basis for the nerve dependence of limb regeneration in an adult vertebrateScience200731877277710.1126/science.114771017975060PMC2696928",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1147710"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17975060"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2696928"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR30",
+      "position": 29,
+      "title": "Nerve dependency of regeneration: the role of Distal-less and FGF signaling in amphibian limb regeneration",
+      "source": "Development",
+      "year": "1996",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Mullen",
+              "givenNames": "LM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MullenLM"
+            },
+            {
+              "surname": "Bryant",
+              "givenNames": "SV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BryantSV"
+            },
+            {
+              "surname": "Torok",
+              "givenNames": "MA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TorokMA"
+            },
+            {
+              "surname": "Blumberg",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BlumbergB"
+            },
+            {
+              "surname": "Gardiner",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GardinerDM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "122"
+        ],
+        "fpage": [
+          "3487"
+        ],
+        "lpage": [
+          "3497"
+        ]
+      },
+      "originalCitationText": "MullenLMBryantSVTorokMABlumbergBGardinerDMNerve dependency of regeneration: the role of Distal-less and FGF signaling in amphibian limb regenerationDevelopment199612234873497895106410.1242/dev.122.11.3487",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "8951064"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1242/dev.122.11.3487"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR31",
+      "position": 30,
+      "title": "Neuregulin-1 signaling is essential for nerve-dependent axolotl limb regeneration",
+      "source": "Development",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Farkas",
+              "givenNames": "JE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FarkasJE"
+            },
+            {
+              "surname": "Freitas",
+              "givenNames": "PD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FreitasPD"
+            },
+            {
+              "surname": "Bryant",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BryantDM"
+            },
+            {
+              "surname": "Whited",
+              "givenNames": "JL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WhitedJL"
+            },
+            {
+              "surname": "Monaghan",
+              "givenNames": "JR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MonaghanJR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "143"
+        ],
+        "fpage": [
+          "2724"
+        ],
+        "lpage": [
+          "2731"
+        ]
+      },
+      "originalCitationText": "FarkasJEFreitasPDBryantDMWhitedJLMonaghanJRNeuregulin-1 signaling is essential for nerve-dependent axolotl limb regenerationDevelopment20161432724273110.1242/dev.13336327317805",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1242/dev.133363"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27317805"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR32",
+      "position": 31,
+      "title": "Epidermal stem cells of the skin",
+      "source": "Annu. Rev. Cell Dev. Biol.",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Blanpain",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BlanpainC"
+            },
+            {
+              "surname": "Fuchs",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FuchsE"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "fpage": [
+          "339"
+        ],
+        "lpage": [
+          "373"
+        ]
+      },
+      "originalCitationText": "BlanpainCFuchsEEpidermal stem cells of the skinAnnu. Rev. Cell Dev. Biol.20062233937310.1146/annurev.cellbio.22.010305.10435716824012PMC2405915",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1146/annurev.cellbio.22.010305.104357"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16824012"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2405915"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR33",
+      "position": 32,
+      "title": "The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells",
+      "source": "Nat. Biotechnol.",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Trapnell",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TrapnellC"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "fpage": [
+          "381"
+        ],
+        "lpage": [
+          "386"
+        ]
+      },
+      "originalCitationText": "TrapnellCThe dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cellsNat. Biotechnol.20143238138610.1038/nbt.285924658644PMC4122333",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nbt.2859"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24658644"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4122333"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR34",
+      "position": 33,
+      "title": "Pax-5 is identical to EBB-1/KLP and binds to the VpreB and lambda5 promoters as well as the KI and KII sites upstream of the Jkappa genes",
+      "source": "Eur. J. Immunol.",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tian",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TianJ"
+            },
+            {
+              "surname": "Okabe",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OkabeT"
+            },
+            {
+              "surname": "Miyazaki",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MiyazakiT"
+            },
+            {
+              "surname": "Takeshita",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TakeshitaS"
+            },
+            {
+              "surname": "Kudo",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KudoA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "fpage": [
+          "750"
+        ],
+        "lpage": [
+          "755"
+        ]
+      },
+      "originalCitationText": "TianJOkabeTMiyazakiTTakeshitaSKudoAPax-5 is identical to EBB-1/KLP and binds to the VpreB and lambda5 promoters as well as the KI and KII sites upstream of the Jkappa genesEur. J. Immunol.19972775075510.1002/eji.18302703259079818",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/eji.1830270325"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "9079818"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR35",
+      "position": 34,
+      "title": "CD8 T cells are involved in skeletal muscle regeneration through facilitating MCP-1 secretion and Gr1(high) macrophage infiltration",
+      "source": "J. Immunol.",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zhang",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangJ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "193"
+        ],
+        "fpage": [
+          "5149"
+        ],
+        "lpage": [
+          "5160"
+        ]
+      },
+      "originalCitationText": "ZhangJCD8 T cells are involved in skeletal muscle regeneration through facilitating MCP-1 secretion and Gr1(high) macrophage infiltrationJ. Immunol.20141935149516010.4049/jimmunol.130348625339660",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.4049/jimmunol.1303486"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25339660"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR36",
+      "position": 35,
+      "title": "A special population of regulatory T cells potentiates muscle repair",
+      "source": "Cell",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Burzyn",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BurzynD"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "155"
+        ],
+        "fpage": [
+          "1282"
+        ],
+        "lpage": [
+          "1295"
+        ]
+      },
+      "originalCitationText": "BurzynDA special population of regulatory T cells potentiates muscle repairCell20131551282129510.1016/j.cell.2013.10.05424315098PMC3894749",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cell.2013.10.054"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24315098"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3894749"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR37",
+      "position": 36,
+      "title": "Zebrafish regulatory T cells mediate organ-specific regenerative programs",
+      "source": "Dev. Cell",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hui",
+              "givenNames": "SP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuiSP"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "43"
+        ],
+        "fpage": [
+          "659"
+        ],
+        "lpage": [
+          "672 e655"
+        ]
+      },
+      "originalCitationText": "HuiSPZebrafish regulatory T cells mediate organ-specific regenerative programsDev. Cell201743659672 e65510.1016/j.devcel.2017.11.01029257949",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.devcel.2017.11.010"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29257949"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR38",
+      "position": 37,
+      "title": "mpeg1 promoter transgenes direct macrophage-lineage expression in zebrafish",
+      "source": "Blood",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ellett",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EllettF"
+            },
+            {
+              "surname": "Pase",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PaseL"
+            },
+            {
+              "surname": "Hayman",
+              "givenNames": "JW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaymanJW"
+            },
+            {
+              "surname": "Andrianopoulos",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AndrianopoulosA"
+            },
+            {
+              "surname": "Lieschke",
+              "givenNames": "GJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LieschkeGJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "117"
+        ],
+        "fpage": [
+          "e49"
+        ],
+        "lpage": [
+          "e56"
+        ]
+      },
+      "originalCitationText": "EllettFPaseLHaymanJWAndrianopoulosALieschkeGJmpeg1 promoter transgenes direct macrophage-lineage expression in zebrafishBlood2011117e49e5610.1182/blood-2010-10-31412021084707PMC3056479",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1182/blood-2010-10-314120"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21084707"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3056479"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR39",
+      "position": 38,
+      "title": "Cloning of a novel bacteria-binding receptor structurally related to scavenger receptors and expressed in a subset of macrophages",
+      "source": "Cell",
+      "year": "1995",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Elomaa",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ElomaaO"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "80"
+        ],
+        "fpage": [
+          "603"
+        ],
+        "lpage": [
+          "609"
+        ]
+      },
+      "originalCitationText": "ElomaaOCloning of a novel bacteria-binding receptor structurally related to scavenger receptors and expressed in a subset of macrophagesCell19958060360910.1016/0092-8674(95)90514-67867067",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/0092-8674(95)90514-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "7867067"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR40",
+      "position": 39,
+      "title": "Development of monocytes, macrophages, and dendritic cells",
+      "source": "Science",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Geissmann",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GeissmannF"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "327"
+        ],
+        "fpage": [
+          "656"
+        ],
+        "lpage": [
+          "661"
+        ]
+      },
+      "originalCitationText": "GeissmannFDevelopment of monocytes, macrophages, and dendritic cellsScience201032765666110.1126/science.117833120133564PMC2887389",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1178331"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20133564"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2887389"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR41",
+      "position": 40,
+      "title": "Cutting edge: TREM-2 attenuates macrophage activation",
+      "source": "J. Immunol.",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Turnbull",
+              "givenNames": "IR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TurnbullIR"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "177"
+        ],
+        "fpage": [
+          "3520"
+        ],
+        "lpage": [
+          "3524"
+        ]
+      },
+      "originalCitationText": "TurnbullIRCutting edge: TREM-2 attenuates macrophage activationJ. Immunol.20061773520352410.4049/jimmunol.177.6.352016951310",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.4049/jimmunol.177.6.3520"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16951310"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR42",
+      "position": 41,
+      "title": "LL-37, the neutrophil granule- and epithelial cell-derived cathelicidin, utilizes formyl peptide receptor-like 1 (FPRL1) as a receptor to chemoattract human peripheral blood neutrophils, monocytes, and T cells",
+      "source": "J. Exp. Med.",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "De",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DeY"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "192"
+        ],
+        "fpage": [
+          "1069"
+        ],
+        "lpage": [
+          "1074"
+        ]
+      },
+      "originalCitationText": "DeYLL-37, the neutrophil granule- and epithelial cell-derived cathelicidin, utilizes formyl peptide receptor-like 1 (FPRL1) as a receptor to chemoattract human peripheral blood neutrophils, monocytes, and T cellsJ. Exp. Med.20001921069107410.1084/jem.192.7.106911015447PMC2193321",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1084/jem.192.7.1069"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "11015447"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2193321"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR43",
+      "position": 42,
+      "title": "The leucocytes in regenerating limbs of Triturus viridescens",
+      "source": "Growth",
+      "year": "1949",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Liebman",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiebmanE"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "103"
+        ],
+        "lpage": [
+          "118"
+        ]
+      },
+      "originalCitationText": "LiebmanEThe leucocytes in regenerating limbs of Triturus viridescensGrowth19491310311818153119",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "18153119"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR44",
+      "position": 43,
+      "title": "Absence of cytoglobin promotes multiple organ abnormalities in aged mice",
+      "source": "Sci. Rep.",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Thuy le",
+              "givenNames": "TT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Thuy leTT"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "24990"
+        ]
+      },
+      "originalCitationText": "Thuy leTTAbsence of cytoglobin promotes multiple organ abnormalities in aged miceSci. Rep.201662499010.1038/srep2499027146058PMC4857093",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/srep24990"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27146058"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4857093"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR45",
+      "position": 44,
+      "title": "Microarray analysis of blood microvessels from PDGF-B and PDGF-Rbeta mutant mice identifies novel markers for brain pericytes",
+      "source": "FASEB J.",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bondjers",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BondjersC"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "fpage": [
+          "1703"
+        ],
+        "lpage": [
+          "1705"
+        ]
+      },
+      "originalCitationText": "BondjersCMicroarray analysis of blood microvessels from PDGF-B and PDGF-Rbeta mutant mice identifies novel markers for brain pericytesFASEB J.2006201703170510.1096/fj.05-4944fje16807374",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1096/fj.05-4944fje"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16807374"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR46",
+      "position": 45,
+      "title": "Analysis of congenital hypomyelinating Egr2Lo/Lo nerves identifies Sox2 as an inhibitor of Schwann cell differentiation and myelination",
+      "source": "Proc. Natl. Acad. Sci. USA",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Le",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeN"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "102"
+        ],
+        "fpage": [
+          "2596"
+        ],
+        "lpage": [
+          "2601"
+        ]
+      },
+      "originalCitationText": "LeNAnalysis of congenital hypomyelinating Egr2Lo/Lo nerves identifies Sox2 as an inhibitor of Schwann cell differentiation and myelinationProc. Natl. Acad. Sci. USA20051022596260110.1073/pnas.040783610215695336PMC548989",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.0407836102"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15695336"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC548989"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR46",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR47",
+      "position": 46,
+      "title": "The winged-helix transcription factor FoxD3 is important for establishing the neural crest lineage and repressing melanogenesis in avian embryos",
+      "source": "Development",
+      "year": "2001",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kos",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KosR"
+            },
+            {
+              "surname": "Reedy",
+              "givenNames": "MV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ReedyMV"
+            },
+            {
+              "surname": "Johnson",
+              "givenNames": "RL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JohnsonRL"
+            },
+            {
+              "surname": "Erickson",
+              "givenNames": "CA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EricksonCA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "128"
+        ],
+        "fpage": [
+          "1467"
+        ],
+        "lpage": [
+          "1479"
+        ]
+      },
+      "originalCitationText": "KosRReedyMVJohnsonRLEricksonCAThe winged-helix transcription factor FoxD3 is important for establishing the neural crest lineage and repressing melanogenesis in avian embryosDevelopment2001128146714791126224510.1242/dev.128.8.1467",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "11262245"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1242/dev.128.8.1467"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR47",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR48",
+      "position": 47,
+      "title": "Altered myogenesis in Six1-deficient mice",
+      "source": "Development",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Laclef",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LaclefC"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "130"
+        ],
+        "fpage": [
+          "2239"
+        ],
+        "lpage": [
+          "2252"
+        ]
+      },
+      "originalCitationText": "LaclefCAltered myogenesis in Six1-deficient miceDevelopment20031302239225210.1242/dev.0044012668636",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1242/dev.00440"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12668636"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR48",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR49",
+      "position": 48,
+      "title": "Eya1 and Eya2 proteins are required for hypaxial somitic myogenesis in the mouse embryo",
+      "source": "Dev. Biol.",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Grifone",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GrifoneR"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "302"
+        ],
+        "fpage": [
+          "602"
+        ],
+        "lpage": [
+          "616"
+        ]
+      },
+      "originalCitationText": "GrifoneREya1 and Eya2 proteins are required for hypaxial somitic myogenesis in the mouse embryoDev. Biol.200730260261610.1016/j.ydbio.2006.08.05917098221",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ydbio.2006.08.059"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17098221"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR49",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR50",
+      "position": 49,
+      "title": "Pseudotyped retroviruses for infecting axolotl in vivo and in vitro",
+      "source": "Development",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Whited",
+              "givenNames": "JL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WhitedJL"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "140"
+        ],
+        "fpage": [
+          "1137"
+        ],
+        "lpage": [
+          "1146"
+        ]
+      },
+      "originalCitationText": "WhitedJLPseudotyped retroviruses for infecting axolotl in vivo and in vitroDevelopment20131401137114610.1242/dev.08773423344705PMC3583047",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1242/dev.087734"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23344705"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3583047"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR50",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR51",
+      "position": 50,
+      "title": "Spatial and single-cell transcriptional profiling identifies functionally distinct human dermal fibroblast subpopulations",
+      "source": "J. Invest. Dermatol.",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Philippeos",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PhilippeosC"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "138"
+        ],
+        "fpage": [
+          "811"
+        ],
+        "lpage": [
+          "825"
+        ]
+      },
+      "originalCitationText": "PhilippeosCSpatial and single-cell transcriptional profiling identifies functionally distinct human dermal fibroblast subpopulationsJ. Invest. Dermatol.201813881182510.1016/j.jid.2018.01.01629391249PMC5869055",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.jid.2018.01.016"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29391249"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5869055"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR51",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR52",
+      "position": 51,
+      "title": "Extracellular matrix adhesion-promoting activities of a dermatan sulfate proteoglycan-associated protein (22K) from bovine fetal skin",
+      "source": "J. Cell Sci.",
+      "year": "1991",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lewandowska",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LewandowskaK"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "99"
+        ],
+        "issue": [
+          "Part 3"
+        ],
+        "fpage": [
+          "657"
+        ],
+        "lpage": [
+          "668"
+        ]
+      },
+      "originalCitationText": "LewandowskaKExtracellular matrix adhesion-promoting activities of a dermatan sulfate proteoglycan-associated protein (22K) from bovine fetal skinJ. Cell Sci.199199Part 3657668193937610.1242/jcs.99.3.657",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "1939376"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1242/jcs.99.3.657"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR52",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR53",
+      "position": 52,
+      "title": "Periosteum contains skeletal stem cells with high bone regenerative potential controlled by Periostin",
+      "source": "Nat. Commun.",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Duchamp de Lageneste",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Duchamp de LagenesteO"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "773"
+        ]
+      },
+      "originalCitationText": "Duchamp de LagenesteOPeriosteum contains skeletal stem cells with high bone regenerative potential controlled by PeriostinNat. Commun.2018977310.1038/s41467-018-03124-z29472541PMC5823889",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41467-018-03124-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29472541"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5823889"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR53",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR54",
+      "position": 53,
+      "title": "Single-cell reconstruction of developmental trajectories during zebrafish embryogenesis",
+      "source": "Science",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Farrell",
+              "givenNames": "Jeffrey A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FarrellJeffrey A."
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "Yiqun",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangYiqun"
+            },
+            {
+              "surname": "Riesenfeld",
+              "givenNames": "Samantha J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RiesenfeldSamantha J."
+            },
+            {
+              "surname": "Shekhar",
+              "givenNames": "Karthik",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShekharKarthik"
+            },
+            {
+              "surname": "Regev",
+              "givenNames": "Aviv",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RegevAviv"
+            },
+            {
+              "surname": "Schier",
+              "givenNames": "Alexander F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchierAlexander F."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "360"
+        ],
+        "issue": [
+          "6392"
+        ],
+        "fpage": [
+          "eaar3131"
+        ]
+      },
+      "originalCitationText": "FarrellJeffrey A.WangYiqunRiesenfeldSamantha J.ShekharKarthikRegevAvivSchierAlexander F.Single-cell reconstruction of developmental trajectories during zebrafish embryogenesisScience20183606392eaar313110.1126/science.aar313129700225PMC6247916",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.aar3131"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29700225"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6247916"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR54",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR55",
+      "position": 54,
+      "title": "Odd skipped-related 1 identifies a population of embryonic fibro-adipogenic progenitors regulating myogenesis during limb development",
+      "source": "Nat. Commun.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Vallecillo-Garcia",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Vallecillo-GarciaP"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "1218"
+        ]
+      },
+      "originalCitationText": "Vallecillo-GarciaPOdd skipped-related 1 identifies a population of embryonic fibro-adipogenic progenitors regulating myogenesis during limb developmentNat. Commun.20178121810.1038/s41467-017-01120-329084951PMC5662571",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41467-017-01120-3"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29084951"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5662571"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR55",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR56",
+      "position": 55,
+      "title": "Regulation of HoxA expression in developing and regenerating axolotl limbs",
+      "source": "Development",
+      "year": "1995",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gardiner",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GardinerDM"
+            },
+            {
+              "surname": "Blumberg",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BlumbergB"
+            },
+            {
+              "surname": "Komine",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KomineY"
+            },
+            {
+              "surname": "Bryant",
+              "givenNames": "SV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BryantSV"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "121"
+        ],
+        "fpage": [
+          "1731"
+        ],
+        "lpage": [
+          "1741"
+        ]
+      },
+      "originalCitationText": "GardinerDMBlumbergBKomineYBryantSVRegulation of HoxA expression in developing and regenerating axolotl limbsDevelopment199512117311741760098910.1242/dev.121.6.1731",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "7600989"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1242/dev.121.6.1731"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR56",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR57",
+      "position": 56,
+      "title": "Serum bone Gla-protein: a specific marker for bone formation in postmenopausal osteoporosis",
+      "source": "Lancet",
+      "year": "1984",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Brown",
+              "givenNames": "JP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BrownJP"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "1"
+        ],
+        "fpage": [
+          "1091"
+        ],
+        "lpage": [
+          "1093"
+        ]
+      },
+      "originalCitationText": "BrownJPSerum bone Gla-protein: a specific marker for bone formation in postmenopausal osteoporosisLancet198411091109310.1016/S0140-6736(84)92506-66144827",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0140-6736(84)92506-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "6144827"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR57",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR58",
+      "position": 57,
+      "title": "Expression pattern, subcellular localization, and functional implications of ODAM in ameloblasts, odontoblasts, osteoblasts, and various cancer cells",
+      "source": "Gene. Expr. Patterns",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lee",
+              "givenNames": "HK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeeHK"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "102"
+        ],
+        "lpage": [
+          "108"
+        ]
+      },
+      "originalCitationText": "LeeHKExpression pattern, subcellular localization, and functional implications of ODAM in ameloblasts, odontoblasts, osteoblasts, and various cancer cellsGene. Expr. Patterns20121210210810.1016/j.gep.2012.02.00222387195",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.gep.2012.02.002"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22387195"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR58",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR59",
+      "position": 58,
+      "title": "GDF5 coordinates bone and joint formation during digit development",
+      "source": "Dev. Biol.",
+      "year": "1999",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Storm",
+              "givenNames": "EE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StormEE"
+            },
+            {
+              "surname": "Kingsley",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KingsleyDM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "209"
+        ],
+        "fpage": [
+          "11"
+        ],
+        "lpage": [
+          "27"
+        ]
+      },
+      "originalCitationText": "StormEEKingsleyDMGDF5 coordinates bone and joint formation during digit developmentDev. Biol.1999209112710.1006/dbio.1999.924110208739",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1006/dbio.1999.9241"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10208739"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR59",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR60",
+      "position": 59,
+      "title": "barx1 represses joints and promotes cartilage in the craniofacial skeleton",
+      "source": "Development",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nichols",
+              "givenNames": "JT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NicholsJT"
+            },
+            {
+              "surname": "Pan",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PanL"
+            },
+            {
+              "surname": "Moens",
+              "givenNames": "CB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MoensCB"
+            },
+            {
+              "surname": "Kimmel",
+              "givenNames": "CB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KimmelCB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "140"
+        ],
+        "fpage": [
+          "2765"
+        ],
+        "lpage": [
+          "2775"
+        ]
+      },
+      "originalCitationText": "NicholsJTPanLMoensCBKimmelCBbarx1 represses joints and promotes cartilage in the craniofacial skeletonDevelopment20131402765277510.1242/dev.09063923698351PMC3678344",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1242/dev.090639"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23698351"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3678344"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR60",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR61",
+      "position": 60,
+      "title": "Cadherin-11 provides specific cellular adhesion between fibroblast-like synoviocytes",
+      "source": "J. Exp. Med.",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Valencia",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ValenciaX"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "200"
+        ],
+        "fpage": [
+          "1673"
+        ],
+        "lpage": [
+          "1679"
+        ]
+      },
+      "originalCitationText": "ValenciaXCadherin-11 provides specific cellular adhesion between fibroblast-like synoviocytesJ. Exp. Med.20042001673167910.1084/jem.2004154515611293PMC2211995",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1084/jem.20041545"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15611293"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2211995"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR61",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR62",
+      "position": 61,
+      "title": "Analysis of the tendon cell fate using Scleraxis, a specific marker for tendons and ligaments",
+      "source": "Development",
+      "year": "2001",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Schweitzer",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchweitzerR"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "128"
+        ],
+        "fpage": [
+          "3855"
+        ],
+        "lpage": [
+          "3866"
+        ]
+      },
+      "originalCitationText": "SchweitzerRAnalysis of the tendon cell fate using Scleraxis, a specific marker for tendons and ligamentsDevelopment2001128385538661158581010.1242/dev.128.19.3855",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "11585810"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1242/dev.128.19.3855"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR62",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR63",
+      "position": 62,
+      "title": "Identification of tendon stem/progenitor cells and the role of the extracellular matrix in their niche",
+      "source": "Nat. Med.",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bi",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BiY"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "1219"
+        ],
+        "lpage": [
+          "1227"
+        ]
+      },
+      "originalCitationText": "BiYIdentification of tendon stem/progenitor cells and the role of the extracellular matrix in their nicheNat. Med.2007131219122710.1038/nm163017828274",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nm1630"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17828274"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR63",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR64",
+      "position": 63,
+      "title": "Dedifferentiated Schwann cell precursors secreting paracrine factors are required for regeneration of the mammalian digit tip",
+      "source": "Cell Stem Cell",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Johnston",
+              "givenNames": "AP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JohnstonAP"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "433"
+        ],
+        "lpage": [
+          "448"
+        ]
+      },
+      "originalCitationText": "JohnstonAPDedifferentiated Schwann cell precursors secreting paracrine factors are required for regeneration of the mammalian digit tipCell Stem Cell20161943344810.1016/j.stem.2016.06.00227376984",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.stem.2016.06.002"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27376984"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR64",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR65",
+      "position": 64,
+      "title": "Tissue morphogenesis and vascular stability require the Frem2 protein, product of the mouse myelencephalic blebs gene",
+      "source": "Proc. Natl. Acad. Sci. USA",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Timmer",
+              "givenNames": "JR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TimmerJR"
+            },
+            {
+              "surname": "Mak",
+              "givenNames": "TW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MakTW"
+            },
+            {
+              "surname": "Manova",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ManovaK"
+            },
+            {
+              "surname": "Anderson",
+              "givenNames": "KV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AndersonKV"
+            },
+            {
+              "surname": "Niswander",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NiswanderL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "102"
+        ],
+        "fpage": [
+          "11746"
+        ],
+        "lpage": [
+          "11750"
+        ]
+      },
+      "originalCitationText": "TimmerJRMakTWManovaKAndersonKVNiswanderLTissue morphogenesis and vascular stability require the Frem2 protein, product of the mouse myelencephalic blebs geneProc. Natl. Acad. Sci. USA2005102117461175010.1073/pnas.050540410216087869PMC1183448",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.0505404102"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16087869"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1183448"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR65",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR66",
+      "position": 65,
+      "title": "A tissue-mapped Axolotl de novo transcriptome enables identification of limb regeneration factors",
+      "source": "Cell Rep.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bryant",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BryantDM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "762"
+        ],
+        "lpage": [
+          "776"
+        ]
+      },
+      "originalCitationText": "BryantDMA tissue-mapped Axolotl de novo transcriptome enables identification of limb regeneration factorsCell Rep.20171876277610.1016/j.celrep.2016.12.06328099853PMC5419050",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.celrep.2016.12.063"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28099853"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5419050"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR66",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR67",
+      "position": 66,
+      "title": "Initial characterization of the large genome of the salamander Ambystoma mexicanum using shotgun and laser capture chromosome sequencing",
+      "source": "Sci. Rep.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Keinath",
+              "givenNames": "MC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KeinathMC"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "16413"
+        ]
+      },
+      "originalCitationText": "KeinathMCInitial characterization of the large genome of the salamander Ambystoma mexicanum using shotgun and laser capture chromosome sequencingSci. Rep.201551641310.1038/srep1641326553646PMC4639759",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/srep16413"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26553646"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4639759"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR67",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR68",
+      "position": 67,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Goetz, J. J. & Trimarchi, J. M. Single-cell profiling of developing and mature retinal neurons. J. Vis. Exp.10.3791/3824 (2012).10.3791/3824PMC346663222546911",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3791/3824"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3466632"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22546911"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR68",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR69",
+      "position": 68,
+      "title": "The dynamics of gene expression in vertebrate embryogenesis at single-cell resolution",
+      "source": "Science",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Briggs",
+              "givenNames": "James A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BriggsJames A."
+            },
+            {
+              "surname": "Weinreb",
+              "givenNames": "Caleb",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeinrebCaleb"
+            },
+            {
+              "surname": "Wagner",
+              "givenNames": "Daniel E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WagnerDaniel E."
+            },
+            {
+              "surname": "Megason",
+              "givenNames": "Sean",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MegasonSean"
+            },
+            {
+              "surname": "Peshkin",
+              "givenNames": "Leonid",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PeshkinLeonid"
+            },
+            {
+              "surname": "Kirschner",
+              "givenNames": "Marc W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KirschnerMarc W."
+            },
+            {
+              "surname": "Klein",
+              "givenNames": "Allon M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KleinAllon M."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "360"
+        ],
+        "issue": [
+          "6392"
+        ],
+        "fpage": [
+          "eaar5780"
+        ]
+      },
+      "originalCitationText": "BriggsJames A.WeinrebCalebWagnerDaniel E.MegasonSeanPeshkinLeonidKirschnerMarc W.KleinAllon M.The dynamics of gene expression in vertebrate embryogenesis at single-cell resolutionScience20183606392eaar578010.1126/science.aar578029700227PMC6038144",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.aar5780"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29700227"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6038144"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR69",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR70",
+      "position": 69,
+      "title": "A staging system for forelimb regeneration in the Axolotl, Ambystoma mexicanum",
+      "source": "J. Morphol.",
+      "year": "1976",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tank",
+              "givenNames": "PW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TankPW"
+            },
+            {
+              "surname": "Carlson",
+              "givenNames": "BM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CarlsonBM"
+            },
+            {
+              "surname": "Connelly",
+              "givenNames": "TG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ConnellyTG"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "150"
+        ],
+        "fpage": [
+          "117"
+        ],
+        "lpage": [
+          "128"
+        ]
+      },
+      "originalCitationText": "TankPWCarlsonBMConnellyTGA staging system for forelimb regeneration in the Axolotl, Ambystoma mexicanumJ. Morphol.197615011712810.1002/jmor.1051500106966285",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/jmor.1051500106"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "966285"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6279788/article.xml",
+        "articleSha256": "88f366e75fd487961ff0bffd76dbc3066667201d830395020a6d43fff452d942",
+        "referenceId": "CR70",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Nature Communications"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Nat Commun"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Nat Commun"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "2873"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ncomms"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101528555"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2041-1723"
+      }
+    ],
+    "publisherNames": [
+      "Nature Publishing Group"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "9"
+    ],
+    "elocation-id": [
+      "5153"
+    ]
+  }
+}

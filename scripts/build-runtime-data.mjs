@@ -6,6 +6,7 @@ import { strToU8 } from 'fflate'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { evaluatePackageReview } from './check-review-freshness.mjs'
 import { deterministicGzip, deterministicZip } from './archive-determinism.mjs'
+import { releaseRetentionByteLimit } from './artifact-budget.mjs'
 import { partitionSanbiDescriptions } from './sanbi-description-shards.mjs'
 import { buildCatalogueKnowledge } from './catalogue-knowledge.mjs'
 import { readCatalogueDossiers } from './catalogue-dossier-store.mjs'
@@ -53,9 +54,6 @@ if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(sourceManifest.datasetVersion)) {
 }
 const startedAt = Date.now()
 mkdirSync(outputRoot, { recursive: true })
-const releaseHistoryPath = join(outputRoot, 'releases.json')
-let previousReleaseHistory = { releases: [] }
-try { previousReleaseHistory = JSON.parse(readFileSync(releaseHistoryPath, 'utf8')) } catch { /* first build */ }
 const currentReleaseRoot = resolve(outputRoot, 'releases', sourceManifest.datasetVersion)
 if (!currentReleaseRoot.startsWith(`${outputRoot}${sep}`)) throw new Error(`Unsafe current release path: ${currentReleaseRoot}`)
 rmSync(currentReleaseRoot, { recursive: true, force: true })
@@ -1955,8 +1953,7 @@ const releaseFilesIndex = writeJson('release-files.json', {
 }, true)
 const currentReleaseBytes = releaseFiles.reduce((sum, file) => sum + file.bytes, 0) + releaseFilesIndex.bytes
 // Full-web releases are not Pages deployments; keep their retention allowance separate from preview editions.
-const editionRetentionByteLimit = (pagesPreview ? 650 : 700) * 1024 * 1024
-const retentionByteLimit = Math.max(previousReleaseHistory.retentionByteLimit ?? 0, editionRetentionByteLimit)
+const retentionByteLimit = releaseRetentionByteLimit(edition)
 const currentRelease = {
   datasetVersion: sourceManifest.datasetVersion,
   releaseBase: `${releasePrefix}/`,

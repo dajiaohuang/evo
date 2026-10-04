@@ -1,0 +1,22123 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Rhinella marina
+    name:
+      en: Rhinella marina
+      zh: Rhinella marina
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected thermal preference estimate
+          zh: 选列的温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "275"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 230
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "437"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 361
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "491"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/3/text/zh
+        sourceRowNumber: 412
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 230
+        values:
+          - "275"
+          - Ana Longo
+          - Branco_and_Malvin_1996
+          - Thermoregulatory effects of cyanide and azide in the toal, Bufo marinus
+          - "1996"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1996.270.1.R169
+          - English
+          - Rhinella_marina_pop39
+          - Rhinella_marina_pop39_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "208"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Pre-T_NaCN_0.6umol
+          - table
+          - NA
+          - NA
+          - "25.9"
+          - "0.4"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 231
+        values:
+          - "277"
+          - Ana Longo
+          - Branco_and_Malvin_1996
+          - Thermoregulatory effects of cyanide and azide in the toal, Bufo marinus
+          - "1996"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1996.270.1.R169
+          - English
+          - Rhinella_marina_pop39
+          - Rhinella_marina_pop39_PBT_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "208"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Pre-T_NaCN_0.6mmol
+          - table
+          - NA
+          - NA
+          - "29.1"
+          - "0.9"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 232
+        values:
+          - "279"
+          - Ana Longo
+          - Branco_and_Malvin_1996
+          - Thermoregulatory effects of cyanide and azide in the toal, Bufo marinus
+          - "1996"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1996.270.1.R169
+          - English
+          - Rhinella_marina_pop39
+          - Rhinella_marina_pop39_PBT_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "208"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Pre-T_NaN3_0.6umol
+          - table
+          - NA
+          - NA
+          - "26.9"
+          - "0.6"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 233
+        values:
+          - "281"
+          - Ana Longo
+          - Branco_and_Malvin_1996
+          - Thermoregulatory effects of cyanide and azide in the toal, Bufo marinus
+          - "1996"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1996.270.1.R169
+          - English
+          - Rhinella_marina_pop39
+          - Rhinella_marina_pop39_PBT_co4
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "208"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Pre-T_NaN3_0.6mmol
+          - table
+          - NA
+          - NA
+          - "28"
+          - "0.5"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 234
+        values:
+          - "283"
+          - Ana Longo
+          - Branco_and_Malvin_1996
+          - Thermoregulatory effects of cyanide and azide in the toal, Bufo marinus
+          - "1996"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1996.270.1.R169
+          - English
+          - Rhinella_marina_pop39
+          - Rhinella_marina_pop39_PBT_co5
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "208"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Pre-T_NaCl_0.6mmol
+          - table
+          - NA
+          - NA
+          - "26.5"
+          - "0.8"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 235
+        values:
+          - "285"
+          - Ana Longo
+          - Branco_and_Malvin_1996
+          - Thermoregulatory effects of cyanide and azide in the toal, Bufo marinus
+          - "1996"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1996.270.1.R169
+          - English
+          - Rhinella_marina_pop39
+          - Rhinella_marina_pop39_PBT_co6
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "208"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Pre-T_NaCN_0.6umol
+          - table
+          - NA
+          - NA
+          - "29.9"
+          - "0.9"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 236
+        values:
+          - "287"
+          - Ana Longo
+          - Branco_and_Malvin_1996
+          - Thermoregulatory effects of cyanide and azide in the toal, Bufo marinus
+          - "1996"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1996.270.1.R169
+          - English
+          - Rhinella_marina_pop39
+          - Rhinella_marina_pop39_PBT_co7
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "208"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Pre-T_NaN3_0.6umol_icv
+          - table
+          - NA
+          - NA
+          - "29.6"
+          - "0.3"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 237
+        values:
+          - "289"
+          - Ana Longo
+          - Branco_and_Malvin_1996
+          - Thermoregulatory effects of cyanide and azide in the toal, Bufo marinus
+          - "1996"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1996.270.1.R169
+          - English
+          - Rhinella_marina_pop39
+          - Rhinella_marina_pop39_PBT_co8
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "208"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Pre-T_aCSF_icv
+          - table
+          - NA
+          - NA
+          - "25.8"
+          - "0.9"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 238
+        values:
+          - "290"
+          - Ana Longo
+          - Branco_and_Malvin_1996
+          - Thermoregulatory effects of cyanide and azide in the toal, Bufo marinus
+          - "1996"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1996.270.1.R169
+          - English
+          - Rhinella_marina_pop39
+          - Rhinella_marina_pop39_PBT_co8
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "208"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - aCSF
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Post-T_aCSF_icv
+          - table
+          - NA
+          - NA
+          - "26.2"
+          - "0.3"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 246
+        values:
+          - "301"
+          - Ana Longo/ Patrice Pottier
+          - Branco_and_Wood_1994
+          - Role of central chemoreceptors in behavioral thermoregulation of the toad, Bufo marinus
+          - "1994"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1994.266.5.R1483
+          - English
+          - Rhinella_marina_pop40
+          - Rhinella_marina_pop40_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "235"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Before hypercapnia
+          - figure
+          - NA
+          - NA
+          - "26.67848317"
+          - "0.324356636"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 247
+        values:
+          - "304"
+          - Ana Longo/ Patrice Pottier
+          - Branco_and_Wood_1994
+          - Role of central chemoreceptors in behavioral thermoregulation of the toad, Bufo marinus
+          - "1994"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1994.266.5.R1483
+          - English
+          - Rhinella_marina_pop40
+          - Rhinella_marina_pop40_PBT_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "235"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Before hypercapnia
+          - figure
+          - NA
+          - NA
+          - "27.4002616"
+          - "0.268470299"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 248
+        values:
+          - "307"
+          - Ana Longo/ Patrice Pottier
+          - Branco_and_Wood_1994
+          - Role of central chemoreceptors in behavioral thermoregulation of the toad, Bufo marinus
+          - "1994"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1994.266.5.R1483
+          - English
+          - Rhinella_marina_pop40
+          - Rhinella_marina_pop40_PBT_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "235"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Before hypercapnia
+          - figure
+          - NA
+          - NA
+          - "27.93901104"
+          - "0.217218403"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 249
+        values:
+          - "310"
+          - Ana Longo/ Patrice Pottier
+          - Branco_and_Wood_1994
+          - Role of central chemoreceptors in behavioral thermoregulation of the toad, Bufo marinus
+          - "1994"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1994.266.5.R1483
+          - English
+          - Rhinella_marina_pop40
+          - Rhinella_marina_pop40_PBT_co4
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "235"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Before hypercapnia
+          - figure
+          - NA
+          - NA
+          - "27.10440417"
+          - "0.307894761"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 250
+        values:
+          - "313"
+          - Ana Longo/ Patrice Pottier
+          - Branco_and_Wood_1994
+          - Role of central chemoreceptors in behavioral thermoregulation of the toad, Bufo marinus
+          - "1994"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1994.266.5.R1483
+          - English
+          - Rhinella_marina_pop40
+          - Rhinella_marina_pop40_PBT_co5
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "235"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Before hypercapnia
+          - figure
+          - NA
+          - NA
+          - "27.78441532"
+          - "0.249122274"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 251
+        values:
+          - "316"
+          - Ana Longo/ Patrice Pottier
+          - Branco_and_Wood_1994
+          - Role of central chemoreceptors in behavioral thermoregulation of the toad, Bufo marinus
+          - "1994"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1994.266.5.R1483
+          - English
+          - Rhinella_marina_pop40
+          - Rhinella_marina_pop40_PBT_co6
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "235"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Before hypercapnia
+          - figure
+          - NA
+          - NA
+          - "26.49474804"
+          - "0.327671523"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 252
+        values:
+          - "319"
+          - Ana Longo/ Patrice Pottier
+          - Branco_and_Wood_1994
+          - Role of central chemoreceptors in behavioral thermoregulation of the toad, Bufo marinus
+          - "1994"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1994.266.5.R1483
+          - English
+          - Rhinella_marina_pop40
+          - Rhinella_marina_pop40_PBT_co7
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "235"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Before perfusion
+          - figure
+          - NA
+          - NA
+          - "27.39246495"
+          - "0.204906589"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 253
+        values:
+          - "321"
+          - Ana Longo/ Patrice Pottier
+          - Branco_and_Wood_1994
+          - Role of central chemoreceptors in behavioral thermoregulation of the toad, Bufo marinus
+          - "1994"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1994.266.5.R1483
+          - English
+          - Rhinella_marina_pop40
+          - Rhinella_marina_pop40_PBT_co8
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "235"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Before perfusion and hypercapnia
+          - figure
+          - NA
+          - NA
+          - "27.83495483"
+          - "0.114142907"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 254
+        values:
+          - "323"
+          - Ana Longo/ Patrice Pottier
+          - Branco_and_Wood_1994
+          - Role of central chemoreceptors in behavioral thermoregulation of the toad, Bufo marinus
+          - "1994"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1152/ajpregu.1994.266.5.R1483
+          - English
+          - Rhinella_marina_pop40
+          - Rhinella_marina_pop40_PBT_co9
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "235"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Before perfusion
+          - figure
+          - NA
+          - NA
+          - "28.77902713"
+          - "0.137902402"
+          - "7"
+          - se
+          - NA
+      - rowNumber: 361
+        values:
+          - "437"
+          - Patrice Pottier
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Rhinella_marina_pop28
+          - Rhinella_marina_pop28_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "9.152102"
+          - "-79.84648"
+          - "305"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "17.5"
+          - acclimation_time was taken as the mean of the range presented (2-3 weeks)
+          - adults
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018. Photoperiod was either 24h light, or 24h dark.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "36.5"
+          - NA
+          - "10"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/18/values/83
+      - rowNumber: 362
+        values:
+          - "438"
+          - Patrice Pottier
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Rhinella_marina_pop28
+          - Rhinella_marina_pop28_UTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "9.152102"
+          - "-79.84648"
+          - "305"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "26"
+          - "1"
+          - "17.5"
+          - acclimation_time was taken as the mean of the range presented (2-3 weeks)
+          - adults
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018. Photoperiod was either 24h light, or 24h dark.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "39.3"
+          - NA
+          - "10"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/19/values/83
+      - rowNumber: 363
+        values:
+          - "439"
+          - Patrice Pottier
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Rhinella_marina_pop28
+          - Rhinella_marina_pop28_UTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "9.152102"
+          - "-79.84648"
+          - "305"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "38"
+          - "1"
+          - "17.5"
+          - acclimation_time was taken as the mean of the range presented (2-3 weeks)
+          - adults
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018. Photoperiod was either 24h light, or 24h dark.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "41.8"
+          - NA
+          - "10"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/20/values/83
+      - rowNumber: 412
+        values:
+          - "491"
+          - Ana Longo
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Rhinella_marina_pop28
+          - Rhinella_marina_pop28_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "9.152102"
+          - "-79.84648"
+          - "305"
+          - NA
+          - NA
+          - NA
+          - "1964"
+          - "1965"
+          - PanamaBCI
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23"
+          - "1"
+          - "17.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - The endpoint and ramping rates were assumed to be the same as for the CTmax experiment
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "11"
+          - NA
+          - "5"
+          - NA
+          - Sample size was taken as 5 because it is stated that, "in most cases the number of animals used per point was 5-10"
+      - rowNumber: 676
+        values:
+          - "768"
+          - Patrice Pottier
+          - Brattstrom_and_Lawrence_1962
+          - The Rate of Thermal Acclimation in Anuran Amphibians
+          - "1962"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1086/physzool.35.2.30152723
+          - English
+          - Rhinella_marina_pop27
+          - Rhinella_marina_pop27_UTL_co1
+          - The population_ID was taken as the same as in study st9 because animals were collected in the same location
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "9.152102"
+          - "-79.84648"
+          - "57"
+          - NA
+          - NA
+          - NA
+          - "1959"
+          - "1960"
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "38"
+          - NA
+          - "1"
+          - NA
+          - adults
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "40.00425"
+          - NA
+          - "3"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/22/values/83
+      - rowNumber: 677
+        values:
+          - "769"
+          - Patrice Pottier
+          - Brattstrom_and_Lawrence_1962
+          - The Rate of Thermal Acclimation in Anuran Amphibians
+          - "1962"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1086/physzool.35.2.30152723
+          - English
+          - Rhinella_marina_pop27
+          - Rhinella_marina_pop27_UTL_co2
+          - The population_ID was taken as the same as in study st9 because animals were collected in the same location
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "9.152102"
+          - "-79.84648"
+          - "57"
+          - NA
+          - NA
+          - NA
+          - "1959"
+          - "1960"
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "38"
+          - NA
+          - "2"
+          - NA
+          - adults
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "40.99129"
+          - NA
+          - "3"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/23/values/83
+      - rowNumber: 678
+        values:
+          - "770"
+          - Patrice Pottier
+          - Brattstrom_and_Lawrence_1962
+          - The Rate of Thermal Acclimation in Anuran Amphibians
+          - "1962"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1086/physzool.35.2.30152723
+          - English
+          - Rhinella_marina_pop27
+          - Rhinella_marina_pop27_UTL_co3
+          - The population_ID was taken as the same as in study st9 because animals were collected in the same location
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "9.152102"
+          - "-79.84648"
+          - "57"
+          - NA
+          - NA
+          - NA
+          - "1959"
+          - "1960"
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "38"
+          - NA
+          - "3"
+          - NA
+          - adults
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "41.70253"
+          - NA
+          - "3"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/24/values/83
+      - rowNumber: 679
+        values:
+          - "771"
+          - Patrice Pottier
+          - Brattstrom_and_Lawrence_1962
+          - The Rate of Thermal Acclimation in Anuran Amphibians
+          - "1962"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1086/physzool.35.2.30152723
+          - English
+          - Rhinella_marina_pop27
+          - Rhinella_marina_pop27_UTL_co4
+          - The population_ID was taken as the same as in study st9 because animals were collected in the same location
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "9.152102"
+          - "-79.84648"
+          - "57"
+          - NA
+          - NA
+          - NA
+          - "1959"
+          - "1960"
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "38"
+          - NA
+          - "4"
+          - NA
+          - adults
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "41.77564"
+          - NA
+          - "3"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/25/values/83
+      - rowNumber: 680
+        values:
+          - "772"
+          - Patrice Pottier
+          - Brattstrom_and_Lawrence_1962
+          - The Rate of Thermal Acclimation in Anuran Amphibians
+          - "1962"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1086/physzool.35.2.30152723
+          - English
+          - Rhinella_marina_pop27
+          - Rhinella_marina_pop27_UTL_co5
+          - The population_ID was taken as the same as in study st9 because animals were collected in the same location
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "9.152102"
+          - "-79.84648"
+          - "57"
+          - NA
+          - NA
+          - NA
+          - "1959"
+          - "1960"
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "27"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "39.32748"
+          - NA
+          - "3"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/26/values/83
+      - rowNumber: 1255
+        values:
+          - "1404"
+          - Natalie_Claunch
+          - Dohm_et_al_2001
+          - Effects of Ozone on Evaporative Water Loss and Thermoregulatory Behavior of Marine Toads (Bufo marinus)
+          - "2001"
+          - NA
+          - NA
+          - peer-reviewed
+          - doi:10.1006/enrs.2001.4276
+          - English
+          - Rhinella_marina_pop33
+          - Rhinella_marina_pop33_PBT_co1
+          - The same animals were measurement at different time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.71599266"
+          - "-155.0854757"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - "7"
+          - Acclimation temperatue not reported
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.5"
+          - "2"
+          - linear
+          - "4"
+          - "40"
+          - toads before experimental treatment
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "25"
+          - "2.57"
+          - "22"
+          - sd
+          - NA
+      - rowNumber: 1256
+        values:
+          - "1405"
+          - Natalie_Claunch
+          - Dohm_et_al_2001
+          - Effects of Ozone on Evaporative Water Loss and Thermoregulatory Behavior of Marine Toads (Bufo marinus)
+          - "2001"
+          - NA
+          - NA
+          - peer-reviewed
+          - doi:10.1006/enrs.2001.4276
+          - English
+          - Rhinella_marina_pop33
+          - Rhinella_marina_pop33_PBT_co1
+          - The same animals were measurement at different time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.71599266"
+          - "-155.0854757"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - "7"
+          - Acclimation temperatue not reported
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.5"
+          - "2"
+          - linear
+          - "4"
+          - "40"
+          - toads before experimental treatment
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "25"
+          - "2.91"
+          - "22"
+          - sd
+          - NA
+      - rowNumber: 1257
+        values:
+          - "1406"
+          - Natalie_Claunch
+          - Dohm_et_al_2001
+          - Effects of Ozone on Evaporative Water Loss and Thermoregulatory Behavior of Marine Toads (Bufo marinus)
+          - "2001"
+          - NA
+          - NA
+          - peer-reviewed
+          - doi:10.1006/enrs.2001.4276
+          - English
+          - Rhinella_marina_pop33
+          - Rhinella_marina_pop33_PBT_co1
+          - The same animals were measurement at different time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.71599266"
+          - "-155.0854757"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - "7"
+          - Acclimation temperatue not reported
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.5"
+          - "2"
+          - linear
+          - "4"
+          - "40"
+          - control group; 1 h post-exposure to ambient air
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "25"
+          - "3.05"
+          - "11"
+          - sd
+          - NA
+      - rowNumber: 1258
+        values:
+          - "1407"
+          - Natalie_Claunch
+          - Dohm_et_al_2001
+          - Effects of Ozone on Evaporative Water Loss and Thermoregulatory Behavior of Marine Toads (Bufo marinus)
+          - "2001"
+          - NA
+          - NA
+          - peer-reviewed
+          - doi:10.1006/enrs.2001.4276
+          - English
+          - Rhinella_marina_pop33
+          - Rhinella_marina_pop33_PBT_co1
+          - The same animals were measurement at different time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.71599266"
+          - "-155.0854757"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - "7"
+          - Acclimation temperatue not reported
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.5"
+          - "2"
+          - linear
+          - "4"
+          - "40"
+          - control group; 24 h post-exposure to ambient air
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "24.3"
+          - "2.53"
+          - "11"
+          - sd
+          - NA
+      - rowNumber: 1259
+        values:
+          - "1408"
+          - Natalie_Claunch
+          - Dohm_et_al_2001
+          - Effects of Ozone on Evaporative Water Loss and Thermoregulatory Behavior of Marine Toads (Bufo marinus)
+          - "2001"
+          - NA
+          - NA
+          - peer-reviewed
+          - doi:10.1006/enrs.2001.4276
+          - English
+          - Rhinella_marina_pop33
+          - Rhinella_marina_pop33_PBT_co1
+          - The same animals were measurement at different time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.71599266"
+          - "-155.0854757"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - "7"
+          - Acclimation temperatue not reported
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.5"
+          - "2"
+          - linear
+          - "4"
+          - "40"
+          - control group; 48 h post-exposure to ambient air
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "24.4"
+          - "2.14"
+          - "9"
+          - sd
+          - NA
+      - rowNumber: 1540
+        values:
+          - "1712"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "25"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "20"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "42.54107649"
+          - "0.062322946"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/32/values/83
+      - rowNumber: 1541
+        values:
+          - "1713"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co10
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "25"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "31"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "42.33711048"
+          - "0.02266289"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/33/values/83
+      - rowNumber: 1542
+        values:
+          - "1714"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co11
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "31"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "43.78753541"
+          - "0.045325779"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/34/values/83
+      - rowNumber: 1543
+        values:
+          - "1715"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co12
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "31"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "44.90934844"
+          - "0.045325779"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/35/values/83
+      - rowNumber: 1544
+        values:
+          - "1716"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co13
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "25"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "34"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "42.2917847"
+          - "0.039660057"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/36/values/83
+      - rowNumber: 1545
+        values:
+          - "1717"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co14
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "34"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "43.73087819"
+          - "0.011331445"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/37/values/83
+      - rowNumber: 1546
+        values:
+          - "1718"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co15
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "34"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "44.47875354"
+          - "0.039660057"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/38/values/83
+      - rowNumber: 1547
+        values:
+          - "1719"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co16
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "25"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "37"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "42.00849858"
+          - "0.101983003"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/39/values/83
+      - rowNumber: 1548
+        values:
+          - "1720"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co17
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "37"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "43.86685552"
+          - "0.016997167"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/40/values/83
+      - rowNumber: 1549
+        values:
+          - "1721"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co18
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "37"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "44.61473088"
+          - "0.062322946"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/41/values/83
+      - rowNumber: 1550
+        values:
+          - "1722"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co19
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "25"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "40"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "41.88385269"
+          - "0.056657224"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/42/values/83
+      - rowNumber: 1551
+        values:
+          - "1723"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "20"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "42.98300283"
+          - "0.067988669"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/43/values/83
+      - rowNumber: 1552
+        values:
+          - "1724"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co20
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "40"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "43.35694051"
+          - "0.033994334"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/44/values/83
+      - rowNumber: 1553
+        values:
+          - "1725"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co21
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "40"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "44.22946176"
+          - "0.02266289"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/45/values/83
+      - rowNumber: 1554
+        values:
+          - "1726"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co22
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "25"
+          - "0.2"
+          - NA
+          - NA
+          - metamorphs
+          - "42"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "41.20396601"
+          - "0.033994334"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/46/values/83
+      - rowNumber: 1555
+        values:
+          - "1727"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co23
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - "0.2"
+          - NA
+          - NA
+          - metamorphs
+          - "42"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "43.14164306"
+          - "0.067988669"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/47/values/83
+      - rowNumber: 1556
+        values:
+          - "1728"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co24
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - metamorphs
+          - "42"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "43.54957507"
+          - "0.147308782"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/48/values/83
+      - rowNumber: 1557
+        values:
+          - "1729"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co25
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "25"
+          - "0.2"
+          - NA
+          - NA
+          - metamorphs
+          - "43"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "40.71671388"
+          - "0.056657224"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/49/values/83
+      - rowNumber: 1558
+        values:
+          - "1730"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co26
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - "0.2"
+          - NA
+          - NA
+          - metamorphs
+          - "43"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "41.04532578"
+          - "0.271954674"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/50/values/83
+      - rowNumber: 1559
+        values:
+          - "1731"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co27
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - metamorphs
+          - "43"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "42.66572238"
+          - "0.028328612"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/51/values/83
+      - rowNumber: 1560
+        values:
+          - "1732"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co28
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "25"
+          - "0.2"
+          - NA
+          - NA
+          - metamorphs
+          - "44"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.87252125"
+          - "0.062322946"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/52/values/83
+      - rowNumber: 1561
+        values:
+          - "1733"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co29
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - "0.2"
+          - NA
+          - NA
+          - metamorphs
+          - "44"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.40509915"
+          - "0.175637394"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/53/values/83
+      - rowNumber: 1562
+        values:
+          - "1734"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "20"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "43.51558074"
+          - "0.084985836"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/54/values/83
+      - rowNumber: 1563
+        values:
+          - "1735"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co30
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - metamorphs
+          - "44"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.74787535"
+          - "0.220963173"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/55/values/83
+      - rowNumber: 1564
+        values:
+          - "1736"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co4
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "25"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "41.70254958"
+          - "0.130311615"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/56/values/83
+      - rowNumber: 1565
+        values:
+          - "1737"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co5
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "43.59490085"
+          - "0.039660057"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/57/values/83
+      - rowNumber: 1566
+        values:
+          - "1738"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co6
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "44.33144476"
+          - "0.02266289"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/58/values/83
+      - rowNumber: 1567
+        values:
+          - "1739"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co7
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "25"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "28"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "42.24645892"
+          - "0.079320113"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/59/values/83
+      - rowNumber: 1568
+        values:
+          - "1740"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co8
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "28"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "43.92351275"
+          - "0.073654391"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/60/values/83
+      - rowNumber: 1569
+        values:
+          - "1741"
+          - Patrice Pottier
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co9
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "28"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "44.5694051"
+          - "0.033994334"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/61/values/83
+      - rowNumber: 1570
+        values:
+          - "1742"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "20"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "11.8719723"
+          - "0.3063798"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1571
+        values:
+          - "1743"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "8.723183391"
+          - "0.689354646"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1572
+        values:
+          - "1744"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "28"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.110726644"
+          - "0.382974803"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1573
+        values:
+          - "1745"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "31"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "8.795847751"
+          - "0.689354646"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1574
+        values:
+          - "1746"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.570934256"
+          - "0.459569764"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1575
+        values:
+          - "1747"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "37"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.29757785"
+          - "0.612759685"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1576
+        values:
+          - "1748"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "40"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.73356401"
+          - "0.536164724"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1577
+        values:
+          - "1749"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - NA
+          - NA
+          - metamorphs
+          - "42"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "11.70242215"
+          - "0.459569764"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1578
+        values:
+          - "1750"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - NA
+          - NA
+          - metamorphs
+          - "43"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "13.37370242"
+          - "0.459569764"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1579
+        values:
+          - "1751"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - NA
+          - NA
+          - metamorphs
+          - "44"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "16.8615917"
+          - "0.382974803"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1580
+        values:
+          - "1752"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "20"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "11.31487889"
+          - "0.612759685"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1581
+        values:
+          - "1753"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.996539792"
+          - "0.382974803"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1582
+        values:
+          - "1754"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "28"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.802768166"
+          - "0.536164724"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1583
+        values:
+          - "1755"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "31"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.851211073"
+          - "0.306379843"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1584
+        values:
+          - "1756"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.75432526"
+          - "0.229784882"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1585
+        values:
+          - "1757"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "37"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "8.650519031"
+          - "0.306379843"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1586
+        values:
+          - "1758"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "40"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.474048443"
+          - "0.612759685"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1587
+        values:
+          - "1759"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - NA
+          - NA
+          - NA
+          - metamorphs
+          - "42"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.34602076"
+          - "0.765949606"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1588
+        values:
+          - "1760"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - NA
+          - NA
+          - NA
+          - metamorphs
+          - "43"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "11.31487889"
+          - "0.306379843"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1589
+        values:
+          - "1761"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co2
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - embryos_and_larvae
+          - "17"
+          - "30"
+          - NA
+          - NA
+          - NA
+          - metamorphs
+          - "44"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "15.62629758"
+          - "0.842544567"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1590
+        values:
+          - "1762"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "20"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.740484429"
+          - "0.459569764"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1591
+        values:
+          - "1763"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.705882353"
+          - "0.612759685"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1592
+        values:
+          - "1764"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "28"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "6.494809689"
+          - "0.689354646"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1593
+        values:
+          - "1765"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "31"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "5.91349481"
+          - "0.536164724"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1594
+        values:
+          - "1766"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.051903114"
+          - "0.459569764"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1595
+        values:
+          - "1767"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "37"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "8.287197232"
+          - "0.459569764"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1596
+        values:
+          - "1768"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "40"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.595155709"
+          - "0.459569764"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1597
+        values:
+          - "1769"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - metamorphs
+          - "42"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.692041522"
+          - "0.689354646"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1598
+        values:
+          - "1770"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - metamorphs
+          - "43"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "11.79930796"
+          - "0.536164724"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1599
+        values:
+          - "1771"
+          - Natalie_Claunch
+          - Floyd_1983
+          - "Ontogenetic change in the temperature tolerance of larval Bufo marinus (Anura: Bufonidae)"
+          - "1983"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(83)90081-6
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co3
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - February
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "30"
+          - NA
+          - larvae
+          - "17"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - metamorphs
+          - "44"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "14.14878893"
+          - "1.455304252"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1600
+        values:
+          - "1772"
+          - Natalie_Claunch
+          - Floyd_1984
+          - Variation in temperature preference with stage of development of Bufo marinus larvae
+          - "1984"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - November
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "22"
+          - NA
+          - embryos_and_larvae
+          - "20"
+          - "22"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - "1"
+          - linear
+          - "18"
+          - "42"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "26.62162162"
+          - "2.393074986"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1601
+        values:
+          - "1773"
+          - Natalie_Claunch
+          - Floyd_1984
+          - Variation in temperature preference with stage of development of Bufo marinus larvae
+          - "1984"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - November
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "22"
+          - NA
+          - embryos_and_larvae
+          - "20"
+          - "22"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "28"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - "1"
+          - linear
+          - "18"
+          - "42"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "28.81081081"
+          - "3.84601337"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1602
+        values:
+          - "1774"
+          - Natalie_Claunch
+          - Floyd_1984
+          - Variation in temperature preference with stage of development of Bufo marinus larvae
+          - "1984"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - November
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "22"
+          - NA
+          - embryos_and_larvae
+          - "20"
+          - "22"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "31"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - "1"
+          - linear
+          - "18"
+          - "42"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "29.94594595"
+          - "4.786149972"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1603
+        values:
+          - "1775"
+          - Natalie_Claunch
+          - Floyd_1984
+          - Variation in temperature preference with stage of development of Bufo marinus larvae
+          - "1984"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - November
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "22"
+          - NA
+          - embryos_and_larvae
+          - "20"
+          - "22"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "37"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - "1"
+          - linear
+          - "18"
+          - "42"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "28.59"
+          - "0.68"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 1604
+        values:
+          - "1776"
+          - Natalie_Claunch
+          - Floyd_1984
+          - Variation in temperature preference with stage of development of Bufo marinus larvae
+          - "1984"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - November
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "22"
+          - NA
+          - embryos_and_larvae
+          - "20"
+          - "22"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "39"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - "1"
+          - linear
+          - "18"
+          - "42"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "28.08108108"
+          - "4.871616936"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1605
+        values:
+          - "1777"
+          - Natalie_Claunch
+          - Floyd_1984
+          - Variation in temperature preference with stage of development of Bufo marinus larvae
+          - "1984"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_PBT_co1
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - November
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "22"
+          - NA
+          - embryos_and_larvae
+          - "20"
+          - "22"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "41"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - "1"
+          - linear
+          - "18"
+          - "42"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "30.37837838"
+          - "2.820409805"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 1606
+        values:
+          - "1778"
+          - Natalie_Claunch
+          - Floyd_1984
+          - Variation in temperature preference with stage of development of Bufo marinus larvae
+          - "1984"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_PBT_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - November
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "22"
+          - NA
+          - larvae
+          - "20"
+          - "27"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "37"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - "1"
+          - linear
+          - "18"
+          - "42"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "28.59"
+          - "0.51"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 1607
+        values:
+          - "1779"
+          - Natalie_Claunch
+          - Floyd_1984
+          - Variation in temperature preference with stage of development of Bufo marinus larvae
+          - "1984"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_PBT_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - November
+          - "1981"
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "22"
+          - NA
+          - larvae
+          - "20"
+          - "35"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "37"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - "1"
+          - linear
+          - "18"
+          - "42"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "28.51"
+          - "0.53"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 1608
+        values:
+          - "1780"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/100/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - NA
+          - "20"
+          - "0.2"
+          - "10"
+          - NA
+          - larvae
+          - "35"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab1
+          - NA
+          - NA
+          - "41.9"
+          - "0.02"
+          - "40"
+          - se
+          - Data was taken from Tab S1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1609
+        values:
+          - "1781"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co10
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/101/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "20"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "41.10050251"
+          - "0.055276382"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/101/values/83
+      - rowNumber: 1610
+        values:
+          - "1782"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co11
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/102/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "20"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "40.78894472"
+          - "0.070351759"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/102/values/83
+      - rowNumber: 1611
+        values:
+          - "1783"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co12
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/103/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "27"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "32"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "42.66834171"
+          - "0.085427136"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/103/values/83
+      - rowNumber: 1612
+        values:
+          - "1784"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co13
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/104/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "27"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "42.11055276"
+          - "0.08040201"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/104/values/83
+      - rowNumber: 1613
+        values:
+          - "1785"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co14
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/105/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "27"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "41.94472362"
+          - "0.045226131"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/105/values/83
+      - rowNumber: 1614
+        values:
+          - "1786"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co15
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/106/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "27"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "41.80904523"
+          - "0.06281407"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/106/values/83
+      - rowNumber: 1615
+        values:
+          - "1787"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co16
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/107/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "27"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "41.7638191"
+          - "0.070351759"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/107/values/83
+      - rowNumber: 1616
+        values:
+          - "1788"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co17
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/108/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "27"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "41.68341709"
+          - "0.060301508"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/108/values/83
+      - rowNumber: 1617
+        values:
+          - "1789"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co18
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/109/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "32"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "44.00502513"
+          - "0.045226131"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/109/values/83
+      - rowNumber: 1618
+        values:
+          - "1790"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co19
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/110/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "43.87939698"
+          - "0.032663317"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/110/values/83
+      - rowNumber: 1619
+        values:
+          - "1791"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co2
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/111/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - NA
+          - "20"
+          - "0.2"
+          - "10"
+          - NA
+          - larvae
+          - "35"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab1
+          - NA
+          - NA
+          - "42.1"
+          - "0.02"
+          - "40"
+          - se
+          - Data was taken from Tab S1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1620
+        values:
+          - "1792"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co20
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/112/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "43.73869347"
+          - "0.067839196"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/112/values/83
+      - rowNumber: 1621
+        values:
+          - "1793"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co21
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/113/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "43.64321608"
+          - "0.052763819000000003"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/113/values/83
+      - rowNumber: 1622
+        values:
+          - "1794"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co22
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/114/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "43.55276382"
+          - "0.092964824"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/114/values/83
+      - rowNumber: 1623
+        values:
+          - "1795"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co23
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/115/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "43.5879397"
+          - "0.145728643"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/115/values/83
+      - rowNumber: 1624
+        values:
+          - "1796"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co3
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/116/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - NA
+          - "27"
+          - "0.2"
+          - "10"
+          - NA
+          - larvae
+          - "35"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab1
+          - NA
+          - NA
+          - "43.1"
+          - "0.03"
+          - "40"
+          - se
+          - Data was taken from Tab S1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1625
+        values:
+          - "1797"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co4
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/117/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - NA
+          - "27"
+          - "0.2"
+          - "10"
+          - NA
+          - larvae
+          - "35"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab1
+          - NA
+          - NA
+          - "44.8"
+          - "0.03"
+          - "40"
+          - se
+          - Data was taken from Tab S1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1626
+        values:
+          - "1798"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co5
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/118/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - NA
+          - "35"
+          - "0.2"
+          - "10"
+          - NA
+          - larvae
+          - "35"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab1
+          - NA
+          - NA
+          - "45"
+          - "0.02"
+          - "40"
+          - se
+          - Data was taken from Tab S1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1627
+        values:
+          - "1799"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co6
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/119/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "20"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - "32"
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "42.18090452"
+          - "0.055276382"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/119/values/83
+      - rowNumber: 1628
+        values:
+          - "1800"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co7
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/120/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "20"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "42.01507538"
+          - "0.030150754"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/120/values/83
+      - rowNumber: 1629
+        values:
+          - "1801"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co8
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/121/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "20"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "41.38693467"
+          - "0.050251256"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/121/values/83
+      - rowNumber: 1630
+        values:
+          - "1802"
+          - Patrice Pottier
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop11
+          - Rhinella_marina_pop11_UTL_co9
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/122/values/12
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-27.5574"
+          - "153.0493"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "20"
+          - "0.2"
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2B
+          - NA
+          - NA
+          - "41.44221106"
+          - "0.037688442"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/122/values/83
+      - rowNumber: 1631
+        values:
+          - "1803"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "20"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "35"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided (32-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "6.1"
+          - "0.03"
+          - "40"
+          - se
+          - NA
+      - rowNumber: 1632
+        values:
+          - "1804"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "27"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "35"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided (32-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.1"
+          - "0.03"
+          - "40"
+          - se
+          - NA
+      - rowNumber: 1633
+        values:
+          - "1805"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "35"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided (32-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.5"
+          - "0.03"
+          - "40"
+          - se
+          - NA
+      - rowNumber: 1634
+        values:
+          - "1806"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co4
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "20"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "35"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided (32-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "6.5"
+          - "0.04"
+          - "40"
+          - se
+          - NA
+      - rowNumber: 1635
+        values:
+          - "1807"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co5
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "27"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "35"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided (32-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.1"
+          - "0.04"
+          - "40"
+          - se
+          - NA
+      - rowNumber: 1636
+        values:
+          - "1808"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co6
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "35"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided (32-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.8"
+          - "0.05"
+          - "40"
+          - se
+          - NA
+      - rowNumber: 1637
+        values:
+          - "1809"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co7
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "20"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "32"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - pre-starvation.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "5.510948905"
+          - "0.108576642"
+          - "10"
+          - se
+          - Error was divided by two because the figure represent 2SE on each side of the mean.
+      - rowNumber: 1638
+        values:
+          - "1810"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co7
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "20"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "32"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - starved 1 day
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "5.562043796"
+          - "0.114963504"
+          - "10"
+          - se
+          - Error was divided by two because the figure represent 2SE on each side of the mean.
+      - rowNumber: 1639
+        values:
+          - "1815"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co8
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "27"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "32"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - pre-starvation
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "8.282846715"
+          - "0.121350365"
+          - "10"
+          - se
+          - Error was divided by two because the figure represent 2SE on each side of the mean.
+      - rowNumber: 1640
+        values:
+          - "1816"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co8
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - embryos_and_larvae
+          - "17"
+          - "27"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "32"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - starved 1 day
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "8.244525547"
+          - "0.038321168"
+          - "10"
+          - se
+          - Error was divided by two because the figure represent 2SE on each side of the mean.
+      - rowNumber: 1641
+        values:
+          - "1821"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co9
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "32"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - pre-starvation
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.202554745"
+          - "0.09580292"
+          - "10"
+          - se
+          - Error was divided by two because the figure represent 2SE on each side of the mean.
+      - rowNumber: 1642
+        values:
+          - "1822"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co9
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "32"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - starved 1 day
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.266423358"
+          - "0.134124088"
+          - "10"
+          - se
+          - Error was divided by two because the figure represent 2SE on each side of the mean.
+      - rowNumber: 1643
+        values:
+          - "1823"
+          - Natalie_Claunch
+          - Floyd_1985
+          - Effects of Photoperiod and starvation on the temperature tolerance of larvae of the giant toad, Bufo marinus
+          - "1985"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop10
+          - Rhinella_marina_pop10_LTL_co9
+          - The same animals were tested at multiple time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - NA
+          - "-27.5574"
+          - "153.0493"
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - "27"
+          - "0.2"
+          - larvae
+          - "17"
+          - "35"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "32"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - starved 3 days
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.355839416"
+          - "0.127737226"
+          - "10"
+          - se
+          - Error was divided by two because the figure represent 2SE on each side of the mean.
+      - rowNumber: 1789
+        values:
+          - "1982"
+          - Nayelli Rivera
+          - Gutierrez-Pesquera_2015
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/136/values/3
+          - "2015"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Spanish
+          - Rhinella_marina_pop24
+          - Rhinella_marina_pop24_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - unclear
+          - NA
+          - "0.0182"
+          - "-78.8076"
+          - "1066"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/136/values/28
+          - NA
+          - NA
+          - "19.93"
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "2.5"
+          - Acclimation time was taken as the mean of the range presented (2-3 days).
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1 (appendix)
+          - NA
+          - NA
+          - "41.5"
+          - "0.4"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 1809
+        values:
+          - "2003"
+          - Nayelli_Rivera
+          - Gutierrez-Pesquera_2015
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/137/values/3
+          - "2015"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Spanish
+          - Rhinella_marina_pop24
+          - Rhinella_marina_pop24_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - unclear
+          - NA
+          - "0.0182"
+          - "-78.8076"
+          - "1066"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/137/values/28
+          - NA
+          - NA
+          - "19.93"
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "2.5"
+          - Acclimation time was taken as the mean of the range presented (2-3 days).
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8"
+          - "0.2"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 1868
+        values:
+          - "2063"
+          - Natalie_Claunch
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "3"
+          - Altitudinal variation of the critical thermal limits in 20 species of tadpoles in the tropical Andes
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop26
+          - Rhinella_marina_pop26_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "0.0182"
+          - "-78.8076"
+          - "1395"
+          - NA
+          - NA
+          - NA
+          - June_2014
+          - April_2015
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "20"
+          - NA
+          - "3.5"
+          - Animals were acclimated for 3-4 days
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8"
+          - "0.2"
+          - "24"
+          - se
+          - NA
+      - rowNumber: 1907
+        values:
+          - "2105"
+          - Jose O. Valdebenito
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_UTL_co1
+          - Population ID was taken as the same as in Madalozzo (2018) because animals were collected in the same location.
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.06143"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "14.9"
+          - "0.4"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab S1, annexe 4
+          - NA
+          - NA
+          - "40.6"
+          - "0.6"
+          - "4"
+          - se
+          - NA
+      - rowNumber: 1908
+        values:
+          - "2106"
+          - Jose O. Valdebenito
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_UTL_co2
+          - Population ID was taken as the same as in Madalozzo (2018) because animals were collected in the same location.
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.06143"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20.1"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab S1, annexe 4
+          - NA
+          - NA
+          - "41.1"
+          - "0.3"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 1909
+        values:
+          - "2107"
+          - Jose O. Valdebenito
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_UTL_co3
+          - Population ID was taken as the same as in Madalozzo (2018) because animals were collected in the same location.
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.06143"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab S1, annexe 4
+          - NA
+          - NA
+          - "43.4"
+          - "0.2"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 1910
+        values:
+          - "2108"
+          - Jose O. Valdebenito
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_UTL_co4
+          - Population ID was taken as the same as in Madalozzo (2018) because animals were collected in the same location.
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.06143"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "33.8"
+          - "0.3"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab S1, annexe 4
+          - NA
+          - NA
+          - "44.4"
+          - "0.1"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 1950
+        values:
+          - "2151"
+          - Natalie_Claunch
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.06143"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "14.9"
+          - "0.4"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.5"
+          - "0.2"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 1951
+        values:
+          - "2152"
+          - Natalie_Claunch
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.06143"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20.1"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "7.8"
+          - "0.2"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 1952
+        values:
+          - "2153"
+          - Natalie_Claunch
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_LTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.06143"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.2"
+          - "0.3"
+          - "9"
+          - se
+          - NA
+      - rowNumber: 1953
+        values:
+          - "2154"
+          - Natalie_Claunch
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_LTL_co4
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.06143"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "33.8"
+          - "0.3"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.4"
+          - "0.2"
+          - "7"
+          - se
+          - NA
+      - rowNumber: 2201
+        values:
+          - "2408"
+          - Patrice Pottier
+          - Heatwole_et_al_1968
+          - Heat tolerances of tadpoles of two species of tropical anurans
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop31
+          - Rhinella_marina_pop31_UTL_co1
+          - The same individuals were assumed to be measured for both OS and death endpoints, hence why the shared cohort IDs.
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "18.40301269"
+          - "-66.04961155"
+          - "15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/147/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "21"
+          - "1"
+          - "7"
+          - NA
+          - larvae
+          - NA
+          - "6.75"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - death
+          - water
+          - NA
+          - "0.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (6.5-7 mm)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "43.48667851"
+          - "0.255772647"
+          - "4"
+          - se
+          - Data was digitised from figure 4. Error was divided by two because the figure represent 2SE on each side of the mean.
+      - rowNumber: 2202
+        values:
+          - "2409"
+          - Patrice Pottier
+          - Heatwole_et_al_1968
+          - Heat tolerances of tadpoles of two species of tropical anurans
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop31
+          - Rhinella_marina_pop31_UTL_co1
+          - The same individuals were assumed to be measured for both OS and death endpoints, hence why the shared cohort IDs.
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "18.40301269"
+          - "-66.04961155"
+          - "15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/148/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "21"
+          - "1"
+          - "7"
+          - NA
+          - larvae
+          - NA
+          - "6.75"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (6.5-7 mm)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "41.83243243"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 3.
+      - rowNumber: 2203
+        values:
+          - "2410"
+          - Patrice Pottier
+          - Heatwole_et_al_1968
+          - Heat tolerances of tadpoles of two species of tropical anurans
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop31
+          - Rhinella_marina_pop31_UTL_co2
+          - The same individuals were assumed to be measured for both OS and death endpoints, hence why the shared cohort IDs.
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "18.40301269"
+          - "-66.04961155"
+          - "15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/149/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "21"
+          - "1"
+          - "7"
+          - NA
+          - larvae
+          - NA
+          - "12"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - death
+          - water
+          - NA
+          - "0.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (11-13 mm)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "43.60390764"
+          - "0.143872114"
+          - "12"
+          - se
+          - Data was digitised from figure 4. Error was divided by two because the figure represent 2SE on each side of the mean.
+      - rowNumber: 2204
+        values:
+          - "2411"
+          - Patrice Pottier
+          - Heatwole_et_al_1968
+          - Heat tolerances of tadpoles of two species of tropical anurans
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop31
+          - Rhinella_marina_pop31_UTL_co2
+          - The same individuals were assumed to be measured for both OS and death endpoints, hence why the shared cohort IDs.
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "18.40301269"
+          - "-66.04961155"
+          - "15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/150/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "21"
+          - "1"
+          - "7"
+          - NA
+          - larvae
+          - NA
+          - "12"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (11-13 mm)
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "41.34594595"
+          - "0.2"
+          - "12"
+          - se
+          - Data was digitised from figure 3. Error was divided by two because the figure represent 2SE on each side of the mean.
+      - rowNumber: 2546
+        values:
+          - "2780"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/151/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "38.54"
+          - NA
+          - "18"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2547
+        values:
+          - "2781"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co10
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/152/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "38.49"
+          - NA
+          - "18"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2548
+        values:
+          - "2782"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co11
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/153/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "38.68"
+          - NA
+          - "17"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2549
+        values:
+          - "2783"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co12
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/154/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "39.07"
+          - NA
+          - "19"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2550
+        values:
+          - "2784"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/155/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "37.8"
+          - NA
+          - "18"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2551
+        values:
+          - "2785"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/156/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "38.14"
+          - NA
+          - "17"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2552
+        values:
+          - "2786"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co4
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/157/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "38.9"
+          - NA
+          - "11"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2553
+        values:
+          - "2787"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co5
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/158/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "39.5"
+          - NA
+          - "19"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2554
+        values:
+          - "2788"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co6
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/159/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "38.97"
+          - NA
+          - "10"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2555
+        values:
+          - "2789"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co7
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/160/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "38.93"
+          - NA
+          - "20"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2556
+        values:
+          - "2790"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co8
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/161/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "39.34"
+          - NA
+          - "18"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2557
+        values:
+          - "2791"
+          - Jose O. Valdebenito
+          - Johnson_1972b
+          - Thermal Relations and Daily Variation in the Thermal Tolerance in Bufo marinus
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1563091
+          - English
+          - Rhinella_marina_pop56
+          - Rhinella_marina_pop56_UTL_co9
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - December_1969
+          - February_1970
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/162/values/28
+          - NA
+          - NA
+          - NA
+          - "21.3"
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "110"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "22"
+          - "0.333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (100-120)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "39.5"
+          - NA
+          - "13"
+          - NA
+          - Data was digitised from figure 2.
+      - rowNumber: 2649
+        values:
+          - "2924"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop12
+          - Rhinella_marina_pop12_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-27.49022986"
+          - "153.0137311"
+          - "20"
+          - NA
+          - NA
+          - "2007"
+          - February_2007
+          - March_2007
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals tested within 12h of capture
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "5.956175299"
+          - "0.697211155"
+          - "21"
+          - sd
+          - NA
+      - rowNumber: 2650
+        values:
+          - "2925"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop13
+          - Rhinella_marina_pop13_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-25.52983508"
+          - "152.69305"
+          - "10"
+          - NA
+          - NA
+          - "2007"
+          - February_2007
+          - March_2007
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals tested within 12h of capture
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.266932271"
+          - "0.920318725"
+          - "21"
+          - sd
+          - NA
+      - rowNumber: 2651
+        values:
+          - "2926"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop14
+          - Rhinella_marina_pop14_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-23.36624994"
+          - "150.4966687"
+          - "10"
+          - NA
+          - NA
+          - "2007"
+          - February_2007
+          - March_2007
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals tested within 12h of capture
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.629482072"
+          - "0.780876494"
+          - "20"
+          - sd
+          - NA
+      - rowNumber: 2652
+        values:
+          - "2927"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop15
+          - Rhinella_marina_pop15_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-19.25070847"
+          - "146.7442334"
+          - "10"
+          - NA
+          - NA
+          - "2007"
+          - February_2007
+          - March_2007
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals tested within 12h of capture
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.490039841"
+          - "0.976095618"
+          - "21"
+          - sd
+          - NA
+      - rowNumber: 2653
+        values:
+          - "2928"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop15
+          - Rhinella_marina_pop15_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-19.25070847"
+          - "146.7442334"
+          - "10"
+          - NA
+          - NA
+          - "2007"
+          - February_2007
+          - March_2007
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "18"
+          - NA
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "86.5"
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "4.896551724"
+          - "1.086206897"
+          - "22"
+          - sd
+          - NA
+      - rowNumber: 2654
+        values:
+          - "2929"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop15
+          - Rhinella_marina_pop15_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-19.25070847"
+          - "146.7442334"
+          - "10"
+          - NA
+          - NA
+          - "2007"
+          - February_2007
+          - March_2007
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "18"
+          - NA
+          - "56"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "86.5"
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "3.544827586"
+          - "0.772413793"
+          - "22"
+          - sd
+          - NA
+      - rowNumber: 2655
+        values:
+          - "2930"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop17
+          - Rhinella_marina_pop17_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-16.08621957"
+          - "145.4513214"
+          - "0"
+          - NA
+          - NA
+          - "2007"
+          - February_2007
+          - March_2007
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals tested within 12h of capture
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "8.15936255"
+          - "0.976095618"
+          - "20"
+          - sd
+          - NA
+      - rowNumber: 2656
+        values:
+          - "2931"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop2
+          - Rhinella_marina_pop2_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.81221467"
+          - "153.2771424"
+          - "35"
+          - NA
+          - NA
+          - "2007"
+          - February_2007
+          - March_2007
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals tested within 12h of capture
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "5.760956175"
+          - "0.892430279"
+          - "21"
+          - sd
+          - NA
+      - rowNumber: 2657
+        values:
+          - "2932"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop2
+          - Rhinella_marina_pop2_LTL_co2
+          - The same animals were tested at different time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.81808051"
+          - "153.2810906"
+          - "35"
+          - 12/4/2007
+          - April
+          - "2007"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "18"
+          - NA
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "86.5"
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "4.582758621"
+          - "0.820689655"
+          - "27"
+          - sd
+          - NA
+      - rowNumber: 2658
+        values:
+          - "2933"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop2
+          - Rhinella_marina_pop2_LTL_co2
+          - The same animals were tested at different time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.81808051"
+          - "153.2810906"
+          - "35"
+          - 12/4/2007
+          - April
+          - "2007"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "18"
+          - NA
+          - "56"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "86.5"
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "4.196551724"
+          - "0.917241379"
+          - "27"
+          - sd
+          - NA
+      - rowNumber: 2659
+        values:
+          - "2934"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop6
+          - Rhinella_marina_pop6_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.58248526"
+          - "153.5324367"
+          - "10"
+          - NA
+          - NA
+          - "2007"
+          - February_2007
+          - March_2007
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals tested within 12h of capture
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "6.179282869"
+          - "0.976095618"
+          - "21"
+          - sd
+          - NA
+      - rowNumber: 2660
+        values:
+          - "2935"
+          - Natalie_Claunch
+          - Kolbe_et_al_2010
+          - Modeling the consequences of thermal trait variation for the cane toad invasion of Australia
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1890/09-1973.1
+          - English
+          - Rhinella_marina_pop9
+          - Rhinella_marina_pop9_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.39827376"
+          - "153.2718105"
+          - "300"
+          - NA
+          - NA
+          - "2007"
+          - February_2007
+          - March_2007
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals tested within 12h of capture
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "23"
+          - "0.165"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was averaged
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "4.756972112"
+          - "0.864541833"
+          - "8"
+          - sd
+          - NA
+      - rowNumber: 2664
+        values:
+          - "2942"
+          - Patrice Pottier
+          - Krakauer_1970
+          - Tolerance limits of the toad, Bufo marinus, in South Florida
+          - "1970"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(70)90479-2
+          - English
+          - Rhinella_marina_pop37
+          - Rhinella_marina_pop37_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "25.51342186"
+          - "-80.50686333"
+          - NA
+          - NA
+          - March
+          - "1966"
+          - NA
+          - NA
+          - Geographical coordinates were not reported because too approximate (i.e. "Dade County, Florida")
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "27"
+          - "0.5"
+          - "11"
+          - NA
+          - adults
+          - NA
+          - "146"
+          - "140.3"
+          - NA
+          - mixed
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.45"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/175/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "39.95"
+          - "0.24"
+          - "20"
+          - se
+          - NA
+      - rowNumber: 2665
+        values:
+          - "2943"
+          - Patrice Pottier
+          - Krakauer_1970
+          - Tolerance limits of the toad, Bufo marinus, in South Florida
+          - "1970"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(70)90479-2
+          - English
+          - Rhinella_marina_pop37
+          - Rhinella_marina_pop37_UTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "25.51342186"
+          - "-80.50686333"
+          - NA
+          - NA
+          - March
+          - "1966"
+          - NA
+          - NA
+          - Geographical coordinates were not reported because too approximate (i.e. "Dade County, Florida")
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "37"
+          - "0.5"
+          - "5"
+          - NA
+          - adults
+          - NA
+          - "146"
+          - "143.8"
+          - NA
+          - mixed
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.45"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/176/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "40.76"
+          - "0.09"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 2666
+        values:
+          - "2944"
+          - Patrice Pottier
+          - Krakauer_1970
+          - Tolerance limits of the toad, Bufo marinus, in South Florida
+          - "1970"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(70)90479-2
+          - English
+          - Rhinella_marina_pop37
+          - Rhinella_marina_pop37_UTL_co3
+          - Animals from the colder pond
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "25.51342186"
+          - "-80.50686333"
+          - NA
+          - NA
+          - March
+          - "1966"
+          - NA
+          - NA
+          - Geographical coordinates were not reported because too approximate (i.e. "Dade County, Florida")
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "23"
+          - "0.5"
+          - "1"
+          - NA
+          - larvae
+          - NA
+          - "7"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (3-11 mm)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "41.6"
+          - "0.03"
+          - "64"
+          - se
+          - NA
+      - rowNumber: 2667
+        values:
+          - "2945"
+          - Patrice Pottier
+          - Krakauer_1970
+          - Tolerance limits of the toad, Bufo marinus, in South Florida
+          - "1970"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(70)90479-2
+          - English
+          - Rhinella_marina_pop37
+          - Rhinella_marina_pop37_UTL_co4
+          - Animals from the warmer pond
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "25.51342186"
+          - "-80.50686333"
+          - NA
+          - NA
+          - March
+          - "1966"
+          - NA
+          - NA
+          - Geographical coordinates were not reported because too approximate (i.e. "Dade County, Florida")
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "23"
+          - "0.5"
+          - "1"
+          - NA
+          - larvae
+          - NA
+          - "7"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as the mean of the range presented (3-11 mm)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "42.47"
+          - "0.01"
+          - "72"
+          - se
+          - NA
+      - rowNumber: 2823
+        values:
+          - "3129"
+          - Sarah Varon
+          - Llewellyn_et_al_2011
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/179/values/3
+          - "2011"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1086/657609
+          - English
+          - Rhinella_marina_pop16
+          - Rhinella_marina_pop16_PBT_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - lab
+          - "1"
+          - "-16.92114289"
+          - "145.7691922"
+          - "7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "control: received a PBS injection"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - "42.5"
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - ambient
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "23"
+          - "4"
+          - linear
+          - "15"
+          - "42"
+          - The body mass was averaged based on the range reported
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - control
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "25.4"
+          - "0.7"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 3000
+        values:
+          - "3314"
+          - Patrice Pottier
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/180/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.061"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - November_2011
+          - January_2012
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - "14.9"
+          - "0.4"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was assumed to be the same as in chapter I of the thesis (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1A
+          - NA
+          - NA
+          - "40.60068847"
+          - NA
+          - "10"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/180/values/83
+      - rowNumber: 3001
+        values:
+          - "3315"
+          - Patrice Pottier
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/181/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_UTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.061"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - November_2011
+          - January_2012
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - "20.1"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was assumed to be the same as in chapter I of the thesis (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1A
+          - NA
+          - NA
+          - "41.45266781"
+          - "0.403070006"
+          - "9"
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/181/values/83
+      - rowNumber: 3002
+        values:
+          - "3316"
+          - Patrice Pottier
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/182/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_UTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.061"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - November_2011
+          - January_2012
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - "27"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was assumed to be the same as in chapter I of the thesis (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1A
+          - NA
+          - NA
+          - "43.35800344"
+          - "0.592750009"
+          - "9"
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/182/values/83
+      - rowNumber: 3003
+        values:
+          - "3317"
+          - Patrice Pottier
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/183/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_UTL_co4
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.061"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - November_2011
+          - January_2012
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - "33.8"
+          - "0.3"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was assumed to be the same as in chapter I of the thesis (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1A
+          - NA
+          - NA
+          - "44.39586919"
+          - "0.403070006"
+          - "9"
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/183/values/83
+      - rowNumber: 3057
+        values:
+          - "3374"
+          - Sarah Varon
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/184/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.061"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"tropical" location'
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "20.1"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.74"
+          - "0.48"
+          - "9"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/184/values/83
+      - rowNumber: 3058
+        values:
+          - "3375"
+          - Sarah Varon
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/185/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.061"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"tropical" location'
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "27"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "8.29"
+          - "0.55"
+          - "9"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/185/values/83
+      - rowNumber: 3059
+        values:
+          - "3376"
+          - Sarah Varon
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/186/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop23
+          - Rhinella_marina_pop23_LTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.061"
+          - "-78.77"
+          - "1300"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"tropical" location'
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "33.9"
+          - "0.3"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.39"
+          - "0.75"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/186/values/83
+      - rowNumber: 3144
+        values:
+          - "3461"
+          - Sarah Varon
+          - Malvin_and_Wood_1991
+          - |-
+            Behavioral Themnoregulation of the Toad, 
+            Bufo marinus: Effects of Air Humidity
+          - "1991"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1002/jez.1402580307
+          - English
+          - Rhinella_marina_pop70
+          - Rhinella_marina_pop70_PBT_co1
+          - The same individuals were tested in different humidity conditions, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - "314"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - "4"
+          - linear
+          - "11"
+          - "40"
+          - Day 1 of experiement, "humid conditions"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "22.8"
+          - "2.1"
+          - "9"
+          - sd
+          - NA
+      - rowNumber: 3145
+        values:
+          - "3462"
+          - Sarah Varon
+          - Malvin_and_Wood_1991
+          - |-
+            Behavioral Themnoregulation of the Toad, 
+            Bufo marinus: Effects of Air Humidity
+          - "1991"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1002/jez.1402580307
+          - English
+          - Rhinella_marina_pop70
+          - Rhinella_marina_pop70_PBT_co1
+          - The same individuals were tested in different humidity conditions, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - "314"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - "4"
+          - linear
+          - "11"
+          - "40"
+          - Day 2 of experiment; "dry conditions"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "15.7"
+          - "1.2"
+          - "9"
+          - sd
+          - NA
+      - rowNumber: 3146
+        values:
+          - "3463"
+          - Sarah Varon
+          - Malvin_and_Wood_1991
+          - |-
+            Behavioral Themnoregulation of the Toad, 
+            Bufo marinus: Effects of Air Humidity
+          - "1991"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1002/jez.1402580307
+          - English
+          - Rhinella_marina_pop70
+          - Rhinella_marina_pop70_PBT_co1
+          - The same individuals were tested in different humidity conditions, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - "314"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - "4"
+          - linear
+          - "11"
+          - "40"
+          - Day 3 of experiment; "humid conditions"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "25.8"
+          - "1.3"
+          - "9"
+          - sd
+          - NA
+      - rowNumber: 3242
+        values:
+          - "3559"
+          - Sarah Varon
+          - McCann_et_al_2014
+          - |-
+            Rapid acclimation to cold allows the cane toad to
+            invade montane areas within its Australian range
+          - "2014"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1111/1365-2435.12255
+          - English
+          - Rhinella_marina_pop3
+          - Rhinella_marina_pop3_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.55236047"
+          - "153.1378819"
+          - "224"
+          - NA
+          - February
+          - "2013"
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps. Animals obtained from "high elevation"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "20.15"
+          - "0.82"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Starting temperature and cooling rates were averaged based on ranges reported
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "5.54"
+          - "0.38"
+          - "7"
+          - se
+          - NA
+      - rowNumber: 3243
+        values:
+          - "3560"
+          - Sarah Varon
+          - McCann_et_al_2014
+          - |-
+            Rapid acclimation to cold allows the cane toad to
+            invade montane areas within its Australian range
+          - "2014"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1111/1365-2435.12255
+          - English
+          - Rhinella_marina_pop4
+          - Rhinella_marina_pop4_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.562577"
+          - "153.2135701"
+          - "198"
+          - NA
+          - February
+          - "2013"
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/191/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "12"
+          - NA
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "20.15"
+          - "0.82"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Starting temperature and cooling rates were averaged based on ranges reported
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "5.03"
+          - "0.23"
+          - "35"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3244
+        values:
+          - "3561"
+          - Sarah Varon
+          - McCann_et_al_2014
+          - |-
+            Rapid acclimation to cold allows the cane toad to
+            invade montane areas within its Australian range
+          - "2014"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1111/1365-2435.12255
+          - English
+          - Rhinella_marina_pop4
+          - Rhinella_marina_pop4_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.562577"
+          - "153.2135701"
+          - "198"
+          - NA
+          - February
+          - "2013"
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/192/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24"
+          - NA
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "20.15"
+          - "0.82"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Starting temperature and cooling rates were averaged based on ranges reported
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "5.38"
+          - "0.14"
+          - "35"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3245
+        values:
+          - "3562"
+          - Sarah Varon
+          - McCann_et_al_2014
+          - |-
+            Rapid acclimation to cold allows the cane toad to
+            invade montane areas within its Australian range
+          - "2014"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1111/1365-2435.12255
+          - English
+          - Rhinella_marina_pop4
+          - Rhinella_marina_pop4_LTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.562577"
+          - "153.2135701"
+          - "198"
+          - NA
+          - February
+          - "2013"
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/193/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "12"
+          - NA
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "20.15"
+          - "0.82"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Starting temperature and cooling rates were averaged based on ranges reported
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "6.82"
+          - "0.2"
+          - "35"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3246
+        values:
+          - "3563"
+          - Sarah Varon
+          - McCann_et_al_2014
+          - |-
+            Rapid acclimation to cold allows the cane toad to
+            invade montane areas within its Australian range
+          - "2014"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1111/1365-2435.12255
+          - English
+          - Rhinella_marina_pop4
+          - Rhinella_marina_pop4_LTL_co4
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.562577"
+          - "153.2135701"
+          - "198"
+          - NA
+          - February
+          - "2013"
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/194/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24"
+          - NA
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "20.15"
+          - "0.82"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Starting temperature and cooling rates were averaged based on ranges reported
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "6.91"
+          - "0.15"
+          - "35"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3247
+        values:
+          - "3564"
+          - Sarah Varon
+          - McCann_et_al_2014
+          - |-
+            Rapid acclimation to cold allows the cane toad to
+            invade montane areas within its Australian range
+          - "2014"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1111/1365-2435.12255
+          - English
+          - Rhinella_marina_pop5
+          - Rhinella_marina_pop5_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.63587486"
+          - "153.344427"
+          - "196"
+          - NA
+          - February
+          - "2013"
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps. Animals obtained from "low elevation"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "20.15"
+          - "0.82"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Starting temperature and cooling rates were averaged based on ranges reported
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.21"
+          - "0.44"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 3248
+        values:
+          - "3565"
+          - Sarah Varon
+          - McCann_et_al_2014
+          - |-
+            Rapid acclimation to cold allows the cane toad to
+            invade montane areas within its Australian range
+          - "2014"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1111/1365-2435.12255
+          - English
+          - Rhinella_marina_pop7
+          - Rhinella_marina_pop7_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.54232934"
+          - "153.2838455"
+          - "746"
+          - NA
+          - February
+          - "2013"
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps. Animals obtained from "high elevation"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "20.15"
+          - "0.82"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Starting temperature and cooling rates were averaged based on ranges reported
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "5.62"
+          - "0.1"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 3249
+        values:
+          - "3566"
+          - Sarah Varon
+          - McCann_et_al_2014
+          - |-
+            Rapid acclimation to cold allows the cane toad to
+            invade montane areas within its Australian range
+          - "2014"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1111/1365-2435.12255
+          - English
+          - Rhinella_marina_pop8
+          - Rhinella_marina_pop8_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-28.44033043"
+          - "153.2455522"
+          - "103"
+          - NA
+          - February
+          - "2013"
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps. Animals obtained from "low elevation"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "20.15"
+          - "0.82"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Starting temperature and cooling rates were averaged based on ranges reported
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.57"
+          - "0.4"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 3250
+        values:
+          - "3567"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/198/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop1
+          - Rhinella_marina_pop1_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-29.43589016"
+          - "153.3593823"
+          - "28"
+          - NA
+          - February
+          - "2016"
+          - NA
+          - NA
+          - 2 sample sites from Yamba, northeastern South Wales
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "69.8"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.29"
+          - "0.53"
+          - "23"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3251
+        values:
+          - "3568"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/199/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop1
+          - Rhinella_marina_pop1_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-29.43589016"
+          - "153.3593823"
+          - "28"
+          - NA
+          - February
+          - "2016"
+          - NA
+          - NA
+          - 2 sample sites from Yamba, northeastern South Wales
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "12"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "69.8"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "6.99"
+          - "0.25"
+          - "23"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3252
+        values:
+          - "3569"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/200/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop16
+          - Rhinella_marina_pop16_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-16.91705882"
+          - "145.7513824"
+          - "13"
+          - NA
+          - May
+          - "2016"
+          - NA
+          - NA
+          - 3 sample sites from Cairns, Queensland
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "118.4"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.54"
+          - "0.28"
+          - "39"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3253
+        values:
+          - "3570"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/201/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop16
+          - Rhinella_marina_pop16_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-16.91705882"
+          - "145.7513824"
+          - "13"
+          - NA
+          - May
+          - "2016"
+          - NA
+          - NA
+          - 3 sample sites from Cairns, Queensland
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "12"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "118.4"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.57"
+          - "0.33"
+          - "39"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3254
+        values:
+          - "3571"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/202/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop21
+          - Rhinella_marina_pop21_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-12.46277725"
+          - "130.8433402"
+          - "1"
+          - NA
+          - November
+          - "2015"
+          - NA
+          - NA
+          - 3 sample sites from Darwin, Northern territory
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "119"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.47"
+          - "0.19"
+          - "43"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3255
+        values:
+          - "3572"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/203/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop21
+          - Rhinella_marina_pop21_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-12.46277725"
+          - "130.8433402"
+          - "1"
+          - NA
+          - November
+          - "2015"
+          - NA
+          - NA
+          - 3 sample sites from Darwin, Northern territory
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "12"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "119"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.53"
+          - "0.2"
+          - "43"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3256
+        values:
+          - "3573"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/204/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop32
+          - Rhinella_marina_pop32_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.549037"
+          - "-155.136774"
+          - "571"
+          - NA
+          - June
+          - "2015"
+          - NA
+          - NA
+          - "Sample site: Tom's Farm; near volcano; high elevation; wet side of island"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "68.9"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "12"
+          - "0.66"
+          - "11"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3257
+        values:
+          - "3574"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/205/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop32
+          - Rhinella_marina_pop32_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.549037"
+          - "-155.136774"
+          - "571"
+          - NA
+          - June
+          - "2015"
+          - NA
+          - NA
+          - "Sample site: Tom's Farm; near volcano; high elevation; wet side of island"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "12"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "68.9"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.54"
+          - "0.64"
+          - "11"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3258
+        values:
+          - "3575"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/206/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop33
+          - Rhinella_marina_pop33_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.696853"
+          - "-155.081501"
+          - "40"
+          - NA
+          - June
+          - "2015"
+          - NA
+          - NA
+          - "Sample site: Hilo University; low elevation; wet side of island"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "103.3"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.68"
+          - "0.68"
+          - "10"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3259
+        values:
+          - "3576"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/207/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop33
+          - Rhinella_marina_pop33_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.696853"
+          - "-155.081501"
+          - "40"
+          - NA
+          - June
+          - "2015"
+          - NA
+          - NA
+          - "Sample site: Hilo University; low elevation; wet side of island"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "12"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "103.3"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.12"
+          - "0.64"
+          - "10"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3260
+        values:
+          - "3577"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/208/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop34
+          - Rhinella_marina_pop34_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.819891"
+          - "-155.836336"
+          - "630"
+          - NA
+          - June
+          - "2015"
+          - NA
+          - NA
+          - "Sample site: Big Island Country Club; high elevation ; dry side of island"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "99.9"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "8.59"
+          - "0.41"
+          - "10"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3261
+        values:
+          - "3578"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/209/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop34
+          - Rhinella_marina_pop34_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.819891"
+          - "-155.836336"
+          - "630"
+          - NA
+          - June
+          - "2015"
+          - NA
+          - NA
+          - "Sample site: Big Island Country Club; high elevation; dry side of island"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "12"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "99.9"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.16"
+          - "0.76"
+          - "10"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3262
+        values:
+          - "3579"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/210/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop35
+          - Rhinella_marina_pop35_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.941369"
+          - "-155.859498"
+          - "10"
+          - NA
+          - June
+          - "2015"
+          - NA
+          - NA
+          - "Sample Site: Mauna Lani; low elevation; dry side of island"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "148.8"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "10.12"
+          - "0.61"
+          - "10"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3263
+        values:
+          - "3580"
+          - Sarah Varon
+          - McCann_et_al_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/211/values/3
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/cox072
+          - English
+          - Rhinella_marina_pop35
+          - Rhinella_marina_pop35_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "19.941369"
+          - "-155.859498"
+          - "10"
+          - NA
+          - June
+          - "2015"
+          - NA
+          - NA
+          - "Sample Site: Mauna Lani; low elevation; dry side of island"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "12"
+          - NA
+          - "0.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "148.8"
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Average body mass was taken from Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "12.38"
+          - "0.25"
+          - "10"
+          - se
+          - Only the total sample size was reported and was divided equally between treatments and test temperatures
+      - rowNumber: 3264
+        values:
+          - "3581"
+          - Patrice Pottier
+          - McManus_and_Nellis_1975
+          - The critical thermal maximum of the marine toad Bufo marinus
+          - "1975"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop30
+          - Rhinella_marina_pop30_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "17.705845"
+          - "-64.858516"
+          - "24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "28"
+          - NA
+          - "3"
+          - NA
+          - adults
+          - NA
+          - "146"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - NA
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "40"
+          - NA
+          - "20"
+          - NA
+          - We did not have access to the PDF so the whole extraction was based on Rohr et al. 2018
+      - rowNumber: 3354
+        values:
+          - "3672"
+          - Sarah Varon
+          - Mittan_and_Zamudio_2019
+          - |-
+            Rapid adaptation to cold in the invasive cane toad
+            Rhinella marina
+          - "2019"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/coy075
+          - English
+          - Rhinella_marina_pop36
+          - Rhinella_marina_pop36_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "25.47"
+          - "-80.46"
+          - "2"
+          - NA
+          - July
+          - "2015"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "11.7"
+          - NA
+          - "27"
+          - NA
+          - error not provided. Range provided in text.
+      - rowNumber: 3355
+        values:
+          - "3673"
+          - Sarah Varon
+          - Mittan_and_Zamudio_2019
+          - |-
+            Rapid adaptation to cold in the invasive cane toad
+            Rhinella marina
+          - "2019"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/coy075
+          - English
+          - Rhinella_marina_pop36
+          - Rhinella_marina_pop36_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "25.47"
+          - "-80.46"
+          - "2"
+          - NA
+          - July
+          - "2015"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.1"
+          - NA
+          - "28"
+          - NA
+          - error not provided. Range provided in text.
+      - rowNumber: 3356
+        values:
+          - "3674"
+          - Sarah Varon
+          - Mittan_and_Zamudio_2019
+          - |-
+            Rapid adaptation to cold in the invasive cane toad
+            Rhinella marina
+          - "2019"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/coy075
+          - English
+          - Rhinella_marina_pop36
+          - Rhinella_marina_pop36_LTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "25.47"
+          - "-80.46"
+          - "2"
+          - NA
+          - July
+          - "2015"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10"
+          - NA
+          - "15"
+          - NA
+          - error not provided. Range provided in text.
+      - rowNumber: 3357
+        values:
+          - "3675"
+          - Sarah Varon
+          - Mittan_and_Zamudio_2019
+          - |-
+            Rapid adaptation to cold in the invasive cane toad
+            Rhinella marina
+          - "2019"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/coy075
+          - English
+          - Rhinella_marina_pop38
+          - Rhinella_marina_pop38_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "28.04"
+          - "-82.17"
+          - "31"
+          - NA
+          - July
+          - "2015"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "10.5"
+          - NA
+          - "28"
+          - NA
+          - error not provided. Range provided in text.
+      - rowNumber: 3358
+        values:
+          - "3676"
+          - Sarah Varon
+          - Mittan_and_Zamudio_2019
+          - |-
+            Rapid adaptation to cold in the invasive cane toad
+            Rhinella marina
+          - "2019"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/coy075
+          - English
+          - Rhinella_marina_pop38
+          - Rhinella_marina_pop38_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "28.04"
+          - "-82.17"
+          - "31"
+          - NA
+          - July
+          - "2015"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.5"
+          - NA
+          - "12"
+          - NA
+          - error not provided. Range provided in text.
+      - rowNumber: 3359
+        values:
+          - "3677"
+          - Sarah Varon
+          - Mittan_and_Zamudio_2019
+          - |-
+            Rapid adaptation to cold in the invasive cane toad
+            Rhinella marina
+          - "2019"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1093/conphys/coy075
+          - English
+          - Rhinella_marina_pop38
+          - Rhinella_marina_pop38_LTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "28.04"
+          - "-82.17"
+          - "31"
+          - NA
+          - July
+          - "2015"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.7"
+          - NA
+          - "16"
+          - NA
+          - error not provided. Range provided in text.
+      - rowNumber: 3371
+        values:
+          - "3691"
+          - Sarah Varon
+          - Mullens_and_Hutchison_1992
+          - |-
+            DIEL, SEASONAL, POSTPRANDIAL AND 
+            FOOD-DEPRIVED THERMOREGULATORY BEHAVIOUR 
+            IN TROPICAL TOADS (BUFO MARINUS)
+          - "1992"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1080%2F23328940.2015.1096437
+          - English
+          - Rhinella_marina_pop86
+          - Rhinella_marina_pop86_PBT_co1
+          - The same animals were used at different time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "226.5"
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - test during summer; day 1 of eating
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "23.7"
+          - "0.85"
+          - "13"
+          - se
+          - NA
+      - rowNumber: 3372
+        values:
+          - "3692"
+          - Sarah Varon
+          - Mullens_and_Hutchison_1992
+          - |-
+            DIEL, SEASONAL, POSTPRANDIAL AND 
+            FOOD-DEPRIVED THERMOREGULATORY BEHAVIOUR 
+            IN TROPICAL TOADS (BUFO MARINUS)
+          - "1992"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1080%2F23328940.2015.1096437
+          - English
+          - Rhinella_marina_pop86
+          - Rhinella_marina_pop86_PBT_co1
+          - The same animals were used at different time points, hence the shared cohort IDs
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "226.5"
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "1"
+          - linear
+          - "10"
+          - "40"
+          - test during summer; day 2 of eating
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "24.5"
+          - "0.54"
+          - "13"
+          - se
+          - NA
+      - rowNumber: 3442
+        values:
+          - "3767"
+          - PPollo
+          - Nowakowski_et_al_2016a
+          - Tropical amphibians in shifting thermal landscapes under land-use and climate change
+          - "2016"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1111/cobi.12769
+          - English
+          - Rhinella_marina_pop29
+          - Rhinella_marina_pop29_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "10.43087623"
+          - "-84.00658476"
+          - "54"
+          - NA
+          - NA
+          - "2011"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were tested within 2-24 hours of collection and maintained in boxes at ambient temperature prior to testing.
+          - adults
+          - NA
+          - NA
+          - "141.47"
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Appendix S2
+          - NA
+          - NA
+          - "34.4"
+          - NA
+          - "11"
+          - NA
+          - NA
+      - rowNumber: 3452
+        values:
+          - "3777"
+          - PPollo
+          - Nowakowski_et_al_2018
+          - Thermal biology mediates responses of amphibians and reptiles to habitat modification
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1111/ele.12901
+          - English
+          - Rhinella_marina_pop88
+          - Rhinella_marina_pop88_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - May_2015
+          - June_2016
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/222/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were assumed to be field-fresh, as in Nowakowski et al. 2016a
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - dataset
+          - https://doi.org/10.6084/m9.figshare.5632873
+          - NA
+          - "42.8"
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/222/values/83
+      - rowNumber: 3608
+        values:
+          - "3936"
+          - Patrice Pottier
+          - Pintanel_2018
+          - Thermal adaptation of amphibians in tropical mountains. Consequences of global warming
+          - "2018"
+          - "2"
+          - Are tropical barriers `higher` on the way up or down?
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop22
+          - Rhinella_marina_pop22_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-1.41"
+          - "-77.73"
+          - "1081"
+          - NA
+          - NA
+          - NA
+          - June_2014
+          - April_2016
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab S2.1
+          - NA
+          - NA
+          - "42.97"
+          - "0.05"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 3935
+        values:
+          - "4355"
+          - Natalie_Claunch
+          - Sherman_et_al_1991
+          - Fever and thermal tolerance in the toad Bufo marinus
+          - "1991"
+          - "1"
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(91)90021-S
+          - English
+          - Rhinella_marina_pop90
+          - Rhinella_marina_pop90_PBT_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were obtained from a commercial supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5"
+          - "12"
+          - linear
+          - "-2"
+          - "50"
+          - pre-injection
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "27.5"
+          - "0.6"
+          - "7"
+          - se
+          - NA
+      - rowNumber: 3936
+        values:
+          - "4357"
+          - Patrice Pottier
+          - Sherman_et_al_1991
+          - Fever and thermal tolerance in the toad Bufo marinus
+          - "1991"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(91)90021-S
+          - English
+          - Rhinella_marina_pop91
+          - Rhinella_marina_pop91_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "7.333333333"
+          - Acclimation time was taken as the housing period (1 week) + the acclimation prior to assessing CTmax (8 hours)
+          - adults
+          - NA
+          - "146"
+          - "200"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - body
+          - "25"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/225/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - control
+          - NA
+          - "0"
+          - mg/g
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "39.3019943"
+          - "0.33048433"
+          - "7"
+          - se
+          - Data was digitised from figure 5 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3937
+        values:
+          - "4359"
+          - Patrice Pottier
+          - Sherman_et_al_1991
+          - Fever and thermal tolerance in the toad Bufo marinus
+          - "1991"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(91)90021-S
+          - English
+          - Rhinella_marina_pop91
+          - Rhinella_marina_pop91_UTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "32"
+          - "1"
+          - "0.333333333"
+          - NA
+          - adults
+          - NA
+          - "146"
+          - "200"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - body
+          - "32"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/226/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - control
+          - NA
+          - "0"
+          - mg/g
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "40.27635328"
+          - "0.148148148"
+          - "6"
+          - se
+          - Data was digitised from figure 5 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3959
+        values:
+          - "4384"
+          - Pietro Pollo
+          - Sievert_1991
+          - THERMOREGULATORY BEHAVIOUR IN THE TOADS BUFO MARINUS AND BUFO COGNATUS
+          - "1991"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1016/0306-4565(91)90023-U
+          - English
+          - Rhinella_marina_pop92
+          - Rhinella_marina_pop92_PBT_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were obtained from an animal supply company
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "213.8"
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "6"
+          - linear
+          - "10"
+          - "40"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/227/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "26.7"
+          - "0.73"
+          - "8"
+          - se
+          - NA
+      - rowNumber: 3960
+        values:
+          - "4385"
+          - Pietro Pollo
+          - Sievert_1991
+          - THERMOREGULATORY BEHAVIOUR IN THE TOADS BUFO MARINUS AND BUFO COGNATUS
+          - "1991"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1016/0306-4565(91)90023-U
+          - English
+          - Rhinella_marina_pop92
+          - Rhinella_marina_pop92_PBT_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were obtained from an animal supply company
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "213.8"
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "6"
+          - linear
+          - "10"
+          - "40"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/228/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "24.3"
+          - "0.96"
+          - "8"
+          - se
+          - NA
+      - rowNumber: 3961
+        values:
+          - "4386"
+          - Pietro Pollo
+          - Sievert_1991
+          - THERMOREGULATORY BEHAVIOUR IN THE TOADS BUFO MARINUS AND BUFO COGNATUS
+          - "1991"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1016/0306-4565(91)90023-U
+          - English
+          - Rhinella_marina_pop92
+          - Rhinella_marina_pop92_PBT_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - supplier
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Animals were obtained from an animal supply company
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "213.8"
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24"
+          - "6"
+          - linear
+          - "10"
+          - "40"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/229/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "24.3"
+          - "0.99"
+          - "8"
+          - se
+          - NA
+      - rowNumber: 4266
+        values:
+          - "4739"
+          - Jose O. Valdebenito
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/230/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop25
+          - Rhinella_marina_pop25_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.04797"
+          - "-78.78782972"
+          - "1206"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "14"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "29.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (26-33)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "41.2"
+          - "0.71"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4267
+        values:
+          - "4740"
+          - Jose O. Valdebenito
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/231/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop25
+          - Rhinella_marina_pop25_UTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.04797"
+          - "-78.78782972"
+          - "1206"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "29.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (26-33)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "42.03"
+          - "0.52"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4268
+        values:
+          - "4741"
+          - Jose O. Valdebenito
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/232/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop25
+          - Rhinella_marina_pop25_UTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.04797"
+          - "-78.78782972"
+          - "1206"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "26"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "29.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (26-33)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "42.51"
+          - "0.77"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4269
+        values:
+          - "4742"
+          - Jose O. Valdebenito
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/233/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop25
+          - Rhinella_marina_pop25_UTL_co4
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.04797"
+          - "-78.78782972"
+          - "1206"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "32"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "29.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (26-33)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "43.89"
+          - "0.33"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4270
+        values:
+          - "4743"
+          - Jose O. Valdebenito
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/234/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop25
+          - Rhinella_marina_pop25_UTL_co5
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.04797"
+          - "-78.78782972"
+          - "1206"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "36"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "29.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (26-33)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "43.44"
+          - "1.22"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4276
+        values:
+          - "4749"
+          - Natalie_Claunch
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/235/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop25
+          - Rhinella_marina_pop25_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.04797"
+          - "-78.78783"
+          - "1206"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "36.5"
+          - "14"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "36.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "6.7"
+          - "2.05"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4277
+        values:
+          - "4750"
+          - Natalie_Claunch
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/236/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop25
+          - Rhinella_marina_pop25_LTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.04797"
+          - "-78.78783"
+          - "1206"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "36.5"
+          - "20"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "36.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "2.13"
+          - "1.45"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4278
+        values:
+          - "4751"
+          - Natalie_Claunch
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/237/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop25
+          - Rhinella_marina_pop25_LTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.04797"
+          - "-78.78783"
+          - "1206"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "36.5"
+          - "26"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "36.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "3.14"
+          - "2.31"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4279
+        values:
+          - "4752"
+          - Natalie_Claunch
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/238/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Rhinella_marina_pop25
+          - Rhinella_marina_pop25_LTL_co4
+          - NA
+          - Anura
+          - Bufonidae
+          - Rhinella marina
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-0.04797"
+          - "-78.78783"
+          - "1206"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "36.5"
+          - "32"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "36.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "6.23"
+          - "1.96"
+          - "9"
+          - sd
+          - NA
+    originalStudyCitations:
+      - ref: Branco_and_Malvin_1996
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: 10.1152/ajpregu.1996.270.1.R169
+        year: "1996"
+      - ref: Branco_and_Wood_1994
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: 10.1152/ajpregu.1994.266.5.R1483
+        year: "1994"
+      - ref: Brattstrom_1968
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/2/title
+          format: heading
+        doi: https://doi.org/10.1016/0010-406X(68)90961-4
+        year: "1968"
+      - ref: Brattstrom_and_Lawrence_1962
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/3/title
+          format: heading
+        doi: https://doi.org/10.1086/physzool.35.2.30152723
+        year: "1962"
+      - ref: Dohm_et_al_2001
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/4/title
+          format: heading
+        doi: doi:10.1006/enrs.2001.4276
+        year: "2001"
+      - ref: Floyd_1983
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/5/title
+          format: heading
+        doi: https://doi.org/10.1016/0300-9629(83)90081-6
+        year: "1983"
+      - ref: Floyd_1984
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/6/title
+          format: heading
+        doi: NA
+        year: "1984"
+      - ref: Floyd_1985
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/7/title
+          format: heading
+        doi: NA
+        year: "1985"
+      - ref: Gutierrez-Pesquera_2015
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/8/title
+          format: heading
+        doi: NA
+        year: "2015"
+      - ref: Gutierrez-Pesquera_2016
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/9/title
+          format: heading
+        doi: NA
+        year: "2016"
+      - ref: Heatwole_et_al_1968
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/10/title
+          format: heading
+        doi: NA
+        year: "1968"
+      - ref: Johnson_1972b
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/11/title
+          format: heading
+        doi: https://doi.org/10.2307/1563091
+        year: "1972"
+      - ref: Kolbe_et_al_2010
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/12/title
+          format: heading
+        doi: https://doi.org/10.1890/09-1973.1
+        year: "2010"
+      - ref: Krakauer_1970
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/13/title
+          format: heading
+        doi: https://doi.org/10.1016/0010-406X(70)90479-2
+        year: "1970"
+      - ref: Llewellyn_et_al_2011
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/14/title
+        doi: https://doi.org/10.1086/657609
+        year: "2011"
+      - ref: Madalozzo_2018
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/15/title
+          format: heading
+        doi: NA
+        year: "2018"
+      - ref: Malvin_and_Wood_1991
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/16/title
+        doi: https://doi.org/10.1002/jez.1402580307
+        year: "1991"
+      - ref: McCann_et_al_2014
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/17/title
+        doi: 10.1111/1365-2435.12255
+        year: "2014"
+      - ref: McCann_et_al_2018
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/18/title
+        doi: 10.1093/conphys/cox072
+        year: "2018"
+      - ref: McManus_and_Nellis_1975
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/19/title
+          format: heading
+        doi: NA
+        year: "1975"
+      - ref: Mittan_and_Zamudio_2019
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/20/title
+        doi: 10.1093/conphys/coy075
+        year: "2019"
+      - ref: Mullens_and_Hutchison_1992
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/21/title
+        doi: https://doi.org/10.1080%2F23328940.2015.1096437
+        year: "1992"
+      - ref: Nowakowski_et_al_2016a
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/22/title
+          format: heading
+        doi: https://doi.org/10.1111/cobi.12769
+        year: "2016"
+      - ref: Nowakowski_et_al_2018
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/23/title
+          format: heading
+        doi: https://doi.org/10.1111/ele.12901
+        year: "2018"
+      - ref: Pintanel_2018
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/24/title
+          format: heading
+        doi: NA
+        year: "2018"
+      - ref: Sherman_et_al_1991
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/25/title
+          format: heading
+        doi: https://doi.org/10.1016/0306-4565(91)90021-S
+        year: "1991"
+      - ref: Sievert_1991
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/26/title
+          format: heading
+        doi: 10.1016/0306-4565(91)90023-U
+        year: "1991"
+      - ref: Yandun-Vela_2017
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/27/title
+          format: heading
+        doi: NA
+        year: "2017"
+    selectedEstimateRowNumbers:
+      - 230
+      - 361
+      - 412
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4S7NY
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Rhinella marina — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 230, 231, 232, 233, 234, 235, 236, 237, 238, 246, 247, 248, 249, 250, 251, 252, 253, 254, 361, 362, 363, 412, 676, 677, 678, 679, 680, 1255, 1256, 1257, 1258, 1259, 1540, 1541, 1542, 1543, 1544, 1545, 1546, 1547, 1548, 1549, 1550, 1551, 1552, 1553, 1554, 1555, 1556, 1557, 1558, 1559, 1560, 1561, 1562, 1563, 1564, 1565, 1566, 1567, 1568, 1569, 1570, 1571, 1572, 1573, 1574, 1575, 1576, 1577, 1578, 1579, 1580, 1581, 1582, 1583, 1584, 1585, 1586, 1587, 1588, 1589, 1590, 1591, 1592, 1593, 1594, 1595, 1596, 1597, 1598, 1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607, 1608, 1609, 1610, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1789, 1809, 1868, 1907, 1908, 1909, 1910, 1950, 1951, 1952, 1953, 2201, 2202, 2203, 2204, 2546, 2547, 2548, 2549, 2550, 2551, 2552, 2553, 2554, 2555, 2556, 2557, 2649, 2650, 2651, 2652, 2653, 2654, 2655, 2656, 2657, 2658, 2659, 2660, 2664, 2665, 2666, 2667, 2823, 3000, 3001, 3002, 3003, 3057, 3058, 3059, 3144, 3145, 3146, 3242, 3243, 3244, 3245, 3246, 3247, 3248, 3249, 3250, 3251, 3252, 3253, 3254, 3255, 3256, 3257, 3258, 3259, 3260, 3261, 3262, 3263, 3264, 3354, 3355, 3356, 3357, 3358, 3359, 3371, 3372, 3442, 3452, 3608, 3935, 3936, 3937, 3959, 3960, 3961, 4266, 4267, 4268, 4269, 4270, 4276, 4277, 4278, 4279; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/18/values/83 -->
+Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/19/values/83 -->
+Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/20/values/83 -->
+Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/22/values/83 -->
+Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/23/values/83 -->
+Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/24/values/83 -->
+Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/25/values/83 -->
+Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/26/values/83 -->
+Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/32/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/33/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/34/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/35/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/36/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/37/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/38/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/39/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/40/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/41/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/42/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/43/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/44/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/45/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/46/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/47/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/48/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/49/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/50/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/51/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/52/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/53/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/54/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/55/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/56/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/57/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/58/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/59/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/60/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/61/values/83 -->
+Data was digitised from figure 1 because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/100/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/101/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/101/values/83 -->
+Animals were deprived of food for 12 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/102/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/102/values/83 -->
+Animals were deprived of food for 15 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/103/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/103/values/83 -->
+Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/104/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/104/values/83 -->
+Animals were deprived of food for 1 day. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/105/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/105/values/83 -->
+Animals were deprived of food for 5 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/106/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/106/values/83 -->
+Animals were deprived of food for 7 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/107/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/107/values/83 -->
+Animals were deprived of food for 9 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/108/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/108/values/83 -->
+Animals were deprived of food for 12 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/109/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/109/values/83 -->
+Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/110/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/110/values/83 -->
+Animals were deprived of food for 1 day. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/111/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/112/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/112/values/83 -->
+Animals were deprived of food for 2 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/113/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/113/values/83 -->
+Animals were deprived of food for 5 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/114/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/114/values/83 -->
+Animals were deprived of food for 7 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/115/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/115/values/83 -->
+Animals were deprived of food for 9 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/116/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/117/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/118/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/119/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/119/values/83 -->
+Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/120/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/120/values/83 -->
+Animals were deprived of food for 1 day. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/121/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/121/values/83 -->
+Animals were deprived of food for 5 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/122/values/12 -->
+Animals were considered the same population as in st25 because parents were collected in the same location and the same researcher performed the experiments.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/122/values/83 -->
+Animals were deprived of food for 7 days. Data was digitised from figure 2B because this data was not reported in Rohr et al. 2018. Error was divided by two because the figure represent 2SE on each side of the mean.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/136/values/3 -->
+Una valoración macrofisiológica de la vulnerabilidad al calentamiento global. Análisis de los límites de tolerancia térmica en comunidades de anfibios en gradientes latitudinales y altitudinales
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/136/values/28 -->
+It is specified that some species were obtained from a local lab and the rest of the species were sampled in ponds (it does not say which species were from the local lab or ponds).  All species report coordinates from the ponds where they can be found (except one), but I cannot assure whether the origin was from a lab or wild
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/137/values/3 -->
+Una valoración macrofisiológica de la vulnerabilidad al calentamiento global. Análisis de los límites de tolerancia térmica en comunidades de anfibios en gradientes latitudinales y altitudinales
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/137/values/28 -->
+It is specified that some species were obtained from a local lab and the rest of the species were sampled in ponds (it does not say which species were from the local lab or ponds).  All species report coordinates from the ponds where they can be found (except one), but I cannot assure whether the origin was from a lab or wild
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/147/values/28 -->
+Geographical coordinates were estimated using Google maps as the coordinates of "the campus of the University of Puerto Rico at Rio Piedras (elevation ca. 50 ft)"
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/148/values/28 -->
+Geographical coordinates were estimated using Google maps as the coordinates of "the campus of the University of Puerto Rico at Rio Piedras (elevation ca. 50 ft)"
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/149/values/28 -->
+Geographical coordinates were estimated using Google maps as the coordinates of "the campus of the University of Puerto Rico at Rio Piedras (elevation ca. 50 ft)"
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/150/values/28 -->
+Geographical coordinates were estimated using Google maps as the coordinates of "the campus of the University of Puerto Rico at Rio Piedras (elevation ca. 50 ft)"
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/151/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/152/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/153/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/154/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/155/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/156/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/157/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/158/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/159/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/160/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/161/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/162/values/28 -->
+Geographical coordinates were not provided. Animals were collected in Summer in Australia so sampling dates were taken as December - February 1969/1970
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/175/values/63 -->
+The endpoint was "the loss of a nictitating membrane response". Ramping was taken as the mean of the range presented (0.3-0.6 C/min). SVL was taken as reported in Rohr et al. 2018.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/176/values/63 -->
+The endpoint was "the loss of a nictitating membrane response". Ramping was taken as the mean of the range presented (0.3-0.6 C/min). SVL was taken as reported in Rohr et al. 2018.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/179/values/3 -->
+Behavioral Responses to Immune-System Activation in an Anuran
+(the Cane Toad, Bufo marinus): Field and Laboratory Studies
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/180/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/180/values/83 -->
+Data was digitised from figure 1A. n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure. 95% confidence intervals were converted to sd in with metadigitise.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/181/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/181/values/83 -->
+Data was digitised from figure 1A. n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure. 95% confidence intervals were converted to sd in with metadigitise.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/182/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/182/values/83 -->
+Data was digitised from figure 1A. n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure. 95% confidence intervals were converted to sd in with metadigitise.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/183/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/183/values/83 -->
+Data was digitised from figure 1A. n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure. 95% confidence intervals were converted to sd in with metadigitise.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/184/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/184/values/83 -->
+n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 9/15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/185/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/185/values/83 -->
+n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 9/15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/186/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/186/values/83 -->
+n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 9/15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/191/values/28 -->
+Coordinates were estimated from Google Maps. Combination of frogs from 4 geographic locations within The Border Ranges National Park along the NSW-Queensland border
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/192/values/28 -->
+Coordinates were estimated from Google Maps. Combination of frogs from 4 geographic locations within The Border Ranges National Park along the NSW-Queensland border
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/193/values/28 -->
+Coordinates were estimated from Google Maps. Combination of frogs from 4 geographic locations within The Border Ranges National Park along the NSW-Queensland border
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/194/values/28 -->
+Coordinates were estimated from Google Maps. Combination of frogs from 4 geographic locations within The Border Ranges National Park along the NSW-Queensland border
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/198/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/199/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/200/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/201/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/202/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/203/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/204/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/205/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/206/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/207/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/208/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/209/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/210/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/211/values/3 -->
+Physiological plasticity in a successful invader:
+rapid acclimation to cold occurs only
+in cool-climate populations of cane toads
+(Rhinella marina)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/222/values/28 -->
+Geographical coordinates could not be approximated precisely. Animals were collected in forest remnants and adjacent pastures in the Magdalena River Valley in Colombia, which spans hundreds of kilometers.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/222/values/83 -->
+Only the data from Colombian species were extracted because the data for Costa Rican amphibans is the same as in Nowakowski et al. 2016a (although not clearly referenced).
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/225/values/63 -->
+SVL was reported as in Rohr et al. 2018. Body_mass was taken as the mean of the range presented (100-300 g). Ramping was taken as the mean of the range presented (0.5-1C/min)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/226/values/63 -->
+SVL was reported as in Rohr et al. 2018. Body_mass was taken as the mean of the range presented (100-300 g). Ramping was taken as the mean of the range presented (0.5-1C/min)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/227/values/63 -->
+spring warm end had light and cool end was dark; mass measures given for each species when they were obtained, perhaps not reliable for each group; groups based on when experiments were conducted (season/fall) and treatment (UL: warm end had light and cool end was dark, LH: both ends had light)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/228/values/63 -->
+spring both ends had light; mass measures given for each species when they were obtained, perhaps not reliable for each group; groups based on when experiments were conducted (season/fall) and treatment (UL: warm end had light and cool end was dark, LH: both ends had light)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/229/values/63 -->
+fall both ends had light; mass measures given for each species when they were obtained, perhaps not reliable for each group; groups based on when experiments were conducted (season/fall) and treatment (UL: warm end had light and cool end was dark, LH: both ends had light)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/230/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/231/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/232/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/233/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/234/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/235/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/236/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/237/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/238/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

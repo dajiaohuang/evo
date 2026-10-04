@@ -1,0 +1,5220 @@
+{
+  "pmcid": "PMC11340092",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+  "sha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+  "articleType": "research-article",
+  "title": "HPC-T-Annotator: an HPC tool for de novo transcriptome assembly annotation",
+  "authors": [
+    {
+      "name": "Lorenzo Arcioni",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Lorenzo",
+        "surname": "Arcioni",
+        "suffix": null
+      },
+      "originalName": "ArcioniLorenzo",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Manuel Arcieri",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Manuel",
+        "surname": "Arcieri",
+        "suffix": null
+      },
+      "originalName": "ArcieriManuel",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Jessica Di Martino",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Jessica Di",
+        "surname": "Martino",
+        "suffix": null
+      },
+      "originalName": "MartinoJessica Di",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Franco Liberati",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Franco",
+        "surname": "Liberati",
+        "suffix": null
+      },
+      "originalName": "LiberatiFranco",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Paolo Bottoni",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Paolo",
+        "surname": "Bottoni",
+        "suffix": null
+      },
+      "originalName": "BottoniPaolo",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Tiziana Castrignanò",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Tiziana",
+        "surname": "Castrignanò",
+        "suffix": null
+      },
+      "originalName": "CastrignanòTiziana",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC11340092"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC11340092.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "11340092"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "11340092"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "39169276"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1186/s12859-024-05887-3"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "5887"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2024",
+      "month": "8",
+      "day": "21"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2024",
+      "month": null,
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "MOESM1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "12859_2024_5887_MOESM1_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "12859_2024_5887_MOESM1_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "CR1",
+      "position": 0,
+      "title": "mRNAs, proteins and the emerging principles of gene expression control",
+      "source": "Nat Rev Genet",
+      "year": "2020",
+      "citationAttributes": {
+        "id": "ec-CR1",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Buccitelli",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BuccitelliC"
+            },
+            {
+              "surname": "Selbach",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SelbachM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "issue": [
+          "10"
+        ],
+        "fpage": [
+          "630"
+        ],
+        "lpage": [
+          "644"
+        ]
+      },
+      "originalCitationText": "BuccitelliCSelbachMmRNAs, proteins and the emerging principles of gene expression controlNat Rev Genet2020211063064410.1038/s41576-020-0258-432709985",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41576-020-0258-4"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32709985"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32709985"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41576-020-0258-4"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR2",
+      "position": 1,
+      "title": "CodAn: predictive models for precise identification of coding regions in eukaryotic transcripts",
+      "source": "Brief Bioinform",
+      "year": "2021",
+      "citationAttributes": {
+        "id": "ec-CR2",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nachtigall",
+              "givenNames": "PG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NachtigallPG"
+            },
+            {
+              "surname": "Kashiwabara",
+              "givenNames": "AY",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KashiwabaraAY"
+            },
+            {
+              "surname": "Durham",
+              "givenNames": "AM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DurhamAM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "bbaa045"
+        ]
+      },
+      "originalCitationText": "NachtigallPGKashiwabaraAYDurhamAMCodAn: predictive models for precise identification of coding regions in eukaryotic transcriptsBrief Bioinform2021223bbaa04510.1093/bib/bbaa04532460307PMC8138839",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bib/bbaa045"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32460307"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8138839"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32460307"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bib/bbaa045"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8138839"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR3",
+      "position": 2,
+      "title": "Transcriptome to proteome and back to genome",
+      "source": "Nat Rev Genet",
+      "year": "2011",
+      "citationAttributes": {
+        "id": "ec-CR3",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Muers",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MuersM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "issue": [
+          "8"
+        ],
+        "fpage": [
+          "518"
+        ],
+        "lpage": [
+          "518"
+        ]
+      },
+      "originalCitationText": "MuersMTranscriptome to proteome and back to genomeNat Rev Genet201112851851810.1038/nrg303721709688",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nrg3037"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21709688"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21709688"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nrg3037"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR4",
+      "position": 3,
+      "title": "Transcriptome analysis of gall oak (Quercus infectoria): De novo assembly, functional annotation and metabolic pathways analysis",
+      "source": "Genomics",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR4",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Joudaki",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JoudakiF"
+            },
+            {
+              "surname": "Ismaili",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IsmailiA"
+            },
+            {
+              "surname": "Sohrabi",
+              "givenNames": "SS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SohrabiSS"
+            },
+            {
+              "surname": "Hosseini",
+              "givenNames": "SZ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HosseiniSZ"
+            },
+            {
+              "surname": "Kahrizi",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KahriziD"
+            },
+            {
+              "surname": "Ahmadi",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AhmadiH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "115"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "110588"
+        ]
+      },
+      "originalCitationText": "JoudakiFIsmailiASohrabiSSHosseiniSZKahriziDAhmadiHTranscriptome analysis of gall oak (Quercus infectoria): De novo assembly, functional annotation and metabolic pathways analysisGenomics2023115211058810.1016/j.ygeno.2023.11058836841311",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ygeno.2023.110588"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36841311"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36841311"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ygeno.2023.110588"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR5",
+      "position": 4,
+      "title": "A simple guide to de novo transcriptome assembly and annotation",
+      "source": "Brief Bioinform",
+      "year": "2022",
+      "citationAttributes": {
+        "id": "ec-CR5",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Raghavan",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RaghavanV"
+            },
+            {
+              "surname": "Kraft",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KraftL"
+            },
+            {
+              "surname": "Mesny",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MesnyF"
+            },
+            {
+              "surname": "Rigerte",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RigerteL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "bbab563"
+        ]
+      },
+      "originalCitationText": "RaghavanVKraftLMesnyFRigerteLA simple guide to de novo transcriptome assembly and annotationBrief Bioinform2022232bbab56310.1093/bib/bbab56335076693PMC8921630",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bib/bbab563"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35076693"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8921630"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35076693"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bib/bbab563"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8921630"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR6",
+      "position": 5,
+      "title": "transXpress: a Snakemake pipeline for streamlined de novo transcriptome assembly and annotation",
+      "source": "BMC Bioinform",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR6",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Fallon",
+              "givenNames": "TR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FallonTR"
+            },
+            {
+              "surname": "Čalounová",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ČalounováT"
+            },
+            {
+              "surname": "Mokrejš",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MokrejšM"
+            },
+            {
+              "surname": "Weng",
+              "givenNames": "J-K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WengJ-K"
+            },
+            {
+              "surname": "Pluskal",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PluskalT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "133"
+        ]
+      },
+      "originalCitationText": "FallonTRČalounováTMokrejšMWengJ-KPluskalTtransXpress: a Snakemake pipeline for streamlined de novo transcriptome assembly and annotationBMC Bioinform202324113310.1186/s12859-023-05254-8PMC1007483037016291",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12859-023-05254-8"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10074830"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37016291"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12859-023-05254-8"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10074830"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37016291"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR7",
+      "position": 6,
+      "title": "De novo assembly of transcriptomes and differential gene expression analysis using short-read data from emerging model organisms—a brief guide",
+      "source": "Front Zool",
+      "year": "2024",
+      "citationAttributes": {
+        "id": "ec-CR7",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Jackson",
+              "givenNames": "DJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JacksonDJ"
+            },
+            {
+              "surname": "Cerveau",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CerveauN"
+            },
+            {
+              "surname": "Posnien",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PosnienN"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "17"
+        ]
+      },
+      "originalCitationText": "JacksonDJCerveauNPosnienNDe novo assembly of transcriptomes and differential gene expression analysis using short-read data from emerging model organisms—a brief guideFront Zool20242111710.1186/s12983-024-00538-y38902827PMC11188175",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12983-024-00538-y"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38902827"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11188175"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38902827"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12983-024-00538-y"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11188175"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR8",
+      "position": 7,
+      "title": "De novo transcriptome assembly and development of EST-SSR markers of the endangered Dendrebium nobile (Orchidaceae)",
+      "source": "Pak J Bot",
+      "year": "2022",
+      "citationAttributes": {
+        "id": "ec-CR8",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zhu",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhuB"
+            },
+            {
+              "surname": "Luo",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuoX"
+            },
+            {
+              "surname": "Gao",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GaoZ"
+            },
+            {
+              "surname": "Hu",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuX"
+            },
+            {
+              "surname": "Weng",
+              "givenNames": "Q",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WengQ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "54"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "483"
+        ],
+        "lpage": [
+          "489"
+        ]
+      },
+      "originalCitationText": "ZhuBLuoXGaoZHuXWengQDe novo transcriptome assembly and development of EST-SSR markers of the endangered Dendrebium nobile (Orchidaceae)Pak J Bot202254248348910.30848/PJB2022-2(40)",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.30848/PJB2022-2(40)"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.30848/PJB2022-2(40)"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR9",
+      "position": 8,
+      "title": "The dataset of de novo assembly and inferred functional annotation of the transcriptome of Heterosigma akashiwo, a bloom-forming, cosmopolitan raphidophyte",
+      "source": "Data Brief",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR9",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sato",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SatoM"
+            },
+            {
+              "surname": "Seki",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SekiM"
+            },
+            {
+              "surname": "Suzuki",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SuzukiY"
+            },
+            {
+              "surname": "Ueki",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "UekiS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "SatoMSekiMSuzukiYUekiSThe dataset of de novo assembly and inferred functional annotation of the transcriptome of Heterosigma akashiwo, a bloom-forming, cosmopolitan raphidophyteData Brief202310.1016/j.dib.2023.10907137066092PMC10090238",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.dib.2023.109071"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37066092"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10090238"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37066092"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.dib.2023.109071"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10090238"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR10",
+      "position": 9,
+      "title": "Trancriptome ReconstructoR: data-driven annotation of complex transcriptomes",
+      "source": "BMC Bioinform",
+      "year": "2021",
+      "citationAttributes": {
+        "id": "ec-CR10",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ivanov",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IvanovM"
+            },
+            {
+              "surname": "Sandelin",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SandelinA"
+            },
+            {
+              "surname": "Marquardt",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MarquardtS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "15"
+        ]
+      },
+      "originalCitationText": "IvanovMSandelinAMarquardtSTrancriptome ReconstructoR: data-driven annotation of complex transcriptomesBMC Bioinform202122111510.1186/s12859-021-04208-2PMC816603534058980",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12859-021-04208-2"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8166035"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34058980"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12859-021-04208-2"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8166035"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34058980"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR11",
+      "position": 10,
+      "title": "cTranscriptome annotation in the cloud: complexity, best practices, and cost",
+      "source": "GigaScience",
+      "year": "2021",
+      "citationAttributes": {
+        "id": "ec-CR11",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Alvarez",
+              "givenNames": "RV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlvarezRV"
+            },
+            {
+              "surname": "Mariño-Ramírez",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Mariño-RamírezL"
+            },
+            {
+              "surname": "Landsman",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LandsmanD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "giaa163"
+        ]
+      },
+      "originalCitationText": "AlvarezRVMariño-RamírezLLandsmanDcTranscriptome annotation in the cloud: complexity, best practices, and costGigaScience2021102giaa16310.1093/gigascience/giaa16333511996PMC7845158",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/gigascience/giaa163"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33511996"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7845158"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33511996"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/gigascience/giaa163"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7845158"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR12",
+      "position": 11,
+      "title": "De novo transcriptome for Chiloscyllium griseum, a long-tail carpet shark of the Indian waters",
+      "source": "Sci Data",
+      "year": "2024",
+      "citationAttributes": {
+        "id": "ec-CR12",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Harshan",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HarshanP"
+            },
+            {
+              "surname": "Sandhya",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SandhyaS"
+            },
+            {
+              "surname": "Gopalakrishnan",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GopalakrishnanA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "285"
+        ]
+      },
+      "originalCitationText": "HarshanPSandhyaSGopalakrishnanADe novo transcriptome for Chiloscyllium griseum, a long-tail carpet shark of the Indian watersSci Data20241128510.1038/s41597-024-03093-738461175PMC10924892",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41597-024-03093-7"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38461175"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10924892"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38461175"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41597-024-03093-7"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10924892"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR13",
+      "position": 12,
+      "title": "De novo transcriptome assembly and annotation of the third stage larvae of the zoonotic parasite anisakis pegreffii",
+      "source": "BMC Res Notes",
+      "year": "2022",
+      "citationAttributes": {
+        "id": "ec-CR13",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Palomba",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PalombaM"
+            },
+            {
+              "surname": "Libro",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LibroP"
+            },
+            {
+              "surname": "Martino",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MartinoJD"
+            },
+            {
+              "surname": "Rughetti",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RughettiA"
+            },
+            {
+              "surname": "Santoro",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SantoroM"
+            },
+            {
+              "surname": "Mattiucci",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MattiucciS"
+            },
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "223"
+        ]
+      },
+      "originalCitationText": "PalombaMLibroPMartinoJDRughettiASantoroMMattiucciSCastrignanòTDe novo transcriptome assembly and annotation of the third stage larvae of the zoonotic parasite anisakis pegreffiiBMC Res Notes202215122310.1186/s13104-022-06099-935752825PMC9233829",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13104-022-06099-9"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35752825"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9233829"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35752825"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13104-022-06099-9"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9233829"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR14",
+      "position": 13,
+      "title": "De novo transcriptome assembly of an antarctic nematode for the study of thermal adaptation in marine parasites",
+      "source": "Sci Data",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR14",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Palomba",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PalombaM"
+            },
+            {
+              "surname": "Libro",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LibroP"
+            },
+            {
+              "surname": "Martino",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MartinoJD"
+            },
+            {
+              "surname": "Roca-Geronès",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Roca-GeronèsX"
+            },
+            {
+              "surname": "Macali",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MacaliA"
+            },
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            },
+            {
+              "surname": "Canestrelli",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CanestrelliD"
+            },
+            {
+              "surname": "Mattiucci",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MattiucciS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "720"
+        ]
+      },
+      "originalCitationText": "PalombaMLibroPMartinoJDRoca-GeronèsXMacaliACastrignanòTCanestrelliDMattiucciSDe novo transcriptome assembly of an antarctic nematode for the study of thermal adaptation in marine parasitesSci Data202310172010.1038/s41597-023-02591-437857654PMC10587230",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41597-023-02591-4"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37857654"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10587230"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37857654"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41597-023-02591-4"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10587230"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR15",
+      "position": 14,
+      "title": "Genomics and metatranscriptomics of biogeochemical cycling and degradation of lignin-derived aromatic compounds in thermal swamp sediment",
+      "source": "ISME J",
+      "year": "2021",
+      "citationAttributes": {
+        "id": "ec-CR15",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Levy-Booth",
+              "givenNames": "DJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Levy-BoothDJ"
+            },
+            {
+              "surname": "Hashimi",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HashimiA"
+            },
+            {
+              "surname": "Roccor",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RoccorR"
+            },
+            {
+              "surname": "Liu",
+              "givenNames": "LY",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuLY"
+            },
+            {
+              "surname": "Renneckar",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RenneckarS"
+            },
+            {
+              "surname": "Eltis",
+              "givenNames": "LD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EltisLD"
+            },
+            {
+              "surname": "Mohn",
+              "givenNames": "WW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MohnWW"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "879"
+        ],
+        "lpage": [
+          "893"
+        ]
+      },
+      "originalCitationText": "Levy-BoothDJHashimiARoccorRLiuLYRenneckarSEltisLDMohnWWGenomics and metatranscriptomics of biogeochemical cycling and degradation of lignin-derived aromatic compounds in thermal swamp sedimentISME J202115387989310.1038/s41396-020-00820-x33139871PMC8027834",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41396-020-00820-x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33139871"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8027834"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33139871"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41396-020-00820-x"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8027834"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR16",
+      "position": 15,
+      "title": "Brain de novo transcriptome assembly of a toad species showing polymorphic anti-predatory behavior",
+      "source": "Nat Sci Data",
+      "year": "2022",
+      "citationAttributes": {
+        "id": "ec-CR16",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chiocchio",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChiocchioA"
+            },
+            {
+              "surname": "Libro",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LibroP"
+            },
+            {
+              "surname": "Martino",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MartinoG"
+            },
+            {
+              "surname": "Bisconti",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BiscontiR"
+            },
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            },
+            {
+              "surname": "Canestrelli",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CanestrelliD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "619"
+        ]
+      },
+      "originalCitationText": "ChiocchioALibroPMartinoGBiscontiRCastrignanòTCanestrelliDBrain de novo transcriptome assembly of a toad species showing polymorphic anti-predatory behaviorNat Sci Data20229161910.1038/s41597-022-01724-5PMC956162636229462",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41597-022-01724-5"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9561626"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36229462"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41597-022-01724-5"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9561626"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36229462"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR17",
+      "position": 16,
+      "title": "De novo transcriptome assembly and annotation for gene discovery in Salamandra salamandra at the larval stage",
+      "source": "Sci Data",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR17",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Libro",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LibroP"
+            },
+            {
+              "surname": "Chiocchio",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChiocchioA"
+            },
+            {
+              "surname": "Rysky",
+              "givenNames": "ED",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RyskyED"
+            },
+            {
+              "surname": "Martino",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MartinoJD"
+            },
+            {
+              "surname": "Bisconti",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BiscontiR"
+            },
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            },
+            {
+              "surname": "Canestrelli",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CanestrelliD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "330"
+        ]
+      },
+      "originalCitationText": "LibroPChiocchioARyskyEDMartinoJDBiscontiRCastrignanòTCanestrelliDDe novo transcriptome assembly and annotation for gene discovery in Salamandra salamandra at the larval stageSci Data202310133010.1038/s41597-023-02217-937244908PMC10224929",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41597-023-02217-9"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37244908"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10224929"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37244908"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41597-023-02217-9"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10224929"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR18",
+      "position": 17,
+      "title": "First brain de novo transcriptome of the Tyrrhenian tree frog, Hyla sarda, for the study of dispersal behavior",
+      "source": "Front Ecol Evol",
+      "year": "2022",
+      "citationAttributes": {
+        "id": "ec-CR18",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Libro",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LibroP"
+            },
+            {
+              "surname": "Bisconti",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BiscontiR"
+            },
+            {
+              "surname": "Chiocchio",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChiocchioA"
+            },
+            {
+              "surname": "Spadavecchia",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SpadavecchiaG"
+            },
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            },
+            {
+              "surname": "Canestrelli",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CanestrelliD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "LibroPBiscontiRChiocchioASpadavecchiaGCastrignanòTCanestrelliDFirst brain de novo transcriptome of the Tyrrhenian tree frog, Hyla sarda, for the study of dispersal behaviorFront Ecol Evol202210.3389/fevo.2022.947186",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3389/fevo.2022.947186"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.3389/fevo.2022.947186"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR19",
+      "position": 18,
+      "title": "Integrated de novo transcriptome of Culex pipiens mosquito larvae as a resource for genetic control strategies",
+      "source": "Sci Data",
+      "year": "2024",
+      "citationAttributes": {
+        "id": "ec-CR19",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Mastrantonio",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MastrantonioV"
+            },
+            {
+              "surname": "Libro",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LibroP"
+            },
+            {
+              "surname": "Martino",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MartinoJD"
+            },
+            {
+              "surname": "Matera",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MateraM"
+            },
+            {
+              "surname": "Bellini",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BelliniR"
+            },
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            },
+            {
+              "surname": "Urbanelli",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "UrbanelliS"
+            },
+            {
+              "surname": "Porretta",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PorrettaD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "471"
+        ]
+      },
+      "originalCitationText": "MastrantonioVLibroPMartinoJDMateraMBelliniRCastrignanòTUrbanelliSPorrettaDIntegrated de novo transcriptome of Culex pipiens mosquito larvae as a resource for genetic control strategiesSci Data20241147110.1038/s41597-024-03285-138724521PMC11082219",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41597-024-03285-1"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38724521"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11082219"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38724521"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41597-024-03285-1"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11082219"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR20",
+      "position": 19,
+      "title": "De novo transcript sequence reconstruction from RNA-seq using the trinity platform for reference generation and analysis",
+      "source": "Nat Protoc",
+      "year": "2013",
+      "citationAttributes": {
+        "id": "ec-CR20",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Haas",
+              "givenNames": "BJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaasBJ"
+            },
+            {
+              "surname": "Papanicolaou",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PapanicolaouA"
+            },
+            {
+              "surname": "Yassour",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YassourM"
+            },
+            {
+              "surname": "Grabherr",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GrabherrM"
+            },
+            {
+              "surname": "Blood",
+              "givenNames": "PD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BloodPD"
+            },
+            {
+              "surname": "Bowden",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BowdenJ"
+            },
+            {
+              "surname": "Couger",
+              "givenNames": "MB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CougerMB"
+            },
+            {
+              "surname": "Eccles",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EcclesD"
+            },
+            {
+              "surname": "Li",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiB"
+            },
+            {
+              "surname": "Lieber",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LieberM"
+            },
+            {
+              "surname": "MacManes",
+              "givenNames": "MD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MacManesMD"
+            },
+            {
+              "surname": "Ott",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OttM"
+            },
+            {
+              "surname": "Orvis",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OrvisJ"
+            },
+            {
+              "surname": "Pochet",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PochetN"
+            },
+            {
+              "surname": "Strozzi",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StrozziF"
+            },
+            {
+              "surname": "Weeks",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeeksN"
+            },
+            {
+              "surname": "Westerman",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WestermanR"
+            },
+            {
+              "surname": "William",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WilliamT"
+            },
+            {
+              "surname": "Dewey",
+              "givenNames": "CN",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DeweyCN"
+            },
+            {
+              "surname": "Henschel",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HenschelR"
+            },
+            {
+              "surname": "LeDuc",
+              "givenNames": "RD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeDucRD"
+            },
+            {
+              "surname": "Friedman",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FriedmanN"
+            },
+            {
+              "surname": "Regev",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RegevA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "issue": [
+          "8"
+        ],
+        "fpage": [
+          "1494"
+        ],
+        "lpage": [
+          "1512"
+        ]
+      },
+      "originalCitationText": "HaasBJPapanicolaouAYassourMGrabherrMBloodPDBowdenJCougerMBEcclesDLiBLieberMMacManesMDOttMOrvisJPochetNStrozziFWeeksNWestermanRWilliamTDeweyCNHenschelRLeDucRDFriedmanNRegevADe novo transcript sequence reconstruction from RNA-seq using the trinity platform for reference generation and analysisNat Protoc2013881494151210.1038/nprot.2013.08423845962PMC3875132",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nprot.2013.084"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23845962"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3875132"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23845962"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nprot.2013.084"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3875132"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR21",
+      "position": 20,
+      "title": "rnaSPAdes: a de novo transcriptome assembler and its application to RNA-seq data",
+      "source": "GigaScience",
+      "year": "2019",
+      "citationAttributes": {
+        "id": "ec-CR21",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bushmanova",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BushmanovaE"
+            },
+            {
+              "surname": "Antipov",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AntipovD"
+            },
+            {
+              "surname": "Lapidus",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LapidusA"
+            },
+            {
+              "surname": "Prjibelski",
+              "givenNames": "AD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PrjibelskiAD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "issue": [
+          "9"
+        ],
+        "fpage": [
+          "giz100"
+        ]
+      },
+      "originalCitationText": "BushmanovaEAntipovDLapidusAPrjibelskiADrnaSPAdes: a de novo transcriptome assembler and its application to RNA-seq dataGigaScience201989giz10010.1093/gigascience/giz10031494669PMC6736328",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/gigascience/giz100"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31494669"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6736328"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31494669"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/gigascience/giz100"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6736328"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR22",
+      "position": 21,
+      "title": "Oases: robust de novo rna-seq assembly across the dynamic range of expression levels",
+      "source": "Bioinformatics",
+      "year": "2012",
+      "citationAttributes": {
+        "id": "ec-CR22",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Schulz",
+              "givenNames": "MH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchulzMH"
+            },
+            {
+              "surname": "Zerbino",
+              "givenNames": "DR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZerbinoDR"
+            },
+            {
+              "surname": "Vingron",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VingronM"
+            },
+            {
+              "surname": "Birney",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BirneyE"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "issue": [
+          "8"
+        ],
+        "fpage": [
+          "1086"
+        ],
+        "lpage": [
+          "1092"
+        ]
+      },
+      "originalCitationText": "SchulzMHZerbinoDRVingronMBirneyEOases: robust de novo rna-seq assembly across the dynamic range of expression levelsBioinformatics20122881086109210.1093/bioinformatics/bts09422368243PMC3324515",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/bts094"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22368243"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3324515"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22368243"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/bts094"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3324515"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR23",
+      "position": 22,
+      "title": "Entap: bringing faster and smarter functional annotation to non-model eukaryotic transcriptomes",
+      "source": "Mol Ecol Resour",
+      "year": "2020",
+      "citationAttributes": {
+        "id": "ec-CR23",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hart",
+              "givenNames": "AJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HartAJ"
+            },
+            {
+              "surname": "Ginzburg",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GinzburgS"
+            },
+            {
+              "surname": "Xu",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XuM"
+            },
+            {
+              "surname": "Fisher",
+              "givenNames": "CR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FisherCR"
+            },
+            {
+              "surname": "Rahmatpour",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RahmatpourN"
+            },
+            {
+              "surname": "Mitton",
+              "givenNames": "JB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MittonJB"
+            },
+            {
+              "surname": "Paul",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PaulR"
+            },
+            {
+              "surname": "Wegrzyn",
+              "givenNames": "JL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WegrzynJL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "591"
+        ],
+        "lpage": [
+          "604"
+        ]
+      },
+      "originalCitationText": "HartAJGinzburgSXuMFisherCRRahmatpourNMittonJBPaulRWegrzynJLEntap: bringing faster and smarter functional annotation to non-model eukaryotic transcriptomesMol Ecol Resour202020259160410.1111/1755-0998.1310631628884",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/1755-0998.13106"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31628884"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31628884"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/1755-0998.13106"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR24",
+      "position": 23,
+      "title": "NCBI reference sequences (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins",
+      "source": "Nucleic Acids Res",
+      "year": "2007",
+      "citationAttributes": {
+        "id": "ec-CR24",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pruitt",
+              "givenNames": "KD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PruittKD"
+            },
+            {
+              "surname": "Tatusova",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TatusovaT"
+            },
+            {
+              "surname": "Maglott",
+              "givenNames": "DR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaglottDR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "35"
+        ],
+        "fpage": [
+          "61"
+        ],
+        "lpage": [
+          "65"
+        ]
+      },
+      "originalCitationText": "PruittKDTatusovaTMaglottDRNCBI reference sequences (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteinsNucleic Acids Res200735616510.1093/nar/gkl842PMC171671817130148",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkl842"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1716718"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17130148"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkl842"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1716718"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17130148"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR25",
+      "position": 24,
+      "title": "Protein variety and functional diversity: Swiss-prot annotation in its biological context",
+      "source": "Comptes Rendus Biol",
+      "year": "2005",
+      "citationAttributes": {
+        "id": "ec-CR25",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Boeckmann",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BoeckmannB"
+            },
+            {
+              "surname": "Blatter",
+              "givenNames": "M-C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BlatterM-C"
+            },
+            {
+              "surname": "Famiglietti",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FamigliettiL"
+            },
+            {
+              "surname": "Hinz",
+              "givenNames": "U",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HinzU"
+            },
+            {
+              "surname": "Lane",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LaneL"
+            },
+            {
+              "surname": "Roechert",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RoechertB"
+            },
+            {
+              "surname": "Bairoch",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BairochA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "328"
+        ],
+        "issue": [
+          "10–11"
+        ],
+        "fpage": [
+          "882"
+        ],
+        "lpage": [
+          "899"
+        ]
+      },
+      "originalCitationText": "BoeckmannBBlatterM-CFamigliettiLHinzULaneLRoechertBBairochAProtein variety and functional diversity: Swiss-prot annotation in its biological contextComptes Rendus Biol200532810–1188289910.1016/j.crvi.2005.06.00116286078",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.crvi.2005.06.001"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16286078"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.crvi.2005.06.001"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16286078"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR26",
+      "position": 25,
+      "title": "The SWISS-PROT protein sequence database and its supplement TrEMBL in 2000",
+      "source": "Nucleic Acids Res",
+      "year": "2000",
+      "citationAttributes": {
+        "id": "ec-CR26",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bairoch",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BairochA"
+            },
+            {
+              "surname": "Apweiler",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ApweilerR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "45"
+        ],
+        "lpage": [
+          "48"
+        ]
+      },
+      "originalCitationText": "BairochAApweilerRThe SWISS-PROT protein sequence database and its supplement TrEMBL in 2000Nucleic Acids Res2000281454810.1093/nar/28.1.4510592178PMC102476",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/28.1.45"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10592178"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC102476"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10592178"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/28.1.45"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC102476"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR27",
+      "position": 26,
+      "title": "Basic local alignment search tool",
+      "source": "J Mol Biol",
+      "year": "1990",
+      "citationAttributes": {
+        "id": "ec-CR27",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Altschul",
+              "givenNames": "SF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AltschulSF"
+            },
+            {
+              "surname": "Gish",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GishW"
+            },
+            {
+              "surname": "Miller",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MillerW"
+            },
+            {
+              "surname": "Myers",
+              "givenNames": "EW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MyersEW"
+            },
+            {
+              "surname": "Lipman",
+              "givenNames": "DJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LipmanDJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "215"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "403"
+        ],
+        "lpage": [
+          "410"
+        ]
+      },
+      "originalCitationText": "AltschulSFGishWMillerWMyersEWLipmanDJBasic local alignment search toolJ Mol Biol1990215340341010.1016/s0022-2836(05)80360-22231712",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/s0022-2836(05)80360-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "2231712"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "2231712"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/s0022-2836(05)80360-2"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR28",
+      "position": 27,
+      "title": "Fast and sensitive protein alignment using DIAMOND",
+      "source": "Nat Methods",
+      "year": "2014",
+      "citationAttributes": {
+        "id": "ec-CR28",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Buchfink",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BuchfinkB"
+            },
+            {
+              "surname": "Xie",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XieC"
+            },
+            {
+              "surname": "Huson",
+              "givenNames": "DH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HusonDH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "59"
+        ],
+        "lpage": [
+          "60"
+        ]
+      },
+      "originalCitationText": "BuchfinkBXieCHusonDHFast and sensitive protein alignment using DIAMONDNat Methods2014121596010.1038/nmeth.317625402007",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nmeth.3176"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25402007"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25402007"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nmeth.3176"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR29",
+      "position": 28,
+      "title": "ELIXIR-IT HPC@CINECA: high performance computing resources for the bioinformatics community",
+      "source": "BMC Bioinform",
+      "year": "2020",
+      "citationAttributes": {
+        "id": "ec-CR29",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            },
+            {
+              "surname": "Gioiosa",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GioiosaS"
+            },
+            {
+              "surname": "Flati",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FlatiT"
+            },
+            {
+              "surname": "Cestari",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CestariM"
+            },
+            {
+              "surname": "Picardi",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PicardiE"
+            },
+            {
+              "surname": "Chiara",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChiaraM"
+            },
+            {
+              "surname": "Fratelli",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FratelliM"
+            },
+            {
+              "surname": "Amente",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AmenteS"
+            },
+            {
+              "surname": "Cirilli",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CirilliM"
+            },
+            {
+              "surname": "Tangaro",
+              "givenNames": "MA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TangaroMA"
+            },
+            {
+              "surname": "Chillemi",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChillemiG"
+            },
+            {
+              "surname": "Pesole",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PesoleG"
+            },
+            {
+              "surname": "Zambelli",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZambelliF"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "CastrignanòTGioiosaSFlatiTCestariMPicardiEChiaraMFratelliMAmenteSCirilliMTangaroMAChillemiGPesoleGZambelliFELIXIR-IT HPC@CINECA: high performance computing resources for the bioinformatics communityBMC Bioinform202010.1186/s12859-020-03565-8PMC744613532838759",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12859-020-03565-8"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7446135"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32838759"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12859-020-03565-8"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7446135"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32838759"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR30",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Yeh C-W, Huang C-W, Yang C-L, Wang Y-T. A high performance computing platform for big biological data analysis. 2023:68–70. 10.1109/ICASI57738.2023.10179527.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR31",
+      "position": 30,
+      "title": "CoVaCS: a consensus variant calling system",
+      "source": "BMC Genom",
+      "year": "2018",
+      "citationAttributes": {
+        "id": "ec-CR31",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chiara",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChiaraM"
+            },
+            {
+              "surname": "Gioiosa",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GioiosaS"
+            },
+            {
+              "surname": "Chillemi",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChillemiG"
+            },
+            {
+              "surname": "D’Antonio",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "D’AntonioM"
+            },
+            {
+              "surname": "Flati",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FlatiT"
+            },
+            {
+              "surname": "Picardi",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PicardiE"
+            },
+            {
+              "surname": "Zambelli",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZambelliF"
+            },
+            {
+              "surname": "Horner",
+              "givenNames": "DS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HornerDS"
+            },
+            {
+              "surname": "Pesole",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PesoleG"
+            },
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "ChiaraMGioiosaSChillemiGD’AntonioMFlatiTPicardiEZambelliFHornerDSPesoleGCastrignanòTCoVaCS: a consensus variant calling systemBMC Genom201810.1186/s12864-018-4508-1PMC580002329402227",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12864-018-4508-1"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5800023"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29402227"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12864-018-4508-1"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5800023"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29402227"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR32",
+      "position": 31,
+      "title": "Network-guided modeling allows tumor-type independent prediction of sensitivity to all-trans-retinoic acid",
+      "source": "Ann Oncol",
+      "year": "2017",
+      "citationAttributes": {
+        "id": "ec-CR32",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bolis",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BolisM"
+            },
+            {
+              "surname": "Garattini",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GarattiniE"
+            },
+            {
+              "surname": "Paroni",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ParoniG"
+            },
+            {
+              "surname": "Zanetti",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZanettiA"
+            },
+            {
+              "surname": "Kurosaki",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KurosakiM"
+            },
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            },
+            {
+              "surname": "Garattini",
+              "givenNames": "SK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GarattiniSK"
+            },
+            {
+              "surname": "Biancardi",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BiancardiF"
+            },
+            {
+              "surname": "Barzago",
+              "givenNames": "MM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarzagoMM"
+            },
+            {
+              "surname": "Gianni’",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Gianni’M"
+            },
+            {
+              "surname": "Terao",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TeraoM"
+            },
+            {
+              "surname": "Pattini",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PattiniL"
+            },
+            {
+              "surname": "Fratelli",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FratelliM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "611"
+        ],
+        "lpage": [
+          "621"
+        ]
+      },
+      "originalCitationText": "BolisMGarattiniEParoniGZanettiAKurosakiMCastrignanòTGarattiniSKBiancardiFBarzagoMMGianni’MTeraoMPattiniLFratelliMNetwork-guided modeling allows tumor-type independent prediction of sensitivity to all-trans-retinoic acidAnn Oncol201728361162110.1093/annonc/mdw66027993792PMC5834014",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/annonc/mdw660"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27993792"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5834014"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27993792"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/annonc/mdw660"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5834014"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR33",
+      "position": 32,
+      "title": "De novo genome assembly and transcriptome sequencing in foot and mantle tissues of Megaustenia siamensis reveals components of adhesive substances",
+      "source": "Sci Rep",
+      "year": "2024",
+      "citationAttributes": {
+        "id": "ec-CR33",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chetruengchai",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChetruengchaiW"
+            },
+            {
+              "surname": "Jirapatrasilp",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JirapatrasilpP"
+            },
+            {
+              "surname": "Srichomthong",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SrichomthongC"
+            },
+            {
+              "surname": "Assawapitaksakul",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AssawapitaksakulA"
+            },
+            {
+              "surname": "Pholyotha",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PholyothaA"
+            },
+            {
+              "surname": "Tongkerd",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TongkerdP"
+            },
+            {
+              "surname": "Shotelersuk",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShotelersukV"
+            },
+            {
+              "surname": "Panha",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PanhaS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "13756"
+        ]
+      },
+      "originalCitationText": "ChetruengchaiWJirapatrasilpPSrichomthongCAssawapitaksakulAPholyothaATongkerdPShotelersukVPanhaSDe novo genome assembly and transcriptome sequencing in foot and mantle tissues of Megaustenia siamensis reveals components of adhesive substancesSci Rep20241411375610.1038/s41598-024-64425-638877053PMC11178922",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41598-024-64425-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38877053"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11178922"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38877053"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41598-024-64425-6"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11178922"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR34",
+      "position": 33,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pinna V, Di Martino J, Liberati F, Bottoni P, Castrignanò T. IGUANER-differential gene expression and functional analyzer. In: BDA 2023. LNCS, vol. 14516, pp. 78–93. Springer, Berlin. 2024. 10.1007/978-3-031-58502-9_5.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR35",
+      "position": 34,
+      "title": "ExpEdit: a webserver to explore human RNA editing in RNA-Seq experiments",
+      "source": "Bioinformatics",
+      "year": "2011",
+      "citationAttributes": {
+        "id": "ec-CR35",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Picardi",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PicardiE"
+            },
+            {
+              "surname": "D’Antonio",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "D’AntonioM"
+            },
+            {
+              "surname": "Carrabino",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CarrabinoD"
+            },
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            },
+            {
+              "surname": "Pesole",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PesoleG"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "issue": [
+          "9"
+        ],
+        "fpage": [
+          "1311"
+        ],
+        "lpage": [
+          "1312"
+        ]
+      },
+      "originalCitationText": "PicardiED’AntonioMCarrabinoDCastrignanòTPesoleGExpEdit: a webserver to explore human RNA editing in RNA-Seq experimentsBioinformatics20112791311131210.1093/bioinformatics/btr11721427194",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btr117"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21427194"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21427194"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btr117"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR36",
+      "position": 35,
+      "title": "High-resolution shotgun metagenomics: the more data, the better?",
+      "source": "Brief Bioinform",
+      "year": "2022",
+      "citationAttributes": {
+        "id": "ec-CR36",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tremblay",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TremblayJ"
+            },
+            {
+              "surname": "Schreiber",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchreiberL"
+            },
+            {
+              "surname": "Greer",
+              "givenNames": "CW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GreerCW"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "443"
+        ]
+      },
+      "originalCitationText": "TremblayJSchreiberLGreerCWHigh-resolution shotgun metagenomics: the more data, the better?Brief Bioinform202223644310.1093/bib/bbac44336352504",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bib/bbac443"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36352504"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bib/bbac443"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36352504"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR37",
+      "position": 36,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cervi GH, Flores CD, Thompson CE. Metagenomic analysis: a pathway toward efficiency using high-performance computing. In: ICICT 2021. Lecture notes in networks and systems, vol. 236, pp. 555–565. Springer, Singapore; 2022. 10.1007/978-981-16-2380-6_49.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR38",
+      "position": 37,
+      "title": "Molecular dynamics investigations of human DNA-topoisomerase I interacting with novel dewar valence photo-adducts: insights into inhibitory activity",
+      "source": "Int J Mol Sci.",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR38",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Martino",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MartinoJD"
+            },
+            {
+              "surname": "Castrignano",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanoT"
+            },
+            {
+              "surname": "Arcieri",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ArcieriM"
+            },
+            {
+              "surname": "Madeddu",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MadedduF"
+            },
+            {
+              "surname": "Pieroni",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PieroniM"
+            },
+            {
+              "surname": "Carotenuto",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CarotenutoG"
+            },
+            {
+              "surname": "Bottoni",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BottoniP"
+            },
+            {
+              "surname": "Botta",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BottaL"
+            },
+            {
+              "surname": "Gabellone",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GabelloneS"
+            },
+            {
+              "surname": "Saladino",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SaladinoR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "MartinoJDCastrignanoTArcieriMMadedduFPieroniMCarotenutoGBottoniPBottaLGabelloneSSaladinoRMolecular dynamics investigations of human DNA-topoisomerase I interacting with novel dewar valence photo-adducts: insights into inhibitory activityInt J Mol Sci.202310.3390/ijms2501023438203410PMC10778928",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/ijms25010234"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38203410"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10778928"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38203410"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/ijms25010234"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10778928"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR39",
+      "position": 38,
+      "title": "The MEPS server for identifying protein conformational epitopes",
+      "source": "BMC Bioinform",
+      "year": "2007",
+      "citationAttributes": {
+        "id": "ec-CR39",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            },
+            {
+              "surname": "Meo",
+              "givenNames": "PDD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeoPDD"
+            },
+            {
+              "surname": "Carrabino",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CarrabinoD"
+            },
+            {
+              "surname": "Orsini",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OrsiniM"
+            },
+            {
+              "surname": "Floris",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FlorisM"
+            },
+            {
+              "surname": "Tramontano",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TramontanoA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "issue": [
+          "S1"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "5"
+        ]
+      },
+      "originalCitationText": "CastrignanòTMeoPDDCarrabinoDOrsiniMFlorisMTramontanoAThe MEPS server for identifying protein conformational epitopesBMC Bioinform20078S11510.1186/1471-2105-8-s1-s6PMC188585817430573",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/1471-2105-8-s1-s6"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1885858"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17430573"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/1471-2105-8-s1-s6"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1885858"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17430573"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR40",
+      "position": 39,
+      "title": "Molecular dynamics simulation of the RNA complex of a double-stranded RNA-binding domain reveals dynamic features of the intermolecular interface and its hydration",
+      "source": "Biophys J",
+      "year": "2002",
+      "citationAttributes": {
+        "id": "ec-CR40",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            },
+            {
+              "surname": "Chillemi",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChillemiG"
+            },
+            {
+              "surname": "Varani",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VaraniG"
+            },
+            {
+              "surname": "Desideri",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DesideriA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "83"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "3542"
+        ],
+        "lpage": [
+          "3552"
+        ]
+      },
+      "originalCitationText": "CastrignanòTChillemiGVaraniGDesideriAMolecular dynamics simulation of the RNA complex of a double-stranded RNA-binding domain reveals dynamic features of the intermolecular interface and its hydrationBiophys J20028363542355210.1016/S0006-3495(02)75354-X12496121PMC1302429",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0006-3495(02)75354-X"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12496121"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1302429"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12496121"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0006-3495(02)75354-X"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1302429"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR41",
+      "position": 40,
+      "title": "Structure and hydration of BamHI DNA recognition site: a molecular dynamics investigation",
+      "source": "Biophys J",
+      "year": "2000",
+      "citationAttributes": {
+        "id": "ec-CR41",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            },
+            {
+              "surname": "Chillemi",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChillemiG"
+            },
+            {
+              "surname": "Desideri",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DesideriA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "79"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "1263"
+        ],
+        "lpage": [
+          "1272"
+        ]
+      },
+      "originalCitationText": "CastrignanòTChillemiGDesideriAStructure and hydration of BamHI DNA recognition site: a molecular dynamics investigationBiophys J20007931263127210.1016/S0006-3495(00)76380-610968990PMC1301022",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0006-3495(00)76380-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10968990"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1301022"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10968990"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0006-3495(00)76380-6"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1301022"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR42",
+      "position": 41,
+      "title": "MD-ligand-receptor: a high-performance computing tool for characterizing ligand-receptor binding interactions in molecular dynamics trajectories",
+      "source": "Int J Mol Sci",
+      "year": "2023",
+      "citationAttributes": {
+        "id": "ec-CR42",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pieroni",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PieroniM"
+            },
+            {
+              "surname": "Madeddu",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MadedduF"
+            },
+            {
+              "surname": "Di Martino",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Di MartinoJ"
+            },
+            {
+              "surname": "Arcieri",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ArcieriM"
+            },
+            {
+              "surname": "Parisi",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ParisiV"
+            },
+            {
+              "surname": "Bottoni",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BottoniP"
+            },
+            {
+              "surname": "Castrignanò",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CastrignanòT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "issue": [
+          "14"
+        ],
+        "fpage": [
+          "11671"
+        ]
+      },
+      "originalCitationText": "PieroniMMadedduFDi MartinoJArcieriMParisiVBottoniPCastrignanòTMD-ligand-receptor: a high-performance computing tool for characterizing ligand-receptor binding interactions in molecular dynamics trajectoriesInt J Mol Sci202324141167110.3390/ijms24141167137511429PMC10380688",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/ijms241411671"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37511429"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10380688"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37511429"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/ijms241411671"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10380688"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR43",
+      "position": 42,
+      "title": "GPU-BLAST: using graphics processors to accelerate protein sequence alignment",
+      "source": "Bioinformatics",
+      "year": "2011",
+      "citationAttributes": {
+        "id": "ec-CR43",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Vouzis",
+              "givenNames": "PD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VouzisPD"
+            },
+            {
+              "surname": "Sahinidis",
+              "givenNames": "NV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SahinidisNV"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "issue": [
+          "2"
+        ],
+        "fpage": [
+          "182"
+        ],
+        "lpage": [
+          "188"
+        ]
+      },
+      "originalCitationText": "VouzisPDSahinidisNVGPU-BLAST: using graphics processors to accelerate protein sequence alignmentBioinformatics201127218218810.1093/bioinformatics/btq64421088027PMC3018811",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btq644"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21088027"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3018811"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21088027"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btq644"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3018811"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR44",
+      "position": 43,
+      "title": "CuBLASTP: fine-grained parallelization of protein sequence search on CPU+GPU",
+      "source": "IEEE/ACM Trans Comput Biol Bioinf",
+      "year": "2017",
+      "citationAttributes": {
+        "id": "ec-CR44",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zhang",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangJ"
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangH"
+            },
+            {
+              "surname": "Feng",
+              "givenNames": "W-C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FengW-C"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "830"
+        ],
+        "lpage": [
+          "843"
+        ]
+      },
+      "originalCitationText": "ZhangJWangHFengW-CCuBLASTP: fine-grained parallelization of protein sequence search on CPU+GPUIEEE/ACM Trans Comput Biol Bioinf201714483084310.1109/TCBB.2015.248966226469393",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/TCBB.2015.2489662"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26469393"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/TCBB.2015.2489662"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26469393"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR45",
+      "position": 44,
+      "title": "Scaling bioinformatics applications on HPC",
+      "source": "BMC Bioinform",
+      "year": "2017",
+      "citationAttributes": {
+        "id": "ec-CR45",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Mikailov",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MikailovM"
+            },
+            {
+              "surname": "Luo",
+              "givenNames": "F-J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuoF-J"
+            },
+            {
+              "surname": "Barkley",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarkleyS"
+            },
+            {
+              "surname": "Valleru",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ValleruL"
+            },
+            {
+              "surname": "Whitney",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WhitneyS"
+            },
+            {
+              "surname": "Liu",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuZ"
+            },
+            {
+              "surname": "Thakkar",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThakkarS"
+            },
+            {
+              "surname": "Tong",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TongW"
+            },
+            {
+              "surname": "Petrick",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PetrickN"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "MikailovMLuoF-JBarkleySValleruLWhitneySLiuZThakkarSTongWPetrickNScaling bioinformatics applications on HPCBMC Bioinform201710.1186/s12859-017-1902-7PMC575178829297287",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12859-017-1902-7"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5751788"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29297287"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12859-017-1902-7"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5751788"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29297287"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR46",
+      "position": 45,
+      "title": "Divide and conquer (DC) BLAST: fast and easy BLAST execution within HPC environments",
+      "source": "PeerJ",
+      "year": "2017",
+      "citationAttributes": {
+        "id": "ec-CR46",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yim",
+              "givenNames": "WC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YimWC"
+            },
+            {
+              "surname": "Cushman",
+              "givenNames": "JC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CushmanJC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "YimWCCushmanJCDivide and conquer (DC) BLAST: fast and easy BLAST execution within HPC environmentsPeerJ201710.7717/peerj.348628652936PMC5483034",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.7717/peerj.3486"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28652936"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5483034"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28652936"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.7717/peerj.3486"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5483034"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR46",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR47",
+      "position": 46,
+      "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+      "source": "Nat Methods",
+      "year": "2021",
+      "citationAttributes": {
+        "id": "ec-CR47",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Buchfink",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BuchfinkB"
+            },
+            {
+              "surname": "Reuter",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ReuterK"
+            },
+            {
+              "surname": "Drost",
+              "givenNames": "H-G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DrostH-G"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "366"
+        ],
+        "lpage": [
+          "368"
+        ]
+      },
+      "originalCitationText": "BuchfinkBReuterKDrostH-GSensitive protein alignments at tree-of-life scale using DIAMONDNat Methods202118436636810.1038/s41592-021-01101-x33828273PMC8026399",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41592-021-01101-x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33828273"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8026399"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33828273"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41592-021-01101-x"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8026399"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR47",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR48",
+      "position": 47,
+      "title": "AC-DIAMOND v1: accelerating large-scale DNA-protein alignment",
+      "source": "Bioinformatics",
+      "year": "2018",
+      "citationAttributes": {
+        "id": "ec-CR48",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Mai",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaiH"
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangY"
+            },
+            {
+              "surname": "Li",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiD"
+            },
+            {
+              "surname": "Leung",
+              "givenNames": "HC-M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeungHC-M"
+            },
+            {
+              "surname": "Luo",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuoR"
+            },
+            {
+              "surname": "Wong",
+              "givenNames": "C-K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WongC-K"
+            },
+            {
+              "surname": "Ting",
+              "givenNames": "H-F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TingH-F"
+            },
+            {
+              "surname": "Lam",
+              "givenNames": "T-W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LamT-W"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "issue": [
+          "21"
+        ],
+        "fpage": [
+          "3744"
+        ],
+        "lpage": [
+          "3746"
+        ]
+      },
+      "originalCitationText": "MaiHZhangYLiDLeungHC-MLuoRWongC-KTingH-FLamT-WAC-DIAMOND v1: accelerating large-scale DNA-protein alignmentBioinformatics201834213744374610.1093/bioinformatics/bty39129771282",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/bty391"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29771282"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29771282"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/bty391"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR48",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR49",
+      "position": 48,
+      "title": "Rapid protein alignment in the cloud: HAMOND combines fast DIAMOND alignments with Hadoop parallelism",
+      "source": "J Biotechnol",
+      "year": "2017",
+      "citationAttributes": {
+        "id": "ec-CR49",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yu",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YuJ"
+            },
+            {
+              "surname": "Blom",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BlomJ"
+            },
+            {
+              "surname": "Sczyrba",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SczyrbaA"
+            },
+            {
+              "surname": "Goesmann",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GoesmannA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "257"
+        ],
+        "fpage": [
+          "58"
+        ],
+        "lpage": [
+          "60"
+        ]
+      },
+      "originalCitationText": "YuJBlomJSczyrbaAGoesmannARapid protein alignment in the cloud: HAMOND combines fast DIAMOND alignments with Hadoop parallelismJ Biotechnol2017257586010.1016/j.jbiotec.2017.02.02028232083",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.jbiotec.2017.02.020"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28232083"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28232083"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.jbiotec.2017.02.020"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR49",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR50",
+      "position": 49,
+      "title": "BlastGUI: a python-based cross-platform local BLAST visualization software",
+      "source": "Mol Inf",
+      "year": "2019",
+      "citationAttributes": {
+        "id": "ec-CR50",
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Du",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DuZ"
+            },
+            {
+              "surname": "Wu",
+              "givenNames": "Q",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WuQ"
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangT"
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenD"
+            },
+            {
+              "surname": "Huang",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuangX"
+            },
+            {
+              "surname": "Yang",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YangW"
+            },
+            {
+              "surname": "Luo",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuoW"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "DuZWuQWangTChenDHuangXYangWLuoWBlastGUI: a python-based cross-platform local BLAST visualization softwareMol Inf201910.1002/minf.20190012031650686",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/minf.201900120"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31650686"
+        },
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/minf.201900120"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31650686"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11340092/article.xml",
+        "articleSha256": "29d9ec07d7b84da2ae85855ad9305f2e4b004da05ae7c0a4d08275fbe18753c2",
+        "referenceId": "CR50",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "BMC Bioinformatics"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "BMC Bioinformatics"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "BMC Bioinformatics"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "13"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "bmcbioi"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "100965194"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "1471-2105"
+      }
+    ],
+    "publisherNames": [
+      "BMC"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "25"
+    ],
+    "elocation-id": [
+      "272"
+    ]
+  }
+}

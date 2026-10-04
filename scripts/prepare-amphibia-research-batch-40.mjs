@@ -1,0 +1,15 @@
+import fs from 'node:fs'
+import { prepareAmphibianResearchInput } from './prepare-amphibia-research-input.mjs'
+const sourceFile = 'data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7892535/crossref.json'
+const crossref = JSON.parse(fs.readFileSync(sourceFile)).message
+const citation = { pmc: 'PMC7892535', year: 2021, authors: crossref.author.map(a => `${a.given} ${a.family}`), authorMetadataEvidence: { provider: 'Crossref DOI registration', sourceFile, originalXmlAuthorStringsRetained: true, scope: 'Citation names; XML correspondence marker retained separately.' }, readScope: 'Species habitat, distribution and natural-history account' }
+prepareAmphibianResearchInput([
+  { colId: '6WNGJ', name: 'Ptychadena erlangeri', ...citation, sections: [
+    ['distribution', 'Highland records with a southwestern exception', '高地记录与西南例外', 'The revision reported populations on both sides of Ethiopia’s Great Rift Valley. An elevation interval of 2387–3394 m was based on 156 barcoded individuals, while a few southwestern individuals between Tippi and Gech’a were reported at 2270 m. The exceptional lower locality is retained separately, without replacing it with a claim that every population occurs within the barcoded-sample interval.', '修订报告埃塞俄比亚大裂谷两侧种群。2387—3394 米海拔区间基于 156 只条形码鉴定个体，另有 Tippi 与 Gech’a 之间少数西南个体记录于 2270 米。较低例外地点分别保留，不改写为每个种群都在条形码样本区间内。'],
+    ['reproduction', 'Rain-associated calling and water-body eggs', '与降雨相关的鸣叫及水体卵', 'Males called in shallow puddles, flooded grassland or agricultural fields, often close together. Calling was greatest in rainy months, usually starting after 22:00 but sometimes as late as 02:00 in dry weather, and ending before dawn. The account reported numerous small bicolored eggs in the same water body, without supplying clutch counts or development duration.', '雄性在浅水坑、积水草地或农田鸣叫，常彼此靠近。雨季月份鸣叫最多，通常 22:00 后开始，干燥天气有时迟至 02:00，黎明前结束。记述报告同一水体中的许多小型双色卵，但未提供窝卵数或发育时长。']
+  ] },
+  { colId: '4Q9R2', name: 'Ptychadena nana', ...citation, sections: [
+    ['distribution', 'Eastern Arussi Plateau records and unconfirmed extension', 'Arussi 高原东部记录与未确认扩展', 'The revision reported eastern Arussi Plateau localities in Oromia, Ethiopia, at 2380–2850 m. It suggested possible occurrence farther toward Barbari because no physical barrier was apparent. That inferred extension is kept distinct from examined locality records and does not establish continuous occupancy or a physiological elevation range.', '修订报告埃塞俄比亚 Oromia 的 Arussi 高原东部海拔 2380—2850 米地点，并因没有明显物理屏障而提出可能向 Barbari 延伸。这一推测扩展与已检查地点记录分别保留，不能确立连续占据或生理海拔范围。'],
+    ['reproduction', 'Night calling from grassy roadside puddles', '草覆盖路旁水坑中的夜间鸣叫', 'Males were found calling at night, often in large observed numbers, from shallow roadside puddles usually overgrown with grass. The qualitative encounter count is not a standardized abundance estimate; the calling observation does not establish egg-deposition sites or the full annual breeding calendar.', '雄性夜间在通常长满草的路旁浅水坑鸣叫，观察数量常较多。定性发现数量不是标准化丰度估计；鸣叫观察不能确立产卵地点或完整年度繁殖日历。']
+  ] }
+])

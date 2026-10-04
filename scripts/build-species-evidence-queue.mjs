@@ -16,7 +16,7 @@ if (!process.argv.includes('--check')) buildContentProjections({ quiet: true })
 const RELEASE_ALIAS = 'COL26.8'
 const REGISTRY_ROOT = 'data/catalogue-of-life/releases/2026-08-20/registry'
 const REGISTRY_MANIFEST_PATH = `${REGISTRY_ROOT}/manifest.json`
-const PROFILE_PATH = 'data/knowledge/catalogue-profiles.json'
+const PROFILE_PATH = 'data/knowledge/catalogue-profiles.json.gz'
 const DOSSIER_BASE_PATH = 'data/knowledge/catalogue-dossiers.json'
 const DOSSIER_INDEX_PATH = 'data/knowledge/catalogue-dossier-shards.json'
 const OUTPUT_ROOT = 'data/knowledge/species-evidence-queue'
@@ -295,7 +295,8 @@ assert.equal(registryManifest.counts?.acceptedSpecies, acceptedSpeciesExpected, 
 const nodeFiles = registryManifest.hierarchy?.nodes?.files
 assert.ok(Array.isArray(nodeFiles) && nodeFiles.length > 0, 'Pinned registry has no hierarchy node shards')
 
-const profileBytes = readBytes(PROFILE_PATH)
+const profileEncodedBytes = readBytes(PROFILE_PATH)
+const profileBytes = gunzipSync(profileEncodedBytes)
 const profiles = JSON.parse(profileBytes.toString('utf8'))
 assert.equal(profiles.releaseAlias, RELEASE_ALIAS)
 const profileMap = new Map()
@@ -476,7 +477,8 @@ const currentManifest = {
     hierarchyNodeFiles: nodeFiles.length,
     hierarchyNodeCount: hierarchyNodeCount,
     profilePath: PROFILE_PATH,
-    profileSha256: sha256(profileBytes),
+    profileSha256: sha256(profileEncodedBytes),
+    profileDecodedSha256: sha256(profileBytes),
     profileRecordCount: profiles.records.length,
     dossierBasePath: DOSSIER_BASE_PATH,
     dossierBaseSha256: sha256(dossierBaseBytes),

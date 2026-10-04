@@ -1,0 +1,2163 @@
+{
+  "pmcid": "PMC13198384",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+  "sha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+  "articleType": "research-article",
+  "title": "AXOLOTL: an accurate method for detecting aberrant gene expression in rare diseases using coexpression constraints",
+  "authors": [
+    {
+      "name": "Wenjian Xu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Wenjian",
+        "surname": "Xu",
+        "suffix": null
+      },
+      "originalName": "XuWenjian",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0002-4304-3479"
+        }
+      ]
+    },
+    {
+      "name": "Yansheng Shen",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yansheng",
+        "surname": "Shen",
+        "suffix": null
+      },
+      "originalName": "ShenYansheng",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Xiangfu Liu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Xiangfu",
+        "surname": "Liu",
+        "suffix": null
+      },
+      "originalName": "LiuXiangfu",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Fei Leng",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Fei",
+        "surname": "Leng",
+        "suffix": null
+      },
+      "originalName": "LengFei",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0009-0005-5708-6583"
+        }
+      ]
+    },
+    {
+      "name": "Yang Liu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yang",
+        "surname": "Liu",
+        "suffix": null
+      },
+      "originalName": "LiuYang",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC13198384"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC13198384.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "13198384"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "13198384"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "42083807"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1093/bioinformatics/btag255"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "btag255"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "collection",
+      "year": "2026",
+      "month": "5",
+      "day": null
+    },
+    {
+      "pub-type": "epub",
+      "iso-8601-date": "2026-05-04",
+      "year": "2026",
+      "month": "5",
+      "day": "04"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "sup1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "btag255_supplementary_data.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "btag255_supplementary_data.zip",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "btag255-B1",
+      "position": 0,
+      "title": "OUTRIDER: a statistical method for detecting aberrantly expressed genes in RNA sequencing data",
+      "source": "Am J Hum Genet",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Brechtmann",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Brechtmann\nF"
+            },
+            {
+              "surname": "Mertes",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MertesC"
+            },
+            {
+              "surname": "Matusevičiūtė",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MatusevičiūtėA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "103"
+        ],
+        "fpage": [
+          "907"
+        ],
+        "lpage": [
+          "17"
+        ]
+      },
+      "originalCitationText": "Brechtmann\nF\n, MertesC, MatusevičiūtėA  et al  OUTRIDER: a statistical method for detecting aberrantly expressed genes in RNA sequencing data. Am J Hum Genet  2018;103:907–17.30503520\n10.1016/j.ajhg.2018.10.025PMC6288422",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30503520"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.ajhg.2018.10.025"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6288422"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B2",
+      "position": 1,
+      "title": "Improving genetic diagnosis in mendelian disease with transcriptome sequencing",
+      "source": "Sci Transl Med",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Cummings",
+              "givenNames": "BB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Cummings\nBB"
+            },
+            {
+              "surname": "Marshall",
+              "givenNames": "JL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MarshallJL"
+            },
+            {
+              "surname": "Tukiainen",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TukiainenT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "11"
+        ]
+      },
+      "originalCitationText": "Cummings\nBB\n, MarshallJL, TukiainenT  et al; Genotype-Tissue Expression Consortium. Improving genetic diagnosis in mendelian disease with transcriptome sequencing. Sci Transl Med  2017;9: 1–11.10.1126/scitranslmed.aal5209PMC554842128424332",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/scitranslmed.aal5209"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5548421"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28424332"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B3",
+      "position": 2,
+      "title": "Web-accessible application for identifying pathogenic transcripts with RNA-seq: increased sensitivity in diagnosis of neurodevelopmental disorders",
+      "source": "Am J Hum Genet",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dekker",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Dekker\nJ"
+            },
+            {
+              "surname": "Schot",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchotR"
+            },
+            {
+              "surname": "Bongaerts",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BongaertsM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "110"
+        ],
+        "fpage": [
+          "251"
+        ],
+        "lpage": [
+          "72"
+        ]
+      },
+      "originalCitationText": "Dekker\nJ\n, SchotR, BongaertsM  et al  Web-accessible application for identifying pathogenic transcripts with RNA-seq: increased sensitivity in diagnosis of neurodevelopmental disorders. Am J Hum Genet  2023;110:251–72.36669495\n10.1016/j.ajhg.2022.12.015PMC9943747",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36669495"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.ajhg.2022.12.015"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9943747"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B4",
+      "position": 3,
+      "title": "Transcriptomic signatures across human tissues identify functional rare genetic variation",
+      "source": "Science (1979)",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ferraro",
+              "givenNames": "NM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Ferraro\nNM"
+            },
+            {
+              "surname": "Strober",
+              "givenNames": "BJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StroberBJ"
+            },
+            {
+              "surname": "Einson",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EinsonJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "369"
+        ],
+        "fpage": [
+          "eaaz5900:1"
+        ],
+        "lpage": [
+          "13"
+        ]
+      },
+      "originalCitationText": "Ferraro\nNM\n, StroberBJ, EinsonJ  et al; GTEx Consortium. Transcriptomic signatures across human tissues identify functional rare genetic variation. Science (1979)  2020;369:eaaz5900:1–13.10.1126/science.aaz5900PMC764625132913073",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/science.aaz5900"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7646251"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32913073"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B5",
+      "position": 4,
+      "title": "Identification of rare-disease genes using blood transcriptome sequencing and large control cohorts",
+      "source": "Nat Med",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Frésard",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Frésard\nL"
+            },
+            {
+              "surname": "Smail",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SmailC"
+            },
+            {
+              "surname": "Ferraro",
+              "givenNames": "NM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FerraroNM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "911"
+        ],
+        "lpage": [
+          "9"
+        ]
+      },
+      "originalCitationText": "Frésard\nL\n, SmailC, FerraroNM  et al; Care4Rare Canada Consortium. Identification of rare-disease genes using blood transcriptome sequencing and large control cohorts. Nat Med  2019;25:911–9.31160820\n10.1038/s41591-019-0457-8PMC6634302",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "31160820"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41591-019-0457-8"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6634302"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B6",
+      "position": 5,
+      "title": "Genetic effects on gene expression across human tissues",
+      "source": "Nature",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "550"
+        ],
+        "fpage": [
+          "204"
+        ],
+        "lpage": [
+          "13"
+        ]
+      },
+      "originalCitationText": "GTEx Consortium. Genetic effects on gene expression across human tissues. Nature  2017;550:204–13.29022597\n10.1038/nature24277PMC5776756",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29022597"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nature24277"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5776756"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B7",
+      "position": 6,
+      "title": "Transcriptome analysis of collagen VI‐related muscular dystrophy muscle biopsies",
+      "source": "Ann Clin Transl Neurol",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Guadagnin",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Guadagnin\nE"
+            },
+            {
+              "surname": "Mohassel",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MohasselP"
+            },
+            {
+              "surname": "Johnson",
+              "givenNames": "KR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JohnsonKR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "2184"
+        ],
+        "lpage": [
+          "98"
+        ]
+      },
+      "originalCitationText": "Guadagnin\nE\n, MohasselP, JohnsonKR  et al  Transcriptome analysis of collagen VI‐related muscular dystrophy muscle biopsies. Ann Clin Transl Neurol  2021;8:2184–98.34729958\n10.1002/acn3.51450PMC8607456",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "34729958"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1002/acn3.51450"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8607456"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B8",
+      "position": 7,
+      "title": "LeafCutterMD: an algorithm for outlier splicing detection in rare diseases",
+      "source": "Bioinformatics",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Jenkinson",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Jenkinson\nG"
+            },
+            {
+              "surname": "Li",
+              "givenNames": "YI",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiYI"
+            },
+            {
+              "surname": "Basu",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BasuS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "36"
+        ],
+        "fpage": [
+          "4609"
+        ],
+        "lpage": [
+          "15"
+        ]
+      },
+      "originalCitationText": "Jenkinson\nG\n, LiYI, BasuS  et al  LeafCutterMD: an algorithm for outlier splicing detection in rare diseases. Bioinformatics  2020;36:4609–15.32315392\n10.1093/bioinformatics/btaa259PMC7750945",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "32315392"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/btaa259"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7750945"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B9",
+      "position": 8,
+      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+      "source": "Nature",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Karczewski",
+              "givenNames": "KJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Karczewski\nKJ"
+            },
+            {
+              "surname": "Francioli",
+              "givenNames": "LC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FrancioliLC"
+            },
+            {
+              "surname": "Tiao",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TiaoG"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "581"
+        ],
+        "fpage": [
+          "434"
+        ],
+        "lpage": [
+          "43"
+        ]
+      },
+      "originalCitationText": "Karczewski\nKJ\n, FrancioliLC, TiaoG  et al; Genome Aggregation Database Consortium. The mutational constraint spectrum quantified from variation in 141,456 humans. Nature  2020;581:434–43.32461654\n10.1038/s41586-020-2308-7PMC7334197",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "32461654"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41586-020-2308-7"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7334197"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B10",
+      "position": 9,
+      "title": "Genetic diagnosis of mendelian disorders via RNA sequencing",
+      "source": "Nat Commun",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kremer",
+              "givenNames": "LS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Kremer\nLS"
+            },
+            {
+              "surname": "Bader",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BaderDM"
+            },
+            {
+              "surname": "Mertes",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MertesC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "15824"
+        ]
+      },
+      "originalCitationText": "Kremer\nLS\n, BaderDM, MertesC  et al  Genetic diagnosis of mendelian disorders via RNA sequencing. Nat Commun  2017;8:15824.28604674\n10.1038/ncomms15824PMC5499207",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "28604674"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/ncomms15824"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5499207"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B11",
+      "position": 10,
+      "title": "ABEILLE: a novel method for ABerrant expression identification empLoying machine LEarning from RNA-sequencing data",
+      "source": "Bioinformatics",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Labory",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Labory\nJ"
+            },
+            {
+              "surname": "Le Bideau",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Le BideauG"
+            },
+            {
+              "surname": "Pratella",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PratellaD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "38"
+        ],
+        "fpage": [
+          "4754"
+        ],
+        "lpage": [
+          "61"
+        ]
+      },
+      "originalCitationText": "Labory\nJ\n, Le BideauG, PratellaD  et al  ABEILLE: a novel method for ABerrant expression identification empLoying machine LEarning from RNA-sequencing data. Bioinformatics  2022;38:4754–61.36063052\n10.1093/bioinformatics/btac603PMC9563686",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36063052"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/btac603"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9563686"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B12",
+      "position": 11,
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "source": "BMC Bioinformatics",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Langfelder",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Langfelder\nP"
+            },
+            {
+              "surname": "Horvath",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HorvathS."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "559"
+        ]
+      },
+      "originalCitationText": "Langfelder\nP\n, HorvathS.  WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics  2008;9:559.19114008\n10.1186/1471-2105-9-559PMC2631488",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "19114008"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/1471-2105-9-559"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2631488"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B13",
+      "position": 12,
+      "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+      "source": "Genome Biol",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Love",
+              "givenNames": "MI",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Love\nMI"
+            },
+            {
+              "surname": "Huber",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuberW"
+            },
+            {
+              "surname": "Anders",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AndersS."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "550"
+        ]
+      },
+      "originalCitationText": "Love\nMI\n, HuberW, AndersS.  Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol  2014;15:550.25516281\n10.1186/s13059-014-0550-8PMC4302049",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "25516281"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s13059-014-0550-8"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4302049"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B14",
+      "position": 13,
+      "title": null,
+      "source": "Advances in Neural Information Processing Systems",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lundberg",
+              "givenNames": "SM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Lundberg\nSM"
+            },
+            {
+              "surname": "Lee",
+              "givenNames": "SI.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeeSI."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "publisher-name": [
+          "Curran Associates, Inc"
+        ]
+      },
+      "originalCitationText": "Lundberg\nSM\n, LeeSI.  A unified approach to interpreting model predictions. In: Advances in Neural Information Processing Systems, Vol. 30. Red Hook, NY, USA: Curran Associates, Inc., 2017.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B15",
+      "position": 14,
+      "title": "Detection of aberrant splicing events in RNA-seq data using FRASER",
+      "source": "Nat Commun",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Mertes",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Mertes\nC"
+            },
+            {
+              "surname": "Scheller",
+              "givenNames": "IF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchellerIF"
+            },
+            {
+              "surname": "Yépez",
+              "givenNames": "VA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YépezVA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "529"
+        ]
+      },
+      "originalCitationText": "Mertes\nC\n, SchellerIF, YépezVA  et al  Detection of aberrant splicing events in RNA-seq data using FRASER. Nat Commun  2021;12:529.33483494\n10.1038/s41467-020-20573-7PMC7822922",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "33483494"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41467-020-20573-7"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7822922"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B16",
+      "position": 15,
+      "title": "Transcriptome-directed analysis for mendelian disease diagnosis overcomes limitations of conventional genomic testing",
+      "source": "J Clin Invest",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Murdock",
+              "givenNames": "DR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Murdock\nDR"
+            },
+            {
+              "surname": "Dai",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DaiH"
+            },
+            {
+              "surname": "Burrage",
+              "givenNames": "LC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BurrageLC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "131"
+        ],
+        "fpage": [
+          "e141500"
+        ]
+      },
+      "originalCitationText": "Murdock\nDR\n, DaiH, BurrageLC  et al; Undiagnosed Diseases Network. Transcriptome-directed analysis for mendelian disease diagnosis overcomes limitations of conventional genomic testing. J Clin Invest  2021;131:e141500.33001864\n10.1172/JCI141500PMC7773386",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "33001864"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1172/JCI141500"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7773386"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B17",
+      "position": 16,
+      "title": "GeneFriends: gene co-expression databases and tools for humans and model organisms",
+      "source": "Nucleic Acids Res",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Raina",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Raina\nP"
+            },
+            {
+              "surname": "Guinea",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuineaR"
+            },
+            {
+              "surname": "Chatsirisupachai",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChatsirisupachaiK"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "51"
+        ],
+        "fpage": [
+          "D145"
+        ],
+        "lpage": [
+          "58"
+        ]
+      },
+      "originalCitationText": "Raina\nP\n, GuineaR, ChatsirisupachaiK  et al  GeneFriends: gene co-expression databases and tools for humans and model organisms. Nucleic Acids Res  2023;51:D145–58.36454018\n10.1093/nar/gkac1031PMC9825523",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36454018"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/nar/gkac1031"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9825523"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B18",
+      "position": 17,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ribeiro",
+              "givenNames": "MT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Ribeiro\nMT"
+            },
+            {
+              "surname": "Singh",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SinghS"
+            },
+            {
+              "surname": "Guestrin",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuestrinC."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2016"
+        ],
+        "fpage": [
+          "1135"
+        ],
+        "lpage": [
+          "44"
+        ]
+      },
+      "originalCitationText": "Ribeiro\nMT\n, SinghS, GuestrinC. ‘Why should i trust you?’: explaining the predictions of any classifier. In: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (New York, NY, USA) KDD ’16, 13 Aug. 2016, 1135–44.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B19",
+      "position": 18,
+      "title": "Integrative genomics viewer",
+      "source": "Nat Biotechnol",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Robinson",
+              "givenNames": "JT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Robinson\nJT"
+            },
+            {
+              "surname": "Thorvaldsdóttir",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThorvaldsdóttirH"
+            },
+            {
+              "surname": "Winckler",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WincklerW"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "24"
+        ],
+        "lpage": [
+          "6"
+        ]
+      },
+      "originalCitationText": "Robinson\nJT\n, ThorvaldsdóttirH, WincklerW  et al  Integrative genomics viewer. Nat Biotechnol  2011;29:24–6.21221095\n10.1038/nbt.1754PMC3346182",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "21221095"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nbt.1754"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3346182"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B20",
+      "position": 19,
+      "title": "A comprehensive evaluation of module detection methods for gene expression data",
+      "source": "Nat Commun",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Saelens",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Saelens\nW"
+            },
+            {
+              "surname": "Cannoodt",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CannoodtR"
+            },
+            {
+              "surname": "Saeys",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SaeysY."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "1090"
+        ]
+      },
+      "originalCitationText": "Saelens\nW\n, CannoodtR, SaeysY.  A comprehensive evaluation of module detection methods for gene expression data. Nat Commun  2018;9:1090.29545622\n10.1038/s41467-018-03424-4PMC5854612",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29545622"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41467-018-03424-4"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5854612"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B21",
+      "position": 20,
+      "title": "OutPyR: Bayesian inference for RNA-seq outlier detection",
+      "source": "J Comput Sci",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Salkovic",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Salkovic\nE"
+            },
+            {
+              "surname": "Abbas",
+              "givenNames": "MM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AbbasMM"
+            },
+            {
+              "surname": "Belhaouari",
+              "givenNames": "SB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BelhaouariSB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "47"
+        ],
+        "fpage": [
+          "101245"
+        ]
+      },
+      "originalCitationText": "Salkovic\nE\n, AbbasMM, BelhaouariSB  et al  OutPyR: Bayesian inference for RNA-seq outlier detection. J Comput Sci  2020;47:101245.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B22",
+      "position": 21,
+      "title": "A novel bayesian outlier score based on the negative binomial distribution for detecting aberrantly expressed genes in RNA-seq gene expression count data",
+      "source": "IEEE Access",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Salkovic",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Salkovic\nE"
+            },
+            {
+              "surname": "Bensmail",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BensmailH."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "75789"
+        ],
+        "lpage": [
+          "800"
+        ]
+      },
+      "originalCitationText": "Salkovic\nE\n, BensmailH.  A novel bayesian outlier score based on the negative binomial distribution for detecting aberrantly expressed genes in RNA-seq gene expression count data. IEEE Access  2021;9:75789–800.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B23",
+      "position": 22,
+      "title": "OutSingle: a novel method of detecting and injecting outliers in RNA-Seq count data using the optimal hard threshold for singular values",
+      "source": "Bioinformatics",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Salkovic",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Salkovic\nE"
+            },
+            {
+              "surname": "Sadeghi",
+              "givenNames": "MA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SadeghiMA"
+            },
+            {
+              "surname": "Baggag",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BaggagA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "39"
+        ],
+        "fpage": [
+          "btad142"
+        ]
+      },
+      "originalCitationText": "Salkovic\nE\n, SadeghiMA, BaggagA  et al  OutSingle: a novel method of detecting and injecting outliers in RNA-Seq count data using the optimal hard threshold for singular values. Bioinformatics  2023;39:btad142.36945891\n10.1093/bioinformatics/btad142PMC10089674",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36945891"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/btad142"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10089674"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B24",
+      "position": 23,
+      "title": "Nonsense-mediated decay is highly stable across individuals and tissues",
+      "source": "Am J Hum Genet",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Teran",
+              "givenNames": "NA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Teran\nNA"
+            },
+            {
+              "surname": "Nachun",
+              "givenNames": "DC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NachunDC"
+            },
+            {
+              "surname": "Eulalio",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EulalioT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "108"
+        ],
+        "fpage": [
+          "1401"
+        ],
+        "lpage": [
+          "8"
+        ]
+      },
+      "originalCitationText": "Teran\nNA\n, NachunDC, EulalioT  et al  Nonsense-mediated decay is highly stable across individuals and tissues. Am J Hum Genet  2021;108:1401–8.34216550\n10.1016/j.ajhg.2021.06.008PMC8387471",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "34216550"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.ajhg.2021.06.008"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8387471"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B25",
+      "position": 24,
+      "title": "Evaluation of machine learning models on protein level inference from prioritized RNA features",
+      "source": "Brief Bioinform",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Xu",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Xu\nW"
+            },
+            {
+              "surname": "He",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HeH"
+            },
+            {
+              "surname": "Guo",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuoZ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "fpage": [
+          "bbac091"
+        ]
+      },
+      "originalCitationText": "Xu\nW\n, HeH, GuoZ  et al  Evaluation of machine learning models on protein level inference from prioritized RNA features. Brief Bioinform  2022;23:bbac091.35352096\n10.1093/bib/bbac091",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "35352096"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bib/bbac091"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B26",
+      "position": 25,
+      "title": "Clinical implementation of RNA sequencing for Mendelian disease diagnostics",
+      "source": "Genome Med",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yépez",
+              "givenNames": "VA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Yépez\nVA"
+            },
+            {
+              "surname": "Gusic",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GusicM"
+            },
+            {
+              "surname": "Kopajtich",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KopajtichR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "38"
+        ]
+      },
+      "originalCitationText": "Yépez\nVA\n, GusicM, KopajtichR  et al  Clinical implementation of RNA sequencing for Mendelian disease diagnostics. Genome Med  2022;14:38.35379322\n10.1186/s13073-022-01019-9PMC8981716",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "35379322"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s13073-022-01019-9"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8981716"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "btag255-B27",
+      "position": 26,
+      "title": "Detection of aberrant gene expression events in RNA sequencing data",
+      "source": "Nat Protoc",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yepez",
+              "givenNames": "VA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Yepez\nVA"
+            },
+            {
+              "surname": "Mertes",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MertesC"
+            },
+            {
+              "surname": "Muller",
+              "givenNames": "MF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MullerMF"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "fpage": [
+          "1276"
+        ],
+        "lpage": [
+          "96"
+        ]
+      },
+      "originalCitationText": "Yepez\nVA\n, MertesC, MullerMF  et al  Detection of aberrant gene expression events in RNA sequencing data. Nat Protoc  2021;16:1276–96.33462443\n10.1038/s41596-020-00462-5",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "33462443"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41596-020-00462-5"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13198384/article.xml",
+        "articleSha256": "424826a991a52bee6d0f2803093fc5f46dd6f505e2aa1eb7ea141dead795a57e",
+        "referenceId": "btag255-B27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Bioinformatics"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Bioinformatics"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Bioinformatics"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "716"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "bioinfo"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "9808944"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "bioinformatics"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "ppub",
+        "value": "1367-4803"
+      },
+      {
+        "pub-type": "epub",
+        "value": "1367-4811"
+      }
+    ],
+    "publisherNames": [
+      "Oxford University Press"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "42"
+    ],
+    "issue": [
+      "5"
+    ],
+    "elocation-id": [
+      "btag255"
+    ]
+  }
+}

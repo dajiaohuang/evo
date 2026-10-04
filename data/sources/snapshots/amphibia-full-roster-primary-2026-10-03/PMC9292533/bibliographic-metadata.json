@@ -1,0 +1,5195 @@
+{
+  "pmcid": "PMC9292533",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+  "sha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+  "articleType": "research-article",
+  "title": "Genomic signatures of thermal adaptation are associated with clinal shifts of life history in a broadly distributed frog",
+  "authors": [
+    {
+      "name": "Hugo Cayuela",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Hugo",
+        "surname": "Cayuela",
+        "suffix": null
+      },
+      "originalName": "CayuelaHugo",
+      "attributes": {
+        "id": "jane13545-cr-0001",
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0002-3529-0736"
+        }
+      ]
+    },
+    {
+      "name": "Yann Dorant",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yann",
+        "surname": "Dorant",
+        "suffix": null
+      },
+      "originalName": "DorantYann",
+      "attributes": {
+        "id": "jane13545-cr-0002",
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0002-7295-9398"
+        }
+      ]
+    },
+    {
+      "name": "Brenna R. Forester",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Brenna R.",
+        "surname": "Forester",
+        "suffix": null
+      },
+      "originalName": "ForesterBrenna R.",
+      "attributes": {
+        "id": "jane13545-cr-0003",
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0002-1608-1904"
+        }
+      ]
+    },
+    {
+      "name": "Dan L. Jeffries",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Dan L.",
+        "surname": "Jeffries",
+        "suffix": null
+      },
+      "originalName": "JeffriesDan L.",
+      "attributes": {
+        "id": "jane13545-cr-0004",
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0003-1701-3978"
+        }
+      ]
+    },
+    {
+      "name": "Rebecca M. Mccaffery",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Rebecca M.",
+        "surname": "Mccaffery",
+        "suffix": null
+      },
+      "originalName": "MccafferyRebecca M.",
+      "attributes": {
+        "id": "jane13545-cr-0005",
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0002-0396-0387"
+        }
+      ]
+    },
+    {
+      "name": "Lisa A. Eby",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Lisa A.",
+        "surname": "Eby",
+        "suffix": null
+      },
+      "originalName": "EbyLisa A.",
+      "attributes": {
+        "id": "jane13545-cr-0006",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Blake R. Hossack",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Blake R.",
+        "surname": "Hossack",
+        "suffix": null
+      },
+      "originalName": "HossackBlake R.",
+      "attributes": {
+        "id": "jane13545-cr-0007",
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0001-7456-9564"
+        }
+      ]
+    },
+    {
+      "name": "Jérôme M. W. Gippet",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Jérôme M. W.",
+        "surname": "Gippet",
+        "suffix": null
+      },
+      "originalName": "GippetJérôme M. W.",
+      "attributes": {
+        "id": "jane13545-cr-0008",
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0002-1952-028X"
+        }
+      ]
+    },
+    {
+      "name": "David S. Pilliod",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "David S.",
+        "surname": "Pilliod",
+        "suffix": null
+      },
+      "originalName": "PilliodDavid S.",
+      "attributes": {
+        "id": "jane13545-cr-0009",
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0003-4207-3518"
+        }
+      ]
+    },
+    {
+      "name": "W. Chris Funk",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "W.",
+        "surname": "Chris Funk",
+        "suffix": null
+      },
+      "originalName": "Chris FunkW.",
+      "attributes": {
+        "id": "jane13545-cr-0010",
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0002-6466-3618"
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC9292533"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC9292533.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "9292533"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "9292533"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "34048026"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1111/1365-2656.13545"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "JANE13545"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2021",
+      "month": "6",
+      "day": "18"
+    },
+    {
+      "pub-type": "ppub",
+      "year": "2022",
+      "month": "6",
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "jane13545-sup-0001",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "JANE-91-1222-s001.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "JANE-91-1222-s001.docx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "jane13545-bib-0001",
+      "position": 0,
+      "title": "Using occupancy models to understand the distribution of an amphibian pathogen, Batrachochytrium dendrobatidis",
+      "source": "Ecological Applications",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0001"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "fpage": [
+          "289"
+        ],
+        "lpage": [
+          "302"
+        ]
+      },
+      "originalCitationText": "Adams, M. J.\n, \nChelgren, N. D.\n, \nReinitz, D.\n, \nCole, R. A.\n, \nRachowicz, L. J.\n, \nGalvan, S.\n, \nMcCreary, B.\n, \nPearl, C. A.\n, \nBailey, L. L.\n, \nBettaso, J.\n, \nBull, E. L.\n, & \nLeu, M.\n (2010). Using occupancy models to understand the distribution of an amphibian pathogen, Batrachochytrium dendrobatidis\n. Ecological Applications, 20, 289–302. 10.1890/08-2319.1\n20349848",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1890/08-2319.1"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20349848"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0001",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0002",
+      "position": 1,
+      "title": "Assessing thermal adaptation using family‐based association and FST outlier tests in a threatened trout species",
+      "source": "Molecular Ecology",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0002"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "2573"
+        ],
+        "lpage": [
+          "2593"
+        ]
+      },
+      "originalCitationText": "Amish, S. J.\n, \nAli, O.\n, \nPeacock, M.\n, \nMiller, M.\n, \nRobinson, M.\n, \nSmith, S.\n, \nLuikart, G.\n, & \nNeville, H.\n (2019). Assessing thermal adaptation using family‐based association and FST outlier tests in a threatened trout species. Molecular Ecology, 28, 2573–2593.3098078110.1111/mec.15100",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30980781"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/mec.15100"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0002",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0003",
+      "position": 2,
+      "title": "The role of transposable elements activity in aging and their possible involvement in laminopathic diseases",
+      "source": "Ageing Research Reviews",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0003"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "57"
+        ]
+      },
+      "originalCitationText": "Andrenacci, D.\n, \nCavaliere, V.\n, & \nLattanzi, G.\n (2020). The role of transposable elements activity in aging and their possible involvement in laminopathic diseases. Ageing Research Reviews, 57, 100995. 10.1016/j.arr.2019.100995\n31786372",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.arr.2019.100995"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31786372"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0003",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0004",
+      "position": 3,
+      "title": null,
+      "source": "FastQC: A quality control tool for high throughput sequence data (version 0.11.8)",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0004"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Andrews, S.\n (2019). FastQC: A quality control tool for high throughput sequence data (version 0.11.8). http://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+      "identifiers": [],
+      "externalLinks": [
+        "http://www.bioinformatics.babraham.ac.uk/projects/fastqc/"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0004",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0005",
+      "position": 4,
+      "title": "Temperature, growth rate, and body size in ectotherms: Fitting pieces of a life‐history puzzle",
+      "source": "Integrative and Comparative Biology",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0005"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "44"
+        ],
+        "fpage": [
+          "498"
+        ],
+        "lpage": [
+          "509"
+        ]
+      },
+      "originalCitationText": "Angilletta, M. J.\n, \nSteury, T. D.\n, & \nSears, M. W.\n (2004). Temperature, growth rate, and body size in ectotherms: Fitting pieces of a life‐history puzzle. Integrative and Comparative Biology, 44, 498–509. 10.1093/icb/44.6.498\n21676736",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/icb/44.6.498"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21676736"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0005",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0006",
+      "position": 5,
+      "title": null,
+      "source": "Hormones and reproduction of vertebrates",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0006"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Norris",
+              "givenNames": "D. O.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "D. O.\nNorris"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Lopez",
+              "givenNames": "K. H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "K. H.\nLopez"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "55"
+        ],
+        "lpage": [
+          "81"
+        ],
+        "publisher-name": [
+          "Academic Press"
+        ]
+      },
+      "originalCitationText": "Aranzábal, M. C. U.\n (2011). Hormones and the female reproductive system of amphibians. In \n\nD. O.\nNorris\n\n, & \n\nK. H.\nLopez\n\n (Eds.), Hormones and reproduction of vertebrates (pp. 55–81). Academic Press.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0006",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0007",
+      "position": 6,
+      "title": "Seascape genomics provides evidence for thermal adaptation and current‐mediated population structure in American lobster (Homarus americanus)",
+      "source": "Molecular Ecology",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0007"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "5073"
+        ],
+        "lpage": [
+          "5092"
+        ]
+      },
+      "originalCitationText": "Benestan, L.\n, \nQuinn, B. K.\n, \nMaaroufi, H.\n, \nLaporte, M.\n, \nClark, F. K.\n, \nGreenwood, S. J.\n, \nRochette, R.\n, & \nBernatchez, L.\n (2016). Seascape genomics provides evidence for thermal adaptation and current‐mediated population structure in American lobster (Homarus americanus). Molecular Ecology, 25, 5073–5092.2754386010.1111/mec.13811",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "27543860"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/mec.13811"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0007",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0008",
+      "position": 7,
+      "title": "Controlling the false discovery rate: A practical and powerful approach to multiple testing",
+      "source": "Journal of the Royal Statistical Society: Series B (Methodological)",
+      "year": "1995",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0008"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "57"
+        ],
+        "fpage": [
+          "289"
+        ],
+        "lpage": [
+          "300"
+        ]
+      },
+      "originalCitationText": "Benjamini, Y.\n, & \nHochberg, Y.\n (1995). Controlling the false discovery rate: A practical and powerful approach to multiple testing. Journal of the Royal Statistical Society: Series B (Methodological), 57, 289–300.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0008",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0009",
+      "position": 8,
+      "title": "Large‐scale intraspecific variation in life‐history traits of European freshwater fish",
+      "source": "Journal of Biogeography",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0009"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "fpage": [
+          "862"
+        ],
+        "lpage": [
+          "875"
+        ]
+      },
+      "originalCitationText": "Blanck, A.\n, & \nLamouroux, N.\n (2007). Large‐scale intraspecific variation in life‐history traits of European freshwater fish. Journal of Biogeography, 34, 862–875. 10.1111/j.1365-2699.2006.01654.x",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1365-2699.2006.01654.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0009",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0010",
+      "position": 9,
+      "title": "Thermal adaptation revisited: How conserved are thermal traits of reptiles and amphibians?",
+      "source": "Journal of Experimental Zoology Part A: Ecological and Integrative Physiology",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0010"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "335"
+        ],
+        "fpage": [
+          "173"
+        ],
+        "lpage": [
+          "194"
+        ]
+      },
+      "originalCitationText": "Bodensteiner, B. L.\n, \nAgudelo‐Cantero, G. A.\n, \nArietta, A. A.\n, \nGunderson, A. R.\n, \nMuñoz, M. M.\n, \nRefsnider, J. M.\n, & \nGangloff, E. J.\n (2021). Thermal adaptation revisited: How conserved are thermal traits of reptiles and amphibians?\nJournal of Experimental Zoology Part A: Ecological and Integrative Physiology, 335, 173–194. 10.1002/jez.2414\n32970931",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/jez.2414"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32970931"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0010",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0011",
+      "position": 10,
+      "title": "Ten things you should know about transposable elements",
+      "source": "Genome Biology",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0011"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "12"
+        ]
+      },
+      "originalCitationText": "Bourque, G.\n, \nBurns, K. H.\n, \nGehring, M.\n, \nGorbunova, V.\n, \nSeluanov, A.\n, \nHammell, M.\n, \nImbeault, M.\n, \nIzsvák, Z.\n, \nLevin, H. L.\n, \nMacfarlan, T. S.\n, \nMager, D. L.\n, & \nFeschotte, C.\n (2018). Ten things you should know about transposable elements. Genome Biology, 19, 1–12. 10.1186/s13059-018-1577-z\n30454069PMC6240941",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13059-018-1577-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30454069"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6240941"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0011",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0012",
+      "position": 11,
+      "title": "The Y chromosome may contribute to sex‐specific ageing in Drosophila",
+      "source": "Nature Ecology & Evolution",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0012"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "853"
+        ],
+        "lpage": [
+          "862"
+        ]
+      },
+      "originalCitationText": "Brown, E. J.\n, \nNguyen, A. H.\n, & \nBachtrog, D.\n (2020). The Y chromosome may contribute to sex‐specific ageing in Drosophila. Nature Ecology & Evolution, 4, 853–862. 10.1038/s41559-020-1179-5\n32313175PMC7274899",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41559-020-1179-5"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32313175"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7274899"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0012",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0013",
+      "position": 12,
+      "title": "Overwintering of Columbia spotted frogs in Northeastern Oregon",
+      "source": "Northwest Science",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0013"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "76"
+        ],
+        "fpage": [
+          "141"
+        ],
+        "lpage": [
+          "147"
+        ]
+      },
+      "originalCitationText": "Bull, E. L.\n, & \nHayes, M. P.\n (2002). Overwintering of Columbia spotted frogs in Northeastern Oregon. Northwest Science, 76, 141–147.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0013",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0014",
+      "position": 13,
+      "title": "Climate change and ageing in ectotherms",
+      "source": "Global Change Biology",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0014"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "26"
+        ],
+        "fpage": [
+          "5371"
+        ],
+        "lpage": [
+          "5381"
+        ]
+      },
+      "originalCitationText": "Burraco, P.\n, \nOrizaola, G.\n, \nMonaghan, P.\n, & \nMetcalfe, N. B.\n (2020). Climate change and ageing in ectotherms. Global Change Biology, 26, 5371–5381. 10.1111/gcb.15305\n32835446",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/gcb.15305"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32835446"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0014",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0015",
+      "position": 14,
+      "title": "Differential regulation of the mitochondrial ADP/ATP translocase gene in wood frogs under freezing stress",
+      "source": "Biochimica Et Biophysica Acta (BBA) ‐ Gene Structure and Expression",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0015"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "1353"
+        ],
+        "issue": [
+          "1"
+        ],
+        "fpage": [
+          "69"
+        ],
+        "lpage": [
+          "78"
+        ]
+      },
+      "originalCitationText": "Cai, Q.\n, \nGreenway, S. C.\n, & \nStorey, K. B.\n (1997). Differential regulation of the mitochondrial ADP/ATP translocase gene in wood frogs under freezing stress. Biochimica Et Biophysica Acta (BBA) ‐ Gene Structure and Expression, 1353(1), 69–78. 10.1016/S0167-4781(97)00057-2\n9256066",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0167-4781(97)00057-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "9256066"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0015",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0016",
+      "position": 15,
+      "title": "Parallel selection on thermal physiology facilitates repeated adaptation of city lizards to urban heat islands",
+      "source": "Nature Ecology & Evolution",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0016"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "652"
+        ],
+        "lpage": [
+          "658"
+        ]
+      },
+      "originalCitationText": "Campbell‐Staton, S. C.\n, \nWinchell, K. M.\n, \nRochette, N. C.\n, \nFredette, J.\n, \nMaayan, I.\n, \nSchweizer, R. M.\n, & \nCatchen, J.\n (2020). Parallel selection on thermal physiology facilitates repeated adaptation of city lizards to urban heat islands. Nature Ecology & Evolution, 4, 652–658. 10.1038/s41559-020-1131-8\n32152530",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41559-020-1131-8"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32152530"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0016",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0017",
+      "position": 16,
+      "title": "Mobile elements in ray‐finned fish genomes",
+      "source": "Life",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0017"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "221"
+        ]
+      },
+      "originalCitationText": "Carducci, F.\n, \nBarucca, M.\n, \nCanapa, A.\n, \nCarotti, E.\n, & \nBiscotti, M. A.\n (2020). Mobile elements in ray‐finned fish genomes. Life, 10, 221. 10.3390/life10100221\nPMC759974432992841",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/life10100221"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7599744"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32992841"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0017",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0018",
+      "position": 17,
+      "title": "An intriguing relationship between teleost Rex3 retroelement and environmental temperature",
+      "source": "Biology Letters",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0018"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "20190279"
+        ]
+      },
+      "originalCitationText": "Carducci, F.\n, \nBiscotti, M. A.\n, \nForconi, M.\n, \nBarucca, M.\n, & \nCanapa, A.\n (2019). An intriguing relationship between teleost Rex3 retroelement and environmental temperature. Biology Letters, 15, 20190279.3148093610.1098/rsbl.2019.0279PMC6769135",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "31480936"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rsbl.2019.0279"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6769135"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0018",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0019",
+      "position": 18,
+      "title": "The impact of transposable elements in environmental adaptation",
+      "source": "Molecular Ecology",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0019"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "issue": [
+          "6"
+        ],
+        "fpage": [
+          "1503"
+        ],
+        "lpage": [
+          "1517"
+        ]
+      },
+      "originalCitationText": "Casacuberta, E.\n, & \nGonzález, J.\n (2013). The impact of transposable elements in environmental adaptation. Molecular Ecology, 22(6), 1503–1517. 10.1111/mec.12170\n23293987",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.12170"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23293987"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0019",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0020",
+      "position": 19,
+      "title": "Stacks: Building and genotyping loci de novo from short‐read sequences",
+      "source": "G3: Genes Genomes Genetics",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0020"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "1"
+        ],
+        "fpage": [
+          "171"
+        ],
+        "lpage": [
+          "182"
+        ]
+      },
+      "originalCitationText": "Catchen, J. M.\n, \nAmores, A.\n, \nHohenlohe, P.\n, \nCresko, W.\n, & \nPostlethwait, J.\n (2011). Stacks: Building and genotyping loci de novo from short‐read sequences. G3: Genes Genomes Genetics, 1, 171–182.2238432910.1534/g3.111.000240PMC3276136",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "22384329"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1534/g3.111.000240"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3276136"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0020",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0021",
+      "position": 20,
+      "title": "Stacks: An analysis tool set for population genomics",
+      "source": "Molecular Ecology",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0021"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "fpage": [
+          "3124"
+        ],
+        "lpage": [
+          "3140"
+        ]
+      },
+      "originalCitationText": "Catchen, J.\n, \nHohenlohe, P. A.\n, \nBassham, S.\n, \nAmores, A.\n, & \nCresko, W. A.\n (2013). Stacks: An analysis tool set for population genomics. Molecular Ecology, 22, 3124–3140. 10.1111/mec.12354\n23701397PMC3936987",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.12354"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23701397"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3936987"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0021",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0022",
+      "position": 21,
+      "title": "LFMM 2: Fast and accurate inference of gene‐environment associations in genome‐wide studies",
+      "source": "Molecular Biology and Evolution",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0022"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "36"
+        ],
+        "fpage": [
+          "852"
+        ],
+        "lpage": [
+          "860"
+        ]
+      },
+      "originalCitationText": "Caye, K.\n, \nJumentier, B.\n, \nLepeule, J.\n, & \nFrançois, O.\n (2019). LFMM 2: Fast and accurate inference of gene‐environment associations in genome‐wide studies. Molecular Biology and Evolution, 36, 852–860. 10.1093/molbev/msz008\n30657943PMC6659841",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/molbev/msz008"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30657943"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6659841"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0022",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0023",
+      "position": 22,
+      "title": "Thermal adaptation rather than demographic history drives genetic structure inferred by copy number variants in a marine fish",
+      "source": "Molecular Ecology",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0023"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "1624"
+        ],
+        "lpage": [
+          "1641"
+        ]
+      },
+      "originalCitationText": "Cayuela, H.\n, \nDorant, Y.\n, \nMérot, C.\n, \nLaporte, M.\n, \nNormandeau, E.\n, \nGagnon‐Harvey, S.\n, \nClément, M.\n, \nSirois, P.\n, & \nBernatchez, L.\n (2021). Thermal adaptation rather than demographic history drives genetic structure inferred by copy number variants in a marine fish. Molecular Ecology, 30, 1624–1641. 10.1111/mec.15835\n33565147",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.15835"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33565147"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0023",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0024",
+      "position": 23,
+      "title": "Genomic data of Columbia spotted frog (Rana luteiventris)",
+      "source": "Dryad",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0024"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cayuela, H.\n, \nForester, B. R.\n, & \nFunk, W. C.\n (2021). Genomic data of Columbia spotted frog (Rana luteiventris). Dryad, 10.5061/dryad.x3ffbg7k3",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.5061/dryad.x3ffbg7k3"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0024",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0025",
+      "position": 24,
+      "title": "Population position along the fast–slow life‐history continuum predicts intraspecific variation in actuarial senescence",
+      "source": "Journal of Animal Ecology",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0025"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "89"
+        ],
+        "fpage": [
+          "1069"
+        ],
+        "lpage": [
+          "1079"
+        ]
+      },
+      "originalCitationText": "Cayuela, H.\n, \nLemaître, J. F.\n, \nBonnaire, E.\n, \nPichenot, J.\n, & \nSchmidt, B. R.\n (2020). Population position along the fast–slow life‐history continuum predicts intraspecific variation in actuarial senescence. Journal of Animal Ecology, 89, 1069–1079. 10.1111/1365-2656.13172\n31943196",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/1365-2656.13172"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31943196"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0025",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0026",
+      "position": 25,
+      "title": "Slow life‐history strategies are associated with negligible actuarial senescence in western Palaearctic salamanders",
+      "source": "Proceedings of the Royal Society B: Biological Sciences",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0026"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "286"
+        ],
+        "fpage": [
+          "20191498"
+        ]
+      },
+      "originalCitationText": "Cayuela, H.\n, \nOlgun, K.\n, \nAngelini, C.\n, \nÜzüm, N.\n, \nPeyronel, O.\n, \nMiaud, C.\n, \nAvcı, A.\n, \nLemaitre, J.‐F.\n, & \nSchmidt, B. R.\n (2019). Slow life‐history strategies are associated with negligible actuarial senescence in western Palaearctic salamanders. Proceedings of the Royal Society B: Biological Sciences, 286, 20191498. 10.1098/rspb.2019.1498\nPMC673238131455192",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1098/rspb.2019.1498"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6732381"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31455192"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0026",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0027",
+      "position": 26,
+      "title": "Shared ancestral polymorphisms and chromosomal rearrangements as potential drivers of local adaptation in a marine fish",
+      "source": "Molecular Ecology",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0027"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "2379"
+        ],
+        "lpage": [
+          "2398"
+        ]
+      },
+      "originalCitationText": "Cayuela, H.\n, \nRougemont, Q.\n, \nLaporte, M.\n, \nMérot, C.\n, \nNormandeau, E.\n, \nDorant, Y.\n, \nTørresen, O. K.\n, \nHoff, S. N. K.\n, \nJentoft, S.\n, \nSirois, P.\n, \nCastonguay, M.\n, \nJansen, T.\n, \nPraebel, K.\n, \nClément, M.\n, & \nBernatchez, L.\n (2020). Shared ancestral polymorphisms and chromosomal rearrangements as potential drivers of local adaptation in a marine fish. Molecular Ecology, 29, 2379–2398. 10.1111/mec.15499\n32497342",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.15499"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32497342"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0027",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0028",
+      "position": 27,
+      "title": "Second‐generation PLINK: Rising to the challenge of larger and richer datasets",
+      "source": "GigaScience",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0028"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ]
+      },
+      "originalCitationText": "Chang, C. C.\n, \nChow, C. C.\n, \nTellier, L. C.\n, \nVattikuti, S.\n, \nPurcell, S. M.\n, & \nLee, J. J.\n (2015). Second‐generation PLINK: Rising to the challenge of larger and richer datasets. GigaScience, 4. 10.1186/s13742-015-0047-8\nPMC434219325722852",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13742-015-0047-8"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4342193"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25722852"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0028",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0029",
+      "position": 28,
+      "title": "Transcriptomic and genomic evolution under constant cold in Antarctic notothenioid fish",
+      "source": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0029"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "105"
+        ],
+        "fpage": [
+          "12944"
+        ],
+        "lpage": [
+          "12949"
+        ]
+      },
+      "originalCitationText": "Chen, Z.\n, \nCheng, C. H. C.\n, \nZhang, J.\n, \nCao, L.\n, \nChen, L.\n, \nZhou, L.\n, \nJin, Y.\n, \nYe, H.\n, \nDeng, C.\n, \nDai, Z.\n, \nXu, Q.\n, \nHu, P.\n, \nSun, S.\n, \nShen, Y.\n, & \nChen, L.\n (2008). Transcriptomic and genomic evolution under constant cold in Antarctic notothenioid fish. Proceedings of the National Academy of Sciences of the United States of America, 105, 12944–12949. 10.1073/pnas.0802432105\n18753634PMC2529033",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.0802432105"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18753634"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2529033"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0029",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0030",
+      "position": 29,
+      "title": "Whole genome resequencing reveals genomic regions associated with thermal adaptation in redband trout",
+      "source": "Molecular Ecology",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0030"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "162"
+        ],
+        "lpage": [
+          "174"
+        ]
+      },
+      "originalCitationText": "Chen, Z.\n, & \nNarum, S. R.\n (2021). Whole genome resequencing reveals genomic regions associated with thermal adaptation in redband trout. Molecular Ecology, 30, 162–174. 10.1111/mec.15717\n33135227",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.15717"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33135227"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0030",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0031",
+      "position": 30,
+      "title": "Regulatory activities of transposable elements: From conflicts to benefits",
+      "source": "Nature Reviews Genetics",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0031"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "71"
+        ]
+      },
+      "originalCitationText": "Chuong, E. B.\n, \nElde, N. C.\n, & \nFeschotte, C.\n (2017). Regulatory activities of transposable elements: From conflicts to benefits. Nature Reviews Genetics, 18, 71. 10.1038/nrg.2016.139\nPMC549829127867194",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nrg.2016.139"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5498291"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27867194"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0031",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0032",
+      "position": 31,
+      "title": "Bayesian inference on age‐specific survival for censored and truncated data",
+      "source": "Journal of Animal Ecology",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0032"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "81"
+        ],
+        "fpage": [
+          "139"
+        ],
+        "lpage": [
+          "149"
+        ]
+      },
+      "originalCitationText": "Colchero, F.\n, & \nClark, J. S.\n (2012). Bayesian inference on age‐specific survival for censored and truncated data. Journal of Animal Ecology, 81, 139–149. 10.1111/j.1365-2656.2011.01898.x\n21883202",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1365-2656.2011.01898.x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21883202"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0032",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0033",
+      "position": 32,
+      "title": "BaSTA: An R package for Bayesian estimation of age‐specific survival from incomplete mark–recapture/recovery data with covariates",
+      "source": "Methods in Ecology and Evolution",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0033"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "fpage": [
+          "466"
+        ],
+        "lpage": [
+          "470"
+        ]
+      },
+      "originalCitationText": "Colchero, F.\n, \nJones, O. R.\n, & \nRebke, M.\n (2012). BaSTA: An R package for Bayesian estimation of age‐specific survival from incomplete mark–recapture/recovery data with covariates. Methods in Ecology and Evolution, 3, 466–470. 10.1111/j.2041-210X.2012.00186.x",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.2041-210X.2012.00186.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0033",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0034",
+      "position": 33,
+      "title": "Copy number variants outperform SNPs to reveal genotype–temperature association in a marine species",
+      "source": "Molecular Ecology",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0034"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "4765"
+        ],
+        "lpage": [
+          "4782"
+        ]
+      },
+      "originalCitationText": "Dorant, Y.\n, \nCayuela, H.\n, \nWellband, K.\n, \nLaporte, M.\n, \nRougemont, Q.\n, \nMérot, C.\n, \nNormandeau, E.\n, \nRochette, R.\n, & \nBernatchez, L.\n (2020). Copy number variants outperform SNPs to reveal genotype–temperature association in a marine species. Molecular Ecology, 29, 4765–4782. 10.1111/mec.15565\n32803780",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.15565"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32803780"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0034",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0035",
+      "position": 34,
+      "title": "Links between thermoregulation and aging in endotherms and ectotherms",
+      "source": "Temperature",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0035"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "73"
+        ],
+        "lpage": [
+          "85"
+        ]
+      },
+      "originalCitationText": "Flouris, A. D.\n, & \nPiantoni, C.\n (2015). Links between thermoregulation and aging in endotherms and ectotherms. Temperature, 2, 73–85. 10.4161/23328940.2014.989793\nPMC484388627226994",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.4161/23328940.2014.989793"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4843886"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27226994"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0035",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0036",
+      "position": 35,
+      "title": "Comparing methods for detecting multilocus adaptation with multivariate genotype–environment associations",
+      "source": "Molecular Ecology",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0036"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "fpage": [
+          "2215"
+        ],
+        "lpage": [
+          "2233"
+        ]
+      },
+      "originalCitationText": "Forester, B. R.\n, \nLasky, J. R.\n, \nWagner, H. H.\n, & \nUrban, D. L.\n (2018). Comparing methods for detecting multilocus adaptation with multivariate genotype–environment associations. Molecular Ecology, 27, 2215–2233. 10.1111/mec.14584\n29633402",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.14584"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29633402"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0036",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0037",
+      "position": 36,
+      "title": null,
+      "source": "mclust version 4 for R: normal mixture modeling for model‐based clustering, classification, and density estimation",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0037"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Fraley, C.\n, \nRaftery, A. E.\n, \nMurphy, T. B.\n, & \nScrucca, L.\n (2012). mclust version 4 for R: normal mixture modeling for model‐based clustering, classification, and density estimation (Vol. 597, p. 1). Technical report.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0037",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0038",
+      "position": 37,
+      "title": "Testing for associations between loci and environmental gradients using latent factor mixed models",
+      "source": "Molecular Biology and Evolution",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0038"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "1687"
+        ],
+        "lpage": [
+          "1699"
+        ]
+      },
+      "originalCitationText": "Frichot, E.\n, \nSchoville, S. D.\n, \nBouchard, G.\n, & \nFrançois, O.\n (2013). Testing for associations between loci and environmental gradients using latent factor mixed models. Molecular Biology and Evolution, 30, 1687–1699. 10.1093/molbev/mst063\n23543094PMC3684853",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/molbev/mst063"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23543094"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3684853"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0038",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0039",
+      "position": 38,
+      "title": "Applying landscape genomic tools to forest management and restoration of Hawaiian koa (Acacia koa) in a changing environment",
+      "source": "Evolutionary Applications",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0039"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "231"
+        ],
+        "lpage": [
+          "242"
+        ]
+      },
+      "originalCitationText": "Gugger, P. F.\n, \nLiang, C. T.\n, \nSork, V. L.\n, \nHodgskiss, P.\n, & \nWright, J. W.\n (2018). Applying landscape genomic tools to forest management and restoration of Hawaiian koa (Acacia koa) in a changing environment. Evolutionary Applications, 11, 231–242.2938715810.1111/eva.12534PMC5775490",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29387158"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/eva.12534"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5775490"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0039",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0040",
+      "position": 39,
+      "title": "Plasticity in thermal tolerance has limited potential to buffer ectotherms from global warming",
+      "source": "Proceedings of the Royal Society B: Biological Sciences",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0040"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "282"
+        ],
+        "fpage": [
+          "20150401"
+        ]
+      },
+      "originalCitationText": "Gunderson, A. R.\n, & \nStillman, J. H.\n (2015). Plasticity in thermal tolerance has limited potential to buffer ectotherms from global warming. Proceedings of the Royal Society B: Biological Sciences, 282, 20150401.10.1098/rspb.2015.0401PMC445580825994676",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1098/rspb.2015.0401"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4455808"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25994676"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0040",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0041",
+      "position": 40,
+      "title": "Seasonality determines patterns of growth and age structure over a geographic gradient in an ectothermic vertebrate",
+      "source": "Oecologia",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0041"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "170"
+        ],
+        "fpage": [
+          "641"
+        ],
+        "lpage": [
+          "649"
+        ]
+      },
+      "originalCitationText": "Hjernquist, M. B.\n, \nSöderman, F.\n, \nJönsson, K. I.\n, \nHerczeg, G.\n, \nLaurila, A.\n, & \nMerilä, J.\n (2012). Seasonality determines patterns of growth and age structure over a geographic gradient in an ectothermic vertebrate. Oecologia, 170, 641–649. 10.1007/s00442-012-2338-4\n22565493",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s00442-012-2338-4"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22565493"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0041",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0042",
+      "position": 41,
+      "title": "Temperature, demography, and ectotherm fitness",
+      "source": "The American Naturalist",
+      "year": "2001",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0042"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "158"
+        ],
+        "fpage": [
+          "204"
+        ],
+        "lpage": [
+          "210"
+        ]
+      },
+      "originalCitationText": "Huey, R. B.\n, & \nBerrigan, D.\n (2001). Temperature, demography, and ectotherm fitness. The American Naturalist, 158, 204–210. 10.1086/321314\n18707349",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1086/321314"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18707349"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0042",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0043",
+      "position": 42,
+      "title": "IPCC climate change 2014: Synthesis Report. Contribution of working groups I, II and III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change",
+      "source": null,
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "miscellaneous",
+        "id": "jane13545-cit-0043"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "IPCC\n. (2014). IPCC climate change 2014: Synthesis Report. Contribution of working groups I, II and III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change. IPCC. p. 151.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0043",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0044",
+      "position": 43,
+      "title": "Biomarkers of aging in Drosophila",
+      "source": "Aging Cell",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0044"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "466"
+        ],
+        "lpage": [
+          "477"
+        ]
+      },
+      "originalCitationText": "Jacobson, J.\n, \nLambert, A. J.\n, \nPortero‐Otín, M.\n, \nPamplona, R.\n, \nMagwere, T.\n, \nMiwa, S.\n, \nDriege, Y.\n, \nBrand, M. D.\n, & \nPartridge, L.\n (2010). Biomarkers of aging in Drosophila. Aging Cell, 9, 466–477. 10.1111/j.1474-9726.2010.00573.x\n20367621PMC4467031",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1474-9726.2010.00573.x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20367621"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4467031"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0044",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0045",
+      "position": 44,
+      "title": "Being cool: How body temperature influences ageing and longevity",
+      "source": "Biogerontology",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0045"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "fpage": [
+          "383"
+        ],
+        "lpage": [
+          "397"
+        ]
+      },
+      "originalCitationText": "Keil, G.\n, \nCummings, E.\n, & de Magalhaes, J. P.\n (2015). Being cool: How body temperature influences ageing and longevity. Biogerontology, 16, 383–397. 10.1007/s10522-015-9571-2\n25832892PMC4486781",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10522-015-9571-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25832892"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4486781"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0045",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0046",
+      "position": 45,
+      "title": null,
+      "source": "Trim Galore! (version 0.6.4)",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0046"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Krueger, F.\n (2019). Trim Galore! (version 0.6.4). http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/",
+      "identifiers": [],
+      "externalLinks": [
+        "http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0046",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0047",
+      "position": 46,
+      "title": null,
+      "source": "Numerical ecology",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0047"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Elsevier"
+        ]
+      },
+      "originalCitationText": "Legendre, P.\n, & \nLegendre, L.\n (2012). Numerical ecology. Elsevier.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0047",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0048",
+      "position": 47,
+      "title": "Fine‐scale temperature‐associated genetic structure between inshore and offshore populations of sea scallop (Placopecten magellanicus)",
+      "source": "Heredity",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0048"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "122"
+        ],
+        "fpage": [
+          "69"
+        ],
+        "lpage": [
+          "80"
+        ]
+      },
+      "originalCitationText": "Lehnert, S. J.\n, \nDiBacco, C.\n, \nVan Wyngaarden, M.\n, \nJeffery, N. W.\n, \nBen Lowen, J.\n, \nSylvester, E. V. A.\n, \nWringe, B. F.\n, \nStanley, R. R. E.\n, \nHamilton, L. C.\n, & \nBradbury, I. R.\n (2019). Fine‐scale temperature‐associated genetic structure between inshore and offshore populations of sea scallop (Placopecten magellanicus). Heredity, 122, 69–80. 10.1038/s41437-018-0087-9\n29773897PMC6288113",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41437-018-0087-9"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29773897"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6288113"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0048",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0049",
+      "position": 48,
+      "title": "Sex differences in adult lifespan and aging rates of mortality across wild mammals",
+      "source": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0049"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "117"
+        ],
+        "fpage": [
+          "8546"
+        ],
+        "lpage": [
+          "8553"
+        ]
+      },
+      "originalCitationText": "Lemaître, J. F.\n, \nRonget, V.\n, \nTidière, M.\n, \nAllainé, D.\n, \nBerger, V.\n, \nCohas, A.\n, \nColchero, F.\n, \nConde, D. A.\n, \nGarratt, M.\n, \nLiker, A.\n, \nMarais, G. A. B.\n, \nScheuerlein, A.\n, \nSzékely, T.\n, & \nGaillard, J. M.\n (2020). Sex differences in adult lifespan and aging rates of mortality across wild mammals. Proceedings of the National Academy of Sciences of the United States of America, 117, 8546–8553. 10.1073/pnas.1911999117\n32205429PMC7165438",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1911999117"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32205429"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7165438"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0049",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0050",
+      "position": 49,
+      "title": "Columbia spotted frogs (Rana luteiventris) have characteristic skin microbiota that may be shaped by cutaneous skin peptides and the environment",
+      "source": "FEMS Microbiology Ecology",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0050"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "96"
+        ],
+        "fpage": [
+          "fiaa168"
+        ]
+      },
+      "originalCitationText": "Loudon, A. H.\n, \nKurtz, A.\n, \nEsposito, E.\n, \nUmile, T. P.\n, \nMinbiole, K. P. C.\n, \nParfrey, L. W.\n, & \nSheafor, B. A.\n (2020). Columbia spotted frogs (Rana luteiventris) have characteristic skin microbiota that may be shaped by cutaneous skin peptides and the environment. FEMS Microbiology Ecology, 96, fiaa168. 10.1093/femsec/fiaa168\n32815986",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/femsec/fiaa168"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32815986"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0050",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0051",
+      "position": 50,
+      "title": "Breaking RAD: An evaluation of the utility of restriction site‐associated DNA sequencing for genome scans of adaptation",
+      "source": "Molecular Ecology",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0051"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "fpage": [
+          "141"
+        ],
+        "lpage": [
+          "152"
+        ]
+      },
+      "originalCitationText": "Lowry, D. B.\n, \nHoban, S.\n, \nKelley, J. L.\n, \nLotterhos, K. E.\n, \nReed, L. K.\n, \nAntolin, M. F.\n, & \nStorfer, A.\n (2017). Breaking RAD: An evaluation of the utility of restriction site‐associated DNA sequencing for genome scans of adaptation. Molecular Ecology, 17, 141–152.10.1111/1755-0998.12635PMC544691927860289",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/1755-0998.12635"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5446919"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27860289"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0051",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0052",
+      "position": 51,
+      "title": "Variation of body size, age structure and growth of a temperate frog, Rana chensinensis, over an elevational gradient in northern China",
+      "source": "Amphibia‐Reptilia",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0052"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "111"
+        ],
+        "lpage": [
+          "117"
+        ]
+      },
+      "originalCitationText": "Ma, X.\n, \nTong, L.\n, & \nLu, X.\n (2009). Variation of body size, age structure and growth of a temperate frog, Rana chensinensis, over an elevational gradient in northern China. Amphibia‐Reptilia, 30, 111–117. 10.1163/156853809787392685",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1163/156853809787392685"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0052",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0053",
+      "position": 52,
+      "title": "A simple genetic basis of adaptation to a novel thermal environment results in complex metabolic rewiring in Drosophila",
+      "source": "Genome Biology",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0053"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "15"
+        ]
+      },
+      "originalCitationText": "Mallard, F.\n, \nNolte, V.\n, \nTobler, R.\n, \nKapun, M.\n, & \nSchlötterer, C.\n (2018). A simple genetic basis of adaptation to a novel thermal environment results in complex metabolic rewiring in Drosophila. Genome Biology, 19, 1–15. 10.1186/s13059-018-1503-4\n30122150PMC6100727",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s13059-018-1503-4"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30122150"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6100727"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0053",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0054",
+      "position": 53,
+      "title": "Cutadapt removes adapter sequences from high‐throughput sequencing reads",
+      "source": "EMBnet.Journal",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0054"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "fpage": [
+          "10"
+        ],
+        "lpage": [
+          "12"
+        ]
+      },
+      "originalCitationText": "Martin, M.\n (2011). Cutadapt removes adapter sequences from high‐throughput sequencing reads. EMBnet.Journal, 17, 10–12. 10.14806/ej.17.1.200",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.14806/ej.17.1.200"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0054",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0055",
+      "position": 54,
+      "title": "Evidence for multiple retroposition events and gene evolution in the ADP/ATP translocase gene family in Ranid frogs",
+      "source": "Journal of Heredity",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0055"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "98"
+        ],
+        "fpage": [
+          "300"
+        ],
+        "lpage": [
+          "310"
+        ]
+      },
+      "originalCitationText": "Matsuba, C.\n, \nUolevi Palo, J.\n, \nKuzmin, S. L.\n, & \nMerilä, J.\n (2007). Evidence for multiple retroposition events and gene evolution in the ADP/ATP translocase gene family in Ranid frogs. Journal of Heredity, 98, 300–310. 10.1093/jhered/esm038\n17641149",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/jhered/esm038"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17641149"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0055",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0056",
+      "position": 55,
+      "title": "Paralogs are revealed by proportion of heterozygotes and deviations in read ratios in genotyping‐by‐sequencing data from natural populations",
+      "source": "Molecular Ecology Resources",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0056"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "issue": [
+          "4"
+        ],
+        "fpage": [
+          "656"
+        ],
+        "lpage": [
+          "669"
+        ]
+      },
+      "originalCitationText": "McKinney, G. J.\n, \nWaples, R. K.\n, \nSeeb, L. W.\n, & \nSeeb, J. E.\n (2017). Paralogs are revealed by proportion of heterozygotes and deviations in read ratios in genotyping‐by‐sequencing data from natural populations. Molecular Ecology Resources, 17(4), 656–669.2776209810.1111/1755-0998.12613",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "27762098"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/1755-0998.12613"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0056",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0057",
+      "position": 56,
+      "title": "A roadmap for understanding the evolutionary significance of structural genomic variation",
+      "source": "Trends in Ecology & Evolution",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0057"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "35"
+        ],
+        "fpage": [
+          "561"
+        ],
+        "lpage": [
+          "572"
+        ]
+      },
+      "originalCitationText": "Mérot, C.\n, \nOomen, R. A.\n, \nTigano, A.\n, & \nWellenreuther, M.\n (2020). A roadmap for understanding the evolutionary significance of structural genomic variation. Trends in Ecology & Evolution, 35, 561–572. 10.1016/j.tree.2020.03.002\n32521241",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.tree.2020.03.002"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32521241"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0057",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0058",
+      "position": 57,
+      "title": "Functional and geographic components of risk for climate sensitive vertebrates in the Pacific Northwest, USA",
+      "source": "Biological Conservation",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0058"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "228"
+        ],
+        "fpage": [
+          "183"
+        ],
+        "lpage": [
+          "194"
+        ]
+      },
+      "originalCitationText": "Mims, M. C.\n, \nOlson, D. H.\n, \nPilliod, D. S.\n, & \nDunham, J. B.\n (2018). Functional and geographic components of risk for climate sensitive vertebrates in the Pacific Northwest, USA. Biological Conservation, 228, 183–194. 10.1016/j.biocon.2018.10.012",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.biocon.2018.10.012"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0058",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0059",
+      "position": 58,
+      "title": null,
+      "source": "Fundamentals of comparative vertebrate endocrinology",
+      "year": "1987",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0059"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Chester‐Jones",
+              "givenNames": "I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "I.\nChester‐Jones"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Ingleton",
+              "givenNames": "P. M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "P. M.\nIngleton"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Phillips",
+              "givenNames": "J. G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "J. G.\nPhillips"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "207"
+        ],
+        "lpage": [
+          "221"
+        ],
+        "publisher-name": [
+          "Springer"
+        ]
+      },
+      "originalCitationText": "Moore, F. L.\n (1987). Reproductive endocrinology of amphibians. In \n\nI.\nChester‐Jones\n\n, \n\nP. M.\nIngleton\n\n, & \n\nJ. G.\nPhillips\n\n (Eds.), Fundamentals of comparative vertebrate endocrinology (pp. 207–221). Springer.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0059",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0060",
+      "position": 59,
+      "title": "Geographic variation in life‐history characteristics of amphibians: A review",
+      "source": "Journal of Animal Ecology",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0060"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "72"
+        ],
+        "fpage": [
+          "270"
+        ],
+        "lpage": [
+          "279"
+        ]
+      },
+      "originalCitationText": "Morrison, C.\n, & \nHero, J. M.\n (2003). Geographic variation in life‐history characteristics of amphibians: A review. Journal of Animal Ecology, 72, 270–279. 10.1046/j.1365-2656.2003.00696.x",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1046/j.1365-2656.2003.00696.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0060",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0061",
+      "position": 60,
+      "title": "Latitudinal variation in lifespan within species is explained by the metabolic theory of ecology",
+      "source": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0061"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "106"
+        ],
+        "fpage": [
+          "13860"
+        ],
+        "lpage": [
+          "13864"
+        ]
+      },
+      "originalCitationText": "Munch, S. B.\n, & \nSalinas, S.\n (2009). Latitudinal variation in lifespan within species is explained by the metabolic theory of ecology. Proceedings of the National Academy of Sciences of the United States of America, 106, 13860–13864. 10.1073/pnas.0900300106\n19666552PMC2728985",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.0900300106"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19666552"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2728985"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0061",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0062",
+      "position": 61,
+      "title": null,
+      "source": "Vertebrate endocrinology",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0062"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Academic Press"
+        ]
+      },
+      "originalCitationText": "Norris, D. O.\n, & \nCarr, J. A.\n (2020). Vertebrate endocrinology. Academic Press.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0062",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0063",
+      "position": 62,
+      "title": "Lost in parameter space: A road map for stacks",
+      "source": "Methods in Ecology and Evolution",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0063"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "1360"
+        ],
+        "lpage": [
+          "1373"
+        ]
+      },
+      "originalCitationText": "Paris, J. R.\n, \nStevens, J. R.\n, & \nCatchen, J. M.\n (2017). Lost in parameter space: A road map for stacks. Methods in Ecology and Evolution, 8, 1360–1373.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0063",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0064",
+      "position": 63,
+      "title": "Inter and intraspecific genomic divergence in Drosophila montana shows evidence for cold adaptation",
+      "source": "Genome Biology and Evolution",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0064"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "2086"
+        ],
+        "lpage": [
+          "2101"
+        ]
+      },
+      "originalCitationText": "Parker, D. J.\n, \nWiberg, R. A. W.\n, \nTrivedi, U.\n, \nTyukmaeva, V. I.\n, \nGharbi, K.\n, \nButlin, R. K.\n, \nHoikkala, A.\n, \nKankare, M.\n, & \nRitchie, M. G.\n (2018). Inter and intraspecific genomic divergence in Drosophila montana shows evidence for cold adaptation. Genome Biology and Evolution, 10, 2086–2101. 10.1093/gbe/evy147\n30010752PMC6107330",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/gbe/evy147"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30010752"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6107330"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0064",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0065",
+      "position": 64,
+      "title": "Widespread occurrence of the chytrid fungus Batrachochytrium dendrobatidis on Oregon spotted frogs (Rana pretiosa)",
+      "source": "EcoHealth",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0065"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "209"
+        ],
+        "lpage": [
+          "218"
+        ]
+      },
+      "originalCitationText": "Pearl, C. A.\n, \nBowerman, J.\n, \nAdams, M. J.\n, & \nChelgren, N. D.\n (2009). Widespread occurrence of the chytrid fungus Batrachochytrium dendrobatidis on Oregon spotted frogs (Rana pretiosa). EcoHealth, 6, 209–218. 10.1007/s10393-009-0237-x\n19526269",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10393-009-0237-x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19526269"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0065",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0066",
+      "position": 65,
+      "title": "Occurrence of the amphibian pathogen Batrachochytrium dendrobatidis in the Pacific Northwest",
+      "source": "Journal of Herpetology",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0066"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "41"
+        ],
+        "fpage": [
+          "145"
+        ],
+        "lpage": [
+          "149"
+        ]
+      },
+      "originalCitationText": "Pearl, C. A.\n, \nBull, E. L.\n, \nGreen, D. E.\n, \nBowerman, J.\n, \nAdams, M. J.\n, \nHyatt, A.\n, & \nWente, W. H.\n (2007). Occurrence of the amphibian pathogen Batrachochytrium dendrobatidis in the Pacific Northwest. Journal of Herpetology, 41, 145–149.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0066",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0067",
+      "position": 66,
+      "title": "StAMPP: An R package for calculation of genetic differentiation and structure of mixed‐ploidy level populations",
+      "source": "Molecular Ecology Resources",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0067"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "946"
+        ],
+        "lpage": [
+          "952"
+        ]
+      },
+      "originalCitationText": "Pembleton, L. W.\n, \nCogan, N. O. I.\n, & \nForster, J. W.\n (2013). StAMPP: An R package for calculation of genetic differentiation and structure of mixed‐ploidy level populations. Molecular Ecology Resources, 13, 946–952.2373887310.1111/1755-0998.12129",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "23738873"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/1755-0998.12129"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0067",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0068",
+      "position": 67,
+      "title": "Do genetic drift and accumulation of deleterious mutations preclude adaptation? Empirical investigation using RAD seq in a northern lacustrine fish",
+      "source": "Molecular Ecology",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0068"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "26"
+        ],
+        "fpage": [
+          "6317"
+        ],
+        "lpage": [
+          "6335"
+        ]
+      },
+      "originalCitationText": "Perrier, C.\n, \nFerchaud, A. L.\n, \nSirois, P.\n, \nThibault, I.\n, & \nBernatchez, L.\n (2017). Do genetic drift and accumulation of deleterious mutations preclude adaptation? Empirical investigation using RAD seq in a northern lacustrine fish. Molecular Ecology, 26, 6317–6335. 10.1111/mec.14361\n29024140",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.14361"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29024140"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0068",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0069",
+      "position": 68,
+      "title": "Double digest RADseq: An inexpensive method for de novo SNP discovery and genotyping in model and non‐model species",
+      "source": "PLoS ONE",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0069"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "elocation-id": [
+          "e37135"
+        ]
+      },
+      "originalCitationText": "Peterson, B. K.\n, \nWeber, J. N.\n, \nKay, E. H.\n, \nFisher, H. S.\n, & \nHoekstra, H. E.\n (2012). Double digest RADseq: An inexpensive method for de novo SNP discovery and genotyping in model and non‐model species. PLoS ONE, 7, e37135. 10.1371/journal.pone.0037135\n22675423PMC3365034",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0037135"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22675423"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3365034"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0069",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0070",
+      "position": 69,
+      "title": "Effects of changing climate on aquatic habitat and connectivity for remnant populations of a wide‐ranging frog species in an arid landscape",
+      "source": "Ecology and Evolution",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0070"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "3979"
+        ],
+        "lpage": [
+          "3994"
+        ]
+      },
+      "originalCitationText": "Pilliod, D. S.\n, \nArkle, R. S.\n, \nRobertson, J. M.\n, \nMurphy, M. A.\n, & \nFunk, W. C.\n (2015). Effects of changing climate on aquatic habitat and connectivity for remnant populations of a wide‐ranging frog species in an arid landscape. Ecology and Evolution, 5, 3979–3994. 10.1002/ece3.1634\n26445654PMC4588645",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/ece3.1634"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26445654"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4588645"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0070",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0071",
+      "position": 70,
+      "title": "From satellites to frogs: Quantifying ecohydrological change, drought mitigation, and population demography in desert meadows",
+      "source": "Science of The Total Environment",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0071"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "758"
+        ]
+      },
+      "originalCitationText": "Pilliod, D. S.\n, \nHausner, M. B.\n, & \nScherer, R. D.\n (2021). From satellites to frogs: Quantifying ecohydrological change, drought mitigation, and population demography in desert meadows. Science of The Total Environment, 758, 143632. 10.1016/j.scitotenv.2020.143632\n33218818",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.scitotenv.2020.143632"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33218818"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0071",
+        "position": 70,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0072",
+      "position": 71,
+      "title": "Factors related to the distribution and prevalence of the fungal pathogen Batrachochytrium dendrobatidis in Rana cascadae and other amphibians in the Klamath Mountains",
+      "source": "Biological Conservation",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0072"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "144"
+        ],
+        "issue": [
+          "12"
+        ],
+        "fpage": [
+          "2913"
+        ],
+        "lpage": [
+          "2921"
+        ]
+      },
+      "originalCitationText": "Piovia‐Scott, J.\n, \nPope, K. L.\n, \nLawler, S. P.\n, \nCole, E. M.\n, & \nFoley, J. E.\n (2011). Factors related to the distribution and prevalence of the fungal pathogen Batrachochytrium dendrobatidis in Rana cascadae and other amphibians in the Klamath Mountains. Biological Conservation, 144(12), 2913–2921. 10.1016/j.biocon.2011.08.008",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.biocon.2011.08.008"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0072",
+        "position": 71,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0073",
+      "position": 72,
+      "title": null,
+      "source": "Proceedings of the 3rd international workshop on distributed statistical computing",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0073"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "10"
+        ]
+      },
+      "originalCitationText": "Plummer, M.\n (2003). JAGS: A program for analysis of Bayesian graphical models using Gibbs sampling. In Proceedings of the 3rd international workshop on distributed statistical computing (Vol. 124, No. 125.10, pp. 1–10).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0073",
+        "position": 72,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0074",
+      "position": 73,
+      "title": null,
+      "source": "CODA: Output analysis and diagnostics for MCMC",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0074"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Plummer, M.\n, \nBest, N.\n, \nCowles, K.\n, \nVines, K.\n, \nSarkar, D.\n, & \nAlmond, R.\n (2006). CODA: Output analysis and diagnostics for MCMC. 0.16. R package version 0.19‐3. https://CRAN.R‐project.org/package=coda",
+      "identifiers": [],
+      "externalLinks": [
+        "https://CRAN.R-project.org/package=coda"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0074",
+        "position": 73,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0075",
+      "position": 74,
+      "title": "Utilization of capture‐mark‐recapture for the study of recruitment and population growth rate",
+      "source": "Biometrics",
+      "year": "1996",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0075"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "52"
+        ],
+        "fpage": [
+          "703"
+        ],
+        "lpage": [
+          "709"
+        ]
+      },
+      "originalCitationText": "Pradel, R.\n (1996). Utilization of capture‐mark‐recapture for the study of recruitment and population growth rate. Biometrics, 52, 703–709.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0075",
+        "position": 74,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0076",
+      "position": 75,
+      "title": "Living fast and dying young: A comparative analysis of life‐history variation among mammals",
+      "source": "Journal of Zoology",
+      "year": "1990",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0076"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "220"
+        ],
+        "fpage": [
+          "417"
+        ],
+        "lpage": [
+          "437"
+        ]
+      },
+      "originalCitationText": "Promislow, D. E.\n, & \nHarvey, P. H.\n (1990). Living fast and dying young: A comparative analysis of life‐history variation among mammals. Journal of Zoology, 220, 417–437. 10.1111/j.1469-7998.1990.tb04316.x",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1469-7998.1990.tb04316.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0076",
+        "position": 75,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0077",
+      "position": 76,
+      "title": null,
+      "source": "Hormones and reproduction of vertebrates",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0077"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Norris",
+              "givenNames": "D. O.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "D. O.\nNorris"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Lopez",
+              "givenNames": "K. H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "K. H.\nLopez"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "39"
+        ],
+        "lpage": [
+          "53"
+        ],
+        "publisher-name": [
+          "Academic Press"
+        ]
+      },
+      "originalCitationText": "Propper, C. R.\n (2011). Testicular structure and control of sperm development in amphibians. In \n\nD. O.\nNorris\n\n, & \n\nK. H.\nLopez\n\n (Eds.), Hormones and reproduction of vertebrates (pp. 39–53). Academic Press.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0077",
+        "position": 76,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0078",
+      "position": 77,
+      "title": "A scaling normalization method for differential expression analysis of RNA‐seq data",
+      "source": "Genome Biology",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0078"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "issue": [
+          "3"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "9"
+        ]
+      },
+      "originalCitationText": "Robinson, M. D.\n, & \nOshlack, A.\n (2010). A scaling normalization method for differential expression analysis of RNA‐seq data. Genome Biology, 11(3), 1–9.10.1186/gb-2010-11-3-r25PMC286456520196867",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/gb-2010-11-3-r25"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2864565"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20196867"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0078",
+        "position": 77,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0079",
+      "position": 78,
+      "title": "Genome‐wide SNP analysis reveals an increase in adaptive genetic variation through selective breeding of coral",
+      "source": "Molecular Ecology",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0079"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "2176"
+        ],
+        "lpage": [
+          "2188"
+        ]
+      },
+      "originalCitationText": "Quigley, K. M.\n, \nBay, L. K.\n, & van Oppen, M. J.\n (2020). Genome‐wide SNP analysis reveals an increase in adaptive genetic variation through selective breeding of coral. Molecular Ecology, 29, 2176–2188. 10.1111/mec.15482\n32453867",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.15482"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32453867"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0079",
+        "position": 78,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0080",
+      "position": 79,
+      "title": null,
+      "source": "R: A language and environment for statistical computing",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0080"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "R Core Team\n. (2019). R: A language and environment for statistical computing. R Foundation for Statistical Computing. http://www.R‐project.org/",
+      "identifiers": [],
+      "externalLinks": [
+        "http://www.R-project.org/"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0080",
+        "position": 79,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0081",
+      "position": 80,
+      "title": "Spatiotemporal dynamics and genome‐wide association analysis of desiccation tolerance in Drosophila melanogaster",
+      "source": "Molecular Ecology",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0081"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "fpage": [
+          "3525"
+        ],
+        "lpage": [
+          "3540"
+        ]
+      },
+      "originalCitationText": "Rajpurohit, S.\n, \nGefen, E.\n, \nBergland, A. O.\n, \nPetrov, D. A.\n, \nGibbs, A. G.\n, & \nSchmidt, P. S.\n (2018). Spatiotemporal dynamics and genome‐wide association analysis of desiccation tolerance in Drosophila melanogaster\n. Molecular Ecology, 27, 3525–3540.3005164410.1111/mec.14814PMC6129450",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30051644"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/mec.14814"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6129450"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0081",
+        "position": 80,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0082",
+      "position": 81,
+      "title": "Adaptation to global change: A transposable element–epigenetics perspective",
+      "source": "Trends in Ecology & Evolution",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0082"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "fpage": [
+          "514"
+        ],
+        "lpage": [
+          "526"
+        ]
+      },
+      "originalCitationText": "Rey, O.\n, \nDanchin, E.\n, \nMirouze, M.\n, \nLoot, C.\n, & \nBlanchet, S.\n (2016). Adaptation to global change: A transposable element–epigenetics perspective. Trends in Ecology & Evolution, 31, 514–526. 10.1016/j.tree.2016.03.013\n27080578",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.tree.2016.03.013"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27080578"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0082",
+        "position": 81,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0083",
+      "position": 82,
+      "title": "Thermoregulatory behaviour affects prevalence of chytrid fungal infection in a wild population of Panamanian golden frogs",
+      "source": "Proceedings of the Royal Society B: Biological Sciences",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0083"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "277"
+        ],
+        "fpage": [
+          "519"
+        ],
+        "lpage": [
+          "528"
+        ]
+      },
+      "originalCitationText": "Richards‐Zawacki, C. L.\n (2010). Thermoregulatory behaviour affects prevalence of chytrid fungal infection in a wild population of Panamanian golden frogs. Proceedings of the Royal Society B: Biological Sciences, 277, 519–528. 10.1098/rspb.2009.1656\nPMC284269319864287",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1098/rspb.2009.1656"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2842693"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19864287"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0083",
+        "position": 82,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0084",
+      "position": 83,
+      "title": "Stacks 2: Analytical methods for paired‐end sequencing improve RADseq‐based population genomics",
+      "source": "Molecular Ecology",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0084"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "4737"
+        ],
+        "lpage": [
+          "4754"
+        ]
+      },
+      "originalCitationText": "Rochette, N. C.\n, \nRivera‐Colón, A. G.\n, & \nCatchen, J. M.\n (2019). Stacks 2: Analytical methods for paired‐end sequencing improve RADseq‐based population genomics. Molecular Ecology, 28, 4737–4754. 10.1111/mec.15253\n31550391",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.15253"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31550391"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0084",
+        "position": 83,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0085",
+      "position": 84,
+      "title": "Latitudinal divergence in a widespread amphibian: Contrasting patterns of neutral and adaptive genomic variation",
+      "source": "Molecular Ecology",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0085"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "2996"
+        ],
+        "lpage": [
+          "3011"
+        ]
+      },
+      "originalCitationText": "Rödin‐Mörch, P.\n, \nLuquet, E.\n, \nMeyer‐Lucht, Y.\n, \nRichter‐Boix, A.\n, \nHöglund, J.\n, & \nLaurila, A.\n (2019). Latitudinal divergence in a widespread amphibian: Contrasting patterns of neutral and adaptive genomic variation. Molecular Ecology, 28, 2996–3011. 10.1111/mec.15132\n31134695",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.15132"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31134695"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0085",
+        "position": 84,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0086",
+      "position": 85,
+      "title": "Small‐scale population divergence is driven by local larval environment in a temperate amphibian",
+      "source": "Heredity",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0086"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "126"
+        ],
+        "fpage": [
+          "279"
+        ],
+        "lpage": [
+          "292"
+        ]
+      },
+      "originalCitationText": "Rödin‐Mörch, P.\n, \nPalejowski, H.\n, \nCortazar‐Chinarro, M.\n, \nKärvemo, S.\n, \nRichter‐Boix, A.\n, \nHöglund, J.\n, & \nLaurila, A.\n (2021). Small‐scale population divergence is driven by local larval environment in a temperate amphibian. Heredity, 126, 279–292. 10.1038/s41437-020-00371-z\n32958927PMC8027893",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41437-020-00371-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32958927"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8027893"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0086",
+        "position": 85,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0087",
+      "position": 86,
+      "title": "Genomic and phenotypic signatures of climate adaptation in an Anolis lizard",
+      "source": "Ecology and Evolution",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0087"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "6390"
+        ],
+        "lpage": [
+          "6403"
+        ]
+      },
+      "originalCitationText": "Rodríguez, A.\n, \nRusciano, T.\n, \nHamilton, R.\n, \nHolmes, L.\n, \nJordan, D.\n, & \nWollenberg Valero, K. C.\n (2017). Genomic and phenotypic signatures of climate adaptation in an Anolis lizard. Ecology and Evolution, 7, 6390–6403.2886124210.1002/ece3.2985PMC5574798",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "28861242"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1002/ece3.2985"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5574798"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0087",
+        "position": 86,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0088",
+      "position": 87,
+      "title": "Antimicrobial peptide defenses of the mountain yellow‐legged frog (Rana muscosa)",
+      "source": "Developmental & Comparative Immunology",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0088"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "831"
+        ],
+        "lpage": [
+          "842"
+        ]
+      },
+      "originalCitationText": "Rollins‐Smith, L. A.\n, \nWoodhams, D. C.\n, \nReinert, L. K.\n, \nVredenburg, V. T.\n, \nBriggs, C. J.\n, \nNielsen, P. F.\n, & \nConlon, J. M.\n (2006). Antimicrobial peptide defenses of the mountain yellow‐legged frog (Rana muscosa). Developmental & Comparative Immunology, 30, 831–842. 10.1016/j.dci.2005.10.005\n16330099",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.dci.2005.10.005"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16330099"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0088",
+        "position": 87,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0089",
+      "position": 88,
+      "title": "Assessing ageing patterns for comparative analyses of mortality curves: Going beyond the use of maximum longevity",
+      "source": "Functional Ecology",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0089"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "fpage": [
+          "65"
+        ],
+        "lpage": [
+          "75"
+        ]
+      },
+      "originalCitationText": "Ronget, V.\n, & \nGaillard, J. M.\n (2020). Assessing ageing patterns for comparative analyses of mortality curves: Going beyond the use of maximum longevity. Functional Ecology, 34, 65–75. 10.1111/1365-2435.13474",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/1365-2435.13474"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0089",
+        "position": 88,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0090",
+      "position": 89,
+      "title": "Batrachochytrium dendrobatidis infection dynamics in the Columbia spotted frog Rana luteiventris in north Idaho, USA",
+      "source": "Diseases of Aquatic Organisms",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0090"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "92"
+        ],
+        "fpage": [
+          "223"
+        ],
+        "lpage": [
+          "230"
+        ]
+      },
+      "originalCitationText": "Russell, D. M.\n, \nGoldberg, C. S.\n, \nWaits, L. P.\n, & \nRosenblum, E. B.\n (2010). \nBatrachochytrium dendrobatidis infection dynamics in the Columbia spotted frog Rana luteiventris in north Idaho, USA. Diseases of Aquatic Organisms, 92, 223–230. 10.3354/dao02286\n21268985",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3354/dao02286"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21268985"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0090",
+        "position": 89,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0091",
+      "position": 90,
+      "title": "Detection and removal of PCR duplicates in population genomic ddRAD studies by addition of a degenerate base region (DBR) in sequencing adapters",
+      "source": "The Biological Bulletin",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0091"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "227"
+        ],
+        "fpage": [
+          "146"
+        ],
+        "lpage": [
+          "160"
+        ]
+      },
+      "originalCitationText": "Schweyen, H.\n, \nRozenberg, A.\n, & \nLeese, F.\n (2014). Detection and removal of PCR duplicates in population genomic ddRAD studies by addition of a degenerate base region (DBR) in sequencing adapters. The Biological Bulletin, 227, 146–160. 10.1086/BBLv227n2p146\n25411373",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1086/BBLv227n2p146"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25411373"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0091",
+        "position": 90,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0092",
+      "position": 91,
+      "title": "Physiological plasticity increases resilience of ectothermic animals to climate change",
+      "source": "Nature Climate Change",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0092"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "61"
+        ],
+        "lpage": [
+          "66"
+        ]
+      },
+      "originalCitationText": "Seebacher, F.\n, \nWhite, C. R.\n, & \nFranklin, C. E.\n (2015). Physiological plasticity increases resilience of ectothermic animals to climate change. Nature Climate Change, 5, 61–66. 10.1038/nclimate2457",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nclimate2457"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0092",
+        "position": 91,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0093",
+      "position": 92,
+      "title": "The effects of climate change and land‐use change on demographic rates and population viability",
+      "source": "Biological Reviews",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0093"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "90"
+        ],
+        "fpage": [
+          "837"
+        ],
+        "lpage": [
+          "853"
+        ]
+      },
+      "originalCitationText": "Selwood, K. E.\n, \nMcGeoch, M. A.\n, & \nMac Nally, R.\n (2015). The effects of climate change and land‐use change on demographic rates and population viability. Biological Reviews, 90, 837–853. 10.1111/brv.12136\n25155196",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/brv.12136"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25155196"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0093",
+        "position": 92,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0094",
+      "position": 93,
+      "title": "A competing‐risk model for animal mortality",
+      "source": "Ecology",
+      "year": "1979",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0094"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "60"
+        ],
+        "fpage": [
+          "750"
+        ],
+        "lpage": [
+          "757"
+        ]
+      },
+      "originalCitationText": "Siler, W.\n (1979). A competing‐risk model for animal mortality. Ecology, 60, 750–757. 10.2307/1936612",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.2307/1936612"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0094",
+        "position": 93,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0095",
+      "position": 94,
+      "title": "Skeletochronological assessment of demographic life‐history traits in amphibians",
+      "source": "The Herpetological Journal",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0095"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "5"
+        ],
+        "lpage": [
+          "13"
+        ]
+      },
+      "originalCitationText": "Sinsch, U.\n (2015). Skeletochronological assessment of demographic life‐history traits in amphibians. The Herpetological Journal, 25, 5–13.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0095",
+        "position": 94,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0096",
+      "position": 95,
+      "title": null,
+      "source": "RepeatMasker Open‐4.0",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0096"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Smit, A. F. A.\n, \nHubley, R.\n, & \nGreen, P.\n (2015). RepeatMasker Open‐4.0. http://www.repeatmasker.org",
+      "identifiers": [],
+      "externalLinks": [
+        "http://www.repeatmasker.org"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0096",
+        "position": 95,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0097",
+      "position": 96,
+      "title": "Cold and dark captivity: Drivers of amphibian longevity",
+      "source": "Global Ecology and Biogeography",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0097"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "fpage": [
+          "1384"
+        ],
+        "lpage": [
+          "1397"
+        ]
+      },
+      "originalCitationText": "Stark, G.\n, & \nMeiri, S.\n (2018). Cold and dark captivity: Drivers of amphibian longevity. Global Ecology and Biogeography, 27, 1384–1397. 10.1111/geb.12804",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/geb.12804"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0097",
+        "position": 96,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0098",
+      "position": 97,
+      "title": "Climate, changing phenology, and other life history traits: Nonlinearity and match–mismatch to the environment",
+      "source": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0098"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "99"
+        ],
+        "fpage": [
+          "13379"
+        ],
+        "lpage": [
+          "13381"
+        ]
+      },
+      "originalCitationText": "Stenseth, N. C.\n, & \nMysterud, A.\n (2002). Climate, changing phenology, and other life history traits: Nonlinearity and match–mismatch to the environment. Proceedings of the National Academy of Sciences of the United States of America, 99, 13379–13381. 10.1073/pnas.212519399\n12370424PMC129680",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.212519399"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12370424"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC129680"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0098",
+        "position": 97,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0099",
+      "position": 98,
+      "title": null,
+      "source": "R2jags: A package for running jags from R",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "jane13545-cit-0099"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Su, Y. S.\n, & \nYajima, M.\n (2012). R2jags: A package for running jags from R. R package version 0.03‐08. http://CRAN.R‐project.org/package=R2jags",
+      "identifiers": [],
+      "externalLinks": [
+        "http://CRAN.R-project.org/package=R2jags"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0099",
+        "position": 98,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0100",
+      "position": 99,
+      "title": "Skin breathing in amphibians",
+      "source": "Endothelial Biomedicine: A Comprehensive Reference",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0100"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "85"
+        ],
+        "lpage": [
+          "91"
+        ]
+      },
+      "originalCitationText": "Tattersall, G.\n (2007). Skin breathing in amphibians. Endothelial Biomedicine: A Comprehensive Reference, 85–91.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0100",
+        "position": 99,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0101",
+      "position": 100,
+      "title": "Physiological ecology of aquatic overwintering in ranid frogs",
+      "source": "Biological Reviews",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0101"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "83"
+        ],
+        "fpage": [
+          "119"
+        ],
+        "lpage": [
+          "140"
+        ]
+      },
+      "originalCitationText": "Tattersall, G. J.\n, & \nUltsch, G. R.\n (2008). Physiological ecology of aquatic overwintering in ranid frogs. Biological Reviews, 83, 119–140. 10.1111/j.1469-185X.2008.00035.x\n18429765",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1469-185X.2008.00035.x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18429765"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0101",
+        "position": 100,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0102",
+      "position": 101,
+      "title": "Hierarchical modelling of population growth rate from individual capture–recapture data",
+      "source": "Methods in Ecology and Evolution",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0102"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "606"
+        ],
+        "lpage": [
+          "614"
+        ]
+      },
+      "originalCitationText": "Tenan, S.\n, \nPradel, R.\n, \nTavecchia, G.\n, \nIgual, J. M.\n, \nSanz‐Aguilar, A.\n, \nGenovart, M.\n, & \nOro, D.\n (2014). Hierarchical modelling of population growth rate from individual capture–recapture data. Methods in Ecology and Evolution, 5, 606–614. 10.1111/2041-210X.12194",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/2041-210X.12194"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0102",
+        "position": 101,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0103",
+      "position": 102,
+      "title": "Temperature affects longevity and age‐related locomotor and cognitive decay in the short‐lived fish Nothobranchius furzeri",
+      "source": "Aging Cell",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0103"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "275"
+        ],
+        "lpage": [
+          "278"
+        ]
+      },
+      "originalCitationText": "Valenzano, D. R.\n, \nTerzibasi, E.\n, \nCattaneo, A.\n, \nDomenici, L.\n, & \nCellerino, A.\n (2006). Temperature affects longevity and age‐related locomotor and cognitive decay in the short‐lived fish Nothobranchius furzeri\n. Aging Cell, 5, 275–278. 10.1111/j.1474-9726.2006.00212.x\n16842500",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1474-9726.2006.00212.x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16842500"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0103",
+        "position": 102,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0104",
+      "position": 103,
+      "title": "Why disease ecology needs life‐history theory: A host perspective",
+      "source": "Ecology Letters",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0104"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "fpage": [
+          "876"
+        ],
+        "lpage": [
+          "890"
+        ]
+      },
+      "originalCitationText": "Valenzuela‐Sánchez, A.\n, \nWilber, M. Q.\n, \nCanessa, S.\n, \nBacigalupe, L. D.\n, \nMuths, E.\n, \nSchmidt, B. R.\n, \nCunningham, A. A.\n, \nOzgul, A.\n, \nJohnson, P. T. J.\n, & \nCayuela, H.\n (2021). Why disease ecology needs life‐history theory: A host perspective. Ecology Letters, 24, 876–890. 10.1111/ele.13681\n33492776",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/ele.13681"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33492776"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0104",
+        "position": 103,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0105",
+      "position": 104,
+      "title": "The impact of climate change on fertility",
+      "source": "Trends in Ecology & Evolution",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0105"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "fpage": [
+          "249"
+        ],
+        "lpage": [
+          "259"
+        ]
+      },
+      "originalCitationText": "Walsh, B. S.\n, \nParratt, S. R.\n, \nHoffmann, A. A.\n, \nAtkinson, D.\n, \nSnook, R. R.\n, \nBretman, A.\n, & \nPrice, T. A.\n (2019). The impact of climate change on fertility. Trends in Ecology & Evolution, 34, 249–259. 10.1016/j.tree.2018.12.002\n30635138",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.tree.2018.12.002"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30635138"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0105",
+        "position": 104,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0106",
+      "position": 105,
+      "title": "Going beyond SNPs: The role of structural genomic variants in adaptive evolution and species diversification",
+      "source": "Molecular Ecology",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0106"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "1203"
+        ],
+        "lpage": [
+          "1209"
+        ]
+      },
+      "originalCitationText": "Wellenreuther, M.\n, \nMérot, C.\n, \nBerdan, E.\n, & \nBernatchez, L.\n (2019). Going beyond SNPs: The role of structural genomic variants in adaptive evolution and species diversification. Molecular Ecology, 28, 1203–1209. 10.1111/mec.15066\n30834648",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/mec.15066"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30834648"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0106",
+        "position": 105,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0107",
+      "position": 106,
+      "title": "Emerging disease of amphibians cured by elevated body temperature",
+      "source": "Diseases of Aquatic Organisms",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0107"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "55"
+        ],
+        "fpage": [
+          "65"
+        ],
+        "lpage": [
+          "67"
+        ]
+      },
+      "originalCitationText": "Woodhams, D. C.\n, \nAlford, R. A.\n, & \nMarantelli, G.\n (2003). Emerging disease of amphibians cured by elevated body temperature. Diseases of Aquatic Organisms, 55, 65–67. 10.3354/dao055065\n12887256",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3354/dao055065"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12887256"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0107",
+        "position": 106,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0108",
+      "position": 107,
+      "title": "A review on bradykinin‐related peptides isolated from amphibian skin secretion",
+      "source": "Toxins",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0108"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "951"
+        ],
+        "lpage": [
+          "970"
+        ]
+      },
+      "originalCitationText": "Xi, X.\n, \nLi, B.\n, \nChen, T.\n, & \nKwok, H. F.\n (2015). A review on bradykinin‐related peptides isolated from amphibian skin secretion. Toxins, 7, 951–970. 10.3390/toxins7030951\n25793726PMC4379535",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/toxins7030951"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25793726"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4379535"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0108",
+        "position": 107,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0109",
+      "position": 108,
+      "title": "Genetic signals of high‐altitude adaptation in amphibians: A comparative transcriptome analysis",
+      "source": "BMC Genetics",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0109"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "10"
+        ]
+      },
+      "originalCitationText": "Yang, W.\n, \nQi, Y.\n, & \nFu, J.\n (2016). Genetic signals of high‐altitude adaptation in amphibians: A comparative transcriptome analysis. BMC Genetics, 17, 1–10. 10.1186/s12863-016-0440-z\n27716028PMC5048413",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12863-016-0440-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27716028"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5048413"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0109",
+        "position": 108,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0110",
+      "position": 109,
+      "title": "Evidence for only two independent pathways for decreasing senescence in Caenorhabditis elegans",
+      "source": "Age",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0110"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "fpage": [
+          "39"
+        ],
+        "lpage": [
+          "49"
+        ]
+      },
+      "originalCitationText": "Yen, K.\n, & \nMobbs, C. V.\n (2010). Evidence for only two independent pathways for decreasing senescence in Caenorhabditis elegans\n. Age, 32, 39–49. 10.1007/s11357-009-9110-7\n19662517PMC2829647",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s11357-009-9110-7"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19662517"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2829647"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0110",
+        "position": 109,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0111",
+      "position": 110,
+      "title": "Body size variation of four latitudinally‐separated populations of a toad species: Age and growth rate as the proximate determinants",
+      "source": "Integrative Zoology",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0111"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "315"
+        ],
+        "lpage": [
+          "323"
+        ]
+      },
+      "originalCitationText": "Yu, T.\n, & \nLu, X.\n (2013). Body size variation of four latitudinally‐separated populations of a toad species: Age and growth rate as the proximate determinants. Integrative Zoology, 8, 315–323. 10.1111/j.1749-4877.2012.00294.x\n24020470",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1749-4877.2012.00294.x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24020470"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0111",
+        "position": 110,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0112",
+      "position": 111,
+      "title": "Amphibians live longer at higher altitudes but not at higher latitudes",
+      "source": "Biological Journal of the Linnean Society",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0112"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "106"
+        ],
+        "fpage": [
+          "623"
+        ],
+        "lpage": [
+          "632"
+        ]
+      },
+      "originalCitationText": "Zhang, L.\n, & \nLu, X. I. N.\n (2012). Amphibians live longer at higher altitudes but not at higher latitudes. Biological Journal of the Linnean Society, 106, 623–632. 10.1111/j.1095-8312.2012.01876.x",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1095-8312.2012.01876.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0112",
+        "position": 111,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "jane13545-bib-0113",
+      "position": 112,
+      "title": "A review for life‐history traits variation in frogs especially for anurans in China",
+      "source": "Asian Herpetological Research",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "jane13545-cit-0113"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "165"
+        ],
+        "lpage": [
+          "174"
+        ]
+      },
+      "originalCitationText": "Zhong, M.\n, \nYu, X.\n, & \nLiao, W.\n (2018). A review for life‐history traits variation in frogs especially for anurans in China. Asian Herpetological Research, 9, 165–174.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC9292533/article.xml",
+        "articleSha256": "402e7f95771ed2e3fb2032be3d9e936c049be504b85d462ced6f6d6208fdd30f",
+        "referenceId": "jane13545-bib-0113",
+        "position": 112,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "The Journal of Animal Ecology"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "J Anim Ecol"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "J Anim Ecol"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "379"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "blackwellopen"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "0376574"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "JANE"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "ppub",
+        "value": "0021-8790"
+      },
+      {
+        "pub-type": "epub",
+        "value": "1365-2656"
+      }
+    ],
+    "publisherNames": [],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "91"
+    ],
+    "issue": [
+      "6"
+    ],
+    "fpage": [
+      "1222"
+    ],
+    "lpage": [
+      "1238"
+    ]
+  }
+}

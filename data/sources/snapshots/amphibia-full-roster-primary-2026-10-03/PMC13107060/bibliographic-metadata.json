@@ -1,0 +1,4602 @@
+{
+  "pmcid": "PMC13107060",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+  "sha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+  "articleType": "research-article",
+  "title": "Topography-aware optimal transport for alignment of spatial omics data",
+  "authors": [
+    {
+      "name": "Francesco Ceccarelli",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Francesco",
+        "surname": "Ceccarelli",
+        "suffix": null
+      },
+      "originalName": "CeccarelliFrancesco",
+      "attributes": {
+        "contrib-type": "author",
+        "id": "au1"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Pietro Liò",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Pietro",
+        "surname": "Liò",
+        "suffix": null
+      },
+      "originalName": "LiòPietro",
+      "attributes": {
+        "contrib-type": "author",
+        "id": "au2"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Julio Saez-Rodriguez",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Julio",
+        "surname": "Saez-Rodriguez",
+        "suffix": null
+      },
+      "originalName": "Saez-RodriguezJulio",
+      "attributes": {
+        "contrib-type": "author",
+        "id": "au3"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Sean B. Holden",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Sean B.",
+        "surname": "Holden",
+        "suffix": null
+      },
+      "originalName": "HoldenSean B.",
+      "attributes": {
+        "contrib-type": "author",
+        "id": "au4"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Jovan Tanevski",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Jovan",
+        "surname": "Tanevski",
+        "suffix": null
+      },
+      "originalName": "TanevskiJovan",
+      "attributes": {
+        "contrib-type": "author",
+        "id": "au5"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC13107060"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC13107060.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "13107060"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "13107060"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "41916307"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1016/j.crmeth.2026.101373"
+    },
+    {
+      "pub-id-type": "pii",
+      "value": "S2667-2375(26)00073-1"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "101373"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "collection",
+      "year": "2026",
+      "month": "4",
+      "day": "20"
+    },
+    {
+      "pub-type": "epub",
+      "year": "2026",
+      "month": "3",
+      "day": "30"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "mmc1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "mmc1.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "mmc1.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "mmc2",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "mmc2.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "mmc2.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "bib1",
+      "position": 0,
+      "title": "Impact of the Human Cell Atlas on medicine",
+      "source": "Nat. Med.",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref1"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Rood",
+              "givenNames": "J.E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RoodJ.E."
+            },
+            {
+              "surname": "Maartens",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaartensA."
+            },
+            {
+              "surname": "Hupalowska",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HupalowskaA."
+            },
+            {
+              "surname": "Teichmann",
+              "givenNames": "S.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TeichmannS.A."
+            },
+            {
+              "surname": "Regev",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RegevA."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "2486"
+        ],
+        "lpage": [
+          "2496"
+        ]
+      },
+      "originalCitationText": "RoodJ.E.MaartensA.HupalowskaA.TeichmannS.A.RegevA.Impact of the Human Cell Atlas on medicineNat. Med.282022248624963648210210.1038/s41591-022-02104-7",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "36482102"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41591-022-02104-7"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib2",
+      "position": 1,
+      "title": "Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex",
+      "source": "Nat. Neurosci.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref2"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Maynard",
+              "givenNames": "K.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaynardK.R."
+            },
+            {
+              "surname": "Collado-Torres",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Collado-TorresL."
+            },
+            {
+              "surname": "Weber",
+              "givenNames": "L.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeberL.M."
+            },
+            {
+              "surname": "Uytingco",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "UytingcoC."
+            },
+            {
+              "surname": "Barry",
+              "givenNames": "B.K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarryB.K."
+            },
+            {
+              "surname": "Williams",
+              "givenNames": "S.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WilliamsS.R."
+            },
+            {
+              "surname": "Catallini",
+              "givenNames": "J.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CatalliniJ.L."
+            },
+            {
+              "surname": "Tran",
+              "givenNames": "M.N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TranM.N."
+            },
+            {
+              "surname": "Besich",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BesichZ."
+            },
+            {
+              "surname": "Tippani",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TippaniM."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "fpage": [
+          "425"
+        ],
+        "lpage": [
+          "436"
+        ]
+      },
+      "originalCitationText": "MaynardK.R.Collado-TorresL.WeberL.M.UytingcoC.BarryB.K.WilliamsS.R.CatalliniJ.L.TranM.N.BesichZ.TippaniM.Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortexNat. Neurosci.2420214254363355869510.1038/s41593-020-00787-0PMC8095368",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "33558695"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41593-020-00787-0"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8095368"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib3",
+      "position": 2,
+      "title": null,
+      "source": "Biomarkers for Immunotherapy of Cancer",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "sref3"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Beechem",
+              "givenNames": "J.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BeechemJ.M."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "563"
+        ],
+        "lpage": [
+          "583"
+        ],
+        "publisher-name": [
+          "Springer"
+        ]
+      },
+      "originalCitationText": "BeechemJ.M.High-plex spatially resolved RNA and protein detection using digital spatial profiling: a technology designed for immuno-oncology biomarker discovery and translational researchBiomarkers for Immunotherapy of Cancer2020Springer56358310.1007/978-1-4939-9773-2_2531502169",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1007/978-1-4939-9773-2_25"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31502169"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib4",
+      "position": 3,
+      "title": "Transcriptome-scale super-resolved imaging in tissues by RNA seqFISH+",
+      "source": "Nature",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref4"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Eng",
+              "givenNames": "C.-H.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EngC.-H.L."
+            },
+            {
+              "surname": "Lawson",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LawsonM."
+            },
+            {
+              "surname": "Zhu",
+              "givenNames": "Q.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhuQ."
+            },
+            {
+              "surname": "Dries",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DriesR."
+            },
+            {
+              "surname": "Koulena",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KoulenaN."
+            },
+            {
+              "surname": "Takei",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TakeiY."
+            },
+            {
+              "surname": "Yun",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YunJ."
+            },
+            {
+              "surname": "Cronin",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CroninC."
+            },
+            {
+              "surname": "Karp",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KarpC."
+            },
+            {
+              "surname": "Yuan",
+              "givenNames": "G.-C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YuanG.-C."
+            },
+            {
+              "surname": "Cai",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CaiL."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "568"
+        ],
+        "fpage": [
+          "235"
+        ],
+        "lpage": [
+          "239"
+        ]
+      },
+      "originalCitationText": "EngC.-H.L.LawsonM.ZhuQ.DriesR.KoulenaN.TakeiY.YunJ.CroninC.KarpC.YuanG.-C.CaiL.Transcriptome-scale super-resolved imaging in tissues by RNA seqFISH+Nature56820192352393091116810.1038/s41586-019-1049-yPMC6544023",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30911168"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41586-019-1049-y"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6544023"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib5",
+      "position": 4,
+      "title": "Spatially resolved, highly multiplexed RNA profiling in single cells",
+      "source": "Science",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref5"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chen",
+              "givenNames": "K.H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenK.H."
+            },
+            {
+              "surname": "Boettiger",
+              "givenNames": "A.N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BoettigerA.N."
+            },
+            {
+              "surname": "Moffitt",
+              "givenNames": "J.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MoffittJ.R."
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangS."
+            },
+            {
+              "surname": "Zhuang",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhuangX."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "348"
+        ]
+      },
+      "originalCitationText": "ChenK.H.BoettigerA.N.MoffittJ.R.WangS.ZhuangX.Spatially resolved, highly multiplexed RNA profiling in single cellsScience3482015aaa609010.1126/science.aaa6090PMC466268125858977",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/science.aaa6090"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4662681"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25858977"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib6",
+      "position": 5,
+      "title": "Slide-seq: A scalable technology for measuring genome-wide expression at high spatial resolution",
+      "source": "Science",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref6"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Rodriques",
+              "givenNames": "S.G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RodriquesS.G."
+            },
+            {
+              "surname": "Stickels",
+              "givenNames": "R.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StickelsR.R."
+            },
+            {
+              "surname": "Goeva",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GoevaA."
+            },
+            {
+              "surname": "Martin",
+              "givenNames": "C.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MartinC.A."
+            },
+            {
+              "surname": "Murray",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MurrayE."
+            },
+            {
+              "surname": "Vanderburg",
+              "givenNames": "C.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VanderburgC.R."
+            },
+            {
+              "surname": "Welch",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WelchJ."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "L.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenL.M."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenF."
+            },
+            {
+              "surname": "Macosko",
+              "givenNames": "E.Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MacoskoE.Z."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "363"
+        ],
+        "fpage": [
+          "1463"
+        ],
+        "lpage": [
+          "1467"
+        ]
+      },
+      "originalCitationText": "RodriquesS.G.StickelsR.R.GoevaA.MartinC.A.MurrayE.VanderburgC.R.WelchJ.ChenL.M.ChenF.MacoskoE.Z.Slide-seq: A scalable technology for measuring genome-wide expression at high spatial resolutionScience3632019146314673092322510.1126/science.aaw1219PMC6927209",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30923225"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/science.aaw1219"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6927209"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib7",
+      "position": 6,
+      "title": "Spatial components of molecular tissue biology",
+      "source": "Nat. Biotechnol.",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref7"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Palla",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PallaG."
+            },
+            {
+              "surname": "Fischer",
+              "givenNames": "D.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FischerD.S."
+            },
+            {
+              "surname": "Regev",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RegevA."
+            },
+            {
+              "surname": "Theis",
+              "givenNames": "F.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TheisF.J."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "40"
+        ],
+        "fpage": [
+          "308"
+        ],
+        "lpage": [
+          "318"
+        ]
+      },
+      "originalCitationText": "PallaG.FischerD.S.RegevA.TheisF.J.Spatial components of molecular tissue biologyNat. Biotechnol.4020223083183513226110.1038/s41587-021-01182-1",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "35132261"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41587-021-01182-1"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib8",
+      "position": 7,
+      "title": "Optimal-transport analysis of single-cell gene expression identifies developmental trajectories in reprogramming",
+      "source": "Cell",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref8"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Schiebinger",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchiebingerG."
+            },
+            {
+              "surname": "Shu",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShuJ."
+            },
+            {
+              "surname": "Tabaka",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TabakaM."
+            },
+            {
+              "surname": "Cleary",
+              "givenNames": "B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ClearyB."
+            },
+            {
+              "surname": "Subramanian",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SubramanianV."
+            },
+            {
+              "surname": "Solomon",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SolomonA."
+            },
+            {
+              "surname": "Gould",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GouldJ."
+            },
+            {
+              "surname": "Liu",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuS."
+            },
+            {
+              "surname": "Lin",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LinS."
+            },
+            {
+              "surname": "Berube",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BerubeP."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "176"
+        ],
+        "fpage": [
+          "1517"
+        ],
+        "lpage": [
+          "1943"
+        ]
+      },
+      "originalCitationText": "SchiebingerG.ShuJ.TabakaM.ClearyB.SubramanianV.SolomonA.GouldJ.LiuS.LinS.BerubeP.Optimal-transport analysis of single-cell gene expression identifies developmental trajectories in reprogrammingCell1762019151719433084937610.1016/j.cell.2019.02.026PMC6615720",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30849376"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cell.2019.02.026"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6615720"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib9",
+      "position": 8,
+      "title": null,
+      "source": null,
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "sref9"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Galichon",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GalichonA."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Princeton University Press"
+        ]
+      },
+      "originalCitationText": "GalichonA.Optimal Transport Methods in Economics2018Princeton University Press",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib10",
+      "position": 9,
+      "title": "Convolutional wasserstein distances: Efficient optimal transportation on geometric domains",
+      "source": "ACM Trans. Graph.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref10"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Solomon",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SolomonJ."
+            },
+            {
+              "surname": "De Goes",
+              "givenNames": "F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "De GoesF."
+            },
+            {
+              "surname": "Peyré",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PeyréG."
+            },
+            {
+              "surname": "Cuturi",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CuturiM."
+            },
+            {
+              "surname": "Butscher",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ButscherA."
+            },
+            {
+              "surname": "Nguyen",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NguyenA."
+            },
+            {
+              "surname": "Du",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DuT."
+            },
+            {
+              "surname": "Guibas",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuibasL."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "11"
+        ]
+      },
+      "originalCitationText": "SolomonJ.De GoesF.PeyréG.CuturiM.ButscherA.NguyenA.DuT.GuibasL.Convolutional wasserstein distances: Efficient optimal transportation on geometric domainsACM Trans. Graph.342015111",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib11",
+      "position": 10,
+      "title": "Optimal transport for domain adaptation",
+      "source": "IEEE Trans. Pattern Anal. Mach. Intell.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref11"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Courty",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CourtyN."
+            },
+            {
+              "surname": "Flamary",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FlamaryR."
+            },
+            {
+              "surname": "Tuia",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TuiaD."
+            },
+            {
+              "surname": "Rakotomamonjy",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RakotomamonjyA."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "39"
+        ],
+        "fpage": [
+          "1853"
+        ],
+        "lpage": [
+          "1865"
+        ]
+      },
+      "originalCitationText": "CourtyN.FlamaryR.TuiaD.RakotomamonjyA.Optimal transport for domain adaptationIEEE Trans. Pattern Anal. Mach. Intell.392017185318652772357910.1109/TPAMI.2016.2615921",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "27723579"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1109/TPAMI.2016.2615921"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib12",
+      "position": 11,
+      "title": "Optimal transport for single-cell and spatial omics",
+      "source": "Nat. Rev. Methods Primers",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref12"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bunne",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BunneC."
+            },
+            {
+              "surname": "Schiebinger",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchiebingerG."
+            },
+            {
+              "surname": "Krause",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KrauseA."
+            },
+            {
+              "surname": "Regev",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RegevA."
+            },
+            {
+              "surname": "Cuturi",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CuturiM."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "58"
+        ]
+      },
+      "originalCitationText": "BunneC.SchiebingerG.KrauseA.RegevA.CuturiM.Optimal transport for single-cell and spatial omicsNat. Rev. Methods Primers420245810.1038/s43586-024-00334-2",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s43586-024-00334-2"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib13",
+      "position": 12,
+      "title": null,
+      "source": null,
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "sref13"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Villani",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VillaniC."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "publisher-name": [
+          "American Mathematical Soc."
+        ]
+      },
+      "originalCitationText": "VillaniC.Topics in Optimal Transportation2021American Mathematical Soc.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib14",
+      "position": 13,
+      "title": "Computational optimal transport: With applications to data science",
+      "source": "Foundations and Trends® in Machine Learning",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref14"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Peyré",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PeyréG."
+            },
+            {
+              "surname": "Cuturi",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CuturiM."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "355"
+        ],
+        "lpage": [
+          "607"
+        ]
+      },
+      "originalCitationText": "PeyréG.CuturiM.Computational optimal transport: With applications to data scienceFoundations and Trends® in Machine Learning112019355607",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib15",
+      "position": 14,
+      "title": "Alignment and integration of spatial transcriptomics data",
+      "source": "Nat. Methods",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref15"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zeira",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZeiraR."
+            },
+            {
+              "surname": "Land",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LandM."
+            },
+            {
+              "surname": "Strzalkowski",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StrzalkowskiA."
+            },
+            {
+              "surname": "Raphael",
+              "givenNames": "B.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RaphaelB.J."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "567"
+        ],
+        "lpage": [
+          "575"
+        ]
+      },
+      "originalCitationText": "ZeiraR.LandM.StrzalkowskiA.RaphaelB.J.Alignment and integration of spatial transcriptomics dataNat. Methods19202256757510.1038/s41592-022-01459-635577957PMC9334025",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41592-022-01459-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35577957"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9334025"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib16",
+      "position": 15,
+      "title": "Partial alignment of multislice spatially resolved transcriptomics data",
+      "source": "Genome Res.",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref16"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Liu",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuX."
+            },
+            {
+              "surname": "Zeira",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZeiraR."
+            },
+            {
+              "surname": "Raphael",
+              "givenNames": "B.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RaphaelB.J."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "33"
+        ],
+        "fpage": [
+          "1124"
+        ],
+        "lpage": [
+          "1132"
+        ]
+      },
+      "originalCitationText": "LiuX.ZeiraR.RaphaelB.J.Partial alignment of multislice spatially resolved transcriptomics dataGenome Res.332023112411323755326310.1101/gr.277670.123PMC10538490",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "37553263"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1101/gr.277670.123"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10538490"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib17",
+      "position": 16,
+      "title": "DeST-OT: Alignment of spatiotemporal transcriptomics data",
+      "source": "Cell Syst.",
+      "year": "2025",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref17"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Halmos",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HalmosP."
+            },
+            {
+              "surname": "Liu",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuX."
+            },
+            {
+              "surname": "Gold",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GoldJ."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenF."
+            },
+            {
+              "surname": "Ding",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DingL."
+            },
+            {
+              "surname": "Raphael",
+              "givenNames": "B.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RaphaelB.J."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ]
+      },
+      "originalCitationText": "HalmosP.LiuX.GoldJ.ChenF.DingL.RaphaelB.J.DeST-OT: Alignment of spatiotemporal transcriptomics dataCell Syst.16202510116010.1016/j.cels.2024.12.001PMC1197245139874960",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cels.2024.12.001"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11972451"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "39874960"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib18",
+      "position": 17,
+      "title": "DOT: a flexible multi-objective optimization framework for transferring features across single-cell and spatial omics",
+      "source": "Nat. Commun.",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref18"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Rahimi",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RahimiA."
+            },
+            {
+              "surname": "Vale-Silva",
+              "givenNames": "L.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Vale-SilvaL.A."
+            },
+            {
+              "surname": "Fälth Savitski",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Fälth SavitskiM."
+            },
+            {
+              "surname": "Tanevski",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanevskiJ."
+            },
+            {
+              "surname": "Saez-Rodriguez",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Saez-RodriguezJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "4994"
+        ]
+      },
+      "originalCitationText": "RahimiA.Vale-SilvaL.A.Fälth SavitskiM.TanevskiJ.Saez-RodriguezJ.DOT: a flexible multi-objective optimization framework for transferring features across single-cell and spatial omicsNat. Commun.152024499410.1038/s41467-024-48868-z38862466PMC11167014",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41467-024-48868-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38862466"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11167014"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib19",
+      "position": 18,
+      "title": "Mapping cells through time and space with moscot",
+      "source": "Nature",
+      "year": "2025",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref19"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Klein",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KleinD."
+            },
+            {
+              "surname": "Palla",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PallaG."
+            },
+            {
+              "surname": "Lange",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LangeM."
+            },
+            {
+              "surname": "Klein",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KleinM."
+            },
+            {
+              "surname": "Piran",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PiranZ."
+            },
+            {
+              "surname": "Gander",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GanderM."
+            },
+            {
+              "surname": "Meng-Papaxanthos",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Meng-PapaxanthosL."
+            },
+            {
+              "surname": "Sterr",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SterrM."
+            },
+            {
+              "surname": "Saber",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SaberL."
+            },
+            {
+              "surname": "Jing",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JingC."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "638"
+        ],
+        "fpage": [
+          "1065"
+        ],
+        "lpage": [
+          "1075"
+        ]
+      },
+      "originalCitationText": "KleinD.PallaG.LangeM.KleinM.PiranZ.GanderM.Meng-PapaxanthosL.SterrM.SaberL.JingC.Mapping cells through time and space with moscotNature6382025106510753984374610.1038/s41586-024-08453-2PMC11864987",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "39843746"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41586-024-08453-2"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11864987"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib20",
+      "position": 19,
+      "title": "Coordinated cellular neighborhoods orchestrate antitumoral immunity at the colorectal cancer invasive front",
+      "source": "Cell",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref20"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Schürch",
+              "givenNames": "C.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchürchC.M."
+            },
+            {
+              "surname": "Bhate",
+              "givenNames": "S.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BhateS.S."
+            },
+            {
+              "surname": "Barlow",
+              "givenNames": "G.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarlowG.L."
+            },
+            {
+              "surname": "Phillips",
+              "givenNames": "D.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PhillipsD.J."
+            },
+            {
+              "surname": "Noti",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NotiL."
+            },
+            {
+              "surname": "Zlobec",
+              "givenNames": "I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZlobecI."
+            },
+            {
+              "surname": "Chu",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChuP."
+            },
+            {
+              "surname": "Black",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BlackS."
+            },
+            {
+              "surname": "Demeter",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DemeterJ."
+            },
+            {
+              "surname": "McIlwain",
+              "givenNames": "D.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McIlwainD.R."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "182"
+        ],
+        "fpage": [
+          "1341"
+        ],
+        "lpage": [
+          "1359.e19"
+        ]
+      },
+      "originalCitationText": "SchürchC.M.BhateS.S.BarlowG.L.PhillipsD.J.NotiL.ZlobecI.ChuP.BlackS.DemeterJ.McIlwainD.R.Coordinated cellular neighborhoods orchestrate antitumoral immunity at the colorectal cancer invasive frontCell182202013411359.e193276315410.1016/j.cell.2020.07.005PMC7479520",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "32763154"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cell.2020.07.005"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7479520"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib21",
+      "position": 20,
+      "title": "Spatially organized multicellular immune hubs in human colorectal cancer",
+      "source": "Cell",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref21"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pelka",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PelkaK."
+            },
+            {
+              "surname": "Hofree",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HofreeM."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "J.H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenJ.H."
+            },
+            {
+              "surname": "Sarkizova",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SarkizovaS."
+            },
+            {
+              "surname": "Pirl",
+              "givenNames": "J.D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PirlJ.D."
+            },
+            {
+              "surname": "Jorgji",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JorgjiV."
+            },
+            {
+              "surname": "Bejnood",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BejnoodA."
+            },
+            {
+              "surname": "Dionne",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DionneD."
+            },
+            {
+              "surname": "Ge",
+              "givenNames": "W.H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GeW.H."
+            },
+            {
+              "surname": "Xu",
+              "givenNames": "K.H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XuK.H."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "184"
+        ],
+        "fpage": [
+          "4734"
+        ],
+        "lpage": [
+          "4752.e20"
+        ]
+      },
+      "originalCitationText": "PelkaK.HofreeM.ChenJ.H.SarkizovaS.PirlJ.D.JorgjiV.BejnoodA.DionneD.GeW.H.XuK.H.Spatially organized multicellular immune hubs in human colorectal cancerCell184202147344752.e203445002910.1016/j.cell.2021.08.003PMC8772395",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "34450029"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cell.2021.08.003"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8772395"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib22",
+      "position": 21,
+      "title": "Single-cell Stereo-seq reveals induced progenitor cells involved in axolotl brain regeneration",
+      "source": "Science",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref22"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wei",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeiX."
+            },
+            {
+              "surname": "Fu",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FuS."
+            },
+            {
+              "surname": "Li",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiH."
+            },
+            {
+              "surname": "Liu",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuY."
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangS."
+            },
+            {
+              "surname": "Feng",
+              "givenNames": "W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FengW."
+            },
+            {
+              "surname": "Yang",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YangY."
+            },
+            {
+              "surname": "Liu",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuX."
+            },
+            {
+              "surname": "Zeng",
+              "givenNames": "Y.-Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZengY.-Y."
+            },
+            {
+              "surname": "Cheng",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChengM."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "377"
+        ]
+      },
+      "originalCitationText": "WeiX.FuS.LiH.LiuY.WangS.FengW.YangY.LiuX.ZengY.-Y.ChengM.Single-cell Stereo-seq reveals induced progenitor cells involved in axolotl brain regenerationScience3772022eabp944410.1126/science.abp944436048929",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/science.abp9444"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36048929"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib23",
+      "position": 22,
+      "title": "Exploring tissue architecture using spatial transcriptomics",
+      "source": "Nature",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref23"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Rao",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RaoA."
+            },
+            {
+              "surname": "Barkley",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarkleyD."
+            },
+            {
+              "surname": "França",
+              "givenNames": "G.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FrançaG.S."
+            },
+            {
+              "surname": "Yanai",
+              "givenNames": "I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YanaiI."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "596"
+        ],
+        "fpage": [
+          "211"
+        ],
+        "lpage": [
+          "220"
+        ]
+      },
+      "originalCitationText": "RaoA.BarkleyD.FrançaG.S.YanaiI.Exploring tissue architecture using spatial transcriptomicsNature59620212112203438123110.1038/s41586-021-03634-9PMC8475179",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "34381231"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41586-021-03634-9"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8475179"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib24",
+      "position": 23,
+      "title": "Explainable multiview framework for dissecting spatial relationships from highly multiplexed data",
+      "source": "Genome Biol.",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref24"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tanevski",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanevskiJ."
+            },
+            {
+              "surname": "Flores",
+              "givenNames": "R.O.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FloresR.O.R."
+            },
+            {
+              "surname": "Gabor",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GaborA."
+            },
+            {
+              "surname": "Schapiro",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchapiroD."
+            },
+            {
+              "surname": "Saez-Rodriguez",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Saez-RodriguezJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ]
+      },
+      "originalCitationText": "TanevskiJ.FloresR.O.R.GaborA.SchapiroD.Saez-RodriguezJ.Explainable multiview framework for dissecting spatial relationships from highly multiplexed dataGenome Biol.2320229710.1186/s13059-022-02663-5PMC901193935422018",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s13059-022-02663-5"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9011939"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35422018"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib25",
+      "position": 24,
+      "title": "Learning tissue representation by identification of persistent local patterns in spatial omics data",
+      "source": "Nat. Commun.",
+      "year": "2025",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref25"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tanevski",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanevskiJ."
+            },
+            {
+              "surname": "Vulliard",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VulliardL."
+            },
+            {
+              "surname": "Ibarra-Arellano",
+              "givenNames": "M.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Ibarra-ArellanoM.A."
+            },
+            {
+              "surname": "Schapiro",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchapiroD."
+            },
+            {
+              "surname": "Hartmann",
+              "givenNames": "F.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HartmannF.J."
+            },
+            {
+              "surname": "Saez-Rodriguez",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Saez-RodriguezJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ]
+      },
+      "originalCitationText": "TanevskiJ.VulliardL.Ibarra-ArellanoM.A.SchapiroD.HartmannF.J.Saez-RodriguezJ.Learning tissue representation by identification of persistent local patterns in spatial omics dataNat. Commun.162025407110.1038/s41467-025-59448-0PMC1204415440307222",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41467-025-59448-0"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC12044154"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "40307222"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib26",
+      "position": 25,
+      "title": "Integrative spatial analysis reveals a multi-layered organization of glioblastoma",
+      "source": "Cell",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref26"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Greenwald",
+              "givenNames": "A.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GreenwaldA.C."
+            },
+            {
+              "surname": "Darnell",
+              "givenNames": "N.G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DarnellN.G."
+            },
+            {
+              "surname": "Hoefflin",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HoefflinR."
+            },
+            {
+              "surname": "Simkin",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimkinD."
+            },
+            {
+              "surname": "Mount",
+              "givenNames": "C.W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MountC.W."
+            },
+            {
+              "surname": "Gonzalez Castro",
+              "givenNames": "L.N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Gonzalez CastroL.N."
+            },
+            {
+              "surname": "Harnik",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HarnikY."
+            },
+            {
+              "surname": "Dumont",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DumontS."
+            },
+            {
+              "surname": "Hirsch",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HirschD."
+            },
+            {
+              "surname": "Nomura",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NomuraM."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "187"
+        ],
+        "fpage": [
+          "2485"
+        ],
+        "lpage": [
+          "2501.e26"
+        ]
+      },
+      "originalCitationText": "GreenwaldA.C.DarnellN.G.HoefflinR.SimkinD.MountC.W.Gonzalez CastroL.N.HarnikY.DumontS.HirschD.NomuraM.Integrative spatial analysis reveals a multi-layered organization of glioblastomaCell187202424852501.e263865323610.1016/j.cell.2024.03.029PMC11088502",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "38653236"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cell.2024.03.029"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC11088502"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib27",
+      "position": 26,
+      "title": null,
+      "source": "Advances in Neural Information Processing Systems",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "sref27"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Cuturi",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CuturiM."
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Burges",
+              "givenNames": "C.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BurgesC.J."
+            },
+            {
+              "surname": "Bottou",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BottouL."
+            },
+            {
+              "surname": "Welling",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WellingM."
+            },
+            {
+              "surname": "Ghahramani",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GhahramaniZ."
+            },
+            {
+              "surname": "Weinberger",
+              "givenNames": "K.Q.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeinbergerK.Q."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Curran Associates, Inc."
+        ]
+      },
+      "originalCitationText": "CuturiM.Sinkhorn Distances: Lightspeed Computation of Optimal TransportBurgesC.J.BottouL.WellingM.GhahramaniZ.WeinbergerK.Q.Advances in Neural Information Processing Systems2013Curran Associates, Inc.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib28",
+      "position": 27,
+      "title": "Deep learning and alignment of spatially resolved single-cell transcriptomes with Tangram",
+      "source": "Nat. Methods",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref28"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Biancalani",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BiancalaniT."
+            },
+            {
+              "surname": "Scalia",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ScaliaG."
+            },
+            {
+              "surname": "Buffoni",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BuffoniL."
+            },
+            {
+              "surname": "Avasthi",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AvasthiR."
+            },
+            {
+              "surname": "Lu",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuZ."
+            },
+            {
+              "surname": "Sanger",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SangerA."
+            },
+            {
+              "surname": "Tokcan",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TokcanN."
+            },
+            {
+              "surname": "Vanderburg",
+              "givenNames": "C.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VanderburgC.R."
+            },
+            {
+              "surname": "Segerstolpe",
+              "givenNames": "Å.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SegerstolpeÅ."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangM."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "1352"
+        ],
+        "lpage": [
+          "1362"
+        ]
+      },
+      "originalCitationText": "BiancalaniT.ScaliaG.BuffoniL.AvasthiR.LuZ.SangerA.TokcanN.VanderburgC.R.SegerstolpeÅ.ZhangM.Deep learning and alignment of spatially resolved single-cell transcriptomes with TangramNat. Methods182021135213623471197110.1038/s41592-021-01264-7PMC8566243",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "34711971"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41592-021-01264-7"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8566243"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib29",
+      "position": 28,
+      "title": "Gene expression cartography",
+      "source": "Nature",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref29"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nitzan",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NitzanM."
+            },
+            {
+              "surname": "Karaiskos",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KaraiskosN."
+            },
+            {
+              "surname": "Friedman",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FriedmanN."
+            },
+            {
+              "surname": "Rajewsky",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RajewskyN."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "576"
+        ],
+        "fpage": [
+          "132"
+        ],
+        "lpage": [
+          "137"
+        ]
+      },
+      "originalCitationText": "NitzanM.KaraiskosN.FriedmanN.RajewskyN.Gene expression cartographyNature576201913213710.1038/s41586-019-1773-331748748",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41586-019-1773-3"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31748748"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib30",
+      "position": 29,
+      "title": "From Louvain to Leiden: guaranteeing well-connected communities",
+      "source": "Sci. Rep.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref30"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Traag",
+              "givenNames": "V.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TraagV.A."
+            },
+            {
+              "surname": "Waltman",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WaltmanL."
+            },
+            {
+              "surname": "Van Eck",
+              "givenNames": "N.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Van EckN.J."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "5233"
+        ]
+      },
+      "originalCitationText": "TraagV.A.WaltmanL.Van EckN.J.From Louvain to Leiden: guaranteeing well-connected communitiesSci. Rep.9201952333091474310.1038/s41598-019-41695-zPMC6435756",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30914743"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41598-019-41695-z"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6435756"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib31",
+      "position": 30,
+      "title": "Multi-modal image analysis for large scale cancer tissue studies within IMMUcan",
+      "source": "Cell Rep. Methods",
+      "year": "2025",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref31"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Eling",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ElingN."
+            },
+            {
+              "surname": "Dorier",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DorierJ."
+            },
+            {
+              "surname": "Rusakiewicz",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RusakiewiczS."
+            },
+            {
+              "surname": "Liechti",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiechtiR."
+            },
+            {
+              "surname": "Devanand",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DevanandP."
+            },
+            {
+              "surname": "Daniel",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DanielM."
+            },
+            {
+              "surname": "Windhager",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WindhagerJ."
+            },
+            {
+              "surname": "Fernandez",
+              "givenNames": "B.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FernandezB.P."
+            },
+            {
+              "surname": "Deglise",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DegliseS."
+            },
+            {
+              "surname": "Despland",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DesplandL."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ]
+      },
+      "originalCitationText": "ElingN.DorierJ.RusakiewiczS.LiechtiR.DevanandP.DanielM.WindhagerJ.FernandezB.P.DegliseS.DesplandL.Multi-modal image analysis for large scale cancer tissue studies within IMMUcanCell Rep. Methods5202510117010.1016/j.crmeth.2025.101170PMC1253925840930089",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.crmeth.2025.101170"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC12539258"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "40930089"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib32",
+      "position": 31,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other",
+        "id": "sref32"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "10x Genomics (2025). Xenium In Situ Gene and Protein Expression data for FFPE Human Renal Cell Carcinoma",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib33",
+      "position": 32,
+      "title": "Gene selection for optimal prediction of cell position in tissues from single-cell transcriptomics data",
+      "source": "Life Sci. Alliance",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref33"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tanevski",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanevskiJ."
+            },
+            {
+              "surname": "Nguyen",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NguyenT."
+            },
+            {
+              "surname": "Truong",
+              "givenNames": "B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TruongB."
+            },
+            {
+              "surname": "Karaiskos",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KaraiskosN."
+            },
+            {
+              "surname": "Ahsen",
+              "givenNames": "M.E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AhsenM.E."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangX."
+            },
+            {
+              "surname": "Shu",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShuC."
+            },
+            {
+              "surname": "Xu",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XuK."
+            },
+            {
+              "surname": "Liang",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiangX."
+            },
+            {
+              "surname": "Hu",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuY."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ]
+      },
+      "originalCitationText": "TanevskiJ.NguyenT.TruongB.KaraiskosN.AhsenM.E.ZhangX.ShuC.XuK.LiangX.HuY.Gene selection for optimal prediction of cell position in tissues from single-cell transcriptomics dataLife Sci. Alliance32020e20200086710.26508/lsa.202000867PMC753682532972997",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.26508/lsa.202000867"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7536825"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32972997"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib34",
+      "position": 33,
+      "title": "Integration of spatial and single-cell transcriptomic data elucidates mouse organogenesis",
+      "source": "Nat. Biotechnol.",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref34"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lohoff",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LohoffT."
+            },
+            {
+              "surname": "Ghazanfar",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GhazanfarS."
+            },
+            {
+              "surname": "Missarova",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MissarovaA."
+            },
+            {
+              "surname": "Koulena",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KoulenaN."
+            },
+            {
+              "surname": "Pierson",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PiersonN."
+            },
+            {
+              "surname": "Griffiths",
+              "givenNames": "J.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GriffithsJ.A."
+            },
+            {
+              "surname": "Bardot",
+              "givenNames": "E.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BardotE.S."
+            },
+            {
+              "surname": "Eng",
+              "givenNames": "C.H.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EngC.H.L."
+            },
+            {
+              "surname": "Tyser",
+              "givenNames": "R.C.V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TyserR.C.V."
+            },
+            {
+              "surname": "Argelaguet",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ArgelaguetR."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "40"
+        ],
+        "fpage": [
+          "74"
+        ],
+        "lpage": [
+          "85"
+        ]
+      },
+      "originalCitationText": "LohoffT.GhazanfarS.MissarovaA.KoulenaN.PiersonN.GriffithsJ.A.BardotE.S.EngC.H.L.TyserR.C.V.ArgelaguetR.Integration of spatial and single-cell transcriptomic data elucidates mouse organogenesisNat. Biotechnol.40202274853448960010.1038/s41587-021-01006-2PMC8763645",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "34489600"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41587-021-01006-2"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8763645"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib35",
+      "position": 34,
+      "title": "STEM enables mapping of single-cell and spatial transcriptomics data with transfer learning",
+      "source": "Commun. Biol.",
+      "year": "2024",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref35"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hao",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaoM."
+            },
+            {
+              "surname": "Luo",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuoE."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenY."
+            },
+            {
+              "surname": "Wu",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WuY."
+            },
+            {
+              "surname": "Li",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiC."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenS."
+            },
+            {
+              "surname": "Gao",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GaoH."
+            },
+            {
+              "surname": "Bian",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BianH."
+            },
+            {
+              "surname": "Gu",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuJ."
+            },
+            {
+              "surname": "Wei",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeiL."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangX."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "56"
+        ]
+      },
+      "originalCitationText": "HaoM.LuoE.ChenY.WuY.LiC.ChenS.GaoH.BianH.GuJ.WeiL.ZhangX.STEM enables mapping of single-cell and spatial transcriptomics data with transfer learningCommun. Biol.72024563818469410.1038/s42003-023-05640-1PMC10771471",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "38184694"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s42003-023-05640-1"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10771471"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib36",
+      "position": 35,
+      "title": "Multimodal analysis of composition and spatial architecture in human squamous cell carcinoma",
+      "source": "Cell",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref36"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ji",
+              "givenNames": "A.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JiA.L."
+            },
+            {
+              "surname": "Rubin",
+              "givenNames": "A.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RubinA.J."
+            },
+            {
+              "surname": "Thrane",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThraneK."
+            },
+            {
+              "surname": "Jiang",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JiangS."
+            },
+            {
+              "surname": "Reynolds",
+              "givenNames": "D.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ReynoldsD.L."
+            },
+            {
+              "surname": "Meyers",
+              "givenNames": "R.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeyersR.M."
+            },
+            {
+              "surname": "Guo",
+              "givenNames": "M.G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuoM.G."
+            },
+            {
+              "surname": "George",
+              "givenNames": "B.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GeorgeB.M."
+            },
+            {
+              "surname": "Mollbrink",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MollbrinkA."
+            },
+            {
+              "surname": "Bergenstråhle",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BergenstråhleJ."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "182"
+        ],
+        "fpage": [
+          "1661"
+        ],
+        "lpage": [
+          "1662"
+        ]
+      },
+      "originalCitationText": "JiA.L.RubinA.J.ThraneK.JiangS.ReynoldsD.L.MeyersR.M.GuoM.G.GeorgeB.M.MollbrinkA.BergenstråhleJ.Multimodal analysis of composition and spatial architecture in human squamous cell carcinomaCell1822020166116623294678510.1016/j.cell.2020.08.043PMC7505493",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "32946785"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.cell.2020.08.043"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7505493"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib37",
+      "position": 36,
+      "title": "Cell types in the mouse cortex and hippocampus revealed by single-cell RNA-seq",
+      "source": "Science",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref37"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zeisel",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZeiselA."
+            },
+            {
+              "surname": "Muñoz-Manchado",
+              "givenNames": "A.B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Muñoz-ManchadoA.B."
+            },
+            {
+              "surname": "Codeluppi",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CodeluppiS."
+            },
+            {
+              "surname": "Lönnerberg",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LönnerbergP."
+            },
+            {
+              "surname": "La Manno",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "La MannoG."
+            },
+            {
+              "surname": "Juréus",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JuréusA."
+            },
+            {
+              "surname": "Marques",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MarquesS."
+            },
+            {
+              "surname": "Munguba",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MungubaH."
+            },
+            {
+              "surname": "He",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HeL."
+            },
+            {
+              "surname": "Betsholtz",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BetsholtzC."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "347"
+        ],
+        "fpage": [
+          "1138"
+        ],
+        "lpage": [
+          "1142"
+        ]
+      },
+      "originalCitationText": "ZeiselA.Muñoz-ManchadoA.B.CodeluppiS.LönnerbergP.La MannoG.JuréusA.MarquesS.MungubaH.HeL.BetsholtzC.Cell types in the mouse cortex and hippocampus revealed by single-cell RNA-seqScience3472015113811422570017410.1126/science.aaa1934",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "25700174"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/science.aaa1934"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib38",
+      "position": 37,
+      "title": "Spatial organization of the somatosensory cortex revealed by osmFISH",
+      "source": "Nat. Methods",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref38"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Codeluppi",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CodeluppiS."
+            },
+            {
+              "surname": "Borm",
+              "givenNames": "L.E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BormL.E."
+            },
+            {
+              "surname": "Zeisel",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZeiselA."
+            },
+            {
+              "surname": "La Manno",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "La MannoG."
+            },
+            {
+              "surname": "van Lunteren",
+              "givenNames": "J.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "van LunterenJ.A."
+            },
+            {
+              "surname": "Svensson",
+              "givenNames": "C.I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SvenssonC.I."
+            },
+            {
+              "surname": "Linnarsson",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LinnarssonS."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "932"
+        ],
+        "lpage": [
+          "935"
+        ]
+      },
+      "originalCitationText": "CodeluppiS.BormL.E.ZeiselA.La MannoG.van LunterenJ.A.SvenssonC.I.LinnarssonS.Spatial organization of the somatosensory cortex revealed by osmFISHNat. Methods1520189329353037736410.1038/s41592-018-0175-z",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30377364"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41592-018-0175-z"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib39",
+      "position": 38,
+      "title": "A joint model of unpaired data from scRNA-seq and spatial transcriptomics for imputing missing gene expression measurements",
+      "source": "arXiv",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref39"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lopez",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LopezR."
+            },
+            {
+              "surname": "Nazaret",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NazaretA."
+            },
+            {
+              "surname": "Langevin",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LangevinM."
+            },
+            {
+              "surname": "Samaran",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SamaranJ."
+            },
+            {
+              "surname": "Regier",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RegierJ."
+            },
+            {
+              "surname": "Jordan",
+              "givenNames": "M.I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JordanM.I."
+            },
+            {
+              "surname": "Yosef",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YosefN."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "LopezR.NazaretA.LangevinM.SamaranJ.RegierJ.JordanM.I.YosefN.A joint model of unpaired data from scRNA-seq and spatial transcriptomics for imputing missing gene expression measurementsarXiv201910.48550/arXiv.1905.02269Preprint at",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.48550/arXiv.1905.02269"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib40",
+      "position": 39,
+      "title": "SCANPY: large-scale single-cell gene expression data analysis",
+      "source": "Genome Biol.",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref40"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wolf",
+              "givenNames": "F.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WolfF.A."
+            },
+            {
+              "surname": "Angerer",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AngererP."
+            },
+            {
+              "surname": "Theis",
+              "givenNames": "F.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TheisF.J."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "15"
+        ]
+      },
+      "originalCitationText": "WolfF.A.AngererP.TheisF.J.SCANPY: large-scale single-cell gene expression data analysisGenome Biol.192018152940953210.1186/s13059-017-1382-0PMC5802054",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29409532"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s13059-017-1382-0"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5802054"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib41",
+      "position": 40,
+      "title": "Squidpy: a scalable framework for spatial omics analysis",
+      "source": "Nat. Methods",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref41"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Palla",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PallaG."
+            },
+            {
+              "surname": "Spitzer",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SpitzerH."
+            },
+            {
+              "surname": "Klein",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KleinM."
+            },
+            {
+              "surname": "Fischer",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FischerD."
+            },
+            {
+              "surname": "Schaar",
+              "givenNames": "A.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchaarA.C."
+            },
+            {
+              "surname": "Kuemmerle",
+              "givenNames": "L.B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KuemmerleL.B."
+            },
+            {
+              "surname": "Rybakov",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RybakovS."
+            },
+            {
+              "surname": "Ibarra",
+              "givenNames": "I.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IbarraI.L."
+            },
+            {
+              "surname": "Holmberg",
+              "givenNames": "O.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HolmbergO."
+            },
+            {
+              "surname": "Virshup",
+              "givenNames": "I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VirshupI."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "171"
+        ],
+        "lpage": [
+          "178"
+        ]
+      },
+      "originalCitationText": "PallaG.SpitzerH.KleinM.FischerD.SchaarA.C.KuemmerleL.B.RybakovS.IbarraI.L.HolmbergO.VirshupI.Squidpy: a scalable framework for spatial omics analysisNat. Methods1920221711783510234610.1038/s41592-021-01358-2PMC8828470",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "35102346"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41592-021-01358-2"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8828470"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib45",
+      "position": 41,
+      "title": "POT: Python Optimal Transport",
+      "source": "J. Mach. Learn. Res.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "optcpCFXETvDW"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Flamary",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FlamaryR."
+            },
+            {
+              "surname": "Courty",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CourtyN."
+            },
+            {
+              "surname": "Gramfort",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GramfortA."
+            },
+            {
+              "surname": "Alaya",
+              "givenNames": "M.Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AlayaM.Z."
+            },
+            {
+              "surname": "Boisbunon",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BoisbunonA."
+            },
+            {
+              "surname": "Chambon",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChambonS."
+            },
+            {
+              "surname": "Chapel",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChapelL."
+            },
+            {
+              "surname": "Corenflos",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CorenflosA."
+            },
+            {
+              "surname": "Fatras",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FatrasK."
+            },
+            {
+              "surname": "Fournier",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FournierN."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "8"
+        ]
+      },
+      "originalCitationText": "FlamaryR.CourtyN.GramfortA.AlayaM.Z.BoisbunonA.ChambonS.ChapelL.CorenflosA.FatrasK.FournierN.POT: Python Optimal TransportJ. Mach. Learn. Res.22202118",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib45",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib42",
+      "position": 42,
+      "title": "Concerning nonnegative matrices and doubly stochastic matrices",
+      "source": "Pac. J. Math.",
+      "year": "1967",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref42"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sinkhorn",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SinkhornR."
+            },
+            {
+              "surname": "Knopp",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KnoppP."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "fpage": [
+          "343"
+        ],
+        "lpage": [
+          "348"
+        ]
+      },
+      "originalCitationText": "SinkhornR.KnoppP.Concerning nonnegative matrices and doubly stochastic matricesPac. J. Math.211967343348",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib42",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib43",
+      "position": 43,
+      "title": null,
+      "source": "International conference on machine learning (PMLR)",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "sref43"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Peyré",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PeyréG."
+            },
+            {
+              "surname": "Cuturi",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CuturiM."
+            },
+            {
+              "surname": "Solomon",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SolomonJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "2664"
+        ],
+        "lpage": [
+          "2672"
+        ]
+      },
+      "originalCitationText": "PeyréG.CuturiM.SolomonJ.Gromov-wasserstein averaging of kernel and distance matricesInternational conference on machine learning (PMLR)201626642672",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib43",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib44",
+      "position": 44,
+      "title": "Iterative Bregman projections for regularized transportation problems",
+      "source": "SIAM J. Sci. Comput.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "sref44"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Benamou",
+              "givenNames": "J.-D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BenamouJ.-D."
+            },
+            {
+              "surname": "Carlier",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CarlierG."
+            },
+            {
+              "surname": "Cuturi",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CuturiM."
+            },
+            {
+              "surname": "Nenna",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NennaL."
+            },
+            {
+              "surname": "Peyré",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PeyréG."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "37"
+        ],
+        "fpage": [
+          "A1111"
+        ],
+        "lpage": [
+          "A1138"
+        ]
+      },
+      "originalCitationText": "BenamouJ.-D.CarlierG.CuturiM.NennaL.PeyréG.Iterative Bregman projections for regularized transportation problemsSIAM J. Sci. Comput.372015A1111A1138",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13107060/article.xml",
+        "articleSha256": "ec5ae2879b1a7ec787868dcd2f741a6e03c75bcde9d667255bae6b9512c2923a",
+        "referenceId": "bib44",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Cell Reports Methods"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Cell Rep Methods"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Cell Rep Methods"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "4202"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "crmeth"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "9918227360606676"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2667-2375"
+      }
+    ],
+    "publisherNames": [
+      "Elsevier"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "6"
+    ],
+    "issue": [
+      "4"
+    ],
+    "elocation-id": [
+      "101373"
+    ]
+  }
+}

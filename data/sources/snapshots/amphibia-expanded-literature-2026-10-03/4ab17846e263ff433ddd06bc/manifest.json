@@ -1,0 +1,70 @@
+{
+  "name": "Rana bufo",
+  "key": "4ab17846e263ff433ddd06bc",
+  "concepts": [
+    {
+      "authority": "archived ITIS synonym lead",
+      "id": "NP2D",
+      "sourceTsn": "173480",
+      "synonymLocator": {
+        "datasetKey": 2144,
+        "archive": "checklistbank-2144-itis-2026-08-26.zip",
+        "member": "Synonym.tsv",
+        "row": 239919,
+        "key": "173480-1103349"
+      },
+      "nameLocator": {
+        "datasetKey": 2144,
+        "archive": "checklistbank-2144-itis-2026-08-26.zip",
+        "member": "Name.tsv",
+        "row": 820720,
+        "key": "1103349"
+      },
+      "authorship": "Linnaeus, 1758",
+      "conceptEquivalenceCertified": false
+    }
+  ],
+  "query": "\"Rana bufo\"",
+  "pages": [
+    {
+      "file": "data/sources/snapshots/amphibia-expanded-literature-2026-10-03/4ab17846e263ff433ddd06bc/page-00001.json.gz",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Rana%20bufo%22&format=json&pageSize=1000&resultType=core&cursorMark=*",
+      "cursorMark": "*",
+      "nextCursorMark": "AoIIPWSyByUzMzg0Nw==",
+      "hitCount": 1010,
+      "records": 1000,
+      "capturedAt": "2026-10-03T12:17:09.535Z",
+      "sha256": "e467564b8cad2283a13284cee4e6f020712a9774b34a973f37fa21ede247c055",
+      "gzipSha256": "6df06e80b1857b96d78cb51d995dc4fd5645d4b7d70153906269af213299fa95",
+      "terminal": false
+    },
+    {
+      "file": "data/sources/snapshots/amphibia-expanded-literature-2026-10-03/4ab17846e263ff433ddd06bc/page-00002.json.gz",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Rana%20bufo%22&format=json&pageSize=1000&resultType=core&cursorMark=AoIIPWSyByUzMzg0Nw%3D%3D",
+      "cursorMark": "AoIIPWSyByUzMzg0Nw==",
+      "nextCursorMark": "AoIIPK49USgzODc2NjMzMA==",
+      "hitCount": 1010,
+      "records": 10,
+      "capturedAt": "2026-10-03T12:17:09.857Z",
+      "sha256": "b07358eea573229643743369702c6b7f1f4544654fe1ef429390cdaa4c9c4281",
+      "gzipSha256": "097faffbf4844cd0069777e5fecbe07ac53c4d2c5ff9ff12dbb3c469e22276a8",
+      "terminal": false
+    },
+    {
+      "file": "data/sources/snapshots/amphibia-expanded-literature-2026-10-03/4ab17846e263ff433ddd06bc/page-00003.json.gz",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Rana%20bufo%22&format=json&pageSize=1000&resultType=core&cursorMark=AoIIPK49USgzODc2NjMzMA%3D%3D",
+      "cursorMark": "AoIIPK49USgzODc2NjMzMA==",
+      "nextCursorMark": null,
+      "hitCount": 1010,
+      "records": 0,
+      "capturedAt": "2026-10-03T12:17:10.515Z",
+      "sha256": "62cd76c5bf21ae2ebfa30e307018a66e41ae4480b3492a08710afb1632d741ff",
+      "gzipSha256": "2f7d6022ddca085d973618a11b61b4f1a13263220468b734afdaf5109d311493",
+      "terminal": true
+    }
+  ],
+  "hitCount": 1010,
+  "nextCursor": null,
+  "complete": true,
+  "totalCapturedRecords": 1010
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Rana ridibunda",
+  "key": "6004a7b31fd164f190e814b0",
+  "concepts": [
+    {
+      "authority": "archived ITIS synonym lead",
+      "id": "76CHR",
+      "sourceTsn": "775195",
+      "synonymLocator": {
+        "datasetKey": 2144,
+        "archive": "checklistbank-2144-itis-2026-08-26.zip",
+        "member": "Synonym.tsv",
+        "row": 106653,
+        "key": "775195-665407"
+      },
+      "nameLocator": {
+        "datasetKey": 2144,
+        "archive": "checklistbank-2144-itis-2026-08-26.zip",
+        "member": "Name.tsv",
+        "row": 425907,
+        "key": "665407"
+      },
+      "authorship": "Pallas, 1771",
+      "conceptEquivalenceCertified": false
+    }
+  ],
+  "query": "\"Rana ridibunda\"",
+  "pages": [
+    {
+      "file": "data/sources/snapshots/amphibia-expanded-literature-2026-10-03/6004a7b31fd164f190e814b0/page-00001.json.gz",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Rana%20ridibunda%22&format=json&pageSize=1000&resultType=core&cursorMark=*",
+      "cursorMark": "*",
+      "nextCursorMark": "AoIIPplLGic5MTE2OTQw",
+      "hitCount": 1718,
+      "records": 1000,
+      "capturedAt": "2026-10-03T11:57:07.693Z",
+      "sha256": "1cce567ce4dbe1de600e3455e40ead644f4ce37a76546bca437725b186c3892d",
+      "gzipSha256": "2a260a8d562979efd5679971f6ba040660df320ebb8a6d9e2ae59a2b4f1b76ac",
+      "terminal": false
+    },
+    {
+      "file": "data/sources/snapshots/amphibia-expanded-literature-2026-10-03/6004a7b31fd164f190e814b0/page-00002.json.gz",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Rana%20ridibunda%22&format=json&pageSize=1000&resultType=core&cursorMark=AoIIPplLGic5MTE2OTQw",
+      "cursorMark": "AoIIPplLGic5MTE2OTQw",
+      "nextCursorMark": "AoIIO/7RESg0MTQzMTM0OA==",
+      "hitCount": 1718,
+      "records": 718,
+      "capturedAt": "2026-10-03T11:57:12.863Z",
+      "sha256": "a868aaea6c8e2867f35e19c922ef8d3543d8847f9102e6b080c58a9f5cc16fe4",
+      "gzipSha256": "7b3a3406bafaa9e85af97895c0f02d0111e86fcf5855c5b5eb7bce5ee1d48c06",
+      "terminal": false
+    },
+    {
+      "file": "data/sources/snapshots/amphibia-expanded-literature-2026-10-03/6004a7b31fd164f190e814b0/page-00003.json.gz",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Rana%20ridibunda%22&format=json&pageSize=1000&resultType=core&cursorMark=AoIIO%2F7RESg0MTQzMTM0OA%3D%3D",
+      "cursorMark": "AoIIO/7RESg0MTQzMTM0OA==",
+      "nextCursorMark": null,
+      "hitCount": 1718,
+      "records": 0,
+      "capturedAt": "2026-10-03T11:57:13.080Z",
+      "sha256": "025b76d05a32f566bc1a0461299887e80949fb5f2233aa971bdf01f8c8033454",
+      "gzipSha256": "c1479703adccfd649b33e8aac5538d9308c10510dabdfb446d7208d67b92d192",
+      "terminal": true
+    }
+  ],
+  "hitCount": 1718,
+  "nextCursor": null,
+  "complete": true,
+  "totalCapturedRecords": 1718
+}

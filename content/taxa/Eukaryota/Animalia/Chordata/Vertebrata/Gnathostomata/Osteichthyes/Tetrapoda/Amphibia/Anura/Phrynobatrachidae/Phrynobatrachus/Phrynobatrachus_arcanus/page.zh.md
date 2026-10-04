@@ -1,0 +1,170 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Phrynobatrachus arcanus
+
+<!-- evo:text /records/catalogue-profile/sections/0/title/zh -->
+## 接受名称与分类位置
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+COL26.8 接受 Phrynobatrachus arcanus Gvozdík, Necas, Dolinay, Zimkus, Schmitz & Fokam, 2020 为种级记录，所记分类路径为 Anura（目） → Phrynobatrachidae（科） → Phrynobatrachus（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/title/zh -->
+## 阅读路线
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/title/zh -->
+## 相关来源记录与数据集
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+以下存档记录依据所记接受名称或存档 ITIS 异名链接，在相同两栖动物目内选出，可供进一步比较；此链接不将其生物学结论归入当前物种概念。历史拆分、合并、来源命名作者和概念范围仍待核对。使用性状前，请查看来源范围、性别或发育阶段及原书目。
+
+- [TadpoleTraits v4: Phrynobatrachus arcanus](../../../../../../../../../../../../../topics/research/TadpoleTraits/Phrynobatrachidae/Phrynobatrachus/Phrynobatrachus_arcanus/page.zh.md)
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/readingLinks/0/label/zh -->
+TadpoleTraits v4 — 原始数据集
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/title/zh -->
+## 发育阶段材料——TadpoleTraits 来源
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+存档来源概念：TadpoleTraits 中的 Phrynobatrachus arcanus。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。汇编为该来源概念保留 4 条文献数据行和 0 条图像数据行，提供的阶段条目为 36；39；36-41。阶段值及其相伴不确定性按来源标签保留；由图像推断的阶段不视为直接记录的发育观察。数据行数不等于去重的动物数量，各研究的样本量字段也不跨研究相加。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/title/zh -->
+## 七只雄性与四只雌性成年体长重叠
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+检查成年雄性吻肛长 13.1–17.0 毫米、七只，雌性 14.8–16.9 毫米、四只；两只新变态幼体 7.4–8.7 毫米属于另一个发育样本。雄性喉部小突形成向前加宽的中条。退化趾蹼、覆皮不明显鼓膜、没有眼睑角突及较小体型参与鉴别。上颌及前上颌齿存在、犁骨齿缺失。重叠体长或单项特征不能鉴定每件标本；steindachneri 幼体可能外观相似，需要比较检查。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/title/zh -->
+## 活体斑纹在检查系列内有变异
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
+雄性正模背深褐，具有黑边宽浅褐条、较细脊线及散布橙白点；喉暗有白突，腹黄至奶油色，后肢腹面粉橙。较广系列在背条、斑及眼间颜色上有变异；雌性股腹面通常橙色更鲜、喉较雄性浅。这是标本及性别关联观察，不是不变斑纹、毒性测量或警戒色实验。保存颜色与摄影活体外观区分。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/6/title/zh -->
+## 幼体形态不确定生长轨迹
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
+描述幼体身体卵圆、吻圆、眼背侧，有左呼吸孔和右肛管。前腹侧口盘下唇有乳突、上唇没有，角质齿式按原记为 1/1 + 1//2，颌鞘细锯齿。身体及尾背面暗、腹面未着色、鳍主要透明。作者注明圆尾端可能并非自然状态。该段最大尾高与体高关系还存在相冲陈述，不协调为认证比值。形态条目不测量幼体生长、孵化时间或变态存活。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/7/title/zh -->
+## 短条码和较长片段距离属于不同比较
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/7/text/zh -->
+六件测序 arcanus 标本具有两个 510 碱基 16S 单倍型，各三件、相差两个替换。与 mbabo 在短条码距离 1.2%，较长 12S–16S 片段为 5.0%，标记范围不能互换。六件 arcanus 推断八个核 RAG1 单倍型，与 mbabo 及其他检查物种不共享；推断等位单倍型不是八只独立蛙。组合证据支持研究划分，不提供普遍距离阈值、实验交配试验或每条现代目录记录的独立认证。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/title/zh -->
+## 音符、组和整声保留不同时长
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/text/zh -->
+2009 年十一月五日下午录得招引声，由金属样点击音符组成，整声可长数秒至超过一分钟。报告 17.5 摄氏度条件下，音符组平均 1.7 ± 0.1 秒、每组六至八音符；音符平均 12.5 ± 0.1 毫秒，重复速率每秒 4.2 ± 0.7，主频 3.92 ± 0.03 千赫兹。来源明确采用均值 ± 标准差。整声内速率上升、组末音符音高更高。这些摘要不将组时长变为整声时长，也不将重复音符变为独立蛙，或确定来源招引描述之外的功能。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/9/title/zh -->
+## 白天池边遇见支持似然活动趋势
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/9/text/zh -->
+多数观察蛙在林外小溪池旁草本间跳跃，周围灌丛及山地草地；一只雄性夜间见于陡坡森林溪旁。雄性在部分浸水植物水上叶片鸣叫，池中有幼体。作者推测较偏白天活动、可能喜开阔生境，不是控制偏好或完整日程。2016 年六月另一地点听到但未录鸣声、未见个体，因此归属保留可能性，不提升为确认凭证记录。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/10/title/zh -->
+## 两个 Gangirwal 地点与不精确旧定位区分
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/10/text/zh -->
+来源确认 Cameroon–Nigeria 边界 Gotel 山的 Mount Gangirwal 两个地点，海拔 1,940 与 2,250 米，直线约相隔 1.1 公里；正模来自 2,250 米池地点。1988 年以 Phrynobatrachus sp. 发表的记录定位不精确，坐标和 2,300 米标签大致对应研究地区。分别保留标签范围，不将全部数值汇为认证连续海拔范围。边界地区记录不独立确定全部邻近山地生境占据。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/11/title/zh -->
+## 作者依据有限历史证据建议极危
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/11/text/zh -->
+2020 年条目强烈建议极危，依据估计占据面积低于十平方公里、出现范围低于百平方公里、一个位置及推定下降。2016 年 Gotel 调查没有找到 Phrynobatrachus 标本，但可能听到 arcanus；小体型及密植被被列为检出困难。未检出不是量化该种下降或灭绝证明。建议和面积估计是研究有日期证据，不是现行独立核实 IUCN 评估或新的完整分布计算。
+<!-- /evo:text -->
+
+## catalogue-profile / limitations
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。未经过外部领域专家评审。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/0/evidenceSummary/zh -->
+检查成年雄性吻肛长 13.1–17.0 毫米、七只，雌性 14.8–16.9 毫米、四只；两只新变态幼体 7.4–8.7 毫米属于另一个发育样本。雄性喉部小突形成向前加宽的中条。退化趾蹼、覆皮不明显鼓膜、没有眼睑角突及较小体型参与鉴别。上颌及前上颌齿存在、犁骨齿缺失。重叠体长或单项特征不能鉴定每件标本；steindachneri 幼体可能外观相似，需要比较检查。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/1/evidenceSummary/zh -->
+雄性正模背深褐，具有黑边宽浅褐条、较细脊线及散布橙白点；喉暗有白突，腹黄至奶油色，后肢腹面粉橙。较广系列在背条、斑及眼间颜色上有变异；雌性股腹面通常橙色更鲜、喉较雄性浅。这是标本及性别关联观察，不是不变斑纹、毒性测量或警戒色实验。保存颜色与摄影活体外观区分。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/2/evidenceSummary/zh -->
+描述幼体身体卵圆、吻圆、眼背侧，有左呼吸孔和右肛管。前腹侧口盘下唇有乳突、上唇没有，角质齿式按原记为 1/1 + 1//2，颌鞘细锯齿。身体及尾背面暗、腹面未着色、鳍主要透明。作者注明圆尾端可能并非自然状态。该段最大尾高与体高关系还存在相冲陈述，不协调为认证比值。形态条目不测量幼体生长、孵化时间或变态存活。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/3/evidenceSummary/zh -->
+六件测序 arcanus 标本具有两个 510 碱基 16S 单倍型，各三件、相差两个替换。与 mbabo 在短条码距离 1.2%，较长 12S–16S 片段为 5.0%，标记范围不能互换。六件 arcanus 推断八个核 RAG1 单倍型，与 mbabo 及其他检查物种不共享；推断等位单倍型不是八只独立蛙。组合证据支持研究划分，不提供普遍距离阈值、实验交配试验或每条现代目录记录的独立认证。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/4/evidenceSummary/zh -->
+2009 年十一月五日下午录得招引声，由金属样点击音符组成，整声可长数秒至超过一分钟。报告 17.5 摄氏度条件下，音符组平均 1.7 ± 0.1 秒、每组六至八音符；音符平均 12.5 ± 0.1 毫秒，重复速率每秒 4.2 ± 0.7，主频 3.92 ± 0.03 千赫兹。来源明确采用均值 ± 标准差。整声内速率上升、组末音符音高更高。这些摘要不将组时长变为整声时长，也不将重复音符变为独立蛙，或确定来源招引描述之外的功能。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/5/evidenceSummary/zh -->
+多数观察蛙在林外小溪池旁草本间跳跃，周围灌丛及山地草地；一只雄性夜间见于陡坡森林溪旁。雄性在部分浸水植物水上叶片鸣叫，池中有幼体。作者推测较偏白天活动、可能喜开阔生境，不是控制偏好或完整日程。2016 年六月另一地点听到但未录鸣声、未见个体，因此归属保留可能性，不提升为确认凭证记录。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/6/evidenceSummary/zh -->
+来源确认 Cameroon–Nigeria 边界 Gotel 山的 Mount Gangirwal 两个地点，海拔 1,940 与 2,250 米，直线约相隔 1.1 公里；正模来自 2,250 米池地点。1988 年以 Phrynobatrachus sp. 发表的记录定位不精确，坐标和 2,300 米标签大致对应研究地区。分别保留标签范围，不将全部数值汇为认证连续海拔范围。边界地区记录不独立确定全部邻近山地生境占据。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/7/evidenceSummary/zh -->
+2020 年条目强烈建议极危，依据估计占据面积低于十平方公里、出现范围低于百平方公里、一个位置及推定下降。2016 年 Gotel 调查没有找到 Phrynobatrachus 标本，但可能听到 arcanus；小体型及密植被被列为检出困难。未检出不是量化该种下降或灭绝证明。建议和面积估计是研究有日期证据，不是现行独立核实 IUCN 评估或新的完整分布计算。
+<!-- /evo:text -->
+
+## 研究正文待整理
+
+<!-- evo:text /records/amphibia-collection-placeholder/sections/0/text/zh -->
+本节为占位内容。所记来源快照的 reference 元数据与索引已收集。形态、生活史、生态、演化、分布、化石及保护的详实正文，待材料核对后再整理。本页已有来源摘要继续保留。检索结果或文献记录不等于已核实的生物学主张。
+<!-- /evo:text -->

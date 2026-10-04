@@ -1,0 +1,13 @@
+import fs from 'node:fs'
+const file='docs/amphibia-content/goal.md'
+let goal=fs.readFileSync(file,'utf8')
+goal=goal.replace('readers and 1,584 species with bilingual, study-scoped research prose.','readers and 1,638 species with bilingual, study-scoped research prose.')
+if(!goal.includes('Research batch264 adds'))goal+='\nResearch batch264 adds224 bilingual sections for74 exactfixed hostnames from PMC10658874 (2023 CC BY-NC-ND4.0),54 newlyresearchcovered species. Read XML methods, numberedparasite headings/amphibian hostlocality paragraphs, completeAmphibia hostlist, correctiondiscussion/conclusions. 91 literalhostrows contain88 namedlabels andhybrid/Rana sp./Ambystoma sp.;14 unmatchednamedlabels remain unassigned. Adultintestinal associations notprevalence/intensity/pathogenicity/currentoccupancy; historicalconcepts/vouchers notindependentlycertified. Anaxyrus compactilis/Spea multiplicata parasitecorrections retained; state/province/unspecifiedresolution bounded. Source reference classifiedunclassified compiledchecklist, notprimarysurvey/systematicsearch; attributionownbilingual factualwriting nottranslated/adapted sourceprose/tables/key/images. Unrelatedreference bytes preserved. Coverage1638species/5306generalproducersections;199partialarticles/1628COLreadscopes (711indexed/917withoutindexedlead). Content incomplete; no tests/final projections/submission.\n'
+if(process.argv.includes('--with-265')){
+ const coverage=JSON.parse(fs.readFileSync('docs/amphibia-content/primary-direct-group-reader-coverage.json')),own=coverage.filter(r=>r.pmc==='PMC10658874')
+ if(own.length!==26||own.reduce((n,r)=>n+r.authoredResearchSections,0)!==52||own.reduce((n,r)=>n+r.selectedReadingRoutes,0)!==74)throw Error('Batch265 actual authoring receipt absent')
+ const genera=new Set(coverage.map(r=>r.colId)).size,sections=coverage.reduce((n,r)=>n+r.authoredResearchSections,0),routes=coverage.reduce((n,r)=>n+r.selectedReadingRoutes,0)
+ if(!goal.includes('Research batch265 adds'))goal+=`\nResearch batch265 adds52 bilingual directgroup sections across26 genera with74 selected historicalhost routes. Parasiteunion spanshistoricalreports notgenus-wide prevalence/specificity/ancestralecology; hybrid/unidentified/unmatched labels remainunassigned, oldvouchers/currentconcepts notauthenticated. Readingroute headings/intros explicitly identify compiledhistorical entries ratherthan jointlysampledanimals. Reference role/rights metadata permits study-specific attribution and fitness while preserving other studies. Direct research${genera}genera/${sections}sections/${routes}selectedroutes. Content incomplete; no tests/final projections/submission.\n`
+ console.log(JSON.stringify({genera,sections,routes,testsRun:false}))
+}
+fs.writeFileSync(file,goal)

@@ -1,0 +1,1834 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Plethodon cinereus
+    name:
+      en: Plethodon cinereus
+      zh: Plethodon cinereus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "817"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 725
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "3520"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 3203
+      - topic: ecology
+        title:
+          en: Selected thermal preference estimate
+          zh: 选列的温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "3750"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/3/text/zh
+        sourceRowNumber: 3425
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 725
+        values:
+          - "817"
+          - Nayelli Rivera
+          - Burke_1976
+          - The role of fatigue in temperature resistance of salamanders
+          - "1976"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/j.jtherbio.2020.102744
+          - English
+          - Plethodon_cinereus_pop11
+          - Plethodon_cinereus_pop11_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.45309083"
+          - "-76.46081294"
+          - "260"
+          - NA
+          - NA
+          - "1974"
+          - July_1974
+          - August_1974
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - "1"
+          - "8.5"
+          - Acclimation time was taken as the mean of the range presented (3-14 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - "10"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "34.11"
+          - "0.17"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 726
+        values:
+          - "818"
+          - Nayelli Rivera
+          - Burke_1976
+          - The role of fatigue in temperature resistance of salamanders
+          - "1976"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/j.jtherbio.2020.102744
+          - English
+          - Plethodon_cinereus_pop11
+          - Plethodon_cinereus_pop11_UTL_co2
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.45309083"
+          - "-76.46081294"
+          - "260"
+          - NA
+          - NA
+          - "1974"
+          - July_1974
+          - August_1974
+          - Geographical coordinates were roughly estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - "1"
+          - "8.5"
+          - Acclimation time was taken as the mean of the range presented (3-14 days)
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "34.29"
+          - "0.17"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 2370
+        values:
+          - "2597"
+          - Patrice Pottier
+          - Hutchison_1961
+          - Critical Thermal Maxima in Salamanders
+          - "1961"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_cinereus_pop4
+          - Plethodon_cinereus_pop4_UTL_co1
+          - Population from Mountain Lake, Virginia
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - cinereus
+          - LC
+          - wild
+          - NA
+          - "37.375136"
+          - "-80.522747"
+          - "1128"
+          - NA
+          - July
+          - "1958"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - "0.2"
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 18
+          - NA
+          - NA
+          - "34.70615034"
+          - "0.314350797"
+          - "5"
+          - sd
+          - Data was digitised from figure because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3203
+        values:
+          - "3520"
+          - Sarah Varon
+          - Markle_2015
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/3
+          - "2015"
+          - "1"
+          - Ecophysiological Analysis of Variation in Geographic Range Size
+          - not_peer-reviewed
+          - https://doi.org/10.1002%2Fece3.4006
+          - English
+          - Plethodon_cinereus_pop6
+          - Plethodon_cinereus_pop6_LTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.87697132"
+          - "-80.20447227"
+          - "688"
+          - NA
+          - NA
+          - NA
+          - "2009"
+          - "2011"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "14"
+          - NA
+          - "28"
+          - Animals were acclimated for at least 4 weeks
+          - adults
+          - NA
+          - NA
+          - "0.89"
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - "13"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "-1.47"
+          - NA
+          - "75"
+          - NA
+          - error not reported
+      - rowNumber: 3220
+        values:
+          - "3537"
+          - Patrice Pottier
+          - Markle_and_Kozak_2018
+          - Low acclimation capacity of narrow-ranging thermal specialists exposes susceptibility to global climate change
+          - "2018"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1002/ece3.4006
+          - English
+          - Plethodon_cinereus_pop15
+          - Plethodon_cinereus_pop15_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2009"
+          - "2012"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "14"
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - NA
+          - "0.89"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "32.5"
+          - NA
+          - "44"
+          - NA
+          - sd_trait not reported
+      - rowNumber: 3419
+        values:
+          - "3744"
+          - PPollo
+          - Novarro_2018
+          - Thermal physiology in a widespread lungless salamander
+          - "2018"
+          - "3"
+          - Disentangling environmental and evolutionary drivers of thermal limits
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_cinereus_pop10
+          - Plethodon_cinereus_pop10_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "41.59854"
+          - "-74.79196"
+          - NA
+          - NA
+          - NA
+          - "2016"
+          - June_2016
+          - December_2016
+          - Geographical coordinates were not taken because animals were sampled in five different locations.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "34"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/5/values/42
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/5/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3.3
+          - NA
+          - NA
+          - "33.65625"
+          - "1.393966413"
+          - "37"
+          - sd
+          - Data was digitised from figure 3.3
+      - rowNumber: 3420
+        values:
+          - "3745"
+          - PPollo
+          - Novarro_2018
+          - Thermal physiology in a widespread lungless salamander
+          - "2018"
+          - "3"
+          - Disentangling environmental and evolutionary drivers of thermal limits
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_cinereus_pop21
+          - Plethodon_cinereus_pop21_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - "-81.89588"
+          - NA
+          - NA
+          - NA
+          - "2016"
+          - June_2016
+          - December_2016
+          - Geographical coordinates were not taken because animals were sampled in five different locations.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "34"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/6/values/42
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/6/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3.3
+          - NA
+          - NA
+          - "34.47916667"
+          - "1.774139071"
+          - "37"
+          - sd
+          - Data was digitised from figure 3.3
+      - rowNumber: 3421
+        values:
+          - "3746"
+          - PPollo
+          - Novarro_2018
+          - Thermal physiology in a widespread lungless salamander
+          - "2018"
+          - "3"
+          - Disentangling environmental and evolutionary drivers of thermal limits
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_cinereus_pop3
+          - Plethodon_cinereus_pop3_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "36.9027"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2016"
+          - June_2016
+          - December_2016
+          - Geographical coordinates were not taken because animals were sampled in three different locations.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "34"
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/7/values/42
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/7/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3.3
+          - NA
+          - NA
+          - "33.51041667"
+          - "1.613743061"
+          - "15"
+          - sd
+          - Data was digitised from figure 3.3
+      - rowNumber: 3422
+        values:
+          - "3747"
+          - Sarah Varon
+          - Novarro_2018
+          - Thermal physiology in a widespread lungless salamander
+          - "2018"
+          - "3"
+          - Moisture and thermal quality influence behavioral thermoregulation in Plethodon cinereus
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_cinereus_pop2
+          - Plethodon_cinereus_pop2_LTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "36.90269659"
+          - "-81.89588143"
+          - "896"
+          - NA
+          - NA
+          - "2016"
+          - June_2016
+          - September_2016
+          - '"Southern Clade". Coordinates were estimated from Google Maps'
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "22"
+          - Animals were acclimated for 14-30 days
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-0.72"
+          - "1.03"
+          - "40"
+          - se
+          - Sample size taken from Table 3.1
+      - rowNumber: 3423
+        values:
+          - "3748"
+          - Sarah Varon
+          - Novarro_2018
+          - Thermal physiology in a widespread lungless salamander
+          - "2018"
+          - "3"
+          - Disentangling environmental and evolutionary drivers of thermal limits
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_cinereus_pop8
+          - Plethodon_cinereus_pop8_LTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "41.10654901"
+          - "-78.89363032"
+          - "444"
+          - NA
+          - NA
+          - "2016"
+          - June_2016
+          - September_2016
+          - '"Pennslyvanian Clade". Coordinates were estimated from Google Maps'
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "22"
+          - Animals were acclimated for 14-30 days
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-2.11"
+          - "1.1"
+          - "24"
+          - se
+          - Sample size taken from Table 3.1
+      - rowNumber: 3424
+        values:
+          - "3749"
+          - Sarah Varon
+          - Novarro_2018
+          - Thermal physiology in a widespread lungless salamander
+          - "2018"
+          - "3"
+          - Disentangling environmental and evolutionary drivers of thermal limits
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_cinereus_pop9
+          - Plethodon_cinereus_pop9_LTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "41.59854252"
+          - "-74.79196357"
+          - "406"
+          - NA
+          - NA
+          - "2016"
+          - June_2016
+          - September_2016
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/10/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "22"
+          - Animals were acclimated for 14-30 days
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - mixed
+          - CTmin
+          - LRR
+          - body
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-0.18"
+          - "0.92"
+          - "40"
+          - se
+          - Sample size taken from Table 3.1
+      - rowNumber: 3425
+        values:
+          - "3750"
+          - Sarah Varon
+          - Novarro_2018
+          - Thermal physiology in a widespread lungless salamander
+          - "2018"
+          - "4"
+          - Moisture and thermal quality influence behavioral thermoregulation in Plethodon cinereus
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_cinereus_pop5
+          - Plethodon_cinereus_pop5_PBT_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.4139813"
+          - "-80.51935857"
+          - "1250"
+          - October_2015
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "48"
+          - "0.2"
+          - linear
+          - "5"
+          - "30"
+          - Dry treatment. Measurements were done every 4-6 hours
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "11"
+          - "0.358209"
+          - "15"
+          - se
+          - The total sample size (30) was divided equally among treatments (wet and dry)
+      - rowNumber: 3426
+        values:
+          - "3751"
+          - Sarah Varon
+          - Novarro_2018
+          - Thermal physiology in a widespread lungless salamander
+          - "2018"
+          - "4"
+          - Moisture and thermal quality influence behavioral thermoregulation in Plethodon cinereus
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_cinereus_pop5
+          - Plethodon_cinereus_pop5_PBT_co2
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.4139813"
+          - "-80.51935857"
+          - "1250"
+          - October_2015
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "28"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "48"
+          - "0.2"
+          - linear
+          - "5"
+          - "30"
+          - Wet treatment. Measurements were done every 4-6 hours
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "13.0746269"
+          - "0.4925373"
+          - "15"
+          - se
+          - The total sample size (30) was divided equally among treatments (wet and dry)
+      - rowNumber: 3730
+        values:
+          - "4077"
+          - Rachel Oh
+          - Reichenbach_and_Brophy_2017
+          - Natural history of the Peaks of Otter salamander (Plethodon hubrichti) along an elevational gradient
+          - "2017"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_cinereus_pop22
+          - Plethodon_cinereus_pop22_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - "1015"
+          - NA
+          - NA
+          - "2007"
+          - March_2007
+          - May_2007
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/13/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - NA
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "34.4"
+          - NA
+          - "20"
+          - NA
+          - CTM estimates were obtained from a statistical model (least square means estimates).
+      - rowNumber: 4032
+        values:
+          - "4459"
+          - Patrice Pottier
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Plethodon_cinereus_pop1
+          - Plethodon_cinereus_pop1_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - cinereus
+          - LC
+          - wild
+          - NA
+          - "36.08337403"
+          - "-81.8514753"
+          - "1298"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - Animals were collected in March to October 1968 and 1969. Geographical coordinates were estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "34.61538462"
+          - "0.509615385"
+          - "10"
+          - sd
+          - Data was dititised from figure 3.
+      - rowNumber: 4071
+        values:
+          - "4498"
+          - Natalie_Claunch
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Plethodon_cinereus_pop1
+          - Plethodon_cinereus_pop1_PBT_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "36.08073998"
+          - "-81.85293863"
+          - "1289"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - March to October 1968 and 1969 old yonahlossee road, grandfather mountain, nc
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2"
+          - "0.5"
+          - linear
+          - "-2"
+          - "53.2"
+          - A single measurement was collected after a 2h measurement period, so the rate_measurement was taken as 0.5
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "16.18918919"
+          - "4.972972973"
+          - "20"
+          - sd
+          - NA
+      - rowNumber: 4282
+        values:
+          - "4755"
+          - Patrice Pottier
+          - Yu_et_al_1998
+          - Heat shock response in the salamanders Plethodon jordani and Plethodon cinereus
+          - "1998"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/S0306-4565(98)00011-4
+          - English
+          - Plethodon_cinereus_pop7
+          - Plethodon_cinereus_pop7_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon cinereus
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.952566"
+          - "-75.443308"
+          - "105"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "34.3"
+          - NA
+          - "12"
+          - NA
+          - Data was taken from the main text (results section).
+    originalStudyCitations:
+      - ref: Burke_1976
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: https://doi.org/10.1016/j.jtherbio.2020.102744
+        year: "1976"
+      - ref: Hutchison_1961
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: NA
+        year: "1961"
+      - ref: Markle_2015
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/2/title
+          format: heading
+        doi: https://doi.org/10.1002%2Fece3.4006
+        year: "2015"
+      - ref: Markle_and_Kozak_2018
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/3/title
+          format: heading
+        doi: https://doi.org/10.1002/ece3.4006
+        year: "2018"
+      - ref: Novarro_2018
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/4/title
+          format: heading
+        doi: NA
+        year: "2018"
+      - ref: Reichenbach_and_Brophy_2017
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/5/title
+          format: heading
+        doi: NA
+        year: "2017"
+      - ref: Spotila_1972
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/6/title
+          format: heading
+        doi: https://doi.org/10.2307/1942232
+        year: "1972"
+      - ref: Yu_et_al_1998
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/7/title
+          format: heading
+        doi: https://doi.org/10.1016/S0306-4565(98)00011-4
+        year: "1998"
+    selectedEstimateRowNumbers:
+      - 725
+      - 3203
+      - 3425
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6W283
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Plethodon cinereus — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 725, 726, 2370, 3203, 3220, 3419, 3420, 3421, 3422, 3423, 3424, 3425, 3426, 3730, 4032, 4071, 4282; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/3 -->
+Ecology and Evolution of Geographic Range Size Variation  in North American Plethodontid Salamanders: Perspectives from Thermal Physiology
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/28 -->
+Specific locality not provided (throughout the Appalachian Mountains of eastern North America including the states New York, North Carolina, Pennsylvania, Virginia, and West Virginia). The central location was estimated from Google Maps
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/5/values/42 -->
+Acclimation time was taken as the mean of the range presented (14-30 days) + the time separating CTmin and CTmax trials (10-14 days)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/5/values/63 -->
+Heating rate (ramping) was assumed to be the same as cooling rate. Note that all individuals underwent a CTmin trial 10-14 days before the CTmax trial.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/6/values/42 -->
+Acclimation time was taken as the mean of the range presented (14-30 days) + the time separating CTmin and CTmax trials (10-14 days)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/6/values/63 -->
+Heating rate (ramping) was assumed to be the same as cooling rate. Note that all individuals underwent a CTmin trial 10-14 days before the CTmax trial.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/7/values/42 -->
+Acclimation time was taken as the mean of the range presented (14-30 days) + the time separating CTmin and CTmax trials (10-14 days)
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/7/values/63 -->
+Heating rate (ramping) was assumed to be the same as cooling rate. Note that all individuals underwent a CTmin trial 10-14 days before the CTmax trial.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/10/values/28 -->
+"Northern Clade" ; most subjects were sampled from june-september, but 1 of the 5 sites (NC) were collected in December. Coordinates were estimated from Google Maps
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/13/values/28 -->
+Animals were collected in Spring 2007 so the range of sampling dates was taken from March to May 2007. Geographical coordinates could not be estimated. Elevation was averaged between the two collection sites.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

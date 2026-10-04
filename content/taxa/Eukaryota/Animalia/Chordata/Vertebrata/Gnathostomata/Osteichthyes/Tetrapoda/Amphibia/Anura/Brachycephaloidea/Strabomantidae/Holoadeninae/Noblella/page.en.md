@@ -1,0 +1,427 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: en
+status: source-linked
+---
+
+# Noblella
+
+<!-- evo:text /records/catalogue-profile/sections/0/topic -->
+taxonomy
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/0/title/en -->
+## Accepted name and placement
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/en -->
+In COL26.8, Noblella is an accepted genus below Holoadeninae. The complete accepted-species query contains 13 species beneath this recorded classification path. This is a dated catalogue count, with distinct names and concepts retained in their recorded hierarchy.
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/0/sourceIds/0 -->
+taxonomy
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/topic -->
+overview
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/title/en -->
+## Reading route
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/en -->
+Read from this genus to its subordinate groups and species. Compare accepted names within the same release before consulting species research. The hierarchy provides a route through the catalogue; it does not establish shared traits or a biological history for every descendant.
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/sourceIds/0 -->
+taxonomy
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/topic -->
+ecology
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/sourceIds/0 -->
+amphibio-group
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/readerSectionKind -->
+historical-group-traits
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/title/en -->
+## Foraging in the historical compilation
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/en -->
+AmphiBIO retains 10 source records under Noblella in the Frost 2011 source classification. Positive foraging codes occur in 8 records for terrestrial. Categories can overlap within a record; unreported values remain unknown. These counts describe represented historical concepts, not the prevalence of traits across every species in the current group.
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/topic -->
+lifeHistory
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/sourceIds/0 -->
+amphibio-group
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/readerSectionKind -->
+historical-group-traits
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/title/en -->
+## Recorded developmental categories
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/en -->
+Within the same historical source subset, positive codes record direct development in 7 records. The coded records are not independent population samples, and missing categories are not inferred absent. Species-level readers retain the original values and compilation scope.
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/topic -->
+overview
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/sourceIds/0 -->
+taxonomy
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readerSectionKind -->
+canonical-child-route
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/title/en -->
+## Continue through the recorded tree
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/0/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/0/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/0/label/en -->
+Noblella bagrecito
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/1/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/1/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/1/label/en -->
+Noblella carrascoicola
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/2/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/2/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/2/label/en -->
+Noblella chirihampatu
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/3/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/3/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/3/label/en -->
+Noblella duellmani
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/4/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/4/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/4/label/en -->
+Noblella glauca
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/5/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/5/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/5/label/en -->
+Noblella losamigos
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/6/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/6/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/6/label/en -->
+Noblella madreselva
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/7/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/7/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/7/label/en -->
+Noblella peruviana
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/8/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/8/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/8/label/en -->
+Noblella pygmaea
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/9/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/9/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/9/label/en -->
+Noblella ritarasquinae
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/10/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/10/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/10/label/en -->
+Noblella thiuni
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/11/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/11/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/11/label/en -->
+Noblella usurpator
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/12/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/12/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/readingLinks/12/label/en -->
+Noblella vilcabambensis
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/en -->
+The following materialized child pages follow the pinned classification. Source-specific biological accounts keep their own identity and review boundaries.
+
+- [Noblella bagrecito](Noblella_bagrecito/page.en.md)
+- [Noblella carrascoicola](Noblella_carrascoicola/page.en.md)
+- [Noblella chirihampatu](Noblella_chirihampatu/page.en.md)
+- [Noblella duellmani](Noblella_duellmani/page.en.md)
+- [Noblella glauca](Noblella_glauca/page.en.md)
+- [Noblella losamigos](Noblella_losamigos/page.en.md)
+- [Noblella madreselva](Noblella_madreselva/page.en.md)
+- [Noblella peruviana](Noblella_peruviana/page.en.md)
+- [Noblella pygmaea](Noblella_pygmaea/page.en.md)
+- [Noblella ritarasquinae](Noblella_ritarasquinae/page.en.md)
+- [Noblella thiuni](Noblella_thiuni/page.en.md)
+- [Noblella usurpator](Noblella_usurpator/page.en.md)
+- [Noblella vilcabambensis](Noblella_vilcabambensis/page.en.md)
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/topic -->
+ecology
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/sourceReaderKind -->
+amphitherm-group-scope
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/title/en -->
+## The captured thermal evidence
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/sourceIds/0 -->
+amphitherm
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/en -->
+Within the pinned curated AmphiTherm source classification, the name Noblella matches 2 deposited species concepts and 6 estimate rows. Recorded metrics: CTmax, 4 rows across 2 source concepts; CTmin, 2 rows across 1 source concepts. CTmax and CTmin concern critical limits, LT50_hot and LT50_cold lethal-limit assays, and Tpref thermal preference. These metrics describe different experiments and cannot be merged into one tolerance range. Overlapping metric counts do not sum to distinct species or animals. Source life-stage codes are adults. This dated material describes study coverage, not the physiology of every current member; the source's 2018 classification and present group boundaries remain distinct.
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/6/topic -->
+evolution
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/6/readerSectionKind -->
+primary-direct-group-research
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/6/sourceIds/0 -->
+primary-direct-group-pmc11453160-64k4
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/6/title/en -->
+## The southern reference clade is one study framework
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/en -->
+The 2024 16S analysis places losamigos, madreselva, pygmaea and thiuni in a southern clade with Psychrophrynella references, separate from northern names historically called Noblella. The matrix comprises eighty-two new and reference individuals over 1104 base pairs. This supports a bounded reference placement, not complete nuclear-genome history or an independent modern revision of the genus. The source spelling pygmea remains recorded alongside the fixed pygmaea name.
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/7/topic -->
+taxonomy
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/7/readerSectionKind -->
+primary-direct-group-research
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/7/sourceIds/0 -->
+primary-direct-group-pmc11453160-64k4
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/7/title/en -->
+## Uncertain broad labels prevent automatic trait transfer
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/7/text/en -->
+The source places myrmecoides-labelled specimens in both northern and southern clades and recommends revision of those vouchers and the species type series. The arutam single-male skeletal description and local diet belong to the newly described northern population, not automatically to southern Noblella species. Selected child pages therefore carry only their documented reference-placement scopes. Similar small bodies do not certify homologous skeletal reductions, identical life histories or complete identities across historical labels.
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/topic -->
+overview
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readerSectionKind -->
+primary-direct-group-reading-route
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/sourceIds/0 -->
+primary-direct-group-pmc11453160-64k4
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/title/en -->
+## Read the sampled species
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/0/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/0/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/0/label/en -->
+Noblella losamigos
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/1/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/1/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/1/label/en -->
+Noblella madreselva
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/2/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/2/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/2/label/en -->
+Noblella pygmaea
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/3/kind -->
+catalogue
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/3/releaseAlias -->
+COL26.8
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/readingLinks/3/label/en -->
+Noblella thiuni
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/text/en -->
+These pages preserve the sampled species and evidence limits of this study. This selection covers the study sample, not all accepted genus members or every biological facet.
+
+- [Noblella losamigos](Noblella_losamigos/page.en.md)
+- [Noblella madreselva](Noblella_madreselva/page.en.md)
+- [Noblella pygmaea](Noblella_pygmaea/page.en.md)
+- [Noblella thiuni](Noblella_thiuni/page.en.md)
+<!-- /evo:text -->
+
+## catalogue-profile / limitations
+
+<!-- evo:text /records/catalogue-profile/limitations/en -->
+Taxonomic and source-bounded group introduction. Historical source subsets are not assumed equivalent to the entire current group; unrepresented biological evidence remains to be reviewed. This reader is not externally expert-reviewed.
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/0/evidenceSummary/en -->
+The 2024 16S analysis places losamigos, madreselva, pygmaea and thiuni in a southern clade with Psychrophrynella references, separate from northern names historically called Noblella. The matrix comprises eighty-two new and reference individuals over 1104 base pairs. This supports a bounded reference placement, not complete nuclear-genome history or an independent modern revision of the genus. The source spelling pygmea remains recorded alongside the fixed pygmaea name.
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/1/evidenceSummary/en -->
+The source places myrmecoides-labelled specimens in both northern and southern clades and recommends revision of those vouchers and the species type series. The arutam single-male skeletal description and local diet belong to the newly described northern population, not automatically to southern Noblella species. Selected child pages therefore carry only their documented reference-placement scopes. Similar small bodies do not certify homologous skeletal reductions, identical life histories or complete identities across historical labels.
+<!-- /evo:text -->
+
+## Research text pending
+
+<!-- evo:text /records/amphibia-collection-placeholder/sections/0/text/en -->
+This section is a placeholder. Reference metadata and indexes for the recorded source snapshots have been collected. A detailed account of morphology, life history, ecology, evolution, range, fossils and conservation is deferred until the material has been reviewed. Existing source summaries on this page remain available. A search result or reference record is not a verified biological claim.
+<!-- /evo:text -->

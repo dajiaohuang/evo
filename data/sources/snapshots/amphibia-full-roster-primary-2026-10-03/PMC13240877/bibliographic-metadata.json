@@ -1,0 +1,2030 @@
+{
+  "pmcid": "PMC13240877",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+  "sha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+  "articleType": "research-article",
+  "title": "StPedf: Cell trajectory inference of spatial transcriptomics via spatial proximity embedding and spatial density-adaptive fusion",
+  "authors": [],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC13240877"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "13240877"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "13240877"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "42247447"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1371/journal.pcbi.1014346"
+    }
+  ],
+  "publicationDates": [
+    {
+      "year": "2026",
+      "month": "6",
+      "day": "5"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "pcbi.1014346.s001",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s001.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s001.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s002",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s002.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s002.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s003",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s003.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s003.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s004",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s004.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s004.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s005",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s005.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s005.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s006",
+      "position": 5,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s006.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s006.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s007",
+      "position": 6,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s007.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s007.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s008",
+      "position": 7,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s008.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s008.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s009",
+      "position": 8,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s009.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s009.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s010",
+      "position": 9,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s010.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s010.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s011",
+      "position": 10,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s011.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s011.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s012",
+      "position": 11,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s012.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s012.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s013",
+      "position": 12,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s013.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s013.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s014",
+      "position": 13,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s014.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s014.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s015",
+      "position": 14,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s015.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s015.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s016",
+      "position": 15,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s016.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s016.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s017",
+      "position": 16,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s017.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s017.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s018",
+      "position": 17,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s018.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s018.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s019",
+      "position": 18,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s019.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s019.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s020",
+      "position": 19,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s020.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s020.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s021",
+      "position": 20,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s021.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s021.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s022",
+      "position": 21,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s022.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s022.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s023",
+      "position": 22,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s023.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s023.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s024",
+      "position": 23,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s024.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s024.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s025",
+      "position": 24,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s025.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s025.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "pcbi.1014346.s026",
+      "position": 25,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s026.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s026.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material1_reqid_",
+      "position": 26,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s001.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s001.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material2_reqid_",
+      "position": 27,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s002.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s002.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material3_reqid_",
+      "position": 28,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s003.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s003.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material4_reqid_",
+      "position": 29,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s004.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s004.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material5_reqid_",
+      "position": 30,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s005.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s005.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material6_reqid_",
+      "position": 31,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s006.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s006.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material7_reqid_",
+      "position": 32,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s007.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s007.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material8_reqid_",
+      "position": 33,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s008.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s008.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material9_reqid_",
+      "position": 34,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s009.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s009.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material10_reqid_",
+      "position": 35,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s010.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s010.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material11_reqid_",
+      "position": 36,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s011.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s011.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material12_reqid_",
+      "position": 37,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s012.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s012.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material13_reqid_",
+      "position": 38,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s013.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s013.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material14_reqid_",
+      "position": 39,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s014.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s014.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material15_reqid_",
+      "position": 40,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s015.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s015.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material16_reqid_",
+      "position": 41,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s016.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s016.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material17_reqid_",
+      "position": 42,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s017.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s017.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material18_reqid_",
+      "position": 43,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s018.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s018.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material19_reqid_",
+      "position": 44,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s019.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s019.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material20_reqid_",
+      "position": 45,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s020.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s020.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material21_reqid_",
+      "position": 46,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s021.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s021.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material22_reqid_",
+      "position": 47,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s022.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s022.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material23_reqid_",
+      "position": 48,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s023.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s023.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material24_reqid_",
+      "position": 49,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s024.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s024.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material25_reqid_",
+      "position": 50,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s025.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s025.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "db_ds_supplementary-material26_reqid_",
+      "position": 51,
+      "links": [
+        {
+          "element": "media",
+          "href": "pcbi.1014346.s026.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "pcbi.1014346.s026.docx",
+            "mimetype": "application",
+            "mime-subtype": "vnd.openxmlformats-officedocument.wordprocessingml.document"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "pcbi.1014346.ref001",
+      "position": 0,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cao J, Spielmann M, Qiu X, Huang X, Ibrahim DM, Hill AJ, et al. The single-cell transcriptional landscape of mammalian organogenesis. Nature. 2019;566(7745):496–502. doi: 10.1038/s41586-019-0969-x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41586-019-0969-x",
+        "PMC6434952",
+        "30787437",
+        "journal=Nature&title=The single-cell transcriptional landscape of mammalian organogenesis&author=J Cao&author=M Spielmann&author=X Qiu&author=X Huang&author=DM Ibrahim&volume=566&issue=7745&publication_year=2019&pages=496-502&pmid=30787437&doi=10.1038/s41586-019-0969-x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref001",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref002",
+      "position": 1,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Street K, Risso D, Fletcher RB, Das D, Ngai J, Yosef N, et al. Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics. BMC Genomics. 2018;19(1):477. doi: 10.1186/s12864-018-4772-0",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/s12864-018-4772-0",
+        "PMC6007078",
+        "29914354",
+        "journal=BMC Genomics&title=Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics&author=K Street&author=D Risso&author=RB Fletcher&author=D Das&author=J Ngai&volume=19&issue=1&publication_year=2018&pages=477&pmid=29914354&doi=10.1186/s12864-018-4772-0&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref002",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref003",
+      "position": 2,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wolf FA, Hamey FK, Plass M, Solana J, Dahlin JS, Göttgens B, et al. PAGA: graph abstraction reconciles clustering with trajectory inference through a topology preserving map of single cells. Genome Biol. 2019;20(1):59. doi: 10.1186/s13059-019-1663-x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/s13059-019-1663-x",
+        "PMC6425583",
+        "30890159",
+        "journal=Genome Biol&title=PAGA: graph abstraction reconciles clustering with trajectory inference through a topology preserving map of single cells&author=FA Wolf&author=FK Hamey&author=M Plass&author=J Solana&author=JS Dahlin&volume=20&issue=1&publication_year=2019&pages=59&pmid=30890159&doi=10.1186/s13059-019-1663-x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref003",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref004",
+      "position": 3,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ji Z, Ji H. TSCAN: Pseudo-time reconstruction and evaluation in single-cell RNA-seq analysis. Nucleic Acids Res. 2016;44(13):e117. doi: 10.1093/nar/gkw430",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/nar/gkw430",
+        "PMC4994863",
+        "27179027",
+        "journal=Nucleic Acids Res&title=TSCAN: Pseudo-time reconstruction and evaluation in single-cell RNA-seq analysis&author=Z Ji&author=H Ji&volume=44&issue=13&publication_year=2016&pmid=27179027&doi=10.1093/nar/gkw430&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref004",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref005",
+      "position": 4,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Angerer P, Haghverdi L, Büttner M, Theis FJ, Marr C, Buettner F. destiny: diffusion maps for large-scale single-cell data in R. Bioinformatics. 2016;32(8):1241–3. doi: 10.1093/bioinformatics/btv715",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bioinformatics/btv715",
+        "26668002",
+        "journal=Bioinformatics&title=destiny: diffusion maps for large-scale single-cell data in R&author=P Angerer&author=L Haghverdi&author=M Büttner&author=FJ Theis&author=C Marr&volume=32&issue=8&publication_year=2016&pages=1241-3&pmid=26668002&doi=10.1093/bioinformatics/btv715&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref005",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref006",
+      "position": 5,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Bergen V, Lange M, Peidli S, Wolf FA, Theis FJ. Generalizing RNA velocity to transient cell states through dynamical modeling. Nat Biotechnol. 2020;38(12):1408–14. doi: 10.1038/s41587-020-0591-3",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41587-020-0591-3",
+        "32747759",
+        "journal=Nat Biotechnol&title=Generalizing RNA velocity to transient cell states through dynamical modeling&author=V Bergen&author=M Lange&author=S Peidli&author=FA Wolf&author=FJ Theis&volume=38&issue=12&publication_year=2020&pages=1408-14&pmid=32747759&doi=10.1038/s41587-020-0591-3&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref006",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref007",
+      "position": 6,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Tong Y, Hong R, Li M, Yang N, Deng W, Tang H, et al. Hi-C3: a statistical inference-based model for reconstructing higher-order cell-cell communication networks. Brief Bioinform. 2025;26(5):bbaf568. doi: 10.1093/bib/bbaf568",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1093/bib/bbaf568",
+        "PMC12570032",
+        "41159728",
+        "journal=Brief Bioinform&title=Hi-C3: a statistical inference-based model for reconstructing higher-order cell-cell communication networks&author=Y Tong&author=R Hong&author=M Li&author=N Yang&author=W Deng&volume=26&issue=5&publication_year=2025&pmid=41159728&doi=10.1093/bib/bbaf568&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref007",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref008",
+      "position": 7,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Chen A, Liao S, Cheng M, Ma K, Wu L, Lai Y, et al. Spatiotemporal transcriptomic atlas of mouse organogenesis using DNA nanoball-patterned arrays. Cell. 2022;185(10):1777-1792.e21. doi: 10.1016/j.cell.2022.04.003",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.cell.2022.04.003",
+        "35512705",
+        "journal=Cell&title=Spatiotemporal transcriptomic atlas of mouse organogenesis using DNA nanoball-patterned arrays&author=A Chen&author=S Liao&author=M Cheng&author=K Ma&author=L Wu&volume=185&issue=10&publication_year=2022&pmid=35512705&doi=10.1016/j.cell.2022.04.003&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref008",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref009",
+      "position": 8,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Rodriques SG, Stickels RR, Goeva A, Martin CA, Murray E, Vanderburg CR, et al. Slide-seq: A scalable technology for measuring genome-wide expression at high spatial resolution. Science. 2019;363(6434):1463–7. doi: 10.1126/science.aaw1219",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.aaw1219",
+        "PMC6927209",
+        "30923225",
+        "journal=Science&title=Slide-seq: A scalable technology for measuring genome-wide expression at high spatial resolution&author=SG Rodriques&author=RR Stickels&author=A Goeva&author=CA Martin&author=E Murray&volume=363&issue=6434&publication_year=2019&pages=1463-7&pmid=30923225&doi=10.1126/science.aaw1219&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref009",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref010",
+      "position": 9,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Stickels RR, Murray E, Kumar P, Li J, Marshall JL, Di Bella DJ, et al. Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2. Nat Biotechnol. 2021;39(3):313–9. doi: 10.1038/s41587-020-0739-1",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41587-020-0739-1",
+        "PMC8606189",
+        "33288904",
+        "journal=Nat Biotechnol&title=Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2&author=RR Stickels&author=E Murray&author=P Kumar&author=J Li&author=JL Marshall&volume=39&issue=3&publication_year=2021&pages=313-9&pmid=33288904&doi=10.1038/s41587-020-0739-1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref010",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref011",
+      "position": 10,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hong R, Tong Y, Tang H, Zeng T, Liu R. eMCI: An Explainable Multimodal Correlation Integration Model for Unveiling Spatial Transcriptomics and Intercellular Signaling. Research (Wash D C). 2024;7:0522. doi: 10.34133/research.0522",
+      "identifiers": [],
+      "externalLinks": [
+        "10.34133/research.0522",
+        "PMC11528068",
+        "39494219",
+        "journal=Research (Wash D C)&title=eMCI: An Explainable Multimodal Correlation Integration Model for Unveiling Spatial Transcriptomics and Intercellular Signaling&author=R Hong&author=Y Tong&author=H Tang&author=T Zeng&author=R Liu&volume=7&publication_year=2024&pages=0522&pmid=39494219&doi=10.34133/research.0522&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref011",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref012",
+      "position": 11,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Pham D, Tan X, Balderson B, Xu J, Grice LF, Yoon S, et al. Robust mapping of spatiotemporal trajectories and cell-cell interactions in healthy and diseased tissues. Nat Commun. 2023;14(1):7739. doi: 10.1038/s41467-023-43120-6",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41467-023-43120-6",
+        "PMC10676408",
+        "38007580",
+        "journal=Nat Commun&title=Robust mapping of spatiotemporal trajectories and cell-cell interactions in healthy and diseased tissues&author=D Pham&author=X Tan&author=B Balderson&author=J Xu&author=LF Grice&volume=14&issue=1&publication_year=2023&pages=7739&pmid=38007580&doi=10.1038/s41467-023-43120-6&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref012",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref013",
+      "position": 12,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Shen X, Zuo L, Ye Z, Yuan Z, Huang K, Li Z, et al. Inferring cell trajectories of spatial transcriptomics via optimal transport analysis. Cell Syst. 2025;16(2):101194. doi: 10.1016/j.cels.2025.101194",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.cels.2025.101194",
+        "39904341",
+        "journal=Cell Syst&title=Inferring cell trajectories of spatial transcriptomics via optimal transport analysis&author=X Shen&author=L Zuo&author=Z Ye&author=Z Yuan&author=K Huang&volume=16&issue=2&publication_year=2025&pages=101194&pmid=39904341&doi=10.1016/j.cels.2025.101194&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref013",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref014",
+      "position": 13,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Ren H, Walker BL, Cang Z, Nie Q. Identifying multicellular spatiotemporal organization of cells with SpaceFlow. Nat Commun. 2022;13(1):4076. doi: 10.1038/s41467-022-31739-w",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41467-022-31739-w",
+        "PMC9283532",
+        "35835774",
+        "journal=Nat Commun&title=Identifying multicellular spatiotemporal organization of cells with SpaceFlow&author=H Ren&author=BL Walker&author=Z Cang&author=Q Nie&volume=13&issue=1&publication_year=2022&pages=4076&pmid=35835774&doi=10.1038/s41467-022-31739-w&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref014",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref015",
+      "position": 14,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Xu H, Fu H, Long Y, Ang KS, Sethi R, Chong K, et al. Unsupervised spatially embedded deep representation of spatial transcriptomics. Genome Med. 2024;16(1):12. doi: 10.1186/s13073-024-01283-x",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/s13073-024-01283-x",
+        "PMC10790257",
+        "38217035",
+        "journal=Genome Med&title=Unsupervised spatially embedded deep representation of spatial transcriptomics&author=H Xu&author=H Fu&author=Y Long&author=KS Ang&author=R Sethi&volume=16&issue=1&publication_year=2024&pages=12&pmid=38217035&doi=10.1186/s13073-024-01283-x&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref015",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref016",
+      "position": 15,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Shang L, Zhou X. Spatially aware dimension reduction for spatial transcriptomics. Nat Commun. 2022;13(1):7203. doi: 10.1038/s41467-022-34879-1",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41467-022-34879-1",
+        "PMC9684472",
+        "36418351",
+        "journal=Nat Commun&title=Spatially aware dimension reduction for spatial transcriptomics&author=L Shang&author=X Zhou&volume=13&issue=1&publication_year=2022&pages=7203&pmid=36418351&doi=10.1038/s41467-022-34879-1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref016",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref017",
+      "position": 16,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wang W, Zheng S, Shin SC, Chávez-Fuentes JC, Yuan G-C. ONTraC characterizes spatially continuous variations of tissue microenvironment through niche trajectory analysis. Genome Biol. 2025;26(1):117. doi: 10.1186/s13059-025-03588-5",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1186/s13059-025-03588-5",
+        "PMC12060293",
+        "40340854",
+        "journal=Genome Biol&title=ONTraC characterizes spatially continuous variations of tissue microenvironment through niche trajectory analysis&author=W Wang&author=S Zheng&author=SC Shin&author=JC Chávez-Fuentes&author=G-C Yuan&volume=26&issue=1&publication_year=2025&pages=117&pmid=40340854&doi=10.1186/s13059-025-03588-5&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref017",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref018",
+      "position": 17,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Heitz M, Ma Y, Kubal S, Schiebinger G. Spatial Transcriptomics Brings New Challenges and Opportunities for Trajectory Inference. Annu Rev Biomed Data Sci. 2025;8(1):1–19. doi: 10.1146/annurev-biodatasci-040324-030052",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1146/annurev-biodatasci-040324-030052",
+        "39541229",
+        "journal=Annu Rev Biomed Data Sci&title=Spatial Transcriptomics Brings New Challenges and Opportunities for Trajectory Inference&author=M Heitz&author=Y Ma&author=S Kubal&author=G Schiebinger&volume=8&issue=1&publication_year=2025&pages=1-19&pmid=39541229&doi=10.1146/annurev-biodatasci-040324-030052&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref018",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref019",
+      "position": 18,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Zeira R, Land M, Strzalkowski A, Raphael BJ. Alignment and integration of spatial transcriptomics data. Nat Methods. 2022;19(5):567–75. doi: 10.1038/s41592-022-01459-6",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41592-022-01459-6",
+        "PMC9334025",
+        "35577957",
+        "journal=Nat Methods&title=Alignment and integration of spatial transcriptomics data&author=R Zeira&author=M Land&author=A Strzalkowski&author=BJ Raphael&volume=19&issue=5&publication_year=2022&pages=567-75&pmid=35577957&doi=10.1038/s41592-022-01459-6&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref019",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref020",
+      "position": 19,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Liu X, Zeira R, Raphael BJ. PASTE2: Partial Alignment of Multi-slice Spatially Resolved Transcriptomics Data. bioRxiv. 2023;:2023.01.08.523162. doi: 10.1101/2023.01.08.523162",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1101/2023.01.08.523162",
+        "PMC10538490",
+        "37553263",
+        "journal=bioRxiv&title=PASTE2: Partial Alignment of Multi-slice Spatially Resolved Transcriptomics Data&author=X Liu&author=R Zeira&author=BJ Raphael&publication_year=2023&pmid=37553263&doi=10.1101/2023.01.08.523162&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref020",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref021",
+      "position": 20,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Peng Q, Zhou P, Li T. stVCR: spatiotemporal dynamics of single cells. Nat Methods. 2026;23(3):542–53. doi: 10.1038/s41592-026-03010-3",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41592-026-03010-3",
+        "41820580",
+        "journal=Nat Methods&title=stVCR: spatiotemporal dynamics of single cells&author=Q Peng&author=P Zhou&author=T Li&volume=23&issue=3&publication_year=2026&pages=542-53&pmid=41820580&doi=10.1038/s41592-026-03010-3&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref021",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref022",
+      "position": 21,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Qiu X, Zhu DY, Yao J, Jing Z, Zuo L, Wang M, et al. Spateo: multidimensional spatiotemporal modeling of single-cell spatial transcriptomics. bioRxiv. 2022. 10.1101/2022.12.07.519417",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1101/2022.12.07.519417"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref022",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref023",
+      "position": 22,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hou Z, Liu X, Cen Y, Dong Y, Yang H, Wang C, et al. GraphMAE: Self-Supervised Masked Graph Autoencoders. In: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2022. 594–604. doi: 10.1145/3534678.3539321",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1145/3534678.3539321",
+        "Hou Z, Liu X, Cen Y, Dong Y, Yang H, Wang C, et al. GraphMAE: Self-Supervised Masked Graph Autoencoders. In: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2022. 594–604. doi: 10.1145/3534678.3539321"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref023",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref024",
+      "position": 23,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hou Z, He Y, Cen Y, Liu X, Dong Y, Kharlamov E, et al. GraphMAE2: A Decoding-Enhanced Masked Self-Supervised Graph Learner. In: Proceedings of the ACM Web Conference 2023, 2023. 737–46. doi: 10.1145/3543507.3583379",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1145/3543507.3583379",
+        "Hou Z, He Y, Cen Y, Liu X, Dong Y, Kharlamov E, et al. GraphMAE2: A Decoding-Enhanced Masked Self-Supervised Graph Learner. In: Proceedings of the ACM Web Conference 2023, 2023. 737–46. doi: 10.1145/3543507.3583379"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref024",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref025",
+      "position": 24,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kipf TN, Welling M. Variational graph auto-encoders. arXiv. 2016. https://arxiv.org/abs/1611.07308",
+      "identifiers": [],
+      "externalLinks": [
+        "https://arxiv.org/abs/1611.07308"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref025",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref026",
+      "position": 25,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Villani C. Optimal Transport: Old and New. Berlin: Springer; 2009.",
+      "identifiers": [],
+      "externalLinks": [
+        "title=Optimal Transport: Old and New&author=C Villani&publication_year=2009&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref026",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref027",
+      "position": 26,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Qiu X, Zhang Y, Martin-Rufino JD, Weng C, Hosseinzadeh S, Yang D, et al. Mapping transcriptomic vector fields of single cells. Cell. 2022;185(4):690-711.e45. doi: 10.1016/j.cell.2021.12.045",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.cell.2021.12.045",
+        "PMC9332140",
+        "35108499",
+        "journal=Cell&title=Mapping transcriptomic vector fields of single cells&author=X Qiu&author=Y Zhang&author=JD Martin-Rufino&author=C Weng&author=S Hosseinzadeh&volume=185&issue=4&publication_year=2022&pmid=35108499&doi=10.1016/j.cell.2021.12.045&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref027",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref028",
+      "position": 27,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cannoodt R, Saelens W, Deconinck L, Saeys Y. Spearheading future omics analyses using dyngen, a multi-modal simulator of single cells. Nat Commun. 2021;12(1):3942. doi: 10.1038/s41467-021-24152-2",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41467-021-24152-2",
+        "PMC8225657",
+        "34168133",
+        "journal=Nat Commun&title=Spearheading future omics analyses using dyngen, a multi-modal simulator of single cells&author=R Cannoodt&author=W Saelens&author=L Deconinck&author=Y Saeys&volume=12&issue=1&publication_year=2021&pages=3942&pmid=34168133&doi=10.1038/s41467-021-24152-2&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref028",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref029",
+      "position": 28,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wei X, Fu S, Li H, Liu Y, Wang S, Feng W, et al. Single-cell Stereo-seq reveals induced progenitor cells involved in axolotl brain regeneration. Science. 2022;377(6610):eabp9444. doi: 10.1126/science.abp9444",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.abp9444",
+        "36048929",
+        "journal=Science&title=Single-cell Stereo-seq reveals induced progenitor cells involved in axolotl brain regeneration&author=X Wei&author=S Fu&author=H Li&author=Y Liu&author=S Wang&volume=377&issue=6610&publication_year=2022&pmid=36048929&doi=10.1126/science.abp9444&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref029",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref030",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lust K, Maynard A, Gomes T, Fleck JS, Camp JG, Tanaka EM, et al. Single-cell analyses of axolotl telencephalon organization, neurogenesis, and regeneration. Science. 2022;377(6610):eabp9262. doi: 10.1126/science.abp9262",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1126/science.abp9262",
+        "36048956",
+        "journal=Science&title=Single-cell analyses of axolotl telencephalon organization, neurogenesis, and regeneration&author=K Lust&author=A Maynard&author=T Gomes&author=JS Fleck&author=JG Camp&volume=377&issue=6610&publication_year=2022&pmid=36048956&doi=10.1126/science.abp9262&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref030",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref031",
+      "position": 30,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Amamoto R, Huerta VGL, Takahashi E, Dai G, Grant AK, Fu Z, et al. Adult axolotls can regenerate original neuronal diversity in response to brain injury. Elife. 2016;5:e13998. doi: 10.7554/eLife.13998",
+      "identifiers": [],
+      "externalLinks": [
+        "10.7554/eLife.13998",
+        "PMC4861602",
+        "27156560",
+        "journal=Elife&title=Adult axolotls can regenerate original neuronal diversity in response to brain injury&author=R Amamoto&author=VGL Huerta&author=E Takahashi&author=G Dai&author=AK Grant&volume=5&publication_year=2016&pmid=27156560&doi=10.7554/eLife.13998&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref031",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref032",
+      "position": 31,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kirkham M, Hameed LS, Berg DA, Wang H, Simon A. Progenitor cell dynamics in the Newt Telencephalon during homeostasis and neuronal regeneration. Stem Cell Reports. 2014;2(4):507–19. doi: 10.1016/j.stemcr.2014.01.018",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.stemcr.2014.01.018",
+        "PMC3986684",
+        "24749074",
+        "journal=Stem Cell Reports&title=Progenitor cell dynamics in the Newt Telencephalon during homeostasis and neuronal regeneration&author=M Kirkham&author=LS Hameed&author=DA Berg&author=H Wang&author=A Simon&volume=2&issue=4&publication_year=2014&pages=507-19&pmid=24749074&doi=10.1016/j.stemcr.2014.01.018&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref032",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref033",
+      "position": 32,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Berg DA, Kirkham M, Beljajeva A, Knapp D, Habermann B, Ryge J, et al. Efficient regeneration by activation of neurogenesis in homeostatically quiescent regions of the adult vertebrate brain. Development. 2010;137(24):4127–34. doi: 10.1242/dev.055541",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1242/dev.055541",
+        "21068061",
+        "journal=Development&title=Efficient regeneration by activation of neurogenesis in homeostatically quiescent regions of the adult vertebrate brain&author=DA Berg&author=M Kirkham&author=A Beljajeva&author=D Knapp&author=B Habermann&volume=137&issue=24&publication_year=2010&pages=4127-34&pmid=21068061&doi=10.1242/dev.055541&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref033",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref034",
+      "position": 33,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hausser J, Alon U. Tumour heterogeneity and the evolutionary trade-offs of cancer. Nat Rev Cancer. 2020;20(4):247–57. doi: 10.1038/s41568-020-0241-6",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41568-020-0241-6",
+        "32094544",
+        "journal=Nat Rev Cancer&title=Tumour heterogeneity and the evolutionary trade-offs of cancer&author=J Hausser&author=U Alon&volume=20&issue=4&publication_year=2020&pages=247-57&pmid=32094544&doi=10.1038/s41568-020-0241-6&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref034",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref035",
+      "position": 34,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wu L, Yan J, Bai Y, Chen F, Zou X, Xu J, et al. An invasive zone in human liver cancer identified by Stereo-seq promotes hepatocyte-tumor cell crosstalk, local immunosuppression and tumor progression. Cell Res. 2023;33(8):585–603. doi: 10.1038/s41422-023-00831-1",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41422-023-00831-1",
+        "PMC10397313",
+        "37337030",
+        "journal=Cell Res&title=An invasive zone in human liver cancer identified by Stereo-seq promotes hepatocyte-tumor cell crosstalk, local immunosuppression and tumor progression&author=L Wu&author=J Yan&author=Y Bai&author=F Chen&author=X Zou&volume=33&issue=8&publication_year=2023&pages=585-603&pmid=37337030&doi=10.1038/s41422-023-00831-1&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref035",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref036",
+      "position": 35,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Chen Y, Yang S, Tavormina J, Tampe D, Zeisberg M, Wang H, et al. Oncogenic collagen I homotrimers from cancer cells bind to α3β1 integrin and impact tumor microbiome and immunity to promote pancreatic cancer. Cancer Cell. 2022;40(8):818-834.e9. doi: 10.1016/j.ccell.2022.06.011",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/j.ccell.2022.06.011",
+        "PMC9831277",
+        "35868307",
+        "journal=Cancer Cell&title=Oncogenic collagen I homotrimers from cancer cells bind to α3β1 integrin and impact tumor microbiome and immunity to promote pancreatic cancer&author=Y Chen&author=S Yang&author=J Tavormina&author=D Tampe&author=M Zeisberg&volume=40&issue=8&publication_year=2022&pmid=35868307&doi=10.1016/j.ccell.2022.06.011&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref036",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref037",
+      "position": 36,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Maynard KR, Collado-Torres L, Weber LM, Uytingco C, Barry BK, Williams SR, et al. Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex. Nat Neurosci. 2021;24(3):425–36. doi: 10.1038/s41593-020-00787-0",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/s41593-020-00787-0",
+        "PMC8095368",
+        "33558695",
+        "journal=Nat Neurosci&title=Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex&author=KR Maynard&author=L Collado-Torres&author=LM Weber&author=C Uytingco&author=BK Barry&volume=24&issue=3&publication_year=2021&pages=425-36&pmid=33558695&doi=10.1038/s41593-020-00787-0&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref037",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref038",
+      "position": 37,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hoerder-Suabedissen A, Molnár Z. Development, evolution and pathology of neocortical subplate neurons. Nat Rev Neurosci. 2015;16(3):133–46. doi: 10.1038/nrn3915",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1038/nrn3915",
+        "25697157",
+        "journal=Nat Rev Neurosci&title=Development, evolution and pathology of neocortical subplate neurons&author=A Hoerder-Suabedissen&author=Z Molnár&volume=16&issue=3&publication_year=2015&pages=133-46&pmid=25697157&doi=10.1038/nrn3915&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref038",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref039",
+      "position": 38,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Tan Y, Wang A, Wang Z, Lin W, Yan Y, Nie Q, et al. Transfer learning of multicellular organization via single-cell and spatial transcriptomics. PLoS Comput Biol. 2025;21(4):e1012991. doi: 10.1371/journal.pcbi.1012991",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1371/journal.pcbi.1012991",
+        "PMC12061427",
+        "40258090",
+        "journal=PLoS Comput Biol&title=Transfer learning of multicellular organization via single-cell and spatial transcriptomics&author=Y Tan&author=A Wang&author=Z Wang&author=W Lin&author=Y Yan&volume=21&issue=4&publication_year=2025&pmid=40258090&doi=10.1371/journal.pcbi.1012991&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref039",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "pcbi.1014346.ref040",
+      "position": 39,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {},
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Delfinado CJA, Edelsbrunner H. An incremental algorithm for Betti numbers of simplicial complexes on the 3-sphere. Computer Aided Geometric Design. 1995;12(7):771–84. doi: 10.1016/0167-8396(95)00016-y",
+      "identifiers": [],
+      "externalLinks": [
+        "10.1016/0167-8396(95)00016-y",
+        "journal=Computer Aided Geometric Design&title=An incremental algorithm for Betti numbers of simplicial complexes on the 3-sphere&author=CJA Delfinado&author=H Edelsbrunner&volume=12&issue=7&publication_year=1995&pages=771-84&doi=10.1016/0167-8396(95)00016-y&"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC13240877/article.xml",
+        "articleSha256": "a0c03e8d5bb394d2a23cec42dc477fa3517208575071b5e12fe9a043eb522eae",
+        "referenceId": "pcbi.1014346.ref040",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "PLOS Computational Biology"
+    ],
+    "abbreviations": [
+      {
+        "value": "PLoS Comput Biol"
+      }
+    ],
+    "identifiers": [
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "328"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ploscomp"
+      }
+    ],
+    "issns": [],
+    "publisherNames": [
+      "PLOS"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "22"
+    ],
+    "issue": [
+      "6"
+    ],
+    "fpage": [
+      "e1014346"
+    ]
+  }
+}

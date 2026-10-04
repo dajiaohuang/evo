@@ -1,0 +1,12 @@
+import { prepareAmphibianResearchInput } from './prepare-amphibia-research-input.mjs'
+const citation = { pmc: 'PMC6687670', year: 2019, readScope: 'Species distribution and natural-history paragraph' }
+prepareAmphibianResearchInput([
+  { colId: 'SCC93', name: 'Pristimantis totoroi', ...citation, sections: [
+    ['ecology', 'Forest and pasture encounter records', '森林与牧场发现记录', 'The revision reported western montane forest records in Bolívar, Chimborazo and Cotopaxi at 2258–3200 m, including primary forest, secondary forest and pasture. Nighttime individuals occurred on low vegetation up to 1.6 m high or inside bromeliads up to 3 m high; daytime encounters were only inside bromeliads. Those survey patterns do not establish habitat preference or obligatory bromeliad breeding.', '修订报告 Bolívar、Chimborazo 与 Cotopaxi 海拔 2258—3200 米西坡山地林记录，涉及原生林、次生林及牧场。夜间个体位于不超过 1.6 米的低矮植被，或不超过 3 米的凤梨科植物内部；日间仅在凤梨科植物内发现。这些调查模式不能确立生境偏好或必须在凤梨科植物中繁殖。'],
+    ['reproduction', 'Night callers in three months', '三个月份的夜间鸣叫者', 'Calling males were found at night on low vegetation in October, December and January. These records document sampled calling activity, without establishing continuous reproduction between the observations, clutch sizes or natural egg sites.', '十月、十二月及一月夜间在低矮植被发现鸣叫雄性。这些记录说明采样到的鸣叫活动，不能确立观察之间连续繁殖、窝卵数或自然卵位。']
+  ] },
+  { colId: 'SCC97', name: 'Pristimantis verrucolatus', ...citation, sections: [
+    ['ecology', 'Daytime refuges and active night perches', '日间庇护处与夜间活动栖位', 'The revision reported western-Andean Azuay localities at 2943–3662 m in páramo and western montane forest. Daytime specimens sheltered beneath rocks or in arboreal bromeliads up to 2 m high; nighttime individuals were active on low shrub branches up to 80 cm high or inside bromeliads. These encounters retain separate activity contexts rather than establishing a universal perch limit or breeding substrate.', '修订报告 Azuay 安第斯西坡海拔 2943—3662 米高山草甸及西坡山地林地点。日间标本藏于岩石下或不超过 2 米的树生凤梨科植物内部；夜间个体活动于不超过 80 厘米的低灌木枝，或位于凤梨科植物内部。这些发现保留不同活动背景，不能确立通用栖位极限或繁殖基质。'],
+    ['reproduction', 'Gravid females and a January calling record', '怀卵雌性与一月鸣叫记录', 'Gravid females were found in August and January, and calling males in January. The observations support reproductive condition in those samples, without defining the full annual season, observed egg-deposition sites or developmental mode.', '八月与一月发现怀卵雌性，一月发现鸣叫雄性。这些观察支持所述样本的繁殖状态，不能限定完整年度季节、已观察产卵地点或发育模式。']
+  ] }
+])

@@ -1,0 +1,102 @@
+{
+  "pmc": "PMC10629387",
+  "year": 2023,
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "readScope": "XML Bioacoustic and morphometric data, Phylogenetic comparative analysis, Results Tables1–2 and figure captions, Discussion and Conclusions read; supplementary 735-species workbook unavailable, individual measurements, photos, original audio and model chains not independently analysed",
+  "doi": "10.7717/peerj.16322",
+  "fixedSpecies": [
+    {
+      "colId": "3MSZQ",
+      "name": "Huia cavitympanum",
+      "sections": 2
+    },
+    {
+      "colId": "56KWB",
+      "name": "Thoropa megatympanum",
+      "sections": 1
+    },
+    {
+      "colId": "3NG66",
+      "name": "Hylodes cardosoi",
+      "sections": 1
+    },
+    {
+      "colId": "776CZ",
+      "name": "Petropedetes vulpiae",
+      "sections": 1
+    },
+    {
+      "colId": "RWZBQ",
+      "name": "Phantasmarana apuana",
+      "sections": 1
+    },
+    {
+      "colId": "32WL9",
+      "name": "Cycloramphus rhyakonastes",
+      "sections": 1
+    },
+    {
+      "colId": "ZMC2",
+      "name": "Crossodactylus gaudichaudii",
+      "sections": 1
+    },
+    {
+      "colId": "ZMC9",
+      "name": "Crossodactylus werneri",
+      "sections": 1
+    },
+    {
+      "colId": "3NG68",
+      "name": "Hylodes charadranaetes",
+      "sections": 1
+    },
+    {
+      "colId": "3NG76",
+      "name": "Hylodes glaber",
+      "sections": 1
+    },
+    {
+      "colId": "TXXQT",
+      "name": "Wijayarana masonii",
+      "sections": 1
+    },
+    {
+      "colId": "48SFM",
+      "name": "Odorrana graminea",
+      "sections": 1
+    }
+  ],
+  "supplementaryRetrieval": {
+    "filename": "peerj-11-16322-s001.xlsx",
+    "publisherUrl": "https://peerj.com/articles/16322/supp-1",
+    "publisherResult": "HTTP403",
+    "legacyPmcMetadataResult": "HTTP404",
+    "acquired": false,
+    "doubtfulAssumption": "Supplementary species workbook can be acquired from the published or legacy metadata endpoint in this environment."
+  },
+  "unassignedSourceConcepts": [
+    "Crossodactylus schimidti source spelling",
+    "Hylodes malhagaesi source spelling",
+    "Amolops tormotus source combination; exact pinned match absent"
+  ],
+  "pendingEvidence": [
+    "Brachycephalus rotenbergae is associated with Goutte2017 in the Introduction; cited taxon correspondence not independently verified, no neurological claim transferred."
+  ],
+  "limits": [
+    "735 species complete quantitative traits reported, workbook not acquired; named illustration/citation does not certify a particular quantitative row.",
+    "Male-only data; females/juveniles-only types and unmeasurable external tympana excluded, not unbiased all-Anura coverage.",
+    "Oval tympana represented by length rather than uniform diameter; literature plus museum specimens not standardized new measurements for every species.",
+    "Dominant frequency greatest acoustic energy, not maximum frequency or auditory threshold; external tympanum not direct auditory physiology.",
+    "Methods model labels1–3 versus Table1 fourmodels includesTDonly; Table interaction model has lower AIC/BIC andp.004, not evidence additive model wins all criteria.",
+    "Additive model chosen for shift analysis, collinear body/tympanum variables do not establish independent causal effects.",
+    "Bayou selection threshold.75; Table2 nestedranid row.68 belowthreshold, Results pooling discussed; do notcertify allnestedshifts robust.",
+    "Results ranid decoupling wording differs across sentences; estimated nearzero slopes notproofexact independence.",
+    "Fourchains10million generations/30%burnin described, chains/convergence/model reproduction notindependentlychecked.",
+    "Broadlineage regimes notspecies-specific effects; within-species relationships and hearing remainunmeasured.",
+    "Backgroundnoise/lek competition and sexualselection explanations hypotheses, notexperimentally established causes.",
+    "Photos not reproduced; supplementary rawvalues, citedoriginalrecords and taxonomic correspondence notcertified."
+  ],
+  "fullArticleRead": false,
+  "contentPhaseComplete": false
+}

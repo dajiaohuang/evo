@@ -1,0 +1,13 @@
+import fs from 'node:fs'
+const file='docs/amphibia-content/goal.md'
+let goal=fs.readFileSync(file,'utf8')
+goal=goal.replace('readers and 1,658 species with bilingual, study-scoped research prose.','readers and 1,678 species with bilingual, study-scoped research prose.')
+if(!goal.includes('Research batch268 adds'))goal+='\nResearch batch268 adds80 bilingual sections for20 exactfixed first-account species from PMC5683629 (2017 CC0),all20 newlyresearchcovered. Read sampling/reference/analysis/assignment methods andsec015/counts, namedaccounts sec017/019–023/025–026/028/030/032. Historical2012–2013 LMR versusotherGabon/Congo references separate; originalvouchers/traces notindependentlyauthenticated. COI/16S bothmitochondrial, NJsimilaritynotdeephistory, BIN/ABGD notformalspeciesacts. Arthroleptis/Leptopelis reidentifications andunresolvedcf/sp labels bounded; Cardiogratiosa missing16S, tissueonly/imagevouchers, Hoplobatrachusnonoverlap, Nectafra2BIN1ABGD retained. MethodsLMR80+97 versusTable79+97, Congo275 versusTable274 andoverall540/524COI/52816S/94BIN/85ABGD remain unreconciled withoutinventedexclusion. Laterresults/Amietophrynus historicalbridges deferred; fullarticlecertfalse. Coverage1678species/5493generalproducersections;201partialarticles/1668COLreadscopes (743indexed/925withoutindexedlead). Content incomplete; no tests/final projections/submission.\n'
+if(process.argv.includes('--with-269')){
+ const coverage=JSON.parse(fs.readFileSync('docs/amphibia-content/primary-direct-group-reader-coverage.json')),own=coverage.filter(r=>r.pmc==='PMC5683629')
+ if(own.length!==10||own.reduce((n,r)=>n+r.authoredResearchSections,0)!==30||own.reduce((n,r)=>n+r.selectedReadingRoutes,0)!==20)throw Error('Batch269 actual receipt absent')
+ const genera=new Set(coverage.map(r=>r.colId)).size,sections=coverage.reduce((n,r)=>n+r.authoredResearchSections,0),routes=coverage.reduce((n,r)=>n+r.selectedReadingRoutes,0)
+ if(!goal.includes('Research batch269 adds'))goal+=`\nResearch batch269 adds30 bilingual directgroup sections across10 first-account genera with20 exactnamed routes. Genus-specific workingidentifications, unresolvedlabels, voucher/markerlimits andoldsite/libraryscope retained; selectednamedaccounts notgenusrichness/currentoccupancy/nuclearconfirmation/completephylogeny. Cardioglossa/initialNectophrynebatesii labels notpromotedtofalseLMR occurrences; Leptopeliscf/sp keptunassigned. Direct research${genera}genera/${sections}sections/${routes}selectedroutes. Content incomplete; no tests/final projections/submission.\n`
+ console.log(JSON.stringify({genera,sections,routes,testsRun:false}))
+}
+fs.writeFileSync(file,goal)

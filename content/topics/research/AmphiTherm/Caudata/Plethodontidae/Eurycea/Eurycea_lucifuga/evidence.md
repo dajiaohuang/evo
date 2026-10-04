@@ -1,0 +1,1152 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Eurycea lucifuga
+    name:
+      en: Eurycea lucifuga
+      zh: Eurycea lucifuga
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "2470"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 2244
+      - topic: ecology
+        title:
+          en: Selected thermal preference estimate
+          zh: 选列的温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "4486"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 4059
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 2244
+        values:
+          - "2470"
+          - Patrice Pottier
+          - Hutchison_1958
+          - The Distribution and Ecology of the Cave Salamander, Eurycea lucifuga
+          - "1958"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Eurycea_lucifuga_pop5
+          - Eurycea_lucifuga_pop5_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Eurycea lucifuga
+          - lucifuga
+          - LC
+          - wild
+          - NA
+          - "37.432664"
+          - "-80.31995"
+          - "701"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "18"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - ambient
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr_et_al_2018
+          - NA
+          - NA
+          - "34.14"
+          - NA
+          - "11"
+          - NA
+          - Data taken from Rohr et al. 2018
+      - rowNumber: 2267
+        values:
+          - "2493"
+          - Patrice Pottier
+          - Hutchison_1961
+          - Critical Thermal Maxima in Salamanders
+          - "1961"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Eurycea_lucifuga_pop4
+          - Eurycea_lucifuga_pop4_UTL_co1
+          - Population from Giles County, Virginia
+          - Caudata
+          - Plethodontidae
+          - Eurycea lucifuga
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.313288"
+          - "-80.677079"
+          - "567"
+          - NA
+          - July
+          - "1958"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - "0.2"
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 18
+          - NA
+          - NA
+          - "34.95216401"
+          - "0.150341686"
+          - "10"
+          - sd
+          - Data was digitised from figure because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3900
+        values:
+          - "4318"
+          - Yefeng Yang
+          - Sealander_and_West_1969
+          - Critical Thermal Maxima of Some Arkansas Salamanders in Relation to Thermal Acclimation
+          - "1969"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Eurycea_lucifuga_pop1
+          - Eurycea_lucifuga_pop1_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Eurycea lucifuga
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.90860146"
+          - "-94.3763127"
+          - "522"
+          - NA
+          - March
+          - "1966"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps.
+          - "17.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/2/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "37.2"
+          - "0.4"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 3901
+        values:
+          - "4319"
+          - Yefeng Yang
+          - Sealander_and_West_1969
+          - Critical Thermal Maxima of Some Arkansas Salamanders in Relation to Thermal Acclimation
+          - "1969"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Eurycea_lucifuga_pop1
+          - Eurycea_lucifuga_pop1_UTL_co2
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Eurycea lucifuga
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.90860146"
+          - "-94.3763127"
+          - "522"
+          - NA
+          - March
+          - "1966"
+          - NA
+          - NA
+          - Geographical coordinates were roughly estimated using Google Maps.
+          - "17.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "0.5"
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/63
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "37"
+          - "0.8"
+          - "11"
+          - sd
+          - NA
+      - rowNumber: 4025
+        values:
+          - "4452"
+          - Patrice Pottier
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Eurycea_lucifuga_pop3
+          - Eurycea_lucifuga_pop3_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Eurycea lucifuga
+          - NA
+          - LC
+          - wild
+          - NA
+          - "36.14393736"
+          - "-94.38136898"
+          - NA
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/4/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "33.88921713"
+          - "0.620384047"
+          - "10"
+          - sd
+          - Data was dititised from figure 2.
+      - rowNumber: 4026
+        values:
+          - "4453"
+          - Patrice Pottier
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Eurycea_lucifuga_pop3
+          - Eurycea_lucifuga_pop3_UTL_co2
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Eurycea lucifuga
+          - NA
+          - LC
+          - wild
+          - NA
+          - "36.14393736"
+          - "-94.38136898"
+          - NA
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/5/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.09453471"
+          - "0.558345643"
+          - "11"
+          - sd
+          - Data was dititised from figure 2.
+      - rowNumber: 4027
+        values:
+          - "4454"
+          - Patrice Pottier
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Eurycea_lucifuga_pop3
+          - Eurycea_lucifuga_pop3_UTL_co3
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Eurycea lucifuga
+          - NA
+          - LC
+          - wild
+          - NA
+          - "36.14393736"
+          - "-94.38136898"
+          - NA
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/6/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "36.38847858"
+          - "0.815361891"
+          - "11"
+          - sd
+          - Data was dititised from figure 2.
+      - rowNumber: 4059
+        values:
+          - "4486"
+          - Natalie_Claunch
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Eurycea_lucifuga_pop2
+          - Eurycea_lucifuga_pop2_PBT_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Eurycea lucifuga
+          - NA
+          - LC
+          - wild
+          - NA
+          - "36.14393736"
+          - "-94.38136898"
+          - "389"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - March to October 1968 and 1969 ozark; from series of 5 caves in multiple counties in arkansas
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2"
+          - "0.5"
+          - linear
+          - "-2"
+          - "53.2"
+          - A single measurement was collected after a 2h measurement period, so the rate_measurement was taken as 0.5
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "23.08474576"
+          - "3.559322034"
+          - "20"
+          - sd
+          - NA
+      - rowNumber: 4060
+        values:
+          - "4487"
+          - Natalie_Claunch
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Eurycea_lucifuga_pop2
+          - Eurycea_lucifuga_pop2_PBT_co2
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Eurycea lucifuga
+          - NA
+          - LC
+          - wild
+          - NA
+          - "36.14393736"
+          - "-94.38136898"
+          - "389"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - March to October 1968 and 1969 ozark; from series of 5 caves in multiple counties in arkansas
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2"
+          - "0.5"
+          - linear
+          - "-2"
+          - "53.2"
+          - A single measurement was collected after a 2h measurement period, so the rate_measurement was taken as 0.5
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "22.06779661"
+          - "6.203389831"
+          - "21"
+          - sd
+          - NA
+      - rowNumber: 4061
+        values:
+          - "4488"
+          - Natalie_Claunch
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Eurycea_lucifuga_pop2
+          - Eurycea_lucifuga_pop2_PBT_co3
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Eurycea lucifuga
+          - NA
+          - LC
+          - wild
+          - NA
+          - "36.14393736"
+          - "-94.38136898"
+          - "389"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - March to October 1968 and 1969 ozark; from series of 5 caves in multiple counties in arkansas
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2"
+          - "0.5"
+          - linear
+          - "-2"
+          - "53.2"
+          - A single measurement was collected after a 2h measurement period, so the rate_measurement was taken as 0.5
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "19.22033898"
+          - "3.762711864"
+          - "21"
+          - sd
+          - NA
+    originalStudyCitations:
+      - ref: Hutchison_1958
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: NA
+        year: "1958"
+      - ref: Hutchison_1961
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: NA
+        year: "1961"
+      - ref: Sealander_and_West_1969
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/2/title
+          format: heading
+        doi: NA
+        year: "1969"
+      - ref: Spotila_1972
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/3/title
+          format: heading
+        doi: https://doi.org/10.2307/1942232
+        year: "1972"
+    selectedEstimateRowNumbers:
+      - 2244
+      - 4059
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3D3H6
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Eurycea lucifuga — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 2244, 2267, 3900, 3901, 4025, 4026, 4027, 4059, 4060, 4061; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/2/values/63 -->
+Ramping was taken as in Hutchison (1961). Endpoint was considered to be LRR because authors used the onset of disorganized locomotion as the endpoint.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/63 -->
+Ramping was taken as in Hutchison (1961). Endpoint was considered to be LRR because authors used the onset of disorganized locomotion as the endpoint.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/4/values/28 -->
+Animals were collected in March to October 1968 and 1969. Animals were collected in different localities in the Arkansas Ozarks
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/5/values/28 -->
+Animals were collected in March to October 1968 and 1969. Animals were collected in different localities in the Arkansas Ozarks
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/6/values/28 -->
+Animals were collected in March to October 1968 and 1969. Animals were collected in different localities in the Arkansas Ozarks
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

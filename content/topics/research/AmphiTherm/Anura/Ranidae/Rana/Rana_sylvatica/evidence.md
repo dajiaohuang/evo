@@ -1,0 +1,8654 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Rana sylvatica
+    name:
+      en: Rana sylvatica
+      zh: Rana sylvatica
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "353"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 277
+      - topic: ecology
+        title:
+          en: Selected thermal preference estimate
+          zh: 选列的温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1852"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 1669
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "2970"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/3/text/zh
+        sourceRowNumber: 2681
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 277
+        values:
+          - "353"
+          - Patrice Pottier
+          - Brattstrom_1963
+          - A Preliminary Review of the Thermal Requirements of Amphibians
+          - "1963"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1932171
+          - English
+          - Rana_sylvatica_pop16
+          - Rana_sylvatica_pop16_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "47.164973"
+          - "-95.196698"
+          - "490"
+          - 18/08/1955
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018
+          - "57"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text; Rohr et al. 2018
+          - NA
+          - NA
+          - "34.8"
+          - NA
+          - "8"
+          - NA
+          - NA
+      - rowNumber: 355
+        values:
+          - "431"
+          - Patrice Pottier
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Rana_sylvatica_pop17
+          - Rana_sylvatica_pop17_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "51.091389"
+          - "-121.586667"
+          - "610"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "17.5"
+          - acclimation_time was taken as the mean of the range presented (2-3 weeks)
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018. Photoperiod was either 24h light, or 24h dark.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "30.3"
+          - NA
+          - "10"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/1/values/83
+      - rowNumber: 356
+        values:
+          - "432"
+          - Patrice Pottier
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Rana_sylvatica_pop17
+          - Rana_sylvatica_pop17_UTL_co2
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "51.091389"
+          - "-121.586667"
+          - "610"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23"
+          - "1"
+          - "17.5"
+          - acclimation_time was taken as the mean of the range presented (2-3 weeks)
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018. Photoperiod was either 24h light, or 24h dark.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "32.9"
+          - NA
+          - "10"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/2/values/83
+      - rowNumber: 357
+        values:
+          - "433"
+          - Patrice Pottier
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Rana_sylvatica_pop17
+          - Rana_sylvatica_pop17_UTL_co3
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "51.091389"
+          - "-121.586667"
+          - "610"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "30"
+          - "1"
+          - "17.5"
+          - acclimation_time was taken as the mean of the range presented (2-3 weeks)
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018. Photoperiod was either 24h light, or 24h dark.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "33.6"
+          - NA
+          - "10"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/83
+      - rowNumber: 1141
+        values:
+          - "1290"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/4/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - "1"
+          - "5"
+          - NA
+          - larvae
+          - "27"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.215311"
+          - "0.545454545"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1142
+        values:
+          - "1291"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co10
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/5/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.91866029"
+          - "0.61722488"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1143
+        values:
+          - "1292"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co11
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/6/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - "1"
+          - "4"
+          - NA
+          - larvae
+          - "27"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "36.45454545"
+          - "0.344497608"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1144
+        values:
+          - "1293"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co12
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/7/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - "1"
+          - "4"
+          - NA
+          - larvae
+          - "29"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.20574163"
+          - "0.473684211"
+          - "6"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1145
+        values:
+          - "1294"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co13
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/8/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - "1"
+          - "4"
+          - NA
+          - larvae
+          - "32"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.20574163"
+          - "0.43062201"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1146
+        values:
+          - "1295"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co14
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/9/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - "1"
+          - "4"
+          - NA
+          - larvae
+          - "36"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.22009569"
+          - "0.315789474"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1147
+        values:
+          - "1296"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co15
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/10/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - "1"
+          - "4"
+          - NA
+          - larvae
+          - "39"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.49282297"
+          - "0.344497608"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1148
+        values:
+          - "1297"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co16
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/11/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - "1"
+          - "4"
+          - NA
+          - larvae
+          - "41"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.00478469"
+          - "0.444976077"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1149
+        values:
+          - "1298"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co17
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/12/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - "1"
+          - "4"
+          - NA
+          - metamorphs
+          - "42"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.23444976"
+          - "0.301435407"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1150
+        values:
+          - "1299"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co18
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/13/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - "1"
+          - "4"
+          - NA
+          - metamorphs
+          - "43"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.54545455"
+          - "0.588516746"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1151
+        values:
+          - "1300"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co19
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/14/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - "1"
+          - "4"
+          - NA
+          - juveniles
+          - "46"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "36.81339713"
+          - "0.588516746"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1152
+        values:
+          - "1301"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co2
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/15/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - "1"
+          - "5"
+          - NA
+          - larvae
+          - "29"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.35885167"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD. SD was not reported for this effect size.
+      - rowNumber: 1153
+        values:
+          - "1302"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co20
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/16/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "36.09569378"
+          - "0.301435407"
+          - "7"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1154
+        values:
+          - "1303"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co21
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/17/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - "1"
+          - "3"
+          - NA
+          - larvae
+          - "27"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.00956938"
+          - NA
+          - "2"
+          - NA
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD. SD was not reported for this effect size.
+      - rowNumber: 1155
+        values:
+          - "1304"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co22
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/18/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - "1"
+          - "3"
+          - NA
+          - larvae
+          - "29"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.62679426"
+          - NA
+          - "2"
+          - NA
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD. SD was not reported for this effect size.
+      - rowNumber: 1156
+        values:
+          - "1305"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co23
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/19/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - "1"
+          - "3"
+          - NA
+          - larvae
+          - "32"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.13875598"
+          - "0.401913876"
+          - "8"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1157
+        values:
+          - "1306"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co24
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/20/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - "1"
+          - "3"
+          - NA
+          - larvae
+          - "36"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.44019139"
+          - "0.344497608"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1158
+        values:
+          - "1307"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co25
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/21/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - "1"
+          - "3"
+          - NA
+          - larvae
+          - "39"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.46889952"
+          - "0.28708134"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1159
+        values:
+          - "1308"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co26
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/22/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - "1"
+          - "3"
+          - NA
+          - larvae
+          - "41"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.56937799"
+          - "0.387559809"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1160
+        values:
+          - "1309"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co27
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/23/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - "1"
+          - "3"
+          - NA
+          - metamorphs
+          - "42"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.46889952"
+          - "0.401913876"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1161
+        values:
+          - "1310"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co28
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/24/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - "1"
+          - "3"
+          - NA
+          - metamorphs
+          - "43"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.90909091"
+          - "0.344497608"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1162
+        values:
+          - "1311"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co29
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/25/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - "1"
+          - "3"
+          - NA
+          - juveniles
+          - "46"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.77511962"
+          - "0.775119617"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1163
+        values:
+          - "1312"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co3
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/26/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - "1"
+          - "5"
+          - NA
+          - larvae
+          - "32"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.23444976"
+          - "0.43062201"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1164
+        values:
+          - "1313"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co4
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/27/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - "1"
+          - "5"
+          - NA
+          - larvae
+          - "36"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.11961722"
+          - "0.43062201"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1165
+        values:
+          - "1314"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co5
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/28/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - "1"
+          - "5"
+          - NA
+          - larvae
+          - "39"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "38.17703349"
+          - "0.315789474"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1166
+        values:
+          - "1315"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co6
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/29/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - "1"
+          - "5"
+          - NA
+          - larvae
+          - "41"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.60287081"
+          - "0.516746411"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1167
+        values:
+          - "1316"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co7
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/30/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - "1"
+          - "5"
+          - NA
+          - metamorphs
+          - "42"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "37.34449761"
+          - "0.574162679"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1168
+        values:
+          - "1317"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co8
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/31/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - "1"
+          - "5"
+          - NA
+          - metamorphs
+          - "43"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "36.33971292"
+          - "0.674641148"
+          - "10"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1169
+        values:
+          - "1318"
+          - Patrice Pottier
+          - Cupp_1980
+          - Thermal tolerance of five salientian amphibians during development and metamorphosis
+          - "1980"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop1
+          - Rana_sylvatica_pop1_UTL_co9
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "35.052591"
+          - "-83.196817"
+          - "1181"
+          - NA
+          - NA
+          - NA
+          - January_1972
+          - March_1973
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/32/values/28
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "10"
+          - "1"
+          - "5"
+          - NA
+          - juveniles
+          - "46"
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "36.26794258"
+          - "0.459330144"
+          - "7"
+          - sd
+          - Data was digitised from figure 1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 1669
+        values:
+          - "1852"
+          - Natalie_Claunch
+          - Friedenberg_and_Skelly_2004
+          - Microgeographical variation in thermal preference by an amphibian
+          - "2004"
+          - NA
+          - NA
+          - peer-reviewed
+          - "doi: 10.1111/j.1461-0248.2004.00587.x"
+          - English
+          - Rana_sylvatica_pop10
+          - Rana_sylvatica_pop10_PBT_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "41.95"
+          - "-72.11"
+          - "232"
+          - NA
+          - April
+          - "2001"
+          - NA
+          - NA
+          - Open canopy sites. Coordinates estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "7.9"
+          - "0.4"
+          - "2"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - "30"
+          - linear
+          - "7.9"
+          - "29.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "17.6"
+          - "1.2"
+          - "15"
+          - se
+          - error_trait was assumed to be SE.
+      - rowNumber: 1670
+        values:
+          - "1853"
+          - Natalie_Claunch
+          - Friedenberg_and_Skelly_2004
+          - Microgeographical variation in thermal preference by an amphibian
+          - "2004"
+          - NA
+          - NA
+          - peer-reviewed
+          - "doi: 10.1111/j.1461-0248.2004.00587.x"
+          - English
+          - Rana_sylvatica_pop10
+          - Rana_sylvatica_pop10_PBT_co2
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "41.95"
+          - "-72.11"
+          - "232"
+          - NA
+          - April
+          - "2001"
+          - NA
+          - NA
+          - Closed canopy sites. Coordinates estimated from Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "7.9"
+          - "0.4"
+          - "2"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - "30"
+          - linear
+          - "7.9"
+          - "29.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "20.4"
+          - "0.3"
+          - "15"
+          - se
+          - error_trait was assumed to be SE.
+      - rowNumber: 2608
+        values:
+          - "2878"
+          - PPollo
+          - Katzenberger_et_al_2021
+          - Variation in upper thermal tolerance among 19 species from temperate wetlands
+          - "2021"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/j.jtherbio.2021.102856
+          - English
+          - Rana_sylvatica_pop8
+          - Rana_sylvatica_pop8_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "41.69169167"
+          - "-80.50080833"
+          - "318"
+          - NA
+          - NA
+          - "2010"
+          - March_2010
+          - May_2010
+          - Spring 2010
+          - NA
+          - NA
+          - "17"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/35/values/33
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "0.2142"
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1 and 3
+          - NA
+          - NA
+          - "38.2"
+          - "0.387298335"
+          - "15"
+          - sd
+          - Standard error was converted to SD as sqrt(N) * se
+      - rowNumber: 2681
+        values:
+          - "2970"
+          - Natalie_Claunch
+          - Layne_1995
+          - Seasonal variation in the cryobiology of Rana sylvatica from Pennsylvania
+          - "1995"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop7
+          - Rana_sylvatica_pop7_LTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.89476514"
+          - "-79.95099259"
+          - "374"
+          - NA
+          - NA
+          - NA
+          - October_1993
+          - November_1993
+          - Autumn. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - NA
+          - "35"
+          - 2-8 weeks of acclimation
+          - adults
+          - NA
+          - NA
+          - "15.9"
+          - NA
+          - unknown
+          - CTmin
+          - SCP
+          - body
+          - "0"
+          - "0.03"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Crystallization temperature
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-3"
+          - "0.1"
+          - "12"
+          - se
+          - NA
+      - rowNumber: 2682
+        values:
+          - "2971"
+          - Natalie_Claunch
+          - Layne_1995
+          - Seasonal variation in the cryobiology of Rana sylvatica from Pennsylvania
+          - "1995"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop7
+          - Rana_sylvatica_pop7_LTL_co2
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.89476514"
+          - "-79.95099259"
+          - "374"
+          - 7/4/1994
+          - April
+          - "1994"
+          - NA
+          - NA
+          - Spring. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "5"
+          - NA
+          - "35"
+          - 2-8 weeks of acclimation
+          - juveniles
+          - NA
+          - NA
+          - "3.4"
+          - NA
+          - unknown
+          - CTmin
+          - SCP
+          - body
+          - "0"
+          - "0.03"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Crystallization temperature
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-3"
+          - "0.1"
+          - "5"
+          - se
+          - NA
+      - rowNumber: 2683
+        values:
+          - "2972"
+          - Natalie_Claunch
+          - Layne_1995
+          - Seasonal variation in the cryobiology of Rana sylvatica from Pennsylvania
+          - "1995"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Rana_sylvatica_pop7
+          - Rana_sylvatica_pop7_LTL_co3
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.89476514"
+          - "-79.95099259"
+          - "374"
+          - NA
+          - June
+          - "1994"
+          - NA
+          - NA
+          - Summer. Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - NA
+          - "35"
+          - 2-8 weeks of acclimation
+          - adults
+          - NA
+          - NA
+          - "5.6"
+          - NA
+          - unknown
+          - CTmin
+          - SCP
+          - body
+          - "0"
+          - "0.03"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Crystallization temperature
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-2.8"
+          - "0.1"
+          - "6"
+          - se
+          - NA
+      - rowNumber: 2839
+        values:
+          - "3148"
+          - Patrice Pottier
+          - Lotshaw_1977
+          - Temperature Adaptation and Effects of Thermal Acclimation in Rana Sylvatica and Rana Catesbeiana
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90239-0
+          - English
+          - Rana_sylvatica_pop16
+          - Rana_sylvatica_pop16_UTL_co1
+          - Population from Lake Itasca State Park, Minnesota
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "47.164973"
+          - "-95.196698"
+          - "490"
+          - NA
+          - June
+          - "1974"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "2"
+          - "7"
+          - Acclimation time was taken as the mean of the range presented (4-10 days)
+          - adults
+          - NA
+          - "55"
+          - "8.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.98269896"
+          - "0.124567474"
+          - "9"
+          - se
+          - Data was digitised from figure 1 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 2840
+        values:
+          - "3149"
+          - Patrice Pottier
+          - Lotshaw_1977
+          - Temperature Adaptation and Effects of Thermal Acclimation in Rana Sylvatica and Rana Catesbeiana
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90239-0
+          - English
+          - Rana_sylvatica_pop16
+          - Rana_sylvatica_pop16_UTL_co2
+          - Population from Lake Itasca State Park, Minnesota
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "47.164973"
+          - "-95.196698"
+          - "490"
+          - NA
+          - June
+          - "1974"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "2"
+          - "7"
+          - Acclimation time was taken as the mean of the range presented (4-10 days)
+          - adults
+          - NA
+          - "55"
+          - "8.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.183391"
+          - "0.103806228"
+          - "8"
+          - se
+          - Data was digitised from figure 1 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 2841
+        values:
+          - "3150"
+          - Patrice Pottier
+          - Lotshaw_1977
+          - Temperature Adaptation and Effects of Thermal Acclimation in Rana Sylvatica and Rana Catesbeiana
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90239-0
+          - English
+          - Rana_sylvatica_pop16
+          - Rana_sylvatica_pop16_UTL_co3
+          - Population from Lake Itasca State Park, Minnesota
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "47.164973"
+          - "-95.196698"
+          - "490"
+          - NA
+          - June
+          - "1974"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "2"
+          - "7"
+          - Acclimation time was taken as the mean of the range presented (4-10 days)
+          - adults
+          - NA
+          - "55"
+          - "8.4"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.37024221"
+          - "0.134948097"
+          - "10"
+          - se
+          - Data was digitised from figure 1 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 2842
+        values:
+          - "3151"
+          - Patrice Pottier
+          - Lotshaw_1977
+          - Temperature Adaptation and Effects of Thermal Acclimation in Rana Sylvatica and Rana Catesbeiana
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90239-0
+          - English
+          - Rana_sylvatica_pop6
+          - Rana_sylvatica_pop6_UTL_co1
+          - Population from Lebanon, Ohio
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.435337"
+          - "-84.202992"
+          - "251"
+          - NA
+          - March
+          - "1975"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "2"
+          - "7"
+          - Acclimation time was taken as the mean of the range presented (4-10 days)
+          - adults
+          - NA
+          - "55"
+          - "11.3"
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "33.19723183"
+          - "0.103806228"
+          - "4"
+          - se
+          - Data was digitised from figure 1 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 2843
+        values:
+          - "3152"
+          - Patrice Pottier
+          - Lotshaw_1977
+          - Temperature Adaptation and Effects of Thermal Acclimation in Rana Sylvatica and Rana Catesbeiana
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90239-0
+          - English
+          - Rana_sylvatica_pop6
+          - Rana_sylvatica_pop6_UTL_co2
+          - Population from Lebanon, Ohio
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.435337"
+          - "-84.202992"
+          - "251"
+          - NA
+          - March
+          - "1975"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "2"
+          - "7"
+          - Acclimation time was taken as the mean of the range presented (4-10 days)
+          - adults
+          - NA
+          - "55"
+          - "11.3"
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.05882353"
+          - "0.124567474"
+          - "5"
+          - se
+          - Data was digitised from figure 1 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3149
+        values:
+          - "3466"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop11
+          - Rana_sylvatica_pop11_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/44/values/12
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.51666667"
+          - "-74.11666667"
+          - "506"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were converted to decimal degrees using the data in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "15"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "15"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "26.14545455"
+          - "0.363636364"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/44/values/83
+      - rowNumber: 3150
+        values:
+          - "3467"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop11
+          - Rana_sylvatica_pop11_UTL_co2
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/45/values/12
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.51666667"
+          - "-74.11666667"
+          - "506"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were converted to decimal degrees using the data in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "33.83376623"
+          - "0.405194805"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/45/values/83
+      - rowNumber: 3151
+        values:
+          - "3468"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop11
+          - Rana_sylvatica_pop11_UTL_co3
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/46/values/12
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.51666667"
+          - "-74.11666667"
+          - "506"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were converted to decimal degrees using the data in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "15"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - "15"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "32.96127563"
+          - "0.451025057"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/46/values/83
+      - rowNumber: 3152
+        values:
+          - "3469"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop11
+          - Rana_sylvatica_pop11_UTL_co3
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/47/values/12
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.51666667"
+          - "-74.11666667"
+          - "506"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were converted to decimal degrees using the data in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "15"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "15"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "28.30068337"
+          - "0.177676538"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/47/values/83
+      - rowNumber: 3153
+        values:
+          - "3470"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop11
+          - Rana_sylvatica_pop11_UTL_co4
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/48/values/12
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.51666667"
+          - "-74.11666667"
+          - "506"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were converted to decimal degrees using the data in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "22"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - "22"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "37.79549719"
+          - "0.208255159"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/48/values/83
+      - rowNumber: 3154
+        values:
+          - "3471"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop11
+          - Rana_sylvatica_pop11_UTL_co4
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/49/values/12
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.51666667"
+          - "-74.11666667"
+          - "506"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were converted to decimal degrees using the data in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "22"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "22"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "35.71294559"
+          - "0.270168856"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/49/values/83
+      - rowNumber: 3155
+        values:
+          - "3472"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop13
+          - Rana_sylvatica_pop13_UTL_co1
+          - New York (Albany) population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.633333"
+          - "-73.85"
+          - "67"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "48.1"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "33.9"
+          - "0.5"
+          - "11"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3156
+        values:
+          - "3473"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop13
+          - Rana_sylvatica_pop13_UTL_co1
+          - New York (Albany) population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.633333"
+          - "-73.85"
+          - "67"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "48.1"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "34.9"
+          - "0.7"
+          - "9"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3157
+        values:
+          - "3474"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop13
+          - Rana_sylvatica_pop13_UTL_co1
+          - New York (Albany) population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.633333"
+          - "-73.85"
+          - "67"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "48.1"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "36.2"
+          - "0.4"
+          - "11"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3158
+        values:
+          - "3475"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop13
+          - Rana_sylvatica_pop13_UTL_co2
+          - New York (Albany) population. The same individuals were used to measure LRR and heat rigor, hence the shared cohort IDs
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.633333"
+          - "-73.85"
+          - "67"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "15"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - "15"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "31.8952164"
+          - "0.355353075"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/53/values/83
+      - rowNumber: 3159
+        values:
+          - "3476"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop13
+          - Rana_sylvatica_pop13_UTL_co2
+          - New York (Albany) population. The same individuals were used to measure LRR and heat rigor, hence the shared cohort IDs
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.633333"
+          - "-73.85"
+          - "67"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "15"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "15"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "29.13439636"
+          - "0.109339408"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/54/values/83
+      - rowNumber: 3160
+        values:
+          - "3477"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop13
+          - Rana_sylvatica_pop13_UTL_co3
+          - New York (Albany) population. The same individuals were used to measure LRR and heat rigor, hence the shared cohort IDs
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.633333"
+          - "-73.85"
+          - "67"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "22"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - "22"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "38.23452158"
+          - "0.12945591"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/55/values/83
+      - rowNumber: 3161
+        values:
+          - "3478"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop13
+          - Rana_sylvatica_pop13_UTL_co3
+          - New York (Albany) population. The same individuals were used to measure LRR and heat rigor, hence the shared cohort IDs
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.633333"
+          - "-73.85"
+          - "67"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "22"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "22"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "36.50093809"
+          - "0.455909944"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/56/values/83
+      - rowNumber: 3162
+        values:
+          - "3479"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop14
+          - Rana_sylvatica_pop14_UTL_co1
+          - Michigan population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.75"
+          - "-83.216667"
+          - "262"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "36.2"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "33.3"
+          - "0.6"
+          - "9"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3163
+        values:
+          - "3480"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop14
+          - Rana_sylvatica_pop14_UTL_co1
+          - Michigan population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.75"
+          - "-83.216667"
+          - "262"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "36.2"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "34.5"
+          - "0.5"
+          - "9"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3164
+        values:
+          - "3481"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop14
+          - Rana_sylvatica_pop14_UTL_co1
+          - Michigan population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.75"
+          - "-83.216667"
+          - "262"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "36.2"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "35.3"
+          - "0.6"
+          - "8"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3165
+        values:
+          - "3482"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop14
+          - Rana_sylvatica_pop14_UTL_co2
+          - Michigan population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.75"
+          - "-83.216667"
+          - "262"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "15"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "15"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "27.1012987"
+          - "0.415584416"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/60/values/83
+      - rowNumber: 3166
+        values:
+          - "3483"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop14
+          - Rana_sylvatica_pop14_UTL_co3
+          - Michigan population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.75"
+          - "-83.216667"
+          - "262"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "33.8961039"
+          - "0.238961039"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/61/values/83
+      - rowNumber: 3167
+        values:
+          - "3484"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop2
+          - Rana_sylvatica_pop2_UTL_co1
+          - Kentucky population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - "326"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "53.4"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "34.5"
+          - "0.7"
+          - "20"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3168
+        values:
+          - "3485"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop2
+          - Rana_sylvatica_pop2_UTL_co1
+          - Kentucky population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - "326"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "53.4"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "36.4"
+          - "0.7"
+          - "15"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3169
+        values:
+          - "3486"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop2
+          - Rana_sylvatica_pop2_UTL_co1
+          - Kentucky population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - "326"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "53.4"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "36.8"
+          - "0.7"
+          - "15"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3170
+        values:
+          - "3487"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop2
+          - Rana_sylvatica_pop2_UTL_co2
+          - Kentucky population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - "326"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "15"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "15"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "27.35064935"
+          - "0.519480519"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/65/values/83
+      - rowNumber: 3171
+        values:
+          - "3488"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop2
+          - Rana_sylvatica_pop2_UTL_co3
+          - Kentucky population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - "326"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "36.7012987"
+          - "0.114285714"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/66/values/83
+      - rowNumber: 3172
+        values:
+          - "3489"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop2
+          - Rana_sylvatica_pop2_UTL_co4
+          - Kentucky population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - "326"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "15"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "15"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "28.41038961"
+          - "0.290909091"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/67/values/83
+      - rowNumber: 3173
+        values:
+          - "3490"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop2
+          - Rana_sylvatica_pop2_UTL_co5
+          - Kentucky population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - "326"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "36.22337662"
+          - "0.166233766"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/68/values/83
+      - rowNumber: 3174
+        values:
+          - "3491"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop3
+          - Rana_sylvatica_pop3_UTL_co1
+          - Canada population
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - lab
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "31.27792208"
+          - "0.322077922"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/69/values/83
+      - rowNumber: 3175
+        values:
+          - "3492"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop3
+          - Rana_sylvatica_pop3_UTL_co2
+          - Canada population
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - lab
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.26753247"
+          - "0.290909091"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/70/values/83
+      - rowNumber: 3176
+        values:
+          - "3493"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop3
+          - Rana_sylvatica_pop3_UTL_co3
+          - Cross between Kentucky females and Ohio males
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - lab
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "36.14025974"
+          - "0.25974026"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/71/values/83
+      - rowNumber: 3177
+        values:
+          - "3494"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop3
+          - Rana_sylvatica_pop3_UTL_co4
+          - Cross between Kentucky females and Ohio males
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - lab
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.74545455"
+          - "0.238961039"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/72/values/83
+      - rowNumber: 3178
+        values:
+          - "3495"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop3
+          - Rana_sylvatica_pop3_UTL_co5
+          - Cross between Michigan and Canada populations
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - lab
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "32.87792208"
+          - "0.498701299"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/73/values/83
+      - rowNumber: 3179
+        values:
+          - "3496"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop4
+          - Rana_sylvatica_pop4_UTL_co1
+          - Maryland population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.2"
+          - "-76.85"
+          - "43"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "41.2"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "33.5"
+          - "1"
+          - "10"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3180
+        values:
+          - "3497"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop4
+          - Rana_sylvatica_pop4_UTL_co1
+          - Maryland population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.2"
+          - "-76.85"
+          - "43"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "41.2"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "35.4"
+          - "1"
+          - "11"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3181
+        values:
+          - "3498"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop4
+          - Rana_sylvatica_pop4_UTL_co1
+          - Maryland population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.2"
+          - "-76.85"
+          - "43"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "41.2"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "36.5"
+          - "0.7"
+          - "10"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3182
+        values:
+          - "3499"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop5
+          - Rana_sylvatica_pop5_UTL_co1
+          - Ohio population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.8"
+          - "-83.4"
+          - "250"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "49.7"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "34.4"
+          - "0.8"
+          - "17"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3183
+        values:
+          - "3500"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop5
+          - Rana_sylvatica_pop5_UTL_co1
+          - Ohio population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.8"
+          - "-83.4"
+          - "250"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "49.7"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "35.8"
+          - "0.7"
+          - "15"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3184
+        values:
+          - "3501"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop5
+          - Rana_sylvatica_pop5_UTL_co1
+          - Ohio population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.8"
+          - "-83.4"
+          - "250"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "49.7"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported in Table 1
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Table 2
+          - NA
+          - NA
+          - "36.9"
+          - "0.8"
+          - "12"
+          - sd
+          - Data was taken from table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 3185
+        values:
+          - "3502"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop5
+          - Rana_sylvatica_pop5_UTL_co2
+          - Ohio population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.8"
+          - "-83.4"
+          - "250"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "15"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "15"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "25.97922078"
+          - "0.467532468"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/80/values/83
+      - rowNumber: 3186
+        values:
+          - "3503"
+          - Patrice Pottier
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop5
+          - Rana_sylvatica_pop5_UTL_co3
+          - Ohio population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.8"
+          - "-83.4"
+          - "250"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - larvae
+          - "34.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner_tested was taken as the mean of the range presented (33-36)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.91168831"
+          - "0.228571429"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/81/values/83
+      - rowNumber: 3187
+        values:
+          - "3504"
+          - Sarah Varon
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop11
+          - Rana_sylvatica_pop11_LTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.51694444"
+          - "-74.11694444"
+          - "506"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - New York population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.365"
+          - "0.573"
+          - "10"
+          - se
+          - NY-R20
+      - rowNumber: 3188
+        values:
+          - "3505"
+          - Sarah Varon
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop12
+          - Rana_sylvatica_pop12_LTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.51694444"
+          - "-73.30027778"
+          - "75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Canada population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.498"
+          - "0.532"
+          - "10"
+          - se
+          - CN20
+      - rowNumber: 3189
+        values:
+          - "3506"
+          - Sarah Varon
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop14
+          - Rana_sylvatica_pop14_LTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.75"
+          - "-83.216667"
+          - "262"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Michigan population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "4.528"
+          - "0.3"
+          - "10"
+          - se
+          - MI15
+      - rowNumber: 3190
+        values:
+          - "3507"
+          - Sarah Varon
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop14
+          - Rana_sylvatica_pop14_LTL_co2
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42.75"
+          - "-83.216667"
+          - "262"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Michigan population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.13"
+          - "0.532"
+          - "10"
+          - se
+          - MI20
+      - rowNumber: 3191
+        values:
+          - "3508"
+          - Sarah Varon
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop2
+          - Rana_sylvatica_pop2_LTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - "326"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Kentucky population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "15"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "4.475"
+          - "0.164"
+          - "10"
+          - se
+          - KY15
+      - rowNumber: 3192
+        values:
+          - "3509"
+          - Sarah Varon
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop2
+          - Rana_sylvatica_pop2_LTL_co2
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - "326"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Kentucky population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "8.462"
+          - "0.3"
+          - "10"
+          - se
+          - KY20
+      - rowNumber: 3193
+        values:
+          - "3510"
+          - Sarah Varon
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop2
+          - Rana_sylvatica_pop2_LTL_co3
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - lab
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - "326"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Kentucky population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.579"
+          - "0.287"
+          - "10"
+          - se
+          - K01-20
+      - rowNumber: 3194
+        values:
+          - "3511"
+          - Sarah Varon
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop2
+          - Rana_sylvatica_pop2_LTL_co4
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.566667"
+          - "-84.3"
+          - "326"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Kentucky population
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.933"
+          - "0.369"
+          - "10"
+          - se
+          - K02-20
+      - rowNumber: 3195
+        values:
+          - "3512"
+          - Sarah Varon
+          - Manis_and_Claussen_1986
+          - Environmental and genetic influences on the thermal physiology of Rana sylvatica
+          - "1986"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0306-4565(86)90014-8
+          - English
+          - Rana_sylvatica_pop5
+          - Rana_sylvatica_pop5_LTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "38.80027778"
+          - "-83.40027778"
+          - "250"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ohio poplation
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "10"
+          - NA
+          - larvae
+          - "34"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "15"
+          - "0.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "6.963"
+          - "0.915"
+          - "10"
+          - se
+          - OH20
+      - rowNumber: 3895
+        values:
+          - "4313"
+          - Pietro Pollo
+          - Schmid_1982
+          - Survival of Frogs in Low Temperature
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1126/science.7058335
+          - English
+          - Rana_sylvatica_pop16
+          - Rana_sylvatica_pop16_LTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana sylvatica
+          - NA
+          - LC
+          - wild
+          - NA
+          - "47.19440414"
+          - "-95.1652277"
+          - "476"
+          - NA
+          - October
+          - "1979"
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "6"
+          - NA
+          - "25"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - SCP
+          - body
+          - "0"
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "-1.87"
+          - "0.25"
+          - "3"
+          - sd
+          - NA
+    originalStudyCitations:
+      - ref: Brattstrom_1963
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: https://doi.org/10.2307/1932171
+        year: "1963"
+      - ref: Brattstrom_1968
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: https://doi.org/10.1016/0010-406X(68)90961-4
+        year: "1968"
+      - ref: Cupp_1980
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/2/title
+          format: heading
+        doi: NA
+        year: "1980"
+      - ref: Friedenberg_and_Skelly_2004
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/3/title
+          format: heading
+        doi: "doi: 10.1111/j.1461-0248.2004.00587.x"
+        year: "2004"
+      - ref: Katzenberger_et_al_2021
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/4/title
+          format: heading
+        doi: https://doi.org/10.1016/j.jtherbio.2021.102856
+        year: "2021"
+      - ref: Layne_1995
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/5/title
+          format: heading
+        doi: NA
+        year: "1995"
+      - ref: Lotshaw_1977
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/6/title
+          format: heading
+        doi: https://doi.org/10.1016/0300-9629(77)90239-0
+        year: "1977"
+      - ref: Manis_and_Claussen_1986
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/7/title
+          format: heading
+        doi: https://doi.org/10.1016/0306-4565(86)90014-8
+        year: "1986"
+      - ref: Schmid_1982
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/8/title
+          format: heading
+        doi: 10.1126/science.7058335
+        year: "1982"
+    selectedEstimateRowNumbers:
+      - 277
+      - 1669
+      - 2681
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Rana sylvatica — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 277, 355, 356, 357, 1141, 1142, 1143, 1144, 1145, 1146, 1147, 1148, 1149, 1150, 1151, 1152, 1153, 1154, 1155, 1156, 1157, 1158, 1159, 1160, 1161, 1162, 1163, 1164, 1165, 1166, 1167, 1168, 1169, 1669, 1670, 2608, 2681, 2682, 2683, 2839, 2840, 2841, 2842, 2843, 3149, 3150, 3151, 3152, 3153, 3154, 3155, 3156, 3157, 3158, 3159, 3160, 3161, 3162, 3163, 3164, 3165, 3166, 3167, 3168, 3169, 3170, 3171, 3172, 3173, 3174, 3175, 3176, 3177, 3178, 3179, 3180, 3181, 3182, 3183, 3184, 3185, 3186, 3187, 3188, 3189, 3190, 3191, 3192, 3193, 3194, 3195, 3895; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/1/values/83 -->
+Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/2/values/83 -->
+Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/83 -->
+Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/4/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/5/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/6/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/7/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/8/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/9/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/10/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/11/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/12/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/13/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/14/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/15/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/16/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/17/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/18/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/19/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/20/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/21/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/22/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/23/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/24/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/25/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/26/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/27/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/28/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/29/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/30/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/31/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/32/values/28 -->
+Sampling dates were taken as between January 1972 and March 1973 because this species breeding season is between January and March (see Tab 1) and the values reported represent the largest range of dates possible for this species. Coordinates were taken from Rohr et al. 2018
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/35/values/33 -->
+water_temp was from the deepest point in the pond. Animals were collected in Spring 2010 in the USA so it was taken as March - May 2010
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/44/values/12 -->
+New York (Rensselaerville) population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/44/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/45/values/12 -->
+New York (Rensselaerville) population. The same individuals were used for measuring LRR, OS and HR, hence the shared cohort IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/45/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/46/values/12 -->
+New York (Rensselaerville) population. The same individuals were used to measure LRR and heat rigor, hence the shared cohort IDs
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/46/values/83 -->
+Data was digitised from figure 4 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/47/values/12 -->
+New York (Rensselaerville) population. The same individuals were used to measure LRR and heat rigor, hence the shared cohort IDs
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/47/values/83 -->
+Data was digitised from figure 4 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/48/values/12 -->
+New York (Rensselaerville) population. The same individuals were used to measure LRR and heat rigor, hence the shared cohort IDs
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/48/values/83 -->
+Data was digitised from figure 4 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/49/values/12 -->
+New York (Rensselaerville) population. The same individuals were used to measure LRR and heat rigor, hence the shared cohort IDs
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/49/values/83 -->
+Data was digitised from figure 4 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/53/values/83 -->
+Data was digitised from figure 4 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/54/values/83 -->
+Data was digitised from figure 4 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/55/values/83 -->
+Data was digitised from figure 4 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/56/values/83 -->
+Data was digitised from figure 4 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/60/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/61/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/65/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/66/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/67/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/68/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/69/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/70/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/71/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/72/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/73/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/80/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/81/values/83 -->
+Data was digitised from figure 2 because SD was not reported in Rohr et al. 2018. 95% confidence intervals were converted to se by dividing them by 2 (see figure legend of figure 3 suggesting that 95% CI were calculated as 2SE). Data from figure 3 was not included because it was unclear what temperature the animals were acclimated to.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

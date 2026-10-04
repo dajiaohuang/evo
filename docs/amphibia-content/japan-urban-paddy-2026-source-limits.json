@@ -1,0 +1,48 @@
+{
+  "source": "PMC12789193",
+  "doi": "10.1002/ece3.72845",
+  "year": 2026,
+  "license": "CC BY 4.0",
+  "licenseEvidence": "article.xml license/ext-link https://creativecommons.org/licenses/by/4.0/",
+  "colIds": ["37VNM", "5D4MS"],
+  "readScope": "Raw XML selected study-area, species-background, field-survey, landscape, model, result and discussion paragraphs; reading-sections.json has no extracted sections, so raw section IDs retained",
+  "limits": [
+    {
+      "kind": "source-versus-pinned-names",
+      "locators": ["XML ece372845-sec-0004 paragraph 0"],
+      "asRecorded": ["Source Dryophytes japonica; pinned Dryophytes japonicus 37VNM", "Source Rhacophorus schlegelii; pinned Zhangixalus schlegelii 5D4MS"],
+      "handling": "Source names explicitly retained in evidence. Name correspondence does not constitute independently certified molecular concept equivalence or identity of every historic population."
+    },
+    {
+      "kind": "call-detection-units",
+      "locators": ["XML ece372845-sec-0005 paragraphs 0–2", "XML ece372845-sec-0008 paragraph 0"],
+      "asRecorded": ["2022: 104 sites, Dryophytes 71, schlegelii 35", "2023: 102 sites, Dryophytes 44, schlegelii 46", "Night 19:00–24:00, 5–10 minute visits, early stopping after detection, no call coded absent"],
+      "handling": "Counts are sites with detected calling, not frog abundance, true absence, detection-corrected occupancy, egg count or successful recruitment. Ten paddies differed and many points shifted."
+    },
+    {
+      "kind": "unequal-season-and-detection-limits",
+      "locators": ["XML ece372845-sec-0005 paragraphs 0–2", "XML ece372845-sec-0009 paragraph 4"],
+      "asRecorded": ["2022 9 May–4 July", "2023 8 May–7 June", "One main annual event, plus initially dry-site revisits; shifted points and restricted access"],
+      "handling": "Changing counts cannot independently prove decline, growth or stable long-term populations. Irrigation timing and calling availability may alter detections."
+    },
+    {
+      "kind": "association-versus-causal-habitat-requirements",
+      "locators": ["XML ece372845-sec-0006 paragraph 0", "XML ece372845-sec-0007 paragraphs 0–2", "XML ece372845-sec-0008 paragraphs 1–3", "XML ece372845-sec-0009 paragraphs 0, 2–3"],
+      "handling": "50 m Dryophytes and 100 m schlegelii forest buffers are model scales, not dispersal/home-range measurements. Water and soil-channel associations are observational, not randomized habitat requirements, channel climbing, larval movement or recovery tests. Excluded soil levee/concrete-channel variables cannot be declared biologically irrelevant. Final Dryophytes AIC is slightly worse than microhabitat-only model as source reports."
+    },
+    {
+      "kind": "cited-breeding-background",
+      "locators": ["XML ece372845-sec-0004 paragraph 0", "XML ece372845-sec-0009 paragraph 3"],
+      "handling": "Seasonal calling and egg substrate claims are attributed older background, not newly observed eggs or larvae in this study. No clutch size, hatch success, foam characteristics, guarding or complete calendar supplied."
+    },
+    {
+      "kind": "conservation-inference",
+      "locators": ["XML ece372845-sec-0009 paragraphs 0–1, 4"],
+      "handling": "Suggested stable populations by comparison with older literature and greater schlegelii vulnerability are interpretations, not measured long-term demography, verified current category or demonstrated restoration success."
+    }
+  ],
+  "fullArticleRead": false,
+  "biologicalReadersComplete": false,
+  "contemporaryConceptEquivalenceIndependentlyCertified": false,
+  "testsRun": false
+}

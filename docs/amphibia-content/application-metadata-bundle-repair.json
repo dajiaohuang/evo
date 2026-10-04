@@ -1,0 +1,29 @@
+{
+  "cause": "Full 42,198-source-file checksum table and full reference metadata were bundled into application task closures.",
+  "policy": "Do not change runtime budgets. Preserve full canonical source files and every reference field. The application manifest retains all displayed metadata while full source checksums remain available in query exports through a lazy raw metadata import.",
+  "referenceEncoding": "Lossless gzip/base64 metadata module; all records, contributors, identifiers and imported variants preserved.",
+  "sourceReferencesSha256": "510fee5d2efda0f8b278d2286e7d1716577fd913e0b9662bca415b54eaa562f6",
+  "sourceManifestSha256": "c592910f8d9a2cad1c5d19a5642824d40b0e248d715f267aa6896e31ad15a0b4",
+  "focusedTests": {
+    "session": 52985,
+    "files": 2,
+    "testsPassed": 12
+  },
+  "runtimeBudgetsChanged": false,
+  "sourceFilesTruncated": false,
+  "originalArticlesDownloaded": false,
+  "applicationClosuresKiB": {
+    "startup": 772.8,
+    "map": 1712.6,
+    "evidence": 4824,
+    "sql": 4939
+  },
+  "staticHtmlMiB": 79.07,
+  "staticHtmlBudgetMiB": 80,
+  "staticTemplateRepair": {
+    "fullAuthorsPreservedInBodyAndJsonLd": true,
+    "bilingualAlternatesAndCanonicalPreserved": true,
+    "removedRedundantEnglishXDefaultBytes": 2057069,
+    "reportContextPreserved": true
+  }
+}

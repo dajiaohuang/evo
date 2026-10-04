@@ -1,0 +1,3477 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Ambystoma jeffersonianum
+    name:
+      en: Ambystoma jeffersonianum
+      zh: Ambystoma jeffersonianum
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "345"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 269
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Caudata
+      family: Ambystomatidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 269
+        values:
+          - "345"
+          - Patrice Pottier
+          - Brattstrom_1963
+          - A Preliminary Review of the Thermal Requirements of Amphibians
+          - "1963"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1932171
+          - English
+          - Ambystoma_jeffersonianum_pop4
+          - Ambystoma_jeffersonianum_pop4_UTL_co1
+          - NA
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "47.164973"
+          - "-95.196698"
+          - "490"
+          - 18/08/1955
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018
+          - "57"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text; Rohr et al. 2018
+          - NA
+          - NA
+          - "36.2"
+          - NA
+          - "6"
+          - NA
+          - NA
+      - rowNumber: 957
+        values:
+          - "1079"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop1
+          - Ambystoma_jeffersonianum_pop1_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/1/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.2886"
+          - "-86.773119"
+          - "182"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.15807"
+          - "0.1996672"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/1/values/83
+      - rowNumber: 958
+        values:
+          - "1080"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop1
+          - Ambystoma_jeffersonianum_pop1_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/2/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.2886"
+          - "-86.773119"
+          - "182"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.51485"
+          - "0.0940594"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/2/values/83
+      - rowNumber: 959
+        values:
+          - "1081"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop1
+          - Ambystoma_jeffersonianum_pop1_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.2886"
+          - "-86.773119"
+          - "182"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "35.84534"
+          - "0.0790861"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/3/values/83
+      - rowNumber: 960
+        values:
+          - "1082"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop1
+          - Ambystoma_jeffersonianum_pop1_UTL_co2
+          - Animals from the Indiana population, acclimated to 15C and tested in a terrestrial chamber using OS as the endpoint.
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.2886"
+          - "-86.773119"
+          - "182"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - body
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.25743"
+          - "0.1782178"
+          - "9"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/4/values/83
+      - rowNumber: 961
+        values:
+          - "1083"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop1
+          - Ambystoma_jeffersonianum_pop1_UTL_co3
+          - Animals from the Indiana population, acclimated to 15C and tested in a terrestrial chamber using HR as the endpoint.
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.2886"
+          - "-86.773119"
+          - "182"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - body
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "35.7188"
+          - "0.142355"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/5/values/83
+      - rowNumber: 962
+        values:
+          - "1084"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/6/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.71714"
+          - "0.156406"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/6/values/83
+      - rowNumber: 963
+        values:
+          - "1085"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/7/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "35.37624"
+          - "0.2079208"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/7/values/83
+      - rowNumber: 964
+        values:
+          - "1086"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co1
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/8/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "35.68717"
+          - "0.18453425"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/8/values/83
+      - rowNumber: 965
+        values:
+          - "1087"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co10
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/9/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "3"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "36.10833"
+          - "0.10416665"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/9/values/83
+      - rowNumber: 966
+        values:
+          - "1088"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co10
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/10/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "3"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "36.59167"
+          - "0.14166665"
+          - "4"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/10/values/83
+      - rowNumber: 967
+        values:
+          - "1089"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co10
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/11/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "3"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "36.99167"
+          - "0.06666665"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/11/values/83
+      - rowNumber: 968
+        values:
+          - "1090"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co11
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/12/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "4"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "36.13333"
+          - "0.1125"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/12/values/83
+      - rowNumber: 969
+        values:
+          - "1091"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co11
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/13/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "4"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "36.55833"
+          - "0.13333335"
+          - "6"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/13/values/83
+      - rowNumber: 970
+        values:
+          - "1092"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co11
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/14/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "4"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "36.81667"
+          - "0.125"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/14/values/83
+      - rowNumber: 971
+        values:
+          - "1093"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co2
+          - Animals from the Ohio population, acclimated to 15C and tested in a terrestrial chamber using OS as the endpoint.
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - body
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2
+          - NA
+          - NA
+          - "36.07921"
+          - "0.37128715"
+          - "4"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/15/values/83
+      - rowNumber: 972
+        values:
+          - "1094"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co3
+          - Animals from the Ohio population, acclimated to 15C and tested in a terrestrial chamber using HR as the endpoint.
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - body
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "36.47803"
+          - "0.3427065"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/16/values/83
+      - rowNumber: 973
+        values:
+          - "1096"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co5
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/17/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "0.5"
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "34.41635"
+          - "0.2186312"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/17/values/83
+      - rowNumber: 974
+        values:
+          - "1097"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co5
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/18/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "0.5"
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "35.41445"
+          - "0.25190115"
+          - "6"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/18/values/83
+      - rowNumber: 975
+        values:
+          - "1098"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co5
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/19/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "0.5"
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "35.5"
+          - "0.17110265"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/19/values/83
+      - rowNumber: 976
+        values:
+          - "1099"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co6
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/20/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - NA
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "36.08935"
+          - "0.1188213"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/20/values/83
+      - rowNumber: 977
+        values:
+          - "1100"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co6
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/21/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - NA
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "36.52662"
+          - "0.13307985"
+          - "6"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/21/values/83
+      - rowNumber: 978
+        values:
+          - "1101"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co6
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/22/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - NA
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "36.76426"
+          - "0.13307985"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/22/values/83
+      - rowNumber: 979
+        values:
+          - "1102"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co7
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/23/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "35.35741"
+          - "0.1948669"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/23/values/83
+      - rowNumber: 980
+        values:
+          - "1103"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co7
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/24/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "10"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "35.58555"
+          - "0.1853612"
+          - "10"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/24/values/83
+      - rowNumber: 981
+        values:
+          - "1104"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co8
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/25/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "1"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "35.525"
+          - "0.1125"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/25/values/83
+      - rowNumber: 982
+        values:
+          - "1105"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co8
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/26/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "1"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "36.3"
+          - "0.0625"
+          - "7"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/26/values/83
+      - rowNumber: 983
+        values:
+          - "1106"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co8
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/27/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "1"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "36.45833"
+          - "0.05416665"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/27/values/83
+      - rowNumber: 984
+        values:
+          - "1107"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co9
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/28/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "2"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "35.45833"
+          - "0.16666665"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/28/values/83
+      - rowNumber: 985
+        values:
+          - "1108"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co9
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/29/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "2"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "36.35833"
+          - "0.125"
+          - "6"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/29/values/83
+      - rowNumber: 986
+        values:
+          - "1109"
+          - Patrice Pottier
+          - Claussen_1977
+          - Thermal acclimation in ambystomatid salamanders
+          - "1977"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(77)90150-5
+          - English
+          - Ambystoma_jeffersonianum_pop2
+          - Ambystoma_jeffersonianum_pop2_UTL_co9
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/30/values/12
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "39.424142"
+          - "-84.185712"
+          - "251"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "2"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - male
+          - CTmax
+          - other
+          - water
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Endpoint was the "heat rigor" temperature.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 5
+          - NA
+          - NA
+          - "36.49167"
+          - "0.10416665"
+          - "8"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/30/values/83
+      - rowNumber: 1680
+        values:
+          - "1863"
+          - Patrice Pottier
+          - Gatz_1971
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/31/values/3
+          - "1971"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_jeffersonianum_pop3
+          - Ambystoma_jeffersonianum_pop3_UTL_co1
+          - The same individuals were used for measuring LRR and OS, hence the shared cohort IDs.
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.2025"
+          - "-77.195"
+          - "422"
+          - 3/04/1969
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - "6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - LOE
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "31.85"
+          - "0.458257569"
+          - "16"
+          - sd
+          - Data was taken from Tab 1 because Rohr et al. 2018 did not report SD. Variance was converted to SD.
+      - rowNumber: 1681
+        values:
+          - "1864"
+          - Patrice Pottier
+          - Gatz_1971
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/32/values/3
+          - "1971"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Ambystoma_jeffersonianum_pop3
+          - Ambystoma_jeffersonianum_pop3_UTL_co1
+          - The same individuals were used for measuring LRR and OS, hence the shared cohort IDs.
+          - Caudata
+          - Ambystomatidae
+          - Ambystoma jeffersonianum
+          - NA
+          - LC
+          - wild
+          - NA
+          - "40.2025"
+          - "-77.195"
+          - "422"
+          - 3/04/1969
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - "6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "10"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - "154"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "34.04"
+          - "0.244948974"
+          - "16"
+          - sd
+          - Data was taken from Tab 1 because Rohr et al. 2018 did not report SD. Variance was converted to SD.
+    originalStudyCitations:
+      - ref: Brattstrom_1963
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: https://doi.org/10.2307/1932171
+        year: "1963"
+      - ref: Claussen_1977
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: https://doi.org/10.1016/0300-9629(77)90150-5
+        year: "1977"
+      - ref: Gatz_1971
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/2/title
+          format: heading
+        doi: NA
+        year: "1971"
+    selectedEstimateRowNumbers:
+      - 269
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - CQ47
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Ambystoma jeffersonianum — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 269, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 1680, 1681; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/1/values/12 -->
+Animals from the Indiana population, acclimated to 15C and tested in an aquatic chamber using LRR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/1/values/83 -->
+Data was digitised from figure 1 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/2/values/12 -->
+Animals from the Indiana population, acclimated to 15C and tested in an aquatic chamber using OS as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/2/values/83 -->
+Data was digitised from figure 2 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/12 -->
+Animals from the Indiana population, acclimated to 15C and tested in an aquatic chamber using HR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/3/values/83 -->
+Data was digitised from figure 3 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/4/values/83 -->
+Data was digitised from figure 2 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/5/values/83 -->
+Data was digitised from figure 3 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/6/values/12 -->
+Animals from the Ohio population, acclimated to 15C and tested in an aquatic chamber using LRR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/6/values/83 -->
+Data was digitised from figure 1 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/7/values/12 -->
+Animals from the Ohio population, acclimated to 15C and tested in an aquatic chamber using OS as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/7/values/83 -->
+Data was digitised from figure 2 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/8/values/12 -->
+Animals from the Ohio population, acclimated to 15C and tested in an aquatic chamber using HR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/8/values/83 -->
+Data was digitised from figure 3 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/9/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 3 days (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using LRR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/9/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/10/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 3 days (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using OS as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/10/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/11/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 3 days (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using OS as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/11/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/12/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 4 days (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using LRR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/12/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/13/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 4 days (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using OS as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/13/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/14/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 4 days (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using OS as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/14/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/15/values/83 -->
+Data was digitised from figure 2 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/16/values/83 -->
+Data was digitised from figure 3 because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/17/values/12 -->
+Animals from the Ohio population, acclimated to 5C and tested in an aquatic chamber using LRR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/17/values/83 -->
+Data was digitised from figure 4  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/18/values/12 -->
+Animals from the Ohio population, acclimated to 5C and tested in an aquatic chamber using OS as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/18/values/83 -->
+Data was digitised from figure 4  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/19/values/12 -->
+Animals from the Ohio population, acclimated to 5C and tested in an aquatic chamber using HR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/19/values/83 -->
+Data was digitised from figure 4  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/20/values/12 -->
+Animals from the Ohio population, acclimated to 25C and tested in an aquatic chamber using LRR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/20/values/83 -->
+Data was digitised from figure 4  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/21/values/12 -->
+Animals from the Ohio population, acclimated to 25C and tested in an aquatic chamber using OS as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/21/values/83 -->
+Data was digitised from figure 4  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/22/values/12 -->
+Animals from the Ohio population, acclimated to 25C and tested in an aquatic chamber using HR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/22/values/83 -->
+Data was digitised from figure 4  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/23/values/12 -->
+Animals from the Ohio population, acclimated to 15C and tested in an aquatic chamber using OS as the endpoint. The same animals were assessed for OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/23/values/83 -->
+Data was digitised from figure 4  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/24/values/12 -->
+Animals from the Ohio population, acclimated to 15C and tested in an aquatic chamber using HR as the endpoint. The same animals were assessed for OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/24/values/83 -->
+Data was digitised from figure 4  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/25/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 1 day (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using LRR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/25/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/26/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 1 day (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using LRR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/26/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/27/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 1 day (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using HR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/27/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/28/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 2 days (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using LRR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/28/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/29/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 2 days (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using OS as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/29/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/30/values/12 -->
+Animals from the Ohio population, acclimated to 25C for 2 days (transfer from 5C to 25C acclimation) and tested in an aquatic chamber using HR as the endpoint. The same animals were assessed for LRR, OS, and HR (heat rigor), hence why the shared cohort_IDs.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/30/values/83 -->
+Data was digitised from figure 5  because Rohr et al. 2018 did not report this data.. Error was divided by two because the figure represent 2SE on each side of the mean
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/31/values/3 -->
+Critical Thermal Maxima of Ambystoma maculatum (Shaw) and Ambystoma jeffersonianum (Green) in Relation to Time of Breeding
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/32/values/3 -->
+Critical Thermal Maxima of Ambystoma maculatum (Shaw) and Ambystoma jeffersonianum (Green) in Relation to Time of Breeding
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

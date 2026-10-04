@@ -1,0 +1,3861 @@
+{
+  "pmcid": "PMC11576131",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+  "sha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+  "articleType": "research-article",
+  "title": "Detecting Range Shrinking From Historical Amphibian Species Occurrences Under Influence of Human Impacts: A Case Study Using the Chinese Giant Salamander, Andrias davidianus",
+  "authors": [
+    {
+      "name": "Siqing Li",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Siqing",
+        "surname": "Li",
+        "suffix": null
+      },
+      "originalName": "LiSiqing",
+      "attributes": {
+        "id": "ece370595-cr-0001",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Wenyu Dai",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Wenyu",
+        "surname": "Dai",
+        "suffix": null
+      },
+      "originalName": "DaiWenyu",
+      "attributes": {
+        "id": "ece370595-cr-0002",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Zhenkang Wang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Zhenkang",
+        "surname": "Wang",
+        "suffix": null
+      },
+      "originalName": "WangZhenkang",
+      "attributes": {
+        "id": "ece370595-cr-0003",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Zhaoning Wu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Zhaoning",
+        "surname": "Wu",
+        "suffix": null
+      },
+      "originalName": "WuZhaoning",
+      "attributes": {
+        "id": "ece370595-cr-0004",
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Jiechen Wang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Jiechen",
+        "surname": "Wang",
+        "suffix": null
+      },
+      "originalName": "WangJiechen",
+      "attributes": {
+        "id": "ece370595-cr-0005",
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0002-9022-8230"
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC11576131"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC11576131.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "11576131"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "11576131"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "39563702"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1002/ece3.70595"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "ECE370595"
+    },
+    {
+      "pub-id-type": "other",
+      "value": "ECE-2024-06-01217.R2"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2024",
+      "month": "11",
+      "day": "19"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2024",
+      "month": "11",
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "ece370595-supitem-0001",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-14-e70595-s001.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-14-e70595-s001.docx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ece370595-supitem-0002",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "ECE3-14-e70595-s002.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ECE3-14-e70595-s002.docx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "ece370595-bib-0001",
+      "position": 0,
+      "title": "spThin: An R Package for Spatial Thinning of Species Occurrence Records for Use in Ecological Niche Models",
+      "source": "Ecography",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0001"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "38"
+        ],
+        "fpage": [
+          "541"
+        ],
+        "lpage": [
+          "545"
+        ]
+      },
+      "originalCitationText": "Aiello‐Lammens, M. E.\n, \nR. A.\nBoria\n, \nA.\nRadosavljevic\n, \nB.\nVilela\n, and \nR. P.\nAnderson\n. 2015. “spThin: An R Package for Spatial Thinning of Species Occurrence Records for Use in Ecological Niche Models.” Ecography\n38: 541–545. 10.1111/ecog.01132.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/ecog.01132"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0001",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0002",
+      "position": 1,
+      "title": "Habitat Suitability Mapping of Stone Pine (\nPinus pinea\n L.) Under the Effects of Climate Change",
+      "source": "Biologia",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0002"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "75"
+        ],
+        "fpage": [
+          "2175"
+        ],
+        "lpage": [
+          "2187"
+        ]
+      },
+      "originalCitationText": "Akyol, A.\n, \nÖ. K.\nÖrücü\n, and \nE. S.\nArslan\n. 2020. “Habitat Suitability Mapping of Stone Pine (\nPinus pinea\n L.) Under the Effects of Climate Change.” Biologia\n75: 2175–2187. 10.2478/s11756-020-00594-9.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.2478/s11756-020-00594-9"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0002",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0003",
+      "position": 2,
+      "title": "Dispersal and the Metapopulation Paradigm in Amphibian Ecology and Conservation: Are All Amphibian Populations Metapopulations?",
+      "source": "Ecography",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0003"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "110"
+        ],
+        "lpage": [
+          "128"
+        ]
+      },
+      "originalCitationText": "Alex Smith, M.\n, and \nM. D.\nGreen\n. 2005. “Dispersal and the Metapopulation Paradigm in Amphibian Ecology and Conservation: Are All Amphibian Populations Metapopulations?” Ecography\n28: 110–128. 10.1111/j.0906-7590.2005.04042.x.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.0906-7590.2005.04042.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0003",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0004",
+      "position": 3,
+      "title": "Modeling Amphibian Energetics, Habitat Suitability, and Movements of Western Toads, Anaxyrus (=Bufo) Boreas, Across Present and Future Landscapes",
+      "source": "Ecological Modelling",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0004"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "221"
+        ],
+        "fpage": [
+          "2675"
+        ],
+        "lpage": [
+          "2686"
+        ]
+      },
+      "originalCitationText": "Bartelt, P. E.\n, \nR. W.\nKlaver\n, and \nW. P.\nPorter\n. 2010. “Modeling Amphibian Energetics, Habitat Suitability, and Movements of Western Toads, Anaxyrus (=Bufo) Boreas, Across Present and Future Landscapes.” Ecological Modelling\n221: 2675–2686. 10.1016/j.ecolmodel.2010.07.009.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ecolmodel.2010.07.009"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0004",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0005",
+      "position": 4,
+      "title": null,
+      "source": "Review of Experience With Ecological Networks, Corridors and Buffer Zones",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece370595-cit-0005"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "CBD TECHNICAL SERIES"
+        ],
+        "publisher-loc": [
+          "Montreal, QC"
+        ]
+      },
+      "originalCitationText": "Bennett, G.\n, and \nK. J.\nMulongoy\n. 2006. Review of Experience With Ecological Networks, Corridors and Buffer Zones. Montreal, QC: CBD TECHNICAL SERIES.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0005",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0006",
+      "position": 5,
+      "title": "Community‐Based Conservation in a Globalized World",
+      "source": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0006"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "104"
+        ],
+        "fpage": [
+          "15188"
+        ],
+        "lpage": [
+          "15193"
+        ]
+      },
+      "originalCitationText": "Berkes, F.\n\n2007. “Community‐Based Conservation in a Globalized World.” Proceedings of the National Academy of Sciences of the United States of America\n104: 15188–15193. 10.1073/pnas.0702098104.17881580\nPMC2000555",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.0702098104"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17881580"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2000555"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0006",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0007",
+      "position": 6,
+      "title": "Configuration and Spin‐Up of ACCESS‐CM2, the New Generation Australian Community Climate and Earth System Simulator Coupled Model",
+      "source": "Journal of Southern Hemisphere Earth Systems Science",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0007"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "70"
+        ],
+        "fpage": [
+          "225"
+        ],
+        "lpage": [
+          "251"
+        ]
+      },
+      "originalCitationText": "Bi, D.\n, \nM.\nDix\n, \nS.\nMarsland\n, et al. 2020. “Configuration and Spin‐Up of ACCESS‐CM2, the New Generation Australian Community Climate and Earth System Simulator Coupled Model.” Journal of Southern Hemisphere Earth Systems Science\n70: 225–251. 10.1071/ES19040.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1071/ES19040"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0007",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0008",
+      "position": 7,
+      "title": "Land Use and Avian Species Diversity Along an Urban Gradient",
+      "source": "Ecological Applications",
+      "year": "1996",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0008"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "506"
+        ],
+        "lpage": [
+          "519"
+        ]
+      },
+      "originalCitationText": "Blair, R. B.\n\n1996. “Land Use and Avian Species Diversity Along an Urban Gradient.” Ecological Applications\n6: 506–519. 10.2307/2269387.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.2307/2269387"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0008",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0009",
+      "position": 8,
+      "title": "Distorted Views of Biodiversity: Spatial and Temporal Bias in Species Occurrence Data",
+      "source": "PLoS Biology",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0009"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "elocation-id": [
+          "e1000385"
+        ]
+      },
+      "originalCitationText": "Boakes, E. H.\n, \nP. J. K.\nMcGowan\n, \nR. A.\nFuller\n, et al. 2010. “Distorted Views of Biodiversity: Spatial and Temporal Bias in Species Occurrence Data.” PLoS Biology\n8: e1000385. 10.1371/journal.pbio.1000385.20532234\nPMC2879389",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pbio.1000385"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20532234"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2879389"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0009",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0010",
+      "position": 9,
+      "title": "Population Decline Assessment, Historical Baselines, and Conservation",
+      "source": "Conservation Letters",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0010"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "fpage": [
+          "371"
+        ],
+        "lpage": [
+          "378"
+        ]
+      },
+      "originalCitationText": "Bonebrake, T. C.\n, \nJ.\nChristensen\n, \nC. L.\nBoggs\n, and \nP. R.\nEhrlich\n. 2010. “Population Decline Assessment, Historical Baselines, and Conservation.” Conservation Letters\n3: 371–378. 10.1111/j.1755-263X.2010.00139.x.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1755-263X.2010.00139.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0010",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0011",
+      "position": 10,
+      "title": "Presentation and Evaluation of the IPSL‐CM6A‐LR Climate Model",
+      "source": "Journal of Advances in Modeling Earth Systems",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0011"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "elocation-id": [
+          "e2019MS002010"
+        ]
+      },
+      "originalCitationText": "Boucher, O.\n, \nJ.\nServonnat\n, \nA. L.\nAlbright\n, et al. 2020. “Presentation and Evaluation of the IPSL‐CM6A‐LR Climate Model.” Journal of Advances in Modeling Earth Systems\n12: e2019MS002010. 10.1029/2019MS002010.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1029/2019MS002010"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0011",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0012",
+      "position": 11,
+      "title": "Multimodel Inference: Understanding AIC and BIC in Model Selection",
+      "source": "Sociological Methods & Research",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0012"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "33"
+        ],
+        "fpage": [
+          "261"
+        ],
+        "lpage": [
+          "304"
+        ]
+      },
+      "originalCitationText": "Burnham, K. P.\n, and \nD. R.\nAnderson\n. 2004. “Multimodel Inference: Understanding AIC and BIC in Model Selection.” Sociological Methods & Research\n33: 261–304. 10.1177/0049124104268644.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1177/0049124104268644"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0012",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0013",
+      "position": 12,
+      "title": "Widespread Rapid Reductions in Body Size of Adult Salamanders in Response to Climate Change",
+      "source": "Global Change Biology",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0013"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "fpage": [
+          "1751"
+        ],
+        "lpage": [
+          "1759"
+        ]
+      },
+      "originalCitationText": "Caruso, N. M.\n, \nM. W.\nSears\n, \nD. C.\nAdams\n, and \nK. R.\nLips\n. 2014. “Widespread Rapid Reductions in Body Size of Adult Salamanders in Response to Climate Change.” Global Change Biology\n20: 1751–1759. 10.1111/gcb.12550.24664864",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/gcb.12550"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24664864"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0013",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0201",
+      "position": 13,
+      "title": "Gridded Population of the World, Version 4 (GPWv4): Land and Water Area, Revision 11 [Data set]",
+      "source": null,
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece370595-cit-0201"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "NASA Socioeconomic Data and Applications Center (SEDAC)"
+        ],
+        "publisher-loc": [
+          "New York"
+        ]
+      },
+      "originalCitationText": "Center for International Earth Science Information Network (CIESIN) ‐ Columbia University. 2018. “Gridded Population of the World, Version 4 (GPWv4): Land and Water Area, Revision 11 [Data set].” Palisades, New York: NASA Socioeconomic Data and Applications Center (SEDAC). 10.7927/H4Z60M4Z.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.7927/H4Z60M4Z"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0201",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0014",
+      "position": 14,
+      "title": "Discovery of a Wild, Genetically Pure Chinese Giant Salamander Creates New Conservation Opportunities",
+      "source": "Zoological Research",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0014"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "43"
+        ],
+        "fpage": [
+          "469"
+        ],
+        "lpage": [
+          "480"
+        ]
+      },
+      "originalCitationText": "Chai, J.\n, \nC.‐Q.\nLu\n, \nM.‐R.\nYi\n, et al. 2022. “Discovery of a Wild, Genetically Pure Chinese Giant Salamander Creates New Conservation Opportunities.” Zoological Research\n43: 469–480. 10.24272/j.issn.2095-8137.2022.101.35514224\nPMC9113980",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.24272/j.issn.2095-8137.2022.101"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35514224"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9113980"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0014",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0015",
+      "position": 15,
+      "title": "Rapid Range Shifts of Species Associated With High Levels of Climate Warming",
+      "source": "Science",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0015"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "333"
+        ],
+        "fpage": [
+          "1024"
+        ],
+        "lpage": [
+          "1026"
+        ]
+      },
+      "originalCitationText": "Chen, I.‐C.\n, \nJ. K.\nHill\n, \nR.\nOhlemüller\n, \nD. B.\nRoy\n, and \nC. D.\nThomas\n. 2011. “Rapid Range Shifts of Species Associated With High Levels of Climate Warming.” Science\n333: 1024–1026. 10.1126/science.1206432.21852500",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1206432"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21852500"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0015",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0016",
+      "position": 16,
+      "title": "Determining Threatened Species Distributions in the Face of Limited Data: Spatial Conservation Prioritization for the Chinese Giant Salamander (\nAndrias davidianus\n)",
+      "source": "Ecology and Evolution",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0016"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "3098"
+        ],
+        "lpage": [
+          "3108"
+        ]
+      },
+      "originalCitationText": "Chen, S.\n, \nA. A.\nCunningham\n, \nG.\nWei\n, et al. 2018. “Determining Threatened Species Distributions in the Face of Limited Data: Spatial Conservation Prioritization for the Chinese Giant Salamander (\nAndrias davidianus\n).” Ecology and Evolution\n8: 3098–3108. 10.1002/ece3.3862.29607009\nPMC5869214",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/ece3.3862"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29607009"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5869214"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0016",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0017",
+      "position": 17,
+      "title": "Yellowstone to Yukon: Transborder Conservation Across a Vast International Landscape",
+      "source": "Environmental Science & Policy",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0017"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "49"
+        ],
+        "fpage": [
+          "75"
+        ],
+        "lpage": [
+          "84"
+        ]
+      },
+      "originalCitationText": "Chester, C. C.\n\n2015. “Yellowstone to Yukon: Transborder Conservation Across a Vast International Landscape.” Environmental Science & Policy\n49: 75–84. 10.1016/j.envsci.2014.08.009.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.envsci.2014.08.009"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0017",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0018",
+      "position": 18,
+      "title": "Development of the Chinese Giant Salamander \nAndrias davidianus\n Farming Industry in Shaanxi Province, China: Conservation Threats and Opportunities",
+      "source": "Oryx",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0018"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "50"
+        ],
+        "fpage": [
+          "265"
+        ],
+        "lpage": [
+          "273"
+        ]
+      },
+      "originalCitationText": "Cunningham, A. A.\n, \nS. T.\nTurvey\n, \nF.\nZhou\n, et al. 2016. “Development of the Chinese Giant Salamander \nAndrias davidianus\n Farming Industry in Shaanxi Province, China: Conservation Threats and Opportunities.” Oryx\n50: 265–273. 10.1017/S0030605314000842.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1017/S0030605314000842"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0018",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0019",
+      "position": 19,
+      "title": "Human Pressures Predict Species' Geographic Range Size Better Than Biological Traits",
+      "source": "Global Change Biology",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0019"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "fpage": [
+          "2169"
+        ],
+        "lpage": [
+          "2178"
+        ]
+      },
+      "originalCitationText": "Di Marco, M.\n, and \nL.\nSantini\n. 2015. “Human Pressures Predict Species' Geographic Range Size Better Than Biological Traits.” Global Change Biology\n21: 2169–2178. 10.1111/gcb.12834.25504910",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/gcb.12834"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25504910"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0019",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0020",
+      "position": 20,
+      "title": "“EC‐Earth‐Consortium EC‐Earth3‐Veg Model Output Prepared for CMIP6 ScenarioMIP.”",
+      "source": null,
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "miscellaneous",
+        "id": "ece370595-cit-0020"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "EC‐Earth Consortium (EC‐Earth)\n. 2019. “EC‐Earth‐Consortium EC‐Earth3‐Veg Model Output Prepared for CMIP6 ScenarioMIP.”\n10.22033/ESGF/CMIP6.727.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.22033/ESGF/CMIP6.727"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0020",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0021",
+      "position": 21,
+      "title": "Percentage of Forest Cover in Different Historic Periods of China",
+      "source": "Journal of Beijing Forestry University",
+      "year": "2001",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0021"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "fpage": [
+          "60"
+        ],
+        "lpage": [
+          "65"
+        ]
+      },
+      "originalCitationText": "Fan, B.\n, and \nY.\nDong\n. 2001. “Percentage of Forest Cover in Different Historic Periods of China.” Journal of Beijing Forestry University\n23: 60–65.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0021",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0022",
+      "position": 22,
+      "title": "Global Surface Air Temperatures in CMIP6: Historical Performance and Future Changes",
+      "source": "Environmental Research Letters",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0022"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "elocation-id": [
+          "104056"
+        ]
+      },
+      "originalCitationText": "Fan, X.\n, \nQ.\nDuan\n, \nC.\nShen\n, \nY.\nWu\n, and \nC.\nXing\n. 2020. “Global Surface Air Temperatures in CMIP6: Historical Performance and Future Changes.” Environmental Research Letters\n15: 104056. 10.1088/1748-9326/abb051.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1088/1748-9326/abb051"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0022",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0023",
+      "position": 23,
+      "title": "Analysis of Changes in China's Forest Resources and Age Group Optimization",
+      "source": "Journal of Southwest Forestry University",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0023"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "43"
+        ],
+        "fpage": [
+          "122"
+        ],
+        "lpage": [
+          "131"
+        ]
+      },
+      "originalCitationText": "Feng, D.\n, \nS.\nWang\n, \nY.\nZhao\n, and \nZ.\nFeng\n. 2023. “Analysis of Changes in China's Forest Resources and Age Group Optimization.” Journal of Southwest Forestry University\n43: 122–131.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0023",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0024",
+      "position": 24,
+      "title": "WorldClim 2: New 1‐Km Spatial Resolution Climate Surfaces for Global Land Areas",
+      "source": "International Journal of Climatology",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0024"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "37"
+        ],
+        "fpage": [
+          "4302"
+        ],
+        "lpage": [
+          "4315"
+        ]
+      },
+      "originalCitationText": "Fick, S. E.\n, and \nR. J.\nHijmans\n. 2017. “WorldClim 2: New 1‐Km Spatial Resolution Climate Surfaces for Global Land Areas.” International Journal of Climatology\n37: 4302–4315. 10.1002/joc.5086.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/joc.5086"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0024",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0025",
+      "position": 25,
+      "title": "Global Consequences of Land Use",
+      "source": "Science",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0025"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "309"
+        ],
+        "fpage": [
+          "570"
+        ],
+        "lpage": [
+          "574"
+        ]
+      },
+      "originalCitationText": "Foley, J. A.\n, \nR.\nDeFries\n, \nG. P.\nAsner\n, et al. 2005. “Global Consequences of Land Use.” Science\n309: 570–574. 10.1126/science.1111772.16040698",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1111772"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16040698"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0025",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0026",
+      "position": 26,
+      "title": "“Occurrence Download.”",
+      "source": null,
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "miscellaneous",
+        "id": "ece370595-cit-0026"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "GBIF.Org User\n. 2023. “Occurrence Download.”\n10.15468/DL.XZ2HRB.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.15468/DL.XZ2HRB"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0026",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0027",
+      "position": 27,
+      "title": "Land Use Changes and Their Relations With Carbon Cycles Over the Past 300 a in China",
+      "source": "Science in China Series D: Earth Sciences",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0027"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "51"
+        ],
+        "fpage": [
+          "871"
+        ],
+        "lpage": [
+          "884"
+        ]
+      },
+      "originalCitationText": "Ge, Q.\n, \nJ.\nDai\n, \nF.\nHe\n, \nY.\nPan\n, and \nM.\nWang\n. 2008. “Land Use Changes and Their Relations With Carbon Cycles Over the Past 300 a in China.” Science in China Series D: Earth Sciences\n51: 871–884. 10.1007/s11430-008-0046-z.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s11430-008-0046-z"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0027",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0028",
+      "position": 28,
+      "title": "A New Species of the Giant Salamander of the Genus Andrias From Qimeng, Anhui, China (Amphibia: Cryptorchiidae)",
+      "source": "Chinese Journal of Zoology",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0028"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "58"
+        ],
+        "fpage": [
+          "651"
+        ],
+        "lpage": [
+          "657"
+        ]
+      },
+      "originalCitationText": "Gong, Y.\n, \nJ.\nXu\n, \nH.\nSong\n, et al. 2023. “A New Species of the Giant Salamander of the Genus Andrias From Qimeng, Anhui, China (Amphibia: Cryptorchiidae).” Chinese Journal of Zoology\n58: 651–657.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0028",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0029",
+      "position": 29,
+      "title": "Using Historical and Palaeoecological Data to Inform Ambitious Species Recovery Targets",
+      "source": "Philosophical Transactions of the Royal Society B",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0029"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "374"
+        ],
+        "elocation-id": [
+          "20190297"
+        ]
+      },
+      "originalCitationText": "Grace, M.\n, \nH. R.\nAkçakaya\n, \nE.\nBennett\n, et al. 2019. “Using Historical and Palaeoecological Data to Inform Ambitious Species Recovery Targets.” Philosophical Transactions of the Royal Society B\n374: 20190297. 10.1098/rstb.2019.0297.PMC686350031679497",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1098/rstb.2019.0297"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6863500"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31679497"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0029",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0030",
+      "position": 30,
+      "title": "The Influence of Spatial Errors in Species Occurrence Data Used in Distribution Models",
+      "source": "Journal of Applied Ecology",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0030"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "45"
+        ],
+        "fpage": [
+          "239"
+        ],
+        "lpage": [
+          "247"
+        ]
+      },
+      "originalCitationText": "Graham, C. H.\n, \nJ.\nElith\n, \nR. J.\nHijmans\n, et al. 2008. “The Influence of Spatial Errors in Species Occurrence Data Used in Distribution Models.” Journal of Applied Ecology\n45: 239–247. 10.1111/j.1365-2664.2007.01408.x.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1365-2664.2007.01408.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0030",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0031",
+      "position": 31,
+      "title": "Global Change and the Ecology of Cities",
+      "source": "Science",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0031"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "319"
+        ],
+        "fpage": [
+          "756"
+        ],
+        "lpage": [
+          "760"
+        ]
+      },
+      "originalCitationText": "Grimm, N. B.\n, \nS. H.\nFaeth\n, \nN. E.\nGolubiewski\n, et al. 2008. “Global Change and the Ecology of Cities.” Science\n319: 756–760. 10.1126/science.1150195.18258902",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1150195"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18258902"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0031",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0032",
+      "position": 32,
+      "title": "The Three Phases of Land‐Use Change: Implications for Biodiversity",
+      "source": "Ecological Applications",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0032"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "1864"
+        ],
+        "lpage": [
+          "1878"
+        ]
+      },
+      "originalCitationText": "Huston, M. A.\n\n2005. “The Three Phases of Land‐Use Change: Implications for Biodiversity.” Ecological Applications\n15: 1864–1878. 10.1890/03-5281.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1890/03-5281"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0032",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0033",
+      "position": 33,
+      "title": "Mammals on the EDGE: Conservation Priorities Based on Threat and Phylogeny",
+      "source": "PLoS One",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0033"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "elocation-id": [
+          "e296"
+        ]
+      },
+      "originalCitationText": "Isaac, N. J. B.\n, \nS. T.\nTurvey\n, \nB.\nCollen\n, \nC.\nWaterman\n, and \nJ. E. M.\nBaillie\n. 2007. “Mammals on the EDGE: Conservation Priorities Based on Threat and Phylogeny.” PLoS One\n2: e296. 10.1371/journal.pone.0000296.17375184\nPMC1808424",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0000296"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17375184"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1808424"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0033",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0202",
+      "position": 34,
+      "title": "The IUCN Red List of Threatened Species",
+      "source": null,
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "miscellaneous",
+        "id": "ece370595-cit-0202"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "International Union for Conservation of Nature (IUCN). 2022. “The IUCN Red List of Threatened Species.” Version 2021–3. https://www.iucnredlist.org/.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.iucnredlist.org/"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0202",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0034",
+      "position": 35,
+      "title": "A New Basal Salamandroid (Amphibia, Urodela) From the Late Jurassic of Qinglong, Hebei Province, China",
+      "source": "PLoS One",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0034"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "elocation-id": [
+          "e0153834"
+        ]
+      },
+      "originalCitationText": "Jia, J.\n, and \nK.‐Q.\nGao\n. 2016. “A New Basal Salamandroid (Amphibia, Urodela) From the Late Jurassic of Qinglong, Hebei Province, China.” PLoS One\n11: e0153834. 10.1371/journal.pone.0153834.27144770\nPMC4856324",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0153834"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27144770"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4856324"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0034",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0035",
+      "position": 36,
+      "title": "GISS‐E2.1: Configurations and Climatology",
+      "source": "Journal of Advances in Modeling Earth Systems",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0035"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "elocation-id": [
+          "e2019MS002025"
+        ]
+      },
+      "originalCitationText": "Kelley, M.\n, \nG. A.\nSchmidt\n, \nL. S.\nNazarenko\n, et al. 2020. “GISS‐E2.1: Configurations and Climatology.” Journal of Advances in Modeling Earth Systems\n12: e2019MS002025. 10.1029/2019MS002025.PMC750776432999704",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1029/2019MS002025"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7507764"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32999704"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0035",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0036",
+      "position": 37,
+      "title": "Anthropogenic Land Use Estimates for the Holocene—HYDE 3.2",
+      "source": "Earth System Science Data",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0036"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "927"
+        ],
+        "lpage": [
+          "953"
+        ]
+      },
+      "originalCitationText": "Klein Goldewijk, K.\n, \nA.\nBeusen\n, \nJ.\nDoelman\n, and \nE.\nStehfest\n. 2017. “Anthropogenic Land Use Estimates for the Holocene—HYDE 3.2.” Earth System Science Data\n9: 927–953. 10.5194/essd-9-927-2017.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.5194/essd-9-927-2017"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0036",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0037",
+      "position": 38,
+      "title": "The HYDE 3.1 Spatially Explicit Database of Human‐Induced Global Land‐Use Change Over the Past 12,000 Years",
+      "source": "Global Ecology and Biogeography",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0037"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "fpage": [
+          "73"
+        ],
+        "lpage": [
+          "86"
+        ]
+      },
+      "originalCitationText": "Klein Goldewijk, K.\n, \nA.\nBeusen\n, \nG.\nVan Drecht\n, and \nM.\nDe Vos\n. 2011. “The HYDE 3.1 Spatially Explicit Database of Human‐Induced Global Land‐Use Change Over the Past 12,000 Years.” Global Ecology and Biogeography\n20: 73–86. 10.1111/j.1466-8238.2010.00587.x.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1466-8238.2010.00587.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0037",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0038",
+      "position": 39,
+      "title": "The Measurement of Observer Agreement for Categorical Data",
+      "source": "Biometrics",
+      "year": "1977",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0038"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "33"
+        ],
+        "fpage": [
+          "159"
+        ]
+      },
+      "originalCitationText": "Landis, J. R.\n, and \nG. G.\nKoch\n. 1977. “The Measurement of Observer Agreement for Categorical Data.” Biometrics\n33: 159. 10.2307/2529310.843571",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.2307/2529310"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "843571"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0038",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0039",
+      "position": 40,
+      "title": "Degradation and Restoration of Forest Ecosystems in China",
+      "source": "Forest Ecology and Management",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0039"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "201"
+        ],
+        "fpage": [
+          "33"
+        ],
+        "lpage": [
+          "41"
+        ]
+      },
+      "originalCitationText": "Li, W.\n\n2004. “Degradation and Restoration of Forest Ecosystems in China.” Forest Ecology and Management\n201: 33–41. 10.1016/j.foreco.2004.06.010.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.foreco.2004.06.010"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0039",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0040",
+      "position": 41,
+      "title": "Human Impact and Climate Cooling Caused Range Contraction of Large Mammals in China Over the Past Two Millennia",
+      "source": "Ecography",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0040"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "38"
+        ],
+        "fpage": [
+          "74"
+        ],
+        "lpage": [
+          "82"
+        ]
+      },
+      "originalCitationText": "Li, X.\n, \nG.\nJiang\n, \nH.\nTian\n, et al. 2015. “Human Impact and Climate Cooling Caused Range Contraction of Large Mammals in China Over the Past Two Millennia.” Ecography\n38: 74–82. 10.1111/ecog.00795.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/ecog.00795"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0040",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0041",
+      "position": 42,
+      "title": "Effects of Human Population Density on the Pattern of Terrestrial Nature Reserves in China",
+      "source": "Global Ecology and Conservation",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0041"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "elocation-id": [
+          "e00762"
+        ]
+      },
+      "originalCitationText": "Liao, C.\n, \nY.\nLuo\n, \nX.\nTang\n, \nZ.\nMa\n, and \nB.\nLi\n. 2019. “Effects of Human Population Density on the Pattern of Terrestrial Nature Reserves in China.” Global Ecology and Conservation\n20: e00762. 10.1016/j.gecco.2019.e00762.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.gecco.2019.e00762"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0041",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0087",
+      "position": 43,
+      "title": "Selecting thresholds of occurrence in the prediction of species distributions",
+      "source": "Ecography",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0087"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "385"
+        ],
+        "lpage": [
+          "393"
+        ]
+      },
+      "originalCitationText": "Liu, C.\n, \nP. M.\nBerry\n, \nT. P.\nDawson\n, and \nR. G.\nPearson\n. 2005. “Selecting thresholds of occurrence in the prediction of species distributions.” Ecography\n28: 385–393. 10.1111/j.0906-7590.2005.03957.x.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.0906-7590.2005.03957.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0087",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0042",
+      "position": 44,
+      "title": "CMIP6 Simulations With the CMCC Earth System Model (CMCC‐ESM2)",
+      "source": "Journal of Advances in Modeling Earth Systems",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0042"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "elocation-id": [
+          "e2021MS002814"
+        ]
+      },
+      "originalCitationText": "Lovato, T.\n, \nD.\nPeano\n, \nM.\nButenschön\n, et al. 2022. “CMIP6 Simulations With the CMCC Earth System Model (CMCC‐ESM2).” Journal of Advances in Modeling Earth Systems\n14: e2021MS002814. 10.1029/2021MS002814.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1029/2021MS002814"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0042",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0043",
+      "position": 45,
+      "title": "Ethogram of the Chinese Giant Salamander During the Breeding Period Based on the PAE Coding System",
+      "source": "Animals",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0043"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "elocation-id": [
+          "3632"
+        ]
+      },
+      "originalCitationText": "Luo, S.\n, \nP.\nWang\n, \nY.\nZhang\n, \nZ.\nWang\n, \nH.\nTian\n, and \nQ.\nLuo\n. 2023. “Ethogram of the Chinese Giant Salamander During the Breeding Period Based on the PAE Coding System.” Animals\n13: 3632. 10.3390/ani13233632.38066984\nPMC10705805",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/ani13233632"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "38066984"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10705805"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0043",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0044",
+      "position": 46,
+      "title": "Scientists' Warning on the Conservation of Subterranean Ecosystems",
+      "source": "Bioscience",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0044"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "69"
+        ],
+        "fpage": [
+          "641"
+        ],
+        "lpage": [
+          "650"
+        ]
+      },
+      "originalCitationText": "Mammola, S.\n, \nP.\nCardoso\n, \nD. C.\nCulver\n, et al. 2019. “Scientists' Warning on the Conservation of Subterranean Ecosystems.” Bioscience\n69: 641–650. 10.1093/biosci/biz064.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/biosci/biz064"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0044",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0045",
+      "position": 47,
+      "title": null,
+      "source": "Avian Ecology and Conservation in an Urbanizing World",
+      "year": "2001",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece370595-cit-0045"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Marzluff",
+              "givenNames": "J. M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "J. M.\nMarzluff"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Bowman",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "R.\nBowman"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Donnelly",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "R.\nDonnelly"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "19"
+        ],
+        "lpage": [
+          "47"
+        ],
+        "publisher-name": [
+          "Springer US"
+        ],
+        "publisher-loc": [
+          "Boston, MA"
+        ]
+      },
+      "originalCitationText": "Marzluff, J. M.\n\n2001. “Worldwide Urbanization and Its Effects on Birds.” In Avian Ecology and Conservation in an Urbanizing World, edited by \n\nJ. M.\nMarzluff\n\n, \n\nR.\nBowman\n\n, and \n\nR.\nDonnelly\n\n, 19–47. Boston, MA: Springer US. 10.1007/978-1-4615-1531-9_2.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/978-1-4615-1531-9_2"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0045",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0046",
+      "position": 48,
+      "title": "Human Population Density and Growth Validated as Extinction Threats to Mammal and Bird Species",
+      "source": "Human Ecology",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0046"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "41"
+        ],
+        "fpage": [
+          "773"
+        ],
+        "lpage": [
+          "778"
+        ]
+      },
+      "originalCitationText": "McKee, J.\n, \nE.\nChambers\n, and \nJ.\nGuseman\n. 2013. “Human Population Density and Growth Validated as Extinction Threats to Mammal and Bird Species.” Human Ecology\n41: 773–778. 10.1007/s10745-013-9586-8.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10745-013-9586-8"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0046",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0047",
+      "position": 49,
+      "title": "Urbanization, Biodiversity, and Conservation",
+      "source": "Bioscience",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0047"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "52"
+        ],
+        "fpage": [
+          "883"
+        ]
+      },
+      "originalCitationText": "McKinney, M. L.\n\n2002. “Urbanization, Biodiversity, and Conservation.” Bioscience\n52: 883. 10.1641/0006-3568(2002)052[0883:UBAC]2.0.CO;2.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1641/0006-3568(2002)052[0883:UBAC]2.0.CO;2"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0047",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0048",
+      "position": 50,
+      "title": "Effects of Urbanization on Species Richness: A Review of Plants and Animals",
+      "source": "Urban Ecosystem",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0048"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "161"
+        ],
+        "lpage": [
+          "176"
+        ]
+      },
+      "originalCitationText": "McKinney, M. L.\n\n2008. “Effects of Urbanization on Species Richness: A Review of Plants and Animals.” Urban Ecosystem\n11: 161–176. 10.1007/s11252-007-0045-4.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s11252-007-0045-4"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0048",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0049",
+      "position": 51,
+      "title": "The Shared Socio‐Economic Pathway (SSP) Greenhouse Gas Concentrations and Their Extensions to 2500",
+      "source": "Geoscientific Model Development",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0049"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "3571"
+        ],
+        "lpage": [
+          "3605"
+        ]
+      },
+      "originalCitationText": "Meinshausen, M.\n, \nZ. R. J.\nNicholls\n, \nJ.\nLewis\n, et al. 2020. “The Shared Socio‐Economic Pathway (SSP) Greenhouse Gas Concentrations and Their Extensions to 2500.” Geoscientific Model Development\n13: 3571–3605. 10.5194/gmd-13-3571-2020.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.5194/gmd-13-3571-2020"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0049",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0050",
+      "position": 52,
+      "title": "Basic Principles of ROC Analysis",
+      "source": "Seminars in Nuclear Medicine",
+      "year": "1978",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0050"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "283"
+        ],
+        "lpage": [
+          "298"
+        ]
+      },
+      "originalCitationText": "Metz, C. E.\n\n1978. “Basic Principles of ROC Analysis.” Seminars in Nuclear Medicine\n8: 283–298. 10.1016/S0001-2998(78)80014-2.112681",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0001-2998(78)80014-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "112681"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0050",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0051",
+      "position": 53,
+      "title": "Effects of Climate and Human Activity on the Current Distribution of Amphibians in China",
+      "source": "Conservation Biology",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0051"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "36"
+        ],
+        "elocation-id": [
+          "e13964"
+        ]
+      },
+      "originalCitationText": "Mi, C.\n, \nF.\nHuettmann\n, \nX.\nLi\n, \nZ.\nJiang\n, \nW.\nDu\n, and \nB.\nSun\n. 2022. “Effects of Climate and Human Activity on the Current Distribution of Amphibians in China.” Conservation Biology\n36: e13964. 10.1111/cobi.13964.35674098",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/cobi.13964"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35674098"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0051",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0052",
+      "position": 54,
+      "title": "Impact of a Century of Climate Change on Small‐Mammal Communities in Yosemite National Park, USA",
+      "source": "Science",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0052"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "322"
+        ],
+        "fpage": [
+          "261"
+        ],
+        "lpage": [
+          "264"
+        ]
+      },
+      "originalCitationText": "Moritz, C.\n, \nJ. L.\nPatton\n, \nC. J.\nConroy\n, \nJ. L.\nParra\n, \nG. C.\nWhite\n, and \nS. R.\nBeissinger\n. 2008. “Impact of a Century of Climate Change on Small‐Mammal Communities in Yosemite National Park, USA.” Science\n322: 261–264. 10.1126/science.1163428.18845755",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1163428"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18845755"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0052",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0053",
+      "position": 55,
+      "title": "A Higher‐Resolution Version of the Max Planck Institute Earth System Model (MPI‐ESM1.2‐HR)",
+      "source": "Journal of Advances in Modeling Earth Systems",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0053"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "1383"
+        ],
+        "lpage": [
+          "1413"
+        ]
+      },
+      "originalCitationText": "Müller, W. A.\n, \nJ. H.\nJungclaus\n, \nT.\nMauritsen\n, et al. 2018. “A Higher‐Resolution Version of the Max Planck Institute Earth System Model (MPI‐ESM1.2‐HR).” Journal of Advances in Modeling Earth Systems\n10: 1383–1413. 10.1029/2017MS001217.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1029/2017MS001217"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0053",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0054",
+      "position": 56,
+      "title": "enm Eval: An R Package for Conducting Spatially Independent Evaluations and Estimating Optimal Model Complexity for maxent Ecological Niche Models",
+      "source": "Methods in Ecology and Evolution",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0054"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "1198"
+        ],
+        "lpage": [
+          "1205"
+        ]
+      },
+      "originalCitationText": "Muscarella, R.\n, \nP. J.\nGalante\n, \nM.\nSoley‐Guardia\n, et al. 2014. “\nenm Eval: An R Package for Conducting Spatially Independent Evaluations and Estimating Optimal Model Complexity for maxent Ecological Niche Models.” Methods in Ecology and Evolution\n5: 1198–1205. 10.1111/2041-210X.12261.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/2041-210X.12261"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0054",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0055",
+      "position": 57,
+      "title": "Using Local Ecological Knowledge to Assess the Status of the Critically Endangered Chinese Giant Salamander \nAndrias davidianus\n in Guizhou Province, China",
+      "source": "Oryx",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0055"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "50"
+        ],
+        "fpage": [
+          "257"
+        ],
+        "lpage": [
+          "264"
+        ]
+      },
+      "originalCitationText": "Pan, Y.\n, \nG.\nWei\n, \nA. A.\nCunningham\n, et al. 2016. “Using Local Ecological Knowledge to Assess the Status of the Critically Endangered Chinese Giant Salamander \nAndrias davidianus\n in Guizhou Province, China.” Oryx\n50: 257–264. 10.1017/S0030605314000830.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1017/S0030605314000830"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0055",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0056",
+      "position": 58,
+      "title": "Maximum Entropy Modeling of Species Geographic Distributions",
+      "source": "Ecological Modelling",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0056"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "190"
+        ],
+        "fpage": [
+          "231"
+        ],
+        "lpage": [
+          "259"
+        ]
+      },
+      "originalCitationText": "Phillips, S. J.\n, \nR. P.\nAnderson\n, and \nR. E.\nSchapire\n. 2006. “Maximum Entropy Modeling of Species Geographic Distributions.” Ecological Modelling\n190: 231–259. 10.1016/j.ecolmodel.2005.03.026.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ecolmodel.2005.03.026"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0056",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0057",
+      "position": 59,
+      "title": "The Biodiversity of Species and Their Rates of Extinction, Distribution, and Protection",
+      "source": "Science",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0057"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "344"
+        ],
+        "elocation-id": [
+          "1246752"
+        ]
+      },
+      "originalCitationText": "Pimm, S. L.\n, \nC. N.\nJenkins\n, \nR.\nAbell\n, et al. 2014. “The Biodiversity of Species and Their Rates of Extinction, Distribution, and Protection.” Science\n344: 1246752. 10.1126/science.1246752.24876501",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1246752"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24876501"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0057",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0058",
+      "position": 60,
+      "title": "Extinction by Numbers",
+      "source": "Nature",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0058"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "403"
+        ],
+        "fpage": [
+          "843"
+        ],
+        "lpage": [
+          "845"
+        ]
+      },
+      "originalCitationText": "Pimm, S. L.\n, and \nP.\nRaven\n. 2000. “Extinction by Numbers.” Nature\n403: 843–845. 10.1038/35002708.10706267",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/35002708"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10706267"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0058",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0059",
+      "position": 61,
+      "title": "Effects of Urbanization on Occupancy of Stream Salamanders: Salamander Occupancy and Urbanization",
+      "source": "Conservation Biology",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0059"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "547"
+        ],
+        "lpage": [
+          "555"
+        ]
+      },
+      "originalCitationText": "Price, S. J.\n, \nK. K.\nCecala\n, \nR. A.\nBrowne\n, and \nM. E.\nDorcas\n. 2011. “Effects of Urbanization on Occupancy of Stream Salamanders: Salamander Occupancy and Urbanization.” Conservation Biology\n25: 547–555. 10.1111/j.1523-1739.2010.01627.x.21175842",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1523-1739.2010.01627.x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21175842"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0059",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0060",
+      "position": 62,
+      "title": "Biological Collections and Ecological/Environmental Research: A Review, Some Observations and a Look to the Future",
+      "source": "Biological Reviews",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0060"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "85"
+        ],
+        "fpage": [
+          "247"
+        ],
+        "lpage": [
+          "266"
+        ]
+      },
+      "originalCitationText": "Pyke, G. H.\n, and \nP. R.\nEhrlich\n. 2010. “Biological Collections and Ecological/Environmental Research: A Review, Some Observations and a Look to the Future.” Biological Reviews\n85: 247–266. 10.1111/j.1469-185X.2009.00098.x.19961469",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1469-185X.2009.00098.x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19961469"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0060",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0061",
+      "position": 63,
+      "title": "Geographical Sampling Bias and Its Implications for Conservation Priorities in Africa",
+      "source": "Journal of Biogeography",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0061"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "1719"
+        ],
+        "lpage": [
+          "1727"
+        ]
+      },
+      "originalCitationText": "Reddy, S.\n, and \nL. M.\nDávalos\n. 2003. “Geographical Sampling Bias and Its Implications for Conservation Priorities in Africa.” Journal of Biogeography\n30: 1719–1727. 10.1046/j.1365-2699.2003.00946.x.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1046/j.1365-2699.2003.00946.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0061",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0062",
+      "position": 64,
+      "title": "The Shared Socioeconomic Pathways and Their Energy, Land Use, and Greenhouse Gas Emissions Implications: An Overview",
+      "source": "Global Environmental Change",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0062"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "42"
+        ],
+        "fpage": [
+          "153"
+        ],
+        "lpage": [
+          "168"
+        ]
+      },
+      "originalCitationText": "Riahi, K.\n, \nD. P.\nVan Vuuren\n, \nE.\nKriegler\n, et al. 2017. “The Shared Socioeconomic Pathways and Their Energy, Land Use, and Greenhouse Gas Emissions Implications: An Overview.” Global Environmental Change\n42: 153–168. 10.1016/j.gloenvcha.2016.05.009.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.gloenvcha.2016.05.009"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0062",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0063",
+      "position": 65,
+      "title": "Status and Trends of Amphibian Declines and Extinctions Worldwide",
+      "source": "Science",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0063"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "306"
+        ],
+        "fpage": [
+          "1783"
+        ],
+        "lpage": [
+          "1786"
+        ]
+      },
+      "originalCitationText": "Stuart, S. N.\n, \nJ. S.\nChanson\n, \nN. A.\nCox\n, et al. 2004. “Status and Trends of Amphibian Declines and Extinctions Worldwide.” Science\n306: 1783–1786. 10.1126/science.1103538.15486254",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1103538"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15486254"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0063",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0064",
+      "position": 66,
+      "title": "“MOHC UKESM1.0‐LL Model Output Prepared for CMIP6 CMIP.”",
+      "source": null,
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "miscellaneous",
+        "id": "ece370595-cit-0064"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Tang, Y.\n, \nS.\nRumbold\n, \nR.\nEllis\n, et al. 2023. “MOHC UKESM1.0‐LL Model Output Prepared for CMIP6 CMIP.”",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0064",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0065",
+      "position": 67,
+      "title": "Description and Basic Evaluation of Simulated Mean State, Internal Variability, and Climate Sensitivity in MIROC6",
+      "source": "Geoscientific Model Development",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0065"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "2727"
+        ],
+        "lpage": [
+          "2765"
+        ]
+      },
+      "originalCitationText": "Tatebe, H.\n, \nT.\nOgura\n, \nT.\nNitta\n, et al. 2019. “Description and Basic Evaluation of Simulated Mean State, Internal Variability, and Climate Sensitivity in MIROC6.” Geoscientific Model Development\n12: 2727–2765. 10.5194/gmd-12-2727-2019.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.5194/gmd-12-2727-2019"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0065",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0066",
+      "position": 68,
+      "title": "“biomod2: Ensemble Platform for Species Distribution Modeling.”",
+      "source": null,
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "miscellaneous",
+        "id": "ece370595-cit-0066"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Thuiller, W.\n, \nD.\nGeorges\n, \nM.\nGueguen\n, et al. 2012. “biomod2: Ensemble Platform for Species Distribution Modeling.”\n10.32614/CRAN.package.biomod2.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.32614/CRAN.package.biomod2"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0066",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0067",
+      "position": 69,
+      "title": "Habitat Destruction and the Extinction Debt",
+      "source": "Nature",
+      "year": "1994",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0067"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "371"
+        ],
+        "fpage": [
+          "65"
+        ],
+        "lpage": [
+          "66"
+        ]
+      },
+      "originalCitationText": "Tilman, D.\n, \nR. M.\nMay\n, \nC. L.\nLehman\n, and \nM. A.\nNowak\n. 1994. “Habitat Destruction and the Extinction Debt.” Nature\n371: 65–66. 10.1038/371065a0.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/371065a0"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0067",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0068",
+      "position": 70,
+      "title": "The Push and Pull of Climate Change Causes Heterogeneous Shifts in Avian Elevational Ranges",
+      "source": "Global Change Biology",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0068"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "3279"
+        ],
+        "lpage": [
+          "3290"
+        ]
+      },
+      "originalCitationText": "Tingley, M. W.\n, \nM. S.\nKoo\n, \nC.\nMoritz\n, \nA. C.\nRush\n, and \nS. R.\nBeissinger\n. 2012. “The Push and Pull of Climate Change Causes Heterogeneous Shifts in Avian Elevational Ranges.” Global Change Biology\n18: 3279–3290. 10.1111/j.1365-2486.2012.02784.x.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1365-2486.2012.02784.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0068",
+        "position": 70,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0069",
+      "position": 71,
+      "title": "Transferability and Model Evaluation in Ecological Niche Modeling: A Comparison of GARP and Maxent",
+      "source": "Ecography",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0069"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "550"
+        ],
+        "lpage": [
+          "560"
+        ]
+      },
+      "originalCitationText": "Townsend Peterson, A.\n, \nM.\nPapeş\n, and \nM.\nEaton\n. 2007. “Transferability and Model Evaluation in Ecological Niche Modeling: A Comparison of GARP and Maxent.” Ecography\n30: 550–560. 10.1111/j.0906-7590.2007.05102.x.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.0906-7590.2007.05102.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0069",
+        "position": 71,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0070",
+      "position": 72,
+      "title": "Imminent Extinction in the Wild of the World's Largest Amphibian",
+      "source": "Current Biology",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0070"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "R592"
+        ],
+        "lpage": [
+          "R594"
+        ]
+      },
+      "originalCitationText": "Turvey, S. T.\n, \nS.\nChen\n, \nB.\nTapley\n, et al. 2018. “Imminent Extinction in the Wild of the World's Largest Amphibian.” Current Biology\n28: R592–R594. 10.1016/j.cub.2018.04.005.29787717",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cub.2018.04.005"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29787717"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0070",
+        "position": 72,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0071",
+      "position": 73,
+      "title": "Historical Data as a Baseline for Conservation: Reconstructing Long‐Term Faunal Extinction Dynamics in Late Imperial–Modern China",
+      "source": "Proceedings of the Royal Society B",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0071"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "282"
+        ],
+        "elocation-id": [
+          "20151299"
+        ]
+      },
+      "originalCitationText": "Turvey, S. T.\n, \nJ. J.\nCrees\n, and \nM. M. I.\nDi Fonzo\n. 2015. “Historical Data as a Baseline for Conservation: Reconstructing Long‐Term Faunal Extinction Dynamics in Late Imperial–Modern China.” Proceedings of the Royal Society B\n282: 20151299. 10.1098/rspb.2015.1299.26246553\nPMC4632630",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1098/rspb.2015.1299"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26246553"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4632630"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0071",
+        "position": 73,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0072",
+      "position": 74,
+      "title": "Historical Museum Collections Clarify the Evolutionary History of Cryptic Species Radiation in the World's Largest Amphibians",
+      "source": "Ecology and Evolution",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0072"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "10070"
+        ],
+        "lpage": [
+          "10084"
+        ]
+      },
+      "originalCitationText": "Turvey, S. T.\n, \nM. M.\nMarr\n, \nI.\nBarnes\n, et al. 2019. “Historical Museum Collections Clarify the Evolutionary History of Cryptic Species Radiation in the World's Largest Amphibians.” Ecology and Evolution\n9: 10070–10084. 10.1002/ece3.5257.31624538\nPMC6787787",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/ece3.5257"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31624538"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6787787"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0072",
+        "position": 74,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0073",
+      "position": 75,
+      "title": "“INM INM‐CM5‐0 Model Output Prepared for CMIP6 CMIP piControl.”",
+      "source": null,
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "miscellaneous",
+        "id": "ece370595-cit-0073"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Volodin, E.\n, \nE.\nMortikov\n, \nA.\nGritsun\n, et al. 2019. “INM INM‐CM5‐0 Model Output Prepared for CMIP6 CMIP piControl.”\n10.22033/ESGF/CMIP6.5081.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.22033/ESGF/CMIP6.5081"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0073",
+        "position": 75,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0074",
+      "position": 76,
+      "title": "Historical Records Reveal the Distinctive Associations of Human Disturbance and Extreme Climate Change With Local Extinction of Mammals",
+      "source": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0074"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "116"
+        ],
+        "fpage": [
+          "19001"
+        ],
+        "lpage": [
+          "19008"
+        ]
+      },
+      "originalCitationText": "Wan, X.\n, \nG.\nJiang\n, \nC.\nYan\n, et al. 2019. “Historical Records Reveal the Distinctive Associations of Human Disturbance and Extreme Climate Change With Local Extinction of Mammals.” Proceedings of the National Academy of Sciences of the United States of America\n116: 19001–19008. 10.1073/pnas.1818019116.31481618\nPMC6754601",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1818019116"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31481618"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6754601"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0074",
+        "position": 76,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0075",
+      "position": 77,
+      "title": "The Decline of the Chinese Giant Salamander Andrias davidianus and Implications for Its Conservation",
+      "source": "Oryx",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0075"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "38"
+        ],
+        "fpage": [
+          "197"
+        ],
+        "lpage": [
+          "202"
+        ]
+      },
+      "originalCitationText": "Wang, X.\n, \nK.\nZhang\n, \nZ.\nWang\n, \nY.\nDing\n, \nW.\nWu\n, and \nS.\nHuang\n. 2004. “The Decline of the Chinese Giant Salamander Andrias davidianus and Implications for Its Conservation.” Oryx\n38: 197–202. 10.1017/S0030605304000341.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1017/S0030605304000341"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0075",
+        "position": 77,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0076",
+      "position": 78,
+      "title": "ENMTools: A Toolbox for Comparative Studies of Environmental Niche Models",
+      "source": "Ecography",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0076"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "33"
+        ],
+        "fpage": [
+          "607"
+        ],
+        "lpage": [
+          "611"
+        ]
+      },
+      "originalCitationText": "Warren, D. L.\n, \nR. E.\nGlor\n, and \nM.\nTurelli\n. 2010. “ENMTools: A Toolbox for Comparative Studies of Environmental Niche Models.” Ecography\n33: 607–611. 10.1111/j.1600-0587.2009.06142.x.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1600-0587.2009.06142.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0076",
+        "position": 78,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0077",
+      "position": 79,
+      "title": null,
+      "source": "The Distributions and Changes of Rare Wild Animals in China (Sequel)",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "book",
+        "id": "ece370595-cit-0077"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Shandong Science and Technology Press"
+        ],
+        "publisher-loc": [
+          "Jinan, China"
+        ]
+      },
+      "originalCitationText": "Wen, R.\n\n2018. The Distributions and Changes of Rare Wild Animals in China (Sequel). Jinan, China: Shandong Science and Technology Press.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0077",
+        "position": 79,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0078",
+      "position": 80,
+      "title": "Conservation Needs of Amphibians in China: A Review",
+      "source": "Science in China Series C: Life Sciences",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0078"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "50"
+        ],
+        "fpage": [
+          "265"
+        ],
+        "lpage": [
+          "276"
+        ]
+      },
+      "originalCitationText": "Xie, F.\n, \nM. W. N.\nLau\n, \nS. N.\nStuart\n, \nJ. S.\nChanson\n, \nN. A.\nCox\n, and \nD. L.\nFischman\n. 2007. “Conservation Needs of Amphibians in China: A Review.” Science in China Series C: Life Sciences\n50: 265–276. 10.1007/s11427-007-0021-5.17447035",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s11427-007-0021-5"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17447035"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0078",
+        "position": 80,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0079",
+      "position": 81,
+      "title": "The Chinese Giant Salamander Exemplifies the Hidden Extinction of Cryptic Species",
+      "source": "Current Biology",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0079"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "R590"
+        ],
+        "lpage": [
+          "R592"
+        ]
+      },
+      "originalCitationText": "Yan, F.\n, \nJ.\nLü\n, \nB.\nZhang\n, et al. 2018. “The Chinese Giant Salamander Exemplifies the Hidden Extinction of Cryptic Species.” Current Biology\n28: R590–R592. 10.1016/j.cub.2018.04.004.29787716",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cub.2018.04.004"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29787716"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0079",
+        "position": 81,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0080",
+      "position": 82,
+      "title": "Maxent Modeling for Predicting the Potential Distribution of Medicinal Plant, \nJusticia adhatoda\n L. in Lesser Himalayan Foothills",
+      "source": "Ecological Engineering",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0080"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "51"
+        ],
+        "fpage": [
+          "83"
+        ],
+        "lpage": [
+          "87"
+        ]
+      },
+      "originalCitationText": "Yang, X.‐Q.\n, \nS. P. S.\nKushwaha\n, \nS.\nSaran\n, \nJ.\nXu\n, and \nP. S.\nRoy\n. 2013. “Maxent Modeling for Predicting the Potential Distribution of Medicinal Plant, \nJusticia adhatoda\n L. in Lesser Himalayan Foothills.” Ecological Engineering\n51: 83–87. 10.1016/j.ecoleng.2012.12.004.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ecoleng.2012.12.004"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0080",
+        "position": 82,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0081",
+      "position": 83,
+      "title": "The Meteorological Research Institute Earth System Model Version 2.0, MRI‐ESM2.0: Description and Basic Evaluation of the Physical Component",
+      "source": "Journal of the Meteorological Society of Japan",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0081"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "97"
+        ],
+        "fpage": [
+          "931"
+        ],
+        "lpage": [
+          "965"
+        ]
+      },
+      "originalCitationText": "Yukimoto, S.\n, \nH.\nKawai\n, \nT.\nKoshiro\n, et al. 2019. “The Meteorological Research Institute Earth System Model Version 2.0, MRI‐ESM2.0: Description and Basic Evaluation of the Physical Component.” Journal of the Meteorological Society of Japan\n97: 931–965. 10.2151/jmsj.2019-051.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.2151/jmsj.2019-051"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0081",
+        "position": 83,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0082",
+      "position": 84,
+      "title": "The Neglected Otters in China: Distribution Change in the Past 400 Years and Current Conservation Status",
+      "source": "Biological Conservation",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0082"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "228"
+        ],
+        "fpage": [
+          "259"
+        ],
+        "lpage": [
+          "267"
+        ]
+      },
+      "originalCitationText": "Zhang, L.\n, \nQ.\nWang\n, \nL.\nYang\n, et al. 2018. “The Neglected Otters in China: Distribution Change in the Past 400 Years and Current Conservation Status.” Biological Conservation\n228: 259–267. 10.1016/j.biocon.2018.10.028.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.biocon.2018.10.028"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0082",
+        "position": 84,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0083",
+      "position": 85,
+      "title": "Species Range Shifts in Response to Climate Change and Human Pressure for the World's Largest Amphibian",
+      "source": "Science of the Total Environment",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0083"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "735"
+        ],
+        "elocation-id": [
+          "139543"
+        ]
+      },
+      "originalCitationText": "Zhang, P.\n, \nX.\nDong\n, \nG.\nGrenouillet\n, \nS.\nLek\n, \nY.\nZheng\n, and \nJ.\nChang\n. 2020. “Species Range Shifts in Response to Climate Change and Human Pressure for the World's Largest Amphibian.” Science of the Total Environment\n735: 139543. 10.1016/j.scitotenv.2020.139543.32485455",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.scitotenv.2020.139543"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32485455"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0083",
+        "position": 85,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0084",
+      "position": 86,
+      "title": "The Impact of Climate Change and Human Activities Over the Past 2000 Years Has Increased the Spatial‐Temporal Extinction Rate of Gibbons",
+      "source": "Biological Conservation",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0084"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "281"
+        ],
+        "elocation-id": [
+          "109998"
+        ]
+      },
+      "originalCitationText": "Zhao, X.\n, \nP. A.\nGarber\n, \nX.\nYe\n, and \nM.\nLi\n. 2023. “The Impact of Climate Change and Human Activities Over the Past 2000 Years Has Increased the Spatial‐Temporal Extinction Rate of Gibbons.” Biological Conservation\n281: 109998. 10.1016/j.biocon.2023.109998.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.biocon.2023.109998"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0084",
+        "position": 86,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0085",
+      "position": 87,
+      "title": "Impacts of Human Activity and Climate Change on the Distribution of Snub‐Nosed Monkeys in China During the Past 2000 Years",
+      "source": "Diversity and Distributions",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0085"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "fpage": [
+          "92"
+        ],
+        "lpage": [
+          "102"
+        ]
+      },
+      "originalCitationText": "Zhao, X.\n, \nB.\nRen\n, \nP. A.\nGarber\n, \nX.\nLi\n, and \nM.\nLi\n. 2018. “Impacts of Human Activity and Climate Change on the Distribution of Snub‐Nosed Monkeys in China During the Past 2000 Years.” Diversity and Distributions\n24: 92–102. 10.1111/ddi.12657.",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/ddi.12657"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0085",
+        "position": 87,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ece370595-bib-0086",
+      "position": 88,
+      "title": "Research on the Classification System of Digital Land Geomorphology of 1: 1000000 in China",
+      "source": "Journal of Geo‐Information Science",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal",
+        "id": "ece370595-cit-0086"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "707"
+        ],
+        "lpage": [
+          "724"
+        ]
+      },
+      "originalCitationText": "Zhou, C. H.\n, \nW. M.\nCheng\n, \nJ. K.\nQian\n, \nB. Y.\nLi\n, and \nB. P.\nZhang\n. 2009. “Research on the Classification System of Digital Land Geomorphology of 1: 1000000 in China.” Journal of Geo‐Information Science\n11: 707–724.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC11576131/article.xml",
+        "articleSha256": "22cf31b32f29ebf0f0a00105abb1be95195b6d7bfc2d03c3f008abca4408b0f0",
+        "referenceId": "ece370595-bib-0086",
+        "position": 88,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Ecology and Evolution"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Ecol Evol"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Ecol Evol"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "1740"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ece"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101566408"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "ECE3"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2045-7758"
+      }
+    ],
+    "publisherNames": [
+      "Wiley"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "14"
+    ],
+    "issue": [
+      "11"
+    ],
+    "elocation-id": [
+      "e70595"
+    ]
+  }
+}

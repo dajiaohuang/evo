@@ -1,0 +1,2590 @@
+{
+  "pmcid": "PMC8197376",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+  "sha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+  "articleType": "research-article",
+  "title": "Cyber-Physical System for Environmental Monitoring Based on Deep Learning",
+  "authors": [
+    {
+      "name": "Íñigo Monedero",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Íñigo",
+        "surname": "Monedero",
+        "suffix": null
+      },
+      "originalName": "MonederoÍñigo",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "true",
+          "value": "https://orcid.org/0000-0002-6560-0141"
+        }
+      ]
+    },
+    {
+      "name": "Julio Barbancho",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Julio",
+        "surname": "Barbancho",
+        "suffix": null
+      },
+      "originalName": "BarbanchoJulio",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "true",
+          "value": "https://orcid.org/0000-0002-9132-6158"
+        }
+      ]
+    },
+    {
+      "name": "Rafael Márquez",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Rafael",
+        "surname": "Márquez",
+        "suffix": null
+      },
+      "originalName": "MárquezRafael",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Juan F. Beltrán",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Juan F.",
+        "surname": "Beltrán",
+        "suffix": null
+      },
+      "originalName": "BeltránJuan F.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "true",
+          "value": "https://orcid.org/0000-0002-0077-575X"
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC8197376"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC8197376.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "8197376"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "8197376"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "34073979"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.3390/s21113655"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "sensors-21-03655"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2021",
+      "month": "5",
+      "day": "24"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2021",
+      "month": "6",
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [],
+  "citedReferences": [
+    {
+      "id": "B1-sensors-21-03655",
+      "position": 0,
+      "title": null,
+      "source": "The Millennium Development Goals Report 2014",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "kind": "collab",
+              "originalName": "United Nations"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Department of Economic and Social Affairs"
+        ],
+        "publisher-loc": [
+          "New York, NY, USA"
+        ]
+      },
+      "originalCitationText": "United NationsThe Millennium Development Goals Report 2014Department of Economic and Social AffairsNew York, NY, USA2014",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B1-sensors-21-03655",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B2-sensors-21-03655",
+      "position": 1,
+      "title": "Guidelines for the use of acoustic indices in environmental research",
+      "source": "Methods Ecol. Evol.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bradfer-Lawrence",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Bradfer-LawrenceT."
+            },
+            {
+              "surname": "Gardner",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GardnerN."
+            },
+            {
+              "surname": "Bunnefeld",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BunnefeldL."
+            },
+            {
+              "surname": "Bunnefeld",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BunnefeldN."
+            },
+            {
+              "surname": "Willis",
+              "givenNames": "S.G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WillisS.G."
+            },
+            {
+              "surname": "Dent",
+              "givenNames": "D.H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DentD.H."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "1796"
+        ],
+        "lpage": [
+          "1807"
+        ]
+      },
+      "originalCitationText": "Bradfer-LawrenceT.GardnerN.BunnefeldL.BunnefeldN.WillisS.G.DentD.H.Guidelines for the use of acoustic indices in environmental researchMethods Ecol. Evol.2019101796180710.1111/2041-210X.13254",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/2041-210X.13254"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B2-sensors-21-03655",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B3-sensors-21-03655",
+      "position": 2,
+      "title": "Wildlife Acoustics",
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "web"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wildlife AcousticsAvailable online: http://www.wildlifeacoustics.com(accessed on 23 February 2021)",
+      "identifiers": [],
+      "externalLinks": [
+        "http://www.wildlifeacoustics.com"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B3-sensors-21-03655",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B4-sensors-21-03655",
+      "position": 3,
+      "title": "AudioMoth: Evaluation of a smart open acoustic device for monitoring biodiversity and the environment",
+      "source": "Methods Ecol. Evol.",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hill",
+              "givenNames": "A.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HillA.P."
+            },
+            {
+              "surname": "Prince",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PrinceP."
+            },
+            {
+              "surname": "Covarrubias",
+              "givenNames": "E.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CovarrubiasE.P."
+            },
+            {
+              "surname": "Doncaster",
+              "givenNames": "C.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DoncasterC.P."
+            },
+            {
+              "surname": "Snaddon",
+              "givenNames": "J.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SnaddonJ.L."
+            },
+            {
+              "surname": "Rogers",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RogersA."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "1199"
+        ],
+        "lpage": [
+          "1211"
+        ]
+      },
+      "originalCitationText": "HillA.P.PrinceP.CovarrubiasE.P.DoncasterC.P.SnaddonJ.L.RogersA.AudioMoth: Evaluation of a smart open acoustic device for monitoring biodiversity and the environmentMethods Ecol. Evol.201891199121110.1111/2041-210X.12955",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/2041-210X.12955"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B4-sensors-21-03655",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B5-sensors-21-03655",
+      "position": 4,
+      "title": "Improving distribution data of threatened species by combining acoustic monitoring and occupancy modelling",
+      "source": "Methods Ecol. Evol.",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Campos-Cerqueira",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Campos-CerqueiraM."
+            },
+            {
+              "surname": "Aide",
+              "givenNames": "T.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AideT.M."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "1340"
+        ],
+        "lpage": [
+          "1348"
+        ]
+      },
+      "originalCitationText": "Campos-CerqueiraM.AideT.M.Improving distribution data of threatened species by combining acoustic monitoring and occupancy modellingMethods Ecol. Evol.201671340134810.1111/2041-210X.12599",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/2041-210X.12599"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B5-sensors-21-03655",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B6-sensors-21-03655",
+      "position": 5,
+      "title": null,
+      "source": "LifeCLEF Bird Identification Task 2016: The arrival of deep learning, CLEF 2016 Work. Notes",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Goeau",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GoeauH."
+            },
+            {
+              "surname": "Glotin",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GlotinH."
+            },
+            {
+              "surname": "Vellinga",
+              "givenNames": "W.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VellingaW.P."
+            },
+            {
+              "surname": "Planque",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PlanqueR."
+            },
+            {
+              "surname": "Joly",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JolyA."
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Balog",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BalogK."
+            },
+            {
+              "surname": "Cappellato",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CappellatoL."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "440"
+        ],
+        "lpage": [
+          "449"
+        ],
+        "publisher-name": [
+          "The CLEF Initiative"
+        ],
+        "publisher-loc": [
+          "Évora, Portugal"
+        ]
+      },
+      "originalCitationText": "GoeauH.GlotinH.VellingaW.P.PlanqueR.JolyA.LifeCLEF Bird Identification Task 2016: The arrival of deep learning, CLEF 2016 Work. NotesBalogK.CappellatoL.The CLEF InitiativeÉvora, Portugal5–892016440449Available online: http://ceur-ws.org/Vol-1609/(accessed on 19 May 2021)",
+      "identifiers": [],
+      "externalLinks": [
+        "http://ceur-ws.org/Vol-1609/"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B6-sensors-21-03655",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B7-sensors-21-03655",
+      "position": 6,
+      "title": "The acoustic communities: Definition, description and ecological role",
+      "source": "Biosystems",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Farina",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FarinaA."
+            },
+            {
+              "surname": "James",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JamesP."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "147"
+        ],
+        "fpage": [
+          "11"
+        ],
+        "lpage": [
+          "20"
+        ]
+      },
+      "originalCitationText": "FarinaA.JamesP.The acoustic communities: Definition, description and ecological roleBiosystems2016147112010.1016/j.biosystems.2016.05.01127262416",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.biosystems.2016.05.011"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27262416"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B7-sensors-21-03655",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B8-sensors-21-03655",
+      "position": 7,
+      "title": "Bat detective—Deep learning tools for bat acoustic signal detection",
+      "source": "PLoS Comput. Biol.",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Mac Aodha",
+              "givenNames": "O.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Mac AodhaO."
+            },
+            {
+              "surname": "Gibb",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GibbR."
+            },
+            {
+              "surname": "Barlow",
+              "givenNames": "K.E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarlowK.E."
+            },
+            {
+              "surname": "Browning",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BrowningE."
+            },
+            {
+              "surname": "Firman",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FirmanM."
+            },
+            {
+              "surname": "Freeman",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FreemanR."
+            },
+            {
+              "surname": "Harder",
+              "givenNames": "B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HarderB."
+            },
+            {
+              "surname": "Kinsey",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KinseyL."
+            },
+            {
+              "surname": "Mead",
+              "givenNames": "G.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeadG.R."
+            },
+            {
+              "surname": "Newson",
+              "givenNames": "S.E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NewsonS.E."
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "elocation-id": [
+          "e1005995"
+        ]
+      },
+      "originalCitationText": "Mac AodhaO.GibbR.BarlowK.E.BrowningE.FirmanM.FreemanR.HarderB.KinseyL.MeadG.R.NewsonS.E.Bat detective—Deep learning tools for bat acoustic signal detectionPLoS Comput. Biol.201814e100599510.1371/journal.pcbi.100599529518076PMC5843167",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pcbi.1005995"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29518076"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5843167"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B8-sensors-21-03655",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B9-sensors-21-03655",
+      "position": 8,
+      "title": "The Marinexplore and Cornell University Whale Detection Challenge",
+      "source": null,
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "web"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Karpištšenko",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KarpištšenkoA."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "KarpištšenkoA.The Marinexplore and Cornell University Whale Detection Challenge2013Available online: https://www.kaggle.com/c/whale-detection-challenge/discussion/4472(accessed on 19 May 2021)",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.kaggle.com/c/whale-detection-challenge/discussion/4472"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B9-sensors-21-03655",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B10-sensors-21-03655",
+      "position": 9,
+      "title": "A survey of the recent architectures of deep convolutional neural networks",
+      "source": "Artif. Intell. Rev.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Khan",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhanA."
+            },
+            {
+              "surname": "Sohail",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SohailA."
+            },
+            {
+              "surname": "Zahoora",
+              "givenNames": "U.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZahooraU."
+            },
+            {
+              "surname": "Qureshi",
+              "givenNames": "A.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "QureshiA.S."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "53"
+        ],
+        "fpage": [
+          "5455"
+        ],
+        "lpage": [
+          "5516"
+        ]
+      },
+      "originalCitationText": "KhanA.SohailA.ZahooraU.QureshiA.S.A survey of the recent architectures of deep convolutional neural networksArtif. Intell. Rev.2020535455551610.1007/s10462-020-09825-6",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10462-020-09825-6"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B10-sensors-21-03655",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B11-sensors-21-03655",
+      "position": 10,
+      "title": "Convolutional neural network: A review of models, methodologies and applications to object detection",
+      "source": "Prog. Artif. Intell.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dhillon",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DhillonA."
+            },
+            {
+              "surname": "Verma",
+              "givenNames": "G.K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VermaG.K."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "85"
+        ],
+        "lpage": [
+          "112"
+        ]
+      },
+      "originalCitationText": "DhillonA.VermaG.K.Convolutional neural network: A review of models, methodologies and applications to object detectionProg. Artif. Intell.201998511210.1007/s13748-019-00203-0",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s13748-019-00203-0"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B11-sensors-21-03655",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B12-sensors-21-03655",
+      "position": 11,
+      "title": "Inside the spectrogram: Convolutional Neural Networks in audio processing",
+      "source": "Proceedings of the 2017 International Conference on Sampling Theory and Applications (SampTA)",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "confproc"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dorfler",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DorflerM."
+            },
+            {
+              "surname": "Bammer",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BammerR."
+            },
+            {
+              "surname": "Grill",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GrillT."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "152"
+        ],
+        "lpage": [
+          "155"
+        ],
+        "publisher-name": [
+          "Institute of Electrical and Electronics Engineers (IEEE)"
+        ],
+        "publisher-loc": [
+          "Piscataway, NJ, USA"
+        ]
+      },
+      "originalCitationText": "DorflerM.BammerR.GrillT.Inside the spectrogram: Convolutional Neural Networks in audio processingProceedings of the 2017 International Conference on Sampling Theory and Applications (SampTA)Tallinn, Estonia3–7 July 2017Institute of Electrical and Electronics Engineers (IEEE)Piscataway, NJ, USA2017152155",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B12-sensors-21-03655",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B13-sensors-21-03655",
+      "position": 12,
+      "title": "Spectrogram Classification Using Dissimilarity Space",
+      "source": "Appl. Sci.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nanni",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NanniL."
+            },
+            {
+              "surname": "Rigo",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RigoA."
+            },
+            {
+              "surname": "Lumini",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuminiA."
+            },
+            {
+              "surname": "Brahnam",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BrahnamS."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "elocation-id": [
+          "4176"
+        ]
+      },
+      "originalCitationText": "NanniL.RigoA.LuminiA.BrahnamS.Spectrogram Classification Using Dissimilarity SpaceAppl. Sci.202010417610.3390/app10124176",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/app10124176"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B13-sensors-21-03655",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B14-sensors-21-03655",
+      "position": 13,
+      "title": "ECG Biometrics Using Spectrograms and Deep Neural Networks",
+      "source": "Int. J. Mach. Learn. Comput.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bento",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BentoN."
+            },
+            {
+              "surname": "Belo",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BeloD."
+            },
+            {
+              "surname": "Gamboa",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GamboaH."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "259"
+        ],
+        "lpage": [
+          "264"
+        ]
+      },
+      "originalCitationText": "BentoN.BeloD.GamboaH.ECG Biometrics Using Spectrograms and Deep Neural NetworksInt. J. Mach. Learn. Comput.20201025926410.18178/ijmlc.2020.10.2.929",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.18178/ijmlc.2020.10.2.929"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B14-sensors-21-03655",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B15-sensors-21-03655",
+      "position": 14,
+      "title": "Environmental sound classification using a regularized deep convolutional neural network with data augmentation",
+      "source": "Appl. Acoust.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Mushtaq",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MushtaqZ."
+            },
+            {
+              "surname": "Su",
+              "givenNames": "S.-F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SuS.-F."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "167"
+        ],
+        "fpage": [
+          "107389"
+        ]
+      },
+      "originalCitationText": "MushtaqZ.SuS.-F.Environmental sound classification using a regularized deep convolutional neural network with data augmentationAppl. Acoust.202016710738910.1016/j.apacoust.2020.107389",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.apacoust.2020.107389"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B15-sensors-21-03655",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B16-sensors-21-03655",
+      "position": 15,
+      "title": "Investigation of Different CNN-Based Models for Improved Bird Sound Classification",
+      "source": "IEEE Access",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Xie",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XieJ."
+            },
+            {
+              "surname": "Hu",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuK."
+            },
+            {
+              "surname": "Zhu",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhuM."
+            },
+            {
+              "surname": "Yu",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YuJ."
+            },
+            {
+              "surname": "Zhu",
+              "givenNames": "Q.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhuQ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "175353"
+        ],
+        "lpage": [
+          "175361"
+        ]
+      },
+      "originalCitationText": "XieJ.HuK.ZhuM.YuJ.ZhuQ.Investigation of Different CNN-Based Models for Improved Bird Sound ClassificationIEEE Access2019717535317536110.1109/ACCESS.2019.2957572",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/ACCESS.2019.2957572"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B16-sensors-21-03655",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B17-sensors-21-03655",
+      "position": 16,
+      "title": "Deep Convolutional Neural Network Combined with Concatenated Spectrogram for Environmental Sound Classification",
+      "source": "Proceedings of the 2019 IEEE 7th International Conference on Computer Science and Network Technology (ICCSNT)",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "confproc"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chi",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChiZ."
+            },
+            {
+              "surname": "Li",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiY."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenC."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "251"
+        ],
+        "lpage": [
+          "254"
+        ],
+        "publisher-name": [
+          "Institute of Electrical and Electronics Engineers (IEEE)"
+        ],
+        "publisher-loc": [
+          "New York, New York, USA"
+        ]
+      },
+      "originalCitationText": "ChiZ.LiY.ChenC.Deep Convolutional Neural Network Combined with Concatenated Spectrogram for Environmental Sound ClassificationProceedings of the 2019 IEEE 7th International Conference on Computer Science and Network Technology (ICCSNT)Dalian, China19–20 October 2019Institute of Electrical and Electronics Engineers (IEEE)New York, New York, USA2019251254",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B17-sensors-21-03655",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B18-sensors-21-03655",
+      "position": 17,
+      "title": "Automatic Classification of Anuran Sounds Using Convolutional Neural Networks",
+      "source": "Proceedings of the Ninth International C* Conference on Computer Science & Software Engineering—C3S2E",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "confproc"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Colonna",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ColonnaJ."
+            },
+            {
+              "surname": "Peet",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PeetT."
+            },
+            {
+              "surname": "Ferreira",
+              "givenNames": "C.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FerreiraC.A."
+            },
+            {
+              "surname": "Jorge",
+              "givenNames": "A.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JorgeA.M."
+            },
+            {
+              "surname": "Gomes",
+              "givenNames": "E.F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GomesE.F."
+            },
+            {
+              "surname": "Gama",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GamaJ."
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Desai",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DesaiE."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "73"
+        ],
+        "lpage": [
+          "78"
+        ],
+        "publisher-name": [
+          "Association for Computing Machinery"
+        ],
+        "publisher-loc": [
+          "New York, NY, USA"
+        ]
+      },
+      "originalCitationText": "ColonnaJ.PeetT.FerreiraC.A.JorgeA.M.GomesE.F.GamaJ.Automatic Classification of Anuran Sounds Using Convolutional Neural NetworksProceedings of the Ninth International C* Conference on Computer Science & Software Engineering—C3S2EPorto, Portugal20–22 July 2016DesaiE.Association for Computing MachineryNew York, NY, USA2016737810.1145/2948992.2949016",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1145/2948992.2949016"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B18-sensors-21-03655",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B19-sensors-21-03655",
+      "position": 18,
+      "title": "Anuran call classification with deep learning",
+      "source": "Proceedings of the 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "confproc"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Strout",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StroutJ."
+            },
+            {
+              "surname": "Rogan",
+              "givenNames": "B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RoganB."
+            },
+            {
+              "surname": "Seyednezhad",
+              "givenNames": "S.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SeyednezhadS.M."
+            },
+            {
+              "surname": "Smart",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SmartK."
+            },
+            {
+              "surname": "Bush",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BushM."
+            },
+            {
+              "surname": "Ribeiro",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RibeiroE."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "2662"
+        ],
+        "lpage": [
+          "2665"
+        ],
+        "publisher-name": [
+          "IEEE"
+        ],
+        "publisher-loc": [
+          "New York, NY, USA"
+        ]
+      },
+      "originalCitationText": "StroutJ.RoganB.SeyednezhadS.M.SmartK.BushM.RibeiroE.Anuran call classification with deep learningProceedings of the 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)New Orleans, LA, USA5–9 March 2017IEEENew York, NY, USA201726622665",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B19-sensors-21-03655",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B20-sensors-21-03655",
+      "position": 19,
+      "title": "Evaluation of MPEG-7-Based Audio Descriptors for Animal Voice Recognition over Wireless Acoustic Sensor Networks",
+      "source": "Sensors",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Luque",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuqueJ."
+            },
+            {
+              "surname": "Larios",
+              "givenNames": "D.F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LariosD.F."
+            },
+            {
+              "surname": "Personal",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PersonalE."
+            },
+            {
+              "surname": "Barbancho",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarbanchoJ."
+            },
+            {
+              "surname": "León",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeónC."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "elocation-id": [
+          "717"
+        ]
+      },
+      "originalCitationText": "LuqueJ.LariosD.F.PersonalE.BarbanchoJ.LeónC.Evaluation of MPEG-7-Based Audio Descriptors for Animal Voice Recognition over Wireless Acoustic Sensor NetworksSensors20161671710.3390/s1605071727213375PMC4883408",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/s16050717"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27213375"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4883408"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B20-sensors-21-03655",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B21-sensors-21-03655",
+      "position": 20,
+      "title": "Non-sequential automatic classification of anuran sounds for the estimation of climate-change indicators",
+      "source": "Expert Syst. Appl.",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Luque",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuqueA."
+            },
+            {
+              "surname": "Romero-Lemos",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Romero-LemosJ."
+            },
+            {
+              "surname": "Carrasco",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CarrascoA."
+            },
+            {
+              "surname": "Barbancho",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarbanchoJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "95"
+        ],
+        "fpage": [
+          "248"
+        ],
+        "lpage": [
+          "260"
+        ]
+      },
+      "originalCitationText": "LuqueA.Romero-LemosJ.CarrascoA.BarbanchoJ.Non-sequential automatic classification of anuran sounds for the estimation of climate-change indicatorsExpert Syst. Appl.20189524826010.1016/j.eswa.2017.11.016",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.eswa.2017.11.016"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B21-sensors-21-03655",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B22-sensors-21-03655",
+      "position": 21,
+      "title": "Optimal Representation of Anuran Call Spectrum in Environmental Monitoring Systems Using Wireless Sensor Networks",
+      "source": "Sensors",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Luque",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuqueA."
+            },
+            {
+              "surname": "Gómez-Bellido",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Gómez-BellidoJ."
+            },
+            {
+              "surname": "Carrasco",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CarrascoA."
+            },
+            {
+              "surname": "Barbancho",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarbanchoJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "elocation-id": [
+          "1803"
+        ]
+      },
+      "originalCitationText": "LuqueA.Gómez-BellidoJ.CarrascoA.BarbanchoJ.Optimal Representation of Anuran Call Spectrum in Environmental Monitoring Systems Using Wireless Sensor NetworksSensors201818180310.3390/s1806180329865290PMC6022039",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/s18061803"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29865290"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6022039"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B22-sensors-21-03655",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B23-sensors-21-03655",
+      "position": 22,
+      "title": "Improving Classification Algorithms by Considering Score Series in Wireless Acoustic Sensor Networks",
+      "source": "Sensors",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Luque",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuqueA."
+            },
+            {
+              "surname": "Romero-Lemos",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Romero-LemosJ."
+            },
+            {
+              "surname": "Carrasco",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CarrascoA."
+            },
+            {
+              "surname": "Barbancho",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarbanchoJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "elocation-id": [
+          "2465"
+        ]
+      },
+      "originalCitationText": "LuqueA.Romero-LemosJ.CarrascoA.BarbanchoJ.Improving Classification Algorithms by Considering Score Series in Wireless Acoustic Sensor NetworksSensors201818246510.3390/s1808246530061506PMC6111609",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/s18082465"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30061506"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6111609"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B23-sensors-21-03655",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B24-sensors-21-03655",
+      "position": 23,
+      "title": "Fonozoo",
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "web"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "FonozooAvailable online: www.fonozoo.com(accessed on 23 February 2021)",
+      "identifiers": [],
+      "externalLinks": [
+        "www.fonozoo.com"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B24-sensors-21-03655",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B25-sensors-21-03655",
+      "position": 24,
+      "title": "Digital twin—Proof of concept",
+      "source": "Manuf. Lett.",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Haag",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaagS."
+            },
+            {
+              "surname": "Anderl",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AnderlR."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "64"
+        ],
+        "lpage": [
+          "66"
+        ]
+      },
+      "originalCitationText": "HaagS.AnderlR.Digital twin—Proof of conceptManuf. Lett.201815646610.1016/j.mfglet.2018.02.006",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.mfglet.2018.02.006"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B25-sensors-21-03655",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B26-sensors-21-03655",
+      "position": 25,
+      "title": "IEEE 802.15.4 low rate—Wireless personal area network coexistence issues",
+      "source": "Proceedings of the 2003 IEEE Wireless Communications and Networking, 2003. WCNC 2003",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Howitt",
+              "givenNames": "I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HowittI."
+            },
+            {
+              "surname": "Gutierrez",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GutierrezJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "publisher-name": [
+          "Institute of Electrical and Electronics Engineers (IEEE)"
+        ],
+        "publisher-loc": [
+          "New Orleans, LA, USA"
+        ]
+      },
+      "originalCitationText": "HowittI.GutierrezJ.IEEE 802.15.4 low rate—Wireless personal area network coexistence issuesProceedings of the 2003 IEEE Wireless Communications and Networking, 2003. WCNC 2003Institute of Electrical and Electronics Engineers (IEEE)New Orleans, LA, USA2004",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B26-sensors-21-03655",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B27-sensors-21-03655",
+      "position": 26,
+      "title": "A Study of LoRa: Long Range & Low Power Networks for the Internet of Things",
+      "source": "Sensors",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Augustin",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AugustinA."
+            },
+            {
+              "surname": "Yi",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YiJ."
+            },
+            {
+              "surname": "Clausen",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ClausenT."
+            },
+            {
+              "surname": "Townsley",
+              "givenNames": "W.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TownsleyW.M."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "elocation-id": [
+          "1466"
+        ]
+      },
+      "originalCitationText": "AugustinA.YiJ.ClausenT.TownsleyW.M.A Study of LoRa: Long Range & Low Power Networks for the Internet of ThingsSensors201616146610.3390/s16091466PMC503874427618064",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/s16091466"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5038744"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27618064"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B27-sensors-21-03655",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B28-sensors-21-03655",
+      "position": 27,
+      "title": "Sample size selection in optimization methods for machine learning",
+      "source": "Math. Program.",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Byrd",
+              "givenNames": "R.H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ByrdR.H."
+            },
+            {
+              "surname": "Chin",
+              "givenNames": "G.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChinG.M."
+            },
+            {
+              "surname": "Nocedal",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NocedalJ."
+            },
+            {
+              "surname": "Wu",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WuY."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "134"
+        ],
+        "fpage": [
+          "127"
+        ],
+        "lpage": [
+          "155"
+        ]
+      },
+      "originalCitationText": "ByrdR.H.ChinG.M.NocedalJ.WuY.Sample size selection in optimization methods for machine learningMath. Program.201213412715510.1007/s10107-012-0572-5",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10107-012-0572-5"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B28-sensors-21-03655",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B29-sensors-21-03655",
+      "position": 28,
+      "title": "Performance of a low-power wide-area network based on LoRa technology: Doppler robustness, scalability, and coverage",
+      "source": "Int. J. Distrib. Sens. Netw.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Petäjäjärvi",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PetäjäjärviJ."
+            },
+            {
+              "surname": "Mikhaylov",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MikhaylovK."
+            },
+            {
+              "surname": "Pettissalo",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PettissaloM."
+            },
+            {
+              "surname": "Janhunen",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JanhunenJ."
+            },
+            {
+              "surname": "Iinatti",
+              "givenNames": "J.H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IinattiJ.H."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ]
+      },
+      "originalCitationText": "PetäjäjärviJ.MikhaylovK.PettissaloM.JanhunenJ.IinattiJ.H.Performance of a low-power wide-area network based on LoRa technology: Doppler robustness, scalability, and coverageInt. J. Distrib. Sens. Netw.20171310.1177/1550147717699412",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1177/1550147717699412"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B29-sensors-21-03655",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B30-sensors-21-03655",
+      "position": 29,
+      "title": "Keras",
+      "source": null,
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "web"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chollet",
+              "givenNames": "F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CholletF."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "CholletF.Keras2015Available online: https://github.com/fchollet/keras(accessed on 19 May 2021)",
+      "identifiers": [],
+      "externalLinks": [
+        "https://github.com/fchollet/keras"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B30-sensors-21-03655",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B31-sensors-21-03655",
+      "position": 30,
+      "title": "A History of Audio Effects",
+      "source": "Appl. Sci.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wilmering",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WilmeringT."
+            },
+            {
+              "surname": "Moffat",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MoffatD."
+            },
+            {
+              "surname": "Milo",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MiloA."
+            },
+            {
+              "surname": "Sandler",
+              "givenNames": "M.B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SandlerM.B."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "elocation-id": [
+          "791"
+        ]
+      },
+      "originalCitationText": "WilmeringT.MoffatD.MiloA.SandlerM.B.A History of Audio EffectsAppl. Sci.20201079110.3390/app10030791",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/app10030791"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B31-sensors-21-03655",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B32-sensors-21-03655",
+      "position": 31,
+      "title": "Deep learning using rectified linear units (relu)",
+      "source": "arXiv",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Agarap",
+              "givenNames": "A.F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AgarapA.F."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "AgarapA.F.Deep learning using rectified linear units (relu)arXiv20181803.08375",
+      "identifiers": [
+        {
+          "pub-id-type": "arxiv",
+          "value": "1803.08375"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B32-sensors-21-03655",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B33-sensors-21-03655",
+      "position": 32,
+      "title": null,
+      "source": "Understanding Learning Rates. Deep Learning: A Practitioner’s Approach",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Patterson",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PattersonJ."
+            },
+            {
+              "surname": "Gibson",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GibsonA."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "415"
+        ],
+        "lpage": [
+          "530"
+        ],
+        "publisher-name": [
+          "Mike Loukides, Tim McGovern, O’Reilly"
+        ],
+        "publisher-loc": [
+          "Sebastopol, CA, USA"
+        ],
+        "edition": [
+          "1st ed."
+        ]
+      },
+      "originalCitationText": "PattersonJ.GibsonA.Understanding Learning Rates. Deep Learning: A Practitioner’s Approach1st ed.Mike Loukides, Tim McGovern, O’ReillySebastopol, CA, USA2017Chapter 6415530",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B33-sensors-21-03655",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B34-sensors-21-03655",
+      "position": 33,
+      "title": "Adam revisited: A weighted past gradients perspective",
+      "source": "Front. Comput. Sci.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zhong",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhongH."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenZ."
+            },
+            {
+              "surname": "Qin",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "QinC."
+            },
+            {
+              "surname": "Huang",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuangZ."
+            },
+            {
+              "surname": "Zheng",
+              "givenNames": "V.W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhengV.W."
+            },
+            {
+              "surname": "Xu",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XuT."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenE."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "16"
+        ]
+      },
+      "originalCitationText": "ZhongH.ChenZ.QinC.HuangZ.ZhengV.W.XuT.ChenE.Adam revisited: A weighted past gradients perspectiveFront. Comput. Sci.20201411610.1007/s11704-019-8457-x",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s11704-019-8457-x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8197376/article.xml",
+        "articleSha256": "7f639300f5af8c3ab698b3803be4ffcf51c2ee0b27406cc004d730aabcf76c8e",
+        "referenceId": "B34-sensors-21-03655",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Sensors (Basel, Switzerland)"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Sensors (Basel)"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Sensors (Basel)"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "1660"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "sensors"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101204366"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "sensors"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "1424-8220"
+      }
+    ],
+    "publisherNames": [
+      "Multidisciplinary Digital Publishing Institute  (MDPI)"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "21"
+    ],
+    "issue": [
+      "11"
+    ],
+    "elocation-id": [
+      "3655"
+    ]
+  }
+}

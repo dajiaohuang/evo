@@ -1,0 +1,91 @@
+{
+  "source": "PMC6680123",
+  "doiEvidence": "reading-sections.json articleIds.doi",
+  "year": 2019,
+  "license": "CC BY 4.0",
+  "licenseEvidence": "article.xml license/ext-link href http://creativecommons.org/licenses/by/4.0/",
+  "colIds": [
+    "73H3F",
+    "6RH3B"
+  ],
+  "limits": [
+    {
+      "colId": "73H3F",
+      "kind": "holotype-size-discrepancy",
+      "locators": [
+        "reading-sections section 3 paragraphs 6–7, 13–14"
+      ],
+      "asRecorded": [
+        "Diagnosis adult male SVL 20.8–29.12 mm",
+        "Holotype description 20.1 mm",
+        "Holotype measurement list 20.8 mm",
+        "Referred adult male 29.1 mm"
+      ],
+      "handling": "All printed values retained with their source context. Five smaller subadult paratypes are not used as an adult female range."
+    },
+    {
+      "colId": "73H3F",
+      "kind": "different-molecular-summaries",
+      "locators": [
+        "reading-sections section 2 paragraph 2",
+        "reading-sections section 3 paragraph 6"
+      ],
+      "asRecorded": [
+        "Taxonomy divergence at least 8.8%",
+        "Diagnosis 9.1–12.4%"
+      ],
+      "handling": "Separate summaries retained, without harmonizing their bounds or inventing a universal species threshold."
+    },
+    {
+      "colId": "6RH3B",
+      "kind": "captured-egg-observation-and-malformed-pole-word",
+      "locator": "reading-sections section 4 paragraph 14",
+      "asRecorded": [
+        "Clutch size unknown",
+        "Captured female ZMMU A5972 laid approximately 30 eggs in a plastic bag",
+        "Egg diameter 0.8–0.9 mm; brownish animation pole as printed"
+      ],
+      "handling": "Capture event not treated as complete natural clutch, fertility or hatch evidence. Malformed pole adjective not silently replaced by a developmental interpretation."
+    },
+    {
+      "colId": "6RH3B",
+      "kind": "acoustic-unit-boundaries",
+      "locator": "reading-sections section 4 paragraph 12",
+      "handling": "Fifty calls, 194 pulses, 144 interval/period observations and 49 pulse-rate call samples remain distinct units, not independent frog counts. Call-level maximum-amplitude frequency 3780 Hz is separate from pulse-level 3700 Hz. No unsupported interpretation of every ± term as standard deviation."
+    },
+    {
+      "colId": "6RH3B",
+      "kind": "candidate-identity-and-rounded-elevation",
+      "locators": [
+        "reading-sections section 4 paragraphs 1–2, 16",
+        "reading-sections section 2 paragraph 2"
+      ],
+      "handling": "Type/paratype 59/217 m labels remain separate from rounded 60–220 m distribution. Chatthin/Sagaing Microhyla sp. 2 at 2.0% divergence remains unresolved, not a confirmed irrawaddy locality or accepted species-ID merge."
+    },
+    {
+      "colId": "73H3F",
+      "kind": "local-evidence-versus-inferred-biology",
+      "locators": [
+        "reading-sections section 3 paragraphs 3, 15–16, 18"
+      ],
+      "handling": "232 m type label versus approximately 230 m summary retained. Shinma Taung summit 514 m and regional climate averages are not collection elevation or tolerance limits. Apparent burrowing based on sheltered encounters is not a digging experiment. No recorded calls and unknown eggs/larvae/diet remain missing evidence. Moulmein rubra identity unresolved."
+    },
+    {
+      "colIds": [
+        "73H3F",
+        "6RH3B"
+      ],
+      "kind": "dated-conservation-proposals",
+      "locators": [
+        "reading-sections section 3 paragraph 19",
+        "reading-sections section 4 paragraph 17"
+      ],
+      "handling": "2019 Data Deficient author proposals retained as dated recommendations, not current IUCN verification. Predicted additional localities are not promoted to confirmed occupancy or quantified population trends."
+    }
+  ],
+  "fullArticleRead": false,
+  "biologicalReadersComplete": false,
+  "contemporaryConceptEquivalenceIndependentlyCertified": false,
+  "testsRun": false,
+  "doi": "10.24272/j.issn.2095-8137.2019.044"
+}

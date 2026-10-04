@@ -1,0 +1,176 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Desmognathus amphileucus
+
+<!-- evo:text /records/catalogue-profile/sections/0/title/zh -->
+## 接受名称与分类位置
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+COL26.8 接受 Desmognathus amphileucus Bishop, 1941 为种级记录，所记分类路径为 Caudata（目） → Plethodontidae（科） → Desmognathus（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/title/zh -->
+## 阅读路线
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/title/zh -->
+## 佐治亚州一条溪流的三天调查
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+2025 年研究调查美国佐治亚州东北部 Stephens County、Savannah River 流域约海拔 300 米的一条小型二级溪流。采样在 2024 年 8 月 24 日至 9 月 10 日间三个无雨日进行。研究者扰动急流浅滩底质，由下游网具接取幼体，鉴定后原处释放。流速以奶粉溶液通过一米的时间估算；平均底质颗粒直径来自带标尺照片中任意选择的十块代表性石头。这些是单地点遭遇和环境测量，不是动物移动轨迹、随机沉积物普查或区域分布调查。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/title/zh -->
+## 寄生虫囊体作为具有当地依据的鉴定替代指标
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+两种幼体外形难以区分。研究者检查透光腹部是否有可见的 Metagonimoides oregonensis 囊蚴，将有囊体者归为 D. amphileucus，无可见囊体者归为 D. folkertsi。这条溪流此前的 PCR 基因分型研究支持该对应关系；本次调查没有报告逐只对所采幼体进行基因分型。因此该替代指标保留当地验证范围，不能据此判定整个分布区内的物种专属感染、folkertsi 完全无寄生虫，或感染导致流速利用差异。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/title/zh -->
+## 支流汇入口附近清晰的当地遭遇界限
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+amphileucus 幼体出现在二十处浅滩，全部在汇入口下游，每处已有该种的浅滩一至六只、均值 2.20。搜索的十九处上游浅滩没有检出该种。距汇入口下游不足十米的一处捕到四只，而上游十米内一处适宜浅滩有 folkertsi。支流使流量和溪流规模增加，但研究没有实验操纵二者。这个狭窄的当地界限描述调查时的检出，不是完整地理分布、不可越过的障碍或上游永久缺失的证明。所采水潭落叶堆也未发现 Desmognathus 幼体。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/title/zh -->
+## 流速关联以已有幼体的浅滩为条件
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
+比较物种前，分析舍弃没有 Desmognathus 的浅滩。有 amphileucus 的二十处浅滩平均流速为 0.24 ± 0.01 米/秒，有 folkertsi 的三十三处为 0.174 ± 0.014 米/秒；这里的不确定度是文中标准误，不是标准差。对应平均颗粒直径为 37.53 ± 0.67 和 37.77 ± 0.39 毫米。模型中流速与物种出现有关联（p = 0.005），颗粒直径及幼体数量协变量各为 p = 0.941。九处共有浅滩同时计入两组，因此组数量不等于五十三处不同的独立浅滩。这些遭遇环境均值不是生理流速极限，也不是实验确认的偏好速度。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/6/title/zh -->
+## 较长的引述幼体期支持待检验的产卵假说
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
+讨论引述 amphileucus 三至四年的幼体期及 folkertsi 约两年。这些年限来自早期资料，不是本研究纵向测量。作者提出，较长水生期可能增加小溪段干旱暴露，因此 amphileucus 雌性或选择流速较高的产卵地点。本研究没有记录该种巢数量，没有实验测试雌性水流选择或测量干旱存活。有关幼体向下游漂移的一般报道，以及其他蝾螈或鱼类研究，不能确立这些机制在本次种群中的作用。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/7/title/zh -->
+## 共享浅滩及相似潜在食物不能判定竞争机制
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/7/text/zh -->
+下游十五处检出超过一只幼体的浅滩中，九处有两种共存。共有浅滩中两种数量的 Mann–Whitney 比较未达显著（p = 0.6588），不能证明竞争能力相等或没有互动。作者没有发现 folkertsi 竞争排除上游 amphileucus 的证据。两河段所采潜在食物群落相似（Jaccard 相似度 0.76），不等于胃内容物或取食偏好证据。未测因素、雌性产卵地点选择和幼体向下游漂移仍是可能解释。研究明确提醒，单条溪流结果未必适用于整个同域分布区域。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/title/zh -->
+## 十只佐治亚州成体与幼体溪流研究分开
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/8/text/zh -->
+2010 年在佐治亚州 Lumpkin County、DeSoto Falls Recreational Area 附近采十只标为 amphileucus 的成体，组成南方半水生组，从溪边或水道内高于水面的石块下搜索。捕获时平均吻肛长 74.9 ± 1.52 毫米，离散度明确标为标准差。性别未知，采集排除断尾和低于五十毫米个体。成体数据与 2024 年 Stephens County 幼体微生境调查地点、年份及生命阶段不同。二者均不提供完整分性别体型范围，也没有证明共同发育轨迹。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/9/title/zh -->
+## 重复逃逸试验测量个体平均快速起动
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/9/text/zh -->
+圈养八至十二周后，每只动物以随机次序接受三次水中及三次陆地试验，试验间至少隔三十分钟。先适应 21–22 摄氏度摄影室，再以镊子轻夹尾基触发逃逸；夹力没有测定。每秒五百帧影像由两位不知物种及生态型假说的观察者独立评分。净速度为前三次躯干摆动的直线位移除以时间，再对每个体每介质平均试验及观察者结果。重复试验、影格和评分者不是独立动物；该指标是平均初始冲刺，不是最大短跑速度或持续耐力。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/10/title/zh -->
+## 跨样本的性能权衡不单独量化本种
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/10/text/zh -->
+全部四十四只动物按体长每秒表示的水中与陆地快速起动速度负相关（r = −0.571，p < 0.0001）。北方、南方子集置信区间重叠；因每只均在两介质测试，混合模型保留个体身份。半水生组陆地较快，水生组水中较快。这是跨三种有名物种及一个未解决北方组的比较，不是单独估计的种内相关或普遍游泳速度。体长也影响速度，模型排除高度相关的头长及尾长。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/11/title/zh -->
+## 功能平行演化解释保留北方身份疑问
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/11/text/zh -->
+作者将南北支系相似的水中与陆地性能对照解释为功能权衡及平行演化支持。北方半水生动物于 2010 年、后来分类修订前采集，作为 Desmognathus sp. 处理，可能为 mavrokoilius、kanawha 或接触区混合。不能把其测量复制到任一种页面。实验没有测量从活捕食者成功逃逸、存活、交配成功、自然栖息地选择或遗传因果机制。与其他蝾螈的比较也使用不同运动指标，不是跨属统一试验。
+<!-- /evo:text -->
+
+## catalogue-profile / limitations
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。未经过外部领域专家评审。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/0/evidenceSummary/zh -->
+2025 年研究调查美国佐治亚州东北部 Stephens County、Savannah River 流域约海拔 300 米的一条小型二级溪流。采样在 2024 年 8 月 24 日至 9 月 10 日间三个无雨日进行。研究者扰动急流浅滩底质，由下游网具接取幼体，鉴定后原处释放。流速以奶粉溶液通过一米的时间估算；平均底质颗粒直径来自带标尺照片中任意选择的十块代表性石头。这些是单地点遭遇和环境测量，不是动物移动轨迹、随机沉积物普查或区域分布调查。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/1/evidenceSummary/zh -->
+两种幼体外形难以区分。研究者检查透光腹部是否有可见的 Metagonimoides oregonensis 囊蚴，将有囊体者归为 D. amphileucus，无可见囊体者归为 D. folkertsi。这条溪流此前的 PCR 基因分型研究支持该对应关系；本次调查没有报告逐只对所采幼体进行基因分型。因此该替代指标保留当地验证范围，不能据此判定整个分布区内的物种专属感染、folkertsi 完全无寄生虫，或感染导致流速利用差异。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/2/evidenceSummary/zh -->
+amphileucus 幼体出现在二十处浅滩，全部在汇入口下游，每处已有该种的浅滩一至六只、均值 2.20。搜索的十九处上游浅滩没有检出该种。距汇入口下游不足十米的一处捕到四只，而上游十米内一处适宜浅滩有 folkertsi。支流使流量和溪流规模增加，但研究没有实验操纵二者。这个狭窄的当地界限描述调查时的检出，不是完整地理分布、不可越过的障碍或上游永久缺失的证明。所采水潭落叶堆也未发现 Desmognathus 幼体。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/3/evidenceSummary/zh -->
+比较物种前，分析舍弃没有 Desmognathus 的浅滩。有 amphileucus 的二十处浅滩平均流速为 0.24 ± 0.01 米/秒，有 folkertsi 的三十三处为 0.174 ± 0.014 米/秒；这里的不确定度是文中标准误，不是标准差。对应平均颗粒直径为 37.53 ± 0.67 和 37.77 ± 0.39 毫米。模型中流速与物种出现有关联（p = 0.005），颗粒直径及幼体数量协变量各为 p = 0.941。九处共有浅滩同时计入两组，因此组数量不等于五十三处不同的独立浅滩。这些遭遇环境均值不是生理流速极限，也不是实验确认的偏好速度。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/4/evidenceSummary/zh -->
+讨论引述 amphileucus 三至四年的幼体期及 folkertsi 约两年。这些年限来自早期资料，不是本研究纵向测量。作者提出，较长水生期可能增加小溪段干旱暴露，因此 amphileucus 雌性或选择流速较高的产卵地点。本研究没有记录该种巢数量，没有实验测试雌性水流选择或测量干旱存活。有关幼体向下游漂移的一般报道，以及其他蝾螈或鱼类研究，不能确立这些机制在本次种群中的作用。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/5/evidenceSummary/zh -->
+下游十五处检出超过一只幼体的浅滩中，九处有两种共存。共有浅滩中两种数量的 Mann–Whitney 比较未达显著（p = 0.6588），不能证明竞争能力相等或没有互动。作者没有发现 folkertsi 竞争排除上游 amphileucus 的证据。两河段所采潜在食物群落相似（Jaccard 相似度 0.76），不等于胃内容物或取食偏好证据。未测因素、雌性产卵地点选择和幼体向下游漂移仍是可能解释。研究明确提醒，单条溪流结果未必适用于整个同域分布区域。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/1/sectionEvidence/0/evidenceSummary/zh -->
+2010 年在佐治亚州 Lumpkin County、DeSoto Falls Recreational Area 附近采十只标为 amphileucus 的成体，组成南方半水生组，从溪边或水道内高于水面的石块下搜索。捕获时平均吻肛长 74.9 ± 1.52 毫米，离散度明确标为标准差。性别未知，采集排除断尾和低于五十毫米个体。成体数据与 2024 年 Stephens County 幼体微生境调查地点、年份及生命阶段不同。二者均不提供完整分性别体型范围，也没有证明共同发育轨迹。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/1/sectionEvidence/1/evidenceSummary/zh -->
+圈养八至十二周后，每只动物以随机次序接受三次水中及三次陆地试验，试验间至少隔三十分钟。先适应 21–22 摄氏度摄影室，再以镊子轻夹尾基触发逃逸；夹力没有测定。每秒五百帧影像由两位不知物种及生态型假说的观察者独立评分。净速度为前三次躯干摆动的直线位移除以时间，再对每个体每介质平均试验及观察者结果。重复试验、影格和评分者不是独立动物；该指标是平均初始冲刺，不是最大短跑速度或持续耐力。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/1/sectionEvidence/2/evidenceSummary/zh -->
+全部四十四只动物按体长每秒表示的水中与陆地快速起动速度负相关（r = −0.571，p < 0.0001）。北方、南方子集置信区间重叠；因每只均在两介质测试，混合模型保留个体身份。半水生组陆地较快，水生组水中较快。这是跨三种有名物种及一个未解决北方组的比较，不是单独估计的种内相关或普遍游泳速度。体长也影响速度，模型排除高度相关的头长及尾长。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/1/sectionEvidence/3/evidenceSummary/zh -->
+作者将南北支系相似的水中与陆地性能对照解释为功能权衡及平行演化支持。北方半水生动物于 2010 年、后来分类修订前采集，作为 Desmognathus sp. 处理，可能为 mavrokoilius、kanawha 或接触区混合。不能把其测量复制到任一种页面。实验没有测量从活捕食者成功逃逸、存活、交配成功、自然栖息地选择或遗传因果机制。与其他蝾螈的比较也使用不同运动指标，不是跨属统一试验。
+<!-- /evo:text -->
+
+## 研究正文待整理
+
+<!-- evo:text /records/amphibia-collection-placeholder/sections/0/text/zh -->
+本节为占位内容。所记来源快照的 reference 元数据与索引已收集。形态、生活史、生态、演化、分布、化石及保护的详实正文，待材料核对后再整理。本页已有来源摘要继续保留。检索结果或文献记录不等于已核实的生物学主张。
+<!-- /evo:text -->

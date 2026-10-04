@@ -1,0 +1,92 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: zh
+status: source-linked
+---
+
+# Raorchestes sanjappai
+
+<!-- evo:text /records/catalogue-profile/sections/0/title/zh -->
+## 接受名称与分类位置
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
+COL26.8 接受 Raorchestes sanjappai Garg, Suyesh, Das, Bee & Biju, 2021 为种级记录，所记分类路径为 Anura（目） → Rhacophoridae（科） → Raorchestes（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/title/zh -->
+## 阅读路线
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
+先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/title/zh -->
+## 绿色背面、细刺与背中角质嵴
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/2/text/zh -->
+鉴别描述给出雄性吻肛长 22–24 毫米，背色均匀绿色，皮肤从细密粗糙到疏散颗粒状，具有角质细刺，并有从吻端延伸到泄殖孔附近的背中角质嵴。舌上有乳突，体侧与腹股沟为浅褐至淡黄色。形态测量来自包括正模在内的三只标本。这些观察描述的是所采材料的鉴别组合，不认证体色永不变化，也不能将雄性范围用于雌性。其他同属蛙也可能有绿色背面，因此辨识需要结合其他特征和比较诊断。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/title/zh -->
+## 繁殖季节在次生林植被上的停栖记录
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
+发表时，sanjappai 仅记录于 Kerala 州 Wayanad 区的 Periya，位于 Palghat 山口以北，海拔约 750 米。研究在繁殖季节于次生林中观察到个体，停栖于最高约三米的植被上。“繁殖季节”说明观察发生的时间，不证明停栖处就是巢，也不表示每株植物上都观察到繁殖。研究没有量化对次生林的依赖、干扰耐受程度、密度或全年活动周期。仅知道一个地点是记录知识的局限，不是实测灭绝风险或其他地方确认不存在的证据。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/title/zh -->
+## 脉冲间距较大的较长鸣声
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
+论文将雄性鸣声描述为一种脉冲型鸣声，单次发出，脉冲之间间距较大。典型鸣声摘要给出持续时间 411.2 毫秒、两个脉冲、每秒 2.7 个脉冲及总主频 2.4 千赫兹，振幅包络的上升阶段较长，下降阶段较短。脉冲速率采用来源定义的声学指标，不在这里用两个脉冲除以总时长替换。方法指出温度、社会情境及个体因素可能影响鸣声，这些摘要没有纳入所有变化。鸣声差异可支持辨识，但本身不能证明配偶选择隔离，也不能排除在其他情境中的发声。
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/title/zh -->
+## 与 vellikkannan 的序列亲缘关系
+<!-- /evo:text -->
+
+<!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
+研究将 sanjappai 归入 chromasynchysi 组，并恢复了它与 vellikkannan 的姐妹关系。两者报告的线粒体 16S 距离为 3.1–3.3%，与其他受检组员的距离不同。整体系统发育分析使用了线粒体和核基因标记。这种关系不能使两种的体色、趾蹼、生境和鸣声观察相互替换。成对序列距离既不是通用划分阈值，也不是不存在杂交的证据。综合描述还依赖各自的形态特征；对 sanjappai 而言，还包含已录制的鸣声。
+<!-- /evo:text -->
+
+## catalogue-profile / limitations
+
+<!-- evo:text /records/catalogue-profile/limitations/zh -->
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。未经过外部领域专家评审。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/0/evidenceSummary/zh -->
+鉴别描述给出雄性吻肛长 22–24 毫米，背色均匀绿色，皮肤从细密粗糙到疏散颗粒状，具有角质细刺，并有从吻端延伸到泄殖孔附近的背中角质嵴。舌上有乳突，体侧与腹股沟为浅褐至淡黄色。形态测量来自包括正模在内的三只标本。这些观察描述的是所采材料的鉴别组合，不认证体色永不变化，也不能将雄性范围用于雌性。其他同属蛙也可能有绿色背面，因此辨识需要结合其他特征和比较诊断。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/1/evidenceSummary/zh -->
+发表时，sanjappai 仅记录于 Kerala 州 Wayanad 区的 Periya，位于 Palghat 山口以北，海拔约 750 米。研究在繁殖季节于次生林中观察到个体，停栖于最高约三米的植被上。“繁殖季节”说明观察发生的时间，不证明停栖处就是巢，也不表示每株植物上都观察到繁殖。研究没有量化对次生林的依赖、干扰耐受程度、密度或全年活动周期。仅知道一个地点是记录知识的局限，不是实测灭绝风险或其他地方确认不存在的证据。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/2/evidenceSummary/zh -->
+论文将雄性鸣声描述为一种脉冲型鸣声，单次发出，脉冲之间间距较大。典型鸣声摘要给出持续时间 411.2 毫秒、两个脉冲、每秒 2.7 个脉冲及总主频 2.4 千赫兹，振幅包络的上升阶段较长，下降阶段较短。脉冲速率采用来源定义的声学指标，不在这里用两个脉冲除以总时长替换。方法指出温度、社会情境及个体因素可能影响鸣声，这些摘要没有纳入所有变化。鸣声差异可支持辨识，但本身不能证明配偶选择隔离，也不能排除在其他情境中的发声。
+<!-- /evo:text -->
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary
+
+<!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/3/evidenceSummary/zh -->
+研究将 sanjappai 归入 chromasynchysi 组，并恢复了它与 vellikkannan 的姐妹关系。两者报告的线粒体 16S 距离为 3.1–3.3%，与其他受检组员的距离不同。整体系统发育分析使用了线粒体和核基因标记。这种关系不能使两种的体色、趾蹼、生境和鸣声观察相互替换。成对序列距离既不是通用划分阈值，也不是不存在杂交的证据。综合描述还依赖各自的形态特征；对 sanjappai 而言，还包含已录制的鸣声。
+<!-- /evo:text -->
+
+## 研究正文待整理
+
+<!-- evo:text /records/amphibia-collection-placeholder/sections/0/text/zh -->
+本节为占位内容。所记来源快照的 reference 元数据与索引已收集。形态、生活史、生态、演化、分布、化石及保护的详实正文，待材料核对后再整理。本页已有来源摘要继续保留。检索结果或文献记录不等于已核实的生物学主张。
+<!-- /evo:text -->

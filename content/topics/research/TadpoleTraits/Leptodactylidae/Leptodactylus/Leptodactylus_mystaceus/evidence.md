@@ -1,0 +1,521 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Leptodactylus mystaceus
+    name:
+      en: Leptodactylus mystaceus
+      zh: Leptodactylus mystaceus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/2/text/zh
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Leptodactylidae
+      genus: Leptodactylus
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 651
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/0/values/0
+          - Ratio
+          - Color image
+          - Leptodactylus amazonicus
+          - Leptodactylidae
+          - Leptodactylus
+          - Leptodactylus mystaceus
+          - 37 (Judging based on the picture)
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.372170181508901
+          - 0.632535518914426
+          - 0.214962209808053
+          - 0.179424351961031
+          - 0.0991173912203042
+          - 0.0518044575029478
+          - 0.0534011172752402
+          - null
+          - null
+          - null
+          - Yanfang Song
+      - rowNumber: 652
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/1/values/0
+          - Measurement
+          - Color image
+          - Leptodactylus mystaceus
+          - Leptodactylidae
+          - Leptodactylus
+          - Leptodactylus mystaceus
+          - 32 (Judging based on the picture)
+          - 27.404
+          - 9.97
+          - 17.226
+          - 5.032
+          - 5.81
+          - 2.226
+          - 1.935
+          - 1.935
+          - 6.97
+          - 1.839
+          - 2.903
+          - 0.36381551386659
+          - 0.62859436578617
+          - 0.183622828784119
+          - 0.2121284484169
+          - 0.81229176616552
+          - 0.76112998426
+          - 0.76112998426
+          - 0.254342431761787
+          - 0.671699168467
+          - 0.1593344373668
+          - Yanfang Song
+      - rowNumber: 653
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalImageRows/2/values/0
+          - Measurement
+          - Hand-drawn picture
+          - Leptodactylus mystaceus
+          - Leptodactylidae
+          - Leptodactylus
+          - Leptodactylus mystaceus
+          - 38
+          - 32.089
+          - 12.152
+          - 19.895
+          - 6.655
+          - 6.827
+          - 2.766
+          - 2.185
+          - 2.116
+          - 8.568
+          - 2.218
+          - 3.167
+          - 0.378696749664994
+          - 0.6199943961141
+          - 0.27391941163639
+          - 0.212752334787
+          - 0.861977624731216
+          - 0.68918694879865
+          - 0.6594159992528
+          - 0.267738578498
+          - 0.6912259278886
+          - 0.986942565988345
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 652
+        scientificName: Leptodactylus mystaceus
+        sourceField: TMH/TL
+        suppliedRatio: 0.81229176616552
+        originalNumerator: 2.226
+        originalTotalLength: 27.404
+        computedRatio: 0.08122901766165523
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 652
+        scientificName: Leptodactylus mystaceus
+        sourceField: DFH/TL
+        suppliedRatio: 0.76112998426
+        originalNumerator: 1.935
+        originalTotalLength: 27.404
+        computedRatio: 0.07061012990804262
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 652
+        scientificName: Leptodactylus mystaceus
+        sourceField: VFH/TL
+        suppliedRatio: 0.76112998426
+        originalNumerator: 1.935
+        originalTotalLength: 27.404
+        computedRatio: 0.07061012990804262
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 652
+        scientificName: Leptodactylus mystaceus
+        sourceField: TMW/TL
+        suppliedRatio: 0.671699168467
+        originalNumerator: 1.839
+        originalTotalLength: 27.404
+        computedRatio: 0.0671069916800467
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 652
+        scientificName: Leptodactylus mystaceus
+        sourceField: OD/TL
+        suppliedRatio: 0.1593344373668
+        originalNumerator: 2.903
+        originalTotalLength: 27.404
+        computedRatio: 0.10593344037366807
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 653
+        scientificName: Leptodactylus mystaceus
+        sourceField: BMH/TL
+        suppliedRatio: 0.27391941163639
+        originalNumerator: 6.655
+        originalTotalLength: 32.089
+        computedRatio: 0.20739194116363865
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 653
+        scientificName: Leptodactylus mystaceus
+        sourceField: TMH/TL
+        suppliedRatio: 0.861977624731216
+        originalNumerator: 2.766
+        originalTotalLength: 32.089
+        computedRatio: 0.08619776247312164
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 653
+        scientificName: Leptodactylus mystaceus
+        sourceField: DFH/TL
+        suppliedRatio: 0.68918694879865
+        originalNumerator: 2.185
+        originalTotalLength: 32.089
+        computedRatio: 0.06809186948798654
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 653
+        scientificName: Leptodactylus mystaceus
+        sourceField: VFH/TL
+        suppliedRatio: 0.6594159992528
+        originalNumerator: 2.116
+        originalTotalLength: 32.089
+        computedRatio: 0.06594159992520802
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 653
+        scientificName: Leptodactylus mystaceus
+        sourceField: TMW/TL
+        suppliedRatio: 0.6912259278886
+        originalNumerator: 2.218
+        originalTotalLength: 32.089
+        computedRatio: 0.06912025927888062
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 653
+        scientificName: Leptodactylus mystaceus
+        sourceField: OD/TL
+        suppliedRatio: 0.986942565988345
+        originalNumerator: 3.167
+        originalTotalLength: 32.089
+        computedRatio: 0.09869425659883449
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.372170181508901
+        row: 651
+        stage: 37 (Judging based on the picture)
+        type: Ratio
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.632535518914426
+        row: 651
+        stage: 37 (Judging based on the picture)
+        type: Ratio
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.214962209808053
+        row: 651
+        stage: 37 (Judging based on the picture)
+        type: Ratio
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.179424351961031
+        row: 651
+        stage: 37 (Judging based on the picture)
+        type: Ratio
+        imageType: Color image
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.0991173912203042
+        row: 651
+        stage: 37 (Judging based on the picture)
+        type: Ratio
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TN6C
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Leptodactylus mystaceus — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 651, 652, 653; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/0/values/0 -->
+Heyer, W. R. (1978). Systematics oí Xhe fuscus group of the frog genus Leptodactylus (Amphibia, Leptodactylidae). Natural History Museum of Los Angeles County, Science Bulletin (29): l-85.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/1/values/0 -->
+Dubeux, M. J. M., Nascimento, F. A. C. D., Lima, L. R., Magalhães, F. D. M., Silva, I. R. S. D., Gonçalves, U., Almeida, J. P. F., Correia, L. L., Garda, A. A., Mesquita, D. O., Rossa-Feres, D. D. C. & Mott, T. (2020). Morphological characterization and taxonomic key of tadpoles (Amphibia: Anura) from the northern region of the Atlantic Forest. Biota Neotropica, 20(2), e20180718.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalImageRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalImageRows/2/values/0 -->
+Schiesari, L., Rossa-Feres, D. D. C., Menin, M. & Hödl, W. (2022). Tadpoles of Central Amazonia (Amphibia: Anura). Zootaxa, 5223, 1-149.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

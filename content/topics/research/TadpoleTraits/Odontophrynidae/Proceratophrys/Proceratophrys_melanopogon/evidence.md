@@ -1,0 +1,922 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Proceratophrys melanopogon
+    name:
+      en: Proceratophrys melanopogon
+      zh: Proceratophrys melanopogon
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Odontophrynidae
+      genus: Proceratophrys
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 4224
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/0/values/0
+          - Proceratophrys melanopogon
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys melanopogon
+          - 2
+          - 34
+          - 27.63
+          - null
+          - 12.71
+          - null
+          - 6.8
+          - null
+          - 8.91
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 14.92
+          - null
+          - 7.3
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.66
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.17
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.13
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.34
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.93
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.95
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 4225
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/1/values/0
+          - Proceratophrys melanopogon
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys melanopogon
+          - 2
+          - 31
+          - 23.34
+          - 2.72
+          - 11.48
+          - 1.92
+          - 5.5
+          - 0.57
+          - 7.84
+          - 1.64
+          - null
+          - null
+          - null
+          - null
+          - 11.87
+          - 0.8
+          - null
+          - null
+          - 2.25
+          - 0.07
+          - 1.95
+          - 0.07
+          - 2.35
+          - 0.07
+          - 1.8
+          - 0
+          - null
+          - null
+          - 1.39
+          - 0.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.84
+          - 0.04
+          - null
+          - null
+          - 0.94
+          - 0
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.28
+          - 0.13
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.47
+          - 0.05
+          - 0.35
+          - 0
+          - 0.14
+          - null
+          - 1.57
+          - 0.22
+          - 1.15
+          - 0.52
+      - rowNumber: 4226
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/2/values/0
+          - Proceratophrys melanopogon
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys melanopogon
+          - 2
+          - 37
+          - 27.79
+          - 2.47
+          - 13.06
+          - 0.41
+          - 7.2
+          - 0.28
+          - 8.84
+          - 0.83
+          - null
+          - null
+          - null
+          - null
+          - 14.73
+          - 2.06
+          - null
+          - null
+          - 2.85
+          - 0.35
+          - 2.65
+          - 0.07
+          - 2.5
+          - 0
+          - 2
+          - 0.28
+          - null
+          - null
+          - 1.6
+          - 0
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.91
+          - 0.13
+          - null
+          - null
+          - 1.17
+          - 0
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.5
+          - 0.26
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.81
+          - 0.08
+          - 0.43
+          - 0.06
+          - 0.28
+          - null
+          - 1.84
+          - 0.06
+          - 1.25
+          - 0.61
+      - rowNumber: 4227
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/3/values/0
+          - Proceratophrys melanopogon
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys melanopogon
+          - 2
+          - 33
+          - 27.75
+          - 4.49
+          - 12.2
+          - 3.45
+          - 7.15
+          - 7.15
+          - 8.58
+          - 3.37
+          - null
+          - null
+          - null
+          - null
+          - 15.55
+          - 1.04
+          - null
+          - null
+          - 2.65
+          - 0.64
+          - 1.95
+          - 0.64
+          - 3.05
+          - 1.48
+          - 2
+          - 0.42
+          - null
+          - null
+          - 1.57
+          - 0.16
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.09
+          - 0.58
+          - null
+          - null
+          - 1.06
+          - 0.11
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.15
+          - 0.04
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.84
+          - 0.13
+          - 0.43
+          - 0.11
+          - 0
+          - null
+          - 1.31
+          - 0.58
+          - 1.06
+          - 0.39
+      - rowNumber: 4228
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/4/values/0
+          - Proceratophrys melanopogon
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys melanopogon
+          - 2
+          - 38
+          - 28.99
+          - 0.47
+          - 13.37
+          - 0.91
+          - 7.7
+          - 1.13
+          - 10.14
+          - 1.66
+          - null
+          - null
+          - null
+          - null
+          - 15.62
+          - 0.44
+          - null
+          - null
+          - 3
+          - 0
+          - 2.55
+          - 0.07
+          - 3.1
+          - 0.71
+          - 2.35
+          - 0.64
+          - null
+          - null
+          - 1.66
+          - 0.14
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.19
+          - 0.26
+          - null
+          - null
+          - 1.17
+          - 0
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.47
+          - 0.13
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.9
+          - 0.04
+          - 0.43
+          - 0
+          - 0.07
+          - null
+          - 1.69
+          - 0.28
+          - 1.65
+          - 0.33
+      - rowNumber: 4229
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/5/values/0
+          - Proceratophrys melanopogon
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys melanopogon
+          - 2
+          - 34
+          - 27.63
+          - 1.51
+          - 12.71
+          - 1.2
+          - 6.8
+          - 1.41
+          - 8.91
+          - 1.98
+          - null
+          - null
+          - null
+          - null
+          - 14.92
+          - 0.31
+          - null
+          - null
+          - 2.55
+          - 0.35
+          - 2.3
+          - 0.14
+          - 2.9
+          - 1.13
+          - 2.1
+          - 0.57
+          - null
+          - null
+          - 1.66
+          - 0.08
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.19
+          - 0.45
+          - null
+          - null
+          - 1.13
+          - 0.06
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.34
+          - 0.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.93
+          - 0
+          - 0.45
+          - 0.08
+          - 0.35
+          - null
+          - 1.16
+          - 0.25
+          - 1.53
+          - 0.11
+      - rowNumber: 4230
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/6/values/0
+          - Proceratophrys melanopogon
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys melanopogon
+          - 2
+          - 41
+          - 29.24
+          - 1.51
+          - 12.88
+          - 0.11
+          - 6.64
+          - 0.34
+          - 9.2
+          - 0.11
+          - null
+          - null
+          - null
+          - null
+          - 16.36
+          - 1.4
+          - null
+          - null
+          - 3.05
+          - 0.07
+          - 2.65
+          - 0.07
+          - 2.85
+          - 0.49
+          - 1.8
+          - 0.28
+          - null
+          - null
+          - 1.53
+          - 0.04
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.93
+          - 0.06
+          - null
+          - null
+          - 1.31
+          - 0
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.6
+          - 0.23
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.12
+          - 0.11
+          - 0.39
+          - 0
+          - 0.13
+          - null
+          - 1.7
+          - 0.06
+          - 1.91
+          - 0.4
+      - rowNumber: 4231
+        values:
+          - markdown: evidence.md
+            field: /records/tadpole-traits-reader/originalLiteratureRows/7/values/0
+          - Proceratophrys melanopogon
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys melanopogon
+          - null
+          - 37
+          - 27.76
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows: []
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies: []
+    selectedSourceRatios: []
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6VY6F
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Proceratophrys melanopogon — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 4224, 4225, 4226, 4227, 4228, 4229, 4230, 4231; Picture measurement data rows none; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/0/values/0 -->
+Dias, P. H. D. S., Carvalho-e-Silva, A. M. P. T. D. & Carvalho-e-Silva, S. P. D. (2014). The tadpole of Proceratophrys izecksohni (Amphibia: Anura: Odontophrynidae). Zoologia (Curitiba), 31, 181-194.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/1/values/0 -->
+Provete, D. B., Melo, L. S., Garey, M. V., Gomes, F. B., Martins, I. A., & Rossa-Feres, D. C. (2013). Larvae of Proceratophrys melanopogon (Amphibia: Anura), with emphasis on internal oral morphology and comparisons with P. cururu and P. moratoi. Herpetologica, 69(2), 163-174.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/2/values/0 -->
+Provete, D. B., Melo, L. S., Garey, M. V., Gomes, F. B., Martins, I. A., & Rossa-Feres, D. C. (2013). Larvae of Proceratophrys melanopogon (Amphibia: Anura), with emphasis on internal oral morphology and comparisons with P. cururu and P. moratoi. Herpetologica, 69(2), 163-174.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/3/values/0 -->
+Provete, D. B., Melo, L. S., Garey, M. V., Gomes, F. B., Martins, I. A., & Rossa-Feres, D. C. (2013). Larvae of Proceratophrys melanopogon (Amphibia: Anura), with emphasis on internal oral morphology and comparisons with P. cururu and P. moratoi. Herpetologica, 69(2), 163-174.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/4/values/0 -->
+Provete, D. B., Melo, L. S., Garey, M. V., Gomes, F. B., Martins, I. A., & Rossa-Feres, D. C. (2013). Larvae of Proceratophrys melanopogon (Amphibia: Anura), with emphasis on internal oral morphology and comparisons with P. cururu and P. moratoi. Herpetologica, 69(2), 163-174.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/5/values/0 -->
+Provete, D. B., Melo, L. S., Garey, M. V., Gomes, F. B., Martins, I. A., & Rossa-Feres, D. C. (2013). Larvae of Proceratophrys melanopogon (Amphibia: Anura), with emphasis on internal oral morphology and comparisons with P. cururu and P. moratoi. Herpetologica, 69(2), 163-174.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/6/values/0 -->
+Provete, D. B., Melo, L. S., Garey, M. V., Gomes, F. B., Martins, I. A., & Rossa-Feres, D. C. (2013). Larvae of Proceratophrys melanopogon (Amphibia: Anura), with emphasis on internal oral morphology and comparisons with P. cururu and P. moratoi. Herpetologica, 69(2), 163-174.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / originalLiteratureRows / values
+
+<!-- evo:text /records/tadpole-traits-reader/originalLiteratureRows/7/values/0 -->
+Provete, D. B., Melo, L. S., Garey, M. V., Gomes, F. B., Martins, I. A., & Rossa-Feres, D. C. (2013). Larvae of Proceratophrys melanopogon (Amphibia: Anura), with emphasis on internal oral morphology and comparisons with P. cururu and P. moratoi. Herpetologica, 69(2), 163-174.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

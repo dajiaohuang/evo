@@ -1,0 +1,2961 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  amphitherm-source-reader:
+    scientificName: Gastrotheca riobambae
+    name:
+      en: Gastrotheca riobambae
+      zh: Gastrotheca riobambae
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/0/text/zh
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1972"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/1/text/zh
+        sourceRowNumber: 1779
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1997"
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/amphitherm-source-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/amphitherm-source-reader/sections/2/text/zh
+        sourceRowNumber: 1804
+    sources:
+      referenceBindings:
+        - referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+          metadataVariant: 0
+          sourceKey: amphitherm
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - year
+            - doi
+            - url
+            - datasetUrl
+            - version
+            - associatedArchivedReleaseDoi
+            - accessedAt
+            - license
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      order: Anura
+      family: Hemiphractidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 1779
+        values:
+          - "1972"
+          - Nayelli Rivera
+          - Gutierrez-Pesquera_2015
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/0/values/3
+          - "2015"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Spanish
+          - Gastrotheca_riobambae_pop3
+          - Gastrotheca_riobambae_pop3_UTL_co1
+          - population_ID was considered the same as in Madalozzo (2018) because animals were collected in the same location
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - unclear
+          - NA
+          - "-0.1873"
+          - "-78.4639"
+          - "2969"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/0/values/28
+          - NA
+          - NA
+          - "15.04"
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "2.5"
+          - Acclimation time was taken as the mean of the range presented (2-3 days).
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1 (appendix)
+          - NA
+          - NA
+          - "38.6"
+          - "0.1"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 1804
+        values:
+          - "1997"
+          - Nayelli_Rivera
+          - Gutierrez-Pesquera_2015
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/1/values/3
+          - "2015"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - Spanish
+          - Gastrotheca_riobambae_pop3
+          - Gastrotheca_riobambae_pop3_LTL_co1
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - unclear
+          - NA
+          - "-0.1873"
+          - "-78.4639"
+          - "2969"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/1/values/28
+          - NA
+          - NA
+          - "15.04"
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "2.5"
+          - Acclimation time was taken as the mean of the range presented (2-3 days).
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "-1"
+          - "0.1"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 1861
+        values:
+          - "2055"
+          - Natalie_Claunch
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "3"
+          - Altitudinal variation of the critical thermal limits in 20 species of tadpoles in the tropical Andes
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop2
+          - Gastrotheca_riobambae_pop2_LTL_co1
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.1873"
+          - "-78.4639"
+          - "2947"
+          - NA
+          - NA
+          - NA
+          - June_2014
+          - April_2015
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "20"
+          - NA
+          - "3.5"
+          - Animals were acclimated for 3-4 days
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "-1"
+          - "0.1"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 1888
+        values:
+          - "2086"
+          - Jose O. Valdebenito
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop2
+          - Gastrotheca_riobambae_pop2_UTL_co1
+          - Population ID was taken as the same as in Madalozzo (2018) because animals were collected in the same location.
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.1873"
+          - "-78.4639"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "14.9"
+          - "0.4"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab S1, annexe 4
+          - NA
+          - NA
+          - "38.7"
+          - "0.1"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 1889
+        values:
+          - "2087"
+          - Jose O. Valdebenito
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop2
+          - Gastrotheca_riobambae_pop2_UTL_co2
+          - Population ID was taken as the same as in Madalozzo (2018) because animals were collected in the same location.
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.1873"
+          - "-78.4639"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20.1"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab S1, annexe 4
+          - NA
+          - NA
+          - "38.9"
+          - "0.1"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 1890
+        values:
+          - "2088"
+          - Jose O. Valdebenito
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop2
+          - Gastrotheca_riobambae_pop2_UTL_co3
+          - Population ID was taken as the same as in Madalozzo (2018) because animals were collected in the same location.
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.1873"
+          - "-78.4639"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab S1, annexe 4
+          - NA
+          - NA
+          - "40.2"
+          - "0.1"
+          - "14"
+          - se
+          - NA
+      - rowNumber: 1891
+        values:
+          - "2089"
+          - Jose O. Valdebenito
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop2
+          - Gastrotheca_riobambae_pop2_UTL_co4
+          - Population ID was taken as the same as in Madalozzo (2018) because animals were collected in the same location.
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.1873"
+          - "-78.4639"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "33.8"
+          - "0.3"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab S1, annexe 4
+          - NA
+          - NA
+          - "40.7"
+          - "0.1"
+          - "15"
+          - se
+          - NA
+      - rowNumber: 1930
+        values:
+          - "2131"
+          - Natalie_Claunch
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop2
+          - Gastrotheca_riobambae_pop2_LTL_co1
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.1873"
+          - "-78.4639"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "14.9"
+          - "0.4"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "-1.2"
+          - "0.2"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 1931
+        values:
+          - "2132"
+          - Natalie_Claunch
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop2
+          - Gastrotheca_riobambae_pop2_LTL_co2
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.1873"
+          - "-78.4639"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20.1"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "-0.4"
+          - "0.1"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 1932
+        values:
+          - "2133"
+          - Natalie_Claunch
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop2
+          - Gastrotheca_riobambae_pop2_LTL_co3
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.1873"
+          - "-78.4639"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "27"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "0.8"
+          - "0.1"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 1933
+        values:
+          - "2134"
+          - Natalie_Claunch
+          - Gutierrez-Pesquera_2016
+          - Thermal tolerance across latitudinal and altitudinal gradients in tadpoles
+          - "2016"
+          - "4"
+          - Acclimation of critical thermal limits in temperate and tropical tadpoles
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop2
+          - Gastrotheca_riobambae_pop2_LTL_co4
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.1873"
+          - "-78.4639"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "33.8"
+          - "0.3"
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "0.9"
+          - "0.2"
+          - "8"
+          - se
+          - NA
+      - rowNumber: 2969
+        values:
+          - "3283"
+          - Patrice Pottier
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/11/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop1
+          - Gastrotheca_riobambae_pop1_UTL_co1
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.187"
+          - "-78.7593"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - November_2011
+          - January_2012
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - "14.9"
+          - "0.4"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was assumed to be the same as in chapter I of the thesis (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1A
+          - NA
+          - NA
+          - "38.67986231"
+          - "0.442586673"
+          - "16"
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/11/values/83
+      - rowNumber: 2970
+        values:
+          - "3284"
+          - Patrice Pottier
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/12/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop1
+          - Gastrotheca_riobambae_pop1_UTL_co2
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.187"
+          - "-78.7593"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - November_2011
+          - January_2012
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - "20.1"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was assumed to be the same as in chapter I of the thesis (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1A
+          - NA
+          - NA
+          - "38.92771084"
+          - "0.569040008"
+          - "16"
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/12/values/83
+      - rowNumber: 2971
+        values:
+          - "3285"
+          - Patrice Pottier
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/13/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop1
+          - Gastrotheca_riobambae_pop1_UTL_co3
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.187"
+          - "-78.7593"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - November_2011
+          - January_2012
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - "27"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was assumed to be the same as in chapter I of the thesis (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1A
+          - NA
+          - NA
+          - "40.18244406"
+          - "0.474200007"
+          - "16"
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/13/values/83
+      - rowNumber: 2972
+        values:
+          - "3286"
+          - Patrice Pottier
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/14/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop1
+          - Gastrotheca_riobambae_pop1_UTL_co4
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.187"
+          - "-78.7593"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - November_2011
+          - January_2012
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "26"
+          - "33.8"
+          - "0.3"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was assumed to be the same as in chapter I of the thesis (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1A
+          - NA
+          - NA
+          - "40.72461274"
+          - "0.569040008"
+          - "16"
+          - sd
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/14/values/83
+      - rowNumber: 3024
+        values:
+          - "3341"
+          - Sarah Varon
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/15/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop1
+          - Gastrotheca_riobambae_pop1_LTL_co1
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.187"
+          - "-78.7593"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"tropical" location'
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "14.9"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "-1.27"
+          - "0.34"
+          - "16"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/15/values/83
+      - rowNumber: 3025
+        values:
+          - "3342"
+          - Sarah Varon
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/16/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop1
+          - Gastrotheca_riobambae_pop1_LTL_co2
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.187"
+          - "-78.7593"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"tropical" location'
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "20.1"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "-0.38"
+          - "0.14"
+          - "16"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/16/values/83
+      - rowNumber: 3026
+        values:
+          - "3343"
+          - Sarah Varon
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/17/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop1
+          - Gastrotheca_riobambae_pop1_LTL_co3
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.187"
+          - "-78.7593"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"tropical" location'
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "27"
+          - "0.1"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "0.78"
+          - NA
+          - "16"
+          - NA
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/17/values/83
+      - rowNumber: 3027
+        values:
+          - "3344"
+          - Sarah Varon
+          - Madalozzo_2018
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/18/values/3
+          - "2018"
+          - "2"
+          - "Acclimation of critical thermal limits in amphibian tadpoles: it is enough to face global warming?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop1
+          - Gastrotheca_riobambae_pop1_LTL_co4
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.187"
+          - "-78.7593"
+          - "2900"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - '"tropical" location'
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "33.9"
+          - "0.3"
+          - "4"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "0.85"
+          - "0.41"
+          - "16"
+          - se
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/18/values/83
+      - rowNumber: 3582
+        values:
+          - "3909"
+          - Patrice Pottier
+          - Pintanel_2018
+          - Thermal adaptation of amphibians in tropical mountains. Consequences of global warming
+          - "2018"
+          - "2"
+          - Are tropical barriers `higher` on the way up or down?
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop3
+          - Gastrotheca_riobambae_pop3_UTL_co1
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.19"
+          - "-78.46"
+          - "2969"
+          - NA
+          - NA
+          - NA
+          - June_2014
+          - April_2016
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab S2.1
+          - NA
+          - NA
+          - "38.61"
+          - "0.09"
+          - "16"
+          - se
+          - NA
+      - rowNumber: 4262
+        values:
+          - "4735"
+          - Jose O. Valdebenito
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/20/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop3
+          - Gastrotheca_riobambae_pop3_UTL_co1
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.18376"
+          - "-78.46416972"
+          - "2960"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "14"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "36.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (35-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "39.54"
+          - "0.42"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4263
+        values:
+          - "4736"
+          - Jose O. Valdebenito
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/21/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop3
+          - Gastrotheca_riobambae_pop3_UTL_co2
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.18376"
+          - "-78.46416972"
+          - "2960"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "36.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (35-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "39.7"
+          - "0.37"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4264
+        values:
+          - "4737"
+          - Jose O. Valdebenito
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/22/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop3
+          - Gastrotheca_riobambae_pop3_UTL_co3
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.18376"
+          - "-78.46416972"
+          - "2960"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "26"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "36.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (35-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "40.15"
+          - "0.37"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4265
+        values:
+          - "4738"
+          - Jose O. Valdebenito
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/23/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop3
+          - Gastrotheca_riobambae_pop3_UTL_co4
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.18376"
+          - "-78.46416972"
+          - "2960"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "32"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "36.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (35-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "40.11"
+          - "1.36"
+          - "9"
+          - sd
+          - NA
+      - rowNumber: 4271
+        values:
+          - "4744"
+          - Natalie_Claunch
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/24/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop4
+          - Gastrotheca_riobambae_pop4_LTL_co1
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.18376"
+          - "-78.46417"
+          - "5960"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "29.5"
+          - "14"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "29.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.1"
+          - "0.71"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4272
+        values:
+          - "4745"
+          - Natalie_Claunch
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/25/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop4
+          - Gastrotheca_riobambae_pop4_LTL_co2
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.18376"
+          - "-78.46417"
+          - "5960"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "29.5"
+          - "20"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "29.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "7.28"
+          - "0.52"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4273
+        values:
+          - "4746"
+          - Natalie_Claunch
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/26/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop4
+          - Gastrotheca_riobambae_pop4_LTL_co3
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.18376"
+          - "-78.46417"
+          - "5960"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "29.5"
+          - "26"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "29.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "8.07"
+          - "0.77"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4274
+        values:
+          - "4747"
+          - Natalie_Claunch
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/27/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop4
+          - Gastrotheca_riobambae_pop4_LTL_co4
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.18376"
+          - "-78.46417"
+          - "5960"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "29.5"
+          - "32"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "29.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "9.45"
+          - "0.33"
+          - "10"
+          - sd
+          - NA
+      - rowNumber: 4275
+        values:
+          - "4748"
+          - Natalie_Claunch
+          - Yandun-Vela_2017
+          - markdown: evidence.md
+            field: /records/amphitherm-source-reader/originalRows/28/values/3
+          - "2017"
+          - NA
+          - NA
+          - not_peer-reviewed
+          - NA
+          - English
+          - Gastrotheca_riobambae_pop4
+          - Gastrotheca_riobambae_pop4_LTL_co5
+          - NA
+          - Anura
+          - Hemiphractidae
+          - Gastrotheca riobambae
+          - NA
+          - EN
+          - wild
+          - NA
+          - "-0.18376"
+          - "-78.46417"
+          - "5960"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "29.5"
+          - "36"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - "29.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - prodding
+          - water
+          - NA
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "11.15"
+          - "1.2"
+          - "10"
+          - sd
+          - NA
+    originalStudyCitations:
+      - ref: Gutierrez-Pesquera_2015
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/0/title
+          format: heading
+        doi: NA
+        year: "2015"
+      - ref: Gutierrez-Pesquera_2016
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/1/title
+          format: heading
+        doi: NA
+        year: "2016"
+      - ref: Madalozzo_2018
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/2/title
+          format: heading
+        doi: NA
+        year: "2018"
+      - ref: Pintanel_2018
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/3/title
+          format: heading
+        doi: NA
+        year: "2018"
+      - ref: Yandun-Vela_2017
+        title:
+          markdown: page.en.md
+          field: /records/amphitherm-source-reader/originalStudyCitations/4/title
+          format: heading
+        doi: NA
+        year: "2017"
+    selectedEstimateRowNumbers:
+      - 1779
+      - 1804
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6JXVS
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/amphitherm-source-reader/limitations/zh
+---
+
+# Gastrotheca riobambae — AmphiTherm source
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/locator -->
+Cleaned_and_curated_data_Amphitherm.csv, rows 1779, 1804, 1861, 1888, 1889, 1890, 1891, 1930, 1931, 1932, 1933, 2969, 2970, 2971, 2972, 3024, 3025, 3026, 3027, 3582, 4262, 4263, 4264, 4265, 4271, 4272, 4273, 4274, 4275; Metadata_AmphiTherm.xlsx
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/en -->
+Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/amphitherm-source-reader/sources/referenceBindings/0/usage/scope/zh -->
+固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/0/values/3 -->
+Una valoración macrofisiológica de la vulnerabilidad al calentamiento global. Análisis de los límites de tolerancia térmica en comunidades de anfibios en gradientes latitudinales y altitudinales
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/0/values/28 -->
+It is specified that some species were obtained from a local lab and the rest of the species were sampled in ponds (it does not say which species were from the local lab or ponds).  All species report coordinates from the ponds where they can be found (except one), but I cannot assure whether the origin was from a lab or wild
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/1/values/3 -->
+Una valoración macrofisiológica de la vulnerabilidad al calentamiento global. Análisis de los límites de tolerancia térmica en comunidades de anfibios en gradientes latitudinales y altitudinales
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/1/values/28 -->
+It is specified that some species were obtained from a local lab and the rest of the species were sampled in ponds (it does not say which species were from the local lab or ponds).  All species report coordinates from the ponds where they can be found (except one), but I cannot assure whether the origin was from a lab or wild
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/11/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/11/values/83 -->
+Data was digitised from figure 1A. n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure. 95% confidence intervals were converted to sd in with metadigitise.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/12/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/12/values/83 -->
+Data was digitised from figure 1A. n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure. 95% confidence intervals were converted to sd in with metadigitise.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/13/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/13/values/83 -->
+Data was digitised from figure 1A. n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure. 95% confidence intervals were converted to sd in with metadigitise.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/14/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/14/values/83 -->
+Data was digitised from figure 1A. n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure. 95% confidence intervals were converted to sd in with metadigitise.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/15/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/15/values/83 -->
+n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 9/15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/16/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/16/values/83 -->
+n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 9/15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/17/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/17/values/83 -->
+Error not visible on figure. n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 9/15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/18/values/3 -->
+Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/18/values/83 -->
+n_trait was taken as reported in Table 2 for the lowest and highest acclimation temperatures. For the intermediate acclimation temperatures (i.e. 9/15C, 20C, 20/27C for the temperate, subtropical and tropical populations, respectively), the lowest sample size presented in Table 2 was reported as a conservative measure.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/20/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/21/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/22/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/23/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/24/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/25/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/26/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/27/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / originalRows / values
+
+<!-- evo:text /records/amphitherm-source-reader/originalRows/28/values/3 -->
+Capacidad de aclimatación en renacuajos de dos especies de anuros: Rhinella marina (Bufonidae) y Gastrotheca riobambae (Hemiphractidae) y su vulnerabilidad al cambio climático
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/en -->
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+<!-- /evo:text -->
+
+## amphitherm-source-reader / limitations
+
+<!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+<!-- /evo:text -->

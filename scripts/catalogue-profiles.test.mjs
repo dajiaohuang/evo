@@ -3,10 +3,23 @@ import { readFileSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { gunzipSync } from 'node:zlib'
 import { buildCatalogueKnowledge } from './catalogue-knowledge.mjs'
+import { readJson } from './data-lib.mjs'
 
 const root = 'data/catalogue-of-life/releases/2026-08-20/registry/'
 const manifest = JSON.parse(readFileSync(`${root}manifest.json`, 'utf8'))
-const profiles = JSON.parse(readFileSync('data/knowledge/catalogue-profiles.json', 'utf8'))
+const profiles = readJson('data/knowledge/catalogue-profiles.json')
+const noExpertReviewZh = /(?:没有|未经|未经过)(?:外部(?:领域)?|领域)专家(?:评审|审阅|审评|外审)/
+const noExpertReviewEn = /not externally expert-reviewed|(?:has|have) not received external expert review|no external(?: domain)? expert review|without external expert review|neither language has external expert review|not a (?:complete|comprehensive) [^.]*?\bor (?:externally )?expert-reviewed account|without a complete [^.]*?\bor external expert review/i
+
+test('review disclosures require explicit absence of external expert review', () => {
+  expect('未经过外部领域专家评审').toMatch(noExpertReviewZh)
+  expect('没有外部领域专家评审').toMatch(noExpertReviewZh)
+  expect('Not externally expert-reviewed.').toMatch(noExpertReviewEn)
+  expect('This page has not received external expert review.').toMatch(noExpertReviewEn)
+  expect('经过外部领域专家评审').not.toMatch(noExpertReviewZh)
+  expect('Externally expert-reviewed.').not.toMatch(noExpertReviewEn)
+  expect('Source-linked account.').not.toMatch(noExpertReviewEn)
+})
 const cache = new Map()
 const rowsFor = (section, id) => {
     const prefix = createHash('sha256').update(id).digest('hex').slice(0, 2)
@@ -52,8 +65,8 @@ test('every introduction resolves to its exact pinned identity and citations, in
   for (const profile of profiles.records) {
     expect(profile.name.zh).toBeTruthy()
     expect(profile.name.en).toBeTruthy()
-    expect(profile.limitations.zh).toContain('未经过外部领域专家评审')
-    expect(profile.limitations.en).toContain('not externally expert-reviewed')
+    expect(profile.limitations.zh).toMatch(noExpertReviewZh)
+    expect(profile.limitations.en).toMatch(noExpertReviewEn)
   }
   for (const id of ['HYM', 'BXVWV']) {
     expect(profiles.records.find(profile => profile.colId === id).sourceDatasetId).toBeNull()

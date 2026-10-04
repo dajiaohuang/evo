@@ -1,0 +1,12 @@
+import { prepareAmphibianResearchInput } from './prepare-amphibia-research-input.mjs'
+prepareAmphibianResearchInput([
+  { colId: '5CB2Z', name: 'Xenophrys parva', pmc: 'PMC11096727', year: 2024, readScope: 'Species ecology paragraph', sections: [
+    ['ecology', 'One night encounter on a tree near a stream', '溪流附近树上的一次夜间遭遇', 'The record found one specimen at 22:00 on a tree near a small stream, within evergreen forest containing medium-sized hardwood trees and shrubs. This is a specimen’s collection setting; it does not establish an obligate tree-dwelling habit, breeding location or population-wide activity schedule.', '记录在 22:00 于小溪附近的一棵树上发现一份标本，周围为含中等大小阔叶乔木及灌木的常绿林。这是该标本的采集环境，不能确定必需树栖习性、繁殖地点或整个种群的活动时段。']
+  ] },
+  { colId: 'TMNZ5', name: 'Xenophrys lancangica', pmc: 'PMC11096727', year: 2024, readScope: 'Species ecology paragraph', sections: [
+    ['ecology', 'A tree encounter in evergreen forest', '常绿林中的树上遭遇', 'The record found one specimen on a tree at 20:24 in evergreen forest containing medium-sized hardwood trees and shrubs. The account gives a local encounter substrate and time, without demonstrating habitat preference, breeding behavior or a general nightly activity pattern.', '记录在 20:24 于一棵树上发现一份标本，周围为含中等大小阔叶乔木及灌木的常绿林。该描述提供当地遭遇基质及时间，不能证明生境偏好、繁殖行为或一般夜间活动规律。']
+  ] },
+  { colId: 'RSTLC', name: 'Pelobates balcanicus', pmc: 'PMC6616056', year: 2019, readScope: 'Ecology paragraph explicitly scoped to the subspecies P. balcanicus chloeae; personal field observations distinguished from inferred ecology', sections: [
+    ['ecology', 'Rain-associated observations of the chloeae subspecies', 'chloeae 亚种与降雨相关的观察', 'The 2019 treatment explicitly said the ecology of P. balcanicus chloeae had not been studied separately and inferred similarity to the nominal subspecies. It also reported one observer’s count of more than 70 individuals, mostly juveniles, during a 15-minute search at the type locality in late October 2018. The same observer recorded activity around 13–20 °C and as low as 7 °C. These observations concern that subspecies and locality; encounter temperatures are not experimental thermal limits, and the timed count is not a standardized density estimate.', '2019 年分类处理明确说明 P. balcanicus chloeae 的生态尚未被单独研究，并推测其与指名亚种相似。文中同时报告一位观察者于 2018 年 10 月下旬在模式地点的 15 分钟搜索中计数超过 70 只，多为幼体；该观察者还记录约 13—20 °C、最低 7 °C 时的活动。这些观察限定于该亚种及地点；遭遇温度不是实验热耐受极限，定时计数也不是标准化密度估计。']
+  ] }
+])

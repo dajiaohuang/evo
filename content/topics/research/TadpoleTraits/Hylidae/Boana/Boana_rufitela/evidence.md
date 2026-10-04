@@ -1,0 +1,1024 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  tadpole-traits-reader:
+    scientificName: Boana rufitela
+    name:
+      en: Boana rufitela
+      zh: Boana rufitela
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/tadpole-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/tadpole-traits-reader/sections/1/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+          metadataVariant: 0
+          sourceKey: tadpoletraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - licenseAssessment
+            - rightsEvidenceUrl
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    sourceClassification:
+      family: Hylidae
+      genus: Boana
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 1718
+        values:
+          - "Hoffmann, H. (2014). The Tadpoles of Hyla rufitela (Anura: Hylidae). Revista de Biología Tropical, 53, 561."
+          - Hyla rufitela
+          - Hylidae
+          - Boana
+          - Boana rufitela
+          - 3
+          - 25
+          - 11.87
+          - 0.48
+          - 4.79
+          - 1.05
+          - 2.2
+          - 0.38
+          - 3.13
+          - 0.48
+          - null
+          - null
+          - null
+          - null
+          - 7.08
+          - 0.51
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.98
+          - 0.24
+          - null
+          - null
+          - null
+          - null
+          - 3.72
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.27
+          - 0.06
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.15
+          - 0.15
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1719
+        values:
+          - "Hoffmann, H. (2014). The Tadpoles of Hyla rufitela (Anura: Hylidae). Revista de Biología Tropical, 53, 561."
+          - Hyla rufitela
+          - Hylidae
+          - Boana
+          - Boana rufitela
+          - 5
+          - 26-28
+          - 23.12
+          - 2.13
+          - 7.31
+          - 0.63
+          - 3.44
+          - 0.61
+          - 4.63
+          - 0.38
+          - null
+          - null
+          - null
+          - null
+          - 15.81
+          - 1.61
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.5
+          - 0.29
+          - null
+          - null
+          - null
+          - null
+          - 5.35
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.35
+          - 0.25
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.99
+          - 0.22
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1720
+        values:
+          - "Hoffmann, H. (2014). The Tadpoles of Hyla rufitela (Anura: Hylidae). Revista de Biología Tropical, 53, 561."
+          - Hyla rufitela
+          - Hylidae
+          - Boana
+          - Boana rufitela
+          - 4
+          - 32-36
+          - 33.22
+          - 2.95
+          - 10.28
+          - 0.76
+          - 4.46
+          - 0.43
+          - 5.92
+          - 0.44
+          - null
+          - null
+          - null
+          - null
+          - 22.94
+          - 2.1
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.24
+          - 0.39
+          - null
+          - null
+          - null
+          - null
+          - 7.02
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.79
+          - 0.47
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.59
+          - 0.1
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1721
+        values:
+          - "Hoffmann, H. (2014). The Tadpoles of Hyla rufitela (Anura: Hylidae). Revista de Biología Tropical, 53, 561."
+          - Hyla rufitela
+          - Hylidae
+          - Boana
+          - Boana rufitela
+          - 4
+          - 37
+          - 38.1
+          - 2.61
+          - 11.82
+          - 1.03
+          - 5.41
+          - 0.36
+          - 6.91
+          - 0.47
+          - null
+          - null
+          - null
+          - null
+          - 26.28
+          - 1.6
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.72
+          - 0.28
+          - null
+          - null
+          - null
+          - null
+          - 8.47
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.1
+          - 0.42
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.08
+          - 0.19
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1722
+        values:
+          - "Hoffmann, H. (2014). The Tadpoles of Hyla rufitela (Anura: Hylidae). Revista de Biología Tropical, 53, 561."
+          - Hyla rufitela
+          - Hylidae
+          - Boana
+          - Boana rufitela
+          - 3
+          - 38-39
+          - 42.92
+          - 0.69
+          - 13
+          - 0.22
+          - 6.08
+          - 0.52
+          - 7.72
+          - 0.26
+          - null
+          - null
+          - null
+          - null
+          - 29.92
+          - 0.8
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 8.29
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.49
+          - 0.12
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.21
+          - 0.3
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1723
+        values:
+          - "Hoffmann, H. (2014). The Tadpoles of Hyla rufitela (Anura: Hylidae). Revista de Biología Tropical, 53, 561."
+          - Hyla rufitela
+          - Hylidae
+          - Boana
+          - Boana rufitela
+          - 1
+          - 20
+          - 5.2
+          - null
+          - 2.72
+          - null
+          - 1.34
+          - null
+          - 1.2
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.48
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.15
+          - 0.22
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1724
+        values:
+          - "Hoffmann, H. (2014). The Tadpoles of Hyla rufitela (Anura: Hylidae). Revista de Biología Tropical, 53, 561."
+          - Hyla rufitela
+          - Hylidae
+          - Boana
+          - Boana rufitela
+          - 8
+          - 17-18
+          - 2.45
+          - 0.21
+          - 2.45
+          - 0.21
+          - 1.43
+          - 0.15
+          - 1.26
+          - 0.07
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1725
+        values:
+          - "Hoffmann, H. (2014). The Tadpoles of Hyla rufitela (Anura: Hylidae). Revista de Biología Tropical, 53, 561."
+          - Hyla rufitela
+          - Hylidae
+          - Boana
+          - Boana rufitela
+          - 2
+          - 18
+          - 3.6
+          - 0.17
+          - 2.92
+          - 0.34
+          - 1.36
+          - 0.06
+          - 1.06
+          - 0.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1726
+        values:
+          - "Hoffmann, H. (2014). The Tadpoles of Hyla rufitela (Anura: Hylidae). Revista de Biología Tropical, 53, 561."
+          - Hyla rufitela
+          - Hylidae
+          - Boana
+          - Boana rufitela
+          - 3
+          - 20
+          - 4.77
+          - 0.13
+          - 2.92
+          - 0.12
+          - 1.46
+          - 0.03
+          - 1.09
+          - 0.01
+          - null
+          - null
+          - null
+          - null
+          - 1.85
+          - 0.21
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1727
+        values:
+          - "Hoffmann, H. (2014). The Tadpoles of Hyla rufitela (Anura: Hylidae). Revista de Biología Tropical, 53, 561."
+          - Hyla rufitela
+          - Hylidae
+          - Boana
+          - Boana rufitela
+          - 5
+          - 20
+          - 5.41
+          - 0.09
+          - 2.97
+          - 0.04
+          - 1.46
+          - 0.04
+          - 1.21
+          - 0.05
+          - null
+          - null
+          - null
+          - null
+          - 2.44
+          - 0.08
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows: []
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies: []
+    selectedSourceRatios: []
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - M82P
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/tadpole-traits-reader/limitations/zh
+---
+
+# Boana rufitela — TadpoleTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/locator -->
+Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 1718, 1719, 1720, 1721, 1722, 1723, 1724, 1725, 1726, 1727; Picture measurement data rows none; Readme rows 6–50
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/tadpole-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/en -->
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+<!-- /evo:text -->
+
+## tadpole-traits-reader / limitations
+
+<!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+<!-- /evo:text -->

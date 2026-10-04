@@ -6,6 +6,7 @@ import { collectDataSummary, flattenTree, readJson, rootDir } from './data-lib.m
 import { validatePlatform } from './platform-validation-lib.mjs'
 import { assignOccurrencePackage } from './occurrence-package-map.mjs'
 import { descendantTaxonScope, normalizeTaxonName, occurrenceMatchMethod } from './taxon-linkage.mjs'
+import { isRecordedUndatedLead, hasRecordedPaperLocator } from './reference-date-status.mjs'
 
 const failures = []
 failures.push(...validatePlatform('all'))
@@ -189,11 +190,12 @@ check(unique(stories.map((story) => story.id)), 'story IDs must be unique')
 check(unique(claims.map((claim) => claim.id)), 'claim IDs must be unique')
 check(unique(editorialDecisions.map((decision) => decision.id)), 'editorial decision IDs must be unique')
 for (const reference of references) {
+  if (reference.dateStatus) check(isRecordedUndatedLead(reference), `reference ${reference.id}: unresolved date status requires an automated imported lead with retained metadata and no recorded date`)
   if (reference.type === 'paper') {
     check(Number.isInteger(reference.publishedYear), `paper ${reference.id}: publishedYear is required`)
-    check(Boolean(reference.doi), `paper ${reference.id}: DOI is required`)
+    check(hasRecordedPaperLocator(reference), `paper ${reference.id}: DOI or a recorded HTTPS source locator is required`)
   } else {
-    check(Boolean(reference.publishedYear || reference.accessedAt || reference.version), `reference ${reference.id}: publication, access or version date is required`)
+    check(Boolean(reference.publishedYear || reference.accessedAt || reference.version) || isRecordedUndatedLead(reference), `reference ${reference.id}: a recorded date or an explicitly unresolved, provenance-bearing imported lead is required`)
   }
 }
 

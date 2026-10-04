@@ -1,0 +1,5109 @@
+{
+  "pmcid": "PMC5529558",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+  "sha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+  "articleType": "research-article",
+  "title": "Inference of neuronal functional circuitry with spike-triggered non-negative matrix factorization",
+  "authors": [
+    {
+      "name": "Jian K. Liu",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Jian K.",
+        "surname": "Liu",
+        "suffix": null
+      },
+      "originalName": "LiuJian K.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Helene M. Schreyer",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Helene M.",
+        "surname": "Schreyer",
+        "suffix": null
+      },
+      "originalName": "SchreyerHelene M.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Arno Onken",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Arno",
+        "surname": "Onken",
+        "suffix": null
+      },
+      "originalName": "OnkenArno",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0001-7387-5535"
+        }
+      ]
+    },
+    {
+      "name": "Fernando Rozenblit",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Fernando",
+        "surname": "Rozenblit",
+        "suffix": null
+      },
+      "originalName": "RozenblitFernando",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Mohammad H. Khani",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Mohammad H.",
+        "surname": "Khani",
+        "suffix": null
+      },
+      "originalName": "KhaniMohammad H.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Vidhyasankar Krishnamoorthy",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Vidhyasankar",
+        "surname": "Krishnamoorthy",
+        "suffix": null
+      },
+      "originalName": "KrishnamoorthyVidhyasankar",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Stefano Panzeri",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Stefano",
+        "surname": "Panzeri",
+        "suffix": null
+      },
+      "originalName": "PanzeriStefano",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0003-1700-8909"
+        }
+      ]
+    },
+    {
+      "name": "Tim Gollisch",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Tim",
+        "surname": "Gollisch",
+        "suffix": null
+      },
+      "originalName": "GollischTim",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0003-3998-533X"
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC5529558"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC5529558.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "5529558"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "5529558"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "28747662"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1038/s41467-017-00156-9"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "156"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2017",
+      "month": "7",
+      "day": "26"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2017",
+      "month": null,
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {
+        "license-type": "OpenAccess"
+      },
+      "links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "MOESM1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2017_156_MOESM1_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2017_156_MOESM1_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "MOESM2",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "41467_2017_156_MOESM2_ESM.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41467_2017_156_MOESM2_ESM.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "CR1",
+      "position": 0,
+      "title": "The contrast sensitivity of retinal ganglion cells of the cat",
+      "source": "J. Physiol.",
+      "year": "1966",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Enroth-Cugell",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Enroth-CugellC"
+            },
+            {
+              "surname": "Robson",
+              "givenNames": "JG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RobsonJG"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "187"
+        ],
+        "fpage": [
+          "517"
+        ],
+        "lpage": [
+          "552"
+        ]
+      },
+      "originalCitationText": "Enroth-CugellCRobsonJGThe contrast sensitivity of retinal ganglion cells of the catJ. Physiol.196618751755210.1113/jphysiol.1966.sp00810716783910PMC1395960",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1113/jphysiol.1966.sp008107"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16783910"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1395960"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR2",
+      "position": 1,
+      "title": "The nonlinear pathway of Y ganglion cells in the cat retina",
+      "source": "J. Gen. Physiol.",
+      "year": "1979",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Victor",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VictorJD"
+            },
+            {
+              "surname": "Shapley",
+              "givenNames": "RM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShapleyRM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "74"
+        ],
+        "fpage": [
+          "671"
+        ],
+        "lpage": [
+          "689"
+        ]
+      },
+      "originalCitationText": "VictorJDShapleyRMThe nonlinear pathway of Y ganglion cells in the cat retinaJ. Gen. Physiol.19797467168910.1085/jgp.74.6.671231636PMC2228574",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1085/jgp.74.6.671"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "231636"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2228574"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR3",
+      "position": 2,
+      "title": "Approach sensitivity in the retina processed by a multifunctional neural circuit",
+      "source": "Nat. Neurosci.",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Münch",
+              "givenNames": "TA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MünchTA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "1308"
+        ],
+        "lpage": [
+          "1316"
+        ]
+      },
+      "originalCitationText": "MünchTAApproach sensitivity in the retina processed by a multifunctional neural circuitNat. Neurosci.2009121308131610.1038/nn.238919734895",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nn.2389"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19734895"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR4",
+      "position": 3,
+      "title": "Segregation of object and background motion in the retina",
+      "source": "Nature",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ölveczky",
+              "givenNames": "BP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ÖlveczkyBP"
+            },
+            {
+              "surname": "Baccus",
+              "givenNames": "SA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BaccusSA"
+            },
+            {
+              "surname": "Meister",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeisterM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "423"
+        ],
+        "fpage": [
+          "401"
+        ],
+        "lpage": [
+          "408"
+        ]
+      },
+      "originalCitationText": "ÖlveczkyBPBaccusSAMeisterMSegregation of object and background motion in the retinaNature200342340140810.1038/nature0165212754524",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature01652"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12754524"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR5",
+      "position": 4,
+      "title": "The most numerous ganglion cell type of the mouse retina is a selective feature detector",
+      "source": "Proc. Natl Acad. Sci. USA",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zhang",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangY"
+            },
+            {
+              "surname": "Kim",
+              "givenNames": "IJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KimIJ"
+            },
+            {
+              "surname": "Sanes",
+              "givenNames": "JR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SanesJR"
+            },
+            {
+              "surname": "Meister",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeisterM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "109"
+        ],
+        "fpage": [
+          "E2391"
+        ],
+        "lpage": [
+          "2398"
+        ]
+      },
+      "originalCitationText": "ZhangYKimIJSanesJRMeisterMThe most numerous ganglion cell type of the mouse retina is a selective feature detectorProc. Natl Acad. Sci. USA2012109E2391239810.1073/pnas.121154710922891316PMC3437843",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1211547109"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22891316"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3437843"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR6",
+      "position": 5,
+      "title": "The mechanism of directionally selective units in rabbit’s retina",
+      "source": "J. Physiol.",
+      "year": "1965",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Barlow",
+              "givenNames": "HB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarlowHB"
+            },
+            {
+              "surname": "Levick",
+              "givenNames": "WR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LevickWR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "178"
+        ],
+        "fpage": [
+          "477"
+        ],
+        "lpage": [
+          "504"
+        ]
+      },
+      "originalCitationText": "BarlowHBLevickWRThe mechanism of directionally selective units in rabbit’s retinaJ. Physiol.196517847750410.1113/jphysiol.1965.sp0076385827909PMC1357309",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1113/jphysiol.1965.sp007638"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "5827909"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1357309"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR7",
+      "position": 6,
+      "title": "Receptive fields, binocular interaction and functional architecture in the cat’s visual cortex",
+      "source": "J. Physiol.",
+      "year": "1962",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hubel",
+              "givenNames": "DH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HubelDH"
+            },
+            {
+              "surname": "Wiesel",
+              "givenNames": "TN",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WieselTN"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "160"
+        ],
+        "fpage": [
+          "106"
+        ],
+        "lpage": [
+          "154"
+        ]
+      },
+      "originalCitationText": "HubelDHWieselTNReceptive fields, binocular interaction and functional architecture in the cat’s visual cortexJ. Physiol.196216010615410.1113/jphysiol.1962.sp00683714449617PMC1359523",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1113/jphysiol.1962.sp006837"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "14449617"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1359523"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR8",
+      "position": 7,
+      "title": "Receptive field organization of complex cells in the cat’s striate cortex",
+      "source": "J. Physiol.",
+      "year": "1978",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Movshon",
+              "givenNames": "JA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MovshonJA"
+            },
+            {
+              "surname": "Thompson",
+              "givenNames": "ID",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThompsonID"
+            },
+            {
+              "surname": "Tolhurst",
+              "givenNames": "DJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TolhurstDJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "283"
+        ],
+        "fpage": [
+          "79"
+        ],
+        "lpage": [
+          "99"
+        ]
+      },
+      "originalCitationText": "MovshonJAThompsonIDTolhurstDJReceptive field organization of complex cells in the cat’s striate cortexJ. Physiol.1978283799910.1113/jphysiol.1978.sp012489722592PMC1282766",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1113/jphysiol.1978.sp012489"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "722592"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1282766"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR9",
+      "position": 8,
+      "title": "Spatiotemporal energy models for the perception of motion",
+      "source": "J. Opt. Soc. Am. A.",
+      "year": "1985",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Adelson",
+              "givenNames": "EH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AdelsonEH"
+            },
+            {
+              "surname": "Bergen",
+              "givenNames": "JR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BergenJR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "284"
+        ],
+        "lpage": [
+          "299"
+        ]
+      },
+      "originalCitationText": "AdelsonEHBergenJRSpatiotemporal energy models for the perception of motionJ. Opt. Soc. Am. A.1985228429910.1364/JOSAA.2.0002843973762",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1364/JOSAA.2.000284"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "3973762"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR10",
+      "position": 9,
+      "title": "A convolutional subunit model for neuronal responses in macaque V1",
+      "source": "J. Neurosci.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Vintch",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VintchB"
+            },
+            {
+              "surname": "Movshon",
+              "givenNames": "JA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MovshonJA"
+            },
+            {
+              "surname": "Simoncelli",
+              "givenNames": "EP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimoncelliEP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "35"
+        ],
+        "fpage": [
+          "14829"
+        ],
+        "lpage": [
+          "14841"
+        ]
+      },
+      "originalCitationText": "VintchBMovshonJASimoncelliEPA convolutional subunit model for neuronal responses in macaque V1J. Neurosci.201535148291484110.1523/JNEUROSCI.2815-13.201526538653PMC4635132",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1523/JNEUROSCI.2815-13.2015"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26538653"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4635132"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR11",
+      "position": 10,
+      "title": "Spatiotemporal elements of macaque V1 receptive fields",
+      "source": "Neuron",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Rust",
+              "givenNames": "NC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RustNC"
+            },
+            {
+              "surname": "Schwartz",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchwartzO"
+            },
+            {
+              "surname": "Movshon",
+              "givenNames": "JA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MovshonJA"
+            },
+            {
+              "surname": "Simoncelli",
+              "givenNames": "EP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimoncelliEP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "46"
+        ],
+        "fpage": [
+          "945"
+        ],
+        "lpage": [
+          "956"
+        ]
+      },
+      "originalCitationText": "RustNCSchwartzOMovshonJASimoncelliEPSpatiotemporal elements of macaque V1 receptive fieldsNeuron20054694595610.1016/j.neuron.2005.05.02115953422",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.neuron.2005.05.021"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15953422"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR12",
+      "position": 11,
+      "title": "Hidden complexity of synaptic receptive fields in cat V1",
+      "source": "J. Neurosci.",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Fournier",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FournierJ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "fpage": [
+          "5515"
+        ],
+        "lpage": [
+          "5528"
+        ]
+      },
+      "originalCitationText": "FournierJHidden complexity of synaptic receptive fields in cat V1J. Neurosci.2014345515552810.1523/JNEUROSCI.0474-13.201424741042PMC6608221",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1523/JNEUROSCI.0474-13.2014"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24741042"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6608221"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR13",
+      "position": 12,
+      "title": "Construction of direction selectivity through local energy computations in primary visual cortex",
+      "source": "PLoS ONE",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lochmann",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LochmannT"
+            },
+            {
+              "surname": "Blanche",
+              "givenNames": "TJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BlancheTJ"
+            },
+            {
+              "surname": "Butts",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ButtsDA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "e58666"
+        ]
+      },
+      "originalCitationText": "LochmannTBlancheTJButtsDAConstruction of direction selectivity through local energy computations in primary visual cortexPLoS ONE20138e5866610.1371/journal.pone.005866623554913PMC3598900",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0058666"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23554913"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3598900"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR14",
+      "position": 13,
+      "title": "A three-dimensional spatiotemporal receptive field model explains responses of area MT neurons to naturalistic movies",
+      "source": "J. Neurosci.",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nishimoto",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NishimotoS"
+            },
+            {
+              "surname": "Gallant",
+              "givenNames": "JL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GallantJL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "fpage": [
+          "14551"
+        ],
+        "lpage": [
+          "14564"
+        ]
+      },
+      "originalCitationText": "NishimotoSGallantJLA three-dimensional spatiotemporal receptive field model explains responses of area MT neurons to naturalistic moviesJ. Neurosci.201131145511456410.1523/JNEUROSCI.6801-10.201121994372PMC3338855",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1523/JNEUROSCI.6801-10.2011"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21994372"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3338855"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR15",
+      "position": 14,
+      "title": "Spatiotemporal structure of nonlinear subunits in macaque visual cortex",
+      "source": "J. Neurosci.",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pack",
+              "givenNames": "CC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PackCC"
+            },
+            {
+              "surname": "Conway",
+              "givenNames": "BR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ConwayBR"
+            },
+            {
+              "surname": "Born",
+              "givenNames": "RT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BornRT"
+            },
+            {
+              "surname": "Livingstone",
+              "givenNames": "MS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LivingstoneMS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "26"
+        ],
+        "fpage": [
+          "893"
+        ],
+        "lpage": [
+          "907"
+        ]
+      },
+      "originalCitationText": "PackCCConwayBRBornRTLivingstoneMSSpatiotemporal structure of nonlinear subunits in macaque visual cortexJ. Neurosci.20062689390710.1523/JNEUROSCI.3226-05.200616421309PMC1413500",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1523/JNEUROSCI.3226-05.2006"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16421309"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1413500"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR16",
+      "position": 15,
+      "title": "How MT cells analyze the motion of visual patterns",
+      "source": "Nat. Neurosci.",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Rust",
+              "givenNames": "NC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RustNC"
+            },
+            {
+              "surname": "Mante",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ManteV"
+            },
+            {
+              "surname": "Simoncelli",
+              "givenNames": "EP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimoncelliEP"
+            },
+            {
+              "surname": "Movshon",
+              "givenNames": "JA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MovshonJA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "1421"
+        ],
+        "lpage": [
+          "1431"
+        ]
+      },
+      "originalCitationText": "RustNCManteVSimoncelliEPMovshonJAHow MT cells analyze the motion of visual patternsNat. Neurosci.200691421143110.1038/nn178617041595",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nn1786"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17041595"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR17",
+      "position": 16,
+      "title": "Closed-loop measurements of iso-response stimuli reveal dynamic nonlinear stimulus integration in the retina",
+      "source": "Neuron",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bölinger",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BölingerD"
+            },
+            {
+              "surname": "Gollisch",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GollischT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "73"
+        ],
+        "fpage": [
+          "333"
+        ],
+        "lpage": [
+          "346"
+        ]
+      },
+      "originalCitationText": "BölingerDGollischTClosed-loop measurements of iso-response stimuli reveal dynamic nonlinear stimulus integration in the retinaNeuron20127333334610.1016/j.neuron.2011.10.03922284187",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.neuron.2011.10.039"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22284187"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR18",
+      "position": 17,
+      "title": "Two-photon imaging of nonlinear glutamate release dynamics at bipolar cell synapses in the mouse retina",
+      "source": "J. Neurosci.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Borghuis",
+              "givenNames": "BG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BorghuisBG"
+            },
+            {
+              "surname": "Marvin",
+              "givenNames": "JS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MarvinJS"
+            },
+            {
+              "surname": "Looger",
+              "givenNames": "LL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LoogerLL"
+            },
+            {
+              "surname": "Demb",
+              "givenNames": "JB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DembJB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "33"
+        ],
+        "fpage": [
+          "10972"
+        ],
+        "lpage": [
+          "10985"
+        ]
+      },
+      "originalCitationText": "BorghuisBGMarvinJSLoogerLLDembJBTwo-photon imaging of nonlinear glutamate release dynamics at bipolar cell synapses in the mouse retinaJ. Neurosci.201333109721098510.1523/JNEUROSCI.1241-13.201323825403PMC3718381",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1523/JNEUROSCI.1241-13.2013"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23825403"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3718381"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR19",
+      "position": 18,
+      "title": "Bipolar cells contribute to nonlinear spatial summation in the brisk-transient (Y) ganglion cell in mammalian retina",
+      "source": "J. Neurosci.",
+      "year": "2001",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Demb",
+              "givenNames": "JB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DembJB"
+            },
+            {
+              "surname": "Zaghloul",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZaghloulK"
+            },
+            {
+              "surname": "Haarsma",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaarsmaL"
+            },
+            {
+              "surname": "Sterling",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SterlingP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "fpage": [
+          "7447"
+        ],
+        "lpage": [
+          "7454"
+        ]
+      },
+      "originalCitationText": "DembJBZaghloulKHaarsmaLSterlingPBipolar cells contribute to nonlinear spatial summation in the brisk-transient (Y) ganglion cell in mammalian retinaJ. Neurosci.200121744774541156703410.1523/JNEUROSCI.21-19-07447.2001PMC6762908",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "11567034"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1523/JNEUROSCI.21-19-07447.2001"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6762908"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR20",
+      "position": 19,
+      "title": "The spatial structure of a nonlinear receptive field",
+      "source": "Nat. Neurosci.",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Schwartz",
+              "givenNames": "GW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchwartzGW"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "1572"
+        ],
+        "lpage": [
+          "1580"
+        ]
+      },
+      "originalCitationText": "SchwartzGWThe spatial structure of a nonlinear receptive fieldNat. Neurosci.2012151572158010.1038/nn.322523001060PMC3517818",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nn.3225"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23001060"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3517818"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR21",
+      "position": 20,
+      "title": "Synaptic rectification controls nonlinear spatial integration of natural visual inputs",
+      "source": "Neuron",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Turner",
+              "givenNames": "MH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TurnerMH"
+            },
+            {
+              "surname": "Rieke",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RiekeF"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "90"
+        ],
+        "fpage": [
+          "1257"
+        ],
+        "lpage": [
+          "1271"
+        ]
+      },
+      "originalCitationText": "TurnerMHRiekeFSynaptic rectification controls nonlinear spatial integration of natural visual inputsNeuron2016901257127110.1016/j.neuron.2016.05.00627263968PMC4917290",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.neuron.2016.05.006"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27263968"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4917290"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR22",
+      "position": 21,
+      "title": "Nonlinear spatiotemporal integration by electrical and chemical synapses in the retina",
+      "source": "Neuron",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kuo",
+              "givenNames": "SP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KuoSP"
+            },
+            {
+              "surname": "Schwartz",
+              "givenNames": "GW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchwartzGW"
+            },
+            {
+              "surname": "Rieke",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RiekeF"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "90"
+        ],
+        "fpage": [
+          "320"
+        ],
+        "lpage": [
+          "332"
+        ]
+      },
+      "originalCitationText": "KuoSPSchwartzGWRiekeFNonlinear spatiotemporal integration by electrical and chemical synapses in the retinaNeuron20169032033210.1016/j.neuron.2016.03.01227068789PMC4840068",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.neuron.2016.03.012"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27068789"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4840068"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR23",
+      "position": 22,
+      "title": "Cell types, circuits, computation",
+      "source": "Curr. Opin. Neurobiol.",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "da Silveira",
+              "givenNames": "RA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "da SilveiraRA"
+            },
+            {
+              "surname": "Roska",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RoskaB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "fpage": [
+          "664"
+        ],
+        "lpage": [
+          "671"
+        ]
+      },
+      "originalCitationText": "da SilveiraRARoskaBCell types, circuits, computationCurr. Opin. Neurobiol.20112166467110.1016/j.conb.2011.05.00721641794",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.conb.2011.05.007"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21641794"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR24",
+      "position": 23,
+      "title": "Eye smarter than scientists believed: neural computations in circuits of the retina",
+      "source": "Neuron",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gollisch",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GollischT"
+            },
+            {
+              "surname": "Meister",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeisterM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "65"
+        ],
+        "fpage": [
+          "150"
+        ],
+        "lpage": [
+          "164"
+        ]
+      },
+      "originalCitationText": "GollischTMeisterMEye smarter than scientists believed: neural computations in circuits of the retinaNeuron20106515016410.1016/j.neuron.2009.12.00920152123PMC3717333",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.neuron.2009.12.009"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20152123"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3717333"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR25",
+      "position": 24,
+      "title": "Perspectives on: information and coding in mammalian sensory physiology: nonlinear spatial encoding by retinal ganglion cells: when 1 + 1 not equal 2",
+      "source": "J. Gen. Physiol.",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Schwartz",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchwartzG"
+            },
+            {
+              "surname": "Rieke",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RiekeF"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "138"
+        ],
+        "fpage": [
+          "283"
+        ],
+        "lpage": [
+          "290"
+        ]
+      },
+      "originalCitationText": "SchwartzGRiekeFPerspectives on: information and coding in mammalian sensory physiology: nonlinear spatial encoding by retinal ganglion cells: when 1 + 1 not equal 2J. Gen. Physiol.201113828329010.1085/jgp.20111062921875977PMC3171084",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1085/jgp.201110629"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21875977"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3171084"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR26",
+      "position": 25,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Heitman, A. et al. Testing pseudo-linear models of responses to natural scenes in primate retina. Preprint at bioRxivhttp://doi.org/10.1101/045336 (2016).",
+      "identifiers": [],
+      "externalLinks": [
+        "http://doi.org/10.1101/045336"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR27",
+      "position": 26,
+      "title": "A simple white noise analysis of neuronal light responses",
+      "source": "Network.",
+      "year": "2001",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chichilnisky",
+              "givenNames": "EJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChichilniskyEJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "199"
+        ],
+        "lpage": [
+          "213"
+        ]
+      },
+      "originalCitationText": "ChichilniskyEJA simple white noise analysis of neuronal light responsesNetwork.20011219921310.1080/71366322111405422",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1080/713663221"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "11405422"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR28",
+      "position": 27,
+      "title": "Inferring nonlinear neuronal computation based on physiologically plausible inputs",
+      "source": "PLoS Comput. Biol.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "McFarland",
+              "givenNames": "JM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McFarlandJM"
+            },
+            {
+              "surname": "Cui",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CuiY"
+            },
+            {
+              "surname": "Butts",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ButtsDA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "e1003143"
+        ]
+      },
+      "originalCitationText": "McFarlandJMCuiYButtsDAInferring nonlinear neuronal computation based on physiologically plausible inputsPLoS Comput. Biol.20139e100314310.1371/journal.pcbi.100314323874185PMC3715434",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pcbi.1003143"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23874185"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3715434"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR29",
+      "position": 28,
+      "title": "Mapping nonlinear receptive field structure in primate retina at single cone resolution",
+      "source": "Elife",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Freeman",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FreemanJ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "e05241"
+        ]
+      },
+      "originalCitationText": "FreemanJMapping nonlinear receptive field structure in primate retina at single cone resolutionElife20154e0524110.7554/eLife.0524126517879PMC4623615",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.7554/eLife.05241"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26517879"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4623615"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR30",
+      "position": 29,
+      "title": "Neural circuit inference from function to structure",
+      "source": "Curr. Biol.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Real",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RealE"
+            },
+            {
+              "surname": "Asari",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AsariH"
+            },
+            {
+              "surname": "Gollisch",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GollischT"
+            },
+            {
+              "surname": "Meister",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeisterM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "fpage": [
+          "189"
+        ],
+        "lpage": [
+          "198"
+        ]
+      },
+      "originalCitationText": "RealEAsariHGollischTMeisterMNeural circuit inference from function to structureCurr. Biol.20172718919810.1016/j.cub.2016.11.04028065610PMC5821114",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cub.2016.11.040"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28065610"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5821114"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR31",
+      "position": 30,
+      "title": "Beyond GLMs: a generative mixture modeling approach to neural system identification",
+      "source": "PLoS Comput. Biol.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Theis",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TheisL"
+            },
+            {
+              "surname": "Chagas",
+              "givenNames": "AM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChagasAM"
+            },
+            {
+              "surname": "Arnstein",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ArnsteinD"
+            },
+            {
+              "surname": "Schwarz",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchwarzC"
+            },
+            {
+              "surname": "Bethge",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BethgeM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "e1003356"
+        ]
+      },
+      "originalCitationText": "TheisLChagasAMArnsteinDSchwarzCBethgeMBeyond GLMs: a generative mixture modeling approach to neural system identificationPLoS Comput. Biol.20139e100335610.1371/journal.pcbi.100335624278006PMC3836720",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pcbi.1003356"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24278006"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3836720"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR32",
+      "position": 31,
+      "title": "Deep learning models of the retinal response to natural scenes",
+      "source": "Adv. Neural. Inf. Process. Syst.",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "McIntosh",
+              "givenNames": "LT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McIntoshLT"
+            },
+            {
+              "surname": "Maheswaranathan",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaheswaranathanN"
+            },
+            {
+              "surname": "Nayebi",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NayebiA"
+            },
+            {
+              "surname": "Ganguli",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GanguliS"
+            },
+            {
+              "surname": "Baccus",
+              "givenNames": "SA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BaccusSA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "1361"
+        ],
+        "lpage": [
+          "1369"
+        ]
+      },
+      "originalCitationText": "McIntoshLTMaheswaranathanNNayebiAGanguliSBaccusSADeep learning models of the retinal response to natural scenesAdv. Neural. Inf. Process. Syst.20162913611369PMC551538428729779",
+      "identifiers": [
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5515384"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28729779"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR33",
+      "position": 32,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Maheswaranathan, N., Baccus, S. A. & Ganguli, S. Inferring hidden structure in multilayered neural circuits. Preprint at bioRxivhttps://doi.org/10.1101/120956 (2017)10.1371/journal.pcbi.1006291PMC612478130138312",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1371/journal.pcbi.1006291"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6124781"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30138312"
+        }
+      ],
+      "externalLinks": [
+        "https://doi.org/10.1101/120956"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR34",
+      "position": 33,
+      "title": "Identifying functional bases for multidimensional neural computations",
+      "source": "Neural. Comput.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kaardal",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KaardalJ"
+            },
+            {
+              "surname": "Fitzgerald",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FitzgeraldJD"
+            },
+            {
+              "surname": "Berry",
+              "givenNames": "MJ",
+              "prefix": null,
+              "suffix": "2nd",
+              "originalName": "BerryMJ2nd"
+            },
+            {
+              "surname": "Sharpee",
+              "givenNames": "TO",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SharpeeTO"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "1870"
+        ],
+        "lpage": [
+          "1890"
+        ]
+      },
+      "originalCitationText": "KaardalJFitzgeraldJDBerryMJ2ndSharpeeTOIdentifying functional bases for multidimensional neural computationsNeural. Comput.2013251870189010.1162/NECO_a_0046523607565PMC3672375",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1162/NECO_a_00465"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23607565"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3672375"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR35",
+      "position": 34,
+      "title": "Learning the parts of objects by non-negative matrix factorization",
+      "source": "Nature",
+      "year": "1999",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lee",
+              "givenNames": "DD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeeDD"
+            },
+            {
+              "surname": "Seung",
+              "givenNames": "HS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SeungHS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "401"
+        ],
+        "fpage": [
+          "788"
+        ],
+        "lpage": [
+          "791"
+        ]
+      },
+      "originalCitationText": "LeeDDSeungHSLearning the parts of objects by non-negative matrix factorizationNature199940178879110.1038/4456510548103",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/44565"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10548103"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR36",
+      "position": 35,
+      "title": "Convex and semi-nonnegative matrix factorizations",
+      "source": "IEEE Trans. Pattern. Anal. Mach. Intell.",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ding",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DingC"
+            },
+            {
+              "surname": "Li",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiT"
+            },
+            {
+              "surname": "Jordan",
+              "givenNames": "MI",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JordanMI"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "fpage": [
+          "45"
+        ],
+        "lpage": [
+          "55"
+        ]
+      },
+      "originalCitationText": "DingCLiTJordanMIConvex and semi-nonnegative matrix factorizationsIEEE Trans. Pattern. Anal. Mach. Intell.201032455510.1109/TPAMI.2008.27719926898",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/TPAMI.2008.277"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19926898"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR37",
+      "position": 36,
+      "title": "Spike-triggered neural characterization",
+      "source": "J. Vis.",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Schwartz",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchwartzO"
+            },
+            {
+              "surname": "Pillow",
+              "givenNames": "JW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PillowJW"
+            },
+            {
+              "surname": "Rust",
+              "givenNames": "NC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RustNC"
+            },
+            {
+              "surname": "Simoncelli",
+              "givenNames": "EP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimoncelliEP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "484"
+        ],
+        "lpage": [
+          "507"
+        ]
+      },
+      "originalCitationText": "SchwartzOPillowJWRustNCSimoncelliEPSpike-triggered neural characterizationJ. Vis.2006648450710.1167/6.4.1316889482",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1167/6.4.13"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16889482"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR38",
+      "position": 37,
+      "title": "Spike-triggered covariance: geometric proof, symmetry properties, and extension beyond Gaussian stimuli",
+      "source": "J. Comput. Neurosci.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Samengo",
+              "givenNames": "I",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SamengoI"
+            },
+            {
+              "surname": "Gollisch",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GollischT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "fpage": [
+          "137"
+        ],
+        "lpage": [
+          "161"
+        ]
+      },
+      "originalCitationText": "SamengoIGollischTSpike-triggered covariance: geometric proof, symmetry properties, and extension beyond Gaussian stimuliJ. Comput. Neurosci.20133413716110.1007/s10827-012-0411-y22798148PMC3558678",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10827-012-0411-y"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22798148"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3558678"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR39",
+      "position": 38,
+      "title": "Joint encoding of object motion and motion direction in the salamander retina",
+      "source": "J. Neurosci.",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kühn",
+              "givenNames": "NK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KühnNK"
+            },
+            {
+              "surname": "Gollisch",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GollischT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "36"
+        ],
+        "fpage": [
+          "12203"
+        ],
+        "lpage": [
+          "12216"
+        ]
+      },
+      "originalCitationText": "KühnNKGollischTJoint encoding of object motion and motion direction in the salamander retinaJ. Neurosci.201636122031221610.1523/JNEUROSCI.1971-16.201627903729PMC6601980",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1523/JNEUROSCI.1971-16.2016"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27903729"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6601980"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR40",
+      "position": 39,
+      "title": "A retinal circuit that computes object motion",
+      "source": "J. Neurosci.",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Baccus",
+              "givenNames": "SA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BaccusSA"
+            },
+            {
+              "surname": "Ölveczky",
+              "givenNames": "BP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ÖlveczkyBP"
+            },
+            {
+              "surname": "Manu",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ManuM"
+            },
+            {
+              "surname": "Meister",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeisterM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "28"
+        ],
+        "fpage": [
+          "6807"
+        ],
+        "lpage": [
+          "6817"
+        ]
+      },
+      "originalCitationText": "BaccusSAÖlveczkyBPManuMMeisterMA retinal circuit that computes object motionJ. Neurosci.2008286807681710.1523/JNEUROSCI.4206-07.200818596156PMC6670970",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1523/JNEUROSCI.4206-07.2008"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18596156"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6670970"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR41",
+      "position": 40,
+      "title": "Functional architecture of synapses in the inner retina: segregation of visual signals by stratification of bipolar cell axon terminals",
+      "source": "J. Neurosci.",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wu",
+              "givenNames": "SM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WuSM"
+            },
+            {
+              "surname": "Gao",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GaoF"
+            },
+            {
+              "surname": "Maple",
+              "givenNames": "BR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MapleBR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "20"
+        ],
+        "fpage": [
+          "4462"
+        ],
+        "lpage": [
+          "4470"
+        ]
+      },
+      "originalCitationText": "WuSMGaoFMapleBRFunctional architecture of synapses in the inner retina: segregation of visual signals by stratification of bipolar cell axon terminalsJ. Neurosci.200020446244701084401510.1523/JNEUROSCI.20-12-04462.2000PMC6772452",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "10844015"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1523/JNEUROSCI.20-12-04462.2000"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6772452"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR42",
+      "position": 41,
+      "title": "The projective field of retinal bipolar cells and its modulation by visual context",
+      "source": "Neuron",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Asari",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AsariH"
+            },
+            {
+              "surname": "Meister",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeisterM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "81"
+        ],
+        "fpage": [
+          "641"
+        ],
+        "lpage": [
+          "652"
+        ]
+      },
+      "originalCitationText": "AsariHMeisterMThe projective field of retinal bipolar cells and its modulation by visual contextNeuron20148164165210.1016/j.neuron.2013.11.02924507195",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.neuron.2013.11.029"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24507195"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR43",
+      "position": 42,
+      "title": "Connectomic reconstruction of the inner plexiform layer in the mouse retina",
+      "source": "Nature",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Helmstaedter",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HelmstaedterM"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "500"
+        ],
+        "fpage": [
+          "168"
+        ],
+        "lpage": [
+          "174"
+        ]
+      },
+      "originalCitationText": "HelmstaedterMConnectomic reconstruction of the inner plexiform layer in the mouse retinaNature201350016817410.1038/nature1234623925239",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature12346"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23925239"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR44",
+      "position": 43,
+      "title": "Using matrix and tensor factorizations for the single-trial analysis of population spike trains",
+      "source": "PLoS Comput. Biol.",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Onken",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OnkenA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "e1005189"
+        ]
+      },
+      "originalCitationText": "OnkenAUsing matrix and tensor factorizations for the single-trial analysis of population spike trainsPLoS Comput. Biol.201612e100518910.1371/journal.pcbi.100518927814363PMC5096699",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pcbi.1005189"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27814363"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5096699"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR45",
+      "position": 44,
+      "title": "Non-linearities and the representation of auditory spectra",
+      "source": "Int. Rev. Neurobiol.",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Young",
+              "givenNames": "ED",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YoungED"
+            },
+            {
+              "surname": "Yu",
+              "givenNames": "JJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YuJJ"
+            },
+            {
+              "surname": "Reiss",
+              "givenNames": "LA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ReissLA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "70"
+        ],
+        "fpage": [
+          "135"
+        ],
+        "lpage": [
+          "168"
+        ]
+      },
+      "originalCitationText": "YoungEDYuJJReissLANon-linearities and the representation of auditory spectraInt. Rev. Neurobiol.20057013516810.1016/S0074-7742(05)70005-216472634",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0074-7742(05)70005-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16472634"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR46",
+      "position": 45,
+      "title": "Receptive field microstructure and dendritic geometry of retinal ganglion cells",
+      "source": "Neuron.",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Brown",
+              "givenNames": "SP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BrownSP"
+            },
+            {
+              "surname": "He",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HeS"
+            },
+            {
+              "surname": "Masland",
+              "givenNames": "RH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaslandRH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "fpage": [
+          "371"
+        ],
+        "lpage": [
+          "383"
+        ]
+      },
+      "originalCitationText": "BrownSPHeSMaslandRHReceptive field microstructure and dendritic geometry of retinal ganglion cellsNeuron.20002737138310.1016/S0896-6273(00)00044-110985356",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0896-6273(00)00044-1"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10985356"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR46",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR47",
+      "position": 46,
+      "title": "Spatial scale and cellular substrate of contrast adaptation by retinal ganglion cells",
+      "source": "Nat. Neurosci.",
+      "year": "2001",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Brown",
+              "givenNames": "SP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BrownSP"
+            },
+            {
+              "surname": "Masland",
+              "givenNames": "RH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaslandRH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "44"
+        ],
+        "lpage": [
+          "51"
+        ]
+      },
+      "originalCitationText": "BrownSPMaslandRHSpatial scale and cellular substrate of contrast adaptation by retinal ganglion cellsNat. Neurosci.20014445110.1038/8288811135644",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/82888"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "11135644"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR47",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR48",
+      "position": 47,
+      "title": "Local and global contrast adaptation in retinal ganglion cells",
+      "source": "Neuron",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Garvert",
+              "givenNames": "MM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GarvertMM"
+            },
+            {
+              "surname": "Gollisch",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GollischT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "77"
+        ],
+        "fpage": [
+          "915"
+        ],
+        "lpage": [
+          "928"
+        ]
+      },
+      "originalCitationText": "GarvertMMGollischTLocal and global contrast adaptation in retinal ganglion cellsNeuron20137791592810.1016/j.neuron.2012.12.03023473321",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.neuron.2012.12.030"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23473321"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR48",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR49",
+      "position": 48,
+      "title": "Light-activated channels targeted to ON bipolar cells restore visual function in retinal degeneration",
+      "source": "Nat. Neurosci.",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lagali",
+              "givenNames": "PS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LagaliPS"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "667"
+        ],
+        "lpage": [
+          "675"
+        ]
+      },
+      "originalCitationText": "LagaliPSLight-activated channels targeted to ON bipolar cells restore visual function in retinal degenerationNat. Neurosci.20081166767510.1038/nn.211718432197",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nn.2117"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18432197"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR49",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR50",
+      "position": 49,
+      "title": "Restoring the ON switch in blind retinas: Opto-mGluR6, a next-generation, cell-tailored optogenetic tool",
+      "source": "PLoS Biol.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "van Wyk",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "van WykM"
+            },
+            {
+              "surname": "Pielecka-Fortuna",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Pielecka-FortunaJ"
+            },
+            {
+              "surname": "Löwel",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LöwelS"
+            },
+            {
+              "surname": "Kleinlogel",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KleinlogelS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "e1002143"
+        ]
+      },
+      "originalCitationText": "van WykMPielecka-FortunaJLöwelSKleinlogelSRestoring the ON switch in blind retinas: Opto-mGluR6, a next-generation, cell-tailored optogenetic toolPLoS Biol.201513e100214310.1371/journal.pbio.100214325950461PMC4423780",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pbio.1002143"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25950461"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4423780"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR50",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR51",
+      "position": 50,
+      "title": "Targeting channelrhodopsin-2 to ON-bipolar cells with vitreally administered AAV restores ON and OFF visual responses in blind mice",
+      "source": "Mol. Ther.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Mace",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaceE"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "fpage": [
+          "7"
+        ],
+        "lpage": [
+          "16"
+        ]
+      },
+      "originalCitationText": "MaceETargeting channelrhodopsin-2 to ON-bipolar cells with vitreally administered AAV restores ON and OFF visual responses in blind miceMol. Ther.20152371610.1038/mt.2014.15425095892PMC4270733",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/mt.2014.154"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25095892"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4270733"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR51",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR52",
+      "position": 51,
+      "title": "The functional diversity of retinal ganglion cells in the mouse",
+      "source": "Nature",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Baden",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BadenT"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "529"
+        ],
+        "fpage": [
+          "345"
+        ],
+        "lpage": [
+          "350"
+        ]
+      },
+      "originalCitationText": "BadenTThe functional diversity of retinal ganglion cells in the mouseNature201652934535010.1038/nature1646826735013PMC4724341",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature16468"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26735013"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4724341"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR52",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR53",
+      "position": 52,
+      "title": "Functional connectivity in the retina at the resolution of photoreceptors",
+      "source": "Nature",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Field",
+              "givenNames": "GD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FieldGD"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "467"
+        ],
+        "fpage": [
+          "673"
+        ],
+        "lpage": [
+          "677"
+        ]
+      },
+      "originalCitationText": "FieldGDFunctional connectivity in the retina at the resolution of photoreceptorsNature201046767367710.1038/nature0942420930838PMC2953734",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature09424"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20930838"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2953734"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR53",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR54",
+      "position": 53,
+      "title": "Space-time wiring specificity supports direction selectivity in the retina",
+      "source": "Nature",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kim",
+              "givenNames": "JS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KimJS"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "509"
+        ],
+        "fpage": [
+          "331"
+        ],
+        "lpage": [
+          "336"
+        ]
+      },
+      "originalCitationText": "KimJSSpace-time wiring specificity supports direction selectivity in the retinaNature201450933133610.1038/nature1324024805243PMC4074887",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature13240"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24805243"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4074887"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR54",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR55",
+      "position": 54,
+      "title": "Spike-triggered covariance analysis reveals phenomenological diversity of contrast adaptation in the retina",
+      "source": "PLoS Comput. Biol.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Liu",
+              "givenNames": "JK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiuJK"
+            },
+            {
+              "surname": "Gollisch",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GollischT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "e1004425"
+        ]
+      },
+      "originalCitationText": "LiuJKGollischTSpike-triggered covariance analysis reveals phenomenological diversity of contrast adaptation in the retinaPLoS Comput. Biol.201511e100442510.1371/journal.pcbi.100442526230927PMC4521887",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pcbi.1004425"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26230927"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4521887"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR55",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR56",
+      "position": 55,
+      "title": "Sensitivity to image recurrence across eye-movement-like image transitions through local serial inhibition in the retina",
+      "source": "Elife",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Krishnamoorthy",
+              "givenNames": "V",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KrishnamoorthyV"
+            },
+            {
+              "surname": "Weick",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeickM"
+            },
+            {
+              "surname": "Gollisch",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GollischT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "e22431"
+        ]
+      },
+      "originalCitationText": "KrishnamoorthyVWeickMGollischTSensitivity to image recurrence across eye-movement-like image transitions through local serial inhibition in the retinaElife20176e2243110.7554/eLife.2243128230526PMC5338922",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.7554/eLife.22431"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28230526"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5338922"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR56",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR57",
+      "position": 56,
+      "title": "Using noise signature to optimize spike-sorting and to assess neuronal classification quality",
+      "source": "J. Neurosci. Methods",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pouzat",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PouzatC"
+            },
+            {
+              "surname": "Mazor",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MazorO"
+            },
+            {
+              "surname": "Laurent",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LaurentG"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "122"
+        ],
+        "fpage": [
+          "43"
+        ],
+        "lpage": [
+          "57"
+        ]
+      },
+      "originalCitationText": "PouzatCMazorOLaurentGUsing noise signature to optimize spike-sorting and to assess neuronal classification qualityJ. Neurosci. Methods2002122435710.1016/S0165-0270(02)00276-512535763",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0165-0270(02)00276-5"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12535763"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR57",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR58",
+      "position": 57,
+      "title": "Step-by-step instructions for retina recordings with perforated multi electrode arrays",
+      "source": "PLoS ONE",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Reinhard",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ReinhardK"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "e106148"
+        ]
+      },
+      "originalCitationText": "ReinhardKStep-by-step instructions for retina recordings with perforated multi electrode arraysPLoS ONE20149e10614810.1371/journal.pone.010614825165854PMC4148441",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0106148"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25165854"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4148441"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR58",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR59",
+      "position": 58,
+      "title": "Divergence of visual channels in the inner retina",
+      "source": "Nat. Neurosci.",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Asari",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AsariH"
+            },
+            {
+              "surname": "Meister",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeisterM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "1581"
+        ],
+        "lpage": [
+          "1589"
+        ]
+      },
+      "originalCitationText": "AsariHMeisterMDivergence of visual channels in the inner retinaNat. Neurosci.2012151581158910.1038/nn.324123086336PMC3717330",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nn.3241"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23086336"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3717330"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR59",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR60",
+      "position": 59,
+      "title": "A biologically inspired algorithm for the recovery of shading and reflectance images",
+      "source": "Perception",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Olmos",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OlmosA"
+            },
+            {
+              "surname": "Kingdom",
+              "givenNames": "FA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KingdomFA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "33"
+        ],
+        "fpage": [
+          "1463"
+        ],
+        "lpage": [
+          "1473"
+        ]
+      },
+      "originalCitationText": "OlmosAKingdomFAA biologically inspired algorithm for the recovery of shading and reflectance imagesPerception2004331463147310.1068/p532115729913",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1068/p5321"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15729913"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR60",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR61",
+      "position": 60,
+      "title": "Receptive fields in primate retina are coordinated to sample visual space more uniformly",
+      "source": "PLoS Biol.",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gauthier",
+              "givenNames": "JL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GauthierJL"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "e1000063"
+        ]
+      },
+      "originalCitationText": "GauthierJLReceptive fields in primate retina are coordinated to sample visual space more uniformlyPLoS Biol.20097e100006310.1371/journal.pbio.100006319355787PMC2672597",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pbio.1000063"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19355787"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2672597"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR61",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR62",
+      "position": 61,
+      "title": "On spectral clustering: analysis and an algorithm",
+      "source": "Adv. Neural. Inf. Process. Syst.",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ng",
+              "givenNames": "AY",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NgAY"
+            },
+            {
+              "surname": "Jordan",
+              "givenNames": "MI",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JordanMI"
+            },
+            {
+              "surname": "Weiss",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeissY"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "849"
+        ],
+        "lpage": [
+          "856"
+        ]
+      },
+      "originalCitationText": "NgAYJordanMIWeissYOn spectral clustering: analysis and an algorithmAdv. Neural. Inf. Process. Syst.200214849856",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR62",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR63",
+      "position": 62,
+      "title": "A tutorial on spectral clustering",
+      "source": "Stat. Comput.",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "von Luxburg",
+              "givenNames": "U",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "von LuxburgU"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "fpage": [
+          "395"
+        ],
+        "lpage": [
+          "416"
+        ]
+      },
+      "originalCitationText": "von LuxburgUA tutorial on spectral clusteringStat. Comput.20071739541610.1007/s11222-007-9033-z",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s11222-007-9033-z"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR63",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR64",
+      "position": 63,
+      "title": "Mapping a complete neural population in the retina",
+      "source": "J. Neurosci.",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Marre",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MarreO"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "fpage": [
+          "14859"
+        ],
+        "lpage": [
+          "14873"
+        ]
+      },
+      "originalCitationText": "MarreOMapping a complete neural population in the retinaJ. Neurosci.201232148591487310.1523/JNEUROSCI.0723-12.201223100409PMC3664031",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1523/JNEUROSCI.0723-12.2012"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23100409"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3664031"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR64",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR65",
+      "position": 64,
+      "title": "Functional organization of ganglion cells in the salamander retina",
+      "source": "J. Neurophysiol.",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Segev",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SegevR"
+            },
+            {
+              "surname": "Puchalla",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PuchallaJ"
+            },
+            {
+              "surname": "Berry",
+              "givenNames": "MJ",
+              "prefix": null,
+              "suffix": "2nd",
+              "originalName": "BerryMJ2nd"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "95"
+        ],
+        "fpage": [
+          "2277"
+        ],
+        "lpage": [
+          "2292"
+        ]
+      },
+      "originalCitationText": "SegevRPuchallaJBerryMJ2ndFunctional organization of ganglion cells in the salamander retinaJ. Neurophysiol.2006952277229210.1152/jn.00928.200516306176",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1152/jn.00928.2005"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16306176"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR65",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR66",
+      "position": 65,
+      "title": "Sparse coding and NMF",
+      "source": "Proc. IEEE Int. Joint Conf. Neural Netw.",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Eggert",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EggertJ"
+            },
+            {
+              "surname": "Körner",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KörnerE"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "2529"
+        ],
+        "lpage": [
+          "2533"
+        ]
+      },
+      "originalCitationText": "EggertJKörnerESparse coding and NMFProc. IEEE Int. Joint Conf. Neural Netw.2004425292533",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR66",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR67",
+      "position": 66,
+      "title": "Sparse non-negative matrix factorization via alternating non-negativity-constrained least squares for microarray data analysis",
+      "source": "SIAM J. Matrix Anal. Appl.",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kim",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KimH"
+            },
+            {
+              "surname": "Park",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ParkH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "fpage": [
+          "1495"
+        ],
+        "lpage": [
+          "1502"
+        ]
+      },
+      "originalCitationText": "KimHParkHSparse non-negative matrix factorization via alternating non-negativity-constrained least squares for microarray data analysisSIAM J. Matrix Anal. Appl.2007231495150210.1093/bioinformatics/btm13417483501",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/btm134"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17483501"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR67",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR68",
+      "position": 67,
+      "title": "Non-negative matrix factorization based on alternating non-negativity constrained least squares and active set method",
+      "source": "SIAM J. Matrix Anal. Appl.",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kim",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KimH"
+            },
+            {
+              "surname": "Park",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ParkH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "713"
+        ],
+        "lpage": [
+          "730"
+        ]
+      },
+      "originalCitationText": "KimHParkHNon-negative matrix factorization based on alternating non-negativity constrained least squares and active set methodSIAM J. Matrix Anal. Appl.20083071373010.1137/07069239X",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1137/07069239X"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR68",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR69",
+      "position": 68,
+      "title": "Fast algorithm for the solution of large-scale non-negativity-constrained least squares problems",
+      "source": "J. Chemometr.",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Van Benthem",
+              "givenNames": "MH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Van BenthemMH"
+            },
+            {
+              "surname": "Keenan",
+              "givenNames": "MR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KeenanMR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "441"
+        ],
+        "lpage": [
+          "450"
+        ]
+      },
+      "originalCitationText": "Van BenthemMHKeenanMRFast algorithm for the solution of large-scale non-negativity-constrained least squares problemsJ. Chemometr.20041844145010.1002/cem.889",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/cem.889"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR69",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR70",
+      "position": 69,
+      "title": "The non-negative matrix factorization toolbox for biological data mining",
+      "source": "Source Code Biol. Med.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Li",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiY"
+            },
+            {
+              "surname": "Ngom",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NgomA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "10"
+        ]
+      },
+      "originalCitationText": "LiYNgomAThe non-negative matrix factorization toolbox for biological data miningSource Code Biol. Med.201381010.1186/1751-0473-8-1023591137PMC3736608",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/1751-0473-8-10"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23591137"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3736608"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC5529558/article.xml",
+        "articleSha256": "7daed8ecae53a740299662f392baa08114f84531d14a74844589e1829a174c2e",
+        "referenceId": "CR70",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Nature Communications"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Nat Commun"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Nat Commun"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "2873"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "ncomms"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101528555"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2041-1723"
+      }
+    ],
+    "publisherNames": [
+      "Nature Publishing Group"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "8"
+    ],
+    "elocation-id": [
+      "149"
+    ]
+  }
+}

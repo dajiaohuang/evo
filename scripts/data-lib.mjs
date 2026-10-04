@@ -1,11 +1,12 @@
 import { createHash } from 'node:crypto'
-import { readFileSync, readdirSync, statSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { gunzipSync, brotliDecompressSync } from 'node:zlib'
 
 export const rootDir = process.cwd()
 
 export function readJson(path) {
+  if (path === 'data/knowledge/catalogue-profiles.json' && existsSync(join(rootDir, `${path}.gz`))) path += '.gz'
   const bytes = readFileSync(join(rootDir, path))
   const source = path.endsWith('.gz') ? gunzipSync(bytes) : path.endsWith('.br') ? brotliDecompressSync(bytes) : bytes
   return JSON.parse(source.toString('utf8'))
@@ -20,7 +21,7 @@ function manifestFilesBelow(directory) {
       const relativePath = `${directory}/${name}`.replaceAll('\\', '/')
       return statSync(absolutePath).isDirectory()
         ? manifestFilesBelow(relativePath)
-        : (name.endsWith('.json')
+        : (name.endsWith('.json') || relativePath === 'data/knowledge/catalogue-profiles.json.gz'
           || (directory === 'data/sources' && (name.endsWith('.json.gz') || name.endsWith('.json.br')))
       || (relativePath.includes('/nomenclature/') && name.endsWith('.json.gz'))
       || (relativePath.includes('/paleotopography/') && name.endsWith('.gz')))

@@ -1,0 +1,2920 @@
+{
+  "pmcid": "PMC10628131",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+  "sha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+  "articleType": "data-paper",
+  "title": "A dataset for benchmarking Neotropical anuran calls identification in passive acoustic monitoring",
+  "authors": [
+    {
+      "name": "Juan Sebastián Cañas",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Juan Sebastián",
+        "surname": "Cañas",
+        "suffix": null
+      },
+      "originalName": "CañasJuan Sebastián",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0003-0365-5005"
+        }
+      ]
+    },
+    {
+      "name": "María Paula Toro-Gómez",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "María Paula",
+        "surname": "Toro-Gómez",
+        "suffix": null
+      },
+      "originalName": "Toro-GómezMaría Paula",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0001-8875-6619"
+        }
+      ]
+    },
+    {
+      "name": "Larissa Sayuri Moreira Sugai",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Larissa Sayuri Moreira",
+        "surname": "Sugai",
+        "suffix": null
+      },
+      "originalName": "SugaiLarissa Sayuri Moreira",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Hernán Darío Benítez Restrepo",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Hernán Darío",
+        "surname": "Benítez Restrepo",
+        "suffix": null
+      },
+      "originalName": "Benítez RestrepoHernán Darío",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Jorge Rudas",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Jorge",
+        "surname": "Rudas",
+        "suffix": null
+      },
+      "originalName": "RudasJorge",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Breyner Posso Bautista",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Breyner",
+        "surname": "Posso Bautista",
+        "suffix": null
+      },
+      "originalName": "Posso BautistaBreyner",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Luís Felipe Toledo",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Luís Felipe",
+        "surname": "Toledo",
+        "suffix": null
+      },
+      "originalName": "ToledoLuís Felipe",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-4929-9598"
+        }
+      ]
+    },
+    {
+      "name": "Simone Dena",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Simone",
+        "surname": "Dena",
+        "suffix": null
+      },
+      "originalName": "DenaSimone",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Adão Henrique Rosa Domingos",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Adão Henrique Rosa",
+        "surname": "Domingos",
+        "suffix": null
+      },
+      "originalName": "DomingosAdão Henrique Rosa",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Franco Leandro de Souza",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Franco Leandro",
+        "surname": "de Souza",
+        "suffix": null
+      },
+      "originalName": "de SouzaFranco Leandro",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Selvino Neckel-Oliveira",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Selvino",
+        "surname": "Neckel-Oliveira",
+        "suffix": null
+      },
+      "originalName": "Neckel-OliveiraSelvino",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Anderson da Rosa",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Anderson",
+        "surname": "da Rosa",
+        "suffix": null
+      },
+      "originalName": "da RosaAnderson",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Vítor Carvalho-Rocha",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Vítor",
+        "surname": "Carvalho-Rocha",
+        "suffix": null
+      },
+      "originalName": "Carvalho-RochaVítor",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "http://orcid.org/0000-0002-4747-1219"
+        }
+      ]
+    },
+    {
+      "name": "José Vinícius Bernardy",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "José Vinícius",
+        "surname": "Bernardy",
+        "suffix": null
+      },
+      "originalName": "BernardyJosé Vinícius",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "José Luiz Massao Moreira Sugai",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "José Luiz Massao Moreira",
+        "surname": "Sugai",
+        "suffix": null
+      },
+      "originalName": "SugaiJosé Luiz Massao Moreira",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Carolina Emília dos Santos",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Carolina Emília",
+        "surname": "dos Santos",
+        "suffix": null
+      },
+      "originalName": "dos SantosCarolina Emília",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Rogério Pereira Bastos",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Rogério Pereira",
+        "surname": "Bastos",
+        "suffix": null
+      },
+      "originalName": "BastosRogério Pereira",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Diego Llusia",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Diego",
+        "surname": "Llusia",
+        "suffix": null
+      },
+      "originalName": "LlusiaDiego",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Juan Sebastián Ulloa",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Juan Sebastián",
+        "surname": "Ulloa",
+        "suffix": null
+      },
+      "originalName": "UlloaJuan Sebastián",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC10628131"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC10628131.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "10628131"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "10628131"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "37932332"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1038/s41597-023-02666-2"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "2666"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2023",
+      "month": "11",
+      "day": "6"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2023",
+      "month": null,
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "MOESM1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "41597_2023_2666_MOESM1_ESM.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "41597_2023_2666_MOESM1_ESM.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "CR1",
+      "position": 0,
+      "title": "Improving the forecast for biodiversity under climate change",
+      "source": "Science",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Urban",
+              "givenNames": "MC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "UrbanMC"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "353"
+        ],
+        "fpage": [
+          "aad8466"
+        ]
+      },
+      "originalCitationText": "UrbanMCImproving the forecast for biodiversity under climate changeScience2016353aad846610.1126/science.aad846627609898",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.aad8466"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27609898"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR2",
+      "position": 1,
+      "title": "Terrestrial passive acoustic monitoring: review and perspectives",
+      "source": "BioScience",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sugai",
+              "givenNames": "LSM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SugaiLSM"
+            },
+            {
+              "surname": "Silva",
+              "givenNames": "TSF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SilvaTSF"
+            },
+            {
+              "surname": "Ribeiro",
+              "givenNames": "JW",
+              "prefix": null,
+              "suffix": "Jr",
+              "originalName": "RibeiroJWJr"
+            },
+            {
+              "surname": "Llusia",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LlusiaD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "69"
+        ],
+        "fpage": [
+          "15"
+        ],
+        "lpage": [
+          "25"
+        ]
+      },
+      "originalCitationText": "SugaiLSMSilvaTSFRibeiroJWJrLlusiaDTerrestrial passive acoustic monitoring: review and perspectivesBioScience201969152510.1093/biosci/biy147",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/biosci/biy147"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR3",
+      "position": 2,
+      "title": "Emerging opportunities and challenges for passive acoustics in ecological assessment and monitoring",
+      "source": "Methods Ecol. Evol.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gibb",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GibbR"
+            },
+            {
+              "surname": "Browning",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BrowningE"
+            },
+            {
+              "surname": "Glover-Kapfer",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Glover-KapferP"
+            },
+            {
+              "surname": "Jones",
+              "givenNames": "KE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JonesKE"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "169"
+        ],
+        "lpage": [
+          "185"
+        ]
+      },
+      "originalCitationText": "GibbRBrowningEGlover-KapferPJonesKEEmerging opportunities and challenges for passive acoustics in ecological assessment and monitoringMethods Ecol. Evol.20191016918510.1111/2041-210X.13101",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/2041-210X.13101"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR4",
+      "position": 3,
+      "title": "Scaling Biodiversity Monitoring for the Data Age",
+      "source": "XRDS Crossroads ACM Mag. Stud.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Beery",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BeeryS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "fpage": [
+          "14"
+        ],
+        "lpage": [
+          "18"
+        ]
+      },
+      "originalCitationText": "BeerySScaling Biodiversity Monitoring for the Data AgeXRDS Crossroads ACM Mag. Stud.202127141810.1145/3466857",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1145/3466857"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR5",
+      "position": 4,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hardt, M. & Recht, B. Patterns, predictions, and actions: Foundations of machine learning. (Princeton University Press, 2022).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR6",
+      "position": 5,
+      "title": "Tackling climate change with machine learning",
+      "source": "ACM Comput. Surv.",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Rolnick",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RolnickD"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "55"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "96"
+        ]
+      },
+      "originalCitationText": "RolnickDTackling climate change with machine learningACM Comput. Surv.20225519610.1145/3485128",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1145/3485128"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR7",
+      "position": 6,
+      "title": "Perspectives in machine learning for wildlife conservation",
+      "source": "Nat. Commun.",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tuia",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TuiaD"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "792"
+        ]
+      },
+      "originalCitationText": "TuiaDPerspectives in machine learning for wildlife conservationNat. Commun.20221379210.1038/s41467-022-27980-y35140206PMC8828720",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41467-022-27980-y"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35140206"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8828720"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR8",
+      "position": 7,
+      "title": "Automated detection of Hainan gibbon calls for passive acoustic monitoring",
+      "source": "Remote Sens. Ecol. Conserv.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dufourq",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DufourqE"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "475"
+        ],
+        "lpage": [
+          "487"
+        ]
+      },
+      "originalCitationText": "DufourqEAutomated detection of Hainan gibbon calls for passive acoustic monitoringRemote Sens. Ecol. Conserv.2021747548710.1002/rse2.201",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/rse2.201"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR9",
+      "position": 8,
+      "title": "Bugs in the Data: How ImageNet Misrepresents Biodiversity",
+      "source": "Proc. AAAI Conference on Artificial Intelligence.",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Luccioni",
+              "givenNames": "AS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuccioniAS"
+            },
+            {
+              "surname": "Rolnick",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RolnickD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "37"
+        ],
+        "fpage": [
+          "14382"
+        ],
+        "lpage": [
+          "14390"
+        ]
+      },
+      "originalCitationText": "LuccioniASRolnickDBugs in the Data: How ImageNet Misrepresents BiodiversityProc. AAAI Conference on Artificial Intelligence.202337143821439010.1609/aaai.v37i12.26682",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1609/aaai.v37i12.26682"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR10",
+      "position": 9,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Van Horn, G. et al. Exploring Fine-Grained Audiovisual Categorization with the SSW60 Dataset. in Proc. ECCV European Conference on Computer Vision. 271–289, 10.1007/978-3-031-20074-8_16 (2022).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR11",
+      "position": 10,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Van Horn, G. et al. The inaturalist species classification and detection dataset. in Proc. IEEE conference on computer vision and pattern recognition. 8769–8778, 10.1109/CVPR.2018.00914 (2018).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR12",
+      "position": 11,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Beery, S. et al. The Auto Arborist Dataset: A Large-Scale Benchmark for Multiview Urban Forest Monitoring Under Domain Shift. Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition. 21294–21307, 10.1109/CVPR52688.2022.02061 (2022).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR13",
+      "position": 12,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kay, J. et al. The Caltech Fish Counting Dataset: A Benchmark for Multiple-Object Tracking and Counting. in Proc. ECCV European Conference on Computer Vision. 290–311, 10.1007/978-3-031-20074-8_17 (2022).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR14",
+      "position": 13,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Beery, S., Van Horn, G. & Perona, P. Recognition in terra incognita. in Proc. ECCV European conference on computer vision. 456–473, 10.1007/978-3-030-01270-0_28 (2018).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR15",
+      "position": 14,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Lostanlen, V., Salamon, J., Farnsworth, A., Kelling, S. & Bello, J. P. Birdvox-full-night: A dataset and benchmark for avian flight call detection. in Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 266–270, 10.1109/ICASSP.2018.8461410 (2018).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR16",
+      "position": 15,
+      "title": "An annotated set of audio recordings of Eastern North American birds containing frequency, time, and species information",
+      "source": "Ecology.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chronister",
+              "givenNames": "LM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChronisterLM"
+            },
+            {
+              "surname": "Rhinehart",
+              "givenNames": "TA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RhinehartTA"
+            },
+            {
+              "surname": "Place",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PlaceA"
+            },
+            {
+              "surname": "Kitzes",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KitzesJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "102"
+        ],
+        "fpage": [
+          "e03329"
+        ]
+      },
+      "originalCitationText": "ChronisterLMRhinehartTAPlaceAKitzesJAn annotated set of audio recordings of Eastern North American birds containing frequency, time, and species informationEcology.2021102e0332910.1002/ecy.332933705568",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/ecy.3329"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33705568"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR17",
+      "position": 16,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Kiskin, I. et al. HumBugDB: a large-scale acoustic mosquito dataset. in Conference on Neural Information Processing Systems 35th(NeurIPS) Track on Datasets and Benchmarks. 10.48550/arXiv.2110.07607 (2021).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR18",
+      "position": 17,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Aodha, O. M. et al. Towards a General Approach for Bat Echolocation Detection and Classification. Preprint at bioRxiv, 10.1101/2022.12.14.520490 (2022).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR19",
+      "position": 18,
+      "title": "An annotated dataset of Egyptian fruit bat vocalizations across varying contexts and during vocal ontogeny",
+      "source": "Sci. Data.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Prat",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PratY"
+            },
+            {
+              "surname": "Taub",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TaubM"
+            },
+            {
+              "surname": "Pratt",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PrattE"
+            },
+            {
+              "surname": "Yovel",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YovelY"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "170143"
+        ]
+      },
+      "originalCitationText": "PratYTaubMPrattEYovelYAn annotated dataset of Egyptian fruit bat vocalizations across varying contexts and during vocal ontogenySci. Data.2017417014310.1038/sdata.2017.14328972574PMC5625625",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/sdata.2017.143"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28972574"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5625625"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR20",
+      "position": 19,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hagiwara, M. et al. BEANS: The Benchmark of Animal Sounds. Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 1–5, 10.1109/ICASSP49357.2023.10096686 (2022).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR21",
+      "position": 20,
+      "title": "A deafening silence: a lack of data and reproducibility in published bioacoustics research? Biodivers",
+      "source": "Data J.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Baker",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BakerE"
+            },
+            {
+              "surname": "Vincent",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VincentS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "e36783"
+        ]
+      },
+      "originalCitationText": "BakerEVincentSA deafening silence: a lack of data and reproducibility in published bioacoustics research? BiodiversData J.20197e3678310.3897/BDJ.7.e36783PMC683472631723333",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.3897/BDJ.7.e36783"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6834726"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31723333"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR22",
+      "position": 21,
+      "title": "Passive acoustic monitoring provides a fresh perspective on fundamental ecological questions",
+      "source": "Funct. Ecol.",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ross",
+              "givenNames": "SR-J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RossSR-J"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "37"
+        ],
+        "fpage": [
+          "959"
+        ],
+        "lpage": [
+          "975"
+        ]
+      },
+      "originalCitationText": "RossSR-JPassive acoustic monitoring provides a fresh perspective on fundamental ecological questionsFunct. Ecol.20233795997510.1111/1365-2435.14275",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/1365-2435.14275"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR23",
+      "position": 22,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "August, T. et al. Realising the potential for acoustic monitoring to address environmental policy needs. JNCC Rep. N° 707 (2022).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR24",
+      "position": 23,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Stuart S.N. et al. Threatened amphibians of the world (Lynx Edicions, 2008).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR25",
+      "position": 24,
+      "title": "Large-scale phylogenetic analyses reveal the causes of high tropical amphibian diversity",
+      "source": "Proc. R. Soc. B Biol. Sci.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pyron",
+              "givenNames": "RA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PyronRA"
+            },
+            {
+              "surname": "Wiens",
+              "givenNames": "JJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WiensJJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "280"
+        ],
+        "fpage": [
+          "20131622"
+        ]
+      },
+      "originalCitationText": "PyronRAWiensJJLarge-scale phylogenetic analyses reveal the causes of high tropical amphibian diversityProc. R. Soc. B Biol. Sci.20132802013162210.1098/rspb.2013.1622PMC377932824026818",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1098/rspb.2013.1622"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3779328"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24026818"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR26",
+      "position": 25,
+      "title": "Can amphibians take the heat? Vulnerability to climate warming in subtropical and temperate larval amphibian communities",
+      "source": "Glob. Change Biol.",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Duarte",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DuarteH"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "412"
+        ],
+        "lpage": [
+          "421"
+        ]
+      },
+      "originalCitationText": "DuarteHCan amphibians take the heat? Vulnerability to climate warming in subtropical and temperate larval amphibian communitiesGlob. Change Biol.20121841242110.1111/j.1365-2486.2011.02518.x",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1365-2486.2011.02518.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR27",
+      "position": 26,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Narins, P. M. & Feng, A. S. Hearing and sound communication in amphibians: prologue and prognostication. (Springer, 2006).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR28",
+      "position": 27,
+      "title": "The use of bioacoustics in anuran taxonomy: theory, terminology, methods and recommendations for best practice",
+      "source": "Zootaxa.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Köhler",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KöhlerJ"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "4251"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "124"
+        ]
+      },
+      "originalCitationText": "KöhlerJThe use of bioacoustics in anuran taxonomy: theory, terminology, methods and recommendations for best practiceZootaxa.20174251112410.11646/zootaxa.4251.1.128609991",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.11646/zootaxa.4251.1.1"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28609991"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR29",
+      "position": 28,
+      "title": "A roadmap for survey designs in terrestrial acoustic monitoring",
+      "source": "Remote Sens Ecol Conserv",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sugai",
+              "givenNames": "LSM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SugaiLSM"
+            },
+            {
+              "surname": "Desjonquères",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DesjonquèresC"
+            },
+            {
+              "surname": "Silva",
+              "givenNames": "TSF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SilvaTSF"
+            },
+            {
+              "surname": "Llusia",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LlusiaD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "220"
+        ],
+        "lpage": [
+          "235"
+        ]
+      },
+      "originalCitationText": "SugaiLSMDesjonquèresCSilvaTSFLlusiaDA roadmap for survey designs in terrestrial acoustic monitoringRemote Sens Ecol Conserv2020622023510.1002/rse2.131",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/rse2.131"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR30",
+      "position": 29,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hershey, S. et al. The Benefit of Temporally-Strong Labels in Audio Event Classification. in Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 366–370, 10.1109/ICASSP39728.2021.9414579 (2021).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR31",
+      "position": 30,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Mossman, M. J. & Weir, L. A. North American amphibian monitoring program (NAAMP). in Amphibian declines. 307–313, (University of California Press, 2005).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR32",
+      "position": 31,
+      "title": "Identifying birds by sound: large-scale acoustic event recognition for avian activity monitoring",
+      "source": "Wissenschaftliche Schriftenreihe Dissertationen der Medieninformatik Chemnitz University of Technology.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kahl",
+              "givenNames": "MSS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KahlMSS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "2195"
+        ],
+        "lpage": [
+          "2574"
+        ]
+      },
+      "originalCitationText": "KahlMSSIdentifying birds by sound: large-scale acoustic event recognition for avian activity monitoringWissenschaftliche Schriftenreihe Dissertationen der Medieninformatik Chemnitz University of Technology.20191021952574",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR33",
+      "position": 32,
+      "title": "scikit-maad: An open-source and modular toolbox for quantitative soundscape analysis in Python",
+      "source": "Methods Ecol. Evol.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ulloa",
+              "givenNames": "JS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "UlloaJS"
+            },
+            {
+              "surname": "Haupert",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaupertS"
+            },
+            {
+              "surname": "Latorre",
+              "givenNames": "JF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LatorreJF"
+            },
+            {
+              "surname": "Aubin",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AubinT"
+            },
+            {
+              "surname": "Sueur",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SueurJ"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "2334"
+        ],
+        "lpage": [
+          "2340"
+        ]
+      },
+      "originalCitationText": "UlloaJSHaupertSLatorreJFAubinTSueurJscikit-maad: An open-source and modular toolbox for quantitative soundscape analysis in PythonMethods Ecol. Evol.2021122334234010.1111/2041-210X.13711",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/2041-210X.13711"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR34",
+      "position": 33,
+      "title": "A Network Perspective on Stratification of Multi-Label Data",
+      "source": "Proc. PMLR Machine learning Research.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Szymański",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SzymańskiP"
+            },
+            {
+              "surname": "Kajdanowicz",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KajdanowiczT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "74"
+        ],
+        "fpage": [
+          "22"
+        ],
+        "lpage": [
+          "35"
+        ]
+      },
+      "originalCitationText": "SzymańskiPKajdanowiczTA Network Perspective on Stratification of Multi-Label DataProc. PMLR Machine learning Research.2017742235",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR35",
+      "position": 34,
+      "title": "On the Stratification of Multi-label Data",
+      "source": "Machine Learning and Knowledge Discovery in Databases ECML.",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sechidis",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SechidisK"
+            },
+            {
+              "surname": "Tsoumakas",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TsoumakasG"
+            },
+            {
+              "surname": "Vlahavas",
+              "givenNames": "I",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VlahavasI"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "6913"
+        ],
+        "fpage": [
+          "145"
+        ],
+        "lpage": [
+          "158"
+        ]
+      },
+      "originalCitationText": "SechidisKTsoumakasGVlahavasIOn the Stratification of Multi-label DataMachine Learning and Knowledge Discovery in Databases ECML.2011691314515810.1007/978-3-642-23808-6_10",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/978-3-642-23808-6_10"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR36",
+      "position": 35,
+      "title": null,
+      "source": "Zenodo",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "data"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "CañasJS2023AnuraSet: A dataset for benchmarking neotropical anuran calls identification in passive acoustic monitoringZenodo10.5281/zenodo.8342596PMC1062813137932332",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.5281/zenodo.8342596"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10628131"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "37932332"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR37",
+      "position": 36,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Frost, D. R. Amphibian Species of the World: an Online Reference. Version 6.2. https://amphibiansoftheworld.amnh.org/index.php, 10.5531/db.vz.0001 (2023).",
+      "identifiers": [],
+      "externalLinks": [
+        "https://amphibiansoftheworld.amnh.org/index.php"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR38",
+      "position": 37,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Park, D. S. et al. Specaugment: A simple data augmentation method for automatic speech recognition. Proc. Interspeech 2613–2617, 10.21437/Interspeech.2019-2680 (2019).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR39",
+      "position": 38,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Targ, S., Almeida, D. & Lyman, K. Resnet in resnet: Generalizing residual architectures. Preprint at ArXiv, 10.48550/arXiv.1603.08029 (2016).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR40",
+      "position": 39,
+      "title": "Pytorch: An imperative style, high-performance deep learning library",
+      "source": "Adv. Neural Inf. Process. Syst.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Paszke",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PaszkeA"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "fpage": [
+          "8024"
+        ],
+        "lpage": [
+          "8035"
+        ]
+      },
+      "originalCitationText": "PaszkeAPytorch: An imperative style, high-performance deep learning libraryAdv. Neural Inf. Process. Syst.20193280248035",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR41",
+      "position": 40,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Yang, Y. Y. et al. Torchaudio: Building blocks for audio and speech processing. in Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 6982–6986, 10.1109/ICASSP43922.2022.9747236 (2022).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR42",
+      "position": 41,
+      "title": "Computational bioacoustics with deep learning: a review and roadmap",
+      "source": "PeerJ.",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Stowell",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StowellD"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "e13152"
+        ]
+      },
+      "originalCitationText": "StowellDComputational bioacoustics with deep learning: a review and roadmapPeerJ.202210e1315210.7717/peerj.1315235341043PMC8944344",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.7717/peerj.13152"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35341043"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8944344"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR43",
+      "position": 42,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Van Horn, G. & Perona, P. The devil is in the tails: Fine-grained classification in the wild. Preprint at ArXiv, 10.48550/arXiv.1709.01450 (2017).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR44",
+      "position": 43,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Menon, A. K. et al. Long-tail learning via logit adjustment. in Proc. ICLR International Conference on Learning Representations. 10.48550/arXiv.2007.07314 (2021).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR45",
+      "position": 44,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cui, Y., Jia, M., Lin, T. Y., Song, Y. & Belongie, S. Class-Balanced Loss Based on Effective Number of Samples. in Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 9260–9269, 10.1109/CVPR.2019.00949 (2019).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR46",
+      "position": 45,
+      "title": "Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss. in",
+      "source": "Adv. Neural Inf. Process. Syst.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Cao",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CaoK"
+            },
+            {
+              "surname": "Wei",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeiC"
+            },
+            {
+              "surname": "Gaidon",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GaidonA"
+            },
+            {
+              "surname": "Arechiga",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ArechigaN"
+            },
+            {
+              "surname": "Ma",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "fpage": [
+          "1567"
+        ],
+        "lpage": [
+          "1578"
+        ]
+      },
+      "originalCitationText": "CaoKWeiCGaidonAArechigaNMaTLearning Imbalanced Datasets with Label-Distribution-Aware Margin Loss. inAdv. Neural Inf. Process. Syst.20193215671578",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR46",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR47",
+      "position": 46,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Nolasco, I. et al. Learning to detect an animal sound from five examples. Ecological Informatics. 77, 102258, 10.1016/j.ecoinf.2023.102258 (2023).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR47",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR48",
+      "position": 47,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Wang, Y., Bryan, N. J., Cartwright, M., Pablo Bello, J. & Salamon, J. Few-Shot Continual Learning for Audio Classification. in Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 321–325, 10.1109/ICASSP39728.2021.9413584 (2021).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR48",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR49",
+      "position": 48,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Hagiwara, M. AVES: Animal Vocalization Encoder based on Self-Supervision. in Proc. International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 1–5, 10.1109/ICASSP49357.2023.10095642 (2022).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR49",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR50",
+      "position": 49,
+      "title": "Polyphonic training set synthesis improves self-supervised urban sound classification",
+      "source": "J. Acoust. Soc. Am.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gontier",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GontierF"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "149"
+        ],
+        "fpage": [
+          "4309"
+        ],
+        "lpage": [
+          "4326"
+        ]
+      },
+      "originalCitationText": "GontierFPolyphonic training set synthesis improves self-supervised urban sound classificationJ. Acoust. Soc. Am.20211494309432610.1121/10.000527734241459",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1121/10.0005277"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34241459"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR50",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR51",
+      "position": 50,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Papadopoulos, D. P., Uijlings, J. R. R., Keller, F. & Ferrari, V. We Don′t Need No Bounding-Boxes: Training Object Class Detectors Using Only Human Verification. in Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 854–863, 10.1109/CVPR.2016.99 (2016).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR51",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR52",
+      "position": 51,
+      "title": "Unsupervised classification to improve the quality of a bird song recording dataset",
+      "source": "Ecol. Inform.",
+      "year": "2023",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Michaud",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MichaudF"
+            },
+            {
+              "surname": "Sueur",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SueurJ"
+            },
+            {
+              "surname": "Le Cesne",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Le CesneM"
+            },
+            {
+              "surname": "Haupert",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaupertS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "74"
+        ],
+        "fpage": [
+          "101952"
+        ]
+      },
+      "originalCitationText": "MichaudFSueurJLe CesneMHaupertSUnsupervised classification to improve the quality of a bird song recording datasetEcol. Inform.20237410195210.1016/j.ecoinf.2022.101952",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ecoinf.2022.101952"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR52",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR53",
+      "position": 52,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Deng, J. et al. ImageNet: A large-scale hierarchical image database. in Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 248–255, 10.1109/CVPR.2009.5206848 (2009).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR53",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR54",
+      "position": 53,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Cui, Y., Song, Y., Sun, C., Howard, A. & Belongie, S. Large Scale Fine-Grained Categorization and Domain-Specific Transfer Learning. in Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 4109–4118, 10.1109/CVPR.2018.00432 (2018).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR54",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR55",
+      "position": 54,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Yang, Z. et al. Learning to navigate for fine-grained classification. in Proc. ECCV European Conference on Computer Vision. 420–435, 10.1007/978-3-030-01264-9_26 (2018).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR55",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR56",
+      "position": 55,
+      "title": "BioCPPNet: automatic bioacoustic source separation with deep neural networks",
+      "source": "Sci. Rep.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bermant",
+              "givenNames": "PC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BermantPC"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "23502"
+        ]
+      },
+      "originalCitationText": "BermantPCBioCPPNet: automatic bioacoustic source separation with deep neural networksSci. Rep.2021112350210.1038/s41598-021-02790-234873197PMC8648737",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41598-021-02790-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34873197"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8648737"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR56",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR57",
+      "position": 56,
+      "title": null,
+      "source": null,
+      "year": null,
+      "citationAttributes": {
+        "publication-type": "other"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "Denton, T., Wisdom, S. & Hershey, J. R. Improving bird classification with unsupervised sound separation. in Proc. IEEE International Conference on Acoustics, Speech and Signal Processing. 636–640, 10.1109/ICASSP43922.2022.9747202 (2022).",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR57",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "CR58",
+      "position": 57,
+      "title": "Unsupervised Sound Separation Using Mixture Invariant Training",
+      "source": "Adv. Neural Inf. Process. Syst.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wisdom",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WisdomS"
+            },
+            {
+              "kind": "etal",
+              "originalName": ""
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "33"
+        ],
+        "fpage": [
+          "3846"
+        ],
+        "lpage": [
+          "3857"
+        ]
+      },
+      "originalCitationText": "WisdomSUnsupervised Sound Separation Using Mixture Invariant TrainingAdv. Neural Inf. Process. Syst.20203338463857",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC10628131/article.xml",
+        "articleSha256": "62cedfa16ccbb54bce9401fd87e78a2b078d9b0d4ffeedda2a1ef9ddf111f3da",
+        "referenceId": "CR58",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Scientific Data"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Sci Data"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Sci Data"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "2628"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "sdata"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101640192"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2052-4463"
+      }
+    ],
+    "publisherNames": [
+      "Nature Publishing Group"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "10"
+    ],
+    "elocation-id": [
+      "771"
+    ]
+  }
+}

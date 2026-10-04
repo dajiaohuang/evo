@@ -1,0 +1,4588 @@
+{
+  "pmcid": "PMC8565328",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+  "sha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+  "articleType": "research-article",
+  "title": "SpecHap: a diploid phasing algorithm based on spectral graph theory",
+  "authors": [
+    {
+      "name": "Yonghan YU",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Yonghan",
+        "surname": "YU",
+        "suffix": null
+      },
+      "originalName": "YUYonghan",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0001-6359-6823"
+        }
+      ]
+    },
+    {
+      "name": "Lingxi Chen",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Lingxi",
+        "surname": "Chen",
+        "suffix": null
+      },
+      "originalName": "ChenLingxi",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0002-5229-7470"
+        }
+      ]
+    },
+    {
+      "name": "Xinyao Miao",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Xinyao",
+        "surname": "Miao",
+        "suffix": null
+      },
+      "originalName": "MiaoXinyao",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Shuai Cheng Li",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Shuai Cheng",
+        "surname": "Li",
+        "suffix": null
+      },
+      "originalName": "LiShuai Cheng",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": [
+        {
+          "contrib-id-type": "orcid",
+          "authenticated": "false",
+          "value": "https://orcid.org/0000-0001-6246-6349"
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC8565328"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC8565328.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "8565328"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "8565328"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "34403470"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1093/nar/gkab709"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "gkab709"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "collection",
+      "year": "2021",
+      "month": "11",
+      "day": "08"
+    },
+    {
+      "pub-type": "epub",
+      "iso-8601-date": "2021-08-17",
+      "year": "2021",
+      "month": "8",
+      "day": "17"
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by-nc/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "sup1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "gkab709_supplemental_files.zip",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "gkab709_supplemental_files.zip",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "B1",
+      "position": 0,
+      "title": "Haplotyping germline and cancer genomes with high-throughput linked-read sequencing",
+      "source": "Nat. Biotechnol.",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zheng",
+              "givenNames": "G.X.Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Zheng\nG.X.Y."
+            },
+            {
+              "surname": "Lau",
+              "givenNames": "B.T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LauB.T."
+            },
+            {
+              "surname": "Schnall-Levin",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Schnall-LevinM."
+            },
+            {
+              "surname": "Jarosz",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JaroszM."
+            },
+            {
+              "surname": "Bell",
+              "givenNames": "J.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BellJ.M."
+            },
+            {
+              "surname": "Hindson",
+              "givenNames": "C.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HindsonC.M."
+            },
+            {
+              "surname": "Kyriazopoulou-Panagiotopoulou",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Kyriazopoulou-PanagiotopoulouS."
+            },
+            {
+              "surname": "Masquelier",
+              "givenNames": "D.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MasquelierD.A."
+            },
+            {
+              "surname": "Merrill",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MerrillL."
+            },
+            {
+              "surname": "Terry",
+              "givenNames": "J.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TerryJ.M."
+            },
+            {
+              "kind": "etal",
+              "originalName": "et al"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "fpage": [
+          "303"
+        ],
+        "lpage": [
+          "311"
+        ]
+      },
+      "originalCitationText": "Zheng\nG.X.Y.\n, LauB.T., Schnall-LevinM., JaroszM., BellJ.M., HindsonC.M., Kyriazopoulou-PanagiotopoulouS., MasquelierD.A., MerrillL., TerryJ.M.et al.\nHaplotyping germline and cancer genomes with high-throughput linked-read sequencing. Nat. Biotechnol.2016; 34:303–311.2682931910.1038/nbt.3432PMC4786454",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "26829319"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nbt.3432"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4786454"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B2",
+      "position": 1,
+      "title": "Whole-genome haplotyping approaches and genomic medicine",
+      "source": "Genome medicine",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Glusman",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Glusman\nG."
+            },
+            {
+              "surname": "Cox",
+              "givenNames": "H.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CoxH.C."
+            },
+            {
+              "surname": "Roach",
+              "givenNames": "J.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RoachJ.C."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "73"
+        ]
+      },
+      "originalCitationText": "Glusman\nG.\n, CoxH.C., RoachJ.C.\nWhole-genome haplotyping approaches and genomic medicine. Genome medicine. 2014; 6:73.2547343510.1186/s13073-014-0073-7PMC4254418",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "25473435"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1186/s13073-014-0073-7"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4254418"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B3",
+      "position": 2,
+      "title": "The importance of phase information for human genomics",
+      "source": "Nat. Rev. Genet.",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tewhey",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Tewhey\nR."
+            },
+            {
+              "surname": "Bansal",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BansalV."
+            },
+            {
+              "surname": "Torkamani",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TorkamaniA."
+            },
+            {
+              "surname": "Topol",
+              "givenNames": "E.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TopolE.J."
+            },
+            {
+              "surname": "Schork",
+              "givenNames": "N.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchorkN.J."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "215"
+        ],
+        "lpage": [
+          "223"
+        ]
+      },
+      "originalCitationText": "Tewhey\nR.\n, BansalV., TorkamaniA., TopolE.J., SchorkN.J.\nThe importance of phase information for human genomics. Nat. Rev. Genet.2011; 12:215–223.2130147310.1038/nrg2950PMC3753045",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "21301473"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nrg2950"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3753045"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B4",
+      "position": 3,
+      "title": "An integrated map of genetic variation from 1,092 human genomes",
+      "source": "Nature",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "The",
+              "givenNames": "1000 Genomes Project Consortium",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "The\n1000 Genomes Project Consortium"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "491"
+        ],
+        "fpage": [
+          "56"
+        ]
+      },
+      "originalCitationText": "The\n1000 Genomes Project Consortium\n\n\nAn integrated map of genetic variation from 1,092 human genomes. Nature. 2012; 491:56.2312822610.1038/nature11632PMC3498066",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "23128226"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nature11632"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3498066"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B5",
+      "position": 4,
+      "title": "Integrating common and rare genetic variation in diverse human populations",
+      "source": "Nature",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "International",
+              "givenNames": "HapMap 3 Consortium",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "International\nHapMap 3 Consortium"
+            },
+            {
+              "surname": "Altshuler",
+              "givenNames": "D.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AltshulerD.M."
+            },
+            {
+              "surname": "Gibbs",
+              "givenNames": "R.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GibbsR.A."
+            },
+            {
+              "surname": "Peltonen",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PeltonenL."
+            },
+            {
+              "surname": "Altshuler",
+              "givenNames": "D.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AltshulerD.M."
+            },
+            {
+              "surname": "Gibbs",
+              "givenNames": "R.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GibbsR.A."
+            },
+            {
+              "surname": "Peltonen",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PeltonenL."
+            },
+            {
+              "surname": "Dermitzakis",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DermitzakisE."
+            },
+            {
+              "surname": "Schaffner",
+              "givenNames": "S.F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchaffnerS.F."
+            },
+            {
+              "surname": "Yu",
+              "givenNames": "F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YuF."
+            },
+            {
+              "kind": "etal",
+              "originalName": "et al"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "467"
+        ],
+        "fpage": [
+          "52"
+        ]
+      },
+      "originalCitationText": "International\nHapMap 3 Consortium\n, AltshulerD.M., GibbsR.A., PeltonenL., AltshulerD.M., GibbsR.A., PeltonenL., DermitzakisE., SchaffnerS.F., YuF.et al.\nIntegrating common and rare genetic variation in diverse human populations. Nature. 2010; 467:52.2081145110.1038/nature09298PMC3173859",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "20811451"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nature09298"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3173859"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B6",
+      "position": 5,
+      "title": "Allele-specific epigenome maps reveal sequence-dependent stochastic switching at regulatory loci",
+      "source": "Science",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Onuchic",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Onuchic\nV."
+            },
+            {
+              "surname": "Lurie",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LurieE."
+            },
+            {
+              "surname": "Carrero",
+              "givenNames": "I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CarreroI."
+            },
+            {
+              "surname": "Pawliczek",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PawliczekP."
+            },
+            {
+              "surname": "Patel",
+              "givenNames": "R.Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PatelR.Y."
+            },
+            {
+              "surname": "Rozowsky",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RozowskyJ."
+            },
+            {
+              "surname": "Galeev",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GaleevT."
+            },
+            {
+              "surname": "Huang",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuangZ."
+            },
+            {
+              "surname": "Altshuler",
+              "givenNames": "R.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AltshulerR.C."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangZ."
+            },
+            {
+              "kind": "etal",
+              "originalName": "et al"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "361"
+        ],
+        "fpage": [
+          "eaar3146"
+        ]
+      },
+      "originalCitationText": "Onuchic\nV.\n, LurieE., CarreroI., PawliczekP., PatelR.Y., RozowskyJ., GaleevT., HuangZ., AltshulerR.C., ZhangZ.et al.\nAllele-specific epigenome maps reveal sequence-dependent stochastic switching at regulatory loci. Science. 2018; 361:eaar3146.3013991310.1126/science.aar3146PMC6198826",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30139913"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/science.aar3146"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6198826"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B7",
+      "position": 6,
+      "title": "Three-dimensional genome structures of single diploid human cells",
+      "source": "Science",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Tan",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Tan\nL."
+            },
+            {
+              "surname": "Xing",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XingD."
+            },
+            {
+              "surname": "Chang",
+              "givenNames": "C.-H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChangC.-H."
+            },
+            {
+              "surname": "Li",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiH."
+            },
+            {
+              "surname": "Xie",
+              "givenNames": "X.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XieX.S."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "361"
+        ],
+        "fpage": [
+          "924"
+        ],
+        "lpage": [
+          "928"
+        ]
+      },
+      "originalCitationText": "Tan\nL.\n, XingD., ChangC.-H., LiH., XieX.S.\nThree-dimensional genome structures of single diploid human cells. Science. 2018; 361:924–928.3016649210.1126/science.aat5641PMC6360088",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30166492"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1126/science.aat5641"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6360088"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B8",
+      "position": 7,
+      "title": "PTCH1 gene haplotype association with basal cell carcinoma after transplantation",
+      "source": "Br. J. Dermatol.",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Begnini",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Begnini\nA."
+            },
+            {
+              "surname": "Tessari",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TessariG."
+            },
+            {
+              "surname": "Turco",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TurcoA."
+            },
+            {
+              "surname": "Malerba",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MalerbaG."
+            },
+            {
+              "surname": "Naldi",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NaldiL."
+            },
+            {
+              "surname": "Gotti",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GottiE."
+            },
+            {
+              "surname": "Boschiero",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BoschieroL."
+            },
+            {
+              "surname": "Forni",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ForniA."
+            },
+            {
+              "surname": "Rugiu",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RugiuC."
+            },
+            {
+              "surname": "Piaserico",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PiasericoS."
+            },
+            {
+              "kind": "etal",
+              "originalName": "et al"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "163"
+        ],
+        "fpage": [
+          "364"
+        ],
+        "lpage": [
+          "370"
+        ]
+      },
+      "originalCitationText": "Begnini\nA.\n, TessariG., TurcoA., MalerbaG., NaldiL., GottiE., BoschieroL., ForniA., RugiuC., PiasericoS.et al.\nPTCH1 gene haplotype association with basal cell carcinoma after transplantation. Br. J. Dermatol.2010; 163:364–370.2034602710.1111/j.1365-2133.2010.09776.x",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "20346027"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/j.1365-2133.2010.09776.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B9",
+      "position": 8,
+      "title": "A worldwide survey of haplotype variation and linkage disequilibrium in the human genome",
+      "source": "Nat. Genet.",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Conrad",
+              "givenNames": "D.F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Conrad\nD.F."
+            },
+            {
+              "surname": "Jakobsson",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JakobssonM."
+            },
+            {
+              "surname": "Coop",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CoopG."
+            },
+            {
+              "surname": "Wen",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WenX."
+            },
+            {
+              "surname": "Wall",
+              "givenNames": "J.D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WallJ.D."
+            },
+            {
+              "surname": "Rosenberg",
+              "givenNames": "N.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RosenbergN.A."
+            },
+            {
+              "surname": "Pritchard",
+              "givenNames": "J.K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PritchardJ.K."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "38"
+        ],
+        "fpage": [
+          "1251"
+        ]
+      },
+      "originalCitationText": "Conrad\nD.F.\n, JakobssonM., CoopG., WenX., WallJ.D., RosenbergN.A., PritchardJ.K.\nA worldwide survey of haplotype variation and linkage disequilibrium in the human genome. Nat. Genet.2006; 38:1251.1705771910.1038/ng1911",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "17057719"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/ng1911"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B10",
+      "position": 9,
+      "title": "Multiple polymorphisms in the TNFAIP3 region are independently associated with systemic lupus erythematosus",
+      "source": "Nat. Genet.",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Musone",
+              "givenNames": "S.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Musone\nS.L."
+            },
+            {
+              "surname": "Taylor",
+              "givenNames": "K.E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TaylorK.E."
+            },
+            {
+              "surname": "Lu",
+              "givenNames": "T.T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LuT.T."
+            },
+            {
+              "surname": "Nititham",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NitithamJ."
+            },
+            {
+              "surname": "Ferreira",
+              "givenNames": "R.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FerreiraR.C."
+            },
+            {
+              "surname": "Ortmann",
+              "givenNames": "W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OrtmannW."
+            },
+            {
+              "surname": "Shifrin",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShifrinN."
+            },
+            {
+              "surname": "Petri",
+              "givenNames": "M.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PetriM.A."
+            },
+            {
+              "surname": "Kamboh",
+              "givenNames": "M.I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KambohM.I."
+            },
+            {
+              "surname": "Manzi",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ManziS."
+            },
+            {
+              "kind": "etal",
+              "originalName": "et al"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "40"
+        ],
+        "fpage": [
+          "1062"
+        ]
+      },
+      "originalCitationText": "Musone\nS.L.\n, TaylorK.E., LuT.T., NitithamJ., FerreiraR.C., OrtmannW., ShifrinN., PetriM.A., KambohM.I., ManziS.et al.\nMultiple polymorphisms in the TNFAIP3 region are independently associated with systemic lupus erythematosus. Nat. Genet.2008; 40:1062.1916591910.1038/ng.202PMC3897246",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "19165919"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/ng.202"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3897246"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B11",
+      "position": 10,
+      "title": "Genome-wide haplotype association study identifies the SLC22A3-LPAL2-LPA gene cluster as a risk locus for coronary artery disease",
+      "source": "Nat. Genet.",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Trégouët",
+              "givenNames": "D.-A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Trégouët\nD.-A."
+            },
+            {
+              "surname": "König",
+              "givenNames": "I.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KönigI.R."
+            },
+            {
+              "surname": "Erdmann",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ErdmannJ."
+            },
+            {
+              "surname": "Munteanu",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MunteanuA."
+            },
+            {
+              "surname": "Braund",
+              "givenNames": "P.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BraundP.S."
+            },
+            {
+              "surname": "Hall",
+              "givenNames": "A.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HallA.S."
+            },
+            {
+              "surname": "Großhennig",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GroßhennigA."
+            },
+            {
+              "surname": "Linsel-Nitschke",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Linsel-NitschkeP."
+            },
+            {
+              "surname": "Perret",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PerretC."
+            },
+            {
+              "surname": "DeSuremain",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DeSuremainM."
+            },
+            {
+              "kind": "etal",
+              "originalName": "et al"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "41"
+        ],
+        "fpage": [
+          "283"
+        ]
+      },
+      "originalCitationText": "Trégouët\nD.-A.\n, KönigI.R., ErdmannJ., MunteanuA., BraundP.S., HallA.S., GroßhennigA., Linsel-NitschkeP., PerretC., DeSuremainM.et al.\nGenome-wide haplotype association study identifies the SLC22A3-LPAL2-LPA gene cluster as a risk locus for coronary artery disease. Nat. Genet.2009; 41:283.1919861110.1038/ng.314",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "19198611"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/ng.314"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B12",
+      "position": 11,
+      "title": "Utility of next-generation sequencing methods to identify the novel HLA alleles in potential stem cell donors from Chinese Marrow Donor Program",
+      "source": "Int. J. Immunogenet.",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Qi",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Qi\nJ."
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "T.-J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangT.-J."
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "L.-P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenL.-P."
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "X.-F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangX.-F."
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "M.-N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangM.-N."
+            },
+            {
+              "surname": "Wu",
+              "givenNames": "J.-H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WuJ.-H."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "45"
+        ],
+        "fpage": [
+          "225"
+        ],
+        "lpage": [
+          "229"
+        ]
+      },
+      "originalCitationText": "Qi\nJ.\n, WangT.-J., ChenL.-P., WangX.-F., WangM.-N., WuJ.-H.\nUtility of next-generation sequencing methods to identify the novel HLA alleles in potential stem cell donors from Chinese Marrow Donor Program. Int. J. Immunogenet.2018; 45:225–229.2979967410.1111/iji.12377",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29799674"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1111/iji.12377"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B13",
+      "position": 12,
+      "title": "Fast Hare: A Fast Heuristic for Single Individual SNP Haplotype Reconstruction",
+      "source": "Algorithms in Bioinformatics. WABI 2004. Lecture Notes in Computer Science",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Panconesi",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Panconesi\nA."
+            },
+            {
+              "surname": "Sozio",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SozioM."
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Jonassen",
+              "givenNames": "I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Jonassen\nI."
+            },
+            {
+              "surname": "Kim",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KimJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "3240"
+        ],
+        "fpage": [
+          "266"
+        ],
+        "lpage": [
+          "277"
+        ],
+        "publisher-name": [
+          "Springer"
+        ],
+        "publisher-loc": [
+          "Berlin Heidelberg"
+        ]
+      },
+      "originalCitationText": "Panconesi\nA.\n, SozioM.\n\n\nJonassen\nI.\n, KimJ.\nFast Hare: A Fast Heuristic for Single Individual SNP Haplotype Reconstruction. Algorithms in Bioinformatics. WABI 2004. Lecture Notes in Computer Science. 2004; 3240:Berlin HeidelbergSpringer266–277.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B14",
+      "position": 13,
+      "title": "Whole-genome haplotype reconstruction using proximity-ligation and shotgun sequencing",
+      "source": "Nat. Biotechnol.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Selvaraj",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Selvaraj\nS."
+            },
+            {
+              "surname": "Dixon",
+              "givenNames": "J.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DixonJ.R."
+            },
+            {
+              "surname": "Bansal",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BansalV."
+            },
+            {
+              "surname": "Ren",
+              "givenNames": "B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RenB."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "fpage": [
+          "1111"
+        ],
+        "lpage": [
+          "1118"
+        ]
+      },
+      "originalCitationText": "Selvaraj\nS.\n, DixonJ.R., BansalV., RenB.\nWhole-genome haplotype reconstruction using proximity-ligation and shotgun sequencing. Nat. Biotechnol.2013; 31:1111–1118.2418509410.1038/nbt.2728PMC4180835",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "24185094"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nbt.2728"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4180835"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B15",
+      "position": 14,
+      "title": "Chromosome-scale scaffolding of de novo genome assemblies based on chromatin interactions",
+      "source": "Nat. Biotechnol.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Burton",
+              "givenNames": "J.N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Burton\nJ.N."
+            },
+            {
+              "surname": "Adey",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AdeyA."
+            },
+            {
+              "surname": "Patwardhan",
+              "givenNames": "R.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PatwardhanR.P."
+            },
+            {
+              "surname": "Qiu",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "QiuR."
+            },
+            {
+              "surname": "Kitzman",
+              "givenNames": "J.O.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KitzmanJ.O."
+            },
+            {
+              "surname": "Shendure",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShendureJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "fpage": [
+          "1119"
+        ],
+        "lpage": [
+          "1125"
+        ]
+      },
+      "originalCitationText": "Burton\nJ.N.\n, AdeyA., PatwardhanR.P., QiuR., KitzmanJ.O., ShendureJ.\nChromosome-scale scaffolding of de novo genome assemblies based on chromatin interactions. Nat. Biotechnol.2013; 31:1119–1125.2418509510.1038/nbt.2727PMC4117202",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "24185095"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nbt.2727"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4117202"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B16",
+      "position": 15,
+      "title": "High-throughput genome scaffolding from in vivo DNA interaction frequency",
+      "source": "Nat. Biotechnol.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kaplan",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Kaplan\nN."
+            },
+            {
+              "surname": "Dekker",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DekkerJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "fpage": [
+          "1143"
+        ],
+        "lpage": [
+          "1147"
+        ]
+      },
+      "originalCitationText": "Kaplan\nN.\n, DekkerJ.\nHigh-throughput genome scaffolding from in vivo DNA interaction frequency. Nat. Biotechnol.2013; 31:1143–1147.2427085010.1038/nbt.2768PMC3880131",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "24270850"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nbt.2768"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3880131"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B17",
+      "position": 16,
+      "title": "Assessment of human diploid genome assembly with 10x Linked-Reads data",
+      "source": "GigaScience",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Zhang",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Zhang\nL."
+            },
+            {
+              "surname": "Zhou",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhouX."
+            },
+            {
+              "surname": "Weng",
+              "givenNames": "Z.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WengZ."
+            },
+            {
+              "surname": "Sidow",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SidowA."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "giz141"
+        ]
+      },
+      "originalCitationText": "Zhang\nL.\n, ZhouX., WengZ., SidowA.\nAssessment of human diploid genome assembly with 10x Linked-Reads data. GigaScience. 2019; 8:giz141.3176980510.1093/gigascience/giz141PMC6879002",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "31769805"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/gigascience/giz141"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6879002"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B18",
+      "position": 17,
+      "title": "HapCUT2: robust and accurate haplotype assembly for diverse sequencing technologies",
+      "source": "Genome Res.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Edge",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Edge\nP."
+            },
+            {
+              "surname": "Bafna",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BafnaV."
+            },
+            {
+              "surname": "Bansal",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BansalV."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "fpage": [
+          "801"
+        ],
+        "lpage": [
+          "812"
+        ]
+      },
+      "originalCitationText": "Edge\nP.\n, BafnaV., BansalV.\nHapCUT2: robust and accurate haplotype assembly for diverse sequencing technologies. Genome Res.2017; 27:801–812.2794095210.1101/gr.213462.116PMC5411775",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "27940952"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1101/gr.213462.116"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5411775"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B19",
+      "position": 18,
+      "title": "Long reads: their purpose and place",
+      "source": "Hum. Mol. Genet.",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Pollard",
+              "givenNames": "M.O.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Pollard\nM.O."
+            },
+            {
+              "surname": "Gurdasani",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GurdasaniD."
+            },
+            {
+              "surname": "Mentzer",
+              "givenNames": "A.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MentzerA.J."
+            },
+            {
+              "surname": "Porter",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PorterT."
+            },
+            {
+              "surname": "Sandhu",
+              "givenNames": "M.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SandhuM.S."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "27"
+        ],
+        "fpage": [
+          "R234"
+        ],
+        "lpage": [
+          "R241"
+        ]
+      },
+      "originalCitationText": "Pollard\nM.O.\n, GurdasaniD., MentzerA.J., PorterT., SandhuM.S.\nLong reads: their purpose and place. Hum. Mol. Genet.2018; 27:R234–R241.2976770210.1093/hmg/ddy177PMC6061690",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29767702"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/hmg/ddy177"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6061690"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B20",
+      "position": 19,
+      "title": "HapCUT: an efficient and accurate algorithm for the haplotype assembly problem",
+      "source": "Bioinformatics",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bansal",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Bansal\nV."
+            },
+            {
+              "surname": "Bafna",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BafnaV."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "fpage": [
+          "i153"
+        ],
+        "lpage": [
+          "i159"
+        ]
+      },
+      "originalCitationText": "Bansal\nV.\n, BafnaV.\nHapCUT: an efficient and accurate algorithm for the haplotype assembly problem. Bioinformatics. 2008; 24:i153–i159.1868981810.1093/bioinformatics/btn298",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "18689818"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/btn298"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B21",
+      "position": 20,
+      "title": "DCHap: a divide-and-conquer haplotype phasing algorithm for third-generation sequences",
+      "source": "IEEE/ACM Trans. Comput. Biol. Bioinf.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Li",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Li\nY."
+            },
+            {
+              "surname": "Lin",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LinY."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {},
+      "originalCitationText": "Li\nY.\n, LinY.\nDCHap: a divide-and-conquer haplotype phasing algorithm for third-generation sequences. IEEE/ACM Trans. Comput. Biol. Bioinf.2020; 10.1109/TCBB.2020.3005673.32750878",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1109/TCBB.2020.3005673"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32750878"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B22",
+      "position": 21,
+      "title": "ReFHap: a reliable and fast algorithm for single individual haplotyping",
+      "source": "Proceedings of the First ACM International Conference on Bioinformatics and Computational Biology",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Duitama",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Duitama\nJ."
+            },
+            {
+              "surname": "Huebsch",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuebschT."
+            },
+            {
+              "surname": "McEwen",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McEwenG."
+            },
+            {
+              "surname": "Suk",
+              "givenNames": "E.-K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SukE.-K."
+            },
+            {
+              "surname": "Hoehe",
+              "givenNames": "M.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HoeheM.R."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "160"
+        ],
+        "lpage": [
+          "169"
+        ],
+        "publisher-name": [
+          "Association for Computing Machinery"
+        ]
+      },
+      "originalCitationText": "Duitama\nJ.\n, HuebschT., McEwenG., SukE.-K., HoeheM.R.\nReFHap: a reliable and fast algorithm for single individual haplotyping. Proceedings of the First ACM International Conference on Bioinformatics and Computational Biology. 2010; Association for Computing Machinery160–169.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B23",
+      "position": 22,
+      "title": "Spectral identification of topological domains",
+      "source": "Bioinformatics",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chen",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Chen\nJ."
+            },
+            {
+              "surname": "Hero",
+              "givenNames": "A.O.",
+              "prefix": null,
+              "suffix": "III",
+              "originalName": "HeroA.O.III"
+            },
+            {
+              "surname": "Rajapakse",
+              "givenNames": "I",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RajapakseI"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "fpage": [
+          "2151"
+        ],
+        "lpage": [
+          "2158"
+        ]
+      },
+      "originalCitationText": "Chen\nJ.\n, HeroA.O.III, RajapakseI\nSpectral identification of topological domains. Bioinformatics. 2016; 32:2151–2158.2715365710.1093/bioinformatics/btw221PMC4937202",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "27153657"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/btw221"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4937202"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B24",
+      "position": 23,
+      "title": "A spectral graph approach to discovering genetic ancestry",
+      "source": "Ann. Appl. Stat.",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Lee",
+              "givenNames": "A.B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Lee\nA.B."
+            },
+            {
+              "surname": "Luca",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LucaD."
+            },
+            {
+              "surname": "Roeder",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RoederK."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "179"
+        ],
+        "lpage": [
+          "202"
+        ]
+      },
+      "originalCitationText": "Lee\nA.B.\n, LucaD., RoederK.\nA spectral graph approach to discovering genetic ancestry. Ann. Appl. Stat.2010; 4:179–202.2068965610.1214/09-AOAS281PMC2916191",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "20689656"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1214/09-AOAS281"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2916191"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B25",
+      "position": 24,
+      "title": "The axolotl genome and the evolution of key tissue formation regulators",
+      "source": "Nature",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nowoshilow",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Nowoshilow\nS."
+            },
+            {
+              "surname": "Schloissnig",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchloissnigS."
+            },
+            {
+              "surname": "Fei",
+              "givenNames": "J.-F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FeiJ.-F."
+            },
+            {
+              "surname": "Dahl",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DahlA."
+            },
+            {
+              "surname": "Pang",
+              "givenNames": "A.W.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PangA.W.C."
+            },
+            {
+              "surname": "Pippel",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PippelM."
+            },
+            {
+              "surname": "Winkler",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WinklerS."
+            },
+            {
+              "surname": "Hastie",
+              "givenNames": "A.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HastieA.R."
+            },
+            {
+              "surname": "Young",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YoungG."
+            },
+            {
+              "surname": "Roscito",
+              "givenNames": "J.G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RoscitoJ.G."
+            },
+            {
+              "kind": "etal",
+              "originalName": "et al"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "554"
+        ],
+        "fpage": [
+          "50"
+        ],
+        "lpage": [
+          "55"
+        ]
+      },
+      "originalCitationText": "Nowoshilow\nS.\n, SchloissnigS., FeiJ.-F., DahlA., PangA.W.C., PippelM., WinklerS., HastieA.R., YoungG., RoscitoJ.G.et al.\nThe axolotl genome and the evolution of key tissue formation regulators. Nature. 2018; 554:50–55.2936487210.1038/nature25458",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29364872"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nature25458"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B26",
+      "position": 25,
+      "title": "Surmounting the Large-Genome “Problem” for Genomic Data Generation in Salamanders",
+      "source": "Population Genomics: Wildlife. Population Genomics",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Weisrock",
+              "givenNames": "D.W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Weisrock\nD.W."
+            },
+            {
+              "surname": "Hime",
+              "givenNames": "P.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HimeP.M."
+            },
+            {
+              "surname": "Nunziata",
+              "givenNames": "S.O.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NunziataS.O."
+            },
+            {
+              "surname": "Jones",
+              "givenNames": "K.S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JonesK.S."
+            },
+            {
+              "surname": "Murphy",
+              "givenNames": "M.O.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MurphyM.O."
+            },
+            {
+              "surname": "Hotaling",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HotalingS."
+            },
+            {
+              "surname": "Kratovil",
+              "givenNames": "J.D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KratovilJ.D."
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "person-group-type": "editor"
+          },
+          "names": [
+            {
+              "surname": "Hohenlohe",
+              "givenNames": "P.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Hohenlohe\nP.A."
+            },
+            {
+              "surname": "Rajora",
+              "givenNames": "O.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RajoraO.P."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "28"
+        ],
+        "publisher-name": [
+          "Springer International Publishing"
+        ],
+        "publisher-loc": [
+          "Cham"
+        ]
+      },
+      "originalCitationText": "Weisrock\nD.W.\n, HimeP.M., NunziataS.O., JonesK.S., MurphyM.O., HotalingS., KratovilJ.D.\n\n\nHohenlohe\nP.A.\n, RajoraO.P.\nSurmounting the Large-Genome “Problem” for Genomic Data Generation in Salamanders. Population Genomics: Wildlife. Population Genomics. 2018; ChamSpringer International Publishing1–28.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B27",
+      "position": 26,
+      "title": "New spectral methods for ratio cut partitioning and clustering",
+      "source": "IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.",
+      "year": "1992",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hagen",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Hagen\nL."
+            },
+            {
+              "surname": "Kahng",
+              "givenNames": "A.B.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KahngA.B."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "1074"
+        ],
+        "lpage": [
+          "1085"
+        ]
+      },
+      "originalCitationText": "Hagen\nL.\n, KahngA.B.\nNew spectral methods for ratio cut partitioning and clustering. IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.1992; 11:1074–1085.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B28",
+      "position": 27,
+      "title": "A tutorial on spectral clustering",
+      "source": "Stat. Comput.",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Von Luxburg",
+              "givenNames": "U.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Von Luxburg\nU."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "fpage": [
+          "395"
+        ],
+        "lpage": [
+          "416"
+        ]
+      },
+      "originalCitationText": "Von Luxburg\nU.\n\n\nA tutorial on spectral clustering. Stat. Comput.2007; 17:395–416.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B29",
+      "position": 28,
+      "title": null,
+      "source": "Spectral graph Theory",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chung",
+              "givenNames": "F.R.K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Chung\nF.R.K."
+            },
+            {
+              "surname": "Graham",
+              "givenNames": "F.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GrahamF.C."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "publisher-name": [
+          "American Mathematical Society"
+        ]
+      },
+      "originalCitationText": "Chung\nF.R.K.\n, GrahamF.C.\nSpectral graph Theory. 1997; American Mathematical Society.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B30",
+      "position": 29,
+      "title": "An integrated map of structural variation in 2,504 human genomes",
+      "source": "Nature",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sudmant",
+              "givenNames": "P.H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Sudmant\nP.H."
+            },
+            {
+              "surname": "Rausch",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RauschT."
+            },
+            {
+              "surname": "Gardner",
+              "givenNames": "E.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GardnerE.J."
+            },
+            {
+              "surname": "Handsaker",
+              "givenNames": "R.E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HandsakerR.E."
+            },
+            {
+              "surname": "Abyzov",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AbyzovA."
+            },
+            {
+              "surname": "Huddleston",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuddlestonJ."
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangY."
+            },
+            {
+              "surname": "Ye",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YeK."
+            },
+            {
+              "surname": "Jun",
+              "givenNames": "G.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JunG."
+            },
+            {
+              "surname": "Hsi-Yang Fritz",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Hsi-Yang FritzM."
+            },
+            {
+              "kind": "etal",
+              "originalName": "et al"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "526"
+        ],
+        "fpage": [
+          "75"
+        ],
+        "lpage": [
+          "81"
+        ]
+      },
+      "originalCitationText": "Sudmant\nP.H.\n, RauschT., GardnerE.J., HandsakerR.E., AbyzovA., HuddlestonJ., ZhangY., YeK., JunG., Hsi-Yang FritzM.et al.\nAn integrated map of structural variation in 2,504 human genomes. Nature. 2015; 526:75–81.2643224610.1038/nature15394PMC4617611",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "26432246"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nature15394"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4617611"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B31",
+      "position": 30,
+      "title": "Integrating Hi-C links with assembly graphs for chromosome-scale assembly",
+      "source": "PLoS Comput. Biol.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ghurye",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Ghurye\nJ."
+            },
+            {
+              "surname": "Rhie",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RhieA."
+            },
+            {
+              "surname": "Walenz",
+              "givenNames": "B.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WalenzB.P."
+            },
+            {
+              "surname": "Schmitt",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchmittA."
+            },
+            {
+              "surname": "Selvaraj",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SelvarajS."
+            },
+            {
+              "surname": "Pop",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PopM."
+            },
+            {
+              "surname": "Phillippy",
+              "givenNames": "A.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PhillippyA.M."
+            },
+            {
+              "surname": "Koren",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KorenS."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "e1007273"
+        ]
+      },
+      "originalCitationText": "Ghurye\nJ.\n, RhieA., WalenzB.P., SchmittA., SelvarajS., PopM., PhillippyA.M., KorenS.\nIntegrating Hi-C links with assembly graphs for chromosome-scale assembly. PLoS Comput. Biol.2019; 15:e1007273.3143379910.1371/journal.pcbi.1007273PMC6719893",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "31433799"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1371/journal.pcbi.1007273"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6719893"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B32",
+      "position": 31,
+      "title": "The international Genome sample resource (IGSR): A worldwide collection of genome variation incorporating the 1000 Genomes Project data",
+      "source": "Nucleic Acids Res",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Clarke",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Clarke\nL."
+            },
+            {
+              "surname": "Fairley",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FairleyS."
+            },
+            {
+              "surname": "Zheng-Bradley",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Zheng-BradleyX."
+            },
+            {
+              "surname": "Streeter",
+              "givenNames": "I.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StreeterI."
+            },
+            {
+              "surname": "Perry",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PerryE."
+            },
+            {
+              "surname": "Lowy",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LowyE."
+            },
+            {
+              "surname": "Tassé",
+              "givenNames": "A.-M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TasséA.-M."
+            },
+            {
+              "surname": "Flicek",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FlicekP."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "45"
+        ],
+        "fpage": [
+          "D854"
+        ],
+        "lpage": [
+          "D859"
+        ]
+      },
+      "originalCitationText": "Clarke\nL.\n, FairleyS., Zheng-BradleyX., StreeterI., PerryE., LowyE., TasséA.-M., FlicekP.\nThe international Genome sample resource (IGSR): A worldwide collection of genome variation incorporating the 1000 Genomes Project data. Nucleic Acids Res. 2017; 45:D854–D859.2763888510.1093/nar/gkw829PMC5210610",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "27638885"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/nar/gkw829"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5210610"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B33",
+      "position": 32,
+      "title": "Fast and accurate short read alignment with Burrows–Wheeler transform",
+      "source": "Bioinformatics",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Li",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Li\nH."
+            },
+            {
+              "surname": "Durbin",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DurbinR."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "1754"
+        ],
+        "lpage": [
+          "1760"
+        ]
+      },
+      "originalCitationText": "Li\nH.\n, DurbinR.\nFast and accurate short read alignment with Burrows–Wheeler transform. Bioinformatics. 2009; 25:1754–1760.1945116810.1093/bioinformatics/btp324PMC2705234",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "19451168"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/btp324"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2705234"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B34",
+      "position": 33,
+      "title": "Long-read sequence and assembly of segmental duplications",
+      "source": "Nat. Methods",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Vollger",
+              "givenNames": "M.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Vollger\nM.R."
+            },
+            {
+              "surname": "Dishuck",
+              "givenNames": "P.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DishuckP.C."
+            },
+            {
+              "surname": "Sorensen",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SorensenM."
+            },
+            {
+              "surname": "Welch",
+              "givenNames": "A.E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WelchA.E."
+            },
+            {
+              "surname": "Dang",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DangV."
+            },
+            {
+              "surname": "Dougherty",
+              "givenNames": "M.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DoughertyM.L."
+            },
+            {
+              "surname": "Graves-Lindsay",
+              "givenNames": "T.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Graves-LindsayT.A."
+            },
+            {
+              "surname": "Wilson",
+              "givenNames": "R.K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WilsonR.K."
+            },
+            {
+              "surname": "Chaisson",
+              "givenNames": "M.J.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChaissonM.J.P."
+            },
+            {
+              "surname": "Eichler",
+              "givenNames": "E.E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EichlerE.E."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "fpage": [
+          "88"
+        ],
+        "lpage": [
+          "94"
+        ]
+      },
+      "originalCitationText": "Vollger\nM.R.\n, DishuckP.C., SorensenM., WelchA.E., DangV., DoughertyM.L., Graves-LindsayT.A., WilsonR.K., ChaissonM.J.P., EichlerE.E.\nLong-read sequence and assembly of segmental duplications. Nat. Methods. 2019; 16:88–94.3055943310.1038/s41592-018-0236-3PMC6382464",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30559433"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41592-018-0236-3"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6382464"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B35",
+      "position": 34,
+      "title": "Minimap2: pairwise alignment for nucleotide sequences",
+      "source": "Bioinformatics",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Li",
+              "givenNames": "H.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Li\nH."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "fpage": [
+          "3094"
+        ],
+        "lpage": [
+          "3100"
+        ]
+      },
+      "originalCitationText": "Li\nH.\n\n\nMinimap2: pairwise alignment for nucleotide sequences. Bioinformatics. 2018; 34:3094–3100.2975024210.1093/bioinformatics/bty191PMC6137996",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29750242"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/bty191"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6137996"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B36",
+      "position": 35,
+      "title": "Sequencing of human genomes with nanopore technology",
+      "source": "Nat. Commun.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bowden",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Bowden\nR."
+            },
+            {
+              "surname": "Davies",
+              "givenNames": "R.W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DaviesR.W."
+            },
+            {
+              "surname": "Heger",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HegerA."
+            },
+            {
+              "surname": "Pagnamenta",
+              "givenNames": "A.T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PagnamentaA.T."
+            },
+            {
+              "surname": "de Cesare",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "de CesareM."
+            },
+            {
+              "surname": "Oikkonen",
+              "givenNames": "L.E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OikkonenL.E."
+            },
+            {
+              "surname": "Parkes",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ParkesD."
+            },
+            {
+              "surname": "Freeman",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FreemanC."
+            },
+            {
+              "surname": "Dhalla",
+              "givenNames": "F.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DhallaF."
+            },
+            {
+              "surname": "Patel",
+              "givenNames": "S.Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PatelS.Y."
+            },
+            {
+              "kind": "etal",
+              "originalName": "et al"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "1869"
+        ]
+      },
+      "originalCitationText": "Bowden\nR.\n, DaviesR.W., HegerA., PagnamentaA.T., de CesareM., OikkonenL.E., ParkesD., FreemanC., DhallaF., PatelS.Y.et al.\nSequencing of human genomes with nanopore technology. Nat. Commun.2019; 10:1869.3101547910.1038/s41467-019-09637-5PMC6478738",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "31015479"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41467-019-09637-5"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6478738"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B37",
+      "position": 36,
+      "title": "Structural variants identified by Oxford Nanopore PromethION sequencing of the human genome",
+      "source": "Genome Res.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "De Coster",
+              "givenNames": "W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "De Coster\nW."
+            },
+            {
+              "surname": "De Rijk",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "De RijkP."
+            },
+            {
+              "surname": "De Roeck",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "De RoeckA."
+            },
+            {
+              "surname": "De Pooter",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "De PooterT."
+            },
+            {
+              "surname": "D’Hert",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "D’HertS."
+            },
+            {
+              "surname": "Strazisar",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StrazisarM."
+            },
+            {
+              "surname": "Sleegers",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SleegersK."
+            },
+            {
+              "surname": "Van Broeckhoven",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Van BroeckhovenC."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "1178"
+        ],
+        "lpage": [
+          "1187"
+        ]
+      },
+      "originalCitationText": "De Coster\nW.\n, De RijkP., De RoeckA., De PooterT., D’HertS., StrazisarM., SleegersK., Van BroeckhovenC.\nStructural variants identified by Oxford Nanopore PromethION sequencing of the human genome. Genome Res.2019; 29:1178–1187.3118630210.1101/gr.244939.118PMC6633254",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "31186302"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1101/gr.244939.118"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6633254"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B38",
+      "position": 37,
+      "title": "A chromosome-scale assembly of the axolotl genome",
+      "source": "Genome Res",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Smith",
+              "givenNames": "J.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Smith\nJ.J."
+            },
+            {
+              "surname": "Timoshevskaya",
+              "givenNames": "N.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TimoshevskayaN."
+            },
+            {
+              "surname": "Timoshevskiy",
+              "givenNames": "V.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TimoshevskiyV.A."
+            },
+            {
+              "surname": "Keinath",
+              "givenNames": "M.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KeinathM.C."
+            },
+            {
+              "surname": "Hardy",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HardyD."
+            },
+            {
+              "surname": "Voss",
+              "givenNames": "S.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VossS.R."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "317"
+        ],
+        "lpage": [
+          "324"
+        ]
+      },
+      "originalCitationText": "Smith\nJ.J.\n, TimoshevskayaN., TimoshevskiyV.A., KeinathM.C., HardyD., VossS.R.\nA chromosome-scale assembly of the axolotl genome. Genome Res. 2019; 29:317–324.3067930910.1101/gr.241901.118PMC6360810",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30679309"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1101/gr.241901.118"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6360810"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B39",
+      "position": 38,
+      "title": "LRSim: a linked-reads simulator generating insights for better genome partitioning",
+      "source": "Comput. Struct. Biotechnol. J.",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Luo",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Luo\nR."
+            },
+            {
+              "surname": "Sedlazeck",
+              "givenNames": "F.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SedlazeckF.J."
+            },
+            {
+              "surname": "Darby",
+              "givenNames": "C.A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DarbyC.A."
+            },
+            {
+              "surname": "Kelly",
+              "givenNames": "S.M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KellyS.M."
+            },
+            {
+              "surname": "Schatz",
+              "givenNames": "M.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchatzM.C."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "478"
+        ],
+        "lpage": [
+          "484"
+        ]
+      },
+      "originalCitationText": "Luo\nR.\n, SedlazeckF.J., DarbyC.A., KellyS.M., SchatzM.C.\nLRSim: a linked-reads simulator generating insights for better genome partitioning. Comput. Struct. Biotechnol. J.2017; 15:478–484.2921399510.1016/j.csbj.2017.10.002PMC5711661",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29213995"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1016/j.csbj.2017.10.002"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5711661"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B40",
+      "position": 39,
+      "title": "PBSIM: PacBio reads simulator—toward accurate genome assembly",
+      "source": "Bioinformatics",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Ono",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Ono\nY."
+            },
+            {
+              "surname": "Asai",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AsaiK."
+            },
+            {
+              "surname": "Hamada",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HamadaM."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "119"
+        ],
+        "lpage": [
+          "121"
+        ]
+      },
+      "originalCitationText": "Ono\nY.\n, AsaiK., HamadaM.\nPBSIM: PacBio reads simulator—toward accurate genome assembly. Bioinformatics. 2012; 29:119–121.2312929610.1093/bioinformatics/bts649",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "23129296"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/bts649"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B41",
+      "position": 40,
+      "title": "DeepSimulator: a deep simulator for Nanopore sequencing",
+      "source": "Bioinformatics",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Li",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Li\nY."
+            },
+            {
+              "surname": "Han",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HanR."
+            },
+            {
+              "surname": "Bi",
+              "givenNames": "C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BiC."
+            },
+            {
+              "surname": "Li",
+              "givenNames": "M.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiM."
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangS."
+            },
+            {
+              "surname": "Gao",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GaoX."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "fpage": [
+          "2899"
+        ],
+        "lpage": [
+          "2908"
+        ]
+      },
+      "originalCitationText": "Li\nY.\n, HanR., BiC., LiM., WangS., GaoX.\nDeepSimulator: a deep simulator for Nanopore sequencing. Bioinformatics. 2018; 34:2899–2908.2965969510.1093/bioinformatics/bty223PMC6129308",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29659695"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/bioinformatics/bty223"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6129308"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B42",
+      "position": 41,
+      "title": "Haplotype-resolved genome sequencing: experimental methods and applications",
+      "source": "Nat. Rev. Genet.",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Snyder",
+              "givenNames": "M.W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Snyder\nM.W."
+            },
+            {
+              "surname": "Adey",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AdeyA."
+            },
+            {
+              "surname": "Kitzman",
+              "givenNames": "J.O.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KitzmanJ.O."
+            },
+            {
+              "surname": "Shendure",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShendureJ."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "fpage": [
+          "344"
+        ],
+        "lpage": [
+          "358"
+        ]
+      },
+      "originalCitationText": "Snyder\nM.W.\n, AdeyA., KitzmanJ.O., ShendureJ.\nHaplotype-resolved genome sequencing: experimental methods and applications. Nat. Rev. Genet.2015; 16:344–358.2594824610.1038/nrg3903",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "25948246"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/nrg3903"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B43",
+      "position": 42,
+      "title": "Comparison of phasing strategies for whole human genomes",
+      "source": "PLoS Genet",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Choi",
+              "givenNames": "Y.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Choi\nY."
+            },
+            {
+              "surname": "Chan",
+              "givenNames": "A.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChanA.P."
+            },
+            {
+              "surname": "Kirkness",
+              "givenNames": "E.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KirknessE."
+            },
+            {
+              "surname": "Telenti",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TelentiA."
+            },
+            {
+              "surname": "Schork",
+              "givenNames": "N.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchorkN.J."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "e1007308"
+        ]
+      },
+      "originalCitationText": "Choi\nY.\n, ChanA.P., KirknessE., TelentiA., SchorkN.J.\nComparison of phasing strategies for whole human genomes. PLoS Genet. 2018; 14:e1007308.2962124210.1371/journal.pgen.1007308PMC5903673",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "29621242"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1371/journal.pgen.1007308"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5903673"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B44",
+      "position": 43,
+      "title": "Fosmid-based whole genome haplotyping of a HapMap trio child: evaluation of single individual haplotyping techniques",
+      "source": "Nucleic Acids Res",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Duitama",
+              "givenNames": "J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Duitama\nJ."
+            },
+            {
+              "surname": "McEwen",
+              "givenNames": "G.K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McEwenG.K."
+            },
+            {
+              "surname": "Huebsch",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HuebschT."
+            },
+            {
+              "surname": "Palczewski",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PalczewskiS."
+            },
+            {
+              "surname": "Schulz",
+              "givenNames": "S.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchulzS."
+            },
+            {
+              "surname": "Verstrepen",
+              "givenNames": "K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VerstrepenK."
+            },
+            {
+              "surname": "Suk",
+              "givenNames": "E.-K.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SukE.-K."
+            },
+            {
+              "surname": "Hoehe",
+              "givenNames": "M.R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HoeheM.R."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "40"
+        ],
+        "fpage": [
+          "2041"
+        ],
+        "lpage": [
+          "2053"
+        ]
+      },
+      "originalCitationText": "Duitama\nJ.\n, McEwenG.K., HuebschT., PalczewskiS., SchulzS., VerstrepenK., SukE.-K., HoeheM.R.\nFosmid-based whole genome haplotyping of a HapMap trio child: evaluation of single individual haplotyping techniques. Nucleic Acids Res. 2012; 40:2041–2053.2210257710.1093/nar/gkr1042PMC3299995",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "22102577"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/nar/gkr1042"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3299995"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B44",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B45",
+      "position": 44,
+      "title": "Longshot enables accurate variant calling in diploid genomes from single-molecule long read sequencing",
+      "source": "Nat. Commun.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Edge",
+              "givenNames": "P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Edge\nP."
+            },
+            {
+              "surname": "Bansal",
+              "givenNames": "V.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BansalV."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "4660"
+        ]
+      },
+      "originalCitationText": "Edge\nP.\n, BansalV.\nLongshot enables accurate variant calling in diploid genomes from single-molecule long read sequencing. Nat. Commun.2019; 10:4660.3160492010.1038/s41467-019-12493-yPMC6788989",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "31604920"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41467-019-12493-y"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6788989"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B45",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B46",
+      "position": 45,
+      "title": "A multi-task convolutional deep neural network for variant calling in single molecule sequencing",
+      "source": "Nat. Commun.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Luo",
+              "givenNames": "R.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Luo\nR."
+            },
+            {
+              "surname": "Sedlazeck",
+              "givenNames": "F.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SedlazeckF.J."
+            },
+            {
+              "surname": "Lam",
+              "givenNames": "T.-W.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LamT.-W."
+            },
+            {
+              "surname": "Schatz",
+              "givenNames": "M.C.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchatzM.C."
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "998"
+        ]
+      },
+      "originalCitationText": "Luo\nR.\n, SedlazeckF.J., LamT.-W., SchatzM.C.\nA multi-task convolutional deep neural network for variant calling in single molecule sequencing. Nat. Commun.2019; 10:998.3082470710.1038/s41467-019-09025-zPMC6397153",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30824707"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41467-019-09025-z"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6397153"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B46",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "B47",
+      "position": 46,
+      "title": "Multi-platform discovery of haplotype-resolved structural variation in human genomes",
+      "source": "Nat. Commun.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Chaisson",
+              "givenNames": "M.J.P.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Chaisson\nM.J.P."
+            },
+            {
+              "surname": "Sanders",
+              "givenNames": "A.D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SandersA.D."
+            },
+            {
+              "surname": "Zhao",
+              "givenNames": "X.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhaoX."
+            },
+            {
+              "surname": "Malhotra",
+              "givenNames": "A.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MalhotraA."
+            },
+            {
+              "surname": "Porubsky",
+              "givenNames": "D.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PorubskyD."
+            },
+            {
+              "surname": "Rausch",
+              "givenNames": "T.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RauschT."
+            },
+            {
+              "surname": "Gardner",
+              "givenNames": "E.J.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GardnerE.J."
+            },
+            {
+              "surname": "Rodriguez",
+              "givenNames": "O.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RodriguezO.L."
+            },
+            {
+              "surname": "Guo",
+              "givenNames": "L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuoL."
+            },
+            {
+              "surname": "Collins",
+              "givenNames": "R.L.",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CollinsR.L."
+            },
+            {
+              "kind": "etal",
+              "originalName": "et al"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "1784"
+        ]
+      },
+      "originalCitationText": "Chaisson\nM.J.P.\n, SandersA.D., ZhaoX., MalhotraA., PorubskyD., RauschT., GardnerE.J., RodriguezO.L., GuoL., CollinsR.L.et al.\nMulti-platform discovery of haplotype-resolved structural variation in human genomes. Nat. Commun.2019; 10:1784.3099245510.1038/s41467-018-08148-zPMC6467913",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "30992455"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1038/s41467-018-08148-z"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6467913"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC8565328/article.xml",
+        "articleSha256": "ff123d1997aaca19c083f4185a0b1e7f4b4f1fb5c9ab1831c1112a01956030ad",
+        "referenceId": "B47",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "Nucleic Acids Research"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "Nucleic Acids Res"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Nucleic Acids Res"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "4"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "nar"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "0411011"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "nar"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "ppub",
+        "value": "0305-1048"
+      },
+      {
+        "pub-type": "epub",
+        "value": "1362-4962"
+      }
+    ],
+    "publisherNames": [
+      "Oxford University Press"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "49"
+    ],
+    "issue": [
+      "19"
+    ],
+    "fpage": [
+      "e114"
+    ],
+    "lpage": [
+      "e114"
+    ]
+  }
+}

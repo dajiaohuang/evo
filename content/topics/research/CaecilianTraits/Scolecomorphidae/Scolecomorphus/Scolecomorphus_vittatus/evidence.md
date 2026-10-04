@@ -1,0 +1,1101 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  caecilian-traits-reader:
+    scientificName: Scolecomorphus vittatus
+    name:
+      en: Scolecomorphus vittatus
+      zh: Scolecomorphus vittatus
+    sourceClassification:
+      family: Scolecomorphidae
+      genus: Scolecomorphus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited caecilian record
+          zh: 存档中的蚓螈记录
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Measurement material
+          zh: 测量材料
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/1/text/zh
+      - topic: ecology
+        title:
+          en: Compiled habitat categories
+          zh: 汇编的栖地类别
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/2/text/zh
+      - topic: lifeHistory
+        title:
+          en: Compiled reproduction category
+          zh: 汇编的繁殖类别
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/3/text/zh
+      - topic: morphology
+        title:
+          en: Compiled anatomical counts
+          zh: 汇编的解剖计数
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/4/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/4/text/zh
+      - topic: lifeHistory
+        sourceField: aquatic-larvae
+        sourceIds:
+          - caeciliantraits
+        title:
+          en: Water-dependent larval development
+          zh: 依赖水环境的幼体发育
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/5/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/5/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+          metadataVariant: 0
+          sourceKey: caeciliantraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - rightsEvidenceUrl
+            - licenseAssessment
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    originalSpeciesRow:
+      rowNumber: 181
+      values:
+        - Scolecomorphidae
+        - Scolecomorphus
+        - Scolecomorphus vittatus
+        - Tropical & Subtropical Moist Broadleaf Forests; Tropical & Subtropical Grasslands, Savannas & Shrublands
+        - Terrestrial
+        - Fossorial
+        - It is a soil-dwelling species
+        - viviparous
+        - It is probably viviparous and does not depend on water bodies for reproduction.
+        - 0
+        - null
+        - null
+        - null
+        - "IUCN. The IUCN Red List of Threatened Species. Version 2023-1, <https://www.iucnredlist.org> (2023). "
+        - 275.9
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 8.15
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 5.97
+        - null
+        - null
+        - 9.15
+        - 11.46
+        - 14.42
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 134.2
+        - null
+        - null
+        - 19.9090909090909
+        - 16.6363636363636
+        - 27.5454545454545
+        - 0
+        - null
+    originalMeasurementRows:
+      - rowNumber: 332
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Scolecomorphidae
+          - Scolecomorphus
+          - Scolecomorphus vittatus
+          - I
+          - MCZ 12179
+          - null
+          - "204"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6.7"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5.8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "125"
+          - null
+          - null
+          - 8-9
+          - 8-1-8
+          - 15-15
+          - 0-0
+          - null
+      - rowNumber: 333
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Scolecomorphidae
+          - Scolecomorphus
+          - Scolecomorphus vittatus
+          - I
+          - MCZ 12180
+          - null
+          - "243"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6"
+          - null
+          - null
+          - "10.1"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "137"
+          - null
+          - null
+          - 12-13
+          - 8-1-8
+          - 13-13
+          - 0-0
+          - null
+      - rowNumber: 334
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Scolecomorphidae
+          - Scolecomorphus
+          - Scolecomorphus vittatus
+          - I
+          - MCZ 12188
+          - null
+          - "295"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "9.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.8"
+          - null
+          - null
+          - "9"
+          - "11"
+          - "14.3"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "142"
+          - null
+          - null
+          - 9-10
+          - 7-1-7
+          - 15-15
+          - 0-0
+          - null
+      - rowNumber: 335
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Scolecomorphidae
+          - Scolecomorphus
+          - Scolecomorphus vittatus
+          - I
+          - MCZ 25010
+          - null
+          - "364"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "12.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8.1"
+          - null
+          - null
+          - "9.8"
+          - "12.8"
+          - "15.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "141"
+          - null
+          - null
+          - 11-12
+          - 9-1-7
+          - 16-16
+          - 0-0
+          - null
+      - rowNumber: 336
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Scolecomorphidae
+          - Scolecomorphus
+          - Scolecomorphus vittatus
+          - I
+          - MCZ 25011
+          - null
+          - "269"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8.6"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - null
+          - null
+          - "9.2"
+          - "11.6"
+          - "15"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "131"
+          - null
+          - null
+          - 9-10
+          - 8-1-8
+          - 14-14
+          - 0-0
+          - null
+      - rowNumber: 337
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Scolecomorphidae
+          - Scolecomorphus
+          - Scolecomorphus vittatus
+          - I
+          - MCZ 25012
+          - null
+          - "243"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8.7"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5.5"
+          - null
+          - null
+          - "7.8"
+          - "9.7"
+          - "12"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "144"
+          - null
+          - null
+          - 9-10
+          - 8-8
+          - 15-14
+          - 0-0
+          - null
+      - rowNumber: 338
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Scolecomorphidae
+          - Scolecomorphus
+          - Scolecomorphus vittatus
+          - I
+          - SNGM 24000
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "132"
+          - null
+          - null
+          - 9-9
+          - 7-1-7
+          - 13-13
+          - 0-0
+          - null
+      - rowNumber: 339
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Scolecomorphidae
+          - Scolecomorphus
+          - Scolecomorphus vittatus
+          - I
+          - SNGM 29202
+          - null
+          - "344"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 9-9
+          - 9-9
+          - 13-13
+          - 0-0
+          - null
+      - rowNumber: 340
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Scolecomorphidae
+          - Scolecomorphus
+          - Scolecomorphus vittatus
+          - I
+          - SNGM 29104
+          - null
+          - "312"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5.3"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "139"
+          - null
+          - null
+          - 9-8
+          - 7-1-7
+          - 11-11
+          - 0-0
+          - null
+      - rowNumber: 341
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Scolecomorphidae
+          - Scolecomorphus
+          - Scolecomorphus vittatus
+          - I
+          - BMNH 1946.9.5.59
+          - null
+          - "160"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "4.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "120"
+          - null
+          - null
+          - 10-9
+          - 7-1-7
+          - 11-11
+          - 0-0
+          - null
+      - rowNumber: 342
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Scolecomorphidae
+          - Scolecomorphus
+          - Scolecomorphus vittatus
+          - I
+          - AMNH 23512
+          - null
+          - "325"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.6"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5"
+          - null
+          - null
+          - "9"
+          - "12.2"
+          - "15.6"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "131"
+          - null
+          - null
+          - 12-13
+          - 10-1-10
+          - 16-16
+          - 0-0
+          - null
+    originalColumns:
+      species:
+        - Family
+        - Genus
+        - Species
+        - biome
+        - Habitats
+        - Microhabitat
+        - Metadata_microhabitat
+        - Reproduction
+        - Metadata_reproduction
+        - Aquatic larvae
+        - Max clutch size
+        - Min clutch size
+        - Mean clutch size
+        - Reference
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - ADD
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+      measurement:
+        - Reference
+        - Family
+        - Genus
+        - Species
+        - Type
+        - ID
+        - Sex
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - "ADD "
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 79Y6Y
+    quantitativeLengthUnits: not-confirmed-from-deposited-column-definitions; dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/caecilian-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/caecilian-traits-reader/limitations/zh
+    variableDefinitionCitation:
+      doi: 10.1038/s41597-025-04728-z
+      sourceFile: data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.xml
+      locator: Methods, species-level ecological and life-history data; Data Records
+---
+
+# Scolecomorphus vittatus — CaecilianTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/locator -->
+CaecilianTraits.xlsx, Species level data row 181; Individual level data rows 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342; Supplementary Table 1 for variable meanings
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+<!-- /evo:text -->
+
+## caecilian-traits-reader / limitations
+
+<!-- evo:text /records/caecilian-traits-reader/limitations/en -->
+Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets and external expert review remain to be resolved.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / limitations
+
+<!-- evo:text /records/caecilian-traits-reader/limitations/zh -->
+本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题及外部专家审评仍待核对。
+<!-- /evo:text -->

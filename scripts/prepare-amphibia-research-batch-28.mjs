@@ -1,0 +1,12 @@
+import { prepareAmphibianResearchInput } from './prepare-amphibia-research-input.mjs'
+const citation = { pmc: 'PMC6687670', year: 2019, readScope: 'Species distribution and natural-history paragraph' }
+prepareAmphibianResearchInput([
+  { colId: 'SCC7N', name: 'Pristimantis gloria', ...citation, sections: [
+    ['ecology', 'Rock shelters in shrubland and páramo records', '灌丛与高山草甸记录中的岩下庇护处', 'The revision reported Azuay, Loja and Morona Santiago localities at 2460–3525 m in inter-Andean shrubland and páramo. Most specimens were beneath rocks in páramo or pasture near roads, during day or night. These sheltered encounters retain the sampled landscape, without showing that roads are necessary habitat or that every population occupies pasture.', '修订报告 Azuay、Loja 与 Morona Santiago 海拔 2460—3525 米安第斯山间灌丛及高山草甸地点。多数标本于日间或夜间发现于路旁草甸或牧场岩石下。这些庇护处发现保留采样景观，不能说明道路是必需生境或每个种群均占据牧场。'],
+    ['reproduction', 'Two April pairs and one October caller', '四月两对抱对与十月一只鸣叫者', 'Two amplectant pairs were found beneath rocks at night in April. A calling male was found in low vegetation at 19:00 on 16 October 2013. These separate observations document mating behavior and calling, without locating deposited eggs or establishing uninterrupted reproduction between April and October.', '四月夜间在岩石下发现两对抱对个体；2013 年十月十六日 19:00 在低矮植被发现一只鸣叫雄性。这些独立观察记录交配行为与鸣叫，未定位产出的卵，也不能确立四月至十月持续不间断繁殖。']
+  ] },
+  { colId: 'SCC7T', name: 'Pristimantis jimenezi', ...citation, sections: [
+    ['ecology', 'Vegetation encounters over several heights', '不同高度的植被发现', 'The revision reported western Andean Azuay sites at 1800–2900 m, in primary and secondary forest. Afternoon and nighttime specimens occurred on low vegetation up to 1.5 m high and inside bromeliads up to 8 m high; some were collected on banana plants. Those encounter heights are not physiological limits or proof of breeding in bromeliads.', '修订报告 Azuay 安第斯西坡海拔 1800—2900 米原生林与次生林地点。下午及夜间标本发现于不超过 1.5 米的低矮植被，或不超过 8 米的凤梨科植物内部；部分采自香蕉植株。这些发现高度不是生理极限，也不能证明在凤梨科植物中繁殖。'],
+    ['reproduction', 'January and August reproductive observations', '一月与八月繁殖观察', 'Gravid females and calling males were collected in January and August; males were heard at 16:00 and 19:00. These records support reproductive activity in the sampled months and times, without establishing a complete breeding calendar, clutch sizes or absence of activity in other months.', '一月与八月采集到怀卵雌性与鸣叫雄性，16:00 及 19:00 听到雄性鸣叫。这些记录支持采样月份及时间的繁殖活动，不能确立完整繁殖日历、窝卵数或其他月份没有活动。']
+  ] }
+])

@@ -1,0 +1,5556 @@
+{
+  "pmcid": "PMC11065284",
+  "sourceVersion": {
+    "prefix": "PMC11065284.1/",
+    "sourceUrl": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11065284.1/PMC11065284.1.xml?md5=d73d3ca959663da1f49c34c33b6f4c86",
+    "declaredSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a"
+  },
+  "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+  "sha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+  "articleType": "research-article",
+  "title": "Deep mining of the Sequence Read Archive reveals major genetic innovations in coronaviruses and other nidoviruses of aquatic vertebrates",
+  "authors": [
+    {
+      "name": "Chris Lauber",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Chris",
+        "surname": "Lauber",
+        "suffix": null
+      },
+      "originalName": "LauberChris",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes",
+        "equal-contrib": "yes"
+      },
+      "identifiers": [
+        {
+          "authenticated": "true",
+          "contrib-id-type": "orcid",
+          "value": "https://orcid.org/0000-0002-2265-2953"
+        }
+      ]
+    },
+    {
+      "name": "Xiaoyu Zhang",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Xiaoyu",
+        "surname": "Zhang",
+        "suffix": null
+      },
+      "originalName": "ZhangXiaoyu",
+      "attributes": {
+        "contrib-type": "author",
+        "equal-contrib": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Josef Vaas",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Josef",
+        "surname": "Vaas",
+        "suffix": null
+      },
+      "originalName": "VaasJosef",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Franziska Klingler",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Franziska",
+        "surname": "Klingler",
+        "suffix": null
+      },
+      "originalName": "KlinglerFranziska",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Pascal Mutz",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Pascal",
+        "surname": "Mutz",
+        "suffix": null
+      },
+      "originalName": "MutzPascal",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Arseny Dubin",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Arseny",
+        "surname": "Dubin",
+        "suffix": null
+      },
+      "originalName": "DubinArseny",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Thomas Pietschmann",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Thomas",
+        "surname": "Pietschmann",
+        "suffix": null
+      },
+      "originalName": "PietschmannThomas",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Olivia Roth",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Olivia",
+        "surname": "Roth",
+        "suffix": null
+      },
+      "originalName": "RothOlivia",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Benjamin W. Neuman",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Benjamin W.",
+        "surname": "Neuman",
+        "suffix": null
+      },
+      "originalName": "NeumanBenjamin W.",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Alexander E. Gorbalenya",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Alexander E.",
+        "surname": "Gorbalenya",
+        "suffix": null
+      },
+      "originalName": "GorbalenyaAlexander E.",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Ralf Bartenschlager",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Ralf",
+        "surname": "Bartenschlager",
+        "suffix": null
+      },
+      "originalName": "BartenschlagerRalf",
+      "attributes": {
+        "contrib-type": "author"
+      },
+      "identifiers": []
+    },
+    {
+      "name": "Stefan Seitz",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Stefan",
+        "surname": "Seitz",
+        "suffix": null
+      },
+      "originalName": "SeitzStefan",
+      "attributes": {
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": []
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC11065284"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC11065284.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "11065284"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "11065284"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "38648214"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.1371/journal.ppat.1012163"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "PPATHOGENS-D-23-01445"
+    }
+  ],
+  "publicationDates": [
+    {
+      "pub-type": "epub",
+      "year": "2024",
+      "month": "4",
+      "day": "22"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2024",
+      "month": "4",
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {},
+      "links": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "ppat.1012163.s001",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "ppat.1012163.s001.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ppat.1012163.s001.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ppat.1012163.s002",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "ppat.1012163.s002.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ppat.1012163.s002.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ppat.1012163.s003",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "ppat.1012163.s003.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ppat.1012163.s003.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ppat.1012163.s004",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "ppat.1012163.s004.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ppat.1012163.s004.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ppat.1012163.s005",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "ppat.1012163.s005.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ppat.1012163.s005.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ppat.1012163.s006",
+      "position": 5,
+      "links": [
+        {
+          "element": "ext-link",
+          "href": "http://www.uniprot.org/",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "http://www.uniprot.org/",
+            "ext-link-type": "uri"
+          }
+        },
+        {
+          "element": "media",
+          "href": "ppat.1012163.s006.pdf",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ppat.1012163.s006.pdf",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ppat.1012163.s007",
+      "position": 6,
+      "links": [
+        {
+          "element": "media",
+          "href": "ppat.1012163.s007.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ppat.1012163.s007.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ppat.1012163.s008",
+      "position": 7,
+      "links": [
+        {
+          "element": "media",
+          "href": "ppat.1012163.s008.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ppat.1012163.s008.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ppat.1012163.s009",
+      "position": 8,
+      "links": [
+        {
+          "element": "media",
+          "href": "ppat.1012163.s009.xlsx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ppat.1012163.s009.xlsx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ppat.1012163.s010",
+      "position": 9,
+      "links": [
+        {
+          "element": "media",
+          "href": "ppat.1012163.s010.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ppat.1012163.s010.docx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "ppat.1012163.s011",
+      "position": 10,
+      "links": [
+        {
+          "element": "media",
+          "href": "ppat.1012163.s011.docx",
+          "attributes": {
+            "{http://www.w3.org/1999/xlink}href": "ppat.1012163.s011.docx",
+            "position": "float",
+            "orientation": "portrait"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "ppat.1012163.ref001",
+      "position": 0,
+      "title": null,
+      "source": "Virus Taxonomy, Ninth Report of the International Committee on Taxonomy of Viruses",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "785"
+        ],
+        "lpage": [
+          "795"
+        ],
+        "publisher-name": [
+          "Elsevier Academic Press"
+        ],
+        "publisher-loc": [
+          "Amsterdam"
+        ]
+      },
+      "originalCitationText": "de GrootRJ, CowleyJA, EnjuanesL, FaabergKS, PerlmanS, RottierPJM, et al. Order Nidovirales.\nKingAMQ, AdamsMJ, CarstensEB, LefkowitzEJ (editors) Virus Taxonomy, Ninth Report of the International Committee on Taxonomy of Viruses. Amsterdam: Elsevier Academic Press; 2012. pp. 785–795.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref001",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref002",
+      "position": 1,
+      "title": "Additional changes to taxonomy ratified in a special vote by the International Committee on Taxonomy of Viruses (October 2018).",
+      "source": "Arch Virol",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "164"
+        ],
+        "fpage": [
+          "943"
+        ],
+        "lpage": [
+          "946"
+        ]
+      },
+      "originalCitationText": "SiddellSG, WalkerPJ, LefkowitzEJ, MushegianAR, AdamsMJ, DutilhBE, et al. Additional changes to taxonomy ratified in a special vote by the International Committee on Taxonomy of Viruses (October 2018).\nArch Virol. 2019;164: 943–946. doi: 10.1007/s00705-018-04136-2\n30663020",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s00705-018-04136-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30663020"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref002",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref003",
+      "position": 2,
+      "title": "Recent changes to virus taxonomy ratified by the International Committee on Taxonomy of Viruses (2022).",
+      "source": "Arch Virol",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "167"
+        ],
+        "fpage": [
+          "2429"
+        ],
+        "lpage": [
+          "2440"
+        ]
+      },
+      "originalCitationText": "WalkerPJ, SiddellSG, LefkowitzEJ, MushegianAR, AdriaenssensEM, Alfenas-ZerbiniP, et al. Recent changes to virus taxonomy ratified by the International Committee on Taxonomy of Viruses (2022).\nArch Virol. 2022;167: 2429–2440. doi: 10.1007/s00705-022-05516-5\n35999326\nPMC10088433",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s00705-022-05516-5"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35999326"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10088433"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref003",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref004",
+      "position": 3,
+      "title": "Identification of a novel coronavirus in patients with severe acute respiratory syndrome",
+      "source": "N Engl J Med",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "348"
+        ],
+        "fpage": [
+          "1967"
+        ],
+        "lpage": [
+          "1976"
+        ]
+      },
+      "originalCitationText": "DrostenC, GüntherS, PreiserW, van der WerfS, BrodtH-R, BeckerS, et al. Identification of a novel coronavirus in patients with severe acute respiratory syndrome. N Engl J Med. 2003;348: 1967–1976. doi: 10.1056/NEJMoa030747\n12690091",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1056/NEJMoa030747"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12690091"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref004",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref005",
+      "position": 4,
+      "title": "Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia",
+      "source": "N Engl J Med",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "367"
+        ],
+        "fpage": [
+          "1814"
+        ],
+        "lpage": [
+          "1820"
+        ]
+      },
+      "originalCitationText": "ZakiAM, van BoheemenS, BestebroerTM, OsterhausADME, FouchierRAM. Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia. N Engl J Med. 2012;367: 1814–1820. doi: 10.1056/NEJMoa1211721\n23075143",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1056/NEJMoa1211721"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23075143"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref005",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref006",
+      "position": 5,
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "source": "Nature",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "579"
+        ],
+        "fpage": [
+          "270"
+        ],
+        "lpage": [
+          "273"
+        ]
+      },
+      "originalCitationText": "ZhouP, YangX-L, WangX-G, HuB, ZhangL, ZhangW, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature. 2020;579: 270–273. doi: 10.1038/s41586-020-2012-7\n32015507\nPMC7095418",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41586-020-2012-7"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32015507"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7095418"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref006",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref007",
+      "position": 6,
+      "title": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2.",
+      "source": "Nat Microbiol",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "536"
+        ],
+        "lpage": [
+          "544"
+        ]
+      },
+      "originalCitationText": "GorbalenyaAE, BakerSC, BaricRS, De GrootRJ, DrostenC, GulyaevaAA, et al. The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2.\nNat Microbiol. 2020;5: 536–544. doi: 10.1038/s41564-020-0695-z\n32123347\nPMC7095448",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41564-020-0695-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32123347"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7095448"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref007",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref008",
+      "position": 7,
+      "title": "Forty years with coronaviruses",
+      "source": "Journal of Experimental Medicine",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "217"
+        ],
+        "fpage": [
+          "e20200537"
+        ]
+      },
+      "originalCitationText": "WeissSR. Forty years with coronaviruses. Journal of Experimental Medicine. 2020;217: e20200537. doi: 10.1084/jem.20200537\n32232339\nPMC7103766",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1084/jem.20200537"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32232339"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7103766"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref008",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref009",
+      "position": 8,
+      "title": "Description and initial characterization of metatranscriptomic nidovirus-like genomes from the proposed new family Abyssoviridae, and from a sister group to the Coronavirinae, the proposed genus Alphaletovirus",
+      "source": "Virology",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "524"
+        ],
+        "fpage": [
+          "160"
+        ],
+        "lpage": [
+          "171"
+        ]
+      },
+      "originalCitationText": "BukhariK, MulleyG, GulyaevaAA, ZhaoL, ShuG, JiangJ, et al. Description and initial characterization of metatranscriptomic nidovirus-like genomes from the proposed new family Abyssoviridae, and from a sister group to the Coronavirinae, the proposed genus Alphaletovirus. Virology. 2018;524: 160–171. doi: 10.1016/j.virol.2018.08.010\n30199753\nPMC7112036",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.virol.2018.08.010"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30199753"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7112036"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref009",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref010",
+      "position": 9,
+      "title": "A planarian nidovirus expands the limits of RNA genome size",
+      "source": "PLoS Pathog",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "e1007314"
+        ]
+      },
+      "originalCitationText": "SaberiA, GulyaevaAA, BrubacherJL, NewmarkPA, GorbalenyaAE. A planarian nidovirus expands the limits of RNA genome size. PLoS Pathog. 2018;14: e1007314. doi: 10.1371/journal.ppat.1007314\n30383829\nPMC6211748",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.ppat.1007314"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30383829"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6211748"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref010",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref011",
+      "position": 10,
+      "title": "An efficient ribosomal frame-shifting signal in the polymerase-encoding region of the coronavirus IBV",
+      "source": "EMBO J",
+      "year": "1987",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "3779"
+        ],
+        "lpage": [
+          "3785"
+        ]
+      },
+      "originalCitationText": "BrierleyI, BoursnellME, BinnsMM, BilimoriaB, BlokVC, BrownTD, et al. An efficient ribosomal frame-shifting signal in the polymerase-encoding region of the coronavirus IBV. EMBO J. 1987;6: 3779–3785. doi: 10.1002/j.1460-2075.1987.tb02713.x\n3428275\nPMC553849",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/j.1460-2075.1987.tb02713.x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "3428275"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC553849"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref011",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref012",
+      "position": 11,
+      "title": "The molecular biology of coronaviruses",
+      "source": "Adv Virus Res",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "48"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "100"
+        ]
+      },
+      "originalCitationText": "LaiMM, CavanaghD. The molecular biology of coronaviruses. Adv Virus Res. 1997;48: 1–100. doi: 10.1016/S0065-3527(08)60286-9\n9233431\nPMC7130985",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0065-3527(08)60286-9"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "9233431"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7130985"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref012",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref013",
+      "position": 12,
+      "title": "The molecular biology of arteriviruses",
+      "source": "J Gen Virol",
+      "year": "1998",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "79"
+        ],
+        "issue": [
+          "Pt 5"
+        ],
+        "fpage": [
+          "961"
+        ],
+        "lpage": [
+          "979"
+        ]
+      },
+      "originalCitationText": "SnijderEJ, MeulenbergJJ. The molecular biology of arteriviruses. J Gen Virol. 1998;79 (Pt 5): 961–979. doi: 10.1099/0022-1317-79-5-961\n9603311",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1099/0022-1317-79-5-961"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "9603311"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref013",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref014",
+      "position": 13,
+      "title": "Unique and Conserved Features of Genome and Proteome of SARS-coronavirus, an Early Split-off From the Coronavirus Group 2 Lineage",
+      "source": "Journal of Molecular Biology",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "331"
+        ],
+        "fpage": [
+          "991"
+        ],
+        "lpage": [
+          "1004"
+        ]
+      },
+      "originalCitationText": "SnijderEJ, BredenbeekPJ, DobbeJC, ThielV, ZiebuhrJ, PoonLLM, et al. Unique and Conserved Features of Genome and Proteome of SARS-coronavirus, an Early Split-off From the Coronavirus Group 2 Lineage. Journal of Molecular Biology. 2003;331: 991–1004. doi: 10.1016/s0022-2836(03)00865-9\n12927536\nPMC7159028",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/s0022-2836(03)00865-9"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12927536"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7159028"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref014",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref015",
+      "position": 14,
+      "title": "Discovery of an essential nucleotidylating activity associated with a newly delineated conserved domain in the RNA polymerase-containing protein of all nidoviruses",
+      "source": "Nucleic Acids Res",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "43"
+        ],
+        "fpage": [
+          "8416"
+        ],
+        "lpage": [
+          "8434"
+        ]
+      },
+      "originalCitationText": "LehmannKC, GulyaevaA, Zevenhoven-DobbeJC, JanssenGMC, RubenM, OverkleeftHS, et al. Discovery of an essential nucleotidylating activity associated with a newly delineated conserved domain in the RNA polymerase-containing protein of all nidoviruses. Nucleic Acids Res. 2015;43: 8416–8434. doi: 10.1093/nar/gkv838\n26304538\nPMC4787807",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkv838"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26304538"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4787807"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref015",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref016",
+      "position": 15,
+      "title": "Coronavirus genome: prediction of putative functional domains in the non-structural polyprotein by comparative amino acid sequence analysis",
+      "source": "Nucleic Acids Res",
+      "year": "1989",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "fpage": [
+          "4847"
+        ],
+        "lpage": [
+          "4861"
+        ]
+      },
+      "originalCitationText": "GorbalenyaAE, KooninEV, DonchenkoAP, BlinovVM. Coronavirus genome: prediction of putative functional domains in the non-structural polyprotein by comparative amino acid sequence analysis. Nucleic Acids Res. 1989;17: 4847–4861. doi: 10.1093/nar/17.12.4847\n2526320\nPMC318036",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/17.12.4847"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "2526320"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC318036"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref016",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref017",
+      "position": 16,
+      "title": "A second type of N7-guanine RNA cap methyltransferase in an unusual locus of a large RNA virus genome",
+      "source": "Nucleic Acids Research",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "50"
+        ],
+        "fpage": [
+          "11186"
+        ],
+        "lpage": [
+          "11198"
+        ]
+      },
+      "originalCitationText": "ShannonA, SamaB, GauffreP, GuezT, DebartF, VasseurJ-J, et al. A second type of N7-guanine RNA cap methyltransferase in an unusual locus of a large RNA virus genome. Nucleic Acids Research. 2022;50: 11186–11198. doi: 10.1093/nar/gkac876\n36265859\nPMC9638943",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkac876"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36265859"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9638943"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref017",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref018",
+      "position": 17,
+      "title": "Specificity and Mechanism of Coronavirus, Rotavirus, and Mammalian Two-Histidine Phosphoesterases That Antagonize Antiviral Innate Immunity",
+      "source": "mBio",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "e01781"
+        ],
+        "lpage": [
+          "21"
+        ]
+      },
+      "originalCitationText": "AsthanaA, GaughanC, DongB, WeissSR, SilvermanRH. Specificity and Mechanism of Coronavirus, Rotavirus, and Mammalian Two-Histidine Phosphoesterases That Antagonize Antiviral Innate Immunity. ReichNC, editor. mBio. 2021;12: e01781–21. doi: 10.1128/mBio.01781-21\n34372695\nPMC8406329",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/mBio.01781-21"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34372695"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8406329"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref018",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref019",
+      "position": 18,
+      "title": "The Nonstructural Proteins Directing Coronavirus RNA Synthesis and Processing",
+      "source": "Advances in Virus Research",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "59"
+        ],
+        "lpage": [
+          "126"
+        ],
+        "publisher-name": [
+          "Elsevier"
+        ]
+      },
+      "originalCitationText": "SnijderEJ, DecrolyE, ZiebuhrJ. The Nonstructural Proteins Directing Coronavirus RNA Synthesis and Processing. Advances in Virus Research. Elsevier; 2016. pp. 59–126. doi: 10.1016/bs.aivir.2016.08.008\nPMC711228627712628",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/bs.aivir.2016.08.008"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7112286"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27712628"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref019",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref020",
+      "position": 19,
+      "title": "Nidovirales: Evolving the largest RNA virus genome",
+      "source": "Virus Research",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "117"
+        ],
+        "fpage": [
+          "17"
+        ],
+        "lpage": [
+          "37"
+        ]
+      },
+      "originalCitationText": "GorbalenyaAE, EnjuanesL, ZiebuhrJ, SnijderEJ. Nidovirales: Evolving the largest RNA virus genome. Virus Research. 2006;117: 17–37. doi: 10.1016/j.virusres.2006.01.017\n16503362\nPMC7114179",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.virusres.2006.01.017"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16503362"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7114179"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref020",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref021",
+      "position": 20,
+      "title": "High fidelity of murine hepatitis virus replication is decreased in nsp14 exoribonuclease mutants",
+      "source": "J Virol",
+      "year": "2007",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "81"
+        ],
+        "fpage": [
+          "12135"
+        ],
+        "lpage": [
+          "12144"
+        ]
+      },
+      "originalCitationText": "EckerleLD, LuX, SperrySM, ChoiL, DenisonMR. High fidelity of murine hepatitis virus replication is decreased in nsp14 exoribonuclease mutants. J Virol. 2007;81: 12135–12144. doi: 10.1128/JVI.01296-07\n17804504\nPMC2169014",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/JVI.01296-07"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "17804504"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2169014"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref021",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref022",
+      "position": 21,
+      "title": "Structures and functions of coronavirus replication–transcription complexes and their relevance for SARS-CoV-2 drug design",
+      "source": "Nat Rev Mol Cell Biol",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "fpage": [
+          "21"
+        ],
+        "lpage": [
+          "39"
+        ]
+      },
+      "originalCitationText": "MaloneB, UrakovaN, SnijderEJ, CampbellEA. Structures and functions of coronavirus replication–transcription complexes and their relevance for SARS-CoV-2 drug design. Nat Rev Mol Cell Biol. 2022;23: 21–39. doi: 10.1038/s41580-021-00432-z\n34824452\nPMC8613731",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41580-021-00432-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34824452"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8613731"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref022",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref023",
+      "position": 22,
+      "title": "Accessory proteins of SARS-CoV and other coronaviruses",
+      "source": "Antiviral Research",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "109"
+        ],
+        "fpage": [
+          "97"
+        ],
+        "lpage": [
+          "109"
+        ]
+      },
+      "originalCitationText": "LiuDX, FungTS, ChongKK-L, ShuklaA, HilgenfeldR. Accessory proteins of SARS-CoV and other coronaviruses. Antiviral Research. 2014;109: 97–109. doi: 10.1016/j.antiviral.2014.06.013\n24995382\nPMC7113789",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.antiviral.2014.06.013"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24995382"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7113789"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref023",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref024",
+      "position": 23,
+      "title": "Coronavirus biology and replication: implications for SARS-CoV-2",
+      "source": "Nat Rev Microbiol",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "155"
+        ],
+        "lpage": [
+          "170"
+        ]
+      },
+      "originalCitationText": "V’kovskiP, KratzelA, SteinerS, StalderH, ThielV. Coronavirus biology and replication: implications for SARS-CoV-2. Nat Rev Microbiol. 2021;19: 155–170. doi: 10.1038/s41579-020-00468-6\n33116300\nPMC7592455",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41579-020-00468-6"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33116300"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7592455"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref024",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref025",
+      "position": 24,
+      "title": "Family Coronaviridae.",
+      "source": "Virus Taxonomy, Ninth Report of the International Committee on Taxonomy of Viruses",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "806"
+        ],
+        "lpage": [
+          "828"
+        ],
+        "publisher-name": [
+          "Elsevier Academic Press"
+        ],
+        "publisher-loc": [
+          "Amsterdam"
+        ]
+      },
+      "originalCitationText": "de GrootRJ, BakerSC, BaricRS, EnjuanesL, GorbalenyaAE, HolmesKV, et al. Family Coronaviridae.\nKingAMQ, AdamsMJ, CarstensEB, LefkowitzEJ (editors) Virus Taxonomy, Ninth Report of the International Committee on Taxonomy of Viruses. Amsterdam: Elsevier Academic Press; 2012. pp. 806–828.",
+      "identifiers": [],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref025",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref026",
+      "position": 25,
+      "title": "Evidence of the recombinant origin of a bat severe acute respiratory syndrome (SARS)-like coronavirus and its implications on the direct ancestor of SARS coronavirus.",
+      "source": "J Virol",
+      "year": "2008",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "82"
+        ],
+        "fpage": [
+          "1819"
+        ],
+        "lpage": [
+          "1826"
+        ]
+      },
+      "originalCitationText": "HonC-C, LamT-Y, ShiZ-L, DrummondAJ, YipC-W, ZengF, et al. Evidence of the recombinant origin of a bat severe acute respiratory syndrome (SARS)-like coronavirus and its implications on the direct ancestor of SARS coronavirus.\nJ Virol. 2008;82: 1819–1826. doi: 10.1128/JVI.01926-07\n18057240\nPMC2258724",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/JVI.01926-07"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "18057240"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2258724"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref026",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref027",
+      "position": 26,
+      "title": "Evolutionary origins of the SARS-CoV-2 sarbecovirus lineage responsible for the COVID-19 pandemic.",
+      "source": "Nat Microbiol",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "1408"
+        ],
+        "lpage": [
+          "1417"
+        ]
+      },
+      "originalCitationText": "BoniMF, LemeyP, JiangX, LamTT-Y, PerryBW, CastoeTA, et al. Evolutionary origins of the SARS-CoV-2 sarbecovirus lineage responsible for the COVID-19 pandemic.\nNat Microbiol. 2020;5: 1408–1417. doi: 10.1038/s41564-020-0771-4\n32724171",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41564-020-0771-4"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32724171"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref027",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref028",
+      "position": 27,
+      "title": "Molecular Evolution of Human Coronavirus Genomes",
+      "source": "Trends Microbiol",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "35"
+        ],
+        "lpage": [
+          "48"
+        ]
+      },
+      "originalCitationText": "ForniD, CaglianiR, ClericiM, SironiM. Molecular Evolution of Human Coronavirus Genomes. Trends Microbiol. 2017;25: 35–48. doi: 10.1016/j.tim.2016.09.001\n27743750\nPMC7111218",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.tim.2016.09.001"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27743750"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7111218"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref028",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref029",
+      "position": 28,
+      "title": "The Remarkable Evolutionary Plasticity of Coronaviruses by Mutation and Recombination: Insights for the COVID-19 Pandemic and the Future Evolutionary Paths of SARS-CoV-2.",
+      "source": "Viruses",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "78"
+        ]
+      },
+      "originalCitationText": "AmoutziasGD, NikolaidisM, TryfonopoulouE, ChlichliaK, MarkoulatosP, OliverSG. The Remarkable Evolutionary Plasticity of Coronaviruses by Mutation and Recombination: Insights for the COVID-19 Pandemic and the Future Evolutionary Paths of SARS-CoV-2.\nViruses. 2022;14: 78. doi: 10.3390/v14010078\n35062282\nPMC8778387",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/v14010078"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35062282"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8778387"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref029",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref030",
+      "position": 29,
+      "title": "A nidovirus perspective on SARS-CoV-2",
+      "source": "Biochemical and Biophysical Research Communications",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "538"
+        ],
+        "fpage": [
+          "24"
+        ],
+        "lpage": [
+          "34"
+        ]
+      },
+      "originalCitationText": "GulyaevaAA, GorbalenyaAE. A nidovirus perspective on SARS-CoV-2. Biochemical and Biophysical Research Communications. 2021;538: 24–34. doi: 10.1016/j.bbrc.2020.11.015\n33413979\nPMC7664520",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.bbrc.2020.11.015"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33413979"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7664520"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref030",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref031",
+      "position": 30,
+      "title": "Chimeric viruses blur the borders between the major groups of eukaryotic single-stranded DNA viruses",
+      "source": "Nat Commun",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ],
+        "fpage": [
+          "2700"
+        ]
+      },
+      "originalCitationText": "RouxS, EnaultF, BronnerG, VaulotD, ForterreP, KrupovicM. Chimeric viruses blur the borders between the major groups of eukaryotic single-stranded DNA viruses. Nat Commun. 2013;4: 2700. doi: 10.1038/ncomms3700\n24193254",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/ncomms3700"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24193254"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref031",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref032",
+      "position": 31,
+      "title": "Origins and evolution of viruses of eukaryotes: The ultimate modularity",
+      "source": "Virology",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "479–480"
+        ],
+        "fpage": [
+          "2"
+        ],
+        "lpage": [
+          "25"
+        ]
+      },
+      "originalCitationText": "KooninEV, DoljaVV, KrupovicM. Origins and evolution of viruses of eukaryotes: The ultimate modularity. Virology. 2015;479–480: 2–25. doi: 10.1016/j.virol.2015.02.039\n25771806\nPMC5898234",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.virol.2015.02.039"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25771806"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5898234"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref032",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref033",
+      "position": 32,
+      "title": "Discovery of highly divergent lineages of plant-associated astro-like viruses sheds light on the emergence of potyviruses",
+      "source": "Virus Res",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "260"
+        ],
+        "fpage": [
+          "38"
+        ],
+        "lpage": [
+          "48"
+        ]
+      },
+      "originalCitationText": "LauberC, SeifertM, BartenschlagerR, SeitzS. Discovery of highly divergent lineages of plant-associated astro-like viruses sheds light on the emergence of potyviruses. Virus Res. 2019;260: 38–48. doi: 10.1016/j.virusres.2018.11.009\n30452944",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.virusres.2018.11.009"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30452944"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref033",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref034",
+      "position": 33,
+      "title": "Slippery when wet: cross-species transmission of divergent coronaviruses in bony and jawless fish and the evolutionary history of the Coronaviridae.",
+      "source": "Virus Evolution",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "veab050"
+        ]
+      },
+      "originalCitationText": "MillerAK, MifsudJCO, CostaVA, GrimwoodRM, KitsonJ, BakerC, et al. Slippery when wet: cross-species transmission of divergent coronaviruses in bony and jawless fish and the evolutionary history of the Coronaviridae.\nVirus Evolution. 2021;7: veab050. doi: 10.1093/ve/veab050\n34527280\nPMC8244743",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/ve/veab050"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34527280"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8244743"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref034",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref035",
+      "position": 34,
+      "title": "Analysing recombination in nucleotide sequences",
+      "source": "Molecular Ecology Resources",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "943"
+        ],
+        "lpage": [
+          "955"
+        ]
+      },
+      "originalCitationText": "MartinDP, LemeyP, PosadaD. Analysing recombination in nucleotide sequences. Molecular Ecology Resources. 2011;11: 943–955. doi: 10.1111/j.1755-0998.2011.03026.x\n21592314",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.1755-0998.2011.03026.x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21592314"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref035",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref036",
+      "position": 35,
+      "title": "Automated Phylogenetic Detection of Recombination Using a Genetic Algorithm",
+      "source": "Molecular Biology and Evolution",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "fpage": [
+          "1891"
+        ],
+        "lpage": [
+          "1901"
+        ]
+      },
+      "originalCitationText": "Kosakovsky PondSL, PosadaD, GravenorMB, WoelkCH, FrostSDW. Automated Phylogenetic Detection of Recombination Using a Genetic Algorithm. Molecular Biology and Evolution. 2006;23: 1891–1901. doi: 10.1093/molbev/msl051\n16818476",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/molbev/msl051"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16818476"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref036",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref037",
+      "position": 36,
+      "title": "Redefining the invertebrate RNA virosphere",
+      "source": "Nature",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "ShiM, LinX-D, TianJ-H, ChenL-J, ChenX, LiC-X, et al. Redefining the invertebrate RNA virosphere. Nature. 2016. doi: 10.1038/nature20167\n27880757",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature20167"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27880757"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref037",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref038",
+      "position": 37,
+      "title": "A Novel RNA Virus, Macrobrachium rosenbergii Golda Virus (MrGV), Linked to Mass Mortalities of the Larval Giant Freshwater Prawn in Bangladesh.",
+      "source": "Viruses",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "E1120"
+        ]
+      },
+      "originalCitationText": "HooperC, DebnathPP, BiswasS, van AerleR, BatemanKS, BasakSK, et al. A Novel RNA Virus, Macrobrachium rosenbergii Golda Virus (MrGV), Linked to Mass Mortalities of the Larval Giant Freshwater Prawn in Bangladesh.\nViruses. 2020;12: E1120. doi: 10.3390/v12101120\n33023199\nPMC7601004",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/v12101120"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33023199"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7601004"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref038",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref039",
+      "position": 38,
+      "title": "Longitudinal and Cross-Sectional Sampling of Serpentovirus (Nidovirus) Infection in Captive Snakes Reveals High Prevalence, Persistent Infection, and Increased Mortality in Pythons and Divergent Serpentovirus Infection in Boas and Colubrids.",
+      "source": "Front Vet Sci.",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "338"
+        ]
+      },
+      "originalCitationText": "Hoon-HanksLL, OssiboffRJ, BartoliniP, FogelsonSB, PerrySM, StöhrAC, et al. Longitudinal and Cross-Sectional Sampling of Serpentovirus (Nidovirus) Infection in Captive Snakes Reveals High Prevalence, Persistent Infection, and Increased Mortality in Pythons and Divergent Serpentovirus Infection in Boas and Colubrids.\nFront Vet Sci.\n2019;6: 338. doi: 10.3389/fvets.2019.00338\n31632990\nPMC6786048",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3389/fvets.2019.00338"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31632990"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6786048"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref039",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref040",
+      "position": 39,
+      "title": "Serpentovirus (Nidovirus) and Orthoreovirus Coinfection in Captive Veiled Chameleons (Chamaeleo calyptratus) with Respiratory Disease.",
+      "source": "Viruses",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "E1329"
+        ]
+      },
+      "originalCitationText": "Hoon-HanksLL, StöhrAC, AndersonAJ, EvansDE, NevarezJG, DíazRE, et al. Serpentovirus (Nidovirus) and Orthoreovirus Coinfection in Captive Veiled Chameleons (Chamaeleo calyptratus) with Respiratory Disease.\nViruses. 2020;12: E1329. doi: 10.3390/v12111329\n33228135\nPMC7699425",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/v12111329"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33228135"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7699425"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref040",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref041",
+      "position": 40,
+      "title": "Investigations into the presence of nidoviruses in pythons.",
+      "source": "Virol J.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "17"
+        ],
+        "fpage": [
+          "6"
+        ]
+      },
+      "originalCitationText": "BlahakS, JenckelM, HöperD, BeerM, HoffmannB, SchlottauK. Investigations into the presence of nidoviruses in pythons.\nVirol J.\n2020;17: 6. doi: 10.1186/s12985-020-1279-5\n31952524\nPMC6969405",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/s12985-020-1279-5"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31952524"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6969405"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref041",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref042",
+      "position": 41,
+      "title": "Complete genome sequence and analysis of a new lethal arterivirus, Trionyx sinensis hemorrhagic syndrome virus (TSHSV), amplified from an infected Chinese softshell turtle.",
+      "source": "Arch Virol",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "164"
+        ],
+        "fpage": [
+          "2593"
+        ],
+        "lpage": [
+          "2597"
+        ]
+      },
+      "originalCitationText": "LyuS, YuanX, ZhangH, ShiW, HangX, LiuL, et al. Complete genome sequence and analysis of a new lethal arterivirus, Trionyx sinensis hemorrhagic syndrome virus (TSHSV), amplified from an infected Chinese softshell turtle.\nArch Virol. 2019;164: 2593–2597. doi: 10.1007/s00705-019-04324-8\n31270606\nPMC7087228",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s00705-019-04324-8"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31270606"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7087228"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref042",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref043",
+      "position": 42,
+      "title": "Novel Bat Alphacoronaviruses in Southern China Support Chinese Horseshoe Bats as an Important Reservoir for Potential Novel Coronaviruses.",
+      "source": "Viruses",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "E423"
+        ]
+      },
+      "originalCitationText": "LauSKP, WongACP, ZhangL, LukHKH, KwokJSL, AhmedSS, et al. Novel Bat Alphacoronaviruses in Southern China Support Chinese Horseshoe Bats as an Important Reservoir for Potential Novel Coronaviruses.\nViruses. 2019;11: E423. doi: 10.3390/v11050423\n31067830\nPMC6563315",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/v11050423"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31067830"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6563315"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref043",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref044",
+      "position": 43,
+      "title": "Viral Diversity of Microbats within the South West Botanical Province of Western Australia.",
+      "source": "Viruses",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "E1157"
+        ]
+      },
+      "originalCitationText": "PradaD, BoydV, BakerML, O’DeaM, JacksonB. Viral Diversity of Microbats within the South West Botanical Province of Western Australia.\nViruses. 2019;11: E1157. doi: 10.3390/v11121157\n31847282\nPMC6950384",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/v11121157"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31847282"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6950384"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref044",
+        "position": 43,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref045",
+      "position": 44,
+      "title": "Discovery of Bat Coronaviruses through Surveillance and Probe Capture-Based Next-Generation Sequencing.",
+      "source": "mSphere",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "5"
+        ],
+        "fpage": [
+          "e00807"
+        ],
+        "lpage": [
+          "19"
+        ]
+      },
+      "originalCitationText": "LiB, SiH-R, ZhuY, YangX-L, AndersonDE, ShiZ-L, et al. Discovery of Bat Coronaviruses through Surveillance and Probe Capture-Based Next-Generation Sequencing.\nmSphere. 2020;5: e00807–19. doi: 10.1128/mSphere.00807-19\n31996413\nPMC6992374",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/mSphere.00807-19"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31996413"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6992374"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref045",
+        "position": 44,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref046",
+      "position": 45,
+      "title": "Complete Genome Sequence of an Alphacoronavirus from Common Vampire Bats in Peru.",
+      "source": "Microbiol Resour Announc.",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ]
+      },
+      "originalCitationText": "BergnerLM, OrtonRJ, StreickerDG. Complete Genome Sequence of an Alphacoronavirus from Common Vampire Bats in Peru.\nRouxS, editor. Microbiol Resour Announc.\n2020;9. doi: 10.1128/MRA.00742-20\n32816981\nPMC7441239",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/MRA.00742-20"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32816981"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7441239"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref046",
+        "position": 45,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref047",
+      "position": 46,
+      "title": "Endangered wild salmon infected by newly discovered viruses.",
+      "source": "Elife",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "e47615"
+        ]
+      },
+      "originalCitationText": "MordecaiGJ, MillerKM, Di CiccoE, SchulzeAD, KaukinenKH, MingTJ, et al. Endangered wild salmon infected by newly discovered viruses.\nElife. 2019;8: e47615. doi: 10.7554/eLife.47615\n31478480\nPMC6721791",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.7554/eLife.47615"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31478480"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6721791"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref047",
+        "position": 46,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref048",
+      "position": 47,
+      "title": "Complexity and local specificity of the virome associated with tospovirus-transmitting thrips species",
+      "source": "J Virol",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "fpage": [
+          "JVI0059721"
+        ]
+      },
+      "originalCitationText": "ChiapelloM, BoscoL, CiuffoM, OttatiS, SalemN, RosaC, et al. Complexity and local specificity of the virome associated with tospovirus-transmitting thrips species. J Virol. 2021; JVI0059721. doi: 10.1128/JVI.00597-21\n34232724\nPMC8513489",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/JVI.00597-21"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "34232724"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8513489"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref048",
+        "position": 47,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref049",
+      "position": 48,
+      "title": "Isolation and characterization of a novel mesonivirus from Culex mosquitoes in China",
+      "source": "Virus Res",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "240"
+        ],
+        "fpage": [
+          "130"
+        ],
+        "lpage": [
+          "139"
+        ]
+      },
+      "originalCitationText": "WangY, XiaH, ZhangB, LiuX, YuanZ. Isolation and characterization of a novel mesonivirus from Culex mosquitoes in China. Virus Res. 2017;240: 130–139. doi: 10.1016/j.virusres.2017.08.001\n28823942\nPMC7125798",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.virusres.2017.08.001"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28823942"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7125798"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref049",
+        "position": 48,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref050",
+      "position": 49,
+      "title": "Discovery of a Highly Divergent Coronavirus in the Asian House Shrew from China Illuminates the Origin of the Alphacoronaviruses",
+      "source": "J Virol",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "91"
+        ],
+        "fpage": [
+          "e00764"
+        ],
+        "lpage": [
+          "17"
+        ]
+      },
+      "originalCitationText": "WangW, LinX-D, LiaoY, GuanX-Q, GuoW-P, XingJ-G, et al. Discovery of a Highly Divergent Coronavirus in the Asian House Shrew from China Illuminates the Origin of the Alphacoronaviruses. J Virol. 2017;91: e00764–17. doi: 10.1128/JVI.00764-17\n28637760\nPMC5553162",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/JVI.00764-17"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28637760"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5553162"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref050",
+        "position": 49,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref051",
+      "position": 50,
+      "title": "Viral dark matter and virus-host interactions resolved from publicly available microbial genomes.",
+      "source": "Elife",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "4"
+        ]
+      },
+      "originalCitationText": "RouxS, HallamSJ, WoykeT, SullivanMB. Viral dark matter and virus-host interactions resolved from publicly available microbial genomes.\nElife. 2015;4. doi: 10.7554/eLife.08490\n26200428\nPMC4533152",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.7554/eLife.08490"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26200428"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4533152"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref051",
+        "position": 50,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref052",
+      "position": 51,
+      "title": "Deciphering the Origin and Evolution of Hepatitis B Viruses by Means of a Family of Non-enveloped Fish Viruses.",
+      "source": "Cell Host Microbe",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "22"
+        ],
+        "fpage": [
+          "387"
+        ],
+        "lpage": [
+          "399.e6"
+        ]
+      },
+      "originalCitationText": "LauberC, SeitzS, MatteiS, SuhA, BeckJ, HersteinJ, et al. Deciphering the Origin and Evolution of Hepatitis B Viruses by Means of a Family of Non-enveloped Fish Viruses.\nCell Host Microbe. 2017;22: 387–399.e6. doi: 10.1016/j.chom.2017.07.019\n28867387\nPMC5604429",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.chom.2017.07.019"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28867387"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5604429"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref052",
+        "position": 51,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref053",
+      "position": 52,
+      "title": "Petabase-scale sequence alignment catalyses viral discovery",
+      "source": "Nature",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "602"
+        ],
+        "fpage": [
+          "142"
+        ],
+        "lpage": [
+          "147"
+        ]
+      },
+      "originalCitationText": "EdgarRC, TaylorJ, LinV, AltmanT, BarberaP, MeleshkoD, et al. Petabase-scale sequence alignment catalyses viral discovery. Nature. 2022;602: 142–147. doi: 10.1038/s41586-021-04332-2\n35082445",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41586-021-04332-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35082445"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref053",
+        "position": 52,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref054",
+      "position": 53,
+      "title": "Cryptic and abundant marine viruses at the evolutionary origins of Earth’s RNA virome",
+      "source": "Science",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "376"
+        ],
+        "fpage": [
+          "156"
+        ],
+        "lpage": [
+          "162"
+        ]
+      },
+      "originalCitationText": "ZayedAA, WainainaJM, Dominguez-HuertaG, PelletierE, GuoJ, MohssenM, et al. Cryptic and abundant marine viruses at the evolutionary origins of Earth’s RNA virome. Science. 2022;376: 156–162. doi: 10.1126/science.abm5847\n35389782\nPMC10990476",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.abm5847"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "35389782"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10990476"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref054",
+        "position": 53,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref055",
+      "position": 54,
+      "title": "Expansion of the global RNA virome reveals diverse clades of bacteriophages",
+      "source": "Cell",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "185"
+        ],
+        "fpage": [
+          "4023"
+        ],
+        "lpage": [
+          "4037.e18"
+        ]
+      },
+      "originalCitationText": "NeriU, WolfYI, RouxS, CamargoAP, LeeB, KazlauskasD, et al. Expansion of the global RNA virome reveals diverse clades of bacteriophages. Cell. 2022;185: 4023–4037.e18. doi: 10.1016/j.cell.2022.08.023\n36174579",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.cell.2022.08.023"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36174579"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref055",
+        "position": 54,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref056",
+      "position": 55,
+      "title": "Twilight zone of protein sequence alignments",
+      "source": "Protein Eng",
+      "year": "1999",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "85"
+        ],
+        "lpage": [
+          "94"
+        ]
+      },
+      "originalCitationText": "RostB.\nTwilight zone of protein sequence alignments. Protein Eng. 1999;12: 85–94. doi: 10.1093/protein/12.2.85\n10195279",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/protein/12.2.85"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10195279"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref056",
+        "position": 55,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref057",
+      "position": 56,
+      "title": "The evolutionary history of vertebrate RNA viruses",
+      "source": "Nature",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "556"
+        ],
+        "fpage": [
+          "197"
+        ],
+        "lpage": [
+          "202"
+        ]
+      },
+      "originalCitationText": "ShiM, LinX-D, ChenX, TianJ-H, ChenL-J, LiK, et al. The evolutionary history of vertebrate RNA viruses. Nature. 2018;556: 197–202. doi: 10.1038/s41586-018-0012-7\n29618816",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41586-018-0012-7"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29618816"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref057",
+        "position": 56,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref058",
+      "position": 57,
+      "title": "Partitioning the genetic diversity of a virus family: approach and evaluation through a case study of picornaviruses",
+      "source": "J Virol",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "86"
+        ],
+        "fpage": [
+          "3890"
+        ],
+        "lpage": [
+          "3904"
+        ]
+      },
+      "originalCitationText": "LauberC, GorbalenyaAE. Partitioning the genetic diversity of a virus family: approach and evaluation through a case study of picornaviruses. J Virol. 2012;86: 3890–3904. doi: 10.1128/JVI.07173-11\n22278230\nPMC3302503",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/JVI.07173-11"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22278230"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3302503"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref058",
+        "position": 57,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref059",
+      "position": 58,
+      "title": "The footprint of genome architecture in the largest genome expansion in RNA viruses",
+      "source": "PLoS Pathog",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "e1003500"
+        ]
+      },
+      "originalCitationText": "LauberC, GoemanJJ, Parquet M delC, NgaPT, SnijderEJ, MoritaK, et al. The footprint of genome architecture in the largest genome expansion in RNA viruses. PLoS Pathog. 2013;9: e1003500. doi: 10.1371/journal.ppat.1003500\n23874204\nPMC3715407",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.ppat.1003500"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23874204"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3715407"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref059",
+        "position": 58,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref060",
+      "position": 59,
+      "title": "Transcriptional analysis of the murine cytomegalovirus HindIII-I region: identification of a novel immediate-early gene region",
+      "source": "Virology",
+      "year": "1999",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "260"
+        ],
+        "fpage": [
+          "156"
+        ],
+        "lpage": [
+          "164"
+        ]
+      },
+      "originalCitationText": "HansonLK, DaltonBL, KarabekianZ, FarrellHE, RawlinsonWD, StenbergRM, et al. Transcriptional analysis of the murine cytomegalovirus HindIII-I region: identification of a novel immediate-early gene region. Virology. 1999;260: 156–164. doi: 10.1006/viro.1999.9796\n10405367",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1006/viro.1999.9796"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10405367"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref060",
+        "position": 59,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref061",
+      "position": 60,
+      "title": "A tick-borne segmented RNA virus contains genome segments derived from unsegmented viral ancestors",
+      "source": "Proceedings of the National Academy of Sciences",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "111"
+        ],
+        "fpage": [
+          "6744"
+        ],
+        "lpage": [
+          "6749"
+        ]
+      },
+      "originalCitationText": "QinX-C, ShiM, TianJ-H, LinX-D, GaoD-Y, HeJ-R, et al. A tick-borne segmented RNA virus contains genome segments derived from unsegmented viral ancestors. Proceedings of the National Academy of Sciences. 2014;111: 6744–6749. doi: 10.1073/pnas.1324194111\n24753611\nPMC4020047",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1324194111"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24753611"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4020047"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref061",
+        "position": 60,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref062",
+      "position": 61,
+      "title": "A new lineage of segmented RNA viruses infecting animals",
+      "source": "Virus Evolution",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "fpage": [
+          "vez061"
+        ]
+      },
+      "originalCitationText": "ObbardDJ, ShiM, RobertsKE, LongdonB, DennisAB. A new lineage of segmented RNA viruses infecting animals. Virus Evolution. 2020;6: vez061. doi: 10.1093/ve/vez061\n31976084\nPMC6966834",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/ve/vez061"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31976084"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6966834"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref062",
+        "position": 61,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref063",
+      "position": 62,
+      "title": null,
+      "source": "Deep mining of the Sequence Read Archive reveals bipartite coronavirus genomes and inter-family Spike glycoprotein recombination.",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "bioRxiv"
+        ]
+      },
+      "originalCitationText": "LauberC, VaasJ, KlinglerF, MutzP, GorbalenyaAE, BartenschlagerR, et al. Deep mining of the Sequence Read Archive reveals bipartite coronavirus genomes and inter-family Spike glycoprotein recombination.\nbioRxiv; 2021\nOct. doi: 10.1101/2021.10.20.465146",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/2021.10.20.465146"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref063",
+        "position": 62,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref064",
+      "position": 63,
+      "title": "The 3’ and 5’-terminal sequences of influenza A, B and C virus RNA segments are highly conserved and show partial inverted complementarity.",
+      "source": "Gene",
+      "year": "1980",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "315"
+        ],
+        "lpage": [
+          "328"
+        ]
+      },
+      "originalCitationText": "DesselbergerU, RacanielloVR, ZazraJJ, PaleseP. The 3’ and 5’-terminal sequences of influenza A, B and C virus RNA segments are highly conserved and show partial inverted complementarity.\nGene. 1980;8: 315–328. doi: 10.1016/0378-1119(80)90007-4\n7358274",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/0378-1119(80)90007-4"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "7358274"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref064",
+        "position": 63,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref065",
+      "position": 64,
+      "title": "Selective Genome Packaging Mechanisms of Influenza A Viruses.",
+      "source": "Cold Spring Harb Perspect Med",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "a038497"
+        ]
+      },
+      "originalCitationText": "NodaT.\nSelective Genome Packaging Mechanisms of Influenza A Viruses.\nCold Spring Harb Perspect Med. 2021;11: a038497. doi: 10.1101/cshperspect.a038497\n32839251\nPMC8247559",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/cshperspect.a038497"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32839251"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC8247559"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref065",
+        "position": 64,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref066",
+      "position": 65,
+      "title": "Isolation and characterization of defective simian virus 40 genomes which complement for infectivity",
+      "source": "J Virol",
+      "year": "1982",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "43"
+        ],
+        "fpage": [
+          "18"
+        ],
+        "lpage": [
+          "25"
+        ]
+      },
+      "originalCitationText": "O’NeillFJ, MaryonEB, CarrollD. Isolation and characterization of defective simian virus 40 genomes which complement for infectivity. J Virol. 1982;43: 18–25. doi: 10.1128/JVI.43.1.18-25.1982\n6286996\nPMC256091",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/JVI.43.1.18-25.1982"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "6286996"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC256091"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref066",
+        "position": 65,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref067",
+      "position": 66,
+      "title": "Complementation between Sindbis viral RNAs produces infectious particles with a bipartite genome",
+      "source": "Proc Natl Acad Sci U S A",
+      "year": "1991",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "88"
+        ],
+        "fpage": [
+          "3253"
+        ],
+        "lpage": [
+          "3257"
+        ]
+      },
+      "originalCitationText": "Geigenmüller-GnirkeU, WeissB, WrightR, SchlesingerS. Complementation between Sindbis viral RNAs produces infectious particles with a bipartite genome. Proc Natl Acad Sci U S A. 1991;88: 3253–3257. doi: 10.1073/pnas.88.8.3253\n2014249\nPMC51424",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.88.8.3253"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "2014249"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC51424"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref067",
+        "position": 66,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref068",
+      "position": 67,
+      "title": "Assembled coronavirus from complementation of two defective interfering RNAs",
+      "source": "J Virol",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "71"
+        ],
+        "fpage": [
+          "3922"
+        ],
+        "lpage": [
+          "3931"
+        ]
+      },
+      "originalCitationText": "KimKH, NarayananK, MakinoS. Assembled coronavirus from complementation of two defective interfering RNAs. J Virol. 1997;71: 3922–3931. doi: 10.1128/JVI.71.5.3922-3931.1997\n9094669\nPMC191544",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/JVI.71.5.3922-3931.1997"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "9094669"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC191544"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref068",
+        "position": 67,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref069",
+      "position": 68,
+      "title": "Evolutionary Transition toward Defective RNAs That Are Infectious by Complementation",
+      "source": "J Virol",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "78"
+        ],
+        "fpage": [
+          "11678"
+        ],
+        "lpage": [
+          "11685"
+        ]
+      },
+      "originalCitationText": "García-ArriazaJ, ManrubiaSC, TojaM, DomingoE, EscarmísC. Evolutionary Transition toward Defective RNAs That Are Infectious by Complementation. J Virol. 2004;78: 11678–11685. doi: 10.1128/JVI.78.21.11678-11685.2004\n15479809\nPMC523252",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/JVI.78.21.11678-11685.2004"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15479809"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC523252"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref069",
+        "position": 68,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref070",
+      "position": 69,
+      "title": "Exploration of sequence space as the basis of viral RNA genome segmentation",
+      "source": "Proceedings of the National Academy of Sciences",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "111"
+        ],
+        "fpage": [
+          "6678"
+        ],
+        "lpage": [
+          "6683"
+        ]
+      },
+      "originalCitationText": "MorenoE, OjosnegrosS, Garcia-ArriazaJ, EscarmisC, DomingoE, PeralesC. Exploration of sequence space as the basis of viral RNA genome segmentation. Proceedings of the National Academy of Sciences. 2014;111: 6678–6683. doi: 10.1073/pnas.1323136111\n24757055\nPMC4020086",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.1323136111"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24757055"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4020086"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref070",
+        "position": 69,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref071",
+      "position": 70,
+      "title": "Euprosterna elaeasa virus genome sequence and evolution of the Tetraviridae family: emergence of bipartite genomes and conservation of the VPg signal with the dsRNA Birnaviridae family",
+      "source": "Virology",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "397"
+        ],
+        "fpage": [
+          "145"
+        ],
+        "lpage": [
+          "154"
+        ]
+      },
+      "originalCitationText": "ZeddamJ-L, GordonKHJ, LauberC, AlvesCAF, LukeBT, HanzlikTN, et al. Euprosterna elaeasa virus genome sequence and evolution of the Tetraviridae family: emergence of bipartite genomes and conservation of the VPg signal with the dsRNA Birnaviridae family. Virology. 2010;397: 145–154. doi: 10.1016/j.virol.2009.10.042\n19954807",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.virol.2009.10.042"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19954807"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref071",
+        "position": 70,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref072",
+      "position": 71,
+      "title": "Architecture of the SARS coronavirus prefusion spike",
+      "source": "Nat Struct Mol Biol",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "751"
+        ],
+        "lpage": [
+          "752"
+        ]
+      },
+      "originalCitationText": "BeniacDR, AndonovA, GrudeskiE, BoothTF. Architecture of the SARS coronavirus prefusion spike. Nat Struct Mol Biol. 2006;13: 751–752. doi: 10.1038/nsmb1123\n16845391\nPMC7097490",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nsmb1123"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16845391"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7097490"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref072",
+        "position": 71,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref073",
+      "position": 72,
+      "title": "Cryo-electron microscopy structure of a coronavirus spike glycoprotein trimer",
+      "source": "Nature",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "531"
+        ],
+        "fpage": [
+          "114"
+        ],
+        "lpage": [
+          "117"
+        ]
+      },
+      "originalCitationText": "WallsAC, TortoriciMA, BoschB-J, FrenzB, RottierPJM, DiMaioF, et al. Cryo-electron microscopy structure of a coronavirus spike glycoprotein trimer. Nature. 2016;531: 114–117. doi: 10.1038/nature16988\n26855426\nPMC5018210",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature16988"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26855426"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5018210"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref073",
+        "position": 72,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref074",
+      "position": 73,
+      "title": "Pre-fusion structure of a human coronavirus spike protein",
+      "source": "Nature",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "531"
+        ],
+        "fpage": [
+          "118"
+        ],
+        "lpage": [
+          "121"
+        ]
+      },
+      "originalCitationText": "KirchdoerferRN, CottrellCA, WangN, PallesenJ, YassineHM, TurnerHL, et al. Pre-fusion structure of a human coronavirus spike protein. Nature. 2016;531: 118–121. doi: 10.1038/nature17200\n26935699\nPMC4860016",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature17200"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26935699"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4860016"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref074",
+        "position": 73,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref075",
+      "position": 74,
+      "title": "Assembly of coronavirus spike protein into trimers and its role in epitope expression",
+      "source": "J Virol",
+      "year": "1990",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "64"
+        ],
+        "fpage": [
+          "5367"
+        ],
+        "lpage": [
+          "5375"
+        ]
+      },
+      "originalCitationText": "DelmasB, LaudeH. Assembly of coronavirus spike protein into trimers and its role in epitope expression. J Virol. 1990;64: 5367–5375. doi: 10.1128/JVI.64.11.5367-5375.1990\n2170676\nPMC248586",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1128/JVI.64.11.5367-5375.1990"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "2170676"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC248586"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref075",
+        "position": 74,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref076",
+      "position": 75,
+      "title": "Mutational and computational analysis of the role of conserved residues in the active site of a family 18 chitinase",
+      "source": "Eur J Biochem",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "271"
+        ],
+        "fpage": [
+          "253"
+        ],
+        "lpage": [
+          "262"
+        ]
+      },
+      "originalCitationText": "SynstadB, GåseidnesS, Van AaltenDMF, VriendG, NielsenJE, EijsinkVGH. Mutational and computational analysis of the role of conserved residues in the active site of a family 18 chitinase. Eur J Biochem. 2004;271: 253–262. doi: 10.1046/j.1432-1033.2003.03923.x\n14717693",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1046/j.1432-1033.2003.03923.x"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "14717693"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref076",
+        "position": 75,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref077",
+      "position": 76,
+      "title": "Structural insights into the catalytic mechanism of a family 18 exo-chitinase",
+      "source": "Proc Natl Acad Sci U S A",
+      "year": "2001",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "98"
+        ],
+        "fpage": [
+          "8979"
+        ],
+        "lpage": [
+          "8984"
+        ]
+      },
+      "originalCitationText": "van AaltenDM, KomanderD, SynstadB, GåseidnesS, PeterMG, EijsinkVG. Structural insights into the catalytic mechanism of a family 18 exo-chitinase. Proc Natl Acad Sci U S A. 2001;98: 8979–8984. doi: 10.1073/pnas.151103798\n11481469\nPMC55359",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.151103798"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "11481469"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC55359"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref077",
+        "position": 76,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref078",
+      "position": 77,
+      "title": "Mapping of the influenza virus genome: identification of the hemagglutinin and the neuraminidase genes",
+      "source": "Proceedings of the National Academy of Sciences",
+      "year": "1976",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "73"
+        ],
+        "fpage": [
+          "2142"
+        ],
+        "lpage": [
+          "2146"
+        ]
+      },
+      "originalCitationText": "PaleseP, SchulmanJL. Mapping of the influenza virus genome: identification of the hemagglutinin and the neuraminidase genes. Proceedings of the National Academy of Sciences. 1976;73: 2142–2146. doi: 10.1073/pnas.73.6.2142\n1064882\nPMC430466",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.73.6.2142"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "1064882"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC430466"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref078",
+        "position": 77,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref079",
+      "position": 78,
+      "title": "Influenza hemagglutinin and neuraminidase membrane glycoproteins",
+      "source": "J Biol Chem",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "285"
+        ],
+        "fpage": [
+          "28403"
+        ],
+        "lpage": [
+          "28409"
+        ]
+      },
+      "originalCitationText": "GamblinSJ, SkehelJJ. Influenza hemagglutinin and neuraminidase membrane glycoproteins. J Biol Chem. 2010;285: 28403–28409. doi: 10.1074/jbc.R110.129809\n20538598\nPMC2937864",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1074/jbc.R110.129809"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20538598"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2937864"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref079",
+        "position": 78,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref080",
+      "position": 79,
+      "title": "Structure, function and evolution of the hemagglutinin-esterase proteins of corona- and toroviruses",
+      "source": "Glycoconj J",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "23"
+        ],
+        "fpage": [
+          "59"
+        ],
+        "lpage": [
+          "72"
+        ]
+      },
+      "originalCitationText": "de GrootRJ. Structure, function and evolution of the hemagglutinin-esterase proteins of corona- and toroviruses. Glycoconj J. 2006;23: 59–72. doi: 10.1007/s10719-006-5438-8\n16575523\nPMC7088178",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s10719-006-5438-8"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16575523"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7088178"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref080",
+        "position": 79,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref081",
+      "position": 80,
+      "title": "cDNA cloning and characterization of lamina-associated polypeptide 1C (LAP1C), an integral protein of the inner nuclear membrane.",
+      "source": "J Biol Chem",
+      "year": "1995",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "270"
+        ],
+        "fpage": [
+          "8822"
+        ],
+        "lpage": [
+          "8828"
+        ]
+      },
+      "originalCitationText": "MartinL, CrimaudoC, GeraceL. cDNA cloning and characterization of lamina-associated polypeptide 1C (LAP1C), an integral protein of the inner nuclear membrane.\nJ Biol Chem. 1995;270: 8822–8828. doi: 10.1074/jbc.270.15.8822\n7721789",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1074/jbc.270.15.8822"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "7721789"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref081",
+        "position": 80,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref082",
+      "position": 81,
+      "title": "Torsin mediates primary envelopment of large ribonucleoprotein granules at the nuclear envelope",
+      "source": "Cell Rep",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "fpage": [
+          "988"
+        ],
+        "lpage": [
+          "995"
+        ]
+      },
+      "originalCitationText": "JokhiV, AshleyJ, NunnariJ, NomaA, ItoN, Wakabayashi-ItoN, et al. Torsin mediates primary envelopment of large ribonucleoprotein granules at the nuclear envelope. Cell Rep. 2013;3: 988–995. doi: 10.1016/j.celrep.2013.03.015\n23583177\nPMC3683601",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.celrep.2013.03.015"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23583177"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3683601"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref082",
+        "position": 81,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref083",
+      "position": 82,
+      "title": "A novel immunity system for bacterial nucleic acid degrading toxins and its recruitment in various eukaryotic and DNA viral systems",
+      "source": "Nucleic Acids Res",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "39"
+        ],
+        "fpage": [
+          "4532"
+        ],
+        "lpage": [
+          "4552"
+        ]
+      },
+      "originalCitationText": "ZhangD, IyerLM, AravindL. A novel immunity system for bacterial nucleic acid degrading toxins and its recruitment in various eukaryotic and DNA viral systems. Nucleic Acids Res. 2011;39: 4532–4552. doi: 10.1093/nar/gkr036\n21306995\nPMC3113570",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkr036"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21306995"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3113570"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref083",
+        "position": 82,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref084",
+      "position": 83,
+      "title": "Opportunities and Challenges of Data-Driven Virus Discovery.",
+      "source": "Biomolecules",
+      "year": "2022",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "12"
+        ],
+        "fpage": [
+          "1073"
+        ]
+      },
+      "originalCitationText": "LauberC, SeitzS. Opportunities and Challenges of Data-Driven Virus Discovery.\nBiomolecules. 2022;12: 1073. doi: 10.3390/biom12081073\n36008967\nPMC9406072",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3390/biom12081073"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "36008967"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC9406072"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref084",
+        "position": 83,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref085",
+      "position": 84,
+      "title": "Complementary DNA sequencing: expressed sequence tags and human genome project",
+      "source": "Science",
+      "year": "1991",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "252"
+        ],
+        "fpage": [
+          "1651"
+        ],
+        "lpage": [
+          "1656"
+        ]
+      },
+      "originalCitationText": "AdamsMD, KelleyJM, GocayneJD, DubnickM, PolymeropoulosMH, XiaoH, et al. Complementary DNA sequencing: expressed sequence tags and human genome project. Science. 1991;252: 1651–1656. doi: 10.1126/science.2047873\n2047873",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.2047873"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "2047873"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref085",
+        "position": 84,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref086",
+      "position": 85,
+      "title": "The sequence read archive",
+      "source": "Nucleic Acids Res",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "39"
+        ],
+        "fpage": [
+          "D19"
+        ],
+        "lpage": [
+          "21"
+        ]
+      },
+      "originalCitationText": "LeinonenR, SugawaraH, ShumwayM, International Nucleotide Sequence Database Collaboration. The sequence read archive. Nucleic Acids Res. 2011;39: D19–21. doi: 10.1093/nar/gkq1019\n21062823\nPMC3013647",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkq1019"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21062823"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3013647"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref086",
+        "position": 85,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref087",
+      "position": 86,
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "source": "Bioinformatics",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "34"
+        ],
+        "fpage": [
+          "i884"
+        ],
+        "lpage": [
+          "i890"
+        ]
+      },
+      "originalCitationText": "ChenS, ZhouY, ChenY, GuJ. fastp: an ultra-fast all-in-one FASTQ preprocessor. Bioinformatics. 2018;34: i884–i890. doi: 10.1093/bioinformatics/bty560\n30423086\nPMC6129281",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/bty560"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30423086"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6129281"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref087",
+        "position": 86,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref088",
+      "position": 87,
+      "title": "GenSeed-HMM: A Tool for Progressive Assembly Using Profile HMMs as Seeds and its Application in Alpavirinae Viral Discovery from Metagenomic Data.",
+      "source": "Front Microbiol.",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "269"
+        ]
+      },
+      "originalCitationText": "AlvesJMP, de OliveiraAL, SandbergTOM, Moreno-GallegoJL, de ToledoMAF, de MouraEMM, et al. GenSeed-HMM: A Tool for Progressive Assembly Using Profile HMMs as Seeds and its Application in Alpavirinae Viral Discovery from Metagenomic Data.\nFront Microbiol.\n2016;7: 269. doi: 10.3389/fmicb.2016.00269\n26973638\nPMC4777721",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.3389/fmicb.2016.00269"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "26973638"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4777721"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref088",
+        "position": 87,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref089",
+      "position": 88,
+      "title": "Combining de novo and reference-guided assembly with scaffold_builder.",
+      "source": "Source Code Biol Med.",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "fpage": [
+          "23"
+        ]
+      },
+      "originalCitationText": "SilvaGG, DutilhBE, MatthewsTD, ElkinsK, SchmiederR, DinsdaleEA, et al. Combining de novo and reference-guided assembly with scaffold_builder.\nSource Code Biol Med.\n2013;8: 23. doi: 10.1186/1751-0473-8-23\n24267787\nPMC4177539",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/1751-0473-8-23"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24267787"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4177539"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref089",
+        "position": 88,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref090",
+      "position": 89,
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "source": "J Comput Biol",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "19"
+        ],
+        "fpage": [
+          "455"
+        ],
+        "lpage": [
+          "477"
+        ]
+      },
+      "originalCitationText": "BankevichA, NurkS, AntipovD, GurevichAA, DvorkinM, KulikovAS, et al. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol. 2012;19: 455–477. doi: 10.1089/cmb.2012.0021\n22506599\nPMC3342519",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1089/cmb.2012.0021"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22506599"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3342519"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref090",
+        "position": 89,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref091",
+      "position": 90,
+      "title": "CAP3: A DNA Sequence Assembly Program",
+      "source": "Genome Research",
+      "year": "1999",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "868"
+        ],
+        "lpage": [
+          "877"
+        ]
+      },
+      "originalCitationText": "HuangX.\nCAP3: A DNA Sequence Assembly Program. Genome Research. 1999;9: 868–877. doi: 10.1101/gr.9.9.868\n10508846\nPMC310812",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1101/gr.9.9.868"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10508846"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC310812"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref091",
+        "position": 90,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref092",
+      "position": 91,
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+      "source": "Bioinformatics",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "2114"
+        ],
+        "lpage": [
+          "2120"
+        ]
+      },
+      "originalCitationText": "BolgerAM, LohseM, UsadelB. Trimmomatic: a flexible trimmer for Illumina sequence data. Bioinformatics. 2014;30: 2114–2120. doi: 10.1093/bioinformatics/btu170\n24695404\nPMC4103590",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btu170"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24695404"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4103590"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref092",
+        "position": 91,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref093",
+      "position": 92,
+      "title": "Fast gapped-read alignment with Bowtie 2.",
+      "source": "Nat Methods",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "357"
+        ],
+        "lpage": [
+          "359"
+        ]
+      },
+      "originalCitationText": "LangmeadB, SalzbergSL. Fast gapped-read alignment with Bowtie 2.\nNat Methods. 2012;9: 357–359. doi: 10.1038/nmeth.1923\n22388286\nPMC3322381",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nmeth.1923"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22388286"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3322381"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref093",
+        "position": 92,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref094",
+      "position": 93,
+      "title": "Twelve years of SAMtools and BCFtools.",
+      "source": "GigaScience",
+      "year": "2021",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "fpage": [
+          "giab008"
+        ]
+      },
+      "originalCitationText": "DanecekP, BonfieldJK, LiddleJ, MarshallJ, OhanV, PollardMO, et al. Twelve years of SAMtools and BCFtools.\nGigaScience. 2021;10: giab008. doi: 10.1093/gigascience/giab008\n33590861\nPMC7931819",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/gigascience/giab008"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "33590861"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7931819"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref094",
+        "position": 93,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref095",
+      "position": 94,
+      "title": "MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph",
+      "source": "Bioinformatics",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "fpage": [
+          "1674"
+        ],
+        "lpage": [
+          "1676"
+        ]
+      },
+      "originalCitationText": "LiD, LiuC-M, LuoR, SadakaneK, LamT-W. MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph. Bioinformatics. 2015;31: 1674–1676. doi: 10.1093/bioinformatics/btv033\n25609793",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btv033"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25609793"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref095",
+        "position": 94,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref096",
+      "position": 95,
+      "title": "SeqKit: A Cross-Platform and Ultrafast Toolkit for FASTA/Q File Manipulation.",
+      "source": "PLoS ONE.",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "11"
+        ],
+        "fpage": [
+          "e0163962"
+        ]
+      },
+      "originalCitationText": "ShenW, LeS, LiY, HuF. SeqKit: A Cross-Platform and Ultrafast Toolkit for FASTA/Q File Manipulation.\nZouQ, editor. PLoS ONE.\n2016;11: e0163962. doi: 10.1371/journal.pone.0163962\n27706213\nPMC5051824",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0163962"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27706213"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5051824"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref096",
+        "position": 95,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref097",
+      "position": 96,
+      "title": "Basic local alignment search tool",
+      "source": "J Mol Biol",
+      "year": "1990",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "215"
+        ],
+        "fpage": [
+          "403"
+        ],
+        "lpage": [
+          "410"
+        ]
+      },
+      "originalCitationText": "AltschulSF, GishW, MillerW, MyersEW, LipmanDJ. Basic local alignment search tool. J Mol Biol. 1990;215: 403–410. doi: 10.1016/S0022-2836(05)80360-2\n2231712",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0022-2836(05)80360-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "2231712"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref097",
+        "position": 96,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref098",
+      "position": 97,
+      "title": "T-coffee: a novel method for fast and accurate multiple sequence alignment 1 1Edited by J. Thornton",
+      "source": "Journal of Molecular Biology",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "302"
+        ],
+        "fpage": [
+          "205"
+        ],
+        "lpage": [
+          "217"
+        ]
+      },
+      "originalCitationText": "NotredameC, HigginsDG, HeringaJ. T-coffee: a novel method for fast and accurate multiple sequence alignment 1 1Edited by J. Thornton. Journal of Molecular Biology. 2000;302: 205–217. doi: 10.1006/jmbi.2000.4042\n10964570",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1006/jmbi.2000.4042"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10964570"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref098",
+        "position": 97,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref099",
+      "position": 98,
+      "title": "MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform",
+      "source": "Nucleic Acids Research",
+      "year": "2002",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "3059"
+        ],
+        "lpage": [
+          "3066"
+        ]
+      },
+      "originalCitationText": "KatohK.\nMAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic Acids Research. 2002;30: 3059–3066. doi: 10.1093/nar/gkf436\n12136088\nPMC135756",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkf436"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12136088"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC135756"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref099",
+        "position": 98,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref100",
+      "position": 99,
+      "title": "Integrative genomics viewer",
+      "source": "Nat Biotechnol",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "29"
+        ],
+        "fpage": [
+          "24"
+        ],
+        "lpage": [
+          "26"
+        ]
+      },
+      "originalCitationText": "RobinsonJT, ThorvaldsdóttirH, WincklerW, GuttmanM, LanderES, GetzG, et al. Integrative genomics viewer. Nat Biotechnol. 2011;29: 24–26. doi: 10.1038/nbt.1754\n21221095\nPMC3346182",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nbt.1754"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21221095"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3346182"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref100",
+        "position": 99,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref101",
+      "position": 100,
+      "title": null,
+      "source": "R: A Language and Environment for Statistical Computing",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "book"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "publisher-name": [
+          "R Foundation for Statistical Computing"
+        ],
+        "publisher-loc": [
+          "Vienna, Austria"
+        ]
+      },
+      "originalCitationText": "R Core Team. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing; 2020. Available: https://www.R-project.org/.",
+      "identifiers": [],
+      "externalLinks": [
+        "https://www.R-project.org/"
+      ],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref101",
+        "position": 100,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref102",
+      "position": 101,
+      "title": "EMBOSS: the European Molecular Biology Open Software Suite",
+      "source": "Trends Genet",
+      "year": "2000",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "16"
+        ],
+        "fpage": [
+          "276"
+        ],
+        "lpage": [
+          "277"
+        ]
+      },
+      "originalCitationText": "RiceP, LongdenI, BleasbyA. EMBOSS: the European Molecular Biology Open Software Suite. Trends Genet. 2000;16: 276–277. doi: 10.1016/s0168-9525(00)02024-2\n10827456",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/s0168-9525(00)02024-2"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10827456"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref102",
+        "position": 101,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref103",
+      "position": 102,
+      "title": "Accelerated Profile HMM Searches.",
+      "source": "PLoS Comput Biol.",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "fpage": [
+          "e1002195"
+        ]
+      },
+      "originalCitationText": "EddySR. Accelerated Profile HMM Searches.\nPLoS Comput Biol.\n2011;7: e1002195. doi: 10.1371/journal.pcbi.1002195\n22039361\nPMC3197634",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pcbi.1002195"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "22039361"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3197634"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref103",
+        "position": 102,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref104",
+      "position": 103,
+      "title": "MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets",
+      "source": "Nat Biotechnol",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "35"
+        ],
+        "fpage": [
+          "1026"
+        ],
+        "lpage": [
+          "1028"
+        ]
+      },
+      "originalCitationText": "SteineggerM, SödingJ. MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. Nat Biotechnol. 2017;35: 1026–1028. doi: 10.1038/nbt.3988\n29035372",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nbt.3988"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29035372"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref104",
+        "position": 103,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref105",
+      "position": 104,
+      "title": "MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability",
+      "source": "Molecular Biology and Evolution",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "30"
+        ],
+        "fpage": [
+          "772"
+        ],
+        "lpage": [
+          "780"
+        ]
+      },
+      "originalCitationText": "KatohK, StandleyDM. MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability. Molecular Biology and Evolution. 2013;30: 772–780. doi: 10.1093/molbev/mst010\n23329690\nPMC3603318",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/molbev/mst010"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23329690"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3603318"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref105",
+        "position": 104,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref106",
+      "position": 105,
+      "title": "MUSCLE: multiple sequence alignment with high accuracy and high throughput",
+      "source": "Nucleic Acids Res",
+      "year": "2004",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "32"
+        ],
+        "fpage": [
+          "1792"
+        ],
+        "lpage": [
+          "1797"
+        ]
+      },
+      "originalCitationText": "EdgarRC. MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res. 2004;32: 1792–1797. doi: 10.1093/nar/gkh340\n15034147\nPMC390337",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/nar/gkh340"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15034147"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC390337"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref106",
+        "position": 105,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref107",
+      "position": 106,
+      "title": "ProtTest: selection of best-fit models of protein evolution",
+      "source": "Bioinformatics",
+      "year": "2005",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "21"
+        ],
+        "fpage": [
+          "2104"
+        ],
+        "lpage": [
+          "2105"
+        ]
+      },
+      "originalCitationText": "AbascalF, ZardoyaR, PosadaD. ProtTest: selection of best-fit models of protein evolution. Bioinformatics. 2005;21: 2104–2105. doi: 10.1093/bioinformatics/bti263\n15647292",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/bti263"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "15647292"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref107",
+        "position": 106,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref108",
+      "position": 107,
+      "title": "New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0",
+      "source": "Syst Biol",
+      "year": "2010",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "59"
+        ],
+        "fpage": [
+          "307"
+        ],
+        "lpage": [
+          "321"
+        ]
+      },
+      "originalCitationText": "GuindonS, DufayardJ-F, LefortV, AnisimovaM, HordijkW, GascuelO. New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0. Syst Biol. 2010;59: 307–321. doi: 10.1093/sysbio/syq010\n20525638",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/sysbio/syq010"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20525638"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref108",
+        "position": 107,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref109",
+      "position": 108,
+      "title": "phytools: an R package for phylogenetic comparative biology (and other things): phytools: R package",
+      "source": "Methods in Ecology and Evolution",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "fpage": [
+          "217"
+        ],
+        "lpage": [
+          "223"
+        ]
+      },
+      "originalCitationText": "RevellLJ. phytools: an R package for phylogenetic comparative biology (and other things): phytools: R package. Methods in Ecology and Evolution. 2012;3: 217–223. doi: 10.1111/j.2041-210X.2011.00169.x",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1111/j.2041-210X.2011.00169.x"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref109",
+        "position": 108,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref110",
+      "position": 109,
+      "title": "LAMPA, LArge Multidomain Protein Annotator, and its application to RNA virus polyproteins",
+      "source": "Bioinformatics",
+      "year": "2020",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "36"
+        ],
+        "fpage": [
+          "2731"
+        ],
+        "lpage": [
+          "2739"
+        ]
+      },
+      "originalCitationText": "GulyaevaAA, SigorskihAI, OcheredkoES, SamborskiyDV, GorbalenyaAE. LAMPA, LArge Multidomain Protein Annotator, and its application to RNA virus polyproteins. Bioinformatics. 2020;36: 2731–2739. doi: 10.1093/bioinformatics/btaa065\n32003788\nPMC7203729",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1093/bioinformatics/btaa065"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "32003788"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC7203729"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref110",
+        "position": 109,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref111",
+      "position": 110,
+      "title": "A Completely Reimplemented MPI Bioinformatics Toolkit with a New HHpred Server at its Core",
+      "source": "J Mol Biol",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {},
+      "originalCitationText": "ZimmermannL, StephensA, NamS-Z, RauD, KüblerJ, LozajicM, et al. A Completely Reimplemented MPI Bioinformatics Toolkit with a New HHpred Server at its Core. J Mol Biol. 2017. doi: 10.1016/j.jmb.2017.12.007\n29258817",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.jmb.2017.12.007"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29258817"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref111",
+        "position": 110,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref112",
+      "position": 111,
+      "title": "Predicting transmembrane protein topology with a hidden Markov model: application to complete genomes",
+      "source": "J Mol Biol",
+      "year": "2001",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "305"
+        ],
+        "fpage": [
+          "567"
+        ],
+        "lpage": [
+          "580"
+        ]
+      },
+      "originalCitationText": "KroghA, LarssonB, von HeijneG, SonnhammerEL. Predicting transmembrane protein topology with a hidden Markov model: application to complete genomes. J Mol Biol. 2001;305: 567–580. doi: 10.1006/jmbi.2000.4315\n11152613",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1006/jmbi.2000.4315"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "11152613"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref112",
+        "position": 111,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "ppat.1012163.ref113",
+      "position": 112,
+      "title": "SignalP 5.0 improves signal peptide predictions using deep neural networks",
+      "source": "Nat Biotechnol",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [],
+      "bibliographicFields": {
+        "volume": [
+          "37"
+        ],
+        "fpage": [
+          "420"
+        ],
+        "lpage": [
+          "423"
+        ]
+      },
+      "originalCitationText": "Almagro ArmenterosJJ, TsirigosKD, SønderbyCK, PetersenTN, WintherO, BrunakS, et al. SignalP 5.0 improves signal peptide predictions using deep neural networks. Nat Biotechnol. 2019;37: 420–423. doi: 10.1038/s41587-019-0036-z\n30778233",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41587-019-0036-z"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30778233"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-pmc-cloud-materials-2026-10-03/PMC11065284/PMC11065284.1/objects/bfbf7db056c6052a-PMC11065284.1.xml",
+        "articleSha256": "f4c4616e09c40b7a3672a8ef851a64da0b9d7c88c271f90572219b6a798d1e1a",
+        "referenceId": "ppat.1012163.ref113",
+        "position": 112,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "PLOS Pathogens"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "PLoS Pathog"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "PLoS Pathog"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "349"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "plospath"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101238921"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "plos"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "ppub",
+        "value": "1553-7366"
+      },
+      {
+        "pub-type": "epub",
+        "value": "1553-7374"
+      }
+    ],
+    "publisherNames": [
+      "PLOS"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "20",
+      "20",
+      "20"
+    ],
+    "issue": [
+      "4",
+      "4",
+      "4"
+    ],
+    "fpage": [
+      "e1012163",
+      "e1012163"
+    ],
+    "lpage": [
+      "e1012163",
+      "e1012163"
+    ],
+    "elocation-id": [
+      "e1012163"
+    ]
+  }
+}

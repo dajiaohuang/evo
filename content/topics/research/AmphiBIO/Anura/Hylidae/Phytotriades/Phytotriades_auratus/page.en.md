@@ -1,0 +1,26 @@
+---
+schemaVersion: 1
+kind: reader-page
+locale: en
+status: migrated-verbatim
+---
+
+# Phytotriades auratus — AmphiBIO v1
+
+## The source concept
+
+<!-- evo:text /records/amphibio-source-reader/sections/0/text/en -->
+AmphiBIO v1 records Phytotriades auratus as row Anf2522, within Phytotriades, Hylidae, Anura. Its species concepts follow Amphibian Species of the World (Frost 2011). The following traits describe that deposited source record; correspondence to a current COL26.8 species concept has not been established.
+<!-- /evo:text -->
+
+## Foraging strata
+
+<!-- evo:text /records/amphibio-source-reader/sections/1/text/en -->
+The source flags arboreal as present categories. These are broad foraging categories; the compilation does not describe seasonal or developmental changes in detail. A later TetrapodTraits revision reports correcting some amphibian body-mass and microhabitat entries propagated from earlier compilations. The affected row-level comparison has not yet been captured here. This deposited historical value or category requires review before reuse; no replacement value is inferred, and this notice does not identify every original entry as erroneous.
+<!-- /evo:text -->
+
+## Compiled life history
+
+<!-- evo:text /records/amphibio-source-reader/sections/2/text/en -->
+AmphiBIO reports minimum number of offspring or eggs per clutch: 2 individuals/eggs; maximum number of offspring or eggs per clutch: 5 individuals/eggs. The dataset compiles extrema and counts from literature; the row does not separately specify sex, population, measurement date or wild versus captive conditions for each value. Offspring-size values may refer to offspring or eggs.
+<!-- /evo:text -->

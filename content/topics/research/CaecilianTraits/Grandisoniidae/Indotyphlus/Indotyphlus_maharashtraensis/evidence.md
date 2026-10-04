@@ -1,0 +1,1223 @@
+---
+schemaVersion: 1
+kind: evidence
+records:
+  caecilian-traits-reader:
+    scientificName: Indotyphlus maharashtraensis
+    name:
+      en: Indotyphlus maharashtraensis
+      zh: Indotyphlus maharashtraensis
+    sourceClassification:
+      family: Grandisoniidae
+      genus: Indotyphlus
+    checkedAt: 2026-10-02
+    reviewStatus: source-linked
+    sections:
+      - topic: overview
+        title:
+          en: The deposited caecilian record
+          zh: 存档中的蚓螈记录
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/0/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/0/text/zh
+      - topic: morphology
+        title:
+          en: Measurement material
+          zh: 测量材料
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/1/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/1/text/zh
+      - topic: ecology
+        title:
+          en: Compiled habitat categories
+          zh: 汇编的栖地类别
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/2/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/2/text/zh
+      - topic: morphology
+        title:
+          en: Compiled anatomical counts
+          zh: 汇编的解剖计数
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/caecilian-traits-reader/sections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/caecilian-traits-reader/sections/3/text/zh
+    sources:
+      referenceBindings:
+        - referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+          metadataVariant: 0
+          sourceKey: caeciliantraits
+          usage:
+            locator:
+              markdown: evidence.md
+              field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/locator
+            scope:
+              en:
+                markdown: evidence.md
+                field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/en
+              zh:
+                markdown: evidence.md
+                field: /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/zh
+          originalFields:
+            - id
+            - title
+            - authors
+            - doi
+            - url
+            - version
+            - publishedAt
+            - accessedAt
+            - license
+            - licenseUrl
+            - rightsEvidenceUrl
+            - licenseAssessment
+            - licenseAppliesTo
+            - attribution
+            - locator
+            - scope
+    originalSpeciesRow:
+      rowNumber: 91
+      values:
+        - Grandisoniidae
+        - Indotyphlus
+        - Indotyphlus maharashtraensis
+        - Tropical & Subtropical Moist Broadleaf Forests; Tropical & Subtropical Dry Broadleaf Forests
+        - Terrestrial
+        - Fossorial
+        - This fossorial taxon has also been recorded under moist soil within a forest, rocks on a plateau
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - "IUCN. The IUCN Red List of Threatened Species. Version 2023-1, <https://www.iucnredlist.org> (2023). "
+        - 140.083333333333
+        - null
+        - null
+        - null
+        - 1.44166666666667
+        - null
+        - 3.16666666666667
+        - 2.275
+        - null
+        - null
+        - null
+        - 2.69166666666667
+        - 2.90833333333333
+        - null
+        - null
+        - 4.775
+        - null
+        - null
+        - 1.81818181818182
+        - 1.10833333333333
+        - 1.94166666666667
+        - 0.463636363636364
+        - 1.20833333333333
+        - 1.75833333333333
+        - 1.94166666666667
+        - 0.591666666666667
+        - 3.775
+        - null
+        - null
+        - null
+        - 1.68181818181818
+        - 1.41818181818182
+        - null
+        - null
+        - 4.30833333333333
+        - 3.11666666666667
+        - null
+        - 3.20833333333333
+        - null
+        - 4.21666666666667
+        - null
+        - null
+        - null
+        - 1.35
+        - 1.75
+        - 11
+        - null
+        - null
+        - 128.75
+        - null
+        - null
+        - 22.4166666666667
+        - 23.5833333333333
+        - 20.1666666666667
+        - 3.58333333333333
+        - null
+    originalMeasurementRows:
+      - rowNumber: 1005
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/0/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4217
+          - F
+          - 181
+          - null
+          - null
+          - null
+          - 1.7
+          - null
+          - 3.8
+          - 2.7
+          - null
+          - null
+          - null
+          - 3.3
+          - 3.6
+          - null
+          - null
+          - 5.3
+          - null
+          - null
+          - 2.2
+          - 1.2
+          - 2.3
+          - 0.5
+          - 1.4
+          - 2
+          - 2.1
+          - 0.6
+          - 4.1
+          - null
+          - null
+          - null
+          - 1.9
+          - 1.5
+          - null
+          - null
+          - 4.7
+          - 3.4
+          - null
+          - 3.7
+          - null
+          - 4.7
+          - null
+          - null
+          - null
+          - 1.5
+          - 2.1
+          - 14
+          - null
+          - null
+          - 127
+          - null
+          - null
+          - 25
+          - 24
+          - 20
+          - 4
+          - null
+      - rowNumber: 1006
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/1/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4200
+          - F
+          - 197
+          - null
+          - null
+          - null
+          - 1.5
+          - null
+          - 3.6
+          - 2.4
+          - null
+          - null
+          - null
+          - 3.5
+          - 3.7
+          - null
+          - null
+          - 5.5
+          - null
+          - null
+          - null
+          - 1.2
+          - 2.1
+          - null
+          - 1.3
+          - 1.8
+          - 2.2
+          - 0.8
+          - 4.5
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5
+          - 3.3
+          - null
+          - 3.3
+          - null
+          - 4.9
+          - null
+          - null
+          - null
+          - 1.7
+          - 2.1
+          - 14
+          - null
+          - null
+          - 133
+          - null
+          - null
+          - 24
+          - 26
+          - 21
+          - 3
+          - null
+      - rowNumber: 1007
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/2/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4218
+          - M
+          - 78
+          - null
+          - null
+          - null
+          - 1
+          - null
+          - 1.7
+          - 1.4
+          - null
+          - null
+          - null
+          - 2
+          - 2.2
+          - null
+          - null
+          - 3.3
+          - null
+          - null
+          - 1.3
+          - 0.8
+          - 1.3
+          - 0.3
+          - 0.9
+          - 1.3
+          - 1.3
+          - 0.5
+          - 3
+          - null
+          - null
+          - null
+          - 1.1
+          - 1
+          - null
+          - null
+          - 3
+          - 2.1
+          - null
+          - 2.7
+          - null
+          - 3
+          - null
+          - null
+          - null
+          - 0.9
+          - 1.3
+          - 6
+          - null
+          - null
+          - 129
+          - null
+          - null
+          - 19
+          - 20
+          - 19
+          - 4
+          - null
+      - rowNumber: 1008
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/3/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4219
+          - F
+          - 138
+          - null
+          - null
+          - null
+          - 1.4
+          - null
+          - 2.8
+          - 2
+          - null
+          - null
+          - null
+          - 2.5
+          - 2.7
+          - null
+          - null
+          - 4.7
+          - null
+          - null
+          - 1.8
+          - 1.3
+          - 2
+          - 0.5
+          - 1.2
+          - 1.9
+          - 1.8
+          - 0.6
+          - 3.4
+          - null
+          - null
+          - null
+          - 1.6
+          - 1.2
+          - null
+          - null
+          - 4
+          - 2.8
+          - null
+          - 3.1
+          - null
+          - 4
+          - null
+          - null
+          - null
+          - 1.5
+          - 1.8
+          - 10
+          - null
+          - null
+          - 131
+          - null
+          - null
+          - 22
+          - 23
+          - 22
+          - 4
+          - null
+      - rowNumber: 1009
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/4/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4220
+          - M
+          - 72
+          - null
+          - null
+          - null
+          - 0.8
+          - null
+          - 1.5
+          - 1.1
+          - null
+          - null
+          - null
+          - 2
+          - 2.1
+          - null
+          - null
+          - 3.6
+          - null
+          - null
+          - 1.4
+          - 0.9
+          - 1.5
+          - 0.3
+          - 0.9
+          - 1.3
+          - 1.7
+          - 0.4
+          - 2.8
+          - null
+          - null
+          - null
+          - 1.3
+          - 1
+          - null
+          - null
+          - 3.2
+          - 2.4
+          - null
+          - 2.7
+          - null
+          - 3.4
+          - null
+          - null
+          - null
+          - 0.9
+          - 1.2
+          - 8
+          - null
+          - null
+          - 126
+          - null
+          - null
+          - 22
+          - 22
+          - 19
+          - 3
+          - null
+      - rowNumber: 1010
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/5/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4221
+          - F
+          - 100
+          - null
+          - null
+          - null
+          - 1
+          - null
+          - 2.5
+          - 1.7
+          - null
+          - null
+          - null
+          - 2.2
+          - 2.3
+          - null
+          - null
+          - 4
+          - null
+          - null
+          - 1.5
+          - 0.9
+          - 1.6
+          - 0.4
+          - 0.9
+          - 1.5
+          - 1.6
+          - 0.5
+          - 3.4
+          - null
+          - null
+          - null
+          - 1.3
+          - 1.2
+          - null
+          - null
+          - 3.4
+          - 2.7
+          - null
+          - 2.7
+          - null
+          - 3.4
+          - null
+          - null
+          - null
+          - 1
+          - 1.5
+          - 8
+          - null
+          - null
+          - 129
+          - null
+          - null
+          - 20
+          - 22
+          - 21
+          - 3
+          - null
+      - rowNumber: 1011
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/6/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4222
+          - F
+          - 70
+          - null
+          - null
+          - null
+          - 0.8
+          - null
+          - 2.2
+          - 1.1
+          - null
+          - null
+          - null
+          - 2
+          - 2
+          - null
+          - null
+          - 3.6
+          - null
+          - null
+          - 1.3
+          - 0.9
+          - 1.4
+          - 0.3
+          - 0.9
+          - 1.4
+          - 1.4
+          - 0.4
+          - 2.9
+          - null
+          - null
+          - null
+          - 1.2
+          - 1.2
+          - null
+          - null
+          - 3.9
+          - 2.4
+          - null
+          - 2.3
+          - null
+          - 3.3
+          - null
+          - null
+          - null
+          - 1
+          - 1.3
+          - 6
+          - null
+          - null
+          - 129
+          - null
+          - null
+          - 20
+          - 23
+          - 20
+          - 4
+          - null
+      - rowNumber: 1012
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/7/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4223
+          - M
+          - 179
+          - null
+          - null
+          - null
+          - 2
+          - null
+          - 3.6
+          - 3.2
+          - null
+          - null
+          - null
+          - 3
+          - 3.1
+          - null
+          - null
+          - 6
+          - null
+          - null
+          - 2.2
+          - 1.2
+          - 2.3
+          - 0.5
+          - 1.5
+          - 2.2
+          - 2.5
+          - 0.6
+          - 4.4
+          - null
+          - null
+          - null
+          - 2.1
+          - 1.7
+          - null
+          - null
+          - 5.2
+          - 3.9
+          - null
+          - 3.5
+          - null
+          - 5.2
+          - null
+          - null
+          - null
+          - 1.5
+          - 2
+          - 13
+          - null
+          - null
+          - 124
+          - null
+          - null
+          - 22
+          - 24
+          - 19
+          - 4
+          - null
+      - rowNumber: 1013
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/8/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4224
+          - M
+          - 205
+          - null
+          - null
+          - null
+          - 2.3
+          - null
+          - 4.6
+          - 3.9
+          - null
+          - null
+          - null
+          - 3.7
+          - 3.8
+          - null
+          - null
+          - 7
+          - null
+          - null
+          - 2.5
+          - 1.4
+          - 2.6
+          - 0.6
+          - 1.9
+          - 2.4
+          - 2.4
+          - 0.8
+          - 5.4
+          - null
+          - null
+          - null
+          - 2.4
+          - 1.9
+          - null
+          - null
+          - 6.5
+          - 4.5
+          - null
+          - 4.6
+          - null
+          - 6
+          - null
+          - null
+          - null
+          - 1.9
+          - 2.3
+          - 15
+          - null
+          - null
+          - 125
+          - null
+          - null
+          - 25
+          - 28
+          - 21
+          - 2
+          - null
+      - rowNumber: 1014
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/9/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4225
+          - F
+          - 123
+          - null
+          - null
+          - null
+          - 1.3
+          - null
+          - 2.7
+          - 2
+          - null
+          - null
+          - null
+          - 2.5
+          - 2.7
+          - null
+          - null
+          - 4.4
+          - null
+          - null
+          - 1.8
+          - 1.1
+          - 1.9
+          - 0.5
+          - 1
+          - 1.7
+          - 2
+          - 0.6
+          - 3.6
+          - null
+          - null
+          - null
+          - 1.5
+          - 1.7
+          - null
+          - null
+          - 3.9
+          - 3.1
+          - null
+          - 3.2
+          - null
+          - 3.9
+          - null
+          - null
+          - null
+          - 1.4
+          - 1.7
+          - 9
+          - null
+          - null
+          - 131
+          - null
+          - null
+          - 22
+          - 24
+          - 21
+          - 4
+          - null
+      - rowNumber: 1015
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/10/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4333
+          - F
+          - 145
+          - null
+          - null
+          - null
+          - 1.5
+          - null
+          - 4
+          - 2.6
+          - null
+          - null
+          - null
+          - 2.5
+          - 3.1
+          - null
+          - null
+          - 4.4
+          - null
+          - null
+          - 1.6
+          - 1
+          - 1.9
+          - 0.5
+          - 1
+          - 1.5
+          - 1.9
+          - 0.5
+          - 3.4
+          - null
+          - null
+          - null
+          - 1.6
+          - 1.2
+          - null
+          - null
+          - 4
+          - 2.9
+          - null
+          - 2.8
+          - null
+          - 4
+          - null
+          - null
+          - null
+          - 1.4
+          - 1.7
+          - 13
+          - null
+          - null
+          - 128
+          - null
+          - null
+          - 22
+          - 23
+          - 19
+          - 4
+          - null
+      - rowNumber: 1016
+        values:
+          - markdown: evidence.md
+            field: /records/caecilian-traits-reader/originalMeasurementRows/11/values/0
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - I
+          - BNHS 4334
+          - F
+          - 193
+          - null
+          - null
+          - null
+          - 2
+          - null
+          - 5
+          - 3.2
+          - null
+          - null
+          - null
+          - 3.1
+          - 3.6
+          - null
+          - null
+          - 5.5
+          - null
+          - null
+          - 2.4
+          - 1.4
+          - 2.4
+          - 0.7
+          - 1.6
+          - 2.1
+          - 2.4
+          - 0.8
+          - 4.4
+          - null
+          - null
+          - null
+          - 2.5
+          - 2
+          - null
+          - null
+          - 4.9
+          - 3.9
+          - null
+          - 3.9
+          - null
+          - 4.8
+          - null
+          - null
+          - null
+          - 1.5
+          - 2
+          - 16
+          - null
+          - null
+          - 133
+          - null
+          - null
+          - 26
+          - 24
+          - 20
+          - 4
+          - null
+    originalColumns:
+      species:
+        - Family
+        - Genus
+        - Species
+        - biome
+        - Habitats
+        - Microhabitat
+        - Metadata_microhabitat
+        - Reproduction
+        - Metadata_reproduction
+        - Aquatic larvae
+        - Max clutch size
+        - Min clutch size
+        - Mean clutch size
+        - Reference
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - ADD
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+      measurement:
+        - Reference
+        - Family
+        - Genus
+        - Species
+        - Type
+        - ID
+        - Sex
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - "ADD "
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3PNWX
+    quantitativeLengthUnits: not-confirmed-from-deposited-column-definitions; dimensions omitted from reader claims
+    limitations:
+      en:
+        markdown: evidence.md
+        field: /records/caecilian-traits-reader/limitations/en
+      zh:
+        markdown: evidence.md
+        field: /records/caecilian-traits-reader/limitations/zh
+    variableDefinitionCitation:
+      doi: 10.1038/s41597-025-04728-z
+      sourceFile: data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.xml
+      locator: Methods, species-level ecological and life-history data; Data Records
+---
+
+# Indotyphlus maharashtraensis — CaecilianTraits
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/locator -->
+CaecilianTraits.xlsx, Species level data row 91; Individual level data rows 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016; Supplementary Table 1 for variable meanings
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/en -->
+The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/caecilian-traits-reader/sources/referenceBindings/0/usage/scope/zh -->
+存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/0/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/1/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/2/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/3/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/4/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/5/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/6/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/7/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/8/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/9/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/10/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / originalMeasurementRows / values
+
+<!-- evo:text /records/caecilian-traits-reader/originalMeasurementRows/11/values/0 -->
+Giri, V., D. J. Gower, and M. Wilkinson. 2004. A new species of Indotyphlus Taylor (Amphibia: Gymnophiona: Caeciliidae) from the Western Ghats, India. Zootaxa 739:1-19.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / limitations
+
+<!-- evo:text /records/caecilian-traits-reader/limitations/en -->
+Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets and external expert review remain to be resolved.
+<!-- /evo:text -->
+
+## caecilian-traits-reader / limitations
+
+<!-- evo:text /records/caecilian-traits-reader/limitations/zh -->
+本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题及外部专家审评仍待核对。
+<!-- /evo:text -->

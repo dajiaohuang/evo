@@ -11,11 +11,11 @@
   ],
   "path": "data/knowledge/catalogue-dossiers-primates-macaca-radiata-core-2026-09-26.jsonl.br",
   "rawPath": "data/knowledge/raw-dossiers/primates-macaca-radiata-core-2026-09-26.jsonl",
-  "rawSha256": "4486d4e3fd2ec0fefb584887ab885546590d863b5157ca35adba3178dff03dfa",
-  "decodedSha256": "4486d4e3fd2ec0fefb584887ab885546590d863b5157ca35adba3178dff03dfa",
-  "compressedSha256": "bf6d330de9eaf3999019e976b25eed56f6813047de5c251b3a9c6d77b3930252",
-  "decodedBytes": 13694,
-  "compressedBytes": 4046,
+  "rawSha256": "6833ec545d596f9f1a33a456236090e2da2f02b0a7592d43b65d3bf4688f5b7b",
+  "decodedSha256": "6833ec545d596f9f1a33a456236090e2da2f02b0a7592d43b65d3bf4688f5b7b",
+  "compressedSha256": "390f8b2ac9692814ef21d69dff8e3577570ed8798daa04a0fd105602a56a6119",
+  "decodedBytes": 17835,
+  "compressedBytes": 5206,
   "checkedAt": "2026-09-28",
   "generationSource": "data/sources/primates-macaca-radiata-dossier.json",
   "generationSourceSha256": "af853a8e0dbe4388abc49572db345e631e816021cdfda52cc33d249b4e5ae56d",
@@ -28,7 +28,7 @@
     "colId": "3WWP2",
     "scientificName": "Macaca radiata (É. Geoffroy Saint-Hilaire, 1812)"
   },
-  "updateMode": "refresh-one-existing-record-shard",
+  "updateMode": "in-place-update-one-existing-record",
   "supplementalUpdates": [
     {
       "batchId": "primates-macaca-radiata-morphology-batch65-2026-09-28",
@@ -42,6 +42,20 @@
       "compressedSha256": "bf6d330de9eaf3999019e976b25eed56f6813047de5c251b3a9c6d77b3930252",
       "stableId": "doi:10.1002/ajpa.23439",
       "facet": "morphology",
+      "appAndPagesPreviewManifestChanged": false
+    },
+    {
+      "batchId": "primates-macaca-radiata-evolution-b66-2026-09-28",
+      "sourcePath": "data/sources/primates-macaca-radiata-evolution-b66-2026-09-28.json",
+      "sourceSha256": "ffd420911e92fd71659eb0d664be3d30e968448e467c678e7ff0669a58a4e9ae",
+      "generator": "scripts/update-primates-macaca-radiata-evolution-b66.mjs",
+      "baseHead": "6a0b58b32a933f1ddd7d075da2f92cd85e103efc",
+      "previousRawSha256": "4486d4e3fd2ec0fefb584887ab885546590d863b5157ca35adba3178dff03dfa",
+      "previousCompressedSha256": "bf6d330de9eaf3999019e976b25eed56f6813047de5c251b3a9c6d77b3930252",
+      "rawSha256": "6833ec545d596f9f1a33a456236090e2da2f02b0a7592d43b65d3bf4688f5b7b",
+      "compressedSha256": "390f8b2ac9692814ef21d69dff8e3577570ed8798daa04a0fd105602a56a6119",
+      "stableId": "doi:10.1371/journal.pntd.0006801",
+      "facet": "evolution",
       "appAndPagesPreviewManifestChanged": false
     }
   ]

@@ -1,0 +1,4884 @@
+{
+  "pmcid": "PMC6986871",
+  "sourceVersion": null,
+  "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+  "sha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+  "articleType": "research-article",
+  "title": "Multiplex CRISPR/Cas screen in regenerating haploid limbs of chimeric Axolotls",
+  "authors": [
+    {
+      "name": "Lucas D Sanor",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Lucas D",
+        "surname": "Sanor",
+        "suffix": null
+      },
+      "originalName": "SanorLucas D",
+      "attributes": {
+        "id": "author-82081",
+        "contrib-type": "author",
+        "equal-contrib": "yes"
+      },
+      "identifiers": [
+        {
+          "authenticated": "true",
+          "contrib-id-type": "orcid",
+          "value": "https://orcid.org/0000-0003-2756-0457"
+        }
+      ]
+    },
+    {
+      "name": "Grant Parker Flowers",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Grant Parker",
+        "surname": "Flowers",
+        "suffix": null
+      },
+      "originalName": "FlowersGrant Parker",
+      "attributes": {
+        "id": "author-8394",
+        "contrib-type": "author",
+        "equal-contrib": "yes"
+      },
+      "identifiers": [
+        {
+          "authenticated": "true",
+          "contrib-id-type": "orcid",
+          "value": "https://orcid.org/0000-0001-7436-3531"
+        }
+      ]
+    },
+    {
+      "name": "Craig M Crews",
+      "nameParts": {
+        "prefix": null,
+        "given-names": "Craig M",
+        "surname": "Crews",
+        "suffix": null
+      },
+      "originalName": "CrewsCraig M",
+      "attributes": {
+        "id": "author-8395",
+        "contrib-type": "author",
+        "corresp": "yes"
+      },
+      "identifiers": [
+        {
+          "authenticated": "true",
+          "contrib-id-type": "orcid",
+          "value": "https://orcid.org/0000-0002-8456-2005"
+        }
+      ]
+    }
+  ],
+  "identifiers": [
+    {
+      "pub-id-type": "pmcid",
+      "value": "PMC6986871"
+    },
+    {
+      "pub-id-type": "pmcid-ver",
+      "value": "PMC6986871.1"
+    },
+    {
+      "pub-id-type": "pmcaid",
+      "value": "6986871"
+    },
+    {
+      "pub-id-type": "pmcaiid",
+      "value": "6986871"
+    },
+    {
+      "pub-id-type": "pmid",
+      "value": "31989926"
+    },
+    {
+      "pub-id-type": "doi",
+      "value": "10.7554/eLife.48511"
+    },
+    {
+      "pub-id-type": "publisher-id",
+      "value": "48511"
+    }
+  ],
+  "publicationDates": [
+    {
+      "date-type": "pub",
+      "publication-format": "electronic",
+      "year": "2020",
+      "month": "1",
+      "day": "28"
+    },
+    {
+      "pub-type": "collection",
+      "year": "2020",
+      "month": null,
+      "day": null
+    }
+  ],
+  "licenses": [
+    {
+      "attributes": {
+        "{http://www.w3.org/1999/xlink}href": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "locator": "article/front/article-meta/permissions/license",
+      "licenseInterpretationVerified": false
+    }
+  ],
+  "supplements": [
+    {
+      "id": "fig2sdata1",
+      "position": 0,
+      "links": [
+        {
+          "element": "media",
+          "href": "elife-48511-fig2-data1.xlsx",
+          "attributes": {
+            "mime-subtype": "xlsx",
+            "mimetype": "application",
+            "{http://www.w3.org/1999/xlink}href": "elife-48511-fig2-data1.xlsx",
+            "orientation": "portrait",
+            "id": "d35e472",
+            "position": "anchor"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "fig4sdata1",
+      "position": 1,
+      "links": [
+        {
+          "element": "media",
+          "href": "elife-48511-fig4-data1.xlsx",
+          "attributes": {
+            "mime-subtype": "xlsx",
+            "mimetype": "application",
+            "{http://www.w3.org/1999/xlink}href": "elife-48511-fig4-data1.xlsx",
+            "orientation": "portrait",
+            "id": "d35e1182",
+            "position": "anchor"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "fig6sdata1",
+      "position": 2,
+      "links": [
+        {
+          "element": "media",
+          "href": "elife-48511-fig6-data1.xlsx",
+          "attributes": {
+            "mime-subtype": "xlsx",
+            "mimetype": "application",
+            "{http://www.w3.org/1999/xlink}href": "elife-48511-fig6-data1.xlsx",
+            "orientation": "portrait",
+            "id": "d35e1594",
+            "position": "anchor"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "supp1",
+      "position": 3,
+      "links": [
+        {
+          "element": "media",
+          "href": "elife-48511-supp1.xlsx",
+          "attributes": {
+            "mime-subtype": "xlsx",
+            "mimetype": "application",
+            "{http://www.w3.org/1999/xlink}href": "elife-48511-supp1.xlsx",
+            "orientation": "portrait",
+            "id": "d35e2443",
+            "position": "anchor"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    },
+    {
+      "id": "transrepform",
+      "position": 4,
+      "links": [
+        {
+          "element": "media",
+          "href": "elife-48511-transrepform.docx",
+          "attributes": {
+            "mime-subtype": "docx",
+            "mimetype": "application",
+            "{http://www.w3.org/1999/xlink}href": "elife-48511-transrepform.docx",
+            "orientation": "portrait",
+            "id": "d35e2447",
+            "position": "anchor"
+          }
+        }
+      ],
+      "downloaded": false,
+      "read": false
+    }
+  ],
+  "citedReferences": [
+    {
+      "id": "bib1",
+      "position": 0,
+      "title": "A Tissue-Mapped axolotl de novo transcriptome enables identification of limb regeneration factors",
+      "source": "Cell Reports",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Bryant",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BryantDM"
+            },
+            {
+              "surname": "Johnson",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JohnsonK"
+            },
+            {
+              "surname": "DiTommaso",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DiTommasoT"
+            },
+            {
+              "surname": "Tickle",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TickleT"
+            },
+            {
+              "surname": "Couger",
+              "givenNames": "MB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CougerMB"
+            },
+            {
+              "surname": "Payzin-Dogru",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Payzin-DogruD"
+            },
+            {
+              "surname": "Lee",
+              "givenNames": "TJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeeTJ"
+            },
+            {
+              "surname": "Leigh",
+              "givenNames": "ND",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeighND"
+            },
+            {
+              "surname": "Kuo",
+              "givenNames": "TH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KuoTH"
+            },
+            {
+              "surname": "Davis",
+              "givenNames": "FG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DavisFG"
+            },
+            {
+              "surname": "Bateman",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BatemanJ"
+            },
+            {
+              "surname": "Bryant",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BryantS"
+            },
+            {
+              "surname": "Guzikowski",
+              "givenNames": "AR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuzikowskiAR"
+            },
+            {
+              "surname": "Tsai",
+              "givenNames": "SL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TsaiSL"
+            },
+            {
+              "surname": "Coyne",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CoyneS"
+            },
+            {
+              "surname": "Ye",
+              "givenNames": "WW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YeWW"
+            },
+            {
+              "surname": "Freeman",
+              "givenNames": "RM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FreemanRM"
+            },
+            {
+              "surname": "Peshkin",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PeshkinL"
+            },
+            {
+              "surname": "Tabin",
+              "givenNames": "CJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TabinCJ"
+            },
+            {
+              "surname": "Regev",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RegevA"
+            },
+            {
+              "surname": "Haas",
+              "givenNames": "BJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaasBJ"
+            },
+            {
+              "surname": "Whited",
+              "givenNames": "JL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WhitedJL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "18"
+        ],
+        "fpage": [
+          "762"
+        ],
+        "lpage": [
+          "776"
+        ]
+      },
+      "originalCitationText": "BryantDMJohnsonKDiTommasoTTickleTCougerMBPayzin-DogruDLeeTJLeighNDKuoTHDavisFGBatemanJBryantSGuzikowskiARTsaiSLCoyneSYeWWFreemanRMPeshkinLTabinCJRegevAHaasBJWhitedJL2017A Tissue-Mapped axolotl de novo transcriptome enables identification of limb regeneration factorsCell Reports1876277610.1016/j.celrep.2016.12.06328099853PMC5419050",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.celrep.2016.12.063"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28099853"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5419050"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib1",
+        "position": 0,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib2",
+      "position": 1,
+      "title": "Gene expression profile of the regeneration epithelium during axolotl limb regeneration",
+      "source": "Developmental Dynamics",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Campbell",
+              "givenNames": "LJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CampbellLJ"
+            },
+            {
+              "surname": "Suárez-Castillo",
+              "givenNames": "EC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Suárez-CastilloEC"
+            },
+            {
+              "surname": "Ortiz-Zuazaga",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Ortiz-ZuazagaH"
+            },
+            {
+              "surname": "Knapp",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KnappD"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            },
+            {
+              "surname": "Crews",
+              "givenNames": "CM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CrewsCM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "240"
+        ],
+        "fpage": [
+          "1826"
+        ],
+        "lpage": [
+          "1840"
+        ]
+      },
+      "originalCitationText": "CampbellLJSuárez-CastilloECOrtiz-ZuazagaHKnappDTanakaEMCrewsCM2011Gene expression profile of the regeneration epithelium during axolotl limb regenerationDevelopmental Dynamics2401826184010.1002/dvdy.2266921648017PMC3297817",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/dvdy.22669"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "21648017"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3297817"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib2",
+        "position": 1,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib3",
+      "position": 2,
+      "title": "Live imaging of axolotl digit regeneration reveals spatiotemporal choreography of diverse connective tissue progenitor pools",
+      "source": "Developmental Cell",
+      "year": "2016",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Currie",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CurrieJD"
+            },
+            {
+              "surname": "Kawaguchi",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KawaguchiA"
+            },
+            {
+              "surname": "Traspas",
+              "givenNames": "RM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TraspasRM"
+            },
+            {
+              "surname": "Schuez",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchuezM"
+            },
+            {
+              "surname": "Chara",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CharaO"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "39"
+        ],
+        "fpage": [
+          "411"
+        ],
+        "lpage": [
+          "423"
+        ]
+      },
+      "originalCitationText": "CurrieJDKawaguchiATraspasRMSchuezMCharaOTanakaEM2016Live imaging of axolotl digit regeneration reveals spatiotemporal choreography of diverse connective tissue progenitor poolsDevelopmental Cell3941142310.1016/j.devcel.2016.10.01327840105PMC5127896",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.devcel.2016.10.013"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27840105"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5127896"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib3",
+        "position": 2,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib4",
+      "position": 3,
+      "title": "The mutant axolotl short toes exhibits impaired limb regeneration and abnormal basement membrane formation",
+      "source": "PNAS",
+      "year": "1992",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Del Rio-Tsonis",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Del Rio-TsonisK"
+            },
+            {
+              "surname": "Washabaugh",
+              "givenNames": "CH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WashabaughCH"
+            },
+            {
+              "surname": "Tsonis",
+              "givenNames": "PA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TsonisPA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "89"
+        ],
+        "fpage": [
+          "5502"
+        ],
+        "lpage": [
+          "5506"
+        ]
+      },
+      "originalCitationText": "Del Rio-TsonisKWashabaughCHTsonisPA1992The mutant axolotl short toes exhibits impaired limb regeneration and abnormal basement membrane formationPNAS895502550610.1073/pnas.89.12.55021608961PMC49320",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1073/pnas.89.12.5502"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "1608961"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC49320"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib4",
+        "position": 3,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib5",
+      "position": 4,
+      "title": "Tissue distribution and activity testing suggest a similar but not identical function of fetuin-B and fetuin-A",
+      "source": "Biochemical Journal",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Denecke",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DeneckeB"
+            },
+            {
+              "surname": "Gräber",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GräberS"
+            },
+            {
+              "surname": "Schäfer",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchäferC"
+            },
+            {
+              "surname": "Heiss",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HeissA"
+            },
+            {
+              "surname": "Wöltje",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WöltjeM"
+            },
+            {
+              "surname": "Jahnen-Dechent",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Jahnen-DechentW"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "376"
+        ],
+        "fpage": [
+          "135"
+        ],
+        "lpage": [
+          "145"
+        ]
+      },
+      "originalCitationText": "DeneckeBGräberSSchäferCHeissAWöltjeMJahnen-DechentW2003Tissue distribution and activity testing suggest a similar but not identical function of fetuin-B and fetuin-ABiochemical Journal37613514510.1042/bj2003067612943536PMC1223762",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1042/bj20030676"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12943536"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1223762"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib5",
+        "position": 4,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib6",
+      "position": 5,
+      "title": "Fetuin-B, a liver-derived plasma protein is essential for fertilization",
+      "source": "Developmental Cell",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dietzel",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DietzelE"
+            },
+            {
+              "surname": "Wessling",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WesslingJ"
+            },
+            {
+              "surname": "Floehr",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FloehrJ"
+            },
+            {
+              "surname": "Schäfer",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchäferC"
+            },
+            {
+              "surname": "Ensslen",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EnsslenS"
+            },
+            {
+              "surname": "Denecke",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DeneckeB"
+            },
+            {
+              "surname": "Rösing",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RösingB"
+            },
+            {
+              "surname": "Neulen",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NeulenJ"
+            },
+            {
+              "surname": "Veitinger",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VeitingerT"
+            },
+            {
+              "surname": "Spehr",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SpehrM"
+            },
+            {
+              "surname": "Tropartz",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TropartzT"
+            },
+            {
+              "surname": "Tolba",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TolbaR"
+            },
+            {
+              "surname": "Renné",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RennéT"
+            },
+            {
+              "surname": "Egert",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EgertA"
+            },
+            {
+              "surname": "Schorle",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchorleH"
+            },
+            {
+              "surname": "Gottenbusch",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GottenbuschY"
+            },
+            {
+              "surname": "Hildebrand",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HildebrandA"
+            },
+            {
+              "surname": "Yiallouros",
+              "givenNames": "I",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YiallourosI"
+            },
+            {
+              "surname": "Stöcker",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StöckerW"
+            },
+            {
+              "surname": "Weiskirchen",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeiskirchenR"
+            },
+            {
+              "surname": "Jahnen-Dechent",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Jahnen-DechentW"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "25"
+        ],
+        "fpage": [
+          "106"
+        ],
+        "lpage": [
+          "112"
+        ]
+      },
+      "originalCitationText": "DietzelEWesslingJFloehrJSchäferCEnsslenSDeneckeBRösingBNeulenJVeitingerTSpehrMTropartzTTolbaRRennéTEgertASchorleHGottenbuschYHildebrandAYiallourosIStöckerWWeiskirchenRJahnen-DechentW2013Fetuin-B, a liver-derived plasma protein is essential for fertilizationDevelopmental Cell2510611210.1016/j.devcel.2013.03.00123562279",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.devcel.2013.03.001"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23562279"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib6",
+        "position": 5,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib7",
+      "position": 6,
+      "title": "The expression of fetuin in the development and maturation of the hemopoietic and immune systems",
+      "source": "Histochemistry and Cell Biology",
+      "year": "1996",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Dziegielewska",
+              "givenNames": "KM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DziegielewskaKM"
+            },
+            {
+              "surname": "Brown",
+              "givenNames": "WM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BrownWM"
+            },
+            {
+              "surname": "Deal",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DealA"
+            },
+            {
+              "surname": "Foster",
+              "givenNames": "KA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FosterKA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "106"
+        ],
+        "fpage": [
+          "319"
+        ],
+        "lpage": [
+          "330"
+        ]
+      },
+      "originalCitationText": "DziegielewskaKMBrownWMDealAFosterKA1996The expression of fetuin in the development and maturation of the hemopoietic and immune systemsHistochemistry and Cell Biology10631933010.1007/BF024732428897073",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/BF02473242"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "8897073"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib7",
+        "position": 6,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib8",
+      "position": 7,
+      "title": "CRISPR-mediated genomic deletion of Sox2 in the axolotl shows a requirement in spinal cord neural stem cell amplification during tail regeneration",
+      "source": "Stem Cell Reports",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Fei",
+              "givenNames": "JF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FeiJF"
+            },
+            {
+              "surname": "Schuez",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchuezM"
+            },
+            {
+              "surname": "Tazaki",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TazakiA"
+            },
+            {
+              "surname": "Taniguchi",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TaniguchiY"
+            },
+            {
+              "surname": "Roensch",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RoenschK"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "fpage": [
+          "444"
+        ],
+        "lpage": [
+          "459"
+        ]
+      },
+      "originalCitationText": "FeiJFSchuezMTazakiATaniguchiYRoenschKTanakaEM2014CRISPR-mediated genomic deletion of Sox2 in the axolotl shows a requirement in spinal cord neural stem cell amplification during tail regenerationStem Cell Reports344445910.1016/j.stemcr.2014.06.01825241743PMC4266004",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.stemcr.2014.06.018"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25241743"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4266004"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib8",
+        "position": 7,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib9",
+      "position": 8,
+      "title": "Application and optimization of CRISPR-Cas9-mediated genome engineering in axolotl (Ambystoma mexicanum)",
+      "source": "Nature Protocols",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Fei",
+              "givenNames": "JF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FeiJF"
+            },
+            {
+              "surname": "Lou",
+              "givenNames": "WP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LouWP"
+            },
+            {
+              "surname": "Knapp",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KnappD"
+            },
+            {
+              "surname": "Murawala",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MurawalaP"
+            },
+            {
+              "surname": "Gerber",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GerberT"
+            },
+            {
+              "surname": "Taniguchi",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TaniguchiY"
+            },
+            {
+              "surname": "Nowoshilow",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NowoshilowS"
+            },
+            {
+              "surname": "Khattak",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhattakS"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "13"
+        ],
+        "fpage": [
+          "2908"
+        ],
+        "lpage": [
+          "2943"
+        ]
+      },
+      "originalCitationText": "FeiJFLouWPKnappDMurawalaPGerberTTaniguchiYNowoshilowSKhattakSTanakaEM2018Application and optimization of CRISPR-Cas9-mediated genome engineering in axolotl (Ambystoma mexicanum)Nature Protocols132908294310.1038/s41596-018-0071-030429597",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41596-018-0071-0"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30429597"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib9",
+        "position": 8,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib10",
+      "position": 9,
+      "title": "Highly efficient targeted mutagenesis in axolotl using Cas9 RNA-guided nuclease",
+      "source": "Development",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Flowers",
+              "givenNames": "GP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FlowersGP"
+            },
+            {
+              "surname": "Timberlake",
+              "givenNames": "AT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TimberlakeAT"
+            },
+            {
+              "surname": "McLean",
+              "givenNames": "KC",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "McLeanKC"
+            },
+            {
+              "surname": "Monaghan",
+              "givenNames": "JR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MonaghanJR"
+            },
+            {
+              "surname": "Crews",
+              "givenNames": "CM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CrewsCM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "141"
+        ],
+        "fpage": [
+          "2165"
+        ],
+        "lpage": [
+          "2171"
+        ]
+      },
+      "originalCitationText": "FlowersGPTimberlakeATMcLeanKCMonaghanJRCrewsCM2014Highly efficient targeted mutagenesis in axolotl using Cas9 RNA-guided nucleaseDevelopment1412165217110.1242/dev.10507224764077PMC4011087",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1242/dev.105072"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24764077"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4011087"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib10",
+        "position": 9,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib11",
+      "position": 10,
+      "title": "Lineage tracing of genome-edited alleles reveals high fidelity axolotl limb regeneration",
+      "source": "eLife",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Flowers",
+              "givenNames": "GP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FlowersGP"
+            },
+            {
+              "surname": "Sanor",
+              "givenNames": "LD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SanorLD"
+            },
+            {
+              "surname": "Crews",
+              "givenNames": "CM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CrewsCM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "6"
+        ],
+        "elocation-id": [
+          "e25726"
+        ]
+      },
+      "originalCitationText": "FlowersGPSanorLDCrewsCM2017Lineage tracing of genome-edited alleles reveals high fidelity axolotl limb regenerationeLife6e2572610.7554/eLife.2572628917058PMC5621835",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.7554/eLife.25726"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "28917058"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5621835"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib11",
+        "position": 10,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib12",
+      "position": 11,
+      "title": "Generating and identifying axolotls with targeted mutations using Cas9 RNA-guided nuclease",
+      "source": "Methods in Molecular Biology",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Flowers",
+              "givenNames": "GP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FlowersGP"
+            },
+            {
+              "surname": "Crews",
+              "givenNames": "CM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CrewsCM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "1290"
+        ],
+        "fpage": [
+          "279"
+        ],
+        "lpage": [
+          "295"
+        ]
+      },
+      "originalCitationText": "FlowersGPCrewsCM2015Generating and identifying axolotls with targeted mutations using Cas9 RNA-guided nucleaseMethods in Molecular Biology129027929510.1007/978-1-4939-2495-0_2225740494",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/978-1-4939-2495-0_22"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25740494"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib12",
+        "position": 11,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib13",
+      "position": 12,
+      "title": "Abnormal limb regeneration in the short-toes mutant of the axolotl, Ambystoma mexicanum: studies of age, level of amputation, and extracellular matrix",
+      "source": "The Journal of Experimental Zoology",
+      "year": "1997",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gassner",
+              "givenNames": "KM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GassnerKM"
+            },
+            {
+              "surname": "Tassava",
+              "givenNames": "RA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TassavaRA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "279"
+        ],
+        "fpage": [
+          "571"
+        ],
+        "lpage": [
+          "578"
+        ]
+      },
+      "originalCitationText": "GassnerKMTassavaRA1997Abnormal limb regeneration in the short-toes mutant of the axolotl, Ambystoma mexicanum: studies of age, level of amputation, and extracellular matrixThe Journal of Experimental Zoology27957157810.1002/(SICI)1097-010X(19971215)279:6<571::AID-JEZ5>3.0.CO;2-K9399429",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/(SICI)1097-010X(19971215)279:6<571::AID-JEZ5>3.0.CO;2-K"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "9399429"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib13",
+        "position": 12,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib14",
+      "position": 13,
+      "title": "Sustained production of ROS triggers compensatory proliferation and is required for regeneration to proceed",
+      "source": "Scientific Reports",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gauron",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GauronC"
+            },
+            {
+              "surname": "Rampon",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RamponC"
+            },
+            {
+              "surname": "Bouzaffour",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BouzaffourM"
+            },
+            {
+              "surname": "Ipendey",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IpendeyE"
+            },
+            {
+              "surname": "Teillon",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TeillonJ"
+            },
+            {
+              "surname": "Volovitch",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VolovitchM"
+            },
+            {
+              "surname": "Vriz",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VrizS"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "3"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "9"
+        ]
+      },
+      "originalCitationText": "GauronCRamponCBouzaffourMIpendeyETeillonJVolovitchMVrizS2013Sustained production of ROS triggers compensatory proliferation and is required for regeneration to proceedScientific Reports31910.1038/srep02084PMC369428623803955",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/srep02084"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3694286"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23803955"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib14",
+        "position": 13,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib15",
+      "position": 14,
+      "title": "Single-cell analysis uncovers convergence of cell identities during axolotl limb regeneration",
+      "source": "Science",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Gerber",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GerberT"
+            },
+            {
+              "surname": "Murawala",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MurawalaP"
+            },
+            {
+              "surname": "Knapp",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KnappD"
+            },
+            {
+              "surname": "Masselink",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MasselinkW"
+            },
+            {
+              "surname": "Schuez",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchuezM"
+            },
+            {
+              "surname": "Hermann",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HermannS"
+            },
+            {
+              "surname": "Gac-Santel",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Gac-SantelM"
+            },
+            {
+              "surname": "Nowoshilow",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NowoshilowS"
+            },
+            {
+              "surname": "Kageyama",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KageyamaJ"
+            },
+            {
+              "surname": "Khattak",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhattakS"
+            },
+            {
+              "surname": "Currie",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CurrieJD"
+            },
+            {
+              "surname": "Camp",
+              "givenNames": "JG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CampJG"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            },
+            {
+              "surname": "Treutlein",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TreutleinB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "362"
+        ],
+        "elocation-id": [
+          "eaaq0681"
+        ]
+      },
+      "originalCitationText": "GerberTMurawalaPKnappDMasselinkWSchuezMHermannSGac-SantelMNowoshilowSKageyamaJKhattakSCurrieJDCampJGTanakaEMTreutleinB2018Single-cell analysis uncovers convergence of cell identities during axolotl limb regenerationScience362eaaq068110.1126/science.aaq068130262634PMC6669047",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.aaq0681"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30262634"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6669047"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib15",
+        "position": 14,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib16",
+      "position": 15,
+      "title": "Hydrogen peroxide primes heart regeneration with a derepression mechanism",
+      "source": "Cell Research",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Han",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HanP"
+            },
+            {
+              "surname": "Zhou",
+              "givenNames": "XH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhouXH"
+            },
+            {
+              "surname": "Chang",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChangN"
+            },
+            {
+              "surname": "Xiao",
+              "givenNames": "CL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XiaoCL"
+            },
+            {
+              "surname": "Yan",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YanS"
+            },
+            {
+              "surname": "Ren",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RenH"
+            },
+            {
+              "surname": "Yang",
+              "givenNames": "XZ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YangXZ"
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "ML",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangML"
+            },
+            {
+              "surname": "Wu",
+              "givenNames": "Q",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WuQ"
+            },
+            {
+              "surname": "Tang",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TangB"
+            },
+            {
+              "surname": "Diao",
+              "givenNames": "JP",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DiaoJP"
+            },
+            {
+              "surname": "Zhu",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhuX"
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangC"
+            },
+            {
+              "surname": "Li",
+              "givenNames": "CY",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LiCY"
+            },
+            {
+              "surname": "Cheng",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChengH"
+            },
+            {
+              "surname": "Xiong",
+              "givenNames": "JW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "XiongJW"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "24"
+        ],
+        "fpage": [
+          "1091"
+        ],
+        "lpage": [
+          "1107"
+        ]
+      },
+      "originalCitationText": "HanPZhouXHChangNXiaoCLYanSRenHYangXZZhangMLWuQTangBDiaoJPZhuXZhangCLiCYChengHXiongJW2014Hydrogen peroxide primes heart regeneration with a derepression mechanismCell Research241091110710.1038/cr.2014.10825124925PMC4152734",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/cr.2014.108"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "25124925"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4152734"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib16",
+        "position": 15,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib17",
+      "position": 16,
+      "title": "Development and survival of haploids of the mexican axolotl,Ambystoma mexicanum",
+      "source": "Journal of Experimental Zoology",
+      "year": "1979",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hronowski",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HronowskiL"
+            },
+            {
+              "surname": "Gillespie",
+              "givenNames": "LL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GillespieLL"
+            },
+            {
+              "surname": "Armstrong",
+              "givenNames": "JB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ArmstrongJB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "209"
+        ],
+        "fpage": [
+          "41"
+        ],
+        "lpage": [
+          "47"
+        ]
+      },
+      "originalCitationText": "HronowskiLGillespieLLArmstrongJB1979Development and survival of haploids of the mexican axolotl,Ambystoma mexicanumJournal of Experimental Zoology209414710.1002/jez.1402090105",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/jez.1402090105"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib17",
+        "position": 16,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib18",
+      "position": 17,
+      "title": "Efficient genome editing in zebrafish using a CRISPR-Cas system",
+      "source": "Nature Biotechnology",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Hwang",
+              "givenNames": "WY",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HwangWY"
+            },
+            {
+              "surname": "Fu",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FuY"
+            },
+            {
+              "surname": "Reyon",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ReyonD"
+            },
+            {
+              "surname": "Maeder",
+              "givenNames": "ML",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MaederML"
+            },
+            {
+              "surname": "Tsai",
+              "givenNames": "SQ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TsaiSQ"
+            },
+            {
+              "surname": "Sander",
+              "givenNames": "JD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SanderJD"
+            },
+            {
+              "surname": "Peterson",
+              "givenNames": "RT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PetersonRT"
+            },
+            {
+              "surname": "Yeh",
+              "givenNames": "JR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YehJR"
+            },
+            {
+              "surname": "Joung",
+              "givenNames": "JK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JoungJK"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "31"
+        ],
+        "fpage": [
+          "227"
+        ],
+        "lpage": [
+          "229"
+        ]
+      },
+      "originalCitationText": "HwangWYFuYReyonDMaederMLTsaiSQSanderJDPetersonRTYehJRJoungJK2013Efficient genome editing in zebrafish using a CRISPR-Cas systemNature Biotechnology3122722910.1038/nbt.250123360964PMC3686313",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nbt.2501"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23360964"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3686313"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib18",
+        "position": 17,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib19",
+      "position": 18,
+      "title": "Drosophila myc regulates cellular growth during development",
+      "source": "Cell",
+      "year": "1999",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Johnston",
+              "givenNames": "LA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JohnstonLA"
+            },
+            {
+              "surname": "Prober",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ProberDA"
+            },
+            {
+              "surname": "Edgar",
+              "givenNames": "BA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EdgarBA"
+            },
+            {
+              "surname": "Eisenman",
+              "givenNames": "RN",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EisenmanRN"
+            },
+            {
+              "surname": "Gallant",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GallantP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "98"
+        ],
+        "fpage": [
+          "779"
+        ],
+        "lpage": [
+          "790"
+        ]
+      },
+      "originalCitationText": "JohnstonLAProberDAEdgarBAEisenmanRNGallantP1999Drosophila myc regulates cellular growth during developmentCell9877979010.1016/S0092-8674(00)81512-310499795PMC10176494",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/S0092-8674(00)81512-3"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "10499795"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC10176494"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib19",
+        "position": 18,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib20",
+      "position": 19,
+      "title": "Mammalian plasma fetuin-B is a selective inhibitor of ovastacin and meprin metalloproteinases",
+      "source": "Scientific Reports",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Karmilin",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KarmilinK"
+            },
+            {
+              "surname": "Schmitz",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchmitzC"
+            },
+            {
+              "surname": "Kuske",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KuskeM"
+            },
+            {
+              "surname": "Körschgen",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KörschgenH"
+            },
+            {
+              "surname": "Olf",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OlfM"
+            },
+            {
+              "surname": "Meyer",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MeyerK"
+            },
+            {
+              "surname": "Hildebrand",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HildebrandA"
+            },
+            {
+              "surname": "Felten",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FeltenM"
+            },
+            {
+              "surname": "Fridrich",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FridrichS"
+            },
+            {
+              "surname": "Yiallouros",
+              "givenNames": "I",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YiallourosI"
+            },
+            {
+              "surname": "Becker-Pauly",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Becker-PaulyC"
+            },
+            {
+              "surname": "Weiskirchen",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeiskirchenR"
+            },
+            {
+              "surname": "Jahnen-Dechent",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Jahnen-DechentW"
+            },
+            {
+              "surname": "Floehr",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FloehrJ"
+            },
+            {
+              "surname": "Stöcker",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StöckerW"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "12"
+        ]
+      },
+      "originalCitationText": "KarmilinKSchmitzCKuskeMKörschgenHOlfMMeyerKHildebrandAFeltenMFridrichSYiallourosIBecker-PaulyCWeiskirchenRJahnen-DechentWFloehrJStöckerW2019Mammalian plasma fetuin-B is a selective inhibitor of ovastacin and meprin metalloproteinasesScientific Reports911210.1038/s41598-018-37024-530679641PMC6346019",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41598-018-37024-5"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30679641"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6346019"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib20",
+        "position": 19,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib21",
+      "position": 20,
+      "title": "Comparative transcriptional profiling of the axolotl limb identifies a tripartite regeneration-specific gene program",
+      "source": "PLOS ONE",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Knapp",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KnappD"
+            },
+            {
+              "surname": "Schulz",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchulzH"
+            },
+            {
+              "surname": "Rascon",
+              "givenNames": "CA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RasconCA"
+            },
+            {
+              "surname": "Volkmer",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VolkmerM"
+            },
+            {
+              "surname": "Scholz",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ScholzJ"
+            },
+            {
+              "surname": "Nacu",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NacuE"
+            },
+            {
+              "surname": "Le",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeM"
+            },
+            {
+              "surname": "Novozhilov",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NovozhilovS"
+            },
+            {
+              "surname": "Tazaki",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TazakiA"
+            },
+            {
+              "surname": "Protze",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ProtzeS"
+            },
+            {
+              "surname": "Jacob",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JacobT"
+            },
+            {
+              "surname": "Hubner",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HubnerN"
+            },
+            {
+              "surname": "Habermann",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HabermannB"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "8"
+        ],
+        "elocation-id": [
+          "e61352"
+        ]
+      },
+      "originalCitationText": "KnappDSchulzHRasconCAVolkmerMScholzJNacuELeMNovozhilovSTazakiAProtzeSJacobTHubnerNHabermannBTanakaEM2013Comparative transcriptional profiling of the axolotl limb identifies a tripartite regeneration-specific gene programPLOS ONE8e6135210.1371/journal.pone.006135223658691PMC3641036",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0061352"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23658691"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3641036"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib21",
+        "position": 20,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib22",
+      "position": 21,
+      "title": "Cells keep a memory of their tissue origin during axolotl limb regeneration",
+      "source": "Nature",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Kragl",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KraglM"
+            },
+            {
+              "surname": "Knapp",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KnappD"
+            },
+            {
+              "surname": "Nacu",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NacuE"
+            },
+            {
+              "surname": "Khattak",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhattakS"
+            },
+            {
+              "surname": "Maden",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MadenM"
+            },
+            {
+              "surname": "Epperlein",
+              "givenNames": "HH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EpperleinHH"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "460"
+        ],
+        "fpage": [
+          "60"
+        ],
+        "lpage": [
+          "65"
+        ]
+      },
+      "originalCitationText": "KraglMKnappDNacuEKhattakSMadenMEpperleinHHTanakaEM2009Cells keep a memory of their tissue origin during axolotl limb regenerationNature460606510.1038/nature0815219571878",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/nature08152"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19571878"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib22",
+        "position": 21,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib23",
+      "position": 22,
+      "title": "Transcriptomic landscape of the blastema niche in regenerating adult axolotl limbs at single-cell resolution",
+      "source": "Nature Communications",
+      "year": "2018",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Leigh",
+              "givenNames": "ND",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeighND"
+            },
+            {
+              "surname": "Dunlap",
+              "givenNames": "GS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DunlapGS"
+            },
+            {
+              "surname": "Johnson",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JohnsonK"
+            },
+            {
+              "surname": "Mariano",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MarianoR"
+            },
+            {
+              "surname": "Oshiro",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "OshiroR"
+            },
+            {
+              "surname": "Wong",
+              "givenNames": "AY",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WongAY"
+            },
+            {
+              "surname": "Bryant",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BryantDM"
+            },
+            {
+              "surname": "Miller",
+              "givenNames": "BM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MillerBM"
+            },
+            {
+              "surname": "Ratner",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RatnerA"
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenA"
+            },
+            {
+              "surname": "Ye",
+              "givenNames": "WW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YeWW"
+            },
+            {
+              "surname": "Haas",
+              "givenNames": "BJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HaasBJ"
+            },
+            {
+              "surname": "Whited",
+              "givenNames": "JL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WhitedJL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "elocation-id": [
+          "e5153"
+        ]
+      },
+      "originalCitationText": "LeighNDDunlapGSJohnsonKMarianoROshiroRWongAYBryantDMMillerBMRatnerAChenAYeWWHaasBJWhitedJL2018Transcriptomic landscape of the blastema niche in regenerating adult axolotl limbs at single-cell resolutionNature Communications9e515310.1038/s41467-018-07604-0PMC627978830514844",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41467-018-07604-0"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6279788"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "30514844"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib23",
+        "position": 22,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib24",
+      "position": 23,
+      "title": "Amputation-induced reactive oxygen species are required for successful xenopus tadpole tail regeneration",
+      "source": "Nature Cell Biology",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Love",
+              "givenNames": "NR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LoveNR"
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenY"
+            },
+            {
+              "surname": "Ishibashi",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "IshibashiS"
+            },
+            {
+              "surname": "Kritsiligkou",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KritsiligkouP"
+            },
+            {
+              "surname": "Lea",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LeaR"
+            },
+            {
+              "surname": "Koh",
+              "givenNames": "Y",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KohY"
+            },
+            {
+              "surname": "Gallop",
+              "givenNames": "JL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GallopJL"
+            },
+            {
+              "surname": "Dorey",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DoreyK"
+            },
+            {
+              "surname": "Amaya",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AmayaE"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "222"
+        ],
+        "lpage": [
+          "228"
+        ]
+      },
+      "originalCitationText": "LoveNRChenYIshibashiSKritsiligkouPLeaRKohYGallopJLDoreyKAmayaE2013Amputation-induced reactive oxygen species are required for successful xenopus tadpole tail regenerationNature Cell Biology1522222810.1038/ncb265923314862PMC3728553",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/ncb2659"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23314862"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3728553"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib24",
+        "position": 23,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib25",
+      "position": 24,
+      "title": "Collection of gametes from live axolotl, Ambystoma mexicanum, and standardization of in vitro fertilization",
+      "source": "Theriogenology",
+      "year": "2011",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Mansour",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MansourN"
+            },
+            {
+              "surname": "Lahnsteiner",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LahnsteinerF"
+            },
+            {
+              "surname": "Patzner",
+              "givenNames": "RA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PatznerRA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "75"
+        ],
+        "fpage": [
+          "354"
+        ],
+        "lpage": [
+          "361"
+        ]
+      },
+      "originalCitationText": "MansourNLahnsteinerFPatznerRA2011Collection of gametes from live axolotl, Ambystoma mexicanum, and standardization of in vitro fertilizationTheriogenology7535436110.1016/j.theriogenology.2010.09.00620965554",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.theriogenology.2010.09.006"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "20965554"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib25",
+        "position": 24,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib26",
+      "position": 25,
+      "title": "Microarray and cDNA sequence analysis of transcription during nerve-dependent limb regeneration",
+      "source": "BMC Biology",
+      "year": "2009",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Monaghan",
+              "givenNames": "JR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MonaghanJR"
+            },
+            {
+              "surname": "Epp",
+              "givenNames": "LG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EppLG"
+            },
+            {
+              "surname": "Putta",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PuttaS"
+            },
+            {
+              "surname": "Page",
+              "givenNames": "RB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PageRB"
+            },
+            {
+              "surname": "Walker",
+              "givenNames": "JA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WalkerJA"
+            },
+            {
+              "surname": "Beachy",
+              "givenNames": "CK",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BeachyCK"
+            },
+            {
+              "surname": "Zhu",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhuW"
+            },
+            {
+              "surname": "Pao",
+              "givenNames": "GM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PaoGM"
+            },
+            {
+              "surname": "Verma",
+              "givenNames": "IM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VermaIM"
+            },
+            {
+              "surname": "Hunter",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HunterT"
+            },
+            {
+              "surname": "Bryant",
+              "givenNames": "SV",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BryantSV"
+            },
+            {
+              "surname": "Gardiner",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GardinerDM"
+            },
+            {
+              "surname": "Harkins",
+              "givenNames": "TT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HarkinsTT"
+            },
+            {
+              "surname": "Voss",
+              "givenNames": "SR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VossSR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "elocation-id": [
+          "1"
+        ]
+      },
+      "originalCitationText": "MonaghanJREppLGPuttaSPageRBWalkerJABeachyCKZhuWPaoGMVermaIMHunterTBryantSVGardinerDMHarkinsTTVossSR2009Microarray and cDNA sequence analysis of transcription during nerve-dependent limb regenerationBMC Biology7110.1186/1741-7007-7-119144100PMC2630914",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1186/1741-7007-7-1"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "19144100"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC2630914"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib26",
+        "position": 25,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib27",
+      "position": 26,
+      "title": "Gene expression patterns specific to the regenerating limb of the mexican axolotl",
+      "source": "Biology Open",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Monaghan",
+              "givenNames": "JR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MonaghanJR"
+            },
+            {
+              "surname": "Athippozhy",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AthippozhyA"
+            },
+            {
+              "surname": "Seifert",
+              "givenNames": "AW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SeifertAW"
+            },
+            {
+              "surname": "Putta",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PuttaS"
+            },
+            {
+              "surname": "Stromberg",
+              "givenNames": "AJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StrombergAJ"
+            },
+            {
+              "surname": "Maden",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MadenM"
+            },
+            {
+              "surname": "Gardiner",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GardinerDM"
+            },
+            {
+              "surname": "Voss",
+              "givenNames": "SR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VossSR"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "1"
+        ],
+        "fpage": [
+          "937"
+        ],
+        "lpage": [
+          "948"
+        ]
+      },
+      "originalCitationText": "MonaghanJRAthippozhyASeifertAWPuttaSStrombergAJMadenMGardinerDMVossSR2012Gene expression patterns specific to the regenerating limb of the mexican axolotlBiology Open193794810.1242/bio.2012159423213371PMC3507169",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1242/bio.20121594"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23213371"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3507169"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib27",
+        "position": 26,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib28",
+      "position": 27,
+      "title": "Minutes: mutants of Drosophila autonomously affecting cell division rate",
+      "source": "Developmental Biology",
+      "year": "1975",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Morata",
+              "givenNames": "G",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MorataG"
+            },
+            {
+              "surname": "Ripoll",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RipollP"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "42"
+        ],
+        "fpage": [
+          "211"
+        ],
+        "lpage": [
+          "221"
+        ]
+      },
+      "originalCitationText": "MorataGRipollP1975Minutes: mutants of Drosophila autonomously affecting cell division rateDevelopmental Biology4221122110.1016/0012-1606(75)90330-91116643",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/0012-1606(75)90330-9"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "1116643"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib28",
+        "position": 27,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib29",
+      "position": 28,
+      "title": "Extending the table of stages of normal development of the axolotl: limb development",
+      "source": "Developmental Dynamics : An Official Publication of the American Association of Anatomists",
+      "year": "2003",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Nye",
+              "givenNames": "HL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NyeHL"
+            },
+            {
+              "surname": "Cameron",
+              "givenNames": "JA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "CameronJA"
+            },
+            {
+              "surname": "Chernoff",
+              "givenNames": "EA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChernoffEA"
+            },
+            {
+              "surname": "Stocum",
+              "givenNames": "DL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StocumDL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "226"
+        ],
+        "fpage": [
+          "555"
+        ],
+        "lpage": [
+          "560"
+        ]
+      },
+      "originalCitationText": "NyeHLCameronJAChernoffEAStocumDL2003Extending the table of stages of normal development of the axolotl: limb developmentDevelopmental Dynamics : An Official Publication of the American Association of Anatomists22655556010.1002/dvdy.1023712619140",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/dvdy.10237"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "12619140"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib29",
+        "position": 28,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib30",
+      "position": 29,
+      "title": "Fundamental differences in dedifferentiation and stem cell recruitment during skeletal muscle regeneration in two salamander species",
+      "source": "Cell Stem Cell",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sandoval-Guzmán",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Sandoval-GuzmánT"
+            },
+            {
+              "surname": "Wang",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangH"
+            },
+            {
+              "surname": "Khattak",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KhattakS"
+            },
+            {
+              "surname": "Schuez",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchuezM"
+            },
+            {
+              "surname": "Roensch",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RoenschK"
+            },
+            {
+              "surname": "Nacu",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NacuE"
+            },
+            {
+              "surname": "Tazaki",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TazakiA"
+            },
+            {
+              "surname": "Joven",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JovenA"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            },
+            {
+              "surname": "Simon",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SimonA"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "14"
+        ],
+        "fpage": [
+          "174"
+        ],
+        "lpage": [
+          "187"
+        ]
+      },
+      "originalCitationText": "Sandoval-GuzmánTWangHKhattakSSchuezMRoenschKNacuETazakiAJovenATanakaEMSimonA2014Fundamental differences in dedifferentiation and stem cell recruitment during skeletal muscle regeneration in two salamander speciesCell Stem Cell1417418710.1016/j.stem.2013.11.00724268695",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.stem.2013.11.007"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24268695"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib30",
+        "position": 29,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib31",
+      "position": 30,
+      "title": "Expression and distribution of fetuin in the developing sheep fetus",
+      "source": "Histochemistry",
+      "year": "1994",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Saunders",
+              "givenNames": "NR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SaundersNR"
+            },
+            {
+              "surname": "Sheardown",
+              "givenNames": "SA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SheardownSA"
+            },
+            {
+              "surname": "Deal",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DealA"
+            },
+            {
+              "surname": "Møllgård",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MøllgårdK"
+            },
+            {
+              "surname": "Reader",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ReaderM"
+            },
+            {
+              "surname": "Dziegielewska",
+              "givenNames": "KM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DziegielewskaKM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "102"
+        ],
+        "fpage": [
+          "457"
+        ],
+        "lpage": [
+          "475"
+        ]
+      },
+      "originalCitationText": "SaundersNRSheardownSADealAMøllgårdKReaderMDziegielewskaKM1994Expression and distribution of fetuin in the developing sheep fetusHistochemistry10245747510.1007/BF002695787535298",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/BF00269578"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "7535298"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib31",
+        "position": 30,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib32",
+      "position": 31,
+      "title": "Connective tissue fibroblasts from highly regenerative mammals are refractory to ROS-induced cellular senescence",
+      "source": "Nature Communications",
+      "year": "2019",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Saxena",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SaxenaS"
+            },
+            {
+              "surname": "Vekaria",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VekariaH"
+            },
+            {
+              "surname": "Sullivan",
+              "givenNames": "PG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SullivanPG"
+            },
+            {
+              "surname": "Seifert",
+              "givenNames": "AW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SeifertAW"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "10"
+        ],
+        "elocation-id": [
+          "e4400"
+        ]
+      },
+      "originalCitationText": "SaxenaSVekariaHSullivanPGSeifertAW2019Connective tissue fibroblasts from highly regenerative mammals are refractory to ROS-induced cellular senescenceNature Communications10e440010.1038/s41467-019-12398-wPMC676495531562333",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1038/s41467-019-12398-w"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC6764955"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "31562333"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib32",
+        "position": 31,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib33",
+      "position": 32,
+      "title": "Normal stages of development of the axolotl. Ambystoma mexicanum",
+      "source": "Developmental Biology",
+      "year": "1975",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Schreckenberg",
+              "givenNames": "GM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchreckenbergGM"
+            },
+            {
+              "surname": "Jacobson",
+              "givenNames": "AG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "JacobsonAG"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "42"
+        ],
+        "fpage": [
+          "391"
+        ],
+        "lpage": [
+          "399"
+        ]
+      },
+      "originalCitationText": "SchreckenbergGMJacobsonAG1975Normal stages of development of the axolotl. Ambystoma mexicanumDevelopmental Biology4239139910.1016/0012-1606(75)90343-71167837",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/0012-1606(75)90343-7"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "1167837"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib33",
+        "position": 32,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib34",
+      "position": 33,
+      "title": "Accelerated growth plate mineralization and foreshortened proximal limb bones in fetuin-A knockout mice",
+      "source": "PLOS ONE",
+      "year": "2012",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Seto",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SetoJ"
+            },
+            {
+              "surname": "Busse",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BusseB"
+            },
+            {
+              "surname": "Gupta",
+              "givenNames": "HS",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GuptaHS"
+            },
+            {
+              "surname": "Schäfer",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchäferC"
+            },
+            {
+              "surname": "Krauss",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KraussS"
+            },
+            {
+              "surname": "Dunlop",
+              "givenNames": "JW",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DunlopJW"
+            },
+            {
+              "surname": "Masic",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MasicA"
+            },
+            {
+              "surname": "Kerschnitzki",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "KerschnitzkiM"
+            },
+            {
+              "surname": "Zaslansky",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZaslanskyP"
+            },
+            {
+              "surname": "Boesecke",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BoeseckeP"
+            },
+            {
+              "surname": "Catalá-Lehnen",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Catalá-LehnenP"
+            },
+            {
+              "surname": "Schinke",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SchinkeT"
+            },
+            {
+              "surname": "Fratzl",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FratzlP"
+            },
+            {
+              "surname": "Jahnen-Dechent",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Jahnen-DechentW"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "7"
+        ],
+        "elocation-id": [
+          "e47338"
+        ]
+      },
+      "originalCitationText": "SetoJBusseBGuptaHSSchäferCKraussSDunlopJWMasicAKerschnitzkiMZaslanskyPBoeseckePCatalá-LehnenPSchinkeTFratzlPJahnen-DechentW2012Accelerated growth plate mineralization and foreshortened proximal limb bones in fetuin-A knockout micePLOS ONE7e4733810.1371/journal.pone.004733823091616PMC3473050",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pone.0047338"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23091616"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3473050"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib34",
+        "position": 33,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib35",
+      "position": 34,
+      "title": "Genome-scale CRISPR-Cas9 knockout screening in human cells",
+      "source": "Science",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Shalem",
+              "givenNames": "O",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShalemO"
+            },
+            {
+              "surname": "Sanjana",
+              "givenNames": "NE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SanjanaNE"
+            },
+            {
+              "surname": "Hartenian",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HartenianE"
+            },
+            {
+              "surname": "Shi",
+              "givenNames": "X",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ShiX"
+            },
+            {
+              "surname": "Scott",
+              "givenNames": "DA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ScottDA"
+            },
+            {
+              "surname": "Mikkelson",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MikkelsonT"
+            },
+            {
+              "surname": "Heckl",
+              "givenNames": "D",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HecklD"
+            },
+            {
+              "surname": "Ebert",
+              "givenNames": "BL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EbertBL"
+            },
+            {
+              "surname": "Root",
+              "givenNames": "DE",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RootDE"
+            },
+            {
+              "surname": "Doench",
+              "givenNames": "JG",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DoenchJG"
+            },
+            {
+              "surname": "Zhang",
+              "givenNames": "F",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ZhangF"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "343"
+        ],
+        "fpage": [
+          "84"
+        ],
+        "lpage": [
+          "87"
+        ]
+      },
+      "originalCitationText": "ShalemOSanjanaNEHartenianEShiXScottDAMikkelsonTHecklDEbertBLRootDEDoenchJGZhangF2014Genome-scale CRISPR-Cas9 knockout screening in human cellsScience343848710.1126/science.124700524336571PMC4089965",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1247005"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24336571"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4089965"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib35",
+        "position": 34,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib36",
+      "position": 35,
+      "title": "A germline GFP transgenic axolotl and its use to track cell fate: dual origin of the fin mesenchyme during development and the fate of blood cells during regeneration",
+      "source": "Developmental Biology",
+      "year": "2006",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Sobkow",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SobkowL"
+            },
+            {
+              "surname": "Epperlein",
+              "givenNames": "HH",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "EpperleinHH"
+            },
+            {
+              "surname": "Herklotz",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HerklotzS"
+            },
+            {
+              "surname": "Straube",
+              "givenNames": "WL",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StraubeWL"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "290"
+        ],
+        "fpage": [
+          "386"
+        ],
+        "lpage": [
+          "397"
+        ]
+      },
+      "originalCitationText": "SobkowLEpperleinHHHerklotzSStraubeWLTanakaEM2006A germline GFP transgenic axolotl and its use to track cell fate: dual origin of the fin mesenchyme during development and the fate of blood cells during regenerationDevelopmental Biology29038639710.1016/j.ydbio.2005.11.03716387293",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1016/j.ydbio.2005.11.037"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "16387293"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib36",
+        "position": 35,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib37",
+      "position": 36,
+      "title": "Comparative RNA-seq analysis in the unsequenced axolotl: the oncogene burst highlights early gene expression in the blastema",
+      "source": "PLOS Computational Biology",
+      "year": "2013",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Stewart",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StewartR"
+            },
+            {
+              "surname": "Rascón",
+              "givenNames": "CA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "RascónCA"
+            },
+            {
+              "surname": "Tian",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TianS"
+            },
+            {
+              "surname": "Nie",
+              "givenNames": "J",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NieJ"
+            },
+            {
+              "surname": "Barry",
+              "givenNames": "C",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BarryC"
+            },
+            {
+              "surname": "Chu",
+              "givenNames": "LF",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChuLF"
+            },
+            {
+              "surname": "Ardalani",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ArdalaniH"
+            },
+            {
+              "surname": "Wagner",
+              "givenNames": "RJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WagnerRJ"
+            },
+            {
+              "surname": "Probasco",
+              "givenNames": "MD",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ProbascoMD"
+            },
+            {
+              "surname": "Bolin",
+              "givenNames": "JM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "BolinJM"
+            },
+            {
+              "surname": "Leng",
+              "givenNames": "N",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LengN"
+            },
+            {
+              "surname": "Sengupta",
+              "givenNames": "S",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SenguptaS"
+            },
+            {
+              "surname": "Volkmer",
+              "givenNames": "M",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VolkmerM"
+            },
+            {
+              "surname": "Habermann",
+              "givenNames": "B",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "HabermannB"
+            },
+            {
+              "surname": "Tanaka",
+              "givenNames": "EM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TanakaEM"
+            },
+            {
+              "surname": "Thomson",
+              "givenNames": "JA",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ThomsonJA"
+            },
+            {
+              "surname": "Dewey",
+              "givenNames": "CN",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "DeweyCN"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "9"
+        ],
+        "elocation-id": [
+          "e1002936"
+        ]
+      },
+      "originalCitationText": "StewartRRascónCATianSNieJBarryCChuLFArdalaniHWagnerRJProbascoMDBolinJMLengNSenguptaSVolkmerMHabermannBTanakaEMThomsonJADeweyCN2013Comparative RNA-seq analysis in the unsequenced axolotl: the oncogene burst highlights early gene expression in the blastemaPLOS Computational Biology9e100293610.1371/journal.pcbi.100293623505351PMC3591270",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1371/journal.pcbi.1002936"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "23505351"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3591270"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib37",
+        "position": 36,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib38",
+      "position": 37,
+      "title": "Rat fetuin: distribution of protein and mRNA in embryonic and neonatal rat tissues",
+      "source": "Anatomy and Embryology",
+      "year": "1998",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Terkelsen",
+              "givenNames": "OB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TerkelsenOB"
+            },
+            {
+              "surname": "Jahnen-Dechent",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Jahnen-DechentW"
+            },
+            {
+              "surname": "Nielsen",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NielsenH"
+            },
+            {
+              "surname": "Moos",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MoosT"
+            },
+            {
+              "surname": "Fink",
+              "givenNames": "E",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "FinkE"
+            },
+            {
+              "surname": "Nawratil",
+              "givenNames": "P",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NawratilP"
+            },
+            {
+              "surname": "Müller-Esterl",
+              "givenNames": "W",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "Müller-EsterlW"
+            },
+            {
+              "surname": "Møllgård",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MøllgårdK"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "197"
+        ],
+        "fpage": [
+          "125"
+        ],
+        "lpage": [
+          "133"
+        ]
+      },
+      "originalCitationText": "TerkelsenOBJahnen-DechentWNielsenHMoosTFinkENawratilPMüller-EsterlWMøllgårdK1998Rat fetuin: distribution of protein and mRNA in embryonic and neonatal rat tissuesAnatomy and Embryology19712513310.1007/s0042900501249497155",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/s004290050124"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "9497155"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib38",
+        "position": 37,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib39",
+      "position": 38,
+      "title": "Diploid gynogenesis in the mexican axolotl",
+      "source": "Genetics",
+      "year": "1976",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Trottier",
+              "givenNames": "TM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "TrottierTM"
+            },
+            {
+              "surname": "Armstrong",
+              "givenNames": "JB",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ArmstrongJB"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "83"
+        ],
+        "fpage": [
+          "783"
+        ],
+        "lpage": [
+          "792"
+        ]
+      },
+      "originalCitationText": "TrottierTMArmstrongJB1976Diploid gynogenesis in the mexican axolotlGenetics8378379297180610.1093/genetics/83.4.783PMC1213551",
+      "identifiers": [
+        {
+          "pub-id-type": "pmid",
+          "value": "971806"
+        },
+        {
+          "pub-id-type": "doi",
+          "assigning-authority": "pmc",
+          "value": "10.1093/genetics/83.4.783"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC1213551"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib39",
+        "position": 38,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib40",
+      "position": 39,
+      "title": "Catalase activity in the regenerating tail tip of xenopus larvae and the effect of 3-amino-1,2,4-triazole",
+      "source": "Experientia",
+      "year": "1959",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "von HAHN",
+              "givenNames": "H",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "von HAHNH"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "15"
+        ],
+        "fpage": [
+          "379"
+        ],
+        "lpage": [
+          "380"
+        ]
+      },
+      "originalCitationText": "von HAHNH1959Catalase activity in the regenerating tail tip of xenopus larvae and the effect of 3-amino-1,2,4-triazoleExperientia1537938010.1007/BF0215896214398849",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1007/BF02158962"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "14398849"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib40",
+        "position": 39,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib41",
+      "position": 40,
+      "title": "Gene expression during the first 28 days of axolotl limb regeneration I: experimental design and global analysis of gene expression",
+      "source": "Regeneration",
+      "year": "2015",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Voss",
+              "givenNames": "SR",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "VossSR"
+            },
+            {
+              "surname": "Palumbo",
+              "givenNames": "A",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "PalumboA"
+            },
+            {
+              "surname": "Nagarajan",
+              "givenNames": "R",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "NagarajanR"
+            },
+            {
+              "surname": "Gardiner",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "GardinerDM"
+            },
+            {
+              "surname": "Muneoka",
+              "givenNames": "K",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "MuneokaK"
+            },
+            {
+              "surname": "Stromberg",
+              "givenNames": "AJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "StrombergAJ"
+            },
+            {
+              "surname": "Athippozhy",
+              "givenNames": "AT",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "AthippozhyAT"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2"
+        ],
+        "fpage": [
+          "120"
+        ],
+        "lpage": [
+          "136"
+        ]
+      },
+      "originalCitationText": "VossSRPalumboANagarajanRGardinerDMMuneokaKStrombergAJAthippozhyAT2015Gene expression during the first 28 days of axolotl limb regeneration I: experimental design and global analysis of gene expressionRegeneration212013610.1002/reg2.3727168937PMC4860271",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1002/reg2.37"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "27168937"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC4860271"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib41",
+        "position": 40,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib42",
+      "position": 41,
+      "title": "Genetic screens in human cells using the CRISPR-Cas9 system",
+      "source": "Science",
+      "year": "2014",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Wang",
+              "givenNames": "T",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WangT"
+            },
+            {
+              "surname": "Wei",
+              "givenNames": "JJ",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "WeiJJ"
+            },
+            {
+              "surname": "Sabatini",
+              "givenNames": "DM",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "SabatiniDM"
+            },
+            {
+              "surname": "Lander",
+              "givenNames": "ES",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "LanderES"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "343"
+        ],
+        "fpage": [
+          "80"
+        ],
+        "lpage": [
+          "84"
+        ]
+      },
+      "originalCitationText": "WangTWeiJJSabatiniDMLanderES2014Genetic screens in human cells using the CRISPR-Cas9 systemScience343808410.1126/science.124698124336569PMC3972032",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1126/science.1246981"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "24336569"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC3972032"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib42",
+        "position": 41,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    },
+    {
+      "id": "bib43",
+      "position": 42,
+      "title": "Simple meets single: the application of CRISPR/Cas9 in haploid embryonic stem cells",
+      "source": "Stem Cells International",
+      "year": "2017",
+      "citationAttributes": {
+        "publication-type": "journal"
+      },
+      "personGroups": [
+        {
+          "attributes": {
+            "person-group-type": "author"
+          },
+          "names": [
+            {
+              "surname": "Yin",
+              "givenNames": "Z",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "YinZ"
+            },
+            {
+              "surname": "Chen",
+              "givenNames": "L",
+              "prefix": null,
+              "suffix": null,
+              "originalName": "ChenL"
+            }
+          ]
+        }
+      ],
+      "bibliographicFields": {
+        "volume": [
+          "2017"
+        ],
+        "fpage": [
+          "1"
+        ],
+        "lpage": [
+          "6"
+        ]
+      },
+      "originalCitationText": "YinZChenL2017Simple meets single: the application of CRISPR/Cas9 in haploid embryonic stem cellsStem Cells International20171610.1155/2017/2601746PMC564632029109740",
+      "identifiers": [
+        {
+          "pub-id-type": "doi",
+          "value": "10.1155/2017/2601746"
+        },
+        {
+          "pub-id-type": "pmcid",
+          "value": "PMC5646320"
+        },
+        {
+          "pub-id-type": "pmid",
+          "value": "29109740"
+        }
+      ],
+      "externalLinks": [],
+      "originalLocator": {
+        "xmlPath": "data/sources/snapshots/amphibia-full-roster-primary-2026-10-03/PMC6986871/article.xml",
+        "articleSha256": "8dccd898997c67fc41c1ed2273d65e9d577df6dd3edac85c210bae6d53f5e604",
+        "referenceId": "bib43",
+        "position": 42,
+        "element": "ref"
+      },
+      "originalCitedWorkRead": false,
+      "biologicalClaimsAssigned": false
+    }
+  ],
+  "metadataLocator": "article/front/article-meta",
+  "extractionMethod": "XML structural fields only; existing local objects only, no network requests",
+  "scientificEvidenceRead": false,
+  "biologicalClaimsAssigned": false,
+  "journalMetadata": {
+    "titles": [
+      "eLife"
+    ],
+    "abbreviations": [],
+    "identifiers": [
+      {
+        "journal-id-type": "nlm-ta",
+        "value": "eLife"
+      },
+      {
+        "journal-id-type": "iso-abbrev",
+        "value": "Elife"
+      },
+      {
+        "journal-id-type": "pmc-domain-id",
+        "value": "1894"
+      },
+      {
+        "journal-id-type": "pmc-domain",
+        "value": "elife"
+      },
+      {
+        "journal-id-type": "nlm-id",
+        "value": "101579614"
+      },
+      {
+        "journal-id-type": "publisher-id",
+        "value": "eLife"
+      }
+    ],
+    "issns": [
+      {
+        "pub-type": "epub",
+        "value": "2050-084X"
+      }
+    ],
+    "publisherNames": [
+      "eLife Sciences Publications, Ltd"
+    ],
+    "publisherLocations": []
+  },
+  "articleCitationFields": {
+    "volume": [
+      "9",
+      "6"
+    ],
+    "elocation-id": [
+      "e48511",
+      "e25726"
+    ]
+  }
+}

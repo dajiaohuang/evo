@@ -1,0 +1,4035 @@
+{
+  "pmc": "PMC10688756",
+  "year": 2023,
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "readScope": "XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined",
+  "doi": "10.1371/journal.pone.0291644",
+  "supplementarySha256": "c70c788d3c5f2a0a420e8ef7f62688918546d742fe207834aa0b37864cd01c2c",
+  "sourceRows": 464,
+  "fixedSpecies": [
+    {
+      "colId": "9XYZ",
+      "name": "Adelophryne baturitensis",
+      "sections": 3
+    },
+    {
+      "colId": "9XZ8",
+      "name": "Adelophryne pachydactyla",
+      "sections": 3
+    },
+    {
+      "colId": "9ZMD",
+      "name": "Adenomera ajurauna",
+      "sections": 3
+    },
+    {
+      "colId": "6532H",
+      "name": "Adenomera andreae",
+      "sections": 3
+    },
+    {
+      "colId": "9ZMF",
+      "name": "Adenomera araucaria",
+      "sections": 3
+    },
+    {
+      "colId": "9ZMG",
+      "name": "Adenomera bokermanni",
+      "sections": 3
+    },
+    {
+      "colId": "9ZMK",
+      "name": "Adenomera diptyx",
+      "sections": 3
+    },
+    {
+      "colId": "9ZML",
+      "name": "Adenomera engelsi",
+      "sections": 3
+    },
+    {
+      "colId": "9ZMP",
+      "name": "Adenomera hylaedactyla",
+      "sections": 3
+    },
+    {
+      "colId": "9ZMT",
+      "name": "Adenomera marmorata",
+      "sections": 3
+    },
+    {
+      "colId": "9ZMV",
+      "name": "Adenomera nana",
+      "sections": 3
+    },
+    {
+      "colId": "9ZMZ",
+      "name": "Adenomera thomei",
+      "sections": 3
+    },
+    {
+      "colId": "65X9L",
+      "name": "Allobates goianus",
+      "sections": 3
+    },
+    {
+      "colId": "CQ78",
+      "name": "Ameerega picta",
+      "sections": 3
+    },
+    {
+      "colId": "FNMK",
+      "name": "Aplastodiscus albofrenatus",
+      "sections": 3
+    },
+    {
+      "colId": "FNML",
+      "name": "Aplastodiscus albosignatus",
+      "sections": 3
+    },
+    {
+      "colId": "FNMM",
+      "name": "Aplastodiscus arildae",
+      "sections": 3
+    },
+    {
+      "colId": "FNMP",
+      "name": "Aplastodiscus cavicola",
+      "sections": 3
+    },
+    {
+      "colId": "FNMQ",
+      "name": "Aplastodiscus cochranae",
+      "sections": 3
+    },
+    {
+      "colId": "FNMR",
+      "name": "Aplastodiscus ehrhardti",
+      "sections": 3
+    },
+    {
+      "colId": "FNMS",
+      "name": "Aplastodiscus eugenioi",
+      "sections": 3
+    },
+    {
+      "colId": "FNMT",
+      "name": "Aplastodiscus flumineus",
+      "sections": 3
+    },
+    {
+      "colId": "5VNP6",
+      "name": "Aplastodiscus ibirapitanga",
+      "sections": 3
+    },
+    {
+      "colId": "FNMV",
+      "name": "Aplastodiscus leucopygius",
+      "sections": 3
+    },
+    {
+      "colId": "FNMY",
+      "name": "Aplastodiscus perviridis",
+      "sections": 3
+    },
+    {
+      "colId": "FNMZ",
+      "name": "Aplastodiscus sibilatus",
+      "sections": 3
+    },
+    {
+      "colId": "FNN2",
+      "name": "Aplastodiscus weygoldti",
+      "sections": 3
+    },
+    {
+      "colId": "6829V",
+      "name": "Arcovomer passarellii",
+      "sections": 3
+    },
+    {
+      "colId": "MLK5L",
+      "name": "Bahius bilineatus",
+      "sections": 3
+    },
+    {
+      "colId": "68DGQ",
+      "name": "Barycholos ternetzi",
+      "sections": 3
+    },
+    {
+      "colId": "M7WN",
+      "name": "Boana albomarginata",
+      "sections": 3
+    },
+    {
+      "colId": "M7WQ",
+      "name": "Boana albopunctata",
+      "sections": 3
+    },
+    {
+      "colId": "M7X3",
+      "name": "Boana atlantica",
+      "sections": 3
+    },
+    {
+      "colId": "M7X5",
+      "name": "Boana bandeirantes",
+      "sections": 3
+    },
+    {
+      "colId": "M7X8",
+      "name": "Boana bischoffi",
+      "sections": 3
+    },
+    {
+      "colId": "5WM5L",
+      "name": "Boana caingua",
+      "sections": 3
+    },
+    {
+      "colId": "M7XF",
+      "name": "Boana caipora",
+      "sections": 3
+    },
+    {
+      "colId": "M7XL",
+      "name": "Boana cambui",
+      "sections": 3
+    },
+    {
+      "colId": "M7XX",
+      "name": "Boana crepitans",
+      "sections": 3
+    },
+    {
+      "colId": "M7XY",
+      "name": "Boana curupi",
+      "sections": 3
+    },
+    {
+      "colId": "M7Y5",
+      "name": "Boana ericae",
+      "sections": 3
+    },
+    {
+      "colId": "M7Y6",
+      "name": "Boana exastis",
+      "sections": 3
+    },
+    {
+      "colId": "M7Y7",
+      "name": "Boana faber",
+      "sections": 3
+    },
+    {
+      "colId": "M7Y8",
+      "name": "Boana fasciata",
+      "sections": 3
+    },
+    {
+      "colId": "M7YB",
+      "name": "Boana freicanecae",
+      "sections": 3
+    },
+    {
+      "colId": "M7YJ",
+      "name": "Boana guentheri",
+      "sections": 3
+    },
+    {
+      "colId": "M7YT",
+      "name": "Boana jaguariaivensis",
+      "sections": 3
+    },
+    {
+      "colId": "M7YX",
+      "name": "Boana joaquini",
+      "sections": 3
+    },
+    {
+      "colId": "M7Z4",
+      "name": "Boana latistriata",
+      "sections": 3
+    },
+    {
+      "colId": "M7Z6",
+      "name": "Boana leptolineata",
+      "sections": 3
+    },
+    {
+      "colId": "M7ZC",
+      "name": "Boana lundii",
+      "sections": 3
+    },
+    {
+      "colId": "M7ZF",
+      "name": "Boana marginata",
+      "sections": 3
+    },
+    {
+      "colId": "M7ZL",
+      "name": "Boana multifasciata",
+      "sections": 3
+    },
+    {
+      "colId": "M7ZV",
+      "name": "Boana paranaiba",
+      "sections": 3
+    },
+    {
+      "colId": "M7ZW",
+      "name": "Boana pardalis",
+      "sections": 3
+    },
+    {
+      "colId": "M825",
+      "name": "Boana poaju",
+      "sections": 3
+    },
+    {
+      "colId": "M826",
+      "name": "Boana polytaenia",
+      "sections": 3
+    },
+    {
+      "colId": "M827",
+      "name": "Boana pombali",
+      "sections": 3
+    },
+    {
+      "colId": "M828",
+      "name": "Boana prasina",
+      "sections": 3
+    },
+    {
+      "colId": "M82C",
+      "name": "Boana pulchella",
+      "sections": 3
+    },
+    {
+      "colId": "68LTJ",
+      "name": "Boana punctata",
+      "sections": 3
+    },
+    {
+      "colId": "M82G",
+      "name": "Boana raniceps",
+      "sections": 3
+    },
+    {
+      "colId": "M82T",
+      "name": "Boana semiguttata",
+      "sections": 3
+    },
+    {
+      "colId": "68M5J",
+      "name": "Boana semilineata",
+      "sections": 3
+    },
+    {
+      "colId": "M82Z",
+      "name": "Boana stellae",
+      "sections": 3
+    },
+    {
+      "colId": "M832",
+      "name": "Boana stenocephala",
+      "sections": 3
+    },
+    {
+      "colId": "68N9T",
+      "name": "Bokermannohyla alvarengai",
+      "sections": 3
+    },
+    {
+      "colId": "5WMXS",
+      "name": "Bokermannohyla astartea",
+      "sections": 3
+    },
+    {
+      "colId": "5WMY4",
+      "name": "Bokermannohyla capra",
+      "sections": 3
+    },
+    {
+      "colId": "5WN9S",
+      "name": "Bokermannohyla caramaschii",
+      "sections": 3
+    },
+    {
+      "colId": "68MXS",
+      "name": "Bokermannohyla carvalhoi",
+      "sections": 3
+    },
+    {
+      "colId": "68MY4",
+      "name": "Bokermannohyla circumdata",
+      "sections": 3
+    },
+    {
+      "colId": "68N9R",
+      "name": "Bokermannohyla hylax",
+      "sections": 3
+    },
+    {
+      "colId": "5WMY2",
+      "name": "Bokermannohyla ibitipoca",
+      "sections": 3
+    },
+    {
+      "colId": "68MXQ",
+      "name": "Bokermannohyla izecksohni",
+      "sections": 3
+    },
+    {
+      "colId": "5WMY9",
+      "name": "Bokermannohyla luctuosa",
+      "sections": 3
+    },
+    {
+      "colId": "5WN9X",
+      "name": "Bokermannohyla martinsi",
+      "sections": 3
+    },
+    {
+      "colId": "68MXX",
+      "name": "Bokermannohyla nanuzae",
+      "sections": 3
+    },
+    {
+      "colId": "68N9X",
+      "name": "Bokermannohyla oxente",
+      "sections": 3
+    },
+    {
+      "colId": "68MY8",
+      "name": "Bokermannohyla saxicola",
+      "sections": 3
+    },
+    {
+      "colId": "5X297",
+      "name": "Brachycephalus alipioi",
+      "sections": 3
+    },
+    {
+      "colId": "68Q96",
+      "name": "Brachycephalus didactylus",
+      "sections": 3
+    },
+    {
+      "colId": "69296",
+      "name": "Brachycephalus ephippium",
+      "sections": 3
+    },
+    {
+      "colId": "6929Z",
+      "name": "Brachycephalus hermogenesi",
+      "sections": 3
+    },
+    {
+      "colId": "68PYD",
+      "name": "Brachycephalus nodoterga",
+      "sections": 3
+    },
+    {
+      "colId": "5WPYJ",
+      "name": "Brachycephalus pitanga",
+      "sections": 3
+    },
+    {
+      "colId": "SNT4",
+      "name": "Ceratophrys aurita",
+      "sections": 3
+    },
+    {
+      "colId": "TYZN",
+      "name": "Chiasmocleis alagoana",
+      "sections": 3
+    },
+    {
+      "colId": "TYZP",
+      "name": "Chiasmocleis albopunctata",
+      "sections": 3
+    },
+    {
+      "colId": "TYZY",
+      "name": "Chiasmocleis capixaba",
+      "sections": 3
+    },
+    {
+      "colId": "TZ24",
+      "name": "Chiasmocleis crucis",
+      "sections": 3
+    },
+    {
+      "colId": "5XR4D",
+      "name": "Chiasmocleis lacrimae",
+      "sections": 3
+    },
+    {
+      "colId": "TZ2B",
+      "name": "Chiasmocleis leucosticta",
+      "sections": 3
+    },
+    {
+      "colId": "TZ2D",
+      "name": "Chiasmocleis mantiqueira",
+      "sections": 3
+    },
+    {
+      "colId": "TZ2N",
+      "name": "Chiasmocleis schubarti",
+      "sections": 3
+    },
+    {
+      "colId": "YT3Z",
+      "name": "Corythomantis greeningi",
+      "sections": 3
+    },
+    {
+      "colId": "ZMBM",
+      "name": "Crossodactylodes izecksohni",
+      "sections": 3
+    },
+    {
+      "colId": "6BHMB",
+      "name": "Crossodactylus caramaschii",
+      "sections": 3
+    },
+    {
+      "colId": "ZMBV",
+      "name": "Crossodactylus cyclospinus",
+      "sections": 3
+    },
+    {
+      "colId": "ZMBW",
+      "name": "Crossodactylus dantei",
+      "sections": 3
+    },
+    {
+      "colId": "ZMBX",
+      "name": "Crossodactylus dispar",
+      "sections": 3
+    },
+    {
+      "colId": "ZMC2",
+      "name": "Crossodactylus gaudichaudii",
+      "sections": 3
+    },
+    {
+      "colId": "ZMC5",
+      "name": "Crossodactylus schmidti",
+      "sections": 3
+    },
+    {
+      "colId": "ZMC7",
+      "name": "Crossodactylus trachystomus",
+      "sections": 3
+    },
+    {
+      "colId": "32WKC",
+      "name": "Cycloramphus acangatan",
+      "sections": 3
+    },
+    {
+      "colId": "32WKD",
+      "name": "Cycloramphus asper",
+      "sections": 3
+    },
+    {
+      "colId": "32WKF",
+      "name": "Cycloramphus bolitoglossus",
+      "sections": 3
+    },
+    {
+      "colId": "32WKG",
+      "name": "Cycloramphus boraceiensis",
+      "sections": 3
+    },
+    {
+      "colId": "NJ6K7",
+      "name": "Cycloramphus carvalhoi",
+      "sections": 3
+    },
+    {
+      "colId": "32WKQ",
+      "name": "Cycloramphus eleutherodactylus",
+      "sections": 3
+    },
+    {
+      "colId": "32WKT",
+      "name": "Cycloramphus fuliginosus",
+      "sections": 3
+    },
+    {
+      "colId": "32WKV",
+      "name": "Cycloramphus izecksohni",
+      "sections": 3
+    },
+    {
+      "colId": "32WKY",
+      "name": "Cycloramphus lithomimeticus",
+      "sections": 3
+    },
+    {
+      "colId": "32WKZ",
+      "name": "Cycloramphus lutzorum",
+      "sections": 3
+    },
+    {
+      "colId": "32WL3",
+      "name": "Cycloramphus migueli",
+      "sections": 3
+    },
+    {
+      "colId": "32WL4",
+      "name": "Cycloramphus mirandaribeiroi",
+      "sections": 3
+    },
+    {
+      "colId": "NJ6QF",
+      "name": "Cycloramphus parvulus",
+      "sections": 3
+    },
+    {
+      "colId": "34RLC",
+      "name": "Dendrophryniscus berthalutzae",
+      "sections": 3
+    },
+    {
+      "colId": "6CL67",
+      "name": "Dendrophryniscus brevipollicatus",
+      "sections": 3
+    },
+    {
+      "colId": "34RLF",
+      "name": "Dendrophryniscus carvalhoi",
+      "sections": 3
+    },
+    {
+      "colId": "34RLJ",
+      "name": "Dendrophryniscus leucomystax",
+      "sections": 3
+    },
+    {
+      "colId": "34RLP",
+      "name": "Dendrophryniscus proboscideus",
+      "sections": 3
+    },
+    {
+      "colId": "34S4D",
+      "name": "Dendropsophus anceps",
+      "sections": 3
+    },
+    {
+      "colId": "34S4K",
+      "name": "Dendropsophus berthalutzae",
+      "sections": 3
+    },
+    {
+      "colId": "34S4M",
+      "name": "Dendropsophus bipunctatus",
+      "sections": 3
+    },
+    {
+      "colId": "34S4Q",
+      "name": "Dendropsophus branneri",
+      "sections": 3
+    },
+    {
+      "colId": "34S4V",
+      "name": "Dendropsophus cerradensis",
+      "sections": 3
+    },
+    {
+      "colId": "34S52",
+      "name": "Dendropsophus cruzi",
+      "sections": 3
+    },
+    {
+      "colId": "34S53",
+      "name": "Dendropsophus decipiens",
+      "sections": 3
+    },
+    {
+      "colId": "34S57",
+      "name": "Dendropsophus elegans",
+      "sections": 3
+    },
+    {
+      "colId": "34S58",
+      "name": "Dendropsophus elianeae",
+      "sections": 3
+    },
+    {
+      "colId": "34S5D",
+      "name": "Dendropsophus giesleri",
+      "sections": 3
+    },
+    {
+      "colId": "34S5H",
+      "name": "Dendropsophus haddadi",
+      "sections": 3
+    },
+    {
+      "colId": "34S5T",
+      "name": "Dendropsophus leucophyllatus",
+      "sections": 3
+    },
+    {
+      "colId": "34S63",
+      "name": "Dendropsophus melanargyreus",
+      "sections": 3
+    },
+    {
+      "colId": "34S65",
+      "name": "Dendropsophus meridianus",
+      "sections": 3
+    },
+    {
+      "colId": "34S66",
+      "name": "Dendropsophus microcephalus",
+      "sections": 3
+    },
+    {
+      "colId": "34S67",
+      "name": "Dendropsophus microps",
+      "sections": 3
+    },
+    {
+      "colId": "6CKX5",
+      "name": "Dendropsophus minutus",
+      "sections": 3
+    },
+    {
+      "colId": "34S6D",
+      "name": "Dendropsophus nahdereri",
+      "sections": 3
+    },
+    {
+      "colId": "6CL8T",
+      "name": "Dendropsophus nanus",
+      "sections": 3
+    },
+    {
+      "colId": "34S6H",
+      "name": "Dendropsophus novaisi",
+      "sections": 3
+    },
+    {
+      "colId": "34S6J",
+      "name": "Dendropsophus oliveirai",
+      "sections": 3
+    },
+    {
+      "colId": "34S6S",
+      "name": "Dendropsophus pseudomeridianus",
+      "sections": 3
+    },
+    {
+      "colId": "34S72",
+      "name": "Dendropsophus rubicundulus",
+      "sections": 3
+    },
+    {
+      "colId": "34S73",
+      "name": "Dendropsophus ruschii",
+      "sections": 3
+    },
+    {
+      "colId": "34S75",
+      "name": "Dendropsophus sanborni",
+      "sections": 3
+    },
+    {
+      "colId": "34S79",
+      "name": "Dendropsophus seniculus",
+      "sections": 3
+    },
+    {
+      "colId": "34S7B",
+      "name": "Dendropsophus soaresi",
+      "sections": 3
+    },
+    {
+      "colId": "34S7N",
+      "name": "Dendropsophus werneri",
+      "sections": 3
+    },
+    {
+      "colId": "34X5H",
+      "name": "Dermatonotus muelleri",
+      "sections": 3
+    },
+    {
+      "colId": "38X32",
+      "name": "Elachistocleis bicolor",
+      "sections": 3
+    },
+    {
+      "colId": "38X35",
+      "name": "Elachistocleis cesarii",
+      "sections": 3
+    },
+    {
+      "colId": "38X3F",
+      "name": "Elachistocleis ovalis",
+      "sections": 3
+    },
+    {
+      "colId": "38X3J",
+      "name": "Elachistocleis piauiensis",
+      "sections": 3
+    },
+    {
+      "colId": "39977",
+      "name": "Eleutherodactylus cubanus",
+      "sections": 3
+    },
+    {
+      "colId": "3CJ66",
+      "name": "Euparkerella brasiliensis",
+      "sections": 3
+    },
+    {
+      "colId": "3CJ67",
+      "name": "Euparkerella cochranae",
+      "sections": 3
+    },
+    {
+      "colId": "3CJ6C",
+      "name": "Euparkerella tridactyla",
+      "sections": 3
+    },
+    {
+      "colId": "6JPJP",
+      "name": "Fritziana fissilis",
+      "sections": 3
+    },
+    {
+      "colId": "6JPJN",
+      "name": "Fritziana goeldii",
+      "sections": 3
+    },
+    {
+      "colId": "6JPK5",
+      "name": "Fritziana ohausi",
+      "sections": 3
+    },
+    {
+      "colId": "6JQSK",
+      "name": "Frostius pernambucensis",
+      "sections": 3
+    },
+    {
+      "colId": "6JY79",
+      "name": "Gastrotheca albolineata",
+      "sections": 3
+    },
+    {
+      "colId": "6JXX3",
+      "name": "Gastrotheca ernestoi",
+      "sections": 3
+    },
+    {
+      "colId": "6K9WR",
+      "name": "Gastrotheca fissipes",
+      "sections": 3
+    },
+    {
+      "colId": "6JXX2",
+      "name": "Gastrotheca fulvorufa",
+      "sections": 3
+    },
+    {
+      "colId": "6JXWJ",
+      "name": "Gastrotheca microdiscus",
+      "sections": 3
+    },
+    {
+      "colId": "6JY7T",
+      "name": "Gastrotheca pulchra",
+      "sections": 3
+    },
+    {
+      "colId": "3J6D5",
+      "name": "Haddadus binotatus",
+      "sections": 3
+    },
+    {
+      "colId": "6M9W7",
+      "name": "Holoaden luederwaldti",
+      "sections": 3
+    },
+    {
+      "colId": "6LXVW",
+      "name": "Holoaden pholeter",
+      "sections": 3
+    },
+    {
+      "colId": "3NG57",
+      "name": "Hylodes amnicola",
+      "sections": 3
+    },
+    {
+      "colId": "3NG5D",
+      "name": "Hylodes asper",
+      "sections": 3
+    },
+    {
+      "colId": "3NG5G",
+      "name": "Hylodes babax",
+      "sections": 3
+    },
+    {
+      "colId": "3NG66",
+      "name": "Hylodes cardosoi",
+      "sections": 3
+    },
+    {
+      "colId": "3NG68",
+      "name": "Hylodes charadranaetes",
+      "sections": 3
+    },
+    {
+      "colId": "3NG73",
+      "name": "Hylodes fredi",
+      "sections": 3
+    },
+    {
+      "colId": "3NG7P",
+      "name": "Hylodes heyeri",
+      "sections": 3
+    },
+    {
+      "colId": "3NG7Y",
+      "name": "Hylodes lateristrigatus",
+      "sections": 3
+    },
+    {
+      "colId": "3NG8N",
+      "name": "Hylodes meridionalis",
+      "sections": 3
+    },
+    {
+      "colId": "3NG8T",
+      "name": "Hylodes nasus",
+      "sections": 3
+    },
+    {
+      "colId": "6MNMM",
+      "name": "Hylodes perere",
+      "sections": 3
+    },
+    {
+      "colId": "3NG9B",
+      "name": "Hylodes perplicatus",
+      "sections": 3
+    },
+    {
+      "colId": "3NG9F",
+      "name": "Hylodes phyllodes",
+      "sections": 3
+    },
+    {
+      "colId": "3NG9H",
+      "name": "Hylodes pipilans",
+      "sections": 3
+    },
+    {
+      "colId": "6MNLW",
+      "name": "Hylodes sazimai",
+      "sections": 3
+    },
+    {
+      "colId": "3NGC3",
+      "name": "Hylomantis aspera",
+      "sections": 3
+    },
+    {
+      "colId": "3NGC7",
+      "name": "Hylomantis granulosa",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4RC",
+      "name": "Ischnocnema abdita",
+      "sections": 3
+    },
+    {
+      "colId": "6N9SR",
+      "name": "Ischnocnema bolbodactyla",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4RK",
+      "name": "Ischnocnema erythromera",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4RQ",
+      "name": "Ischnocnema guentheri",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4RR",
+      "name": "Ischnocnema henselii",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4RS",
+      "name": "Ischnocnema hoehnei",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4RT",
+      "name": "Ischnocnema holti",
+      "sections": 3
+    },
+    {
+      "colId": "6N9T3",
+      "name": "Ischnocnema izecksohni",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4RV",
+      "name": "Ischnocnema juipoca",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4RX",
+      "name": "Ischnocnema lactea",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4RY",
+      "name": "Ischnocnema manezinho",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4RZ",
+      "name": "Ischnocnema melanopygia",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4S3",
+      "name": "Ischnocnema nasuta",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4S4",
+      "name": "Ischnocnema nigriventris",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4S5",
+      "name": "Ischnocnema octavioi",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4S6",
+      "name": "Ischnocnema oea",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4S9",
+      "name": "Ischnocnema parva",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4SG",
+      "name": "Ischnocnema sambaqui",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4SM",
+      "name": "Ischnocnema spanios",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4SN",
+      "name": "Ischnocnema surda",
+      "sections": 3
+    },
+    {
+      "colId": "3Q4SQ",
+      "name": "Ischnocnema verrucosa",
+      "sections": 3
+    },
+    {
+      "colId": "3QDRW",
+      "name": "Itapotihyla langsdorffii",
+      "sections": 3
+    },
+    {
+      "colId": "3TN46",
+      "name": "Leptodactylus cunicularius",
+      "sections": 3
+    },
+    {
+      "colId": "3TN47",
+      "name": "Leptodactylus cupreus",
+      "sections": 3
+    },
+    {
+      "colId": "3TN4L",
+      "name": "Leptodactylus elenae",
+      "sections": 3
+    },
+    {
+      "colId": "3TN4R",
+      "name": "Leptodactylus furnarius",
+      "sections": 3
+    },
+    {
+      "colId": "3TN4S",
+      "name": "Leptodactylus fuscus",
+      "sections": 3
+    },
+    {
+      "colId": "3TN4Y",
+      "name": "Leptodactylus gracilis",
+      "sections": 3
+    },
+    {
+      "colId": "6PGNL",
+      "name": "Leptodactylus jolyi",
+      "sections": 3
+    },
+    {
+      "colId": "3TN5K",
+      "name": "Leptodactylus labyrinthicus",
+      "sections": 3
+    },
+    {
+      "colId": "3TN5M",
+      "name": "Leptodactylus latinasus",
+      "sections": 3
+    },
+    {
+      "colId": "3TN5N",
+      "name": "Leptodactylus latrans",
+      "sections": 3
+    },
+    {
+      "colId": "3TN5X",
+      "name": "Leptodactylus macrosternum",
+      "sections": 3
+    },
+    {
+      "colId": "3TN63",
+      "name": "Leptodactylus marambaiae",
+      "sections": 3
+    },
+    {
+      "colId": "3TN6C",
+      "name": "Leptodactylus mystaceus",
+      "sections": 3
+    },
+    {
+      "colId": "3TN6D",
+      "name": "Leptodactylus mystacinus",
+      "sections": 3
+    },
+    {
+      "colId": "3TN6F",
+      "name": "Leptodactylus natalensis",
+      "sections": 3
+    },
+    {
+      "colId": "3TN6K",
+      "name": "Leptodactylus notoaktites",
+      "sections": 3
+    },
+    {
+      "colId": "3TN6Q",
+      "name": "Leptodactylus oreomantis",
+      "sections": 3
+    },
+    {
+      "colId": "3TN73",
+      "name": "Leptodactylus plaumanni",
+      "sections": 3
+    },
+    {
+      "colId": "3TN74",
+      "name": "Leptodactylus podicipinus",
+      "sections": 3
+    },
+    {
+      "colId": "6PGNC",
+      "name": "Leptodactylus pustulatus",
+      "sections": 3
+    },
+    {
+      "colId": "3TN7Z",
+      "name": "Leptodactylus spixi",
+      "sections": 3
+    },
+    {
+      "colId": "3TN84",
+      "name": "Leptodactylus syphax",
+      "sections": 3
+    },
+    {
+      "colId": "3TN88",
+      "name": "Leptodactylus troglodytes",
+      "sections": 3
+    },
+    {
+      "colId": "3TN8D",
+      "name": "Leptodactylus vastus",
+      "sections": 3
+    },
+    {
+      "colId": "3TN8H",
+      "name": "Leptodactylus viridis",
+      "sections": 3
+    },
+    {
+      "colId": "72DJ6",
+      "name": "Limnomedusa macroglossa",
+      "sections": 3
+    },
+    {
+      "colId": "3VHQM",
+      "name": "Lithobates palmipes",
+      "sections": 3
+    },
+    {
+      "colId": "3X53L",
+      "name": "Macrogenioglottus alipioi",
+      "sections": 3
+    },
+    {
+      "colId": "3Z9LF",
+      "name": "Melanophryniscus alipioi",
+      "sections": 3
+    },
+    {
+      "colId": "3Z9LG",
+      "name": "Melanophryniscus atroluteus",
+      "sections": 3
+    },
+    {
+      "colId": "3Z9LL",
+      "name": "Melanophryniscus devincenzii",
+      "sections": 3
+    },
+    {
+      "colId": "3Z9LP",
+      "name": "Melanophryniscus fulvoguttatus",
+      "sections": 3
+    },
+    {
+      "colId": "3Z9M9",
+      "name": "Melanophryniscus tumifrons",
+      "sections": 3
+    },
+    {
+      "colId": "739KK",
+      "name": "Melanophryniscus vilavelhensis",
+      "sections": 3
+    },
+    {
+      "colId": "743MD",
+      "name": "Myersiella microps",
+      "sections": 3
+    },
+    {
+      "colId": "QPYN7",
+      "name": "Nyctimantis bokermanni",
+      "sections": 3
+    },
+    {
+      "colId": "QPYNC",
+      "name": "Nyctimantis brunoi",
+      "sections": 3
+    },
+    {
+      "colId": "48R2W",
+      "name": "Odontophrynus americanus",
+      "sections": 3
+    },
+    {
+      "colId": "48R2Y",
+      "name": "Odontophrynus carvalhoi",
+      "sections": 3
+    },
+    {
+      "colId": "48R32",
+      "name": "Odontophrynus cultripes",
+      "sections": 3
+    },
+    {
+      "colId": "48R35",
+      "name": "Odontophrynus maisuma",
+      "sections": 3
+    },
+    {
+      "colId": "75S95",
+      "name": "Paratelmatobius cardosoi",
+      "sections": 3
+    },
+    {
+      "colId": "763WT",
+      "name": "Paratelmatobius gaigeae",
+      "sections": 3
+    },
+    {
+      "colId": "6TRX6",
+      "name": "Paratelmatobius poecilogaster",
+      "sections": 3
+    },
+    {
+      "colId": "RWZBQ",
+      "name": "Phantasmarana apuana",
+      "sections": 3
+    },
+    {
+      "colId": "RWZBZ",
+      "name": "Phantasmarana bocainensis",
+      "sections": 3
+    },
+    {
+      "colId": "RWZC3",
+      "name": "Phantasmarana boticariana",
+      "sections": 3
+    },
+    {
+      "colId": "RWZCY",
+      "name": "Phantasmarana massarti",
+      "sections": 3
+    },
+    {
+      "colId": "4FWXB",
+      "name": "Phasmahyla cochranae",
+      "sections": 3
+    },
+    {
+      "colId": "4FWXC",
+      "name": "Phasmahyla cruzi",
+      "sections": 3
+    },
+    {
+      "colId": "4FWXD",
+      "name": "Phasmahyla exilis",
+      "sections": 3
+    },
+    {
+      "colId": "76WRG",
+      "name": "Phasmahyla guttata",
+      "sections": 3
+    },
+    {
+      "colId": "4FWXF",
+      "name": "Phasmahyla jandaia",
+      "sections": 3
+    },
+    {
+      "colId": "4FWXH",
+      "name": "Phasmahyla spectabilis",
+      "sections": 3
+    },
+    {
+      "colId": "4GWLS",
+      "name": "Phrynomedusa dryade",
+      "sections": 3
+    },
+    {
+      "colId": "4H7DF",
+      "name": "Phyllodytes acuminatus",
+      "sections": 3
+    },
+    {
+      "colId": "4H7DK",
+      "name": "Phyllodytes edelmoi",
+      "sections": 3
+    },
+    {
+      "colId": "4H7DL",
+      "name": "Phyllodytes gyrinaethes",
+      "sections": 3
+    },
+    {
+      "colId": "4H7DN",
+      "name": "Phyllodytes kautskyi",
+      "sections": 3
+    },
+    {
+      "colId": "4H7DP",
+      "name": "Phyllodytes luteolus",
+      "sections": 3
+    },
+    {
+      "colId": "4H7DQ",
+      "name": "Phyllodytes maculosus",
+      "sections": 3
+    },
+    {
+      "colId": "4H7DS",
+      "name": "Phyllodytes melanomystax",
+      "sections": 3
+    },
+    {
+      "colId": "4H7DV",
+      "name": "Phyllodytes tuberculosus",
+      "sections": 3
+    },
+    {
+      "colId": "4H7QM",
+      "name": "Phyllomedusa bahiana",
+      "sections": 3
+    },
+    {
+      "colId": "6VG3C",
+      "name": "Phyllomedusa burmeisteri",
+      "sections": 3
+    },
+    {
+      "colId": "4H7R8",
+      "name": "Phyllomedusa distincta",
+      "sections": 3
+    },
+    {
+      "colId": "4H7RN",
+      "name": "Phyllomedusa iheringii",
+      "sections": 3
+    },
+    {
+      "colId": "4H7SG",
+      "name": "Phyllomedusa sauvagii",
+      "sections": 3
+    },
+    {
+      "colId": "4H7SK",
+      "name": "Phyllomedusa tetraploidea",
+      "sections": 3
+    },
+    {
+      "colId": "4HF8N",
+      "name": "Physalaemus aguirrei",
+      "sections": 3
+    },
+    {
+      "colId": "4HF8P",
+      "name": "Physalaemus albifrons",
+      "sections": 3
+    },
+    {
+      "colId": "4HF8Q",
+      "name": "Physalaemus albonotatus",
+      "sections": 3
+    },
+    {
+      "colId": "4HF8T",
+      "name": "Physalaemus atlanticus",
+      "sections": 3
+    },
+    {
+      "colId": "4HF8W",
+      "name": "Physalaemus biligonigerus",
+      "sections": 3
+    },
+    {
+      "colId": "4HF8Y",
+      "name": "Physalaemus bokermanni",
+      "sections": 3
+    },
+    {
+      "colId": "4HF92",
+      "name": "Physalaemus caete",
+      "sections": 3
+    },
+    {
+      "colId": "4HF93",
+      "name": "Physalaemus camacan",
+      "sections": 3
+    },
+    {
+      "colId": "4HF95",
+      "name": "Physalaemus centralis",
+      "sections": 3
+    },
+    {
+      "colId": "4HF96",
+      "name": "Physalaemus cicada",
+      "sections": 3
+    },
+    {
+      "colId": "4HF99",
+      "name": "Physalaemus crombiei",
+      "sections": 3
+    },
+    {
+      "colId": "4HF9B",
+      "name": "Physalaemus cuvieri",
+      "sections": 3
+    },
+    {
+      "colId": "4HF9F",
+      "name": "Physalaemus erikae",
+      "sections": 3
+    },
+    {
+      "colId": "4HF9G",
+      "name": "Physalaemus erythros",
+      "sections": 3
+    },
+    {
+      "colId": "4HF9H",
+      "name": "Physalaemus evangelistai",
+      "sections": 3
+    },
+    {
+      "colId": "4HF9J",
+      "name": "Physalaemus feioi",
+      "sections": 3
+    },
+    {
+      "colId": "4HF9R",
+      "name": "Physalaemus gracilis",
+      "sections": 3
+    },
+    {
+      "colId": "4HF9T",
+      "name": "Physalaemus henselii",
+      "sections": 3
+    },
+    {
+      "colId": "4HF9W",
+      "name": "Physalaemus jordanensis",
+      "sections": 3
+    },
+    {
+      "colId": "4HF9X",
+      "name": "Physalaemus kroyeri",
+      "sections": 3
+    },
+    {
+      "colId": "4HF9Y",
+      "name": "Physalaemus lateristriga",
+      "sections": 3
+    },
+    {
+      "colId": "4HF9Z",
+      "name": "Physalaemus lisei",
+      "sections": 3
+    },
+    {
+      "colId": "77GHX",
+      "name": "Physalaemus maculiventris",
+      "sections": 3
+    },
+    {
+      "colId": "6VGHW",
+      "name": "Physalaemus marmoratus",
+      "sections": 3
+    },
+    {
+      "colId": "77GHW",
+      "name": "Physalaemus maximus",
+      "sections": 3
+    },
+    {
+      "colId": "77GHZ",
+      "name": "Physalaemus moreirae",
+      "sections": 3
+    },
+    {
+      "colId": "77GHY",
+      "name": "Physalaemus nanus",
+      "sections": 3
+    },
+    {
+      "colId": "77GGC",
+      "name": "Physalaemus nattereri",
+      "sections": 3
+    },
+    {
+      "colId": "6VGGD",
+      "name": "Physalaemus obtectus",
+      "sections": 3
+    },
+    {
+      "colId": "77GGD",
+      "name": "Physalaemus olfersii",
+      "sections": 3
+    },
+    {
+      "colId": "77GGG",
+      "name": "Physalaemus orophilus",
+      "sections": 3
+    },
+    {
+      "colId": "6VGGJ",
+      "name": "Physalaemus riograndensis",
+      "sections": 3
+    },
+    {
+      "colId": "77GGJ",
+      "name": "Physalaemus rupestris",
+      "sections": 3
+    },
+    {
+      "colId": "6VGGL",
+      "name": "Physalaemus signifer",
+      "sections": 3
+    },
+    {
+      "colId": "6VGGN",
+      "name": "Physalaemus soaresi",
+      "sections": 3
+    },
+    {
+      "colId": "77GGN",
+      "name": "Physalaemus spiniger",
+      "sections": 3
+    },
+    {
+      "colId": "4J2Z9",
+      "name": "Pipa carvalhoi",
+      "sections": 3
+    },
+    {
+      "colId": "4JBP9",
+      "name": "Pithecopus ayeaye",
+      "sections": 3
+    },
+    {
+      "colId": "6VLRJ",
+      "name": "Pithecopus azureus",
+      "sections": 3
+    },
+    {
+      "colId": "4JBPG",
+      "name": "Pithecopus hypochondrialis",
+      "sections": 3
+    },
+    {
+      "colId": "4JBPJ",
+      "name": "Pithecopus megacephalus",
+      "sections": 3
+    },
+    {
+      "colId": "4JBPL",
+      "name": "Pithecopus nordestinus",
+      "sections": 3
+    },
+    {
+      "colId": "4JBPP",
+      "name": "Pithecopus rohdei",
+      "sections": 3
+    },
+    {
+      "colId": "4JBPQ",
+      "name": "Pithecopus rusticus",
+      "sections": 3
+    },
+    {
+      "colId": "4KBDD",
+      "name": "Pleurodema alium",
+      "sections": 3
+    },
+    {
+      "colId": "4KBDL",
+      "name": "Pleurodema bibroni",
+      "sections": 3
+    },
+    {
+      "colId": "7842F",
+      "name": "Pleurodema diplolister",
+      "sections": 3
+    },
+    {
+      "colId": "6W8G4",
+      "name": "Pristimantis paulodutrai",
+      "sections": 3
+    },
+    {
+      "colId": "4MJMH",
+      "name": "Pristimantis ramagii",
+      "sections": 3
+    },
+    {
+      "colId": "4MJRG",
+      "name": "Pristimantis vinhai",
+      "sections": 3
+    },
+    {
+      "colId": "77Y7Y",
+      "name": "Proceratophrys appendiculata",
+      "sections": 3
+    },
+    {
+      "colId": "6VXVX",
+      "name": "Proceratophrys avelinoi",
+      "sections": 3
+    },
+    {
+      "colId": "6VY7X",
+      "name": "Proceratophrys belzebul",
+      "sections": 3
+    },
+    {
+      "colId": "6W9VX",
+      "name": "Proceratophrys bigibbosa",
+      "sections": 3
+    },
+    {
+      "colId": "6W9W9",
+      "name": "Proceratophrys boiei",
+      "sections": 3
+    },
+    {
+      "colId": "77XW9",
+      "name": "Proceratophrys brauni",
+      "sections": 3
+    },
+    {
+      "colId": "789W9",
+      "name": "Proceratophrys cristiceps",
+      "sections": 3
+    },
+    {
+      "colId": "6VY7Z",
+      "name": "Proceratophrys cururu",
+      "sections": 3
+    },
+    {
+      "colId": "6VY6C",
+      "name": "Proceratophrys laticeps",
+      "sections": 3
+    },
+    {
+      "colId": "77Y6C",
+      "name": "Proceratophrys mantiqueira",
+      "sections": 3
+    },
+    {
+      "colId": "6VY6F",
+      "name": "Proceratophrys melanopogon",
+      "sections": 3
+    },
+    {
+      "colId": "4MMV2",
+      "name": "Proceratophrys minuta",
+      "sections": 3
+    },
+    {
+      "colId": "4MMV4",
+      "name": "Proceratophrys moratoi",
+      "sections": 3
+    },
+    {
+      "colId": "4MMV6",
+      "name": "Proceratophrys paviotii",
+      "sections": 3
+    },
+    {
+      "colId": "4MMVC",
+      "name": "Proceratophrys renalis",
+      "sections": 3
+    },
+    {
+      "colId": "4MMVG",
+      "name": "Proceratophrys schirchi",
+      "sections": 3
+    },
+    {
+      "colId": "4MMVJ",
+      "name": "Proceratophrys subguttata",
+      "sections": 3
+    },
+    {
+      "colId": "4MMVK",
+      "name": "Proceratophrys tupinamba",
+      "sections": 3
+    },
+    {
+      "colId": "4NNNL",
+      "name": "Pseudis cardosoi",
+      "sections": 3
+    },
+    {
+      "colId": "4NNNM",
+      "name": "Pseudis fusca",
+      "sections": 3
+    },
+    {
+      "colId": "6WC9H",
+      "name": "Pseudis minuta",
+      "sections": 3
+    },
+    {
+      "colId": "4NNNV",
+      "name": "Pseudis paradoxa",
+      "sections": 3
+    },
+    {
+      "colId": "4NNNY",
+      "name": "Pseudis platensis",
+      "sections": 3
+    },
+    {
+      "colId": "4P5Q8",
+      "name": "Pseudopaludicola falcipes",
+      "sections": 3
+    },
+    {
+      "colId": "4P5QH",
+      "name": "Pseudopaludicola mineira",
+      "sections": 3
+    },
+    {
+      "colId": "4P5QL",
+      "name": "Pseudopaludicola murundu",
+      "sections": 3
+    },
+    {
+      "colId": "4P5QM",
+      "name": "Pseudopaludicola mystacalis",
+      "sections": 3
+    },
+    {
+      "colId": "4P5QT",
+      "name": "Pseudopaludicola saltica",
+      "sections": 3
+    },
+    {
+      "colId": "4P5QV",
+      "name": "Pseudopaludicola ternetzi",
+      "sections": 3
+    },
+    {
+      "colId": "4S7M4",
+      "name": "Rhinella achavali",
+      "sections": 3
+    },
+    {
+      "colId": "4S7MB",
+      "name": "Rhinella arenarum",
+      "sections": 3
+    },
+    {
+      "colId": "4S7MF",
+      "name": "Rhinella azarai",
+      "sections": 3
+    },
+    {
+      "colId": "4S7MV",
+      "name": "Rhinella crucifer",
+      "sections": 3
+    },
+    {
+      "colId": "4S7MY",
+      "name": "Rhinella dorbignyi",
+      "sections": 3
+    },
+    {
+      "colId": "4S7N7",
+      "name": "Rhinella granulosa",
+      "sections": 3
+    },
+    {
+      "colId": "4S7N9",
+      "name": "Rhinella henseli",
+      "sections": 3
+    },
+    {
+      "colId": "78TLS",
+      "name": "Rhinella hoogmoedi",
+      "sections": 3
+    },
+    {
+      "colId": "4S7ND",
+      "name": "Rhinella icterica",
+      "sections": 3
+    },
+    {
+      "colId": "4S7PB",
+      "name": "Rhinella ornata",
+      "sections": 3
+    },
+    {
+      "colId": "4S7PJ",
+      "name": "Rhinella pygmaea",
+      "sections": 3
+    },
+    {
+      "colId": "4S7PN",
+      "name": "Rhinella rubescens",
+      "sections": 3
+    },
+    {
+      "colId": "4TQLZ",
+      "name": "Rupirana cardosoi",
+      "sections": 3
+    },
+    {
+      "colId": "6XY9V",
+      "name": "Scinax alter",
+      "sections": 3
+    },
+    {
+      "colId": "4VJV2",
+      "name": "Scinax auratus",
+      "sections": 3
+    },
+    {
+      "colId": "4VJVF",
+      "name": "Scinax caldarum",
+      "sections": 3
+    },
+    {
+      "colId": "4VJVS",
+      "name": "Scinax constrictus",
+      "sections": 3
+    },
+    {
+      "colId": "79XY8",
+      "name": "Scinax cretatus",
+      "sections": 3
+    },
+    {
+      "colId": "4VJVV",
+      "name": "Scinax crospedospilus",
+      "sections": 3
+    },
+    {
+      "colId": "4VJVZ",
+      "name": "Scinax curicica",
+      "sections": 3
+    },
+    {
+      "colId": "4VJW3",
+      "name": "Scinax cuspidatus",
+      "sections": 3
+    },
+    {
+      "colId": "4VJW8",
+      "name": "Scinax duartei",
+      "sections": 3
+    },
+    {
+      "colId": "6XXXZ",
+      "name": "Scinax eurydice",
+      "sections": 3
+    },
+    {
+      "colId": "4VJWQ",
+      "name": "Scinax fuscomarginatus",
+      "sections": 3
+    },
+    {
+      "colId": "4VJWS",
+      "name": "Scinax fuscovarius",
+      "sections": 3
+    },
+    {
+      "colId": "4VJWV",
+      "name": "Scinax granulatus",
+      "sections": 3
+    },
+    {
+      "colId": "4VJWX",
+      "name": "Scinax hayii",
+      "sections": 3
+    },
+    {
+      "colId": "4VJX5",
+      "name": "Scinax imbegue",
+      "sections": 3
+    },
+    {
+      "colId": "4VJX9",
+      "name": "Scinax juncae",
+      "sections": 3
+    },
+    {
+      "colId": "4VJXY",
+      "name": "Scinax nasicus",
+      "sections": 3
+    },
+    {
+      "colId": "4VJY3",
+      "name": "Scinax nebulosus",
+      "sections": 3
+    },
+    {
+      "colId": "6XXYB",
+      "name": "Scinax pachycrus",
+      "sections": 3
+    },
+    {
+      "colId": "4VJYF",
+      "name": "Scinax perereca",
+      "sections": 3
+    },
+    {
+      "colId": "4VJYT",
+      "name": "Scinax rogerioi",
+      "sections": 3
+    },
+    {
+      "colId": "4VJYX",
+      "name": "Scinax ruber",
+      "sections": 3
+    },
+    {
+      "colId": "4VJZ4",
+      "name": "Scinax similis",
+      "sections": 3
+    },
+    {
+      "colId": "4VJZ7",
+      "name": "Scinax squalirostris",
+      "sections": 3
+    },
+    {
+      "colId": "4VJZP",
+      "name": "Scinax tymbamirim",
+      "sections": 3
+    },
+    {
+      "colId": "4VJZX",
+      "name": "Scinax x-signatus",
+      "sections": 3
+    },
+    {
+      "colId": "4W6BZ",
+      "name": "Scythrophrys sawayae",
+      "sections": 3
+    },
+    {
+      "colId": "4YKZS",
+      "name": "Sphaenorhynchus caramaschii",
+      "sections": 3
+    },
+    {
+      "colId": "4YL22",
+      "name": "Sphaenorhynchus palustris",
+      "sections": 3
+    },
+    {
+      "colId": "4YL24",
+      "name": "Sphaenorhynchus planicola",
+      "sections": 3
+    },
+    {
+      "colId": "4YL26",
+      "name": "Sphaenorhynchus prasinus",
+      "sections": 3
+    },
+    {
+      "colId": "4YL29",
+      "name": "Sphaenorhynchus surdus",
+      "sections": 3
+    },
+    {
+      "colId": "52DW2",
+      "name": "Stereocyclops incrassatus",
+      "sections": 3
+    },
+    {
+      "colId": "52DW4",
+      "name": "Stereocyclops parkeri",
+      "sections": 3
+    },
+    {
+      "colId": "56KWB",
+      "name": "Thoropa megatympanum",
+      "sections": 3
+    },
+    {
+      "colId": "56KWC",
+      "name": "Thoropa miliaris",
+      "sections": 3
+    },
+    {
+      "colId": "56KWG",
+      "name": "Thoropa taophora",
+      "sections": 3
+    },
+    {
+      "colId": "57PVF",
+      "name": "Trachycephalus atlas",
+      "sections": 3
+    },
+    {
+      "colId": "57PVK",
+      "name": "Trachycephalus dibernardoi",
+      "sections": 3
+    },
+    {
+      "colId": "57PVR",
+      "name": "Trachycephalus imitatrix",
+      "sections": 3
+    },
+    {
+      "colId": "57PVZ",
+      "name": "Trachycephalus mesophaeus",
+      "sections": 3
+    },
+    {
+      "colId": "57PW2",
+      "name": "Trachycephalus nigromaculatus",
+      "sections": 3
+    },
+    {
+      "colId": "57PWC",
+      "name": "Trachycephalus typhonius",
+      "sections": 3
+    },
+    {
+      "colId": "7FTFB",
+      "name": "Vitreorana eurygnatha",
+      "sections": 3
+    },
+    {
+      "colId": "7G8M6",
+      "name": "Xenohyla eugenioi",
+      "sections": 3
+    },
+    {
+      "colId": "7FWLV",
+      "name": "Xenohyla truncata",
+      "sections": 3
+    }
+  ],
+  "pendingSourceRows": [
+    {
+      "sourceName": "Allobates_olfersioides",
+      "row": 15,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 15,
+        "sourceName": "Allobates_olfersioides",
+        "normalizedName": "Allobates olfersioides",
+        "valuesAsRecorded": {
+          "Species": "Allobates_olfersioides",
+          "Terrestrial oviposition": 1,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 1,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 16.9,
+          "Head width": 5.1,
+          "Tibia length": 7.5,
+          "Observation": null,
+          "References": "1,2,3,31"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "31"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "31": "Verdade VK, Rodrigues MT. Taxonomic review of Allobates (Anura, Aromobatidae) from the Atlantic Forest, Brazil. Journal of Herpetology. 2007; 41: 566–580."
+        }
+      }
+    },
+    {
+      "sourceName": "Brachycephalus_garbeana",
+      "row": 86,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 86,
+        "sourceName": "Brachycephalus_garbeana",
+        "normalizedName": "Brachycephalus garbeana",
+        "valuesAsRecorded": {
+          "Species": "Brachycephalus_garbeana",
+          "Terrestrial oviposition": 1,
+          "Direct development": 1,
+          "Habitat aquatic": 0,
+          "Habitat terrestrial": 1,
+          "Habitatsemiterrestrial": 0,
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 1,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 18.6,
+          "Head width": 6.43,
+          "Tibia length": 6.03,
+          "Observation": null,
+          "References": "1,2,3,118"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "118"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "118": "Pombal JP Jr. A posição taxonômica das \"variedades\" de Brachycephalus ephippium (Spix, 1824) descritas por Miranda-Ribeiro, 1920 (Amphibia, Anura, Brachycephalidae). Boletim do Museu Nacional. Nova Serie, Zoologia. Rio de Janeiro. 2010; 526: 1–12."
+        }
+      }
+    },
+    {
+      "sourceName": "Dendropsophus_araguaya",
+      "row": 127,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 127,
+        "sourceName": "Dendropsophus_araguaya",
+        "normalizedName": "Dendropsophus araguaya",
+        "valuesAsRecorded": {
+          "Species": "Dendropsophus_araguaya",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 20.5,
+          "Head width": 6,
+          "Tibia length": 9.6,
+          "Observation": null,
+          "References": "1,2,3,35"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "35"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "35": "Napoli MF, Caramaschi U. Duas novas espécies de Hyla Laurenti, 1768 do Brasil central afins de H. tritaeniata Bokermann, 1965. Boletim do Museu Nacional. Nova Serie, Zoologia. Rio de Janeiro. 1998; 391: 1–12."
+        }
+      }
+    },
+    {
+      "sourceName": "Dendropsophus_jimi",
+      "row": 138,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 138,
+        "sourceName": "Dendropsophus_jimi",
+        "normalizedName": "Dendropsophus jimi",
+        "valuesAsRecorded": {
+          "Species": "Dendropsophus_jimi",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 22.3,
+          "Head width": 6.05,
+          "Tibia length": 9.85,
+          "Observation": null,
+          "References": "1,2,3,9"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "9"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "9": "Napoli MF, Caramaschi U. Variation and description of two new Brazilian Hyla of the H. tritaeniata complex (Amphibia, Anura, Hylidae). Boletim do Museu Nacional. Nova Serie, Zoologia. 1999; 407: 1–11."
+        }
+      }
+    },
+    {
+      "sourceName": "Leptodactylus_sertanejo",
+      "row": 237,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 237,
+        "sourceName": "Leptodactylus_sertanejo",
+        "normalizedName": "Leptodactylus sertanejo",
+        "valuesAsRecorded": {
+          "Species": "Leptodactylus_sertanejo",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 0,
+          "S2": 0,
+          "S3": 1,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 52.6,
+          "Head width": 15.5,
+          "Tibia length": 34.13,
+          "Observation": null,
+          "References": "1,2,3,76"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "76"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "76": "Giaretta AA, Costa HCM. A redescription of Leptodactylus jolyi Sazima and Bokermann (Anura, Leptodactylidae) and the recognition of a new closely related species. Zootaxa. 2007; 1608: 1–10."
+        }
+      }
+    },
+    {
+      "sourceName": "Lithobates_catesbeianus",
+      "row": 244,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 244,
+        "sourceName": "Lithobates_catesbeianus",
+        "normalizedName": "Lithobates catesbeianus",
+        "valuesAsRecorded": {
+          "Species": "Lithobates_catesbeianus",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 203,
+          "Head width": 62.61,
+          "Tibia length": 75.83,
+          "Observation": "Head width and tibia length inferred",
+          "References": "1,2,3"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 "
+        }
+      }
+    },
+    {
+      "sourceName": "Lysapsus_limellum",
+      "row": 246,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 246,
+        "sourceName": "Lysapsus_limellum",
+        "normalizedName": "Lysapsus limellum",
+        "valuesAsRecorded": {
+          "Species": "Lysapsus_limellum",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 24.8,
+          "Head width": 7.69,
+          "Tibia length": 14.75,
+          "Observation": "Head width and tibia length inferred",
+          "References": "1,2,3"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 "
+        }
+      }
+    },
+    {
+      "sourceName": "Melanophryniscus_dorsalis",
+      "row": 251,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 251,
+        "sourceName": "Melanophryniscus_dorsalis",
+        "normalizedName": "Melanophryniscus dorsalis",
+        "valuesAsRecorded": {
+          "Species": "Melanophryniscus_dorsalis",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 23.15,
+          "Head width": 7.7,
+          "Tibia length": 8.17,
+          "Observation": null,
+          "References": "1,2,3,79"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "79"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "79": "Cruz CAG, Caramaschi U. Taxonomic status of Melanophryniscus stelzneri dorsalis (Mertens, 1933) and Melanophryniscus stelzneri fulvoguttatus (Mertens, 1937) (Amphibia, Anura, Bufonidae). Boletim do Museu Nacional. Nova Serie, Zoologia. Rio de Janeiro. 2003; 500: 1–11."
+        }
+      }
+    },
+    {
+      "sourceName": "Rhinella_abei",
+      "row": 369,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 369,
+        "sourceName": "Rhinella_abei",
+        "normalizedName": "Rhinella abei",
+        "valuesAsRecorded": {
+          "Species": "Rhinella_abei",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 83.9,
+          "Head width": 28.33,
+          "Tibia length": 28.86,
+          "Observation": "Head width and tibia length inferred",
+          "References": "1,2,3"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 "
+        }
+      }
+    },
+    {
+      "sourceName": "Rhinella_fernandezae",
+      "row": 375,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 375,
+        "sourceName": "Rhinella_fernandezae",
+        "normalizedName": "Rhinella fernandezae",
+        "valuesAsRecorded": {
+          "Species": "Rhinella_fernandezae",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 60,
+          "Head width": 20,
+          "Tibia length": 19,
+          "Observation": null,
+          "References": "1,2,3,136"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "136"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "136": "Narvaes P, Rodrigues MT.Taxonomic revision of Rhinella granulosa species group (Amphibia, Anura, Bufonidae), with a description of a new species. Arquivos de Zoologia. 2009; São Paulo 40: 1–73."
+        }
+      }
+    },
+    {
+      "sourceName": "Rhinella_jimi",
+      "row": 380,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 380,
+        "sourceName": "Rhinella_jimi",
+        "normalizedName": "Rhinella jimi",
+        "valuesAsRecorded": {
+          "Species": "Rhinella_jimi",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 140.64,
+          "Head width": 51.37,
+          "Tibia length": 47.45,
+          "Observation": null,
+          "References": "1,2,3,137"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "137"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "137": "Stevaux MN. A new species of Bufo Laurenti (Anura, Bufonidae) from northeastern Brazil. Revista Brasileira de Zoologia. 2002; 19: 235–242."
+        }
+      }
+    },
+    {
+      "sourceName": "Rhinella_pombali",
+      "row": 382,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 382,
+        "sourceName": "Rhinella_pombali",
+        "normalizedName": "Rhinella pombali",
+        "valuesAsRecorded": {
+          "Species": "Rhinella_pombali",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 119,
+          "Head width": 39.16,
+          "Tibia length": 41.72,
+          "Observation": "Head width and tibia length inferred",
+          "References": "1,2,3"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 "
+        }
+      }
+    },
+    {
+      "sourceName": "Rhinella_schneideri",
+      "row": 385,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 385,
+        "sourceName": "Rhinella_schneideri",
+        "normalizedName": "Rhinella schneideri",
+        "valuesAsRecorded": {
+          "Species": "Rhinella_schneideri",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 250,
+          "Head width": 84.68,
+          "Tibia length": 87.71,
+          "Observation": "Head width and tibia length inferred",
+          "References": "1,2,3"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 "
+        }
+      }
+    },
+    {
+      "sourceName": "Rhinella_scitula",
+      "row": 386,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 386,
+        "sourceName": "Rhinella_scitula",
+        "normalizedName": "Rhinella scitula",
+        "valuesAsRecorded": {
+          "Species": "Rhinella_scitula",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 44.07,
+          "Head width": 15.85,
+          "Tibia length": 17.22,
+          "Observation": null,
+          "References": "1,2,3,20"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "20"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "20": "Heyer WR. A new genus and species of frog from Bahia, Brazil (Amphibia: Anura: Leptodactylidae) with comments on the zoogeography of the Brazilian campos rupestres. Proceedings of the Biological Society of Washington. 1999; 112: 19–30."
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_agilis",
+      "row": 388,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 388,
+        "sourceName": "Scinax_agilis",
+        "normalizedName": "Scinax agilis",
+        "valuesAsRecorded": {
+          "Species": "Scinax_agilis",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 19.5,
+          "Head width": 6,
+          "Tibia length": 9,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_albicans",
+      "row": 389,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 389,
+        "sourceName": "Scinax_albicans",
+        "normalizedName": "Scinax albicans",
+        "valuesAsRecorded": {
+          "Species": "Scinax_albicans",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 46.94,
+          "Head width": 12.5,
+          "Tibia length": 19.16,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_angrensis",
+      "row": 391,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 391,
+        "sourceName": "Scinax_angrensis",
+        "normalizedName": "Scinax angrensis",
+        "valuesAsRecorded": {
+          "Species": "Scinax_angrensis",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 39.2,
+          "Head width": 9.51,
+          "Tibia length": 14.14,
+          "Observation": null,
+          "References": "1,2,3,139"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "139"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "139": "Lutz B. New Brazilian forms of Hyla. I. Two new races of H. catharinae. Boletim do Museu Nacional. Nova Serie, Zoologia. 1973; Rio de Janeiro 288: 1–7."
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_arduous",
+      "row": 392,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 392,
+        "sourceName": "Scinax_arduous",
+        "normalizedName": "Scinax arduous",
+        "valuesAsRecorded": {
+          "Species": "Scinax_arduous",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 26.2,
+          "Head width": 8.38,
+          "Tibia length": 13.67,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_argyreornatus",
+      "row": 393,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 393,
+        "sourceName": "Scinax_argyreornatus",
+        "normalizedName": "Scinax argyreornatus",
+        "valuesAsRecorded": {
+          "Species": "Scinax_argyreornatus",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 23,
+          "Head width": 6.68,
+          "Tibia length": 11.05,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_aromothyella",
+      "row": 394,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 394,
+        "sourceName": "Scinax_aromothyella",
+        "normalizedName": "Scinax aromothyella",
+        "valuesAsRecorded": {
+          "Species": "Scinax_aromothyella",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 31.8,
+          "Head width": 7.4,
+          "Tibia length": 12.5,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_belloni",
+      "row": 396,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 396,
+        "sourceName": "Scinax_belloni",
+        "normalizedName": "Scinax belloni",
+        "valuesAsRecorded": {
+          "Species": "Scinax_belloni",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 37.5,
+          "Head width": 10.4,
+          "Tibia length": 15.3,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_berthae",
+      "row": 397,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 397,
+        "sourceName": "Scinax_berthae",
+        "normalizedName": "Scinax berthae",
+        "valuesAsRecorded": {
+          "Species": "Scinax_berthae",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 25,
+          "Head width": 4.36,
+          "Tibia length": 8.79,
+          "Observation": "Head width and tibia length inferred",
+          "References": "1,2,3"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 "
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_brieni",
+      "row": 398,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 398,
+        "sourceName": "Scinax_brieni",
+        "normalizedName": "Scinax brieni",
+        "valuesAsRecorded": {
+          "Species": "Scinax_brieni",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 40,
+          "Head width": 11.39,
+          "Tibia length": 17.6,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_camposseabrai",
+      "row": 400,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 400,
+        "sourceName": "Scinax_camposseabrai",
+        "normalizedName": "Scinax camposseabrai",
+        "valuesAsRecorded": {
+          "Species": "Scinax_camposseabrai",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 35.9,
+          "Head width": 10.42,
+          "Tibia length": 16.26,
+          "Observation": "Head width and tibia length inferred",
+          "References": "1,2,3"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 "
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_canastrensis",
+      "row": 401,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 401,
+        "sourceName": "Scinax_canastrensis",
+        "normalizedName": "Scinax canastrensis",
+        "valuesAsRecorded": {
+          "Species": "Scinax_canastrensis",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 38,
+          "Head width": 11.06,
+          "Tibia length": 17.03,
+          "Observation": "Head width and tibia length inferred",
+          "References": "1,2,3"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 "
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_catharinae",
+      "row": 402,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 402,
+        "sourceName": "Scinax_catharinae",
+        "normalizedName": "Scinax catharinae",
+        "valuesAsRecorded": {
+          "Species": "Scinax_catharinae",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 45.5,
+          "Head width": 15.3,
+          "Tibia length": 22.39,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_cosenzai",
+      "row": 404,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 404,
+        "sourceName": "Scinax_cosenzai",
+        "normalizedName": "Scinax cosenzai",
+        "valuesAsRecorded": {
+          "Species": "Scinax_cosenzai",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 21.23,
+          "Head width": 7.28,
+          "Tibia length": 10.93,
+          "Observation": null,
+          "References": "1,2,3,110"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "110"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "110": "Lacerda JVA, Peixoto OL, Feio RN. A new species of the bromeligenous Scinax perpusillus group (Anura; Hylidae) from Serra do Brigadeiro, state of Minas Gerais, southeastern Brazil. Zootaxa. 2012; 3271: 31–42."
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_flavoguttatus",
+      "row": 411,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 411,
+        "sourceName": "Scinax_flavoguttatus",
+        "normalizedName": "Scinax flavoguttatus",
+        "valuesAsRecorded": {
+          "Species": "Scinax_flavoguttatus",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 45.4,
+          "Head width": 15,
+          "Tibia length": 21,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_heyeri",
+      "row": 416,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 416,
+        "sourceName": "Scinax_heyeri",
+        "normalizedName": "Scinax heyeri",
+        "valuesAsRecorded": {
+          "Species": "Scinax_heyeri",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 35.6,
+          "Head width": 12.41,
+          "Tibia length": 19.38,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_hiemalis",
+      "row": 417,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 417,
+        "sourceName": "Scinax_hiemalis",
+        "normalizedName": "Scinax hiemalis",
+        "valuesAsRecorded": {
+          "Species": "Scinax_hiemalis",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 34.4,
+          "Head width": 9.39,
+          "Tibia length": 14,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_humilis",
+      "row": 418,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 418,
+        "sourceName": "Scinax_humilis",
+        "normalizedName": "Scinax humilis",
+        "valuesAsRecorded": {
+          "Species": "Scinax_humilis",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 40.9,
+          "Head width": 9.91,
+          "Tibia length": 15.77,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_littoralis",
+      "row": 421,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 421,
+        "sourceName": "Scinax_littoralis",
+        "normalizedName": "Scinax littoralis",
+        "valuesAsRecorded": {
+          "Species": "Scinax_littoralis",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 39.9,
+          "Head width": 9,
+          "Tibia length": 16.5,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_littoreus",
+      "row": 422,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 422,
+        "sourceName": "Scinax_littoreus",
+        "normalizedName": "Scinax littoreus",
+        "valuesAsRecorded": {
+          "Species": "Scinax_littoreus",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 25.5,
+          "Head width": 4.95,
+          "Tibia length": 9.65,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_longilineus",
+      "row": 423,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 423,
+        "sourceName": "Scinax_longilineus",
+        "normalizedName": "Scinax longilineus",
+        "valuesAsRecorded": {
+          "Species": "Scinax_longilineus",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 48,
+          "Head width": 15,
+          "Tibia length": 25,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_luizotavioi",
+      "row": 424,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 424,
+        "sourceName": "Scinax_luizotavioi",
+        "normalizedName": "Scinax luizotavioi",
+        "valuesAsRecorded": {
+          "Species": "Scinax_luizotavioi",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 30,
+          "Head width": 7.7,
+          "Tibia length": 12.2,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_melanodactylus",
+      "row": 425,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 425,
+        "sourceName": "Scinax_melanodactylus",
+        "normalizedName": "Scinax melanodactylus",
+        "valuesAsRecorded": {
+          "Species": "Scinax_melanodactylus",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 14.62,
+          "Head width": 5.12,
+          "Tibia length": 8.05,
+          "Observation": null,
+          "References": "1,2,3,128"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "128"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "128": "Lourenço ACC, Luna MC, Pombal JP Jr. A new species of the Scinax catharinae group (Anura: Hylidae) from northeastern Brazil. Zootaxa. 2014; 3889: 259–276."
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_obtriangulatus",
+      "row": 428,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 428,
+        "sourceName": "Scinax_obtriangulatus",
+        "normalizedName": "Scinax obtriangulatus",
+        "valuesAsRecorded": {
+          "Species": "Scinax_obtriangulatus",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 39,
+          "Head width": 7.46,
+          "Tibia length": 12.35,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_perpusillus",
+      "row": 431,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 431,
+        "sourceName": "Scinax_perpusillus",
+        "normalizedName": "Scinax perpusillus",
+        "valuesAsRecorded": {
+          "Species": "Scinax_perpusillus",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 25,
+          "Head width": 6.53,
+          "Tibia length": 10.1,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_ranki",
+      "row": 432,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 432,
+        "sourceName": "Scinax_ranki",
+        "normalizedName": "Scinax ranki",
+        "valuesAsRecorded": {
+          "Species": "Scinax_ranki",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 28.7,
+          "Head width": 9.25,
+          "Tibia length": 14.95,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_rizibilis",
+      "row": 433,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 433,
+        "sourceName": "Scinax_rizibilis",
+        "normalizedName": "Scinax rizibilis",
+        "valuesAsRecorded": {
+          "Species": "Scinax_rizibilis",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 0,
+          "S2": 0,
+          "S3": 1,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 34,
+          "Head width": 10,
+          "Tibia length": 16.79,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_strigilatus",
+      "row": 438,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 438,
+        "sourceName": "Scinax_strigilatus",
+        "normalizedName": "Scinax strigilatus",
+        "valuesAsRecorded": {
+          "Species": "Scinax_strigilatus",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 38.3,
+          "Head width": 9.3,
+          "Tibia length": 12.4,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_trapicheiroi",
+      "row": 439,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 439,
+        "sourceName": "Scinax_trapicheiroi",
+        "normalizedName": "Scinax trapicheiroi",
+        "valuesAsRecorded": {
+          "Species": "Scinax_trapicheiroi",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 40,
+          "Head width": 13.75,
+          "Tibia length": 21.08,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_tripui",
+      "row": 440,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 440,
+        "sourceName": "Scinax_tripui",
+        "normalizedName": "Scinax tripui",
+        "valuesAsRecorded": {
+          "Species": "Scinax_tripui",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 30.92,
+          "Head width": 10.77,
+          "Tibia length": 16.47,
+          "Observation": null,
+          "References": "1,2,3,130"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "130"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "130": "Lourenço ACC, Nascimento LB, Pires MRS.  A new species of the Scinax catharinae species group (Anura: Hylidae) from Minas Gerais, southeastern Brazil. Herpetologica. 2010; 65: 468–479."
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_uruguayus",
+      "row": 442,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 442,
+        "sourceName": "Scinax_uruguayus",
+        "normalizedName": "Scinax uruguayus",
+        "valuesAsRecorded": {
+          "Species": "Scinax_uruguayus",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 25.8,
+          "Head width": 8.3,
+          "Tibia length": 12.8,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Scinax_v-signatus",
+      "row": 443,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 443,
+        "sourceName": "Scinax_v-signatus",
+        "normalizedName": "Scinax v-signatus",
+        "valuesAsRecorded": {
+          "Species": "Scinax_v-signatus",
+          "Terrestrial oviposition": 0,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 0,
+          "S7": 0,
+          "Body length": 27,
+          "Head width": 7.7,
+          "Tibia length": 12.8,
+          "Observation": null,
+          "References": "1,2,3,4"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 ",
+          "4": "Paz A, Hernandez L, Melo LSO, Lyra M, Haddad CFB, Carnaval AC. Extreme environments filter functionally rich communitites of Atlantic Forest treefrogs along altitudinal and latitudinal gradients. Ecography. 2022; 9:1–14. doi: 10.1111/ecog.06138"
+        }
+      }
+    },
+    {
+      "sourceName": "Vitreorana_uranoscopa",
+      "row": 463,
+      "reason": "No exact pinned accepted-species name match; no epithet-only transfer.",
+      "sourceRecord": {
+        "sheetRow": 463,
+        "sourceName": "Vitreorana_uranoscopa",
+        "normalizedName": "Vitreorana uranoscopa",
+        "valuesAsRecorded": {
+          "Species": "Vitreorana_uranoscopa",
+          "Terrestrial oviposition": 1,
+          "Direct development": 0,
+          "Habitat aquatic": 1,
+          "Habitat terrestrial": 0,
+          "Habitatsemiterrestrial": 0,
+          "S1": 0,
+          "S2": 0,
+          "S3": 0,
+          "S4": 0,
+          "S5": 0,
+          "S6": 1,
+          "S7": 0,
+          "Body length": 25.8,
+          "Head width": 9.54,
+          "Tibia length": 12.03,
+          "Observation": "Head width and tibia length inferred",
+          "References": "1,2,3"
+        },
+        "referenceNumbersAsRecorded": [
+          "1",
+          "2",
+          "3"
+        ],
+        "upstreamReferencesAsRecorded": {
+          "1": "Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. AmphiBIO, a global databasefor amphibian ecological traits. Scientific Data. 2017; 170123:1–7. doi: 10.1038/sdata.2017.123",
+          "2": "Fontana RB, Furtado R, Zanella N, Debastiani VJ, Hartz SM. Linking ecological traits to extinction risk: Analysis of a Neotropical anuran database. Biol Conserv. 2021; 264:1–7. doi: 10.1016/j.biocon.2021.109390",
+          "3": "Frost D. Amphibian Species of the World: an Online Reference. Version 6.1. New York, USA: American Museum of Natural History; 2023 [Cited 2023 May 17] Available from: https://amphibiansoftheworld.amnh.org/index.php.  doi: 10.5531/db.vz.0001 "
+        }
+      }
+    }
+  ],
+  "limits": [
+    "464source trait rows/766communities/49directdeveloper source taxa; 528species1163sites17169records original dataset notnewcompileddenominator.",
+    "Underscore normalization only; unmatchednames retained without epithet-only transfer orsame-nameconcept certification.",
+    "S3 references140entries preserved perrow, originalupstreamstudies notindependentlyread.",
+    "Terrestrialoviposition differsfromdirectdevelopment; juvenilehabitat notadultpreference; multipleegg-siteflags retained.",
+    "Directdevelopment nofree-livinglarva notabsenceembryonicdevelopment/humidityneed; larvalcoding notuniversalaquaticrequirement.",
+    "Body means/maxima mixed, sex/stage and units notexplicit perrow; numbers retainedinsnapshot notdiagnostic dimensionalclaims.",
+    "139headwidths146tibialengths inferred; noflag not independentmeasurementcertification.",
+    "Functionaldiversity proxy notdirectcompetition/predationmeasurement; directdevelopmenttraitinFD cancreatecircularity, authorssensitivityreportednotreproduced.",
+    "Eightuncertainphylogenetictaxa insertedusingliterature/MDCC notnewsequenceplacement.",
+    "SEM36%explained andnon-significantFisherCfit notcausalproof; no species-specific climaticlimit orvalidatedfutureforecast.",
+    "One-kmrastersnotmicrohabitat humidity; potentialevapotranspirationnotdirect airhumidity; annualprecipitation no directassociationnotirrelevance.",
+    "Terrainrelation notexperimentaleggwashoutmortality; spatialautocorrelation/modelassumptions notindependentlyverified.",
+    "No sourcefigures/maps reproduced; siteoccurrences, originaltraits and fittedmodel notreanalysed."
+  ],
+  "fullArticleRead": false,
+  "contentPhaseComplete": false
+}
