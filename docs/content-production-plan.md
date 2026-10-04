@@ -3526,3 +3526,8 @@ xantholaema 仅一只雌鸟，ankoberensis 仅一只雄鸟，各一套完整测�
 ## P5-184 — Amniota reference and source indexes (2026-10-03)
 
 User clarified that this stage stores references and indexes without downloading all original texts. See docs/amniota-collection-stage-2026-10-03.md and data/sources/amniota-reference-index-continuation-2026-10-03.json. The 6457 initial COL gaps now have candidate data for 6449 identities (25161 raw rows) and separate literature reference indexes for the residual 8 birds. All 22684 PBDB identities link to the 11097 collected bibliography records. Crossref metadata and title conflicts are retained independently. The original 10273 gaps remain as concept/context review work; prose stays paused. Full-text reading, expert review, tests, generation, commits and publication are not claimed.
+
+
+## P5-185 — Integrate completed reference scope into main (2026-10-04)
+
+The user authorized main integration after the Amniota reference/index/placeholder stage. Completed Amniota sources, the published Amphibia reference branch and Macaca radiata PR #473 are integrated with stable-ID conflict resolution and current source corrections preserved. Legacy branch contents already represented or corrected in main retain the current data tree. See docs/amniota-integration-2026-10-04.md and its branch receipt. Biological prose and bulk full-text acquisition remain paused. Tests and full regeneration were not run.

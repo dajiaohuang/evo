@@ -11,3 +11,5 @@ Use canonical recorded-name taxon paths, shared references and independent sourc
 Current collection ledger and remaining source work: docs/amniota-collection-stage-2026-10-03.md and data/sources/amniota-collection-stage-2026-10-03.json. Biological collection is complete only when remaining source gaps have actually been resolved or individually reported with a concrete access/source blocker. A ledger, name record or placeholder alone is not biological collection completion.
 
 Tests, validators, generation, commits and publication remain deferred under the user’s prior instruction until the authorized content stage is finished. Previous reader-production requirements remain recorded in docs/content-production-plan.md; do not reinterpret historical prose counts as this collection stage.
+
+2026-10-04: the reference/index/placeholder stage is complete within its pinned scope. The user explicitly authorized integrating branch updates into main. Commit and main publication are therefore authorized for this integration; this does not authorize resuming biological prose or bulk full-text downloads. Tests and full regeneration were not requested for this turn.
