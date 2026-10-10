@@ -9,7 +9,6 @@ records:
     name:
       zh: Captorhinus aguti
       en: Captorhinus aguti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

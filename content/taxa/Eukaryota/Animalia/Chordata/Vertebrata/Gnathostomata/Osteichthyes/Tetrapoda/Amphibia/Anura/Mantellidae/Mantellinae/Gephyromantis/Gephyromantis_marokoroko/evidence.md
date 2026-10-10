@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis marokoroko
       zh: Gephyromantis marokoroko
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

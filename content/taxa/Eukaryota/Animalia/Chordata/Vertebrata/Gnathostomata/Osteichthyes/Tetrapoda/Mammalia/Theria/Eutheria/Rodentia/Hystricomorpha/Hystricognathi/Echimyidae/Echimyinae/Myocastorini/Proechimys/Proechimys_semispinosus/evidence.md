@@ -9,7 +9,6 @@ records:
     name:
       zh: Proechimys semispinosus
       en: Proechimys semispinosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

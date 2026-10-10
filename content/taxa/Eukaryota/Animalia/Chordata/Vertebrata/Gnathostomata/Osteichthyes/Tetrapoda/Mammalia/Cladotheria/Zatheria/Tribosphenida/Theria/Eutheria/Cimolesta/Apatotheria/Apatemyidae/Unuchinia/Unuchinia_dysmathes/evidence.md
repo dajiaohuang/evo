@@ -9,7 +9,6 @@ records:
     name:
       zh: Unuchinia dysmathes
       en: Unuchinia dysmathes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

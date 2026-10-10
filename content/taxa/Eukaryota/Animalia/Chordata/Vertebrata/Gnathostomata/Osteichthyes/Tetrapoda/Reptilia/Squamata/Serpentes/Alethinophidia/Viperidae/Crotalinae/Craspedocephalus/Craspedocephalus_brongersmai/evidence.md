@@ -9,7 +9,6 @@ records:
     name:
       zh: Craspedocephalus brongersmai
       en: Craspedocephalus brongersmai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

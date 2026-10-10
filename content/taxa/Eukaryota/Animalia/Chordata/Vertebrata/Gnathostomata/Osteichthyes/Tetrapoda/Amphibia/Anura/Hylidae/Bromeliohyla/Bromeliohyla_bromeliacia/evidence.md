@@ -9,7 +9,6 @@ records:
     name:
       en: Bromeliohyla bromeliacia
       zh: Bromeliohyla bromeliacia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Sphaenorhynchus prasinus
       zh: Sphaenorhynchus prasinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

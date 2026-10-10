@@ -9,7 +9,6 @@ records:
     name:
       zh: Edowa zuniensis
       en: Edowa zuniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

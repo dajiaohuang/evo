@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon caissara
       zh: Ololygon caissara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

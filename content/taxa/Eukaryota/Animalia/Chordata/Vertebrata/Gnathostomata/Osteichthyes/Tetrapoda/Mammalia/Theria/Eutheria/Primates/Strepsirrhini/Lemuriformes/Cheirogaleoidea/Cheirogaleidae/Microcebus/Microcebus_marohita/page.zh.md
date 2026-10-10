@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-COL26.8 接受此名；MDD 当前页面将 *M. marohita* 列为 *M. jollyae* 异名。本页依固定 COL26.8 接受名编写，生物学正文限于 2013 年小样本与论文地点。中文译名与英语普通名 Marohita Mouse Lemur 均为编辑标签；尚未经过外部领域专家评审。
+COL26.8 接受此名；MDD 当前页面将 *M. marohita* 列为 *M. jollyae* 异名。本页依固定 COL26.8 接受名编写，生物学正文限于 2013 年小样本与论文地点。中文译名与英语普通名 Marohita Mouse Lemur 均为编辑标签。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallinago gallinago
       en: Gallinago gallinago
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -28,5 +28,5 @@ Begin with the existing pages for *L. fuscicollis*, *L. fuscus*, *L. nigricollis
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a matrix comparison of taxa in one Brazilian Amazon range-map study, not a complete genus checklist, natural-history review or observation of individuals crossing rivers. Main-text Table 2 has internal differences in species totals and percentages; this page reports only the range-map intersections in Supplementary Table S1. This guide is not externally expert-reviewed. The reading path connects all ten accepted species in pinned COL26.8; local studies and taxonomic schemes remain separate and do not form a complete genus natural-history or species-delimitation review.
+This is a matrix comparison of taxa in one Brazilian Amazon range-map study, not a complete genus checklist, natural-history review or observation of individuals crossing rivers. Main-text Table 2 has internal differences in species totals and percentages; this page reports only the range-map intersections in Supplementary Table S1. This guide is. The reading path connects all ten accepted species in pinned COL26.8; local studies and taxonomic schemes remain separate and do not form a complete genus natural-history or species-delimitation review.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cordylus machadoi
       en: Cordylus machadoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

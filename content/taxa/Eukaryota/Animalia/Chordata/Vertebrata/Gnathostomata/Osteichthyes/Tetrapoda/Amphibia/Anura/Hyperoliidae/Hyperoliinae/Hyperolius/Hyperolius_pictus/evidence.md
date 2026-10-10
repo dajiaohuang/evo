@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius pictus
       zh: Hyperolius pictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

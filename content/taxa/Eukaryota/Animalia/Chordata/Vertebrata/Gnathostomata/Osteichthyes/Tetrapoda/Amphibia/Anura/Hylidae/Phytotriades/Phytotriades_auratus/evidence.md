@@ -9,7 +9,6 @@ records:
     name:
       en: Phytotriades auratus
       zh: Phytotriades auratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

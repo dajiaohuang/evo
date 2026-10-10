@@ -9,7 +9,6 @@ records:
     name:
       en: Arenophryne rotunda
       zh: Arenophryne rotunda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

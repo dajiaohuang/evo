@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphagesaurus huenei
       en: Sphagesaurus huenei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

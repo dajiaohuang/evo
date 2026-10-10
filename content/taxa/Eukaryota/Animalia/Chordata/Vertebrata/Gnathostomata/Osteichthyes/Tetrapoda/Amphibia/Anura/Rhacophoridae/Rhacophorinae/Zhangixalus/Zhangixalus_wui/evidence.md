@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus wui
       zh: Zhangixalus wui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

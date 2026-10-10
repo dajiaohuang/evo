@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelemys macronyx
       en: Chelemys macronyx
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

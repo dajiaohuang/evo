@@ -9,7 +9,6 @@ records:
     name:
       zh: Escatepos
       en: Escatepos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

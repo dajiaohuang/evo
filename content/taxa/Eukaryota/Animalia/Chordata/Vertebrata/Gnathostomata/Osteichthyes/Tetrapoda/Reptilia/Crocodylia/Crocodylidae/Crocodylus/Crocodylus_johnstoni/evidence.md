@@ -9,7 +9,6 @@ records:
     name:
       zh: 澳洲淡水鳄
       en: Australian freshwater crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic:

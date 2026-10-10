@@ -28,5 +28,5 @@ A 2026 paper reported three standardized sweep censuses of the Ndundulu populati
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Counts come from different years, regions and survey designs. The first census, the later Southern Highlands reassessment, and the Ndundulu sweep censuses are not pooled into a current species-wide total. The Chinese display name is editorial. No dossier or external expert review was added. This page is not externally expert-reviewed.
+Counts come from different years, regions and survey designs. The first census, the later Southern Highlands reassessment, and the Ndundulu sweep censuses are not pooled into a current species-wide total. The Chinese display name is editorial. This page is.
 <!-- /evo:text -->

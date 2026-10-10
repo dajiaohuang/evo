@@ -9,7 +9,6 @@ records:
     name:
       zh: Foudia omissa
       en: Foudia omissa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

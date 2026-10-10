@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptella lightfooti
       zh: Arthroleptella lightfooti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

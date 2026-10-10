@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: uhen-2010-whale-origins concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: uhen-2010-whale-origins
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: uhen-2010-whale-origins @ DOI 10.1146/annurev-earth-040809-152453
       referenceLinks:
         - relation: supports
           referenceId: uhen-2010-whale-origins
@@ -94,7 +88,6 @@ records:
           locator: 212–219; Modern whales; Odontoceti fossil and anatomical synthesis
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

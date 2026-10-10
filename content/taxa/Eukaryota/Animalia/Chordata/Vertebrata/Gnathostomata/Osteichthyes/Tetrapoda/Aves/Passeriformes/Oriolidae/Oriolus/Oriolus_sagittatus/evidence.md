@@ -9,7 +9,6 @@ records:
     name:
       zh: Oriolus sagittatus
       en: Oriolus sagittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

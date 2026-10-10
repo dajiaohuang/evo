@@ -9,7 +9,6 @@ records:
     name:
       zh: Paljara tirarensae
       en: Paljara tirarensae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

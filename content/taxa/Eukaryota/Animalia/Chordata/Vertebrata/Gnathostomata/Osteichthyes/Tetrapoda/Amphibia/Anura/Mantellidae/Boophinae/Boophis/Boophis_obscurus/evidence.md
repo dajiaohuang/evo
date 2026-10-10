@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis obscurus
       zh: Boophis obscurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

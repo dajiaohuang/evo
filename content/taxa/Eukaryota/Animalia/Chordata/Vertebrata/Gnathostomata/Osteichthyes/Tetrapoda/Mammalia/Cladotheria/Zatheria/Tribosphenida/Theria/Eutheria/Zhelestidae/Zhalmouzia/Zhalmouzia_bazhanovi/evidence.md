@@ -9,7 +9,6 @@ records:
     name:
       zh: Zhalmouzia bazhanovi
       en: Zhalmouzia bazhanovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

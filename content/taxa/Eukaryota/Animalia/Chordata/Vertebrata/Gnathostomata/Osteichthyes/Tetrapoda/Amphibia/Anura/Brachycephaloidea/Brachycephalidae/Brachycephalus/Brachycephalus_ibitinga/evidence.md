@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus ibitinga
       zh: Brachycephalus ibitinga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

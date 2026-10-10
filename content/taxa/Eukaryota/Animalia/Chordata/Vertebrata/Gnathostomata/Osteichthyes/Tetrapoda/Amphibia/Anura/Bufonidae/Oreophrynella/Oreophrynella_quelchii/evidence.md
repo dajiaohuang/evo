@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophrynella quelchii
       zh: Oreophrynella quelchii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

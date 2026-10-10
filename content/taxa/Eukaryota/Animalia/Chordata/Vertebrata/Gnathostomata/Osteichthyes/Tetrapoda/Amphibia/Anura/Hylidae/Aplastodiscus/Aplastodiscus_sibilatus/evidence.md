@@ -9,7 +9,6 @@ records:
     name:
       en: Aplastodiscus sibilatus
       zh: Aplastodiscus sibilatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

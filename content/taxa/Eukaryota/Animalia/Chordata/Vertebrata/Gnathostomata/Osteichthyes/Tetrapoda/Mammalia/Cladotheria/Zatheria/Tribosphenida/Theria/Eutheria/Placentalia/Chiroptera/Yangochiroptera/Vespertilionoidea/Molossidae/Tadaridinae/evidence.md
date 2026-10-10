@@ -9,7 +9,6 @@ records:
     name:
       zh: Tadaridinae
       en: Tadaridinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

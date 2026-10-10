@@ -9,7 +9,6 @@ records:
     name:
       zh: Apomys sacobianus
       en: Apomys sacobianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

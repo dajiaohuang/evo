@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus nagalandensis
       en: Cyrtodactylus nagalandensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

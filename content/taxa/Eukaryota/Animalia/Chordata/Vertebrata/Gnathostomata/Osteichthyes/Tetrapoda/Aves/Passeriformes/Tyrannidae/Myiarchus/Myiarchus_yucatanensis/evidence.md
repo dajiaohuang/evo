@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiarchus yucatanensis
       en: Myiarchus yucatanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

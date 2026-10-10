@@ -9,7 +9,6 @@ records:
     name:
       zh: Zonosaurus maramaintso
       en: Zonosaurus maramaintso
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

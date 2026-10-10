@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligoryzomys nigripes
       en: Oligoryzomys nigripes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

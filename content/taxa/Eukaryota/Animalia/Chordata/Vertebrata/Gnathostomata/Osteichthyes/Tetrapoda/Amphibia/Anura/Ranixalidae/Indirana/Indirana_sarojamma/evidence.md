@@ -9,7 +9,6 @@ records:
     name:
       en: Indirana sarojamma
       zh: Indirana sarojamma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

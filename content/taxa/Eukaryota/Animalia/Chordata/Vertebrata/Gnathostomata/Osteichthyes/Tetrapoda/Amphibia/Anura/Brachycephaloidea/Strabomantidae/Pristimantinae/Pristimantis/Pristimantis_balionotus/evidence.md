@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis balionotus
       zh: Pristimantis balionotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

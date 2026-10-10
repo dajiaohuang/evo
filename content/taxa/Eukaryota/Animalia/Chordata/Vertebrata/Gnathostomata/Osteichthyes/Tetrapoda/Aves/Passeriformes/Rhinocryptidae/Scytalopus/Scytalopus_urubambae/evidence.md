@@ -9,7 +9,6 @@ records:
     name:
       zh: Scytalopus urubambae
       en: Scytalopus urubambae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Todiramphus sanctus
       en: Todiramphus sanctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

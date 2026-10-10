@@ -9,7 +9,6 @@ records:
     name:
       zh: Anzu wyliei
       en: Anzu wyliei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

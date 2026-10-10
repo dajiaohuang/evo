@@ -9,7 +9,6 @@ records:
     name:
       zh: 家麻雀
       en: House sparrow
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

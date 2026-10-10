@@ -9,7 +9,6 @@ records:
     name:
       zh: Concinnia frerei
       en: Concinnia frerei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

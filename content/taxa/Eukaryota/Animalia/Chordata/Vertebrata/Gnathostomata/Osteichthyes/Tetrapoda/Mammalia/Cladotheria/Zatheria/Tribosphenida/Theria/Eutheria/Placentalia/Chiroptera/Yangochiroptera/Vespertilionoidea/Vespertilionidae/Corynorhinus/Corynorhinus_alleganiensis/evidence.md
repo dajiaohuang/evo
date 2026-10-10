@@ -9,7 +9,6 @@ records:
     name:
       zh: Corynorhinus alleganiensis
       en: Corynorhinus alleganiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

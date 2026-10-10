@@ -9,7 +9,6 @@ records:
     name:
       zh: Masillapodargus longipes
       en: Masillapodargus longipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

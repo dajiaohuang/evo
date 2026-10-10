@@ -38,5 +38,5 @@ rufa、pulchra 和 watersi 为 Aquatic predator，elegans 为 Invertivore，其�
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-八条所选历史形态、体重和生态导读；不计全属接受后代或完整自然史。Rallidae 原科名、食物生态位、营养级、地面活动、总鸟数与完整数分别保留，不补实测食谱、游泳潜水、繁殖、当前地图或专家审评。
+八条所选历史形态、体重和生态导读；不计全属接受后代或完整自然史。Rallidae 原科名、食物生态位、营养级、地面活动、总鸟数与完整数分别保留，不补实测食谱、游泳潜水、繁殖、当前地图。
 <!-- /evo:text -->

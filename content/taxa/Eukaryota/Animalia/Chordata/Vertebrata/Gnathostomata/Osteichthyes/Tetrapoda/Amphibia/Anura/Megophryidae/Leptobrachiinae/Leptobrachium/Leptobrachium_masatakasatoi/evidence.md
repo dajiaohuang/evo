@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachium masatakasatoi
       zh: Leptobrachium masatakasatoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

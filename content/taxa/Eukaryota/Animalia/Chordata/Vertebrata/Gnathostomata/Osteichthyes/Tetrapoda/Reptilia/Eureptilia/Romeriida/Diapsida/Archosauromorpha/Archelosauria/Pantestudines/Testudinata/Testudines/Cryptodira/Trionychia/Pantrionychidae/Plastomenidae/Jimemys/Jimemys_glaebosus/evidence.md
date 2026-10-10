@@ -9,7 +9,6 @@ records:
     name:
       zh: Jimemys glaebosus
       en: Jimemys glaebosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

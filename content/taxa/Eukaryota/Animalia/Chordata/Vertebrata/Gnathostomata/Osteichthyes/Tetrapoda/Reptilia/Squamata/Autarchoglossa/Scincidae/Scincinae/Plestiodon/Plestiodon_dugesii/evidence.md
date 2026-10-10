@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon dugesii
       en: Plestiodon dugesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

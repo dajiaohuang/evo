@@ -9,7 +9,6 @@ records:
     name:
       zh: Ithycyphus oursi
       en: Ithycyphus oursi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Baioconodon wovokae
       en: Baioconodon wovokae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

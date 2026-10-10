@@ -9,7 +9,6 @@ records:
     name:
       zh: 托马斯叶猴
       en: Thomas's Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: life_history

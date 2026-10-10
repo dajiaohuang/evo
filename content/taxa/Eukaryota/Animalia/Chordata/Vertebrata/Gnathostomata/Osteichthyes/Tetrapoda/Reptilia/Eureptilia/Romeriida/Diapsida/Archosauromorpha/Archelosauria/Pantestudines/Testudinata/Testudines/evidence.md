@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudines
       en: Testudines
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus coqui
       zh: Eleutherodactylus coqui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

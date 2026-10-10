@@ -9,7 +9,6 @@ records:
     name:
       zh: Pronothrotherium typicum
       en: Pronothrotherium typicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

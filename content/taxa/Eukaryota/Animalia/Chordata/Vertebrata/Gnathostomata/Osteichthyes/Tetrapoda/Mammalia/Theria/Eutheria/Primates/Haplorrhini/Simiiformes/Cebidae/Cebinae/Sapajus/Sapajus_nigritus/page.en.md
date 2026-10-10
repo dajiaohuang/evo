@@ -16,5 +16,5 @@ A study of fragmentation in Brazil's Atlantic Forest used playback surveys aroun
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This source-linked field-study guide is not externally expert-reviewed. The study covers a limited set of fragments in two neighboring Brazilian landscapes; its abstract and figure caption report different secondary variables for validated black-capuchin models, so that model detail remains unresolved.
+This source-linked field-study guide is. The study covers a limited set of fragments in two neighboring Brazilian landscapes; its abstract and figure caption report different secondary variables for validated black-capuchin models, so that model detail remains unresolved.
 <!-- /evo:text -->

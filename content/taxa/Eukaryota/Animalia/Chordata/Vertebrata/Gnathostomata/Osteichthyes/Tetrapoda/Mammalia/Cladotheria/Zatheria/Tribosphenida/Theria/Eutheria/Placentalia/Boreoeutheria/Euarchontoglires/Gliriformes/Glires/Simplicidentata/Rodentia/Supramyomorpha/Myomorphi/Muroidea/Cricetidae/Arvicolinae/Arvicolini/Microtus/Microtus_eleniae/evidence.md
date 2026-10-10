@@ -9,7 +9,6 @@ records:
     name:
       zh: Microtus eleniae
       en: Microtus eleniae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

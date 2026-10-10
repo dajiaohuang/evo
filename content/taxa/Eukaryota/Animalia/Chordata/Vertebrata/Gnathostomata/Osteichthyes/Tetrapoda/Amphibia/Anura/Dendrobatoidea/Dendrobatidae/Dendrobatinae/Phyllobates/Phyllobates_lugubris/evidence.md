@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllobates lugubris
       zh: Phyllobates lugubris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-来源材料限于 Manombo 模式系列；本页不推断更广的当前分布。 本页尚未经过外部领域专家评审。
+来源材料限于 Manombo 模式系列；本页不推断更广的当前分布。 。
 <!-- /evo:text -->

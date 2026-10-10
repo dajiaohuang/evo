@@ -9,7 +9,6 @@ records:
     name:
       zh: Dogania maortuensis
       en: Dogania maortuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Polemon graueri
       en: Polemon graueri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

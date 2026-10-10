@@ -9,7 +9,6 @@ records:
     name:
       zh: Tomistoma
       en: Tomistoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

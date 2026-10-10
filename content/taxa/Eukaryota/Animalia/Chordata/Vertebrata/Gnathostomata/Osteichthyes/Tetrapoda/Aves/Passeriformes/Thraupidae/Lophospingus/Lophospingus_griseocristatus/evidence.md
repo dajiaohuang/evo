@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophospingus griseocristatus
       en: Lophospingus griseocristatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

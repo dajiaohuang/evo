@@ -22,5 +22,5 @@ Rapid biodiversity assessments in the SAVA region in 2017 recorded the species a
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Locality records are limited by rapid-assessment design and survey periods; observed sites are not joined into an unverified continuous range. This page has not received external expert review. This page is not externally expert-reviewed.
+Locality records are limited by rapid-assessment design and survey periods; observed sites are not joined into an unverified continuous range. This page. This page is.
 <!-- /evo:text -->

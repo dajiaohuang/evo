@@ -9,7 +9,6 @@ records:
     name:
       en: Triprion spinosus
       zh: Triprion spinosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

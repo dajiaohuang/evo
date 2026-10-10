@@ -9,7 +9,6 @@ records:
     name:
       en: Neurergus kaiseri
       zh: Neurergus kaiseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

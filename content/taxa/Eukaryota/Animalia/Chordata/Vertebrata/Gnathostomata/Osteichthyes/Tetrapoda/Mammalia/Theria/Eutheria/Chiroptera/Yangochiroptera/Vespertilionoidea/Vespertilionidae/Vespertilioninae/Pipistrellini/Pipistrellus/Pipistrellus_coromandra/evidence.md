@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipistrellus coromandra
       en: Pipistrellus coromandra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

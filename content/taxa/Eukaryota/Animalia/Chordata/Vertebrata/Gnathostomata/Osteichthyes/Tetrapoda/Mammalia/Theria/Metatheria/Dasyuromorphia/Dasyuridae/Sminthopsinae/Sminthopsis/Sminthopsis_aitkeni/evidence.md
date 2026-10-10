@@ -9,7 +9,6 @@ records:
     name:
       zh: Sminthopsis aitkeni
       en: Sminthopsis aitkeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

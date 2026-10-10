@@ -9,7 +9,6 @@ records:
     name:
       zh: Dromaius arleyekweke
       en: Dromaius arleyekweke
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

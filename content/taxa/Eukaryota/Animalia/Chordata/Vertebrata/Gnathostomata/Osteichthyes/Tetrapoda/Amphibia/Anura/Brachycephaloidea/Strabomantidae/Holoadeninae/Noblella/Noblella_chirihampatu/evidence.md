@@ -9,7 +9,6 @@ records:
     name:
       en: Noblella chirihampatu
       zh: Noblella chirihampatu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

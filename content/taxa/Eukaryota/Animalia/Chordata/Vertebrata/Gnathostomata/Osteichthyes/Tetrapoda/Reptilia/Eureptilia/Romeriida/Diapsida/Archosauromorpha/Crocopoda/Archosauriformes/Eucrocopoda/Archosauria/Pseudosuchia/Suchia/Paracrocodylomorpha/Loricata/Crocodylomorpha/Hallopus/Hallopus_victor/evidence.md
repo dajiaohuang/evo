@@ -9,7 +9,6 @@ records:
     name:
       zh: Hallopus victor
       en: Hallopus victor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

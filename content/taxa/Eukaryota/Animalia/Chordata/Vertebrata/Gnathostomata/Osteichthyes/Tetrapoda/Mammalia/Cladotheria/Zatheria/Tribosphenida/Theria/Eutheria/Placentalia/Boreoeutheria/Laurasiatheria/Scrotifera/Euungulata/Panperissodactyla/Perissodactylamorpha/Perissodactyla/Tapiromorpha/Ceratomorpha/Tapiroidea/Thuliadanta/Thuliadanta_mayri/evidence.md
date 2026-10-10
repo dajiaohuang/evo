@@ -9,7 +9,6 @@ records:
     name:
       zh: Thuliadanta mayri
       en: Thuliadanta mayri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthiza ewingii
       en: Acanthiza ewingii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

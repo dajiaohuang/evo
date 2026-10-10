@@ -30,7 +30,7 @@ carr2021
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked cranial-morphology study guide, not externally expert-reviewed. Results are bounded by the adult specimens and measurement design; they should not be treated as a field identification result validated for every age class.
+Source-linked cranial-morphology study guide. Results are bounded by the adult specimens and measurement design; they should not be treated as a field identification result validated for every age class.
 <!-- /evo:text -->
 
 ## Name and this data account

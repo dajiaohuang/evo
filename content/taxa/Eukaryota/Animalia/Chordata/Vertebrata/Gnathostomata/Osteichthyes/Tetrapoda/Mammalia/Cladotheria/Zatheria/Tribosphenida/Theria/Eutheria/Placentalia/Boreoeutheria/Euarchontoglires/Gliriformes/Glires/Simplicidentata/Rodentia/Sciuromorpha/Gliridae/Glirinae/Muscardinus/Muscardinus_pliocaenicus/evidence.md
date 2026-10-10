@@ -9,7 +9,6 @@ records:
     name:
       zh: Muscardinus pliocaenicus
       en: Muscardinus pliocaenicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

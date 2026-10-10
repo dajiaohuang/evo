@@ -9,7 +9,6 @@ records:
     name:
       zh: Carlia pulla
       en: Carlia pulla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

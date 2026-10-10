@@ -9,7 +9,6 @@ records:
     name:
       zh: Tympanocryptis macra
       en: Tympanocryptis macra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

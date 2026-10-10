@@ -9,7 +9,6 @@ records:
     name:
       zh: Paroaria capitata
       en: Paroaria capitata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphastosula aguierrei
       en: Ramphastosula aguierrei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

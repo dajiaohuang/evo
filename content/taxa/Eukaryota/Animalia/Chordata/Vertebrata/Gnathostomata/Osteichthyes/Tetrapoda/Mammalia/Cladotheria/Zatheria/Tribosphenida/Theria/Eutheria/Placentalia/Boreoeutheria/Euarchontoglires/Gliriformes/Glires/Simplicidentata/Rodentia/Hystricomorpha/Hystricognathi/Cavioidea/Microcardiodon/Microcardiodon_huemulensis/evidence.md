@@ -9,7 +9,6 @@ records:
     name:
       zh: Microcardiodon huemulensis
       en: Microcardiodon huemulensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

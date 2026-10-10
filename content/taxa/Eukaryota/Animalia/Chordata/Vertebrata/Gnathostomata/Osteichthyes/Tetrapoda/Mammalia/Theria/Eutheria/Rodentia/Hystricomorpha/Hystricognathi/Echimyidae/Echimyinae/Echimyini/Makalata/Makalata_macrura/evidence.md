@@ -9,7 +9,6 @@ records:
     name:
       zh: Makalata macrura
       en: Makalata macrura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

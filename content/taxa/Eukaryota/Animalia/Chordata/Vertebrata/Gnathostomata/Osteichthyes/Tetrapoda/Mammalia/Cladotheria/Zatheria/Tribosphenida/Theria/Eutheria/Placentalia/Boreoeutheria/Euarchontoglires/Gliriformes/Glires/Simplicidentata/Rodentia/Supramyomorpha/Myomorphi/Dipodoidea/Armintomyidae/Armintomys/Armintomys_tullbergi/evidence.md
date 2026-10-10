@@ -9,7 +9,6 @@ records:
     name:
       zh: Armintomys tullbergi
       en: Armintomys tullbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

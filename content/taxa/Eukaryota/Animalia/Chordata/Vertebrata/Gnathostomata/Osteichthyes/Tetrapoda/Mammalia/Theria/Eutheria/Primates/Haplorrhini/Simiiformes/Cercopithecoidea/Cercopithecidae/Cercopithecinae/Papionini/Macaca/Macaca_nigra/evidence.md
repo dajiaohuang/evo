@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑冠猕猴
       en: Celebes crested macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -703,10 +702,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Macaca nigra
@@ -960,5 +955,5 @@ The cited evidence does not provide a complete range, population assessment, or 
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Morphology, life history, evolution, fossils, and formal conservation assessment remain unassessed; no systematic literature search or independent expert review was completed.
+Morphology, life history, evolution, fossils, and formal conservation assessment remain unassessed;
 <!-- /evo:text -->

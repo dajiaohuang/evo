@@ -9,7 +9,6 @@ records:
     name:
       zh: Aleodon brachyrhamphus
       en: Aleodon brachyrhamphus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

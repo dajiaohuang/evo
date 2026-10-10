@@ -9,7 +9,6 @@ records:
     name:
       zh: Enhydriodon dikikae
       en: Enhydriodon dikikae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

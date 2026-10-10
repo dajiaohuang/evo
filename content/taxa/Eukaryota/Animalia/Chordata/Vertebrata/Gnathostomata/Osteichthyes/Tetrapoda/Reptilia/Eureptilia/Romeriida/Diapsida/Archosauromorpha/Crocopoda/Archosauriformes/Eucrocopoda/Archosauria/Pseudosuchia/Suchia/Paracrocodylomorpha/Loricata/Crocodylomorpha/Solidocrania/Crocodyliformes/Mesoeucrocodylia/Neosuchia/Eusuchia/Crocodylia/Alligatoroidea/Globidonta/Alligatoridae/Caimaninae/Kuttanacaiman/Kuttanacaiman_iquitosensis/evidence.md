@@ -9,7 +9,6 @@ records:
     name:
       zh: Kuttanacaiman iquitosensis
       en: Kuttanacaiman iquitosensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Suniodon catamarcensis
       en: Suniodon catamarcensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

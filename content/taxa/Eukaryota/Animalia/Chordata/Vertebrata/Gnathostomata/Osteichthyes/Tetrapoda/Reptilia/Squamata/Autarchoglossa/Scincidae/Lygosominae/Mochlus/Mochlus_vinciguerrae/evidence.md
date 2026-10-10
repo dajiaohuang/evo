@@ -9,7 +9,6 @@ records:
     name:
       zh: Mochlus vinciguerrae
       en: Mochlus vinciguerrae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

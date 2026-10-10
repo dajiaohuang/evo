@@ -9,7 +9,6 @@ records:
     name:
       zh: Delorhynchus cifellii
       en: Delorhynchus cifellii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

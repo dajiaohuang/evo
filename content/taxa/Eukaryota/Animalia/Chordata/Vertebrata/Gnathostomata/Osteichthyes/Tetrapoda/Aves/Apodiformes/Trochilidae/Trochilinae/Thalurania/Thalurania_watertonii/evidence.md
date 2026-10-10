@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalurania watertonii
       en: Thalurania watertonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

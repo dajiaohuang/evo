@@ -9,7 +9,6 @@ records:
     name:
       zh: Coringasuchus anisodontis
       en: Coringasuchus anisodontis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Dasypops schirchi
       zh: Dasypops schirchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

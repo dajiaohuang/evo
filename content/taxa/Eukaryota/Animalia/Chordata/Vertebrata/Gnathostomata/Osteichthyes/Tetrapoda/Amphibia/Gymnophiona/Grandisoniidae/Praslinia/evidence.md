@@ -9,7 +9,6 @@ records:
     name:
       en: Praslinia
       zh: Praslinia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

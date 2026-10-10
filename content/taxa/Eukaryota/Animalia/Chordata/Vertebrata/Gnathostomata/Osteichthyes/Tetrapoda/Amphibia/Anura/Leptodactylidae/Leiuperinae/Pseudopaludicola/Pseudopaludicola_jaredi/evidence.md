@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudopaludicola jaredi
       zh: Pseudopaludicola jaredi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

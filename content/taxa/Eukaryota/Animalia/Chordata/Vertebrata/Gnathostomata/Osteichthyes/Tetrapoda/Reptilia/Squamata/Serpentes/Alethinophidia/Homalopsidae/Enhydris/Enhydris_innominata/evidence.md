@@ -9,7 +9,6 @@ records:
     name:
       zh: Enhydris innominata
       en: Enhydris innominata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

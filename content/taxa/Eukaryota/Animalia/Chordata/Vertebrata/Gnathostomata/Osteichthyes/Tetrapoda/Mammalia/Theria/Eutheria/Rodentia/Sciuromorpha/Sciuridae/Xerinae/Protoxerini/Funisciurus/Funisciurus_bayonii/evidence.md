@@ -9,7 +9,6 @@ records:
     name:
       zh: Funisciurus bayonii
       en: Funisciurus bayonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

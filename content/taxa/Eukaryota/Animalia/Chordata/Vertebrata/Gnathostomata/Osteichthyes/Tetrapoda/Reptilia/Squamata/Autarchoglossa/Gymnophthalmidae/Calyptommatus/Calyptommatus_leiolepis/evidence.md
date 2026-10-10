@@ -9,7 +9,6 @@ records:
     name:
       zh: Calyptommatus leiolepis
       en: Calyptommatus leiolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

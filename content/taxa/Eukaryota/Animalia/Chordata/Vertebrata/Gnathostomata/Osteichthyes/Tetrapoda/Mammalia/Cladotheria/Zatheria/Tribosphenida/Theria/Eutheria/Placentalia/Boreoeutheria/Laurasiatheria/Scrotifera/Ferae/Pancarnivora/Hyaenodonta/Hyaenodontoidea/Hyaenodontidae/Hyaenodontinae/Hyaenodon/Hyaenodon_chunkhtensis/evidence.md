@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyaenodon chunkhtensis
       en: Hyaenodon chunkhtensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena kraoh
       en: Amphisbaena kraoh
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

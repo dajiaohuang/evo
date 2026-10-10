@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudobolodon oreas
       en: Pseudobolodon oreas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

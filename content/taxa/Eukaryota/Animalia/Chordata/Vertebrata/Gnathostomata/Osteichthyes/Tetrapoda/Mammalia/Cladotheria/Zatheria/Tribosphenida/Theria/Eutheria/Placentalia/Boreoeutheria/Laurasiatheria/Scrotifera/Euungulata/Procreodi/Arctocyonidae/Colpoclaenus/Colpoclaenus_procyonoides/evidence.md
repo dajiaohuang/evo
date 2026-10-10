@@ -9,7 +9,6 @@ records:
     name:
       zh: Colpoclaenus procyonoides
       en: Colpoclaenus procyonoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

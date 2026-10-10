@@ -9,7 +9,6 @@ records:
     name:
       zh: Threskiornis aethiopicus
       en: Threskiornis aethiopicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

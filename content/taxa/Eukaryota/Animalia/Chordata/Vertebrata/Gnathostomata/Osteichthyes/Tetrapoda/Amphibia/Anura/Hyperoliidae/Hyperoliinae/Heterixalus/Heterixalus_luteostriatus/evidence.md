@@ -9,7 +9,6 @@ records:
     name:
       en: Heterixalus luteostriatus
       zh: Heterixalus luteostriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -202,10 +202,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
     classificationPath:
       - id: CS5HF
         scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
@@ -286,7 +282,6 @@ records:
     name:
       en: Rana temporaria
       zh: Rana temporaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -1891,7 +1886,7 @@ Five facets remain not assessed; the study does not provide global or species-wi
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No multi-source species review or independent external expert review has been completed.
+No multi-source species search has been completed.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / title

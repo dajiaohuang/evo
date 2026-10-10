@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus woodi
       en: Sceloporus woodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

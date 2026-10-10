@@ -9,7 +9,6 @@ records:
     name:
       zh: Kuszholia mengi
       en: Kuszholia mengi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

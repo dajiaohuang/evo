@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus subgularis
       en: Ptilinopus subgularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

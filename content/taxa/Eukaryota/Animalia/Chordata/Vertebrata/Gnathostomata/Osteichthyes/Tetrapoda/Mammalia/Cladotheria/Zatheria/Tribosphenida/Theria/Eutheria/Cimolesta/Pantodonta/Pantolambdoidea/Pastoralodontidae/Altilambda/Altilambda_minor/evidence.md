@@ -9,7 +9,6 @@ records:
     name:
       zh: Altilambda minor
       en: Altilambda minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

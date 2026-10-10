@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus hainanus
       zh: Kurixalus hainanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis praemortuus
       zh: Pristimantis praemortuus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

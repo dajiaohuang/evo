@@ -9,7 +9,6 @@ records:
     name:
       zh: Megapaloelodus connectens
       en: Megapaloelodus connectens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

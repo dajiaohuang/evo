@@ -133,9 +133,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Burgess et al. 2014 DOI 10.1073/pnas.1317692111
       referenceLinks:
         - relation: supports
           referenceId: burgess-2014-end-permian

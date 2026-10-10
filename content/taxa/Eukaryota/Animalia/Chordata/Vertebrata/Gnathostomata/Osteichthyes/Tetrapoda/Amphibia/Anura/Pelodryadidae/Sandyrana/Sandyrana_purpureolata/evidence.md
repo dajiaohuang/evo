@@ -9,7 +9,6 @@ records:
     name:
       en: Sandyrana purpureolata
       zh: Sandyrana purpureolata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

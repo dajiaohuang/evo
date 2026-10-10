@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-这项单一景观估算来自当地意见汇集，并非全物种直接普查；它不提供当前种群数量或完整生态综述。本页尚未经过外部领域专家评审。
+这项单一景观估算来自当地意见汇集，并非全物种直接普查；它不提供当前种群数量或完整生态综述。。
 <!-- /evo:text -->

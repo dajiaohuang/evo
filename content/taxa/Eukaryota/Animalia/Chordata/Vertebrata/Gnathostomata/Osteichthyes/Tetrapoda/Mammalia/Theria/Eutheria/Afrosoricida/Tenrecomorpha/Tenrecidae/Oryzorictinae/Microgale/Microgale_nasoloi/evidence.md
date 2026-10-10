@@ -9,7 +9,6 @@ records:
     name:
       zh: Microgale nasoloi
       en: Microgale nasoloi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

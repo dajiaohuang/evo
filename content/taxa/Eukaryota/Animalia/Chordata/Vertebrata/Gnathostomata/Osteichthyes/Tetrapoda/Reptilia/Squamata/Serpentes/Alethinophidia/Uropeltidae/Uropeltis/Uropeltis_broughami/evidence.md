@@ -9,7 +9,6 @@ records:
     name:
       zh: Uropeltis broughami
       en: Uropeltis broughami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

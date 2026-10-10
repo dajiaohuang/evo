@@ -9,7 +9,6 @@ records:
     name:
       zh: Lampropeltis similis
       en: Lampropeltis similis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

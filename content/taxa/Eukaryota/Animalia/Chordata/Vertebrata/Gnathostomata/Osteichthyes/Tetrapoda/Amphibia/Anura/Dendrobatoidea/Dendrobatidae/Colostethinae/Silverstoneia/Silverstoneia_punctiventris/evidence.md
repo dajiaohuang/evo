@@ -9,7 +9,6 @@ records:
     name:
       en: Silverstoneia punctiventris
       zh: Silverstoneia punctiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

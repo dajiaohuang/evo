@@ -9,7 +9,6 @@ records:
     name:
       zh: Tragulus versicolor
       en: Tragulus versicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

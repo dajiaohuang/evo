@@ -9,7 +9,6 @@ records:
     name:
       zh: Synallaxis spixi
       en: Synallaxis spixi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

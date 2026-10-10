@@ -9,7 +9,6 @@ records:
     name:
       zh: Anathitus
       en: Anathitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

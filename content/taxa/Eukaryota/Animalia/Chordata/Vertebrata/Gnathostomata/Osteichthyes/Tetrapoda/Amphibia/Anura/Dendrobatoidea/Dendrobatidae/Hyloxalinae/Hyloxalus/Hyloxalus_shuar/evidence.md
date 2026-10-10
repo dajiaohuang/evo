@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus shuar
       zh: Hyloxalus shuar
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

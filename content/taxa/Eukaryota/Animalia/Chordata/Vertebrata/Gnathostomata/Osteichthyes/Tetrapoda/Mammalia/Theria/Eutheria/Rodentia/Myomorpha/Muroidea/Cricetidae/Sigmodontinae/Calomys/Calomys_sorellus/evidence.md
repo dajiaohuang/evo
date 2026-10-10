@@ -9,7 +9,6 @@ records:
     name:
       zh: Calomys sorellus
       en: Calomys sorellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

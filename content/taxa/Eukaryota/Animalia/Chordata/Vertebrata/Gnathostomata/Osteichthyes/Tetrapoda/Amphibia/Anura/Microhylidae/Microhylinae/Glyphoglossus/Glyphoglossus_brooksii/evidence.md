@@ -9,7 +9,6 @@ records:
     name:
       en: Glyphoglossus brooksii
       zh: Glyphoglossus brooksii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

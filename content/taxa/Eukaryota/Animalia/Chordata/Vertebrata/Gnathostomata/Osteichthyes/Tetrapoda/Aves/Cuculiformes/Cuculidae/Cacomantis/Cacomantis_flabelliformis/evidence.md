@@ -9,7 +9,6 @@ records:
     name:
       zh: Cacomantis flabelliformis
       en: Cacomantis flabelliformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

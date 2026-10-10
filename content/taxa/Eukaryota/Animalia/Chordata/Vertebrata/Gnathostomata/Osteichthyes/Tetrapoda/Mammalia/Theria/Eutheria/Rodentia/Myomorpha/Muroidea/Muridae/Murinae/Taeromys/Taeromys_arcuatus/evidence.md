@@ -9,7 +9,6 @@ records:
     name:
       zh: Taeromys arcuatus
       en: Taeromys arcuatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

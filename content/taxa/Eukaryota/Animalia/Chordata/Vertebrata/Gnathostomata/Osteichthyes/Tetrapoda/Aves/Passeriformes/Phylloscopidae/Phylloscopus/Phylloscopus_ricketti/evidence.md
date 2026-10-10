@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus ricketti
       en: Phylloscopus ricketti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

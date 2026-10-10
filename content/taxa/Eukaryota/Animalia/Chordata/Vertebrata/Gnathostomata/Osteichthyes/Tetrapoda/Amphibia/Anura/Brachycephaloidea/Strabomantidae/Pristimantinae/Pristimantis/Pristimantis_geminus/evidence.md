@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis geminus
       zh: Pristimantis geminus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Microchoerus erinaceus
       en: Microchoerus erinaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

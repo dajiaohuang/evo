@@ -9,7 +9,6 @@ records:
     name:
       zh: Gongshuilong fanwei
       en: Gongshuilong fanwei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

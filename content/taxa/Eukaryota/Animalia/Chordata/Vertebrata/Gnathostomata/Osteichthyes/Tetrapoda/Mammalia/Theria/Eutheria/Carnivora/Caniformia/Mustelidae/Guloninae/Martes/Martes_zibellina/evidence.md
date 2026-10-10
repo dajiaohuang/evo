@@ -9,7 +9,6 @@ records:
     name:
       zh: Martes zibellina
       en: Martes zibellina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

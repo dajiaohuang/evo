@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina fuscigula
       zh: Xenorhina fuscigula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Grallistrix erdmani
       en: Grallistrix erdmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

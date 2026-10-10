@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus hermogenesi
       zh: Brachycephalus hermogenesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

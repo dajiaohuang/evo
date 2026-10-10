@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis anemerus
       zh: Pristimantis anemerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

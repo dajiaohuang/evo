@@ -9,7 +9,6 @@ records:
     name:
       zh: Philothamnus girardi
       en: Philothamnus girardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

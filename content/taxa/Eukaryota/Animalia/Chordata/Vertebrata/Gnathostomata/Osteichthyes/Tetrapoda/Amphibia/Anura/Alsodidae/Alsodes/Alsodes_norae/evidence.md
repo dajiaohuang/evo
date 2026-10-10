@@ -9,7 +9,6 @@ records:
     name:
       en: Alsodes norae
       zh: Alsodes norae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

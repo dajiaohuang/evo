@@ -9,7 +9,6 @@ records:
     name:
       zh: Bavayia goroensis
       en: Bavayia goroensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

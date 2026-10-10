@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: murphy-2001-placental-bayesian concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: murphy-2001-placental-bayesian
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: murphy-2001-placental-bayesian
           locator: 2348–2351; Figures 1–2
-      reviewStatus: automated-audit-passed
 ---
 
 # Afrotheria

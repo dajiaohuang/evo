@@ -9,7 +9,6 @@ records:
     name:
       zh: Gastonia burgei
       en: Gastonia burgei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

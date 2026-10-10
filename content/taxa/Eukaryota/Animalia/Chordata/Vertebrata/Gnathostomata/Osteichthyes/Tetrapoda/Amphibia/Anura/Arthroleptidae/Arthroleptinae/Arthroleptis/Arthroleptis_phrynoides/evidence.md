@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptis phrynoides
       zh: Arthroleptis phrynoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

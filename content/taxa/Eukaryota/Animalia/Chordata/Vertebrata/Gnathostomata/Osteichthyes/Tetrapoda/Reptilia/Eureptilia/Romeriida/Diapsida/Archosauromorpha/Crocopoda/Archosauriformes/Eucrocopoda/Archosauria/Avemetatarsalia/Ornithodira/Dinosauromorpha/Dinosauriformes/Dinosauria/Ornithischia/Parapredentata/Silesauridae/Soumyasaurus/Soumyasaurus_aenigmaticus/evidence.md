@@ -9,7 +9,6 @@ records:
     name:
       zh: Soumyasaurus aenigmaticus
       en: Soumyasaurus aenigmaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

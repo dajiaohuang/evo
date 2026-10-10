@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis imitatrix
       zh: Pristimantis imitatrix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

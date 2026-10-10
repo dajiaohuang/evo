@@ -9,7 +9,6 @@ records:
     name:
       zh: Rena segrega
       en: Rena segrega
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -10,7 +10,6 @@ records:
     name:
       en: Mirza genus guide
       zh: 巨鼠狐猴属导读
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

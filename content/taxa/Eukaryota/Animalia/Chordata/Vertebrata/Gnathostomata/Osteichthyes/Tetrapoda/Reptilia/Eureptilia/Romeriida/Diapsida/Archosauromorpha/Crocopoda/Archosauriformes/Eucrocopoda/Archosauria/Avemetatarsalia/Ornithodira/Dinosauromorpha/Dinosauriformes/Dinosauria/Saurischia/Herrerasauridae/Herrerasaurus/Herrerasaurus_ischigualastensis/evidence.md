@@ -9,7 +9,6 @@ records:
     name:
       zh: Herrerasaurus ischigualastensis
       en: Herrerasaurus ischigualastensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko gigante
       en: Gekko gigante
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

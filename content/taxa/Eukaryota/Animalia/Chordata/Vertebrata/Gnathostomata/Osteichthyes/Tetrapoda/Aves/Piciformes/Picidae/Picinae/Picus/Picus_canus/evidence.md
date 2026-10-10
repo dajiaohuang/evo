@@ -9,7 +9,6 @@ records:
     name:
       zh: Picus canus
       en: Picus canus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

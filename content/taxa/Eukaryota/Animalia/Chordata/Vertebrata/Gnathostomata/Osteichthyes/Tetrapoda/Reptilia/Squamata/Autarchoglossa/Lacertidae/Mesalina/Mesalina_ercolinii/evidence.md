@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesalina ercolinii
       en: Mesalina ercolinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

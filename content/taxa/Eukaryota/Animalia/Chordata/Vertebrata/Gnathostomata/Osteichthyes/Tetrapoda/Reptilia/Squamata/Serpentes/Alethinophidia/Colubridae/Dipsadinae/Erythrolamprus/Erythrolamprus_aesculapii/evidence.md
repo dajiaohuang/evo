@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus aesculapii
       en: Erythrolamprus aesculapii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

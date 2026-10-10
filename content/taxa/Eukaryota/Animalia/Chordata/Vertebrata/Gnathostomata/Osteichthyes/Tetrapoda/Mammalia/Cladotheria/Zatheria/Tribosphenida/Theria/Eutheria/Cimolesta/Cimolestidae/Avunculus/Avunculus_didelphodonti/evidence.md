@@ -9,7 +9,6 @@ records:
     name:
       zh: Avunculus didelphodonti
       en: Avunculus didelphodonti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

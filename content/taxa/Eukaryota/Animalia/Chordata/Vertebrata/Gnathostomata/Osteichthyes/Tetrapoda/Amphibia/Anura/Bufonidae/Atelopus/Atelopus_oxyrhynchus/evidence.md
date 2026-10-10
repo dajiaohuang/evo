@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus oxyrhynchus
       zh: Atelopus oxyrhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

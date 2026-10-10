@@ -9,7 +9,6 @@ records:
     name:
       zh: Embernagra platensis
       en: Embernagra platensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

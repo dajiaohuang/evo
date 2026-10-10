@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptoreodon (Hesperomeryx) edwardsi
       en: Leptoreodon (Hesperomeryx) edwardsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

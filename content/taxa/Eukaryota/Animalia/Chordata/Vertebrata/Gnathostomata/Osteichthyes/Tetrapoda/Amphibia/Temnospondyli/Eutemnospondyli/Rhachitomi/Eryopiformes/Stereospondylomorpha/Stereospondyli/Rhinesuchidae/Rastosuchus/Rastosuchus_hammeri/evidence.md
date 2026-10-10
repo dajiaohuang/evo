@@ -9,7 +9,6 @@ records:
     name:
       en: Rastosuchus hammeri
       zh: Rastosuchus hammeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: taxonomy
@@ -176,11 +175,11 @@ E. V. Dias, S. Dias-da-Silva, and C. L. Schultz. 2020. A new short-snouted rhine
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/en -->
-A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed; no external expert review is claimed.
+A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
 <!-- /evo:text -->
 
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/zh -->
-本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对；没有外部专家审评。
+本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
 <!-- /evo:text -->

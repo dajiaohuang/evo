@@ -9,7 +9,6 @@ records:
     name:
       zh: Tryphomys adustus
       en: Tryphomys adustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

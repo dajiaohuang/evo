@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynocephalus golubewii
       en: Phrynocephalus golubewii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

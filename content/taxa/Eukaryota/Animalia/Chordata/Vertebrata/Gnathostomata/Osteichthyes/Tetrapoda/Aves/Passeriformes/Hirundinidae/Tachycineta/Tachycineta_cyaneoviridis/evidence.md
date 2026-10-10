@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachycineta cyaneoviridis
       en: Tachycineta cyaneoviridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

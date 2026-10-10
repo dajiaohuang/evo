@@ -9,7 +9,6 @@ records:
     name:
       zh: Ahytherium aureum
       en: Ahytherium aureum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

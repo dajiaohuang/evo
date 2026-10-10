@@ -9,7 +9,6 @@ records:
     name:
       zh: Acherontisuchus
       en: Acherontisuchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

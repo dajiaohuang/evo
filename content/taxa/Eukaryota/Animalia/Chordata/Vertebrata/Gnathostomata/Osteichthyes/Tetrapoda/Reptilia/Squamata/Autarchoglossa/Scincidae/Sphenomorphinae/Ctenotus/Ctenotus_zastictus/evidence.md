@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus zastictus
       en: Ctenotus zastictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremias scripta
       en: Eremias scripta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

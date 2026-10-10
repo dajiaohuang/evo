@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperornis lumgairi
       en: Hesperornis lumgairi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

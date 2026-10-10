@@ -9,7 +9,6 @@ records:
     name:
       en: Heterixalus boettgeri
       zh: Heterixalus boettgeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

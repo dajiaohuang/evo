@@ -9,7 +9,6 @@ records:
     name:
       zh: Cuora trifasciata
       en: Cuora trifasciata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

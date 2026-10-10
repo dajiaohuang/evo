@@ -9,7 +9,6 @@ records:
     name:
       zh: Himantopus mexicanus
       en: Himantopus mexicanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

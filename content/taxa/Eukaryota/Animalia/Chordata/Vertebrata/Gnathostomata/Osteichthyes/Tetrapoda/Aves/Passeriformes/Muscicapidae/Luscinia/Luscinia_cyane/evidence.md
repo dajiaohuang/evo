@@ -9,7 +9,6 @@ records:
     name:
       zh: Luscinia cyane
       en: Luscinia cyane
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

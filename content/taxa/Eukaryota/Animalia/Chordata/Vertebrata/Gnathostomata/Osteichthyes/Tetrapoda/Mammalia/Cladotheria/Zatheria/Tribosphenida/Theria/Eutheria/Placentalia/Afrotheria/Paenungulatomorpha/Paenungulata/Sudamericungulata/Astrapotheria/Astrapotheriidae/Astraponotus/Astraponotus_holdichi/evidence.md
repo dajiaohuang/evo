@@ -9,7 +9,6 @@ records:
     name:
       zh: Astraponotus holdichi
       en: Astraponotus holdichi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

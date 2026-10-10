@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylodon mertensi
       zh: Leptodactylodon mertensi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracontias tsararano
       en: Paracontias tsararano
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

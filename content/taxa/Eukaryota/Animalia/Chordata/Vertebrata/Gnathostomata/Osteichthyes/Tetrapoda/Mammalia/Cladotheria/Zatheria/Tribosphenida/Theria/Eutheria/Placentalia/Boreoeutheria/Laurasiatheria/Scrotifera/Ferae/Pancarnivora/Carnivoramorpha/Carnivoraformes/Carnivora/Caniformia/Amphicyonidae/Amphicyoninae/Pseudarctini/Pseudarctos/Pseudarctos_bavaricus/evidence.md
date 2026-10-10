@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudarctos bavaricus
       en: Pseudarctos bavaricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

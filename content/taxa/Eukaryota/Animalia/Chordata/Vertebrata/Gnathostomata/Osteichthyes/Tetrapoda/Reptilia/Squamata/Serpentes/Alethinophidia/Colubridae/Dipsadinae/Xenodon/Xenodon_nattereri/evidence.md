@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenodon nattereri
       en: Xenodon nattereri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

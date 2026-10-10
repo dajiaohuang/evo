@@ -9,7 +9,6 @@ records:
     name:
       zh: Harpactes oreskios
       en: Harpactes oreskios
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

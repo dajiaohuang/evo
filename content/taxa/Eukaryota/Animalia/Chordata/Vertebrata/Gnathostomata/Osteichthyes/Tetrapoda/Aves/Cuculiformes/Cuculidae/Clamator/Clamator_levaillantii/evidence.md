@@ -9,7 +9,6 @@ records:
     name:
       zh: Clamator levaillantii
       en: Clamator levaillantii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

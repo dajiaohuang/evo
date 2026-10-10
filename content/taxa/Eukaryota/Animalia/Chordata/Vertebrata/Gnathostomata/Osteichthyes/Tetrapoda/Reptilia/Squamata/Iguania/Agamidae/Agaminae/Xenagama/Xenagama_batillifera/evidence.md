@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenagama batillifera
       en: Xenagama batillifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

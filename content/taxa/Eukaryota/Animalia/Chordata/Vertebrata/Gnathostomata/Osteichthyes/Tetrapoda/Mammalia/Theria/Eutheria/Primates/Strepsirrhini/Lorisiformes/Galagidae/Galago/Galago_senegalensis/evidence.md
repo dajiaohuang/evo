@@ -9,7 +9,6 @@ records:
     name:
       zh: 北方小婴猴
       en: Northern lesser galago
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

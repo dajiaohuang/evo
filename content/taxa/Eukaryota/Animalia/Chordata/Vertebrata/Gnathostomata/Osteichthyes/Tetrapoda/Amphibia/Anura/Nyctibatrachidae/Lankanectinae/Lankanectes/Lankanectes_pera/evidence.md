@@ -9,7 +9,6 @@ records:
     name:
       en: Lankanectes pera
       zh: Lankanectes pera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

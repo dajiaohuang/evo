@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeotherium muehlbergi
       en: Palaeotherium muehlbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

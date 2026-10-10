@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus richardsii
       en: Ptilinopus richardsii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

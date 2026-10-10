@@ -9,7 +9,6 @@ records:
     name:
       en: Epipedobates narinensis
       zh: Epipedobates narinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

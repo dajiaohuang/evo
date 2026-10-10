@@ -9,7 +9,6 @@ records:
     name:
       zh: Globicephala macrorhynchus
       en: Globicephala macrorhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

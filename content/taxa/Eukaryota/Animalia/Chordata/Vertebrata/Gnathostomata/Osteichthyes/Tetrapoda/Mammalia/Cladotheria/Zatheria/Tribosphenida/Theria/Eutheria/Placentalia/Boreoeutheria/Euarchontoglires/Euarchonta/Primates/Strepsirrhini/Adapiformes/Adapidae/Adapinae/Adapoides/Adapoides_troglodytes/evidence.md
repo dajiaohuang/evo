@@ -9,7 +9,6 @@ records:
     name:
       zh: Adapoides troglodytes
       en: Adapoides troglodytes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

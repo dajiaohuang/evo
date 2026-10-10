@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: degrange-2015-phorusrhacid-phylogeny concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: degrange-2015-phorusrhacid-phylogeny
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: degrange-2015-phorusrhacid-phylogeny @ DOI 10.1080/02724634.2014.912656
       referenceLinks:
         - relation: supports
           referenceId: degrange-2015-phorusrhacid-phylogeny
@@ -96,7 +90,6 @@ records:
           locator: 35(2):e912656; Systematic paleontology; specimen description; phylogenetic analysis; sensory discussion
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

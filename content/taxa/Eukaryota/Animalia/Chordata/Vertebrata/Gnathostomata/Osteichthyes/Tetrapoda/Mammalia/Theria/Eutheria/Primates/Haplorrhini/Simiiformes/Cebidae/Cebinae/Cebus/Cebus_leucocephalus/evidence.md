@@ -9,7 +9,6 @@ records:
     name:
       zh: 佩里哈白额卷尾猴
       en: Cebus leucocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: sampleProvenance

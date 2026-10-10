@@ -9,7 +9,6 @@ records:
     name:
       zh: Goniopholis kiplingi
       en: Goniopholis kiplingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

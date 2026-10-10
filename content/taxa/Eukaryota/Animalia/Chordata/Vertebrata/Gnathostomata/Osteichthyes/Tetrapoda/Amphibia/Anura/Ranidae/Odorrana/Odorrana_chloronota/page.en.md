@@ -254,7 +254,7 @@ The survey found specimens on the main road at 22:00, with evergreen forest arou
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial study-scoped biological reader. Remaining biological facets require further evidence. Not externally expert-reviewed.
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

@@ -9,7 +9,6 @@ records:
     name:
       zh: Goupilictis minor
       en: Goupilictis minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

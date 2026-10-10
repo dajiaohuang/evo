@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynosoma solare
       en: Phrynosoma solare
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

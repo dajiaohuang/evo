@@ -9,7 +9,6 @@ records:
     name:
       zh: Spalacotherium henkeli
       en: Spalacotherium henkeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

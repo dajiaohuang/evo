@@ -96,9 +96,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Gomez et al. 2015 DOI 10.1073/pnas.1509241112
       referenceLinks:
         - relation: supports
           referenceId: gomez-2015-montsechia

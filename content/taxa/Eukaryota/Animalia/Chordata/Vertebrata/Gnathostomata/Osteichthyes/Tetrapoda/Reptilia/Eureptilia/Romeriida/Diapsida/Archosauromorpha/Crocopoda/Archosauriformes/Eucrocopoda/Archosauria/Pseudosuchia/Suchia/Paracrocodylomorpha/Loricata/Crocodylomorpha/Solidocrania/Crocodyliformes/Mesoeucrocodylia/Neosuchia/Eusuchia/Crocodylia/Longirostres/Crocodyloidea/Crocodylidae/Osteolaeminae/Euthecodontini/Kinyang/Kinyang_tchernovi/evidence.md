@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinyang tchernovi
       en: Kinyang tchernovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

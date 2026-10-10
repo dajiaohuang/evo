@@ -9,7 +9,6 @@ records:
     name:
       zh: Grammomys caniceps
       en: Grammomys caniceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Oreolalax
       zh: Oreolalax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

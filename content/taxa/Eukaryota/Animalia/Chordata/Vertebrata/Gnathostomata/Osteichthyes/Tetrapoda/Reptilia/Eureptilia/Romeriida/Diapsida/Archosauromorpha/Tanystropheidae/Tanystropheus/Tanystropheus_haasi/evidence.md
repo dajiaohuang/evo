@@ -9,7 +9,6 @@ records:
     name:
       zh: Tanystropheus haasi
       en: Tanystropheus haasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

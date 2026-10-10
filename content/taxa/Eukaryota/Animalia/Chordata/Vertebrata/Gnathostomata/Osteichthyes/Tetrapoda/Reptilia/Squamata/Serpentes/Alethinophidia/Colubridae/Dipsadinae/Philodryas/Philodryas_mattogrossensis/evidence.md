@@ -9,7 +9,6 @@ records:
     name:
       zh: Philodryas mattogrossensis
       en: Philodryas mattogrossensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

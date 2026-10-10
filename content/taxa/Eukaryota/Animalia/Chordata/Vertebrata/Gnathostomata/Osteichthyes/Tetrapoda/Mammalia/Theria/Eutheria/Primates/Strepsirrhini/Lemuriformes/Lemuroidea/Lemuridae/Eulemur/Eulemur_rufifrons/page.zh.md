@@ -16,5 +16,5 @@ Pyritz、Kappeler 与 Fichtel 在 Kirindy 对四个红额狐猴群体进行了 2
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-有来源的局地移动研究导读，尚未经过外部领域专家评审。Kirindy 四个群体的结果不能确立全种社会规律或完整分布。
+有来源的局地移动研究导读。Kirindy 四个群体的结果不能确立全种社会规律或完整分布。
 <!-- /evo:text -->

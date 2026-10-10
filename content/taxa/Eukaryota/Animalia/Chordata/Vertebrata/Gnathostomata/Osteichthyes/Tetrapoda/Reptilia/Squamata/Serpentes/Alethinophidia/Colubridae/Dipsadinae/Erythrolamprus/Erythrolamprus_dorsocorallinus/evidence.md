@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus dorsocorallinus
       en: Erythrolamprus dorsocorallinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

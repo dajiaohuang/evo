@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphinectomys savamis
       en: Amphinectomys savamis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

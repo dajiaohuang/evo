@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutrachelophis papilio
       en: Eutrachelophis papilio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

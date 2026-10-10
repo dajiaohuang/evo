@@ -9,7 +9,6 @@ records:
     name:
       en: Cyclorana alboguttata
       zh: Cyclorana alboguttata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

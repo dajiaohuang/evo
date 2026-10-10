@@ -9,7 +9,6 @@ records:
     name:
       zh: Abrothrix hershkovitzi
       en: Abrothrix hershkovitzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

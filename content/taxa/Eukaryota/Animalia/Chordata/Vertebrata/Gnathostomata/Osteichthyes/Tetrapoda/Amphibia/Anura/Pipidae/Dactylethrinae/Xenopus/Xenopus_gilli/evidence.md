@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus gilli
       zh: Xenopus gilli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

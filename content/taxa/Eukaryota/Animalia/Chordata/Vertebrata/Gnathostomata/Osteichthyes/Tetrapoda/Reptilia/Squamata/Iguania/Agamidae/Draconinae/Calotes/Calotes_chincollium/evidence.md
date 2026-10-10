@@ -9,7 +9,6 @@ records:
     name:
       zh: Calotes chincollium
       en: Calotes chincollium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

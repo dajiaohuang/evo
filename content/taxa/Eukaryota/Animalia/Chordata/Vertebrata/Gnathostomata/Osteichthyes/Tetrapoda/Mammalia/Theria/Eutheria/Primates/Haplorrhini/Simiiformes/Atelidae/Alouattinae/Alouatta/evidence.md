@@ -9,7 +9,6 @@ records:
     name:
       zh: 吼猴属
       en: Howler monkeys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

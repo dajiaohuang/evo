@@ -9,7 +9,6 @@ records:
     name:
       en: Philautus tytthus
       zh: Philautus tytthus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Thylacotinga bartholomaii
       en: Thylacotinga bartholomaii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

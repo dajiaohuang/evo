@@ -9,7 +9,6 @@ records:
     name:
       zh: Arvicanthis niloticus
       en: Arvicanthis niloticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

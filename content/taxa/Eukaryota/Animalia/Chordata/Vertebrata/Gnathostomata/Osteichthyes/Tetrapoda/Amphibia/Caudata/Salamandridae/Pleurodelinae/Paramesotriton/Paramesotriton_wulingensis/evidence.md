@@ -9,7 +9,6 @@ records:
     name:
       en: Paramesotriton wulingensis
       zh: Paramesotriton wulingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

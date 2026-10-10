@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus tuberculatus
       en: Pteropus tuberculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

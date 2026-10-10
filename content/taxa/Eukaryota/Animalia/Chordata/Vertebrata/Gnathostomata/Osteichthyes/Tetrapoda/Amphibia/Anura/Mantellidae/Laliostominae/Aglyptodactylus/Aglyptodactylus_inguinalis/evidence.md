@@ -9,7 +9,6 @@ records:
     name:
       en: Aglyptodactylus inguinalis
       zh: Aglyptodactylus inguinalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

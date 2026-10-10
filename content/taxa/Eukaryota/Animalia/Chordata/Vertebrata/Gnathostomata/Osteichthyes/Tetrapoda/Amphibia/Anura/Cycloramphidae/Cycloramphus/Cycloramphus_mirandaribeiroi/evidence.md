@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus mirandaribeiroi
       zh: Cycloramphus mirandaribeiroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

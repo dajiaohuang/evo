@@ -9,7 +9,6 @@ records:
     name:
       zh: Haplomylus scottianus
       en: Haplomylus scottianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

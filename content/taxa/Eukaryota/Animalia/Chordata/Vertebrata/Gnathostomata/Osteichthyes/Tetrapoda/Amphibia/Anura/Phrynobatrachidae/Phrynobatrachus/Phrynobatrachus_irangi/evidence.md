@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus irangi
       zh: Phrynobatrachus irangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

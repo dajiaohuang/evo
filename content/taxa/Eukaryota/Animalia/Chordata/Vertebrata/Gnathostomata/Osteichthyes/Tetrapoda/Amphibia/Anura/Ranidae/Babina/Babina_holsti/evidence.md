@@ -9,7 +9,6 @@ records:
     name:
       en: Babina holsti
       zh: Babina holsti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Ceratobatrachidae
       zh: Ceratobatrachidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

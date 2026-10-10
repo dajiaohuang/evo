@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalicotherium rusingense
       en: Chalicotherium rusingense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

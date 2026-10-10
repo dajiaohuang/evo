@@ -9,7 +9,6 @@ records:
     name:
       zh: Hebius celebicus
       en: Hebius celebicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

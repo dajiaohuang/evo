@@ -9,7 +9,6 @@ records:
     name:
       zh: Philochortus phillipsi
       en: Philochortus phillipsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

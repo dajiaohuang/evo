@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyceps saharicus
       en: Platyceps saharicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

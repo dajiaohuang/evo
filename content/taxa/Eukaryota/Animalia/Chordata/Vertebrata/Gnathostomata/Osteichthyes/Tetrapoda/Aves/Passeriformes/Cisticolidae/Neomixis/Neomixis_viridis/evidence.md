@@ -9,7 +9,6 @@ records:
     name:
       zh: Neomixis viridis
       en: Neomixis viridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

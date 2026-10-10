@@ -9,7 +9,6 @@ records:
     name:
       zh: Impregnochelys pachytectis
       en: Impregnochelys pachytectis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

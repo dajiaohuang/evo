@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelonoidis denticulatus
       en: Chelonoidis denticulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

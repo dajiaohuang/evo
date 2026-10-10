@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis chanthaburiensis
       en: Cnemaspis chanthaburiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

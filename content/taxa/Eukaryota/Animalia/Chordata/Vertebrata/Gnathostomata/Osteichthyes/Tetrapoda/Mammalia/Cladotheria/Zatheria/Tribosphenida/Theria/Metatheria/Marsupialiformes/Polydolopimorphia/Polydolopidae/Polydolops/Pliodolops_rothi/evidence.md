@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliodolops rothi
       en: Pliodolops rothi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

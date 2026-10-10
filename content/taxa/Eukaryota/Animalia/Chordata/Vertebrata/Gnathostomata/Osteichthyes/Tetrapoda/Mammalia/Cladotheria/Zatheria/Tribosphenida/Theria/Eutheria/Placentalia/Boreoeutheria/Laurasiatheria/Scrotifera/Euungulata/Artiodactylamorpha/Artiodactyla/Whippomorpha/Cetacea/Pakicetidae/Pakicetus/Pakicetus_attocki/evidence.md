@@ -9,7 +9,6 @@ records:
     name:
       zh: Pakicetus attocki
       en: Pakicetus attocki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

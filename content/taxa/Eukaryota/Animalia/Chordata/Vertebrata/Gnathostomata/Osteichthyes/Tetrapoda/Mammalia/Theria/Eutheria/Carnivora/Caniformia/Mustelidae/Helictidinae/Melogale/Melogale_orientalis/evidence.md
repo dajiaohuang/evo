@@ -9,7 +9,6 @@ records:
     name:
       zh: Melogale orientalis
       en: Melogale orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

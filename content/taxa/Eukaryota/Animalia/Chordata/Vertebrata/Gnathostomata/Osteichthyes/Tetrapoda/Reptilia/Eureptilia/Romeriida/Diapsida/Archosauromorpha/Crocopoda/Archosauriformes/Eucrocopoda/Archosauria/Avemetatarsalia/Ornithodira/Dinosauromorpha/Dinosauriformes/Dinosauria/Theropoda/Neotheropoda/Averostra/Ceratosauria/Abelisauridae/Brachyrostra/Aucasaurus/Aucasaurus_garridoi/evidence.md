@@ -9,7 +9,6 @@ records:
     name:
       zh: Aucasaurus garridoi
       en: Aucasaurus garridoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

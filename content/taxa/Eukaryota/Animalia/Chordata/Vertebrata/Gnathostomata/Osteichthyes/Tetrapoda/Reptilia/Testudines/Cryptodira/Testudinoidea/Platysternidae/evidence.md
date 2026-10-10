@@ -9,7 +9,6 @@ records:
     name:
       zh: Platysternidae
       en: Platysternidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

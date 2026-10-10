@@ -9,7 +9,6 @@ records:
     name:
       zh: Pandion lovensis
       en: Pandion lovensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

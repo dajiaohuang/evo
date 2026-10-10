@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea tlilicxitl
       zh: Pseudoeurycea tlilicxitl
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

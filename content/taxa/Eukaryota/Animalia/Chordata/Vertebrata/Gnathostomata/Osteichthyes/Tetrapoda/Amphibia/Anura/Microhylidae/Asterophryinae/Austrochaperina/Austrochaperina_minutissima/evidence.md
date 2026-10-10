@@ -9,7 +9,6 @@ records:
     name:
       en: Austrochaperina minutissima
       zh: Austrochaperina minutissima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

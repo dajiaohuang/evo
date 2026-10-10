@@ -93,5 +93,5 @@ The Santana do Cariri database citation retains Kellner and Campos (2002), ref:2
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page adds the 2002 original-paper text, selected 2007 modelling methods and discussion, and selected author-uploaded 2018 redescription text. All figures, supplemental matrices, specimens and later revisions remain incomplete; flume, flight and phylogenetic analyses have not been rerun. Crest functions and feeding remain hypotheses, with older model material and geometry retained. Shared citations record access versions. Database counts, ages, parent chains and maturity states remain; complete biology and reader delivery are pending, without external expert review.
+This page adds the 2002 original-paper text, selected 2007 modelling methods and discussion, and selected author-uploaded 2018 redescription text. All figures, supplemental matrices, specimens and later revisions remain incomplete; flume, flight and phylogenetic analyses have not been rerun. Crest functions and feeding remain hypotheses, with older model material and geometry retained. Shared citations record access versions. Database counts, ages, parent chains and maturity states remain; complete biology and reader delivery are pending.
 <!-- /evo:text -->

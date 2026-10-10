@@ -9,7 +9,6 @@ records:
     name:
       zh: Trilepida anthracina
       en: Trilepida anthracina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

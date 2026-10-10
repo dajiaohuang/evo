@@ -9,7 +9,6 @@ records:
     name:
       zh: Sangusaurus edentatus
       en: Sangusaurus edentatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

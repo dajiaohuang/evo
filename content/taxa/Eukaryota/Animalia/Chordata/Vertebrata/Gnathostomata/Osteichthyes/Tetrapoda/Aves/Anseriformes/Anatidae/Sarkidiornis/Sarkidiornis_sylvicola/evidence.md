@@ -9,7 +9,6 @@ records:
     name:
       zh: Sarkidiornis sylvicola
       en: Sarkidiornis sylvicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

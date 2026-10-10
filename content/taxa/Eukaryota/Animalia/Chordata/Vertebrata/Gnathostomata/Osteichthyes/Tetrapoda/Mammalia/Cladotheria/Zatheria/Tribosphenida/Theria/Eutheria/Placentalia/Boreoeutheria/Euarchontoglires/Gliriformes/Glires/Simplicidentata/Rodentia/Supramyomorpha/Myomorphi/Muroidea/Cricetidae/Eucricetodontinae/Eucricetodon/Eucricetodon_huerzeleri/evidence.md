@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucricetodon huerzeleri
       en: Eucricetodon huerzeleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

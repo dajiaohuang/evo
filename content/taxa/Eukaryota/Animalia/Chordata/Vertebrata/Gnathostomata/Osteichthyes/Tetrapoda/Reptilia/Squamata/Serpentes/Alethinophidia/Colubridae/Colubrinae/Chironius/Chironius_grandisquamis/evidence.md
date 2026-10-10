@@ -9,7 +9,6 @@ records:
     name:
       zh: Chironius grandisquamis
       en: Chironius grandisquamis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

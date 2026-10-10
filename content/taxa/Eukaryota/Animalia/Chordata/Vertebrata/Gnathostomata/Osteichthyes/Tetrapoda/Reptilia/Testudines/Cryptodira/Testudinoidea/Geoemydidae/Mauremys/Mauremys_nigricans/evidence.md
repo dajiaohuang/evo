@@ -9,7 +9,6 @@ records:
     name:
       zh: Mauremys nigricans
       en: Mauremys nigricans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

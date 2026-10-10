@@ -9,7 +9,6 @@ records:
     name:
       zh: Catodontherium buxgovianum
       en: Catodontherium buxgovianum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

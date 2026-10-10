@@ -16,5 +16,5 @@ A 2021 survey of the transboundary forest block spanning Cao Vit Gibbon Species 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. This is a population estimate for one transboundary remnant forest block that excludes an unknown number of solitary dispersers; it is not a census of all former or possible sites.
+Source-linked introduction;. This is a population estimate for one transboundary remnant forest block that excludes an unknown number of solitary dispersers; it is not a census of all former or possible sites.
 <!-- /evo:text -->

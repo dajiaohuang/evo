@@ -9,7 +9,6 @@ records:
     name:
       zh: Plectrurus guentheri
       en: Plectrurus guentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

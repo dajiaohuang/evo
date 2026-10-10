@@ -9,7 +9,6 @@ records:
     name:
       zh: Chloris aurelioi
       en: Chloris aurelioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

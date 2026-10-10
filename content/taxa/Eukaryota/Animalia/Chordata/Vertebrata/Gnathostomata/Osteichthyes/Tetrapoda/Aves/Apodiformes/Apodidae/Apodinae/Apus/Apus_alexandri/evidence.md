@@ -9,7 +9,6 @@ records:
     name:
       zh: Apus alexandri
       en: Apus alexandri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

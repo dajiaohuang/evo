@@ -9,7 +9,6 @@ records:
     name:
       zh: Bonatitan reigi
       en: Bonatitan reigi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

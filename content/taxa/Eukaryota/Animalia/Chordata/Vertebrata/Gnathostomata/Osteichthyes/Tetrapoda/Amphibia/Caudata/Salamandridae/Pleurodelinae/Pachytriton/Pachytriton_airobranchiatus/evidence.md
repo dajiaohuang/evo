@@ -9,7 +9,6 @@ records:
     name:
       en: Pachytriton airobranchiatus
       zh: Pachytriton airobranchiatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

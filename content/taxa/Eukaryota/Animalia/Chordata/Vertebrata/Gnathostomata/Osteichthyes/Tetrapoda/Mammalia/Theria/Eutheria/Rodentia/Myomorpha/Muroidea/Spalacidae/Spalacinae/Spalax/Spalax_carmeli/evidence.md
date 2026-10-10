@@ -9,7 +9,6 @@ records:
     name:
       zh: Spalax carmeli
       en: Spalax carmeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

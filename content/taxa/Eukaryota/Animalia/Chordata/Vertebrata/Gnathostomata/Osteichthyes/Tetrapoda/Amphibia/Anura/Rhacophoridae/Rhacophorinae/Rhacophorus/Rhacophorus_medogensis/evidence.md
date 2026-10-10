@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus medogensis
       zh: Rhacophorus medogensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

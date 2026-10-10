@@ -9,7 +9,6 @@ records:
     name:
       zh: Lamprotornis shelleyi
       en: Lamprotornis shelleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

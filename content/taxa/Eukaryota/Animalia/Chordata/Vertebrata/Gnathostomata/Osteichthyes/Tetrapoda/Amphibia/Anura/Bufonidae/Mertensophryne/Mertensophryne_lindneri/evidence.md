@@ -9,7 +9,6 @@ records:
     name:
       en: Mertensophryne lindneri
       zh: Mertensophryne lindneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

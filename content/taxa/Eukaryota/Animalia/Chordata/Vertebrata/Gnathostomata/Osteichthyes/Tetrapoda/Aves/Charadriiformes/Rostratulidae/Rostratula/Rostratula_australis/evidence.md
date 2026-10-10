@@ -9,7 +9,6 @@ records:
     name:
       zh: Rostratula australis
       en: Rostratula australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

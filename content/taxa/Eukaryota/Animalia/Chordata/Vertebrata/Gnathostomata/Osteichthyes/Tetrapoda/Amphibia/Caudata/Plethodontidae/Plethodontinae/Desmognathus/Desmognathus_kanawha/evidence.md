@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus kanawha
       zh: Desmognathus kanawha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

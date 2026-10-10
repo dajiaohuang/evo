@@ -9,7 +9,6 @@ records:
     name:
       zh: Megabradys
       en: Megabradys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Shuotherium shilongi
       en: Shuotherium shilongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ixalotriton parvus
       zh: Ixalotriton parvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

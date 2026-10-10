@@ -9,7 +9,6 @@ records:
     name:
       zh: Coluber planicarinatus
       en: Coluber planicarinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

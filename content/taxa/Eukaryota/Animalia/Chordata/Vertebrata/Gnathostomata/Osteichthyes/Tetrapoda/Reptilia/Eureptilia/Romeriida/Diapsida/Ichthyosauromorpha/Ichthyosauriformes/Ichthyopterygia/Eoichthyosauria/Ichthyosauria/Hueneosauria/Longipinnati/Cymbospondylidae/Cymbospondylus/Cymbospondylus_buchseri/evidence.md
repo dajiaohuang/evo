@@ -9,7 +9,6 @@ records:
     name:
       zh: Cymbospondylus buchseri
       en: Cymbospondylus buchseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

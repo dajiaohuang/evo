@@ -9,7 +9,6 @@ records:
     name:
       zh: Strix nivicolum
       en: Strix nivicolum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

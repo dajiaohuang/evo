@@ -58,11 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: rauhut-2018-oldest-archaeopteryx
           relation: supports
@@ -79,9 +74,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Rauhut et al. 2018 DOI 10.7717/peerj.4191
       referenceLinks:
         - referenceId: rauhut-2018-oldest-archaeopteryx
           relation: supports
@@ -98,9 +90,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Rauhut et al. 2018 DOI 10.7717/peerj.4191
       referenceLinks:
         - referenceId: rauhut-2018-oldest-archaeopteryx
           relation: supports
@@ -117,9 +106,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Rauhut et al. 2018 DOI 10.7717/peerj.4191
       referenceLinks:
         - referenceId: voeten-2018-archaeopteryx-flight
           relation: supports
@@ -137,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Rauhut et al. 2018 DOI 10.7717/peerj.4191
       referenceLinks:
         - referenceId: rauhut-2018-oldest-archaeopteryx
           relation: supports
@@ -195,7 +178,6 @@ records:
       referenceLocators:
         - referenceId: rauhut-2018-oldest-archaeopteryx
           locator: Geological setting; Systematic palaeontology; Figures 1–5; Table 1
-      reviewStatus: automated-audit-passed
 ---
 
 # Archaeopteryx

@@ -9,7 +9,6 @@ records:
     name:
       zh: Psephochelys polyosteoderma
       en: Psephochelys polyosteoderma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

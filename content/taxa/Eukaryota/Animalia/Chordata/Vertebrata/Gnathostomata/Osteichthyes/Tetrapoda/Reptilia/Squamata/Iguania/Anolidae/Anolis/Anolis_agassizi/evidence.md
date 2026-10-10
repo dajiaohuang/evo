@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis agassizi
       en: Anolis agassizi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

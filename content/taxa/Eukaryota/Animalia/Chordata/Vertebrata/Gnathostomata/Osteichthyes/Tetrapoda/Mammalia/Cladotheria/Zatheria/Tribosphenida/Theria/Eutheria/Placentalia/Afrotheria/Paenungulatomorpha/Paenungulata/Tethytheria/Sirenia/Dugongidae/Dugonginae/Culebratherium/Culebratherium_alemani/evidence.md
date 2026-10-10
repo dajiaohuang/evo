@@ -9,7 +9,6 @@ records:
     name:
       zh: Culebratherium alemani
       en: Culebratherium alemani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

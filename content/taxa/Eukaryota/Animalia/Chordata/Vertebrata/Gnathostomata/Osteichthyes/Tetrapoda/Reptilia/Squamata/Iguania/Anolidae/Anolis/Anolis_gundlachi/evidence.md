@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis gundlachi
       en: Anolis gundlachi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

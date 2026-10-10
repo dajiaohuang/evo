@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptyodactylus hasselquistii
       en: Ptyodactylus hasselquistii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

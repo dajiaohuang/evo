@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallotia auaritae
       en: Gallotia auaritae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

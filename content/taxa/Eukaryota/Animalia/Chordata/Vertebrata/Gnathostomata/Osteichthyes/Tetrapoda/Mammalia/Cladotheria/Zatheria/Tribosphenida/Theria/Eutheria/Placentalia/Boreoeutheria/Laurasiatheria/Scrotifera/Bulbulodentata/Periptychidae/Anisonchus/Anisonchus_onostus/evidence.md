@@ -9,7 +9,6 @@ records:
     name:
       zh: Anisonchus onostus
       en: Anisonchus onostus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

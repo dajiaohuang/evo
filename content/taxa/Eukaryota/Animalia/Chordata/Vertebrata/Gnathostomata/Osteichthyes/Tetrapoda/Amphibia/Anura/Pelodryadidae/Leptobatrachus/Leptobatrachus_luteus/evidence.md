@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobatrachus luteus
       zh: Leptobatrachus luteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

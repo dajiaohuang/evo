@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes cassiopeia
       zh: Limnonectes cassiopeia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

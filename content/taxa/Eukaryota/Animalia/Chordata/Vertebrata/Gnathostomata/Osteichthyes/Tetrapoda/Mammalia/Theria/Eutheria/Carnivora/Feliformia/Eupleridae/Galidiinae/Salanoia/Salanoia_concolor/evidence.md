@@ -9,7 +9,6 @@ records:
     name:
       zh: Salanoia concolor
       en: Salanoia concolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

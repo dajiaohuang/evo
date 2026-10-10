@@ -9,7 +9,6 @@ records:
     name:
       en: Smilisca sila
       zh: Smilisca sila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

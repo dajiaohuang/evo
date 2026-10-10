@@ -9,7 +9,6 @@ records:
     name:
       zh: Deinogalerix intermedius
       en: Deinogalerix intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

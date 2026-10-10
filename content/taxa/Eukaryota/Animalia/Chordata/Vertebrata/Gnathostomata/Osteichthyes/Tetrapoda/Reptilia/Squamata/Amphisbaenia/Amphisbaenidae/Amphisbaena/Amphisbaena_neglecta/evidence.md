@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena neglecta
       en: Amphisbaena neglecta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

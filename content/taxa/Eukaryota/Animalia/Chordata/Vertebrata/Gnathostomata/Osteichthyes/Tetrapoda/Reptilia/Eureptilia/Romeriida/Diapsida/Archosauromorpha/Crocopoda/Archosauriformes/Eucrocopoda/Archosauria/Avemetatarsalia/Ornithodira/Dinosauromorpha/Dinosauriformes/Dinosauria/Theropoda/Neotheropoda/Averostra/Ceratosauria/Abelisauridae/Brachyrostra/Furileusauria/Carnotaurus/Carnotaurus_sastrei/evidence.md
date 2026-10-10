@@ -9,7 +9,6 @@ records:
     name:
       zh: Carnotaurus sastrei
       en: Carnotaurus sastrei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

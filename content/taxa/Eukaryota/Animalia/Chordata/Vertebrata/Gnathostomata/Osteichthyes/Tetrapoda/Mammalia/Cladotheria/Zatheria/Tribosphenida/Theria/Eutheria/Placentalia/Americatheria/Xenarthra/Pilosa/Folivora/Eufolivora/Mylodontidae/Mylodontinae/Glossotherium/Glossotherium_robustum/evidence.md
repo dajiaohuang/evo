@@ -9,7 +9,6 @@ records:
     name:
       zh: Glossotherium robustum
       en: Glossotherium robustum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

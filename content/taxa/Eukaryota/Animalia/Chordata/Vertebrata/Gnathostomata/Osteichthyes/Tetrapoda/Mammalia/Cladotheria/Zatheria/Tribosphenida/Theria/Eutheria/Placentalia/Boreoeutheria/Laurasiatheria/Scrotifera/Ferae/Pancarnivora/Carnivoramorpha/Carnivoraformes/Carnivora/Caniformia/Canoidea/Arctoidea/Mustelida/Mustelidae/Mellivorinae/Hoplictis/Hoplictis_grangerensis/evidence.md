@@ -9,7 +9,6 @@ records:
     name:
       zh: Hoplictis grangerensis
       en: Hoplictis grangerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

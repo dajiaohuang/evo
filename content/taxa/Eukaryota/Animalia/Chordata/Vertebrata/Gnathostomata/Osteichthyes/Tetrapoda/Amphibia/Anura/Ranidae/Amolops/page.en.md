@@ -2682,7 +2682,7 @@ Each route retains the study’s exact species,measurements,dated observations a
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Taxonomic and source-bounded group introduction. Historical source subsets are not assumed equivalent to the entire current group; unrepresented biological evidence remains to be reviewed. This reader is not externally expert-reviewed.
+Taxonomic and source-bounded group introduction. Historical source subsets are not assumed equivalent to the entire current group; unrepresented biological evidence remains to be reviewed. This reader is.
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

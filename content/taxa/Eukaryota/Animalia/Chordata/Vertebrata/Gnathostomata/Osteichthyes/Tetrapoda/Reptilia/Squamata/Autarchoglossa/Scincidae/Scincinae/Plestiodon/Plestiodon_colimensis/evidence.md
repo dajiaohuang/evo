@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon colimensis
       en: Plestiodon colimensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

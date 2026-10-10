@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura dsinezumi
       en: Crocidura dsinezumi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

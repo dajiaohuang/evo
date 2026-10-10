@@ -9,7 +9,6 @@ records:
     name:
       zh: Eotaria crypta
       en: Eotaria crypta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

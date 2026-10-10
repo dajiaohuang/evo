@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalotos naispela
       zh: Hyalotos naispela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

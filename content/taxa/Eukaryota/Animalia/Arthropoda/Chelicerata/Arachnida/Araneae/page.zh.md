@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-这是有来源的入门概述，尚未经过外部领域专家评审。澳大利亚博物馆的通俗综述并非全球分类或完整生活史目录；幼蛛行为和区域观察只按来源范围表述。
+这是有来源的入门概述。澳大利亚博物馆的通俗综述并非全球分类或完整生活史目录；幼蛛行为和区域观察只按来源范围表述。
 <!-- /evo:text -->

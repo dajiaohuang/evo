@@ -9,7 +9,6 @@ records:
     name:
       zh: Hirundapus caudacutus
       en: Hirundapus caudacutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

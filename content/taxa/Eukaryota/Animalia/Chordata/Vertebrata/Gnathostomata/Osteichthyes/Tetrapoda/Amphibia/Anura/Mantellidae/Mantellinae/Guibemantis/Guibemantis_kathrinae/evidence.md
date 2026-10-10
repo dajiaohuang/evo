@@ -9,7 +9,6 @@ records:
     name:
       en: Guibemantis kathrinae
       zh: Guibemantis kathrinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

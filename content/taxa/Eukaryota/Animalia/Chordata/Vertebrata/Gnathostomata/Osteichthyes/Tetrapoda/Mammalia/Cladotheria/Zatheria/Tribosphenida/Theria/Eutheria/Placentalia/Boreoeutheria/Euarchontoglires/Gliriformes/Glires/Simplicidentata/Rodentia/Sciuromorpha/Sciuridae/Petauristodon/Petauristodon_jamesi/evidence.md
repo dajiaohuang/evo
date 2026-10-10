@@ -9,7 +9,6 @@ records:
     name:
       zh: Petauristodon jamesi
       en: Petauristodon jamesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

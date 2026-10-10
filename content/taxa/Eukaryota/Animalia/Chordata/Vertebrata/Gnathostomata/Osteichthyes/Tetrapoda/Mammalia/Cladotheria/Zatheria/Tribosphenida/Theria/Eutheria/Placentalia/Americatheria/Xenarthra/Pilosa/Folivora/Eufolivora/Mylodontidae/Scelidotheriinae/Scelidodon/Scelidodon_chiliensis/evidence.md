@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelidodon chiliensis
       en: Scelidodon chiliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

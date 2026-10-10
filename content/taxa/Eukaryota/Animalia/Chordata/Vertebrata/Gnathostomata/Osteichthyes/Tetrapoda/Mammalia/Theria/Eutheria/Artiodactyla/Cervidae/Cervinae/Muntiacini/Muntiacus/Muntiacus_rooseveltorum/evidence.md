@@ -9,7 +9,6 @@ records:
     name:
       zh: Muntiacus rooseveltorum
       en: Muntiacus rooseveltorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

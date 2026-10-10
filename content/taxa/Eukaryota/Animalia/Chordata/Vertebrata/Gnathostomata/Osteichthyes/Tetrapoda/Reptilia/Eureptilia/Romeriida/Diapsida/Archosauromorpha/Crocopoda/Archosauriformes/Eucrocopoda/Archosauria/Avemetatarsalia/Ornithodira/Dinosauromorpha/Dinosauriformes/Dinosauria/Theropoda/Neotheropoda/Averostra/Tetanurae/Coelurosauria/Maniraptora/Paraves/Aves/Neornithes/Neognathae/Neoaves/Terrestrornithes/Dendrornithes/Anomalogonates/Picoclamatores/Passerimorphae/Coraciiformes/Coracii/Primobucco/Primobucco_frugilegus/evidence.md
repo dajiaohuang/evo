@@ -9,7 +9,6 @@ records:
     name:
       zh: Primobucco frugilegus
       en: Primobucco frugilegus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

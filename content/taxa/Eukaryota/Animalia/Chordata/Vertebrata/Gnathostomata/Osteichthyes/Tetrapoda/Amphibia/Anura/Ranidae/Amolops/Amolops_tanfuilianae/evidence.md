@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops tanfuilianae
       zh: Amolops tanfuilianae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lucasium bungabinna
       en: Lucasium bungabinna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

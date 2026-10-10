@@ -9,7 +9,6 @@ records:
     name:
       zh: Sarothrura ayresi
       en: Sarothrura ayresi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

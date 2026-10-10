@@ -9,7 +9,6 @@ records:
     name:
       zh: Hordleophis balconae
       en: Hordleophis balconae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

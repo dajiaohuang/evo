@@ -9,7 +9,6 @@ records:
     name:
       zh: Hainina pyrenaica
       en: Hainina pyrenaica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

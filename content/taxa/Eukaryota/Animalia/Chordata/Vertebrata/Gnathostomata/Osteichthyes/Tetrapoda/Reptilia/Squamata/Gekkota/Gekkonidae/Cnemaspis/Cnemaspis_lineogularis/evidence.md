@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis lineogularis
       en: Cnemaspis lineogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

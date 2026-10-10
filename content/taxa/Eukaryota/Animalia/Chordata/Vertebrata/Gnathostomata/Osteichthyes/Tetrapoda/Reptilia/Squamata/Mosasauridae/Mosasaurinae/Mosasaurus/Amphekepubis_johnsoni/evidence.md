@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphekepubis johnsoni
       en: Amphekepubis johnsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

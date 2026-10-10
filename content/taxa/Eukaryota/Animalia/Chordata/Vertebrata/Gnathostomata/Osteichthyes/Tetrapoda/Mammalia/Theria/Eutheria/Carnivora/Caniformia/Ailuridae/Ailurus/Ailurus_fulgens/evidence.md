@@ -9,7 +9,6 @@ records:
     name:
       zh: Ailurus fulgens
       en: Ailurus fulgens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

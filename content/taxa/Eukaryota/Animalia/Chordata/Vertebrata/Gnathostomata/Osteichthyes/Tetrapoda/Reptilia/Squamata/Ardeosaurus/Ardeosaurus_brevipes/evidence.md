@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardeosaurus brevipes
       en: Ardeosaurus brevipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

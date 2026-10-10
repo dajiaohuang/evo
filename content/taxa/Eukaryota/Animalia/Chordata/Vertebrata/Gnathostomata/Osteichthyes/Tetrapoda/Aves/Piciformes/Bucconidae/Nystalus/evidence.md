@@ -9,7 +9,6 @@ records:
     name:
       zh: Nystalus
       en: Nystalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

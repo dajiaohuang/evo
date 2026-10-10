@@ -9,7 +9,6 @@ records:
     name:
       en: Isthmura maxima
       zh: Isthmura maxima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

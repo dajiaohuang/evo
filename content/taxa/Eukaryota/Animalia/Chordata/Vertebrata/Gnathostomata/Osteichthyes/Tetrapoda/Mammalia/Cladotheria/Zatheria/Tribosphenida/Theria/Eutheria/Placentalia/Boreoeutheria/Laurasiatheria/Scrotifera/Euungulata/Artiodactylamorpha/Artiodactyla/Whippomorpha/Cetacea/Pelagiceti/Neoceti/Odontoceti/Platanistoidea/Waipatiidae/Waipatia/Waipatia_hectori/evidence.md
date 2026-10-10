@@ -9,7 +9,6 @@ records:
     name:
       zh: Waipatia hectori
       en: Waipatia hectori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

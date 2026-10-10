@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina obesa
       zh: Xenorhina obesa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

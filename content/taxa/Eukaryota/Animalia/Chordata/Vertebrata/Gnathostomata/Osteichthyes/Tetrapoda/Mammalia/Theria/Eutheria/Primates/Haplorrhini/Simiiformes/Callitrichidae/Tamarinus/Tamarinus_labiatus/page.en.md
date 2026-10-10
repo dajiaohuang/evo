@@ -22,5 +22,5 @@ The study combined observation and radio-location to record group size, ranging,
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The field source uses the older combination *Saguinus labiatus* and is limited to a northern Bolivian study site. This bilingual draft has not received external expert review. This page is not externally expert-reviewed.
+The field source uses the older combination *Saguinus labiatus* and is limited to a northern Bolivian study site. This bilingual draft. This page is.
 <!-- /evo:text -->

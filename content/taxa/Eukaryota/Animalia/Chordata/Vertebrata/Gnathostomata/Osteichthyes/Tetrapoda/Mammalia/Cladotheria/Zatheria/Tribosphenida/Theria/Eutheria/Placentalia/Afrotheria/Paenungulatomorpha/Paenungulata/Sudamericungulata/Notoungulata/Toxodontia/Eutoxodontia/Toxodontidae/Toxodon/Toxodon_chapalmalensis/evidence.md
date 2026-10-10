@@ -9,7 +9,6 @@ records:
     name:
       zh: Toxodon chapalmalensis
       en: Toxodon chapalmalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochictis carbonaria
       en: Trochictis carbonaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

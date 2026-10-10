@@ -9,7 +9,6 @@ records:
     name:
       zh: Yonghesuchus sangbiensis
       en: Yonghesuchus sangbiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

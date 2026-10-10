@@ -9,7 +9,6 @@ records:
     name:
       en: Sphaerotheca varshaabhu
       zh: Sphaerotheca varshaabhu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

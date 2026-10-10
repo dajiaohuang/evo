@@ -9,7 +9,6 @@ records:
     name:
       zh: 纳波僧面猴
       en: Napo Saki
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: ecology

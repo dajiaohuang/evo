@@ -9,7 +9,6 @@ records:
     name:
       en: Crinia remota
       zh: Crinia remota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

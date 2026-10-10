@@ -9,7 +9,6 @@ records:
     name:
       zh: Emydocephalus annulatus
       en: Emydocephalus annulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

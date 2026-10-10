@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana aureola
       zh: Odorrana aureola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Blanus cinereus
       en: Blanus cinereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

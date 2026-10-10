@@ -410,7 +410,7 @@ unresolved-current-equivalence
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Taxonomic reader with explicitly historical trait material. Current concept equivalence, underlying primary works and remaining biological facets require review. This is not a complete species dossier and is not externally expert-reviewed.
+Taxonomic reader with explicitly historical trait material. Current concept equivalence, underlying primary works and remaining biological facets require review. This is not a complete species dossier and is.
 <!-- /evo:text -->
 
 ## Research text pending

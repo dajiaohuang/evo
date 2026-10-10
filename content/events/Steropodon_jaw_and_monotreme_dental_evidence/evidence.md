@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Archer et al. 1985 DOI 10.1038/318363a0
       referenceLinks:
         - referenceId: archer-1985-steropodon
           relation: supports

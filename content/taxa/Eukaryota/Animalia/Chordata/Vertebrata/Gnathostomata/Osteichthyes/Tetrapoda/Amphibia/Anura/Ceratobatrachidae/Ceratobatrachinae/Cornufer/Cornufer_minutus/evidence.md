@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer minutus
       zh: Cornufer minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

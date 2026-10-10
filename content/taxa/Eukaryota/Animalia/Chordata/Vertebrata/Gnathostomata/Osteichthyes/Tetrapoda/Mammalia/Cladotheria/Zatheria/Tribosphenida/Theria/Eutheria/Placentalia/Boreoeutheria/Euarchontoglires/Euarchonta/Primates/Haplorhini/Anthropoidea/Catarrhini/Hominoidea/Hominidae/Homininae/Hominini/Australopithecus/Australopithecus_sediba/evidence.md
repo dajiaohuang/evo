@@ -9,7 +9,6 @@ records:
     name:
       zh: Australopithecus sediba
       en: Australopithecus sediba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

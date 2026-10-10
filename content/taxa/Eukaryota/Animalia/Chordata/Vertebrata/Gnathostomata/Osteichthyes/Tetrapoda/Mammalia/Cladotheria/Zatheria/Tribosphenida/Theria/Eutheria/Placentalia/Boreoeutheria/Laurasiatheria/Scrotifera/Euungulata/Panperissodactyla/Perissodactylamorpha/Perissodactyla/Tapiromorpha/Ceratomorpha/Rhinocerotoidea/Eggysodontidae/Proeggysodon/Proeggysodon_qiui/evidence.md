@@ -9,7 +9,6 @@ records:
     name:
       zh: Proeggysodon qiui
       en: Proeggysodon qiui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops wilhelmanus
       zh: Callulops wilhelmanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

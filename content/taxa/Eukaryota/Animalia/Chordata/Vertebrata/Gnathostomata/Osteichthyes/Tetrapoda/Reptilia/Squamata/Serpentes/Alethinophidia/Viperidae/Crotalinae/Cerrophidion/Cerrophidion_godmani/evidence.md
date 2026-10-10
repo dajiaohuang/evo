@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerrophidion godmani
       en: Cerrophidion godmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

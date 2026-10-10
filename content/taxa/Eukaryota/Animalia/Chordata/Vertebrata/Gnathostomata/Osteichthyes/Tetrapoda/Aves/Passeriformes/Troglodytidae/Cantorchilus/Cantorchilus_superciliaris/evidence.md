@@ -9,7 +9,6 @@ records:
     name:
       zh: Cantorchilus superciliaris
       en: Cantorchilus superciliaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

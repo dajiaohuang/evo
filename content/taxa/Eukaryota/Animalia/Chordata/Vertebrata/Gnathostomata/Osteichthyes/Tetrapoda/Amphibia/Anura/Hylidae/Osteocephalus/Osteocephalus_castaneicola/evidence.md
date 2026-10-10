@@ -9,7 +9,6 @@ records:
     name:
       en: Osteocephalus castaneicola
       zh: Osteocephalus castaneicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

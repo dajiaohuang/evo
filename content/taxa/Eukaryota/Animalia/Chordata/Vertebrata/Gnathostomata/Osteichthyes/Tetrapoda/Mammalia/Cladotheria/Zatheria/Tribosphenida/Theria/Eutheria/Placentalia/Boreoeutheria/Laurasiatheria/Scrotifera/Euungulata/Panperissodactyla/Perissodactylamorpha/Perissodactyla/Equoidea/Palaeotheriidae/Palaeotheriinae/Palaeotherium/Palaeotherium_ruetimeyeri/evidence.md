@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeotherium ruetimeyeri
       en: Palaeotherium ruetimeyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

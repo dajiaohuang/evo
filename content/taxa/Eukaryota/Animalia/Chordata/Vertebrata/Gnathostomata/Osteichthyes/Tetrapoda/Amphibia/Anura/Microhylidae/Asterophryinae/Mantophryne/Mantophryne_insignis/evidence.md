@@ -9,7 +9,6 @@ records:
     name:
       en: Mantophryne insignis
       zh: Mantophryne insignis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

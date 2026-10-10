@@ -16,5 +16,5 @@ Three systematic terrestrial camera-trap surveys in Lomami National Park and its
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Claims are limited to the named study populations, dates and methods. The English common name follows a current MDD alternative; the Chinese common name is an editorial translation.
+Source-linked introduction;. Claims are limited to the named study populations, dates and methods. The English common name follows a current MDD alternative; the Chinese common name is an editorial translation.
 <!-- /evo:text -->

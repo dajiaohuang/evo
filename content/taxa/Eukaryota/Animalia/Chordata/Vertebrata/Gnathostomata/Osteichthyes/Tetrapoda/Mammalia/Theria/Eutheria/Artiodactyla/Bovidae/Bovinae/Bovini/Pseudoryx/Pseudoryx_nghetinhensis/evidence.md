@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoryx nghetinhensis
       en: Pseudoryx nghetinhensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

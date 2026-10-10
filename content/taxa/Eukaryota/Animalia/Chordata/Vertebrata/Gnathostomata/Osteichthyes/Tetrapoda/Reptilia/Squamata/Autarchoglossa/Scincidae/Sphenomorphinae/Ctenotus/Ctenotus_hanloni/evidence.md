@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus hanloni
       en: Ctenotus hanloni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

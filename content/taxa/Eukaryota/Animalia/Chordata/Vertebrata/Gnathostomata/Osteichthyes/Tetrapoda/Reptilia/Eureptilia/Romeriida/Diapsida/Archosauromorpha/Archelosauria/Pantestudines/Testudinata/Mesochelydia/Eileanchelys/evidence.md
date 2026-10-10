@@ -9,7 +9,6 @@ records:
     name:
       zh: Eileanchelys
       en: Eileanchelys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

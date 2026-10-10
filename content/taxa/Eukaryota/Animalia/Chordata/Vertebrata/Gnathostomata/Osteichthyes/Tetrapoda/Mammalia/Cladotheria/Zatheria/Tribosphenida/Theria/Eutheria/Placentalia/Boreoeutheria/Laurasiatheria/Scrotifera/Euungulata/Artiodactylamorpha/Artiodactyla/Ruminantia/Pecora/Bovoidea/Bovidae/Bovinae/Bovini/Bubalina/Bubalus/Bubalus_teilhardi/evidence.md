@@ -9,7 +9,6 @@ records:
     name:
       zh: Bubalus teilhardi
       en: Bubalus teilhardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

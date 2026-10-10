@@ -9,7 +9,6 @@ records:
     name:
       zh: Proechimys mincae
       en: Proechimys mincae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropicagama
       en: Tropicagama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenosaura melanosterna
       en: Ctenosaura melanosterna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acratosaura spinosa
       en: Acratosaura spinosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

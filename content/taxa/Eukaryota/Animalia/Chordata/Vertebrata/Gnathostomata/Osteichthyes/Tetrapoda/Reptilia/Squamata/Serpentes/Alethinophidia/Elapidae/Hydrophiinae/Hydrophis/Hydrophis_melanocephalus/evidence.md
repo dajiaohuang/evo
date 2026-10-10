@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrophis melanocephalus
       en: Hydrophis melanocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Boaedon lineatus
       en: Boaedon lineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

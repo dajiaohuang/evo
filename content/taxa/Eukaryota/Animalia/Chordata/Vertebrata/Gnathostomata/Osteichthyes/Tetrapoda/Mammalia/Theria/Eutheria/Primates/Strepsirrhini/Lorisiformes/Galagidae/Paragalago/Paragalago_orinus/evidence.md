@@ -9,7 +9,6 @@ records:
     name:
       zh: 山地矮伽拉戈
       en: Mountain Dwarf Galago
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lindholmemys occidentalis
       en: Lindholmemys occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bathornis veredus
       en: Bathornis veredus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

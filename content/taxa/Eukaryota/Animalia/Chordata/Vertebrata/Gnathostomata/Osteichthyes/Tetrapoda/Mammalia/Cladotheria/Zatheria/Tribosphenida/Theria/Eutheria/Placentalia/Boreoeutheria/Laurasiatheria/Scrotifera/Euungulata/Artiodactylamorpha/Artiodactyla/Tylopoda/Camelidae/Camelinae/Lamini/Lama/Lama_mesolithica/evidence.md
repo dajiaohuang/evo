@@ -9,7 +9,6 @@ records:
     name:
       zh: Lama mesolithica
       en: Lama mesolithica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

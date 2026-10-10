@@ -10,7 +10,6 @@ records:
     name:
       zh: 倭蜂猴属
       en: Pygmy Lorises
-    reviewStatus: source-linked
     sections:
       - topic: readingPath
         text:

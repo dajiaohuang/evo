@@ -9,7 +9,6 @@ records:
     name:
       zh: 灰红鼠狐猴
       en: Red-and-gray Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

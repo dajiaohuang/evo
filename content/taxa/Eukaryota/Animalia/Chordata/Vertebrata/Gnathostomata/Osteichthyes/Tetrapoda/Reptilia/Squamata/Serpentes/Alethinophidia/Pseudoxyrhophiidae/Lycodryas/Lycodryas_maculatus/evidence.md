@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodryas maculatus
       en: Lycodryas maculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

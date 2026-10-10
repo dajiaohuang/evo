@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius zonatus
       zh: Hyperolius zonatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

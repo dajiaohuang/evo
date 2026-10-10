@@ -9,7 +9,6 @@ records:
     name:
       zh: Theriodictis platensis
       en: Theriodictis platensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

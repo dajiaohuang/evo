@@ -9,7 +9,6 @@ records:
     name:
       zh: Notomys magnus
       en: Notomys magnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

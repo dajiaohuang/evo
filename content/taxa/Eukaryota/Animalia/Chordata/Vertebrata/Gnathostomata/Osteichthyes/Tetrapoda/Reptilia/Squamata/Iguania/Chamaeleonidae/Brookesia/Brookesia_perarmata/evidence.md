@@ -9,7 +9,6 @@ records:
     name:
       zh: Brookesia perarmata
       en: Brookesia perarmata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

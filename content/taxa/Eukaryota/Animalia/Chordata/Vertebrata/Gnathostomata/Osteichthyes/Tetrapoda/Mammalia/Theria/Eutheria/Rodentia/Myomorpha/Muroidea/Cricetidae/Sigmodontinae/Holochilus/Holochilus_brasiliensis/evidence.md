@@ -9,7 +9,6 @@ records:
     name:
       zh: Holochilus brasiliensis
       en: Holochilus brasiliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

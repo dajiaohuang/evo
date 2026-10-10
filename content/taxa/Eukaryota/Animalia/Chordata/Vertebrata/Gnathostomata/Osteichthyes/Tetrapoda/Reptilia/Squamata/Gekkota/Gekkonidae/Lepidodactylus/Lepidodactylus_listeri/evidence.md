@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidodactylus listeri
       en: Lepidodactylus listeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

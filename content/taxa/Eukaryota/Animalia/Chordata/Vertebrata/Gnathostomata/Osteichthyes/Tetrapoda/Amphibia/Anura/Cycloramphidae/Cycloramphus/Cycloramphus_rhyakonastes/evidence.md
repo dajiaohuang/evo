@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus rhyakonastes
       zh: Cycloramphus rhyakonastes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

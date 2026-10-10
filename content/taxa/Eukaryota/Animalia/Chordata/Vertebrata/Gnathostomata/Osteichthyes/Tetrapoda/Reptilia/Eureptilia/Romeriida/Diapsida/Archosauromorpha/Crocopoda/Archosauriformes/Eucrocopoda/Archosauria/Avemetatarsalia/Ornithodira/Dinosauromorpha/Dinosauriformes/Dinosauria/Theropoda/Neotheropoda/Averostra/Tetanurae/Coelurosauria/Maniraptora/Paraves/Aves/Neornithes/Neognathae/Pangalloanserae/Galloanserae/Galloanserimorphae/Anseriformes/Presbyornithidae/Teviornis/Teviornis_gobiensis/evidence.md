@@ -9,7 +9,6 @@ records:
     name:
       zh: Teviornis gobiensis
       en: Teviornis gobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

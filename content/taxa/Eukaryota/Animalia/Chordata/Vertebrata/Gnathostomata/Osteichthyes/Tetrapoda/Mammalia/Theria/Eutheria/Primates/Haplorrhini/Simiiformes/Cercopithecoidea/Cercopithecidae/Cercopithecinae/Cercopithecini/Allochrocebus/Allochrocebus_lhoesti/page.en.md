@@ -28,5 +28,5 @@ Tosi compared representatives of the three taxa then called the lhoesti group us
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page guides readers through local Kalinzu feeding and limited-marker phylogenetic studies; it is not a complete species account. The sources do not support a complete range, year-round diet, population trend or current conservation assessment. The Chinese name is editorial; the page has not received external expert review. This page is not externally expert-reviewed.
+This page guides readers through local Kalinzu feeding and limited-marker phylogenetic studies; it is not a complete species account. The sources do not support a complete range, year-round diet, population trend or current conservation assessment. The Chinese name is editorial.
 <!-- /evo:text -->

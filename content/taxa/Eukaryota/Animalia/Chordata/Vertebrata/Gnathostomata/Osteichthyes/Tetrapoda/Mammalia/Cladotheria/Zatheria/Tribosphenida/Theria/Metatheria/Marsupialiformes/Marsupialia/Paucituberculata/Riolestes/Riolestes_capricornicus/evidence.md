@@ -9,7 +9,6 @@ records:
     name:
       zh: Riolestes capricornicus
       en: Riolestes capricornicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

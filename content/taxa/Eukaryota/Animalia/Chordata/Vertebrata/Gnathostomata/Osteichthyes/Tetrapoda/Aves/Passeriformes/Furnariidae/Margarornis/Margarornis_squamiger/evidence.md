@@ -9,7 +9,6 @@ records:
     name:
       zh: Margarornis squamiger
       en: Margarornis squamiger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

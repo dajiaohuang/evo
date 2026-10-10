@@ -9,7 +9,6 @@ records:
     name:
       zh: Rheodytes devisi
       en: Rheodytes devisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -75,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Hetherington et al. 2021 DOI 10.7554/eLife.69447
       referenceLinks:
         - relation: supports
           referenceId: hetherington-2021-asteroxylon

@@ -9,7 +9,6 @@ records:
     name:
       en: Megastomatohyla mixomaculata
       zh: Megastomatohyla mixomaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

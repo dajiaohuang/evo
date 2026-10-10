@@ -9,7 +9,6 @@ records:
     name:
       zh: Symmetrodontomys beckensis
       en: Symmetrodontomys beckensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

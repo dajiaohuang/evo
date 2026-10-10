@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax eurydice
       zh: Scinax eurydice
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

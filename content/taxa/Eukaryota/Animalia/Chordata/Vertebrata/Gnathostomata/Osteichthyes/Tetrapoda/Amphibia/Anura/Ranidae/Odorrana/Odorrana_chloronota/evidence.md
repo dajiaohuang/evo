@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana chloronota
       zh: Odorrana chloronota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

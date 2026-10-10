@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ibrahim-2020-spinosaurus-tail concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: ibrahim-2020-spinosaurus-tail
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ibrahim-2020-spinosaurus-tail @ DOI 10.1038/s41586-020-2190-3
       referenceLinks:
         - relation: supports
           referenceId: ibrahim-2020-spinosaurus-tail
@@ -96,7 +90,6 @@ records:
           locator: 67–70; Specimen FSAC-KK 11888; tail anatomy; robotic-fluke experiments; Methods
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Spinosaurus
@@ -105,7 +98,6 @@ records:
     name:
       zh: Spinosaurus
       en: Spinosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

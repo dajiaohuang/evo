@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophorina superba
       en: Lophorina superba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lundomys molitor
       en: Lundomys molitor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Syconycteris carolinae
       en: Syconycteris carolinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

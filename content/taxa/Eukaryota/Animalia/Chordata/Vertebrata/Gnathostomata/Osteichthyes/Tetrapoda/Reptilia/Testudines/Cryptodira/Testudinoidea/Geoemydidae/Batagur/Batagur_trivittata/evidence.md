@@ -9,7 +9,6 @@ records:
     name:
       zh: Batagur trivittata
       en: Batagur trivittata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

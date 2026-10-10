@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachypteryx hyperythra
       en: Brachypteryx hyperythra
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

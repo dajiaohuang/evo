@@ -9,7 +9,6 @@ records:
     name:
       zh: Zamenis persicus
       en: Zamenis persicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

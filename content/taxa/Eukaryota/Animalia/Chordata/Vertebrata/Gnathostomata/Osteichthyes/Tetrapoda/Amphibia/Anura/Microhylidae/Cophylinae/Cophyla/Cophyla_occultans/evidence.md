@@ -9,7 +9,6 @@ records:
     name:
       en: Cophyla occultans
       zh: Cophyla occultans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

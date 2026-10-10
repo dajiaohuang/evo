@@ -9,7 +9,6 @@ records:
     name:
       zh: Georgiasaurus penzensis
       en: Georgiasaurus penzensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

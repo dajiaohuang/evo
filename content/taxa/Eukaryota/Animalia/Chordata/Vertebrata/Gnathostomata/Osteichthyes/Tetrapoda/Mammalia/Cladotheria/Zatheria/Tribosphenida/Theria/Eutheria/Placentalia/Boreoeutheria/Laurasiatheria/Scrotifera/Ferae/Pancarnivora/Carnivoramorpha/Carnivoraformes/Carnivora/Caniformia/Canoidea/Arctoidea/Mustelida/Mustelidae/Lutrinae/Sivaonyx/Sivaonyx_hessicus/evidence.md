@@ -9,7 +9,6 @@ records:
     name:
       zh: Sivaonyx hessicus
       en: Sivaonyx hessicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

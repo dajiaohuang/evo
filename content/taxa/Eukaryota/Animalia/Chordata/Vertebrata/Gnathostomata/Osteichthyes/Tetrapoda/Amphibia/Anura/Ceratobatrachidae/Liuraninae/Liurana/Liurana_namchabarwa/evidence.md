@@ -9,7 +9,6 @@ records:
     name:
       en: Liurana namchabarwa
       zh: Liurana namchabarwa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

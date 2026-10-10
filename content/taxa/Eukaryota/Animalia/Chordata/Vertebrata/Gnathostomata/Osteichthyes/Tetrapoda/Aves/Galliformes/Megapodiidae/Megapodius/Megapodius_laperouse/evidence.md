@@ -9,7 +9,6 @@ records:
     name:
       zh: Megapodius laperouse
       en: Megapodius laperouse
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

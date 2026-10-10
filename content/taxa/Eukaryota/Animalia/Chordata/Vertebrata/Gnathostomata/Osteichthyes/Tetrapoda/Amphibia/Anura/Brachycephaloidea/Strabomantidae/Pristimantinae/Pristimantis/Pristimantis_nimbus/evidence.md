@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis nimbus
       zh: Pristimantis nimbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

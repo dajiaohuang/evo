@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidurus helenae
       en: Tropidurus helenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

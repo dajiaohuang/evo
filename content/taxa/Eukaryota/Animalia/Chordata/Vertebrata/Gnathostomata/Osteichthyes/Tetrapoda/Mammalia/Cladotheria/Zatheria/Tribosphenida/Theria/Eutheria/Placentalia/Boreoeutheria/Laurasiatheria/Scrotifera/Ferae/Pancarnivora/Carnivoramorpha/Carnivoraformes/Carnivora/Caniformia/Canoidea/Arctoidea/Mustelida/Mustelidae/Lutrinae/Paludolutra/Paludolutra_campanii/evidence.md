@@ -9,7 +9,6 @@ records:
     name:
       zh: Paludolutra campanii
       en: Paludolutra campanii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

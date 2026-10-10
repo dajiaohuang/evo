@@ -9,7 +9,6 @@ records:
     name:
       zh: 老挝叶猴
       en: Laos Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

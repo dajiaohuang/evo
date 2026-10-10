@@ -9,7 +9,6 @@ records:
     name:
       zh: Larus livens
       en: Larus livens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

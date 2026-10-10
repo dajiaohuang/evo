@@ -9,7 +9,6 @@ records:
     name:
       zh: Zephyrosauridion hypsochorosus
       en: Zephyrosauridion hypsochorosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

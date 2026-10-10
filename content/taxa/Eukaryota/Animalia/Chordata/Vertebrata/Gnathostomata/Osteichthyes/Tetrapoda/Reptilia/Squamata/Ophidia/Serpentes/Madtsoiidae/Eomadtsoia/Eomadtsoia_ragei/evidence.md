@@ -9,7 +9,6 @@ records:
     name:
       zh: Eomadtsoia ragei
       en: Eomadtsoia ragei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

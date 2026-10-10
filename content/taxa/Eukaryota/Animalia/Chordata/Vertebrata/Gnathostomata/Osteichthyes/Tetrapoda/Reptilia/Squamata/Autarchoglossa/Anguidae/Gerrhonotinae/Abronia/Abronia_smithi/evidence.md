@@ -9,7 +9,6 @@ records:
     name:
       zh: Abronia smithi
       en: Abronia smithi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

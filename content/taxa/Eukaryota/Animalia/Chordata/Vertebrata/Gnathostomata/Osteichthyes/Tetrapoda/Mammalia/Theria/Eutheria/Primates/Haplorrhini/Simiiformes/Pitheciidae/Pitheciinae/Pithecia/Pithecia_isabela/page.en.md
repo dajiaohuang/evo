@@ -16,5 +16,5 @@ Marsh described Isabel's saki as a new species in 2014, using museum material in
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The museum material and localities in the original description do not establish a complete range, current occupancy or conservation status. The Chinese name is editorial; this page has not received external expert review. This page is not externally expert-reviewed.
+The museum material and localities in the original description do not establish a complete range, current occupancy or conservation status. The Chinese name is editorial. This page is.
 <!-- /evo:text -->

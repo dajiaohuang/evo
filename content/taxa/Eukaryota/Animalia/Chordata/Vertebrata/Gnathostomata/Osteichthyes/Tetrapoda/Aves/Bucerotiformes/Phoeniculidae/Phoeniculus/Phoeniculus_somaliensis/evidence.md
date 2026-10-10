@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoeniculus somaliensis
       en: Phoeniculus somaliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nonnula rubecula
       en: Nonnula rubecula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

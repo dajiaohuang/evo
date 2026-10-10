@@ -253,7 +253,7 @@ Table1 reports donor SYS a006657 at Medog, Xizang, China,with16S=MK573813,COI=MK
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial study-scoped biological reader. Remaining biological facets require further evidence. Not externally expert-reviewed.
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

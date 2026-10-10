@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus bizona
       en: Erythrolamprus bizona
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

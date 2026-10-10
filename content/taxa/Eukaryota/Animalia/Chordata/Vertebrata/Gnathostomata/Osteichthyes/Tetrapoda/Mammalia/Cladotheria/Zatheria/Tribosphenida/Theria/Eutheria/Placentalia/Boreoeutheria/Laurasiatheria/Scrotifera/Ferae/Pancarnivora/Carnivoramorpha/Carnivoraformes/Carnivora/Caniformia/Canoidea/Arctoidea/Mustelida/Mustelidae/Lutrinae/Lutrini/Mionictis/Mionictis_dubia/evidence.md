@@ -9,7 +9,6 @@ records:
     name:
       zh: Mionictis dubia
       en: Mionictis dubia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

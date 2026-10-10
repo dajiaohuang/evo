@@ -9,7 +9,6 @@ records:
     name:
       zh: Prolimnocyon chowi
       en: Prolimnocyon chowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

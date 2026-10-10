@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycrocuta licenti
       en: Pachycrocuta licenti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

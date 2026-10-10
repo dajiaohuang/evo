@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus armatus
       zh: Nymphargus armatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

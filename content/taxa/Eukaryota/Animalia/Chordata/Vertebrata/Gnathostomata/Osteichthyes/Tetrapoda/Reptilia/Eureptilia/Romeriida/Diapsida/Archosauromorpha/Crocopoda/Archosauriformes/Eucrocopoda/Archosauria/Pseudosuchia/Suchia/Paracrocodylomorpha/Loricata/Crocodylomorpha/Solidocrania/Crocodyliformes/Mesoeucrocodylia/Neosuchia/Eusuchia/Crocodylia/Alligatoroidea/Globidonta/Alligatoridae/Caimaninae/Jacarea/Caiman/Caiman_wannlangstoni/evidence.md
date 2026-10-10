@@ -9,7 +9,6 @@ records:
     name:
       zh: Caiman wannlangstoni
       en: Caiman wannlangstoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

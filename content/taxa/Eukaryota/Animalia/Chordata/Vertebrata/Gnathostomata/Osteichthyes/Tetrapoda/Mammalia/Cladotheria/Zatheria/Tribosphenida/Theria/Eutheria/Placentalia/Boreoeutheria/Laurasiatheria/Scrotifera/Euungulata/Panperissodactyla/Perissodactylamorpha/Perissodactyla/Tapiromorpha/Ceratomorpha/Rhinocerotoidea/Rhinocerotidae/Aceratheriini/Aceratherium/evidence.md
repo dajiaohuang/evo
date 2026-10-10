@@ -9,7 +9,6 @@ records:
     name:
       zh: Aceratherium
       en: Aceratherium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

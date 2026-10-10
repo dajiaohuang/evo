@@ -168,5 +168,5 @@ humle2016
 ## atlas-profile / readerLimitations
 
 <!-- evo:text /records/atlas-profile/readerLimitations/en -->
-This reader draft brings together selected studies, not a complete species review. The available sources do not provide a current range or conservation assessment, or a broad wild diet, locomotion and morphology synthesis. The scientific dossier remains incomplete and has not received external expert review.
+This reader draft brings together selected studies, not a complete species review. The available sources do not provide a current range or conservation assessment, or a broad wild diet, locomotion and morphology synthesis. The scientific dossier remains incomplete.
 <!-- /evo:text -->

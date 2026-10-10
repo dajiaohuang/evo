@@ -9,7 +9,6 @@ records:
     name:
       zh: Eotomistoma multidentata
       en: Eotomistoma multidentata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

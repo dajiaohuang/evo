@@ -9,7 +9,6 @@ records:
     name:
       zh: Boa sigma
       en: Boa sigma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

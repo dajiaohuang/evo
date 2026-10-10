@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllodytes praeceptor
       zh: Phyllodytes praeceptor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

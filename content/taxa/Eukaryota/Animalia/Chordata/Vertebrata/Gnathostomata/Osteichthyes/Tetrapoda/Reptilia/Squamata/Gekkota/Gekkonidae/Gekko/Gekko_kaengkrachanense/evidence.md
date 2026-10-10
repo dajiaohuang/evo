@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko kaengkrachanense
       en: Gekko kaengkrachanense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

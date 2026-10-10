@@ -9,7 +9,6 @@ records:
     name:
       zh: Issi saaneq
       en: Issi saaneq
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

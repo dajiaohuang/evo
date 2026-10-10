@@ -9,7 +9,6 @@ records:
     name:
       zh: Eogavialis andrewsi
       en: Eogavialis andrewsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

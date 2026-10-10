@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinaspideretes wimani
       en: Sinaspideretes wimani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Physeterula dubusi
       en: Physeterula dubusi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

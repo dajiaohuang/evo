@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidophyma lineri
       en: Lepidophyma lineri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

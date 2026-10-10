@@ -9,7 +9,6 @@ records:
     name:
       zh: Mylomys dybowskii
       en: Mylomys dybowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

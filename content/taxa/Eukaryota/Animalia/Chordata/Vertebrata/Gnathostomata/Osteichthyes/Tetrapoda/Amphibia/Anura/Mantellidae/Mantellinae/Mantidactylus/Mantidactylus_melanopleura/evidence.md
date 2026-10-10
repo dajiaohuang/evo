@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus melanopleura
       zh: Mantidactylus melanopleura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

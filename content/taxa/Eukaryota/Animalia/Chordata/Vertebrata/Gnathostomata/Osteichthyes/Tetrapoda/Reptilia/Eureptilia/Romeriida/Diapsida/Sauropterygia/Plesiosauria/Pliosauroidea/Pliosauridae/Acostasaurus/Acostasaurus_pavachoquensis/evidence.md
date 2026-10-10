@@ -9,7 +9,6 @@ records:
     name:
       zh: Acostasaurus pavachoquensis
       en: Acostasaurus pavachoquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sloanbaatar mirabilis
       en: Sloanbaatar mirabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

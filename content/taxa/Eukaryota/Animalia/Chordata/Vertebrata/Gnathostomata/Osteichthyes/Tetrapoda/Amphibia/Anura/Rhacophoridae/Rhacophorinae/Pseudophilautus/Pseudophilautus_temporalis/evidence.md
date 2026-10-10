@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus temporalis
       zh: Pseudophilautus temporalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: abella-2012-kretzoiarctos concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: abella-2012-kretzoiarctos
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: abella-2012-kretzoiarctos primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - referenceId: abella-2012-kretzoiarctos
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: abella-2012-kretzoiarctos primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - referenceId: abella-2012-kretzoiarctos
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: abella-2012-kretzoiarctos primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - referenceId: abella-2012-kretzoiarctos
           relation: supports
@@ -143,9 +131,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: abella-2012-kretzoiarctos primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - referenceId: abella-2012-kretzoiarctos
           relation: supports
@@ -198,7 +183,6 @@ records:
       referenceLocators:
         - referenceId: abella-2012-kretzoiarctos
           locator: e48985; Figures 1–4; Tables 1–2; Table S1; Holotype and referred material; Phylogenetic analysis; Dental comparisons
-      reviewStatus: automated-audit-passed
 ---
 
 # Kretzoiarctos beatrix

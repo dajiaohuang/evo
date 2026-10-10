@@ -9,7 +9,6 @@ records:
     name:
       zh: Macropus anak
       en: Macropus anak
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

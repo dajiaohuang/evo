@@ -16,5 +16,5 @@ Costa-Araújo and colleagues tested Juruena–Teles Pires marmosets with pelage 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Locality coverage, inferred range separation and species delimitation follow the 2021 study's specimens, field records and analyses; no current abundance or independent range reassessment is supplied.
+Source-linked introduction;. Locality coverage, inferred range separation and species delimitation follow the 2021 study's specimens, field records and analyses; no current abundance or independent range reassessment is supplied.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko nicobarensis
       en: Gekko nicobarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

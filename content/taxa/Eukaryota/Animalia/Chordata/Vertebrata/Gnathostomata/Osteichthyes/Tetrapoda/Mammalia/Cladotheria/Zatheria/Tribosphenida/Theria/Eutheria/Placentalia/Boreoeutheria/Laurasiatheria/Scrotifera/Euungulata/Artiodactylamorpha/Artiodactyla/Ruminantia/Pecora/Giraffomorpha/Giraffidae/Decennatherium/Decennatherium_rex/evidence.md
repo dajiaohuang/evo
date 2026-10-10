@@ -9,7 +9,6 @@ records:
     name:
       zh: Decennatherium rex
       en: Decennatherium rex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

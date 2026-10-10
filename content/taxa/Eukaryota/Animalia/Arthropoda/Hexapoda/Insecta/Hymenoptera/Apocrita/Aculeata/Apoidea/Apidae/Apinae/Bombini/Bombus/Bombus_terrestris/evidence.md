@@ -236,9 +236,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Bombus terrestris
@@ -366,5 +363,5 @@ The cited transect series covers one site and one winter and does not establish 
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-A reproducible systematic search and independent expert review have not been completed.
+A reproducible systematic search has not been completed.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycopsis torresi
       en: Lycopsis torresi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

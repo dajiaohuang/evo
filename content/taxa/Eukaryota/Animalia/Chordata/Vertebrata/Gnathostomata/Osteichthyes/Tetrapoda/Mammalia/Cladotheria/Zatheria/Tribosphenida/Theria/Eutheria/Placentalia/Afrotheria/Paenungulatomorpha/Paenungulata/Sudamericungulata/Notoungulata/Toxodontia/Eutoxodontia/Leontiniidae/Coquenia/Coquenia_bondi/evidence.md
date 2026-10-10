@@ -9,7 +9,6 @@ records:
     name:
       zh: Coquenia bondi
       en: Coquenia bondi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

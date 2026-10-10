@@ -9,7 +9,6 @@ records:
     name:
       zh: 科英布拉蒂蒂猴
       en: Coimbra-Filho's Titi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

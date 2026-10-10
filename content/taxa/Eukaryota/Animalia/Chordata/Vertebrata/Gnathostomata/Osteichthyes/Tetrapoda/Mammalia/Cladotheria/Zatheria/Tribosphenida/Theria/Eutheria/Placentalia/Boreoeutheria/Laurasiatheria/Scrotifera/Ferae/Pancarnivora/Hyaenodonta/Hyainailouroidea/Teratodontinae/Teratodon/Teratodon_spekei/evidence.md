@@ -9,7 +9,6 @@ records:
     name:
       zh: Teratodon spekei
       en: Teratodon spekei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

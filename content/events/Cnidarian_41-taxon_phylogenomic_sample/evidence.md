@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zapata-2015-cnidaria @ DOI 10.1371/journal.pone.0139068
       referenceLinks:
         - referenceId: zapata-2015-cnidaria
           relation: supports

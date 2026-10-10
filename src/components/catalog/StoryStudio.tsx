@@ -4,6 +4,7 @@ import { getReferences, getTaxonProfile } from '../../services/catalog'
 import type { EvolutionStory } from '../../types'
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
+import { localizedProfileText } from '../../i18n/profileText'
 import { decodeStoryDraft, nextStoryStepId, readStoryDraft, serializeStoryDraft, StoryDraftError, STORY_DRAFT_MAX_BYTES, STORY_DRAFT_MAX_STEPS, storyDraftShareUrl, storyIframe, storyStepReady, type LocalStoryDraft, type LocalStoryStep, type StoryView } from '../../services/storyDraft'
 import './StoryStudio.css'
 
@@ -189,7 +190,7 @@ export function StoryLearningPanel({ story }: { story: EvolutionStory }) {
     <section className="story-learning">
       <div className="story-learning__summary"><article><strong>{number(claims.length)}</strong><span>{t('story claims')}</span></article><article><strong>{number(references.length)}</strong><span>{t('derived references')}</span></article><article><strong>{number(profiles.length)}</strong><span>{t('glossary entries')}</span></article></div>
       <div className="story-learning__grid">
-        <article><small>{t('Glossary')}</small><h2>{t('Key taxa in this story')}</h2>{profiles.map((profile) => <details key={profile.id}><summary>{language === 'zh' ? profile.commonNameZh : profile.commonName}</summary><p>{t(profile.overview)}</p></details>)}</article>
+        <article><small>{t('Glossary')}</small><h2>{t('Key taxa in this story')}</h2>{profiles.map((profile) => <details key={profile.id}><summary>{language === 'zh' ? profile.commonNameZh : profile.commonName}</summary><p>{localizedProfileText(profile, profile.overview, language, t)}</p></details>)}</article>
         <article><small>{t('Quick check')}</small><h2>{t('What does a story step represent?')}</h2>{choices.map((choice, index) => <button className={answer === index ? 'is-selected' : ''} key={choice} onClick={() => setAnswer(index)}>{t(choice)}</button>)}{answer !== null && <p role="status">{answer === 0 ? t('Correct: the state is reproducible, but its data and claims retain explicit limits.') : t('Not quite: a story state is bounded and evidence-linked, not a completeness or expert-consensus claim.')}</p>}</article>
       </div>
       <div className="story-learning__share"><button onClick={() => void copy(false)}>{t('Copy teacher link')}</button><button onClick={() => void copy(true)}>{t('Copy embeddable story card')}</button></div>

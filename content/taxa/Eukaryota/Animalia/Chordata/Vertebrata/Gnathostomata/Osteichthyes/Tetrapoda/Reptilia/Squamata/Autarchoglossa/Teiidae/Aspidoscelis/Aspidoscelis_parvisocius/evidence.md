@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidoscelis parvisocius
       en: Aspidoscelis parvisocius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

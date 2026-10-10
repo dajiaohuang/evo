@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesogaulus novellus
       en: Mesogaulus novellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

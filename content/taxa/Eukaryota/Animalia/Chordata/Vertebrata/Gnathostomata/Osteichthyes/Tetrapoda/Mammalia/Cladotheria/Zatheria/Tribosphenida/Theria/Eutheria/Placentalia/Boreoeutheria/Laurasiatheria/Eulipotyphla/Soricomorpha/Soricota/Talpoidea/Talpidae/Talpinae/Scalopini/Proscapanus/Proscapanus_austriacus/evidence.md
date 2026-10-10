@@ -9,7 +9,6 @@ records:
     name:
       zh: Proscapanus austriacus
       en: Proscapanus austriacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

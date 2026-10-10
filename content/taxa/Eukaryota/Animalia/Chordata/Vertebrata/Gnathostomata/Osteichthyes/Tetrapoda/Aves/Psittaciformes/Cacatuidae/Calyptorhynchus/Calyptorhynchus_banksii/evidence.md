@@ -9,7 +9,6 @@ records:
     name:
       zh: Calyptorhynchus banksii
       en: Calyptorhynchus banksii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

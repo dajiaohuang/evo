@@ -9,7 +9,6 @@ records:
     name:
       zh: Pentacodon occultus
       en: Pentacodon occultus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

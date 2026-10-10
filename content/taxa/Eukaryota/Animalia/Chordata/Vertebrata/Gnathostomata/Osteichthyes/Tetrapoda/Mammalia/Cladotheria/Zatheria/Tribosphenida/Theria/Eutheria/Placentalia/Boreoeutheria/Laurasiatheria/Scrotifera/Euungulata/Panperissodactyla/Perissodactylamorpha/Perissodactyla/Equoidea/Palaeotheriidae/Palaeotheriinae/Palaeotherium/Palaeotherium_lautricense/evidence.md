@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeotherium lautricense
       en: Palaeotherium lautricense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

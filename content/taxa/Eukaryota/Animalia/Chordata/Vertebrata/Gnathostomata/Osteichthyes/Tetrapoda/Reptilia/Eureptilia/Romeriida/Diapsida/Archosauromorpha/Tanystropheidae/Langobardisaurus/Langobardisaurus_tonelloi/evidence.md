@@ -9,7 +9,6 @@ records:
     name:
       zh: Langobardisaurus tonelloi
       en: Langobardisaurus tonelloi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

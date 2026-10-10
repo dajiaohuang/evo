@@ -9,7 +9,6 @@ records:
     name:
       zh: Pinoyscincus jagori
       en: Pinoyscincus jagori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

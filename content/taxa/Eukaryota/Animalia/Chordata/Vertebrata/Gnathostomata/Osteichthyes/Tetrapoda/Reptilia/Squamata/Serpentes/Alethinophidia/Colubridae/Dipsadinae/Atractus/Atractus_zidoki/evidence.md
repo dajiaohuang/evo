@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus zidoki
       en: Atractus zidoki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

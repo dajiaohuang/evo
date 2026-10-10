@@ -9,7 +9,6 @@ records:
     name:
       zh: Xantusia henshawi
       en: Xantusia henshawi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

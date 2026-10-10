@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus jacobuspetersi
       zh: Hyloxalus jacobuspetersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

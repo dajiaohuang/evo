@@ -9,7 +9,6 @@ records:
     name:
       zh: Delorhynchus multidentatus
       en: Delorhynchus multidentatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

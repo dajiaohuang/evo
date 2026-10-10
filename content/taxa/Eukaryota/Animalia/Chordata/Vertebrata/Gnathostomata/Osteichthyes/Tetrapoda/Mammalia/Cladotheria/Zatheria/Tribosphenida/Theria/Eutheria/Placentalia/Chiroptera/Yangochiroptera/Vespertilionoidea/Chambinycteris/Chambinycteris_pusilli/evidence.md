@@ -9,7 +9,6 @@ records:
     name:
       zh: Chambinycteris pusilli
       en: Chambinycteris pusilli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

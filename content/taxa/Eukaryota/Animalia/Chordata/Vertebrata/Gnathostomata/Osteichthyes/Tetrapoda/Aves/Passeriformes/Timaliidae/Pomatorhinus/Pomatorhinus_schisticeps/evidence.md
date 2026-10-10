@@ -9,7 +9,6 @@ records:
     name:
       zh: Pomatorhinus schisticeps
       en: Pomatorhinus schisticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

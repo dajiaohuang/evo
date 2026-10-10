@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekkonoidea
       en: Gekkonoidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Smilosuchus gregorii
       en: Smilosuchus gregorii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

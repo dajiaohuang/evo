@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis phoxocephalus
       zh: Pristimantis phoxocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

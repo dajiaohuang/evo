@@ -9,7 +9,6 @@ records:
     name:
       zh: Eohyosaurus wolvaardti
       en: Eohyosaurus wolvaardti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

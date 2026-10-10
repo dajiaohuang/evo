@@ -9,7 +9,6 @@ records:
     name:
       zh: Yaminuechelys gasparinii
       en: Yaminuechelys gasparinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: andreev-2022-fanjingshania; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: andreev-2022-fanjingshania
@@ -71,7 +68,6 @@ records:
       referenceLocators:
         - referenceId: andreev-2022-fanjingshania
           locator: pp. 969–974; Figs. 1–3; Extended Data Fig. 4
-      reviewStatus: automated-audit-passed
 ---
 
 # Fanjingshania renovata

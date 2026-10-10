@@ -9,7 +9,6 @@ records:
     name:
       zh: Butorides striata
       en: Butorides striata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

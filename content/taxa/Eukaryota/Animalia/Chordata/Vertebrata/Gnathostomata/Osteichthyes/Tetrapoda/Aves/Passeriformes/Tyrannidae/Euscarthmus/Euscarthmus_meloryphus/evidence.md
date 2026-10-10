@@ -9,7 +9,6 @@ records:
     name:
       zh: Euscarthmus meloryphus
       en: Euscarthmus meloryphus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

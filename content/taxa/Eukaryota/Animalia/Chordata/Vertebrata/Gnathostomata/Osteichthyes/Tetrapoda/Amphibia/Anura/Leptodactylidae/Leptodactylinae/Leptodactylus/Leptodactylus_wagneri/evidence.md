@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus wagneri
       zh: Leptodactylus wagneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

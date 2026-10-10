@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus glaucoreius
       zh: Eleutherodactylus glaucoreius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

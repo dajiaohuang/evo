@@ -9,7 +9,6 @@ records:
     name:
       zh: Caiuajara
       en: Caiuajara
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: readingPath
@@ -489,13 +488,6 @@ records:
         context:
           zh: 对读共同骨床中的材料、成长证据与生态假说，保留每项来源的取样限制。
           en: Compare shared-bonebed material, growth evidence and ecological hypotheses while retaining each source’s sampling limits.
-      - targetId: txn:388270
-        label:
-          zh: Vespersaurus paranaensis
-          en: Vespersaurus paranaensis
-        context:
-          zh: 对读共同骨床中的材料、成长证据与生态假说，保留每项来源的取样限制。
-          en: Compare shared-bonebed material, growth evidence and ecological hypotheses while retaining each source’s sampling limits.
   atlas-node:
     name: Caiuajara
     commonName: Caiuajara
@@ -526,7 +518,6 @@ records:
       referenceLocators:
         - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
           locator: P5-42 accepted hierarchy oid txn:302537; fea/fla/lea/lla in retained taxa response.
-      reviewStatus: not-reviewed
       evidenceLevel: database-derived
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Spizaetus isidori
       en: Spizaetus isidori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

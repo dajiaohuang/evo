@@ -9,7 +9,6 @@ records:
     name:
       zh: Tiucetus rosae
       en: Tiucetus rosae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea orchimelas
       zh: Pseudoeurycea orchimelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

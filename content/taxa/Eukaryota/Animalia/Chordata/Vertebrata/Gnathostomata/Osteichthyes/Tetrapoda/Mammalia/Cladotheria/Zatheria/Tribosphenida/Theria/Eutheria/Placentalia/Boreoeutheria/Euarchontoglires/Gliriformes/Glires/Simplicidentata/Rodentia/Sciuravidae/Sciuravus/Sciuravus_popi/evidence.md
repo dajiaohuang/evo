@@ -9,7 +9,6 @@ records:
     name:
       zh: Sciuravus popi
       en: Sciuravus popi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

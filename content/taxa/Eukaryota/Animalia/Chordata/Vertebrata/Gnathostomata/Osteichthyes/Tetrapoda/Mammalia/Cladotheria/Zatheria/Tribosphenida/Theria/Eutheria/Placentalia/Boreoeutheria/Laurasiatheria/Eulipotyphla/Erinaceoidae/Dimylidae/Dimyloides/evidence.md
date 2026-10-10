@@ -9,7 +9,6 @@ records:
     name:
       zh: Dimyloides
       en: Dimyloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

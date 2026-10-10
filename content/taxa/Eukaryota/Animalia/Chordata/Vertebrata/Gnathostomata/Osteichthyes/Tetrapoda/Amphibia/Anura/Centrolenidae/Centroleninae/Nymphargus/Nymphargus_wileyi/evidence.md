@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus wileyi
       zh: Nymphargus wileyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramiolabis singularis
       en: Paramiolabis singularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

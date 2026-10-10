@@ -9,7 +9,6 @@ records:
     name:
       zh: Iguanacolossus fortis
       en: Iguanacolossus fortis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

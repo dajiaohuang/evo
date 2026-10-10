@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus tirantii
       en: Liolaemus tirantii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

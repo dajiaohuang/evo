@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bruce-patel-2020-wing-homology; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: bruce-patel-2020-wing-homology
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: bruce-patel-2020-wing-homology
           locator: 1703–1712; Figures 1–6; Extended Data
-      reviewStatus: automated-audit-passed
 ---
 
 # Parhyale wing-homology experiment

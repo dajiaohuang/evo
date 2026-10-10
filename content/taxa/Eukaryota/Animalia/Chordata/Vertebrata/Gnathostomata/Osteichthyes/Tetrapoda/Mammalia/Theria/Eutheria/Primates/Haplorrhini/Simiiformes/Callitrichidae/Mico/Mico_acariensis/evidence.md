@@ -9,7 +9,6 @@ records:
     name:
       zh: 阿卡里绒猴
       en: Acarí marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution
@@ -341,9 +340,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Mico acariensis
@@ -513,7 +509,7 @@ The authors state that the remote region needs additional surveys to clarify geo
 ## facets / distribution / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/distribution/gaps/2 -->
-Morphology, life history, fossils, conservation status, systematic evidence search, and external expert review remain unassessed.
+Morphology, life history, fossils, conservation status, systematic evidence search, remain unassessed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -525,5 +521,5 @@ One regional occurrence account and one explicitly provisional contact-zone and 
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-Morphology, life history, ecology, fossils, conservation, systematic evidence search, and external expert review remain unassessed.
+Morphology, life history, ecology, fossils, conservation, systematic evidence search, remain unassessed.
 <!-- /evo:text -->

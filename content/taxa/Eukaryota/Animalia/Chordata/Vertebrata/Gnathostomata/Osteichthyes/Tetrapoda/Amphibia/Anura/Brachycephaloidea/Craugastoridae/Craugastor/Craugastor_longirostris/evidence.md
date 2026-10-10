@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor longirostris
       zh: Craugastor longirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

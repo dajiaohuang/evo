@@ -9,7 +9,6 @@ records:
     name:
       zh: Myriopholis filiformis
       en: Myriopholis filiformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

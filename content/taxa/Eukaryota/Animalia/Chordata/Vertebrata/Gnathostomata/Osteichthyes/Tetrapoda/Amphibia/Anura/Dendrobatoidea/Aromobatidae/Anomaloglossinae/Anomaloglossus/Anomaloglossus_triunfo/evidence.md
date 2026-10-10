@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus triunfo
       zh: Anomaloglossus triunfo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

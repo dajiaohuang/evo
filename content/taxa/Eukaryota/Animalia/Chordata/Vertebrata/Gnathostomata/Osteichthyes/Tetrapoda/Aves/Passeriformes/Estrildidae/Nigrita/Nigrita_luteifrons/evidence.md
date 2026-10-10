@@ -9,7 +9,6 @@ records:
     name:
       zh: Nigrita luteifrons
       en: Nigrita luteifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

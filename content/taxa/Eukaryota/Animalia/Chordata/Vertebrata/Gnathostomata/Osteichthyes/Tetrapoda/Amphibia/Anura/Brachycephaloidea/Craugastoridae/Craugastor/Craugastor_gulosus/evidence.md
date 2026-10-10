@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor gulosus
       zh: Craugastor gulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

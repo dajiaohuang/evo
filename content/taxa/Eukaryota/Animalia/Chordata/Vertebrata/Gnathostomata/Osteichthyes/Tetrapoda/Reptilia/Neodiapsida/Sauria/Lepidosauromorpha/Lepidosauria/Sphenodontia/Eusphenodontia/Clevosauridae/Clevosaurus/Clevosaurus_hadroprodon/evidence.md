@@ -9,7 +9,6 @@ records:
     name:
       zh: Clevosaurus hadroprodon
       en: Clevosaurus hadroprodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

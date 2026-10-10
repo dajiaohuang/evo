@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenicohippus craspedotum
       en: Xenicohippus craspedotum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

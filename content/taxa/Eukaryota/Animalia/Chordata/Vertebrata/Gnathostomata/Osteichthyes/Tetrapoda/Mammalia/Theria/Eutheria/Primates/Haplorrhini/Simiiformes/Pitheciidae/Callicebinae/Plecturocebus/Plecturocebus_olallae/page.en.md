@@ -22,5 +22,5 @@ The study notes that calls are used to locate groups, but call rates differ betw
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The call study covered particular groups and survey periods; more rainy-season calls do not imply an increase in groups or replace current population surveys. The Chinese name is editorial; this guide is not externally expert-reviewed.
+The call study covered particular groups and survey periods; more rainy-season calls do not imply an increase in groups or replace current population surveys. The Chinese name is editorial; this guide is.
 <!-- /evo:text -->

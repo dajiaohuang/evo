@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsina multimaculata
       en: Dipsina multimaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

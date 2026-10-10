@@ -79,9 +79,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Shubin et al. 2006 DOI 10.1038/nature04637
       referenceLinks:
         - relation: supports
           referenceId: shubin-2006-tiktaalik-pectoral-fin

@@ -9,7 +9,6 @@ records:
     name:
       en: Trachycephalus helioi
       zh: Trachycephalus helioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus huttoni
       en: Ptilinopus huttoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

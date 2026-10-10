@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus labyrinthicus
       zh: Leptodactylus labyrinthicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

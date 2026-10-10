@@ -9,7 +9,6 @@ records:
     name:
       zh: Virginia valeriae
       en: Virginia valeriae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

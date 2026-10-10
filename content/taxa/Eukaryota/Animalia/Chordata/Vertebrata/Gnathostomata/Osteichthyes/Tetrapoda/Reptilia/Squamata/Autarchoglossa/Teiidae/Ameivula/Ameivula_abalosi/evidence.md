@@ -9,7 +9,6 @@ records:
     name:
       zh: Ameivula abalosi
       en: Ameivula abalosi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

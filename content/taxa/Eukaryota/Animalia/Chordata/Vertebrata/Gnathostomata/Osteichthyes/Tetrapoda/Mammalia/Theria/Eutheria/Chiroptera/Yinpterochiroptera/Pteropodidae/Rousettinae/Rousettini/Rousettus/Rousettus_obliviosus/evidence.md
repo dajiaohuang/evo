@@ -9,7 +9,6 @@ records:
     name:
       zh: Rousettus obliviosus
       en: Rousettus obliviosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

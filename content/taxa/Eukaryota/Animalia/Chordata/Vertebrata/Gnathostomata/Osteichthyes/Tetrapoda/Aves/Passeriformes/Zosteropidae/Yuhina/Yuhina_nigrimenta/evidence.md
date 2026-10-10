@@ -9,7 +9,6 @@ records:
     name:
       zh: Yuhina nigrimenta
       en: Yuhina nigrimenta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

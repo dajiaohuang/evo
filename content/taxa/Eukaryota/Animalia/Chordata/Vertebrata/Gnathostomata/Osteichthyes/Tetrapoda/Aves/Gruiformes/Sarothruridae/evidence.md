@@ -9,7 +9,6 @@ records:
     name:
       zh: Sarothruridae
       en: Sarothruridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

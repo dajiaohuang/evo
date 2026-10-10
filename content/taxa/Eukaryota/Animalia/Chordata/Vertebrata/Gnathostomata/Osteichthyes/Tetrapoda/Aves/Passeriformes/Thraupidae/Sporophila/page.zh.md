@@ -11,7 +11,7 @@ status: source-linked
 ## 旧组合的五个种目标与两个亚种目标
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-七条历史导读沿 COL26.8 Sporophila（7LMG）、Thraupidae（H87）组织，eBird七同名且各Avibase ID相同。BirdTree fringilloides记Dolospingus，其余六记Oryzoborus，funerea旧词尾funereus。五逐字异名指向本批接受种；Oryzoborus atrirostris异名74ZGK指向B77X3指名亚种、parentId=9GBHK，Oryzoborus funereus异名74ZGL指向B7N4X指名亚种、parentId=9GBHM。后两条不是直接种级异名，历史全种范围未解决。额外Oryzoborus fringilloides不是实际BirdTree表名。属41目录直接子项，七页不计完整属内容或专家审评。
+七条历史导读沿 COL26.8 Sporophila（7LMG）、Thraupidae（H87）组织，eBird七同名且各Avibase ID相同。BirdTree fringilloides记Dolospingus，其余六记Oryzoborus，funerea旧词尾funereus。五逐字异名指向本批接受种；Oryzoborus atrirostris异名74ZGK指向B77X3指名亚种、parentId=9GBHK，Oryzoborus funereus异名74ZGL指向B7N4X指名亚种、parentId=9GBHM。后两条不是直接种级异名，历史全种范围未解决。额外Oryzoborus fringilloides不是实际BirdTree表名。属41目录直接子项，七页不计完整属内容。
 <!-- /evo:text -->
 
 ## 一只雄鸟与三十三只总数分开读
@@ -59,8 +59,8 @@ Sporophila 的本批路线包含 5 条历史生活史导读，可从 Sporophila 
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
 本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成，未经过外部专家评审。
-另增七条旧名导读，五直接种目标与两个指名亚种目标分开；atrirostris与funerea历史全种范围仍未解决。单只雄鸟、较多总数与完整分母、独立体重和营养级各保留；完整41目录子项内容、当前地图与专家审评未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+另增七条旧名导读，五直接种目标与两个指名亚种目标分开；atrirostris与funerea历史全种范围仍未解决。单只雄鸟、较多总数与完整分母、独立体重和营养级各保留；完整41目录子项内容、当前地图未完成。
 <!-- /evo:text -->
 
 ## 从有限生态资料开始
@@ -78,5 +78,5 @@ Sporophila 本批有 4 个有限生态资料页，可从 [Sporophila ardesiaca](
 ## 这组历史数据的边界
 
 <!-- evo:text /records/catalogue-profile/sections/9/text/zh -->
-该入口只覆盖本批已写的有限历史生态资料，不代表完整接受后代或专家审查。按 COL26.8 路径导航、历史同名同科及两张同名一对一表关联，并未消除后来的概念差异。粗生态类别不是独立行为观察，历史地图摘要不是当前占域或保护评估；原始形态推算与体重来源完整保留，但本批不解释为本物种直接测量。
+该入口只覆盖本批已写的有限历史生态资料。按 COL26.8 路径导航、历史同名同科及两张同名一对一表关联，并未消除后来的概念差异。粗生态类别不是独立行为观察，历史地图摘要不是当前占域或保护评估；原始形态推算与体重来源完整保留，但本批不解释为本物种直接测量。
 <!-- /evo:text -->

@@ -36,5 +36,5 @@ Begin with zero female/four unsexed gravivox and eight/seven complete erythrogen
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Six historical guides do not complete seven immediate catalogue children. Older Pomatorhinus names, unsexed birds, complete sets, four equal compiled masses and different shrubland densities retain separate limits. Measured diet, current maps, complete natural history and expert review remain unsupported.
+Six historical guides do not complete seven immediate catalogue children. Older Pomatorhinus names, unsexed birds, complete sets, four equal compiled masses and different shrubland densities retain separate limits. Measured diet, current maps, complete natural history remain unsupported.
 <!-- /evo:text -->

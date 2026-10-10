@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradjidaumo (Macroadjidaumo) reynoldsi
       en: Paradjidaumo (Macroadjidaumo) reynoldsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

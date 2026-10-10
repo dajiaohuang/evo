@@ -9,7 +9,6 @@ records:
     name:
       zh: Aramus guarauna
       en: Aramus guarauna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

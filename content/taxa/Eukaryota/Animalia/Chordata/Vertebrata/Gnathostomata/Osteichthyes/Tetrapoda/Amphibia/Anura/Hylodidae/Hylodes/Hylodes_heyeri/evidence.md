@@ -9,7 +9,6 @@ records:
     name:
       en: Hylodes heyeri
       zh: Hylodes heyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

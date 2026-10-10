@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys yaoshanensis
       zh: Boulenophrys yaoshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

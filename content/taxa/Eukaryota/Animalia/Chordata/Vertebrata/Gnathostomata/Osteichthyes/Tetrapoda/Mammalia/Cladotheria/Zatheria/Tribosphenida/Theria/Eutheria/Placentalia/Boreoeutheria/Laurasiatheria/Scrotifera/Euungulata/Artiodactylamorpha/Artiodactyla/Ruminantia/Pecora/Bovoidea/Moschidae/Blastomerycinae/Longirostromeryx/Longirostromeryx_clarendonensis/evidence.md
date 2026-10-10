@@ -9,7 +9,6 @@ records:
     name:
       zh: Longirostromeryx clarendonensis
       en: Longirostromeryx clarendonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

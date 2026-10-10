@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepus hainanus
       en: Lepus hainanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

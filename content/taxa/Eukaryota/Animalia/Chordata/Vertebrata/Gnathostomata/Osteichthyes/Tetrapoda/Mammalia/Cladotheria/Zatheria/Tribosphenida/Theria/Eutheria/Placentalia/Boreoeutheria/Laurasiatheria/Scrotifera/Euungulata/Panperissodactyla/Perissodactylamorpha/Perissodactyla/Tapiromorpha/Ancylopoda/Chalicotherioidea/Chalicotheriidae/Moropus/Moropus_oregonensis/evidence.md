@@ -9,7 +9,6 @@ records:
     name:
       zh: Moropus oregonensis
       en: Moropus oregonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

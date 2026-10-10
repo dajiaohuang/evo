@@ -9,7 +9,6 @@ records:
     name:
       zh: Atlapetes forbesi
       en: Atlapetes forbesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

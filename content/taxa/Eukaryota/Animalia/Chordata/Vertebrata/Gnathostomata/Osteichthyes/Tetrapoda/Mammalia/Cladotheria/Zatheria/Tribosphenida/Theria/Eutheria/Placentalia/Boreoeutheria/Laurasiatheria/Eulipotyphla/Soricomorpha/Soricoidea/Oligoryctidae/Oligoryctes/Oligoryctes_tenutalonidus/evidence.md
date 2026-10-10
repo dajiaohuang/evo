@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligoryctes tenutalonidus
       en: Oligoryctes tenutalonidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

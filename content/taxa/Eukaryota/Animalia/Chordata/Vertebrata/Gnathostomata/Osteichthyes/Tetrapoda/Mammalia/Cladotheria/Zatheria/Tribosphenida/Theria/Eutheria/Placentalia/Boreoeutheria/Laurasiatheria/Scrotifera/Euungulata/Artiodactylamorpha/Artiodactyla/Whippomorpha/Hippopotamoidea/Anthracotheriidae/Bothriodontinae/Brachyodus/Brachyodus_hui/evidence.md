@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyodus hui
       en: Brachyodus hui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

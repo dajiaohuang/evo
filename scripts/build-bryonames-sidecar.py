@@ -190,7 +190,7 @@ def main() -> None:
         },
         "limitations": [
             "The source archive is the 30 Aug 2026 ChecklistBank import; the COL26.8 sourceDatasetId is retained but this current source snapshot is not asserted to be the 14 Jul 2026 COL import attempt.",
-            "This is an exact identifier/status projection, not species-concept equivalence, a complete Bryonames archive, biological evidence, ecology, media, fossil evidence, phylogeny or expert review.",
+            "This is an exact identifier/status projection, not species-concept equivalence, a complete Bryonames archive, biological evidence, ecology, media, fossil evidence, phylogeny.",
         ],
         "integration": {"clientParityRequirement": "Native Android and iOS must copy the native-full payload byte-for-byte; Web uses the web-light summary profile.", "lookup": {"strategy": "lexicographic-colId-range-v1", "ordering": "Unicode code-unit ascending without locale folding or normalization.", "requestPolicy": "Select the sole inclusive minColId/maxColId shard for a query and load at most that one shard."}},
     }

@@ -9,7 +9,6 @@ records:
     name:
       zh: Limicolae
       en: Limicolae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

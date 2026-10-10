@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoanilius europae
       en: Eoanilius europae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

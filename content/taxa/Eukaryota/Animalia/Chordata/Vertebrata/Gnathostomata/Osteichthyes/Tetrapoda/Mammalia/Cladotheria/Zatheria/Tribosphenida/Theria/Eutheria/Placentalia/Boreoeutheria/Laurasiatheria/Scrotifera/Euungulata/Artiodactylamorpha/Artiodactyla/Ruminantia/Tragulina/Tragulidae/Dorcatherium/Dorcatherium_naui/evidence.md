@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorcatherium naui
       en: Dorcatherium naui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

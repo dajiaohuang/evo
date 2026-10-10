@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoscaptor acridens
       en: Palaeoscaptor acridens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

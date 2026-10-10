@@ -27,7 +27,7 @@ for (const [colId, entry] of all) {
   }
   if (!readNodeContent(entry.path).records['catalogue-profile']) throw new Error(`Missing canonical catalogue profile ${entry.path}`)
   const profile = readNodeContent(entry.path).records['catalogue-profile']
-  records.push({ contentRecord: { path: entry.path, key: 'catalogue-profile', inject: { colId }, originalFields: ['colId', 'scientificName', 'rank', 'sourceDatasetId', 'name', 'reviewStatus', 'checkedAt', 'sections', 'sources', 'limitations', ...(profile.readingLinks ? ['readingLinks'] : [])] } })
+  records.push({ contentRecord: { path: entry.path, key: 'catalogue-profile', inject: { colId }, originalFields: ['colId', 'scientificName', 'rank', 'sourceDatasetId', 'name', 'checkedAt', 'sections', 'sources', 'limitations', ...(profile.readingLinks ? ['readingLinks'] : [])] } })
   existingIds.add(colId)
 }
 const sourceReaders = [

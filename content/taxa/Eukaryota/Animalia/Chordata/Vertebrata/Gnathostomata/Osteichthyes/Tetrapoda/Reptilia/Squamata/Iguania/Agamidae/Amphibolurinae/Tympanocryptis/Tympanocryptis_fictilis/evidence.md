@@ -9,7 +9,6 @@ records:
     name:
       zh: Tympanocryptis fictilis
       en: Tympanocryptis fictilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

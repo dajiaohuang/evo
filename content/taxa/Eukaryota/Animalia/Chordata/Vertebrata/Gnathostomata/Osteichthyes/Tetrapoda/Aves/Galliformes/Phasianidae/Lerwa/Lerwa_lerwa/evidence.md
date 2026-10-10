@@ -9,7 +9,6 @@ records:
     name:
       zh: Lerwa lerwa
       en: Lerwa lerwa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

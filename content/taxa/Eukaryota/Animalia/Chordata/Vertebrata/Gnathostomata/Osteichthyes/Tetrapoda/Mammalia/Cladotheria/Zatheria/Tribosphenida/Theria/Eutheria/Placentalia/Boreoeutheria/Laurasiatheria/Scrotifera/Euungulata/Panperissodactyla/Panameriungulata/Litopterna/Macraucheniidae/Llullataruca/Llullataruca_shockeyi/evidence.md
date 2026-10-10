@@ -9,7 +9,6 @@ records:
     name:
       zh: Llullataruca shockeyi
       en: Llullataruca shockeyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

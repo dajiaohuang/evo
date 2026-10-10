@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhizomops mengraii
       en: Rhizomops mengraii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

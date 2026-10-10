@@ -9,7 +9,6 @@ records:
     name:
       zh: Japalura dasi
       en: Japalura dasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

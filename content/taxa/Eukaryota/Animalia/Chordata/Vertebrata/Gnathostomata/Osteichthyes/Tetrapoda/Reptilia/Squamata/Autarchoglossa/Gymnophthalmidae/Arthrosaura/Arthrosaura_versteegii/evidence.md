@@ -9,7 +9,6 @@ records:
     name:
       zh: Arthrosaura versteegii
       en: Arthrosaura versteegii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

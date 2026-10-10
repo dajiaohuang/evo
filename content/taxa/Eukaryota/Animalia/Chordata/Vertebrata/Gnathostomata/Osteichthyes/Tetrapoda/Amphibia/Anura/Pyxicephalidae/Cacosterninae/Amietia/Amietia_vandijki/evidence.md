@@ -9,7 +9,6 @@ records:
     name:
       en: Amietia vandijki
       zh: Amietia vandijki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

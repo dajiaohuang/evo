@@ -9,7 +9,6 @@ records:
     name:
       zh: Spatula puna
       en: Spatula puna
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

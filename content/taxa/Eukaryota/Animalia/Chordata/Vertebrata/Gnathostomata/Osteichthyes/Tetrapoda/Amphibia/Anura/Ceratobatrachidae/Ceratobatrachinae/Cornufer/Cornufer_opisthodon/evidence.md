@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer opisthodon
       zh: Cornufer opisthodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

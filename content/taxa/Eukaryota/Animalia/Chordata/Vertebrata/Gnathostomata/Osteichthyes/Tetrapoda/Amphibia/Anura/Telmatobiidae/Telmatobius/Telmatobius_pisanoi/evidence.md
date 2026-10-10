@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius pisanoi
       zh: Telmatobius pisanoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

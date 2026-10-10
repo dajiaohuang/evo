@@ -230,11 +230,7 @@ records:
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-        - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
 ---
 
 # Oryza sativa
@@ -457,12 +453,6 @@ A systematic literature review and comparison of cultivar and source concepts wi
 
 ## catalogue-dossier / completeness / reasons
 
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-The distribution facet now has one source-bounded supplemental claim; other facets and independent expert review remain incomplete.
+The distribution facet now has one source-bounded supplemental claim; other facets remain incomplete.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllurus caudiannulatus
       en: Phyllurus caudiannulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

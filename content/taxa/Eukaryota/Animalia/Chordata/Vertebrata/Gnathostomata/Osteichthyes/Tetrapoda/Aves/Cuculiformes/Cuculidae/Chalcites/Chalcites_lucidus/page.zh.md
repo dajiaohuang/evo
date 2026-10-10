@@ -40,5 +40,5 @@ Primary.Lifestyle=Insessorial，定义为较多时间栖停于枝条、植被或
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页使用所选六条AVONET v7历史行之一、两张完整关联表、相关字段定义与COL cha／chr／rh十四名称。eBird均为Chrysococcyx；BirdTree五Chrysococcyx一Rhamphomantis，meyerii旧词尾meyeri保留。相关逐字异名各指向接受种，不证明跨版本物种范围完全等同。形态总数、完整测量和Dunning文献体重独立；未读原始标本、Dunning原书、完整工作簿或新完整方法论文。类别不提供实测食谱、毛虫或其他猎物名单、捕食动作、巢寄生、宿主、繁殖、鸣声、羽色、当前地图或移动路线。不计完整自然史或外部专家审评。
+本页使用所选六条AVONET v7历史行之一、两张完整关联表、相关字段定义与COL cha／chr／rh十四名称。eBird均为Chrysococcyx；BirdTree五Chrysococcyx一Rhamphomantis，meyerii旧词尾meyeri保留。相关逐字异名各指向接受种，不证明跨版本物种范围完全等同。形态总数、完整测量和Dunning文献体重独立；未读原始标本、Dunning原书、完整工作簿或新完整方法论文。类别不提供实测食谱、毛虫或其他猎物名单、捕食动作、巢寄生、宿主、繁殖、鸣声、羽色、当前地图或移动路线。不计完整自然史。
 <!-- /evo:text -->

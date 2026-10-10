@@ -9,7 +9,6 @@ records:
     name:
       zh: Feralisaurus corami
       en: Feralisaurus corami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

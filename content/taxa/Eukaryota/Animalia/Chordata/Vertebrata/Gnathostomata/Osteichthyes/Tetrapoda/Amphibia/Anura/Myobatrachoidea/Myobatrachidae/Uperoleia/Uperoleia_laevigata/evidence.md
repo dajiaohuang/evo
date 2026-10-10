@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia laevigata
       zh: Uperoleia laevigata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

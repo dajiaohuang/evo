@@ -9,7 +9,6 @@ records:
     name:
       en: Chiasmocleis devriesi
       zh: Chiasmocleis devriesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

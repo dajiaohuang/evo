@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: brauckmann-zessin-1989-meganisoptera DOI 10.1002/mmnd.19890360127; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: brauckmann-zessin-1989-meganisoptera
@@ -48,9 +45,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ellers-2024 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: ellers-2024-meganisoptera-flight
           relation: supports
@@ -92,7 +86,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

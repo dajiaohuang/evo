@@ -9,7 +9,6 @@ records:
     name:
       en: Epicrionops columbianus
       zh: Epicrionops columbianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

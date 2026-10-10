@@ -9,7 +9,6 @@ records:
     name:
       zh: Amastridium sapperi
       en: Amastridium sapperi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

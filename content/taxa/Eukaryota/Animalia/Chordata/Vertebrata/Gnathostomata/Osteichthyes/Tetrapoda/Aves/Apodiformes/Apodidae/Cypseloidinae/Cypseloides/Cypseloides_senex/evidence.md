@@ -9,7 +9,6 @@ records:
     name:
       zh: Cypseloides senex
       en: Cypseloides senex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

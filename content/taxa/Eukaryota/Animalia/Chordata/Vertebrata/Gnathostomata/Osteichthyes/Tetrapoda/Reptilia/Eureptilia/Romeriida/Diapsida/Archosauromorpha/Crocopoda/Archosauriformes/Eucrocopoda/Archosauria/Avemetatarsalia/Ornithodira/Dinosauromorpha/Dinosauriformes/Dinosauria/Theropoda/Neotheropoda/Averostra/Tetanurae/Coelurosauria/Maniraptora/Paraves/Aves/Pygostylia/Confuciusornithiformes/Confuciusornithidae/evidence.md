@@ -9,7 +9,6 @@ records:
     name:
       zh: Confuciusornithidae
       en: Confuciusornithidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

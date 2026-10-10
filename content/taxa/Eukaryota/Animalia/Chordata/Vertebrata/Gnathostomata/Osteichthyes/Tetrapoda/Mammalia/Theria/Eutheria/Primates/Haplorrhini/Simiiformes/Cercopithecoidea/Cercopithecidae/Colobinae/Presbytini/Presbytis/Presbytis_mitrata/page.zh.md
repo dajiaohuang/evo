@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-主要生物资料限于 Merangin Geopark 的河岸样区；原论文采用旧亚种组合 Presbytis melalophos ssp. mitrata，分类边界没有在该调查中检验。中文普通名为编辑译名；本页未经过外部领域专家评审。
+主要生物资料限于 Merangin Geopark 的河岸样区；原论文采用旧亚种组合 Presbytis melalophos ssp. mitrata，分类边界没有在该调查中检验。中文普通名为编辑译名。
 <!-- /evo:text -->

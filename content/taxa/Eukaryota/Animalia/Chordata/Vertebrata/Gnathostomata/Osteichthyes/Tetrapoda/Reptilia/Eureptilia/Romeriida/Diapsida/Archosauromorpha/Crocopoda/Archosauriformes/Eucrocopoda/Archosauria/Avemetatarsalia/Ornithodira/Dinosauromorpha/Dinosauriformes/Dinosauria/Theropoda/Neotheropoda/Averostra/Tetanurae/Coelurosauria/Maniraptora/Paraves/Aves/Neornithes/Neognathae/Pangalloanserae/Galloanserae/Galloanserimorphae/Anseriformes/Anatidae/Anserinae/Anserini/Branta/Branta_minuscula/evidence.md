@@ -9,7 +9,6 @@ records:
     name:
       zh: Branta minuscula
       en: Branta minuscula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

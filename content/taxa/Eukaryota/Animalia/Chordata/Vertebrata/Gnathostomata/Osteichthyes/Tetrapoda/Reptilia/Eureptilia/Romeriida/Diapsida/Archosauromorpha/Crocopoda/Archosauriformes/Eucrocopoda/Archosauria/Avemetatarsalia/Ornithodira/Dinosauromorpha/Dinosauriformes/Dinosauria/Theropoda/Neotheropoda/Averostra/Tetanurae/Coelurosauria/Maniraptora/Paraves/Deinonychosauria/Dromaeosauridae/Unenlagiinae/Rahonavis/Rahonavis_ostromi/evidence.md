@@ -9,7 +9,6 @@ records:
     name:
       zh: Rahonavis ostromi
       en: Rahonavis ostromi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

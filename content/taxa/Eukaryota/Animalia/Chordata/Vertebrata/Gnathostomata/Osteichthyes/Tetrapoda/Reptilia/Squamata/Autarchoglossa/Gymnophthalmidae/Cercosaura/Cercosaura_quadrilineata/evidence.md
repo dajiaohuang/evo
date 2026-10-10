@@ -9,7 +9,6 @@ records:
     name:
       zh: Cercosaura quadrilineata
       en: Cercosaura quadrilineata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

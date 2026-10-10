@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelodina (Chelydera) insculpta
       en: Chelodina (Chelydera) insculpta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypoedaleus guttatus
       en: Hypoedaleus guttatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

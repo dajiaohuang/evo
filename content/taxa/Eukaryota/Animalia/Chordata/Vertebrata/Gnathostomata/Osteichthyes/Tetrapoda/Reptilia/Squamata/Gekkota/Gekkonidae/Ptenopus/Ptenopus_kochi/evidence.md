@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptenopus kochi
       en: Ptenopus kochi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coenocorypha pusilla
       en: Coenocorypha pusilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

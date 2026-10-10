@@ -9,7 +9,6 @@ records:
     name:
       zh: 奥里诺科鳄
       en: Orinoco crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

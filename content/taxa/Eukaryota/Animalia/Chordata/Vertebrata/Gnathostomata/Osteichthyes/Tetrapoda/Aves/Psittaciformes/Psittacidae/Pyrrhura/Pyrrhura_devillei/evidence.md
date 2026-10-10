@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrrhura devillei
       en: Pyrrhura devillei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

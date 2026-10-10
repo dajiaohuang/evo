@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobufo
       zh: Telmatobufo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Varalphadon janetae
       en: Varalphadon janetae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

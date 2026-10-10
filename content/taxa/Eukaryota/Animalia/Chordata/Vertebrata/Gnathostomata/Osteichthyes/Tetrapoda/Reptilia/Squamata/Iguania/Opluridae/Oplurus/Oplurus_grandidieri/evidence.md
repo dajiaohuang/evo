@@ -9,7 +9,6 @@ records:
     name:
       zh: Oplurus grandidieri
       en: Oplurus grandidieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

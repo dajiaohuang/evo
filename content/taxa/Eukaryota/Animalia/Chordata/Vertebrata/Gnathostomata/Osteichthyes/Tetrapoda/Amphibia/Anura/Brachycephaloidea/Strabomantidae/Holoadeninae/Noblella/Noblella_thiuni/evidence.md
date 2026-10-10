@@ -9,7 +9,6 @@ records:
     name:
       en: Noblella thiuni
       zh: Noblella thiuni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

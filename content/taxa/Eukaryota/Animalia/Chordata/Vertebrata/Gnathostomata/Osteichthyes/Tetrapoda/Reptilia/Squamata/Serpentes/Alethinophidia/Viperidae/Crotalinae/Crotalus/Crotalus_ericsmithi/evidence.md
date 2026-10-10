@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus ericsmithi
       en: Crotalus ericsmithi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Glasbius piceanus
       en: Glasbius piceanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

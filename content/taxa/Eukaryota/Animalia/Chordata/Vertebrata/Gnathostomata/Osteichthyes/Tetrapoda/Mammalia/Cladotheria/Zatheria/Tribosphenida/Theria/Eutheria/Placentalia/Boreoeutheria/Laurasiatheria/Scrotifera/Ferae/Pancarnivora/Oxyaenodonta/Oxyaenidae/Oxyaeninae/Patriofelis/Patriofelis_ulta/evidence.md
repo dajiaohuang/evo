@@ -9,7 +9,6 @@ records:
     name:
       zh: Patriofelis ulta
       en: Patriofelis ulta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

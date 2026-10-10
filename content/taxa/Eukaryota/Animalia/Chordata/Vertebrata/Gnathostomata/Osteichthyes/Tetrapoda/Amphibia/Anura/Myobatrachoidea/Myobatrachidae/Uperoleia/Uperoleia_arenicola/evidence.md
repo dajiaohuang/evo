@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia arenicola
       zh: Uperoleia arenicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

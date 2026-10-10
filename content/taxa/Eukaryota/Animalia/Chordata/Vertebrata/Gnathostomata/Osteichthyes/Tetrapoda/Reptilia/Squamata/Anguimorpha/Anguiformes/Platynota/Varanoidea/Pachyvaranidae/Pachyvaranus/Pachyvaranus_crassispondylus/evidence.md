@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachyvaranus crassispondylus
       en: Pachyvaranus crassispondylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

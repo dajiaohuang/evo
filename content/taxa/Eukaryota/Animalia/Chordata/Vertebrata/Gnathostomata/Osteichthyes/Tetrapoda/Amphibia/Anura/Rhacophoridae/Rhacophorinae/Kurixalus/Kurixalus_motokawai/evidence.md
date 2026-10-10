@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus motokawai
       zh: Kurixalus motokawai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius bocagei
       zh: Hyperolius bocagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

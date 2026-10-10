@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus guatemalensis
       en: Peromyscus guatemalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

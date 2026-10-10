@@ -9,7 +9,6 @@ records:
     name:
       zh: Apostolepis arenaria
       en: Apostolepis arenaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

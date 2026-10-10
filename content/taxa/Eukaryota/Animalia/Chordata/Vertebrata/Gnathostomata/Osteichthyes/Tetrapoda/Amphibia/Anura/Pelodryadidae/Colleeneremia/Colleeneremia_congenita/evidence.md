@@ -9,7 +9,6 @@ records:
     name:
       en: Colleeneremia congenita
       zh: Colleeneremia congenita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

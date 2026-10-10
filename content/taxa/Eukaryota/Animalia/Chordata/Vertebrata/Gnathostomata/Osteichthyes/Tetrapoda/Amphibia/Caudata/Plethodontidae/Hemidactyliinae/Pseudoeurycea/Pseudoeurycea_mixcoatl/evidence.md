@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea mixcoatl
       zh: Pseudoeurycea mixcoatl
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

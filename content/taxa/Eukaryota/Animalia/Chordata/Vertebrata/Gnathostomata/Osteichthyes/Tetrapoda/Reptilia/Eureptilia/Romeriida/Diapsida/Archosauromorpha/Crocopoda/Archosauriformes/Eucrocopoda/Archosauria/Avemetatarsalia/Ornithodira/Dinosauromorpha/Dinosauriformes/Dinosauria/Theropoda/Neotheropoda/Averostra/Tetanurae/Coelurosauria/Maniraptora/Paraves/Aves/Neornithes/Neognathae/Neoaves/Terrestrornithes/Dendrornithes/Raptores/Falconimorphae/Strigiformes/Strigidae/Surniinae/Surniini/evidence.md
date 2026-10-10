@@ -9,7 +9,6 @@ records:
     name:
       zh: Surniini
       en: Surniini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

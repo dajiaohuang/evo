@@ -9,7 +9,6 @@ records:
     name:
       zh: Serinus nigriceps
       en: Serinus nigriceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

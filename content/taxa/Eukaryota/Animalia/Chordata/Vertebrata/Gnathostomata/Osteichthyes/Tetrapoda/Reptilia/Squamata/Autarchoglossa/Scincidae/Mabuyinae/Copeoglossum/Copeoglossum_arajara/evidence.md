@@ -9,7 +9,6 @@ records:
     name:
       zh: Copeoglossum arajara
       en: Copeoglossum arajara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton priscus
       zh: Chiropterotriton priscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zenaida graysoni
       en: Zenaida graysoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

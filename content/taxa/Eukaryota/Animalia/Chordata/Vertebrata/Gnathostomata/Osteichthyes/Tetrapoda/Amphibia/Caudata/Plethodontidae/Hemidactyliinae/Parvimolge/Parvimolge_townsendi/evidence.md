@@ -9,7 +9,6 @@ records:
     name:
       en: Parvimolge townsendi
       zh: Parvimolge townsendi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

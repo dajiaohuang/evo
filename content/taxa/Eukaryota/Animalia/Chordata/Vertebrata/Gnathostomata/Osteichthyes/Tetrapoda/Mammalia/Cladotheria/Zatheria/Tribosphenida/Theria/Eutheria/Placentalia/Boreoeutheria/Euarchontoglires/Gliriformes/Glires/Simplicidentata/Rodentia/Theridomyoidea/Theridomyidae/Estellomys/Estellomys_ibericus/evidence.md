@@ -9,7 +9,6 @@ records:
     name:
       zh: Estellomys ibericus
       en: Estellomys ibericus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

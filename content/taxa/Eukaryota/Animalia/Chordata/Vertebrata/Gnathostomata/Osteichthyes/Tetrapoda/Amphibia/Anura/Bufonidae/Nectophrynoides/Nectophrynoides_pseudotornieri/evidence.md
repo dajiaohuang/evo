@@ -9,7 +9,6 @@ records:
     name:
       en: Nectophrynoides pseudotornieri
       zh: Nectophrynoides pseudotornieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

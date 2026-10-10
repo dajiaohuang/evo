@@ -9,7 +9,6 @@ records:
     name:
       zh: Laricola intermedia
       en: Laricola intermedia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

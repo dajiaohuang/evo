@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvigyps praecox
       en: Parvigyps praecox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

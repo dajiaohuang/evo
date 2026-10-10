@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurygnathohippus libycum
       en: Eurygnathohippus libycum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

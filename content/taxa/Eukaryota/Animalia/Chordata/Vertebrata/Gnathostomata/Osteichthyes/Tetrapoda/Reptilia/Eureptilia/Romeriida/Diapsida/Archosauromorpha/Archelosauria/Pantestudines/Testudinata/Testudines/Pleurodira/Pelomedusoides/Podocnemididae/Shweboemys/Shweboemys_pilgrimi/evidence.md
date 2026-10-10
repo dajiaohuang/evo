@@ -9,7 +9,6 @@ records:
     name:
       zh: Shweboemys pilgrimi
       en: Shweboemys pilgrimi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

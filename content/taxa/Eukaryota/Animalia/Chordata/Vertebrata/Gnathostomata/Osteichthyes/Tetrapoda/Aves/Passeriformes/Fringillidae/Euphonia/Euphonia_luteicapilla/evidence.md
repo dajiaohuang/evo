@@ -9,7 +9,6 @@ records:
     name:
       zh: Euphonia luteicapilla
       en: Euphonia luteicapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

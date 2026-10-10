@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus kutjupa
       en: Ctenotus kutjupa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

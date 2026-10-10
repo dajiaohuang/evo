@@ -9,7 +9,6 @@ records:
     name:
       en: Firouzophrynus dhufarensis
       zh: Firouzophrynus dhufarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

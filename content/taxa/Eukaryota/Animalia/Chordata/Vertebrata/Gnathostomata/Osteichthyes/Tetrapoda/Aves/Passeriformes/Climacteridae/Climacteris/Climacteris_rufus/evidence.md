@@ -9,7 +9,6 @@ records:
     name:
       zh: Climacteris rufus
       en: Climacteris rufus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

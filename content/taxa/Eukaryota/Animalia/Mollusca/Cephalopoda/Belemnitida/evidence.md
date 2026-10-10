@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: stevens-2023-belemnites
       referenceLinks:
         - referenceId: stevens-2023-belemnites
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Stevens et al. 2023 DOI 10.26879/1239
       referenceLinks:
         - relation: supports
           referenceId: stevens-2023-belemnites
@@ -100,7 +94,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/1/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Belemnitida

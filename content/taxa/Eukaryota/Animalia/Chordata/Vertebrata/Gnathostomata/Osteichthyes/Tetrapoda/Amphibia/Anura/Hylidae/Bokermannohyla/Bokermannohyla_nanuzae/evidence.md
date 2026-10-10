@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla nanuzae
       zh: Bokermannohyla nanuzae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

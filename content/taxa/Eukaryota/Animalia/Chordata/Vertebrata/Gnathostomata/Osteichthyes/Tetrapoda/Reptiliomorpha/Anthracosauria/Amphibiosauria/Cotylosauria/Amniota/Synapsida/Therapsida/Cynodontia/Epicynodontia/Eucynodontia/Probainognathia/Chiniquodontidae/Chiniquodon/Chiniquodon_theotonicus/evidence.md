@@ -9,7 +9,6 @@ records:
     name:
       zh: Chiniquodon theotonicus
       en: Chiniquodon theotonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

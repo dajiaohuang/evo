@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus vastus
       zh: Leptodactylus vastus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

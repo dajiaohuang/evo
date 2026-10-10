@@ -9,7 +9,6 @@ records:
     name:
       zh: Brodiechelys royoi
       en: Brodiechelys royoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

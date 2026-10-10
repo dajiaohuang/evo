@@ -9,7 +9,6 @@ records:
     name:
       zh: Neusticurus surinamensis
       en: Neusticurus surinamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

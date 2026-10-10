@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachydactylus vanzyli
       en: Pachydactylus vanzyli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

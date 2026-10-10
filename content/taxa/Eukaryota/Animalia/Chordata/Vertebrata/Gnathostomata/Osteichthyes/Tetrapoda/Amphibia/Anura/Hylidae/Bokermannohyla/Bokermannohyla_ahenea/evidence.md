@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla ahenea
       zh: Bokermannohyla ahenea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

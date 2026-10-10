@@ -9,7 +9,6 @@ records:
     name:
       zh: Zanycteris paleocenus
       en: Zanycteris paleocenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pellorneum ruficeps
       en: Pellorneum ruficeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

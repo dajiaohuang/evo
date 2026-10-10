@@ -9,7 +9,6 @@ records:
     name:
       zh: Megaceryle alcyon
       en: Megaceryle alcyon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

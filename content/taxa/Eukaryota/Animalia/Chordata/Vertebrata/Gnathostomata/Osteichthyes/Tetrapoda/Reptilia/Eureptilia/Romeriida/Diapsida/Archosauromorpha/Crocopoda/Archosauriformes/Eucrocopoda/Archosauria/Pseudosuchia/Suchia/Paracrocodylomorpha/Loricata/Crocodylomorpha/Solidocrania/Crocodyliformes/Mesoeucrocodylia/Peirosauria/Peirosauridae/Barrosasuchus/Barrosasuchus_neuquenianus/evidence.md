@@ -9,7 +9,6 @@ records:
     name:
       zh: Barrosasuchus neuquenianus
       en: Barrosasuchus neuquenianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

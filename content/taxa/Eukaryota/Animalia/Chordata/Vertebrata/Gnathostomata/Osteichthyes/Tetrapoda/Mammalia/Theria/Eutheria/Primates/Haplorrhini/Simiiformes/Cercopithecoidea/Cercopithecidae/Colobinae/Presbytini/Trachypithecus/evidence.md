@@ -9,7 +9,6 @@ records:
     name:
       zh: 乌叶猴属
       en: Langurs
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: originalSampleProvenance

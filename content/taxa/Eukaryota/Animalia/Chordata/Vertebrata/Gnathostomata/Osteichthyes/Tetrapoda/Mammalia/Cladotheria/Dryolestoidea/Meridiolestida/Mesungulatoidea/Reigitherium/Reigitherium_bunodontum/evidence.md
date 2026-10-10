@@ -9,7 +9,6 @@ records:
     name:
       zh: Reigitherium bunodontum
       en: Reigitherium bunodontum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus ijimae
       en: Phylloscopus ijimae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

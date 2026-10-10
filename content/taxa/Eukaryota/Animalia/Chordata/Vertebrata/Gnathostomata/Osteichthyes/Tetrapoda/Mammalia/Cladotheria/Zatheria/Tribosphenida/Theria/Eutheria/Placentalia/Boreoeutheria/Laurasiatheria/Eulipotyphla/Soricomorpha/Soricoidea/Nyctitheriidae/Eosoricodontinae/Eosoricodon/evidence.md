@@ -9,7 +9,6 @@ records:
     name:
       zh: Eosoricodon
       en: Eosoricodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

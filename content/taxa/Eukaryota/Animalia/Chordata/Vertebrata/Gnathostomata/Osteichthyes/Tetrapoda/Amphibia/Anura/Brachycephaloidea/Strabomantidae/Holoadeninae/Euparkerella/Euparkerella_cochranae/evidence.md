@@ -9,7 +9,6 @@ records:
     name:
       en: Euparkerella cochranae
       zh: Euparkerella cochranae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

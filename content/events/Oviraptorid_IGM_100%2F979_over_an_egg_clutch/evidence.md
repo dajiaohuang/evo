@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: norell-1995-nesting-dinosaur @ DOI 10.1038/378774a0
       referenceLinks:
         - referenceId: norell-1995-nesting-dinosaur
           relation: supports

@@ -9,7 +9,6 @@ records:
     name:
       zh: Caledoniscincus atropunctatus
       en: Caledoniscincus atropunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

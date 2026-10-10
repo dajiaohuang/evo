@@ -56,7 +56,7 @@ The resulting counts are:
 Each record keeps source row locators, referenced bibliography rows, the
 source name/taxon fields, and distribution rows available in the frozen
 archive. This is nomenclatural/source evidence, not a biological dossier,
-distribution-completeness statement, fossil evidence, or expert review.
+distribution-completeness statement, fossil evidence.
 
 ## Delivery and deterministic replay
 

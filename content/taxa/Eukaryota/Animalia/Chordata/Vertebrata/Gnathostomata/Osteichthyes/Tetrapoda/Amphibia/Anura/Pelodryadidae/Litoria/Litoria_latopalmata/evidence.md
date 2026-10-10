@@ -9,7 +9,6 @@ records:
     name:
       en: Litoria latopalmata
       zh: Litoria latopalmata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

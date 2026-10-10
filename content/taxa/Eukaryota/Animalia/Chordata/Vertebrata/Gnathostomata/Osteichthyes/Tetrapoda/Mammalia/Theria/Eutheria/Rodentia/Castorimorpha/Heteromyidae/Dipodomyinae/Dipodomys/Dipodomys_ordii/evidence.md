@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipodomys ordii
       en: Dipodomys ordii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

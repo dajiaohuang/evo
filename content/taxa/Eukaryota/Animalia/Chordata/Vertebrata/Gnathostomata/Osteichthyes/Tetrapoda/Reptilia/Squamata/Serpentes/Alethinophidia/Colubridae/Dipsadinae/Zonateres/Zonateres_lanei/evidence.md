@@ -9,7 +9,6 @@ records:
     name:
       zh: Zonateres lanei
       en: Zonateres lanei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

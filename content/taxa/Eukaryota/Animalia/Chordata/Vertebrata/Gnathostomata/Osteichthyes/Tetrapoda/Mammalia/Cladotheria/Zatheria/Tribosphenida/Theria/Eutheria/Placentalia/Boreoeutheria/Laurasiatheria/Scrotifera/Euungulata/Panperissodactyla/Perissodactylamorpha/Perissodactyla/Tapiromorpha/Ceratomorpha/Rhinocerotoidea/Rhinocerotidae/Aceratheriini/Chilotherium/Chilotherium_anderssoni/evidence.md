@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilotherium anderssoni
       en: Chilotherium anderssoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

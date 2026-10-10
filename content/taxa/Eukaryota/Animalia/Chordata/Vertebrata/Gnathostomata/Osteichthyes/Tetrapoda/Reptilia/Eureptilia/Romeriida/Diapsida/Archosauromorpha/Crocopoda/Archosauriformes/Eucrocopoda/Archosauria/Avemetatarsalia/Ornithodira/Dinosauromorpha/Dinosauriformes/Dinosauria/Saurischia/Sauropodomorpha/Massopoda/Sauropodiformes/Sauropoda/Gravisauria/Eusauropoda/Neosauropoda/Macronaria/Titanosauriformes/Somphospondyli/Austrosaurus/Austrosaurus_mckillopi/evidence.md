@@ -9,7 +9,6 @@ records:
     name:
       zh: Austrosaurus mckillopi
       en: Austrosaurus mckillopi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tsintaosaurus spinorhinus
       en: Tsintaosaurus spinorhinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

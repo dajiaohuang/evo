@@ -9,7 +9,6 @@ records:
     name:
       zh: Eozygodactylus americanus
       en: Eozygodactylus americanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

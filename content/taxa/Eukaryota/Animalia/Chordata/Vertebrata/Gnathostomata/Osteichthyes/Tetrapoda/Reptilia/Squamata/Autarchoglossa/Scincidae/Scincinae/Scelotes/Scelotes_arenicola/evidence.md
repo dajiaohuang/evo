@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelotes arenicola
       en: Scelotes arenicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

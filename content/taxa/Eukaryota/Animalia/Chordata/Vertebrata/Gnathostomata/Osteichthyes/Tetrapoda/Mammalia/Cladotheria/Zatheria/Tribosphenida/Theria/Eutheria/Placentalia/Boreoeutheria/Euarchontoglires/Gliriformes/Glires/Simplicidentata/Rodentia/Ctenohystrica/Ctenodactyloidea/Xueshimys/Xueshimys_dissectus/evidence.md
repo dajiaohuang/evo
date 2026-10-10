@@ -9,7 +9,6 @@ records:
     name:
       zh: Xueshimys dissectus
       en: Xueshimys dissectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

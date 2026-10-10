@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetrapodophis amplectus
       en: Tetrapodophis amplectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: luo-2011-juramaia + celik-phillips-2020-juramaia-tip-dating concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: luo-2011-juramaia
@@ -73,7 +70,6 @@ records:
           locator: 442–445; Figures 1–3
         - referenceId: celik-phillips-2020-juramaia-tip-dating
           locator: 20200943; Figure 3; Figures S11–S13
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Juramaia
     rank: genus
@@ -81,7 +77,6 @@ records:
     name:
       zh: Juramaia
       en: Juramaia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

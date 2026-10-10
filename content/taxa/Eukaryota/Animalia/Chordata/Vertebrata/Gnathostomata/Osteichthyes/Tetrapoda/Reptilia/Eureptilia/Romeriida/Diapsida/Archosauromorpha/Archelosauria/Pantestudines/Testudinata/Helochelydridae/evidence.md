@@ -9,7 +9,6 @@ records:
     name:
       zh: Helochelydridae
       en: Helochelydridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

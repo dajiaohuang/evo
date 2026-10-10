@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmana nehringi
       en: Desmana nehringi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

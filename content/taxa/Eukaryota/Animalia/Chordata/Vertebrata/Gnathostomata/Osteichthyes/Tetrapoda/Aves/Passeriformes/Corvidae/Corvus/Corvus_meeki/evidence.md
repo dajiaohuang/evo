@@ -9,7 +9,6 @@ records:
     name:
       zh: Corvus meeki
       en: Corvus meeki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

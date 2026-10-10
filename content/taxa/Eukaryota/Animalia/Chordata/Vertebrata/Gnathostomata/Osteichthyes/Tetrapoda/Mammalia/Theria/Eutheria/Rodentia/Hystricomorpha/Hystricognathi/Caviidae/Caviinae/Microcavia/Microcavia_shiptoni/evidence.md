@@ -9,7 +9,6 @@ records:
     name:
       zh: Microcavia shiptoni
       en: Microcavia shiptoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

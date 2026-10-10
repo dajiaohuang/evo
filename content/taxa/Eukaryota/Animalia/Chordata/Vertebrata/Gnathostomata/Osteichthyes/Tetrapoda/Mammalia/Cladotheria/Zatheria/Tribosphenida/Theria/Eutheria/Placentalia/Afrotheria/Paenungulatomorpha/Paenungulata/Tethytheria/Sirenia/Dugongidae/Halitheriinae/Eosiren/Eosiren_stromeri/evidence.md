@@ -9,7 +9,6 @@ records:
     name:
       zh: Eosiren stromeri
       en: Eosiren stromeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

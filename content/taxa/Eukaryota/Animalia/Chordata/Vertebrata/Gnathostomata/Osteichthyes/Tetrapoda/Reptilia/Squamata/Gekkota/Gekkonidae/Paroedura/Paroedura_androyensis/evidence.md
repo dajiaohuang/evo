@@ -9,7 +9,6 @@ records:
     name:
       zh: Paroedura androyensis
       en: Paroedura androyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

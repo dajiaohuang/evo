@@ -9,7 +9,6 @@ records:
     name:
       en: Vietnamophryne aurantifusca
       zh: Vietnamophryne aurantifusca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

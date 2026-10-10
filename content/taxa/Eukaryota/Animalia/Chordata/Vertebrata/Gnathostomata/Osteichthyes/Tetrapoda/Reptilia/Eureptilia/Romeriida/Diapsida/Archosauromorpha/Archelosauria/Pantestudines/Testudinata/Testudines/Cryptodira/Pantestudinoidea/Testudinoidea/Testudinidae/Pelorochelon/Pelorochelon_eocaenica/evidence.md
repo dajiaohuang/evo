@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelorochelon eocaenica
       en: Pelorochelon eocaenica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

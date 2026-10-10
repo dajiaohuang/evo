@@ -9,7 +9,6 @@ records:
     name:
       en: Poyntonophrynus jordani
       zh: Poyntonophrynus jordani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

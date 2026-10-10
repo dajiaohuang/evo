@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius oyamai
       zh: Hynobius oyamai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

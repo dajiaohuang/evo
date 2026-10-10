@@ -34,5 +34,5 @@ The current MDD Simmons mouse lemur entry includes Boraha; COL26.8 retains two a
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-COL26.8 accepts this species, while the local MDD exact-name crosswalk has no matching name. This page follows the pinned COL identity and does not treat that as a resolution of global taxonomic disagreement. Current range, population trend and conservation status are not assessed; the common-name label is editorial and not externally reviewed. The current MDD page records a broader name treatment; this page follows the pinned COL26.8 ID and presents both treatments. The page is not externally expert-reviewed.
+COL26.8 accepts this species, while the local MDD exact-name crosswalk has no matching name. This page follows the pinned COL identity and does not treat that as a resolution of global taxonomic disagreement. Current range, population trend and conservation status are not assessed; the common-name label is editorial and not externally reviewed. The current MDD page records a broader name treatment; this page follows the pinned COL26.8 ID and presents both treatments. The page is.
 <!-- /evo:text -->

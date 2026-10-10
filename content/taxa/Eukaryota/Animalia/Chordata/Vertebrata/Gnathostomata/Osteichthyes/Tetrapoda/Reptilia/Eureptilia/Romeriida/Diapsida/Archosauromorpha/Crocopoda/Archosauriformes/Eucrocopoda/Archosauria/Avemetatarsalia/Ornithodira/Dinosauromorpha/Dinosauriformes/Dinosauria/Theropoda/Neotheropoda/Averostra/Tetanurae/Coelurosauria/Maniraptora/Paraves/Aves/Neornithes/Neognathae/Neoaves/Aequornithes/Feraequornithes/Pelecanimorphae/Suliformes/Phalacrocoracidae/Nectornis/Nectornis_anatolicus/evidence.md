@@ -9,7 +9,6 @@ records:
     name:
       zh: Nectornis anatolicus
       en: Nectornis anatolicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

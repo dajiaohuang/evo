@@ -9,7 +9,6 @@ records:
     name:
       en: Itapotihyla
       zh: Itapotihyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

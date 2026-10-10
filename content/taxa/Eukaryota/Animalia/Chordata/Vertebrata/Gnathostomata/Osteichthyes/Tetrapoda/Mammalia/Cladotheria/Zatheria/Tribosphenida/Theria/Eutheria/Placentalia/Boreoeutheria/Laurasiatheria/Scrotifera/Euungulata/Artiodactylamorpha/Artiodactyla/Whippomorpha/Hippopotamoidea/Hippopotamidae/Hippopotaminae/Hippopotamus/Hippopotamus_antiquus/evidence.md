@@ -9,7 +9,6 @@ records:
     name:
       zh: Hippopotamus antiquus
       en: Hippopotamus antiquus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

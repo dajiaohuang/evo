@@ -9,7 +9,6 @@ records:
     name:
       zh: Epitriplopus uintensis
       en: Epitriplopus uintensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

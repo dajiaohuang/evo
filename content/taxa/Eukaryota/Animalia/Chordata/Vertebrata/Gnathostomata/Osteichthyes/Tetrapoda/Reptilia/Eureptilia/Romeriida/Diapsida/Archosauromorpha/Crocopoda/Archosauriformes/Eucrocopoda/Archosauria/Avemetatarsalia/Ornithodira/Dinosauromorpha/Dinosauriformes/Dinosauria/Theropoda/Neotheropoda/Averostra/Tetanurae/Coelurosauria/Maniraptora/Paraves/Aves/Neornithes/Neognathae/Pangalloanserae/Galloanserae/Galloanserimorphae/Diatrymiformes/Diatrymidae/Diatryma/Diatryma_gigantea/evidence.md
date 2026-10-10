@@ -9,7 +9,6 @@ records:
     name:
       zh: Diatryma gigantea
       en: Diatryma gigantea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

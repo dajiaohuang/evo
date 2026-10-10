@@ -9,7 +9,6 @@ records:
     name:
       zh: Picumnus castelnau
       en: Picumnus castelnau
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

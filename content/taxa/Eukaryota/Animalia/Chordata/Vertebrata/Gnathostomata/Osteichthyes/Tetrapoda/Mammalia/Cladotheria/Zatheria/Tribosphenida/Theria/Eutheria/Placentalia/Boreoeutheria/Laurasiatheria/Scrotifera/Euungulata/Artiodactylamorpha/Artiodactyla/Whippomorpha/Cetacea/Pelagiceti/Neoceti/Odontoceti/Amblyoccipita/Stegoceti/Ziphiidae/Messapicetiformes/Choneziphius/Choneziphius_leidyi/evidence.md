@@ -9,7 +9,6 @@ records:
     name:
       zh: Choneziphius leidyi
       en: Choneziphius leidyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

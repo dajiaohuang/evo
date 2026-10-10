@@ -558,7 +558,7 @@ Methods names Cycloramphus acangatan, whereas Document S1 lists Cycloramphus bor
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial study-scoped biological reader. Remaining biological facets require further evidence. Not externally expert-reviewed.
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

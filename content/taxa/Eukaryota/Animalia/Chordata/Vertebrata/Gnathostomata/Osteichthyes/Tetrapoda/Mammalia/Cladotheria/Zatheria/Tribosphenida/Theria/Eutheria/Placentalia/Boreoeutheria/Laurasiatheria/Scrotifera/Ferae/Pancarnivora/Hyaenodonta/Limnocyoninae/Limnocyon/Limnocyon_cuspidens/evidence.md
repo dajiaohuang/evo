@@ -9,7 +9,6 @@ records:
     name:
       zh: Limnocyon cuspidens
       en: Limnocyon cuspidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

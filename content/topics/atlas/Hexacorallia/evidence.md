@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: daly-2007-cnidaria-review
       referenceLinks:
         - referenceId: daly-2007-cnidaria-review
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: daly-2007-cnidaria-review locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: daly-2007-cnidaria-review
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: daly-2007-cnidaria-review
           locator: 127–182; Hexacorallia classification and phylogenetic-pattern sections
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

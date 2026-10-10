@@ -9,7 +9,6 @@ records:
     name:
       zh: Arachnothera clarae
       en: Arachnothera clarae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesoenas cicur
       en: Nesoenas cicur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

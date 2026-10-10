@@ -9,7 +9,6 @@ records:
     name:
       zh: Khasia cordillerensis
       en: Khasia cordillerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gyps coprotheres
       en: Gyps coprotheres
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

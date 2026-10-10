@@ -9,7 +9,6 @@ records:
     name:
       zh: Sericornis frontalis
       en: Sericornis frontalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

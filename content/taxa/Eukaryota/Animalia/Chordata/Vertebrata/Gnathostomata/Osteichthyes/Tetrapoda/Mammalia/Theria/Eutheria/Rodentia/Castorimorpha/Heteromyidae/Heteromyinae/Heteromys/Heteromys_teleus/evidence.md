@@ -9,7 +9,6 @@ records:
     name:
       zh: Heteromys teleus
       en: Heteromys teleus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

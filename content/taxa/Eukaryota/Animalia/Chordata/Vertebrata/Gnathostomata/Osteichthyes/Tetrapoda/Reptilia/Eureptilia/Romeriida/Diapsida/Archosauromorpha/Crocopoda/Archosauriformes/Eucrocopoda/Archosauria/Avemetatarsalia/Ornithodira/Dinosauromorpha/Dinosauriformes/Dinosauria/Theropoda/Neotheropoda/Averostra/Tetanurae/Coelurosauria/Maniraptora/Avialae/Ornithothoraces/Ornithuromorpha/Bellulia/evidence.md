@@ -9,7 +9,6 @@ records:
     name:
       zh: Bellulia
       en: Bellulia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

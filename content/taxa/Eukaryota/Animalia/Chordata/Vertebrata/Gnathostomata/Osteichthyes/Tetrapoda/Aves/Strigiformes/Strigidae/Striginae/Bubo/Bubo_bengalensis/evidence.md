@@ -9,7 +9,6 @@ records:
     name:
       zh: Bubo bengalensis
       en: Bubo bengalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

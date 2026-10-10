@@ -22,5 +22,5 @@ The type locality and records known to the paper were limited to Ambodimahabibo 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The guide separates the 2007 biological description from the 2017 nomenclatural correction. Morphology and distribution remain limited-sample records, not a population survey. The Chinese name is editorial, and this guide is not externally expert-reviewed.
+The guide separates the 2007 biological description from the 2017 nomenclatural correction. Morphology and distribution remain limited-sample records, not a population survey. The Chinese name is editorial, and this guide is.
 <!-- /evo:text -->

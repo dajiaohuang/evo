@@ -9,7 +9,6 @@ records:
     name:
       zh: Turtur abyssinicus
       en: Turtur abyssinicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

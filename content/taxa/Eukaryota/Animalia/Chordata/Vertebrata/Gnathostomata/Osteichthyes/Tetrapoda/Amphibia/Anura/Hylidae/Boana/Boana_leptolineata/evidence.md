@@ -9,7 +9,6 @@ records:
     name:
       en: Boana leptolineata
       zh: Boana leptolineata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

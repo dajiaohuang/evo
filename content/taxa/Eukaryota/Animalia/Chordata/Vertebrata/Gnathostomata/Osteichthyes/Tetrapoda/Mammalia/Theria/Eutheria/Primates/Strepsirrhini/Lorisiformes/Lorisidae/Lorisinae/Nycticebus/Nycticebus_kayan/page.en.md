@@ -22,5 +22,5 @@ Munds and colleagues found that facial-marking combinations clustered geographic
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This profile is limited to the cited sources and their locality, specimen, sample and taxonomic scope. Its Chinese common name is an editorial translation. This entry is not externally expert-reviewed.
+This profile is limited to the cited sources and their locality, specimen, sample and taxonomic scope. Its Chinese common name is an editorial translation. This entry is.
 <!-- /evo:text -->

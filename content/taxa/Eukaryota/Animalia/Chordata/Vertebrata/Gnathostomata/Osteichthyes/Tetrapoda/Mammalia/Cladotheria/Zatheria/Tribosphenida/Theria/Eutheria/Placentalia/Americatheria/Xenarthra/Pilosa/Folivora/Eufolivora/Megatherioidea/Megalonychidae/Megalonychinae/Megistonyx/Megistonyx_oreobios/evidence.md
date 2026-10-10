@@ -9,7 +9,6 @@ records:
     name:
       zh: Megistonyx oreobios
       en: Megistonyx oreobios
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis eurydactylus
       zh: Pristimantis eurydactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

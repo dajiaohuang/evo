@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: archer-1985-steropodon primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: archer-1985-steropodon
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: archer-1985-steropodon
           locator: pp. 363–366; Figures 1–2; Diagnosis and Description
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Monotremata
@@ -73,7 +69,6 @@ records:
     name:
       zh: Monotremata
       en: Monotremata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

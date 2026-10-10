@@ -9,7 +9,6 @@ records:
     name:
       en: Osornophryne occidentalis
       zh: Osornophryne occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

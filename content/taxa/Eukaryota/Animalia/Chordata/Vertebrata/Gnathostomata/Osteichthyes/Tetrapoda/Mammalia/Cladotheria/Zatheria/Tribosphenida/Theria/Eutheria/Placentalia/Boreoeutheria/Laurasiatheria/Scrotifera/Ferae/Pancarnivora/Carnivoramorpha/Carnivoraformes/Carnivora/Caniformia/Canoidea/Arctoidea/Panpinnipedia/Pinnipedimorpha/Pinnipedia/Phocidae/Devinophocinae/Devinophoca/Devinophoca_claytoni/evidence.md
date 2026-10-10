@@ -9,7 +9,6 @@ records:
     name:
       zh: Devinophoca claytoni
       en: Devinophoca claytoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

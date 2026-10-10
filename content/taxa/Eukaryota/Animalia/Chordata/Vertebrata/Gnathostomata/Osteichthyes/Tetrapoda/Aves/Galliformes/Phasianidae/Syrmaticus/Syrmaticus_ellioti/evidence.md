@@ -9,7 +9,6 @@ records:
     name:
       zh: Syrmaticus ellioti
       en: Syrmaticus ellioti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus trangdinhensis
       zh: Rhacophorus trangdinhensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

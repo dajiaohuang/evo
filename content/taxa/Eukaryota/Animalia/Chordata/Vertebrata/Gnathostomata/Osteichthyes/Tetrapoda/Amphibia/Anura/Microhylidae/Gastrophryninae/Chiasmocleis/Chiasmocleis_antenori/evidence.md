@@ -9,7 +9,6 @@ records:
     name:
       en: Chiasmocleis antenori
       zh: Chiasmocleis antenori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

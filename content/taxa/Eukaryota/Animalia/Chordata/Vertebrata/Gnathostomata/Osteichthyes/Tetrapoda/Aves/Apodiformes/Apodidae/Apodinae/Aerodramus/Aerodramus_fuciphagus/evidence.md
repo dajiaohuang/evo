@@ -9,7 +9,6 @@ records:
     name:
       zh: Aerodramus fuciphagus
       en: Aerodramus fuciphagus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

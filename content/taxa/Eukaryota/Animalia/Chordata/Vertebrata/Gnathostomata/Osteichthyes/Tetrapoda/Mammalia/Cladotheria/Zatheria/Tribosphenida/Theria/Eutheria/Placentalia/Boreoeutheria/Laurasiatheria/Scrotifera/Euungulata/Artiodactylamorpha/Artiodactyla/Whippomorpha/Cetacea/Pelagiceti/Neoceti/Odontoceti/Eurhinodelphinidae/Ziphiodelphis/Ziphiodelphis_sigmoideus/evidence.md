@@ -9,7 +9,6 @@ records:
     name:
       zh: Ziphiodelphis sigmoideus
       en: Ziphiodelphis sigmoideus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

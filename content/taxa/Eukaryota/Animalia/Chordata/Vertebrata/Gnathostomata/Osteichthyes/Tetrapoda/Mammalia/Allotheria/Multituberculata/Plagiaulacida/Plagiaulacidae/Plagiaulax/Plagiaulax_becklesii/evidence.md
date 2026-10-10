@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagiaulax becklesii
       en: Plagiaulax becklesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

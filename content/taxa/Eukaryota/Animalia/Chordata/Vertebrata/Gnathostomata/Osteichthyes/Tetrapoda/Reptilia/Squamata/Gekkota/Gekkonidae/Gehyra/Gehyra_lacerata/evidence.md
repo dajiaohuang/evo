@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra lacerata
       en: Gehyra lacerata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

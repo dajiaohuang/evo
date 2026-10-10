@@ -9,7 +9,6 @@ records:
     name:
       zh: Subdromomeryx antilopinus
       en: Subdromomeryx antilopinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

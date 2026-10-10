@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus femoralis
       zh: Mantidactylus femoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

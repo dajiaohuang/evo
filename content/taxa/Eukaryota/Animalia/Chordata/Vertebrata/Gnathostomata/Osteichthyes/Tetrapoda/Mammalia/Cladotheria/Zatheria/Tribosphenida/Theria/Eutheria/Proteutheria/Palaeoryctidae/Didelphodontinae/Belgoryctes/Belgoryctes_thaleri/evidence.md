@@ -9,7 +9,6 @@ records:
     name:
       zh: Belgoryctes thaleri
       en: Belgoryctes thaleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

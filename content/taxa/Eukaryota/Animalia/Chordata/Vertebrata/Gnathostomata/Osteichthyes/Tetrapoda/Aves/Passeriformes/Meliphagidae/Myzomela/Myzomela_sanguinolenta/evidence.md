@@ -9,7 +9,6 @@ records:
     name:
       zh: Myzomela sanguinolenta
       en: Myzomela sanguinolenta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mitophis asbolepis
       en: Mitophis asbolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

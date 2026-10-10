@@ -9,7 +9,6 @@ records:
     name:
       zh: Spalax uralensis
       en: Spalax uralensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

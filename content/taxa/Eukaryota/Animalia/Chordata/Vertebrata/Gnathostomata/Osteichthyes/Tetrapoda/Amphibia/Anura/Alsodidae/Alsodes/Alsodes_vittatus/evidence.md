@@ -9,7 +9,6 @@ records:
     name:
       en: Alsodes vittatus
       zh: Alsodes vittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aluralagus virginiae
       en: Aluralagus virginiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

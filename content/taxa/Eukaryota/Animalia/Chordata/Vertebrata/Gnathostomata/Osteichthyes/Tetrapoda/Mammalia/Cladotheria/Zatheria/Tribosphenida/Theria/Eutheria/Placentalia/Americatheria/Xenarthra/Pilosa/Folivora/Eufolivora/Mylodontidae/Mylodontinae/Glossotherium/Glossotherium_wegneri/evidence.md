@@ -9,7 +9,6 @@ records:
     name:
       zh: Glossotherium wegneri
       en: Glossotherium wegneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

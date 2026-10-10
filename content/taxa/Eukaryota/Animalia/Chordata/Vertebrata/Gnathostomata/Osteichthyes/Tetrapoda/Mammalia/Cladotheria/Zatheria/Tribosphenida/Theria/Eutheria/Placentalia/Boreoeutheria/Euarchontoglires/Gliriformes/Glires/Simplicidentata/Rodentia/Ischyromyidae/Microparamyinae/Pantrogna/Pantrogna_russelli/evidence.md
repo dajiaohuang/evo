@@ -9,7 +9,6 @@ records:
     name:
       zh: Pantrogna russelli
       en: Pantrogna russelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

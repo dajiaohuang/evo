@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyrannus cubensis
       en: Tyrannus cubensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

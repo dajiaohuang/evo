@@ -9,7 +9,6 @@ records:
     name:
       zh: Scincella lateralis
       en: Scincella lateralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

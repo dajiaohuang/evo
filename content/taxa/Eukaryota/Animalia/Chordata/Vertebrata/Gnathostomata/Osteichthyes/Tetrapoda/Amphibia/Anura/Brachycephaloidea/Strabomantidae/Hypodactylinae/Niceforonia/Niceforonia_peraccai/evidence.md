@@ -9,7 +9,6 @@ records:
     name:
       en: Niceforonia peraccai
       zh: Niceforonia peraccai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

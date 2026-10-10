@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus exasperatus
       zh: Hyloxalus exasperatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

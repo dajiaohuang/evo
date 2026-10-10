@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus amieti
       zh: Xenopus amieti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

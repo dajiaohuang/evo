@@ -9,7 +9,6 @@ records:
     name:
       zh: Parikimys carpenteri
       en: Parikimys carpenteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

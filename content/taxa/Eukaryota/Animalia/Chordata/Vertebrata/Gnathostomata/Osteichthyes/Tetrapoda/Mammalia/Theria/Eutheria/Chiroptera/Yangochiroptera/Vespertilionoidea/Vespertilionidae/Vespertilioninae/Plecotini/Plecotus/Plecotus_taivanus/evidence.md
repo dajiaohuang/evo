@@ -9,7 +9,6 @@ records:
     name:
       zh: Plecotus taivanus
       en: Plecotus taivanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

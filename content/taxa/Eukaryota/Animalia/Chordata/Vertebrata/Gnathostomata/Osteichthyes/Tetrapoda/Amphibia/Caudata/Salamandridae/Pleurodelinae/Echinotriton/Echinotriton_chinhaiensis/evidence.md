@@ -9,7 +9,6 @@ records:
     name:
       en: Echinotriton chinhaiensis
       zh: Echinotriton chinhaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dissacus serratus
       en: Dissacus serratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tangara johannae
       en: Tangara johannae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

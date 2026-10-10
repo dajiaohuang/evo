@@ -9,7 +9,6 @@ records:
     name:
       zh: Malayotyphlops ruber
       en: Malayotyphlops ruber
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

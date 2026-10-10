@@ -9,7 +9,6 @@ records:
     name:
       zh: Trapelus flavimaculatus
       en: Trapelus flavimaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

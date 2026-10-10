@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenopsalis nobilis
       en: Sphenopsalis nobilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Meizonyx salvadorensis
       en: Meizonyx salvadorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

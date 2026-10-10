@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes savan
       zh: Limnonectes savan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

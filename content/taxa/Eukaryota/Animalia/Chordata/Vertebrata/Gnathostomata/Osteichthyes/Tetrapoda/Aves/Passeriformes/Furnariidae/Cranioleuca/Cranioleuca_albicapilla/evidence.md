@@ -9,7 +9,6 @@ records:
     name:
       zh: Cranioleuca albicapilla
       en: Cranioleuca albicapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

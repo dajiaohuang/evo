@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhadinophanes monticola
       en: Rhadinophanes monticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

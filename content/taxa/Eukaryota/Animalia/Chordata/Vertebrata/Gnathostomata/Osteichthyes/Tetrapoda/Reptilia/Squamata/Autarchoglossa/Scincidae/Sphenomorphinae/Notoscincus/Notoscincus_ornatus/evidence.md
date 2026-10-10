@@ -9,7 +9,6 @@ records:
     name:
       zh: Notoscincus ornatus
       en: Notoscincus ornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

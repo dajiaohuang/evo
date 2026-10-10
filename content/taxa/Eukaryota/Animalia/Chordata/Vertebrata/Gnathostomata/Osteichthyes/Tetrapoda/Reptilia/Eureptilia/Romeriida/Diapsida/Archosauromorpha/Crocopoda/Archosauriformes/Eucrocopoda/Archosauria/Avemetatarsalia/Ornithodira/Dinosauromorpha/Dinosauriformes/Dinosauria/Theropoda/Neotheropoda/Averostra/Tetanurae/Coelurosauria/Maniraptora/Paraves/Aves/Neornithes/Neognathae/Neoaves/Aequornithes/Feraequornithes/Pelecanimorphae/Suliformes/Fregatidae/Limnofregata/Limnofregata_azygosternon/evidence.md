@@ -9,7 +9,6 @@ records:
     name:
       zh: Limnofregata azygosternon
       en: Limnofregata azygosternon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

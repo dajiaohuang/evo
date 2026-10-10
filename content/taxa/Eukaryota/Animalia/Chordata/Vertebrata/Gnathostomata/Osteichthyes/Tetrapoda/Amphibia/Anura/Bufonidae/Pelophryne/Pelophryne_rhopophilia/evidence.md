@@ -9,7 +9,6 @@ records:
     name:
       en: Pelophryne rhopophilia
       zh: Pelophryne rhopophilia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

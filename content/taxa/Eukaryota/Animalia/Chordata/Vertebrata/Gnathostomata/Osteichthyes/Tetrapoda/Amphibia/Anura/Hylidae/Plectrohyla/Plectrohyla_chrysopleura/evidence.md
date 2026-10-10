@@ -9,7 +9,6 @@ records:
     name:
       en: Plectrohyla chrysopleura
       zh: Plectrohyla chrysopleura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pipa arrabali
       zh: Pipa arrabali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

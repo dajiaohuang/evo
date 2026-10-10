@@ -9,7 +9,6 @@ records:
     name:
       zh: Trichys fasciculata
       en: Trichys fasciculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

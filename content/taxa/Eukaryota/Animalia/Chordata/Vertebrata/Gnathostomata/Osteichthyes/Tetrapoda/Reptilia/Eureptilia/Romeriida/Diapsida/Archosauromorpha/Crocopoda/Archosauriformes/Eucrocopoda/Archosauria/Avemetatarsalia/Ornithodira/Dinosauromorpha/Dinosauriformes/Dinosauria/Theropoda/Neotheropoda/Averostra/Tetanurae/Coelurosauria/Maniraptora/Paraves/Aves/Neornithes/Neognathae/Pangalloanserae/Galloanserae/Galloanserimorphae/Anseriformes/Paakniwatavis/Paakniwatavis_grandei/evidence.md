@@ -9,7 +9,6 @@ records:
     name:
       zh: Paakniwatavis grandei
       en: Paakniwatavis grandei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

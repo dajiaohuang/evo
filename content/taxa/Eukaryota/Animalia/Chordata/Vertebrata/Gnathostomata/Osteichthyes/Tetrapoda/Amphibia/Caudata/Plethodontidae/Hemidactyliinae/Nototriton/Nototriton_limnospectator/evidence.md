@@ -9,7 +9,6 @@ records:
     name:
       en: Nototriton limnospectator
       zh: Nototriton limnospectator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

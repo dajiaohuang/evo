@@ -9,7 +9,6 @@ records:
     name:
       zh: Mithridatocetus eichwaldi
       en: Mithridatocetus eichwaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

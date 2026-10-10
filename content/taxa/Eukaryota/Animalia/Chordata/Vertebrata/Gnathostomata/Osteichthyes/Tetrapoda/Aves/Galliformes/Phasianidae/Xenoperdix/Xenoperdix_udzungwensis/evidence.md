@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenoperdix udzungwensis
       en: Xenoperdix udzungwensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

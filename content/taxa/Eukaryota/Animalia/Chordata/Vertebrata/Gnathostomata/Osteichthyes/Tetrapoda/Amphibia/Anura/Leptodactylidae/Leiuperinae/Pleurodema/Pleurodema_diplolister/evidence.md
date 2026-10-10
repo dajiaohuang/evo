@@ -9,7 +9,6 @@ records:
     name:
       en: Pleurodema diplolister
       zh: Pleurodema diplolister
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerrhopilus hades
       en: Gerrhopilus hades
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

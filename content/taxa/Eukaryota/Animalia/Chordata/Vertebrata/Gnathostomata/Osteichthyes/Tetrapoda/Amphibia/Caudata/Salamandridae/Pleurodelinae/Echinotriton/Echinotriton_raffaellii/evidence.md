@@ -9,7 +9,6 @@ records:
     name:
       en: Echinotriton raffaellii
       zh: Echinotriton raffaellii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

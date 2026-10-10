@@ -9,7 +9,6 @@ records:
     name:
       zh: Machairodus ischimicus
       en: Machairodus ischimicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

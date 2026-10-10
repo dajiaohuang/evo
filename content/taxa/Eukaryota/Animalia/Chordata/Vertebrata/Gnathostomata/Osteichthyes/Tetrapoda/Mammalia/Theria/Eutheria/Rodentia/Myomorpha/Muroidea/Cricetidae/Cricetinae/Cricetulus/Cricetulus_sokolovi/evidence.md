@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricetulus sokolovi
       en: Cricetulus sokolovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

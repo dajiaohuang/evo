@@ -9,7 +9,6 @@ records:
     name:
       zh: Phelsuma rosagularis
       en: Phelsuma rosagularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

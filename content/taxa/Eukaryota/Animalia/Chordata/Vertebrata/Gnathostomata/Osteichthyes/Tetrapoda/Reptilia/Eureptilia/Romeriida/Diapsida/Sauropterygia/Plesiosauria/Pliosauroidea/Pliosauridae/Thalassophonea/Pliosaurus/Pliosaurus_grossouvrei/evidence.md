@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliosaurus grossouvrei
       en: Pliosaurus grossouvrei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

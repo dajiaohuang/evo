@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus beddomei
       en: Rhinolophus beddomei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

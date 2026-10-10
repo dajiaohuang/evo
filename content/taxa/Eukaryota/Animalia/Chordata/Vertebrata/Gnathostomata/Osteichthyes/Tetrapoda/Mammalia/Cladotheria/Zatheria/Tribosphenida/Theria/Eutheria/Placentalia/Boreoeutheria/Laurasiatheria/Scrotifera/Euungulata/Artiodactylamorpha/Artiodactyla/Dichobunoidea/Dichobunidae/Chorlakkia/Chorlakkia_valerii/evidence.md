@@ -9,7 +9,6 @@ records:
     name:
       zh: Chorlakkia valerii
       en: Chorlakkia valerii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

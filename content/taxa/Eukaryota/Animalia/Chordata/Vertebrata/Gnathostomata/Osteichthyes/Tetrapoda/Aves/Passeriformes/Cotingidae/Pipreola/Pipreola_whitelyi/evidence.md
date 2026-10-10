@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipreola whitelyi
       en: Pipreola whitelyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

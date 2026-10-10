@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyaenodon horridus
       en: Hyaenodon horridus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

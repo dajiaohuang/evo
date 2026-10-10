@@ -9,7 +9,6 @@ records:
     name:
       zh: Stromaphorus compressidens
       en: Stromaphorus compressidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

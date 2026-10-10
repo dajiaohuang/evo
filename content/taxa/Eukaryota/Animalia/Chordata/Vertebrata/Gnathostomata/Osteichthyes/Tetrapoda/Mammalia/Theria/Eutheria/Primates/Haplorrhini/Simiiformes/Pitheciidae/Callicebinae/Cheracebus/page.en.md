@@ -16,7 +16,7 @@ COL26.8 genus ID 3MSD connects the accepted pages for Cheracebus medemi (TXQM), 
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a short reading path through six accepted species IDs and three geographically and taxonomically bounded studies, not a complete genus account. The older transect paper used a broader name than the current species split; the 2021 regional survey retained Cheracebus sp.; and the new-species paper is taxonomic rather than a full ecological survey. No dossier or external expert review was added. This page is not externally expert-reviewed.
+This is a short reading path through six accepted species IDs and three geographically and taxonomically bounded studies, not a complete genus account. The older transect paper used a broader name than the current species split; the 2021 regional survey retained Cheracebus sp.; and the new-species paper is taxonomic rather than a full ecological survey. This page is.
 <!-- /evo:text -->
 
 ## Separate names, historical transects and national assessment

@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus zal
       zh: Pseudophilautus zal
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

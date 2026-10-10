@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidophis preciosus
       en: Tropidophis preciosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

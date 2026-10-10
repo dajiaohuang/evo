@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachyaena ossifraga
       en: Pachyaena ossifraga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

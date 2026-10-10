@@ -9,7 +9,6 @@ records:
     name:
       en: Gracixalus medogensis
       zh: Gracixalus medogensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

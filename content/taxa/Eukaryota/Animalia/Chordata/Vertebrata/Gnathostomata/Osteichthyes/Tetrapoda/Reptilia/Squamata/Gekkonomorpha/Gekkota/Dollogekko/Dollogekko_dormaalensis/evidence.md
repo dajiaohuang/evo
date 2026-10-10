@@ -9,7 +9,6 @@ records:
     name:
       zh: Dollogekko dormaalensis
       en: Dollogekko dormaalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

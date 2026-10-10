@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramoceros (Paramoceros)
       en: Ramoceros (Paramoceros)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

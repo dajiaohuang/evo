@@ -9,7 +9,6 @@ records:
     name:
       zh: Euoplocyon brachygnathus
       en: Euoplocyon brachygnathus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

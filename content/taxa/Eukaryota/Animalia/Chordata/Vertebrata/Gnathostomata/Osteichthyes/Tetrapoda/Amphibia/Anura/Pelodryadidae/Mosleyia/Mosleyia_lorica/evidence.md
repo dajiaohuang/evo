@@ -9,7 +9,6 @@ records:
     name:
       en: Mosleyia lorica
       zh: Mosleyia lorica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes splendissimus
       zh: Limnonectes splendissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemicircus canente
       en: Hemicircus canente
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina parkerorum
       zh: Xenorhina parkerorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

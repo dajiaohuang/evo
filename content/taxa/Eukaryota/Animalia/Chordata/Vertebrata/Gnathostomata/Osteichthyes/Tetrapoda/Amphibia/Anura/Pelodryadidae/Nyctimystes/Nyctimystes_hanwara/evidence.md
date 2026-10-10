@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes hanwara
       zh: Nyctimystes hanwara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

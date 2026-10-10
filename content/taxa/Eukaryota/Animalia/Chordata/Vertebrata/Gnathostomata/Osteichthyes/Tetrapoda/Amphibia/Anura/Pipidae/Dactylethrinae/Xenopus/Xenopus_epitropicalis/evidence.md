@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus epitropicalis
       zh: Xenopus epitropicalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

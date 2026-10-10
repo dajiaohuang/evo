@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepagia gaumensis
       en: Lepagia gaumensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosciurillus murinus
       en: Prosciurillus murinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

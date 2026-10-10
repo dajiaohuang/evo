@@ -9,7 +9,6 @@ records:
     name:
       en: Incilius tutelarius
       zh: Incilius tutelarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

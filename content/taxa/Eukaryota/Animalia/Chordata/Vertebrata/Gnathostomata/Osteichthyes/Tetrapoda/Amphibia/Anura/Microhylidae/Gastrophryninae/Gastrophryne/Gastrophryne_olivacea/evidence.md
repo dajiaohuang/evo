@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrophryne olivacea
       zh: Gastrophryne olivacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

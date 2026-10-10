@@ -16,5 +16,5 @@ Mills and colleagues followed one wild group in Marojejy National Park for ten m
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The observations concern one Marojejy group over ten months; suggested functions of sleeping sites are interpretations tested in that study. This profile is not externally expert-reviewed.
+The observations concern one Marojejy group over ten months; suggested functions of sleeping sites are interpretations tested in that study. This profile is.
 <!-- /evo:text -->

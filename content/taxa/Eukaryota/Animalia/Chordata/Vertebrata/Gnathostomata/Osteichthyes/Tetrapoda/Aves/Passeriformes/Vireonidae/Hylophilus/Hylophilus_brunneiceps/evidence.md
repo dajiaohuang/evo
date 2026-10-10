@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylophilus brunneiceps
       en: Hylophilus brunneiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylvietta denti
       en: Sylvietta denti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

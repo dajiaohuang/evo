@@ -9,7 +9,6 @@ records:
     name:
       en: Philautus surrufus
       zh: Philautus surrufus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

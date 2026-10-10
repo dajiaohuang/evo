@@ -9,7 +9,6 @@ records:
     name:
       zh: Uropeltis petersi
       en: Uropeltis petersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

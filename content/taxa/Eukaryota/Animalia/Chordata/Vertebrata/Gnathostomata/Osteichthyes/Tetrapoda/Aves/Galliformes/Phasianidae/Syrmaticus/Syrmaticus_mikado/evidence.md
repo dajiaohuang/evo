@@ -9,7 +9,6 @@ records:
     name:
       zh: Syrmaticus mikado
       en: Syrmaticus mikado
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

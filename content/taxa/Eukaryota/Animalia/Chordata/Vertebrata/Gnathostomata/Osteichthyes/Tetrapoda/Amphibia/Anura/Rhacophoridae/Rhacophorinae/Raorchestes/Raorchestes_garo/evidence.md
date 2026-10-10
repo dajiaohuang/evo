@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes garo
       zh: Raorchestes garo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

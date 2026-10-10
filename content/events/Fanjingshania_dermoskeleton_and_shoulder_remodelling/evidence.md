@@ -135,9 +135,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Andreev et al. 2022 DOI 10.1038/s41586-022-05233-8; Andreev et al. 2025 DOI 10.1098/rsbl.2025.0411
       referenceLinks:
         - relation: supports
           referenceId: andreev-2022-fanjingshania

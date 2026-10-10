@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiergis talbingoensis
       en: Hemiergis talbingoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

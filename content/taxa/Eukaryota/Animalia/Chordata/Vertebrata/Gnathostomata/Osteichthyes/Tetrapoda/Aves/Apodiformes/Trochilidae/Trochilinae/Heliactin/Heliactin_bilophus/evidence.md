@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliactin bilophus
       en: Heliactin bilophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

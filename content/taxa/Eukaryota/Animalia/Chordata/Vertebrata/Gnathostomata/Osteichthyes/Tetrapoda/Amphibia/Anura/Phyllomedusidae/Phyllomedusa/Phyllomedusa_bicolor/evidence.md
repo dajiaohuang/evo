@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllomedusa bicolor
       zh: Phyllomedusa bicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

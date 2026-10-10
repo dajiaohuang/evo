@@ -9,7 +9,6 @@ records:
     name:
       zh: 合趾猿
       en: Siamang
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: evolution
@@ -622,10 +621,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Symphalangus syndactylus
@@ -813,5 +808,5 @@ Six facets remain not assessed; the evolutionary claim is not genome-wide, range
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-A systematic multi-source search and expert review are incomplete.
+A systematic multi-source search are incomplete.
 <!-- /evo:text -->

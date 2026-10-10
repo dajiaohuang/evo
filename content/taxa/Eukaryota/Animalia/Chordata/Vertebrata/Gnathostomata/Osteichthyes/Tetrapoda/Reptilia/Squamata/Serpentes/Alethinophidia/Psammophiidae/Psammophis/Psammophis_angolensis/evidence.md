@@ -9,7 +9,6 @@ records:
     name:
       zh: Psammophis angolensis
       en: Psammophis angolensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

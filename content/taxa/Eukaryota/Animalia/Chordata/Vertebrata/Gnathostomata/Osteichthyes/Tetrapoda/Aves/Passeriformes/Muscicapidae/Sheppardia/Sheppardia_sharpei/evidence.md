@@ -9,7 +9,6 @@ records:
     name:
       zh: Sheppardia sharpei
       en: Sheppardia sharpei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

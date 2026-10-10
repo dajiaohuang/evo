@@ -9,7 +9,6 @@ records:
     name:
       en: Duellmanohyla soralia
       zh: Duellmanohyla soralia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

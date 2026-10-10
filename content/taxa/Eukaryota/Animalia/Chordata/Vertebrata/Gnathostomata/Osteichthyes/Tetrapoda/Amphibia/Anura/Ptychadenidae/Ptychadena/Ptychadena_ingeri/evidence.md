@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena ingeri
       zh: Ptychadena ingeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

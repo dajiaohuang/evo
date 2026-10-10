@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicrurus megarhynchus
       en: Dicrurus megarhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

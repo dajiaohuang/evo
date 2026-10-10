@@ -48,7 +48,7 @@ AmphiTherm curated snapshot — 原始数据集
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页仅提供分类阅读入口。生物学研究覆盖尚待补齐，不计为完整物种档案；没有完成外部专家审评。 本页未经过外部领域专家评审。
+本页仅提供分类阅读入口。生物学研究覆盖尚待补齐，不计为完整物种档案；。 。
 <!-- /evo:text -->
 
 ## 研究正文待整理

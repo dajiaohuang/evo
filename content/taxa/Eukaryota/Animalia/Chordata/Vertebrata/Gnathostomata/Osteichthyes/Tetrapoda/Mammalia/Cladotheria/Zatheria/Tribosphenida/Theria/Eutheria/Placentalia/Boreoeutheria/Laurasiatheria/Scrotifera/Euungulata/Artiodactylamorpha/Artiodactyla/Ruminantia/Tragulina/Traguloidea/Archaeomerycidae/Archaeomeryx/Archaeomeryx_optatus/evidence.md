@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeomeryx optatus
       en: Archaeomeryx optatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

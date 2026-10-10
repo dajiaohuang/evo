@@ -9,7 +9,6 @@ records:
     name:
       en: Tepuihyla edelcae
       zh: Tepuihyla edelcae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

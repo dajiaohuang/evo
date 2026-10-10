@@ -9,7 +9,6 @@ records:
     name:
       zh: Riojanodon nenoi
       en: Riojanodon nenoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

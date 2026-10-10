@@ -9,7 +9,6 @@ records:
     name:
       zh: Epidendrosaurus ningchengensis
       en: Epidendrosaurus ningchengensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

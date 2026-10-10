@@ -63,9 +63,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: bell-polcyn-2005-dallasaurus
           relation: supports
@@ -84,9 +81,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: bell-polcyn-2005-dallasaurus
           relation: supports
@@ -110,9 +104,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: bell-polcyn-2005-dallasaurus
           relation: supports
@@ -136,9 +127,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: bell-polcyn-2005-dallasaurus
           relation: supports
@@ -157,9 +145,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: bell-polcyn-2005-dallasaurus
           relation: supports
@@ -218,7 +203,6 @@ records:
           locator: pp. 177–178; Abstract; Age and geological context; two skeletons from the middle Turonian (~92 Ma) Arcadia Park Shale
         - referenceId: jagt-et-al-2008-youngest-mosasaurus
           locator: pp. 73–77; Abstract; Figs. 1–2; NHMM 2007 093 within one metre below the regional K/Pg boundary
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Squamata/Mosasauridae/research/Mosasauridae
       rangeKind: taxon-range
@@ -242,7 +226,6 @@ records:
       referenceLocators:
         - referenceId: bell-polcyn-2005-dallasaurus
           locator: pp. 177–194; middle Turonian locality and systematic paleontology
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

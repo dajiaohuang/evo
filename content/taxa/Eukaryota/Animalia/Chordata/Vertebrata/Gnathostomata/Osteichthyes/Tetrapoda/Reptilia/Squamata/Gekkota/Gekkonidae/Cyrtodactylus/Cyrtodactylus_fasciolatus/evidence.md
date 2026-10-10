@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus fasciolatus
       en: Cyrtodactylus fasciolatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

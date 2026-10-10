@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxymycterus josei
       en: Oxymycterus josei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

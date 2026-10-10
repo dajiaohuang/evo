@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagornis marshi
       en: Patagornis marshi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

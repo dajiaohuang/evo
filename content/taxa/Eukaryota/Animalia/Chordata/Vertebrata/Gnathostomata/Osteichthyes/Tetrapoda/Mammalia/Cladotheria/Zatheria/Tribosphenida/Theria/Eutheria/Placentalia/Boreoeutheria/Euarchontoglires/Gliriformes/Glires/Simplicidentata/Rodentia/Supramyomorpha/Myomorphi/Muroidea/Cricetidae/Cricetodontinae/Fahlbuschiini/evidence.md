@@ -9,7 +9,6 @@ records:
     name:
       zh: Fahlbuschiini
       en: Fahlbuschiini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

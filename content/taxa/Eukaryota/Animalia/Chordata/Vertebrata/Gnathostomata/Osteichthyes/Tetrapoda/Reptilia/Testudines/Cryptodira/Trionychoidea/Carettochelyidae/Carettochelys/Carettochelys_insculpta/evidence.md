@@ -9,7 +9,6 @@ records:
     name:
       zh: Carettochelys insculpta
       en: Carettochelys insculpta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

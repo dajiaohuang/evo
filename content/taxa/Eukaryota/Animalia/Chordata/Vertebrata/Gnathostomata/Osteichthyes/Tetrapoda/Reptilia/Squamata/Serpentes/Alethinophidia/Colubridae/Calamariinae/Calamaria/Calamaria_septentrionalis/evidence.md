@@ -9,7 +9,6 @@ records:
     name:
       zh: Calamaria septentrionalis
       en: Calamaria septentrionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

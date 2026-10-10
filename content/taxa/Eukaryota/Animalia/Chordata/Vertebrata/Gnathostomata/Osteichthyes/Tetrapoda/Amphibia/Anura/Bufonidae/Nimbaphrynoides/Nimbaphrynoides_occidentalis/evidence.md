@@ -9,7 +9,6 @@ records:
     name:
       en: Nimbaphrynoides occidentalis
       zh: Nimbaphrynoides occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

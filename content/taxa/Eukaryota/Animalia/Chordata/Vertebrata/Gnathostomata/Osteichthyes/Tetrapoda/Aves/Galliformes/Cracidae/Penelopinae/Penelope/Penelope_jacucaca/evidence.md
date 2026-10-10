@@ -9,7 +9,6 @@ records:
     name:
       zh: Penelope jacucaca
       en: Penelope jacucaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

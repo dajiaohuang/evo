@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalassomedon hanningtoni
       en: Thalassomedon hanningtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

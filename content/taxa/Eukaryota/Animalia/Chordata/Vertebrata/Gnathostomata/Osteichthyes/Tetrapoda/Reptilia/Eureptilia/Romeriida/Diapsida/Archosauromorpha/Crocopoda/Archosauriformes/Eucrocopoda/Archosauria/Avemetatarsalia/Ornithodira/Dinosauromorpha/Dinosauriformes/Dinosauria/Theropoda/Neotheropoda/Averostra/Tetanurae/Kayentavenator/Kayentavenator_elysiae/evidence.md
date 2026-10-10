@@ -9,7 +9,6 @@ records:
     name:
       zh: Kayentavenator elysiae
       en: Kayentavenator elysiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

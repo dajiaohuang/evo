@@ -9,7 +9,6 @@ records:
     name:
       en: Stefania riae
       zh: Stefania riae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protocaiman peligrensis
       en: Protocaiman peligrensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

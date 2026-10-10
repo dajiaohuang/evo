@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipreola arcuata
       en: Pipreola arcuata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

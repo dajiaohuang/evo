@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-局地相机陷阱与分类史导读；未经过外部领域专家评审。两处调查森林不能确定完整分布或当前种群数量。
+局地相机陷阱与分类史导读。两处调查森林不能确定完整分布或当前种群数量。
 <!-- /evo:text -->

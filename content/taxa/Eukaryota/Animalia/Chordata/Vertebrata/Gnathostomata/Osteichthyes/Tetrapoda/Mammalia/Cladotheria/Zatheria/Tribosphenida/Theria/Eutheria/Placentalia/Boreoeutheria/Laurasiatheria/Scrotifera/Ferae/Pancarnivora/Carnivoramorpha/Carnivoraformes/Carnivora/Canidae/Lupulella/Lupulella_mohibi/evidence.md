@@ -9,7 +9,6 @@ records:
     name:
       zh: Lupulella mohibi
       en: Lupulella mohibi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

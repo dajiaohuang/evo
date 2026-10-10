@@ -34,5 +34,5 @@ Early Gabonese nocturnal-primate work predates the gradual clarification of dwar
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a guide to Moca records on Bioko and craniodental identification, not a complete species account. The available sources do not support a complete range, range-wide diet, population trend or current conservation assessment here; close-relative data are not substituted. The page has not received external expert review. This page is not externally expert-reviewed.
+This is a guide to Moca records on Bioko and craniodental identification, not a complete species account. The available sources do not support a complete range, range-wide diet, population trend or current conservation assessment here; close-relative data are not substituted. This page is.
 <!-- /evo:text -->

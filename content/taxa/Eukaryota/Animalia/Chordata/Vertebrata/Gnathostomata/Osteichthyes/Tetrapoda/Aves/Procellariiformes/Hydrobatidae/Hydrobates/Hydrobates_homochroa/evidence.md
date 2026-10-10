@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrobates homochroa
       en: Hydrobates homochroa
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

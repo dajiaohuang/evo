@@ -9,7 +9,6 @@ records:
     name:
       zh: Brodiechelys brodiei
       en: Brodiechelys brodiei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lamprotornis nitens
       en: Lamprotornis nitens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

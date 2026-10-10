@@ -9,7 +9,6 @@ records:
     name:
       zh: Momotus subrufescens
       en: Momotus subrufescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

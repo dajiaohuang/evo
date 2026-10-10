@@ -9,7 +9,6 @@ records:
     name:
       zh: Pycnonotus cafer
       en: Pycnonotus cafer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

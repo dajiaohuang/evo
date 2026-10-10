@@ -9,7 +9,6 @@ records:
     name:
       zh: Simalia amethistina
       en: Simalia amethistina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -48,7 +48,7 @@ Start with Keresdrakon vilsoni and compare its named collection and original ref
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route adds original-description entries into anatomy and growth. Later genus material, complete development and classification revisions remain incomplete. Same-bed association and ecological hypotheses retain different evidence strengths; no independent specimen review or external expert review occurred.
+This route adds original-description entries into anatomy and growth. Later genus material, complete development and classification revisions remain incomplete. Same-bed association and ecological hypotheses retain different evidence strengths;
 
 The comparative route additionally uses the already-read 2019 shared-bonebed and 2020 dinosaur-histology main texts. Samples and models apply to their respective taxa; cross-links do not complete the site fauna or all developmental research.
 <!-- /evo:text -->

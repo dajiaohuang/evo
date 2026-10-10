@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrophryne mazatlanensis
       zh: Gastrophryne mazatlanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

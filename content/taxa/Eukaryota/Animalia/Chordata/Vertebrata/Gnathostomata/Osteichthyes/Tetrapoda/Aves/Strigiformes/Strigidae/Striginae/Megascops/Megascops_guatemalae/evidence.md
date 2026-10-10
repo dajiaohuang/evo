@@ -9,7 +9,6 @@ records:
     name:
       zh: Megascops guatemalae
       en: Megascops guatemalae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus vicenteruedai
       zh: Nymphargus vicenteruedai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

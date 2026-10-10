@@ -9,7 +9,6 @@ records:
     name:
       zh: Poecile montanus
       en: Poecile montanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

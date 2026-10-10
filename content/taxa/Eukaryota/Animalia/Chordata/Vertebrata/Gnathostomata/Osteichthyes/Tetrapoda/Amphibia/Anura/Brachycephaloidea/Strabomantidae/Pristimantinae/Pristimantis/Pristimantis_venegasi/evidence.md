@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis venegasi
       zh: Pristimantis venegasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

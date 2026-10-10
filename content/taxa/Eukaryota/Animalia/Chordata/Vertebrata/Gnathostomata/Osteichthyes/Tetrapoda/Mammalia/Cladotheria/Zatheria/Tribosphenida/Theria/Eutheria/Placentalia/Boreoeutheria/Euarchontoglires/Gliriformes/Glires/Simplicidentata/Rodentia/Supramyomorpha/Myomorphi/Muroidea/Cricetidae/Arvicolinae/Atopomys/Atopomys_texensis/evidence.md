@@ -9,7 +9,6 @@ records:
     name:
       zh: Atopomys texensis
       en: Atopomys texensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

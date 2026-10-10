@@ -9,7 +9,6 @@ records:
     name:
       zh: Oaxacagale ruizi
       en: Oaxacagale ruizi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

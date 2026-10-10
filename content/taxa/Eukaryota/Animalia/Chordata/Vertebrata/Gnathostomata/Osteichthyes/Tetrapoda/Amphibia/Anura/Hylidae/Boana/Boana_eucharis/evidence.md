@@ -9,7 +9,6 @@ records:
     name:
       en: Boana eucharis
       zh: Boana eucharis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

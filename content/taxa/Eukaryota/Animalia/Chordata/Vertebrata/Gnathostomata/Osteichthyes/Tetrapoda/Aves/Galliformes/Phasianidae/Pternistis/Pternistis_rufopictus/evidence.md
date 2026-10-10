@@ -9,7 +9,6 @@ records:
     name:
       zh: Pternistis rufopictus
       en: Pternistis rufopictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

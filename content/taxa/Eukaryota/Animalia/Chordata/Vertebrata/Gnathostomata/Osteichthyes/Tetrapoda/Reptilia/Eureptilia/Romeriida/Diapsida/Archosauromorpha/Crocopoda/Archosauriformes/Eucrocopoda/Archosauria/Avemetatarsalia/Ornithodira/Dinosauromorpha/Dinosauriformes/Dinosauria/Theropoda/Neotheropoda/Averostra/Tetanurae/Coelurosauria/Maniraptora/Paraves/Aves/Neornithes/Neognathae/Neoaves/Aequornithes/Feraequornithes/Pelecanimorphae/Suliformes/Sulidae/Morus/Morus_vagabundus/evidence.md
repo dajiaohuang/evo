@@ -9,7 +9,6 @@ records:
     name:
       zh: Morus vagabundus
       en: Morus vagabundus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

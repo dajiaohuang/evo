@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus goodsoni
       en: Phylloscopus goodsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

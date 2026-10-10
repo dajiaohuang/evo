@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko hokouensis
       en: Gekko hokouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Arctotherium (Arctotherium) bonariense
       en: Arctotherium (Arctotherium) bonariense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

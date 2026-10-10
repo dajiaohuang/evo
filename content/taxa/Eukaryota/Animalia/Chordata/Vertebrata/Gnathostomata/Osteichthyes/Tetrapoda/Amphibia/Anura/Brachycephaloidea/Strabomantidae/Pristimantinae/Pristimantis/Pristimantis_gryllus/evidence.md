@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis gryllus
       zh: Pristimantis gryllus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

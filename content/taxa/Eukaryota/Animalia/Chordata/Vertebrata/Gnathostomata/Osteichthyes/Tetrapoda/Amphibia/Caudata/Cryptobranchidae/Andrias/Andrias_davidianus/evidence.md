@@ -9,7 +9,6 @@ records:
     name:
       en: Andrias davidianus
       zh: Andrias davidianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

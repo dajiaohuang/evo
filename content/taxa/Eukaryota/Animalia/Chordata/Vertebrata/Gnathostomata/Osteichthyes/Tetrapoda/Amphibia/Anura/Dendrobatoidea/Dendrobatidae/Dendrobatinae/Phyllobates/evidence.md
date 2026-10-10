@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllobates
       zh: Phyllobates
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

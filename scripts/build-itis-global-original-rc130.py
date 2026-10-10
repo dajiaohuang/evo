@@ -327,7 +327,7 @@ def main() -> None:
             },
         },
         "limitations": [
-            "This preserves ITIS nomenclatural and taxonomic source rows; no biological, fossil, ecological, or expert-review claim is added.",
+            "This preserves ITIS nomenclatural and taxonomic source rows; no biological, fossil, ecological, claim is added.",
             "Extant status is retained in Taxon.extinct and is not inferred from rank or name status.",
             "The official archive and metadata are retained with member-level byte hashes; the archive is not rewritten or treated as a generated checksum system.",
         ],

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesocharis ansorgei
       en: Nesocharis ansorgei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

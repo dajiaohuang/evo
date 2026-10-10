@@ -9,7 +9,6 @@ records:
     name:
       zh: Arses kaupi
       en: Arses kaupi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko rhacophorus
       en: Gekko rhacophorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

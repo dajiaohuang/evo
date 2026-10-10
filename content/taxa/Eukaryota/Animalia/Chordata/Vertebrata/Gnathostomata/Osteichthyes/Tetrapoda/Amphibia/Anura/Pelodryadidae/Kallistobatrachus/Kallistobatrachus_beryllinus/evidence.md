@@ -9,7 +9,6 @@ records:
     name:
       en: Kallistobatrachus beryllinus
       zh: Kallistobatrachus beryllinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

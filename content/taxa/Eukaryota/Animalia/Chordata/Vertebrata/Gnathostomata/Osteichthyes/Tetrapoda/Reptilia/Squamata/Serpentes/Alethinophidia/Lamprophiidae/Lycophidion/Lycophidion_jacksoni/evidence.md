@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycophidion jacksoni
       en: Lycophidion jacksoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -10,7 +10,6 @@ records:
     name:
       en: Thick-tailed Greater Galago
       zh: 粗尾大婴猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

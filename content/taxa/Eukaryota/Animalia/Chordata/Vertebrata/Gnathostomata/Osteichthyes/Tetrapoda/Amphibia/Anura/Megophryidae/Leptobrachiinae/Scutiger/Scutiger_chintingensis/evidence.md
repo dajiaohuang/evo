@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger chintingensis
       zh: Scutiger chintingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

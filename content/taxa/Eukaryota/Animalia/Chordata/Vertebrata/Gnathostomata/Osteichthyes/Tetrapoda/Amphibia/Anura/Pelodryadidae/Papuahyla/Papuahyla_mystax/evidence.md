@@ -9,7 +9,6 @@ records:
     name:
       en: Papuahyla mystax
       zh: Papuahyla mystax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

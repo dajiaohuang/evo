@@ -9,7 +9,6 @@ records:
     name:
       en: Triturus carnifex
       zh: Triturus carnifex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

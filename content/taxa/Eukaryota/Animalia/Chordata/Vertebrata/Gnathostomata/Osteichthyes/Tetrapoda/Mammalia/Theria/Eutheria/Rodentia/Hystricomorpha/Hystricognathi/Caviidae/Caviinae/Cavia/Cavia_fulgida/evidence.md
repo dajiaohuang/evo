@@ -9,7 +9,6 @@ records:
     name:
       zh: Cavia fulgida
       en: Cavia fulgida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

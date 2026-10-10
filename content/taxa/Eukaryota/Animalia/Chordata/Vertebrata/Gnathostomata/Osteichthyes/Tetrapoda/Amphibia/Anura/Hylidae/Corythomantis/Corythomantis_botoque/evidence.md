@@ -9,7 +9,6 @@ records:
     name:
       en: Corythomantis botoque
       zh: Corythomantis botoque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

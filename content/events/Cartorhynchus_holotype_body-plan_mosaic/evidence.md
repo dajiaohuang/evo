@@ -105,9 +105,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Motani et al. 2015 DOI 10.1038/nature13866; corrigendum DOI 10.1038/nature15533
       referenceLinks:
         - referenceId: motani-2015-cartorhynchus
           relation: supports

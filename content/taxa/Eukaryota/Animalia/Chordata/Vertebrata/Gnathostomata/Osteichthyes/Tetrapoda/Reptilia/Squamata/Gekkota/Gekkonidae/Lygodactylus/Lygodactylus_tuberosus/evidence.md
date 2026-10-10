@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus tuberosus
       en: Lygodactylus tuberosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

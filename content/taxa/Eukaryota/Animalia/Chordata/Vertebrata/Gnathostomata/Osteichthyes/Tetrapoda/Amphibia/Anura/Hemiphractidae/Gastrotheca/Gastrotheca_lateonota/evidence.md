@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca lateonota
       zh: Gastrotheca lateonota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

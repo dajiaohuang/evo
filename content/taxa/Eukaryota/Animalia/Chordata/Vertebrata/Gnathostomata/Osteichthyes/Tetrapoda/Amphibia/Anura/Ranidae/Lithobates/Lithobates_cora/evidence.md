@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates cora
       zh: Lithobates cora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

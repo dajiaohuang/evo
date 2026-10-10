@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia vidua
       zh: Ansonia vidua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

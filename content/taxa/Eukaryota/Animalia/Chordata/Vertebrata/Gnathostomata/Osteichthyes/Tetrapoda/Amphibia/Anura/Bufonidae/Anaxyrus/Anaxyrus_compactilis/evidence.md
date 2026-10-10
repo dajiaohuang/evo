@@ -9,7 +9,6 @@ records:
     name:
       en: Anaxyrus compactilis
       zh: Anaxyrus compactilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

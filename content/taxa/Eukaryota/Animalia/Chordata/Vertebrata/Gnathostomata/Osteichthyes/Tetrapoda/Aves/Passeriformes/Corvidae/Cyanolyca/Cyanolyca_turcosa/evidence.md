@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanolyca turcosa
       en: Cyanolyca turcosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

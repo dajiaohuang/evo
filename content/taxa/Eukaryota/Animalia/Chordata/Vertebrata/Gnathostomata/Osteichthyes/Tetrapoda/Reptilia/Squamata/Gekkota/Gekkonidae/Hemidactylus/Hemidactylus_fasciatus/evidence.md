@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus fasciatus
       en: Hemidactylus fasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

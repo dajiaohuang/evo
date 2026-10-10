@@ -9,7 +9,6 @@ records:
     name:
       en: Aubria subsigillata
       zh: Aubria subsigillata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -57,9 +57,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: cabreira-2016-buriolestes concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: cabreira-2016-buriolestes
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Cabreira et al. 2016 DOI 10.1016/j.cub.2016.09.040
       referenceLinks:
         - referenceId: cabreira-2016-buriolestes
           relation: supports
@@ -99,9 +93,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Cabreira et al. 2016 DOI 10.1016/j.cub.2016.09.040
       referenceLinks:
         - referenceId: cabreira-2016-buriolestes
           relation: supports
@@ -120,9 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Cabreira et al. 2016 DOI 10.1016/j.cub.2016.09.040
       referenceLinks:
         - referenceId: cabreira-2016-buriolestes
           relation: supports
@@ -141,9 +129,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Cabreira et al. 2016 DOI 10.1016/j.cub.2016.09.040
       referenceLinks:
         - referenceId: cabreira-2016-buriolestes
           relation: supports
@@ -188,7 +173,6 @@ records:
       referenceLocators:
         - referenceId: cabreira-2016-buriolestes
           locator: Cited specimen, figures and methods in the linked claim dossier
-      reviewStatus: automated-audit-passed
 ---
 
 # Buriolestes

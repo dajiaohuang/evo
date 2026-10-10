@@ -9,7 +9,6 @@ records:
     name:
       zh: Prionochilus xanthopygius
       en: Prionochilus xanthopygius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

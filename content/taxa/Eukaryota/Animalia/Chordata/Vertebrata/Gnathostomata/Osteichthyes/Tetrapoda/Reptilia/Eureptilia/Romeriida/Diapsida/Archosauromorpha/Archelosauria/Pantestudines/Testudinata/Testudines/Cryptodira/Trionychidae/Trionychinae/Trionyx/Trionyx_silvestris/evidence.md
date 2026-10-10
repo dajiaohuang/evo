@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx silvestris
       en: Trionyx silvestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

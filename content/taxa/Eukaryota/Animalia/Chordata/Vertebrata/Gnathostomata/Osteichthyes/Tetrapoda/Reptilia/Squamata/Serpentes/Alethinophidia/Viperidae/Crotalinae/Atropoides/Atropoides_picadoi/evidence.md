@@ -9,7 +9,6 @@ records:
     name:
       zh: Atropoides picadoi
       en: Atropoides picadoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

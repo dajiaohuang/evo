@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus admirabilis
       zh: Melanophryniscus admirabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

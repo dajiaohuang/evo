@@ -9,7 +9,6 @@ records:
     name:
       zh: Eotyrannus lengi
       en: Eotyrannus lengi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

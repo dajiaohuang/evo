@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates magnaocularis
       zh: Lithobates magnaocularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

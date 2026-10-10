@@ -9,7 +9,6 @@ records:
     name:
       zh: Ara militaris
       en: Ara militaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

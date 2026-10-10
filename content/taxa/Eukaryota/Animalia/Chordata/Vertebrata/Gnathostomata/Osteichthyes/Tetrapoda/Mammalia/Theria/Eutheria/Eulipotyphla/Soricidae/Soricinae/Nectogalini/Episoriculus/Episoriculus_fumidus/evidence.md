@@ -9,7 +9,6 @@ records:
     name:
       zh: Episoriculus fumidus
       en: Episoriculus fumidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

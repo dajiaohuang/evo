@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachyoryctes ruddi
       en: Tachyoryctes ruddi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gavialimimus almaghribensis
       en: Gavialimimus almaghribensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

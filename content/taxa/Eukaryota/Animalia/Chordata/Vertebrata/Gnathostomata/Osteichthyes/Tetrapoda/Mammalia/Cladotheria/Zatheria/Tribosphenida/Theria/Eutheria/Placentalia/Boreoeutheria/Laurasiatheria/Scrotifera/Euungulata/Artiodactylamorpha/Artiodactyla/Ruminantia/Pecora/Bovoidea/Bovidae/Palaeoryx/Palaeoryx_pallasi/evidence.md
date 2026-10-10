@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoryx pallasi
       en: Palaeoryx pallasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

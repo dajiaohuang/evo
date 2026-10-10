@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidonophis picturatus
       en: Tropidonophis picturatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

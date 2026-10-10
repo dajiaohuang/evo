@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegolius gradyi
       en: Aegolius gradyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vetusodon elikhulu
       en: Vetusodon elikhulu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Boana nympha
       zh: Boana nympha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

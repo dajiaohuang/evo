@@ -9,7 +9,6 @@ records:
     name:
       zh: Callosciurus pygerythrus
       en: Callosciurus pygerythrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

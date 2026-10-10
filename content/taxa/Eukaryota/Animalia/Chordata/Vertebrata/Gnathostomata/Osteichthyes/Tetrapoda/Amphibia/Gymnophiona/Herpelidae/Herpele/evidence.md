@@ -9,7 +9,6 @@ records:
     name:
       en: Herpele
       zh: Herpele
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Hylodes phyllodes
       zh: Hylodes phyllodes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

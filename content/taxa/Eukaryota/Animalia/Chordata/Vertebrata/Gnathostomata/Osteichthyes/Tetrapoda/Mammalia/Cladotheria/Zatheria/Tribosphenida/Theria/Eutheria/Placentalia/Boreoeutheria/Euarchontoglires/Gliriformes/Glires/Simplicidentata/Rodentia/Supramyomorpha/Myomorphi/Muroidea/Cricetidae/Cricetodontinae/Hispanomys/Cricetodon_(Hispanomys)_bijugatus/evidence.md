@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricetodon (Hispanomys) bijugatus
       en: Cricetodon (Hispanomys) bijugatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

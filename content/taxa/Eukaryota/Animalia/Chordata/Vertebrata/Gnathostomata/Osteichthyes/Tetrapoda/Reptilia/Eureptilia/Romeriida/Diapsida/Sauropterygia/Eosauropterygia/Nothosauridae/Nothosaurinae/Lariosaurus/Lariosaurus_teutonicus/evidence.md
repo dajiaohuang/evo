@@ -9,7 +9,6 @@ records:
     name:
       zh: Lariosaurus teutonicus
       en: Lariosaurus teutonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

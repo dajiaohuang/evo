@@ -9,7 +9,6 @@ records:
     name:
       zh: Diamantomys luederitzi
       en: Diamantomys luederitzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

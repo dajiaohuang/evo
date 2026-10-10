@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma suteri
       en: Oligosoma suteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

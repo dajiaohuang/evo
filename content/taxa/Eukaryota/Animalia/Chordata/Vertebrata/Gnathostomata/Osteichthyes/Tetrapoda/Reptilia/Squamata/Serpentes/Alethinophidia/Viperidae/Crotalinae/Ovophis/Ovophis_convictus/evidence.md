@@ -9,7 +9,6 @@ records:
     name:
       zh: Ovophis convictus
       en: Ovophis convictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

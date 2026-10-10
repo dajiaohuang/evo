@@ -9,7 +9,6 @@ records:
     name:
       zh: Ganawamaya aediculus
       en: Ganawamaya aediculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

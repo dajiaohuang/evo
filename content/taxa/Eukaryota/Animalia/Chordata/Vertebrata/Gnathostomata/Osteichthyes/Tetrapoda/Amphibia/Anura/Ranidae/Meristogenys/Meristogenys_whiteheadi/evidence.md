@@ -9,7 +9,6 @@ records:
     name:
       en: Meristogenys whiteheadi
       zh: Meristogenys whiteheadi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

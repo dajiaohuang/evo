@@ -9,7 +9,6 @@ records:
     name:
       zh: Jonkeria ingens
       en: Jonkeria ingens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

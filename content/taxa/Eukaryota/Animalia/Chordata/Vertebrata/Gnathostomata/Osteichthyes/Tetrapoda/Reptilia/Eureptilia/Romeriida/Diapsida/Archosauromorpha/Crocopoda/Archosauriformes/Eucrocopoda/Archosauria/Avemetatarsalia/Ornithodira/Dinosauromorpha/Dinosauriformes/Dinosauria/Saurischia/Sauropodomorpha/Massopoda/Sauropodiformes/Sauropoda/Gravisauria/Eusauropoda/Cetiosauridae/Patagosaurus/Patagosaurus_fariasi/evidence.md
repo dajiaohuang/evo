@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagosaurus fariasi
       en: Patagosaurus fariasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenolepis ridleyi
       en: Stenolepis ridleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

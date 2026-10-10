@@ -9,7 +9,6 @@ records:
     name:
       zh: Subathumys solanorius
       en: Subathumys solanorius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

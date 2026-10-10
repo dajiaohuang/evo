@@ -28,5 +28,5 @@ The description combines eight collected specimens with observations and recordi
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The cited description is based on a small specimen series and a bounded field area; current range limits and broader ecology are not established here. This page is not externally expert-reviewed.
+The cited description is based on a small specimen series and a bounded field area; current range limits and broader ecology are not established here. This page is.
 <!-- /evo:text -->

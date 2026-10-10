@@ -9,7 +9,6 @@ records:
     name:
       zh: Viverravus lawsoni
       en: Viverravus lawsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

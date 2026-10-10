@@ -9,7 +9,6 @@ records:
     name:
       zh: Helophis schoutedeni
       en: Helophis schoutedeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalotris mertensi
       en: Phalotris mertensi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

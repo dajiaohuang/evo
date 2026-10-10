@@ -9,7 +9,6 @@ records:
     name:
       zh: Uintacyon massetericus
       en: Uintacyon massetericus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

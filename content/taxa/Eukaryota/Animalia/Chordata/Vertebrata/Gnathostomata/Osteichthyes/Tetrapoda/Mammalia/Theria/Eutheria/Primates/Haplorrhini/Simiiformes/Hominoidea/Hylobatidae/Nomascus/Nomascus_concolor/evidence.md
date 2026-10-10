@@ -9,7 +9,6 @@ records:
     name:
       zh: 西黑冠长臂猿
       en: Western Black Crested Gibbon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

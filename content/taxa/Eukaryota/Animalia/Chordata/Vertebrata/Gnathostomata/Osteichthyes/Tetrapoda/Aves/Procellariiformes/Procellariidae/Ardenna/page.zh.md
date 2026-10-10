@@ -10,7 +10,7 @@ status: source-linked
 ## 沿 Puffinus 旧组合读七条历史行
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-本入口按 COL26.8 Ardenna（D5KD6）与 Procellariidae（627CQ）组织七条历史导读。BirdLife／eBird 同名且 Avibase ID 分别相同，类型一对一；BirdTree 均用 Puffinus 旧组合，各有逐字目录异名。grisea／pacifica 的旧词尾分别 griseus／pacificus，名称对应不证明跨版本物种范围相同。目录属记录七个直接子项；本批七页是有限历史导读，不能仅因数量相同计完整自然史或专家审评。
+本入口按 COL26.8 Ardenna（D5KD6）与 Procellariidae（627CQ）组织七条历史导读。BirdLife／eBird 同名且 Avibase ID 分别相同，类型一对一；BirdTree 均用 Puffinus 旧组合，各有逐字目录异名。grisea／pacifica 的旧词尾分别 griseus／pacificus，名称对应不证明跨版本物种范围相同。目录属记录七个直接子项；本批七页是有限历史导读，不能仅因数量相同计完整自然史。
 <!-- /evo:text -->
 
 ## 四套完整测量与独立体重分开
@@ -38,5 +38,5 @@ status: source-linked
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-七条历史行与逐字 Puffinus 异名支持有限导读；七个目录子项与七页数量相同不证明完整自然史。形态鸟、完整四套、独立文献体重分别保留；海洋食物、三种活动类别、开放环境与迁移3不补实测食谱、潜水深度、飞行性能、路线、繁殖、当前地图或专家审评。
+七条历史行与逐字 Puffinus 异名支持有限导读；七个目录子项与七页数量相同不证明完整自然史。形态鸟、完整四套、独立文献体重分别保留；海洋食物、三种活动类别、开放环境与迁移3不补实测食谱、潜水深度、飞行性能、路线、繁殖、当前地图。
 <!-- /evo:text -->

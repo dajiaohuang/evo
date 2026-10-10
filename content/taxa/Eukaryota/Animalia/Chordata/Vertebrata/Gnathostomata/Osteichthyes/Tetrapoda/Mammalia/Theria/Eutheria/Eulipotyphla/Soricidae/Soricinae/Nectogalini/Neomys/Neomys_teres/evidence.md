@@ -9,7 +9,6 @@ records:
     name:
       zh: Neomys teres
       en: Neomys teres
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

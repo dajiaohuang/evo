@@ -9,7 +9,6 @@ records:
     name:
       zh: Bienotherium yunnanense
       en: Bienotherium yunnanense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

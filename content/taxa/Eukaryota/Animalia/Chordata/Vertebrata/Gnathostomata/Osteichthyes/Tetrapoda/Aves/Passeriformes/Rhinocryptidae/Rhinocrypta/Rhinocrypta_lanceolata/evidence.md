@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinocrypta lanceolata
       en: Rhinocrypta lanceolata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pennant’s Red Colobus
       zh: 彭南特红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: conservation

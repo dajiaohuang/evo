@@ -9,7 +9,6 @@ records:
     name:
       zh: Calamaria mecheli
       en: Calamaria mecheli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

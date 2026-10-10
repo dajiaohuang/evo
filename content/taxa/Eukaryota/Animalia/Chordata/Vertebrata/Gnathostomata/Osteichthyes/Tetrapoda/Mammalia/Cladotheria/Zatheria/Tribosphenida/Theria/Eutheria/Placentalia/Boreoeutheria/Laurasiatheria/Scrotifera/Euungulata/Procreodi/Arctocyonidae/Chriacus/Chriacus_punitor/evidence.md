@@ -9,7 +9,6 @@ records:
     name:
       zh: Chriacus punitor
       en: Chriacus punitor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

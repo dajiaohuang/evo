@@ -9,7 +9,6 @@ records:
     name:
       zh: Hilarcotherium miyou
       en: Hilarcotherium miyou
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

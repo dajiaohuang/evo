@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla darreli
       zh: Microhyla darreli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

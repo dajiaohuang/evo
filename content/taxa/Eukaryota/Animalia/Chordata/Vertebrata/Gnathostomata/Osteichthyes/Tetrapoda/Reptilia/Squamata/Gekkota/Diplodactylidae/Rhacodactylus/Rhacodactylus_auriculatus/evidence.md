@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhacodactylus auriculatus
       en: Rhacodactylus auriculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

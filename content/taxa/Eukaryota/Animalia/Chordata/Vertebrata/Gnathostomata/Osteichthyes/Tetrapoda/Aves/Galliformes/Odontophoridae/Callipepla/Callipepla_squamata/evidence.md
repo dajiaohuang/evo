@@ -9,7 +9,6 @@ records:
     name:
       zh: Callipepla squamata
       en: Callipepla squamata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

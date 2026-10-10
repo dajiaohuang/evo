@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius latirostris
       zh: Telmatobius latirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

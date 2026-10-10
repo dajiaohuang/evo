@@ -9,7 +9,6 @@ records:
     name:
       en: Leucostethus
       zh: Leucostethus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eocarcharia dinops
       en: Eocarcharia dinops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

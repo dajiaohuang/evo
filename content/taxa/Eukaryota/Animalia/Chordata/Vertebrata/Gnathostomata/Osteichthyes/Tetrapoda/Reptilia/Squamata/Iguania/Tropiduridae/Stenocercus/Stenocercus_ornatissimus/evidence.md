@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus ornatissimus
       en: Stenocercus ornatissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

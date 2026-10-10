@@ -9,7 +9,6 @@ records:
     name:
       zh: Eosteiromys homogenidens
       en: Eosteiromys homogenidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

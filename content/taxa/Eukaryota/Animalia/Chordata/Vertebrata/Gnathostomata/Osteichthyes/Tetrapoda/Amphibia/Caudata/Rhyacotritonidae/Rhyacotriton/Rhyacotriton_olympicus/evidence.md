@@ -9,7 +9,6 @@ records:
     name:
       en: Rhyacotriton olympicus
       zh: Rhyacotriton olympicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia thinthinae
       zh: Ansonia thinthinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

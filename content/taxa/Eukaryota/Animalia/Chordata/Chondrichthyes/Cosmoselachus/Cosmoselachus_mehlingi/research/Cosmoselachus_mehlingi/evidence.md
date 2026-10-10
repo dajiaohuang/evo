@@ -62,9 +62,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4
       referenceLinks:
         - relation: supports
           referenceId: bronson-2024-cosmoselachus
@@ -83,9 +80,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4
       referenceLinks:
         - relation: supports
           referenceId: bronson-2024-cosmoselachus
@@ -104,9 +98,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4
       referenceLinks:
         - relation: supports
           referenceId: bronson-2024-cosmoselachus
@@ -125,9 +116,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4
       referenceLinks:
         - relation: supports
           referenceId: bronson-2024-cosmoselachus
@@ -146,9 +134,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4
       referenceLinks:
         - relation: supports
           referenceId: bronson-2024-cosmoselachus
@@ -201,7 +186,6 @@ records:
       referenceLocators:
         - referenceId: bronson-2024-cosmoselachus
           locator: pp. 101–117; Figures 1–8; Material; Systematic palaeontology; CT and phylogenetic analysis
-      reviewStatus: automated-audit-passed
 ---
 
 # Cosmoselachus mehlingi

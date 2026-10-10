@@ -9,7 +9,6 @@ records:
     name:
       zh: 克鲁兹利马鞍背狨
       en: Cruz Lima's Saddle-back Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

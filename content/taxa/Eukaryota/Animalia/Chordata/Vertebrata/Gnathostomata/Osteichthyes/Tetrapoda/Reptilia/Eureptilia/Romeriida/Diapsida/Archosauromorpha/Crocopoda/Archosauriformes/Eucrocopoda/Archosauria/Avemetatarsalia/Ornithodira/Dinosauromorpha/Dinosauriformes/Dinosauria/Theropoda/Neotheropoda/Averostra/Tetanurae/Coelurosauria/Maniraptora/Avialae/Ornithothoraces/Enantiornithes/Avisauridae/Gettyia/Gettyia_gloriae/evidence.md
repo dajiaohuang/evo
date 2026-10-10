@@ -9,7 +9,6 @@ records:
     name:
       zh: Gettyia gloriae
       en: Gettyia gloriae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

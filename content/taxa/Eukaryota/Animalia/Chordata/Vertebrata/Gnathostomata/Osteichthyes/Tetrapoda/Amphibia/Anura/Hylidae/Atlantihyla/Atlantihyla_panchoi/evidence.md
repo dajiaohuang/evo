@@ -9,7 +9,6 @@ records:
     name:
       en: Atlantihyla panchoi
       zh: Atlantihyla panchoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

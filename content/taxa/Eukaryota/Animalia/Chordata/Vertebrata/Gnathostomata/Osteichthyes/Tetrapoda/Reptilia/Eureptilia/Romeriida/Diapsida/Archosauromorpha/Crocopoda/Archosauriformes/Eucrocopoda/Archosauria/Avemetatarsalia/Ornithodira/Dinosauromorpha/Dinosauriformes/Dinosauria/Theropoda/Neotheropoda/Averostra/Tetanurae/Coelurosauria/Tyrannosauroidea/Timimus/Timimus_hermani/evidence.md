@@ -9,7 +9,6 @@ records:
     name:
       zh: Timimus hermani
       en: Timimus hermani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

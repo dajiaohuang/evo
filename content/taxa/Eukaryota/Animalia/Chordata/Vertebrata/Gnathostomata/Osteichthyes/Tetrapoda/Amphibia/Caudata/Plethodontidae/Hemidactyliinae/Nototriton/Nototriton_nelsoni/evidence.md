@@ -9,7 +9,6 @@ records:
     name:
       en: Nototriton nelsoni
       zh: Nototriton nelsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

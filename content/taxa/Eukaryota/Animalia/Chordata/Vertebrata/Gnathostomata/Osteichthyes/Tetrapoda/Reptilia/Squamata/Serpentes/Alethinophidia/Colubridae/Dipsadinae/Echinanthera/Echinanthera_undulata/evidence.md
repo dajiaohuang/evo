@@ -9,7 +9,6 @@ records:
     name:
       zh: Echinanthera undulata
       en: Echinanthera undulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

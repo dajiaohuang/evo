@@ -9,7 +9,6 @@ records:
     name:
       zh: Igua
       en: Igua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,7 +22,9 @@
       "identity": {
         "method": "Exact COL26.8 accepted species usage, verbatim scientific name including subgenus, authorship, rank, status, source dataset and higher classification verified against the pinned registry search record.",
         "scope": "Nominal species as represented by COL26.8 usage 6CCSV. The cited laboratory study uses a cultured stock from the National Institute of Environmental Research, Korea, and does not compare populations or establish a complete species concept.",
-        "sourceIds": ["col"]
+        "sourceIds": [
+          "col"
+        ]
       },
       "lifeStatusScope": {
         "wild": "Wild population ecology and life history have not been assessed; the biological claim is from laboratory-cultured animals.",
@@ -68,13 +70,17 @@
         }
       ],
       "facets": {
-        "morphology": {"status": "not-assessed"},
+        "morphology": {
+          "status": "not-assessed"
+        },
         "lifeHistory": {
           "status": "partially-supported",
           "claims": [
             {
               "text": "In the laboratory study, vitelline-envelope formation in parthenogenetic Daphnia magna eggs began about 20 minutes after oviposition and took about 20 minutes to complete.",
-              "sourceIds": ["lee2019"],
+              "sourceIds": [
+                "lee2019"
+              ],
               "locator": "Results, 'Formation of the vitelline envelope in parthenogenetic eggs'; Fig. 4B; Discussion",
               "placeTimeScope": "Cultured animals obtained from the National Institute of Environmental Research, Incheon, Korea; study published in 2019. Timing applies to the observed laboratory parthenogenetic eggs.",
               "lifeStatus": "Observed in cultured, parthenogenetic females and eggs under the reported laboratory conditions; not generalized to wild populations or other egg types.",
@@ -82,19 +88,34 @@
               "originalLanguage": "en"
             }
           ],
-          "gaps": ["The study does not establish variation among genotypes, populations, environments or other reproductive modes, and does not provide a complete life-history account."]
+          "gaps": [
+            "The study does not establish variation among genotypes, populations, environments or other reproductive modes, and does not provide a complete life-history account."
+          ]
         },
-        "ecology": {"status": "not-assessed"},
-        "evolution": {"status": "not-assessed"},
-        "distribution": {"status": "not-assessed"},
-        "fossil": {"status": "not-assessed"},
-        "conservation": {"status": "not-assessed"}
+        "ecology": {
+          "status": "not-assessed"
+        },
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "not-assessed"
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
       },
       "completeness": {
         "status": "incomplete",
-        "reasons": ["Only one laboratory reproductive observation was assessed; six facets remain not-assessed.", "The source is not a systematic review or complete account of the COL26.8 species concept.", "No independent expert review has been completed."]
-      },
-      "expertReview": {"status": "not-reviewed"}
+        "reasons": [
+          "Only one laboratory reproductive observation was assessed; six facets remain not-assessed.",
+          "The source is not a systematic review or complete account of the COL26.8 species concept.",
+          ""
+        ]
+      }
     }
   ]
 }

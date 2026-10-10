@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiadapis churchilli
       en: Plesiadapis churchilli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

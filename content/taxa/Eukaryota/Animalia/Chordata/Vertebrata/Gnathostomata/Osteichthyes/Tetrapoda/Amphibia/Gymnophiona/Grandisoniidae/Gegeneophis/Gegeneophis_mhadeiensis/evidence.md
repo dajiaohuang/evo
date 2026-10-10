@@ -9,7 +9,6 @@ records:
     name:
       en: Gegeneophis mhadeiensis
       zh: Gegeneophis mhadeiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

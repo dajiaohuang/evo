@@ -9,7 +9,6 @@ records:
     name:
       zh: Priotelus roseigaster
       en: Priotelus roseigaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

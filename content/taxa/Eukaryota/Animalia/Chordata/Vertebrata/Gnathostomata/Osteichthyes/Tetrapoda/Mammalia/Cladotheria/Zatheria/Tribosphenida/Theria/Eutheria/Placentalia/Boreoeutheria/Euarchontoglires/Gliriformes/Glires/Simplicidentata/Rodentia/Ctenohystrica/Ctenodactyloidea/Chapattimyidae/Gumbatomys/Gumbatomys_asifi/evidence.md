@@ -9,7 +9,6 @@ records:
     name:
       zh: Gumbatomys asifi
       en: Gumbatomys asifi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

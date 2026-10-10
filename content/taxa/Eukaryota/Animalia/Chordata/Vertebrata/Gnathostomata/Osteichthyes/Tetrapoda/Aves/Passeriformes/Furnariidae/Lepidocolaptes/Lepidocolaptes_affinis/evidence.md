@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidocolaptes affinis
       en: Lepidocolaptes affinis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

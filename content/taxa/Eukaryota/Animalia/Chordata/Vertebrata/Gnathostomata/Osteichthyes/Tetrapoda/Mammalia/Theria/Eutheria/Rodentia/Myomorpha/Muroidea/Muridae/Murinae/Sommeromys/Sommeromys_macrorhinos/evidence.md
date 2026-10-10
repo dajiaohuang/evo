@@ -9,7 +9,6 @@ records:
     name:
       zh: Sommeromys macrorhinos
       en: Sommeromys macrorhinos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

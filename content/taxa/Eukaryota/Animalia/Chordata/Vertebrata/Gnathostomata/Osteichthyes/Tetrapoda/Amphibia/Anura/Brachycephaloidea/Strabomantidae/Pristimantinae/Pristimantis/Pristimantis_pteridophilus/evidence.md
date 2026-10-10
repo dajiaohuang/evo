@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pteridophilus
       zh: Pristimantis pteridophilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stereogenys cromeri
       en: Stereogenys cromeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

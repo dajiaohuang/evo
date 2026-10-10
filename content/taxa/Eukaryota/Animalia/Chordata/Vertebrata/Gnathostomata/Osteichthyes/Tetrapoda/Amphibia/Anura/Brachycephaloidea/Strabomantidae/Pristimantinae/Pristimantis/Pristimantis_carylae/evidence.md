@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis carylae
       zh: Pristimantis carylae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

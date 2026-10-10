@@ -9,7 +9,6 @@ records:
     name:
       zh: Parietobalaena yamaokai
       en: Parietobalaena yamaokai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

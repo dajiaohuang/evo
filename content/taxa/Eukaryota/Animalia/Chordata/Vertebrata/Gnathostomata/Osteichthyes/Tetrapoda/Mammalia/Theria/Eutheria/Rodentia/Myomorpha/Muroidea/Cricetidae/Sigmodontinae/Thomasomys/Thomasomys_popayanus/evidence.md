@@ -9,7 +9,6 @@ records:
     name:
       zh: Thomasomys popayanus
       en: Thomasomys popayanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

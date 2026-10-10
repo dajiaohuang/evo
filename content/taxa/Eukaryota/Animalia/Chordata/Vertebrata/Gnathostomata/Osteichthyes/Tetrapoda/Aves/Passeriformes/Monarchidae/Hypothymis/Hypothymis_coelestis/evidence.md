@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypothymis coelestis
       en: Hypothymis coelestis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

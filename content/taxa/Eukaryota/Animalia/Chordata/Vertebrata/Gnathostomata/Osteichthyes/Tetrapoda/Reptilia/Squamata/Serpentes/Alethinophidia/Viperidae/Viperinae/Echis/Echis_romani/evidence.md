@@ -9,7 +9,6 @@ records:
     name:
       zh: Echis romani
       en: Echis romani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

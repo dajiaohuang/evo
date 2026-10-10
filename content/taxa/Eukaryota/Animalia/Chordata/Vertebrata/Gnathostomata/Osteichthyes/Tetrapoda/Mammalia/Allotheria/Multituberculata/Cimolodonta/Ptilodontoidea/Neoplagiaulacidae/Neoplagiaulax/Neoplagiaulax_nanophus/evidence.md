@@ -9,7 +9,6 @@ records:
     name:
       zh: Neoplagiaulax nanophus
       en: Neoplagiaulax nanophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

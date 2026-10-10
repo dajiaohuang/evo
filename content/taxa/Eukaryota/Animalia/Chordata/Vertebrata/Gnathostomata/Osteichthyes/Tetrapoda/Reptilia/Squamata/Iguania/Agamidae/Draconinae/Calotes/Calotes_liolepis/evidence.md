@@ -9,7 +9,6 @@ records:
     name:
       zh: Calotes liolepis
       en: Calotes liolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

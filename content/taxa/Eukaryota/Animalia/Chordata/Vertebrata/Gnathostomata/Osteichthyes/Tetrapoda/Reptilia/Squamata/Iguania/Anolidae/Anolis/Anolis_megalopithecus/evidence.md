@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis megalopithecus
       en: Anolis megalopithecus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

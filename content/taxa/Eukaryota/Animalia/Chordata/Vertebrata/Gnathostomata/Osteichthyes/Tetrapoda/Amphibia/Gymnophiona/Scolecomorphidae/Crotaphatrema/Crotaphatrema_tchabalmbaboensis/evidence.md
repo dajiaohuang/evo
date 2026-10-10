@@ -9,7 +9,6 @@ records:
     name:
       en: Crotaphatrema tchabalmbaboensis
       zh: Crotaphatrema tchabalmbaboensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

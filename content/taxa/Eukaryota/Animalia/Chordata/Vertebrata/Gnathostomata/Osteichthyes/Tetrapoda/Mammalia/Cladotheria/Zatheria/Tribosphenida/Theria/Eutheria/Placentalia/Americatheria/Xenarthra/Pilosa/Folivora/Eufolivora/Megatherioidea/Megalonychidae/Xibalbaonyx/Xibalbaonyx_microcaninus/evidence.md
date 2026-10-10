@@ -9,7 +9,6 @@ records:
     name:
       zh: Xibalbaonyx microcaninus
       en: Xibalbaonyx microcaninus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

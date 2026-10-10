@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana calciphila
       zh: Odorrana calciphila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

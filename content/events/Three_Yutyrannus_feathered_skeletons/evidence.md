@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: xu-2012-yutyrannus @ DOI 10.1038/nature10906
       referenceLinks:
         - referenceId: xu-2012-yutyrannus
           relation: supports

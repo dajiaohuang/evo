@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallotia stehlini
       en: Gallotia stehlini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

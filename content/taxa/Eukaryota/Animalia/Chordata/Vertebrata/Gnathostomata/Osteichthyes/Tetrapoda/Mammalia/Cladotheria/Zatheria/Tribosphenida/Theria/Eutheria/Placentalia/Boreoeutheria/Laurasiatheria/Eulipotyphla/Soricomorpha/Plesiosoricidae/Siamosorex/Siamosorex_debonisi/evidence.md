@@ -9,7 +9,6 @@ records:
     name:
       zh: Siamosorex debonisi
       en: Siamosorex debonisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

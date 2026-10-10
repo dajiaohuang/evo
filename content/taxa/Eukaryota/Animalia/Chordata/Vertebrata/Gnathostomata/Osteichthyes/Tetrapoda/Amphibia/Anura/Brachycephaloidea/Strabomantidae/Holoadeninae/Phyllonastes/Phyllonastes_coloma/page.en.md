@@ -101,7 +101,7 @@ The arutam description cites a rounded snout, absent ulnar tubercles, a uniforml
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial study-scoped biological reader. Remaining biological facets require further evidence. Not externally expert-reviewed.
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

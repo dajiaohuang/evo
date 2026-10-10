@@ -9,7 +9,6 @@ records:
     name:
       zh: Clytoctantes alixii
       en: Clytoctantes alixii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

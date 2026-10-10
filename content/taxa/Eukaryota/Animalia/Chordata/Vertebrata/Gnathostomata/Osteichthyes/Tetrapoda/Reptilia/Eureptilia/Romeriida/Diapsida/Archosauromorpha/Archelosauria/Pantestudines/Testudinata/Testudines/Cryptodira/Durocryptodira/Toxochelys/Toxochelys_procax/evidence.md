@@ -9,7 +9,6 @@ records:
     name:
       zh: Toxochelys procax
       en: Toxochelys procax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

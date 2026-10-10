@@ -9,7 +9,6 @@ records:
     name:
       zh: Flexiseps ornaticeps
       en: Flexiseps ornaticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

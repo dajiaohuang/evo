@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhacodactylus leachianus
       en: Rhacodactylus leachianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

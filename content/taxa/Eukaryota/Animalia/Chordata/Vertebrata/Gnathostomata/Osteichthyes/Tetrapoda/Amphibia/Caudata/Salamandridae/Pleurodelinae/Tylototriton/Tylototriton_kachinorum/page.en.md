@@ -224,7 +224,7 @@ The 2026 paper compared male kachinorum total length 144.5–170.3 mm with small
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial study-scoped biological reader. Remaining biological facets require further evidence. Not externally expert-reviewed.
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anotosaura vanzolinia
       en: Anotosaura vanzolinia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

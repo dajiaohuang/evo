@@ -9,7 +9,6 @@ records:
     name:
       zh: Python euboicus
       en: Python euboicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

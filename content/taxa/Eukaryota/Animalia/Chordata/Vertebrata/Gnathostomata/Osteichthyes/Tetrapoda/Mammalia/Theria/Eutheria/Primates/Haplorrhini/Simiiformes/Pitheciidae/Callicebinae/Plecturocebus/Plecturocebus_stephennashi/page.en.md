@@ -62,5 +62,5 @@ The 2025 revision compared museum specimens, found material from the Lago Canabo
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The English display label follows historical usage and the Chinese name is editorial; neither implies COL/MDD agreement on species limits. This pass reads the 2002 type account, five Table 2 material records and Figures 14–15, clarifying named material and inferred distribution. No new wild ecological evidence is added, and the 2025 lumping study has not been freshly reread in full here. Precise provenance and taxonomic reconciliation remain unresolved; 4K5YG is not counted complete at the first-round species-guide standard, with no dossier or external expert review.
+The English display label follows historical usage and the Chinese name is editorial; neither implies COL/MDD agreement on species limits. This pass reads the 2002 type account, five Table 2 material records and Figures 14–15, clarifying named material and inferred distribution. No new wild ecological evidence is added, and the 2025 lumping study has not been freshly reread in full here. Precise provenance and taxonomic reconciliation remain unresolved; 4K5YG is not counted complete at the first-round species-guide standard, with no dossier.
 <!-- /evo:text -->

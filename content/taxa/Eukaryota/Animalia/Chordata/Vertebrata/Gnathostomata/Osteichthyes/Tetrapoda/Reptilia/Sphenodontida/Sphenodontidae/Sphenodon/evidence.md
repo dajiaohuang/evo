@@ -9,7 +9,6 @@ records:
     name:
       zh: 楔齿蜥属
       en: Sphenodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

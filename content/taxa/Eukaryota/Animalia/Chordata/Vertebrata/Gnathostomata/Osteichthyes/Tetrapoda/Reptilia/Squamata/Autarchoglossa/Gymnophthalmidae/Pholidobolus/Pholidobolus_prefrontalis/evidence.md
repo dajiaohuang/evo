@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidobolus prefrontalis
       en: Pholidobolus prefrontalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

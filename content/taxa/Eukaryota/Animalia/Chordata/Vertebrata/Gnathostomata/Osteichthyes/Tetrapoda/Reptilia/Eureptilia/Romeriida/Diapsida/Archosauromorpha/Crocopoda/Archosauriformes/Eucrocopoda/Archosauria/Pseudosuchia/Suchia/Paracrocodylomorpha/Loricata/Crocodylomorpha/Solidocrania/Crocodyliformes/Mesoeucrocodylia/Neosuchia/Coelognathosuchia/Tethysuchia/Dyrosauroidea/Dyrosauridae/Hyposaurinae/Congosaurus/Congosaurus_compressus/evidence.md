@@ -9,7 +9,6 @@ records:
     name:
       zh: Congosaurus compressus
       en: Congosaurus compressus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -16,5 +16,5 @@ At Danum Valley Conservation Area, Inoue, Sinun and Okanoya documented activity 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The page summarizes a single-site behavioral study and supplies no range-wide annual average or complete natural-history account. This profile is not externally expert-reviewed.
+The page summarizes a single-site behavioral study and supplies no range-wide annual average or complete natural-history account. This profile is.
 <!-- /evo:text -->

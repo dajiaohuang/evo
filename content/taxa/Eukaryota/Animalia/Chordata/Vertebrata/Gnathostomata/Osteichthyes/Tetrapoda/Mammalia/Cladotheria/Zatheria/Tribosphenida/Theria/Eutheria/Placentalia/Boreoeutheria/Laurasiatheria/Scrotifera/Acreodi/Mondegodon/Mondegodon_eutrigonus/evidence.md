@@ -9,7 +9,6 @@ records:
     name:
       zh: Mondegodon eutrigonus
       en: Mondegodon eutrigonus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

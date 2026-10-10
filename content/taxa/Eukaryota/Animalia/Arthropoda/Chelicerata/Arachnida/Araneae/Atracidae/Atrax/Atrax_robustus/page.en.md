@@ -52,5 +52,5 @@ study
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introductory account; not externally expert-reviewed. Range statements derive from research and museum material in New South Wales, Australia and are not a complete global range; old venom rankings, fatality counts and conservation status are not imported.
+Source-linked introductory account;. Range statements derive from research and museum material in New South Wales, Australia and are not a complete global range; old venom rankings, fatality counts and conservation status are not imported.
 <!-- /evo:text -->

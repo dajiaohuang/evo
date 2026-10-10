@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonyosoma coeruleum
       en: Gonyosoma coeruleum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

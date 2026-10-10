@@ -9,7 +9,6 @@ records:
     name:
       zh: Vielasia sigei
       en: Vielasia sigei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

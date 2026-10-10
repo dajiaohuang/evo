@@ -9,7 +9,6 @@ records:
     name:
       zh: Contopus ochraceus
       en: Contopus ochraceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

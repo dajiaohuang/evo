@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachymarptis melba
       en: Tachymarptis melba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

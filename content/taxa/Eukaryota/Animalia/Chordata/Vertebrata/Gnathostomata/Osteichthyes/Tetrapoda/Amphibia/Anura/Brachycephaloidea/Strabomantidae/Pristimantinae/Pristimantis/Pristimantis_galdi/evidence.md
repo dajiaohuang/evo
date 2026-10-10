@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis galdi
       zh: Pristimantis galdi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

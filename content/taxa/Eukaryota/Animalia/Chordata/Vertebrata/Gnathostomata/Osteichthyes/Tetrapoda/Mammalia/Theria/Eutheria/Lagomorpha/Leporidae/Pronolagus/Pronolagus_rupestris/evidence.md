@@ -9,7 +9,6 @@ records:
     name:
       zh: Pronolagus rupestris
       en: Pronolagus rupestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

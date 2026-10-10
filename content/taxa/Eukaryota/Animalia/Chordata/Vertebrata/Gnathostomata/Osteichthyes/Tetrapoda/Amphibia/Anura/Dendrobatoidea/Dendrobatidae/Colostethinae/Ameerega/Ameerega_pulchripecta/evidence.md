@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega pulchripecta
       zh: Ameerega pulchripecta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

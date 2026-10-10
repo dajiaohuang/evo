@@ -9,7 +9,6 @@ records:
     name:
       en: Asterophrys turpicola
       zh: Asterophrys turpicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

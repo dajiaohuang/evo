@@ -9,7 +9,6 @@ records:
     name:
       zh: 里奥朱鲁阿项圈跳猴
       en: Rio Juruá Collared Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

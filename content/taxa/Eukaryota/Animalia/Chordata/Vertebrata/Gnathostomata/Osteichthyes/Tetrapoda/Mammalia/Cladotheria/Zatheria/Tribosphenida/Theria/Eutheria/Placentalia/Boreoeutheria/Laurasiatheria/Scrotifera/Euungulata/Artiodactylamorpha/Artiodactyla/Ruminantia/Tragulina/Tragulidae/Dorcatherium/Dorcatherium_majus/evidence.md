@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorcatherium majus
       en: Dorcatherium majus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

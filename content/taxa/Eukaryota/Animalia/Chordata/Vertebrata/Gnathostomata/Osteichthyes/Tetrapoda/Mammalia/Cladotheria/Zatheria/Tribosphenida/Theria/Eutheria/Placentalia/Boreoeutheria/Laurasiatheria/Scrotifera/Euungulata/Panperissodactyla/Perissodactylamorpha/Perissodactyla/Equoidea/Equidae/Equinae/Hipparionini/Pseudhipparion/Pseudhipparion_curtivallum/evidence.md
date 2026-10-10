@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudhipparion curtivallum
       en: Pseudhipparion curtivallum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

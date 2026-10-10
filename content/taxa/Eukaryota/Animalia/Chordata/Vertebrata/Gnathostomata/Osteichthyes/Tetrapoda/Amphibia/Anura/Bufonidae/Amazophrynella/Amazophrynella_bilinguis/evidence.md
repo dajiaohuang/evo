@@ -9,7 +9,6 @@ records:
     name:
       en: Amazophrynella bilinguis
       zh: Amazophrynella bilinguis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

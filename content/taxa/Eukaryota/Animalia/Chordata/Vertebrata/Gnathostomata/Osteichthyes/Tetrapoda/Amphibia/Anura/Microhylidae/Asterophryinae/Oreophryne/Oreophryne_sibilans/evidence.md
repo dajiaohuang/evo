@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne sibilans
       zh: Oreophryne sibilans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

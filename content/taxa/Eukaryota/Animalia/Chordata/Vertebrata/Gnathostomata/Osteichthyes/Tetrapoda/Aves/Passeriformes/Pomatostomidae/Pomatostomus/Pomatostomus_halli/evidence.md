@@ -9,7 +9,6 @@ records:
     name:
       zh: Pomatostomus halli
       en: Pomatostomus halli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligodon forbesi
       en: Oligodon forbesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

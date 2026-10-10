@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bai-2020-ceratomorpha concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: bai-2020-ceratomorpha
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: bai-2020-ceratomorpha
           locator: Article 509; Figures 6–8; Systematic palaeontology and phylogeny; no complete global range ledger
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

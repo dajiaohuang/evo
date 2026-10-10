@@ -9,7 +9,6 @@ records:
     name:
       zh: Arpadosaurus gazinorum
       en: Arpadosaurus gazinorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

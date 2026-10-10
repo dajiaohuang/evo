@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis calima
       zh: Pristimantis calima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

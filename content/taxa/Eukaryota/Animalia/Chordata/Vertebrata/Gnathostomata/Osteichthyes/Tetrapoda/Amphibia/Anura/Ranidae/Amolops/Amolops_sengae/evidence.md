@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops sengae
       zh: Amolops sengae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

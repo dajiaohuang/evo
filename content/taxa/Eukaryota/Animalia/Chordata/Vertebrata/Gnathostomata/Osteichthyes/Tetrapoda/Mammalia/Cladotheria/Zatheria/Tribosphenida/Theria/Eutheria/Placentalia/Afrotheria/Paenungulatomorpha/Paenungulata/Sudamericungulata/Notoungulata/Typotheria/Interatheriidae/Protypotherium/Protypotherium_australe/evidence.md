@@ -9,7 +9,6 @@ records:
     name:
       zh: Protypotherium australe
       en: Protypotherium australe
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

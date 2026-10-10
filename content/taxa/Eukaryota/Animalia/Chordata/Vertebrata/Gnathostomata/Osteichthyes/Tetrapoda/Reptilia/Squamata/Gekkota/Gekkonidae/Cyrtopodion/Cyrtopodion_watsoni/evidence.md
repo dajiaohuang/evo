@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtopodion watsoni
       en: Cyrtopodion watsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

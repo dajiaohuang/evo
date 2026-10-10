@@ -9,7 +9,6 @@ records:
     name:
       zh: Jobaria tiguidensis
       en: Jobaria tiguidensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

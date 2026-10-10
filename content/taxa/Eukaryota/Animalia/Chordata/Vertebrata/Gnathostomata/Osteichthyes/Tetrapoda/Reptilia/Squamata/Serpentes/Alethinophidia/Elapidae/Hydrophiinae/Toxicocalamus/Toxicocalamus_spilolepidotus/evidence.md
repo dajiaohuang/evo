@@ -9,7 +9,6 @@ records:
     name:
       zh: Toxicocalamus spilolepidotus
       en: Toxicocalamus spilolepidotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

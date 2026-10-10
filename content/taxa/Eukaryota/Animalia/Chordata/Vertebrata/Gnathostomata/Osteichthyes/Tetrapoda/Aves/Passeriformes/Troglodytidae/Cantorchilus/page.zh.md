@@ -10,7 +10,7 @@ status: source-linked
 ## 沿 Thryothorus 旧组合找七条记录
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-本入口按 COL26.8 Cantorchilus（3GX2）与 Troglodytidae（626S2）组织七条历史导读。七条 BirdLife／eBird 同名且各自 Avibase ID 相同，类型均为一对一；BirdTree 记七个 Thryothorus 旧组合，每个均读到逐字目录异名指向本页接受种。名称对应不证明跨版本物种范围相同。目录属记录十个直接子项，本批七页不作为全属完整内容、完整自然史或专家审评。
+本入口按 COL26.8 Cantorchilus（3GX2）与 Troglodytidae（626S2）组织七条历史导读。七条 BirdLife／eBird 同名且各自 Avibase ID 相同，类型均为一对一；BirdTree 记七个 Thryothorus 旧组合，每个均读到逐字目录异名指向本页接受种。名称对应不证明跨版本物种范围相同。目录属记录十个直接子项，本批七页不作为全属完整内容、完整自然史。
 <!-- /evo:text -->
 
 ## 三十八只总数与四套完整测量
@@ -38,5 +38,5 @@ nigricapillus 总数38（雌15、雄17、未定6），完整4；semibadius 总�
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-七条所选历史行与各自旧 Thryothorus 组合异名支持有限导读，不计十个目录直接子项的完整内容。总鸟数、三至五套完整测量和 Dunning 文献体重独立；类别不提供实测食谱、准确觅食层位、对唱、繁殖、当前地图或专家审评。
+七条所选历史行与各自旧 Thryothorus 组合异名支持有限导读，不计十个目录直接子项的完整内容。总鸟数、三至五套完整测量和 Dunning 文献体重独立；类别不提供实测食谱、准确觅食层位、对唱、繁殖、当前地图。
 <!-- /evo:text -->

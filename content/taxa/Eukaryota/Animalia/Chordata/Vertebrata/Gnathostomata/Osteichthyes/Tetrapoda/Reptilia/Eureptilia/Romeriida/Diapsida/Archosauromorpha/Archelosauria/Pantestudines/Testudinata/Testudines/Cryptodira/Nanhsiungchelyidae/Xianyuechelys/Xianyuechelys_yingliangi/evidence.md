@@ -9,7 +9,6 @@ records:
     name:
       zh: Xianyuechelys yingliangi
       en: Xianyuechelys yingliangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

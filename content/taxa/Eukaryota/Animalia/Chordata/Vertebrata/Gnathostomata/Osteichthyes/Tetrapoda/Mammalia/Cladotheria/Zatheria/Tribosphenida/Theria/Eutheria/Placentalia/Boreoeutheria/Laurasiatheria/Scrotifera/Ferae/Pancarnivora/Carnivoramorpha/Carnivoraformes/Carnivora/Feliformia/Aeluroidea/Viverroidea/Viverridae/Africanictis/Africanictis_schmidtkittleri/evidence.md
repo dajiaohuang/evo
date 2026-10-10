@@ -9,7 +9,6 @@ records:
     name:
       zh: Africanictis schmidtkittleri
       en: Africanictis schmidtkittleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

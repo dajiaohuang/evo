@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudemys caelata
       en: Pseudemys caelata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

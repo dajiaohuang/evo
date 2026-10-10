@@ -9,7 +9,6 @@ records:
     name:
       zh: Chionomys nivalis
       en: Chionomys nivalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

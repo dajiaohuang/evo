@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus apiau
       zh: Anomaloglossus apiau
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

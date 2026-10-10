@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydromorphus concolor
       en: Hydromorphus concolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

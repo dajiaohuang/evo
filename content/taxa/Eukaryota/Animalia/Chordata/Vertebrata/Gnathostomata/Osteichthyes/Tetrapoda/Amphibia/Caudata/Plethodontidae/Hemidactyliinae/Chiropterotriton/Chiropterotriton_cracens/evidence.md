@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton cracens
       zh: Chiropterotriton cracens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

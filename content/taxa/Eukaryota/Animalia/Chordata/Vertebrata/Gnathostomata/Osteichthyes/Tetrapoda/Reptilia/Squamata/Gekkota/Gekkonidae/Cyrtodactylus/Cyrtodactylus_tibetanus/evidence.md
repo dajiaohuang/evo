@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus tibetanus
       en: Cyrtodactylus tibetanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

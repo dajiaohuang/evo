@@ -7,7 +7,6 @@ import { clearOfflinePackages, getCompleteAtlasOfflinePlan, saveAllPackagesOffli
 import type { CompleteAtlasOfflinePlan, OfflineDownloadProgress } from '../../data-client/offlinePackages'
 import type { CatalogueRuntimeManifest, CatalogueSpeciesCoverageEntry, CatalogueSpeciesOwnership, CurrentRuntimeManifest, RuntimeEntityLinkageCoverage, RuntimePackageManifest, RuntimePackageRegistry } from '../../data-client/types'
 import type { AppRoute } from '../../utils/routing'
-import { reviewStatusLabel, scientificMaturityLabel } from '../../services/publication'
 import { useI18n } from '../../i18n'
 import { ItisSourceBrowser } from './ItisSourceBrowser'
 import './InfoPages.css'
@@ -173,9 +172,6 @@ export function DataPage({ onNavigate }: PageProps) {
           <div className="platform-summary platform-summary--quality" aria-label={t('Taxonomy and entity linkage quality')}>
             <article><strong>{linkageCoverage.resolutionSummary.resolved}/{linkageCoverage.indexedEntityCount}</strong><span>{t('PBDB names and ranks resolved')}</span></article>
             <article><strong>{linkageCoverage.resolutionSummary.unresolved}</strong><span>{t('external concepts unresolved')}</span></article>
-            <article><strong>{linkageCoverage.resolutionSummary.conceptResolved}</strong><span>{t('concept mappings cleared')}</span></article>
-            <article><strong>{linkageCoverage.resolutionSummary.needsConceptReview}</strong><span>{t('PBDB concepts needing review')}</span></article>
-            <article><strong>{linkageCoverage.resolutionSummary.humanCuratorDecisions}</strong><span>{t('human curator decisions')}</span></article>
             <article><strong>{number(linkageCoverage.directLinkTotal)}/{number(linkageCoverage.sourceTotal)}</strong><span>{t('direct entity links')}</span></article>
             <article><strong>{(linkageCoverage.directLinkRate * 100).toFixed(2)}%</strong><span>{t('direct-link rate')}</span></article>
             <article><strong>{number(linkageCoverage.broadLinkTotal)}/{number(linkageCoverage.sourceTotal)}</strong><span>{t('broad ontology links')}</span></article>
@@ -187,14 +183,12 @@ export function DataPage({ onNavigate }: PageProps) {
           </div>
         )}
         {linkageCoverage && <p className="quality-disclaimer">{t(linkageCoverage.precisionStatement)}</p>}
-        <p className="quality-disclaimer quality-disclaimer--review">{t('Automated data audits verify schemas, identifiers, translations and links. Maintainer review is digest-bound; ChatGPT assistance and external expert review remain separately disclosed.')}</p>
         <p className="quality-disclaimer">{t('Occurrence counts describe atlas-wide period shards; query coverage may describe a separate package-specific source snapshot.')}</p>
         <div className="package-table" role="table" aria-label={t('Static package coverage')}>
-          <div className="package-row package-row--head" role="row"><span>{t('Package')}</span><span>{t('Maturity / review')}</span><span>{t('Query coverage')}</span><span>{t('Entities')}</span><span>{t('Runtime')}</span><span>{t('Occurrences')}</span><span>{t('Offline')}</span></div>
+          <div className="package-row package-row--head" role="row"><span>{t('Package')}</span><span>{t('Query coverage')}</span><span>{t('Entities')}</span><span>{t('Runtime')}</span><span>{t('Occurrences')}</span><span>{t('Offline')}</span></div>
           {packageManifests.map((entry) => (
             <div className="package-row" role="row" key={entry.packageId}>
               <strong>{language === 'zh' ? entry.titleZh : entry.title}<small>{entry.packageId}</small></strong>
-              <span className={`package-maturity package-maturity--${entry.scientificMaturity}`} title={`${entry.platformMaturity} · ${entry.effectiveReviewStatus}`}><b>{t(scientificMaturityLabel(entry.scientificMaturity))}</b><small>{t(reviewStatusLabel(entry.effectiveReviewStatus))}</small><small>{t(entry.chatgptAssisted ? 'ChatGPT-assisted check recorded' : 'No ChatGPT-assisted review recorded')}</small></span>
               <span className={`query-coverage query-coverage--${entry.queryCoverage.completeness}`} title={t('Fetched {rows} source rows across {pages} page(s)', { rows: number(entry.queryCoverage.rowsFetched), pages: number(entry.queryCoverage.pagesFetched) })}>{t(entry.queryCoverage.completeness)}<small>{entry.queryCoverage.upstreamReportedTotal == null ? t('upstream total unavailable') : t('{count} upstream rows', { count: number(entry.queryCoverage.upstreamReportedTotal) })}</small><small>{t('{accepted} accepted source rows · {outside} outside package rules', { accepted: number(entry.queryCoverage.rowsAccepted), outside: number(entry.queryCoverage.rowsOutsidePackage) })}</small></span>
               <span>{number(entry.entityCount)}</span>
               <span>{(entry.metrics.runtimeKnowledgeCompressedBytes / 1024).toFixed(1)} KiB</span>
@@ -240,7 +234,7 @@ export function DataPage({ onNavigate }: PageProps) {
           </div>
           <div className="ownership-policy-note">
             <strong>{speciesOwnership.source.releaseAlias} · {speciesOwnership.source.releaseDate} · {speciesOwnership.source.strictPredicate}</strong>
-            <p>{language === 'zh' ? '沿本发布版 CoL 父链应用精确祖先 ID 与固定优先级；全部严格 accepted 物种恰好归属一个分区。归属覆盖仅表示名称与分类位置完整，不等于 Evo Atlas 专档、证据、媒体、化石、生态、翻译或专家评审已经成熟。' : 'Exact ancestor IDs and fixed priorities are applied along the pinned CoL lineage; every strict accepted species has exactly one owner. Ownership coverage means complete names and placement only, not mature Evo Atlas dossiers, evidence, media, fossils, ecology, translations, or expert review.'}</p>
+            <p>{language === 'zh' ? '沿本发布版 CoL 父链应用精确祖先 ID 与固定优先级；全部严格 accepted 物种恰好归属一个分区。归属覆盖仅表示名称与分类位置完整，不等于 Evo Atlas 专档、证据、媒体、化石、生态、翻译已经成熟。' : 'Exact ancestor IDs and fixed priorities are applied along the pinned CoL lineage; every strict accepted species has exactly one owner. Ownership coverage means complete names and placement only, not mature Evo Atlas dossiers, evidence, media, fossils, ecology, translations,.'}</p>
           </div>
           <div className="ownership-table" role="table" aria-label={language === 'zh' ? '32 个物种资源分区' : '32 species resource partitions'}>
             <div className="ownership-row ownership-row--head" role="row">
@@ -261,8 +255,8 @@ export function DataPage({ onNavigate }: PageProps) {
                 <span className="ownership-roots">{entry.browseRootIds.length ? entry.browseRootIds.map((rootId) => <code key={rootId}>{rootId}</code>) : '—'}</span>
                 <span className="ownership-scope">
                   {language === 'zh'
-                    ? entry.scopeZh ?? (entry.zeroAssignmentReason ? '本发布版没有归属记录；保留此分区以表达明确的零覆盖边界。' : entry.kind === 'catalogue-only' ? '残余目录分区；不是专档成熟度声明。' : '由固定 CoL 祖先 ID 定义的物种归属。')
-                    : entry.scope ?? entry.zeroAssignmentReason ?? (entry.kind === 'catalogue-only' ? 'Residual catalogue partition; not a dossier-maturity claim.' : 'Species ownership defined by pinned CoL ancestor IDs.')}
+                    ? entry.scopeZh ?? (entry.zeroAssignmentReason ? '本发布版没有归属记录；保留此分区以表达明确的零覆盖边界。' : entry.kind === 'catalogue-only' ? '残余目录分区，提供来源与已有档案。' : '由固定 CoL 祖先 ID 定义的物种归属。')
+                    : entry.scope ?? entry.zeroAssignmentReason ?? (entry.kind === 'catalogue-only' ? 'Residual catalogue partition with cited sources and available profiles.' : 'Species ownership defined by pinned CoL ancestor IDs.')}
                   {(entry.disclaimer || entry.disclaimerZh) && <small>{language === 'zh' ? entry.disclaimerZh ?? entry.disclaimer : entry.disclaimer ?? entry.disclaimerZh}</small>}
                 </span>
                 <span className="ownership-access">

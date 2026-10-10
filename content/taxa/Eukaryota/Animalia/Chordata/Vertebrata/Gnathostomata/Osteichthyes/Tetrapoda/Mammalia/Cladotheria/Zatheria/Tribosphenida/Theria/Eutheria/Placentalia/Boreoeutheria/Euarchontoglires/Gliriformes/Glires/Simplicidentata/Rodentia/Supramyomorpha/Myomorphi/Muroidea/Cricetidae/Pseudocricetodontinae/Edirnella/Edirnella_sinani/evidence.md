@@ -9,7 +9,6 @@ records:
     name:
       zh: Edirnella sinani
       en: Edirnella sinani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

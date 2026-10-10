@@ -9,7 +9,6 @@ records:
     name:
       zh: Xiphiacetus bossi
       en: Xiphiacetus bossi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

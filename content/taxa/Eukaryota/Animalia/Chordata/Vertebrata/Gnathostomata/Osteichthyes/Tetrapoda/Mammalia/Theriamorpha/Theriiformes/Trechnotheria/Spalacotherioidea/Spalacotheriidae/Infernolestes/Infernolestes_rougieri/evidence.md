@@ -9,7 +9,6 @@ records:
     name:
       zh: Infernolestes rougieri
       en: Infernolestes rougieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

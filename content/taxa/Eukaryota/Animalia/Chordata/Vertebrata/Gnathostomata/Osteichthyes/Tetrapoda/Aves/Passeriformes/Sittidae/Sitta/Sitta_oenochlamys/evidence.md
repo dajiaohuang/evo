@@ -9,7 +9,6 @@ records:
     name:
       zh: Sitta oenochlamys
       en: Sitta oenochlamys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

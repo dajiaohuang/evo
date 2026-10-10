@@ -9,7 +9,6 @@ records:
     name:
       en: Indirana salelkari
       zh: Indirana salelkari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

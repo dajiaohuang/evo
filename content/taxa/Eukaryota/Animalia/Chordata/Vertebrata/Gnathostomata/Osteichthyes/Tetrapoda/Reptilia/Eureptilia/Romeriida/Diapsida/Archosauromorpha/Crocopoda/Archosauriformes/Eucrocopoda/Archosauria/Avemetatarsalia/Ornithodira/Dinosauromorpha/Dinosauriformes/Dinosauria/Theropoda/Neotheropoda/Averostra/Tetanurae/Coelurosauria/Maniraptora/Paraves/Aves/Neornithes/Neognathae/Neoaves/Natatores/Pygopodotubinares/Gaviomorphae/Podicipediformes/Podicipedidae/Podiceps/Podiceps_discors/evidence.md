@@ -9,7 +9,6 @@ records:
     name:
       zh: Podiceps discors
       en: Podiceps discors
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Diphyllodes magnificus
       en: Diphyllodes magnificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

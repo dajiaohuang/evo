@@ -9,7 +9,6 @@ records:
     name:
       zh: Honrovits tsuwape
       en: Honrovits tsuwape
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

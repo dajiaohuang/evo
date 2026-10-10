@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius diaphanus
       zh: Hyperolius diaphanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

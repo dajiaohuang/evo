@@ -9,7 +9,6 @@ records:
     name:
       zh: Hieraaetus ayresii
       en: Hieraaetus ayresii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

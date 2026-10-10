@@ -9,7 +9,6 @@ records:
     name:
       zh: Diglossa baritula
       en: Diglossa baritula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

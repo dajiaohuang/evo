@@ -9,7 +9,6 @@ records:
     name:
       zh: Draco spilopterus
       en: Draco spilopterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

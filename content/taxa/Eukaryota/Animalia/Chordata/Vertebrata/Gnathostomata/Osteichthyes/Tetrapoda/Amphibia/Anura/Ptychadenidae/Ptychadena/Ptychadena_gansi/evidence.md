@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena gansi
       zh: Ptychadena gansi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

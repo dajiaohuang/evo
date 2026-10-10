@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella maura
       zh: Leptobrachella maura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

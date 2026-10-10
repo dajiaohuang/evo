@@ -9,7 +9,6 @@ records:
     name:
       zh: Monticolomys
       en: Monticolomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geiseltaliellus maarius
       en: Geiseltaliellus maarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

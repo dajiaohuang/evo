@@ -9,7 +9,6 @@ records:
     name:
       zh: Ristella beddomii
       en: Ristella beddomii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

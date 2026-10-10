@@ -9,7 +9,6 @@ records:
     name:
       en: Hylambates keithae
       zh: Hylambates keithae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

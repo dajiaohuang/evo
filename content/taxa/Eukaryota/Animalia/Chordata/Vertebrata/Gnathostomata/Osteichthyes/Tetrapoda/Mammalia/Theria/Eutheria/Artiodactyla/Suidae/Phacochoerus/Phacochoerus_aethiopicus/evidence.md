@@ -9,7 +9,6 @@ records:
     name:
       zh: Phacochoerus aethiopicus
       en: Phacochoerus aethiopicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

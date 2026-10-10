@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena plumbea
       en: Amphisbaena plumbea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

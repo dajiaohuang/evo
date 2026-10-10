@@ -9,7 +9,6 @@ records:
     name:
       zh: 爪哇蜂猴
       en: Javan Slow Loris
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

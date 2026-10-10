@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipodomys nitratoides
       en: Dipodomys nitratoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crenatocetus rayi
       en: Crenatocetus rayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

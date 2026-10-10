@@ -9,7 +9,6 @@ records:
     name:
       en: Xenophrys major
       zh: Xenophrys major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

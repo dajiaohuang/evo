@@ -9,7 +9,6 @@ records:
     name:
       zh: Deinonychus antirrhopus
       en: Deinonychus antirrhopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

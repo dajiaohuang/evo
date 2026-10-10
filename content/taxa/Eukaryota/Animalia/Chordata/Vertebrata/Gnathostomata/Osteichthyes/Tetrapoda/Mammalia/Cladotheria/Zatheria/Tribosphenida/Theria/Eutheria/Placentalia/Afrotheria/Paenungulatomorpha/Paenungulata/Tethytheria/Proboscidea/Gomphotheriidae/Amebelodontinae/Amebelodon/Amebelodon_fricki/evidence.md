@@ -9,7 +9,6 @@ records:
     name:
       zh: Amebelodon fricki
       en: Amebelodon fricki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

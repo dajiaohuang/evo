@@ -9,7 +9,6 @@ records:
     name:
       zh: Orycterocetus quadratidens
       en: Orycterocetus quadratidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

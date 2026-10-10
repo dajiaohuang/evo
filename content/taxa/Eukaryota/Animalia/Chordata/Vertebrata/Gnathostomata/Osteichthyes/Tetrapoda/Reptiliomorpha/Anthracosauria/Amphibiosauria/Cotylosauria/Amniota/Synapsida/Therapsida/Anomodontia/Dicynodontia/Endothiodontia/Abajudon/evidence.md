@@ -9,7 +9,6 @@ records:
     name:
       zh: Abajudon
       en: Abajudon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Colluricincla boweri
       en: Colluricincla boweri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

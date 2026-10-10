@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegodon yuanmouensis
       en: Stegodon yuanmouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

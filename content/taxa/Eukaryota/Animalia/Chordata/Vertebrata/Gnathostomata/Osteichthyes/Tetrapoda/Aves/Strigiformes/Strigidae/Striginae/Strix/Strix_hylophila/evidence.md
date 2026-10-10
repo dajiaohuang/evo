@@ -9,7 +9,6 @@ records:
     name:
       zh: Strix hylophila
       en: Strix hylophila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

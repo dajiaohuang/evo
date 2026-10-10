@@ -9,7 +9,6 @@ records:
     name:
       zh: Metacervocerus shansius
       en: Metacervocerus shansius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

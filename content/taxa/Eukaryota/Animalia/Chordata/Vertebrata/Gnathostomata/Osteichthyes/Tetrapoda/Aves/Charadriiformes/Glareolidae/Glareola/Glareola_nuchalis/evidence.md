@@ -9,7 +9,6 @@ records:
     name:
       zh: Glareola nuchalis
       en: Glareola nuchalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

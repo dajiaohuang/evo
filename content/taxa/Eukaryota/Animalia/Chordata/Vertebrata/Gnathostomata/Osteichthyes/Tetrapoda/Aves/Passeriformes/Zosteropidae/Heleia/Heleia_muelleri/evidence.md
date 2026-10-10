@@ -9,7 +9,6 @@ records:
     name:
       zh: Heleia muelleri
       en: Heleia muelleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

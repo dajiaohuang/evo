@@ -9,7 +9,6 @@ records:
     name:
       zh: Cosoryx (Subcosoryx) cerroensis
       en: Cosoryx (Subcosoryx) cerroensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

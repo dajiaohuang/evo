@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyto ostologa
       en: Tyto ostologa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

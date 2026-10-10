@@ -9,7 +9,6 @@ records:
     name:
       zh: Birkamys korai
       en: Birkamys korai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

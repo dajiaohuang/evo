@@ -9,7 +9,6 @@ records:
     name:
       zh: Rothianiscus robusta
       en: Rothianiscus robusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

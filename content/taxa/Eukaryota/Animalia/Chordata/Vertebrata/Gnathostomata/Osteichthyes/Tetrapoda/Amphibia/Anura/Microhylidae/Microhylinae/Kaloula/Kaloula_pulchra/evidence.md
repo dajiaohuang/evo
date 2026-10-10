@@ -9,7 +9,6 @@ records:
     name:
       en: Kaloula pulchra
       zh: Kaloula pulchra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

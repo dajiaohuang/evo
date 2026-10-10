@@ -9,7 +9,6 @@ records:
     name:
       zh: Underwoodisaurus seorsus
       en: Underwoodisaurus seorsus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

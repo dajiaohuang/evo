@@ -325,8 +325,8 @@ def project(archive, output_root=None):
         "counts": {"total": len(records), **counts, "upstreamOnly": len(source_only)},
         "files": col_files, "upstreamOnlyFiles": source_files,
         "evidenceBoundary": {
-            "en": "Frozen WSC nomenclatural/source projection for the exact COL26.8 source-56185 Araneae root; not species-concept equivalence, a biological dossier, fossil evidence, distribution completeness or expert review.",
-            "zh": "精确 COL26.8 source-56185 Araneae 根节点范围的 WSC 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据、分布完整性或专家审查。",
+            "en": "Frozen WSC nomenclatural/source projection for the exact COL26.8 source-56185 Araneae root; not species-concept equivalence, a biological dossier, fossil evidence, distribution completeness.",
+            "zh": "精确 COL26.8 source-56185 Araneae 根节点范围的 WSC 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据、分布完整性。",
         },
         "limitations": [
             "Source-only rows are relative only to COL source dataset 56185.",

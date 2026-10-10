@@ -9,7 +9,6 @@ records:
     name:
       zh: 古德曼鼠狐猴
       en: Goodman's Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mixosaurus cornalianus
       en: Mixosaurus cornalianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

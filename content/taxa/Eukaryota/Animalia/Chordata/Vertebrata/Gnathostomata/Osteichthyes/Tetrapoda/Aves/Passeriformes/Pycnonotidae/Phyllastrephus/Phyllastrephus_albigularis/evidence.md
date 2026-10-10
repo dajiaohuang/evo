@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllastrephus albigularis
       en: Phyllastrephus albigularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

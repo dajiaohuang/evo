@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis terraealtae
       en: Anolis terraealtae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

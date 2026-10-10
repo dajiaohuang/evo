@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis andinognomus
       zh: Pristimantis andinognomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

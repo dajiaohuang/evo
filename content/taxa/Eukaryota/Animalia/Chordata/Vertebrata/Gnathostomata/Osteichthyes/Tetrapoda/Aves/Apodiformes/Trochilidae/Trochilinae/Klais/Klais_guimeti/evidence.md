@@ -9,7 +9,6 @@ records:
     name:
       zh: Klais guimeti
       en: Klais guimeti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

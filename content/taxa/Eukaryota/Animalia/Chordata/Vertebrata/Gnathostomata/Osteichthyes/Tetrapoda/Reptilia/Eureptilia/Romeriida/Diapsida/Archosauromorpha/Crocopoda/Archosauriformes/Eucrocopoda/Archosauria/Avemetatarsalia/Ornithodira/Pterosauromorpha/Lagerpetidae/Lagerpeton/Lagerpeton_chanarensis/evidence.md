@@ -9,7 +9,6 @@ records:
     name:
       zh: Lagerpeton chanarensis
       en: Lagerpeton chanarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

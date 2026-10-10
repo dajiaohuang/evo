@@ -9,7 +9,6 @@ records:
     name:
       zh: Estrilda erythronotos
       en: Estrilda erythronotos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

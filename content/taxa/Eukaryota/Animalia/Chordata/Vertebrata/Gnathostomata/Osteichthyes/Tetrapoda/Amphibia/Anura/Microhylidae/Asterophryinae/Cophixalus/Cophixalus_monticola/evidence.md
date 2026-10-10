@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus monticola
       zh: Cophixalus monticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

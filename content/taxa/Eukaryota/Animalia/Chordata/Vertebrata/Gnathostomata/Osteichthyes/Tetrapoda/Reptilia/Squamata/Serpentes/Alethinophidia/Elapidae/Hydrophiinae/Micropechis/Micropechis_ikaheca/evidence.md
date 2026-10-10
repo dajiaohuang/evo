@@ -9,7 +9,6 @@ records:
     name:
       zh: Micropechis ikaheca
       en: Micropechis ikaheca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

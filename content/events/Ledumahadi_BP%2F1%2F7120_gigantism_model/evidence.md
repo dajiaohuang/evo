@@ -84,9 +84,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: mcphee-2018-ledumahadi @ DOI 10.1016/j.cub.2018.07.063
       referenceLinks:
         - referenceId: mcphee-2018-ledumahadi
           relation: supports

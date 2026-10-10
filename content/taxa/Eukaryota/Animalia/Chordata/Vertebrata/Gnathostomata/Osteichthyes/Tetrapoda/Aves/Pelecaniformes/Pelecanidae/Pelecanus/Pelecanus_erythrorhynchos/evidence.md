@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelecanus erythrorhynchos
       en: Pelecanus erythrorhynchos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

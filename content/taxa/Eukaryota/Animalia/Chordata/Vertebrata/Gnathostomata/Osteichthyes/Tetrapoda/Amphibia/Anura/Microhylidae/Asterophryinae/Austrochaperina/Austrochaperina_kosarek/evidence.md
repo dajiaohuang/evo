@@ -9,7 +9,6 @@ records:
     name:
       en: Austrochaperina kosarek
       zh: Austrochaperina kosarek
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

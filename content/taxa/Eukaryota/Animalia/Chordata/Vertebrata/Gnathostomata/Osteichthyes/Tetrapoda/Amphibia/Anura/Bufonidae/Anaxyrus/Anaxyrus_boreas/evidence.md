@@ -9,7 +9,6 @@ records:
     name:
       en: Anaxyrus boreas
       zh: Anaxyrus boreas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

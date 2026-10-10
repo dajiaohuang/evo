@@ -9,7 +9,6 @@ records:
     name:
       zh: Helminthophis flavoterminatus
       en: Helminthophis flavoterminatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

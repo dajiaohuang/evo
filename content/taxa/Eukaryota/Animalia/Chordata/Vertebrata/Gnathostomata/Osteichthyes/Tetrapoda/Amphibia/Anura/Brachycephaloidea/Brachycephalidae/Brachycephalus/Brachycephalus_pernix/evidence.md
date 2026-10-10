@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus pernix
       zh: Brachycephalus pernix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Heterocetus scriptus
       en: Heterocetus scriptus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

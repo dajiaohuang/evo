@@ -9,7 +9,6 @@ records:
     name:
       en: Kalophrynus bunguranus
       zh: Kalophrynus bunguranus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

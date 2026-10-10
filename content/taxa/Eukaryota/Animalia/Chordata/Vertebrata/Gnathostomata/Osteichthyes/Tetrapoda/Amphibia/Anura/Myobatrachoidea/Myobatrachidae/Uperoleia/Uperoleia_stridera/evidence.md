@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia stridera
       zh: Uperoleia stridera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

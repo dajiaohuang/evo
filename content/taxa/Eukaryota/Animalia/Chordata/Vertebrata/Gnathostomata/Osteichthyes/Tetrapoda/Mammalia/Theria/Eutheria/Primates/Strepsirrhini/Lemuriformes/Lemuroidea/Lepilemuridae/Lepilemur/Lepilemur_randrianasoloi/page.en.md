@@ -22,5 +22,5 @@ The study then confirmed records only from the Andramasay type locality and Bema
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The accepted name uses the formal 2017 spelling randrianasoloi; candidate river boundaries remain hypotheses, and morphology and records reflect limited samples. The Chinese name is editorial, and this guide is not externally expert-reviewed.
+The accepted name uses the formal 2017 spelling randrianasoloi; candidate river boundaries remain hypotheses, and morphology and records reflect limited samples. The Chinese name is editorial, and this guide is.
 <!-- /evo:text -->

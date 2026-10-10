@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus cowanii
       zh: Mantidactylus cowanii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dopasia buettikoferi
       en: Dopasia buettikoferi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

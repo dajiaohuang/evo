@@ -9,7 +9,6 @@ records:
     name:
       zh: Litomylus orthronepius
       en: Litomylus orthronepius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

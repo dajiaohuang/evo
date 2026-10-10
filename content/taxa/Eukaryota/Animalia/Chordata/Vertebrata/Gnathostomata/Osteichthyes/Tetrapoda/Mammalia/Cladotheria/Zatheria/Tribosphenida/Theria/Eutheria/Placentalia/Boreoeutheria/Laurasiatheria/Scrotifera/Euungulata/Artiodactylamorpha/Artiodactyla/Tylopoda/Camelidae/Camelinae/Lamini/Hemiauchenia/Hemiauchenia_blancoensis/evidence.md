@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiauchenia blancoensis
       en: Hemiauchenia blancoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus pijao
       zh: Nymphargus pijao
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

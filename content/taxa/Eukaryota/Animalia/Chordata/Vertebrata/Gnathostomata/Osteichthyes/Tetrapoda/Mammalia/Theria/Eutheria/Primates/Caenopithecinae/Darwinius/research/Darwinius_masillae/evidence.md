@@ -154,9 +154,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: franzen-2009-darwinius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: franzen-2009-darwinius
           relation: supports
@@ -173,9 +170,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: franzen-2009-darwinius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: franzen-2009-darwinius
           relation: supports
@@ -192,9 +186,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: franzen-2009-darwinius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: franzen-2009-darwinius
           relation: supports
@@ -211,9 +202,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: franzen-2009-darwinius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: franzen-2009-darwinius
           relation: supports
@@ -230,9 +218,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: franzen-2009-darwinius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: franzen-2009-darwinius
           relation: supports
@@ -284,7 +269,6 @@ records:
       referenceLocators:
         - referenceId: franzen-2009-darwinius
           locator: e5723; Figures 1–16; Tables 1–4
-      reviewStatus: automated-audit-passed
 ---
 
 # Darwinius masillae

@@ -9,7 +9,6 @@ records:
     name:
       en: Rheobates pseudopalmatus
       zh: Rheobates pseudopalmatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

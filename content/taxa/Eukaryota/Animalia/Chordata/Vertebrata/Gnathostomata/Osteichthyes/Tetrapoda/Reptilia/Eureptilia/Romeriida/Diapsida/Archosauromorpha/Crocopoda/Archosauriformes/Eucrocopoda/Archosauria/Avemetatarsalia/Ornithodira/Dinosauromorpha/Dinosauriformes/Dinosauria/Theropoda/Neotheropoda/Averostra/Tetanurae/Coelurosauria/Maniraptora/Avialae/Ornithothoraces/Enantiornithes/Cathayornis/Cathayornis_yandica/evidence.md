@@ -9,7 +9,6 @@ records:
     name:
       zh: Cathayornis yandica
       en: Cathayornis yandica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

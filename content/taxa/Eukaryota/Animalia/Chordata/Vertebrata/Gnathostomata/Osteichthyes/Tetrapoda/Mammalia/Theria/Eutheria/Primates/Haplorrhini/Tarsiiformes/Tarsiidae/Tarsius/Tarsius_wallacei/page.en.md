@@ -28,5 +28,5 @@ The two sampled populations differed in body size while sharing several diagnost
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Distribution and population contrasts are bounded to the authors’ survey localities; the paper does not establish present-day range limits. This page is not externally expert-reviewed.
+Distribution and population contrasts are bounded to the authors’ survey localities; the paper does not establish present-day range limits. This page is.
 <!-- /evo:text -->

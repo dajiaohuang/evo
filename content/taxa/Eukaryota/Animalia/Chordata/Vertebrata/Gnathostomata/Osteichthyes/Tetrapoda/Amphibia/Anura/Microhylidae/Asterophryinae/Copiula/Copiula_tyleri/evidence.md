@@ -9,7 +9,6 @@ records:
     name:
       en: Copiula tyleri
       zh: Copiula tyleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

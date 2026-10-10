@@ -22,5 +22,5 @@ COL26.8 将红腹狨列为 *Tamarinus labiatus*。Buchanan-Smith（1990）在玻
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-野外来源使用旧组合 *Saguinus labiatus*，且限于玻利维亚北部研究点。双语初稿尚未经过外部领域专家评审。
+野外来源使用旧组合 *Saguinus labiatus*，且限于玻利维亚北部研究点。。
 <!-- /evo:text -->

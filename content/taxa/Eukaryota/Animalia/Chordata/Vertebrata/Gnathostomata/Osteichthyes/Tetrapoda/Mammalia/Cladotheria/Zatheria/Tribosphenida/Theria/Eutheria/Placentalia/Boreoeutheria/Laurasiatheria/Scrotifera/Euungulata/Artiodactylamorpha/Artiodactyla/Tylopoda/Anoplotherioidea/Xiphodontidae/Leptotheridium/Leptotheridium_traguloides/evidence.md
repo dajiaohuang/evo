@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptotheridium traguloides
       en: Leptotheridium traguloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobiatherium minutum
       en: Gobiatherium minutum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

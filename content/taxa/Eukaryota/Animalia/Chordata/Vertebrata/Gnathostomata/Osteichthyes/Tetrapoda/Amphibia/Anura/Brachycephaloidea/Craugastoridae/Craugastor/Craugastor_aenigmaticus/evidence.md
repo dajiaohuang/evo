@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor aenigmaticus
       zh: Craugastor aenigmaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

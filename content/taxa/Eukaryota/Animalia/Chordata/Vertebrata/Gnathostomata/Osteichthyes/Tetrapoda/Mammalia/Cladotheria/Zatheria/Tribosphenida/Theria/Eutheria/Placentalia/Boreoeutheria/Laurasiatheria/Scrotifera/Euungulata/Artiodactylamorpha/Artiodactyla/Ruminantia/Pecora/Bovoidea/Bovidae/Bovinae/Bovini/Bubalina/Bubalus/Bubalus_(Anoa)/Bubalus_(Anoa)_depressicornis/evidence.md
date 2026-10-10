@@ -9,7 +9,6 @@ records:
     name:
       zh: Bubalus (Anoa) depressicornis
       en: Bubalus (Anoa) depressicornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

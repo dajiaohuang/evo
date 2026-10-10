@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus folkertsi
       zh: Desmognathus folkertsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

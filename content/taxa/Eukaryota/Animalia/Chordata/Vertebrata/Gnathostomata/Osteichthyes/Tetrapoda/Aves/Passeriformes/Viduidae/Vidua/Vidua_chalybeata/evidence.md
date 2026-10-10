@@ -9,7 +9,6 @@ records:
     name:
       zh: Vidua chalybeata
       en: Vidua chalybeata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

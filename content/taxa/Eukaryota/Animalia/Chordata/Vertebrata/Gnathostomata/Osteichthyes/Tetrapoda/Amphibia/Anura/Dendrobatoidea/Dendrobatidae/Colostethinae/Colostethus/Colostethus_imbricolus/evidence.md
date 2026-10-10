@@ -9,7 +9,6 @@ records:
     name:
       en: Colostethus imbricolus
       zh: Colostethus imbricolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra kimberleyi
       en: Gehyra kimberleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Romerolagus diazi
       en: Romerolagus diazi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

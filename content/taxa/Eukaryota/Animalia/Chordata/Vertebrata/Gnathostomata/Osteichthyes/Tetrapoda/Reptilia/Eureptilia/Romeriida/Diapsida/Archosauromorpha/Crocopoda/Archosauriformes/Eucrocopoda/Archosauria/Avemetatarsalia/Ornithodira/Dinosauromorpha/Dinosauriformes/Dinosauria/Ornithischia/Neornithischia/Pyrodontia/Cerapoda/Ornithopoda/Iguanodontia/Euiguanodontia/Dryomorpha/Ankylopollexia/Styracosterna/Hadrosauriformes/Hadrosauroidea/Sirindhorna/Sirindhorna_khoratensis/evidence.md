@@ -9,7 +9,6 @@ records:
     name:
       zh: Sirindhorna khoratensis
       en: Sirindhorna khoratensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

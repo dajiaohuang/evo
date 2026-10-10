@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus leucophrys
       en: Anthus leucophrys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vanellus superciliosus
       en: Vanellus superciliosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

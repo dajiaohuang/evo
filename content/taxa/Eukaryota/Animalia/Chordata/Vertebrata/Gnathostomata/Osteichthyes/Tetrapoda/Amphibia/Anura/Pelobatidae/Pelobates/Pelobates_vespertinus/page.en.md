@@ -74,7 +74,7 @@ The paper summarized a hybrid zone with P. fuscus narrower than 20 km in eastern
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial biological reader with a dated taxonomic synthesis; other biological facets, underlying measurement papers and contemporary concept boundaries still require review. This reader is not externally expert-reviewed.
+Partial biological reader with a dated taxonomic synthesis; other biological facets, underlying measurement papers and contemporary concept boundaries still require review. This reader is.
 <!-- /evo:text -->
 
 ## Research text pending

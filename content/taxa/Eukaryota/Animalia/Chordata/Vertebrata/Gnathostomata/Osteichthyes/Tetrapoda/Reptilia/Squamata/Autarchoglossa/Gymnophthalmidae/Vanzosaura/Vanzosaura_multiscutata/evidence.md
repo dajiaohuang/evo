@@ -9,7 +9,6 @@ records:
     name:
       zh: Vanzosaura multiscutata
       en: Vanzosaura multiscutata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

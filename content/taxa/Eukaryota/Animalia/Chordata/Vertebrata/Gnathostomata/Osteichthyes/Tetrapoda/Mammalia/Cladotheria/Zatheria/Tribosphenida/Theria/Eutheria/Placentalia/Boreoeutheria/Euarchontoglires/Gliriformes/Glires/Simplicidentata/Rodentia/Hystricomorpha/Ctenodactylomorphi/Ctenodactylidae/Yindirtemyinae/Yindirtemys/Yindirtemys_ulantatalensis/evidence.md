@@ -9,7 +9,6 @@ records:
     name:
       zh: Yindirtemys ulantatalensis
       en: Yindirtemys ulantatalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

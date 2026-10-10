@@ -112,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-20
-      reviewedAgainstReferenceVersion: sandom-2014-megafauna @ DOI 10.1098/rspb.2013.3254
       referenceLinks:
         - relation: supports
           referenceId: sandom-2014-megafauna

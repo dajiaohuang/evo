@@ -9,7 +9,6 @@ records:
     name:
       zh: Edworthia lerbekmoi
       en: Edworthia lerbekmoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

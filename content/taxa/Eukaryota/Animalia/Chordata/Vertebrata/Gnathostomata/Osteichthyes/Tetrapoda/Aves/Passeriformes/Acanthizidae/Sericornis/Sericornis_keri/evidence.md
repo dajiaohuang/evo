@@ -9,7 +9,6 @@ records:
     name:
       zh: Sericornis keri
       en: Sericornis keri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

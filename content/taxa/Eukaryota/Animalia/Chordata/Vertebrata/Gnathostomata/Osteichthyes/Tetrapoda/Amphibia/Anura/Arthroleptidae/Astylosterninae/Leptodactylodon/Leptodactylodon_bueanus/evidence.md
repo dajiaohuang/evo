@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylodon bueanus
       zh: Leptodactylodon bueanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

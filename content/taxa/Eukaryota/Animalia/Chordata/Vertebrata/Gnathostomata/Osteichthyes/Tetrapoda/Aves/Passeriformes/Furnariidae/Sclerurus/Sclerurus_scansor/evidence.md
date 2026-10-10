@@ -9,7 +9,6 @@ records:
     name:
       zh: Sclerurus scansor
       en: Sclerurus scansor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

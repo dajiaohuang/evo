@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus variabilis
       zh: Pseudophilautus variabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana mutschmanni
       zh: Odorrana mutschmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

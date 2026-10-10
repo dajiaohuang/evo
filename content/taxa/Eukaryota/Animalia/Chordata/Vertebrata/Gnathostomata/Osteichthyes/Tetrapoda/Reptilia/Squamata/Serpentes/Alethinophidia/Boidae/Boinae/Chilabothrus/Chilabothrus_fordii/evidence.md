@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilabothrus fordii
       en: Chilabothrus fordii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

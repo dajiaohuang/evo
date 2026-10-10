@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis huaseesom
       en: Cnemaspis huaseesom
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

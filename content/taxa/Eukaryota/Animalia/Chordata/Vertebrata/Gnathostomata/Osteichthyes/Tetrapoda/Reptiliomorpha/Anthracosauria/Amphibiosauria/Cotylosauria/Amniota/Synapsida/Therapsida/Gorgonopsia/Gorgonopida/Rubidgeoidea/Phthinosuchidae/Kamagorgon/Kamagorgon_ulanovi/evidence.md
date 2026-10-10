@@ -9,7 +9,6 @@ records:
     name:
       zh: Kamagorgon ulanovi
       en: Kamagorgon ulanovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

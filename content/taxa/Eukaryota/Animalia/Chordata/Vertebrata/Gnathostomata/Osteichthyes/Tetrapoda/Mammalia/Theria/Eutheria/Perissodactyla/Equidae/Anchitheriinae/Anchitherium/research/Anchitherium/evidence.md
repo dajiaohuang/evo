@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: kaiser-2009-anchitherium-diet locator audit at 2026-08-31
       referenceLinks:
         - referenceId: kaiser-2009-anchitherium-diet
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: kaiser-2009-anchitherium-diet locator audit at 2026-08-31
       referenceLinks:
         - referenceId: kaiser-2009-anchitherium-diet
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: kaiser-2009-anchitherium-diet locator audit at 2026-08-31
       referenceLinks:
         - referenceId: kaiser-2009-anchitherium-diet
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: kaiser-2009-anchitherium-diet locator audit at 2026-08-31
       referenceLinks:
         - referenceId: kaiser-2009-anchitherium-diet
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: kaiser-2009-anchitherium-diet locator audit at 2026-08-31
       referenceLinks:
         - referenceId: kaiser-2009-anchitherium-diet
           relation: supports
@@ -195,7 +180,6 @@ records:
       referenceLocators:
         - referenceId: kaiser-2009-anchitherium-diet
           locator: pp. 131–140; Figures 1–3; Table 1; European MN3–MN9 context and Sandelzhausen A. aurelianense sample
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

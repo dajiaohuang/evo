@@ -9,7 +9,6 @@ records:
     name:
       zh: Stephanocemas thomsoni
       en: Stephanocemas thomsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

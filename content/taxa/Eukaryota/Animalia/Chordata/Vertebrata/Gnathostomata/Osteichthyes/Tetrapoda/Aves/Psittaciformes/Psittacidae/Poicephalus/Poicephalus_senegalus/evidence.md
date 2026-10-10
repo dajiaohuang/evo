@@ -9,7 +9,6 @@ records:
     name:
       zh: Poicephalus senegalus
       en: Poicephalus senegalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

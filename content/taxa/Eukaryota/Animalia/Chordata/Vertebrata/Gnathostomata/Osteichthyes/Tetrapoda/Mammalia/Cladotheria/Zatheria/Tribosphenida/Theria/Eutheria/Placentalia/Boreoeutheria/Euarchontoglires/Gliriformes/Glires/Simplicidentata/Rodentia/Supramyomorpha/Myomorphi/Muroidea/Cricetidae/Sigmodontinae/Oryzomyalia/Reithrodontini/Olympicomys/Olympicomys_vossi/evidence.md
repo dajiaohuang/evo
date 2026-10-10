@@ -9,7 +9,6 @@ records:
     name:
       zh: Olympicomys vossi
       en: Olympicomys vossi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

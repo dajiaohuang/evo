@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicaeum igniferum
       en: Dicaeum igniferum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

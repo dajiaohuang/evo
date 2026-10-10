@@ -9,7 +9,6 @@ records:
     name:
       zh: Ayllusuchus fernandezi
       en: Ayllusuchus fernandezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

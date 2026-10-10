@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepus fagani
       en: Lepus fagani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

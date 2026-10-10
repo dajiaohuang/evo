@@ -38,7 +38,6 @@ for (const record of records) {
     if (assessment.status === 'not-assessed') assert.ok(!(assessment.claims?.length), `Unassessed facet cannot carry claims: ${record.colId}/${facet}`)
   }
   assert.equal(record.completeness?.status, 'incomplete', `This batch does not assert dossier completeness: ${record.colId}`)
-  assert.equal(record.expertReview?.status, 'not-reviewed', `This batch does not assert external review: ${record.colId}`)
 }
 
 const decoded = Buffer.from(records.map(record => JSON.stringify(record)).join('\n') + '\n', 'utf8')

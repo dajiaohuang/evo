@@ -9,7 +9,6 @@ records:
     name:
       zh: Kibenikhoria get
       en: Kibenikhoria get
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

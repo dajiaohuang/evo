@@ -9,7 +9,6 @@ records:
     name:
       zh: Adocus dzhurtasensis
       en: Adocus dzhurtasensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

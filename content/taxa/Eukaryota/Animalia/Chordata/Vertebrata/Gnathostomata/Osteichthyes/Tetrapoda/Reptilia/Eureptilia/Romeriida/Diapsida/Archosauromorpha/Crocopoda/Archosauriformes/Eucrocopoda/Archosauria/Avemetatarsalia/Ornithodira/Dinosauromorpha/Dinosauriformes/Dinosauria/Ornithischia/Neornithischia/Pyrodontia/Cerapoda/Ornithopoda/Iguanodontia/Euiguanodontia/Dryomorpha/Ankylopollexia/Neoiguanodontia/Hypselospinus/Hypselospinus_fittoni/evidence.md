@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypselospinus fittoni
       en: Hypselospinus fittoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Duberria rhodesiana
       en: Duberria rhodesiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

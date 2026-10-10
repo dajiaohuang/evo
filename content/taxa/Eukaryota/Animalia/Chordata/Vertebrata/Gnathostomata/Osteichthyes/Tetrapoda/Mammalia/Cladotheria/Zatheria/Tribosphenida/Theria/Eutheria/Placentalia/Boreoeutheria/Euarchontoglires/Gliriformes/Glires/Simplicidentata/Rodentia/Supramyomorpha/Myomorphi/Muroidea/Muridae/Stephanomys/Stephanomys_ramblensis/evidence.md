@@ -9,7 +9,6 @@ records:
     name:
       zh: Stephanomys ramblensis
       en: Stephanomys ramblensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

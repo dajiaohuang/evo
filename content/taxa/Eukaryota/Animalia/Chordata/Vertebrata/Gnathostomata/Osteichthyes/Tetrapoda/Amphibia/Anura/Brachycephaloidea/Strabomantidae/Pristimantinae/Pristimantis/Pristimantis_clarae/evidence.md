@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis clarae
       zh: Pristimantis clarae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

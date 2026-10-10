@@ -9,7 +9,6 @@ records:
     name:
       zh: Presbyornis isoni
       en: Presbyornis isoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

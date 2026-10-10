@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus taeniopterus
       en: Ploceus taeniopterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

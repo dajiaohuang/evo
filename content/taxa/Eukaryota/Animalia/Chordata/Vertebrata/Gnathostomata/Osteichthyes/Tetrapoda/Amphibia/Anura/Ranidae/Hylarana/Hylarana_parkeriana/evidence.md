@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana parkeriana
       zh: Hylarana parkeriana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

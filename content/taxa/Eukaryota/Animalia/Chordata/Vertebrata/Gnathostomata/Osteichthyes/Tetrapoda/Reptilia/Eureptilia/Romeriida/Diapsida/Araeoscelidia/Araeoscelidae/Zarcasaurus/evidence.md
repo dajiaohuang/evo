@@ -9,7 +9,6 @@ records:
     name:
       zh: Zarcasaurus
       en: Zarcasaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hoplobatrachus salween
       zh: Hoplobatrachus salween
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

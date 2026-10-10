@@ -9,7 +9,6 @@ records:
     name:
       zh: Charactosuchus fieldsi
       en: Charactosuchus fieldsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

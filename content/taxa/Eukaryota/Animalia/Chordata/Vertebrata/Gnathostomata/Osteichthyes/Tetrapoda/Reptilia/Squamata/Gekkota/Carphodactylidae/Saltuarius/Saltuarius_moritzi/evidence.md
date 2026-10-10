@@ -9,7 +9,6 @@ records:
     name:
       zh: Saltuarius moritzi
       en: Saltuarius moritzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

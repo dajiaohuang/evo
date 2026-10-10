@@ -9,7 +9,6 @@ records:
     name:
       en: Mahonabatrachus
       zh: Mahonabatrachus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

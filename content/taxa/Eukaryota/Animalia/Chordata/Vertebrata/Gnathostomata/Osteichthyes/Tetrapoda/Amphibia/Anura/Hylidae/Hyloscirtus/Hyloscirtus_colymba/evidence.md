@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus colymba
       zh: Hyloscirtus colymba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

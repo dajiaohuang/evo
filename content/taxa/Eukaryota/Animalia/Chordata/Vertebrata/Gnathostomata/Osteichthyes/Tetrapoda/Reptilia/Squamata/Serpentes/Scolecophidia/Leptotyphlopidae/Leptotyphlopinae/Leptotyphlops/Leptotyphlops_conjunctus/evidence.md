@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptotyphlops conjunctus
       en: Leptotyphlops conjunctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

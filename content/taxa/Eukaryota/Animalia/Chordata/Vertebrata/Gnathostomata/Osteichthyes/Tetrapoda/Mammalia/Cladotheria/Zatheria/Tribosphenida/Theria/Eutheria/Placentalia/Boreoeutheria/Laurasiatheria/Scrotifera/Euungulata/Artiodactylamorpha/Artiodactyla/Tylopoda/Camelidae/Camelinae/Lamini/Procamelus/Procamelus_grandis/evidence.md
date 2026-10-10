@@ -9,7 +9,6 @@ records:
     name:
       zh: Procamelus grandis
       en: Procamelus grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

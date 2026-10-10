@@ -9,7 +9,6 @@ records:
     name:
       en: Staurois guttatus
       zh: Staurois guttatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

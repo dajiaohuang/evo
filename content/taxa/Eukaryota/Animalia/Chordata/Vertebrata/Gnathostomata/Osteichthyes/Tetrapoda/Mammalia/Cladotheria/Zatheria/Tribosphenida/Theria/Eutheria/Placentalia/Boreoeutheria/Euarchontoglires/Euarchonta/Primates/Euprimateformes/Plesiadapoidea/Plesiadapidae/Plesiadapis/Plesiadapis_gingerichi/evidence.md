@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiadapis gingerichi
       en: Plesiadapis gingerichi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

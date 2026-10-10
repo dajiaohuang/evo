@@ -9,7 +9,6 @@ records:
     name:
       zh: Teruelictis riparius
       en: Teruelictis riparius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Exerodonta perkinsi
       zh: Exerodonta perkinsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

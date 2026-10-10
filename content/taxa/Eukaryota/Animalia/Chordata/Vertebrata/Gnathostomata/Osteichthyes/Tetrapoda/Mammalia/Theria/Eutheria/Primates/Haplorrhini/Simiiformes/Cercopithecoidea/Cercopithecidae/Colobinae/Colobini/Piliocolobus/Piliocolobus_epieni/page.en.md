@@ -16,5 +16,5 @@ A 2013–2014 survey across the presumed range in Nigeria’s central Niger Delt
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The article’s population and forest figures describe its 2013–2014 evidence and methods. Earlier literature used different combinations and sometimes treated epieni as a subspecies. This source-linked draft is not externally expert-reviewed.
+The article’s population and forest figures describe its 2013–2014 evidence and methods. Earlier literature used different combinations and sometimes treated epieni as a subspecies. This source-linked draft is.
 <!-- /evo:text -->

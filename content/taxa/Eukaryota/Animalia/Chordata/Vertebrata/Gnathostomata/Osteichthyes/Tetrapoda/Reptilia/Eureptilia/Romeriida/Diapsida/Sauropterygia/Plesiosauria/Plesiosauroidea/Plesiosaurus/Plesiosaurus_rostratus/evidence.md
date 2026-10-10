@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiosaurus rostratus
       en: Plesiosaurus rostratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

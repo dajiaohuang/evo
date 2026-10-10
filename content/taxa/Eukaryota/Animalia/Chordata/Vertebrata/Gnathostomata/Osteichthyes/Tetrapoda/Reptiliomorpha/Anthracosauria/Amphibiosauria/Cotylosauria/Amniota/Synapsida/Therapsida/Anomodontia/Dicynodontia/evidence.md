@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: angielczyk-2003-dicynodont-phylogeny concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: angielczyk-2003-dicynodont-phylogeny
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: angielczyk-2003-dicynodont-phylogeny @ DOI 10.1046/j.1096-3642.2003.00081.x
       referenceLinks:
         - relation: supports
           referenceId: angielczyk-2003-dicynodont-phylogeny
@@ -94,7 +88,6 @@ records:
           locator: 157–212; Phylogenetic analysis; Results; Discussion of geographic sampling disparity
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Dicynodontia
@@ -103,7 +96,6 @@ records:
     name:
       zh: Dicynodontia
       en: Dicynodontia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

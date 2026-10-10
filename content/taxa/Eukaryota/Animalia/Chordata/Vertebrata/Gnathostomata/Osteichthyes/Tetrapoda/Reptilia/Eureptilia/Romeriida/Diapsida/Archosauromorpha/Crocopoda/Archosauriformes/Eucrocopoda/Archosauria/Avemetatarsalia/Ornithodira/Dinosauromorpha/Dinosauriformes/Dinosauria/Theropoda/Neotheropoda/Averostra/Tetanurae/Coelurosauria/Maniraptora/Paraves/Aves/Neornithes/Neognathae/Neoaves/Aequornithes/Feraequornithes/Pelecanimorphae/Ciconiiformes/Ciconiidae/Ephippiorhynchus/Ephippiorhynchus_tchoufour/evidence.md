@@ -9,7 +9,6 @@ records:
     name:
       zh: Ephippiorhynchus tchoufour
       en: Ephippiorhynchus tchoufour
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

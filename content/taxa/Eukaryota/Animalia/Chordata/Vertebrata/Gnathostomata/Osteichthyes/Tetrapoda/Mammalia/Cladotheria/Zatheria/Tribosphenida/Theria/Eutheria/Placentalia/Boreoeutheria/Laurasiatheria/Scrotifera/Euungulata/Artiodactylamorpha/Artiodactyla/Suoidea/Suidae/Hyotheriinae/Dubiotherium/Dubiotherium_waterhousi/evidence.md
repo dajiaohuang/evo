@@ -9,7 +9,6 @@ records:
     name:
       zh: Dubiotherium waterhousi
       en: Dubiotherium waterhousi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

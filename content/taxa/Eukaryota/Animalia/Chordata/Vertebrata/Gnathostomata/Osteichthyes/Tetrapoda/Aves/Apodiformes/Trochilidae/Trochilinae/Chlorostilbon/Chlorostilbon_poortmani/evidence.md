@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorostilbon poortmani
       en: Chlorostilbon poortmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

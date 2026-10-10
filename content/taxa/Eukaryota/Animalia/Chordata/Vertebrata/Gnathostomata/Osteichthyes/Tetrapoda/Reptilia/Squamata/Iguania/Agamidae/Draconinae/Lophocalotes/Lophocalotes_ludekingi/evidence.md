@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophocalotes ludekingi
       en: Lophocalotes ludekingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

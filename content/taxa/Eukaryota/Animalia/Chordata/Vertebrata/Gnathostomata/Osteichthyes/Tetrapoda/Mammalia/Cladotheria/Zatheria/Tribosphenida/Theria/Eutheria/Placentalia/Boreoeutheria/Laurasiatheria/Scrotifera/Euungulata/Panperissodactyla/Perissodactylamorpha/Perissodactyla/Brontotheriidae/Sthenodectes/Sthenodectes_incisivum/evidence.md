@@ -9,7 +9,6 @@ records:
     name:
       zh: Sthenodectes incisivum
       en: Sthenodectes incisivum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

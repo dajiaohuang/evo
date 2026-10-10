@@ -9,7 +9,6 @@ records:
     name:
       zh: Centropus cupreicaudus
       en: Centropus cupreicaudus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

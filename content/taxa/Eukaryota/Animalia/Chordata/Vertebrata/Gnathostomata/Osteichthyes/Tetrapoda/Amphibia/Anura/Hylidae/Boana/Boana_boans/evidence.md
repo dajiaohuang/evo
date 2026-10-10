@@ -9,7 +9,6 @@ records:
     name:
       en: Boana boans
       zh: Boana boans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Mannophryne phylidros
       zh: Mannophryne phylidros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

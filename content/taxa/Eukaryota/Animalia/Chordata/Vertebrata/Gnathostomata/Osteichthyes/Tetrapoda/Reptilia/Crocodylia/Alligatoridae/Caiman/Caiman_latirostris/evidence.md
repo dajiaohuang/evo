@@ -9,7 +9,6 @@ records:
     name:
       zh: 宽吻凯门鳄
       en: Broad-snouted caiman
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

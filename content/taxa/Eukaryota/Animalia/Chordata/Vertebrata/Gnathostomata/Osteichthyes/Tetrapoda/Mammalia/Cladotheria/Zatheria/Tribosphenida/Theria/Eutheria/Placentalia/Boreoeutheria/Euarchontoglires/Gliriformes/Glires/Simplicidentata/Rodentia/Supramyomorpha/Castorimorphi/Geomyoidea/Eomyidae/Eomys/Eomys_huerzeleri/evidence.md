@@ -9,7 +9,6 @@ records:
     name:
       zh: Eomys huerzeleri
       en: Eomys huerzeleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

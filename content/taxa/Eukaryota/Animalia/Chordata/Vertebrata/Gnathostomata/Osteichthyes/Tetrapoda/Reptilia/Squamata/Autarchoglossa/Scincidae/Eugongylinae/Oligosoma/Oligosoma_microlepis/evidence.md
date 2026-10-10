@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma microlepis
       en: Oligosoma microlepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

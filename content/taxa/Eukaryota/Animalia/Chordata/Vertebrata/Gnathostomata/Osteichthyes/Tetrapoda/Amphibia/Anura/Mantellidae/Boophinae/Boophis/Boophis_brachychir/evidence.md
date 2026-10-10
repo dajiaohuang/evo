@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis brachychir
       zh: Boophis brachychir
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

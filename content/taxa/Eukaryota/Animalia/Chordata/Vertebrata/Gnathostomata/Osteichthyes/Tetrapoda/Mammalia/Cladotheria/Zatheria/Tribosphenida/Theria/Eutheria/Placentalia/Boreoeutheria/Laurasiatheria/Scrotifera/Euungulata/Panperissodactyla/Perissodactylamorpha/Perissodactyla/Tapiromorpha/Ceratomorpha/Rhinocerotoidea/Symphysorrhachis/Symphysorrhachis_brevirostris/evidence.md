@@ -9,7 +9,6 @@ records:
     name:
       zh: Symphysorrhachis brevirostris
       en: Symphysorrhachis brevirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

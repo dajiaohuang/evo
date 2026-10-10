@@ -9,7 +9,6 @@ records:
     name:
       en: Rawlinsonia calliscelis
       zh: Rawlinsonia calliscelis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

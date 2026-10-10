@@ -9,7 +9,6 @@ records:
     name:
       zh: Polyplectron schleiermacheri
       en: Polyplectron schleiermacheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

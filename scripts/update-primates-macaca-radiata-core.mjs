@@ -8,7 +8,6 @@ const templeStatement = 'In its 2009–2015 temple/tourist-site comparison and h
 const conservationStatement = 'For the surveyed southern Indian landscapes, the authors proposed selected vegetated hillocks and temple/tourist locations as possible conservation reserves, based partly on local roadside persistence at Chamundi Hill and declines on other monitored roads. This is a 2017 study recommendation, not a statutory designation, current threat category or range-wide recovery plan.'
 const identityStatement = 'COL26.8 ChecklistBank dataset 316115 accepts Macaca radiata (É. Geoffroy Saint-Hilaire, 1812) as species usage 3WWP2 (source dataset 2144), with accepted parent Macaca usage 5HYC. This identifies the pinned checklist usage; it does not independently review biological circumscription.'
 const studySitesStatement = 'The selected 2017 study sampled roads connected to Mysore, Karnataka, forest grid cells in the Parambikulam landscape of Kerala, and temple/tourist locations in southern India. These are locations from bounded sampling contexts, not a full current species-range boundary.'
-const reviewedAgainstCol = 'COL26.8 ChecklistBank dataset 316115; accepted usage 3WWP2 and parent chain checked 2026-09-26'
 const taxonomyNodes = [
   { id: 'cercopithecoidea', name: 'Cercopithecoidea', rank: 'superfamily', colUsageId: '4X9', parentName: 'Simiiformes', parentRank: 'infraorder', parentUsageId: '4PM', childLabel: 'immediately below' },
   { id: 'cercopithecidae', name: 'Cercopithecidae', rank: 'family', colUsageId: '7X9', parentName: 'Cercopithecoidea', parentRank: 'superfamily', parentUsageId: '4X9', childLabel: 'immediately below' },
@@ -24,9 +23,9 @@ const ecologyClaim = {
   statement: ecologyStatement,
   confidence: 'medium',
   confidenceRationale: 'The primary paper reports the roadside counts, survey interval and route distance directly. The sample is local and habitat-specific, so it does not estimate the full species population or independently establish why counts changed.',
-  reviewedBy: 'Evo Atlas primary-source audit',
-  reviewedAt: '2026-09-26',
-  reviewedAgainstReferenceVersion: 'Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-26',
+
+
+
   referenceLinks: [{ referenceId: paperRef, relation: 'supports', quoteLocator: 'Methods §2.6 Roadside survey; Results §3.5.1 Population dynamics.' }],
 }
 const forestClaim = {
@@ -37,9 +36,9 @@ const forestClaim = {
   statement: forestStatement,
   confidence: 'medium',
   confidenceRationale: 'The paper directly reports detections, the sampled grid count and model estimates. The estimate is limited to one forest landscape and its sampling/model frame.',
-  reviewedBy: 'Evo Atlas primary-source audit',
-  reviewedAt: '2026-09-27',
-  reviewedAgainstReferenceVersion: 'Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27',
+
+
+
   referenceLinks: [{ referenceId: paperRef, relation: 'supports', quoteLocator: 'Methods §§2.3–2.4; Results §3.2 Occupancy modelling of bonnet macaques in forest areas.' }],
 }
 const templeClaim = {
@@ -50,9 +49,9 @@ const templeClaim = {
   statement: templeStatement,
   confidence: 'medium',
   confidenceRationale: 'The article reports these proportions from its temple/tourist-site comparison, but the evidence is a historical site-status and encounter-rate sample rather than a current population survey across the species range.',
-  reviewedBy: 'Evo Atlas primary-source audit',
-  reviewedAt: '2026-09-27',
-  reviewedAgainstReferenceVersion: 'Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27',
+
+
+
   referenceLinks: [{ referenceId: paperRef, relation: 'supports', quoteLocator: 'Methods §2.5 Survey of temple sites/tourist spots; Results §3.4.' }],
 }
 const conservationClaim = {
@@ -63,9 +62,9 @@ const conservationClaim = {
   statement: conservationStatement,
   confidence: 'medium',
   confidenceRationale: 'The paper explicitly makes this recommendation from monitored Mysore roadside sites. Its local evidence and 2017 date do not establish current formal status, legal designation or a range-wide conservation plan.',
-  reviewedBy: 'Evo Atlas primary-source audit',
-  reviewedAt: '2026-09-27',
-  reviewedAgainstReferenceVersion: 'Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27',
+
+
+
   referenceLinks: [{ referenceId: paperRef, relation: 'supports', quoteLocator: 'Results §3.5.1; Discussion, conservation recommendation for hillocks and selected temple/tourist locations.' }],
 }
 const identityClaim = {
@@ -76,9 +75,9 @@ const identityClaim = {
   statement: identityStatement,
   confidence: 'medium',
   confidenceRationale: 'Pinned COL26.8 dataset records this accepted species usage, source checklist and accepted parent directly. The claim is limited to that checklist classification.',
-  reviewedBy: 'Evo Atlas source audit',
-  reviewedAt: '2026-09-27',
-  reviewedAgainstReferenceVersion: reviewedAgainstCol,
+
+
+
   referenceLinks: [{ referenceId: colRef, relation: 'supports', quoteLocator: 'Accepted species usage 3WWP2; accepted status, sourceDatasetId 2144 and parentId 5HYC.' }],
 }
 const studySitesClaim = {
@@ -89,9 +88,9 @@ const studySitesClaim = {
   statement: studySitesStatement,
   confidence: 'medium',
   confidenceRationale: 'The article names these local sampling contexts. It does not inventory the present or historical full species range.',
-  reviewedBy: 'Evo Atlas primary-source audit',
-  reviewedAt: '2026-09-27',
-  reviewedAgainstReferenceVersion: 'Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27',
+
+
+
   referenceLinks: [{ referenceId: paperRef, relation: 'supports', quoteLocator: 'Methods §§2.3, 2.5–2.6; Results §§3.2, 3.4–3.5.' }],
 }
 const taxonomyClaims = taxonomyNodes.map(node => {
@@ -104,9 +103,9 @@ const taxonomyClaims = taxonomyNodes.map(node => {
     statement,
     confidence: 'medium',
     confidenceRationale: `Pinned COL26.8 usage ${node.colUsageId} directly establishes ${node.name} (${node.rank}) at this point in the accepted checklist path. This claim describes that dataset's classification and does not assert universal consensus or phylogenetic relationships.`,
-    reviewedBy: 'Evo Atlas source audit',
-    reviewedAt: '2026-09-26',
-    reviewedAgainstReferenceVersion: reviewedAgainstCol,
+
+
+
     referenceLinks: [{ referenceId: colRef, relation: 'supports', quoteLocator: `Accepted parent chain for species usage 3WWP2; ${node.rank} usage ${node.colUsageId} immediately follows ${node.parentRank} usage ${node.parentUsageId}.` }],
   }
 })
@@ -129,7 +128,7 @@ const references = [{
   pages: '12(8):e0182140',
   sourceRole: 'primary-study',
   fitnessFor: ['ecology', 'methods'],
-  metadataAssignment: 'curator-reviewed',
+
   note: 'Primary study supporting bounded forest occupancy, temple/tourist-site history, Mysore roadside counts and a local conservation recommendation. Each finding retains its place, time and sample limits; none is a current range-wide assessment. Article states CC BY 4.0.',
 }]
 const profile = {
@@ -156,7 +155,7 @@ const profile = {
     guild: 'Not assessed as a broader species-level ecological guild.',
   },
   traits: [],
-  evidenceSummary: 'Selected evidence comes from one 2017 study: a single-forest occupancy survey, a historical temple/tourist-site comparison and roadside counts on roads connected to Mysore. Morphology, life history, evolution, species-range limits, fossil record and current formal conservation status remain unassessed; this profile is incomplete and has not received independent expert review.',
+  evidenceSummary: 'Selected evidence comes from one 2017 study: a single-forest occupancy survey, a historical temple/tourist-site comparison and roadside counts on roads connected to Mysore. Morphology, life history, evolution, species-range limits, fossil record and current formal conservation status remain unassessed; this profile is incomplete.',
   confidence: 'medium',
   referenceIds: [colRef, paperRef],
   traitsAssessmentStatus: 'not-assessed',
@@ -168,7 +167,7 @@ const profileTranslations = {
   'Not assessed in the selected study.': '所选研究未评估。',
   [profile.ecology.habitat]: '在 Parambikulam，研究者在 64 个网格中的 33 个检测到 54 个群体，模型估计平均占域率为 0.51 ± 0.08（标准误）；这仅来自一个森林调查，不是完整栖息地综述。',
   [profile.ecology.guild]: '尚未评估该物种层级的整体生态类群。',
-  [profile.evidenceSummary]: '所选证据来自一项 2017 年研究：单一森林占域调查、寺庙/旅游地点历史比较，以及迈索尔相连道路的计数。形态、生活史、演化、物种分布边界、化石记录和当前正式保护状态仍未评估；本简介不完整，也未经过独立专家评审。',
+  [profile.evidenceSummary]: '所选证据来自一项 2017 年研究：单一森林占域调查、寺庙/旅游地点历史比较，以及迈索尔相连道路的计数。形态、生活史、演化、物种分布边界、化石记录和当前正式保护状态仍未评估；本简介不完整。',
 }
 const rangeEntities = [
   ['cercopithecoidea', 'Cercopithecoidea accepted usage 4X9'],
@@ -193,7 +192,7 @@ const ranges = rangeEntities.map(([entityId, concept]) => ({
   confidence: 'low',
   claimIds: [],
   referenceLocators: [{ referenceId: colRef, locator: `COL26.8 dataset 316115; accepted usage ${entityId === 'macaca_radiata' ? '3WWP2' : taxonomyNodes.find(node => node.id === entityId)?.colUsageId ?? ''} and parent classification (identity/classification only)` }],
-  reviewStatus: 'automated-audit-passed',
+
 }))
 const resolutionSpecs = [
   ['cercopithecoidea', 'Cercopithecoidea', 'superfamily', 'Simiiformes'],
@@ -209,9 +208,9 @@ const resolutions = resolutionSpecs.map(([entityId, localName, localRank, parent
   externalResolutionStatus: 'not-applicable', pbdbId: null, acceptedName: null, acceptedRank: null, matchedTaxonName: null,
   pbdbParentName: null, pbdbClassification: null, resolvedName: null, resolvedRank: null, resolvedImmediateParent: null,
   resolvedClassification: null, resolvedAncestorChain: [], localExpectedParentConcept: parent,
-  parentRelationshipKind: 'taxonomic-parent', lineageCompatibility: 'indeterminate', conceptReviewStatus: 'unresolved',
-  automatedRecommendation: 'withhold-external-mapping', humanCuratorDecision: null, curatorRationale: null,
-  curatorReviewedAt: null, curatorReviewer: null, occurrenceCount: null, referenceNo: null, snapshotModifiedAt: null,
+  parentRelationshipKind: 'taxonomic-parent', lineageCompatibility: 'indeterminate',
+
+    occurrenceCount: null, referenceNo: null, snapshotModifiedAt: null,
 }))
 const rationales = Object.fromEntries([
   ...taxonomyClaims.map((claim, index) => {
@@ -435,10 +434,9 @@ updateNestedObjectFields('data/sources/pbdb-taxon-resolution.json', 'summary', {
   ontologyNodes: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.length,
   unresolved: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.filter(item => item.resolutionStatus !== 'resolved').length,
   resolved: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.filter(item => item.resolutionStatus === 'resolved').length,
-  needsConceptReview: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.filter(item => item.conceptReviewStatus === 'needs-concept-review').length,
-  humanCuratorDecisions: JSON.parse(readFileSync('data/sources/pbdb-taxon-resolution.json', 'utf8')).resolutions.filter(item => item.humanCuratorDecision).length,
+
+
 })
-upsertSortedArray('data/indexes/entity-linkage-baseline.json', 'unresolvedEntityIds', resolutions.map(item => item.entityId))
 
 appendArrayRecords('data/pages-preview.json', rangeEntities.map(([entityId]) => entityId), 'taxonIds', id => id)
 console.log(JSON.stringify({ taxonomyClaims: taxonomyClaims.length + 1, biogeographyClaims: 1, ecologyClaims: 4, conservationFacetClaims: 1, primateProfiles: 1, ranges: ranges.length, withheldPbdbMappings: resolutions.length }, null, 2))

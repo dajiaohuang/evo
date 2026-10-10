@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrura gouldiae
       en: Erythrura gouldiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

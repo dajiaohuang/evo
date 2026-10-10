@@ -9,7 +9,6 @@ records:
     name:
       zh: Purussaurus brasiliensis
       en: Purussaurus brasiliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

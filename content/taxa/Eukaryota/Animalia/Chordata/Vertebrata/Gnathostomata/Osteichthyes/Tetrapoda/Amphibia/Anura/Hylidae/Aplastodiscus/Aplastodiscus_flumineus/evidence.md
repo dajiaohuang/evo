@@ -9,7 +9,6 @@ records:
     name:
       en: Aplastodiscus flumineus
       zh: Aplastodiscus flumineus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

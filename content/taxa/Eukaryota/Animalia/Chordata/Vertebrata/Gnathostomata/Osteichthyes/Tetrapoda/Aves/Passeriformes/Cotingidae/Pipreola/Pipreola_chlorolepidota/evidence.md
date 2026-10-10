@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipreola chlorolepidota
       en: Pipreola chlorolepidota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

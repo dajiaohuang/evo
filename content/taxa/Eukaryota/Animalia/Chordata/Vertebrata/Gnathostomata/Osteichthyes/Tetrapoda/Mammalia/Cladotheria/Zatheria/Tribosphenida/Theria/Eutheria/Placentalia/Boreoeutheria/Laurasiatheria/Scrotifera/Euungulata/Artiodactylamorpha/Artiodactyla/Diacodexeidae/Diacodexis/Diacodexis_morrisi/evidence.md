@@ -9,7 +9,6 @@ records:
     name:
       zh: Diacodexis morrisi
       en: Diacodexis morrisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

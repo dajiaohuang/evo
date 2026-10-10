@@ -34,5 +34,5 @@ The Hollongapar and Lawachara studies use different sites, group samples and obs
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Ecological evidence is limited to two locally observed groups at Hollongapar and one group at Lawachara; the studies do not establish a range-wide diet, current distribution, population size or trend. Estimates retain each paper’s sampling and home-range method. The Chinese display name is editorial. No dossier or external expert review was added. This page is not externally expert-reviewed.
+Ecological evidence is limited to two locally observed groups at Hollongapar and one group at Lawachara; the studies do not establish a range-wide diet, current distribution, population size or trend. Estimates retain each paper’s sampling and home-range method. The Chinese display name is editorial. This page is.
 <!-- /evo:text -->

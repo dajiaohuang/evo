@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudorabdion albonuchalis
       en: Pseudorabdion albonuchalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

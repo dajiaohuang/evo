@@ -9,7 +9,6 @@ records:
     name:
       en: Incilius holdridgei
       zh: Incilius holdridgei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

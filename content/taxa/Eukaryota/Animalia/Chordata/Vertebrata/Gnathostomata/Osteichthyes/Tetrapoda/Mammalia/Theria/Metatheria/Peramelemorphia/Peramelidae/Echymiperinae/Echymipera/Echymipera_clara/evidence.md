@@ -9,7 +9,6 @@ records:
     name:
       zh: Echymipera clara
       en: Echymipera clara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

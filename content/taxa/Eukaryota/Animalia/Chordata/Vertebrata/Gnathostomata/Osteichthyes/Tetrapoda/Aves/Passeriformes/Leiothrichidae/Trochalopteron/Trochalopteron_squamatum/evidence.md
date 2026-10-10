@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochalopteron squamatum
       en: Trochalopteron squamatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

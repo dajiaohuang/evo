@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis bequaerti
       zh: Leptopelis bequaerti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachyoryctes daemon
       en: Tachyoryctes daemon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

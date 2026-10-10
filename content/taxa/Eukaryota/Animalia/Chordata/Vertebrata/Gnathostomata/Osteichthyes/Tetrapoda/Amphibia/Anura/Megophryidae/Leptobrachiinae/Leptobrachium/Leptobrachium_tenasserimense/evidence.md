@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachium tenasserimense
       zh: Leptobrachium tenasserimense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

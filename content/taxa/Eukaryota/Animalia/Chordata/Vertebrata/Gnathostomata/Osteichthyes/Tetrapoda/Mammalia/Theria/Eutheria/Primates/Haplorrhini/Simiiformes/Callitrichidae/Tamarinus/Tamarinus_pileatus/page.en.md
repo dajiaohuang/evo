@@ -22,5 +22,5 @@ Peres (1993) studied a stable mixed-species group of moustached and saddle-back 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The older study label was *S. mystax pileatus*; the taxonomic review supports a distinct lineage, but this page does not infer a modern full-species range from one site. This bilingual draft has not received external expert review. This page is not externally expert-reviewed.
+The older study label was *S. mystax pileatus*; the taxonomic review supports a distinct lineage, but this page does not infer a modern full-species range from one site. This bilingual draft. This page is.
 <!-- /evo:text -->

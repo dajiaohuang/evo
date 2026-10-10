@@ -40,5 +40,5 @@ Primary.Lifestyle=Insessorial 指较多时间栖停在地面以上的枝条或�
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页依据所选 AVONET v7 历史行、两张名称表、相关 Metadata 定义与本地 COL ci／ne 分片。表名关联和旧组合异名不保证历史分类概念等同于 COL26.8；preussi、neergardi、coccinigaster 等来源拼写保留，不静默改写。形态鸟数、完整测量数和独立文献体重分母分开。未读个体标本、Dunning 原书、完整工作簿或新完整方法论文；不补当前地图、保护状态、羽色鸣声、繁殖、舌结构、授粉效果、花种猎物、实测食谱或移动路线。没有专家审评，不计完整自然史专论。
+本页依据所选 AVONET v7 历史行、两张名称表、相关 Metadata 定义与本地 COL ci／ne 分片。表名关联和旧组合异名不保证历史分类概念等同于 COL26.8；preussi、neergardi、coccinigaster 等来源拼写保留，不静默改写。形态鸟数、完整测量数和独立文献体重分母分开。未读个体标本、Dunning 原书、完整工作簿或新完整方法论文；不补当前地图、保护状态、羽色鸣声、繁殖、舌结构、授粉效果、花种猎物、实测食谱或移动路线。不计完整自然史专论。
 <!-- /evo:text -->

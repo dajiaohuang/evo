@@ -9,7 +9,6 @@ records:
     name:
       zh: 猫鼬狐猴
       en: Mongoose Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: population

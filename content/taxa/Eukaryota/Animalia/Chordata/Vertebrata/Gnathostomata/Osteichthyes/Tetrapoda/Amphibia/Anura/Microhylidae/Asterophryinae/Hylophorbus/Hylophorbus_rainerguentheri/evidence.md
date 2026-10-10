@@ -9,7 +9,6 @@ records:
     name:
       en: Hylophorbus rainerguentheri
       zh: Hylophorbus rainerguentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

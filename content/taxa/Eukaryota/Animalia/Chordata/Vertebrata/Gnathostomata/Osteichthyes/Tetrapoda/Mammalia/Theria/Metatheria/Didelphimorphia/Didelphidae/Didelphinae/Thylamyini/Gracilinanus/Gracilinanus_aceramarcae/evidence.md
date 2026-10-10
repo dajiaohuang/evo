@@ -9,7 +9,6 @@ records:
     name:
       zh: Gracilinanus aceramarcae
       en: Gracilinanus aceramarcae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

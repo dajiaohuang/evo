@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasia haliana
       en: Dasia haliana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

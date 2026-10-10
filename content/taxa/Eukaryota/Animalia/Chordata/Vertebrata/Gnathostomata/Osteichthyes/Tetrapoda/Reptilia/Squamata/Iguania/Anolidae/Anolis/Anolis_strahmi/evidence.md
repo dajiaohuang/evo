@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis strahmi
       en: Anolis strahmi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

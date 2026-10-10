@@ -9,7 +9,6 @@ records:
     name:
       en: Amazops amazops
       zh: Amazops amazops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

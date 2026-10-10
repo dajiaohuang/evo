@@ -9,7 +9,6 @@ records:
     name:
       en: Herpele multiplicata
       zh: Herpele multiplicata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

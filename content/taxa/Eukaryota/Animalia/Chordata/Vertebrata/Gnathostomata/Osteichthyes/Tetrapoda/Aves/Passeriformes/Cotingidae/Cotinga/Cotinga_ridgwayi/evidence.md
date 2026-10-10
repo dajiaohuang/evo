@@ -9,7 +9,6 @@ records:
     name:
       zh: Cotinga ridgwayi
       en: Cotinga ridgwayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

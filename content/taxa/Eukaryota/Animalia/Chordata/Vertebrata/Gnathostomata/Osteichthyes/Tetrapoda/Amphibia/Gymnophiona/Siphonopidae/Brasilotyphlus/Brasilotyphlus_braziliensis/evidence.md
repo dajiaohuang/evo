@@ -9,7 +9,6 @@ records:
     name:
       en: Brasilotyphlus braziliensis
       zh: Brasilotyphlus braziliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

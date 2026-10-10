@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis inguinalis
       zh: Pristimantis inguinalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

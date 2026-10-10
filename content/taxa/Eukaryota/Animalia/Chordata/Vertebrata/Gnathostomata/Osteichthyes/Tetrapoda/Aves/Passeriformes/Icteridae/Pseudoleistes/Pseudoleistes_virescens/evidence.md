@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoleistes virescens
       en: Pseudoleistes virescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -36,7 +36,7 @@ This batch’s Timon route includes 4 historical life-history accounts; start wi
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This guide covers the listed study routes only. Other accepted descendants remain outside this batch. The paper’s Podarcis wagleriana and Agama impalearis have separate species pages preserving their original sample names and the sourced correspondence to Podarcis waglerianus and Agama bibronii. Takydromus sp. is not identified to species and is not counted as a species page.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 <!-- /evo:text -->
 
 ## Start with sourced trait records

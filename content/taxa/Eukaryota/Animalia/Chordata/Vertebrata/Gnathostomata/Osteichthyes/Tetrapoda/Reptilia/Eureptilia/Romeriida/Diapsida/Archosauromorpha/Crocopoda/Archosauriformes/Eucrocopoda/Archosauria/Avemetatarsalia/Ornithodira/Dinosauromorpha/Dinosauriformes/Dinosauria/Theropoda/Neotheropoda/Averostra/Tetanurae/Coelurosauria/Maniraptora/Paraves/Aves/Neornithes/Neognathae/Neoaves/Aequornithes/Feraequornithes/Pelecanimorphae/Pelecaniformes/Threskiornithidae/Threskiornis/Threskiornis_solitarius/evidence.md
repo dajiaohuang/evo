@@ -9,7 +9,6 @@ records:
     name:
       zh: Threskiornis solitarius
       en: Threskiornis solitarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

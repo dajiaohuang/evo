@@ -9,7 +9,6 @@ records:
     name:
       zh: Mediodactylus ilamensis
       en: Mediodactylus ilamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

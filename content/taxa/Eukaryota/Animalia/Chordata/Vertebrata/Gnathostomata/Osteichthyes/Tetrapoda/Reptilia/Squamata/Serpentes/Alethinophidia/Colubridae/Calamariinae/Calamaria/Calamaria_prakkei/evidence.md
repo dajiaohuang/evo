@@ -9,7 +9,6 @@ records:
     name:
       zh: Calamaria prakkei
       en: Calamaria prakkei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

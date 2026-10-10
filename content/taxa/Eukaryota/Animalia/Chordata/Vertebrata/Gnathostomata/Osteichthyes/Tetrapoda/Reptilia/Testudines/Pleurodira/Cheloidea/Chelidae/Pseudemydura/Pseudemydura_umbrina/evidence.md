@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudemydura umbrina
       en: Pseudemydura umbrina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

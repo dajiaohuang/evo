@@ -9,7 +9,6 @@ records:
     name:
       zh: Cymbilaimus sanctaemariae
       en: Cymbilaimus sanctaemariae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

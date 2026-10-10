@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynomys vetus
       en: Cynomys vetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

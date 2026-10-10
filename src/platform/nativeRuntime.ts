@@ -3,6 +3,7 @@ import { App } from '@capacitor/app'
 import { Browser } from '@capacitor/browser'
 import { SplashScreen } from '@capacitor/splash-screen'
 import { StatusBar, Style } from '@capacitor/status-bar'
+import { idFromStaticPathSegment } from '../utils/staticPath.mjs'
 
 const WEB_APP_ORIGIN = 'https://dajiaohuang.github.io'
 const WEB_APP_PATH = '/evo/'
@@ -33,7 +34,14 @@ export function routeHashFromAppUrl(rawUrl: string): string | null {
     const path = url.pathname.slice(WEB_APP_PATH.length).replace(/^zh\//, '').replace(/\/+$/, '')
     if (!path || path === 'index.html') return '#/home'
     const match = /^(taxa|events|stories)\/([^/]+)$/.exec(path)
-    if (match) return `#/${match[1]}?id=${match[2]}`
+    if (match) {
+      try {
+        const id = match[1] === 'taxa' ? idFromStaticPathSegment(match[2]) : decodeURIComponent(match[2])
+        return `#/${match[1]}?${new URLSearchParams({ id })}`
+      } catch {
+        return null
+      }
+    }
     if (path === 'taxa' || path === 'events') return '#/catalog'
     if (path === 'stories' || path === 'methods') return `#/${path}`
     // Other static documents have no equivalent native route. Open them as

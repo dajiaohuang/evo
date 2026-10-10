@@ -9,7 +9,6 @@ records:
     name:
       zh: Miomustela madisonae
       en: Miomustela madisonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

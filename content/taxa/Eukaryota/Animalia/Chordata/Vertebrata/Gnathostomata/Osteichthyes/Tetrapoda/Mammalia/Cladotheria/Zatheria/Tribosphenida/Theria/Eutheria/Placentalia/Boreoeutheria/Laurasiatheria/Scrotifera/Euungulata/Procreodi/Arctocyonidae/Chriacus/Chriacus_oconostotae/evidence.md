@@ -9,7 +9,6 @@ records:
     name:
       zh: Chriacus oconostotae
       en: Chriacus oconostotae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

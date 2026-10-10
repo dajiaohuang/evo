@@ -9,7 +9,6 @@ records:
     name:
       zh: 塞萨尔河白额卷尾猴
       en: Cebus cesarae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: sampleProvenance

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthochelys cosquinensis
       en: Acanthochelys cosquinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

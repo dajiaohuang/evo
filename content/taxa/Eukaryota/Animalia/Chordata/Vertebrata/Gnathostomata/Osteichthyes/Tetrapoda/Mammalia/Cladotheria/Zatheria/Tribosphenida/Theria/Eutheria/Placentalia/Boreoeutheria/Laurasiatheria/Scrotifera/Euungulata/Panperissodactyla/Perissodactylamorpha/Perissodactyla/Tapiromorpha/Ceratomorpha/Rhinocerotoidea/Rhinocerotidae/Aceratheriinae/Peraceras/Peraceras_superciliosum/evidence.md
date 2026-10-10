@@ -9,7 +9,6 @@ records:
     name:
       zh: Peraceras superciliosum
       en: Peraceras superciliosum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

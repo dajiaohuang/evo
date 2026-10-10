@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimantis bokermanni
       zh: Nyctimantis bokermanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

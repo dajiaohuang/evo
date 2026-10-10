@@ -9,7 +9,6 @@ records:
     name:
       zh: Asifcroco retrai
       en: Asifcroco retrai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

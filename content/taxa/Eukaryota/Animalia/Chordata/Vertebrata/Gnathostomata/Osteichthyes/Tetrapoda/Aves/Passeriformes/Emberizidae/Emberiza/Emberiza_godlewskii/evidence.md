@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberiza godlewskii
       en: Emberiza godlewskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

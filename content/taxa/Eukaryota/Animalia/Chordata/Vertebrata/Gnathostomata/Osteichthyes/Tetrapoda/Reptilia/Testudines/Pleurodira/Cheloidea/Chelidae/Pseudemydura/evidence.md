@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudemydura
       en: Pseudemydura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

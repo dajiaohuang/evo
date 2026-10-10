@@ -9,7 +9,6 @@ records:
     name:
       zh: Otus capnodes
       en: Otus capnodes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

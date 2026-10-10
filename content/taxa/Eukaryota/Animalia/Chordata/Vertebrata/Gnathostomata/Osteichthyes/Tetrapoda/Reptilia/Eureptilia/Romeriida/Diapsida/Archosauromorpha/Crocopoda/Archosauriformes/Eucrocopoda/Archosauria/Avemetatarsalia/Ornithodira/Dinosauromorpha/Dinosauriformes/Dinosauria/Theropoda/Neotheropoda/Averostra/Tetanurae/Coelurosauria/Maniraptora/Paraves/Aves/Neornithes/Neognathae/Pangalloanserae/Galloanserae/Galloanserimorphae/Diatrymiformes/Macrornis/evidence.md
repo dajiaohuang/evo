@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrornis
       en: Macrornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Uromastyx thomasi
       en: Uromastyx thomasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

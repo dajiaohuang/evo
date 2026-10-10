@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius turkestanicus
       zh: Hynobius turkestanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

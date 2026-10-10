@@ -2,12 +2,12 @@ import { describe, expect, it } from 'vitest'
 import { isRecordedUndatedLead, hasRecordedPaperLocator } from './reference-date-status.mjs'
 
 describe('undated imported reference leads', () => {
-  const lead = { type: 'bibliographic-record', dateStatus: 'unresolved-in-source-metadata', metadataStatus: 'verbatim-archive-citation-unparsed', metadataAssignment: 'automated', sourceRole: 'unclassified', fitnessFor: [], importedCitationMetadata: [{ citation: 'Verbatim unresolved citation' }] }
+  const lead = { type: 'bibliographic-record', dateStatus: 'unresolved-in-source-metadata', metadataStatus: 'verbatim-archive-citation-unparsed', sourceRole: 'unclassified', fitnessFor: [], importedCitationMetadata: [{ citation: 'Verbatim unresolved citation' }] }
   it('retains a provenance-bearing unresolved citation without inventing a date', () => {
     expect(isRecordedUndatedLead(lead)).toBe(true)
   })
-  it('does not excuse curated papers, classified sources or empty metadata', () => {
-    for (const change of [{ type: 'paper' }, { metadataAssignment: 'curator-reviewed' }, { sourceRole: 'primary-study' }, { fitnessFor: ['taxonomy'] }, { importedCitationMetadata: [] }, { dateStatus: undefined }, { accessedAt: '2026-10-03' }]) {
+  it('does not excuse papers, classified sources or empty metadata', () => {
+    for (const change of [{ type: 'paper' }, { sourceRole: 'primary-study' }, { fitnessFor: ['taxonomy'] }, { importedCitationMetadata: [] }, { dateStatus: undefined }, { accessedAt: '2026-10-03' }]) {
       expect(isRecordedUndatedLead({ ...lead, ...change })).toBe(false)
     }
   })

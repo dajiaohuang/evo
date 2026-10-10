@@ -9,7 +9,6 @@ records:
     name:
       zh: Empidonax fulvifrons
       en: Empidonax fulvifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

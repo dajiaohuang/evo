@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyaenodon (Isohyaenodon) pilgrimi
       en: Hyaenodon (Isohyaenodon) pilgrimi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

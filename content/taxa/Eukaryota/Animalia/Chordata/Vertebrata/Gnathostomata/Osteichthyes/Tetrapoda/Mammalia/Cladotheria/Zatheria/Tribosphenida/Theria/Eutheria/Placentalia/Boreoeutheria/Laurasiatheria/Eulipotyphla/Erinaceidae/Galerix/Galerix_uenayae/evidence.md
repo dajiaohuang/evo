@@ -9,7 +9,6 @@ records:
     name:
       zh: Galerix uenayae
       en: Galerix uenayae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

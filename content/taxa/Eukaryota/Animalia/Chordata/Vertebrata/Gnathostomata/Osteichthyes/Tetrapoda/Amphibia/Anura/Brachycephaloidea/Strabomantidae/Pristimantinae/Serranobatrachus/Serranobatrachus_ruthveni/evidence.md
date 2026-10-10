@@ -9,7 +9,6 @@ records:
     name:
       en: Serranobatrachus ruthveni
       zh: Serranobatrachus ruthveni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

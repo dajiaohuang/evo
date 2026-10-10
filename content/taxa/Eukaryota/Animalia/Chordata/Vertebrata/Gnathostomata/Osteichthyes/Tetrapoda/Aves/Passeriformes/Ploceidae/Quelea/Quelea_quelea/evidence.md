@@ -9,7 +9,6 @@ records:
     name:
       zh: Quelea quelea
       en: Quelea quelea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

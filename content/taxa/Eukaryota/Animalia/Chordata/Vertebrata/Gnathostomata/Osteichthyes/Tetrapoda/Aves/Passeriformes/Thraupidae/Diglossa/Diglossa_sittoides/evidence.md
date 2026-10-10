@@ -9,7 +9,6 @@ records:
     name:
       zh: Diglossa sittoides
       en: Diglossa sittoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

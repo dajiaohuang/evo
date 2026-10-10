@@ -9,7 +9,6 @@ records:
     name:
       zh: Xunmenglong yingliangis
       en: Xunmenglong yingliangis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

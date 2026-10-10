@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepoides
       en: Lepoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

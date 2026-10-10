@@ -9,7 +9,6 @@ records:
     name:
       zh: Metlapilcoatlus olmec
       en: Metlapilcoatlus olmec
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

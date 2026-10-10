@@ -9,7 +9,6 @@ records:
     name:
       zh: Raranimus dashankouensis
       en: Raranimus dashankouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

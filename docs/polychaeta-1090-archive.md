@@ -47,7 +47,7 @@ authorship removed exactly. It does not perform fuzzy, case-folded,
 accent-folded, synonym, redirect, or species-concept matching. Accepted,
 unmatched, and source-only are separate outcome partitions and are not claims
 about biological completeness, taxonomic concept equivalence, fossil
-evidence, or expert review.
+evidence.
 
 ## Offline replay
 

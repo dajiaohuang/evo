@@ -9,7 +9,6 @@ records:
     name:
       zh: Grallaricula lineifrons
       en: Grallaricula lineifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

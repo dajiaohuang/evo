@@ -9,7 +9,6 @@ records:
     name:
       en: Geobatrachus walkeri
       zh: Geobatrachus walkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

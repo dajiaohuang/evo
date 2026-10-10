@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca argenteovirens
       zh: Gastrotheca argenteovirens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protosciurus tecuyensis
       en: Protosciurus tecuyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

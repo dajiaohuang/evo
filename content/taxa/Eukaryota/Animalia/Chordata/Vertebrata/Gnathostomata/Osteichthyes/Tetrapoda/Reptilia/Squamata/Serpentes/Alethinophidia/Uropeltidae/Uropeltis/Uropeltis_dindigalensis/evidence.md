@@ -9,7 +9,6 @@ records:
     name:
       zh: Uropeltis dindigalensis
       en: Uropeltis dindigalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Columba pollenii
       en: Columba pollenii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

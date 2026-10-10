@@ -9,7 +9,6 @@ records:
     name:
       zh: Thylamys colombianus
       en: Thylamys colombianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

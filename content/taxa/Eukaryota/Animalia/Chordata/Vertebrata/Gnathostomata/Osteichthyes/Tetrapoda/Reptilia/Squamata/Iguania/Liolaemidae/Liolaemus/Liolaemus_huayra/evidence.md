@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus huayra
       en: Liolaemus huayra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

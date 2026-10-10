@@ -9,7 +9,6 @@ records:
     name:
       zh: Nementchatherium rathbuni
       en: Nementchatherium rathbuni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

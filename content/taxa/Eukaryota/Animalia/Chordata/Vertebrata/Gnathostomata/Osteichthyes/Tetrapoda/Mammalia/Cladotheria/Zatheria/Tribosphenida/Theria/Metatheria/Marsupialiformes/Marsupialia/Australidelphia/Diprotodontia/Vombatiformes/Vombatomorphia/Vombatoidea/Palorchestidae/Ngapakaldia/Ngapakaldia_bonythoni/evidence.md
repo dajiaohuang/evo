@@ -9,7 +9,6 @@ records:
     name:
       zh: Ngapakaldia bonythoni
       en: Ngapakaldia bonythoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Chacophrys pierottii
       zh: Chacophrys pierottii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Angolasaurus bocagei
       en: Angolasaurus bocagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

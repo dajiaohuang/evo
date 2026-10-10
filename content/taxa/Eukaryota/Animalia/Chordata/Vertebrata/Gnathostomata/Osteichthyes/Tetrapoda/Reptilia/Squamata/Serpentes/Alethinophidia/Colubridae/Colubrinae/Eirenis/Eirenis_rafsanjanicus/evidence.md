@@ -9,7 +9,6 @@ records:
     name:
       zh: Eirenis rafsanjanicus
       en: Eirenis rafsanjanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

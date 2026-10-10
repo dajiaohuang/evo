@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius papyri
       zh: Hyperolius papyri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

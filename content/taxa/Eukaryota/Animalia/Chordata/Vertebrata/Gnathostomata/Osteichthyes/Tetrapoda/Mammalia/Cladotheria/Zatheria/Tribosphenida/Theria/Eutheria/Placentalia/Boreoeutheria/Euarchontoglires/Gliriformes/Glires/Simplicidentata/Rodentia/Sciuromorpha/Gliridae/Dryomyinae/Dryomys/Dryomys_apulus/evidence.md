@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryomys apulus
       en: Dryomys apulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Chirixalus trilaksonoi
       zh: Chirixalus trilaksonoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Treron griveaudi
       en: Treron griveaudi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

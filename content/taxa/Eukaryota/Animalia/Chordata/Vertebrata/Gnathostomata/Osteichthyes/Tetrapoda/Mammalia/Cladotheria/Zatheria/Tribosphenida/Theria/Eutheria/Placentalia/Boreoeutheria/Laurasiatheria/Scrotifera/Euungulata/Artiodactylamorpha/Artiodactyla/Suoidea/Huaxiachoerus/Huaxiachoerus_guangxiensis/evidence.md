@@ -9,7 +9,6 @@ records:
     name:
       zh: Huaxiachoerus guangxiensis
       en: Huaxiachoerus guangxiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

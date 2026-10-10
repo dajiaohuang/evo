@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinkonychelys rogersi
       en: Kinkonychelys rogersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

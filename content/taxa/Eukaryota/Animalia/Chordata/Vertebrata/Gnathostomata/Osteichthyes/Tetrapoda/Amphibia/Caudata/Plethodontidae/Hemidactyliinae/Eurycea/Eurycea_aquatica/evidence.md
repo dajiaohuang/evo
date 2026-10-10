@@ -9,7 +9,6 @@ records:
     name:
       en: Eurycea aquatica
       zh: Eurycea aquatica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

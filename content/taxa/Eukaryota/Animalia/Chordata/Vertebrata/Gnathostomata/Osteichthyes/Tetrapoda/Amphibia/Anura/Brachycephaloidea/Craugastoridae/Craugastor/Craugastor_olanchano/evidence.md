@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor olanchano
       zh: Craugastor olanchano
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

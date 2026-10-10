@@ -9,7 +9,6 @@ records:
     name:
       en: Strabomantis necerus
       zh: Strabomantis necerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

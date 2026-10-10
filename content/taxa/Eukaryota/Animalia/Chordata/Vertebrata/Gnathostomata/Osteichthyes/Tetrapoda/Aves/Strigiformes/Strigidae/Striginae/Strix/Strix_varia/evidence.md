@@ -9,7 +9,6 @@ records:
     name:
       zh: Strix varia
       en: Strix varia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

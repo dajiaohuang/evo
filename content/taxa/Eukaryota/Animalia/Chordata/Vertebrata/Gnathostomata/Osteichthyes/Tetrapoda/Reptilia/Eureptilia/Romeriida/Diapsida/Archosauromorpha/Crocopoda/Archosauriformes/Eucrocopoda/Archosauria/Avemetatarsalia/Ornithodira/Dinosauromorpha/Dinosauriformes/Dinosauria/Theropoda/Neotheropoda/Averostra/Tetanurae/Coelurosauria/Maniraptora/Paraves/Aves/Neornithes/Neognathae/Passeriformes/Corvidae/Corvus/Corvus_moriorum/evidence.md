@@ -9,7 +9,6 @@ records:
     name:
       zh: Corvus moriorum
       en: Corvus moriorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

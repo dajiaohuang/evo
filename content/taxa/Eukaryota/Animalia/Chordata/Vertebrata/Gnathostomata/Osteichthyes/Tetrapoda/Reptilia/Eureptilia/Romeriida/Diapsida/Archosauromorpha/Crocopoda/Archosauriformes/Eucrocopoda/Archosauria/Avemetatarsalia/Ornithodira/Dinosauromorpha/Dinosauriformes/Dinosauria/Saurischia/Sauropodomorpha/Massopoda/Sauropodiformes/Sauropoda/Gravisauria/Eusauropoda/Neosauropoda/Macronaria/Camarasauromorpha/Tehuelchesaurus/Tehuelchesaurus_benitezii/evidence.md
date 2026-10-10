@@ -9,7 +9,6 @@ records:
     name:
       zh: Tehuelchesaurus benitezii
       en: Tehuelchesaurus benitezii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

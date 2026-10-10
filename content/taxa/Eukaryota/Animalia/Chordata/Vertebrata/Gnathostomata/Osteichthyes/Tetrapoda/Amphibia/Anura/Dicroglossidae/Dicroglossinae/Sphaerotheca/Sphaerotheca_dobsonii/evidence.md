@@ -9,7 +9,6 @@ records:
     name:
       en: Sphaerotheca dobsonii
       zh: Sphaerotheca dobsonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

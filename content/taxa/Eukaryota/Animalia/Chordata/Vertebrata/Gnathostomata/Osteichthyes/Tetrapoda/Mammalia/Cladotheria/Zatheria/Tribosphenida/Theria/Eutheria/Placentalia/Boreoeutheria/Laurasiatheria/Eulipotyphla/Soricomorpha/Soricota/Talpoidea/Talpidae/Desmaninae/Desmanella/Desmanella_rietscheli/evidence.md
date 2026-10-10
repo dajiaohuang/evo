@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmanella rietscheli
       en: Desmanella rietscheli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

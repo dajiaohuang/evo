@@ -9,7 +9,6 @@ records:
     name:
       en: Wijayarana javana
       zh: Wijayarana javana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

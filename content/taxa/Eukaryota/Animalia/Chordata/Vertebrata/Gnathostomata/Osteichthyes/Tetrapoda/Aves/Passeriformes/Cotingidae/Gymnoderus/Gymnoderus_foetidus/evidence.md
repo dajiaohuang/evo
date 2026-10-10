@@ -9,7 +9,6 @@ records:
     name:
       zh: Gymnoderus foetidus
       en: Gymnoderus foetidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

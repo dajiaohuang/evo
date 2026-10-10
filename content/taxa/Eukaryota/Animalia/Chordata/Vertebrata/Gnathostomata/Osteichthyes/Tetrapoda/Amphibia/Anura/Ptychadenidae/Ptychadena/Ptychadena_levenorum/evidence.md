@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena levenorum
       zh: Ptychadena levenorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

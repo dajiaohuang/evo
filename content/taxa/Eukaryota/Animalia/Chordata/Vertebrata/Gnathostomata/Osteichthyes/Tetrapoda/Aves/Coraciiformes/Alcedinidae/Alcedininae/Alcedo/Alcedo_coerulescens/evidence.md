@@ -9,7 +9,6 @@ records:
     name:
       zh: Alcedo coerulescens
       en: Alcedo coerulescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

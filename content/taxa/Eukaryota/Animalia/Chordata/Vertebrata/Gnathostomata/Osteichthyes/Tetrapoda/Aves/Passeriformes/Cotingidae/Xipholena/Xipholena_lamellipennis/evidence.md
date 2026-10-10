@@ -9,7 +9,6 @@ records:
     name:
       zh: Xipholena lamellipennis
       en: Xipholena lamellipennis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

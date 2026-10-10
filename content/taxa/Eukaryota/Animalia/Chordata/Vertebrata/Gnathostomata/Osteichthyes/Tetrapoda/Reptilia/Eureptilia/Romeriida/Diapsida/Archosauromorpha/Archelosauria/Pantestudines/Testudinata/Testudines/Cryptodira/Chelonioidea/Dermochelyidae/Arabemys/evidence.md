@@ -9,7 +9,6 @@ records:
     name:
       zh: Arabemys
       en: Arabemys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

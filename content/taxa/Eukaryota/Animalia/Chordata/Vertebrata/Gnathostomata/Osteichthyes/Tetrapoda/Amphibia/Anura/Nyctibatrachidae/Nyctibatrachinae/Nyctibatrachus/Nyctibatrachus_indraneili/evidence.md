@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus indraneili
       zh: Nyctibatrachus indraneili
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

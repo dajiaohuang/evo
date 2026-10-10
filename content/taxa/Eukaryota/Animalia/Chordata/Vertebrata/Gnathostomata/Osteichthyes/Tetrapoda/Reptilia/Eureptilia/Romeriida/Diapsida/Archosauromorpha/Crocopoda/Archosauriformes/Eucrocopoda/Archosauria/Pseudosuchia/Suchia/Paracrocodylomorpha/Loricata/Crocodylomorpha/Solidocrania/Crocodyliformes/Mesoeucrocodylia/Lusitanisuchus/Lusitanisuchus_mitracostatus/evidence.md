@@ -9,7 +9,6 @@ records:
     name:
       zh: Lusitanisuchus mitracostatus
       en: Lusitanisuchus mitracostatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

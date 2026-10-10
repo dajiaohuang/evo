@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenodactylus doriae
       en: Stenodactylus doriae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

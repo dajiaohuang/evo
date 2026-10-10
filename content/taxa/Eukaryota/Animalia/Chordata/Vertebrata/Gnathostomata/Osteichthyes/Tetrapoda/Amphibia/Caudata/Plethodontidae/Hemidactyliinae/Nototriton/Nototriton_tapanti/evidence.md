@@ -9,7 +9,6 @@ records:
     name:
       en: Nototriton tapanti
       zh: Nototriton tapanti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

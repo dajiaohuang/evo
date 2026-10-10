@@ -9,7 +9,6 @@ records:
     name:
       en: Feihyla senapatiensis
       zh: Feihyla senapatiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

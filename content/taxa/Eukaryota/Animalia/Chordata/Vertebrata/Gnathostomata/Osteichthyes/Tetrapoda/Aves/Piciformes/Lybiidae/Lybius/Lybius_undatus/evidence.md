@@ -9,7 +9,6 @@ records:
     name:
       zh: Lybius undatus
       en: Lybius undatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

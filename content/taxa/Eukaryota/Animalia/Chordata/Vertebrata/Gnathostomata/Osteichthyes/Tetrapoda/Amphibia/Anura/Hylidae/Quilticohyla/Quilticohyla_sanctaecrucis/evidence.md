@@ -9,7 +9,6 @@ records:
     name:
       en: Quilticohyla sanctaecrucis
       zh: Quilticohyla sanctaecrucis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

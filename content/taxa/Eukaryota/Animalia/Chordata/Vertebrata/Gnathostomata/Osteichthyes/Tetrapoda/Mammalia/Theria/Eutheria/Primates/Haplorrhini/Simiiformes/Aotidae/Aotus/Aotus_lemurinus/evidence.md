@@ -9,7 +9,6 @@ records:
     name:
       en: Lemurine Night Monkey
       zh: 狐猴夜猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: study-sites

@@ -9,7 +9,6 @@ records:
     name:
       en: Kassina decorata
       zh: Kassina decorata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

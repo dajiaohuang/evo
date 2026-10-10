@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenotatus hesternus
       en: Stenotatus hesternus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

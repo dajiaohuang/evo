@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: giles-2017-ray-fin-timescale at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: giles-2017-ray-fin-timescale
           relation: supports
@@ -81,9 +78,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: giles-2017-ray-fin-timescale at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: giles-2017-ray-fin-timescale
           relation: supports
@@ -102,9 +96,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: giles-2017-ray-fin-timescale at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: giles-2017-ray-fin-timescale
           relation: supports
@@ -123,9 +114,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: giles-2017-ray-fin-timescale at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: giles-2017-ray-fin-timescale
           relation: supports
@@ -144,9 +132,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: giles-2017-ray-fin-timescale at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: giles-2017-ray-fin-timescale
           relation: supports
@@ -206,7 +191,6 @@ records:
           locator: 265–268; Figures 1–3; Main text; Methods; Supplementary Methods and character matrices
         - referenceId: xu-2014-fukangichthys-revision
           locator: pp. 747–759; Figs. 1–9; Systematic palaeontology, locality and horizon
-      reviewStatus: automated-audit-passed
 ---
 
 # Fukangichthys longidorsalis

@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne epirrhina
       zh: Choerophryne epirrhina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

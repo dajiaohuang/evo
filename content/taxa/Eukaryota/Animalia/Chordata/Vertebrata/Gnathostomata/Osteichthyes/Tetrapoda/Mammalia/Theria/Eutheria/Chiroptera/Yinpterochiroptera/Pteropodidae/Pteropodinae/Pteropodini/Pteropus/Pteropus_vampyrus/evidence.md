@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus vampyrus
       en: Pteropus vampyrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

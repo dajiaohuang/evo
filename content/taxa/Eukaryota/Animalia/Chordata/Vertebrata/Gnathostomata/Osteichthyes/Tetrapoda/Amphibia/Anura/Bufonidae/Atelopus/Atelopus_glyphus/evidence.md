@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus glyphus
       zh: Atelopus glyphus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Laudakia wui
       en: Laudakia wui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

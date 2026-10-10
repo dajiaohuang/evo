@@ -47,7 +47,7 @@ Registry lookup starts at three characters. Failed requests expose a real
 retry action; typing a new query aborts the old search and late responses
 cannot overwrite it. Backend name requests now receive the cancellation
 signal. Search results still disclose source release, nomenclatural status
-and scientific maturity; a catalogue name is not an Atlas evidence dossier.
+and biological evidence; a catalogue name is not an Atlas evidence dossier.
 
 ## Verification boundary
 
@@ -56,7 +56,7 @@ language/Unicode queries, literal hostile text, sorting/reset, reload and
 language preservation, narrow layouts, composition, keyboard focus, retry,
 backend routing and delayed responses. Real browser tests exercise retry after
 restoring a blocked registry request. These engineering checks do not promote
-scientific maturity, source license rights or human review status.
+biological evidence, source license rights.
 
 The RC148 release envelope changes version metadata only. Scientific archives,
 claims, ownership and reviews retain their existing values. The separate real

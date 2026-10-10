@@ -9,7 +9,6 @@ records:
     name:
       zh: Opisthoprora euryptera
       en: Opisthoprora euryptera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

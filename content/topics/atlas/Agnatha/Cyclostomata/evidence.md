@@ -26,11 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - relation: supports
           referenceId: mallatt-sullivan-1998-cyclostome-monophyly
@@ -49,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: janvier-2008-cyclostome-origins; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: janvier-2008-cyclostome-origins
@@ -91,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: janvier-2008-cyclostome-origins
           locator: 1045–1056; Review diagrams and fossil comparison; Abstract; fossil lamprey and hagfish record; molecular-clock contrast
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

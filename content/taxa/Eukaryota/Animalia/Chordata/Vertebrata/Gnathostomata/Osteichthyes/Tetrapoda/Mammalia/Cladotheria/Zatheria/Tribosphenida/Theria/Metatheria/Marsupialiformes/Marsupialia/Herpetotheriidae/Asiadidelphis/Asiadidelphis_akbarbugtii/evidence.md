@@ -9,7 +9,6 @@ records:
     name:
       zh: Asiadidelphis akbarbugtii
       en: Asiadidelphis akbarbugtii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

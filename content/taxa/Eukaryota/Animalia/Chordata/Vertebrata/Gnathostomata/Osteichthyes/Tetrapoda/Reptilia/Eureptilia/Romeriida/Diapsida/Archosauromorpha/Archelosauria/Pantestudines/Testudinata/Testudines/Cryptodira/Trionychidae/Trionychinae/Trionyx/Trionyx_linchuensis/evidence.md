@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx linchuensis
       en: Trionyx linchuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

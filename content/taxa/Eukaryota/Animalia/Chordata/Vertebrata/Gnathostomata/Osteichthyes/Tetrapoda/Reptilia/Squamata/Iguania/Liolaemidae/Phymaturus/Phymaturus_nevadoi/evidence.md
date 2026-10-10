@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus nevadoi
       en: Phymaturus nevadoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

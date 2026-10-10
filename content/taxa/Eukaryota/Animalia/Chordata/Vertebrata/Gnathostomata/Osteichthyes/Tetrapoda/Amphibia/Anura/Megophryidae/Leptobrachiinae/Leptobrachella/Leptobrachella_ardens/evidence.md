@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella ardens
       zh: Leptobrachella ardens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

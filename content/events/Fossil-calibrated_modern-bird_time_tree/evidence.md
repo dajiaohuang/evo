@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Claramunt, S. et al. 2015 DOI 10.1126/sciadv.1501005
       referenceLinks:
         - referenceId: claramunt-cracraft-2015-avian-time-tree
           relation: supports

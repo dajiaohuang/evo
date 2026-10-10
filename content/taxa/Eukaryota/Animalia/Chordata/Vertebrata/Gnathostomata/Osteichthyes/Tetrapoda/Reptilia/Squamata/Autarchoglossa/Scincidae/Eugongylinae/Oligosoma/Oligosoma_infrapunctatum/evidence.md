@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma infrapunctatum
       en: Oligosoma infrapunctatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

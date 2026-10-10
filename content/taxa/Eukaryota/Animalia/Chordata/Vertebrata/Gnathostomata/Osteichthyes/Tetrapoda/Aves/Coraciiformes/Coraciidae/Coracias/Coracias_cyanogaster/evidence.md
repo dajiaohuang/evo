@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracias cyanogaster
       en: Coracias cyanogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

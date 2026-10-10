@@ -111,11 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-19
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - relation: supports
           referenceId: servais-2010-gobe

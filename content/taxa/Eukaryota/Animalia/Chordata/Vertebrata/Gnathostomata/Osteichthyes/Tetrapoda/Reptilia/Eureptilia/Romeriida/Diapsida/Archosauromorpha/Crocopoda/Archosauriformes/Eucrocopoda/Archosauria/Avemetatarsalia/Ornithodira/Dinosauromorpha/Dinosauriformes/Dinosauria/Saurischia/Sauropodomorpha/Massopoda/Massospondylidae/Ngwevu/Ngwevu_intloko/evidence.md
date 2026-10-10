@@ -9,7 +9,6 @@ records:
     name:
       zh: Ngwevu intloko
       en: Ngwevu intloko
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

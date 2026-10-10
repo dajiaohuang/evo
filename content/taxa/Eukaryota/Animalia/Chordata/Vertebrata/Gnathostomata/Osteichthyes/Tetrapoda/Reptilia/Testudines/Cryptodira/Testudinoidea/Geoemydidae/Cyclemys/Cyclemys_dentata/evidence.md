@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyclemys dentata
       en: Cyclemys dentata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

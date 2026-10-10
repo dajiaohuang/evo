@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes glandulosus
       zh: Raorchestes glandulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

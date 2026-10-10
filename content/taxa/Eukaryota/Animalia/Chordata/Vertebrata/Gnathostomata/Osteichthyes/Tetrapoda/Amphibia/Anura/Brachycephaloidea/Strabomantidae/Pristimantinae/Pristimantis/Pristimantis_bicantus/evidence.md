@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis bicantus
       zh: Pristimantis bicantus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

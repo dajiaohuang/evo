@@ -9,7 +9,6 @@ records:
     name:
       zh: Mascarinus mascarin
       en: Mascarinus mascarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

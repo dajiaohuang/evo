@@ -22,5 +22,5 @@ COL26.8 lists Plecturocebus aureipalatii as an accepted species, while the curre
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The original range work was limited; the 2015 paper preserved a taxonomic question with P. toppini, and this page does not judge whether later work resolved it. The Chinese name is editorial; this guide is not externally expert-reviewed.
+The original range work was limited; the 2015 paper preserved a taxonomic question with P. toppini, and this page does not judge whether later work resolved it. The Chinese name is editorial; this guide is.
 <!-- /evo:text -->

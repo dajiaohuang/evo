@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus subpersonatus
       en: Ploceus subpersonatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

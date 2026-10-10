@@ -9,7 +9,6 @@ records:
     name:
       zh: Cistothorus meridae
       en: Cistothorus meridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

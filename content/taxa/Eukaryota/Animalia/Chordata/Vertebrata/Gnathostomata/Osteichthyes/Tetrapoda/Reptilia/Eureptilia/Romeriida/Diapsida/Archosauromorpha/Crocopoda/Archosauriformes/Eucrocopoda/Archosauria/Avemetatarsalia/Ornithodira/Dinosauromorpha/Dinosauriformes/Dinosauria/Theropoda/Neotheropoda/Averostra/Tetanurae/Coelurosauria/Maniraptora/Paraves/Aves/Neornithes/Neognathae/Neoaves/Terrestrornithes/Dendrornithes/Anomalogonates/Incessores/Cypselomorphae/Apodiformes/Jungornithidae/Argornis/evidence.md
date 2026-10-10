@@ -9,7 +9,6 @@ records:
     name:
       zh: Argornis
       en: Argornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

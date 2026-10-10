@@ -9,7 +9,6 @@ records:
     name:
       zh: Alrausuchus tagax
       en: Alrausuchus tagax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

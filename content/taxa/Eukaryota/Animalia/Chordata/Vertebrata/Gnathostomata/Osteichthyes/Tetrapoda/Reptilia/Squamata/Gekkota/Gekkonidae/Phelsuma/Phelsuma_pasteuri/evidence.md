@@ -9,7 +9,6 @@ records:
     name:
       zh: Phelsuma pasteuri
       en: Phelsuma pasteuri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

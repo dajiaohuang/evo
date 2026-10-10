@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus pauciscutatus
       en: Atractus pauciscutatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis zimmermanae
       zh: Pristimantis zimmermanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

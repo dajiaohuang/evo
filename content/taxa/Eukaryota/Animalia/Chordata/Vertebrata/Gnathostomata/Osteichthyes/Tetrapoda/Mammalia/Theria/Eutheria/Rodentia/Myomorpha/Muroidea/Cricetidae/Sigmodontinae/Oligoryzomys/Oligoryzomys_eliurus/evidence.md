@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligoryzomys eliurus
       en: Oligoryzomys eliurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

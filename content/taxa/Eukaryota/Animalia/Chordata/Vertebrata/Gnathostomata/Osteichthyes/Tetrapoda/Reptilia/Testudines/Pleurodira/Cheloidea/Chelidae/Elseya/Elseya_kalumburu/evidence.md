@@ -9,7 +9,6 @@ records:
     name:
       zh: Elseya kalumburu
       en: Elseya kalumburu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

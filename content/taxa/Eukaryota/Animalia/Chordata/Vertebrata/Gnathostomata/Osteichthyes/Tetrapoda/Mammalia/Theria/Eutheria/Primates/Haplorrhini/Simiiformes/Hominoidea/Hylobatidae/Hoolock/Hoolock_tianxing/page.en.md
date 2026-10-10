@@ -16,5 +16,5 @@ Acoustic surveys at six sites in Kachin State and three in Shan State, Myanmar, 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Surveys covered accessible sites only, and group detections do not estimate total range-wide abundance or trend.
+Source-linked introduction;. Surveys covered accessible sites only, and group detections do not estimate total range-wide abundance or trend.
 <!-- /evo:text -->

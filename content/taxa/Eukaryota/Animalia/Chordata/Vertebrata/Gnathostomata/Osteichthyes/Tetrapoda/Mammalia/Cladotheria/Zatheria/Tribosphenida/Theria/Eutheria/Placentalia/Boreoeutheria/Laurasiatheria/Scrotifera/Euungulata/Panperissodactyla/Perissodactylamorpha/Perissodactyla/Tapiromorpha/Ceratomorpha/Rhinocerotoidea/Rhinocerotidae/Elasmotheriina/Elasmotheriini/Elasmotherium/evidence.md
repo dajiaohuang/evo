@@ -9,7 +9,6 @@ records:
     name:
       zh: Elasmotherium
       en: Elasmotherium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

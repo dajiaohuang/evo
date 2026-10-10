@@ -9,7 +9,6 @@ records:
     name:
       en: Anodonthyla nigrigularis
       zh: Anodonthyla nigrigularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

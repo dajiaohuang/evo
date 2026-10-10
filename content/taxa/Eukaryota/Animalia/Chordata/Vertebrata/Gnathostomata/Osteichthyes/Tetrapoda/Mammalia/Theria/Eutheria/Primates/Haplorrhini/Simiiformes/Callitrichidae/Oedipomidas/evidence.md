@@ -9,7 +9,6 @@ records:
     name:
       zh: 跨安第斯狨属
       en: Oedipomidas Tamarins
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

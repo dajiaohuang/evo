@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated primary-source review
-      reviewedAt: 2026-09-05
-      reviewedAgainstReferenceVersion: Hübers and Kerp 2012 DOI 10.1130/G33122.1; author-uploaded full text inspected 2026-09-05
       referenceLinks:
         - referenceId: hubers-kerp-2012-oldest-mosses
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Hübers and Kerp 2012 DOI 10.1130/G33122.1 checked for 2026.08-static-v5-rc39
       referenceLinks:
         - referenceId: hubers-kerp-2012-oldest-mosses
           relation: supports
@@ -93,7 +87,6 @@ records:
           locator: pp. 755–758; Figures 1–3
         - referenceId: ics-2026-06
           locator: Mississippian and Visean numerical boundary context
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

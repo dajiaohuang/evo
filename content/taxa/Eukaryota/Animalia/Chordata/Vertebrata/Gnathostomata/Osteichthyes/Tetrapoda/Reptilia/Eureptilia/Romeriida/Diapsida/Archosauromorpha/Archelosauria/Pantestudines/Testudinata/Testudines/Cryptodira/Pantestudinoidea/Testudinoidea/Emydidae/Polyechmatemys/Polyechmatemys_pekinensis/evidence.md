@@ -9,7 +9,6 @@ records:
     name:
       zh: Polyechmatemys pekinensis
       en: Polyechmatemys pekinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

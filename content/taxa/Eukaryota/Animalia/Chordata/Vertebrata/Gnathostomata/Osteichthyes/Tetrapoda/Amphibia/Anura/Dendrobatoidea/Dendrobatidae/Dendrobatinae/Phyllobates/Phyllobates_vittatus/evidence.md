@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllobates vittatus
       zh: Phyllobates vittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

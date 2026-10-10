@@ -9,7 +9,6 @@ records:
     name:
       en: Eurycea wallacei
       zh: Eurycea wallacei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

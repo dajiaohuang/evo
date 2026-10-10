@@ -53,8 +53,8 @@ This batch’s Sphenodontida route includes 1 historical life-history accounts; 
 ## Limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-A pinned COL suborder entry, not a complete fossil-clade review. Genus and species pages are counted separately. No external expert review or concept-level PBDB crosswalk has been established in this batch.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+A pinned COL suborder entry, not a complete fossil-clade review. Genus and species pages are counted separately.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 <!-- /evo:text -->
 
 ## Start with sourced trait records
@@ -78,5 +78,5 @@ This guide covers only this batch’s entries with at least four sourced focal t
 ## Citation gaps in some descendant accounts
 
 <!-- evo:text /records/catalogue-profile/sections/5/text/en -->
-In this ReptTraits route, some fields in 1 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage or expert review.
+In this ReptTraits route, some fields in 1 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 <!-- /evo:text -->

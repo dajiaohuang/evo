@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus quinarius
       en: Stenocercus quinarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Achaenodon robustus
       en: Achaenodon robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

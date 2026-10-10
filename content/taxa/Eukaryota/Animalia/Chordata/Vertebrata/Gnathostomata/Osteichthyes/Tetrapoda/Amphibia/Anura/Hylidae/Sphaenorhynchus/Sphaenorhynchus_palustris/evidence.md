@@ -9,7 +9,6 @@ records:
     name:
       en: Sphaenorhynchus palustris
       zh: Sphaenorhynchus palustris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

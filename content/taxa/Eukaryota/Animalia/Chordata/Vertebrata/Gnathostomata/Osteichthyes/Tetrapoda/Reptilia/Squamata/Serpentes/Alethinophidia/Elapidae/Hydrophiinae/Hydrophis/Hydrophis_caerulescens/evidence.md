@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrophis caerulescens
       en: Hydrophis caerulescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracricetodon walgeri
       en: Paracricetodon walgeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

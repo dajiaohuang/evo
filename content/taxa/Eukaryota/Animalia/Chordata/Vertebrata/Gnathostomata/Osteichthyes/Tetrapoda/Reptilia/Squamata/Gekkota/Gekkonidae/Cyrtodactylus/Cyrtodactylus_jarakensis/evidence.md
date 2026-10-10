@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus jarakensis
       en: Cyrtodactylus jarakensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

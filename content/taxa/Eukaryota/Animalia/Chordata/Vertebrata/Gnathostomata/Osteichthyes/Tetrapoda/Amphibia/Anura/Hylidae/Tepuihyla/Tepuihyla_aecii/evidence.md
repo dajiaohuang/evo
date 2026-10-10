@@ -9,7 +9,6 @@ records:
     name:
       en: Tepuihyla aecii
       zh: Tepuihyla aecii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

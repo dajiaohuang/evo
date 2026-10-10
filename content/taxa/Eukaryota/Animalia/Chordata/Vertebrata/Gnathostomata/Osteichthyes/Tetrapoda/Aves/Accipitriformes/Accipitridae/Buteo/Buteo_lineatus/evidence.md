@@ -9,7 +9,6 @@ records:
     name:
       zh: Buteo lineatus
       en: Buteo lineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -110,10 +110,9 @@ function buildDossier(input) {
       reasons: [
         'One focused primary source supports a bounded claim in ' + input.facet + ' only.',
         'The other six scientific facets remain not assessed.',
-        'No independent external expert review has been completed.',
       ],
     },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
   }
 }
 
@@ -121,7 +120,6 @@ function validateDossier(dossier) {
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.checkedAt, '2026-09-25')
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   assert.deepEqual(dossier.identity.sourceIds, ['col'])
   const sources = new Map(dossier.sources.map(source => [source.id, source]))

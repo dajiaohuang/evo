@@ -9,7 +9,6 @@ records:
     name:
       zh: Paroxacron bergeri
       en: Paroxacron bergeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryopterygius kielanae
       en: Cryopterygius kielanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

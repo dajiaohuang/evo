@@ -9,7 +9,6 @@ records:
     name:
       zh: Datousaurus bashanensis
       en: Datousaurus bashanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

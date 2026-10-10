@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoleptodeira latifasciata
       en: Pseudoleptodeira latifasciata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

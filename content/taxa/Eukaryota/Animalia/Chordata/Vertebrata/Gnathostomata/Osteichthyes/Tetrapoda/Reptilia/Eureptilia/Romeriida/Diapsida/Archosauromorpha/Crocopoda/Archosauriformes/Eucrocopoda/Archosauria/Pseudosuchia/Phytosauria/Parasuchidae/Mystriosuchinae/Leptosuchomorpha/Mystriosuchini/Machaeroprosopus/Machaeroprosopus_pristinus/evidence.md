@@ -9,7 +9,6 @@ records:
     name:
       zh: Machaeroprosopus pristinus
       en: Machaeroprosopus pristinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

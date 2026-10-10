@@ -9,7 +9,6 @@ records:
     name:
       zh: Lunaophis aquaticus
       en: Lunaophis aquaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

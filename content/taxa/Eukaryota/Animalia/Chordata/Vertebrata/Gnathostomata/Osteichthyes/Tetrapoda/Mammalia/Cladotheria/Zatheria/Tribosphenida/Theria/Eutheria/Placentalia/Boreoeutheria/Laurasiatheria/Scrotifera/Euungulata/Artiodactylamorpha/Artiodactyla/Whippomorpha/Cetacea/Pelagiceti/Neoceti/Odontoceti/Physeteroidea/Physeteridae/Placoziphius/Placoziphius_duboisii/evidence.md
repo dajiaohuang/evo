@@ -9,7 +9,6 @@ records:
     name:
       zh: Placoziphius duboisii
       en: Placoziphius duboisii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

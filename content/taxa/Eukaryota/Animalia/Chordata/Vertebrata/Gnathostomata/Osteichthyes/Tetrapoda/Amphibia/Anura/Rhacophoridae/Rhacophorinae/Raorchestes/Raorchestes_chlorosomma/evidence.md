@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes chlorosomma
       zh: Raorchestes chlorosomma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Gyrinophilus gulolineatus
       zh: Gyrinophilus gulolineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: 金白裸耳绒猴
       en: Golden-white bare-ear marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllomys medius
       en: Phyllomys medius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

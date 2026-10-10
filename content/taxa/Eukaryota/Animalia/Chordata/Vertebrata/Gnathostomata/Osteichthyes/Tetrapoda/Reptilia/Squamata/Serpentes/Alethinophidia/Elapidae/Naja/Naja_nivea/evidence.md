@@ -9,7 +9,6 @@ records:
     name:
       zh: Naja nivea
       en: Naja nivea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

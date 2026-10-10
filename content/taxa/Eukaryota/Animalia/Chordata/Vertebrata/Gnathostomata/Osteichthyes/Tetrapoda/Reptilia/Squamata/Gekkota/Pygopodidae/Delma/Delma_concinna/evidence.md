@@ -9,7 +9,6 @@ records:
     name:
       zh: Delma concinna
       en: Delma concinna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

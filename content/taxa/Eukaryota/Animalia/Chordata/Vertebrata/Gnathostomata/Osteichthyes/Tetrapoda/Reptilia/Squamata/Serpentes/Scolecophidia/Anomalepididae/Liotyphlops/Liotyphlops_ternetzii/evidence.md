@@ -9,7 +9,6 @@ records:
     name:
       zh: Liotyphlops ternetzii
       en: Liotyphlops ternetzii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

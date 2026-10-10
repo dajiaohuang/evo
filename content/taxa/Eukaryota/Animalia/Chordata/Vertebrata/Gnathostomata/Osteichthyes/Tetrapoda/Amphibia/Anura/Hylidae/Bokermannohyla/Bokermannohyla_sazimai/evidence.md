@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla sazimai
       zh: Bokermannohyla sazimai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

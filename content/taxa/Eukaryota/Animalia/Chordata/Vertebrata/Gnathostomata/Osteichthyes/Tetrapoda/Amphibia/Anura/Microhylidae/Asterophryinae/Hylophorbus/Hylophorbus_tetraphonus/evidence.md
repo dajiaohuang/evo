@@ -9,7 +9,6 @@ records:
     name:
       en: Hylophorbus tetraphonus
       zh: Hylophorbus tetraphonus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalcomitra senegalensis
       en: Chalcomitra senegalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

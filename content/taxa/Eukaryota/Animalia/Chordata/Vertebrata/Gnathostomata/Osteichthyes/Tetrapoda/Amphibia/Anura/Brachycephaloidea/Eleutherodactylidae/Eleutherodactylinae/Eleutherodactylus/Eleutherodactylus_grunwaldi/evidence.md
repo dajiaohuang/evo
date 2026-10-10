@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus grunwaldi
       zh: Eleutherodactylus grunwaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

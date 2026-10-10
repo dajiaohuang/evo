@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys fengshunensis
       zh: Boulenophrys fengshunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

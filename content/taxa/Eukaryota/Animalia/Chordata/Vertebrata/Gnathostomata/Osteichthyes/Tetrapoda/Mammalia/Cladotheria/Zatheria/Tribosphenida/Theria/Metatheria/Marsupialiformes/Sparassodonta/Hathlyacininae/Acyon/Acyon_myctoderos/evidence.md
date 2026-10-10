@@ -9,7 +9,6 @@ records:
     name:
       zh: Acyon myctoderos
       en: Acyon myctoderos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

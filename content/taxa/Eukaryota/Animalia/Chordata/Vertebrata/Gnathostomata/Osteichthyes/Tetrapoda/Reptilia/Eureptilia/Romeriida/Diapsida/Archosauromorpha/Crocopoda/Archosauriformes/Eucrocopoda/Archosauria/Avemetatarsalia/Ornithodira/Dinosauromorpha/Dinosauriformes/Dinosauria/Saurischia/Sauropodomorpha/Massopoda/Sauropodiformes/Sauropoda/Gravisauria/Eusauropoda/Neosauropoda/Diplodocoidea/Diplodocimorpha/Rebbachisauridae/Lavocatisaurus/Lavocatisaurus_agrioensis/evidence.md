@@ -9,7 +9,6 @@ records:
     name:
       zh: Lavocatisaurus agrioensis
       en: Lavocatisaurus agrioensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

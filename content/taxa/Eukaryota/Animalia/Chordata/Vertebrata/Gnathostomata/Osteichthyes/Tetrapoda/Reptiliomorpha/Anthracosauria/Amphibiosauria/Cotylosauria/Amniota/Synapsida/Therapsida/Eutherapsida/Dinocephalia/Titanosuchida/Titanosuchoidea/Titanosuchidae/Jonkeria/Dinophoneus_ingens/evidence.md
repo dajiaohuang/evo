@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinophoneus ingens
       en: Dinophoneus ingens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

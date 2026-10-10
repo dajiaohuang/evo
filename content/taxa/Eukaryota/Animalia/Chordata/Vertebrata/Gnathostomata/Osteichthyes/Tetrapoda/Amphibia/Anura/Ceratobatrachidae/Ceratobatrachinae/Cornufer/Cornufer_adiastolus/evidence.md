@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer adiastolus
       zh: Cornufer adiastolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

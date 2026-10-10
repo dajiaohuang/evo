@@ -96,7 +96,7 @@ barbouri 幼体分类为不外源摄食的内源营养蝌蚪，于成体箱发�
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-部分研究范围内的生物学读本。其余生物学主题仍需更多证据。未经过外部领域专家评审。
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。。
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

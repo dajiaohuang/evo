@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrotherium sorondoi
       en: Pyrotherium sorondoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Desertiguana
       en: Desertiguana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

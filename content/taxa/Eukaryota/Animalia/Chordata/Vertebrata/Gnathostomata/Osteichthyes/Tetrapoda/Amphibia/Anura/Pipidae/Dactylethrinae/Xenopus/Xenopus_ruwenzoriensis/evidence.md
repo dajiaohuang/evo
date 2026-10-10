@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus ruwenzoriensis
       zh: Xenopus ruwenzoriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

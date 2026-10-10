@@ -9,7 +9,6 @@ records:
     name:
       zh: Protoprocyon savagei
       en: Protoprocyon savagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

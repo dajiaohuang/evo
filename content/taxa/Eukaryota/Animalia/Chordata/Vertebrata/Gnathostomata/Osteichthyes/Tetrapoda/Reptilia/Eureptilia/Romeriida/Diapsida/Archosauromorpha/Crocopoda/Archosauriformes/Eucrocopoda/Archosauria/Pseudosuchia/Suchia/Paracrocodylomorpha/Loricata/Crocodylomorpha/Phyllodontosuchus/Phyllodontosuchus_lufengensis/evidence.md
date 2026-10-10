@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodontosuchus lufengensis
       en: Phyllodontosuchus lufengensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

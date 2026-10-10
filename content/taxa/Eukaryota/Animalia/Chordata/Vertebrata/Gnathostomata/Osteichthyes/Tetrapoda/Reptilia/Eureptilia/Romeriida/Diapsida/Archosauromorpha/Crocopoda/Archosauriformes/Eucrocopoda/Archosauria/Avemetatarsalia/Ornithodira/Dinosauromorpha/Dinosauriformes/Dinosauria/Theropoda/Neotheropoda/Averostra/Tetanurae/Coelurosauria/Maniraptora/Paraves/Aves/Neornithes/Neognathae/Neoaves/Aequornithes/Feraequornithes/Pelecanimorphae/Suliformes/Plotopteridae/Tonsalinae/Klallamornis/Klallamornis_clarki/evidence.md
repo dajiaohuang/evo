@@ -9,7 +9,6 @@ records:
     name:
       zh: Klallamornis clarki
       en: Klallamornis clarki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

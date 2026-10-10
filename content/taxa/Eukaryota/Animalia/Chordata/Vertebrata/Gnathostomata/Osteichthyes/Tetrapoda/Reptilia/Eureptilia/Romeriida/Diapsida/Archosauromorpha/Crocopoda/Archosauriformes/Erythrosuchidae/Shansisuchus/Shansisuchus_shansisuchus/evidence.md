@@ -9,7 +9,6 @@ records:
     name:
       zh: Shansisuchus shansisuchus
       en: Shansisuchus shansisuchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

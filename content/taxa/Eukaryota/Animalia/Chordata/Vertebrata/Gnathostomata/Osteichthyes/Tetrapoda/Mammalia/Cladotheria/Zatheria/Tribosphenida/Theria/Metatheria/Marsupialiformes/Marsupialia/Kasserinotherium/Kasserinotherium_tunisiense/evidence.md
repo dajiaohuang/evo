@@ -9,7 +9,6 @@ records:
     name:
       zh: Kasserinotherium tunisiense
       en: Kasserinotherium tunisiense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

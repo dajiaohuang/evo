@@ -9,7 +9,6 @@ records:
     name:
       zh: Galerida macrorhyncha
       en: Galerida macrorhyncha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

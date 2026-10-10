@@ -9,7 +9,6 @@ records:
     name:
       zh: Subsessor bocourti
       en: Subsessor bocourti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

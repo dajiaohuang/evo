@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracosoryx alticornis
       en: Paracosoryx alticornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

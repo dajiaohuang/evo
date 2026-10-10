@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega braccata
       zh: Ameerega braccata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

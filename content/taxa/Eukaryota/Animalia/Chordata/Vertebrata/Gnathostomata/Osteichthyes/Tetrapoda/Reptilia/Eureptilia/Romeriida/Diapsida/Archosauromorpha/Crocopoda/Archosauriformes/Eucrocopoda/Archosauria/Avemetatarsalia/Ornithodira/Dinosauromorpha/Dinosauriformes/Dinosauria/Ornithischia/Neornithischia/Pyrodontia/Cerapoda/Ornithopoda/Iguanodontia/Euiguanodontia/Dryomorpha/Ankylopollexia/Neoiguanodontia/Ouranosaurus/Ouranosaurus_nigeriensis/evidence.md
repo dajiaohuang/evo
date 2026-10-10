@@ -9,7 +9,6 @@ records:
     name:
       zh: Ouranosaurus nigeriensis
       en: Ouranosaurus nigeriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

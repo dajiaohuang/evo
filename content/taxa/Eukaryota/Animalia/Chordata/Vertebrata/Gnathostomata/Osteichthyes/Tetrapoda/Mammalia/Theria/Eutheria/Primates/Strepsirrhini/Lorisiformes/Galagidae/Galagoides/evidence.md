@@ -9,7 +9,6 @@ records:
     name:
       zh: 小婴猴属
       en: Dwarf Galagos
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

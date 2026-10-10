@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "sponges-cnidarians",
-  "version": "2026.09-static-v5-rc154",
+  "version": "2026.09-2026.10-static-v5-rc155",
   "title": "Sponges and Cnidarians",
   "titleZh": "海绵与刺胞动物",
   "conceptScope": {
@@ -48,16 +48,12 @@
     "occurrences": "data/fossils/*.json",
     "profilesSource": "data/packages/invertebrata/sponges-cnidarians/profiles.source.json"
   },
-  "platformMaturity": "published",
-  "scientificMaturity": "source-linked",
-  "automatedReviewStatus": "passed",
-  "reviewStatus": "not-reviewed",
   "limitations": [
     "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.",
     "Cryogenian C30 steranes are measured geochemical occurrences, but Rhizaria and other possible producers prevent unique assignment to Demospongiae; the package does not use them as a sponge FAD.",
     "Eocyathispongia, Helicolocellus, Auroralumina, Haootia, Xianguangia and Burgessomedusa are bounded specimens or assemblages with explicit anatomical and topology limits; none is presented as a direct ancestor or permanent global first appearance.",
     "Porifera-sister and Ctenophora-sister both have genome-scale primary support under different datasets and models. The navigation hierarchy is not promoted to a resolved animal-root phylogeny.",
     "The Paleozoic scleractinian interval is a relaxed-clock model and the Late-Triassic photosymbiosis case uses skeletal proxies; neither substitutes for a directly observed fossil organism or symbiont.",
-    "COL26.8 routes exactly 30,521 accepted living species names to this package. That count does not grade fossil, morphology, ecology, media, translation or external expert-review maturity."
+    "COL26.8 routes exactly 30,521 accepted living species names to this package. That count does not grade fossil, morphology, ecology, media, translation."
   ]
 }

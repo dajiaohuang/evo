@@ -9,7 +9,6 @@ records:
     name:
       zh: Lanthaniscidae
       en: Lanthaniscidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

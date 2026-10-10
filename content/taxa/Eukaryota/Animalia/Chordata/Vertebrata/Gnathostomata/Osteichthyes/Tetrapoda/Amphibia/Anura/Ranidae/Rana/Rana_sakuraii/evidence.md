@@ -9,7 +9,6 @@ records:
     name:
       en: Rana sakuraii
       zh: Rana sakuraii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

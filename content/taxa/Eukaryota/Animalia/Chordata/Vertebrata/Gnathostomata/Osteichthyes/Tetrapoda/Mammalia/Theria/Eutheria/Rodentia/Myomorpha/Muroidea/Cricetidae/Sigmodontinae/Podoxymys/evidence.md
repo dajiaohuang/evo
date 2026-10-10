@@ -9,7 +9,6 @@ records:
     name:
       zh: Podoxymys
       en: Podoxymys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

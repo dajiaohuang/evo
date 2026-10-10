@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus jahnarum
       zh: Mantidactylus jahnarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

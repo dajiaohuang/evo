@@ -9,7 +9,6 @@ records:
     name:
       zh: Mediodactylus amictopholis
       en: Mediodactylus amictopholis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

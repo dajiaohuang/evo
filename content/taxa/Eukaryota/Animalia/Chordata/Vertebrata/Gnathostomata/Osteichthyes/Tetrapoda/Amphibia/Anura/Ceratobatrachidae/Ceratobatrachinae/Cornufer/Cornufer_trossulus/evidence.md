@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer trossulus
       zh: Cornufer trossulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

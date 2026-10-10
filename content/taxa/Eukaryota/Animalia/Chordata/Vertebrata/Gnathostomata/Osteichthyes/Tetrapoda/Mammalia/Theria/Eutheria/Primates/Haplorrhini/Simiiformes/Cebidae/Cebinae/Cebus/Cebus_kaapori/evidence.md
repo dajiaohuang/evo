@@ -9,7 +9,6 @@ records:
     name:
       zh: 卡波尔卷尾猴
       en: Ka'apor Capuchin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

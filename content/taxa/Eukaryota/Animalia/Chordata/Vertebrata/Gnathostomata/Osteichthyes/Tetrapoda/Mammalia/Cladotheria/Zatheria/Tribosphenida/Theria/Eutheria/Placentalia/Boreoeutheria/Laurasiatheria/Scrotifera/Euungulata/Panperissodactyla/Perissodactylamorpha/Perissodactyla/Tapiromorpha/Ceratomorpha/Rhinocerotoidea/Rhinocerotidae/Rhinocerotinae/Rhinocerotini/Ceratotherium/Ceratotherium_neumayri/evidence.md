@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceratotherium neumayri
       en: Ceratotherium neumayri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachyoryctes storeyi
       en: Tachyoryctes storeyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

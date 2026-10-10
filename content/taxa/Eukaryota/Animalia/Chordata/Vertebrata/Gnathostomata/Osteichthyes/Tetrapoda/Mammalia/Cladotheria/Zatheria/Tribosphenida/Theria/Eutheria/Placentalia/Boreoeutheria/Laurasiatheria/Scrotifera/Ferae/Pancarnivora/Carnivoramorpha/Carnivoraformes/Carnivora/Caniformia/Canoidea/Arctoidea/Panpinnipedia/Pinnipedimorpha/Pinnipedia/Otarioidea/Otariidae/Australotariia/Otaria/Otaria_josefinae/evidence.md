@@ -9,7 +9,6 @@ records:
     name:
       zh: Otaria josefinae
       en: Otaria josefinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

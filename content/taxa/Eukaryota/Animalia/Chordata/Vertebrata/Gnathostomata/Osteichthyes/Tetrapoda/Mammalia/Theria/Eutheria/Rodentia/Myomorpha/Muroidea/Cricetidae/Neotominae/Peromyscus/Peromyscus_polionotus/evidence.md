@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus polionotus
       en: Peromyscus polionotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

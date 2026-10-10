@@ -16,5 +16,5 @@ A study of the captive Jersey Zoo colony compared fecal microbiomes of pied tama
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Observed differences in a captive sample do not show that microbes caused illness or substitute for field research.
+Source-linked introduction;. Observed differences in a captive sample do not show that microbes caused illness or substitute for field research.
 <!-- /evo:text -->

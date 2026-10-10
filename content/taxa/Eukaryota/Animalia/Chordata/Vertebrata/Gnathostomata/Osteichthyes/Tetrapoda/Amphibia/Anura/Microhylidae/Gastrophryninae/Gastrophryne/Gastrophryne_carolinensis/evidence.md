@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrophryne carolinensis
       zh: Gastrophryne carolinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex maritimensis
       en: Sorex maritimensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

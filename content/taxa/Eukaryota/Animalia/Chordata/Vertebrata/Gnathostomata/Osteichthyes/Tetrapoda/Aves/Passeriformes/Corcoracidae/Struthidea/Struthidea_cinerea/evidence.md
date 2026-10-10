@@ -9,7 +9,6 @@ records:
     name:
       zh: Struthidea cinerea
       en: Struthidea cinerea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

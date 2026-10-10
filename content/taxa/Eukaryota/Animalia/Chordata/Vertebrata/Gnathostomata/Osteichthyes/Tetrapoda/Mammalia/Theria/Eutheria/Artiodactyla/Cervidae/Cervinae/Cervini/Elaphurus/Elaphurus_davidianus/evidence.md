@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaphurus davidianus
       en: Elaphurus davidianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

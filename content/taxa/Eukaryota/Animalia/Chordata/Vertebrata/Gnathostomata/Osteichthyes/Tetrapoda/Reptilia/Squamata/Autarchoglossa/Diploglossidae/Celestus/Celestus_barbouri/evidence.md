@@ -9,7 +9,6 @@ records:
     name:
       zh: Celestus barbouri
       en: Celestus barbouri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

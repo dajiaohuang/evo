@@ -40,5 +40,5 @@ The ICMBio SALVE sheet was published in 2025, but its Near Threatened category i
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked regional distribution and conservation introduction, not a comprehensive ecology or externally expert-reviewed account. The distribution study used the earlier subspecies combination; its records are connected to the current COL species through the 2022 taxonomic revision and 2025 assessment. The southern range limit, population size, abundance and species-specific diet remain unresolved; some threat evidence is unpublished or interview-based.
+Source-linked regional distribution and conservation introduction, not a comprehensive ecology. The distribution study used the earlier subspecies combination; its records are connected to the current COL species through the 2022 taxonomic revision and 2025 assessment. The southern range limit, population size, abundance and species-specific diet remain unresolved; some threat evidence is unpublished or interview-based.
 <!-- /evo:text -->

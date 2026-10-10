@@ -9,7 +9,6 @@ records:
     name:
       zh: Alca carolinensis
       en: Alca carolinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

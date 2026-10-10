@@ -9,7 +9,6 @@ records:
     name:
       zh: Rusa alfredi
       en: Rusa alfredi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

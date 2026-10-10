@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeocastor
       en: Palaeocastor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

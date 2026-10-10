@@ -9,7 +9,6 @@ records:
     name:
       zh: Lartetotherium
       en: Lartetotherium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

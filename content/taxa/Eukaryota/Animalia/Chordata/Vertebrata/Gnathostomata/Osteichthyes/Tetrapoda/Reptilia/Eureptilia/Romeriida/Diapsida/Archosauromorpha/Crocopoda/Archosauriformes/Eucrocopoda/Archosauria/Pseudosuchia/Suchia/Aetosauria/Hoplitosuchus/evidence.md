@@ -9,7 +9,6 @@ records:
     name:
       zh: Hoplitosuchus
       en: Hoplitosuchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

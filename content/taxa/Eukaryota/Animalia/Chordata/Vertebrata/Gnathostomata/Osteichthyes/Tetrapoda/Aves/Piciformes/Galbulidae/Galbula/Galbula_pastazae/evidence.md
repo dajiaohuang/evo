@@ -9,7 +9,6 @@ records:
     name:
       zh: Galbula pastazae
       en: Galbula pastazae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana eschatia
       zh: Hylarana eschatia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

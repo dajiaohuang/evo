@@ -9,7 +9,6 @@ records:
     name:
       zh: Anas chlorotis
       en: Anas chlorotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

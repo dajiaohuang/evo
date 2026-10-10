@@ -9,7 +9,6 @@ records:
     name:
       en: Philoria knowlesi
       zh: Philoria knowlesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Emoia submetallica
       en: Emoia submetallica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

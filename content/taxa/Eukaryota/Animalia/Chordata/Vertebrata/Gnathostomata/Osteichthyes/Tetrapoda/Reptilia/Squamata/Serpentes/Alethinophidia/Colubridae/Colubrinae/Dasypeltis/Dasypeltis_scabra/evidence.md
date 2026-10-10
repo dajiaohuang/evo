@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasypeltis scabra
       en: Dasypeltis scabra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Suncus hosei
       en: Suncus hosei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

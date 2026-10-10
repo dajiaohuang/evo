@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeastur atavus
       en: Palaeastur atavus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Saxicola caprata
       en: Saxicola caprata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

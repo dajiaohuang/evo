@@ -9,7 +9,6 @@ records:
     name:
       zh: Terpsiphone bourbonnensis
       en: Terpsiphone bourbonnensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Metarhinus diploconus
       en: Metarhinus diploconus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

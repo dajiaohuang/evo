@@ -9,7 +9,6 @@ records:
     name:
       zh: Marisora syntoma
       en: Marisora syntoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

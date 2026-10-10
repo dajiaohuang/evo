@@ -9,7 +9,6 @@ records:
     name:
       zh: Ihlengesi changoensis
       en: Ihlengesi changoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

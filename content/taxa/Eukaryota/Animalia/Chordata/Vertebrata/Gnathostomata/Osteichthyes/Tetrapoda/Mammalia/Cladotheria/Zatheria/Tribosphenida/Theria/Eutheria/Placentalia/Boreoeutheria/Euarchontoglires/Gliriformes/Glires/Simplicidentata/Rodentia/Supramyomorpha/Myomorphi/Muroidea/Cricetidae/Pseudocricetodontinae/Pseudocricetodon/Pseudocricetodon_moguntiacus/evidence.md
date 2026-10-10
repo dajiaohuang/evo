@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocricetodon moguntiacus
       en: Pseudocricetodon moguntiacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

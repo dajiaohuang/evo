@@ -9,7 +9,6 @@ records:
     name:
       en: Spicicalyx myola
       zh: Spicicalyx myola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

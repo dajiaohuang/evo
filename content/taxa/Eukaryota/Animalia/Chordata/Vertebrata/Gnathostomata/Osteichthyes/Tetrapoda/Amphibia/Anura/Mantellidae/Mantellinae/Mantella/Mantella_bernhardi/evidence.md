@@ -9,7 +9,6 @@ records:
     name:
       en: Mantella bernhardi
       zh: Mantella bernhardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

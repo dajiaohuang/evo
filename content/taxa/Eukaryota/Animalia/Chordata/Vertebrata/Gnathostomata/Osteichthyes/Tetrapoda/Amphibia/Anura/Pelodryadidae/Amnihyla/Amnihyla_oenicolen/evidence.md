@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla oenicolen
       zh: Amnihyla oenicolen
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhampholeon hattinghi
       en: Rhampholeon hattinghi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Boana pombali
       zh: Boana pombali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

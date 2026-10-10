@@ -9,7 +9,6 @@ records:
     name:
       zh: Euphonia violacea
       en: Euphonia violacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

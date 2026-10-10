@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor saltator
       zh: Craugastor saltator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

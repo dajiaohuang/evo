@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeolagus emeraldensis
       en: Archaeolagus emeraldensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops kaulbacki
       zh: Amolops kaulbacki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

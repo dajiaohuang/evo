@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis orcesi
       en: Anolis orcesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

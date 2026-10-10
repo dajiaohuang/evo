@@ -9,7 +9,6 @@ records:
     name:
       en: Synapturanus mirandaribeiroi
       zh: Synapturanus mirandaribeiroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

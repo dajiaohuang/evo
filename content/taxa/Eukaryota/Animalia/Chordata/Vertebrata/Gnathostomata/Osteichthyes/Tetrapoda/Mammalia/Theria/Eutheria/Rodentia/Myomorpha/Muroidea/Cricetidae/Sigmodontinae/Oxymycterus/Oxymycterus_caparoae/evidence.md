@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxymycterus caparoae
       en: Oxymycterus caparoae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

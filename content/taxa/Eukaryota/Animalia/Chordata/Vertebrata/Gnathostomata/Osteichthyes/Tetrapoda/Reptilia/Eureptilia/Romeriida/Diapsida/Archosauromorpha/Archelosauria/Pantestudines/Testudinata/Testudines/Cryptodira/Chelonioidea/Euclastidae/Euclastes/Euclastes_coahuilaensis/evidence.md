@@ -9,7 +9,6 @@ records:
     name:
       zh: Euclastes coahuilaensis
       en: Euclastes coahuilaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

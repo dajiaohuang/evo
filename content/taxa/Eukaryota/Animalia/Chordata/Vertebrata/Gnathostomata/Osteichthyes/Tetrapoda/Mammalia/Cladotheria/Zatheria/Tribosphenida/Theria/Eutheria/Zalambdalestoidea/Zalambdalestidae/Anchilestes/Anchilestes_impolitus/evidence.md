@@ -9,7 +9,6 @@ records:
     name:
       zh: Anchilestes impolitus
       en: Anchilestes impolitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

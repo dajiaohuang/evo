@@ -9,7 +9,6 @@ records:
     name:
       zh: Ichthyaetus ichthyaetus
       en: Ichthyaetus ichthyaetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

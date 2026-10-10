@@ -9,7 +9,6 @@ records:
     name:
       zh: Onychogalea unguifera
       en: Onychogalea unguifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

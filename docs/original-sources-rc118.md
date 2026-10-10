@@ -42,5 +42,5 @@ remain in the original input, not silently promoted or discarded from it.
 
 Replay tests compare complete canonical output and original row IDs, names,
 authorship and citations. Delivery assertions use existing build/native helpers,
-not human review or device certification. Backend/client protocol work remains
+not device certification. Backend/client protocol work remains
 independent of this content revision.

@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus yaoshanensis
       zh: Zhangixalus yaoshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

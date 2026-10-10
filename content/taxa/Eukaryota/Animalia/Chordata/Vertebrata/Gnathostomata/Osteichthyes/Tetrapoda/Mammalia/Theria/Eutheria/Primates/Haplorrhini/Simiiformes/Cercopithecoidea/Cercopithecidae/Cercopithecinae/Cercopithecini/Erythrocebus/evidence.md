@@ -9,7 +9,6 @@ records:
     name:
       en: Patas Monkeys
       zh: 赤猴属
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

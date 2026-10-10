@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis urraoi
       en: Anolis urraoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

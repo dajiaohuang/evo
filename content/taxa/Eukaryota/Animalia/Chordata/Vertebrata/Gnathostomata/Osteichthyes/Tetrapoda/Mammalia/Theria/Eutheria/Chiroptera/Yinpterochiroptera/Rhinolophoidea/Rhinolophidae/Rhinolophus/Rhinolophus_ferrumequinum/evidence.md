@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus ferrumequinum
       en: Rhinolophus ferrumequinum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

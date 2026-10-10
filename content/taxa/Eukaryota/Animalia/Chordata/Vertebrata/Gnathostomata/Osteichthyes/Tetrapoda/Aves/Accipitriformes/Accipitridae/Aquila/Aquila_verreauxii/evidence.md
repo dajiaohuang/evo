@@ -9,7 +9,6 @@ records:
     name:
       zh: Aquila verreauxii
       en: Aquila verreauxii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

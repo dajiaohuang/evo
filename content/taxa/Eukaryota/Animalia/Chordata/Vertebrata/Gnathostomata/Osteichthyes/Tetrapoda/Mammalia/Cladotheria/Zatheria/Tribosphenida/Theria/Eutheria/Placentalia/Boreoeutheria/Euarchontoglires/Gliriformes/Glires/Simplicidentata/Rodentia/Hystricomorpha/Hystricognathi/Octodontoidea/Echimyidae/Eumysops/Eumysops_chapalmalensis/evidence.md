@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumysops chapalmalensis
       en: Eumysops chapalmalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

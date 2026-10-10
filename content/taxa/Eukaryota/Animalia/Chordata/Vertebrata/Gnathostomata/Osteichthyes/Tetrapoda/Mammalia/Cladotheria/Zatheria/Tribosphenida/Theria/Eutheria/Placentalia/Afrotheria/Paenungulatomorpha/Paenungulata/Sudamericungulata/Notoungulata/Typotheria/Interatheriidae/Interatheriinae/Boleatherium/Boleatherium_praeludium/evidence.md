@@ -9,7 +9,6 @@ records:
     name:
       zh: Boleatherium praeludium
       en: Boleatherium praeludium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

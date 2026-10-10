@@ -9,7 +9,6 @@ records:
     name:
       zh: Oromys zenkerellinopsis
       en: Oromys zenkerellinopsis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

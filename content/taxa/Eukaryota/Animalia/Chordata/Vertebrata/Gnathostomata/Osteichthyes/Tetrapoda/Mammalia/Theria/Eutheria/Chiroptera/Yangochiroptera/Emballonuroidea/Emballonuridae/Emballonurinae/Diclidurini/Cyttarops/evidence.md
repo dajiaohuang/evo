@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyttarops
       en: Cyttarops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

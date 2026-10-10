@@ -9,7 +9,6 @@ records:
     name:
       zh: Conophis morai
       en: Conophis morai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

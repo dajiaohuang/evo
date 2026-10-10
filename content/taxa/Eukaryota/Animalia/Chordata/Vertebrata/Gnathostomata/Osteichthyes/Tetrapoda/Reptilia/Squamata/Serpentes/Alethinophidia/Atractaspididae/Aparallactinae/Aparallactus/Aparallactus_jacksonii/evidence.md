@@ -9,7 +9,6 @@ records:
     name:
       zh: Aparallactus jacksonii
       en: Aparallactus jacksonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

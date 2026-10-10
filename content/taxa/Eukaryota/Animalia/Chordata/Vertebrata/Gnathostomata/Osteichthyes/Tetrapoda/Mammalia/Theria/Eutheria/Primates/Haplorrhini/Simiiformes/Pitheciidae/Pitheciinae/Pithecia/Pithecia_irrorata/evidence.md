@@ -9,7 +9,6 @@ records:
     name:
       zh: 格雷秃面僧面猴
       en: Gray's Bald-faced Saki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

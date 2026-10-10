@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Nesbitt, S.J. et al. 2006 DOI 10.1098/rspb.2005.3426
       referenceLinks:
         - referenceId: nesbitt-norell-2006-effigia-convergence
           relation: supports

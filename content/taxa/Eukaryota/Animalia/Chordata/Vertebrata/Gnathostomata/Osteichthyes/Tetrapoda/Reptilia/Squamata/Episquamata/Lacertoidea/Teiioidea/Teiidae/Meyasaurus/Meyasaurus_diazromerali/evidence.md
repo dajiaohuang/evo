@@ -9,7 +9,6 @@ records:
     name:
       zh: Meyasaurus diazromerali
       en: Meyasaurus diazromerali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myriopholis braccianii
       en: Myriopholis braccianii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

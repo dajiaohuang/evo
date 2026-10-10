@@ -9,7 +9,6 @@ records:
     name:
       zh: Hirundo domicola
       en: Hirundo domicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

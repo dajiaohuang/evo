@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliopithecus vindobonensis
       en: Pliopithecus vindobonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

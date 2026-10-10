@@ -9,7 +9,6 @@ records:
     name:
       zh: Sebecus huilensis
       en: Sebecus huilensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

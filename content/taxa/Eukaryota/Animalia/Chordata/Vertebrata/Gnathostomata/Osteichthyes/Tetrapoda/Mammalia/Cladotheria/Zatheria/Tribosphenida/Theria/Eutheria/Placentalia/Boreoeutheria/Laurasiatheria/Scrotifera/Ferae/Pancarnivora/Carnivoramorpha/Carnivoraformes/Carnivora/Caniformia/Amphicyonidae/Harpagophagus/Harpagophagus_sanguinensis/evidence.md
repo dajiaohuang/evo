@@ -9,7 +9,6 @@ records:
     name:
       zh: Harpagophagus sanguinensis
       en: Harpagophagus sanguinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

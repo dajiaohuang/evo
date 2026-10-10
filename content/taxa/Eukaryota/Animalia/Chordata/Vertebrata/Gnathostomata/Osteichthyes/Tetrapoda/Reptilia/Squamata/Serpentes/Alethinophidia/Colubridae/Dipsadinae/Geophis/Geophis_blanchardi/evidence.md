@@ -9,7 +9,6 @@ records:
     name:
       zh: Geophis blanchardi
       en: Geophis blanchardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

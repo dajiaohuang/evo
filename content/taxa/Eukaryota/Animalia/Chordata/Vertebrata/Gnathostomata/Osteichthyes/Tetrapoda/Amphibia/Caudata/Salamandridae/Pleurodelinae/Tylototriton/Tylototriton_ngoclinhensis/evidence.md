@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton ngoclinhensis
       zh: Tylototriton ngoclinhensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

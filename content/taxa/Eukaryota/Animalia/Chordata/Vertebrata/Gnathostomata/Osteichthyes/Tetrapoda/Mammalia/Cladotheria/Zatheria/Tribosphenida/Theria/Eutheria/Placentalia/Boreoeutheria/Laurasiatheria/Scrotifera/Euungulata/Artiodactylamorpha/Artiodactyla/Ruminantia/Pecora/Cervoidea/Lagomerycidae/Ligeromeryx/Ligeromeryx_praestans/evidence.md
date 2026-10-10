@@ -9,7 +9,6 @@ records:
     name:
       zh: Ligeromeryx praestans
       en: Ligeromeryx praestans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Saurodactylus harrisii
       en: Saurodactylus harrisii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

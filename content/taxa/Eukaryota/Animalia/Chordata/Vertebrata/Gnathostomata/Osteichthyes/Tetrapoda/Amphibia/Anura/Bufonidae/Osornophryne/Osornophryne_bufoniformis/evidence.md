@@ -9,7 +9,6 @@ records:
     name:
       en: Osornophryne bufoniformis
       zh: Osornophryne bufoniformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

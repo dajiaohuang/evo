@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla karunaratnei
       zh: Microhyla karunaratnei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

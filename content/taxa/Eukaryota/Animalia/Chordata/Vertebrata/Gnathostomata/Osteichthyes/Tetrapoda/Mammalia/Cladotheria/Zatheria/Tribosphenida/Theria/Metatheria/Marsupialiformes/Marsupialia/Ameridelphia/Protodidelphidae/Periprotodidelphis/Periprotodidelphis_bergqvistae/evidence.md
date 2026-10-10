@@ -9,7 +9,6 @@ records:
     name:
       zh: Periprotodidelphis bergqvistae
       en: Periprotodidelphis bergqvistae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

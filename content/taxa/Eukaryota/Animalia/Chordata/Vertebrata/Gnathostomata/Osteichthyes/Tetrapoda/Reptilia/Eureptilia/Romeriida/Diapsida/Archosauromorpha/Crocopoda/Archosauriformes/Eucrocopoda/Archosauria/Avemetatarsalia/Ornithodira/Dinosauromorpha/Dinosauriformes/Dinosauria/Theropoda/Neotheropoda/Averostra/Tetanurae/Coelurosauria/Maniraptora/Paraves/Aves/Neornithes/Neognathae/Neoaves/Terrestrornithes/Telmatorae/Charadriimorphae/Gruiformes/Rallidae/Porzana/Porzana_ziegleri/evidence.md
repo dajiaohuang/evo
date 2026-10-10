@@ -9,7 +9,6 @@ records:
     name:
       zh: Porzana ziegleri
       en: Porzana ziegleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

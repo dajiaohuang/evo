@@ -9,7 +9,6 @@ records:
     name:
       zh: Microbiotherium tehuelchum
       en: Microbiotherium tehuelchum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalcides bottegi
       en: Chalcides bottegi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelodina (Chelodina)
       en: Chelodina (Chelodina)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

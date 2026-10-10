@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteruthius rufiventer
       en: Pteruthius rufiventer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eotalpa belgica
       en: Eotalpa belgica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

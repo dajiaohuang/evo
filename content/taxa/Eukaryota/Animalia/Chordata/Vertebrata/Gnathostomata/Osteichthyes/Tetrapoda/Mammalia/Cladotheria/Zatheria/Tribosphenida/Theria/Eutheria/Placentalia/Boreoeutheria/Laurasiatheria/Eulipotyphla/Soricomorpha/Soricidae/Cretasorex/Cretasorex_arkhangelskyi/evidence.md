@@ -9,7 +9,6 @@ records:
     name:
       zh: Cretasorex arkhangelskyi
       en: Cretasorex arkhangelskyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

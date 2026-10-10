@@ -9,7 +9,6 @@ records:
     name:
       zh: Thrasops jacksonii
       en: Thrasops jacksonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

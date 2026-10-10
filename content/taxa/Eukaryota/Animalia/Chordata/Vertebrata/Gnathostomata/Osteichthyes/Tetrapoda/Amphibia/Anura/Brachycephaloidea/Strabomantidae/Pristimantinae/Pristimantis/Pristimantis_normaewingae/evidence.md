@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis normaewingae
       zh: Pristimantis normaewingae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

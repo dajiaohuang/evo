@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus bonsi
       en: Lygodactylus bonsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

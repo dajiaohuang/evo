@@ -9,7 +9,6 @@ records:
     name:
       zh: Paranthodon africanus
       en: Paranthodon africanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

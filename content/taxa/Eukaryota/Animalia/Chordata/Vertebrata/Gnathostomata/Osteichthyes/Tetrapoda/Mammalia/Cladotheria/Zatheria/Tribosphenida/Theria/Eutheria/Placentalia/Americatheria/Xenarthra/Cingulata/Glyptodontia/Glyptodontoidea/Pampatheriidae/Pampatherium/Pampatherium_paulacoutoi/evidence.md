@@ -9,7 +9,6 @@ records:
     name:
       zh: Pampatherium paulacoutoi
       en: Pampatherium paulacoutoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

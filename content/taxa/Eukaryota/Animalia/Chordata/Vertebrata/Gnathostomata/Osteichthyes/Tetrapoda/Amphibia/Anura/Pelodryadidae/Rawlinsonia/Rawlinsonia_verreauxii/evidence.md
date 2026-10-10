@@ -9,7 +9,6 @@ records:
     name:
       en: Rawlinsonia verreauxii
       zh: Rawlinsonia verreauxii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

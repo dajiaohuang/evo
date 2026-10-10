@@ -9,7 +9,6 @@ records:
     name:
       zh: Lakotalestes luoi
       en: Lakotalestes luoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

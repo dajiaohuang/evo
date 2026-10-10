@@ -9,7 +9,6 @@ records:
     name:
       zh: Anisolambda fissidens
       en: Anisolambda fissidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

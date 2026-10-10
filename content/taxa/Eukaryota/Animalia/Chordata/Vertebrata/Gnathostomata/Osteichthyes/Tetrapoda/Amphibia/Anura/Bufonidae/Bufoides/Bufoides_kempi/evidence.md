@@ -9,7 +9,6 @@ records:
     name:
       en: Bufoides kempi
       zh: Bufoides kempi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

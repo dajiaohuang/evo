@@ -9,7 +9,6 @@ records:
     name:
       zh: Rinconsaurus caudamirus
       en: Rinconsaurus caudamirus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

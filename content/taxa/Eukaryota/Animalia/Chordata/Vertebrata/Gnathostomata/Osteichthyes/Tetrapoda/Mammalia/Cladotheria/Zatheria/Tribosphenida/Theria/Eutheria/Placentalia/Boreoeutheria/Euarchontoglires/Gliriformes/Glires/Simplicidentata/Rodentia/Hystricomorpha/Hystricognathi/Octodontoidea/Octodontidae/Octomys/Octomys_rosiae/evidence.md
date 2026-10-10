@@ -9,7 +9,6 @@ records:
     name:
       zh: Octomys rosiae
       en: Octomys rosiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

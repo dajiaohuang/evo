@@ -9,7 +9,6 @@ records:
     name:
       en: Crossodactylus caramaschii
       zh: Crossodactylus caramaschii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

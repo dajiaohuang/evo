@@ -9,7 +9,6 @@ records:
     name:
       en: Hildebrandtia macrotympanum
       zh: Hildebrandtia macrotympanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

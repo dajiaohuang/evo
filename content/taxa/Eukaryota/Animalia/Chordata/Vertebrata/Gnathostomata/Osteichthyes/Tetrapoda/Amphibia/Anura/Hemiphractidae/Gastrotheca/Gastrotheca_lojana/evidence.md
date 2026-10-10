@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca lojana
       zh: Gastrotheca lojana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

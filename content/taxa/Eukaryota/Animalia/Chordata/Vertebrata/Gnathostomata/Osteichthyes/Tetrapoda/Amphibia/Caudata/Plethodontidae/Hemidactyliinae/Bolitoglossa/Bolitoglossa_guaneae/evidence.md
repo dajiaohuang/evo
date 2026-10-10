@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa guaneae
       zh: Bolitoglossa guaneae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

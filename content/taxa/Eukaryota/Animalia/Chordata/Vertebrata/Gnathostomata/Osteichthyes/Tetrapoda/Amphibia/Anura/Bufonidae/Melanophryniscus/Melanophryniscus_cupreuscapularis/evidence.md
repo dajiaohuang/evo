@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus cupreuscapularis
       zh: Melanophryniscus cupreuscapularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

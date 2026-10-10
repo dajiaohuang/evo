@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus nattereri
       en: Anthus nattereri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

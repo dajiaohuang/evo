@@ -9,7 +9,6 @@ records:
     name:
       zh: Anniella alexanderae
       en: Anniella alexanderae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

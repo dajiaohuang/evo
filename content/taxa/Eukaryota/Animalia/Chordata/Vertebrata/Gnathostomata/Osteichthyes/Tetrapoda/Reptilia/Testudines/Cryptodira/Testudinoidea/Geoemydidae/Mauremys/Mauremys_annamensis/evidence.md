@@ -9,7 +9,6 @@ records:
     name:
       zh: Mauremys annamensis
       en: Mauremys annamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

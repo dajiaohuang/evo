@@ -9,7 +9,6 @@ records:
     name:
       zh: Limicorallus carbunculus
       en: Limicorallus carbunculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

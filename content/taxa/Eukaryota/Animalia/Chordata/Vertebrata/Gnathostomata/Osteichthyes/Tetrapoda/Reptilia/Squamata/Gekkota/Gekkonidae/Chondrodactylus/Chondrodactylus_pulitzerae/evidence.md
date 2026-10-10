@@ -9,7 +9,6 @@ records:
     name:
       zh: Chondrodactylus pulitzerae
       en: Chondrodactylus pulitzerae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

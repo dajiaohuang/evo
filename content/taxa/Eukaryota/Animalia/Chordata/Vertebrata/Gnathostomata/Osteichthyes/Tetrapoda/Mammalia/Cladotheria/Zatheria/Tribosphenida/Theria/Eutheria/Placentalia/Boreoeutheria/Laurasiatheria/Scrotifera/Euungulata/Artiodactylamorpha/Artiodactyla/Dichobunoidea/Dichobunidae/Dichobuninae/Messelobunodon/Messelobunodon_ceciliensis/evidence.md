@@ -9,7 +9,6 @@ records:
     name:
       zh: Messelobunodon ceciliensis
       en: Messelobunodon ceciliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

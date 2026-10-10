@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanochelys trijuga
       en: Melanochelys trijuga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

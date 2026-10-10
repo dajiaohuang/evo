@@ -9,7 +9,6 @@ records:
     name:
       zh: Cichladusa guttata
       en: Cichladusa guttata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus perousii
       en: Ptilinopus perousii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

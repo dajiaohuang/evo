@@ -9,7 +9,6 @@ records:
     name:
       zh: Dalophia pistillum
       en: Dalophia pistillum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

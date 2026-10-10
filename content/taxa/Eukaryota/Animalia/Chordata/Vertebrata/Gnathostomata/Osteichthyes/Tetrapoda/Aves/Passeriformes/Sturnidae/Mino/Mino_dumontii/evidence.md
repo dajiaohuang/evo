@@ -9,7 +9,6 @@ records:
     name:
       zh: Mino dumontii
       en: Mino dumontii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

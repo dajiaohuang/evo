@@ -9,7 +9,6 @@ records:
     name:
       zh: Cuora picturata
       en: Cuora picturata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

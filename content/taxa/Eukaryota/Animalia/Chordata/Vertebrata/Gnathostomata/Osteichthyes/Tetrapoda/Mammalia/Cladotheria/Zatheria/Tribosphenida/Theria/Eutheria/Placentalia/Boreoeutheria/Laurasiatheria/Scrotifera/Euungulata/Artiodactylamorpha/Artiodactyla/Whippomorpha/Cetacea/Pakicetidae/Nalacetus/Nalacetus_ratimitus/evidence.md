@@ -9,7 +9,6 @@ records:
     name:
       zh: Nalacetus ratimitus
       en: Nalacetus ratimitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

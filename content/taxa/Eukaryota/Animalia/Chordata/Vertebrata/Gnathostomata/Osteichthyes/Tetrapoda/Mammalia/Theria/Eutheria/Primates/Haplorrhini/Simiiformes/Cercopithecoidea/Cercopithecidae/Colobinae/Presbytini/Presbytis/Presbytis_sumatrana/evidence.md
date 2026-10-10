@@ -9,7 +9,6 @@ records:
     name:
       zh: 苏门答腊黑叶猴
       en: Black Sumatran Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: ecology

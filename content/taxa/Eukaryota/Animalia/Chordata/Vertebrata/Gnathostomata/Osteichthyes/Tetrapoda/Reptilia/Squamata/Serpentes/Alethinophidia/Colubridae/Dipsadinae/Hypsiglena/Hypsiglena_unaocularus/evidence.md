@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsiglena unaocularus
       en: Hypsiglena unaocularus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

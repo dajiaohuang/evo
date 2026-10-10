@@ -9,7 +9,6 @@ records:
     name:
       zh: Kordosia topali
       en: Kordosia topali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

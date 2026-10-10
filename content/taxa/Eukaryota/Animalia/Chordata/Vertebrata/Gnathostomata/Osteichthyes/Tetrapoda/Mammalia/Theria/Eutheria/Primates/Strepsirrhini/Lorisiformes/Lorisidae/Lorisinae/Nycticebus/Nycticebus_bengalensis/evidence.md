@@ -9,7 +9,6 @@ records:
     name:
       zh: 孟加拉蜂猴
       en: Bengal Slow Loris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

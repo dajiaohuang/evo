@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracina ostenta
       en: Coracina ostenta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

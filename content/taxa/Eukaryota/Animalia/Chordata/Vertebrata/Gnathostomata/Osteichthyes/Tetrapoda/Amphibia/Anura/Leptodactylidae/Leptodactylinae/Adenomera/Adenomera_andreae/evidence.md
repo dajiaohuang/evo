@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera andreae
       zh: Adenomera andreae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

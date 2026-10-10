@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyrrhenolutra helbingi
       en: Tyrrhenolutra helbingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

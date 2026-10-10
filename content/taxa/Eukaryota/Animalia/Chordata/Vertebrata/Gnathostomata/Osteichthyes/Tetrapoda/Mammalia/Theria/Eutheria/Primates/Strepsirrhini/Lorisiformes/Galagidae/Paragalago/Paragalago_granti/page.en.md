@@ -28,5 +28,5 @@ The South African study recorded the incremental loud call and distinguished it 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The main field details come from a local sample across 24 survey nights at two South African sites; they do not establish species-wide sleeping-group structure, habitat preference or population trends. Source-linked bilingual draft; not externally expert-reviewed.
+The main field details come from a local sample across 24 survey nights at two South African sites; they do not establish species-wide sleeping-group structure, habitat preference or population trends. Source-linked bilingual draft;.
 <!-- /evo:text -->

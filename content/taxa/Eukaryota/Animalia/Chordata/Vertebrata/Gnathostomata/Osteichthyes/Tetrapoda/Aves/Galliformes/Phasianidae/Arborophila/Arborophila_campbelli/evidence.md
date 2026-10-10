@@ -9,7 +9,6 @@ records:
     name:
       zh: Arborophila campbelli
       en: Arborophila campbelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

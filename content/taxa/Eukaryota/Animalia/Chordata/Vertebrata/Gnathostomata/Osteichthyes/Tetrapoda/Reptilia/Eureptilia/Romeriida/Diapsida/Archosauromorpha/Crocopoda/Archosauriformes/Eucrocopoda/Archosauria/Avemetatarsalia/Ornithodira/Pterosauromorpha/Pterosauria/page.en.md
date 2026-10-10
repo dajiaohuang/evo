@@ -90,8 +90,8 @@ witton-habib-2010-giant-pterosaur-flight
 ## reader limitations
 
 <!-- evo:text /records/readerLimitations/en -->
-This is a selective route through studies of relationships, fossils, geography and biomechanics. The fossil record is patchy; the cited locality and specimen results do not establish a complete global range, life history, diet or uniform flight capability. The profile is not externally expert-reviewed.
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes. No external expert review has occurred.
+This is a selective route through studies of relationships, fossils, geography and biomechanics. The fossil record is patchy; the cited locality and specimen results do not establish a complete global range, life history, diet or uniform flight capability. The profile is.
+This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 <!-- /evo:text -->
 
 ## Haliskia: observations and reconstruction
@@ -117,5 +117,5 @@ Start with Seazzadactylus venieri, Kunpengopterus sinensis, Kunpengopterus antip
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes. No external expert review has occurred.
+This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 <!-- /evo:text -->

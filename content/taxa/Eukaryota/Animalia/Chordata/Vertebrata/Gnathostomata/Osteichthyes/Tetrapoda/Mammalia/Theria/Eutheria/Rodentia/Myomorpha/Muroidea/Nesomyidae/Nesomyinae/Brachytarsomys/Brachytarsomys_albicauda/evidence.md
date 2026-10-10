@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachytarsomys albicauda
       en: Brachytarsomys albicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

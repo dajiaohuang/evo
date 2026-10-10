@@ -9,7 +9,6 @@ records:
     name:
       zh: Adelodelphys muizoni
       en: Adelodelphys muizoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

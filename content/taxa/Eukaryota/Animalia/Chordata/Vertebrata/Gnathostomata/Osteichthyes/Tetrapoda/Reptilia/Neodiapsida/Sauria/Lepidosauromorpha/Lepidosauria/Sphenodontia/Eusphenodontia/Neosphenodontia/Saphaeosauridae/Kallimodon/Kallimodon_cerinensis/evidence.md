@@ -9,7 +9,6 @@ records:
     name:
       zh: Kallimodon cerinensis
       en: Kallimodon cerinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

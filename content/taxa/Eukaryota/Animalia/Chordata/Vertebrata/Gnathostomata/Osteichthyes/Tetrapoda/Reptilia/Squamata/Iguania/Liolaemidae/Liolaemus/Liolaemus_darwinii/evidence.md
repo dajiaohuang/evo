@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus darwinii
       en: Liolaemus darwinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

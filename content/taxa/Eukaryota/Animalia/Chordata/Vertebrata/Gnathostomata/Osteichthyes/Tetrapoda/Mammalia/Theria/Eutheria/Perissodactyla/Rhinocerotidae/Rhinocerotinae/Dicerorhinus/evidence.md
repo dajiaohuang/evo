@@ -9,7 +9,6 @@ records:
     name:
       zh: 双角犀属
       en: Sumatran rhinoceros genus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

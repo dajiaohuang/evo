@@ -9,7 +9,6 @@ records:
     name:
       zh: Giganotosaurus carolinii
       en: Giganotosaurus carolinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

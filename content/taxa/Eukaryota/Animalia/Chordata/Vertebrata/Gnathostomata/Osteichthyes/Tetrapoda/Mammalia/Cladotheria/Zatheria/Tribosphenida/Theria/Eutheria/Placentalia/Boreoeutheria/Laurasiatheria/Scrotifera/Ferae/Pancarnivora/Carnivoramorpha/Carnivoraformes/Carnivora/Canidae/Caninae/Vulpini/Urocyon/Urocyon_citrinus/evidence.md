@@ -9,7 +9,6 @@ records:
     name:
       zh: Urocyon citrinus
       en: Urocyon citrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

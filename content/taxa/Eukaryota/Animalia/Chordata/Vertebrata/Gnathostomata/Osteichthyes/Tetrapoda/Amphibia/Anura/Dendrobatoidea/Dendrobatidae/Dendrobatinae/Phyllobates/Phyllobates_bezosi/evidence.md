@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllobates bezosi
       zh: Phyllobates bezosi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

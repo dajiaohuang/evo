@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidolaemus laticinctus
       en: Tropidolaemus laticinctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

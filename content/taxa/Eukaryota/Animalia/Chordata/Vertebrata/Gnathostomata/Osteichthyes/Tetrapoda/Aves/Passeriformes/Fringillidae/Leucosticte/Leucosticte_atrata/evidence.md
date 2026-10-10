@@ -9,7 +9,6 @@ records:
     name:
       zh: Leucosticte atrata
       en: Leucosticte atrata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

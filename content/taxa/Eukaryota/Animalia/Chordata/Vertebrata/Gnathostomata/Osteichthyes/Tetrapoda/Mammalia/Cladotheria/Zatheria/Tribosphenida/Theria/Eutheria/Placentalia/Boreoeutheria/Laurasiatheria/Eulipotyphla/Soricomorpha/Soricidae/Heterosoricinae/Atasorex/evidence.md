@@ -9,7 +9,6 @@ records:
     name:
       zh: Atasorex
       en: Atasorex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

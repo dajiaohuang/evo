@@ -9,7 +9,6 @@ records:
     name:
       zh: Progonomys cathalai
       en: Progonomys cathalai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

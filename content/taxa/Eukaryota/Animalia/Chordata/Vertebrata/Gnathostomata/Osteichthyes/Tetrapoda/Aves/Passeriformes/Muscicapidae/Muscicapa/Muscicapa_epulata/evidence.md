@@ -9,7 +9,6 @@ records:
     name:
       zh: Muscicapa epulata
       en: Muscicapa epulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

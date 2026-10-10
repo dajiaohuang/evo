@@ -22,5 +22,5 @@ In a 2024 master’s thesis, Carvalho used adapted boat transects along the Mapa
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. The 2020 potential-distribution model uses historical records and uneven survey coverage; the 2024 master’s thesis covers one municipality and six months of mangrove transects. Neither is a current range-wide census or a complete species dossier.
+Source-linked introduction;. The 2020 potential-distribution model uses historical records and uneven survey coverage; the 2024 master’s thesis covers one municipality and six months of mangrove transects. Neither is a current range-wide census or a complete species dossier.
 <!-- /evo:text -->

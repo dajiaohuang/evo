@@ -9,7 +9,6 @@ records:
     name:
       zh: Eousdryosaurus nanohallucis
       en: Eousdryosaurus nanohallucis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium carlesvilai
       zh: Hyalinobatrachium carlesvilai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

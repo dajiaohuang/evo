@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsas copei
       en: Dipsas copei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

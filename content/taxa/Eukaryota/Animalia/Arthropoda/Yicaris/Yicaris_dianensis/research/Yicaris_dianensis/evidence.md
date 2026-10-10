@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zhang-2007-yicaris primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: zhang-2007-yicaris
           relation: supports
@@ -77,9 +74,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zhang-2007-yicaris primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: zhang-2007-yicaris
           relation: supports
@@ -96,9 +90,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zhang-2007-yicaris primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: zhang-2007-yicaris
           relation: supports
@@ -115,9 +106,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zhang-2007-yicaris primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: zhang-2007-yicaris
           relation: supports
@@ -134,9 +122,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zhang-2007-yicaris primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: zhang-2007-yicaris
           relation: supports
@@ -188,7 +173,6 @@ records:
       referenceLocators:
         - referenceId: zhang-2007-yicaris
           locator: 595–598; Figures 1–3
-      reviewStatus: automated-audit-passed
 ---
 
 # Yicaris dianensis

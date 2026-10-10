@@ -9,7 +9,6 @@ records:
     name:
       en: Black Lion Tamarin
       zh: 黑狮面狨
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

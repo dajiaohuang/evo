@@ -9,7 +9,6 @@ records:
     name:
       zh: Floridemys hurdi
       en: Floridemys hurdi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

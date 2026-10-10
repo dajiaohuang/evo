@@ -9,7 +9,6 @@ records:
     name:
       zh: Portellsaurus sosbaynati
       en: Portellsaurus sosbaynati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

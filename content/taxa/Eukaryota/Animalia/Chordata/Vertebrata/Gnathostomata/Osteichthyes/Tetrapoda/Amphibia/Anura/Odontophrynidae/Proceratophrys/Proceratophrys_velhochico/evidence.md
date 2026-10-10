@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys velhochico
       zh: Proceratophrys velhochico
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

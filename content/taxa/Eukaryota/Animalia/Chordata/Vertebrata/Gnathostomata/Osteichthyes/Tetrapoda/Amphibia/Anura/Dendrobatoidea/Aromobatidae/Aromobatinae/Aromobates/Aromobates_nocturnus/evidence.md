@@ -9,7 +9,6 @@ records:
     name:
       en: Aromobates nocturnus
       zh: Aromobates nocturnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophisaurus holeci
       en: Ophisaurus holeci
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenoligea
       en: Xenoligea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

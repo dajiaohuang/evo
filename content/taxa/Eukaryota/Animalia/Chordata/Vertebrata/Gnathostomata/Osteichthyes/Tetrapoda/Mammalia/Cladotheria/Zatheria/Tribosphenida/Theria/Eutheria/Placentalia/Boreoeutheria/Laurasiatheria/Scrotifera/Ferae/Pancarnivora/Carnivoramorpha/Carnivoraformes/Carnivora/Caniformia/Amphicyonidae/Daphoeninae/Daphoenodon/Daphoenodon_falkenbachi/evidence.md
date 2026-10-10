@@ -9,7 +9,6 @@ records:
     name:
       zh: Daphoenodon falkenbachi
       en: Daphoenodon falkenbachi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

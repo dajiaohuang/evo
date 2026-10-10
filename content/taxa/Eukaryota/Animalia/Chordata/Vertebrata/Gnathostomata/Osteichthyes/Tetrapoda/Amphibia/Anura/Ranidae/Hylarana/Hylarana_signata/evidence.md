@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana signata
       zh: Hylarana signata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

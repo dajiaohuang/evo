@@ -9,7 +9,6 @@ records:
     name:
       zh: Panchetocynodon damodarensis
       en: Panchetocynodon damodarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

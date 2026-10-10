@@ -9,7 +9,6 @@ records:
     name:
       zh: Farancia erytrogramma
       en: Farancia erytrogramma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

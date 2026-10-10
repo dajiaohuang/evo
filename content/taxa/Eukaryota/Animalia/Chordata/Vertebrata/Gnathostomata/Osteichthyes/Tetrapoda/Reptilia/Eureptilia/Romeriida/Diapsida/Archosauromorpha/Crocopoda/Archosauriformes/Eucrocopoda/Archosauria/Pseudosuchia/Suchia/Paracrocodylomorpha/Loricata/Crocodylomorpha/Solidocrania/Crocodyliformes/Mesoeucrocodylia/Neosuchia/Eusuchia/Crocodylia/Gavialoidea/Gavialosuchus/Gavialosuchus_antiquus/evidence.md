@@ -9,7 +9,6 @@ records:
     name:
       zh: Gavialosuchus antiquus
       en: Gavialosuchus antiquus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

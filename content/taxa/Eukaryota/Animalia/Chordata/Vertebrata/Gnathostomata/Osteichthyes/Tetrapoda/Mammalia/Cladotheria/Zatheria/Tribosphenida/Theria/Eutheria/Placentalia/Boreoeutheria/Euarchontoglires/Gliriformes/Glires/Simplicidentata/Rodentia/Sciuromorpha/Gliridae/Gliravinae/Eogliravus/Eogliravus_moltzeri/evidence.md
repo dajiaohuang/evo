@@ -9,7 +9,6 @@ records:
     name:
       zh: Eogliravus moltzeri
       en: Eogliravus moltzeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

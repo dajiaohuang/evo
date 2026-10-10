@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis lemur
       zh: Pristimantis lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

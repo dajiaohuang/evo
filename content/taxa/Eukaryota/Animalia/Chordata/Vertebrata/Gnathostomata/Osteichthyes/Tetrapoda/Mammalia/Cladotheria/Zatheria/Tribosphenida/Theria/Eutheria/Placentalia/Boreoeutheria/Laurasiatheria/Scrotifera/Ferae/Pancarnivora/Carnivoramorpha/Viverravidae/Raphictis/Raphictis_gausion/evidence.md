@@ -9,7 +9,6 @@ records:
     name:
       zh: Raphictis gausion
       en: Raphictis gausion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

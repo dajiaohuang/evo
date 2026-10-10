@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudotrapelus sinaitus
       en: Pseudotrapelus sinaitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

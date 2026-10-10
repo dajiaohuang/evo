@@ -9,7 +9,6 @@ records:
     name:
       zh: Dawsonomys woodi
       en: Dawsonomys woodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Schizogliravus montisalbani
       en: Schizogliravus montisalbani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

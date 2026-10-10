@@ -9,7 +9,6 @@ records:
     name:
       en: Sphaenorhynchus botocudo
       zh: Sphaenorhynchus botocudo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

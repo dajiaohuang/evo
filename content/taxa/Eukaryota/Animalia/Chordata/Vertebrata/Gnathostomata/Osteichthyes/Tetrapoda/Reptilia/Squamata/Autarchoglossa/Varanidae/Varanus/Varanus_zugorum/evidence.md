@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus zugorum
       en: Varanus zugorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

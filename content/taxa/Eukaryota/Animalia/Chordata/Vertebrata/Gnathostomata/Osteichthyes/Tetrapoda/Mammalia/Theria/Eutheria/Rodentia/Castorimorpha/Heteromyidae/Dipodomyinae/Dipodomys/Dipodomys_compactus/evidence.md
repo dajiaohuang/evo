@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipodomys compactus
       en: Dipodomys compactus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bemalambda pachyoesteus
       en: Bemalambda pachyoesteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapirus (Tapiralum) greslebini
       en: Tapirus (Tapiralum) greslebini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

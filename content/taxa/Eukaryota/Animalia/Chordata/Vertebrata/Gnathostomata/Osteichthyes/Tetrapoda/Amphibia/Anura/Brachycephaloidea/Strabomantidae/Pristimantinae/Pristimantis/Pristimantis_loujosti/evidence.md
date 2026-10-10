@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis loujosti
       zh: Pristimantis loujosti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

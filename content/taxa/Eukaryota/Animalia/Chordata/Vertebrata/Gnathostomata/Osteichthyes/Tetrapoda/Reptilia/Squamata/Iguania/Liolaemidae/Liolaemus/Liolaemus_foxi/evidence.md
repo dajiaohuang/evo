@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus foxi
       en: Liolaemus foxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

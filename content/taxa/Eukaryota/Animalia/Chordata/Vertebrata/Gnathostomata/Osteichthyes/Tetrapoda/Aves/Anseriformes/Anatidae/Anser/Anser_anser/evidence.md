@@ -9,7 +9,6 @@ records:
     name:
       zh: Anser anser
       en: Anser anser
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

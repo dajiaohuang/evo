@@ -9,7 +9,6 @@ records:
     name:
       zh: Xinjiangchelys jingyanensis
       en: Xinjiangchelys jingyanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

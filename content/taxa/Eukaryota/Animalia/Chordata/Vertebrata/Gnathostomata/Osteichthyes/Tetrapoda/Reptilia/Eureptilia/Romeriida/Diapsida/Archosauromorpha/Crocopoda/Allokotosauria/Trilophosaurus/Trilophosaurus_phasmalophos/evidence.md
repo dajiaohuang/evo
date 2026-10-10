@@ -9,7 +9,6 @@ records:
     name:
       zh: Trilophosaurus phasmalophos
       en: Trilophosaurus phasmalophos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

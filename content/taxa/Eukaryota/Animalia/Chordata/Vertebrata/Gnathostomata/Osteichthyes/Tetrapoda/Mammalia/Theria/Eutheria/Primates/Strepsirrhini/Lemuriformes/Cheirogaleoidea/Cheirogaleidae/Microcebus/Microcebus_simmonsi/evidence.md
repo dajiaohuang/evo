@@ -9,7 +9,6 @@ records:
     name:
       zh: 西蒙斯鼠狐猴
       en: Simmons's Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: overview

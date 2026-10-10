@@ -9,7 +9,6 @@ records:
     name:
       zh: Tribolonotus ponceleti
       en: Tribolonotus ponceleti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

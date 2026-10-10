@@ -9,7 +9,6 @@ records:
     name:
       zh: Chambilestes foussanensis
       en: Chambilestes foussanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

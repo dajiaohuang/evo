@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis christyi
       zh: Leptopelis christyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Nanorana minica
       zh: Nanorana minica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

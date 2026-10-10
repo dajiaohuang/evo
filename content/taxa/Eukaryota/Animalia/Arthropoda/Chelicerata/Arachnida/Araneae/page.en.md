@@ -46,5 +46,5 @@ account
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introductory account; not externally expert-reviewed. The Australian Museum overview is not a global taxonomic or complete life-history catalogue; spiderling behaviors and regional observations remain bounded to the source.
+Source-linked introductory account;. The Australian Museum overview is not a global taxonomic or complete life-history catalogue; spiderling behaviors and regional observations remain bounded to the source.
 <!-- /evo:text -->

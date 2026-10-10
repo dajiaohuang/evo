@@ -9,7 +9,6 @@ records:
     name:
       zh: Centimanomys major
       en: Centimanomys major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

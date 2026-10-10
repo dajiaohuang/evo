@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus darwini
       en: Phymaturus darwini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

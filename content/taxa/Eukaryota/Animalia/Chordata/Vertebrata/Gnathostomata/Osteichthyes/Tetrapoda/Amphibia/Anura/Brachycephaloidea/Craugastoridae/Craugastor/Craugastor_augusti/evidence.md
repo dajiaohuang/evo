@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor augusti
       zh: Craugastor augusti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

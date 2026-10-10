@@ -9,7 +9,6 @@ records:
     name:
       zh: Echis coloratus
       en: Echis coloratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Blommersia nataliae
       zh: Blommersia nataliae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

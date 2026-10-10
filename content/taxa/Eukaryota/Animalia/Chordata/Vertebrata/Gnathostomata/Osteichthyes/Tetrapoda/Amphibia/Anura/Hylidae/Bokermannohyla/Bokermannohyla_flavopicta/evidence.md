@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla flavopicta
       zh: Bokermannohyla flavopicta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

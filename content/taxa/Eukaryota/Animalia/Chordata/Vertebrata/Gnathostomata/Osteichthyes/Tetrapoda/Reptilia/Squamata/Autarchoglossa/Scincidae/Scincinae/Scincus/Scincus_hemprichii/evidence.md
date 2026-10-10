@@ -9,7 +9,6 @@ records:
     name:
       zh: Scincus hemprichii
       en: Scincus hemprichii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

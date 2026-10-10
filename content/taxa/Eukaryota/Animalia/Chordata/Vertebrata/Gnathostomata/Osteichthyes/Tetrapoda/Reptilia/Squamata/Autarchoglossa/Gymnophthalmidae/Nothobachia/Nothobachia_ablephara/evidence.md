@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothobachia ablephara
       en: Nothobachia ablephara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene kutuku
       zh: Centrolene kutuku
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

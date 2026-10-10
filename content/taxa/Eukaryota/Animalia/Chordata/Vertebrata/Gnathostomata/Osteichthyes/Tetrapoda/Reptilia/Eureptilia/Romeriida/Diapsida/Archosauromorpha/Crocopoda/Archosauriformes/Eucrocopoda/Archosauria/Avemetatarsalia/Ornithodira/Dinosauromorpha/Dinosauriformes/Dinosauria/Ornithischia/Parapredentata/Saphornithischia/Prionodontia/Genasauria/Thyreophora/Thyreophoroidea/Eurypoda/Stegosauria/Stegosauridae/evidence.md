@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegosauridae
       en: Stegosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pleiolama vera
       en: Pleiolama vera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

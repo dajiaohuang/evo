@@ -9,7 +9,6 @@ records:
     name:
       zh: Trocharion albanense
       en: Trocharion albanense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

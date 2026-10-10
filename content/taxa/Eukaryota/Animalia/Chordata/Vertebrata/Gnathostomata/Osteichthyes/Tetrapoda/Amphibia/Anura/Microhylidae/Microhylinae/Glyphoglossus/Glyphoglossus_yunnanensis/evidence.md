@@ -9,7 +9,6 @@ records:
     name:
       en: Glyphoglossus yunnanensis
       zh: Glyphoglossus yunnanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

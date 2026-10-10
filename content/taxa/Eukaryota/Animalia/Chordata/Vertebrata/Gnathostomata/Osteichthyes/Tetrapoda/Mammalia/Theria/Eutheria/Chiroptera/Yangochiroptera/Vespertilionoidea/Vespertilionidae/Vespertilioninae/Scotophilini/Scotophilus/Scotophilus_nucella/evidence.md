@@ -9,7 +9,6 @@ records:
     name:
       zh: Scotophilus nucella
       en: Scotophilus nucella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pumilia novaceki
       en: Pumilia novaceki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

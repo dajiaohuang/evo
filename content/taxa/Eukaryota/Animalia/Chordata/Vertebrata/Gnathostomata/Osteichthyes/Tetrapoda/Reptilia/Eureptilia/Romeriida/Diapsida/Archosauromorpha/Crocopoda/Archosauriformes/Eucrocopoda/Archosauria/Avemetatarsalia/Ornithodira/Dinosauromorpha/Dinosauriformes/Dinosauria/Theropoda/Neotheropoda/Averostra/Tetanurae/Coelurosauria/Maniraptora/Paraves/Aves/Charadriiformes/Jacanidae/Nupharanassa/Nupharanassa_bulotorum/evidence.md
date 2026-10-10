@@ -9,7 +9,6 @@ records:
     name:
       zh: Nupharanassa bulotorum
       en: Nupharanassa bulotorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

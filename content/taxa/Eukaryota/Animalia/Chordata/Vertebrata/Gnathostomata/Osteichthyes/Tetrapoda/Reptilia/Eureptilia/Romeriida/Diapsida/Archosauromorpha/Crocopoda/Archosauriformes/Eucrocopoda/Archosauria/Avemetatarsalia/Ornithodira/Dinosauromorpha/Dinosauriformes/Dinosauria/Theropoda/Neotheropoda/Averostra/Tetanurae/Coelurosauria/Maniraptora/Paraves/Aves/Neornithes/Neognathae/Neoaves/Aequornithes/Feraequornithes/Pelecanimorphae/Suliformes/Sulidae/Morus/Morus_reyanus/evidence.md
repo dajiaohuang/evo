@@ -9,7 +9,6 @@ records:
     name:
       zh: Morus reyanus
       en: Morus reyanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

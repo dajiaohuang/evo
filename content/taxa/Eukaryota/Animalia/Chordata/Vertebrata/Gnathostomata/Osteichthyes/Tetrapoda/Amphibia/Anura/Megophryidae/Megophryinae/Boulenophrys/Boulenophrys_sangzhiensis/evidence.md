@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys sangzhiensis
       zh: Boulenophrys sangzhiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

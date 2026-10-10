@@ -9,7 +9,6 @@ records:
     name:
       zh: Otus sauzieri
       en: Otus sauzieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

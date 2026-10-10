@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperosuchus agilis
       en: Hesperosuchus agilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

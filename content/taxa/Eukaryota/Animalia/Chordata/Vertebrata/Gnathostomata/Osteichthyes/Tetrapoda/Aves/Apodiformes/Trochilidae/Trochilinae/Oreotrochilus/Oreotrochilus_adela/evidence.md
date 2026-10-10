@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreotrochilus adela
       en: Oreotrochilus adela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Yuanqulestes qiui
       en: Yuanqulestes qiui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

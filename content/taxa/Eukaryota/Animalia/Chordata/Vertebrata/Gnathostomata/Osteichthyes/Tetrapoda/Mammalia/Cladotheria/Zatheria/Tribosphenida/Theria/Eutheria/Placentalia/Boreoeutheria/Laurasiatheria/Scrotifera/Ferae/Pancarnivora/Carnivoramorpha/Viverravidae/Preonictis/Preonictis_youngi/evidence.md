@@ -9,7 +9,6 @@ records:
     name:
       zh: Preonictis youngi
       en: Preonictis youngi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

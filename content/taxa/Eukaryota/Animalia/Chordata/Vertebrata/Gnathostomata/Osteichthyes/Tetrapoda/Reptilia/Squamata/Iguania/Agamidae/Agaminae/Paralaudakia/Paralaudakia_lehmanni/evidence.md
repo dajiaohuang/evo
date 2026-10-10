@@ -9,7 +9,6 @@ records:
     name:
       zh: Paralaudakia lehmanni
       en: Paralaudakia lehmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

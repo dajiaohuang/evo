@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: brink-2014-dimetrodon-dentition concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: brink-2014-dimetrodon-dentition
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas RC84 mammal-origins dossier audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: brink-2014-dimetrodon-dentition primary-study locators checked 2026-09-01
       referenceLinks:
         - relation: supports
           referenceId: brink-2014-dimetrodon-dentition
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas RC84 mammal-origins dossier audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: brink-2014-dimetrodon-dentition primary-study locators checked 2026-09-01
       referenceLinks:
         - relation: supports
           referenceId: brink-2014-dimetrodon-dentition
@@ -120,9 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas RC84 mammal-origins dossier audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: brink-2014-dimetrodon-dentition primary-study locators checked 2026-09-01
       referenceLinks:
         - relation: supports
           referenceId: brink-2014-dimetrodon-dentition
@@ -140,9 +128,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas RC84 mammal-origins dossier audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: brink-2014-dimetrodon-dentition primary-study locators checked 2026-09-01
       referenceLinks:
         - relation: supports
           referenceId: brink-2014-dimetrodon-dentition
@@ -160,9 +145,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: brink-2014-dimetrodon-dentition @ DOI 10.1038/ncomms4269
       referenceLinks:
         - relation: supports
           referenceId: brink-2014-dimetrodon-dentition
@@ -225,7 +207,6 @@ records:
           locator: "Article 3269; Methods: phylogenetic analysis; Results: character distribution"
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

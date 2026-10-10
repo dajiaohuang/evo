@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia garraffoi
       zh: Stumpffia garraffoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

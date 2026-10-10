@@ -12,7 +12,6 @@ records:
       family: Centrolenidae
       genus: Centrolene
     checkedAt: 2026-10-02
-    reviewStatus: source-linked
     sections:
       - topic: overview
         title:
@@ -267,11 +266,11 @@ Duellman, W. E. (1981). Three new species of centrolenid frogs from the Pacific 
 ## amphibian-morphology-reader / limitations
 
 <!-- evo:text /records/amphibian-morphology-reader/limitations/en -->
-The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units or external expert review.
+The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
 <!-- /evo:text -->
 
 ## amphibian-morphology-reader / limitations
 
 <!-- evo:text /records/amphibian-morphology-reader/limitations/zh -->
-读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位或外部专家审评。
+读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
 <!-- /evo:text -->

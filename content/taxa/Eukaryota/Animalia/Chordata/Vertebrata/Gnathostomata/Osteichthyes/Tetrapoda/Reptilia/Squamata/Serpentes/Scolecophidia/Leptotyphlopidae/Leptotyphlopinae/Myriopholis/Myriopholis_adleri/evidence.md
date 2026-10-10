@@ -9,7 +9,6 @@ records:
     name:
       zh: Myriopholis adleri
       en: Myriopholis adleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

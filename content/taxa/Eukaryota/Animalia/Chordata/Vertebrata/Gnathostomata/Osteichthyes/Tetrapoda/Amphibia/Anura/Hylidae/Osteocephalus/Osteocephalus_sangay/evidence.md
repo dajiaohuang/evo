@@ -9,7 +9,6 @@ records:
     name:
       en: Osteocephalus sangay
       zh: Osteocephalus sangay
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

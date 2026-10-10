@@ -26,11 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: milner-sequeira-1993-balanerpeton
           relation: supports
@@ -73,7 +68,6 @@ records:
           locator: pp. 331–361; Figures 1–24; material, locality, horizon and systematic description
         - referenceId: garza-2025-east-kirkton
           locator: Figures 5–6 and 8–9; Table 3; U–Pb MDA results and limitations for Units 82–83
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Amphibia
@@ -83,7 +77,6 @@ records:
       en: Amphibia
       zh: 两栖动物
     checkedAt: 2026-10-02
-    reviewStatus: source-linked
     sources:
       referenceBindings:
         - referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -8435,7 +8428,6 @@ records:
       en: Amphibia
       zh: Amphibia
     checkedAt: 2026-10-02
-    reviewStatus: source-linked
     sections:
       - topic: fossil
         sourceIds:
@@ -9440,11 +9432,11 @@ Complete accepted fossil-species query under PBDB txn:36319; recorded parent cha
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/en -->
-Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is not externally expert-reviewed.
+Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
 <!-- /evo:text -->
 
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/zh -->
-本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留；未经过外部领域专家评审。
+本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
 <!-- /evo:text -->

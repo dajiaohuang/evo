@@ -9,7 +9,6 @@ records:
     name:
       zh: Coua coquereli
       en: Coua coquereli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

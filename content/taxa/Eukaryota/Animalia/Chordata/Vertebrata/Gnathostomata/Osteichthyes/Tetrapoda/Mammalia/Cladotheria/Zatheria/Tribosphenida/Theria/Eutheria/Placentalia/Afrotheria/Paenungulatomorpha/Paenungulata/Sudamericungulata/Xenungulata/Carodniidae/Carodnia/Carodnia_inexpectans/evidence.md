@@ -9,7 +9,6 @@ records:
     name:
       zh: Carodnia inexpectans
       en: Carodnia inexpectans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

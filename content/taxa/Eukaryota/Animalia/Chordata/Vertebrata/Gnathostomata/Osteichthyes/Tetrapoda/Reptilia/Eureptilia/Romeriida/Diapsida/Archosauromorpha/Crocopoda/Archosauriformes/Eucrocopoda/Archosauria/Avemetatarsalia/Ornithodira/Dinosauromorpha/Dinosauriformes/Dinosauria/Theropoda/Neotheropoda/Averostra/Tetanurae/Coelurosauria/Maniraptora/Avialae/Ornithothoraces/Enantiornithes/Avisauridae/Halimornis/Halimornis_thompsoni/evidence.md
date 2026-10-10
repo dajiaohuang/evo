@@ -9,7 +9,6 @@ records:
     name:
       zh: Halimornis thompsoni
       en: Halimornis thompsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

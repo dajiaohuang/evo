@@ -9,7 +9,6 @@ records:
     name:
       zh: Eothenomys proditor
       en: Eothenomys proditor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptodelphis stavropolitanus
       en: Leptodelphis stavropolitanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

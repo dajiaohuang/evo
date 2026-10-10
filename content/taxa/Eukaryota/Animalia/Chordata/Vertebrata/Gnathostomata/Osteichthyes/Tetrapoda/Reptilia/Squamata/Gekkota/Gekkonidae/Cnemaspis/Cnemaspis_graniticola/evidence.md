@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis graniticola
       en: Cnemaspis graniticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rayanistes afer
       en: Rayanistes afer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

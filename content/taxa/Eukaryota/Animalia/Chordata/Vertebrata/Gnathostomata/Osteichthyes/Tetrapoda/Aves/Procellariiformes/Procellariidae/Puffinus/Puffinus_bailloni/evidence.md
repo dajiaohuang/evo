@@ -9,7 +9,6 @@ records:
     name:
       zh: Puffinus bailloni
       en: Puffinus bailloni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

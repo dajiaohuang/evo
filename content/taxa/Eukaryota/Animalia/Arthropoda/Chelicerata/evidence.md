@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: liu-2026-urokodia; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: liu-2026-urokodia
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: liu-2026-urokodia
           locator: pp. 653–658; Figs. 1–4; Supplementary phylogenetic analyses; Chengjiang occurrence and stem-chelicerate placement
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus varswater
       en: Varanus varswater
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

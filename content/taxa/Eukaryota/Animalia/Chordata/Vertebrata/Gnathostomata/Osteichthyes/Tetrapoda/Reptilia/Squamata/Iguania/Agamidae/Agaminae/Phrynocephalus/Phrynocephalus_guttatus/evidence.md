@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynocephalus guttatus
       en: Phrynocephalus guttatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

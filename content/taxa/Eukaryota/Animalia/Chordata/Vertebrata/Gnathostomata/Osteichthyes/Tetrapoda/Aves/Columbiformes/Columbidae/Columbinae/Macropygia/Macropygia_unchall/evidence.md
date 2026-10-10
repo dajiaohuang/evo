@@ -9,7 +9,6 @@ records:
     name:
       zh: Macropygia unchall
       en: Macropygia unchall
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zygaspis vandami
       en: Zygaspis vandami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Xenophrys numhbumaeng
       zh: Xenophrys numhbumaeng
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

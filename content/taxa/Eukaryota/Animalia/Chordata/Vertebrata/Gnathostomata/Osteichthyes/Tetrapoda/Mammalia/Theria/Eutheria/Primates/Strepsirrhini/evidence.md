@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: springer-2012-primate-supermatrix concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: springer-2012-primate-supermatrix
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: springer-2012-primate-supermatrix
           locator: Article e49521; Taxon sampling; molecular phylogeny results
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
   catalogue-profile:
     scientificName: Strepsirrhini
@@ -73,7 +69,6 @@ records:
     name:
       zh: Strepsirrhini
       en: Strepsirrhini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

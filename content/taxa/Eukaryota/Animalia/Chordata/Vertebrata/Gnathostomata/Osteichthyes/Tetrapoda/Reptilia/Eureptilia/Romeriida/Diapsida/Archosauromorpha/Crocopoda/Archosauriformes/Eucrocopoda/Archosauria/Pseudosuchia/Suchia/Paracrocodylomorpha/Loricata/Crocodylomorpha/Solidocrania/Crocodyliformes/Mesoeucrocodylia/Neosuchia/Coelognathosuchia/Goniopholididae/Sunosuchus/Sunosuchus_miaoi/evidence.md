@@ -9,7 +9,6 @@ records:
     name:
       zh: Sunosuchus miaoi
       en: Sunosuchus miaoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

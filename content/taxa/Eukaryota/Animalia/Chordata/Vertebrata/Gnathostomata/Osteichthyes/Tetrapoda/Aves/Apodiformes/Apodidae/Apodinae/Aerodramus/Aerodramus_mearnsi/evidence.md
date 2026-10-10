@@ -9,7 +9,6 @@ records:
     name:
       zh: Aerodramus mearnsi
       en: Aerodramus mearnsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

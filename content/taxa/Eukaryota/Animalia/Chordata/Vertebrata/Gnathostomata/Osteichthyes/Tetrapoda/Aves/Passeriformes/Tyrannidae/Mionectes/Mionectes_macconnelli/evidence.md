@@ -9,7 +9,6 @@ records:
     name:
       zh: Mionectes macconnelli
       en: Mionectes macconnelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

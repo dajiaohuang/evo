@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys congjiangensis
       zh: Boulenophrys congjiangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

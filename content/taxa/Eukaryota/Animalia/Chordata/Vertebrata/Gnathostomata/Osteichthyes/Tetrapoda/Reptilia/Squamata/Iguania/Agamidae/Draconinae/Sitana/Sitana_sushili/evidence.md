@@ -9,7 +9,6 @@ records:
     name:
       zh: Sitana sushili
       en: Sitana sushili
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

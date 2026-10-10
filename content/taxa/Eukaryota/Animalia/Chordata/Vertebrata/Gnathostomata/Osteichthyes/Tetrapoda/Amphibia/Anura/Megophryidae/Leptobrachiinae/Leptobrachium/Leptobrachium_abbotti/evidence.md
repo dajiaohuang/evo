@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachium abbotti
       zh: Leptobrachium abbotti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

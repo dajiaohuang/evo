@@ -9,7 +9,6 @@ records:
     name:
       zh: Aporotus dicyrtus
       en: Aporotus dicyrtus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

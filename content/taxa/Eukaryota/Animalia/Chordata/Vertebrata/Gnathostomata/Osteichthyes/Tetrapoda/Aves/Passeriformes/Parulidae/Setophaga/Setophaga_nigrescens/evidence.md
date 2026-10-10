@@ -9,7 +9,6 @@ records:
     name:
       zh: Setophaga nigrescens
       en: Setophaga nigrescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

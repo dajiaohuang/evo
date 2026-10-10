@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramys delicatus
       en: Paramys delicatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

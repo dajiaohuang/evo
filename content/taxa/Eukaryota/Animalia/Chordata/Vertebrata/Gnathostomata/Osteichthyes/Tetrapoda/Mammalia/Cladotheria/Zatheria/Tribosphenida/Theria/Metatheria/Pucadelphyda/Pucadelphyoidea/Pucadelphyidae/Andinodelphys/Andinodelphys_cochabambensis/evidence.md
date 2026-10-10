@@ -9,7 +9,6 @@ records:
     name:
       zh: Andinodelphys cochabambensis
       en: Andinodelphys cochabambensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

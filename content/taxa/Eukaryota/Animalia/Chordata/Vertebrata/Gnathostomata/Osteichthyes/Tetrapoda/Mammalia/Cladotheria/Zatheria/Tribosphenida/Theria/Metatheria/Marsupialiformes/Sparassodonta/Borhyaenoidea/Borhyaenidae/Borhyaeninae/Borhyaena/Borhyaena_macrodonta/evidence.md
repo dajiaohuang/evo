@@ -9,7 +9,6 @@ records:
     name:
       zh: Borhyaena macrodonta
       en: Borhyaena macrodonta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

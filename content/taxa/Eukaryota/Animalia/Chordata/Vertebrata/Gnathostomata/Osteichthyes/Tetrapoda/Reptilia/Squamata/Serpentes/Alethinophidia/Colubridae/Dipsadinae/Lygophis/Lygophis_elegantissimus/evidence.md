@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygophis elegantissimus
       en: Lygophis elegantissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

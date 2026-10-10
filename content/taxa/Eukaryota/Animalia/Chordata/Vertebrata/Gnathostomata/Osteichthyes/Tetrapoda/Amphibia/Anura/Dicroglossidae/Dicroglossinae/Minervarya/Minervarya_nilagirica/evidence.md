@@ -9,7 +9,6 @@ records:
     name:
       en: Minervarya nilagirica
       zh: Minervarya nilagirica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

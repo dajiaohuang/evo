@@ -9,7 +9,6 @@ records:
     name:
       zh: Nilssonia gangetica
       en: Nilssonia gangetica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

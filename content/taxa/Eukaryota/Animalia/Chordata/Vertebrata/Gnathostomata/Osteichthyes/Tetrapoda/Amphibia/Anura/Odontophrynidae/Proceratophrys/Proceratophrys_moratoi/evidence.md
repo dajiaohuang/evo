@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys moratoi
       zh: Proceratophrys moratoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

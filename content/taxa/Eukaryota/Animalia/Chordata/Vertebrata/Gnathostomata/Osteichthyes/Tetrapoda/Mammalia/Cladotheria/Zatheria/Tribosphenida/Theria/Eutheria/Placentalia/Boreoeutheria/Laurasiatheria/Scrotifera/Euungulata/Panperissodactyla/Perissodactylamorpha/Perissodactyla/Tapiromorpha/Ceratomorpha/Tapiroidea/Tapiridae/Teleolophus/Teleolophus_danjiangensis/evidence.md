@@ -9,7 +9,6 @@ records:
     name:
       zh: Teleolophus danjiangensis
       en: Teleolophus danjiangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

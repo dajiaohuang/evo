@@ -9,7 +9,6 @@ records:
     name:
       zh: Onychognathus tristramii
       en: Onychognathus tristramii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

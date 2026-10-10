@@ -9,7 +9,6 @@ records:
     name:
       zh: Letheobia mbeerensis
       en: Letheobia mbeerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Schizotherium priscum
       en: Schizotherium priscum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

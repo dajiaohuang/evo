@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramiacis exilis
       en: Paramiacis exilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

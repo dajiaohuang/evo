@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-未经过外部领域专家评审。调查只覆盖可达地点，群体记录不等于全分布区总量或趋势。
+。调查只覆盖可达地点，群体记录不等于全分布区总量或趋势。
 <!-- /evo:text -->

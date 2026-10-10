@@ -9,7 +9,6 @@ records:
     name:
       en: Engystomops puyango
       zh: Engystomops puyango
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

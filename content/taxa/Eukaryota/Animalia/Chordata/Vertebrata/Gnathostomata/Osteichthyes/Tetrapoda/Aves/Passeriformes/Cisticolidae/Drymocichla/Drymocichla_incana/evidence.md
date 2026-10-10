@@ -9,7 +9,6 @@ records:
     name:
       zh: Drymocichla incana
       en: Drymocichla incana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

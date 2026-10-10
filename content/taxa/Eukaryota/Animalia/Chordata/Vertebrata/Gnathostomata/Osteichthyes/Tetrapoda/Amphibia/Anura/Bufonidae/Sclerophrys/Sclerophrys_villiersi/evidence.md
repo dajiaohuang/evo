@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys villiersi
       zh: Sclerophrys villiersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

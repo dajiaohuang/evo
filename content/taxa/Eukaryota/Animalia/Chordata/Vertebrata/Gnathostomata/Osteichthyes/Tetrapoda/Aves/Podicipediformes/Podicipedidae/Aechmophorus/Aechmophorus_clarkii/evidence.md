@@ -9,7 +9,6 @@ records:
     name:
       zh: Aechmophorus clarkii
       en: Aechmophorus clarkii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

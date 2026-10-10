@@ -9,7 +9,6 @@ records:
     name:
       en: Petropedetes newtonii
       zh: Petropedetes newtonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

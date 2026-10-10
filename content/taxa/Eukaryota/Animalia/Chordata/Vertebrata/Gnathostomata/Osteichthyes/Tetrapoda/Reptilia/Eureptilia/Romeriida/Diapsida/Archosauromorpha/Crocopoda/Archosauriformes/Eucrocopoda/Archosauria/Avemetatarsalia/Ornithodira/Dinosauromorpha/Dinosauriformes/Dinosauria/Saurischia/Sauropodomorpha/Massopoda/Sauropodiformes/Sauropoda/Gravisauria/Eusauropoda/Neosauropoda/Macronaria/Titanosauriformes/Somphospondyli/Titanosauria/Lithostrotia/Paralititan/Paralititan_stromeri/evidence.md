@@ -9,7 +9,6 @@ records:
     name:
       zh: Paralititan stromeri
       en: Paralititan stromeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

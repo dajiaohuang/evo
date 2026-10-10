@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene savagei
       zh: Centrolene savagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

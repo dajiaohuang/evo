@@ -9,7 +9,6 @@ records:
     name:
       zh: Pentalagus
       en: Pentalagus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

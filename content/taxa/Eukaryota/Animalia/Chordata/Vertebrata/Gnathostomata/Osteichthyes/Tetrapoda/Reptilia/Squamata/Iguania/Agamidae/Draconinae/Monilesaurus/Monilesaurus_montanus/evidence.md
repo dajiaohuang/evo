@@ -9,7 +9,6 @@ records:
     name:
       zh: Monilesaurus montanus
       en: Monilesaurus montanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

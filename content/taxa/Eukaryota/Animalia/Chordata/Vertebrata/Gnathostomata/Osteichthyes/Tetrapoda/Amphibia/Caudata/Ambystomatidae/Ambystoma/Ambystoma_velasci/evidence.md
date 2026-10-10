@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma velasci
       zh: Ambystoma velasci
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

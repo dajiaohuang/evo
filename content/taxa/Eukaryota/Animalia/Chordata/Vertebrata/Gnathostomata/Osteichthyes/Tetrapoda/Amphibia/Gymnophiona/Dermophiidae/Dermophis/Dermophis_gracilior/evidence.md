@@ -9,7 +9,6 @@ records:
     name:
       en: Dermophis gracilior
       zh: Dermophis gracilior
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

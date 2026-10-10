@@ -9,7 +9,6 @@ records:
     name:
       zh: Paralitherium tarkanyense
       en: Paralitherium tarkanyense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

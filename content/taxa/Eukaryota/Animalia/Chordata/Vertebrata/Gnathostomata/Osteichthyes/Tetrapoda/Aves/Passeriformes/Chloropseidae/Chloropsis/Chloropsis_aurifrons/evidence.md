@@ -9,7 +9,6 @@ records:
     name:
       zh: Chloropsis aurifrons
       en: Chloropsis aurifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

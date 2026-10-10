@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthosaura bintangensis
       en: Acanthosaura bintangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

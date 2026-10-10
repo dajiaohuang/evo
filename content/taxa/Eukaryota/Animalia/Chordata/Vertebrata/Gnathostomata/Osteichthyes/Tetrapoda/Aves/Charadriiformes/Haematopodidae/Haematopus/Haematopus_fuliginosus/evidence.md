@@ -9,7 +9,6 @@ records:
     name:
       zh: Haematopus fuliginosus
       en: Haematopus fuliginosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-P. sabana 的直接野外材料在本批来源中有限；博士研究主要以 P. hosei 为对象。本页尚未经过外部领域专家评审。
+P. sabana 的直接野外材料在本批来源中有限；博士研究主要以 P. hosei 为对象。。
 <!-- /evo:text -->

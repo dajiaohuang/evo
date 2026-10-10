@@ -56,9 +56,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated literature audit
-      reviewedAt: 2026-08-29
-      reviewedAgainstReferenceVersion: botting-muir-2012-holothurian-bed @ DOI 10.26879/272 plus PBDB occ:801180 retrieved 2026-08-29
       referenceLinks:
         - relation: supports
           referenceId: botting-muir-2012-holothurian-bed
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: botting-muir-2012-holothurian-bed
           relation: supports
@@ -99,9 +93,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: botting-muir-2012-holothurian-bed
           relation: supports
@@ -118,9 +109,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: botting-muir-2012-holothurian-bed
           relation: supports
@@ -137,9 +125,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: botting-muir-2012-holothurian-bed
           relation: supports
@@ -192,7 +177,6 @@ records:
           locator: "Systematic palaeontology: Oesolcucumaria; Remarks; Figure 9; Holotype and Occurrence"
         - referenceId: pbdb-api-2016
           locator: Rejected endpoint candidate occ:801180, Holothuroidea <indet. A>, Burgess Shale Stage 4, ref:28283
-      reviewStatus: not-reviewed
       evidenceLevel: literature-synthesized
 ---
 

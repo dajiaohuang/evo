@@ -9,7 +9,6 @@ records:
     name:
       zh: Pleurochayah appalachius
       en: Pleurochayah appalachius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

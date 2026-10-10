@@ -9,7 +9,6 @@ records:
     name:
       zh: Flexiseps johannae
       en: Flexiseps johannae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

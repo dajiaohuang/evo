@@ -9,7 +9,6 @@ records:
     name:
       zh: Haplolambda quinni
       en: Haplolambda quinni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

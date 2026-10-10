@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus verrucipes
       zh: Eleutherodactylus verrucipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

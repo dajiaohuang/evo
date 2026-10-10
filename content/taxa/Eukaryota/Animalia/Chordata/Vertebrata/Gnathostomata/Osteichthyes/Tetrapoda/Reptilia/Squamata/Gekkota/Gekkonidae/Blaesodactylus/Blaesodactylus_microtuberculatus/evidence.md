@@ -9,7 +9,6 @@ records:
     name:
       zh: Blaesodactylus microtuberculatus
       en: Blaesodactylus microtuberculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

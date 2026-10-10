@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis harimau
       en: Cnemaspis harimau
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

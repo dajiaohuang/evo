@@ -9,7 +9,6 @@ records:
     name:
       zh: Axestemys cerevisia
       en: Axestemys cerevisia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bachia guianensis
       en: Bachia guianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

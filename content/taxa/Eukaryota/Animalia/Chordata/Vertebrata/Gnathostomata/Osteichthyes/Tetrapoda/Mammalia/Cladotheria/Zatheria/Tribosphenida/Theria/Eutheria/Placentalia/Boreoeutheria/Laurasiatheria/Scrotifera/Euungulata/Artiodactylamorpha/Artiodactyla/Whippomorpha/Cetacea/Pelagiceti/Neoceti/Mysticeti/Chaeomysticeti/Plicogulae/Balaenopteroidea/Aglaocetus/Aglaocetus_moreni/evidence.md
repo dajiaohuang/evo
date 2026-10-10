@@ -9,7 +9,6 @@ records:
     name:
       zh: Aglaocetus moreni
       en: Aglaocetus moreni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

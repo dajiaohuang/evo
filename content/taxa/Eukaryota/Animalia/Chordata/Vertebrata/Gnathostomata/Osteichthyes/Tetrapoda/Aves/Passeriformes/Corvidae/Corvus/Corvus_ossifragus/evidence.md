@@ -9,7 +9,6 @@ records:
     name:
       zh: Corvus ossifragus
       en: Corvus ossifragus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

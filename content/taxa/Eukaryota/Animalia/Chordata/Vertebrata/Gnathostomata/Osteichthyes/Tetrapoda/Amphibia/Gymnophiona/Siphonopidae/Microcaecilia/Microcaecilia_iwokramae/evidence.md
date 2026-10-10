@@ -9,7 +9,6 @@ records:
     name:
       en: Microcaecilia iwokramae
       zh: Microcaecilia iwokramae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

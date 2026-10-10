@@ -9,7 +9,6 @@ records:
     name:
       zh: Phthinosaurus borissiaki
       en: Phthinosaurus borissiaki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

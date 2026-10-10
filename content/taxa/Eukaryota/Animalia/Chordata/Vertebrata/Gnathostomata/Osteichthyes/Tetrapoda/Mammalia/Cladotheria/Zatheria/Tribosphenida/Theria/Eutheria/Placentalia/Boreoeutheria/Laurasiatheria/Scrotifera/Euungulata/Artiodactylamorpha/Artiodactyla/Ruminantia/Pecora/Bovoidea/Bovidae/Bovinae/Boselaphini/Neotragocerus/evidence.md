@@ -9,7 +9,6 @@ records:
     name:
       zh: Neotragocerus
       en: Neotragocerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

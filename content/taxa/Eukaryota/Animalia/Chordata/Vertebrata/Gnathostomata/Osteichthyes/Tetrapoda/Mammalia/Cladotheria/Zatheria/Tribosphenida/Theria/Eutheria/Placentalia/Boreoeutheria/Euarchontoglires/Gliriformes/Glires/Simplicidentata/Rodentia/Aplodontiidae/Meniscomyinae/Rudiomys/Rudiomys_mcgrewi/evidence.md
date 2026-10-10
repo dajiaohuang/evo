@@ -9,7 +9,6 @@ records:
     name:
       zh: Rudiomys mcgrewi
       en: Rudiomys mcgrewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis sacharuna
       zh: Pristimantis sacharuna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

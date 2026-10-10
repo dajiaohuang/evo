@@ -9,7 +9,6 @@ records:
     name:
       en: Heleioporus australiacus
       zh: Heleioporus australiacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

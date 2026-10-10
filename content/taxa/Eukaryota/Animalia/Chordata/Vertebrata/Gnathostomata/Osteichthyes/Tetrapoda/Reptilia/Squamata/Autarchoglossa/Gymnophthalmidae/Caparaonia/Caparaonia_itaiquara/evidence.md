@@ -9,7 +9,6 @@ records:
     name:
       zh: Caparaonia itaiquara
       en: Caparaonia itaiquara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

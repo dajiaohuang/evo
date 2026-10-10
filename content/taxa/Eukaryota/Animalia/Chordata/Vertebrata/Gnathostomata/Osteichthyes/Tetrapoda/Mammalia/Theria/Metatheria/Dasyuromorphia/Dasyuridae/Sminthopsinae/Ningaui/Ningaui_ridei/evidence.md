@@ -9,7 +9,6 @@ records:
     name:
       zh: Ningaui ridei
       en: Ningaui ridei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

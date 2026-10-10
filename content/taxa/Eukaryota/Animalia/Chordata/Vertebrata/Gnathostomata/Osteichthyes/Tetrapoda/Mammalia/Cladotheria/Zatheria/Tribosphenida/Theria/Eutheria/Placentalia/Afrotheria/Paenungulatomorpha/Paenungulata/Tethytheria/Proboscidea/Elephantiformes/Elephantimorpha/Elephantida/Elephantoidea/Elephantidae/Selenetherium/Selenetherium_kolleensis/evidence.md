@@ -9,7 +9,6 @@ records:
     name:
       zh: Selenetherium kolleensis
       en: Selenetherium kolleensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

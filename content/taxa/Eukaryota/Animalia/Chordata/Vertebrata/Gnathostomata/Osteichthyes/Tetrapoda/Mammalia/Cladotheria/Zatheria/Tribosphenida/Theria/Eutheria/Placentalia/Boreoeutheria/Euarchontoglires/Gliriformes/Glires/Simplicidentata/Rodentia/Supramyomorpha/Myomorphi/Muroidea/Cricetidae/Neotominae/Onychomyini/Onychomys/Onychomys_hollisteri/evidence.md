@@ -9,7 +9,6 @@ records:
     name:
       zh: Onychomys hollisteri
       en: Onychomys hollisteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

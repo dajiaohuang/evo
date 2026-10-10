@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus myersi
       zh: Leptodactylus myersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

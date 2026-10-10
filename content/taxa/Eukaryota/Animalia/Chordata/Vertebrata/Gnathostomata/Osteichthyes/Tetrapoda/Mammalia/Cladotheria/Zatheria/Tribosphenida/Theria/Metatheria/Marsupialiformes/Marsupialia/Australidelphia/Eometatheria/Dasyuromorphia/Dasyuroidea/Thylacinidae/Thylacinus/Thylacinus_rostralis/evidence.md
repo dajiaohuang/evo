@@ -9,7 +9,6 @@ records:
     name:
       zh: Thylacinus rostralis
       en: Thylacinus rostralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

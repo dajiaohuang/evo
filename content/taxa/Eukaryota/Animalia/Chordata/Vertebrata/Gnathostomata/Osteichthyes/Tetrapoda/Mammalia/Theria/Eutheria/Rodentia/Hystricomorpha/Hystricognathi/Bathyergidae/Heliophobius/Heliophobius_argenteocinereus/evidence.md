@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliophobius argenteocinereus
       en: Heliophobius argenteocinereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

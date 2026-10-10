@@ -9,7 +9,6 @@ records:
     name:
       zh: Lupulella paralius
       en: Lupulella paralius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

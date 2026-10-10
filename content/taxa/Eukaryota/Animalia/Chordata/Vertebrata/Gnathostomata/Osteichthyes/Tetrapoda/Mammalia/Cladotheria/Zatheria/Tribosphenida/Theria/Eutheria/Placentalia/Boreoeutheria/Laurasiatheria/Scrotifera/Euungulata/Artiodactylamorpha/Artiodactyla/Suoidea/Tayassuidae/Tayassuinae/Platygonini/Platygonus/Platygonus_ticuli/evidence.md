@@ -9,7 +9,6 @@ records:
     name:
       zh: Platygonus ticuli
       en: Platygonus ticuli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

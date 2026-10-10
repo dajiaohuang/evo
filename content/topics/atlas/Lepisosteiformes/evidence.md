@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: wright-2012-gar-phylogeny DOI 10.1016/j.ympev.2012.02.033; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: wright-2012-gar-phylogeny
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: near-2012-ray-fin-phylogeny; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: near-2012-ray-fin-phylogeny
@@ -90,7 +84,6 @@ records:
       referenceLocators:
         - referenceId: near-2012-ray-fin-phylogeny
           locator: 13698–13703; Figure 1; supplementary calibrations; Holostei and living-gar sampling; no order-wide fossil range audit
-      reviewStatus: automated-audit-passed
 ---
 
 # Lepisosteiformes

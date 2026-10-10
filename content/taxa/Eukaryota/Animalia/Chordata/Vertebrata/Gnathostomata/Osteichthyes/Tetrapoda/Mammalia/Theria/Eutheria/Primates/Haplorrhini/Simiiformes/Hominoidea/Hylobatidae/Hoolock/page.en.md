@@ -22,5 +22,5 @@ Start with H. hoolock for two feeding studies: one follows two groups at Hollong
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The reading path connects three COL26.8 species pages and site-specific studies using different methods; their results are not a comparable genus-level ecological or population dataset. The Chinese display name is editorial. No dossier or external expert review was added. This page is not externally expert-reviewed.
+The reading path connects three COL26.8 species pages and site-specific studies using different methods; their results are not a comparable genus-level ecological or population dataset. The Chinese display name is editorial. This page is.
 <!-- /evo:text -->

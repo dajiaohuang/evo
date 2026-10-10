@@ -9,7 +9,6 @@ records:
     name:
       zh: Cistecephaloides boonstrai
       en: Cistecephaloides boonstrai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

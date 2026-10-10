@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyaenoides aumelasiensis
       en: Oxyaenoides aumelasiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

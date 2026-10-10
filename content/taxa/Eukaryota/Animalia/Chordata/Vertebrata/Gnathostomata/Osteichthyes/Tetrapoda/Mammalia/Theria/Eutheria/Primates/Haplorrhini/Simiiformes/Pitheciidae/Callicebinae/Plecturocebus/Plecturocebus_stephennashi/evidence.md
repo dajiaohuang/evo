@@ -9,7 +9,6 @@ records:
     name:
       zh: 纳什绢毛猴
       en: Stephen Nash's Titi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: material

@@ -9,7 +9,6 @@ records:
     name:
       en: Heleophryne purcelli
       zh: Heleophryne purcelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

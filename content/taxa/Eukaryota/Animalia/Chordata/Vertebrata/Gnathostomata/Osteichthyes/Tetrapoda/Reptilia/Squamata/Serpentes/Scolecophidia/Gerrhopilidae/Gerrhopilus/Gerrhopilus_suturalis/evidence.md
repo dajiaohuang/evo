@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerrhopilus suturalis
       en: Gerrhopilus suturalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

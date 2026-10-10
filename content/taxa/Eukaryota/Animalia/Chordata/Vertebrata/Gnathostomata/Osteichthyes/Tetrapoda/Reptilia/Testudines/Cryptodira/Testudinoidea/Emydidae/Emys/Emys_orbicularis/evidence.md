@@ -9,7 +9,6 @@ records:
     name:
       zh: Emys orbicularis
       en: Emys orbicularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

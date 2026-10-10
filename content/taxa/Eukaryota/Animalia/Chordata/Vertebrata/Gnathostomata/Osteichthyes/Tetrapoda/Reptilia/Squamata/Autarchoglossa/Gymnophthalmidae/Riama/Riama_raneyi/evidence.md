@@ -9,7 +9,6 @@ records:
     name:
       zh: Riama raneyi
       en: Riama raneyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

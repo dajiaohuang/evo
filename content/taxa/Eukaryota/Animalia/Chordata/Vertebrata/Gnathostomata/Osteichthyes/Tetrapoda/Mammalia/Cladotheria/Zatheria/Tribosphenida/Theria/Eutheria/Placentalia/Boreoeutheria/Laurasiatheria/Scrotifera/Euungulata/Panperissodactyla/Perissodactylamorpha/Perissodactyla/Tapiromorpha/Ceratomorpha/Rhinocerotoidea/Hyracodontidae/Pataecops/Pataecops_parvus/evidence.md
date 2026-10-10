@@ -9,7 +9,6 @@ records:
     name:
       zh: Pataecops parvus
       en: Pataecops parvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

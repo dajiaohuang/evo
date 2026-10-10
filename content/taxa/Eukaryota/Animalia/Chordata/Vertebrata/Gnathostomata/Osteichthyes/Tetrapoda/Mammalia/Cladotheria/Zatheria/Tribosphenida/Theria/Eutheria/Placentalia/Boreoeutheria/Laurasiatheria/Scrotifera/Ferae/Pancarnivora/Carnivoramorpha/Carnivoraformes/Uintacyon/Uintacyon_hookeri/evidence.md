@@ -9,7 +9,6 @@ records:
     name:
       zh: Uintacyon hookeri
       en: Uintacyon hookeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

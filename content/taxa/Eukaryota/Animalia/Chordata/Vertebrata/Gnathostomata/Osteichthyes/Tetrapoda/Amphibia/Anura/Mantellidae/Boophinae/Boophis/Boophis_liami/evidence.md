@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis liami
       zh: Boophis liami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

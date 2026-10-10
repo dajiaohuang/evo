@@ -9,7 +9,6 @@ records:
     name:
       en: Callixalus pictus
       zh: Callixalus pictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Dermatonotus muelleri
       zh: Dermatonotus muelleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalassemys hugii
       en: Thalassemys hugii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

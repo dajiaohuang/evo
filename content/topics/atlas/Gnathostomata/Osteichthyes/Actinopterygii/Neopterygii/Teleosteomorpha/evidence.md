@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: arratia-2017-triassic-teleostomorphs DOI 10.1080/02724634.2017.1312690; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: arratia-2017-triassic-teleostomorphs
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: arratia-2017-triassic-teleostomorphs; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: arratia-2017-triassic-teleostomorphs
@@ -92,7 +86,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Teleosteomorpha

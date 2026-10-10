@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus criptico
       zh: Hyloscirtus criptico
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

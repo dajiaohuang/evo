@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyrhopus doliatus
       en: Oxyrhopus doliatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Isocetus depauwi
       en: Isocetus depauwi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

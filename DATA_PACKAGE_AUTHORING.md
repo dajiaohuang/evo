@@ -1,6 +1,6 @@
 # Data package authoring
 
-Packages are static projections over shared canonical concepts, claims, references, ranges and occurrences. Migrated prose and evidence are authored under `content/`; read `docs/content-storage.md` for the tree paths, Markdown fields and compatibility projection rules. Each package owns one manually maintained `review.json`; read `docs/static-data-platform-v5.md` and `docs/review-workflow.md` before changing a package.
+Packages are static projections over shared canonical concepts, claims, references, ranges and occurrences. Migrated prose and evidence are authored under `content/`; read `docs/content-storage.md` for the tree paths, Markdown fields and compatibility projection rules. Read `docs/static-data-platform-v5.md` for the generated package and runtime contracts.
 
 ## 1. Define scope
 
@@ -8,11 +8,11 @@ Add or update the package definition in `scripts/package-definitions.mjs`. Keep 
 
 ## 2. Resolve identity and range
 
-Pin external taxon concepts in `data/sources/pbdb-taxon-resolution.json`. Unresolved or incompatible concepts must withhold external IDs. Add canonical range evidence with status, basis, confidence, review status, reference locators and claim IDs; do not infer absent values.
+Pin external taxon concepts in `data/sources/pbdb-taxon-resolution.json`. Unresolved or incompatible concepts must withhold external IDs. Add canonical range evidence with status, basis, confidence, uncertainty, reference locators and claim IDs; do not infer absent values.
 
 ## 3. Write claims before narrative
 
-Scientific statements need typed claims and at least one supporting reference relation. Source metadata must declare its role and fitness. Concrete page, table, figure or quote locators are required before a package can reach `source-linked`; a current digest-bound maintainer decision is additionally required for `published`.
+Scientific statements need typed claims and at least one supporting reference relation. Source metadata must declare its role and fitness. Retain concrete page, table, figure or quote locators and the scope of each supporting source.
 
 ## 4. Record query coverage
 
@@ -29,6 +29,6 @@ npm run data:packages:validate
 
 Files listed in `data/registry/generated-files.json` are generated. Change their canonical inputs or generator rather than editing projections by hand.
 
-## 6. Review and publish
+## 6. Validate and publish
 
-Follow `docs/review-workflow.md`. Automated validation may publish a clearly labelled scaffold, but it may not create a maintainer-review decision. Generate a new review packet after canonical content changes. Run `npm run verify`; inspect the generated static knowledge page, direct Explorer state, offline package and evidence-correction link.
+Run `npm run verify`; inspect the generated reading page, direct Explorer state, offline package and evidence-correction link.

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amanzia greppini
       en: Amanzia greppini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

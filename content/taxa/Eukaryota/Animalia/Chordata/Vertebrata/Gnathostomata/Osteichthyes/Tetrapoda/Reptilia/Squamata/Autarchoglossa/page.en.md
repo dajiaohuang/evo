@@ -50,7 +50,7 @@ This batch’s Autarchoglossa route includes 261 historical life-history account
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 The finite element models standardize volume and bite loading and use homogeneous isotropic bone properties with shared muscle-attachment assumptions to compare shape. Model strain is not measured live bite force. Single-skull samples, age differences and model restraints limit generalization; they do not establish whole-species rankings, conservation status or complete life histories.
 This guide covers the listed study routes only. Other accepted descendants remain outside this batch. The paper’s Podarcis wagleriana and Agama impalearis have separate species pages preserving their original sample names and the sourced correspondence to Podarcis waglerianus and Agama bibronii. Takydromus sp. is not identified to species and is not counted as a species page.
-This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 <!-- /evo:text -->
@@ -76,7 +76,7 @@ This guide covers only this batch’s entries with at least four sourced focal t
 ## Citation gaps in some descendant accounts
 
 <!-- evo:text /records/catalogue-profile/sections/8/text/en -->
-In this ReptTraits route, some fields in 5 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage or expert review.
+In this ReptTraits route, some fields in 5 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 <!-- /evo:text -->
 
 ## Start with sourced trait records

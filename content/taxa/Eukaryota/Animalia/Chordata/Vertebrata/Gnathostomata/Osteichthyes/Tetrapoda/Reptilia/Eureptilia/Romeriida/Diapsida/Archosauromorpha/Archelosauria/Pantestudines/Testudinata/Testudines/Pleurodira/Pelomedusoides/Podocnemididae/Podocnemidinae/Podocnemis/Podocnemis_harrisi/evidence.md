@@ -9,7 +9,6 @@ records:
     name:
       zh: Podocnemis harrisi
       en: Podocnemis harrisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

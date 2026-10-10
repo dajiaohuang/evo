@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ogorman-2019-elasmosaurid-phylogeny concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: ogorman-2019-elasmosaurid-phylogeny
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ogorman-2019-elasmosaurid-phylogeny; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: ogorman-2019-elasmosaurid-phylogeny
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: ogorman-2019-elasmosaurid-phylogeny
           locator: Article e1692025; Figures 1–7; Tables 1–2; Aphrosaurus systematic reappraisal, Moreno Formation age and matrix
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Elasmosauridae
@@ -98,7 +91,6 @@ records:
     name:
       zh: Elasmosauridae
       en: Elasmosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

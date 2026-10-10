@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium pellucidum
       zh: Hyalinobatrachium pellucidum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

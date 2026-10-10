@@ -9,7 +9,6 @@ records:
     name:
       zh: Quadratomus grossus
       en: Quadratomus grossus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

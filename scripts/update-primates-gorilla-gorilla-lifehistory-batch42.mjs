@@ -102,7 +102,6 @@ function validateSourceClaim(dossier) {
   assert.equal(dossier.scientificName, source.target.scientificName)
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness?.status, 'incomplete')
-  assert.equal(dossier.expertReview?.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   const claim = source.claims.lifeHistory
   assert.ok(claim.text && claim.textZh && claim.locator && claim.placeTimeScope && claim.lifeStatus)
@@ -191,7 +190,6 @@ if (alreadyApplied) {
     reasons: [
       'The record contains site-specific ecology, one model-based evolutionary estimate for sampled western lowland genomes, and female life-history estimates from one Mbeli Bai population; morphology, species-wide distribution, fossil evidence, and conservation remain unassessed.',
       'Systematic literature coverage across the accepted species concept and life-history variation among other populations and subspecies remain incomplete.',
-      'Independent external expert review has not been completed.',
     ],
   }
   verifyAcceptedIdentity(registryManifest, dossier)

@@ -13,7 +13,10 @@
       "identity": {
         "method": "Exact COL26.8 accepted species usage, verbatim name, rank and sourceDatasetId verified against the pinned registry. Species Fungorum source linkage and Index Fungorum NameByKey identifier 273605 resolve to Saprolegnia parasitica Coker; the pinned crosswalk maps this source identity to COL usage 79KQC.",
         "scope": "The dossier concerns nominal species usage 79KQC. The 2024 study's isolates are ITS-assigned S. parasitica from sampled Scottish freshwater salmon aquaculture sites; its results do not characterize every population or strain of the species.",
-        "sourceIds": ["col", "oomycota_crosswalk"]
+        "sourceIds": [
+          "col",
+          "oomycota_crosswalk"
+        ]
       },
       "lifeStatusScope": {
         "wild": "The 2024 study sampled water and Atlantic salmon epidermis at freshwater aquaculture facilities; it does not establish wild-population ecology.",
@@ -78,55 +81,84 @@
         }
       ],
       "facets": {
-        "morphology": {"status": "not-assessed"},
-        "lifeHistory": {"status": "not-assessed"},
+        "morphology": {
+          "status": "not-assessed"
+        },
+        "lifeHistory": {
+          "status": "not-assessed"
+        },
         "ecology": {
           "status": "partially-supported",
-          "claims": [{
-            "text": "Across the sampled Scottish freshwater salmon farms, the authors report that S. parasitica phylotype S2 was most abundant and was recovered predominantly from fish, while S6 was recovered from both fish and water; these are study-sample patterns, not universal host preferences.",
-            "sourceIds": ["shreves_2024"],
-            "locator": "Results 3.3; Tables 2–3; Discussion",
-            "placeTimeScope": "Fourteen anonymized Atlantic salmon freshwater aquaculture sites in Scotland sampled monthly; the claim applies to the isolates and sampling period analyzed in this article.",
-            "lifeStatus": "Association with farmed Atlantic salmon epidermis and tank water; the study does not establish wild-host interactions or causality.",
-            "translationStatus": "untranslated",
-            "originalLanguage": "en"
-          }],
-          "gaps": ["The article samples aquaculture sites only and does not provide a complete account of hosts, free-living ecology, interaction mechanisms or wild populations."]
+          "claims": [
+            {
+              "text": "Across the sampled Scottish freshwater salmon farms, the authors report that S. parasitica phylotype S2 was most abundant and was recovered predominantly from fish, while S6 was recovered from both fish and water; these are study-sample patterns, not universal host preferences.",
+              "sourceIds": [
+                "shreves_2024"
+              ],
+              "locator": "Results 3.3; Tables 2–3; Discussion",
+              "placeTimeScope": "Fourteen anonymized Atlantic salmon freshwater aquaculture sites in Scotland sampled monthly; the claim applies to the isolates and sampling period analyzed in this article.",
+              "lifeStatus": "Association with farmed Atlantic salmon epidermis and tank water; the study does not establish wild-host interactions or causality.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The article samples aquaculture sites only and does not provide a complete account of hosts, free-living ecology, interaction mechanisms or wild populations."
+          ]
         },
         "evolution": {
           "status": "partially-supported",
-          "claims": [{
-            "text": "ITS sequence analysis divided the 151 S. parasitica isolates in this study among five sampled phylotypes, S2–S6; S1 was not isolated at these sites. This is within-study strain-level grouping, not a species-wide phylogeny.",
-            "sourceIds": ["shreves_2024"],
-            "locator": "Results 3.3; Figure 2; Table 2; ITS sequence analysis methods",
-            "placeTimeScope": "ITS-based analysis of isolates recovered in the 2024 study from the sampled Scottish aquaculture sites, compared with the paper's reference sequences.",
-            "lifeStatus": "Molecular comparisons among sampled isolates; the study does not infer species divergence times or broad oomycete phylogenetic position.",
-            "translationStatus": "untranslated",
-            "originalLanguage": "en"
-          }],
-          "gaps": ["The study does not provide a comprehensive species-level phylogenetic analysis, population history or divergence-time estimate."]
+          "claims": [
+            {
+              "text": "ITS sequence analysis divided the 151 S. parasitica isolates in this study among five sampled phylotypes, S2–S6; S1 was not isolated at these sites. This is within-study strain-level grouping, not a species-wide phylogeny.",
+              "sourceIds": [
+                "shreves_2024"
+              ],
+              "locator": "Results 3.3; Figure 2; Table 2; ITS sequence analysis methods",
+              "placeTimeScope": "ITS-based analysis of isolates recovered in the 2024 study from the sampled Scottish aquaculture sites, compared with the paper's reference sequences.",
+              "lifeStatus": "Molecular comparisons among sampled isolates; the study does not infer species divergence times or broad oomycete phylogenetic position.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The study does not provide a comprehensive species-level phylogenetic analysis, population history or divergence-time estimate."
+          ]
         },
         "distribution": {
           "status": "partially-supported",
-          "claims": [{
-            "text": "The study reports S. parasitica isolates from Scottish freshwater salmon aquaculture, with phylotypes differing in occurrence among the 14 sampled sites; site identities are anonymized as A–N.",
-            "sourceIds": ["shreves_2024"],
-            "locator": "Methods 2.1; Results 3.3 and 3.6; Tables 2, 4–5",
-            "placeTimeScope": "Study-specific records from 14 Scottish aquaculture facilities sampled monthly; site anonymity and the farm-only sampling frame limit geographic precision.",
-            "lifeStatus": "Records are from aquaculture water and farmed fish; they do not establish wild distribution, native status or current occupancy outside sampled facilities.",
-            "translationStatus": "untranslated",
-            "originalLanguage": "en"
-          }],
-          "gaps": ["The study is not an exhaustive distribution survey and does not establish a global range or native/introduced status."]
+          "claims": [
+            {
+              "text": "The study reports S. parasitica isolates from Scottish freshwater salmon aquaculture, with phylotypes differing in occurrence among the 14 sampled sites; site identities are anonymized as A–N.",
+              "sourceIds": [
+                "shreves_2024"
+              ],
+              "locator": "Methods 2.1; Results 3.3 and 3.6; Tables 2, 4–5",
+              "placeTimeScope": "Study-specific records from 14 Scottish aquaculture facilities sampled monthly; site anonymity and the farm-only sampling frame limit geographic precision.",
+              "lifeStatus": "Records are from aquaculture water and farmed fish; they do not establish wild distribution, native status or current occupancy outside sampled facilities.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The study is not an exhaustive distribution survey and does not establish a global range or native/introduced status."
+          ]
         },
-        "fossil": {"status": "not-assessed"},
-        "conservation": {"status": "not-assessed"}
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
       },
       "completeness": {
         "status": "incomplete",
-        "reasons": ["Only bounded ecology, isolate-level ITS grouping and farm-sample distribution evidence have been assessed; morphology, life history, fossil evidence and conservation assessment remain unassessed.", "No systematic literature search or complete comparison with the accepted species concept has been completed.", "No independent expert review has been completed."]
-      },
-      "expertReview": {"status": "not-reviewed"}
+        "reasons": [
+          "Only bounded ecology, isolate-level ITS grouping and farm-sample distribution evidence have been assessed; morphology, life history, fossil evidence and conservation assessment remain unassessed.",
+          "No systematic literature search or complete comparison with the accepted species concept has been completed.",
+          ""
+        ]
+      }
     }
   ]
 }

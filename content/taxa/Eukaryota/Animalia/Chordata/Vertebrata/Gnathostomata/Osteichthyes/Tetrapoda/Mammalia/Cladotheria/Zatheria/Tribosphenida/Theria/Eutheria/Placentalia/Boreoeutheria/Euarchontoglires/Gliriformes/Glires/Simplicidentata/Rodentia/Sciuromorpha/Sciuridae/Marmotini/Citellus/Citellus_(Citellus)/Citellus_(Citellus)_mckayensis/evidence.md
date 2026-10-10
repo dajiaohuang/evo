@@ -9,7 +9,6 @@ records:
     name:
       zh: Citellus (Citellus) mckayensis
       en: Citellus (Citellus) mckayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

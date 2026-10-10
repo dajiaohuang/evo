@@ -9,7 +9,6 @@ records:
     name:
       zh: Babyrousa togeanensis
       en: Babyrousa togeanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

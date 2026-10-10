@@ -9,7 +9,6 @@ records:
     name:
       zh: 美国短吻鳄
       en: American alligator
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: sensoryMaterial

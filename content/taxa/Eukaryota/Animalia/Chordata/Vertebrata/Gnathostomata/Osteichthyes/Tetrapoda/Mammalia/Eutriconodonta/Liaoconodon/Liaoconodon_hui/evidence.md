@@ -9,7 +9,6 @@ records:
     name:
       zh: Liaoconodon hui
       en: Liaoconodon hui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

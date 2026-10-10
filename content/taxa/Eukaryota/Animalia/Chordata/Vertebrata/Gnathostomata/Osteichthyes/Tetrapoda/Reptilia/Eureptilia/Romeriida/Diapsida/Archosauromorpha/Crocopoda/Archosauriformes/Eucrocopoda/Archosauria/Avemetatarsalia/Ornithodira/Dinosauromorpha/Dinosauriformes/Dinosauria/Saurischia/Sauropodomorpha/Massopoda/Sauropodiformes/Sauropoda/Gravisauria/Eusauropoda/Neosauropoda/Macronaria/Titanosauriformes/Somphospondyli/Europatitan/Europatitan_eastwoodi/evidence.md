@@ -9,7 +9,6 @@ records:
     name:
       zh: Europatitan eastwoodi
       en: Europatitan eastwoodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

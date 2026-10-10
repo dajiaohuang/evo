@@ -9,7 +9,6 @@ records:
     name:
       zh: Amyda cartilaginea
       en: Amyda cartilaginea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

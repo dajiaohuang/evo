@@ -9,7 +9,6 @@ records:
     name:
       zh: Mearnsia picina
       en: Mearnsia picina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

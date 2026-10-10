@@ -9,7 +9,6 @@ records:
     name:
       zh: Tinamus osgoodi
       en: Tinamus osgoodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

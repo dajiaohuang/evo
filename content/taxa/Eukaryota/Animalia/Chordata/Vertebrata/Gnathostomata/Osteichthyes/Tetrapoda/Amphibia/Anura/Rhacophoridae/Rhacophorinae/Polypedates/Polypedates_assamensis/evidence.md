@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates assamensis
       zh: Polypedates assamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

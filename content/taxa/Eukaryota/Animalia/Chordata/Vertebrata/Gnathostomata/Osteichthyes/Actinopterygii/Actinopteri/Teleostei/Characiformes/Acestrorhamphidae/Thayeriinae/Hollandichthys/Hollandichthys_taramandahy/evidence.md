@@ -297,10 +297,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/2
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Hollandichthys taramandahy
@@ -482,5 +478,5 @@ The article-level text reuse license is unknown; the ledger CC0 declaration appl
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-The source ZIP is absent from this checkout and its embedded EML was not rechecked; no independent external review has been completed.
+The source ZIP is absent from this checkout and its embedded EML was not rechecked.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: 赤狐
       en: Red fox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -711,10 +710,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Vulpes vulpes

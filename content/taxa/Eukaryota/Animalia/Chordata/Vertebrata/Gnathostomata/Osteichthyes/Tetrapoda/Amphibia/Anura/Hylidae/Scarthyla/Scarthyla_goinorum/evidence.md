@@ -9,7 +9,6 @@ records:
     name:
       en: Scarthyla goinorum
       zh: Scarthyla goinorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

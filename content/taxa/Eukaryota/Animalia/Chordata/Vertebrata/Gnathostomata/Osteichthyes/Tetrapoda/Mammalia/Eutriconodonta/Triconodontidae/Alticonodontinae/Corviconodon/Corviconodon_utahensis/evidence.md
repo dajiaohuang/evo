@@ -9,7 +9,6 @@ records:
     name:
       zh: Corviconodon utahensis
       en: Corviconodon utahensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus altagratiae
       en: Atractus altagratiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

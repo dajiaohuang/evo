@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenodactylus leptocosymbotes
       en: Stenodactylus leptocosymbotes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

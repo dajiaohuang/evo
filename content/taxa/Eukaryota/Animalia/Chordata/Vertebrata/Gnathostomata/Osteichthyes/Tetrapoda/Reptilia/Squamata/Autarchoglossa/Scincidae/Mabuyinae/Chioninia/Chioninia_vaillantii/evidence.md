@@ -9,7 +9,6 @@ records:
     name:
       zh: Chioninia vaillantii
       en: Chioninia vaillantii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cruralispennia multidonta
       en: Cruralispennia multidonta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

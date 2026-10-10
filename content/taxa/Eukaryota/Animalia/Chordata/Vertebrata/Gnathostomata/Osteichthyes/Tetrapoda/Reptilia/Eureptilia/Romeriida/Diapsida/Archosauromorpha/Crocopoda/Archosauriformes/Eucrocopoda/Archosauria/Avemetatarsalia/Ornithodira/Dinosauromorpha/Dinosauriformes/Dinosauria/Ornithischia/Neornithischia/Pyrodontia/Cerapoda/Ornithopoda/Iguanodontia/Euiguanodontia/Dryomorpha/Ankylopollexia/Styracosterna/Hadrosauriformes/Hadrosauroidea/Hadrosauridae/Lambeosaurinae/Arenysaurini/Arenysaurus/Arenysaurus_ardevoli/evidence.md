@@ -9,7 +9,6 @@ records:
     name:
       zh: Arenysaurus ardevoli
       en: Arenysaurus ardevoli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema parva
       zh: Ischnocnema parva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

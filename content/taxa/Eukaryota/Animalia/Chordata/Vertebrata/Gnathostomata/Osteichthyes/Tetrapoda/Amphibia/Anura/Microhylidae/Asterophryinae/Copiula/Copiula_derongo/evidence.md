@@ -9,7 +9,6 @@ records:
     name:
       en: Copiula derongo
       zh: Copiula derongo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

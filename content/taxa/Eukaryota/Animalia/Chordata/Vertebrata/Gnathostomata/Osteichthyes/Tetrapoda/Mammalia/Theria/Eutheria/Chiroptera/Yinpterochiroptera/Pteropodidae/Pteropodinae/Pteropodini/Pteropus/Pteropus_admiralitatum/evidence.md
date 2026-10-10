@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus admiralitatum
       en: Pteropus admiralitatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Notogaulus minor
       en: Notogaulus minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sardolagus obscurus
       en: Sardolagus obscurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

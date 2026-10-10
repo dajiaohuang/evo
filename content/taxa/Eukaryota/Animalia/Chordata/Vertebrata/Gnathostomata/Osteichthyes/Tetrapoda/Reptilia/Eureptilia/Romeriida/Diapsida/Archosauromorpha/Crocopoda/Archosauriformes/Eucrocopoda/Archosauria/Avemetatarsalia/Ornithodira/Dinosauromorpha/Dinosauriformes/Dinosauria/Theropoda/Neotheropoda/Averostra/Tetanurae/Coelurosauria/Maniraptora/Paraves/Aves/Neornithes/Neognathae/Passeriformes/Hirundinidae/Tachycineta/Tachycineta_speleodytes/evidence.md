@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachycineta speleodytes
       en: Tachycineta speleodytes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

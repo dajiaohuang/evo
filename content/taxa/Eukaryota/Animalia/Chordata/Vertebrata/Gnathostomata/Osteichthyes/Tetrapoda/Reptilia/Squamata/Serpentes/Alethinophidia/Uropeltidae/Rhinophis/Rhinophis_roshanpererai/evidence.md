@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinophis roshanpererai
       en: Rhinophis roshanpererai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

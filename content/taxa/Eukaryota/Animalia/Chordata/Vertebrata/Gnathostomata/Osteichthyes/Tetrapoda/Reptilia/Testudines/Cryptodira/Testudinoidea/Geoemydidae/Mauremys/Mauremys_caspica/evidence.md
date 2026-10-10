@@ -9,7 +9,6 @@ records:
     name:
       zh: Mauremys caspica
       en: Mauremys caspica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

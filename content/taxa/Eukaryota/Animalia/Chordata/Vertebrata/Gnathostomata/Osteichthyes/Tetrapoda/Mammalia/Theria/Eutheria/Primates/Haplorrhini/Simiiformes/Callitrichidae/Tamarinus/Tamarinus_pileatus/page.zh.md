@@ -22,5 +22,5 @@ Peres（1993）在巴西亚马孙州上 Urucu 河 terra firme 森林研究一个
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-旧研究标签为 *S. mystax pileatus*；分类重审支持独立谱系，但本页不据单个地点绘制现代全种范围。双语初稿尚未经过外部领域专家评审。
+旧研究标签为 *S. mystax pileatus*；分类重审支持独立谱系，但本页不据单个地点绘制现代全种范围。。
 <!-- /evo:text -->

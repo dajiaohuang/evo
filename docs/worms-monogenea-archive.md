@@ -24,6 +24,6 @@ digests. Source fields, original names/authorship, source IDs, source
 links, reference IDs and Name.txt/Taxon.txt/NameReference.txt/Reference.txt
 locators are retained for every linked source row. Synonym relationships are
 not used to discard accepted taxa. No fuzzy matching, species-concept
-equivalence, biological dossier, fossil evidence or expert-review claim is
+equivalence, biological dossier, fossil evidence is
 made. The source snapshot (2026-09-01) and COL26.8 (2026-08-20) are distinct
 releases.

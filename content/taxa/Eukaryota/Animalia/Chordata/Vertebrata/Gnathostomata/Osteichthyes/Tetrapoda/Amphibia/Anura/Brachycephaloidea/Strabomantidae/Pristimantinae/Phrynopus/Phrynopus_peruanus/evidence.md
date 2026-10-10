@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus peruanus
       zh: Phrynopus peruanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

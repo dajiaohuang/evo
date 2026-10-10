@@ -9,7 +9,6 @@ records:
     name:
       zh: Ara chloropterus
       en: Ara chloropterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

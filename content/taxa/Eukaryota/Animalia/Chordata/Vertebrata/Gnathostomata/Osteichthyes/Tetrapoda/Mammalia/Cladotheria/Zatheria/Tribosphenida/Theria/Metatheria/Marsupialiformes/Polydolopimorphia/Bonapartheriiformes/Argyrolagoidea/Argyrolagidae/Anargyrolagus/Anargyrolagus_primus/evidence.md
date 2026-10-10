@@ -9,7 +9,6 @@ records:
     name:
       zh: Anargyrolagus primus
       en: Anargyrolagus primus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

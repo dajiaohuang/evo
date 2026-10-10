@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus ghanensis
       zh: Phrynobatrachus ghanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

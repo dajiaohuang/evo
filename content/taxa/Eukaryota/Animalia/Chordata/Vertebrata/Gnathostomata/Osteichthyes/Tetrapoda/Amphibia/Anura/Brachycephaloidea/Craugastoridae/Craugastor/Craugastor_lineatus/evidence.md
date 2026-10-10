@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor lineatus
       zh: Craugastor lineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

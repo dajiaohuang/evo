@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidoscelis chrysolaemus
       en: Pholidoscelis chrysolaemus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena subpunctata
       zh: Ptychadena subpunctata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

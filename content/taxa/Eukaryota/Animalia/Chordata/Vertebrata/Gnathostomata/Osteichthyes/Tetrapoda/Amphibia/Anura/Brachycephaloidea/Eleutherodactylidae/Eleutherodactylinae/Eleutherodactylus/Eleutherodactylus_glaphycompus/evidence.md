@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus glaphycompus
       zh: Eleutherodactylus glaphycompus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

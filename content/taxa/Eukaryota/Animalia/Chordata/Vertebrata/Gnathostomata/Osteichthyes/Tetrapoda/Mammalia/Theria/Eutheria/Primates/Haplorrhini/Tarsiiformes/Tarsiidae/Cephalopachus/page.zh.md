@@ -16,5 +16,5 @@ COL26.8 属级 ID 3KFW 连接接受种 C. bancanus 页面（SDLD）。可先读 
 ## 资料适用范围
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本路径连接一个接受种页面及两项分类范围、地点和方法各异的研究；它不是完整的 Cephalopachus 名录、属级生态综合或分布评估。属级身份固定为 COL26.8 ID 3KFW。本批未新增 dossier，也未经过外部领域专家评审。
+本路径连接一个接受种页面及两项分类范围、地点和方法各异的研究；它不是完整的 Cephalopachus 名录、属级生态综合或分布评估。属级身份固定为 COL26.8 ID 3KFW。本批未新增 dossier。
 <!-- /evo:text -->

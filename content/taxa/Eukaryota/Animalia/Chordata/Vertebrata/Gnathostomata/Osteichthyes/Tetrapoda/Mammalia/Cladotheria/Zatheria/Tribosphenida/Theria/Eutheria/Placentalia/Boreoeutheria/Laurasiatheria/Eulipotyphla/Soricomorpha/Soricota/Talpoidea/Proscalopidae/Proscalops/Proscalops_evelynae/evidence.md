@@ -9,7 +9,6 @@ records:
     name:
       zh: Proscalops evelynae
       en: Proscalops evelynae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

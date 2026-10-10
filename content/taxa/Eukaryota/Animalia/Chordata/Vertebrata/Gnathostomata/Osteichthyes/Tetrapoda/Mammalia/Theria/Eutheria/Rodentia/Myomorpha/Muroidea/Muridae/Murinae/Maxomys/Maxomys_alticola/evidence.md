@@ -9,7 +9,6 @@ records:
     name:
       zh: Maxomys alticola
       en: Maxomys alticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

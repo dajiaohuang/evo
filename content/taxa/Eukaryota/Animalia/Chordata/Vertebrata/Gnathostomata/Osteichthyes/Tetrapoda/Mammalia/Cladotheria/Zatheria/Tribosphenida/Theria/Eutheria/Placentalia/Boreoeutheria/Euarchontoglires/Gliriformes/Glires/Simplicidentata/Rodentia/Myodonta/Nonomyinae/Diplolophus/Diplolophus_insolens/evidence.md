@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplolophus insolens
       en: Diplolophus insolens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

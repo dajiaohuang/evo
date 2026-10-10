@@ -9,7 +9,6 @@ records:
     name:
       zh: Propalaeosinopa albertensis
       en: Propalaeosinopa albertensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Corytophanes cristatus
       en: Corytophanes cristatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

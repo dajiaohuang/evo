@@ -9,7 +9,6 @@ records:
     name:
       zh: Ritteneria molinae
       en: Ritteneria molinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

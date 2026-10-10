@@ -9,7 +9,6 @@ records:
     name:
       zh: Confuciusornis sanctus
       en: Confuciusornis sanctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

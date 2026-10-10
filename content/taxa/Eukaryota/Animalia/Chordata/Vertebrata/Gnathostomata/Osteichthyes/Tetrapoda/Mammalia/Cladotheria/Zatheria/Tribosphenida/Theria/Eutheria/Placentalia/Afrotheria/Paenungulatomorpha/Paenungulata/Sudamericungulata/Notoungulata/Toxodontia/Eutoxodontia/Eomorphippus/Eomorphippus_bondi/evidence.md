@@ -9,7 +9,6 @@ records:
     name:
       zh: Eomorphippus bondi
       en: Eomorphippus bondi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

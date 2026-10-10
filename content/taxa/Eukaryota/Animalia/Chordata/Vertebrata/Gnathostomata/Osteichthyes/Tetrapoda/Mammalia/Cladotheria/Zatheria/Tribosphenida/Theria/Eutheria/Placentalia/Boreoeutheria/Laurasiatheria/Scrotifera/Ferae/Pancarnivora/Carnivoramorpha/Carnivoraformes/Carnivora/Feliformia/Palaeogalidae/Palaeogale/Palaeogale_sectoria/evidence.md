@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeogale sectoria
       en: Palaeogale sectoria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

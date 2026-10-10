@@ -9,7 +9,6 @@ records:
     name:
       en: Boana heilprini
       zh: Boana heilprini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

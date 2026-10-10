@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus cryptotympanum
       zh: Cophixalus cryptotympanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -40,5 +40,5 @@ status: source-linked
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页依据所选 AVONET v7 历史行、同名 eBird 表关系、旧 Serinus 的 BirdTree 表关系、相关 Metadata 定义及本次 COL cr／se 分片阅读。目录异名与表关系不证明历史分类概念完全等同于 COL26.8；hypostictus 在本次分片未确认逐字旧组合。形态鸟数、完整测量数与 Dunning 文献体重分母分开。未读个体标本、Dunning 原书、完整工作簿或新的完整方法论文；不补当前分布、保护状态、羽色、鸣声、繁殖、种子清单、咬合力、实测食谱或移动路线。没有专家审评，不计完整自然史专论。
+本页依据所选 AVONET v7 历史行、同名 eBird 表关系、旧 Serinus 的 BirdTree 表关系、相关 Metadata 定义及本次 COL cr／se 分片阅读。目录异名与表关系不证明历史分类概念完全等同于 COL26.8；hypostictus 在本次分片未确认逐字旧组合。形态鸟数、完整测量数与 Dunning 文献体重分母分开。未读个体标本、Dunning 原书、完整工作簿或新的完整方法论文；不补当前分布、保护状态、羽色、鸣声、繁殖、种子清单、咬合力、实测食谱或移动路线。不计完整自然史专论。
 <!-- /evo:text -->

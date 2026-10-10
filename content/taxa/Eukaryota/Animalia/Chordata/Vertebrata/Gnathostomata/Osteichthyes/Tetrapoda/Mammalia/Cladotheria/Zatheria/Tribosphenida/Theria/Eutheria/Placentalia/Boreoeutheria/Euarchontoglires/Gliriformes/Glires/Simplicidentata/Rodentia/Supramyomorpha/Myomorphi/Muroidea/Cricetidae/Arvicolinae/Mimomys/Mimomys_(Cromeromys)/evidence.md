@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimomys (Cromeromys)
       en: Mimomys (Cromeromys)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

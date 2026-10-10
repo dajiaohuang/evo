@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeonictis
       en: Palaeonictis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

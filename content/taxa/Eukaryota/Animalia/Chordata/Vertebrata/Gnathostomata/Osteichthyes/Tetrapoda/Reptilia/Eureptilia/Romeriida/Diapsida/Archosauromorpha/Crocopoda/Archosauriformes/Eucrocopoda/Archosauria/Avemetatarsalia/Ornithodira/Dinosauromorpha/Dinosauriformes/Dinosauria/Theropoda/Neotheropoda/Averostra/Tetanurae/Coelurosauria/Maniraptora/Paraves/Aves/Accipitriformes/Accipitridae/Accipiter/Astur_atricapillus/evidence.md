@@ -9,7 +9,6 @@ records:
     name:
       zh: Astur atricapillus
       en: Astur atricapillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

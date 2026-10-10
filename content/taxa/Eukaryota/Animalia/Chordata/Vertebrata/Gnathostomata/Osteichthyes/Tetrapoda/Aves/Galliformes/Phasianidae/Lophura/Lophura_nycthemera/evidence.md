@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophura nycthemera
       en: Lophura nycthemera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

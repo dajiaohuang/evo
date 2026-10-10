@@ -9,7 +9,6 @@ records:
     name:
       zh: Phenacomys (Paraphenacomys)
       en: Phenacomys (Paraphenacomys)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

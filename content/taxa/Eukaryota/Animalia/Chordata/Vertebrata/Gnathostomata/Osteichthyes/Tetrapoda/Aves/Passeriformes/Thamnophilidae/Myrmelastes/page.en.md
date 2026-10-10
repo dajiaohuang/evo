@@ -10,7 +10,7 @@ status: source-linked
 ## Find seven historical records through two older genera
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-This entry organizes seven historical guides under COL26.8 Myrmelastes (R8FYG) and Thamnophilidae (H5C). BirdLife/eBird names and their Avibase IDs match in seven one-to-one links. The six Schistocichla combinations and Myrmeciza hyperythra for hyperythrus each have an exact catalogue synonym; saturatus has the older ending saturata. Name correspondence does not establish identical concepts across versions. The genus record has eight immediate children; this batch’s seven pages do not complete genus coverage, natural history or expert review.
+This entry organizes seven historical guides under COL26.8 Myrmelastes (R8FYG) and Thamnophilidae (H5C). BirdLife/eBird names and their Avibase IDs match in seven one-to-one links. The six Schistocichla combinations and Myrmeciza hyperythra for hyperythrus each have an exact catalogue synonym; saturatus has the older ending saturata. Name correspondence does not establish identical concepts across versions. The genus record has eight immediate children; this batch’s seven pages do not complete genus coverage, natural history.
 <!-- /evo:text -->
 
 ## Read total birds before complete sets
@@ -38,5 +38,5 @@ Group 2: [Myrmelastes caurensis](Myrmelastes_caurensis/page.en.md), [Myrmelastes
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Seven selected historical rows and synonyms for their older combinations support limited guides without completing content for eight catalogue children. Total birds, two to five complete sets and Dunning mass remain separate. Category codes do not supply measured diet, ant-following behavior, breeding, current maps or expert review.
+Seven selected historical rows and synonyms for their older combinations support limited guides without completing content for eight catalogue children. Total birds, two to five complete sets and Dunning mass remain separate. Category codes do not supply measured diet, ant-following behavior, breeding, current maps.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Synallaxis azarae
       en: Synallaxis azarae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

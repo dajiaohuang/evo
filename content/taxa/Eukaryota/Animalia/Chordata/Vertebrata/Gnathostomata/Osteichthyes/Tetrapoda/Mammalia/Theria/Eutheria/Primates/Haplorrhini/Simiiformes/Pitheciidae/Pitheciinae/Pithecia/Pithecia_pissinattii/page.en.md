@@ -16,5 +16,5 @@ Marsh described this name as a new species in 2014 based on pelage; the holotype
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The two taxonomic studies use different material and criteria, and the accepted-name treatments still differ. This page does not infer a separate living population, complete range or conservation status. The Chinese name is editorial; this page has not received external expert review. This page is not externally expert-reviewed.
+The two taxonomic studies use different material and criteria, and the accepted-name treatments still differ. This page does not infer a separate living population, complete range or conservation status. The Chinese name is editorial. This page is.
 <!-- /evo:text -->

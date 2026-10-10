@@ -9,7 +9,6 @@ records:
     name:
       zh: Neosclerocalyptus gouldi
       en: Neosclerocalyptus gouldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

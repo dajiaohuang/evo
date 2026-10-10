@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis dissimulatus
       zh: Pristimantis dissimulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

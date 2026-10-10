@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus colei
       en: Varanus colei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

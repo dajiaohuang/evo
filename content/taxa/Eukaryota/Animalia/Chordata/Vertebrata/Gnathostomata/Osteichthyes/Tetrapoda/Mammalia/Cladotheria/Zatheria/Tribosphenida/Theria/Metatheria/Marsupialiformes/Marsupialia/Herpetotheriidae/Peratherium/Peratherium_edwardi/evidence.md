@@ -9,7 +9,6 @@ records:
     name:
       zh: Peratherium edwardi
       en: Peratherium edwardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

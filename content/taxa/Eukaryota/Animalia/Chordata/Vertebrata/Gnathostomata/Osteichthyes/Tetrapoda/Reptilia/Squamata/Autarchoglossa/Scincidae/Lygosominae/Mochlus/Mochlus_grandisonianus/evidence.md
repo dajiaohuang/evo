@@ -9,7 +9,6 @@ records:
     name:
       zh: Mochlus grandisonianus
       en: Mochlus grandisonianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

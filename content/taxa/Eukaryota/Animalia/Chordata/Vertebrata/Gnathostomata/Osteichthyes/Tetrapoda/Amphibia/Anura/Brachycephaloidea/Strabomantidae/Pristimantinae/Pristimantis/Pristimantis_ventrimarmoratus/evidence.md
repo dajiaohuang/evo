@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ventrimarmoratus
       zh: Pristimantis ventrimarmoratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

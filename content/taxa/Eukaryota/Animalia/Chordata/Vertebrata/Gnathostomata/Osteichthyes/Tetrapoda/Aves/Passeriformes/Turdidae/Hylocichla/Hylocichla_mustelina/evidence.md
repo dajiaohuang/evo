@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylocichla mustelina
       en: Hylocichla mustelina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Copemys barstowensis
       en: Copemys barstowensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

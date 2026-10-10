@@ -9,7 +9,6 @@ records:
     name:
       zh: Myioborus albifrons
       en: Myioborus albifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

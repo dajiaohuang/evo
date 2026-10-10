@@ -9,7 +9,6 @@ records:
     name:
       zh: Vireo latimeri
       en: Vireo latimeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

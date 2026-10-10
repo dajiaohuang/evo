@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramigekko swartbergensis
       en: Ramigekko swartbergensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

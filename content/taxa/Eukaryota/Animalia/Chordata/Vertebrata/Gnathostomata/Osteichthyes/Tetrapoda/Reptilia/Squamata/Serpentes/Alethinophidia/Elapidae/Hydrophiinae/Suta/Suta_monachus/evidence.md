@@ -9,7 +9,6 @@ records:
     name:
       zh: Suta monachus
       en: Suta monachus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

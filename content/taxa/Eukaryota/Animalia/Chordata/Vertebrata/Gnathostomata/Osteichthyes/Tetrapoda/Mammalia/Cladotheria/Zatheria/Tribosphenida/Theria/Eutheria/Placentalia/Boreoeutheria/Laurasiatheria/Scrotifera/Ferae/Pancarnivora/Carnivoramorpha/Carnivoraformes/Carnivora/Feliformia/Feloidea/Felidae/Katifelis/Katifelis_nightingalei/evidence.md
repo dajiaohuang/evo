@@ -9,7 +9,6 @@ records:
     name:
       zh: Katifelis nightingalei
       en: Katifelis nightingalei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

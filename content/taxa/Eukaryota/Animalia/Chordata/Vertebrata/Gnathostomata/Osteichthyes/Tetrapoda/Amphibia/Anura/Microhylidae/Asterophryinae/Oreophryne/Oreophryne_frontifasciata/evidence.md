@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne frontifasciata
       zh: Oreophryne frontifasciata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

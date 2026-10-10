@@ -9,7 +9,6 @@ records:
     name:
       zh: Kulindadromeus zabaikalicus
       en: Kulindadromeus zabaikalicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

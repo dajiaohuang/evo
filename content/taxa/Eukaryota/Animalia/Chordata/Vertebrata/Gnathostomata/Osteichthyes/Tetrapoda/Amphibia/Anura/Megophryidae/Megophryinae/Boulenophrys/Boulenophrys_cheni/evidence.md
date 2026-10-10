@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys cheni
       zh: Boulenophrys cheni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

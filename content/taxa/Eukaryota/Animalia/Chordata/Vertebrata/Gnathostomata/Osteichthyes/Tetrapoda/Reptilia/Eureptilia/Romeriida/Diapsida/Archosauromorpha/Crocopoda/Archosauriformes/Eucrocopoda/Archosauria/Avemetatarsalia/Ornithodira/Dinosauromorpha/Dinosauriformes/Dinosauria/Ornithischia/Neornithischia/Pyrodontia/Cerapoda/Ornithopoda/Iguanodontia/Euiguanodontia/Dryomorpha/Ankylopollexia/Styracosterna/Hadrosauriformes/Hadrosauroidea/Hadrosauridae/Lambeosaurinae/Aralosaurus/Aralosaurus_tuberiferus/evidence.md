@@ -9,7 +9,6 @@ records:
     name:
       zh: Aralosaurus tuberiferus
       en: Aralosaurus tuberiferus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

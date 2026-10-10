@@ -9,7 +9,6 @@ records:
     name:
       zh: Scotinomys teguina
       en: Scotinomys teguina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

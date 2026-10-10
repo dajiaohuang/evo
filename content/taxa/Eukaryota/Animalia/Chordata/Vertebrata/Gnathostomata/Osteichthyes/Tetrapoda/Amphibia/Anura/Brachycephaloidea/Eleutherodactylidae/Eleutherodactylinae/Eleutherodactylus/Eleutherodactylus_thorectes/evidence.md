@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus thorectes
       zh: Eleutherodactylus thorectes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

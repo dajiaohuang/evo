@@ -9,7 +9,6 @@ records:
     name:
       en: Pleurodema kriegi
       zh: Pleurodema kriegi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

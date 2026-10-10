@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligodon lungshenensis
       en: Oligodon lungshenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

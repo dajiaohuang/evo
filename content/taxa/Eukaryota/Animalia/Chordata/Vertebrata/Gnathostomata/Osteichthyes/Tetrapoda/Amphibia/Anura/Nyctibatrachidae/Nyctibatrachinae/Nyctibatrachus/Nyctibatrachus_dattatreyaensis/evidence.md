@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus dattatreyaensis
       zh: Nyctibatrachus dattatreyaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

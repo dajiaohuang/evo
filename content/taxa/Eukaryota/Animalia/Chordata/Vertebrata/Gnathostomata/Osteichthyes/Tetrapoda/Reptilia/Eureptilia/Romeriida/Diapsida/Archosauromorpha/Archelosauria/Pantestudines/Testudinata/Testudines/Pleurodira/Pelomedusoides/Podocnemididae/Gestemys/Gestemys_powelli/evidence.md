@@ -9,7 +9,6 @@ records:
     name:
       zh: Gestemys powelli
       en: Gestemys powelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

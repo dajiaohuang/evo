@@ -9,7 +9,6 @@ records:
     name:
       zh: Pternistis griseostriatus
       en: Pternistis griseostriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

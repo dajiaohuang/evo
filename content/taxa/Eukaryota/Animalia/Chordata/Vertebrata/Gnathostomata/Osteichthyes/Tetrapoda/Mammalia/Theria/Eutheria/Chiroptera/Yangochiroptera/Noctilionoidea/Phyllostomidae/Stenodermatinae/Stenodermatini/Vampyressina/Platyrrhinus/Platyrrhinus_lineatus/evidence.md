@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyrrhinus lineatus
       en: Platyrrhinus lineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated primary-source review
-      reviewedAt: 2026-09-05
-      reviewedAgainstReferenceVersion: Butler et al. 2007 DOI 10.1098/rspb.2007.0367; full-text description inspected 2026-09-05
       referenceLinks:
         - referenceId: butler-2007-eocursor
           relation: supports
@@ -48,9 +45,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: butler-2007-eocursor concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: butler-2007-eocursor
           relation: supports
@@ -91,7 +85,6 @@ records:
       referenceLocators:
         - referenceId: butler-2007-eocursor
           locator: Cited specimen, figures and methods in the linked claim dossier
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Eocursor
     rank: genus
@@ -99,7 +92,6 @@ records:
     name:
       zh: Eocursor
       en: Eocursor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

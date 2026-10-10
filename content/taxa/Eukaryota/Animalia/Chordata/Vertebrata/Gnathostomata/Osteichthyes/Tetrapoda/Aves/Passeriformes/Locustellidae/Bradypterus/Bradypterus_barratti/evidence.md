@@ -9,7 +9,6 @@ records:
     name:
       zh: Bradypterus barratti
       en: Bradypterus barratti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

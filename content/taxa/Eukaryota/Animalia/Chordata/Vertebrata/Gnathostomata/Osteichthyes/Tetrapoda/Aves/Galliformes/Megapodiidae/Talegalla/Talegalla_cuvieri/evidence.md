@@ -9,7 +9,6 @@ records:
     name:
       zh: Talegalla cuvieri
       en: Talegalla cuvieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

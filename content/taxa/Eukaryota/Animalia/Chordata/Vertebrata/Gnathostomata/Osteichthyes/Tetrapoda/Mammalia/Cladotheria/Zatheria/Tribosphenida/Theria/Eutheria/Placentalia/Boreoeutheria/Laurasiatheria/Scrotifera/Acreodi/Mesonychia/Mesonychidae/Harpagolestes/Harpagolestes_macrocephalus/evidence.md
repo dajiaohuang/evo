@@ -9,7 +9,6 @@ records:
     name:
       zh: Harpagolestes macrocephalus
       en: Harpagolestes macrocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

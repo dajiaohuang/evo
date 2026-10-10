@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lopez-carranza-carlson-2019-terebratulides
       referenceLinks:
         - referenceId: lopez-carranza-carlson-2019-terebratulides
           relation: supports
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: lopez-carranza-carlson-2019-terebratulides
           locator: Article e0225528; Materials and methods; Table 1; Figure 2; S1 Table; 58 museum individuals from eight living species
-      reviewStatus: automated-audit-passed
 ---
 
 # Terebratulida

@@ -9,7 +9,6 @@ records:
     name:
       zh: Perognathoides tertius
       en: Perognathoides tertius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Thorius longicaudus
       zh: Thorius longicaudus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

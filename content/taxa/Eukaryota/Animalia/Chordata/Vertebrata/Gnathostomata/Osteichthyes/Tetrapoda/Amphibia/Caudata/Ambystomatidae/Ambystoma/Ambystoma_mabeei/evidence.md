@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma mabeei
       zh: Ambystoma mabeei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

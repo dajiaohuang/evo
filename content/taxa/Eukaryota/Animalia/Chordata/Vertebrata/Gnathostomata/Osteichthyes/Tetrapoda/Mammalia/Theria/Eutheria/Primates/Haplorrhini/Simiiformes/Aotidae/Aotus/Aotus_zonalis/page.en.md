@@ -16,5 +16,5 @@ Between May and July 2008, researchers used line transects at three localities i
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The survey lasted three months and covered three sites in one park; its local abundance estimates are not a current range-wide population estimate. This page is not externally expert-reviewed.
+The survey lasted three months and covered three sites in one park; its local abundance estimates are not a current range-wide population estimate. This page is.
 <!-- /evo:text -->

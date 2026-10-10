@@ -62,9 +62,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: deng-2021-paraceratherium locator audit at 2026-08-31
       referenceLinks:
         - referenceId: deng-2021-paraceratherium
           relation: supports
@@ -83,9 +80,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: deng-2021-paraceratherium locator audit at 2026-08-31
       referenceLinks:
         - referenceId: deng-2021-paraceratherium
           relation: supports
@@ -104,9 +98,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: deng-2021-paraceratherium locator audit at 2026-08-31
       referenceLinks:
         - referenceId: deng-2021-paraceratherium
           relation: supports
@@ -125,9 +116,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: deng-2021-paraceratherium locator audit at 2026-08-31
       referenceLinks:
         - referenceId: deng-2021-paraceratherium
           relation: supports
@@ -146,9 +134,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: deng-2021-paraceratherium locator audit at 2026-08-31
       referenceLinks:
         - referenceId: deng-2021-paraceratherium
           relation: supports
@@ -167,9 +152,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: deng-2021-paraceratherium locator audit at 2026-08-31
       referenceLinks:
         - referenceId: deng-2021-paraceratherium
           relation: supports
@@ -227,7 +209,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

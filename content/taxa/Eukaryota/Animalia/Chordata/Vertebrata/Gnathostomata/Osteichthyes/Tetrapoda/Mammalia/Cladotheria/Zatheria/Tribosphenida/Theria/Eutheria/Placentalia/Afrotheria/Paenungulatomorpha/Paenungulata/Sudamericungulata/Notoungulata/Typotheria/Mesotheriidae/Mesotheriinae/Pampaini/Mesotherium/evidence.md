@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesotherium
       en: Mesotherium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

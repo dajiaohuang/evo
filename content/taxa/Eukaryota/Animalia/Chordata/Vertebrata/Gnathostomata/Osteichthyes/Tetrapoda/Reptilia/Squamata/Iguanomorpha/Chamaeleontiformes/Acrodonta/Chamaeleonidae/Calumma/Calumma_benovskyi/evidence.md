@@ -9,7 +9,6 @@ records:
     name:
       zh: Calumma benovskyi
       en: Calumma benovskyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hoffstetterius imperator
       en: Hoffstetterius imperator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: cartwright-nawrocki-2010-hydrozoa
       referenceLinks:
         - referenceId: cartwright-nawrocki-2010-hydrozoa
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: cartwright-nawrocki-2010-hydrozoa locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: cartwright-nawrocki-2010-hydrozoa
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: cartwright-nawrocki-2010-hydrozoa
           locator: 456–472; Figures 1–4; hydrozoan character-evolution synthesis
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

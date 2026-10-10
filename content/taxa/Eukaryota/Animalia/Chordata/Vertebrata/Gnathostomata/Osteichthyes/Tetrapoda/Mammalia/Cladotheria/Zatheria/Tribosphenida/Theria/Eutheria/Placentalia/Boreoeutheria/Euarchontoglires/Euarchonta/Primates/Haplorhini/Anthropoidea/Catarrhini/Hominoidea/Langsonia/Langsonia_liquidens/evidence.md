@@ -9,7 +9,6 @@ records:
     name:
       zh: Langsonia liquidens
       en: Langsonia liquidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

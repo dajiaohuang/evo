@@ -9,7 +9,6 @@ records:
     name:
       zh: Sellamynodon zimborensis
       en: Sellamynodon zimborensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

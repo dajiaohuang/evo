@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus ruschii
       zh: Dendropsophus ruschii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

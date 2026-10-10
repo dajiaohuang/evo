@@ -9,7 +9,6 @@ records:
     name:
       zh: Protictitherium thessalonikensis
       en: Protictitherium thessalonikensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

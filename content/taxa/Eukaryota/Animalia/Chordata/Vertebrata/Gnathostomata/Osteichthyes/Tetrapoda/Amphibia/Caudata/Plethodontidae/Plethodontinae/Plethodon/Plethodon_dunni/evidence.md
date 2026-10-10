@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon dunni
       zh: Plethodon dunni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

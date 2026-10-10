@@ -9,7 +9,6 @@ records:
     name:
       en: Pleurodeles waltl
       zh: Pleurodeles waltl
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

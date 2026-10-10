@@ -9,7 +9,6 @@ records:
     name:
       zh: Aelurosaurus watermeyeri
       en: Aelurosaurus watermeyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bachia peruana
       en: Bachia peruana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

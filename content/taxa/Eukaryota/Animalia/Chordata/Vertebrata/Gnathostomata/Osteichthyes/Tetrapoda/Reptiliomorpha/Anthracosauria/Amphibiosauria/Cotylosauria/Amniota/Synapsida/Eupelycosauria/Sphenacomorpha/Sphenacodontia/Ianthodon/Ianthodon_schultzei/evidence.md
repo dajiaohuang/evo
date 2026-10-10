@@ -9,7 +9,6 @@ records:
     name:
       zh: Ianthodon schultzei
       en: Ianthodon schultzei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

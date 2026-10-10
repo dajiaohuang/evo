@@ -9,7 +9,6 @@ records:
     name:
       en: Oophaga histrionica
       zh: Oophaga histrionica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

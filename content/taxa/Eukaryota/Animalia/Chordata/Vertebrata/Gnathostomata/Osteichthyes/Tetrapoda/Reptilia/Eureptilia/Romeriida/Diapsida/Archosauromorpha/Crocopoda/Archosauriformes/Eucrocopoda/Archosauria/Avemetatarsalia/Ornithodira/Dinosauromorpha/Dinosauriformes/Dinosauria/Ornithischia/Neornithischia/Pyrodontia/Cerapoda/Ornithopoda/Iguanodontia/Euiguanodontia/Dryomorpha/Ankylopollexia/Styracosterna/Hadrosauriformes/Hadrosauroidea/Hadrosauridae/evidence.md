@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: prieto-marquez-2010-hadrosaurid-biogeography concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: prieto-marquez-2010-hadrosaurid-biogeography
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: prieto-marquez-2010-hadrosaurid-biogeography @ DOI 10.1111/j.1096-3642.2010.00642.x
       referenceLinks:
         - relation: supports
           referenceId: prieto-marquez-2010-hadrosaurid-biogeography
@@ -96,7 +90,6 @@ records:
           locator: 503–525; Methods; area coding; event-based results; Discussion
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Hadrosauridae
@@ -105,7 +98,6 @@ records:
     name:
       zh: Hadrosauridae
       en: Hadrosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

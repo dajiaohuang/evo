@@ -9,7 +9,6 @@ records:
     name:
       zh: Bubalus youngi
       en: Bubalus youngi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

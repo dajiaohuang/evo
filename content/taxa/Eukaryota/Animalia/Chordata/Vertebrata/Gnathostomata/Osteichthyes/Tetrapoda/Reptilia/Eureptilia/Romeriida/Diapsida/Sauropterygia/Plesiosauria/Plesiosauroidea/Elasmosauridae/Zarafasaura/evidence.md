@@ -9,7 +9,6 @@ records:
     name:
       zh: Zarafasaura
       en: Zarafasaura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

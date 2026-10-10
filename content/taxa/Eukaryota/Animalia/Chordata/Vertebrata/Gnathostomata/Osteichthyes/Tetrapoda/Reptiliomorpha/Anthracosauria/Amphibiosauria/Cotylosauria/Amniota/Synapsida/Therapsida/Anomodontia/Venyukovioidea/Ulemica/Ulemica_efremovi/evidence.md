@@ -9,7 +9,6 @@ records:
     name:
       zh: Ulemica efremovi
       en: Ulemica efremovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pappomoropus taishanensis
       en: Pappomoropus taishanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

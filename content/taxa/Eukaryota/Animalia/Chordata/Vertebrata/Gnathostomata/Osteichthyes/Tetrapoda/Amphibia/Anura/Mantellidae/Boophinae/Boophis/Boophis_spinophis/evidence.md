@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis spinophis
       zh: Boophis spinophis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

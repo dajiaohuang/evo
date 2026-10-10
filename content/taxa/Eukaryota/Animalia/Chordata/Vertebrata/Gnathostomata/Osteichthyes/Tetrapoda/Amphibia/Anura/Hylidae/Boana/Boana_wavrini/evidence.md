@@ -9,7 +9,6 @@ records:
     name:
       en: Boana wavrini
       zh: Boana wavrini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

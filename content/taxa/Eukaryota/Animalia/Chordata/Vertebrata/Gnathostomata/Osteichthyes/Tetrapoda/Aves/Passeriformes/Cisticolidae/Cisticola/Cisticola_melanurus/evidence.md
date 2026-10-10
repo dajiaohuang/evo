@@ -9,7 +9,6 @@ records:
     name:
       zh: Cisticola melanurus
       en: Cisticola melanurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

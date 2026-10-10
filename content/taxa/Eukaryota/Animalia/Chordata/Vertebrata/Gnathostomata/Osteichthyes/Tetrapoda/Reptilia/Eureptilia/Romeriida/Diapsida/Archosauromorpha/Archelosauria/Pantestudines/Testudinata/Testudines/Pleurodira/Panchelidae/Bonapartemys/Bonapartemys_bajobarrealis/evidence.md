@@ -9,7 +9,6 @@ records:
     name:
       zh: Bonapartemys bajobarrealis
       en: Bonapartemys bajobarrealis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

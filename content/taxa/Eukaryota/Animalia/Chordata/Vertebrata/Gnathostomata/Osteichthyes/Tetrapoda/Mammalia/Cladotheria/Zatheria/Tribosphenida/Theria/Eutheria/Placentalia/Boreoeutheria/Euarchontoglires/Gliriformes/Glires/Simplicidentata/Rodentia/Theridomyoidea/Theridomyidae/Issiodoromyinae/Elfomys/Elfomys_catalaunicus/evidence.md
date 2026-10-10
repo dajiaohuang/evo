@@ -9,7 +9,6 @@ records:
     name:
       zh: Elfomys catalaunicus
       en: Elfomys catalaunicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

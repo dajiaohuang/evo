@@ -9,7 +9,6 @@ records:
     name:
       zh: Iberomesornis romerali
       en: Iberomesornis romerali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

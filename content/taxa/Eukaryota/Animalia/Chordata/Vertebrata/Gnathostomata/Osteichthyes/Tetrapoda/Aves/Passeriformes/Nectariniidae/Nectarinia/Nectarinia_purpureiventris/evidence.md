@@ -9,7 +9,6 @@ records:
     name:
       zh: Nectarinia purpureiventris
       en: Nectarinia purpureiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

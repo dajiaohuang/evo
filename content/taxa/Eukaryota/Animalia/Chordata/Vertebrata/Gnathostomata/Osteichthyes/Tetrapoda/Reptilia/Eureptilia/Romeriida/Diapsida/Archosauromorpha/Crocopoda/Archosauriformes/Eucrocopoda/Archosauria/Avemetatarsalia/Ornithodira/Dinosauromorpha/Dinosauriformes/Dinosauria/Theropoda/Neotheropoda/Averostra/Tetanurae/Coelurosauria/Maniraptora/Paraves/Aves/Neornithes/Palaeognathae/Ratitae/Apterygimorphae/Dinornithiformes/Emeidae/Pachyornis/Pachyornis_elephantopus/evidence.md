@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachyornis elephantopus
       en: Pachyornis elephantopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

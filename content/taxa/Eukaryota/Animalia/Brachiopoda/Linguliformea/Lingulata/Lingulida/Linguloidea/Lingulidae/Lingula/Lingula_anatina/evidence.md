@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: luo-et-al-2015-lingula-genome
       referenceLinks:
         - referenceId: luo-et-al-2015-lingula-genome
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Luo et al. 2015 DOI 10.1038/ncomms9301
       referenceLinks:
         - relation: supports
           referenceId: luo-et-al-2015-lingula-genome
@@ -92,7 +86,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Lingula anatina

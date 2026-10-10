@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobisaurus domoculus
       en: Gobisaurus domoculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

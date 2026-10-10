@@ -9,7 +9,6 @@ records:
     name:
       zh: Bettongia gaimardi
       en: Bettongia gaimardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

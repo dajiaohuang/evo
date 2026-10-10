@@ -250,8 +250,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Aspidosperma excelsum
@@ -397,7 +395,7 @@ Only source-labelled morphology and/or habitat fields are included; six-facet co
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-No verified Chinese translation, systematic cross-source review or independent expert review has been completed.
+A verified Chinese translation and systematic cross-source search have not been completed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons

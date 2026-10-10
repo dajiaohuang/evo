@@ -9,7 +9,6 @@ records:
     name:
       zh: Vanellus gregarius
       en: Vanellus gregarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

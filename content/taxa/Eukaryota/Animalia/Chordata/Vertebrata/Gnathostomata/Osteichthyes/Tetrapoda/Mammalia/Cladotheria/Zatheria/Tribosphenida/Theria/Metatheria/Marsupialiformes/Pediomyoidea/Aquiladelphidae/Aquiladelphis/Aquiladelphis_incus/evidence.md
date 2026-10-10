@@ -9,7 +9,6 @@ records:
     name:
       zh: Aquiladelphis incus
       en: Aquiladelphis incus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

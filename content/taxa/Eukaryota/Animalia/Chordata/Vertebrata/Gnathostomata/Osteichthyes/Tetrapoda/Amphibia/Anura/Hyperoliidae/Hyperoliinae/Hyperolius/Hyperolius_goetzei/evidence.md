@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius goetzei
       zh: Hyperolius goetzei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

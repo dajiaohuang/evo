@@ -9,7 +9,6 @@ records:
     name:
       en: Paramesotriton deloustali
       zh: Paramesotriton deloustali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhombomylus nitidulus
       en: Rhombomylus nitidulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

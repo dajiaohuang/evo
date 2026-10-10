@@ -9,7 +9,6 @@ records:
     name:
       zh: Allotypomys
       en: Allotypomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

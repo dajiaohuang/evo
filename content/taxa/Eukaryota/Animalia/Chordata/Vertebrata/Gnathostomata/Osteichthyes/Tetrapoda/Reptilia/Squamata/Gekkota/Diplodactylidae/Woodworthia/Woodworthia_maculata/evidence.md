@@ -9,7 +9,6 @@ records:
     name:
       zh: Woodworthia maculata
       en: Woodworthia maculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

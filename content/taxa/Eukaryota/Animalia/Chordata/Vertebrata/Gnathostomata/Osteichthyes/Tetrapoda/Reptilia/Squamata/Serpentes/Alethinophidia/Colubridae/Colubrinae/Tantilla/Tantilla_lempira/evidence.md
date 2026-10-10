@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla lempira
       en: Tantilla lempira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

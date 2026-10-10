@@ -9,7 +9,6 @@ records:
     name:
       zh: Triconodon mordax
       en: Triconodon mordax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

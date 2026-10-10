@@ -9,7 +9,6 @@ records:
     name:
       zh: Notoscincus butleri
       en: Notoscincus butleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

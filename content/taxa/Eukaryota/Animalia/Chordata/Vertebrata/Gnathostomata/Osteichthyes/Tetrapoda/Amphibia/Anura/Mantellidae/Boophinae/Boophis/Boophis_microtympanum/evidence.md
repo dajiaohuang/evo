@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis microtympanum
       zh: Boophis microtympanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

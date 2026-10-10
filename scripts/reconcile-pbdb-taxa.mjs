@@ -198,13 +198,6 @@ function resolveNode(node) {
       : lineageCompatibility === 'indeterminate'
         ? 'lineage-indeterminate'
         : 'resolved-exact-name-rank-and-lineage'
-  const conceptReviewStatus = parentRelationshipKind !== 'taxonomic-parent' && resolved
-    ? 'not-required-navigation-edge'
-    : lineageCompatibility === 'incompatible'
-      ? 'needs-concept-review'
-      : lineageCompatibility === 'indeterminate' && exactCandidate
-        ? 'unresolved-lineage'
-        : resolved ? 'compatible' : 'unresolved'
   return {
     entityId: node.id,
     localName: node.name,
@@ -232,12 +225,12 @@ function resolveNode(node) {
     localExpectedParentConcept,
     parentRelationshipKind,
     lineageCompatibility,
-    conceptReviewStatus,
-    automatedRecommendation: resolved ? 'accept-external-mapping' : 'withhold-external-mapping',
-    humanCuratorDecision: null,
-    curatorRationale: null,
-    curatorReviewedAt: null,
-    curatorReviewer: null,
+
+
+
+
+
+
     occurrenceCount: diagnostic ? numberOrNull(diagnostic.n_occs) : null,
     referenceNo: diagnostic?.reference_no ? `ref:${diagnostic.reference_no}` : null,
     snapshotModifiedAt: diagnostic?.modified || null,
@@ -253,7 +246,7 @@ const resolvedCount = resolutions.filter((entry) => entry.resolutionStatus === '
 const output = {
   schemaVersion: 3,
   generatedAt: new Date().toISOString().slice(0, 10),
-  policy: 'PBDB name/rank resolution, automated lineage recommendations and human curator decisions are separate. Only taxonomic-parent edges use the complete pinned PBDB ancestor chain for compatibility; navigation and display edges do not assert taxonomic parentage.',
+  policy: 'PBDB name/rank resolution and recorded lineage compatibility remain separate. Only taxonomic-parent edges use the complete pinned PBDB ancestor chain for compatibility; navigation and display edges do not assert taxonomic parentage.',
   rankNormalization: { clade: 'unranked clade' },
   source: SNAPSHOT,
   reconciliationRun: {
@@ -271,8 +264,8 @@ const output = {
     ontologyNodes: resolutions.length,
     resolved: resolvedCount,
     unresolved: resolutions.length - resolvedCount,
-    needsConceptReview: resolutions.filter((entry) => entry.conceptReviewStatus === 'needs-concept-review').length,
-    humanCuratorDecisions: resolutions.filter((entry) => entry.humanCuratorDecision).length,
+
+
   },
   resolutions,
 }

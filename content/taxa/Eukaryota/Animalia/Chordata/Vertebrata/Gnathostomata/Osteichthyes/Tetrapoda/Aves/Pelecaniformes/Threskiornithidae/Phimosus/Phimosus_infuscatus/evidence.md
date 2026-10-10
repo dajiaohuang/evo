@@ -9,7 +9,6 @@ records:
     name:
       zh: Phimosus infuscatus
       en: Phimosus infuscatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

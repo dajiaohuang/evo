@@ -9,7 +9,6 @@ records:
     name:
       zh: Kadimakara australiensis
       en: Kadimakara australiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

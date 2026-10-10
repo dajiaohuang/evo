@@ -9,7 +9,6 @@ records:
     name:
       zh: Saltatherium rosaurae
       en: Saltatherium rosaurae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

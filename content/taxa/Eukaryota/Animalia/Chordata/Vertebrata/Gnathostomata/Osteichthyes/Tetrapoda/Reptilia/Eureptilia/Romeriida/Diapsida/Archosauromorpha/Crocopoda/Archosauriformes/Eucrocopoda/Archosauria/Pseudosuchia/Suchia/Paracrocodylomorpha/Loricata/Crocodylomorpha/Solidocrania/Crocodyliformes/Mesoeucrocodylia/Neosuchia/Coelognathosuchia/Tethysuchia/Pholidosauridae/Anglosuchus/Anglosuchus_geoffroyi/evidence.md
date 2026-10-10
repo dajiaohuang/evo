@@ -9,7 +9,6 @@ records:
     name:
       zh: Anglosuchus geoffroyi
       en: Anglosuchus geoffroyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aplonis metallica
       en: Aplonis metallica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

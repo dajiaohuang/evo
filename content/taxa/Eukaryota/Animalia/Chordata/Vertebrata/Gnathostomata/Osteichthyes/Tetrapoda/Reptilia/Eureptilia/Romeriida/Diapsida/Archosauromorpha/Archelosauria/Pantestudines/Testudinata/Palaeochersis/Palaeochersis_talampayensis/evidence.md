@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeochersis talampayensis
       en: Palaeochersis talampayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

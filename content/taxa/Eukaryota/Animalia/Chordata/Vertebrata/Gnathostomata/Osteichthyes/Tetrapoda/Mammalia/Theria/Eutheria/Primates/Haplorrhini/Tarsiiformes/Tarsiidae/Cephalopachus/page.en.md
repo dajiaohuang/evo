@@ -16,5 +16,5 @@ COL26.8 genus ID 3KFW links to the accepted C. bancanus page (SDLD). Read the Bu
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route links one accepted species page and two studies with different taxonomic scopes, sites, and methods. It is not an exhaustive Cephalopachus roster, genus-wide ecological synthesis, or range assessment. COL26.8 ID 3KFW fixes the genus identity. No dossier or external expert review was added. This page is not externally expert-reviewed.
+This route links one accepted species page and two studies with different taxonomic scopes, sites, and methods. It is not an exhaustive Cephalopachus roster, genus-wide ecological synthesis, or range assessment. COL26.8 ID 3KFW fixes the genus identity. This page is.
 <!-- /evo:text -->

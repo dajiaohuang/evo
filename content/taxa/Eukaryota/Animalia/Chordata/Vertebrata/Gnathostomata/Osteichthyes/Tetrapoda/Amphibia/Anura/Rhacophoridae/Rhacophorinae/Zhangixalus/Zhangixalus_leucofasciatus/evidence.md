@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus leucofasciatus
       zh: Zhangixalus leucofasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

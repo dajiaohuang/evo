@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer bimaculatus
       zh: Cornufer bimaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

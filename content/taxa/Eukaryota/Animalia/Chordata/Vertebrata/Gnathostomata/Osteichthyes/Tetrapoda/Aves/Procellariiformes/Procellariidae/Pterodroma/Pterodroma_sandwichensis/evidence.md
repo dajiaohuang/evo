@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodroma sandwichensis
       en: Pterodroma sandwichensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

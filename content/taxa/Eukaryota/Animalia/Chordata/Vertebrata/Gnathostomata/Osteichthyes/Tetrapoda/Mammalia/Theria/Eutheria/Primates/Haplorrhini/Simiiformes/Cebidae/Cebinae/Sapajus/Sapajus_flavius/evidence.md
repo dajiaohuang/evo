@@ -9,7 +9,6 @@ records:
     name:
       zh: 金发卷尾猴
       en: Blond Capuchin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: feeding

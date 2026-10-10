@@ -9,7 +9,6 @@ records:
     name:
       zh: Crithagra tristriata
       en: Crithagra tristriata
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

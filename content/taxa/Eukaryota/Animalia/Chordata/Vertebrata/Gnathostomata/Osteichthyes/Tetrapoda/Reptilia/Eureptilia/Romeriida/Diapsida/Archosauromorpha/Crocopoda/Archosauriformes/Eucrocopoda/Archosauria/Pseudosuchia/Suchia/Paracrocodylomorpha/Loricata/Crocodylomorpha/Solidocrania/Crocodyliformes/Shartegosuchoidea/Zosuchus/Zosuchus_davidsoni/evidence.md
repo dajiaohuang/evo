@@ -9,7 +9,6 @@ records:
     name:
       zh: Zosuchus davidsoni
       en: Zosuchus davidsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

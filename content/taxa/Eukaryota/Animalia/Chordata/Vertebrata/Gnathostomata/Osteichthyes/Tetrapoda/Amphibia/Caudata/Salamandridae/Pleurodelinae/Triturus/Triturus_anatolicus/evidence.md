@@ -9,7 +9,6 @@ records:
     name:
       en: Triturus anatolicus
       zh: Triturus anatolicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

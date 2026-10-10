@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus nanshanensis
       zh: Zhangixalus nanshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

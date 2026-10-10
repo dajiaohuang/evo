@@ -9,7 +9,6 @@ records:
     name:
       zh: 隆多矮伽拉戈
       en: Rondo Dwarf Galago
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

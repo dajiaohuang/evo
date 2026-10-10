@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudalsophis steindachneri
       en: Pseudalsophis steindachneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

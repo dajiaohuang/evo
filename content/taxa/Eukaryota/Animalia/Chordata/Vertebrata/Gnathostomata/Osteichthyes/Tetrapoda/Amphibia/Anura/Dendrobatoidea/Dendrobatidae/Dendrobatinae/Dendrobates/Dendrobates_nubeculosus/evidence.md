@@ -9,7 +9,6 @@ records:
     name:
       en: Dendrobates nubeculosus
       zh: Dendrobates nubeculosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

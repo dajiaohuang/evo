@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena taenioscelis
       zh: Ptychadena taenioscelis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

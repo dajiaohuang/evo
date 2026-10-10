@@ -9,7 +9,6 @@ records:
     name:
       zh: Draco spilonotus
       en: Draco spilonotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ranitomeya vanzolinii
       zh: Ranitomeya vanzolinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Grallaria eludens
       en: Grallaria eludens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: fedonkin-waggoner-1997-kimberella
       referenceLinks:
         - referenceId: fedonkin-waggoner-1997-kimberella
           relation: supports
@@ -69,7 +66,6 @@ records:
           locator: doi:10.1017/pab.2015.39
         - referenceId: fedonkin-waggoner-1997-kimberella
           locator: 868–871; mollusc-like body-plan dossier, not crown assignment
-      reviewStatus: not-reviewed
       evidenceLevel: literature-synthesized
 ---
 

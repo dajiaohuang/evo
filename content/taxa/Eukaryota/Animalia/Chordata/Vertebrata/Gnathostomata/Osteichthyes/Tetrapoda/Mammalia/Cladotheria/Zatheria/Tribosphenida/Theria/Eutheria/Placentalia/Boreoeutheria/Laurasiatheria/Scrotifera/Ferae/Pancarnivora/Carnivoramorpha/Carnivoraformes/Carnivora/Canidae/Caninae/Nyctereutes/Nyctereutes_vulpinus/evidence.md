@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctereutes vulpinus
       en: Nyctereutes vulpinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

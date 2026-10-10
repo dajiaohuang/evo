@@ -9,7 +9,6 @@ records:
     name:
       zh: Batomys granti
       en: Batomys granti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalohyrax gevini
       en: Megalohyrax gevini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Glyptemys insculpta
       en: Glyptemys insculpta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

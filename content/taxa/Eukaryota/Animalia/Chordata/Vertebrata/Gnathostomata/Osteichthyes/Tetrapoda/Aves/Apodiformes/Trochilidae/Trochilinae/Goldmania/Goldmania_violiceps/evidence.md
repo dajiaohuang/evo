@@ -9,7 +9,6 @@ records:
     name:
       zh: Goldmania violiceps
       en: Goldmania violiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

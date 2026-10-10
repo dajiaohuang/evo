@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-毛色在原描述中随年龄和光线变化；分布依据有限采样，Mahavavy du Sud 河以南范围未知。分类身份按 COL26.8，中文名为编辑翻译；尚未经过外部领域专家评审。
+毛色在原描述中随年龄和光线变化；分布依据有限采样，Mahavavy du Sud 河以南范围未知。分类身份按 COL26.8，中文名为编辑翻译。
 <!-- /evo:text -->

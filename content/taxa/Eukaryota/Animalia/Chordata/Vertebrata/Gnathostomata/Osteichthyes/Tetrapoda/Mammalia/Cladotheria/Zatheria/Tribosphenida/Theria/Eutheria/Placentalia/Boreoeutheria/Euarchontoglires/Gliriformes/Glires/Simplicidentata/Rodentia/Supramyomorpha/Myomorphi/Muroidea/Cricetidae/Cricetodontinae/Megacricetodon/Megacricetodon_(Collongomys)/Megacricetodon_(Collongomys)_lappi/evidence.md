@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacricetodon (Collongomys) lappi
       en: Megacricetodon (Collongomys) lappi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

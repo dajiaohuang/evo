@@ -121,10 +121,8 @@ dossier.completeness = {
     'Morphology now includes only a bounded cell-area result from two laboratory strains; baseline morphology, life history, distribution, fossil evidence, and conservation remain not-assessed.',
     'Ecology and evolution remain limited to a selected 2009 strain panel and five-locus analysis; those results do not establish complete species-wide accounts.',
     'No systematic literature review or complete comparison with the COL26.8 species concept has been completed.',
-    'Independent external expert review has not been completed.',
   ],
 }
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
 assert.equal(dossier.facets.morphology.status, 'partially-supported')
 assert.equal(dossier.facets.morphology.claims.length, 1)

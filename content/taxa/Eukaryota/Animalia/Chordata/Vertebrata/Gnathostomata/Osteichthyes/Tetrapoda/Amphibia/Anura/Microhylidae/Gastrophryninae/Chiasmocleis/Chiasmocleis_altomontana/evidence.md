@@ -9,7 +9,6 @@ records:
     name:
       en: Chiasmocleis altomontana
       zh: Chiasmocleis altomontana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

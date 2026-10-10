@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页结合分类描述与后续地点限定的声学研究，二者均不构成全分布区自然史综述。 本页尚未经过外部领域专家评审。
+本页结合分类描述与后续地点限定的声学研究，二者均不构成全分布区自然史综述。 。
 <!-- /evo:text -->

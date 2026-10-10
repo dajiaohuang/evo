@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis rammalensis
       en: Cnemaspis rammalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

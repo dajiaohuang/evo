@@ -9,7 +9,6 @@ records:
     name:
       zh: Caaeteboia amarali
       en: Caaeteboia amarali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

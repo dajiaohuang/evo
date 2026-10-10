@@ -9,7 +9,6 @@ records:
     name:
       zh: Podocnemididae 科
       en: Podocnemididae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

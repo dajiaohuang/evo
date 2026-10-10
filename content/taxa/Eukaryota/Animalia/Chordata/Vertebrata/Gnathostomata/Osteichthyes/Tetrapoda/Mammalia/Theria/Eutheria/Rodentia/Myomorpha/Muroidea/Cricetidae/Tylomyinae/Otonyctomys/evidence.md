@@ -9,7 +9,6 @@ records:
     name:
       zh: Otonyctomys
       en: Otonyctomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

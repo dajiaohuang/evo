@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsimylus yihesubuensis
       en: Hypsimylus yihesubuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

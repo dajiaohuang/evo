@@ -9,7 +9,6 @@ records:
     name:
       en: Oscaecilia polyzona
       zh: Oscaecilia polyzona
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

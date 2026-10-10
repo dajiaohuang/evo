@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius edaphonastes
       zh: Telmatobius edaphonastes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

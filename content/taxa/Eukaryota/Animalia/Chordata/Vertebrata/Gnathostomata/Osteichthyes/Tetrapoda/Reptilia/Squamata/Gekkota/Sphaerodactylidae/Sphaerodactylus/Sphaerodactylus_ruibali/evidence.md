@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus ruibali
       en: Sphaerodactylus ruibali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

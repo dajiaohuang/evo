@@ -9,7 +9,6 @@ records:
     name:
       zh: Masillastega rectirostris
       en: Masillastega rectirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

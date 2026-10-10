@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus gundlachi
       zh: Eleutherodactylus gundlachi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

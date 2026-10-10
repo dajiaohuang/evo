@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidophorus murphyi
       en: Tropidophorus murphyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

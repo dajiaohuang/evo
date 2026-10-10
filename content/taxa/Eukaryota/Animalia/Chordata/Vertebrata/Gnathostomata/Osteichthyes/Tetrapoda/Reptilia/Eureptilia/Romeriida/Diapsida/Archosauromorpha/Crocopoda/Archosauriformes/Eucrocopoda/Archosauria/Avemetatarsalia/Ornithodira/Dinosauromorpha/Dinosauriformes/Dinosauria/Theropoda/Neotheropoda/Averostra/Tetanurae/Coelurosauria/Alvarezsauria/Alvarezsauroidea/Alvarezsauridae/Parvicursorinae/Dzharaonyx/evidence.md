@@ -9,7 +9,6 @@ records:
     name:
       zh: Dzharaonyx
       en: Dzharaonyx
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

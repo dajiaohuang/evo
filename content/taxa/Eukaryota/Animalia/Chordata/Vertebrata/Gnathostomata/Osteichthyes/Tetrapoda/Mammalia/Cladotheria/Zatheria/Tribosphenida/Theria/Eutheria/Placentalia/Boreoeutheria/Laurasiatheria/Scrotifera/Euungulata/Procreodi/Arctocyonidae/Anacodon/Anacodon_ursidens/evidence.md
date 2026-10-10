@@ -9,7 +9,6 @@ records:
     name:
       zh: Anacodon ursidens
       en: Anacodon ursidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

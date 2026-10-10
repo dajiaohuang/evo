@@ -9,7 +9,6 @@ records:
     name:
       zh: Alopocosmodon hadrus
       en: Alopocosmodon hadrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

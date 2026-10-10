@@ -9,7 +9,6 @@ records:
     name:
       en: Agile Mangabey
       zh: 敏捷白眼丛猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: field_study

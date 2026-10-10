@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochalopteron imbricatum
       en: Trochalopteron imbricatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

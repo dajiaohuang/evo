@@ -9,7 +9,6 @@ records:
     name:
       zh: Petenyiella zelcea
       en: Petenyiella zelcea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Astrochelys rogerbouri
       en: Astrochelys rogerbouri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

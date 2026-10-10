@@ -9,7 +9,6 @@ records:
     name:
       zh: Alectoris rufa
       en: Alectoris rufa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

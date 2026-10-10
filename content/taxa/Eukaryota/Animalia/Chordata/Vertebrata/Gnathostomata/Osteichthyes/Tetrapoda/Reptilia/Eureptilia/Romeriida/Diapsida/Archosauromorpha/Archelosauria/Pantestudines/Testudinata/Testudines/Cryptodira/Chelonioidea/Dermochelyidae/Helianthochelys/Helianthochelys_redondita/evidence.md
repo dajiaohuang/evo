@@ -9,7 +9,6 @@ records:
     name:
       zh: Helianthochelys redondita
       en: Helianthochelys redondita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

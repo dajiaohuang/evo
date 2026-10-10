@@ -9,7 +9,6 @@ records:
     name:
       zh: Darevskia brauneri
       en: Darevskia brauneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页总结单一地点的行为研究，不提供全分布区年度平均值或完整自然史。本页尚未经过外部领域专家评审。
+本页总结单一地点的行为研究，不提供全分布区年度平均值或完整自然史。。
 <!-- /evo:text -->

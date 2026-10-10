@@ -9,7 +9,6 @@ records:
     name:
       zh: Cimolestes cuspulus
       en: Cimolestes cuspulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

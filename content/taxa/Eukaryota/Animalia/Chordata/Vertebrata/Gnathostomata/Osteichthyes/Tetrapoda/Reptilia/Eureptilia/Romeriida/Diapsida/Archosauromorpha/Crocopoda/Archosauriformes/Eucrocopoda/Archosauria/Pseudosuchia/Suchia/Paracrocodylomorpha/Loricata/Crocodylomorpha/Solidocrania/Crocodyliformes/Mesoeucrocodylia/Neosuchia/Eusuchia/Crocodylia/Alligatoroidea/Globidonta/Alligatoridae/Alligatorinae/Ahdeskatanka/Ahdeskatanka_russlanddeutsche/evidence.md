@@ -9,7 +9,6 @@ records:
     name:
       zh: Ahdeskatanka russlanddeutsche
       en: Ahdeskatanka russlanddeutsche
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

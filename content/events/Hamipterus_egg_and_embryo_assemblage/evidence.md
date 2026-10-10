@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Wang et al. 2017 DOI 10.1126/science.aan2329
       referenceLinks:
         - referenceId: wang-2017-hamipterus-eggs
           relation: supports

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris coccinigastrus
       en: Cinnyris coccinigastrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendragama boulengeri
       en: Dendragama boulengeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

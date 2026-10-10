@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus nigropunctatus
       en: Lygodactylus nigropunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

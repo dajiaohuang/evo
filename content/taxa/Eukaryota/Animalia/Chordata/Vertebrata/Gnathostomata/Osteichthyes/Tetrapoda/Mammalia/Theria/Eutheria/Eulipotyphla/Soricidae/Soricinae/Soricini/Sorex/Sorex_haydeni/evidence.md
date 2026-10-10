@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex haydeni
       en: Sorex haydeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Naja arabica
       en: Naja arabica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

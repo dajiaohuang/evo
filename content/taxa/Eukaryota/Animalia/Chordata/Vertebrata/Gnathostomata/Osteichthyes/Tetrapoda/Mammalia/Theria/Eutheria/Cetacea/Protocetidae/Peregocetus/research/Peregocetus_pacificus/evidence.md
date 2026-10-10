@@ -57,9 +57,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lambert-2019-peregocetus concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: lambert-2019-peregocetus
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: lambert-2019-peregocetus concrete-locator audit at 2026.09-static-v5-rc85
       referenceLinks:
         - referenceId: lambert-2019-peregocetus
           relation: supports
@@ -99,9 +93,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: lambert-2019-peregocetus concrete-locator audit at 2026.09-static-v5-rc85
       referenceLinks:
         - referenceId: lambert-2019-peregocetus
           relation: supports
@@ -120,9 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: lambert-2019-peregocetus concrete-locator audit at 2026.09-static-v5-rc85
       referenceLinks:
         - referenceId: lambert-2019-peregocetus
           relation: supports
@@ -141,9 +129,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: lambert-2019-peregocetus concrete-locator audit at 2026.09-static-v5-rc85
       referenceLinks:
         - referenceId: lambert-2019-peregocetus
           relation: supports
@@ -196,7 +181,6 @@ records:
       referenceLocators:
         - referenceId: lambert-2019-peregocetus
           locator: pp. 1352–1359.e3; Figures 1 and S1
-      reviewStatus: automated-audit-passed
 ---
 
 # Peregocetus pacificus

@@ -9,7 +9,6 @@ records:
     name:
       zh: Feducciavis loftini
       en: Feducciavis loftini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

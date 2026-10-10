@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemithraupis
       en: Hemithraupis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

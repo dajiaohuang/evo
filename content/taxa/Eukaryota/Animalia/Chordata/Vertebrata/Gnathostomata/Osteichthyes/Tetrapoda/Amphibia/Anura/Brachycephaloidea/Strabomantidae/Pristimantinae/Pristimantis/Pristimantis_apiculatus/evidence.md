@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis apiculatus
       zh: Pristimantis apiculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

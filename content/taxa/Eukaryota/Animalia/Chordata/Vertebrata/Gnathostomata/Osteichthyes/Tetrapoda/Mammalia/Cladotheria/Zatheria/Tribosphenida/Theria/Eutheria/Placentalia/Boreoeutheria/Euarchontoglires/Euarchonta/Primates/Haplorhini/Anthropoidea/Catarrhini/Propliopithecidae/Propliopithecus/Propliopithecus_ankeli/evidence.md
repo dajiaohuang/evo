@@ -9,7 +9,6 @@ records:
     name:
       zh: Propliopithecus ankeli
       en: Propliopithecus ankeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

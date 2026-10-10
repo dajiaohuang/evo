@@ -9,7 +9,6 @@ records:
     name:
       zh: Grallaricula ochraceifrons
       en: Grallaricula ochraceifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

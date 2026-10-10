@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus ramsdeni
       en: Sphaerodactylus ramsdeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -48,8 +48,8 @@ This batch’s Lepidochelys route includes 2 historical life-history accounts; s
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a source-linked route through two narrow anatomical studies, not a complete genus dossier or external expert review. The samples do not establish species-wide variation, population counts, current distributions or conservation status. Study findings retain their published sample boundaries; no figure or table is reproduced.
-This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This is a source-linked route through two narrow anatomical studies, not a complete genus dossier. The samples do not establish species-wide variation, population counts, current distributions or conservation status. Study findings retain their published sample boundaries; no figure or table is reproduced.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus natans
       en: Atractus natans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

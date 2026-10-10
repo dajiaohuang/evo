@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea unguidentis
       zh: Pseudoeurycea unguidentis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

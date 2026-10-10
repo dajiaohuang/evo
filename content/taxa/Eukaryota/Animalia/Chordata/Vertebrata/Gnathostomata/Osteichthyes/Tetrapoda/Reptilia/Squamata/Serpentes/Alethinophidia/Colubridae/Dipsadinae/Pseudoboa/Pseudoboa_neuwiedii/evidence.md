@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoboa neuwiedii
       en: Pseudoboa neuwiedii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

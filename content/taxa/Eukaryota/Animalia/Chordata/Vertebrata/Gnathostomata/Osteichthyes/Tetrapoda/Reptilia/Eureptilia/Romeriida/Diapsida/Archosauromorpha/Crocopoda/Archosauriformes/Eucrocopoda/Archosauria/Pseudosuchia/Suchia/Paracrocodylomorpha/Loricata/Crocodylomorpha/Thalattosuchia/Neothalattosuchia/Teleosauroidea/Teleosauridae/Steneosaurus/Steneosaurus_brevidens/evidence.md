@@ -9,7 +9,6 @@ records:
     name:
       zh: Steneosaurus brevidens
       en: Steneosaurus brevidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

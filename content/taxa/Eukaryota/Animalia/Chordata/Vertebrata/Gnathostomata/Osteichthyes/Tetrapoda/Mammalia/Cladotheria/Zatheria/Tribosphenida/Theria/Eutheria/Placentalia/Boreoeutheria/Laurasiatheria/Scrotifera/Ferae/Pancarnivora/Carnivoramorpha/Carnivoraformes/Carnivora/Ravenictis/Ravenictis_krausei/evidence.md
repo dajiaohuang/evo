@@ -9,7 +9,6 @@ records:
     name:
       zh: Ravenictis krausei
       en: Ravenictis krausei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

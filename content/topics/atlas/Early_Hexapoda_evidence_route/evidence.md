@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: whalley-jarzembowski-1981-rhyniella; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: whalley-jarzembowski-1981-rhyniella
           relation: contextualizes
@@ -85,7 +82,6 @@ records:
           locator: 291:317
         - referenceId: lozano-fernandez-2016-terrestrialization
           locator: 371:20150133
-      reviewStatus: automated-audit-passed
 ---
 
 # Early Hexapoda evidence route

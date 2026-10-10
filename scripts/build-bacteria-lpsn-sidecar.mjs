@@ -213,7 +213,7 @@ function buildExtension(crosswalk, species, resourcePacksRoot) {
     totalSourceBytes: file.sourceBytes,
     limitations: [
       'Only accepted species whose pinned COL26.8 sourceDatasetId is 2015 are eligible; ITIS and missing-source records are not name-matched to LPSN.',
-      'Source linkage is not an ecology, genome, strain, fossil, media, phylogeny, dossier, or expert-review claim.',
+      'Source linkage is not an ecology, genome, strain, fossil, media, phylogeny, dossier claim.',
       'The LPSN URL identifies a release-pinned nomenclatural source record; later taxonomic opinions may change.',
     ],
   }

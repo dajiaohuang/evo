@@ -9,7 +9,6 @@ records:
     name:
       zh: Domnina dakotensis
       en: Domnina dakotensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

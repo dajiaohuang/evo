@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerygone chloronota
       en: Gerygone chloronota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

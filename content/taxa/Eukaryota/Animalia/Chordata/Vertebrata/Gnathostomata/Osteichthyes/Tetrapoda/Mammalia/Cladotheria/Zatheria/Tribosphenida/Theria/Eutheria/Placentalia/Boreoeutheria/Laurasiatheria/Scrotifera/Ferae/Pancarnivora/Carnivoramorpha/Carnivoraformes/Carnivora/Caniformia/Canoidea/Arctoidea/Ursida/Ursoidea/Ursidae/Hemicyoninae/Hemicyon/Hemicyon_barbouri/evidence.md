@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemicyon barbouri
       en: Hemicyon barbouri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

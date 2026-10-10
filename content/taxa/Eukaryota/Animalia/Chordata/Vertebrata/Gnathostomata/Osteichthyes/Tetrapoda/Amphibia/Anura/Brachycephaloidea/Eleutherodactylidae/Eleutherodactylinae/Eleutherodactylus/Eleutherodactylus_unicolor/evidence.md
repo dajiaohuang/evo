@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus unicolor
       zh: Eleutherodactylus unicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

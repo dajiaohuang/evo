@@ -9,7 +9,6 @@ records:
     name:
       zh: Panaspis tancredii
       en: Panaspis tancredii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

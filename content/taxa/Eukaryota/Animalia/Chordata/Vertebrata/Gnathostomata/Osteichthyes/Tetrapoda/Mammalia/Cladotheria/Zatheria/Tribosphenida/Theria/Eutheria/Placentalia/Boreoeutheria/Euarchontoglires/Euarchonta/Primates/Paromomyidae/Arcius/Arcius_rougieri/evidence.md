@@ -9,7 +9,6 @@ records:
     name:
       zh: Arcius rougieri
       en: Arcius rougieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Clanga pomarina
       en: Clanga pomarina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

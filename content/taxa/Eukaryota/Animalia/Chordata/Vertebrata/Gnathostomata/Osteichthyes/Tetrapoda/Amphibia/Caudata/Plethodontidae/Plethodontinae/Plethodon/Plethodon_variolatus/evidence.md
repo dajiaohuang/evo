@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon variolatus
       zh: Plethodon variolatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

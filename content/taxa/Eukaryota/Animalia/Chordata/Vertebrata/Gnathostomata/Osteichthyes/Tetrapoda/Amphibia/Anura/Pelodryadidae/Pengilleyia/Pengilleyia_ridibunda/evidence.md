@@ -9,7 +9,6 @@ records:
     name:
       en: Pengilleyia ridibunda
       zh: Pengilleyia ridibunda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -16,5 +16,5 @@ McGraw's 2006 short communication tested four probabilistic methods against the 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The paper analyzes historical records under a subspecies name; its statistical result does not verify a living population, and the exact MDD crosswalk does not match this COL name. This source-linked draft is not externally expert-reviewed.
+The paper analyzes historical records under a subspecies name; its statistical result does not verify a living population, and the exact MDD crosswalk does not match this COL name. This source-linked draft is.
 <!-- /evo:text -->

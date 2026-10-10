@@ -9,7 +9,6 @@ records:
     name:
       zh: Neotoma (Paraneotoma) fossilis
       en: Neotoma (Paraneotoma) fossilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

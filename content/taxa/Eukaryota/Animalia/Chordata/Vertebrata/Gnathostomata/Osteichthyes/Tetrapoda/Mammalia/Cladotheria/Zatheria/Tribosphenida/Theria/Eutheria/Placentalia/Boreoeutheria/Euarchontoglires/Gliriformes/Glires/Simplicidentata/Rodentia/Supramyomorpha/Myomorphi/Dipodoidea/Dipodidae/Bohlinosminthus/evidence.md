@@ -9,7 +9,6 @@ records:
     name:
       zh: Bohlinosminthus
       en: Bohlinosminthus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

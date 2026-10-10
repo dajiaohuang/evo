@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalcites meyerii
       en: Chalcites meyerii
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

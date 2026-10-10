@@ -9,7 +9,6 @@ records:
     name:
       zh: Limnothlypis swainsonii
       en: Limnothlypis swainsonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

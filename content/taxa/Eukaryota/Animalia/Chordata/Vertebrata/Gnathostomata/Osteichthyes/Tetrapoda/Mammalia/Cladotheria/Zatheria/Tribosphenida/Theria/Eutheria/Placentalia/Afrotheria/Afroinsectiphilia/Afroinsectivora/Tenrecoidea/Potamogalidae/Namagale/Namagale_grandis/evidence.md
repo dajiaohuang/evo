@@ -9,7 +9,6 @@ records:
     name:
       zh: Namagale grandis
       en: Namagale grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

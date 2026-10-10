@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllurus nepthys
       en: Phyllurus nepthys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amerotyphlops trinitatus
       en: Amerotyphlops trinitatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

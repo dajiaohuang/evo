@@ -9,7 +9,6 @@ records:
     name:
       zh: Notoleptos giglii
       en: Notoleptos giglii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

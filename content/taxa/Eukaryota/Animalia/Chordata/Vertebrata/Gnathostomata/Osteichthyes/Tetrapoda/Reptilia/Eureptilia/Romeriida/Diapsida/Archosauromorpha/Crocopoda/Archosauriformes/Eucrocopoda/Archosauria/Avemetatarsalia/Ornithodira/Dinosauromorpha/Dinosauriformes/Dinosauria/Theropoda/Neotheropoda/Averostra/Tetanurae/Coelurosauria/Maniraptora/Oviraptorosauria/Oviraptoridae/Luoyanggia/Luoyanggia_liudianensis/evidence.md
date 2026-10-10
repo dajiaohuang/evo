@@ -9,7 +9,6 @@ records:
     name:
       zh: Luoyanggia liudianensis
       en: Luoyanggia liudianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

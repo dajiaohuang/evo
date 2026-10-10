@@ -9,7 +9,6 @@ records:
     name:
       zh: Geomys (Nerterogeomys) minor
       en: Geomys (Nerterogeomys) minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

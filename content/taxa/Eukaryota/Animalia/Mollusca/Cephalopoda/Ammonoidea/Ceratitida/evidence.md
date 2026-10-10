@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: shigeta-2001-ceratitida-origin
       referenceLinks:
         - referenceId: shigeta-2001-ceratitida-origin
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Shigeta et al. 2001 DOI 10.2517/prpsj.5.201
       referenceLinks:
         - relation: supports
           referenceId: shigeta-2001-ceratitida-origin
@@ -98,7 +92,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/1/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Ceratitida

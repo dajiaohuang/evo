@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Nikaido et al. 1999 DOI 10.1073/pnas.96.18.10261
       referenceLinks:
         - referenceId: nikaido-1999-cetartiodactyl-retroposons
           relation: supports

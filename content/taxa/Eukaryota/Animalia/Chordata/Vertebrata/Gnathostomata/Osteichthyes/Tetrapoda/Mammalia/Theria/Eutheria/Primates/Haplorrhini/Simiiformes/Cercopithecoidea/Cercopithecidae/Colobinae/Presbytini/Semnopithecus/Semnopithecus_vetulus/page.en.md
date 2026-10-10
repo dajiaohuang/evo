@@ -22,5 +22,5 @@ The study reported a relationship between whipworm prevalence and troop size, as
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a local research guide, not a comprehensive purple-faced leaf monkey account; it is not externally expert-reviewed. Sampling covered surveyed groups in Sri Lanka during 2017–2019, not the full range or current parasite status. Associations with habitat and troop size are not causal evidence. The publisher page did not confirm an open license, so this guide paraphrases abstract-level findings only.
+This is a local research guide, not a comprehensive purple-faced leaf monkey account. Sampling covered surveyed groups in Sri Lanka during 2017–2019, not the full range or current parasite status. Associations with habitat and troop size are not causal evidence. The publisher page did not confirm an open license, so this guide paraphrases abstract-level findings only.
 <!-- /evo:text -->

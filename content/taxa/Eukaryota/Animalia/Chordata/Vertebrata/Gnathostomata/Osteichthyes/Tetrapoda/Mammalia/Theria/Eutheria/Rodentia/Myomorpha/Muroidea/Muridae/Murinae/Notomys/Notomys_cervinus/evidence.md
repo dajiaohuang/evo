@@ -9,7 +9,6 @@ records:
     name:
       zh: Notomys cervinus
       en: Notomys cervinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptychophis flavovirgatus
       en: Ptychophis flavovirgatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 缅甸仰鼻猴
       en: Stryker's Snub-nosed Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

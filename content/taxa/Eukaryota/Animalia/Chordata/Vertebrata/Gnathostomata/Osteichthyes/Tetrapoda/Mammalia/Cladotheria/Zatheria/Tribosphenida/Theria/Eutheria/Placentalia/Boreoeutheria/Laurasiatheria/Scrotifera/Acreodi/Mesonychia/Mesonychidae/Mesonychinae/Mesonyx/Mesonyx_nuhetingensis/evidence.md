@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesonyx nuhetingensis
       en: Mesonyx nuhetingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oriolus phaeochromus
       en: Oriolus phaeochromus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

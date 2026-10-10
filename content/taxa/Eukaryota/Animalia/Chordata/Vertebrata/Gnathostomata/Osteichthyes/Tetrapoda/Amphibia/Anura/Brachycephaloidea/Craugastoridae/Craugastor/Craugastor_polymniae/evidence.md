@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor polymniae
       zh: Craugastor polymniae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

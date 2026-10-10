@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraepicrates brevispondylus
       en: Paraepicrates brevispondylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

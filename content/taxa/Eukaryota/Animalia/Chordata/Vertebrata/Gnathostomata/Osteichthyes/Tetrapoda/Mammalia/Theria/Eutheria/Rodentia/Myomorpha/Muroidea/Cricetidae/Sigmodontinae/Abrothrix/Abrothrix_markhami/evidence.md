@@ -9,7 +9,6 @@ records:
     name:
       zh: Abrothrix markhami
       en: Abrothrix markhami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

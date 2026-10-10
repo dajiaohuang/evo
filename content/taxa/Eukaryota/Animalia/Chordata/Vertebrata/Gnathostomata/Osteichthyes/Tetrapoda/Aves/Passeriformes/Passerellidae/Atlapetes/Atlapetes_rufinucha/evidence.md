@@ -9,7 +9,6 @@ records:
     name:
       zh: Atlapetes rufinucha
       en: Atlapetes rufinucha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

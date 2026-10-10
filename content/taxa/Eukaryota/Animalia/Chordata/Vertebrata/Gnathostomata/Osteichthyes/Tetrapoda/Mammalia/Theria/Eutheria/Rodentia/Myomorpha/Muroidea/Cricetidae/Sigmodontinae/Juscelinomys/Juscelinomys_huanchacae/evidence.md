@@ -9,7 +9,6 @@ records:
     name:
       zh: Juscelinomys huanchacae
       en: Juscelinomys huanchacae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

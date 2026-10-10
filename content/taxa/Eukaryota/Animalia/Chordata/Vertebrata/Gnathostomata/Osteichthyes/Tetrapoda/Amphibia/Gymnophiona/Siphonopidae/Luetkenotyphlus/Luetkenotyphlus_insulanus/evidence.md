@@ -9,7 +9,6 @@ records:
     name:
       en: Luetkenotyphlus insulanus
       zh: Luetkenotyphlus insulanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

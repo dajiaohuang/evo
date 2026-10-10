@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerrejonemys wayuunaiki
       en: Cerrejonemys wayuunaiki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

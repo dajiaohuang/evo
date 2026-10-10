@@ -9,7 +9,6 @@ records:
     name:
       en: Gracixalus sapaensis
       zh: Gracixalus sapaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

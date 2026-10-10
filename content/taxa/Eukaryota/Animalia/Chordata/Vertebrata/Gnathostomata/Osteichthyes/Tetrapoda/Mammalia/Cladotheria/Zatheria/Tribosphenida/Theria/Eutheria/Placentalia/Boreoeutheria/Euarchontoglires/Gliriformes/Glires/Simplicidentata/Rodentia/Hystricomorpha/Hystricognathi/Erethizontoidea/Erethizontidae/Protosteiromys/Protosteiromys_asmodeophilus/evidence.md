@@ -9,7 +9,6 @@ records:
     name:
       zh: Protosteiromys asmodeophilus
       en: Protosteiromys asmodeophilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

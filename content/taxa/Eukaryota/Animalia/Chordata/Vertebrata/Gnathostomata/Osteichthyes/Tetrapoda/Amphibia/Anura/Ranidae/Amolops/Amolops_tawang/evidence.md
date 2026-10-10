@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops tawang
       zh: Amolops tawang
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

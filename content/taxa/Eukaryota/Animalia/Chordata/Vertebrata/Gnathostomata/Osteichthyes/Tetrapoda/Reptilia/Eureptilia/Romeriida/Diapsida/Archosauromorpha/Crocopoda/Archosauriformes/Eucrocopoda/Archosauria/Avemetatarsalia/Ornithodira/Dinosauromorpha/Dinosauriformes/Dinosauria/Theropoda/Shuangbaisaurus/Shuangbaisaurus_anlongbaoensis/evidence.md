@@ -9,7 +9,6 @@ records:
     name:
       zh: Shuangbaisaurus anlongbaoensis
       en: Shuangbaisaurus anlongbaoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

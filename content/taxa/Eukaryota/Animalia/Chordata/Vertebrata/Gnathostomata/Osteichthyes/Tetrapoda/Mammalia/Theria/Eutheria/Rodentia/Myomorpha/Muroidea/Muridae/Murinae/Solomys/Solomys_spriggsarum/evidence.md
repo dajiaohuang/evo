@@ -9,7 +9,6 @@ records:
     name:
       zh: Solomys spriggsarum
       en: Solomys spriggsarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

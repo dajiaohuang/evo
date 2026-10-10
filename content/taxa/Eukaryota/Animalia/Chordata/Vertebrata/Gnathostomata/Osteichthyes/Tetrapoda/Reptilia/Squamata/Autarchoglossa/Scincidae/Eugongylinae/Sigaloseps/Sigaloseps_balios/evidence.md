@@ -9,7 +9,6 @@ records:
     name:
       zh: Sigaloseps balios
       en: Sigaloseps balios
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: xu-2006-yinlong concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: xu-2006-yinlong
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Xu et al. 2006 DOI 10.1098/rspb.2006.3566
       referenceLinks:
         - referenceId: xu-2006-yinlong
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Xu et al. 2006 DOI 10.1098/rspb.2006.3566
       referenceLinks:
         - referenceId: xu-2006-yinlong
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Xu et al. 2006 DOI 10.1098/rspb.2006.3566
       referenceLinks:
         - referenceId: xu-2006-yinlong
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Xu et al. 2006 DOI 10.1098/rspb.2006.3566
       referenceLinks:
         - referenceId: xu-2006-yinlong
           relation: supports
@@ -190,7 +175,6 @@ records:
       referenceLocators:
         - referenceId: xu-2006-yinlong
           locator: Cited specimen, figures and methods in the linked claim dossier
-      reviewStatus: automated-audit-passed
 ---
 
 # Yinlong downsi

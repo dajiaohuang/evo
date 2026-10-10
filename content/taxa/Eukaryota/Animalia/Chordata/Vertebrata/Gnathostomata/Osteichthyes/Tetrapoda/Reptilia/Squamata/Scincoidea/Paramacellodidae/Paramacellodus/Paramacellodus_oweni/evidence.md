@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramacellodus oweni
       en: Paramacellodus oweni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

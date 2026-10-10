@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis kendallii
       en: Cnemaspis kendallii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis isarog
       zh: Platymantis isarog
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

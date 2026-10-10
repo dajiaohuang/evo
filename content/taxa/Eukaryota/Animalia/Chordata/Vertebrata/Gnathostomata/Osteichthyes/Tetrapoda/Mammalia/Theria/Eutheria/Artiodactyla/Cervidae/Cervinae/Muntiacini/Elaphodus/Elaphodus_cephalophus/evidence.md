@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaphodus cephalophus
       en: Elaphodus cephalophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

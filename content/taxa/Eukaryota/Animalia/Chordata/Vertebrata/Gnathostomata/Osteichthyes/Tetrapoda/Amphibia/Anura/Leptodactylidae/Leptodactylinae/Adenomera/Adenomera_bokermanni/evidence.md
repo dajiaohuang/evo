@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera bokermanni
       zh: Adenomera bokermanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

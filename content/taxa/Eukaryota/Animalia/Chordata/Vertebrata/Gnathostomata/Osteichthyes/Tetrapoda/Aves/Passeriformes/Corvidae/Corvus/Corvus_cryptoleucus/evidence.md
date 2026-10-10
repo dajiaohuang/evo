@@ -9,7 +9,6 @@ records:
     name:
       zh: Corvus cryptoleucus
       en: Corvus cryptoleucus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

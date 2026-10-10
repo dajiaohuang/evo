@@ -9,7 +9,6 @@ records:
     name:
       zh: Emydura subglobosa
       en: Emydura subglobosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

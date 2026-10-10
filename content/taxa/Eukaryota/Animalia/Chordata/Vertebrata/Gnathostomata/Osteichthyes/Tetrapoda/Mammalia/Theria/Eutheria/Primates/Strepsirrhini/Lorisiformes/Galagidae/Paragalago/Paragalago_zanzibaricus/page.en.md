@@ -34,5 +34,5 @@ Zaraninge is one historical study site; its estimate does not establish current 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The page now includes a historical line-transect estimate from one Tanzanian coastal forest. It remains a single-site account, not a range-wide natural history, abundance change or current trend. This page has not received external expert review. This page is not externally expert-reviewed.
+The page now includes a historical line-transect estimate from one Tanzanian coastal forest. It remains a single-site account, not a range-wide natural history, abundance change or current trend. This page. This page is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Otus mirus
       en: Otus mirus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

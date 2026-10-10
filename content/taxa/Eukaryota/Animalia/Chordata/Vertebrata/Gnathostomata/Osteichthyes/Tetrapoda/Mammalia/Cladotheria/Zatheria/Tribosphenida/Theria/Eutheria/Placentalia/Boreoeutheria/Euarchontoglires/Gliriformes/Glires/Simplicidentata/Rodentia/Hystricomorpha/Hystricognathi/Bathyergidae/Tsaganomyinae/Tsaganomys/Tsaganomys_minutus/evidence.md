@@ -9,7 +9,6 @@ records:
     name:
       zh: Tsaganomys minutus
       en: Tsaganomys minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

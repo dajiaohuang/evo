@@ -9,7 +9,6 @@ records:
     name:
       zh: Elseya nadibajagu
       en: Elseya nadibajagu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

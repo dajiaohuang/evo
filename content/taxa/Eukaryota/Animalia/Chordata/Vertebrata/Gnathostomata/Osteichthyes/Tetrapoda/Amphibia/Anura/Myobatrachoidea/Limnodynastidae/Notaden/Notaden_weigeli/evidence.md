@@ -9,7 +9,6 @@ records:
     name:
       en: Notaden weigeli
       zh: Notaden weigeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

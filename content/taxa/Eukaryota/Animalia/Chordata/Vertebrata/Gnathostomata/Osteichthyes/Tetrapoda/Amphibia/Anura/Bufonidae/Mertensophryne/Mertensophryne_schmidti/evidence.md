@@ -9,7 +9,6 @@ records:
     name:
       en: Mertensophryne schmidti
       zh: Mertensophryne schmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

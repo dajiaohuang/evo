@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapera naevia
       en: Tapera naevia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

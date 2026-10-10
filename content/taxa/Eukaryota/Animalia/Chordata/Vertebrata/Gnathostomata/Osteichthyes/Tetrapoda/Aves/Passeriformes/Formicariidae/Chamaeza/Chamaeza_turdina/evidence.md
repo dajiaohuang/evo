@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamaeza turdina
       en: Chamaeza turdina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

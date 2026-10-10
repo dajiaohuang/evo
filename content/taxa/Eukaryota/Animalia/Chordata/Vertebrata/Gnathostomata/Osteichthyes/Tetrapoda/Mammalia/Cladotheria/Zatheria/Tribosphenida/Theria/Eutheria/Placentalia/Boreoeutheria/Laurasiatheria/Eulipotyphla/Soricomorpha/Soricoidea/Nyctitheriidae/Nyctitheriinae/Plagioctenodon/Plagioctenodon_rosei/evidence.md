@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagioctenodon rosei
       en: Plagioctenodon rosei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

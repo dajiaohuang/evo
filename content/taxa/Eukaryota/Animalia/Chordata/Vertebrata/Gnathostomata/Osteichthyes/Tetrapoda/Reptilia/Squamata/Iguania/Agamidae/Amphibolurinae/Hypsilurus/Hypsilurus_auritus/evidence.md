@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsilurus auritus
       en: Hypsilurus auritus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

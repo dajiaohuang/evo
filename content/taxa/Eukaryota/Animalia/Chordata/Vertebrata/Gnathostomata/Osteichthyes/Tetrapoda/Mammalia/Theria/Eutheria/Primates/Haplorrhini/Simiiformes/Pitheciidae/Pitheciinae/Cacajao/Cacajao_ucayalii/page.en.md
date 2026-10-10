@@ -22,7 +22,7 @@ León and Bowler classified 1,155 vocalizations from one wild population using a
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page combines an older-name habitat review, one-population vocal research and long-term seasonal encounters. Sites, dates and sampling methods differ; none provides a modern range-wide census. Ripe-fruit scores do not directly measure immature-seed availability, and seasonal movement needs tracking. Population trends, annual diet and species-wide behavior remain incompletely documented. Not externally expert-reviewed.
+This page combines an older-name habitat review, one-population vocal research and long-term seasonal encounters. Sites, dates and sampling methods differ; none provides a modern range-wide census. Ripe-fruit scores do not directly measure immature-seed availability, and seasonal movement needs tracking. Population trends, annual diet and species-wide behavior remain incompletely documented..
 <!-- /evo:text -->
 
 ## Seasonal sightings across nearly four decades

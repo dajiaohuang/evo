@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamaeleo dilepis
       en: Chamaeleo dilepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

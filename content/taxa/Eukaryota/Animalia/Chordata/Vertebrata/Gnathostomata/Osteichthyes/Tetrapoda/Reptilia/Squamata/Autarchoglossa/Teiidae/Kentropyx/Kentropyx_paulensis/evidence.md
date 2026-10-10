@@ -9,7 +9,6 @@ records:
     name:
       zh: Kentropyx paulensis
       en: Kentropyx paulensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

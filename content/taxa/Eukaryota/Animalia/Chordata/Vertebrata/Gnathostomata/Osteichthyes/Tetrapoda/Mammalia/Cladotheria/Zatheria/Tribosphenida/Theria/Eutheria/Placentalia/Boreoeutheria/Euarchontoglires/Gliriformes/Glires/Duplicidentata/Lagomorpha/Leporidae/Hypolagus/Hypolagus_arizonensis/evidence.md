@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypolagus arizonensis
       en: Hypolagus arizonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

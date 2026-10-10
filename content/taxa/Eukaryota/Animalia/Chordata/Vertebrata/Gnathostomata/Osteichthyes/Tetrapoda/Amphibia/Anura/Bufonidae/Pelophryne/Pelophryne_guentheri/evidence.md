@@ -9,7 +9,6 @@ records:
     name:
       en: Pelophryne guentheri
       zh: Pelophryne guentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

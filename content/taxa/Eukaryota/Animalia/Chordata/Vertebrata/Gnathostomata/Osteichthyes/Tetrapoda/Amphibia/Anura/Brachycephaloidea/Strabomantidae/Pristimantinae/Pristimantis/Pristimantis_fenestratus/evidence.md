@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis fenestratus
       zh: Pristimantis fenestratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

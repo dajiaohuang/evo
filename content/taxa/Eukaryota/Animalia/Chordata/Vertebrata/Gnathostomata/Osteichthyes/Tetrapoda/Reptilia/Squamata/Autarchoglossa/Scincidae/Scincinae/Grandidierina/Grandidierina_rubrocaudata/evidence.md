@@ -9,7 +9,6 @@ records:
     name:
       zh: Grandidierina rubrocaudata
       en: Grandidierina rubrocaudata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Melomys burtoni
       en: Melomys burtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Alipiopsitta xanthops
       en: Alipiopsitta xanthops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

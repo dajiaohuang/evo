@@ -9,7 +9,6 @@ records:
     name:
       zh: Anilios erycinus
       en: Anilios erycinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

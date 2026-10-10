@@ -9,7 +9,6 @@ records:
     name:
       zh: Lipaugus lanioides
       en: Lipaugus lanioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

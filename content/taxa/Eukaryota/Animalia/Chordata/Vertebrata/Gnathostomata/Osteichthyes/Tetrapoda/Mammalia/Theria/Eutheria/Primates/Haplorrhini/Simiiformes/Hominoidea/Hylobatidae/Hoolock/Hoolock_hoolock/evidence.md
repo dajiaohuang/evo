@@ -10,7 +10,6 @@ records:
     name:
       en: Western hoolock gibbon
       zh: 西部白眉长臂猿
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

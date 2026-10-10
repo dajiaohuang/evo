@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: stolarski-2011-scleractinia
       referenceLinks:
         - referenceId: stolarski-2011-scleractinia
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: oliver-1996-paleozoic-corals locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: oliver-1996-paleozoic-corals
@@ -97,7 +91,6 @@ records:
           locator: p. 107 Abstract; pp. 107–110; Middle Triassic–Holocene Scleractinia synthesis
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical Middle Triassic boundary
-      reviewStatus: automated-audit-passed
     - entityPath: content/taxa/Eukaryota/Animalia/Cnidaria/Anthozoa/Hexacorallia/Scleractinia
       rangeKind: taxon-range
       taxonomicConcept: Paleozoic scleractinian clock model evidence boundary
@@ -121,7 +114,6 @@ records:
       referenceLocators:
         - referenceId: stolarski-2011-scleractinia
           locator: 1–10; Figures 1–4; Additional files 1–4; Four-locus sampling, relaxed-clock calibration and deep-water lineages
-      reviewStatus: automated-audit-passed
     - entityPath: content/taxa/Eukaryota/Animalia/Cnidaria/Anthozoa/Hexacorallia/Scleractinia
       rangeKind: taxon-range
       taxonomicConcept: Late-Triassic coral photosymbiosis test evidence boundary
@@ -145,7 +137,6 @@ records:
       referenceLocators:
         - referenceId: frankowiak-2016-coral-symbiosis
           locator: e1601122; Figures 1–4; Supplementary Tables S1–S5; Skeleton microstructure and C, O and N isotope measurements
-      reviewStatus: automated-audit-passed
 ---
 
 # Scleractinia

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pitheculites rothi
       en: Pitheculites rothi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

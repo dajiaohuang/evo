@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophiomeryx chalaniati
       en: Lophiomeryx chalaniati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

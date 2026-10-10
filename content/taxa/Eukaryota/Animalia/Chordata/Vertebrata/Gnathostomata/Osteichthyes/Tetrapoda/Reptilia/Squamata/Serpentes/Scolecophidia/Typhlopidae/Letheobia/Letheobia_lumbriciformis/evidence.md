@@ -9,7 +9,6 @@ records:
     name:
       zh: Letheobia lumbriciformis
       en: Letheobia lumbriciformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

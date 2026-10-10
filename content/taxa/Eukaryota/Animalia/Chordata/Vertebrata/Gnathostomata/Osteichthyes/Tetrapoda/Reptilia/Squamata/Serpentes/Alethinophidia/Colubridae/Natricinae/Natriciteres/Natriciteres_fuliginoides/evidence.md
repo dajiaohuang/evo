@@ -9,7 +9,6 @@ records:
     name:
       zh: Natriciteres fuliginoides
       en: Natriciteres fuliginoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mastigodryas bruesi
       en: Mastigodryas bruesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

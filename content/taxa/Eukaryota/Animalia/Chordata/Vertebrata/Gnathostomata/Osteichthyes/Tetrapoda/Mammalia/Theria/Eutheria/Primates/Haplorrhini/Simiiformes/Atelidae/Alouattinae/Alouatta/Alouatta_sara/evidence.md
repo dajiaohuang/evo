@@ -9,7 +9,6 @@ records:
     name:
       zh: 玻利维亚红吼猴
       en: Bolivian Red Howler
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: population

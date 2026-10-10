@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetrao urogallus
       en: Tetrao urogallus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

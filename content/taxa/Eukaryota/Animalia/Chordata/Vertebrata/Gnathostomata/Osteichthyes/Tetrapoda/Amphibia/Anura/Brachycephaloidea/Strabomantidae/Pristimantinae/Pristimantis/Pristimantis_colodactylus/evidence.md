@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis colodactylus
       zh: Pristimantis colodactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

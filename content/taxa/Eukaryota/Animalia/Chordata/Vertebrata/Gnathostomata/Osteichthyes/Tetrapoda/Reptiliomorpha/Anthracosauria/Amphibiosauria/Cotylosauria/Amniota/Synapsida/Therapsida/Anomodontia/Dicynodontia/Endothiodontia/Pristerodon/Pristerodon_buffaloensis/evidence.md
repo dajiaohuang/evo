@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristerodon buffaloensis
       en: Pristerodon buffaloensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

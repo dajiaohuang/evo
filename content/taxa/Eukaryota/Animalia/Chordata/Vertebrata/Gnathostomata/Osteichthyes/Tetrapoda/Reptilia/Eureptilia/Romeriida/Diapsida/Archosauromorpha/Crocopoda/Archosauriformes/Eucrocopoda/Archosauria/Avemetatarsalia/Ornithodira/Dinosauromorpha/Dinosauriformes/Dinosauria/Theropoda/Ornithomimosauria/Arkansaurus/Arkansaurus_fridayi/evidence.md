@@ -9,7 +9,6 @@ records:
     name:
       zh: Arkansaurus fridayi
       en: Arkansaurus fridayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

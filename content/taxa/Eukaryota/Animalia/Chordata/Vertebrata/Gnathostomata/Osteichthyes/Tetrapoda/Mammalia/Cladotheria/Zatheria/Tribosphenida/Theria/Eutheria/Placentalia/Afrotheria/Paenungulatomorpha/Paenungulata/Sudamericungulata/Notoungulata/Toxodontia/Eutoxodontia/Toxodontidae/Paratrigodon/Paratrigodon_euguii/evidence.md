@@ -9,7 +9,6 @@ records:
     name:
       zh: Paratrigodon euguii
       en: Paratrigodon euguii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

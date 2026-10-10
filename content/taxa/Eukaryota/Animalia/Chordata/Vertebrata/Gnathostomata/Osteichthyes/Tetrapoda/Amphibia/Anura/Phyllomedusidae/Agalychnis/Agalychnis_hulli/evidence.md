@@ -9,7 +9,6 @@ records:
     name:
       en: Agalychnis hulli
       zh: Agalychnis hulli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

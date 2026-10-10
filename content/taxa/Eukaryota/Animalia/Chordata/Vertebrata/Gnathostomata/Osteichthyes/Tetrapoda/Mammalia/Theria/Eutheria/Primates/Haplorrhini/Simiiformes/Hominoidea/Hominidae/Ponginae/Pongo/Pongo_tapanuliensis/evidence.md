@@ -9,7 +9,6 @@ records:
     name:
       zh: 塔巴努里猩猩
       en: Tapanuli orangutan
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution
@@ -353,10 +352,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Pongo tapanuliensis
@@ -544,5 +539,5 @@ Six facets remain not assessed and the distribution evidence has acknowledged co
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Independent expert review and comprehensive multi-source review are incomplete.
+comprehensive multi-source search are incomplete.
 <!-- /evo:text -->

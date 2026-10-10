@@ -9,7 +9,6 @@ records:
     name:
       zh: Teyujagua paradoxa
       en: Teyujagua paradoxa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

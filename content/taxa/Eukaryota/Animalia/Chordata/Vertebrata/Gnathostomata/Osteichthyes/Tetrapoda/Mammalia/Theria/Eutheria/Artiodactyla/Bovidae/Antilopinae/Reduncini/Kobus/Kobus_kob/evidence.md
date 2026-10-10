@@ -9,7 +9,6 @@ records:
     name:
       zh: Kobus kob
       en: Kobus kob
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

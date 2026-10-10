@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus infacetus
       zh: Cophixalus infacetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

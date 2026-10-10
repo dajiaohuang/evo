@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor tarahumaraensis
       zh: Craugastor tarahumaraensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

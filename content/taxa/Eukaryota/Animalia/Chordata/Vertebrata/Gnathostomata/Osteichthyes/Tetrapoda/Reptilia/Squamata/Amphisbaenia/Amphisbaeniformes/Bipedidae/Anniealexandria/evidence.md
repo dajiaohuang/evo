@@ -9,7 +9,6 @@ records:
     name:
       zh: Anniealexandria
       en: Anniealexandria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

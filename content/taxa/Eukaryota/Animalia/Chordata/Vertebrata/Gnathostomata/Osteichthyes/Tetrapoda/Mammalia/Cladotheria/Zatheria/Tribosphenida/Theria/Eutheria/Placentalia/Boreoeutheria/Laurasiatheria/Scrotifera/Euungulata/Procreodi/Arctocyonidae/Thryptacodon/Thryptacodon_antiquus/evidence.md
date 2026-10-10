@@ -9,7 +9,6 @@ records:
     name:
       zh: Thryptacodon antiquus
       en: Thryptacodon antiquus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

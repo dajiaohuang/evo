@@ -9,7 +9,6 @@ records:
     name:
       zh: Teretrurus travancoricus
       en: Teretrurus travancoricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

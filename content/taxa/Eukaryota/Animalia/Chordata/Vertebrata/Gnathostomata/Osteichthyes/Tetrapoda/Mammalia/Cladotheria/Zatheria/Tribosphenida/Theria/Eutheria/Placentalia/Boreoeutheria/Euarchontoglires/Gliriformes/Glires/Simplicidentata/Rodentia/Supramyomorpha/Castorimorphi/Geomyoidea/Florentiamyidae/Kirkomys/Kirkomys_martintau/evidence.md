@@ -9,7 +9,6 @@ records:
     name:
       zh: Kirkomys martintau
       en: Kirkomys martintau
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

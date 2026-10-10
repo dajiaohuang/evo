@@ -9,7 +9,6 @@ records:
     name:
       zh: Dobsonia praedatrix
       en: Dobsonia praedatrix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

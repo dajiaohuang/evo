@@ -9,7 +9,6 @@ records:
     name:
       zh: Suncus remyi
       en: Suncus remyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

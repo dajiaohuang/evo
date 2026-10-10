@@ -9,7 +9,6 @@ records:
     name:
       en: Morerella
       zh: Morerella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

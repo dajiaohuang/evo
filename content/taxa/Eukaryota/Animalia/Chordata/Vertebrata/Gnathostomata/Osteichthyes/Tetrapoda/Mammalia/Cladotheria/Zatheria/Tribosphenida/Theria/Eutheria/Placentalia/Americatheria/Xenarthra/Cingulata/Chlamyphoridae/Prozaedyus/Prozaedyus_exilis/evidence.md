@@ -9,7 +9,6 @@ records:
     name:
       zh: Prozaedyus exilis
       en: Prozaedyus exilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

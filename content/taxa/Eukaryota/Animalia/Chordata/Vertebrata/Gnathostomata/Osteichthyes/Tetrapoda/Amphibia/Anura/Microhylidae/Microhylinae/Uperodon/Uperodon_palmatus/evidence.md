@@ -9,7 +9,6 @@ records:
     name:
       en: Uperodon palmatus
       zh: Uperodon palmatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Daeodon humerosus
       en: Daeodon humerosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

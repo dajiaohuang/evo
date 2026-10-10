@@ -9,7 +9,6 @@ records:
     name:
       zh: Furcifer minor
       en: Furcifer minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

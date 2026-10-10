@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrenasaurus evansae
       en: Pyrenasaurus evansae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

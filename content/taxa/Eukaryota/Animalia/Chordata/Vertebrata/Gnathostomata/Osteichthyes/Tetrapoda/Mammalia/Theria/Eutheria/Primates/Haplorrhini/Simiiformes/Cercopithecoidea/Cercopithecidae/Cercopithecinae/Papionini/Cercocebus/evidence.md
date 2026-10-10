@@ -9,7 +9,6 @@ records:
     name:
       en: Cercocebus Mangabey Reading Path
       zh: 白眼丛猴属阅读路径
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

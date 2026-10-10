@@ -9,7 +9,6 @@ records:
     name:
       en: Feihyla vittata
       zh: Feihyla vittata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

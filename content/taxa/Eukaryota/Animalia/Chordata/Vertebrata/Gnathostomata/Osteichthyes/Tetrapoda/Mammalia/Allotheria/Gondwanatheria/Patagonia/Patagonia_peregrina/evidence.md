@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagonia peregrina
       en: Patagonia peregrina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

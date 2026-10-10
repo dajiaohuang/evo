@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctitherium curtidens
       en: Nyctitherium curtidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

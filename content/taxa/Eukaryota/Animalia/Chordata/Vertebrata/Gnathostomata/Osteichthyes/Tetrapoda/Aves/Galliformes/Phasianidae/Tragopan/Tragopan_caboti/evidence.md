@@ -9,7 +9,6 @@ records:
     name:
       zh: Tragopan caboti
       en: Tragopan caboti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

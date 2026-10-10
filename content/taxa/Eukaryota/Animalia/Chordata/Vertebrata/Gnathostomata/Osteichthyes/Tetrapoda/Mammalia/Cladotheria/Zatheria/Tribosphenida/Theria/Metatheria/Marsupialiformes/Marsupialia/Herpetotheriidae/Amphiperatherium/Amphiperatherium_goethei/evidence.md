@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphiperatherium goethei
       en: Amphiperatherium goethei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

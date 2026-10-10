@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura usambarae
       en: Crocidura usambarae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Picus viridanus
       en: Picus viridanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Fahlbuschia darocensis
       en: Fahlbuschia darocensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

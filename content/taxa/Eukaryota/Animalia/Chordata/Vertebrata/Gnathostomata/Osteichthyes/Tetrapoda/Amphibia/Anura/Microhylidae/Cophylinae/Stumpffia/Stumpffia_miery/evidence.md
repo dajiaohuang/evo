@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia miery
       zh: Stumpffia miery
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

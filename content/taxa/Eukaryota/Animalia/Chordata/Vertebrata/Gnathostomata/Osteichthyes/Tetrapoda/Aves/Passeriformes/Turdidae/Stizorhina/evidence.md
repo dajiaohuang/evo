@@ -9,7 +9,6 @@ records:
     name:
       zh: Stizorhina
       en: Stizorhina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

@@ -9,7 +9,6 @@ records:
     name:
       zh: Veragromovia desmatotheroides
       en: Veragromovia desmatotheroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

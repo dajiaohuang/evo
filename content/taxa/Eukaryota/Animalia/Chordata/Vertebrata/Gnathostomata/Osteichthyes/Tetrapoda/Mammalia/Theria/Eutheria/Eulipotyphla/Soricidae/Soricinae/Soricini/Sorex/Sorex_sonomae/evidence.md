@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex sonomae
       en: Sorex sonomae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

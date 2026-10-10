@@ -9,7 +9,6 @@ records:
     name:
       zh: Riodevemys inumbragigas
       en: Riodevemys inumbragigas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

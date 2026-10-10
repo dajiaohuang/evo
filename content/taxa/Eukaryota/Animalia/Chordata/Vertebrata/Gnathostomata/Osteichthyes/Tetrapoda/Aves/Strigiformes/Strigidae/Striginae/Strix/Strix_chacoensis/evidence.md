@@ -9,7 +9,6 @@ records:
     name:
       zh: Strix chacoensis
       en: Strix chacoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

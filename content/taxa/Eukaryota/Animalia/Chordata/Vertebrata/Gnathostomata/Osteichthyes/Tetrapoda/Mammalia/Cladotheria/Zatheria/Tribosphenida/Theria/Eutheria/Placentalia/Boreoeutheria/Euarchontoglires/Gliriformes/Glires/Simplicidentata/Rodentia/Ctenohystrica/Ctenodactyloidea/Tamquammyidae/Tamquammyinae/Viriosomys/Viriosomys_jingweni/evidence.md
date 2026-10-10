@@ -9,7 +9,6 @@ records:
     name:
       zh: Viriosomys jingweni
       en: Viriosomys jingweni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Larus marinus
       en: Larus marinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Apatosaurus ajax
       en: Apatosaurus ajax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

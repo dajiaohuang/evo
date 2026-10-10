@@ -9,7 +9,6 @@ records:
     name:
       zh: Lamprophis fiskii
       en: Lamprophis fiskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

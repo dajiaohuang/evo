@@ -9,7 +9,6 @@ records:
     name:
       en: Araçá Uacari
       zh: 阿拉萨秃乌卡里
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: taxonomy

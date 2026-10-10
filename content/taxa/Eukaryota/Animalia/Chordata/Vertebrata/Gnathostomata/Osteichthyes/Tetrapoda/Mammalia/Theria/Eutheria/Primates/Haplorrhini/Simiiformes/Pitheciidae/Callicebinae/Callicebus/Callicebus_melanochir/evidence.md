@@ -9,7 +9,6 @@ records:
     name:
       zh: 海岸黑手蒂蒂猴
       en: Coastal Black-handed Titi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

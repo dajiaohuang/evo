@@ -9,7 +9,6 @@ records:
     name:
       en: Paratelmatobius lutzii
       zh: Paratelmatobius lutzii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

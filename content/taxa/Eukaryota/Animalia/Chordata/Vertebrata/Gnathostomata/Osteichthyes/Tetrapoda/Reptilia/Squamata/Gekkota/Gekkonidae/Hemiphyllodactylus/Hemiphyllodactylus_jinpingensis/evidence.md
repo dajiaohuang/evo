@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus jinpingensis
       en: Hemiphyllodactylus jinpingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

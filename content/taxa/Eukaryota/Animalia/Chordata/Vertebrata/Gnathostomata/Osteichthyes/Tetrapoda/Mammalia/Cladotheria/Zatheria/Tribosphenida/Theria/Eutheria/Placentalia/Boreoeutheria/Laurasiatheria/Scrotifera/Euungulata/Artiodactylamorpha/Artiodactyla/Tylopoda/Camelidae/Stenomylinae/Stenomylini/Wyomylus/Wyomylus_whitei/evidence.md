@@ -9,7 +9,6 @@ records:
     name:
       zh: Wyomylus whitei
       en: Wyomylus whitei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

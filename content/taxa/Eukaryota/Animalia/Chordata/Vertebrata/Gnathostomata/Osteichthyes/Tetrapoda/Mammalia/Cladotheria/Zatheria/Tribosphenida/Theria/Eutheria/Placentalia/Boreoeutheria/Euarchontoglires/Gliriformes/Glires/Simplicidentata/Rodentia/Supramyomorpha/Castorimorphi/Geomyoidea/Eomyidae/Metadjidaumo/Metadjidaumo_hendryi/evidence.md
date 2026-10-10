@@ -9,7 +9,6 @@ records:
     name:
       zh: Metadjidaumo hendryi
       en: Metadjidaumo hendryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

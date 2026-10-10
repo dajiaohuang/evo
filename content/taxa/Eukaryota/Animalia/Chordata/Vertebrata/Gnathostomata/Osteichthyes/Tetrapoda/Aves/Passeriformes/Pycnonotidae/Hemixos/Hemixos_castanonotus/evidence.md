@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemixos castanonotus
       en: Hemixos castanonotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

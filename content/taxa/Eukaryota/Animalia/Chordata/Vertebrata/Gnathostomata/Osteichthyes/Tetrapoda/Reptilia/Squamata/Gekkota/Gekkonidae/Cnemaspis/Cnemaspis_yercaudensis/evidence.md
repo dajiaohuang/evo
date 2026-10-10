@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis yercaudensis
       en: Cnemaspis yercaudensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

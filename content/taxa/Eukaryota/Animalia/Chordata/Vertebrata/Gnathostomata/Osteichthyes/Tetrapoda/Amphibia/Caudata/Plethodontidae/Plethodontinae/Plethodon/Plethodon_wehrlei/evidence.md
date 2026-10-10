@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon wehrlei
       zh: Plethodon wehrlei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

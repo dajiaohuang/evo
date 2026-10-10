@@ -9,7 +9,6 @@ records:
     name:
       zh: Notoceratops bonarelli
       en: Notoceratops bonarelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

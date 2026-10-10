@@ -9,7 +9,6 @@ records:
     name:
       en: Leiopelma hamiltoni
       zh: Leiopelma hamiltoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

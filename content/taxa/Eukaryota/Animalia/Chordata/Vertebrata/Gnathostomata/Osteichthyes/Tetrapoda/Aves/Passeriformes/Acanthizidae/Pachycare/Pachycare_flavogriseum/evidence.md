@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycare flavogriseum
       en: Pachycare flavogriseum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

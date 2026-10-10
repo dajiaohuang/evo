@@ -9,7 +9,6 @@ records:
     name:
       zh: Liopholidophis oligolepis
       en: Liopholidophis oligolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

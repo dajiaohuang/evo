@@ -9,7 +9,6 @@ records:
     name:
       zh: Psittacotherium
       en: Psittacotherium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

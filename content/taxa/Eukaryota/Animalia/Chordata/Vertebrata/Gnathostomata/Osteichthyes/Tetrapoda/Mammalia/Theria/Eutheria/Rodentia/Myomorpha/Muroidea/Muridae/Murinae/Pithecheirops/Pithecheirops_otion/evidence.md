@@ -9,7 +9,6 @@ records:
     name:
       zh: Pithecheirops otion
       en: Pithecheirops otion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

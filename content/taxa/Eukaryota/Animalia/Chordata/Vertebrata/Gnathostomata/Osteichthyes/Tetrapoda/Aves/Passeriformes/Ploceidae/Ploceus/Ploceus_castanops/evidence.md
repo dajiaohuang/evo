@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus castanops
       en: Ploceus castanops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

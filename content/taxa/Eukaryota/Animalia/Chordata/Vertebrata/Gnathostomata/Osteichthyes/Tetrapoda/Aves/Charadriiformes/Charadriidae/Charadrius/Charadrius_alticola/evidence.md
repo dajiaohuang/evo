@@ -9,7 +9,6 @@ records:
     name:
       zh: Charadrius alticola
       en: Charadrius alticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

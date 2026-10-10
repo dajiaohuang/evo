@@ -9,7 +9,6 @@ records:
     name:
       zh: Atoposaurus jourdani
       en: Atoposaurus jourdani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

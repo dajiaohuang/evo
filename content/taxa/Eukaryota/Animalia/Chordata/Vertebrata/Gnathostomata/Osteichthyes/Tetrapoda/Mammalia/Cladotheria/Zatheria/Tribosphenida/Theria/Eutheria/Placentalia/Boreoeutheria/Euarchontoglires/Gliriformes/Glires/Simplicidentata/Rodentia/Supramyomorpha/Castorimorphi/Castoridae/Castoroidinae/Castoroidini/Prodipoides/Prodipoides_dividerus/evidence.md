@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodipoides dividerus
       en: Prodipoides dividerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

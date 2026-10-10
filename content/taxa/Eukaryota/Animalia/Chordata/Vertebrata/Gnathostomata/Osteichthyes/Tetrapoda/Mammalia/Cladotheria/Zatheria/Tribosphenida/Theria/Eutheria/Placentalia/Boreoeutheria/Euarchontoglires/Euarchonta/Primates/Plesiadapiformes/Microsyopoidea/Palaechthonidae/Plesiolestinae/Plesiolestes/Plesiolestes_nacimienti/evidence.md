@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiolestes nacimienti
       en: Plesiolestes nacimienti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aplonis panayensis
       en: Aplonis panayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

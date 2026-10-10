@@ -9,7 +9,6 @@ records:
     name:
       zh: Prolapsus junctionis
       en: Prolapsus junctionis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne anthonyi
       zh: Oreophryne anthonyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

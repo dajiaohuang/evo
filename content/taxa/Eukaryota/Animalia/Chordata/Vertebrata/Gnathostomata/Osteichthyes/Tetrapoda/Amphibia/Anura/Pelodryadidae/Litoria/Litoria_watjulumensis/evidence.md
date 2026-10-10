@@ -9,7 +9,6 @@ records:
     name:
       en: Litoria watjulumensis
       zh: Litoria watjulumensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

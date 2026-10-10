@@ -9,7 +9,6 @@ records:
     name:
       zh: Pericrocotus cantonensis
       en: Pericrocotus cantonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

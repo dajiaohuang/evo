@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllomedusa tarsius
       zh: Phyllomedusa tarsius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

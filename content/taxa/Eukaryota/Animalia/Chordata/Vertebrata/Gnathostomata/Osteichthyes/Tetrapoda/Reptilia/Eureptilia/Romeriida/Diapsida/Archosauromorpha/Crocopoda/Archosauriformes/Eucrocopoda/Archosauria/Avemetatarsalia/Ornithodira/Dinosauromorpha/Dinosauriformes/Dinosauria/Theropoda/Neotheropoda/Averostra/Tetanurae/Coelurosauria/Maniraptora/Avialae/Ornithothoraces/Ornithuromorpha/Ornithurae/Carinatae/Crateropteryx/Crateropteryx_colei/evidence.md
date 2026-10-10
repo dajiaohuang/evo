@@ -9,7 +9,6 @@ records:
     name:
       zh: Crateropteryx colei
       en: Crateropteryx colei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rattus mordax
       en: Rattus mordax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

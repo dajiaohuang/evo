@@ -9,7 +9,6 @@ records:
     name:
       zh: Zhigdenia nemegetica
       en: Zhigdenia nemegetica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

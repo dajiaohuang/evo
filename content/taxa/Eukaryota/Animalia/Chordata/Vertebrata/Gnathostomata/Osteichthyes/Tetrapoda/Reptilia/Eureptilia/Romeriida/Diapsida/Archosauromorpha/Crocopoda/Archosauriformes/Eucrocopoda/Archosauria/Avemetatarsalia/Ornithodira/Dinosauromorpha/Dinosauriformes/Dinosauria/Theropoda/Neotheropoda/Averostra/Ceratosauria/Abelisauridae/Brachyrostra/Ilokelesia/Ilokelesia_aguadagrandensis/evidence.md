@@ -9,7 +9,6 @@ records:
     name:
       zh: Ilokelesia aguadagrandensis
       en: Ilokelesia aguadagrandensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

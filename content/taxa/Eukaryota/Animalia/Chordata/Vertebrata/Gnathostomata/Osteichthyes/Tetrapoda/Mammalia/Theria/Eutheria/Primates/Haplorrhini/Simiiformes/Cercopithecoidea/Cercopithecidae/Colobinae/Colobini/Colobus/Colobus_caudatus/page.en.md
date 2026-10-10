@@ -34,5 +34,5 @@ The English name follows the source’s Mount Kilimanjaro Guereza, and the Chine
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Core field records come from short rapid surveys at two Kenyan forests in 2014; the range map depends on historical records compiled by that paper. The source uses subspecies rank, while this page follows the pinned COL26.8 species identity and retains that rank difference. No current abundance or conservation category is asserted. Not externally expert-reviewed. This page is not externally expert-reviewed.
+Core field records come from short rapid surveys at two Kenyan forests in 2014; the range map depends on historical records compiled by that paper. The source uses subspecies rank, while this page follows the pinned COL26.8 species identity and retains that rank difference. No current abundance or conservation category is asserted.. This page is.
 <!-- /evo:text -->

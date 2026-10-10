@@ -9,7 +9,6 @@ records:
     name:
       zh: Steno bredanensis
       en: Steno bredanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

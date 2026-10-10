@@ -22,5 +22,5 @@ MDD 将该种显示为 Southern Bamboo Lemur，模式地点为 Mandena 林业站
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-两篇生态研究都位于 Mandena 沿海林地并限定于采样季节与社会群体；本页不据此给出全种食谱、完整范围或现今状态。 所有页面均未经过外部领域专家评审。
+两篇生态研究都位于 Mandena 沿海林地并限定于采样季节与社会群体；本页不据此给出全种食谱、完整范围或现今状态。 。
 <!-- /evo:text -->

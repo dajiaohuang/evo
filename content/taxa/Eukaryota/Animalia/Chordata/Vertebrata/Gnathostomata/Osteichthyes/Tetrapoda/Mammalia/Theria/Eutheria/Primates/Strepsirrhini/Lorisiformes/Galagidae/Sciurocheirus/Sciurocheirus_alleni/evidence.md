@@ -9,7 +9,6 @@ records:
     name:
       en: Bioko Squirrel Galago
       zh: 比奥科松鼠婴猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protemnodon buloloensis
       en: Protemnodon buloloensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

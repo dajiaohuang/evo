@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylidonyris novaehollandiae
       en: Phylidonyris novaehollandiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scapanoscapter simplicidens
       en: Scapanoscapter simplicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

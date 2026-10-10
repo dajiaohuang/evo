@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops sagittatus
       zh: Callulops sagittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

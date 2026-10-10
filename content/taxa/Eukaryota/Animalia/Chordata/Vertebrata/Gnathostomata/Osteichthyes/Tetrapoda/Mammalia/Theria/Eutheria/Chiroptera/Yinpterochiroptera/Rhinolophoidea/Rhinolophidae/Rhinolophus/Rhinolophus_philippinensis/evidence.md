@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus philippinensis
       en: Rhinolophus philippinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

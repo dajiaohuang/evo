@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius fusciventris
       zh: Hyperolius fusciventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anas platyrhynchos
       en: Anas platyrhynchos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

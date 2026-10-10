@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus regius
       zh: Pseudophilautus regius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

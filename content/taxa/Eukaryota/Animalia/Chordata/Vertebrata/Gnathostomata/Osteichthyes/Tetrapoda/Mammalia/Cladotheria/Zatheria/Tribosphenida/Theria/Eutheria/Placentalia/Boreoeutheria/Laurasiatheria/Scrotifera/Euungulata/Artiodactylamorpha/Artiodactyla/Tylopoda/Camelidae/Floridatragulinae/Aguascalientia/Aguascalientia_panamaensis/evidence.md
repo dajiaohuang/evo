@@ -9,7 +9,6 @@ records:
     name:
       zh: Aguascalientia panamaensis
       en: Aguascalientia panamaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

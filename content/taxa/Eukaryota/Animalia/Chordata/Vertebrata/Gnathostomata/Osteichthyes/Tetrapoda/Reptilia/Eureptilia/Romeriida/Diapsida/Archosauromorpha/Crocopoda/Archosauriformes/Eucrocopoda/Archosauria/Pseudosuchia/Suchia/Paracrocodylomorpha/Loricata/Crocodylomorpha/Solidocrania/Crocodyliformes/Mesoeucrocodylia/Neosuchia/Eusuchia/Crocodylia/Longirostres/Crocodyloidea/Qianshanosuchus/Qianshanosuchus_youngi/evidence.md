@@ -9,7 +9,6 @@ records:
     name:
       zh: Qianshanosuchus youngi
       en: Qianshanosuchus youngi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

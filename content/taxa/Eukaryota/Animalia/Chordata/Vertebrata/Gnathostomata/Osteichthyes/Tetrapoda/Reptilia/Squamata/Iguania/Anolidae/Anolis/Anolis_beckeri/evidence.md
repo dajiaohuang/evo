@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis beckeri
       en: Anolis beckeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

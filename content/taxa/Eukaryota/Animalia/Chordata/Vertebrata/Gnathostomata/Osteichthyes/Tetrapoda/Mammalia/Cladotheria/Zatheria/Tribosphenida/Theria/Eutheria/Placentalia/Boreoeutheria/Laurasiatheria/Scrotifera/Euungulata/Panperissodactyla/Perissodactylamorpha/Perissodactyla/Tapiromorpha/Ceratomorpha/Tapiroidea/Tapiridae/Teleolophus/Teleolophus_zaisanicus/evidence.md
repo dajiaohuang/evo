@@ -9,7 +9,6 @@ records:
     name:
       zh: Teleolophus zaisanicus
       en: Teleolophus zaisanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

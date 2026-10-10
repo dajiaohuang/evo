@@ -9,7 +9,6 @@ records:
     name:
       zh: Baioconodon nordicus
       en: Baioconodon nordicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

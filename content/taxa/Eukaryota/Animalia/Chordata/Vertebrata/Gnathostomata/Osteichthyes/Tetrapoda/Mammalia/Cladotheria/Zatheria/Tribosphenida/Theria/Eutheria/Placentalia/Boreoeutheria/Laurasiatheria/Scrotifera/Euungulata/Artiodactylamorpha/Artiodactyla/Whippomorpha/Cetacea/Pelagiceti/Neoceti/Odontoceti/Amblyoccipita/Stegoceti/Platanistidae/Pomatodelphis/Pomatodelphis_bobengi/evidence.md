@@ -9,7 +9,6 @@ records:
     name:
       zh: Pomatodelphis bobengi
       en: Pomatodelphis bobengi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -30,5 +30,5 @@ Start with Dineobellator notohesperus and compare each page’s named collection
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route connects occurrence records with the 2020 holotype description. It is not a complete descendant catalogue or unified ecology. Record counts do not measure specimens, individuals, populations or sampling intensity, and age envelopes do not date origin or extinction. PBDB classification remains distinct from COL and other phylogenetic schemes. Functional hypotheses and relationships within the family retain the study’s scope. No external expert review has occurred.
+This route connects occurrence records with the 2020 holotype description. It is not a complete descendant catalogue or unified ecology. Record counts do not measure specimens, individuals, populations or sampling intensity, and age envelopes do not date origin or extinction. PBDB classification remains distinct from COL and other phylogenetic schemes. Functional hypotheses and relationships within the family retain the study’s scope.
 <!-- /evo:text -->

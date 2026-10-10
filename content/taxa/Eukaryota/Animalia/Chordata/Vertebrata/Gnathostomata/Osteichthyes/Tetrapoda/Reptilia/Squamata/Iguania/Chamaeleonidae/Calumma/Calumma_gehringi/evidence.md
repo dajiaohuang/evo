@@ -9,7 +9,6 @@ records:
     name:
       zh: Calumma gehringi
       en: Calumma gehringi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Minervarya muangkanensis
       zh: Minervarya muangkanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

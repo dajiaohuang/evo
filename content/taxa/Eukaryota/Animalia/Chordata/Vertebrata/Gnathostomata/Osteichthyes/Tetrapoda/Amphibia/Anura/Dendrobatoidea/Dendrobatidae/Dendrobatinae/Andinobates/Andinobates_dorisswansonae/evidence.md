@@ -9,7 +9,6 @@ records:
     name:
       en: Andinobates dorisswansonae
       zh: Andinobates dorisswansonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

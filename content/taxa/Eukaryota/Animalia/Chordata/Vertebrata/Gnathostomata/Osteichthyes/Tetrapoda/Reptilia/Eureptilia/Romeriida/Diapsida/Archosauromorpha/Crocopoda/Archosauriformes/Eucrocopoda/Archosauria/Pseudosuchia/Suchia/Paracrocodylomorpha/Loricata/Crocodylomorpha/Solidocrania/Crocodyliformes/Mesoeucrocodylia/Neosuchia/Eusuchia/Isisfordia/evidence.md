@@ -9,7 +9,6 @@ records:
     name:
       zh: Isisfordia
       en: Isisfordia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

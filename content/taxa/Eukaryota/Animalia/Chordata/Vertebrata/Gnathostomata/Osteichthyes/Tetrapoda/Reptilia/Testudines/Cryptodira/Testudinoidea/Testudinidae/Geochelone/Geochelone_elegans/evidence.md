@@ -9,7 +9,6 @@ records:
     name:
       zh: Geochelone elegans
       en: Geochelone elegans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

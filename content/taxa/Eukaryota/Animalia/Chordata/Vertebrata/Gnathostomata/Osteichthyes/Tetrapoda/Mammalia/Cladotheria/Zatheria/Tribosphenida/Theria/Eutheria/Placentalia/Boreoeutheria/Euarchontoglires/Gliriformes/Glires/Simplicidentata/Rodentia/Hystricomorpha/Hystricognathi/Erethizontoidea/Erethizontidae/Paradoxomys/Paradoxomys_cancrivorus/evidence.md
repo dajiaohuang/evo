@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradoxomys cancrivorus
       en: Paradoxomys cancrivorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

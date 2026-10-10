@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiogulo praecocidens
       en: Plesiogulo praecocidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

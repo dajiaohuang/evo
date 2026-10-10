@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenomys nelsoni
       en: Xenomys nelsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

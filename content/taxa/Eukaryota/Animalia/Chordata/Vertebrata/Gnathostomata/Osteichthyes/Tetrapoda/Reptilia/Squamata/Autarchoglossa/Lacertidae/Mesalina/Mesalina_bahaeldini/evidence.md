@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesalina bahaeldini
       en: Mesalina bahaeldini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

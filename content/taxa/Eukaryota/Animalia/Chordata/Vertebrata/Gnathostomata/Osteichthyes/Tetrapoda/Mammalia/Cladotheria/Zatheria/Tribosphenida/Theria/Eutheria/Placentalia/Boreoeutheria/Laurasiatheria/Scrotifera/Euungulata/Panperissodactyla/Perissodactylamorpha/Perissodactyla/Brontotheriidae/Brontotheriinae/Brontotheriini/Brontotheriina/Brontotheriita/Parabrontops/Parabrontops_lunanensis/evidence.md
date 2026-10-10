@@ -9,7 +9,6 @@ records:
     name:
       zh: Parabrontops lunanensis
       en: Parabrontops lunanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

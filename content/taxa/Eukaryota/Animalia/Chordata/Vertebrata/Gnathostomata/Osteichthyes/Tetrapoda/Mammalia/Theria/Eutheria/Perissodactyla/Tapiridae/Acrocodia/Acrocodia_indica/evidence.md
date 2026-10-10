@@ -9,7 +9,6 @@ records:
     name:
       zh: 马来貘
       en: Malayan tapir
-    reviewStatus: source-linked
     checkedAt: 2026-09-22
     sections:
       - topic:

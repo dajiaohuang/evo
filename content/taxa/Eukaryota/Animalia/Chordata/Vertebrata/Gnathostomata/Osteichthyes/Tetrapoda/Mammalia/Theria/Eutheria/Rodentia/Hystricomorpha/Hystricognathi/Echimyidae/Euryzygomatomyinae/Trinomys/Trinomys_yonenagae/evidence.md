@@ -9,7 +9,6 @@ records:
     name:
       zh: Trinomys yonenagae
       en: Trinomys yonenagae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

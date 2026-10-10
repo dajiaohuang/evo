@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops yatseni
       zh: Amolops yatseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

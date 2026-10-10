@@ -9,7 +9,6 @@ records:
     name:
       zh: Lomasuchus palpebrosus
       en: Lomasuchus palpebrosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

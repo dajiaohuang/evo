@@ -16,7 +16,6 @@
     "firstAppearance",
     "lastAppearance",
     "rangeEvidenceLevel",
-    "rangeReviewStatus",
     "rangeProvisional",
     "geography",
     "overview",
@@ -84,15 +83,7 @@
         "legacy-display",
         "database-derived",
         "literature-synthesized",
-        "withheld-no-range-evidence",
-        "expert-reviewed"
-      ]
-    },
-    "rangeReviewStatus": {
-      "enum": [
-        "not-reviewed",
-        "automated-audit-passed",
-        "expert-reviewed"
+        "withheld-no-range-evidence"
       ]
     },
     "rangeProvisional": {
@@ -167,8 +158,7 @@
               "legacy-display",
               "database-derived",
               "literature-synthesized",
-              "withheld-no-range-evidence",
-              "expert-reviewed"
+              "withheld-no-range-evidence"
             ]
           },
           "provisional": {
@@ -322,6 +312,14 @@
           },
           "scope": {
             "$ref": "#/$defs/bilingualText"
+          },
+          "referenceId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceFileSha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
           }
         }
       }
@@ -430,29 +428,6 @@
           "traits": {
             "type": "array",
             "maxItems": 0
-          }
-        }
-      }
-    },
-    {
-      "if": {
-        "properties": {
-          "geography": {
-            "maxItems": 0,
-            "type": "array"
-          }
-        },
-        "required": [
-          "geography"
-        ]
-      },
-      "then": {
-        "properties": {
-          "pbdbTaxonId": {
-            "type": "null"
-          },
-          "rangeProvisional": {
-            "const": true
           }
         }
       }

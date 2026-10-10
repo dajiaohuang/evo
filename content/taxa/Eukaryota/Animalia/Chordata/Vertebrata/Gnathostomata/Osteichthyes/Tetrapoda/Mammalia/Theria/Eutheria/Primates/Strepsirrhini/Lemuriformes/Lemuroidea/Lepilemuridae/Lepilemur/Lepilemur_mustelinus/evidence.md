@@ -9,7 +9,6 @@ records:
     name:
       zh: 鼬运动狐猴
       en: Weasel Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: genetic distinctiveness

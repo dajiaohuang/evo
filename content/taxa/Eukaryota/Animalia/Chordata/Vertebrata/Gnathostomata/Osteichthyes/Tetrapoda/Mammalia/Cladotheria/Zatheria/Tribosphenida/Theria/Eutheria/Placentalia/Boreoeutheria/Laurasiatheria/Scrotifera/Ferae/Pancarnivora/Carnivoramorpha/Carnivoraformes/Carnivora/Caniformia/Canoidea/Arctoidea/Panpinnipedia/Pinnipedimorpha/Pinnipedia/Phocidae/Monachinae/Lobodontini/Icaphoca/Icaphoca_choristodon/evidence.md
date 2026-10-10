@@ -9,7 +9,6 @@ records:
     name:
       zh: Icaphoca choristodon
       en: Icaphoca choristodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Spinus thibetanus
       en: Spinus thibetanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

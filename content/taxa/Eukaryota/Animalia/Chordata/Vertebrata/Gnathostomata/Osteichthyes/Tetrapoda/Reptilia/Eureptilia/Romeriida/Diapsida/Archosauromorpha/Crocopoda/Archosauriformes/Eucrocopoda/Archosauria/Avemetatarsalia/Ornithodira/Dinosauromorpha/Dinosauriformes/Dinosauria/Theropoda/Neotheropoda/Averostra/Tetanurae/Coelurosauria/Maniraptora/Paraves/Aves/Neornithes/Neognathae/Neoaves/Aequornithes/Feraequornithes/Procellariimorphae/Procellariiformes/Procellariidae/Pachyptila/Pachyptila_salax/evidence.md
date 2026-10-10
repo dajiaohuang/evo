@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachyptila salax
       en: Pachyptila salax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

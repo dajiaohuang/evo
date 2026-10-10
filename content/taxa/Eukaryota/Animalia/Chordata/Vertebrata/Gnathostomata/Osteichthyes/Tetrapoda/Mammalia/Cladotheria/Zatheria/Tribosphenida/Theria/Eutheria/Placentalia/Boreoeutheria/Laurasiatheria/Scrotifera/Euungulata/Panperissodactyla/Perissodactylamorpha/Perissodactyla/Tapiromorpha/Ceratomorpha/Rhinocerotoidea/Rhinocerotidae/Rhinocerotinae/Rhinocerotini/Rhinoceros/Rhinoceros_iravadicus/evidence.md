@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinoceros iravadicus
       en: Rhinoceros iravadicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

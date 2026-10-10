@@ -9,7 +9,6 @@ records:
     name:
       en: Black-tufted-ear Marmoset
       zh: 黑簇耳绒猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: ecology

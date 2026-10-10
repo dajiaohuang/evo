@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-分类描述依据极少标本和局地观察；它不是当前种群或全岛调查。 本页尚未经过外部领域专家评审。
+分类描述依据极少标本和局地观察；它不是当前种群或全岛调查。 。
 <!-- /evo:text -->

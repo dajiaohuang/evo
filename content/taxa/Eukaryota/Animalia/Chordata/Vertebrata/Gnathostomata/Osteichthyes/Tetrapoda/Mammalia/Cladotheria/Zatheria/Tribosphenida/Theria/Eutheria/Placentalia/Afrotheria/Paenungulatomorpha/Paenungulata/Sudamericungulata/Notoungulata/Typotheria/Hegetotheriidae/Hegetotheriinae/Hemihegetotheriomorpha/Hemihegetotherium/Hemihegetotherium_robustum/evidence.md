@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemihegetotherium robustum
       en: Hemihegetotherium robustum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

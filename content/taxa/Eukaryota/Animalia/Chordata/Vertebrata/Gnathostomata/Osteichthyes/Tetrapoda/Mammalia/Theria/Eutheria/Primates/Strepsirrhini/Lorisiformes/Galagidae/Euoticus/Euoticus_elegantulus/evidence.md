@@ -10,7 +10,6 @@ records:
     name:
       en: Southern Needle-clawed Galago
       zh: 南方针爪婴猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

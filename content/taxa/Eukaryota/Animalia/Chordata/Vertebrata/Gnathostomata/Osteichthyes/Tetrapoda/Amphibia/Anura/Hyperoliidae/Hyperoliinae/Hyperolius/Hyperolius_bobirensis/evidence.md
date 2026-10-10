@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius bobirensis
       zh: Hyperolius bobirensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

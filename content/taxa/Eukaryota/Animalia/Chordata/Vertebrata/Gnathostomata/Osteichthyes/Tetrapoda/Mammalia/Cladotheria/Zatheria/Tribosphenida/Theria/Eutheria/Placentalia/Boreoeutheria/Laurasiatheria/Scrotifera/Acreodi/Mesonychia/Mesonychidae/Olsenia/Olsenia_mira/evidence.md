@@ -9,7 +9,6 @@ records:
     name:
       zh: Olsenia mira
       en: Olsenia mira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

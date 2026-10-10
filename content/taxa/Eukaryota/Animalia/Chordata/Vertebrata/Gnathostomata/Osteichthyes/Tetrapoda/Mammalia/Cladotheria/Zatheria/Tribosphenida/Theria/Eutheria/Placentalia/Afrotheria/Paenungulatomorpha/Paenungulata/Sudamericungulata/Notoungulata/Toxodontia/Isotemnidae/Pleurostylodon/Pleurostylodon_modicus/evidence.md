@@ -9,7 +9,6 @@ records:
     name:
       zh: Pleurostylodon modicus
       en: Pleurostylodon modicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

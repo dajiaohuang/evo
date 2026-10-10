@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrastur ruficollis
       en: Micrastur ruficollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

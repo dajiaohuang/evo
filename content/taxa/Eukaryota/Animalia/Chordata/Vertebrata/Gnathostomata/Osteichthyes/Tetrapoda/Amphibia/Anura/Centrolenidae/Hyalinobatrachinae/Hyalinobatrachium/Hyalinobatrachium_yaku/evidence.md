@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium yaku
       zh: Hyalinobatrachium yaku
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

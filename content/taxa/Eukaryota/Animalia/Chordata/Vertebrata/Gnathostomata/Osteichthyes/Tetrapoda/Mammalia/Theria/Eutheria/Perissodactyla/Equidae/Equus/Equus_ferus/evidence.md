@@ -9,7 +9,6 @@ records:
     name:
       zh: 野马
       en: Wild horse
-    reviewStatus: source-linked
     checkedAt: 2026-09-22
     sections:
       - topic:

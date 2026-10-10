@@ -9,7 +9,6 @@ records:
     name:
       zh: Pamparaptor micros
       en: Pamparaptor micros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

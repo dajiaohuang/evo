@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus rhodonotus
       zh: Leptodactylus rhodonotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

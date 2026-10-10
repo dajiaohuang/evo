@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinarolacerta mosorensis
       en: Dinarolacerta mosorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

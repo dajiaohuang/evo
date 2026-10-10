@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothrocophias microphthalmus
       en: Bothrocophias microphthalmus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

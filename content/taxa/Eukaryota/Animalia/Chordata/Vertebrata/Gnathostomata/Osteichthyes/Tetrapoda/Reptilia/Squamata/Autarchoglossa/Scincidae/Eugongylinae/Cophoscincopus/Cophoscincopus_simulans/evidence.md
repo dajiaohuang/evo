@@ -9,7 +9,6 @@ records:
     name:
       zh: Cophoscincopus simulans
       en: Cophoscincopus simulans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

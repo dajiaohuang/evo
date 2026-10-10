@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes hikidai
       zh: Limnonectes hikidai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Adhaerobufo nasicus
       zh: Adhaerobufo nasicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

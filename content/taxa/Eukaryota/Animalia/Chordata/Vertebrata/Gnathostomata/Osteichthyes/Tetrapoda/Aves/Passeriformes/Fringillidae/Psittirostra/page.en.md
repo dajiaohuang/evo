@@ -17,7 +17,7 @@ This batch’s Psittirostra route includes 1 historical entries; start with Psit
 ## Life-history evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs and external expert review remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 <!-- /evo:text -->
 
 ## Start with the limited ecology records
@@ -35,5 +35,5 @@ Recorded category counts are 1 for habitat, 1 for feeding niche, 1 for primary l
 ## Limits of these historical data
 
 <!-- evo:text /records/catalogue-profile/sections/3/text/en -->
-This entry covers this batch’s limited historical ecology records, not every accepted descendant or expert review. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
+This entry covers this batch’s limited historical ecology records, not every accepted descendant. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
 <!-- /evo:text -->

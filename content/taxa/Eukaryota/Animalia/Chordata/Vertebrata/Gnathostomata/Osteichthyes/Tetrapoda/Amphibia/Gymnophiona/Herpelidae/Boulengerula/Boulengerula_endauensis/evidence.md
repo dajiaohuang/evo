@@ -9,7 +9,6 @@ records:
     name:
       en: Boulengerula endauensis
       zh: Boulengerula endauensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

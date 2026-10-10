@@ -9,7 +9,6 @@ records:
     name:
       zh: Parutaetus oliveirai
       en: Parutaetus oliveirai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

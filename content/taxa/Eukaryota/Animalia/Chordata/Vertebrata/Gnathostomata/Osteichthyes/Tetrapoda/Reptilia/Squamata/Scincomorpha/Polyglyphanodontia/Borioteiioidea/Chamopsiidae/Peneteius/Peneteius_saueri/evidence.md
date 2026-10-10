@@ -9,7 +9,6 @@ records:
     name:
       zh: Peneteius saueri
       en: Peneteius saueri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

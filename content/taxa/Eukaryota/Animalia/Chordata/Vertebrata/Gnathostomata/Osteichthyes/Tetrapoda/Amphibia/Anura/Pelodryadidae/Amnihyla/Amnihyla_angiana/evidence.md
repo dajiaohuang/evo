@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla angiana
       zh: Amnihyla angiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

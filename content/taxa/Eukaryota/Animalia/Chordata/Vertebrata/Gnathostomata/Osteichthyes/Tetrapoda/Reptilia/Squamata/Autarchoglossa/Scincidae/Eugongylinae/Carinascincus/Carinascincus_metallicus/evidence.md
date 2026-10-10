@@ -9,7 +9,6 @@ records:
     name:
       zh: Carinascincus metallicus
       en: Carinascincus metallicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

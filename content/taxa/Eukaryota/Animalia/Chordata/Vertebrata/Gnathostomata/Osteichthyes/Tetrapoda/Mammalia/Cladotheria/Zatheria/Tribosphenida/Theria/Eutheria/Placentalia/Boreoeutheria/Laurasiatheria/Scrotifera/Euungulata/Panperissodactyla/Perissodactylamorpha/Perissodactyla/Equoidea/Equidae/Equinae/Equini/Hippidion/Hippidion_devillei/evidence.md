@@ -9,7 +9,6 @@ records:
     name:
       zh: Hippidion devillei
       en: Hippidion devillei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anomotherium langewieschei
       en: Anomotherium langewieschei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

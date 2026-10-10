@@ -9,7 +9,6 @@ records:
     name:
       zh: Lichanura orcutti
       en: Lichanura orcutti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

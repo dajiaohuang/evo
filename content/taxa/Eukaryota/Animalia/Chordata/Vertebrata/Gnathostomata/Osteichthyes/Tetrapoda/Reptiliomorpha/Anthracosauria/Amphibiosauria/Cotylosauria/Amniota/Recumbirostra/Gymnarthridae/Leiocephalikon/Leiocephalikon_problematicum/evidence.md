@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiocephalikon problematicum
       en: Leiocephalikon problematicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

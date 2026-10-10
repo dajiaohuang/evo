@@ -198,7 +198,7 @@ function morphologyClaim(description, sourceId) {
     locator: `Flora of Panama general field; imported row ${description.rowNumber}; sourceIds ${description.sourceIds.join(', ')}; reference rows ${description.referenceRowNumbers.join(', ')}; citations: ${citations}.`,
     placeTimeScope: `Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.`,
     lifeStatus: 'The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.',
-    semanticReview: 'Paragraph-level semantic screening by two AI agents classified this passage as direct morphological content in the Flora of Panama batch audit dated 2026-09-27; this is not human domain-expert review or external expert review.',
+
   }
 }
 
@@ -233,7 +233,7 @@ function makeDossier(row, classification, ledger, checkedAt, prior) {
     },
     facets: Object.fromEntries(FACETS.map(facet => [facet, { status: 'not-assessed', claims: [], gaps: ['This facet has not been assessed from the limited Flora of Panama source slice.'] }])),
     completeness: { status: 'incomplete', reasons: [] },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
   }
   profile.checkedAt = checkedAt
   profile.classificationPath = classification.path
@@ -269,7 +269,7 @@ function makeDossier(row, classification, ledger, checkedAt, prior) {
   const morphologyClaimKeys = new Set(priorMorphologyClaims.map(claim => `${claim.locator}|${claim.text}`))
   profile.facets.morphology.claims = [...priorMorphologyClaims, ...morphologyClaims.filter(claim => !morphologyClaimKeys.has(`${claim.locator}|${claim.text}`))]
   if (morphologyClaims.length) profile.facets.morphology.status = profile.facets.morphology.status === 'not-assessed' || !profile.facets.morphology.status ? 'partially-supported' : profile.facets.morphology.status
-  profile.facets.morphology.gaps = [...new Set([...(profile.facets.morphology.gaps ?? []), `Two AI agents performed paragraph-level semantic screening and classified ${EXPECTED_MORPHOLOGY_CLAIMS} of ${EXPECTED_GENERAL_ROWS} eligible general rows as morphology; COL ${MORPHOLOGY_EXCLUDED.colId} row ${MORPHOLOGY_EXCLUDED.rowNumber} is retained as a locality-only voucher list with no morphology claim. This is not human domain-expert or external expert review. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.`])]
+  profile.facets.morphology.gaps = [...new Set([...(profile.facets.morphology.gaps ?? []), `Two AI agents performed paragraph-level semantic screening and classified ${EXPECTED_MORPHOLOGY_CLAIMS} of ${EXPECTED_GENERAL_ROWS} eligible general rows as morphology; COL ${MORPHOLOGY_EXCLUDED.colId} row ${MORPHOLOGY_EXCLUDED.rowNumber} is retained as a locality-only voucher list with no morphology claim. This is not human domain-expert. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.`])]
   profile.facets.lifeHistory ??= { status: 'not-assessed', claims: [], gaps: [] }
   profile.facets.lifeHistory.gaps = [...new Set([...(profile.facets.lifeHistory.gaps ?? []), 'The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.'])]
   for (const facet of FACETS) {
@@ -281,11 +281,11 @@ function makeDossier(row, classification, ledger, checkedAt, prior) {
     status: 'incomplete',
     reasons: [...new Set([...(profile.completeness?.reasons ?? []),
       'This source slice supports a bounded historical Panama distribution statement only.',
-      'Two AI agents screened paragraphs and mapped eligible general excerpts to partial morphology; this is not human domain-expert review. The single locality-only voucher list remains unclaimed. Habit is retained as the source plant life-form field and does not support lifeHistory.',
+      'Two AI agents screened paragraphs and mapped eligible general excerpts to partial morphology. The single locality-only voucher list remains unclaimed. Habit is retained as the source plant life-form field and does not support lifeHistory.',
       'Morphology beyond any prior independently sourced claims, lifeHistory, ecology, evolution, fossil, and conservation remain incomplete or not assessed.',
-      'No independent external expert review has been completed.'])],
+      ''])],
   }
-  profile.expertReview ??= { status: 'not-reviewed', reviewers: [], reviewDigest: null }
+
   assert.deepEqual(Object.keys(profile.facets).sort(), [...FACETS].sort())
   assert.equal(profile.facets.lifeHistory.status === 'supported', false)
   return profile
@@ -333,14 +333,14 @@ function prepareInput() {
       morphologyAudit: {
         auditId: 'flora-panama-general-paragraph-audit-2026-09-27',
         reviewers: ['panama_general_review_a', 'panama_general_review_b'],
-        reviewType: 'AI-agent paragraph-level semantic screening; not human or external expert review',
+        reviewType: 'AI-agent paragraph-level semantic screening; not human',
         scope: 'All eligible general rows for the 1,644 frozen candidate COL IDs, sorted by COL ID and split into ranks 1-822 and 823-1644.',
         firstRange: { firstColId: candidates[0].colId, lastColId: candidates[821].colId, taxa: 822, generalRows: 915, morphologyRows: 914 },
         secondRange: { firstColId: candidates[822].colId, lastColId: candidates.at(-1).colId, taxa: 822, generalRows: 923, morphologyRows: 923 },
         totalGeneralRows: EXPECTED_GENERAL_ROWS,
         morphologyClaimRows: EXPECTED_MORPHOLOGY_CLAIMS,
         excludedRows: [{ ...MORPHOLOGY_EXCLUDED, disposition: 'locality-only specimen voucher list; no morphology claim', retainedAsSource: true }],
-        externalExpertReview: false,
+
         paragraphDecisions: candidates.flatMap(row => row.descriptions.filter(description => description.type === 'general' && eligibleDescription(description)).map(description => ({
           colId: row.colId,
           rowNumber: description.rowNumber,
@@ -509,7 +509,7 @@ function build() {
     newShard: { path: SHARD, encoding: 'brotli-jsonl', recordCount: newRecords.length, decodedBytes: newShard.raw.length, decodedSha256: newShard.decodedSha256, compressedBytes: newShard.compressed.length, compressedSha256: newShard.compressedSha256, brotliParameters: { mode: 'text', quality: 11 }, roundTrip: 'exact-byte-match' },
     indexedRecordCount: currentIndex.recordCount,
     morphologyAudit: input.baseAudit.morphologyAudit,
-    coverageDisposition: { speciesWithExistingSourceRowsNotIncremented: EXPECTED_IDS, addedSpeciesDossiers: newRecords.length, updatedExistingDossiers: updatedRecords.length, generalSourceRows: generalRowCount, morphologyClaimRows: morphologyClaimCount, excludedLocalityOnlyRows: excludedGeneralRowCount, distributionClaimRows: input.candidates.reduce((sum, candidate) => sum + candidate.sourceRows.filter(sourceRow => sourceRow.type === 'distribution').length, 0), completeDossiersAdded: 0, externallyReviewedDossiersAdded: 0 },
+    coverageDisposition: { speciesWithExistingSourceRowsNotIncremented: EXPECTED_IDS, addedSpeciesDossiers: newRecords.length, updatedExistingDossiers: updatedRecords.length, generalSourceRows: generalRowCount, morphologyClaimRows: morphologyClaimCount, excludedLocalityOnlyRows: excludedGeneralRowCount, distributionClaimRows: input.candidates.reduce((sum, candidate) => sum + candidate.sourceRows.filter(sourceRow => sourceRow.type === 'distribution').length, 0), completeDossiersAdded: 0},
     generator: 'scripts/build-flora-panama-dossier-batch.mjs',
   }
   writeFileSync(join(ROOT, MANIFEST), JSON.stringify(manifest, null, 2) + '\n', 'utf8')

@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella juliandringi
       zh: Leptobrachella juliandringi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

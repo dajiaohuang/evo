@@ -9,7 +9,6 @@ records:
     name:
       zh: Trioceros melleri
       en: Trioceros melleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

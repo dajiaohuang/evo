@@ -9,7 +9,6 @@ records:
     name:
       zh: Supersaurus vivianae
       en: Supersaurus vivianae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

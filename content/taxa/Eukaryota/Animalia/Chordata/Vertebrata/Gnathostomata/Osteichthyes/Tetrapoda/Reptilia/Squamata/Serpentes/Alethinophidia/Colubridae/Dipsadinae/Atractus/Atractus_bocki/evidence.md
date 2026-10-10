@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus bocki
       en: Atractus bocki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

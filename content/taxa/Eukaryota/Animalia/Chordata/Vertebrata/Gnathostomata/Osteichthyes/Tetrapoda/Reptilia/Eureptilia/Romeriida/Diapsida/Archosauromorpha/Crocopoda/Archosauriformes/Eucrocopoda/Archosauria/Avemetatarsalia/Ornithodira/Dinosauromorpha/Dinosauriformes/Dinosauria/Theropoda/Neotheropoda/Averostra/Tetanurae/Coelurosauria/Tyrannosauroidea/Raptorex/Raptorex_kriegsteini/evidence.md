@@ -9,7 +9,6 @@ records:
     name:
       zh: Raptorex kriegsteini
       en: Raptorex kriegsteini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrophyseter robustus
       en: Acrophyseter robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

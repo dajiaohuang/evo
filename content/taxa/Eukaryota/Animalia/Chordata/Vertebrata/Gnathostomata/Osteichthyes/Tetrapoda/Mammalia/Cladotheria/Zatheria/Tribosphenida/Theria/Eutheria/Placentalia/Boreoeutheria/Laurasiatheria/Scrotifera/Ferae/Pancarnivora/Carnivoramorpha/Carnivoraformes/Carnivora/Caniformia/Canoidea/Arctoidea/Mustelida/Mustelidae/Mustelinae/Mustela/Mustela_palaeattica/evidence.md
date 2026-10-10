@@ -9,7 +9,6 @@ records:
     name:
       zh: Mustela palaeattica
       en: Mustela palaeattica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Goniopholis felix
       en: Goniopholis felix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

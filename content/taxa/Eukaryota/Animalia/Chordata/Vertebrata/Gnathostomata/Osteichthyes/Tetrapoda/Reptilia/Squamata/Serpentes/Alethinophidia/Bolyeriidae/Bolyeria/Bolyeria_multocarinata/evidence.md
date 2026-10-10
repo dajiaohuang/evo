@@ -9,7 +9,6 @@ records:
     name:
       zh: Bolyeria multocarinata
       en: Bolyeria multocarinata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

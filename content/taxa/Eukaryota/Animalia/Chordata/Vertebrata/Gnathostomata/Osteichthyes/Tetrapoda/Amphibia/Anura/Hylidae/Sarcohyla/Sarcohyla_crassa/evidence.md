@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla crassa
       zh: Sarcohyla crassa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

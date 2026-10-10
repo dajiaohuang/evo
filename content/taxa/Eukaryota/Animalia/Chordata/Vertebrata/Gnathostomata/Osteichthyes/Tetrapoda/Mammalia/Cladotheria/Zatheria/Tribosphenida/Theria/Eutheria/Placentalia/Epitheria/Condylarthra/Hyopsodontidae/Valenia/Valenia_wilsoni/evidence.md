@@ -9,7 +9,6 @@ records:
     name:
       zh: Valenia wilsoni
       en: Valenia wilsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

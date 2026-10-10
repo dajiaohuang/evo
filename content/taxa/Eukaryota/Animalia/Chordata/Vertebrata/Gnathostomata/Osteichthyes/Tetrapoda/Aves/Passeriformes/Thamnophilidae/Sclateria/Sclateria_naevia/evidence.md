@@ -9,7 +9,6 @@ records:
     name:
       zh: Sclateria naevia
       en: Sclateria naevia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

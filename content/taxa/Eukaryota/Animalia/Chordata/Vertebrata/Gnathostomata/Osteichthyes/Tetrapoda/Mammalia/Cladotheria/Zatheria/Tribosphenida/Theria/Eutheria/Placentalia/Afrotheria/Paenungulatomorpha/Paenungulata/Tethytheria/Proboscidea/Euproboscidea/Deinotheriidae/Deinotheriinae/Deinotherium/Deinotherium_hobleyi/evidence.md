@@ -9,7 +9,6 @@ records:
     name:
       zh: Deinotherium hobleyi
       en: Deinotherium hobleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

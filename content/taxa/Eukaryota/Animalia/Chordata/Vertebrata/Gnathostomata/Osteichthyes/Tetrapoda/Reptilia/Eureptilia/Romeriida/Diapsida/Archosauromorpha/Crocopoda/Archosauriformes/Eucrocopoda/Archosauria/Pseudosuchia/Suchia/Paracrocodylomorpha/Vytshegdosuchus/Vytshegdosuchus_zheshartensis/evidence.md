@@ -9,7 +9,6 @@ records:
     name:
       zh: Vytshegdosuchus zheshartensis
       en: Vytshegdosuchus zheshartensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

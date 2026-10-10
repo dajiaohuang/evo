@@ -9,7 +9,6 @@ records:
     name:
       zh: Castorocauda lutrasimilis
       en: Castorocauda lutrasimilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

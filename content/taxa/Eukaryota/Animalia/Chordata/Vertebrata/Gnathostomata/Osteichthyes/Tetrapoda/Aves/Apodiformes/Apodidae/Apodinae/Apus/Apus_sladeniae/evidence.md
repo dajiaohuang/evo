@@ -9,7 +9,6 @@ records:
     name:
       zh: Apus sladeniae
       en: Apus sladeniae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

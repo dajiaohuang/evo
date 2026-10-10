@@ -36,7 +36,7 @@ This batch’s Scincinae route includes 20 historical life-history accounts; sta
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This guide covers the listed study routes only. Other accepted descendants remain outside this batch. The paper’s Podarcis wagleriana and Agama impalearis have separate species pages preserving their original sample names and the sourced correspondence to Podarcis waglerianus and Agama bibronii. Takydromus sp. is not identified to species and is not counted as a species page.
-This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 <!-- /evo:text -->

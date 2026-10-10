@@ -9,7 +9,6 @@ records:
     name:
       zh: Zosterops ceylonensis
       en: Zosterops ceylonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

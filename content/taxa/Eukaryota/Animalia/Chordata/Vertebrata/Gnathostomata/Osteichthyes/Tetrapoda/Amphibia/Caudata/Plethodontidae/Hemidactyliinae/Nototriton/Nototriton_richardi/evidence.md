@@ -9,7 +9,6 @@ records:
     name:
       en: Nototriton richardi
       zh: Nototriton richardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

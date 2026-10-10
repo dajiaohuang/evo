@@ -9,7 +9,6 @@ records:
     name:
       zh: Pithanotomys macer
       en: Pithanotomys macer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

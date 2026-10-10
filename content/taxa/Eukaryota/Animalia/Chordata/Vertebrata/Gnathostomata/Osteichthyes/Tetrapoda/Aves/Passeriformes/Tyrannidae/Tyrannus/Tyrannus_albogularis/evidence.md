@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyrannus albogularis
       en: Tyrannus albogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

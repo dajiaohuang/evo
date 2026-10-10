@@ -34,5 +34,5 @@ The original description also synthesizes earlier observations: the monkeys used
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The habitat and diet account summarizes earlier studies cited by the 2022 taxonomic description. A 2019 regional transect survey recorded unidentified *Cheracebus sp.*; there is no basis here for assigning its counts, trends or habitat profile to *C. aquinoi*. The type locality and sites in the original description do not constitute a complete range map. The Chinese name is editorial, and the page has not received external expert review.
+The habitat and diet account summarizes earlier studies cited by the 2022 taxonomic description. A 2019 regional transect survey recorded unidentified *Cheracebus sp.*; there is no basis here for assigning its counts, trends or habitat profile to *C. aquinoi*. The type locality and sites in the original description do not constitute a complete range map. The Chinese name is editorial.
 <!-- /evo:text -->

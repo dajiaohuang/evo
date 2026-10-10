@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis jamescameroni
       zh: Pristimantis jamescameroni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraphiomys orangeus
       en: Paraphiomys orangeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

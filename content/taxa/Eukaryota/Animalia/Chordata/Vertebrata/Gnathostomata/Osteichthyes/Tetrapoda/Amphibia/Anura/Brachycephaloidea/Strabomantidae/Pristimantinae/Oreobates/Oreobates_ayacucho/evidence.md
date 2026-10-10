@@ -9,7 +9,6 @@ records:
     name:
       en: Oreobates ayacucho
       zh: Oreobates ayacucho
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

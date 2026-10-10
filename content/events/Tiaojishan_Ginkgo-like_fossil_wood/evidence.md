@@ -90,9 +90,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Jiang et al. 2016 DOI 10.1038/srep38191
       referenceLinks:
         - relation: supports
           referenceId: jiang-2016-ginkgoxylon

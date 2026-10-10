@@ -9,7 +9,6 @@ records:
     name:
       zh: Halazhaisuchus
       en: Halazhaisuchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

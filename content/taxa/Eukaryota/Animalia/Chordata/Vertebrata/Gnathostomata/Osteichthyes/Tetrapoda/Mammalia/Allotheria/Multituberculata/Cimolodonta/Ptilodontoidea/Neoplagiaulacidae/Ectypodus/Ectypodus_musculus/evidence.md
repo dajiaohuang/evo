@@ -9,7 +9,6 @@ records:
     name:
       zh: Ectypodus musculus
       en: Ectypodus musculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

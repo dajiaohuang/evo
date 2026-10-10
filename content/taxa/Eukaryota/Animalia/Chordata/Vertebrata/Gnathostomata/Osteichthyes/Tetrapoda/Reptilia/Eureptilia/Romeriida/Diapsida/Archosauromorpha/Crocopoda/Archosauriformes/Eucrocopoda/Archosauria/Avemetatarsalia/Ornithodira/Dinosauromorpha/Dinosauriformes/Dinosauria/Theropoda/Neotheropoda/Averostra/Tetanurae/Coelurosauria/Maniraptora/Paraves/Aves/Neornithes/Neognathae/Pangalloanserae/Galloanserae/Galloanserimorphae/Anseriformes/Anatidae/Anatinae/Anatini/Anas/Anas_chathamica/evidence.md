@@ -9,7 +9,6 @@ records:
     name:
       zh: Anas chathamica
       en: Anas chathamica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

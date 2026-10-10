@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: taylor-2009-brachiosaurus-giraffatitan concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: taylor-2009-brachiosaurus-giraffatitan
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: taylor-2009-brachiosaurus-giraffatitan @ DOI 10.1671/039.029.0309
       referenceLinks:
         - relation: supports
           referenceId: taylor-2009-brachiosaurus-giraffatitan
@@ -96,7 +90,6 @@ records:
           locator: 787–806; Type-material review; comparative diagnosis; generic separation
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Brachiosauridae
@@ -105,7 +98,6 @@ records:
     name:
       zh: Brachiosauridae
       en: Brachiosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Gracixalus truongi
       zh: Gracixalus truongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

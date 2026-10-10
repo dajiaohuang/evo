@@ -9,7 +9,6 @@ records:
     name:
       zh: Zofiagale ergilinensis
       en: Zofiagale ergilinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

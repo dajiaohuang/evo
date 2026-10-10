@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiodimylus huerzeleri
       en: Plesiodimylus huerzeleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

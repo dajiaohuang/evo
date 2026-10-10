@@ -9,7 +9,6 @@ records:
     name:
       zh: 安塔菲运动狐猴
       en: Antafia Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: morphology and field description

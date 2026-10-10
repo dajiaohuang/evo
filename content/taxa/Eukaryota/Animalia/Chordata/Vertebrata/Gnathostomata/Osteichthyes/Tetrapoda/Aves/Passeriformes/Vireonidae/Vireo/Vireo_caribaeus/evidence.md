@@ -9,7 +9,6 @@ records:
     name:
       zh: Vireo caribaeus
       en: Vireo caribaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

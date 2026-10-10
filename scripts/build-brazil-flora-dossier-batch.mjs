@@ -359,11 +359,11 @@ function dossierFor(species, identity, morphology, habitats, duplicateGroup, sou
       status: 'incomplete',
       reasons: [
         'Only source-labelled morphology and/or habitat fields are included; six-facet coverage and required within-facet evidence checks remain incomplete.',
-        'No verified Chinese translation, systematic cross-source review or independent expert review has been completed.',
+        'A verified Chinese translation and systematic cross-source search have not been completed.',
         'The dataset license is aggregate-declaration-only for dossier purposes; underlying cited publication rights were not item-level verified.',
       ],
     },
-    expertReview: { status: 'not-reviewed' },
+
   }
 }
 
@@ -510,7 +510,7 @@ function build() {
       newEcologyClaimRows: ecologyClaimRows,
       newDossiersWithBothMorphologyAndEcology: bothFacetDossiers,
       completeDossiersAdded: 0,
-      externallyReviewedDossiersAdded: 0,
+
       skippedExistingColIds: skippedExistingIds,
     },
     semanticAudit: {

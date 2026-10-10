@@ -9,7 +9,6 @@ records:
     name:
       zh: Polrussia mongoliensis
       en: Polrussia mongoliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Neimengomys qii
       en: Neimengomys qii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

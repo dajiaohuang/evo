@@ -9,7 +9,6 @@ records:
     name:
       en: Paedophryne kathismaphlox
       zh: Paedophryne kathismaphlox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

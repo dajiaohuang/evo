@@ -9,7 +9,6 @@ records:
     name:
       en: Boana freicanecae
       zh: Boana freicanecae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

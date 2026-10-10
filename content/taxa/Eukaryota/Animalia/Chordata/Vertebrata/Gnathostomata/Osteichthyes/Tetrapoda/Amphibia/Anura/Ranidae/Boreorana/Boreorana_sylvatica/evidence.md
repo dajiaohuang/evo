@@ -9,7 +9,6 @@ records:
     name:
       en: Boreorana sylvatica
       zh: Boreorana sylvatica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: 拉瓦索阿侏狐猴
       en: Lavasoa Dwarf Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

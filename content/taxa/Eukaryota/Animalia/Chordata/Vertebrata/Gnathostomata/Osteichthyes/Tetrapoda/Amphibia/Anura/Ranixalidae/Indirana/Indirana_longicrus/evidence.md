@@ -9,7 +9,6 @@ records:
     name:
       en: Indirana longicrus
       zh: Indirana longicrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

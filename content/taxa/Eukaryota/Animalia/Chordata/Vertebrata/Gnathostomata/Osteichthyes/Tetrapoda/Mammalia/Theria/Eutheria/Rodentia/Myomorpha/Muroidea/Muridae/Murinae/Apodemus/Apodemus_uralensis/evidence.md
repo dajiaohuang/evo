@@ -9,7 +9,6 @@ records:
     name:
       zh: Apodemus uralensis
       en: Apodemus uralensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

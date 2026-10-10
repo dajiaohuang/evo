@@ -9,7 +9,6 @@ records:
     name:
       zh: Homonota darwinii
       en: Homonota darwinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Gracixalus nonggangensis
       zh: Gracixalus nonggangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

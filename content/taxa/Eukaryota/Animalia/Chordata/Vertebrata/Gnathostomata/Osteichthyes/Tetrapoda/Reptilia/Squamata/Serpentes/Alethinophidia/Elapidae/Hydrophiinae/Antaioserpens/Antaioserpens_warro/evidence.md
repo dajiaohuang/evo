@@ -9,7 +9,6 @@ records:
     name:
       zh: Antaioserpens warro
       en: Antaioserpens warro
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

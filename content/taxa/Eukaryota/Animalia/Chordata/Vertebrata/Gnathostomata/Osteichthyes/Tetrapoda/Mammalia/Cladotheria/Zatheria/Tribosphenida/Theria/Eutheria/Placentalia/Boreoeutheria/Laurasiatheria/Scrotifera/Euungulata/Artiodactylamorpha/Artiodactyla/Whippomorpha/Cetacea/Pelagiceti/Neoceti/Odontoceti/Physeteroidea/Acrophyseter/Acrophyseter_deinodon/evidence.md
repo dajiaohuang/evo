@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrophyseter deinodon
       en: Acrophyseter deinodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

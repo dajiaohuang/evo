@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina oxycephala
       zh: Xenorhina oxycephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

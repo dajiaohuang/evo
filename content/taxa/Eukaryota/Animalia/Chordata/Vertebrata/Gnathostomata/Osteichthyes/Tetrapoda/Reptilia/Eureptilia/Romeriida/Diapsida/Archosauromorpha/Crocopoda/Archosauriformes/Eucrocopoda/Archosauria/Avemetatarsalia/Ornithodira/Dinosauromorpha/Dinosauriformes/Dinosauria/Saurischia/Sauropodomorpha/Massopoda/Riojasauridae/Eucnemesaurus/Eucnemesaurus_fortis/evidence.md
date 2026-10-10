@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucnemesaurus fortis
       en: Eucnemesaurus fortis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

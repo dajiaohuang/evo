@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑头松鼠猴
       en: Black-headed Squirrel Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding

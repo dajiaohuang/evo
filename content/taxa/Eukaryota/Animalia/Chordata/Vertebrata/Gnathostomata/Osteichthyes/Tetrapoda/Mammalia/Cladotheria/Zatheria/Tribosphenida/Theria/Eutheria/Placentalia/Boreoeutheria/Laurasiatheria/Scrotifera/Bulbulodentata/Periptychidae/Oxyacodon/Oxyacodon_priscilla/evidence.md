@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyacodon priscilla
       en: Oxyacodon priscilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

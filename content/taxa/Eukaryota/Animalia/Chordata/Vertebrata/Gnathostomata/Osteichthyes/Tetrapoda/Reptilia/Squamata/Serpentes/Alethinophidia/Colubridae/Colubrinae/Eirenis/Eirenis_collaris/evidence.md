@@ -9,7 +9,6 @@ records:
     name:
       zh: Eirenis collaris
       en: Eirenis collaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

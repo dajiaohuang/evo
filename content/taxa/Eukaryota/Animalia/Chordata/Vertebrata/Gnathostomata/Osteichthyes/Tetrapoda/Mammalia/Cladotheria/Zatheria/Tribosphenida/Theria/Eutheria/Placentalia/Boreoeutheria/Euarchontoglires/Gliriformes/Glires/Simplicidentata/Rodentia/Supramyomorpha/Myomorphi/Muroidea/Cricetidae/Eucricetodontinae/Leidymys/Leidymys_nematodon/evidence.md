@@ -9,7 +9,6 @@ records:
     name:
       zh: Leidymys nematodon
       en: Leidymys nematodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

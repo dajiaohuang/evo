@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyto balearica
       en: Tyto balearica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

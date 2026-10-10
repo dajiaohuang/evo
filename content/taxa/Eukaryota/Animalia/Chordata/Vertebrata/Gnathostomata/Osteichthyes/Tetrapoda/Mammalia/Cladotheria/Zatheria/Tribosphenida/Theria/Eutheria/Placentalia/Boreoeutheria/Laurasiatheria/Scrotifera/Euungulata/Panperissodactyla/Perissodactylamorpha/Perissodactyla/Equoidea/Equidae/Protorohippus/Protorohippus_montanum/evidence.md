@@ -9,7 +9,6 @@ records:
     name:
       zh: Protorohippus montanum
       en: Protorohippus montanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

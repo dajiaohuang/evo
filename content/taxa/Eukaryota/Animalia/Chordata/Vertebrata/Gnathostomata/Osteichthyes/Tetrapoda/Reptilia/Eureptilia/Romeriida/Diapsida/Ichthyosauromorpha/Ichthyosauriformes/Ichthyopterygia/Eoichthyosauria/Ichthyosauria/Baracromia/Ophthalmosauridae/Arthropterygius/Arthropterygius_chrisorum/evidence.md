@@ -9,7 +9,6 @@ records:
     name:
       zh: Arthropterygius chrisorum
       en: Arthropterygius chrisorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

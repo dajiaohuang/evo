@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus certus
       zh: Atelopus certus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

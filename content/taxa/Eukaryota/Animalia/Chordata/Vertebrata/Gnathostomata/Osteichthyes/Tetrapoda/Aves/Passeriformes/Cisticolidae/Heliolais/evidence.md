@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliolais
       en: Heliolais
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

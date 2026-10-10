@@ -9,7 +9,6 @@ records:
     name:
       zh: Epachthosaurus sciuttoi
       en: Epachthosaurus sciuttoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

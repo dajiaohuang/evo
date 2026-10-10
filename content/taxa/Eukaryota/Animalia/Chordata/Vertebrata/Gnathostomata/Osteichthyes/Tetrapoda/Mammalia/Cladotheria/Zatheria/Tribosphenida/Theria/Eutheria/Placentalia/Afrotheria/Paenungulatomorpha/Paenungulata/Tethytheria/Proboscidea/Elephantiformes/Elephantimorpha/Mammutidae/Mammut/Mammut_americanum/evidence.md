@@ -9,7 +9,6 @@ records:
     name:
       zh: Mammut americanum
       en: Mammut americanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

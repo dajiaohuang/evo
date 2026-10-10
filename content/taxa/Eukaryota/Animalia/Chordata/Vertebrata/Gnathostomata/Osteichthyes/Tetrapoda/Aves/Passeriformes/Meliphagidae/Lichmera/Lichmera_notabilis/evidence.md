@@ -9,7 +9,6 @@ records:
     name:
       zh: Lichmera notabilis
       en: Lichmera notabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

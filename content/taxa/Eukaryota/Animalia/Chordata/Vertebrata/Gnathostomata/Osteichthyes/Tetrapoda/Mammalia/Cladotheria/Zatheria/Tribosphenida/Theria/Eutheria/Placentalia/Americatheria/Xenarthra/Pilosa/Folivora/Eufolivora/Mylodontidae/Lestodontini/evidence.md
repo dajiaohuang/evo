@@ -9,7 +9,6 @@ records:
     name:
       zh: Lestodontini
       en: Lestodontini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

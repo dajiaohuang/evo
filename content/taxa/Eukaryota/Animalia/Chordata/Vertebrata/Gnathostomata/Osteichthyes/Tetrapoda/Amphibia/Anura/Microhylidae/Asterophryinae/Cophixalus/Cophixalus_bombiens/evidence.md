@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus bombiens
       zh: Cophixalus bombiens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

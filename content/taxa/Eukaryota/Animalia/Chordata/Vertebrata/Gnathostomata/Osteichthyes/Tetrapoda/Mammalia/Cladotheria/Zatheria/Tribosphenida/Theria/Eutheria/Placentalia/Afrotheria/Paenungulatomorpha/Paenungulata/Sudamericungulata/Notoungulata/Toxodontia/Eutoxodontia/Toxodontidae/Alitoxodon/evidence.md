@@ -9,7 +9,6 @@ records:
     name:
       zh: Alitoxodon
       en: Alitoxodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

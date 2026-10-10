@@ -9,7 +9,6 @@ records:
     name:
       zh: Lariosaurus sanxiaensis
       en: Lariosaurus sanxiaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -28,5 +28,5 @@ The 2003 paper studied galagos under the then-broad name Galago alleni and predi
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Evidence is centered on the acoustic comparison and short species account; it does not establish abundance, trend or full natural history. The acoustic paper used the historical broad name Galago alleni, and this guide preserves its proposed interpretation rather than presenting it as a range-wide field survey. The Chinese name is editorial; this page has not been externally expert-reviewed. This page is not externally expert-reviewed.
+Evidence is centered on the acoustic comparison and short species account; it does not establish abundance, trend or full natural history. The acoustic paper used the historical broad name Galago alleni, and this guide preserves its proposed interpretation rather than presenting it as a range-wide field survey. The Chinese name is editorial. This page is.
 <!-- /evo:text -->

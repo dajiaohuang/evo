@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura rapax
       en: Crocidura rapax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenopholis scalaris
       en: Xenopholis scalaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

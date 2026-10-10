@@ -9,7 +9,6 @@ records:
     name:
       en: Rhombophryne serratopalpebrosa
       zh: Rhombophryne serratopalpebrosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

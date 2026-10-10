@@ -9,7 +9,6 @@ records:
     name:
       zh: Bagaraatan ostromi
       en: Bagaraatan ostromi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

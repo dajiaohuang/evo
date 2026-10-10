@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus dumerilii
       en: Stenocercus dumerilii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

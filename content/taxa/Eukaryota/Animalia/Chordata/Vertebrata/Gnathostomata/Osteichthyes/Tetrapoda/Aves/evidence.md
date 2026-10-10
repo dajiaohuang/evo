@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: rauhut-2018-oldest-archaeopteryx primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: rauhut-2018-oldest-archaeopteryx
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: rauhut-2018-oldest-archaeopteryx
           locator: Article e4191; Geological setting; Figures 1–5; Table 1
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Aves
@@ -73,7 +69,6 @@ records:
     name:
       zh: 鸟类
       en: Birds
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

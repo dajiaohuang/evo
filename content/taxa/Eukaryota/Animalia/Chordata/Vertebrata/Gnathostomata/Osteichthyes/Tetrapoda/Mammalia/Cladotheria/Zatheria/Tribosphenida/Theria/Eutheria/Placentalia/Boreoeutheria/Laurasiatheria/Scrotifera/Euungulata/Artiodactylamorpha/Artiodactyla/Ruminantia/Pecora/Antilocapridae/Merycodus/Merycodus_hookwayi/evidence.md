@@ -9,7 +9,6 @@ records:
     name:
       zh: Merycodus hookwayi
       en: Merycodus hookwayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

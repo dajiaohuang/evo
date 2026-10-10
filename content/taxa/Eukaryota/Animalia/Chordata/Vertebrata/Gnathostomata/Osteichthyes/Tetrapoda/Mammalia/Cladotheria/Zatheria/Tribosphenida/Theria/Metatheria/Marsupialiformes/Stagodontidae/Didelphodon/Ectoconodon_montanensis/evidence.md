@@ -9,7 +9,6 @@ records:
     name:
       zh: Ectoconodon montanensis
       en: Ectoconodon montanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Didunculus placopedetes
       en: Didunculus placopedetes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

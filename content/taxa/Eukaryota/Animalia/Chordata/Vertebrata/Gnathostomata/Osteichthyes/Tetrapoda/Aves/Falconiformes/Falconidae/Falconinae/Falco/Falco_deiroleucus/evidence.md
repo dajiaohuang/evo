@@ -9,7 +9,6 @@ records:
     name:
       zh: Falco deiroleucus
       en: Falco deiroleucus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

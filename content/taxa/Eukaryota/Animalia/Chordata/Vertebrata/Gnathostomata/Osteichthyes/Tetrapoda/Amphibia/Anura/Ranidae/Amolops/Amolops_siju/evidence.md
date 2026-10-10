@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops siju
       zh: Amolops siju
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

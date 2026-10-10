@@ -9,7 +9,6 @@ records:
     name:
       zh: Tadarida fulminans
       en: Tadarida fulminans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

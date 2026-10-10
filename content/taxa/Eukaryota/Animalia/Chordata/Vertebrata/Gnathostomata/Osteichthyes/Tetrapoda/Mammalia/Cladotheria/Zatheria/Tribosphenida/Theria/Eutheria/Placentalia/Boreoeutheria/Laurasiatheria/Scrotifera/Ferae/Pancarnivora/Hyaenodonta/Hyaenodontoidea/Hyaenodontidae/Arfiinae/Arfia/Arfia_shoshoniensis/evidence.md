@@ -9,7 +9,6 @@ records:
     name:
       zh: Arfia shoshoniensis
       en: Arfia shoshoniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -270,7 +270,7 @@ Completeness improves observation but does not remove topology or function uncer
 ## story / steps / annotation
 
 <!-- evo:text /records/story/steps/7/annotation -->
-COL26.8 assigns 12,622 accepted living species to this package as a nomenclatural routing snapshot; it neither resolves fossil topology nor measures dossier, translation, media or review maturity.
+COL26.8 assigns 12,622 accepted living species to this package as a nomenclatural routing snapshot; fossil topology and per-species evidence require their own cited records.
 <!-- /evo:text -->
 
 ## story / steps / annotation

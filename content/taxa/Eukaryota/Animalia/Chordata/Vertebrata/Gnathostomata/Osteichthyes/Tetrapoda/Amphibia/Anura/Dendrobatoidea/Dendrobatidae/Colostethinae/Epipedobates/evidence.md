@@ -9,7 +9,6 @@ records:
     name:
       en: Epipedobates
       zh: Epipedobates
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

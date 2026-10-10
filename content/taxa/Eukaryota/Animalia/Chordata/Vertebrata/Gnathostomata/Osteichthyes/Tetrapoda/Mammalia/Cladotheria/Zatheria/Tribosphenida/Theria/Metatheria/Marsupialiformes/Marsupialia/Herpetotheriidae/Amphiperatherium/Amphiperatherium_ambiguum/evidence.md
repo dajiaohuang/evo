@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphiperatherium ambiguum
       en: Amphiperatherium ambiguum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Centropus milo
       en: Centropus milo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

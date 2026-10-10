@@ -9,7 +9,6 @@ records:
     name:
       zh: Lipaugus vociferans
       en: Lipaugus vociferans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

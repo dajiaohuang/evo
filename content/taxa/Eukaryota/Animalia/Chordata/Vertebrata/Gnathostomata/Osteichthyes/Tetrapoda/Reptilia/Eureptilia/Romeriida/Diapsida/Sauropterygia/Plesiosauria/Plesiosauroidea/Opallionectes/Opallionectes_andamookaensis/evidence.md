@@ -9,7 +9,6 @@ records:
     name:
       zh: Opallionectes andamookaensis
       en: Opallionectes andamookaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

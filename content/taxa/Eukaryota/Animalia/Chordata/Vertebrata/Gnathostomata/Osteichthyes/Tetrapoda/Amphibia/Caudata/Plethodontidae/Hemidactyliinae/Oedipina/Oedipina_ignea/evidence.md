@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina ignea
       zh: Oedipina ignea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

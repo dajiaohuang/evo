@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophilus (Otospermophilus) gidleyi
       en: Spermophilus (Otospermophilus) gidleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

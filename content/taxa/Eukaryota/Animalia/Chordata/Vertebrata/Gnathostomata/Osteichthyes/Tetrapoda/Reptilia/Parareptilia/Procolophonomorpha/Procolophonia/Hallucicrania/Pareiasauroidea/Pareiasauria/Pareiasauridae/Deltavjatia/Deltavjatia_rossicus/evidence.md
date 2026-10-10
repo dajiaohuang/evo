@@ -9,7 +9,6 @@ records:
     name:
       zh: Deltavjatia rossicus
       en: Deltavjatia rossicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

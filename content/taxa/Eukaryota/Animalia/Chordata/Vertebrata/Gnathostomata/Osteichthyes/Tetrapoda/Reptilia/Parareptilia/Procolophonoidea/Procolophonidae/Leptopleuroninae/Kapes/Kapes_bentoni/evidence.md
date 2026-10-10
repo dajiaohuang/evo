@@ -9,7 +9,6 @@ records:
     name:
       zh: Kapes bentoni
       en: Kapes bentoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoconodon gaudrianus
       en: Eoconodon gaudrianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

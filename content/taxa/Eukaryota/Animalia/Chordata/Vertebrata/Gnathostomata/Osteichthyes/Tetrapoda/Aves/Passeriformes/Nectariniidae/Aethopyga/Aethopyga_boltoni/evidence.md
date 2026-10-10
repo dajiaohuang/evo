@@ -9,7 +9,6 @@ records:
     name:
       zh: Aethopyga boltoni
       en: Aethopyga boltoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

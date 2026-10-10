@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: longrich-field-2012-triceratops-taxonomy concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: longrich-field-2012-triceratops-taxonomy
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: longrich-field-2012-triceratops-taxonomy @ DOI 10.1371/journal.pone.0032623
       referenceLinks:
         - relation: supports
           referenceId: longrich-field-2012-triceratops-taxonomy
@@ -105,9 +99,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Scannella et al. 2014 DOI 10.1073/pnas.1313334111
       referenceLinks:
         - referenceId: scannella-2014-triceratops-evolution
           relation: supports
@@ -126,9 +117,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Scannella et al. 2014 DOI 10.1073/pnas.1313334111
       referenceLinks:
         - referenceId: scannella-2014-triceratops-evolution
           relation: supports
@@ -147,9 +135,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Longrich and Field 2012 DOI 10.1371/journal.pone.0032623; Scannella et al. 2014 DOI 10.1073/pnas.1313334111
       referenceLinks:
         - referenceId: longrich-field-2012-triceratops-taxonomy
           relation: supports
@@ -208,7 +193,6 @@ records:
           locator: 7(2):e32623; Methods; cranial comparisons; ontogenetic tests; Discussion
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

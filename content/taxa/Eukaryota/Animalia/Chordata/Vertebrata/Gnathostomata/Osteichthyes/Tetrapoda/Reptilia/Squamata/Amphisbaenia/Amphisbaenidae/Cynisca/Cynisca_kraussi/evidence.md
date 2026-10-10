@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynisca kraussi
       en: Cynisca kraussi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

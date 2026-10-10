@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudotomus timmys
       en: Pseudotomus timmys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Regina septemvittata
       en: Regina septemvittata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

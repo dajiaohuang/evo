@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycophidion semiannule
       en: Lycophidion semiannule
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

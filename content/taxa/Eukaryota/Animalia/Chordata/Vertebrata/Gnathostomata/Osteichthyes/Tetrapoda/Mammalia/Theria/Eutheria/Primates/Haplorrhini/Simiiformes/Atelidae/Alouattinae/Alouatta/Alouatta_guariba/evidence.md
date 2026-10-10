@@ -9,7 +9,6 @@ records:
     name:
       zh: 棕吼猴
       en: Brown Howler
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

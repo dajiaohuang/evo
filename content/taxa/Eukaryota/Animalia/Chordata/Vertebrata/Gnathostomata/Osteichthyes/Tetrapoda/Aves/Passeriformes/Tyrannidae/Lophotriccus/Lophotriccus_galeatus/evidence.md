@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophotriccus galeatus
       en: Lophotriccus galeatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

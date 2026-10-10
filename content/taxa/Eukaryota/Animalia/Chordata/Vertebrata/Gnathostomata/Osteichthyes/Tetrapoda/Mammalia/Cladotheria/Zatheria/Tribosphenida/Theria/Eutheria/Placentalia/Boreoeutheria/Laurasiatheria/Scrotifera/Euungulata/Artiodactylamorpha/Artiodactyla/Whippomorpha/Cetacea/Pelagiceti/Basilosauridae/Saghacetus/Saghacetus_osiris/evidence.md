@@ -9,7 +9,6 @@ records:
     name:
       zh: Saghacetus osiris
       en: Saghacetus osiris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon liui
       en: Plestiodon liui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

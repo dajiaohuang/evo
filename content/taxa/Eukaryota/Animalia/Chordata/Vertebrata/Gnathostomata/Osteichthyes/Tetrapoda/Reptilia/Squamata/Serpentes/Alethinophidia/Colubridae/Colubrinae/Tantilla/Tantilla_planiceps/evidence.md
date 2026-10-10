@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla planiceps
       en: Tantilla planiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

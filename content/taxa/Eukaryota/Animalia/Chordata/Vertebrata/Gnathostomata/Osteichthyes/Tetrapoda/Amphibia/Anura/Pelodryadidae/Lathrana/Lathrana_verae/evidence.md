@@ -9,7 +9,6 @@ records:
     name:
       en: Lathrana verae
       zh: Lathrana verae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

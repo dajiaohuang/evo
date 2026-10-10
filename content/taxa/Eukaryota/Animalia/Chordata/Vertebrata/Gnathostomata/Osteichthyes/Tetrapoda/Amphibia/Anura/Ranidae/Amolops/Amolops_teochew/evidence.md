@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops teochew
       zh: Amolops teochew
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

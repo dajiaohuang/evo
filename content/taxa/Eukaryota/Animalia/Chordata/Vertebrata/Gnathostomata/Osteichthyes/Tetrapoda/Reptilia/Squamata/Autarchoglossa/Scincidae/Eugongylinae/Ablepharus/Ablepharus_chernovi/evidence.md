@@ -9,7 +9,6 @@ records:
     name:
       zh: Ablepharus chernovi
       en: Ablepharus chernovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

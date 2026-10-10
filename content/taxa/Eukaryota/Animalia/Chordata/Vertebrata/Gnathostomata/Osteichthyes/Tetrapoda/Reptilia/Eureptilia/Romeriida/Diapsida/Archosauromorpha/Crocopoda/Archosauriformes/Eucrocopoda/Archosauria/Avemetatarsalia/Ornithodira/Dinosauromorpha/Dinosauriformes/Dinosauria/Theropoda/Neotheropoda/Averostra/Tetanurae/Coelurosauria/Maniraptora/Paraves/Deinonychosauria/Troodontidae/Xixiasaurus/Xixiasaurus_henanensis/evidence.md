@@ -9,7 +9,6 @@ records:
     name:
       zh: Xixiasaurus henanensis
       en: Xixiasaurus henanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

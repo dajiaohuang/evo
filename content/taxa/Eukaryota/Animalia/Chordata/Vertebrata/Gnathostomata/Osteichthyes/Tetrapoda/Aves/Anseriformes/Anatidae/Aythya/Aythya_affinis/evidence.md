@@ -9,7 +9,6 @@ records:
     name:
       zh: Aythya affinis
       en: Aythya affinis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

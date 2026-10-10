@@ -9,7 +9,6 @@ records:
     name:
       zh: Asiomys dawsoni
       en: Asiomys dawsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

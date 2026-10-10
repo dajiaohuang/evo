@@ -9,7 +9,6 @@ records:
     name:
       zh: Ia io
       en: Ia io
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

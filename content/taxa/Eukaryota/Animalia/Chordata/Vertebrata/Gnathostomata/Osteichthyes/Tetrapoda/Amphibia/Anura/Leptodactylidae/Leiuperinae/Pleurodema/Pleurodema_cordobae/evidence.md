@@ -9,7 +9,6 @@ records:
     name:
       en: Pleurodema cordobae
       zh: Pleurodema cordobae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Carodnia karuen
       en: Carodnia karuen
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

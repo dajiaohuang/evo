@@ -10,7 +10,6 @@ records:
     name:
       en: Uta Hick's Bearded Saki
       zh: 乌塔·希克胡须僧面猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

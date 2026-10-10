@@ -9,7 +9,6 @@ records:
     name:
       zh: Agerinia smithorum
       en: Agerinia smithorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

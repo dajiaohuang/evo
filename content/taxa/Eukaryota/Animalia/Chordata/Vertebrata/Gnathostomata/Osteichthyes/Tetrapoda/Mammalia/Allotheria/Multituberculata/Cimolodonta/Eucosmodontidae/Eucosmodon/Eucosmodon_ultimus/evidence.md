@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucosmodon ultimus
       en: Eucosmodon ultimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

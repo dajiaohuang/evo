@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia kraensis
       zh: Ansonia kraensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

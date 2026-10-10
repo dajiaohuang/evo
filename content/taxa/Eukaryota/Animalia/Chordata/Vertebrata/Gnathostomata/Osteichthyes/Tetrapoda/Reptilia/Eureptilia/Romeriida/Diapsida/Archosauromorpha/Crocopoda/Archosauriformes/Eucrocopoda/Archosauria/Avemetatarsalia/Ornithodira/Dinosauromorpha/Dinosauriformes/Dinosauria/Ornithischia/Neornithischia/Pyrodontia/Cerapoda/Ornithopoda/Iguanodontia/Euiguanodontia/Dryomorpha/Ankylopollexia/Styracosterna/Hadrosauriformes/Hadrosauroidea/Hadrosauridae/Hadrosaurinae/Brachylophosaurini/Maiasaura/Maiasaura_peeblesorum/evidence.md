@@ -9,7 +9,6 @@ records:
     name:
       zh: Maiasaura peeblesorum
       en: Maiasaura peeblesorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

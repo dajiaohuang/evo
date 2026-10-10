@@ -16,5 +16,5 @@ Passamani and Rylands followed one Geoffroy’s tufted-ear marmoset group in a s
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked single-group feeding study; not externally expert-reviewed. Percentages and seasonal observations refer to one Atlantic Forest fragment and the 1993–1994 study period.
+Source-linked single-group feeding study;. Percentages and seasonal observations refer to one Atlantic Forest fragment and the 1993–1994 study period.
 <!-- /evo:text -->

@@ -28,5 +28,5 @@ The authors proposed occurrence across the Togean Islands except Una Una. Becaus
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The description had one available type specimen; genetic and vocal evidence rely partly on previously published material, and the mapped island distribution is not a census. This page is not externally expert-reviewed.
+The description had one available type specimen; genetic and vocal evidence rely partly on previously published material, and the mapped island distribution is not a census. This page is.
 <!-- /evo:text -->

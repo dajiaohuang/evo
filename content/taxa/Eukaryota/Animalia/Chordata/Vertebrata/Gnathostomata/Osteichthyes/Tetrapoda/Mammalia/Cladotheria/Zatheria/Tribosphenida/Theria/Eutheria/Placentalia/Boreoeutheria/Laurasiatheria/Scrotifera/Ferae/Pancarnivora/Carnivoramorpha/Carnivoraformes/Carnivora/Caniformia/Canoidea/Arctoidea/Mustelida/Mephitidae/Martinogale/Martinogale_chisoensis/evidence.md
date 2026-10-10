@@ -9,7 +9,6 @@ records:
     name:
       zh: Martinogale chisoensis
       en: Martinogale chisoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

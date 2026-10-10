@@ -9,7 +9,6 @@ records:
     name:
       en: Chthonerpeton viviparum
       zh: Chthonerpeton viviparum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

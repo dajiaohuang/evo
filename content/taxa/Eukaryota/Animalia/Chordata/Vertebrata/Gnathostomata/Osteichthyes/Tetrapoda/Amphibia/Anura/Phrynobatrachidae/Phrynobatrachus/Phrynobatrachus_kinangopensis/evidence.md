@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus kinangopensis
       zh: Phrynobatrachus kinangopensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

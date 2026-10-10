@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanocorax yucatanicus
       en: Cyanocorax yucatanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

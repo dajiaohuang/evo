@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicaeum proprium
       en: Dicaeum proprium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amerotyphlops tycherus
       en: Amerotyphlops tycherus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

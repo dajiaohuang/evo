@@ -9,7 +9,6 @@ records:
     name:
       zh: Lemniscomys mittendorfi
       en: Lemniscomys mittendorfi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hebius concelarus
       en: Hebius concelarus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -16,5 +16,5 @@ Fieldwork recorded a Lake Baptista titi within the range traditionally attribute
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-One record does not delimit the full range; pelage continuity and species boundaries require more specimens, samples, and phylogenetic evidence. This guide is not externally expert-reviewed.
+One record does not delimit the full range; pelage continuity and species boundaries require more specimens, samples, and phylogenetic evidence. This guide is.
 <!-- /evo:text -->

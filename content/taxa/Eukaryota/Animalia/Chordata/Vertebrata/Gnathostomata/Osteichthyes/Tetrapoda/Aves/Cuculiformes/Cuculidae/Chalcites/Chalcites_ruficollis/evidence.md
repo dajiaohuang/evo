@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalcites ruficollis
       en: Chalcites ruficollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

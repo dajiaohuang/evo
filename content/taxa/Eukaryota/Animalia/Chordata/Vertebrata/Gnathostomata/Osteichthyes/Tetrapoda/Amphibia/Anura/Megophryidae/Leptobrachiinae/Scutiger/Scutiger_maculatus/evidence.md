@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger maculatus
       zh: Scutiger maculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus bibita
       zh: Phrynobatrachus bibita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

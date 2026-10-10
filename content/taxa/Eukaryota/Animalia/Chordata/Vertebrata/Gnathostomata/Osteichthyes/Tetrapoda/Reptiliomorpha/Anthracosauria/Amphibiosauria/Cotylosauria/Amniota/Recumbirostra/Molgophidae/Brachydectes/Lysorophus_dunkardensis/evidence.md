@@ -9,7 +9,6 @@ records:
     name:
       zh: Lysorophus dunkardensis
       en: Lysorophus dunkardensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

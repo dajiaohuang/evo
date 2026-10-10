@@ -9,7 +9,6 @@ records:
     name:
       zh: Streptocitta
       en: Streptocitta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

@@ -9,7 +9,6 @@ records:
     name:
       zh: Symmetrodontomys daamsi
       en: Symmetrodontomys daamsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

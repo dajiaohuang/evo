@@ -36,5 +36,5 @@ Start with Hulsanpes perlei and compare each page’s named collections and orig
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route connects one fragmentary holotype redescription with fixed occurrences, without assigning identical anatomy, ecology or preserved material to relatives. Specimen size, immaturity and locomotor interpretations have distinct limits. A complete body is not preserved, and subsequent studies are not fully assembled. Counts and broad ages do not measure ancient abundance or death dates. No external expert review occurred.
+This route connects one fragmentary holotype redescription with fixed occurrences, without assigning identical anatomy, ecology or preserved material to relatives. Specimen size, immaturity and locomotor interpretations have distinct limits. A complete body is not preserved, and subsequent studies are not fully assembled. Counts and broad ages do not measure ancient abundance or death dates.
 <!-- /evo:text -->

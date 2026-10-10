@@ -9,7 +9,6 @@ records:
     name:
       en: Eurycea braggi
       zh: Eurycea braggi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

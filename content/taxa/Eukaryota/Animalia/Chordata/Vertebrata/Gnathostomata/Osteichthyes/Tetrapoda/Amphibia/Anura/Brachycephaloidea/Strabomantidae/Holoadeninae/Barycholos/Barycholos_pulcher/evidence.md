@@ -9,7 +9,6 @@ records:
     name:
       en: Barycholos pulcher
       zh: Barycholos pulcher
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

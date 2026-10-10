@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyriglena leucoptera
       en: Pyriglena leucoptera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

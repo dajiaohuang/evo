@@ -9,7 +9,6 @@ records:
     name:
       zh: Diporiphora vescus
       en: Diporiphora vescus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

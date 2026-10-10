@@ -9,7 +9,6 @@ records:
     name:
       zh: Kumimanu biceae
       en: Kumimanu biceae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

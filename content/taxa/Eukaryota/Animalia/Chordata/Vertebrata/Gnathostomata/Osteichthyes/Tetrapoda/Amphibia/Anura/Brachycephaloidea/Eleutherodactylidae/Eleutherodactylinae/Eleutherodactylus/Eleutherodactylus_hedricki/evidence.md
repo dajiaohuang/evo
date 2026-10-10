@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus hedricki
       zh: Eleutherodactylus hedricki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

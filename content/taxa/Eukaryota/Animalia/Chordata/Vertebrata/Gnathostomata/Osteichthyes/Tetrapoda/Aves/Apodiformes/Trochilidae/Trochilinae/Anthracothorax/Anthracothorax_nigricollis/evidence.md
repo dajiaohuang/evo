@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthracothorax nigricollis
       en: Anthracothorax nigricollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

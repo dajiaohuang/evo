@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudechis rossignolii
       en: Pseudechis rossignolii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

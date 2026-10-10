@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhadinaea forbesi
       en: Rhadinaea forbesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

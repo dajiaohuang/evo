@@ -9,7 +9,6 @@ records:
     name:
       zh: Myzomela jugularis
       en: Myzomela jugularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

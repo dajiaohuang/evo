@@ -9,7 +9,6 @@ records:
     name:
       en: Red-collared Brown Lemur
       zh: 红颈褐狐猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding

@@ -9,7 +9,6 @@ records:
     name:
       zh: Homacodon vagans
       en: Homacodon vagans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Peltophryne armata
       zh: Peltophryne armata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Haddadus binotatus
       zh: Haddadus binotatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

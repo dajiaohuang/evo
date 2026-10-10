@@ -9,7 +9,6 @@ records:
     name:
       zh: 杰曼叶猴
       en: Germain's Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: phylogenetic placement

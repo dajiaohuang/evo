@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraburnetia sneeubergensis
       en: Paraburnetia sneeubergensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

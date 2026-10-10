@@ -9,7 +9,6 @@ records:
     name:
       zh: 斯皮克斯吼猴
       en: Spix's Howler
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

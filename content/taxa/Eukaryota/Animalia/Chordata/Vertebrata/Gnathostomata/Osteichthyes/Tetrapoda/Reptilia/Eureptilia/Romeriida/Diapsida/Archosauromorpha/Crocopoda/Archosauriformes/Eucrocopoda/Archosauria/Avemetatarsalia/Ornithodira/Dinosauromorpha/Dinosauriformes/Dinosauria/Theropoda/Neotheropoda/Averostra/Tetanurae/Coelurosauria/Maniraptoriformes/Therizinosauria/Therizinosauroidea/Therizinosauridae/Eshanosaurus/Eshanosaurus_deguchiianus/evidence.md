@@ -9,7 +9,6 @@ records:
     name:
       zh: Eshanosaurus deguchiianus
       en: Eshanosaurus deguchiianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

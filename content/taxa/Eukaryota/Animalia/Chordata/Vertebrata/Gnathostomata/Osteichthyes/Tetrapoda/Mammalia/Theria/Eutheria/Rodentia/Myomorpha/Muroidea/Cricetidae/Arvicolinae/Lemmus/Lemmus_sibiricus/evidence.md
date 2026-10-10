@@ -9,7 +9,6 @@ records:
     name:
       zh: Lemmus sibiricus
       en: Lemmus sibiricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

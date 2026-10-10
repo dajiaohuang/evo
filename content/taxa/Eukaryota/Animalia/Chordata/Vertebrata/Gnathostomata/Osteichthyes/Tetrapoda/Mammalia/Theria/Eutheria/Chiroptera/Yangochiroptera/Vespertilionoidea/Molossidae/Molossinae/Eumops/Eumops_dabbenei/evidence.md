@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumops dabbenei
       en: Eumops dabbenei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

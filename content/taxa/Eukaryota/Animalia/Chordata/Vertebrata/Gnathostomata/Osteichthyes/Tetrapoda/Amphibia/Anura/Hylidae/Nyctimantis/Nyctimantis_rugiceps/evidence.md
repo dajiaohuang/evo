@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimantis rugiceps
       zh: Nyctimantis rugiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

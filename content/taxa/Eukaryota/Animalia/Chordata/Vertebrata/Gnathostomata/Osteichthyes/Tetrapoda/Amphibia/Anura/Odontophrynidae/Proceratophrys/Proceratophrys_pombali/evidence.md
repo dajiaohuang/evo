@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys pombali
       zh: Proceratophrys pombali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

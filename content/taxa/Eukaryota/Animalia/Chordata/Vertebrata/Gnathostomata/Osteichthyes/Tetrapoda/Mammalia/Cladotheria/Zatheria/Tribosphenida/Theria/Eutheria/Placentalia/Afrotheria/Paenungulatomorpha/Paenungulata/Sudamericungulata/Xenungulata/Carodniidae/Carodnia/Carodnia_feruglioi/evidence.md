@@ -9,7 +9,6 @@ records:
     name:
       zh: Carodnia feruglioi
       en: Carodnia feruglioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

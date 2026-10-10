@@ -9,7 +9,6 @@ records:
     name:
       zh: Pogonomelomys mayeri
       en: Pogonomelomys mayeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

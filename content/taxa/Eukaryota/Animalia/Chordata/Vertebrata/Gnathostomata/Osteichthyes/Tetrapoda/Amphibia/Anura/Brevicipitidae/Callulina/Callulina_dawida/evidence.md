@@ -9,7 +9,6 @@ records:
     name:
       en: Callulina dawida
       zh: Callulina dawida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

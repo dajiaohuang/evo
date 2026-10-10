@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor bocourti
       zh: Craugastor bocourti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

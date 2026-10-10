@@ -9,7 +9,6 @@ records:
     name:
       zh: 乌鲁班巴棕色绢毛猴
       en: Urubamba Brown Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

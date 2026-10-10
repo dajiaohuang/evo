@@ -9,7 +9,6 @@ records:
     name:
       zh: Prohegetotherium schiaffinoi
       en: Prohegetotherium schiaffinoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

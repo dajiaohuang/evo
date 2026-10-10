@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyseps mandady
       en: Brachyseps mandady
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

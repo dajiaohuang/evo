@@ -9,7 +9,6 @@ records:
     name:
       zh: Stephanorhinus etruscus
       en: Stephanorhinus etruscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

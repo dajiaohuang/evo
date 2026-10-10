@@ -9,7 +9,6 @@ records:
     name:
       en: Austrochaperina archboldi
       zh: Austrochaperina archboldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Bornean White-bearded Gibbon
       zh: 婆罗洲白须长臂猿
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

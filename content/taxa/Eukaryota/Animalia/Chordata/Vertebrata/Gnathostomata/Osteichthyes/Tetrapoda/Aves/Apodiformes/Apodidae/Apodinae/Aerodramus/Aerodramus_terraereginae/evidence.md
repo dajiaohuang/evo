@@ -9,7 +9,6 @@ records:
     name:
       zh: Aerodramus terraereginae
       en: Aerodramus terraereginae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

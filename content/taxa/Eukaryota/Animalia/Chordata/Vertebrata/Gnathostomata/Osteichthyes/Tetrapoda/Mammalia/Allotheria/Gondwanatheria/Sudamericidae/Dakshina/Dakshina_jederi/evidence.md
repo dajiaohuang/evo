@@ -9,7 +9,6 @@ records:
     name:
       zh: Dakshina jederi
       en: Dakshina jederi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

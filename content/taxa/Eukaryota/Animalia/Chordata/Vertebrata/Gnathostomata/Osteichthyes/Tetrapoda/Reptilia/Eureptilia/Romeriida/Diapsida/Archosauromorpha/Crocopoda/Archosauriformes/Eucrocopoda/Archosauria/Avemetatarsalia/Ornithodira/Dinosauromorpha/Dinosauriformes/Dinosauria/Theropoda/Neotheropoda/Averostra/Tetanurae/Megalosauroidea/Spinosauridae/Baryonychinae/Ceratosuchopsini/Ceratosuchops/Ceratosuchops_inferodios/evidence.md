@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceratosuchops inferodios
       en: Ceratosuchops inferodios
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

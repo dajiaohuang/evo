@@ -9,7 +9,6 @@ records:
     name:
       zh: 阿鲁纳恰尔猕猴
       en: Arunachal macaque
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: evolution
@@ -360,9 +359,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Macaca munzala
@@ -532,7 +528,7 @@ Local migration between sampled populations could not be ruled out; the study di
 ## facets / evolution / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/evolution/gaps/2 -->
-Morphology, life history, other ecology, current range-wide distribution, fossils, conservation status, systematic evidence search, and expert review remain unassessed.
+Morphology, life history, other ecology, current range-wide distribution, fossils, conservation status, systematic evidence search, remain unassessed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -550,5 +546,5 @@ The mtDNA skyline expansion near 15,000 years before present and the separate mi
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Morphology, life history, other ecology, range-wide distribution, fossils, conservation status, systematic evidence search, and external expert review remain unassessed.
+Morphology, life history, other ecology, range-wide distribution, fossils, conservation status, systematic evidence search, remain unassessed.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Perameles nasuta
       en: Perameles nasuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

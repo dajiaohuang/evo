@@ -9,7 +9,6 @@ records:
     name:
       zh: Prognathodon compressidens
       en: Prognathodon compressidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

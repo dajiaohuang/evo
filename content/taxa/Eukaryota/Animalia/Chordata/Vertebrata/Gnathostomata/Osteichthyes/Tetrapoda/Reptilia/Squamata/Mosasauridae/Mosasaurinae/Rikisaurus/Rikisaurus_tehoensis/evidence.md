@@ -9,7 +9,6 @@ records:
     name:
       zh: Rikisaurus tehoensis
       en: Rikisaurus tehoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

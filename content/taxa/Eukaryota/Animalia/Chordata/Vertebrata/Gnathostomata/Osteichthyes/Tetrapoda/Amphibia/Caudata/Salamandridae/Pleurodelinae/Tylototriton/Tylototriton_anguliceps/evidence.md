@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton anguliceps
       zh: Tylototriton anguliceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

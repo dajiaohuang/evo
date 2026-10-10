@@ -9,7 +9,6 @@ records:
     name:
       zh: Acaenasuchus geoffreyi
       en: Acaenasuchus geoffreyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

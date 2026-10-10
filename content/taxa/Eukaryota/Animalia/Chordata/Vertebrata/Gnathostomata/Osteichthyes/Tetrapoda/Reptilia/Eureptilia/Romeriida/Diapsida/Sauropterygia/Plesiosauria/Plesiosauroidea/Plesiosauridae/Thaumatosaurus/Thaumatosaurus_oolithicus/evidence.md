@@ -9,7 +9,6 @@ records:
     name:
       zh: Thaumatosaurus oolithicus
       en: Thaumatosaurus oolithicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

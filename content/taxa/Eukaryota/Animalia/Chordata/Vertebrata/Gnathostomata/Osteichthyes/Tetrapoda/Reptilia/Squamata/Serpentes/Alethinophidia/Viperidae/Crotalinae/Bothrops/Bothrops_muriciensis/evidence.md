@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothrops muriciensis
       en: Bothrops muriciensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Deinosuchus hatcheri
       en: Deinosuchus hatcheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Didynamipus sjostedti
       zh: Didynamipus sjostedti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kunpengornis anhuimusei
       en: Kunpengornis anhuimusei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

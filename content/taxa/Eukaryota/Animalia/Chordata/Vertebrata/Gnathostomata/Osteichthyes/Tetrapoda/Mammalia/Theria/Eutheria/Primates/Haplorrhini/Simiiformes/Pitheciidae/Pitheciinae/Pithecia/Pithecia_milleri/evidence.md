@@ -9,7 +9,6 @@ records:
     name:
       zh: 米勒僧面猴
       en: Miller's Saki
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

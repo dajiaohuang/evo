@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardea piveteaui
       en: Ardea piveteaui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Arctomeles ferus
       en: Arctomeles ferus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

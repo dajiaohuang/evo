@@ -9,7 +9,6 @@ records:
     name:
       zh: Meemannodon
       en: Meemannodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrotherium macfaddeni
       en: Pyrotherium macfaddeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

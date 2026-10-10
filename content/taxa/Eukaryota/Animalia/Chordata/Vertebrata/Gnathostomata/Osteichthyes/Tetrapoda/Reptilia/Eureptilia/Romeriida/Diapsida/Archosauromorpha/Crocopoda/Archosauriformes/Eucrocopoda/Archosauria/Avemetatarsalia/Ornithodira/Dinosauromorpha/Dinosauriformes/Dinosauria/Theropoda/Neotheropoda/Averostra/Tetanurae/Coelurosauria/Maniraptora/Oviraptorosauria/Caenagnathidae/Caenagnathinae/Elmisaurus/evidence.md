@@ -9,7 +9,6 @@ records:
     name:
       zh: Elmisaurus
       en: Elmisaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

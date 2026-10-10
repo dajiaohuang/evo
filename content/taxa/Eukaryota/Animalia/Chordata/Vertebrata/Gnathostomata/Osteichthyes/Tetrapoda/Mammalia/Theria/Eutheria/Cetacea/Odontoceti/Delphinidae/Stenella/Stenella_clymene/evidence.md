@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenella clymene
       en: Stenella clymene
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

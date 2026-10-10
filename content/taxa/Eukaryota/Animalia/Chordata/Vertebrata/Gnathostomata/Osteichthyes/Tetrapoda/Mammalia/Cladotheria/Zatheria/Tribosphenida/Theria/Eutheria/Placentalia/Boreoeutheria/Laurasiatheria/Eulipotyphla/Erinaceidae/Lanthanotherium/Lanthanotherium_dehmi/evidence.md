@@ -9,7 +9,6 @@ records:
     name:
       zh: Lanthanotherium dehmi
       en: Lanthanotherium dehmi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

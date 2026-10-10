@@ -9,7 +9,6 @@ records:
     name:
       zh: Peneothello cryptoleuca
       en: Peneothello cryptoleuca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ruwenzorisorex suncoides
       en: Ruwenzorisorex suncoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudorabdion taylori
       en: Pseudorabdion taylori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

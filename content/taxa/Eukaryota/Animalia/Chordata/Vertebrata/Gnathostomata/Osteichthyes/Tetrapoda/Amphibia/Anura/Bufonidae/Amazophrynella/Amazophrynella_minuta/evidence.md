@@ -9,7 +9,6 @@ records:
     name:
       en: Amazophrynella minuta
       zh: Amazophrynella minuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

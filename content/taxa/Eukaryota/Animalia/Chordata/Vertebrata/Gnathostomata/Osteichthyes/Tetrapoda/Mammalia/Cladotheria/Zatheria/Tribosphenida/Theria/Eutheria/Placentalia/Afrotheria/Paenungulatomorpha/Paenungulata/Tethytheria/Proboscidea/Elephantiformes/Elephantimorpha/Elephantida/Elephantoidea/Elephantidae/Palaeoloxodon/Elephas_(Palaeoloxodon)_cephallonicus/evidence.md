@@ -9,7 +9,6 @@ records:
     name:
       zh: Elephas (Palaeoloxodon) cephallonicus
       en: Elephas (Palaeoloxodon) cephallonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

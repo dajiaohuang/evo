@@ -9,7 +9,6 @@ records:
     name:
       zh: Draco cyanopterus
       en: Draco cyanopterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus itombwensis
       zh: Xenopus itombwensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagioenas fasciata
       en: Patagioenas fasciata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

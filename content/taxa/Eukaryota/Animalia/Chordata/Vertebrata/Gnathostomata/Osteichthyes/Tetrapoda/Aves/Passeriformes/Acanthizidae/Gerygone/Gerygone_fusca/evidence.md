@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerygone fusca
       en: Gerygone fusca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

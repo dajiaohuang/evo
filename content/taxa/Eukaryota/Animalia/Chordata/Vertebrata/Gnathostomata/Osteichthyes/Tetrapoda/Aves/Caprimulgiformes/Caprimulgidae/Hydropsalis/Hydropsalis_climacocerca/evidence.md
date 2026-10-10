@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydropsalis climacocerca
       en: Hydropsalis climacocerca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

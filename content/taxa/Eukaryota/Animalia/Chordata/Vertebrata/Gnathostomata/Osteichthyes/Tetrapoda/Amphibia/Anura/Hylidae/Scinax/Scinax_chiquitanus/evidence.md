@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax chiquitanus
       zh: Scinax chiquitanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

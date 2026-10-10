@@ -9,7 +9,6 @@ records:
     name:
       en: Feihyla hansenae
       zh: Feihyla hansenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus platycephalus
       en: Hemidactylus platycephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

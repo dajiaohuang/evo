@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus miliaris
       en: Erythrolamprus miliaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

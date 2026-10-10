@@ -9,7 +9,6 @@ records:
     name:
       en: Epicrionops petersi
       zh: Epicrionops petersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

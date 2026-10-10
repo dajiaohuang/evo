@@ -9,7 +9,6 @@ records:
     name:
       en: Ranitomeya aquamarina
       zh: Ranitomeya aquamarina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

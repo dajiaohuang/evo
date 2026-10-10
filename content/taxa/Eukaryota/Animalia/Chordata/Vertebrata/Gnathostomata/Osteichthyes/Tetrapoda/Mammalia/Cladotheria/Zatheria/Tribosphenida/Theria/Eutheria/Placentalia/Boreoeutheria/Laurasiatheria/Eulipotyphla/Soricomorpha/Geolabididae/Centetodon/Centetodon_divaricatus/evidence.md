@@ -9,7 +9,6 @@ records:
     name:
       zh: Centetodon divaricatus
       en: Centetodon divaricatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

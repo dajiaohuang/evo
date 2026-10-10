@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus petrophilus
       en: Liolaemus petrophilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

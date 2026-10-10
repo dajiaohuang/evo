@@ -9,7 +9,6 @@ records:
     name:
       zh: Yehguia tatsuensis
       en: Yehguia tatsuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tympanocryptis tolleyi
       en: Tympanocryptis tolleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

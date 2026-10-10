@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesotriccus ridgwayi
       en: Nesotriccus ridgwayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

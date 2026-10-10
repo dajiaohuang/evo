@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus rudicollis
       en: Varanus rudicollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

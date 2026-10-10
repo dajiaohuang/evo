@@ -9,7 +9,6 @@ records:
     name:
       zh: Imantodes phantasma
       en: Imantodes phantasma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

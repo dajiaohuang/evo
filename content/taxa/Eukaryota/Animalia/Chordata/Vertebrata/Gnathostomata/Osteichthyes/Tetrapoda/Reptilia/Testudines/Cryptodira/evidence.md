@@ -9,7 +9,6 @@ records:
     name:
       zh: 曲颈龟类
       en: Cryptodira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -341,9 +340,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: joyce-2007-mesozoic-turtle-phylogeny concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: joyce-2007-mesozoic-turtle-phylogeny
           relation: supports
@@ -362,9 +358,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: joyce-2007-mesozoic-turtle-phylogeny; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: joyce-2007-mesozoic-turtle-phylogeny
@@ -405,7 +398,6 @@ records:
       referenceLocators:
         - referenceId: joyce-2007-mesozoic-turtle-phylogeny
           locator: "3–102; Figures 1–3; Appendices 1–3; Clade 25: Cryptodira; fossil and living taxon sample; unresolved internal nodes"
-      reviewStatus: automated-audit-passed
 ---
 
 # Cryptodira

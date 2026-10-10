@@ -9,7 +9,6 @@ records:
     name:
       zh: Platybelodon grangeri
       en: Platybelodon grangeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

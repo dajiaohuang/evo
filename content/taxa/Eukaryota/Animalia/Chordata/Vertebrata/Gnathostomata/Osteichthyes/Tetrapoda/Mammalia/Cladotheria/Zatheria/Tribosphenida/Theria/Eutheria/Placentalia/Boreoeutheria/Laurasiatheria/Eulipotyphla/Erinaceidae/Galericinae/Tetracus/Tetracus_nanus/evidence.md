@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetracus nanus
       en: Tetracus nanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

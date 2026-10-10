@@ -9,7 +9,6 @@ records:
     name:
       zh: Podargus ocellatus
       en: Podargus ocellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

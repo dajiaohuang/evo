@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis sanguineus
       zh: Pristimantis sanguineus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Gai et al. 2022 DOI 10.1038/s41586-022-04897-6
       referenceLinks:
         - referenceId: gai-2022-tujiaaspis
           relation: supports
@@ -81,9 +78,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Gai et al. 2022 DOI 10.1038/s41586-022-04897-6
       referenceLinks:
         - referenceId: gai-2022-tujiaaspis
           relation: supports
@@ -102,9 +96,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Gai et al. 2022 DOI 10.1038/s41586-022-04897-6
       referenceLinks:
         - referenceId: gai-2022-tujiaaspis
           relation: supports
@@ -123,9 +114,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Gai et al. 2022 DOI 10.1038/s41586-022-04897-6
       referenceLinks:
         - referenceId: gai-2022-tujiaaspis
           relation: supports
@@ -144,9 +132,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Gai et al. 2022 DOI 10.1038/s41586-022-04897-6
       referenceLinks:
         - referenceId: gai-2022-tujiaaspis
           relation: supports
@@ -203,7 +188,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Tujiaaspis

@@ -9,7 +9,6 @@ records:
     name:
       en: Rhombophryne guentherpetersi
       zh: Rhombophryne guentherpetersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

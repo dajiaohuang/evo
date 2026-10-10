@@ -9,7 +9,6 @@ records:
     name:
       en: Kalophrynus robinsoni
       zh: Kalophrynus robinsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑猩猩
       en: Chimpanzee
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -1299,10 +1298,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
   atlas-node:
     name: Pan troglodytes
     commonName: Chimpanzee
@@ -1865,10 +1860,4 @@ Wild morphological variation, broader life-history coverage, current distributio
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
 The Taï tool-use age pattern is cross-sectional and limited to selected stick-foraging tasks in three neighboring communities.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->

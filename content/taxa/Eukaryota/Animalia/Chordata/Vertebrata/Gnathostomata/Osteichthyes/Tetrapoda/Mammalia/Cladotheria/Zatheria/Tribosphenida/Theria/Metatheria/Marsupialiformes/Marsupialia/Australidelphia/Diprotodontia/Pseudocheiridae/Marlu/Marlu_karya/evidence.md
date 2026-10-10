@@ -9,7 +9,6 @@ records:
     name:
       zh: Marlu karya
       en: Marlu karya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

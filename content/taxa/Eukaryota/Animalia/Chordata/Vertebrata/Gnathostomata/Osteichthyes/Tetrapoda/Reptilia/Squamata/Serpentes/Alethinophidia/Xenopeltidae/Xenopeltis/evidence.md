@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenopeltis
       en: Xenopeltis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

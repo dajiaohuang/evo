@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthiza chrysorrhoa
       en: Acanthiza chrysorrhoa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

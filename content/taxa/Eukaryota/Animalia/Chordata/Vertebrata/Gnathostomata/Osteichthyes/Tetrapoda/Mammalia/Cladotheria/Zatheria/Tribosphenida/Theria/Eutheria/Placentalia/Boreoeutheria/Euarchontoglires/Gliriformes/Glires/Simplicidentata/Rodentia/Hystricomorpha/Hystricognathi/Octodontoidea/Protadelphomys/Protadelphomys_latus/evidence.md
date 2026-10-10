@@ -9,7 +9,6 @@ records:
     name:
       zh: Protadelphomys latus
       en: Protadelphomys latus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

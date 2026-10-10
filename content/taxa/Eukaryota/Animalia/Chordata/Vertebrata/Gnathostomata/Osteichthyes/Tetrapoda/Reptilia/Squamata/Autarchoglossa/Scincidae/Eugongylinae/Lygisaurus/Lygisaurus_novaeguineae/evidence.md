@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygisaurus novaeguineae
       en: Lygisaurus novaeguineae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

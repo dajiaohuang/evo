@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus hajeki
       en: Liolaemus hajeki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

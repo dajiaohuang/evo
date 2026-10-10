@@ -9,7 +9,6 @@ records:
     name:
       zh: Carpodaptes hobackensis
       en: Carpodaptes hobackensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

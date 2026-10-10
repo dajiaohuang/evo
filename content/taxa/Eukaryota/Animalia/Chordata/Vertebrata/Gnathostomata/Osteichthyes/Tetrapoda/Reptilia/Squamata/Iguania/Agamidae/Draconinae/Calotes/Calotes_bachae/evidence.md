@@ -9,7 +9,6 @@ records:
     name:
       zh: Calotes bachae
       en: Calotes bachae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

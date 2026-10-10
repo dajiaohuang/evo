@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiocephalus pratensis
       en: Leiocephalus pratensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

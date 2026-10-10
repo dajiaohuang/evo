@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsas brevifacies
       en: Dipsas brevifacies
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

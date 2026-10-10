@@ -9,7 +9,6 @@ records:
     name:
       zh: Mammut furlongi
       en: Mammut furlongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

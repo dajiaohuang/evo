@@ -9,7 +9,6 @@ records:
     name:
       en: Truebella skoptes
       zh: Truebella skoptes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

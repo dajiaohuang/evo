@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys dodsoni
       zh: Sclerophrys dodsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

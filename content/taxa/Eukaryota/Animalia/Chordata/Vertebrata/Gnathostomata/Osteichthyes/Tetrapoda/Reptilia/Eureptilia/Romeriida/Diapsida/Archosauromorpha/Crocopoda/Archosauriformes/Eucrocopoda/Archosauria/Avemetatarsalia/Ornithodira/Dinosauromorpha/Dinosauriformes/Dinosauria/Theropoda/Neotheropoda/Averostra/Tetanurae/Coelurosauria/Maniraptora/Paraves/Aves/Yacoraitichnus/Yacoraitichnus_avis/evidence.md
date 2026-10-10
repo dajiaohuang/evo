@@ -9,7 +9,6 @@ records:
     name:
       zh: Yacoraitichnus avis
       en: Yacoraitichnus avis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

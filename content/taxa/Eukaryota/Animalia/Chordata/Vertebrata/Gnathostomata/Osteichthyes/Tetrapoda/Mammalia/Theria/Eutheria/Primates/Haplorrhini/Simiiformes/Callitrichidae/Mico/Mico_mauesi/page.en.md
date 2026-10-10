@@ -22,5 +22,5 @@ The authors obtained records in terra firme primary forest, secondary growth and
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Evidence comes from one 2004 field trip reported in 2008, and one record came from an interview rather than a direct sighting. No current presence, abundance or continuous range is inferred.
+Source-linked introduction;. Evidence comes from one 2004 field trip reported in 2008, and one record came from an interview rather than a direct sighting. No current presence, abundance or continuous range is inferred.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       en: Cryptotriton sierraminensis
       zh: Cryptotriton sierraminensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

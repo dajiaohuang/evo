@@ -9,7 +9,6 @@ records:
     name:
       zh: Caprimulgus madagascariensis
       en: Caprimulgus madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

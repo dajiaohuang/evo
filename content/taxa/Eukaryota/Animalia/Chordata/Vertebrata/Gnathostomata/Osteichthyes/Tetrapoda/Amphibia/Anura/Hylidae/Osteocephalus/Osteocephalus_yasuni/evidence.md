@@ -9,7 +9,6 @@ records:
     name:
       en: Osteocephalus yasuni
       zh: Osteocephalus yasuni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

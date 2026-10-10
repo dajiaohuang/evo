@@ -9,7 +9,6 @@ records:
     name:
       zh: Bahndwivici ammoskius
       en: Bahndwivici ammoskius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

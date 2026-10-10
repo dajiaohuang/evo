@@ -9,7 +9,6 @@ records:
     name:
       zh: Riostegotherium yanei
       en: Riostegotherium yanei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

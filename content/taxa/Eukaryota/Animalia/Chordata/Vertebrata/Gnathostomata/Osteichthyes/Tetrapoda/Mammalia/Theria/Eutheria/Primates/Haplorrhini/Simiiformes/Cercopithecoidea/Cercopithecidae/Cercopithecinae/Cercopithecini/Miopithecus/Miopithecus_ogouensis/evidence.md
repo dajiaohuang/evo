@@ -10,7 +10,6 @@ records:
     name:
       en: Northern Talapoin Monkey
       zh: 加蓬塔拉波因猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

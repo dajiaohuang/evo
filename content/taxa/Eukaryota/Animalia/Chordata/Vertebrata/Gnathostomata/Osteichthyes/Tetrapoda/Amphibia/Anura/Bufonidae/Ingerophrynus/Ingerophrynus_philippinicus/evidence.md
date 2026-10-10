@@ -9,7 +9,6 @@ records:
     name:
       en: Ingerophrynus philippinicus
       zh: Ingerophrynus philippinicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

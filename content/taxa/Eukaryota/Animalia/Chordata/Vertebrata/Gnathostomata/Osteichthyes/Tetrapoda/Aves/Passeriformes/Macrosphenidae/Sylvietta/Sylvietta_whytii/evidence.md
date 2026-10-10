@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylvietta whytii
       en: Sylvietta whytii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

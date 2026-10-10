@@ -148,5 +148,5 @@ malukiewicz2021
 ## atlas-profile / readerLimitations
 
 <!-- evo:text /records/atlas-profile/readerLimitations/en -->
-This bilingual reader draft summarizes selected source-backed topics rather than a complete species review. The current evidence does not provide a wild diet, habitat-use, locomotion, body-size or lifespan synthesis, nor a current conservation assessment or population trend. The scientific dossier remains incomplete and has not received external expert review.
+This bilingual reader draft summarizes selected source-backed topics rather than a complete species review. The current evidence does not provide a wild diet, habitat-use, locomotion, body-size or lifespan synthesis, nor a current conservation assessment or population trend. The scientific dossier remains incomplete.
 <!-- /evo:text -->

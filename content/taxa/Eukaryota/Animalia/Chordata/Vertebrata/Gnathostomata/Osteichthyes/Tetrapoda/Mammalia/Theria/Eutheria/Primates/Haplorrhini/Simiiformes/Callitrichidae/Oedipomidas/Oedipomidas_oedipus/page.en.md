@@ -34,5 +34,5 @@ A Colombian survey in 2005 and 2012 used a tailored lure-strip transect method i
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Social observations, reproductive samples and forest surveys come from different sites, dates and designs; estimates for surveyed parcels remain distinct from extrapolation to the full range. Field papers use the combination Saguinus oedipus, while page identity follows the pinned COL26.8 ID. Not externally expert-reviewed. This page is not externally expert-reviewed.
+Social observations, reproductive samples and forest surveys come from different sites, dates and designs; estimates for surveyed parcels remain distinct from extrapolation to the full range. Field papers use the combination Saguinus oedipus, while page identity follows the pinned COL26.8 ID.. This page is.
 <!-- /evo:text -->

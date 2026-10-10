@@ -9,7 +9,6 @@ records:
     name:
       zh: Calumma tarzan
       en: Calumma tarzan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

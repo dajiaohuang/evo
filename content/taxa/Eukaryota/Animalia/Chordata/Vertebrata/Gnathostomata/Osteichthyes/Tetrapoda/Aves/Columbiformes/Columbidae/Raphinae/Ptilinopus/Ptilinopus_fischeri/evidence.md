@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus fischeri
       en: Ptilinopus fischeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

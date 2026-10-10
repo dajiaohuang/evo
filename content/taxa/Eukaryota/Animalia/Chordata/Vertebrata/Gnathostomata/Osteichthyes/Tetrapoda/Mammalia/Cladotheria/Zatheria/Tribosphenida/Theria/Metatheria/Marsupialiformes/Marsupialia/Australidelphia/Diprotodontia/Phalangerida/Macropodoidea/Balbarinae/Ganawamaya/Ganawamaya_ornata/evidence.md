@@ -9,7 +9,6 @@ records:
     name:
       zh: Ganawamaya ornata
       en: Ganawamaya ornata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

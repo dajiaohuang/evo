@@ -9,7 +9,6 @@ records:
     name:
       zh: Microraptor gui
       en: Microraptor gui
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: morphology

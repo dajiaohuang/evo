@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberiza schoeniclus
       en: Emberiza schoeniclus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

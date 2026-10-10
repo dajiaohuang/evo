@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus tepequem
       zh: Anomaloglossus tepequem
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

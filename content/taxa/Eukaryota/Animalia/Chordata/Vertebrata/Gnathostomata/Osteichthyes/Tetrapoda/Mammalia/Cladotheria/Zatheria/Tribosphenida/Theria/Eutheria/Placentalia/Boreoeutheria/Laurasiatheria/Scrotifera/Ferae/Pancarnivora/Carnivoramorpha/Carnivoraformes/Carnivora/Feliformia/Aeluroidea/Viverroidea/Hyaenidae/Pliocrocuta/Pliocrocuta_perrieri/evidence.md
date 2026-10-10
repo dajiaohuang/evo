@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliocrocuta perrieri
       en: Pliocrocuta perrieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

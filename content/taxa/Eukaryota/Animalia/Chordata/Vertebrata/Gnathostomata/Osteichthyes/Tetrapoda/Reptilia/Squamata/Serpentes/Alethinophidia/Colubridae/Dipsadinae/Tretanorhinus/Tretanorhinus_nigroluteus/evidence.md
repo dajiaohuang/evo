@@ -9,7 +9,6 @@ records:
     name:
       zh: Tretanorhinus nigroluteus
       en: Tretanorhinus nigroluteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

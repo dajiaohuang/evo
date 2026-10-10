@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallinula nesiotis
       en: Gallinula nesiotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

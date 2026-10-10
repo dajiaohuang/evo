@@ -9,7 +9,6 @@ records:
     name:
       zh: Seismophis septentrionalis
       en: Seismophis septentrionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

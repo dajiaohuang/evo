@@ -9,7 +9,6 @@ records:
     name:
       zh: Vasseuromys pannonicus
       en: Vasseuromys pannonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Dryopsophus piperatus
       zh: Dryopsophus piperatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

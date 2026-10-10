@@ -9,7 +9,6 @@ records:
     name:
       zh: Struthiocephalus whaitsi
       en: Struthiocephalus whaitsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

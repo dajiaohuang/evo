@@ -9,7 +9,6 @@ records:
     name:
       zh: Parakannemeyeria dolichocephala
       en: Parakannemeyeria dolichocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

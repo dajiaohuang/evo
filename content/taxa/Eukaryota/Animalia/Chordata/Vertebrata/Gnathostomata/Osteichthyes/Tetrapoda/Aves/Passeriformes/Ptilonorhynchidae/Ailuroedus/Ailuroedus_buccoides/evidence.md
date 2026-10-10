@@ -9,7 +9,6 @@ records:
     name:
       zh: Ailuroedus buccoides
       en: Ailuroedus buccoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

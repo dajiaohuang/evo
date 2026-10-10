@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus dubius
       zh: Cycloramphus dubius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

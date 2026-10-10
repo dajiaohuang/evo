@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachium gunungense
       zh: Leptobrachium gunungense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

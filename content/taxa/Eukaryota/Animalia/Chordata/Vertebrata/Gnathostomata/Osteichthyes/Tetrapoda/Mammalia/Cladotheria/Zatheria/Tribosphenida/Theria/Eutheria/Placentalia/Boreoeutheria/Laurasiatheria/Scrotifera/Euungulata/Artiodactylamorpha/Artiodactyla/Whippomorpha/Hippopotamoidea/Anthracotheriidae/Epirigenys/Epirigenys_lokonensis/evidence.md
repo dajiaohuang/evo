@@ -9,7 +9,6 @@ records:
     name:
       zh: Epirigenys lokonensis
       en: Epirigenys lokonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

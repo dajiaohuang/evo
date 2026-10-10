@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoeniculus granti
       en: Phoeniculus granti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

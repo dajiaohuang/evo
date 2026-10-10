@@ -9,7 +9,6 @@ records:
     name:
       zh: Funisciurus pyrropus
       en: Funisciurus pyrropus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

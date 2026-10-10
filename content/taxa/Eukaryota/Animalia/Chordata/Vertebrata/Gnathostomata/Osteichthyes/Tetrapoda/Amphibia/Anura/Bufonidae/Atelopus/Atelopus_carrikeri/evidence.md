@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus carrikeri
       zh: Atelopus carrikeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

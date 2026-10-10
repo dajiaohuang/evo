@@ -9,7 +9,6 @@ records:
     name:
       zh: Apostolepis flavotorquata
       en: Apostolepis flavotorquata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

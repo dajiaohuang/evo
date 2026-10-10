@@ -9,7 +9,6 @@ records:
     name:
       en: Panamanian Night Monkey
       zh: 巴拿马夜猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: field-survey

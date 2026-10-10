@@ -9,7 +9,6 @@ records:
     name:
       zh: Megapnosaurus rhodesiensis
       en: Megapnosaurus rhodesiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

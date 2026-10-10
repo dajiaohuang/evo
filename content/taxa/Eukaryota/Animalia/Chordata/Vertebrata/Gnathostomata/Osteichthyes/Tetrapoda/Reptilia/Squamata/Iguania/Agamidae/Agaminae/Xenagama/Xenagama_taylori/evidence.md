@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenagama taylori
       en: Xenagama taylori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

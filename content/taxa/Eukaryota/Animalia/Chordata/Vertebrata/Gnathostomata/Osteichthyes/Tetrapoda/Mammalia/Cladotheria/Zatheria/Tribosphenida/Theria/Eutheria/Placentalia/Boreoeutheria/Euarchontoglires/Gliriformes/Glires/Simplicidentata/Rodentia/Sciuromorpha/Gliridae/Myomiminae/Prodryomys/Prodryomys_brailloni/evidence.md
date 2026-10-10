@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodryomys brailloni
       en: Prodryomys brailloni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

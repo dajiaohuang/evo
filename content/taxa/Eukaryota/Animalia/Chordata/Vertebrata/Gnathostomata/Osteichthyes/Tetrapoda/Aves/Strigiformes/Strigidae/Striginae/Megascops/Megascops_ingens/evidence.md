@@ -9,7 +9,6 @@ records:
     name:
       zh: Megascops ingens
       en: Megascops ingens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

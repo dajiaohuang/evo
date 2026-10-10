@@ -9,7 +9,6 @@ records:
     name:
       zh: Porphyrio porphyrio
       en: Porphyrio porphyrio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eochrysochloris tribosphenus
       en: Eochrysochloris tribosphenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

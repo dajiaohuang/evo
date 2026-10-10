@@ -9,7 +9,6 @@ records:
     name:
       zh: Troglodytes rufulus
       en: Troglodytes rufulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zosterops everetti
       en: Zosterops everetti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

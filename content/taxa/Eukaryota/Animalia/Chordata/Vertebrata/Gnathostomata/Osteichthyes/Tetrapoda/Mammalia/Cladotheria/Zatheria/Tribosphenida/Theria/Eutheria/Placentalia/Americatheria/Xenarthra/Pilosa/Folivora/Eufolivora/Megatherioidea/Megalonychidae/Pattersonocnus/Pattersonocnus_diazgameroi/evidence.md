@@ -9,7 +9,6 @@ records:
     name:
       zh: Pattersonocnus diazgameroi
       en: Pattersonocnus diazgameroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

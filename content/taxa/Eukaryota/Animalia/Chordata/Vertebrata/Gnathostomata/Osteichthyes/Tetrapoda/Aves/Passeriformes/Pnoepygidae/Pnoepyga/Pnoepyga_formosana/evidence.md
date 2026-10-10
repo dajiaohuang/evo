@@ -9,7 +9,6 @@ records:
     name:
       zh: Pnoepyga formosana
       en: Pnoepyga formosana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

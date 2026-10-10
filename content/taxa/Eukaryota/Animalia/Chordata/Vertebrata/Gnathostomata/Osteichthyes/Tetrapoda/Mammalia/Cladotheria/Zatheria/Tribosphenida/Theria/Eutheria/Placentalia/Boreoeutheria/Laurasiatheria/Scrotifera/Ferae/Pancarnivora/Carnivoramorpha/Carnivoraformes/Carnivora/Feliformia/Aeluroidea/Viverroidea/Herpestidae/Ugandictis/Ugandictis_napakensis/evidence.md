@@ -9,7 +9,6 @@ records:
     name:
       zh: Ugandictis napakensis
       en: Ugandictis napakensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

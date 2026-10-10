@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana aurantiaca
       zh: Hylarana aurantiaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

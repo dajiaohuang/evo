@@ -9,7 +9,6 @@ records:
     name:
       zh: Graptemys sabinensis
       en: Graptemys sabinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

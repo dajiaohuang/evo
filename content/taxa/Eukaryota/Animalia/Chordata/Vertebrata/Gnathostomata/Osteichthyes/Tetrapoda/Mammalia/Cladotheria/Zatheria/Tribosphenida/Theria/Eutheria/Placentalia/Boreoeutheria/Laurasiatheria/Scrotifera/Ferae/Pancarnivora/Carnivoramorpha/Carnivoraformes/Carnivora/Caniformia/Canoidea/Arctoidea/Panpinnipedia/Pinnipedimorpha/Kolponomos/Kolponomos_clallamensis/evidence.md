@@ -9,7 +9,6 @@ records:
     name:
       zh: Kolponomos clallamensis
       en: Kolponomos clallamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sarcosuchus imperator
       en: Sarcosuchus imperator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

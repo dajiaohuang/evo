@@ -9,7 +9,6 @@ records:
     name:
       zh: Janjucetus hunderi
       en: Janjucetus hunderi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

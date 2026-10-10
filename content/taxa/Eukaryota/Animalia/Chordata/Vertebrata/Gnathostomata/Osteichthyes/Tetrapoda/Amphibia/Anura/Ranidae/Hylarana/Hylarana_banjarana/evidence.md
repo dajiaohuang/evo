@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana banjarana
       zh: Hylarana banjarana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

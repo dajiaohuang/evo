@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pataikos
       zh: Pristimantis pataikos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

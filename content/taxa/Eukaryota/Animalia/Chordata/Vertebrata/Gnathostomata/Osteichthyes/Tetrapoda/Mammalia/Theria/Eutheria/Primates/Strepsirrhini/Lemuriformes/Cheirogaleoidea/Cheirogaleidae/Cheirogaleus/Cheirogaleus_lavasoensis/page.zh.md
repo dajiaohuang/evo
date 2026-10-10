@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-遗传比较只覆盖研究实际采集的地点和样本；不据此填写未经核实的现今范围或数量。本页尚未经过外部领域专家评审。
+遗传比较只覆盖研究实际采集的地点和样本；不据此填写未经核实的现今范围或数量。。
 <!-- /evo:text -->

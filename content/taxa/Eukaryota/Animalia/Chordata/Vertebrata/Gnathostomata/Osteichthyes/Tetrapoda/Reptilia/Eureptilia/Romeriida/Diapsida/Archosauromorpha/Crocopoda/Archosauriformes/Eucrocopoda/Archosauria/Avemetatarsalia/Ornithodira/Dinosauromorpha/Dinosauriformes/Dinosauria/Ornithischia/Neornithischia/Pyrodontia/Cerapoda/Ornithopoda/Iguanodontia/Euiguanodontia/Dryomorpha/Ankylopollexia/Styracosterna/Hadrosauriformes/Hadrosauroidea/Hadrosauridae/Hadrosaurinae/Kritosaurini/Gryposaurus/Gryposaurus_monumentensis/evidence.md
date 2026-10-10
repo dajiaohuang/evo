@@ -9,7 +9,6 @@ records:
     name:
       zh: Gryposaurus monumentensis
       en: Gryposaurus monumentensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

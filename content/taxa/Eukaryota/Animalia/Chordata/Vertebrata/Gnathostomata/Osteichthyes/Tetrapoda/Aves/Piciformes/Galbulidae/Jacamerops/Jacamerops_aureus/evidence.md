@@ -9,7 +9,6 @@ records:
     name:
       zh: Jacamerops aureus
       en: Jacamerops aureus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

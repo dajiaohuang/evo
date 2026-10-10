@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena mutinondoensis
       zh: Ptychadena mutinondoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

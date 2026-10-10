@@ -9,7 +9,6 @@ records:
     name:
       zh: Muscisaxicola albifrons
       en: Muscisaxicola albifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

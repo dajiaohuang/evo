@@ -9,7 +9,6 @@ records:
     name:
       en: Micryletta aishani
       zh: Micryletta aishani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

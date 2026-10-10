@@ -9,7 +9,6 @@ records:
     name:
       zh: Ulemica invisa
       en: Ulemica invisa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus fischeri
       en: Lygodactylus fischeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

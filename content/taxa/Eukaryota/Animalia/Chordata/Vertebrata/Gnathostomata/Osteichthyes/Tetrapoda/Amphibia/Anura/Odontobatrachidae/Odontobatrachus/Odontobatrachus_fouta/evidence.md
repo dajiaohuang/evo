@@ -9,7 +9,6 @@ records:
     name:
       en: Odontobatrachus fouta
       zh: Odontobatrachus fouta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

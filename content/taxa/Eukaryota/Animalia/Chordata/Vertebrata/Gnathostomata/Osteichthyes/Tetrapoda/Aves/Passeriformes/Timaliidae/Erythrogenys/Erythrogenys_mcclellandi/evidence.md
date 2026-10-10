@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrogenys mcclellandi
       en: Erythrogenys mcclellandi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

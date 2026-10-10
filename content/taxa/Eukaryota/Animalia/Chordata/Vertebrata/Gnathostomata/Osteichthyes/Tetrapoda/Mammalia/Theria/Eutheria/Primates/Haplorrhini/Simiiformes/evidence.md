@@ -29,9 +29,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas source audit
-      reviewedAt: 2026-09-25
-      reviewedAgainstReferenceVersion: COL26.8 ChecklistBank dataset 316115; accepted usage 697NS and complete parent chain checked 2026-09-25
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -67,7 +64,6 @@ records:
       referenceLocators:
         - referenceId: col-2026-checklistbank-316115
           locator: COL26.8 release dataset 316115; accepted ancestor path recorded for usage 697NS (identity/classification only)
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Simiiformes
     rank: infraorder
@@ -75,7 +71,6 @@ records:
     name:
       zh: Simiiformes
       en: Simiiformes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

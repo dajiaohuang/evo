@@ -9,7 +9,6 @@ records:
     name:
       zh: Leopardus braccatus
       en: Leopardus braccatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

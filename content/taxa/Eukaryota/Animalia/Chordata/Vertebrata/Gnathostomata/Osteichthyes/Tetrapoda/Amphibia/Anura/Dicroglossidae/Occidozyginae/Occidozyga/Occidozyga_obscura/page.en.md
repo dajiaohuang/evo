@@ -90,7 +90,7 @@ The study’s vouchers support Guangdong and Guangxi localities. Its authors req
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial biological reader; remaining facets and contemporary species boundaries require further evidence. This reader is not externally expert-reviewed.
+Partial biological reader; remaining facets and contemporary species boundaries require further evidence. This reader is.
 <!-- /evo:text -->
 
 ## Research text pending

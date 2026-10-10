@@ -9,7 +9,6 @@ records:
     name:
       zh: Apostolepis dimidiata
       en: Apostolepis dimidiata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

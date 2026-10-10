@@ -40,5 +40,5 @@ Habitat=Marine；定义包含远洋、近岸海面及相关近海繁殖环境，
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页使用十条所选 AVONET v7 历史行之一、同名 eBird 与旧 Oceanodroma 或 Halocyptena BirdTree 关系、已读目录名称及相关字段定义。十个逐字旧名都在所读 COL hy／oc／ha 分片有对应异名，不证明历史与当前物种边界完全相同。形态鸟数、完整测量与 Dunning 文献体重保留独立分母；未读原标本、Dunning 原书、完整工作簿或新完整方法论文。水生捕食生态位、Carnivore 营养级与 Aerial 活动类别分别记录，不补实测猎物、潜水深度、速度、迁移路线、羽色、鸣声、繁殖、当前分布或保育状态。历史地图字段本批未解读；本页不计完整自然史或外部专家审评。
+本页使用十条所选 AVONET v7 历史行之一、同名 eBird 与旧 Oceanodroma 或 Halocyptena BirdTree 关系、已读目录名称及相关字段定义。十个逐字旧名都在所读 COL hy／oc／ha 分片有对应异名，不证明历史与当前物种边界完全相同。形态鸟数、完整测量与 Dunning 文献体重保留独立分母；未读原标本、Dunning 原书、完整工作簿或新完整方法论文。水生捕食生态位、Carnivore 营养级与 Aerial 活动类别分别记录，不补实测猎物、潜水深度、速度、迁移路线、羽色、鸣声、繁殖、当前分布或保育状态。历史地图字段本批未解读；本页不计完整自然史。
 <!-- /evo:text -->

@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-这是有来源的入门概述，尚未经过外部领域专家评审。范围来自澳大利亚新南威尔士州的研究与博物馆资料，不应解读为全球完整分布；旧毒性排名、死亡统计及保育等级未导入。
+这是有来源的入门概述。范围来自澳大利亚新南威尔士州的研究与博物馆资料，不应解读为全球完整分布；旧毒性排名、死亡统计及保育等级未导入。
 <!-- /evo:text -->

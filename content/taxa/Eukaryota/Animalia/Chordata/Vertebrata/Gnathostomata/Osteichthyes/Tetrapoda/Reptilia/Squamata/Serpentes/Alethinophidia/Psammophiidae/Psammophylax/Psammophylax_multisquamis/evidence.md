@@ -9,7 +9,6 @@ records:
     name:
       zh: Psammophylax multisquamis
       en: Psammophylax multisquamis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

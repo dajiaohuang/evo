@@ -9,7 +9,6 @@ records:
     name:
       zh: Coturnix centensis
       en: Coturnix centensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

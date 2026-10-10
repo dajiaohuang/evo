@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis rubicundus
       zh: Pristimantis rubicundus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

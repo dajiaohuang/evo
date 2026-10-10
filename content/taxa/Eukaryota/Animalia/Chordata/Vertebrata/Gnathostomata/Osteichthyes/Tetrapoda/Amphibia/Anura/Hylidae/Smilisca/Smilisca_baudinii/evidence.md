@@ -9,7 +9,6 @@ records:
     name:
       en: Smilisca baudinii
       zh: Smilisca baudinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

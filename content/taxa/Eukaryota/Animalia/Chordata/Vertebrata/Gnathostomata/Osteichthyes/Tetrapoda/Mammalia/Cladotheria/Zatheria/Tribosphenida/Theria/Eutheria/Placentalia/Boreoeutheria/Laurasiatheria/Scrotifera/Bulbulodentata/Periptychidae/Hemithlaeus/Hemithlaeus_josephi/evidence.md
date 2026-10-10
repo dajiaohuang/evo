@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemithlaeus josephi
       en: Hemithlaeus josephi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelodina rugosa
       en: Chelodina rugosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

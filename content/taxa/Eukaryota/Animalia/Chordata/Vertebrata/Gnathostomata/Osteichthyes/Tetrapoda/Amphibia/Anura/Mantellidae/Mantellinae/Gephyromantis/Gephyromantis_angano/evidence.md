@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis angano
       zh: Gephyromantis angano
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

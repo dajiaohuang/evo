@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudeutatus clypeus
       en: Pseudeutatus clypeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

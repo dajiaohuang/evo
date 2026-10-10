@@ -9,7 +9,6 @@ records:
     name:
       zh: Mauicetus parki
       en: Mauicetus parki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

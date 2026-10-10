@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudobranchus axanthus
       zh: Pseudobranchus axanthus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

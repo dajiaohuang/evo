@@ -9,7 +9,6 @@ records:
     name:
       zh: Litocranius walleri
       en: Litocranius walleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

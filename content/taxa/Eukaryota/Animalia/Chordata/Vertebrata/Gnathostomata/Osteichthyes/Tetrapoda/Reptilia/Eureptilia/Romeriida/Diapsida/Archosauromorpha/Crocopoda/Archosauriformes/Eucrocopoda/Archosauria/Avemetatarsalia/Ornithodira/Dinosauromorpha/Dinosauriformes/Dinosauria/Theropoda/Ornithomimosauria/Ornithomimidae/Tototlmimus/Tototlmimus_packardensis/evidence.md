@@ -9,7 +9,6 @@ records:
     name:
       zh: Tototlmimus packardensis
       en: Tototlmimus packardensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

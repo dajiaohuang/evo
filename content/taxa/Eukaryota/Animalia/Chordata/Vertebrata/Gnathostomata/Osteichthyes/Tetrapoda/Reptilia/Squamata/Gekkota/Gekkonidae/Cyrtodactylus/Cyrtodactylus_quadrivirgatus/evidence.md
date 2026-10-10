@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus quadrivirgatus
       en: Cyrtodactylus quadrivirgatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

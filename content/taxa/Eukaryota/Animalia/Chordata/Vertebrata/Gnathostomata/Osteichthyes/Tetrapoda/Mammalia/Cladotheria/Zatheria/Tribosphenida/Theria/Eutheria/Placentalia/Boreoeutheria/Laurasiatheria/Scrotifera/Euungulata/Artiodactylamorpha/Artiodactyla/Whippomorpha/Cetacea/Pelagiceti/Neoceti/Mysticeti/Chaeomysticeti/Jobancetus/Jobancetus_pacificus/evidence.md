@@ -9,7 +9,6 @@ records:
     name:
       zh: Jobancetus pacificus
       en: Jobancetus pacificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

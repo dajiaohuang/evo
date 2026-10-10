@@ -9,7 +9,6 @@ records:
     name:
       zh: Muscigralla brevicauda
       en: Muscigralla brevicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

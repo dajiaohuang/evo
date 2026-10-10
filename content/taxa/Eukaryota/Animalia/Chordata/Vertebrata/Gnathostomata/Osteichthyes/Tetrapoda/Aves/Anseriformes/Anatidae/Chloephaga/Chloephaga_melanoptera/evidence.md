@@ -9,7 +9,6 @@ records:
     name:
       zh: Chloephaga melanoptera
       en: Chloephaga melanoptera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

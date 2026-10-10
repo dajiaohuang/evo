@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachemys scripta
       en: Trachemys scripta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

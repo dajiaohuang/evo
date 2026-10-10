@@ -9,7 +9,6 @@ records:
     name:
       zh: Cebus yuracus
       en: Cebus yuracus
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

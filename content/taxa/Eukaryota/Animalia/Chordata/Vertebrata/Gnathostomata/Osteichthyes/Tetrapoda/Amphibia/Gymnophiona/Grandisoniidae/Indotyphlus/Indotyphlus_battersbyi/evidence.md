@@ -9,7 +9,6 @@ records:
     name:
       en: Indotyphlus battersbyi
       zh: Indotyphlus battersbyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

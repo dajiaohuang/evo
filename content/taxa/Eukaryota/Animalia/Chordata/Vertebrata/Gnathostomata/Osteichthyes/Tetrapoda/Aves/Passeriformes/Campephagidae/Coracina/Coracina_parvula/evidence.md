@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracina parvula
       en: Coracina parvula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

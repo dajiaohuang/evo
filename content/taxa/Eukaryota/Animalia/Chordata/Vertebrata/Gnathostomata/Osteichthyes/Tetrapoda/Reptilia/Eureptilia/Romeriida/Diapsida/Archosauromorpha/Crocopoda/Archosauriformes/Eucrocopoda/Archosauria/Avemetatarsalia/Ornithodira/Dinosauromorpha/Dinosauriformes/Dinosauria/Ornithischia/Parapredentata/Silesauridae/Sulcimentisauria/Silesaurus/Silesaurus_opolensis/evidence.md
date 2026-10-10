@@ -9,7 +9,6 @@ records:
     name:
       zh: Silesaurus opolensis
       en: Silesaurus opolensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

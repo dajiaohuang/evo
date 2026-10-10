@@ -9,7 +9,6 @@ records:
     name:
       zh: Orienantius ritteri
       en: Orienantius ritteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

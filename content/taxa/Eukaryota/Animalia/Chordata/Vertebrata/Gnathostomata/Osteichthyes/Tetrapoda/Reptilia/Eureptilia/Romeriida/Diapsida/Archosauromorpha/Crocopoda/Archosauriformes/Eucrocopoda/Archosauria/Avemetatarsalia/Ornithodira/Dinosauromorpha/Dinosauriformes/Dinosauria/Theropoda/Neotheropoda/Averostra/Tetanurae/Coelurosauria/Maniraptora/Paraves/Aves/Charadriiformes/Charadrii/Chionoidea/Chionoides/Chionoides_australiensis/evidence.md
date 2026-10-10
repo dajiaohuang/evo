@@ -9,7 +9,6 @@ records:
     name:
       zh: Chionoides australiensis
       en: Chionoides australiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

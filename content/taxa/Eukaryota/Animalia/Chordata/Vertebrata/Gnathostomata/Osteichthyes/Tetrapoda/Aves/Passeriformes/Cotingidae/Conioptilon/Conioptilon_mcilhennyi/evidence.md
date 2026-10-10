@@ -9,7 +9,6 @@ records:
     name:
       zh: Conioptilon mcilhennyi
       en: Conioptilon mcilhennyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Spinomantis mirus
       zh: Spinomantis mirus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

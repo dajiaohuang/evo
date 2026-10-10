@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptodeira uribei
       en: Leptodeira uribei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

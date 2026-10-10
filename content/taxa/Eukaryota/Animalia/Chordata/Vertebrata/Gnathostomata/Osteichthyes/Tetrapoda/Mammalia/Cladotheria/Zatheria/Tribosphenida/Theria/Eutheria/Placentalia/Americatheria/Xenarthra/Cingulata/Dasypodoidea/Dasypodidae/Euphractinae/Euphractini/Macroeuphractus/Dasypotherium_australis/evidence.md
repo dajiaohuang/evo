@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasypotherium australis
       en: Dasypotherium australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

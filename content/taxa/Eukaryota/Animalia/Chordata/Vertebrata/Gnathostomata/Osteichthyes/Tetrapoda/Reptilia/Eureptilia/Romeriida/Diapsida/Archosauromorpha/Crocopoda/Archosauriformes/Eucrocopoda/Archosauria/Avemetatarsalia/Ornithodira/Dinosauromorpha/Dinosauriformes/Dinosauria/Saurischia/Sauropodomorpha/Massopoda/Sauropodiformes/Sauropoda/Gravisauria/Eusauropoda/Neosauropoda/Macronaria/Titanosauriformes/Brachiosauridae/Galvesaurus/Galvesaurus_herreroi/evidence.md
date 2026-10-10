@@ -9,7 +9,6 @@ records:
     name:
       zh: Galvesaurus herreroi
       en: Galvesaurus herreroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

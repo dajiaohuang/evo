@@ -9,7 +9,6 @@ records:
     name:
       zh: Koleken
       en: Koleken
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

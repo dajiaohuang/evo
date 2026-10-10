@@ -9,7 +9,6 @@ records:
     name:
       zh: Proterochampsa nodosa
       en: Proterochampsa nodosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Androdon aequatorialis
       en: Androdon aequatorialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

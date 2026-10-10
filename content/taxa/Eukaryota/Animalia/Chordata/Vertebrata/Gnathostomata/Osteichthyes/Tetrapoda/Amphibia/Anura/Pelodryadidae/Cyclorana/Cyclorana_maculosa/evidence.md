@@ -9,7 +9,6 @@ records:
     name:
       en: Cyclorana maculosa
       zh: Cyclorana maculosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

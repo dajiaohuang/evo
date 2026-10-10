@@ -9,7 +9,6 @@ records:
     name:
       zh: Bransateryx vireti
       en: Bransateryx vireti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

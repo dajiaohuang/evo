@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis datzorum
       en: Anolis datzorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

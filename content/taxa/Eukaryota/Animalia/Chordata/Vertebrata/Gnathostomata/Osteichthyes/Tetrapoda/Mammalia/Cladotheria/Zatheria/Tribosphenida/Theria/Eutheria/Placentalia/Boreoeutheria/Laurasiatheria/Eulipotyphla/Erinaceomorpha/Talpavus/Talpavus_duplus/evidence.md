@@ -9,7 +9,6 @@ records:
     name:
       zh: Talpavus duplus
       en: Talpavus duplus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

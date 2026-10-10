@@ -9,7 +9,6 @@ records:
     name:
       en: Strabomantis sulcatus
       zh: Strabomantis sulcatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius abuensis
       zh: Hynobius abuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

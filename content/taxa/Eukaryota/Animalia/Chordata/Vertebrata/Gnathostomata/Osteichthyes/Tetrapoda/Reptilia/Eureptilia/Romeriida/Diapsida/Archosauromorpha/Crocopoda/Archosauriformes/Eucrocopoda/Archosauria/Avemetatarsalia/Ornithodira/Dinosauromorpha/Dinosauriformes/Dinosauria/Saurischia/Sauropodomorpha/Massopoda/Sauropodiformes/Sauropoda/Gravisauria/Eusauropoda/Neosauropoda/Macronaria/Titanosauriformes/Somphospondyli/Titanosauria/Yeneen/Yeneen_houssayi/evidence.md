@@ -9,7 +9,6 @@ records:
     name:
       zh: Yeneen houssayi
       en: Yeneen houssayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

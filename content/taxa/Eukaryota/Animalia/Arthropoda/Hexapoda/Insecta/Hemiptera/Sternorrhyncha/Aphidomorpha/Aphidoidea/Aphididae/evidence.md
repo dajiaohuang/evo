@@ -9,7 +9,6 @@ records:
     name:
       zh: 蚜科
       en: Aphids
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

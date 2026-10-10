@@ -9,7 +9,6 @@ records:
     name:
       zh: Paukkaungmeryx minutus
       en: Paukkaungmeryx minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Allodaposuchus hulki
       en: Allodaposuchus hulki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

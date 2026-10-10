@@ -9,7 +9,6 @@ records:
     name:
       zh: Apodemus pallipes
       en: Apodemus pallipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

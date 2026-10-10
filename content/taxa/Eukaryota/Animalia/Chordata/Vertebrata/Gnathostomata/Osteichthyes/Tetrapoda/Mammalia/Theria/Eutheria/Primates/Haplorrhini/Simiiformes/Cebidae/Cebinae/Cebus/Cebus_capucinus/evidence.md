@@ -9,7 +9,6 @@ records:
     name:
       zh: 白面卷尾猴
       en: White-faced capuchin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -927,10 +926,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Cebus capucinus
@@ -1119,10 +1114,4 @@ Evidence is limited to local fruit-foraging and occurrence observations; five fa
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The 49-animal, three-group sample from one reserve cannot represent the species-wide diet or range.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

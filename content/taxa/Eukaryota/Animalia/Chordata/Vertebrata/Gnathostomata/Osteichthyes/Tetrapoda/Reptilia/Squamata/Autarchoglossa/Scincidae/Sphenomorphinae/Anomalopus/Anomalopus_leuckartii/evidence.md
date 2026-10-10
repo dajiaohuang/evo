@@ -9,7 +9,6 @@ records:
     name:
       zh: Anomalopus leuckartii
       en: Anomalopus leuckartii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

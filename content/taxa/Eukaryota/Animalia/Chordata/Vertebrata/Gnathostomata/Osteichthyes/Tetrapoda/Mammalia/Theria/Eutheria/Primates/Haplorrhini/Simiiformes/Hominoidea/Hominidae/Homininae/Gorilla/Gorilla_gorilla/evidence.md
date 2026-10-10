@@ -9,7 +9,6 @@ records:
     name:
       zh: 西部大猩猩
       en: Western gorilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -825,10 +824,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Gorilla gorilla
@@ -1251,10 +1246,4 @@ The record contains bounded site-specific ecology, genomic evolution and female 
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 Systematic literature coverage across the accepted species concept, morphology, and variation among other populations and subspecies remains incomplete.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->

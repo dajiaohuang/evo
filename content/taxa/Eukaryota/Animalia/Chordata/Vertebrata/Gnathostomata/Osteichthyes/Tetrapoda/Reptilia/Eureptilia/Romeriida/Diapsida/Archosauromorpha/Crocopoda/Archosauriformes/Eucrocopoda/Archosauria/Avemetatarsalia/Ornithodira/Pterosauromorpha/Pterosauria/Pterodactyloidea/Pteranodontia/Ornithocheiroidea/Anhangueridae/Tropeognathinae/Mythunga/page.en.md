@@ -30,6 +30,6 @@ Start with Mythunga camara and compare each page’s named collections and origi
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This genus page supplies a source-bounded route. The complete reappraisal, ecology and comprehensive material synthesis remain insufficient; no external expert review has occurred.
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes. No external expert review has occurred.
+This genus page supplies a source-bounded route. The complete reappraisal, ecology and comprehensive material synthesis remain insufficient;
+This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 <!-- /evo:text -->

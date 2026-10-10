@@ -9,7 +9,6 @@ records:
     name:
       zh: Valgipes bucklandi
       en: Valgipes bucklandi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

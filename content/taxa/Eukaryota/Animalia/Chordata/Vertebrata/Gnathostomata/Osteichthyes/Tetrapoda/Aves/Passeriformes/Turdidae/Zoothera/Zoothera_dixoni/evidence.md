@@ -9,7 +9,6 @@ records:
     name:
       zh: Zoothera dixoni
       en: Zoothera dixoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

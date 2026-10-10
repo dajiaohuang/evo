@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla tritaeniata
       en: Tantilla tritaeniata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

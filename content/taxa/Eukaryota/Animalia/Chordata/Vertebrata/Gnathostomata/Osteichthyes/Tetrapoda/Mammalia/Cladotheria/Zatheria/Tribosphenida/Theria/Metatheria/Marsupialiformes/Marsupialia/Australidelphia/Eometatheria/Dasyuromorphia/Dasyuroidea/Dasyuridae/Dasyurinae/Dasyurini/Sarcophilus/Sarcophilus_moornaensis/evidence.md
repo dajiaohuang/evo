@@ -9,7 +9,6 @@ records:
     name:
       zh: Sarcophilus moornaensis
       en: Sarcophilus moornaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

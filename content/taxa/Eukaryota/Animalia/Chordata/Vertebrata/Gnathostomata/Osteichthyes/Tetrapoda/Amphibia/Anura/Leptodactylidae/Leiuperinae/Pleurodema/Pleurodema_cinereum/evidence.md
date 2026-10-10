@@ -9,7 +9,6 @@ records:
     name:
       en: Pleurodema cinereum
       zh: Pleurodema cinereum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

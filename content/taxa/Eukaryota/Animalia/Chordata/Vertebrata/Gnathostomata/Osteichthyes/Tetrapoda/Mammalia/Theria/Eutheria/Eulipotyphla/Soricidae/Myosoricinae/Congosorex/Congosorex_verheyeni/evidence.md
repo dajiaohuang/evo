@@ -9,7 +9,6 @@ records:
     name:
       zh: Congosorex verheyeni
       en: Congosorex verheyeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

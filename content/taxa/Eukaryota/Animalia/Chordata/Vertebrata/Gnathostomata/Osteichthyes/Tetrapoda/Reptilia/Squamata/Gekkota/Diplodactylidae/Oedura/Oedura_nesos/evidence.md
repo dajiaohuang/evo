@@ -9,7 +9,6 @@ records:
     name:
       zh: Oedura nesos
       en: Oedura nesos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

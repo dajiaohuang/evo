@@ -9,7 +9,6 @@ records:
     name:
       zh: Cuculus solitarius
       en: Cuculus solitarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

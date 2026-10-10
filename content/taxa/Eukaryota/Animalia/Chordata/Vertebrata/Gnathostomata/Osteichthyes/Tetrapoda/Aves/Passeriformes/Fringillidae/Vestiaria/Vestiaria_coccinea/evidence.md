@@ -9,7 +9,6 @@ records:
     name:
       zh: Vestiaria coccinea
       en: Vestiaria coccinea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

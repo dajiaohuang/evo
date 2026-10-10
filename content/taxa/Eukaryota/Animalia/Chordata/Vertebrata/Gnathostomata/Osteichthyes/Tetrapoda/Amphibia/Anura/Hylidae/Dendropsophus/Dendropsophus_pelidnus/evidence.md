@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus pelidnus
       zh: Dendropsophus pelidnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

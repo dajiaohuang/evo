@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella pingbianensis
       zh: Leptobrachella pingbianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

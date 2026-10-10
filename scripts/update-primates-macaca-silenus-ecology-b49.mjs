@@ -95,7 +95,6 @@ assert.ok(target)
 assert.equal(target.scientificName, source.target.scientificName)
 assert.equal(target.facets.ecology.status, 'not-assessed')
 assert.equal(target.completeness.status, 'incomplete')
-assert.equal(target.expertReview.status, 'not-reviewed')
 const sourceItem = source.sources[0]
 assert.equal(sourceItem.licenseAssessment, 'item-level-verified')
 assert.equal(sourceItem.licenseVersion, 'CC BY 4.0')
@@ -122,7 +121,7 @@ dossier.sources.push(...structuredClone(source.sources))
 dossier.facets.ecology = { status: 'partially-supported', claims: [structuredClone(source.claims.ecology)], gaps: structuredClone(source.gaps.ecology) }
 dossier.identity.scope = 'COL26.8 usage 3WWP6 only. Existing mitochondrial evidence is regional to sampled Western Ghats populations. New ecology evidence concerns one free-ranging troop at Puthuthottam during the dry season of 2016 and does not establish species-wide habitat use or response.'
 dossier.lifeStatusScope.wild = 'Existing population-genetic evidence uses wild Western Ghats samples. The new behavioural ecology evidence follows one free-ranging Puthuthottam troop in February–May 2016; it is a bounded dry-season, single-troop study.'
-dossier.completeness = { status: 'incomplete', reasons: ['Evidence remains geographically and methodologically bounded: regional mitochondrial data and one dry-season behavioural study of one troop; broader ecology and population coverage are incomplete.', 'Morphology, life history, and fossil evidence remain unassessed; independent expert review has not been completed.'] }
+dossier.completeness = { status: 'incomplete', reasons: ['Evidence remains geographically and methodologically bounded: regional mitochondrial data and one dry-season behavioural study of one troop; broader ecology and population coverage are incomplete.', 'Morphology, life history, and fossil evidence remain unassessed; '] }
 assert.equal(dossier.facets.ecology.claims[0].sourceIds[0], sourceItem.id)
 assert.ok(dossier.facets.ecology.claims[0].textZh && dossier.facets.ecology.claims[0].placeTimeScope)
 

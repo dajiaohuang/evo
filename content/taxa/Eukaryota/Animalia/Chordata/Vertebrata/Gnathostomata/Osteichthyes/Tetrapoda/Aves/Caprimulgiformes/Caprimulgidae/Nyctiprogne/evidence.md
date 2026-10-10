@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctiprogne
       en: Nyctiprogne
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

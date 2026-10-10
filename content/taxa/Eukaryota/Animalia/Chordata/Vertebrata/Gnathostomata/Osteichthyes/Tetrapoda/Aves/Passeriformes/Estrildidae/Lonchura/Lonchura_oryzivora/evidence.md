@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchura oryzivora
       en: Lonchura oryzivora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

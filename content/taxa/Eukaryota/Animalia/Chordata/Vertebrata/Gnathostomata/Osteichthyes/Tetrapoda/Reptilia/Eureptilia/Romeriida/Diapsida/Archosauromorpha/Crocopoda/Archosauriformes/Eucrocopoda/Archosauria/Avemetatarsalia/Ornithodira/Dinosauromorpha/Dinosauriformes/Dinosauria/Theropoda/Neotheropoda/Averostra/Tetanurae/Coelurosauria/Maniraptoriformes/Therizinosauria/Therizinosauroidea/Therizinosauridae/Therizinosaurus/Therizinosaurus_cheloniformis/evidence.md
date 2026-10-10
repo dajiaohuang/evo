@@ -9,7 +9,6 @@ records:
     name:
       zh: Therizinosaurus cheloniformis
       en: Therizinosaurus cheloniformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

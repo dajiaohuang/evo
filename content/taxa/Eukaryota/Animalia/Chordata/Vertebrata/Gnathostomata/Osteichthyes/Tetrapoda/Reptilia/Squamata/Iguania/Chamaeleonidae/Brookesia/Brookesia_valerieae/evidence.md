@@ -9,7 +9,6 @@ records:
     name:
       zh: Brookesia valerieae
       en: Brookesia valerieae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

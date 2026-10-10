@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus ronaldi
       zh: Eleutherodactylus ronaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

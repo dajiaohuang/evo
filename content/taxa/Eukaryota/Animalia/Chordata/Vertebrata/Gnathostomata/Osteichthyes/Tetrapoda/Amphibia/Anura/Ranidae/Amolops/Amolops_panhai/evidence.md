@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops panhai
       zh: Amolops panhai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

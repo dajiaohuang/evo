@@ -9,7 +9,6 @@ records:
     name:
       zh: Ducula whartoni
       en: Ducula whartoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

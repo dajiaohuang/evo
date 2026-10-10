@@ -9,7 +9,6 @@ records:
     name:
       zh: Chloroceryle amazona
       en: Chloroceryle amazona
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

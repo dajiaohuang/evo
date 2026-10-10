@@ -9,7 +9,6 @@ records:
     name:
       zh: Lampropholis couperi
       en: Lampropholis couperi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

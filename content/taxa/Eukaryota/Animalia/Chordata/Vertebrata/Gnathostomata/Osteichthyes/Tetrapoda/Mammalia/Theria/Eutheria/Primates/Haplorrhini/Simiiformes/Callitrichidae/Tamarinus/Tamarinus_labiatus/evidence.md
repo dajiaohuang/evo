@@ -9,7 +9,6 @@ records:
     name:
       zh: 红腹狨
       en: Red-bellied Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

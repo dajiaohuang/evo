@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis sulculus
       zh: Pristimantis sulculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

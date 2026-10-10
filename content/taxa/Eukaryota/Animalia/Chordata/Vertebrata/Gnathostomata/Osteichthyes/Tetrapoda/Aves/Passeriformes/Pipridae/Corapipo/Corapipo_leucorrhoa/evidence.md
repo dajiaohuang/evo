@@ -9,7 +9,6 @@ records:
     name:
       zh: Corapipo leucorrhoa
       en: Corapipo leucorrhoa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

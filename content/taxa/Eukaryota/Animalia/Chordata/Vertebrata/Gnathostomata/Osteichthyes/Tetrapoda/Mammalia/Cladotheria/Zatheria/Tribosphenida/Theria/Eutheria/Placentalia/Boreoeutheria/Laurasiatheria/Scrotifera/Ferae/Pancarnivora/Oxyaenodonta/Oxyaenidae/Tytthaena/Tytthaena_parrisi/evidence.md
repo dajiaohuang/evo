@@ -9,7 +9,6 @@ records:
     name:
       zh: Tytthaena parrisi
       en: Tytthaena parrisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

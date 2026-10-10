@@ -9,7 +9,6 @@ records:
     name:
       zh: Asmodochelys parhami
       en: Asmodochelys parhami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

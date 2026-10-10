@@ -9,7 +9,6 @@ records:
     name:
       zh: Eirenis coronelloides
       en: Eirenis coronelloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

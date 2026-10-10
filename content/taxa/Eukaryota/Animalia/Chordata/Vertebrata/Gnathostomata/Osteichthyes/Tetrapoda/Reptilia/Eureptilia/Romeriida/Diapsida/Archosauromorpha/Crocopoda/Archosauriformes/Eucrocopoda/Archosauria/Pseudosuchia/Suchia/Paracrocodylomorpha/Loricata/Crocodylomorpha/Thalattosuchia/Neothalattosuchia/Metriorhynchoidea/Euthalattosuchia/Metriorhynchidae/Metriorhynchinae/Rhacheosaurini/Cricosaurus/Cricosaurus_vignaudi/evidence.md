@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricosaurus vignaudi
       en: Cricosaurus vignaudi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

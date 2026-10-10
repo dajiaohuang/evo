@@ -9,7 +9,6 @@ records:
     name:
       zh: 毛狐猴属
       en: Woolly Lemurs
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

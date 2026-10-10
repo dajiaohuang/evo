@@ -9,7 +9,6 @@ records:
     name:
       zh: Leopardus vorohuensis
       en: Leopardus vorohuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma annulatum
       zh: Ambystoma annulatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

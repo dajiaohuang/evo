@@ -9,7 +9,6 @@ records:
     name:
       zh: Nonanomalurus soniae
       en: Nonanomalurus soniae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

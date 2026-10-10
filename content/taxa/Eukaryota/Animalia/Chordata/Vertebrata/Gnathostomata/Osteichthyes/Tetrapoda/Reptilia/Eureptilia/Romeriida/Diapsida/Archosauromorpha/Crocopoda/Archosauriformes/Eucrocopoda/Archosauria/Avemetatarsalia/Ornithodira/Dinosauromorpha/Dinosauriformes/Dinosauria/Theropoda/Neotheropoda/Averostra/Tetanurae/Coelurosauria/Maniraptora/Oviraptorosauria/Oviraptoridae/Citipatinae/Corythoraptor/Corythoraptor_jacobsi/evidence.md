@@ -9,7 +9,6 @@ records:
     name:
       zh: Corythoraptor jacobsi
       en: Corythoraptor jacobsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

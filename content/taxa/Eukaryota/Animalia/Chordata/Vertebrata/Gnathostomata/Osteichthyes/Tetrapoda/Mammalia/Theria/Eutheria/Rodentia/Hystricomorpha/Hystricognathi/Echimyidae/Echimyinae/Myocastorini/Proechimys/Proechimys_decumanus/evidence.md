@@ -9,7 +9,6 @@ records:
     name:
       zh: Proechimys decumanus
       en: Proechimys decumanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

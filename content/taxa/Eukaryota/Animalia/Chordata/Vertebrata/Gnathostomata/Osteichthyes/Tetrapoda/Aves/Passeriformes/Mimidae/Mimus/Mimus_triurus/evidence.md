@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimus triurus
       en: Mimus triurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca pulchra
       zh: Gastrotheca pulchra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Andreev et al. 2022 DOI 10.1038/s41586-022-05233-8; audited for 2026.08-static-v5-rc40
       referenceLinks:
         - referenceId: andreev-2022-fanjingshania
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: andreev-2022-fanjingshania
           locator: pp. 969–974, especially 970–972; Figures 1–3; Extended Data Figures 1 and 4; material, horizon and phylogenetic analysis
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

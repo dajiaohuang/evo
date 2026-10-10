@@ -9,7 +9,6 @@ records:
     name:
       zh: Astrohippus stockii
       en: Astrohippus stockii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

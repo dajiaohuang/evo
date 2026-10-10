@@ -9,7 +9,6 @@ records:
     name:
       zh: Meleagris leopoldi
       en: Meleagris leopoldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

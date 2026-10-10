@@ -9,7 +9,6 @@ records:
     name:
       zh: Argya subrufa
       en: Argya subrufa
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

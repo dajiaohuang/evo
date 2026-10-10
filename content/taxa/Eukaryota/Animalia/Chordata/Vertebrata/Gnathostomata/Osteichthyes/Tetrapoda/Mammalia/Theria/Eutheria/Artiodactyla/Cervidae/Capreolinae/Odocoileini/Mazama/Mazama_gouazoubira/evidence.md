@@ -9,7 +9,6 @@ records:
     name:
       zh: Mazama gouazoubira
       en: Mazama gouazoubira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

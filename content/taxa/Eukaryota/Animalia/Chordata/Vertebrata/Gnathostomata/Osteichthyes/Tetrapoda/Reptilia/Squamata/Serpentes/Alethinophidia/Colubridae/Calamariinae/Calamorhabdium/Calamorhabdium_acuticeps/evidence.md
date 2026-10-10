@@ -9,7 +9,6 @@ records:
     name:
       zh: Calamorhabdium acuticeps
       en: Calamorhabdium acuticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

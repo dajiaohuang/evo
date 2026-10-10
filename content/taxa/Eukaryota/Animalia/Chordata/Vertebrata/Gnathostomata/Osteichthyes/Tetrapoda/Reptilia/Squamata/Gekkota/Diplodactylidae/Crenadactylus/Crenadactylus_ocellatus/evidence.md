@@ -9,7 +9,6 @@ records:
     name:
       zh: Crenadactylus ocellatus
       en: Crenadactylus ocellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trichechus manatus
       en: Trichechus manatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

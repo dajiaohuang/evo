@@ -9,7 +9,6 @@ records:
     name:
       zh: Cursorius coromandelicus
       en: Cursorius coromandelicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

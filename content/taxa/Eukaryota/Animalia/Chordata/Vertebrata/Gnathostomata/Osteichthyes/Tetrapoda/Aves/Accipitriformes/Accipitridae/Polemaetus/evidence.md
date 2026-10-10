@@ -9,7 +9,6 @@ records:
     name:
       zh: Polemaetus
       en: Polemaetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

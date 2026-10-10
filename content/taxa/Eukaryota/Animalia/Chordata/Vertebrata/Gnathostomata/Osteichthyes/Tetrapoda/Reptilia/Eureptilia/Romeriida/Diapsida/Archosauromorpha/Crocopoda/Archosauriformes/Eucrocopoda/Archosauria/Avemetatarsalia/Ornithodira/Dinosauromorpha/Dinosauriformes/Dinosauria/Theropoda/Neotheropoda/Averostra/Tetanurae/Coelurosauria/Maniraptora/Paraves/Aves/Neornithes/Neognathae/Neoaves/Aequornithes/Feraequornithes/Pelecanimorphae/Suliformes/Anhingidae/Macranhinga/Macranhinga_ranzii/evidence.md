@@ -9,7 +9,6 @@ records:
     name:
       zh: Macranhinga ranzii
       en: Macranhinga ranzii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

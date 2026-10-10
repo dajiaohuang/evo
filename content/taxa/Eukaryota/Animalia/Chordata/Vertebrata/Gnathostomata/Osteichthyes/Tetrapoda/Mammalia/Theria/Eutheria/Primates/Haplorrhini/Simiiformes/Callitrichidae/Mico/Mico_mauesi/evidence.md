@@ -9,7 +9,6 @@ records:
     name:
       en: Maués Marmoset
       zh: 毛埃斯绒猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

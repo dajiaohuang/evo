@@ -9,7 +9,6 @@ records:
     name:
       en: Paruwrobates whymperi
       zh: Paruwrobates whymperi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

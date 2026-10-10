@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zhang-2007-yicaris DOI-linked primary source
       referenceLinks:
         - referenceId: zhang-2007-yicaris
           relation: supports

@@ -9,7 +9,6 @@ records:
     name:
       zh: Urosaurus nigricauda
       en: Urosaurus nigricauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

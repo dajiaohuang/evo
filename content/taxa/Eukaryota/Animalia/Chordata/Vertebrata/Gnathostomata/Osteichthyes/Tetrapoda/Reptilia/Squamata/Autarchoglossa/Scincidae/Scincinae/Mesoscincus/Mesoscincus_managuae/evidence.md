@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesoscincus managuae
       en: Mesoscincus managuae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

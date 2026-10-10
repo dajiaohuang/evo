@@ -9,7 +9,6 @@ records:
     name:
       zh: Sula sula
       en: Sula sula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

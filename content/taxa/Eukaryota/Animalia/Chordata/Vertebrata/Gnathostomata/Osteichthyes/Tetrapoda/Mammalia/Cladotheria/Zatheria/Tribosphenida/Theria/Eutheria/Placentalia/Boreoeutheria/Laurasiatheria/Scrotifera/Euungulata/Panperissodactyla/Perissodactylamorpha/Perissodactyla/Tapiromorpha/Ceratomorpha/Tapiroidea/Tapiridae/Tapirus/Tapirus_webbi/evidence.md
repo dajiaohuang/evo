@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapirus webbi
       en: Tapirus webbi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

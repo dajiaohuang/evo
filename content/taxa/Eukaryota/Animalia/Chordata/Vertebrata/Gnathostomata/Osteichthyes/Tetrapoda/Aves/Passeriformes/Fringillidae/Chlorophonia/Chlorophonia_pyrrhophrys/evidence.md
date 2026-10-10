@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorophonia pyrrhophrys
       en: Chlorophonia pyrrhophrys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

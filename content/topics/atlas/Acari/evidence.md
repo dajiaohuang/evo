@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: arribas-2020-acari-metagenomics DOI 10.1093/molbev/msz255; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: arribas-2020-acari-metagenomics
@@ -48,9 +45,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: sidorchuk-2018 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: sidorchuk-2018-acari-fossil-record
           relation: supports
@@ -93,7 +87,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Acari

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aoniraptor libertatem
       en: Aoniraptor libertatem
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

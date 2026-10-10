@@ -9,7 +9,6 @@ records:
     name:
       zh: Acristatherium yanensis
       en: Acristatherium yanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

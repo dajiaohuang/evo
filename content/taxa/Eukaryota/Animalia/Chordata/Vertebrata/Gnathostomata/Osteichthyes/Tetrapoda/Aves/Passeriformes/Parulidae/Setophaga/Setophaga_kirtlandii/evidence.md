@@ -9,7 +9,6 @@ records:
     name:
       zh: Setophaga kirtlandii
       en: Setophaga kirtlandii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

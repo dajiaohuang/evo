@@ -9,7 +9,6 @@ records:
     name:
       zh: Scalaridelphys martini
       en: Scalaridelphys martini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

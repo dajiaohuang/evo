@@ -9,7 +9,6 @@ records:
     name:
       zh: Knoetschkesuchus langenbergensis
       en: Knoetschkesuchus langenbergensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus californicus
       en: Peromyscus californicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

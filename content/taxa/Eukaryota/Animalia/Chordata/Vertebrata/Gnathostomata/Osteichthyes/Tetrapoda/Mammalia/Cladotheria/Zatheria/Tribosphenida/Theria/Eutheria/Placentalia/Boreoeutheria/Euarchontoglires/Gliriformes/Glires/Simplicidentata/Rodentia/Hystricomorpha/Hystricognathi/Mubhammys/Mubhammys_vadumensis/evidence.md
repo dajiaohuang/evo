@@ -9,7 +9,6 @@ records:
     name:
       zh: Mubhammys vadumensis
       en: Mubhammys vadumensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

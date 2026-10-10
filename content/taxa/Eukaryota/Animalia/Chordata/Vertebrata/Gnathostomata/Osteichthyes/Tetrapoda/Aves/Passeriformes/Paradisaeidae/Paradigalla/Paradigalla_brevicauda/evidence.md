@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradigalla brevicauda
       en: Paradigalla brevicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

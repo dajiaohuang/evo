@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-描述依据来自一片森林的三只成年个体；作者提出的区域边界明确为暂定。 本页尚未经过外部领域专家评审。
+描述依据来自一片森林的三只成年个体；作者提出的区域边界明确为暂定。 。
 <!-- /evo:text -->

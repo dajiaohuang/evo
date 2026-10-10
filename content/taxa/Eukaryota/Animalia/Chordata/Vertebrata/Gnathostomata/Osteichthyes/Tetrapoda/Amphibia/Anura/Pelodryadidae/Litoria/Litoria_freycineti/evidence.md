@@ -9,7 +9,6 @@ records:
     name:
       en: Litoria freycineti
       zh: Litoria freycineti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

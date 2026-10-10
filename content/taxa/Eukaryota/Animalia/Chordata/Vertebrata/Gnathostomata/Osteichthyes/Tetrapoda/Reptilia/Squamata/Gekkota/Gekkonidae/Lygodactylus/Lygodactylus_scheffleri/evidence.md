@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus scheffleri
       en: Lygodactylus scheffleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

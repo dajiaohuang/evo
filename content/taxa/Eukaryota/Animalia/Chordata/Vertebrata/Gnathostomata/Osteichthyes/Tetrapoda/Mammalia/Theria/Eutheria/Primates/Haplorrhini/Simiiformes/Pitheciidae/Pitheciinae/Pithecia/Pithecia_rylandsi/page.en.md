@@ -16,5 +16,5 @@ Marsh treated Rylands' bald-faced saki as a new species in 2014 based on pelage 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Three local observations and a comparative museum-pelage study address different questions; neither is a population trend or modern range survey. COL and MDD taxonomic treatments differ; this page has not received external expert review. This page is not externally expert-reviewed.
+Three local observations and a comparative museum-pelage study address different questions; neither is a population trend or modern range survey. COL and MDD taxonomic treatments differ. This page is.
 <!-- /evo:text -->

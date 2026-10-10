@@ -9,7 +9,6 @@ records:
     name:
       en: Copiula minor
       zh: Copiula minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

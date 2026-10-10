@@ -9,7 +9,6 @@ records:
     name:
       zh: Amytornis striatus
       en: Amytornis striatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

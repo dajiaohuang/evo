@@ -9,7 +9,6 @@ records:
     name:
       zh: Saltator aurantiirostris
       en: Saltator aurantiirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Sanguirana acai
       zh: Sanguirana acai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

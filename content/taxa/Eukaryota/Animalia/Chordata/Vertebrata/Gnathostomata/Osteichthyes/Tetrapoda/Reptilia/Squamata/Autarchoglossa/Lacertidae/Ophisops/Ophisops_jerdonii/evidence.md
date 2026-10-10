@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophisops jerdonii
       en: Ophisops jerdonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

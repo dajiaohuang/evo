@@ -9,7 +9,6 @@ records:
     name:
       zh: Celestus striatus
       en: Celestus striatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

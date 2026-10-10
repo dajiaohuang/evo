@@ -16,5 +16,5 @@ Smith and colleagues compared food records from three groups in degraded and nea
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked regional feeding study; not externally expert-reviewed. It compares three groups in eastern Paraguay and does not establish range-wide diet or current conservation status.
+Source-linked regional feeding study;. It compares three groups in eastern Paraguay and does not establish range-wide diet or current conservation status.
 <!-- /evo:text -->

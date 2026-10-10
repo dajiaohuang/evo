@@ -9,7 +9,6 @@ records:
     name:
       zh: Brookesia karchei
       en: Brookesia karchei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

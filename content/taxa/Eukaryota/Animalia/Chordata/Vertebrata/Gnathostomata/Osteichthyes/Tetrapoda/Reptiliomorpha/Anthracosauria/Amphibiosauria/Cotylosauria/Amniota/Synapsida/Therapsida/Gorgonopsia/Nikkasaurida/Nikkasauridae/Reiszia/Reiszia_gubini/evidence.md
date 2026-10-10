@@ -9,7 +9,6 @@ records:
     name:
       zh: Reiszia gubini
       en: Reiszia gubini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

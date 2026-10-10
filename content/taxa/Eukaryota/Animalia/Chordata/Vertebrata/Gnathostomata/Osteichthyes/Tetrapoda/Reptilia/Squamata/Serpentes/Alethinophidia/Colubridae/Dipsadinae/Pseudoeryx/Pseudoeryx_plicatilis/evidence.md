@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoeryx plicatilis
       en: Pseudoeryx plicatilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

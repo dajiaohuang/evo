@@ -9,7 +9,6 @@ records:
     name:
       zh: Teleoceras medicornutum
       en: Teleoceras medicornutum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sciurus giganteus
       en: Sciurus giganteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

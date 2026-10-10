@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius jelskii
       zh: Telmatobius jelskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

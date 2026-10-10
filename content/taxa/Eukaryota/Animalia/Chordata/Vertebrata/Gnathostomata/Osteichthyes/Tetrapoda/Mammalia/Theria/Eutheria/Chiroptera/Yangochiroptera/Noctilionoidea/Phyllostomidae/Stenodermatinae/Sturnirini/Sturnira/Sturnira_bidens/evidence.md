@@ -9,7 +9,6 @@ records:
     name:
       zh: Sturnira bidens
       en: Sturnira bidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

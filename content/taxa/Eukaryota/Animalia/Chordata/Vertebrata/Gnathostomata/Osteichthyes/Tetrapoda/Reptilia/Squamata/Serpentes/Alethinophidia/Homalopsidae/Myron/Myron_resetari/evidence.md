@@ -9,7 +9,6 @@ records:
     name:
       zh: Myron resetari
       en: Myron resetari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

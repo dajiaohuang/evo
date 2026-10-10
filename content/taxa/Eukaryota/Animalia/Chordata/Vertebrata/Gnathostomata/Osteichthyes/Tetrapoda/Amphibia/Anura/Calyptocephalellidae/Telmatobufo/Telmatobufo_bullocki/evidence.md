@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobufo bullocki
       zh: Telmatobufo bullocki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

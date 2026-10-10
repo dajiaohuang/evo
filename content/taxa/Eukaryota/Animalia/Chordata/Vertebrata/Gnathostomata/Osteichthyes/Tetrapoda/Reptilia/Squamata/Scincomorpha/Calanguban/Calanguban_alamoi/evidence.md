@@ -9,7 +9,6 @@ records:
     name:
       zh: Calanguban alamoi
       en: Calanguban alamoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 安布尔山侏狐猴
       en: Montagne d'Ambre Dwarf Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

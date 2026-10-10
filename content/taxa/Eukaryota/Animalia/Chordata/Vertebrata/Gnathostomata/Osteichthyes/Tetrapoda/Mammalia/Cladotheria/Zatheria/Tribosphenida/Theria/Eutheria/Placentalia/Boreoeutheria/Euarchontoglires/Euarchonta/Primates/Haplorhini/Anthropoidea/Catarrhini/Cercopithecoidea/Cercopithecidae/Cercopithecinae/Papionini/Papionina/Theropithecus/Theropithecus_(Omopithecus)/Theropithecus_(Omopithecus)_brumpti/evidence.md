@@ -9,7 +9,6 @@ records:
     name:
       zh: Theropithecus (Omopithecus) brumpti
       en: Theropithecus (Omopithecus) brumpti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

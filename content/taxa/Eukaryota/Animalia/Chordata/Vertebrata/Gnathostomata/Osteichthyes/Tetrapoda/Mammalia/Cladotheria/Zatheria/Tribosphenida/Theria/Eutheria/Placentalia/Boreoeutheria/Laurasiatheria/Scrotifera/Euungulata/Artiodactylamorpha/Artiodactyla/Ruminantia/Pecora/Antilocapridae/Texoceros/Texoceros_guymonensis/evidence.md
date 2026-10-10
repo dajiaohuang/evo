@@ -9,7 +9,6 @@ records:
     name:
       zh: Texoceros guymonensis
       en: Texoceros guymonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

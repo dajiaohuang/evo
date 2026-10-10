@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricetodon goklerensis
       en: Cricetodon goklerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

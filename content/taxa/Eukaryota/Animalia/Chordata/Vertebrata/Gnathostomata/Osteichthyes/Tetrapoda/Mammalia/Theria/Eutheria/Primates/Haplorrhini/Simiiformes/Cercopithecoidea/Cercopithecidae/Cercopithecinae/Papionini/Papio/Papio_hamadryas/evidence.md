@@ -9,7 +9,6 @@ records:
     name:
       zh: 阿拉伯狒狒
       en: Hamadryas baboon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -604,9 +603,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Papio hamadryas
@@ -740,7 +736,7 @@ Habitat category was observational and group size was not included as a predicto
 ## facets / ecology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/2 -->
-Morphology, life history, other ecology, evolution, distribution, fossils, conservation, systematic search, and independent review remain unassessed.
+Morphology, life history, other ecology, evolution, distribution, fossils, conservation, systematic search, remain unassessed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -758,5 +754,5 @@ Females, juveniles, other regions and seasons, and independent populations were 
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Most biological facets, systematic search, and external expert review remain unassessed.
+Most biological facets, systematic search, remain unassessed.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Indicator xanthonotus
       en: Indicator xanthonotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -52,5 +52,5 @@ Bavayia 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状
 ## 这组历史数据的边界
 
 <!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
-这个入口只增加一份已读原始描述的阅读路径，不代表全属内容完成或专家审查。
+这个入口只增加一份已读原始描述的阅读路径。
 <!-- /evo:text -->

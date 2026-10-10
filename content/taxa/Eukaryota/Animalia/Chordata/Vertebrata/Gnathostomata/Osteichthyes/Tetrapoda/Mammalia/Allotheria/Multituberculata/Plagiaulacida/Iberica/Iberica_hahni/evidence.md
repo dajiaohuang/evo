@@ -9,7 +9,6 @@ records:
     name:
       zh: Iberica hahni
       en: Iberica hahni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

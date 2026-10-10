@@ -9,7 +9,6 @@ records:
     name:
       zh: Achaenodon uintense
       en: Achaenodon uintense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

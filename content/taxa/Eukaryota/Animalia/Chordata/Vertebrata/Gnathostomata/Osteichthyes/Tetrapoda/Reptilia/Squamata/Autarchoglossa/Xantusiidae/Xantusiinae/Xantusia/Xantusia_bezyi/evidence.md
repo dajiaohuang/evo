@@ -9,7 +9,6 @@ records:
     name:
       zh: Xantusia bezyi
       en: Xantusia bezyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

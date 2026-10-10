@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrotragulus parvus
       en: Afrotragulus parvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

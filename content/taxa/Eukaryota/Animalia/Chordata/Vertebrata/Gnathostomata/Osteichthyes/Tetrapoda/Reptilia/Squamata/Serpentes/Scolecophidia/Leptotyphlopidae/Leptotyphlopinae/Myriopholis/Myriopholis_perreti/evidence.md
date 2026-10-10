@@ -9,7 +9,6 @@ records:
     name:
       zh: Myriopholis perreti
       en: Myriopholis perreti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

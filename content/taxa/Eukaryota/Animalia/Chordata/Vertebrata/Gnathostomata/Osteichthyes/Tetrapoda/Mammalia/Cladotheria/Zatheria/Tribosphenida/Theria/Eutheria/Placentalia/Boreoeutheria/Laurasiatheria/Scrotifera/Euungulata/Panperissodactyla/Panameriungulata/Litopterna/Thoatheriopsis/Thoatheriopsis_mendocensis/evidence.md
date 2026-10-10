@@ -9,7 +9,6 @@ records:
     name:
       zh: Thoatheriopsis mendocensis
       en: Thoatheriopsis mendocensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

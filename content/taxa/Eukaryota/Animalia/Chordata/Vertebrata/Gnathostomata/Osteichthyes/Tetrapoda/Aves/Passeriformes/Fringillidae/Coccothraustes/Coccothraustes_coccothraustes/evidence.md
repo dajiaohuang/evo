@@ -9,7 +9,6 @@ records:
     name:
       zh: Coccothraustes coccothraustes
       en: Coccothraustes coccothraustes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

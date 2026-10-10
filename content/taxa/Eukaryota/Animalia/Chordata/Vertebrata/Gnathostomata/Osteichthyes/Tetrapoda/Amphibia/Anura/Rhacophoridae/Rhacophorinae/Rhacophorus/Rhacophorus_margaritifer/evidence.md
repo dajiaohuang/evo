@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus margaritifer
       zh: Rhacophorus margaritifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

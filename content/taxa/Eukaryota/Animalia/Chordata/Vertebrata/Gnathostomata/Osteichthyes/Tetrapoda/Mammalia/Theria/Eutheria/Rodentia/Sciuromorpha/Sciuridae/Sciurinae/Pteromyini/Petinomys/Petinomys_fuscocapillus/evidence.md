@@ -9,7 +9,6 @@ records:
     name:
       zh: Petinomys fuscocapillus
       en: Petinomys fuscocapillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

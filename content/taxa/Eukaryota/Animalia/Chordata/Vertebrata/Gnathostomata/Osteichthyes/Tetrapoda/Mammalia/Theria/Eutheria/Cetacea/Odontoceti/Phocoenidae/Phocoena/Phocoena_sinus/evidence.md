@@ -9,7 +9,6 @@ records:
     name:
       zh: Phocoena sinus
       en: Phocoena sinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 灰腿白臀叶猴
       en: Gray-shanked Douc
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

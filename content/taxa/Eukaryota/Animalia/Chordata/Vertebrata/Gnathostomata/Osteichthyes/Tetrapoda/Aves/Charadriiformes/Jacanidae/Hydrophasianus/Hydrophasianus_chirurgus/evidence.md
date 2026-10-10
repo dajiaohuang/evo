@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrophasianus chirurgus
       en: Hydrophasianus chirurgus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

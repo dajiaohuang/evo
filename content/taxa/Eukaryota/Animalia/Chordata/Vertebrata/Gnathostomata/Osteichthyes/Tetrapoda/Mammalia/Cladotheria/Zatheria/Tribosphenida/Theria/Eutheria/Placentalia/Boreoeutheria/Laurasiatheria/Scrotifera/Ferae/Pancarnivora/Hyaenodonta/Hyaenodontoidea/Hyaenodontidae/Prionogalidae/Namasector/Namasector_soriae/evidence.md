@@ -9,7 +9,6 @@ records:
     name:
       zh: Namasector soriae
       en: Namasector soriae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

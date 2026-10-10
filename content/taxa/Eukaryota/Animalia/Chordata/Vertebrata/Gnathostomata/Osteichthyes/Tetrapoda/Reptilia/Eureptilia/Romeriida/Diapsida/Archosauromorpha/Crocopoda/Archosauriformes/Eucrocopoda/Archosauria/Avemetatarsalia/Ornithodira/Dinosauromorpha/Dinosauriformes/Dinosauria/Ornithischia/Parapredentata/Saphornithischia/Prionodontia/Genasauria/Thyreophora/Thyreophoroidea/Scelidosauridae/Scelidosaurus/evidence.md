@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: norman-2021-scelidosaurus concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: norman-2021-scelidosaurus
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: norman-2021-scelidosaurus
           locator: Cited specimen, figures and methods in the linked claim dossier
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Scelidosaurus
     rank: genus
@@ -74,7 +70,6 @@ records:
     name:
       zh: Scelidosaurus
       en: Scelidosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mecocerculus leucophrys
       en: Mecocerculus leucophrys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

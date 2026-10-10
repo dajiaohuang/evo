@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus bernardi
       en: Lygodactylus bernardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

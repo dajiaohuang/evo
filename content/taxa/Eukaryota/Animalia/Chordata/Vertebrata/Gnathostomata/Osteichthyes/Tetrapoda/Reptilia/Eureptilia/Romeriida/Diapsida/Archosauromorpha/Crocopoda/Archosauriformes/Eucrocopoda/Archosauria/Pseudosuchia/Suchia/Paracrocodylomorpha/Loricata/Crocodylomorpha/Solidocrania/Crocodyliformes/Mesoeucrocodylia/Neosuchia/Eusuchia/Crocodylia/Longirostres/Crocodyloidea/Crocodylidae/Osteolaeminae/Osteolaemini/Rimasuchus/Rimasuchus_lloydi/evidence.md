@@ -9,7 +9,6 @@ records:
     name:
       zh: Rimasuchus lloydi
       en: Rimasuchus lloydi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

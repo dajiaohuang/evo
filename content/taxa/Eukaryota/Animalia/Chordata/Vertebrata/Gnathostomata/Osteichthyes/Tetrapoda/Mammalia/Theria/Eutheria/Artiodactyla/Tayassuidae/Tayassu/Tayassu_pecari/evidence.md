@@ -9,7 +9,6 @@ records:
     name:
       zh: Tayassu pecari
       en: Tayassu pecari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

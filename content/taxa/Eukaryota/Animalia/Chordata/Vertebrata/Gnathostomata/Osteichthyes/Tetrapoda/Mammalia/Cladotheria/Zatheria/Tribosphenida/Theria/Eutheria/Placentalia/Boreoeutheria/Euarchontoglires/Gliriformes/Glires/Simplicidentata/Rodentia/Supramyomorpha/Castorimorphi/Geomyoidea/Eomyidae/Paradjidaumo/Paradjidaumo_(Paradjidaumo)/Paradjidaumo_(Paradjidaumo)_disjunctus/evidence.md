@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradjidaumo (Paradjidaumo) disjunctus
       en: Paradjidaumo (Paradjidaumo) disjunctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

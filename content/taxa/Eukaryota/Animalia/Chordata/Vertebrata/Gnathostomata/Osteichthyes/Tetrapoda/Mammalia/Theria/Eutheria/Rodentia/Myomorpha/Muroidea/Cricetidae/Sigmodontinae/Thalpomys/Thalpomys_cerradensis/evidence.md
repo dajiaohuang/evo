@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalpomys cerradensis
       en: Thalpomys cerradensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -13,7 +13,9 @@
       "identity": {
         "method": "Exact COL26.8 pinned registry search row checked for usage ID, verbatim accepted scientific name including authorship, species rank, accepted status, source dataset ID, and Aves classification.",
         "scope": "Nominal accepted species usage 3HSM2 in COL26.8. The federal recovery report names Gymnogyps californianus and reports its managed world population; this record does not reconcile every external species concept or infer a current legal or global extinction-risk category.",
-        "sourceIds": ["col26"]
+        "sourceIds": [
+          "col26"
+        ]
       },
       "lifeStatusScope": {
         "wild": "The 2025 population report separates the reported wild free-flying total from captive birds; the claim preserves that distinction and its December 31, 2025 reference date.",
@@ -59,12 +61,42 @@
         }
       ],
       "facets": {
-        "morphology": { "status": "not-assessed", "gaps": ["No species-level morphology or identification evidence was assessed in this bounded batch."] },
-        "lifeHistory": { "status": "not-assessed", "gaps": ["No life-history or reproductive evidence was assessed in this bounded batch."] },
-        "ecology": { "status": "not-assessed", "gaps": ["Population accounting alone does not assess ecological interactions, habitat, or diet."] },
-        "evolution": { "status": "not-assessed", "gaps": ["No species-level evolutionary or phylogenetic study was assessed in this bounded batch."] },
-        "distribution": { "status": "not-assessed", "gaps": ["The report's management totals do not establish a complete geographic range or locality inventory."] },
-        "fossil": { "status": "not-assessed", "gaps": ["No bounded fossil-record search was conducted."] },
+        "morphology": {
+          "status": "not-assessed",
+          "gaps": [
+            "No species-level morphology or identification evidence was assessed in this bounded batch."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed",
+          "gaps": [
+            "No life-history or reproductive evidence was assessed in this bounded batch."
+          ]
+        },
+        "ecology": {
+          "status": "not-assessed",
+          "gaps": [
+            "Population accounting alone does not assess ecological interactions, habitat, or diet."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed",
+          "gaps": [
+            "No species-level evolutionary or phylogenetic study was assessed in this bounded batch."
+          ]
+        },
+        "distribution": {
+          "status": "not-assessed",
+          "gaps": [
+            "The report's management totals do not establish a complete geographic range or locality inventory."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "gaps": [
+            "No bounded fossil-record search was conducted."
+          ]
+        },
         "conservation": {
           "status": "partially-supported",
           "claims": [
@@ -72,20 +104,26 @@
               "text": "The California Condor Recovery Program's annual status report counted 607 birds in the world population, including 392 wild free-flying birds and 215 captive birds, as of December 31, 2025. These are dated program counts, not a formal extinction-risk assessment or a current legal-listing conclusion.",
               "originalLanguage": "en",
               "translationStatus": "untranslated",
-              "sourceIds": ["usfws2025"],
+              "sourceIds": [
+                "usfws2025"
+              ],
               "locator": "PDF p. 1, lines 0-15 and 39-42",
               "placeTimeScope": "World population managed by the recovery program; reference date 2025-12-31. The report separately identifies wild free-flying birds and captive birds.",
               "lifeStatus": "Mixed global program total: 392 wild free-flying and 215 captive birds; not a domesticated population claim."
             }
           ],
-          "gaps": ["A current formal global or national extinction-risk assessment, criteria, and assessment date have not been reviewed; the report is population monitoring, not a status-category assessment."]
+          "gaps": [
+            "A current formal global or national extinction-risk assessment, criteria, and assessment date have not been reviewed; the report is population monitoring, not a status-category assessment."
+          ]
         }
       },
       "completeness": {
         "status": "incomplete",
-        "reasons": ["Only bounded population-monitoring evidence was assessed for conservation; six facets remain not assessed.", "A systematic literature search and external expert review have not been completed."]
-      },
-      "expertReview": { "status": "not-reviewed", "reviewers": [], "reviewDigest": null }
+        "reasons": [
+          "Only bounded population-monitoring evidence was assessed for conservation; six facets remain not assessed.",
+          "A systematic literature search has not been completed."
+        ]
+      }
     },
     {
       "colId": "54HRJ",
@@ -96,7 +134,9 @@
       "identity": {
         "method": "Exact COL26.8 pinned registry search row checked for usage ID, verbatim accepted scientific name including authorship, species rank, accepted status, source dataset ID, and Aves classification.",
         "scope": "Nominal accepted species usage 54HRJ in COL26.8. The genome study explicitly names Taeniopygia guttata; no additional synonym or population-wide concept reconciliation is asserted.",
-        "sourceIds": ["col26"]
+        "sourceIds": [
+          "col26"
+        ]
       },
       "lifeStatusScope": {
         "wild": "The cited genome study used a male zebra finch; wild or captive origin is not assigned by the claim locator and is left unresolved.",
@@ -142,9 +182,24 @@
         }
       ],
       "facets": {
-        "morphology": { "status": "not-assessed", "gaps": ["No morphological description or identification study was assessed in this bounded batch."] },
-        "lifeHistory": { "status": "not-assessed", "gaps": ["No life-history or reproductive evidence was assessed in this bounded batch."] },
-        "ecology": { "status": "not-assessed", "gaps": ["No ecological interaction or habitat evidence was assessed in this bounded batch."] },
+        "morphology": {
+          "status": "not-assessed",
+          "gaps": [
+            "No morphological description or identification study was assessed in this bounded batch."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed",
+          "gaps": [
+            "No life-history or reproductive evidence was assessed in this bounded batch."
+          ]
+        },
+        "ecology": {
+          "status": "not-assessed",
+          "gaps": [
+            "No ecological interaction or habitat evidence was assessed in this bounded batch."
+          ]
+        },
         "evolution": {
           "status": "partially-supported",
           "claims": [
@@ -152,23 +207,45 @@
               "text": "A comparative genome study assembled a draft genome from a male zebra finch and compared its chromosomes with chicken using sequence alignment and fluorescent in situ hybridization. The study reported overall conservation of synteny and karyotype, alongside a high rate of intrachromosomal rearrangement; this is a two-lineage genomic comparison, not a complete species phylogeny.",
               "originalLanguage": "en",
               "translationStatus": "untranslated",
-              "sourceIds": ["warren2010"],
+              "sourceIds": [
+                "warren2010"
+              ],
               "locator": "Results, chromosome comparison; PMC full-text lines 712-717; published pages 757-762",
               "placeTimeScope": "Genome comparison reported in 2010; sampled zebra-finch genome was male and compared with chicken. Source locator does not establish wild/captive origin or represent all zebra-finch populations.",
               "lifeStatus": "A single male genome sample; source provenance as wild or captive was not confirmed from the cited methods/results locator."
             }
           ],
-          "gaps": ["No species-level phylogeny, divergence estimate, population-genomic variation, or synthesis of later comparative studies was assessed."]
+          "gaps": [
+            "No species-level phylogeny, divergence estimate, population-genomic variation, or synthesis of later comparative studies was assessed."
+          ]
         },
-        "distribution": { "status": "not-assessed", "gaps": ["No geographic distribution or population-locality source was assessed."] },
-        "fossil": { "status": "not-assessed", "gaps": ["No bounded fossil-record search was conducted."] },
-        "conservation": { "status": "not-assessed", "gaps": ["No current global or national conservation assessment was assessed."] }
+        "distribution": {
+          "status": "not-assessed",
+          "gaps": [
+            "No geographic distribution or population-locality source was assessed."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "gaps": [
+            "No bounded fossil-record search was conducted."
+          ]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "gaps": [
+            "No current global or national conservation assessment was assessed."
+          ]
+        }
       },
       "completeness": {
         "status": "incomplete",
-        "reasons": ["Only one bounded comparative-genomics study was assessed for evolution; six facets remain not assessed.", "A systematic literature search and external expert review have not been completed.", "The cited article's license version is not shown in its PMC rights notice and remains unresolved."]
-      },
-      "expertReview": { "status": "not-reviewed", "reviewers": [], "reviewDigest": null }
+        "reasons": [
+          "Only one bounded comparative-genomics study was assessed for evolution; six facets remain not assessed.",
+          "A systematic literature search has not been completed.",
+          "The cited article's license version is not shown in its PMC rights notice and remains unresolved."
+        ]
+      }
     }
   ]
 }

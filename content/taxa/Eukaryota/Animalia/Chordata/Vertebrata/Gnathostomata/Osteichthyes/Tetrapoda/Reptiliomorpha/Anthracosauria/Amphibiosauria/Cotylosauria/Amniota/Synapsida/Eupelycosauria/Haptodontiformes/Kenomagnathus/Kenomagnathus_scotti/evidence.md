@@ -9,7 +9,6 @@ records:
     name:
       zh: Kenomagnathus scotti
       en: Kenomagnathus scotti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

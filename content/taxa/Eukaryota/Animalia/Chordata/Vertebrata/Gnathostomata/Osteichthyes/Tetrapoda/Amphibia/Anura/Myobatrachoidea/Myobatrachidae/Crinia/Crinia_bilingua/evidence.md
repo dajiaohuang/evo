@@ -9,7 +9,6 @@ records:
     name:
       en: Crinia bilingua
       zh: Crinia bilingua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

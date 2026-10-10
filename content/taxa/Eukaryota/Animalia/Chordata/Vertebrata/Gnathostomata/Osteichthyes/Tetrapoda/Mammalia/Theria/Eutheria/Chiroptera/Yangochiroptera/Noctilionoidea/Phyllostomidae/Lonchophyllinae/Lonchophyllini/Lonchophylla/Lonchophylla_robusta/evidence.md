@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchophylla robusta
       en: Lonchophylla robusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

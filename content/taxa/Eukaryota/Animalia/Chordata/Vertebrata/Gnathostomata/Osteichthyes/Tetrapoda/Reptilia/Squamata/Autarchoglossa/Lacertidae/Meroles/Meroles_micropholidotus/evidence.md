@@ -9,7 +9,6 @@ records:
     name:
       zh: Meroles micropholidotus
       en: Meroles micropholidotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

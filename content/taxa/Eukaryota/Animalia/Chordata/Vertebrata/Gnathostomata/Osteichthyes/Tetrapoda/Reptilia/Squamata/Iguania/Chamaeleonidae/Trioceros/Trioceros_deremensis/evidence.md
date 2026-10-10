@@ -9,7 +9,6 @@ records:
     name:
       zh: Trioceros deremensis
       en: Trioceros deremensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

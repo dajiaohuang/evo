@@ -9,7 +9,6 @@ records:
     name:
       zh: Leidymys blacki
       en: Leidymys blacki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

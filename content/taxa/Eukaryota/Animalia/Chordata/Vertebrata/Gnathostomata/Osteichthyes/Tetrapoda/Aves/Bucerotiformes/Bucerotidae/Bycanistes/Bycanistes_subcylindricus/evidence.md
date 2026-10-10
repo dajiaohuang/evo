@@ -9,7 +9,6 @@ records:
     name:
       zh: Bycanistes subcylindricus
       en: Bycanistes subcylindricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

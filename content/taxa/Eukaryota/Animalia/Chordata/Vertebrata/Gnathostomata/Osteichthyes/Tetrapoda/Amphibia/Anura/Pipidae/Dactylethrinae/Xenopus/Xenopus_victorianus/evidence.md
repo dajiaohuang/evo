@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus victorianus
       zh: Xenopus victorianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

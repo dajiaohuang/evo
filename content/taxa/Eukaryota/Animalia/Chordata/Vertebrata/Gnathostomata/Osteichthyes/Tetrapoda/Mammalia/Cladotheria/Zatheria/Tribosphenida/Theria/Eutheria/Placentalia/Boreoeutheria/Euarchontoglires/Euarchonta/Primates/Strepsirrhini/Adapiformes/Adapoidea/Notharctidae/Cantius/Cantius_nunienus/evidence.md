@@ -9,7 +9,6 @@ records:
     name:
       zh: Cantius nunienus
       en: Cantius nunienus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

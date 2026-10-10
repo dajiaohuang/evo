@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptasthenura fuliginiceps
       en: Leptasthenura fuliginiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

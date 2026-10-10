@@ -9,7 +9,6 @@ records:
     name:
       zh: Psarocolius bifasciatus
       en: Psarocolius bifasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

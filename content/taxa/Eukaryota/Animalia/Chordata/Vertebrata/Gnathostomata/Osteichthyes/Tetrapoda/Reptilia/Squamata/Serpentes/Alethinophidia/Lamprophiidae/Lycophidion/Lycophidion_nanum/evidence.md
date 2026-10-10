@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycophidion nanum
       en: Lycophidion nanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -58,5 +58,5 @@ status: migrated-verbatim
 ## atlas-profile / readerLimitations
 
 <!-- evo:text /records/atlas-profile/readerLimitations/zh -->
-这篇双语读者初稿概述的是有来源支持的若干主题，不是完整物种综述。当前材料不足以综合野外饮食、栖地利用、运动方式、体型或寿命，也没有当前保育评估或种群趋势。科学档案仍未完成，且尚未经过外部专家评审。
+这篇双语读者初稿概述的是有来源支持的若干主题，不是完整物种综述。当前材料不足以综合野外饮食、栖地利用、运动方式、体型或寿命，也没有当前保育评估或种群趋势。科学档案仍未完成。
 <!-- /evo:text -->

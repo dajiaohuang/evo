@@ -9,7 +9,6 @@ records:
     name:
       zh: Aipysurus
       en: Aipysurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

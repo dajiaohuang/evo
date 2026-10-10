@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocalotes rhammanotus
       en: Pseudocalotes rhammanotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

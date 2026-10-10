@@ -9,7 +9,6 @@ records:
     name:
       zh: Petaurus biacensis
       en: Petaurus biacensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

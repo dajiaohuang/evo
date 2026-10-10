@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerrhosaurus skoogi
       en: Gerrhosaurus skoogi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

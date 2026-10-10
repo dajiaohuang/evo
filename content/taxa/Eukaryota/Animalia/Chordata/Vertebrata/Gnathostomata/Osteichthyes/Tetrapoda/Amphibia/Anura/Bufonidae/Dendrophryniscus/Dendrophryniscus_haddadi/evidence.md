@@ -9,7 +9,6 @@ records:
     name:
       en: Dendrophryniscus haddadi
       zh: Dendrophryniscus haddadi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

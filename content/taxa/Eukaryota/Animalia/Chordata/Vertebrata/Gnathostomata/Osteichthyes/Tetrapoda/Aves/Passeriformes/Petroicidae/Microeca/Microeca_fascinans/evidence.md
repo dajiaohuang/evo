@@ -9,7 +9,6 @@ records:
     name:
       zh: Microeca fascinans
       en: Microeca fascinans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tauraco persa
       en: Tauraco persa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Maledictosuchus riclaensis
       en: Maledictosuchus riclaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Apheliscus nitidus
       en: Apheliscus nitidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ichneumia albicauda
       en: Ichneumia albicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

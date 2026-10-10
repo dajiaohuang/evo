@@ -9,7 +9,6 @@ records:
     name:
       zh: Ectocion nanabeensis
       en: Ectocion nanabeensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

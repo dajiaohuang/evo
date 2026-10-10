@@ -9,7 +9,6 @@ records:
     name:
       zh: Aphanotriccus audax
       en: Aphanotriccus audax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

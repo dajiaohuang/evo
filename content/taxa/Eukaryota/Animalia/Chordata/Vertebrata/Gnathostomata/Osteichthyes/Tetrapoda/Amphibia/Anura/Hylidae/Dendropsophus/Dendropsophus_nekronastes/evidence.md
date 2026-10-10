@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus nekronastes
       zh: Dendropsophus nekronastes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

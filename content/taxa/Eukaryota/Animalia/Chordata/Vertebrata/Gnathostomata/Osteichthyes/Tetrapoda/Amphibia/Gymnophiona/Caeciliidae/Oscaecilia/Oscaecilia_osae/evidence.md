@@ -9,7 +9,6 @@ records:
     name:
       en: Oscaecilia osae
       zh: Oscaecilia osae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -28,5 +28,5 @@ The neotype anchors the formerly imprecise illustration-based name near Cujuri o
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Transect counts are not density estimates. The original name lacked a verifiable type specimen; the 2015 neotype anchors a locality but does not establish complete range limits or multi-site ecology. MDD v2.5 and COL26.8 genus combinations and join status are recorded separately. Not externally reviewed. This page has not been externally expert-reviewed. This page is not externally expert-reviewed.
+Transect counts are not density estimates. The original name lacked a verifiable type specimen; the 2015 neotype anchors a locality but does not establish complete range limits or multi-site ecology. MDD v2.5 and COL26.8 genus combinations and join status are recorded separately. Not externally reviewed. This page has not been. This page is.
 <!-- /evo:text -->

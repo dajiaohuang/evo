@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus brooksi
       en: Ctenotus brooksi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

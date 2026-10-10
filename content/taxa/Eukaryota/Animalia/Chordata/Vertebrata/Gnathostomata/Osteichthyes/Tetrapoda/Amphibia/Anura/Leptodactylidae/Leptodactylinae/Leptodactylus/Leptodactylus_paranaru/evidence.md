@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus paranaru
       zh: Leptodactylus paranaru
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

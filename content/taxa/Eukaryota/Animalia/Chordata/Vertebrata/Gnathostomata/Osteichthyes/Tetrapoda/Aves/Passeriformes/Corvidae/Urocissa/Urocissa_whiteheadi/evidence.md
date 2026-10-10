@@ -9,7 +9,6 @@ records:
     name:
       zh: Urocissa whiteheadi
       en: Urocissa whiteheadi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

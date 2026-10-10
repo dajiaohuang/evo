@@ -9,7 +9,6 @@ records:
     name:
       zh: 圣塔伦绒猴
       en: Santarém marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

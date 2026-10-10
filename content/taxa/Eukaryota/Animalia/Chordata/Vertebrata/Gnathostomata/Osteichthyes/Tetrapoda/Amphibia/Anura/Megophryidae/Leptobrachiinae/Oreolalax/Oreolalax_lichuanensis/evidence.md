@@ -9,7 +9,6 @@ records:
     name:
       en: Oreolalax lichuanensis
       zh: Oreolalax lichuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

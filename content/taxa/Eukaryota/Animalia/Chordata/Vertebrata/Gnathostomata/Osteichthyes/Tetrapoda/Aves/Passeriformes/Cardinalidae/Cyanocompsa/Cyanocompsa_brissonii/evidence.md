@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanocompsa brissonii
       en: Cyanocompsa brissonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

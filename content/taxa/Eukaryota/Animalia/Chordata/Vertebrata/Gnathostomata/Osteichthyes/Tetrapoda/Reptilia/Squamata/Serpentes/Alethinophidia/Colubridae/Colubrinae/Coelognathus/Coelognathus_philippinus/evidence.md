@@ -9,7 +9,6 @@ records:
     name:
       zh: Coelognathus philippinus
       en: Coelognathus philippinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ignacius dawsonae
       en: Ignacius dawsonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

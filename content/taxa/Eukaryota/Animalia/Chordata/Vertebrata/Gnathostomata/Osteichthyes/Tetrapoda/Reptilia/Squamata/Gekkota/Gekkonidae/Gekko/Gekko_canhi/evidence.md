@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko canhi
       en: Gekko canhi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

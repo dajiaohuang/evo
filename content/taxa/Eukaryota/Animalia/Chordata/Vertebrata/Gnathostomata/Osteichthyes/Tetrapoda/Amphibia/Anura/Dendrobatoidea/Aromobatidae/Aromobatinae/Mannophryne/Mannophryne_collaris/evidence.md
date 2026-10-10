@@ -9,7 +9,6 @@ records:
     name:
       en: Mannophryne collaris
       zh: Mannophryne collaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

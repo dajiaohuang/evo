@@ -9,7 +9,6 @@ records:
     name:
       zh: Graptemys versa
       en: Graptemys versa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

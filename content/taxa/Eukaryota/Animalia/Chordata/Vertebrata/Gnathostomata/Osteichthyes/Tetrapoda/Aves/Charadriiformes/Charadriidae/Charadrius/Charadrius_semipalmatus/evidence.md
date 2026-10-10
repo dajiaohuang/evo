@@ -9,7 +9,6 @@ records:
     name:
       zh: Charadrius semipalmatus
       en: Charadrius semipalmatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

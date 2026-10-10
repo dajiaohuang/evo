@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemibelideus lemuroides
       en: Hemibelideus lemuroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

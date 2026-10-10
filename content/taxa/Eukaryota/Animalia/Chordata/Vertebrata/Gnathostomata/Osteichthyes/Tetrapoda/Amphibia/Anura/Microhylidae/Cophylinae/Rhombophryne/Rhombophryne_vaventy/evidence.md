@@ -9,7 +9,6 @@ records:
     name:
       en: Rhombophryne vaventy
       zh: Rhombophryne vaventy
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

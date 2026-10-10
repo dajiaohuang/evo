@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegithalos concinnus
       en: Aegithalos concinnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

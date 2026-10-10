@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoneophron infernalis
       en: Eoneophron infernalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachydactylus parascutatus
       en: Pachydactylus parascutatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

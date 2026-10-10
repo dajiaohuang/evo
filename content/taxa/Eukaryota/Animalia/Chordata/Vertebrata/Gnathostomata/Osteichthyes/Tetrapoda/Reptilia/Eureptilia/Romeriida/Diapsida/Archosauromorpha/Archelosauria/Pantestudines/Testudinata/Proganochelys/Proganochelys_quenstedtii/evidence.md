@@ -9,7 +9,6 @@ records:
     name:
       zh: Proganochelys quenstedtii
       en: Proganochelys quenstedtii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

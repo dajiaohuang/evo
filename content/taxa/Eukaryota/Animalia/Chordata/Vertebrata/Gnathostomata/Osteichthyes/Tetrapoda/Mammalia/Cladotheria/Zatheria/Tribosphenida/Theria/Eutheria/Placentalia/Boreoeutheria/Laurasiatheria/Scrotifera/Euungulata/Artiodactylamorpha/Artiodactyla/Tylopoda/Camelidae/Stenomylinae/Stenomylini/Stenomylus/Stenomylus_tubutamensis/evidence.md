@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenomylus tubutamensis
       en: Stenomylus tubutamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

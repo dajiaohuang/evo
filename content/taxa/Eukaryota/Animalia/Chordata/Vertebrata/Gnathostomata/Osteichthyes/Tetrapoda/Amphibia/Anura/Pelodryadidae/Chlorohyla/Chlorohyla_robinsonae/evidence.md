@@ -9,7 +9,6 @@ records:
     name:
       en: Chlorohyla robinsonae
       zh: Chlorohyla robinsonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Raphicerus melanotis
       en: Raphicerus melanotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Blacktops latidens
       en: Blacktops latidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

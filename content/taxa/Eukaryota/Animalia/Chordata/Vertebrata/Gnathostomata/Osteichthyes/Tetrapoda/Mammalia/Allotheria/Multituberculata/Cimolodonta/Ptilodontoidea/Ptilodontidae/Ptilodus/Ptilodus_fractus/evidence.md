@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilodus fractus
       en: Ptilodus fractus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

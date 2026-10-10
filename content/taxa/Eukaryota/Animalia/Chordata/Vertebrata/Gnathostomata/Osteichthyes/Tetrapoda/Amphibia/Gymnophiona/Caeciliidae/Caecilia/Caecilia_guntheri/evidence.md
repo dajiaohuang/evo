@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia guntheri
       zh: Caecilia guntheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

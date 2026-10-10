@@ -9,7 +9,6 @@ records:
     name:
       zh: Jarveia erronea
       en: Jarveia erronea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

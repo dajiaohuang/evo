@@ -9,7 +9,6 @@ records:
     name:
       zh: Simalia nauta
       en: Simalia nauta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

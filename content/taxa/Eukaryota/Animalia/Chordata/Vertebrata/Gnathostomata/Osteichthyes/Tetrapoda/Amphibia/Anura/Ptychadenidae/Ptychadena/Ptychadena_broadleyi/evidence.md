@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena broadleyi
       zh: Ptychadena broadleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

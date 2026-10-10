@@ -9,7 +9,6 @@ records:
     name:
       zh: Rattus mollicomulus
       en: Rattus mollicomulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

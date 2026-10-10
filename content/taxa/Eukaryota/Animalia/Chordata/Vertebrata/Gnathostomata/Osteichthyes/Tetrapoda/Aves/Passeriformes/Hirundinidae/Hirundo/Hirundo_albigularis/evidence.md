@@ -9,7 +9,6 @@ records:
     name:
       zh: Hirundo albigularis
       en: Hirundo albigularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

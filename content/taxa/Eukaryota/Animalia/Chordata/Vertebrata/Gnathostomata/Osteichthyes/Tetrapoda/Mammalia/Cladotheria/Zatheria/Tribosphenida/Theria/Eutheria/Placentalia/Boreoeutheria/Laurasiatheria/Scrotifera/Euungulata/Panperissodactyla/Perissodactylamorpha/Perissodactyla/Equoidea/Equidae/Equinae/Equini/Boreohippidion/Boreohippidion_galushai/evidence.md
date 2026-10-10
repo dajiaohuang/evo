@@ -9,7 +9,6 @@ records:
     name:
       zh: Boreohippidion galushai
       en: Boreohippidion galushai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

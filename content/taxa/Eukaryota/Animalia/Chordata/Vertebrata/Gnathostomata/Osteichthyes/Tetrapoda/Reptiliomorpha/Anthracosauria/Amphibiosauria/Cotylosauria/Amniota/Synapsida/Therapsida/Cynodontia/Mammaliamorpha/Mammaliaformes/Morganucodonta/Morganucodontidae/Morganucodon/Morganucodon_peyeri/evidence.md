@@ -9,7 +9,6 @@ records:
     name:
       zh: Morganucodon peyeri
       en: Morganucodon peyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

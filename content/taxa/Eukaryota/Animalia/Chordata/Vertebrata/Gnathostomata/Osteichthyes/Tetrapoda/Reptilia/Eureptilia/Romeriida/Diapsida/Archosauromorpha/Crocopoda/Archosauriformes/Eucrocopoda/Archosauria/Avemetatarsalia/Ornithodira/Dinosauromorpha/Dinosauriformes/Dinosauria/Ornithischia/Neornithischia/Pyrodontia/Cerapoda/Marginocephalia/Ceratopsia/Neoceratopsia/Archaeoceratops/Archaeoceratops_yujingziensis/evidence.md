@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeoceratops yujingziensis
       en: Archaeoceratops yujingziensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

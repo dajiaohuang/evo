@@ -9,7 +9,6 @@ records:
     name:
       zh: Knipolegus lophotes
       en: Knipolegus lophotes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -16,5 +16,5 @@ Villalba、Páez 与 Palacios 汇整 2007—2015 年的机会性野外观察、�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-77 条记录来自不同年份、馆藏和机会性观察；它们不能单独确定现今占域、丰度或与 P. hirsuta 的接触界线。中文名为编辑译名；尚未经过外部领域专家评审。
+77 条记录来自不同年份、馆藏和机会性观察；它们不能单独确定现今占域、丰度或与 P. hirsuta 的接触界线。中文名为编辑译名。
 <!-- /evo:text -->

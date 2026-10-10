@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophilinus besanus
       en: Spermophilinus besanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

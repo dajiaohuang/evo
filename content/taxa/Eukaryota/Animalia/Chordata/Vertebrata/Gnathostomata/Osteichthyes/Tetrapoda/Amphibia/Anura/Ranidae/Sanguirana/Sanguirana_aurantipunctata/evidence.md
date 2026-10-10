@@ -9,7 +9,6 @@ records:
     name:
       en: Sanguirana aurantipunctata
       zh: Sanguirana aurantipunctata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

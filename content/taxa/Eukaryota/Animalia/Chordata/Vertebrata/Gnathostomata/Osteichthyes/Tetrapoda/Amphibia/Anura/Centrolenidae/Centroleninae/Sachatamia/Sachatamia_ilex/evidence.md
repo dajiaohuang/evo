@@ -9,7 +9,6 @@ records:
     name:
       en: Sachatamia ilex
       zh: Sachatamia ilex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

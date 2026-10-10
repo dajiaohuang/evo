@@ -9,7 +9,6 @@ records:
     name:
       zh: Calliophis bibroni
       en: Calliophis bibroni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

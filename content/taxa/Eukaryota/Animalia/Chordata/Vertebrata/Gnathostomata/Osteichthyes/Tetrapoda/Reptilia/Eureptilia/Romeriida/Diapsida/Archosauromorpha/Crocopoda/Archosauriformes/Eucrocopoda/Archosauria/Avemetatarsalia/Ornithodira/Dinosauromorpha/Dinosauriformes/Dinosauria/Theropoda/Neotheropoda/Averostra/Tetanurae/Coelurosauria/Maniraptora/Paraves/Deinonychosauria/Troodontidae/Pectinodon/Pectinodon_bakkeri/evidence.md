@@ -9,7 +9,6 @@ records:
     name:
       zh: Pectinodon bakkeri
       en: Pectinodon bakkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

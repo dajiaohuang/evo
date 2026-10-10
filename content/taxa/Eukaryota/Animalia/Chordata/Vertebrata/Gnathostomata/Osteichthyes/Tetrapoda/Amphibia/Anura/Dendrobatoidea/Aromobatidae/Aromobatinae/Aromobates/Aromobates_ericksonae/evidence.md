@@ -9,7 +9,6 @@ records:
     name:
       en: Aromobates ericksonae
       zh: Aromobates ericksonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

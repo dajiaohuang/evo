@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis aureoventris
       zh: Pristimantis aureoventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

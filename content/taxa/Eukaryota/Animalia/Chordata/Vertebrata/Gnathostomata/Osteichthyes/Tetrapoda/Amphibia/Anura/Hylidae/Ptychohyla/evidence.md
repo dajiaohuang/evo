@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychohyla
       zh: Ptychohyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

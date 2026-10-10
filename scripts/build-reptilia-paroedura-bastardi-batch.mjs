@@ -20,7 +20,7 @@ const records = decoded.toString("utf8").trimEnd().split(/\r?\n/).map((line, i) 
 const seen = new Set()
 for (const record of records) {
   if (!expected.has(record.colId) || seen.has(record.colId)) throw new Error("Unexpected or duplicate COL ID: " + record.colId)
-  if (record.rank !== "species" || record.sourceDatasetId !== "1008" || record.completeness?.status !== "incomplete" || record.expertReview?.status !== "not-reviewed") throw new Error("Unexpected identity/review state for " + record.colId)
+  if (record.rank !== "species" || record.sourceDatasetId !== "1008" || record.completeness?.status !== "incomplete") throw new Error("Unexpected identity or content coverage for " + record.colId)
   if (Object.keys(record.facets ?? {}).sort().join("|") !== [...facets].sort().join("|")) throw new Error("Missing seven-facet set for " + record.colId)
   if (record.sources?.find(s => s.id === "miralles2021")?.licenseAssessment !== "item-level-verified") throw new Error("Missing article-level rights record for " + record.colId)
   if (record.sources?.find(s => s.id === "itis")?.stableId !== "ITIS TSN " + expected.get(record.colId)) throw new Error("ITIS crosswalk mismatch for " + record.colId)

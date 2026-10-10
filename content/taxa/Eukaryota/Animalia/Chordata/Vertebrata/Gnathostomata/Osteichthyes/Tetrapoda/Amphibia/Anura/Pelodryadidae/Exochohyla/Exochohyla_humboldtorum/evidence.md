@@ -9,7 +9,6 @@ records:
     name:
       en: Exochohyla humboldtorum
       zh: Exochohyla humboldtorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

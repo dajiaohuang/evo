@@ -9,7 +9,6 @@ records:
     name:
       zh: Magdalenabradys kolossiaia
       en: Magdalenabradys kolossiaia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

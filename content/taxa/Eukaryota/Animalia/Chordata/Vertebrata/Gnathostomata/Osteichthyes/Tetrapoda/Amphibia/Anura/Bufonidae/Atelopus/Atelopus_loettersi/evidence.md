@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus loettersi
       zh: Atelopus loettersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -16,5 +16,5 @@ Aquino and colleagues walked 610 km of transects at four sites on both banks of 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Transect data are limited to four Río Curaray sites in 2012; sightings and group counts are not an abundance estimate. The Chinese name is editorial, and this page has not received external expert review. This page is not externally expert-reviewed.
+Transect data are limited to four Río Curaray sites in 2012; sightings and group counts are not an abundance estimate. The Chinese name is editorial. This page is.
 <!-- /evo:text -->

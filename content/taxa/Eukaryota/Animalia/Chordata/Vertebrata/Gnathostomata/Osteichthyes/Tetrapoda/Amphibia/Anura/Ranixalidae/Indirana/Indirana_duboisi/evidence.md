@@ -9,7 +9,6 @@ records:
     name:
       en: Indirana duboisi
       zh: Indirana duboisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

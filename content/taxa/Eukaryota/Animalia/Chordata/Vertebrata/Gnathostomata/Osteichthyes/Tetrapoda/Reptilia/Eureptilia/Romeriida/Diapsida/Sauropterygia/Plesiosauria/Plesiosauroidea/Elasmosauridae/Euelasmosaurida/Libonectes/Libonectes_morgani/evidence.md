@@ -9,7 +9,6 @@ records:
     name:
       zh: Libonectes morgani
       en: Libonectes morgani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

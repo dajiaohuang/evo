@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptochloris
       en: Cryptochloris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

@@ -9,7 +9,6 @@ records:
     name:
       zh: Campethera tullbergi
       en: Campethera tullbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

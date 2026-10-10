@@ -9,7 +9,6 @@ records:
     name:
       zh: Nimravides thinobates
       en: Nimravides thinobates
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

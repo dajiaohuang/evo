@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene sabini
       zh: Centrolene sabini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

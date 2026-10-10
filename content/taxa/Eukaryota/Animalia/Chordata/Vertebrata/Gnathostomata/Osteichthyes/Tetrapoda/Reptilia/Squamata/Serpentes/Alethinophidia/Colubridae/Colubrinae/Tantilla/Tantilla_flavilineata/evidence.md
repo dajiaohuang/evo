@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla flavilineata
       en: Tantilla flavilineata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

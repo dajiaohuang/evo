@@ -9,7 +9,6 @@ records:
     name:
       zh: Brucepattersonius
       en: Brucepattersonius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

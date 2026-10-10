@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes montanus
       zh: Nyctimystes montanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

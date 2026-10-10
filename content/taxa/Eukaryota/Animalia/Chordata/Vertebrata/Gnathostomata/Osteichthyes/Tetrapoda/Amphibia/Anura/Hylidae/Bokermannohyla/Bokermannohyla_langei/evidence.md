@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla langei
       zh: Bokermannohyla langei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

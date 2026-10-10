@@ -9,7 +9,6 @@ records:
     name:
       zh: Geosaurus medius
       en: Geosaurus medius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

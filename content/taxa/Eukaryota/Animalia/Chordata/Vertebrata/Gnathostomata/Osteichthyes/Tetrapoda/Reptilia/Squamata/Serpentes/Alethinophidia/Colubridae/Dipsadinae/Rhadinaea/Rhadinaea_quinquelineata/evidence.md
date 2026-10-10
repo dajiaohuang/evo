@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhadinaea quinquelineata
       en: Rhadinaea quinquelineata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

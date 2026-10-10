@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyomys goliath
       en: Hyomys goliath
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

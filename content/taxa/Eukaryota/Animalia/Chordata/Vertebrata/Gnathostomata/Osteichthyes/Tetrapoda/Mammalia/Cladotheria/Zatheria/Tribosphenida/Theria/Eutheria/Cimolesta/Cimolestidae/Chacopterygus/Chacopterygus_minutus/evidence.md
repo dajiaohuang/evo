@@ -9,7 +9,6 @@ records:
     name:
       zh: Chacopterygus minutus
       en: Chacopterygus minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

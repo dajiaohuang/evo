@@ -9,7 +9,6 @@ records:
     name:
       zh: Sousa teuszii
       en: Sousa teuszii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

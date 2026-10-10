@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis peucephilus
       en: Anolis peucephilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

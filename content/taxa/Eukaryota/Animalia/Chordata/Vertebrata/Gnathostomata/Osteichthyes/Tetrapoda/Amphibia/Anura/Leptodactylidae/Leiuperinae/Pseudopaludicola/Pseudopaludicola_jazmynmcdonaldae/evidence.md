@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudopaludicola jazmynmcdonaldae
       zh: Pseudopaludicola jazmynmcdonaldae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

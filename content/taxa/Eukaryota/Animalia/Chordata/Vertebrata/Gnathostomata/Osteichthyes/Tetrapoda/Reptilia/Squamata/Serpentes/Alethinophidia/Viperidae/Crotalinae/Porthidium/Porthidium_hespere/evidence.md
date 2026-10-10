@@ -9,7 +9,6 @@ records:
     name:
       zh: Porthidium hespere
       en: Porthidium hespere
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

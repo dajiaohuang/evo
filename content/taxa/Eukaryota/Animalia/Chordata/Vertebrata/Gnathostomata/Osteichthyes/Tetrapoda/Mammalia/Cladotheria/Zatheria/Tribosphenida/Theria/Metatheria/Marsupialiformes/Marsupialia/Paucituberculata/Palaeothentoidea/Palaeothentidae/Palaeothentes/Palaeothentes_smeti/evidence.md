@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeothentes smeti
       en: Palaeothentes smeti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

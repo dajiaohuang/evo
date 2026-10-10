@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated primary-source review
-      reviewedAt: 2026-09-05
-      reviewedAgainstReferenceVersion: Li et al. 2020 DOI 10.1038/s41477-020-0618-2; publisher full text inspected 2026-09-05
       referenceLinks:
         - referenceId: li-2020-hornwort-genomes
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: li-2020-hornwort-genomes
       referenceLinks:
         - referenceId: li-2020-hornwort-genomes
           relation: supports
@@ -66,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: li-2020-hornwort-genomes locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: li-2020-hornwort-genomes
@@ -112,7 +103,6 @@ records:
       referenceLocators:
         - referenceId: li-2020-hornwort-genomes
           locator: 259–272; Figures 1–5; two hornwort genomes, phylogenomics and comparative genomics
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

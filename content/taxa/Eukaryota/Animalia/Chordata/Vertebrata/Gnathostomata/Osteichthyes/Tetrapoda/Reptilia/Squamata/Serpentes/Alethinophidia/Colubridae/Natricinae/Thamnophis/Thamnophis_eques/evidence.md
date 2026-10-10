@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnophis eques
       en: Thamnophis eques
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

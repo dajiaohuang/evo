@@ -9,7 +9,6 @@ records:
     name:
       zh: Xixianykus zhangi
       en: Xixianykus zhangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

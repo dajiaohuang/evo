@@ -9,7 +9,6 @@ records:
     name:
       zh: Anhinga subvolans
       en: Anhinga subvolans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kyasuchus saevi
       en: Kyasuchus saevi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

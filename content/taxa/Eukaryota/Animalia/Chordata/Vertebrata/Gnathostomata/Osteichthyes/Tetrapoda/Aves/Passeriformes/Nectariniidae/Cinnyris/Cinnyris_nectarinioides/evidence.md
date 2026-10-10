@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris nectarinioides
       en: Cinnyris nectarinioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

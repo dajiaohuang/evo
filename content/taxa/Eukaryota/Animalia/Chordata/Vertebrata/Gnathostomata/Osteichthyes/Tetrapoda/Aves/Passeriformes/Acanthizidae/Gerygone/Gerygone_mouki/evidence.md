@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerygone mouki
       en: Gerygone mouki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

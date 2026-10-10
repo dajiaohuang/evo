@@ -9,7 +9,6 @@ records:
     name:
       zh: Domninoides riparensis
       en: Domninoides riparensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

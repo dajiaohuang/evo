@@ -9,7 +9,6 @@ records:
     name:
       en: Barygenys exsul
       zh: Barygenys exsul
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amytornis barbatus
       en: Amytornis barbatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

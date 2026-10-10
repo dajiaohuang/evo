@@ -58,5 +58,5 @@ status: migrated-verbatim
 ## atlas-profile / readerLimitations
 
 <!-- evo:text /records/atlas-profile/readerLimitations/zh -->
-这篇双语读者初稿汇集若干研究，不是完整物种综述。现有材料不能确定当前全球分布或保育类别，也未形成野外全物种饮食、生活史或种群整体死亡率综合。科学档案仍未完成，且尚未经过独立专家评审。
+这篇双语读者初稿汇集若干研究，不是完整物种综述。现有材料不能确定当前全球分布或保育类别，也未形成野外全物种饮食、生活史或种群整体死亡率综合。科学档案仍未完成。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Delma molleri
       en: Delma molleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

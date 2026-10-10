@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeohypsodontus zinensis
       en: Palaeohypsodontus zinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

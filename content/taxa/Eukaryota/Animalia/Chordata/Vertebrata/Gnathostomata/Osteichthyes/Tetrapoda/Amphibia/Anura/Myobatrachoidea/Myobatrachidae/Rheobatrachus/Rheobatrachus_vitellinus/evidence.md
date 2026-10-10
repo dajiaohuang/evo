@@ -9,7 +9,6 @@ records:
     name:
       en: Rheobatrachus vitellinus
       zh: Rheobatrachus vitellinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

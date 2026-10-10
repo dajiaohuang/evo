@@ -9,7 +9,6 @@ records:
     name:
       zh: Achalinus meiguensis
       en: Achalinus meiguensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

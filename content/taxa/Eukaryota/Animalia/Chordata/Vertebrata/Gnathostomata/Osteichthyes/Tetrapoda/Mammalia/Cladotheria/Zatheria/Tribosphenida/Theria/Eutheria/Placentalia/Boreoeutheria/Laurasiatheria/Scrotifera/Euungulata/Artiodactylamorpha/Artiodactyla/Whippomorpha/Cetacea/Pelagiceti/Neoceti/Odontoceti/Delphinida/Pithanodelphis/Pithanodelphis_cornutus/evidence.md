@@ -9,7 +9,6 @@ records:
     name:
       zh: Pithanodelphis cornutus
       en: Pithanodelphis cornutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

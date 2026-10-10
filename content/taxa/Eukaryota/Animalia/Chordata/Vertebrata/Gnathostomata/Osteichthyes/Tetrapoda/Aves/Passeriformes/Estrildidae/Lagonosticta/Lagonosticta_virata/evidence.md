@@ -9,7 +9,6 @@ records:
     name:
       zh: Lagonosticta virata
       en: Lagonosticta virata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

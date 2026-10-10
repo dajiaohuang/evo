@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus anotus
       en: Sphenomorphus anotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

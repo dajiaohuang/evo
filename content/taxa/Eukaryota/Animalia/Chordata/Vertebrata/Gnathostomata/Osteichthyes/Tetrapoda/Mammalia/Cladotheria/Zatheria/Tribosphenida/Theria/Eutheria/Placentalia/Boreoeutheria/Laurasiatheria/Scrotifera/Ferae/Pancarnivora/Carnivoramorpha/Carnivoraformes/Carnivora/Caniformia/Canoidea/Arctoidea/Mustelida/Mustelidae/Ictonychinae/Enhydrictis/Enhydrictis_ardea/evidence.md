@@ -9,7 +9,6 @@ records:
     name:
       zh: Enhydrictis ardea
       en: Enhydrictis ardea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

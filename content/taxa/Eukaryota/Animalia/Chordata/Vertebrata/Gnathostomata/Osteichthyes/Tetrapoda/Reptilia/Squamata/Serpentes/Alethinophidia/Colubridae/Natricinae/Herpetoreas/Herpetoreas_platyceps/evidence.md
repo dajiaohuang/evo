@@ -9,7 +9,6 @@ records:
     name:
       zh: Herpetoreas platyceps
       en: Herpetoreas platyceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

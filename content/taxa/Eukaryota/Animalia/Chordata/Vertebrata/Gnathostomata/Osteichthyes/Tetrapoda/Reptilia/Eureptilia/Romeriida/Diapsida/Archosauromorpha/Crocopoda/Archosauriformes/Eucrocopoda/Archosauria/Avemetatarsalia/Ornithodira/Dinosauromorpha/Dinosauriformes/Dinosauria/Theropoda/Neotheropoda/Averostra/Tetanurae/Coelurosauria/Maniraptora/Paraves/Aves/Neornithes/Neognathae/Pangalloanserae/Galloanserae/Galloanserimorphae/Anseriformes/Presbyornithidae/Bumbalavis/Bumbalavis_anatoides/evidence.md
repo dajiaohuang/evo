@@ -9,7 +9,6 @@ records:
     name:
       zh: Bumbalavis anatoides
       en: Bumbalavis anatoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

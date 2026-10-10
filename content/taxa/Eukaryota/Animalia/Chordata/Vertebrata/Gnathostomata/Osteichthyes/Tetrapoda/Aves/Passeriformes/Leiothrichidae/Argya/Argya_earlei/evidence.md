@@ -9,7 +9,6 @@ records:
     name:
       zh: Argya earlei
       en: Argya earlei
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

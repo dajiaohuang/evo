@@ -9,7 +9,6 @@ records:
     name:
       zh: Chasichimys bonaerense
       en: Chasichimys bonaerense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

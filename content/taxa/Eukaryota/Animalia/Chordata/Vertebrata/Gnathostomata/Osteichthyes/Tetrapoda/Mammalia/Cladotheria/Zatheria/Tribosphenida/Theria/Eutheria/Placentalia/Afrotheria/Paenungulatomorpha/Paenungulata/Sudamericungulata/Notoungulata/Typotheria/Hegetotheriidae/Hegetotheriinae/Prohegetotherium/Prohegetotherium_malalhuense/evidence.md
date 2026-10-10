@@ -9,7 +9,6 @@ records:
     name:
       zh: Prohegetotherium malalhuense
       en: Prohegetotherium malalhuense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

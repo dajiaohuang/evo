@@ -9,7 +9,6 @@ records:
     name:
       zh: Gandakasia potens
       en: Gandakasia potens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

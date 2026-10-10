@@ -9,7 +9,6 @@ records:
     name:
       zh: Corsochelys halinches
       en: Corsochelys halinches
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

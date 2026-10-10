@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreolagus nebrascensis
       en: Oreolagus nebrascensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

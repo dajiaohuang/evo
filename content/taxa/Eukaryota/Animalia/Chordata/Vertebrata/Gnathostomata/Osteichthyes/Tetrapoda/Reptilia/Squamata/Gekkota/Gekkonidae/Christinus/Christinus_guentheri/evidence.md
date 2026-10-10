@@ -9,7 +9,6 @@ records:
     name:
       zh: Christinus guentheri
       en: Christinus guentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

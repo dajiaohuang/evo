@@ -9,7 +9,6 @@ records:
     name:
       zh: 贝齐莱奥运动狐猴
       en: Betsileo Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: morphology and field description

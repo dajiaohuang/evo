@@ -9,7 +9,6 @@ records:
     name:
       zh: Pitta steerii
       en: Pitta steerii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

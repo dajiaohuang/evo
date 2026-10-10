@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiaceratherium lumiarense
       en: Plesiaceratherium lumiarense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hebius andreae
       en: Hebius andreae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

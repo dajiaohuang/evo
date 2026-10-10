@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis xeniolum
       zh: Pristimantis xeniolum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

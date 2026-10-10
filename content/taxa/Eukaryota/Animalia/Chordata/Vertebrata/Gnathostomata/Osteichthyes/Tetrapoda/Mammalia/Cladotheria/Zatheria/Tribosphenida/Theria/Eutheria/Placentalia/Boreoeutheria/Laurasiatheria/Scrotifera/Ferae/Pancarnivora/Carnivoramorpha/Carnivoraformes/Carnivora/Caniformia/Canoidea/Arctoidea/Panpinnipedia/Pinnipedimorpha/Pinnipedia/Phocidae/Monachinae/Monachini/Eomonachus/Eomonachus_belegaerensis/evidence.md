@@ -9,7 +9,6 @@ records:
     name:
       zh: Eomonachus belegaerensis
       en: Eomonachus belegaerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

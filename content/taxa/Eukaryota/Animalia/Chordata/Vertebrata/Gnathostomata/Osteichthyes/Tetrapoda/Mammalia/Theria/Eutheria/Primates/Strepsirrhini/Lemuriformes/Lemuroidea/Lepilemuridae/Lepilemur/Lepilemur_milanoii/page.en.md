@@ -22,5 +22,5 @@ The type locality is Andranotsimaty near Daraina. The paper then knew the specie
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-These findings reflect the 2006 sampling and mitochondrial analyses; the authors explicitly called for further range and population work. They do not establish present-day dynamics where the species co-occurs. The COL26.8 accepted name is retained. The Chinese common name is editorial, and the page is not externally expert-reviewed.
+These findings reflect the 2006 sampling and mitochondrial analyses; the authors explicitly called for further range and population work. They do not establish present-day dynamics where the species co-occurs. The COL26.8 accepted name is retained. The Chinese common name is editorial.
 <!-- /evo:text -->

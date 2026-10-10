@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycephala arctitorquis
       en: Pachycephala arctitorquis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

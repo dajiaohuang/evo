@@ -9,7 +9,6 @@ records:
     name:
       zh: Smaug swazicus
       en: Smaug swazicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

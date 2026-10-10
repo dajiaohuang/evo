@@ -9,7 +9,6 @@ records:
     name:
       en: Vitreorana eurygnatha
       zh: Vitreorana eurygnatha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

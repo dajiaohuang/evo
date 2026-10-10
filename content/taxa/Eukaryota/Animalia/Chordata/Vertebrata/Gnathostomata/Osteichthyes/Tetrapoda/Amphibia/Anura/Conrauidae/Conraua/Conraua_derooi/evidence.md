@@ -9,7 +9,6 @@ records:
     name:
       en: Conraua derooi
       zh: Conraua derooi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

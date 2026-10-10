@@ -9,7 +9,6 @@ records:
     name:
       zh: Leopardus tigrinus
       en: Leopardus tigrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

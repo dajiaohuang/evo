@@ -9,7 +9,6 @@ records:
     name:
       zh: Macelognathus vagans
       en: Macelognathus vagans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

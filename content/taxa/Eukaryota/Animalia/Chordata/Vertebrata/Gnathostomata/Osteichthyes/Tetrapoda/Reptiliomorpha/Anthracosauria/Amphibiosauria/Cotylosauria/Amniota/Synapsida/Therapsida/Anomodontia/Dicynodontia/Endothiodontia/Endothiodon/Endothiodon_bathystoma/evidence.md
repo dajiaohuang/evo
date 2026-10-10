@@ -9,7 +9,6 @@ records:
     name:
       zh: Endothiodon bathystoma
       en: Endothiodon bathystoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

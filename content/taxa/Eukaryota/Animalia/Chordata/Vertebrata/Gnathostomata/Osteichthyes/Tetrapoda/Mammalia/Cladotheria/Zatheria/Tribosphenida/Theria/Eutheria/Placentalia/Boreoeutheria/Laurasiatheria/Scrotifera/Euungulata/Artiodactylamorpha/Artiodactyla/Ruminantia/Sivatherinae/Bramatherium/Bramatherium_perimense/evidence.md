@@ -9,7 +9,6 @@ records:
     name:
       zh: Bramatherium perimense
       en: Bramatherium perimense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus scotophilus
       en: Sphenomorphus scotophilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

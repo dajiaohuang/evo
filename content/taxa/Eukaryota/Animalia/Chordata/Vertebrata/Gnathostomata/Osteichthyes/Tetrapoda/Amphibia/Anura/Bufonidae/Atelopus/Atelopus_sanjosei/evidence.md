@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus sanjosei
       zh: Atelopus sanjosei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Indirana semipalmata
       zh: Indirana semipalmata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

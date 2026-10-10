@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoborus rosatus
       en: Palaeoborus rosatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

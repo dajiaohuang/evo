@@ -9,7 +9,6 @@ records:
     name:
       zh: Labidiosuchus amicum
       en: Labidiosuchus amicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

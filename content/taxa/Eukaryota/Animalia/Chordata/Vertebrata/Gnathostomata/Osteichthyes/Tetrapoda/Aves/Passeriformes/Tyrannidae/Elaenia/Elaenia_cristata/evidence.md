@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaenia cristata
       en: Elaenia cristata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

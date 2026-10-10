@@ -9,7 +9,6 @@ records:
     name:
       zh: Falco moluccensis
       en: Falco moluccensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

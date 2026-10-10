@@ -16,5 +16,5 @@ In the 2008 study of the silvered-langur group, sampled *T. margarita* formed on
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page does not treat mitochondrial clades as a complete species tree or infer a full range from the study's limited locality information. The Chinese common name is an editorial translation; the page has not received external expert review. This page is not externally expert-reviewed.
+This page does not treat mitochondrial clades as a complete species tree or infer a full range from the study's limited locality information. The Chinese common name is an editorial translation.
 <!-- /evo:text -->

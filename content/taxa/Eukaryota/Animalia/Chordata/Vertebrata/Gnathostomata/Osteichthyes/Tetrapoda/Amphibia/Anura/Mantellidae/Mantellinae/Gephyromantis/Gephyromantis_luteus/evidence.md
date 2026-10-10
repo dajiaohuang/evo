@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis luteus
       zh: Gephyromantis luteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Idelesaurus tataricus
       en: Idelesaurus tataricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

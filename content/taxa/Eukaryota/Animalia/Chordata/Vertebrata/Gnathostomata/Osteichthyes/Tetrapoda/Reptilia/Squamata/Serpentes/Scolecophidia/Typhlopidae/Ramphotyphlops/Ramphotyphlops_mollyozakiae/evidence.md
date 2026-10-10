@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphotyphlops mollyozakiae
       en: Ramphotyphlops mollyozakiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

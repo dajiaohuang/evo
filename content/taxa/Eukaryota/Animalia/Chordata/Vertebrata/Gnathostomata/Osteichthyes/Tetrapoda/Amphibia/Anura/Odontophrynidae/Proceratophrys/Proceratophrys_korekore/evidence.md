@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys korekore
       zh: Proceratophrys korekore
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

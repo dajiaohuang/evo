@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperosorex lovei
       en: Hesperosorex lovei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

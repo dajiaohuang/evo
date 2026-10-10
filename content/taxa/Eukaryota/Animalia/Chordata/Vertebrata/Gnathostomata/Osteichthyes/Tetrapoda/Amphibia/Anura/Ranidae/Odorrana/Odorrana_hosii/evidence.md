@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana hosii
       zh: Odorrana hosii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

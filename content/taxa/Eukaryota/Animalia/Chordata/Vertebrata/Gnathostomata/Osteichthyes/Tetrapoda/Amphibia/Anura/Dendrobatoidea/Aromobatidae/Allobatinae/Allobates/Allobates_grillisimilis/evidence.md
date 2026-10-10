@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates grillisimilis
       zh: Allobates grillisimilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

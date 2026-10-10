@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis broadleyi
       zh: Leptopelis broadleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gaylordia macrocynodonta
       en: Gaylordia macrocynodonta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

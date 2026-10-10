@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma ordinarium
       zh: Ambystoma ordinarium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

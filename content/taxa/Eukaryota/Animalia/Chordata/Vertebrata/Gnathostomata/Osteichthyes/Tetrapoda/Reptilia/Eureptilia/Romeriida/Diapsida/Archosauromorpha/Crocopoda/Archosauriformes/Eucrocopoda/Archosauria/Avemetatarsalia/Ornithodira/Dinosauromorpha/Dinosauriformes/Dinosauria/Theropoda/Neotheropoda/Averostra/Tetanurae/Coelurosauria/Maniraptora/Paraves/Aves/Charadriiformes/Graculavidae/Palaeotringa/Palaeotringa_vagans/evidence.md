@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeotringa vagans
       en: Palaeotringa vagans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

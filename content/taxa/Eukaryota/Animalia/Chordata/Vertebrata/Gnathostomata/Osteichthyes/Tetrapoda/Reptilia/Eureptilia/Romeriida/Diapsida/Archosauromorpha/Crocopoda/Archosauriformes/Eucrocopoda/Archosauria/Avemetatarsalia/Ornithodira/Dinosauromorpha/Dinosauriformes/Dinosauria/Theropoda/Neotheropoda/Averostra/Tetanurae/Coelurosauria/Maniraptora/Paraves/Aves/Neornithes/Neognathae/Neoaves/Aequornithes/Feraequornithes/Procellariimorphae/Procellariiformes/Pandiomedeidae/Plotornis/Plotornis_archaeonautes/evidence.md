@@ -9,7 +9,6 @@ records:
     name:
       zh: Plotornis archaeonautes
       en: Plotornis archaeonautes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

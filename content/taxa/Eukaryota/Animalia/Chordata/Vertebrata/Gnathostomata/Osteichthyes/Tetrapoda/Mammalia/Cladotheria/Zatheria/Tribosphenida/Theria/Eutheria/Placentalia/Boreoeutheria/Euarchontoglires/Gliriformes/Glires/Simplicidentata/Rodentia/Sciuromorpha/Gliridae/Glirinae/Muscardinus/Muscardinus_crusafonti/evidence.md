@@ -9,7 +9,6 @@ records:
     name:
       zh: Muscardinus crusafonti
       en: Muscardinus crusafonti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

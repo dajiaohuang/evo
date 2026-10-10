@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated literature audit
-      reviewedAt: 2026-08-29
-      reviewedAgainstReferenceVersion: smith-2013-oldest-echinoderms @ DOI 10.1038/ncomms2391
       referenceLinks:
         - relation: supports
           referenceId: smith-2013-oldest-echinoderms
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated literature audit
-      reviewedAt: 2026-08-29
-      reviewedAgainstReferenceVersion: smith-2013-oldest-echinoderms @ DOI 10.1038/ncomms2391
       referenceLinks:
         - relation: supports
           referenceId: smith-2013-oldest-echinoderms
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas automated literature audit
-      reviewedAt: 2026-08-29
-      reviewedAgainstReferenceVersion: Topper 2019 DOI 10.1038/s41467-019-09059-3 and Zamora 2020 DOI 10.1038/s41467-020-14920-x
       referenceLinks:
         - relation: supports
           referenceId: topper-2019-yanjiahella
@@ -125,9 +116,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: smith-2013-oldest-echinoderms primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: smith-2013-oldest-echinoderms
           relation: supports
@@ -144,9 +132,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: smith-2013-oldest-echinoderms primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: smith-2013-oldest-echinoderms
           relation: supports
@@ -163,9 +148,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: smith-2013-oldest-echinoderms primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: smith-2013-oldest-echinoderms
           relation: supports
@@ -182,9 +164,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/6/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: smith-2013-oldest-echinoderms primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: smith-2013-oldest-echinoderms
           relation: supports
@@ -201,9 +180,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/7/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: smith-2013-oldest-echinoderms primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: smith-2013-oldest-echinoderms
           relation: supports
@@ -270,7 +246,6 @@ records:
           locator: pp. 1 and 5–6; Figure 3; Abstract and Discussion
         - referenceId: zamora-2020-yanjiahella
           locator: Figure 2a–d; opening Matters Arising text and Methods
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

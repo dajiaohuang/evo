@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudothecadactylus cavaticus
       en: Pseudothecadactylus cavaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

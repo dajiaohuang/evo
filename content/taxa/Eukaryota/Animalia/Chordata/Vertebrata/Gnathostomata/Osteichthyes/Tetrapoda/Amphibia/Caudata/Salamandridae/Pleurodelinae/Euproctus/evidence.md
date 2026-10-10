@@ -9,7 +9,6 @@ records:
     name:
       en: Euproctus
       zh: Euproctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

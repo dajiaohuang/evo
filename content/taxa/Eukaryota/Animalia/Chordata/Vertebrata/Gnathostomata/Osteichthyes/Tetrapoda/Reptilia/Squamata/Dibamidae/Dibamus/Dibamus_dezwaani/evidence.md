@@ -9,7 +9,6 @@ records:
     name:
       zh: Dibamus dezwaani
       en: Dibamus dezwaani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

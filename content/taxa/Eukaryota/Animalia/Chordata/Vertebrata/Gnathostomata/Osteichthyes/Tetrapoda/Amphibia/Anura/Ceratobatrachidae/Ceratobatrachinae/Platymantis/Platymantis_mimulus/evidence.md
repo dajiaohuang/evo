@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis mimulus
       zh: Platymantis mimulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

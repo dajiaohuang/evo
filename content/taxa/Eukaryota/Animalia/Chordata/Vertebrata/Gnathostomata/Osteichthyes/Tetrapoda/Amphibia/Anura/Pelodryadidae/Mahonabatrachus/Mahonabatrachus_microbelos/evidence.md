@@ -9,7 +9,6 @@ records:
     name:
       en: Mahonabatrachus microbelos
       zh: Mahonabatrachus microbelos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

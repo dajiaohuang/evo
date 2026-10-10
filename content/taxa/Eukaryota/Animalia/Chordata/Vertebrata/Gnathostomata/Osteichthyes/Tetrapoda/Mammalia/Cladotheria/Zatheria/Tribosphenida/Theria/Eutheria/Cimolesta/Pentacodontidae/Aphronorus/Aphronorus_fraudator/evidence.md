@@ -9,7 +9,6 @@ records:
     name:
       zh: Aphronorus fraudator
       en: Aphronorus fraudator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

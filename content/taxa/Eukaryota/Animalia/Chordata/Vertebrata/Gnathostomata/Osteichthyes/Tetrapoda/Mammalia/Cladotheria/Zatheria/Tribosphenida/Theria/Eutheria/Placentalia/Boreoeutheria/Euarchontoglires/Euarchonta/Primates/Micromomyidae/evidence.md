@@ -9,7 +9,6 @@ records:
     name:
       zh: Micromomyidae
       en: Micromomyidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

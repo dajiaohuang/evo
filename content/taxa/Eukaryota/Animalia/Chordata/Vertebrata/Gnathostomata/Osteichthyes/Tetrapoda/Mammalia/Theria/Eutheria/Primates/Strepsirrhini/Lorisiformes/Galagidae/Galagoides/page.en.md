@@ -28,5 +28,5 @@ Keep locality records, museum identifications and full-range inference separate.
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a research reading path for three COL26.8 accepted species, not a genus monograph or complete species account. This batch does not systematically cover full ranges, life histories, population trends or current conservation status for all three species. The Chinese genus name is editorial; the guide has not received external expert review. This page is not externally expert-reviewed.
+This is a research reading path for three COL26.8 accepted species, not a genus monograph or complete species account. This batch does not systematically cover full ranges, life histories, population trends or current conservation status for all three species. The Chinese genus name is editorial; the guide. This page is.
 <!-- /evo:text -->

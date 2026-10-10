@@ -9,7 +9,6 @@ records:
     name:
       zh: Lobodon carcinophaga
       en: Lobodon carcinophaga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

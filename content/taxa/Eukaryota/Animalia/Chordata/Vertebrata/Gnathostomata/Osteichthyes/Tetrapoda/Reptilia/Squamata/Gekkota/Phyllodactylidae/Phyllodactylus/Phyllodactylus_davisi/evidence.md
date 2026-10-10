@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus davisi
       en: Phyllodactylus davisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

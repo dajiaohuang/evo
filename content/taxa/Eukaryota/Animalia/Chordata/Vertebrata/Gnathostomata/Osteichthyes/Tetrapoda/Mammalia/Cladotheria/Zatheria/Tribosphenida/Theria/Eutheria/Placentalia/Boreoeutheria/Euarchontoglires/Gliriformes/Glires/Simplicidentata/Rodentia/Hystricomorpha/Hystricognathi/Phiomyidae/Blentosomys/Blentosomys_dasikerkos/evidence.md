@@ -9,7 +9,6 @@ records:
     name:
       zh: Blentosomys dasikerkos
       en: Blentosomys dasikerkos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

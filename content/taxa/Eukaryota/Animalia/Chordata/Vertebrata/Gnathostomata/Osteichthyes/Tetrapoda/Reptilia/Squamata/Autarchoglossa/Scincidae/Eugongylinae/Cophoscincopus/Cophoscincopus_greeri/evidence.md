@@ -9,7 +9,6 @@ records:
     name:
       zh: Cophoscincopus greeri
       en: Cophoscincopus greeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

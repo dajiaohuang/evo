@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegotetrabelodon orbus
       en: Stegotetrabelodon orbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

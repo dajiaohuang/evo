@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla achatina
       zh: Microhyla achatina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

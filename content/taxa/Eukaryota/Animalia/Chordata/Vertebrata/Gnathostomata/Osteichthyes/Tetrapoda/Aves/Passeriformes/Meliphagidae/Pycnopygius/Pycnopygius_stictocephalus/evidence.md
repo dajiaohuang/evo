@@ -9,7 +9,6 @@ records:
     name:
       zh: Pycnopygius stictocephalus
       en: Pycnopygius stictocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

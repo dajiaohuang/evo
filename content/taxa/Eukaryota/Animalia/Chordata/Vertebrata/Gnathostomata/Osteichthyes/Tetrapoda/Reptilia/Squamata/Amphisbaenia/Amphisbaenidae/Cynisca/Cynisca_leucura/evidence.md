@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynisca leucura
       en: Cynisca leucura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

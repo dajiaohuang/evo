@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelidotherium tarijense
       en: Scelidotherium tarijense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

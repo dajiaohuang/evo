@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus adensis
       en: Hemidactylus adensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

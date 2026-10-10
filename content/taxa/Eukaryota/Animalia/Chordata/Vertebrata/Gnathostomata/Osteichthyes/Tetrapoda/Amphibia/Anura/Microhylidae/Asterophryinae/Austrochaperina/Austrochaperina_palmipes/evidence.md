@@ -9,7 +9,6 @@ records:
     name:
       en: Austrochaperina palmipes
       zh: Austrochaperina palmipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

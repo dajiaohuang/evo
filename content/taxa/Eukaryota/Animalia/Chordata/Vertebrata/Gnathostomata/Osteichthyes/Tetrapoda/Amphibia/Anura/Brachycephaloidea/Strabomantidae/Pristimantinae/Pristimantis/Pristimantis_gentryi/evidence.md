@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis gentryi
       zh: Pristimantis gentryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena bilabialata
       en: Amphisbaena bilabialata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

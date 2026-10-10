@@ -9,7 +9,6 @@ records:
     name:
       zh: Uintanius ameghini
       en: Uintanius ameghini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

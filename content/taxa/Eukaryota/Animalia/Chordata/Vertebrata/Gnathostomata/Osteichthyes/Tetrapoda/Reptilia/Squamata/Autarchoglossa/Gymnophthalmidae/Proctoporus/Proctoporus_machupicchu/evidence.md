@@ -9,7 +9,6 @@ records:
     name:
       zh: Proctoporus machupicchu
       en: Proctoporus machupicchu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

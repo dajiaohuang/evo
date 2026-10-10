@@ -165,10 +165,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Schlechteranthus holgatensis
@@ -327,10 +323,4 @@ Only source-supported morphology/diagnostics and habitat have been assessed; lif
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 Systematic literature review and comparison of the regional account with the complete COL26.8 concept remain incomplete.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

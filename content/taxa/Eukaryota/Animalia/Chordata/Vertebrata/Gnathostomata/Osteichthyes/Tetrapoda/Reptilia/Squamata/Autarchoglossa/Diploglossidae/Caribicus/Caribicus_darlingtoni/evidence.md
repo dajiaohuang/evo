@@ -9,7 +9,6 @@ records:
     name:
       zh: Caribicus darlingtoni
       en: Caribicus darlingtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

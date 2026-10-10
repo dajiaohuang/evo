@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptotis squamipes
       en: Cryptotis squamipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

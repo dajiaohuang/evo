@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: wintrich-2017-rhaeticosaurus
           relation: supports
@@ -81,9 +78,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: wintrich-2017-rhaeticosaurus
           relation: supports
@@ -102,9 +96,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: wintrich-2017-rhaeticosaurus
           relation: supports
@@ -123,9 +114,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: wintrich-2017-rhaeticosaurus
           relation: supports
@@ -144,9 +132,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: wintrich-2017-rhaeticosaurus
           relation: supports
@@ -200,7 +185,6 @@ records:
           locator: Article e1701144; Figures 1–4; Supplementary Figures S1–S12
         - referenceId: dalla-vecchia-2006-bobosaurus
           locator: pp. 207–225; alternative affinity discussion
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

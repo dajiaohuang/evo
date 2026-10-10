@@ -69,9 +69,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated literature audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Magallón et al. 2015 DOI 10.1111/nph.13264
       referenceLinks:
         - relation: supports
           referenceId: magallon-2015-angiosperms

@@ -9,7 +9,6 @@ records:
     name:
       zh: Henicorhina leucosticta
       en: Henicorhina leucosticta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis padiali
       zh: Pristimantis padiali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

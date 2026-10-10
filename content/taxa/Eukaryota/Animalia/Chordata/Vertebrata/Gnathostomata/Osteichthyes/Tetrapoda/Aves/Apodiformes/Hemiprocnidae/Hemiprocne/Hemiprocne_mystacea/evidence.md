@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiprocne mystacea
       en: Hemiprocne mystacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

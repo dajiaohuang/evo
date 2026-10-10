@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesembriomys macrurus
       en: Mesembriomys macrurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

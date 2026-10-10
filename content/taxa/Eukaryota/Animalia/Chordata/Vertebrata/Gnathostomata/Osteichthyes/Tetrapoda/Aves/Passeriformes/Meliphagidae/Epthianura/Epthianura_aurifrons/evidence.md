@@ -9,7 +9,6 @@ records:
     name:
       zh: Epthianura aurifrons
       en: Epthianura aurifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

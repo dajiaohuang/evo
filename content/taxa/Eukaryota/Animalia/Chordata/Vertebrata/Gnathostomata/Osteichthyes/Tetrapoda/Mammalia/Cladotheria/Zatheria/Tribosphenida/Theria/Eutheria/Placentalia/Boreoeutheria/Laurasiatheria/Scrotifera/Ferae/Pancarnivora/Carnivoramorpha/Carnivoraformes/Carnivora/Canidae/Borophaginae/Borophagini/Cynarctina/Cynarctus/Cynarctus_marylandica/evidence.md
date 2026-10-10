@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynarctus marylandica
       en: Cynarctus marylandica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

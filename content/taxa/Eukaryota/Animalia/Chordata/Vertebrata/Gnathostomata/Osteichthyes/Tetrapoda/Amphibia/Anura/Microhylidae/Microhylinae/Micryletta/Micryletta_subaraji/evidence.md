@@ -9,7 +9,6 @@ records:
     name:
       en: Micryletta subaraji
       zh: Micryletta subaraji
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cubophis cantherigerus
       en: Cubophis cantherigerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

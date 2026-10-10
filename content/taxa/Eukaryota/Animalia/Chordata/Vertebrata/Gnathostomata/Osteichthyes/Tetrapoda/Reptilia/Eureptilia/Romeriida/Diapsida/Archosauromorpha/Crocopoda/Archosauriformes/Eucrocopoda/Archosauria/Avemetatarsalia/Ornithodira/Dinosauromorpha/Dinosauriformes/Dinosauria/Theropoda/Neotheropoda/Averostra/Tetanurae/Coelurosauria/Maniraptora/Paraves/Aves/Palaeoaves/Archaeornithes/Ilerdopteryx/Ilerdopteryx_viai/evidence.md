@@ -9,7 +9,6 @@ records:
     name:
       zh: Ilerdopteryx viai
       en: Ilerdopteryx viai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

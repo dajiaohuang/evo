@@ -9,7 +9,6 @@ records:
     name:
       zh: Neomyini
       en: Neomyini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

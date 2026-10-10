@@ -9,7 +9,6 @@ records:
     name:
       zh: Vahiny depereti
       en: Vahiny depereti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

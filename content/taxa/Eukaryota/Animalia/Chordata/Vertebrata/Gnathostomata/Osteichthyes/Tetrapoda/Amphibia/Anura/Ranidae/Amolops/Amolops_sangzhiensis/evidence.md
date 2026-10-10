@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops sangzhiensis
       zh: Amolops sangzhiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

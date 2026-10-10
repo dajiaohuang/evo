@@ -9,7 +9,6 @@ records:
     name:
       zh: Indoclemensia magnus
       en: Indoclemensia magnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lampornis amethystinus
       en: Lampornis amethystinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

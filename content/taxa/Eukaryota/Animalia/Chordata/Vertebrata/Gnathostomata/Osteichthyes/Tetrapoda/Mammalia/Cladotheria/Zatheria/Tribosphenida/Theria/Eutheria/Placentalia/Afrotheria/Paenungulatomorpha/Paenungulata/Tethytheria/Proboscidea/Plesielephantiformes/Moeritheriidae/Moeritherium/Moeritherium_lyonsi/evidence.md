@@ -9,7 +9,6 @@ records:
     name:
       zh: Moeritherium lyonsi
       en: Moeritherium lyonsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

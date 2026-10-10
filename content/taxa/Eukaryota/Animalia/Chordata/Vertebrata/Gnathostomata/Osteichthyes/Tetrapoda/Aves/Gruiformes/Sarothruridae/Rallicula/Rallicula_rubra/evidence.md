@@ -9,7 +9,6 @@ records:
     name:
       zh: Rallicula rubra
       en: Rallicula rubra
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

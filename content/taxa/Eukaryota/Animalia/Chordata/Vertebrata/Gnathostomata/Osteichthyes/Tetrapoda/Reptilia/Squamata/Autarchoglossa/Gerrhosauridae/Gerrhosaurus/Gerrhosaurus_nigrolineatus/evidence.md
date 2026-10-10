@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerrhosaurus nigrolineatus
       en: Gerrhosaurus nigrolineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

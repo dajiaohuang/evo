@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus abundus
       zh: Pseudophilautus abundus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

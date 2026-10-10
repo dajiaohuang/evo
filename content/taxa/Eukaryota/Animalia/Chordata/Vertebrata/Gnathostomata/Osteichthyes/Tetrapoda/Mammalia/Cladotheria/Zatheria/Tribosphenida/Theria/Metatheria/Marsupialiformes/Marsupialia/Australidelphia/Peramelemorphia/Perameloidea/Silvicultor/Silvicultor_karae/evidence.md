@@ -9,7 +9,6 @@ records:
     name:
       zh: Silvicultor karae
       en: Silvicultor karae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Teratohyla midas
       zh: Teratohyla midas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

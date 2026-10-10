@@ -9,7 +9,6 @@ records:
     name:
       zh: Loxopholis percarinatum
       en: Loxopholis percarinatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

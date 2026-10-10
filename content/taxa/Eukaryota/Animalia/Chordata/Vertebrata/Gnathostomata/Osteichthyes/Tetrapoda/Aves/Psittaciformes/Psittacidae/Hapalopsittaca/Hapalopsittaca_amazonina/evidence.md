@@ -9,7 +9,6 @@ records:
     name:
       zh: Hapalopsittaca amazonina
       en: Hapalopsittaca amazonina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

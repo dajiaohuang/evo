@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudantechinus macdonnellensis
       en: Pseudantechinus macdonnellensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Phantasmarana curucutuensis
       zh: Phantasmarana curucutuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

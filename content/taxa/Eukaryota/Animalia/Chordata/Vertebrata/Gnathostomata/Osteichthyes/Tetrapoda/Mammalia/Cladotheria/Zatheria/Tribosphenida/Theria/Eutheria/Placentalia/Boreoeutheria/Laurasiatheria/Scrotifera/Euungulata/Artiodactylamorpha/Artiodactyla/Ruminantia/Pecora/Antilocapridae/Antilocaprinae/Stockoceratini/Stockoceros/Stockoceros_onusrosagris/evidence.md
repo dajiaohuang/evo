@@ -9,7 +9,6 @@ records:
     name:
       zh: Stockoceros onusrosagris
       en: Stockoceros onusrosagris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

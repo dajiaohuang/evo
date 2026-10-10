@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphirhagatherium weigelti
       en: Amphirhagatherium weigelti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

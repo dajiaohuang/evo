@@ -28,5 +28,5 @@ Pottie 等在秘鲁东南部 Los Amigos Biological Station 于 2025 年 4—8 �
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-局地样线研究导读，尚未经过外部领域专家评审。两次相对遭遇率比较来自秘鲁 Los Amigos 单一站点；不同时间的探测条件、群体规模及名录分类都限制了种群趋势解释，不能替代完整自然史或现代分布综述。
+局地样线研究导读。两次相对遭遇率比较来自秘鲁 Los Amigos 单一站点；不同时间的探测条件、群体规模及名录分类都限制了种群趋势解释，不能替代完整自然史或现代分布综述。
 <!-- /evo:text -->

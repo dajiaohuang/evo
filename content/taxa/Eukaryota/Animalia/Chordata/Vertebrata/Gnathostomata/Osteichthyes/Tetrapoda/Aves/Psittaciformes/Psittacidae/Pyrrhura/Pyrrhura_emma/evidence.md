@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrrhura emma
       en: Pyrrhura emma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

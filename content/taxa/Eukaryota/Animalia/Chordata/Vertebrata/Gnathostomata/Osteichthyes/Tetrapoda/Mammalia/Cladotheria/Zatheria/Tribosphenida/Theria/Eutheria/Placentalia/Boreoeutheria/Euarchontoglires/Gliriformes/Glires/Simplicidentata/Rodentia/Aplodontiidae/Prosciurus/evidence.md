@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosciurus
       en: Prosciurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

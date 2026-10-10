@@ -9,7 +9,6 @@ records:
     name:
       zh: Progne sinaloae
       en: Progne sinaloae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

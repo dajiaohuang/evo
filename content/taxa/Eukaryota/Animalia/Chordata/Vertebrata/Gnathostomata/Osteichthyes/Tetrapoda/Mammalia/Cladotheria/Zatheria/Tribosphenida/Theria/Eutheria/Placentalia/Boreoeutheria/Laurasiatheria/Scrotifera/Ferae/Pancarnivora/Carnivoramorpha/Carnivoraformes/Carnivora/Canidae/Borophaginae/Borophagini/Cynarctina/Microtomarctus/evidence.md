@@ -9,7 +9,6 @@ records:
     name:
       zh: Microtomarctus
       en: Microtomarctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

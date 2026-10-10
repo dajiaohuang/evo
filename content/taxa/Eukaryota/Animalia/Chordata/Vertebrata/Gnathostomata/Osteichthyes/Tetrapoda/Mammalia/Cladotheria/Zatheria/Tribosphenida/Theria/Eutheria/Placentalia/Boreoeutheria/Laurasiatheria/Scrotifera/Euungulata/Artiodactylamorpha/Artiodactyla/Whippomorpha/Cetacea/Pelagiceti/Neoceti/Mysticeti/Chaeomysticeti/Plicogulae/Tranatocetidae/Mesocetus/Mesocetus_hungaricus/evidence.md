@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesocetus hungaricus
       en: Mesocetus hungaricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

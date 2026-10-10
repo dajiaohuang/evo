@@ -9,7 +9,6 @@ records:
     name:
       zh: Homalocephale calathocercos
       en: Homalocephale calathocercos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

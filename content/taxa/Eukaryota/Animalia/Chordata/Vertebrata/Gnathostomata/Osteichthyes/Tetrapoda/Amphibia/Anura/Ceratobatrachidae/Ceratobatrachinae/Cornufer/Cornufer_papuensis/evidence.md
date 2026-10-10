@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer papuensis
       zh: Cornufer papuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

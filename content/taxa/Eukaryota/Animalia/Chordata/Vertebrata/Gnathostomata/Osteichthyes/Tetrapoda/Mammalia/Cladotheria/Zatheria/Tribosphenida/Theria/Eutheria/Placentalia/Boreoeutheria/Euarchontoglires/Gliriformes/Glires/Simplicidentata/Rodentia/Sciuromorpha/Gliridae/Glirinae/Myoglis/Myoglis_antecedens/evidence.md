@@ -9,7 +9,6 @@ records:
     name:
       zh: Myoglis antecedens
       en: Myoglis antecedens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

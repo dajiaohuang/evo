@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachylagus idahoensis
       en: Brachylagus idahoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

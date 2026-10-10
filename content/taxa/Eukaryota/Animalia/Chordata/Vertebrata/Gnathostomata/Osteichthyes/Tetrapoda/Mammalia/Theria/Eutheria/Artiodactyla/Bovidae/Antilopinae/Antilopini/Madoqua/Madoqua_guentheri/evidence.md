@@ -9,7 +9,6 @@ records:
     name:
       zh: Madoqua guentheri
       en: Madoqua guentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

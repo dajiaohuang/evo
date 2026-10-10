@@ -9,7 +9,6 @@ records:
     name:
       zh: Acryllium vulturinum
       en: Acryllium vulturinum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tremacebus harringtoni
       en: Tremacebus harringtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

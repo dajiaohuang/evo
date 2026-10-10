@@ -9,7 +9,6 @@ records:
     name:
       zh: Gargantuavis philoinos
       en: Gargantuavis philoinos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

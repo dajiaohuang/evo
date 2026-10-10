@@ -9,7 +9,6 @@ records:
     name:
       zh: Fowlea schnurrenbergeri
       en: Fowlea schnurrenbergeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

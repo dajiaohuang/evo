@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplodactylus lateroides
       en: Diplodactylus lateroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

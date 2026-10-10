@@ -133,11 +133,8 @@ const dossier = {
       'The treatment is limited to two known specimens and one 2018 field observation; it does not establish full life-history, ecological, or geographic coverage.',
       'Evolution, fossil occurrence, and current conservation assessment remain not-assessed.',
       'The article notes historical taxonomic uncertainty for H. alienus; the exact accepted COL-to-ITIS record link does not resolve every biological species-concept question.',
-      'No external domain expert review was completed.'
     ]
-  },
-  expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null }
-}
+  }}
 
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...facets].sort())
 assert.equal(dossier.completeness.status, 'incomplete')

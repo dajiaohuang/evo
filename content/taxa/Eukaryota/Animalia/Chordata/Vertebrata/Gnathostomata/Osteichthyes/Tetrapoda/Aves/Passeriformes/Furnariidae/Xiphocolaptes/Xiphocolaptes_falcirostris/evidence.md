@@ -9,7 +9,6 @@ records:
     name:
       zh: Xiphocolaptes falcirostris
       en: Xiphocolaptes falcirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

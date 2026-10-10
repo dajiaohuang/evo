@@ -9,7 +9,6 @@ records:
     name:
       zh: Conacodon hettingeri
       en: Conacodon hettingeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

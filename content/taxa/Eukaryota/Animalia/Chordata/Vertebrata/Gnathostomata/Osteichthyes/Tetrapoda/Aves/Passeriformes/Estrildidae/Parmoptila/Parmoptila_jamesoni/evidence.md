@@ -9,7 +9,6 @@ records:
     name:
       zh: Parmoptila jamesoni
       en: Parmoptila jamesoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

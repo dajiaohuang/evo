@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus doellojuradoi
       en: Stenocercus doellojuradoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

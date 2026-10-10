@@ -16,5 +16,5 @@ During wet-season nocturnal distance sampling on Nosy Be in northwestern Madagas
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. The island total extrapolates from limited transects and is not a population census across the full range.
+Source-linked introduction;. The island total extrapolates from limited transects and is not a population census across the full range.
 <!-- /evo:text -->

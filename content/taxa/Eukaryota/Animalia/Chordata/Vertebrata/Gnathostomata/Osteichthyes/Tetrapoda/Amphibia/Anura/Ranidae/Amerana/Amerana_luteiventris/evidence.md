@@ -9,7 +9,6 @@ records:
     name:
       en: Amerana luteiventris
       zh: Amerana luteiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

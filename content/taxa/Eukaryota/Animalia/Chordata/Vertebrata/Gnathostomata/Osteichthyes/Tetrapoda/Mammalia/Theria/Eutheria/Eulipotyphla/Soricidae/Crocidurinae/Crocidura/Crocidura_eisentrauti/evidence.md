@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura eisentrauti
       en: Crocidura eisentrauti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

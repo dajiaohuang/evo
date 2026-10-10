@@ -9,7 +9,6 @@ records:
     name:
       zh: Liopholis guthega
       en: Liopholis guthega
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

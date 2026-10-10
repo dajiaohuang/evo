@@ -9,7 +9,6 @@ records:
     name:
       zh: Panaspis burgeoni
       en: Panaspis burgeoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sundamys infraluteus
       en: Sundamys infraluteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

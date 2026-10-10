@@ -9,7 +9,6 @@ records:
     name:
       zh: Herpsilochmus pileatus
       en: Herpsilochmus pileatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

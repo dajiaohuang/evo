@@ -80,6 +80,6 @@ for (const species of coverage) {
   linked++
 }
 fs.writeFileSync(`${base}/species-coverage.json`, JSON.stringify(coverage, null, 2) + '\n')
-const gaps = coverage.map(x => ({ colId: x.colId, path: x.path, sourceCoverage: x.sourceCoverage, distributionReaderStatus: x.distributionReaderStatus ?? 'no-source-distribution-row', candidateSources: (x.sourceReaderCandidates ?? []).map(y => y.label), missingWork: ['review-current-source-concept-equivalence', 'complete-species-specific-seven-facet-evidence', 'external-expert-review'], biologicalReaderComplete: false }))
+const gaps = coverage.map(x => ({ colId: x.colId, path: x.path, sourceCoverage: x.sourceCoverage, distributionReaderStatus: x.distributionReaderStatus ?? 'no-source-distribution-row', candidateSources: (x.sourceReaderCandidates ?? []).map(y => y.label), missingWork: ['review-current-source-concept-equivalence', 'complete-species-specific-seven-facet-evidence'], biologicalReaderComplete: false }))
 fs.writeFileSync(`${base}/remaining-biological-work.json`, JSON.stringify(gaps, null, 2) + '\n')
 console.log(JSON.stringify({ currentSpecies: coverage.length, linkedSpecies: linked, noTraitSourceCandidate: coverage.length - linked, completeBiologicalSpecies: 0 }))

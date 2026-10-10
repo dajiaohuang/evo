@@ -9,7 +9,6 @@ records:
     name:
       zh: Listrognathosuchus multidentatus
       en: Listrognathosuchus multidentatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Wiedomys pyrrhorhinos
       en: Wiedomys pyrrhorhinos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

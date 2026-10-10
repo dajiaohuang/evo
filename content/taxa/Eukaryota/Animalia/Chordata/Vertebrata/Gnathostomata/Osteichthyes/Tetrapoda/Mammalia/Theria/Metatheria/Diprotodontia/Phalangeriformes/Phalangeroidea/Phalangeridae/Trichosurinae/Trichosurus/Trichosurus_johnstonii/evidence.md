@@ -9,7 +9,6 @@ records:
     name:
       zh: Trichosurus johnstonii
       en: Trichosurus johnstonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

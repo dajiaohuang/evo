@@ -9,7 +9,6 @@ records:
     name:
       zh: Chroicocephalus philadelphia
       en: Chroicocephalus philadelphia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

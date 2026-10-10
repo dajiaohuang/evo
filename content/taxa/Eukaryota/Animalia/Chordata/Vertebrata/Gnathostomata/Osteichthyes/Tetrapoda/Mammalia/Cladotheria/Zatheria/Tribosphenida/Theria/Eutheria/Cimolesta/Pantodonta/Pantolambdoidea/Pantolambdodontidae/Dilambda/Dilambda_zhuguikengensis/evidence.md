@@ -9,7 +9,6 @@ records:
     name:
       zh: Dilambda zhuguikengensis
       en: Dilambda zhuguikengensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

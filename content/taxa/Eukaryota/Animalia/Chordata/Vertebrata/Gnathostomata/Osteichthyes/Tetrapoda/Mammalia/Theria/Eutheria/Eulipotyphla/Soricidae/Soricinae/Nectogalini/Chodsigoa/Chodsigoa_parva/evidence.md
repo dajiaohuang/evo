@@ -9,7 +9,6 @@ records:
     name:
       zh: Chodsigoa parva
       en: Chodsigoa parva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

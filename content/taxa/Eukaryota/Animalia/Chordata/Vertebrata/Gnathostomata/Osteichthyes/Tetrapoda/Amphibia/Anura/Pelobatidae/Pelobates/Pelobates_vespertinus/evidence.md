@@ -9,7 +9,6 @@ records:
     name:
       en: Pelobates vespertinus
       zh: Pelobates vespertinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

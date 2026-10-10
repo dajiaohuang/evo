@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaphyromorphus pumilus
       en: Glaphyromorphus pumilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

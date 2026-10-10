@@ -9,7 +9,6 @@ records:
     name:
       zh: Anadia brevifrontalis
       en: Anadia brevifrontalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

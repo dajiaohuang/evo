@@ -9,7 +9,6 @@ records:
     name:
       zh: Protolipterna ellipsodontoides
       en: Protolipterna ellipsodontoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

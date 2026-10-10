@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudorabdion talonuran
       en: Pseudorabdion talonuran
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

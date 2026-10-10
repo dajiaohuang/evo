@@ -9,7 +9,6 @@ records:
     name:
       zh: Coelodontomys asiaticus
       en: Coelodontomys asiaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

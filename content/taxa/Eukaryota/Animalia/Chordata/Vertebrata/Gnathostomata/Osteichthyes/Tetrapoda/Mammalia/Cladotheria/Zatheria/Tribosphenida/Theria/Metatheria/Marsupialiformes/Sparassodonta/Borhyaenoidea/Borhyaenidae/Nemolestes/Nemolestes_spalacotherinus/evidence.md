@@ -9,7 +9,6 @@ records:
     name:
       zh: Nemolestes spalacotherinus
       en: Nemolestes spalacotherinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

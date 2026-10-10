@@ -9,7 +9,6 @@ records:
     name:
       zh: Similiyanornis brevipectus
       en: Similiyanornis brevipectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

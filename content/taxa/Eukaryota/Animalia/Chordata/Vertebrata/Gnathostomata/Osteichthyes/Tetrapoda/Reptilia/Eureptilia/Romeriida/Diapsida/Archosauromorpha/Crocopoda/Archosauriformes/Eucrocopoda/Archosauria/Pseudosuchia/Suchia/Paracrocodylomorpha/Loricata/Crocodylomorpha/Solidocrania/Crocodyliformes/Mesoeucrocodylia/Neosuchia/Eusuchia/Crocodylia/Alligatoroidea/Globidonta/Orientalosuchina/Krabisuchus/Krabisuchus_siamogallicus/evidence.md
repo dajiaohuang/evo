@@ -9,7 +9,6 @@ records:
     name:
       zh: Krabisuchus siamogallicus
       en: Krabisuchus siamogallicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

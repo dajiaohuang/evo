@@ -9,7 +9,6 @@ records:
     name:
       zh: Nigersaurus taqueti
       en: Nigersaurus taqueti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

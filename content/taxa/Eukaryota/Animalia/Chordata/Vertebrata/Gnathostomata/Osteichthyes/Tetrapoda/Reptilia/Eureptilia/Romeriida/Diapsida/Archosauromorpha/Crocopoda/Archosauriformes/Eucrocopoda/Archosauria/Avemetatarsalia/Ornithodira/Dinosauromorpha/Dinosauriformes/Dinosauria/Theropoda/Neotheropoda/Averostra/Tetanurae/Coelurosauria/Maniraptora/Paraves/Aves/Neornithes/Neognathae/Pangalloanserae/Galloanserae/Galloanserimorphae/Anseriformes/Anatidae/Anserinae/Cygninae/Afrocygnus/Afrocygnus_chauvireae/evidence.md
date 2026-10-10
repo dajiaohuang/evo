@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrocygnus chauvireae
       en: Afrocygnus chauvireae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

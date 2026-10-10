@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamitataxus avitus
       en: Chamitataxus avitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scytalopus femoralis
       en: Scytalopus femoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

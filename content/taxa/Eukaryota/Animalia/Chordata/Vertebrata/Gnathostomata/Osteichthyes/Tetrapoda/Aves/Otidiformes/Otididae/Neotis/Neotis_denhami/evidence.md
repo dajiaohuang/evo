@@ -9,7 +9,6 @@ records:
     name:
       zh: Neotis denhami
       en: Neotis denhami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

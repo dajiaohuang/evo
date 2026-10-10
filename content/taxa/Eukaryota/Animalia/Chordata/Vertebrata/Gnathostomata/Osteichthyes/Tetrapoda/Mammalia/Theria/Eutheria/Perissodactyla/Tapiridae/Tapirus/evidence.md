@@ -9,7 +9,6 @@ records:
     name:
       zh: 貘属
       en: South American tapirs
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

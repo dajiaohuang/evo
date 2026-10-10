@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia pardus
       zh: Stumpffia pardus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

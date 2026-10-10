@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus kaindiensis
       zh: Cophixalus kaindiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

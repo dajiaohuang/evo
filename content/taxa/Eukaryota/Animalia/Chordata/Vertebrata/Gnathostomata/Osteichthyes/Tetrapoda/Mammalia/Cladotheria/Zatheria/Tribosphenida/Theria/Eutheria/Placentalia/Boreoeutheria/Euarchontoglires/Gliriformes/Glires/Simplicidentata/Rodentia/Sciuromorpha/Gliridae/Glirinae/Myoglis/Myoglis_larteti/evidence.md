@@ -9,7 +9,6 @@ records:
     name:
       zh: Myoglis larteti
       en: Myoglis larteti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

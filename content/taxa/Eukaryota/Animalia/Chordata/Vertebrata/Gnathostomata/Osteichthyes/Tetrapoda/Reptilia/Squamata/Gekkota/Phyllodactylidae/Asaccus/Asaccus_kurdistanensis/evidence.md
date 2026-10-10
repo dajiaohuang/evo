@@ -9,7 +9,6 @@ records:
     name:
       zh: Asaccus kurdistanensis
       en: Asaccus kurdistanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 白额狐猴
       en: White-fronted Brown Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

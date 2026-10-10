@@ -9,7 +9,6 @@ records:
     name:
       zh: Darevskia defilippii
       en: Darevskia defilippii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

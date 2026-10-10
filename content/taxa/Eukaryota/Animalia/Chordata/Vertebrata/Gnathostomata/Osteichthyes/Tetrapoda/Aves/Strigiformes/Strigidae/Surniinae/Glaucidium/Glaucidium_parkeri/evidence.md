@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium parkeri
       en: Glaucidium parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

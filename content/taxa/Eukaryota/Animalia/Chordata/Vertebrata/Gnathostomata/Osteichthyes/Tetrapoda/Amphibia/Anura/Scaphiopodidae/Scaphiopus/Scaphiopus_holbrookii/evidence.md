@@ -9,7 +9,6 @@ records:
     name:
       en: Scaphiopus holbrookii
       zh: Scaphiopus holbrookii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

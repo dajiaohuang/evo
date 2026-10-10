@@ -9,7 +9,6 @@ records:
     name:
       zh: Conirostrum margaritae
       en: Conirostrum margaritae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

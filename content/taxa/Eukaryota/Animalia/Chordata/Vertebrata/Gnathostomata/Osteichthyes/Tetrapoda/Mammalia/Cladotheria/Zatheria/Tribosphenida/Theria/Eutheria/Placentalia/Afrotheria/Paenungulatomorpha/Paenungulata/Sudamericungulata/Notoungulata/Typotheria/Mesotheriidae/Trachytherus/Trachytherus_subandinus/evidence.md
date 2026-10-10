@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachytherus subandinus
       en: Trachytherus subandinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

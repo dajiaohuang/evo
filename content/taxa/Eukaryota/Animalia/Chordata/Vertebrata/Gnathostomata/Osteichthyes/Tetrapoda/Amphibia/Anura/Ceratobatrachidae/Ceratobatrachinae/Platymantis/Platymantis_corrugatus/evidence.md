@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis corrugatus
       zh: Platymantis corrugatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

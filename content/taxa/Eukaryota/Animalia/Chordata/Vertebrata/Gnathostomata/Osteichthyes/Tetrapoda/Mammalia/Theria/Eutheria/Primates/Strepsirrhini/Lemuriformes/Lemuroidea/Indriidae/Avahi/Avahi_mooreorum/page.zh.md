@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-描述和密度估计仅限马苏阿拉样本与研究方法；两者均未提供当前全种种群总量。 本页尚未经过外部领域专家评审。
+描述和密度估计仅限马苏阿拉样本与研究方法；两者均未提供当前全种种群总量。 。
 <!-- /evo:text -->

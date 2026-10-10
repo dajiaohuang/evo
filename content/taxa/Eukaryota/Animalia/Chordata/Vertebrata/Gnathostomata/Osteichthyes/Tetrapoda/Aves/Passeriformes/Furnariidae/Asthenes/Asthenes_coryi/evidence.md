@@ -9,7 +9,6 @@ records:
     name:
       zh: Asthenes coryi
       en: Asthenes coryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

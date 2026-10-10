@@ -9,7 +9,6 @@ records:
     name:
       zh: Actiornis anglicus
       en: Actiornis anglicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

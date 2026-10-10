@@ -66,7 +66,7 @@ Ailao描述报告sangzhiensis有犁骨齿，与ailao不存在对照，minutus称
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-部分研究范围内的生物学读本。其余生物学主题仍需更多证据。未经过外部领域专家评审。
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。。
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

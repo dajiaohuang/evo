@@ -28,5 +28,5 @@ This is a reading order connecting three COL-accepted names to selected local st
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The genus count follows the pinned COL26.8 checklist and does not imply that every checklist uses the same genus-level arrangement. Field papers commonly use Saguinus combinations; the local MDD exact-name crosswalk did not match these three COL IDs, so the pages do not merge records based on name similarity. Chinese genus and species names are editorial renderings; the new pages have not received external expert review. This page is not externally expert-reviewed.
+The genus count follows the pinned COL26.8 checklist and does not imply that every checklist uses the same genus-level arrangement. Field papers commonly use Saguinus combinations; the local MDD exact-name crosswalk did not match these three COL IDs, so the pages do not merge records based on name similarity. Chinese genus and species names are editorial renderings; the new pages. This page is.
 <!-- /evo:text -->

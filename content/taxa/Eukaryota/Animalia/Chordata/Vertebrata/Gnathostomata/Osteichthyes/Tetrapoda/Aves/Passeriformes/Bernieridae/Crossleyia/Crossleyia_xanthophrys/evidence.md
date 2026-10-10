@@ -9,7 +9,6 @@ records:
     name:
       zh: Crossleyia xanthophrys
       en: Crossleyia xanthophrys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

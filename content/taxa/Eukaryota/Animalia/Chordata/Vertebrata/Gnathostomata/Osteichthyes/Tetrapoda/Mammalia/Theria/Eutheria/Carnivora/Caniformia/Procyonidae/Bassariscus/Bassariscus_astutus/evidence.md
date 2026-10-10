@@ -9,7 +9,6 @@ records:
     name:
       zh: Bassariscus astutus
       en: Bassariscus astutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

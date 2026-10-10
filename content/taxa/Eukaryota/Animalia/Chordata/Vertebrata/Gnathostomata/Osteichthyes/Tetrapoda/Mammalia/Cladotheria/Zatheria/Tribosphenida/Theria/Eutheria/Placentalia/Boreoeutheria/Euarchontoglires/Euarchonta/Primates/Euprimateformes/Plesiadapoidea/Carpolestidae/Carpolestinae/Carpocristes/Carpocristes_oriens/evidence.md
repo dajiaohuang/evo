@@ -9,7 +9,6 @@ records:
     name:
       zh: Carpocristes oriens
       en: Carpocristes oriens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

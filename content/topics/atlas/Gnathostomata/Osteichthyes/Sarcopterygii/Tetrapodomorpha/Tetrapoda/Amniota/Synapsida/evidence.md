@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: mann-reisz-2020-echinerpeton-spine primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: mann-reisz-2020-echinerpeton-spine
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: mann-reisz-2020-echinerpeton-spine
           locator: Article 83; Figure 1; Locality and Horizon; Comparative Anatomy; Discussion
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

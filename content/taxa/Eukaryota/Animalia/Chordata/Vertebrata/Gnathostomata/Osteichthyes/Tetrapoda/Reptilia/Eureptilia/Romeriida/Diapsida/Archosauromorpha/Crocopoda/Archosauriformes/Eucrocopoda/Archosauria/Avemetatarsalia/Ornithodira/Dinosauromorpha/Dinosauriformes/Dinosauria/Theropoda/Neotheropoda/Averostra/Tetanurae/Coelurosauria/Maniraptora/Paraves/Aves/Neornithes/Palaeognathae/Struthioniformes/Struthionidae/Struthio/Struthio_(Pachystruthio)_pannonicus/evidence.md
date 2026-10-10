@@ -9,7 +9,6 @@ records:
     name:
       zh: Struthio (Pachystruthio) pannonicus
       en: Struthio (Pachystruthio) pannonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

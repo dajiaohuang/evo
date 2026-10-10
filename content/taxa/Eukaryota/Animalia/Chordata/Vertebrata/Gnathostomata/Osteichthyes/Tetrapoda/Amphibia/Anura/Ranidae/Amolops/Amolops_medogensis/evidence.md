@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops medogensis
       zh: Amolops medogensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

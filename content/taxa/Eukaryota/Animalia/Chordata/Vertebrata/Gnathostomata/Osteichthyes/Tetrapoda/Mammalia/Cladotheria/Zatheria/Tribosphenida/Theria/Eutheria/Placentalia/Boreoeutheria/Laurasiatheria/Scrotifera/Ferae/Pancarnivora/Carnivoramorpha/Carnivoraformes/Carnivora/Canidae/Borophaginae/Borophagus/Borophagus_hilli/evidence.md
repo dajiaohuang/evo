@@ -9,7 +9,6 @@ records:
     name:
       zh: Borophagus hilli
       en: Borophagus hilli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

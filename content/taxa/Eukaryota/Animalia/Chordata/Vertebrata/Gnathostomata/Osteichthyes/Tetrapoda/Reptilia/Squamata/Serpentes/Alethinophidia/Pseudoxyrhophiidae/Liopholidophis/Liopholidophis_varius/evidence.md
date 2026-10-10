@@ -9,7 +9,6 @@ records:
     name:
       zh: Liopholidophis varius
       en: Liopholidophis varius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

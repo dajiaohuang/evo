@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphocinclus brachyurus
       en: Ramphocinclus brachyurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

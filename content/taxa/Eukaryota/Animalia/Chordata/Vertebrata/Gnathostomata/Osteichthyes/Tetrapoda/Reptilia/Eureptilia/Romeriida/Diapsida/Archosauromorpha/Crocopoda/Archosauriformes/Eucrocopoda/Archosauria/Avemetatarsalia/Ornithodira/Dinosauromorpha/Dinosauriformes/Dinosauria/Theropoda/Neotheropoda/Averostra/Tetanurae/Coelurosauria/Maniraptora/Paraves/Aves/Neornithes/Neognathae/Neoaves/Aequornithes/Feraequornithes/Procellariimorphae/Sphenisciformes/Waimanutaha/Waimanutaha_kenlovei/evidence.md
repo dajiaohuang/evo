@@ -9,7 +9,6 @@ records:
     name:
       zh: Waimanutaha kenlovei
       en: Waimanutaha kenlovei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

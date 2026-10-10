@@ -9,7 +9,6 @@ records:
     name:
       en: Amerana sierrae
       zh: Amerana sierrae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

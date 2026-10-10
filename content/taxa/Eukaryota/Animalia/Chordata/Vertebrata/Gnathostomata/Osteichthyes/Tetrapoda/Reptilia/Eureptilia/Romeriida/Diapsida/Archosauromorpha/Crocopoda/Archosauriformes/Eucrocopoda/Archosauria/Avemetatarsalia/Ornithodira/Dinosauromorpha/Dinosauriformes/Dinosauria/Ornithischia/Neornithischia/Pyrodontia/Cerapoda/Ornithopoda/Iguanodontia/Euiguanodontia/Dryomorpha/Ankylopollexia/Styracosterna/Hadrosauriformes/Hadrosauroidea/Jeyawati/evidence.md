@@ -9,7 +9,6 @@ records:
     name:
       zh: Jeyawati
       en: Jeyawati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

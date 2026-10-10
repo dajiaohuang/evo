@@ -9,7 +9,6 @@ records:
     name:
       zh: Macropus giganteus
       en: Macropus giganteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

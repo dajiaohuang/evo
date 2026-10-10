@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterygoboa delawarensis
       en: Pterygoboa delawarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

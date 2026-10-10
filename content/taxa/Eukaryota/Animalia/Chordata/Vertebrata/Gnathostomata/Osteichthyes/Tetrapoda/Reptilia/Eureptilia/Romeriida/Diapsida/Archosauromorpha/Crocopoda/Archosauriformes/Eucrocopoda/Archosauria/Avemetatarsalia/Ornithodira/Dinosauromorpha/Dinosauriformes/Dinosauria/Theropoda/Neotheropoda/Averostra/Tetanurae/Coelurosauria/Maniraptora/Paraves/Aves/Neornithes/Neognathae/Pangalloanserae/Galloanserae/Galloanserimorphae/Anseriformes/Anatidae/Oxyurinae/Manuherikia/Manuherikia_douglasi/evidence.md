@@ -9,7 +9,6 @@ records:
     name:
       zh: Manuherikia douglasi
       en: Manuherikia douglasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

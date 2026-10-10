@@ -9,7 +9,6 @@ records:
     name:
       zh: Gashternia carioca
       en: Gashternia carioca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

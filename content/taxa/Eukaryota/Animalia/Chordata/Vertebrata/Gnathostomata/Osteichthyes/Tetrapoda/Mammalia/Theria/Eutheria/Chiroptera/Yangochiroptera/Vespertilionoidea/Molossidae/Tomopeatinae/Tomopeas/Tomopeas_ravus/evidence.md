@@ -9,7 +9,6 @@ records:
     name:
       zh: Tomopeas ravus
       en: Tomopeas ravus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

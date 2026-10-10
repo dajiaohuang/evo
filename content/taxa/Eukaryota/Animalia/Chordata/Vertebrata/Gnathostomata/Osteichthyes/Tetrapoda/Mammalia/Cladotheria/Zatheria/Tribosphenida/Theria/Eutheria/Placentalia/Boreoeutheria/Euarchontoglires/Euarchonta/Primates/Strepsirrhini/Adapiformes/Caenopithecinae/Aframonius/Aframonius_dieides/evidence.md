@@ -9,7 +9,6 @@ records:
     name:
       zh: Aframonius dieides
       en: Aframonius dieides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Siphonops leucoderus
       zh: Siphonops leucoderus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

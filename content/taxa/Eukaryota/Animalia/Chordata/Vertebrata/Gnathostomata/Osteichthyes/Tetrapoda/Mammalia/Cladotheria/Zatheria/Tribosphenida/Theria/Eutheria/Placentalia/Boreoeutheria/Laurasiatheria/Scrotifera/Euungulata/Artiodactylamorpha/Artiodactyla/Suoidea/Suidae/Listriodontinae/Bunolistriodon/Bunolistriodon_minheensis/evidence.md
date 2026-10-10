@@ -9,7 +9,6 @@ records:
     name:
       zh: Bunolistriodon minheensis
       en: Bunolistriodon minheensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 大狐猴
       en: Indri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: lifeHistory
@@ -664,10 +663,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Indri indri
@@ -850,10 +845,4 @@ Only one bounded field study of young animals was assessed; five facets remain n
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 Evidence is limited to eight young individuals and their mothers in one Madagascar field site; it is not a systematic review, full species account or population estimate.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

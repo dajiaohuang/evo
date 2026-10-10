@@ -9,7 +9,6 @@ records:
     name:
       zh: Latastia petersiana
       en: Latastia petersiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

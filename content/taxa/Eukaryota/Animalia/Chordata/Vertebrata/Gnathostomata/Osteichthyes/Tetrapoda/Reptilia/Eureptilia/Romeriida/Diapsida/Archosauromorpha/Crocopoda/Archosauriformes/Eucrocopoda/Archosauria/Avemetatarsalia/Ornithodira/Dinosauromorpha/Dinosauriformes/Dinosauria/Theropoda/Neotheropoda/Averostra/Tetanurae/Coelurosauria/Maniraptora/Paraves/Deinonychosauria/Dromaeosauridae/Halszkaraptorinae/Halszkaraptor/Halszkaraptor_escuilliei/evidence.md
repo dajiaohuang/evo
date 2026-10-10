@@ -9,7 +9,6 @@ records:
     name:
       zh: Halszkaraptor escuilliei
       en: Halszkaraptor escuilliei
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

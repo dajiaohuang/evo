@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis macrotis
       zh: Leptopelis macrotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

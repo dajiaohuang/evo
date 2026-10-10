@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodendrogale yunnanica
       en: Prodendrogale yunnanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

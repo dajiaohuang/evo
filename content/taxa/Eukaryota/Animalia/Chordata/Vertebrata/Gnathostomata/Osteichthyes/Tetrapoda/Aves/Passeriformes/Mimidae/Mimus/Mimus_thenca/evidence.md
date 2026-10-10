@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimus thenca
       en: Mimus thenca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

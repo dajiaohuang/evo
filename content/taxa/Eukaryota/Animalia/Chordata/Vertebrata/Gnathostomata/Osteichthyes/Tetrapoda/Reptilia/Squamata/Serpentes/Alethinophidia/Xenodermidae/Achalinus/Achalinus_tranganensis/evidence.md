@@ -9,7 +9,6 @@ records:
     name:
       zh: Achalinus tranganensis
       en: Achalinus tranganensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

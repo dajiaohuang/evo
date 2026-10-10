@@ -9,7 +9,6 @@ records:
     name:
       zh: Diceratherium marriottae
       en: Diceratherium marriottae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

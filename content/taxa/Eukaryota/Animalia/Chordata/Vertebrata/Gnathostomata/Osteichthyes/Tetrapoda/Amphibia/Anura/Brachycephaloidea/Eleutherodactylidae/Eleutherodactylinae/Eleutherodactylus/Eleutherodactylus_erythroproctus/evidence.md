@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus erythroproctus
       zh: Eleutherodactylus erythroproctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

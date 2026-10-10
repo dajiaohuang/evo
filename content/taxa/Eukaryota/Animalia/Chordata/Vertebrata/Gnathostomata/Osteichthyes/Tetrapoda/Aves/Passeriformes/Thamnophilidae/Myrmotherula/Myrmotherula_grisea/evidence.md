@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmotherula grisea
       en: Myrmotherula grisea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

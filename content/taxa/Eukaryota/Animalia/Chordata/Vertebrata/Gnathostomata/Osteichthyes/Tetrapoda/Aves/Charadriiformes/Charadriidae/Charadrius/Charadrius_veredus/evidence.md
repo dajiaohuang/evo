@@ -9,7 +9,6 @@ records:
     name:
       zh: Charadrius veredus
       en: Charadrius veredus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

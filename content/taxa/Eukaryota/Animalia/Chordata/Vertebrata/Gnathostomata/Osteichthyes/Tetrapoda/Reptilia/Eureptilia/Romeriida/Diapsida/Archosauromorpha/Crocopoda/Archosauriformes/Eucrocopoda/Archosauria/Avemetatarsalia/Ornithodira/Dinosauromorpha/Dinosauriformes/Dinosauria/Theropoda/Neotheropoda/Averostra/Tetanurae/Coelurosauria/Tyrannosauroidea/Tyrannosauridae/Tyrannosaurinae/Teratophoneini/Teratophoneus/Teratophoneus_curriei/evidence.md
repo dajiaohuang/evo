@@ -9,7 +9,6 @@ records:
     name:
       zh: Teratophoneus curriei
       en: Teratophoneus curriei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

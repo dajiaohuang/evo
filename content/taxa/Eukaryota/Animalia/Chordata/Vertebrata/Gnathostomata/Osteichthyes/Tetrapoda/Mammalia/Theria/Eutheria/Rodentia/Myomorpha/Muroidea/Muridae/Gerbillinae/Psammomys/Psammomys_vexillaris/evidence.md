@@ -9,7 +9,6 @@ records:
     name:
       zh: Psammomys vexillaris
       en: Psammomys vexillaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

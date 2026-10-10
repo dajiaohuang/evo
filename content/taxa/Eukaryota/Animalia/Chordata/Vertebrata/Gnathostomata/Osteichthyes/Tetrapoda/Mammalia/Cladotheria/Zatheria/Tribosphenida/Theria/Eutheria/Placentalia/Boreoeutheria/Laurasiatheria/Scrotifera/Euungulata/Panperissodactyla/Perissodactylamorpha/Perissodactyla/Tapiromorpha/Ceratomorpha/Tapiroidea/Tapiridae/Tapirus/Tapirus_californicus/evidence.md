@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapirus californicus
       en: Tapirus californicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates flaviventris
       zh: Allobates flaviventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

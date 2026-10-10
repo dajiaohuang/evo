@@ -9,7 +9,6 @@ records:
     name:
       zh: Belgirallus minutus
       en: Belgirallus minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

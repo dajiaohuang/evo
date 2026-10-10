@@ -9,7 +9,6 @@ records:
     name:
       zh: 格雷运动狐猴
       en: Gray's Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: population-level taxonomy

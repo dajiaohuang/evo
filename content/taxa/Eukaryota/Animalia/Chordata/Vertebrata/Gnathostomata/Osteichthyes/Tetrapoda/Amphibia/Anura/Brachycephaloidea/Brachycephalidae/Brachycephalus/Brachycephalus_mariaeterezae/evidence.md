@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus mariaeterezae
       zh: Brachycephalus mariaeterezae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea teotepec
       zh: Pseudoeurycea teotepec
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

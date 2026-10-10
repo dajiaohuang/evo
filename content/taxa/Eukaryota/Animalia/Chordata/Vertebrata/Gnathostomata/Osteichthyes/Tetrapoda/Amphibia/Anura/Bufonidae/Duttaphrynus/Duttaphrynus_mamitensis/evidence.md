@@ -9,7 +9,6 @@ records:
     name:
       en: Duttaphrynus mamitensis
       zh: Duttaphrynus mamitensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

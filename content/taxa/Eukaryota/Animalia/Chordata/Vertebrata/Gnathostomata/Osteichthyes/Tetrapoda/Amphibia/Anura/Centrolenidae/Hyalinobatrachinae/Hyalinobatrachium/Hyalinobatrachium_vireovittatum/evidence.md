@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium vireovittatum
       zh: Hyalinobatrachium vireovittatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protypotherium antiquum
       en: Protypotherium antiquum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Damaliscus korrigum
       en: Damaliscus korrigum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

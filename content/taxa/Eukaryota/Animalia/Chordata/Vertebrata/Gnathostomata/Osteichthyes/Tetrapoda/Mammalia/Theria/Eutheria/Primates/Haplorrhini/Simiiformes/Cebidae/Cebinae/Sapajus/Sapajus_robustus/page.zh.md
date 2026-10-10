@@ -22,5 +22,5 @@ Martins 等人在巴西 Espírito Santo 州 Reserva Natural Vale 研究一群可
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-有来源的局地猴群研究导读，尚未经过外部领域专家评审。证据来自一处受保护地点、一个可利用栽培果实的猴群，不应外推至所有群体或全分布区。
+有来源的局地猴群研究导读。证据来自一处受保护地点、一个可利用栽培果实的猴群，不应外推至所有群体或全分布区。
 <!-- /evo:text -->

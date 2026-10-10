@@ -9,7 +9,6 @@ records:
     name:
       zh: Jucha squalea
       en: Jucha squalea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

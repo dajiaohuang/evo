@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates otilophus
       zh: Polypedates otilophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

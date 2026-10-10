@@ -9,7 +9,6 @@ records:
     name:
       en: Amerana aurora
       zh: Amerana aurora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

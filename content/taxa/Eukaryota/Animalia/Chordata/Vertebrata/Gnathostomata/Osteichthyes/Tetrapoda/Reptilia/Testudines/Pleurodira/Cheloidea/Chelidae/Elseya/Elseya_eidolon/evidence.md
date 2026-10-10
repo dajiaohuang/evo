@@ -9,7 +9,6 @@ records:
     name:
       zh: Elseya eidolon
       en: Elseya eidolon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

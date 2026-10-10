@@ -9,7 +9,6 @@ records:
     name:
       zh: Foxemys trabanti
       en: Foxemys trabanti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pheugopedius rutilus
       en: Pheugopedius rutilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

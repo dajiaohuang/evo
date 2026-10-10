@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimorphodon lyrophanes
       en: Trimorphodon lyrophanes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rauisuchus tiradentes
       en: Rauisuchus tiradentes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

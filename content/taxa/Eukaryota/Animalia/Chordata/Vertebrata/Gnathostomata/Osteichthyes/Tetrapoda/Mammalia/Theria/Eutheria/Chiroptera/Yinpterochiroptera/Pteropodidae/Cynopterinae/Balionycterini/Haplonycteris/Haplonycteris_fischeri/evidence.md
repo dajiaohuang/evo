@@ -9,7 +9,6 @@ records:
     name:
       zh: Haplonycteris fischeri
       en: Haplonycteris fischeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus silus
       zh: Pseudophilautus silus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

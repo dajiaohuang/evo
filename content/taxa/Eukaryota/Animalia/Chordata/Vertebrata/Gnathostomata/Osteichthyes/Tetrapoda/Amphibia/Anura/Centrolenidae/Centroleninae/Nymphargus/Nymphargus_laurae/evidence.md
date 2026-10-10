@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus laurae
       zh: Nymphargus laurae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

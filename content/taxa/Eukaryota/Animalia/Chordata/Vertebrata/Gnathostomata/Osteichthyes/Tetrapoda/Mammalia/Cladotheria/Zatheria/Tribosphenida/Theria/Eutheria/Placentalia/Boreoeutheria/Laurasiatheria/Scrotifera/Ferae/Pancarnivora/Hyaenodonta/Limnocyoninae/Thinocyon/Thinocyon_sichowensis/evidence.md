@@ -9,7 +9,6 @@ records:
     name:
       zh: Thinocyon sichowensis
       en: Thinocyon sichowensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -10,7 +10,6 @@ records:
     name:
       en: Pig-tailed Langur
       zh: 豚尾叶猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

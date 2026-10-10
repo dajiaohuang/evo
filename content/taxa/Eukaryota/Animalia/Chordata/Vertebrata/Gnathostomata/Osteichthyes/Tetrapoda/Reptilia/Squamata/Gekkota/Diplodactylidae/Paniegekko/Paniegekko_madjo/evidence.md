@@ -9,7 +9,6 @@ records:
     name:
       zh: Paniegekko madjo
       en: Paniegekko madjo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

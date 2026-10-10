@@ -9,7 +9,6 @@ records:
     name:
       zh: Caririemys violetae
       en: Caririemys violetae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

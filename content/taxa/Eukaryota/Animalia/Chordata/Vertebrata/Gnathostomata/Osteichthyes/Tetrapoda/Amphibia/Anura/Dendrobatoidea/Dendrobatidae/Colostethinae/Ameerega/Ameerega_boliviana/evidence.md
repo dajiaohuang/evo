@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega boliviana
       zh: Ameerega boliviana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Perutherium altiplanense
       en: Perutherium altiplanense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dianomys qujingensis
       en: Dianomys qujingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

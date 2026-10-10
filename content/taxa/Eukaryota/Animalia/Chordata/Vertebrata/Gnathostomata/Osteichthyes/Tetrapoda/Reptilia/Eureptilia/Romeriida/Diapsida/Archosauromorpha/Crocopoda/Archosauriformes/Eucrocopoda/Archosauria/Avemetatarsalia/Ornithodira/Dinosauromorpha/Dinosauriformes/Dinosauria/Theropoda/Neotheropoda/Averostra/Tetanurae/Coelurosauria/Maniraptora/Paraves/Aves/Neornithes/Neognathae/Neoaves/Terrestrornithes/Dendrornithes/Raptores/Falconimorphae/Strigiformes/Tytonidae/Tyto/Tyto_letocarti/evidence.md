@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyto letocarti
       en: Tyto letocarti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

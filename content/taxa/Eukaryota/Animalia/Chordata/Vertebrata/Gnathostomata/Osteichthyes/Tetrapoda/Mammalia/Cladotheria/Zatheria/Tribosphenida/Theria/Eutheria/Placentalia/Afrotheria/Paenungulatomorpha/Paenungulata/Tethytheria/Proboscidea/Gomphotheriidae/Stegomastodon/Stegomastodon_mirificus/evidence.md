@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegomastodon mirificus
       en: Stegomastodon mirificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

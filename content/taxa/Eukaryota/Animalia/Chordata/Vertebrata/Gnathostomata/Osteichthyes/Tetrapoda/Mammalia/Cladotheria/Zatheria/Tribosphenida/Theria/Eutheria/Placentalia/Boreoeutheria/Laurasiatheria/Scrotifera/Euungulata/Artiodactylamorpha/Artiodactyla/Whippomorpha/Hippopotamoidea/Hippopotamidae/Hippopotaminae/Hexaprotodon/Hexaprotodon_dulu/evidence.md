@@ -9,7 +9,6 @@ records:
     name:
       zh: Hexaprotodon dulu
       en: Hexaprotodon dulu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

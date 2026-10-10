@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhabdophis auriculatus
       en: Rhabdophis auriculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

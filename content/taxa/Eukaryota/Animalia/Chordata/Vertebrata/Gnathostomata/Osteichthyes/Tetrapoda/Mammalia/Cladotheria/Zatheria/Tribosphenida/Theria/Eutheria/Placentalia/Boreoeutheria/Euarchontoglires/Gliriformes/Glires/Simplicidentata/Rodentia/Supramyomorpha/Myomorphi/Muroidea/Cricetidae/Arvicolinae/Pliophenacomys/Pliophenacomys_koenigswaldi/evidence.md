@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliophenacomys koenigswaldi
       en: Pliophenacomys koenigswaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

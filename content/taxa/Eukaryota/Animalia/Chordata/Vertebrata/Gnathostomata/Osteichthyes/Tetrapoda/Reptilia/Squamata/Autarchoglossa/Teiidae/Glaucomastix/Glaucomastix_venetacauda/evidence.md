@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucomastix venetacauda
       en: Glaucomastix venetacauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

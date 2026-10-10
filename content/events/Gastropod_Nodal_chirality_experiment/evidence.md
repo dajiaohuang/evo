@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: grande-patel-2009-snail-nodal DOI-linked primary source
       referenceLinks:
         - referenceId: grande-patel-2009-snail-nodal
           relation: supports

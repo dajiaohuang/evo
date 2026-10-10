@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiocephalus varius
       en: Leiocephalus varius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

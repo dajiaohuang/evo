@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius tanneri
       zh: Hyperolius tanneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

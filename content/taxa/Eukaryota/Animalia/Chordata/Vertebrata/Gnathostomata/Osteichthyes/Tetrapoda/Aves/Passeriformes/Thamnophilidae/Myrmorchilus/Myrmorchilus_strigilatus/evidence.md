@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmorchilus strigilatus
       en: Myrmorchilus strigilatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

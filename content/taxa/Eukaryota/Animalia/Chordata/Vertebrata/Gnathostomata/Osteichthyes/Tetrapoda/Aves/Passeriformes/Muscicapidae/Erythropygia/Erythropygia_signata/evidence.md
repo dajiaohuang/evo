@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythropygia signata
       en: Erythropygia signata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

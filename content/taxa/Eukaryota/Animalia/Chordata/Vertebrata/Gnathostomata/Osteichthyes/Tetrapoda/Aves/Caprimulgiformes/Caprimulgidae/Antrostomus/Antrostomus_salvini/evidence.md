@@ -9,7 +9,6 @@ records:
     name:
       zh: Antrostomus salvini
       en: Antrostomus salvini
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

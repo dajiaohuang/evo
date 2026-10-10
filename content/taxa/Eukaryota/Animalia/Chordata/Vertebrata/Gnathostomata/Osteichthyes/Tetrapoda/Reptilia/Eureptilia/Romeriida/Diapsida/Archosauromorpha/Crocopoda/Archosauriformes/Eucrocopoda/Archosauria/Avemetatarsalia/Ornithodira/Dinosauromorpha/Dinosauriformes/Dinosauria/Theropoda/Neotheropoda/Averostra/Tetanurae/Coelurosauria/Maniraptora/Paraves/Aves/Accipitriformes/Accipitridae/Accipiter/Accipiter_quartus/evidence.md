@@ -9,7 +9,6 @@ records:
     name:
       zh: Accipiter quartus
       en: Accipiter quartus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

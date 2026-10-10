@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis tinguichaca
       zh: Pristimantis tinguichaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

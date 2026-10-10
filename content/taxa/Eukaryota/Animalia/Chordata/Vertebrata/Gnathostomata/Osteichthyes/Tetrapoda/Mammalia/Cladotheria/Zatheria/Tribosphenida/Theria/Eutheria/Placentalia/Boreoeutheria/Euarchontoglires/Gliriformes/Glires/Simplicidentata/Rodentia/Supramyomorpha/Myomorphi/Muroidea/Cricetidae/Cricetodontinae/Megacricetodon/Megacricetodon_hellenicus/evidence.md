@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacricetodon hellenicus
       en: Megacricetodon hellenicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

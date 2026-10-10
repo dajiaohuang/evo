@@ -9,7 +9,6 @@ records:
     name:
       zh: Puffinus yelkouan
       en: Puffinus yelkouan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

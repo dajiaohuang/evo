@@ -9,7 +9,6 @@ records:
     name:
       en: Synapturanus mesomorphus
       zh: Synapturanus mesomorphus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

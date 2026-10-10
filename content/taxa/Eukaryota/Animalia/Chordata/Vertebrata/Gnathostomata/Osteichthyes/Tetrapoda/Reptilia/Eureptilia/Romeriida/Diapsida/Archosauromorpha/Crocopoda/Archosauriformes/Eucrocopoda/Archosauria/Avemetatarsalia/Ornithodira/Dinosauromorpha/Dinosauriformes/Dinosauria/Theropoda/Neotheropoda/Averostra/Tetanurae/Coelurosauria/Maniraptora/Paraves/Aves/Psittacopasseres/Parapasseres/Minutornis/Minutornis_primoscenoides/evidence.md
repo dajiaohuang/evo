@@ -9,7 +9,6 @@ records:
     name:
       zh: Minutornis primoscenoides
       en: Minutornis primoscenoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

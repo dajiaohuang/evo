@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-未经过外部领域专家评审。材料只来自莱特岛一个林地碎片的短期研究；个体数无法确认，种群存续能力未知，不能外推至该种全部分布区。
+。材料只来自莱特岛一个林地碎片的短期研究；个体数无法确认，种群存续能力未知，不能外推至该种全部分布区。
 <!-- /evo:text -->

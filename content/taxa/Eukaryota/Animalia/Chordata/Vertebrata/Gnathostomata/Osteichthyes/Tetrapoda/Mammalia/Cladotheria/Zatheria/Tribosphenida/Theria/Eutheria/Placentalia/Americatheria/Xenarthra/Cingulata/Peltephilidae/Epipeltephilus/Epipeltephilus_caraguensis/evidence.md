@@ -9,7 +9,6 @@ records:
     name:
       zh: Epipeltephilus caraguensis
       en: Epipeltephilus caraguensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

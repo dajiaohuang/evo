@@ -9,7 +9,6 @@ records:
     name:
       zh: Pycnonotus finlaysoni
       en: Pycnonotus finlaysoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

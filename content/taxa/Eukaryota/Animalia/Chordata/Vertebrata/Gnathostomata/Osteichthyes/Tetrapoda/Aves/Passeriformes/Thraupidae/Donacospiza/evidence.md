@@ -9,7 +9,6 @@ records:
     name:
       zh: Donacospiza
       en: Donacospiza
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

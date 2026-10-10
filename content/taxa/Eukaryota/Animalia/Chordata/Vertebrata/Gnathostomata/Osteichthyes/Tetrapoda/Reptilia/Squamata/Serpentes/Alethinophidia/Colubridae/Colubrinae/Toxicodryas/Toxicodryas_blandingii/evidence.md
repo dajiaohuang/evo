@@ -9,7 +9,6 @@ records:
     name:
       zh: Toxicodryas blandingii
       en: Toxicodryas blandingii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

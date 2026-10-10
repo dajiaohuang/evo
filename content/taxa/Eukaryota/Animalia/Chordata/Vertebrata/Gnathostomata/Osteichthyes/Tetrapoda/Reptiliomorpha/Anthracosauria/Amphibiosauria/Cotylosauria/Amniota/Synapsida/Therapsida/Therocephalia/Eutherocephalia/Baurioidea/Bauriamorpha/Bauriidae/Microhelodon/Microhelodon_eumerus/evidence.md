@@ -9,7 +9,6 @@ records:
     name:
       zh: Microhelodon eumerus
       en: Microhelodon eumerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

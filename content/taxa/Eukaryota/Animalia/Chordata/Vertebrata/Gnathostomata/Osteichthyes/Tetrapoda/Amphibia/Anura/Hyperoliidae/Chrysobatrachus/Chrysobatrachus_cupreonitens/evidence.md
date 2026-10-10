@@ -9,7 +9,6 @@ records:
     name:
       en: Chrysobatrachus cupreonitens
       zh: Chrysobatrachus cupreonitens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

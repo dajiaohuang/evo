@@ -9,7 +9,6 @@ records:
     name:
       zh: Notomeryx besensis
       en: Notomeryx besensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

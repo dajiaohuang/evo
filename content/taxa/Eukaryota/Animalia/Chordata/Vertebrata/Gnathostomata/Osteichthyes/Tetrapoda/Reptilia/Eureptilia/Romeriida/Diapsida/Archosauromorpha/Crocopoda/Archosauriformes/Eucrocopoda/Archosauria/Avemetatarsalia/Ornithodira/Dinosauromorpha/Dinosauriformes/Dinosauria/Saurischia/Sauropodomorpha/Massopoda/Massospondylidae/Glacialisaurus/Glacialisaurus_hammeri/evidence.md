@@ -9,7 +9,6 @@ records:
     name:
       zh: Glacialisaurus hammeri
       en: Glacialisaurus hammeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiosminthus xiningensis
       en: Plesiosminthus xiningensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

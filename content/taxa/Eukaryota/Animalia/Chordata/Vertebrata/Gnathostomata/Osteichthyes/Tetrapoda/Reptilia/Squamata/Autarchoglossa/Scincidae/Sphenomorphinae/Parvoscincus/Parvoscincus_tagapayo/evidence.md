@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvoscincus tagapayo
       en: Parvoscincus tagapayo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

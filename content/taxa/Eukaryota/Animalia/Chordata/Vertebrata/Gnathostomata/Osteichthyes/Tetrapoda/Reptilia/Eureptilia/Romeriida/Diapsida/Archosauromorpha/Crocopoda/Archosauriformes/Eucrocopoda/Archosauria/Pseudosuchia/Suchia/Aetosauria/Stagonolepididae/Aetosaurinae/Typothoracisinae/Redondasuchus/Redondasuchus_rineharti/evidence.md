@@ -9,7 +9,6 @@ records:
     name:
       zh: Redondasuchus rineharti
       en: Redondasuchus rineharti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

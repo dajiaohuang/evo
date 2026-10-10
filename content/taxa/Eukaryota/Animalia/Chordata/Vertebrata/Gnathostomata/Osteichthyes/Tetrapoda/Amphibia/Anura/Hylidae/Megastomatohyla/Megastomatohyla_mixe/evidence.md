@@ -9,7 +9,6 @@ records:
     name:
       en: Megastomatohyla mixe
       zh: Megastomatohyla mixe
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

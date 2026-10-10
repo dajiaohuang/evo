@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla feioi
       zh: Bokermannohyla feioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Piscivorenantiornis inusitatus
       en: Piscivorenantiornis inusitatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

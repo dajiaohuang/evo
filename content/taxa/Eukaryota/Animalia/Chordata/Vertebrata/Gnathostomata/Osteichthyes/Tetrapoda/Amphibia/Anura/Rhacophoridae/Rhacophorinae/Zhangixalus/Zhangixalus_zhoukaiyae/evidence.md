@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus zhoukaiyae
       zh: Zhangixalus zhoukaiyae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

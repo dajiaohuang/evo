@@ -9,7 +9,6 @@ records:
     name:
       zh: Sansanosmilus jourdani
       en: Sansanosmilus jourdani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

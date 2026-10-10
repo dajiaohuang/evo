@@ -9,7 +9,6 @@ records:
     name:
       zh: Deinogalerix koenigswaldi
       en: Deinogalerix koenigswaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

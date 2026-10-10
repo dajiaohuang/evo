@@ -9,7 +9,6 @@ records:
     name:
       en: Occidozyga laevis
       zh: Occidozyga laevis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Salamandra infraimmaculata
       zh: Salamandra infraimmaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

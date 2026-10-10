@@ -9,7 +9,6 @@ records:
     name:
       zh: Brasiliscincus caissara
       en: Brasiliscincus caissara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

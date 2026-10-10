@@ -9,7 +9,6 @@ records:
     name:
       zh: Anachronornis anhimops
       en: Anachronornis anhimops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

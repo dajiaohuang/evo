@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus harlequin
       zh: Atelopus harlequin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

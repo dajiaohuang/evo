@@ -9,7 +9,6 @@ records:
     name:
       zh: Probosciger aterrimus
       en: Probosciger aterrimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

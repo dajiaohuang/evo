@@ -9,7 +9,6 @@ records:
     name:
       en: Southern Gray Gibbon
       zh: 南部灰长臂猿
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: behaviour

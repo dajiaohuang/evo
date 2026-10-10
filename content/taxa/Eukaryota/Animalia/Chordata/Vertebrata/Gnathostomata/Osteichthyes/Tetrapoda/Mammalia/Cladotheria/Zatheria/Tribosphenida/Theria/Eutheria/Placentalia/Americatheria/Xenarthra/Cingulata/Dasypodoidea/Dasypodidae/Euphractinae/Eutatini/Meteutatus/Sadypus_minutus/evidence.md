@@ -9,7 +9,6 @@ records:
     name:
       zh: Sadypus minutus
       en: Sadypus minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Boissonneaua jardini
       en: Boissonneaua jardini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

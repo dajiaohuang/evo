@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus
       zh: Phrynopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

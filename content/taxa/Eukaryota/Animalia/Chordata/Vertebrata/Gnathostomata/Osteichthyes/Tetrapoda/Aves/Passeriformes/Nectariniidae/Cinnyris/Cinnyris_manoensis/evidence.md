@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris manoensis
       en: Cinnyris manoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

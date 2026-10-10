@@ -9,7 +9,6 @@ records:
     name:
       zh: Dactylosaurus gracilis
       en: Dactylosaurus gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

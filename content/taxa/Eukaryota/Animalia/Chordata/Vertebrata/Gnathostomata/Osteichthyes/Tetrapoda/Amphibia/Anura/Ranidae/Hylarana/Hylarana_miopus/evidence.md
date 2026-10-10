@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana miopus
       zh: Hylarana miopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Entoptychus productidens
       en: Entoptychus productidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

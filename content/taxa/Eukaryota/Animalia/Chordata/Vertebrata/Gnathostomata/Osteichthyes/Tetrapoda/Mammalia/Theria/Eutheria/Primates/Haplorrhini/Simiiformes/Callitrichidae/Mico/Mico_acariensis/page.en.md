@@ -22,5 +22,5 @@ The same paper proposed from locality records and regional geomorphology that th
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. The range is a regional delineation based on a few occurrence records; the possible contact zone and hybridization remain hypotheses without documented hybrids or gene flow.
+Source-linked introduction;. The range is a regional delineation based on a few occurrence records; the possible contact zone and hybridization remain hypotheses without documented hybrids or gene flow.
 <!-- /evo:text -->

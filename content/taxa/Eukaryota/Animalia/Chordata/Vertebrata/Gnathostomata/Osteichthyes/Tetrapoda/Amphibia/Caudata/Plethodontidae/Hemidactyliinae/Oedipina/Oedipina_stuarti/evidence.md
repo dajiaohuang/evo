@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina stuarti
       zh: Oedipina stuarti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

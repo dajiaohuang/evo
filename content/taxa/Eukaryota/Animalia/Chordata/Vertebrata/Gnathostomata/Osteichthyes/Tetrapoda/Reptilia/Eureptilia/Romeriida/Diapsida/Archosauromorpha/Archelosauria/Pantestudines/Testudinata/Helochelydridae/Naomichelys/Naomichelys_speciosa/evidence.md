@@ -9,7 +9,6 @@ records:
     name:
       zh: Naomichelys speciosa
       en: Naomichelys speciosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

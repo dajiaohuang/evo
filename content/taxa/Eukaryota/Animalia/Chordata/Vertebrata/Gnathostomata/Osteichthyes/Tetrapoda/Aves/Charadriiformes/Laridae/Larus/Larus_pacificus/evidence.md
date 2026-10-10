@@ -9,7 +9,6 @@ records:
     name:
       zh: Larus pacificus
       en: Larus pacificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hemiphractus johnsoni
       zh: Hemiphractus johnsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

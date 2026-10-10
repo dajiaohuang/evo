@@ -9,7 +9,6 @@ records:
     name:
       zh: Dimetrodon giganhomogenes
       en: Dimetrodon giganhomogenes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

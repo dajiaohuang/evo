@@ -9,7 +9,6 @@ records:
     name:
       zh: Myotis belgicus
       en: Myotis belgicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

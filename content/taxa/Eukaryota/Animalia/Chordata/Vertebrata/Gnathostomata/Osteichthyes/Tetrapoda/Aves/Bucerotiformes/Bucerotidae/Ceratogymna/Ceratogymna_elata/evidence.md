@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceratogymna elata
       en: Ceratogymna elata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

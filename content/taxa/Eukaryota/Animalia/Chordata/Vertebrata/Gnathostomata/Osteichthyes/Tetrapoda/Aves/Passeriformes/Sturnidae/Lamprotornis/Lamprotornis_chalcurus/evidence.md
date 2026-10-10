@@ -9,7 +9,6 @@ records:
     name:
       zh: Lamprotornis chalcurus
       en: Lamprotornis chalcurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

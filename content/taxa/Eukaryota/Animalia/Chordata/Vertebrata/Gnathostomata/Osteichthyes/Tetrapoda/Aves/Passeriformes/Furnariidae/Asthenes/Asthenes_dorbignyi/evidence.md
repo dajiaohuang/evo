@@ -9,7 +9,6 @@ records:
     name:
       zh: Asthenes dorbignyi
       en: Asthenes dorbignyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

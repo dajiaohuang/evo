@@ -9,7 +9,6 @@ records:
     name:
       zh: Homo floresiensis
       en: Homo floresiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

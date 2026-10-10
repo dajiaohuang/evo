@@ -9,7 +9,6 @@ records:
     name:
       zh: Neocricetodon polonicus
       en: Neocricetodon polonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

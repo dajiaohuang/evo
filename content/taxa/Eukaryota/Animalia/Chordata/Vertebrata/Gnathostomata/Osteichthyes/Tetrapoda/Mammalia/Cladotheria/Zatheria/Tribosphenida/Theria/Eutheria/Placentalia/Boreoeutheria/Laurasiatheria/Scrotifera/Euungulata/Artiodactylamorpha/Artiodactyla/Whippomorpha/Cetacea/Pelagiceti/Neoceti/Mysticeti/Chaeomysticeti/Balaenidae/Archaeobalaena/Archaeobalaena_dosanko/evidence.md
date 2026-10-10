@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeobalaena dosanko
       en: Archaeobalaena dosanko
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

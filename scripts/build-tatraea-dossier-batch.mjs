@@ -193,10 +193,10 @@ const records = species.map(item => ({
     reasons: [
       'Only one original taxonomic paper was reviewed; four facets have limited species-treatment claims and remain partial.',
       'Life history, fossils, and conservation remain not-assessed; no facet has a systematic literature and database search log.',
-      'The linked Index Fungorum identity is exact for this COL usage, but broad species-concept reconciliation and external expert review have not been completed.',
+      'The linked Index Fungorum identity is exact for this COL usage, but broad species-concept reconciliation has not been completed.',
     ],
   },
-  expertReview: { status: 'not-reviewed', reviewers: [] },
+
 }))
 
 const raw = Buffer.from(`${records.map(record => JSON.stringify(record)).join('\n')}\n`)

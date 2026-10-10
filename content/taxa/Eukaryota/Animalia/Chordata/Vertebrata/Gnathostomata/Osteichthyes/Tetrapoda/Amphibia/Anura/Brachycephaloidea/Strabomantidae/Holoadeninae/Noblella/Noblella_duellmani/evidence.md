@@ -9,7 +9,6 @@ records:
     name:
       en: Noblella duellmani
       zh: Noblella duellmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

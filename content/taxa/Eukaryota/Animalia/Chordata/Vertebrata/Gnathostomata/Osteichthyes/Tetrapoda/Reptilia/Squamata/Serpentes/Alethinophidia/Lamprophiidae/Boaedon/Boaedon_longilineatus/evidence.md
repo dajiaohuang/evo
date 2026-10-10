@@ -9,7 +9,6 @@ records:
     name:
       zh: Boaedon longilineatus
       en: Boaedon longilineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

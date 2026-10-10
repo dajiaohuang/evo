@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhamphiophis maradiensis
       en: Rhamphiophis maradiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

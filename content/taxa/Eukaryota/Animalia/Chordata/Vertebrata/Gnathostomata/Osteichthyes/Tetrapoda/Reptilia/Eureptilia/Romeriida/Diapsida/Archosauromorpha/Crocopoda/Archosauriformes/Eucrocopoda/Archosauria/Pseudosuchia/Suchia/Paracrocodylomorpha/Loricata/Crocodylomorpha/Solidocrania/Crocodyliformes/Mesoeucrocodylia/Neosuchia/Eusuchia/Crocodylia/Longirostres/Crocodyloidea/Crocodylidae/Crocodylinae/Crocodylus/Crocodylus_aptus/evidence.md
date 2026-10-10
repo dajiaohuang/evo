@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocodylus aptus
       en: Crocodylus aptus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

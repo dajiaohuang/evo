@@ -9,7 +9,6 @@ records:
     name:
       en: Golden-white Tassel-ear Marmoset
       zh: 金白簇耳绒猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

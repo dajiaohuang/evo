@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus chobiensis
       en: Lygodactylus chobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

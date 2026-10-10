@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates ranoides
       zh: Allobates ranoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

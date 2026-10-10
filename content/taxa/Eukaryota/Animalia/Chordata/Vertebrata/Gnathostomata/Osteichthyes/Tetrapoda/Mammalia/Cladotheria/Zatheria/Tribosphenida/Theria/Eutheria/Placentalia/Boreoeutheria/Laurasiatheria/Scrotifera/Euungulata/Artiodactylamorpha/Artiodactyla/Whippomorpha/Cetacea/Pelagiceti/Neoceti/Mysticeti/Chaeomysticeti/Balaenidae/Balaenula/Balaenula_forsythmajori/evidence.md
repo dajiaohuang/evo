@@ -9,7 +9,6 @@ records:
     name:
       zh: Balaenula forsythmajori
       en: Balaenula forsythmajori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

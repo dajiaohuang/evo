@@ -9,7 +9,6 @@ records:
     name:
       en: Foa's Red Colobus
       zh: 佛阿红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: historicalNameType

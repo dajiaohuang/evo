@@ -9,7 +9,6 @@ records:
     name:
       zh: Gracilocyon rosei
       en: Gracilocyon rosei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

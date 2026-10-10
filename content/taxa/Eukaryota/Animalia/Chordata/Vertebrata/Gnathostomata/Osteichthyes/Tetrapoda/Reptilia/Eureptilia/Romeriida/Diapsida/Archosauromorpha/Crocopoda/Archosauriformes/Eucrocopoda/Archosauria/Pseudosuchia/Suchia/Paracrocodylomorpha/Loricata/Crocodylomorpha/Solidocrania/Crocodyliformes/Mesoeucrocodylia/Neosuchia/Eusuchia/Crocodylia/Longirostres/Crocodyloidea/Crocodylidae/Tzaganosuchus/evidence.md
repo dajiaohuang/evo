@@ -9,7 +9,6 @@ records:
     name:
       zh: Tzaganosuchus
       en: Tzaganosuchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

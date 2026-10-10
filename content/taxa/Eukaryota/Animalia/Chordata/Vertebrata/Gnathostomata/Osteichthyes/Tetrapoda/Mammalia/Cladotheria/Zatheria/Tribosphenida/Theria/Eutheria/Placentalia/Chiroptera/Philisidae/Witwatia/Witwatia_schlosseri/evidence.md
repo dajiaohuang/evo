@@ -9,7 +9,6 @@ records:
     name:
       zh: Witwatia schlosseri
       en: Witwatia schlosseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -106,11 +106,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - relation: supports
           referenceId: giles-2017-ray-fin-timescale

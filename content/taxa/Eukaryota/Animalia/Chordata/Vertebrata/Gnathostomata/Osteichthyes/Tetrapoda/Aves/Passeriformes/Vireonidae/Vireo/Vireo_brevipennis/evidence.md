@@ -9,7 +9,6 @@ records:
     name:
       zh: Vireo brevipennis
       en: Vireo brevipennis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

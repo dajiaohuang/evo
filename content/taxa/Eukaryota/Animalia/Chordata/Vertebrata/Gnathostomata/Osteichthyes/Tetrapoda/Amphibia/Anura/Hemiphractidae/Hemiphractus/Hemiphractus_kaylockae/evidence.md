@@ -9,7 +9,6 @@ records:
     name:
       en: Hemiphractus kaylockae
       zh: Hemiphractus kaylockae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

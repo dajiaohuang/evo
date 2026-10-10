@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeolagus primus
       en: Palaeolagus primus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

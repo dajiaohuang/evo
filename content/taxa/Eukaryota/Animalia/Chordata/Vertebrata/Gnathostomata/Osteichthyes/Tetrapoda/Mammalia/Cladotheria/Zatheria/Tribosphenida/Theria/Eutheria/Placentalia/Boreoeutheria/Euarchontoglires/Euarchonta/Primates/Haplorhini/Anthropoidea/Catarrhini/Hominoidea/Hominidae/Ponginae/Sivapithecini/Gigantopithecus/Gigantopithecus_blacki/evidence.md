@@ -9,7 +9,6 @@ records:
     name:
       zh: Gigantopithecus blacki
       en: Gigantopithecus blacki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

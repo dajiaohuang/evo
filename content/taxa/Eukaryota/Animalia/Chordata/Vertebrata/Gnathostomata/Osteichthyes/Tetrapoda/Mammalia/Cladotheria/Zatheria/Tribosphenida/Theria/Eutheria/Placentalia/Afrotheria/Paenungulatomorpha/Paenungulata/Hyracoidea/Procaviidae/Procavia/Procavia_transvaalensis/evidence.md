@@ -9,7 +9,6 @@ records:
     name:
       zh: Procavia transvaalensis
       en: Procavia transvaalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

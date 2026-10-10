@@ -32,5 +32,5 @@ compares every canonical shard, descriptor and ledger byte-for-byte, and
 replays every projected source name, authorship, source ID, raw reference,
 and row locator against the original archive. This is a nomenclatural/source
 crosswalk, not a species-concept equivalence, biological dossier, fossil
-assessment, or expert review. No `rightsHolder` is asserted because the
+assessment. No `rightsHolder` is asserted because the
 source metadata does not provide one.

@@ -9,7 +9,6 @@ records:
     name:
       zh: Allodelphis woodburnei
       en: Allodelphis woodburnei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

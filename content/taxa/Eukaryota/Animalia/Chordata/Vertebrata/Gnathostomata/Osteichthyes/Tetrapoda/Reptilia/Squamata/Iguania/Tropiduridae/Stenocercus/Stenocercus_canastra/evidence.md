@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus canastra
       en: Stenocercus canastra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

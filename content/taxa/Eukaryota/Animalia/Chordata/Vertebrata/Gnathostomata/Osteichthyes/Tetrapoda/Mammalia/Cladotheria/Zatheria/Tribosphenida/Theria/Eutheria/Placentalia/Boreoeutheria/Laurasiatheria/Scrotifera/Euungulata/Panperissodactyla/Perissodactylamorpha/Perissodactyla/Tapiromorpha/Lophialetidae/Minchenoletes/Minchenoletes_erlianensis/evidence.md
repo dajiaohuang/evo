@@ -9,7 +9,6 @@ records:
     name:
       zh: Minchenoletes erlianensis
       en: Minchenoletes erlianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

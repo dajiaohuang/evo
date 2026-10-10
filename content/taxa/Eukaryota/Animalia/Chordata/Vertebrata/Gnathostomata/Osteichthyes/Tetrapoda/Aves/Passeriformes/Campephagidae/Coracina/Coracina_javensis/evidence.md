@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracina javensis
       en: Coracina javensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

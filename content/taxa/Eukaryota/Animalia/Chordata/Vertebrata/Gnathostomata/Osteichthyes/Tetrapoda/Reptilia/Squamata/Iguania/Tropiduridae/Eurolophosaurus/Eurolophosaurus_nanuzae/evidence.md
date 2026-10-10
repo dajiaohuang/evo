@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurolophosaurus nanuzae
       en: Eurolophosaurus nanuzae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

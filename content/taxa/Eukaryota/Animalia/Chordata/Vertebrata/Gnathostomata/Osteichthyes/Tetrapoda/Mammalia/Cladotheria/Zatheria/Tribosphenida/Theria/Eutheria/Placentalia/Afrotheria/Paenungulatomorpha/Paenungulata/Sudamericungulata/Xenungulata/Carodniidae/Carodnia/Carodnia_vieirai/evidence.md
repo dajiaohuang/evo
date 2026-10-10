@@ -9,7 +9,6 @@ records:
     name:
       zh: Carodnia vieirai
       en: Carodnia vieirai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

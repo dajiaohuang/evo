@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina gracilis
       zh: Oedipina gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Caryomys eva
       en: Caryomys eva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

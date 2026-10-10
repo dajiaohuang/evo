@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis daribokensis
       zh: Ichthyophis daribokensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

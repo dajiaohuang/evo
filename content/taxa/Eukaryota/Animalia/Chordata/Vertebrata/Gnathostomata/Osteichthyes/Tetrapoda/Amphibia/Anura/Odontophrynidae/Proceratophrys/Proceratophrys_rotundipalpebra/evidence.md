@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys rotundipalpebra
       zh: Proceratophrys rotundipalpebra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

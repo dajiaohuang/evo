@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus kansuensis
       en: Phylloscopus kansuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

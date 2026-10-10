@@ -9,7 +9,6 @@ records:
     name:
       zh: Megaptera novaeangliae
       en: Megaptera novaeangliae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

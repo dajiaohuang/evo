@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremophila bilopha
       en: Eremophila bilopha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

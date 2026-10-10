@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligospermophilus douglassi
       en: Oligospermophilus douglassi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

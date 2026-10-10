@@ -78,9 +78,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Rubinstein et al. 2010 DOI 10.1111/j.1469-8137.2010.03433.x
       referenceLinks:
         - relation: supports
           referenceId: rubinstein-2010-dapingian-cryptospores

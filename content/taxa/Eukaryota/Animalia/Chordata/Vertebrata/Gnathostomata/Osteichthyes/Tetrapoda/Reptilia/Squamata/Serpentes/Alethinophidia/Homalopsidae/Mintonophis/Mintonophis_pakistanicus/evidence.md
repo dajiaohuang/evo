@@ -9,7 +9,6 @@ records:
     name:
       zh: Mintonophis pakistanicus
       en: Mintonophis pakistanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

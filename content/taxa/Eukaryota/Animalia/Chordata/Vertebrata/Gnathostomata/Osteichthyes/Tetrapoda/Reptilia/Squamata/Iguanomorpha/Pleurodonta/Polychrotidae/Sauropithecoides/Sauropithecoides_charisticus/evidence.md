@@ -9,7 +9,6 @@ records:
     name:
       zh: Sauropithecoides charisticus
       en: Sauropithecoides charisticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

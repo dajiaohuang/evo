@@ -9,7 +9,6 @@ records:
     name:
       zh: Dacquemys paleomorpha
       en: Dacquemys paleomorpha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hypopachus pictiventris
       zh: Hypopachus pictiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

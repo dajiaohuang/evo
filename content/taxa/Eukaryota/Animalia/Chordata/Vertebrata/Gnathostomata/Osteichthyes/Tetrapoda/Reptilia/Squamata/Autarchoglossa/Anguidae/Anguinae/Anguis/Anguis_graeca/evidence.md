@@ -9,7 +9,6 @@ records:
     name:
       zh: Anguis graeca
       en: Anguis graeca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

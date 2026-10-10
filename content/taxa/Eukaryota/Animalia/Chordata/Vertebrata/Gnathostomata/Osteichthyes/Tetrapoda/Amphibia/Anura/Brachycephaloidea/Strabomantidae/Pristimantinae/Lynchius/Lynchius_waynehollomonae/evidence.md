@@ -9,7 +9,6 @@ records:
     name:
       en: Lynchius waynehollomonae
       zh: Lynchius waynehollomonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

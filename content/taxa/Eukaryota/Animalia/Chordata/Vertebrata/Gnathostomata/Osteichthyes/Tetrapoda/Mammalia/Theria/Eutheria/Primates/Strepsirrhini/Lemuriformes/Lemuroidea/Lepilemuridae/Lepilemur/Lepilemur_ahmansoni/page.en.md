@@ -22,5 +22,5 @@ The type locality is Tsiombikibo Classified Forest, west of the Mahavavy River i
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This guide paraphrases the 2006 description and its type series of three animals; it does not establish a present-day range, abundance, or conservation status. The COL26.8 accepted name is retained. The Chinese common name is an editorial translation, and the guide is not externally expert-reviewed.
+This guide paraphrases the 2006 description and its type series of three animals; it does not establish a present-day range, abundance, or conservation status. The COL26.8 accepted name is retained. The Chinese common name is an editorial translation, and the guide is.
 <!-- /evo:text -->

@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-正文限于原始北部/西北部分类研究和类型地点；现今完整分布、生态、丰度与保育状态未评估。 本页尚未经过外部领域专家评审。
+正文限于原始北部/西北部分类研究和类型地点；现今完整分布、生态、丰度与保育状态未评估。 。
 <!-- /evo:text -->

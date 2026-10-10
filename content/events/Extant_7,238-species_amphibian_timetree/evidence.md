@@ -87,9 +87,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Jetz and Pyron 2018 DOI 10.1038/s41559-018-0515-5; Dryad DOI 10.5061/dryad.cc3n6j5
       referenceLinks:
         - relation: supports
           referenceId: jetz-2018-amphibian-tree

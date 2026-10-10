@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodicynodon beaufortensis
       en: Prodicynodon beaufortensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

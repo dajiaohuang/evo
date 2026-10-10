@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus timbeba
       zh: Dendropsophus timbeba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

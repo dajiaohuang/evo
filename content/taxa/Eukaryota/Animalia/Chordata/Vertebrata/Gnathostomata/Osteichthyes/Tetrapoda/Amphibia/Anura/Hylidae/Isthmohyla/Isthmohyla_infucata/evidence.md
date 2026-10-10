@@ -9,7 +9,6 @@ records:
     name:
       en: Isthmohyla infucata
       zh: Isthmohyla infucata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

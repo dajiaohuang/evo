@@ -9,7 +9,6 @@ records:
     name:
       zh: Sparassocynus derivatus
       en: Sparassocynus derivatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

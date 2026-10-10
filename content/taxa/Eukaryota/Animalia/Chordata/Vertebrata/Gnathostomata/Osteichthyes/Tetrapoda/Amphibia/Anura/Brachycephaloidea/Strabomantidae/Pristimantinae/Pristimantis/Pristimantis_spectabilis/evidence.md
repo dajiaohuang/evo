@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis spectabilis
       zh: Pristimantis spectabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

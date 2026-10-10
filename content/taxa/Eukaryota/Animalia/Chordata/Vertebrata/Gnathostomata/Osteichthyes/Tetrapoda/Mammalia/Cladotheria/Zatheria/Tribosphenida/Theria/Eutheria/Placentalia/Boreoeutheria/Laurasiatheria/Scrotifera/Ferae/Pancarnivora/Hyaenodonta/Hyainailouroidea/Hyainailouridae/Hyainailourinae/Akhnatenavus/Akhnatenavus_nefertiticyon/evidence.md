@@ -9,7 +9,6 @@ records:
     name:
       zh: Akhnatenavus nefertiticyon
       en: Akhnatenavus nefertiticyon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

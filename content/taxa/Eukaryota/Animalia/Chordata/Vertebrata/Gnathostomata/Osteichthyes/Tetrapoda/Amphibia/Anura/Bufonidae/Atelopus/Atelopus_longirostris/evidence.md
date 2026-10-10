@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus longirostris
       zh: Atelopus longirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

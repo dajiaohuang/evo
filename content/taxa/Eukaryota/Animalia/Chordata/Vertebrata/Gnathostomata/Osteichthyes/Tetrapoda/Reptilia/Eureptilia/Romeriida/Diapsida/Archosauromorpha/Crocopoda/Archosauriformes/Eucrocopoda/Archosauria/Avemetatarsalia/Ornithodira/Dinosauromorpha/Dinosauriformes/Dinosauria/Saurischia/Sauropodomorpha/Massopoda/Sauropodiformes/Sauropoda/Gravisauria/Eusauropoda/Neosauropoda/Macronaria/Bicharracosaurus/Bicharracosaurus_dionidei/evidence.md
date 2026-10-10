@@ -9,7 +9,6 @@ records:
     name:
       zh: Bicharracosaurus dionidei
       en: Bicharracosaurus dionidei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

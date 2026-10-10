@@ -9,7 +9,6 @@ records:
     name:
       zh: Aurorachelys gaffneyi
       en: Aurorachelys gaffneyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

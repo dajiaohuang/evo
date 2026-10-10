@@ -9,7 +9,6 @@ records:
     name:
       en: Paedophryne dekot
       zh: Paedophryne dekot
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

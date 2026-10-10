@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosaurosphargis yingzishanensis
       en: Prosaurosphargis yingzishanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pessopteryx nisseri
       en: Pessopteryx nisseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

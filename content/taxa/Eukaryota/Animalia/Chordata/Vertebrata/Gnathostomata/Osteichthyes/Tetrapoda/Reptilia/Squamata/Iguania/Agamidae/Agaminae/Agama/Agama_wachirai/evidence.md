@@ -9,7 +9,6 @@ records:
     name:
       zh: Agama wachirai
       en: Agama wachirai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

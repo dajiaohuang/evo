@@ -9,7 +9,6 @@ records:
     name:
       zh: Untermannerix copiosus
       en: Untermannerix copiosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

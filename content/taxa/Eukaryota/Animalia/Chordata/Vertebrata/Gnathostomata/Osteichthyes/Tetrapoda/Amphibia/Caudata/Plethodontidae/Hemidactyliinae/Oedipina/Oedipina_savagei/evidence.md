@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina savagei
       zh: Oedipina savagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

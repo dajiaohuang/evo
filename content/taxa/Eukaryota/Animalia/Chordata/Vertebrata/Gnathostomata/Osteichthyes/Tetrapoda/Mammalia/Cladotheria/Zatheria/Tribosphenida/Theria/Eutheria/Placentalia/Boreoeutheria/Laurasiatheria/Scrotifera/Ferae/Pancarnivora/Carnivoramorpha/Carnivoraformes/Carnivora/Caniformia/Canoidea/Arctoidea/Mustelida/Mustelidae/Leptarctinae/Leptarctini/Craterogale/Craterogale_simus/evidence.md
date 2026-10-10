@@ -9,7 +9,6 @@ records:
     name:
       zh: Craterogale simus
       en: Craterogale simus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

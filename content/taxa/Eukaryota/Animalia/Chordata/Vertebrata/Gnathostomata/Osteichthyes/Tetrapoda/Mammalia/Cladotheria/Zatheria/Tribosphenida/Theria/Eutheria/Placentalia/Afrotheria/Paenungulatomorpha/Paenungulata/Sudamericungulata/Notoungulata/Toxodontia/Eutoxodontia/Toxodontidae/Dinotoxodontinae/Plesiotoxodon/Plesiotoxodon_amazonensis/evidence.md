@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiotoxodon amazonensis
       en: Plesiotoxodon amazonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vectisuchus leptognathus
       en: Vectisuchus leptognathus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

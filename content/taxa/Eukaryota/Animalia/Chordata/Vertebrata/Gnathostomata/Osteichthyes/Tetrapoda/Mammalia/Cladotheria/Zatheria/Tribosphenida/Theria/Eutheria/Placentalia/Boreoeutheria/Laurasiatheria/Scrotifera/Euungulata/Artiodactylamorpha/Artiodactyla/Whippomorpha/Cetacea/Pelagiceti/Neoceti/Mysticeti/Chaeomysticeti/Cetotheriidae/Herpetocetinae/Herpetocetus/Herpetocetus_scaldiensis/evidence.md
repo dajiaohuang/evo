@@ -9,7 +9,6 @@ records:
     name:
       zh: Herpetocetus scaldiensis
       en: Herpetocetus scaldiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

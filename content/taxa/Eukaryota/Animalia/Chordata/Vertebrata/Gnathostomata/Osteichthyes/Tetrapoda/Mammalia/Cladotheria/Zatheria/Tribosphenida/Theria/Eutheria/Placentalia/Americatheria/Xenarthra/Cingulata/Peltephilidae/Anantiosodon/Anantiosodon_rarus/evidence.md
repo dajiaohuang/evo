@@ -9,7 +9,6 @@ records:
     name:
       zh: Anantiosodon rarus
       en: Anantiosodon rarus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

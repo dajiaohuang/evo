@@ -9,7 +9,6 @@ records:
     name:
       en: Mannophryne leonardoi
       zh: Mannophryne leonardoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

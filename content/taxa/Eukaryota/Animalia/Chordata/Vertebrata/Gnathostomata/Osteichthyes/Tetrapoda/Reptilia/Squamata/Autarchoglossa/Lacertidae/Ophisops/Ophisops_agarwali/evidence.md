@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophisops agarwali
       en: Ophisops agarwali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

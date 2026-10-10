@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnohyla vocivincens
       zh: Ischnohyla vocivincens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

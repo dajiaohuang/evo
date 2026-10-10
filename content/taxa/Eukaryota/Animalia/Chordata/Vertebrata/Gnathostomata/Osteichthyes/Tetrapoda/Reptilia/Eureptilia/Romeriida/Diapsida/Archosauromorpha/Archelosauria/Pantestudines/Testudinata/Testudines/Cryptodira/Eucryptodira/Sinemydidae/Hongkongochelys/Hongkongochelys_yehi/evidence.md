@@ -9,7 +9,6 @@ records:
     name:
       zh: Hongkongochelys yehi
       en: Hongkongochelys yehi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

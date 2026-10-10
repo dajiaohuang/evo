@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhogeessa io
       en: Rhogeessa io
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

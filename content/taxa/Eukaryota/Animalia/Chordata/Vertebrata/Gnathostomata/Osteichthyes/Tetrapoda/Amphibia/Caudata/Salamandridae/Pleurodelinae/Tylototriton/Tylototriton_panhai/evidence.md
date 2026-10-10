@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton panhai
       zh: Tylototriton panhai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

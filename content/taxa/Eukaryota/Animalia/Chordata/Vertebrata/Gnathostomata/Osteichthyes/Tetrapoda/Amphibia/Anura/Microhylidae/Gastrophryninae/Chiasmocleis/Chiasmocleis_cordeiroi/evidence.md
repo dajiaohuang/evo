@@ -9,7 +9,6 @@ records:
     name:
       en: Chiasmocleis cordeiroi
       zh: Chiasmocleis cordeiroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

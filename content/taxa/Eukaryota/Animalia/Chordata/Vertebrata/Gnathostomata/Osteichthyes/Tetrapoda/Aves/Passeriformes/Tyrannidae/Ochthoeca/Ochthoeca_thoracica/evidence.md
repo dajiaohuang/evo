@@ -9,7 +9,6 @@ records:
     name:
       zh: Ochthoeca thoracica
       en: Ochthoeca thoracica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

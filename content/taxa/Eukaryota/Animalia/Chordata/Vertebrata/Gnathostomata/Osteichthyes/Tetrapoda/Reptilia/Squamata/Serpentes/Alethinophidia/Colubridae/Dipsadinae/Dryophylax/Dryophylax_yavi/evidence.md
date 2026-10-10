@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryophylax yavi
       en: Dryophylax yavi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

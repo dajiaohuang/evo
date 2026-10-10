@@ -22,5 +22,5 @@ The paper then knew the species from the Anjiamangirana region, south of the Mah
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The source is a 2006 description whose range and variation are bounded by the sampling then available; it gives no present-day abundance or conservation trend. The COL26.8 accepted name is retained. The Chinese common name is editorial; this guide is not externally expert-reviewed.
+The source is a 2006 description whose range and variation are bounded by the sampling then available; it gives no present-day abundance or conservation trend. The COL26.8 accepted name is retained. The Chinese common name is editorial; this guide is.
 <!-- /evo:text -->

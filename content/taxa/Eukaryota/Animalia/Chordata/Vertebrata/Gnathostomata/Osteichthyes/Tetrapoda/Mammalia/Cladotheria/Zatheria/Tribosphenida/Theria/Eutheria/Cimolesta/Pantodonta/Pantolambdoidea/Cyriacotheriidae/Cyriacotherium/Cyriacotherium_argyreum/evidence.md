@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyriacotherium argyreum
       en: Cyriacotherium argyreum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

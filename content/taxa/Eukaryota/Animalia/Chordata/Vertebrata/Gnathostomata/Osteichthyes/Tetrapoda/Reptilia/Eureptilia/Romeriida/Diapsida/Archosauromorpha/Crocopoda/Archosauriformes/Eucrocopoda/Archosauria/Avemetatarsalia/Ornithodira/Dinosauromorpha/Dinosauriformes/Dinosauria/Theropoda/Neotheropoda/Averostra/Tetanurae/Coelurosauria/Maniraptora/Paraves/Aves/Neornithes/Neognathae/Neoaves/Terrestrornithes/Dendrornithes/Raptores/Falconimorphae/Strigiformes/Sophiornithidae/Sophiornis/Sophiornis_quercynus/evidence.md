@@ -9,7 +9,6 @@ records:
     name:
       zh: Sophiornis quercynus
       en: Sophiornis quercynus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

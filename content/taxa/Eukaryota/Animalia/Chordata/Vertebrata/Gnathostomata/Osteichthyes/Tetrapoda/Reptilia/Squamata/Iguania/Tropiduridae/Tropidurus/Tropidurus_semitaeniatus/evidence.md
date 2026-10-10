@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidurus semitaeniatus
       en: Tropidurus semitaeniatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

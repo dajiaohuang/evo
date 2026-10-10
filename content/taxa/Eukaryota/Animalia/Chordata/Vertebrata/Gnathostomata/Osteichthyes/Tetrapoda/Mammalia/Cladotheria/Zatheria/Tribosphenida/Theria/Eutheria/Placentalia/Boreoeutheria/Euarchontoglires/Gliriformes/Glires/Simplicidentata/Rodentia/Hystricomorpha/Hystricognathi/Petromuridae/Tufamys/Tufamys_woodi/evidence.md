@@ -9,7 +9,6 @@ records:
     name:
       zh: Tufamys woodi
       en: Tufamys woodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

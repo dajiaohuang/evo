@@ -9,7 +9,6 @@ records:
     name:
       zh: 希勒蜂猴
       en: Hiller's Slow Loris
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

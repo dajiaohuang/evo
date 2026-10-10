@@ -9,7 +9,6 @@ records:
     name:
       zh: Baluchimys chaudryi
       en: Baluchimys chaudryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

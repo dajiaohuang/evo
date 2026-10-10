@@ -9,7 +9,6 @@ records:
     name:
       en: Papuahyla louisiadensis
       zh: Papuahyla louisiadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

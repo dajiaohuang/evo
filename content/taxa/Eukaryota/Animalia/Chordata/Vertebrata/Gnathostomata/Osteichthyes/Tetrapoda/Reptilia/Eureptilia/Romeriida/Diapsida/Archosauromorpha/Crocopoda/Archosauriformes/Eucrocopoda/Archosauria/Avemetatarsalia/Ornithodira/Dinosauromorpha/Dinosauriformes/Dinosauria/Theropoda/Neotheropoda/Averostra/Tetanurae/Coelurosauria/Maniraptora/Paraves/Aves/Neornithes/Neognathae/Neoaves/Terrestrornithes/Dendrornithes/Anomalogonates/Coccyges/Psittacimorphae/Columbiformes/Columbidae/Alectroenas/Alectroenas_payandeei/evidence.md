@@ -9,7 +9,6 @@ records:
     name:
       zh: Alectroenas payandeei
       en: Alectroenas payandeei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

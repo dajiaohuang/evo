@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimantis arapapa
       zh: Nyctimantis arapapa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

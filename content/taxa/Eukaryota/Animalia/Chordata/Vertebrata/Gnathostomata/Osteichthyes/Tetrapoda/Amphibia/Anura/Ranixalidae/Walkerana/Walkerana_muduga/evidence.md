@@ -9,7 +9,6 @@ records:
     name:
       en: Walkerana muduga
       zh: Walkerana muduga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

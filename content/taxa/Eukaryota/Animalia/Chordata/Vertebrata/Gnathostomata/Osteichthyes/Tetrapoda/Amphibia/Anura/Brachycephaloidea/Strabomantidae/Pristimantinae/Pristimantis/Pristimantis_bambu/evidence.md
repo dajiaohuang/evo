@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis bambu
       zh: Pristimantis bambu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

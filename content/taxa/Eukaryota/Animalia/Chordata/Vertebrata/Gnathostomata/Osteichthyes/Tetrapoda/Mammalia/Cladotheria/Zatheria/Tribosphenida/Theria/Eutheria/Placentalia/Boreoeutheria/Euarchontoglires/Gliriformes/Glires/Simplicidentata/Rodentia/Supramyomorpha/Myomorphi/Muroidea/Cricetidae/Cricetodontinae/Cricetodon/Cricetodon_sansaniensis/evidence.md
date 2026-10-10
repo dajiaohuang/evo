@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricetodon sansaniensis
       en: Cricetodon sansaniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

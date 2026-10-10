@@ -9,7 +9,6 @@ records:
     name:
       zh: Antrostomus badius
       en: Antrostomus badius
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

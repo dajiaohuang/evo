@@ -9,7 +9,6 @@ records:
     name:
       zh: Lankascincus sripadensis
       en: Lankascincus sripadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

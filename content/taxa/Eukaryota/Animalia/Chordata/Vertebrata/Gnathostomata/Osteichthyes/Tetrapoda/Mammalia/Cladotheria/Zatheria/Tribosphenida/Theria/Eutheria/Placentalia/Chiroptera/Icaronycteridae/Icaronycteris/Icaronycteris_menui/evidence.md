@@ -9,7 +9,6 @@ records:
     name:
       zh: Icaronycteris menui
       en: Icaronycteris menui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

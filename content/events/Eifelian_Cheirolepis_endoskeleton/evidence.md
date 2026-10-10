@@ -125,9 +125,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Giles et al. 2015 DOI 10.1111/pala.12182; Dryad DOI 10.5061/dryad.8bs2b
       referenceLinks:
         - relation: supports
           referenceId: giles-2015-cheirolepis-endoskeleton

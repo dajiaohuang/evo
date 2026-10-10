@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis relictus
       zh: Pristimantis relictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

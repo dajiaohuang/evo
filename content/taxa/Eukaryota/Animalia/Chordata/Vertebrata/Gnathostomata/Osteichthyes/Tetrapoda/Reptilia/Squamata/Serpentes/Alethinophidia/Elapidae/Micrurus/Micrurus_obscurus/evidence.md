@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrurus obscurus
       en: Micrurus obscurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis avius
       zh: Pristimantis avius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

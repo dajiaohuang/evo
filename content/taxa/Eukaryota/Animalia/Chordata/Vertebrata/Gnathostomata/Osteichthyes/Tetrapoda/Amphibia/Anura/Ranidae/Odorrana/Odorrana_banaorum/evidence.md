@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana banaorum
       zh: Odorrana banaorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

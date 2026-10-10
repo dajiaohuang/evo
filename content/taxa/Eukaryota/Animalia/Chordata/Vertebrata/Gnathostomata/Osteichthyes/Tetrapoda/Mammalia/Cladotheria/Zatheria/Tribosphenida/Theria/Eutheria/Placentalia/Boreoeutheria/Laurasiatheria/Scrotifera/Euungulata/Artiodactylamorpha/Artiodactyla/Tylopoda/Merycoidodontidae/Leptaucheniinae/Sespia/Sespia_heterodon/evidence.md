@@ -9,7 +9,6 @@ records:
     name:
       zh: Sespia heterodon
       en: Sespia heterodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

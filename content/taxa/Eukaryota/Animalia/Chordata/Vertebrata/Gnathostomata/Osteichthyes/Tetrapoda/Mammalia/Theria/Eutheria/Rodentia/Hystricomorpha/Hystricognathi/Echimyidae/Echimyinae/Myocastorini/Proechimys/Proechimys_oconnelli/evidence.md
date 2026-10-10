@@ -9,7 +9,6 @@ records:
     name:
       zh: Proechimys oconnelli
       en: Proechimys oconnelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

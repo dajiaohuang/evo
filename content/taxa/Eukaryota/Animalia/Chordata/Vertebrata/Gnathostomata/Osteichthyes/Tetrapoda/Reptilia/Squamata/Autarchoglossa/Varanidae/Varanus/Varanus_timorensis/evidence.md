@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus timorensis
       en: Varanus timorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnophis melanogaster
       en: Thamnophis melanogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

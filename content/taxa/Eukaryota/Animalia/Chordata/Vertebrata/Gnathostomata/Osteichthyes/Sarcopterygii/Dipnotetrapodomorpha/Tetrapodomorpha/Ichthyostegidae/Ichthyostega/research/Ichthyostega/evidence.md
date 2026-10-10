@@ -61,9 +61,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: pierce-2012-ichthyostega-mobility; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: pierce-2012-ichthyostega-mobility
@@ -82,9 +79,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Pierce et al. 2012 DOI 10.1038/nature11124
       referenceLinks:
         - referenceId: pierce-2012-ichthyostega-mobility
           relation: supports
@@ -103,9 +97,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Pierce et al. 2012 DOI 10.1038/nature11124
       referenceLinks:
         - referenceId: pierce-2012-ichthyostega-mobility
           relation: supports
@@ -123,9 +114,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Pierce et al. 2012 DOI 10.1038/nature11124
       referenceLinks:
         - referenceId: pierce-2012-ichthyostega-mobility
           relation: supports
@@ -144,9 +132,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Pierce et al. 2012 DOI 10.1038/nature11124
       referenceLinks:
         - referenceId: pierce-2012-ichthyostega-mobility
           relation: supports
@@ -197,7 +182,6 @@ records:
       referenceLocators:
         - referenceId: pierce-2012-ichthyostega-mobility
           locator: pp. 523–526; Figures 1–3 and Supplementary Information
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Sarcopterygii/Dipnotetrapodomorpha/Tetrapodomorpha/Ichthyostegidae/Ichthyostega/research/Ichthyostega
       rangeKind: taxon-range
@@ -223,7 +207,6 @@ records:
       referenceLocators:
         - referenceId: pierce-2012-ichthyostega-mobility
           locator: pp. 523–526; Figures 1–3; Supplementary Figures 1–6
-      reviewStatus: automated-audit-passed
 ---
 
 # Ichthyostega

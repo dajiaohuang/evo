@@ -9,7 +9,6 @@ records:
     name:
       zh: Linyiornis amoena
       en: Linyiornis amoena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Incilius melanochlorus
       zh: Incilius melanochlorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

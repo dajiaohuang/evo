@@ -9,7 +9,6 @@ records:
     name:
       zh: Xyronomys robinsoni
       en: Xyronomys robinsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

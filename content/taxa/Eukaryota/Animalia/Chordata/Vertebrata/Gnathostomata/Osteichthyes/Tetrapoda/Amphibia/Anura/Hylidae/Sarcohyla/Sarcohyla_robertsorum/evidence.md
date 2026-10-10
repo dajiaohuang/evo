@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla robertsorum
       zh: Sarcohyla robertsorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Skorpiovenator bustingorryi
       en: Skorpiovenator bustingorryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

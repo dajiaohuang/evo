@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicaeum nigrilore
       en: Dicaeum nigrilore
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

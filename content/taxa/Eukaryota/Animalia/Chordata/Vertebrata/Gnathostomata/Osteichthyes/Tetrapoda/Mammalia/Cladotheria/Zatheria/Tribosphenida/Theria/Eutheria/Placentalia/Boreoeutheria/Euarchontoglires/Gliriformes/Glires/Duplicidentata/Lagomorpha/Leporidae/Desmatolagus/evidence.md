@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmatolagus
       en: Desmatolagus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

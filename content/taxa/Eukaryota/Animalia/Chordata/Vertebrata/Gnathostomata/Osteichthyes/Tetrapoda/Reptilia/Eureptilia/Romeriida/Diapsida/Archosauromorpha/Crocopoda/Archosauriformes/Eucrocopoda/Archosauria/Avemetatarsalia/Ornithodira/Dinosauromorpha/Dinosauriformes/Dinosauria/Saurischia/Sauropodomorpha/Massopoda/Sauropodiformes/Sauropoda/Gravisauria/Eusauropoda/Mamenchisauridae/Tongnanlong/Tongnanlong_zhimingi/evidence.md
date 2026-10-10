@@ -9,7 +9,6 @@ records:
     name:
       zh: Tongnanlong zhimingi
       en: Tongnanlong zhimingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

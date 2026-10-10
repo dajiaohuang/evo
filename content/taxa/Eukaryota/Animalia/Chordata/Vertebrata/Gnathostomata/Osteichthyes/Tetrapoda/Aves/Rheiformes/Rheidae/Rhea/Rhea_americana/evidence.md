@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhea americana
       en: Rhea americana
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: genomeMaterial

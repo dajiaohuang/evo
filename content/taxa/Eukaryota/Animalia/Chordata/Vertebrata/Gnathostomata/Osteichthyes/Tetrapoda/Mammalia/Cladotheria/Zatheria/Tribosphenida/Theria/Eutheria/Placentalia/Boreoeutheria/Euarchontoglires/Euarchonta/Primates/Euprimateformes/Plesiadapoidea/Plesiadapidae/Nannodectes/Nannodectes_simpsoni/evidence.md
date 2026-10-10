@@ -9,7 +9,6 @@ records:
     name:
       zh: Nannodectes simpsoni
       en: Nannodectes simpsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

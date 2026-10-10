@@ -9,7 +9,6 @@ records:
     name:
       zh: Megapodius reinwardt
       en: Megapodius reinwardt
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

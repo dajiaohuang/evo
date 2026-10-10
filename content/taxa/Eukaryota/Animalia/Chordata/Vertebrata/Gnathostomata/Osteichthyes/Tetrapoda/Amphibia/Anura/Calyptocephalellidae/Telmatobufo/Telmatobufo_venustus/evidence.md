@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobufo venustus
       zh: Telmatobufo venustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

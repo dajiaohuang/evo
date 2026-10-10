@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-局部同域记录与毛色连续变化的解释没有解决该种的全域分布或物种边界。尚未经过外部领域专家评审。
+局部同域记录与毛色连续变化的解释没有解决该种的全域分布或物种边界。。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Odaxosaurus priscus
       en: Odaxosaurus priscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

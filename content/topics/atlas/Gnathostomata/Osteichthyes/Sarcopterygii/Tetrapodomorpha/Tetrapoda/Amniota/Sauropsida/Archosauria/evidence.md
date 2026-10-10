@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: butler-2011-ctenosauriscus primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: butler-2011-ctenosauriscus
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: butler-2011-ctenosauriscus
           locator: Article e25693; Figures 1–16; Text S1; Materials S1
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

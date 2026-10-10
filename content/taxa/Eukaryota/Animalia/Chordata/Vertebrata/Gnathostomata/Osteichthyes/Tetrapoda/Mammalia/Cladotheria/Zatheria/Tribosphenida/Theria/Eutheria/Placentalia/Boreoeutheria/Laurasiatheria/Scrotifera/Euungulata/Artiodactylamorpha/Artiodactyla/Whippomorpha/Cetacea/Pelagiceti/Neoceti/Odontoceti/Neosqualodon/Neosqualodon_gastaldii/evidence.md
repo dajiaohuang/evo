@@ -9,7 +9,6 @@ records:
     name:
       zh: Neosqualodon gastaldii
       en: Neosqualodon gastaldii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

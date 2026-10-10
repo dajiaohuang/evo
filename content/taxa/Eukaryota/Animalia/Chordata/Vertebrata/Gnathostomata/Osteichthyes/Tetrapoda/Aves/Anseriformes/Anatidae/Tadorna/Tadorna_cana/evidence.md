@@ -9,7 +9,6 @@ records:
     name:
       zh: Tadorna cana
       en: Tadorna cana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

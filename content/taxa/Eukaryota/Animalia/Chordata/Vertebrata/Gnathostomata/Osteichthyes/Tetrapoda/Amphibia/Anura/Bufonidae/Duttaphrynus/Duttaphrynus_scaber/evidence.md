@@ -9,7 +9,6 @@ records:
     name:
       en: Duttaphrynus scaber
       zh: Duttaphrynus scaber
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

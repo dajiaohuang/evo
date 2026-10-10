@@ -9,7 +9,6 @@ records:
     name:
       zh: Plotosaurus bennisoni
       en: Plotosaurus bennisoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

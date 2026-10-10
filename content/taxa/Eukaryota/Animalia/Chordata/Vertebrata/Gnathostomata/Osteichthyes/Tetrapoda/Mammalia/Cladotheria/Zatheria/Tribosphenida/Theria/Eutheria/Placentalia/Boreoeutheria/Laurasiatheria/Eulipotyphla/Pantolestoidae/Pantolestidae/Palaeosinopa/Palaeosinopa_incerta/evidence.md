@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeosinopa incerta
       en: Palaeosinopa incerta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

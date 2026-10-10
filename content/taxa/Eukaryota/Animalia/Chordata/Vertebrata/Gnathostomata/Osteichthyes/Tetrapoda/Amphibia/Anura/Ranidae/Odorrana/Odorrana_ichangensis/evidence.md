@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana ichangensis
       zh: Odorrana ichangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

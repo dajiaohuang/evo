@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium munozorum
       zh: Hyalinobatrachium munozorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

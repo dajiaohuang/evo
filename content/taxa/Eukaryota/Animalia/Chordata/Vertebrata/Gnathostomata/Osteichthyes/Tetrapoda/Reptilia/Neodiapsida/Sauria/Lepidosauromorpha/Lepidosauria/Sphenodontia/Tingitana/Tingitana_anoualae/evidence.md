@@ -9,7 +9,6 @@ records:
     name:
       zh: Tingitana anoualae
       en: Tingitana anoualae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

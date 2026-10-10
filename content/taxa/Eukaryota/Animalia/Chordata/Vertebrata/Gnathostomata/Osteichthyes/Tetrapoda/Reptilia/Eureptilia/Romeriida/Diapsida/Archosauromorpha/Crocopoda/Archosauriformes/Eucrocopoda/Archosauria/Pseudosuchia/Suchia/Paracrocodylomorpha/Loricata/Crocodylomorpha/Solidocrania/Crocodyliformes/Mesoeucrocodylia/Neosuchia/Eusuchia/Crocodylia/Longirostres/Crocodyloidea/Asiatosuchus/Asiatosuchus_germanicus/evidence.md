@@ -9,7 +9,6 @@ records:
     name:
       zh: Asiatosuchus germanicus
       en: Asiatosuchus germanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

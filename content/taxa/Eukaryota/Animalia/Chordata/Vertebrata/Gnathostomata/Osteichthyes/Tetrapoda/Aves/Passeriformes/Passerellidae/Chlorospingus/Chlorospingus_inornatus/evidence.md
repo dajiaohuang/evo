@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorospingus inornatus
       en: Chlorospingus inornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

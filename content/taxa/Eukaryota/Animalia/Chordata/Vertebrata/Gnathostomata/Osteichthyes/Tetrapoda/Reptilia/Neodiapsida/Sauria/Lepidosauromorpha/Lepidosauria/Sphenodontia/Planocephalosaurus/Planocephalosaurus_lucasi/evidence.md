@@ -9,7 +9,6 @@ records:
     name:
       zh: Planocephalosaurus lucasi
       en: Planocephalosaurus lucasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

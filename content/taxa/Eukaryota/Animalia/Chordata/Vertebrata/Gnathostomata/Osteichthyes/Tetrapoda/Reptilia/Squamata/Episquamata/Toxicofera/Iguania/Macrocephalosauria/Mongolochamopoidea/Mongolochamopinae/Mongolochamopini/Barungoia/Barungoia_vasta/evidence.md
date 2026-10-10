@@ -9,7 +9,6 @@ records:
     name:
       zh: Barungoia vasta
       en: Barungoia vasta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

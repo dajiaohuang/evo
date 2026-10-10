@@ -9,7 +9,6 @@ records:
     name:
       zh: Hipposideros felix
       en: Hipposideros felix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

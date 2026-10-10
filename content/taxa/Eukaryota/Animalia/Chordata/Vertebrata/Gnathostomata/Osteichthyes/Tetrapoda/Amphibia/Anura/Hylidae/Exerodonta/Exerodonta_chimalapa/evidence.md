@@ -9,7 +9,6 @@ records:
     name:
       en: Exerodonta chimalapa
       zh: Exerodonta chimalapa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

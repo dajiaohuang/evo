@@ -9,7 +9,6 @@ records:
     name:
       zh: Powellvenator podocitus
       en: Powellvenator podocitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

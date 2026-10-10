@@ -9,7 +9,6 @@ records:
     name:
       zh: Remingtonocetus domandaensis
       en: Remingtonocetus domandaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

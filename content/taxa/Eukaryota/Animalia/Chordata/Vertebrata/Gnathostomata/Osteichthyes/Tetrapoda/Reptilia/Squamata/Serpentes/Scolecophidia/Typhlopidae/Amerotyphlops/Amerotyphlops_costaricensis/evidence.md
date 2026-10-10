@@ -9,7 +9,6 @@ records:
     name:
       zh: Amerotyphlops costaricensis
       en: Amerotyphlops costaricensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

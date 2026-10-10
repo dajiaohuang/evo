@@ -9,7 +9,6 @@ records:
     name:
       zh: Maxomys wattsi
       en: Maxomys wattsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

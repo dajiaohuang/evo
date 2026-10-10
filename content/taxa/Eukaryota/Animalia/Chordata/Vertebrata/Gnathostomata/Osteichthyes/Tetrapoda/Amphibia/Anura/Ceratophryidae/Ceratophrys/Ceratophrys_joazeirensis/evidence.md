@@ -9,7 +9,6 @@ records:
     name:
       en: Ceratophrys joazeirensis
       zh: Ceratophrys joazeirensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

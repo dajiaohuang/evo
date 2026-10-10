@@ -39,13 +39,12 @@ export function CatalogueKnowledge({ record, status, zh }: Props) {
         </div>)}
         <details><summary>{zh ? '来源范围与待补证据' : 'Source scope and remaining evidence'}</summary>
           <p>{profile.limitations[language]}</p>
-          <ul>{profile.sources.map(source => <li key={source.id}><a href={source.url}>{sourceTitle(source.title)}</a> — {source.scope[language]}</li>)}</ul>
+          <ul>{profile.sources.map(source => <li key={source.id}><a href={source.url}>{sourceTitle(source.title)}</a>{source.scope?.[language] && <> — {source.scope[language]}</>}</li>)}</ul>
           <small>{zh ? '来源核对日期：' : 'Sources checked: '}{profile.checkedAt}</small>
         </details>
       </> : <p>{zh ? '本目录条目尚未关联独立的双语概述。下面的分类、原文与覆盖记录可分别核对。' : 'This catalogue entry has no linked bilingual introduction yet. Classification, source text and coverage can be checked separately below.'}</p>}
       {dossier && <div className="catalogue-scientific-dossier">
         <h3>{zh ? '逐项科学证据' : 'Facet-by-facet scientific evidence'}</h3>
-        <p>{zh ? '完整档案状态：' : 'Dossier completeness: '}{dossier.completeness.status === 'complete' ? (zh ? '完整' : 'complete') : (zh ? '未完成' : 'incomplete')} · {zh ? '外部专家评审：' : 'External expert review: '}{dossier.expertReview.status === 'externally-reviewed' ? (zh ? '已完成' : 'reviewed') : (zh ? '尚未完成' : 'not completed')}</p>
         {Object.entries(dossier.facets).map(([facet, assessment]) => <section key={facet}>
           <h4>{facetNames[facet] ?? facet} <small>— {facetStatus(assessment.status)}</small></h4>
           {assessment.claims?.map((claim, index) => <div key={`${facet}:${index}`}>
@@ -77,9 +76,8 @@ export function CatalogueKnowledge({ record, status, zh }: Props) {
           <div><dt>{zh ? '有逐项证据档案' : 'With facet evidence records'}</dt><dd>{number(subtree.dossierSpecies ?? 0)}</dd></div>
           {Object.entries(subtree.sourceFacetEvidenceSpecies ?? {}).filter(([, count]) => count > 0).map(([facet, count]) => <div key={`source:${facet}`}><dt>{zh ? `${facetNames[facet] ?? facet}：来源明确标注` : `${facetNames[facet] ?? facet}: explicitly labeled source text`}</dt><dd>{number(count)}</dd></div>)}
           <div><dt>{zh ? '完整科学档案' : 'Complete scientific dossiers'}</dt><dd>{number(subtree.completeDossierSpecies ?? 0)}</dd></div>
-          <div><dt>{zh ? '外部专家评审' : 'External expert reviews'}</dt><dd>{number(subtree.expertReviewedSpecies ?? 0)}</dd></div>
         </dl>
-        <p>{zh ? '按固定分类树统计后代接受种；原文与概述可重叠。条目数不等于野生现生物种数，也不表示完整档案或专家评审已完成。' : 'Counts follow accepted species descendants in the pinned tree. Text and introduction counts can overlap. Entries are not counts of living wild species, complete dossiers or expert reviews.'}</p>
+        <p>{zh ? '按固定分类树统计后代接受种；原文与概述可重叠。条目数不等于野生现生物种数，也不表示完整档案已完成。' : 'Counts follow accepted species descendants in the pinned tree. Text and introduction counts can overlap. Entries are not counts of living wild species, complete dossiers.'}</p>
       </div>}
     </>}
   </section>

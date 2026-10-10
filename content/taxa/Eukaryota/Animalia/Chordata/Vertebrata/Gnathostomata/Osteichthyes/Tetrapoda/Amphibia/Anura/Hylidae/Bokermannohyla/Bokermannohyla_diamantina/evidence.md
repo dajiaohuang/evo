@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla diamantina
       zh: Bokermannohyla diamantina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

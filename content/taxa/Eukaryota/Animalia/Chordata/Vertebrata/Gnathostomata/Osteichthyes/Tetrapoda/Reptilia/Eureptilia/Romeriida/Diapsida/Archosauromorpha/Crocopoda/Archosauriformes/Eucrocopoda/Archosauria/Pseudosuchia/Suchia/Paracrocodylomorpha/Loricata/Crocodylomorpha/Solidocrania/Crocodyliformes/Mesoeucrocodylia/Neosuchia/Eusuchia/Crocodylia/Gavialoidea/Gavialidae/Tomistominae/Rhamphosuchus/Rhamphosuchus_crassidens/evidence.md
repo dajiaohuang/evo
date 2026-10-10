@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhamphosuchus crassidens
       en: Rhamphosuchus crassidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -154,9 +154,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: smith-2006-teilhardina concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: smith-2006-teilhardina
@@ -175,9 +172,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas RC84 package authoring
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: smith-2006-teilhardina @ DOI 10.1073/pnas.0511296103
       referenceLinks:
         - referenceId: smith-2006-teilhardina
           relation: supports
@@ -196,9 +190,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas RC84 package authoring
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: smith-2006-teilhardina @ DOI 10.1073/pnas.0511296103
       referenceLinks:
         - referenceId: smith-2006-teilhardina
           relation: supports
@@ -217,9 +208,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas RC84 package authoring
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: smith-2006-teilhardina @ DOI 10.1073/pnas.0511296103
       referenceLinks:
         - referenceId: smith-2006-teilhardina
           relation: supports
@@ -238,9 +226,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas RC84 package authoring
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: smith-2006-teilhardina @ DOI 10.1073/pnas.0511296103
       referenceLinks:
         - referenceId: smith-2006-teilhardina
           relation: supports
@@ -294,7 +279,6 @@ records:
       referenceLocators:
         - referenceId: smith-2006-teilhardina
           locator: 11223–11227; Figures 1–3; Supporting Tables
-      reviewStatus: automated-audit-passed
 ---
 
 # Teilhardina (PETM dental samples)

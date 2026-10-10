@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus spectabilis
       zh: Melanophryniscus spectabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

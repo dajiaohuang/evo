@@ -9,7 +9,6 @@ records:
     name:
       zh: Puffinus mitchelli
       en: Puffinus mitchelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

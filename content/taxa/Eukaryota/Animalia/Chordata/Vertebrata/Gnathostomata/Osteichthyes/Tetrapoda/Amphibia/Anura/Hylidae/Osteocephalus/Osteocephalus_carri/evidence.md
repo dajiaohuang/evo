@@ -9,7 +9,6 @@ records:
     name:
       en: Osteocephalus carri
       zh: Osteocephalus carri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

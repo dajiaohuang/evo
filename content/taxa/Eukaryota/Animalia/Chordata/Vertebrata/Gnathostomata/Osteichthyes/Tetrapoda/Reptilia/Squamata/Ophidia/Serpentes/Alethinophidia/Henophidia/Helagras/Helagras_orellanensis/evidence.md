@@ -9,7 +9,6 @@ records:
     name:
       zh: Helagras orellanensis
       en: Helagras orellanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

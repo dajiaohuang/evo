@@ -9,7 +9,6 @@ records:
     name:
       zh: Tinuviel eurydice
       en: Tinuviel eurydice
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

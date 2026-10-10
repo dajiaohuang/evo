@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemihegetotherium achataleptum
       en: Hemihegetotherium achataleptum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

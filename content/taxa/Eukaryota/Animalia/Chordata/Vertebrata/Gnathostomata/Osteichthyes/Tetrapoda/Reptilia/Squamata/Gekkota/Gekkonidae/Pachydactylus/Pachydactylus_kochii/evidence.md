@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachydactylus kochii
       en: Pachydactylus kochii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

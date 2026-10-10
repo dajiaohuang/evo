@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor noblei
       zh: Craugastor noblei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zupaysaurus rougieri
       en: Zupaysaurus rougieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

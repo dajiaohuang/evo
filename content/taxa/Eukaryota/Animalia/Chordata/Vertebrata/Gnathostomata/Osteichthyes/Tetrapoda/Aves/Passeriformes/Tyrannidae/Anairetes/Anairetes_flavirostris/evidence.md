@@ -9,7 +9,6 @@ records:
     name:
       zh: Anairetes flavirostris
       en: Anairetes flavirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus praestans
       zh: Dendropsophus praestans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

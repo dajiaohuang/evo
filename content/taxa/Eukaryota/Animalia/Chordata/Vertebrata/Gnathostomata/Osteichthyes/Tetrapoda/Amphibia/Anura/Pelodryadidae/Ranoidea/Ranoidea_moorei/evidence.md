@@ -9,7 +9,6 @@ records:
     name:
       en: Ranoidea moorei
       zh: Ranoidea moorei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

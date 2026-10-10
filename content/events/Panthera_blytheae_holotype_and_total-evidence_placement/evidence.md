@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: tseng-2014-panthera-blytheae DOI-linked primary source
       referenceLinks:
         - referenceId: tseng-2014-panthera-blytheae
           relation: supports

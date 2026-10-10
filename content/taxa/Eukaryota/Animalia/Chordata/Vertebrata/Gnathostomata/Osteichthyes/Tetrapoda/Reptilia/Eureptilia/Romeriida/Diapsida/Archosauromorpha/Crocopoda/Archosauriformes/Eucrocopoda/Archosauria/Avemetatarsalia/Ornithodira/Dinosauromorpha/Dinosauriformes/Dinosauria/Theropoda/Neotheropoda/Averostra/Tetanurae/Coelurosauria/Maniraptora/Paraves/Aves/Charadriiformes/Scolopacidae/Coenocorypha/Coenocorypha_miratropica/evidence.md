@@ -9,7 +9,6 @@ records:
     name:
       zh: Coenocorypha miratropica
       en: Coenocorypha miratropica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

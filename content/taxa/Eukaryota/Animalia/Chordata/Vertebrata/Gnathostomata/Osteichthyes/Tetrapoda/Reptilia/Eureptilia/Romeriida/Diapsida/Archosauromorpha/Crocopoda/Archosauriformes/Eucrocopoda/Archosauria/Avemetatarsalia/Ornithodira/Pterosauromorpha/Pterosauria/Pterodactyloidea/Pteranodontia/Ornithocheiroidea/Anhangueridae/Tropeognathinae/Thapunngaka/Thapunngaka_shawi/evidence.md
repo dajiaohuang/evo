@@ -10,7 +10,6 @@ records:
     name:
       zh: Thapunngaka shawi
       en: Thapunngaka shawi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: specimen
@@ -600,7 +599,6 @@ records:
       referenceLocators:
         - referenceId: ref-6d435a4c-8c9f-4e08-b9dc-6666ceefd781
           locator: data/sources/snapshots/pbdb-thapunngaka-reader-range-records-2026-10-02.json; response.records oid txn:478714; fea/fla/lea/lla
-      reviewStatus: not-reviewed
       evidenceLevel: database-derived
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       en: Hildebrandtia ornata
       zh: Hildebrandtia ornata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

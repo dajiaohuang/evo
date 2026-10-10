@@ -9,7 +9,6 @@ records:
     name:
       zh: Smilodectes gracilis
       en: Smilodectes gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Claudius angustatus
       en: Claudius angustatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

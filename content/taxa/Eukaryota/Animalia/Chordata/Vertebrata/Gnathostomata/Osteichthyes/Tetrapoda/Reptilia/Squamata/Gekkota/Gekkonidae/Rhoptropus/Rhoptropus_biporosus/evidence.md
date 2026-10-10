@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhoptropus biporosus
       en: Rhoptropus biporosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

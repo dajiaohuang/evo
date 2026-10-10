@@ -9,7 +9,6 @@ records:
     name:
       en: Aubria masako
       zh: Aubria masako
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

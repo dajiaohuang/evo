@@ -9,7 +9,6 @@ records:
     name:
       en: Nectophrynoides vestergaardi
       zh: Nectophrynoides vestergaardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

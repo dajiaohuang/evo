@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus robertingeri
       zh: Rhacophorus robertingeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

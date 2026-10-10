@@ -9,7 +9,6 @@ records:
     name:
       zh: Yixianosaurus longimanus
       en: Yixianosaurus longimanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus rarotongensis
       en: Ptilinopus rarotongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

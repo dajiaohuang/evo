@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycalopex fulvipes
       en: Lycalopex fulvipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

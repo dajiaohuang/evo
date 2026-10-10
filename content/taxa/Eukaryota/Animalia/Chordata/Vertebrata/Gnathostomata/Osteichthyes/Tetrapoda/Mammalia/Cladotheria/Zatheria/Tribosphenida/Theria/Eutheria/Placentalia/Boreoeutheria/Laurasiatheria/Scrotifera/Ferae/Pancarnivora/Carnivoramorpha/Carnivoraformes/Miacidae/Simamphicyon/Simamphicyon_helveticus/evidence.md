@@ -9,7 +9,6 @@ records:
     name:
       zh: Simamphicyon helveticus
       en: Simamphicyon helveticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Afrixalus vibekensis
       zh: Afrixalus vibekensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

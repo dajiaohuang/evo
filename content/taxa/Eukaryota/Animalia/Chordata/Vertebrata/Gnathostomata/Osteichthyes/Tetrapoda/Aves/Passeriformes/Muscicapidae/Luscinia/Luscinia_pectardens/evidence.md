@@ -9,7 +9,6 @@ records:
     name:
       zh: Luscinia pectardens
       en: Luscinia pectardens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

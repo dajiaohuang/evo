@@ -10,7 +10,6 @@ records:
     name:
       en: Allen's Swamp Monkey
       zh: 艾伦沼泽猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

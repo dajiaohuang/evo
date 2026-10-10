@@ -9,7 +9,6 @@ records:
     name:
       zh: Adelobasileus cromptoni
       en: Adelobasileus cromptoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

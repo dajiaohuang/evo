@@ -9,7 +9,6 @@ records:
     name:
       zh: Yuomys yunnanensis
       en: Yuomys yunnanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

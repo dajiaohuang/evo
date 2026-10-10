@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger sikimmensis
       zh: Scutiger sikimmensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

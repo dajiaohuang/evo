@@ -9,7 +9,6 @@ records:
     name:
       zh: Adjidaumo burkei
       en: Adjidaumo burkei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

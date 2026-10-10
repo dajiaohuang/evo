@@ -9,7 +9,6 @@ records:
     name:
       en: Noblella glauca
       zh: Noblella glauca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberiza alcoveri
       en: Emberiza alcoveri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

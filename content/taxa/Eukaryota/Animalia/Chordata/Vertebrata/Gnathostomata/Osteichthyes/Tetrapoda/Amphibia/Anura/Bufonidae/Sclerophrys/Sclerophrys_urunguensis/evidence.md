@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys urunguensis
       zh: Sclerophrys urunguensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

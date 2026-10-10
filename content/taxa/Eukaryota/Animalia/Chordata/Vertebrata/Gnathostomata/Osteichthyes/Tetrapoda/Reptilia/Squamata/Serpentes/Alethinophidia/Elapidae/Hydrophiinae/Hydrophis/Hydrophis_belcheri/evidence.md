@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrophis belcheri
       en: Hydrophis belcheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

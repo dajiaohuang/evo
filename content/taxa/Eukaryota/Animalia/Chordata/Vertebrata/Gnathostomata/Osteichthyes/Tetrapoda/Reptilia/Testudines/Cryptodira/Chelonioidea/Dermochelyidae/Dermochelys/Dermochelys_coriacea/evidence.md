@@ -9,7 +9,6 @@ records:
     name:
       zh: Dermochelys coriacea
       en: Dermochelys coriacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

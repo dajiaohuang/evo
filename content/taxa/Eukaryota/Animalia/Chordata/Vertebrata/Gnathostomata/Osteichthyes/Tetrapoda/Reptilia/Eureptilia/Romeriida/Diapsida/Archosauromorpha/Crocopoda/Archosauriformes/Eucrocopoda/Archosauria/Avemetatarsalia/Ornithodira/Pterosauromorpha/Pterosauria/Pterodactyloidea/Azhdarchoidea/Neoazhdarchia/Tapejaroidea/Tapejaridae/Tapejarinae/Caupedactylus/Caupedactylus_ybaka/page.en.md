@@ -93,5 +93,5 @@ The database collection carries the abbreviated attribution Kellner (2013), refe
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This batch reads all main sections of the 2024 palatal study and the complete genus/species account plus paragraphs naming the genus in the 2025 review. Only publication information and the abstract of the 2013 original description were obtained. Later matrices, the underlying 2021 bite-force study, images, scans, specimens and complete development remain independently unexamined. Conditional referrals, horizon discrepancies and classification revisions remain unresolved. A full monograph, external expert review and reader-facing delivery are pending.
+This batch reads all main sections of the 2024 palatal study and the complete genus/species account plus paragraphs naming the genus in the 2025 review. Only publication information and the abstract of the 2013 original description were obtained. Later matrices, the underlying 2021 bite-force study, images, scans, specimens and complete development remain independently unexamined. Conditional referrals, horizon discrepancies and classification revisions remain unresolved. A full monograph and reader-facing delivery are pending.
 <!-- /evo:text -->

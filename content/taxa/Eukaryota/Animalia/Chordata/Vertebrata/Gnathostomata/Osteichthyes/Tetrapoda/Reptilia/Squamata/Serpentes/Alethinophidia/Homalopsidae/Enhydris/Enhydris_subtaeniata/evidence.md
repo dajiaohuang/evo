@@ -9,7 +9,6 @@ records:
     name:
       zh: Enhydris subtaeniata
       en: Enhydris subtaeniata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

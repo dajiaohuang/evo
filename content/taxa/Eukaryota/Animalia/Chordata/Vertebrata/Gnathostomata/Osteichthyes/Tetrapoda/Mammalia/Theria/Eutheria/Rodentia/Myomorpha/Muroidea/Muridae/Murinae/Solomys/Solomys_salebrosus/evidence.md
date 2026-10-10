@@ -9,7 +9,6 @@ records:
     name:
       zh: Solomys salebrosus
       en: Solomys salebrosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

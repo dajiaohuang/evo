@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothrophthalmus lineatus
       en: Bothrophthalmus lineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

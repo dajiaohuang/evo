@@ -9,7 +9,6 @@ records:
     name:
       en: Plectrohyla lacertosa
       zh: Plectrohyla lacertosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

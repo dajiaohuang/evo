@@ -9,7 +9,6 @@ records:
     name:
       zh: Tazoudasaurus naimi
       en: Tazoudasaurus naimi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

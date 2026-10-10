@@ -9,7 +9,6 @@ records:
     name:
       en: Adelophryne baturitensis
       zh: Adelophryne baturitensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lerista bunglebungle
       en: Lerista bunglebungle
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

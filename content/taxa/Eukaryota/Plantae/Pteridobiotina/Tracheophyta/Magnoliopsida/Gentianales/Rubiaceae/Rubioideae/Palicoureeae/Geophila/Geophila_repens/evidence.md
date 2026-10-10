@@ -422,9 +422,6 @@ records:
             lifeStatus:
               markdown: evidence.md
               field: /records/catalogue-dossier/facets/morphology/claims/2/lifeStatus
-            semanticReview:
-              markdown: evidence.md
-              field: /records/catalogue-dossier/facets/morphology/claims/2/semanticReview
         gaps:
           - markdown: evidence.md
             field: /records/catalogue-dossier/facets/morphology/gaps/0
@@ -505,17 +502,11 @@ records:
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-        - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/3
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/4
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/5
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/6
-    expertReview:
-      status: not-reviewed
     classificationPath:
       - id: CS5HF
         scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
@@ -821,12 +812,6 @@ Morphological description in the Flora of Panama source version retrieved 2026-0
 The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
 <!-- /evo:text -->
 
-## morphology / claims / semanticReview
-
-<!-- evo:text /records/catalogue-dossier/facets/morphology/claims/2/semanticReview -->
-Paragraph manually reviewed for direct morphological content in the Flora of Panama batch audit dated 2026-09-27; this is internal source review, not external expert review.
-<!-- /evo:text -->
-
 ## facets / morphology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/morphology/gaps/0 -->
@@ -937,12 +922,6 @@ Systematic literature review and comparison of the regional account with the com
 
 ## catalogue-dossier / completeness / reasons
 
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
 This source slice supports a bounded historical Panama distribution statement only.
 <!-- /evo:text -->
@@ -957,10 +936,4 @@ Paragraph-level review maps eligible general excerpts to partial morphology; the
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/5 -->
 Morphology beyond any prior independently sourced claims, lifeHistory, ecology, evolution, fossil, and conservation remain incomplete or not assessed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/6 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-调查针对南部亚马逊若干地点，估算的是区域分布变化，不代表完整物种范围、数量或保育现状。尚未经过外部领域专家评审。
+调查针对南部亚马逊若干地点，估算的是区域分布变化，不代表完整物种范围、数量或保育现状。。
 <!-- /evo:text -->

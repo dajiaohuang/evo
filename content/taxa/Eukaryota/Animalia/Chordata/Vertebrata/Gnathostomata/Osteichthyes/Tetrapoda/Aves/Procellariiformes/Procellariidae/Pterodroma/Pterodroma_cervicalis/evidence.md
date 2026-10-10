@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodroma cervicalis
       en: Pterodroma cervicalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

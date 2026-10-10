@@ -9,7 +9,6 @@ records:
     name:
       zh: Columba pulchricollis
       en: Columba pulchricollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

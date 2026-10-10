@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeocyon falkenbachi
       en: Archaeocyon falkenbachi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

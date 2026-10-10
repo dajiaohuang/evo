@@ -24,5 +24,5 @@ Start with Suleimania ruemkae, Mongolopala tathue, Mygalea magna, Mygalea antiqu
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes. No external expert review has occurred.
+This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Emydura 属
       en: Emydura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

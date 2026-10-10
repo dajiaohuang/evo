@@ -58,5 +58,4 @@ python -B scripts/build-mdd-ioc-source.test.py
 
 The descriptor and import ledger contain the archive, API metadata, registry
 input, member digests, output digests and exact counts. This is a frozen source
-traceability crosswalk, not a complete biological dossier, fossil dataset,
-expert review or assertion that COL and MDD species concepts are identical.
+traceability crosswalk, not a complete biological dossier, fossil dataset or assertion that COL and MDD species concepts are identical.

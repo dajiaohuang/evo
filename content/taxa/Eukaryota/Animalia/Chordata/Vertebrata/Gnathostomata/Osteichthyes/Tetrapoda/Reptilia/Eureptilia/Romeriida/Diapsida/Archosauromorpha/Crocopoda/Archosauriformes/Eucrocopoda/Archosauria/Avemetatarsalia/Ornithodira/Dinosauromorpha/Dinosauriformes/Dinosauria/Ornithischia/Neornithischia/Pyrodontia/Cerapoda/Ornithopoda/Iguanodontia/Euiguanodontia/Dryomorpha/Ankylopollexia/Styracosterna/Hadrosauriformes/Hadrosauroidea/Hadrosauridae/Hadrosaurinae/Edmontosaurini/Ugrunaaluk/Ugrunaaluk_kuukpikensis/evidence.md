@@ -9,7 +9,6 @@ records:
     name:
       zh: Ugrunaaluk kuukpikensis
       en: Ugrunaaluk kuukpikensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

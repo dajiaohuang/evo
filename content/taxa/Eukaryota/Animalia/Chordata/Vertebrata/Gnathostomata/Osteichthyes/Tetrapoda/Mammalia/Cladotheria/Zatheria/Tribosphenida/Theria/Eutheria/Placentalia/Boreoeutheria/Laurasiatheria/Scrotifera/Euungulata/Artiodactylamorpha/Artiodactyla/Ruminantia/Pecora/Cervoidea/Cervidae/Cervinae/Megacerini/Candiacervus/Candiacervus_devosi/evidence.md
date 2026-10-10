@@ -9,7 +9,6 @@ records:
     name:
       zh: Candiacervus devosi
       en: Candiacervus devosi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

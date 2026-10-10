@@ -9,7 +9,6 @@ records:
     name:
       zh: Gomphotherium wimani
       en: Gomphotherium wimani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

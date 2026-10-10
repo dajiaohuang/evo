@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla brevicauda
       en: Tantilla brevicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

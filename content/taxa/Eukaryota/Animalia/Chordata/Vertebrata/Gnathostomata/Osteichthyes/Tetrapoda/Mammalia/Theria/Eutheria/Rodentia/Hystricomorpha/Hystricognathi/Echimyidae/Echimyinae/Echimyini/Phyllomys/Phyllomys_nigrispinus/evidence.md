@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllomys nigrispinus
       en: Phyllomys nigrispinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

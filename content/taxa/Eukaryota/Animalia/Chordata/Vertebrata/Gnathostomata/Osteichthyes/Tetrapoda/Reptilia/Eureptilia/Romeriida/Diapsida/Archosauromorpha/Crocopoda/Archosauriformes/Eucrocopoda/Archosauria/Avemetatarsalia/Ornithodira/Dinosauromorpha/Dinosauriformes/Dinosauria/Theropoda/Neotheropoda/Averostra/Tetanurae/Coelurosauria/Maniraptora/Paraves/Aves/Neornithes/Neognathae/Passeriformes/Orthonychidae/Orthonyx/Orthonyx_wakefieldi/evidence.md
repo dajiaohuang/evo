@@ -9,7 +9,6 @@ records:
     name:
       zh: Orthonyx wakefieldi
       en: Orthonyx wakefieldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

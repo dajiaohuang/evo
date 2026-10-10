@@ -9,7 +9,6 @@ records:
     name:
       zh: Remiz coronatus
       en: Remiz coronatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

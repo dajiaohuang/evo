@@ -9,7 +9,6 @@ records:
     name:
       zh: Styloctenium wallacei
       en: Styloctenium wallacei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

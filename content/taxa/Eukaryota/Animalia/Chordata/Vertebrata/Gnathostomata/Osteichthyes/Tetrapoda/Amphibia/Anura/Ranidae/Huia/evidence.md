@@ -9,7 +9,6 @@ records:
     name:
       en: Huia
       zh: Huia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

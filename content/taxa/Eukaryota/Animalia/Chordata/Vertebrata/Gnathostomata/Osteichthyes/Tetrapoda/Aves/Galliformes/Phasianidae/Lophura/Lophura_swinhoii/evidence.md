@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophura swinhoii
       en: Lophura swinhoii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

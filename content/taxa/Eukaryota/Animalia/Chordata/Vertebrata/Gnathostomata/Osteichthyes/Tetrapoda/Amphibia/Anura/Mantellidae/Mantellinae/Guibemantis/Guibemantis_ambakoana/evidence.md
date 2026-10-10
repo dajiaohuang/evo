@@ -9,7 +9,6 @@ records:
     name:
       en: Guibemantis ambakoana
       zh: Guibemantis ambakoana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

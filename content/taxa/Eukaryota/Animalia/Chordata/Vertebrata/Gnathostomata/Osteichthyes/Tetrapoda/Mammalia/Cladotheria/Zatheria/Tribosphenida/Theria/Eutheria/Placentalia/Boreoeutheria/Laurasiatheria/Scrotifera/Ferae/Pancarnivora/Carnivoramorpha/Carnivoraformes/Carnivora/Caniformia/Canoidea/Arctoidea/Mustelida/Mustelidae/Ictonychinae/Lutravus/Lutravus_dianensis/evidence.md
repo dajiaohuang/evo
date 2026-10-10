@@ -9,7 +9,6 @@ records:
     name:
       zh: Lutravus dianensis
       en: Lutravus dianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

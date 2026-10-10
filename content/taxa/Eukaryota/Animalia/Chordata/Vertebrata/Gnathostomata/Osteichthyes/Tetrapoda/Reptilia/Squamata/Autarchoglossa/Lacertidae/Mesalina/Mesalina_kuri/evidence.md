@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesalina kuri
       en: Mesalina kuri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Basirepomys robertsi
       en: Basirepomys robertsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

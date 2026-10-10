@@ -9,7 +9,6 @@ records:
     name:
       en: Ceratophrys calcarata
       zh: Ceratophrys calcarata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

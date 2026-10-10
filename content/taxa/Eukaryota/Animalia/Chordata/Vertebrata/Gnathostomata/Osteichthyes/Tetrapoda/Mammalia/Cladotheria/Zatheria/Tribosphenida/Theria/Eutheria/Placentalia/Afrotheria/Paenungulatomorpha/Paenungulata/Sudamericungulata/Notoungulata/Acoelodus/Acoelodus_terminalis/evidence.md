@@ -9,7 +9,6 @@ records:
     name:
       zh: Acoelodus terminalis
       en: Acoelodus terminalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

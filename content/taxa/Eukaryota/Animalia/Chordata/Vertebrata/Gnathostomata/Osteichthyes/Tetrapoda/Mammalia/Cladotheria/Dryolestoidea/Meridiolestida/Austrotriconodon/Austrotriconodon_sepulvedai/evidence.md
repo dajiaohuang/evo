@@ -9,7 +9,6 @@ records:
     name:
       zh: Austrotriconodon sepulvedai
       en: Austrotriconodon sepulvedai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

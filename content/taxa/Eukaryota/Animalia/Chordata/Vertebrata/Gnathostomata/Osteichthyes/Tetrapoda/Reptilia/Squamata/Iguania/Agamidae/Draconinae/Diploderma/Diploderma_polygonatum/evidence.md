@@ -9,7 +9,6 @@ records:
     name:
       zh: Diploderma polygonatum
       en: Diploderma polygonatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus prionotus
       en: Stenocercus prionotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

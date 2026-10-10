@@ -40,5 +40,5 @@ Primary.Lifestyle=Generalist，来源定义为跨不同活动方式，没有单�
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页使用十条所选 AVONET v7 历史行之一、同名 eBird 与旧 Carduelis／Serinus BirdTree 表关系、相关字段定义及本次 COL sp／car／se 名称分片。名称异名和表关联不证明所有历史概念与 COL26.8 等同。形态总数、完整测量数及 Dunning 文献体重分母分开；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。粗食物及活动类别不补实测食谱、种子清单、咬合力、羽色、鸣声、繁殖、当前分布、保护状态或迁移路线。本页不计完整自然史或外部专家审评。
+本页使用十条所选 AVONET v7 历史行之一、同名 eBird 与旧 Carduelis／Serinus BirdTree 表关系、相关字段定义及本次 COL sp／car／se 名称分片。名称异名和表关联不证明所有历史概念与 COL26.8 等同。形态总数、完整测量数及 Dunning 文献体重分母分开；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。粗食物及活动类别不补实测食谱、种子清单、咬合力、羽色、鸣声、繁殖、当前分布、保护状态或迁移路线。本页不计完整自然史。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Treron formosae
       en: Treron formosae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

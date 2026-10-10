@@ -9,7 +9,6 @@ records:
     name:
       zh: Struthio molybdophanes
       en: Struthio molybdophanes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

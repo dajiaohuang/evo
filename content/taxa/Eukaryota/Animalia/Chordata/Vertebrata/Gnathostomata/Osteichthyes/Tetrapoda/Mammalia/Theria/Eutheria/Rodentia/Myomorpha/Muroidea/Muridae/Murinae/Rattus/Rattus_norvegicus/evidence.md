@@ -9,7 +9,6 @@ records:
     name:
       zh: Rattus norvegicus
       en: Rattus norvegicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

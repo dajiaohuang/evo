@@ -9,7 +9,6 @@ records:
     name:
       zh: Apomys hylocetes
       en: Apomys hylocetes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachybaptus novaehollandiae
       en: Tachybaptus novaehollandiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

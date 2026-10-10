@@ -9,7 +9,6 @@ records:
     name:
       zh: Petroica rosea
       en: Petroica rosea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myzomela blasii
       en: Myzomela blasii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

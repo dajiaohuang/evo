@@ -9,7 +9,6 @@ records:
     name:
       zh: Graptemys ernsti
       en: Graptemys ernsti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

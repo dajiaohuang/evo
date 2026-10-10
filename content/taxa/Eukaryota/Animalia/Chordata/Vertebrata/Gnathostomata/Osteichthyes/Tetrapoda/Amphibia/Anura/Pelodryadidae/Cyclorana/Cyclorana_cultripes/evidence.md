@@ -9,7 +9,6 @@ records:
     name:
       en: Cyclorana cultripes
       zh: Cyclorana cultripes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

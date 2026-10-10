@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius igbettensis
       zh: Hyperolius igbettensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

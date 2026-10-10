@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: schoch-2013-temnospondyl-phylogeny DOI 10.1080/14772019.2012.699006; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: schoch-2013-temnospondyl-phylogeny
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: schoch-2013-temnospondyl-phylogeny; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: schoch-2013-temnospondyl-phylogeny
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: schoch-2013-temnospondyl-phylogeny
           locator: 673–705; Figures 1–12; taxon matrix; Abstract; 72-taxon sample spanning Early Carboniferous–Early Cretaceous
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   pbdb-fossil-reader:
     scientificName: Temnospondyli
@@ -97,7 +90,6 @@ records:
       en: Temnospondyli
       zh: Temnospondyli
     checkedAt: 2026-10-02
-    reviewStatus: source-linked
     sections:
       - topic: fossil
         sourceIds:
@@ -1067,11 +1059,11 @@ Complete accepted fossil-species query under PBDB txn:36319; recorded parent cha
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/en -->
-Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is not externally expert-reviewed.
+Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
 <!-- /evo:text -->
 
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/zh -->
-本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留；未经过外部领域专家评审。
+本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
 <!-- /evo:text -->

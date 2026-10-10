@@ -9,7 +9,6 @@ records:
     name:
       zh: Iridosornis rufivertex
       en: Iridosornis rufivertex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

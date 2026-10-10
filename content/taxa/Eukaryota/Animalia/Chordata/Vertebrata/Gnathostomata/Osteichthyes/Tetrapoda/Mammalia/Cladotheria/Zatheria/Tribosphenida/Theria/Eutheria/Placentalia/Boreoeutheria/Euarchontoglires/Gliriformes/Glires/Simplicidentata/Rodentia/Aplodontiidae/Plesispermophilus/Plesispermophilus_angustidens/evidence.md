@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesispermophilus angustidens
       en: Plesispermophilus angustidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphicotylus lucasii
       en: Amphicotylus lucasii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

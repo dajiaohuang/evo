@@ -9,7 +9,6 @@ records:
     name:
       zh: Simpsonlemur jepseni
       en: Simpsonlemur jepseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

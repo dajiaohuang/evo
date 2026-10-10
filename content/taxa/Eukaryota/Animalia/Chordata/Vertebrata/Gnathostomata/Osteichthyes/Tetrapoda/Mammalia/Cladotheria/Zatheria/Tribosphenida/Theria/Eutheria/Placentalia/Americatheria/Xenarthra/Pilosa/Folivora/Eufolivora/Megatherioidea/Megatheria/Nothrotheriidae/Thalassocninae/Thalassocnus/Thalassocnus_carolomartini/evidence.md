@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalassocnus carolomartini
       en: Thalassocnus carolomartini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

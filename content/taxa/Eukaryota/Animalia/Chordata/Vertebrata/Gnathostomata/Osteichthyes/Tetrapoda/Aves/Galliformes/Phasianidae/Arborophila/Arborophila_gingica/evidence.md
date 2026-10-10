@@ -9,7 +9,6 @@ records:
     name:
       zh: Arborophila gingica
       en: Arborophila gingica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

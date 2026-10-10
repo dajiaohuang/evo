@@ -9,7 +9,6 @@ records:
     name:
       zh: Streptoprocne phelpsi
       en: Streptoprocne phelpsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

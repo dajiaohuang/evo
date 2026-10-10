@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyphylla nana
       en: Brachyphylla nana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

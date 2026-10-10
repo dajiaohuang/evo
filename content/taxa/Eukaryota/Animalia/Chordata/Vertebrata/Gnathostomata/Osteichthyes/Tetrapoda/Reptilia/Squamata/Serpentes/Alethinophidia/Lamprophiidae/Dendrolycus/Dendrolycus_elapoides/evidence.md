@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrolycus elapoides
       en: Dendrolycus elapoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

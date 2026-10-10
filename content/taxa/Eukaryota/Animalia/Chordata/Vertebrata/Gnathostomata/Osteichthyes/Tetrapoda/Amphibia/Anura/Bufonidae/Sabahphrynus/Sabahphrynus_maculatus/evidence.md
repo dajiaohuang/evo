@@ -9,7 +9,6 @@ records:
     name:
       en: Sabahphrynus maculatus
       zh: Sabahphrynus maculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

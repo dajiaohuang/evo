@@ -9,7 +9,6 @@ records:
     name:
       zh: Ustatochoerus leptoscelos
       en: Ustatochoerus leptoscelos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

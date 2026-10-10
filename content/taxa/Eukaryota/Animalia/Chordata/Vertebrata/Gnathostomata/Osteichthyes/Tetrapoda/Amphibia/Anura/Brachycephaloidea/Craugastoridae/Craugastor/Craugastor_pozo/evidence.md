@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor pozo
       zh: Craugastor pozo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

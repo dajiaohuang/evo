@@ -9,7 +9,6 @@ records:
     name:
       en: Minervarya gomantaki
       zh: Minervarya gomantaki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

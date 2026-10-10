@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus tonywhitteni
       en: Hemiphyllodactylus tonywhitteni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

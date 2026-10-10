@@ -9,7 +9,6 @@ records:
     name:
       zh: Protictis paralus
       en: Protictis paralus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

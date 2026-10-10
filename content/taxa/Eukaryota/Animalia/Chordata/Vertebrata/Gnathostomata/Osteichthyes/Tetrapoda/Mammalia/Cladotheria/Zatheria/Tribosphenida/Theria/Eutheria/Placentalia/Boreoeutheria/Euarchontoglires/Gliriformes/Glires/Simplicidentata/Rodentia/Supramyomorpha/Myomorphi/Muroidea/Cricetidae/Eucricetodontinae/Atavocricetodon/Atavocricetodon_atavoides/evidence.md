@@ -9,7 +9,6 @@ records:
     name:
       zh: Atavocricetodon atavoides
       en: Atavocricetodon atavoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

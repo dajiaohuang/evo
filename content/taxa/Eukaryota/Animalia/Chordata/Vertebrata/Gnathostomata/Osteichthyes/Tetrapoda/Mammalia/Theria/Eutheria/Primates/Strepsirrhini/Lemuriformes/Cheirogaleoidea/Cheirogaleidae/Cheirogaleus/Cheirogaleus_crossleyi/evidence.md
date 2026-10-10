@@ -9,7 +9,6 @@ records:
     name:
       zh: 克罗斯利侏狐猴
       en: Crossley's Dwarf Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: materials

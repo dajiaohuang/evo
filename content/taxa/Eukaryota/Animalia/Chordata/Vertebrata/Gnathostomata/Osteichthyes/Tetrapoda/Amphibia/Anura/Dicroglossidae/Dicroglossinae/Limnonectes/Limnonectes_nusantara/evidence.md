@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes nusantara
       zh: Limnonectes nusantara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

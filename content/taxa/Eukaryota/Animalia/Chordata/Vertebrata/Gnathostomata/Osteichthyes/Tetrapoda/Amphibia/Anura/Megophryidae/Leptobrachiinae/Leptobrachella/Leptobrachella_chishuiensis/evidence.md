@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella chishuiensis
       zh: Leptobrachella chishuiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

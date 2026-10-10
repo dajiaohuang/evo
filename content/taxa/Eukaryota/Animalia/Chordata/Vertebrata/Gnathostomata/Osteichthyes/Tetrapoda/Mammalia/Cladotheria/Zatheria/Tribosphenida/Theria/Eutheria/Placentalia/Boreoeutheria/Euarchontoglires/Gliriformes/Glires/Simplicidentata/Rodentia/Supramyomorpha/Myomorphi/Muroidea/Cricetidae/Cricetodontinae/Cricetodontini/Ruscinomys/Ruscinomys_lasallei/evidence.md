@@ -9,7 +9,6 @@ records:
     name:
       zh: Ruscinomys lasallei
       en: Ruscinomys lasallei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

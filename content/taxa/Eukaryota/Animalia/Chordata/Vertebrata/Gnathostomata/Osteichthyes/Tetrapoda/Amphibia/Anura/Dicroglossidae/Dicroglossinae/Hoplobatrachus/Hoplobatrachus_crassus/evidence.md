@@ -9,7 +9,6 @@ records:
     name:
       en: Hoplobatrachus crassus
       zh: Hoplobatrachus crassus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

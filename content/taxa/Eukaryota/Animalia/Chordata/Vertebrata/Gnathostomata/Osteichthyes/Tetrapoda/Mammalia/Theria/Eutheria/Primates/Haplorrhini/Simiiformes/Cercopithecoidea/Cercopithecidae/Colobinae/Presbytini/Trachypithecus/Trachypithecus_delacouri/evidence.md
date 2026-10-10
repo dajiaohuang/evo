@@ -9,7 +9,6 @@ records:
     name:
       zh: 德拉库尔叶猴
       en: Delacour's Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

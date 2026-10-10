@@ -9,7 +9,6 @@ records:
     name:
       zh: Allomys reticulatus
       en: Allomys reticulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

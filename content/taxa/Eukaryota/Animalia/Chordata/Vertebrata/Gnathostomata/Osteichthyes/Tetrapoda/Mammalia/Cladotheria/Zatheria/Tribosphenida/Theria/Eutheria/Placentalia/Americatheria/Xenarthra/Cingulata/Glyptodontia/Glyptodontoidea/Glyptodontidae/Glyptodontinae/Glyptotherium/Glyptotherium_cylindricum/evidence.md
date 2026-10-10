@@ -9,7 +9,6 @@ records:
     name:
       zh: Glyptotherium cylindricum
       en: Glyptotherium cylindricum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

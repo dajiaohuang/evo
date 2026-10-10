@@ -9,7 +9,6 @@ records:
     name:
       zh: Theristicus branickii
       en: Theristicus branickii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

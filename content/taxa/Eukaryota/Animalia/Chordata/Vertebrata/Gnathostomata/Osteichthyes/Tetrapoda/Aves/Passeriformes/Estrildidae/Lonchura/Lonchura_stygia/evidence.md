@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchura stygia
       en: Lonchura stygia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptophis nigromarginatus
       en: Leptophis nigromarginatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

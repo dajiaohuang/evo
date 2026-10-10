@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates psilonota
       zh: Lithobates psilonota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

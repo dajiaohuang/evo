@@ -87,5 +87,5 @@ The database retains de Souza et al. (2021), ref:78692. A new shared reference r
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page adds selected 2021 original-description passages and a short later-abstract notice. The original horizon says Aptian–Albian, while the fixed PBDB row retains its own broad age bracket; these are not silently harmonized. Remaining postcranial text, images, supplementary matrices and later full texts remain unread. No independent specimen inspection, scanning, measurement or phylogenetic rerun occurred. Holotype size, maturity and toothless condition do not represent all growth stages. Diet and behavior lack direct observation; a full monograph and external expert review remain pending.
+This page adds selected 2021 original-description passages and a short later-abstract notice. The original horizon says Aptian–Albian, while the fixed PBDB row retains its own broad age bracket; these are not silently harmonized. Remaining postcranial text, images, supplementary matrices and later full texts remain unread. No independent specimen inspection, scanning, measurement or phylogenetic rerun occurred. Holotype size, maturity and toothless condition do not represent all growth stages. Diet and behavior lack direct observation; a full monograph remain pending.
 <!-- /evo:text -->

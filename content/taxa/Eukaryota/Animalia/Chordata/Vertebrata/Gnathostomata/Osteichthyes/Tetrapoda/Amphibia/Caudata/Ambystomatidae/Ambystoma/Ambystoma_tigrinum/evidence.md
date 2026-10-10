@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma tigrinum
       zh: Ambystoma tigrinum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

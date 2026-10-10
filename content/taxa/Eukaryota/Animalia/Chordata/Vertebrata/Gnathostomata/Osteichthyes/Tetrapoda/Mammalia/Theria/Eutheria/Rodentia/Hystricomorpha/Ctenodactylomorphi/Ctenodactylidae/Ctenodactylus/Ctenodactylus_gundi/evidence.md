@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenodactylus gundi
       en: Ctenodactylus gundi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

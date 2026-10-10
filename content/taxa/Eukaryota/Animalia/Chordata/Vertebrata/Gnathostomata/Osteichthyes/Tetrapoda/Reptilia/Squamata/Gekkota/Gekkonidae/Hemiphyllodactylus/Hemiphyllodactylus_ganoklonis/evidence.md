@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus ganoklonis
       en: Hemiphyllodactylus ganoklonis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

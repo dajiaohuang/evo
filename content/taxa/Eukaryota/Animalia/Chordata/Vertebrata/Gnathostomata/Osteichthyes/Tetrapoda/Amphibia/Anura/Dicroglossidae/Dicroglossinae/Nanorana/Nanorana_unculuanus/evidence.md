@@ -9,7 +9,6 @@ records:
     name:
       en: Nanorana unculuanus
       zh: Nanorana unculuanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

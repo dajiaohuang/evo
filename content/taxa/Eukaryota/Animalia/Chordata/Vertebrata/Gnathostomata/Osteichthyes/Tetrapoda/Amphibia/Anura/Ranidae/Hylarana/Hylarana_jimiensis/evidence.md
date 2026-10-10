@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana jimiensis
       zh: Hylarana jimiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

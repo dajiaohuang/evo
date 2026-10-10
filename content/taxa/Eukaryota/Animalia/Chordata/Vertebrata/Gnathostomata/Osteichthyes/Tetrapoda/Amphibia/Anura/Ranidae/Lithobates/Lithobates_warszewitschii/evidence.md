@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates warszewitschii
       zh: Lithobates warszewitschii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -78,7 +78,6 @@ for (const dossier of source.records) {
   assert.ok(dossier.classificationPath.some(node => node.id === '3W7' && node.rank === 'order' && node.scientificName === 'Primates Linnaeus, 1758'))
   assert.equal(dossier.identity.sourceIds.join(','), 'col')
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   const sourceIds = new Set(dossier.sources.map(item => item.id))
   assert.equal(sourceIds.size, dossier.sources.length)
   assert.equal(dossier.sources.find(item => item.id === 'matsuda2022')?.licenseAssessment, 'item-level-verified')

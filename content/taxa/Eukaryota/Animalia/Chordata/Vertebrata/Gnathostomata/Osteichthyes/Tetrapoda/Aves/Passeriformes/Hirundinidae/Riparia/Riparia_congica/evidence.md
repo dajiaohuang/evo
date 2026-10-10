@@ -9,7 +9,6 @@ records:
     name:
       zh: Riparia congica
       en: Riparia congica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

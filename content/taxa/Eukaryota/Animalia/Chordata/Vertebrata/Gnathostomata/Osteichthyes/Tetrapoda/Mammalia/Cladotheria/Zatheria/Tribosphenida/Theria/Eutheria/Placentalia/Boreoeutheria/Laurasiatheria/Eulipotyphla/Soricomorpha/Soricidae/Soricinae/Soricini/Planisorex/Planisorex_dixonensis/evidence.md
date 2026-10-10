@@ -9,7 +9,6 @@ records:
     name:
       zh: Planisorex dixonensis
       en: Planisorex dixonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

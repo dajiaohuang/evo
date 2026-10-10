@@ -9,7 +9,6 @@ records:
     name:
       en: Ghatixalus variabilis
       zh: Ghatixalus variabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

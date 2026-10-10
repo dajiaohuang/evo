@@ -9,7 +9,6 @@ records:
     name:
       zh: Sicalis taczanowskii
       en: Sicalis taczanowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

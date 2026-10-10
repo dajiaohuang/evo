@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus fremitus
       zh: Leptodactylus fremitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

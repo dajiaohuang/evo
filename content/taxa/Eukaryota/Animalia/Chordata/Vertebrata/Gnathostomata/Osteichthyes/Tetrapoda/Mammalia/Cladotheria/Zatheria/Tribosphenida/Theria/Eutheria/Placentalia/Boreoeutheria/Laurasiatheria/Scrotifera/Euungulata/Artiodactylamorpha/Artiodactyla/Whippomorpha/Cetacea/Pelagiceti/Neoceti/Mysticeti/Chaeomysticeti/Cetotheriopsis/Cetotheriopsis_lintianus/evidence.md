@@ -9,7 +9,6 @@ records:
     name:
       zh: Cetotheriopsis lintianus
       en: Cetotheriopsis lintianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

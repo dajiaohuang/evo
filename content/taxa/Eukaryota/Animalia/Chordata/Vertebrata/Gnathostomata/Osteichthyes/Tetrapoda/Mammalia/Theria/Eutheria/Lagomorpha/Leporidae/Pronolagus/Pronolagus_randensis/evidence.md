@@ -9,7 +9,6 @@ records:
     name:
       zh: Pronolagus randensis
       en: Pronolagus randensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

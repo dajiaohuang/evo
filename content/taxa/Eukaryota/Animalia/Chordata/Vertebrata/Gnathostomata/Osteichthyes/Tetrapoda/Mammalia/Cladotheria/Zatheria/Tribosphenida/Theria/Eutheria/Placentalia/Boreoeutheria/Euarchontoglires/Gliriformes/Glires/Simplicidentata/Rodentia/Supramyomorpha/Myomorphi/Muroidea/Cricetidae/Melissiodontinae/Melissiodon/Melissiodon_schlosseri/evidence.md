@@ -9,7 +9,6 @@ records:
     name:
       zh: Melissiodon schlosseri
       en: Melissiodon schlosseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

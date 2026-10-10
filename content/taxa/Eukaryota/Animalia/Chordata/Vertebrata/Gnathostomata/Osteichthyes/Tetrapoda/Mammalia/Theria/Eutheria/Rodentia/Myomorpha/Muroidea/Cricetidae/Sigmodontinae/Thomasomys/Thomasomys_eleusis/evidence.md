@@ -9,7 +9,6 @@ records:
     name:
       zh: Thomasomys eleusis
       en: Thomasomys eleusis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

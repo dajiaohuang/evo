@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesodma pygmaea
       en: Mesodma pygmaea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

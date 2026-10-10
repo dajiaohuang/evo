@@ -9,7 +9,6 @@ records:
     name:
       en: Guibemantis albomaculatus
       zh: Guibemantis albomaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

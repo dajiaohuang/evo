@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllomyias virescens
       en: Phyllomyias virescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

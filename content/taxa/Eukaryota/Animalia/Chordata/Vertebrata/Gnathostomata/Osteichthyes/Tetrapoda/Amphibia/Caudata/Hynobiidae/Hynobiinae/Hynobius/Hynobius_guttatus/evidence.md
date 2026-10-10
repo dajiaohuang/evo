@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius guttatus
       zh: Hynobius guttatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

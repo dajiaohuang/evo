@@ -9,7 +9,6 @@ records:
     name:
       zh: Trapelus ruderatus
       en: Trapelus ruderatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

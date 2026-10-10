@@ -9,7 +9,6 @@ records:
     name:
       zh: Turanoceratops tardabilis
       en: Turanoceratops tardabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

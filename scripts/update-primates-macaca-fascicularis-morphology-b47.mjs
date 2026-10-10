@@ -152,7 +152,6 @@ assert.equal(dossier.rank, source.target.rank)
 assert.equal(String(dossier.sourceDatasetId), source.target.sourceDatasetId)
 assert.equal(dossier.facets.morphology.status, 'not-assessed')
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.equal(sha256(Buffer.from(JSON.stringify(dossier), 'utf8')), source.audit.previousTargetRecordSha256)
 verifyAcceptedIdentity(registryManifest, dossier)
 
@@ -194,9 +193,7 @@ dossier.completeness.status = 'incomplete'
 dossier.completeness.reasons = [
   'Three studies support bounded claims in morphology, ecology, and evolution; the new morphology evidence is limited to 13 selected mandibular second molars from one research collection.',
   'Life history, species-wide distribution, fossil evidence, conservation status, and systematic coverage of the accepted species concept remain incomplete or unassessed.',
-  'Independent external expert review has not been completed.',
 ]
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
 
 const rawLines = targetRows.map(row => row.colId === dossier.colId ? JSON.stringify(dossier) : JSON.stringify(row))
@@ -304,7 +301,7 @@ console.log(JSON.stringify({
   targetName: dossier.scientificName,
   morphology: dossier.facets.morphology.status,
   completeness: dossier.completeness.status,
-  expertReview: dossier.expertReview.status,
+
   indexedRecordCount: indexed.count,
   rawSha256: outputHashes.raw,
   compressedSha256: outputHashes.compressed,

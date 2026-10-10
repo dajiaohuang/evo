@@ -9,7 +9,6 @@ records:
     name:
       zh: Fulica infelix
       en: Fulica infelix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

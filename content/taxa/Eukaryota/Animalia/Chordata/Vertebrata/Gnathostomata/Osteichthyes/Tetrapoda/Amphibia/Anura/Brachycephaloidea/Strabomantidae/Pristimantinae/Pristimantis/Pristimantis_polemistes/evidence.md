@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis polemistes
       zh: Pristimantis polemistes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

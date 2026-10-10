@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "turtles-lepidosaurs",
-  "version": "2026.09-static-v5-rc154",
+  "version": "2026.09-2026.10-static-v5-rc155",
   "title": "Turtles and Lepidosaurs",
   "titleZh": "龟鳖类与鳞龙类",
   "conceptScope": {
@@ -32,10 +32,6 @@
     "occurrences": "data/fossils/*.json",
     "profilesSource": "data/packages/reptilia/turtles-lepidosaurs/profiles.source.json"
   },
-  "platformMaturity": "published",
-  "scientificMaturity": "source-linked",
-  "automatedReviewStatus": "passed",
-  "reviewStatus": "not-reviewed",
   "limitations": [
     "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.",
     "Testudines is retained as the package routing root for COL compatibility; stem-turtle dossiers use that route for discovery and do not imply crown membership. Entity-wide ranges are source-bounded evidence windows or explicit withholdings rather than global FAD claims.",
@@ -44,6 +40,6 @@
     "Taytalura, Megachirella and Bellairsia placements depend on sampled characters and analytical constraints. Molecular partitions and clock estimates are model inputs or outputs, not anatomy, fossil dates or living-species nomenclature.",
     "Cryptovaranoides remains contested because element identity, referral and character scoring differ among primary studies; it is not used here as a secure crown-Squamata FAD or calibration.",
     "Mosasauroidea and Mosasauridae are deliberately non-interchangeable. The navigation parent supports discovery, while basal topology and limb-specialization sequence remain analysis- and specimen-dependent.",
-    "COL26.8 accepted-species counts are package-routing results for living names. They do not grade fossil, morphology, event, translation, media, topology or expert-review completeness."
+    "COL26.8 accepted-species counts are package-routing results for living names. They do not grade fossil, morphology, event, translation, media, topology."
   ]
 }

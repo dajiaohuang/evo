@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplodocus longus
       en: Diplodocus longus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

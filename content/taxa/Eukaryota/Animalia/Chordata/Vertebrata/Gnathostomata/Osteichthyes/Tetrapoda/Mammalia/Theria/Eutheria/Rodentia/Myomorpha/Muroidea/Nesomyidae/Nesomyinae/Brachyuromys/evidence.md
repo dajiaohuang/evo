@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyuromys
       en: Brachyuromys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

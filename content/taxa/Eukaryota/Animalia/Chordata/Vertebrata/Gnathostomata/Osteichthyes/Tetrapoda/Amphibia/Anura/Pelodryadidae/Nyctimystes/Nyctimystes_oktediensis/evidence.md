@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes oktediensis
       zh: Nyctimystes oktediensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella tacana
       zh: Rhinella tacana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

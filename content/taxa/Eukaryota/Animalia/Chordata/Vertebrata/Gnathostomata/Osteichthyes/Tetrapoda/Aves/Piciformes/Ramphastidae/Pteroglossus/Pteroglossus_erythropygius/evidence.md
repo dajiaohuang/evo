@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteroglossus erythropygius
       en: Pteroglossus erythropygius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

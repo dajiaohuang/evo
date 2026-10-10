@@ -17,7 +17,7 @@ Eight Peucaea historical guides are added, with exact catalogue synonyms for all
 ## Compare food and partial migration through Peucaea
 
 <!-- evo:text /records/catalogue-profile/sections/1/text/en -->
-Follow two reading groups at [Peucaea](Peucaea/page.en.md), comparing different levels within shared niches before migration 2 at aestivalis/cassinii/botterii and migration 1 at the other five. Partial-migration codes do not specify which movement occurs; Generalist is not Omnivore. Return to five total birds, four complete sets and older names, retaining source scopes without inventing family-wide behavior, current maps or expert review.
+Follow two reading groups at [Peucaea](Peucaea/page.en.md), comparing different levels within shared niches before migration 2 at aestivalis/cassinii/botterii and migration 1 at the other five. Partial-migration codes do not specify which movement occurs; Generalist is not Omnivore. Return to five total birds, four complete sets and older names, retaining source scopes without inventing family-wide behavior, current maps.
 <!-- /evo:text -->
 
 ## Open-habitat comparisons in Ammospiza
@@ -29,7 +29,7 @@ Four newly authored Ammospiza historical rows offer an open-habitat comparison: 
 ## Follow the genus page back to the workbook
 
 <!-- evo:text /records/catalogue-profile/sections/3/text/en -->
-Enter the four species through [Ammospiza](Ammospiza/page.en.md), read the older-genus crosswalk, then compare beak, wing, mass and migration. Historical BirdTree Ammodramus names should not be pooled directly with other accepted Ammodramus species here; genus-name changes and concept review are separate work. Read COL synonym records support three older combinations; nelsoni’s older name remains only a source-table mapping.
+Enter the four species through [Ammospiza](Ammospiza/page.en.md), read the older-genus crosswalk, then compare beak, wing, mass and migration. Historical BirdTree Ammodramus names should not be pooled directly with other accepted Ammodramus species here; genus-name changes and taxonomic identity mapping are separate work. Read COL synonym records support three older combinations; nelsoni’s older name remains only a source-table mapping.
 <!-- /evo:text -->
 
 ## Local data reading route
@@ -49,7 +49,7 @@ Compiled mean mass endpoints in this batch are Spizella breweri at 10.9 g and Pi
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
 Four additional Ammospiza historical guides retain older-genus names and unresolved nelsoni synonym correspondence separately; earlier batch counts and scopes are unchanged.
-Eight added Peucaea historical guides retain older Aimophila names, niche, level and partial migration separately; family coverage, complete natural history and expert review remain unfinished.
+Eight added Peucaea historical guides retain older Aimophila names, niche, level and partial migration separately; family coverage, complete natural history remain unfinished.
 <!-- /evo:text -->
 
 ## Start with the limited ecology records
@@ -67,5 +67,5 @@ Recorded category counts are 5 for habitat, 5 for feeding niche, 5 for primary l
 ## Limits of these historical data
 
 <!-- evo:text /records/catalogue-profile/sections/8/text/en -->
-This entry covers this batch’s limited historical ecology records, not every accepted descendant or expert review. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
+This entry covers this batch’s limited historical ecology records, not every accepted descendant. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
 <!-- /evo:text -->

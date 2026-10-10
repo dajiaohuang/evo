@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys kuatunensis
       zh: Boulenophrys kuatunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Phantasmarana lutzae
       zh: Phantasmarana lutzae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

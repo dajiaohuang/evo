@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudopaludicola giarettai
       zh: Pseudopaludicola giarettai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

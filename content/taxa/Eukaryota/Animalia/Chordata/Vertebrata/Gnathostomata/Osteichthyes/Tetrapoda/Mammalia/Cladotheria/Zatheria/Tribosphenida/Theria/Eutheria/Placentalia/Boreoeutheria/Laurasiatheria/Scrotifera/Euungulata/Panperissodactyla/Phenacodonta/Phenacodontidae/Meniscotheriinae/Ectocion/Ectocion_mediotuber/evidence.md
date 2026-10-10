@@ -9,7 +9,6 @@ records:
     name:
       zh: Ectocion mediotuber
       en: Ectocion mediotuber
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

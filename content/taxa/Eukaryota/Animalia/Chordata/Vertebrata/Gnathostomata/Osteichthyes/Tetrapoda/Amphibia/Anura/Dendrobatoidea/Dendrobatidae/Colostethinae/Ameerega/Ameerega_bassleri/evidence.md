@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega bassleri
       zh: Ameerega bassleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

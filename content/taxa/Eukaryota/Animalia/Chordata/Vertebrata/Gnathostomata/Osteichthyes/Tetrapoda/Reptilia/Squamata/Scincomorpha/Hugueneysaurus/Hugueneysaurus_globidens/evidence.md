@@ -9,7 +9,6 @@ records:
     name:
       zh: Hugueneysaurus globidens
       en: Hugueneysaurus globidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

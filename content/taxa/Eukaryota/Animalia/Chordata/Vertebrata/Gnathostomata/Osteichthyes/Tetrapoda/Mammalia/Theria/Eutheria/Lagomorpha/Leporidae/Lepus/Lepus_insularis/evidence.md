@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepus insularis
       en: Lepus insularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

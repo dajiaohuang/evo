@@ -9,7 +9,6 @@ records:
     name:
       zh: Batomys dentatus
       en: Batomys dentatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

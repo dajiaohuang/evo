@@ -10,7 +10,6 @@ records:
     name:
       en: Needle-clawed Galago genus
       zh: 针爪婴猴属
-    reviewStatus: source-linked
     sections:
       - topic: readingPath
         text:

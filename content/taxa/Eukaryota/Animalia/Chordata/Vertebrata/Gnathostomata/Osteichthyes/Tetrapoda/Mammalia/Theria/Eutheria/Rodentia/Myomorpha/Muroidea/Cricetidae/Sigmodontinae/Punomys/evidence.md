@@ -9,7 +9,6 @@ records:
     name:
       zh: Punomys
       en: Punomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

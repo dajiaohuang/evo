@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus syphax
       zh: Leptodactylus syphax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

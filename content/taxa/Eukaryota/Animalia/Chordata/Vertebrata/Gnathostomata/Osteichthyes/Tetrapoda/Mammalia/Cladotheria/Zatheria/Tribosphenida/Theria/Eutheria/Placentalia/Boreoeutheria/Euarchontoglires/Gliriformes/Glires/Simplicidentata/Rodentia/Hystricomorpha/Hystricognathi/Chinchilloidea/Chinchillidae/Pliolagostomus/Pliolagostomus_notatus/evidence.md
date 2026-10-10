@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliolagostomus notatus
       en: Pliolagostomus notatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

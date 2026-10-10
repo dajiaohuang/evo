@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraprefica kelleri
       en: Paraprefica kelleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Prototomus secundarius
       en: Prototomus secundarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

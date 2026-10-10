@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis vandeventeri
       en: Cnemaspis vandeventeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

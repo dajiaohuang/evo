@@ -9,7 +9,6 @@ records:
     name:
       en: Black-and-white Ruffed Lemur
       zh: 黑白领狐猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

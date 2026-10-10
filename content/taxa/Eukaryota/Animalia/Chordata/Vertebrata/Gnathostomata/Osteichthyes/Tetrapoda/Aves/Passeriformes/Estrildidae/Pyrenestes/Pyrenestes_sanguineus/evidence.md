@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrenestes sanguineus
       en: Pyrenestes sanguineus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

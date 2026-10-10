@@ -9,7 +9,6 @@ records:
     name:
       en: Alytes obstetricans
       zh: Alytes obstetricans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

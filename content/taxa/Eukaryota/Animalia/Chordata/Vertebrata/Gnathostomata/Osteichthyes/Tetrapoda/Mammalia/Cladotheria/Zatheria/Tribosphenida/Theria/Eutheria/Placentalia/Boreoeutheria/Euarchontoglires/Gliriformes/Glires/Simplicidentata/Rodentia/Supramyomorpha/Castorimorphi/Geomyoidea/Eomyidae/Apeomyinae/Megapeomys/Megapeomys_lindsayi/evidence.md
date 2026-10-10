@@ -9,7 +9,6 @@ records:
     name:
       zh: Megapeomys lindsayi
       en: Megapeomys lindsayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

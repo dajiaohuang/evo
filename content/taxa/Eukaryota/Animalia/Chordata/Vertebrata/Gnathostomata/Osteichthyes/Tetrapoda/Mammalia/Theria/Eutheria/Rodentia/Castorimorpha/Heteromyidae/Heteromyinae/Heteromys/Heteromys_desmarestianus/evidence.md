@@ -9,7 +9,6 @@ records:
     name:
       zh: Heteromys desmarestianus
       en: Heteromys desmarestianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

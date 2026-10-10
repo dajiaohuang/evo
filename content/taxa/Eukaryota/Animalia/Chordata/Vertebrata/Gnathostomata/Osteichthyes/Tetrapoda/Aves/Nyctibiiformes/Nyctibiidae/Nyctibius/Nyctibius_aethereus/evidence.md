@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctibius aethereus
       en: Nyctibius aethereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

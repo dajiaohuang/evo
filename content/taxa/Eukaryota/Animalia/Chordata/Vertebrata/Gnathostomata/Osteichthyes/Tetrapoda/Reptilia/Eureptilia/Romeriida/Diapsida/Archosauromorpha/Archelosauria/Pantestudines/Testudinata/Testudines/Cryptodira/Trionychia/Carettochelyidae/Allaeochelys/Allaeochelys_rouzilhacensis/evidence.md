@@ -9,7 +9,6 @@ records:
     name:
       zh: Allaeochelys rouzilhacensis
       en: Allaeochelys rouzilhacensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

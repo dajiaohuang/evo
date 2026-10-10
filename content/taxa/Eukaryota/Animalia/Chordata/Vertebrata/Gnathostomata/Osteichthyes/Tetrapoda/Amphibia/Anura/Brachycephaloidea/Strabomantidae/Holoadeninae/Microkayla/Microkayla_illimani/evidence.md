@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla illimani
       zh: Microkayla illimani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

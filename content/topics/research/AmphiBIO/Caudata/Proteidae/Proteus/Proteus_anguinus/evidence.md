@@ -13,7 +13,6 @@ records:
       en: Proteus anguinus
       zh: Proteus anguinus
     checkedAt: 2026-10-02
-    reviewStatus: source-linked
     sections:
       - topic: overview
         title:
@@ -320,11 +319,11 @@ Guyer and Boback 2011;Tacutu et al. 2012;Foden et al. 2013;Sodhi et al. 2008;Tro
 ## amphibio-source-reader / limitations
 
 <!-- evo:text /records/amphibio-source-reader/limitations/en -->
-This is a reader for a deposited trait compilation. NA remains missing data; unlisted categories are not inferred absent. Per-trait primary citations, modern taxonomic reconciliation and seven-facet scientific dossier review remain incomplete. No external expert review.
+This is a reader for a deposited trait compilation. NA remains missing data; unlisted categories are not inferred absent. Per-trait primary citations, modern taxonomic reconciliation and seven-facet scientific dossier review remain incomplete.
 <!-- /evo:text -->
 
 ## amphibio-source-reader / limitations
 
 <!-- evo:text /records/amphibio-source-reader/limitations/zh -->
-本页是存档性状汇编的读本。NA 保留为缺失数据；未列出的类别不能据此推断为不存在。逐性状原始出处、现代分类概念核对及七主题科学档案审阅尚未完成；没有外部专家审评。
+本页是存档性状汇编的读本。NA 保留为缺失数据；未列出的类别不能据此推断为不存在。逐性状原始出处、现代分类概念核对及七主题科学档案审阅尚未完成。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Shenzhousaurus orientalis
       en: Shenzhousaurus orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Metanoiamys lacus
       en: Metanoiamys lacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

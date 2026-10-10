@@ -9,7 +9,6 @@ records:
     name:
       zh: Dissacus argenteus
       en: Dissacus argenteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

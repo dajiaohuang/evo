@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidophyma micropholis
       en: Lepidophyma micropholis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

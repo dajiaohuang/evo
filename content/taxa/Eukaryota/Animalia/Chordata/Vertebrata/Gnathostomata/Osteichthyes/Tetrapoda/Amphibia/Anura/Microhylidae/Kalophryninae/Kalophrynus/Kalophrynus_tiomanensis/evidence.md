@@ -9,7 +9,6 @@ records:
     name:
       en: Kalophrynus tiomanensis
       zh: Kalophrynus tiomanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

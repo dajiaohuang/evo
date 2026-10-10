@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidodactylus bisakol
       en: Lepidodactylus bisakol
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

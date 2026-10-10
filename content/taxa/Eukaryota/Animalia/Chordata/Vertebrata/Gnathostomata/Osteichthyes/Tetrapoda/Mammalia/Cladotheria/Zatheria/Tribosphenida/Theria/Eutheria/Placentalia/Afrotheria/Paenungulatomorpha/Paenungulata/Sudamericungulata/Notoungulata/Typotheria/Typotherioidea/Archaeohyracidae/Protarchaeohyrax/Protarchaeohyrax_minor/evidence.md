@@ -9,7 +9,6 @@ records:
     name:
       zh: Protarchaeohyrax minor
       en: Protarchaeohyrax minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

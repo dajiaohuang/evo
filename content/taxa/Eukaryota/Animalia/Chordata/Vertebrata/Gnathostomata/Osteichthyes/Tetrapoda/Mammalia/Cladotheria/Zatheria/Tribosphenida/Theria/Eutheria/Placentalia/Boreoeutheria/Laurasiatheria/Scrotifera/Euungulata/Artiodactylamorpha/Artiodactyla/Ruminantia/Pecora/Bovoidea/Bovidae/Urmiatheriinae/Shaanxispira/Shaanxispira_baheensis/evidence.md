@@ -9,7 +9,6 @@ records:
     name:
       zh: Shaanxispira baheensis
       en: Shaanxispira baheensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

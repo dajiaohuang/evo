@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus viridimaculatus
       zh: Rhacophorus viridimaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

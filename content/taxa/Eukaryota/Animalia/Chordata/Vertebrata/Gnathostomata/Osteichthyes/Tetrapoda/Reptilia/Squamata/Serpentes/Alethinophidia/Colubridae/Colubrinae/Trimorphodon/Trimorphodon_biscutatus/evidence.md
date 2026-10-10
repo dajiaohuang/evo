@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimorphodon biscutatus
       en: Trimorphodon biscutatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

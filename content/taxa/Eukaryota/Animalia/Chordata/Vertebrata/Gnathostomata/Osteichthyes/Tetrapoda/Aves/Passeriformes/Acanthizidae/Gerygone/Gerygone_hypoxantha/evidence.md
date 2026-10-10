@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerygone hypoxantha
       en: Gerygone hypoxantha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

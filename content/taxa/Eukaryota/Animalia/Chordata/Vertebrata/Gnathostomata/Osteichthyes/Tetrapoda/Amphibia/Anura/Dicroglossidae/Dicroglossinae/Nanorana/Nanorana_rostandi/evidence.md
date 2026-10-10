@@ -9,7 +9,6 @@ records:
     name:
       en: Nanorana rostandi
       zh: Nanorana rostandi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

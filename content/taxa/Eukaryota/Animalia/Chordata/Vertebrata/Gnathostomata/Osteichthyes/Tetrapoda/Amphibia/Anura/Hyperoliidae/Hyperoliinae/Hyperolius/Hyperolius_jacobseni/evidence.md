@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius jacobseni
       zh: Hyperolius jacobseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

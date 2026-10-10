@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptoblepharus litoralis
       en: Cryptoblepharus litoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

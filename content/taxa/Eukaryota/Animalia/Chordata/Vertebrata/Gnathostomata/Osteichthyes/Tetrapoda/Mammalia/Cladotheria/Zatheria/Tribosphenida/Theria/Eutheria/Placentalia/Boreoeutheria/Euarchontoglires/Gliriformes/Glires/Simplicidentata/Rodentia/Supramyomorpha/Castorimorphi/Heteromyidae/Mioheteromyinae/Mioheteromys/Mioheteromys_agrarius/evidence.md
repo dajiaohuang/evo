@@ -9,7 +9,6 @@ records:
     name:
       zh: Mioheteromys agrarius
       en: Mioheteromys agrarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Brachytarsophrys wenshanensis
       zh: Brachytarsophrys wenshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

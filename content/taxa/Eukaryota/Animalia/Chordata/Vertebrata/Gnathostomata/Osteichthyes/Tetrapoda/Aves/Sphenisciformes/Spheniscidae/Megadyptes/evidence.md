@@ -9,7 +9,6 @@ records:
     name:
       zh: Megadyptes
       en: Megadyptes
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: evolutionaryComparison

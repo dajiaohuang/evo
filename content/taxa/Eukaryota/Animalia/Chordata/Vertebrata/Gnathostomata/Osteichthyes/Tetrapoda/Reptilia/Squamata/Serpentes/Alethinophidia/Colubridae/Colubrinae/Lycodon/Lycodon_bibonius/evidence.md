@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon bibonius
       en: Lycodon bibonius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

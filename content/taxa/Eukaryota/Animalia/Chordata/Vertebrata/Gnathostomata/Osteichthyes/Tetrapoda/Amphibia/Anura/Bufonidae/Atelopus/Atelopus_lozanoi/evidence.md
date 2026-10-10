@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus lozanoi
       zh: Atelopus lozanoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

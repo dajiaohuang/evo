@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerrejonisuchus improcerus
       en: Cerrejonisuchus improcerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

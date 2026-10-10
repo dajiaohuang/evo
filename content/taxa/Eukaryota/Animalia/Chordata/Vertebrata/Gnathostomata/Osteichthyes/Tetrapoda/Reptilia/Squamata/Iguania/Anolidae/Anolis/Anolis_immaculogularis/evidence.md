@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis immaculogularis
       en: Anolis immaculogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

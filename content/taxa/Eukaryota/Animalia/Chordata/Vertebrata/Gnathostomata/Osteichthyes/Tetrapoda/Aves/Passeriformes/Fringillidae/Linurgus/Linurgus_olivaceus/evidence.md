@@ -9,7 +9,6 @@ records:
     name:
       zh: Linurgus olivaceus
       en: Linurgus olivaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

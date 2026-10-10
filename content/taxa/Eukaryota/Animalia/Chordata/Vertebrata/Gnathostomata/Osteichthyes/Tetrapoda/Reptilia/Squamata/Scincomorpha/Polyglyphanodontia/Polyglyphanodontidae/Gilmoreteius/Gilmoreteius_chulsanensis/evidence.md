@@ -9,7 +9,6 @@ records:
     name:
       zh: Gilmoreteius chulsanensis
       en: Gilmoreteius chulsanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

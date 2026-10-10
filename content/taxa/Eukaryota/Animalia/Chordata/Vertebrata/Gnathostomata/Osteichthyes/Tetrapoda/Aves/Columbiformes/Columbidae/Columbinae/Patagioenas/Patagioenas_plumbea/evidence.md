@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagioenas plumbea
       en: Patagioenas plumbea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Wyulda squamicaudata
       en: Wyulda squamicaudata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

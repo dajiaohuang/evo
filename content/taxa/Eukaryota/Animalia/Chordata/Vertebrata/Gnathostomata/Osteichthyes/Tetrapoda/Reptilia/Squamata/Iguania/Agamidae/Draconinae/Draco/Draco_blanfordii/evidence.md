@@ -9,7 +9,6 @@ records:
     name:
       zh: Draco blanfordii
       en: Draco blanfordii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

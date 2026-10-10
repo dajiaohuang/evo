@@ -9,7 +9,6 @@ records:
     name:
       zh: Dawsonicyon isami
       en: Dawsonicyon isami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

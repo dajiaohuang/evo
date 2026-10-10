@@ -9,7 +9,6 @@ records:
     name:
       zh: 灰色细懒猴
       en: Gray slender loris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

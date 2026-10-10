@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia dunni
       zh: Caecilia dunni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

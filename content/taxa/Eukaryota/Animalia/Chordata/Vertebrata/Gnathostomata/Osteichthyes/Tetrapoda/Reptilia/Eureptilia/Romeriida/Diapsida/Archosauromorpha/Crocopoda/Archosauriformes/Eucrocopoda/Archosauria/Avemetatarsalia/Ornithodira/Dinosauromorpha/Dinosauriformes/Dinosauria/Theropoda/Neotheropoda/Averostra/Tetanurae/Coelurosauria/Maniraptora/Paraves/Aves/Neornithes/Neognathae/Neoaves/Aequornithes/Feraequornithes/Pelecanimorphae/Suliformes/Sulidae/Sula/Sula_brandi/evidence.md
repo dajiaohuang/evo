@@ -9,7 +9,6 @@ records:
     name:
       zh: Sula brandi
       en: Sula brandi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

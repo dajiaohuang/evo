@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesippus simplicidens
       en: Plesippus simplicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

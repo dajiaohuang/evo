@@ -9,7 +9,6 @@ records:
     name:
       zh: Panemydidae
       en: Panemydidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

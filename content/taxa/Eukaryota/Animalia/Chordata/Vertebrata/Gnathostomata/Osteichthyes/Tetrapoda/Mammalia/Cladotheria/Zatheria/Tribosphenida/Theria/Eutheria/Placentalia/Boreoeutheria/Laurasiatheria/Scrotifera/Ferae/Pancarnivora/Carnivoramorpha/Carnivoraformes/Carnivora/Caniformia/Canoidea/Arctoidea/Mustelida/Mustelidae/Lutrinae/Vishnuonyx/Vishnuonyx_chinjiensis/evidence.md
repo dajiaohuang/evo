@@ -9,7 +9,6 @@ records:
     name:
       zh: Vishnuonyx chinjiensis
       en: Vishnuonyx chinjiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

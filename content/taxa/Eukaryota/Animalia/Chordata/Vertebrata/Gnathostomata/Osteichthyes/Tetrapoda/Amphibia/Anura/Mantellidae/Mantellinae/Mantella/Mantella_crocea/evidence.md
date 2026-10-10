@@ -9,7 +9,6 @@ records:
     name:
       en: Mantella crocea
       zh: Mantella crocea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

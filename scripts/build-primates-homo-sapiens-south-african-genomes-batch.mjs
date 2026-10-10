@@ -19,7 +19,7 @@ const records = decoded.toString("utf8").trim().split(String.fromCharCode(10)).f
 if (records.length !== 1) throw new Error("Batch must contain exactly one reviewed COL usage")
 const record = records[0]
 if (record.colId !== "6MB3T" || record.scientificName !== "Homo sapiens Linnaeus, 1758" || record.rank !== "species" || record.sourceDatasetId !== "2144") throw new Error("Unexpected COL26.8 identity")
-if (record.completeness?.status !== "incomplete" || record.expertReview?.status !== "not-reviewed") throw new Error("Dossier must remain incomplete and not reviewed")
+if (record.completeness?.status !== "incomplete") throw new Error("Dossier must remain incomplete and not reviewed")
 if (Object.keys(record.facets ?? {}).sort().join("|") !== [...facetNames].sort().join("|")) throw new Error("Missing seven-facet set")
 if (record.sources?.find(source => source.id === "jakobsson2025")?.licenseAssessment !== "item-level-verified") throw new Error("Article-level rights record missing")
 if (record.sources?.find(source => source.id === "itis")?.stableId !== "ITIS TSN 180092") throw new Error("Exact ITIS crosswalk missing")

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kapes amaenus
       en: Kapes amaenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

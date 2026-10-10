@@ -9,7 +9,6 @@ records:
     name:
       zh: 银色绒猴
       en: Silvery marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypothymis azurea
       en: Hypothymis azurea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Alsodes neuquensis
       zh: Alsodes neuquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

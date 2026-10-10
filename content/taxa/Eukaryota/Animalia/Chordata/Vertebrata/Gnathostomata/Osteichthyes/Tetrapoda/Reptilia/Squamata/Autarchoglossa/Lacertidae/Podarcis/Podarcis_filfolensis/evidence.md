@@ -9,7 +9,6 @@ records:
     name:
       zh: Podarcis filfolensis
       en: Podarcis filfolensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

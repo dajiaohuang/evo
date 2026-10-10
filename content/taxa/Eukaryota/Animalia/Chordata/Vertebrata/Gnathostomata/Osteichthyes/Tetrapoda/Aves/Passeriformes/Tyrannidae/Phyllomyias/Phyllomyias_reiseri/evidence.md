@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllomyias reiseri
       en: Phyllomyias reiseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

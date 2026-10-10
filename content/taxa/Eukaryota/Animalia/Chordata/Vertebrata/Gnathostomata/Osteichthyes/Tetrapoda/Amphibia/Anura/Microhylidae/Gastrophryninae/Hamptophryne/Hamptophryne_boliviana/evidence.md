@@ -9,7 +9,6 @@ records:
     name:
       en: Hamptophryne boliviana
       zh: Hamptophryne boliviana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Danielsavis nazensis
       en: Danielsavis nazensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

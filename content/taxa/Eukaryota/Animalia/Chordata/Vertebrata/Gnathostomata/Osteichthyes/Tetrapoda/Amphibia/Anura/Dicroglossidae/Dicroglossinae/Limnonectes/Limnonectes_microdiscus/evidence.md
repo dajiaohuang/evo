@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes microdiscus
       zh: Limnonectes microdiscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

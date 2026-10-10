@@ -9,7 +9,6 @@ records:
     name:
       zh: Pharomachrus fulgidus
       en: Pharomachrus fulgidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

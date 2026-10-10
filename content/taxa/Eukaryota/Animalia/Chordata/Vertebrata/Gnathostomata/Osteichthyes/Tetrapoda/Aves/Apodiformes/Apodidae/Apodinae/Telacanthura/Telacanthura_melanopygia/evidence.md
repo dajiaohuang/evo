@@ -9,7 +9,6 @@ records:
     name:
       zh: Telacanthura melanopygia
       en: Telacanthura melanopygia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pentabuneomys engesseri
       en: Pentabuneomys engesseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

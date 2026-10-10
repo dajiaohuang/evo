@@ -9,7 +9,6 @@ records:
     name:
       zh: 安布雷山鼠狐猴
       en: Montagne d'Ambre Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: overview

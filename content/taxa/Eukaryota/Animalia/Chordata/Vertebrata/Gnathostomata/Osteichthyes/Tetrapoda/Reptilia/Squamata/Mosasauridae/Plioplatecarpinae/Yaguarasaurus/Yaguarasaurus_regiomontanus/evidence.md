@@ -9,7 +9,6 @@ records:
     name:
       zh: Yaguarasaurus regiomontanus
       en: Yaguarasaurus regiomontanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

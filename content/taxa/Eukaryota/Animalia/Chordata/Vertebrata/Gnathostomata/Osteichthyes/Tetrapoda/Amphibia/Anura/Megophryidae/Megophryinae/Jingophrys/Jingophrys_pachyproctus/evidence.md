@@ -9,7 +9,6 @@ records:
     name:
       en: Jingophrys pachyproctus
       zh: Jingophrys pachyproctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

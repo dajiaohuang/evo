@@ -9,7 +9,6 @@ records:
     name:
       zh: Xanthocephalus xanthocephalus
       en: Xanthocephalus xanthocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

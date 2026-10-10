@@ -9,7 +9,6 @@ records:
     name:
       zh: Enantiornis walkeri
       en: Enantiornis walkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

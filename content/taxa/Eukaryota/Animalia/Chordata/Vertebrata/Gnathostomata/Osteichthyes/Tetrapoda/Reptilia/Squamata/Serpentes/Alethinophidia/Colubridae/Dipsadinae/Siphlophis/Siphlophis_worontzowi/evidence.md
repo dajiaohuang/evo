@@ -9,7 +9,6 @@ records:
     name:
       zh: Siphlophis worontzowi
       en: Siphlophis worontzowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

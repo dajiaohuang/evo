@@ -9,7 +9,6 @@ records:
     name:
       zh: Talpa tenuidentata
       en: Talpa tenuidentata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

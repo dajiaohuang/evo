@@ -9,7 +9,6 @@ records:
     name:
       zh: Aplonis diluvialis
       en: Aplonis diluvialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylonomus wymani
       en: Hylonomus wymani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

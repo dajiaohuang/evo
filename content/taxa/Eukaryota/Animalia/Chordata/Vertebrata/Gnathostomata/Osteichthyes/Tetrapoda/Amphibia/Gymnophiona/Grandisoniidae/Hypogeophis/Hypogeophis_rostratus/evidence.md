@@ -9,7 +9,6 @@ records:
     name:
       en: Hypogeophis rostratus
       zh: Hypogeophis rostratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

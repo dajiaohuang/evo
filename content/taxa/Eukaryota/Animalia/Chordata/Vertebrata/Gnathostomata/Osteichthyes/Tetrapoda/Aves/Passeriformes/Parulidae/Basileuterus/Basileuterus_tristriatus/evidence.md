@@ -9,7 +9,6 @@ records:
     name:
       zh: Basileuterus tristriatus
       en: Basileuterus tristriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

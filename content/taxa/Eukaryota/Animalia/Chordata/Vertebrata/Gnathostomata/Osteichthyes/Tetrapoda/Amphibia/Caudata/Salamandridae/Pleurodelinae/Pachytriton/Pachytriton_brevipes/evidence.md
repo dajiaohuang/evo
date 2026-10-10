@@ -9,7 +9,6 @@ records:
     name:
       en: Pachytriton brevipes
       zh: Pachytriton brevipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

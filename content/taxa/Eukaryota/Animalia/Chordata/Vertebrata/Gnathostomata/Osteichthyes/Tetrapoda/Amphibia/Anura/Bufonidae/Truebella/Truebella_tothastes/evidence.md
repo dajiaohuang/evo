@@ -9,7 +9,6 @@ records:
     name:
       en: Truebella tothastes
       zh: Truebella tothastes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

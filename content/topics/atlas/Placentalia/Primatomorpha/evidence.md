@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: dos-reis-2018-primate-clock primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: dos-reis-2018-primate-clock
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: dos-reis-2018-primate-clock
           locator: pp. 594–615; Figures 1–5; Table 3; Supplementary spreadsheet
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

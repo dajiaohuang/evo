@@ -9,7 +9,6 @@ records:
     name:
       zh: Myotomys sloggetti
       en: Myotomys sloggetti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

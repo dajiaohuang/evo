@@ -9,7 +9,6 @@ records:
     name:
       en: Nasutibatrachus pronimius
       zh: Nasutibatrachus pronimius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

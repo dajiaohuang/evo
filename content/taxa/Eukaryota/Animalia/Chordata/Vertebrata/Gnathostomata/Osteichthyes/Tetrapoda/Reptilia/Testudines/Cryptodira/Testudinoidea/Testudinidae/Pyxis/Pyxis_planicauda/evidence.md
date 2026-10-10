@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyxis planicauda
       en: Pyxis planicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

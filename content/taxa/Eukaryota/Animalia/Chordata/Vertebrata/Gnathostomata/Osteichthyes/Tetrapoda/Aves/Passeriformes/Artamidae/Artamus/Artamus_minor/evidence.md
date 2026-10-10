@@ -9,7 +9,6 @@ records:
     name:
       zh: Artamus minor
       en: Artamus minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

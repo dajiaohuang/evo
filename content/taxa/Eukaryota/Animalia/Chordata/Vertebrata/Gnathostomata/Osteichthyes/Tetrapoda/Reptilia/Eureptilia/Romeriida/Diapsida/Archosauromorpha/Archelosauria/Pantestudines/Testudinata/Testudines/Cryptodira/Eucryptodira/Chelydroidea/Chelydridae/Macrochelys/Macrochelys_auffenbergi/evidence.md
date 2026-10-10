@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrochelys auffenbergi
       en: Macrochelys auffenbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Orycteropus pottieri
       en: Orycteropus pottieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

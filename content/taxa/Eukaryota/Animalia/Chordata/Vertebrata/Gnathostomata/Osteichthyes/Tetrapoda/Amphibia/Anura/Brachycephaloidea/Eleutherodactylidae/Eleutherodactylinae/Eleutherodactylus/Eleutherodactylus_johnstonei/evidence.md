@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus johnstonei
       zh: Eleutherodactylus johnstonei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

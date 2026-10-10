@@ -9,7 +9,6 @@ records:
     name:
       zh: Merialinae
       en: Merialinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

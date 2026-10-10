@@ -9,7 +9,6 @@ records:
     name:
       zh: Mulleripicus fulvus
       en: Mulleripicus fulvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

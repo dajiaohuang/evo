@@ -9,7 +9,6 @@ records:
     name:
       zh: Indratherium compressus
       en: Indratherium compressus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

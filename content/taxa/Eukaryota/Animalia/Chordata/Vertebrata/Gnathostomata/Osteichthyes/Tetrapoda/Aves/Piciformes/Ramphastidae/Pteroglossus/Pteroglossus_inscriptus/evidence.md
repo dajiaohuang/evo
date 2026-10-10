@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteroglossus inscriptus
       en: Pteroglossus inscriptus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

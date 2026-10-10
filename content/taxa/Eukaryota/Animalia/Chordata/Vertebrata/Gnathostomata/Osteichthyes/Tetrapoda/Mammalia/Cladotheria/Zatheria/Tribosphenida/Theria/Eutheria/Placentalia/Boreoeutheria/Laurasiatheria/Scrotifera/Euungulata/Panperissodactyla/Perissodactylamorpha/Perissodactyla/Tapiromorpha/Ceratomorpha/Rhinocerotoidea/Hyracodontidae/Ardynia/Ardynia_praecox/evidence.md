@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardynia praecox
       en: Ardynia praecox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelonoidis petrocellii
       en: Chelonoidis petrocellii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

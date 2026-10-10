@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus wightmanae
       zh: Eleutherodactylus wightmanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

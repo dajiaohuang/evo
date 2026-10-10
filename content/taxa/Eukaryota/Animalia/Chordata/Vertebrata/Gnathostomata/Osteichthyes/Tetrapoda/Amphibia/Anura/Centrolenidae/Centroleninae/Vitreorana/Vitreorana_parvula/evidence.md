@@ -9,7 +9,6 @@ records:
     name:
       en: Vitreorana parvula
       zh: Vitreorana parvula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

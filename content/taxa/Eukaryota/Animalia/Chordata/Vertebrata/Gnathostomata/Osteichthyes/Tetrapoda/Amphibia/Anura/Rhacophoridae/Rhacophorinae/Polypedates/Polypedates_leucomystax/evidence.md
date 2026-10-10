@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates leucomystax
       zh: Polypedates leucomystax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

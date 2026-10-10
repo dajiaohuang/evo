@@ -9,7 +9,6 @@ records:
     name:
       zh: Edaphocyon palmeri
       en: Edaphocyon palmeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

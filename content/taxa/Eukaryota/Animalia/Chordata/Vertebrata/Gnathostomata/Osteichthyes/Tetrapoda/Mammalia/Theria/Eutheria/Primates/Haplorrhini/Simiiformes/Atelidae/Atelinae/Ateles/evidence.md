@@ -9,7 +9,6 @@ records:
     name:
       en: Spider Monkeys
       zh: 蜘蛛猴属
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

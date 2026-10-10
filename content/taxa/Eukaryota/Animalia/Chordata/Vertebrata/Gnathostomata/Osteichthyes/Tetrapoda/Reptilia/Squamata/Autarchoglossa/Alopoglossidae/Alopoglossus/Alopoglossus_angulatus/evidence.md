@@ -9,7 +9,6 @@ records:
     name:
       zh: Alopoglossus angulatus
       en: Alopoglossus angulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

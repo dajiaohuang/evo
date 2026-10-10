@@ -9,7 +9,6 @@ records:
     name:
       en: Incilius ibarrai
       zh: Incilius ibarrai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

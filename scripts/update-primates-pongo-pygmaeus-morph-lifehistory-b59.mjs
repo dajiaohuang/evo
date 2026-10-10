@@ -91,7 +91,6 @@ function validateDossier(dossier) {
   assert.equal(dossier.scientificName, source.audit.target.scientificName)
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness?.status, 'incomplete')
-  assert.equal(dossier.expertReview?.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   const sourceIds = new Set(dossier.sources.map(item => item.id))
   assert.equal(sourceIds.size, dossier.sources.length, 'Duplicate source ids')

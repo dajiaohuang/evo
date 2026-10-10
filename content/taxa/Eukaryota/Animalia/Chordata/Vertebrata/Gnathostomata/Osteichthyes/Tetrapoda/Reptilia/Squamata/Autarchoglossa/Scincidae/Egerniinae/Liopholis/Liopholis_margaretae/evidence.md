@@ -9,7 +9,6 @@ records:
     name:
       zh: Liopholis margaretae
       en: Liopholis margaretae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

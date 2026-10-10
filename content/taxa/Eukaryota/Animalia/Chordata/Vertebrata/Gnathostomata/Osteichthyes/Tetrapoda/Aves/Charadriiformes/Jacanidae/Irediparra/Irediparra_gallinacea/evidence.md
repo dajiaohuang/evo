@@ -9,7 +9,6 @@ records:
     name:
       zh: Irediparra gallinacea
       en: Irediparra gallinacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

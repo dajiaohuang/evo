@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocalotes poilani
       en: Pseudocalotes poilani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 膜翅目
       en: Ants, bees, wasps and sawflies
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

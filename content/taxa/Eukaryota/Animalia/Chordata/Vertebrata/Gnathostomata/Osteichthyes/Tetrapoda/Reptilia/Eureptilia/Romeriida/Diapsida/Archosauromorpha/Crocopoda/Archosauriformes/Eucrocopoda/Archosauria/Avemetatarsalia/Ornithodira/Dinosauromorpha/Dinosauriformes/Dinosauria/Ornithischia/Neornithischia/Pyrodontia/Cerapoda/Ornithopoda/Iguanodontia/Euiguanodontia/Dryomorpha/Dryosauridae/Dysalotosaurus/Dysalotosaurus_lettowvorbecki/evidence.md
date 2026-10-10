@@ -9,7 +9,6 @@ records:
     name:
       zh: Dysalotosaurus lettowvorbecki
       en: Dysalotosaurus lettowvorbecki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

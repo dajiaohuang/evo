@@ -9,7 +9,6 @@ records:
     name:
       zh: Diprotodonta
       en: Diprotodonta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

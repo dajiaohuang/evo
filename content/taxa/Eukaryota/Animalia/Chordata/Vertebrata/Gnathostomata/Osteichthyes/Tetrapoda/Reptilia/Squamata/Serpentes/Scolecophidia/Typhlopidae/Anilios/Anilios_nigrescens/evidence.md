@@ -9,7 +9,6 @@ records:
     name:
       zh: Anilios nigrescens
       en: Anilios nigrescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

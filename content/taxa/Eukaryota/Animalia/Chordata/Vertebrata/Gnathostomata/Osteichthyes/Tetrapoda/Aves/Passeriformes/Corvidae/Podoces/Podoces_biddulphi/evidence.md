@@ -9,7 +9,6 @@ records:
     name:
       zh: Podoces biddulphi
       en: Podoces biddulphi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

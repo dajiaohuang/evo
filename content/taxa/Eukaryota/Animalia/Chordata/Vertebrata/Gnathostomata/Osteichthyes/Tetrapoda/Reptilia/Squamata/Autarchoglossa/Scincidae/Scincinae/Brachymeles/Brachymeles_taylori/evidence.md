@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachymeles taylori
       en: Brachymeles taylori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

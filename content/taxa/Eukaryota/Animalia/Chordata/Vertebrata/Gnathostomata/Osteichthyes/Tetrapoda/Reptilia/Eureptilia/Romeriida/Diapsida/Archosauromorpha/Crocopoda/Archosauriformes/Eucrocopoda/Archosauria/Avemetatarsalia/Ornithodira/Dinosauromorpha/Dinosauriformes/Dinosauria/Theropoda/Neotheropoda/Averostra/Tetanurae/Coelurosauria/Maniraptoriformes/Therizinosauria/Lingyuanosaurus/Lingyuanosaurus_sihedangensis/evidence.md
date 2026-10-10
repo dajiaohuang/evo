@@ -9,7 +9,6 @@ records:
     name:
       zh: Lingyuanosaurus sihedangensis
       en: Lingyuanosaurus sihedangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

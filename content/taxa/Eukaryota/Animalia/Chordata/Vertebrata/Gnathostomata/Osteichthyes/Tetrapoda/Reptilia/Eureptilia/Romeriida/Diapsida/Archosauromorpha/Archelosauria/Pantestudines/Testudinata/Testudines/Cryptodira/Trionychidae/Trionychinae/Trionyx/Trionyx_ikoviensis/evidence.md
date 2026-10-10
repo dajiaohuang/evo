@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx ikoviensis
       en: Trionyx ikoviensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

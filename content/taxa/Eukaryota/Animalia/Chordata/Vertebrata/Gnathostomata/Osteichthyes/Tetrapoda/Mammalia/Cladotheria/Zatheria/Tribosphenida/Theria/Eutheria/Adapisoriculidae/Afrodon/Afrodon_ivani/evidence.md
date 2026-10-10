@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrodon ivani
       en: Afrodon ivani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

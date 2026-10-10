@@ -9,7 +9,6 @@ records:
     name:
       zh: Petrolacosauridae
       en: Petrolacosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon albagula
       zh: Plethodon albagula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Haplomeryx zitteli
       en: Haplomeryx zitteli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

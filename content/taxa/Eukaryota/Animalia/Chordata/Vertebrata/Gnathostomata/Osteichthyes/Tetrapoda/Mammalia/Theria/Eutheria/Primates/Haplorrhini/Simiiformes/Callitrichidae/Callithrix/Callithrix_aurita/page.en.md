@@ -16,5 +16,5 @@ Playback surveys recorded buffy-tufted-ear marmosets in 15 of 45 Atlantic Forest
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This source-linked field-study guide is not externally expert-reviewed. Findings are limited to fragment surveys and occurrence models around Alfenas and Poço Fundo; failure to validate a marmoset model at the second site does not establish absence or rule out other ecological relationships.
+This source-linked field-study guide is. Findings are limited to fragment surveys and occurrence models around Alfenas and Poço Fundo; failure to validate a marmoset model at the second site does not establish absence or rule out other ecological relationships.
 <!-- /evo:text -->

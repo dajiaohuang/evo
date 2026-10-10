@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea longicauda
       zh: Pseudoeurycea longicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Hemidactylium scutatum
       zh: Hemidactylium scutatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

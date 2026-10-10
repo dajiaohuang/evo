@@ -182,8 +182,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Cullumia decurrens
@@ -377,5 +375,5 @@ The regional source concept has not been comprehensively compared with global ta
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No systematic literature search, fossil review, global distribution synthesis, conservation assessment or external expert review has been completed.
+No systematic literature search, fossil review, global distribution synthesis, conservation assessment has been completed.
 <!-- /evo:text -->

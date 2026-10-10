@@ -9,7 +9,6 @@ records:
     name:
       zh: Vagaceratops irvinensis
       en: Vagaceratops irvinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

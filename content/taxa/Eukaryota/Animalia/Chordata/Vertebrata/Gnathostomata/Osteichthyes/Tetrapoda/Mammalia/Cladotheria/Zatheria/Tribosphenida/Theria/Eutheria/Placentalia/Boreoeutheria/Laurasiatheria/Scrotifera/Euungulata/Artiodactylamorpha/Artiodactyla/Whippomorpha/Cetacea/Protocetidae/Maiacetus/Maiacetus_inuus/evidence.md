@@ -9,7 +9,6 @@ records:
     name:
       zh: Maiacetus inuus
       en: Maiacetus inuus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

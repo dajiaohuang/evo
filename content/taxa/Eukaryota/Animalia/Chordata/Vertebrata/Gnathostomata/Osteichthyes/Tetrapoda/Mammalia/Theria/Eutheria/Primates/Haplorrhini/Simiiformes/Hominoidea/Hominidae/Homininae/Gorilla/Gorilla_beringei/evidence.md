@@ -9,7 +9,6 @@ records:
     name:
       zh: 东部大猩猩
       en: Eastern gorilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: lifeHistory
@@ -820,8 +819,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
 ---
 
 # Gorilla beringei
@@ -1195,5 +1192,5 @@ The dossier draws on a bounded mitochondrial-genome study, two mountain-gorilla 
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-Life history is now partially supported for two G. b. beringei populations. Morphology and fossil evidence remain unassessed; ecology, evolution, distribution, and conservation are locally or study-limited partial facets. No systematic seven-facet literature search or independent external expert review has been completed.
+Life history is now partially supported for two G. b. beringei populations. Morphology and fossil evidence remain unassessed; ecology, evolution, distribution, and conservation are locally or study-limited partial facets.
 <!-- /evo:text -->

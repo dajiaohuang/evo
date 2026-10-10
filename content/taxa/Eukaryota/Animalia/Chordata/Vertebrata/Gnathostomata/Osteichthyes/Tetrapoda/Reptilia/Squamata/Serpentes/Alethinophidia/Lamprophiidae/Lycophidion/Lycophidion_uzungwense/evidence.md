@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycophidion uzungwense
       en: Lycophidion uzungwense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Alopoglossus festae
       en: Alopoglossus festae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Quasipaa yei
       zh: Quasipaa yei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

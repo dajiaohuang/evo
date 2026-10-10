@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus athirappillyensis
       zh: Nyctibatrachus athirappillyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

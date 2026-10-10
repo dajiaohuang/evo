@@ -34,5 +34,5 @@ A study from Gabon's Haut-Ogooué region treated thomasi and demidoff as sympatr
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a guide to a first record from one Bioko locality and a sympatric study in Gabon, not a complete species account. Available sources do not support a full range, range-wide ecology or current population status; neighboring-population research is not extrapolated to the island as a whole. The page has not received external expert review. This page is not externally expert-reviewed.
+This is a guide to a first record from one Bioko locality and a sympatric study in Gabon, not a complete species account. Available sources do not support a full range, range-wide ecology or current population status; neighboring-population research is not extrapolated to the island as a whole. This page is.
 <!-- /evo:text -->

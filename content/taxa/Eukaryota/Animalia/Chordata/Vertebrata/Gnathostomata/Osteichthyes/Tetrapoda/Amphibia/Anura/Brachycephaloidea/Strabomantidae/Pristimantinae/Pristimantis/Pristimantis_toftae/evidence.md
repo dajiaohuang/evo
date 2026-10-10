@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis toftae
       zh: Pristimantis toftae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

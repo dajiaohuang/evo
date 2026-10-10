@@ -9,7 +9,6 @@ records:
     name:
       zh: Panobius afridi
       en: Panobius afridi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ahaetulla dispar
       en: Ahaetulla dispar
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

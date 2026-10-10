@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucomys sabrinus
       en: Glaucomys sabrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

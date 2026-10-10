@@ -9,7 +9,6 @@ records:
     name:
       zh: Yi qi
       en: Yi qi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

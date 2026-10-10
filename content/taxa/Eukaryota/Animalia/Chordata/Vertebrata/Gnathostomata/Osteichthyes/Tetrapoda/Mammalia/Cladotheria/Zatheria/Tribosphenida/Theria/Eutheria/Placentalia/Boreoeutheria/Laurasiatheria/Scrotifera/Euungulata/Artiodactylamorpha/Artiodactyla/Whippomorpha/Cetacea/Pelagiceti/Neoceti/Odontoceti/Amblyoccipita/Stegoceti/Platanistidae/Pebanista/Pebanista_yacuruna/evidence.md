@@ -9,7 +9,6 @@ records:
     name:
       zh: Pebanista yacuruna
       en: Pebanista yacuruna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nannophrys ceylonensis
       zh: Nannophrys ceylonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

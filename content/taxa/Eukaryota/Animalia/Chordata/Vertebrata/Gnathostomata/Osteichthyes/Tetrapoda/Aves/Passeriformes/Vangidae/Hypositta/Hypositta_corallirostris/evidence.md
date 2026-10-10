@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypositta corallirostris
       en: Hypositta corallirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

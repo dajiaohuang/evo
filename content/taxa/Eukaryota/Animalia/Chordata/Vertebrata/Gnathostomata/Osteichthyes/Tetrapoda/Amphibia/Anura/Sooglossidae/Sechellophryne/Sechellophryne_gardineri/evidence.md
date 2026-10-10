@@ -9,7 +9,6 @@ records:
     name:
       en: Sechellophryne gardineri
       zh: Sechellophryne gardineri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

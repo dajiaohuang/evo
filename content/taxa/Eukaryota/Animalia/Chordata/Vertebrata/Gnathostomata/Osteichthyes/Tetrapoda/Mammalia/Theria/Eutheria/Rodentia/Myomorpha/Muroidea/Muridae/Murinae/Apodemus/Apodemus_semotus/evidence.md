@@ -9,7 +9,6 @@ records:
     name:
       zh: Apodemus semotus
       en: Apodemus semotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

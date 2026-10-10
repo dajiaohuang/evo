@@ -9,7 +9,6 @@ records:
     name:
       en: Barygenys nana
       zh: Barygenys nana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

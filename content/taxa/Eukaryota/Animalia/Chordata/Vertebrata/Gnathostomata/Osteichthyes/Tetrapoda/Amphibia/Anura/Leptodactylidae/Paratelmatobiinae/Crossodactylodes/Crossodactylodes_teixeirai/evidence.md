@@ -9,7 +9,6 @@ records:
     name:
       en: Crossodactylodes teixeirai
       zh: Crossodactylodes teixeirai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

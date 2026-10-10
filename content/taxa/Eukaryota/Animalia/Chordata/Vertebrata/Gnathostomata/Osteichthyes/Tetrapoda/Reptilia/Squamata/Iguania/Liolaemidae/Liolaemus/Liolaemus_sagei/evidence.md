@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus sagei
       en: Liolaemus sagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

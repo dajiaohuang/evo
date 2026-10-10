@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene heloderma
       zh: Centrolene heloderma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pengilleyia tyleri
       zh: Pengilleyia tyleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeodesmana dekkersi
       en: Archaeodesmana dekkersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

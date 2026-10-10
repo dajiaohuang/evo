@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana gigatympana
       zh: Odorrana gigatympana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

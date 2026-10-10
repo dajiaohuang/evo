@@ -9,7 +9,6 @@ records:
     name:
       zh: Vanellus tricolor
       en: Vanellus tricolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

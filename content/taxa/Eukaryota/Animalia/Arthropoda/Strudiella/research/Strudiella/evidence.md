@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Garrouste et al. 2012 DOI 10.1038/nature11281; Hörnschemeyer et al. 2013 DOI 10.1038/nature11887
       referenceLinks:
         - referenceId: garrouste-2012-strudiella
           relation: supports
@@ -85,9 +82,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Garrouste et al. 2012 DOI 10.1038/nature11281; Hörnschemeyer et al. 2013 DOI 10.1038/nature11887
       referenceLinks:
         - referenceId: garrouste-2012-strudiella
           relation: supports
@@ -111,9 +105,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Garrouste et al. 2012 DOI 10.1038/nature11281; Hörnschemeyer et al. 2013 DOI 10.1038/nature11887
       referenceLinks:
         - referenceId: garrouste-2012-strudiella
           relation: supports
@@ -137,9 +128,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Garrouste et al. 2012 DOI 10.1038/nature11281; Hörnschemeyer et al. 2013 DOI 10.1038/nature11887
       referenceLinks:
         - referenceId: garrouste-2012-strudiella
           relation: supports
@@ -163,9 +151,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Garrouste et al. 2012 DOI 10.1038/nature11281; Hörnschemeyer et al. 2013 DOI 10.1038/nature11887
       referenceLinks:
         - referenceId: garrouste-2012-strudiella
           relation: supports
@@ -226,7 +211,6 @@ records:
           locator: pp. 82–85; Figures 1–4; Late Devonian Strud locality and specimen description
         - referenceId: hornschemeyer-2013-strudiella
           locator: pp. E3–E4; re-investigation of the same Strud specimen
-      reviewStatus: automated-audit-passed
 ---
 
 # Strudiella

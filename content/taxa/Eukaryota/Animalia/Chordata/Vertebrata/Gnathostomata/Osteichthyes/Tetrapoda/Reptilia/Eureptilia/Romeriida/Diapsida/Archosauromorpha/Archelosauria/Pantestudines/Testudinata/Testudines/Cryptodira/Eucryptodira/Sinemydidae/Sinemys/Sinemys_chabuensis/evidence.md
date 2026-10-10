@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinemys chabuensis
       en: Sinemys chabuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

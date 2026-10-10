@@ -9,7 +9,6 @@ records:
     name:
       zh: Vipera (Macrovipera) ukrainica
       en: Vipera (Macrovipera) ukrainica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

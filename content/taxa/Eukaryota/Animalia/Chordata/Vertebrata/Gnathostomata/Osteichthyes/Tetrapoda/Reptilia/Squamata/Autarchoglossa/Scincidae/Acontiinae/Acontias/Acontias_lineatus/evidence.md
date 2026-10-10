@@ -9,7 +9,6 @@ records:
     name:
       zh: Acontias lineatus
       en: Acontias lineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

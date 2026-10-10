@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys berghei
       zh: Sclerophrys berghei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

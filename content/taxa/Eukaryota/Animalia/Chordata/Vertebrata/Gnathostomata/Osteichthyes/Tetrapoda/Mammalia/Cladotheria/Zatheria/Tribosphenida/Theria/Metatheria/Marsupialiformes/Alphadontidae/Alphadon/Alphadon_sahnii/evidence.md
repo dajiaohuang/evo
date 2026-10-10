@@ -9,7 +9,6 @@ records:
     name:
       zh: Alphadon sahnii
       en: Alphadon sahnii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

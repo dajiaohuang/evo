@@ -9,7 +9,6 @@ records:
     name:
       en: Viridihyla wapogaensis
       zh: Viridihyla wapogaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

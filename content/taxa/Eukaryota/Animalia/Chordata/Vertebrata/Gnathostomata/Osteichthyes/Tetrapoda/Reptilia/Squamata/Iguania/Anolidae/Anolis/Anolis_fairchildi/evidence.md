@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis fairchildi
       en: Anolis fairchildi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

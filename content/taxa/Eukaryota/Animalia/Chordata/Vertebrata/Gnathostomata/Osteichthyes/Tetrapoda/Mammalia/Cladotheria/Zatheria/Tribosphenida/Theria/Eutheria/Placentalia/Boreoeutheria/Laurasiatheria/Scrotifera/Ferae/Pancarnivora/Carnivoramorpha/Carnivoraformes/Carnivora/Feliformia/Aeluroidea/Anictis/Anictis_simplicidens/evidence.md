@@ -9,7 +9,6 @@ records:
     name:
       zh: Anictis simplicidens
       en: Anictis simplicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

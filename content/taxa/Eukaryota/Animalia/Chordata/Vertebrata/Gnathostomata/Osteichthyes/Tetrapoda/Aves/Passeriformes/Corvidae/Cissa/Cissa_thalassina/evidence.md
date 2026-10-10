@@ -9,7 +9,6 @@ records:
     name:
       zh: Cissa thalassina
       en: Cissa thalassina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

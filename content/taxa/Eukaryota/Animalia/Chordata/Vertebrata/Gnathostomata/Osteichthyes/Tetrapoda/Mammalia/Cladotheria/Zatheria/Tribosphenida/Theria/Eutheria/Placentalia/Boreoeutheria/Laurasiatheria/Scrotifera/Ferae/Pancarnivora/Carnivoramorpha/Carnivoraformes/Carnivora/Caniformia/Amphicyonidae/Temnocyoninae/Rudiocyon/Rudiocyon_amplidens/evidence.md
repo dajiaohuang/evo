@@ -9,7 +9,6 @@ records:
     name:
       zh: Rudiocyon amplidens
       en: Rudiocyon amplidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

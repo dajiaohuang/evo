@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx admirabilis
       en: Trionyx admirabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

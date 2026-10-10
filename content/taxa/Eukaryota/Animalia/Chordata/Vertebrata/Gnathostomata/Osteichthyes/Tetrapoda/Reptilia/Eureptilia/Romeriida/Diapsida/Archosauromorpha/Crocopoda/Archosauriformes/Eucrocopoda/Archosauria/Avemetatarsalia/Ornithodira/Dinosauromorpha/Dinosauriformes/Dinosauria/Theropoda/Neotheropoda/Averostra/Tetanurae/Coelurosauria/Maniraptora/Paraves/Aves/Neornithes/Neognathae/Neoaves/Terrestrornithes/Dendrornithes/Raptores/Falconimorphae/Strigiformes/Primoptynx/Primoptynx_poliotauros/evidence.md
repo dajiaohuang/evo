@@ -9,7 +9,6 @@ records:
     name:
       zh: Primoptynx poliotauros
       en: Primoptynx poliotauros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

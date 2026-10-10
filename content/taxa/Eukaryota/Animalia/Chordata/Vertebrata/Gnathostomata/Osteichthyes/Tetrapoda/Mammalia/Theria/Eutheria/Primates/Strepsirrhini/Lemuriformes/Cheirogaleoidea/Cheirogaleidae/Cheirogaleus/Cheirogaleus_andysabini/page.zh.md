@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页概述的是 Montagne d'Ambre 采样材料和原始描述；不推定完整分布、当前数量或其他北部种群的身份。本页尚未经过外部领域专家评审。
+本页概述的是 Montagne d'Ambre 采样材料和原始描述；不推定完整分布、当前数量或其他北部种群的身份。。
 <!-- /evo:text -->

@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-主要生态材料来自一项 2024 年学士论文的局地研究，不是全种调查。本页尚未经过外部领域专家评审。
+主要生态材料来自一项 2024 年学士论文的局地研究，不是全种调查。。
 <!-- /evo:text -->

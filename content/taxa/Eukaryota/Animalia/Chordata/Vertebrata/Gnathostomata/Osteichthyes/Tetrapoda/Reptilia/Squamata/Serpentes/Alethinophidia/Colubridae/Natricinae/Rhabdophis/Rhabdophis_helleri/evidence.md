@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhabdophis helleri
       en: Rhabdophis helleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

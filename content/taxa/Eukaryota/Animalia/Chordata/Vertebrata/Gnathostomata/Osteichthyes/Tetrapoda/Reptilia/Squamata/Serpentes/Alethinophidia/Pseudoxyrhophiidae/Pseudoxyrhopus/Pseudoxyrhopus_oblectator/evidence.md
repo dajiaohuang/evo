@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoxyrhopus oblectator
       en: Pseudoxyrhopus oblectator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

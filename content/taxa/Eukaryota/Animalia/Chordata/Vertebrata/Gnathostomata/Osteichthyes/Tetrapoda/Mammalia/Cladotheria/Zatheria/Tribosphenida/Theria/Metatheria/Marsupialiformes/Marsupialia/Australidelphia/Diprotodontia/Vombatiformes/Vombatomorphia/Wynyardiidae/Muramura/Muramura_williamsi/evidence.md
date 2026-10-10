@@ -9,7 +9,6 @@ records:
     name:
       zh: Muramura williamsi
       en: Muramura williamsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

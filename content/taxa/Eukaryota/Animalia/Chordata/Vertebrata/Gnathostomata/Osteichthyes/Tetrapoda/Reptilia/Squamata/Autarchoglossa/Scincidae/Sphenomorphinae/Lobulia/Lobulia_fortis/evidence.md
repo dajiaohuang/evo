@@ -9,7 +9,6 @@ records:
     name:
       zh: Lobulia fortis
       en: Lobulia fortis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

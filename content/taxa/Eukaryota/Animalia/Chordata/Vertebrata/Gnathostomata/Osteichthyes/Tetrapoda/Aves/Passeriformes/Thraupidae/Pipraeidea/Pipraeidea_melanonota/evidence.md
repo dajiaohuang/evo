@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipraeidea melanonota
       en: Pipraeidea melanonota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

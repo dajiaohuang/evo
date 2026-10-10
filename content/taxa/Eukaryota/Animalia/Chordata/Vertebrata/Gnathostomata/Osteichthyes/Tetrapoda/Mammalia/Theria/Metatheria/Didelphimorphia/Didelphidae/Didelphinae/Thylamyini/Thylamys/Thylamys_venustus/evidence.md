@@ -9,7 +9,6 @@ records:
     name:
       zh: Thylamys venustus
       en: Thylamys venustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

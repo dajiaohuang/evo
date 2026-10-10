@@ -9,7 +9,6 @@ records:
     name:
       zh: Sibynophis bivittatus
       en: Sibynophis bivittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

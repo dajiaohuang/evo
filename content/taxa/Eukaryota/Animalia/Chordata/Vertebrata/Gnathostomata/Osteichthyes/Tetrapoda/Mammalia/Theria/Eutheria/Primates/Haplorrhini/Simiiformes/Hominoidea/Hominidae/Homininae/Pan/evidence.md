@@ -29,9 +29,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: COL26.8 dataset 316115, accepted usage 4C92G and parent usage 6D2G; cross-checked against the raw dossier on 2026-09-27
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: col-2026-checklistbank-316115
           locator: COL26.8 release dataset 316115; accepted usage 6D2G (identity/classification only)
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Pan
     rank: genus
@@ -73,7 +69,6 @@ records:
     name:
       zh: Pan
       en: Pan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

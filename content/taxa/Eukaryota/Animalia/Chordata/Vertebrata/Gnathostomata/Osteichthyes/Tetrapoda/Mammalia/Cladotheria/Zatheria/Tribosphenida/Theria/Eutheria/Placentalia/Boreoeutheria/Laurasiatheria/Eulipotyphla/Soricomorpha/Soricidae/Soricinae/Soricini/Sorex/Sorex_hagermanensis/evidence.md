@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex hagermanensis
       en: Sorex hagermanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

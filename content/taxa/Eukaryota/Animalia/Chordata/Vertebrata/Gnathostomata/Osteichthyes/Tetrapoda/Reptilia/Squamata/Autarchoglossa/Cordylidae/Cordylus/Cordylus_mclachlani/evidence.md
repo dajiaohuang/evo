@@ -9,7 +9,6 @@ records:
     name:
       zh: Cordylus mclachlani
       en: Cordylus mclachlani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

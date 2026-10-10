@@ -9,7 +9,6 @@ records:
     name:
       zh: Podiceps taczanowskii
       en: Podiceps taczanowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

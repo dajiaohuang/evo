@@ -9,7 +9,6 @@ records:
     name:
       zh: Zoonavena thomensis
       en: Zoonavena thomensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

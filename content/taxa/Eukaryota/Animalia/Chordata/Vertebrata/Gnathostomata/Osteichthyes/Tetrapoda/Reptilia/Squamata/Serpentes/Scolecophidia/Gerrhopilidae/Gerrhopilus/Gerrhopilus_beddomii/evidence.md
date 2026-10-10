@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerrhopilus beddomii
       en: Gerrhopilus beddomii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

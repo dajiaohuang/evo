@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplacodon emarginatus
       en: Diplacodon emarginatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

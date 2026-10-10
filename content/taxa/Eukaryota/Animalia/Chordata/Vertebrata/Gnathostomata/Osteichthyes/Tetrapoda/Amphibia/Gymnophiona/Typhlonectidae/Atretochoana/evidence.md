@@ -9,7 +9,6 @@ records:
     name:
       en: Atretochoana
       zh: Atretochoana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

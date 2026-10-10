@@ -9,7 +9,6 @@ records:
     name:
       zh: Terrapene singletoni
       en: Terrapene singletoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

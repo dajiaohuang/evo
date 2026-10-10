@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera engelsi
       zh: Adenomera engelsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

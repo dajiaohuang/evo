@@ -9,7 +9,6 @@ records:
     name:
       zh: Apeomys tuerkheimae
       en: Apeomys tuerkheimae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

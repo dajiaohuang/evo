@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelomedusidae 科
       en: Pelomedusidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

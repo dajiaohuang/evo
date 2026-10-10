@@ -9,7 +9,6 @@ records:
     name:
       zh: Homopholis fasciata
       en: Homopholis fasciata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

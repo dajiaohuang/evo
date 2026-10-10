@@ -9,7 +9,6 @@ records:
     name:
       zh: Periptychus coarctatus
       en: Periptychus coarctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Limnomedusa macroglossa
       zh: Limnomedusa macroglossa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

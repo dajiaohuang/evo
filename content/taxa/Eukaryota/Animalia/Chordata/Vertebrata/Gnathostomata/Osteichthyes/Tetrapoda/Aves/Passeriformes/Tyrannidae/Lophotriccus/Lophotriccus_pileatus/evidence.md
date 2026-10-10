@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophotriccus pileatus
       en: Lophotriccus pileatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

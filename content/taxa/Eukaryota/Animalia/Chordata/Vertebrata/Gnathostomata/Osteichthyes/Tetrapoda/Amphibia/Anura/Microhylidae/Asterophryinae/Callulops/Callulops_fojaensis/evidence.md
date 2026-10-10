@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops fojaensis
       zh: Callulops fojaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

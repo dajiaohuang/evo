@@ -9,7 +9,6 @@ records:
     name:
       zh: Bassaricyonoides phyllismillerae
       en: Bassaricyonoides phyllismillerae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

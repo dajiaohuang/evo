@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptailurus
       en: Leptailurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

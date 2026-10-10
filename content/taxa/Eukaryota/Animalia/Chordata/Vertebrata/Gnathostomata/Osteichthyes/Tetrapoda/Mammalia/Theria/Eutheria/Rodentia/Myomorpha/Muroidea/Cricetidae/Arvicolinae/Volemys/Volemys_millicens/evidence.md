@@ -9,7 +9,6 @@ records:
     name:
       zh: Volemys millicens
       en: Volemys millicens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis chimu
       zh: Pristimantis chimu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

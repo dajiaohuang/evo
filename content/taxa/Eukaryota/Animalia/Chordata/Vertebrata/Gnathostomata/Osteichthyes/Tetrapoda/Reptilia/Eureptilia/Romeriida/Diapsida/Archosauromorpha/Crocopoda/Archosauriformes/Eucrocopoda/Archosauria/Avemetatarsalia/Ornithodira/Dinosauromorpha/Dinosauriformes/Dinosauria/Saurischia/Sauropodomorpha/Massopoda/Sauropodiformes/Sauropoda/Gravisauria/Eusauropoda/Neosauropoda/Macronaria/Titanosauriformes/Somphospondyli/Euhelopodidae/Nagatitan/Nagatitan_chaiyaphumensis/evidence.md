@@ -9,7 +9,6 @@ records:
     name:
       zh: Nagatitan chaiyaphumensis
       en: Nagatitan chaiyaphumensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

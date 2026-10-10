@@ -9,7 +9,6 @@ records:
     name:
       zh: Foro panarium
       en: Foro panarium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lamottemys okuensis
       en: Lamottemys okuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

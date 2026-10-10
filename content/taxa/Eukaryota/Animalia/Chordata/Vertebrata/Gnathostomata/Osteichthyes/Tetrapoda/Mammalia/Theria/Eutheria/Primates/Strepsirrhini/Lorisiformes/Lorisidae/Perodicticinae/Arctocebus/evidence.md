@@ -10,7 +10,6 @@ records:
     name:
       en: Angwantibo genus
       zh: 熊猴属
-    reviewStatus: source-linked
     sections:
       - topic: readingPath
         text:

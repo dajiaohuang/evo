@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocalotes flavigula
       en: Pseudocalotes flavigula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

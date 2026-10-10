@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphotyphlops adocetus
       en: Ramphotyphlops adocetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cernaycerta duchaussoisi
       en: Cernaycerta duchaussoisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

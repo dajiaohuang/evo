@@ -9,7 +9,6 @@ records:
     name:
       zh: 龟类
       en: Turtles
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

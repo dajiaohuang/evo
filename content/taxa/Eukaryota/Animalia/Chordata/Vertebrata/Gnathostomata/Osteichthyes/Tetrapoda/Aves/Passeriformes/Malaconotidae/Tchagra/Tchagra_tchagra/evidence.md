@@ -9,7 +9,6 @@ records:
     name:
       zh: Tchagra tchagra
       en: Tchagra tchagra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene medemi
       zh: Centrolene medemi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

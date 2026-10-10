@@ -9,7 +9,6 @@ records:
     name:
       zh: Citellus
       en: Citellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

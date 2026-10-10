@@ -9,7 +9,6 @@ records:
     name:
       zh: Basalomys ijlsti
       en: Basalomys ijlsti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

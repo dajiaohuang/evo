@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeosinopa nunavutensis
       en: Palaeosinopa nunavutensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

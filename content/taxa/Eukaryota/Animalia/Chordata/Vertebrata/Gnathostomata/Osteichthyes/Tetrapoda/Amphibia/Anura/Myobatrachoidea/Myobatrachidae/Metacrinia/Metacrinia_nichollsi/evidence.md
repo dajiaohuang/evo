@@ -9,7 +9,6 @@ records:
     name:
       en: Metacrinia nichollsi
       zh: Metacrinia nichollsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

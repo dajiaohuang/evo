@@ -9,7 +9,6 @@ records:
     name:
       zh: Azibius trerki
       en: Azibius trerki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

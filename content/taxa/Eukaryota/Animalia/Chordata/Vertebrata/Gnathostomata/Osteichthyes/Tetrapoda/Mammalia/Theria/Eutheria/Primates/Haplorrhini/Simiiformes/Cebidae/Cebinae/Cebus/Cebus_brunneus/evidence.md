@@ -9,7 +9,6 @@ records:
     name:
       zh: 布鲁内乌斯卷尾猴
       en: Cebus brunneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: sampleProvenance

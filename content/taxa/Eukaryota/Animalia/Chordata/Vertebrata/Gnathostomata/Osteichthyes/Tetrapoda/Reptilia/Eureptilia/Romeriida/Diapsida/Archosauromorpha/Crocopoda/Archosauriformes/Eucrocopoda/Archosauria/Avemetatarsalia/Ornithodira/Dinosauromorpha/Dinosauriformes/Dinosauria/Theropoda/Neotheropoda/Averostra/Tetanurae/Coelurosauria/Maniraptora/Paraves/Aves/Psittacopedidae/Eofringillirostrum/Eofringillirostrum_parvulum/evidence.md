@@ -9,7 +9,6 @@ records:
     name:
       zh: Eofringillirostrum parvulum
       en: Eofringillirostrum parvulum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

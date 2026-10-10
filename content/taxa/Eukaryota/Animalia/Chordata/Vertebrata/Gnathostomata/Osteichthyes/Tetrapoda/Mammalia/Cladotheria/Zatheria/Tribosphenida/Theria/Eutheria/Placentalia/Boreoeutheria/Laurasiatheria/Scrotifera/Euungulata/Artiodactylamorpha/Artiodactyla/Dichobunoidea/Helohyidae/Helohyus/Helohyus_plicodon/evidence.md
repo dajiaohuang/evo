@@ -9,7 +9,6 @@ records:
     name:
       zh: Helohyus plicodon
       en: Helohyus plicodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

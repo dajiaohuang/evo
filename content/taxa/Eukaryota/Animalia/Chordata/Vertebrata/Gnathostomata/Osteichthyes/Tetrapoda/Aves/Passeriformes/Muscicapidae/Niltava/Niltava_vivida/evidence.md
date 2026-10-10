@@ -9,7 +9,6 @@ records:
     name:
       zh: Niltava vivida
       en: Niltava vivida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

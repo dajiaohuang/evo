@@ -9,7 +9,6 @@ records:
     name:
       zh: Bessoecetor krausei
       en: Bessoecetor krausei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

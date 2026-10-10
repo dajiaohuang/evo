@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachoseps attenuatus
       zh: Batrachoseps attenuatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

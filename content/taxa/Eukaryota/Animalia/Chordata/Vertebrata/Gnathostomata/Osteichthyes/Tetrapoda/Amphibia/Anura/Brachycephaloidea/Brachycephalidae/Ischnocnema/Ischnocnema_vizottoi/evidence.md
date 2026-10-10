@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema vizottoi
       zh: Ischnocnema vizottoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

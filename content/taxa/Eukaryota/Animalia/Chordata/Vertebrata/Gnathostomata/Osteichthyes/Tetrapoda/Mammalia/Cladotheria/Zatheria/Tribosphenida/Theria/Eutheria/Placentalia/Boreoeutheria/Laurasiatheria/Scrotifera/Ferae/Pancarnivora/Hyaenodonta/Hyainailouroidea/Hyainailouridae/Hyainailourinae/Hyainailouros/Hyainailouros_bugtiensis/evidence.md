@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyainailouros bugtiensis
       en: Hyainailouros bugtiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

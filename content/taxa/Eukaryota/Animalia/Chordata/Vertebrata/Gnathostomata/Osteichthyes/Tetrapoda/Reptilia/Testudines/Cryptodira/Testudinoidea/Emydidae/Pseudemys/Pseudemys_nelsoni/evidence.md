@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudemys nelsoni
       en: Pseudemys nelsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

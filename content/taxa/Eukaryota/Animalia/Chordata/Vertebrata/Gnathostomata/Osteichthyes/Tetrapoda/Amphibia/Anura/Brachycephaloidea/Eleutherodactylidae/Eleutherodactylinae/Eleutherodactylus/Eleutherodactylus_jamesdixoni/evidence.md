@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus jamesdixoni
       zh: Eleutherodactylus jamesdixoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

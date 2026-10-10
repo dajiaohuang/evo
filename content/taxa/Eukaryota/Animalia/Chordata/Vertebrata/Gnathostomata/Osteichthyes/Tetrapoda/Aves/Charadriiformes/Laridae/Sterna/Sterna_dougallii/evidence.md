@@ -9,7 +9,6 @@ records:
     name:
       zh: Sterna dougallii
       en: Sterna dougallii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

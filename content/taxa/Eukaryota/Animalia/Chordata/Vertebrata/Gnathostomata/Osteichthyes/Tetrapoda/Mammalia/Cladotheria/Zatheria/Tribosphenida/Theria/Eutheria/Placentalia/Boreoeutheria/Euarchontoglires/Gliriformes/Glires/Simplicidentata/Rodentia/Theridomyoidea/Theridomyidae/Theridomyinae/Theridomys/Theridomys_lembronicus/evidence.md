@@ -9,7 +9,6 @@ records:
     name:
       zh: Theridomys lembronicus
       en: Theridomys lembronicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis lebeaui
       zh: Leptopelis lebeaui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

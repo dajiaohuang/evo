@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobatrachus impurus
       zh: Leptobatrachus impurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

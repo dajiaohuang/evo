@@ -9,7 +9,6 @@ records:
     name:
       zh: Berthasaura leopoldinae
       en: Berthasaura leopoldinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

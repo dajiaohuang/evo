@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagiolophus cartailhaci
       en: Plagiolophus cartailhaci
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

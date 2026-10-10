@@ -9,7 +9,6 @@ records:
     name:
       zh: Phiomys bowni
       en: Phiomys bowni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

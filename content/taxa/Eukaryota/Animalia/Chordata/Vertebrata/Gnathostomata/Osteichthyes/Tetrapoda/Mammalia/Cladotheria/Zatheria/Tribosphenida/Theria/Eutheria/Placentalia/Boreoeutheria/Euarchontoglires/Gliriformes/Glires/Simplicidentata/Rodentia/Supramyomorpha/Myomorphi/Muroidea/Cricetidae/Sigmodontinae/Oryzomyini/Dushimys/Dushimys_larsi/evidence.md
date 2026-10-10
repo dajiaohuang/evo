@@ -9,7 +9,6 @@ records:
     name:
       zh: Dushimys larsi
       en: Dushimys larsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

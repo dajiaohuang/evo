@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis vilcabambae
       zh: Pristimantis vilcabambae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

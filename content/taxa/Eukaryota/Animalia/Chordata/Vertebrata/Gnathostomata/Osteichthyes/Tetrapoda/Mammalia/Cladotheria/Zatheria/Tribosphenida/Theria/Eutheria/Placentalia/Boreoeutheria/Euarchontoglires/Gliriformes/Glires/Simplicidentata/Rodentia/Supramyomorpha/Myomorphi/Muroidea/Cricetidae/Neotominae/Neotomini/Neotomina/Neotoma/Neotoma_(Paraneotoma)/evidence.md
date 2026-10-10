@@ -9,7 +9,6 @@ records:
     name:
       zh: Neotoma (Paraneotoma)
       en: Neotoma (Paraneotoma)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -16,5 +16,5 @@ Researchers followed one group in primary evergreen forest on Mt. Wuliang in sou
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Strata and terrestriality results come from one Mt. Wuliang group; the interspecific association is comparative and does not show that forest cover caused individual behavior. The Chinese common name is an editorial translation; the page has not received external expert review. This page is not externally expert-reviewed.
+Strata and terrestriality results come from one Mt. Wuliang group; the interspecific association is comparative and does not show that forest cover caused individual behavior. The Chinese common name is an editorial translation.
 <!-- /evo:text -->

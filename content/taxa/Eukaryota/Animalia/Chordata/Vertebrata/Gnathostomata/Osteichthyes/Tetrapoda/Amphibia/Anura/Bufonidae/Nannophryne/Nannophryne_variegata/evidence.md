@@ -9,7 +9,6 @@ records:
     name:
       en: Nannophryne variegata
       zh: Nannophryne variegata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

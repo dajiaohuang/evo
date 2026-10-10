@@ -28,5 +28,5 @@ This page uses MDD's primary English display name and retains Antafondro Mouse L
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Evidence is limited to the 2008 revision, its descriptive material and the type locality; the type point is not treated as a present-day range survey, and no population trend or conservation category is inferred. The Chinese common name is editorial and the page has not received external expert review. The page is not externally expert-reviewed.
+Evidence is limited to the 2008 revision, its descriptive material and the type locality; the type point is not treated as a present-day range survey, and no population trend or conservation category is inferred. The Chinese common name is editorial. The page is.
 <!-- /evo:text -->

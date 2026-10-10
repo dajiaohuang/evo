@@ -9,7 +9,6 @@ records:
     name:
       zh: Tegotherium gubini
       en: Tegotherium gubini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Undorosaurus khorlovensis
       en: Undorosaurus khorlovensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

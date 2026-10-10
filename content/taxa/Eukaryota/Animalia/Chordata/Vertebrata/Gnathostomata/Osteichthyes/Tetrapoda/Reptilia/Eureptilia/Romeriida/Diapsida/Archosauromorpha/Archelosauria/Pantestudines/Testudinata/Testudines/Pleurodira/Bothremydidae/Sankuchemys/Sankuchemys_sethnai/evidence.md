@@ -9,7 +9,6 @@ records:
     name:
       zh: Sankuchemys sethnai
       en: Sankuchemys sethnai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

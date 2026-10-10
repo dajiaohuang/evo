@@ -9,7 +9,6 @@ records:
     name:
       zh: Sibynophis triangularis
       en: Sibynophis triangularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lontra canadensis
       en: Lontra canadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

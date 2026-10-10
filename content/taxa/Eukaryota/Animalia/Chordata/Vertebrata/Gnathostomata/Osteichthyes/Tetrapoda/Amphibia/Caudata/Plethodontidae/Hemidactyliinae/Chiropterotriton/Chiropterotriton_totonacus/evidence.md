@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton totonacus
       zh: Chiropterotriton totonacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis sparsa
       en: Trachylepis sparsa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

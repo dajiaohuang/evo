@@ -112,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Gingerich et al. 1990 DOI 10.1126/science.249.4965.154; Houssaye et al. 2015 DOI 10.1371/journal.pone.0118409
       referenceLinks:
         - referenceId: gingerich-1990-basilosaurus-hind-limbs
           relation: supports

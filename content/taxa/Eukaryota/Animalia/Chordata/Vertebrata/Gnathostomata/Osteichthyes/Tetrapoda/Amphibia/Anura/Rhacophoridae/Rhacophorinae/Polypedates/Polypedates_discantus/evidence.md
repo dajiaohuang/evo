@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates discantus
       zh: Polypedates discantus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

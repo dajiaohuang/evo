@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrura prasina
       en: Erythrura prasina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

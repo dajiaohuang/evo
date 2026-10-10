@@ -9,7 +9,6 @@ records:
     name:
       zh: Palemys bowerbankii
       en: Palemys bowerbankii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

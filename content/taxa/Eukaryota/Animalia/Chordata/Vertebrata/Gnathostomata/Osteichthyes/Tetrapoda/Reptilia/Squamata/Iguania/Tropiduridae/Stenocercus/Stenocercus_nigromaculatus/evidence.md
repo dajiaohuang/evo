@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus nigromaculatus
       en: Stenocercus nigromaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

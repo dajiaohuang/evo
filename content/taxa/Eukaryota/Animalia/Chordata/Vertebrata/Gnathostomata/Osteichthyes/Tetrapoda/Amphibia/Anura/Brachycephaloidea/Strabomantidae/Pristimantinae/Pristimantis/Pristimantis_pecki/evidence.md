@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pecki
       zh: Pristimantis pecki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

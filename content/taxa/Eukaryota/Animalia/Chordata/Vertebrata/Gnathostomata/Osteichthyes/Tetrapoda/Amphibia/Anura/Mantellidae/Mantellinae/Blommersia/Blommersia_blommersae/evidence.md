@@ -9,7 +9,6 @@ records:
     name:
       en: Blommersia blommersae
       zh: Blommersia blommersae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Strongylopus merumontanus
       zh: Strongylopus merumontanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

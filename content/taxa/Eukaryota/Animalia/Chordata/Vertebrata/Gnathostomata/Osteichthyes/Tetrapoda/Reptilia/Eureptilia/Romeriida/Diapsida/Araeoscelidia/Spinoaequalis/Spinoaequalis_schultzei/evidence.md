@@ -9,7 +9,6 @@ records:
     name:
       zh: Spinoaequalis schultzei
       en: Spinoaequalis schultzei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

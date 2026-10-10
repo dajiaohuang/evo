@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycideops longiceps
       en: Lycideops longiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

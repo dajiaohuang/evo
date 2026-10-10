@@ -9,7 +9,6 @@ records:
     name:
       zh: Protomelanitta bakeri
       en: Protomelanitta bakeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

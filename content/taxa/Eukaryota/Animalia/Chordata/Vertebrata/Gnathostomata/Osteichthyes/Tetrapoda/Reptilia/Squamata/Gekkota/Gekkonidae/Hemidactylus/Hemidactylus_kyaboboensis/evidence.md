@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus kyaboboensis
       en: Hemidactylus kyaboboensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

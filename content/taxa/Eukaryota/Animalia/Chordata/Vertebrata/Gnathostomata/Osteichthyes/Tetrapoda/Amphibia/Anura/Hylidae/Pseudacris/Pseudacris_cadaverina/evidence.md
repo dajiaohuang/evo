@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudacris cadaverina
       zh: Pseudacris cadaverina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

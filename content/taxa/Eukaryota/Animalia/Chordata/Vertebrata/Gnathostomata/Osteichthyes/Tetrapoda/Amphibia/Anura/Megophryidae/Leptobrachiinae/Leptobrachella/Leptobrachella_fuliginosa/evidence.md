@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella fuliginosa
       zh: Leptobrachella fuliginosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

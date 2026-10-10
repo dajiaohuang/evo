@@ -9,7 +9,6 @@ records:
     name:
       zh: Stercorarius pomarinus
       en: Stercorarius pomarinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

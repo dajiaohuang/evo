@@ -36,5 +36,5 @@ Start with Hamipterus tianshanensis and compare collections and references. The 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The four main sections of the 2019 study, five scientific main sections of the 2021 study and the complete author correction were read; the 2024 palatal main text was also read. The 2019 page retains copyright and is used only in a short independent summary; 2021/2024 sources record CC BY 4.0. The 2014 original description, full 2017 egg-and-embryo study, supplemental data, specimens, images and model recalculation remain incomplete. Staging, flight timing, care, complete development and diet retain unresolved scope; no external expert review or full reader-facing delivery occurred.
+The four main sections of the 2019 study, five scientific main sections of the 2021 study and the complete author correction were read; the 2024 palatal main text was also read. The 2019 page retains copyright and is used only in a short independent summary; 2021/2024 sources record CC BY 4.0. The 2014 original description, full 2017 egg-and-embryo study, supplemental data, specimens, images and model recalculation remain incomplete. Staging, flight timing, care, complete development and diet retain unresolved scope;
 <!-- /evo:text -->

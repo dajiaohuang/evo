@@ -9,7 +9,6 @@ records:
     name:
       zh: Dibamus vorisi
       en: Dibamus vorisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

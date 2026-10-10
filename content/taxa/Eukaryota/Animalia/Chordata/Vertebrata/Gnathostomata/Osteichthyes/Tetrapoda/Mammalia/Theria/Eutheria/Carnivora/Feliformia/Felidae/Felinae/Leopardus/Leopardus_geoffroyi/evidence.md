@@ -9,7 +9,6 @@ records:
     name:
       zh: Leopardus geoffroyi
       en: Leopardus geoffroyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

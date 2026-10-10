@@ -9,7 +9,6 @@ records:
     name:
       zh: Myriopholis burii
       en: Myriopholis burii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

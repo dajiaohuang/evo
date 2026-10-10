@@ -9,7 +9,6 @@ records:
     name:
       zh: Strathcona minor
       en: Strathcona minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

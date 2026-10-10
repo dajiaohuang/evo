@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops indoburmanensis
       zh: Amolops indoburmanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

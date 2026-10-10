@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne kampeni
       zh: Oreophryne kampeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

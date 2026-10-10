@@ -9,7 +9,6 @@ records:
     name:
       zh: Vipera anatolica
       en: Vipera anatolica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

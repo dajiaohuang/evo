@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardeotis kori
       en: Ardeotis kori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

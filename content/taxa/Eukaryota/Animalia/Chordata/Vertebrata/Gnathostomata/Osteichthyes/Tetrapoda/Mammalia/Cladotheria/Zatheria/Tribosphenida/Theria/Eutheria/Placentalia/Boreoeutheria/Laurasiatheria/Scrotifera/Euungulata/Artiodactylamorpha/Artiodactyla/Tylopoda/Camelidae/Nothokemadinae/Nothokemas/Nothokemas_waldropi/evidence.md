@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothokemas waldropi
       en: Nothokemas waldropi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

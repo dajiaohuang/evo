@@ -9,7 +9,6 @@ records:
     name:
       zh: Emoia pseudocyanura
       en: Emoia pseudocyanura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

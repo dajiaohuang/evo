@@ -9,7 +9,6 @@ records:
     name:
       zh: Ishatherium subathuensis
       en: Ishatherium subathuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

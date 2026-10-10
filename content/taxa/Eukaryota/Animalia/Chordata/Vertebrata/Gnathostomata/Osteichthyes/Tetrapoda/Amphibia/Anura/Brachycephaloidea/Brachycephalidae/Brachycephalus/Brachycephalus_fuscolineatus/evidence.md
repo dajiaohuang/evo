@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus fuscolineatus
       zh: Brachycephalus fuscolineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

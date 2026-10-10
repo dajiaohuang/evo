@@ -9,7 +9,6 @@ records:
     name:
       zh: Sporophila frontalis
       en: Sporophila frontalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus wangi
       zh: Kurixalus wangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

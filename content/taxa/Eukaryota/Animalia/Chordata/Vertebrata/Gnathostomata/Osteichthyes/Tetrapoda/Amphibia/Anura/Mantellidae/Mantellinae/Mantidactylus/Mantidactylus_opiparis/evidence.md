@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus opiparis
       zh: Mantidactylus opiparis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

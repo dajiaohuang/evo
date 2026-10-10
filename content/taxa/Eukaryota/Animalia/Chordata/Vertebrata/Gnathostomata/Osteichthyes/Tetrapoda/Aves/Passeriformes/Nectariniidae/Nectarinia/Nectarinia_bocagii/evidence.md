@@ -9,7 +9,6 @@ records:
     name:
       zh: Nectarinia bocagii
       en: Nectarinia bocagii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

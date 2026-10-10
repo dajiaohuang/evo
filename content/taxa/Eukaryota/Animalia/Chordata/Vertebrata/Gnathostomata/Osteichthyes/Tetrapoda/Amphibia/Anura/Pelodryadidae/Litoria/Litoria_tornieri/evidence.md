@@ -9,7 +9,6 @@ records:
     name:
       en: Litoria tornieri
       zh: Litoria tornieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

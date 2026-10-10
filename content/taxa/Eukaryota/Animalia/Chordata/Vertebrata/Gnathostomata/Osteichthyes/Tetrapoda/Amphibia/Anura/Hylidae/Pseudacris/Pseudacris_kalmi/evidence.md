@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudacris kalmi
       zh: Pseudacris kalmi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

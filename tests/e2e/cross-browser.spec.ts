@@ -24,8 +24,7 @@ test('@cross-browser public navigation reaches the catalog and evidence dossier'
   await expect(page.getByRole('heading', { name: 'Find a branch. Inspect its evidence boundary.' })).toBeVisible()
   await page.getByRole('button', { name: /Open the flagship dossier/ }).click()
   await expect(page).toHaveTitle('Perissodactyla — Evo Atlas')
-  await expect(page.getByText('Maintainer review in progress', { exact: true }).first()).toBeVisible()
-  await expect(page.getByText('External expert review not performed', { exact: true }).first()).toBeVisible()
+  await expect(page.getByRole('link', { name: /Report an evidence issue/ }).first()).toBeVisible()
 })
 
 test('@cross-browser static knowledge pages expose metadata and a working app handoff', async ({ page }) => {
@@ -33,9 +32,8 @@ test('@cross-browser static knowledge pages expose metadata and a working app ha
   await expect(page).toHaveTitle('Odd-toed Ungulates · Perissodactyla — Evo Atlas')
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://dajiaohuang.github.io/evo/taxa/perissodactyla/')
   await expect(page.locator('script[type="application/ld+json"]')).toHaveCount(1)
-  await expect(page.getByText('Maintainer review in progress', { exact: true })).toBeVisible()
-  await expect(page.getByText('External expert review not performed', { exact: true })).toBeVisible()
 
+  await expect(page.getByRole('heading', { name: 'References', exact: true })).toBeVisible()
   await page.getByRole('link', { name: /Open in Explorer/ }).click()
   await expect(page).toHaveURL(/#\/explore\?.*profile=perissodactyla/)
   await expect(page).toHaveTitle('Explore — Evo Atlas')

@@ -53,7 +53,6 @@ assert.equal(sha(registryBytes), base.registry.manifestSha256)
 assert.equal(dossier.colId, revision.target.colId)
 assert.equal(dossier.scientificName, revision.target.scientificName)
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.equal(dossier.facets.distribution.status, revision.decision.previousDistributionStatus)
 
 const searchRows = gunzipSync(readFileSync(resolve(root, revision.classificationEvidence.searchShardPath)))
@@ -111,7 +110,6 @@ dossier.facets.distribution = revision.distribution
 dossier.completeness.reasons = revision.completenessReasons
 assert.equal(dossier.facets.distribution.status, revision.decision.newDistributionStatus)
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 const sourceIds = new Set(dossier.sources.map(item => item.id))
 assert.equal(sourceIds.size, dossier.sources.length)
 for (const facet of Object.values(dossier.facets)) {
@@ -183,7 +181,7 @@ const batchManifest = {
   batchId: base.batchId,
   releaseAlias: base.releaseAlias,
   baseInput: { path: relative(baseInputPath), sha256: sha(baseBytes) },
-  revisionInput: { path: relative(revisionInputPath), sha256: sha(revisionBytes), revisionId: revision.revisionId, reviewedAt: revision.reviewedAt },
+  revisionInput: { path: relative(revisionInputPath), sha256: sha(revisionBytes), revisionId: revision.revisionId},
   priorArtifacts: { rawSha256: sha(rawBefore), compressedSha256: sha(currentCompressed), indexedRecordCount: indexedCount, targetShardRecordCount: currentRows.length },
   duplicateCheck: { indexedRecordCount: indexedCount, colId: dossier.colId, scientificName: dossier.scientificName, matchedColIds: [], matchedNames: [], targetShardReplacedInPlace: true },
   raw: { path: relative(rawPath), encoding: 'utf-8-jsonl-lf', recordCount: 1, bytes: rawBytes.length, sha256: sha(rawBytes) },
@@ -193,4 +191,4 @@ const batchManifest = {
   generator: 'scripts/revise-primates-trachypithecus-francoisi-scope-audit.mjs',
 }
 writeFileSync(batchManifestPath, JSON.stringify(batchManifest, null, 2) + '\n')
-process.stdout.write(JSON.stringify({ colId: dossier.colId, distribution: dossier.facets.distribution.status, dossierStatus: dossier.completeness.status, expertReview: dossier.expertReview.status, indexRecordCount: index.recordCount, rawSha256: sha(rawBytes), compressedSha256: sha(compressedBytes), roundTrip: 'exact-byte-match' }) + '\n')
+process.stdout.write(JSON.stringify({ colId: dossier.colId, distribution: dossier.facets.distribution.status, dossierStatus: dossier.completeness.status,  indexRecordCount: index.recordCount, rawSha256: sha(rawBytes), compressedSha256: sha(compressedBytes), roundTrip: 'exact-byte-match' }) + '\n')

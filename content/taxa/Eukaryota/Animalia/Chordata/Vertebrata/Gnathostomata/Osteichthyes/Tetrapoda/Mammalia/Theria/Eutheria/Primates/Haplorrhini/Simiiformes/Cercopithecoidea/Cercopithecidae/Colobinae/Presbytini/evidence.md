@@ -9,7 +9,6 @@ records:
     name:
       zh: Presbytini
       en: Presbytini
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: originalSampleProvenance

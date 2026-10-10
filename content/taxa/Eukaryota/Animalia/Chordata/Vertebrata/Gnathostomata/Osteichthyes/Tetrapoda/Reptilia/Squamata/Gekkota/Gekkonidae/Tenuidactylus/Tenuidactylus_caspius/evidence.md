@@ -9,7 +9,6 @@ records:
     name:
       zh: Tenuidactylus caspius
       en: Tenuidactylus caspius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

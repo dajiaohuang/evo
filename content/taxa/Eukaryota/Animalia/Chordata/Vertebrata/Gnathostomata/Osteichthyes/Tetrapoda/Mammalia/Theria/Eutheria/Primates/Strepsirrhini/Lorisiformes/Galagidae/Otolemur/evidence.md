@@ -10,7 +10,6 @@ records:
     name:
       en: Greater Galagos
       zh: 大婴猴属
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

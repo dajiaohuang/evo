@@ -34,5 +34,5 @@ The survey interpreted observations in Pianma as one cross-border group rather t
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The four specimens used in the 2010 description and the 2019–2021 Pianma survey address different questions. The 155–160 estimate concerns one local transboundary group; adjacent areas and groups on the Myanmar side remain incompletely surveyed. Not externally expert-reviewed. This page is not externally expert-reviewed.
+The four specimens used in the 2010 description and the 2019–2021 Pianma survey address different questions. The 155–160 estimate concerns one local transboundary group; adjacent areas and groups on the Myanmar side remain incompletely surveyed.. This page is.
 <!-- /evo:text -->

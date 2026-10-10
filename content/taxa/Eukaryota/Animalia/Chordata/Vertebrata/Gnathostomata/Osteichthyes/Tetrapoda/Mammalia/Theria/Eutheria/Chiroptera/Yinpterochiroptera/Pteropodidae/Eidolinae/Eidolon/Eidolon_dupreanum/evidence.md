@@ -9,7 +9,6 @@ records:
     name:
       zh: Eidolon dupreanum
       en: Eidolon dupreanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

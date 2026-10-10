@@ -9,7 +9,6 @@ records:
     name:
       zh: Alamosaurus sanjuanensis
       en: Alamosaurus sanjuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Epicyon haydeni
       en: Epicyon haydeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

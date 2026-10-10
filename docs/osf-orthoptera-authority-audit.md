@@ -108,4 +108,4 @@ A later data-only change may proceed only when all of these are met:
 5. redirects come only from `cached_valid_taxon_name_id`; unmatched, ambiguous and withheld rows are never forced through fuzzy matching;
 6. deterministic package-local shards have non-overlapping `colId` ranges and a test proves that each COL ID selects exactly one shard;
 7. the descriptor and identical shard bytes are contractually reserved for the later Web, package ZIP, browser offline, Android and iOS release integration;
-8. no statement expands the result from Orthoptera to the remaining 1,018,274 package species, all insects, fossils, phylogeny, ecology, distribution, complete history or expert review.
+8. no statement expands the result from Orthoptera to the remaining 1,018,274 package species, all insects, fossils, phylogeny, ecology, distribution, complete history.

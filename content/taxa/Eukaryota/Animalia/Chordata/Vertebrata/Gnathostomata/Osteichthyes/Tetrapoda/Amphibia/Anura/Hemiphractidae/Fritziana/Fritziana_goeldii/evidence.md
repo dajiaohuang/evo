@@ -9,7 +9,6 @@ records:
     name:
       en: Fritziana goeldii
       zh: Fritziana goeldii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

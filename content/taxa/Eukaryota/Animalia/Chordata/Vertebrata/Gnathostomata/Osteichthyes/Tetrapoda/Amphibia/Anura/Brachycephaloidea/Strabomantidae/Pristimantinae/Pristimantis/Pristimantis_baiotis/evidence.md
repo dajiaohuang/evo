@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis baiotis
       zh: Pristimantis baiotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

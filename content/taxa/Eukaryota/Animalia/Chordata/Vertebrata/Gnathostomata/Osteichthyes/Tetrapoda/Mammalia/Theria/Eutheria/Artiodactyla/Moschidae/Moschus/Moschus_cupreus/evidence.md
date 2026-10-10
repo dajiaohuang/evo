@@ -9,7 +9,6 @@ records:
     name:
       zh: Moschus cupreus
       en: Moschus cupreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

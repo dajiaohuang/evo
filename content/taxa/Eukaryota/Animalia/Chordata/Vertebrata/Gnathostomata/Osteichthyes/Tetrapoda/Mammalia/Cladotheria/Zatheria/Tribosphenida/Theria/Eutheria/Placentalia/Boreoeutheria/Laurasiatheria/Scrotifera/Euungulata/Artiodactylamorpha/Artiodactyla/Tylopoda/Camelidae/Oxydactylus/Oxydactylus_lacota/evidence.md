@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxydactylus lacota
       en: Oxydactylus lacota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

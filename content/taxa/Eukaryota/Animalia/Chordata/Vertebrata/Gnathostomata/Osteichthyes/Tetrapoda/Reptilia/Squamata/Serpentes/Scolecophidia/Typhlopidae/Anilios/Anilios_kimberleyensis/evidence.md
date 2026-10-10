@@ -9,7 +9,6 @@ records:
     name:
       zh: Anilios kimberleyensis
       en: Anilios kimberleyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

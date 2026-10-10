@@ -9,7 +9,6 @@ records:
     name:
       en: Colostethus inguinalis
       zh: Colostethus inguinalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

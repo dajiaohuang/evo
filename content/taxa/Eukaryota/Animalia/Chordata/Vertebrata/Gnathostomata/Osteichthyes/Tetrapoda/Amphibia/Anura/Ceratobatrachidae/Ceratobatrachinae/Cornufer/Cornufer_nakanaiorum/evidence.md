@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer nakanaiorum
       zh: Cornufer nakanaiorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

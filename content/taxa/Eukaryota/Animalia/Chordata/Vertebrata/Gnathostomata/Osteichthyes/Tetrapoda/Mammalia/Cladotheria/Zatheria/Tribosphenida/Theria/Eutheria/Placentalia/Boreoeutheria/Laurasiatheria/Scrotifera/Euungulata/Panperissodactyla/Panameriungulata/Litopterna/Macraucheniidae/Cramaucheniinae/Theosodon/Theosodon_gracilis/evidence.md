@@ -9,7 +9,6 @@ records:
     name:
       zh: Theosodon gracilis
       en: Theosodon gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

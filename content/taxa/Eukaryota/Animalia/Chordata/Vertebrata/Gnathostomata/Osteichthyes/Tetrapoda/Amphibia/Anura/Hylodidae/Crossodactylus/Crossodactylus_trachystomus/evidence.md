@@ -9,7 +9,6 @@ records:
     name:
       en: Crossodactylus trachystomus
       zh: Crossodactylus trachystomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Theridomysops parvulus
       en: Theridomysops parvulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

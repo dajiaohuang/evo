@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptis krokosua
       zh: Arthroleptis krokosua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

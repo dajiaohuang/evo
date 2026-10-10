@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis opisthodon
       zh: Boophis opisthodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

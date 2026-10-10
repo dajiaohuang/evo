@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-所引分类研究尚未厘清与邻近谱系的边界；地点信息沿用原研究表述。 本页尚未经过外部领域专家评审。
+所引分类研究尚未厘清与邻近谱系的边界；地点信息沿用原研究表述。 。
 <!-- /evo:text -->

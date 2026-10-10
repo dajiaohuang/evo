@@ -9,7 +9,6 @@ records:
     name:
       zh: Gymnorhina tibicen
       en: Gymnorhina tibicen
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

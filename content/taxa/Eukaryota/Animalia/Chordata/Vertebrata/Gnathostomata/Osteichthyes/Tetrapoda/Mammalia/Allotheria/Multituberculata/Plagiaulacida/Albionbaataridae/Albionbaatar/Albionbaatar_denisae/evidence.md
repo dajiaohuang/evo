@@ -9,7 +9,6 @@ records:
     name:
       zh: Albionbaatar denisae
       en: Albionbaatar denisae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

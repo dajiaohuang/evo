@@ -9,7 +9,6 @@ records:
     name:
       zh: Amblyrhiza inundata
       en: Amblyrhiza inundata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Xenophrys lekaguli
       zh: Xenophrys lekaguli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

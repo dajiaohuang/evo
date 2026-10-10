@@ -9,7 +9,6 @@ records:
     name:
       en: Cryptotriton nasalis
       zh: Cryptotriton nasalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliscomys (Syphyriomys) subtilis
       en: Heliscomys (Syphyriomys) subtilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

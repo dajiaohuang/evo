@@ -9,7 +9,6 @@ records:
     name:
       zh: Anaptomorphus aemulus
       en: Anaptomorphus aemulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

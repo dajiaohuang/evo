@@ -9,7 +9,6 @@ records:
     name:
       zh: Arborophila cambodiana
       en: Arborophila cambodiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

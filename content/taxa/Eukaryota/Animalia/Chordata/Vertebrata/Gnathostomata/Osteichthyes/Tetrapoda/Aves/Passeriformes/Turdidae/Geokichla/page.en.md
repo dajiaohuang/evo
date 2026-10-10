@@ -45,6 +45,6 @@ This batch’s Geokichla route includes one historical life-history account; sta
 ## Life-history evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
-Fourteen additional older-genus morphology and category guides retain single-bird samples, separate mass sources, category differences and one older-combination spelling issue; complete accepted-descendant coverage, natural histories and expert review are not counted.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+Fourteen additional older-genus morphology and category guides retain single-bird samples, separate mass sources, category differences and one older-combination spelling issue; complete accepted-descendant coverage, natural histories are not counted.
 <!-- /evo:text -->

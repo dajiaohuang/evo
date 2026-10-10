@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: tanner-2017-coleoid-clocks
       referenceLinks:
         - referenceId: tanner-2017-coleoid-clocks
           relation: supports
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: tanner-2017-coleoid-clocks
           locator: Article 20162818; Methods, 26 cephalopod species and 180 genes; fossil calibrations; Figures 1–4
-      reviewStatus: automated-audit-passed
 ---
 
 # Coleoidea

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lartetictis dubia
       en: Lartetictis dubia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eonycterini
       en: Eonycterini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

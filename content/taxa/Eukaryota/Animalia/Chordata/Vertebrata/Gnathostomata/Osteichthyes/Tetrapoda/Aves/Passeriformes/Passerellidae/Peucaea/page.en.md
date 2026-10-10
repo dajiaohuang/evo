@@ -10,7 +10,7 @@ status: source-linked
 ## Locate historical rows through eight Aimophila combinations
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-This entry organizes eight historical guides under COL26.8 Peucaea (6M7G) and Passerellidae (9G6YK). BirdLife/eBird names match; BirdTree records eight older Aimophila combinations, each supported by an exact catalogue synonym pointing to its accepted ID. Correspondence locates sources without establishing identical concepts across versions. The genus record has eight immediate children and this batch eight pages, without counting complete natural history or expert review.
+This entry organizes eight historical guides under COL26.8 Peucaea (6M7G) and Passerellidae (9G6YK). BirdLife/eBird names match; BirdTree records eight older Aimophila combinations, each supported by an exact catalogue synonym pointing to its accepted ID. Correspondence locates sources without establishing identical concepts across versions. The genus record has eight immediate children and this batch eight pages, without counting complete natural history.
 <!-- /evo:text -->
 
 ## A shared five-bird denominator does not establish shared variation
@@ -38,5 +38,5 @@ Group 2: [Peucaea humeralis](Peucaea_humeralis/page.en.md), [Peucaea sumichrasti
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Eight selected historical morphology, mass and ecology guides have catalogue synonyms for all older combinations without completing natural history or expert review. Shared five-bird totals and four complete sets do not support individual or sex variation; retain niche, level, lifestyle and migration combinations without causes, measured diet, breeding or current maps.
+Eight selected historical morphology, mass and ecology guides have catalogue synonyms for all older combinations without completing natural history. Shared five-bird totals and four complete sets do not support individual or sex variation; retain niche, level, lifestyle and migration combinations without causes, measured diet, breeding or current maps.
 <!-- /evo:text -->

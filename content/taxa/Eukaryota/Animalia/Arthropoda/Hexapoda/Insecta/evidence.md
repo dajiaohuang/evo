@@ -26,11 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: prokop-2005-paskov-wing
           relation: supports
@@ -66,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: prokop-2005-paskov-wing
           locator: pp. 383–387; Figures 1–2
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

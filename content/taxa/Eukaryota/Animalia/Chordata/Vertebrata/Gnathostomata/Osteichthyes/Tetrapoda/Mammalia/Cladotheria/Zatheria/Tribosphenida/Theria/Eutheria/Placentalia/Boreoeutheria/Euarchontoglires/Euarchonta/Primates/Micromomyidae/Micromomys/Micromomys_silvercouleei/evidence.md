@@ -9,7 +9,6 @@ records:
     name:
       zh: Micromomys silvercouleei
       en: Micromomys silvercouleei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

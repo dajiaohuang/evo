@@ -9,7 +9,6 @@ records:
     name:
       zh: Aquila pliogryps
       en: Aquila pliogryps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

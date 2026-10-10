@@ -9,7 +9,6 @@ records:
     name:
       zh: 戴安娜猴
       en: Diana monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -652,10 +651,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Cercopithecus diana
@@ -879,5 +874,5 @@ The study concerns C. diana diana and does not by itself establish full biologic
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No comprehensive multi-source search or independent expert review has been completed.
+No comprehensive multi-source search has been completed.
 <!-- /evo:text -->

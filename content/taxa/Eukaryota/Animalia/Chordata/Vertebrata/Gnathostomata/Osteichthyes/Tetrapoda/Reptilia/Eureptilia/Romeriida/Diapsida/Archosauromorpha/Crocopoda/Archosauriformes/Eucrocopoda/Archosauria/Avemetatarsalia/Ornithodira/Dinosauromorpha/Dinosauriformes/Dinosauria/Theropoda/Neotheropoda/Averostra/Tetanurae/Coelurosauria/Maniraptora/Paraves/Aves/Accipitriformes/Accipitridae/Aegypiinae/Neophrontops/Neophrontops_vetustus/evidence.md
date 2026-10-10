@@ -9,7 +9,6 @@ records:
     name:
       zh: Neophrontops vetustus
       en: Neophrontops vetustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

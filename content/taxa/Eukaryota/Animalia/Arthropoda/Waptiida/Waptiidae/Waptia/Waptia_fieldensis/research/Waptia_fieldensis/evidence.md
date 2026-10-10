@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: vannier-2018-waptia primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: vannier-2018-waptia
           relation: supports
@@ -77,9 +74,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: vannier-2018-waptia primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: vannier-2018-waptia
           relation: supports
@@ -96,9 +90,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: vannier-2018-waptia primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: vannier-2018-waptia
           relation: supports
@@ -115,9 +106,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: vannier-2018-waptia primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: vannier-2018-waptia
           relation: supports
@@ -134,9 +122,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: vannier-2018-waptia primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: vannier-2018-waptia
           relation: supports
@@ -188,7 +173,6 @@ records:
       referenceLocators:
         - referenceId: vannier-2018-waptia
           locator: 1–34; Material; Figures 2, 8–10
-      reviewStatus: automated-audit-passed
 ---
 
 # Waptia fieldensis

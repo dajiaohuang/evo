@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus bicanthalis
       en: Sceloporus bicanthalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

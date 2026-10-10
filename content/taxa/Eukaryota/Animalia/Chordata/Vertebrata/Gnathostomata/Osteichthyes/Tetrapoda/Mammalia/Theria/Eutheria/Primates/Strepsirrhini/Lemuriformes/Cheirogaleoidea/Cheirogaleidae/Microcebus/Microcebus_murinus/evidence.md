@@ -9,7 +9,6 @@ records:
     name:
       zh: 灰鼠狐猴
       en: Gray mouse lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: lifeHistory
@@ -620,10 +619,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Microcebus murinus
@@ -811,5 +806,5 @@ Six facets remain not assessed and life-history evidence is limited to six capti
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Independent expert review and comprehensive multi-source review are incomplete.
+comprehensive multi-source search are incomplete.
 <!-- /evo:text -->

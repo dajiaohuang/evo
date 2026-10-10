@@ -9,7 +9,6 @@ records:
     name:
       zh: Fluvicola albiventer
       en: Fluvicola albiventer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

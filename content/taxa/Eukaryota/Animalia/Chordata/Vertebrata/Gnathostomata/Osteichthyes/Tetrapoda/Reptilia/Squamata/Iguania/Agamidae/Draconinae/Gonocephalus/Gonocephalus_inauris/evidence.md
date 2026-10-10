@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonocephalus inauris
       en: Gonocephalus inauris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coccyzus pluvialis
       en: Coccyzus pluvialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

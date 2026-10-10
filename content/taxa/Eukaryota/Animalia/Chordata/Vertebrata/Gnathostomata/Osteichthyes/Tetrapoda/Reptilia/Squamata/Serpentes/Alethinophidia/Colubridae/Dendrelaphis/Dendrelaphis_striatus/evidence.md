@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrelaphis striatus
       en: Dendrelaphis striatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

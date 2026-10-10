@@ -9,7 +9,6 @@ records:
     name:
       zh: Ondatra zibethicus
       en: Ondatra zibethicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

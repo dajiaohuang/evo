@@ -9,7 +9,6 @@ records:
     name:
       zh: Ifrita kowaldi
       en: Ifrita kowaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

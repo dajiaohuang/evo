@@ -9,7 +9,6 @@ records:
     name:
       zh: Scalopoides hutchisoni
       en: Scalopoides hutchisoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

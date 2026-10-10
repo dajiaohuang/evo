@@ -9,7 +9,6 @@ records:
     name:
       zh: Psarocolius decumanus
       en: Psarocolius decumanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

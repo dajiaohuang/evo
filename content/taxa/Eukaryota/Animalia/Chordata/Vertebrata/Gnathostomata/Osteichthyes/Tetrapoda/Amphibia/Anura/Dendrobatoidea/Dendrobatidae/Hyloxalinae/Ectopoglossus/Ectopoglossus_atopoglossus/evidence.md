@@ -9,7 +9,6 @@ records:
     name:
       en: Ectopoglossus atopoglossus
       zh: Ectopoglossus atopoglossus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

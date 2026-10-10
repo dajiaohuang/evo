@@ -9,7 +9,6 @@ records:
     name:
       zh: Citipati osmolskae
       en: Citipati osmolskae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

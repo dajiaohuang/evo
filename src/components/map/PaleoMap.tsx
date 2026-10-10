@@ -84,8 +84,8 @@ export function PaleoMap() {
   const [paleotopographyError, setPaleotopographyError] = useState<string | null>(null)
   const [enabledObservationDatasets, setEnabledObservationDatasets] = useState<Set<CaoObservationDatasetId>>(() => new Set())
   const [selectedObservation, setSelectedObservation] = useState<{ record: CaoObservationRecord; descriptor: RuntimeMapObservationDataset } | null>(null)
-  const markerMode = useAppStore((s) => s.markerMode) as MarkerMode
-  const coordinateMode = useAppStore((s) => s.coordinateMode) as CoordinateMode
+  const markerMode = useAppStore((s) => s.markerMode)
+  const coordinateMode = useAppStore((s) => s.coordinateMode)
   const showContinents = useAppStore((s) => s.showContinents)
   const setMarkerMode = useAppStore((s) => s.setMarkerMode)
   const setCoordinateMode = useAppStore((s) => s.setCoordinateMode)
@@ -96,6 +96,8 @@ export function PaleoMap() {
   const currentAge = useAppStore((s) => s.currentAge)
   const loadOccurrencesForInterval = useAppStore((s) => s.loadOccurrencesForInterval)
   const occurrencesByInterval = useAppStore((s) => s.occurrencesByInterval)
+  const intervalOccurrenceStatus = useAppStore((s) => s.intervalOccurrenceStatus)
+  const intervalOccurrenceErrors = useAppStore((s) => s.intervalOccurrenceErrors)
   const occurrencesByTaxonQuery = useAppStore((s) => s.occurrencesByTaxonQuery)
   const selectedNodeId = useAppStore((s) => s.selectedNodeId)
   const mapProjection = useAppStore((s) => s.mapProjection)
@@ -134,13 +136,14 @@ export function PaleoMap() {
 
   useEffect(() => {
     if (currentPeriod) {
-      loadOccurrencesForInterval(currentPeriod)
+      void loadOccurrencesForInterval(currentPeriod)
     }
   }, [currentPeriod, loadOccurrencesForInterval])
 
   const records = useMemo(() => currentPeriod ? (occurrencesByInterval[currentPeriod] ?? []) : [], [currentPeriod, occurrencesByInterval])
   const fossilCount = records.length
   const recordsLoaded = currentPeriod ? Object.hasOwn(occurrencesByInterval, currentPeriod) : true
+  const recordsFailed = currentPeriod !== null && intervalOccurrenceStatus[currentPeriod] === 'error'
   const paleoCoverage = useMemo(() => {
     if (!records.length) return 0
     return records.filter((record) => hasSpatialPosition(record, 'paleo')).length / records.length
@@ -235,10 +238,20 @@ export function PaleoMap() {
         border: '1px solid #2a4248', pointerEvents: 'none',
       }}>
         {currentPeriod
-          ? recordsLoaded
+          ? recordsFailed
+            ? t('Fossil records could not be loaded')
+            : recordsLoaded
             ? t('{period} — {count} fossils', { period: t(currentPeriod), count: number(fossilCount) })
             : `${t(currentPeriod)} — ${t('loading records…')}`
           : t('No period-scoped fossil sample for this age')}
+        {recordsFailed && currentPeriod && (
+          <div role="alert" style={{ pointerEvents: 'auto' }}>
+            <div>{intervalOccurrenceErrors[currentPeriod]}</div>
+            <button type="button" onClick={() => { void loadOccurrencesForInterval(currentPeriod) }}>
+              {t('Retry loading fossil records')}
+            </button>
+          </div>
+        )}
         {currentPeriod && recordsLoaded && (
           <div style={{ marginTop: 2, color: '#82938c', fontSize: 9 }}>
             {t('Paleo-coordinate coverage {coverage}%', { coverage: (paleoCoverage * 100).toFixed(0) })}

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinomyias colonus
       en: Rhinomyias colonus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

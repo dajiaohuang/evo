@@ -9,7 +9,6 @@ records:
     name:
       zh: Coartaredens isaaci
       en: Coartaredens isaaci
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

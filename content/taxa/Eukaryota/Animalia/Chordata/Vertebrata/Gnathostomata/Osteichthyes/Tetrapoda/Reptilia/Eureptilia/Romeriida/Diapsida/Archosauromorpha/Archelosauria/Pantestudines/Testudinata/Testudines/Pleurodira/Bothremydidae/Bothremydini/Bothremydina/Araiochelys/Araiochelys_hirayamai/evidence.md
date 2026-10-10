@@ -9,7 +9,6 @@ records:
     name:
       zh: Araiochelys hirayamai
       en: Araiochelys hirayamai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

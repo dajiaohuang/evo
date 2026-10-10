@@ -9,7 +9,6 @@ records:
     name:
       zh: Malacopteron magnum
       en: Malacopteron magnum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

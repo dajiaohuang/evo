@@ -9,7 +9,6 @@ records:
     name:
       zh: Afroedura tirasensis
       en: Afroedura tirasensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

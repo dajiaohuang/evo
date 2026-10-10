@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthracokeryx naduongensis
       en: Anthracokeryx naduongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

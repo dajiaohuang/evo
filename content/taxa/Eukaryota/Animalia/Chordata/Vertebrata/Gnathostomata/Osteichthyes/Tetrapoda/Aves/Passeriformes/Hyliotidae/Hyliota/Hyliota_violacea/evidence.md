@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyliota violacea
       en: Hyliota violacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

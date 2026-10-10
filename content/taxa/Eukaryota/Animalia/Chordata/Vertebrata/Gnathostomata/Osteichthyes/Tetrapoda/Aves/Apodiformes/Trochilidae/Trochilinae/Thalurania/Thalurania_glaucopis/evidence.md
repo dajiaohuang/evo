@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalurania glaucopis
       en: Thalurania glaucopis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

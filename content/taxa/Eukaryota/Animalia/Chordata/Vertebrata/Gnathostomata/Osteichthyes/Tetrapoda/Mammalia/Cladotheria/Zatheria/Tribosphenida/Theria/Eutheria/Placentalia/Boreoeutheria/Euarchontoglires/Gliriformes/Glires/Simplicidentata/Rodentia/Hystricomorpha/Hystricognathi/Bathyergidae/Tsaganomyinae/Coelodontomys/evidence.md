@@ -9,7 +9,6 @@ records:
     name:
       zh: Coelodontomys
       en: Coelodontomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

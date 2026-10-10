@@ -9,7 +9,6 @@ records:
     name:
       zh: Abronia gaiophantasma
       en: Abronia gaiophantasma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

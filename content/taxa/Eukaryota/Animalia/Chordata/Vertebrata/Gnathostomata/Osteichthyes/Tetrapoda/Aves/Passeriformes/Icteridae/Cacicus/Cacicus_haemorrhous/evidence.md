@@ -9,7 +9,6 @@ records:
     name:
       zh: Cacicus haemorrhous
       en: Cacicus haemorrhous
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

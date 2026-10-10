@@ -9,7 +9,6 @@ records:
     name:
       zh: Necromantis
       en: Necromantis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

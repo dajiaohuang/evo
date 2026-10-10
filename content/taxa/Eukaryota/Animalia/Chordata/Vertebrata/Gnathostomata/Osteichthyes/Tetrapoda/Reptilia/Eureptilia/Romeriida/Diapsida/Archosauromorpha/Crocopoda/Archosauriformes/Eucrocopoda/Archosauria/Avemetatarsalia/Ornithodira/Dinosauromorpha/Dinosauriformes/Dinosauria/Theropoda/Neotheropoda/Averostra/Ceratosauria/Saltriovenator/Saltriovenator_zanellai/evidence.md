@@ -9,7 +9,6 @@ records:
     name:
       zh: Saltriovenator zanellai
       en: Saltriovenator zanellai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

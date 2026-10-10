@@ -9,7 +9,6 @@ records:
     name:
       zh: Haploconus entoconus
       en: Haploconus entoconus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

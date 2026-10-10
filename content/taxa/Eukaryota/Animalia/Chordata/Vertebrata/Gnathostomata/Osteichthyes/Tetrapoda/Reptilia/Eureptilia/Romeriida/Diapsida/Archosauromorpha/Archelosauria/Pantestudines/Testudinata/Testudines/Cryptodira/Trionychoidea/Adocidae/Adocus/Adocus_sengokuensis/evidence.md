@@ -9,7 +9,6 @@ records:
     name:
       zh: Adocus sengokuensis
       en: Adocus sengokuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

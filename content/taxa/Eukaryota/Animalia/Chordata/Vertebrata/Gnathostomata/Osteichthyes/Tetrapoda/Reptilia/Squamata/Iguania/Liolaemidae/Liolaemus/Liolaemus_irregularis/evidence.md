@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus irregularis
       en: Liolaemus irregularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

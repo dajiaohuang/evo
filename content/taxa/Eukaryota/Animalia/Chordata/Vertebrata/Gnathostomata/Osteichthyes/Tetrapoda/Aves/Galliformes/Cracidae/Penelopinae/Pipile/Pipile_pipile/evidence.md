@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipile pipile
       en: Pipile pipile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

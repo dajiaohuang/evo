@@ -9,7 +9,6 @@ records:
     name:
       zh: Oklahomalagus whisenhunti
       en: Oklahomalagus whisenhunti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

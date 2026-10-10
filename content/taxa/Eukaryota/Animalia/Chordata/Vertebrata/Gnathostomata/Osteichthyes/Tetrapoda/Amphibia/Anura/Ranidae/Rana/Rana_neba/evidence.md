@@ -9,7 +9,6 @@ records:
     name:
       en: Rana neba
       zh: Rana neba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtonyx montezumae
       en: Cyrtonyx montezumae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

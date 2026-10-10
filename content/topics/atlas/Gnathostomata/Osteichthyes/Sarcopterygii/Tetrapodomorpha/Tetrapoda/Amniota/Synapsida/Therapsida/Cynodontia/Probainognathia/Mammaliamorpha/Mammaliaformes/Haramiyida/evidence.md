@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bi-2014-euharamiyidans concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: bi-2014-euharamiyidans
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bi-2014-euharamiyidans @ DOI 10.1038/nature13718
       referenceLinks:
         - relation: supports
           referenceId: bi-2014-euharamiyidans
@@ -97,7 +91,6 @@ records:
           locator: "579–584; Phylogenetic analyses; Supplementary Information: character matrix"
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
 ---
 
 # Haramiyida

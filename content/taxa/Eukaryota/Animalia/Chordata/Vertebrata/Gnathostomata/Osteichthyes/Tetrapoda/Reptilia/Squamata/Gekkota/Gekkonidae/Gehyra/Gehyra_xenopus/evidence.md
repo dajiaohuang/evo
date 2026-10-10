@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra xenopus
       en: Gehyra xenopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

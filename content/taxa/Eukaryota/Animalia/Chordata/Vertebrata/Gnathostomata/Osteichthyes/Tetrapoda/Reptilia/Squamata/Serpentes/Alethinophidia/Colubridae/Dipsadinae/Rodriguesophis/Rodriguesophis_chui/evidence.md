@@ -9,7 +9,6 @@ records:
     name:
       zh: Rodriguesophis chui
       en: Rodriguesophis chui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

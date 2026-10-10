@@ -9,7 +9,6 @@ records:
     name:
       zh: Trigodon minor
       en: Trigodon minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Carpodacus synoicus
       en: Carpodacus synoicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

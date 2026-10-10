@@ -9,7 +9,6 @@ records:
     name:
       zh: Staurikosaurus pricei
       en: Staurikosaurus pricei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

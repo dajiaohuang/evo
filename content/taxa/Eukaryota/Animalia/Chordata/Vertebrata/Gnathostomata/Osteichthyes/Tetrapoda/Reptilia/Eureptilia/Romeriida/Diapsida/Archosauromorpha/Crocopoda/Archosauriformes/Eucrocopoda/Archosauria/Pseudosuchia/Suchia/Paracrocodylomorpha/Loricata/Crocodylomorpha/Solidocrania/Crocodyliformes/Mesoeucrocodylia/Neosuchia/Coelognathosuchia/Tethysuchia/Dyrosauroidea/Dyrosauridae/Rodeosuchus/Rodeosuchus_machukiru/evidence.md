@@ -9,7 +9,6 @@ records:
     name:
       zh: Rodeosuchus machukiru
       en: Rodeosuchus machukiru
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

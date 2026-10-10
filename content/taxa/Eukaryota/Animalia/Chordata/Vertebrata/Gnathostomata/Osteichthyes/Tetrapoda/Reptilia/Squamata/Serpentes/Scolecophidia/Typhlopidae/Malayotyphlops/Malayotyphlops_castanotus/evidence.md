@@ -9,7 +9,6 @@ records:
     name:
       zh: Malayotyphlops castanotus
       en: Malayotyphlops castanotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

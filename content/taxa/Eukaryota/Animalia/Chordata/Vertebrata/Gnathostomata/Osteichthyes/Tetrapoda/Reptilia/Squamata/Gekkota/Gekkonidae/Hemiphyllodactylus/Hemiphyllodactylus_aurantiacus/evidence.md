@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus aurantiacus
       en: Hemiphyllodactylus aurantiacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

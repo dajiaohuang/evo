@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycephala melanura
       en: Pachycephala melanura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus gracilloides
       zh: Kurixalus gracilloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

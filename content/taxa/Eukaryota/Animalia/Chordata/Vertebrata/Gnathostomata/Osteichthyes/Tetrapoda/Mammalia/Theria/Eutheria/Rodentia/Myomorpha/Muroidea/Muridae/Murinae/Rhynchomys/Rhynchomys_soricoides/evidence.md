@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhynchomys soricoides
       en: Rhynchomys soricoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Procavia pliocenica
       en: Procavia pliocenica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

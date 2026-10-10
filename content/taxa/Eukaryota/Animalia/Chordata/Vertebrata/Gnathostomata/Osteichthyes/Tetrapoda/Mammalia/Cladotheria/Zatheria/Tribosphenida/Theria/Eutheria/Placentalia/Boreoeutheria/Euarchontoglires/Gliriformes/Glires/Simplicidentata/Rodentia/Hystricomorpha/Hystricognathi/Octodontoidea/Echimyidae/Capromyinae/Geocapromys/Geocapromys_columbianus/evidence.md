@@ -9,7 +9,6 @@ records:
     name:
       zh: Geocapromys columbianus
       en: Geocapromys columbianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

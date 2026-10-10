@@ -9,7 +9,6 @@ records:
     name:
       zh: Buteo platypterus
       en: Buteo platypterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

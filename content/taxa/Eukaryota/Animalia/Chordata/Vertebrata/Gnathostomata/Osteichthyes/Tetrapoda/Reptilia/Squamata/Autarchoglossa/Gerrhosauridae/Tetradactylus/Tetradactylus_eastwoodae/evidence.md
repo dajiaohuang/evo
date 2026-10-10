@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetradactylus eastwoodae
       en: Tetradactylus eastwoodae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyclura cychlura
       en: Cyclura cychlura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

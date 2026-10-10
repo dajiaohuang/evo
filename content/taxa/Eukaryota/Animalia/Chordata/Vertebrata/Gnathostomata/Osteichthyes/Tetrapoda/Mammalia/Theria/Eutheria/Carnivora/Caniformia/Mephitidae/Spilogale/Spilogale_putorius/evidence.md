@@ -9,7 +9,6 @@ records:
     name:
       zh: Spilogale putorius
       en: Spilogale putorius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

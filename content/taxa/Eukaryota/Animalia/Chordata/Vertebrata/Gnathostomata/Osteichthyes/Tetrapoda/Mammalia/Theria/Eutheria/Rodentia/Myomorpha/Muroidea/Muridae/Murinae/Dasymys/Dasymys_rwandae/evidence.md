@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasymys rwandae
       en: Dasymys rwandae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachium montanum
       zh: Leptobrachium montanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

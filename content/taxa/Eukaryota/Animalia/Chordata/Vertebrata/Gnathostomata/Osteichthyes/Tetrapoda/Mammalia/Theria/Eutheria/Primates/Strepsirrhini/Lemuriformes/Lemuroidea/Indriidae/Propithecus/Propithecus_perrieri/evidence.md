@@ -9,7 +9,6 @@ records:
     name:
       en: Perrier's Sifaka
       zh: 佩里耶西法卡
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

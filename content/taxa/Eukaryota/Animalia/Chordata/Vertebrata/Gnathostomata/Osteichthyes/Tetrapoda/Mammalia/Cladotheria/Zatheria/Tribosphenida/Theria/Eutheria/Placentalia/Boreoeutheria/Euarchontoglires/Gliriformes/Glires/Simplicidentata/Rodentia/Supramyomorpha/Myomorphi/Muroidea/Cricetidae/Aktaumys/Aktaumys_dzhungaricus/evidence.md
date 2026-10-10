@@ -9,7 +9,6 @@ records:
     name:
       zh: Aktaumys dzhungaricus
       en: Aktaumys dzhungaricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

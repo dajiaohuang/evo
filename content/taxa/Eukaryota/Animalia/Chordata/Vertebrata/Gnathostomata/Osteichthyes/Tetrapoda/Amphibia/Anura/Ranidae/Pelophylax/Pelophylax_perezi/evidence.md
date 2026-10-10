@@ -9,7 +9,6 @@ records:
     name:
       en: Pelophylax perezi
       zh: Pelophylax perezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

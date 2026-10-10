@@ -9,7 +9,6 @@ records:
     name:
       zh: Isthmomys flavidus
       en: Isthmomys flavidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

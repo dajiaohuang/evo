@@ -9,7 +9,6 @@ records:
     name:
       zh: Delma nasuta
       en: Delma nasuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

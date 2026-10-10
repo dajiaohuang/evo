@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana xiangica
       zh: Nidirana xiangica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

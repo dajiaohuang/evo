@@ -16,5 +16,5 @@ A historical synthesis estimated orangutan extents of occurrence at about 40,796
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Historical range proportions rely on older records with unresolved taxonomic attribution; they are not a complete, genetically verified range history or a substitute for a current population or conservation assessment.
+Source-linked introduction;. Historical range proportions rely on older records with unresolved taxonomic attribution; they are not a complete, genetically verified range history or a substitute for a current population or conservation assessment.
 <!-- /evo:text -->

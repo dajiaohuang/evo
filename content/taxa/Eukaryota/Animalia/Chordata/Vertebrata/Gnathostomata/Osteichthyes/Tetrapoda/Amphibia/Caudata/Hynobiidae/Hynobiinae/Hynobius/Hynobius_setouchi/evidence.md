@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius setouchi
       zh: Hynobius setouchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

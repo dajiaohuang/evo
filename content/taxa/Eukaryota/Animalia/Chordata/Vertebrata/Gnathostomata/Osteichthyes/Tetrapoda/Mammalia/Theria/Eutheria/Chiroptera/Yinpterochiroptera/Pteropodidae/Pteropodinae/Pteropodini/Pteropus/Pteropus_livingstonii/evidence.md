@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus livingstonii
       en: Pteropus livingstonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

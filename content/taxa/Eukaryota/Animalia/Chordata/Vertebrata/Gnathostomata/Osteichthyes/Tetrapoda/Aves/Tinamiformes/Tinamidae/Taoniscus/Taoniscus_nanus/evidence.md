@@ -9,7 +9,6 @@ records:
     name:
       zh: Taoniscus nanus
       en: Taoniscus nanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

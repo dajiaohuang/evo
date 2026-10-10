@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoauchenia primitiva
       en: Eoauchenia primitiva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Apathya yassujica
       en: Apathya yassujica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

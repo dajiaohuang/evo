@@ -9,7 +9,6 @@ records:
     name:
       zh: Pomatodelphis
       en: Pomatodelphis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

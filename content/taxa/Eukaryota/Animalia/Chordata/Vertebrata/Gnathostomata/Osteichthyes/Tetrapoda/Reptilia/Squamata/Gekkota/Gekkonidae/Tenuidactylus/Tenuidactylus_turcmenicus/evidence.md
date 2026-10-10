@@ -9,7 +9,6 @@ records:
     name:
       zh: Tenuidactylus turcmenicus
       en: Tenuidactylus turcmenicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bullimus bagobus
       en: Bullimus bagobus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

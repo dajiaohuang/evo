@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus gunaleni
       en: Trimeresurus gunaleni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

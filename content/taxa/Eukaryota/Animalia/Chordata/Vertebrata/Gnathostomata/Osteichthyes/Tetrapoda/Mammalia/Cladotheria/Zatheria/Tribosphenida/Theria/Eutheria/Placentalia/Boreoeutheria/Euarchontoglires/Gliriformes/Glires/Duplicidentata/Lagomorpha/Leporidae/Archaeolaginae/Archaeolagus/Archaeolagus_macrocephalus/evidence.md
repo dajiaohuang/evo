@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeolagus macrocephalus
       en: Archaeolagus macrocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

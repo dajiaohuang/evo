@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyrannus caudifasciatus
       en: Tyrannus caudifasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

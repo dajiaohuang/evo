@@ -9,7 +9,6 @@ records:
     name:
       en: Mannophryne neblina
       zh: Mannophryne neblina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

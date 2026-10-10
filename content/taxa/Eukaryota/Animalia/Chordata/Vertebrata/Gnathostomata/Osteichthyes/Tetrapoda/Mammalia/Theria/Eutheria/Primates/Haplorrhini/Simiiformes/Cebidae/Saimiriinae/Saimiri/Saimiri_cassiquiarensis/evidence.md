@@ -9,7 +9,6 @@ records:
     name:
       zh: 卡西基亚雷斯松鼠猴
       en: Humboldt's Squirrel Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

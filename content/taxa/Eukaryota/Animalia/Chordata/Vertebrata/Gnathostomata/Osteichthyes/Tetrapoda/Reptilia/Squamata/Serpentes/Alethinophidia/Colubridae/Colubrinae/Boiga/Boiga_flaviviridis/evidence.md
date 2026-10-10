@@ -9,7 +9,6 @@ records:
     name:
       zh: Boiga flaviviridis
       en: Boiga flaviviridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

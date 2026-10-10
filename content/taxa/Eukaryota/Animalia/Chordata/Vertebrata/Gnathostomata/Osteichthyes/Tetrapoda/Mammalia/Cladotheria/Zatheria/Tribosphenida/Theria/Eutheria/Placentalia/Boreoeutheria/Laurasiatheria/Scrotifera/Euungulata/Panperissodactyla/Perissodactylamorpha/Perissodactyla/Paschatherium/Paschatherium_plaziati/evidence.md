@@ -9,7 +9,6 @@ records:
     name:
       zh: Paschatherium plaziati
       en: Paschatherium plaziati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

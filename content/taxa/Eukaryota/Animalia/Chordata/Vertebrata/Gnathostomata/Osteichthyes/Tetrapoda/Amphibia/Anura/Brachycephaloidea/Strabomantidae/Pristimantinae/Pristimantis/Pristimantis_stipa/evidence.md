@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis stipa
       zh: Pristimantis stipa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

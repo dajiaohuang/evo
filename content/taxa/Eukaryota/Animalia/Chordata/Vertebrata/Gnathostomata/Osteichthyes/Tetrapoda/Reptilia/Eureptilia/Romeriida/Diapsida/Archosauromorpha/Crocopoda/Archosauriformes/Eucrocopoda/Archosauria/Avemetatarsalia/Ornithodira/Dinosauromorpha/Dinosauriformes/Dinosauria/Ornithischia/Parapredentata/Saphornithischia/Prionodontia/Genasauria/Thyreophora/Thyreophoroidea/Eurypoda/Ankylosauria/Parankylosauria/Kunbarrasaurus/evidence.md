@@ -9,7 +9,6 @@ records:
     name:
       zh: Kunbarrasaurus
       en: Kunbarrasaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

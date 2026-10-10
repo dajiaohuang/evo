@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasyprocta punctata
       en: Dasyprocta punctata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

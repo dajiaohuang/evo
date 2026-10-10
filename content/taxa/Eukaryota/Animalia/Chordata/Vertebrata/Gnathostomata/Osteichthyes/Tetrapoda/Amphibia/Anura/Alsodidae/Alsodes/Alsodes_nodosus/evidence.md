@@ -9,7 +9,6 @@ records:
     name:
       en: Alsodes nodosus
       zh: Alsodes nodosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

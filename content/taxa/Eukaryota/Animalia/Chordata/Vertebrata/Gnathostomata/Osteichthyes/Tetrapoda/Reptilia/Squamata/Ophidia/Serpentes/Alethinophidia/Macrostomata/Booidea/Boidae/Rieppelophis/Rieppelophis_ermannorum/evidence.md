@@ -9,7 +9,6 @@ records:
     name:
       zh: Rieppelophis ermannorum
       en: Rieppelophis ermannorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

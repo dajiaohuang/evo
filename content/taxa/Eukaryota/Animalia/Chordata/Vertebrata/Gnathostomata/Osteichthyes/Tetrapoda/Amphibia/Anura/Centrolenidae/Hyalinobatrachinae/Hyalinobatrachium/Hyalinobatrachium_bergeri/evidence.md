@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium bergeri
       zh: Hyalinobatrachium bergeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

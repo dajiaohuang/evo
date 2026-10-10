@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperaletes walshi
       en: Hesperaletes walshi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

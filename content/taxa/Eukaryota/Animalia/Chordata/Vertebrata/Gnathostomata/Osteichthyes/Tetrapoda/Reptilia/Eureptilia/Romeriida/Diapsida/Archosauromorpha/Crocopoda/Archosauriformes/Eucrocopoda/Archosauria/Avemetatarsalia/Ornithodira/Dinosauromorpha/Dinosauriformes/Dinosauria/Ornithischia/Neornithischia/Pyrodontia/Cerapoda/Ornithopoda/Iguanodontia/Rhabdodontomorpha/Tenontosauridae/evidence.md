@@ -9,7 +9,6 @@ records:
     name:
       zh: Tenontosauridae
       en: Tenontosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 红鼻秃猴
       en: Red-nosed Bearded Saki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       zh: Falco peregrinus
       en: Falco peregrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

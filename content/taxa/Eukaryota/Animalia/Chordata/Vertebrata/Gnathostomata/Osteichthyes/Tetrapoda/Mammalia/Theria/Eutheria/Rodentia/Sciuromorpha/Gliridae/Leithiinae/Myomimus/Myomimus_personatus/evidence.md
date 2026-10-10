@@ -9,7 +9,6 @@ records:
     name:
       zh: Myomimus personatus
       en: Myomimus personatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

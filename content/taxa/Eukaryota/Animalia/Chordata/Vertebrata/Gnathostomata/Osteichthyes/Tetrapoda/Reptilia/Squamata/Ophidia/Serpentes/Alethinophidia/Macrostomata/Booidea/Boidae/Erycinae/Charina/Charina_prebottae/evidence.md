@@ -9,7 +9,6 @@ records:
     name:
       zh: Charina prebottae
       en: Charina prebottae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

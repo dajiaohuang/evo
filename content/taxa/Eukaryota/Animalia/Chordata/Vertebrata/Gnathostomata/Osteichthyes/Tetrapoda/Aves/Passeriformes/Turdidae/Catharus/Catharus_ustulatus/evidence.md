@@ -9,7 +9,6 @@ records:
     name:
       zh: Catharus ustulatus
       en: Catharus ustulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

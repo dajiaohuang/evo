@@ -9,7 +9,6 @@ records:
     name:
       zh: Martes martes
       en: Martes martes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

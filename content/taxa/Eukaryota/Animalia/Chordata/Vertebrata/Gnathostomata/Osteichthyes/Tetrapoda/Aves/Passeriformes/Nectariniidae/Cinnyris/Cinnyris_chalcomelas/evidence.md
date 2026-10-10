@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris chalcomelas
       en: Cinnyris chalcomelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

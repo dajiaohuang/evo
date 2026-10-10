@@ -9,7 +9,6 @@ records:
     name:
       zh: Merycodus crucensis
       en: Merycodus crucensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

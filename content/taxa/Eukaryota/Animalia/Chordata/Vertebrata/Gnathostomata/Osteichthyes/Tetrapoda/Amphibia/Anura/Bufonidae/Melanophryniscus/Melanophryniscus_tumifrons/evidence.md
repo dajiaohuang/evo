@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus tumifrons
       zh: Melanophryniscus tumifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

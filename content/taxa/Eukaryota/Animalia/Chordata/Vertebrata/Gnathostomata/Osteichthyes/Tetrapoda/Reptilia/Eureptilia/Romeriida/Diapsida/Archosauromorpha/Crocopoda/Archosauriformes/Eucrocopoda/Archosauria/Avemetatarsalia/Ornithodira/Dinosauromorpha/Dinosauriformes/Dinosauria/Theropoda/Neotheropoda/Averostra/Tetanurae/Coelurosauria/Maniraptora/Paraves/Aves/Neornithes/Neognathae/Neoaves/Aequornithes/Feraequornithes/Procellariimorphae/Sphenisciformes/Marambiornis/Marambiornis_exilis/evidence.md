@@ -9,7 +9,6 @@ records:
     name:
       zh: Marambiornis exilis
       en: Marambiornis exilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

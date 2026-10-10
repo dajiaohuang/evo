@@ -9,7 +9,6 @@ records:
     name:
       en: Occidozyga floresiana
       zh: Occidozyga floresiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

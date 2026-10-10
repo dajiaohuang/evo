@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys wuliangshanensis
       zh: Boulenophrys wuliangshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

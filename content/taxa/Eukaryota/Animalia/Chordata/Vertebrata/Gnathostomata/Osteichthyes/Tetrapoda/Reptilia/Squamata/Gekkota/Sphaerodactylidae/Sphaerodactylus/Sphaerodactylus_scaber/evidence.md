@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus scaber
       en: Sphaerodactylus scaber
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

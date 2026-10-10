@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinobaatar fuxinensis
       en: Sinobaatar fuxinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

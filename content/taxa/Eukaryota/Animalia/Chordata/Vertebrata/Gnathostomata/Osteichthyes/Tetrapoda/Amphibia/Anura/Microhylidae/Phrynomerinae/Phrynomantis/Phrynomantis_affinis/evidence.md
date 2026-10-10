@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynomantis affinis
       zh: Phrynomantis affinis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

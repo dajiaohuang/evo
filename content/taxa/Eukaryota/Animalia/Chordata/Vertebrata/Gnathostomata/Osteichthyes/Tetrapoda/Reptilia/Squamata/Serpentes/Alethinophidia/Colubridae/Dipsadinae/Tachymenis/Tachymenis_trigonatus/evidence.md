@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachymenis trigonatus
       en: Tachymenis trigonatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

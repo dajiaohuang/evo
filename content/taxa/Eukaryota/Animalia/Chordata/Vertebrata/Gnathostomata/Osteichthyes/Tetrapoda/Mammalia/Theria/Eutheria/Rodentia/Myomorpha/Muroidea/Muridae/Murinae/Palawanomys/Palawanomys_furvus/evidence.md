@@ -9,7 +9,6 @@ records:
     name:
       zh: Palawanomys furvus
       en: Palawanomys furvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

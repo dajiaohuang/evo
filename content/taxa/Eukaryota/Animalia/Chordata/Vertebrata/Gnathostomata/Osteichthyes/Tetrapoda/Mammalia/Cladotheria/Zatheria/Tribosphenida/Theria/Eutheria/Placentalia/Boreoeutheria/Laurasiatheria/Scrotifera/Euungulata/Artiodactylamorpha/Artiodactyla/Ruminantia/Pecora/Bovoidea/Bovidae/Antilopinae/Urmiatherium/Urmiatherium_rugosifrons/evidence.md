@@ -9,7 +9,6 @@ records:
     name:
       zh: Urmiatherium rugosifrons
       en: Urmiatherium rugosifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

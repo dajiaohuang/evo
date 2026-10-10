@@ -9,7 +9,6 @@ records:
     name:
       zh: Armania asiana
       en: Armania asiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

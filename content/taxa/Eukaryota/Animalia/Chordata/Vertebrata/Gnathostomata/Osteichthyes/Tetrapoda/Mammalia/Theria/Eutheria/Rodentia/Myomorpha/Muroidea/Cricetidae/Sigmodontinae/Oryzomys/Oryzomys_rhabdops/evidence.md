@@ -9,7 +9,6 @@ records:
     name:
       zh: Oryzomys rhabdops
       en: Oryzomys rhabdops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

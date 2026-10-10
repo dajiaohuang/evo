@@ -9,7 +9,6 @@ records:
     name:
       zh: 普鲁斯猴
       en: Preuss's Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

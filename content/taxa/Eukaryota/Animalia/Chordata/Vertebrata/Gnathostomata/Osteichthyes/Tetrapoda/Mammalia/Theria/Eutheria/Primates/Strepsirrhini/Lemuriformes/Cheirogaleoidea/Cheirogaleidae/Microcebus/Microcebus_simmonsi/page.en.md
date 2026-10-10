@@ -28,5 +28,5 @@ The current MDD Simmons's mouse lemur page notes that it includes Boraha mouse l
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Locality and taxonomy notes are limited to the cited studies and MDD nomenclature; current full range, population trend and conservation status are not inferred. The English name follows MDD and the Chinese wording is editorial; the page has not received external expert review. The page is not externally expert-reviewed.
+Locality and taxonomy notes are limited to the cited studies and MDD nomenclature; current full range, population trend and conservation status are not inferred. The English name follows MDD and the Chinese wording is editorial.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       en: Pleurodema alium
       zh: Pleurodema alium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

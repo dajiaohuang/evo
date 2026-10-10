@@ -9,7 +9,6 @@ records:
     name:
       zh: Salinoctomys loschalchalerosorum
       en: Salinoctomys loschalchalerosorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

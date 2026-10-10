@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeortyx volans
       en: Palaeortyx volans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

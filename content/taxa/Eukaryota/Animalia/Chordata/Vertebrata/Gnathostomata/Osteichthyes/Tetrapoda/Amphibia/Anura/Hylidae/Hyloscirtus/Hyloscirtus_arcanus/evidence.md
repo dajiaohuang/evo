@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus arcanus
       zh: Hyloscirtus arcanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia staffordi
       zh: Stumpffia staffordi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

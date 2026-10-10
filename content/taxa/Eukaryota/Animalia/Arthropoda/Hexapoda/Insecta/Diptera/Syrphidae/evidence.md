@@ -9,7 +9,6 @@ records:
     name:
       zh: 食蚜蝇科
       en: Hoverflies
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

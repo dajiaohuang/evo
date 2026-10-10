@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimeosaurus tugrikinensis
       en: Mimeosaurus tugrikinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

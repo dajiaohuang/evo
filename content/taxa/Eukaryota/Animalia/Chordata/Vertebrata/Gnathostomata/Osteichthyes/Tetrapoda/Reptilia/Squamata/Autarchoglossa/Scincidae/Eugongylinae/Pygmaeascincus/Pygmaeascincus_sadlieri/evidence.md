@@ -9,7 +9,6 @@ records:
     name:
       zh: Pygmaeascincus sadlieri
       en: Pygmaeascincus sadlieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

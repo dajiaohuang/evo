@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: motani-2015-cartorhynchus concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: motani-2015-cartorhynchus
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: motani-2015-cartorhynchus
           locator: pp. 485–488; Figure 1; Methods
-      reviewStatus: automated-audit-passed
 ---
 
 # Cartorhynchus

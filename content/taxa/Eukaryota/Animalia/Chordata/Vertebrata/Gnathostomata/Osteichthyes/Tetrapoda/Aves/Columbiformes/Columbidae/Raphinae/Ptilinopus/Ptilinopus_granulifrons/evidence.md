@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus granulifrons
       en: Ptilinopus granulifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

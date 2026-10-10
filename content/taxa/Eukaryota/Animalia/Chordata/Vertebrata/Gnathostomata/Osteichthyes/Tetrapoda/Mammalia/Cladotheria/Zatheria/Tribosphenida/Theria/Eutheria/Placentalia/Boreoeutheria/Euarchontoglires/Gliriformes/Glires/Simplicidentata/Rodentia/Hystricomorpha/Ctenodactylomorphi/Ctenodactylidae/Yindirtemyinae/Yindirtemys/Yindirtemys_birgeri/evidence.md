@@ -9,7 +9,6 @@ records:
     name:
       zh: Yindirtemys birgeri
       en: Yindirtemys birgeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tauraco livingstonii
       en: Tauraco livingstonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

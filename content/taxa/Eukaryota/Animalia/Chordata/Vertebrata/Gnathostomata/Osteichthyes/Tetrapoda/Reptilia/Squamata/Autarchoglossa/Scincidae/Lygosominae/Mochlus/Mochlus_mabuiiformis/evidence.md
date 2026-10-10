@@ -9,7 +9,6 @@ records:
     name:
       zh: Mochlus mabuiiformis
       en: Mochlus mabuiiformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

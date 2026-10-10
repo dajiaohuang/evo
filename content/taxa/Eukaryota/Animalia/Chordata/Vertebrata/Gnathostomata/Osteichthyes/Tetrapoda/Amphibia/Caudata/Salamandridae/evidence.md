@@ -9,7 +9,6 @@ records:
     name:
       en: Salamandridae
       zh: Salamandridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

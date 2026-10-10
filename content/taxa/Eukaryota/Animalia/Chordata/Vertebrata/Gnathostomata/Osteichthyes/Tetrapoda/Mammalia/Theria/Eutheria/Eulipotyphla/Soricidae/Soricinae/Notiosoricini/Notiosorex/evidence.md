@@ -9,7 +9,6 @@ records:
     name:
       zh: Notiosorex
       en: Notiosorex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

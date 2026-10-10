@@ -9,7 +9,6 @@ records:
     name:
       en: Paracassina kounhiensis
       zh: Paracassina kounhiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: tomiya-2011-lycophocyon concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: tomiya-2011-lycophocyon
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: tomiya-2011-lycophocyon primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - referenceId: tomiya-2011-lycophocyon
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: tomiya-2011-lycophocyon primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - referenceId: tomiya-2011-lycophocyon
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: tomiya-2011-lycophocyon primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - referenceId: tomiya-2011-lycophocyon
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: tomiya-2011-lycophocyon primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - referenceId: tomiya-2011-lycophocyon
           relation: supports
@@ -197,7 +182,6 @@ records:
       referenceLocators:
         - referenceId: tomiya-2011-lycophocyon
           locator: e24146; Figures 2–7; Tables 1–3; Appendices S1–S3; Holotype and paratypes; Phylogenetic analysis; Dietary habits
-      reviewStatus: automated-audit-passed
 ---
 
 # Lycophocyon hutchisoni

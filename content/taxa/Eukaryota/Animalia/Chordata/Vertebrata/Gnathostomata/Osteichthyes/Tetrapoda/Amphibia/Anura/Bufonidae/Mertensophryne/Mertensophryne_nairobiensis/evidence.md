@@ -9,7 +9,6 @@ records:
     name:
       en: Mertensophryne nairobiensis
       zh: Mertensophryne nairobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

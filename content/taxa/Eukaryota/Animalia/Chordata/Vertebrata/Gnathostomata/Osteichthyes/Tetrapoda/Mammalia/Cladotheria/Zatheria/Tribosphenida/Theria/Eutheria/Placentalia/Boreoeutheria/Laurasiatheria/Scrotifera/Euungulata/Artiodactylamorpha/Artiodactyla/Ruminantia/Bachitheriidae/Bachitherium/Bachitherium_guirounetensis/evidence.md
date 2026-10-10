@@ -9,7 +9,6 @@ records:
     name:
       zh: Bachitherium guirounetensis
       en: Bachitherium guirounetensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

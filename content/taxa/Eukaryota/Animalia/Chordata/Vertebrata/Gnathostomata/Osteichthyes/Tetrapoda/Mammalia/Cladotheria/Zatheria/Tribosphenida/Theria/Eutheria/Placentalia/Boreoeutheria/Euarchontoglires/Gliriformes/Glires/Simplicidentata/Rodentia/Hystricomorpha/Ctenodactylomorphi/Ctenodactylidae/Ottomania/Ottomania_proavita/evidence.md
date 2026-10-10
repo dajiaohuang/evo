@@ -9,7 +9,6 @@ records:
     name:
       zh: Ottomania proavita
       en: Ottomania proavita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

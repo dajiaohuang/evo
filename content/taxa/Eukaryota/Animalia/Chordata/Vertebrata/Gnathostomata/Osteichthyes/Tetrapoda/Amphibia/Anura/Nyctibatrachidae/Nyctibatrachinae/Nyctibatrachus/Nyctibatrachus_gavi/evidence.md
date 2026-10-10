@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus gavi
       zh: Nyctibatrachus gavi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

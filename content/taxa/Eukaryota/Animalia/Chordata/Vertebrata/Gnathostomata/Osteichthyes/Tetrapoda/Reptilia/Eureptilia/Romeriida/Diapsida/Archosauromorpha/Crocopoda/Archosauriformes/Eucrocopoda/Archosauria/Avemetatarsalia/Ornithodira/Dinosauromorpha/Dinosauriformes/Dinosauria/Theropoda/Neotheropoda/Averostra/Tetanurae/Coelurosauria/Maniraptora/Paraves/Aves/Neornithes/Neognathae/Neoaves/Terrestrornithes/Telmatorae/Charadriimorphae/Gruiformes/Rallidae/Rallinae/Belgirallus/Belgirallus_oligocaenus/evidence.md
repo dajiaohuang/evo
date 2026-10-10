@@ -9,7 +9,6 @@ records:
     name:
       zh: Belgirallus oligocaenus
       en: Belgirallus oligocaenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

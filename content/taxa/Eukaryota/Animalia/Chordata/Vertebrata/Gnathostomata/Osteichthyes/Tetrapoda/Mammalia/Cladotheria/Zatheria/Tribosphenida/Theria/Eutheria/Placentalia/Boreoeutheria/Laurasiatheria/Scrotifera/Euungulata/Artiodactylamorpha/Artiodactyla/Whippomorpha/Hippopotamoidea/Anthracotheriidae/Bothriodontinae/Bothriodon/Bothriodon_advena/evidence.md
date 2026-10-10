@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothriodon advena
       en: Bothriodon advena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

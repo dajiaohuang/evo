@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnophis sirtalis
       en: Thamnophis sirtalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

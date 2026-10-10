@@ -9,7 +9,6 @@ records:
     name:
       zh: 杰弗罗瓦鞍背狨
       en: Geoffroy's Saddle-back Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

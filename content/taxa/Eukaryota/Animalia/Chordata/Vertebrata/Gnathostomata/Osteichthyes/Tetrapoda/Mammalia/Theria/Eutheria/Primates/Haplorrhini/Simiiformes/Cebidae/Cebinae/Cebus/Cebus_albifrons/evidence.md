@@ -9,7 +9,6 @@ records:
     name:
       zh: 白额卷尾猴
       en: White-fronted Capuchin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

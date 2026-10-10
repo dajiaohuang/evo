@@ -9,7 +9,6 @@ records:
     name:
       zh: Tupaia montana
       en: Tupaia montana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

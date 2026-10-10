@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptomalestes avidus
       en: Ptomalestes avidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

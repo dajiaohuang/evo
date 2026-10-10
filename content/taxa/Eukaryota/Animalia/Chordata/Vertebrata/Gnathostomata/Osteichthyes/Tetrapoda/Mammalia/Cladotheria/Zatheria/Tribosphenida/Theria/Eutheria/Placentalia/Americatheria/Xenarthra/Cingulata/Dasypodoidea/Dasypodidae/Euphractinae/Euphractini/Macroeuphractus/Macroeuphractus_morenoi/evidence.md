@@ -9,7 +9,6 @@ records:
     name:
       zh: Macroeuphractus morenoi
       en: Macroeuphractus morenoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

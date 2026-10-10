@@ -9,7 +9,6 @@ records:
     name:
       en: Noblella pygmaea
       zh: Noblella pygmaea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

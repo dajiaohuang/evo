@@ -9,7 +9,6 @@ records:
     name:
       zh: Burramys brutyi
       en: Burramys brutyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

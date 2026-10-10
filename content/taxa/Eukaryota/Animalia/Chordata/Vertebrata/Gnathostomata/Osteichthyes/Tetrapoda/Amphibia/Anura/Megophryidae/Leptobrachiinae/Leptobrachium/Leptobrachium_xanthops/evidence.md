@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachium xanthops
       zh: Leptobrachium xanthops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

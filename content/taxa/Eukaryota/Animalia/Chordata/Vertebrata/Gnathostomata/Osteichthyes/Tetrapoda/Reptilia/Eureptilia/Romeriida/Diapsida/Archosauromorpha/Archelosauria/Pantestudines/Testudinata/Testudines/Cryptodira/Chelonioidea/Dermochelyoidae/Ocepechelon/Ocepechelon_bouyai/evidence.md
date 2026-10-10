@@ -9,7 +9,6 @@ records:
     name:
       zh: Ocepechelon bouyai
       en: Ocepechelon bouyai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

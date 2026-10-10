@@ -9,7 +9,6 @@ records:
     name:
       en: Dryophytes andersonii
       zh: Dryophytes andersonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

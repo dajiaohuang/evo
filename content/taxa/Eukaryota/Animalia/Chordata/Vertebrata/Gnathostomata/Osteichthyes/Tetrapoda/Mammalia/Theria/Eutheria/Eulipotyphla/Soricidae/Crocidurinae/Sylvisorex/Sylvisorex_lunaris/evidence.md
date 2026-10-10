@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylvisorex lunaris
       en: Sylvisorex lunaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

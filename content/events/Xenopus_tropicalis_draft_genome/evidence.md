@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Hellsten et al. 2010 DOI 10.1126/science.1183670
       referenceLinks:
         - relation: supports
           referenceId: hellsten-2010-xenopus-genome

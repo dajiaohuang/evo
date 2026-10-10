@@ -9,7 +9,6 @@ records:
     name:
       zh: Protalphadon lulli
       en: Protalphadon lulli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

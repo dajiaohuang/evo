@@ -9,7 +9,6 @@ records:
     name:
       zh: Magnotherium johnsii
       en: Magnotherium johnsii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega boehmei
       zh: Ameerega boehmei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Connochaetes taurinus
       en: Connochaetes taurinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

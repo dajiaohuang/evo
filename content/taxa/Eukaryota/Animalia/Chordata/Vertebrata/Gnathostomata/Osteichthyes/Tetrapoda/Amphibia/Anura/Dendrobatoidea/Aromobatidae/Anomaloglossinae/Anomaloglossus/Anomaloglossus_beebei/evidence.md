@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus beebei
       zh: Anomaloglossus beebei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

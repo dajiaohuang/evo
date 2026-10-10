@@ -9,7 +9,6 @@ records:
     name:
       zh: Poecile hypermelaenus
       en: Poecile hypermelaenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

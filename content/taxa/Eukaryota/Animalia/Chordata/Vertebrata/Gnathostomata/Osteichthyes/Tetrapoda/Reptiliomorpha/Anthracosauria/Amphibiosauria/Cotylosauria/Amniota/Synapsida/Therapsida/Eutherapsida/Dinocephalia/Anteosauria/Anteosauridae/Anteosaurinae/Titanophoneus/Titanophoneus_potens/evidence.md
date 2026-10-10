@@ -9,7 +9,6 @@ records:
     name:
       zh: Titanophoneus potens
       en: Titanophoneus potens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

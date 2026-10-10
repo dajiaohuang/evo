@@ -9,7 +9,6 @@ records:
     name:
       zh: Geokichla guttata
       en: Geokichla guttata
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

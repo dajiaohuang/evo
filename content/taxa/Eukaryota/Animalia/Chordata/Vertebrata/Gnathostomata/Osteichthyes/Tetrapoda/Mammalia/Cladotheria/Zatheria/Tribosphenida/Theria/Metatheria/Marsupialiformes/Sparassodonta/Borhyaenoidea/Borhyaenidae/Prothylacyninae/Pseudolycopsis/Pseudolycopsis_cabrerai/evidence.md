@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudolycopsis cabrerai
       en: Pseudolycopsis cabrerai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

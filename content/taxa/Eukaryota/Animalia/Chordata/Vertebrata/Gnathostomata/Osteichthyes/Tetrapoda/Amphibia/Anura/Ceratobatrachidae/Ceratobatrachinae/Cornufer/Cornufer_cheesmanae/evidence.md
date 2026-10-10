@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer cheesmanae
       zh: Cornufer cheesmanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

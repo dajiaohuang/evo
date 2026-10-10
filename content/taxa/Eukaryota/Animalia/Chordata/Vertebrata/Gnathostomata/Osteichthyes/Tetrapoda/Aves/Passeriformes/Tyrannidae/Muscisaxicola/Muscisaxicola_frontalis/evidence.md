@@ -9,7 +9,6 @@ records:
     name:
       zh: Muscisaxicola frontalis
       en: Muscisaxicola frontalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

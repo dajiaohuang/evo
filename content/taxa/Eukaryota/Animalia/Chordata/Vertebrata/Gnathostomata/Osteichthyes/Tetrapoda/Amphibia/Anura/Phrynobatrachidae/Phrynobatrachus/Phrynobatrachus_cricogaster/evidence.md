@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus cricogaster
       zh: Phrynobatrachus cricogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumysops laeviplicatus
       en: Eumysops laeviplicatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

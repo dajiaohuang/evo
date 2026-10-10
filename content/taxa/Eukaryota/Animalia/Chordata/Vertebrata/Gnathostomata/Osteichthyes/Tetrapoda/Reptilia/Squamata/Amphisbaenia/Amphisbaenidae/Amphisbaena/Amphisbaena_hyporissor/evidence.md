@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena hyporissor
       en: Amphisbaena hyporissor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

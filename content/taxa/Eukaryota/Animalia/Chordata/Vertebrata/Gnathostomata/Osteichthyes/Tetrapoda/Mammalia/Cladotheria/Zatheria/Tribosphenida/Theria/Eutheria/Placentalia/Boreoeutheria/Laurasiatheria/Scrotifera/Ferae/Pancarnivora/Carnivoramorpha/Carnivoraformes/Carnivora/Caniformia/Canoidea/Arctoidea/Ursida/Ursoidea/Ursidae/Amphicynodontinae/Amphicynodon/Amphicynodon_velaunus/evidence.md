@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphicynodon velaunus
       en: Amphicynodon velaunus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

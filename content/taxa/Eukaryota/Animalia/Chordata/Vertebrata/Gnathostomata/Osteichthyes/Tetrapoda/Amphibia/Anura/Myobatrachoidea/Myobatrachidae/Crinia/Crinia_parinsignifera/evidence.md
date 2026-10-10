@@ -9,7 +9,6 @@ records:
     name:
       en: Crinia parinsignifera
       zh: Crinia parinsignifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla bistincta
       zh: Sarcohyla bistincta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

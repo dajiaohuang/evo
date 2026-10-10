@@ -9,7 +9,6 @@ records:
     name:
       zh: Acinonyx pardinensis
       en: Acinonyx pardinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

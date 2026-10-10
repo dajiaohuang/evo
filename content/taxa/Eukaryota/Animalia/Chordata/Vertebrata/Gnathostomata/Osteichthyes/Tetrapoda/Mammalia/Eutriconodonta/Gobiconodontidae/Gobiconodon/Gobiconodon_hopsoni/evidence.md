@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobiconodon hopsoni
       en: Gobiconodon hopsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

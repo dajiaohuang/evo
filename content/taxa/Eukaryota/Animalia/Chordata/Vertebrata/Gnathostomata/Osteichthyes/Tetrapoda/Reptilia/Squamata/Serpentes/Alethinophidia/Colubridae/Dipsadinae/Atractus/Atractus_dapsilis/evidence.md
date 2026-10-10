@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus dapsilis
       en: Atractus dapsilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

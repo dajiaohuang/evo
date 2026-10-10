@@ -9,7 +9,6 @@ records:
     name:
       en: Charadrahyla taeniopus
       zh: Charadrahyla taeniopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

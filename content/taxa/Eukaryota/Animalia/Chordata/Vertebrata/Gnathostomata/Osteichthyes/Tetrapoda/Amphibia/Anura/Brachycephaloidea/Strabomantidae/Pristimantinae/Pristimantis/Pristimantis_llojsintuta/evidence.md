@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis llojsintuta
       zh: Pristimantis llojsintuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

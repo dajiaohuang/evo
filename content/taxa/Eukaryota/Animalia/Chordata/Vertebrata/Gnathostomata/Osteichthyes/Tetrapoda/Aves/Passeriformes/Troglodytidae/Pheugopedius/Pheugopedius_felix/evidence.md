@@ -9,7 +9,6 @@ records:
     name:
       zh: Pheugopedius felix
       en: Pheugopedius felix
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

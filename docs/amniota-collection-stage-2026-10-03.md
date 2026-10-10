@@ -10,7 +10,7 @@ COL26.8：30154 个接受种记录，{"Reptilia":12649,"Aves":11044,"Mammalia":6
 
 - 全目标资料索引：data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz。每条保留来源身份、分类位置、档案定位和已存证据引用。
 - 原始缺口与后续审阅清单：data/sources/amniota-collection-stage-2026-10-03-followups.jsonl.gz，共 10273 条。初始 COL 6457 条未定位生物资料；PBDB 3816 条保留产地资料不足或分类位置问题。最新补收状态见下文，不再把初始缺口数当作未找到 reference 的数量。
-- 新增 20536 个语言占位文件，保留 85128 个不同的已有语言文件。占位 status=not-authored；不计可读生物学正文或专家审评。
+- 新增 20536 个语言占位文件，保留 85128 个不同的已有语言文件。占位 status=not-authored；不计可读生物学正文。
 - 1075 个历史名称候选已从工作缓存转存独立来源档案；名称对应尚须逐项确认物种概念。
 
 ## 尚未完成

@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella achalensis
       zh: Rhinella achalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

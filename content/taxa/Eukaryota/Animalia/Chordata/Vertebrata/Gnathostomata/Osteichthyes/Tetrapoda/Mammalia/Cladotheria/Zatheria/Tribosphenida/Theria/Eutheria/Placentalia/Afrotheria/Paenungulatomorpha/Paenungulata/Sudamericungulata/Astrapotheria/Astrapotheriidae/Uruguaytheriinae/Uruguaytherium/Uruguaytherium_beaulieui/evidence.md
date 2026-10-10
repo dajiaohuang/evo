@@ -9,7 +9,6 @@ records:
     name:
       zh: Uruguaytherium beaulieui
       en: Uruguaytherium beaulieui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

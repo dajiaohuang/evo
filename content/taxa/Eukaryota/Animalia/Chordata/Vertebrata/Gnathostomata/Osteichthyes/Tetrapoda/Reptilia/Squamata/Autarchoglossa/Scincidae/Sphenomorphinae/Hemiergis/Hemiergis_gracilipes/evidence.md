@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiergis gracilipes
       en: Hemiergis gracilipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

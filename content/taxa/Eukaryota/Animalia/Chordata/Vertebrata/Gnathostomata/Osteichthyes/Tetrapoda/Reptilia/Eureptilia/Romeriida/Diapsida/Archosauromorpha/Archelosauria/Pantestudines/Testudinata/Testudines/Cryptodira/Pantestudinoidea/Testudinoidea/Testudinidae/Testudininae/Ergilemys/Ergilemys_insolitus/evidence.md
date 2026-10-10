@@ -9,7 +9,6 @@ records:
     name:
       zh: Ergilemys insolitus
       en: Ergilemys insolitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

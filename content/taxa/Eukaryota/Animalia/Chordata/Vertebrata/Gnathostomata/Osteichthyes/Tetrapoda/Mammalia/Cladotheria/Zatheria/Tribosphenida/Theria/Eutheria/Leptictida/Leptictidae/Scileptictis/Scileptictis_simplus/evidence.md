@@ -9,7 +9,6 @@ records:
     name:
       zh: Scileptictis simplus
       en: Scileptictis simplus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

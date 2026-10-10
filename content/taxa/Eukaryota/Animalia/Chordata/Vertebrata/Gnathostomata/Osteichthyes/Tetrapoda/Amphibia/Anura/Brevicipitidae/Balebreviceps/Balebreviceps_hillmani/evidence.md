@@ -9,7 +9,6 @@ records:
     name:
       en: Balebreviceps hillmani
       zh: Balebreviceps hillmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

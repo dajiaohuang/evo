@@ -9,7 +9,6 @@ records:
     name:
       zh: Caenolophus suprametalophus
       en: Caenolophus suprametalophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

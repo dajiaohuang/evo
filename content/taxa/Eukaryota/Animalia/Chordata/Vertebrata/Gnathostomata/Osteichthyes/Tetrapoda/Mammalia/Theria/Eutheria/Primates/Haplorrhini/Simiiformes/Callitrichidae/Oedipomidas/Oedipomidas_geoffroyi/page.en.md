@@ -34,5 +34,5 @@ At Cerro Ancón Nature Reserve, a study surveyed a 1.75-km transect two days per
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The three studies concern a short multi-site survey, two canopy sites and Cerro Ancón alone; their densities, observation hours and canopy measures are not pooled into species-wide parameters. Field sources use Saguinus geoffroyi, while page identity follows the pinned COL26.8 ID. Not externally expert-reviewed. This page is not externally expert-reviewed.
+The three studies concern a short multi-site survey, two canopy sites and Cerro Ancón alone; their densities, observation hours and canopy measures are not pooled into species-wide parameters. Field sources use Saguinus geoffroyi, while page identity follows the pinned COL26.8 ID.. This page is.
 <!-- /evo:text -->

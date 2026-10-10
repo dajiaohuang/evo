@@ -9,7 +9,6 @@ records:
     name:
       zh: Crinifer zonurus
       en: Crinifer zonurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

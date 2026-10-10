@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa yariguiensis
       zh: Bolitoglossa yariguiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

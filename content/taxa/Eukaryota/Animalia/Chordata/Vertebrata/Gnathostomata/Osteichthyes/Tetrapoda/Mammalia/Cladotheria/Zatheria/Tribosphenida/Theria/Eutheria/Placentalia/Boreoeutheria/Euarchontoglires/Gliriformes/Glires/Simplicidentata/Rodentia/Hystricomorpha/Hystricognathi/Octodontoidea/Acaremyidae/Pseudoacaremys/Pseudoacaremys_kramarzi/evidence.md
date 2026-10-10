@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoacaremys kramarzi
       en: Pseudoacaremys kramarzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

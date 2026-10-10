@@ -9,7 +9,6 @@ records:
     name:
       zh: Salishicetus meadi
       en: Salishicetus meadi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

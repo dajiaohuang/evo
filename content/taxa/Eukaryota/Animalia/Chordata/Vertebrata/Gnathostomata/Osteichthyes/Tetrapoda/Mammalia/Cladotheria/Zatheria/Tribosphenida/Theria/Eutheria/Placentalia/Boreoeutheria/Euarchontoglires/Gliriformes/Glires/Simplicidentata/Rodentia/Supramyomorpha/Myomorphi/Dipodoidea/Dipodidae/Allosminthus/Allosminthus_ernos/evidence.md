@@ -9,7 +9,6 @@ records:
     name:
       zh: Allosminthus ernos
       en: Allosminthus ernos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

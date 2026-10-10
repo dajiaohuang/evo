@@ -9,7 +9,6 @@ records:
     name:
       zh: Velociraptor mongoliensis
       en: Velociraptor mongoliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

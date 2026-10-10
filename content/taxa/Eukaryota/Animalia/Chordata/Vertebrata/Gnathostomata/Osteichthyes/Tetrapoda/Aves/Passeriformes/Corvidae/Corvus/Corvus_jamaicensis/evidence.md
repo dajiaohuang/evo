@@ -9,7 +9,6 @@ records:
     name:
       zh: Corvus jamaicensis
       en: Corvus jamaicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

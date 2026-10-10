@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrrholaemus
       en: Pyrrholaemus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

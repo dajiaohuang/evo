@@ -9,7 +9,6 @@ records:
     name:
       zh: Calchaquitherium mixtum
       en: Calchaquitherium mixtum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

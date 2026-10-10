@@ -9,7 +9,6 @@ records:
     name:
       zh: Amazona amazonica
       en: Amazona amazonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

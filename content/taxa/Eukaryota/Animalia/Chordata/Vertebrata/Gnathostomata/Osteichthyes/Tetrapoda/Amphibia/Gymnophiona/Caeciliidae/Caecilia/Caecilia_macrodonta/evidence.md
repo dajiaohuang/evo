@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia macrodonta
       zh: Caecilia macrodonta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

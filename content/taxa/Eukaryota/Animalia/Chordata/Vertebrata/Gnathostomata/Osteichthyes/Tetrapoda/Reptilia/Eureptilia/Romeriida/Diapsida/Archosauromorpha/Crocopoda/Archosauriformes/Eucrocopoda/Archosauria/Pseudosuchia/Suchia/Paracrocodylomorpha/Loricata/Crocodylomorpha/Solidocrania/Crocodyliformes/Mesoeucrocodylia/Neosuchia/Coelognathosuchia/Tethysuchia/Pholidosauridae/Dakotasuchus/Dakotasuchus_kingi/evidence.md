@@ -9,7 +9,6 @@ records:
     name:
       zh: Dakotasuchus kingi
       en: Dakotasuchus kingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

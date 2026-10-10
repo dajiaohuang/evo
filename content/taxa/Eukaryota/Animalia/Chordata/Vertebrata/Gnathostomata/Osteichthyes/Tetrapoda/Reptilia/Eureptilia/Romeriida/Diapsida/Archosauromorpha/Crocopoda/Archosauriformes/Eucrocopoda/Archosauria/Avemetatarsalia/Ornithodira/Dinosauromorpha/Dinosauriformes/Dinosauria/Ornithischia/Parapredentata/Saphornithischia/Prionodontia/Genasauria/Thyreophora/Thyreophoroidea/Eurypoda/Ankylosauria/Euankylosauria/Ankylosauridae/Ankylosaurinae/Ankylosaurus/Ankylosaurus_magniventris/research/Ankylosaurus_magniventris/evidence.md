@@ -57,9 +57,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: carpenter-2004-ankylosaurus-redescription concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: carpenter-2004-ankylosaurus-redescription
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Carpenter 2004 DOI 10.1139/e04-043
       referenceLinks:
         - referenceId: carpenter-2004-ankylosaurus-redescription
           relation: supports
@@ -99,9 +93,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Carpenter 2004 DOI 10.1139/e04-043
       referenceLinks:
         - referenceId: carpenter-2004-ankylosaurus-redescription
           relation: supports
@@ -120,9 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Carpenter 2004 DOI 10.1139/e04-043
       referenceLinks:
         - referenceId: carpenter-2004-ankylosaurus-redescription
           relation: supports
@@ -172,7 +160,6 @@ records:
       referenceLocators:
         - referenceId: carpenter-2004-ankylosaurus-redescription
           locator: Cited named specimen and locality; no complete global range is claimed.
-      reviewStatus: not-reviewed
   field-claim-overrides:
     - firstAppearance:
         status: not-assessed

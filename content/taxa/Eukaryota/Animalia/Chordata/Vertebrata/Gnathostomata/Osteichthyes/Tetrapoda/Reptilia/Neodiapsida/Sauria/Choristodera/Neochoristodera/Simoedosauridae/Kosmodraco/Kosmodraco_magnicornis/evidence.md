@@ -9,7 +9,6 @@ records:
     name:
       zh: Kosmodraco magnicornis
       en: Kosmodraco magnicornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

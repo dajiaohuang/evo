@@ -9,7 +9,6 @@ records:
     name:
       en: Nanorana medogensis
       zh: Nanorana medogensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

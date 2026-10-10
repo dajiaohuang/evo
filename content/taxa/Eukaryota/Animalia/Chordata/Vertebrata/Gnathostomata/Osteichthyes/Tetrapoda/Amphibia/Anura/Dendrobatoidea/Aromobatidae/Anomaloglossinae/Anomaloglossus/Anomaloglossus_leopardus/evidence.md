@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus leopardus
       zh: Anomaloglossus leopardus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

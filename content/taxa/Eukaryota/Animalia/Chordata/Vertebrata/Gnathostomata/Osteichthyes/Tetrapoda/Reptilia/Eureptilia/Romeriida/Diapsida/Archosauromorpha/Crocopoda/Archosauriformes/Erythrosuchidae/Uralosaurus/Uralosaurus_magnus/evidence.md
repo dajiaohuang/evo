@@ -9,7 +9,6 @@ records:
     name:
       zh: Uralosaurus magnus
       en: Uralosaurus magnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

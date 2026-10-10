@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla tetrix
       zh: Microhyla tetrix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

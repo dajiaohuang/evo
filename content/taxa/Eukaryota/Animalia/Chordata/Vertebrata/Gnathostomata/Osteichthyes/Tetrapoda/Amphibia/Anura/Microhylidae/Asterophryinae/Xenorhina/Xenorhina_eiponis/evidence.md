@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina eiponis
       zh: Xenorhina eiponis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

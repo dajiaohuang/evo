@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamaeleo monachus
       en: Chamaeleo monachus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

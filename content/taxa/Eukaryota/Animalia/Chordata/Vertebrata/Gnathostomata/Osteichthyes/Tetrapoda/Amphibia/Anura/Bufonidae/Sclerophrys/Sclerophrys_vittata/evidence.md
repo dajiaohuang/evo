@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys vittata
       zh: Sclerophrys vittata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

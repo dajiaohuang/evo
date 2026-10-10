@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesoclemmys nasuta
       en: Mesoclemmys nasuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

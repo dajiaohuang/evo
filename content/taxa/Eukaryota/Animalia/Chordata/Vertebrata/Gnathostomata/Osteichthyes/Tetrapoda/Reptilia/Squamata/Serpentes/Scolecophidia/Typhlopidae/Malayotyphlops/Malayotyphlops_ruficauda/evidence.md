@@ -9,7 +9,6 @@ records:
     name:
       zh: Malayotyphlops ruficauda
       en: Malayotyphlops ruficauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

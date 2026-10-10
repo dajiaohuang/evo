@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus rillingi
       zh: Phrynobatrachus rillingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

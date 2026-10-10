@@ -9,7 +9,6 @@ records:
     name:
       zh: Durotrigia triconidens
       en: Durotrigia triconidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

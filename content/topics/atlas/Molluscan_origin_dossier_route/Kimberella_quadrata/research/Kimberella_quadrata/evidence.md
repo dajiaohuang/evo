@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: fedonkin-waggoner-1997-kimberella primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: fedonkin-waggoner-1997-kimberella
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: fedonkin-waggoner-1997-kimberella primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: fedonkin-waggoner-1997-kimberella
           relation: supports
@@ -97,9 +91,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: fedonkin-waggoner-1997-kimberella primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: fedonkin-waggoner-1997-kimberella
           relation: supports
@@ -116,9 +107,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: fedonkin-waggoner-1997-kimberella primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: fedonkin-waggoner-1997-kimberella
           relation: supports
@@ -135,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: fedonkin-waggoner-1997-kimberella primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: fedonkin-waggoner-1997-kimberella
           relation: supports
@@ -189,7 +174,6 @@ records:
       referenceLocators:
         - referenceId: fedonkin-waggoner-1997-kimberella
           locator: 868–871; Figures 1–3; description and reconstruction
-      reviewStatus: automated-audit-passed
 ---
 
 # Kimberella quadrata

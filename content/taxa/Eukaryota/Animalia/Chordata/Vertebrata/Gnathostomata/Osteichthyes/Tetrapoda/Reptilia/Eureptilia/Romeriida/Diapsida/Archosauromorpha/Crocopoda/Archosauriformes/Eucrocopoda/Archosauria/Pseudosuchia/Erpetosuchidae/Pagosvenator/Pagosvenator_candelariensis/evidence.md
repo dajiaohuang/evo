@@ -9,7 +9,6 @@ records:
     name:
       zh: Pagosvenator candelariensis
       en: Pagosvenator candelariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

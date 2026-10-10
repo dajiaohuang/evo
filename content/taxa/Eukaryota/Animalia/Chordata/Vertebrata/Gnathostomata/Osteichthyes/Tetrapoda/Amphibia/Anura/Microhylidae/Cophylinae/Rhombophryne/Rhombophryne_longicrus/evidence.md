@@ -9,7 +9,6 @@ records:
     name:
       en: Rhombophryne longicrus
       zh: Rhombophryne longicrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

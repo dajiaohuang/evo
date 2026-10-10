@@ -9,7 +9,6 @@ records:
     name:
       zh: Daemonosaurus chauliodus
       en: Daemonosaurus chauliodus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

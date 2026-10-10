@@ -9,7 +9,6 @@ records:
     name:
       en: Megastomatohyla pellita
       zh: Megastomatohyla pellita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

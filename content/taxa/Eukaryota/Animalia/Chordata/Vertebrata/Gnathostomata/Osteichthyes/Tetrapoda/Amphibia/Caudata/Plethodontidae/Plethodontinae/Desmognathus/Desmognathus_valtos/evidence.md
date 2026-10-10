@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus valtos
       zh: Desmognathus valtos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

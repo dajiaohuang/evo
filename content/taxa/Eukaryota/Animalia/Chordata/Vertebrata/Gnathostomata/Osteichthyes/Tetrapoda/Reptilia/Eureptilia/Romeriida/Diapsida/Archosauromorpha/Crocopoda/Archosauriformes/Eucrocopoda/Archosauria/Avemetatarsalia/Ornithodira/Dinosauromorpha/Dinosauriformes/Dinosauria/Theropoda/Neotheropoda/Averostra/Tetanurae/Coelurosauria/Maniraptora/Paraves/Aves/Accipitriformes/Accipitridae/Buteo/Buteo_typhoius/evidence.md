@@ -9,7 +9,6 @@ records:
     name:
       zh: Buteo typhoius
       en: Buteo typhoius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

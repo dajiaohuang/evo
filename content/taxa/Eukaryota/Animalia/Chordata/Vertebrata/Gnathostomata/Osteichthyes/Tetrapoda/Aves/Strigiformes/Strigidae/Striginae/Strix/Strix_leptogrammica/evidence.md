@@ -9,7 +9,6 @@ records:
     name:
       zh: Strix leptogrammica
       en: Strix leptogrammica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

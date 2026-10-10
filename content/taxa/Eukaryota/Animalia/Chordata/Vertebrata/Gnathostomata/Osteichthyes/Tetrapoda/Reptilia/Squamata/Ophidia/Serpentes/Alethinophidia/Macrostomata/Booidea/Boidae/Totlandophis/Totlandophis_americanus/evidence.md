@@ -9,7 +9,6 @@ records:
     name:
       zh: Totlandophis americanus
       en: Totlandophis americanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

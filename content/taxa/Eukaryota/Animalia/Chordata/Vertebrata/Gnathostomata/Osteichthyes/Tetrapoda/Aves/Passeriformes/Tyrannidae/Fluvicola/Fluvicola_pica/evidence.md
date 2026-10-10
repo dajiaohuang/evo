@@ -9,7 +9,6 @@ records:
     name:
       zh: Fluvicola pica
       en: Fluvicola pica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

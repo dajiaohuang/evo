@@ -9,7 +9,6 @@ records:
     name:
       zh: Ernestokokenia nitida
       en: Ernestokokenia nitida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

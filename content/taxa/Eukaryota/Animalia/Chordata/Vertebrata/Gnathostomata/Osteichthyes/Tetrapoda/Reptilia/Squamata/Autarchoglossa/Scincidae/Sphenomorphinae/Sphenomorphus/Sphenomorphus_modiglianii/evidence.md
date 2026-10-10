@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus modiglianii
       en: Sphenomorphus modiglianii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

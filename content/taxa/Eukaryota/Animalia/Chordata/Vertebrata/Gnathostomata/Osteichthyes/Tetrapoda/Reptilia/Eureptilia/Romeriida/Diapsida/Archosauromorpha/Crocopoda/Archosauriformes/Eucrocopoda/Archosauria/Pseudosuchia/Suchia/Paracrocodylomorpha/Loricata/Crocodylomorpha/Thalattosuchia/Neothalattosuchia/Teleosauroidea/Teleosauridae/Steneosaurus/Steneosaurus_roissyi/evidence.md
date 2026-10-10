@@ -9,7 +9,6 @@ records:
     name:
       zh: Steneosaurus roissyi
       en: Steneosaurus roissyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

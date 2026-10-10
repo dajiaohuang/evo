@@ -9,7 +9,6 @@ records:
     name:
       zh: Xanthotis polygrammus
       en: Xanthotis polygrammus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

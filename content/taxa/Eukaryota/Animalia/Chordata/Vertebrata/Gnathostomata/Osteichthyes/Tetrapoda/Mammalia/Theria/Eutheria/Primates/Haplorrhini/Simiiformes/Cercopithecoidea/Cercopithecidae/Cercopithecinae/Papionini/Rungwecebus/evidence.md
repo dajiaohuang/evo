@@ -9,7 +9,6 @@ records:
     name:
       en: Rungwecebus guide
       zh: Rungwecebus 属导读
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

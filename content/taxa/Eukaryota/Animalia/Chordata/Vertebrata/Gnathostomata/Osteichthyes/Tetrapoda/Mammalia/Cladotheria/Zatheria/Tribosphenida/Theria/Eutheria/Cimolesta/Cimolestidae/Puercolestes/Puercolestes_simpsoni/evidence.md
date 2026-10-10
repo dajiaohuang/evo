@@ -9,7 +9,6 @@ records:
     name:
       zh: Puercolestes simpsoni
       en: Puercolestes simpsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

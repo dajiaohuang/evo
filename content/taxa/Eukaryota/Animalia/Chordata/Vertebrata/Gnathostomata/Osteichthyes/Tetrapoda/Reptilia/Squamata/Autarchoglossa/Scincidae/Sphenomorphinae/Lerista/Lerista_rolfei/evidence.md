@@ -9,7 +9,6 @@ records:
     name:
       zh: Lerista rolfei
       en: Lerista rolfei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

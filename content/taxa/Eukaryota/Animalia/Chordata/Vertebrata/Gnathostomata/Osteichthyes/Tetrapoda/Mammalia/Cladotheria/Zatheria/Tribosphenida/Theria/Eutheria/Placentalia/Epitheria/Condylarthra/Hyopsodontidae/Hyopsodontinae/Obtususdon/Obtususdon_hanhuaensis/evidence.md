@@ -9,7 +9,6 @@ records:
     name:
       zh: Obtususdon hanhuaensis
       en: Obtususdon hanhuaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

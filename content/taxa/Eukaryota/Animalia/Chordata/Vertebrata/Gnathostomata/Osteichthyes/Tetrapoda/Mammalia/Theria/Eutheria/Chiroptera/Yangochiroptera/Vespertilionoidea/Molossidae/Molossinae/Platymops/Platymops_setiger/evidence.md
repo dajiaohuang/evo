@@ -9,7 +9,6 @@ records:
     name:
       zh: Platymops setiger
       en: Platymops setiger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

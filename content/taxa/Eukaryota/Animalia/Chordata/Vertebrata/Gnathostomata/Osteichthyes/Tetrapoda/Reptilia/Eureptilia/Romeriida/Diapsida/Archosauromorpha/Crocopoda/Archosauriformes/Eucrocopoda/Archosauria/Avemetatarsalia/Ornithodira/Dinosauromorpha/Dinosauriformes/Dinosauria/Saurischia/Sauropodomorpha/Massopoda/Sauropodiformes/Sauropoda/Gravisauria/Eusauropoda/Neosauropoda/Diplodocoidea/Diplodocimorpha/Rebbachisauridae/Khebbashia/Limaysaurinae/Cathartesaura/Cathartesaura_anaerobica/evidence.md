@@ -9,7 +9,6 @@ records:
     name:
       zh: Cathartesaura anaerobica
       en: Cathartesaura anaerobica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumops underwoodi
       en: Eumops underwoodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

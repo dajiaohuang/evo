@@ -9,7 +9,6 @@ records:
     name:
       zh: Jaxartosaurus aralensis
       en: Jaxartosaurus aralensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

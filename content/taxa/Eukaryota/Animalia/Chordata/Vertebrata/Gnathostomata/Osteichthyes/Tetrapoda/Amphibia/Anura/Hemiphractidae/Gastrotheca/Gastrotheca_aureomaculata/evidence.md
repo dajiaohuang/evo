@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca aureomaculata
       zh: Gastrotheca aureomaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

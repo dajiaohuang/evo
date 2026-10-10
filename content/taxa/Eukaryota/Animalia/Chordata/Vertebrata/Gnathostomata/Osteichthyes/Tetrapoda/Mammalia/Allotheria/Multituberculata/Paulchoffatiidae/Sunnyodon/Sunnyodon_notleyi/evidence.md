@@ -9,7 +9,6 @@ records:
     name:
       zh: Sunnyodon notleyi
       en: Sunnyodon notleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

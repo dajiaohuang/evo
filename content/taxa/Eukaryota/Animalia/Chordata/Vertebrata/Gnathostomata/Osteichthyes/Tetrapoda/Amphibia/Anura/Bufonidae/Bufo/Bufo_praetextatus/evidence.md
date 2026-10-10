@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo praetextatus
       zh: Bufo praetextatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

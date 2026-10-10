@@ -9,7 +9,6 @@ records:
     name:
       zh: 侏狨属
       en: Pygmy marmosets
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

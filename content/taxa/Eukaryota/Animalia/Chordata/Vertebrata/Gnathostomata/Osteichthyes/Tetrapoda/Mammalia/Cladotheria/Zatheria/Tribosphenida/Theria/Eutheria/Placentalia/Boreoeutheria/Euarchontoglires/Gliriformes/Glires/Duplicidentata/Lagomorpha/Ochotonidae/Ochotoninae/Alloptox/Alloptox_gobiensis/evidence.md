@@ -9,7 +9,6 @@ records:
     name:
       zh: Alloptox gobiensis
       en: Alloptox gobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

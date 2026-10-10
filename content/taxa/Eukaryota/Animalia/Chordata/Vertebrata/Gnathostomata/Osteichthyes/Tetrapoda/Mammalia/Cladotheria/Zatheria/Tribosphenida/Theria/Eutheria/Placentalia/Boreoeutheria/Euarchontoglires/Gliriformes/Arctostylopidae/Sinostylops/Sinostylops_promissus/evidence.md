@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinostylops promissus
       en: Sinostylops promissus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

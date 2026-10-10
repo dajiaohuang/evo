@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ou-2017-xianguangia; zhao-2023-xianguangia
       referenceLinks:
         - referenceId: ou-2017-xianguangia
           relation: supports
@@ -85,9 +82,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ou-2017-xianguangia locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: ou-2017-xianguangia
@@ -111,9 +105,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Ou et al. 2017 DOI 10.1073/pnas.1701650114; Zhao et al. 2023 DOI 10.1080/14772019.2023.2215787
       referenceLinks:
         - referenceId: ou-2017-xianguangia
           relation: supports
@@ -137,9 +128,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Ou et al. 2017 DOI 10.1073/pnas.1701650114
       referenceLinks:
         - referenceId: ou-2017-xianguangia
           relation: supports
@@ -158,9 +146,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Ou et al. 2017 DOI 10.1073/pnas.1701650114; Zhao et al. 2023 DOI 10.1080/14772019.2023.2215787
       referenceLinks:
         - referenceId: ou-2017-xianguangia
           relation: supports
@@ -184,9 +169,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Ou et al. 2017 DOI 10.1073/pnas.1701650114; Zhao et al. 2023 DOI 10.1080/14772019.2023.2215787
       referenceLinks:
         - referenceId: ou-2017-xianguangia
           relation: supports
@@ -249,7 +231,6 @@ records:
       referenceLocators:
         - referenceId: ou-2017-xianguangia
           locator: 8835–8840; Figures 1–4; Supplementary Figures; 85 new specimens, synonymy, reconstruction and phylogenetic analysis
-      reviewStatus: automated-audit-passed
 ---
 
 # Xianguangia sinica

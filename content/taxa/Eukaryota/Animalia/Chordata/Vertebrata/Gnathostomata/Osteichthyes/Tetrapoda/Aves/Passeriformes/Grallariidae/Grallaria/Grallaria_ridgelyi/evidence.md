@@ -9,7 +9,6 @@ records:
     name:
       zh: Grallaria ridgelyi
       en: Grallaria ridgelyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

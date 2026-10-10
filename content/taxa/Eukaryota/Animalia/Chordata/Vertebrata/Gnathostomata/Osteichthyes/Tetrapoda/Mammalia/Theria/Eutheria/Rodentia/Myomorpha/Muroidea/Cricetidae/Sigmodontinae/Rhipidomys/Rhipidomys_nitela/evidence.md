@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidomys nitela
       en: Rhipidomys nitela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

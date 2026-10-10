@@ -9,7 +9,6 @@ records:
     name:
       zh: Ochthoeca rufipectoralis
       en: Ochthoeca rufipectoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

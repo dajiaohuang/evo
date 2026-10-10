@@ -9,7 +9,6 @@ records:
     name:
       en: Quasipaa spinosa
       zh: Quasipaa spinosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

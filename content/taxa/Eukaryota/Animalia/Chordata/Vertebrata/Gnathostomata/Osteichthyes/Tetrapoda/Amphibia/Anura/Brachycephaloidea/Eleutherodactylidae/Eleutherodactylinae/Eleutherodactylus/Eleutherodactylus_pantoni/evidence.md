@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus pantoni
       zh: Eleutherodactylus pantoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Menura tyawanoides
       en: Menura tyawanoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

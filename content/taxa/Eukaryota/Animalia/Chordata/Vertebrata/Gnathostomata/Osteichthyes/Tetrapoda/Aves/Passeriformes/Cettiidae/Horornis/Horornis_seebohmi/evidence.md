@@ -9,7 +9,6 @@ records:
     name:
       zh: Horornis seebohmi
       en: Horornis seebohmi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

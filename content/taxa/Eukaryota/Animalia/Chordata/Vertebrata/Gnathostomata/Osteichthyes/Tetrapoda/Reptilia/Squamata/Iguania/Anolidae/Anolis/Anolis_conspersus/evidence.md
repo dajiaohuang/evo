@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis conspersus
       en: Anolis conspersus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trinomys paratus
       en: Trinomys paratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

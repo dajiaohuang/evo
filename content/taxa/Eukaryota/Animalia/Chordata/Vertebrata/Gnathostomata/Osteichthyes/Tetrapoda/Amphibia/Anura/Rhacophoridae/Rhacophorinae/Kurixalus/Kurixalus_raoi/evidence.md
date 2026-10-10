@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus raoi
       zh: Kurixalus raoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis actinolaimus
       zh: Pristimantis actinolaimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis uisae
       zh: Pristimantis uisae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

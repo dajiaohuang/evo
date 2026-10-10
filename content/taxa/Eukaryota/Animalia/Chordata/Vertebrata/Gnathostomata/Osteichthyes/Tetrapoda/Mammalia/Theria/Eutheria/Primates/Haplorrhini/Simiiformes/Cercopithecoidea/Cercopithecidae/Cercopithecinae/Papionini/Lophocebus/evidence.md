@@ -10,7 +10,6 @@ records:
     name:
       en: Crested Mangabeys
       zh: 冠獒猴属
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

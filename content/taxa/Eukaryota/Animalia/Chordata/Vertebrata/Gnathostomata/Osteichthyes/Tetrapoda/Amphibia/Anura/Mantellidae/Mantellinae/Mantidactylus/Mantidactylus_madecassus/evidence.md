@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus madecassus
       zh: Mantidactylus madecassus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

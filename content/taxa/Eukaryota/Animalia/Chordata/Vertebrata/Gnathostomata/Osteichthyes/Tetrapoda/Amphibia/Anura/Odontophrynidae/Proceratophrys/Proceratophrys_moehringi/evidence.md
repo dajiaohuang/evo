@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys moehringi
       zh: Proceratophrys moehringi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

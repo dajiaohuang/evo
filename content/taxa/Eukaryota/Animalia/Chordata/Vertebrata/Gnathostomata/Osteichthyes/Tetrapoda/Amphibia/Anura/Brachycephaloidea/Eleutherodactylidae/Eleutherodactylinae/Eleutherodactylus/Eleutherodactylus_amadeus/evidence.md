@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus amadeus
       zh: Eleutherodactylus amadeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

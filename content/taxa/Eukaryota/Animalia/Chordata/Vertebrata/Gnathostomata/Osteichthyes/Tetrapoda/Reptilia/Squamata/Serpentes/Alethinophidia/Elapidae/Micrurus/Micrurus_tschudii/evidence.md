@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrurus tschudii
       en: Micrurus tschudii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradelomys santjaumensis
       en: Paradelomys santjaumensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

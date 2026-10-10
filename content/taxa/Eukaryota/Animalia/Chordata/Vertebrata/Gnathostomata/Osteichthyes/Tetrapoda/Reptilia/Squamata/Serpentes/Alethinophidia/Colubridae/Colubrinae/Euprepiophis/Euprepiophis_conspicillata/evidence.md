@@ -9,7 +9,6 @@ records:
     name:
       zh: Euprepiophis conspicillata
       en: Euprepiophis conspicillata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myzomela nigrita
       en: Myzomela nigrita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

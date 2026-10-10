@@ -9,7 +9,6 @@ records:
     name:
       en: Aphantophryne minuta
       zh: Aphantophryne minuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

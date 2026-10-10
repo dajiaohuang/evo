@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla mihintalei
       zh: Microhyla mihintalei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

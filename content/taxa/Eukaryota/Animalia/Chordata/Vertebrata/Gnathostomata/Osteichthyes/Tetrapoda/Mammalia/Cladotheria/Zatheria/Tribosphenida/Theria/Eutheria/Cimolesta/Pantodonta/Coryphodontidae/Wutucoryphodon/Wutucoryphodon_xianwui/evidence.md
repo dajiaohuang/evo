@@ -9,7 +9,6 @@ records:
     name:
       zh: Wutucoryphodon xianwui
       en: Wutucoryphodon xianwui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

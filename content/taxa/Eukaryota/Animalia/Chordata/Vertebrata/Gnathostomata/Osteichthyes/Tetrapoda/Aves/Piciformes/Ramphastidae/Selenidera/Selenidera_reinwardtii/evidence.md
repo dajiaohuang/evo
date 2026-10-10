@@ -9,7 +9,6 @@ records:
     name:
       zh: Selenidera reinwardtii
       en: Selenidera reinwardtii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

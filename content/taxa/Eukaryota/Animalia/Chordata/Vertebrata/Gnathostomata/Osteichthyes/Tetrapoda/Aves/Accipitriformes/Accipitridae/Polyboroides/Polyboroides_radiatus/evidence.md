@@ -9,7 +9,6 @@ records:
     name:
       zh: Polyboroides radiatus
       en: Polyboroides radiatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Monosaulax skinneri
       en: Monosaulax skinneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

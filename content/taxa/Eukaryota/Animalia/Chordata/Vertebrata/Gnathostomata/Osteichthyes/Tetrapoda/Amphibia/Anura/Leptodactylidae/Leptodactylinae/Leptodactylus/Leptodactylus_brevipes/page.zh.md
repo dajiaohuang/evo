@@ -34,7 +34,7 @@ COL26.8 接受 Leptodactylus brevipes Cope, 1887 为种级记录，所记分类�
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-分类阅读入口包含有年代和研究范围限定的繁殖摘要；历史性状概念、其余生物学主题与当代概念范围仍需进一步来源核对。本页不是完整物种档案，未经过外部领域专家评审。
+分类阅读入口包含有年代和研究范围限定的繁殖摘要；历史性状概念、其余生物学主题与当代概念范围仍需进一步来源核对。本页不是完整物种档案。
 <!-- /evo:text -->
 
 ## 研究正文待整理

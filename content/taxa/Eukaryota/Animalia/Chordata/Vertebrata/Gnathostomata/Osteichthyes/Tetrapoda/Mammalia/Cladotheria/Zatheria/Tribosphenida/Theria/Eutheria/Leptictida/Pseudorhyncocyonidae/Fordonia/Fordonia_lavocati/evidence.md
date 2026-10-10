@@ -9,7 +9,6 @@ records:
     name:
       zh: Fordonia lavocati
       en: Fordonia lavocati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

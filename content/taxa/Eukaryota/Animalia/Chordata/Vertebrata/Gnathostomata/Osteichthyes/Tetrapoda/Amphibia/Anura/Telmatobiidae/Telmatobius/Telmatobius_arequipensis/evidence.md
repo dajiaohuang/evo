@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius arequipensis
       zh: Telmatobius arequipensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

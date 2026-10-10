@@ -9,7 +9,6 @@ records:
     name:
       zh: 鳄目
       en: Crocodilians
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: sensoryOverview

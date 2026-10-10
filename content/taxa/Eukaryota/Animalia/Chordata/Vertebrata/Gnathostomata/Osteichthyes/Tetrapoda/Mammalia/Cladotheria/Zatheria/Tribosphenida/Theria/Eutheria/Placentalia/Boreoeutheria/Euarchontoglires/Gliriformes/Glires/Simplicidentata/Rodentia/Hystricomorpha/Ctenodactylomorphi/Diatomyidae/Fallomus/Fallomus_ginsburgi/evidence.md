@@ -9,7 +9,6 @@ records:
     name:
       zh: Fallomus ginsburgi
       en: Fallomus ginsburgi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

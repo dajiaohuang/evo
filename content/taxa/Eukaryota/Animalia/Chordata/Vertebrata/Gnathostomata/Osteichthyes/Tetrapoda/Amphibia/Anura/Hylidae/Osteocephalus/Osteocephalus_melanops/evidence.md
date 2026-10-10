@@ -9,7 +9,6 @@ records:
     name:
       en: Osteocephalus melanops
       zh: Osteocephalus melanops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

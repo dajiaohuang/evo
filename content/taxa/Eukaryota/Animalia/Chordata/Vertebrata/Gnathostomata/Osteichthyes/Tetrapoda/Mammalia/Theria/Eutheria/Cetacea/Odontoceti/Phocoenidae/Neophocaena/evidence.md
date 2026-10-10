@@ -9,7 +9,6 @@ records:
     name:
       zh: Neophocaena
       en: Neophocaena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

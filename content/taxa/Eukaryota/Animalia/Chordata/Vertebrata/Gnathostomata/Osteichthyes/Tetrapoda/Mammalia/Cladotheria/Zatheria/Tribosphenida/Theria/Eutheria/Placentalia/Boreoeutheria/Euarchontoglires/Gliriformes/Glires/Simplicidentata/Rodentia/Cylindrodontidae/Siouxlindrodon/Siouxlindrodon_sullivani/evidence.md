@@ -9,7 +9,6 @@ records:
     name:
       zh: Siouxlindrodon sullivani
       en: Siouxlindrodon sullivani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

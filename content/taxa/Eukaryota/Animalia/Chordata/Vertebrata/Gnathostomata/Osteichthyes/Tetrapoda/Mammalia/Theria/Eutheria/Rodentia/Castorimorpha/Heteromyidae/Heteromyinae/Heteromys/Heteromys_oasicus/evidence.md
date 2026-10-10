@@ -9,7 +9,6 @@ records:
     name:
       zh: Heteromys oasicus
       en: Heteromys oasicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Fona herzogae
       en: Fona herzogae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

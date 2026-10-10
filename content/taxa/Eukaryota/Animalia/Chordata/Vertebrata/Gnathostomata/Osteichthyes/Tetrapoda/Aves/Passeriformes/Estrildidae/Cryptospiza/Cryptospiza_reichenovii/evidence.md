@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptospiza reichenovii
       en: Cryptospiza reichenovii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

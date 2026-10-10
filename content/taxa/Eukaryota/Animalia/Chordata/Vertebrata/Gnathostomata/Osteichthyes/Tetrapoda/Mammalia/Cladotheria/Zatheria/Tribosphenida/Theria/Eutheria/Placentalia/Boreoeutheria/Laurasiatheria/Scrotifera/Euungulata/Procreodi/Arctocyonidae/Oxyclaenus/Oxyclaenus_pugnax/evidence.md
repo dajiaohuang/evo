@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyclaenus pugnax
       en: Oxyclaenus pugnax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

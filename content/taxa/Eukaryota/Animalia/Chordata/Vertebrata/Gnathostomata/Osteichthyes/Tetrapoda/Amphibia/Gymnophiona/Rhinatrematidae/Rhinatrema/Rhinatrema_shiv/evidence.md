@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinatrema shiv
       zh: Rhinatrema shiv
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

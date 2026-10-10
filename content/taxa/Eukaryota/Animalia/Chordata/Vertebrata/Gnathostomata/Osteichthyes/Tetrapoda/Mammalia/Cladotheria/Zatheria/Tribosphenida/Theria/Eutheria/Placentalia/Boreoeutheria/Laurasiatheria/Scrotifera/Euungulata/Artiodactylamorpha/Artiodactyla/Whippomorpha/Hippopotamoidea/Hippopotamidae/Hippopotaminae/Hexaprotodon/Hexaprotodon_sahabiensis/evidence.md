@@ -9,7 +9,6 @@ records:
     name:
       zh: Hexaprotodon sahabiensis
       en: Hexaprotodon sahabiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acristavus gagslarsoni
       en: Acristavus gagslarsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

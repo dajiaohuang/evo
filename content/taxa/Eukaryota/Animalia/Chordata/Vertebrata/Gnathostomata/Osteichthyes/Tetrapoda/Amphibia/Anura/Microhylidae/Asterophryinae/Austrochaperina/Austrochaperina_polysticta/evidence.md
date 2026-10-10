@@ -9,7 +9,6 @@ records:
     name:
       en: Austrochaperina polysticta
       zh: Austrochaperina polysticta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis rhodoscelis
       zh: Boophis rhodoscelis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

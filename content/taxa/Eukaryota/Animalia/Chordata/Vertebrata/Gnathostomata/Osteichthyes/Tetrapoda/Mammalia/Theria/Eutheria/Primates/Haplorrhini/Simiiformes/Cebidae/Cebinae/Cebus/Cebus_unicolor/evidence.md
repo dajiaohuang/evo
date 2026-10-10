@@ -9,7 +9,6 @@ records:
     name:
       zh: 斯皮克斯白额卷尾猴
       en: Spix's White-fronted Capuchin
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

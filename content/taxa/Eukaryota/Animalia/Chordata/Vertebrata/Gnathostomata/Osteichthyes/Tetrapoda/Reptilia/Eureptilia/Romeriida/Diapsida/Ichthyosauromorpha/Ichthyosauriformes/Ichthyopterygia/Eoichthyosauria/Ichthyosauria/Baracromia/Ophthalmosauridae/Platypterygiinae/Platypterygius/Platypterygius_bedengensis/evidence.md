@@ -9,7 +9,6 @@ records:
     name:
       zh: Platypterygius bedengensis
       en: Platypterygius bedengensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

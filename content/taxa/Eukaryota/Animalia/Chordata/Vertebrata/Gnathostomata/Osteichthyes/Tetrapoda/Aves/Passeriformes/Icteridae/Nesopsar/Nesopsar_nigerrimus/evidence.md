@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesopsar nigerrimus
       en: Nesopsar nigerrimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

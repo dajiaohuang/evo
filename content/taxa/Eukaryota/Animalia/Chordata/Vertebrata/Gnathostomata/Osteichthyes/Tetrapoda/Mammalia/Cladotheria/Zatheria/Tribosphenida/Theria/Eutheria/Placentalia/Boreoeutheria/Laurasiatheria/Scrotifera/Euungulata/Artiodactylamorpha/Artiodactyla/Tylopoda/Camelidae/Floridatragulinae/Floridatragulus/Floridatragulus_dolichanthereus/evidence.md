@@ -9,7 +9,6 @@ records:
     name:
       zh: Floridatragulus dolichanthereus
       en: Floridatragulus dolichanthereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

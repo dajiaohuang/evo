@@ -9,7 +9,6 @@ records:
     name:
       zh: Africanictis meini
       en: Africanictis meini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

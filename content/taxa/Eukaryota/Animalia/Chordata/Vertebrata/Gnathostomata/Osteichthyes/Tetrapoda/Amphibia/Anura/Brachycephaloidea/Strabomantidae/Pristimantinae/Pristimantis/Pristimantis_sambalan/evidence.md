@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis sambalan
       zh: Pristimantis sambalan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

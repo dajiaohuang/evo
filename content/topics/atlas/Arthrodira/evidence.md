@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: carr-hlavin-2010-eubrachythoraci DOI 10.1111/j.1096-3642.2009.00578.x; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: carr-hlavin-2010-eubrachythoraci
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: carr-hlavin-2010-eubrachythoraci; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: carr-hlavin-2010-eubrachythoraci
@@ -91,7 +85,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

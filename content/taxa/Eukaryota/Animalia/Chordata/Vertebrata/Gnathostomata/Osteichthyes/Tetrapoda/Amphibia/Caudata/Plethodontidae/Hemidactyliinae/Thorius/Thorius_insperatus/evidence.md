@@ -9,7 +9,6 @@ records:
     name:
       en: Thorius insperatus
       zh: Thorius insperatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

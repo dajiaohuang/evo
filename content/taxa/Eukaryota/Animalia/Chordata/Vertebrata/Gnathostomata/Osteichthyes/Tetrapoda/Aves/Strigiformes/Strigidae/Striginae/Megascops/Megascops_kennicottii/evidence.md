@@ -9,7 +9,6 @@ records:
     name:
       zh: Megascops kennicottii
       en: Megascops kennicottii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

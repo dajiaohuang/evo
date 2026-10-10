@@ -9,7 +9,6 @@ records:
     name:
       zh: Circus buffoni
       en: Circus buffoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Andean Night Monkey
       zh: 安第斯夜猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey-records

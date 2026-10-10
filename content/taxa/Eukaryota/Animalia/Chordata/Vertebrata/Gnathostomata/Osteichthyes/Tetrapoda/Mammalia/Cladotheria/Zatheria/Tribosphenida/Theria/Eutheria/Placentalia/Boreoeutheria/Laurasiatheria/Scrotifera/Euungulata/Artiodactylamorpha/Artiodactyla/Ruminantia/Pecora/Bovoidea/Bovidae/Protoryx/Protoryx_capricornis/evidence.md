@@ -9,7 +9,6 @@ records:
     name:
       zh: Protoryx capricornis
       en: Protoryx capricornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

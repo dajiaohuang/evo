@@ -9,7 +9,6 @@ records:
     name:
       zh: Ambopteryx longibrachium
       en: Ambopteryx longibrachium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

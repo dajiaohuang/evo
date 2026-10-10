@@ -9,7 +9,6 @@ records:
     name:
       zh: Acridotheres ginginianus
       en: Acridotheres ginginianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

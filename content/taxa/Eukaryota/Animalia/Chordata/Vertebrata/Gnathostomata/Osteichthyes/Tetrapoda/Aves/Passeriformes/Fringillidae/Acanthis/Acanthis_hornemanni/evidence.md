@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthis hornemanni
       en: Acanthis hornemanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

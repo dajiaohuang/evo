@@ -9,7 +9,6 @@ records:
     name:
       en: Kalophrynus interlineatus
       zh: Kalophrynus interlineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

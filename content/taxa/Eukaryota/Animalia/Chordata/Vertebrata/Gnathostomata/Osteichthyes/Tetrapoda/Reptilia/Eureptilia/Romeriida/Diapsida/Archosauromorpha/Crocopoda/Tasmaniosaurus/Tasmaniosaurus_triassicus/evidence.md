@@ -9,7 +9,6 @@ records:
     name:
       zh: Tasmaniosaurus triassicus
       en: Tasmaniosaurus triassicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

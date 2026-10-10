@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachyophis woodwardi
       en: Pachyophis woodwardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

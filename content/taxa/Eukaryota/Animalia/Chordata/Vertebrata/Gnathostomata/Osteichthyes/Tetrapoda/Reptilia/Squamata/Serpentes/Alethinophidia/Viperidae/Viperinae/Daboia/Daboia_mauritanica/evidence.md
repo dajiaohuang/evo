@@ -9,7 +9,6 @@ records:
     name:
       zh: Daboia mauritanica
       en: Daboia mauritanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

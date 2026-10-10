@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus evangelistai
       zh: Physalaemus evangelistai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

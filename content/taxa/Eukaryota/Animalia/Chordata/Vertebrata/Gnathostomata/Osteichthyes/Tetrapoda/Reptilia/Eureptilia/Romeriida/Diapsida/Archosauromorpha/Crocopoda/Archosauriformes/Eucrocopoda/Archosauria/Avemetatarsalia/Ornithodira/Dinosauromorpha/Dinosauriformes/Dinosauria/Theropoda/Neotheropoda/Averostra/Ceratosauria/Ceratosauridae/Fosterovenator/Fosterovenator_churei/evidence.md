@@ -9,7 +9,6 @@ records:
     name:
       zh: Fosterovenator churei
       en: Fosterovenator churei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

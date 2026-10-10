@@ -9,7 +9,6 @@ records:
     name:
       zh: 东部毛狐猴
       en: Eastern Woolly Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding

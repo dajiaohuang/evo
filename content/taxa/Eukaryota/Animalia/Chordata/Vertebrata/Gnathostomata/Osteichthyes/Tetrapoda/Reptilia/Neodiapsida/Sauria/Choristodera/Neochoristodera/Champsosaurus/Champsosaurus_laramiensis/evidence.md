@@ -9,7 +9,6 @@ records:
     name:
       zh: Champsosaurus laramiensis
       en: Champsosaurus laramiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

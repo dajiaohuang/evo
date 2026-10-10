@@ -9,7 +9,6 @@ records:
     name:
       en: Oreobates granulosus
       zh: Oreobates granulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

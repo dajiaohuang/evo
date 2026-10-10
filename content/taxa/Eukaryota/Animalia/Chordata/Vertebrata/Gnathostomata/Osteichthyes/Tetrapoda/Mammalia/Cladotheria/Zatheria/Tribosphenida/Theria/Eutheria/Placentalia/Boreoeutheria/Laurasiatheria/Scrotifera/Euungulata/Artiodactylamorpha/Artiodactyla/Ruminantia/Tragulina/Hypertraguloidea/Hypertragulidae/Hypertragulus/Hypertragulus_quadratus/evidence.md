@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypertragulus quadratus
       en: Hypertragulus quadratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

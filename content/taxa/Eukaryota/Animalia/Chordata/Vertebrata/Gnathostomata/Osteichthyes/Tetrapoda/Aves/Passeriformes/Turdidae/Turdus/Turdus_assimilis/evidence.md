@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdus assimilis
       en: Turdus assimilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myomimus multicrestatus
       en: Myomimus multicrestatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

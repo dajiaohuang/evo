@@ -9,7 +9,6 @@ records:
     name:
       zh: Thescelosaurus neglectus
       en: Thescelosaurus neglectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

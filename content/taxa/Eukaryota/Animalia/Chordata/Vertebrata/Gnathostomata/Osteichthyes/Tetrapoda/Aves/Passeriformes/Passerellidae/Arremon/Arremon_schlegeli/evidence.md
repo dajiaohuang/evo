@@ -9,7 +9,6 @@ records:
     name:
       zh: Arremon schlegeli
       en: Arremon schlegeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: zapata-2015-cnidaria
       referenceLinks:
         - referenceId: zapata-2015-cnidaria
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: zapata-2015-cnidaria locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: zapata-2015-cnidaria
@@ -88,7 +82,6 @@ records:
       referenceLocators:
         - referenceId: zapata-2015-cnidaria
           locator: Article e0139068; Figures 1–3; phylogenomic matrices and topology tests
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

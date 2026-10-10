@@ -9,7 +9,6 @@ records:
     name:
       zh: Aragochersis lignitesta
       en: Aragochersis lignitesta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

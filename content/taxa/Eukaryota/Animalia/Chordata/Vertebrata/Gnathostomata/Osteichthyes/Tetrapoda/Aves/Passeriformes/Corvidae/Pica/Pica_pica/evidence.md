@@ -9,7 +9,6 @@ records:
     name:
       zh: 喜鹊
       en: Eurasian Magpie
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -553,9 +552,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 ## referenceBindings / usage / scope
@@ -677,7 +673,7 @@ A single city and breeding-season sample does not characterize rural populations
 ## facets / ecology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/2 -->
-Morphology, life history, evolution, complete distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete.
+Morphology, life history, evolution, complete distribution, fossils, and conservation remain unassessed; systematic search are incomplete.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -695,5 +691,5 @@ The study is geographically limited to Prague and does not characterize rural, s
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-A reproducible systematic search and independent expert review have not been completed.
+A reproducible systematic search has not been completed.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Passer eminibey
       en: Passer eminibey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

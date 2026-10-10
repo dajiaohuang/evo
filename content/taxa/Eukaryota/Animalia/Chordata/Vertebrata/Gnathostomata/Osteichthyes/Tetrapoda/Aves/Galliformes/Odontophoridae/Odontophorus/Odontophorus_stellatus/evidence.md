@@ -9,7 +9,6 @@ records:
     name:
       zh: Odontophorus stellatus
       en: Odontophorus stellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

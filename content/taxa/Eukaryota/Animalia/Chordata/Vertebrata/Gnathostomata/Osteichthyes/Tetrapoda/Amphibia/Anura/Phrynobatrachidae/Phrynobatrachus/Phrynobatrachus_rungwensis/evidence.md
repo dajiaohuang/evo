@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus rungwensis
       zh: Phrynobatrachus rungwensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

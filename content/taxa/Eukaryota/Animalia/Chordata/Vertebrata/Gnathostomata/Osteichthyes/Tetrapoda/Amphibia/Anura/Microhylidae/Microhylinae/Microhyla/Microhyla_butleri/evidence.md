@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla butleri
       zh: Microhyla butleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

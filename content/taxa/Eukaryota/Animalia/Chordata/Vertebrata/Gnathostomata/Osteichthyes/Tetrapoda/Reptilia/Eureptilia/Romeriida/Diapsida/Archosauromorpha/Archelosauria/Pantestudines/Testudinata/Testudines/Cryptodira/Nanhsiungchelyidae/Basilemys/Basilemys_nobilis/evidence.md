@@ -9,7 +9,6 @@ records:
     name:
       zh: Basilemys nobilis
       en: Basilemys nobilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

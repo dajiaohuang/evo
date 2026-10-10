@@ -9,7 +9,6 @@ records:
     name:
       zh: Ihlengesi saldanhae
       en: Ihlengesi saldanhae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

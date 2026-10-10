@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynoderma aloysii
       zh: Phrynoderma aloysii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

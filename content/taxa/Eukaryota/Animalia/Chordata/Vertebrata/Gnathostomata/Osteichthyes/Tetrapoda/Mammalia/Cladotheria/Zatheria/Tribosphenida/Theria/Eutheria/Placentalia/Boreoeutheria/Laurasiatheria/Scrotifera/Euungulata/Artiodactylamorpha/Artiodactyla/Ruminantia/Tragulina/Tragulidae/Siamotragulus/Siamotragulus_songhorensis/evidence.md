@@ -9,7 +9,6 @@ records:
     name:
       zh: Siamotragulus songhorensis
       en: Siamotragulus songhorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

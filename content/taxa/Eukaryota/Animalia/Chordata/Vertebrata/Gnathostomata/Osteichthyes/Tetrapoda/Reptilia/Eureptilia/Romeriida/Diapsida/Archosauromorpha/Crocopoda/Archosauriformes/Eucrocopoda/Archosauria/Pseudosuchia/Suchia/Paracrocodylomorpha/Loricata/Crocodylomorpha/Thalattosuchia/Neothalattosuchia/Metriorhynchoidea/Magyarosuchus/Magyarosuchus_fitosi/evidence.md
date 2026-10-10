@@ -9,7 +9,6 @@ records:
     name:
       zh: Magyarosuchus fitosi
       en: Magyarosuchus fitosi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

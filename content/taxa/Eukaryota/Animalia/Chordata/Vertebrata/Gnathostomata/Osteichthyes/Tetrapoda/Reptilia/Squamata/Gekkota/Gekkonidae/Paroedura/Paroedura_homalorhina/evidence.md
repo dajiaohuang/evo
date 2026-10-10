@@ -9,7 +9,6 @@ records:
     name:
       zh: Paroedura homalorhina
       en: Paroedura homalorhina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

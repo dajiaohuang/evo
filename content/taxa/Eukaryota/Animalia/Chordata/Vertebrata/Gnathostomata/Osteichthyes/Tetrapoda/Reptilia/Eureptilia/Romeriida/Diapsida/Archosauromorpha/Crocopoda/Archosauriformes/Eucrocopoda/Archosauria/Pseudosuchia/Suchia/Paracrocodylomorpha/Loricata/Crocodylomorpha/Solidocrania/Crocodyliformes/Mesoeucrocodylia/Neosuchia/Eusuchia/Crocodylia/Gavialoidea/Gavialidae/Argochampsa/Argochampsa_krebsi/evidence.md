@@ -9,7 +9,6 @@ records:
     name:
       zh: Argochampsa krebsi
       en: Argochampsa krebsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasypus tarijensis
       en: Dasypus tarijensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

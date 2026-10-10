@@ -9,7 +9,6 @@ records:
     name:
       zh: Shansirhinus ringstromi
       en: Shansirhinus ringstromi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

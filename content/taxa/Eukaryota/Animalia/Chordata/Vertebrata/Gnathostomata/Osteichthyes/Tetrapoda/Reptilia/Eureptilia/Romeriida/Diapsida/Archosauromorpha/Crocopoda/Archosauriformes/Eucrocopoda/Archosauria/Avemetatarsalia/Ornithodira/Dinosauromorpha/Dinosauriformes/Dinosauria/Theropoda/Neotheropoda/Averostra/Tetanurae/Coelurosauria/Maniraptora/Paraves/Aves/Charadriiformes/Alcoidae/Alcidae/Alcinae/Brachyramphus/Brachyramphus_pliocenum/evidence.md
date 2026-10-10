@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyramphus pliocenum
       en: Brachyramphus pliocenum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

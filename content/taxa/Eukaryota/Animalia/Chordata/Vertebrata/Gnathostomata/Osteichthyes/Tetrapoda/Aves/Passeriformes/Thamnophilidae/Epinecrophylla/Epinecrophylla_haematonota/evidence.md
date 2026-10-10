@@ -9,7 +9,6 @@ records:
     name:
       zh: Epinecrophylla haematonota
       en: Epinecrophylla haematonota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

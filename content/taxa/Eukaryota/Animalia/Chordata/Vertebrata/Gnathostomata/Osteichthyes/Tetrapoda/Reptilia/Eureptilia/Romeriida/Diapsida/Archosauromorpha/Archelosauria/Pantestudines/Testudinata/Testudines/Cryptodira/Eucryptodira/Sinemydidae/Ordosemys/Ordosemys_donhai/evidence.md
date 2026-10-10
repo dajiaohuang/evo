@@ -9,7 +9,6 @@ records:
     name:
       zh: Ordosemys donhai
       en: Ordosemys donhai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

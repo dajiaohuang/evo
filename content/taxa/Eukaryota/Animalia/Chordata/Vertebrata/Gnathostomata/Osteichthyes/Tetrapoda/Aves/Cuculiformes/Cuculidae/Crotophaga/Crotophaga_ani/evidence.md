@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotophaga ani
       en: Crotophaga ani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

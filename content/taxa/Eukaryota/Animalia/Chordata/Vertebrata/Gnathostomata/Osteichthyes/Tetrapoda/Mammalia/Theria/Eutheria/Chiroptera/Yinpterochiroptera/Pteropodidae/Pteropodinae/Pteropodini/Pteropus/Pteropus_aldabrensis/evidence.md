@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus aldabrensis
       en: Pteropus aldabrensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

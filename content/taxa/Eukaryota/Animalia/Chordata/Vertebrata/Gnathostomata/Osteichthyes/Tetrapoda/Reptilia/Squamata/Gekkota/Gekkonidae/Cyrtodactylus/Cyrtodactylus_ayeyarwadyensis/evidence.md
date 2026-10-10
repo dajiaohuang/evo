@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus ayeyarwadyensis
       en: Cyrtodactylus ayeyarwadyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

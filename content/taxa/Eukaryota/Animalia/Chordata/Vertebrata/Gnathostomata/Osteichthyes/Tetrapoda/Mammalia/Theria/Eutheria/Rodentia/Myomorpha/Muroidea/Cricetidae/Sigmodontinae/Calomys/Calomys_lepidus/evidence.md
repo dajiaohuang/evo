@@ -9,7 +9,6 @@ records:
     name:
       zh: Calomys lepidus
       en: Calomys lepidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

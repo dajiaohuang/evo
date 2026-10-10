@@ -30,11 +30,11 @@ This batch’s Trionyx route includes 1 historical life-history accounts; start 
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 <!-- /evo:text -->
 
 ## Citation gaps in some descendant accounts
 
 <!-- evo:text /records/catalogue-profile/sections/2/text/en -->
-In this ReptTraits route, some fields in 1 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage or expert review.
+In this ReptTraits route, some fields in 1 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmoborus lugubris
       en: Myrmoborus lugubris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

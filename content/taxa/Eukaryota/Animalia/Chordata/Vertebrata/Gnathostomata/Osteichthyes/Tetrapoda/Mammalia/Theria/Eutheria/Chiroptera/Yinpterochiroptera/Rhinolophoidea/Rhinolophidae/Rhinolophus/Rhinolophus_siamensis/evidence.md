@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus siamensis
       en: Rhinolophus siamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

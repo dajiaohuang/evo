@@ -9,7 +9,6 @@ records:
     name:
       zh: Microparamys solidus
       en: Microparamys solidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

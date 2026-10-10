@@ -9,7 +9,6 @@ records:
     name:
       en: Glandirana
       zh: Glandirana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

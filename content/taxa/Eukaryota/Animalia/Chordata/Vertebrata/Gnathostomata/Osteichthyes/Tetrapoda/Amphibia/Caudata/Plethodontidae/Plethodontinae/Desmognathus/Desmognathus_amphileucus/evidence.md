@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus amphileucus
       zh: Desmognathus amphileucus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

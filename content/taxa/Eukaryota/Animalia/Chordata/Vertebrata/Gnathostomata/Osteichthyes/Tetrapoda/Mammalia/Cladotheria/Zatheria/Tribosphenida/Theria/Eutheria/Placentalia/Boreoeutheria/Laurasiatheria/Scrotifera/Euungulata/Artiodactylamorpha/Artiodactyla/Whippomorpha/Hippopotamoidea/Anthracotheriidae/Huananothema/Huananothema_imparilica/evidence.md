@@ -9,7 +9,6 @@ records:
     name:
       zh: Huananothema imparilica
       en: Huananothema imparilica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

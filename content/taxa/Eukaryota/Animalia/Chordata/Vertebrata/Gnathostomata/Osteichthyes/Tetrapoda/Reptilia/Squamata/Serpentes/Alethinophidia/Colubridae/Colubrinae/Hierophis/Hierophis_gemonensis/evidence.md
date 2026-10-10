@@ -9,7 +9,6 @@ records:
     name:
       zh: Hierophis gemonensis
       en: Hierophis gemonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

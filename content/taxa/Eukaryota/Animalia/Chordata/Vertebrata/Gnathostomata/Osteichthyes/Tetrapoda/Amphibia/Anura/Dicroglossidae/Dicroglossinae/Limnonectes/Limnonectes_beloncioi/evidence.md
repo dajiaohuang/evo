@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes beloncioi
       zh: Limnonectes beloncioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

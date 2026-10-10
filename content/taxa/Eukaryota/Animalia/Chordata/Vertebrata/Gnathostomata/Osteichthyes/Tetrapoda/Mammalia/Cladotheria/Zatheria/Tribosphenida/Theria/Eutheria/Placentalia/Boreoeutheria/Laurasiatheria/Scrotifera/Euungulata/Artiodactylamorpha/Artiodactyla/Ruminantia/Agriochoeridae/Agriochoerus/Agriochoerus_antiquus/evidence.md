@@ -9,7 +9,6 @@ records:
     name:
       zh: Agriochoerus antiquus
       en: Agriochoerus antiquus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

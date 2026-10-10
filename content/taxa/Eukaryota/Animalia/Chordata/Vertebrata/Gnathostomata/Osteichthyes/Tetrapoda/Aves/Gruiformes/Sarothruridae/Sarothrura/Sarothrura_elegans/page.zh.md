@@ -40,5 +40,5 @@ Primary.Lifestyle=Terrestrial，来源定义为多数时间在地面并边走或
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页使用八条所选 AVONET v7 历史行之一、同名 eBird／BirdTree 关联、相关定义与 COL sa 名称分片。同名关联不证明历史物种范围与当前概念完全相同。原行 Rallidae 与本页 COL Sarothruridae 分类分开保留。形态总鸟数、完整数与 Dunning 文献体重的分母独立；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。食物生态位、营养级与 Terrestrial 活动方式分开；没有实测食谱、具体猎物、游泳潜水观察、羽色、鸣声、繁殖、当前分布或迁移路线。本页不计完整自然史或外部专家审评。
+本页使用八条所选 AVONET v7 历史行之一、同名 eBird／BirdTree 关联、相关定义与 COL sa 名称分片。同名关联不证明历史物种范围与当前概念完全相同。原行 Rallidae 与本页 COL Sarothruridae 分类分开保留。形态总鸟数、完整数与 Dunning 文献体重的分母独立；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。食物生态位、营养级与 Terrestrial 活动方式分开；没有实测食谱、具体猎物、游泳潜水观察、羽色、鸣声、繁殖、当前分布或迁移路线。本页不计完整自然史。
 <!-- /evo:text -->

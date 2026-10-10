@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophosaurus dilophus
       en: Lophosaurus dilophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

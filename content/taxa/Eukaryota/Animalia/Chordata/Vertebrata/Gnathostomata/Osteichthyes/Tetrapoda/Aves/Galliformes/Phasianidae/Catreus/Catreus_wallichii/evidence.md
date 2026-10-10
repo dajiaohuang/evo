@@ -9,7 +9,6 @@ records:
     name:
       zh: Catreus wallichii
       en: Catreus wallichii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gloydius angusticeps
       en: Gloydius angusticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

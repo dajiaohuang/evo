@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus krauczuki
       zh: Melanophryniscus krauczuki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

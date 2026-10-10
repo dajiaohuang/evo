@@ -9,7 +9,6 @@ records:
     name:
       zh: Aphelosaurus lutevensis
       en: Aphelosaurus lutevensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

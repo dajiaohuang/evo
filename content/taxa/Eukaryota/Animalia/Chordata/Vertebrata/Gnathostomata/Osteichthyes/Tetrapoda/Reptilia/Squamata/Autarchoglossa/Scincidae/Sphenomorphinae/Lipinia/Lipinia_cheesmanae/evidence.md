@@ -9,7 +9,6 @@ records:
     name:
       zh: Lipinia cheesmanae
       en: Lipinia cheesmanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

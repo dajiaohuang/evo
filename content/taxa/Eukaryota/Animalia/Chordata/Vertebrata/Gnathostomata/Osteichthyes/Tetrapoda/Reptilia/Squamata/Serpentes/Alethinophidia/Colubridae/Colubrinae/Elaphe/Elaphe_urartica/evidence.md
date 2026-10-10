@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaphe urartica
       en: Elaphe urartica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Apternodus dasophylakas
       en: Apternodus dasophylakas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

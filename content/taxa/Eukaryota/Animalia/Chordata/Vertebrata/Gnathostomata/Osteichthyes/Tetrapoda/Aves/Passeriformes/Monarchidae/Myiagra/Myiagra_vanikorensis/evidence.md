@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiagra vanikorensis
       en: Myiagra vanikorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

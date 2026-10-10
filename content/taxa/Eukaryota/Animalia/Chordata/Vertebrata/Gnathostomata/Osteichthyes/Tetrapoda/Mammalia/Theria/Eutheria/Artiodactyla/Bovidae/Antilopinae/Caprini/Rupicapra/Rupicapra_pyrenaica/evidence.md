@@ -9,7 +9,6 @@ records:
     name:
       zh: Rupicapra pyrenaica
       en: Rupicapra pyrenaica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

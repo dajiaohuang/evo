@@ -9,7 +9,6 @@ records:
     name:
       zh: Scincella devorator
       en: Scincella devorator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

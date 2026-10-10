@@ -9,7 +9,6 @@ records:
     name:
       zh: Webbsaurus lofgreni
       en: Webbsaurus lofgreni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

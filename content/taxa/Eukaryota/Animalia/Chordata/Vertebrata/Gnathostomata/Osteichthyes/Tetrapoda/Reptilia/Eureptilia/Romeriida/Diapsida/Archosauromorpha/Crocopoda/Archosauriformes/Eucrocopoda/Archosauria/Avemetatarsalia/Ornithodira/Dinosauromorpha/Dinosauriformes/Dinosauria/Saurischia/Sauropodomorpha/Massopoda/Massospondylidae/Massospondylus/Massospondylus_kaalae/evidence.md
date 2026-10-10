@@ -9,7 +9,6 @@ records:
     name:
       zh: Massospondylus kaalae
       en: Massospondylus kaalae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

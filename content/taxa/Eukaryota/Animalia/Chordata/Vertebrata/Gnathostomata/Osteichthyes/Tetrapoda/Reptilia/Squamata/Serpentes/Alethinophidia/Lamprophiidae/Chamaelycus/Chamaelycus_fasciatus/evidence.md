@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamaelycus fasciatus
       en: Chamaelycus fasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

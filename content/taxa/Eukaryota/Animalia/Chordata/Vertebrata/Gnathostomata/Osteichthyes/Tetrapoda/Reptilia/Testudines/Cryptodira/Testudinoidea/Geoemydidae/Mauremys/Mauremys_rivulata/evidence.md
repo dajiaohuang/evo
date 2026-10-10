@@ -9,7 +9,6 @@ records:
     name:
       zh: Mauremys rivulata
       en: Mauremys rivulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

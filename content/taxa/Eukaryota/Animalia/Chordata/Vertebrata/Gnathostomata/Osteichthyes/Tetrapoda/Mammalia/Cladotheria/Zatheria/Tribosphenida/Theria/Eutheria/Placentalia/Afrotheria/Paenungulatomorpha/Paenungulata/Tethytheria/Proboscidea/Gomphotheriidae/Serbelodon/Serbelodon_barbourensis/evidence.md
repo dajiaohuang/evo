@@ -9,7 +9,6 @@ records:
     name:
       zh: Serbelodon barbourensis
       en: Serbelodon barbourensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

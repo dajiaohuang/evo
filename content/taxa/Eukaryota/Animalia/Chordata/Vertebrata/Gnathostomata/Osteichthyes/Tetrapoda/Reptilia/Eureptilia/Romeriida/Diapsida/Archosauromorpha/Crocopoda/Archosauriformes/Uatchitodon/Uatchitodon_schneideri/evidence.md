@@ -9,7 +9,6 @@ records:
     name:
       zh: Uatchitodon schneideri
       en: Uatchitodon schneideri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

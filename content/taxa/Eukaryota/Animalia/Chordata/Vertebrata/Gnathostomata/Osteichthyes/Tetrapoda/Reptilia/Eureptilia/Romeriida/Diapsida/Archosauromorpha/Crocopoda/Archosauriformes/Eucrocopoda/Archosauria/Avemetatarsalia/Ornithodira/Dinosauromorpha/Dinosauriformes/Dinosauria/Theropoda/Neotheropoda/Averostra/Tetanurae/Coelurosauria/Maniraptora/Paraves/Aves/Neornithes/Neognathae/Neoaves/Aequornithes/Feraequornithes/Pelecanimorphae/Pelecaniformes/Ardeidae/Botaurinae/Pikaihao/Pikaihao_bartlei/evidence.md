@@ -9,7 +9,6 @@ records:
     name:
       zh: Pikaihao bartlei
       en: Pikaihao bartlei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

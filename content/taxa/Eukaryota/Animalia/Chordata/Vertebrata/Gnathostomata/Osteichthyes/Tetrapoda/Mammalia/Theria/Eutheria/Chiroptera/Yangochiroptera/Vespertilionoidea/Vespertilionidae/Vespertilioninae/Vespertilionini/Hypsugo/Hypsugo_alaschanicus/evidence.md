@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsugo alaschanicus
       en: Hypsugo alaschanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lanio fulvus
       en: Lanio fulvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

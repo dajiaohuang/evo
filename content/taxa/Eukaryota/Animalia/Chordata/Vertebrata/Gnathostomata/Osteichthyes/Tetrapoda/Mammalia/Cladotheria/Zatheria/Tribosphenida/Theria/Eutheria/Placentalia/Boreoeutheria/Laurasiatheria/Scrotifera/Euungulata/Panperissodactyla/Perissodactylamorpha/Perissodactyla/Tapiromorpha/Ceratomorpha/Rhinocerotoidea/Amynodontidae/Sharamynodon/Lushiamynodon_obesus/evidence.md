@@ -9,7 +9,6 @@ records:
     name:
       zh: Lushiamynodon obesus
       en: Lushiamynodon obesus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

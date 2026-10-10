@@ -9,7 +9,6 @@ records:
     name:
       zh: Epinecrophylla leucophthalma
       en: Epinecrophylla leucophthalma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Osteocephalus duellmani
       zh: Osteocephalus duellmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

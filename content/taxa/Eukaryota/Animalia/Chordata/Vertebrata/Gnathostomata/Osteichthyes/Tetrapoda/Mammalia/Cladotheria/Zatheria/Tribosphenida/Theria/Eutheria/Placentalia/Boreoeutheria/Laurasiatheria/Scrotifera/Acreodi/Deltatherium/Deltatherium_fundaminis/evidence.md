@@ -9,7 +9,6 @@ records:
     name:
       zh: Deltatherium fundaminis
       en: Deltatherium fundaminis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

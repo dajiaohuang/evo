@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachymeles miriamae
       en: Brachymeles miriamae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Boana ericae
       zh: Boana ericae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

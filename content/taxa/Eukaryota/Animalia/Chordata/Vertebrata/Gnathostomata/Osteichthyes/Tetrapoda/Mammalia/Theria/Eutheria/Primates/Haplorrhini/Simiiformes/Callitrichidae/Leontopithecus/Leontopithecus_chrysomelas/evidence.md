@@ -9,7 +9,6 @@ records:
     name:
       zh: 金头狮面狨
       en: Golden-headed lion tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: ecology

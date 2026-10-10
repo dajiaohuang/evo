@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorothraupis carmioli
       en: Chlorothraupis carmioli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

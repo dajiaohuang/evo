@@ -9,7 +9,6 @@ records:
     name:
       zh: Dolichostylodon saltensis
       en: Dolichostylodon saltensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendragapus nanus
       en: Dendragapus nanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

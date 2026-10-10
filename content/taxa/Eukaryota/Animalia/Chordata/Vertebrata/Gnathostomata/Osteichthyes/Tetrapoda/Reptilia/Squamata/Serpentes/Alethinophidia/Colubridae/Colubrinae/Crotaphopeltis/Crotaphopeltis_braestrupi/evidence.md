@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotaphopeltis braestrupi
       en: Crotaphopeltis braestrupi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

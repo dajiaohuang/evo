@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes poilani
       zh: Limnonectes poilani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

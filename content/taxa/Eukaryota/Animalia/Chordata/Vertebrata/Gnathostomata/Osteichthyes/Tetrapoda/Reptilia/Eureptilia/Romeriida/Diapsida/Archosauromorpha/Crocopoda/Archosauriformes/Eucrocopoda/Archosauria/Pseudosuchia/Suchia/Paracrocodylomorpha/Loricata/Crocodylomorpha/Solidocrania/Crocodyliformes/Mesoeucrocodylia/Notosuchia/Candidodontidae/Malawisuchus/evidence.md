@@ -9,7 +9,6 @@ records:
     name:
       zh: Malawisuchus
       en: Malawisuchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

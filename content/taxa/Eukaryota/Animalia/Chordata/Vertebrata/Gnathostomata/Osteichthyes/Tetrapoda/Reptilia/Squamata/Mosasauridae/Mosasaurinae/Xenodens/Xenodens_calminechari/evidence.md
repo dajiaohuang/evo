@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenodens calminechari
       en: Xenodens calminechari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

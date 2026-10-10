@@ -9,7 +9,6 @@ records:
     name:
       en: Alsodes pehuenche
       zh: Alsodes pehuenche
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

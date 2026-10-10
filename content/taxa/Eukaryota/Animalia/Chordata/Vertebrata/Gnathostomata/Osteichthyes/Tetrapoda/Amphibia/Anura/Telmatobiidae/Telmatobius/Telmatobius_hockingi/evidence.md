@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius hockingi
       zh: Telmatobius hockingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

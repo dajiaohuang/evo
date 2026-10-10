@@ -9,7 +9,6 @@ records:
     name:
       zh: Terpsiphone atrocaudata
       en: Terpsiphone atrocaudata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

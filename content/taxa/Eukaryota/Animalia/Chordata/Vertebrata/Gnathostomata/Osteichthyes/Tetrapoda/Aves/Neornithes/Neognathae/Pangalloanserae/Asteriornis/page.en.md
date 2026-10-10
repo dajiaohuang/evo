@@ -46,5 +46,5 @@ field-2020-asteriornis
 ## Limits and open questions
 
 <!-- evo:text /records/readerLimitations/en -->
-This genus route is limited to a named holotype and its cited study, without a complete genus range, ecology or variation account. The route’s 66.8–66.7 Ma interval applies to the cited sample; a global species range and first and last appearances remain unresolved. Recorded database placement and atlas navigation do not independently resolve competing phylogenetic results. This bilingual guide has no external expert review.
+This genus route is limited to a named holotype and its cited study, without a complete genus range, ecology or variation account. The route’s 66.8–66.7 Ma interval applies to the cited sample; a global species range and first and last appearances remain unresolved. Recorded database placement and atlas navigation do not independently resolve competing phylogenetic results. This bilingual guide.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rena dugesii
       en: Rena dugesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

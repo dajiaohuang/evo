@@ -9,7 +9,6 @@ records:
     name:
       zh: Borealosuchus acutidentatus
       en: Borealosuchus acutidentatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

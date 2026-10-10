@@ -9,7 +9,6 @@ records:
     name:
       en: Firouzophrynus peninsularis
       zh: Firouzophrynus peninsularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

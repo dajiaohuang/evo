@@ -9,7 +9,6 @@ records:
     name:
       zh: Woodeatonia parva
       en: Woodeatonia parva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

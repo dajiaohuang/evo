@@ -9,7 +9,6 @@ records:
     name:
       en: Holoaden luederwaldti
       zh: Holoaden luederwaldti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

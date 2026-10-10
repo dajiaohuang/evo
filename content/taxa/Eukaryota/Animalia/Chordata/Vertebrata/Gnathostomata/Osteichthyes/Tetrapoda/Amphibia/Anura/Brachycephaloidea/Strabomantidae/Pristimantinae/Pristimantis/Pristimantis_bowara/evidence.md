@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis bowara
       zh: Pristimantis bowara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Phantasmarana massarti
       zh: Phantasmarana massarti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

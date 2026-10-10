@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilodus kummae
       en: Ptilodus kummae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

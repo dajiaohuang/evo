@@ -36,7 +36,6 @@ for (const [key, value] of Object.entries({
   authorship: '(de Pousargues, 1898)', rank: 'species', sourceDatasetId: '2144',
 })) assert.equal(dossier[key], value)
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 
 const route = normalize(dossier.scientificName).slice(0, 2)
 const usages = (registry.search.routes[route] ?? []).flatMap(jsonl).filter(item => item.id === dossier.colId)

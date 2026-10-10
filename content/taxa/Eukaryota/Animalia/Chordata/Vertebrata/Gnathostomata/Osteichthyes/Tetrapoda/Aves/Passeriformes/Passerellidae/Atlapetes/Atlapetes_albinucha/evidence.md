@@ -9,7 +9,6 @@ records:
     name:
       zh: Atlapetes albinucha
       en: Atlapetes albinucha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

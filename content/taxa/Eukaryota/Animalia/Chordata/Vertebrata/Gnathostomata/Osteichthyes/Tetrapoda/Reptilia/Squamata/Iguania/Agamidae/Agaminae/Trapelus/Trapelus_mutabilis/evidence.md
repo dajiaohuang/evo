@@ -9,7 +9,6 @@ records:
     name:
       zh: Trapelus mutabilis
       en: Trapelus mutabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

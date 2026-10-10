@@ -9,7 +9,6 @@ records:
     name:
       zh: Poicephalus cryptoxanthus
       en: Poicephalus cryptoxanthus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

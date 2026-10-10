@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepus coreanus
       en: Lepus coreanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

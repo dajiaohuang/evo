@@ -9,7 +9,6 @@ records:
     name:
       zh: 短尾猕猴
       en: Stump-tailed Macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: foraging and habitat

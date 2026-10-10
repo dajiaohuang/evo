@@ -9,7 +9,6 @@ records:
     name:
       zh: Crypturellus obsoletus
       en: Crypturellus obsoletus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

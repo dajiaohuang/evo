@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurillas virens
       en: Eurillas virens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

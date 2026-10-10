@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus viridis
       zh: Zhangixalus viridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

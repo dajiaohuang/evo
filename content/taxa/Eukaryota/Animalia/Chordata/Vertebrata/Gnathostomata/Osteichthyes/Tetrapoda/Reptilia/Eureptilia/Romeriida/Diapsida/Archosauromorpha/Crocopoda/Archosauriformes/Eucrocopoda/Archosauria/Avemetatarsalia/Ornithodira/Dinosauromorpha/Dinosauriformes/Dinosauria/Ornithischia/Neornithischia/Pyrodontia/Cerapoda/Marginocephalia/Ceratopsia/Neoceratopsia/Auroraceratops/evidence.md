@@ -9,7 +9,6 @@ records:
     name:
       zh: Auroraceratops
       en: Auroraceratops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

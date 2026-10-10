@@ -9,7 +9,6 @@ records:
     name:
       zh: Ectopocynus simplicidens
       en: Ectopocynus simplicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

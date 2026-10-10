@@ -9,7 +9,6 @@ records:
     name:
       zh: Metlapilcoatlus occiduus
       en: Metlapilcoatlus occiduus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

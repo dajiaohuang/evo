@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus conraui
       en: Lygodactylus conraui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

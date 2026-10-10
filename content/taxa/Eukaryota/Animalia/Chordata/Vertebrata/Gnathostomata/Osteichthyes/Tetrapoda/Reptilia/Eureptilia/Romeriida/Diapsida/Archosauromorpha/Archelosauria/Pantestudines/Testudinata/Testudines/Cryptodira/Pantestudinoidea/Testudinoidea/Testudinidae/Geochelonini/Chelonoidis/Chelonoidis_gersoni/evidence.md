@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelonoidis gersoni
       en: Chelonoidis gersoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

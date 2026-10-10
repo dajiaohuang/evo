@@ -9,7 +9,6 @@ records:
     name:
       zh: Phascolosorex doriae
       en: Phascolosorex doriae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

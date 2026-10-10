@@ -9,7 +9,6 @@ records:
     name:
       zh: Ricardolydekkeria cinctula
       en: Ricardolydekkeria cinctula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

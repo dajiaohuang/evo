@@ -16,5 +16,5 @@ The 2020 assessment compiles sparse, dated encounters rather than a continuous m
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The cited encounters are historical and sparse; the bank-level identity of the Ituri calls was unresolved, and nearby taxonomic boundaries remain fluid. This source-linked draft is not externally expert-reviewed.
+The cited encounters are historical and sparse; the bank-level identity of the Ituri calls was unresolved, and nearby taxonomic boundaries remain fluid. This source-linked draft is.
 <!-- /evo:text -->

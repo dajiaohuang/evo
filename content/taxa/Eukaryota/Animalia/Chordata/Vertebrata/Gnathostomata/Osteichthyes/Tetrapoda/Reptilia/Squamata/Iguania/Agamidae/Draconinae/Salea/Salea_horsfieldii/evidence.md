@@ -9,7 +9,6 @@ records:
     name:
       zh: Salea horsfieldii
       en: Salea horsfieldii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

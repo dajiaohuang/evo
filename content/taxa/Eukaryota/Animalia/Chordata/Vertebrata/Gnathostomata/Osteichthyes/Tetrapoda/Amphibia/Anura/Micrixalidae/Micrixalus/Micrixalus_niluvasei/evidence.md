@@ -9,7 +9,6 @@ records:
     name:
       en: Micrixalus niluvasei
       zh: Micrixalus niluvasei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

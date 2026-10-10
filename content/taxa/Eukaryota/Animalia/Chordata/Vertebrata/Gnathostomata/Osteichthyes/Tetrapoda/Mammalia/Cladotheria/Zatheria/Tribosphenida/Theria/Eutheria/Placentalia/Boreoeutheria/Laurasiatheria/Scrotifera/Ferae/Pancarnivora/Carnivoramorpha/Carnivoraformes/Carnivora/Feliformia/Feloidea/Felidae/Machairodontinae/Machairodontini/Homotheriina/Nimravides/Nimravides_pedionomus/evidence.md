@@ -9,7 +9,6 @@ records:
     name:
       zh: Nimravides pedionomus
       en: Nimravides pedionomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

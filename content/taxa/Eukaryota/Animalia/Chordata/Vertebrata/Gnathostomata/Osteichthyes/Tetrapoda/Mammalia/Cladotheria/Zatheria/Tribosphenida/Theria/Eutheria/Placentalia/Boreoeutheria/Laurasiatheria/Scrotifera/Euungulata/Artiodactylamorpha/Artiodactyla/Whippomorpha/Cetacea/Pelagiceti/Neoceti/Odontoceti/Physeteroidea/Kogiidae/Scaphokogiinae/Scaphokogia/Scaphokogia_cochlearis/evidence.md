@@ -9,7 +9,6 @@ records:
     name:
       zh: Scaphokogia cochlearis
       en: Scaphokogia cochlearis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

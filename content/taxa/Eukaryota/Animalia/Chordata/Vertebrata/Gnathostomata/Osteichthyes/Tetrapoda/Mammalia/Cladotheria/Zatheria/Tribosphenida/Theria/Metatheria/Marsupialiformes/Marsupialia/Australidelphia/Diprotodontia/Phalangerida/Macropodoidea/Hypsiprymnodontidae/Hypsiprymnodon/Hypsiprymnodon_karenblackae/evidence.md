@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsiprymnodon karenblackae
       en: Hypsiprymnodon karenblackae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

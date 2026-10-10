@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaethornis malaris
       en: Phaethornis malaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Breviceratops kozlowskii
       en: Breviceratops kozlowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

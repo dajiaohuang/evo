@@ -9,7 +9,6 @@ records:
     name:
       zh: Panochthus greslebini
       en: Panochthus greslebini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

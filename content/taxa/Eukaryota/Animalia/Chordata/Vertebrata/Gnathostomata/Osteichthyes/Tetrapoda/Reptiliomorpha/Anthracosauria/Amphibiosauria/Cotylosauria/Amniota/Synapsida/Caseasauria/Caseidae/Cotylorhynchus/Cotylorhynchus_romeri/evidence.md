@@ -9,7 +9,6 @@ records:
     name:
       zh: Cotylorhynchus romeri
       en: Cotylorhynchus romeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

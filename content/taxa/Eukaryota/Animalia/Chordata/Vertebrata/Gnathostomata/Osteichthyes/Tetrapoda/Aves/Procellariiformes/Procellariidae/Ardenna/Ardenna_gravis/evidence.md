@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardenna gravis
       en: Ardenna gravis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

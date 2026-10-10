@@ -9,7 +9,6 @@ records:
     name:
       zh: Papuascincus morokanus
       en: Papuascincus morokanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

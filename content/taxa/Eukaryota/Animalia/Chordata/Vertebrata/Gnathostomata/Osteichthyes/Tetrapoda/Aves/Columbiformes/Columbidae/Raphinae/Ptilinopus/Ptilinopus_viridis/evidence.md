@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus viridis
       en: Ptilinopus viridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

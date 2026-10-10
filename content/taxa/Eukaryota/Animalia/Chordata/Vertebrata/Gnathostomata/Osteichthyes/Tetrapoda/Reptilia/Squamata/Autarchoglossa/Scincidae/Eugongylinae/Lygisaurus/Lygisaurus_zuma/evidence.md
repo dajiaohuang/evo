@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygisaurus zuma
       en: Lygisaurus zuma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

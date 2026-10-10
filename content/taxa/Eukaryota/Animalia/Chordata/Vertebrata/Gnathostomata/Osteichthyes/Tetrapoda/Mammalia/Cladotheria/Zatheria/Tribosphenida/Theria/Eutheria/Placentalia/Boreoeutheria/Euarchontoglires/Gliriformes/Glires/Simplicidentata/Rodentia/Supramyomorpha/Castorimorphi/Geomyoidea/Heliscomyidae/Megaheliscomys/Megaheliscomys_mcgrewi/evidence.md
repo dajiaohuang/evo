@@ -9,7 +9,6 @@ records:
     name:
       zh: Megaheliscomys mcgrewi
       en: Megaheliscomys mcgrewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Lesula
       zh: 莱苏拉猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: behaviour

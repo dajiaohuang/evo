@@ -9,7 +9,6 @@ records:
     name:
       en: Mannophryne trujillensis
       zh: Mannophryne trujillensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

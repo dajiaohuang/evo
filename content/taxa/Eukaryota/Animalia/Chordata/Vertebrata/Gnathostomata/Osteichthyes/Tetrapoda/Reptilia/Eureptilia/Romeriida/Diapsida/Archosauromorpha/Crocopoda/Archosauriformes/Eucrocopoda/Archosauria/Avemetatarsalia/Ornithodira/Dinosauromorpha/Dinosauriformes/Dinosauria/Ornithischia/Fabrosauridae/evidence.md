@@ -9,7 +9,6 @@ records:
     name:
       zh: Fabrosauridae
       en: Fabrosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

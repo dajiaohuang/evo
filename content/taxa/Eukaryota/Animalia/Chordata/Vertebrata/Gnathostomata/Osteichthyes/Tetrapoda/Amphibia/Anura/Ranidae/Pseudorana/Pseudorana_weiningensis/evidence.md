@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudorana weiningensis
       zh: Pseudorana weiningensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

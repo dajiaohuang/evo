@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinodelphys szalayi
       en: Sinodelphys szalayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

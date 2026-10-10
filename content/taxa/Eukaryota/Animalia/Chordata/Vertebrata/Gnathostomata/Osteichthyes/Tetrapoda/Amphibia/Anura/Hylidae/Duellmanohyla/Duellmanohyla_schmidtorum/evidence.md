@@ -9,7 +9,6 @@ records:
     name:
       en: Duellmanohyla schmidtorum
       zh: Duellmanohyla schmidtorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

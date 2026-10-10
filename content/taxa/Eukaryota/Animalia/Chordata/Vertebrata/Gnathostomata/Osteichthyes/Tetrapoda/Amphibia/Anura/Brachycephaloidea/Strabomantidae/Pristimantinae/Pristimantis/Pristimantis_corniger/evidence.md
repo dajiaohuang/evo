@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis corniger
       zh: Pristimantis corniger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

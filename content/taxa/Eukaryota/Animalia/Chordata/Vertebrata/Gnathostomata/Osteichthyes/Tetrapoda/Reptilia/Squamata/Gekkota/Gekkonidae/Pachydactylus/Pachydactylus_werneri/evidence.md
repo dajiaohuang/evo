@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachydactylus werneri
       en: Pachydactylus werneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

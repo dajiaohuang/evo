@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor chingopetaca
       zh: Craugastor chingopetaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

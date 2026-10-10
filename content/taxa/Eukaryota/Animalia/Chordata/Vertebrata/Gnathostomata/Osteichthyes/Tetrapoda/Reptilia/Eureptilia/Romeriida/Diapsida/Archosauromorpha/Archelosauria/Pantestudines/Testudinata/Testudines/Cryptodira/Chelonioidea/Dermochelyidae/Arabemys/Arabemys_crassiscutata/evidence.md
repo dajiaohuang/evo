@@ -9,7 +9,6 @@ records:
     name:
       zh: Arabemys crassiscutata
       en: Arabemys crassiscutata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

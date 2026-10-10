@@ -9,7 +9,6 @@ records:
     name:
       zh: Myomimus sumbalenwalicus
       en: Myomimus sumbalenwalicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

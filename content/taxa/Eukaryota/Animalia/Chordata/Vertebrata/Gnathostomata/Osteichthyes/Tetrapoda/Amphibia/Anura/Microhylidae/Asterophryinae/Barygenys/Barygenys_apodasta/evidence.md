@@ -9,7 +9,6 @@ records:
     name:
       en: Barygenys apodasta
       zh: Barygenys apodasta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

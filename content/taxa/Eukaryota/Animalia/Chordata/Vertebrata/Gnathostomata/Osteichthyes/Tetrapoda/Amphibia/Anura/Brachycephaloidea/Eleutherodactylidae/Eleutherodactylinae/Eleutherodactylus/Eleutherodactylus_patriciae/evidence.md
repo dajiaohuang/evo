@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus patriciae
       zh: Eleutherodactylus patriciae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

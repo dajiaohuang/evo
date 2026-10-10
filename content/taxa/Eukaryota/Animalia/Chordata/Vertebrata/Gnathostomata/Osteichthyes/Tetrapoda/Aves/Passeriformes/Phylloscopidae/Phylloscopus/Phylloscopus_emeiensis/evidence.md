@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus emeiensis
       en: Phylloscopus emeiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

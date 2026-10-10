@@ -9,7 +9,6 @@ records:
     name:
       zh: 楔头凯门鳄
       en: Smooth-fronted caiman
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

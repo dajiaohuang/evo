@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus tanneri
       en: Sceloporus tanneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

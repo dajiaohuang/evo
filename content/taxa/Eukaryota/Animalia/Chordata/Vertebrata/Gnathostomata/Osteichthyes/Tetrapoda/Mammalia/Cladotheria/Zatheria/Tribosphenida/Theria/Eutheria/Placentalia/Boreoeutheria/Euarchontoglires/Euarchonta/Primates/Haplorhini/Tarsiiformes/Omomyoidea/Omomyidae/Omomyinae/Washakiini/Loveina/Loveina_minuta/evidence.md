@@ -9,7 +9,6 @@ records:
     name:
       zh: Loveina minuta
       en: Loveina minuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

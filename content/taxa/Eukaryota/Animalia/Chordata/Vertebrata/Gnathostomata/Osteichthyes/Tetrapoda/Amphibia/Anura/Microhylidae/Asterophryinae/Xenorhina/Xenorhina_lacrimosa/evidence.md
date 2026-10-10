@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina lacrimosa
       zh: Xenorhina lacrimosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

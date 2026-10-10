@@ -9,7 +9,6 @@ records:
     name:
       zh: Heteronotia spelea
       en: Heteronotia spelea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

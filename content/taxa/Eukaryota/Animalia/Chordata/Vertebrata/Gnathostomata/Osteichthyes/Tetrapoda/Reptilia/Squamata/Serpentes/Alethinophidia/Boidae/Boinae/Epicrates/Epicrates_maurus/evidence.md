@@ -9,7 +9,6 @@ records:
     name:
       zh: Epicrates maurus
       en: Epicrates maurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

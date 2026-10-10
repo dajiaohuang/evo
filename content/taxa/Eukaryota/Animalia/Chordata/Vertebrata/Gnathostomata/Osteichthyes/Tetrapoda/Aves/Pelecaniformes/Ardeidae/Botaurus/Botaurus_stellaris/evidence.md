@@ -9,7 +9,6 @@ records:
     name:
       zh: Botaurus stellaris
       en: Botaurus stellaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

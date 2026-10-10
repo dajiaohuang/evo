@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis minang
       en: Cnemaspis minang
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

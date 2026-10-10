@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliangelus strophianus
       en: Heliangelus strophianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

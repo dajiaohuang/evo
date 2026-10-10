@@ -9,7 +9,6 @@ records:
     name:
       zh: Kocurypelta
       en: Kocurypelta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

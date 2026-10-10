@@ -267,10 +267,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/3
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/4
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Syspira tigrina
@@ -452,5 +448,5 @@ The article-level text reuse license is unknown; the retained CC0 declaration ap
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/4 -->
-The source ZIP is absent from this checkout and its embedded EML was not rechecked; no independent external review has been completed.
+The source ZIP is absent from this checkout and its embedded EML was not rechecked.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Strophurus krisalys
       en: Strophurus krisalys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zangerlia ukhaachelys
       en: Zangerlia ukhaachelys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ma's Night Monkey
       zh: 南希·梅夜猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: population-study

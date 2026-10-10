@@ -9,7 +9,6 @@ records:
     name:
       zh: Saurillodon marmorensis
       en: Saurillodon marmorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

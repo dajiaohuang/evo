@@ -9,7 +9,6 @@ records:
     name:
       zh: Imantodes inornatus
       en: Imantodes inornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

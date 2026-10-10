@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinemellia dinemelli
       en: Dinemellia dinemelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

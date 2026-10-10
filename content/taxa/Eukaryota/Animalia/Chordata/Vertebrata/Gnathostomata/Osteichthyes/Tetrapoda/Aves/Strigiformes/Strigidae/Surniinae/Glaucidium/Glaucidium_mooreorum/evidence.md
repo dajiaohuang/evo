@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium mooreorum
       en: Glaucidium mooreorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

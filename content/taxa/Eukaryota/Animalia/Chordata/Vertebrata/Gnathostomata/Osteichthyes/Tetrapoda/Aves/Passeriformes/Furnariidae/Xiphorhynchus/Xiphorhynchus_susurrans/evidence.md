@@ -9,7 +9,6 @@ records:
     name:
       zh: Xiphorhynchus susurrans
       en: Xiphorhynchus susurrans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

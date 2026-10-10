@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates chiricahuensis
       zh: Lithobates chiricahuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

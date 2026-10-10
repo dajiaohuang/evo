@@ -9,7 +9,6 @@ records:
     name:
       en: Boana goiana
       zh: Boana goiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

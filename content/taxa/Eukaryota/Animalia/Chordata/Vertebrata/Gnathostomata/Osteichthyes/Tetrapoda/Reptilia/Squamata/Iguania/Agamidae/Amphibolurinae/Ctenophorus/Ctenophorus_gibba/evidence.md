@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenophorus gibba
       en: Ctenophorus gibba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

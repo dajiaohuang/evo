@@ -9,7 +9,6 @@ records:
     name:
       zh: Malawisuchus mwakasyungutiensis
       en: Malawisuchus mwakasyungutiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

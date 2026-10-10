@@ -9,7 +9,6 @@ records:
     name:
       zh: Discolomys cuneus
       en: Discolomys cuneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

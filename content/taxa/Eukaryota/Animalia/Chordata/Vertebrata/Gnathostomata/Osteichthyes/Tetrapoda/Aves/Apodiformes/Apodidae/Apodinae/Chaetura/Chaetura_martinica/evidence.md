@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaetura martinica
       en: Chaetura martinica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

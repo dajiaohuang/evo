@@ -9,7 +9,6 @@ records:
     name:
       zh: Pareumys muffleri
       en: Pareumys muffleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

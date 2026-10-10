@@ -9,7 +9,6 @@ records:
     name:
       zh: Copsychus cebuensis
       en: Copsychus cebuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

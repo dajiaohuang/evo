@@ -9,7 +9,6 @@ records:
     name:
       zh: Cervalces scotti
       en: Cervalces scotti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -148,8 +148,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Ctenium concinnum
@@ -295,5 +293,5 @@ The source population scope and taxonomic circumscription have not been independ
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No systematic literature search, fossil review, distribution synthesis, conservation assessment, or external expert review has been completed.
+No systematic literature search, fossil review, distribution synthesis, conservation assessment has been completed.
 <!-- /evo:text -->

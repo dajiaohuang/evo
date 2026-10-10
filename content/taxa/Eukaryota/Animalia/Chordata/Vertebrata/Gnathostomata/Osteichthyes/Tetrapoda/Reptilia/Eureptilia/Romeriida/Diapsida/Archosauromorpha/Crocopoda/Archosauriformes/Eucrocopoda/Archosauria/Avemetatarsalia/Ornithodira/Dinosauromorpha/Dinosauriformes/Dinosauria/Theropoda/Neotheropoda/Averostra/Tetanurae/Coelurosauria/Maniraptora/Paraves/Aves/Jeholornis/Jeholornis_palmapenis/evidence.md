@@ -9,7 +9,6 @@ records:
     name:
       zh: Jeholornis palmapenis
       en: Jeholornis palmapenis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

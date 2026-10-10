@@ -362,7 +362,7 @@ primary-pmc6404656-486js
 <!-- /evo:text -->
 
 <!-- evo:text /records/catalogue-profile/sections/20/text/en -->
-Main Introduction/Methods/Results/species-description/Discussion/threats/Conclusion andAppendixI paragraphs, both tables andsupplement caption were read. Maximum-likelihood analysis usesTIM2+F+R5 and1000ultrafast-bootstrap replicates; the paper treats≥95% as significant support. Main figure pixels, original alignment, recorded audio andmuseum specimens remain independently unreviewed. These source-scoped sections cover selected biological observations without certifying all reader facets, complete taxonomic-concept reconciliation or external review.
+Main Introduction/Methods/Results/species-description/Discussion/threats/Conclusion andAppendixI paragraphs, both tables andsupplement caption were read. Maximum-likelihood analysis usesTIM2+F+R5 and1000ultrafast-bootstrap replicates; the paper treats≥95% as significant support. Main figure pixels, original alignment, recorded audio andmuseum specimens remain independently unreviewed. These source-scoped sections cover selected biological observations without certifying all reader facets, complete taxonomic-concept reconciliation.
 <!-- /evo:text -->
 
 <!-- evo:text /records/catalogue-profile/sections/21/topic -->
@@ -416,7 +416,7 @@ Methods say the sequenced focal individuals were ZSFQ462/463/466, while suppleme
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial study-scoped biological reader. Remaining biological facets require further evidence. Not externally expert-reviewed.
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary
@@ -518,7 +518,7 @@ The authors recommend CriticallyEndangered usingB2a andB2biii, citing a single k
 ## primaryStudyScopes / sectionEvidence / evidenceSummary
 
 <!-- evo:text /records/catalogue-profile/primaryStudyScopes/1/sectionEvidence/14/evidenceSummary/en -->
-Main Introduction/Methods/Results/species-description/Discussion/threats/Conclusion andAppendixI paragraphs, both tables andsupplement caption were read. Maximum-likelihood analysis usesTIM2+F+R5 and1000ultrafast-bootstrap replicates; the paper treats≥95% as significant support. Main figure pixels, original alignment, recorded audio andmuseum specimens remain independently unreviewed. These source-scoped sections cover selected biological observations without certifying all reader facets, complete taxonomic-concept reconciliation or external review.
+Main Introduction/Methods/Results/species-description/Discussion/threats/Conclusion andAppendixI paragraphs, both tables andsupplement caption were read. Maximum-likelihood analysis usesTIM2+F+R5 and1000ultrafast-bootstrap replicates; the paper treats≥95% as significant support. Main figure pixels, original alignment, recorded audio andmuseum specimens remain independently unreviewed. These source-scoped sections cover selected biological observations without certifying all reader facets, complete taxonomic-concept reconciliation.
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

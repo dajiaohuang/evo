@@ -3,51 +3,189 @@
   "$id": "https://dajiaohuang.github.io/evo/schemas/media.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "taxonId", "title", "type", "sourceName", "sourceUrl", "creator", "license", "rightsStatus", "caption", "captionZh", "altText", "altTextZh", "subjectScope", "reviewedAt", "licenseNote"],
+  "required": [
+    "id",
+    "taxonId",
+    "title",
+    "type",
+    "sourceName",
+    "sourceUrl",
+    "creator",
+    "license",
+    "rightsStatus",
+    "caption",
+    "captionZh",
+    "altText",
+    "altTextZh",
+    "subjectScope",
+    "licenseNote"
+  ],
   "properties": {
-    "id": { "type": "string", "minLength": 1 },
-    "taxonId": { "type": "string", "minLength": 1 },
-    "title": { "type": "string", "minLength": 1 },
-    "titleZh": { "type": "string", "minLength": 1 },
-    "type": { "enum": ["museum-gallery", "specimen-feature", "reconstruction", "3d-model"] },
-    "sourceName": { "type": "string", "minLength": 1 },
-    "sourceUrl": { "type": "string", "pattern": "^https://" },
-    "creator": { "type": "string", "minLength": 1 },
-    "license": { "type": "string", "minLength": 1 },
-    "rightsStatus": { "enum": ["external-link-only", "cleared-for-reuse"] },
-    "caption": { "type": "string", "minLength": 20 },
-    "captionZh": { "type": "string", "minLength": 5 },
-    "altText": { "type": "string", "minLength": 10 },
-    "altTextZh": { "type": "string", "minLength": 5 },
-    "subjectScope": { "type": "string", "minLength": 1 },
-    "reviewedAt": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
-    "licenseNote": { "type": "string", "minLength": 1 },
-    "contentOrigin": { "enum": ["external-source", "ai-assisted-interpretive-reconstruction"] },
-    "interpretiveNotice": { "type": "string", "minLength": 20 },
-    "interpretiveNoticeZh": { "type": "string", "minLength": 8 },
-    "uncertainty": { "type": "string", "minLength": 20 },
-    "uncertaintyZh": { "type": "string", "minLength": 8 },
-    "evidenceReferenceIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
-    "provenancePath": { "type": "string", "pattern": "^data/media/provenance/[a-z0-9._-]+\\.json$" },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "taxonId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "titleZh": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "enum": [
+        "museum-gallery",
+        "specimen-feature",
+        "reconstruction",
+        "3d-model"
+      ]
+    },
+    "sourceName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceUrl": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "creator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rightsStatus": {
+      "enum": [
+        "external-link-only",
+        "cleared-for-reuse"
+      ]
+    },
+    "caption": {
+      "type": "string",
+      "minLength": 20
+    },
+    "captionZh": {
+      "type": "string",
+      "minLength": 5
+    },
+    "altText": {
+      "type": "string",
+      "minLength": 10
+    },
+    "altTextZh": {
+      "type": "string",
+      "minLength": 5
+    },
+    "subjectScope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "licenseNote": {
+      "type": "string",
+      "minLength": 1
+    },
+    "contentOrigin": {
+      "enum": [
+        "external-source",
+        "ai-assisted-interpretive-reconstruction"
+      ]
+    },
+    "interpretiveNotice": {
+      "type": "string",
+      "minLength": 20
+    },
+    "interpretiveNoticeZh": {
+      "type": "string",
+      "minLength": 8
+    },
+    "uncertainty": {
+      "type": "string",
+      "minLength": 20
+    },
+    "uncertaintyZh": {
+      "type": "string",
+      "minLength": 8
+    },
+    "evidenceReferenceIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "provenancePath": {
+      "type": "string",
+      "pattern": "^data/media/provenance/[a-z0-9._-]+\\.json$"
+    },
     "asset": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["path", "bytes", "sha256", "width", "height", "mediaType"],
+      "required": [
+        "path",
+        "bytes",
+        "sha256",
+        "width",
+        "height",
+        "mediaType"
+      ],
       "properties": {
-        "path": { "type": "string", "pattern": "^data/media/assets/[a-z0-9._-]+\\.webp$" },
-        "bytes": { "type": "integer", "minimum": 1, "maximum": 393216 },
-        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
-        "width": { "const": 1280 },
-        "height": { "const": 800 },
-        "mediaType": { "const": "image/webp" }
+        "path": {
+          "type": "string",
+          "pattern": "^data/media/assets/[a-z0-9._-]+\\.webp$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 393216
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "width": {
+          "const": 1280
+        },
+        "height": {
+          "const": 800
+        },
+        "mediaType": {
+          "const": "image/webp"
+        }
       }
     }
   },
   "allOf": [
     {
-      "if": { "properties": { "contentOrigin": { "const": "ai-assisted-interpretive-reconstruction" } }, "required": ["contentOrigin"] },
+      "if": {
+        "properties": {
+          "contentOrigin": {
+            "const": "ai-assisted-interpretive-reconstruction"
+          }
+        },
+        "required": [
+          "contentOrigin"
+        ]
+      },
       "then": {
-        "required": ["titleZh", "interpretiveNotice", "interpretiveNoticeZh", "uncertainty", "uncertaintyZh", "evidenceReferenceIds", "provenancePath", "asset"],
+        "required": [
+          "titleZh",
+          "interpretiveNotice",
+          "interpretiveNoticeZh",
+          "uncertainty",
+          "uncertaintyZh",
+          "evidenceReferenceIds",
+          "provenancePath",
+          "asset"
+        ],
         "properties": {
           "titleZh": {},
           "interpretiveNotice": {},
@@ -57,8 +195,12 @@
           "evidenceReferenceIds": {},
           "provenancePath": {},
           "asset": {},
-          "type": { "const": "reconstruction" },
-          "rightsStatus": { "const": "cleared-for-reuse" }
+          "type": {
+            "const": "reconstruction"
+          },
+          "rightsStatus": {
+            "const": "cleared-for-reuse"
+          }
         }
       }
     }

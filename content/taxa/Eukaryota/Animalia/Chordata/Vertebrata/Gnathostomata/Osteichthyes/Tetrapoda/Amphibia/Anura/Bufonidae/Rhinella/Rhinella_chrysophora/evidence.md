@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella chrysophora
       zh: Rhinella chrysophora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

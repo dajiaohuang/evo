@@ -9,7 +9,6 @@ records:
     name:
       zh: Mergus milleneri
       en: Mergus milleneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

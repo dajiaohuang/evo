@@ -9,7 +9,6 @@ records:
     name:
       zh: Geophis isthmicus
       en: Geophis isthmicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

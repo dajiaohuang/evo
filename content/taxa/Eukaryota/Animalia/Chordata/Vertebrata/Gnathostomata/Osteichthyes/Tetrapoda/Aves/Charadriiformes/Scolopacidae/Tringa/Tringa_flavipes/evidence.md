@@ -9,7 +9,6 @@ records:
     name:
       zh: Tringa flavipes
       en: Tringa flavipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

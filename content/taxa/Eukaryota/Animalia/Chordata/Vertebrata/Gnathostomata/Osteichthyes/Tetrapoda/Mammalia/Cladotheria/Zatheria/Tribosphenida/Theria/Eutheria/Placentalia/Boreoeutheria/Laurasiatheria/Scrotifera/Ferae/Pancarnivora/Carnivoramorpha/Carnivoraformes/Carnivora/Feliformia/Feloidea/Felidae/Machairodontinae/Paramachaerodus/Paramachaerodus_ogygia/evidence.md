@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramachaerodus ogygia
       en: Paramachaerodus ogygia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

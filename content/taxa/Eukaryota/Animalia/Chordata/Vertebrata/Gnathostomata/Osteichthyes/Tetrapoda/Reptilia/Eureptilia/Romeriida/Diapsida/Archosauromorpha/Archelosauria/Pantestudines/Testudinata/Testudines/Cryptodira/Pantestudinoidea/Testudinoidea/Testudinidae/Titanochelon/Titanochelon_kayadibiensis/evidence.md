@@ -9,7 +9,6 @@ records:
     name:
       zh: Titanochelon kayadibiensis
       en: Titanochelon kayadibiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

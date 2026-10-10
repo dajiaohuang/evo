@@ -9,7 +9,6 @@ records:
     name:
       zh: Heosminthus minutus
       en: Heosminthus minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mauremys pygolopha
       en: Mauremys pygolopha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

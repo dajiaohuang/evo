@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates occidentalis
       zh: Polypedates occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis hampatusami
       zh: Pristimantis hampatusami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

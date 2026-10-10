@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus anancites
       zh: Phrynopus anancites
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Alphadon halleyi
       en: Alphadon halleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

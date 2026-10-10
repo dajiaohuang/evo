@@ -34,7 +34,7 @@ for projected in (descriptor['source'], ledger['sourceMetadata']):
 assert descriptor['source']['archiveMembers'] == archive_members
 assert ledger['sourceArchive']['members'] == archive_members
 assert descriptor['provider'] == 'World Register of Marine Species via ChecklistBank'
-assert descriptor['evidenceBoundary']['zh'] == '冻结的精确命名学交叉映射；不是物种概念等同性、生物学档案或专家审查。'
+assert descriptor['evidenceBoundary']['zh'] == '冻结的精确命名学交叉映射；不是物种概念等同性、生物学档案。'
 assert builder.key('A\u0301  beta', 'Garci\u0301a') == ('Á beta', 'García')
 rows = []
 for item in descriptor['files']:

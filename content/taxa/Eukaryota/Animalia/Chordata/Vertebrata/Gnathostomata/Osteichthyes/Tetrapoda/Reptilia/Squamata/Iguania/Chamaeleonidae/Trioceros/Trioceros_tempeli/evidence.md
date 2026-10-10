@@ -9,7 +9,6 @@ records:
     name:
       zh: Trioceros tempeli
       en: Trioceros tempeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

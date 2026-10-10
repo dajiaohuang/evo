@@ -9,7 +9,6 @@ records:
     name:
       zh: Sterna forsteri
       en: Sterna forsteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

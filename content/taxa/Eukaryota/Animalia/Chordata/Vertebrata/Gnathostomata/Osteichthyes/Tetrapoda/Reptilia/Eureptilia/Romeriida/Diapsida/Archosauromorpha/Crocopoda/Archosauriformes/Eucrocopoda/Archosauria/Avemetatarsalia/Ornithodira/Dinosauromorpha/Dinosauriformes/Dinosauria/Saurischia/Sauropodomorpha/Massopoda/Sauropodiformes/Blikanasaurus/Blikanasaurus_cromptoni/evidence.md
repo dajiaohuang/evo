@@ -9,7 +9,6 @@ records:
     name:
       zh: Blikanasaurus cromptoni
       en: Blikanasaurus cromptoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

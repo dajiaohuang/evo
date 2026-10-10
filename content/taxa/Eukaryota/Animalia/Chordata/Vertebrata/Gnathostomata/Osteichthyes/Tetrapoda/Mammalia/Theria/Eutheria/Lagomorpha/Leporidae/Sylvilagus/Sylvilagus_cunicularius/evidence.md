@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylvilagus cunicularius
       en: Sylvilagus cunicularius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

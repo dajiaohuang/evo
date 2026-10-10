@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphotyphlops olivaceus
       en: Ramphotyphlops olivaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

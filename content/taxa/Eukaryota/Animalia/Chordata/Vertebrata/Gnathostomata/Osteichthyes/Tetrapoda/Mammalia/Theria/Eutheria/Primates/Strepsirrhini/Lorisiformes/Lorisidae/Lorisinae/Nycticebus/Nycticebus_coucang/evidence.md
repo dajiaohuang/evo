@@ -9,7 +9,6 @@ records:
     name:
       zh: 大懒猴
       en: Greater slow loris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -591,9 +590,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Nycticebus coucang
@@ -727,7 +723,7 @@ The authors note limitations affecting motivation and prey behavior; the observa
 ## facets / ecology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/2 -->
-Morphology, life history, evolution, distribution, fossils, conservation, systematic evidence search, and expert review remain unassessed.
+Morphology, life history, evolution, distribution, fossils, conservation, systematic evidence search, remain unassessed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -745,5 +741,5 @@ The study does not establish natural behavior or a species-wide venom-use patter
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Most biological facets, systematic evidence search, and external expert review remain unassessed.
+Most biological facets, systematic evidence search, remain unassessed.
 <!-- /evo:text -->

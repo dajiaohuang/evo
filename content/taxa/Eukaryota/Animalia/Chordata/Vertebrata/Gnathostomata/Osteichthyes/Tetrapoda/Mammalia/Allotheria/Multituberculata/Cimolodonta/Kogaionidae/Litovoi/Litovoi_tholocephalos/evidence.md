@@ -9,7 +9,6 @@ records:
     name:
       zh: Litovoi tholocephalos
       en: Litovoi tholocephalos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

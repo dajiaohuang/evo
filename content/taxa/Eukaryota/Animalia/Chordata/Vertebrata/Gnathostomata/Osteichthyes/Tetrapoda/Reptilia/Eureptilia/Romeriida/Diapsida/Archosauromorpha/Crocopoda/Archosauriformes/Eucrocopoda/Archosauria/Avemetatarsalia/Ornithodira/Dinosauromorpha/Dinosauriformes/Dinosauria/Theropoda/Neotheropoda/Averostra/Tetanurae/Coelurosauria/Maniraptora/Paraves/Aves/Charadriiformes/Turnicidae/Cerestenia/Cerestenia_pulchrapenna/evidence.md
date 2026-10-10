@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerestenia pulchrapenna
       en: Cerestenia pulchrapenna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypisodus retallacki
       en: Hypisodus retallacki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cistecephalus microrhinus
       en: Cistecephalus microrhinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: price-2009-perissodactyl-phylogeny concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: price-2009-perissodactyl-phylogeny
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: price-2009-perissodactyl-phylogeny
           locator: pp. 277–292; Abstract and Figures 1–3; extant-species supertree and supermatrix scope
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

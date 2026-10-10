@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus creaghi
       en: Rhinolophus creaghi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: brusatte-2010-tyrannosaur-paleobiology concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: brusatte-2010-tyrannosaur-paleobiology
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: brusatte-2010-tyrannosaur-paleobiology @ DOI 10.1126/science.1193304
       referenceLinks:
         - relation: supports
           referenceId: brusatte-2010-tyrannosaur-paleobiology
@@ -96,7 +90,6 @@ records:
           locator: 1481–1485; Phylogeny and anatomy synthesis; growth and biomechanics; concluding limitations
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Tyrannosauridae
@@ -105,7 +98,6 @@ records:
     name:
       zh: Tyrannosauridae
       en: Tyrannosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

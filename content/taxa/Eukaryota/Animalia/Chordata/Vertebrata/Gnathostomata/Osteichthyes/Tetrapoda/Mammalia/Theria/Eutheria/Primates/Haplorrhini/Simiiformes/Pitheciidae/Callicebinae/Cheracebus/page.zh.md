@@ -16,7 +16,7 @@ COL26.8 属级 ID 3MSD 连接 Cheracebus medemi（TXQM）、C. aquinoi（VQ6J6�
 ## 资料适用范围
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本路径串联六个接受种 ID 与三项地点和分类范围有限的研究，不是完整属级综述。旧样线论文采用的名称范围宽于当前种级划分；2021 年区域调查沿用 Cheracebus sp.，新种论文以分类描述为主、不是完整生态调查。本批未新增 dossier 或外部领域专家评审。本页未经过外部领域专家评审。
+本路径串联六个接受种 ID 与三项地点和分类范围有限的研究，不是完整属级综述。旧样线论文采用的名称范围宽于当前种级划分；2021 年区域调查沿用 Cheracebus sp.，新种论文以分类描述为主、不是完整生态调查。本批未新增 dossier。。
 <!-- /evo:text -->
 
 ## 先分开名称、旧样线和国家评估

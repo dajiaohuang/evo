@@ -9,7 +9,6 @@ records:
     name:
       zh: Saurodesmus robertsoni
       en: Saurodesmus robertsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

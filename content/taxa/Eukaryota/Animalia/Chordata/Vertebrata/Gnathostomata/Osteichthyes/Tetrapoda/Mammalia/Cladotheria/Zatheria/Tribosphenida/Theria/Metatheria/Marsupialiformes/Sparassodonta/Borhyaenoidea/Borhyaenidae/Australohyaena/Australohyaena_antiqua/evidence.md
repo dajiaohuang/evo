@@ -9,7 +9,6 @@ records:
     name:
       zh: Australohyaena antiqua
       en: Australohyaena antiqua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

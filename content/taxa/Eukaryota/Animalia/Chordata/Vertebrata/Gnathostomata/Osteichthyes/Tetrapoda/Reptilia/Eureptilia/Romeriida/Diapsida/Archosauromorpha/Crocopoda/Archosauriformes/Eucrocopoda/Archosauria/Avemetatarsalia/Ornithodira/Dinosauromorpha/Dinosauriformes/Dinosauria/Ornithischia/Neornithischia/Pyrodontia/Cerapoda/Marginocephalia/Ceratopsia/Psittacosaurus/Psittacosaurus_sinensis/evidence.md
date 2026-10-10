@@ -9,7 +9,6 @@ records:
     name:
       zh: Psittacosaurus sinensis
       en: Psittacosaurus sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

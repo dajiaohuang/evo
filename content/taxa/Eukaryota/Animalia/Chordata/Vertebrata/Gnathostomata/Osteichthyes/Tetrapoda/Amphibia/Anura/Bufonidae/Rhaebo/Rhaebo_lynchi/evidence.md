@@ -9,7 +9,6 @@ records:
     name:
       en: Rhaebo lynchi
       zh: Rhaebo lynchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

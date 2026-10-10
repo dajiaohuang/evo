@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysopelea ornata
       en: Chrysopelea ornata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

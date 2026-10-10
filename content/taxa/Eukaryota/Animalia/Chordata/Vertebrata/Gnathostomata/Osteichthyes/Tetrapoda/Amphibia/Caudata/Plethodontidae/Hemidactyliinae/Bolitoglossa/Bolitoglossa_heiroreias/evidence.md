@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa heiroreias
       zh: Bolitoglossa heiroreias
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

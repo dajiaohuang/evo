@@ -9,7 +9,6 @@ records:
     name:
       zh: Podarcis tiliguerta
       en: Podarcis tiliguerta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

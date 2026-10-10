@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo steinheimensis
       en: Testudo steinheimensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

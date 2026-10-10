@@ -9,7 +9,6 @@ records:
     name:
       zh: 澳洲漏斗网蛛属
       en: Atrax funnel-web spiders
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

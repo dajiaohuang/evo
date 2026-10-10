@@ -9,7 +9,6 @@ records:
     name:
       zh: Empidonax flaviventris
       en: Empidonax flaviventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vitosaura colozacani
       en: Vitosaura colozacani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

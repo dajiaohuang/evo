@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurylepis taeniolata
       en: Eurylepis taeniolata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

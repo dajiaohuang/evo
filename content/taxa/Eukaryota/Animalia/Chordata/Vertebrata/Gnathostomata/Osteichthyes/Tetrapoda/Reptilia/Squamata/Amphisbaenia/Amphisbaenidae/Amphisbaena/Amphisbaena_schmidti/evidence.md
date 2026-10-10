@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena schmidti
       en: Amphisbaena schmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

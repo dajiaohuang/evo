@@ -9,7 +9,6 @@ records:
     name:
       zh: Osbornodon sesnoni
       en: Osbornodon sesnoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus latifrons
       zh: Phrynobatrachus latifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

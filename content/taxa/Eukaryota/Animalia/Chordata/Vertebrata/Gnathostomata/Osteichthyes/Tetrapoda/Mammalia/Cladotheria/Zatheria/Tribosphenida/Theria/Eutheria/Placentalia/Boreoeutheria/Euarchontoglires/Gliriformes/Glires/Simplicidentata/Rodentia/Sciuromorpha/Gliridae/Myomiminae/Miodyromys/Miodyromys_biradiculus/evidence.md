@@ -9,7 +9,6 @@ records:
     name:
       zh: Miodyromys biradiculus
       en: Miodyromys biradiculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

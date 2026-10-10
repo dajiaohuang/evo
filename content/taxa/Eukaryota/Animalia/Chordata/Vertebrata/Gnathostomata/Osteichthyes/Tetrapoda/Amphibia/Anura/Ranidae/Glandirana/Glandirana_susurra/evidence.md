@@ -9,7 +9,6 @@ records:
     name:
       en: Glandirana susurra
       zh: Glandirana susurra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

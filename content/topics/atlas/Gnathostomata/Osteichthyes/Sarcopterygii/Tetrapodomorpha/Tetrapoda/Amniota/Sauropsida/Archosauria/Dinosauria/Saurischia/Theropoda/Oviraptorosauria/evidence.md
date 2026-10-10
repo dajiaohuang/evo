@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: norell-1995-nesting-dinosaur concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: norell-1995-nesting-dinosaur
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: norell-1995-nesting-dinosaur
           locator: Cited specimen, figures and methods in the linked claim dossier
-      reviewStatus: automated-audit-passed
 ---
 
 # Oviraptorosauria

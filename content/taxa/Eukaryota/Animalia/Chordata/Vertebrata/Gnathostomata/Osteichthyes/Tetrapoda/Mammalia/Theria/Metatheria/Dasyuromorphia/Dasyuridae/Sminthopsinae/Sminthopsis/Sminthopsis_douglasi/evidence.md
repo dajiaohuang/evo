@@ -9,7 +9,6 @@ records:
     name:
       zh: Sminthopsis douglasi
       en: Sminthopsis douglasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

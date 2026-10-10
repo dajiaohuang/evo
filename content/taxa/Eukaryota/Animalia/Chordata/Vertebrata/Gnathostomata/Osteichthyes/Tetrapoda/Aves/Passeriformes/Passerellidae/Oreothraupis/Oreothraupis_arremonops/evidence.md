@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreothraupis arremonops
       en: Oreothraupis arremonops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

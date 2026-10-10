@@ -26,11 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: thewissen-2007-indohyus
           relation: supports
@@ -73,7 +68,6 @@ records:
           locator: pp. 1190–1194; Figures 1–5; Supplementary Information
         - referenceId: nikaido-1999-cetartiodactyl-retroposons
           locator: pp. 10261–10266; Figures 1–4; Table 1
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

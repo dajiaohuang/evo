@@ -9,7 +9,6 @@ records:
     name:
       en: Pelodryas cavernicola
       zh: Pelodryas cavernicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

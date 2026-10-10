@@ -9,7 +9,6 @@ records:
     name:
       zh: Catopsalis kakwa
       en: Catopsalis kakwa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Estrilda paludicola
       en: Estrilda paludicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

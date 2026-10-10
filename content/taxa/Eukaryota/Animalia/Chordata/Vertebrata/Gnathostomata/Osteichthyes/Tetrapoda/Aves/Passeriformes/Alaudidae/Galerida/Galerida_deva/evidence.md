@@ -9,7 +9,6 @@ records:
     name:
       zh: Galerida deva
       en: Galerida deva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

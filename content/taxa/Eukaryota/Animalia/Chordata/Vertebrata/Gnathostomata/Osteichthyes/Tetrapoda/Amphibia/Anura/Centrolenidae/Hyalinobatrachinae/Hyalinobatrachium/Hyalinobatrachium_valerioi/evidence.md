@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium valerioi
       zh: Hyalinobatrachium valerioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorcopsis atrata
       en: Dorcopsis atrata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

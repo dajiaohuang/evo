@@ -9,7 +9,6 @@ records:
     name:
       zh: Trapelus savignii
       en: Trapelus savignii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

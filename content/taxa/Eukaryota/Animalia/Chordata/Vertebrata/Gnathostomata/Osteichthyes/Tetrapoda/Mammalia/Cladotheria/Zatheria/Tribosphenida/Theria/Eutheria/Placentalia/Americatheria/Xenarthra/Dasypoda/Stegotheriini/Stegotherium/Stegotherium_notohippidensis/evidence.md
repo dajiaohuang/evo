@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegotherium notohippidensis
       en: Stegotherium notohippidensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

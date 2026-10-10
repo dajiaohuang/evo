@@ -9,7 +9,6 @@ records:
     name:
       zh: Hoplophoneus oharrai
       en: Hoplophoneus oharrai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

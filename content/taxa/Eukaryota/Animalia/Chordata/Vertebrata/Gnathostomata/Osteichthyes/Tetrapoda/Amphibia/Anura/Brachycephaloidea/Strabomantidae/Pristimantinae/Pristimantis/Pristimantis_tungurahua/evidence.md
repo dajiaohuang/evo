@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis tungurahua
       zh: Pristimantis tungurahua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

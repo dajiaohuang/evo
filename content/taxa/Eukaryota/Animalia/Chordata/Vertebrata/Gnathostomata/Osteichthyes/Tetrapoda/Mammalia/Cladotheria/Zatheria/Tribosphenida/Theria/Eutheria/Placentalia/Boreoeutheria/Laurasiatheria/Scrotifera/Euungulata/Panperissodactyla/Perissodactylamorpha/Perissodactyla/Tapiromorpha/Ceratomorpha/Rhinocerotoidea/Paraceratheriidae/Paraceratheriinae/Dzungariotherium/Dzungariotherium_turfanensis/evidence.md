@@ -9,7 +9,6 @@ records:
     name:
       zh: Dzungariotherium turfanensis
       en: Dzungariotherium turfanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelotes vestigifer
       en: Scelotes vestigifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

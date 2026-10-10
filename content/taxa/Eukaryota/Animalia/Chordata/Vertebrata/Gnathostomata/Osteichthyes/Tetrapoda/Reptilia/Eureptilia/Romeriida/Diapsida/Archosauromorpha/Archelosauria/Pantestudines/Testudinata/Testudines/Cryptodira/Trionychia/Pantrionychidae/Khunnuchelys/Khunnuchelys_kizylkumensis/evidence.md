@@ -9,7 +9,6 @@ records:
     name:
       zh: Khunnuchelys kizylkumensis
       en: Khunnuchelys kizylkumensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

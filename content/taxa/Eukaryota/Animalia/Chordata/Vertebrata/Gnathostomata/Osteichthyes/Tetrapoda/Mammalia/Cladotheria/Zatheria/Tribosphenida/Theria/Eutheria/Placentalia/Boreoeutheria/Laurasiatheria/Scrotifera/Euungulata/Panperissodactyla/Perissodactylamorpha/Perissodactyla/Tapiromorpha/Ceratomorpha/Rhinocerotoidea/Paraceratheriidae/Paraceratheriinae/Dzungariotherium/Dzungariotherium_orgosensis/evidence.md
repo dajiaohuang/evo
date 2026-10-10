@@ -9,7 +9,6 @@ records:
     name:
       zh: Dzungariotherium orgosensis
       en: Dzungariotherium orgosensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

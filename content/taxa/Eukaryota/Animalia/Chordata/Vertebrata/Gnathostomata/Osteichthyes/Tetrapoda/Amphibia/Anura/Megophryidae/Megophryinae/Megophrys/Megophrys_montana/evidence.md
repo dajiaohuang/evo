@@ -9,7 +9,6 @@ records:
     name:
       en: Megophrys montana
       zh: Megophrys montana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

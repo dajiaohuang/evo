@@ -9,7 +9,6 @@ records:
     name:
       zh: 日尾猴
       en: Sun-tailed Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

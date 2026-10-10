@@ -30,7 +30,7 @@ murray2019
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked morphological study guide, not externally expert-reviewed. The diagnosis depends on the specimens and geographic samples compared; the paper's localities do not represent variation in every river system or population on the island.
+Source-linked morphological study guide. The diagnosis depends on the specimens and geographic samples compared; the paper's localities do not represent variation in every river system or population on the island.
 <!-- /evo:text -->
 
 ## Name and this data account

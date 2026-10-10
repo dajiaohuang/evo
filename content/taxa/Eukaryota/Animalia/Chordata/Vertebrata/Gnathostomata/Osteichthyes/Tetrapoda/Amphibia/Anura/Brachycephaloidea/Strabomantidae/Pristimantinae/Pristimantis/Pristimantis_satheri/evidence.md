@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis satheri
       zh: Pristimantis satheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

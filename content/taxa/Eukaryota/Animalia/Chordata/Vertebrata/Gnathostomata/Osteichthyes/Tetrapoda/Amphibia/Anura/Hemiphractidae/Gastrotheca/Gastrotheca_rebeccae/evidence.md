@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca rebeccae
       zh: Gastrotheca rebeccae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

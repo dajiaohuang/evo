@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardea melanocephala
       en: Ardea melanocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

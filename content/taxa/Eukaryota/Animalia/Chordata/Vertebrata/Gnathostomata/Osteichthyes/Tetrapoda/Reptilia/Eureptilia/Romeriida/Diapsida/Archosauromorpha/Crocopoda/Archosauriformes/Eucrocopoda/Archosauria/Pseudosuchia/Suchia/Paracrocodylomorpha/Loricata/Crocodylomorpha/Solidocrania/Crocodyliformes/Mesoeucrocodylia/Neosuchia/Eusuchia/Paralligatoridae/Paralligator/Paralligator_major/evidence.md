@@ -9,7 +9,6 @@ records:
     name:
       zh: Paralligator major
       en: Paralligator major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

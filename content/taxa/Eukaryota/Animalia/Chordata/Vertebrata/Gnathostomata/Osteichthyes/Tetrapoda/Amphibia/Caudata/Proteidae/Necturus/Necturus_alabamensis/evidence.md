@@ -9,7 +9,6 @@ records:
     name:
       en: Necturus alabamensis
       zh: Necturus alabamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

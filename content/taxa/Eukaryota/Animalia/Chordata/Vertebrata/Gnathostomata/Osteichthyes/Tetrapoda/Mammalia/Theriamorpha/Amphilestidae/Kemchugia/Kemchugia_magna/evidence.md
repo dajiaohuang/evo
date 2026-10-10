@@ -9,7 +9,6 @@ records:
     name:
       zh: Kemchugia magna
       en: Kemchugia magna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

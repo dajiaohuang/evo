@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllomedusa camba
       zh: Phyllomedusa camba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

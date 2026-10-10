@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxynocricetodon erenensis
       en: Oxynocricetodon erenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bunobrontops savagei
       en: Bunobrontops savagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

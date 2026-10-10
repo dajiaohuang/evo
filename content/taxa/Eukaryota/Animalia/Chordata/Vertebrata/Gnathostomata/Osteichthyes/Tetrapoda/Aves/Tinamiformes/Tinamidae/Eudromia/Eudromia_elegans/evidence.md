@@ -9,7 +9,6 @@ records:
     name:
       zh: Eudromia elegans
       en: Eudromia elegans
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: genomeMaterial

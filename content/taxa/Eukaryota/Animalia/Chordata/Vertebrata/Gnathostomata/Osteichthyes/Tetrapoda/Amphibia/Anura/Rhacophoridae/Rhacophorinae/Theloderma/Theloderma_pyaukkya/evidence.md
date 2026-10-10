@@ -9,7 +9,6 @@ records:
     name:
       en: Theloderma pyaukkya
       zh: Theloderma pyaukkya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

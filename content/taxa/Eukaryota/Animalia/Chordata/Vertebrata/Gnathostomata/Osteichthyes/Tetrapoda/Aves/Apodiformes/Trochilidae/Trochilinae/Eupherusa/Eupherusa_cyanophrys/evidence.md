@@ -9,7 +9,6 @@ records:
     name:
       zh: Eupherusa cyanophrys
       en: Eupherusa cyanophrys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

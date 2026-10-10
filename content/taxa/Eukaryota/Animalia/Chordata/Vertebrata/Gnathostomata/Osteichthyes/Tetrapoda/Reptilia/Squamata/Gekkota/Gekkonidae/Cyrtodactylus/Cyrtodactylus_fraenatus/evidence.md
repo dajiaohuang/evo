@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus fraenatus
       en: Cyrtodactylus fraenatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus poecilogyrus
       en: Erythrolamprus poecilogyrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

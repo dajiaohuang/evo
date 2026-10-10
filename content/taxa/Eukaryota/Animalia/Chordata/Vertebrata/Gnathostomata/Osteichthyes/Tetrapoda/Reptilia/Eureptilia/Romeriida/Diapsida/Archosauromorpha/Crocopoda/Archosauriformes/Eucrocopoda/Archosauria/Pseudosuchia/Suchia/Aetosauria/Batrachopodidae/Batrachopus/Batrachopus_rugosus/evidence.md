@@ -9,7 +9,6 @@ records:
     name:
       zh: Batrachopus rugosus
       en: Batrachopus rugosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

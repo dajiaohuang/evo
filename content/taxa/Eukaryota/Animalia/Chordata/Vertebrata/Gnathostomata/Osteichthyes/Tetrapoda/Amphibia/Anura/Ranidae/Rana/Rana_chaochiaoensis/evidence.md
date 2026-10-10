@@ -9,7 +9,6 @@ records:
     name:
       en: Rana chaochiaoensis
       zh: Rana chaochiaoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crosbysaurus harrisae
       en: Crosbysaurus harrisae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

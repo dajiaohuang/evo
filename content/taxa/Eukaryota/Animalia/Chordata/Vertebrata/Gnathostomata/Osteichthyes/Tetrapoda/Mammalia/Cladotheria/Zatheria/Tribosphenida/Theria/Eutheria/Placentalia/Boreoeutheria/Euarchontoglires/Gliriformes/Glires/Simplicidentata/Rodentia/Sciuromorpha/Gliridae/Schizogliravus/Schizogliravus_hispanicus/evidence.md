@@ -9,7 +9,6 @@ records:
     name:
       zh: Schizogliravus hispanicus
       en: Schizogliravus hispanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

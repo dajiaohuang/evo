@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana parvaccola
       zh: Hylarana parvaccola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

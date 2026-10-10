@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidoscelis corvinus
       en: Pholidoscelis corvinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

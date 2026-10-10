@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius lupiroensis
       zh: Hyperolius lupiroensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

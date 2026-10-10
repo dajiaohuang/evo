@@ -9,7 +9,6 @@ records:
     name:
       en: Gegeneophis madhavai
       zh: Gegeneophis madhavai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: whalley-jarzembowski-1981-rhyniella; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: whalley-jarzembowski-1981-rhyniella
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: "Evo Atlas issue #187 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Whalley & Jarzembowski 1981 DOI 10.1038/291317a0; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: whalley-jarzembowski-1981-rhyniella
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: "Evo Atlas issue #187 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Whalley & Jarzembowski 1981 DOI 10.1038/291317a0; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: whalley-jarzembowski-1981-rhyniella
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: "Evo Atlas issue #187 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Whalley & Jarzembowski 1981 DOI 10.1038/291317a0; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: whalley-jarzembowski-1981-rhyniella
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: "Evo Atlas issue #187 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Whalley & Jarzembowski 1981 DOI 10.1038/291317a0; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: whalley-jarzembowski-1981-rhyniella
           relation: supports
@@ -198,7 +183,6 @@ records:
       referenceLocators:
         - referenceId: whalley-jarzembowski-1981-rhyniella
           locator: 291:317; specimen reassessment
-      reviewStatus: automated-audit-passed
 ---
 
 # Rhyniella praecursor

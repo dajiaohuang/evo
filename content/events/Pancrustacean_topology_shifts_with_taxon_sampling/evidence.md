@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: bernot-2023-pancrustacea-sampling DOI-linked primary source
       referenceLinks:
         - referenceId: bernot-2023-pancrustacea-sampling
           relation: supports

@@ -9,7 +9,6 @@ records:
     name:
       en: Paedophryne oyatabu
       zh: Paedophryne oyatabu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

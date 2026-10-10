@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiocathartes europaeus
       en: Plesiocathartes europaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

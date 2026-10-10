@@ -9,7 +9,6 @@ records:
     name:
       zh: Silvenator brasiliensis
       en: Silvenator brasiliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

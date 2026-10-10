@@ -9,7 +9,6 @@ records:
     name:
       zh: Taurovenator violantei
       en: Taurovenator violantei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

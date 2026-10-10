@@ -9,7 +9,6 @@ records:
     name:
       en: Micrixalus nigraventris
       zh: Micrixalus nigraventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

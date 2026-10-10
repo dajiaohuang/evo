@@ -9,7 +9,6 @@ records:
     name:
       zh: Halisaurus hebae
       en: Halisaurus hebae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

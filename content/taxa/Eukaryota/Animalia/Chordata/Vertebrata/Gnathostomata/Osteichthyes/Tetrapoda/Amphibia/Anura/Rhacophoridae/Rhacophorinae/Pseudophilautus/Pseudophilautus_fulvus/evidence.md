@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus fulvus
       zh: Pseudophilautus fulvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

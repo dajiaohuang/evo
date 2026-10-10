@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus bibronii
       en: Liolaemus bibronii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

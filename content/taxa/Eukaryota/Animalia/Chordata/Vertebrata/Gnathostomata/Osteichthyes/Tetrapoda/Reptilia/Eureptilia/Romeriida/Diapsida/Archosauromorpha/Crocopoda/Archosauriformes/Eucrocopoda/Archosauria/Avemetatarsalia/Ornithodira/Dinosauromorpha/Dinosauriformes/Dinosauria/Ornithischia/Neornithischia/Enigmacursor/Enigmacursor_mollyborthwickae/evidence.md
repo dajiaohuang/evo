@@ -9,7 +9,6 @@ records:
     name:
       zh: Enigmacursor mollyborthwickae
       en: Enigmacursor mollyborthwickae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

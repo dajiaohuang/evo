@@ -9,7 +9,6 @@ records:
     name:
       zh: Calyptophilus frugivorus
       en: Calyptophilus frugivorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

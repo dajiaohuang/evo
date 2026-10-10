@@ -9,7 +9,6 @@ records:
     name:
       zh: Estrilda melpoda
       en: Estrilda melpoda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

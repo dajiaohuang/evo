@@ -9,7 +9,6 @@ records:
     name:
       zh: Pogoniulus simplex
       en: Pogoniulus simplex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramylodon harlani
       en: Paramylodon harlani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

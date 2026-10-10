@@ -9,7 +9,6 @@ records:
     name:
       zh: Uroplatus garamaso
       en: Uroplatus garamaso
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

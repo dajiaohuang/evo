@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus edwardsi
       zh: Hyloxalus edwardsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

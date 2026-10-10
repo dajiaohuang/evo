@@ -9,7 +9,6 @@ records:
     name:
       zh: Setophaga pityophila
       en: Setophaga pityophila
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

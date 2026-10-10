@@ -9,7 +9,6 @@ records:
     name:
       zh: Callipepla californica
       en: Callipepla californica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

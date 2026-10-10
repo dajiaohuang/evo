@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllobates terribilis
       zh: Phyllobates terribilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

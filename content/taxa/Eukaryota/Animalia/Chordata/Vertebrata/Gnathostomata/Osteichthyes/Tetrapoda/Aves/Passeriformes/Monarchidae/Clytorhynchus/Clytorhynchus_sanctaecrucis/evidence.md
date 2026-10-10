@@ -9,7 +9,6 @@ records:
     name:
       zh: Clytorhynchus sanctaecrucis
       en: Clytorhynchus sanctaecrucis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

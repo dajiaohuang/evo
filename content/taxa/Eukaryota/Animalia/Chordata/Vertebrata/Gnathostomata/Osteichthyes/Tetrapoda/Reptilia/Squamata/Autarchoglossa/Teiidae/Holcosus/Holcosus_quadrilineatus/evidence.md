@@ -9,7 +9,6 @@ records:
     name:
       zh: Holcosus quadrilineatus
       en: Holcosus quadrilineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

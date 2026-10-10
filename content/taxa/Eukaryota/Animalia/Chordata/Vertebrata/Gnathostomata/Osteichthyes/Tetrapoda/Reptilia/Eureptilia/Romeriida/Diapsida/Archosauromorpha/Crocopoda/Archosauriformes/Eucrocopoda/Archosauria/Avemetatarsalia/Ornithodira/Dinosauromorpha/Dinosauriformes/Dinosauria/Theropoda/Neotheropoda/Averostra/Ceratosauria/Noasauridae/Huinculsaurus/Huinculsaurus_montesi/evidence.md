@@ -9,7 +9,6 @@ records:
     name:
       zh: Huinculsaurus montesi
       en: Huinculsaurus montesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

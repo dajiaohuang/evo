@@ -9,7 +9,6 @@ records:
     name:
       en: Lion Tamarins
       zh: 狮面狨属
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

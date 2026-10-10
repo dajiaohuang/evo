@@ -9,7 +9,6 @@ records:
     name:
       zh: Antepithecus brachystephanus
       en: Antepithecus brachystephanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

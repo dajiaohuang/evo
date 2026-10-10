@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus darienensis
       en: Atractus darienensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

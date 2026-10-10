@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiagra azureocapilla
       en: Myiagra azureocapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

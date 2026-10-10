@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyranneutes virescens
       en: Tyranneutes virescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

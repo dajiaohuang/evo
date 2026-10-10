@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis pendeana
       en: Trachylepis pendeana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

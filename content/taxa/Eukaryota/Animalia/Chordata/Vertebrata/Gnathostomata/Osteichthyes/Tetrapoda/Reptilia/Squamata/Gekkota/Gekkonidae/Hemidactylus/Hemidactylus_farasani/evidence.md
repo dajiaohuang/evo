@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus farasani
       en: Hemidactylus farasani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

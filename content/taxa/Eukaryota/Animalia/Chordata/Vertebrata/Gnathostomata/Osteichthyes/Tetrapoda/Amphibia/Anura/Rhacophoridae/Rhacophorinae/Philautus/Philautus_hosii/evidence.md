@@ -9,7 +9,6 @@ records:
     name:
       en: Philautus hosii
       zh: Philautus hosii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

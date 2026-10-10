@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates paleovarzensis
       zh: Allobates paleovarzensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceutholestes dolosus
       en: Ceutholestes dolosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

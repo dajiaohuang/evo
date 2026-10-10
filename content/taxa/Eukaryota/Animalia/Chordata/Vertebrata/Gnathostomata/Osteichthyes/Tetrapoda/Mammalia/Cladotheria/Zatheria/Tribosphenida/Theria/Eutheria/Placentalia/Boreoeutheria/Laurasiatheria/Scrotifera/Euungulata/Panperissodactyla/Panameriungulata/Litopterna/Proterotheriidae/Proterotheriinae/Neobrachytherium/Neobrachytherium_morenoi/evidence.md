@@ -9,7 +9,6 @@ records:
     name:
       zh: Neobrachytherium morenoi
       en: Neobrachytherium morenoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

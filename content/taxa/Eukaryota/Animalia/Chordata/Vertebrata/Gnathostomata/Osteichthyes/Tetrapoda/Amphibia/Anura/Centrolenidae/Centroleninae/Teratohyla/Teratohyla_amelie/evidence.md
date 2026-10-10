@@ -9,7 +9,6 @@ records:
     name:
       en: Teratohyla amelie
       zh: Teratohyla amelie
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

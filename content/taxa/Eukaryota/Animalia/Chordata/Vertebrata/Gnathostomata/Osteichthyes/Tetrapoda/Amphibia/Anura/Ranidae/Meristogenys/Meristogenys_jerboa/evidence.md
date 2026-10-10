@@ -9,7 +9,6 @@ records:
     name:
       en: Meristogenys jerboa
       zh: Meristogenys jerboa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

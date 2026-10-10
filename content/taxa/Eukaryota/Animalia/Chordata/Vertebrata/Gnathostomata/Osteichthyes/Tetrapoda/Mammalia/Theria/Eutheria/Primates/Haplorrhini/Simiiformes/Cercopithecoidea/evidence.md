@@ -29,9 +29,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas source audit
-      reviewedAt: 2026-09-26
-      reviewedAgainstReferenceVersion: COL26.8 ChecklistBank dataset 316115; accepted usage 3WWP2 and parent chain checked 2026-09-26
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: col-2026-checklistbank-316115
           locator: COL26.8 dataset 316115; accepted usage 4X9 and parent classification (identity/classification only)
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Cercopithecoidea
     rank: superfamily
@@ -73,7 +69,6 @@ records:
     name:
       zh: Cercopithecoidea
       en: Cercopithecoidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

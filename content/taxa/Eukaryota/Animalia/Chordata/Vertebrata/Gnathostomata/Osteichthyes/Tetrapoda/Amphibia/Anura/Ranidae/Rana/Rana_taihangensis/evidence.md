@@ -9,7 +9,6 @@ records:
     name:
       en: Rana taihangensis
       zh: Rana taihangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus subniger
       en: Sceloporus subniger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

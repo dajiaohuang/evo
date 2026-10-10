@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchophylla handleyi
       en: Lonchophylla handleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

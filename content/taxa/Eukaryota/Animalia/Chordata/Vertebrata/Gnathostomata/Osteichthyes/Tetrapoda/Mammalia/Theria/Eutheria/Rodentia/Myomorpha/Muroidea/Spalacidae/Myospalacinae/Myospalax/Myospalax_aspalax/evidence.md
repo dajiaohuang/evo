@@ -9,7 +9,6 @@ records:
     name:
       zh: Myospalax aspalax
       en: Myospalax aspalax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

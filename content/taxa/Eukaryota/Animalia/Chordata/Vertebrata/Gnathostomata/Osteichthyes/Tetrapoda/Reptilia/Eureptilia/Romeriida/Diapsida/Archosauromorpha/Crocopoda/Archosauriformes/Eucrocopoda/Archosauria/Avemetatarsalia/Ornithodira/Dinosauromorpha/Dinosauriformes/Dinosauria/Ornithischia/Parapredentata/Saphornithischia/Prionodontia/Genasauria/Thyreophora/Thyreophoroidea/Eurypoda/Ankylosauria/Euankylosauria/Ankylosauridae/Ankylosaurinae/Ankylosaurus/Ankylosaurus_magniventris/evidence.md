@@ -22,7 +22,6 @@ records:
     name:
       zh: Ankylosaurus magniventris
       en: Ankylosaurus magniventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

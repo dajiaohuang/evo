@@ -9,7 +9,6 @@ records:
     name:
       zh: 金竹狐猴
       en: Golden Bamboo Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrura regia
       en: Erythrura regia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

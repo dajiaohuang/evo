@@ -9,7 +9,6 @@ records:
     name:
       zh: Mamenchisaurus anyuensis
       en: Mamenchisaurus anyuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

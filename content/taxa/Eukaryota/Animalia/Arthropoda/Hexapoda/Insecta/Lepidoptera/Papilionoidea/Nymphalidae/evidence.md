@@ -9,7 +9,6 @@ records:
     name:
       zh: 蛱蝶科
       en: Brush-footed butterflies
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

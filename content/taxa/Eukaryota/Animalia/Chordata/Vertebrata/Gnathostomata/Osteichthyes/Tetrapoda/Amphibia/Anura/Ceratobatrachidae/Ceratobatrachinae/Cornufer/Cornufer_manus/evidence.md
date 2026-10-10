@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer manus
       zh: Cornufer manus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

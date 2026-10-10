@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus kobeli
       zh: Xenopus kobeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

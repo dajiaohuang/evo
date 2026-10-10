@@ -9,7 +9,6 @@ records:
     name:
       zh: 奥拉亚绢毛猴
       en: Olallas' Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: vocalization

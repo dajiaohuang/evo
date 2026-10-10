@@ -9,7 +9,6 @@ records:
     name:
       zh: Sivatherium olduvaiense
       en: Sivatherium olduvaiense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

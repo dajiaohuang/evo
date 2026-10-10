@@ -9,7 +9,6 @@ records:
     name:
       zh: Motacilla samveasnae
       en: Motacilla samveasnae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

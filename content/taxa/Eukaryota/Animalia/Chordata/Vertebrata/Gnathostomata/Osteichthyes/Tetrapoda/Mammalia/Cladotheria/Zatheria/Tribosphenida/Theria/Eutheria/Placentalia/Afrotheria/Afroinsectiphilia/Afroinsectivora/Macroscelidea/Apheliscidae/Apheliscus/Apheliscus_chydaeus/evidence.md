@@ -9,7 +9,6 @@ records:
     name:
       zh: Apheliscus chydaeus
       en: Apheliscus chydaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

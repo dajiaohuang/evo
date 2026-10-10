@@ -9,7 +9,6 @@ records:
     name:
       zh: Wyolestes dioctes
       en: Wyolestes dioctes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

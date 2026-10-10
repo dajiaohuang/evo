@@ -9,7 +9,6 @@ records:
     name:
       zh: Loxopholis parietalis
       en: Loxopholis parietalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

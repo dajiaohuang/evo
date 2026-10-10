@@ -9,7 +9,6 @@ records:
     name:
       zh: Myxomygale antiqua
       en: Myxomygale antiqua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Salamandra atra
       zh: Salamandra atra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

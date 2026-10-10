@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops attiguus
       zh: Amolops attiguus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

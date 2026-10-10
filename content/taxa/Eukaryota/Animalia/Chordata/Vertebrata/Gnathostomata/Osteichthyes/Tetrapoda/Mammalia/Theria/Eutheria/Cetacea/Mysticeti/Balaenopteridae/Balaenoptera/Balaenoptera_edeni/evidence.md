@@ -9,7 +9,6 @@ records:
     name:
       zh: Balaenoptera edeni
       en: Balaenoptera edeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

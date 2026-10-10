@@ -9,7 +9,6 @@ records:
     name:
       zh: Limnomys
       en: Limnomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

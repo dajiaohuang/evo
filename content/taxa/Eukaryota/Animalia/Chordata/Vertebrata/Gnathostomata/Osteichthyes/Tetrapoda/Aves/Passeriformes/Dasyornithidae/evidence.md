@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasyornithidae
       en: Dasyornithidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

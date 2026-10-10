@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphacorhysis burntforkensis
       en: Sphacorhysis burntforkensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

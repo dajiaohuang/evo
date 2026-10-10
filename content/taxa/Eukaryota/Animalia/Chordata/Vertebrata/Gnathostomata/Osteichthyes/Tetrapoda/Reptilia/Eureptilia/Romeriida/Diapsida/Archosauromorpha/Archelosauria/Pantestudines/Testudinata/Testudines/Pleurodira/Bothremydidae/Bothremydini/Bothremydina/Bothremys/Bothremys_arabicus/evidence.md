@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothremys arabicus
       en: Bothremys arabicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

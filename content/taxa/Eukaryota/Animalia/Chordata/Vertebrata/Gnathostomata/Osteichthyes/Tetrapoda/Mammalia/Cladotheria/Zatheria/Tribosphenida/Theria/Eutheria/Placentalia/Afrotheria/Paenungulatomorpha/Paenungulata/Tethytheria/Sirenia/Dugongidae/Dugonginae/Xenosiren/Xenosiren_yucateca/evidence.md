@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenosiren yucateca
       en: Xenosiren yucateca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

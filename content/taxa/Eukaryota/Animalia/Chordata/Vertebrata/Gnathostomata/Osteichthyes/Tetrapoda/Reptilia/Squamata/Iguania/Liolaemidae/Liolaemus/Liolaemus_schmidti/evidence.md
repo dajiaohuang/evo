@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus schmidti
       en: Liolaemus schmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

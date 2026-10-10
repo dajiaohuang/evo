@@ -9,7 +9,6 @@ records:
     name:
       zh: Vastanavis eocaena
       en: Vastanavis eocaena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

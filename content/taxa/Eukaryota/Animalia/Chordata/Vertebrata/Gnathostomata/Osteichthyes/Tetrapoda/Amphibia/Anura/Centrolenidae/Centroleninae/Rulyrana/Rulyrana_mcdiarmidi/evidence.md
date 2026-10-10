@@ -9,7 +9,6 @@ records:
     name:
       en: Rulyrana mcdiarmidi
       zh: Rulyrana mcdiarmidi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

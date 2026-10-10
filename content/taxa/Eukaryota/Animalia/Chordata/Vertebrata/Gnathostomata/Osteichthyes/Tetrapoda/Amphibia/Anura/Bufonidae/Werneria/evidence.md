@@ -9,7 +9,6 @@ records:
     name:
       en: Werneria
       zh: Werneria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

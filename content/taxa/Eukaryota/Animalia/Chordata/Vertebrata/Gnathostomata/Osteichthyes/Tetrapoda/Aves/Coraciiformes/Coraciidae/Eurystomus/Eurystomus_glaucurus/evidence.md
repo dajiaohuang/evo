@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurystomus glaucurus
       en: Eurystomus glaucurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

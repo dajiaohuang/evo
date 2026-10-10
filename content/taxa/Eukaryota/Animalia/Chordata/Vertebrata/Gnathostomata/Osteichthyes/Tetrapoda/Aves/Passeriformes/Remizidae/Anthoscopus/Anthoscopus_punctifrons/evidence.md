@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthoscopus punctifrons
       en: Anthoscopus punctifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

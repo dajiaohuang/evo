@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptailurus serval
       en: Leptailurus serval
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Procoptodon rapha
       en: Procoptodon rapha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

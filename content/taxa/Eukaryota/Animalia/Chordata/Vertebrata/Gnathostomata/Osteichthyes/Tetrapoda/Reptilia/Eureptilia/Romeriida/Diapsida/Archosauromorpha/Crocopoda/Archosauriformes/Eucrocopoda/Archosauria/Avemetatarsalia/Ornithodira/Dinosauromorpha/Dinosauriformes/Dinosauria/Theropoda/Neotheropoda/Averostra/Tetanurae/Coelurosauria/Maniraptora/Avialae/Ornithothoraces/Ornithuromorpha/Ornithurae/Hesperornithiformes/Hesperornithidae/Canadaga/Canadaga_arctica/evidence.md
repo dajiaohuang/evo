@@ -9,7 +9,6 @@ records:
     name:
       zh: Canadaga arctica
       en: Canadaga arctica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

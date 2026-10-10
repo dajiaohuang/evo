@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis spiritusnoctis
       zh: Leptopelis spiritusnoctis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

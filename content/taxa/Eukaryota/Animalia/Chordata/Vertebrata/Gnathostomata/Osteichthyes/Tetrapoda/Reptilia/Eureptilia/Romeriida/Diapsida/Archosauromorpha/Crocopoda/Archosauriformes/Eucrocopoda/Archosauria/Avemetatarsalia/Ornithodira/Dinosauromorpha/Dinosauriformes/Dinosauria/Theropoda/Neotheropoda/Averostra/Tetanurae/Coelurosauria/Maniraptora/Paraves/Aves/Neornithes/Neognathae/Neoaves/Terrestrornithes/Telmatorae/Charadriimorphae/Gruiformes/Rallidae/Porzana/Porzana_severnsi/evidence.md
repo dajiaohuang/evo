@@ -9,7 +9,6 @@ records:
     name:
       zh: Porzana severnsi
       en: Porzana severnsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

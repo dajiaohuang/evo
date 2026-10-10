@@ -9,7 +9,6 @@ records:
     name:
       zh: Piranga olivacea
       en: Piranga olivacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

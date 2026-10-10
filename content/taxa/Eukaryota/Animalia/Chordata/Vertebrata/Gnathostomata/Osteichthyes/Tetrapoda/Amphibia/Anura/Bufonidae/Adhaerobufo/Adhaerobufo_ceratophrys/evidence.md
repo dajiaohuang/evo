@@ -9,7 +9,6 @@ records:
     name:
       en: Adhaerobufo ceratophrys
       zh: Adhaerobufo ceratophrys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

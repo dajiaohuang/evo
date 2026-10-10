@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus guantanamera
       zh: Eleutherodactylus guantanamera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

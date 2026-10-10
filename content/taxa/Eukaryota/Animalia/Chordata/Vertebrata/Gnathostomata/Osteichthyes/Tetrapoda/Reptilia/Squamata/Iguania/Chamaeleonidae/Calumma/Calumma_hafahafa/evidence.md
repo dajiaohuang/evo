@@ -9,7 +9,6 @@ records:
     name:
       zh: Calumma hafahafa
       en: Calumma hafahafa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

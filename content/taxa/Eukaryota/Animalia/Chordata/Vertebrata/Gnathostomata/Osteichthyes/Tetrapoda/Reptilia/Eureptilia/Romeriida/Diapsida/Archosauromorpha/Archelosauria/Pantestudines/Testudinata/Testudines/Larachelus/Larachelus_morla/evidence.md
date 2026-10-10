@@ -9,7 +9,6 @@ records:
     name:
       zh: Larachelus morla
       en: Larachelus morla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

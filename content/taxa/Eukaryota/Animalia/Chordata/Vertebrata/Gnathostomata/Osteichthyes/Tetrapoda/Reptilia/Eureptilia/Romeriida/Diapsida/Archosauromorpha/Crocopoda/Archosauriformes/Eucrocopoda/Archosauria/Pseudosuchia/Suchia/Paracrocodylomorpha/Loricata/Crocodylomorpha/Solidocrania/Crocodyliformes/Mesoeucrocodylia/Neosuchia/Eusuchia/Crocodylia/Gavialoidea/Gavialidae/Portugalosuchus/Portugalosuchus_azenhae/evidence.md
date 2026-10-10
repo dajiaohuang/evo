@@ -9,7 +9,6 @@ records:
     name:
       zh: Portugalosuchus azenhae
       en: Portugalosuchus azenhae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

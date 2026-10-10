@@ -9,7 +9,6 @@ records:
     name:
       zh: Chuanqilong chaoyangensis
       en: Chuanqilong chaoyangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

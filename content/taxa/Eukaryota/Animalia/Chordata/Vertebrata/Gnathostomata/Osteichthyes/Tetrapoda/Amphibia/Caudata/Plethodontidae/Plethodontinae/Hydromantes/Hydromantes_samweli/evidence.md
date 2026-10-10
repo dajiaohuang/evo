@@ -9,7 +9,6 @@ records:
     name:
       en: Hydromantes samweli
       zh: Hydromantes samweli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

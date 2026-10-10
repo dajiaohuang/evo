@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-该页以 2017 年原始描述和两处采样地为范围；没有把后续推测或单地点外推写成现今完整分布。本页尚未经过外部领域专家评审。
+该页以 2017 年原始描述和两处采样地为范围；没有把后续推测或单地点外推写成现今完整分布。。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       en: Ceratophrys stolzmanni
       zh: Ceratophrys stolzmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eirenis persicus
       en: Eirenis persicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

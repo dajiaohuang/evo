@@ -9,7 +9,6 @@ records:
     name:
       zh: Pilchenia lucina
       en: Pilchenia lucina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

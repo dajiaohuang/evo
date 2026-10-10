@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus eremius
       en: Varanus eremius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

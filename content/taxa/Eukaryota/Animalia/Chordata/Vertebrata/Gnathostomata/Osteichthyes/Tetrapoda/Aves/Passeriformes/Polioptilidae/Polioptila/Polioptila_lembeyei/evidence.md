@@ -9,7 +9,6 @@ records:
     name:
       zh: Polioptila lembeyei
       en: Polioptila lembeyei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

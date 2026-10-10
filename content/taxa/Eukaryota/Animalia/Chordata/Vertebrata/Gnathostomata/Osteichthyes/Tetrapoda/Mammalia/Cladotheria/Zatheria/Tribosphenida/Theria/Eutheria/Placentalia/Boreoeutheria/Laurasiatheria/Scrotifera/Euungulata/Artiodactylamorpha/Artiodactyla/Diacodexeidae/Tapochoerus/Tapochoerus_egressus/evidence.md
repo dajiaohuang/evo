@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapochoerus egressus
       en: Tapochoerus egressus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

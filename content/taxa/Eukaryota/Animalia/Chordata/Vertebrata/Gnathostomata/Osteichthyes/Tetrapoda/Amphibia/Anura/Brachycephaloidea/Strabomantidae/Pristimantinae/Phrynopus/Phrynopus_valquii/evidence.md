@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus valquii
       zh: Phrynopus valquii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

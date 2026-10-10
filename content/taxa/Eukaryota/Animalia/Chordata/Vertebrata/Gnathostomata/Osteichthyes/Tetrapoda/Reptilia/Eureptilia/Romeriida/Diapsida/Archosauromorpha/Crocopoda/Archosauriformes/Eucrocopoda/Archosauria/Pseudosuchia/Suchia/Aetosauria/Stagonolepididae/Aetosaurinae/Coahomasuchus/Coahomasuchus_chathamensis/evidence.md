@@ -9,7 +9,6 @@ records:
     name:
       zh: Coahomasuchus chathamensis
       en: Coahomasuchus chathamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

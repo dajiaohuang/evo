@@ -9,7 +9,6 @@ records:
     name:
       zh: Pantherophis alleghaniensis
       en: Pantherophis alleghaniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

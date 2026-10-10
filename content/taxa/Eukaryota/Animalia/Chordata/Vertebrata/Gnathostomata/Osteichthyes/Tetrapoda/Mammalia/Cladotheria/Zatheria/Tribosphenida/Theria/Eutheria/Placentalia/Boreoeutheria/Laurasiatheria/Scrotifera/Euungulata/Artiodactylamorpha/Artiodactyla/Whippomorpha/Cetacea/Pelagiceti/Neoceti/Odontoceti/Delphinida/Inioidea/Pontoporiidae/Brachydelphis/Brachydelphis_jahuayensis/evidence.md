@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachydelphis jahuayensis
       en: Brachydelphis jahuayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Micropternodus strophensis
       en: Micropternodus strophensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

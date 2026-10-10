@@ -9,7 +9,6 @@ records:
     name:
       zh: Progaleopithecus fissurellatus
       en: Progaleopithecus fissurellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

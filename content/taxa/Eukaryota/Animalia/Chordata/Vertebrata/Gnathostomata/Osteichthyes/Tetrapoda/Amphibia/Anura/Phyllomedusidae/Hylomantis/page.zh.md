@@ -88,7 +88,7 @@ Hylomantis granulosa
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页为分类与限定来源范围的类群介绍；不将历史来源子集视为整个当前类群的等同物。尚未代表的生物学证据仍需核对，未经过外部领域专家评审。
+本页为分类与限定来源范围的类群介绍；不将历史来源子集视为整个当前类群的等同物。尚未代表的生物学证据仍需核对。
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

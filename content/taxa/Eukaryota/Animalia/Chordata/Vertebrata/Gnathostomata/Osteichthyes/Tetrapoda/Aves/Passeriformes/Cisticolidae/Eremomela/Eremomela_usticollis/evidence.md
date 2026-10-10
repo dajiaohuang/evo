@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremomela usticollis
       en: Eremomela usticollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

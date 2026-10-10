@@ -9,7 +9,6 @@ records:
     name:
       zh: Acdestis lemairei
       en: Acdestis lemairei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

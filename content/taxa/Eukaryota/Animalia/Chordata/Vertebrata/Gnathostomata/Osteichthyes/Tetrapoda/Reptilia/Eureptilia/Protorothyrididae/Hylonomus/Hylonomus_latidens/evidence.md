@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylonomus latidens
       en: Hylonomus latidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

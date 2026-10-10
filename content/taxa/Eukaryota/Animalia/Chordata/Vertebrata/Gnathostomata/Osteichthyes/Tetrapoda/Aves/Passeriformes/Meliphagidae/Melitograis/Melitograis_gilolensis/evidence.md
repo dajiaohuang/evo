@@ -9,7 +9,6 @@ records:
     name:
       zh: Melitograis gilolensis
       en: Melitograis gilolensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

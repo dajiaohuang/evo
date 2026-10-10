@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinophoneus
       en: Sinophoneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

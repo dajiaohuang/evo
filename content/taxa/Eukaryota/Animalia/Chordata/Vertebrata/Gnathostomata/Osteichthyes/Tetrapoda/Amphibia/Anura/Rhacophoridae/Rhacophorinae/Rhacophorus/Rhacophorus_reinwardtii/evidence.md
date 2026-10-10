@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus reinwardtii
       zh: Rhacophorus reinwardtii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

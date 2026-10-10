@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus bromeliaceus
       zh: Dendropsophus bromeliaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus juliani
       zh: Dendropsophus juliani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

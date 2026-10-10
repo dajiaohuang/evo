@@ -9,7 +9,6 @@ records:
     name:
       zh: Nanotyrannus lancensis
       en: Nanotyrannus lancensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

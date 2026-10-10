@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudomys calabyi
       en: Pseudomys calabyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

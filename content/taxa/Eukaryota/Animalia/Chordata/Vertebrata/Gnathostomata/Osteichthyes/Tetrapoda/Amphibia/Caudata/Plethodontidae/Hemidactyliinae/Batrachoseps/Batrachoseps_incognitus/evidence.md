@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachoseps incognitus
       zh: Batrachoseps incognitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

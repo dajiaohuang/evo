@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana concelata
       zh: Odorrana concelata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysomus icterocephalus
       en: Chrysomus icterocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

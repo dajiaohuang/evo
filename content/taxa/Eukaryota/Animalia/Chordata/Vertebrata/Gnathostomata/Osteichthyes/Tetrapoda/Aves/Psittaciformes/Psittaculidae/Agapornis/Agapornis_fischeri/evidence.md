@@ -9,7 +9,6 @@ records:
     name:
       zh: Agapornis fischeri
       en: Agapornis fischeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

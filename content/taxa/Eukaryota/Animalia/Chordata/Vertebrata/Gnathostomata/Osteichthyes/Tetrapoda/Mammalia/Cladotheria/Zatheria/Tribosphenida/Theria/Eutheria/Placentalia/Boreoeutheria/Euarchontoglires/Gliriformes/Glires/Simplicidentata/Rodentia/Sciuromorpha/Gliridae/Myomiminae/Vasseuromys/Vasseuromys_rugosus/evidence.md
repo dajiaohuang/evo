@@ -9,7 +9,6 @@ records:
     name:
       zh: Vasseuromys rugosus
       en: Vasseuromys rugosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

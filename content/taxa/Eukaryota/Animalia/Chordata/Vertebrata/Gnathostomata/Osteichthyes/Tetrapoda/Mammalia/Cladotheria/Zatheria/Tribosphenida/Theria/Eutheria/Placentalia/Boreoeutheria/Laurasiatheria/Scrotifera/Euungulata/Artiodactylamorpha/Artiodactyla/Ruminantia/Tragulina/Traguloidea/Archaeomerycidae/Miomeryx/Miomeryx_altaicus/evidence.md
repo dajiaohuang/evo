@@ -9,7 +9,6 @@ records:
     name:
       zh: Miomeryx altaicus
       en: Miomeryx altaicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

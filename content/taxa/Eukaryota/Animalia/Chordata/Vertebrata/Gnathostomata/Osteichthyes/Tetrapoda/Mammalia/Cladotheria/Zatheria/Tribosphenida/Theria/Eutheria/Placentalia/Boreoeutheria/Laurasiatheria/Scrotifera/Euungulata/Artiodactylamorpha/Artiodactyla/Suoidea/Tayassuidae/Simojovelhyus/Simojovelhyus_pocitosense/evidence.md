@@ -9,7 +9,6 @@ records:
     name:
       zh: Simojovelhyus pocitosense
       en: Simojovelhyus pocitosense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

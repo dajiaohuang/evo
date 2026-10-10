@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus macrogranulosus
       zh: Melanophryniscus macrogranulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

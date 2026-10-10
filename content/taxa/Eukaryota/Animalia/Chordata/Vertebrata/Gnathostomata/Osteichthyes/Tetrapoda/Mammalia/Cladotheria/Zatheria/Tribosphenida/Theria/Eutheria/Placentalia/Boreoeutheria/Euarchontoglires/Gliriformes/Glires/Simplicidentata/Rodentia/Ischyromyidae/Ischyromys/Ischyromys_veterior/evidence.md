@@ -9,7 +9,6 @@ records:
     name:
       zh: Ischyromys veterior
       en: Ischyromys veterior
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

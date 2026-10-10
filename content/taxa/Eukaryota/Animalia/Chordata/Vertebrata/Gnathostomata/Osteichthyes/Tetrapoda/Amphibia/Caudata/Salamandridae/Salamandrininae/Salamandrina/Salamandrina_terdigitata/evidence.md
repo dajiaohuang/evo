@@ -9,7 +9,6 @@ records:
     name:
       en: Salamandrina terdigitata
       zh: Salamandrina terdigitata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

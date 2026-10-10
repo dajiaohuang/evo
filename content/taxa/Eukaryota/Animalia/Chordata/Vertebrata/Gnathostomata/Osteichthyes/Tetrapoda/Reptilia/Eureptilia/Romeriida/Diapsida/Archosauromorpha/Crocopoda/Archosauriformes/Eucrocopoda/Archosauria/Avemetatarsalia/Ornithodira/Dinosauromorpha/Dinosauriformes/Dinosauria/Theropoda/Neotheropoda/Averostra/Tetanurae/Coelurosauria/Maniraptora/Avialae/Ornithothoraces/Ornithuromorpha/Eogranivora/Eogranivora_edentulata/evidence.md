@@ -9,7 +9,6 @@ records:
     name:
       zh: Eogranivora edentulata
       en: Eogranivora edentulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

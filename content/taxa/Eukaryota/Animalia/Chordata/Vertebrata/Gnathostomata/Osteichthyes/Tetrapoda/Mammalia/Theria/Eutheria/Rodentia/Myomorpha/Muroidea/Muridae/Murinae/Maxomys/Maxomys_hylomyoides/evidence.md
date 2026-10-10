@@ -9,7 +9,6 @@ records:
     name:
       zh: Maxomys hylomyoides
       en: Maxomys hylomyoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus scorteccii
       en: Lygodactylus scorteccii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

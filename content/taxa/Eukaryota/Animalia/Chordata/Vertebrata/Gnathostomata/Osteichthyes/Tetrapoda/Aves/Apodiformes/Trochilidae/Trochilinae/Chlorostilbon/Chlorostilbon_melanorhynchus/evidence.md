@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorostilbon melanorhynchus
       en: Chlorostilbon melanorhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

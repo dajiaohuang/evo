@@ -9,7 +9,6 @@ records:
     name:
       zh: Bahinolophus birmanicus
       en: Bahinolophus birmanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

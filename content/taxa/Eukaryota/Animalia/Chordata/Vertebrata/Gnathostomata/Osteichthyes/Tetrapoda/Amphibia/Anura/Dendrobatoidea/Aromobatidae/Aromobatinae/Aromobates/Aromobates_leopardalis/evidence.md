@@ -9,7 +9,6 @@ records:
     name:
       en: Aromobates leopardalis
       zh: Aromobates leopardalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

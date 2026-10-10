@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis tohatra
       zh: Gephyromantis tohatra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

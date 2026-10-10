@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothosaurus edingerae
       en: Nothosaurus edingerae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 藏野驴
       en: Kiang
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

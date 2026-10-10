@@ -9,7 +9,6 @@ records:
     name:
       zh: Hexolobodon
       en: Hexolobodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

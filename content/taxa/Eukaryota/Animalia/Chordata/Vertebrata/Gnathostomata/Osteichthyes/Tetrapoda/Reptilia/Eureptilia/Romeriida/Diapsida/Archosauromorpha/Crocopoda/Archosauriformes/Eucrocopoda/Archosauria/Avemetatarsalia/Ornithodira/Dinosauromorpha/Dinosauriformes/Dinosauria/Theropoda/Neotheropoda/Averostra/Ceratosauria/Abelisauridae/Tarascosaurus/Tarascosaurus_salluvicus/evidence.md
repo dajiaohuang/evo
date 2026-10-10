@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarascosaurus salluvicus
       en: Tarascosaurus salluvicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Promyohyrax namibiensis
       en: Promyohyrax namibiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

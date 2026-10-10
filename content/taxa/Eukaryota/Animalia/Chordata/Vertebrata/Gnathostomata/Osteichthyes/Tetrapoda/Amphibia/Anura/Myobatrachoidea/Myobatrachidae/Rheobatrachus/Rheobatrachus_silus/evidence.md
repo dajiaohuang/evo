@@ -9,7 +9,6 @@ records:
     name:
       en: Rheobatrachus silus
       zh: Rheobatrachus silus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

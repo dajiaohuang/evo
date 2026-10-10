@@ -9,7 +9,6 @@ records:
     name:
       zh: Dierogekko koniambo
       en: Dierogekko koniambo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

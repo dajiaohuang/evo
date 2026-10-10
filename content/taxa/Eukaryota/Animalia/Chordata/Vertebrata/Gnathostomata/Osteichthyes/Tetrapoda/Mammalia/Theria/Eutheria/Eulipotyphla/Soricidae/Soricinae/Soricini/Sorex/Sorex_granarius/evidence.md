@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex granarius
       en: Sorex granarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

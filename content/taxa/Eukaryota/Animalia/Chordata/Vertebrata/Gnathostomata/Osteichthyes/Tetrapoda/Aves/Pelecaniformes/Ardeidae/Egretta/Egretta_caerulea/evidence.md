@@ -9,7 +9,6 @@ records:
     name:
       zh: Egretta caerulea
       en: Egretta caerulea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

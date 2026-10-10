@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptoblepharus renschi
       en: Cryptoblepharus renschi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

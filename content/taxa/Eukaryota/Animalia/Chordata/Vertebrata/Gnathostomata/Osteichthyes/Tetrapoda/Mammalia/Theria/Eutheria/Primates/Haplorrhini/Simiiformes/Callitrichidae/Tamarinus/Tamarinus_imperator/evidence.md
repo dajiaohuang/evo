@@ -9,7 +9,6 @@ records:
     name:
       zh: 帝狨
       en: Emperor Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

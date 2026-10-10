@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophiacodon retroversus
       en: Ophiacodon retroversus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

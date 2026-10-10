@@ -9,7 +9,6 @@ records:
     name:
       zh: Nanuqsaurus hoglundi
       en: Nanuqsaurus hoglundi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophilinus giganteus
       en: Spermophilinus giganteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

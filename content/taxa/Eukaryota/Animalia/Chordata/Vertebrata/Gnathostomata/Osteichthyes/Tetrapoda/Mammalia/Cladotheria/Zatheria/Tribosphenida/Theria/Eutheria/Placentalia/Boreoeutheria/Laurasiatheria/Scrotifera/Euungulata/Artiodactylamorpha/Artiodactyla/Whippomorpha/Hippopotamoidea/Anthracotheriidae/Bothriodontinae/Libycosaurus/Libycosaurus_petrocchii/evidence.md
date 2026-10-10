@@ -9,7 +9,6 @@ records:
     name:
       zh: Libycosaurus petrocchii
       en: Libycosaurus petrocchii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

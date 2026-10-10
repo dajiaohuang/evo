@@ -9,7 +9,6 @@ records:
     name:
       zh: 麦康内尔吼猴
       en: MacConnell howler monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

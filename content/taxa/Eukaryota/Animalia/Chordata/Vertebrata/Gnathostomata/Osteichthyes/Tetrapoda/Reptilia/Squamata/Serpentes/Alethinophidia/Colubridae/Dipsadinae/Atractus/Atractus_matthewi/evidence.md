@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus matthewi
       en: Atractus matthewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

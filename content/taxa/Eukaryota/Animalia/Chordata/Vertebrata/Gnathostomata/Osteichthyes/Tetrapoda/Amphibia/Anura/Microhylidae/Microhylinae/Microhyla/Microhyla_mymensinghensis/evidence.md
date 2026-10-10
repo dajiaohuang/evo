@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla mymensinghensis
       zh: Microhyla mymensinghensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

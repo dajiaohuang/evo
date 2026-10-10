@@ -9,7 +9,6 @@ records:
     name:
       zh: Bucorvus abyssinicus
       en: Bucorvus abyssinicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

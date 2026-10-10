@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhamnophis batesii
       en: Rhamnophis batesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

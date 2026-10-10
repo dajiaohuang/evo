@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsilurus schoedei
       en: Hypsilurus schoedei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

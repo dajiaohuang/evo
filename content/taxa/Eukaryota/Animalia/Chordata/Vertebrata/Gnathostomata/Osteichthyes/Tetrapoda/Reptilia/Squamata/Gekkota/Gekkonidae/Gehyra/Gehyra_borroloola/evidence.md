@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra borroloola
       en: Gehyra borroloola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

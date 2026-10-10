@@ -9,7 +9,6 @@ records:
     name:
       en: Ophryophryne microstoma
       zh: Ophryophryne microstoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

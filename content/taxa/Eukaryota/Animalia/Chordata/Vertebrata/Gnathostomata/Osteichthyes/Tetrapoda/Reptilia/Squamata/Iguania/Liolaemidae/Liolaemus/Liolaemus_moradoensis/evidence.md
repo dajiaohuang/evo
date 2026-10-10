@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus moradoensis
       en: Liolaemus moradoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

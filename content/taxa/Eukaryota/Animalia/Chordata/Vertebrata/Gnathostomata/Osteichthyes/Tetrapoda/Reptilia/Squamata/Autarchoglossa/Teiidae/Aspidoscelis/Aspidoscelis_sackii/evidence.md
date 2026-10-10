@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidoscelis sackii
       en: Aspidoscelis sackii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eudaemonema bohachae
       en: Eudaemonema bohachae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

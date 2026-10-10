@@ -9,7 +9,6 @@ records:
     name:
       en: Duttaphrynus stuarti
       zh: Duttaphrynus stuarti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

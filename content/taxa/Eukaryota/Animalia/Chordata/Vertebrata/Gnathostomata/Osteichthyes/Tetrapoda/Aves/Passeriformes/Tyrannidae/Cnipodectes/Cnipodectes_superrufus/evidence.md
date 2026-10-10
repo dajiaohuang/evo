@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnipodectes superrufus
       en: Cnipodectes superrufus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

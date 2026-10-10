@@ -9,7 +9,6 @@ records:
     name:
       en: Sarawakiphrys dringi
       zh: Sarawakiphrys dringi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Elapsoidea chelazziorum
       en: Elapsoidea chelazziorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

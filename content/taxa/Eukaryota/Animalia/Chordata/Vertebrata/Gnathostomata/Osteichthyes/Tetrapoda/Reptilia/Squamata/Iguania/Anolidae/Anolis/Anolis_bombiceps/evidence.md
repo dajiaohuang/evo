@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis bombiceps
       en: Anolis bombiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

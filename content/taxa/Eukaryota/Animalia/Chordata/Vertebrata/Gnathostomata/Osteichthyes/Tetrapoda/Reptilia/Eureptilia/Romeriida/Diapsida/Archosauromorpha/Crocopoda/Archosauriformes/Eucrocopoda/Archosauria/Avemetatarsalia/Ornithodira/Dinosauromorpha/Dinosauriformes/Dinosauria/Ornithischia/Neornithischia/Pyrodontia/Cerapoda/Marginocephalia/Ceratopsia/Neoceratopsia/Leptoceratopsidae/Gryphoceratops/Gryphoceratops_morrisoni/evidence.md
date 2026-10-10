@@ -9,7 +9,6 @@ records:
     name:
       zh: Gryphoceratops morrisoni
       en: Gryphoceratops morrisoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

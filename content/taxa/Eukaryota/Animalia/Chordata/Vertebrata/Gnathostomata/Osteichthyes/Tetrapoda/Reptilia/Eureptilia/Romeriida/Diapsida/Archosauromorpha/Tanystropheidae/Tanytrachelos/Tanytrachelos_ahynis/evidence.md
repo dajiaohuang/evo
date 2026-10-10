@@ -9,7 +9,6 @@ records:
     name:
       zh: Tanytrachelos ahynis
       en: Tanytrachelos ahynis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

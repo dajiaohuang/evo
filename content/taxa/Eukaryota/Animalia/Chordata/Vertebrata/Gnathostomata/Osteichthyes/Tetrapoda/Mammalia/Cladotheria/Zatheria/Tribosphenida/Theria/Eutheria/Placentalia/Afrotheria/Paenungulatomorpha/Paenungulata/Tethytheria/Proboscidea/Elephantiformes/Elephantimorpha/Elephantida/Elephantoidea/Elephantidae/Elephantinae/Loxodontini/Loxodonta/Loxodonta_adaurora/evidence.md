@@ -9,7 +9,6 @@ records:
     name:
       zh: Loxodonta adaurora
       en: Loxodonta adaurora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreotragus
       en: Oreotragus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

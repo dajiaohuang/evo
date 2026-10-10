@@ -9,7 +9,6 @@ records:
     name:
       zh: Casatia thermophila
       en: Casatia thermophila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalomys luciae
       en: Megalomys luciae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Minervarya keralensis
       zh: Minervarya keralensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ialtris agyrtes
       en: Ialtris agyrtes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

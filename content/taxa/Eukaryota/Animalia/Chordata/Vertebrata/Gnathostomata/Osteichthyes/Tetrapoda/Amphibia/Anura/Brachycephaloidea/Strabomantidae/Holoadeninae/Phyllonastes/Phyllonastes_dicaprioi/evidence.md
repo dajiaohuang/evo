@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllonastes dicaprioi
       zh: Phyllonastes dicaprioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

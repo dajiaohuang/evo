@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla hapsa
       zh: Sarcohyla hapsa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

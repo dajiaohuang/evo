@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobiconodon zofiae
       en: Gobiconodon zofiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

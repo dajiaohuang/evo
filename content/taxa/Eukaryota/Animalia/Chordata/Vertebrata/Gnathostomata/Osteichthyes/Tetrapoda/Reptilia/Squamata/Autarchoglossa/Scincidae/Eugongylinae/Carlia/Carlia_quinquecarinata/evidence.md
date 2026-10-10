@@ -9,7 +9,6 @@ records:
     name:
       zh: Carlia quinquecarinata
       en: Carlia quinquecarinata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

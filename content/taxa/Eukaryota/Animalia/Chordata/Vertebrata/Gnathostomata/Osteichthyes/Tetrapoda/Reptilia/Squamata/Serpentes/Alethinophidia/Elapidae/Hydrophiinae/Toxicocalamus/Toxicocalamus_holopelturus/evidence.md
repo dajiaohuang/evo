@@ -9,7 +9,6 @@ records:
     name:
       zh: Toxicocalamus holopelturus
       en: Toxicocalamus holopelturus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

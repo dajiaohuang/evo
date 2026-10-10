@@ -9,7 +9,6 @@ records:
     name:
       zh: Dulus
       en: Dulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

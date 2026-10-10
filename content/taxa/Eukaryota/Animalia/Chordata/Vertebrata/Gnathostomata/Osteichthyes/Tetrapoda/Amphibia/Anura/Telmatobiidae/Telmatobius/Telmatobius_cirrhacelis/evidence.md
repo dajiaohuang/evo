@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius cirrhacelis
       zh: Telmatobius cirrhacelis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

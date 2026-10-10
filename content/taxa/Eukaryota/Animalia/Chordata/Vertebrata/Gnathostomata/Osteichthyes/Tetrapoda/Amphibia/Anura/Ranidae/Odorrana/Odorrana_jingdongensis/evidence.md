@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana jingdongensis
       zh: Odorrana jingdongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

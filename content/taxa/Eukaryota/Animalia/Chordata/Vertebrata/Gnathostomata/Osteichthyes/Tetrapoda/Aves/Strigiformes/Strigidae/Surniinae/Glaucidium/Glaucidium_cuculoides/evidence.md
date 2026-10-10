@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium cuculoides
       en: Glaucidium cuculoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

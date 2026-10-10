@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligobunis crassivultus
       en: Oligobunis crassivultus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

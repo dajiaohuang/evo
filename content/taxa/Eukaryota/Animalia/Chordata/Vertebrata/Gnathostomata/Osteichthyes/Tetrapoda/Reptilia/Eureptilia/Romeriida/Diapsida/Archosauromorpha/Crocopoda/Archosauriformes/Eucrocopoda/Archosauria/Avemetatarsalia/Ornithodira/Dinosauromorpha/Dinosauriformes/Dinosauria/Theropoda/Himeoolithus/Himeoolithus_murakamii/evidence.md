@@ -9,7 +9,6 @@ records:
     name:
       zh: Himeoolithus murakamii
       en: Himeoolithus murakamii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

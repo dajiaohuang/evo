@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyrrhinus helleri
       en: Platyrrhinus helleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

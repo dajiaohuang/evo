@@ -9,7 +9,6 @@ records:
     name:
       zh: Procapra gutturosa
       en: Procapra gutturosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

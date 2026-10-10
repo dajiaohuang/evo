@@ -9,7 +9,6 @@ records:
     name:
       zh: Cebochoerus lacustris
       en: Cebochoerus lacustris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

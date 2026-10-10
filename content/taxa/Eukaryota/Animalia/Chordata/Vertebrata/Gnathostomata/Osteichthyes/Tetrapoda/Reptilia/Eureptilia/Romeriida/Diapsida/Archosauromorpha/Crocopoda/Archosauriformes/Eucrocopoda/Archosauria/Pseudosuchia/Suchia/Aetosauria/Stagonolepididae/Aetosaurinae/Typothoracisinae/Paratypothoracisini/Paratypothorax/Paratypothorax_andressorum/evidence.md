@@ -9,7 +9,6 @@ records:
     name:
       zh: Paratypothorax andressorum
       en: Paratypothorax andressorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

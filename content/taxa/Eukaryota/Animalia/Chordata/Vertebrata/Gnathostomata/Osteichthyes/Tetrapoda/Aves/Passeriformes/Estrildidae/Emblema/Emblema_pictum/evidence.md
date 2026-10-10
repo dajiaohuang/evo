@@ -9,7 +9,6 @@ records:
     name:
       zh: Emblema pictum
       en: Emblema pictum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

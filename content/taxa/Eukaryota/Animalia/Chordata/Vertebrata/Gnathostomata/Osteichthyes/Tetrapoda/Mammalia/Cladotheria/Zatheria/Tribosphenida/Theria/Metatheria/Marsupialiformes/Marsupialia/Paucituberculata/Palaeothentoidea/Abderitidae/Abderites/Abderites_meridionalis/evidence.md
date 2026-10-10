@@ -9,7 +9,6 @@ records:
     name:
       zh: Abderites meridionalis
       en: Abderites meridionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

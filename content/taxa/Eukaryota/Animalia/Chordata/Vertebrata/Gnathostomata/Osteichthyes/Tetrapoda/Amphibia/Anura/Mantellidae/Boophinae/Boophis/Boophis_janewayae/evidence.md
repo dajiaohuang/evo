@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis janewayae
       zh: Boophis janewayae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

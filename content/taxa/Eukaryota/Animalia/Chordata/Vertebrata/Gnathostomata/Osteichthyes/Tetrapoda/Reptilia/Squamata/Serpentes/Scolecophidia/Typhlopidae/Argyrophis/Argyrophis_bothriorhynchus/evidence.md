@@ -9,7 +9,6 @@ records:
     name:
       zh: Argyrophis bothriorhynchus
       en: Argyrophis bothriorhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

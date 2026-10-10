@@ -21,7 +21,7 @@ function sources(): FrontendAdapterSources {
     loadCapabilities: vi.fn(async () => capabilities), loadRoots: vi.fn(async () => ({ capabilities, roots: [root] })), loadNode: vi.fn(async () => child),
     loadChildren: vi.fn(async () => ({ ...capabilities, parentId: 'root', queryStatus: 'catalogue-direct-children' as const, records: [child], total: 1, limit: 200 })),
     searchNames: vi.fn(async () => searchPage),
-    loadPackageRegistry: vi.fn(async () => ({ schemaVersion: 1, version: 'dataset-test', schemaStatus: 'frozen' as const, packageCount: 1, entityCount: 1, packages: [{ id: 'pkg', title: 'Package', titleZh: '包', wave: 'test', platformMaturity: 'published' as const, scientificMaturity: 'published' as const, automatedReviewStatus: 'passed' as const, reviewStatus: 'reviewed' as const, entityCount: 1, runtimePath: 'pkg' }], entityToPackage: { child: 'pkg' } })),
+    loadPackageRegistry: vi.fn(async () => ({ schemaVersion: 1, version: 'dataset-test', schemaStatus: 'frozen' as const, packageCount: 1, entityCount: 1, packages: [{ id: 'pkg', title: 'Package', titleZh: '包', wave: 'test', entityCount: 1, runtimePath: 'pkg' }], entityToPackage: { child: 'pkg' } })),
     loadPackageRanges: vi.fn(async () => [range]), loadPackageResearchExamples: vi.fn(async () => ({ schemaVersion: 1 as const, packageId: 'pkg', examples: [example] })),
   }
 }

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geositta rufipennis
       en: Geositta rufipennis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

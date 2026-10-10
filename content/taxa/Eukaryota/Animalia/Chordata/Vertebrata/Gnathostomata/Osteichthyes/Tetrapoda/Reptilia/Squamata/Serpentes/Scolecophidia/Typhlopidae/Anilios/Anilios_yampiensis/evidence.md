@@ -9,7 +9,6 @@ records:
     name:
       zh: Anilios yampiensis
       en: Anilios yampiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aaptoryctes ivyi
       en: Aaptoryctes ivyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

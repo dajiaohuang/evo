@@ -10,7 +10,6 @@ records:
     name:
       zh: 里奥内格罗胡须僧面猴
       en: Rio Negro Bearded Saki
-    reviewStatus: source-linked
     sections:
       - topic: classification
         text:

@@ -9,7 +9,6 @@ records:
     name:
       en: Siau Island Tarsier
       zh: 西奥岛眼镜猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: form

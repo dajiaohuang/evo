@@ -9,7 +9,6 @@ records:
     name:
       zh: Parahippus cognatus
       en: Parahippus cognatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

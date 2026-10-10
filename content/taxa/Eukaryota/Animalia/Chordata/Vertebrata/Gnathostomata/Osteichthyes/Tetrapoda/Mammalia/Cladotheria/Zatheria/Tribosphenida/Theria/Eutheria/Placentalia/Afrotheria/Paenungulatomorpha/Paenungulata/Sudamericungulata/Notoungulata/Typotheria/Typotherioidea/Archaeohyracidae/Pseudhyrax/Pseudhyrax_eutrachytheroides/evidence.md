@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudhyrax eutrachytheroides
       en: Pseudhyrax eutrachytheroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

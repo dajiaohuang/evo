@@ -9,7 +9,6 @@ records:
     name:
       zh: 安布山叉纹鼠狐猴
       en: Montagne d’Ambre Fork-marked Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

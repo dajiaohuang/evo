@@ -9,7 +9,6 @@ records:
     name:
       zh: Meniscoessus seminoensis
       en: Meniscoessus seminoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

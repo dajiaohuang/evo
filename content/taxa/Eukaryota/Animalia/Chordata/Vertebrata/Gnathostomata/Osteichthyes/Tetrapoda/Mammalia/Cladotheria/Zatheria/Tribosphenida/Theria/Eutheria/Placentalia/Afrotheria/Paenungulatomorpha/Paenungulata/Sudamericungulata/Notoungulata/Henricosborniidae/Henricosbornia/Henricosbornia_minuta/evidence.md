@@ -9,7 +9,6 @@ records:
     name:
       zh: Henricosbornia minuta
       en: Henricosbornia minuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

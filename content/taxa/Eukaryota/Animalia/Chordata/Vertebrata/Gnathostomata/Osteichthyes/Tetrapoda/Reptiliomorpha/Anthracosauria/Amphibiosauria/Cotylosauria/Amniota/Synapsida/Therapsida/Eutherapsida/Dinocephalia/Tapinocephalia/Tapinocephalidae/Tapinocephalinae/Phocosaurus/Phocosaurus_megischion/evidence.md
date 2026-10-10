@@ -9,7 +9,6 @@ records:
     name:
       zh: Phocosaurus megischion
       en: Phocosaurus megischion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

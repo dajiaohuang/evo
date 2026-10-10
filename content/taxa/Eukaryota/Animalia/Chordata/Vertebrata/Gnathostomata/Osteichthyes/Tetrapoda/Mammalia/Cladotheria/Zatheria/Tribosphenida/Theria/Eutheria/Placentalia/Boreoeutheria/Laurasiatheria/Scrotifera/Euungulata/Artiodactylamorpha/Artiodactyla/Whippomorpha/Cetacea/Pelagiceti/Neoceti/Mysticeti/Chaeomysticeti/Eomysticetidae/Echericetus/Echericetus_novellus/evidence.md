@@ -9,7 +9,6 @@ records:
     name:
       zh: Echericetus novellus
       en: Echericetus novellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

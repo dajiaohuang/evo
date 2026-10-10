@@ -9,7 +9,6 @@ records:
     name:
       zh: Chungchienia lushia
       en: Chungchienia lushia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

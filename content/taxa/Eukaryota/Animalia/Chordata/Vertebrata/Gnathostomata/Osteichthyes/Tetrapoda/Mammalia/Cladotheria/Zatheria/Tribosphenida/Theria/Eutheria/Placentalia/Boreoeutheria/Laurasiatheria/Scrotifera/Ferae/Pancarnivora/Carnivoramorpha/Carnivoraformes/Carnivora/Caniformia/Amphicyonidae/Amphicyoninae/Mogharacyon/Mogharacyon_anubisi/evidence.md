@@ -9,7 +9,6 @@ records:
     name:
       zh: Mogharacyon anubisi
       en: Mogharacyon anubisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

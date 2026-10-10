@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteronetta hartlaubii
       en: Pteronetta hartlaubii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

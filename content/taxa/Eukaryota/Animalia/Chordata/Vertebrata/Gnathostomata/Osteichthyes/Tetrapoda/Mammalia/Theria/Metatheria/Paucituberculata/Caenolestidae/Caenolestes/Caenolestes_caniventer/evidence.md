@@ -9,7 +9,6 @@ records:
     name:
       zh: Caenolestes caniventer
       en: Caenolestes caniventer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmatoclaenus dianae
       en: Desmatoclaenus dianae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

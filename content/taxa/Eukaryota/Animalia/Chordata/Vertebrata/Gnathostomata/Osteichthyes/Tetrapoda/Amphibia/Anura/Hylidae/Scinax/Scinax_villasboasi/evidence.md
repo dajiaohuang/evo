@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax villasboasi
       zh: Scinax villasboasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

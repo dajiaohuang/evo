@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidus praecisio
       en: Lepidus praecisio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

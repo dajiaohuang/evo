@@ -9,7 +9,6 @@ records:
     name:
       zh: Shazurus minutus
       en: Shazurus minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

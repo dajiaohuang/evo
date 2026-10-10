@@ -9,7 +9,6 @@ records:
     name:
       zh: Edmontosaurus annectens
       en: Edmontosaurus annectens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

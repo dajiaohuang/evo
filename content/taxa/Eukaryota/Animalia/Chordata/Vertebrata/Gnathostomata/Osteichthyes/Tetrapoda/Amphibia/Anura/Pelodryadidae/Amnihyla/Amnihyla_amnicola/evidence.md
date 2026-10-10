@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla amnicola
       zh: Amnihyla amnicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

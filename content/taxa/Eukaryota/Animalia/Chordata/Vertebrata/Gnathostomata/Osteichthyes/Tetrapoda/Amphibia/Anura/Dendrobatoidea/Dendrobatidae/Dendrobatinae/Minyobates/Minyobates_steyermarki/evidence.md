@@ -9,7 +9,6 @@ records:
     name:
       en: Minyobates steyermarki
       zh: Minyobates steyermarki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

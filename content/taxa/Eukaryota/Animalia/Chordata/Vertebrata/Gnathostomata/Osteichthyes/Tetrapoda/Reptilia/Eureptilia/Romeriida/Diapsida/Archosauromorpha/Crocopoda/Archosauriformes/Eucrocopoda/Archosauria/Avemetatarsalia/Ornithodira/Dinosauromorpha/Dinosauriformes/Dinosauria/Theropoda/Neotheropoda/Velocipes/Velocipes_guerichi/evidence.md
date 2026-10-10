@@ -9,7 +9,6 @@ records:
     name:
       zh: Velocipes guerichi
       en: Velocipes guerichi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

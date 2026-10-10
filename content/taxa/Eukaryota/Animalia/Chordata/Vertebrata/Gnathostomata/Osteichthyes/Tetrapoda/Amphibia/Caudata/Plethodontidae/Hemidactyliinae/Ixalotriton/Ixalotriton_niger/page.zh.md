@@ -88,7 +88,7 @@ El Ocote 作者描述森林石灰岩深裂隙，但无所找到或可进入实�
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-部分研究范围内的生物学读本。其余生物学主题仍需更多证据。未经过外部领域专家评审。
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。。
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

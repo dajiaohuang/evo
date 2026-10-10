@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinopium everetti
       en: Dinopium everetti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

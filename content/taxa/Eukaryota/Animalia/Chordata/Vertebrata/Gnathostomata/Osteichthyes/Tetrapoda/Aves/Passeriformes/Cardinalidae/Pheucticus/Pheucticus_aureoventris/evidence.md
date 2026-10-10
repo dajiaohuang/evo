@@ -9,7 +9,6 @@ records:
     name:
       zh: Pheucticus aureoventris
       en: Pheucticus aureoventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

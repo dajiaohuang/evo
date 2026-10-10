@@ -47,5 +47,5 @@ The earlier batch contains one Psilopogon pyrolophus record, with compiled mean 
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass records are compiled means, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
-Seventeen additional older-genus guides retain separate sample, compiled-mass and category limits; complete accepted-descendant coverage, monographs and expert review are not counted.
+Seventeen additional older-genus guides retain separate sample, compiled-mass and category limits; complete accepted-descendant coverage, monographs are not counted.
 <!-- /evo:text -->

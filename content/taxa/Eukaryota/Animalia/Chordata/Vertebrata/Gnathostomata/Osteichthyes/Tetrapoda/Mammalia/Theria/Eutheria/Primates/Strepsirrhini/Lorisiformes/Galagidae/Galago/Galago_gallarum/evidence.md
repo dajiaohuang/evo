@@ -10,7 +10,6 @@ records:
     name:
       en: Somali Lesser Galago
       zh: 索马里小婴猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

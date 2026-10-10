@@ -9,7 +9,6 @@ records:
     name:
       zh: Cienciargentina
       en: Cienciargentina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

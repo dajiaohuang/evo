@@ -9,7 +9,6 @@ records:
     name:
       en: Isthmohyla pseudopuma
       zh: Isthmohyla pseudopuma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

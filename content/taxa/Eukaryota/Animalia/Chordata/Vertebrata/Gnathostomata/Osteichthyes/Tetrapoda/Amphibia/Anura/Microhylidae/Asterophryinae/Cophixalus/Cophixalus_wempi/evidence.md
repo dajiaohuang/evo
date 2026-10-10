@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus wempi
       zh: Cophixalus wempi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

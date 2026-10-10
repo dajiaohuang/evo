@@ -16,7 +16,7 @@ Pinto and colleagues used repeated transects to survey five primate species, inc
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked local transect survey; not externally expert-reviewed. The secondary-vegetation pattern is reported for the surveyed primate community, not as a species-specific result; cross-site density comparisons are not standardized.
+Source-linked local transect survey;. The secondary-vegetation pattern is reported for the surveyed primate community, not as a species-specific result; cross-site density comparisons are not standardized.
 <!-- /evo:text -->
 
 ## The name in the historical life-history record

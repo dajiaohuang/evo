@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorsetisaurus hebetidens
       en: Dorsetisaurus hebetidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

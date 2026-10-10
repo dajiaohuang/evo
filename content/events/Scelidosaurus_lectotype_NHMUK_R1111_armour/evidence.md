@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: norman-2021-scelidosaurus @ DOI 10.1093/zoolinnean/zlaa061
       referenceLinks:
         - referenceId: norman-2021-scelidosaurus
           relation: supports

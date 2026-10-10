@@ -9,7 +9,6 @@ records:
     name:
       zh: Kryoryctes cadburyi
       en: Kryoryctes cadburyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

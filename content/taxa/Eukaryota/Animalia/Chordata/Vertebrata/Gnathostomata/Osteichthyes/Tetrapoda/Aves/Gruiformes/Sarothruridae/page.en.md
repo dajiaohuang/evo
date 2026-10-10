@@ -35,6 +35,6 @@ Follow two reading groups at [Sarothrura](Sarothrura/page.en.md): compare trophi
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Eight selected Sarothrura historical guides do not complete accepted species in the family. Source Rallidae remains separate from COL classification. Categories, compiled average mass and morphology counts do not replace measured natural history or expert review.
-Four added Rallicula guides retain older names, two birds without a sexed male, complete-set denominators and low hand-wing-index limits without completing family content or expert review.
+Eight selected Sarothrura historical guides do not complete accepted species in the family. Source Rallidae remains separate from COL classification. Categories, compiled average mass and morphology counts do not replace measured natural history.
+Four added Rallicula guides retain older names, two birds without a sexed male, complete-set denominators and low hand-wing-index limits without completing family content.
 <!-- /evo:text -->

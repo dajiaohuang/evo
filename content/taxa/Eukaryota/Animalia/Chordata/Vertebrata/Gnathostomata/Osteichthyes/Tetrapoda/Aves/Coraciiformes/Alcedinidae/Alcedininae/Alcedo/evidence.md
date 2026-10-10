@@ -9,7 +9,6 @@ records:
     name:
       zh: Alcedo
       en: Alcedo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

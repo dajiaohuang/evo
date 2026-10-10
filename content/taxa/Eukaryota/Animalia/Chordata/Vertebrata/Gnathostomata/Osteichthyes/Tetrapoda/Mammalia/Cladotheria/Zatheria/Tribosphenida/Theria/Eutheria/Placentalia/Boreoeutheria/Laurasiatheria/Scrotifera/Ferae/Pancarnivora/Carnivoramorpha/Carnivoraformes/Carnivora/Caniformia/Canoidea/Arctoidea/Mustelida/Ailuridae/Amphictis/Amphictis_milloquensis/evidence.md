@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphictis milloquensis
       en: Amphictis milloquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

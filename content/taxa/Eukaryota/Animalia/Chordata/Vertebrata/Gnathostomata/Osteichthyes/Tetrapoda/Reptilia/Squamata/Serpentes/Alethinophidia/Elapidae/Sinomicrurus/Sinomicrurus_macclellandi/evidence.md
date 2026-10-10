@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinomicrurus macclellandi
       en: Sinomicrurus macclellandi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

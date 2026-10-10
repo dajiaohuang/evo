@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis karsticola
       en: Cnemaspis karsticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

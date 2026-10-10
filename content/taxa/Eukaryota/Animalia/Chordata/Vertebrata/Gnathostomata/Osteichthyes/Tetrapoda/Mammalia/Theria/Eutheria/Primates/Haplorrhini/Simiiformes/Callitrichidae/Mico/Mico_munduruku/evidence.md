@@ -9,7 +9,6 @@ records:
     name:
       zh: 穆杜鲁库绒猴
       en: Munduruku marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       en: Ghatixalus asterops
       zh: Ghatixalus asterops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

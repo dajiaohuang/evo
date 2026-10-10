@@ -97,9 +97,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Strömberg and McInerney 2011 DOI 10.1666/09067.1
       referenceLinks:
         - relation: supports
           referenceId: stromberg-2011-great-plains-phytoliths

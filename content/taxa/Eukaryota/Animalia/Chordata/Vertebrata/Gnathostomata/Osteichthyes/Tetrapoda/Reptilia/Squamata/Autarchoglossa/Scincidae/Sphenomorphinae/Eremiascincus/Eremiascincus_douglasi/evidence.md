@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremiascincus douglasi
       en: Eremiascincus douglasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

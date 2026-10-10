@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracina incerta
       en: Coracina incerta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

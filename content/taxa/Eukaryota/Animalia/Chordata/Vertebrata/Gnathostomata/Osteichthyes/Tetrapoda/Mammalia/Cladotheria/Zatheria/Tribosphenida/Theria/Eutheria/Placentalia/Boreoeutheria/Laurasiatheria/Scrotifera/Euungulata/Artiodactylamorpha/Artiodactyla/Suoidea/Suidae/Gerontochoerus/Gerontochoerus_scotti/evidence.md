@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerontochoerus scotti
       en: Gerontochoerus scotti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

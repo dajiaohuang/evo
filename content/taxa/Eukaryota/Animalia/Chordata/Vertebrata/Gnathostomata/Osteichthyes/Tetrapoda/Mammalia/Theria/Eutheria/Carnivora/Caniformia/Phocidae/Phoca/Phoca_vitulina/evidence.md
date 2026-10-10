@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoca vitulina
       en: Phoca vitulina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

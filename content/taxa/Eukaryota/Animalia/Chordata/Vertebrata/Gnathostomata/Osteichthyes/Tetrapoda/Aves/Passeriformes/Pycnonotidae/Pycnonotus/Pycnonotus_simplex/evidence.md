@@ -9,7 +9,6 @@ records:
     name:
       zh: Pycnonotus simplex
       en: Pycnonotus simplex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

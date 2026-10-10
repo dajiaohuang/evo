@@ -9,7 +9,6 @@ records:
     name:
       en: Pelodryas splendida
       zh: Pelodryas splendida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

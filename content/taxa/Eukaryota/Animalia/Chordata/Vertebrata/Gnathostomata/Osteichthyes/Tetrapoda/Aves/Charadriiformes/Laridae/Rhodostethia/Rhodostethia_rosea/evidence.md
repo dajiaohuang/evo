@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhodostethia rosea
       en: Rhodostethia rosea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

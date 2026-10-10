@@ -9,7 +9,6 @@ records:
     name:
       zh: Egernia formosa
       en: Egernia formosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

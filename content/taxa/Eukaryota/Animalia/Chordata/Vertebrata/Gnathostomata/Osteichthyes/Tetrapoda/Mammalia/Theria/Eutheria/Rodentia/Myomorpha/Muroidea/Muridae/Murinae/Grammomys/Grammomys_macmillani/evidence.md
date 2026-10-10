@@ -9,7 +9,6 @@ records:
     name:
       zh: Grammomys macmillani
       en: Grammomys macmillani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

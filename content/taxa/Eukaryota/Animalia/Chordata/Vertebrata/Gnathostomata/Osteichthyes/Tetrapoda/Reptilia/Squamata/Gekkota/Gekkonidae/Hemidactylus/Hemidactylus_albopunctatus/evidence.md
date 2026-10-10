@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus albopunctatus
       en: Hemidactylus albopunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Megapterygius wakayamaensis
       en: Megapterygius wakayamaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

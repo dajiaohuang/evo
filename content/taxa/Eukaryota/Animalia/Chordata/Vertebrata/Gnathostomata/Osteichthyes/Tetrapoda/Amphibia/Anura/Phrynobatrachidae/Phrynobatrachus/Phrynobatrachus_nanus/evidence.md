@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus nanus
       zh: Phrynobatrachus nanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

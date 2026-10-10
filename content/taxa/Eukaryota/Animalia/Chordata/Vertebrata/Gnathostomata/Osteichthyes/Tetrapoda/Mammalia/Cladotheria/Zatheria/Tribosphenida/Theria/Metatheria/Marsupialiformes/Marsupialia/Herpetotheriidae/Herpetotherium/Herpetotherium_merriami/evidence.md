@@ -9,7 +9,6 @@ records:
     name:
       zh: Herpetotherium merriami
       en: Herpetotherium merriami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

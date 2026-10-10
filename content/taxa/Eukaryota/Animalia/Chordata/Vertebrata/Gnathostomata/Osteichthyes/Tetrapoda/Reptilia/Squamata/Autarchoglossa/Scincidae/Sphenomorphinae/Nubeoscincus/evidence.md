@@ -9,7 +9,6 @@ records:
     name:
       zh: Nubeoscincus
       en: Nubeoscincus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kronosaurus queenslandicus
       en: Kronosaurus queenslandicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

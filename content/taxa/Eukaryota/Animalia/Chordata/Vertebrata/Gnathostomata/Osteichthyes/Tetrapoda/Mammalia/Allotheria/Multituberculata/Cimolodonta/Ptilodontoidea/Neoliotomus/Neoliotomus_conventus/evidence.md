@@ -9,7 +9,6 @@ records:
     name:
       zh: Neoliotomus conventus
       en: Neoliotomus conventus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

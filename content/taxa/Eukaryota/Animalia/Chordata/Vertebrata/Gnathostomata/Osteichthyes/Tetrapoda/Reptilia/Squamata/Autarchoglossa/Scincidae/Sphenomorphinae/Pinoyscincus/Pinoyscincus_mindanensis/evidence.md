@@ -9,7 +9,6 @@ records:
     name:
       zh: Pinoyscincus mindanensis
       en: Pinoyscincus mindanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachyeres patachonicus
       en: Tachyeres patachonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

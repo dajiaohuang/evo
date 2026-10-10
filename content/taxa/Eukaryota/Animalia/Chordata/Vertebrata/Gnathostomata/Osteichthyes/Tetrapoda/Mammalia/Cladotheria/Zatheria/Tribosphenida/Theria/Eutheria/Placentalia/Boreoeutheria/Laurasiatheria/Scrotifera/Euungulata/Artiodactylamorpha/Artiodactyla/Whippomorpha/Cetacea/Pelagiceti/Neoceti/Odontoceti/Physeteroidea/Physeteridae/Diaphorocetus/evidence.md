@@ -9,7 +9,6 @@ records:
     name:
       zh: Diaphorocetus
       en: Diaphorocetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

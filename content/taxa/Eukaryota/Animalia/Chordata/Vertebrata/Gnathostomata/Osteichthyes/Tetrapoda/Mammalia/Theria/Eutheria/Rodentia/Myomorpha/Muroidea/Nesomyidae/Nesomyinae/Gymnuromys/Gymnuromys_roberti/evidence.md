@@ -9,7 +9,6 @@ records:
     name:
       zh: Gymnuromys roberti
       en: Gymnuromys roberti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pichipilidae
       en: Pichipilidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

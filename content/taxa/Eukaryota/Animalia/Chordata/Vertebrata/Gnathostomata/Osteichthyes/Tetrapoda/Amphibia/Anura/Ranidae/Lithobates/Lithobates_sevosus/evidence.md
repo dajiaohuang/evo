@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates sevosus
       zh: Lithobates sevosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

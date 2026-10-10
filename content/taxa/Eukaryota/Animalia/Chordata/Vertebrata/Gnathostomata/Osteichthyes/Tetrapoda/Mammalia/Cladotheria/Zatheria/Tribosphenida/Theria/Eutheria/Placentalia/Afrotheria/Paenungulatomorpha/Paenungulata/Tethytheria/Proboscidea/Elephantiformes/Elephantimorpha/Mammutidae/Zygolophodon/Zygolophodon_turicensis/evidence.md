@@ -9,7 +9,6 @@ records:
     name:
       zh: Zygolophodon turicensis
       en: Zygolophodon turicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudamphimeryx pavloviae
       en: Pseudamphimeryx pavloviae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

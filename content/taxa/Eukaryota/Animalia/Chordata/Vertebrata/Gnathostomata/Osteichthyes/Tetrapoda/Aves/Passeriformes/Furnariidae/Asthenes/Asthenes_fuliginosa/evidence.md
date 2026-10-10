@@ -9,7 +9,6 @@ records:
     name:
       zh: Asthenes fuliginosa
       en: Asthenes fuliginosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

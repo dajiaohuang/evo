@@ -9,7 +9,6 @@ records:
     name:
       en: Atelognathus praebasalticus
       zh: Atelognathus praebasalticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

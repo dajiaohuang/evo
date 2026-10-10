@@ -9,7 +9,6 @@ records:
     name:
       zh: Buteo solitarius
       en: Buteo solitarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

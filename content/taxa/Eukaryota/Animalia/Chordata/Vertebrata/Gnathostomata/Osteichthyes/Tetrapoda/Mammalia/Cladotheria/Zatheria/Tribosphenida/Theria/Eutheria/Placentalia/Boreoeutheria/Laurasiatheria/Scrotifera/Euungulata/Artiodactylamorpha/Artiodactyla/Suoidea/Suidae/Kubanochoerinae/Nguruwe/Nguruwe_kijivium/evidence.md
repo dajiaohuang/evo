@@ -9,7 +9,6 @@ records:
     name:
       zh: Nguruwe kijivium
       en: Nguruwe kijivium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

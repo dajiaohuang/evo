@@ -31,7 +31,7 @@ for (const span of owned.reverse()) {
   const normalized = amphibianReferenceForSchema(span.reference)
   if (semanticJson(normalized) === semanticJson(span.reference)) continue
   text = text.slice(0, span.start) + JSON.stringify(normalized, null, 2) + text.slice(span.end)
-  receipt.push({ referenceId: span.reference.id, sourceRole: normalized.sourceRole, fitnessFor: normalized.fitnessFor, authorStatus: normalized.authorsStatus, metadataAssignment: normalized.metadataAssignment, originalSourceVariantCount: normalized.importedSourceMetadata.length, rightsPreservedInSourceMetadata: true })
+  receipt.push({ referenceId: span.reference.id, sourceRole: normalized.sourceRole, fitnessFor: normalized.fitnessFor, authorStatus: normalized.authorsStatus,  originalSourceVariantCount: normalized.importedSourceMetadata.length, rightsPreservedInSourceMetadata: true })
 }
 fs.writeFileSync(file, text)
 fs.writeFileSync('docs/amphibia-content/reference-authoring-receipt.json', JSON.stringify({ ownedReferences: ids.size, changedReferences: receipt, inheritedReferenceObjectsModified: 0, testsRun: false }, null, 2) + '\n')

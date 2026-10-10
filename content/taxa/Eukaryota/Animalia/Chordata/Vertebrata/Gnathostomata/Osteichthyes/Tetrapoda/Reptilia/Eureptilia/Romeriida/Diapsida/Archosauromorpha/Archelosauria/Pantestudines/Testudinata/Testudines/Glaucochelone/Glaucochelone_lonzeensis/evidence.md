@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucochelone lonzeensis
       en: Glaucochelone lonzeensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aymaratherium jeani
       en: Aymaratherium jeani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

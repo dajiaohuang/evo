@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurhinodelphis longirostris
       en: Eurhinodelphis longirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

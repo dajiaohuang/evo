@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina carablanca
       zh: Oedipina carablanca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

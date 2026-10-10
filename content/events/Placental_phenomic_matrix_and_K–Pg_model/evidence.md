@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: O’Leary et al. 2013 DOI 10.1126/science.1229237
       referenceLinks:
         - referenceId: oleary-2013-placental-ancestor-model
           relation: supports

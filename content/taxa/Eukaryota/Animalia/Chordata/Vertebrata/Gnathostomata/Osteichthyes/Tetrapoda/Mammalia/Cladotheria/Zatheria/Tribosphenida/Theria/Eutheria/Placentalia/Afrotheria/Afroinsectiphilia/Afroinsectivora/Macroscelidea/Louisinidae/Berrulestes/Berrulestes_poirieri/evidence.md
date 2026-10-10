@@ -9,7 +9,6 @@ records:
     name:
       zh: Berrulestes poirieri
       en: Berrulestes poirieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

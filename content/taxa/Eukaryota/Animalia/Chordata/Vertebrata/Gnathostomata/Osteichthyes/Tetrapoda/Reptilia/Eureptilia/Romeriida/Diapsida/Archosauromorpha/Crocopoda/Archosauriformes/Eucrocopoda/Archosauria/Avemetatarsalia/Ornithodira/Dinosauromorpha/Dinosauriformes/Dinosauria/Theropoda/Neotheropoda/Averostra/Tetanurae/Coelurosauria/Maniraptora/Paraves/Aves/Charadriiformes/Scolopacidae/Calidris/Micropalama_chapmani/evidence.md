@@ -9,7 +9,6 @@ records:
     name:
       zh: Micropalama chapmani
       en: Micropalama chapmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

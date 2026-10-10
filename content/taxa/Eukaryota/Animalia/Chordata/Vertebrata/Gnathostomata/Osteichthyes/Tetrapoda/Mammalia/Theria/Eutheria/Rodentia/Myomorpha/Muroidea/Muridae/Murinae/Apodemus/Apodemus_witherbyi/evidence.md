@@ -9,7 +9,6 @@ records:
     name:
       zh: Apodemus witherbyi
       en: Apodemus witherbyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

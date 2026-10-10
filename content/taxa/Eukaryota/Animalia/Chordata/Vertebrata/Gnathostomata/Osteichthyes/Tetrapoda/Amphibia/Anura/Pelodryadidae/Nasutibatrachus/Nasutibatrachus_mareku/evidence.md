@@ -9,7 +9,6 @@ records:
     name:
       en: Nasutibatrachus mareku
       zh: Nasutibatrachus mareku
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

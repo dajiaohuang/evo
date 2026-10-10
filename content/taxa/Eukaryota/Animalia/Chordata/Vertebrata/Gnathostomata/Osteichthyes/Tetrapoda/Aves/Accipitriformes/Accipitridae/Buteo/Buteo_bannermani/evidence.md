@@ -9,7 +9,6 @@ records:
     name:
       zh: Buteo bannermani
       en: Buteo bannermani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

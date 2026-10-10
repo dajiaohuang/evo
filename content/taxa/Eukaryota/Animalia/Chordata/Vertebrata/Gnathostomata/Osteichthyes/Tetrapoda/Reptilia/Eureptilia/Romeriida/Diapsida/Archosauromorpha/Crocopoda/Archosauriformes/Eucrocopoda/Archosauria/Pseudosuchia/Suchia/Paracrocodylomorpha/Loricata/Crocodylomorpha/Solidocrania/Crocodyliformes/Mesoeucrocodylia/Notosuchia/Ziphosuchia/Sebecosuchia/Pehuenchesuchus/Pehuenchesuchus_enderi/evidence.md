@@ -9,7 +9,6 @@ records:
     name:
       zh: Pehuenchesuchus enderi
       en: Pehuenchesuchus enderi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

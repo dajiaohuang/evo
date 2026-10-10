@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanomys caliginosus
       en: Melanomys caliginosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

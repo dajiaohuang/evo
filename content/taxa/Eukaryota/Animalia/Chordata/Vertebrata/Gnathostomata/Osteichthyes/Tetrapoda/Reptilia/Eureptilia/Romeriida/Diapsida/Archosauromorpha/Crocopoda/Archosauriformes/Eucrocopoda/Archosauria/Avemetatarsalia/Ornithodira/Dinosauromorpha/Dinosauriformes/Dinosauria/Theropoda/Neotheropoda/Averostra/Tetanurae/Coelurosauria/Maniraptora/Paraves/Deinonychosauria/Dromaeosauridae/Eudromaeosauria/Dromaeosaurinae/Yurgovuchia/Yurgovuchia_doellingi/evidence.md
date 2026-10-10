@@ -9,7 +9,6 @@ records:
     name:
       zh: Yurgovuchia doellingi
       en: Yurgovuchia doellingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

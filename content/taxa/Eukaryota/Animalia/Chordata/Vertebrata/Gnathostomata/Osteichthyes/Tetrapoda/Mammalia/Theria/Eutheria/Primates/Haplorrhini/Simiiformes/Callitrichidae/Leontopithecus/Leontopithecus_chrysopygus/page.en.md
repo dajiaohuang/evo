@@ -34,5 +34,5 @@ The foraging study followed one group for 83 days. The camera study monitored th
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The 2001 study is a short sample of one group; the 2026 camera study follows three groups at selected resources, including partly baited feeding stations. Camera detections are not an abundance estimate. The Chinese common name is editorial; this page has not been externally expert-reviewed. This page is not externally expert-reviewed.
+The 2001 study is a short sample of one group; the 2026 camera study follows three groups at selected resources, including partly baited feeding stations. Camera detections are not an abundance estimate. The Chinese common name is editorial. This page is.
 <!-- /evo:text -->

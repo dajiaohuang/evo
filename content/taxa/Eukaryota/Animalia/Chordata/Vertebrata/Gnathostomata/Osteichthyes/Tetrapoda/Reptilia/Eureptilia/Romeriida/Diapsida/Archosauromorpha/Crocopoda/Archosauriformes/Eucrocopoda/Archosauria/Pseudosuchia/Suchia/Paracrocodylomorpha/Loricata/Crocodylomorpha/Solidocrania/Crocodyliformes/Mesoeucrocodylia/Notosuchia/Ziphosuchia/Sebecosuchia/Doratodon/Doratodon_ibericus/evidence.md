@@ -9,7 +9,6 @@ records:
     name:
       zh: Doratodon ibericus
       en: Doratodon ibericus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

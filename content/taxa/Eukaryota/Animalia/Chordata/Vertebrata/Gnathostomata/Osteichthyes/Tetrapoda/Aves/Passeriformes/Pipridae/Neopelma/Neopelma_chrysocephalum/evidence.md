@@ -9,7 +9,6 @@ records:
     name:
       zh: Neopelma chrysocephalum
       en: Neopelma chrysocephalum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

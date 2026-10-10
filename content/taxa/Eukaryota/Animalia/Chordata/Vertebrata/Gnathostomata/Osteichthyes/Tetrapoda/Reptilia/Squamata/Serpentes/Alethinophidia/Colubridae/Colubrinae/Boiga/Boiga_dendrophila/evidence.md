@@ -9,7 +9,6 @@ records:
     name:
       zh: Boiga dendrophila
       en: Boiga dendrophila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

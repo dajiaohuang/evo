@@ -9,7 +9,6 @@ records:
     name:
       zh: Asiatyrannus xui
       en: Asiatyrannus xui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

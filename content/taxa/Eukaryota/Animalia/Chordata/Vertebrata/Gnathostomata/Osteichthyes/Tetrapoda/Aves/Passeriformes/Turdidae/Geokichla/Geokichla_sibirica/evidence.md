@@ -9,7 +9,6 @@ records:
     name:
       zh: Geokichla sibirica
       en: Geokichla sibirica
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

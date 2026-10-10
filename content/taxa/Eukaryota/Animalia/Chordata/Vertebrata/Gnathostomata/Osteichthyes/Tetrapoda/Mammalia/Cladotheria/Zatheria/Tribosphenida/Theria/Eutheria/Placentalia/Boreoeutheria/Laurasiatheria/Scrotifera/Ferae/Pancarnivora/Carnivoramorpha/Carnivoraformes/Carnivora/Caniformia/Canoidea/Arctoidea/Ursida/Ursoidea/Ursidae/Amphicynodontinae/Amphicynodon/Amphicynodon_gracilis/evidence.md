@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphicynodon gracilis
       en: Amphicynodon gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

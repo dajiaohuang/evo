@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumyarion gordesensis
       en: Eumyarion gordesensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

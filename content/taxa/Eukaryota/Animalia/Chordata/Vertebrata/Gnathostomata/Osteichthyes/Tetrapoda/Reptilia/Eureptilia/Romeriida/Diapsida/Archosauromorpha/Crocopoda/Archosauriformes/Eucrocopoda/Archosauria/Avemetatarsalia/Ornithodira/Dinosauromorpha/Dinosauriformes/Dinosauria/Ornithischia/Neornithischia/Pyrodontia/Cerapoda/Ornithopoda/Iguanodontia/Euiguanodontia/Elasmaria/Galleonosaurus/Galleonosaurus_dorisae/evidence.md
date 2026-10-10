@@ -9,7 +9,6 @@ records:
     name:
       zh: Galleonosaurus dorisae
       en: Galleonosaurus dorisae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

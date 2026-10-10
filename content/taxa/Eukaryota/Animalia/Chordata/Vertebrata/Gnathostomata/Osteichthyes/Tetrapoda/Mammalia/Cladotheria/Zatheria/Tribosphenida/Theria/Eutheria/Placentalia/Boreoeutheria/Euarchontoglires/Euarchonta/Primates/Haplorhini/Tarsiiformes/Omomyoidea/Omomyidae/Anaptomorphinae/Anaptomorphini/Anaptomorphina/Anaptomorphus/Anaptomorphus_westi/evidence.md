@@ -9,7 +9,6 @@ records:
     name:
       zh: Anaptomorphus westi
       en: Anaptomorphus westi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 尼罗鳄
       en: Nile crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: sensoryMaterial

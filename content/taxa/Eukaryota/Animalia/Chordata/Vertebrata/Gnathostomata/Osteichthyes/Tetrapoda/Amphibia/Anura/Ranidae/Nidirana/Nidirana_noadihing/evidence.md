@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana noadihing
       zh: Nidirana noadihing
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

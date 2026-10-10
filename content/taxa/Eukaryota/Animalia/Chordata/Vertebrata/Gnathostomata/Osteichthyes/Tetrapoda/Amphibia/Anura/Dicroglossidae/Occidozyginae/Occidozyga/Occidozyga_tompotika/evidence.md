@@ -9,7 +9,6 @@ records:
     name:
       en: Occidozyga tompotika
       zh: Occidozyga tompotika
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

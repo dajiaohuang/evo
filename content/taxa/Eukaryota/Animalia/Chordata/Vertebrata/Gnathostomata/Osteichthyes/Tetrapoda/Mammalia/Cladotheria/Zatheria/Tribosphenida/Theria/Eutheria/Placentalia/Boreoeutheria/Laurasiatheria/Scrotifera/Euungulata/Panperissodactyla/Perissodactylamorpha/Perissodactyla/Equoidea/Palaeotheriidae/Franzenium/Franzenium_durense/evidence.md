@@ -9,7 +9,6 @@ records:
     name:
       zh: Franzenium durense
       en: Franzenium durense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

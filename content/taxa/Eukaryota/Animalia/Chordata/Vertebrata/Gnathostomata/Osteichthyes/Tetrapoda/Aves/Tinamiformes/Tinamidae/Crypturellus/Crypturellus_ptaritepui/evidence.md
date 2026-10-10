@@ -9,7 +9,6 @@ records:
     name:
       zh: Crypturellus ptaritepui
       en: Crypturellus ptaritepui
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Diasporus anthrax
       zh: Diasporus anthrax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

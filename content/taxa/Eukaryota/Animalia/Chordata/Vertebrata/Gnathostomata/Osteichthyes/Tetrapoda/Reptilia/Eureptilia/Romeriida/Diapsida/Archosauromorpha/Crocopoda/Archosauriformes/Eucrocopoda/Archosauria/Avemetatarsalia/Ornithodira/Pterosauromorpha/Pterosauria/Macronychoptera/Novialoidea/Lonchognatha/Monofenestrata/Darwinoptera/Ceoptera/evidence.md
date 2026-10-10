@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceoptera
       en: Ceoptera
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview
@@ -141,8 +140,8 @@ records:
             accessedAt: 2026-10-03
             locator: "Author-uploaded original article transcription: front matter, Holotype and Diagnosis; CT-scanning and Visualization selected passages; Phylogenetic Analysis results selected passages. Complete article, figures and supplements not read."
             scope:
-              zh: 原始描述的选定标本、扫描、诊断及亲缘段落短导读；不是完整解剖或专家审评。
-              en: Short guide to selected original-description material, scanning, diagnosis and phylogenetic passages, not complete anatomy or expert review.
+              zh: 原始描述的选定标本、扫描、诊断及亲缘段落短导读；不是完整解剖。
+              en: Short guide to selected original-description material, scanning, diagnosis and phylogenetic passages, not complete anatomy.
           originalFields:
             - id
             - doi
@@ -294,8 +293,8 @@ records:
           en: A new pterosaur from the Middle Jurassic of Skye, Scotland and the early diversification of flying reptiles
         url: https://doi.org/10.1080/02724634.2023.2298741
         scope:
-          zh: 原始描述的选定标本、扫描、诊断及亲缘段落短导读；不是完整解剖或专家审评。
-          en: Short guide to selected original-description material, scanning, diagnosis and phylogenetic passages, not complete anatomy or expert review.
+          zh: 原始描述的选定标本、扫描、诊断及亲缘段落短导读；不是完整解剖。
+          en: Short guide to selected original-description material, scanning, diagnosis and phylogenetic passages, not complete anatomy.
     readerLimitations:
       zh:
         markdown: page.zh.md
@@ -348,7 +347,6 @@ records:
       referenceLocators:
         - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
           locator: P5-42 accepted hierarchy oid txn:485527; fea/fla/lea/lla in retained taxa response.
-      reviewStatus: not-reviewed
       evidenceLevel: database-derived
 ---
 

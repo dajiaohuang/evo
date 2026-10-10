@@ -9,7 +9,6 @@ records:
     name:
       zh: Rattus ranjiniae
       en: Rattus ranjiniae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

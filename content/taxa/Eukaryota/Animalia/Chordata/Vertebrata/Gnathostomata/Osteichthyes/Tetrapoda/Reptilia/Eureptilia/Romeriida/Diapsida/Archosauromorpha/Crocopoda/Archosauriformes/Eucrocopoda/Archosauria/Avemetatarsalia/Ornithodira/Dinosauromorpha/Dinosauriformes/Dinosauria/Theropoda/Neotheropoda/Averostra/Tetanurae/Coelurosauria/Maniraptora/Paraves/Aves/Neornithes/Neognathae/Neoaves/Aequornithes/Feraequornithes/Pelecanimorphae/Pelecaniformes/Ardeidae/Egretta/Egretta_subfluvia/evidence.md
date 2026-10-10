@@ -9,7 +9,6 @@ records:
     name:
       zh: Egretta subfluvia
       en: Egretta subfluvia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

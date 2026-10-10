@@ -9,7 +9,6 @@ records:
     name:
       zh: Zegdoumys namibiensis
       en: Zegdoumys namibiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

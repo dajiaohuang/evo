@@ -9,7 +9,6 @@ records:
     name:
       en: Lankanectes corrugatus
       zh: Lankanectes corrugatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

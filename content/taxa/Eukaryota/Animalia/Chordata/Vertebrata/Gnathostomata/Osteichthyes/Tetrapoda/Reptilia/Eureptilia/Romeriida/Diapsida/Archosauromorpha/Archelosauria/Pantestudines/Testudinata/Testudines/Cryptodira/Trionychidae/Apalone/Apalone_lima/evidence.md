@@ -9,7 +9,6 @@ records:
     name:
       zh: Apalone lima
       en: Apalone lima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pugiodens mirus
       en: Pugiodens mirus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

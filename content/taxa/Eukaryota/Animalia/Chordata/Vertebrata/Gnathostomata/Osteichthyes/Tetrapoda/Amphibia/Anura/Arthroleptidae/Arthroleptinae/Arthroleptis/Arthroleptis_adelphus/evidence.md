@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptis adelphus
       zh: Arthroleptis adelphus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

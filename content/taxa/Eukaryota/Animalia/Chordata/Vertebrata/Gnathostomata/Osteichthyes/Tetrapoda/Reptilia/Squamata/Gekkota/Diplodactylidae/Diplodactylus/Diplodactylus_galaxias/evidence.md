@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplodactylus galaxias
       en: Diplodactylus galaxias
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

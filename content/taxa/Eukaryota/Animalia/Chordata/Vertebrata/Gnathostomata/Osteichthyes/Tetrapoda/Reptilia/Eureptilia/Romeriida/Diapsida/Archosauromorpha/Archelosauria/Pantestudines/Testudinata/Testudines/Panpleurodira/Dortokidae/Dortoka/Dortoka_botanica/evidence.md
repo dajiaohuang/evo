@@ -9,7 +9,6 @@ records:
     name:
       zh: Dortoka botanica
       en: Dortoka botanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina gigantea
       zh: Xenorhina gigantea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

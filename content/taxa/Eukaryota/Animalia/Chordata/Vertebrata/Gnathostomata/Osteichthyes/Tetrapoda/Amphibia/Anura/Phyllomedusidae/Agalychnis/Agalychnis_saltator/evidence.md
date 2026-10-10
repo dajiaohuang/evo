@@ -9,7 +9,6 @@ records:
     name:
       en: Agalychnis saltator
       zh: Agalychnis saltator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

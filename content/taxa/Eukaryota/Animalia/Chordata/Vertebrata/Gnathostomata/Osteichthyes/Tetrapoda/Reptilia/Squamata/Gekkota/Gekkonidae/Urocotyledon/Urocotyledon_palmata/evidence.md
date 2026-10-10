@@ -9,7 +9,6 @@ records:
     name:
       zh: Urocotyledon palmata
       en: Urocotyledon palmata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

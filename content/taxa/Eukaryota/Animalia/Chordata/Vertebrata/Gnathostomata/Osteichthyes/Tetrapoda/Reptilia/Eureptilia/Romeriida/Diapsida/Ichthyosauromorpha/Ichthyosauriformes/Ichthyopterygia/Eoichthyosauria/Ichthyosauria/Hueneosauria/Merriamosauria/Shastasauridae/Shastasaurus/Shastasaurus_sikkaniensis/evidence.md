@@ -9,7 +9,6 @@ records:
     name:
       zh: Shastasaurus sikkaniensis
       en: Shastasaurus sikkaniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

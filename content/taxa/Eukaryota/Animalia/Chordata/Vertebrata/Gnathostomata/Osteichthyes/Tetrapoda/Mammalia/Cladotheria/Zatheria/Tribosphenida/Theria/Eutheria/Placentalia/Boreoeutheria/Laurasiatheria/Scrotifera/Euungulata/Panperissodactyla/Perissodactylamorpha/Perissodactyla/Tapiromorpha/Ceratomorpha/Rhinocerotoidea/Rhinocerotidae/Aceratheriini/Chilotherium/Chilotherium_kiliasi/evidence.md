@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilotherium kiliasi
       en: Chilotherium kiliasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

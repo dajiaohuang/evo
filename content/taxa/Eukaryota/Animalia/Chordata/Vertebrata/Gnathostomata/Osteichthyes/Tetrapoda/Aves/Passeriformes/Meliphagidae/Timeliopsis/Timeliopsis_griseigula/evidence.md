@@ -9,7 +9,6 @@ records:
     name:
       zh: Timeliopsis griseigula
       en: Timeliopsis griseigula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

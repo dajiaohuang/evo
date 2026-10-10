@@ -9,7 +9,6 @@ records:
     name:
       zh: Philodryas erlandi
       en: Philodryas erlandi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes narinosus
       zh: Nyctimystes narinosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Taudactylus liemi
       zh: Taudactylus liemi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

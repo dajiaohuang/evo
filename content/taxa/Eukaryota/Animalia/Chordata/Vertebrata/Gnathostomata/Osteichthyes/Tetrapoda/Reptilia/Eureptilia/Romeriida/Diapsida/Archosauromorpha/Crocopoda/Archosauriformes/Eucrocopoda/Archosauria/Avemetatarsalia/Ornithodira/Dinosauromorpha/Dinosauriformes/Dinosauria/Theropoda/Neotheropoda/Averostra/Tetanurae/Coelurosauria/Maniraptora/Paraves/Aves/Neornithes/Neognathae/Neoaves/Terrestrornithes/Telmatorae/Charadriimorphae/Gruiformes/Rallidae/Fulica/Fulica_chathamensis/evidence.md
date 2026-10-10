@@ -9,7 +9,6 @@ records:
     name:
       zh: Fulica chathamensis
       en: Fulica chathamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

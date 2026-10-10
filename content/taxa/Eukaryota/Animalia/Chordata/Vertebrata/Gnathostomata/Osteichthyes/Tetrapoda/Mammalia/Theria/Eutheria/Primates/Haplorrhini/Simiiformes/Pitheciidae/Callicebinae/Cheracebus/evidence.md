@@ -10,7 +10,6 @@ records:
     name:
       en: Cheracebus
       zh: 跳猴属
-    reviewStatus: source-linked
     sections:
       - topic: readingPath
         text:

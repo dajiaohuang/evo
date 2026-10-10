@@ -9,7 +9,6 @@ records:
     name:
       zh: Orohippus sylvaticus
       en: Orohippus sylvaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

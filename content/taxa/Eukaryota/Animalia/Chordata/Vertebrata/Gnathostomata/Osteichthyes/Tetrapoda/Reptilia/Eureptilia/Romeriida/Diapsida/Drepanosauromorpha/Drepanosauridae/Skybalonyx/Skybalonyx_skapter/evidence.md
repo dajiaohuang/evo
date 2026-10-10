@@ -9,7 +9,6 @@ records:
     name:
       zh: Skybalonyx skapter
       en: Skybalonyx skapter
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

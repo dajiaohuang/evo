@@ -9,7 +9,6 @@ records:
     name:
       en: Schneider's Marmoset
       zh: 施奈德绒猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy_and_distribution

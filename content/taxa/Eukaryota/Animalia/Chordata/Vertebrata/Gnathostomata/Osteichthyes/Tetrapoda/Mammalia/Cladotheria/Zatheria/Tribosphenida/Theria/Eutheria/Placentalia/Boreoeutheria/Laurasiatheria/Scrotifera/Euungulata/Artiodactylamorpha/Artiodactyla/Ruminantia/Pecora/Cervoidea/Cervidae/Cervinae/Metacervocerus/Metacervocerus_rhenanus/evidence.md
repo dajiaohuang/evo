@@ -9,7 +9,6 @@ records:
     name:
       zh: Metacervocerus rhenanus
       en: Metacervocerus rhenanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

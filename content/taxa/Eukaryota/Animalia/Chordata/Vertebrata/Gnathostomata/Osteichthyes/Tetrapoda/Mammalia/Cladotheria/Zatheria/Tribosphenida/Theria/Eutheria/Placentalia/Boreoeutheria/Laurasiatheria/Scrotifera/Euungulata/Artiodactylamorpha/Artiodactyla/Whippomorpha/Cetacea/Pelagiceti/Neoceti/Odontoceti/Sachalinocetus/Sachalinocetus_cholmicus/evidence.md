@@ -9,7 +9,6 @@ records:
     name:
       zh: Sachalinocetus cholmicus
       en: Sachalinocetus cholmicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

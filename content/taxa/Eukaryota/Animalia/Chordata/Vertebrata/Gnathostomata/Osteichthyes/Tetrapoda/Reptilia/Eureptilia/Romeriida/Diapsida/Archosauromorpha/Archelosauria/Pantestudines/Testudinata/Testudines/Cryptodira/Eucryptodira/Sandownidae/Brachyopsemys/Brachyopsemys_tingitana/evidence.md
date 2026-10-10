@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyopsemys tingitana
       en: Brachyopsemys tingitana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

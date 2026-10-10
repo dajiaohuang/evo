@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptella villiersi
       zh: Arthroleptella villiersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

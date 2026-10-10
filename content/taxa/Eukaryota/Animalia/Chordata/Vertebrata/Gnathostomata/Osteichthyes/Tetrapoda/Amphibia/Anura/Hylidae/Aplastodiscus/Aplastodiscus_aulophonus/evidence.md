@@ -9,7 +9,6 @@ records:
     name:
       en: Aplastodiscus aulophonus
       zh: Aplastodiscus aulophonus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

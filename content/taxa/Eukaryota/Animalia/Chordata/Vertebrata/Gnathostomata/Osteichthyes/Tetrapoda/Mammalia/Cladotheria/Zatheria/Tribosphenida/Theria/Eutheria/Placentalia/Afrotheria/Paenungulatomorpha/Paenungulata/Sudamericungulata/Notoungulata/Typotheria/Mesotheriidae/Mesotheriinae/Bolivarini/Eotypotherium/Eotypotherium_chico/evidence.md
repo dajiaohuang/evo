@@ -9,7 +9,6 @@ records:
     name:
       zh: Eotypotherium chico
       en: Eotypotherium chico
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys izecksohni
       zh: Proceratophrys izecksohni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

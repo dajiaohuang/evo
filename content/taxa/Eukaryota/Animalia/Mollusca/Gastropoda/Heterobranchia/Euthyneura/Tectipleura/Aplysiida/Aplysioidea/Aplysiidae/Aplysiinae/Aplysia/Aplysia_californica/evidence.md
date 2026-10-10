@@ -188,12 +188,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
     classificationPath:
       - id: CS5HF
         scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
@@ -431,10 +425,4 @@ One captive cohort supports only bounded age-specific mass and survivorship obse
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 Five facets remain not assessed; these data do not establish wild or species-wide values.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

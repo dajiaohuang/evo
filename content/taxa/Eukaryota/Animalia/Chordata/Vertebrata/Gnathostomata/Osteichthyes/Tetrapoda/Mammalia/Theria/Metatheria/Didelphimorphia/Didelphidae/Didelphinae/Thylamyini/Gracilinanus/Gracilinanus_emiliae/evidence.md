@@ -9,7 +9,6 @@ records:
     name:
       zh: Gracilinanus emiliae
       en: Gracilinanus emiliae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

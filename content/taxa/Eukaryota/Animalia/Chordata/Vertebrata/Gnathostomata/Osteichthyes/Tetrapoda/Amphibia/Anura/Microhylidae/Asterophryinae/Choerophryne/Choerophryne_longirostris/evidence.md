@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne longirostris
       zh: Choerophryne longirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Laniarius mufumbiri
       en: Laniarius mufumbiri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

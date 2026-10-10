@@ -9,7 +9,6 @@ records:
     name:
       en: Rulyrana susatamai
       zh: Rulyrana susatamai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

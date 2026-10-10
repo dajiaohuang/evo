@@ -9,7 +9,6 @@ records:
     name:
       zh: Bubogonia saskia
       en: Bubogonia saskia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

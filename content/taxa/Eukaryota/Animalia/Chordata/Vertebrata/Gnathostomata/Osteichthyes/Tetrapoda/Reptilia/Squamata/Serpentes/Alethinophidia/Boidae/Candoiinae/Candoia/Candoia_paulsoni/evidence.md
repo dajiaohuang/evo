@@ -9,7 +9,6 @@ records:
     name:
       zh: Candoia paulsoni
       en: Candoia paulsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

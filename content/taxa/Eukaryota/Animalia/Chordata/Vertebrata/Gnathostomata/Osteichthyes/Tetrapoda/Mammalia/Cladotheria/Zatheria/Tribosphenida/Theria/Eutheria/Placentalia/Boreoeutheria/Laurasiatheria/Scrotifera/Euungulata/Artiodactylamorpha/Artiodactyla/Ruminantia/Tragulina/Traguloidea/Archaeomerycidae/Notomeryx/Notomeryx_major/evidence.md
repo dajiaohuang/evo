@@ -9,7 +9,6 @@ records:
     name:
       zh: Notomeryx major
       en: Notomeryx major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

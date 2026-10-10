@@ -9,7 +9,6 @@ records:
     name:
       zh: Myosorex babaulti
       en: Myosorex babaulti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

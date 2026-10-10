@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenoceratops foremostensis
       en: Xenoceratops foremostensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetracheilostoma carlae
       en: Tetracheilostoma carlae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

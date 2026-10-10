@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus beguei
       zh: Eleutherodactylus beguei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

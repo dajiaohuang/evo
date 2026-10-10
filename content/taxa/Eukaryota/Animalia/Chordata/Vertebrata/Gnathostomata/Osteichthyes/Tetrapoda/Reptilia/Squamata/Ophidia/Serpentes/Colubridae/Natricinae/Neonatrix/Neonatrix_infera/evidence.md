@@ -9,7 +9,6 @@ records:
     name:
       zh: Neonatrix infera
       en: Neonatrix infera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

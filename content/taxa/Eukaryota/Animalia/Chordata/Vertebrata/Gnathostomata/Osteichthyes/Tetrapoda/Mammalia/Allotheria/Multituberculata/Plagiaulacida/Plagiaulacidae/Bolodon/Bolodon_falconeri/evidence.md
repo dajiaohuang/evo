@@ -9,7 +9,6 @@ records:
     name:
       zh: Bolodon falconeri
       en: Bolodon falconeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

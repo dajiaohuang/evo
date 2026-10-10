@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraprefica major
       en: Paraprefica major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Chlorohyla eschata
       zh: Chlorohyla eschata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

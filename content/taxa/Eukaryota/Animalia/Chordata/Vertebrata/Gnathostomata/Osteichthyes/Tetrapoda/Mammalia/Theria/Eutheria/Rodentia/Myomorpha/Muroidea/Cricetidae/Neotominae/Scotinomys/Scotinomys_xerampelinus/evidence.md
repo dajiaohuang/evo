@@ -9,7 +9,6 @@ records:
     name:
       zh: Scotinomys xerampelinus
       en: Scotinomys xerampelinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

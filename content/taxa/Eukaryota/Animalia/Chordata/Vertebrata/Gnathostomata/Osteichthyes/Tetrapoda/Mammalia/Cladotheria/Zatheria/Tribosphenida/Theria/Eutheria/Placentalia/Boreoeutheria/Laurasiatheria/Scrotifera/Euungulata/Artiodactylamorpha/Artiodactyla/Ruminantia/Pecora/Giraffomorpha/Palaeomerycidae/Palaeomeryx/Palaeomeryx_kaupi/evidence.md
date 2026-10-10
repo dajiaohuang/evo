@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeomeryx kaupi
       en: Palaeomeryx kaupi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

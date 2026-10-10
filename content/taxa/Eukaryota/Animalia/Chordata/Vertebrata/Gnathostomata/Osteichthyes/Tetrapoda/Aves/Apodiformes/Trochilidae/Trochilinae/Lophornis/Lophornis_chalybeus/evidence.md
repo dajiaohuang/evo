@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophornis chalybeus
       en: Lophornis chalybeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

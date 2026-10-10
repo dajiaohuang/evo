@@ -9,7 +9,6 @@ records:
     name:
       en: Duttaphrynus manipurensis
       zh: Duttaphrynus manipurensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

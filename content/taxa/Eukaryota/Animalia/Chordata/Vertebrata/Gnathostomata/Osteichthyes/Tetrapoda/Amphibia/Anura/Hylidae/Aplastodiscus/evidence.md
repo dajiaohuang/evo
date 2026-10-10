@@ -9,7 +9,6 @@ records:
     name:
       en: Aplastodiscus
       zh: Aplastodiscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anomalochelys angulata
       en: Anomalochelys angulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

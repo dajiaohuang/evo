@@ -9,7 +9,6 @@ records:
     name:
       zh: Phelsuma flavigularis
       en: Phelsuma flavigularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

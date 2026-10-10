@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla rubra
       zh: Microhyla rubra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

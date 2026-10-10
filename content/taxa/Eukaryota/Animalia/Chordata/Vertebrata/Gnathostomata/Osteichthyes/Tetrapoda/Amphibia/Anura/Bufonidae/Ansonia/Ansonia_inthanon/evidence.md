@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia inthanon
       zh: Ansonia inthanon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

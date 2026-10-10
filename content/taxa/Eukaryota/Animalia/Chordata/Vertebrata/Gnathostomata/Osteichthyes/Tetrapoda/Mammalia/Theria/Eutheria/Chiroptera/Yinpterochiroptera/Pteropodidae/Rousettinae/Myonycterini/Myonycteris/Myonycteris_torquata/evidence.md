@@ -9,7 +9,6 @@ records:
     name:
       zh: Myonycteris torquata
       en: Myonycteris torquata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

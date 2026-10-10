@@ -9,7 +9,6 @@ records:
     name:
       zh: Invictokoala
       en: Invictokoala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

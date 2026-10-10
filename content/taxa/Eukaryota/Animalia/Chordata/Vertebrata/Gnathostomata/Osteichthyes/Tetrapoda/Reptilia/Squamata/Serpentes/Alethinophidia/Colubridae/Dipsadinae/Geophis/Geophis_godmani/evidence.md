@@ -9,7 +9,6 @@ records:
     name:
       zh: Geophis godmani
       en: Geophis godmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

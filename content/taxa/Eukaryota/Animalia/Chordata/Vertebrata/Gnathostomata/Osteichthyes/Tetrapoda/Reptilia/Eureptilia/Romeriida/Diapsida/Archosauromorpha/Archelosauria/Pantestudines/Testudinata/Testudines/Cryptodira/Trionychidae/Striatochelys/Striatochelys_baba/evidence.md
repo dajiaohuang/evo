@@ -9,7 +9,6 @@ records:
     name:
       zh: Striatochelys baba
       en: Striatochelys baba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

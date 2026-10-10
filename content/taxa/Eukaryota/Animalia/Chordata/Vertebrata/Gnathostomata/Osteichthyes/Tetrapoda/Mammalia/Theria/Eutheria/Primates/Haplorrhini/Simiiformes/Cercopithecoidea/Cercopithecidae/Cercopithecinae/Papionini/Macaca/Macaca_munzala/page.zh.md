@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-未经过外部领域专家评审。两项人口史均是同一暂定种群的模型结果，不是普查或全物种重建；古代有效种群数不能直接当作当代个体数。
+。两项人口史均是同一暂定种群的模型结果，不是普查或全物种重建；古代有效种群数不能直接当作当代个体数。
 <!-- /evo:text -->

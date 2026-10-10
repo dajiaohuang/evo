@@ -9,7 +9,6 @@ records:
     name:
       zh: Microlophus koepckeorum
       en: Microlophus koepckeorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorocichla
       en: Chlorocichla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

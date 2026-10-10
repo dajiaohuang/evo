@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus kangerensis
       en: Hemidactylus kangerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

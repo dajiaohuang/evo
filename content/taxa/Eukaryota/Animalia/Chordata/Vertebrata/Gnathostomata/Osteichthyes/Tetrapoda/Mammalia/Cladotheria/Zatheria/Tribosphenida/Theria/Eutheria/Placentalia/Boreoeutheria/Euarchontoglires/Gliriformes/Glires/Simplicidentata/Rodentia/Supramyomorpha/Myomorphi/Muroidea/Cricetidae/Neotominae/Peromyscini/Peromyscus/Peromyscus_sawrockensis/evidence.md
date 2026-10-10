@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus sawrockensis
       en: Peromyscus sawrockensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Septentrogon madseni
       en: Septentrogon madseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

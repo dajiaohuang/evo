@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne hageni
       zh: Choerophryne hageni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

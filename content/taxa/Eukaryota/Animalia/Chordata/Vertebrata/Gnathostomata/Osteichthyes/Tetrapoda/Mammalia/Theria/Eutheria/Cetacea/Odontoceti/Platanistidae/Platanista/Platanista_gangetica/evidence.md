@@ -9,7 +9,6 @@ records:
     name:
       zh: Platanista gangetica
       en: Platanista gangetica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

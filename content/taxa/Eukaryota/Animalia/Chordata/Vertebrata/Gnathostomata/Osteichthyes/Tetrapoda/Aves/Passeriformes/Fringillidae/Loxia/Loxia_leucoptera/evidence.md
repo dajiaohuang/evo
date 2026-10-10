@@ -9,7 +9,6 @@ records:
     name:
       zh: Loxia leucoptera
       en: Loxia leucoptera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

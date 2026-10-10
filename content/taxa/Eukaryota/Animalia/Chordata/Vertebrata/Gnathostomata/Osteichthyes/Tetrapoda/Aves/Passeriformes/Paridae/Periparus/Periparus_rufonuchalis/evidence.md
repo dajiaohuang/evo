@@ -9,7 +9,6 @@ records:
     name:
       zh: Periparus rufonuchalis
       en: Periparus rufonuchalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

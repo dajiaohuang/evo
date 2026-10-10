@@ -9,7 +9,6 @@ records:
     name:
       zh: Trilaccogaulus lemhiensis
       en: Trilaccogaulus lemhiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

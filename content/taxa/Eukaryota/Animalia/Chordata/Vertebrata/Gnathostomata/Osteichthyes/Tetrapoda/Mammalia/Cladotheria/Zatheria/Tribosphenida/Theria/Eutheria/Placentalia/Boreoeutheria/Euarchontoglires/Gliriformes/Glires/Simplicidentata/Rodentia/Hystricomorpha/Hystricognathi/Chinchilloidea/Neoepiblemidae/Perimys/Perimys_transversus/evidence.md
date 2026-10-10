@@ -9,7 +9,6 @@ records:
     name:
       zh: Perimys transversus
       en: Perimys transversus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

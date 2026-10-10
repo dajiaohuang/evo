@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudonaja nuchalis
       en: Pseudonaja nuchalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

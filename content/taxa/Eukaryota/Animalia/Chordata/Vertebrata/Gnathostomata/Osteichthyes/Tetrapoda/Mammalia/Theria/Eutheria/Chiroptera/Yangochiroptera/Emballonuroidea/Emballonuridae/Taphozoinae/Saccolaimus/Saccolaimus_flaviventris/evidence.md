@@ -9,7 +9,6 @@ records:
     name:
       zh: Saccolaimus flaviventris
       en: Saccolaimus flaviventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

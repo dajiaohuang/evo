@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodon leptognathus
       en: Pterodon leptognathus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

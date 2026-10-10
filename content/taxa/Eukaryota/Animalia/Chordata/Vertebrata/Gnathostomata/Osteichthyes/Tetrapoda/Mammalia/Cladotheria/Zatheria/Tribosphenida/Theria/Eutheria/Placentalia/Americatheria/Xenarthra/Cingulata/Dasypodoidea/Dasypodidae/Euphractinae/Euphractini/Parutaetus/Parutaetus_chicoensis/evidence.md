@@ -9,7 +9,6 @@ records:
     name:
       zh: Parutaetus chicoensis
       en: Parutaetus chicoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

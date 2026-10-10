@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaoyangodens lii
       en: Chaoyangodens lii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

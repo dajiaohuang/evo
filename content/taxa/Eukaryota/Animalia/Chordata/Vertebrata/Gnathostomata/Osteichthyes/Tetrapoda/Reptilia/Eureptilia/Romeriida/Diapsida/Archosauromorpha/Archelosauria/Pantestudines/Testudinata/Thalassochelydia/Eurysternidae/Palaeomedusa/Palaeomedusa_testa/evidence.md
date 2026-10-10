@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeomedusa testa
       en: Palaeomedusa testa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

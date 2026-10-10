@@ -9,7 +9,6 @@ records:
     name:
       zh: Lipinia sekayuensis
       en: Lipinia sekayuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

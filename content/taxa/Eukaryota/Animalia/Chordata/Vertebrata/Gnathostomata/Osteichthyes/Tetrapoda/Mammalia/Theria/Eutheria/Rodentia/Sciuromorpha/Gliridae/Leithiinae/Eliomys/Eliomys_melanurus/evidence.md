@@ -9,7 +9,6 @@ records:
     name:
       zh: Eliomys melanurus
       en: Eliomys melanurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

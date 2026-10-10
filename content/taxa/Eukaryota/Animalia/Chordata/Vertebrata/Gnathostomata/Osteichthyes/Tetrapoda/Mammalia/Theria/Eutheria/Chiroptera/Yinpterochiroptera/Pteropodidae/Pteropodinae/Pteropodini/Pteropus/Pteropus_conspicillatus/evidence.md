@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus conspicillatus
       en: Pteropus conspicillatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

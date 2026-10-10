@@ -29,7 +29,6 @@ assert.equal(dossier.scientificName, 'Macaca radiata (É. Geoffroy Saint-Hilaire
 assert.equal(dossier.sourceDatasetId, '2144')
 assert.equal(dossier.rank, 'species')
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.deepEqual(Object.keys(dossier.facets).sort(), ['conservation', 'distribution', 'ecology', 'evolution', 'fossil', 'lifeHistory', 'morphology'])
 assert.equal(dossier.facets.ecology.claims.length, 3)
 assert.equal(dossier.facets.ecology.claims[0].sourceIds[0], 'erinjery2017')

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nanodelphys huntii
       en: Nanodelphys huntii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

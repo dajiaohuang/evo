@@ -168,7 +168,7 @@ const references = [
     version: 'Published 2022-03-31',
     sourceRole: 'primary-study',
     fitnessFor: ['ecology', 'biogeography', 'methods'],
-    metadataAssignment: 'curator-reviewed',
+
     note: 'Primary analysis of Brazilian Ministry of Health passive surveillance from 2008 to 2020 and a presence-based habitat-suitability model. Reported cases, observed localities and modeled suitability are distinct evidence; none is a species-wide census or complete range inventory. Article text is item-level verified CC BY 4.0.',
   },
   {
@@ -184,7 +184,7 @@ const references = [
     version: 'Published 2021-04-06',
     sourceRole: 'primary-study',
     fitnessFor: ['topology', 'geochronology', 'biogeography'],
-    metadataAssignment: 'curator-reviewed',
+
     note: 'Primary Callithrix mitogenomic study combining 49 newly sequenced mitogenomes with published sequences. The approximately 0.51 Ma estimate concerns sampled mitochondrial lineages under the study model, not a nuclear-genome species tree or definitive species-origin date. Article text is item-level verified CC BY 4.0.',
   },
 ]
@@ -209,9 +209,9 @@ const claims = [
     statement: taxonomyStatement,
     confidence: 'medium',
     confidenceRationale: 'The pinned COL26.8 source explicitly records accepted usage 697NS and its classification path. The claim reproduces checklist identity and does not use it as an evolutionary hypothesis.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115; accepted usage 697NS, source dataset 2144 checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted species usage 697NS; classification path only' }],
   },
   {
@@ -222,9 +222,9 @@ const claims = [
     statement: geographyStatement,
     confidence: 'medium',
     confidenceRationale: 'The article describes a bounded presence-only occurrence compilation and keeps modeled suitability separate from records. Native and introduction labels follow the authors and do not define complete range limits.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Benavides et al. 2022 DOI 10.1371/journal.pntd.0010254; occurrence results checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: benavidesReferenceId, relation: 'supports', quoteLocator: benavidesRangeAudit.locator }],
   },
   {
@@ -235,9 +235,9 @@ const claims = [
     statement: surveillanceStatement,
     confidence: 'high',
     confidenceRationale: 'The authors report official passive-surveillance totals and municipality counts. These values describe reported outbreaks through October 2020, not infection prevalence, abundance or a range-wide population trend.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Benavides et al. 2022 DOI 10.1371/journal.pntd.0010254; abstract and results checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: benavidesReferenceId, relation: 'supports', quoteLocator: benavidesAudit.locator }],
   },
   {
@@ -248,9 +248,9 @@ const claims = [
     statement: divergenceStatement,
     confidence: 'medium',
     confidenceRationale: 'The paper estimates divergence between sampled mitochondrial lineages under a stated sampling design and model. This cannot establish a nuclear species-tree date or a definitive species-origin date.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Malukiewicz et al. 2021 DOI 10.1186/s12864-021-07533-1; abstract and results checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: malukiewiczReferenceId, relation: 'supports', quoteLocator: evolutionAudit.locator }],
   },
 ]

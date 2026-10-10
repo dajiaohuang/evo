@@ -22,5 +22,5 @@ Ten samples from the two sites formed a distinct lineage in the mitochondrial da
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a taxonomic guide based on ten samples and two sites, not a complete range or behavioural review. The Chinese common name is editorial; the page is not externally expert-reviewed.
+This is a taxonomic guide based on ten samples and two sites, not a complete range or behavioural review. The Chinese common name is editorial.
 <!-- /evo:text -->

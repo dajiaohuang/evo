@@ -22,5 +22,5 @@ The assessment lists only one diet study, of a group in an urban forest fragment
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Diet evidence comes from one group in an urban fragment; the Brazilian assessment reports inconsistent range-area figures, which this page does not use to infer range size or population abundance. The Chinese name is editorial; this guide is not externally expert-reviewed.
+Diet evidence comes from one group in an urban fragment; the Brazilian assessment reports inconsistent range-area figures, which this page does not use to infer range size or population abundance. The Chinese name is editorial; this guide is.
 <!-- /evo:text -->

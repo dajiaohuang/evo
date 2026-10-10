@@ -9,7 +9,6 @@ records:
     name:
       en: Paradoxophyla tiarano
       zh: Paradoxophyla tiarano
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

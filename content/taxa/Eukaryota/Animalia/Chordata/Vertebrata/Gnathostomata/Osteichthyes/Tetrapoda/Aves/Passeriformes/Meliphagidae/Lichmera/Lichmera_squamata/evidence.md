@@ -9,7 +9,6 @@ records:
     name:
       zh: Lichmera squamata
       en: Lichmera squamata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

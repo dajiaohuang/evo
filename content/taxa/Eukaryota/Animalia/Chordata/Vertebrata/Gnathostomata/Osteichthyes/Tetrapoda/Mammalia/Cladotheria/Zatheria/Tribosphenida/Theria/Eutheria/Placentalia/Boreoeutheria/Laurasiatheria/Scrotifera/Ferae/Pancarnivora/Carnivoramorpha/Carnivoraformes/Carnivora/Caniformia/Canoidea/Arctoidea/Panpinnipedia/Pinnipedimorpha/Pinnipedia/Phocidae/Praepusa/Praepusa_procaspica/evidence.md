@@ -9,7 +9,6 @@ records:
     name:
       zh: Praepusa procaspica
       en: Praepusa procaspica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

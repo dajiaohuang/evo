@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus angel
       en: Stenocercus angel
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

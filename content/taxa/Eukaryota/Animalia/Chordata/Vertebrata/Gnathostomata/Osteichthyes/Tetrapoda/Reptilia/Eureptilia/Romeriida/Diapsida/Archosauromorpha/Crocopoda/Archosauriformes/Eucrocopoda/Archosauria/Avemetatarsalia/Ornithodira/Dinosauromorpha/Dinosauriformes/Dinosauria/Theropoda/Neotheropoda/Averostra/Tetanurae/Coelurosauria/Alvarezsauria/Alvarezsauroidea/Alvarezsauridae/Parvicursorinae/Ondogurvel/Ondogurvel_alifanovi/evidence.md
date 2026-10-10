@@ -9,7 +9,6 @@ records:
     name:
       zh: Ondogurvel alifanovi
       en: Ondogurvel alifanovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

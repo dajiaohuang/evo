@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyramicephalosaurus cherminicus
       en: Pyramicephalosaurus cherminicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

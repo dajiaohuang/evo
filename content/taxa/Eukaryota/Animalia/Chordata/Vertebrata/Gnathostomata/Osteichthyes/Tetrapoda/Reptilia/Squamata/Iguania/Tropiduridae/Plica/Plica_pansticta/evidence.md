@@ -9,7 +9,6 @@ records:
     name:
       zh: Plica pansticta
       en: Plica pansticta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

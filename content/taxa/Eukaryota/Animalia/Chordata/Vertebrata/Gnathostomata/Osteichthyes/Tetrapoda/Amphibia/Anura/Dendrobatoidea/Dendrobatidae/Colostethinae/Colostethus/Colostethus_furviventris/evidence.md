@@ -9,7 +9,6 @@ records:
     name:
       en: Colostethus furviventris
       zh: Colostethus furviventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

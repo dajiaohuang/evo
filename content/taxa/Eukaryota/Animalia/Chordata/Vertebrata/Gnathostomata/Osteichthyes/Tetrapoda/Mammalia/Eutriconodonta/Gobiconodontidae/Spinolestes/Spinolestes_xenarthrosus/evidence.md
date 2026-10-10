@@ -9,7 +9,6 @@ records:
     name:
       zh: Spinolestes xenarthrosus
       en: Spinolestes xenarthrosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

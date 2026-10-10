@@ -9,7 +9,6 @@ records:
     name:
       zh: Myioborus albifacies
       en: Myioborus albifacies
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

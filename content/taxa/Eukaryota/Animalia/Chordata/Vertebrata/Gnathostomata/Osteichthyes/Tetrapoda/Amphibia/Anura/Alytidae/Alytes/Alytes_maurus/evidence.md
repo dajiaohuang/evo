@@ -9,7 +9,6 @@ records:
     name:
       en: Alytes maurus
       zh: Alytes maurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

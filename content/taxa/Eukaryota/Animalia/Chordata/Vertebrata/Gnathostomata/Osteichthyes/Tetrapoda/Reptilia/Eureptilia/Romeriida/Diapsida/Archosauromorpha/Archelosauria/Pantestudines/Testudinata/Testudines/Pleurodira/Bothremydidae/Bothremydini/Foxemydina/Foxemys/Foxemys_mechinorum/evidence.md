@@ -9,7 +9,6 @@ records:
     name:
       zh: Foxemys mechinorum
       en: Foxemys mechinorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Microenantiornis vulgaris
       en: Microenantiornis vulgaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

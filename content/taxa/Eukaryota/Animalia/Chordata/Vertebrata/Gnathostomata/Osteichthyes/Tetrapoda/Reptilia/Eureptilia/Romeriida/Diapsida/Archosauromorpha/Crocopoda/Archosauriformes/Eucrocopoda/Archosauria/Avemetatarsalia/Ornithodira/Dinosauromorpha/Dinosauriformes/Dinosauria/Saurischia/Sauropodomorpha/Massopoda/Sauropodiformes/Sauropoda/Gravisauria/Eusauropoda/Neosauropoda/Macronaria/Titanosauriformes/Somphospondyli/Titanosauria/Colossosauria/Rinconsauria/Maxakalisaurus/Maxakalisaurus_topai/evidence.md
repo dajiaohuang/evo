@@ -9,7 +9,6 @@ records:
     name:
       zh: Maxakalisaurus topai
       en: Maxakalisaurus topai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

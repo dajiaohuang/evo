@@ -9,7 +9,6 @@ records:
     name:
       en: Pygmy Tarsier
       zh: 侏儒眼镜猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: habitat

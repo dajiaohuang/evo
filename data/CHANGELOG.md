@@ -86,7 +86,7 @@
   and leaves habit, unknown habitat values, and cross-species duplicate
   morphology text out of biological claims. Duplicate text affecting 1,048
   species is separately hashed for review. Dataset rights remain
-  aggregate-declaration-only; complete dossier and external review counts stay
+  aggregate-declaration-only; complete dossier counts stay
   at zero. The full queue and dossier archive remain outside App native-core
   and GitHub Pages preview, which share the same curated selection including
   Primates.
@@ -158,7 +158,7 @@
 - Added 31 source-linked bilingual catalogue introductions for Perissodactyla:
   one order, all three families, eight genera and 19 accepted species entries.
   Domestic forms, changed tapir combinations and source scope remain explicit.
-  These introductory accounts do not claim complete dossiers or expert review.
+  These introductory accounts do not claim complete dossiers.
 - Built content availability and descendant coverage across all 2,429,092 nodes,
   including 1,607 orders and 2,183,133 accepted species. The 14 imported text
   collections now resolve to 80,838 distinct accepted species. Every content ID
@@ -174,7 +174,7 @@
 - Corrected the GOBE review DOI and the 2016 coelacanth paper title; reconciled
   four stale claim audit markers with their actual supporting references.
 - Rebuilt package references, registry projections and checksums from canonical
-  inputs. Scientific statements, source archives and human review states are
+  inputs. Scientific statements and source archives are
   unchanged; the coelacanth locator now identifies the correct outgroup study.
 - Added explicit full-match aggregates to query exports, preserved quoted SQL
   text, and reduced terrain color allocations with byte-identical image output.
@@ -192,7 +192,7 @@
   Reading text and touch controls are enlarged within the existing shell.
 - This envelope advances automated version stamps and delivery metadata;
   scientific claims, source archives, release-scoped authority ownership,
-  uncertainty and human review states are unchanged. The active registry
+  uncertainty are unchanged. The active registry
   remains COL26.8; the separate COL26.9 comparison remains available.
 
 ## 2026.09-static-v5-rc147 — 2026-09-22
@@ -201,7 +201,7 @@
   reproducible record comparison against COL26.8. The active species registry,
   package ownership, authority row data and scientific assertions remain on
   their existing source snapshots. The release envelope and automated version
-  stamps advance without promoting human review.
+  stamps advance.
 - Published bilingual comparison pages with exact-release source links,
   explicit unresolved correspondence, and 31 downloadable, deterministic
   difference shards. Two full archive runs produced identical output bytes.
@@ -281,7 +281,7 @@
 - Added 65,139 attributed SANBI e-Flora South Africa descriptions for 15,211 uniquely linked accepted COL species. The full-Web catalogue generates 256 lazy hash-routed shards; Pages preview does not receive this full collection. Original English morphology, diagnostic and habitat text, publication citations and source row locators remain distinct from synthesized Evo claims and global species dossiers. Source is regional v1.36 (2022), not a current global biological census.
 
 - Added specimen-bounded Eocursor jaw and tooth morphology, study-bounded Edmontosaurus cranial variation, and the topology-dependent horsetail size and strobilus trend. These additions distinguish observed anatomy from evolutionary interpretation and do not supply global fossil ranges.
-- Completed Chinese statement mappings for the 1,281 claims present at the translation checkpoint; later additions include both statement and rationale translations. Translation coverage is not worldwide species-description coverage or expert review.
+- Completed Chinese statement mappings for the 1,281 claims present at the translation checkpoint; later additions include both statement and rationale translations. Translation coverage is not worldwide species-description coverage.
 - Added source-bounded morphology evidence for Araneae, Coleoptera, Caudata, Myxini, Calcarea, Homoscleromorpha, Bryophyta and Anthocerotophyta. Fossil and living examples retain their specimen or sampling scope rather than being generalized to every member of their navigation group.
 - Added Gazave et al. (2010) as primary support for spiculate versus aspiculate homoscleromorph groups. Kept this skeletal distinction separate from fossil dating and from the later formal class-rank proposal.
 - Aligned the Life navigation caveat with its existing 3.7 Ga sampled biosignature boundary; this is not a date for abiogenesis or LUCA. Refreshed affected package projections and the entity registry without an application rebuild.
@@ -304,14 +304,13 @@
 
 - Replaced the generic Fanjingshania navigation introduction with its source-linked formation, approximate age, holotype identifier and isolated-material count. Ecology remains unknown; this is not a new complete biological profile.
 
-- Corrected the Pimiento and Clements (2014) megalodon extinction-analysis interval from 3.6–2.6 Ma to its reported oldest inferred date of 3.5 Ma and modal estimate of 2.6 Ma. Updated the Chinese statement and source locator. This historical study-specific interval is not a complete species range, exact last appearance, or the revised estimate of later studies; no expert-review status was promoted.
+- Corrected the Pimiento and Clements (2014) megalodon extinction-analysis interval from 3.6–2.6 Ma to its reported oldest inferred date of 3.5 Ma and modal estimate of 2.6 Ma. Updated the Chinese statement and source locator. This historical study-specific interval is not a complete species range, exact last appearance, or the revised estimate of later studies.
 
 ## 2026.09-static-v5-rc145 — 2026-09-05
 
 - Added the pinned Systema Dipterorum source projection: 157,490 COL records and 23,513 separate source-only records across 93 full-data shards. All 180,792 selected source species remain represented; ambiguous matches do not imply species identity.
 - Exposed Diptera source evidence on its exact lineage and retained visible missing-parent exceptions without inventing classification.
 - Kept Pages summary-only for this collection. Measured source footprint 1007.72 MiB and mobile resources 854.97 MiB; adjusted repository budgets to 1020/860 MiB while retaining the independent 650 MiB Pages limit.
-- No expert-review status or original source status was promoted.
 
 ## 2026.09-static-v5-rc144 — 2026-09-05
 
@@ -329,7 +328,7 @@
 
 - Added the pinned Reptile Database / ChecklistBank dataset 1008 original archive: 12,622 exact COL matches in turtles-lepidosaurs, 27 in Crocodylia and one separate null-COL source-only record. The two projections are disjoint; birds, dinosaur coverage and fossil occurrence evidence remain outside scope. Recently extinct taxa in the source are retained; accepted names and empty extinction fields do not imply living organisms.
 - Registered all 18 deterministic row shards in the existing rich-package nomenclature delivery: Android and iOS receive the complete 12,650-row projection; the lightweight Web profile retains summaries and canonical inventories without those payloads.
-- Preserved raw `cc by` attribution without inferring a license version. API metadata has no version DOI; the archive separately records `10.48580/d37s.v31`. These exact nomenclatural links are not species-concept equivalence or independent expert review. See [source scope and reproduction](../docs/reptiledb-original-source-rc134.md).
+- Preserved raw `cc by` attribution without inferring a license version. API metadata has no version DOI; the archive separately records `10.48580/d37s.v31`. These exact nomenclatural links are not species-concept equivalence. See [source scope and reproduction](../docs/reptiledb-original-source-rc134.md).
 
 ## 2026.09-static-v5-rc141 — 2026-09-05
 
@@ -410,7 +409,7 @@
 - Added frozen original-source projections for 3,000 Ascidiacea, 6,508 Turbellaria-source and 2,467 Rotifer World Catalogue COL records: 11,960 exact accepted-name matches, 15 unmatched and 30 separately retained source-only concepts. No globally new species or species-concept equivalence is claimed; the 2,183,133-species COL baseline is unchanged.
 - Corrected source scope before publication: the Ascidiacea projection excludes 146 other Tunicata records, while the Turbellaria source projection includes 39 source-owned species outside its originally selected subphylum roots. Turbellaria is the source's traditional grouping, not a claim of modern monophyly.
 - All 14 new compressed row files (2,152,610 bytes) remain within 2 MiB uncompressed per file. Full-data delivery includes every row; Pages retains summaries only. Original citations and row locators remain outside the resident tree.
-- Added no compatibility layer or content-validation framework. Fixed isolated output roots, pinned source-script line endings for cross-platform ledgers, and extended existing replay/native inventory tests. App version, native build number, storage allowances and human review status are unchanged. See [scope and reproduction](../docs/original-sources-rc118.md).
+- Added no compatibility layer or content-validation framework. Fixed isolated output roots, pinned source-script line endings for cross-platform ledgers, and extended existing replay/native inventory tests. App version, native build number, storage allowances are unchanged. See [scope and reproduction](../docs/original-sources-rc118.md).
 
 ## 2026.09-static-v5-rc117 — 2026-09-05
 
@@ -423,12 +422,12 @@
 
 - Resolved 28 CilCat, seven Eumycetozoa and one Gymnodinium previously unmatched COL names using frozen official COL-to-source relations and actual accepted source records. Original spelling and authorship differences remain explicit; these are not fuzzy matches or independent scientific corroboration.
 - Resolved four ambiguous Ochrophyta ITIS candidates using the exact ITIS TSN links in frozen COL name records. Competing candidates remain evidence; the links are not mislabelled as COL contributor-source relations.
-- All 8,505 CilCat, 1,337 Eumycetozoa, 259 Gymnodinium and 1,101 scoped Ochrophyta records now have accepted source links. Unlinked source records remain separate: 27 CilCat, eight Eumycetozoa archive IDs and 2,298 ITIS Ochrophyta records. No new globally unique species or expert review is claimed.
+- All 8,505 CilCat, 1,337 Eumycetozoa, 259 Gymnodinium and 1,101 scoped Ochrophyta records now have accepted source links. Unlinked source records remain separate: 27 CilCat, eight Eumycetozoa archive IDs and 2,298 ITIS Ochrophyta records. No new globally unique species is claimed.
 - Preserved source responses and offline regeneration inputs. App/native build numbers are unchanged. Future storage and client work prioritizes large-tree capacity and measured performance without backward-format compatibility requirements; dataset revision labels record content provenance, not a compatibility promise.
 
 ## 2026.09-static-v5-rc115 — 2026-09-04
 
-- Added frozen original-source projections for 8,505 CilCat, 1,337 Eumycetozoa and 259 Gymnodinium COL26.8 species records. Strict name/authorship outcomes are 8,477/1,330/258 accepted matches and 28/7/1 unmatched names respectively. These contributor archives trace COL's sources; they are not independent scientific corroboration, new species dossiers or expert review.
+- Added frozen original-source projections for 8,505 CilCat, 1,337 Eumycetozoa and 259 Gymnodinium COL26.8 species records. Strict name/authorship outcomes are 8,477/1,330/258 accepted matches and 28/7/1 unmatched names respectively. These contributor archives trace COL's sources; they are not independent scientific corroboration, new species dossiers.
 - Retained all 55 unlinked accepted CilCat source rows separately, including 28 that are candidates of unresolved COL names. One unlinked Gymnodinium source spelling likewise remains separate. These counts are scoped unlinked source records, not globally unique additions to COL's 2,183,133 accepted species. The Eumycetozoa ledger discloses 15 unlinked source rows without claiming new species; 81 provisional CilCat rows remain excluded.
 - Kept original reference IDs, source-table locators, empty fields and explicit missing bibliography records. Each importer uses its actual frozen archive and supports offline, byte-identical regeneration; the Eumycetozoa archive is correctly identified as ZIP rather than tar/gzip.
 - Reused existing extension manifests for summary-only light delivery and complete full-data inventories. App version and native build numbers remain unchanged: frontend/backend infrastructure work uses independently verified data baselines, with milestone integration rather than compulsory synchronization for every content batch. No new validation system was added.
@@ -440,13 +439,13 @@
 - All 90 ITIS-only records and their deterministic gzip bytes remain unchanged. No COL root, additional species coverage, biological dossier or scientific-review status is inferred.
 - Refreshed dependent source manifests for lightweight Pages summaries and complete Android/iOS build `68` data. The existing Haptophyta regression now checks resolvable input provenance and output bytes; no new validation framework is introduced.
 - Added an offline-reproducible projection for all 96 strict accepted COL source-1033 Ichthyosporea records from the pinned October 2017 Trichomycetes archive. Each retains exact source name/authorship, accepted identifier, historical classification and its nomenclatural reference with archive row locators; 66 empty bibliography titles remain empty. The archive's 287 Fungi and two other Protozoa rows are excluded.
-- The new 96-record shard is complete in native data and summary-only on Pages. It adds source traceability, not new COL species, independent scientific corroboration, biological dossiers or expert review. See [source scope and reproduction](../docs/trichomycetes-archive.md).
+- The new 96-record shard is complete in native data and summary-only on Pages. It adds source traceability, not new COL species, independent scientific corroboration, biological dossiers. See [source scope and reproduction](../docs/trichomycetes-archive.md).
 
 ## App 0.20.64 / 2026.09-static-v5-rc113 — 2026-09-04
 
 - Added collapsed species-page ITIS details for Amphibia, Collembola/Protura, all 28 existing OtherAnimals scopes and the eight Protist scopes with COL records. Exact owner and lineage boundaries are preserved; Oomycota uses the existing 1,494-record four-order projection, not the entire phylum.
 - Added an opt-in ITIS browser to the data registry. Native users can select a package, collection, COL/source-only partition and one file, then page or search within that file. This also exposes the separate Fungi and Bacteria ITIS collections and source-only Protist scopes that cannot be attached to a COL species page. Web remains summary-only; empty scopes remain explicitly empty.
-- Source-only records remain separate from COL ownership and are not counted as globally unique additional species. ITIS does not substitute for Index Fungorum or LPSN. This release adds no scientific rows, validation framework or expert-review claims. Android and iOS advance to build `67`, retaining the complete native data; the Species Fungorum Oomycota snapshot gap remains open.
+- Source-only records remain separate from COL ownership and are not counted as globally unique additional species. ITIS does not substitute for Index Fungorum or LPSN. This release adds no scientific rows, validation frameworks. Android and iOS advance to build `67`, retaining the complete native data; the Species Fungorum Oomycota snapshot gap remains open.
 
 ## App 0.20.63 / 2026.09-static-v5-rc112 — 2026-09-04
 
@@ -459,14 +458,14 @@
 - Added default-collapsed ITIS source details for Chondrichthyes and Chelicerata, reusing the existing Myriapoda disclosure. Exact lineage and package scopes retain the Trilobita and Euthycarcinoidea exclusions. Pages loads summaries only; native lookups load one matching COL-ID shard.
 - Fixed the Oomycota ITIS reader's stale 1,426-row contract to match the existing four-order projection: 1,494 COL outcomes and 42 separate source-only records. The underlying source data are unchanged.
 - Investigated the planned 1,673-species Species Fungorum Oomycota projection. Available frozen archives lack the necessary source closure; two live API samples resolve names but do not establish a complete redistributable snapshot. No withheld-only placeholder projection or additional source coverage is claimed. See [source findings and remaining gap](../docs/sources/species-fungorum-live-api-oomycota-gap.md).
-- Android and iOS build `65` retain all existing full-native data. This batch changes source access and documents a data gap, not the strict COL baseline, biological dossiers, fossil coverage or human-review status.
+- Android and iOS build `65` retain all existing full-native data. This batch changes source access and documents a data gap, not the strict COL baseline, biological dossiers, fossil coverage.
 
 ## App 0.20.61 / 2026.09-static-v5-rc110 — 2026-09-04
 
 - Fixed the ITIS Myriapoda comparison boundary: COL places Chilopoda at a separate `93` root rather than under `L2G4H`. All 3,141 previously omitted COL records now have explicit outcomes: 2,864 accepted matches, 58 official synonym redirects, 15 ambiguous and 204 unmatched. The original 14,210 records remain unchanged.
 - Repartitioned the existing ITIS evidence without a new source download: Myriapoda now contains 17,351 COL outcomes and 544 source-only records in four shards. Ambiguous candidate targets remain evidence, not confirmed species-concept equivalence.
 - Added the frozen WoRMS Radiozoa projection for all 444 scoped COL records, with 54 separate source-only accepted concepts. Its two shards total 23,103 compressed bytes. COL's Polycystina source also derives from WoRMS, so this is not independent scientific corroboration.
-- Android and iOS build `64` include every resulting shard. Pages keeps lightweight summaries; a new collapsed Myriapoda disclosure exposes the existing lookup API for both Myriapoda and the separate Chilopoda lineage. See [arthropod scope and counts](../docs/itis-arthropods-authority.md) and [Radiozoa provenance](../docs/worms-radiozoa-archive.md). No biological dossiers, fossil coverage or human-review status are promoted.
+- Android and iOS build `64` include every resulting shard. Pages keeps lightweight summaries; a new collapsed Myriapoda disclosure exposes the existing lookup API for both Myriapoda and the separate Chilopoda lineage. See [arthropod scope and counts](../docs/itis-arthropods-authority.md) and [Radiozoa provenance](../docs/worms-radiozoa-archive.md). No biological dossiers, fossil coverage are promoted.
 
 ## App 0.20.60 / 2026.09-static-v5-rc109 — 2026-09-04
 
@@ -478,7 +477,7 @@
 ## App 0.20.59 / 2026.09-static-v5-rc108 — 2026-09-04
 
 - Fixed resource-pack rebuilding so the COL baseline and targeted authority generators preserve independent sources instead of replacing their shared directories or extension lists.
-- Retained separate source-only partitions, source attribution and existing scientific interpretation. The strict COL species total and human-review status are unchanged.
+- Retained separate source-only partitions, source attribution and existing scientific interpretation. The strict COL species total are unchanged.
 - Pages stays lightweight; Android and iOS build `62` retain the full inventory. See [rebuild ownership and reproduction](../docs/resource-pack-rebuilds.md).
 
 ## App 0.20.58 / 2026.09-static-v5-rc107 — 2026-09-04
@@ -486,7 +485,7 @@
 - Added a separate WoRMS Annelida archive projection for all 18,982 strict accepted COL species in that scope, with explicit matching outcomes and a distinct source-only accepted partition. The existing COL and ITIS records remain separate and unchanged.
 - Kept Other Animals' mixed-package boundary explicit: the remaining 80,179 COL species are outside this source scope. Source-only names do not become extra COL species or a claimed deduplicated union of all authorities.
 - Pages exposes summary metadata without the new row shards; Android and iOS build `61` retain the complete native-full inventory and on-demand independent-source lookup. Detailed source controls remain collapsed by default.
-- See [source provenance and interpretation](../docs/worms-annelida-archive.md). No fossil content, rich-profile maturity or human-review status is promoted.
+- See [source provenance and interpretation](../docs/worms-annelida-archive.md). No fossil content, rich-profile maturity is promoted.
 
 ## App 0.20.57 / 2026.09-static-v5-rc106 — 2026-09-04
 
@@ -501,12 +500,12 @@
 - Retained separate source-only accepted concepts with null COL ownership. Only minimal name, status, identifier and source-row projections are redistributed; original archives, media, distribution and literature members are not bundled.
 - Added a default-collapsed source disclosure on the corresponding catalogue species pages. Native clients load one COL interval on demand and offer separate source-only browsing; Pages publishes source summaries and file inventories without the new row shards.
 - Fixed catalogue and PaleoDEM worker data URLs to resolve native `./data` against the document before dispatch. Previously workers under `assets/` requested `assets/data/`, so files could be correctly bundled yet catalogue pages and terrain still failed to load.
-- Android and iOS advance to build `59` / app `0.20.56`, retaining complete `native-full` content and unchanged size limits. Catalogue ownership, 403 source-linked navigation descriptions, 127 profiles, 312 scenes and human-review status remain unchanged. See [archive provenance and boundaries](../docs/authority-archives-rc105.md).
+- Android and iOS advance to build `59` / app `0.20.56`, retaining complete `native-full` content and unchanged size limits. Catalogue ownership, 403 source-linked navigation descriptions, 127 profiles, 312 scenes remain unchanged. See [archive provenance and boundaries](../docs/authority-archives-rc105.md).
 
 ## App 0.20.55 / 2026.09-static-v5-rc104 — 2026-09-04
 
 - Replaced boilerplate-first descriptions for all 403 navigation nodes with a complete, directly linked scientific claim and its existing Chinese translation. Selection prefers taxonomy and morphology before other evidence types and is stable by claim ID within a type.
-- Kept the original uncertainty wording, supporting references and a short navigation/non-dossier boundary. This exposes existing evidence on first selection; it adds no new scientific assertions, species dossiers, phylogenies or human-review decisions.
+- Kept the original uncertainty wording, supporting references and a short navigation/non-dossier boundary. This exposes existing evidence on first selection; it adds no new scientific assertions, species dossiers, phylogenies.
 - Retained 127 narrative profiles, 312 scenes, 513 scene-to-claim links and 258 age-driven routes. Catalogue coverage is unchanged and must not be confused with these educational-node descriptions.
 - Android and iOS advance to build `58` / app `0.20.55` with the complete native data; Pages stays `web-light` under the existing capacity gate.
 
@@ -806,7 +805,7 @@
 - Added the current ICTV Master Species List `MSL41.v1` and corrected Virus Metadata Resource `VMR_MSL41.v1.20260729` as a fixed, reproducible CC BY 4.0 extension to the COL26.8 Viruses nomenclatural pack. Both official workbooks are pinned by filename, release date, DOI, byte count, SHA-256, Zenodo MD5, ETag and Last-Modified; the superseded erroneous 2026-07-21 VMR is explicitly excluded.
 - Resolved all 17,552 COL26.8 virus species by one exact, case-sensitive current species name and the unique ICTV ID shared by MSL and VMR. Redirect, ambiguous, unmatched and withheld partitions are all zero. `Boscovirus hypoboscidae` and `Simiispumavirus macfas`, the two current ICTV species absent from the COL26.8 accepted shard, remain explicit upstream-only records with null COL IDs rather than invented mappings.
 - Published all 17,554 current ICTV species and 19,285 VMR rows (17,554 exemplar viruses and 1,731 additional isolates) through the same manifest, Viruses ZIP, Web offline inventory and Android/iOS full-data bundle. The original 17,552-row COL species shard, rc59 WoRMS collection, Bacteria/Archaea LPSN extensions and compact PBDB gzip sources remain unchanged. Android `versionCode` and iOS build number advance to `14`.
-- Kept the interpretation boundary explicit: ICTV taxonomy and virus metadata do not establish that viruses are cellular life, independently revalidate every GenBank accession or create fossil, morphology, ecology, distribution, phylogeny, media or expert-review dossiers.
+- Kept the interpretation boundary explicit: ICTV taxonomy and virus metadata do not establish that viruses are cellular life, independently revalidate every GenBank accession or create fossil, morphology, ecology, distribution, phylogeny, media.
 - Corrected the release-history promise after #124: deployments attempt to retain at most two prior datasets, subject to the configured retention byte budget, and only versions listed in the deployed `data/releases.json` are guaranteed reachable. rc58 is not rebuilt or represented as retained when its roughly 598.6 MiB release cannot fit the 400 MiB history-fetch budget; the Pages budget is not increased and long-term shared content-addressed history remains unresolved.
 
 ## App 0.20.10 / 2026.08-static-v5-rc59 — 2026-08-31
@@ -824,7 +823,7 @@
 ## App 0.20.8 / 2026.08-static-v5-rc57 — 2026-08-31
 
 - Added a deterministic, release-pinned LPSN identifier extension for all 790 COL26.8 Archaea species. Each record follows immutable ChecklistBank dataset `316115` and source dataset `2015` to one specific LPSN page from source version `2026-07-26`; the canonical 2026-08-31 snapshot records every exact response SHA-256 and an aggregate request-ledger hash.
-- Kept the original 790-species shard, accepted-species totals, hierarchy, claims, profiles, stories, phylogenies, fossils and media unchanged. The separately licensed CC BY-SA 4.0 sidecar is identifier-level nomenclatural linkage, not an inferred dossier, ecology, genome, strain, fossil, media, phylogeny or expert-review claim.
+- Kept the original 790-species shard, accepted-species totals, hierarchy, claims, profiles, stories, phylogenies, fossils and media unchanged. The separately licensed CC BY-SA 4.0 sidecar is identifier-level nomenclatural linkage, not an inferred dossier, ecology, genome, strain, fossil, media, phylogeny.
 - Published the same 8,116-byte LPSN shard through the runtime manifest, Archaea ZIP, Web offline save and complete Android/iOS release inventory. Catalogue pages load it lazily only for Archaea species and expose the specific source page with the pinned version, retrieval date, license and evidence boundary. Android `versionCode` and iOS build number advance to `11`.
 
 ## App 0.20.7 / 2026.08-static-v5-rc56 — 2026-08-31
@@ -837,7 +836,7 @@
 
 - Replaced the twenty-three claim-free research scaffolds with explicit package-local evidence presets. All twenty-four rich-content packages now publish `available-with-limitations` research examples with 34 claim links: one new locator-bearing claim in each non-Perissodactyla package and the unchanged eleven-claim Perissodactyla comparison preset.
 - Kept the evidence boundary explicit: preset routes do not establish exact origins, global first or last appearances, crown ages, continuous lineage durations, direct ancestry, causal mechanisms or package phylogenies. Historical navigation groups remain navigation concepts rather than inferred monophyletic clades.
-- Preserved the existing two available phylogeny hypotheses and twenty-two `unmapped` package states, plus every claim, profile and story statement. Regenerated the shared Web/Android/iOS projections and advanced Android `versionCode` and iOS build number to `9`; no automated check creates maintainer or external-expert review.
+- Preserved the existing two available phylogeny hypotheses and twenty-two `unmapped` package states, plus every claim, profile and story statement. Regenerated the shared Web/Android/iOS projections and advanced Android `versionCode` and iOS build number to `9`; no automated check creates maintainer.
 
 ## App 0.20.5 / 2026.08-static-v5-rc54 — 2026-08-31
 
@@ -873,14 +872,14 @@
 - Replaced the final nine legacy period-prefix package ledgers with the same source-bounded, fully paginated PBDB `base_id` contract used by the rest of the Atlas. All 24 packages now publish schema-v2 targeted snapshots.
 - Recorded 149 complete subqueries across 299 pages, 898,460 overlapping subquery rows and 568,983 package-unique occurrence IDs. Kept 95,422 deterministic bounded details for display and preserved every complete-query ID list, terminal-page observation and checksum.
 - Explicitly withheld 243 historical-grade, unreconciled, name/rank-incompatible, review-gated or over-100,000-row targets instead of treating them as zero-occurrence concepts. “Complete” continues to describe only the recorded query pagination, not fossil-record or sampling completeness.
-- Replaced the 13,210-row Perissodactyla-only v2 snapshot and bespoke fetcher with the generic package contract; the current source response contains 13,209 package-unique IDs. Generalized the shared entity index and Web/Android/iOS loader so every eligible entity reads its own package snapshot and distinguishes complete query totals from bounded display details. COL26.8, its 2,183,133 accepted-species routes, the 1,889 CAO2024 frames, canonical range evidence and human review decisions remain unchanged.
+- Replaced the 13,210-row Perissodactyla-only v2 snapshot and bespoke fetcher with the generic package contract; the current source response contains 13,209 package-unique IDs. Generalized the shared entity index and Web/Android/iOS loader so every eligible entity reads its own package snapshot and distinguishes complete query totals from bounded display details. COL26.8, its 2,183,133 accepted-species routes, the 1,889 CAO2024 frames, canonical range evidence remain unchanged.
 
 ## 2026.08-static-v5-rc50 — 2026-08-31
 
 - Closed the final 102 canonical `legacy-display` records across eight plant, invertebrate, arthropod and perissodactyl packages: 54 are now source-bounded specimen, stratigraphic, regional, model or navigation evidence windows and 48 unsupported endpoint combinations are explicitly withheld.
 - Removed nine superseded duplicate sponge/cnidarian global records and retained four distinct Hipparionini records for a cross-continental navigation composite, a North American review envelope, an Old World dispersal window and regional terminal occurrences.
 - Expanded the evidence ledger to 1,019 bilingual claims and 470 references. The 403-record canonical range ledger now contains 325 available and 78 withheld records with no legacy display values; by evidence level, 334 are literature-synthesized and 69 are withheld for insufficient range evidence. None is promoted into a universal FAD, LAD, crown age, lineage duration or direct-ancestor claim.
-- Regenerated the shared Web/Android/iOS package projections and release inventory without changing COL26.8, the 1,889-frame CAO2024 model, the global 13,600-row occurrence sample, targeted PBDB snapshots or human review decisions.
+- Regenerated the shared Web/Android/iOS package projections and release inventory without changing COL26.8, the 1,889-frame CAO2024 model, the global 13,600-row occurrence sample, targeted PBDB snapshots.
 
 ## 2026.08-static-v5-rc49 — 2026-08-31
 
@@ -912,7 +911,7 @@
 
 - Completed the source-link closure for Atlas Core and Turtles and Lepidosaurs after strict claim, visible-profile-field and evidence-bound story audits; all twenty-three non-flagship packages are now `source-linked`, while Perissodactyla remains `curated-draft`.
 - Replayed the Perissodactyla source audit without changing its review record, PBDB occurrence snapshot or maturity. Its species-, locality- and model-bounded claims remain distinct from direct observation and global first- or last-appearance assertions.
-- Advanced the shared Web/Android/iOS dataset projection to rc45 at app version `0.20.0`. Source linking records matching scientific sources and concrete locators; it is not a new maintainer decision, external expert review or claim that all 392 navigation entities have full dossiers.
+- Advanced the shared Web/Android/iOS dataset projection to rc45 at app version `0.20.0`. Source linking records matching scientific sources and concrete locators; it is not a new maintainer decision or claim that all 392 navigation entities have full dossiers.
 
 ## 2026.08-static-v5-rc44 — 2026-08-31
 
@@ -922,7 +921,7 @@
 
 ## 2026.08-static-v5-rc43 — 2026-08-31
 
-- Promoted eleven plant, invertebrate, fish, tetrapod and archosaur packages from `structured` to `source-linked` after a package-scoped audit found fit primary-study or systematic-review support with concrete locators for all 239 claims, all 366 displayed profile fields and all 99 steps across fourteen evidence-bound stories. This maturity label does not imply 392 entity-level dossiers or external expert review.
+- Recorded fit sources for eleven plant, invertebrate, fish, tetrapod and archosaur packages; a package-scoped source check found fit primary-study or systematic-review support with concrete locators for all 239 claims, all 366 displayed profile fields and all 99 steps across fourteen evidence-bound stories. This source linkage does not imply 392 entity-level dossiers.
 - Closed five remaining semantic gaps with six matched sources: species-bounded *Mollisonia* ecology, living echinoid ecological breadth, specimen-bounded *Ichthyosaurus communis* diet and comparative swimming inference, and analysis-bounded pterosaur taxonomy and biogeography. Visible text now preserves species, specimen, model and sampling limits instead of extending a paper beyond its sample.
 - Advanced the shared Web/Android/iOS dataset projection to rc43 while retaining app version `0.20.0`, all rc42 Life and Perissodactyla work, existing review records and the bounded PBDB occurrence query. COL26.8 accepted-species routing remains 2,183,133 unique assignments with zero unmatched.
 
@@ -1017,7 +1016,7 @@
 - Kept Kimberella and halwaxiid homology, Nectocaris affinity, Micrina articulation and Yuganotheca placement as bounded interpretations rather than crown assignments or a linear ancestor series.
 - Retained the distinct Kocot et al. and Smith et al. phylogenomic results, including missing-taxon and corrigendum boundaries, instead of manufacturing a consensus among incompatible deep nodes.
 - Added an independent `molluscsBrachiopodsZh` lazy chunk and a thirteen-step bilingual evidence story with claim, reference and uncertainty links.
-- Confirmed that COL26.8 routes exactly 159,801 accepted living species names to the package and all 2,183,133 accepted species remain exclusively assigned with zero unmatched; naming coverage remains independent of fossil, dossier, topology and expert-review maturity.
+- Confirmed that COL26.8 routes exactly 159,801 accepted living species names to the package and all 2,183,133 accepted species remain exclusively assigned with zero unmatched; naming coverage remains independent of fossil, dossier, topology.
 
 ## 2026.08-static-v5-rc29 — 2026-08-30
 
@@ -1060,7 +1059,7 @@
 - Kept Purgatorius and Eosimias isolated-tarsal attribution, the small Altiatlasius tooth hypodigm, Teilhardina PETM correlation, Notharctus grooming-claw comparison and Darwinius preparation disclosure explicit instead of promoting them to uncontested crown placements or global first appearances.
 - Anchored Saadanius, Morotopithecus and Dmanisi Skull 5 to named specimens, locality or layer context and exact publication locators while separating preserved anatomy from matrix topology, functional reconstruction and taxonomic interpretation.
 - Added named ancient-DNA dossiers for Vindija 33.19 and Ust’-Ishim 1 that distinguish direct radiocarbon results from genomic age, population-history and admixture-time models.
-- Added a twelve-step bilingual evidence story and clarified that COL26.8 routes exactly 530 strictly accepted living species names through the pinned Primates usage; naming coverage remains independent of fossil, genome, translation and expert-review maturity.
+- Added a twelve-step bilingual evidence story and clarified that COL26.8 routes exactly 530 strictly accepted living species names through the pinned Primates usage; naming coverage remains independent of fossil, genome, translation.
 
 ## 2026.08-static-v5-rc24 — 2026-08-30
 
@@ -1116,7 +1115,7 @@
 - Added curated navigation for Neopterygii, Holostei, Lepisosteiformes, Amiiformes, Teleosteomorpha, Elopomorpha, Osteoglossomorpha and Clupeocephala while withholding PBDB identifiers pending a rerun against the pinned taxon snapshot.
 - Linked named Devonian and Triassic specimens to exact publication figures and separated specimen occurrences and stem placements from global fossil first appearances or crown origins.
 - Kept the teleost 3R interval explicitly molecular-model-derived and the Holostei and deepest-teleost results explicitly based on living genome samples rather than fossil dates, morphological stasis or complete species trees.
-- Clarified that the 35,928 strictly accepted COL26.8 species below Actinopterygii usage ID 8VR36 provide nomenclatural browse coverage, not 35,928 mature dossiers, verified morphologies, fossil ranges, media records, translations or expert reviews.
+- Clarified that the 35,928 strictly accepted COL26.8 species below Actinopterygii usage ID 8VR36 provide nomenclatural browse coverage, not 35,928 mature dossiers, verified morphologies, fossil ranges, media records, translationss.
 - Retained the new navigation entities' rounded ranges as unreviewed legacy displays; none is presented as a claim-linked fossil FAD.
 
 ## 2026.08-static-v5-rc17 — 2026-08-30
@@ -1166,7 +1165,7 @@
 
 - Generalized the existing rich-profile projection so any static resource package can publish a package-local `profiles.source.json` without being hidden by Perissodactyla-only build, runtime, search, translation or static-page imports.
 - Added one generated aggregate profile registry while preserving package-local projections, package isolation and the existing Perissodactyla topology, calibration and complete-occurrence boundaries.
-- Applied the existing visible-field-to-claim-link contract to every profile-bearing package and included those links in package review packets.
+- Applied the existing visible-field-to-claim-link contract to every profile-bearing package.
 - Corrected topology availability to describe nodes actually present in the published Perissodactyla hypothesis rather than unrelated ancestors in the navigation ontology.
 - Removed Perissodactyla-only wording and trait-overlay leakage from interfaces that now consume profiles across packages.
 
@@ -1260,7 +1259,7 @@
 - Separated canonical `entityKind`, `contentLevel` and PBDB `externalResolutionStatus`; unresolved biological taxa remain taxa.
 - Added lineage-aware PBDB concept diagnostics, corrected Meganeura, Tetrapodomorpha, Bryophyta and Graptolithina navigation semantics, and introduced a canonical range-evidence ledger.
 - Replaced the PBDB-keyed occurrence index with a stable entity-ID index, disjoint match-method counts, frozen global/package regression gates and a public quality dashboard.
-- Added field- and evidence-item claim links, mandatory supporting sources for scientific claims, source-role/fitness metadata and non-bypassable human-review requirements for Gold.
+- Added field- and evidence-item claim links, mandatory supporting sources for scientific claims, source-role/fitness metadata.
 - Added generated-file drift checks, retained release inventories, stale-cache activation cleanup and full ICS boundary metadata in the Data page.
 
 ## 2026.08-static-v4-rc1 — 2026-08-19

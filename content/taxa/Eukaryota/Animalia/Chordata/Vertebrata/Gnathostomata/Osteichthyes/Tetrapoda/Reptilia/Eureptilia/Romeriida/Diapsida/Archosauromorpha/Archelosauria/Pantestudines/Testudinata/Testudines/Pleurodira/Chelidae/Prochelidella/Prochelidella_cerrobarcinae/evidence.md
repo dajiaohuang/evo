@@ -9,7 +9,6 @@ records:
     name:
       zh: Prochelidella cerrobarcinae
       en: Prochelidella cerrobarcinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

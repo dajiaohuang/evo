@@ -9,7 +9,6 @@ records:
     name:
       en: Poyntonophrynus nambensis
       zh: Poyntonophrynus nambensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

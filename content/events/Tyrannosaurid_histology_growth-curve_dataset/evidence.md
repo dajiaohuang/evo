@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: erickson-2004-tyrannosaurid-growth @ DOI 10.1038/nature02699
       referenceLinks:
         - referenceId: erickson-2004-tyrannosaurid-growth
           relation: supports

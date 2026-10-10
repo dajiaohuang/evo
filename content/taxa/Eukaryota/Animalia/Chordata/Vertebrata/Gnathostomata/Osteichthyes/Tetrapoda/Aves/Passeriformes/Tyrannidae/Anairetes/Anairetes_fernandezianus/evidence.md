@@ -9,7 +9,6 @@ records:
     name:
       zh: Anairetes fernandezianus
       en: Anairetes fernandezianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

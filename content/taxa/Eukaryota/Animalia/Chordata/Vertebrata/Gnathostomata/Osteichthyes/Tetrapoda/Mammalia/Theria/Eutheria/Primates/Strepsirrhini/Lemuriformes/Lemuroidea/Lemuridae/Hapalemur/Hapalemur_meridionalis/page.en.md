@@ -22,5 +22,5 @@ An initial feeding-ecology study followed habituated lemurs for three months dur
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Both ecological studies were conducted in Mandena littoral forest and are bounded by their sampled seasons and social groups; this page does not infer a species-wide diet, complete range or current status. These pages are not externally expert-reviewed.
+Both ecological studies were conducted in Mandena littoral forest and are bounded by their sampled seasons and social groups; this page does not infer a species-wide diet, complete range or current status. These pages are.
 <!-- /evo:text -->

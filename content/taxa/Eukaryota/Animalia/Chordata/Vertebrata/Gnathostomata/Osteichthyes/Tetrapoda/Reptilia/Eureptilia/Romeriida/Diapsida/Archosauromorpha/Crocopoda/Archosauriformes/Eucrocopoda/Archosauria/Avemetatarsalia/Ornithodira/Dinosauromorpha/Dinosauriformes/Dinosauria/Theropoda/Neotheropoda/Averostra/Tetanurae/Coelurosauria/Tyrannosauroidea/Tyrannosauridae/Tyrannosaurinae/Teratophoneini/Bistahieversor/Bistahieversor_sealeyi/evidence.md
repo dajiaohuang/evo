@@ -9,7 +9,6 @@ records:
     name:
       zh: Bistahieversor sealeyi
       en: Bistahieversor sealeyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

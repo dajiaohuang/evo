@@ -9,7 +9,6 @@ records:
     name:
       zh: Platysteira chalybea
       en: Platysteira chalybea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

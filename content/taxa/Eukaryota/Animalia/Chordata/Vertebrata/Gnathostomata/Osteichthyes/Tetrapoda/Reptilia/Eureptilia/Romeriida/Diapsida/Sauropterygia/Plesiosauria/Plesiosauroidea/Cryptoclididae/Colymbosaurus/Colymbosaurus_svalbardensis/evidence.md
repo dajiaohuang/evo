@@ -9,7 +9,6 @@ records:
     name:
       zh: Colymbosaurus svalbardensis
       en: Colymbosaurus svalbardensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

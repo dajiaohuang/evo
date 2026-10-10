@@ -9,7 +9,6 @@ records:
     name:
       zh: 雅凯凯门鳄
       en: Yacare caiman
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

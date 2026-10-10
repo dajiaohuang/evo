@@ -9,7 +9,6 @@ records:
     name:
       zh: Piatnitzkysaurus floresi
       en: Piatnitzkysaurus floresi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

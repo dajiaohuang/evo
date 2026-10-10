@@ -9,7 +9,6 @@ records:
     name:
       zh: Ailuravus mitchelli
       en: Ailuravus mitchelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothydrochoerus fontanai
       en: Nothydrochoerus fontanai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

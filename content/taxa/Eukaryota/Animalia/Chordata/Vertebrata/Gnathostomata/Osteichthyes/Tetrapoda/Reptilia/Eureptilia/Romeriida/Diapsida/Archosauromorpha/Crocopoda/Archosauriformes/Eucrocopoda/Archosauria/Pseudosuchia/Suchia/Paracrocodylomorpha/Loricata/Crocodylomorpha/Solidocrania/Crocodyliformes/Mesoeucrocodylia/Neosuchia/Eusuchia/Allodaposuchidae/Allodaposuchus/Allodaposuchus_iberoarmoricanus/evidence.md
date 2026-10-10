@@ -9,7 +9,6 @@ records:
     name:
       zh: Allodaposuchus iberoarmoricanus
       en: Allodaposuchus iberoarmoricanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

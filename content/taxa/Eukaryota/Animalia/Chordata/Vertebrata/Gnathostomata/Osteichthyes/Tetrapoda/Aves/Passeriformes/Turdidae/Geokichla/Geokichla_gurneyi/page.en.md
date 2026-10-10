@@ -40,5 +40,5 @@ Primary.Lifestyle=Terrestrial: most time is spent on the ground, with walking or
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page uses selected historical AVONET v7 rows, two name crosswalks, relevant Metadata definitions and local COL ge/zo name shards. Morphometric means, complete-set bird counts and separately compiled mass retain different denominators; one-to-one names and catalogue synonyms do not guarantee identical concepts across dates. Individual specimens, Dunning’s book, the whole workbook and a new full methods-paper reading were not examined. Current range, conservation status, plumage, calls, breeding, observed diets and tracked routes remain unsupported here. No expert review or complete natural-history monograph is counted.
+This page uses selected historical AVONET v7 rows, two name crosswalks, relevant Metadata definitions and local COL ge/zo name shards. Morphometric means, complete-set bird counts and separately compiled mass retain different denominators; one-to-one names and catalogue synonyms do not guarantee identical concepts across dates. Individual specimens, Dunning’s book, the whole workbook and a new full methods-paper reading were not examined. Current range, conservation status, plumage, calls, breeding, observed diets and tracked routes remain unsupported here.
 <!-- /evo:text -->

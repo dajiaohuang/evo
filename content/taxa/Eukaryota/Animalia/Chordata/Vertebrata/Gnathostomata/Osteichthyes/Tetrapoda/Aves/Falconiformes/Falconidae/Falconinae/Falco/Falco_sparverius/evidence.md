@@ -9,7 +9,6 @@ records:
     name:
       zh: Falco sparverius
       en: Falco sparverius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

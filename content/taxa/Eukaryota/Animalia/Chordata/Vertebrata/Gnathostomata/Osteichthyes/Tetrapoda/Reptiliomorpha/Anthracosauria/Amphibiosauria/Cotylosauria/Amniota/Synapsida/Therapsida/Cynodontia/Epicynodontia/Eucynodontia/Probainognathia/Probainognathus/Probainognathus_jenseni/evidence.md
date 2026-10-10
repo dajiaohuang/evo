@@ -9,7 +9,6 @@ records:
     name:
       zh: Probainognathus jenseni
       en: Probainognathus jenseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

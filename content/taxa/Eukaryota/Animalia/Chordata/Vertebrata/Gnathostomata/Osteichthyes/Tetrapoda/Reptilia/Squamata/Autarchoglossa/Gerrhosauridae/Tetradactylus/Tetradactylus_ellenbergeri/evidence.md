@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetradactylus ellenbergeri
       en: Tetradactylus ellenbergeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

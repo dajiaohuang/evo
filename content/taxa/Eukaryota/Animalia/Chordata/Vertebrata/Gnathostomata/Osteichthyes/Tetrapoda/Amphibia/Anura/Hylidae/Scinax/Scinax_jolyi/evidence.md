@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax jolyi
       zh: Scinax jolyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

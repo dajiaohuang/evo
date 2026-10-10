@@ -9,7 +9,6 @@ records:
     name:
       zh: Kamtschatarctos sinelnikovae
       en: Kamtschatarctos sinelnikovae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

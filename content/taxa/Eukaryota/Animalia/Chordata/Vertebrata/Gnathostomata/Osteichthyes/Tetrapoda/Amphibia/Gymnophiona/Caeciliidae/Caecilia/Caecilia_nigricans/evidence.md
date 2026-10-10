@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia nigricans
       zh: Caecilia nigricans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

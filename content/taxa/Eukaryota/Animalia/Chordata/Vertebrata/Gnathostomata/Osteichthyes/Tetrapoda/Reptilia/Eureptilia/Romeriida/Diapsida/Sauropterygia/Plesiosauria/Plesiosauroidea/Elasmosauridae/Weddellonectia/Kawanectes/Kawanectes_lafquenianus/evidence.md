@@ -9,7 +9,6 @@ records:
     name:
       zh: Kawanectes lafquenianus
       en: Kawanectes lafquenianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

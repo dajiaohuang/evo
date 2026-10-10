@@ -9,7 +9,6 @@ records:
     name:
       zh: Afroedura marleyi
       en: Afroedura marleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

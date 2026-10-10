@@ -28,5 +28,5 @@ Bicca-Marques (2006) studied one group published under the older name *Saguinus 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The field evidence here is limited to one group’s artificial-feeding experiment in Rio Branco. It supports a local study guide, not a natural-diet account, range-wide behavior, or complete ecological review. The comparative taxonomic study also reports sparse nominal-lineage sampling and an unresolved contact area. This bilingual draft has not received external expert review. This page is not externally expert-reviewed.
+The field evidence here is limited to one group’s artificial-feeding experiment in Rio Branco. It supports a local study guide, not a natural-diet account, range-wide behavior, or complete ecological review. The comparative taxonomic study also reports sparse nominal-lineage sampling and an unresolved contact area. This bilingual draft. This page is.
 <!-- /evo:text -->

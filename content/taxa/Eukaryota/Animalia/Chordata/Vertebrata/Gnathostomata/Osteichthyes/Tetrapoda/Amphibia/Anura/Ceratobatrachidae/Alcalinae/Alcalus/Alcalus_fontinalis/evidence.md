@@ -9,7 +9,6 @@ records:
     name:
       en: Alcalus fontinalis
       zh: Alcalus fontinalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrocephalus rehsei
       en: Acrocephalus rehsei
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

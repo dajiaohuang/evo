@@ -9,7 +9,6 @@ records:
     name:
       zh: Scaptohyus altidens
       en: Scaptohyus altidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

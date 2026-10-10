@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraborhyaena boliviana
       en: Paraborhyaena boliviana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

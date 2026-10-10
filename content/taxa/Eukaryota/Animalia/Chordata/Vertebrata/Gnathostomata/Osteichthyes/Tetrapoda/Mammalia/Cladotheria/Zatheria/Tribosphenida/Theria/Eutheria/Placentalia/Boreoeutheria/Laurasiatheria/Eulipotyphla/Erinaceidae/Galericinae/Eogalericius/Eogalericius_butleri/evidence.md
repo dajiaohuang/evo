@@ -9,7 +9,6 @@ records:
     name:
       zh: Eogalericius butleri
       en: Eogalericius butleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

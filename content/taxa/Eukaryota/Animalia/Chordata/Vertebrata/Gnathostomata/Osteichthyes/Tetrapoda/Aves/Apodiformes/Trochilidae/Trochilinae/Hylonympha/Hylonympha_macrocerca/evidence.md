@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylonympha macrocerca
       en: Hylonympha macrocerca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

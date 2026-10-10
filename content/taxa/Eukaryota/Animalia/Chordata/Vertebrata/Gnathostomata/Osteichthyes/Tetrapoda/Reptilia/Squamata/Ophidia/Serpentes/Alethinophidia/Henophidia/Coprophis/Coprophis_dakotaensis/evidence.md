@@ -9,7 +9,6 @@ records:
     name:
       zh: Coprophis dakotaensis
       en: Coprophis dakotaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

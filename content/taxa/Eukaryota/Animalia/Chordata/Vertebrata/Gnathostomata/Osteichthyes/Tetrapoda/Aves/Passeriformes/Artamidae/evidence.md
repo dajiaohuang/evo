@@ -9,7 +9,6 @@ records:
     name:
       zh: Artamidae
       en: Artamidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

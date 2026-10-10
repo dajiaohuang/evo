@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachymeles samad
       en: Brachymeles samad
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

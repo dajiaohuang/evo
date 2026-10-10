@@ -9,7 +9,6 @@ records:
     name:
       zh: Glyptemys muhlenbergii
       en: Glyptemys muhlenbergii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

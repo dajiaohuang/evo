@@ -9,7 +9,6 @@ records:
     name:
       en: Breviceps carruthersi
       zh: Breviceps carruthersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

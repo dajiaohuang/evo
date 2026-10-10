@@ -9,7 +9,6 @@ records:
     name:
       zh: Choneziphius macrops
       en: Choneziphius macrops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

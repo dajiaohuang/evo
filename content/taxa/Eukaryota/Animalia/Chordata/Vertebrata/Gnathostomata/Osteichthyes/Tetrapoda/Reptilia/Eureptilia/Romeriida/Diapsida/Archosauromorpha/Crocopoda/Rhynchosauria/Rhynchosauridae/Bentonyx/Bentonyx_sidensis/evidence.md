@@ -9,7 +9,6 @@ records:
     name:
       zh: Bentonyx sidensis
       en: Bentonyx sidensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

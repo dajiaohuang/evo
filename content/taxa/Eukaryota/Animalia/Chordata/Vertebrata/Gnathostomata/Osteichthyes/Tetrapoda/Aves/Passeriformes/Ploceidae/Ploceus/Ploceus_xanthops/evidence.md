@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus xanthops
       en: Ploceus xanthops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

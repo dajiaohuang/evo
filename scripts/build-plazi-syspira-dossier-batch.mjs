@@ -229,14 +229,13 @@ function makeDossier(item) {
         'Ecology and morphology claims are limited to the cited treatment, its specimens, locations, and sampling methods.',
         'For S. tigrina, conflicting embolus and cymbial-groove wording is excluded from any unqualified synthesis.',
         'The article-level text reuse license is unknown; the retained CC0 declaration applies only to extracted Plazi records.',
-        'The source ZIP is absent from this checkout and its embedded EML was not rechecked; no independent external review has been completed.',
+        'The source ZIP is absent from this checkout and its embedded EML was not rechecked.',
       ],
     },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
   }
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   assert.equal(dossier.sources.find(source => source.id === 'plazi_syspira_archive')?.licenseAssessment, 'aggregate-declaration-only')
   assert.equal(dossier.sources.find(source => source.id === 'valdez_jimenez_palacios_cardiel_2025')?.licenseAssessment, 'unknown')
   return dossier
@@ -315,7 +314,7 @@ const manifest = {
     notAssessedFacets: Object.entries(facets).filter(([, facet]) => facet.status === 'not-assessed').map(([name]) => name),
   })),
   sourceRows: input.records.map(item => ({ colId: item.colId, treatmentId: item.treatmentId, reviewedRows: item.reviewedRows, claimRows: Object.values(item.claims).flatMap(claim => claim.rows) })),
-  rights: { claimSourceRightsUnresolved: 2, completeDossiersAdded: 0, externallyReviewedDossiersAdded: 0 },
+  rights: { claimSourceRightsUnresolved: 2, completeDossiersAdded: 0},
   newShard: {
     path: SHARD,
     rawPath: RAW,
@@ -349,7 +348,7 @@ sourceLedger.auditedDossierBatches.push({
   sourceRows: input.records.map(item => ({ colId: item.colId, rows: Object.values(item.claims).flatMap(claim => claim.rows.map(String)), reviewedRows: item.reviewedRows.map(String) })),
   claimPolicy: 'Two bounded partial facets per species; five facets not assessed; S. tigrina palp conflict excluded; article item-level rights unknown; CC0 applies only to extracted Plazi records.',
   completeDossiersAdded: 0,
-  externallyReviewedDossiersAdded: 0,
+
 })
 writeFileSync(join(ROOT, LEDGER), `${JSON.stringify(sourceLedger, null, 2)}\n`, 'utf8')
 

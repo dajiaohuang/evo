@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudis platensis
       zh: Pseudis platensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

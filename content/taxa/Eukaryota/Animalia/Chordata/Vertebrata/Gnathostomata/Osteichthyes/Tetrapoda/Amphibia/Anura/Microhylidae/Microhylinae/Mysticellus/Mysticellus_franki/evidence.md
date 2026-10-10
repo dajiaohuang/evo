@@ -9,7 +9,6 @@ records:
     name:
       en: Mysticellus franki
       zh: Mysticellus franki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

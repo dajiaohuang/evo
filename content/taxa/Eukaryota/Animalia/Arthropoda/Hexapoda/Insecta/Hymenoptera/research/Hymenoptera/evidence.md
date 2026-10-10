@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: peters-2017-hymenoptera-history DOI 10.1016/j.cub.2017.01.027; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: peters-2017-hymenoptera-history
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: zhang-2025 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: zhang-2025-hymenoptera-divergence-dating
           relation: supports
@@ -101,11 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/2/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: peters-2017-hymenoptera-history
           relation: supports
@@ -129,9 +118,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion: Peters et al. 2017 DOI 10.1016/j.cub.2017.01.027; concrete locators audited 2026-09-11
       referenceLinks:
         - referenceId: peters-2017-hymenoptera-history
           relation: supports
@@ -150,9 +136,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion: Zhang et al. 2025 DOI 10.1111/syen.12645; concrete locators audited 2026-09-11
       referenceLinks:
         - referenceId: zhang-2025-hymenoptera-divergence-dating
           relation: supports
@@ -171,11 +154,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/5/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: peters-2017-hymenoptera-history
           relation: supports
@@ -230,7 +208,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudaelurus africanus
       en: Pseudaelurus africanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

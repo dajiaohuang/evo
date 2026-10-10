@@ -9,7 +9,6 @@ records:
     name:
       en: Fejervarya vittigera
       zh: Fejervarya vittigera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

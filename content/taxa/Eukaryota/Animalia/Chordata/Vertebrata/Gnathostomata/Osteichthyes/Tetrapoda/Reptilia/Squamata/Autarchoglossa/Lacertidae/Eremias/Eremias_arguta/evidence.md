@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremias arguta
       en: Eremias arguta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

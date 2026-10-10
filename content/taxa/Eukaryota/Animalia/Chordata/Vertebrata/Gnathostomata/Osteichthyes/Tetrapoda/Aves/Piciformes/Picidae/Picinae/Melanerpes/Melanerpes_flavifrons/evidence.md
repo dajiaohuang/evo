@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanerpes flavifrons
       en: Melanerpes flavifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

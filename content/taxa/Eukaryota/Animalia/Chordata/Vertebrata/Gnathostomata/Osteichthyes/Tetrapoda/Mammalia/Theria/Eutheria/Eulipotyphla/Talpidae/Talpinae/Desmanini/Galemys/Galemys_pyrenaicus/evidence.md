@@ -9,7 +9,6 @@ records:
     name:
       zh: Galemys pyrenaicus
       en: Galemys pyrenaicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

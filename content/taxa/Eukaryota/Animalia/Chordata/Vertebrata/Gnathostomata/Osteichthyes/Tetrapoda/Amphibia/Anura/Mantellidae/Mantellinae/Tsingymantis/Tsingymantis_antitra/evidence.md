@@ -9,7 +9,6 @@ records:
     name:
       en: Tsingymantis antitra
       zh: Tsingymantis antitra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

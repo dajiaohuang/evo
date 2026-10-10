@@ -9,7 +9,6 @@ records:
     name:
       zh: Amynodontopsis bodei
       en: Amynodontopsis bodei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

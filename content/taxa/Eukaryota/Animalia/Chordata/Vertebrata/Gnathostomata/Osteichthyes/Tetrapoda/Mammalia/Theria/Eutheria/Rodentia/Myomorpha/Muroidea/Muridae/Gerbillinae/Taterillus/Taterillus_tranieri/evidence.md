@@ -9,7 +9,6 @@ records:
     name:
       zh: Taterillus tranieri
       en: Taterillus tranieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

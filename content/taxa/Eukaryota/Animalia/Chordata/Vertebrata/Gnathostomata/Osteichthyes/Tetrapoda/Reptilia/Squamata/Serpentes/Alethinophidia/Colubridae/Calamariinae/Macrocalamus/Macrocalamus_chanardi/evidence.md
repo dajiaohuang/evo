@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrocalamus chanardi
       en: Macrocalamus chanardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

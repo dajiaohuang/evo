@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaechthon alticuspis
       en: Palaechthon alticuspis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

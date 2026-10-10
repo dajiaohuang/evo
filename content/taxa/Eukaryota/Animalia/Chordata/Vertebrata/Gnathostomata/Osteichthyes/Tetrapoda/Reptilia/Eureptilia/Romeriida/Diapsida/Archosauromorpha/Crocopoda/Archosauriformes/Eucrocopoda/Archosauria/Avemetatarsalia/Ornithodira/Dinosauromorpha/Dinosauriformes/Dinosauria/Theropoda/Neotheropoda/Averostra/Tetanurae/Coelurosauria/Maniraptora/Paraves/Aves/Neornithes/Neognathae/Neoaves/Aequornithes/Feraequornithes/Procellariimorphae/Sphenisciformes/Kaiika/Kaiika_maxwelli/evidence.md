@@ -9,7 +9,6 @@ records:
     name:
       zh: Kaiika maxwelli
       en: Kaiika maxwelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

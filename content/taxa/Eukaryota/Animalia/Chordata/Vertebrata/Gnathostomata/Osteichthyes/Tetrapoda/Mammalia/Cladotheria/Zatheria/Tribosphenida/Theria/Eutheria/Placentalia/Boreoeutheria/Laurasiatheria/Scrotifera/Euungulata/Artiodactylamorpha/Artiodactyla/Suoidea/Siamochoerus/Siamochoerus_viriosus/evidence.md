@@ -9,7 +9,6 @@ records:
     name:
       zh: Siamochoerus viriosus
       en: Siamochoerus viriosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

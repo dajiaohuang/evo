@@ -9,7 +9,6 @@ records:
     name:
       zh: Lanthanosuchus watsoni
       en: Lanthanosuchus watsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

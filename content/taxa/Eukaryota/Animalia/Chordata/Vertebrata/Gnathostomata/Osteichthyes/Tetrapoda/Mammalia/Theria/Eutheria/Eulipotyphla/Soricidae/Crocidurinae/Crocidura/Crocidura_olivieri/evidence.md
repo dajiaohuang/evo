@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura olivieri
       en: Crocidura olivieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Meliphaga notata
       en: Meliphaga notata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

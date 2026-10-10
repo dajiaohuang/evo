@@ -9,7 +9,6 @@ records:
     name:
       zh: Geoemyda saxonica
       en: Geoemyda saxonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachypsalis obliquidens
       en: Brachypsalis obliquidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

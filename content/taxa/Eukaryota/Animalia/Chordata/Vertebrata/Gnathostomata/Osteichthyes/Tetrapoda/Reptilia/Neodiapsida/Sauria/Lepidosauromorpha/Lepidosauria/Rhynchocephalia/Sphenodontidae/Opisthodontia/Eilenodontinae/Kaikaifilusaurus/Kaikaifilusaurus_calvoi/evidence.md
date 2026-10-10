@@ -9,7 +9,6 @@ records:
     name:
       zh: Kaikaifilusaurus calvoi
       en: Kaikaifilusaurus calvoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

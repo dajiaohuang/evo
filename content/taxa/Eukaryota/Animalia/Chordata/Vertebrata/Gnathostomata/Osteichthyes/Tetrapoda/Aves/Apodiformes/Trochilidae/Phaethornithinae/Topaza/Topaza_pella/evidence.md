@@ -9,7 +9,6 @@ records:
     name:
       zh: Topaza pella
       en: Topaza pella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

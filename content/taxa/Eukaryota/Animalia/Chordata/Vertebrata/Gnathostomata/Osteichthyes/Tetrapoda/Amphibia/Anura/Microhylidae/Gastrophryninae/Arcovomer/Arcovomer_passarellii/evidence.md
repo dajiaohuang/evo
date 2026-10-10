@@ -9,7 +9,6 @@ records:
     name:
       en: Arcovomer passarellii
       zh: Arcovomer passarellii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

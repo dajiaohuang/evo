@@ -9,7 +9,6 @@ records:
     name:
       zh: Genetta abyssinica
       en: Genetta abyssinica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

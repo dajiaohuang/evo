@@ -9,7 +9,6 @@ records:
     name:
       zh: 鼠狐猴属
       en: Mouse lemurs
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

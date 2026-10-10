@@ -9,7 +9,6 @@ records:
     name:
       zh: Spilornis cheela
       en: Spilornis cheela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

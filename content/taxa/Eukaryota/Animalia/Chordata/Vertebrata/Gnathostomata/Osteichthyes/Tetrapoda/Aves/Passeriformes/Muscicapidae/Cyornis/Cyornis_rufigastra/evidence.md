@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyornis rufigastra
       en: Cyornis rufigastra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

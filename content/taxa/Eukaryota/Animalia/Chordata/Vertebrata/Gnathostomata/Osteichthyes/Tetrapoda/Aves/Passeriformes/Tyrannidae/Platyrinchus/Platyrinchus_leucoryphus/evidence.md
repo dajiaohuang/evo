@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyrinchus leucoryphus
       en: Platyrinchus leucoryphus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

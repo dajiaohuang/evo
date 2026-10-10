@@ -9,7 +9,6 @@ records:
     name:
       zh: Peignictis pseudamphictis
       en: Peignictis pseudamphictis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

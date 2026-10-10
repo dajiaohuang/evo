@@ -9,7 +9,6 @@ records:
     name:
       en: Osteopilus dominicensis
       zh: Osteopilus dominicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis lutitus
       zh: Pristimantis lutitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

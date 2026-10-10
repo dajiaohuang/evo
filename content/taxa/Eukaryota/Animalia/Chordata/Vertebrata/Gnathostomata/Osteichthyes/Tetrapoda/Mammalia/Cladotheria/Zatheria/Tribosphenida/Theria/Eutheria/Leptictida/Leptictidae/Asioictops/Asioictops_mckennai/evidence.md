@@ -9,7 +9,6 @@ records:
     name:
       zh: Asioictops mckennai
       en: Asioictops mckennai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

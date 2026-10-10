@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes kakachi
       zh: Raorchestes kakachi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

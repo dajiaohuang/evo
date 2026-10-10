@@ -9,7 +9,6 @@ records:
     name:
       zh: Dacnis cayana
       en: Dacnis cayana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cedromus modicus
       en: Cedromus modicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

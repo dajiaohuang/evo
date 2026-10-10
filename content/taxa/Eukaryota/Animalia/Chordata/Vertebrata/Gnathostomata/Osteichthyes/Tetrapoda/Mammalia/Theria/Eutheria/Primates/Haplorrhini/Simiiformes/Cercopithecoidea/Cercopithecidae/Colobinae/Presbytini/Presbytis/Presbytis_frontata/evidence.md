@@ -9,7 +9,6 @@ records:
     name:
       zh: 白额叶猴
       en: White-fronted Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

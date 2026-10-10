@@ -11,7 +11,7 @@ status: source-linked
 ## 沿三种属名定位历史资料
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-本批七条导读按 COL26.8 Locustella（5G59）与 Locustellidae（C5V）组织。四条 BirdTree 旧 Bradypterus 组合均有逐字目录异名；caudata／tacsanowskia 的旧词尾为 caudatus／tacsanowskius。ochotensis／pryeri／certhiola 的 BirdTree 同名，但 eBird 使用 Helopsaltes；虽各 Avibase ID与 BirdLife相同，所读 hel 分片未确认逐字名称。另四条 eBird同名，均保留一对一类型。目录属24个直接子项，原4测量与3生活史路线各保留，本批七页不计全属完整内容或专家审评。
+本批七条导读按 COL26.8 Locustella（5G59）与 Locustellidae（C5V）组织。四条 BirdTree 旧 Bradypterus 组合均有逐字目录异名；caudata／tacsanowskia 的旧词尾为 caudatus／tacsanowskius。ochotensis／pryeri／certhiola 的 BirdTree 同名，但 eBird 使用 Helopsaltes；虽各 Avibase ID与 BirdLife相同，所读 hel 分片未确认逐字名称。另四条 eBird同名，均保留一对一类型。目录属24个直接子项，原4测量与3生活史路线各保留，本批七页不计全属完整内容。
 <!-- /evo:text -->
 
 ## 两只完整与三只总数分开
@@ -59,6 +59,6 @@ Locustella 的本批路线包含 3 条历史生活史导读，可从 Locustella 
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
 本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成，未经过外部专家评审。
-另增七条历史导读；四 Bradypterus异名与三 Helopsaltes未确认名称分开，形态与Dunning体重分开，不计24目录子项完整内容、当前地图或专家审评。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+另增七条历史导读；四 Bradypterus异名与三 Helopsaltes未确认名称分开，形态与Dunning体重分开，不计24目录子项完整内容、当前地图。
 <!-- /evo:text -->

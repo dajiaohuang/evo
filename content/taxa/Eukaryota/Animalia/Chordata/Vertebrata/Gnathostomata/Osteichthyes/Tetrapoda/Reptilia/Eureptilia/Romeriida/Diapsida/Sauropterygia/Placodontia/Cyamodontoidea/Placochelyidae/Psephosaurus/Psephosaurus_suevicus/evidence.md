@@ -9,7 +9,6 @@ records:
     name:
       zh: Psephosaurus suevicus
       en: Psephosaurus suevicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

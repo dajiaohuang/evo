@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalneusaurus
       en: Megalneusaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

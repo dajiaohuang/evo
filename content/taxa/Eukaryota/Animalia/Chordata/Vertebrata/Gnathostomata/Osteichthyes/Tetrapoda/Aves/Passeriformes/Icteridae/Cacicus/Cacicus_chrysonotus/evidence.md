@@ -9,7 +9,6 @@ records:
     name:
       zh: Cacicus chrysonotus
       en: Cacicus chrysonotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

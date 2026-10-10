@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychohyla macrotympanum
       zh: Ptychohyla macrotympanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

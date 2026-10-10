@@ -9,7 +9,6 @@ records:
     name:
       zh: Lipinia relicta
       en: Lipinia relicta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

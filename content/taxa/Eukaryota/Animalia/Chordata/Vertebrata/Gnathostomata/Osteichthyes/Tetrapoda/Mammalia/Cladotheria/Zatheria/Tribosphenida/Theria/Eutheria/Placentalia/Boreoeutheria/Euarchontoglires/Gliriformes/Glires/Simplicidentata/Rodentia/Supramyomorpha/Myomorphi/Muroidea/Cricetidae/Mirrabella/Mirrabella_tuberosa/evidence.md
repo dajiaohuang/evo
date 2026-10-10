@@ -9,7 +9,6 @@ records:
     name:
       zh: Mirrabella tuberosa
       en: Mirrabella tuberosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

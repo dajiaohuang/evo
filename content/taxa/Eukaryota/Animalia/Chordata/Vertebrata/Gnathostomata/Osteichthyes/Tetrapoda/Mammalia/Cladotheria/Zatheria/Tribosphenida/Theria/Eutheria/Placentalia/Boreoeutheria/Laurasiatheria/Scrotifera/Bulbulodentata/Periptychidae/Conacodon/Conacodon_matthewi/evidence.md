@@ -9,7 +9,6 @@ records:
     name:
       zh: Conacodon matthewi
       en: Conacodon matthewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus carolinensis
       zh: Desmognathus carolinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

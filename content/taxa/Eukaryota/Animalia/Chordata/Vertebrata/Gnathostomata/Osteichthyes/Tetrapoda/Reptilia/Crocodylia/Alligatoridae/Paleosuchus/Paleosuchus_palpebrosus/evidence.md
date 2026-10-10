@@ -9,7 +9,6 @@ records:
     name:
       zh: 库氏凯门鳄
       en: Cuvier's dwarf caiman
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

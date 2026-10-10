@@ -9,7 +9,6 @@ records:
     name:
       zh: Siamraptor suwati
       en: Siamraptor suwati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

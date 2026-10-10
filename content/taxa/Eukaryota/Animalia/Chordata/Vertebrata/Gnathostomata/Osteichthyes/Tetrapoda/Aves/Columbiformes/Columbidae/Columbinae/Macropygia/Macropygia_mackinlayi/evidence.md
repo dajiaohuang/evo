@@ -9,7 +9,6 @@ records:
     name:
       zh: Macropygia mackinlayi
       en: Macropygia mackinlayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 蜂猴属
       en: Slow Lorises
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

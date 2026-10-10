@@ -9,7 +9,6 @@ records:
     name:
       en: Nannophryne corynetes
       zh: Nannophryne corynetes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

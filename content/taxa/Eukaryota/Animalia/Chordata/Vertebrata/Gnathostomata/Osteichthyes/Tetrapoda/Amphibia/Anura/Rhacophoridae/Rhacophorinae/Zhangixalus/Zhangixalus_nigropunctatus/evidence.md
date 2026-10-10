@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus nigropunctatus
       zh: Zhangixalus nigropunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

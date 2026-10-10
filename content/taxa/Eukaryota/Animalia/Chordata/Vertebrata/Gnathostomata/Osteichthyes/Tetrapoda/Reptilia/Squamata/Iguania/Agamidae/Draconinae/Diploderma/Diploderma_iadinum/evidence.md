@@ -9,7 +9,6 @@ records:
     name:
       zh: Diploderma iadinum
       en: Diploderma iadinum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

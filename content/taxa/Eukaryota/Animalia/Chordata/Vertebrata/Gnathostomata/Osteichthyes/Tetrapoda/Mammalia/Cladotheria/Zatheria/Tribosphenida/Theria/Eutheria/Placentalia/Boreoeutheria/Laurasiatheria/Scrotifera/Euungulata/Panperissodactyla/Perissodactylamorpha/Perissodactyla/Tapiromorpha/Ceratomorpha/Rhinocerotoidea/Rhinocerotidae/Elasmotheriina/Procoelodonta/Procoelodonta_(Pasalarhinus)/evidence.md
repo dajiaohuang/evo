@@ -9,7 +9,6 @@ records:
     name:
       zh: Procoelodonta (Pasalarhinus)
       en: Procoelodonta (Pasalarhinus)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

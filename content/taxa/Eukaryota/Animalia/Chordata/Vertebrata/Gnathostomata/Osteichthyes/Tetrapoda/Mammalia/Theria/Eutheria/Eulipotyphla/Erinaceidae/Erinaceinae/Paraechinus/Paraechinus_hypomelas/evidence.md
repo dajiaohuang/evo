@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraechinus hypomelas
       en: Paraechinus hypomelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

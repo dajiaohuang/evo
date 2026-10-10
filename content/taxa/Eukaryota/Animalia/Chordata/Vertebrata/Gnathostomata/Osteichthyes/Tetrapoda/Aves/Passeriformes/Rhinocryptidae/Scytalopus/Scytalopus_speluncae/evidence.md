@@ -9,7 +9,6 @@ records:
     name:
       zh: Scytalopus speluncae
       en: Scytalopus speluncae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

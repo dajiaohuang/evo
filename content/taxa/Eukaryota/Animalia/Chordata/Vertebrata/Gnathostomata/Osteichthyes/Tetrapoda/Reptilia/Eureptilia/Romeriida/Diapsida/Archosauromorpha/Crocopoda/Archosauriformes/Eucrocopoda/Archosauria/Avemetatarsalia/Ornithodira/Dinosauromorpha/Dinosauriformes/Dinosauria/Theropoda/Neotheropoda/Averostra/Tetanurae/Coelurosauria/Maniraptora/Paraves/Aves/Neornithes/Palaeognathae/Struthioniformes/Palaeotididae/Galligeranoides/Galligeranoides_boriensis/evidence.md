@@ -9,7 +9,6 @@ records:
     name:
       zh: Galligeranoides boriensis
       en: Galligeranoides boriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

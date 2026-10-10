@@ -9,7 +9,6 @@ records:
     name:
       zh: Rissa estesi
       en: Rissa estesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Epimachus meyeri
       en: Epimachus meyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

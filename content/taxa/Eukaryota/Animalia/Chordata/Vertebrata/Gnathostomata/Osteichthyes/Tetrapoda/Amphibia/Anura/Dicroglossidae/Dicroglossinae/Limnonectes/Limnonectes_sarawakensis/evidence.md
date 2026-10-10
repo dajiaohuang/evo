@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes sarawakensis
       zh: Limnonectes sarawakensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

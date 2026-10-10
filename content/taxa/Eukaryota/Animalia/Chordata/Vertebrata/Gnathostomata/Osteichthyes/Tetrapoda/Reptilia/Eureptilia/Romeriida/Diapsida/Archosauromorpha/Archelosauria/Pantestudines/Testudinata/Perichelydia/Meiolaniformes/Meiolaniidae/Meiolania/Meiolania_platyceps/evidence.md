@@ -9,7 +9,6 @@ records:
     name:
       zh: Meiolania platyceps
       en: Meiolania platyceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

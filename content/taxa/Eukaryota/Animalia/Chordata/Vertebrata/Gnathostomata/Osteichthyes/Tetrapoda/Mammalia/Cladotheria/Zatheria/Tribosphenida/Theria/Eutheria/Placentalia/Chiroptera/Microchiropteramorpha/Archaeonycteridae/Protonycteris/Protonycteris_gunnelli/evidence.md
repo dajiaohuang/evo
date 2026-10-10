@@ -9,7 +9,6 @@ records:
     name:
       zh: Protonycteris gunnelli
       en: Protonycteris gunnelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

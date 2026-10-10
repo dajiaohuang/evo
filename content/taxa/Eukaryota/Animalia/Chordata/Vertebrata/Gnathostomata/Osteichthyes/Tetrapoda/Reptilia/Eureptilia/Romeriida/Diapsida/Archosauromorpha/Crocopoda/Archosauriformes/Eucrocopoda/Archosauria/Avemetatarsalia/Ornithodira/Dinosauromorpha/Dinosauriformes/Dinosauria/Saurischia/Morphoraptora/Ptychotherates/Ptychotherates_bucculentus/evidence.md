@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptychotherates bucculentus
       en: Ptychotherates bucculentus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

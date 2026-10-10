@@ -9,7 +9,6 @@ records:
     name:
       zh: Lessemsaurus sauropoides
       en: Lessemsaurus sauropoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

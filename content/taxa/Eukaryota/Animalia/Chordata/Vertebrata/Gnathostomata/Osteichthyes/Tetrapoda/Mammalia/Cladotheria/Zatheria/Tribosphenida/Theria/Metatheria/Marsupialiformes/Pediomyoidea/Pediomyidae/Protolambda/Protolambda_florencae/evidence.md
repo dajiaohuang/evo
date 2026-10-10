@@ -9,7 +9,6 @@ records:
     name:
       zh: Protolambda florencae
       en: Protolambda florencae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa medemi
       zh: Bolitoglossa medemi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

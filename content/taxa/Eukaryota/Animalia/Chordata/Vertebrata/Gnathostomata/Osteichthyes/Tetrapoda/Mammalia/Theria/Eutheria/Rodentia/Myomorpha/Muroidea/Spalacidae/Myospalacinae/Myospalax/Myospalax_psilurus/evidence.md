@@ -9,7 +9,6 @@ records:
     name:
       zh: Myospalax psilurus
       en: Myospalax psilurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

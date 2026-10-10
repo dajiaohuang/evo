@@ -9,7 +9,6 @@ records:
     name:
       zh: Bulungu muirheadae
       en: Bulungu muirheadae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

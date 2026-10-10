@@ -9,7 +9,6 @@ records:
     name:
       zh: 胡德卷尾猴
       en: Hooded Capuchin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: feeding

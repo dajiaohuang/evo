@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-限于 2005 年原始描述中的 Andasibe 样本和形态记录；现今分布、行为、食性与保育状况未由该文完整评估。中文普通名为编辑翻译。 本页尚未经过外部领域专家评审。
+限于 2005 年原始描述中的 Andasibe 样本和形态记录；现今分布、行为、食性与保育状况未由该文完整评估。中文普通名为编辑翻译。 。
 <!-- /evo:text -->

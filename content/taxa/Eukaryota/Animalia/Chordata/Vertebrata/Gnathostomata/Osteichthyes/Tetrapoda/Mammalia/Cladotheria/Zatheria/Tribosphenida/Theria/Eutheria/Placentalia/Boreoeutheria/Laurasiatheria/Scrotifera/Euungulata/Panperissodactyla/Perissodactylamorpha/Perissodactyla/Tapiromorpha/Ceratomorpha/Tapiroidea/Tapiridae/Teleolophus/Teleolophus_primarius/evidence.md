@@ -9,7 +9,6 @@ records:
     name:
       zh: Teleolophus primarius
       en: Teleolophus primarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

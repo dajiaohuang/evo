@@ -9,7 +9,6 @@ records:
     name:
       en: Scaphiophryne obscura
       zh: Scaphiophryne obscura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

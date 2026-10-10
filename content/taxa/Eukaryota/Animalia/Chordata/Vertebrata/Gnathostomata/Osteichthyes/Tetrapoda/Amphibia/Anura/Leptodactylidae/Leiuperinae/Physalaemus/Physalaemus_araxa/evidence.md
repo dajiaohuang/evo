@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus araxa
       zh: Physalaemus araxa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

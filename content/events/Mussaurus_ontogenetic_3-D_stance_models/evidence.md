@@ -84,9 +84,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: otero-2019-mussaurus @ DOI 10.1038/s41598-019-44037-1
       referenceLinks:
         - referenceId: otero-2019-mussaurus
           relation: supports

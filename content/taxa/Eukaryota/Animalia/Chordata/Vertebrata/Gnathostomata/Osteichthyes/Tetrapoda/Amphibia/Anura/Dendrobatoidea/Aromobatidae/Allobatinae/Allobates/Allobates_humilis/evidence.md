@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates humilis
       zh: Allobates humilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

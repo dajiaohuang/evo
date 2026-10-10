@@ -9,7 +9,6 @@ records:
     name:
       zh: Celeus loricatus
       en: Celeus loricatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

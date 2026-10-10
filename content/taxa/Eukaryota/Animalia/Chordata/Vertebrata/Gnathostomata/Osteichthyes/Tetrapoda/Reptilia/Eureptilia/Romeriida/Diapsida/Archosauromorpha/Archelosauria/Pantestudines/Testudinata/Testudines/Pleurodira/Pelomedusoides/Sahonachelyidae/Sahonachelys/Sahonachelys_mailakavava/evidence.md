@@ -9,7 +9,6 @@ records:
     name:
       zh: Sahonachelys mailakavava
       en: Sahonachelys mailakavava
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

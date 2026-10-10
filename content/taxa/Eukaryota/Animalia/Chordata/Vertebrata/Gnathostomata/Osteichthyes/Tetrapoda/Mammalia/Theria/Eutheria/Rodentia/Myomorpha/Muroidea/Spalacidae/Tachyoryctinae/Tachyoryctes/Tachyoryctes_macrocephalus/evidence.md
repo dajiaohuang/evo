@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachyoryctes macrocephalus
       en: Tachyoryctes macrocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloglaux albifacies
       en: Sceloglaux albifacies
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

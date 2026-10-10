@@ -9,7 +9,6 @@ records:
     name:
       zh: Metacervocerus punjabiensis
       en: Metacervocerus punjabiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

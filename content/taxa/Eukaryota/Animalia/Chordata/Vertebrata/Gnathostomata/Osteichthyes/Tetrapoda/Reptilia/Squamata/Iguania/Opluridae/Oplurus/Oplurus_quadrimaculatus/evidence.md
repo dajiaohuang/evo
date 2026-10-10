@@ -9,7 +9,6 @@ records:
     name:
       zh: Oplurus quadrimaculatus
       en: Oplurus quadrimaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

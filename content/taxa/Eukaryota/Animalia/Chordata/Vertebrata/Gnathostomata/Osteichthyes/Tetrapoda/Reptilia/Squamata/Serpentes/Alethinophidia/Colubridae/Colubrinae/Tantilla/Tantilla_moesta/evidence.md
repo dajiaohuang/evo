@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla moesta
       en: Tantilla moesta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

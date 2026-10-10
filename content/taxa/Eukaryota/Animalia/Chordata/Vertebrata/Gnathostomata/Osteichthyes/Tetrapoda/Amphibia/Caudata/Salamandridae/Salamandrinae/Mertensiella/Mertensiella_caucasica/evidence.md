@@ -9,7 +9,6 @@ records:
     name:
       en: Mertensiella caucasica
       zh: Mertensiella caucasica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

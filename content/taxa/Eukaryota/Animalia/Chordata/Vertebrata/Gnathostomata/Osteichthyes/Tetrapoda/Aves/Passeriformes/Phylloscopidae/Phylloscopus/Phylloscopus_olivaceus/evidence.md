@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus olivaceus
       en: Phylloscopus olivaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

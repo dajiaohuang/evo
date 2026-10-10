@@ -9,7 +9,6 @@ records:
     name:
       en: Gabon Squirrel Galago
       zh: 加蓬松鼠婴猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

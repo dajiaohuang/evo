@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvimico materdei
       en: Parvimico materdei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

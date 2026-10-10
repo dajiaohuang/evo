@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesoprocta hypsodus
       en: Mesoprocta hypsodus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

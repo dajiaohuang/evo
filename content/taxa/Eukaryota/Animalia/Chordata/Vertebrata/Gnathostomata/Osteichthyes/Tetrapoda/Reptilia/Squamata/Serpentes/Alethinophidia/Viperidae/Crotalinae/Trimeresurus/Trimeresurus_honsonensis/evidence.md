@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus honsonensis
       en: Trimeresurus honsonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

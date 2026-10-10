@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis huilae
       en: Anolis huilae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

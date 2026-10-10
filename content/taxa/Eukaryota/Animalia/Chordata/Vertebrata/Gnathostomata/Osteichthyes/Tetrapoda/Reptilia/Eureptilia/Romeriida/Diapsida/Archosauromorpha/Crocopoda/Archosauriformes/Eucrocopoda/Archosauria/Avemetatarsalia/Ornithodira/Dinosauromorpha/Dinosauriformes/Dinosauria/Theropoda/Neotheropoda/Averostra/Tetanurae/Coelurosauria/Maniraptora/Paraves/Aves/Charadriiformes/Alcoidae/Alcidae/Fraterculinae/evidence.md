@@ -9,7 +9,6 @@ records:
     name:
       zh: Fraterculinae
       en: Fraterculinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

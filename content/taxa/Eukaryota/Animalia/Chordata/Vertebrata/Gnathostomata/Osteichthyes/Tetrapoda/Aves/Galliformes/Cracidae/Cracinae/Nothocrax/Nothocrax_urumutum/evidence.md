@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothocrax urumutum
       en: Nothocrax urumutum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

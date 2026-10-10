@@ -9,7 +9,6 @@ records:
     name:
       zh: 博拉哈鼠狐猴
       en: Boraha Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: overview

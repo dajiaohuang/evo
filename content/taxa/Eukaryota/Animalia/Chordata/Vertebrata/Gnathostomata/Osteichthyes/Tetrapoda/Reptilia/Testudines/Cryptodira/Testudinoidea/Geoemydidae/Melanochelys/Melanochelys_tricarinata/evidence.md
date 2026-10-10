@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanochelys tricarinata
       en: Melanochelys tricarinata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

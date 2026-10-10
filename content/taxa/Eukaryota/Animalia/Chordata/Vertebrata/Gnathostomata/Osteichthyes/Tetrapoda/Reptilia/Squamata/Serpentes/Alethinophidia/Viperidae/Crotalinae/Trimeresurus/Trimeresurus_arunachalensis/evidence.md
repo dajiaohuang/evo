@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus arunachalensis
       en: Trimeresurus arunachalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

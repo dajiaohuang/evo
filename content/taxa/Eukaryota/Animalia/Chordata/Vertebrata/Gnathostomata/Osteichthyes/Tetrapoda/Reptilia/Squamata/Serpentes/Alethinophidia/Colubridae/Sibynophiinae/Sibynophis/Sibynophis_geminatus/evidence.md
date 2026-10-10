@@ -9,7 +9,6 @@ records:
     name:
       zh: Sibynophis geminatus
       en: Sibynophis geminatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Latipons
       en: Latipons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Micromacronus leytensis
       en: Micromacronus leytensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

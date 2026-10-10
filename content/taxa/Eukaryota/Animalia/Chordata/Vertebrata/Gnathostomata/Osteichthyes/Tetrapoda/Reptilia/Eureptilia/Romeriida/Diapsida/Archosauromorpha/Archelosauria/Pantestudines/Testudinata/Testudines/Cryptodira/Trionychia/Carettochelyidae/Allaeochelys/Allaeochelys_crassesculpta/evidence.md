@@ -9,7 +9,6 @@ records:
     name:
       zh: Allaeochelys crassesculpta
       en: Allaeochelys crassesculpta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

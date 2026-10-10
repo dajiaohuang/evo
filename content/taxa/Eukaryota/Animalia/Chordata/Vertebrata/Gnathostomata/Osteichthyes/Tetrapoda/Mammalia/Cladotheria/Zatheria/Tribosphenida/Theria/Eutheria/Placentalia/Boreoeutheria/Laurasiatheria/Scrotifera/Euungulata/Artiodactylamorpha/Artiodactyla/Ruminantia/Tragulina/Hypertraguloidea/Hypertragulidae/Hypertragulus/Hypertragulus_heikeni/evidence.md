@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypertragulus heikeni
       en: Hypertragulus heikeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Geotrypetes angeli
       zh: Geotrypetes angeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

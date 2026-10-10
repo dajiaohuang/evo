@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurolophosaurus amathites
       en: Eurolophosaurus amathites
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

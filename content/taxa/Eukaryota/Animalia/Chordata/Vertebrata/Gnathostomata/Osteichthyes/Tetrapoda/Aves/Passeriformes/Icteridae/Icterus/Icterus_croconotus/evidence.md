@@ -9,7 +9,6 @@ records:
     name:
       zh: Icterus croconotus
       en: Icterus croconotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

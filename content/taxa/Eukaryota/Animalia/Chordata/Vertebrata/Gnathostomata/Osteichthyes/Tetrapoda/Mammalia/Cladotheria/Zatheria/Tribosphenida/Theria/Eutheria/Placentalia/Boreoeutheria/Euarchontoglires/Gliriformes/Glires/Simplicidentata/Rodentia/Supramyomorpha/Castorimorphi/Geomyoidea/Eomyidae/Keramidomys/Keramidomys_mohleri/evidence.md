@@ -9,7 +9,6 @@ records:
     name:
       zh: Keramidomys mohleri
       en: Keramidomys mohleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

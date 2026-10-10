@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus berendsensis
       en: Peromyscus berendsensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

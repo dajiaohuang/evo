@@ -109,9 +109,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-19
-      reviewedAgainstReferenceVersion: ford-2020-amniote @ DOI 10.1038/s41559-019-1047-3
       referenceLinks:
         - relation: supports
           referenceId: ford-2020-amniote

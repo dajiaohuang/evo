@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: irisarri-2020-chitons
       referenceLinks:
         - referenceId: irisarri-2020-chitons
           relation: supports
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: irisarri-2020-chitons
           locator: Article 22; Methods, taxon sampling; Table 1; Figures 1–4
-      reviewStatus: automated-audit-passed
 ---
 
 # Polyplacophora

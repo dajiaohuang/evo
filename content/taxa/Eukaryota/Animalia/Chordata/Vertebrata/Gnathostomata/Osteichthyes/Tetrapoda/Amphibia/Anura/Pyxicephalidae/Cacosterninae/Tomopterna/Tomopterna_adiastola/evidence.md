@@ -9,7 +9,6 @@ records:
     name:
       en: Tomopterna adiastola
       zh: Tomopterna adiastola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

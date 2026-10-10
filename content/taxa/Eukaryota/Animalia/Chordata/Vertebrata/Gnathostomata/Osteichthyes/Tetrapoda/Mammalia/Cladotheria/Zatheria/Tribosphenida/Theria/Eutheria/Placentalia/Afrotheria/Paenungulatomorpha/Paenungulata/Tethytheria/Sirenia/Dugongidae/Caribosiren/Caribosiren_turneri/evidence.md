@@ -9,7 +9,6 @@ records:
     name:
       zh: Caribosiren turneri
       en: Caribosiren turneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

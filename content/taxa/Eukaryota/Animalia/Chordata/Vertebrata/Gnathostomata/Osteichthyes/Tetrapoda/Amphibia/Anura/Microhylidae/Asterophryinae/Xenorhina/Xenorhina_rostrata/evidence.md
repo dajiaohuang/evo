@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina rostrata
       zh: Xenorhina rostrata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

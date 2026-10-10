@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena laurenti
       en: Amphisbaena laurenti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

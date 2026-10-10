@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia teneritas
       zh: Ansonia teneritas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

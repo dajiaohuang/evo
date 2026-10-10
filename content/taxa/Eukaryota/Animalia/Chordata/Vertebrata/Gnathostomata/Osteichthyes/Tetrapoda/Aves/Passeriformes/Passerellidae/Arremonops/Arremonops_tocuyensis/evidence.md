@@ -9,7 +9,6 @@ records:
     name:
       zh: Arremonops tocuyensis
       en: Arremonops tocuyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

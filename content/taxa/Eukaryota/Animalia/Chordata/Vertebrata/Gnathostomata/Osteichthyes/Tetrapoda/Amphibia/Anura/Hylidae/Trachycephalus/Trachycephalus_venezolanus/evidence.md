@@ -9,7 +9,6 @@ records:
     name:
       en: Trachycephalus venezolanus
       zh: Trachycephalus venezolanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

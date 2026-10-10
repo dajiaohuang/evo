@@ -9,7 +9,6 @@ records:
     name:
       zh: Scalopoides isodens
       en: Scalopoides isodens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

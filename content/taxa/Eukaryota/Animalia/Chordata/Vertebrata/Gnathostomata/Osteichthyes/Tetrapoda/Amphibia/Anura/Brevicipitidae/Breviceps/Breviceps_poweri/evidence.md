@@ -9,7 +9,6 @@ records:
     name:
       en: Breviceps poweri
       zh: Breviceps poweri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

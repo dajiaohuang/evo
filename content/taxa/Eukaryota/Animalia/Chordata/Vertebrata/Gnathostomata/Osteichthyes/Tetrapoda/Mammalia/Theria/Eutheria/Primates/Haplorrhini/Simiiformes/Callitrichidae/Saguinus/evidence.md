@@ -9,7 +9,6 @@ records:
     name:
       zh: 绢毛猴属
       en: Tamarins
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: readingPath

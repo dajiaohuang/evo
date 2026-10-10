@@ -9,7 +9,6 @@ records:
     name:
       zh: Temnocyon altigenis
       en: Temnocyon altigenis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

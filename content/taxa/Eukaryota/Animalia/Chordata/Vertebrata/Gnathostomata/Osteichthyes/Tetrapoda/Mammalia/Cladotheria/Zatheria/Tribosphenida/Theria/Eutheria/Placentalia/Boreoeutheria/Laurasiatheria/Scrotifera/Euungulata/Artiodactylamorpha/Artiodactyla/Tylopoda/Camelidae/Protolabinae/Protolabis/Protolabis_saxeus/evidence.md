@@ -9,7 +9,6 @@ records:
     name:
       zh: Protolabis saxeus
       en: Protolabis saxeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

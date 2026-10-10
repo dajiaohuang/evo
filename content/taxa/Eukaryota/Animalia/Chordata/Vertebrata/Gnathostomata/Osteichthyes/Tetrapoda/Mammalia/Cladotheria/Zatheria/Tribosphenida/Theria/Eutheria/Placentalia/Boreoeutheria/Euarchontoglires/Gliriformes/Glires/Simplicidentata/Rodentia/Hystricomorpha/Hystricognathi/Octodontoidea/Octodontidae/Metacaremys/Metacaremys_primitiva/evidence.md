@@ -9,7 +9,6 @@ records:
     name:
       zh: Metacaremys primitiva
       en: Metacaremys primitiva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiotypotherium casirense
       en: Plesiotypotherium casirense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

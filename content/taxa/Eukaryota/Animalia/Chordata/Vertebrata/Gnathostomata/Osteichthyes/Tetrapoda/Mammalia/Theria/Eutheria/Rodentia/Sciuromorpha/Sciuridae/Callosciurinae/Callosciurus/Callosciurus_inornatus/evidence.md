@@ -9,7 +9,6 @@ records:
     name:
       zh: Callosciurus inornatus
       en: Callosciurus inornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Synapturanus zombie
       zh: Synapturanus zombie
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

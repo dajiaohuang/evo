@@ -9,7 +9,6 @@ records:
     name:
       zh: Microtragulus catamarcensis
       en: Microtragulus catamarcensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Papuahyla albolabris
       zh: Papuahyla albolabris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

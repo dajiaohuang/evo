@@ -9,7 +9,6 @@ records:
     name:
       zh: Arimidelphis sorbinii
       en: Arimidelphis sorbinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

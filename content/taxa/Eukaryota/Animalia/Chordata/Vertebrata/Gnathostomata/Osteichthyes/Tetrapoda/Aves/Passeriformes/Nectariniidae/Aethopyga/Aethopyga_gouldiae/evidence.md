@@ -9,7 +9,6 @@ records:
     name:
       zh: Aethopyga gouldiae
       en: Aethopyga gouldiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

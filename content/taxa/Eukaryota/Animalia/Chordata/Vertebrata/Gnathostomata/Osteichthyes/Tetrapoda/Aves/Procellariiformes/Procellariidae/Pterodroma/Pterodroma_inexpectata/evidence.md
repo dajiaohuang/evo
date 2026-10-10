@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodroma inexpectata
       en: Pterodroma inexpectata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

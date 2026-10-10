@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: nesbitt-2009-tawa-saurischian concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: nesbitt-2009-tawa-saurischian
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: nesbitt-2009-tawa-saurischian @ DOI 10.1126/science.1180350
       referenceLinks:
         - relation: supports
           referenceId: nesbitt-2009-tawa-saurischian
@@ -96,7 +90,6 @@ records:
           locator: 1530–1533; Holotype; character analysis; early-dinosaur phylogeny
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

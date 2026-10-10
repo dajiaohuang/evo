@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocalotes brevipes
       en: Pseudocalotes brevipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

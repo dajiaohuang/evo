@@ -9,7 +9,6 @@ records:
     name:
       zh: Craspedochelys renzi
       en: Craspedochelys renzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Smithophis linearis
       en: Smithophis linearis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

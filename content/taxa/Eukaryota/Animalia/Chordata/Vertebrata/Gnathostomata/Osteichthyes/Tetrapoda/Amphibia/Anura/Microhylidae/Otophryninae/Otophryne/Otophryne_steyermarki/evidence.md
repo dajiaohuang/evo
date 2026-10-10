@@ -9,7 +9,6 @@ records:
     name:
       en: Otophryne steyermarki
       zh: Otophryne steyermarki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

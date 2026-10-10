@@ -9,7 +9,6 @@ records:
     name:
       zh: Bairdemys winklerae
       en: Bairdemys winklerae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

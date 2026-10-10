@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Holmer et al. 2008 DOI 10.1098/rsbl.2008.0277 checked for 2026.08-static-v5-rc39
       referenceLinks:
         - referenceId: holmer-et-al-2008-micrina
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: holmer-et-al-2008-micrina
           locator: pp. 724–728; Figures 1–3
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

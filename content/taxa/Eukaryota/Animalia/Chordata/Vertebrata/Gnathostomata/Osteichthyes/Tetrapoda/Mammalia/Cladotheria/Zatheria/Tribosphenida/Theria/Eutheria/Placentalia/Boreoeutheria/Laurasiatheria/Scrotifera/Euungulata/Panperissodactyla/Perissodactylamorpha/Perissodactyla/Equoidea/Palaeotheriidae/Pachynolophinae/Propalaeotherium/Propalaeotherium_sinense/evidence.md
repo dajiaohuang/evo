@@ -9,7 +9,6 @@ records:
     name:
       zh: Propalaeotherium sinense
       en: Propalaeotherium sinense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

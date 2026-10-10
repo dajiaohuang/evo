@@ -9,7 +9,6 @@ records:
     name:
       en: Oreolalax chuanbeiensis
       zh: Oreolalax chuanbeiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

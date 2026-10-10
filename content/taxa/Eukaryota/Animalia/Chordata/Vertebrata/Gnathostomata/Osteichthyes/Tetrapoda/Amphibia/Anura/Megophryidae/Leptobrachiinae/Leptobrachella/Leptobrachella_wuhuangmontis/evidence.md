@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella wuhuangmontis
       zh: Leptobrachella wuhuangmontis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

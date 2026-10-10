@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinosinopa sinensis
       en: Sinosinopa sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Prohyracodon obrutschewi
       en: Prohyracodon obrutschewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Rana amurensis
       zh: Rana amurensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

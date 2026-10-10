@@ -9,7 +9,6 @@ records:
     name:
       zh: Primitivus manduriensis
       en: Primitivus manduriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

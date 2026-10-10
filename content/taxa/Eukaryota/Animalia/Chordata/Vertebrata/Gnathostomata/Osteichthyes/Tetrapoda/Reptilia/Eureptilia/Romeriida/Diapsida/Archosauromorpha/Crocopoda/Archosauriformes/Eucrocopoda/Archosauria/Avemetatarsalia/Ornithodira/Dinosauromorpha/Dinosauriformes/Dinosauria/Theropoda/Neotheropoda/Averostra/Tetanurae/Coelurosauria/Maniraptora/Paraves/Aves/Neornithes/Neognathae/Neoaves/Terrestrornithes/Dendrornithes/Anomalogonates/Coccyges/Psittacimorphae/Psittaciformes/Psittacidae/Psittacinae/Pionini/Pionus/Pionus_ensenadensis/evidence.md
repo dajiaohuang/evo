@@ -9,7 +9,6 @@ records:
     name:
       zh: Pionus ensenadensis
       en: Pionus ensenadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

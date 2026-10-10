@@ -9,7 +9,6 @@ records:
     name:
       zh: Cursoricoccyx geraldinae
       en: Cursoricoccyx geraldinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

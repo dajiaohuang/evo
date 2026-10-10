@@ -9,7 +9,6 @@ records:
     name:
       en: Fejervarya sakishimensis
       zh: Fejervarya sakishimensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

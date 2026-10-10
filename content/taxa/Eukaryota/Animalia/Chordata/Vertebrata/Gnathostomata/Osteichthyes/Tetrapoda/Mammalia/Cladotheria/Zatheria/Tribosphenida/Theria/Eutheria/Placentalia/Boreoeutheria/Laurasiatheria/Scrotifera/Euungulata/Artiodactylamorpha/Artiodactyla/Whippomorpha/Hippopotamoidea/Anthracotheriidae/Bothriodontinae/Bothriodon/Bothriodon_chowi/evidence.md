@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothriodon chowi
       en: Bothriodon chowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

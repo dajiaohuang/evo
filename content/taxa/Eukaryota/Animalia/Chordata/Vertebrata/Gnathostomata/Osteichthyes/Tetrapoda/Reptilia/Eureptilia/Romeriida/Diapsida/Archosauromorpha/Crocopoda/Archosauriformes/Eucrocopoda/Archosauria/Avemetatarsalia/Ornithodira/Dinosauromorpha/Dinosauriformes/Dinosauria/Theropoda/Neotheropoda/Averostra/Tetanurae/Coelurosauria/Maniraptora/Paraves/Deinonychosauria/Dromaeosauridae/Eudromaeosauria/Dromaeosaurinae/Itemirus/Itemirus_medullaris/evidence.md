@@ -9,7 +9,6 @@ records:
     name:
       zh: Itemirus medullaris
       en: Itemirus medullaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

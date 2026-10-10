@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: naylor-2012-elasmobranch-phylogeny DOI 10.1201/b11867-9; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: naylor-2012-elasmobranch-phylogeny
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: inoue-2010-holocephalan-mitogenomics; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: inoue-2010-holocephalan-mitogenomics
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: inoue-2010-holocephalan-mitogenomics
           locator: 2581–2584; Figure 2; Tables 2–3; Divergence-time estimation; elasmobranch fossil constraints and caveats
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Microtus paroperarius
       en: Microtus paroperarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Philothamnus punctatus
       en: Philothamnus punctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

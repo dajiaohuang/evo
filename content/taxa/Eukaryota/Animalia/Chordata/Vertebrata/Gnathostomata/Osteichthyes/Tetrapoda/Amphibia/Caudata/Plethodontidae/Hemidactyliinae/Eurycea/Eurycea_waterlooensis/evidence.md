@@ -9,7 +9,6 @@ records:
     name:
       en: Eurycea waterlooensis
       zh: Eurycea waterlooensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

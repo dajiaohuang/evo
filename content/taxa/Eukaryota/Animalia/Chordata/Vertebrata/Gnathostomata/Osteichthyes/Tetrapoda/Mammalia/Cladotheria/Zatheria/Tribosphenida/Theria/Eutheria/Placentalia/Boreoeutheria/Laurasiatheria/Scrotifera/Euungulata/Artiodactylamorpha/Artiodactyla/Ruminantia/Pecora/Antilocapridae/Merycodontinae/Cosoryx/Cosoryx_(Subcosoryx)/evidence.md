@@ -9,7 +9,6 @@ records:
     name:
       zh: Cosoryx (Subcosoryx)
       en: Cosoryx (Subcosoryx)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

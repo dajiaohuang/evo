@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis englaenderi
       zh: Boophis englaenderi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

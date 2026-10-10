@@ -8,7 +8,7 @@ Accepted names are not a claim that every organism is still extant. The [provide
 
 Matching is deterministic exact scientific-name plus authorship matching after NFC and Unicode-whitespace normalization, with the exact trailing COL authorship suffix removed. No fuzzy, case-folded, accent-folded, synonym, rank-variant, token-reordered or species-concept matching is used. The Reptile Database archive has 12,650 accepted species rows in the Reptilia closure: 12,623 in the non-Crocodylia partition (12,622 exact COL matches and one source-only record) and 27 in Crocodylia (all exact matches). Unmatched, ambiguous and withheld counts are zero in both partitions.
 
-Each row-level payload is deterministic gzip-compressed JSONL and is split so every uncompressed payload is at most 2 MiB. The Web profile is summary-only; the native-full profile retains every projected record for Android and iOS. Source-only records retain null COL ownership and are not a claim of a globally new species. The projection is nomenclatural/source evidence only, not a biological dossier, phylogeny, fossil record or expert review.
+Each row-level payload is deterministic gzip-compressed JSONL and is split so every uncompressed payload is at most 2 MiB. The Web profile is summary-only; the native-full profile retains every projected record for Android and iOS. Source-only records retain null COL ownership and are not a claim of a globally new species. The projection is nomenclatural/source evidence only, not a biological dossier, phylogeny, fossil record.
 
 ## Reproduction and delivery
 

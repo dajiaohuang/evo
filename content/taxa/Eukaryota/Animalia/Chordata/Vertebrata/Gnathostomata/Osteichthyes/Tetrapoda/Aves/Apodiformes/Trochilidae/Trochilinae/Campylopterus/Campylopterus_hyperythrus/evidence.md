@@ -9,7 +9,6 @@ records:
     name:
       zh: Campylopterus hyperythrus
       en: Campylopterus hyperythrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

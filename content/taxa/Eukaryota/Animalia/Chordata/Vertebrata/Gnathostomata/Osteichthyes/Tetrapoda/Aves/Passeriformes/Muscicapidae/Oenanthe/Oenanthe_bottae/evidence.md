@@ -9,7 +9,6 @@ records:
     name:
       zh: Oenanthe bottae
       en: Oenanthe bottae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

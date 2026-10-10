@@ -9,7 +9,6 @@ records:
     name:
       zh: Leipoa ocellata
       en: Leipoa ocellata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

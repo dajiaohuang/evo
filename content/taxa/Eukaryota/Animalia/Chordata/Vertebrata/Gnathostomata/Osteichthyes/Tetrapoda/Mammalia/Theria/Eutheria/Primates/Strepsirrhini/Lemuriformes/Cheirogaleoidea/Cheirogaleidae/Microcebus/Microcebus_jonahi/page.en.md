@@ -28,5 +28,5 @@ The paper's 25 captured individuals were recorded between 42 and 356 m; 14 were 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page summarizes only northeastern study sites, the type locality and capture observations; it does not infer island-wide distribution, population trend, complete habitat preference or current conservation status. The Chinese name is editorial and the page has not received external expert review. The page is not externally expert-reviewed.
+This page summarizes only northeastern study sites, the type locality and capture observations; it does not infer island-wide distribution, population trend, complete habitat preference or current conservation status. The Chinese name is editorial. The page is.
 <!-- /evo:text -->

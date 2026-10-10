@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella papillosa
       zh: Rhinella papillosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

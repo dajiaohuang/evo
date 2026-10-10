@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrastur plumbeus
       en: Micrastur plumbeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Taleta taleta
       en: Taleta taleta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

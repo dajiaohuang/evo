@@ -9,7 +9,6 @@ records:
     name:
       en: Copiula lennarti
       zh: Copiula lennarti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

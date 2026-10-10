@@ -9,7 +9,6 @@ records:
     name:
       en: Ophryophryne poilani
       zh: Ophryophryne poilani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

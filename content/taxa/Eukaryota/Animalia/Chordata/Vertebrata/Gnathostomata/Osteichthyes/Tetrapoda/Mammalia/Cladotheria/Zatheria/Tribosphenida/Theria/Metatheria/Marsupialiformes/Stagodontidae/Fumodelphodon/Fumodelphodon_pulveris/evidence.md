@@ -9,7 +9,6 @@ records:
     name:
       zh: Fumodelphodon pulveris
       en: Fumodelphodon pulveris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

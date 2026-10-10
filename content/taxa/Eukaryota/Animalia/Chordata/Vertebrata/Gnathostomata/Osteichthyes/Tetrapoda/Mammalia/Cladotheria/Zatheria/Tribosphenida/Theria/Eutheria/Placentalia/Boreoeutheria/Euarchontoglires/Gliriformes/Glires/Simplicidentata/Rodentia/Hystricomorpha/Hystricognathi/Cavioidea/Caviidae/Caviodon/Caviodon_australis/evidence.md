@@ -9,7 +9,6 @@ records:
     name:
       zh: Caviodon australis
       en: Caviodon australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

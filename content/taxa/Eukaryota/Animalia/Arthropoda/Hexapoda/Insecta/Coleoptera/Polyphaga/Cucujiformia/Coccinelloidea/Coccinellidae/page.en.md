@@ -28,5 +28,5 @@ account
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introductory account; not externally expert-reviewed. Order or family traits are not automatically facts about every descendant species. Complete ranges, quantitative traits, phylogeny and current conservation status require separate evidence.
+Source-linked introductory account;. Order or family traits are not automatically facts about every descendant species. Complete ranges, quantitative traits, phylogeny and current conservation status require separate evidence.
 <!-- /evo:text -->

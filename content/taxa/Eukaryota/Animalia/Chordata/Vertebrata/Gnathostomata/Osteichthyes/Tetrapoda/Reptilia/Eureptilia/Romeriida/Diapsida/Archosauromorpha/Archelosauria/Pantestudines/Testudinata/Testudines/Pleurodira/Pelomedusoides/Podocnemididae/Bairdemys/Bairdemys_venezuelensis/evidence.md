@@ -9,7 +9,6 @@ records:
     name:
       zh: Bairdemys venezuelensis
       en: Bairdemys venezuelensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus mavrokoilius
       zh: Desmognathus mavrokoilius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

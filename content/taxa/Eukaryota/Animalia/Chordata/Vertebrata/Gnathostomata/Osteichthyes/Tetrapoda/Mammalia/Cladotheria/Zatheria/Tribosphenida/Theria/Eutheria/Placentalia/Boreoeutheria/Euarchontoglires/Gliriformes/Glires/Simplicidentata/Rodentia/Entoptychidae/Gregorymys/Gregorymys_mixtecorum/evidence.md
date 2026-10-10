@@ -9,7 +9,6 @@ records:
     name:
       zh: Gregorymys mixtecorum
       en: Gregorymys mixtecorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

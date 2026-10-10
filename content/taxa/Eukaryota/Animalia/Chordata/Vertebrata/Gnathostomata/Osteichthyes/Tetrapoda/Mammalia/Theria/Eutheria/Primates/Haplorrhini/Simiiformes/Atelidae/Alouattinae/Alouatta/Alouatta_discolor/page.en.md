@@ -16,5 +16,5 @@ The paper notes an earlier record of Spix's howler occurring with the paper's Al
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-A local range and taxonomic-contact guide, not a complete species account, abundance estimate, or conservation assessment; hybridization and gene flow remain hypotheses. This guide is not externally expert-reviewed.
+A local range and taxonomic-contact guide, not a complete species account, abundance estimate, or conservation assessment; hybridization and gene flow remain hypotheses. This guide is.
 <!-- /evo:text -->

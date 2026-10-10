@@ -9,7 +9,6 @@ records:
     name:
       zh: Indosiren javanensis
       en: Indosiren javanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

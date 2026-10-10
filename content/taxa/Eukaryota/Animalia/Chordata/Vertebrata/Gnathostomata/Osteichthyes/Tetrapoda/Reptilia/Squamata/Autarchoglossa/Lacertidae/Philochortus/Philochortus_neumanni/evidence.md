@@ -9,7 +9,6 @@ records:
     name:
       zh: Philochortus neumanni
       en: Philochortus neumanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegotherium caroloameghinoi
       en: Stegotherium caroloameghinoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

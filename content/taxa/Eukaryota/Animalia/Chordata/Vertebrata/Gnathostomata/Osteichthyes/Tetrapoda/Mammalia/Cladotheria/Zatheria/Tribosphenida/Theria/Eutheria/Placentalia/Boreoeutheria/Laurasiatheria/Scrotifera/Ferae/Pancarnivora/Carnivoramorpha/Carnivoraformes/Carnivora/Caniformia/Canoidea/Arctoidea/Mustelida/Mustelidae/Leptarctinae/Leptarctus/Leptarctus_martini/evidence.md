@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptarctus martini
       en: Leptarctus martini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena cubana
       en: Amphisbaena cubana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

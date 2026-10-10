@@ -9,7 +9,6 @@ records:
     name:
       zh: Neovulpavus washakius
       en: Neovulpavus washakius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

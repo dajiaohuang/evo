@@ -9,7 +9,6 @@ records:
     name:
       zh: Saltator atriceps
       en: Saltator atriceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

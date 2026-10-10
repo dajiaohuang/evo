@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristurus guichardi
       en: Pristurus guichardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Podarcis raffonei
       en: Podarcis raffonei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

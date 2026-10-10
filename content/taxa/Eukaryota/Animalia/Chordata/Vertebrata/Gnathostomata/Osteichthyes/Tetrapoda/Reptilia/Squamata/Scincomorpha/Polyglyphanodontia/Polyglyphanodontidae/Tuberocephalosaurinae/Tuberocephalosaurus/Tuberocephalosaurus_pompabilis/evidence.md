@@ -9,7 +9,6 @@ records:
     name:
       zh: Tuberocephalosaurus pompabilis
       en: Tuberocephalosaurus pompabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

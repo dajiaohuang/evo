@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis fetosus
       zh: Pristimantis fetosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

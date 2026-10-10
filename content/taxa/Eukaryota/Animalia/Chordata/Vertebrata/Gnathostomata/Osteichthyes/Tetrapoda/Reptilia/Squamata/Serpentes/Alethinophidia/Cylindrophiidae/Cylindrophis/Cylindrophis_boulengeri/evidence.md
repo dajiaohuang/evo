@@ -9,7 +9,6 @@ records:
     name:
       zh: Cylindrophis boulengeri
       en: Cylindrophis boulengeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

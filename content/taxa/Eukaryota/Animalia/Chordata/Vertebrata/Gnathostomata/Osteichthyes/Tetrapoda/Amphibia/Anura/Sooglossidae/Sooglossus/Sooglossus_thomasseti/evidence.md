@@ -9,7 +9,6 @@ records:
     name:
       en: Sooglossus thomasseti
       zh: Sooglossus thomasseti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

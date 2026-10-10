@@ -9,7 +9,6 @@ records:
     name:
       zh: Basiliscus galeritus
       en: Basiliscus galeritus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

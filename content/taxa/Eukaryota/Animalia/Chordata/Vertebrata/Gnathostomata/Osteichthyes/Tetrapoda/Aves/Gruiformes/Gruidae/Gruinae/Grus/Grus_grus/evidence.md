@@ -9,7 +9,6 @@ records:
     name:
       zh: Grus grus
       en: Grus grus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

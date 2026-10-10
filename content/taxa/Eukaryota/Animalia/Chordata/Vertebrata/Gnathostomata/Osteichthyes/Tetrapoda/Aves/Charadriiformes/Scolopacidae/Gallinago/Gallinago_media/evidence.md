@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallinago media
       en: Gallinago media
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

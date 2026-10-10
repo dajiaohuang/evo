@@ -9,7 +9,6 @@ records:
     name:
       en: Engystomops pustulosus
       zh: Engystomops pustulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

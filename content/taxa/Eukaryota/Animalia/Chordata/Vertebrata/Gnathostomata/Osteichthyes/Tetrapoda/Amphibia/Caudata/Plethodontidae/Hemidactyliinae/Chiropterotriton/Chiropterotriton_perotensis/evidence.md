@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton perotensis
       zh: Chiropterotriton perotensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Occitanomys (Rhodomys) adroveri
       en: Occitanomys (Rhodomys) adroveri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus pakenhami
       zh: Phrynobatrachus pakenhami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

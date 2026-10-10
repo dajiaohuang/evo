@@ -9,7 +9,6 @@ records:
     name:
       zh: Daeodon shoshonensis
       en: Daeodon shoshonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 暹罗鳄
       en: Siamese crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

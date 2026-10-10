@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipile cujubi
       en: Pipile cujubi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

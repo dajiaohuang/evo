@@ -9,7 +9,6 @@ records:
     name:
       zh: Notiosorex repenningi
       en: Notiosorex repenningi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

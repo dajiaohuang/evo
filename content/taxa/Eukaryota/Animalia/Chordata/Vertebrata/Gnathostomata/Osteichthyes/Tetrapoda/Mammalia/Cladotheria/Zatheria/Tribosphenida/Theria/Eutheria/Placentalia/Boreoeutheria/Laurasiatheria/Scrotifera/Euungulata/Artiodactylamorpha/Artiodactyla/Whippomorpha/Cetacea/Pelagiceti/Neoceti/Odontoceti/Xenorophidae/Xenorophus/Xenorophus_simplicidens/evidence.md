@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenorophus simplicidens
       en: Xenorophus simplicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

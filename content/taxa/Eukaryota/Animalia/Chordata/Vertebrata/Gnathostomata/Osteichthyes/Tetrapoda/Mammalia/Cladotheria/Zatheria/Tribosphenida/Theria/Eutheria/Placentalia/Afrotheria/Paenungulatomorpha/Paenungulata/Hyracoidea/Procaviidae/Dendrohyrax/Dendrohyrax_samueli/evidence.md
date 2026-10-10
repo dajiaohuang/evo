@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrohyrax samueli
       en: Dendrohyrax samueli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

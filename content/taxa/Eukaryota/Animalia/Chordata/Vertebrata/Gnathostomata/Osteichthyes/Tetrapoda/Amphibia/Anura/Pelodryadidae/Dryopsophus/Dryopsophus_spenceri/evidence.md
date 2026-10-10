@@ -9,7 +9,6 @@ records:
     name:
       en: Dryopsophus spenceri
       zh: Dryopsophus spenceri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

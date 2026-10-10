@@ -9,7 +9,6 @@ records:
     name:
       zh: Mirotenthes digitipes
       en: Mirotenthes digitipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

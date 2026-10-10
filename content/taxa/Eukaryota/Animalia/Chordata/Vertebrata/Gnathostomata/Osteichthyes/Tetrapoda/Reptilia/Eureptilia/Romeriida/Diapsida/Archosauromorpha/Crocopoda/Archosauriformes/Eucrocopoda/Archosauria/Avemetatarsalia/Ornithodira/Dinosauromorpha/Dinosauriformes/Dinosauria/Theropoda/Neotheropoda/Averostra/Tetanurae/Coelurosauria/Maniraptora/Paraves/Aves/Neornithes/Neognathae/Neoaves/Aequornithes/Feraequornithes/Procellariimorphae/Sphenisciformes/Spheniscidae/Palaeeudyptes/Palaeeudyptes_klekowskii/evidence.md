@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeeudyptes klekowskii
       en: Palaeeudyptes klekowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

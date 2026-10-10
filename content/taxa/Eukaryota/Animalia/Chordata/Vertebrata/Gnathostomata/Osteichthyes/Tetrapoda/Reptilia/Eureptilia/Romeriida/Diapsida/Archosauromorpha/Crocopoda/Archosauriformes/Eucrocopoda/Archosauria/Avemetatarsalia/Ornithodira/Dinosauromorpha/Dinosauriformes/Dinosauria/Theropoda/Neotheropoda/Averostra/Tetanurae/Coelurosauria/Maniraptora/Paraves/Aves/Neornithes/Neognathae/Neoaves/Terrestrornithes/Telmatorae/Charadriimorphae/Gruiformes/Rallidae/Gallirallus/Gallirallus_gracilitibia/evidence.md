@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallirallus gracilitibia
       en: Gallirallus gracilitibia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

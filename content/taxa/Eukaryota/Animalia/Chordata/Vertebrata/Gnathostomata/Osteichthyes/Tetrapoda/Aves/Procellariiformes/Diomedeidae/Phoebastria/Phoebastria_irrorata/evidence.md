@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoebastria irrorata
       en: Phoebastria irrorata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

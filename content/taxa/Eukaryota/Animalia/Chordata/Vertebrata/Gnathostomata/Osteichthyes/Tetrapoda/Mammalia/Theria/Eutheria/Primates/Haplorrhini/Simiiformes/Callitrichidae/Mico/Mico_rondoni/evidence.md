@@ -9,7 +9,6 @@ records:
     name:
       zh: 朗东绒猴
       en: Rondon's marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hakaria simonyi
       en: Hakaria simonyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

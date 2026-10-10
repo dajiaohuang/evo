@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthreptes simplex
       en: Anthreptes simplex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

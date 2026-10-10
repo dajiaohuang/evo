@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelidodon tarijensis
       en: Scelidodon tarijensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

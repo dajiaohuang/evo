@@ -9,7 +9,6 @@ records:
     name:
       zh: Punahyrax bondesioi
       en: Punahyrax bondesioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

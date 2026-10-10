@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyrannus forficatus
       en: Tyrannus forficatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Poyntonophrynus parkeri
       zh: Poyntonophrynus parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pitta sordida
       en: Pitta sordida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

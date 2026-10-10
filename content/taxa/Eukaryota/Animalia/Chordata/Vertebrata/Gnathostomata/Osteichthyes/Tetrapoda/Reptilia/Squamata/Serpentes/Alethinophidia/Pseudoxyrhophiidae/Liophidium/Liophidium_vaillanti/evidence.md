@@ -9,7 +9,6 @@ records:
     name:
       zh: Liophidium vaillanti
       en: Liophidium vaillanti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Peltephilus pumilus
       en: Peltephilus pumilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

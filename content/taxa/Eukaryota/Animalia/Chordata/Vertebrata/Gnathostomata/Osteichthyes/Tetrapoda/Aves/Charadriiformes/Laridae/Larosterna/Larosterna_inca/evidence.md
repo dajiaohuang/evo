@@ -9,7 +9,6 @@ records:
     name:
       zh: Larosterna inca
       en: Larosterna inca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

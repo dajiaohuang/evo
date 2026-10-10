@@ -28,5 +28,5 @@ A 2006 taxonomic and distribution review summarized the species as occurring in 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The main field behavior evidence comes from two Kenyan forests in the 1980s and was published under a name later revised. This page does not generalize it to the species-wide social system, current population size or a complete range. Source-linked bilingual draft; not externally expert-reviewed.
+The main field behavior evidence comes from two Kenyan forests in the 1980s and was published under a name later revised. This page does not generalize it to the species-wide social system, current population size or a complete range. Source-linked bilingual draft;.
 <!-- /evo:text -->

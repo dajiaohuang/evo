@@ -9,7 +9,6 @@ records:
     name:
       zh: Bubo africanus
       en: Bubo africanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scotophilus viridis
       en: Scotophilus viridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

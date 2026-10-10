@@ -9,7 +9,6 @@ records:
     name:
       en: Fritziana mitus
       zh: Fritziana mitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

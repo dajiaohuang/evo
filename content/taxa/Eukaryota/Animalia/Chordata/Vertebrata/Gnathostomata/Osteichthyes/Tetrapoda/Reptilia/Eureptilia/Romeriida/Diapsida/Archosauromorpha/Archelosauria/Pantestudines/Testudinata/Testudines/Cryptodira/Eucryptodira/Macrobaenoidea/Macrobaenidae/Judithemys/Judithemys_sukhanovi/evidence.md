@@ -9,7 +9,6 @@ records:
     name:
       zh: Judithemys sukhanovi
       en: Judithemys sukhanovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

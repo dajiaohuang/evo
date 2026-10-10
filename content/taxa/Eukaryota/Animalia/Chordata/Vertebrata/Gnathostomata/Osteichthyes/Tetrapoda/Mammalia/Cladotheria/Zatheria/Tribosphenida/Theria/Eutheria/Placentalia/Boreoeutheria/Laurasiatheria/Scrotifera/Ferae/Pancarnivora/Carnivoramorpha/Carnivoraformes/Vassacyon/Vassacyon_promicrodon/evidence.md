@@ -9,7 +9,6 @@ records:
     name:
       zh: Vassacyon promicrodon
       en: Vassacyon promicrodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

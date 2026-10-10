@@ -9,7 +9,6 @@ records:
     name:
       zh: Todiramphus macleayii
       en: Todiramphus macleayii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

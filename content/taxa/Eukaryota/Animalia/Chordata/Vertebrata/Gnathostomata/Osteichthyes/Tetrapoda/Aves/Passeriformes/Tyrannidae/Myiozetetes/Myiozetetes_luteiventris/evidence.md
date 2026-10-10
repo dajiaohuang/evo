@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiozetetes luteiventris
       en: Myiozetetes luteiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

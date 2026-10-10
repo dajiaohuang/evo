@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipistrellus minahassae
       en: Pipistrellus minahassae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

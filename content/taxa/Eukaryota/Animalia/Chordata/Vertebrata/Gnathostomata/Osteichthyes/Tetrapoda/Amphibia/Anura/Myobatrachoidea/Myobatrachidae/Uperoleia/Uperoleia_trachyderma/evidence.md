@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia trachyderma
       zh: Uperoleia trachyderma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

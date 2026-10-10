@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus melanoleucus
       zh: Zhangixalus melanoleucus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lanius nubicus
       en: Lanius nubicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

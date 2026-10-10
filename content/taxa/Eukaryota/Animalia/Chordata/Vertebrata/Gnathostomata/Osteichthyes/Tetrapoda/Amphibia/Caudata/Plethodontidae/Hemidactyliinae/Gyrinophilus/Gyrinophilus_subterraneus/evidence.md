@@ -9,7 +9,6 @@ records:
     name:
       en: Gyrinophilus subterraneus
       zh: Gyrinophilus subterraneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

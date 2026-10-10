@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiopython albertisii
       en: Leiopython albertisii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

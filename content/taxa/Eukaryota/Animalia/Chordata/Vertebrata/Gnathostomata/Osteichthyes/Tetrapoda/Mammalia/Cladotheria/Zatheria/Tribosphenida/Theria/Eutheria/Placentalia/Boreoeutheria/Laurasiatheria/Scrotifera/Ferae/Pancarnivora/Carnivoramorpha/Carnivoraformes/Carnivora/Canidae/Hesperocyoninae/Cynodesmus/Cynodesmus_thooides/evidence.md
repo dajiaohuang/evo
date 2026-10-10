@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynodesmus thooides
       en: Cynodesmus thooides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

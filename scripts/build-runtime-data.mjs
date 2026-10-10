@@ -4,7 +4,6 @@ import { basename, dirname, join, relative, resolve, sep } from 'node:path'
 import { gunzipSync, brotliDecompressSync } from 'node:zlib'
 import { strToU8 } from 'fflate'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
-import { evaluatePackageReview } from './check-review-freshness.mjs'
 import { deterministicGzip, deterministicZip } from './archive-determinism.mjs'
 import { releaseRetentionByteLimit } from './artifact-budget.mjs'
 import { partitionSanbiDescriptions } from './sanbi-description-shards.mjs'
@@ -963,7 +962,6 @@ for (const packageEntry of registry.packages) {
   const packageId = packageEntry.id
   const catalogueCoverageEntry = catalogueSpeciesOwnership.entries.find((entry) => entry.id === packageId && entry.kind === 'static-package')
   if (!catalogueCoverageEntry) throw new Error(`Catalogue ownership is missing static package ${packageId}`)
-  const packageReview = evaluatePackageReview(packageId)
   const packageQueryLedger = readJson(`${packageEntry.canonicalPath}/query-ledger.json`)
   const targetedOccurrenceSnapshot = packageQueryLedger.occurrenceSnapshot ? readJson(packageQueryLedger.occurrenceSnapshot) : null
   const packagePhylogenyStatus = readJson(`${packageEntry.canonicalPath}/phylogeny/status.json`)
@@ -1043,20 +1041,8 @@ for (const packageEntry of registry.packages) {
     version: sourceManifest.datasetVersion,
     title: packageEntry.title,
     titleZh: packageEntry.titleZh,
-    platformMaturity: packageEntry.platformMaturity,
-    scientificMaturity: packageEntry.scientificMaturity,
-    automatedReviewStatus: packageEntry.automatedReviewStatus,
-    reviewStatus: packageReview.reviewStatus,
-    effectiveReviewStatus: packageReview.effectiveReviewStatus,
-    reviewFreshness: packageReview.freshness,
-    reviewedBy: packageReview.reviewedBy,
-    reviewedAt: packageReview.reviewedAt,
-    reviewedCommit: packageReview.reviewedCommit,
-    reviewedContentDigest: packageReview.reviewedContentDigest,
-    currentContentDigest: packageReview.currentContentDigest,
-    chatgptAssisted: packageReview.chatgptAssisted,
-    reviewScope: packageReview.scope,
-    reviewOpenIssues: packageReview.openIssues,
+
+
     entityCount: packageEntities.length,
     profileCount: packageProfiles.length,
     claimCount: packageClaims.length,
@@ -1933,13 +1919,7 @@ const current = {
     chineseNamesPresent: `${entities.filter((entity) => entity.names.zh).length}/${entities.length}`,
     packageOwnership: `${entities.filter((entity) => entity.packageId).length}/${entities.length}`,
     acceptedSpeciesPackageOwnership: `${catalogueRuntimeManifest.ownership.assignedSpecies}/${catalogueRuntimeManifest.ownership.acceptedSpecies}`,
-    scientificMaturitySummary: registry.packages
-      .reduce((summary, entry) => {
-        summary[entry.scientificMaturity] = (summary[entry.scientificMaturity] ?? 0) + 1
-        return summary
-      }, {}),
-    maintainerReview: 'reviewed and reviewed-with-caveats identify a maintainer decision against an exact content digest; stale is computed and never stored manually.',
-    externalExpertReview: 'No package currently claims external domain-expert peer review.',
+
     wholeLifeCoverageClaim: false,
   },
 }

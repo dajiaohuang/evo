@@ -9,7 +9,6 @@ records:
     name:
       zh: 金面僧面猴
       en: Golden-faced Saki
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

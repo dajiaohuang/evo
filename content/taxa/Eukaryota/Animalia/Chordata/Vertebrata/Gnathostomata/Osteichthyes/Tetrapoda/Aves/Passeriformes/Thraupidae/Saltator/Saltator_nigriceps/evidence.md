@@ -9,7 +9,6 @@ records:
     name:
       zh: Saltator nigriceps
       en: Saltator nigriceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

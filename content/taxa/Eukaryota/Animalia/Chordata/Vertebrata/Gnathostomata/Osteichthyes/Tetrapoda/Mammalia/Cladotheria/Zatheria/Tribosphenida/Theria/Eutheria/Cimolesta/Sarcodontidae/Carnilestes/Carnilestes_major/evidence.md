@@ -9,7 +9,6 @@ records:
     name:
       zh: Carnilestes major
       en: Carnilestes major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis orestes
       zh: Pristimantis orestes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

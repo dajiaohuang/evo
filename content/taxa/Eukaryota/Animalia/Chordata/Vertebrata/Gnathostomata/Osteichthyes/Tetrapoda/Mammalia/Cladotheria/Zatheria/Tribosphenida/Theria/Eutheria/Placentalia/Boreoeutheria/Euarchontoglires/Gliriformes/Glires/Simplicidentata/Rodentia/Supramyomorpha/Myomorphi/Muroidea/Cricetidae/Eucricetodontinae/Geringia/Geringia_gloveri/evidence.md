@@ -9,7 +9,6 @@ records:
     name:
       zh: Geringia gloveri
       en: Geringia gloveri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

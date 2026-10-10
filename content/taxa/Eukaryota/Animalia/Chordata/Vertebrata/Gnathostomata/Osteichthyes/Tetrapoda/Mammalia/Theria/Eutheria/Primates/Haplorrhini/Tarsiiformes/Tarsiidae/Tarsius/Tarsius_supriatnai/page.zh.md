@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-栖地与地点忠实度结果来自一处景观和有限巢树样本，不能据此确立全种栖地偏好。 本页尚未经过外部领域专家评审。
+栖地与地点忠实度结果来自一处景观和有限巢树样本，不能据此确立全种栖地偏好。 。
 <!-- /evo:text -->

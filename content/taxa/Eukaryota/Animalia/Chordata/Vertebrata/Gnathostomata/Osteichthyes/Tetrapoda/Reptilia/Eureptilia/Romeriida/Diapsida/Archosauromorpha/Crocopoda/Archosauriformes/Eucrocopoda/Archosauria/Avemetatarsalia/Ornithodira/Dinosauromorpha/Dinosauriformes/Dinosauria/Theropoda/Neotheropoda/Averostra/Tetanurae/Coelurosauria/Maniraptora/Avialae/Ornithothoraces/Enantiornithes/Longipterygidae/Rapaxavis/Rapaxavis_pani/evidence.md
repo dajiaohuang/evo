@@ -9,7 +9,6 @@ records:
     name:
       zh: Rapaxavis pani
       en: Rapaxavis pani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

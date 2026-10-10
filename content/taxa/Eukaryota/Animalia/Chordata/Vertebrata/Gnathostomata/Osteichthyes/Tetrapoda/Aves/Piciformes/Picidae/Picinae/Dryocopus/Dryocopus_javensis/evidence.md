@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryocopus javensis
       en: Dryocopus javensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

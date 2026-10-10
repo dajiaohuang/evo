@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys xeros
       zh: Sclerophrys xeros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

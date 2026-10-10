@@ -9,7 +9,6 @@ records:
     name:
       zh: Amerotyphlops illusorium
       en: Amerotyphlops illusorium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

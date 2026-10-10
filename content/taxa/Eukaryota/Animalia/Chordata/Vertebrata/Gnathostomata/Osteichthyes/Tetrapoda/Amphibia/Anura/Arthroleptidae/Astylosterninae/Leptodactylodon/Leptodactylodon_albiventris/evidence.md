@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylodon albiventris
       zh: Leptodactylodon albiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

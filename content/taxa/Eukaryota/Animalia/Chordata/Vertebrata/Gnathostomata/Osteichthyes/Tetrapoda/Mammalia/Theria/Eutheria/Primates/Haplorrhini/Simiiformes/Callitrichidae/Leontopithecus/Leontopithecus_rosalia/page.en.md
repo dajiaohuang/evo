@@ -16,7 +16,7 @@ A lure-assisted point-transect survey across seven management units estimated 3,
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Abundance and origin shares are survey estimates for 2014, not current population size or subsequent trends.
+Source-linked introduction;. Abundance and origin shares are survey estimates for 2014, not current population size or subsequent trends.
 <!-- /evo:text -->
 
 ## The name in the historical life-history record

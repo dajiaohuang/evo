@@ -9,7 +9,6 @@ records:
     name:
       zh: Celeus flavescens
       en: Celeus flavescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

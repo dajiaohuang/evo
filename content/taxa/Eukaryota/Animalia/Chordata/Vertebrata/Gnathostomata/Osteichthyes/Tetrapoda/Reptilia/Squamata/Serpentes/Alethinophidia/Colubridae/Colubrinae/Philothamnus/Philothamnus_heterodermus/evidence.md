@@ -9,7 +9,6 @@ records:
     name:
       zh: Philothamnus heterodermus
       en: Philothamnus heterodermus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

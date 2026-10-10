@@ -9,7 +9,6 @@ records:
     name:
       zh: Lichenostomus cratitius
       en: Lichenostomus cratitius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

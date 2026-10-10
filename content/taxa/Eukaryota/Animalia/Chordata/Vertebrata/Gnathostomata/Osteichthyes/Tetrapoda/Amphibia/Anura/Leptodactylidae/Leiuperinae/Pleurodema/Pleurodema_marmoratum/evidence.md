@@ -9,7 +9,6 @@ records:
     name:
       en: Pleurodema marmoratum
       zh: Pleurodema marmoratum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

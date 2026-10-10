@@ -9,7 +9,6 @@ records:
     name:
       zh: Wangictis tedfordi
       en: Wangictis tedfordi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesotes
       en: Mesotes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

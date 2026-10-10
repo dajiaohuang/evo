@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus wangkulangkulae
       en: Cyrtodactylus wangkulangkulae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

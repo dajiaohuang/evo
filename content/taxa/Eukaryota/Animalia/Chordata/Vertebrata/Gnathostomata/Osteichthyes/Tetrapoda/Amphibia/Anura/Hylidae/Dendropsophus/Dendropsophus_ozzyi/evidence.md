@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus ozzyi
       zh: Dendropsophus ozzyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

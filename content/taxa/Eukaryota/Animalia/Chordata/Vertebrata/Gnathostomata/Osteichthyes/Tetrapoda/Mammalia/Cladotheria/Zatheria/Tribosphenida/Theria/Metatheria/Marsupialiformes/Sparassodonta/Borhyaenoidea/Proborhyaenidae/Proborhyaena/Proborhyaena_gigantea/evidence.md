@@ -9,7 +9,6 @@ records:
     name:
       zh: Proborhyaena gigantea
       en: Proborhyaena gigantea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

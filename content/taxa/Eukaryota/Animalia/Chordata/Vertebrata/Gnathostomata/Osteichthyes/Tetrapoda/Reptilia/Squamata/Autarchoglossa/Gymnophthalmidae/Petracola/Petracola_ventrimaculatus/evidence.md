@@ -9,7 +9,6 @@ records:
     name:
       zh: Petracola ventrimaculatus
       en: Petracola ventrimaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

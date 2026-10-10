@@ -9,7 +9,6 @@ records:
     name:
       en: Aneides vagrans
       zh: Aneides vagrans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

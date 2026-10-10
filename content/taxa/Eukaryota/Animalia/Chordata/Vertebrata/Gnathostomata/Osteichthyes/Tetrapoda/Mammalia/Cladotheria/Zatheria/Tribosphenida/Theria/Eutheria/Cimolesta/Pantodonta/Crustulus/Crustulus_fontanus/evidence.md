@@ -9,7 +9,6 @@ records:
     name:
       zh: Crustulus fontanus
       en: Crustulus fontanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

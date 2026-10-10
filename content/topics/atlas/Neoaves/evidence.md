@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: suh-2016-neoavian-polytomy concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: suh-2016-neoavian-polytomy
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: suh-2016-neoavian-polytomy
           locator: 50–62; Abstract; phylogenomic forest analysis; incomplete lineage sorting; Conclusions
-      reviewStatus: automated-audit-passed
 ---
 
 # Neoaves

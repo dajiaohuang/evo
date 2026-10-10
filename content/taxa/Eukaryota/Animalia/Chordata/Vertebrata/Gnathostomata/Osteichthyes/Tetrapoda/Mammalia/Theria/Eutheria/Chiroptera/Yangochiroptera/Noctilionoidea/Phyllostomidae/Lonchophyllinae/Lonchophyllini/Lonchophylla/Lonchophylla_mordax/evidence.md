@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchophylla mordax
       en: Lonchophylla mordax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

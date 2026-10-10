@@ -9,7 +9,6 @@ records:
     name:
       zh: Liaoningosaurus paradoxus
       en: Liaoningosaurus paradoxus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

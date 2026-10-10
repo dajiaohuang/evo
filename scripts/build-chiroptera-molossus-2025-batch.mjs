@@ -167,11 +167,9 @@ const dossiers = taxa.map(taxon => ({
       'This is a single-study evidence slice; life history, species-specific ecology, full distribution, fossil occurrence, and conservation assessment remain not-assessed.',
       'Morphological evidence is limited to adult-sample forearm measurements and does not provide a complete diagnostic or variation account.',
       'Evolutionary evidence is limited to one mitochondrial phylogenetic analysis and has study-specific sampling and support limits.',
-      'The exact COL-to-ITIS nomenclatural link does not by itself establish full biological species-concept equivalence; no external expert review was completed.'
+      'The exact COL-to-ITIS nomenclatural link does not by itself establish full biological species-concept equivalence; '
     ]
-  },
-  expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null }
-}))
+  }}))
 
 const raw = Buffer.from(`${dossiers.map(record => JSON.stringify(record)).join('\n')}\n`, 'utf8')
 const parsed = raw.toString('utf8').trimEnd().split(/\r?\n/).map(JSON.parse)

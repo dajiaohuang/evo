@@ -122,5 +122,5 @@ xu-2012-yutyrannus
 ## Reader limitations
 
 <!-- evo:text /records/atlas-profile/readerLimitations/en -->
-This atlas concept is marked unresolved and has no fixed PBDB taxon ID. The page follows a selected fossil sample into the atlas's living-bird navigation; 233.2–0 Ma is not an uninterrupted occurrence interval. The cited specimens and topology analyses do not form a complete dinosaur ecology or evolutionary history, and this reader draft has not received external expert review.
+This atlas concept is marked unresolved and has no fixed PBDB taxon ID. The page follows a selected fossil sample into the atlas's living-bird navigation; 233.2–0 Ma is not an uninterrupted occurrence interval. The cited specimens and topology analyses do not form a complete dinosaur ecology or evolutionary history.
 <!-- /evo:text -->

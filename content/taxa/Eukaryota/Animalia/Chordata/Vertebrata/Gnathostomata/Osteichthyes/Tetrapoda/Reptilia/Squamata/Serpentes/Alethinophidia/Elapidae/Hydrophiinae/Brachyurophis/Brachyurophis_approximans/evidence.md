@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyurophis approximans
       en: Brachyurophis approximans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

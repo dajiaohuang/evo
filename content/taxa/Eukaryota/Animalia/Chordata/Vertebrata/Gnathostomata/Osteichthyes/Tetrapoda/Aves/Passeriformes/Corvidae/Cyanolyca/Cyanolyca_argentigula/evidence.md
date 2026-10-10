@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanolyca argentigula
       en: Cyanolyca argentigula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

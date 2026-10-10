@@ -9,7 +9,6 @@ records:
     name:
       zh: Psilopogon chrysopogon
       en: Psilopogon chrysopogon
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

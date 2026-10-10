@@ -9,7 +9,6 @@ records:
     name:
       zh: Mookomys formicarum
       en: Mookomys formicarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

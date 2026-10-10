@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudomys delicatulus
       en: Pseudomys delicatulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

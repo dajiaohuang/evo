@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypertragulus minor
       en: Hypertragulus minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoenicurus alaschanicus
       en: Phoenicurus alaschanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

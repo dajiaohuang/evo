@@ -9,7 +9,6 @@ records:
     name:
       en: Hamptophryne alios
       zh: Hamptophryne alios
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

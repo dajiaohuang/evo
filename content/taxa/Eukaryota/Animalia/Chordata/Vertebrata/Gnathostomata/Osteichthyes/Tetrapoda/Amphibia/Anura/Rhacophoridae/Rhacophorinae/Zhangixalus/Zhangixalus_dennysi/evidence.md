@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus dennysi
       zh: Zhangixalus dennysi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

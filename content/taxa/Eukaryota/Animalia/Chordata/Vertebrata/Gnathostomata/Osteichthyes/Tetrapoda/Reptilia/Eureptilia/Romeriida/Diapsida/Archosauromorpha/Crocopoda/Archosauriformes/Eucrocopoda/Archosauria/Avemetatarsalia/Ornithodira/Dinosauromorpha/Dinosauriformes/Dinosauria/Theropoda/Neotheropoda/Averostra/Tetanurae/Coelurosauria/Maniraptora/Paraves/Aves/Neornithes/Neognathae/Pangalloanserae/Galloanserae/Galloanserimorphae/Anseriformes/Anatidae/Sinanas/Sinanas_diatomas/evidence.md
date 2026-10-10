@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinanas diatomas
       en: Sinanas diatomas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sus ahoenobarbus
       en: Sus ahoenobarbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

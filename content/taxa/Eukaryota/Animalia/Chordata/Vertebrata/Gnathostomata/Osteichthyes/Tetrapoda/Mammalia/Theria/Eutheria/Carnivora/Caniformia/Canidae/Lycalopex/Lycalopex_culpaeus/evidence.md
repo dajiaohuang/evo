@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycalopex culpaeus
       en: Lycalopex culpaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

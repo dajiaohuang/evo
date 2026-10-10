@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia huwei
       zh: Stumpffia huwei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

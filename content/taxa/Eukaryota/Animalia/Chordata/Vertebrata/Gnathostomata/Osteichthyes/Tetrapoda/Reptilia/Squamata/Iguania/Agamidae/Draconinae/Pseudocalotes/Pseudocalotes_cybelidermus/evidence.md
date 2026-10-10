@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocalotes cybelidermus
       en: Pseudocalotes cybelidermus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

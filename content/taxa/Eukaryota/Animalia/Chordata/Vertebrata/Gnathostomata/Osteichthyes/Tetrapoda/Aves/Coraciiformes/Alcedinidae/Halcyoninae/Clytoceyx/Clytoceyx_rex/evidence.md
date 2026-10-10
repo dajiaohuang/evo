@@ -9,7 +9,6 @@ records:
     name:
       zh: Clytoceyx rex
       en: Clytoceyx rex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

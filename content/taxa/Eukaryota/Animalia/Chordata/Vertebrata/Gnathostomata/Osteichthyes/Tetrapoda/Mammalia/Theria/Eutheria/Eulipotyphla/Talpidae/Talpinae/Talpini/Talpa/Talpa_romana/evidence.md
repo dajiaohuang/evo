@@ -9,7 +9,6 @@ records:
     name:
       zh: Talpa romana
       en: Talpa romana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tribosphenomys
       en: Tribosphenomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

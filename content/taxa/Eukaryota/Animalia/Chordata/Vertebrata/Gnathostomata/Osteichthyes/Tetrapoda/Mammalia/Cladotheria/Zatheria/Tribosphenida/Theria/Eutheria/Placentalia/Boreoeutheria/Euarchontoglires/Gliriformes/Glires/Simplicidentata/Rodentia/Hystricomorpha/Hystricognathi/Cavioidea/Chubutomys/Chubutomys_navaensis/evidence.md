@@ -9,7 +9,6 @@ records:
     name:
       zh: Chubutomys navaensis
       en: Chubutomys navaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

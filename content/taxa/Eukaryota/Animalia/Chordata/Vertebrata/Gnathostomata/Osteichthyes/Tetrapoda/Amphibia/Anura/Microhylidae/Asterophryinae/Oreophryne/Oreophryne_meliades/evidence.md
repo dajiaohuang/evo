@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne meliades
       zh: Oreophryne meliades
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phenacolemur simonsi
       en: Phenacolemur simonsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

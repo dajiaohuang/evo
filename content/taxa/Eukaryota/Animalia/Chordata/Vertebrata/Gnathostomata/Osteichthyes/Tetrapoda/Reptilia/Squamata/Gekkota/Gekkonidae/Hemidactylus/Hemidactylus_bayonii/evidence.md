@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus bayonii
       en: Hemidactylus bayonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

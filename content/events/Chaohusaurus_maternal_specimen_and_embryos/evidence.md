@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Motani et al. 2014 DOI 10.1371/journal.pone.0088640
       referenceLinks:
         - referenceId: motani-2014-chaohusaurus-viviparity
           relation: supports

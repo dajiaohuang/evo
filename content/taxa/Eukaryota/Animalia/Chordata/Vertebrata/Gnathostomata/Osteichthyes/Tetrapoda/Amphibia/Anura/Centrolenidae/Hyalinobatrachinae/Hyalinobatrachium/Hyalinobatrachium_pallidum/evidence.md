@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium pallidum
       zh: Hyalinobatrachium pallidum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

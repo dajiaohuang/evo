@@ -9,7 +9,6 @@ records:
     name:
       en: Discoglossus montalentii
       zh: Discoglossus montalentii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

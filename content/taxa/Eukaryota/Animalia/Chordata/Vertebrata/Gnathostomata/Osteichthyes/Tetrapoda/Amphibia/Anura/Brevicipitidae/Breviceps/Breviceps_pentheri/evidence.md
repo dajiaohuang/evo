@@ -9,7 +9,6 @@ records:
     name:
       en: Breviceps pentheri
       zh: Breviceps pentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

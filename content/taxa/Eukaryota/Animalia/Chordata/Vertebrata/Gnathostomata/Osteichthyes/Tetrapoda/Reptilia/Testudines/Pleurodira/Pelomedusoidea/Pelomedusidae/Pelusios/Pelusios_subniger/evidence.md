@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelusios subniger
       en: Pelusios subniger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

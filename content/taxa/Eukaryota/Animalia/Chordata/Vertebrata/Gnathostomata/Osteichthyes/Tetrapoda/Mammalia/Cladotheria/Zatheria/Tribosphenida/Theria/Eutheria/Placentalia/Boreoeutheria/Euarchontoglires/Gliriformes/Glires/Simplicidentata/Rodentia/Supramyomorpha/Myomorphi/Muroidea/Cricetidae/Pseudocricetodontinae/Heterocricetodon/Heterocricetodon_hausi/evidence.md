@@ -9,7 +9,6 @@ records:
     name:
       zh: Heterocricetodon hausi
       en: Heterocricetodon hausi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

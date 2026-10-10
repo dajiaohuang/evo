@@ -9,7 +9,6 @@ records:
     name:
       zh: Africanomys pulcher
       en: Africanomys pulcher
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

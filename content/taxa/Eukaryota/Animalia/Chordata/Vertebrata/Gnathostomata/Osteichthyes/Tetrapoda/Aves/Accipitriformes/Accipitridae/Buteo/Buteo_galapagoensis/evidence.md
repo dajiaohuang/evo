@@ -9,7 +9,6 @@ records:
     name:
       zh: Buteo galapagoensis
       en: Buteo galapagoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

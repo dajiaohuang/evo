@@ -9,7 +9,6 @@ records:
     name:
       zh: Juscelinomys
       en: Juscelinomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

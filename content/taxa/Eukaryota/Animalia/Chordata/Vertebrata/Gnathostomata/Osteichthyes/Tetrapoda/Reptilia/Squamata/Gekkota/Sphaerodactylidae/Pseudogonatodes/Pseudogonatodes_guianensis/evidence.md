@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudogonatodes guianensis
       en: Pseudogonatodes guianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

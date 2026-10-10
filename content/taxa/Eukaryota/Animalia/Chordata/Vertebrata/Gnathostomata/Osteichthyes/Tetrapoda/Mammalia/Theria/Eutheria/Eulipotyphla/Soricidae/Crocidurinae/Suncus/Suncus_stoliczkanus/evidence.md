@@ -9,7 +9,6 @@ records:
     name:
       zh: Suncus stoliczkanus
       en: Suncus stoliczkanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracontias fasika
       en: Paracontias fasika
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

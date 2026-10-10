@@ -9,7 +9,6 @@ records:
     name:
       zh: Copelemur australotutus
       en: Copelemur australotutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

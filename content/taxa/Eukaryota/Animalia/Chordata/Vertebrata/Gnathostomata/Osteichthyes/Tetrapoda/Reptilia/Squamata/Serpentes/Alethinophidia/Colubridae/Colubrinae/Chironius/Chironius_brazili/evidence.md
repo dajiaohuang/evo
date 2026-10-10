@@ -9,7 +9,6 @@ records:
     name:
       zh: Chironius brazili
       en: Chironius brazili
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Adelastes hylonomos
       zh: Adelastes hylonomos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

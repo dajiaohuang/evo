@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus sushilduttai
       en: Hemidactylus sushilduttai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

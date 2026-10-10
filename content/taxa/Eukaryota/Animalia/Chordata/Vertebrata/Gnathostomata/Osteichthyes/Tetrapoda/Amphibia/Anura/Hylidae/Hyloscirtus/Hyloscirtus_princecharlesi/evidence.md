@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus princecharlesi
       zh: Hyloscirtus princecharlesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

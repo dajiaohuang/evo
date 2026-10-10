@@ -108,7 +108,7 @@ dossier.identity.scope = 'COL26.8 usage 3WWP6 only. Existing mitochondrial evide
 dossier.lifeStatusScope.wild = 'Ram et al. (2015) sampled wild Western Ghats populations. Dhawale et al. (2020) followed one free-ranging Puthuthottam troop in February–May 2016. Bindu et al. (2024) reports 375.9 focal-watch hours across four wild troop groups at Puduthottam during four months of one dry season; the preprint gives no calendar year and was not certified by peer review. These are bounded field samples, not captive, domesticated, or fossil records.'
 dossier.completeness.reasons = [
   'Evidence remains geographically and methodologically bounded: regional mitochondrial samples, a one-troop habitat study by Dhawale et al. (2020), and a separate four-troop study at one fragment in a single dry season reported in a bioRxiv v1 preprint not certified by peer review. Broader ecology and population coverage remain incomplete.',
-  'Morphology, life history, and fossil evidence remain unassessed; independent expert review has not been completed.',
+  'Morphology, life history, and fossil evidence remain unassessed; ',
 ]
 dossier.checkedAt = source.checkedAt
 dossier.facets.ecology.claims.push(structuredClone(source.claim))

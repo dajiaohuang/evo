@@ -9,7 +9,6 @@ records:
     name:
       zh: Goggia essexi
       en: Goggia essexi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Afrixalus fulvovittatus
       zh: Afrixalus fulvovittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brucepattersonius misionensis
       en: Brucepattersonius misionensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

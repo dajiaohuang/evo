@@ -9,7 +9,6 @@ records:
     name:
       en: Kallistobatrachus aplini
       zh: Kallistobatrachus aplini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

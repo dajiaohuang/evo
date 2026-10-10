@@ -9,7 +9,6 @@ records:
     name:
       zh: Barlochersaurus winhtini
       en: Barlochersaurus winhtini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

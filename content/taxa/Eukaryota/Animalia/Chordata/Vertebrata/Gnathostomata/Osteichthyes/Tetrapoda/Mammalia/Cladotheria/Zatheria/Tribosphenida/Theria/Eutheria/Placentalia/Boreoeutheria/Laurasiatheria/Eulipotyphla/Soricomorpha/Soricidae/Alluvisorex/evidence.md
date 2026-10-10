@@ -9,7 +9,6 @@ records:
     name:
       zh: Alluvisorex
       en: Alluvisorex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

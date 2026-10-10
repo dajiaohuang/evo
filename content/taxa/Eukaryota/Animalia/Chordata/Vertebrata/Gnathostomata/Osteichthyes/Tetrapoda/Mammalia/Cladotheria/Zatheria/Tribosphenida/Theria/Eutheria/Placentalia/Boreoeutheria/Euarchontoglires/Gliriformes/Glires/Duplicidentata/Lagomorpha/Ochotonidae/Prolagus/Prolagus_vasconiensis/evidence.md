@@ -9,7 +9,6 @@ records:
     name:
       zh: Prolagus vasconiensis
       en: Prolagus vasconiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

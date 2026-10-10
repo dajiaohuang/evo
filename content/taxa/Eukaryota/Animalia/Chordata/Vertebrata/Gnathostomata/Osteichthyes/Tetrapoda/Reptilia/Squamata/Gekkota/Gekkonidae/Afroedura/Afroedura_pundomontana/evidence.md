@@ -9,7 +9,6 @@ records:
     name:
       zh: Afroedura pundomontana
       en: Afroedura pundomontana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

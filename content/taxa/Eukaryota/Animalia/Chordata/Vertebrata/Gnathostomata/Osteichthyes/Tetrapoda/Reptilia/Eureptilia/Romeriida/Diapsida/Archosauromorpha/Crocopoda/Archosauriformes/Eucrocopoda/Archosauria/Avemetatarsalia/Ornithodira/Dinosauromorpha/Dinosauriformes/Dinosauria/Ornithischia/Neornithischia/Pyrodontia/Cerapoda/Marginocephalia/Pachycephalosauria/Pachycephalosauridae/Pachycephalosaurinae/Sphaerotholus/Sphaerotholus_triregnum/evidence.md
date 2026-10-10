@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerotholus triregnum
       en: Sphaerotholus triregnum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

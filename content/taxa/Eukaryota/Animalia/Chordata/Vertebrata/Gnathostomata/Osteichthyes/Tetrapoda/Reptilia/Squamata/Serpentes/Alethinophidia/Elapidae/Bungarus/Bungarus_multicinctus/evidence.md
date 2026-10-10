@@ -9,7 +9,6 @@ records:
     name:
       zh: Bungarus multicinctus
       en: Bungarus multicinctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

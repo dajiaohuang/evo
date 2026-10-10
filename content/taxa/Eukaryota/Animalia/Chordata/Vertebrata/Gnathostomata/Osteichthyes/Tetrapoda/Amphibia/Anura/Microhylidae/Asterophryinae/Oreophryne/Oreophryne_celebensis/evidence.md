@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne celebensis
       zh: Oreophryne celebensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

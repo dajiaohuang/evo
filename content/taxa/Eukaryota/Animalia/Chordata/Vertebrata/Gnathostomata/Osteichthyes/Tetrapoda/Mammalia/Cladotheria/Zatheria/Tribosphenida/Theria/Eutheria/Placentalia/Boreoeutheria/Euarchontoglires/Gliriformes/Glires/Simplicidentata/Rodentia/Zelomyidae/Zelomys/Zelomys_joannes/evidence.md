@@ -9,7 +9,6 @@ records:
     name:
       zh: Zelomys joannes
       en: Zelomys joannes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

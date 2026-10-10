@@ -9,7 +9,6 @@ records:
     name:
       zh: 韦氏冕狐猴
       en: Verreaux's sifaka
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: lifeHistory
@@ -585,8 +584,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Propithecus verreauxi
@@ -864,5 +861,5 @@ Morphology, evolution, species-wide distribution, species-level fossil occurrenc
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No systematic seven-facet review or independent external expert review has been completed.
+No systematic seven-facet search has been completed.
 <!-- /evo:text -->

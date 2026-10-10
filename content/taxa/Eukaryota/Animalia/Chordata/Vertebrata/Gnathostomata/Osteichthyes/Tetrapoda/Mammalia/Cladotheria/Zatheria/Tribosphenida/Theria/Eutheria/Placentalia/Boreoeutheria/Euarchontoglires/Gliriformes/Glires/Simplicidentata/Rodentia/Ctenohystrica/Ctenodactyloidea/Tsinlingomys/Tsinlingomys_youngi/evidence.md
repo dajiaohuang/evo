@@ -9,7 +9,6 @@ records:
     name:
       zh: Tsinlingomys youngi
       en: Tsinlingomys youngi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Buffy-headed Marmoset
       zh: 淡头绒猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: population

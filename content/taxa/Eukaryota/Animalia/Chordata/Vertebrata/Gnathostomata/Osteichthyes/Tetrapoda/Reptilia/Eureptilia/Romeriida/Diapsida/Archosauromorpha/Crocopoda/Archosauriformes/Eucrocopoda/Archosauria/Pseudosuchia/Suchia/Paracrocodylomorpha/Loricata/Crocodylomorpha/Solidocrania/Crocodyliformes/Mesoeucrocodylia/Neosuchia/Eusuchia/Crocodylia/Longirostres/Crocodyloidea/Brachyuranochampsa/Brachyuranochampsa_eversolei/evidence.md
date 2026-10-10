@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyuranochampsa eversolei
       en: Brachyuranochampsa eversolei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

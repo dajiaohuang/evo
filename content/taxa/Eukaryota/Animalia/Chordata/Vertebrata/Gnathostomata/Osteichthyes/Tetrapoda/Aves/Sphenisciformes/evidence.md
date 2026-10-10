@@ -10,7 +10,6 @@ records:
     name:
       en: Penguins
       zh: 企鹅目
-    reviewStatus: source-linked
     sections:
       - topic: huddleCase
         sourceIds:

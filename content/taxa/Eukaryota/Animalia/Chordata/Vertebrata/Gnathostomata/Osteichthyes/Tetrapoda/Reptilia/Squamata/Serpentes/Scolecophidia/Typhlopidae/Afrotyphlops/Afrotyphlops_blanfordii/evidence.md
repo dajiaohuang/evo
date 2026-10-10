@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrotyphlops blanfordii
       en: Afrotyphlops blanfordii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

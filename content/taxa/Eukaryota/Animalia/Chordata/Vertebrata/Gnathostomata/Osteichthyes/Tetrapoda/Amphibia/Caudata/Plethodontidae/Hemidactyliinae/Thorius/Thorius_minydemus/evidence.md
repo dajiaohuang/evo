@@ -9,7 +9,6 @@ records:
     name:
       en: Thorius minydemus
       zh: Thorius minydemus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

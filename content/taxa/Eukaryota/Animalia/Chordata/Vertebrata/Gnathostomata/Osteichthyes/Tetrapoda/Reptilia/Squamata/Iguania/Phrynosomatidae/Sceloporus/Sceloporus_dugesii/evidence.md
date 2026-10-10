@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus dugesii
       en: Sceloporus dugesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

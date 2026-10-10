@@ -9,7 +9,6 @@ records:
     name:
       zh: Nuntius solitarius
       en: Nuntius solitarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

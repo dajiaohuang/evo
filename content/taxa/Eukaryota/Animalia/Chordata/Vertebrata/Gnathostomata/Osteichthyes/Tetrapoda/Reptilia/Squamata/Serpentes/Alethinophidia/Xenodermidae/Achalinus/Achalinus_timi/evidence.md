@@ -9,7 +9,6 @@ records:
     name:
       zh: Achalinus timi
       en: Achalinus timi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

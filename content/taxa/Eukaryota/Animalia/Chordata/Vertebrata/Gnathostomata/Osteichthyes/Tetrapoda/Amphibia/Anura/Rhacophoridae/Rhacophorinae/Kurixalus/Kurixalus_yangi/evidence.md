@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus yangi
       zh: Kurixalus yangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

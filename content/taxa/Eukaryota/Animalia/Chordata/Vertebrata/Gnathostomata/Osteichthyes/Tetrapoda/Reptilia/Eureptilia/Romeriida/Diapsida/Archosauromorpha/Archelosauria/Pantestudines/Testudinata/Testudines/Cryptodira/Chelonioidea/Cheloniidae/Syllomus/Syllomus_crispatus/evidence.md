@@ -9,7 +9,6 @@ records:
     name:
       zh: Syllomus crispatus
       en: Syllomus crispatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

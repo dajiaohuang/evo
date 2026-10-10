@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaphe praelongissima
       en: Elaphe praelongissima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

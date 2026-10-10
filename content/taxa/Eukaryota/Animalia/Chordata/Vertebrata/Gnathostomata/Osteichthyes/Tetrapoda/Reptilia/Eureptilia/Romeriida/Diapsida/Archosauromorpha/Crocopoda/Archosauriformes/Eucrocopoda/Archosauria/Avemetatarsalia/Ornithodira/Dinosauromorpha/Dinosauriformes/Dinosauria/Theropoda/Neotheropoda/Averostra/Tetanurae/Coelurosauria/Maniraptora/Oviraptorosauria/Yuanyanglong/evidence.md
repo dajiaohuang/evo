@@ -9,7 +9,6 @@ records:
     name:
       zh: Yuanyanglong
       en: Yuanyanglong
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

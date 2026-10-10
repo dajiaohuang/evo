@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetraophasis obscurus
       en: Tetraophasis obscurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

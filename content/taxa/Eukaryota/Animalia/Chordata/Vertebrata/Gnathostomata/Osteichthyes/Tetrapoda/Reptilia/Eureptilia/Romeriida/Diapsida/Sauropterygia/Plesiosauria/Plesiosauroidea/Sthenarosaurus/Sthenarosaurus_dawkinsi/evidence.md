@@ -9,7 +9,6 @@ records:
     name:
       zh: Sthenarosaurus dawkinsi
       en: Sthenarosaurus dawkinsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

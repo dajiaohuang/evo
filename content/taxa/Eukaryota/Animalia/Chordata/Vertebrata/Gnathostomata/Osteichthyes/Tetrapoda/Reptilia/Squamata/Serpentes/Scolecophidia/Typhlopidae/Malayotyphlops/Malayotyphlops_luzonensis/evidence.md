@@ -9,7 +9,6 @@ records:
     name:
       zh: Malayotyphlops luzonensis
       en: Malayotyphlops luzonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

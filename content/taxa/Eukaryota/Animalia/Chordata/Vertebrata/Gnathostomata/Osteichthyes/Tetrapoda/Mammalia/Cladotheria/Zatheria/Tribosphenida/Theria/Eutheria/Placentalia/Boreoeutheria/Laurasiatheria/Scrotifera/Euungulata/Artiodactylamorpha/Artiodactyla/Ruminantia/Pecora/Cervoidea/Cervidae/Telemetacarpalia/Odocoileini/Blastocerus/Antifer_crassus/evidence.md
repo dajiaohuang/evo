@@ -9,7 +9,6 @@ records:
     name:
       zh: Antifer crassus
       en: Antifer crassus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

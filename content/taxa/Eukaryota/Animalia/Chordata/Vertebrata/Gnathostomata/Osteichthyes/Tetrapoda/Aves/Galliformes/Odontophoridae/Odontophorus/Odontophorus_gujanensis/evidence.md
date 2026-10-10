@@ -9,7 +9,6 @@ records:
     name:
       zh: Odontophorus gujanensis
       en: Odontophorus gujanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

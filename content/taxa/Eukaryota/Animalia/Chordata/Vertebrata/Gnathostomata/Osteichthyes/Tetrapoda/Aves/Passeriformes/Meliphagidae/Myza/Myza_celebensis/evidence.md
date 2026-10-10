@@ -9,7 +9,6 @@ records:
     name:
       zh: Myza celebensis
       en: Myza celebensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

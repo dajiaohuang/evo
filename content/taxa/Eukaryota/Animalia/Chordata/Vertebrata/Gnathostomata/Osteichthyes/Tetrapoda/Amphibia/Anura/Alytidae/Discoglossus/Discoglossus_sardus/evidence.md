@@ -9,7 +9,6 @@ records:
     name:
       en: Discoglossus sardus
       zh: Discoglossus sardus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

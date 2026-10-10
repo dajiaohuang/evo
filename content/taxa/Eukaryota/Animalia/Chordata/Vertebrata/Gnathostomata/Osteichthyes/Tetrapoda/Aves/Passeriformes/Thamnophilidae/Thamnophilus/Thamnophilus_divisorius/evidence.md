@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnophilus divisorius
       en: Thamnophilus divisorius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

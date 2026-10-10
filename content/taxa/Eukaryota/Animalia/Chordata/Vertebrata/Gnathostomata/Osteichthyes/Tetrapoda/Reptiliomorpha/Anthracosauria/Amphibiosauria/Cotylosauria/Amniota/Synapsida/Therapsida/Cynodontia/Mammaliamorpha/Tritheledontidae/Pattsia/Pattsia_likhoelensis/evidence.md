@@ -9,7 +9,6 @@ records:
     name:
       zh: Pattsia likhoelensis
       en: Pattsia likhoelensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

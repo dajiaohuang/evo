@@ -9,7 +9,6 @@ records:
     name:
       zh: Volatinia jacarina
       en: Volatinia jacarina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

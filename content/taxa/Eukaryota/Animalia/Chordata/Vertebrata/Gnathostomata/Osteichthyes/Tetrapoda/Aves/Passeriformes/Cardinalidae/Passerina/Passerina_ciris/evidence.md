@@ -9,7 +9,6 @@ records:
     name:
       zh: Passerina ciris
       en: Passerina ciris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

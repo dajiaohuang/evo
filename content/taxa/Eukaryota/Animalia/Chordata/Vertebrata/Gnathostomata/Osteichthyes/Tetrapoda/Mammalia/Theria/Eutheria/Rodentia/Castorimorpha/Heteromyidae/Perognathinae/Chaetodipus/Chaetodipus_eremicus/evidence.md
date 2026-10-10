@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaetodipus eremicus
       en: Chaetodipus eremicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

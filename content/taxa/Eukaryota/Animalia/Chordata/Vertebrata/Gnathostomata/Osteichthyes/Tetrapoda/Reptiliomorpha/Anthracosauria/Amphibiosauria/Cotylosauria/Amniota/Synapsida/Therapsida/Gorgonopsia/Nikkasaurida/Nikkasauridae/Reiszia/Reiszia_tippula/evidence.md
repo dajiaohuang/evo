@@ -9,7 +9,6 @@ records:
     name:
       zh: Reiszia tippula
       en: Reiszia tippula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

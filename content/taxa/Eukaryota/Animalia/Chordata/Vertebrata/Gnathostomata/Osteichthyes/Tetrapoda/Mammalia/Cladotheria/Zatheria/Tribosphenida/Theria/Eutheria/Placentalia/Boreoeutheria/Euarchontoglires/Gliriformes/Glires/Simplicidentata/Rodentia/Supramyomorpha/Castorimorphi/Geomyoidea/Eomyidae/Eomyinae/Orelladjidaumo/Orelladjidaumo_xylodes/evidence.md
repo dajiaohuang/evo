@@ -9,7 +9,6 @@ records:
     name:
       zh: Orelladjidaumo xylodes
       en: Orelladjidaumo xylodes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

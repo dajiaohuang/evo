@@ -9,7 +9,6 @@ records:
     name:
       zh: Aglaocetus burtinii
       en: Aglaocetus burtinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallicolumba crinigera
       en: Gallicolumba crinigera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

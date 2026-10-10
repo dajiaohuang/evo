@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma polychroma
       en: Oligosoma polychroma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

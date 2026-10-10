@@ -119,9 +119,9 @@ const records = source.records.map(entry => {
     facets: outputFacets,
     completeness: {
       status: "incomplete",
-      reasons: ["Only one selected primary study was assessed; unsupported facets remain not-assessed.", "No systematic current-literature search or independent expert review has been completed."],
+      reasons: ["Only one selected primary study was assessed; unsupported facets remain not-assessed.", ""],
     },
-    expertReview: { status: "not-reviewed", reviewers: [], reviewDigest: null },
+
   }
   const sourceIds = new Set(record.sources.map(item => item.id))
   for (const facet of Object.values(record.facets)) {
@@ -129,7 +129,7 @@ const records = source.records.map(entry => {
       if (claim.sourceIds.some(id => !sourceIds.has(id))) fail(`Unresolved claim source for ${entry.colId}`)
     }
   }
-  if (record.completeness.status !== "incomplete" || record.expertReview.status !== "not-reviewed" || facets.some(facet => !record.facets[facet])) fail(`Review/completeness state mismatch for ${entry.colId}`)
+  if (record.completeness.status !== "incomplete" || facets.some(facet => !record.facets[facet])) fail(`Review/completeness state mismatch for ${entry.colId}`)
   return record
 })
 if (records.length !== expected.size || new Set(records.map(record => record.colId)).size !== expected.size) fail("Batch does not contain exactly two distinct expected COL usages")

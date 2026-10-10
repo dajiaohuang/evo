@@ -9,7 +9,6 @@ records:
     name:
       zh: Vipera ammodytes
       en: Vipera ammodytes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

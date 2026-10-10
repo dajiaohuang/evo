@@ -9,7 +9,6 @@ records:
     name:
       zh: Liodytes alleni
       en: Liodytes alleni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

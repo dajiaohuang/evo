@@ -9,7 +9,6 @@ records:
     name:
       zh: Viverravus politus
       en: Viverravus politus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

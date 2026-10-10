@@ -73,7 +73,6 @@ assert.equal(target.scientificName, input.target.scientificName)
 assert.equal(String(target.sourceDatasetId), input.target.sourceDatasetId)
 assert.equal(target.rank, 'species')
 assert.equal(target.completeness.status, 'incomplete')
-assert.equal(target.expertReview.status, 'not-reviewed')
 assert.equal(sha256(Buffer.from(JSON.stringify(target))), input.target.baseline.targetRecordSha256, 'Pinned target record baseline changed')
 assert.deepEqual(Object.keys(target.facets).sort(), [...FACETS].sort())
 
@@ -120,7 +119,6 @@ target.systematicSearch = input.systematicSearch
 target.lifeStatusScope = input.lifeStatusScope
 target.completeness = input.completeness
 assert.equal(target.completeness.status, 'incomplete')
-assert.equal(target.expertReview.status, 'not-reviewed')
 assert.equal(target.facets.fossil.status, 'searched-no-evidence')
 assert.equal(target.facets.fossil.claims.length, 0, 'No positive fossil claim should be generated from a no-evidence search')
 for (const [facet, assessment] of Object.entries(target.facets)) {

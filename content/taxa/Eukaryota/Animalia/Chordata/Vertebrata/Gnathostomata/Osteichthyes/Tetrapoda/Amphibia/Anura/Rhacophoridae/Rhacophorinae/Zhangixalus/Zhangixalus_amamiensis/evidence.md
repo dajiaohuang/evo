@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus amamiensis
       zh: Zhangixalus amamiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

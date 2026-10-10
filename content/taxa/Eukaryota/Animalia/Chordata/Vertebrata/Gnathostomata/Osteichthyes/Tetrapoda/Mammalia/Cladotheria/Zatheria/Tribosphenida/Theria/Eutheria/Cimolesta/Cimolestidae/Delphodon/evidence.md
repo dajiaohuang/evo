@@ -9,7 +9,6 @@ records:
     name:
       zh: Delphodon
       en: Delphodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

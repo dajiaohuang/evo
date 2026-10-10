@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyuranus scutellatus
       en: Oxyuranus scutellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis guibei
       zh: Boophis guibei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

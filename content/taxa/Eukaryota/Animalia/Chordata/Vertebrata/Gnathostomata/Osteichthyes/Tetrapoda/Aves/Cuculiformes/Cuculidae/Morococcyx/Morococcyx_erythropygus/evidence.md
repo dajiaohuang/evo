@@ -9,7 +9,6 @@ records:
     name:
       zh: Morococcyx erythropygus
       en: Morococcyx erythropygus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Syma megarhyncha
       en: Syma megarhyncha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

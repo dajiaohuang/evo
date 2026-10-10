@@ -9,7 +9,6 @@ records:
     name:
       zh: Bdeogale crassicauda
       en: Bdeogale crassicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

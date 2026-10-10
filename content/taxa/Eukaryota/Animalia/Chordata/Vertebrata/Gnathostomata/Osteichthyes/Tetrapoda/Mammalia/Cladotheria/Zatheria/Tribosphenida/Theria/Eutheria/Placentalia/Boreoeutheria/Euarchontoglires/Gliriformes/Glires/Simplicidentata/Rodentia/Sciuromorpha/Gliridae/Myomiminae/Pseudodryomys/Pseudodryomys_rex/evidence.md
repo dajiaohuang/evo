@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudodryomys rex
       en: Pseudodryomys rex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

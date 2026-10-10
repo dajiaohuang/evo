@@ -9,7 +9,6 @@ records:
     name:
       en: Boana caipora
       zh: Boana caipora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

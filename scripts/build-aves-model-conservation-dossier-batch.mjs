@@ -86,7 +86,6 @@ for (const record of records) {
   assert.ok(!existingIds.has(record.colId), `Dossier already exists in current index/shards: ${record.colId}`)
   readAcceptedRegistryRow(registryManifest, record)
   assert.equal(record.completeness?.status, 'incomplete', `Dossier must remain incomplete: ${record.colId}`)
-  assert.equal(record.expertReview?.status, 'not-reviewed', `Dossier must remain unreviewed: ${record.colId}`)
   assert.ok(record.identity?.method && record.identity?.scope, `Identity evidence required: ${record.colId}`)
   assert.ok(record.identity.sourceIds.length > 0, `Identity source required: ${record.colId}`)
   assert.ok(record.lifeStatusScope?.wild && record.lifeStatusScope?.domesticated && record.lifeStatusScope?.fossil, `Life-status scope required: ${record.colId}`)

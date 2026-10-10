@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegonotus heterurus
       en: Stegonotus heterurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

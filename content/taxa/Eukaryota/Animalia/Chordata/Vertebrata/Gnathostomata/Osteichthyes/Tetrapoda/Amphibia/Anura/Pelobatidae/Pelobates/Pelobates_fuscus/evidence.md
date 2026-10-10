@@ -9,7 +9,6 @@ records:
     name:
       en: Pelobates fuscus
       zh: Pelobates fuscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

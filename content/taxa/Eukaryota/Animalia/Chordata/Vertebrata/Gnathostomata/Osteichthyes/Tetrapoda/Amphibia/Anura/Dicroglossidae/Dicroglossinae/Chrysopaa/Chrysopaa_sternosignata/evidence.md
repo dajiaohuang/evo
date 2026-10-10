@@ -9,7 +9,6 @@ records:
     name:
       en: Chrysopaa sternosignata
       zh: Chrysopaa sternosignata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geokichla gurneyi
       en: Geokichla gurneyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

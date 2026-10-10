@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis phangngaensis
       en: Cnemaspis phangngaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

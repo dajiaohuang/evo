@@ -9,7 +9,6 @@ records:
     name:
       zh: Copemys loxodon
       en: Copemys loxodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates ignotus
       zh: Allobates ignotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

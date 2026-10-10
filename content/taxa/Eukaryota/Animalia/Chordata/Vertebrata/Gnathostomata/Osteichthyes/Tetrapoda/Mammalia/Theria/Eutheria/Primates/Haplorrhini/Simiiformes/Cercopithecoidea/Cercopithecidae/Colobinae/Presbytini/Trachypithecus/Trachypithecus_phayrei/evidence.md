@@ -9,7 +9,6 @@ records:
     name:
       zh: 菲氏叶猴
       en: Phayre's Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: taxonomy_story

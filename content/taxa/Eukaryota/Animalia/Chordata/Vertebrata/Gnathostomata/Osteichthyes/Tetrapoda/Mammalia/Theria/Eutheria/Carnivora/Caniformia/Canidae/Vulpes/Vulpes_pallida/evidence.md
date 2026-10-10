@@ -9,7 +9,6 @@ records:
     name:
       zh: Vulpes pallida
       en: Vulpes pallida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

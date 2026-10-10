@@ -9,7 +9,6 @@ records:
     name:
       zh: Pararhabdodon isonensis
       en: Pararhabdodon isonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

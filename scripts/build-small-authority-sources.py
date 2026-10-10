@@ -305,8 +305,8 @@ def project(which: str, output_root: Path = ROOT):
                                                        "files": [x["path"] for x in files + upstream_files],
                                                        "totalCompressedBytes": sum(x["bytes"] for x in files + upstream_files),
                                                        "totalSourceBytes": sum(x["sourceBytes"] for x in files + upstream_files)}},
-                  "evidenceBoundary": {"en": "Frozen exact nomenclatural crosswalk from the named ChecklistBank authority; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
-                                       "zh": "来自指定 ChecklistBank 权威源的冻结严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"},
+                  "evidenceBoundary": {"en": "Frozen exact nomenclatural crosswalk from the named ChecklistBank authority; not species-concept equivalence, a biological dossier, fossil evidence.",
+                                       "zh": "来自指定 ChecklistBank 权威源的冻结严格命名交叉映射；不是物种概念等同性、生物档案、化石证据。"},
                   "limitations": ["Source-only accepted rows retain null COL ownership.", "Only the pinned archive is replayed; no live endpoint is used during projection.", "Archive completeness does not establish biological completeness."]}
     destination.mkdir(parents=True, exist_ok=True)
     descriptor_path = destination / f"{spec['prefix']}-sidecar.json"

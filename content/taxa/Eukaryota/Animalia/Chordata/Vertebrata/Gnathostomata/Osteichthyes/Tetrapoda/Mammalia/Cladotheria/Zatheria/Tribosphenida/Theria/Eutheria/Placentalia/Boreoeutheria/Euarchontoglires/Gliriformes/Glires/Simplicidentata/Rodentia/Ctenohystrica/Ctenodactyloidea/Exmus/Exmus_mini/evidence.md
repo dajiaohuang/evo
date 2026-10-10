@@ -9,7 +9,6 @@ records:
     name:
       zh: Exmus mini
       en: Exmus mini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geomys texensis
       en: Geomys texensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

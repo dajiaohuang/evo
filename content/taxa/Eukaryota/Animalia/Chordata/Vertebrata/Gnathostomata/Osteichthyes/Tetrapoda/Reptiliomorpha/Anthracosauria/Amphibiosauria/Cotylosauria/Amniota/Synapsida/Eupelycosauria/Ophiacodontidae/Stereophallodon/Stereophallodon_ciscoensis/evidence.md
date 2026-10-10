@@ -9,7 +9,6 @@ records:
     name:
       zh: Stereophallodon ciscoensis
       en: Stereophallodon ciscoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

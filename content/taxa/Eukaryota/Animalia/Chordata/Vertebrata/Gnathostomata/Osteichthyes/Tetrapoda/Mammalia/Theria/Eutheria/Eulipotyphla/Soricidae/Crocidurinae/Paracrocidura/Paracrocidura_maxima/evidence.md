@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracrocidura maxima
       en: Paracrocidura maxima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

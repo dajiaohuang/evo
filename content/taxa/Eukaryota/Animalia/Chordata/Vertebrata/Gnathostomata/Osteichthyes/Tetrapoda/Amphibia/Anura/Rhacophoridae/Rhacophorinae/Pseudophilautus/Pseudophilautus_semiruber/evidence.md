@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus semiruber
       zh: Pseudophilautus semiruber
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

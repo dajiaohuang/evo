@@ -9,7 +9,6 @@ records:
     name:
       en: Silky Sifaka
       zh: 丝绢西法卡
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: behaviour

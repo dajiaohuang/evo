@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmatolagus periaralicus
       en: Desmatolagus periaralicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

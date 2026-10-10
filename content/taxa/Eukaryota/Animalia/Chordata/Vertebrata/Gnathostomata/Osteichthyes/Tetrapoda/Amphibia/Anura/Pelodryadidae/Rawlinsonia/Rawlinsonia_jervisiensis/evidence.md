@@ -9,7 +9,6 @@ records:
     name:
       en: Rawlinsonia jervisiensis
       zh: Rawlinsonia jervisiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

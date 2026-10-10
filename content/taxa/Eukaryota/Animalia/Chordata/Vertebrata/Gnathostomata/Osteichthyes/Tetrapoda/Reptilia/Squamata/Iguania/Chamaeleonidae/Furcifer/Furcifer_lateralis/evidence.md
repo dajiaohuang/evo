@@ -9,7 +9,6 @@ records:
     name:
       zh: Furcifer lateralis
       en: Furcifer lateralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

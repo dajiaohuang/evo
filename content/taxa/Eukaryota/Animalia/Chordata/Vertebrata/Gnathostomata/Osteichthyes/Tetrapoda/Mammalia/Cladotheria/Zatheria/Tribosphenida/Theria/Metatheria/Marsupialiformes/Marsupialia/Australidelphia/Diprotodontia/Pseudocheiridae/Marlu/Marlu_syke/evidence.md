@@ -9,7 +9,6 @@ records:
     name:
       zh: Marlu syke
       en: Marlu syke
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoplatanista miocaenus
       en: Eoplatanista miocaenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

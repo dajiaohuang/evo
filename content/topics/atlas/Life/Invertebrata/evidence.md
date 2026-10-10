@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: pu-2016-gaskiers-ediacara primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: pu-2016-gaskiers-ediacara
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: pu-2016-gaskiers-ediacara
           locator: pp. 955–958; Figures 1–3; CA–ID–TIMS ages and Avalon assemblage context
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Theropithecus (Omopithecus)
       en: Theropithecus (Omopithecus)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

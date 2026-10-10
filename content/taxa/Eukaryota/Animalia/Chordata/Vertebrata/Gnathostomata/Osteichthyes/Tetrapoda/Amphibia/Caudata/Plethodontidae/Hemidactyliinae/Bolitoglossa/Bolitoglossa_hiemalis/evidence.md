@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa hiemalis
       zh: Bolitoglossa hiemalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

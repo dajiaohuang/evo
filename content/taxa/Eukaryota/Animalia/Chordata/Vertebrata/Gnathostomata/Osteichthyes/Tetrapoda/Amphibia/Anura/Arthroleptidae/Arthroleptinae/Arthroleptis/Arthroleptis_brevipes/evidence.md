@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptis brevipes
       zh: Arthroleptis brevipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus striolatus
       en: Sphenomorphus striolatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

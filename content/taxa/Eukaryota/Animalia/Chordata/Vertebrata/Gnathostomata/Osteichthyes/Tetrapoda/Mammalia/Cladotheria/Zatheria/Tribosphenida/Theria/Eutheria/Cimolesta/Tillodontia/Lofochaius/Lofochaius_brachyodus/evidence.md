@@ -9,7 +9,6 @@ records:
     name:
       zh: Lofochaius brachyodus
       en: Lofochaius brachyodus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

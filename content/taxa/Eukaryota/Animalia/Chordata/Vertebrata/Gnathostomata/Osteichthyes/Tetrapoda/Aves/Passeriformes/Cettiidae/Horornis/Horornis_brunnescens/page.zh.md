@@ -40,5 +40,5 @@ Primary.Lifestyle=Generalist，来源定义为跨不同活动方式，没有单�
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页使用七条所选 AVONET v7 历史行之一、同名 eBird 与旧 Cettia BirdTree 关联、相关字段定义及 COL ho／ce 名称分片。六个逐字旧组合的目录异名提供名称对应；brunnescens 的所读分片只有 Horeites 异名，没有逐字 Cettia brunnescens。名称关联不证明历史与当前物种范围完全相同。形态总鸟数、完整测量与 Dunning 文献体重分母独立；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。食物生态位、营养级、活动方式、植被密度与迁移代码分别保留，字段组合不补原因；没有实测食谱、种子或猎物清单、处理动作、羽色、鸣声、繁殖、当前分布或迁移路线。本页不计完整自然史或外部专家审评。
+本页使用七条所选 AVONET v7 历史行之一、同名 eBird 与旧 Cettia BirdTree 关联、相关字段定义及 COL ho／ce 名称分片。六个逐字旧组合的目录异名提供名称对应；brunnescens 的所读分片只有 Horeites 异名，没有逐字 Cettia brunnescens。名称关联不证明历史与当前物种范围完全相同。形态总鸟数、完整测量与 Dunning 文献体重分母独立；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。食物生态位、营养级、活动方式、植被密度与迁移代码分别保留，字段组合不补原因；没有实测食谱、种子或猎物清单、处理动作、羽色、鸣声、繁殖、当前分布或迁移路线。本页不计完整自然史。
 <!-- /evo:text -->

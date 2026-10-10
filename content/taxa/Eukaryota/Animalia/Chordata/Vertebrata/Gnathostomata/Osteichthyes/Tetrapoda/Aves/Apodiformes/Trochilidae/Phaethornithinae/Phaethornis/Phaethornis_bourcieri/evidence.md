@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaethornis bourcieri
       en: Phaethornis bourcieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

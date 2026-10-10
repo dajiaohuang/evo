@@ -9,7 +9,6 @@ records:
     name:
       zh: Polycotylus sopozkoi
       en: Polycotylus sopozkoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

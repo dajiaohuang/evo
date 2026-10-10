@@ -9,7 +9,6 @@ records:
     name:
       zh: Jacobsomys verdensis
       en: Jacobsomys verdensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

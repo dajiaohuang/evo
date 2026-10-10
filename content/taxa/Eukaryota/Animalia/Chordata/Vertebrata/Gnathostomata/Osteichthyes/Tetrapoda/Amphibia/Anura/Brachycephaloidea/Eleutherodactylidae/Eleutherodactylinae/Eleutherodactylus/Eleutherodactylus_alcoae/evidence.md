@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus alcoae
       zh: Eleutherodactylus alcoae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

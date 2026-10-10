@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaenia pelzelni
       en: Elaenia pelzelni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

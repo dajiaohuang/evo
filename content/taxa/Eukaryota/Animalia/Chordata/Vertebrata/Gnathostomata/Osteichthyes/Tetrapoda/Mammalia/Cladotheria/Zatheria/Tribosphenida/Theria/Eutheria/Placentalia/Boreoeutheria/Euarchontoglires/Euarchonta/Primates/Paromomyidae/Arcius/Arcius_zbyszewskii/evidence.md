@@ -9,7 +9,6 @@ records:
     name:
       zh: Arcius zbyszewskii
       en: Arcius zbyszewskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

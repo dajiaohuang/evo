@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeotherium coarctatum
       en: Archaeotherium coarctatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

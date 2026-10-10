@@ -9,7 +9,6 @@ records:
     name:
       zh: Zenaida auriculata
       en: Zenaida auriculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

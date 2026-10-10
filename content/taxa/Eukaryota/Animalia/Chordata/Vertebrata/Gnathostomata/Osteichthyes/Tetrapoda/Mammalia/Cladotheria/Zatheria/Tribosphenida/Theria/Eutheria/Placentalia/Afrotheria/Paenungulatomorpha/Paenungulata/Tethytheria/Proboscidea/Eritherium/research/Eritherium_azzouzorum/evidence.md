@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: gheerbrant-2009-eritherium concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: gheerbrant-2009-eritherium
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: "Evo Atlas issue #185 evidence audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: gheerbrant-2009-eritherium DOI 10.1073/pnas.0900251106; primary-study locator audited 2026-09-01
       referenceLinks:
         - referenceId: gheerbrant-2009-eritherium
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: "Evo Atlas issue #185 evidence audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: gheerbrant-2009-eritherium DOI 10.1073/pnas.0900251106; primary-study locator audited 2026-09-01
       referenceLinks:
         - referenceId: gheerbrant-2009-eritherium
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: "Evo Atlas issue #185 evidence audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: gheerbrant-2009-eritherium DOI 10.1073/pnas.0900251106; primary-study locator audited 2026-09-01
       referenceLinks:
         - referenceId: gheerbrant-2009-eritherium
           relation: supports
@@ -143,9 +131,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: "Evo Atlas issue #185 evidence audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: gheerbrant-2009-eritherium DOI 10.1073/pnas.0900251106; primary-study locator audited 2026-09-01
       referenceLinks:
         - referenceId: gheerbrant-2009-eritherium
           relation: supports
@@ -199,7 +184,6 @@ records:
       referenceLocators:
         - referenceId: gheerbrant-2009-eritherium
           locator: 10717–10721; Figures 1–3; Locality and Age
-      reviewStatus: automated-audit-passed
 ---
 
 # Eritherium azzouzorum

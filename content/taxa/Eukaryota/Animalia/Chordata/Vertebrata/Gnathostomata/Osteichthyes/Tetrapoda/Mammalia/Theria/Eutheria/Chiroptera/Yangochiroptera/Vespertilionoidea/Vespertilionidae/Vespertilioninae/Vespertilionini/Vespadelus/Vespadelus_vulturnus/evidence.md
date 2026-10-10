@@ -9,7 +9,6 @@ records:
     name:
       zh: Vespadelus vulturnus
       en: Vespadelus vulturnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Blanus mendezi
       en: Blanus mendezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

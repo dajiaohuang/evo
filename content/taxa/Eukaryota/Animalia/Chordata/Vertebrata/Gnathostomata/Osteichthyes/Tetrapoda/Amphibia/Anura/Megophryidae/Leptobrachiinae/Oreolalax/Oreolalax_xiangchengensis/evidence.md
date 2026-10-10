@@ -9,7 +9,6 @@ records:
     name:
       en: Oreolalax xiangchengensis
       zh: Oreolalax xiangchengensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

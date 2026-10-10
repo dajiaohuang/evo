@@ -9,7 +9,6 @@ records:
     name:
       zh: Eochelone athersuchi
       en: Eochelone athersuchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

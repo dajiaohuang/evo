@@ -9,7 +9,6 @@ records:
     name:
       zh: Turcosuchus okani
       en: Turcosuchus okani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

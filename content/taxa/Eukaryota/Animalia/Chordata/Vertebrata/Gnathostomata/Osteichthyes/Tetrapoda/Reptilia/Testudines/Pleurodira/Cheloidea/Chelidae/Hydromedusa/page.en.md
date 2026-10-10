@@ -30,7 +30,7 @@ This batch’s Hydromedusa route includes 1 historical life-history accounts; st
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 The study uses one Hydromedusa tectifera skull and is not a genus-level taxonomic revision or variation survey. It does not establish population abundance, current range or conservation status. No figures or tables are reproduced.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 <!-- /evo:text -->
 
 ## Start with sourced trait records

@@ -9,7 +9,6 @@ records:
     name:
       en: Nectophrynoides frontierei
       zh: Nectophrynoides frontierei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

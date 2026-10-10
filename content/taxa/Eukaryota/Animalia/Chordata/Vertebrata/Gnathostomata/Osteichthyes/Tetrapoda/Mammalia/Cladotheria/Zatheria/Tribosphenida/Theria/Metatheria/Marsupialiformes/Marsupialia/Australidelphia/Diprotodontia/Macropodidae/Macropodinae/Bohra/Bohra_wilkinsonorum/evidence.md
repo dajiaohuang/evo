@@ -9,7 +9,6 @@ records:
     name:
       zh: Bohra wilkinsonorum
       en: Bohra wilkinsonorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

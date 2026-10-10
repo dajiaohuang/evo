@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema holti
       zh: Ischnocnema holti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

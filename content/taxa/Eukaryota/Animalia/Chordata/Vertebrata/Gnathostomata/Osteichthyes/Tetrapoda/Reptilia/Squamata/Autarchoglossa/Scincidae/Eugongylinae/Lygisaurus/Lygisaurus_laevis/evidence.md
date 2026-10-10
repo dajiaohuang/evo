@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygisaurus laevis
       en: Lygisaurus laevis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

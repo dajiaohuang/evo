@@ -9,7 +9,6 @@ records:
     name:
       zh: Deccanodon maleriensis
       en: Deccanodon maleriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Climacteris erythrops
       en: Climacteris erythrops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

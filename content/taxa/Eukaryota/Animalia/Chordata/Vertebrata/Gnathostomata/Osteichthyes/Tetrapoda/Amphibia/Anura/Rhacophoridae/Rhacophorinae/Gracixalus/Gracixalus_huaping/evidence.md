@@ -9,7 +9,6 @@ records:
     name:
       en: Gracixalus huaping
       zh: Gracixalus huaping
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

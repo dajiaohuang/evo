@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus sorianoi
       zh: Atelopus sorianoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

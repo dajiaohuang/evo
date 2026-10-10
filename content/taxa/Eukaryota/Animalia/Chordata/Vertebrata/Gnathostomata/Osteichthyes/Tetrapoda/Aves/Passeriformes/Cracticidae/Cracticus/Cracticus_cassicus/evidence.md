@@ -9,7 +9,6 @@ records:
     name:
       zh: Cracticus cassicus
       en: Cracticus cassicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

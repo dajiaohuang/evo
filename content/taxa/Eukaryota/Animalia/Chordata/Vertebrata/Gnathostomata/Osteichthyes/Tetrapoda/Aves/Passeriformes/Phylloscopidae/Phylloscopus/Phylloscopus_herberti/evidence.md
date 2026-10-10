@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus herberti
       en: Phylloscopus herberti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

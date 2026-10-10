@@ -34,5 +34,5 @@ The current MDD gray mouse lemur entry includes ganzhorni; COL26.8 retains a sep
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-COL26.8 accepts this name, while the local MDD exact-name crosswalk has no matching record; this page presents only the sample-based taxonomy supported by the 2016 study. No current range survey or conservation assessment is included; the common-name label is editorial and not externally reviewed. The current MDD page records a broader name treatment; this page follows the pinned COL26.8 ID and presents both treatments. The page is not externally expert-reviewed.
+COL26.8 accepts this name, while the local MDD exact-name crosswalk has no matching record; this page presents only the sample-based taxonomy supported by the 2016 study. No current range survey or conservation assessment is included; the common-name label is editorial and not externally reviewed. The current MDD page records a broader name treatment; this page follows the pinned COL26.8 ID and presents both treatments. The page is.
 <!-- /evo:text -->

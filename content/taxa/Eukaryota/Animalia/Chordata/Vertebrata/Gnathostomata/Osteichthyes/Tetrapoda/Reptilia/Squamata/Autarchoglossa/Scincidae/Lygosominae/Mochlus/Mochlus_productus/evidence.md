@@ -9,7 +9,6 @@ records:
     name:
       zh: Mochlus productus
       en: Mochlus productus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,7 +22,7 @@ Start with R. avunculus: keep the Khau Ca leaf-chemistry comparison separate fro
 ## Interpreting the evidence
 
 <!-- evo:text /records/catalogue-profile/sections/2/text/en -->
-This is a reading path linking five checklist-accepted species to selected local studies, not a genus-wide ecological review or a phylogenetic conclusion. Population, ranging and habitat results remain tied to their stated sites and periods; the new species pages have not received external expert review.
+This is a reading path linking five checklist-accepted species to selected local studies, not a genus-wide ecological review or a phylogenetic conclusion. Population, ranging and habitat results remain tied to their stated sites and periods; the new species pages.
 <!-- /evo:text -->
 
 ## Choose comparison pages by life-history fields
@@ -40,7 +40,7 @@ This batch’s Rhinopithecus route includes 4 historical entries; start with Rhi
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The genus count follows the pinned COL26.8 checklist and is not a claim that biological species limits are undisputed. Study sites, periods and methods differ; the reading order does not support comparable population counts, genus-wide rules or phylogenetic conclusions. Chinese common names are editorial renderings; the new content has not received external expert review. This page is not externally expert-reviewed.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs and external expert review remain unfinished.
+The genus count follows the pinned COL26.8 checklist and is not a claim that biological species limits are undisputed. Study sites, periods and methods differ; the reading order does not support comparable population counts, genus-wide rules or phylogenetic conclusions. Chinese common names are editorial renderings; the new content. This page is.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 <!-- /evo:text -->

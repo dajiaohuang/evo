@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptis bioko
       zh: Arthroleptis bioko
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

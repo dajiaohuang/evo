@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo shansiensis
       en: Testudo shansiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

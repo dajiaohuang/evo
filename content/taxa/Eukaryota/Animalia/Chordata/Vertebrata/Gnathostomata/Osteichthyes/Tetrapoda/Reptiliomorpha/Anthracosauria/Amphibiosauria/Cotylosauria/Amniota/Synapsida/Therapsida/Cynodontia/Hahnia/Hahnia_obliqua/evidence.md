@@ -9,7 +9,6 @@ records:
     name:
       zh: Hahnia obliqua
       en: Hahnia obliqua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

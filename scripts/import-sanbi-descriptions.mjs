@@ -39,7 +39,7 @@ const ledger = {
   storageEncoding: 'br', decodedBytes: decoded.length, decodedSha256: sha256(decoded),
   species: records.length, descriptions: records.reduce((n, row) => n + row.descriptions.length, 0),
   method: 'Exact unambiguous WFO-to-accepted-COL crosswalk. Description citations joined by (core ID, source identifier). Only exact duplicate records removed; original text retained.',
-  limitations: ['Regional South African source, not a global census or distribution boundary.', 'A unique identifier link does not prove species-concept equivalence across source dates.', 'Source descriptions are not newly authored Evo claims or expert-reviewed dossiers.', 'No missing biological traits, translations, ranges or fossils are inferred.'],
+  limitations: ['Regional South African source, not a global census or distribution boundary.', 'A unique identifier link does not prove species-concept equivalence across source dates.', 'Source descriptions are not newly authored Evo claims dossiers.', 'No missing biological traits, translations, ranges or fossils are inferred.'],
 }
 writeFileSync(resolve(root, 'data/sources/sanbi-descriptions-import-ledger.json'), JSON.stringify(ledger, null, 2) + '\n')
 console.log(JSON.stringify({ species: ledger.species, descriptions: ledger.descriptions, bytes: compressed.length, sha256: ledger.outputSha256 }))

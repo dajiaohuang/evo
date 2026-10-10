@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligodelphis azerbajdzanicus
       en: Oligodelphis azerbajdzanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

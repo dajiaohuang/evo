@@ -9,7 +9,6 @@ records:
     name:
       zh: Sporopipes frontalis
       en: Sporopipes frontalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

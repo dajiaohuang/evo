@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus siranus
       zh: Atelopus siranus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

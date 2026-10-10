@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyhyops yunnanense
       en: Brachyhyops yunnanense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

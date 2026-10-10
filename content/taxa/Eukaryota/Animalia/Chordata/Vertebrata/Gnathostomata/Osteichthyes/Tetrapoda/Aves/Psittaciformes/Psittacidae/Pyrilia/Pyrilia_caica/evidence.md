@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrilia caica
       en: Pyrilia caica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

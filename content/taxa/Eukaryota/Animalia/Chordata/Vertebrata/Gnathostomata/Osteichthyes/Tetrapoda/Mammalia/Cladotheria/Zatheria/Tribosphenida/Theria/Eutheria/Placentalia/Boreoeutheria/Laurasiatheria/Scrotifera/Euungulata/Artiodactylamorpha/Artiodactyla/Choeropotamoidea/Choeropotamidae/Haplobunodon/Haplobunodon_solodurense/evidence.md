@@ -9,7 +9,6 @@ records:
     name:
       zh: Haplobunodon solodurense
       en: Haplobunodon solodurense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

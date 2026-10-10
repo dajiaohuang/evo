@@ -9,7 +9,6 @@ records:
     name:
       zh: Sternula albifrons
       en: Sternula albifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

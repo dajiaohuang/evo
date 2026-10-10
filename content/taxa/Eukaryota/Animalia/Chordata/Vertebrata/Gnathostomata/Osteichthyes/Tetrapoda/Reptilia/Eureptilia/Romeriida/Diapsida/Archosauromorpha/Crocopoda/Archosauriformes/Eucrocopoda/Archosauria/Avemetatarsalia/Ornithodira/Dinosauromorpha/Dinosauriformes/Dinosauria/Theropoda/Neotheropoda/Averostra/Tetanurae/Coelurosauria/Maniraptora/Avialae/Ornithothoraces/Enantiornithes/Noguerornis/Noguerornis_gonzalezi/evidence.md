@@ -9,7 +9,6 @@ records:
     name:
       zh: Noguerornis gonzalezi
       en: Noguerornis gonzalezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

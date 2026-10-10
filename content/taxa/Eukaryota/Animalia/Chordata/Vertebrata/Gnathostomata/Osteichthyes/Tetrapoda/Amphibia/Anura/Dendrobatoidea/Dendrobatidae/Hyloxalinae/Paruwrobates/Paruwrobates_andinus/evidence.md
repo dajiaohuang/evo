@@ -9,7 +9,6 @@ records:
     name:
       en: Paruwrobates andinus
       zh: Paruwrobates andinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaethornis atrimentalis
       en: Phaethornis atrimentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

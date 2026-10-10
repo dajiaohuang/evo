@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus antarcticus
       en: Anthus antarcticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

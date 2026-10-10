@@ -9,7 +9,6 @@ records:
     name:
       zh: Laornis edvardsianus
       en: Laornis edvardsianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

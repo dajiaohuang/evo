@@ -9,7 +9,6 @@ records:
     name:
       zh: Aprosdokitos mikrotero
       en: Aprosdokitos mikrotero
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

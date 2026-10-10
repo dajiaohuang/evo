@@ -142,10 +142,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Sparaxis bulbifera
@@ -274,10 +270,4 @@ Only a regional morphology and habitat account has been assessed; life history, 
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 A systematic literature review and independent comparison of the source treatment with the complete COL26.8 species concept have not been completed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No external expert review has been completed.
 <!-- /evo:text -->

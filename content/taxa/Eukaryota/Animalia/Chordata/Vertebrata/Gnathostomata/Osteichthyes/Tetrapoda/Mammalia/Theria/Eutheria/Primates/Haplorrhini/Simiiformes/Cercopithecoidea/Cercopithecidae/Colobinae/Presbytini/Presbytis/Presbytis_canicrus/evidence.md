@@ -9,7 +9,6 @@ records:
     name:
       zh: 米勒叶猴
       en: Miller's Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptotragulus ultimus
       en: Leptotragulus ultimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

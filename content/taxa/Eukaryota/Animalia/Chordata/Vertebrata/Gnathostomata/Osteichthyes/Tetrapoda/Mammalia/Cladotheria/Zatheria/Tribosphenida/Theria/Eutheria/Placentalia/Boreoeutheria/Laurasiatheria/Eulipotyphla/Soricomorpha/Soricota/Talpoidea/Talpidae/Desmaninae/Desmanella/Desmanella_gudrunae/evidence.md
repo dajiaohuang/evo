@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmanella gudrunae
       en: Desmanella gudrunae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

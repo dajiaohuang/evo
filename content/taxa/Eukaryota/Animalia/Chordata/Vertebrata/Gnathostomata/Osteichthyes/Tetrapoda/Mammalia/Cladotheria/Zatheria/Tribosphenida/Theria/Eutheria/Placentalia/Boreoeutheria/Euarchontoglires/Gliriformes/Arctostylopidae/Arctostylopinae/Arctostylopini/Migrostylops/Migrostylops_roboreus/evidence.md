@@ -9,7 +9,6 @@ records:
     name:
       zh: Migrostylops roboreus
       en: Migrostylops roboreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

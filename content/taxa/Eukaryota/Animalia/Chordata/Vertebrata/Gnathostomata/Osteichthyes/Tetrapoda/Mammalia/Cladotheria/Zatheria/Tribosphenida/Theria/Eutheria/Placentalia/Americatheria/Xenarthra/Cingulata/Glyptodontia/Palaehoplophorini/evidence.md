@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaehoplophorini
       en: Palaehoplophorini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

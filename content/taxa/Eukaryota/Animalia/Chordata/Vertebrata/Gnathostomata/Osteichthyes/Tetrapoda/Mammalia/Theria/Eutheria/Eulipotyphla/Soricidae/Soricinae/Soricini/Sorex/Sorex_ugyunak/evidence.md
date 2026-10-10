@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex ugyunak
       en: Sorex ugyunak
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynocephalus erythrurus
       en: Phrynocephalus erythrurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

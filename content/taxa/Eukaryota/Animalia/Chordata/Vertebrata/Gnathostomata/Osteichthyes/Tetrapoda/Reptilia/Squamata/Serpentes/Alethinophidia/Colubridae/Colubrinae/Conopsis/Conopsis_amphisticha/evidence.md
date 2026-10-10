@@ -9,7 +9,6 @@ records:
     name:
       zh: Conopsis amphisticha
       en: Conopsis amphisticha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

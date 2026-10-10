@@ -9,7 +9,6 @@ records:
     name:
       zh: Machaeroprosopus mccauleyi
       en: Machaeroprosopus mccauleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

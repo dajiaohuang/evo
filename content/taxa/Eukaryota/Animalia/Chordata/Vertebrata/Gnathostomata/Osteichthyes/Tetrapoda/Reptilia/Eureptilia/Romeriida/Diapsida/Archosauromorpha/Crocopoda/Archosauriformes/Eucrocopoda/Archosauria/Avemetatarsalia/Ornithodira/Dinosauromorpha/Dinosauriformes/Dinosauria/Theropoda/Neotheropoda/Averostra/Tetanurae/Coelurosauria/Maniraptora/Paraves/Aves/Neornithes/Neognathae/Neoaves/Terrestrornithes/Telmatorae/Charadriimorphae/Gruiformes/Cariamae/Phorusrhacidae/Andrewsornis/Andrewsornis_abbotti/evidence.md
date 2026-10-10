@@ -9,7 +9,6 @@ records:
     name:
       zh: Andrewsornis abbotti
       en: Andrewsornis abbotti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

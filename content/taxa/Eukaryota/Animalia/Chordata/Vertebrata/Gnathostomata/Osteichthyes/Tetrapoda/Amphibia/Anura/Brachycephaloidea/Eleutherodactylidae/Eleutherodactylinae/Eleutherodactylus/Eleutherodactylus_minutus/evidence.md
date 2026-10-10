@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus minutus
       zh: Eleutherodactylus minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Esteslestes ensis
       en: Esteslestes ensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

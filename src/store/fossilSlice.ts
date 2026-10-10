@@ -4,6 +4,8 @@ import { getFossilsByEntity, getFossilsByInterval } from '../services/localFossi
 
 export interface FossilSlice {
   occurrencesByInterval: Record<string, FossilOccurrence[]>
+  intervalOccurrenceStatus: Record<string, LoadStatus>
+  intervalOccurrenceErrors: Record<string, string | null>
   occurrencesByTaxonQuery: Record<string, FossilOccurrence[]>
   taxonOccurrenceQueries: Record<string, TaxonOccurrenceQueryResult>
   taxonOccurrenceStatus: Record<string, LoadStatus>
@@ -19,6 +21,8 @@ export const createFossilSlice = (
   get: () => AppState
 ): FossilSlice => ({
   occurrencesByInterval: {},
+  intervalOccurrenceStatus: {},
+  intervalOccurrenceErrors: {},
   occurrencesByTaxonQuery: {},
   taxonOccurrenceQueries: {},
   taxonOccurrenceStatus: {},
@@ -27,13 +31,26 @@ export const createFossilSlice = (
 
   loadOccurrencesForInterval: async (intervalName: string) => {
     if (Object.hasOwn(get().occurrencesByInterval, intervalName)) return
-    const records = await getFossilsByInterval(intervalName)
+    if (get().intervalOccurrenceStatus[intervalName] === 'loading') return
     set({
-      occurrencesByInterval: {
-        ...get().occurrencesByInterval,
-        [intervalName]: records,
-      },
+      intervalOccurrenceStatus: { ...get().intervalOccurrenceStatus, [intervalName]: 'loading' },
+      intervalOccurrenceErrors: { ...get().intervalOccurrenceErrors, [intervalName]: null },
     })
+    try {
+      const records = await getFossilsByInterval(intervalName)
+      set({
+        occurrencesByInterval: { ...get().occurrencesByInterval, [intervalName]: records },
+        intervalOccurrenceStatus: { ...get().intervalOccurrenceStatus, [intervalName]: records.length ? 'ready' : 'empty' },
+      })
+    } catch (caught) {
+      set({
+        intervalOccurrenceStatus: { ...get().intervalOccurrenceStatus, [intervalName]: 'error' },
+        intervalOccurrenceErrors: {
+          ...get().intervalOccurrenceErrors,
+          [intervalName]: caught instanceof Error ? caught.message : 'Fossil records could not be loaded',
+        },
+      })
+    }
   },
 
   loadOccurrencesForEntity: async (entityId: string, scope: TaxonQueryScope = 'descendants') => {

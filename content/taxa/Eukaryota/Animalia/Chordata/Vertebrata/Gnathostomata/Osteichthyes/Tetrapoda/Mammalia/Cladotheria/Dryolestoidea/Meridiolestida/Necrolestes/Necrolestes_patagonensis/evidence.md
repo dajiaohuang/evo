@@ -9,7 +9,6 @@ records:
     name:
       zh: Necrolestes patagonensis
       en: Necrolestes patagonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

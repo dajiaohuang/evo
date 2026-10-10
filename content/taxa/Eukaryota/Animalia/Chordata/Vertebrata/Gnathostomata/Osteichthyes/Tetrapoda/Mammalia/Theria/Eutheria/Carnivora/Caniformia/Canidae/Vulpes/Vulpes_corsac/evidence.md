@@ -9,7 +9,6 @@ records:
     name:
       zh: Vulpes corsac
       en: Vulpes corsac
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

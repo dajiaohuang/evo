@@ -9,7 +9,6 @@ records:
     name:
       en: Theloderma laeve
       zh: Theloderma laeve
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

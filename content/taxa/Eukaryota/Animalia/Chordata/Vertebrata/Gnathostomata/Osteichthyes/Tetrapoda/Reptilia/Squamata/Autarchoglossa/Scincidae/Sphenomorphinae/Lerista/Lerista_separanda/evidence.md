@@ -9,7 +9,6 @@ records:
     name:
       zh: Lerista separanda
       en: Lerista separanda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Helicops gomesi
       en: Helicops gomesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

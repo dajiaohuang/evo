@@ -9,7 +9,6 @@ records:
     name:
       zh: Ektopodon litolophus
       en: Ektopodon litolophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

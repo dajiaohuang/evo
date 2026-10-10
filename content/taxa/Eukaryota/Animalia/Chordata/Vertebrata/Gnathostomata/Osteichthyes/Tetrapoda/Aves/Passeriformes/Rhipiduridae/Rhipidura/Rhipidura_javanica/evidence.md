@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura javanica
       en: Rhipidura javanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

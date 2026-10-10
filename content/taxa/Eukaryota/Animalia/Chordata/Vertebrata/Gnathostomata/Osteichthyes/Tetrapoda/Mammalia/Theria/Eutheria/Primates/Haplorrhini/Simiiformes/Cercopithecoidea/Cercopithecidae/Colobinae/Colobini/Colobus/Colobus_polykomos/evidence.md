@@ -9,7 +9,6 @@ records:
     name:
       zh: 王疣猴
       en: King Colobus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

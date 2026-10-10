@@ -9,7 +9,6 @@ records:
     name:
       zh: Scotopelia bouvieri
       en: Scotopelia bouvieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liodytes
       en: Liodytes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

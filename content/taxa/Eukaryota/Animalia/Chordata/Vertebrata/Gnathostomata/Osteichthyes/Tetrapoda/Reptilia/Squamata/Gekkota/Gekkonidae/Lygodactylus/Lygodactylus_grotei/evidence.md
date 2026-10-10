@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus grotei
       en: Lygodactylus grotei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

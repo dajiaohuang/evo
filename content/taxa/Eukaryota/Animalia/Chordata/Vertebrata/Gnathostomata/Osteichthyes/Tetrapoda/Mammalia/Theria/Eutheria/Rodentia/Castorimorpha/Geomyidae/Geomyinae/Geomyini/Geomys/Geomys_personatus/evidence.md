@@ -9,7 +9,6 @@ records:
     name:
       zh: Geomys personatus
       en: Geomys personatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

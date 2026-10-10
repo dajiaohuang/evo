@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrocnemus obristi
       en: Macrocnemus obristi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

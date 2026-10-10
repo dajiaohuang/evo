@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis gloria
       zh: Pristimantis gloria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Moho braccatus
       en: Moho braccatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

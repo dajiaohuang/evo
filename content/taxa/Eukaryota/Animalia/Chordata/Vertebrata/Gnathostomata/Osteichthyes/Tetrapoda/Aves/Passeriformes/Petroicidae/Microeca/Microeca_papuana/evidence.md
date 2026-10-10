@@ -9,7 +9,6 @@ records:
     name:
       zh: Microeca papuana
       en: Microeca papuana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

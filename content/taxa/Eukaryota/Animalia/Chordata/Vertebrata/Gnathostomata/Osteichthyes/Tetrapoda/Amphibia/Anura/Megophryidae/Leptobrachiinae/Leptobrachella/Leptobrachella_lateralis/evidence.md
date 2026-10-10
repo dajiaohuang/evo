@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella lateralis
       zh: Leptobrachella lateralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

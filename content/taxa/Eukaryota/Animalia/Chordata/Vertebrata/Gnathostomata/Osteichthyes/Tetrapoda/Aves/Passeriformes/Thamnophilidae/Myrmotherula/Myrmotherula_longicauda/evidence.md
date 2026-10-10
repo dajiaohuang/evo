@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmotherula longicauda
       en: Myrmotherula longicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

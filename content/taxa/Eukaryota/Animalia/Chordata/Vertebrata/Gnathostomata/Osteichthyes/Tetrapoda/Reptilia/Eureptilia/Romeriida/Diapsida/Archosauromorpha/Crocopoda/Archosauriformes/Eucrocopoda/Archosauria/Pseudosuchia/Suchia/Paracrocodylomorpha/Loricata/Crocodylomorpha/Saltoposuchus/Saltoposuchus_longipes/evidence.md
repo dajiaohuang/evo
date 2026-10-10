@@ -9,7 +9,6 @@ records:
     name:
       zh: Saltoposuchus longipes
       en: Saltoposuchus longipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllops silvai
       en: Phyllops silvai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus pearsonii
       en: Rhinolophus pearsonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

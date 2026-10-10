@@ -9,7 +9,6 @@ records:
     name:
       zh: Nubeoscincus glacialis
       en: Nubeoscincus glacialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gymnogyps kofordi
       en: Gymnogyps kofordi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

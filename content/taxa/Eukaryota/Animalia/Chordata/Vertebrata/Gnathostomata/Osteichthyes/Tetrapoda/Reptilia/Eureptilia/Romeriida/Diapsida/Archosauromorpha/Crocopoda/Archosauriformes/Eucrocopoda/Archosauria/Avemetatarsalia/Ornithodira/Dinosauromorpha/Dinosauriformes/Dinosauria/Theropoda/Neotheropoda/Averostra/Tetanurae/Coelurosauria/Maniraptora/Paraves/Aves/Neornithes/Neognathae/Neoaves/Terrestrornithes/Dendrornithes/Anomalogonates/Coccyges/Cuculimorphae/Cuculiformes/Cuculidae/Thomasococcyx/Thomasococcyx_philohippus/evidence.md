@@ -9,7 +9,6 @@ records:
     name:
       zh: Thomasococcyx philohippus
       en: Thomasococcyx philohippus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

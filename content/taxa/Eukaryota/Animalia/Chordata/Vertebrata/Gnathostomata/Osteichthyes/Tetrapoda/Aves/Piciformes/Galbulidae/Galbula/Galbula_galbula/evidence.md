@@ -9,7 +9,6 @@ records:
     name:
       zh: Galbula galbula
       en: Galbula galbula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

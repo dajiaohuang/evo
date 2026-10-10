@@ -9,7 +9,6 @@ records:
     name:
       en: Teratohyla spinosa
       zh: Teratohyla spinosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea tenchalli
       zh: Pseudoeurycea tenchalli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

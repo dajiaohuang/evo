@@ -9,7 +9,6 @@ records:
     name:
       en: Guibemantis flavobrunneus
       zh: Guibemantis flavobrunneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

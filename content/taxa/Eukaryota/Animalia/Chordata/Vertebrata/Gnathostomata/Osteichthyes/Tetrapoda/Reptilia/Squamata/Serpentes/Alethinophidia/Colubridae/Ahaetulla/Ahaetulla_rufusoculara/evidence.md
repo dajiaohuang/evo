@@ -9,7 +9,6 @@ records:
     name:
       zh: Ahaetulla rufusoculara
       en: Ahaetulla rufusoculara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

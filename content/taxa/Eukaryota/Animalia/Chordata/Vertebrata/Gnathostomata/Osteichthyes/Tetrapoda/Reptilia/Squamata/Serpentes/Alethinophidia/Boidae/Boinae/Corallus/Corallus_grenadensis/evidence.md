@@ -9,7 +9,6 @@ records:
     name:
       zh: Corallus grenadensis
       en: Corallus grenadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

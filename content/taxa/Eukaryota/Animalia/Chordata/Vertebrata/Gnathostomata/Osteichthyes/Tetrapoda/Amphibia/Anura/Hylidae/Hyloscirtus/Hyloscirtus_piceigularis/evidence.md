@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus piceigularis
       zh: Hyloscirtus piceigularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

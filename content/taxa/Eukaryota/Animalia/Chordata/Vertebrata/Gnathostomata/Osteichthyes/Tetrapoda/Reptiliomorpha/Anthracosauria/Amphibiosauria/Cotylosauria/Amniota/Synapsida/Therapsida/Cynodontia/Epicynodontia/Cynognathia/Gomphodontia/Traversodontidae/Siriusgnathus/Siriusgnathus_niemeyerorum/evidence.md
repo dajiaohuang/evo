@@ -9,7 +9,6 @@ records:
     name:
       zh: Siriusgnathus niemeyerorum
       en: Siriusgnathus niemeyerorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

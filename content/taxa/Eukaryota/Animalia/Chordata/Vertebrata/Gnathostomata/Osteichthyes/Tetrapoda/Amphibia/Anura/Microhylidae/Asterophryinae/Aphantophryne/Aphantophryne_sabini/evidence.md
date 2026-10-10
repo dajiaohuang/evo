@@ -9,7 +9,6 @@ records:
     name:
       en: Aphantophryne sabini
       zh: Aphantophryne sabini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

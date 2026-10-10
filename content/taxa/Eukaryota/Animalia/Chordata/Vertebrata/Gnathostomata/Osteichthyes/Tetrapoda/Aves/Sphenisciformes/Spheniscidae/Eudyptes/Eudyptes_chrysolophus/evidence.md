@@ -9,7 +9,6 @@ records:
     name:
       zh: Eudyptes chrysolophus
       en: Eudyptes chrysolophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: researchScope

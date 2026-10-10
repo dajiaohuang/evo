@@ -9,7 +9,6 @@ records:
     name:
       zh: Otomops
       en: Otomops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

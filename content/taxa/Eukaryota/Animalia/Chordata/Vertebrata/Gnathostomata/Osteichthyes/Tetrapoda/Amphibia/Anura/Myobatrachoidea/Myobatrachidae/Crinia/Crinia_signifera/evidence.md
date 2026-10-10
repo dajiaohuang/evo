@@ -9,7 +9,6 @@ records:
     name:
       en: Crinia signifera
       zh: Crinia signifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

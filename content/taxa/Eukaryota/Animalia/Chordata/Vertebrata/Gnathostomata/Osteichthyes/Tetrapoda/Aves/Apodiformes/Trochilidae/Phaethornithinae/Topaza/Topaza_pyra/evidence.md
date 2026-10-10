@@ -9,7 +9,6 @@ records:
     name:
       zh: Topaza pyra
       en: Topaza pyra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

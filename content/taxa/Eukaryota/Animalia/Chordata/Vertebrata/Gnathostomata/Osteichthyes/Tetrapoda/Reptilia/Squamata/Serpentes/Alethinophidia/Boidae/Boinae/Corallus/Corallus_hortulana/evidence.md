@@ -9,7 +9,6 @@ records:
     name:
       zh: Corallus hortulana
       en: Corallus hortulana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pternistis swierstrai
       en: Pternistis swierstrai
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

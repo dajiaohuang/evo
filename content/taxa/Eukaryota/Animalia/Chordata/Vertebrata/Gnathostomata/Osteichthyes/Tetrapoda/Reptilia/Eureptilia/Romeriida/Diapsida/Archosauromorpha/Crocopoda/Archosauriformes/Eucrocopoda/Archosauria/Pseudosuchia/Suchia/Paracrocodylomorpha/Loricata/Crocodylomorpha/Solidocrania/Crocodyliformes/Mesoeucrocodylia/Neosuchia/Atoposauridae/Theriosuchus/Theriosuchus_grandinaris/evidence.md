@@ -9,7 +9,6 @@ records:
     name:
       zh: Theriosuchus grandinaris
       en: Theriosuchus grandinaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

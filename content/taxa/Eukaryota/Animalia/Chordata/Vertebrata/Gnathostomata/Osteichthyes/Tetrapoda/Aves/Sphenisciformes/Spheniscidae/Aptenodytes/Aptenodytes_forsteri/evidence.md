@@ -9,7 +9,6 @@ records:
     name:
       zh: 皇帝企鹅
       en: Emperor Penguin
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: fieldObservation
@@ -886,10 +885,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Aptenodytes forsteri
@@ -1179,5 +1174,5 @@ A reproducible systematic search, screening record, and full source-concept reco
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No external expert review or independent review of the machine-generated Chinese paraphrases has been completed.
+No independent verification of the machine-generated Chinese paraphrases has been completed.
 <!-- /evo:text -->

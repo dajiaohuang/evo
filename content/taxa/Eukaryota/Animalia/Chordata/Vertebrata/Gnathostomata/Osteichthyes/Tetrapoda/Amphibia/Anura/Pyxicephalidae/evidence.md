@@ -9,7 +9,6 @@ records:
     name:
       en: Pyxicephalidae
       zh: Pyxicephalidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

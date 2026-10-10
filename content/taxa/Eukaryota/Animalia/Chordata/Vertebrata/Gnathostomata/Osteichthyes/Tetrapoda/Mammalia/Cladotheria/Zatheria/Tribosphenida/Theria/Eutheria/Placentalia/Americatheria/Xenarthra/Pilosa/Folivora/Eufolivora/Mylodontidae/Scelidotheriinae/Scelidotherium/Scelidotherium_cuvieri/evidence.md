@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelidotherium cuvieri
       en: Scelidotherium cuvieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

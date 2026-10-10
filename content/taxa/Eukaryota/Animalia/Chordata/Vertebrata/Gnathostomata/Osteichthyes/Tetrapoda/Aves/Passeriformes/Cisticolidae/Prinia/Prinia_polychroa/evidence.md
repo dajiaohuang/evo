@@ -9,7 +9,6 @@ records:
     name:
       zh: Prinia polychroa
       en: Prinia polychroa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

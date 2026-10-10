@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus chami
       zh: Nymphargus chami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

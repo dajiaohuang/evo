@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus cervinus
       en: Anthus cervinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

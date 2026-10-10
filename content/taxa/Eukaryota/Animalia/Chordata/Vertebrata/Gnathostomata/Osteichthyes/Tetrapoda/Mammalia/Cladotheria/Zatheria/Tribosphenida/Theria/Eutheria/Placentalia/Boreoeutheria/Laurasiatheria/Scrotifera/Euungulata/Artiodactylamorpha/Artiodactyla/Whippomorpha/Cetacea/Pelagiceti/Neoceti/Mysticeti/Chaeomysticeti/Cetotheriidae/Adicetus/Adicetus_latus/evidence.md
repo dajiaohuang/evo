@@ -9,7 +9,6 @@ records:
     name:
       zh: Adicetus latus
       en: Adicetus latus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

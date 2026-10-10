@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus pohlei
       en: Pteropus pohlei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

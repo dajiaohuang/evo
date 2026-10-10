@@ -9,7 +9,6 @@ records:
     name:
       en: Theloderma petilum
       zh: Theloderma petilum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

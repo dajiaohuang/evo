@@ -9,7 +9,6 @@ records:
     name:
       en: Brown-headed Spider Monkey
       zh: 棕头蜘蛛猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

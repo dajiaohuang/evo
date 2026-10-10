@@ -9,7 +9,6 @@ records:
     name:
       en: Oophaga arborea
       zh: Oophaga arborea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liopholis slateri
       en: Liopholis slateri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

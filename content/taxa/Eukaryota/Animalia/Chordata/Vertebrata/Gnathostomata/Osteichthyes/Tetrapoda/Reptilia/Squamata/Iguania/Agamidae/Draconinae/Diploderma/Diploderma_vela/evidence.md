@@ -9,7 +9,6 @@ records:
     name:
       zh: Diploderma vela
       en: Diploderma vela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

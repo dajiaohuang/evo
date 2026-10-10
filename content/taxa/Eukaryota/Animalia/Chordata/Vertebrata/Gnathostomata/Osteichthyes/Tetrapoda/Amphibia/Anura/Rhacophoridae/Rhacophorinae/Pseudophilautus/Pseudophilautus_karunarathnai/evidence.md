@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus karunarathnai
       zh: Pseudophilautus karunarathnai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

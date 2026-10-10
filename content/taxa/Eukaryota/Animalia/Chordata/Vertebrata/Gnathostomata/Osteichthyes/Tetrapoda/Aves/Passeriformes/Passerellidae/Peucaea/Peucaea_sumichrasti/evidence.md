@@ -9,7 +9,6 @@ records:
     name:
       zh: Peucaea sumichrasti
       en: Peucaea sumichrasti
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

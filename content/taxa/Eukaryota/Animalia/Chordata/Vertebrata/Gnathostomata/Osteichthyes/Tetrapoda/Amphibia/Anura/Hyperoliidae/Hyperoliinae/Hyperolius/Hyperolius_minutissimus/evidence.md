@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius minutissimus
       zh: Hyperolius minutissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

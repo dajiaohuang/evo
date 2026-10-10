@@ -9,7 +9,6 @@ records:
     name:
       zh: Niviventer coninga
       en: Niviventer coninga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

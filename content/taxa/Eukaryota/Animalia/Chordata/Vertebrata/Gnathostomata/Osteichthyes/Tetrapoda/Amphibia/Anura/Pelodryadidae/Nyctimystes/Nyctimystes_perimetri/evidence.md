@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes perimetri
       zh: Nyctimystes perimetri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiothlypis luciae
       en: Leiothlypis luciae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

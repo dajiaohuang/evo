@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidosaurus purbeckensis
       en: Pholidosaurus purbeckensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

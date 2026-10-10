@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamaeza nobilis
       en: Chamaeza nobilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

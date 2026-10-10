@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhoptropella ocellata
       en: Rhoptropella ocellata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

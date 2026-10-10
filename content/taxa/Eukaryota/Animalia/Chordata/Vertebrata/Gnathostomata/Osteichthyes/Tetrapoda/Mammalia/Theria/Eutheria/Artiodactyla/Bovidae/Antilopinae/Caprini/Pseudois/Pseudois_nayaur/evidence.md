@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudois nayaur
       en: Pseudois nayaur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

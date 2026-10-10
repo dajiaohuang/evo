@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryornis hatcheri
       en: Dryornis hatcheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

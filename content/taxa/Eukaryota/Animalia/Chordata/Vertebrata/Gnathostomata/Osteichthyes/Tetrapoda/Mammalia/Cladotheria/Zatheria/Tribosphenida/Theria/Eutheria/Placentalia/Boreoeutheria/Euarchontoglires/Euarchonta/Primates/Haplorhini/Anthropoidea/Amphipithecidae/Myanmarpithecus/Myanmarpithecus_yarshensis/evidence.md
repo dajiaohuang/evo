@@ -9,7 +9,6 @@ records:
     name:
       zh: Myanmarpithecus yarshensis
       en: Myanmarpithecus yarshensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

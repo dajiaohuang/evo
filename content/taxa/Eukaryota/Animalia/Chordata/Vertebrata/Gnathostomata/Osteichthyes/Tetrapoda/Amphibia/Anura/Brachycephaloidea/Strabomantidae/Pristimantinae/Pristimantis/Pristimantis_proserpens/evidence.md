@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis proserpens
       zh: Pristimantis proserpens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

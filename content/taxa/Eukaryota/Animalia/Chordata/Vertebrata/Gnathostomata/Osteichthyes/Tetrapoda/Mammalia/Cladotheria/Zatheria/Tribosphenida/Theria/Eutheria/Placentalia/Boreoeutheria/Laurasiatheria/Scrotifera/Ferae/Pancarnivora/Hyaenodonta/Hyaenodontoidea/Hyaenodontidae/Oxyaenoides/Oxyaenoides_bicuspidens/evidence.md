@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyaenoides bicuspidens
       en: Oxyaenoides bicuspidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

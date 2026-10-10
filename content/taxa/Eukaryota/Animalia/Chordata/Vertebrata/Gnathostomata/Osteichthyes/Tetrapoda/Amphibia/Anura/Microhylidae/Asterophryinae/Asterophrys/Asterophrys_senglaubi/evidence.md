@@ -9,7 +9,6 @@ records:
     name:
       en: Asterophrys senglaubi
       zh: Asterophrys senglaubi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mixosaurus kuhnschneyderi
       en: Mixosaurus kuhnschneyderi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

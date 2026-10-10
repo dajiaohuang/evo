@@ -9,7 +9,6 @@ records:
     name:
       zh: Sakhibaghoon khizari
       en: Sakhibaghoon khizari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

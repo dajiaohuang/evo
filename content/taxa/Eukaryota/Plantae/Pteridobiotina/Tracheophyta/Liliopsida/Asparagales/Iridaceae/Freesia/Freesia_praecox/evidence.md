@@ -178,8 +178,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
 ---
 
 # Freesia praecox
@@ -361,5 +359,5 @@ Four facets have only partial regional evidence and three remain unassessed.
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-No systematic literature, fossil, global distribution or conservation review and no external expert review have been completed.
+No systematic literature, fossil, global distribution or conservation search have been completed.
 <!-- /evo:text -->

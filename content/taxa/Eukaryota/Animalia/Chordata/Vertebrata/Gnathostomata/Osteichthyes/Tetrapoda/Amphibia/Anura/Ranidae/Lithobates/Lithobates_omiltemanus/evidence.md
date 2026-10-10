@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates omiltemanus
       zh: Lithobates omiltemanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

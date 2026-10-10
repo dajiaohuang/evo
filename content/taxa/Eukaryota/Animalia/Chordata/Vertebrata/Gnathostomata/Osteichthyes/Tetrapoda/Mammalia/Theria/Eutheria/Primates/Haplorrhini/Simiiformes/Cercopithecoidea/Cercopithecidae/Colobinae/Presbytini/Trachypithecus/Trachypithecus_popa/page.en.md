@@ -16,5 +16,5 @@ The 2020 formal description linked this species to historical specimens and newl
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The type specimen, museum comparisons and survey material support the paper's taxonomic description; range limits and historical estimates remain bounded, not a complete current range or census. The Chinese common name is an editorial translation; the page has not received external expert review. This page is not externally expert-reviewed.
+The type specimen, museum comparisons and survey material support the paper's taxonomic description; range limits and historical estimates remain bounded, not a complete current range or census. The Chinese common name is an editorial translation.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyseps spilostichus
       en: Brachyseps spilostichus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

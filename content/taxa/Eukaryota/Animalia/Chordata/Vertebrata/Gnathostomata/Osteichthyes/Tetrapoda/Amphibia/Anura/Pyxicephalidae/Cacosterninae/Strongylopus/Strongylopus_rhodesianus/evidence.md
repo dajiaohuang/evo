@@ -9,7 +9,6 @@ records:
     name:
       en: Strongylopus rhodesianus
       zh: Strongylopus rhodesianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

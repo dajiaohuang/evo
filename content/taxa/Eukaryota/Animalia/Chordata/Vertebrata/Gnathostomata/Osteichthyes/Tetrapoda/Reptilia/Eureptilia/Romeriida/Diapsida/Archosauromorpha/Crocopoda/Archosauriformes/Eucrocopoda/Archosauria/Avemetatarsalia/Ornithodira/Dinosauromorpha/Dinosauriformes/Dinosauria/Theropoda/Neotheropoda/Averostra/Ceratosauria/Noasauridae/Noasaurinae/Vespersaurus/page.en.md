@@ -60,7 +60,7 @@ Compare Vespersaurus paranaensis with its named collection and original referenc
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The route now includes material, foot anatomy and histological growth guides, without covering every later study. Age models, material assignment and behavioral hypotheses retain their evidence scopes. Femora and tibiae lack paired-individual review; complete development and external expert review remain pending.
+The route now includes material, foot anatomy and histological growth guides, without covering every later study. Age models, material assignment and behavioral hypotheses retain their evidence scopes. Femora and tibiae lack paired-individual review; complete development remain pending.
 
 The comparative route additionally uses the already-read 2019 shared-bonebed and 2020 dinosaur-histology main texts. Samples and models apply to their respective taxa; cross-links do not complete the site fauna or all developmental research.
 <!-- /evo:text -->

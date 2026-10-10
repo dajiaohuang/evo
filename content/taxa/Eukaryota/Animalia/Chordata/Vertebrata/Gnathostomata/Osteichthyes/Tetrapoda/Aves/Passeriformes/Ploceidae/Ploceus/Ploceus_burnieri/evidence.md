@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus burnieri
       en: Ploceus burnieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

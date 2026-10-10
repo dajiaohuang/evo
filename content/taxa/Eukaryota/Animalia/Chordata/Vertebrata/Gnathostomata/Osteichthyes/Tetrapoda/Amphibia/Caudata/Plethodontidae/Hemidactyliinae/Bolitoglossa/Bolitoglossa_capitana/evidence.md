@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa capitana
       zh: Bolitoglossa capitana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

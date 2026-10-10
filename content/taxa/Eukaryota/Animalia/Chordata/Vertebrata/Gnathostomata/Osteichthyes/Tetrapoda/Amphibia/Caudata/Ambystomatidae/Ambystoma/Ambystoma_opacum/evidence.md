@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma opacum
       zh: Ambystoma opacum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

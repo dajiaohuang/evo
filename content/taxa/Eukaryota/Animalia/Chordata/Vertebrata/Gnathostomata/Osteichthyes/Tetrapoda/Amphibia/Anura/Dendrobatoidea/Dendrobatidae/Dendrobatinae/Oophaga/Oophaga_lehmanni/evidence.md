@@ -9,7 +9,6 @@ records:
     name:
       en: Oophaga lehmanni
       zh: Oophaga lehmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

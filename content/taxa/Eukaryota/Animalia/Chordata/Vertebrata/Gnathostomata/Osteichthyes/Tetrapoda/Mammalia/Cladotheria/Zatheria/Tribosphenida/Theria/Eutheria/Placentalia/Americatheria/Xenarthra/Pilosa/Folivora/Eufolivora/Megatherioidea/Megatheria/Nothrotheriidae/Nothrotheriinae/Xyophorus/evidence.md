@@ -9,7 +9,6 @@ records:
     name:
       zh: Xyophorus
       en: Xyophorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

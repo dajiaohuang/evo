@@ -9,7 +9,6 @@ records:
     name:
       en: Guibemantis timidus
       zh: Guibemantis timidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

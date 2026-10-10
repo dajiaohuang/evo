@@ -9,7 +9,6 @@ records:
     name:
       zh: Parasauromalus
       en: Parasauromalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

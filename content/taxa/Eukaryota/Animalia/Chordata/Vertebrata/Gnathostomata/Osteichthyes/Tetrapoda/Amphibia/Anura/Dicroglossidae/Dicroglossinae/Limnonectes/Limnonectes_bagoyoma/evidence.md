@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes bagoyoma
       zh: Limnonectes bagoyoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

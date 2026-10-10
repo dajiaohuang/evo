@@ -9,7 +9,6 @@ records:
     name:
       en: Gymnopis
       zh: Gymnopis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

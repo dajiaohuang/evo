@@ -22,5 +22,5 @@ The type locality is in Masoala National Park in northeastern Madagascar. The pa
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Mass, pelage, and range reflect the 2008 description sample; no current population estimate or complete ecological range is inferred. The Chinese name is editorial, and this guide is not externally expert-reviewed.
+Mass, pelage, and range reflect the 2008 description sample; no current population estimate or complete ecological range is inferred. The Chinese name is editorial, and this guide is.
 <!-- /evo:text -->

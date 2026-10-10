@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: dunn-2022-auroralumina primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: dunn-2022-auroralumina
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: dunn-2022-auroralumina primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: dunn-2022-auroralumina
           relation: supports
@@ -97,9 +91,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: dunn-2022-auroralumina primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: dunn-2022-auroralumina
           relation: supports
@@ -116,9 +107,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: dunn-2022-auroralumina primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: dunn-2022-auroralumina
           relation: supports
@@ -135,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: dunn-2022-auroralumina primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: dunn-2022-auroralumina
           relation: supports
@@ -189,7 +174,6 @@ records:
       referenceLocators:
         - referenceId: dunn-2022-auroralumina
           locator: 1095–1104; Figures 1–4; Extended Data Figures 1–8; Specimen BGS GSM 105875, stratigraphy and morphology matrix
-      reviewStatus: automated-audit-passed
 ---
 
 # Auroralumina attenboroughii

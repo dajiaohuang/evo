@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis nganghae
       en: Trachylepis nganghae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

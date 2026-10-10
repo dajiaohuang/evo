@@ -9,7 +9,6 @@ records:
     name:
       zh: Cistothorus palustris
       en: Cistothorus palustris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

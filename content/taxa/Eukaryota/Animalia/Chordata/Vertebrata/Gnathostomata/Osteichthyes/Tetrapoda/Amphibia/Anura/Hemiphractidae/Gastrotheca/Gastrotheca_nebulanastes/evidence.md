@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca nebulanastes
       zh: Gastrotheca nebulanastes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

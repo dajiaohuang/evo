@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaenia ridleyana
       en: Elaenia ridleyana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus coffea
       zh: Dendropsophus coffea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

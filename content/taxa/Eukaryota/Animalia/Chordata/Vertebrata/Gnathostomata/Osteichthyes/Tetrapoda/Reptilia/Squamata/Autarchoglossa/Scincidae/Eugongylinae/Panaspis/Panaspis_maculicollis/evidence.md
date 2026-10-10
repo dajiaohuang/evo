@@ -9,7 +9,6 @@ records:
     name:
       zh: Panaspis maculicollis
       en: Panaspis maculicollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

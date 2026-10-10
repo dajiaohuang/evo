@@ -9,7 +9,6 @@ records:
     name:
       zh: Brasilemys josai
       en: Brasilemys josai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Koshisaurus katsuyama
       en: Koshisaurus katsuyama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

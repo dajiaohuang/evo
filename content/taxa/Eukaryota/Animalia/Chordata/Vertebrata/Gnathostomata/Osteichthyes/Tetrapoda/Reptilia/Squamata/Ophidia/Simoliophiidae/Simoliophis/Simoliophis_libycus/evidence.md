@@ -9,7 +9,6 @@ records:
     name:
       zh: Simoliophis libycus
       en: Simoliophis libycus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

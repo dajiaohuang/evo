@@ -9,7 +9,6 @@ records:
     name:
       zh: Catharus bicknelli
       en: Catharus bicknelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

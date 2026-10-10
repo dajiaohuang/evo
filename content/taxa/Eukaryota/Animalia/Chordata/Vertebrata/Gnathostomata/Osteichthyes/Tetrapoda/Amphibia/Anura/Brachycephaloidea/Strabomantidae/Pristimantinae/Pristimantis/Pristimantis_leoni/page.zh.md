@@ -152,7 +152,7 @@ Leoni QCAZ42125 与候选 sp. 13 KU218030 为 1.5%，与 QCAZ13769 为 1.3%；le
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-部分研究范围内的生物学读本。其余生物学主题仍需更多证据。未经过外部领域专家评审。
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。。
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

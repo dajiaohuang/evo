@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenosaura palearis
       en: Ctenosaura palearis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

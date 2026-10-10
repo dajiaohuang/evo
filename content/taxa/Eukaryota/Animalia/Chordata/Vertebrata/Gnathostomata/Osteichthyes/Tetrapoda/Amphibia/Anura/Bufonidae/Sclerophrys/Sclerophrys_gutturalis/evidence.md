@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys gutturalis
       zh: Sclerophrys gutturalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

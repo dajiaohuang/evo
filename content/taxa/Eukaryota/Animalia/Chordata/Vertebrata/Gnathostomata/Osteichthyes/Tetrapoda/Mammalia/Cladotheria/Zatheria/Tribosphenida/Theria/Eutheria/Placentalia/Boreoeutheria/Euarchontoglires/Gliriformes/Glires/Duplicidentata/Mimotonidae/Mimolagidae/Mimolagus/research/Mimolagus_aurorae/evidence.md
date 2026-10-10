@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: fostowicz-frelik-2015-mimolagus concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: fostowicz-frelik-2015-mimolagus
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: "Evo Atlas issue #185 evidence audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: fostowicz-frelik-2015-mimolagus DOI 10.1038/srep09394; primary-study locator audited 2026-09-01
       referenceLinks:
         - referenceId: fostowicz-frelik-2015-mimolagus
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: "Evo Atlas issue #185 evidence audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: fostowicz-frelik-2015-mimolagus DOI 10.1038/srep09394; primary-study locator audited 2026-09-01
       referenceLinks:
         - referenceId: fostowicz-frelik-2015-mimolagus
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: "Evo Atlas issue #185 evidence audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: fostowicz-frelik-2015-mimolagus DOI 10.1038/srep09394; primary-study locator audited 2026-09-01
       referenceLinks:
         - referenceId: fostowicz-frelik-2015-mimolagus
           relation: supports
@@ -143,9 +131,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: "Evo Atlas issue #185 evidence audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: fostowicz-frelik-2015-mimolagus DOI 10.1038/srep09394; primary-study locator audited 2026-09-01
       referenceLinks:
         - referenceId: fostowicz-frelik-2015-mimolagus
           relation: supports
@@ -199,7 +184,6 @@ records:
       referenceLocators:
         - referenceId: fostowicz-frelik-2015-mimolagus
           locator: 9394; Figures 1–6; Type locality and age
-      reviewStatus: automated-audit-passed
 ---
 
 # Mimolagus aurorae

@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena arnei
       zh: Ptychadena arnei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus dimidiatus
       zh: Eleutherodactylus dimidiatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

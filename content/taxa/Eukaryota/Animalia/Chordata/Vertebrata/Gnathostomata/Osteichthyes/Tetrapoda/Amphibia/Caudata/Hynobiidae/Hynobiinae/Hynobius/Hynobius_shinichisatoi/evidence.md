@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius shinichisatoi
       zh: Hynobius shinichisatoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

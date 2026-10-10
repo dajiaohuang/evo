@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylopetes winstoni
       en: Hylopetes winstoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Lepidobatrachus llanensis
       zh: Lepidobatrachus llanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

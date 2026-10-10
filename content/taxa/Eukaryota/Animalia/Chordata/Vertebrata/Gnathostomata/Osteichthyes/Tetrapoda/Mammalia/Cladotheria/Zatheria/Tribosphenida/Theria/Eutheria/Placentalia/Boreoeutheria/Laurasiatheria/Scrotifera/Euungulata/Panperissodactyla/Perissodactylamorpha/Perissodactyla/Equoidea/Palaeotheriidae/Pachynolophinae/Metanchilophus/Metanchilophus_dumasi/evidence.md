@@ -9,7 +9,6 @@ records:
     name:
       zh: Metanchilophus dumasi
       en: Metanchilophus dumasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

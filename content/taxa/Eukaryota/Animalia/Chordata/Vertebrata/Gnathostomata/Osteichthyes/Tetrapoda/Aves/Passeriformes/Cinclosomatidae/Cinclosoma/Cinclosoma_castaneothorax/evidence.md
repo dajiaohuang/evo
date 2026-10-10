@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinclosoma castaneothorax
       en: Cinclosoma castaneothorax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

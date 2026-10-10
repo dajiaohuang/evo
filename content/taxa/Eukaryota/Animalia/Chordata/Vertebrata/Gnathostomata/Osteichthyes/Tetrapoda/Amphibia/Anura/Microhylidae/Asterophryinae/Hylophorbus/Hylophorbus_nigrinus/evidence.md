@@ -9,7 +9,6 @@ records:
     name:
       en: Hylophorbus nigrinus
       zh: Hylophorbus nigrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

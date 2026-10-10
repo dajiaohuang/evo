@@ -27,4 +27,4 @@ Historical imports retain their original ownership SHA-256. The exact RC72 input
 
 ## Delivery and evidence boundaries
 
-Pages remains `web-light`; Android and iOS remain `native-full`. The repair does not add new accepted species, merge source-only records into the COL total, change biological claims, create a dossier or promote review status. Existing release inventories and native tests continue to verify delivery. Regression fixtures exercise the actual rebuild/update paths; no new scientific content-validation system is introduced.
+Pages remains `web-light`; Android and iOS remain `native-full`. The repair does not add new accepted species, merge source-only records into the COL total, change biological claims, create a dossier. Existing release inventories and native tests continue to verify delivery. Regression fixtures exercise the actual rebuild/update paths; no new scientific content-validation system is introduced.

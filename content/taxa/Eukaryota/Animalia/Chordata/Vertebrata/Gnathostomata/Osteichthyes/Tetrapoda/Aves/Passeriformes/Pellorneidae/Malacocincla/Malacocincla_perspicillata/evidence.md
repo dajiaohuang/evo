@@ -9,7 +9,6 @@ records:
     name:
       zh: Malacocincla perspicillata
       en: Malacocincla perspicillata
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

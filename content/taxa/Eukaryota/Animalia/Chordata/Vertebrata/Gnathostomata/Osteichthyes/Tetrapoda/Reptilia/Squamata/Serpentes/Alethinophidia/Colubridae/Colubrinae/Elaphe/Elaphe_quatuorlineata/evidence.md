@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaphe quatuorlineata
       en: Elaphe quatuorlineata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

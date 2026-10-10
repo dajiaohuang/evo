@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo atlas
       en: Testudo atlas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

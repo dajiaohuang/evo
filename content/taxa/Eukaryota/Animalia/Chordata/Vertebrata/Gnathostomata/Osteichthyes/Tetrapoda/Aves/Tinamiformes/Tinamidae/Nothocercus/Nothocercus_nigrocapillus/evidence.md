@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothocercus nigrocapillus
       en: Nothocercus nigrocapillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

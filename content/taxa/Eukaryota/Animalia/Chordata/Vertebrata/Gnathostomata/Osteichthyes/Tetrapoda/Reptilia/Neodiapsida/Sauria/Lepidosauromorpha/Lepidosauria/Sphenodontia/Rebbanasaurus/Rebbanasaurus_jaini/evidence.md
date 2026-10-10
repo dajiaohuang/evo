@@ -9,7 +9,6 @@ records:
     name:
       zh: Rebbanasaurus jaini
       en: Rebbanasaurus jaini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

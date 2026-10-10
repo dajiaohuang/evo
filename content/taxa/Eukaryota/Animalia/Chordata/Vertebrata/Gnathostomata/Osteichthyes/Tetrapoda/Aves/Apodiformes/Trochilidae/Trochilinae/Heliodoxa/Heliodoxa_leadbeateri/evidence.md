@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliodoxa leadbeateri
       en: Heliodoxa leadbeateri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

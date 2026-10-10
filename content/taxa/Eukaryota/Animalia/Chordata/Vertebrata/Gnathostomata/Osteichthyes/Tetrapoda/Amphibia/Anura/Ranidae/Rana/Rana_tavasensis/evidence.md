@@ -9,7 +9,6 @@ records:
     name:
       en: Rana tavasensis
       zh: Rana tavasensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

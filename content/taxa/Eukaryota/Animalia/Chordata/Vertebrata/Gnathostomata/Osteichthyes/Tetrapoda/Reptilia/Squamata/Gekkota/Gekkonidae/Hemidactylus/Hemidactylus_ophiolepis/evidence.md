@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus ophiolepis
       en: Hemidactylus ophiolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

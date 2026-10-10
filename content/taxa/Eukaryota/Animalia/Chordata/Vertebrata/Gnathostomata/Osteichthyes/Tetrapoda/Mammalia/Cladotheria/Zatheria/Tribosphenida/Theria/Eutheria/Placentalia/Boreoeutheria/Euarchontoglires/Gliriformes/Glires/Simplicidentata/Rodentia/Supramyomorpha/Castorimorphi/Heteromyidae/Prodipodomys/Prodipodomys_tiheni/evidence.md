@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodipodomys tiheni
       en: Prodipodomys tiheni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

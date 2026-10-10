@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus annectens
       en: Liolaemus annectens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

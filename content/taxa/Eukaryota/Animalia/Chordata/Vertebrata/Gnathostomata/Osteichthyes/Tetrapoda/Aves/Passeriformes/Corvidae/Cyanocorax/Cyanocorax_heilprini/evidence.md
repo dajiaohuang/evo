@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanocorax heilprini
       en: Cyanocorax heilprini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: nel-2013-eumetabola-fossils; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: nel-2013-eumetabola-fossils
           relation: supports
@@ -74,7 +71,6 @@ records:
           locator: 257–261
         - referenceId: misof-2014-insect-phylogenomics
           locator: 763–767
-      reviewStatus: automated-audit-passed
 ---
 
 # Insect radiation evidence route

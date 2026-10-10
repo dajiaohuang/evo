@@ -22,5 +22,5 @@ A 2006 field report summarized telemetry and indirect observations of one local 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Field and locality evidence is historical and concentrated at Bemaraha; no current range or abundance estimate is supplied here. This page has not received external expert review. This page is not externally expert-reviewed.
+Field and locality evidence is historical and concentrated at Bemaraha; no current range or abundance estimate is supplied here. This page. This page is.
 <!-- /evo:text -->

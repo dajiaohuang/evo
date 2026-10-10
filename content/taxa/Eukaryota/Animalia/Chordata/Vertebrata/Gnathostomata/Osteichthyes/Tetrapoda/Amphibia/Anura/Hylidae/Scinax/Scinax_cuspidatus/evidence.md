@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax cuspidatus
       zh: Scinax cuspidatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Salvator merianae
       en: Salvator merianae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

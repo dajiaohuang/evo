@@ -9,7 +9,6 @@ records:
     name:
       zh: Indotyphlops pammeces
       en: Indotyphlops pammeces
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

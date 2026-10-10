@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaenia flavogaster
       en: Elaenia flavogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

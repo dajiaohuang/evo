@@ -9,7 +9,6 @@ records:
     name:
       zh: Sus hyotherioides
       en: Sus hyotherioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

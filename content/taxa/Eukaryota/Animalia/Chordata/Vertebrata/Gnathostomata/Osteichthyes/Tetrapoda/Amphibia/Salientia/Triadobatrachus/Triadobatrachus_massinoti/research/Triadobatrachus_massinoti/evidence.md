@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: ascarrunz-2016-triadobatrachus at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: ascarrunz-2016-triadobatrachus
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: ascarrunz-2016-triadobatrachus at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: ascarrunz-2016-triadobatrachus
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: ascarrunz-2016-triadobatrachus at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: ascarrunz-2016-triadobatrachus
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: ascarrunz-2016-triadobatrachus at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: ascarrunz-2016-triadobatrachus
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: ascarrunz-2016-triadobatrachus at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: ascarrunz-2016-triadobatrachus
           relation: supports
@@ -197,7 +182,6 @@ records:
       referenceLocators:
         - referenceId: ascarrunz-2016-triadobatrachus
           locator: 201–234, especially 204–228; Figures 1–11; Material; anatomy; trunk evolution; calibration and provenance review
-      reviewStatus: automated-audit-passed
 ---
 
 # Triadobatrachus massinoti

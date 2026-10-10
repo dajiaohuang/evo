@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynomantis microps
       zh: Phrynomantis microps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

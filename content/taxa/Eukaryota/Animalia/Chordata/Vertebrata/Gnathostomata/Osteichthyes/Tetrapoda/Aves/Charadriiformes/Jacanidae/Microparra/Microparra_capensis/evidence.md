@@ -9,7 +9,6 @@ records:
     name:
       zh: Microparra capensis
       en: Microparra capensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

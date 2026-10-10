@@ -9,7 +9,6 @@ records:
     name:
       zh: Gurvansaurus canaliculatus
       en: Gurvansaurus canaliculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

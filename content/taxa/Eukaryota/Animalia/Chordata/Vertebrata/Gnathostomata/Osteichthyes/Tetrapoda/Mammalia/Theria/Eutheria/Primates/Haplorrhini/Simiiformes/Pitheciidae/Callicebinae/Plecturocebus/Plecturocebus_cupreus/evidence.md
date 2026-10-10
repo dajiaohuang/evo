@@ -9,7 +9,6 @@ records:
     name:
       zh: 铜色跳猴
       en: Coppery Titi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: typeMaterial

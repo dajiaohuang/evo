@@ -9,7 +9,6 @@ records:
     name:
       zh: Harpagolestes leei
       en: Harpagolestes leei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Turnagra capensis
       en: Turnagra capensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

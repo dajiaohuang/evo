@@ -87,9 +87,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gebo-2000-eosimias @ DOI 10.1038/35005066
       referenceLinks:
         - referenceId: gebo-2000-eosimias
           relation: supports

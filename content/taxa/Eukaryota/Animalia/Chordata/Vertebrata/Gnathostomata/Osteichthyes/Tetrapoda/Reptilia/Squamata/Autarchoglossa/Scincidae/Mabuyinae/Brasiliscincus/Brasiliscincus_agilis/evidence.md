@@ -9,7 +9,6 @@ records:
     name:
       zh: Brasiliscincus agilis
       en: Brasiliscincus agilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Suevoglis wannemacheri
       en: Suevoglis wannemacheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

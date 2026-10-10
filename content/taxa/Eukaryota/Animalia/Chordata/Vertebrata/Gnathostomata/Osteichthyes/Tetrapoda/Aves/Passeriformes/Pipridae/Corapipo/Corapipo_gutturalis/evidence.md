@@ -9,7 +9,6 @@ records:
     name:
       zh: Corapipo gutturalis
       en: Corapipo gutturalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

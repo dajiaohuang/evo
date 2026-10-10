@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplomys
       en: Diplomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

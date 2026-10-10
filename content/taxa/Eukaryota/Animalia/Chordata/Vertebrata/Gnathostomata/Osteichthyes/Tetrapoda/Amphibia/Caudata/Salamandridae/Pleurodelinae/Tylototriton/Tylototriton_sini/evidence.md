@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton sini
       zh: Tylototriton sini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

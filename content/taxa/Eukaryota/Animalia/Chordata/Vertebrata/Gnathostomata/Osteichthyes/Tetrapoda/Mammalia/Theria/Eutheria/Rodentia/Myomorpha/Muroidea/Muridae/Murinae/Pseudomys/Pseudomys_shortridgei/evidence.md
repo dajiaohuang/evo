@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudomys shortridgei
       en: Pseudomys shortridgei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

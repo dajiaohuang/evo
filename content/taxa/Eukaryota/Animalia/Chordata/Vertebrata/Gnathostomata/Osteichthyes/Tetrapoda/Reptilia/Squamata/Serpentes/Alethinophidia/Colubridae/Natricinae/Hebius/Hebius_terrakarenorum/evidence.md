@@ -9,7 +9,6 @@ records:
     name:
       zh: Hebius terrakarenorum
       en: Hebius terrakarenorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

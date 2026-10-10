@@ -9,7 +9,6 @@ records:
     name:
       zh: Spindalis zena
       en: Spindalis zena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerrhopilus ater
       en: Gerrhopilus ater
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Platysteira jamesoni
       en: Platysteira jamesoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

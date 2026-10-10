@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus giesleri
       zh: Dendropsophus giesleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

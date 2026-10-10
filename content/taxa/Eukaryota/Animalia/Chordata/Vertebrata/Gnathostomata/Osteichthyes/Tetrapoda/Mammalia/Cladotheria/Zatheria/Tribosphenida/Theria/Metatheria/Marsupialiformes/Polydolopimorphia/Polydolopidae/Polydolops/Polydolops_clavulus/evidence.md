@@ -9,7 +9,6 @@ records:
     name:
       zh: Polydolops clavulus
       en: Polydolops clavulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

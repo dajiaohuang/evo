@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerastes vipera
       en: Cerastes vipera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

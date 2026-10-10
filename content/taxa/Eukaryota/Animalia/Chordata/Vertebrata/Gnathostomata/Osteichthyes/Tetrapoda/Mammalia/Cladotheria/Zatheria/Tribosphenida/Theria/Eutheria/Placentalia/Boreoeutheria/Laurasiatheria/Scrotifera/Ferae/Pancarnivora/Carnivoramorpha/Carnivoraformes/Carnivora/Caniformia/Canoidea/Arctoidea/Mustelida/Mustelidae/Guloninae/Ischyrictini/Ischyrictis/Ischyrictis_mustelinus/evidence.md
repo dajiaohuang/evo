@@ -9,7 +9,6 @@ records:
     name:
       zh: Ischyrictis mustelinus
       en: Ischyrictis mustelinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

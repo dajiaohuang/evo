@@ -9,7 +9,6 @@ records:
     name:
       zh: Geoclemmys yudaensis
       en: Geoclemmys yudaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

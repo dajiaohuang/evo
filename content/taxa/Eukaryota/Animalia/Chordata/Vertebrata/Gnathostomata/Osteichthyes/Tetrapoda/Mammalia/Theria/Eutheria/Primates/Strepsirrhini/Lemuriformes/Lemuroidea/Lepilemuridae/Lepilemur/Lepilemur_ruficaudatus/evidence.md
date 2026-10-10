@@ -9,7 +9,6 @@ records:
     name:
       zh: 红尾运动狐猴
       en: Red-tailed Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: geographic genetic variation

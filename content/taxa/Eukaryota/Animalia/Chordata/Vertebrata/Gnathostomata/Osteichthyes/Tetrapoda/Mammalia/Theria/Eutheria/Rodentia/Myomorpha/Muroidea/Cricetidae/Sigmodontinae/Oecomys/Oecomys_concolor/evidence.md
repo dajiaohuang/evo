@@ -9,7 +9,6 @@ records:
     name:
       zh: Oecomys concolor
       en: Oecomys concolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycophidion meleagre
       en: Lycophidion meleagre
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cervus (Dama) somonensis
       en: Cervus (Dama) somonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

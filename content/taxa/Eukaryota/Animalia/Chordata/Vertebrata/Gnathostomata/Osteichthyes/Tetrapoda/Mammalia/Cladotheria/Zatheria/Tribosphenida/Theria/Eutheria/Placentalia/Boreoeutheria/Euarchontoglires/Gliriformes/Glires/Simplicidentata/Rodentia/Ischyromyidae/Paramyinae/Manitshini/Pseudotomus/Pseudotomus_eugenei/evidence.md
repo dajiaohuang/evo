@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudotomus eugenei
       en: Pseudotomus eugenei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

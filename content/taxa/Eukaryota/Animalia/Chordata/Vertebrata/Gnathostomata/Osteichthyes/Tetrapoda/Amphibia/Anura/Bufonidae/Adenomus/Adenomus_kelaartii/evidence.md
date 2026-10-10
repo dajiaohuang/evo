@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomus kelaartii
       zh: Adenomus kelaartii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

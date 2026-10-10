@@ -9,7 +9,6 @@ records:
     name:
       zh: Vectiraptor greeni
       en: Vectiraptor greeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes arathooni
       zh: Limnonectes arathooni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

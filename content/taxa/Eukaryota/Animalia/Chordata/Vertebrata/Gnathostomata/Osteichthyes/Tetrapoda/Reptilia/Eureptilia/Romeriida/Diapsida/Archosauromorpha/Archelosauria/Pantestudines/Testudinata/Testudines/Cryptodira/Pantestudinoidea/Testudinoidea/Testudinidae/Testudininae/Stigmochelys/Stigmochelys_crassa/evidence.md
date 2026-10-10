@@ -9,7 +9,6 @@ records:
     name:
       zh: Stigmochelys crassa
       en: Stigmochelys crassa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

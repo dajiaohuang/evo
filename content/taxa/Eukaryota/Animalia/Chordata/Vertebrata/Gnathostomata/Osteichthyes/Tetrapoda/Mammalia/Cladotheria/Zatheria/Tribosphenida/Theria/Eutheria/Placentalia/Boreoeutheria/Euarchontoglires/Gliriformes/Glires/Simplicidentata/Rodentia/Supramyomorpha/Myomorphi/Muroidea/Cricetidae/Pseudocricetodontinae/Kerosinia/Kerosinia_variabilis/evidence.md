@@ -9,7 +9,6 @@ records:
     name:
       zh: Kerosinia variabilis
       en: Kerosinia variabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

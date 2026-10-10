@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctalus noctula
       en: Nyctalus noctula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

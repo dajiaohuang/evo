@@ -9,7 +9,6 @@ records:
     name:
       en: Guibemantis razandry
       zh: Guibemantis razandry
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

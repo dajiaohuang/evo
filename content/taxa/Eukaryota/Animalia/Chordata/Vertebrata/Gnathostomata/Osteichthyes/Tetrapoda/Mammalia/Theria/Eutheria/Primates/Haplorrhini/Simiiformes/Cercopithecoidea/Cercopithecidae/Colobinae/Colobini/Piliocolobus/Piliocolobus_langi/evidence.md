@@ -9,7 +9,6 @@ records:
     name:
       en: Lang's Red Colobus
       zh: 朗氏红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

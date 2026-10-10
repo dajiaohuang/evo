@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanochen cyanoptera
       en: Cyanochen cyanoptera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

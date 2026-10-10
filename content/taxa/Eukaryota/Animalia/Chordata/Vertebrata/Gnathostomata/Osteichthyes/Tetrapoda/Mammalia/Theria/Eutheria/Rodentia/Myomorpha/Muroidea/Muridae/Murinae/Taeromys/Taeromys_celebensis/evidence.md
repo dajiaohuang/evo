@@ -9,7 +9,6 @@ records:
     name:
       zh: Taeromys celebensis
       en: Taeromys celebensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

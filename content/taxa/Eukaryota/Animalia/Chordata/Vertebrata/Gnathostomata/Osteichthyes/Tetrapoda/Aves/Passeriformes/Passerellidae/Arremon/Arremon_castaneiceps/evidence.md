@@ -9,7 +9,6 @@ records:
     name:
       zh: Arremon castaneiceps
       en: Arremon castaneiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

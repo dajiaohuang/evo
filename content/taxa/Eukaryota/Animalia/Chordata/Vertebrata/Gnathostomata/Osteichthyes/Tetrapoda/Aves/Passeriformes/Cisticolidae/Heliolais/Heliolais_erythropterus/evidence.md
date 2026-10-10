@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliolais erythropterus
       en: Heliolais erythropterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

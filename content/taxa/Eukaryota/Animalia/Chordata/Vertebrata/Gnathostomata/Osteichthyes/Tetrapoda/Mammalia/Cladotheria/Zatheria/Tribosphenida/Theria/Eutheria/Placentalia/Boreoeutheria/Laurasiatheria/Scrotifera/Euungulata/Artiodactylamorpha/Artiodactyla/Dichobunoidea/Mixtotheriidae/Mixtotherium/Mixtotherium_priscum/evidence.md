@@ -9,7 +9,6 @@ records:
     name:
       zh: Mixtotherium priscum
       en: Mixtotherium priscum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

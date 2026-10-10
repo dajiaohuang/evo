@@ -9,7 +9,6 @@ records:
     name:
       zh: Luscinia brunnea
       en: Luscinia brunnea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

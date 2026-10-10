@@ -1,6 +1,5 @@
 import type { FossilOccurrence } from '../types'
 import type { TaxonOccurrenceQueryResult, TaxonQueryScope } from '../types'
-import entityOccurrenceIndexData from '../../data/indexes/entity-occurrence-index.json'
 import { loadOccurrenceManifest, loadPackageManifest, loadRuntimeFile } from '../data-client/staticDataClient'
 
 export const FOSSIL_PERIODS = Object.freeze([
@@ -36,7 +35,7 @@ interface EntityOccurrenceIndexEntry {
   scientificNameNormalized: string
   descendantTaxonIds: string[]
   descendantScientificNames: string[]
-  queryStatus: 'complete-query-observed' | 'complete-query-zero' | 'concept-review-required' | 'resolved-and-observed' | 'resolved-zero-in-bounded-sample' | 'external-id-unresolved' | 'navigation-only' | 'historical-grade' | 'outside-snapshot-scope'
+  queryStatus: 'complete-query-observed' | 'complete-query-zero' | 'incompatible-lineage' | 'lineage-not-verified' | 'resolved-and-observed' | 'resolved-zero-in-bounded-sample' | 'external-id-unresolved' | 'navigation-only' | 'historical-grade' | 'outside-snapshot-scope'
   matchMethods: { exactExternalId: number; acceptedName: number; higherClassification: number }
   completeSnapshotAvailable: boolean
   completeSnapshotRows: number | null
@@ -49,8 +48,6 @@ interface EntityOccurrenceIndex {
   samplingMethod: string
   nodes: Record<string, EntityOccurrenceIndexEntry>
 }
-
-const entityOccurrenceIndex = entityOccurrenceIndexData as EntityOccurrenceIndex
 
 export async function getFossilsByInterval(period: string): Promise<FossilOccurrence[]> {
   if (!FOSSIL_PERIODS.includes(period)) return []
@@ -73,6 +70,8 @@ export async function getFossilsByEntity(
   entityId: string,
   scope: TaxonQueryScope = 'descendants',
 ): Promise<TaxonOccurrenceQueryResult> {
+  const { default: entityOccurrenceIndexData } = await import('../../data/indexes/entity-occurrence-index.json')
+  const entityOccurrenceIndex = entityOccurrenceIndexData as EntityOccurrenceIndex
   const indexed = entityOccurrenceIndex.nodes[entityId]
   if (indexed?.completeSnapshotAvailable) {
     const targetedSnapshot = await loadTargetedPackageSnapshot(indexed.packageId)

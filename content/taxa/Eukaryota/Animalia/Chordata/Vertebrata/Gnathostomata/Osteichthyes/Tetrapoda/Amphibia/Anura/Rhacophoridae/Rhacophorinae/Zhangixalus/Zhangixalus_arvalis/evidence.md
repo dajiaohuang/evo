@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus arvalis
       zh: Zhangixalus arvalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

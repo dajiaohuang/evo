@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachuperus karlschmidti
       zh: Batrachuperus karlschmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

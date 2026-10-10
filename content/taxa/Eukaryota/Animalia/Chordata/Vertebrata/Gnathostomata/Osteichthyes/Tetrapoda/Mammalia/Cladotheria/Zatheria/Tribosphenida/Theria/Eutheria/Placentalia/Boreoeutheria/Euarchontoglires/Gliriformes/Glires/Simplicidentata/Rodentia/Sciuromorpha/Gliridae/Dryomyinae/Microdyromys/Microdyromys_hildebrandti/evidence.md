@@ -9,7 +9,6 @@ records:
     name:
       zh: Microdyromys hildebrandti
       en: Microdyromys hildebrandti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

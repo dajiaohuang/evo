@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiosminthus grangeri
       en: Plesiosminthus grangeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

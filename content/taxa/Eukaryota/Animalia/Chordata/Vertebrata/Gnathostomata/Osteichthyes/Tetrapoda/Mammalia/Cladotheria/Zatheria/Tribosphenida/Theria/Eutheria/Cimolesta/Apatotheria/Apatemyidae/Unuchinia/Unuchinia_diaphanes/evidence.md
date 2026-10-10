@@ -9,7 +9,6 @@ records:
     name:
       zh: Unuchinia diaphanes
       en: Unuchinia diaphanes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

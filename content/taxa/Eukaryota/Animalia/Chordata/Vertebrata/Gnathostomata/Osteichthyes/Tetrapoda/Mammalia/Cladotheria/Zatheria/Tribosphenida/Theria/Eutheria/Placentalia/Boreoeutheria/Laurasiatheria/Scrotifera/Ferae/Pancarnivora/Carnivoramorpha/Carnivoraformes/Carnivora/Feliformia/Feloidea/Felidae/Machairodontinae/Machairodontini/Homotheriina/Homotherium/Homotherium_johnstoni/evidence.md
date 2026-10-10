@@ -9,7 +9,6 @@ records:
     name:
       zh: Homotherium johnstoni
       en: Homotherium johnstoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys angka
       zh: Boulenophrys angka
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

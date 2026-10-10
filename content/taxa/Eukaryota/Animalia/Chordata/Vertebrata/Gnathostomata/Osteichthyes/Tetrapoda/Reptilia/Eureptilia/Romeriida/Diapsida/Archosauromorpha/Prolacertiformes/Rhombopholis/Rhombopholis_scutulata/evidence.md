@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhombopholis scutulata
       en: Rhombopholis scutulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

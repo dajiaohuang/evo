@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumysops parodii
       en: Eumysops parodii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

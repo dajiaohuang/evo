@@ -9,7 +9,6 @@ records:
     name:
       zh: 大侏狐猴
       en: Greater Dwarf Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: taxonomy

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetraogallus caspius
       en: Tetraogallus caspius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

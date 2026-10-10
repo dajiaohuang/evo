@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates nunciatus
       zh: Allobates nunciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

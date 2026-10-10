@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurocephalus anguitimens
       en: Eurocephalus anguitimens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 卡祖扎僧面猴
       en: Cazuza's Saki
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

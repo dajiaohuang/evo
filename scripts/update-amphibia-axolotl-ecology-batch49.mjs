@@ -73,7 +73,6 @@ function validateClaim(dossier) {
   assert.equal(dossier.scientificName, source.target.scientificName)
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness?.status, 'incomplete')
-  assert.equal(dossier.expertReview?.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   const claim = source.claims.ecology
   assert.ok(claim.text && claim.textZh && claim.locator && claim.placeTimeScope && claim.lifeStatus)
@@ -154,7 +153,6 @@ if (alreadyApplied) {
     reasons: [
       'The record combines a single-individual laboratory-genomics study and short-term post-release ecology from two captive-bred samples; morphology, life history, distribution, fossil evidence and conservation remain unassessed.',
       'Systematic literature coverage, wild-born ecology, long-term population outcomes and variation across the accepted species concept remain incomplete.',
-      'Independent external expert review has not been completed.',
     ],
   }
   verifyAcceptedIdentity(registryManifest, dossier)

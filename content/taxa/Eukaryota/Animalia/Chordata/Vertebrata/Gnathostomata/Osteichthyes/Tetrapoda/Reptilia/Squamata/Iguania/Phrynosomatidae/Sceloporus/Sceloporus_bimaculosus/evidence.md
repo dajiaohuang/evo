@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus bimaculosus
       en: Sceloporus bimaculosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylvisorex vulcanorum
       en: Sylvisorex vulcanorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

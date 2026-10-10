@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoxenodon baramensis
       en: Pseudoxenodon baramensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

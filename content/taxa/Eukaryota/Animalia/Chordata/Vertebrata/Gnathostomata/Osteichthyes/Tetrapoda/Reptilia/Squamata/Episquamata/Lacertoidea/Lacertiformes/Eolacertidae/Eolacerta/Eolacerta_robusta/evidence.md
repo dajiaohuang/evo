@@ -9,7 +9,6 @@ records:
     name:
       zh: Eolacerta robusta
       en: Eolacerta robusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

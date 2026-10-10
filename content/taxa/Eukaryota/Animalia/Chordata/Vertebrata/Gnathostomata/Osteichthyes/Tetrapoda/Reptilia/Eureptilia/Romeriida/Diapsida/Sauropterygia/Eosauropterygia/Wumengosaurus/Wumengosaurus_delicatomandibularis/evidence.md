@@ -9,7 +9,6 @@ records:
     name:
       zh: Wumengosaurus delicatomandibularis
       en: Wumengosaurus delicatomandibularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

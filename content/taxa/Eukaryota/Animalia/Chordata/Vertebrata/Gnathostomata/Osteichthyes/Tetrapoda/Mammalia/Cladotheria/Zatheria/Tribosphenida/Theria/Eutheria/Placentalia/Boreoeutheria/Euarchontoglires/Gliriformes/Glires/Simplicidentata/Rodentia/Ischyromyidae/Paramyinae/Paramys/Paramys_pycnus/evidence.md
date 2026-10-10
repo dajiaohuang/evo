@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramys pycnus
       en: Paramys pycnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

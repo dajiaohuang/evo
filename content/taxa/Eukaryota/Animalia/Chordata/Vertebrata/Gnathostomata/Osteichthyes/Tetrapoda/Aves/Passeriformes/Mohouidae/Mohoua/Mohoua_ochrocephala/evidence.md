@@ -9,7 +9,6 @@ records:
     name:
       zh: Mohoua ochrocephala
       en: Mohoua ochrocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

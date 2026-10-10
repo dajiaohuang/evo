@@ -9,7 +9,6 @@ records:
     name:
       zh: Elfridia bulbidens
       en: Elfridia bulbidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Vandijkophrynus angusticeps
       zh: Vandijkophrynus angusticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

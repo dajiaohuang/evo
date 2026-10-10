@@ -9,7 +9,6 @@ records:
     name:
       zh: Bolong yixianensis
       en: Bolong yixianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterocles burchelli
       en: Pterocles burchelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

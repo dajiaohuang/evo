@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus guentheri
       en: Atractus guentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

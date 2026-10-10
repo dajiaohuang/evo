@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaethornis stuarti
       en: Phaethornis stuarti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

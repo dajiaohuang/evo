@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiochelys planiceps
       en: Plesiochelys planiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

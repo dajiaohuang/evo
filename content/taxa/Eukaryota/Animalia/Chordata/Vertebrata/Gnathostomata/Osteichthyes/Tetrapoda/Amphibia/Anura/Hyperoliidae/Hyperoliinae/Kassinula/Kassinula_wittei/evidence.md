@@ -9,7 +9,6 @@ records:
     name:
       en: Kassinula wittei
       zh: Kassinula wittei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrocephalus newtoni
       en: Acrocephalus newtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Microcerculus philomela
       en: Microcerculus philomela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

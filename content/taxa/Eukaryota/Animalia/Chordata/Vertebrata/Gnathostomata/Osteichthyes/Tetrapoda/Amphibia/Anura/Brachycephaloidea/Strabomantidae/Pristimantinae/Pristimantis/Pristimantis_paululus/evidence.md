@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis paululus
       zh: Pristimantis paululus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

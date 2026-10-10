@@ -9,7 +9,6 @@ records:
     name:
       zh: Eopsaltria griseogularis
       en: Eopsaltria griseogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

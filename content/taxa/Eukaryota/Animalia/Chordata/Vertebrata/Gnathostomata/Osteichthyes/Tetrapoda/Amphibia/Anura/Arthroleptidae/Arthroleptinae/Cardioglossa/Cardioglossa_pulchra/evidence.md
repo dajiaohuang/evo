@@ -9,7 +9,6 @@ records:
     name:
       en: Cardioglossa pulchra
       zh: Cardioglossa pulchra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

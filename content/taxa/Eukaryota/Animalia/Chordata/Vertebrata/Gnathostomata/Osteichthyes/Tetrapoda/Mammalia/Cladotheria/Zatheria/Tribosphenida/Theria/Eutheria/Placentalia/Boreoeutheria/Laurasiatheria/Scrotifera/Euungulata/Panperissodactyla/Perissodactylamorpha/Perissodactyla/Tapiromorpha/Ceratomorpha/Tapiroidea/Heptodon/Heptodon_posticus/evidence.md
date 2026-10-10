@@ -9,7 +9,6 @@ records:
     name:
       zh: Heptodon posticus
       en: Heptodon posticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

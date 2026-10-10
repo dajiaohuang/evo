@@ -9,7 +9,6 @@ records:
     name:
       zh: Crithagra scotops
       en: Crithagra scotops
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

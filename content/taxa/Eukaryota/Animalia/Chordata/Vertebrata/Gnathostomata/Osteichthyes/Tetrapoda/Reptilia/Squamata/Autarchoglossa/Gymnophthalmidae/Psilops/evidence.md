@@ -9,7 +9,6 @@ records:
     name:
       zh: Psilops
       en: Psilops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

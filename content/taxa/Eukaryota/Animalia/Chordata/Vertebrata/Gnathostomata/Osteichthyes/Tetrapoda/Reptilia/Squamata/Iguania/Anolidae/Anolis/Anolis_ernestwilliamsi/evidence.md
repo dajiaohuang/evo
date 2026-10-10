@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis ernestwilliamsi
       en: Anolis ernestwilliamsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Leptomantis rufipes
       zh: Leptomantis rufipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

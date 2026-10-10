@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerdodon tenuidens
       en: Cerdodon tenuidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

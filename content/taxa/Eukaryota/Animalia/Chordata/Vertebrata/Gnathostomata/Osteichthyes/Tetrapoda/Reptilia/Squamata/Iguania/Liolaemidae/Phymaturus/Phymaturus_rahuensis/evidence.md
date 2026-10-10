@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus rahuensis
       en: Phymaturus rahuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

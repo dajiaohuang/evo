@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx jixiensis
       en: Trionyx jixiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

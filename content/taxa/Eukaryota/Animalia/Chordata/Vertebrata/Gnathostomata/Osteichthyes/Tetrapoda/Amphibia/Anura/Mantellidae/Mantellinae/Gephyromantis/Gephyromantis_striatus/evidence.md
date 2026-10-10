@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis striatus
       zh: Gephyromantis striatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

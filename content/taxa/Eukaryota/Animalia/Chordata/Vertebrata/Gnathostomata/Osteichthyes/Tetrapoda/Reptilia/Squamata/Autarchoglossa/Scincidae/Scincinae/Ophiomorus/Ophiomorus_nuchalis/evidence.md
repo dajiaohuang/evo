@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophiomorus nuchalis
       en: Ophiomorus nuchalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

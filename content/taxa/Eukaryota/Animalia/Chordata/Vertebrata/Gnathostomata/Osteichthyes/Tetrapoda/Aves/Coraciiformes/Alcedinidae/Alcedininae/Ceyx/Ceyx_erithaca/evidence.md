@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceyx erithaca
       en: Ceyx erithaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

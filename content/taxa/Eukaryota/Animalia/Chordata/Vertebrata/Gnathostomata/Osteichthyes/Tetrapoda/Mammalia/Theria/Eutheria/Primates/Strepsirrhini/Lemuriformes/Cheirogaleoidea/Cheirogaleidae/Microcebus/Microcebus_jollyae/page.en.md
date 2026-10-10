@@ -28,5 +28,5 @@ This page follows the fixed COL26.8 accepted ID `42SBP` and the study's Jolly's 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Limited to the 2006 eastern samples, three morphometric individuals and the type locality; no current range, abundance or conservation status is inferred. MDD and COL26.8 name treatments are shown side by side; the page is not externally expert-reviewed.
+Limited to the 2006 eastern samples, three morphometric individuals and the type locality; no current range, abundance or conservation status is inferred. MDD and COL26.8 name treatments are shown side by side.
 <!-- /evo:text -->

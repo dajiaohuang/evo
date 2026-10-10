@@ -9,7 +9,6 @@ records:
     name:
       zh: Armintodelphys dufraingi
       en: Armintodelphys dufraingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

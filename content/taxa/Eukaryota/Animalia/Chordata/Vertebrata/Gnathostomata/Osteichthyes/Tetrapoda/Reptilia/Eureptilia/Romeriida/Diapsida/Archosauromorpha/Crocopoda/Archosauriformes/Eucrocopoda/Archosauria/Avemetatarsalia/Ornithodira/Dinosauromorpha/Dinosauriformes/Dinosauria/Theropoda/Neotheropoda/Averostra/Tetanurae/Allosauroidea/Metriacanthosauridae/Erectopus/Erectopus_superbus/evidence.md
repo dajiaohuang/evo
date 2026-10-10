@@ -9,7 +9,6 @@ records:
     name:
       zh: Erectopus superbus
       en: Erectopus superbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Arielulus cuprosus
       en: Arielulus cuprosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

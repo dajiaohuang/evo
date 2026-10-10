@@ -9,7 +9,6 @@ records:
     name:
       en: Nilgiri Langur
       zh: 尼尔吉里叶猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: feeding

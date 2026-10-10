@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramelomys platyops
       en: Paramelomys platyops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

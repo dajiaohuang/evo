@@ -9,7 +9,6 @@ records:
     name:
       zh: Aepinacodon deflectus
       en: Aepinacodon deflectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

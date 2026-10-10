@@ -111,9 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: love-2009-sponge-steranes @ DOI 10.1038/nature07673; nettersheim-2019-rhizaria-steranes @ DOI 10.1038/s41559-019-0806-5
       referenceLinks:
         - referenceId: love-2009-sponge-steranes
           relation: supports

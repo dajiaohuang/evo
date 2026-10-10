@@ -9,7 +9,6 @@ records:
     name:
       zh: Conopophaga peruviana
       en: Conopophaga peruviana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

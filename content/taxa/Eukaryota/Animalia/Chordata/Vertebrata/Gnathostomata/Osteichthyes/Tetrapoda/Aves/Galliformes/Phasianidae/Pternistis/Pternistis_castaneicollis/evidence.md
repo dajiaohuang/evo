@@ -9,7 +9,6 @@ records:
     name:
       zh: Pternistis castaneicollis
       en: Pternistis castaneicollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

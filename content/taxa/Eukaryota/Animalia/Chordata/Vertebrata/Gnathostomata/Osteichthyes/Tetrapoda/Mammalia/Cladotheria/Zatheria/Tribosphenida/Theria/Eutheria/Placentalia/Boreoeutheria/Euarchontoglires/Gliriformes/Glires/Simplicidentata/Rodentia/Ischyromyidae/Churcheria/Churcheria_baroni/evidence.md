@@ -9,7 +9,6 @@ records:
     name:
       zh: Churcheria baroni
       en: Churcheria baroni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

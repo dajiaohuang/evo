@@ -9,7 +9,6 @@ records:
     name:
       zh: Harpyionycteris whiteheadi
       en: Harpyionycteris whiteheadi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

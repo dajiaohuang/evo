@@ -9,7 +9,6 @@ records:
     name:
       zh: Gamerabaena sonsalla
       en: Gamerabaena sonsalla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidoscelis lineolatus
       en: Pholidoscelis lineolatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

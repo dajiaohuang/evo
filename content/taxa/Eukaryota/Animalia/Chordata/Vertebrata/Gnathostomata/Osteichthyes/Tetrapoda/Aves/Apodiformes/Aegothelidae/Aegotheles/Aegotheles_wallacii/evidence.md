@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegotheles wallacii
       en: Aegotheles wallacii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

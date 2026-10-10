@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis sulcata
       en: Trachylepis sulcata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

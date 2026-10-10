@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalasseus bergii
       en: Thalasseus bergii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

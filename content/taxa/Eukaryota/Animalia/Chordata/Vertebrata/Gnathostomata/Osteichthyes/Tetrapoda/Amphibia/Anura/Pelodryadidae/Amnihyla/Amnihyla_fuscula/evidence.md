@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla fuscula
       zh: Amnihyla fuscula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

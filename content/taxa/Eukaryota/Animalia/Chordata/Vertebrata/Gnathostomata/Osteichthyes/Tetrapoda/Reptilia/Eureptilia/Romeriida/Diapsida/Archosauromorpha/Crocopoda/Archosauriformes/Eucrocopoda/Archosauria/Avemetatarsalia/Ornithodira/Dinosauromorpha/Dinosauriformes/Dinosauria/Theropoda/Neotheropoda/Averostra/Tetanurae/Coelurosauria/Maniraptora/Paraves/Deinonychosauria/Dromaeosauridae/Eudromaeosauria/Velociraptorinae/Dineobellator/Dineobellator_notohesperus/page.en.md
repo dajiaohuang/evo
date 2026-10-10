@@ -81,5 +81,5 @@ PBDB reference ref:71950 for SMP Loc. 410b, Willow Wash attributes the record to
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page combines fixed PBDB occurrence records with the 2020 description of one holotype. Database intervals, maximum depositional age and biostratigraphic interpretations are retained separately. Morphology supports the authors’ functional, feather and phylogenetic hypotheses, without directly establishing behavior, prey, colors or population variation. All subsequent revisions and taxonomic disputes are not assembled. This is not a complete monograph, direct specimen inspection or external expert review.
+This page combines fixed PBDB occurrence records with the 2020 description of one holotype. Database intervals, maximum depositional age and biostratigraphic interpretations are retained separately. Morphology supports the authors’ functional, feather and phylogenetic hypotheses, without directly establishing behavior, prey, colors or population variation. All subsequent revisions and taxonomic disputes are not assembled. This is not a complete monograph, direct specimen inspection.
 <!-- /evo:text -->

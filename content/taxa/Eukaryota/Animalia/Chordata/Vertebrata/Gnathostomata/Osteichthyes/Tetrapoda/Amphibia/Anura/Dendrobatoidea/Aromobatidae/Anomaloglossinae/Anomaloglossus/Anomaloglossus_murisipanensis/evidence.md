@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus murisipanensis
       zh: Anomaloglossus murisipanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Alphadon attaragos
       en: Alphadon attaragos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

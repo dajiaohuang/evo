@@ -9,7 +9,6 @@ records:
     name:
       zh: Spurimus scottii
       en: Spurimus scottii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

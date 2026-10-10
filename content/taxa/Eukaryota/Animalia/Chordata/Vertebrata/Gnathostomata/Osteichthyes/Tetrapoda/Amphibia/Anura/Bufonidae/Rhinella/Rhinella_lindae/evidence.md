@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella lindae
       zh: Rhinella lindae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

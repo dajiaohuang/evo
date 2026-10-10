@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllastrephus poliocephalus
       en: Phyllastrephus poliocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

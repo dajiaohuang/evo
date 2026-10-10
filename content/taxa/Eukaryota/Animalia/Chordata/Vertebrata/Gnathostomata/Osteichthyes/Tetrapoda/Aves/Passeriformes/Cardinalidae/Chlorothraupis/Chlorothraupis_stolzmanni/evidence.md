@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorothraupis stolzmanni
       en: Chlorothraupis stolzmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

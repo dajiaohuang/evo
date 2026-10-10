@@ -9,7 +9,6 @@ records:
     name:
       en: Stefania goini
       zh: Stefania goini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

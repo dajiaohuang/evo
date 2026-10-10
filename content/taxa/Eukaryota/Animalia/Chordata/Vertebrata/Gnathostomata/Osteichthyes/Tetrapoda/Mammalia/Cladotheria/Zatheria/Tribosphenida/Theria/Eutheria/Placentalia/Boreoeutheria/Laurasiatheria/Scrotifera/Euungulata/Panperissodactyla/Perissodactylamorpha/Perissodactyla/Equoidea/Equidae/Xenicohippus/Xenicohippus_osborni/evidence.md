@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenicohippus osborni
       en: Xenicohippus osborni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

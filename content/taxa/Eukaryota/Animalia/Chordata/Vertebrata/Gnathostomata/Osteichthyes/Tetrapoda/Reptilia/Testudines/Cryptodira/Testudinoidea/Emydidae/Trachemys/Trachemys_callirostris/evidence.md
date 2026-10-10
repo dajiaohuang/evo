@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachemys callirostris
       en: Trachemys callirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

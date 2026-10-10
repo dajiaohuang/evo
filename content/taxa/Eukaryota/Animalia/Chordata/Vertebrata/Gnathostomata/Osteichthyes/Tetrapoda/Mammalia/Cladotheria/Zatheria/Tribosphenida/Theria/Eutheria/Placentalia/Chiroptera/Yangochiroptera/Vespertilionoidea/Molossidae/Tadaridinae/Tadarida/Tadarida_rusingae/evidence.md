@@ -9,7 +9,6 @@ records:
     name:
       zh: Tadarida rusingae
       en: Tadarida rusingae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

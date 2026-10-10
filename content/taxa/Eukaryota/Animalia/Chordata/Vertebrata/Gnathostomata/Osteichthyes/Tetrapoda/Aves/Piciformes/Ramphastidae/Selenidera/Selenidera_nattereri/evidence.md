@@ -9,7 +9,6 @@ records:
     name:
       zh: Selenidera nattereri
       en: Selenidera nattereri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

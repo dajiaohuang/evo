@@ -9,7 +9,6 @@ records:
     name:
       zh: Galerix aurelianensis
       en: Galerix aurelianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

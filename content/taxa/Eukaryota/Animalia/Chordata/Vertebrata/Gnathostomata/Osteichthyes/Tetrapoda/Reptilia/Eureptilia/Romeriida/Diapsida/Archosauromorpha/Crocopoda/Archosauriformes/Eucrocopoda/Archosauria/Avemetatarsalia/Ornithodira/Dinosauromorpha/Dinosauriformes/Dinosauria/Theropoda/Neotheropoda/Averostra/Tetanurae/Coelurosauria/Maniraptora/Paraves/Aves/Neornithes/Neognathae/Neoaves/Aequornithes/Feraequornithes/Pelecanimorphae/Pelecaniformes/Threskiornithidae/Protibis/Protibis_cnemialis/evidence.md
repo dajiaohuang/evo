@@ -9,7 +9,6 @@ records:
     name:
       zh: Protibis cnemialis
       en: Protibis cnemialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

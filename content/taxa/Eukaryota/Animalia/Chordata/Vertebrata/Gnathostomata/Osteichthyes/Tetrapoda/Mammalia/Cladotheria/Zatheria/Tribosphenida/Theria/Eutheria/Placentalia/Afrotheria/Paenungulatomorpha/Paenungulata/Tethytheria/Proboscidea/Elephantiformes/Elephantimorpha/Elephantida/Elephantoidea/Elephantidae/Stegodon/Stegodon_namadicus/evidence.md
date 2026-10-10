@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegodon namadicus
       en: Stegodon namadicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

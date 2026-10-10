@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus marmoratus
       en: Sceloporus marmoratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

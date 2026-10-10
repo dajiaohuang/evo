@@ -200,9 +200,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Xanthoria parietina
@@ -312,7 +309,7 @@ The isolate is not linked to a unique wild collection site and date in the audit
 ## facets / ecology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/2 -->
-Morphology, life history, broader ecology, evolution, complete distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete.
+Morphology, life history, broader ecology, evolution, complete distribution, fossils, and conservation remain unassessed; systematic search are incomplete.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -330,5 +327,5 @@ The fungal isolate is not linked to one exact collection locality/date in the au
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Other biological facets and complete geographic, fossil, and conservation coverage remain unassessed; systematic search and external review are incomplete.
+Other biological facets and complete geographic, fossil, and conservation coverage remain unassessed; systematic search are incomplete.
 <!-- /evo:text -->

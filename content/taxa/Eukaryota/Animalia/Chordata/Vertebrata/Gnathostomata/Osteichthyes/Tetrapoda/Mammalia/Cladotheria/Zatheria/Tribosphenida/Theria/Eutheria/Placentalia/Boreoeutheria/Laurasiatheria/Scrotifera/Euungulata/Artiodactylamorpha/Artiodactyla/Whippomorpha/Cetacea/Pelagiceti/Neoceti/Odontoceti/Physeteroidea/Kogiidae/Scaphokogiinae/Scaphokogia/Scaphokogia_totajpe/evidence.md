@@ -9,7 +9,6 @@ records:
     name:
       zh: Scaphokogia totajpe
       en: Scaphokogia totajpe
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Heleioporus
       zh: Heleioporus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

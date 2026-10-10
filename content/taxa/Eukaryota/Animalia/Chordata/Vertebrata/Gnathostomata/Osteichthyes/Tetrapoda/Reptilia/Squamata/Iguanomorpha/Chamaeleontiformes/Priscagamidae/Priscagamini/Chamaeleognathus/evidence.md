@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamaeleognathus
       en: Chamaeleognathus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

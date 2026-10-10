@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinclus pallasii
       en: Cinclus pallasii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ulmensia ehrensteinensis
       en: Ulmensia ehrensteinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

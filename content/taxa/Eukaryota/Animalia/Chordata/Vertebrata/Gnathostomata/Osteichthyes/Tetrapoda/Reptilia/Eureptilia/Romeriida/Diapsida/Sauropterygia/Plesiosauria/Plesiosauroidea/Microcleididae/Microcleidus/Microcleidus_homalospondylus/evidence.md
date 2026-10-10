@@ -9,7 +9,6 @@ records:
     name:
       zh: Microcleidus homalospondylus
       en: Microcleidus homalospondylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

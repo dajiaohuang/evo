@@ -9,7 +9,6 @@ records:
     name:
       zh: Iranolacerta brandtii
       en: Iranolacerta brandtii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

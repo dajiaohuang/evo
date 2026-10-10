@@ -9,7 +9,6 @@ records:
     name:
       en: Colostethus panamansis
       zh: Colostethus panamansis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

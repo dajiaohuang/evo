@@ -10,7 +10,6 @@ records:
     name:
       en: Bearded saki genus
       zh: 胡须僧面猴属
-    reviewStatus: source-linked
     sections:
       - topic: readingPath
         text:

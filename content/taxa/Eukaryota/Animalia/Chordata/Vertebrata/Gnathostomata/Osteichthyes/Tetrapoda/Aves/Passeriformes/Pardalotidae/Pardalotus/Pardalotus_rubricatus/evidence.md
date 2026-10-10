@@ -9,7 +9,6 @@ records:
     name:
       zh: Pardalotus rubricatus
       en: Pardalotus rubricatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

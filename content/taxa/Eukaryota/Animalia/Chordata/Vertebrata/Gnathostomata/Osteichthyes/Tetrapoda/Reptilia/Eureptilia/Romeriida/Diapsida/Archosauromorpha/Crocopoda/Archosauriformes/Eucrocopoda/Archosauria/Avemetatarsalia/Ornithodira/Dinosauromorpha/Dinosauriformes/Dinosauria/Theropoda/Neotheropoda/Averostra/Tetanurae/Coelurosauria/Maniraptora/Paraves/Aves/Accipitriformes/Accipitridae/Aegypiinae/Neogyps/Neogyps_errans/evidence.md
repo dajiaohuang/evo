@@ -9,7 +9,6 @@ records:
     name:
       zh: Neogyps errans
       en: Neogyps errans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

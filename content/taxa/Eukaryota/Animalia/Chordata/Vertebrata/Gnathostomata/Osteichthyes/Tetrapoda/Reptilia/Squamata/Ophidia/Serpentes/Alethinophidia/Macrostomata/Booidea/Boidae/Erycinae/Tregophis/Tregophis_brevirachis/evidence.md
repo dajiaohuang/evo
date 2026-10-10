@@ -9,7 +9,6 @@ records:
     name:
       zh: Tregophis brevirachis
       en: Tregophis brevirachis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aramides wolfi
       en: Aramides wolfi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

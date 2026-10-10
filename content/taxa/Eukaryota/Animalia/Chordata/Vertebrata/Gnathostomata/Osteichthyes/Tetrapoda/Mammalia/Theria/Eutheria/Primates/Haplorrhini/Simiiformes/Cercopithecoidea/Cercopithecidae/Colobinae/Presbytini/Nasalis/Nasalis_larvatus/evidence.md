@@ -9,7 +9,6 @@ records:
     name:
       zh: 长鼻猴
       en: Proboscis monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -933,10 +932,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Nasalis larvatus
@@ -1124,5 +1119,5 @@ The findings concern sampled groups and sites in one sanctuary, with direct obse
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review or comprehensive multi-source review has been completed.
+No comprehensive multi-source search has been completed.
 <!-- /evo:text -->

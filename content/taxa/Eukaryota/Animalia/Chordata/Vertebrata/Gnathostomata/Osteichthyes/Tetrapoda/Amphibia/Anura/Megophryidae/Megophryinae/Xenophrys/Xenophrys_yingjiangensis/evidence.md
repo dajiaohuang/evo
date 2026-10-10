@@ -9,7 +9,6 @@ records:
     name:
       en: Xenophrys yingjiangensis
       zh: Xenophrys yingjiangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

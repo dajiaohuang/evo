@@ -9,7 +9,6 @@ records:
     name:
       en: Charadrahyla tecuani
       zh: Charadrahyla tecuani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygisaurus aeratus
       en: Lygisaurus aeratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

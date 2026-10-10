@@ -9,7 +9,6 @@ records:
     name:
       en: Hypopachus guancasco
       zh: Hypopachus guancasco
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

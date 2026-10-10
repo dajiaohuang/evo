@@ -9,7 +9,6 @@ records:
     name:
       zh: Rukwasuchus yajabalijekundu
       en: Rukwasuchus yajabalijekundu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

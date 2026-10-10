@@ -9,7 +9,6 @@ records:
     name:
       zh: Callosciurus caniceps
       en: Callosciurus caniceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

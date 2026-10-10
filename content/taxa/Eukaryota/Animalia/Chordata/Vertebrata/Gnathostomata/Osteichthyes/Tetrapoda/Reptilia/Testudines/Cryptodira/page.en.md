@@ -46,7 +46,7 @@ This batch’s Cryptodira route includes 152 historical life-history accounts; s
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This page is a release-pinned classification guide, not a suborder monograph. Local reading routes are incomplete and uneven in research depth. It does not infer living status from fossil databases, claim that the represented species exhaust COL descendants, or provide a range, population or conservation assessment.
-This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 <!-- /evo:text -->
@@ -72,7 +72,7 @@ This guide covers only this batch’s entries with at least four sourced focal t
 ## Citation gaps in some descendant accounts
 
 <!-- evo:text /records/catalogue-profile/sections/5/text/en -->
-In this ReptTraits route, some fields in 28 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage or expert review.
+In this ReptTraits route, some fields in 28 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 <!-- /evo:text -->
 
 ## Start with sourced trait records

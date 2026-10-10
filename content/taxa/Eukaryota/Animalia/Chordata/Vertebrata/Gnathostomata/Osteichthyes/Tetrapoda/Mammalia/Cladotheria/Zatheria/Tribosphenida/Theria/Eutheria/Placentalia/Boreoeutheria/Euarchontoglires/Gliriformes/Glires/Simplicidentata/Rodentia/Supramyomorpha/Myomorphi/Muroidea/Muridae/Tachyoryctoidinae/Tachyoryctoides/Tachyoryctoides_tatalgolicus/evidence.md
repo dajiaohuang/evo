@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachyoryctoides tatalgolicus
       en: Tachyoryctoides tatalgolicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

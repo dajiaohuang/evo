@@ -9,7 +9,6 @@ records:
     name:
       zh: Polarornis gregorii
       en: Polarornis gregorii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

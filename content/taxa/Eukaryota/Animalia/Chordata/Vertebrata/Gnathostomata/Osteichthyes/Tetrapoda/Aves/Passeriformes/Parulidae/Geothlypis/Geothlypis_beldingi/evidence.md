@@ -9,7 +9,6 @@ records:
     name:
       zh: Geothlypis beldingi
       en: Geothlypis beldingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

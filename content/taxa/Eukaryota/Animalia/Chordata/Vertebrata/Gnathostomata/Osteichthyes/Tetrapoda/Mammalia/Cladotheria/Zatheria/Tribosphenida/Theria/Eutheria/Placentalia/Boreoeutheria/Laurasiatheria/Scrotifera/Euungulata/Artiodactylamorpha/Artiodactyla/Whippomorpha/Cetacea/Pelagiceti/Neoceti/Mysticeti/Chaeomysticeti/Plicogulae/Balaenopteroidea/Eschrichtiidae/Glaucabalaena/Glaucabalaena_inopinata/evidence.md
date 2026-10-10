@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucabalaena inopinata
       en: Glaucabalaena inopinata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

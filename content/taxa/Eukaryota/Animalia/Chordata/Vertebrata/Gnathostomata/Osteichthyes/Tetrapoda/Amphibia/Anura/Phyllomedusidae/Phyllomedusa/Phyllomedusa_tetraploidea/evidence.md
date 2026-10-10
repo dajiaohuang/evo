@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllomedusa tetraploidea
       zh: Phyllomedusa tetraploidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

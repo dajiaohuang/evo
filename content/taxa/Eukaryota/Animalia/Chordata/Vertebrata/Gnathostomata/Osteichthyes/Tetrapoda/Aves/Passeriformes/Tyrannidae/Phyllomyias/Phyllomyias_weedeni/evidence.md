@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllomyias weedeni
       en: Phyllomyias weedeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

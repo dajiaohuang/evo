@@ -36,5 +36,5 @@ Begin with rubra’s two birds and no sexed male, then four all-complete leucosp
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Four selected historical guides and four immediate catalogue children do not replace complete genus natural history. Older Rallina/Rallidae names, unsexed birds, complete sets, independent compiled mass and ecological categories remain separate without proven species-concept identity, flight ability, current maps or expert review.
+Four selected historical guides and four immediate catalogue children do not replace complete genus natural history. Older Rallina/Rallidae names, unsexed birds, complete sets, independent compiled mass and ecological categories remain separate without proven species-concept identity, flight ability, current maps.
 <!-- /evo:text -->

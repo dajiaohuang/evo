@@ -9,7 +9,6 @@ records:
     name:
       zh: Mcdonaldocnus bondesioi
       en: Mcdonaldocnus bondesioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

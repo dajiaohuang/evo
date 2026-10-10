@@ -9,7 +9,6 @@ records:
     name:
       zh: Wiehenvenator albati
       en: Wiehenvenator albati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus adami
       en: Rhinolophus adami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

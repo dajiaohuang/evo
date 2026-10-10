@@ -9,7 +9,6 @@ records:
     name:
       zh: Paranacaiman bravardi
       en: Paranacaiman bravardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

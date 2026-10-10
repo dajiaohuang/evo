@@ -9,7 +9,6 @@ records:
     name:
       zh: Qiupalong henanensis
       en: Qiupalong henanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

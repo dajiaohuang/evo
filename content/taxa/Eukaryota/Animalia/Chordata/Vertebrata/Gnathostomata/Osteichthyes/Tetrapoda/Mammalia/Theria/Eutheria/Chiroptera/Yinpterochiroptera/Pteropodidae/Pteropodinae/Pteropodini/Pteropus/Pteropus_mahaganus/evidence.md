@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus mahaganus
       en: Pteropus mahaganus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

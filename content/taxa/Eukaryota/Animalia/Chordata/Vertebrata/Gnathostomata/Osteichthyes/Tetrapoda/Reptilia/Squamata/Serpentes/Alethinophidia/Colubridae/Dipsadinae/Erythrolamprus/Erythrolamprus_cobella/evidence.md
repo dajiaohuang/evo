@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus cobella
       en: Erythrolamprus cobella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

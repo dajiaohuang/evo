@@ -9,7 +9,6 @@ records:
     name:
       zh: Euromycter rutenus
       en: Euromycter rutenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Vitreorana baliomma
       zh: Vitreorana baliomma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

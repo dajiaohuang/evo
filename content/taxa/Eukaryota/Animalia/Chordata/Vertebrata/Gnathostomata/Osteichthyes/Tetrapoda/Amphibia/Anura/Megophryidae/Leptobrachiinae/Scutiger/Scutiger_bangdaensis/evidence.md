@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger bangdaensis
       zh: Scutiger bangdaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

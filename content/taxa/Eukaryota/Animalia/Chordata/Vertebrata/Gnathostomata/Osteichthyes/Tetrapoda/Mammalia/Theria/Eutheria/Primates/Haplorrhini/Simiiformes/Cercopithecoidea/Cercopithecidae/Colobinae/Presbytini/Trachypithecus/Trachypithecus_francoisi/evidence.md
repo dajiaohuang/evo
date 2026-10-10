@@ -9,7 +9,6 @@ records:
     name:
       zh: 菲氏叶猴
       en: François' langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -986,10 +985,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/2
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Trachypithecus francoisi
@@ -1525,5 +1520,5 @@ Distribution is only partially supported: the reviewed Laos statement is broad-c
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-Species-level fossil evidence was not assessed, and no independent expert review was completed.
+Species-level fossil evidence was not assessed.
 <!-- /evo:text -->

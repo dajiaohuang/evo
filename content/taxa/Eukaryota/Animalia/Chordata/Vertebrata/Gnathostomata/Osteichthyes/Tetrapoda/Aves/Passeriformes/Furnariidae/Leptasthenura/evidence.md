@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptasthenura
       en: Leptasthenura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

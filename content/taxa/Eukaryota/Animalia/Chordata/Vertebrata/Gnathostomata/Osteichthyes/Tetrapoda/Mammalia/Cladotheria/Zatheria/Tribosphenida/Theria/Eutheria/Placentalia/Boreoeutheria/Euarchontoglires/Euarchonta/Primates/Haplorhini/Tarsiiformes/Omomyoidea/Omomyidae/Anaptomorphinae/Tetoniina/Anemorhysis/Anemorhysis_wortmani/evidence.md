@@ -9,7 +9,6 @@ records:
     name:
       zh: Anemorhysis wortmani
       en: Anemorhysis wortmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

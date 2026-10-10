@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus berthalutzae
       zh: Dendropsophus berthalutzae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

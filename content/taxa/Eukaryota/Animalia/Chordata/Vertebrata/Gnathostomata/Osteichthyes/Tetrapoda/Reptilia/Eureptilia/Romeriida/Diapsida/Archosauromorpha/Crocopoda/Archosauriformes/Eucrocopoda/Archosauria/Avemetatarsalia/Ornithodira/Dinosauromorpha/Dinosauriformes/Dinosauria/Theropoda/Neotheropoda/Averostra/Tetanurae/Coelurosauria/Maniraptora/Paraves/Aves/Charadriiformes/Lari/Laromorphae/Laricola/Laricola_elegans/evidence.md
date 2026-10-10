@@ -9,7 +9,6 @@ records:
     name:
       zh: Laricola elegans
       en: Laricola elegans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Charadrahyla juanitae
       zh: Charadrahyla juanitae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dibamus tebal
       en: Dibamus tebal
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

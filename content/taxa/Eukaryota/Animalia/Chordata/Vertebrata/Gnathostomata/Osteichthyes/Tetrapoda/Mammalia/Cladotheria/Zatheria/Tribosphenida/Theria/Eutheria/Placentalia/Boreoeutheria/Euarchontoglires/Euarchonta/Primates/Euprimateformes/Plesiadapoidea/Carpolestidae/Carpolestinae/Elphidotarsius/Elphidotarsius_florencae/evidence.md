@@ -9,7 +9,6 @@ records:
     name:
       zh: Elphidotarsius florencae
       en: Elphidotarsius florencae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

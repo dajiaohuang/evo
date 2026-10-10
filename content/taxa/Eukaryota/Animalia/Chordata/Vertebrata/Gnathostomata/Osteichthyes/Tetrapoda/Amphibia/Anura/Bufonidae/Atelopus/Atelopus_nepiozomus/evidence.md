@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus nepiozomus
       zh: Atelopus nepiozomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus qalaywasi
       en: Stenocercus qalaywasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

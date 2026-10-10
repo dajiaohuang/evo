@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus hitchi
       en: Cyrtodactylus hitchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

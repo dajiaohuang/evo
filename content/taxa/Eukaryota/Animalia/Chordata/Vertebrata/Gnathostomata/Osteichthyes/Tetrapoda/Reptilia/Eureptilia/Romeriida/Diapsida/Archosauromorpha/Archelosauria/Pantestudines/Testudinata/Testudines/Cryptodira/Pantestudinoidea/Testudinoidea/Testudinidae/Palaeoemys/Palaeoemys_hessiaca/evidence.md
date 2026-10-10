@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoemys hessiaca
       en: Palaeoemys hessiaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

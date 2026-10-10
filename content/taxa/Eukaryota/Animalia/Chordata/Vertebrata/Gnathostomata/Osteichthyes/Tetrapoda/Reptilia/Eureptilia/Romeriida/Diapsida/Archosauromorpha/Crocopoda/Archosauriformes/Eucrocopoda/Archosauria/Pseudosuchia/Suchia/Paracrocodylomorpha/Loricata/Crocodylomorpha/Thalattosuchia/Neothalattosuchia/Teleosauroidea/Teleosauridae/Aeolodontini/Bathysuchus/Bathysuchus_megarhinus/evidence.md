@@ -9,7 +9,6 @@ records:
     name:
       zh: Bathysuchus megarhinus
       en: Bathysuchus megarhinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

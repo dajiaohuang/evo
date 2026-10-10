@@ -9,7 +9,6 @@ records:
     name:
       en: Aplastodiscus arildae
       zh: Aplastodiscus arildae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

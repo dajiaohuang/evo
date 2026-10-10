@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys qianbeiensis
       zh: Boulenophrys qianbeiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

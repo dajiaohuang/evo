@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus mertensi
       en: Erythrolamprus mertensi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

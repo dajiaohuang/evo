@@ -9,7 +9,6 @@ records:
     name:
       en: Synapturanus salseri
       zh: Synapturanus salseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrobates hornbyi
       en: Hydrobates hornbyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

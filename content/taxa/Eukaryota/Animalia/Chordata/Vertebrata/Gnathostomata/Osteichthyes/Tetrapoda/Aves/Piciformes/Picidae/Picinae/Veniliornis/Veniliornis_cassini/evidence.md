@@ -9,7 +9,6 @@ records:
     name:
       zh: Veniliornis cassini
       en: Veniliornis cassini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

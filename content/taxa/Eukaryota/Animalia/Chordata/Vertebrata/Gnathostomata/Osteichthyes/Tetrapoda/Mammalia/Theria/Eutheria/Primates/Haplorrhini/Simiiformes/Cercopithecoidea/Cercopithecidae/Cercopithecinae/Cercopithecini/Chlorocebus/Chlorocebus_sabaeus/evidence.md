@@ -9,7 +9,6 @@ records:
     name:
       zh: 绿猴
       en: Green monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution
@@ -636,10 +635,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Chlorocebus sabaeus
@@ -839,5 +834,5 @@ Morphology, life history, evolution, distribution boundaries, fossils and curren
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Independent expert review and comprehensive multi-source coverage are incomplete.
+comprehensive multi-source coverage are incomplete.
 <!-- /evo:text -->

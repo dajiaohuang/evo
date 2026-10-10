@@ -9,7 +9,6 @@ records:
     name:
       en: Chiromantis rufescens
       zh: Chiromantis rufescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

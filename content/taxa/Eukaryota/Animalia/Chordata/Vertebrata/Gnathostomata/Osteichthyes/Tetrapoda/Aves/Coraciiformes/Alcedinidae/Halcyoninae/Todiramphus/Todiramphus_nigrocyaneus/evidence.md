@@ -9,7 +9,6 @@ records:
     name:
       zh: Todiramphus nigrocyaneus
       en: Todiramphus nigrocyaneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

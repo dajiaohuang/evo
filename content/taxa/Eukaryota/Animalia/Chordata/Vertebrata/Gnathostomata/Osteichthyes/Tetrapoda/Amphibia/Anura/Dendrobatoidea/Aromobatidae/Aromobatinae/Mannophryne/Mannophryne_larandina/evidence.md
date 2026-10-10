@@ -9,7 +9,6 @@ records:
     name:
       en: Mannophryne larandina
       zh: Mannophryne larandina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

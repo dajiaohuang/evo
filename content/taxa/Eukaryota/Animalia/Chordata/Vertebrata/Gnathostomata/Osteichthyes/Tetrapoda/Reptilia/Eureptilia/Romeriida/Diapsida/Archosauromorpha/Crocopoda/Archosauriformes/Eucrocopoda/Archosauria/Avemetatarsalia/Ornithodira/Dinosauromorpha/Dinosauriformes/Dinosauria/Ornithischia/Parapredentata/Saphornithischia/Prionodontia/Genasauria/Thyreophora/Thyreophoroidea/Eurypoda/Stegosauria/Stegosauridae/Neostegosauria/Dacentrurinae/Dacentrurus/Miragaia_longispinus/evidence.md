@@ -9,7 +9,6 @@ records:
     name:
       zh: Miragaia longispinus
       en: Miragaia longispinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

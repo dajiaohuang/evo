@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-所引记录年代较早且稀疏；Ituri 河叫声来自哪一岸尚不清楚，邻近分类边界也仍不稳定。本页为有来源的初稿，尚未经过外部领域专家评审。
+所引记录年代较早且稀疏；Ituri 河叫声来自哪一岸尚不清楚，邻近分类边界也仍不稳定。本页为有来源的初稿。
 <!-- /evo:text -->

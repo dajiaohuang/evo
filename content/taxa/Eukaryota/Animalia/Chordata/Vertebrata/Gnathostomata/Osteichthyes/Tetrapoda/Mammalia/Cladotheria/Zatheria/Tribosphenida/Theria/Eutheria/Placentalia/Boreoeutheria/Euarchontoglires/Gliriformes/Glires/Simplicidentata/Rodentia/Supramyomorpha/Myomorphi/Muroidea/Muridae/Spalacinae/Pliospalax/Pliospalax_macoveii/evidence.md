@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliospalax macoveii
       en: Pliospalax macoveii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

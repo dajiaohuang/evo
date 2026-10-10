@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeovenator hamiltonensis
       en: Archaeovenator hamiltonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

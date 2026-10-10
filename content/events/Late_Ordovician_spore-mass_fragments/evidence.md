@@ -95,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Wellman et al. 2003 DOI 10.1038/nature01884
       referenceLinks:
         - relation: supports
           referenceId: wellman-2003-ordovician-sporangia
@@ -115,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Wellman et al. 2003 DOI 10.1038/nature01884
       referenceLinks:
         - relation: supports
           referenceId: wellman-2003-ordovician-sporangia

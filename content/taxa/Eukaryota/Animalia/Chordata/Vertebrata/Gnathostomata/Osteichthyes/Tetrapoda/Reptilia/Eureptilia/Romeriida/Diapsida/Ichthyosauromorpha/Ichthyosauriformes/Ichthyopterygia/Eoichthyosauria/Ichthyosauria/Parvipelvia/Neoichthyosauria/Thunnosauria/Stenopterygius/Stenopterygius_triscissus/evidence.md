@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenopterygius triscissus
       en: Stenopterygius triscissus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

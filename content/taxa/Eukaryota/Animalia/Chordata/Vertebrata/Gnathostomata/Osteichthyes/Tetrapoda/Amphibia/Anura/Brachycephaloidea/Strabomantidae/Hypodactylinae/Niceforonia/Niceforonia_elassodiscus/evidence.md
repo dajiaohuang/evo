@@ -9,7 +9,6 @@ records:
     name:
       en: Niceforonia elassodiscus
       zh: Niceforonia elassodiscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

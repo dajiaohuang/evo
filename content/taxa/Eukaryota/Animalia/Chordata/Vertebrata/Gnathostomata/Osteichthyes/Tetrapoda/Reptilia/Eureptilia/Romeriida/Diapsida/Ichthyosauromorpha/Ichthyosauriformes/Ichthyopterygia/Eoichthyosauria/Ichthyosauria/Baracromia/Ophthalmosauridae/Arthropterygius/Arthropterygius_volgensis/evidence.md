@@ -9,7 +9,6 @@ records:
     name:
       zh: Arthropterygius volgensis
       en: Arthropterygius volgensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

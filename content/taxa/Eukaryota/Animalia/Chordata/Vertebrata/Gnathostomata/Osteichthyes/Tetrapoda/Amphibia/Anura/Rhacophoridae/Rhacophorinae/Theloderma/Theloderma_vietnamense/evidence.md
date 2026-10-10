@@ -9,7 +9,6 @@ records:
     name:
       en: Theloderma vietnamense
       zh: Theloderma vietnamense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

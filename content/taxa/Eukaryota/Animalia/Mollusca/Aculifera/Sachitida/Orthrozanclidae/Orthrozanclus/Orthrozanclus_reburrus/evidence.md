@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: conway-morris-caron-2007-orthrozanclus
       referenceLinks:
         - referenceId: conway-morris-caron-2007-orthrozanclus
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: conway-morris-caron-2007-orthrozanclus
           locator: 1255–1258; Figures 1–4; holotype description, character comparison and matrix
-      reviewStatus: automated-audit-passed
 ---
 
 # Orthrozanclus reburrus

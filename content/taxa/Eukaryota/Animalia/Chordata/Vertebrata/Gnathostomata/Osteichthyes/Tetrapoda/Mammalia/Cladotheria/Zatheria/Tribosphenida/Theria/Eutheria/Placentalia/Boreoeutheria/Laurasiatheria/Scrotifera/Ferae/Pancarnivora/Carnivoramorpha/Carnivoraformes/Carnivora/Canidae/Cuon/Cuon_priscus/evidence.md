@@ -9,7 +9,6 @@ records:
     name:
       zh: Cuon priscus
       en: Cuon priscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

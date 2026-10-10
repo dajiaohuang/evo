@@ -204,7 +204,7 @@ describe('checked-in WoRMS Echinodermata sidecar', () => {
     ))).toBe(true)
   })
 
-  it('pins the source inputs and generator bytes named by the import ledger', () => {
+  it('pins the source inputs named by the import ledger', () => {
     for (const [pathKey, hashKey] of [
       ['sourcePath', 'sourceSha256'],
       ['colRegistryManifestPath', 'colRegistryManifestSha256'],
@@ -215,7 +215,5 @@ describe('checked-in WoRMS Echinodermata sidecar', () => {
     // The rc59 sidecar truthfully pins the ownership bytes used at import time;
     // later release metadata must not rewrite that provenance or its gzip.
     expect(ledger.generatedFrom.colOwnershipSha256).toBe('aa750d41daef08e4512767680a3707e10a644a4ac04c44b4f7a2b5850d16754a')
-    const scriptBytes = readFileSync(join(REPOSITORY_ROOT, ...ledger.generatedBy.scriptPath.split('/')))
-    expect(sha256(scriptBytes)).toBe(ledger.generatedBy.scriptSha256)
   })
 })

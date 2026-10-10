@@ -10,7 +10,7 @@ status: source-linked
 ## 沿八个 Aimophila 旧组合定位历史行
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-本入口按 COL26.8 Peucaea（6M7G）及 Passerellidae（9G6YK）组织八条历史导读。八条 BirdLife／eBird 同名，BirdTree 均记 Aimophila 旧组合；八个逐字目录异名指向相应接受 ID。名称关联定位资料，不证明跨版本概念完全相同。目录属记录八个直接子项，本批也有八页，但这不计完整自然史或专家审评。
+本入口按 COL26.8 Peucaea（6M7G）及 Passerellidae（9G6YK）组织八条历史导读。八条 BirdLife／eBird 同名，BirdTree 均记 Aimophila 旧组合；八个逐字目录异名指向相应接受 ID。名称关联定位资料，不证明跨版本概念完全相同。目录属记录八个直接子项，本批也有八页，但这不计完整自然史。
 <!-- /evo:text -->
 
 ## 相同的五只鸟分母不建立相同变异
@@ -38,5 +38,5 @@ status: source-linked
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-八条所选历史形态、体重与生态导读；八个旧组合有目录异名，但不计完整自然史或专家审评。相同五只鸟与四只完整分母不支持个体或雌雄变异；食物生态位、营养级、活动与迁移原组合不补原因、实测食谱、繁殖或当前地图。
+八条所选历史形态、体重与生态导读；八个旧组合有目录异名，但不计完整自然史。相同五只鸟与四只完整分母不支持个体或雌雄变异；食物生态位、营养级、活动与迁移原组合不补原因、实测食谱、繁殖或当前地图。
 <!-- /evo:text -->

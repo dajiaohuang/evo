@@ -9,7 +9,6 @@ records:
     name:
       zh: Paleorhinus ehlersi
       en: Paleorhinus ehlersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

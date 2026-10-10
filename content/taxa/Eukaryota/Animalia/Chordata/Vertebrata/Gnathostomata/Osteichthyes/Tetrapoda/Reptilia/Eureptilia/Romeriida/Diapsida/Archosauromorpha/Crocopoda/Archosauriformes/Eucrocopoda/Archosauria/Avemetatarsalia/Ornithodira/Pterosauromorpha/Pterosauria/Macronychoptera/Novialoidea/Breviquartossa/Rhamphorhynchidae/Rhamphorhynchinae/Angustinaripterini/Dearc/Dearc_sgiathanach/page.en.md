@@ -87,5 +87,5 @@ The fixed collection retains Jagielska et al. (2022) and ref:81241. This page se
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page combines selected main-text sections of the 2025 holotype study with fixed PBDB records. Complete anatomy, original images and the 2022 description with its wingspan regressions and histology were not independently read in full. Scans, measurements and phylogenetic matrices were not rerun. Muscles, feeding and climbing are hypotheses from bone landmarks, teeth and comparisons rather than direct behavior. Life history, full species boundaries and later research remain unfinished, without external expert review.
+This page combines selected main-text sections of the 2025 holotype study with fixed PBDB records. Complete anatomy, original images and the 2022 description with its wingspan regressions and histology were not independently read in full. Scans, measurements and phylogenetic matrices were not rerun. Muscles, feeding and climbing are hypotheses from bone landmarks, teeth and comparisons rather than direct behavior. Life history, full species boundaries and later research remain unfinished.
 <!-- /evo:text -->

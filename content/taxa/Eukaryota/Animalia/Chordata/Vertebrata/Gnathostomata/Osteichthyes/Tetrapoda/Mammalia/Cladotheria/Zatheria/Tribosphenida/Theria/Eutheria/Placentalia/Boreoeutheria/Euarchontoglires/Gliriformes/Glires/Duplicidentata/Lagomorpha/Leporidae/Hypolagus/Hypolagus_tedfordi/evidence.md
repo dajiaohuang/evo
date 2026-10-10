@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypolagus tedfordi
       en: Hypolagus tedfordi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

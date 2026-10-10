@@ -9,7 +9,6 @@ records:
     name:
       zh: Columbina picui
       en: Columbina picui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 红腿白臀叶猴
       en: Red-shanked Douc
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

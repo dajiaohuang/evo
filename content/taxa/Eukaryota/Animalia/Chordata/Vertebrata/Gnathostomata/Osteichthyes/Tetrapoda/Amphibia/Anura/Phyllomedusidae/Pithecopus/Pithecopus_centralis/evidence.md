@@ -9,7 +9,6 @@ records:
     name:
       en: Pithecopus centralis
       zh: Pithecopus centralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

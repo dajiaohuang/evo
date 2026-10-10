@@ -9,7 +9,6 @@ records:
     name:
       zh: Protoceras celer
       en: Protoceras celer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

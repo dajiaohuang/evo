@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemibos acuticornis
       en: Hemibos acuticornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

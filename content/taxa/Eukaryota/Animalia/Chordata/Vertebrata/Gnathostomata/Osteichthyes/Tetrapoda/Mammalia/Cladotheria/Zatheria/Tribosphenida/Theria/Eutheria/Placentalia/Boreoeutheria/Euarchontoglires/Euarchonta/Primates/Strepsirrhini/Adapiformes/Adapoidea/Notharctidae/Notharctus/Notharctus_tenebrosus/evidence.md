@@ -9,7 +9,6 @@ records:
     name:
       zh: Notharctus tenebrosus
       en: Notharctus tenebrosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

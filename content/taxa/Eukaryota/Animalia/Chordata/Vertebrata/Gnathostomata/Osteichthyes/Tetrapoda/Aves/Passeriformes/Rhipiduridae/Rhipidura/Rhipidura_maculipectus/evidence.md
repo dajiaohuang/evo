@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura maculipectus
       en: Rhipidura maculipectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

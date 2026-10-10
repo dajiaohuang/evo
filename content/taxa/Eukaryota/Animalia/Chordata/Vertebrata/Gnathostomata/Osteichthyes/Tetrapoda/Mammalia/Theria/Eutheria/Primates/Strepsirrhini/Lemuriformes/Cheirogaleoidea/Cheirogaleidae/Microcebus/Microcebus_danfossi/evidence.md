@@ -9,7 +9,6 @@ records:
     name:
       zh: 安巴里杰比鼠狐猴
       en: Ambarijeby Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: overview

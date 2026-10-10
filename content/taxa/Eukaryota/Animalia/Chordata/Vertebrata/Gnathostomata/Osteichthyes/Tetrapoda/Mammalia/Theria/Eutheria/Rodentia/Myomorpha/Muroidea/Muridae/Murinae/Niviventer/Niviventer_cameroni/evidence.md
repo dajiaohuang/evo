@@ -9,7 +9,6 @@ records:
     name:
       zh: Niviventer cameroni
       en: Niviventer cameroni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

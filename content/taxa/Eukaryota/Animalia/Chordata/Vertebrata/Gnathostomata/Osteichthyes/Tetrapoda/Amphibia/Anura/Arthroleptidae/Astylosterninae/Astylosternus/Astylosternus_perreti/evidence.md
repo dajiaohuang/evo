@@ -9,7 +9,6 @@ records:
     name:
       en: Astylosternus perreti
       zh: Astylosternus perreti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

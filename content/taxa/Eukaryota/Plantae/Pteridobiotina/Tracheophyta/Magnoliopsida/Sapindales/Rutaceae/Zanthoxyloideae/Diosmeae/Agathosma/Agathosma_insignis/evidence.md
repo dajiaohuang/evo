@@ -270,8 +270,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Agathosma insignis
@@ -471,7 +469,7 @@ Only four regional account topics have preliminary evidence; required scientific
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-Claims have not received verified translations or independent expert review.
+Claims have not received verified translations.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons

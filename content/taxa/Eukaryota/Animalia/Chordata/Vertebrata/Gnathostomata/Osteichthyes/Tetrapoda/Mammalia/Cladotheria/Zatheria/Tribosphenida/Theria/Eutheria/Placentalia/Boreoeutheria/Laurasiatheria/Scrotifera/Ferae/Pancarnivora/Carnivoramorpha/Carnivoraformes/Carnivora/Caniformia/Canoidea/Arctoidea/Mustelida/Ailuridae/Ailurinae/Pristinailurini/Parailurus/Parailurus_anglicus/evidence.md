@@ -9,7 +9,6 @@ records:
     name:
       zh: Parailurus anglicus
       en: Parailurus anglicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -153,9 +153,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zalmout-2010-saadanius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: zalmout-2010-saadanius
           relation: supports
@@ -172,9 +169,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zalmout-2010-saadanius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: zalmout-2010-saadanius
           relation: supports
@@ -191,9 +185,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zalmout-2010-saadanius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: zalmout-2010-saadanius
           relation: supports
@@ -210,9 +201,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zalmout-2010-saadanius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: zalmout-2010-saadanius
           relation: supports
@@ -229,9 +217,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zalmout-2010-saadanius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: zalmout-2010-saadanius
           relation: supports
@@ -283,7 +268,6 @@ records:
       referenceLocators:
         - referenceId: zalmout-2010-saadanius
           locator: 360–365; Figures 1–4; Methods
-      reviewStatus: automated-audit-passed
 ---
 
 # Saadanius hijazensis

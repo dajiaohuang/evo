@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus formosus
       en: Sceloporus formosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

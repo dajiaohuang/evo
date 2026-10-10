@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidelaps lubricus
       en: Aspidelaps lubricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

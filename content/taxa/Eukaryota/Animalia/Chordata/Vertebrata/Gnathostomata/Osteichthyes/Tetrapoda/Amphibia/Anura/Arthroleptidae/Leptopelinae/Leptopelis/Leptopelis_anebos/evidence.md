@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis anebos
       zh: Leptopelis anebos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

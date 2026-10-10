@@ -9,7 +9,6 @@ records:
     name:
       zh: Agama knobeli
       en: Agama knobeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

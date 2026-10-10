@@ -9,7 +9,6 @@ records:
     name:
       zh: Ialtris haetianus
       en: Ialtris haetianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

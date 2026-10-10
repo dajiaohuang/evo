@@ -9,7 +9,6 @@ records:
     name:
       en: Astrobatrachus kurichiyana
       zh: Astrobatrachus kurichiyana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

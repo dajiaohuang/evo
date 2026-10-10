@@ -9,7 +9,6 @@ records:
     name:
       zh: Speculipastor bicolor
       en: Speculipastor bicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

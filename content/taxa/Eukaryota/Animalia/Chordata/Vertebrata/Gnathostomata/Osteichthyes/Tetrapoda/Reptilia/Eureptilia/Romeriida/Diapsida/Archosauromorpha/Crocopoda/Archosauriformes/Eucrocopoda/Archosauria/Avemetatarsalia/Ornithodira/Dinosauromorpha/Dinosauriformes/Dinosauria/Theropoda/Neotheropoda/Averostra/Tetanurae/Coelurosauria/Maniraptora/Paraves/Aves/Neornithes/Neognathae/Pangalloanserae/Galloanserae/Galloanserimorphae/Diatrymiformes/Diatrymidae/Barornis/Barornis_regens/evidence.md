@@ -9,7 +9,6 @@ records:
     name:
       zh: Barornis regens
       en: Barornis regens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

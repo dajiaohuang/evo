@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicrurus bracteatus
       en: Dicrurus bracteatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

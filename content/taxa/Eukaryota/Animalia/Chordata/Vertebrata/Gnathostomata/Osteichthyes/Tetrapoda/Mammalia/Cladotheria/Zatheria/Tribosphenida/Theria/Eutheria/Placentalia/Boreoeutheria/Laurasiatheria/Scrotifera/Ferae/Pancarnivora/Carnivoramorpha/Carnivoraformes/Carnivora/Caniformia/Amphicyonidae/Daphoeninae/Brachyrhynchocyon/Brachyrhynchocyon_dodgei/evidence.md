@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyrhynchocyon dodgei
       en: Brachyrhynchocyon dodgei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

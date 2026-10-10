@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena perplicata
       zh: Ptychadena perplicata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

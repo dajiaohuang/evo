@@ -9,7 +9,6 @@ records:
     name:
       zh: Uroplatus kelirambo
       en: Uroplatus kelirambo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

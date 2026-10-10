@@ -9,7 +9,6 @@ records:
     name:
       zh: Metanchilophus radegondensis
       en: Metanchilophus radegondensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

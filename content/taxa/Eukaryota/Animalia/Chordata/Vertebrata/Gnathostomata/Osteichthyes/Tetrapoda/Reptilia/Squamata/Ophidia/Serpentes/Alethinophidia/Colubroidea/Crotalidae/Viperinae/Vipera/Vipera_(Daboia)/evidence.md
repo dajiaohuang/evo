@@ -9,7 +9,6 @@ records:
     name:
       zh: Vipera (Daboia)
       en: Vipera (Daboia)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

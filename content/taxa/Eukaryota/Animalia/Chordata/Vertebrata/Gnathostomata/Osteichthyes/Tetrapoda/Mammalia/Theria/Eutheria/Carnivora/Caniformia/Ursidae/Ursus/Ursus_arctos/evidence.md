@@ -9,7 +9,6 @@ records:
     name:
       zh: Ursus arctos
       en: Ursus arctos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

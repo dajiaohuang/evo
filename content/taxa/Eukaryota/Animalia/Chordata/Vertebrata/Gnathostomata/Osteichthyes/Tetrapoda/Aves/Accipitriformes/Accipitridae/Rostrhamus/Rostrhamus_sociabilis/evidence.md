@@ -9,7 +9,6 @@ records:
     name:
       zh: Rostrhamus sociabilis
       en: Rostrhamus sociabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

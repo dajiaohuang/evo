@@ -9,7 +9,6 @@ records:
     name:
       en: Nannophryne apolobambica
       zh: Nannophryne apolobambica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

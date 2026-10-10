@@ -9,7 +9,6 @@ records:
     name:
       zh: Tateomys rhinogradoides
       en: Tateomys rhinogradoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

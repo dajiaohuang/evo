@@ -9,7 +9,6 @@ records:
     name:
       zh: Judiceratops tigris
       en: Judiceratops tigris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

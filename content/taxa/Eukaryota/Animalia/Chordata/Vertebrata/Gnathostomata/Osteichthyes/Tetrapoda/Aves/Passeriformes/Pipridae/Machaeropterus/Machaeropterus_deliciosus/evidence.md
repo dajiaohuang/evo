@@ -9,7 +9,6 @@ records:
     name:
       zh: Machaeropterus deliciosus
       en: Machaeropterus deliciosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

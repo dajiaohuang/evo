@@ -9,7 +9,6 @@ records:
     name:
       zh: Emballonura furax
       en: Emballonura furax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

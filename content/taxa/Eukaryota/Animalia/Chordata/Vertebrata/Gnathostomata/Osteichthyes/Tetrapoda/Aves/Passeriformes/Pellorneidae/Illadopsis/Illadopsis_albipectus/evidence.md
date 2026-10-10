@@ -9,7 +9,6 @@ records:
     name:
       zh: Illadopsis albipectus
       en: Illadopsis albipectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

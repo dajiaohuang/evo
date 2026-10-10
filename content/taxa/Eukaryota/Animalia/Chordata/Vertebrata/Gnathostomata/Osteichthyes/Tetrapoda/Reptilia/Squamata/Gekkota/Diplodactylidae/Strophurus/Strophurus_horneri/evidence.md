@@ -9,7 +9,6 @@ records:
     name:
       zh: Strophurus horneri
       en: Strophurus horneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -78,7 +78,6 @@ function validateDossier(dossier, source) {
   assert.equal(dossier.rank, 'species')
   assert.equal(String(dossier.sourceDatasetId), source.target.sourceDatasetId)
   assert.equal(dossier.completeness?.status, 'incomplete')
-  assert.equal(dossier.expertReview?.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   const sourceIds = new Set(dossier.sources.map(item => item.id))
   assert.equal(sourceIds.size, dossier.sources.length, 'Dossier source IDs must remain unique')
@@ -235,7 +234,7 @@ const updateManifest = {
     morphology: 'partially-supported', fossil: 'partially-supported',
     lifeHistory: 'not-assessed', ecology: 'not-assessed', evolution: 'partially-supported',
     distribution: 'partially-supported', conservation: 'not-assessed',
-    completeDossiersAdded: 0, externallyReviewedDossiersAdded: 0,
+    completeDossiersAdded: 0,
   },
   appAndPagesPreviewManifestSha256: source.audit.pagesPreviewManifestSha256,
   appAndPagesPreviewManifestChanged: false,

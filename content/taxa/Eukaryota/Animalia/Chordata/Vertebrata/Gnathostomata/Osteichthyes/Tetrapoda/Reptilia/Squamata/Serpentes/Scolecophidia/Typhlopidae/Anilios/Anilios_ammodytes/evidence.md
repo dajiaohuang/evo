@@ -9,7 +9,6 @@ records:
     name:
       zh: Anilios ammodytes
       en: Anilios ammodytes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

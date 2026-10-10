@@ -9,7 +9,6 @@ records:
     name:
       zh: Squalodon barbarus
       en: Squalodon barbarus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

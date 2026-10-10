@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinosternon baurii
       en: Kinosternon baurii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

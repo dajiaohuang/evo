@@ -9,7 +9,6 @@ records:
     name:
       en: Uperodon obscurus
       zh: Uperodon obscurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

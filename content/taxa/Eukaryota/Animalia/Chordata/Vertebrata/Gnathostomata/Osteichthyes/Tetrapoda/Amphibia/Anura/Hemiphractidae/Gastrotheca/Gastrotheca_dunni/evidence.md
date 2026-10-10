@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca dunni
       zh: Gastrotheca dunni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

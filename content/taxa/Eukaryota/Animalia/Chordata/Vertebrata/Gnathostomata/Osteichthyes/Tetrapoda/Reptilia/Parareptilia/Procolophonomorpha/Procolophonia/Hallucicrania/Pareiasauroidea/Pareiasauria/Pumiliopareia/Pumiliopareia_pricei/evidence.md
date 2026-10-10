@@ -9,7 +9,6 @@ records:
     name:
       zh: Pumiliopareia pricei
       en: Pumiliopareia pricei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

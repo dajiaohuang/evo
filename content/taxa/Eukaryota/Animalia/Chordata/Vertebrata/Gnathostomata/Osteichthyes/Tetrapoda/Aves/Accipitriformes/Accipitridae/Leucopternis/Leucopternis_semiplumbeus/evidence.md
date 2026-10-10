@@ -9,7 +9,6 @@ records:
     name:
       zh: Leucopternis semiplumbeus
       en: Leucopternis semiplumbeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

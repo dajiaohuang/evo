@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysocolaptes haematribon
       en: Chrysocolaptes haematribon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

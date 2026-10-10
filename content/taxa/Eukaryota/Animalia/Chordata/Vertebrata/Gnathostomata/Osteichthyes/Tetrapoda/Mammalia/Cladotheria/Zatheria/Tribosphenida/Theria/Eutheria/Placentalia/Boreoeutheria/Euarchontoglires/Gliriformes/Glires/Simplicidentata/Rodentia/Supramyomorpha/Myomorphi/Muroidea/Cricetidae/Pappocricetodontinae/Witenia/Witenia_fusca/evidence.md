@@ -9,7 +9,6 @@ records:
     name:
       zh: Witenia fusca
       en: Witenia fusca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Glauconycteris kenyacola
       en: Glauconycteris kenyacola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

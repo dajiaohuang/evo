@@ -9,7 +9,6 @@ records:
     name:
       en: Nanorana bangdaensis
       zh: Nanorana bangdaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

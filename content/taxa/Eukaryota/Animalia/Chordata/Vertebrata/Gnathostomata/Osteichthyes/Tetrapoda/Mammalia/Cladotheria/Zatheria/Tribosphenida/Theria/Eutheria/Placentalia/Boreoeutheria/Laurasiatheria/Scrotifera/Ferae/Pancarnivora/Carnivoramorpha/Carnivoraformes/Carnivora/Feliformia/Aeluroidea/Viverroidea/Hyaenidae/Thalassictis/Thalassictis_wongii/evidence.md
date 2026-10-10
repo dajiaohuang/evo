@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalassictis wongii
       en: Thalassictis wongii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

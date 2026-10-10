@@ -9,7 +9,6 @@ records:
     name:
       en: Incilius cristatus
       zh: Incilius cristatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

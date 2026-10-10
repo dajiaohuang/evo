@@ -9,7 +9,6 @@ records:
     name:
       zh: Physignathus cocincinus
       en: Physignathus cocincinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

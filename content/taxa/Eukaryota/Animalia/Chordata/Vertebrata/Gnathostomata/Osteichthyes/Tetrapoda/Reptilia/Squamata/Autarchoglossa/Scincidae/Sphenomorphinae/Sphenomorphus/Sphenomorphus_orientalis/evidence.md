@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus orientalis
       en: Sphenomorphus orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

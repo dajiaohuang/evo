@@ -9,7 +9,6 @@ records:
     name:
       zh: 马属
       en: Horses, asses and zebras
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

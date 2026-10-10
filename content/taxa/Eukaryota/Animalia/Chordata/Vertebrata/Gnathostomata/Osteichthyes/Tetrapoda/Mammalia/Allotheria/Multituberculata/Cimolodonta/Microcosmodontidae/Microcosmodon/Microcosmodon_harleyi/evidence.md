@@ -9,7 +9,6 @@ records:
     name:
       zh: Microcosmodon harleyi
       en: Microcosmodon harleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

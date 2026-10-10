@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon latiscutatus
       en: Plestiodon latiscutatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus orientalis
       en: Ctenotus orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus pulivijayani
       zh: Nyctibatrachus pulivijayani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

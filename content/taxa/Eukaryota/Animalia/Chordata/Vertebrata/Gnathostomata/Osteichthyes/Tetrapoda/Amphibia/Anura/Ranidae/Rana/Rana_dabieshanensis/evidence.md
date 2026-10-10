@@ -9,7 +9,6 @@ records:
     name:
       en: Rana dabieshanensis
       zh: Rana dabieshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Calamospiza melanocorys
       en: Calamospiza melanocorys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

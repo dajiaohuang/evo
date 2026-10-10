@@ -9,7 +9,6 @@ records:
     name:
       zh: Bungarus sindanus
       en: Bungarus sindanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

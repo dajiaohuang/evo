@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhombomylus laianensis
       en: Rhombomylus laianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

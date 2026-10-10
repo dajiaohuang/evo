@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus posadae
       zh: Nymphargus posadae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Valdosaurus canaliculatus
       en: Valdosaurus canaliculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

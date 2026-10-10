@@ -9,7 +9,6 @@ records:
     name:
       zh: Camptostoma obsoletum
       en: Camptostoma obsoletum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Trachycephalus mesophaeus
       zh: Trachycephalus mesophaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

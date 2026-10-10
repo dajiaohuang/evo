@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis stenodiscus
       zh: Pristimantis stenodiscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anhinga anhinga
       en: Anhinga anhinga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

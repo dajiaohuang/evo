@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenodontida 亚目
       en: Sphenodontida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon skuki
       zh: Ololygon skuki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

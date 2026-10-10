@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenoscelida aurantiacus
       en: Stenoscelida aurantiacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

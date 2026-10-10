@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidophis galacelidus
       en: Tropidophis galacelidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

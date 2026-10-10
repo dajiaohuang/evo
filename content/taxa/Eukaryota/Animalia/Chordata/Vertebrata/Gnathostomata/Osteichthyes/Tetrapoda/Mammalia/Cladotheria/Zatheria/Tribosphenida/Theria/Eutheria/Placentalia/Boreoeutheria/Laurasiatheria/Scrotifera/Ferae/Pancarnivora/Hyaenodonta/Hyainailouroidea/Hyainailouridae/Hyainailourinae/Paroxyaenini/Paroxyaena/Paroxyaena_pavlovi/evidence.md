@@ -9,7 +9,6 @@ records:
     name:
       zh: Paroxyaena pavlovi
       en: Paroxyaena pavlovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

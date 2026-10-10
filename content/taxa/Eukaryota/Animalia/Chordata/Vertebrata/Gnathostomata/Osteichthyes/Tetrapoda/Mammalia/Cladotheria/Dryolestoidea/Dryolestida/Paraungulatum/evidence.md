@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraungulatum
       en: Paraungulatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Khereidia aptiana
       en: Khereidia aptiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

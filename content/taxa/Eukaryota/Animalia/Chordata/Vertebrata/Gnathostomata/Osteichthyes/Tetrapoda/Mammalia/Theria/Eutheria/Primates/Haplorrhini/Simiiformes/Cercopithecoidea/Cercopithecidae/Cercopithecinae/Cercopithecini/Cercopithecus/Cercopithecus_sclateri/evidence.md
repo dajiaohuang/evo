@@ -9,7 +9,6 @@ records:
     name:
       en: Sclater's monkey
       zh: 斯克拉特长尾猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

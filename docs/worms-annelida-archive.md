@@ -29,7 +29,7 @@ These source-only records do not increase the 2,183,133 COL accepted-species tot
 
 Here “source-only” is relative to the declared COL `NN` comparison scope, not proof that the name is absent everywhere in COL. Different higher classifications may place corresponding names outside that scope; no cross-scope reassignment is inferred.
 
-This is a name, identifier and status layer, not an ecology, morphology, fossil-occurrence or expert-reviewed dossier. Original `taxon.txt` record locators remain available for source inspection. The earlier ITIS collection keeps its own provenance, outcomes and source-only partition.
+This is a name, identifier and status layer, not an ecology, morphology, fossil-occurrence or complete scientific dossier. Original `taxon.txt` record locators remain available for source inspection. The earlier ITIS collection keeps its own provenance, outcomes and source-only partition.
 
 ## Delivery and attribution
 
@@ -37,7 +37,7 @@ Pages publishes the source description, outcome totals and canonical file invent
 
 The minimal derived projection is CC BY 4.0. Attribute WoRMS Editorial Board, World Register of Marine Species, the pinned version DOI, and Catalogue of Life COL26.8, DOI [10.48580/dgywk](https://doi.org/10.48580/dgywk). The archive's `meta.xml` records the licence and rights holder. Raw archives, images, descriptions, distributions and bibliography are not redistributed. This adaptation is not endorsed by the source providers.
 
-The committed `worms-annelida-sidecar.json` and import ledger contain the exact source counts and shard hashes. Automated integrity checks do not change the package's human-review status.
+The committed `worms-annelida-sidecar.json` and import ledger contain the exact source counts and shard hashes.
 
 ## Reproduce this projection
 

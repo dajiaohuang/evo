@@ -9,7 +9,6 @@ records:
     name:
       zh: Miacis rundlei
       en: Miacis rundlei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

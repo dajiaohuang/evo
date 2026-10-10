@@ -9,7 +9,6 @@ records:
     name:
       zh: Spatula clypeata
       en: Spatula clypeata
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana volkerjane
       zh: Hylarana volkerjane
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

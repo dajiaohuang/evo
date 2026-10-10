@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesocharis shelleyi
       en: Nesocharis shelleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

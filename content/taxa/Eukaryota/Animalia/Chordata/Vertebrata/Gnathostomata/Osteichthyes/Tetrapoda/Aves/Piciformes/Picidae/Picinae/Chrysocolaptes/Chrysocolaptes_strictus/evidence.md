@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysocolaptes strictus
       en: Chrysocolaptes strictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

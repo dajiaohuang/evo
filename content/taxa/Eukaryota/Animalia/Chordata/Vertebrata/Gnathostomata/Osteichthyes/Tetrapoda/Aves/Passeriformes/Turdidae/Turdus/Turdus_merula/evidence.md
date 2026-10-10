@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdus merula
       en: Turdus merula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius miyazakiensis
       zh: Hynobius miyazakiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

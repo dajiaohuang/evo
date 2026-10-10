@@ -9,7 +9,6 @@ records:
     name:
       zh: Strix sartorii
       en: Strix sartorii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

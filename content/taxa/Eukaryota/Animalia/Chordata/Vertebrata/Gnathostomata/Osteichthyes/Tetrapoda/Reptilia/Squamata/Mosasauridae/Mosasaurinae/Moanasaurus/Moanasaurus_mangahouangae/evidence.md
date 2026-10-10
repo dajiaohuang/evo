@@ -9,7 +9,6 @@ records:
     name:
       zh: Moanasaurus mangahouangae
       en: Moanasaurus mangahouangae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

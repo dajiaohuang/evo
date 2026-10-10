@@ -9,7 +9,6 @@ records:
     name:
       en: Eurycea cirrigera
       zh: Eurycea cirrigera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

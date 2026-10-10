@@ -9,7 +9,6 @@ records:
     name:
       zh: Notiosorex villai
       en: Notiosorex villai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

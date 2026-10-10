@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidoscelis exsul
       en: Pholidoscelis exsul
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoplohophorus uncinatus
       en: Pseudoplohophorus uncinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

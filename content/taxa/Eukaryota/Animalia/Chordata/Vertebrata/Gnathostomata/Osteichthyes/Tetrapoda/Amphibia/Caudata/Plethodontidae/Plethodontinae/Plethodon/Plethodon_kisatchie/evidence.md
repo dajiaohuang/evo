@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon kisatchie
       zh: Plethodon kisatchie
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

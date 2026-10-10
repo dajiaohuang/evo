@@ -9,7 +9,6 @@ records:
     name:
       zh: Elseya uberrima
       en: Elseya uberrima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

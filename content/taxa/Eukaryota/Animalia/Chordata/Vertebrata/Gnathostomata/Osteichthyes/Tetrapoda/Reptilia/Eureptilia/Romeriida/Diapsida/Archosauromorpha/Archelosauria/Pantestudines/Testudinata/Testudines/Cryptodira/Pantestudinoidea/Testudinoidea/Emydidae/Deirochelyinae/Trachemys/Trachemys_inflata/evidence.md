@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachemys inflata
       en: Trachemys inflata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

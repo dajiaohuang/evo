@@ -9,7 +9,6 @@ records:
     name:
       zh: Strepera fuliginosa
       en: Strepera fuliginosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Euparkerella brasiliensis
       zh: Euparkerella brasiliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

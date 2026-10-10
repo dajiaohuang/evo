@@ -9,7 +9,6 @@ records:
     name:
       zh: Parahippus pristinus
       en: Parahippus pristinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon stormi
       zh: Plethodon stormi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

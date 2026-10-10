@@ -9,7 +9,6 @@ records:
     name:
       zh: Ammospermophilus fossilis
       en: Ammospermophilus fossilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

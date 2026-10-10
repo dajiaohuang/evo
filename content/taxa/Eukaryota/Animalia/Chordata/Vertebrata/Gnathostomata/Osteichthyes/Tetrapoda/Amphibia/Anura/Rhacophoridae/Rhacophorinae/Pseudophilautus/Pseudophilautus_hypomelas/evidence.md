@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus hypomelas
       zh: Pseudophilautus hypomelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

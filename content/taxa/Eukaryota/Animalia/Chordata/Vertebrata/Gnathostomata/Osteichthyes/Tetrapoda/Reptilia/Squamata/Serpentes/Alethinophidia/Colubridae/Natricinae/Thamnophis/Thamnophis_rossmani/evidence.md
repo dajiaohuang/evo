@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnophis rossmani
       en: Thamnophis rossmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

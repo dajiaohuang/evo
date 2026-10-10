@@ -9,7 +9,6 @@ records:
     name:
       zh: Taeromys callitrichus
       en: Taeromys callitrichus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

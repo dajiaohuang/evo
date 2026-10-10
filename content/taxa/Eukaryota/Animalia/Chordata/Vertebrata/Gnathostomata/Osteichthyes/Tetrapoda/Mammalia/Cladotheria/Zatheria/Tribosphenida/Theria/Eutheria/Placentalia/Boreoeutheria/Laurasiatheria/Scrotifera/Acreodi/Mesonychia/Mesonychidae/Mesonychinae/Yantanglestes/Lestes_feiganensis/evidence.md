@@ -9,7 +9,6 @@ records:
     name:
       zh: Lestes feiganensis
       en: Lestes feiganensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

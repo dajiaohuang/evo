@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius guabangshanensis
       zh: Hynobius guabangshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

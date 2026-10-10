@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-分布与种群差异限于作者调查地点；论文没有确立当前分布边界。 本页尚未经过外部领域专家评审。
+分布与种群差异限于作者调查地点；论文没有确立当前分布边界。 。
 <!-- /evo:text -->

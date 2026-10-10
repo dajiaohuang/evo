@@ -9,7 +9,6 @@ records:
     name:
       zh: Geositta maritima
       en: Geositta maritima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

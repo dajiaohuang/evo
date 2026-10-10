@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis pygmaeus
       zh: Platymantis pygmaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

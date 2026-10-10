@@ -9,7 +9,6 @@ records:
     name:
       zh: Lemniscomys striatus
       en: Lemniscomys striatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phapitreron amethystinus
       en: Phapitreron amethystinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

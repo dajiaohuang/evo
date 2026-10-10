@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicraeosaurus sattleri
       en: Dicraeosaurus sattleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

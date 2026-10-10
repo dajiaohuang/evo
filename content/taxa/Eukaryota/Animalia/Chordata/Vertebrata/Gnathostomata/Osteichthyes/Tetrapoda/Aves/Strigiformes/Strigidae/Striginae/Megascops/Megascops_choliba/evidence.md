@@ -9,7 +9,6 @@ records:
     name:
       zh: Megascops choliba
       en: Megascops choliba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

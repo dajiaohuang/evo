@@ -9,7 +9,6 @@ records:
     name:
       zh: Kichechia savagei
       en: Kichechia savagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

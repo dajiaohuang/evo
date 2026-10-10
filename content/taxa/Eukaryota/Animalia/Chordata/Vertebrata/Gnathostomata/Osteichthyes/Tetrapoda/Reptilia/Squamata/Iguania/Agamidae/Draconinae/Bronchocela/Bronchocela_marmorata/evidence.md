@@ -9,7 +9,6 @@ records:
     name:
       zh: Bronchocela marmorata
       en: Bronchocela marmorata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Andinobates cassidyhornae
       zh: Andinobates cassidyhornae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

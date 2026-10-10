@@ -9,7 +9,6 @@ records:
     name:
       zh: Francemys gadoufaouaensis
       en: Francemys gadoufaouaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

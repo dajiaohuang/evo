@@ -9,7 +9,6 @@ records:
     name:
       zh: Waincophis cameratus
       en: Waincophis cameratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

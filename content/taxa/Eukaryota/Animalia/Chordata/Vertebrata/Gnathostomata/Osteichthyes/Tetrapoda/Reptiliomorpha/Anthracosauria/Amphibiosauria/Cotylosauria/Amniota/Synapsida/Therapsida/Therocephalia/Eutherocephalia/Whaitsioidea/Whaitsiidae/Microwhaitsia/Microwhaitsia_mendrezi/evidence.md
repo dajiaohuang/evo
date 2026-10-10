@@ -9,7 +9,6 @@ records:
     name:
       zh: Microwhaitsia mendrezi
       en: Microwhaitsia mendrezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

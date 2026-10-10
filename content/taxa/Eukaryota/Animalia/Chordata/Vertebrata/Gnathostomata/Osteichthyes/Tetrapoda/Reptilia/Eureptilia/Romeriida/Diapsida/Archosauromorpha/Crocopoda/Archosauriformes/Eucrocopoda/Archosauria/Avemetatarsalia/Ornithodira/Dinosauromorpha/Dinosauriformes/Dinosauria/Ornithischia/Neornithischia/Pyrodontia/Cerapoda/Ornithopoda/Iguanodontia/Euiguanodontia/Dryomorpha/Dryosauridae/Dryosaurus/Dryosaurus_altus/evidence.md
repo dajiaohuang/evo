@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryosaurus altus
       en: Dryosaurus altus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

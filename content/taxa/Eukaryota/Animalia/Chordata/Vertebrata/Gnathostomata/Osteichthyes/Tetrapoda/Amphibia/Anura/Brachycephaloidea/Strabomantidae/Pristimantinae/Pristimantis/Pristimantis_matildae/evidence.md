@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis matildae
       zh: Pristimantis matildae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Osteocephalus oophagus
       zh: Osteocephalus oophagus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

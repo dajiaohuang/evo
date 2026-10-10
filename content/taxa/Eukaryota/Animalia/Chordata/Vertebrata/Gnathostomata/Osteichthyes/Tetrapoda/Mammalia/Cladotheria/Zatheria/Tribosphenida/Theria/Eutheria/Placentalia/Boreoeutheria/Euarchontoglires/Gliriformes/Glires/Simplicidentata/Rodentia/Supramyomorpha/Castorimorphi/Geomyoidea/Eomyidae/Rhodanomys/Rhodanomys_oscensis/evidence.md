@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhodanomys oscensis
       en: Rhodanomys oscensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

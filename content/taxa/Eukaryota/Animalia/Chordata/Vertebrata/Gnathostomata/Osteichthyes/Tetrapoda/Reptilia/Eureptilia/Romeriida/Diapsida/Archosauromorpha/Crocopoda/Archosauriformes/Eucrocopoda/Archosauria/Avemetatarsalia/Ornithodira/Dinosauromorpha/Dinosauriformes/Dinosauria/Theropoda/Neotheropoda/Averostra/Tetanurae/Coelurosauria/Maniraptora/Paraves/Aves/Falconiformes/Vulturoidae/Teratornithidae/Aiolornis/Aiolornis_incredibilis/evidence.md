@@ -9,7 +9,6 @@ records:
     name:
       zh: Aiolornis incredibilis
       en: Aiolornis incredibilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

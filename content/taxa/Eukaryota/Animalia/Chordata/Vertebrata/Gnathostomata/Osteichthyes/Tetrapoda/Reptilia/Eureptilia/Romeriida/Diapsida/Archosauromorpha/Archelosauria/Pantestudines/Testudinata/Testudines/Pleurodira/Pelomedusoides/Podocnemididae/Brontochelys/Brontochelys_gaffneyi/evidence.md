@@ -9,7 +9,6 @@ records:
     name:
       zh: Brontochelys gaffneyi
       en: Brontochelys gaffneyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

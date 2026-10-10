@@ -9,7 +9,6 @@ records:
     name:
       zh: Pericrocotus solaris
       en: Pericrocotus solaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

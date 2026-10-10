@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiozetetes granadensis
       en: Myiozetetes granadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

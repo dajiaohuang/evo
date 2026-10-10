@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinoadapis shihuibaensis
       en: Sinoadapis shihuibaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

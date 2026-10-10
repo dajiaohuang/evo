@@ -9,7 +9,6 @@ records:
     name:
       zh: Epomops buettikoferi
       en: Epomops buettikoferi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

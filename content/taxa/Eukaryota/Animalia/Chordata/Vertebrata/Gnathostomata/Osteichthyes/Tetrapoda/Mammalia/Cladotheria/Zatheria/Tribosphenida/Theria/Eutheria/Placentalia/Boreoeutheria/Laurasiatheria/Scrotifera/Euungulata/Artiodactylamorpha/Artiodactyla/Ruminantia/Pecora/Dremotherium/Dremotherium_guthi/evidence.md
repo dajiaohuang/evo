@@ -9,7 +9,6 @@ records:
     name:
       zh: Dremotherium guthi
       en: Dremotherium guthi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

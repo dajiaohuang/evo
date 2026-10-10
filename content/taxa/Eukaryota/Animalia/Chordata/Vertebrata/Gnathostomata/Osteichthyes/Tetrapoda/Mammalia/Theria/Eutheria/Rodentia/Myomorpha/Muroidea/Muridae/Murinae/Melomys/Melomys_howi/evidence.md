@@ -9,7 +9,6 @@ records:
     name:
       zh: Melomys howi
       en: Melomys howi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

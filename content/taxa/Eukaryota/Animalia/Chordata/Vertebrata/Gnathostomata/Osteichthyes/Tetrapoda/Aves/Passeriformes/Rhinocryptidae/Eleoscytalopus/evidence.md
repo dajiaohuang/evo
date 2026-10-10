@@ -9,7 +9,6 @@ records:
     name:
       zh: Eleoscytalopus
       en: Eleoscytalopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

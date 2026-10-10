@@ -9,7 +9,6 @@ records:
     name:
       zh: 爪哇犀
       en: Javan rhinoceros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

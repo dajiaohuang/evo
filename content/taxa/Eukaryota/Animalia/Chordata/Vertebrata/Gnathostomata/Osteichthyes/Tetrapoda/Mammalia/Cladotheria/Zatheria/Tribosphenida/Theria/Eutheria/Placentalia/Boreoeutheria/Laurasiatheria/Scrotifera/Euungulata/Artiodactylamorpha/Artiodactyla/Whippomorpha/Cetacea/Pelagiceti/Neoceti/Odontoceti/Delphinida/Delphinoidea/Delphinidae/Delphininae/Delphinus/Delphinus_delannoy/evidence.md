@@ -9,7 +9,6 @@ records:
     name:
       zh: Delphinus delannoy
       en: Delphinus delannoy
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

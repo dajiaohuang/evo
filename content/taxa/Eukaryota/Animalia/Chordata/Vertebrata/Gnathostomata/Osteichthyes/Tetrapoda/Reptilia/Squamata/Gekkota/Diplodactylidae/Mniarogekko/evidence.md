@@ -9,7 +9,6 @@ records:
     name:
       zh: Mniarogekko
       en: Mniarogekko
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

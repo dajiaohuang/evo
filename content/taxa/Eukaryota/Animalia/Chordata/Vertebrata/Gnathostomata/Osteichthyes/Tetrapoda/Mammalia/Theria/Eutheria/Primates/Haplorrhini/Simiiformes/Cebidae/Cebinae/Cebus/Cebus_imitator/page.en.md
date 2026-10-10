@@ -18,5 +18,5 @@ The study also compared dichromatic and trichromatic individuals: after controll
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked guide to a local comparative study, not externally expert-reviewed. Behavioural data came from a limited set of sympatric groups, shared foods, and one seasonal Costa Rican dry forest; fruit-share estimates came separately from long-term studies selected by the authors. Cebus has a flexible diet, and the study does not describe its full range, year-round diet, or species-wide sensory mechanisms.
+Source-linked guide to a local comparative study. Behavioural data came from a limited set of sympatric groups, shared foods, and one seasonal Costa Rican dry forest; fruit-share estimates came separately from long-term studies selected by the authors. Cebus has a flexible diet, and the study does not describe its full range, year-round diet, or species-wide sensory mechanisms.
 <!-- /evo:text -->

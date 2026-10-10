@@ -9,7 +9,6 @@ records:
     name:
       zh: Pheucticus melanocephalus
       en: Pheucticus melanocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Simosthenurus cegsai
       en: Simosthenurus cegsai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

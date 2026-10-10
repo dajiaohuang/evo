@@ -9,7 +9,6 @@ records:
     name:
       en: Teretistes havina
       zh: Teretistes havina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

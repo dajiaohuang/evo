@@ -9,7 +9,6 @@ records:
     name:
       zh: Dremomys lokriah
       en: Dremomys lokriah
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

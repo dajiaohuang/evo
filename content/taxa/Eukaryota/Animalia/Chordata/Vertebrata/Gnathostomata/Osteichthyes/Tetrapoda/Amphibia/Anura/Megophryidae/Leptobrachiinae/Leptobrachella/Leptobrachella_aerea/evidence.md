@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella aerea
       zh: Leptobrachella aerea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Matobosaurus maltzahni
       en: Matobosaurus maltzahni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

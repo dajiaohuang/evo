@@ -9,7 +9,6 @@ records:
     name:
       zh: Gliravus alvarezae
       en: Gliravus alvarezae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

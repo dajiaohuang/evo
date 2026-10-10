@@ -9,7 +9,6 @@ records:
     name:
       zh: Prolimnocyon eerius
       en: Prolimnocyon eerius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

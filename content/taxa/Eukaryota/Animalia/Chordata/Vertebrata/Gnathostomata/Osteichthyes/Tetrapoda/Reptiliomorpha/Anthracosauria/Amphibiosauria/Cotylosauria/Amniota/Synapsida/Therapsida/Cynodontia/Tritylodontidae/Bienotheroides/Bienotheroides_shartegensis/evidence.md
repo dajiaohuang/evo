@@ -9,7 +9,6 @@ records:
     name:
       zh: Bienotheroides shartegensis
       en: Bienotheroides shartegensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

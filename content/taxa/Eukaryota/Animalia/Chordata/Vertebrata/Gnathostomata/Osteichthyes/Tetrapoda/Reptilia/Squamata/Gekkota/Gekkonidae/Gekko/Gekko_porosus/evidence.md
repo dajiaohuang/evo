@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko porosus
       en: Gekko porosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

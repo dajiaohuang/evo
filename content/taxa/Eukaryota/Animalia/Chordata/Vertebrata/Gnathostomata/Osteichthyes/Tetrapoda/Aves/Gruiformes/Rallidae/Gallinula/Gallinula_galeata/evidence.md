@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallinula galeata
       en: Gallinula galeata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella natunae
       zh: Leptobrachella natunae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

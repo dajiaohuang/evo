@@ -9,7 +9,6 @@ records:
     name:
       en: Epicrionops peruvianus
       zh: Epicrionops peruvianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

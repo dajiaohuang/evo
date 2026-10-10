@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelotes gronovii
       en: Scelotes gronovii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

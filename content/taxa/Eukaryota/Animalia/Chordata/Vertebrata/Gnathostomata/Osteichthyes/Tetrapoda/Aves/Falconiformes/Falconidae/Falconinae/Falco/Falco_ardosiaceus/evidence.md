@@ -9,7 +9,6 @@ records:
     name:
       zh: Falco ardosiaceus
       en: Falco ardosiaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aratinga solstitialis
       en: Aratinga solstitialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

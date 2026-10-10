@@ -9,7 +9,6 @@ records:
     name:
       en: Aquarana clamitans
       zh: Aquarana clamitans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

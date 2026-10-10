@@ -17,6 +17,7 @@ import { listSavedLabQueries, saveLabQuery, type SavedLabQuery } from '../../ser
 import { parseUserDataset, type UserDataPreview } from '../../services/userData'
 import './WorkbenchPages.css'
 import { useI18n } from '../../i18n'
+import { localizedProfileText } from '../../i18n/profileText'
 import manifest from '../../../data/manifest.json'
 import { LocalResearchWorkspace } from './LocalResearchWorkspace'
 import { DatasetVersionComparison } from './DatasetVersionComparison'
@@ -473,7 +474,7 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
           <div className="taxa-compare-grid">
             {[leftProfile, rightProfile].map((profile) => {
               const count = occurrencesByTaxonQuery[`descendants:${profile.id}`]?.length
-              return <article key={profile.id}><span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span><h2><em>{profile.scientificName}</em></h2><p>{t(profile.overview)}</p><dl><div><dt>{t('Range')}</dt><dd>{profile.rangeEvidenceLevel === 'withheld-no-range-evidence' ? t('Unavailable') : `${profile.firstAppearance}—${profile.lastAppearance || t('Present')} Ma`}</dd></div><div><dt>{t('Guild')}</dt><dd>{t(profile.ecology.guild)}</dd></div><div><dt>{t('Body size')}</dt><dd>{t(profile.ecology.bodySize)}</dd></div><div><dt>{t('Bundled descendant rows')}</dt><dd>{count == null ? t('Loading…') : number(count)}</dd></div><div><dt>{t('Profile confidence')}</dt><dd>{t(profile.confidence)}</dd></div></dl><button onClick={() => onNavigate('taxa', { id: profile.id })}>{t('Open evidence page →')}</button></article>
+              return <article key={profile.id}><span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span><h2><em>{profile.scientificName}</em></h2><p>{localizedProfileText(profile, profile.overview, language, t)}</p><dl><div><dt>{t('Range')}</dt><dd>{profile.rangeEvidenceLevel === 'withheld-no-range-evidence' ? t('Unavailable') : `${profile.firstAppearance}—${profile.lastAppearance || t('Present')} Ma`}</dd></div><div><dt>{t('Guild')}</dt><dd>{t(profile.ecology.guild)}</dd></div><div><dt>{t('Body size')}</dt><dd>{t(profile.ecology.bodySize)}</dd></div><div><dt>{t('Bundled descendant rows')}</dt><dd>{count == null ? t('Loading…') : number(count)}</dd></div><div><dt>{t('Profile confidence')}</dt><dd>{t(profile.confidence)}</dd></div></dl><button onClick={() => onNavigate('taxa', { id: profile.id })}>{t('Open evidence page →')}</button></article>
             })}
           </div>
         </section>

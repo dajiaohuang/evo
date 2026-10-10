@@ -9,7 +9,6 @@ records:
     name:
       zh: Aigialosuchus villandensis
       en: Aigialosuchus villandensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

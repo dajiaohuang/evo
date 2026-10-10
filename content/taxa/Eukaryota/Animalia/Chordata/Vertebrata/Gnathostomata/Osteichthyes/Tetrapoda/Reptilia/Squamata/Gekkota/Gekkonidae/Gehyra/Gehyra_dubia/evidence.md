@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra dubia
       en: Gehyra dubia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

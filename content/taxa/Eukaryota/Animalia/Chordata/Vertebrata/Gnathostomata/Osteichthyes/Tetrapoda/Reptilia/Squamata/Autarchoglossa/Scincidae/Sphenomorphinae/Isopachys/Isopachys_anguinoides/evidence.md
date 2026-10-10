@@ -9,7 +9,6 @@ records:
     name:
       zh: Isopachys anguinoides
       en: Isopachys anguinoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tjukuru wellsi
       en: Tjukuru wellsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

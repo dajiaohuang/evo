@@ -33,7 +33,7 @@ function fileFingerprint(paths, root) {
   }).join('\n'))
 }
 
-function shardManifest(files, root) {
+function shardManifest(files, root, emit) {
   const buckets = new Map()
   for (const path of files) {
     const prefix = digest(path).slice(0, 2)
@@ -44,16 +44,28 @@ function shardManifest(files, root) {
   const shards = [...buckets].sort(([left], [right]) => left.localeCompare(right)).map(([prefix, records]) => {
     const path = `data/registry/content-sources/${prefix}.json`
     const text = jsonText({ schemaVersion: 1, files: records.sort((left, right) => left.path.localeCompare(right.path)) })
-    writeUtf8(join(root, path), text)
+    emit(join(root, path), text)
     return { path, fileCount: records.length, sha256: digest(text) }
   })
   return { schemaVersion: 1, authoringRoot: 'content', fileCount: files.length, shards }
 }
 
-export function buildContentProjections({ root = process.cwd(), quiet = false, force = false } = {}) {
+export function buildContentProjections({ root = process.cwd(), quiet = false, force = false, check = false } = {}) {
   if (!existsSync(join(root, CONTENT_PROJECTION_MAP))) return null
-  if (completedRoot === root && !force) return null
+  if (completedRoot === root && !force && !check) return null
   const started = Date.now()
+  function emit(path, text) {
+    if (!check) return writeUtf8(path, text)
+    if (!existsSync(path) || !readFileSync(path).equals(Buffer.from(text))) throw new Error(`Content projection drift: ${relative(root, path)}. Run npm run content:build.`)
+    return false
+  }
+  function emitBinary(path, bytes) {
+    if (check) throw new Error(`Content projection drift: ${relative(root, path)}. Run npm run content:build.`)
+    mkdirSync(dirname(path), { recursive: true })
+    const temporary = `${path}.content-tmp`
+    writeFileSync(temporary, bytes)
+    renameSync(temporary, path)
+  }
   const contentFiles = filesBelow(join(root, 'content'), root).sort()
   const sourceFingerprint = fileFingerprint([...contentFiles, 'data/references.json', 'scripts/tree-path-content.mjs', 'scripts/content-references.mjs', 'scripts/content-path-links.mjs', 'scripts/build-content-projections.mjs'], root)
   const gitEntry = join(root, '.git')
@@ -72,8 +84,10 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
   const references = readJson(join(root, 'data/references.json'))
   const referencesById = new Map(references.map(reference => [reference.id, reference]))
   const cache = new Map()
+  const visitedDirectories = new Set()
   const initialImport = !existsSync(join(root, 'data/registry/content-build-summary.json'))
   function node(path) {
+    visitedDirectories.add(path)
     if (!cache.has(path)) cache.set(path, readNodeContent(path, root))
     return cache.get(path)
   }
@@ -110,14 +124,11 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
       if (!compressed || !brotliDecompressSync(compressed).equals(decoded)) {
         compressed = brotliCompressSync(decoded, { params: { [constants.BROTLI_PARAM_QUALITY]: 5, [constants.BROTLI_PARAM_MODE]: constants.BROTLI_MODE_TEXT } })
         // The source shard is a generated binary projection, atomically replaced.
-        const temporary = `${absolute}.content-tmp`
-        mkdirSync(dirname(absolute), { recursive: true })
-        writeFileSync(temporary, compressed)
-        renameSync(temporary, absolute)
+        emitBinary(absolute, compressed)
         changedOutputs++
       }
       const plainPath = absolute.slice(0, -3)
-      if (existsSync(plainPath)) changedOutputs += Number(writeUtf8(plainPath, decoded.toString('utf8')))
+      if (existsSync(plainPath)) changedOutputs += Number(emit(plainPath, decoded.toString('utf8')))
       const record = { path, recordCount: value.length, decodedSha256: digest(decoded), compressedSha256: digest(compressed) }
       shardResults.set(path, record)
       const localManifestPath = `${plainPath}.manifest.json`
@@ -125,26 +136,26 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
         const manifest = readJson(localManifestPath)
         for (const key of ['decodedSha256', 'compressedSha256']) if (key in manifest) manifest[key] = record[key]
         if ('recordCount' in manifest) manifest.recordCount = record.recordCount
-        changedOutputs += Number(writeUtf8(localManifestPath, jsonText(manifest)))
+        changedOutputs += Number(emit(localManifestPath, jsonText(manifest)))
       }
     } else if (descriptor.encoding === 'gzip-json') {
       const decoded = Buffer.from(JSON.stringify(value) + '\n', 'utf8')
       if (!existsSync(absolute) || !gunzipSync(readFileSync(absolute)).equals(decoded)) {
-        mkdirSync(dirname(absolute), { recursive: true })
-        const temporary = `${absolute}.content-tmp`
-        writeFileSync(temporary, gzipSync(decoded, { level: 9 }))
-        renameSync(temporary, absolute)
+        emitBinary(absolute, gzipSync(decoded, { level: 9 }))
         changedOutputs++
       }
-    } else if (descriptor.encoding === 'json') changedOutputs += Number(writeUtf8(absolute, jsonText(value)))
+    } else if (descriptor.encoding === 'json') changedOutputs += Number(emit(absolute, jsonText(value)))
     else throw new Error(`Unsupported projection encoding: ${descriptor.encoding}`)
     const directories = [...contentPointers(descriptor.template)].sort()
     inputIndex[path] = { directories }
+    // Inputs share paths, but retaining every restored node across all projections
+    // exceeds the default Node heap on the full authoring tree.
+    cache.clear()
   }
   const shardIndex = structuredClone(map.dossierShardIndex.metadata)
   shardIndex.shards = shardIndex.shards.map(shard => ({ ...shard, ...shardResults.get(shard.path) }))
   shardIndex.recordCount = shardIndex.shards.reduce((sum, shard) => sum + shard.recordCount, 0)
-  changedOutputs += Number(writeUtf8(join(root, map.dossierShardIndex.path), jsonText(shardIndex)))
+  changedOutputs += Number(emit(join(root, map.dossierShardIndex.path), jsonText(shardIndex)))
   const projectionIndex = {
     schemaVersion: 1,
     generator: 'scripts/build-content-projections.mjs',
@@ -156,13 +167,13 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
     profileAliases: map.profileAliases,
     topicAliases: map.topicAliases,
   }
-  writeUtf8(join(root, 'data/registry/content-projection-files.json'), jsonText(projectionIndex))
-  const sourceManifest = shardManifest(contentFiles, root)
-  writeUtf8(join(root, 'data/registry/content-source-manifest.json'), jsonText(sourceManifest))
-  const summary = { contentDirectories: cache.size, contentFiles: contentFiles.length, projectionFiles: Object.keys(map.generatedInputs).length, changedOutputs, durationSeconds: Number(((Date.now() - started) / 1000).toFixed(2)) }
-  writeUtf8(join(root, 'data/registry/content-build-summary.json'), jsonText({ schemaVersion: 1, ...summary, durationSeconds: undefined }))
+  emit(join(root, 'data/registry/content-projection-files.json'), jsonText(projectionIndex))
+  const sourceManifest = shardManifest(contentFiles, root, emit)
+  emit(join(root, 'data/registry/content-source-manifest.json'), jsonText(sourceManifest))
+  const summary = { contentDirectories: visitedDirectories.size, contentFiles: contentFiles.length, projectionFiles: Object.keys(map.generatedInputs).length, changedOutputs, durationSeconds: Number(((Date.now() - started) / 1000).toFixed(2)) }
+  emit(join(root, 'data/registry/content-build-summary.json'), jsonText({ schemaVersion: 1, ...summary, durationSeconds: undefined, changedOutputs: undefined }))
   const outputPaths = [...projectionIndex.generatedFiles, 'data/registry/content-projection-files.json', 'data/registry/content-source-manifest.json', 'data/registry/content-build-summary.json', ...sourceManifest.shards.map(shard => shard.path)].sort()
-  if (gitDirectory && existsSync(gitDirectory) && statSync(gitDirectory).isDirectory()) writeUtf8(cachePath, jsonText({ schemaVersion: 1, sourceFingerprint, outputPaths, outputFingerprint: fileFingerprint(outputPaths, root) }))
+  if (!check && gitDirectory && existsSync(gitDirectory) && statSync(gitDirectory).isDirectory()) writeUtf8(cachePath, jsonText({ schemaVersion: 1, sourceFingerprint, outputPaths, outputFingerprint: fileFingerprint(outputPaths, root) }))
   completedRoot = root
   if (!quiet) console.log(`Built ${summary.projectionFiles} content projections from ${summary.contentDirectories} Markdown directories (${summary.durationSeconds}s).`)
   return summary

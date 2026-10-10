@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus anahuacus
       en: Sceloporus anahuacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

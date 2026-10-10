@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctereutes megamastoides
       en: Nyctereutes megamastoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

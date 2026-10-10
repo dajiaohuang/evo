@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperonyx martinhotomasorum
       en: Hesperonyx martinhotomasorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

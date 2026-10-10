@@ -9,7 +9,6 @@ records:
     name:
       zh: Eliurus grandidieri
       en: Eliurus grandidieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

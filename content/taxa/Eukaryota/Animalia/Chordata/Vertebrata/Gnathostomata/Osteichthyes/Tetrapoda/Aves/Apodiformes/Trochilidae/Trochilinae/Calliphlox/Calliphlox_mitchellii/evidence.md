@@ -9,7 +9,6 @@ records:
     name:
       zh: Calliphlox mitchellii
       en: Calliphlox mitchellii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

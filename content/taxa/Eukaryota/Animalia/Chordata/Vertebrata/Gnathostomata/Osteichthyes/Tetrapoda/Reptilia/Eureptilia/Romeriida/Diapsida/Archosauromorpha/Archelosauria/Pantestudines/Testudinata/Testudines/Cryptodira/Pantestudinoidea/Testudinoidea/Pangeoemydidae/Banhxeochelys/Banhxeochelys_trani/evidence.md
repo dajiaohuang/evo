@@ -9,7 +9,6 @@ records:
     name:
       zh: Banhxeochelys trani
       en: Banhxeochelys trani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

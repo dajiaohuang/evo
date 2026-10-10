@@ -9,7 +9,6 @@ records:
     name:
       zh: Dimetrodon dollovianus
       en: Dimetrodon dollovianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

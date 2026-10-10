@@ -9,7 +9,6 @@ records:
     name:
       en: Rana pyrenaica
       zh: Rana pyrenaica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

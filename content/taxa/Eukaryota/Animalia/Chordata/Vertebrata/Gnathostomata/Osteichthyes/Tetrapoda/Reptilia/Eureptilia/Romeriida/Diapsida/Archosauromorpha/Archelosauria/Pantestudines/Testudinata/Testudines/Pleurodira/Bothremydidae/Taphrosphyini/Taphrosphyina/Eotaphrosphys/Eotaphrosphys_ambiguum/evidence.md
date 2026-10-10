@@ -9,7 +9,6 @@ records:
     name:
       zh: Eotaphrosphys ambiguum
       en: Eotaphrosphys ambiguum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

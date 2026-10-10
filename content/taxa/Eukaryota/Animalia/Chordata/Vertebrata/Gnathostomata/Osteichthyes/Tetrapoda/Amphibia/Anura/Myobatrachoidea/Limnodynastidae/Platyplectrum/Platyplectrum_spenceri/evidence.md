@@ -9,7 +9,6 @@ records:
     name:
       en: Platyplectrum spenceri
       zh: Platyplectrum spenceri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

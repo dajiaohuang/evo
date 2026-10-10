@@ -9,7 +9,6 @@ records:
     name:
       zh: Segnosaurus galbinensis
       en: Segnosaurus galbinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Theloderma pseudohorridum
       zh: Theloderma pseudohorridum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

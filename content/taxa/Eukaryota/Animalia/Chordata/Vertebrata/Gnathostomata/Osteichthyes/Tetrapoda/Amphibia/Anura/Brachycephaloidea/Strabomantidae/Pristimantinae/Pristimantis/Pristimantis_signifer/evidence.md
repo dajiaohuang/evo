@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis signifer
       zh: Pristimantis signifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

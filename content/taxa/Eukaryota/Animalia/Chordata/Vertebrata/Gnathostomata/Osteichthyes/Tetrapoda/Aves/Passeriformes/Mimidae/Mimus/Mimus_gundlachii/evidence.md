@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimus gundlachii
       en: Mimus gundlachii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

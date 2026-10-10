@@ -9,7 +9,6 @@ records:
     name:
       zh: Morelia spilota
       en: Morelia spilota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

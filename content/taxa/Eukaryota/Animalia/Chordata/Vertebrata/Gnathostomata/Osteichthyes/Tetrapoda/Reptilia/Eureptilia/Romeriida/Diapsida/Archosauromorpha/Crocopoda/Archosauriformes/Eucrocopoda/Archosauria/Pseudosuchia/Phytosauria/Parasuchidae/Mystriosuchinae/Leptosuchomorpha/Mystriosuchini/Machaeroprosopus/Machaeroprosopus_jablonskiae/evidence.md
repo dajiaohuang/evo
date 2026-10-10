@@ -9,7 +9,6 @@ records:
     name:
       zh: Machaeroprosopus jablonskiae
       en: Machaeroprosopus jablonskiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptotila battyi
       en: Leptotila battyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

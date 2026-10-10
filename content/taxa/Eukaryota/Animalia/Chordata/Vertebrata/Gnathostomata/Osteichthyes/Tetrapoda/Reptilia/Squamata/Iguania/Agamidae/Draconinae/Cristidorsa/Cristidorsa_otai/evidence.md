@@ -9,7 +9,6 @@ records:
     name:
       zh: Cristidorsa otai
       en: Cristidorsa otai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

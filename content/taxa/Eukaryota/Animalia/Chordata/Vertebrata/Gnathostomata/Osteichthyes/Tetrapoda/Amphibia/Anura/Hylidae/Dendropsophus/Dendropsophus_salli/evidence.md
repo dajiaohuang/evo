@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus salli
       zh: Dendropsophus salli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

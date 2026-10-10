@@ -9,7 +9,6 @@ records:
     name:
       zh: Systemodon tapirinus
       en: Systemodon tapirinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phonodus dutoitorum
       en: Phonodus dutoitorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

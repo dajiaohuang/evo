@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo oughlamensis
       en: Testudo oughlamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

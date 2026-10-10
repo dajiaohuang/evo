@@ -9,7 +9,6 @@ records:
     name:
       zh: Hoazinoides magdalenae
       en: Hoazinoides magdalenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

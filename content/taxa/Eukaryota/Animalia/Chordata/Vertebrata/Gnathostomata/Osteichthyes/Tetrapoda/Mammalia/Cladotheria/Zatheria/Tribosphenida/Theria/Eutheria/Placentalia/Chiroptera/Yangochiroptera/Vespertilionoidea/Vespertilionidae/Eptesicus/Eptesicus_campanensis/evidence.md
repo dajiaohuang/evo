@@ -9,7 +9,6 @@ records:
     name:
       zh: Eptesicus campanensis
       en: Eptesicus campanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

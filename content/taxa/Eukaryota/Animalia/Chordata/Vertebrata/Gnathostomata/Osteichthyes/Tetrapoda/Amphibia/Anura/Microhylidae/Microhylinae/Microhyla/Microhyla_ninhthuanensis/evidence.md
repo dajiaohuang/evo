@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla ninhthuanensis
       zh: Microhyla ninhthuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

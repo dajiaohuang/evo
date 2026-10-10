@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophisops leschenaultii
       en: Ophisops leschenaultii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

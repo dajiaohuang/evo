@@ -30,7 +30,7 @@ This batch’s Pelomedusidae route includes 8 historical life-history accounts; 
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This page is a partial family navigation guide, not a complete species list or family monograph. One Pelusios specimen cannot characterize Pelomedusidae as a whole.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 <!-- /evo:text -->
 
 ## Start with sourced trait records
@@ -54,7 +54,7 @@ This guide covers only this batch’s entries with at least four sourced focal t
 ## Citation gaps in some descendant accounts
 
 <!-- evo:text /records/catalogue-profile/sections/5/text/en -->
-In this ReptTraits route, some fields in 4 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage or expert review.
+In this ReptTraits route, some fields in 4 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 <!-- /evo:text -->
 
 ## Start with sourced trait records

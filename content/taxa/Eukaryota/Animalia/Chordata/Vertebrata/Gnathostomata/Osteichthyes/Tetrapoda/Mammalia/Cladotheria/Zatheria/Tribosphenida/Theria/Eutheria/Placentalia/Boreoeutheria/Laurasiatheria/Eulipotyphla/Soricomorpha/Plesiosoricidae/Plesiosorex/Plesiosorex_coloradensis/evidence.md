@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiosorex coloradensis
       en: Plesiosorex coloradensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

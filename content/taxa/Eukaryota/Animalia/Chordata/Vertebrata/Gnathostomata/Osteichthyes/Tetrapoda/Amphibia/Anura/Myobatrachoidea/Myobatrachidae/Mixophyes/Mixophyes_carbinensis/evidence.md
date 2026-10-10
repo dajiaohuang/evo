@@ -9,7 +9,6 @@ records:
     name:
       en: Mixophyes carbinensis
       zh: Mixophyes carbinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

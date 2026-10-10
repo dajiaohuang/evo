@@ -9,7 +9,6 @@ records:
     name:
       zh: Liophidium mayottensis
       en: Liophidium mayottensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lutra lutra
       en: Lutra lutra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

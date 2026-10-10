@@ -9,7 +9,6 @@ records:
     name:
       zh: Ectocion cedrus
       en: Ectocion cedrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

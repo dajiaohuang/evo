@@ -9,7 +9,6 @@ records:
     name:
       zh: Paratethyphoca libera
       en: Paratethyphoca libera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

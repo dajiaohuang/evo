@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorcatherium jourdani
       en: Dorcatherium jourdani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Grendelius zhuravlevi
       en: Grendelius zhuravlevi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

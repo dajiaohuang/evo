@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyura leucocephala
       en: Oxyura leucocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

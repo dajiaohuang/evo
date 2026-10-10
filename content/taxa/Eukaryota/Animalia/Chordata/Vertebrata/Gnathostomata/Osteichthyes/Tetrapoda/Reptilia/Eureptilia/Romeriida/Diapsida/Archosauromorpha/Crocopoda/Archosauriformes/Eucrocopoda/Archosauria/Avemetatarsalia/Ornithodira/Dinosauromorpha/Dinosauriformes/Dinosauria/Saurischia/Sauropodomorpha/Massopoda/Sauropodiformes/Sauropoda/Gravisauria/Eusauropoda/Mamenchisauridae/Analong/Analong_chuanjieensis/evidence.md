@@ -9,7 +9,6 @@ records:
     name:
       zh: Analong chuanjieensis
       en: Analong chuanjieensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Glossotherium giganteum
       en: Glossotherium giganteum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

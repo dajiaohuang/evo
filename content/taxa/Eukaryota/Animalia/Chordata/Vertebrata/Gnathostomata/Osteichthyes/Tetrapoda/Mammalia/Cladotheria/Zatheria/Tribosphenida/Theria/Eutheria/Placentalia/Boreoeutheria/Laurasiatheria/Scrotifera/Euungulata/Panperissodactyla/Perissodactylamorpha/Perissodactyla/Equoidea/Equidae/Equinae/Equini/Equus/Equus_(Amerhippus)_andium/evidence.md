@@ -9,7 +9,6 @@ records:
     name:
       zh: Equus (Amerhippus) andium
       en: Equus (Amerhippus) andium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

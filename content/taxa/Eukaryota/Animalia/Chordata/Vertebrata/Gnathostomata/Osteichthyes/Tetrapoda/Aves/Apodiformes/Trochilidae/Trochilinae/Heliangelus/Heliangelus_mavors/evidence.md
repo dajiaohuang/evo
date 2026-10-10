@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliangelus mavors
       en: Heliangelus mavors
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

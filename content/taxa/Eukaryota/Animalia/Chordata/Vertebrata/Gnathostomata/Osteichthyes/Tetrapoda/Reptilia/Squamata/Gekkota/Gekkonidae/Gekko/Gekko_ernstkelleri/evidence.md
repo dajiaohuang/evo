@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko ernstkelleri
       en: Gekko ernstkelleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

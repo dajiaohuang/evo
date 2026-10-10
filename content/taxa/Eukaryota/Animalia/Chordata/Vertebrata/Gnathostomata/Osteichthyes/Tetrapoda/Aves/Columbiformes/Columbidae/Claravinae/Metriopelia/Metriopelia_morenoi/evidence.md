@@ -9,7 +9,6 @@ records:
     name:
       zh: Metriopelia morenoi
       en: Metriopelia morenoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chunga incerta
       en: Chunga incerta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

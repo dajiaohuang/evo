@@ -9,7 +9,6 @@ records:
     name:
       zh: Teratoscincus bedriagai
       en: Teratoscincus bedriagai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

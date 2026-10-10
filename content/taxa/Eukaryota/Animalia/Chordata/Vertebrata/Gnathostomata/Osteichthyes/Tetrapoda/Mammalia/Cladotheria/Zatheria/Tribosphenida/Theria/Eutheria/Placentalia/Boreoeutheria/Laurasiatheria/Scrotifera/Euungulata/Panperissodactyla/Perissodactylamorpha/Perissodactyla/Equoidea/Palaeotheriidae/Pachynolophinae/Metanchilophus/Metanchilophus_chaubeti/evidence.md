@@ -9,7 +9,6 @@ records:
     name:
       zh: Metanchilophus chaubeti
       en: Metanchilophus chaubeti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

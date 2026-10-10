@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudohynobius flavomaculatus
       zh: Pseudohynobius flavomaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

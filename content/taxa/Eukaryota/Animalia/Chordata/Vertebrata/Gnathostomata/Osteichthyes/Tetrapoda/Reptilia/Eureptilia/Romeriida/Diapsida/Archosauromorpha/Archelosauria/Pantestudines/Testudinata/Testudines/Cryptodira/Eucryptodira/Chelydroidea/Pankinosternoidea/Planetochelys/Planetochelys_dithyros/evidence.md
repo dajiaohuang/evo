@@ -9,7 +9,6 @@ records:
     name:
       zh: Planetochelys dithyros
       en: Planetochelys dithyros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

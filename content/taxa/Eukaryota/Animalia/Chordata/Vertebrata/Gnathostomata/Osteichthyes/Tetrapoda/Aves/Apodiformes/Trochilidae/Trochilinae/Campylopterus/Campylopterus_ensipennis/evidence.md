@@ -9,7 +9,6 @@ records:
     name:
       zh: Campylopterus ensipennis
       en: Campylopterus ensipennis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

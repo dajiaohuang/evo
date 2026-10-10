@@ -9,7 +9,6 @@ records:
     name:
       zh: Plastomenus joycei
       en: Plastomenus joycei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

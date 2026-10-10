@@ -9,7 +9,6 @@ records:
     name:
       zh: Picus squamatus
       en: Picus squamatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Polioptila schistaceigula
       en: Polioptila schistaceigula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

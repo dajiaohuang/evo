@@ -9,7 +9,6 @@ records:
     name:
       zh: Haliaeetus piscator
       en: Haliaeetus piscator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

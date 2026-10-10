@@ -9,7 +9,6 @@ records:
     name:
       zh: Tigriornis leucolopha
       en: Tigriornis leucolopha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

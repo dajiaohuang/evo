@@ -9,7 +9,6 @@ records:
     name:
       zh: 西方蜜蜂
       en: Western honey bee
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:
@@ -257,12 +256,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
     classificationPath:
       - id: CS5HF
         scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
@@ -524,10 +517,4 @@ One controlled managed-colony study supports a narrow social-behavior claim only
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 Six facets remain not assessed; this is not a species-wide dossier review.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

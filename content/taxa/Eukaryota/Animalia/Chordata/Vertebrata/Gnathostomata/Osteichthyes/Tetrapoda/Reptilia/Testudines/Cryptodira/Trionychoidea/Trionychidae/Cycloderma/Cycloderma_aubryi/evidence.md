@@ -9,7 +9,6 @@ records:
     name:
       zh: Cycloderma aubryi
       en: Cycloderma aubryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

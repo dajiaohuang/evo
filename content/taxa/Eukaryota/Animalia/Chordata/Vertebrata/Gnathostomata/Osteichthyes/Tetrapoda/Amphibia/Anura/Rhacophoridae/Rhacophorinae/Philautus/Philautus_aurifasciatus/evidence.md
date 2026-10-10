@@ -9,7 +9,6 @@ records:
     name:
       en: Philautus aurifasciatus
       zh: Philautus aurifasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

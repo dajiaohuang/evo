@@ -9,7 +9,6 @@ records:
     name:
       zh: Phanomys mixtus
       en: Phanomys mixtus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

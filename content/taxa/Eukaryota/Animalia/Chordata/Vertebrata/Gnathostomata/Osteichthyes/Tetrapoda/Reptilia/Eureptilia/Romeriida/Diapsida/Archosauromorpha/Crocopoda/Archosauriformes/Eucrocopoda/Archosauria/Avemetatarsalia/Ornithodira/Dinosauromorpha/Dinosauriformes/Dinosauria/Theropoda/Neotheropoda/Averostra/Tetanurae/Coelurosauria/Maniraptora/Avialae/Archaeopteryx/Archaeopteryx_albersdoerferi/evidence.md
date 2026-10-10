@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeopteryx albersdoerferi
       en: Archaeopteryx albersdoerferi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stercorarius skua
       en: Stercorarius skua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Glis galitopouli
       en: Glis galitopouli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

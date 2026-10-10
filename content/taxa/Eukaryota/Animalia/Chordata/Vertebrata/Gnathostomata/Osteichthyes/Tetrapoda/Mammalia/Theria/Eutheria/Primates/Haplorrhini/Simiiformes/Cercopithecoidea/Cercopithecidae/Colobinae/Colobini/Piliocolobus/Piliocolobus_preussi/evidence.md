@@ -9,7 +9,6 @@ records:
     name:
       en: Preuss's Red Colobus
       zh: 普鲁士红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: nameBearingMaterial

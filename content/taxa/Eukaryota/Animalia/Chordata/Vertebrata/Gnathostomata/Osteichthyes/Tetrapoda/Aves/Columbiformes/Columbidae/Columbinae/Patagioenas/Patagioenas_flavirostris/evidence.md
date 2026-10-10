@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagioenas flavirostris
       en: Patagioenas flavirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

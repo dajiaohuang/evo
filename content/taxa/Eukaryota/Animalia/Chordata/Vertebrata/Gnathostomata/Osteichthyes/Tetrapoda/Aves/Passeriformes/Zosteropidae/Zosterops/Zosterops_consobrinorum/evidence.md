@@ -9,7 +9,6 @@ records:
     name:
       zh: Zosterops consobrinorum
       en: Zosterops consobrinorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

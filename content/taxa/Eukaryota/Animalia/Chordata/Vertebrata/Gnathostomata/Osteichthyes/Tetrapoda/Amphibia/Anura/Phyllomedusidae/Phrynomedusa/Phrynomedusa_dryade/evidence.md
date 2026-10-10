@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynomedusa dryade
       zh: Phrynomedusa dryade
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Bouvier’s Red Colobus
       zh: 布维耶红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: historicalNameType

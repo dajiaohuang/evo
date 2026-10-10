@@ -9,7 +9,6 @@ records:
     name:
       zh: Andrewsiphius sloani
       en: Andrewsiphius sloani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Edaphosaurus cruciger
       en: Edaphosaurus cruciger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

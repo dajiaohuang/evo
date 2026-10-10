@@ -9,7 +9,6 @@ records:
     name:
       zh: Dactylomys peruanus
       en: Dactylomys peruanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Corviconodon montanensis
       en: Corviconodon montanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

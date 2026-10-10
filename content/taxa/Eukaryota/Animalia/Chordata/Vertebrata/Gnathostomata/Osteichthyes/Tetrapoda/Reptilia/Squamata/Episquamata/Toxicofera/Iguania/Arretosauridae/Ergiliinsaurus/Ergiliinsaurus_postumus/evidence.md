@@ -9,7 +9,6 @@ records:
     name:
       zh: Ergiliinsaurus postumus
       en: Ergiliinsaurus postumus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Philautus poecilius
       zh: Philautus poecilius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

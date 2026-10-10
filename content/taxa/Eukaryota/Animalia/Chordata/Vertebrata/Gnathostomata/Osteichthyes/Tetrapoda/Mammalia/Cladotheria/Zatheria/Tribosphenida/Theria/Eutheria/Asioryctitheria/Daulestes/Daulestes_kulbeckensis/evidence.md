@@ -9,7 +9,6 @@ records:
     name:
       zh: Daulestes kulbeckensis
       en: Daulestes kulbeckensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

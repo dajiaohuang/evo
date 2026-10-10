@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidolaemus philippensis
       en: Tropidolaemus philippensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

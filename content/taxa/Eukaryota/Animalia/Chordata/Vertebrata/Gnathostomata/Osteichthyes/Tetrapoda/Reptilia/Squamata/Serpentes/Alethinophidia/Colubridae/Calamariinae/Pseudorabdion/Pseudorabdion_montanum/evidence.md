@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudorabdion montanum
       en: Pseudorabdion montanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

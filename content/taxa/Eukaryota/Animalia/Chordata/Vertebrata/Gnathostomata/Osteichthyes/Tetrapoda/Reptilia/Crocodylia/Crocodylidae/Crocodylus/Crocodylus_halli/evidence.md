@@ -9,7 +9,6 @@ records:
     name:
       zh: 霍尔新几内亚鳄
       en: Hall's New Guinea crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Peripolocetus vexillifer
       en: Peripolocetus vexillifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

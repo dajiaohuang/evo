@@ -22,5 +22,5 @@ Heymann（2000）比较了四个野生群体家域内的气味标记位置。标
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-种名按 COL26.8 固定；旧论文使用 *Saguinus mystax*。局地结果不代表全种。双语初稿尚未经过外部领域专家评审。
+种名按 COL26.8 固定；旧论文使用 *Saguinus mystax*。局地结果不代表全种。。
 <!-- /evo:text -->

@@ -34,5 +34,5 @@ The report recorded illegal hunting at surveyed sites and reviewed mass-killing 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This guide centers on one 2019 regional assessment and its report-era phenotype assignments; the regional totals combine *P. langi* with other red-colobus forms and are not a species census. Several neighboring populations remain taxonomically unresolved. The page has not received external expert review.
+This guide centers on one 2019 regional assessment and its report-era phenotype assignments; the regional totals combine *P. langi* with other red-colobus forms and are not a species census. Several neighboring populations remain taxonomically unresolved.
 <!-- /evo:text -->

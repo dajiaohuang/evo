@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerberophis robustus
       en: Cerberophis robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

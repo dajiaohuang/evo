@@ -9,7 +9,6 @@ records:
     name:
       zh: Joermungandr bolti
       en: Joermungandr bolti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

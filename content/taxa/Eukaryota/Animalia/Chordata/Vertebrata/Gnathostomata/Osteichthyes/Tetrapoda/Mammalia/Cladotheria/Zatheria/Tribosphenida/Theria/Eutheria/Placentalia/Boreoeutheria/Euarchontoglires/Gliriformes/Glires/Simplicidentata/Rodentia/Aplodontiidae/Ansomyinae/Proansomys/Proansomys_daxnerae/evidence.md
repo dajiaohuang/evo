@@ -9,7 +9,6 @@ records:
     name:
       zh: Proansomys daxnerae
       en: Proansomys daxnerae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonyosoma jansenii
       en: Gonyosoma jansenii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

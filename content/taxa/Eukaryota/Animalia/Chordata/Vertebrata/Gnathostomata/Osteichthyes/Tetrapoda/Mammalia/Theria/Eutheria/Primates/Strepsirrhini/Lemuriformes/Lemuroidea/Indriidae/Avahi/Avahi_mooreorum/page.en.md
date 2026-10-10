@@ -22,5 +22,5 @@ A later distance-sampling study walked 11 transects repeatedly, covering 33 km a
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The description and density estimate are limited to Masoala samples and study methods; neither supplies a current range-wide population total. This page has not received external expert review. This page is not externally expert-reviewed.
+The description and density estimate are limited to Masoala samples and study methods; neither supplies a current range-wide population total. This page. This page is.
 <!-- /evo:text -->

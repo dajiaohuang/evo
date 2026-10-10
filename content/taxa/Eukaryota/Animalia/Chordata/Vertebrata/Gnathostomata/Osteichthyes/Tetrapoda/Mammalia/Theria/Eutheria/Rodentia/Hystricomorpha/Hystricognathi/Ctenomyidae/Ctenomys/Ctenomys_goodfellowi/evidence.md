@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenomys goodfellowi
       en: Ctenomys goodfellowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

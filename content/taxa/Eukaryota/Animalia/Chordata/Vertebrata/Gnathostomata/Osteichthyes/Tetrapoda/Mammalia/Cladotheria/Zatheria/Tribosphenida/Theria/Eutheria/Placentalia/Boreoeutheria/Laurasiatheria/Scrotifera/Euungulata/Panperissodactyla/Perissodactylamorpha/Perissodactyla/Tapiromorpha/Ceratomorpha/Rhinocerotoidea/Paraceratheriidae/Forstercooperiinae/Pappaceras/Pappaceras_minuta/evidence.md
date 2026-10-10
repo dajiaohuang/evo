@@ -9,7 +9,6 @@ records:
     name:
       zh: Pappaceras minuta
       en: Pappaceras minuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

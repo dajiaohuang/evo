@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates juanii
       zh: Allobates juanii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

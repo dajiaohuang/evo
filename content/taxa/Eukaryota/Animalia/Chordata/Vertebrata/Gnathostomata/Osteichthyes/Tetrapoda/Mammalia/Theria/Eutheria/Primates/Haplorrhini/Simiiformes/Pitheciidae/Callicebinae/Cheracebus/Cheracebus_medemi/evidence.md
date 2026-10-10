@@ -9,7 +9,6 @@ records:
     name:
       zh: 梅德姆跳猴
       en: Medem's Titi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: taxonomyAndTypeLocality

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coua caerulea
       en: Coua caerulea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

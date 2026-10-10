@@ -106,8 +106,8 @@ const record = {
     fossil: { status: 'not-assessed', claims: [], gaps: ['No fossil or paleontological search was performed; no fossil presence or absence is claimed.'] },
     conservation: { status: 'not-assessed', claims: [], gaps: ['No current formal conservation assessment was verified; no current threat category is asserted.'] },
   },
-  completeness: { status: 'incomplete', reasons: ['One historical-ecology study supports only bounded historical distribution claims.', 'Six facets remain not assessed and the distribution evidence has acknowledged coverage and precision limits.', 'Independent expert review and comprehensive multi-source review are incomplete.'] },
-  expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+  completeness: { status: 'incomplete', reasons: ['One historical-ecology study supports only bounded historical distribution claims.', 'Six facets remain not assessed and the distribution evidence has acknowledged coverage and precision limits.', 'A comprehensive multi-source search is incomplete.'] },
+
 }
 assert.equal(record.facets.distribution.claims[0].sourceIds.every(sourceId => sources.find(s => s.id === sourceId)?.licenseAssessment === 'item-level-verified'), true)
 

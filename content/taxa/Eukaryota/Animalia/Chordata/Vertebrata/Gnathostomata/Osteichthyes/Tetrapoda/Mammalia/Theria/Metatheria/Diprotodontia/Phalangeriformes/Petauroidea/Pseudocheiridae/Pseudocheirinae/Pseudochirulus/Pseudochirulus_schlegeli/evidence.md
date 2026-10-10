@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudochirulus schlegeli
       en: Pseudochirulus schlegeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

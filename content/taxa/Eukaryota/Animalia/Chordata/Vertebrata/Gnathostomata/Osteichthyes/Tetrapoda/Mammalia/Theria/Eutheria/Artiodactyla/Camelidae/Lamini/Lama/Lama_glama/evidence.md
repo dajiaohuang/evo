@@ -9,7 +9,6 @@ records:
     name:
       zh: Lama glama
       en: Lama glama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

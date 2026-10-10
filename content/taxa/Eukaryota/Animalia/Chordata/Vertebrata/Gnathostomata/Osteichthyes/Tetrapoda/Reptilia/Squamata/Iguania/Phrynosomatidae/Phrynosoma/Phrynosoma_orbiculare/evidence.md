@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynosoma orbiculare
       en: Phrynosoma orbiculare
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

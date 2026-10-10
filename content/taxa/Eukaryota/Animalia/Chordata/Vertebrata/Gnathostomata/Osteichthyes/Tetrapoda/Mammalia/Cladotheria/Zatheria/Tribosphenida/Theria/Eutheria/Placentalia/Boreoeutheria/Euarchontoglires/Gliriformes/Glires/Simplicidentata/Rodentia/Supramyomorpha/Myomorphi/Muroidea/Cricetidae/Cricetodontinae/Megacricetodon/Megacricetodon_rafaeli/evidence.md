@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacricetodon rafaeli
       en: Megacricetodon rafaeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

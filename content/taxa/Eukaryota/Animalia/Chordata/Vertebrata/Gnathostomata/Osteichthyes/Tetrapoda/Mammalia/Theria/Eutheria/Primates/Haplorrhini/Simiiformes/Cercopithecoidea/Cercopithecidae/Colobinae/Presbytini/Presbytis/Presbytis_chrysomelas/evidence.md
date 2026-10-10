@@ -9,7 +9,6 @@ records:
     name:
       zh: 沙捞越叶猴
       en: Sarawak Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

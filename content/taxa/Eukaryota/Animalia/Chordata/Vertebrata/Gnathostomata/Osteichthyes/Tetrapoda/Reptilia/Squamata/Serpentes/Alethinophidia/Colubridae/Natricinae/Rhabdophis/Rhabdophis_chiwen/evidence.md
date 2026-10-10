@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhabdophis chiwen
       en: Rhabdophis chiwen
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

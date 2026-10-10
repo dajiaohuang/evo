@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-调查持续三个月、覆盖一个国家公园内三个地点；局地丰度估算不是当前全分布区种群估计。本页未经过外部领域专家评审。
+调查持续三个月、覆盖一个国家公园内三个地点；局地丰度估算不是当前全分布区种群估计。。
 <!-- /evo:text -->

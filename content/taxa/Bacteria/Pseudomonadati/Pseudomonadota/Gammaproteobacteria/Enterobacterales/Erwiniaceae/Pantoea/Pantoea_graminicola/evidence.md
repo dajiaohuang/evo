@@ -238,10 +238,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Pantoea graminicola
@@ -447,5 +443,5 @@ Several facets remain not assessed and supported claims are limited to specified
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Independent expert review and comprehensive multi-source review are incomplete.
+comprehensive multi-source search are incomplete.
 <!-- /evo:text -->

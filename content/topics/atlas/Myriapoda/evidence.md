@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Briggs et al. 2026 DOI 10.1098/rspb.2026.0131 checked for 2026.08-static-v5-rc39
       referenceLinks:
         - referenceId: briggs-2026-waukartus
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: briggs-2026-waukartus
           locator: article 20260131; Figures 1–6 and supplementary morphology matrix
-      reviewStatus: automated-audit-passed
 ---
 
 # Myriapoda

@@ -9,7 +9,6 @@ records:
     name:
       zh: Boiga trigonata
       en: Boiga trigonata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

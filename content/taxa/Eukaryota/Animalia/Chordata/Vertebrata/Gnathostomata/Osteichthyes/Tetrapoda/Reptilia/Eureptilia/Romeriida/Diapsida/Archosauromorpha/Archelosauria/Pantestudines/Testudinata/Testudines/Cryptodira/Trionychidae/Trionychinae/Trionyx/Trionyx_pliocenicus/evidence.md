@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx pliocenicus
       en: Trionyx pliocenicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

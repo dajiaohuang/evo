@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella aspera
       zh: Leptobrachella aspera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

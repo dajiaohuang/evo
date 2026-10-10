@@ -9,7 +9,6 @@ records:
     name:
       zh: Lalage nigra
       en: Lalage nigra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

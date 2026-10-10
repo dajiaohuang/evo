@@ -9,7 +9,6 @@ records:
     name:
       zh: Meizodon semiornatus
       en: Meizodon semiornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

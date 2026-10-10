@@ -9,7 +9,6 @@ records:
     name:
       zh: Rageryx schmidi
       en: Rageryx schmidi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

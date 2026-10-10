@@ -50,7 +50,7 @@ export interface TaxonOccurrenceQueryResult {
   effectiveScope: TaxonQueryScope
   indexStatus: TaxonIndexStatus
   fallbackApplied: boolean
-  queryStatus: 'complete-query-observed' | 'complete-query-zero' | 'concept-review-required' | 'resolved-and-observed' | 'resolved-zero-in-bounded-sample' | 'external-id-unresolved' | 'navigation-only' | 'historical-grade' | 'outside-snapshot-scope'
+  queryStatus: 'complete-query-observed' | 'complete-query-zero' | 'incompatible-lineage' | 'lineage-not-verified' | 'resolved-and-observed' | 'resolved-zero-in-bounded-sample' | 'external-id-unresolved' | 'navigation-only' | 'historical-grade' | 'outside-snapshot-scope'
   matchMethods: { exactExternalId: number; acceptedName: number; higherClassification: number }
   sourceTotal: number
   matchedTotal: number

@@ -9,7 +9,6 @@ records:
     name:
       zh: Heteromirafra archeri
       en: Heteromirafra archeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

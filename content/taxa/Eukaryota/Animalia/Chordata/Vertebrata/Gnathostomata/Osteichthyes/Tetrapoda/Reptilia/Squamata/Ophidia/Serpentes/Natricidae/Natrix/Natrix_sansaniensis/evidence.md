@@ -9,7 +9,6 @@ records:
     name:
       zh: Natrix sansaniensis
       en: Natrix sansaniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

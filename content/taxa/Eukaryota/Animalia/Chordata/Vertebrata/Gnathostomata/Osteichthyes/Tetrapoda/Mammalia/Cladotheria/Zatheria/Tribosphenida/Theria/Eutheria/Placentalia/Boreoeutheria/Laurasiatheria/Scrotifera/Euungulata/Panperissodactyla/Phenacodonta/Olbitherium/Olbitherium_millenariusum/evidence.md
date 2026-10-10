@@ -9,7 +9,6 @@ records:
     name:
       zh: Olbitherium millenariusum
       en: Olbitherium millenariusum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

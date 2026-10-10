@@ -9,7 +9,6 @@ records:
     name:
       zh: Asthenes heterura
       en: Asthenes heterura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

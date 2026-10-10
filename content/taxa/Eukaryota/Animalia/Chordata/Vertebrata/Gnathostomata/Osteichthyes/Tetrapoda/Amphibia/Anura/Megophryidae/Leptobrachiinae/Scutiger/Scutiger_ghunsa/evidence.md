@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger ghunsa
       zh: Scutiger ghunsa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

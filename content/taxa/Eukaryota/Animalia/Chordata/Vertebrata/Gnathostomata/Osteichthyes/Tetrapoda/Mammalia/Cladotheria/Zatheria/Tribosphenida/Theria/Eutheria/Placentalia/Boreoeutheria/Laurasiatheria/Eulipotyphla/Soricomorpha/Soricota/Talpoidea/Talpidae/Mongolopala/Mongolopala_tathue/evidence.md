@@ -9,7 +9,6 @@ records:
     name:
       zh: Mongolopala tathue
       en: Mongolopala tathue
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

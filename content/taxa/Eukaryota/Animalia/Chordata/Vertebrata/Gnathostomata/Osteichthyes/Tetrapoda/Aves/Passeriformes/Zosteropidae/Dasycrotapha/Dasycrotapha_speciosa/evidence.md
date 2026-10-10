@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasycrotapha speciosa
       en: Dasycrotapha speciosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

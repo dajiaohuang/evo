@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidodactylus yami
       en: Lepidodactylus yami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

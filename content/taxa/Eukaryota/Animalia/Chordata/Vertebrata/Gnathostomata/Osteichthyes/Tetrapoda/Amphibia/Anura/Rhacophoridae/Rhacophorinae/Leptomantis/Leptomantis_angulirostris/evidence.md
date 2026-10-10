@@ -9,7 +9,6 @@ records:
     name:
       en: Leptomantis angulirostris
       zh: Leptomantis angulirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nephrurus amyae
       en: Nephrurus amyae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

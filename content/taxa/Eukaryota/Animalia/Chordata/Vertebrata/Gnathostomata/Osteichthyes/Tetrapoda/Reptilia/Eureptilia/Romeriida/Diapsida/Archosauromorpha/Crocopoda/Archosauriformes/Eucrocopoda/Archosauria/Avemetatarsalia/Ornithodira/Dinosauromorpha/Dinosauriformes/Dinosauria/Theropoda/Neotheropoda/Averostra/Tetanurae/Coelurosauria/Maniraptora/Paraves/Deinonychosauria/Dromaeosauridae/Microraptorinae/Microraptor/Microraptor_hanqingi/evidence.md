@@ -9,7 +9,6 @@ records:
     name:
       zh: Microraptor hanqingi
       en: Microraptor hanqingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: morphology

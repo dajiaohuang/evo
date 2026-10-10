@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus inti
       zh: Phrynopus inti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

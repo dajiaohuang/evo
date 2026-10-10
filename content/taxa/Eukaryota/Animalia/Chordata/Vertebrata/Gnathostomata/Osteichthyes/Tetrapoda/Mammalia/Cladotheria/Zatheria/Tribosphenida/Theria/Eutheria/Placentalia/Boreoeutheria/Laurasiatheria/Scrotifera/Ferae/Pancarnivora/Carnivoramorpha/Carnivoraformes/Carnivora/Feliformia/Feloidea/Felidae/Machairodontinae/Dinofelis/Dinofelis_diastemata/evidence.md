@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinofelis diastemata
       en: Dinofelis diastemata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

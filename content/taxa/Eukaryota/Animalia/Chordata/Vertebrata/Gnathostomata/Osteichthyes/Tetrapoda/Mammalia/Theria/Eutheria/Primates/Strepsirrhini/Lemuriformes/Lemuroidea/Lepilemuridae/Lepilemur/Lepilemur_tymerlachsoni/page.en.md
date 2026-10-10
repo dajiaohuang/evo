@@ -22,5 +22,5 @@ The type locality is Lokobe National Park on Nosy Be Island. The paper then knew
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is based on the 2006 description and limited locality sampling; it contains no current range, abundance, or conservation assessment. The COL26.8 accepted name is retained. The Chinese common name is editorial; the guide is not externally expert-reviewed.
+This is based on the 2006 description and limited locality sampling; it contains no current range, abundance, or conservation assessment. The COL26.8 accepted name is retained. The Chinese common name is editorial; the guide is.
 <!-- /evo:text -->

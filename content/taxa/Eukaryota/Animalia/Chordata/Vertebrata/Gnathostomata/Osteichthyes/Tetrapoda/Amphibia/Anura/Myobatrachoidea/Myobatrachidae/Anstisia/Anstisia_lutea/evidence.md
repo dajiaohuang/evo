@@ -9,7 +9,6 @@ records:
     name:
       en: Anstisia lutea
       zh: Anstisia lutea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

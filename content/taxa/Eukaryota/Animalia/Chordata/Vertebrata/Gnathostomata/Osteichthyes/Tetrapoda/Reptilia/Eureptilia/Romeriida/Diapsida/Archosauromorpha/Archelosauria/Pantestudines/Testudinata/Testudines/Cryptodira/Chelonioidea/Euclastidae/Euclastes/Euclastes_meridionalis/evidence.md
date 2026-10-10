@@ -9,7 +9,6 @@ records:
     name:
       zh: Euclastes meridionalis
       en: Euclastes meridionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

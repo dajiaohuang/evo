@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus rawlinsoni
       en: Ctenotus rawlinsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

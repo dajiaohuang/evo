@@ -9,7 +9,6 @@ records:
     name:
       zh: Ankylorhiza tiedemani
       en: Ankylorhiza tiedemani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

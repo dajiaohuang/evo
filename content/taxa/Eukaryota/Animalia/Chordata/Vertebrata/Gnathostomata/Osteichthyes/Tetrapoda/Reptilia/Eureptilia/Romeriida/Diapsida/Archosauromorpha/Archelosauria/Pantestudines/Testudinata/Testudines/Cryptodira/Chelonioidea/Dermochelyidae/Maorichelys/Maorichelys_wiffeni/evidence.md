@@ -9,7 +9,6 @@ records:
     name:
       zh: Maorichelys wiffeni
       en: Maorichelys wiffeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

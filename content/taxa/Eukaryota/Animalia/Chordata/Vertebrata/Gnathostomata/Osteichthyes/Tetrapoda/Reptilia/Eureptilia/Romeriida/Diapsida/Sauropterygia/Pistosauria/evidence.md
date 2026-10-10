@@ -9,7 +9,6 @@ records:
     name:
       zh: Pistosauria
       en: Pistosauria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

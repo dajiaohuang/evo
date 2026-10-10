@@ -9,7 +9,6 @@ records:
     name:
       zh: Eothenomys melanogaster
       en: Eothenomys melanogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

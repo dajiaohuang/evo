@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmatosuchus spurensis
       en: Desmatosuchus spurensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

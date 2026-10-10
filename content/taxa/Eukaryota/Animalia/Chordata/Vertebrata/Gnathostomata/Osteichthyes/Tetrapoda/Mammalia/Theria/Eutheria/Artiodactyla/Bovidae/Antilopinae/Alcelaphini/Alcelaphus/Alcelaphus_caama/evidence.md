@@ -9,7 +9,6 @@ records:
     name:
       zh: Alcelaphus caama
       en: Alcelaphus caama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

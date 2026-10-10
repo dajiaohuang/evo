@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis achatinus
       zh: Pristimantis achatinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

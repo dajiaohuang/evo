@@ -9,7 +9,6 @@ records:
     name:
       en: Kanamari White Uacari
       zh: 卡纳马里白秃乌卡里
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: taxonomy

@@ -9,7 +9,6 @@ records:
     name:
       zh: Campylorhynchus brunneicapillus
       en: Campylorhynchus brunneicapillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

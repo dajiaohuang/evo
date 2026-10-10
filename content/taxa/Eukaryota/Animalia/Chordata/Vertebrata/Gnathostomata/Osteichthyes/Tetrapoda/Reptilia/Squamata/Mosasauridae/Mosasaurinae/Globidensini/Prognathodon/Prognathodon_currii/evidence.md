@@ -9,7 +9,6 @@ records:
     name:
       zh: Prognathodon currii
       en: Prognathodon currii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus hylocetes
       en: Peromyscus hylocetes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

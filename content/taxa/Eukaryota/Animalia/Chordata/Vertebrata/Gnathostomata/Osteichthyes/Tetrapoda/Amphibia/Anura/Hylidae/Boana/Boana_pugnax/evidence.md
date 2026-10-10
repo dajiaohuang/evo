@@ -9,7 +9,6 @@ records:
     name:
       en: Boana pugnax
       zh: Boana pugnax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

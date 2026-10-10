@@ -9,7 +9,6 @@ records:
     name:
       zh: Rudiomys drummondensis
       en: Rudiomys drummondensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

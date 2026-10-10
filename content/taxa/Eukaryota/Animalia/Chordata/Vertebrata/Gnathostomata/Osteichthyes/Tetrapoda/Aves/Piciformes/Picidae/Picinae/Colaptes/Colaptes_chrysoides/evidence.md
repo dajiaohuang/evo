@@ -9,7 +9,6 @@ records:
     name:
       zh: Colaptes chrysoides
       en: Colaptes chrysoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

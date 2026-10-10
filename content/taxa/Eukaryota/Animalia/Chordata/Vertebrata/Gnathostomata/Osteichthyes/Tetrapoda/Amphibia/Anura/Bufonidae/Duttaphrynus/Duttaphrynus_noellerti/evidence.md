@@ -9,7 +9,6 @@ records:
     name:
       en: Duttaphrynus noellerti
       zh: Duttaphrynus noellerti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Bufotes turanensis
       zh: Bufotes turanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

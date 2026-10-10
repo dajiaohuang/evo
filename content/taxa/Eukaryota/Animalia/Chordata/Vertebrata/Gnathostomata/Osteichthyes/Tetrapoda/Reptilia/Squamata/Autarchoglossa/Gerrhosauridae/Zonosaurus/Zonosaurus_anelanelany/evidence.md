@@ -9,7 +9,6 @@ records:
     name:
       zh: Zonosaurus anelanelany
       en: Zonosaurus anelanelany
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

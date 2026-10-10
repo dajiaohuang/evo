@@ -9,7 +9,6 @@ records:
     name:
       zh: Erethizon cascoensis
       en: Erethizon cascoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

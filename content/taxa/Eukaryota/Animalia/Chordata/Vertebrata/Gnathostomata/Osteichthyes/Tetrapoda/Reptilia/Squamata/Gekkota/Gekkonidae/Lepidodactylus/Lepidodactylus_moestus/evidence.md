@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidodactylus moestus
       en: Lepidodactylus moestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paleotomus radagasti
       en: Paleotomus radagasti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

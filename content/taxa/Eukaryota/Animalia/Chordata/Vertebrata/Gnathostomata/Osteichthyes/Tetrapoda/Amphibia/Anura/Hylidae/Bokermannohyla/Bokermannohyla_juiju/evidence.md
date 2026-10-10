@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla juiju
       zh: Bokermannohyla juiju
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

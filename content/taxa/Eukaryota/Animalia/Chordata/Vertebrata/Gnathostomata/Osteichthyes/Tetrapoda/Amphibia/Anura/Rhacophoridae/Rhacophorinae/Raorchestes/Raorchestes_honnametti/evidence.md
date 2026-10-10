@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes honnametti
       zh: Raorchestes honnametti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

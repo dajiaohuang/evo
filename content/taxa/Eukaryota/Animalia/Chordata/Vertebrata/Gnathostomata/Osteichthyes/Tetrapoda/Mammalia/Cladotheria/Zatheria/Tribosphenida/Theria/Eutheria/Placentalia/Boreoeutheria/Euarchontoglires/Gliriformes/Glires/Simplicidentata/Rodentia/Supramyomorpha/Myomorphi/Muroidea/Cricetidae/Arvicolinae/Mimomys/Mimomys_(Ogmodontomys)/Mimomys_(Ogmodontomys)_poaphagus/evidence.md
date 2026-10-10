@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimomys (Ogmodontomys) poaphagus
       en: Mimomys (Ogmodontomys) poaphagus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

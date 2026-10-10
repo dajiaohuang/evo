@@ -9,7 +9,6 @@ records:
     name:
       zh: 婆罗洲猩猩
       en: Bornean orangutan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: lifeHistory
@@ -830,8 +829,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
 ---
 
 # Pongo pygmaeus
@@ -1175,5 +1172,5 @@ The evidence includes local nest-survey ecology, one historically reintroduced p
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-Morphology, life history, ecology, and evolution remain partial; distribution is now locally supported but incomplete; fossil evidence and formal conservation assessment remain unassessed. No systematic seven-facet literature search or independent external expert review has been completed.
+Morphology, life history, ecology, and evolution remain partial; distribution is now locally supported but incomplete; fossil evidence and formal conservation assessment remain unassessed.
 <!-- /evo:text -->

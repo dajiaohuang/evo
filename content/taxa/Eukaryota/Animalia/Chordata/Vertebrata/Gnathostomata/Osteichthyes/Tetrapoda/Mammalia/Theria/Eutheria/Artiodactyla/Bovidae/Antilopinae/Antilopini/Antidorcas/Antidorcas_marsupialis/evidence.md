@@ -9,7 +9,6 @@ records:
     name:
       zh: Antidorcas marsupialis
       en: Antidorcas marsupialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

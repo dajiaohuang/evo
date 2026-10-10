@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchophyllini
       en: Lonchophyllini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

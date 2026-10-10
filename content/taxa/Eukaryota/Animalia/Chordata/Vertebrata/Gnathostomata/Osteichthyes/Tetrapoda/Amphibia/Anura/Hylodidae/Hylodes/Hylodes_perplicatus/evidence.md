@@ -9,7 +9,6 @@ records:
     name:
       en: Hylodes perplicatus
       zh: Hylodes perplicatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

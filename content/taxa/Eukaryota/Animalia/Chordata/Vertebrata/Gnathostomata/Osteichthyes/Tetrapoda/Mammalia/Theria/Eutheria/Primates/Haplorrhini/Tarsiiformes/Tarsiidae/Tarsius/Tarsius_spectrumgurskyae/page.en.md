@@ -28,5 +28,5 @@ The acoustic results apply to the recorded pairs and study site, not all populat
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page joins a taxonomic description with a later site-specific acoustic study; neither provides a range-wide natural-history account. This page is not externally expert-reviewed.
+This page joins a taxonomic description with a later site-specific acoustic study; neither provides a range-wide natural-history account. This page is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys elongata
       zh: Boulenophrys elongata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

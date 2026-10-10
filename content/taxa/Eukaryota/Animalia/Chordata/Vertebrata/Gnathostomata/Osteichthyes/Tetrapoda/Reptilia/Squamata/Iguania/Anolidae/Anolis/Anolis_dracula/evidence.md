@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis dracula
       en: Anolis dracula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

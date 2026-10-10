@@ -9,7 +9,6 @@ records:
     name:
       zh: Diporiphora lalliae
       en: Diporiphora lalliae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

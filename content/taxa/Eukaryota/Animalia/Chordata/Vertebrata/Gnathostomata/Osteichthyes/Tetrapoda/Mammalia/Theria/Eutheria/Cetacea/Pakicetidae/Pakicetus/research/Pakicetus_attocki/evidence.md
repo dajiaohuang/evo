@@ -57,9 +57,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: thewissen-2001-pakicetid-skeletons concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: thewissen-2001-pakicetid-skeletons
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: thewissen-2001-pakicetid-skeletons concrete-locator audit at 2026.09-static-v5-rc85
       referenceLinks:
         - referenceId: thewissen-2001-pakicetid-skeletons
           relation: supports
@@ -99,9 +93,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: thewissen-2001-pakicetid-skeletons concrete-locator audit at 2026.09-static-v5-rc85
       referenceLinks:
         - referenceId: thewissen-2001-pakicetid-skeletons
           relation: supports
@@ -120,9 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: thewissen-2001-pakicetid-skeletons concrete-locator audit at 2026.09-static-v5-rc85
       referenceLinks:
         - referenceId: thewissen-2001-pakicetid-skeletons
           relation: supports
@@ -141,9 +129,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: thewissen-2001-pakicetid-skeletons concrete-locator audit at 2026.09-static-v5-rc85
       referenceLinks:
         - referenceId: thewissen-2001-pakicetid-skeletons
           relation: supports
@@ -196,7 +181,6 @@ records:
       referenceLocators:
         - referenceId: thewissen-2001-pakicetid-skeletons
           locator: pp. 277–281; Figures 1–4
-      reviewStatus: automated-audit-passed
 ---
 
 # Pakicetus attocki

@@ -9,7 +9,6 @@ records:
     name:
       zh: Heremites vittatus
       en: Heremites vittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

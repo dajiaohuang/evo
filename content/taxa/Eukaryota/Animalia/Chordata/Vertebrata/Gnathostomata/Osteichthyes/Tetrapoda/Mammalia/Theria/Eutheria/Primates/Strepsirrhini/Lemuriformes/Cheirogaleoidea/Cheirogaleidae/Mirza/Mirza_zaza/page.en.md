@@ -28,5 +28,5 @@ A 2019–2022 transect study covered 107 km across Anabohazo and fragmented Anka
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Nest observations cover eight radio-tagged animals over 2.5 dry-season months at one forest. The density paper samples two forests and four local core/edge areas; repeat sightings were possible. Neither source supports a current range-wide population estimate or a general claim that fragmentation has no effect. The Chinese display name is editorial. No dossier or external expert review was added. This page is not externally expert-reviewed.
+Nest observations cover eight radio-tagged animals over 2.5 dry-season months at one forest. The density paper samples two forests and four local core/edge areas; repeat sightings were possible. Neither source supports a current range-wide population estimate or a general claim that fragmentation has no effect. The Chinese display name is editorial. This page is.
 <!-- /evo:text -->

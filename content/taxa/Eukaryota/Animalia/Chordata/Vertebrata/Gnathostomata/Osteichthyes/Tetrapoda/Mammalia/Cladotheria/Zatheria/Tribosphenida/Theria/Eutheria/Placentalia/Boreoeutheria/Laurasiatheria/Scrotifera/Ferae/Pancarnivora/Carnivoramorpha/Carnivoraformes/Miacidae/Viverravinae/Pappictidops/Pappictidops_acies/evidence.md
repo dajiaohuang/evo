@@ -9,7 +9,6 @@ records:
     name:
       zh: Pappictidops acies
       en: Pappictidops acies
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

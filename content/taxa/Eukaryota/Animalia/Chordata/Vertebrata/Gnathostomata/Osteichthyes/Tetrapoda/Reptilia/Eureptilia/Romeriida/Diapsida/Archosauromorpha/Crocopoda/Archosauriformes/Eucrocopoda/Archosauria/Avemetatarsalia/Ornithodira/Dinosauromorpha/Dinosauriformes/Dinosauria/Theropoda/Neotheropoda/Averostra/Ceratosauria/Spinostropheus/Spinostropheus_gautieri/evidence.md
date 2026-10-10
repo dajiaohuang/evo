@@ -9,7 +9,6 @@ records:
     name:
       zh: Spinostropheus gautieri
       en: Spinostropheus gautieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

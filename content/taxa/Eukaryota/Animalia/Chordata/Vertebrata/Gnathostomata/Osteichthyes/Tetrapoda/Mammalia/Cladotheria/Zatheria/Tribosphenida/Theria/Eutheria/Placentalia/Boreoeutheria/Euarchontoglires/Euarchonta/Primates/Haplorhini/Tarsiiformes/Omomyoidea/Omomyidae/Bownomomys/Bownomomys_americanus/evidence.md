@@ -9,7 +9,6 @@ records:
     name:
       zh: Bownomomys americanus
       en: Bownomomys americanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

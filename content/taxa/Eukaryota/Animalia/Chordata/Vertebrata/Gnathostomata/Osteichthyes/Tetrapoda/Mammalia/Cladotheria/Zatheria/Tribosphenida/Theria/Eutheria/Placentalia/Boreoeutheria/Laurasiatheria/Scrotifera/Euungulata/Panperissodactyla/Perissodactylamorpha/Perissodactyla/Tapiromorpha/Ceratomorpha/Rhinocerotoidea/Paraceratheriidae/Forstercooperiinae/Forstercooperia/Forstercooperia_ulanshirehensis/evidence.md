@@ -9,7 +9,6 @@ records:
     name:
       zh: Forstercooperia ulanshirehensis
       en: Forstercooperia ulanshirehensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

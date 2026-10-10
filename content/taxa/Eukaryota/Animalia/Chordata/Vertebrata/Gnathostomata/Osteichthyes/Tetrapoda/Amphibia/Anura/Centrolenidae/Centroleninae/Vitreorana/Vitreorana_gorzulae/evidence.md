@@ -9,7 +9,6 @@ records:
     name:
       en: Vitreorana gorzulae
       zh: Vitreorana gorzulae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Colleeneremia electrica
       zh: Colleeneremia electrica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Actiocyon parverratis
       en: Actiocyon parverratis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

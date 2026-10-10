@@ -9,7 +9,6 @@ records:
     name:
       zh: Borhyaenidium musteloides
       en: Borhyaenidium musteloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

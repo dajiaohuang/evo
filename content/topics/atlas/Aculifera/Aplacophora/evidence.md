@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: kocot-2019-aplacophora
       referenceLinks:
         - referenceId: kocot-2019-aplacophora
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: kocot-2019-aplacophora
           locator: Article 20190115; taxon sampling and matrices; Figures 1–4
-      reviewStatus: automated-audit-passed
 ---
 
 # Aplacophora

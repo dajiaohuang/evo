@@ -9,7 +9,6 @@ records:
     name:
       zh: Gryposuchus jessei
       en: Gryposuchus jessei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Philautus everetti
       zh: Philautus everetti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

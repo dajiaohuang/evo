@@ -9,7 +9,6 @@ records:
     name:
       zh: Allomys nitens
       en: Allomys nitens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

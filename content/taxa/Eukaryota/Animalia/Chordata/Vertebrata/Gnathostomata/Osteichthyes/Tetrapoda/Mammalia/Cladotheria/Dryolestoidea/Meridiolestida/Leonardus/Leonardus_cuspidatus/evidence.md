@@ -9,7 +9,6 @@ records:
     name:
       zh: Leonardus cuspidatus
       en: Leonardus cuspidatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

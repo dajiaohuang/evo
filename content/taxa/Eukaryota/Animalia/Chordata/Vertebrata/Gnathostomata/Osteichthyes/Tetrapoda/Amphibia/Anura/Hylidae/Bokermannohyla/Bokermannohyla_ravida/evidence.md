@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla ravida
       zh: Bokermannohyla ravida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

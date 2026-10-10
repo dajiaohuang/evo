@@ -9,7 +9,6 @@ records:
     name:
       zh: Globicetus hiberus
       en: Globicetus hiberus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

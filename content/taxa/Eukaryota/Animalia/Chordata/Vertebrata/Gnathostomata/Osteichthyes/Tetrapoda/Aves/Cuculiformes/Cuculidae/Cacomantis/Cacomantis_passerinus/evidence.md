@@ -9,7 +9,6 @@ records:
     name:
       zh: Cacomantis passerinus
       en: Cacomantis passerinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

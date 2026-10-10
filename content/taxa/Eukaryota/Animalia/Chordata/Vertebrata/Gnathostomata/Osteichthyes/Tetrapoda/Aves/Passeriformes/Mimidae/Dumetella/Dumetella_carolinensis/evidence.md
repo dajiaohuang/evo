@@ -9,7 +9,6 @@ records:
     name:
       zh: Dumetella carolinensis
       en: Dumetella carolinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

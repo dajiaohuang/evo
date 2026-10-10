@@ -22,5 +22,5 @@ Garbino、Silva 与 Davis 以历史名称 Callibella humilis 报告两条新记�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-这是有来源的入门页，尚未经过外部领域专家评审。本页依 COL26.8 使用 Mico humilis，野外论文使用 Callibella humilis。MDD 将 Callibella 记为亚属，并记录了不同的属级处理。分布陈述来自两条记录，不是当前完整分布评估。
+这是有来源的入门页。本页依 COL26.8 使用 Mico humilis，野外论文使用 Callibella humilis。MDD 将 Callibella 记为亚属，并记录了不同的属级处理。分布陈述来自两条记录，不是当前完整分布评估。
 <!-- /evo:text -->

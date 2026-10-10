@@ -9,7 +9,6 @@ records:
     name:
       zh: Caementodon (Caementodon)
       en: Caementodon (Caementodon)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

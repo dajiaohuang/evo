@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligodon mcdougalli
       en: Oligodon mcdougalli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

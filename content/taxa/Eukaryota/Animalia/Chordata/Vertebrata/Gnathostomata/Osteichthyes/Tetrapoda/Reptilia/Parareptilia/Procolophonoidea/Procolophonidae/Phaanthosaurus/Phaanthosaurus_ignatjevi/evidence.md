@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaanthosaurus ignatjevi
       en: Phaanthosaurus ignatjevi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Catopithecus browni
       en: Catopithecus browni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

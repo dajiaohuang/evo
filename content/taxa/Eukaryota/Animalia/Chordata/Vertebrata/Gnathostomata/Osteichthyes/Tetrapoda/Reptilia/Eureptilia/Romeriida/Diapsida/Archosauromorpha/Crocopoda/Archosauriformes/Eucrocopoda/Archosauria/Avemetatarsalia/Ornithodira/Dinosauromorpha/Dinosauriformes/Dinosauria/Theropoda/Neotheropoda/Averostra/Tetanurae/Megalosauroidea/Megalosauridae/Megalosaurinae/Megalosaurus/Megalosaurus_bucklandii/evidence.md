@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalosaurus bucklandii
       en: Megalosaurus bucklandii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

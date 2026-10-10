@@ -9,7 +9,6 @@ records:
     name:
       en: Austrochaperina septentrionalis
       zh: Austrochaperina septentrionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

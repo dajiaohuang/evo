@@ -9,7 +9,6 @@ records:
     name:
       en: Rhyacotriton variegatus
       zh: Rhyacotriton variegatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus nitidus
       en: Liolaemus nitidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

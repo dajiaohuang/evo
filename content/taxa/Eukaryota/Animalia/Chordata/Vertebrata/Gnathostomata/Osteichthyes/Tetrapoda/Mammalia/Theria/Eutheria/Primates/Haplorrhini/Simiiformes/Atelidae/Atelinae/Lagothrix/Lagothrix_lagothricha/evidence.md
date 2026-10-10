@@ -9,7 +9,6 @@ records:
     name:
       zh: 洪堡绒毛猴
       en: Humboldt's Woolly Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

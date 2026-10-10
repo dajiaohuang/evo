@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis brevirostris
       zh: Leptopelis brevirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

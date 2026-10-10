@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: jiang-2016-ginkgoxylon primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: jiang-2016-ginkgoxylon
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: jiang-2016-ginkgoxylon primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: jiang-2016-ginkgoxylon
           relation: supports
@@ -97,9 +91,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: jiang-2016-ginkgoxylon primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: jiang-2016-ginkgoxylon
           relation: supports
@@ -116,9 +107,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: jiang-2016-ginkgoxylon primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: jiang-2016-ginkgoxylon
           relation: supports
@@ -135,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: jiang-2016-ginkgoxylon locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: jiang-2016-ginkgoxylon
@@ -189,7 +174,6 @@ records:
       referenceLocators:
         - referenceId: jiang-2016-ginkgoxylon
           locator: Article 38191, pp. 1–8; Figures 1–3; 153–165 Ma Tiaojishan age and systematic palaeontology
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

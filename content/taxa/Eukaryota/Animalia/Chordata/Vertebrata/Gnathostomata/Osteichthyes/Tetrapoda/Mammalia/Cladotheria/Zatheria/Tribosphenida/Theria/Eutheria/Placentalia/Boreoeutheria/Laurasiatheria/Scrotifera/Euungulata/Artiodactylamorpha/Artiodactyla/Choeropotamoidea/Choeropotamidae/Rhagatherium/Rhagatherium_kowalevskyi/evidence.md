@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhagatherium kowalevskyi
       en: Rhagatherium kowalevskyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

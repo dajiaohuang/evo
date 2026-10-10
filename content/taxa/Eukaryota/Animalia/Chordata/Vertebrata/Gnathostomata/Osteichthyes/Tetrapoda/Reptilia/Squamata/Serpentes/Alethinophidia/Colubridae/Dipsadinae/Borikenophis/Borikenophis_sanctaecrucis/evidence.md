@@ -9,7 +9,6 @@ records:
     name:
       zh: Borikenophis sanctaecrucis
       en: Borikenophis sanctaecrucis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

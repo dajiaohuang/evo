@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrosphenus flavicans
       en: Macrosphenus flavicans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

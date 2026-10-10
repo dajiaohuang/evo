@@ -9,7 +9,6 @@ records:
     name:
       zh: Onychonycteris finneyi
       en: Onychonycteris finneyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

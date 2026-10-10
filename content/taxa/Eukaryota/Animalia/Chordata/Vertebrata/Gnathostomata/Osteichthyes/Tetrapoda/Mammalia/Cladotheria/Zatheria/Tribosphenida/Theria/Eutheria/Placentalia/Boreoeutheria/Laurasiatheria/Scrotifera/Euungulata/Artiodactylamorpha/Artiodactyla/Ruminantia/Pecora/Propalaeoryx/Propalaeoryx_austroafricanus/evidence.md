@@ -9,7 +9,6 @@ records:
     name:
       zh: Propalaeoryx austroafricanus
       en: Propalaeoryx austroafricanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

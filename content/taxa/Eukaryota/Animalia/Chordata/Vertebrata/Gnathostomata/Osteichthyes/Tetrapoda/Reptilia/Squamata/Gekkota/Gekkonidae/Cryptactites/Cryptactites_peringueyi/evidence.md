@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptactites peringueyi
       en: Cryptactites peringueyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Intellagama lesueurii
       en: Intellagama lesueurii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Enalioetes schroederi
       en: Enalioetes schroederi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

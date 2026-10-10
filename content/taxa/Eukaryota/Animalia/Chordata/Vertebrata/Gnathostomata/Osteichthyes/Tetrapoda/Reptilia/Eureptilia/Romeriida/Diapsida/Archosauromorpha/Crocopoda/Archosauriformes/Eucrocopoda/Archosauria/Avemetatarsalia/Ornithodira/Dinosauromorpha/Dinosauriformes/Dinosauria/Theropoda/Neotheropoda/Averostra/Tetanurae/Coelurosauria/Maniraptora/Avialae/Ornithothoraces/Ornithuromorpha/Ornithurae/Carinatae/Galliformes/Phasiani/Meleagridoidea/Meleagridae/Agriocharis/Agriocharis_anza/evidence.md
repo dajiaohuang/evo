@@ -9,7 +9,6 @@ records:
     name:
       zh: Agriocharis anza
       en: Agriocharis anza
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

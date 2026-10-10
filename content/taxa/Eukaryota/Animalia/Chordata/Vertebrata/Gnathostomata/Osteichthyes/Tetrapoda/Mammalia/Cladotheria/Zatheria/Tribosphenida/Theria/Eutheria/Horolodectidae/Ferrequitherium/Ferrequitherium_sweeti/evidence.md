@@ -9,7 +9,6 @@ records:
     name:
       zh: Ferrequitherium sweeti
       en: Ferrequitherium sweeti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

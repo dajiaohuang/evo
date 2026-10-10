@@ -9,7 +9,6 @@ records:
     name:
       zh: Claudiosaurus germaini
       en: Claudiosaurus germaini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

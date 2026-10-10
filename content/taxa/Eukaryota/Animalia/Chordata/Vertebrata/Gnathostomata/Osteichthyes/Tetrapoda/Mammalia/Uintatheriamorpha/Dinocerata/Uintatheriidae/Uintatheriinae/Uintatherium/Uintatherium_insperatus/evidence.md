@@ -9,7 +9,6 @@ records:
     name:
       zh: Uintatherium insperatus
       en: Uintatherium insperatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

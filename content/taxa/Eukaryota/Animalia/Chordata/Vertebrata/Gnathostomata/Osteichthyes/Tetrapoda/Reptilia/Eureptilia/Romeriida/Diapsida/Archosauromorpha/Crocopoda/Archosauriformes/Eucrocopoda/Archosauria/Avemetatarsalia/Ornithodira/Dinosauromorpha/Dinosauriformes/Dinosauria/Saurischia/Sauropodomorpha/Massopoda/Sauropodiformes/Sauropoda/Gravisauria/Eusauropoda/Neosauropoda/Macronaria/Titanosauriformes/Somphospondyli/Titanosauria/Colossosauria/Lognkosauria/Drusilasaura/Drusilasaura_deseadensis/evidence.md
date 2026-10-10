@@ -9,7 +9,6 @@ records:
     name:
       zh: Drusilasaura deseadensis
       en: Drusilasaura deseadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

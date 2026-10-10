@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ramagii
       zh: Pristimantis ramagii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tshotgoria shineusensis
       en: Tshotgoria shineusensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

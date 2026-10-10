@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrocolaptes picumnus
       en: Dendrocolaptes picumnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

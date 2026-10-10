@@ -9,7 +9,6 @@ records:
     name:
       zh: Echis omanensis
       en: Echis omanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

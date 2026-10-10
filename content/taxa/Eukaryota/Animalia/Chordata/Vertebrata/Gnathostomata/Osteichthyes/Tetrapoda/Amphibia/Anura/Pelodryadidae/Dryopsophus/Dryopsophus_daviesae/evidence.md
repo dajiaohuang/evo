@@ -9,7 +9,6 @@ records:
     name:
       en: Dryopsophus daviesae
       zh: Dryopsophus daviesae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

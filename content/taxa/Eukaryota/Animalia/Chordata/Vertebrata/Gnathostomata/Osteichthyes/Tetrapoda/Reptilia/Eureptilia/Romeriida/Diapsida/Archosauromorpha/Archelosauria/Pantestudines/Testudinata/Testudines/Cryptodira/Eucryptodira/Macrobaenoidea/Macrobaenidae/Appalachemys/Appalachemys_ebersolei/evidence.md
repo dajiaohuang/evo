@@ -9,7 +9,6 @@ records:
     name:
       zh: Appalachemys ebersolei
       en: Appalachemys ebersolei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

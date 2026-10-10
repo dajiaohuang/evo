@@ -9,7 +9,6 @@ records:
     name:
       zh: Vanbreenia trigonia
       en: Vanbreenia trigonia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

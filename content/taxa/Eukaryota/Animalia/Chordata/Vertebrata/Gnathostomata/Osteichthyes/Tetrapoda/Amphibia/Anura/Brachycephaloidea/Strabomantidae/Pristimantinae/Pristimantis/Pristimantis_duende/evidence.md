@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis duende
       zh: Pristimantis duende
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonatodes infernalis
       en: Gonatodes infernalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

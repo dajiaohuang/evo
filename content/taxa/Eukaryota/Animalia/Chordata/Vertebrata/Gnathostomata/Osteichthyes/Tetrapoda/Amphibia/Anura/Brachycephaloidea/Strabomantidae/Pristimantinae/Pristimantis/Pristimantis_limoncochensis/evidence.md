@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis limoncochensis
       zh: Pristimantis limoncochensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

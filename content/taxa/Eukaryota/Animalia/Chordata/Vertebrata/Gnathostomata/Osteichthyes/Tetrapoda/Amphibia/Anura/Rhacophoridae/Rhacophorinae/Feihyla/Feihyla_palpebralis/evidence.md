@@ -9,7 +9,6 @@ records:
     name:
       en: Feihyla palpebralis
       zh: Feihyla palpebralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

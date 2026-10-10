@@ -105,10 +105,8 @@ dossier.completeness = {
     'Ecology now includes one captive/wild-male playback experiment and one ten-site microhabitat field survey; neither establishes species-wide behavior or habitat use.',
     'Morphology, life history, evolution, distribution, fossil evidence and conservation remain unassessed; the selected sources are not a systematic review of the accepted COL26.8 concept.',
     'The field study reports root-count patterns at multiple analysis levels without a single monotonic direction; no population-wide habitat preference is inferred.',
-    'Independent external expert review has not been completed.',
   ],
 }
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
 assert.equal(dossier.facets.ecology.claims.length, target.facets.ecology.claims.length + 1)
 assert.ok(dossier.facets.ecology.claims.every(claim => claim.sourceIds?.every(id => dossier.sources.some(item => item.id === id))))

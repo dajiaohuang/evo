@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis rajabasa
       en: Cnemaspis rajabasa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

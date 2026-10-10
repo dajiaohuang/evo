@@ -9,7 +9,6 @@ records:
     name:
       zh: Delma tealei
       en: Delma tealei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys phyllostomus
       zh: Proceratophrys phyllostomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

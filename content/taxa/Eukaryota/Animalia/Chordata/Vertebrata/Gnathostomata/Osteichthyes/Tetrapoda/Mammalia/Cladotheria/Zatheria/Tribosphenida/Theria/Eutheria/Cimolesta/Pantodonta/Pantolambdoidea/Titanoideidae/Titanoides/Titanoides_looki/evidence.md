@@ -9,7 +9,6 @@ records:
     name:
       zh: Titanoides looki
       en: Titanoides looki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

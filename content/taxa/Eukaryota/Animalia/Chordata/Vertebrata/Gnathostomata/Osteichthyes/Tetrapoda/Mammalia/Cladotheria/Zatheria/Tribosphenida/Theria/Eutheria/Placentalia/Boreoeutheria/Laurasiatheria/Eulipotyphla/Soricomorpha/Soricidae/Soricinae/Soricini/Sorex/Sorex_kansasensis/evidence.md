@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex kansasensis
       en: Sorex kansasensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudotragus gentryi
       en: Pseudotragus gentryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

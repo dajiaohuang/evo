@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus congicus
       zh: Phrynobatrachus congicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Catopsbaatar catopsaloides
       en: Catopsbaatar catopsaloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

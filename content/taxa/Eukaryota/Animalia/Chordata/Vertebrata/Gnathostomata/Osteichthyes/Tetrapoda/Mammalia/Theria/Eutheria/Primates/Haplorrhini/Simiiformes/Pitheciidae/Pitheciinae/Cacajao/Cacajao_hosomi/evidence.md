@@ -9,7 +9,6 @@ records:
     name:
       zh: 内布利纳秃猴
       en: Neblina uakari
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

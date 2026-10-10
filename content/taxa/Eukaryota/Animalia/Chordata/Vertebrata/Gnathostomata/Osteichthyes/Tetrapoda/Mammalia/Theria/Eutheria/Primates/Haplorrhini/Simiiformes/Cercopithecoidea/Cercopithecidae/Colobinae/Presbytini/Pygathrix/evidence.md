@@ -9,7 +9,6 @@ records:
     name:
       zh: 白臀叶猴属
       en: Douc langurs
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

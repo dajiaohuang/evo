@@ -9,7 +9,6 @@ records:
     name:
       zh: Machaeroides simpsoni
       en: Machaeroides simpsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

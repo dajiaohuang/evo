@@ -9,7 +9,6 @@ records:
     name:
       zh: Prinia sylvatica
       en: Prinia sylvatica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

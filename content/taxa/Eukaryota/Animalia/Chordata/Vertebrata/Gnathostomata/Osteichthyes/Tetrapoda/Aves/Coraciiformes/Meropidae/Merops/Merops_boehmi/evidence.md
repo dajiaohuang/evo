@@ -9,7 +9,6 @@ records:
     name:
       zh: Merops boehmi
       en: Merops boehmi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

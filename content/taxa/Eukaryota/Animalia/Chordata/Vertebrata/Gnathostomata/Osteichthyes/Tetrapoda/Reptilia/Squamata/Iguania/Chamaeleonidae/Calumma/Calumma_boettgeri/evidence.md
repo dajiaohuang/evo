@@ -9,7 +9,6 @@ records:
     name:
       zh: Calumma boettgeri
       en: Calumma boettgeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

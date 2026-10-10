@@ -9,7 +9,6 @@ records:
     name:
       zh: Telescopus finkeldeyi
       en: Telescopus finkeldeyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

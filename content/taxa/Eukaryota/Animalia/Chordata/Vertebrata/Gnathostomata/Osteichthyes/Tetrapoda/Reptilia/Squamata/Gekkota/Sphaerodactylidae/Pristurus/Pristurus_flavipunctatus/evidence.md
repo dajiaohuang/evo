@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristurus flavipunctatus
       en: Pristurus flavipunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

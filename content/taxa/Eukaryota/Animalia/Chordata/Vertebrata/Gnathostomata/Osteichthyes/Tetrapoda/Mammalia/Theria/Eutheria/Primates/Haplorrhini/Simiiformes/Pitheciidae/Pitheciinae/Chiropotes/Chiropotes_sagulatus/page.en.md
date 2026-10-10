@@ -34,5 +34,5 @@ A 2023 study followed one group in an isolated 13-ha forest remnant at Brazil’
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This source-linked introductory guide draws on studies from Guyana and one unusually small Brazilian forest remnant. Local diet, grouping, activity, and movement evidence does not establish species-wide averages, a complete range account, population size, or trend. MDD taxonomic notes are version-specific; COL26.8 ID 5Y6L6 fixes this page identity. The Chinese display name is editorial. No dossier or external expert review was added. This page is not externally expert-reviewed.
+This source-linked introductory guide draws on studies from Guyana and one unusually small Brazilian forest remnant. Local diet, grouping, activity, and movement evidence does not establish species-wide averages, a complete range account, population size, or trend. MDD taxonomic notes are version-specific; COL26.8 ID 5Y6L6 fixes this page identity. The Chinese display name is editorial. This page is.
 <!-- /evo:text -->

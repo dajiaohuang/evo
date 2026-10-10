@@ -9,7 +9,6 @@ records:
     name:
       zh: Myadestes melanops
       en: Myadestes melanops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

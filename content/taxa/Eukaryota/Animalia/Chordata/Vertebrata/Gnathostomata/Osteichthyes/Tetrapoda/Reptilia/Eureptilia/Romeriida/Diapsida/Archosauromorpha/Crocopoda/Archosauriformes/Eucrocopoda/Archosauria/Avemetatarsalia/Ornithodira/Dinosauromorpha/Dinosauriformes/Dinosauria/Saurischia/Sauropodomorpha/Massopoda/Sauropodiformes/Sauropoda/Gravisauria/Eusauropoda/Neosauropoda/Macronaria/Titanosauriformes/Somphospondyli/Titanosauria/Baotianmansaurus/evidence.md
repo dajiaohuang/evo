@@ -9,7 +9,6 @@ records:
     name:
       zh: Baotianmansaurus
       en: Baotianmansaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyphalosaurus baitaigouensis
       en: Hyphalosaurus baitaigouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Microcaecilia rabei
       zh: Microcaecilia rabei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

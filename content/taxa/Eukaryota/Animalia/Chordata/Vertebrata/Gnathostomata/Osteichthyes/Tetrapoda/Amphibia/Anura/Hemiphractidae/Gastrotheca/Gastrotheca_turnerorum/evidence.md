@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca turnerorum
       zh: Gastrotheca turnerorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

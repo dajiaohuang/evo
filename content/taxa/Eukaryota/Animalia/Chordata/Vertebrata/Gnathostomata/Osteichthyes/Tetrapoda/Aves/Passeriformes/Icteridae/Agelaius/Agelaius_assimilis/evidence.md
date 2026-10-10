@@ -9,7 +9,6 @@ records:
     name:
       zh: Agelaius assimilis
       en: Agelaius assimilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coereba flaveola
       en: Coereba flaveola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

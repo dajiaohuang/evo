@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura brachyrhyncha
       en: Rhipidura brachyrhyncha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

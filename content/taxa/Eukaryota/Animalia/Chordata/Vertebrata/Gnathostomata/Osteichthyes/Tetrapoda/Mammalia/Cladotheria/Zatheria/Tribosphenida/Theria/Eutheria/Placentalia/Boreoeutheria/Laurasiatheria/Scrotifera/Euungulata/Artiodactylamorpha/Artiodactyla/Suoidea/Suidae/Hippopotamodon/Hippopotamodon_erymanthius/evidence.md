@@ -9,7 +9,6 @@ records:
     name:
       zh: Hippopotamodon erymanthius
       en: Hippopotamodon erymanthius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

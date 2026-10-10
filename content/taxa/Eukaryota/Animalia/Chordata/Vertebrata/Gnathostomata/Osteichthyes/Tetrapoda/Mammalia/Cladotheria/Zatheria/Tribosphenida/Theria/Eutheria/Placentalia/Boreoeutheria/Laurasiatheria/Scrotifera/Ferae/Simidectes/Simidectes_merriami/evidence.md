@@ -9,7 +9,6 @@ records:
     name:
       zh: Simidectes merriami
       en: Simidectes merriami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

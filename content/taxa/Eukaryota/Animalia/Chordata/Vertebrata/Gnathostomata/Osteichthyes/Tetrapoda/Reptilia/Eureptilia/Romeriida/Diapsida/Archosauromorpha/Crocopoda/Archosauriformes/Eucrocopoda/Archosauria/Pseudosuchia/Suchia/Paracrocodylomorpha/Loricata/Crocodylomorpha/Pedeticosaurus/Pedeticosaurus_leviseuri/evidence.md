@@ -9,7 +9,6 @@ records:
     name:
       zh: Pedeticosaurus leviseuri
       en: Pedeticosaurus leviseuri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -7,17 +7,15 @@ describe('targeted PBDB query helpers', () => {
       resolutionStatus: 'resolved',
       pbdbId: 'txn:39240',
       acceptedName: 'Archaeopteryx',
-      conceptReviewStatus: 'needs-concept-review',
-      automatedRecommendation: 'needs-concept-review',
-    })).toEqual({ eligible: false, reason: 'needs-concept-review' })
+      parentRelationshipKind: 'taxonomic-parent',
+      lineageCompatibility: 'incompatible',
+    })).toEqual({ eligible: false, reason: 'incompatible-lineage' })
     expect(queryEligibility({
       resolutionStatus: 'resolved',
       pbdbId: 'txn:36616',
       acceptedName: 'Aves',
       parentRelationshipKind: 'taxonomic-parent',
       lineageCompatibility: 'compatible-ancestor-chain',
-      conceptReviewStatus: 'compatible',
-      automatedRecommendation: 'accept-external-mapping',
     })).toEqual({ eligible: true, reason: 'resolution-ledger-accepted-mapping' })
   })
 
@@ -29,8 +27,6 @@ describe('targeted PBDB query helpers', () => {
       acceptedName: 'Exampletaxon',
       parentRelationshipKind: 'taxonomic-parent',
       lineageCompatibility: 'indeterminate',
-      conceptReviewStatus: 'unresolved-lineage',
-      automatedRecommendation: 'accept-external-mapping',
     })).toEqual({ eligible: false, reason: 'lineage-not-verified' })
   })
 

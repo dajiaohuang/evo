@@ -9,7 +9,6 @@ records:
     name:
       zh: Perulestes cardichi
       en: Perulestes cardichi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

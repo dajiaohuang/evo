@@ -9,7 +9,6 @@ records:
     name:
       zh: Protophiomys durattalahensis
       en: Protophiomys durattalahensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

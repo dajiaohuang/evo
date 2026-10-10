@@ -9,7 +9,6 @@ records:
     name:
       zh: Kobus leche
       en: Kobus leche
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

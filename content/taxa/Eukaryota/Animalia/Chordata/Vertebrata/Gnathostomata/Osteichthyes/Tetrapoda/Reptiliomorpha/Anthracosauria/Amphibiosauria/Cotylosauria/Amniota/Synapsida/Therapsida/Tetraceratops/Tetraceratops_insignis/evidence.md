@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetraceratops insignis
       en: Tetraceratops insignis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

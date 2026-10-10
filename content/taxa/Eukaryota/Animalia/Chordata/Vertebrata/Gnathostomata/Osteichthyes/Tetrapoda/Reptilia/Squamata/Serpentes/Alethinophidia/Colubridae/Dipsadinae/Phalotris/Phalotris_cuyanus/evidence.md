@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalotris cuyanus
       en: Phalotris cuyanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

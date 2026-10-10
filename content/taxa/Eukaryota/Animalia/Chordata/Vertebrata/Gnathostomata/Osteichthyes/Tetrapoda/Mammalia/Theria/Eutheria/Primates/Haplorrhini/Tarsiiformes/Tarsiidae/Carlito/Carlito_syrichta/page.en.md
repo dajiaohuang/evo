@@ -22,5 +22,5 @@ Around five tarsier sighting sites at Mt. Bontoc, researchers measured 612 woody
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Evidence comes from a short study of one forest fragment on Leyte; individual counts could not be confirmed, viability is unknown, and findings do not generalize across the species' range.
+Source-linked introduction;. Evidence comes from a short study of one forest fragment on Leyte; individual counts could not be confirmed, viability is unknown, and findings do not generalize across the species' range.
 <!-- /evo:text -->

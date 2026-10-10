@@ -9,7 +9,6 @@ records:
     name:
       zh: Oriolus mellianus
       en: Oriolus mellianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

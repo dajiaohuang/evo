@@ -9,7 +9,6 @@ records:
     name:
       zh: Oromycter dolesorum
       en: Oromycter dolesorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Langaha alluaudi
       en: Langaha alluaudi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

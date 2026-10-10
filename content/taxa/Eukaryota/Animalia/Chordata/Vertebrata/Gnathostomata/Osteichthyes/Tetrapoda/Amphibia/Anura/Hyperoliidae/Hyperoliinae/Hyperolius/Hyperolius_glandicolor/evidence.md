@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius glandicolor
       zh: Hyperolius glandicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Matanomictis maniyarensis
       en: Matanomictis maniyarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

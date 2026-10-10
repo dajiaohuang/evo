@@ -9,7 +9,6 @@ records:
     name:
       zh: Anabazenops fuscus
       en: Anabazenops fuscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

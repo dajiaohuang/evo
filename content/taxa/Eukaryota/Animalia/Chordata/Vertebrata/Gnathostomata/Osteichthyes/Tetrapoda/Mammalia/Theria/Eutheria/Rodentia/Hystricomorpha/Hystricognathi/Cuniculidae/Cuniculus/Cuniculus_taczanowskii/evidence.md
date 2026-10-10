@@ -9,7 +9,6 @@ records:
     name:
       zh: Cuniculus taczanowskii
       en: Cuniculus taczanowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

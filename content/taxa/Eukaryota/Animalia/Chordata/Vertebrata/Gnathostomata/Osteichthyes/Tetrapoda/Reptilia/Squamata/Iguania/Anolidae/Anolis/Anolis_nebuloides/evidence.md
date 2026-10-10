@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis nebuloides
       en: Anolis nebuloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

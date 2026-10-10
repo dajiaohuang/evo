@@ -9,7 +9,6 @@ records:
     name:
       zh: Arizona voorhiesi
       en: Arizona voorhiesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidoscelis rodecki
       en: Aspidoscelis rodecki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

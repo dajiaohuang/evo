@@ -9,7 +9,6 @@ records:
     name:
       zh: Oldfieldthomasia anfractuosa
       en: Oldfieldthomasia anfractuosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

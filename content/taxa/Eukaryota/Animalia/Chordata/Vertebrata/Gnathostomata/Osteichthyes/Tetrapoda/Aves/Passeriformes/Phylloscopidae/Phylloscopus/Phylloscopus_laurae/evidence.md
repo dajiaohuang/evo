@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus laurae
       en: Phylloscopus laurae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

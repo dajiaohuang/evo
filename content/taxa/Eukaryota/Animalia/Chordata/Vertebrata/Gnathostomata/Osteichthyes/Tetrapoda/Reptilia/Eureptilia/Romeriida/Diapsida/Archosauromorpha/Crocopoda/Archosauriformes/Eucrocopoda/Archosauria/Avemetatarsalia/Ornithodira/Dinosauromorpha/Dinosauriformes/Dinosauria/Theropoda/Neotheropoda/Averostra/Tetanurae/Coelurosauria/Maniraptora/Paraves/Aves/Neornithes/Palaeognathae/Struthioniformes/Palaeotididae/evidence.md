@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeotididae
       en: Palaeotididae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

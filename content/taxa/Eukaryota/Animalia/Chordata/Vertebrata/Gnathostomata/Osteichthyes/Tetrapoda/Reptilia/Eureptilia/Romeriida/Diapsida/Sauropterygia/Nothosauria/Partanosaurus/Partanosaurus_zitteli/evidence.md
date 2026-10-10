@@ -9,7 +9,6 @@ records:
     name:
       zh: Partanosaurus zitteli
       en: Partanosaurus zitteli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

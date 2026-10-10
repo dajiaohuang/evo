@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla miahuatlanensis
       zh: Sarcohyla miahuatlanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Flexiseps andranovahensis
       en: Flexiseps andranovahensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

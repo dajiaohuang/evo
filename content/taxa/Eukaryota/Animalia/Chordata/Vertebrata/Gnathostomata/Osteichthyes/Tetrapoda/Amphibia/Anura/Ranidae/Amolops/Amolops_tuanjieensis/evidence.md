@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops tuanjieensis
       zh: Amolops tuanjieensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

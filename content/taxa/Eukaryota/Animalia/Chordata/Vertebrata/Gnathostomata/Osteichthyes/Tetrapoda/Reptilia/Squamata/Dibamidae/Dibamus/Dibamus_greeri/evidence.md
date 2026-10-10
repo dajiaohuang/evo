@@ -9,7 +9,6 @@ records:
     name:
       zh: Dibamus greeri
       en: Dibamus greeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

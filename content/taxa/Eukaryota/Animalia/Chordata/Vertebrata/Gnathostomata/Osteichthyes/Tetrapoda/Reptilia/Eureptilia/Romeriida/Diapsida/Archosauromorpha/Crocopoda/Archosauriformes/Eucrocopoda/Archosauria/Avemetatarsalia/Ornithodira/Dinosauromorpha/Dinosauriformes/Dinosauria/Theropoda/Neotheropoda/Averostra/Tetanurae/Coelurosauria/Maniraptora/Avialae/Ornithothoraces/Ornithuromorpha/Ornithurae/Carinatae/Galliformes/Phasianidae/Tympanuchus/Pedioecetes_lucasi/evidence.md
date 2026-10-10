@@ -9,7 +9,6 @@ records:
     name:
       zh: Pedioecetes lucasi
       en: Pedioecetes lucasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

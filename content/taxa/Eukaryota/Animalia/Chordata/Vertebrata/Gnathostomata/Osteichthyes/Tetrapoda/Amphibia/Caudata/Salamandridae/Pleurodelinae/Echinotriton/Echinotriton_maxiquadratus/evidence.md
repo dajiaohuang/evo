@@ -9,7 +9,6 @@ records:
     name:
       en: Echinotriton maxiquadratus
       zh: Echinotriton maxiquadratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

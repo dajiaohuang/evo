@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptodelphis
       en: Leptodelphis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus cardamomensis
       en: Cyrtodactylus cardamomensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brotomys voratus
       en: Brotomys voratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

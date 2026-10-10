@@ -9,7 +9,6 @@ records:
     name:
       zh: Lartetomys mirabilis
       en: Lartetomys mirabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

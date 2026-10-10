@@ -9,7 +9,6 @@ records:
     name:
       en: Boana steinbachi
       zh: Boana steinbachi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

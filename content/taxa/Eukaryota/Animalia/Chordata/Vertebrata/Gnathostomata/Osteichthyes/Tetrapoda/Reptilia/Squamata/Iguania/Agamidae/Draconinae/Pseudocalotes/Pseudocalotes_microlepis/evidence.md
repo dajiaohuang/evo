@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocalotes microlepis
       en: Pseudocalotes microlepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

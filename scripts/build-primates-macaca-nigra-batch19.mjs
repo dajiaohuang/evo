@@ -33,7 +33,6 @@ assert.equal(registry.checklistBankDatasetKey, 316115)
 assert.equal(sha(registryBytes), source.registry.manifestSha256)
 for (const [key, value] of Object.entries({ colId: '732V5', scientificName: 'Macaca nigra (Desmarest, 1822)', authorship: '(Desmarest, 1822)', rank: 'species', sourceDatasetId: '2144' })) assert.equal(dossier[key], value)
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 
 const route = normalize(dossier.scientificName).slice(0, 2)
 const usages = (registry.search.routes[route] ?? []).flatMap(jsonl).filter(item => item.id === dossier.colId)

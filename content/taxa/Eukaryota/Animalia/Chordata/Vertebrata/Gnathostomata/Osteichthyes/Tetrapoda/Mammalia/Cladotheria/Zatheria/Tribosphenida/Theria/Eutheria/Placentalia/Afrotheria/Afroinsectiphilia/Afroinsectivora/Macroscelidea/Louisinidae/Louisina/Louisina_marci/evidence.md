@@ -9,7 +9,6 @@ records:
     name:
       zh: Louisina marci
       en: Louisina marci
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

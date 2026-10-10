@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyprimus galadrielae
       en: Oxyprimus galadrielae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

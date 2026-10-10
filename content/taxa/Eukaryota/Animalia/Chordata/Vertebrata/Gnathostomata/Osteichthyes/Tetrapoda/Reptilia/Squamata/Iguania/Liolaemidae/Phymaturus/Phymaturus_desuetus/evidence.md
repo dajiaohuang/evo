@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus desuetus
       en: Phymaturus desuetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

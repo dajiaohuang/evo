@@ -9,7 +9,6 @@ records:
     name:
       zh: Pitta brachyura
       en: Pitta brachyura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Potamites montanicola
       en: Potamites montanicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hukoutherium ambigum
       en: Hukoutherium ambigum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

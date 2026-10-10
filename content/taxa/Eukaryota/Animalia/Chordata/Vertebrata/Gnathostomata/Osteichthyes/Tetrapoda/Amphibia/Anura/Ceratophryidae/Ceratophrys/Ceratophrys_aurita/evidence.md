@@ -9,7 +9,6 @@ records:
     name:
       en: Ceratophrys aurita
       zh: Ceratophrys aurita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

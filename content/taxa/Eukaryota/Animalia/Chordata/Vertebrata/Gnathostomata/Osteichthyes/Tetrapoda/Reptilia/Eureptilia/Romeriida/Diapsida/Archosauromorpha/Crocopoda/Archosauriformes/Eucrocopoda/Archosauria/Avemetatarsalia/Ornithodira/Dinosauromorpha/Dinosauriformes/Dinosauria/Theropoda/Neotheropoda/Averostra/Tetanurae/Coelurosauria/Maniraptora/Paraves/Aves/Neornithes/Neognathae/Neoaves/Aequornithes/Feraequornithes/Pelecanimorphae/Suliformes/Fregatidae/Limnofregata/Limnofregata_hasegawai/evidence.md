@@ -9,7 +9,6 @@ records:
     name:
       zh: Limnofregata hasegawai
       en: Limnofregata hasegawai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

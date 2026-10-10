@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodroma jugabilis
       en: Pterodroma jugabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

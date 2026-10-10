@@ -9,7 +9,6 @@ records:
     name:
       zh: Shuangmiaosaurus gilmorei
       en: Shuangmiaosaurus gilmorei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

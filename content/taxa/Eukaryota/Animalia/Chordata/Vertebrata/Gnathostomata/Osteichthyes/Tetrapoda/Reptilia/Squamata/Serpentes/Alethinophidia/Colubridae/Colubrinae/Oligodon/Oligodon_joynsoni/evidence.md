@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligodon joynsoni
       en: Oligodon joynsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

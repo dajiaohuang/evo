@@ -9,7 +9,6 @@ records:
     name:
       zh: Piprites griseiceps
       en: Piprites griseiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

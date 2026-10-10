@@ -9,7 +9,6 @@ records:
     name:
       zh: Dineobellator notohesperus
       en: Dineobellator notohesperus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: morphology

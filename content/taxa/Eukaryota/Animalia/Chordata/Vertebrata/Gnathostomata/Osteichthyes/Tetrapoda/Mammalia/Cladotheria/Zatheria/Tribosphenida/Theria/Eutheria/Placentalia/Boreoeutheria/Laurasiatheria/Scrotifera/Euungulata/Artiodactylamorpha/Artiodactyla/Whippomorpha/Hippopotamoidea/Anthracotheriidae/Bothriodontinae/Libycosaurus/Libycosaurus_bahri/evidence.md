@@ -9,7 +9,6 @@ records:
     name:
       zh: Libycosaurus bahri
       en: Libycosaurus bahri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

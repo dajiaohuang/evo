@@ -9,7 +9,6 @@ records:
     name:
       zh: Fissuravis weigelti
       en: Fissuravis weigelti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

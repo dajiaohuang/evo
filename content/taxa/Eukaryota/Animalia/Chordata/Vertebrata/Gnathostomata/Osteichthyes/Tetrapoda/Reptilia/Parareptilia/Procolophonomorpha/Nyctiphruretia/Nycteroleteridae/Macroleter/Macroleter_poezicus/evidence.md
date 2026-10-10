@@ -9,7 +9,6 @@ records:
     name:
       zh: Macroleter poezicus
       en: Macroleter poezicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

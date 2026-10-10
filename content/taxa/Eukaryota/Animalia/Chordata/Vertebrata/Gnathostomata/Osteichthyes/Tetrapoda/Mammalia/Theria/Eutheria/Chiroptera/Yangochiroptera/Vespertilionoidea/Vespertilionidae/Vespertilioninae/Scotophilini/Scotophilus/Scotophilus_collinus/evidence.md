@@ -9,7 +9,6 @@ records:
     name:
       zh: Scotophilus collinus
       en: Scotophilus collinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

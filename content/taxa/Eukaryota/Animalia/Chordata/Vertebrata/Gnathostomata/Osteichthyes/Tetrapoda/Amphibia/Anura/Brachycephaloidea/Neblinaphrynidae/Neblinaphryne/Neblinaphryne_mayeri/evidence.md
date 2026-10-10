@@ -9,7 +9,6 @@ records:
     name:
       en: Neblinaphryne mayeri
       zh: Neblinaphryne mayeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

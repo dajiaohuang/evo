@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerontoseps irvinensis
       en: Gerontoseps irvinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

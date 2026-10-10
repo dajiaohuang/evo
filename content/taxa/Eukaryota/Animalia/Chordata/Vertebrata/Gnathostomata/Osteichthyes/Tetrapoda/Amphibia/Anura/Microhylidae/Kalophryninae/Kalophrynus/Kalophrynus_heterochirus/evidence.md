@@ -9,7 +9,6 @@ records:
     name:
       en: Kalophrynus heterochirus
       zh: Kalophrynus heterochirus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

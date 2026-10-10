@@ -9,7 +9,6 @@ records:
     name:
       zh: Conopsis megalodon
       en: Conopsis megalodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

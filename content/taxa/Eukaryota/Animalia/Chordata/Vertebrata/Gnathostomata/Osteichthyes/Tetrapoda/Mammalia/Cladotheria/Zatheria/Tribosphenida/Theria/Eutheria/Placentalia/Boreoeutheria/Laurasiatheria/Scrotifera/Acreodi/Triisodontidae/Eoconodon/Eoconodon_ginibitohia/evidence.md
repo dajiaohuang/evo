@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoconodon ginibitohia
       en: Eoconodon ginibitohia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

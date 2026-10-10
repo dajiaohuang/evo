@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon japonicus
       en: Plestiodon japonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

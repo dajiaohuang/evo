@@ -9,7 +9,6 @@ records:
     name:
       zh: Centrosaura apodema
       en: Centrosaura apodema
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachoseps aridus
       zh: Batrachoseps aridus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

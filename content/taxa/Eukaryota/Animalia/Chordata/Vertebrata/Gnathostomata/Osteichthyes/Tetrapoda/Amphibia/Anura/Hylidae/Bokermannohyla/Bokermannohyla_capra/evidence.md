@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla capra
       zh: Bokermannohyla capra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

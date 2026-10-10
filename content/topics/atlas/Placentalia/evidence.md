@@ -26,11 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: murphy-2001-placental-bayesian
           relation: supports
@@ -73,7 +68,6 @@ records:
           locator: pp. 2348–2351; Figures 1–2; molecular divergence estimates
         - referenceId: oleary-2013-placental-ancestor-model
           locator: pp. 662–667; Figures 1–2; Table 1; Tables S1–S8
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

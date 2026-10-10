@@ -9,7 +9,6 @@ records:
     name:
       zh: Pluvialis apricaria
       en: Pluvialis apricaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

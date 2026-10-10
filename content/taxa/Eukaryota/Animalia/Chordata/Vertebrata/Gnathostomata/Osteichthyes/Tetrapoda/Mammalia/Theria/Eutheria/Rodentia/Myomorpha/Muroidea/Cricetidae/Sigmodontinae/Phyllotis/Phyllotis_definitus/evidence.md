@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllotis definitus
       en: Phyllotis definitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

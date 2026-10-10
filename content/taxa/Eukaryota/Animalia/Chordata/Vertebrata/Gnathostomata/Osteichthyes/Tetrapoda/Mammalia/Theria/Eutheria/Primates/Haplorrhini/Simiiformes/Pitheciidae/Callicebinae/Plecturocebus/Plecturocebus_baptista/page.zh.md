@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-单一记录不能界定全种范围；连续毛色变化及分类边界仍需更多标本、样本和系统发育证据。尚未经过外部领域专家评审。
+单一记录不能界定全种范围；连续毛色变化及分类边界仍需更多标本、样本和系统发育证据。。
 <!-- /evo:text -->

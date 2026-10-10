@@ -9,7 +9,6 @@ records:
     name:
       zh: Motacilla citreola
       en: Motacilla citreola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

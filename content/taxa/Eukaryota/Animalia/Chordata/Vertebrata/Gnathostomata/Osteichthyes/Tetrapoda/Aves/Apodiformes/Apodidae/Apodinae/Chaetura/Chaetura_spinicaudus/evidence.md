@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaetura spinicaudus
       en: Chaetura spinicaudus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

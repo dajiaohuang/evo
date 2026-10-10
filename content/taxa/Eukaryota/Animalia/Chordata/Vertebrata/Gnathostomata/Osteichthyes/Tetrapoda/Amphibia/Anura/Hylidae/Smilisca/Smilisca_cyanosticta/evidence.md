@@ -9,7 +9,6 @@ records:
     name:
       en: Smilisca cyanosticta
       zh: Smilisca cyanosticta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

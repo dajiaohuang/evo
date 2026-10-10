@@ -9,7 +9,6 @@ records:
     name:
       zh: Podiceps andinus
       en: Podiceps andinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

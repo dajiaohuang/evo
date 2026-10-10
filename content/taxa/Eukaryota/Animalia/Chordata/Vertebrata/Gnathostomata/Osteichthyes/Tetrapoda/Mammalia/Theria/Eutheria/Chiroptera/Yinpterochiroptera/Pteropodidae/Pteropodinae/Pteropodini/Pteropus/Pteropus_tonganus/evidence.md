@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus tonganus
       en: Pteropus tonganus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

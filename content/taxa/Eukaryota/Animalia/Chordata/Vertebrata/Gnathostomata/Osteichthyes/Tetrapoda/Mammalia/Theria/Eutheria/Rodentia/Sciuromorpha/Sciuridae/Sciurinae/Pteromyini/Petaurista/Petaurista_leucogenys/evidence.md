@@ -9,7 +9,6 @@ records:
     name:
       zh: Petaurista leucogenys
       en: Petaurista leucogenys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

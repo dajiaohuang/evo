@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops aniqiaoensis
       zh: Amolops aniqiaoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

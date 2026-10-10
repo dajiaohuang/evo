@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracryptotis gidleyi
       en: Paracryptotis gidleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

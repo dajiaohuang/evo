@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo horsfieldii
       en: Testudo horsfieldii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

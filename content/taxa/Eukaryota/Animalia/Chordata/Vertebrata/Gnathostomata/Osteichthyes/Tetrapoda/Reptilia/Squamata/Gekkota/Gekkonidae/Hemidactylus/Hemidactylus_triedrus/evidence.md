@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus triedrus
       en: Hemidactylus triedrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

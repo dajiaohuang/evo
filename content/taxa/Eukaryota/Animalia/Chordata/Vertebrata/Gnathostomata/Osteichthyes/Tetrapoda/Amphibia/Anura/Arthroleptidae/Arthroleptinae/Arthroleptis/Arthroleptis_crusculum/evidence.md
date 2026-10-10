@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptis crusculum
       zh: Arthroleptis crusculum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

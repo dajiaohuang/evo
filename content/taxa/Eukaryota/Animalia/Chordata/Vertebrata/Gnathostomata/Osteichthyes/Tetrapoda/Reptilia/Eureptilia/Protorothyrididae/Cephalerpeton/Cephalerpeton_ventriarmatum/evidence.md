@@ -9,7 +9,6 @@ records:
     name:
       zh: Cephalerpeton ventriarmatum
       en: Cephalerpeton ventriarmatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

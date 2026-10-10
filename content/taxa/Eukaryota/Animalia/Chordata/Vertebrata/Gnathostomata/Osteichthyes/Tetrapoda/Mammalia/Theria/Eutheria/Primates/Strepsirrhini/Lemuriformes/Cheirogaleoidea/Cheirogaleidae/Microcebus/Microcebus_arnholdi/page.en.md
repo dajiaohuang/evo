@@ -28,5 +28,5 @@ The MDD page also lists Arnhold's Mouse Lemur as an English common name. This pa
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This account is limited to the 2008 northern revision, type material and locality names; it does not provide a current full range, population trend, ecological or conservation assessment. The Chinese name is editorial and the page has not received external expert review. The page is not externally expert-reviewed.
+This account is limited to the 2008 northern revision, type material and locality names; it does not provide a current full range, population trend, ecological or conservation assessment. The Chinese name is editorial. The page is.
 <!-- /evo:text -->

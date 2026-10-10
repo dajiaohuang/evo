@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemidophorus murinus
       en: Cnemidophorus murinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

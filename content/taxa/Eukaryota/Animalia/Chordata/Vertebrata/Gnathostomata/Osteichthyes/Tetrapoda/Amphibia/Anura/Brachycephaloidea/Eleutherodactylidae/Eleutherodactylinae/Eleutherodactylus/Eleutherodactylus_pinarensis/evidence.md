@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus pinarensis
       zh: Eleutherodactylus pinarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

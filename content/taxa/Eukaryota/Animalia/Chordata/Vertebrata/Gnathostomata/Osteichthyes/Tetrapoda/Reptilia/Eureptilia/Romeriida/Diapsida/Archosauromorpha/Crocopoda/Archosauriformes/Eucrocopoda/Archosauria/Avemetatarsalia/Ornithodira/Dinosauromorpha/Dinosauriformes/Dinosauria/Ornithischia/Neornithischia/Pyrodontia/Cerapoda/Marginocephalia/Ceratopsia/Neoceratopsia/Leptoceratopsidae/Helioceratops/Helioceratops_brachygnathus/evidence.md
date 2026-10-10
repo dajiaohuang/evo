@@ -9,7 +9,6 @@ records:
     name:
       zh: Helioceratops brachygnathus
       en: Helioceratops brachygnathus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

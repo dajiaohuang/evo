@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptides yakusini
       zh: Arthroleptides yakusini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

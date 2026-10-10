@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidomys leucodactylus
       en: Rhipidomys leucodactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

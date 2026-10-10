@@ -9,7 +9,6 @@ records:
     name:
       en: Hemisus olivaceus
       zh: Hemisus olivaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

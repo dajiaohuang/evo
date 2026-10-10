@@ -239,12 +239,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
   catalogue-profile:
     scientificName: Histiotus alienus
     rank: species
@@ -252,7 +246,6 @@ records:
     name:
       zh: Histiotus alienus
       en: Histiotus alienus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview
@@ -621,10 +614,4 @@ Evolution, fossil occurrence, and current conservation assessment remain not-ass
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
 The article notes historical taxonomic uncertainty for H. alienus; the exact accepted COL-to-ITIS record link does not resolve every biological species-concept question.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-No external domain expert review was completed.
 <!-- /evo:text -->

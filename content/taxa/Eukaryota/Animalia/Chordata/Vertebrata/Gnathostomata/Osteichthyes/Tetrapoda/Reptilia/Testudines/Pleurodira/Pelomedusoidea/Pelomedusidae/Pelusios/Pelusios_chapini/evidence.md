@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelusios chapini
       en: Pelusios chapini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetracheilostoma bilineatum
       en: Tetracheilostoma bilineatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

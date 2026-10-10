@@ -9,7 +9,6 @@ records:
     name:
       zh: Iranotherium
       en: Iranotherium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

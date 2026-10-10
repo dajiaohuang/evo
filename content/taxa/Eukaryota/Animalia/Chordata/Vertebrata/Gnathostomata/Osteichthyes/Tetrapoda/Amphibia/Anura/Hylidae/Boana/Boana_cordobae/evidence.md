@@ -9,7 +9,6 @@ records:
     name:
       en: Boana cordobae
       zh: Boana cordobae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

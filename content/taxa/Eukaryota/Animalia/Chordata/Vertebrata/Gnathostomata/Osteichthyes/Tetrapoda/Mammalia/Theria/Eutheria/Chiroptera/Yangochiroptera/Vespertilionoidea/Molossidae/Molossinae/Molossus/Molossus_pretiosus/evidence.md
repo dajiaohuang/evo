@@ -9,7 +9,6 @@ records:
     name:
       zh: Molossus pretiosus
       en: Molossus pretiosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

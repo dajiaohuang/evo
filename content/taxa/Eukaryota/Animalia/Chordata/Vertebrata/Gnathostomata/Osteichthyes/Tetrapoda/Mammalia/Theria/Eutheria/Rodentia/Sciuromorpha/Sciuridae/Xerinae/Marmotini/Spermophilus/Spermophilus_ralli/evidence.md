@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophilus ralli
       en: Spermophilus ralli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

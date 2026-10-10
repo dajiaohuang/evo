@@ -9,7 +9,6 @@ records:
     name:
       zh: Nalameryx
       en: Nalameryx
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eternauta patagonica
       en: Eternauta patagonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

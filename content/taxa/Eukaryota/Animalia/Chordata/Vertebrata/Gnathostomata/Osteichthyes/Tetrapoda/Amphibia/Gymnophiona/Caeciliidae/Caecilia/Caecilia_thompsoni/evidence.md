@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia thompsoni
       zh: Caecilia thompsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

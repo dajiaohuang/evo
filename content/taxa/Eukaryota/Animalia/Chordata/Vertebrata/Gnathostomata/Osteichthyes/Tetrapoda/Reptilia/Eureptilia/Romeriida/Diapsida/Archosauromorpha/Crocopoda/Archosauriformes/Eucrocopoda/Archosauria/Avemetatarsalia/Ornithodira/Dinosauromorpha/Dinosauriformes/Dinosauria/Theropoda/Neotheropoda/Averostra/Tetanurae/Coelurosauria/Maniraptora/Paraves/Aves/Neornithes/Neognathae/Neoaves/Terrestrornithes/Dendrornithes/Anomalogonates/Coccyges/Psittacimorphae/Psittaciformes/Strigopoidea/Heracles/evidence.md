@@ -9,7 +9,6 @@ records:
     name:
       zh: Heracles
       en: Heracles
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

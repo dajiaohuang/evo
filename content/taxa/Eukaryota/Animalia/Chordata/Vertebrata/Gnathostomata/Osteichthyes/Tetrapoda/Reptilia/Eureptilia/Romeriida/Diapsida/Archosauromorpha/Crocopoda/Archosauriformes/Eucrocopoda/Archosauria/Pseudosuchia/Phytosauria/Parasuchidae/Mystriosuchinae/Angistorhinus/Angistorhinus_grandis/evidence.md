@@ -9,7 +9,6 @@ records:
     name:
       zh: Angistorhinus grandis
       en: Angistorhinus grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Axis porcinus
       en: Axis porcinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

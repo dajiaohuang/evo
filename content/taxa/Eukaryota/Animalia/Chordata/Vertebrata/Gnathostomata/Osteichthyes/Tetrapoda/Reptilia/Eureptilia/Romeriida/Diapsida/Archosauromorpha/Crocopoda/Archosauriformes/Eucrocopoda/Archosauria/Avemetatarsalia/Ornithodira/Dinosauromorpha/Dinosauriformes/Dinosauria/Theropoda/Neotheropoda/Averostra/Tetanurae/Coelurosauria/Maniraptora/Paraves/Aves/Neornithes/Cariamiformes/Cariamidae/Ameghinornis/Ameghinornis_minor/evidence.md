@@ -9,7 +9,6 @@ records:
     name:
       zh: Ameghinornis minor
       en: Ameghinornis minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceratophora tennentii
       en: Ceratophora tennentii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

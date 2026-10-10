@@ -9,7 +9,6 @@ records:
     name:
       en: Paramesotriton fuzhongensis
       zh: Paramesotriton fuzhongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

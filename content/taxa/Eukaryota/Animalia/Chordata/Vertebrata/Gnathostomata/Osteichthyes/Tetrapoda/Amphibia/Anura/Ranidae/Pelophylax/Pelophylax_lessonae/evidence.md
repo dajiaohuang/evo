@@ -9,7 +9,6 @@ records:
     name:
       en: Pelophylax lessonae
       zh: Pelophylax lessonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

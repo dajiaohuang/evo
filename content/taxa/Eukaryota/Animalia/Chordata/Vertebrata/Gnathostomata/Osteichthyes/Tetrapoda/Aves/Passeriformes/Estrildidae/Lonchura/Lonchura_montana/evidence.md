@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchura montana
       en: Lonchura montana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

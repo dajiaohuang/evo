@@ -132,9 +132,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: coxall-2005-eot + hooker-2004-grande-coupure locator audit at 2026-08-31
       referenceLinks:
         - referenceId: coxall-2005-eot
           relation: supports

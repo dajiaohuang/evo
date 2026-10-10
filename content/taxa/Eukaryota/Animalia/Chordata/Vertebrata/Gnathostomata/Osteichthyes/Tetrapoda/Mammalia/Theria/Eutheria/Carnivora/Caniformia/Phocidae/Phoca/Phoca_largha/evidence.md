@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoca largha
       en: Phoca largha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

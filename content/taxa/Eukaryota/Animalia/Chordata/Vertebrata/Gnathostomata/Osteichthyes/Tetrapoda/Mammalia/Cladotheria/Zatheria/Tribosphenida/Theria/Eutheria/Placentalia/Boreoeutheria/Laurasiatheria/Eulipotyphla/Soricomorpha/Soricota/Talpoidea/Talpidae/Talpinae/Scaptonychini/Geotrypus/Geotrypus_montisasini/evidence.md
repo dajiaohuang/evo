@@ -9,7 +9,6 @@ records:
     name:
       zh: Geotrypus montisasini
       en: Geotrypus montisasini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

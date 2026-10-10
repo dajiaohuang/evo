@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristerodon mackayi
       en: Pristerodon mackayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

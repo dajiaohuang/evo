@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptoclidus eurymerus
       en: Cryptoclidus eurymerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

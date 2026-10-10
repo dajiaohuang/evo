@@ -34,5 +34,5 @@ The transect estimate is historical and based on a low encounter rate; the autho
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Both sources are tied to field samples and models from the early 2000s. The reported population estimate is not a current count, and carrying capacity is not evidence that habitat is occupied. The Chinese common name is an editorial translation; this page has not been externally expert-reviewed. This page is not externally expert-reviewed.
+Both sources are tied to field samples and models from the early 2000s. The reported population estimate is not a current count, and carrying capacity is not evidence that habitat is occupied. The Chinese common name is an editorial translation. This page is.
 <!-- /evo:text -->

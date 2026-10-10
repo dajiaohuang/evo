@@ -9,7 +9,6 @@ records:
     name:
       en: Spinomantis tavaratra
       zh: Spinomantis tavaratra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

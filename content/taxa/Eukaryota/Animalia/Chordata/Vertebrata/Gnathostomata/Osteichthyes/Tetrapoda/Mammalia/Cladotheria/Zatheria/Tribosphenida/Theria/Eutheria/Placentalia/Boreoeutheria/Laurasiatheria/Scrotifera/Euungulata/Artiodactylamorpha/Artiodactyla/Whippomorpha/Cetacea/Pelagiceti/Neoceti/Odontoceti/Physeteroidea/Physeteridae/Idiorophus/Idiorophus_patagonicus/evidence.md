@@ -9,7 +9,6 @@ records:
     name:
       zh: Idiorophus patagonicus
       en: Idiorophus patagonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

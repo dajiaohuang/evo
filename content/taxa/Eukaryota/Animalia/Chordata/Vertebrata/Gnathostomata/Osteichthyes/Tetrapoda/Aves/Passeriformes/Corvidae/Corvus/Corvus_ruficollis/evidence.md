@@ -9,7 +9,6 @@ records:
     name:
       zh: Corvus ruficollis
       en: Corvus ruficollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

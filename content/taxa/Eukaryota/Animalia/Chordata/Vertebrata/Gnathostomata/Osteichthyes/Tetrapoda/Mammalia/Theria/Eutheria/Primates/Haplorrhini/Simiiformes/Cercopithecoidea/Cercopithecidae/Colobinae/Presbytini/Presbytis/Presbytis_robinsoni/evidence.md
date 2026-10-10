@@ -9,7 +9,6 @@ records:
     name:
       zh: 罗宾逊带叶猴
       en: Robinson's Banded Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

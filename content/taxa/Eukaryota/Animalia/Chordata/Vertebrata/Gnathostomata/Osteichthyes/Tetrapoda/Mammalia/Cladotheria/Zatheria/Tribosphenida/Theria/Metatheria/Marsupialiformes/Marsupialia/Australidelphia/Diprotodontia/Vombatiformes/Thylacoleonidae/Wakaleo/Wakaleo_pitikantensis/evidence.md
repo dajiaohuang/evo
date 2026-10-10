@@ -9,7 +9,6 @@ records:
     name:
       zh: Wakaleo pitikantensis
       en: Wakaleo pitikantensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -215,10 +215,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
   catalogue-profile:
     scientificName: Paroedura bastardi
     rank: species
@@ -226,7 +222,6 @@ records:
     name:
       zh: Paroedura bastardi
       en: Paroedura bastardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview
@@ -524,5 +519,5 @@ The source's historical P. bastardi usage contains multiple lineages, so its cla
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No systematic current literature search or independent expert review has been completed.
+No systematic current literature search has been completed.
 <!-- /evo:text -->

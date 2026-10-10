@@ -9,7 +9,6 @@ records:
     name:
       en: Anstisia alba
       zh: Anstisia alba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

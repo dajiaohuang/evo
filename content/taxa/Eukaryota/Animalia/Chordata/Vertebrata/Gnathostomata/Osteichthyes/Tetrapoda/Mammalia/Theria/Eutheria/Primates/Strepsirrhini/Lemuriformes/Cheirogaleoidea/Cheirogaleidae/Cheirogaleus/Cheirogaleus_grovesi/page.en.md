@@ -16,5 +16,5 @@ The original description of Groves's dwarf lemur used material collected in Rano
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page is bounded by the 2017 original description and its two sampled parks; later inference or locality observations are not presented as a complete current range. This page has not received external expert review. This page is not externally expert-reviewed.
+This page is bounded by the 2017 original description and its two sampled parks; later inference or locality observations are not presented as a complete current range. This page. This page is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rougetius rougetii
       en: Rougetius rougetii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

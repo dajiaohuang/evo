@@ -9,7 +9,6 @@ records:
     name:
       zh: Columbina cyanopis
       en: Columbina cyanopis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

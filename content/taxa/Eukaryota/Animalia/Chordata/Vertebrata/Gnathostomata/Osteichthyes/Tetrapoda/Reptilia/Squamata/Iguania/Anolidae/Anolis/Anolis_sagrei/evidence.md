@@ -226,9 +226,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
   catalogue-profile:
     scientificName: Anolis sagrei
     rank: species
@@ -236,7 +233,6 @@ records:
     name:
       zh: Anolis sagrei
       en: Anolis sagrei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview
@@ -466,7 +462,7 @@ The article does not link the plotted tissue samples to an exact collection subs
 ## facets / ecology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/2 -->
-Morphology, life history, broader ecology, evolution, distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete.
+Morphology, life history, broader ecology, evolution, distribution, fossils, and conservation remain unassessed; systematic search are incomplete.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -484,5 +480,5 @@ The collection subset and sample size for the plotted tissue assay are not resol
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Other biological facets and complete geographic, fossil, and conservation coverage remain unassessed; systematic search and external review are incomplete.
+Other biological facets and complete geographic, fossil, and conservation coverage remain unassessed; systematic search are incomplete.
 <!-- /evo:text -->

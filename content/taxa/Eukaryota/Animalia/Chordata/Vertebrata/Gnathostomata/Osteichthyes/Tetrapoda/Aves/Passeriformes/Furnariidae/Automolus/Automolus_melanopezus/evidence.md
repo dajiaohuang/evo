@@ -9,7 +9,6 @@ records:
     name:
       zh: Automolus melanopezus
       en: Automolus melanopezus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

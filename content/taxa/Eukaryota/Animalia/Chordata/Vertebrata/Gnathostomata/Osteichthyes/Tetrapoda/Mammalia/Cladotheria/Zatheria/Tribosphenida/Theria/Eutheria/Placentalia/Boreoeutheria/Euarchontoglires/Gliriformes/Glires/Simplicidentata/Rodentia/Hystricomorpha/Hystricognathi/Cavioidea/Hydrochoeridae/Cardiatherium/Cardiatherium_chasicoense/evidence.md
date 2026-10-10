@@ -9,7 +9,6 @@ records:
     name:
       zh: Cardiatherium chasicoense
       en: Cardiatherium chasicoense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

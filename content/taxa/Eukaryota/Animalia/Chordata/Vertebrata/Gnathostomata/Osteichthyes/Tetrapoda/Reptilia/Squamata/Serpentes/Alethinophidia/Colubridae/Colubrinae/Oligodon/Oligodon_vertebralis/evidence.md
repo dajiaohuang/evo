@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligodon vertebralis
       en: Oligodon vertebralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

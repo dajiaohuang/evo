@@ -9,7 +9,6 @@ records:
     name:
       zh: Microraptor
       en: Microraptor
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: readingPath

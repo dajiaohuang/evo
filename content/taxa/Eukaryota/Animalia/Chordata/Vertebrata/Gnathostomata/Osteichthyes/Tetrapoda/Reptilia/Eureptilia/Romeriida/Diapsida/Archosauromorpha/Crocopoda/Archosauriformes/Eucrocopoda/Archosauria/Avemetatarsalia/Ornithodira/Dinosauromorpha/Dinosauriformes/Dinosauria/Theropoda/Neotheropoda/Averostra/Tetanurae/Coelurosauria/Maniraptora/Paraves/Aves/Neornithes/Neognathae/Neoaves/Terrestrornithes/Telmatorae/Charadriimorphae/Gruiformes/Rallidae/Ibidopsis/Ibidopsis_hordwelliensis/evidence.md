@@ -9,7 +9,6 @@ records:
     name:
       zh: Ibidopsis hordwelliensis
       en: Ibidopsis hordwelliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

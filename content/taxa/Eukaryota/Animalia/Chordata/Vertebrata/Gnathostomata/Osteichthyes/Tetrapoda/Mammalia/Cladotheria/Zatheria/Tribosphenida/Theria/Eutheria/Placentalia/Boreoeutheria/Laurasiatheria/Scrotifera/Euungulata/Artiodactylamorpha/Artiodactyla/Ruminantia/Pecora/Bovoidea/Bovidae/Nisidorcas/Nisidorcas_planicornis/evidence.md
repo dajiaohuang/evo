@@ -9,7 +9,6 @@ records:
     name:
       zh: Nisidorcas planicornis
       en: Nisidorcas planicornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

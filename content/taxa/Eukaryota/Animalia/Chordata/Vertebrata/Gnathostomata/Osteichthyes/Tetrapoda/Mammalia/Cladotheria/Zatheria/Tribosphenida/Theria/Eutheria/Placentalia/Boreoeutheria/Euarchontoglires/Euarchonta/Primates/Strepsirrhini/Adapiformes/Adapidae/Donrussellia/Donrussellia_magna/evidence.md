@@ -9,7 +9,6 @@ records:
     name:
       zh: Donrussellia magna
       en: Donrussellia magna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Dendrotriton rabbi
       zh: Dendrotriton rabbi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeosinopa dorri
       en: Palaeosinopa dorri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

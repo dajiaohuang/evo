@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspanlestes aptap
       en: Aspanlestes aptap
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

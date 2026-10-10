@@ -9,7 +9,6 @@ records:
     name:
       zh: Mastodon (Trilophodon) pandionis
       en: Mastodon (Trilophodon) pandionis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

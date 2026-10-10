@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius lichenatus
       zh: Hynobius lichenatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

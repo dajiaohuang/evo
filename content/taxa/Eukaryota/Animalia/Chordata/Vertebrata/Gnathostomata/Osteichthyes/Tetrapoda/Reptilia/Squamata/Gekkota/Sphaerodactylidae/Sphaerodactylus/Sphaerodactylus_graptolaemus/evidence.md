@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus graptolaemus
       en: Sphaerodactylus graptolaemus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

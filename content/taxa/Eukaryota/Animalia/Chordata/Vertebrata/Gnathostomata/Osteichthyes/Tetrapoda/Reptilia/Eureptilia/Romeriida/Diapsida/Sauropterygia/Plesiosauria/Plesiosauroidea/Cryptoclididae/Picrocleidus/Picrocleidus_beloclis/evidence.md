@@ -9,7 +9,6 @@ records:
     name:
       zh: Picrocleidus beloclis
       en: Picrocleidus beloclis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

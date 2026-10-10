@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne brachypus
       zh: Oreophryne brachypus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus stirtoni
       en: Peromyscus stirtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

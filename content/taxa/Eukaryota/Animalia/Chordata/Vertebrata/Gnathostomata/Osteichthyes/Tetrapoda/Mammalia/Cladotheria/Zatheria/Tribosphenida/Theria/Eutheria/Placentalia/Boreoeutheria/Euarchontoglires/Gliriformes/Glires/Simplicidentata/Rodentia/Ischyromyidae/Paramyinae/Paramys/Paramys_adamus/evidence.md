@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramys adamus
       en: Paramys adamus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

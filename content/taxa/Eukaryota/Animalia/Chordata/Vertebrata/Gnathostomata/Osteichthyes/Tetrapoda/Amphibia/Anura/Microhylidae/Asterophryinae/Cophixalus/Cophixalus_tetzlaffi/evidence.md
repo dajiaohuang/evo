@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus tetzlaffi
       zh: Cophixalus tetzlaffi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

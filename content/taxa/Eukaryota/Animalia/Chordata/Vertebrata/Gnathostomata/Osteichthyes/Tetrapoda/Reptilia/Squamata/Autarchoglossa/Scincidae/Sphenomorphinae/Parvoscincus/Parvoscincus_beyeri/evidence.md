@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvoscincus beyeri
       en: Parvoscincus beyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

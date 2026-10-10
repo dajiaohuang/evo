@@ -9,7 +9,6 @@ records:
     name:
       zh: Mulleripicus pulverulentus
       en: Mulleripicus pulverulentus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

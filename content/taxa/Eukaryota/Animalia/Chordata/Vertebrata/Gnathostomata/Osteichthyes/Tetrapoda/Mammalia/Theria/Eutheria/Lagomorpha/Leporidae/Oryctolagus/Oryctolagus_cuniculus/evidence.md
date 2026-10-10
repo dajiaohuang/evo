@@ -9,7 +9,6 @@ records:
     name:
       zh: Oryctolagus cuniculus
       en: Oryctolagus cuniculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

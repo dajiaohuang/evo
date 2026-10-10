@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhea fossilis
       en: Rhea fossilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

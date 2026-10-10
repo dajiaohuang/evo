@@ -9,7 +9,6 @@ records:
     name:
       zh: Mabuya desiradae
       en: Mabuya desiradae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

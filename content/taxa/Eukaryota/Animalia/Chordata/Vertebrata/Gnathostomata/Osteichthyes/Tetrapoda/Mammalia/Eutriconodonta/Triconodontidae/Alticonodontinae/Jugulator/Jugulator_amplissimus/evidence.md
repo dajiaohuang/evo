@@ -9,7 +9,6 @@ records:
     name:
       zh: Jugulator amplissimus
       en: Jugulator amplissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

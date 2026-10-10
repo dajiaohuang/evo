@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctiphruretus acudens
       en: Nyctiphruretus acudens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

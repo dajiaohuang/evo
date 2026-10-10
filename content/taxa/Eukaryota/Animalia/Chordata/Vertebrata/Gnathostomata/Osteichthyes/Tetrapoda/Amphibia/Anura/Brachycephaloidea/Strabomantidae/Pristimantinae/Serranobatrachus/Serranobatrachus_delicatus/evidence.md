@@ -9,7 +9,6 @@ records:
     name:
       en: Serranobatrachus delicatus
       zh: Serranobatrachus delicatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

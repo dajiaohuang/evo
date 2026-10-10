@@ -9,7 +9,6 @@ records:
     name:
       zh: Microsciurus
       en: Microsciurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

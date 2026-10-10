@@ -9,7 +9,6 @@ records:
     name:
       zh: Peradectes austrinum
       en: Peradectes austrinum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

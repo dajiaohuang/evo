@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-原文提供分类描述和局部栖息地背景，没有现今数量、威胁评估或完整范围调查。分类名按 COL26.8 保留；中文普通名为编辑翻译，尚未经过外部领域专家评审。
+原文提供分类描述和局部栖息地背景，没有现今数量、威胁评估或完整范围调查。分类名按 COL26.8 保留；中文普通名为编辑翻译。
 <!-- /evo:text -->

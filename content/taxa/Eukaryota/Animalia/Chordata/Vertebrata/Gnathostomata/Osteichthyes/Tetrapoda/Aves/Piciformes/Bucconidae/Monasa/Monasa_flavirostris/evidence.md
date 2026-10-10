@@ -9,7 +9,6 @@ records:
     name:
       zh: Monasa flavirostris
       en: Monasa flavirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

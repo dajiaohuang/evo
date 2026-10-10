@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera amicorum
       zh: Adenomera amicorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gess-2006-priscomyzon at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: gess-2006-priscomyzon
           relation: supports
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gess-2006-priscomyzon at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: gess-2006-priscomyzon
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gess-2006-priscomyzon at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: gess-2006-priscomyzon
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gess-2006-priscomyzon at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: gess-2006-priscomyzon
           relation: supports
@@ -143,9 +131,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gess-2006-priscomyzon at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: gess-2006-priscomyzon
           relation: supports
@@ -198,7 +183,6 @@ records:
       referenceLocators:
         - referenceId: gess-2006-priscomyzon
           locator: 981–984; Figures 1–2; Description and reconstruction of Priscomyzon; locality and horizon
-      reviewStatus: automated-audit-passed
 ---
 
 # Priscomyzon riniensis

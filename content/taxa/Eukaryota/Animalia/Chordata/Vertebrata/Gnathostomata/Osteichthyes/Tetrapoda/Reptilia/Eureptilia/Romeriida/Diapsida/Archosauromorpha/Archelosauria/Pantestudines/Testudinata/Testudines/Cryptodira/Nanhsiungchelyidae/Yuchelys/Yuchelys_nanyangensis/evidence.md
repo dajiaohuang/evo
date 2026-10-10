@@ -9,7 +9,6 @@ records:
     name:
       zh: Yuchelys nanyangensis
       en: Yuchelys nanyangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Megatherium bergi
       en: Megatherium bergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

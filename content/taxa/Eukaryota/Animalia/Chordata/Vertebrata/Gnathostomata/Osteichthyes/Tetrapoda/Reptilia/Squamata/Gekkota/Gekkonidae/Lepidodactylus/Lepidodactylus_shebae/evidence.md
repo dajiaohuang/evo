@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidodactylus shebae
       en: Lepidodactylus shebae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

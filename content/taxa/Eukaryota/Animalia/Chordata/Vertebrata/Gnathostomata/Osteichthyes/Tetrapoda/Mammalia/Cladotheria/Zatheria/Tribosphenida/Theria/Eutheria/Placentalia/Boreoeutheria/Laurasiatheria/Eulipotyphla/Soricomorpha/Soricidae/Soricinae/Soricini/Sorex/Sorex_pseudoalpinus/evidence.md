@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex pseudoalpinus
       en: Sorex pseudoalpinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

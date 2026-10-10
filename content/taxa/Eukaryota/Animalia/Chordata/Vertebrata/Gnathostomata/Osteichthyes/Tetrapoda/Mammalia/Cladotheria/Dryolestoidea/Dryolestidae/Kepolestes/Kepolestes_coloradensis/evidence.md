@@ -9,7 +9,6 @@ records:
     name:
       zh: Kepolestes coloradensis
       en: Kepolestes coloradensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

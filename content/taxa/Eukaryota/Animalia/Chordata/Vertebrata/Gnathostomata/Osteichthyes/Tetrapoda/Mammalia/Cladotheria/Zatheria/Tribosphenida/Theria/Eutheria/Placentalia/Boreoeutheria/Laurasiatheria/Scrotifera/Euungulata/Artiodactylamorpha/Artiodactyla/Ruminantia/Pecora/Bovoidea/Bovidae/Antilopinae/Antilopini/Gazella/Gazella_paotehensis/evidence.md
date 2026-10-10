@@ -9,7 +9,6 @@ records:
     name:
       zh: Gazella paotehensis
       en: Gazella paotehensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

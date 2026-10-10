@@ -9,7 +9,6 @@ records:
     name:
       zh: Chironius spixii
       en: Chironius spixii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

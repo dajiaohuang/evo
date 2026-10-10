@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko bonkowskii
       en: Gekko bonkowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

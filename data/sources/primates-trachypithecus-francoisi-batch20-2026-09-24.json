@@ -6,7 +6,7 @@
   "releaseDate": "2026-08-20",
   "checkedAt": "2026-09-24",
   "batchId": "primates-trachypithecus-francoisi-batch20-2026-09-24",
-  "scope": "One incomplete, source-audited dossier for the exact accepted COL26.8 Trachypithecus francoisi usage 57SDB. Four item-level open-access primary studies support bounded morphology, life-history, ecology, evolutionary, and publication-era distribution claims. Current formal conservation status and species-level fossil occurrence remain unassessed; the dossier is not a systematic review or expert review.",
+  "scope": "One incomplete, source-audited dossier for the exact accepted COL26.8 Trachypithecus francoisi usage 57SDB. Four item-level open-access primary studies support bounded morphology, life-history, ecology, evolutionary, and publication-era distribution claims. Current formal conservation status and species-level fossil occurrence remain unassessed; the dossier is not a systematic review.",
   "duplicateAudit": {
     "baseHead": "b0aed43289798ab41ba46b627a866af224b46959",
     "checkedIndexRecords": 6931,
@@ -30,7 +30,9 @@
       "identity": {
         "method": "Exact COL26.8 release-scoped usage 57SDB was checked in the pinned name-search registry and followed through the accepted hierarchy registry; scientific name, authorship, species rank, accepted status, parent 7YDX, and sourceDatasetId 2144 match. The row is in the release hierarchy/search projections but not the smaller acceptedTargets projection; no external checklist ID was substituted.",
         "scope": "Nominal accepted species usage 57SDB in the frozen COL26.8 release. Biological findings are limited to cited study samples, places, dates, and life-status scopes; they do not establish a complete current range or a species-wide trait value.",
-        "sourceIds": ["col"]
+        "sourceIds": [
+          "col"
+        ]
       },
       "classificationPath": [],
       "lifeStatusScope": {
@@ -144,7 +146,9 @@
           "claims": [
             {
               "text": "In the populations sampled for the mitochondrial phylogeography study, the authors report no observed variability in T. francoisi pelage coloration and describe the species as mostly black with white cheek sideburns. This is a qualitative, study-era pelage observation, not a sex-structured morphometric or anatomical survey.",
-              "sourceIds": ["liu2013"],
+              "sourceIds": [
+                "liu2013"
+              ],
               "locator": "Introduction paragraph describing François' langur and Figure 1 caption; Abstract and Discussion paragraph on pelage variation in the sampled T. francoisi populations.",
               "placeTimeScope": "The geographic sampling framework published in 2013: Figure 2 lots 01–13 for T. francoisi across the study's southwestern China and northern Vietnam localities. The paper reports sample-population pelage consistency; it does not provide a complete anatomical diagnosis.",
               "lifeStatus": "The paper's sample set mixes wild fecal/tissue material and some captive-institution hair/blood; the qualitative trait is reported for sampled T. francoisi populations, not for a life-status-separated cohort.",
@@ -152,14 +156,19 @@
               "originalLanguage": "en"
             }
           ],
-          "gaps": ["No comprehensive sex-, age-, and population-stratified morphometric dataset was assessed.", "Pelage description is qualitative and should not be treated as a diagnostic key or species-wide anatomical survey."]
+          "gaps": [
+            "No comprehensive sex-, age-, and population-stratified morphometric dataset was assessed.",
+            "Pelage description is qualitative and should not be treated as a diagnostic key or species-wide anatomical survey."
+          ]
         },
         "lifeHistory": {
           "status": "partially-supported",
           "claims": [
             {
               "text": "At Encheng National Nature Reserve, the single monitored wild group comprised six langurs at the start of the July 2019–June 2020 study (two adult males and four adult females) and eight by its end after two infants were born. This records two births in one group over the study period; it does not estimate a species-wide birth rate or interval.",
-              "sourceIds": ["yao2024"],
+              "sourceIds": [
+                "yao2024"
+              ],
               "locator": "Methods > Study Site and Subject: group composition at study start and two births before study end; Abstract and Methods > Field Data Collection for the 10-month study period.",
               "placeTimeScope": "One free-ranging group at Encheng National Nature Reserve, southwestern Guangxi, China; July 2019–June 2020.",
               "lifeStatus": "Free-ranging wild group; not a captive breeding cohort.",
@@ -167,14 +176,18 @@
               "originalLanguage": "en"
             }
           ],
-          "gaps": ["Development, age at maturity, reproductive intervals, survival, longevity, and life-history variation across populations remain unassessed."]
+          "gaps": [
+            "Development, age at maturity, reproductive intervals, survival, longevity, and life-history variation across populations remain unassessed."
+          ]
         },
         "ecology": {
           "status": "partially-supported",
           "claims": [
             {
               "text": "In a 10-month study of one free-ranging Encheng group, the authors recorded consumption of 101 plant species plus cliff minerals and at least one insect species. During food-scarce periods, fruit and young-leaf consumption declined as availability declined, while mature leaves and seeds were used as alternative foods. These are local observations from one fragmented karst site and group.",
-              "sourceIds": ["yao2024"],
+              "sourceIds": [
+                "yao2024"
+              ],
               "locator": "Abstract; Methods > Field Data Collection; Results > Diet Composition and Seasonal Changes; Discussion paragraphs interpreting seasonal food availability.",
               "placeTimeScope": "Encheng National Nature Reserve, southwestern Guangxi, China; observations July 2019–June 2020; one monitored group.",
               "lifeStatus": "Free-ranging wild group.",
@@ -183,7 +196,9 @@
             },
             {
               "text": "At Mayanghe and Dashahe reserves in Guizhou, dietary metabarcoding of 27 fresh fecal samples from four wild populations collected in March 2022 identified 134 plant families and 336 genera across the two sites; the authors found significant regional differences in composition. The same-season, two-reserve sample does not establish year-round or whole-range diet differences.",
-              "sourceIds": ["cao2026"],
+              "sourceIds": [
+                "cao2026"
+              ],
               "locator": "Abstract; Methods > Study Area and Sample Collection; Results > Diet Diversity and Diet Composition in Different Regions, including Figs. 2–5.",
               "placeTimeScope": "Mayanghe and Dashahe National Nature Reserves, Guizhou Province, China; 27 fresh fecal samples collected in March 2022 from four populations during the same season.",
               "lifeStatus": "Wild populations; fecal samples collected at night-roosting sites.",
@@ -192,7 +207,9 @@
             },
             {
               "text": "At Kuankuoshui National Nature Reserve, one free-ranging group in high-altitude habitat (800–1400 m) was followed during April 2008–March 2009. The study's grid-cell estimator gave a 50.7 ha annual home range and seasonal estimates of 37.7 ha in winter–spring versus 27.7 ha in summer–autumn. The paper reports a larger annual minimum-convex-polygon estimate but gives 140.4 ha in the abstract/results and 150.6 ha in the discussion; this discrepancy remains unresolved, so only the grid-cell estimator is quoted here.",
-              "sourceIds": ["deng2023"],
+              "sourceIds": [
+                "deng2023"
+              ],
               "locator": "Abstract and Results > Home-range Size, paragraphs reporting 102 observation days, 918 locations, and the grid-cell estimates; Discussion reports annual MCP 150.6 ha while Abstract and preceding Results report 140.4 ha.",
               "placeTimeScope": "Kuankuoshui National Nature Reserve, Guizhou, China, 800–1400 m; April 2008–March 2009; one focal group. Estimates vary by estimator and the annual MCP figures conflict within the article.",
               "lifeStatus": "Free-ranging wild group.",
@@ -200,14 +217,19 @@
               "originalLanguage": "en"
             }
           ],
-          "gaps": ["Diet, habitat use, activity, social organization, and seasonal responses have not been systematically compared across the full range.", "Local reserve and group studies do not establish species-wide ecological values."]
+          "gaps": [
+            "Diet, habitat use, activity, social organization, and seasonal responses have not been systematically compared across the full range.",
+            "Local reserve and group studies do not establish species-wide ecological values."
+          ]
         },
         "evolution": {
           "status": "partially-supported",
           "claims": [
             {
               "text": "A 2013 mitochondrial control-region study sequenced a 395-bp fragment from 178 T. francoisi individuals sampled from forest lots 01–13 and identified 29 haplotypes. The authors' full 17-lot framework also included T. leucocephalus in lots 14–16 and T. poliocephalus in lot 17. Their mitochondrial phylogenies recovered T. francoisi as polyphyletic relative to the sampled T. leucocephalus and T. poliocephalus clades; the authors explicitly noted that a maternally inherited marker alone was insufficient and called for nuclear-locus studies. This is that study's phylogenetic result, not a revision of the pinned COL26.8 accepted taxonomy.",
-              "sourceIds": ["liu2013"],
+              "sourceIds": [
+                "liu2013"
+              ],
               "locator": "Abstract; Methods > Sample Collection and Amplification and Sequencing of Mitochondrial DNA; Results > Phylogenetic Analysis and Divergence Time Estimation; Discussion paragraph noting nuclear loci are needed.",
               "placeTimeScope": "The 178 T. francoisi individuals came from forest lots 01–13; the paper's full three-taxon framework includes T. leucocephalus lots 14–16 and T. poliocephalus lot 17. The sample set included wild fecal material and some captive-institution specimens. Single mitochondrial HVI marker only.",
               "lifeStatus": "Mixed provenance: wild samples plus some captive-institution hair/blood; not a wild-only demographic estimate.",
@@ -215,14 +237,19 @@
               "originalLanguage": "en"
             }
           ],
-          "gaps": ["Nuclear or genome-wide population data linked to comparable, range-wide wild sampling were not evaluated here.", "The 2013 study's taxonomic interpretation predates the pinned COL26.8 release and is not treated as accepted-name evidence."]
+          "gaps": [
+            "Nuclear or genome-wide population data linked to comparable, range-wide wild sampling were not evaluated here.",
+            "The 2013 study's taxonomic interpretation predates the pinned COL26.8 release and is not treated as accepted-name evidence."
+          ]
         },
         "distribution": {
           "status": "conflicted",
           "claims": [
             {
               "text": "A 2013 phylogeography paper described T. francoisi as endemic to karst hills in southwestern China (Guizhou and Guangxi) and northern Vietnam and mapped its sampled forest lots 01–13. This is the paper's publication-era range statement and sampling frame, not a current range boundary.",
-              "sourceIds": ["liu2013"],
+              "sourceIds": [
+                "liu2013"
+              ],
               "locator": "Introduction paragraph describing the François' langur range; Figure 2 caption and map of T. francoisi lots 01–13.",
               "placeTimeScope": "Range statement and geographic sample framework published in 2013; southwestern China and northern Vietnam as described by the authors.",
               "lifeStatus": "Wild population localities and specimens; some captive samples were also included in genetic work but do not constitute occurrence records.",
@@ -231,7 +258,9 @@
             },
             {
               "text": "A 2026 diet paper's introduction lists China, Vietnam, and Laos in its literature-based distribution summary, but its own field sampling is limited to two reserves in Guizhou, China. The paper therefore does not directly verify Lao occurrence; this broader literature statement conflicts in geographic scope with the 2013 range description and remains unresolved here.",
-              "sourceIds": ["cao2026"],
+              "sourceIds": [
+                "cao2026"
+              ],
               "locator": "Introduction paragraph on distribution; compare Methods > Study Area and Sample Collection, which reports field sampling only in Mayanghe and Dashahe, Guizhou.",
               "placeTimeScope": "Literature-context statement published in 2026; the study's own field evidence is only from Mayanghe and Dashahe reserves in Guizhou, China, with samples collected March 2022.",
               "lifeStatus": "The introduction discusses a literature-based wild range; the study's direct samples are from wild populations in two Chinese reserves.",
@@ -239,15 +268,23 @@
               "originalLanguage": "en"
             }
           ],
-          "gaps": ["A current authoritative range assessment and direct confirmation of all country-level occurrences, especially the Laos range statement, were not reviewed.", "Neither the 2013 sample map nor the 2026 two-reserve study defines a complete contemporary range or population distribution."]
+          "gaps": [
+            "A current authoritative range assessment and direct confirmation of all country-level occurrences, especially the Laos range statement, were not reviewed.",
+            "Neither the 2013 sample map nor the 2026 two-reserve study defines a complete contemporary range or population distribution."
+          ]
         },
         "fossil": {
           "status": "not-assessed",
-          "gaps": ["Species-level fossil occurrences, taxonomic identification, provenance, and geological ages have not been systematically searched or verified; no fossil absence is inferred."]
+          "gaps": [
+            "Species-level fossil occurrences, taxonomic identification, provenance, and geological ages have not been systematically searched or verified; no fossil absence is inferred."
+          ]
         },
         "conservation": {
           "status": "not-assessed",
-          "gaps": ["The current primary IUCN assessment, criteria, population trend, and threats were not verified. A 2026 study's introduction cites an earlier Endangered assessment, but that secondary citation is not treated as the current formal status.", "No current range-wide population census or trend was established by the cited local studies."]
+          "gaps": [
+            "The current primary IUCN assessment, criteria, population trend, and threats were not verified. A 2026 study's introduction cites an earlier Endangered assessment, but that secondary citation is not treated as the current formal status.",
+            "No current range-wide population census or trend was established by the cited local studies."
+          ]
         }
       },
       "completeness": {
@@ -256,10 +293,9 @@
           "This is a bounded primary-source dossier, not a reproducible systematic literature search; it does not cover all populations or all seven facets.",
           "Morphology is limited to qualitative pelage evidence, and life history to two births in one observed group.",
           "The range literature statements differ on geographic scope; current distribution and formal conservation assessment remain unresolved.",
-          "Species-level fossil evidence was not assessed, and no independent expert review was completed."
+          "Species-level fossil evidence was not assessed."
         ]
-      },
-      "expertReview": {"status": "not-reviewed", "reviewers": [], "reviewDigest": null}
+      }
     }
   ]
 }

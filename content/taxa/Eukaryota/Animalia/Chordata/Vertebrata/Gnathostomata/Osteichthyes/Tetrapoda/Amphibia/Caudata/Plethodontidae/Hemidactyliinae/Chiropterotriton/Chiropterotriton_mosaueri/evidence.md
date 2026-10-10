@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton mosaueri
       zh: Chiropterotriton mosaueri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -22,5 +22,5 @@ Soini (1987) followed one troop intermittently for five years at Río Pacaya in 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The main ecological source is an older study of one troop under a former genus combination; troop size, home range and feeding proportions are not generalized to the whole species. MDD v2.5 uses a Saguinus subgeneric combination; the COL26.8 identity is retained. Not externally reviewed. This page has not been externally expert-reviewed. This page is not externally expert-reviewed.
+The main ecological source is an older study of one troop under a former genus combination; troop size, home range and feeding proportions are not generalized to the whole species. MDD v2.5 uses a Saguinus subgeneric combination; the COL26.8 identity is retained. Not externally reviewed. This page has not been. This page is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Psittacotherium multifragum
       en: Psittacotherium multifragum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

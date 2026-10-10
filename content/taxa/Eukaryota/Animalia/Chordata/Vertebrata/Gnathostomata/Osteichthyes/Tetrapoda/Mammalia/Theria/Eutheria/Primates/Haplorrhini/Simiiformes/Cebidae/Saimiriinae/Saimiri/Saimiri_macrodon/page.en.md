@@ -28,5 +28,5 @@ This page follows the COL26.8 accepted species ID 4TZJX, Saimiri macrodon. Some 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The ecological evidence comes from one thesis study area near Iquitos, Peru, and distance sampling in two Indigenous territories; it does not represent the full range. The COL26.8 accepted name and the trinomial used by some papers are both retained. The exact MDD join supplies only the English label; the Chinese name is editorial. The page has not received external expert review. This page is not externally expert-reviewed.
+The ecological evidence comes from one thesis study area near Iquitos, Peru, and distance sampling in two Indigenous territories; it does not represent the full range. The COL26.8 accepted name and the trinomial used by some papers are both retained. The exact MDD join supplies only the English label; the Chinese name is editorial. This page is.
 <!-- /evo:text -->

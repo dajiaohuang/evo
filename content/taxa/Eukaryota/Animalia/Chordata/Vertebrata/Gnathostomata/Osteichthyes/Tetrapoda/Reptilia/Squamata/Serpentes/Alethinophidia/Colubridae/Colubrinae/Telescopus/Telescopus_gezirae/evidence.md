@@ -9,7 +9,6 @@ records:
     name:
       zh: Telescopus gezirae
       en: Telescopus gezirae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

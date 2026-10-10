@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus mittermeieri
       zh: Atelopus mittermeieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

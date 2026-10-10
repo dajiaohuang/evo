@@ -9,7 +9,6 @@ records:
     name:
       zh: Glossotherium garbanii
       en: Glossotherium garbanii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

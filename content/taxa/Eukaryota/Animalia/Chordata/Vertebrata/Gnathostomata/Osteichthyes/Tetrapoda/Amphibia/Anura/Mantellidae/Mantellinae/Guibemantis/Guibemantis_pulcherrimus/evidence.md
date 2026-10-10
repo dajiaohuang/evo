@@ -9,7 +9,6 @@ records:
     name:
       en: Guibemantis pulcherrimus
       zh: Guibemantis pulcherrimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Wyonycteris primitivus
       en: Wyonycteris primitivus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Neoepiblema horridula
       en: Neoepiblema horridula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

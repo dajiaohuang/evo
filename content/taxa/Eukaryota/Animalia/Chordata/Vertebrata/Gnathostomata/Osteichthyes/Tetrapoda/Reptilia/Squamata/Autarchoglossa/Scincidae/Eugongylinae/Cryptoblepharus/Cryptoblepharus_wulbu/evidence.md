@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptoblepharus wulbu
       en: Cryptoblepharus wulbu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

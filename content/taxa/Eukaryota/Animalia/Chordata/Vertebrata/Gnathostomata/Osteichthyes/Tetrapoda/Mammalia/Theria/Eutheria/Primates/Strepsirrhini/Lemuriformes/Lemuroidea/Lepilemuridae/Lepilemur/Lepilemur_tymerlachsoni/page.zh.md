@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-依据 2006 年描述和有限的分布样本；没有现今范围、丰度或保育评估。分类名按 COL26.8 保留，中文普通名为编辑翻译，尚未经过外部领域专家评审。
+依据 2006 年描述和有限的分布样本；没有现今范围、丰度或保育评估。分类名按 COL26.8 保留，中文普通名为编辑翻译。
 <!-- /evo:text -->

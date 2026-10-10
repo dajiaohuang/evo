@@ -9,7 +9,6 @@ records:
     name:
       zh: Tauraco schalowi
       en: Tauraco schalowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

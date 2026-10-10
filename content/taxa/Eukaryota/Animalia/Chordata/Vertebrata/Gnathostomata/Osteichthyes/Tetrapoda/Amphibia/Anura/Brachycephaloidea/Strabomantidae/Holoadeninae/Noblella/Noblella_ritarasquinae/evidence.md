@@ -9,7 +9,6 @@ records:
     name:
       en: Noblella ritarasquinae
       zh: Noblella ritarasquinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

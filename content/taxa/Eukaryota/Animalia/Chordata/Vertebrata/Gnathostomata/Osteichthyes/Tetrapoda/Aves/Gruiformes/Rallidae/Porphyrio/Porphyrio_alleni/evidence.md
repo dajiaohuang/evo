@@ -9,7 +9,6 @@ records:
     name:
       zh: Porphyrio alleni
       en: Porphyrio alleni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

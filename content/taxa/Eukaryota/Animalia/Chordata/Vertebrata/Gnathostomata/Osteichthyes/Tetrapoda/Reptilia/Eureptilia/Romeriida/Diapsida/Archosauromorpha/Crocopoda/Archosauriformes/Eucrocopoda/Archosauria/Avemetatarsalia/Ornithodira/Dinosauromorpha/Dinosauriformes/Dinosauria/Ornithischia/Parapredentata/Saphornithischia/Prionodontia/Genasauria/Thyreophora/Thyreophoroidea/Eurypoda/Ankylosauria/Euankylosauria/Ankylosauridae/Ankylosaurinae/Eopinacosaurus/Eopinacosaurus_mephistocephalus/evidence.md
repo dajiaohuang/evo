@@ -9,7 +9,6 @@ records:
     name:
       zh: Eopinacosaurus mephistocephalus
       en: Eopinacosaurus mephistocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

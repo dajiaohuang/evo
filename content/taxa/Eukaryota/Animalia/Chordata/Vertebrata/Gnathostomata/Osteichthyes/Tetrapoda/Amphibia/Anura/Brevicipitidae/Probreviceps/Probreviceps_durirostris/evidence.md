@@ -9,7 +9,6 @@ records:
     name:
       en: Probreviceps durirostris
       zh: Probreviceps durirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidodipsas philippii
       en: Tropidodipsas philippii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

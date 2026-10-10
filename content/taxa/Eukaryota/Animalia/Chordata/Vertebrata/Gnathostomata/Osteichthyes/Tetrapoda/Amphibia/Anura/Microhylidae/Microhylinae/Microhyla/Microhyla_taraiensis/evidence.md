@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla taraiensis
       zh: Microhyla taraiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

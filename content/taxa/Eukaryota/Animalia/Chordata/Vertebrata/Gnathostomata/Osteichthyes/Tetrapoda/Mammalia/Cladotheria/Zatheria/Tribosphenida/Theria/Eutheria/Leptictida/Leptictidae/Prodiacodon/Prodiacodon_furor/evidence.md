@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodiacodon furor
       en: Prodiacodon furor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

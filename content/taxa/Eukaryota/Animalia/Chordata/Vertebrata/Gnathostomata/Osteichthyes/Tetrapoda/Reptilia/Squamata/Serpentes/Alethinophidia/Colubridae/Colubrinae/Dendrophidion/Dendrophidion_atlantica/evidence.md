@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrophidion atlantica
       en: Dendrophidion atlantica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

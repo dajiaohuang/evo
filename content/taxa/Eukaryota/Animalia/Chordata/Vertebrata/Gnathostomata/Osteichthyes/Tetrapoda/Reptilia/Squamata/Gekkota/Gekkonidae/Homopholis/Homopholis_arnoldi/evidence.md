@@ -9,7 +9,6 @@ records:
     name:
       zh: Homopholis arnoldi
       en: Homopholis arnoldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

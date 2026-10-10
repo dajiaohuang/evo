@@ -9,7 +9,6 @@ records:
     name:
       zh: Xema sabini
       en: Xema sabini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

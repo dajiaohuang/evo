@@ -9,7 +9,6 @@ records:
     name:
       zh: Moropus hollandi
       en: Moropus hollandi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

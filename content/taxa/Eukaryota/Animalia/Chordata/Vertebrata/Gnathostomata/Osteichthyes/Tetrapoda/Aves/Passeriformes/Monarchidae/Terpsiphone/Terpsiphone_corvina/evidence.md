@@ -9,7 +9,6 @@ records:
     name:
       zh: Terpsiphone corvina
       en: Terpsiphone corvina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

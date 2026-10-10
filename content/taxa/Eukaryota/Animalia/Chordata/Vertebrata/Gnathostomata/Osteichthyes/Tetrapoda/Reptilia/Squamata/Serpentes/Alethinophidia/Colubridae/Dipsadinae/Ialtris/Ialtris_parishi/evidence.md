@@ -9,7 +9,6 @@ records:
     name:
       zh: Ialtris parishi
       en: Ialtris parishi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

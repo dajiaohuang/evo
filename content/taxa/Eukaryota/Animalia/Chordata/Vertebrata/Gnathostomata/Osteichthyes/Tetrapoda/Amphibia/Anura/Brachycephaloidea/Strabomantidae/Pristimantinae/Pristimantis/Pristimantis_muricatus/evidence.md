@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis muricatus
       zh: Pristimantis muricatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

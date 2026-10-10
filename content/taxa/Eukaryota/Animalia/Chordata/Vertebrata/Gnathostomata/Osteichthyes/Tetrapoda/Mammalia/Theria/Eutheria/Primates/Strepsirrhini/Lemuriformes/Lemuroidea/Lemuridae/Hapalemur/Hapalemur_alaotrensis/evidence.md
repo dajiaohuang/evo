@@ -9,7 +9,6 @@ records:
     name:
       zh: 阿拉奥特拉竹狐猴
       en: Lac Alaotra Bamboo Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

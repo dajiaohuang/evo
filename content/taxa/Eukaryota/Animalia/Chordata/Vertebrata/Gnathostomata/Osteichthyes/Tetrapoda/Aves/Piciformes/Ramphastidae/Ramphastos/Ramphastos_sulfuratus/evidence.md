@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphastos sulfuratus
       en: Ramphastos sulfuratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

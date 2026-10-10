@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes paulyambuni
       zh: Limnonectes paulyambuni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

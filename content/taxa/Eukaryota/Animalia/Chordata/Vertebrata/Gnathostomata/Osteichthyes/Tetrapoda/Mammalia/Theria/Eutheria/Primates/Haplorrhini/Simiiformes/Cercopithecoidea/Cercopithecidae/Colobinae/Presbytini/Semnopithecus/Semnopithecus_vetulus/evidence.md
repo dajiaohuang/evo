@@ -9,7 +9,6 @@ records:
     name:
       zh: 紫脸叶猴
       en: Purple-faced leaf monkey
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: ecology

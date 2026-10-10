@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium talamancae
       zh: Hyalinobatrachium talamancae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

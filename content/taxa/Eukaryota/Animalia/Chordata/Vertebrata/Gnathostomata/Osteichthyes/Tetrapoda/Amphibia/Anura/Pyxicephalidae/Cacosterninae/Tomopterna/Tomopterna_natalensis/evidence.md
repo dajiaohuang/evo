@@ -9,7 +9,6 @@ records:
     name:
       en: Tomopterna natalensis
       zh: Tomopterna natalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

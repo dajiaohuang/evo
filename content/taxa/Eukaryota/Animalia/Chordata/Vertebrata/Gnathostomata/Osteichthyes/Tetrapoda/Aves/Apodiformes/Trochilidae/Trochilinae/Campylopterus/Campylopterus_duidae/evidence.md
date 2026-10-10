@@ -9,7 +9,6 @@ records:
     name:
       zh: Campylopterus duidae
       en: Campylopterus duidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

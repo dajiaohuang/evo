@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus pulex
       zh: Brachycephalus pulex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

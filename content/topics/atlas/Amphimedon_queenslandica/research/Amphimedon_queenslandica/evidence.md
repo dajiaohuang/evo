@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: srivastava-2010-amphimedon
       referenceLinks:
         - referenceId: srivastava-2010-amphimedon
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: srivastava-2010-amphimedon locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: srivastava-2010-amphimedon
@@ -99,9 +93,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: srivastava-2010-amphimedon @ DOI 10.1038/nature09201
       referenceLinks:
         - referenceId: srivastava-2010-amphimedon
           relation: supports
@@ -120,9 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: srivastava-2010-amphimedon @ DOI 10.1038/nature09201
       referenceLinks:
         - referenceId: srivastava-2010-amphimedon
           relation: supports
@@ -141,9 +129,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: srivastava-2010-amphimedon @ DOI 10.1038/nature09201
       referenceLinks:
         - referenceId: srivastava-2010-amphimedon
           relation: supports
@@ -161,9 +146,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: srivastava-2010-amphimedon @ DOI 10.1038/nature09201
       referenceLinks:
         - referenceId: srivastava-2010-amphimedon
           relation: supports
@@ -219,7 +201,6 @@ records:
       referenceLocators:
         - referenceId: srivastava-2010-amphimedon
           locator: 720–726; Figures 1–5; genome assembly and comparative analyses
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

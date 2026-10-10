@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachischium tenuiceps
       en: Trachischium tenuiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

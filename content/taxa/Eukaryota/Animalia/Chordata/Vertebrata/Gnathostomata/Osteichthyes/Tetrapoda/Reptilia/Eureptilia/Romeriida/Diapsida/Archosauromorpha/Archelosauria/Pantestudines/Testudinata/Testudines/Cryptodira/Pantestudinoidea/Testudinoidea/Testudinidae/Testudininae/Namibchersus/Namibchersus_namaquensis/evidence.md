@@ -9,7 +9,6 @@ records:
     name:
       zh: Namibchersus namaquensis
       en: Namibchersus namaquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

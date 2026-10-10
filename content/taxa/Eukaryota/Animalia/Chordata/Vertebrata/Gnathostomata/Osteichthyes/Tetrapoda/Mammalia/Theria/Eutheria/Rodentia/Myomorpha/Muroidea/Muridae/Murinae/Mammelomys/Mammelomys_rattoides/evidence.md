@@ -9,7 +9,6 @@ records:
     name:
       zh: Mammelomys rattoides
       en: Mammelomys rattoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

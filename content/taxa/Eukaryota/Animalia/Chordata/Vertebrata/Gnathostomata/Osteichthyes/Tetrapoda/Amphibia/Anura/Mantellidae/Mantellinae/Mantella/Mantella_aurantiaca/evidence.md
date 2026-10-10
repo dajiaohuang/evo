@@ -197,10 +197,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
   catalogue-profile:
     scientificName: Mantella aurantiaca Mocquard, 1900
     rank: species
@@ -208,7 +204,6 @@ records:
     name:
       en: Mantella aurantiaca
       zh: Mantella aurantiaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -1105,12 +1100,6 @@ Morphology, life history, evolution, distribution, fossil evidence and conservat
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
 The field study reports root-count patterns at multiple analysis levels without a single monotonic direction; no population-wide habitat preference is inferred.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / title

@@ -16,5 +16,5 @@ In the 2008 study, *T. cristatus* samples fell into two main mitochondrial clade
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The page distinguishes the subspecies name used in the 2008 paper from the COL26.8 accepted species identity; evidence is a short mitochondrial fragment, not a genome-wide result or every taxonomic treatment. The Chinese common name is an editorial translation; the page has not received external expert review. This page is not externally expert-reviewed.
+The page distinguishes the subspecies name used in the 2008 paper from the COL26.8 accepted species identity; evidence is a short mitochondrial fragment, not a genome-wide result or every taxonomic treatment. The Chinese common name is an editorial translation.
 <!-- /evo:text -->

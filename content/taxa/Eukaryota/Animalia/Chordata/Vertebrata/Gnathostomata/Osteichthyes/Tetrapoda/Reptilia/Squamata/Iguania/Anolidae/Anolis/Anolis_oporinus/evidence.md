@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis oporinus
       en: Anolis oporinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

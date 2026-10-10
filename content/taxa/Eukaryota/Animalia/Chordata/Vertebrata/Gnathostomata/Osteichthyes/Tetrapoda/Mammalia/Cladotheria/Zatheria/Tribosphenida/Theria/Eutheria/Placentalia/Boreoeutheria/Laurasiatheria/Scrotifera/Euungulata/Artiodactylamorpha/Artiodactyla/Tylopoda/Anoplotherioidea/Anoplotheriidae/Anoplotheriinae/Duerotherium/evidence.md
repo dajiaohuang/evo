@@ -9,7 +9,6 @@ records:
     name:
       zh: Duerotherium
       en: Duerotherium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

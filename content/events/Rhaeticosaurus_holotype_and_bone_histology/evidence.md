@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Wintrich et al. 2017 DOI 10.1126/sciadv.1701144
       referenceLinks:
         - referenceId: wintrich-2017-rhaeticosaurus
           relation: supports

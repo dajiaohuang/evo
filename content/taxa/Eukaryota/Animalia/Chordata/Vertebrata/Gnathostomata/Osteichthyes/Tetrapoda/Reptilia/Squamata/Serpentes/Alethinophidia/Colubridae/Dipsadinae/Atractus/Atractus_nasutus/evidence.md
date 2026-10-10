@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus nasutus
       en: Atractus nasutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

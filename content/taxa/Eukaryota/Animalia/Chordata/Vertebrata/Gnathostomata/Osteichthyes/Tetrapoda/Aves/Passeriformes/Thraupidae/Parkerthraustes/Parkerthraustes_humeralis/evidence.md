@@ -9,7 +9,6 @@ records:
     name:
       zh: Parkerthraustes humeralis
       en: Parkerthraustes humeralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

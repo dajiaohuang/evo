@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilocercus kylin
       en: Ptilocercus kylin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

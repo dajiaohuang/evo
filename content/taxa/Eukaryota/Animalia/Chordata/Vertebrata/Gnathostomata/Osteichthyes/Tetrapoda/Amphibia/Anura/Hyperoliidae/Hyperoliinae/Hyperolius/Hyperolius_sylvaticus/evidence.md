@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius sylvaticus
       zh: Hyperolius sylvaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

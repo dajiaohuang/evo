@@ -9,7 +9,6 @@ records:
     name:
       zh: Kritimys kiridus
       en: Kritimys kiridus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

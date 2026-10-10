@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumomota
       en: Eumomota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

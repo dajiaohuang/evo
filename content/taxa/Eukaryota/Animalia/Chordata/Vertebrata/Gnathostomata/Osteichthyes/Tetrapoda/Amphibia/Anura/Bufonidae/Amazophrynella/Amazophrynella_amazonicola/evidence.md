@@ -9,7 +9,6 @@ records:
     name:
       en: Amazophrynella amazonicola
       zh: Amazophrynella amazonicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

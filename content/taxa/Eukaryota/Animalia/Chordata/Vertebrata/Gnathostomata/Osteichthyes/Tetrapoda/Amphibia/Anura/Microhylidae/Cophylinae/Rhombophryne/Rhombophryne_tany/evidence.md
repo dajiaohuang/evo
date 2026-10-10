@@ -9,7 +9,6 @@ records:
     name:
       en: Rhombophryne tany
       zh: Rhombophryne tany
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

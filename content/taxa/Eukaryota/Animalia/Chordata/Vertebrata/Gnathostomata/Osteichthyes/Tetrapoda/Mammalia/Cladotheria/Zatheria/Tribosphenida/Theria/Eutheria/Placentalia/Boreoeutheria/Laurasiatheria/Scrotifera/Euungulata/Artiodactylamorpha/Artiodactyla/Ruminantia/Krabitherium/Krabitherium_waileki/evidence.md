@@ -9,7 +9,6 @@ records:
     name:
       zh: Krabitherium waileki
       en: Krabitherium waileki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

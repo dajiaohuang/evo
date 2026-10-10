@@ -9,7 +9,6 @@ records:
     name:
       zh: Batodonoides vanhouteni
       en: Batodonoides vanhouteni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

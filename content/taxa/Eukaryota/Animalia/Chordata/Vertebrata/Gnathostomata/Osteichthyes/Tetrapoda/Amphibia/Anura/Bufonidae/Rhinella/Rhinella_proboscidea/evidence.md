@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella proboscidea
       zh: Rhinella proboscidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aphelocoma insularis
       en: Aphelocoma insularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

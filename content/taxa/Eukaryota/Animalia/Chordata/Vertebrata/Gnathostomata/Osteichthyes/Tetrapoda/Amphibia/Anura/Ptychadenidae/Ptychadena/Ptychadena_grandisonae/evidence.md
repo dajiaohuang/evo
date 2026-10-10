@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena grandisonae
       zh: Ptychadena grandisonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

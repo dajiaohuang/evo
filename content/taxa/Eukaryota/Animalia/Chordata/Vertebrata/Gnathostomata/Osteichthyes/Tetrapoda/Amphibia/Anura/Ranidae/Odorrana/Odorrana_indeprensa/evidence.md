@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana indeprensa
       zh: Odorrana indeprensa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

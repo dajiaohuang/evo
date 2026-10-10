@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: chang-2015-myxozoa
       referenceLinks:
         - referenceId: chang-2015-myxozoa
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: chang-2015-myxozoa locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: chang-2015-myxozoa
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: chang-2015-myxozoa
           locator: 14912–14917; Figures 1–4; phylogenomics and genome-reduction analyses
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pareumys milleri
       en: Pareumys milleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

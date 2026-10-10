@@ -9,7 +9,6 @@ records:
     name:
       zh: Teleosaurus asthenodeirus
       en: Teleosaurus asthenodeirus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

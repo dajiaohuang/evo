@@ -9,7 +9,6 @@ records:
     name:
       zh: Merychippus californicus
       en: Merychippus californicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

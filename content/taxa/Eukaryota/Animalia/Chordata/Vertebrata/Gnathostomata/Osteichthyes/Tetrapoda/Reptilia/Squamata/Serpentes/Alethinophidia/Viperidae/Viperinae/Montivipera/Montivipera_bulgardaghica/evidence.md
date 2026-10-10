@@ -9,7 +9,6 @@ records:
     name:
       zh: Montivipera bulgardaghica
       en: Montivipera bulgardaghica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

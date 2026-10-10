@@ -9,7 +9,6 @@ records:
     name:
       zh: Bountyphaps obsoleta
       en: Bountyphaps obsoleta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

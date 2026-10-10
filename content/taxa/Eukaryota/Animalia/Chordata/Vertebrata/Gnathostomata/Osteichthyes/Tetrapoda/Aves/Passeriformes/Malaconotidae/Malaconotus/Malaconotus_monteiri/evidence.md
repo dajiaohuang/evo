@@ -9,7 +9,6 @@ records:
     name:
       zh: Malaconotus monteiri
       en: Malaconotus monteiri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

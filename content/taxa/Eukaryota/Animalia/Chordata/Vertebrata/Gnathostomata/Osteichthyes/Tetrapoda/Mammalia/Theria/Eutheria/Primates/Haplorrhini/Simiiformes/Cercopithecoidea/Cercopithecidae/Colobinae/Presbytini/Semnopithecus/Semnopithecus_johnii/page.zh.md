@@ -22,5 +22,5 @@ Silent Valley 论文标题使用组合名 Trachypithecus johnii。本页按固�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-食性资料来自 1993—1996 年一个雨林公园的观察，不是当前全分布区调查。旧论文的属级组合按原文保留；本页未经过外部领域专家评审。
+食性资料来自 1993—1996 年一个雨林公园的观察，不是当前全分布区调查。旧论文的属级组合按原文保留。
 <!-- /evo:text -->

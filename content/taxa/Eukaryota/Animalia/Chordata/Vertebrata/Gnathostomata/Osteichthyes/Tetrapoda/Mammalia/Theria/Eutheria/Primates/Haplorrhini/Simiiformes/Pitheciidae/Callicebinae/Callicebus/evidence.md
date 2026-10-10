@@ -9,7 +9,6 @@ records:
     name:
       zh: 蒂蒂猴属
       en: Titi monkeys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

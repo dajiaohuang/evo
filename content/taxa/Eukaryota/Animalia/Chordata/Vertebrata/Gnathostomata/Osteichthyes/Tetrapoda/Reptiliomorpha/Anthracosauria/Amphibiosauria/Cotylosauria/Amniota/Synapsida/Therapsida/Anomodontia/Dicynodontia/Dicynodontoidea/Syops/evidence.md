@@ -9,7 +9,6 @@ records:
     name:
       zh: Syops
       en: Syops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

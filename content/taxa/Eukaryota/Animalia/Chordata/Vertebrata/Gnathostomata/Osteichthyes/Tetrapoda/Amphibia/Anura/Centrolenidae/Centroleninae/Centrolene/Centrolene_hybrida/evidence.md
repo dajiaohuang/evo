@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene hybrida
       zh: Centrolene hybrida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

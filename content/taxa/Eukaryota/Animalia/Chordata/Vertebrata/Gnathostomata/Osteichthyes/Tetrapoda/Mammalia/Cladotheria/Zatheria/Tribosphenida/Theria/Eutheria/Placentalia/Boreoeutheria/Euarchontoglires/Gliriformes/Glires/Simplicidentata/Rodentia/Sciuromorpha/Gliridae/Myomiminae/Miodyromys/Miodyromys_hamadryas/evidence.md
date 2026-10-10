@@ -9,7 +9,6 @@ records:
     name:
       zh: Miodyromys hamadryas
       en: Miodyromys hamadryas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

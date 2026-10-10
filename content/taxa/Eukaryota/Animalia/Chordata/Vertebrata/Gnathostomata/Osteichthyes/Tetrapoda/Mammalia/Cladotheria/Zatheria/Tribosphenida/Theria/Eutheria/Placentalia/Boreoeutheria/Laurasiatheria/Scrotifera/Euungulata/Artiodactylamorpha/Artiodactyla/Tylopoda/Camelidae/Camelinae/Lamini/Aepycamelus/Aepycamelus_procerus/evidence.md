@@ -9,7 +9,6 @@ records:
     name:
       zh: Aepycamelus procerus
       en: Aepycamelus procerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

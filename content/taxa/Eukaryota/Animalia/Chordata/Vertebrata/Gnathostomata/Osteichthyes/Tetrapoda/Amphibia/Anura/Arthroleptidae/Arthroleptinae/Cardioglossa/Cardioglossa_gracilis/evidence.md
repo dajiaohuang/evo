@@ -9,7 +9,6 @@ records:
     name:
       en: Cardioglossa gracilis
       zh: Cardioglossa gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

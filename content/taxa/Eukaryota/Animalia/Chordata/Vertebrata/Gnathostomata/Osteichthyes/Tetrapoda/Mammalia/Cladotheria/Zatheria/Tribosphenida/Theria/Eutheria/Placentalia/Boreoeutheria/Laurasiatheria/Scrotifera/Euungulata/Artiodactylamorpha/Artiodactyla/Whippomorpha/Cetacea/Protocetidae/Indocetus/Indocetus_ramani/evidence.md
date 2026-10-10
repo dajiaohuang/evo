@@ -9,7 +9,6 @@ records:
     name:
       zh: Indocetus ramani
       en: Indocetus ramani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

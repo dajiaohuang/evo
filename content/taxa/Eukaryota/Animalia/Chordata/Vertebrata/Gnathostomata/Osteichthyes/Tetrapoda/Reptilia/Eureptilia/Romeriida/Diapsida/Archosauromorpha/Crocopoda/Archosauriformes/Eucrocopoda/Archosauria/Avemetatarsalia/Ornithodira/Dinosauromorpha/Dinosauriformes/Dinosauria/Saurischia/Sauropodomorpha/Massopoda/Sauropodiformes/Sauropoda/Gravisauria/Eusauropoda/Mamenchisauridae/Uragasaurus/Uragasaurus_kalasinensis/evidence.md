@@ -9,7 +9,6 @@ records:
     name:
       zh: Uragasaurus kalasinensis
       en: Uragasaurus kalasinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

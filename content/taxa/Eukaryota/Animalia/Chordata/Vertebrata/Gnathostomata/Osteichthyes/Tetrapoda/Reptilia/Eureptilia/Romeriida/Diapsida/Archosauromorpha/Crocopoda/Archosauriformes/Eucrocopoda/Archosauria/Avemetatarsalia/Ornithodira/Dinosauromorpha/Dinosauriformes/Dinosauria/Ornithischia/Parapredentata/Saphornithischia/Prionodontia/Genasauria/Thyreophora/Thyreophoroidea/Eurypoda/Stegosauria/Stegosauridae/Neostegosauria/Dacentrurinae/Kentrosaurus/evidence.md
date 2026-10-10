@@ -9,7 +9,6 @@ records:
     name:
       zh: Kentrosaurus
       en: Kentrosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvavorodon gheerbranti
       en: Parvavorodon gheerbranti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Honanotherium schlosseri
       en: Honanotherium schlosseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

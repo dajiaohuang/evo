@@ -9,7 +9,6 @@ records:
     name:
       zh: Protospermophilus oregonensis
       en: Protospermophilus oregonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

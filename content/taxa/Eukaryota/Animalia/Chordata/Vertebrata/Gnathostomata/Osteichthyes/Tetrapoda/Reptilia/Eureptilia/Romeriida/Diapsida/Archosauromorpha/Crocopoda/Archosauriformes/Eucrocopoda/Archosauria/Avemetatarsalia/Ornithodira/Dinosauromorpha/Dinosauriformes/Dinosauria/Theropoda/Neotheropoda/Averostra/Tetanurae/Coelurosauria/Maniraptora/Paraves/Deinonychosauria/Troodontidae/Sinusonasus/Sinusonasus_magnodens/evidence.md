@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinusonasus magnodens
       en: Sinusonasus magnodens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Globicephalinae
       en: Globicephalinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

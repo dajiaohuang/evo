@@ -9,7 +9,6 @@ records:
     name:
       zh: Macropus rama
       en: Macropus rama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

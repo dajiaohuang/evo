@@ -9,7 +9,6 @@ records:
     name:
       zh: Setonix brachyurus
       en: Setonix brachyurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

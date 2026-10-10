@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimoperadectes labrus
       en: Mimoperadectes labrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

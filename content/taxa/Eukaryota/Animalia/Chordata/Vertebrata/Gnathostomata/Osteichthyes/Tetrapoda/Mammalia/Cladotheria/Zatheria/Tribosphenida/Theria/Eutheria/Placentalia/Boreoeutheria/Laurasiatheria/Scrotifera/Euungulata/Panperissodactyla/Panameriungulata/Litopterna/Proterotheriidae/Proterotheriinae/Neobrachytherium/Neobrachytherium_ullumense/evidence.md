@@ -9,7 +9,6 @@ records:
     name:
       zh: Neobrachytherium ullumense
       en: Neobrachytherium ullumense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

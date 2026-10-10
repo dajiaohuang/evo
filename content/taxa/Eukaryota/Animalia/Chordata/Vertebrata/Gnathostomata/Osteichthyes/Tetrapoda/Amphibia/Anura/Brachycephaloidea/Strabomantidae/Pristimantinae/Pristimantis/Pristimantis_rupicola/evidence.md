@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis rupicola
       zh: Pristimantis rupicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

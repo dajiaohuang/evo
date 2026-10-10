@@ -9,7 +9,6 @@ records:
     name:
       zh: Zygaspis nigra
       en: Zygaspis nigra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

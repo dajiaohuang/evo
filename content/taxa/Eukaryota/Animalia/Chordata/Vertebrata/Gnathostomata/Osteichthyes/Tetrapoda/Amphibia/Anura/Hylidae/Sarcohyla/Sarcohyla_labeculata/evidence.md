@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla labeculata
       zh: Sarcohyla labeculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

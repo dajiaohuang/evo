@@ -22,5 +22,5 @@ The 2018 study searched trails, roads and river margins in a 3,919 km² middle-M
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. The two surveys use different periods, areas and methods. Record-based boundaries and extensions do not measure abundance, current occupancy or population trend.
+Source-linked introduction;. The two surveys use different periods, areas and methods. Record-based boundaries and extensions do not measure abundance, current occupancy or population trend.
 <!-- /evo:text -->

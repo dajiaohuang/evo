@@ -9,7 +9,6 @@ records:
     name:
       zh: Evolestes hadrommatos
       en: Evolestes hadrommatos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

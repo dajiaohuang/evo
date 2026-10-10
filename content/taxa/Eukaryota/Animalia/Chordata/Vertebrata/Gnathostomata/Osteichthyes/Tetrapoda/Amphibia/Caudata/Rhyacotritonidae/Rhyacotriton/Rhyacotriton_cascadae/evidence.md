@@ -9,7 +9,6 @@ records:
     name:
       en: Rhyacotriton cascadae
       zh: Rhyacotriton cascadae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

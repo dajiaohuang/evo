@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis rajakarunai
       en: Cnemaspis rajakarunai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

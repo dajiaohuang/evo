@@ -9,7 +9,6 @@ records:
     name:
       zh: Uta stansburiana
       en: Uta stansburiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

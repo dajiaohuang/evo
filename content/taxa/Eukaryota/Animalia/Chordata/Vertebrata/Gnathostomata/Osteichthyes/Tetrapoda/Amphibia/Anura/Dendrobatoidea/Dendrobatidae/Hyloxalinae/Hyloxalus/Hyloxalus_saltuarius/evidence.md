@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus saltuarius
       zh: Hyloxalus saltuarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Melomys lutillus
       en: Melomys lutillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

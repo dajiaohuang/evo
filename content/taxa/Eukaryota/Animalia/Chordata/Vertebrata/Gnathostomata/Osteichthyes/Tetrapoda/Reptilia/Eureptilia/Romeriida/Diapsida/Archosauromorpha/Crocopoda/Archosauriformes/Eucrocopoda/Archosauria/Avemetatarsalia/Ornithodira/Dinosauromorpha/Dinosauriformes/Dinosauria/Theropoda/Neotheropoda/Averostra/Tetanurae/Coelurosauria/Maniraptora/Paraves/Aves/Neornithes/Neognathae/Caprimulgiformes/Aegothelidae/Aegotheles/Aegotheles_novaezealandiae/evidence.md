@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegotheles novaezealandiae
       en: Aegotheles novaezealandiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tricuspiodon rutimeyer
       en: Tricuspiodon rutimeyer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

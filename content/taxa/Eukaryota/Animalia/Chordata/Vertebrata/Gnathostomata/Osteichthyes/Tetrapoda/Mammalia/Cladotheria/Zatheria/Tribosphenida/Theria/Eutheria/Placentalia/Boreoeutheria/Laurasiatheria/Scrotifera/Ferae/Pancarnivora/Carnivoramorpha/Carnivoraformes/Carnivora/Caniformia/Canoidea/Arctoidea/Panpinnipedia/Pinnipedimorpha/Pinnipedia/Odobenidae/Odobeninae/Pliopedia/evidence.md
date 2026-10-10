@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliopedia
       en: Pliopedia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

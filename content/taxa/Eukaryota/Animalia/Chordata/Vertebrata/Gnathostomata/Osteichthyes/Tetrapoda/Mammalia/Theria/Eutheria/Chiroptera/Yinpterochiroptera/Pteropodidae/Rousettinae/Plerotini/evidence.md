@@ -9,7 +9,6 @@ records:
     name:
       zh: Plerotini
       en: Plerotini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

@@ -9,7 +9,6 @@ records:
     name:
       zh: Galea spixii
       en: Galea spixii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

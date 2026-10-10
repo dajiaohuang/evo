@@ -9,7 +9,6 @@ records:
     name:
       zh: Chasmosaurus belli
       en: Chasmosaurus belli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

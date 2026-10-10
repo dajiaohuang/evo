@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus parkeri
       zh: Phrynobatrachus parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

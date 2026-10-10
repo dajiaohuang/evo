@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis bernali
       zh: Pristimantis bernali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

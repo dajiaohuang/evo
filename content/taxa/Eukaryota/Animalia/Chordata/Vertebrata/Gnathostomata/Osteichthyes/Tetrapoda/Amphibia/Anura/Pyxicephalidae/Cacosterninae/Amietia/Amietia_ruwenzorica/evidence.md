@@ -9,7 +9,6 @@ records:
     name:
       en: Amietia ruwenzorica
       zh: Amietia ruwenzorica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

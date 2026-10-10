@@ -9,7 +9,6 @@ records:
     name:
       zh: Petauroides volans
       en: Petauroides volans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

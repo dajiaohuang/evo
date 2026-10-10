@@ -9,7 +9,6 @@ records:
     name:
       zh: Pantosaurus striatus
       en: Pantosaurus striatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

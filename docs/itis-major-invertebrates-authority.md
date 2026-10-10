@@ -37,4 +37,4 @@ Every collection has a `web-light` and `native-full` contract:
 - Echinodermata: `data/packages/invertebrata/echinoderms/nomenclature/`.
 - Source-specific import ledgers: `data/sources/itis-*-sidecar-import-ledger.json`.
 
-These scope and delivery facts do not confer a complete taxonomic checklist, expert review, species concept equivalence, ecology, distribution, media, fossil evidence, or phylogeny.
+These scope and delivery facts do not confer a complete taxonomic checklist, species concept equivalence, ecology, distribution, media, fossil evidence, or phylogeny.

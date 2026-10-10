@@ -9,7 +9,6 @@ records:
     name:
       zh: Sequiwaimanu rosieae
       en: Sequiwaimanu rosieae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

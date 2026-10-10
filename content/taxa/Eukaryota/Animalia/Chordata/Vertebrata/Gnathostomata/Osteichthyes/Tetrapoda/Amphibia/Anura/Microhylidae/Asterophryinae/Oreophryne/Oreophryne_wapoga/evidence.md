@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne wapoga
       zh: Oreophryne wapoga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

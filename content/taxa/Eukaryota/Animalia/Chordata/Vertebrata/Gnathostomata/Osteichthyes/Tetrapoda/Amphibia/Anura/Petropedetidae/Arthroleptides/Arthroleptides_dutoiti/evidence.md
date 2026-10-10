@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptides dutoiti
       zh: Arthroleptides dutoiti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

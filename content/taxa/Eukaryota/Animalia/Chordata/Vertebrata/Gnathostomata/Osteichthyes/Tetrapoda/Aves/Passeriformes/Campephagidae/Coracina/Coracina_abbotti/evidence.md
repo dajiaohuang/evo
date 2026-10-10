@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracina abbotti
       en: Coracina abbotti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

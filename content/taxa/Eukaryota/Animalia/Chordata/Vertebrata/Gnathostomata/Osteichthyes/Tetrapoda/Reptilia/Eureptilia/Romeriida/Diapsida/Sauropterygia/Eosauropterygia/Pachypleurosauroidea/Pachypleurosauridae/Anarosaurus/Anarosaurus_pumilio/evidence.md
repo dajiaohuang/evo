@@ -9,7 +9,6 @@ records:
     name:
       zh: Anarosaurus pumilio
       en: Anarosaurus pumilio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

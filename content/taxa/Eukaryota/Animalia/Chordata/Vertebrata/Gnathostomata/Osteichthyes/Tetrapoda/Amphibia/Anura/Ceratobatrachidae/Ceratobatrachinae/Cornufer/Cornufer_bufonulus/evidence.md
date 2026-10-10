@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer bufonulus
       zh: Cornufer bufonulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

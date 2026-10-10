@@ -9,7 +9,6 @@ records:
     name:
       zh: Eirenis modestus
       en: Eirenis modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

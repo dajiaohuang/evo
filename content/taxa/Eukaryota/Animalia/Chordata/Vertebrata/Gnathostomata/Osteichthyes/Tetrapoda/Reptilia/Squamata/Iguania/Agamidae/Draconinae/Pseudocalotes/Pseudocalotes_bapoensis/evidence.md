@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocalotes bapoensis
       en: Pseudocalotes bapoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

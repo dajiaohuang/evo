@@ -9,7 +9,6 @@ records:
     name:
       zh: Latoplatecarpus willistoni
       en: Latoplatecarpus willistoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

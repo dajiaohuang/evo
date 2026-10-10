@@ -9,7 +9,6 @@ records:
     name:
       zh: Masrasector aegypticum
       en: Masrasector aegypticum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

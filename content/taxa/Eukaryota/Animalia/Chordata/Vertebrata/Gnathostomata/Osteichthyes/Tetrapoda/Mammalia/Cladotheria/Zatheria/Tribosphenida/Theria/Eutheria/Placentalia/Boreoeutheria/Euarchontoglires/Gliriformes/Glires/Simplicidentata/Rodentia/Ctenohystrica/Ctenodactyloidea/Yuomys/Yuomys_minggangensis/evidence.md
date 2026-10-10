@@ -9,7 +9,6 @@ records:
     name:
       zh: Yuomys minggangensis
       en: Yuomys minggangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

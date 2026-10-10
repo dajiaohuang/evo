@@ -9,7 +9,6 @@ records:
     name:
       zh: Ichthyomys tweedii
       en: Ichthyomys tweedii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

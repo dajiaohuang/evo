@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphicticeps dorog
       en: Amphicticeps dorog
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

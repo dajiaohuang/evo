@@ -9,7 +9,6 @@ records:
     name:
       zh: Phasianus bulgaricus
       en: Phasianus bulgaricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

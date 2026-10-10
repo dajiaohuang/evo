@@ -9,7 +9,6 @@ records:
     name:
       zh: Agelastes niger
       en: Agelastes niger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Priscosiren atlantica
       en: Priscosiren atlantica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

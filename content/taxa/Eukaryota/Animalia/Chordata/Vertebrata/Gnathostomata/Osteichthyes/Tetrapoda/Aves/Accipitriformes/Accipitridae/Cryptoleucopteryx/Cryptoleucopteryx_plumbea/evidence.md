@@ -11,7 +11,6 @@ records:
       - path: data/sources/amniota-collection-stage-2026-10-03-historical-candidates.json.gz
         recordIndex: 82
         matchStatus: historical-name-candidate-not-concept-equivalence
-    expertReview: false
     comprehensiveSpeciesMonograph: false
 ---
 
@@ -23,4 +22,4 @@ Source identity: COL:CTYBX
 
 Index: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
 
-Collection state: source-candidates-indexed-concept-review-pending. References and archived data are collected; biological prose and concept review remain pending. Bulk full-text download is outside the requested scope.
+References and archived data are collected; biological prose has not been written. Bulk full-text download is outside the requested scope.

@@ -9,7 +9,6 @@ records:
     name:
       en: Gray-legged Night Monkey
       zh: 灰腿夜猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: study-site

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myzomela cruentata
       en: Myzomela cruentata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

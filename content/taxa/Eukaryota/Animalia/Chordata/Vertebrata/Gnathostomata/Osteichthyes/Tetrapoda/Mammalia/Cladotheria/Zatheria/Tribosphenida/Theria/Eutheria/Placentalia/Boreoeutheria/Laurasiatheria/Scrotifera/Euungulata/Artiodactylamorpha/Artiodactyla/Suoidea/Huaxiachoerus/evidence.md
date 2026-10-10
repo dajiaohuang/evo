@@ -9,7 +9,6 @@ records:
     name:
       zh: Huaxiachoerus
       en: Huaxiachoerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

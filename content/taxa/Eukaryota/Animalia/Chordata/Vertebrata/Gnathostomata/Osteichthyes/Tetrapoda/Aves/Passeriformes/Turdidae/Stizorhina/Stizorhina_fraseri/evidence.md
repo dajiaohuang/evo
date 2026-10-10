@@ -9,7 +9,6 @@ records:
     name:
       zh: Stizorhina fraseri
       en: Stizorhina fraseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

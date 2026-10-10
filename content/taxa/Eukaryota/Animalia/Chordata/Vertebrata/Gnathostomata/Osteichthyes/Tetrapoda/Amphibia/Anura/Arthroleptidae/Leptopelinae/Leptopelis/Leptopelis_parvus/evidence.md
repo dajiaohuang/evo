@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis parvus
       zh: Leptopelis parvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

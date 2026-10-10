@@ -208,10 +208,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
 ---
 
 # Brachypodium distachyon
@@ -418,10 +414,4 @@ Life history, evolution, full distribution, fossil evidence and conservation rem
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
 A systematic literature review and complete comparison of source circumscriptions with the COL26.8 accepted species concept remain incomplete.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->

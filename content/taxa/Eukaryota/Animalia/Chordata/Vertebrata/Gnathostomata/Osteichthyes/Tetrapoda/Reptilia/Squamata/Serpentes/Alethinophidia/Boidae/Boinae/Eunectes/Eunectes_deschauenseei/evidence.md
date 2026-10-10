@@ -9,7 +9,6 @@ records:
     name:
       zh: Eunectes deschauenseei
       en: Eunectes deschauenseei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

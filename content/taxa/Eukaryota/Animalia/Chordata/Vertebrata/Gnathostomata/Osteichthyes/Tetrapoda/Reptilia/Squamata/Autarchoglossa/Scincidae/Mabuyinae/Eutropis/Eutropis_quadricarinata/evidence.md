@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutropis quadricarinata
       en: Eutropis quadricarinata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

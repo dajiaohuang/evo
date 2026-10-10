@@ -9,7 +9,6 @@ records:
     name:
       zh: Microcerculus bambla
       en: Microcerculus bambla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stephanophorus diadematus
       en: Stephanophorus diadematus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

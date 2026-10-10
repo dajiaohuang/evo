@@ -9,7 +9,6 @@ records:
     name:
       zh: Peltephilus strepens
       en: Peltephilus strepens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

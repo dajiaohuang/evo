@@ -9,7 +9,6 @@ records:
     name:
       en: Elachistocleis corumbaensis
       zh: Elachistocleis corumbaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

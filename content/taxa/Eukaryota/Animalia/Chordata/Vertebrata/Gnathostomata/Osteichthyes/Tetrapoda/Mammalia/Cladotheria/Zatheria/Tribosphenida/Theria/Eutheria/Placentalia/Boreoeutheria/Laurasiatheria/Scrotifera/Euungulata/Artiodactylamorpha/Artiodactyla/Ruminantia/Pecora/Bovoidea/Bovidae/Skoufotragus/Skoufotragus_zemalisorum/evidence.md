@@ -9,7 +9,6 @@ records:
     name:
       zh: Skoufotragus zemalisorum
       en: Skoufotragus zemalisorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

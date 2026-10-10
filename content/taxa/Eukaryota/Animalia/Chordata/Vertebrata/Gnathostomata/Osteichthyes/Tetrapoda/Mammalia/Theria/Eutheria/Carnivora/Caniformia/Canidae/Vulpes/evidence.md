@@ -9,7 +9,6 @@ records:
     name:
       zh: 狐属
       en: True foxes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

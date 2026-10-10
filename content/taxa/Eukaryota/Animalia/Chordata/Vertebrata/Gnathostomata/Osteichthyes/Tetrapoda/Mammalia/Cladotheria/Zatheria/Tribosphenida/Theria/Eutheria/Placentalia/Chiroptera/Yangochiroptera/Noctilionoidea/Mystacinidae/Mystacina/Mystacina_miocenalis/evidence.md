@@ -9,7 +9,6 @@ records:
     name:
       zh: Mystacina miocenalis
       en: Mystacina miocenalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

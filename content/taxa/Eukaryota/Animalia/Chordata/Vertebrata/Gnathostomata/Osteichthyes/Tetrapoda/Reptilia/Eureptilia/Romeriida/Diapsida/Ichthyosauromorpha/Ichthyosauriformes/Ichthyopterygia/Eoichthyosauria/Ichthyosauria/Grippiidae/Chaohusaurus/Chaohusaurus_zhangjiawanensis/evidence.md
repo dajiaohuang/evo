@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaohusaurus zhangjiawanensis
       en: Chaohusaurus zhangjiawanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

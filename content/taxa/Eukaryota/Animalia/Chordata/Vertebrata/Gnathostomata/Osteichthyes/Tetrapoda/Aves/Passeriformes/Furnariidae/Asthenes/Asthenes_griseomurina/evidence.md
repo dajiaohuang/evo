@@ -9,7 +9,6 @@ records:
     name:
       zh: Asthenes griseomurina
       en: Asthenes griseomurina
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

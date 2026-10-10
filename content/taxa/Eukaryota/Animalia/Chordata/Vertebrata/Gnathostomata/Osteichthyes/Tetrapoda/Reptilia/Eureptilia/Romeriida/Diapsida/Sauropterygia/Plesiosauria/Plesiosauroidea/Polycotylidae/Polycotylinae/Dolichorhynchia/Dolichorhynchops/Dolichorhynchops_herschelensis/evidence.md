@@ -9,7 +9,6 @@ records:
     name:
       zh: Dolichorhynchops herschelensis
       en: Dolichorhynchops herschelensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

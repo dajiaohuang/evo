@@ -9,7 +9,6 @@ records:
     name:
       zh: Malurus melanocephalus
       en: Malurus melanocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

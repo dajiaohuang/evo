@@ -9,7 +9,6 @@ records:
     name:
       en: Dryophytes femoralis
       zh: Dryophytes femoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

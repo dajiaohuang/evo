@@ -46,5 +46,5 @@ The historical estimate of about 700 breeding pairs on Laysan came from nest den
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Local research guide using scientific text on published PDF pages 1–6 (printed 175–180), Tables 1–3 and captions, with the page-3/4 table and figure layouts viewed. References on page 7 were not individually reviewed; page 8 is blank. All four authors are recorded from the PDF. The 2008 combination and pinned COL name remain distinct; current conservation status, full range, offshore diet, lifespan and expert review are not supplied. Raw nest records and statistics were not rerun. Summary/results/table differences remain unresolved; this is not a comprehensive species monograph.
+Local research guide using scientific text on published PDF pages 1–6 (printed 175–180), Tables 1–3 and captions, with the page-3/4 table and figure layouts viewed. References on page 7 were not individually reviewed; page 8 is blank. All four authors are recorded from the PDF. The 2008 combination and pinned COL name remain distinct; current conservation status, full range, offshore diet, lifespan are not supplied. Raw nest records and statistics were not rerun. Summary/results/table differences remain unresolved; this is not a comprehensive species monograph.
 <!-- /evo:text -->

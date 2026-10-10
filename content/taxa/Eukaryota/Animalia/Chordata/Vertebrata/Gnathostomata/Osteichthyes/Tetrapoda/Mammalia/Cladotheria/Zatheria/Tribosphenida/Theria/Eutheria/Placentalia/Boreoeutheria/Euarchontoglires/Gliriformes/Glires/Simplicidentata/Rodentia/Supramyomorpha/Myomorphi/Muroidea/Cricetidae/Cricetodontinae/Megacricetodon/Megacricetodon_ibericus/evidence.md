@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacricetodon ibericus
       en: Megacricetodon ibericus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

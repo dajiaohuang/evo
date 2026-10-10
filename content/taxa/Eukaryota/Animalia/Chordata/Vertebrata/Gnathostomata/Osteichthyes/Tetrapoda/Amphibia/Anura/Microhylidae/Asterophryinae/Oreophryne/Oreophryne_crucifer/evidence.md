@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne crucifer
       zh: Oreophryne crucifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

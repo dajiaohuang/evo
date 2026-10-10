@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus ocellatus
       en: Erythrolamprus ocellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

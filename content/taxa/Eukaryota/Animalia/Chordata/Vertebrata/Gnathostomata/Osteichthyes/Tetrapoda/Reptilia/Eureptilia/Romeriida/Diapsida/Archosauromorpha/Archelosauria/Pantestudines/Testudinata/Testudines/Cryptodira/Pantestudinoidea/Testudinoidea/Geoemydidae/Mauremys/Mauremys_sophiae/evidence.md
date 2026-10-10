@@ -9,7 +9,6 @@ records:
     name:
       zh: Mauremys sophiae
       en: Mauremys sophiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

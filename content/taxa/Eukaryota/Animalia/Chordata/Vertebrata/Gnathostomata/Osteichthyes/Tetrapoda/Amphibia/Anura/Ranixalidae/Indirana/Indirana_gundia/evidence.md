@@ -9,7 +9,6 @@ records:
     name:
       en: Indirana gundia
       zh: Indirana gundia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

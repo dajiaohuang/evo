@@ -9,7 +9,6 @@ records:
     name:
       en: Stefania imawari
       zh: Stefania imawari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

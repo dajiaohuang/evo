@@ -9,7 +9,6 @@ records:
     name:
       zh: Naemorhedus goral
       en: Naemorhedus goral
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

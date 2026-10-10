@@ -9,7 +9,6 @@ records:
     name:
       zh: Metamynodon chadronensis
       en: Metamynodon chadronensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

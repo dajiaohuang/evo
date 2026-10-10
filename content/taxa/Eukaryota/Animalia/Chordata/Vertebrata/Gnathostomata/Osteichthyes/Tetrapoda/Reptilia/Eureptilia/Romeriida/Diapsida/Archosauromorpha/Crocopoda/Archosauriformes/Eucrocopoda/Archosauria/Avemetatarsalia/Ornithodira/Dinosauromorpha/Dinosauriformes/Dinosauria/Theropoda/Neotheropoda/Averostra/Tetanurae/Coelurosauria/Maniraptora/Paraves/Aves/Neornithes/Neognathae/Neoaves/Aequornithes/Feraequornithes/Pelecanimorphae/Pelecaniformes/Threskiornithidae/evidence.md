@@ -9,7 +9,6 @@ records:
     name:
       zh: Threskiornithidae
       en: Threskiornithidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

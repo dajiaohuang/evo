@@ -9,7 +9,6 @@ records:
     name:
       en: Serranobatrachus sanctaemartae
       zh: Serranobatrachus sanctaemartae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

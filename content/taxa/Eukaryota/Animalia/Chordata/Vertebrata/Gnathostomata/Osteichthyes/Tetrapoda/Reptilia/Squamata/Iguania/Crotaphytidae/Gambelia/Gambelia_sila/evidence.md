@@ -9,7 +9,6 @@ records:
     name:
       zh: Gambelia sila
       en: Gambelia sila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

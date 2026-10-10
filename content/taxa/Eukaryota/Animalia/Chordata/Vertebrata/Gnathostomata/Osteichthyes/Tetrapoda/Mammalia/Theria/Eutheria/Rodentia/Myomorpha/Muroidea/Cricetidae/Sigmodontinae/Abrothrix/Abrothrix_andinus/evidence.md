@@ -9,7 +9,6 @@ records:
     name:
       zh: Abrothrix andinus
       en: Abrothrix andinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

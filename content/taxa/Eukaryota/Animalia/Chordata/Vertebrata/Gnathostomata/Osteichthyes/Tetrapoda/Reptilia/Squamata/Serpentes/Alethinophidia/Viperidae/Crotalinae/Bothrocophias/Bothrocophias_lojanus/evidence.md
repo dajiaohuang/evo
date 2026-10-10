@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothrocophias lojanus
       en: Bothrocophias lojanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

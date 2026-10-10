@@ -9,7 +9,6 @@ records:
     name:
       zh: Ahaetulla laudankia
       en: Ahaetulla laudankia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

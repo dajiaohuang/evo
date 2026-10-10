@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicaeum maugei
       en: Dicaeum maugei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

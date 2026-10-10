@@ -9,7 +9,6 @@ records:
     name:
       zh: Cairina moschata
       en: Cairina moschata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

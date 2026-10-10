@@ -9,7 +9,6 @@ records:
     name:
       zh: Paleoungulatum
       en: Paleoungulatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

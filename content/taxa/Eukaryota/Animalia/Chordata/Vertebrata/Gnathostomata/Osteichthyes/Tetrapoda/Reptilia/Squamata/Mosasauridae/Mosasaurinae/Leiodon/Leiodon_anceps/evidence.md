@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiodon anceps
       en: Leiodon anceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

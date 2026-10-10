@@ -9,7 +9,6 @@ records:
     name:
       zh: Maxschlosseria praeterita
       en: Maxschlosseria praeterita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Euprepiophis perlaceus
       en: Euprepiophis perlaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

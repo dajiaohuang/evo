@@ -9,7 +9,6 @@ records:
     name:
       zh: Ernestokokenia yirunhor
       en: Ernestokokenia yirunhor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

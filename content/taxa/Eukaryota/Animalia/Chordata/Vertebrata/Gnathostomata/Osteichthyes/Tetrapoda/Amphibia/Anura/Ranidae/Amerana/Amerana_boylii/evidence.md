@@ -9,7 +9,6 @@ records:
     name:
       en: Amerana boylii
       zh: Amerana boylii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

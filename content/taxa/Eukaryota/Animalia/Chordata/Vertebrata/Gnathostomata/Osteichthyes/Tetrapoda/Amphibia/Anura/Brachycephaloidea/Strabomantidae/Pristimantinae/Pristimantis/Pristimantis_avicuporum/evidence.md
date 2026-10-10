@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis avicuporum
       zh: Pristimantis avicuporum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料适用范围
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页是通往 COL26.8 种级 ID 4TQGL 的阅读导览，不是属级生态综述，也不提供合并后的当前种群估计。本页没有新增 dossier，也未经过外部领域专家评审。
+本页是通往 COL26.8 种级 ID 4TQGL 的阅读导览，不是属级生态综述，也不提供合并后的当前种群估计。本页没有新增 dossier。
 <!-- /evo:text -->

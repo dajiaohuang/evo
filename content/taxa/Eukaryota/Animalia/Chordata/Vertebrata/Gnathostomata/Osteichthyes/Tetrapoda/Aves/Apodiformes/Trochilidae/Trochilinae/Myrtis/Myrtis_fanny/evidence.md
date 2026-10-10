@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrtis fanny
       en: Myrtis fanny
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

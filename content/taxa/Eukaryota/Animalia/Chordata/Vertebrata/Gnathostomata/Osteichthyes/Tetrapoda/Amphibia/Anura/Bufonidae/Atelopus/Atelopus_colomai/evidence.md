@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus colomai
       zh: Atelopus colomai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

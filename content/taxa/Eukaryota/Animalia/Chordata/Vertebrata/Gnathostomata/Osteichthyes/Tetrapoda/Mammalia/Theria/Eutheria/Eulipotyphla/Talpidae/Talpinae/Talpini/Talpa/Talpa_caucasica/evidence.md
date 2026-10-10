@@ -9,7 +9,6 @@ records:
     name:
       zh: Talpa caucasica
       en: Talpa caucasica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

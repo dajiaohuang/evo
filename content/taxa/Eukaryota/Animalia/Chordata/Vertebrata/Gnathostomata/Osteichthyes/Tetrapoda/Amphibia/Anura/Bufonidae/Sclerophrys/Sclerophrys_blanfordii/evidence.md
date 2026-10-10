@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys blanfordii
       zh: Sclerophrys blanfordii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

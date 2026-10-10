@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger adungensis
       zh: Scutiger adungensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

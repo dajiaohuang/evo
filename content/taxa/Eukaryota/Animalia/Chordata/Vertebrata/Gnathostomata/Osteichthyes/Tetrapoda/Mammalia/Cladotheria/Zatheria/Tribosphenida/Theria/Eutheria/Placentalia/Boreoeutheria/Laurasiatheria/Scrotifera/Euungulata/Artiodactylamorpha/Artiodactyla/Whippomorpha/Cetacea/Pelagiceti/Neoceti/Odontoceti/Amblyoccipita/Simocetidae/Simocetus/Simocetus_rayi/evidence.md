@@ -9,7 +9,6 @@ records:
     name:
       zh: Simocetus rayi
       en: Simocetus rayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

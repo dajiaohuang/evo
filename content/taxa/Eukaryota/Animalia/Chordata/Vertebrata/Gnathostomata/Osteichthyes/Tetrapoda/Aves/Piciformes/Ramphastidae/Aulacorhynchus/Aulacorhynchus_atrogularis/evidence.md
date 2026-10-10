@@ -9,7 +9,6 @@ records:
     name:
       zh: Aulacorhynchus atrogularis
       en: Aulacorhynchus atrogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

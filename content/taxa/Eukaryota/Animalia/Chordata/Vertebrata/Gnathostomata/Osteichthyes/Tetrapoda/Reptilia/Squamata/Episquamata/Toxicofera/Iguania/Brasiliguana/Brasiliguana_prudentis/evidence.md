@@ -9,7 +9,6 @@ records:
     name:
       zh: Brasiliguana prudentis
       en: Brasiliguana prudentis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -35,7 +35,7 @@ This audit extends the discovery changes across data integrity, scientific bound
 
 ## Audit coverage and boundaries
 
-1. **Scientific and data contracts.** Run entity ownership, registry, package, claim, translation, provenance, review-freshness, manifest and source-budget checks. Review age filtering, sampling summaries, coordinate modes, map frame selection and export boundaries. This audit does not alter canonical scientific records, infer biological absence from catalogue differences, interpolate scientific geometry or fabricate expert reviews.
+1. **Scientific and data contracts.** Run entity ownership, registry, package, claim, translation, provenance, manifest and source-budget checks. Review age filtering, sampling summaries, coordinate modes, map frame selection and export boundaries. This audit does not alter canonical scientific records, infer biological absence from catalogue differences, interpolate scientific geometry.
 2. **User workflows.** Exercise bilingual discovery, no-JavaScript reading, search retry/focus/IME, story import/save/export/reorder, narrow layouts, offline cache repair and native stream validation. Axe is an automated accessibility check; it does not replace human screen-reader or physical-device testing.
 3. **Performance and concurrency.** Keep bounded backend result caches and Worker indexes, share backend transfers safely, stop cancelled Worker fetches, avoid repeated story encoding and join failed offline downloads. Existing map and application budget regressions remain active. Descriptor hashing reads one file at a time per downloader (up to four concurrent files for full offline storage).
 4. **Security and engineering.** Inspect external-data validation, exported markup, path containment, browser storage failure, dependency advisories and GitHub workflow permissions. Add an independent Go `vet` and `test -race` CI job alongside the Web, Windows type/data and native build checks. The backend is read-only; immutable snapshot directories must remain immutable while being served.
@@ -50,7 +50,7 @@ The automated suggested fix downgrades Capacitor CLI from 8.5.0 to 8.4.3. No dow
 
 The four backend failures were first demonstrated against the prior implementation. Local validation passes:
 
-- `npm run verify:web`: 173 test files / 722 unit tests; all data, registry, translation, provenance, review-freshness and source-budget checks; production build and 127 browser tests across Chromium, Firefox and WebKit.
+- `npm run verify:web`: 173 test files / 722 unit tests; all data, registry, translation, provenance and source-budget checks; production build and 127 browser tests across Chromium, Firefox and WebKit.
 - `npm run verify:pages`: 7,011 pages / 54.66 MiB and 39 reading-edition tests across the same three engines, including WebKit mobile accessibility checks.
 - `npm run typecheck`, `go test ./...` and `go vet ./...` pass. Production-only `npm audit --omit=dev` reports zero vulnerabilities; the three build-tool advisory entries above remain visible.
 - Full Web startup: 152.9 KiB gzip across 7 application assets. The map drag regression measured 41 ms render P95 and 42.1 ms input-to-render P95 on this Windows browser run. These are local synthetic measurements, not physical mobile-device benchmarks.
@@ -64,6 +64,6 @@ Local Go tests and `go vet ./...` pass. The Windows environment has CGO disabled
 ## Outstanding external work
 
 - Issue #167 remains open: the original full-resolution palaeophysiography source requires compatible licensing and complete source provenance. A lower-resolution preview is a separate artifact.
-- No current human expert review is created by this work. Automated contracts and source-linked records are not scientific publication approval.
+ Automated contracts and source-linked records are not scientific publication approval.
 - Deployment and native release publication remain deferred. Pages now requires an explicit manual workflow dispatch from main and successful CI for that exact commit; pushing main alone does not publish. Earlier PR #325 was already merged before the deployment pause.
 - Physical Android/iOS acceptance and human assistive-technology testing are not claimed by emulator/browser/CI evidence.

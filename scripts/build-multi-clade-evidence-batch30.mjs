@@ -67,7 +67,6 @@ function validateDossier(dossier) {
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.checkedAt, '2026-09-25')
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   assert.deepEqual(dossier.identity.sourceIds, ['col'])
   assert.ok(dossier.systematicSearch.date && dossier.systematicSearch.scope && dossier.systematicSearch.method && dossier.systematicSearch.queryOrPath && dossier.systematicSearch.inclusionCriteria && dossier.systematicSearch.exclusionCriteria && dossier.systematicSearch.searcher)

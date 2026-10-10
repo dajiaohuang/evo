@@ -9,7 +9,6 @@ records:
     name:
       en: Osteopilus marianae
       zh: Osteopilus marianae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

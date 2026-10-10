@@ -9,7 +9,6 @@ records:
     name:
       zh: Francellia salouagmirae
       en: Francellia salouagmirae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

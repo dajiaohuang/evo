@@ -9,7 +9,6 @@ records:
     name:
       zh: Sporophila albogularis
       en: Sporophila albogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

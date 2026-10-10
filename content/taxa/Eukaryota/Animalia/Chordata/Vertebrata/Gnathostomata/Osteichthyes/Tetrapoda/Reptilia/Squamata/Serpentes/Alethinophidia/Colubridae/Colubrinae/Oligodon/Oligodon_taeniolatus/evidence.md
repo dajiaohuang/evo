@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligodon taeniolatus
       en: Oligodon taeniolatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vulpes hassani
       en: Vulpes hassani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

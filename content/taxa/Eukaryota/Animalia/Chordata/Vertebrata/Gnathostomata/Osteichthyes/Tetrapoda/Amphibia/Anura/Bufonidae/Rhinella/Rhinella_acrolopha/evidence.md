@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella acrolopha
       zh: Rhinella acrolopha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

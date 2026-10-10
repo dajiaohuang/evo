@@ -9,7 +9,6 @@ records:
     name:
       zh: Albertonykus
       en: Albertonykus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

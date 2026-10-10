@@ -9,7 +9,6 @@ records:
     name:
       zh: Zanclodon crenatus
       en: Zanclodon crenatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

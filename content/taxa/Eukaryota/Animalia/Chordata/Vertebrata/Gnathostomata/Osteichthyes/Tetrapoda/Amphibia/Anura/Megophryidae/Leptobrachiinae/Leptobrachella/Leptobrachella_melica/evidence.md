@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella melica
       zh: Leptobrachella melica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

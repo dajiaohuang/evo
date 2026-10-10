@@ -9,7 +9,6 @@ records:
     name:
       en: Incilius cavifrons
       zh: Incilius cavifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

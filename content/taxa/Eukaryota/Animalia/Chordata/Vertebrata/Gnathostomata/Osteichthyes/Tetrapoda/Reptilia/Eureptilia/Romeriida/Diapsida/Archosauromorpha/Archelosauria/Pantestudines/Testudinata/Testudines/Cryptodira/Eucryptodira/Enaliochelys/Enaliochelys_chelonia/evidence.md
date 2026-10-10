@@ -9,7 +9,6 @@ records:
     name:
       zh: Enaliochelys chelonia
       en: Enaliochelys chelonia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

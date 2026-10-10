@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis spelaeus
       zh: Platymantis spelaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

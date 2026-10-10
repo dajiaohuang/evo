@@ -9,7 +9,6 @@ records:
     name:
       en: Mannophryne vulcano
       zh: Mannophryne vulcano
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Albertwoodemys testudinum
       en: Albertwoodemys testudinum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

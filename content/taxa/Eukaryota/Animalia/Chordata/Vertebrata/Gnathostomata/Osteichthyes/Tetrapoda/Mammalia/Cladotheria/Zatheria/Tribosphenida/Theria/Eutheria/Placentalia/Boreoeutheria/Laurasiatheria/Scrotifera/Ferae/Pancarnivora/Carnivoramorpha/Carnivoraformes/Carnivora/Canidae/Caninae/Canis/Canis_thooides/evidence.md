@@ -9,7 +9,6 @@ records:
     name:
       zh: Canis thooides
       en: Canis thooides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

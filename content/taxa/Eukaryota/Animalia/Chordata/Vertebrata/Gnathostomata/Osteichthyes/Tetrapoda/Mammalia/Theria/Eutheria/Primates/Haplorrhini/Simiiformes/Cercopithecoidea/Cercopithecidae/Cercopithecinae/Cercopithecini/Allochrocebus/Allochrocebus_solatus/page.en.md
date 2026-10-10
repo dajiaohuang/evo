@@ -34,5 +34,5 @@ In Tosi's limited sex-chromosome marker analysis of representatives of the three
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page centers on two Gabon range sources; historical interviews, records and the 2010 synthesis do not establish current occupancy, abundance or trend. The sources do not cover range-wide ecology or a current conservation assessment. The Chinese name is editorial; the page has not received external expert review. This page is not externally expert-reviewed.
+This page centers on two Gabon range sources; historical interviews, records and the 2010 synthesis do not establish current occupancy, abundance or trend. The sources do not cover range-wide ecology or a current conservation assessment. The Chinese name is editorial.
 <!-- /evo:text -->

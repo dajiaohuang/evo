@@ -22,5 +22,5 @@ Schüßler 等在 2020 年研究马达加斯加东北部的小范围鼠狐猴组
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-正文限于一项东北部区域研究及其与未命名谱系的比较；没有做现今全域分布、自然史或保育评估。MDD 当前显示 Anjiahely Mouse Lemur，本页保留文献中的 MacArthur 鼠狐猴名称；中文普通名为编辑翻译，尚未经过外部领域专家评审。
+正文限于一项东北部区域研究及其与未命名谱系的比较；没有做现今全域分布、自然史或保育评估。MDD 当前显示 Anjiahely Mouse Lemur，本页保留文献中的 MacArthur 鼠狐猴名称；中文普通名为编辑翻译。
 <!-- /evo:text -->

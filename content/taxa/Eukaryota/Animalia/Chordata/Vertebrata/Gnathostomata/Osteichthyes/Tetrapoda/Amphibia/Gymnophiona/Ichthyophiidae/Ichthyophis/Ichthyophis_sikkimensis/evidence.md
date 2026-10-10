@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis sikkimensis
       zh: Ichthyophis sikkimensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynoderma konkani
       zh: Phrynoderma konkani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

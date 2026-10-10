@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetraophasis szechenyii
       en: Tetraophasis szechenyii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

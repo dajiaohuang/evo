@@ -9,7 +9,6 @@ records:
     name:
       zh: Picumnus aurifrons
       en: Picumnus aurifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

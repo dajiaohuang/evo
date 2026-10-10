@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemisyntrachelus oligodon
       en: Hemisyntrachelus oligodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

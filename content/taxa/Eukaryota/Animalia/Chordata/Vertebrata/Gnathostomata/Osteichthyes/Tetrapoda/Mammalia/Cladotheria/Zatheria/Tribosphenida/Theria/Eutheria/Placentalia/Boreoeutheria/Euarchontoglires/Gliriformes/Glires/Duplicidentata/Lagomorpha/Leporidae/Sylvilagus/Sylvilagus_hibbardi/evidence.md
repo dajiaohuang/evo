@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylvilagus hibbardi
       en: Sylvilagus hibbardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

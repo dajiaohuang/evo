@@ -9,7 +9,6 @@ records:
     name:
       zh: Apatemys bellulus
       en: Apatemys bellulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

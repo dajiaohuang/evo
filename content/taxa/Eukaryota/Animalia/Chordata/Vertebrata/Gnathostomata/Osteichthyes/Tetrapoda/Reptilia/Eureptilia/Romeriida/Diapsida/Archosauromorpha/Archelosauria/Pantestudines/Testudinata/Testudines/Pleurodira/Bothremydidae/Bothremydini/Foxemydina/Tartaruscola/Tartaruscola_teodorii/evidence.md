@@ -9,7 +9,6 @@ records:
     name:
       zh: Tartaruscola teodorii
       en: Tartaruscola teodorii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella chullachaki
       zh: Rhinella chullachaki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

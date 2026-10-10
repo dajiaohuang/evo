@@ -9,7 +9,6 @@ records:
     name:
       zh: Lacerta agilis
       en: Lacerta agilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

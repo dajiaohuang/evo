@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyriglena atra
       en: Pyriglena atra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -105,5 +105,5 @@ The Aferdou N’Chaft database citation retains Martill et al. (2018), ref:64004
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Selected 2023 passages on jaw identity, material and classification are added alongside dated earlier descriptions. Sources disagree over upper/lower-jaw interpretation, treatment in an earlier analysis and the Xericeps type horizon; those differences remain visible. All images, supplements, specimens, matrices and subsequent studies have not been inspected, and no reidentification, remeasurement or classification adjudication occurred. Fixed database counts, ages and parent chains remain; external expert review, complete biology and reader delivery remain pending.
+Selected 2023 passages on jaw identity, material and classification are added alongside dated earlier descriptions. Sources disagree over upper/lower-jaw interpretation, treatment in an earlier analysis and the Xericeps type horizon; those differences remain visible. All images, supplements, specimens, matrices and subsequent studies have not been inspected, and no reidentification, remeasurement or classification adjudication occurred. Fixed database counts, ages and parent chains remain;
 <!-- /evo:text -->

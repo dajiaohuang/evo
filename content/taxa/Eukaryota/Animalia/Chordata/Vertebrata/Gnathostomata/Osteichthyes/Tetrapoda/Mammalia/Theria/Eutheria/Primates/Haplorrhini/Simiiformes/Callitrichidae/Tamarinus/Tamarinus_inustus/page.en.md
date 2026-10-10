@@ -22,5 +22,5 @@ Palacios et al. (2004) followed one group of three to six animals near the lower
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The sources use the older combination *Saguinus inustus*; one-group and reserve surveys support only local records. Earlier literature noted imprecise boundaries; this page gives no modern full-species range or conservation conclusion. This bilingual draft has not received external expert review. This page is not externally expert-reviewed.
+The sources use the older combination *Saguinus inustus*; one-group and reserve surveys support only local records. Earlier literature noted imprecise boundaries; this page gives no modern full-species range or conservation conclusion. This bilingual draft. This page is.
 <!-- /evo:text -->

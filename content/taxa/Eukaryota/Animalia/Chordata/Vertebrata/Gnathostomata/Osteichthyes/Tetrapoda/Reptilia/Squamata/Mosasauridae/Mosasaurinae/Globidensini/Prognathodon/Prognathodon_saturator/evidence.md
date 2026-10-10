@@ -9,7 +9,6 @@ records:
     name:
       zh: Prognathodon saturator
       en: Prognathodon saturator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

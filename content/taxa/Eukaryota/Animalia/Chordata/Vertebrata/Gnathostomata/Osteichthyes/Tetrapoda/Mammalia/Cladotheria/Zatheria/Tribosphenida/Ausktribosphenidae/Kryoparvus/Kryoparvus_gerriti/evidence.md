@@ -9,7 +9,6 @@ records:
     name:
       zh: Kryoparvus gerriti
       en: Kryoparvus gerriti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

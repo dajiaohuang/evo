@@ -9,7 +9,6 @@ records:
     name:
       zh: Haplocanthosaurus delfsi
       en: Haplocanthosaurus delfsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

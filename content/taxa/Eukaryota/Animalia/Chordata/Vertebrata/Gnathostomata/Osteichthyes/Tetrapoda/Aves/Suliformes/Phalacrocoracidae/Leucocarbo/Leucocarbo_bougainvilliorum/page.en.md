@@ -70,5 +70,5 @@ This is a two-period, one-colony diet comparison, with no samples collected imme
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-All biological claims are limited to regurgitated boluses from one wild colony at Grande Pescadores Island and two collection periods. The paper reports conflicting post-spill bolus totals (998 in Methods and Results; 837 in Table 1); values are retained as printed. The observational comparison does not show an oil-spill cause, immediate effects, or contaminant exposure, and cannot establish a species-wide diet. The Chinese common name is an editorial translation. This page has not received external expert review.
+All biological claims are limited to regurgitated boluses from one wild colony at Grande Pescadores Island and two collection periods. The paper reports conflicting post-spill bolus totals (998 in Methods and Results; 837 in Table 1); values are retained as printed. The observational comparison does not show an oil-spill cause, immediate effects, or contaminant exposure, and cannot establish a species-wide diet. The Chinese common name is an editorial translation. This page.
 <!-- /evo:text -->

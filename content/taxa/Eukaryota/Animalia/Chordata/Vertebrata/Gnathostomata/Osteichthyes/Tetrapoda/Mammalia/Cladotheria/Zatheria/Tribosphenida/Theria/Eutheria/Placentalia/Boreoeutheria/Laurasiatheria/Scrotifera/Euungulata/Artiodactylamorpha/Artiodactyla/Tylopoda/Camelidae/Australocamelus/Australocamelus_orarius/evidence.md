@@ -9,7 +9,6 @@ records:
     name:
       zh: Australocamelus orarius
       en: Australocamelus orarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

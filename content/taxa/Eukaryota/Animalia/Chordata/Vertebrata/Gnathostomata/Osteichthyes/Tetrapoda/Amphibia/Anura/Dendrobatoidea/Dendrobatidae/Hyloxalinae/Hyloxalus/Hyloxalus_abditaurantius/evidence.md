@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus abditaurantius
       zh: Hyloxalus abditaurantius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

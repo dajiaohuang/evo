@@ -9,7 +9,6 @@ records:
     name:
       zh: Acritoscincus trilineatus
       en: Acritoscincus trilineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

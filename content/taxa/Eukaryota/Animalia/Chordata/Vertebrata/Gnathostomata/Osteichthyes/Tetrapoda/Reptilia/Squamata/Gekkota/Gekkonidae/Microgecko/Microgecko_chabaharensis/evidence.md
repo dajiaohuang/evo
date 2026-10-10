@@ -9,7 +9,6 @@ records:
     name:
       zh: Microgecko chabaharensis
       en: Microgecko chabaharensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

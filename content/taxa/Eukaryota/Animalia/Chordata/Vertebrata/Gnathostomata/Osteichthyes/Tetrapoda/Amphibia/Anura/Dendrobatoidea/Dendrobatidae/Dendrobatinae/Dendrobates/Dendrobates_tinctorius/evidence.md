@@ -9,7 +9,6 @@ records:
     name:
       en: Dendrobates tinctorius
       zh: Dendrobates tinctorius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

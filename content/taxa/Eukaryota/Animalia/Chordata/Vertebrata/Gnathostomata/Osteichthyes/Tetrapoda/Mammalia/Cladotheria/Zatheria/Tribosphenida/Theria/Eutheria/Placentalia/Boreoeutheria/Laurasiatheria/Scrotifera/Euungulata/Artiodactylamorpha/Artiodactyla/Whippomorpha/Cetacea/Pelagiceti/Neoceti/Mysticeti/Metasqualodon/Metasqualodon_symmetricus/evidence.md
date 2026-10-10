@@ -9,7 +9,6 @@ records:
     name:
       zh: Metasqualodon symmetricus
       en: Metasqualodon symmetricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

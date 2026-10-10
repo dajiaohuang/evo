@@ -9,7 +9,6 @@ records:
     name:
       zh: Santacruzgnathus abdalai
       en: Santacruzgnathus abdalai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

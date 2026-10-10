@@ -9,7 +9,6 @@ records:
     name:
       en: Viridihyla multiplica
       zh: Viridihyla multiplica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

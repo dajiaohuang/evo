@@ -9,7 +9,6 @@ records:
     name:
       zh: Anilios guentheri
       en: Anilios guentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

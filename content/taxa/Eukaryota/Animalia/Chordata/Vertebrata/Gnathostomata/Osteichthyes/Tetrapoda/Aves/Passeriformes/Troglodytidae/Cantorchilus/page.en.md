@@ -10,7 +10,7 @@ status: source-linked
 ## Find seven records through older Thryothorus combinations
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-This entry organizes seven historical guides under COL26.8 Cantorchilus (3GX2) and Troglodytidae (626S2). Seven BirdLife/eBird names and their respective Avibase IDs match in one-to-one links. BirdTree gives seven older Thryothorus combinations, each with an exact catalogue synonym pointing to the accepted species. Name correspondence does not establish identical species boundaries across versions. The genus record has ten immediate children; seven pages do not complete genus content, natural history or expert review.
+This entry organizes seven historical guides under COL26.8 Cantorchilus (3GX2) and Troglodytidae (626S2). Seven BirdLife/eBird names and their respective Avibase IDs match in one-to-one links. BirdTree gives seven older Thryothorus combinations, each with an exact catalogue synonym pointing to the accepted species. Name correspondence does not establish identical species boundaries across versions. The genus record has ten immediate children; seven pages do not complete genus content, natural history.
 <!-- /evo:text -->
 
 ## Thirty-eight total birds and four complete sets
@@ -38,5 +38,5 @@ Group 2: [Cantorchilus nigricapillus](Cantorchilus_nigricapillus/page.en.md), [C
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Seven selected historical rows and synonyms for their older Thryothorus combinations support limited guides without completing content for ten catalogue children. Total birds, three to five complete sets and Dunning compiled mass remain separate. Categories do not supply measured diet, precise foraging strata, duetting, breeding, current maps or expert review.
+Seven selected historical rows and synonyms for their older Thryothorus combinations support limited guides without completing content for ten catalogue children. Total birds, three to five complete sets and Dunning compiled mass remain separate. Categories do not supply measured diet, precise foraging strata, duetting, breeding, current maps.
 <!-- /evo:text -->

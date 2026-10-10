@@ -9,7 +9,6 @@ records:
     name:
       en: Alytes cisternasii
       zh: Alytes cisternasii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

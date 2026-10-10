@@ -9,7 +9,6 @@ records:
     name:
       zh: Scolopax rusticola
       en: Scolopax rusticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

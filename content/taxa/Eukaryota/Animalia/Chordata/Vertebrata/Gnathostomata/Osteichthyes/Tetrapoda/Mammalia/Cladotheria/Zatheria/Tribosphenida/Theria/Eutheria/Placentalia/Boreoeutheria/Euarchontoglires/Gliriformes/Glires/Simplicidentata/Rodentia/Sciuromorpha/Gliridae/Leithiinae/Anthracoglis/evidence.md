@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthracoglis
       en: Anthracoglis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

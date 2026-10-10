@@ -9,7 +9,6 @@ records:
     name:
       en: Corythomantis
       zh: Corythomantis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

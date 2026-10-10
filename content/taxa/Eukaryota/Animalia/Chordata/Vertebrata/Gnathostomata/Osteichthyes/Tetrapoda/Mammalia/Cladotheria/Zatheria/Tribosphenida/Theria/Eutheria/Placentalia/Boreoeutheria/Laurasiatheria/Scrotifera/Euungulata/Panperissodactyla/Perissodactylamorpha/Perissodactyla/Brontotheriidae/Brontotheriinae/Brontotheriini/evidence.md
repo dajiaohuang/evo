@@ -9,7 +9,6 @@ records:
     name:
       zh: Brontotheriini
       en: Brontotheriini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

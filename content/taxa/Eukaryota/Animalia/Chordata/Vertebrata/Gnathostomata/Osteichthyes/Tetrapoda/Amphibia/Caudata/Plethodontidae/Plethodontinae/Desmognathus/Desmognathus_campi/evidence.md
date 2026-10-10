@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus campi
       zh: Desmognathus campi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

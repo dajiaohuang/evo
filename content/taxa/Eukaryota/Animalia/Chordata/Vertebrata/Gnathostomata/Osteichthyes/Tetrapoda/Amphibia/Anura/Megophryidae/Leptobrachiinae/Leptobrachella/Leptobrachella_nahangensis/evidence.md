@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella nahangensis
       zh: Leptobrachella nahangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

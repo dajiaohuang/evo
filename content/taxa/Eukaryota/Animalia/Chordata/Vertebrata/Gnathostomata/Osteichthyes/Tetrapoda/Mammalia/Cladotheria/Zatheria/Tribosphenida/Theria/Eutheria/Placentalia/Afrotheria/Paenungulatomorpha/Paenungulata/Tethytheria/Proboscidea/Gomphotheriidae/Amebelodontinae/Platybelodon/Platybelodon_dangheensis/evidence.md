@@ -9,7 +9,6 @@ records:
     name:
       zh: Platybelodon dangheensis
       en: Platybelodon dangheensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

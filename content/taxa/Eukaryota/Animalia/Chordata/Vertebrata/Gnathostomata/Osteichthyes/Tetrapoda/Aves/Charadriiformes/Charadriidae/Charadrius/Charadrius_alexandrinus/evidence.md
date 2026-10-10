@@ -9,7 +9,6 @@ records:
     name:
       zh: Charadrius alexandrinus
       en: Charadrius alexandrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

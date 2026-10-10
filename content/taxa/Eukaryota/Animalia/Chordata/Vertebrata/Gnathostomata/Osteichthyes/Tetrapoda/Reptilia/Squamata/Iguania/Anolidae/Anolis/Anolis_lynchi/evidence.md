@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis lynchi
       en: Anolis lynchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

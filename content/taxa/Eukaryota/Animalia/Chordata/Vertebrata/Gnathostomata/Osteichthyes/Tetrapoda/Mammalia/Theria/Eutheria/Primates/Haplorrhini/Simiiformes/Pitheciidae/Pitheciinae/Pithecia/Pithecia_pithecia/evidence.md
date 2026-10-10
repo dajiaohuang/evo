@@ -9,7 +9,6 @@ records:
     name:
       zh: 白面僧面猴
       en: White-faced saki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -794,10 +793,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Pithecia pithecia
@@ -991,5 +986,5 @@ Six facets remain not assessed; the source explicitly cautions against species-l
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No multi-source species review or independent external expert review has been completed.
+No multi-source species search has been completed.
 <!-- /evo:text -->

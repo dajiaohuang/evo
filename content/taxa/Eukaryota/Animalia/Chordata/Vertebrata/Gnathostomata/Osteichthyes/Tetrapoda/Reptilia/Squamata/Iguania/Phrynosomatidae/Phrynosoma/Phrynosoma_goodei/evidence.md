@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynosoma goodei
       en: Phrynosoma goodei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

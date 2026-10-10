@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonyosoma margaritatum
       en: Gonyosoma margaritatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

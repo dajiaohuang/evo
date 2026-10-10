@@ -10,7 +10,6 @@ records:
     name:
       en: Lesser Galago genus
       zh: 小婴猴属
-    reviewStatus: source-linked
     sections:
       - topic: readingPath
         text:

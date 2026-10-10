@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrauchenia ullomensis
       en: Macrauchenia ullomensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

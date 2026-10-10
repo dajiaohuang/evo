@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana shiwandashanensis
       zh: Nidirana shiwandashanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

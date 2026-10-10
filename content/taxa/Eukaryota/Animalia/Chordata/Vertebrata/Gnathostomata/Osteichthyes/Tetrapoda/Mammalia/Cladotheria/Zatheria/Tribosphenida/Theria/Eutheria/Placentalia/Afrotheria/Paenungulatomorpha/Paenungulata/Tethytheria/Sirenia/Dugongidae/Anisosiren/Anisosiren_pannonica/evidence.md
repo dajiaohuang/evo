@@ -9,7 +9,6 @@ records:
     name:
       zh: Anisosiren pannonica
       en: Anisosiren pannonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorypaltus prophatus
       en: Dorypaltus prophatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerberus dunsoni
       en: Cerberus dunsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

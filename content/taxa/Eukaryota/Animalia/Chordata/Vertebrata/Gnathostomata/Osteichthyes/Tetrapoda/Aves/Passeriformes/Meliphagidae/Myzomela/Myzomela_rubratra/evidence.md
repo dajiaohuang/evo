@@ -9,7 +9,6 @@ records:
     name:
       zh: Myzomela rubratra
       en: Myzomela rubratra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

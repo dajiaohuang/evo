@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylviparus modestus
       en: Sylviparus modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

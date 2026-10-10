@@ -9,7 +9,6 @@ records:
     name:
       zh: Amotosaurus rotfeldensis
       en: Amotosaurus rotfeldensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

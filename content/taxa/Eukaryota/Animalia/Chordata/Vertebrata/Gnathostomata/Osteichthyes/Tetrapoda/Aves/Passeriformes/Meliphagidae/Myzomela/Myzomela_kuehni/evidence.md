@@ -9,7 +9,6 @@ records:
     name:
       zh: Myzomela kuehni
       en: Myzomela kuehni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

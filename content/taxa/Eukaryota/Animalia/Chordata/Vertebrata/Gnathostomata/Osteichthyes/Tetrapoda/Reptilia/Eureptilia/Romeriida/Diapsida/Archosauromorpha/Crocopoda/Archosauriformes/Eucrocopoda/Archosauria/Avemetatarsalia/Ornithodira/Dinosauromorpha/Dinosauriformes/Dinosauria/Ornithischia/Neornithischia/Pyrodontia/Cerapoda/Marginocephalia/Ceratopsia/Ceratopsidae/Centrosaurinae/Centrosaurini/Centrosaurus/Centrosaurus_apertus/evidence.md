@@ -9,7 +9,6 @@ records:
     name:
       zh: Centrosaurus apertus
       en: Centrosaurus apertus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

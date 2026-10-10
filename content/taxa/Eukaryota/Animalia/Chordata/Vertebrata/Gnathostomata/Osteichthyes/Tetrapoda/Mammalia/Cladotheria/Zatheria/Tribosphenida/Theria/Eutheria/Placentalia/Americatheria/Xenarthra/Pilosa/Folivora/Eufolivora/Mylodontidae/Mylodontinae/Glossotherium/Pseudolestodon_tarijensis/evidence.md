@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudolestodon tarijensis
       en: Pseudolestodon tarijensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

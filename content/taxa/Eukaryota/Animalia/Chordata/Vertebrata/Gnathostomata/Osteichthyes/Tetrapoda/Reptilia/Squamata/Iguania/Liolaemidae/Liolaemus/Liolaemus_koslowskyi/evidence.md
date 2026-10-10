@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus koslowskyi
       en: Liolaemus koslowskyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

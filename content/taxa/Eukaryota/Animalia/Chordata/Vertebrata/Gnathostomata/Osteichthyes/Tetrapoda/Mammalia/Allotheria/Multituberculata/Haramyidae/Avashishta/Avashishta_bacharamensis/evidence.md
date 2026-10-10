@@ -9,7 +9,6 @@ records:
     name:
       zh: Avashishta bacharamensis
       en: Avashishta bacharamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

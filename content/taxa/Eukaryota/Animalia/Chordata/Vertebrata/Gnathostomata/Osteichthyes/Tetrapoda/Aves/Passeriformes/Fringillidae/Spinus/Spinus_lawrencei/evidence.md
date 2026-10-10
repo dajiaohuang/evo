@@ -9,7 +9,6 @@ records:
     name:
       zh: Spinus lawrencei
       en: Spinus lawrencei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

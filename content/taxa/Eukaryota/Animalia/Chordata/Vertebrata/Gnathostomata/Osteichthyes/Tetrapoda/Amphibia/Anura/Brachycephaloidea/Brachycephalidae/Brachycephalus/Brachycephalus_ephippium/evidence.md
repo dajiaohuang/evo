@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus ephippium
       zh: Brachycephalus ephippium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

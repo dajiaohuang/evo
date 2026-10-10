@@ -9,7 +9,6 @@ records:
     name:
       zh: 北方竹狐猴
       en: Northern Bamboo Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

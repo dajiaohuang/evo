@@ -16,7 +16,7 @@ import { useI18n } from '../../i18n'
 import { isPagesPreview, isPreviewTaxonAllowed } from '../../config/pagesPreview'
 import { GeoTimeline } from '../timeline/GeoTimeline'
 import { ErrorBoundary } from '../common/ErrorBoundary'
-import { EvidenceStatus } from '../common/EvidenceStatus'
+import { EvidenceIssueLink } from '../common/EvidenceIssueLink'
 import './ExplorerWorkspace.css'
 
 type ExplorerView = 'map' | 'tree' | 'diversity'
@@ -32,7 +32,7 @@ const TUTORIAL_STEPS: Array<{ id: TutorialStepId; title: string; description: st
   { id: 'time', title: 'Set a time context', description: 'The geological timeline is the shared clock. Changing age updates the period context, fossil sample and nearest available map frame; only claim-linked, published range evidence can surface a scene card.' },
   { id: 'map', title: 'Read the map as a reconstruction', description: 'Map layers are modelled geometries, not direct observations. Fossil markers keep reconstructed and modern coordinates separate.' },
   { id: 'tree', title: 'Switch to the tree without changing context', description: 'The tree keeps the selected age and subject. Navigation, fossil first appearances and the scoped topology remain distinct representations.' },
-  { id: 'evidence', title: 'Check evidence before drawing a conclusion', description: 'The evidence panel discloses package maturity, claims, sources and uncertainty. Automated checks are not expert review.' },
+  { id: 'evidence', title: 'Check evidence before drawing a conclusion', description: 'The evidence panel shows claims, sources and uncertainty.' },
 ]
 
 const TREE_MODES = new Set<TreeDisplayMode>(['navigation', 'cladogram', 'first-appearance', 'fossil-range', 'calibration', 'radial'])
@@ -536,7 +536,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
               </a>
             </div>
           )}
-          {selectedPublication && <EvidenceStatus publication={selectedPublication} entityId={profileContext?.id ?? selectedNodeId ?? undefined} compact />}
+          {selectedPublication && <EvidenceIssueLink entityId={profileContext?.id ?? selectedNodeId ?? undefined} compact />}
           <Suspense fallback={<ModuleLoading />}><ErrorBoundary fallback={<ViewFallback label="Inspector" />}><SpeciesDetail /></ErrorBoundary></Suspense>
         </div>
       </aside>}

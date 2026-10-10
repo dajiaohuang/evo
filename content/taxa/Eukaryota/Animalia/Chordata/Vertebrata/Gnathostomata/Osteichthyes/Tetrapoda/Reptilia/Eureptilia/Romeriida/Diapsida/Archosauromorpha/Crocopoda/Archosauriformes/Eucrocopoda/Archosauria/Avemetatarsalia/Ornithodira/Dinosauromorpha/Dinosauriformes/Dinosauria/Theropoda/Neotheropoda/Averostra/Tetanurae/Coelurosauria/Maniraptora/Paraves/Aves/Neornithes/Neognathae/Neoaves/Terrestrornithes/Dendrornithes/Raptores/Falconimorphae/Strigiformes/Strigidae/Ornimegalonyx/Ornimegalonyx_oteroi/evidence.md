@@ -9,7 +9,6 @@ records:
     name:
       zh: Ornimegalonyx oteroi
       en: Ornimegalonyx oteroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

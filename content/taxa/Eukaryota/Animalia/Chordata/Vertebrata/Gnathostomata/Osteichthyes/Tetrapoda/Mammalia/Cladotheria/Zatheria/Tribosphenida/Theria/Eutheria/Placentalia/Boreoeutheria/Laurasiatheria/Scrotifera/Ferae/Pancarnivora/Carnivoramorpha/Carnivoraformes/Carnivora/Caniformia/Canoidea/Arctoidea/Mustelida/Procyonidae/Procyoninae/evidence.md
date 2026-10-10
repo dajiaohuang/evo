@@ -9,7 +9,6 @@ records:
     name:
       zh: Procyoninae
       en: Procyoninae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

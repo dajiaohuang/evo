@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoeniculus purpureus
       en: Phoeniculus purpureus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

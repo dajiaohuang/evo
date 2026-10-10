@@ -9,7 +9,6 @@ records:
     name:
       zh: Untermannerix
       en: Untermannerix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

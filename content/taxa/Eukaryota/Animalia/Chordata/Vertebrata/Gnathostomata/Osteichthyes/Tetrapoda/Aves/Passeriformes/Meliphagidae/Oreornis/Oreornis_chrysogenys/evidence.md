@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreornis chrysogenys
       en: Oreornis chrysogenys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

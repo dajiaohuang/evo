@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdoides hindei
       en: Turdoides hindei
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

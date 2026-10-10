@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura elongata
       en: Crocidura elongata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

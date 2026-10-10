@@ -9,7 +9,6 @@ records:
     name:
       zh: Myriopholis yemenica
       en: Myriopholis yemenica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis quaquaversus
       zh: Pristimantis quaquaversus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

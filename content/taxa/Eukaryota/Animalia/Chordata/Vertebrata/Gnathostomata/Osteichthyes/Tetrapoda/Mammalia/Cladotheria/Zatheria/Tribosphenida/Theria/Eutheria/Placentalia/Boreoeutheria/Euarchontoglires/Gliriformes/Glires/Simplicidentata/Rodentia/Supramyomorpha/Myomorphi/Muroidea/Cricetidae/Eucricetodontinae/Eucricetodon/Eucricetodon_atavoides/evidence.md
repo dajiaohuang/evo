@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucricetodon atavoides
       en: Eucricetodon atavoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

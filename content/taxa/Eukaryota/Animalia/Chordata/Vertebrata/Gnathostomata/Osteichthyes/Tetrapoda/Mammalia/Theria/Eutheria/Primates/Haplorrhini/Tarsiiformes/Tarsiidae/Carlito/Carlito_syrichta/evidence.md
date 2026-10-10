@@ -9,7 +9,6 @@ records:
     name:
       zh: 菲律宾眼镜猴
       en: Philippine tarsier
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: ecology
@@ -347,10 +346,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Carlito syrichta
@@ -545,10 +540,4 @@ One localized field study provides bounded ecological observations; other facets
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The observations do not establish unique population counts, population viability or a species-wide account.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

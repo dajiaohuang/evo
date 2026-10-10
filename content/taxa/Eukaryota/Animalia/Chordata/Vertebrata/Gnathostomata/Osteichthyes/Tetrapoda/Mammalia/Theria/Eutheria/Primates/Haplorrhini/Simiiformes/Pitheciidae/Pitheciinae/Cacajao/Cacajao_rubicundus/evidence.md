@@ -9,7 +9,6 @@ records:
     name:
       en: Red Bald Uacari
       zh: 红秃乌卡里
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: taxonomy

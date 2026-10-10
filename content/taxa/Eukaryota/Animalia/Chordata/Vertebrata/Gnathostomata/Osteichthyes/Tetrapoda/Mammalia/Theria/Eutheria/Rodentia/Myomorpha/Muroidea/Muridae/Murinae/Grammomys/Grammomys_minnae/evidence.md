@@ -9,7 +9,6 @@ records:
     name:
       zh: Grammomys minnae
       en: Grammomys minnae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

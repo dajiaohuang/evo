@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudopaludicola saltica
       zh: Pseudopaludicola saltica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

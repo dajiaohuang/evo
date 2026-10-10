@@ -9,7 +9,6 @@ records:
     name:
       zh: Clemmys ukoi
       en: Clemmys ukoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

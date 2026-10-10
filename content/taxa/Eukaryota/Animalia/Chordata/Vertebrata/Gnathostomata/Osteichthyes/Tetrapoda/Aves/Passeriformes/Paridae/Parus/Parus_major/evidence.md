@@ -9,7 +9,6 @@ records:
     name:
       zh: 大山雀
       en: Great tit
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -584,12 +583,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Parus major
@@ -766,10 +759,4 @@ One focused primary source supports a bounded claim in ecology only.
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The other six scientific facets remain explicitly not assessed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

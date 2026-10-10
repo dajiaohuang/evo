@@ -9,7 +9,6 @@ records:
     name:
       zh: Sclerocalyptus matthewi
       en: Sclerocalyptus matthewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

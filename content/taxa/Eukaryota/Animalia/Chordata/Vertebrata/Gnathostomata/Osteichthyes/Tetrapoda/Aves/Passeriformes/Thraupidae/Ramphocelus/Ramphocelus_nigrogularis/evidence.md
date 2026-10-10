@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphocelus nigrogularis
       en: Ramphocelus nigrogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

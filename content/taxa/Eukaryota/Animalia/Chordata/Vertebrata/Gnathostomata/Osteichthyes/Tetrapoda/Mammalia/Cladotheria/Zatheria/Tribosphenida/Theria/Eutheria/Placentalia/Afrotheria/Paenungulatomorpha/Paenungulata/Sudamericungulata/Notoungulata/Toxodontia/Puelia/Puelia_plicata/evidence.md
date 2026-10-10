@@ -9,7 +9,6 @@ records:
     name:
       zh: Puelia plicata
       en: Puelia plicata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

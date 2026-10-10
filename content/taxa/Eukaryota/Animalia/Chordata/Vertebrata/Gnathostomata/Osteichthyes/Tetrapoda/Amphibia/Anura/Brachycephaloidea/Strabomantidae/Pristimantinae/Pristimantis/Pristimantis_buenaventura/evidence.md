@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis buenaventura
       zh: Pristimantis buenaventura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

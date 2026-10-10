@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis trachyblepharis
       zh: Pristimantis trachyblepharis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

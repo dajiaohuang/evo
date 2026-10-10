@@ -9,7 +9,6 @@ records:
     name:
       zh: Gomphotaria pugnax
       en: Gomphotaria pugnax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

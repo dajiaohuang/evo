@@ -9,7 +9,6 @@ records:
     name:
       zh: Lingwulong shenqi
       en: Lingwulong shenqi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

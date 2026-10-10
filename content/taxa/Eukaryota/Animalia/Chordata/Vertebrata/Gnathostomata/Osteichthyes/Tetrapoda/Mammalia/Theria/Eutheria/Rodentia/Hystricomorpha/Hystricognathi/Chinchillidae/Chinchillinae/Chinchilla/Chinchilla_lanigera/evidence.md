@@ -9,7 +9,6 @@ records:
     name:
       zh: Chinchilla lanigera
       en: Chinchilla lanigera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

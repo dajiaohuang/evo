@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Edwards 1986 DOI 10.1111/j.1095-8339.1986.tb01020.x
       referenceLinks:
         - referenceId: edwards-1986-aglaophyton
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Edwards 1986 DOI 10.1111/j.1095-8339.1986.tb01020.x; Parry et al. 2011 DOI 10.1144/0016-76492010-043
       referenceLinks:
         - referenceId: edwards-1986-aglaophyton
           relation: supports
@@ -104,9 +98,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Edwards 1986 DOI 10.1111/j.1095-8339.1986.tb01020.x
       referenceLinks:
         - referenceId: edwards-1986-aglaophyton
           relation: supports
@@ -125,9 +116,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Edwards 1986 DOI 10.1111/j.1095-8339.1986.tb01020.x
       referenceLinks:
         - referenceId: edwards-1986-aglaophyton
           relation: supports
@@ -146,9 +134,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Parry et al. 2011 DOI 10.1144/0016-76492010-043; Edwards 1986 DOI 10.1111/j.1095-8339.1986.tb01020.x
       referenceLinks:
         - referenceId: parry-2011-rhynie-age
           relation: supports
@@ -207,7 +192,6 @@ records:
           locator: pp. 173–204; redescription, reconstruction and Rhynie Chert provenance
         - referenceId: parry-2011-rhynie-age
           locator: pp. 863–872, especially Abstract and Results; 411.5 ± 1.3 Ma ID-TIMS U–Pb zircon age
-      reviewStatus: automated-audit-passed
 ---
 
 # Aglaophyton

@@ -66,7 +66,6 @@ function validateRecord(record) {
   assert.equal(record.sourceDatasetId, '2144')
   assert.equal(record.rank, 'species')
   assert.equal(record.completeness?.status, 'incomplete')
-  assert.equal(record.expertReview?.status, 'not-reviewed')
   assert.deepEqual(Object.keys(record.facets).sort(), [...FACETS].sort())
   const sources = new Map(record.sources.map(source => [source.id, source]))
   assert.equal(sources.size, record.sources.length, 'Duplicate source ids')

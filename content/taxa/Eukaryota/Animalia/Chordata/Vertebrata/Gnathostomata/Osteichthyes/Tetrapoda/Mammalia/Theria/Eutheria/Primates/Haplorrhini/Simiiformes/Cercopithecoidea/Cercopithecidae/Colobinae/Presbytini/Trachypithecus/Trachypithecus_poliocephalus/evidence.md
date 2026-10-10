@@ -9,7 +9,6 @@ records:
     name:
       zh: 吉婆叶猴
       en: Cat Ba Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: genomicSampling

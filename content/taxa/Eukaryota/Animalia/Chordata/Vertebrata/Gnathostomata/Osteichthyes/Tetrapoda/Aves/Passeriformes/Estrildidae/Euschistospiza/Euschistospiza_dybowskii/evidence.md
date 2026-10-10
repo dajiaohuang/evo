@@ -9,7 +9,6 @@ records:
     name:
       zh: Euschistospiza dybowskii
       en: Euschistospiza dybowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

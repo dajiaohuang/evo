@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ward-saunders-1997-allonautilus
       referenceLinks:
         - referenceId: ward-saunders-1997-allonautilus
           relation: supports
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: ward-saunders-1997-allonautilus
           locator: 1054–1064; diagnosis and material; Figures 1–8; phylogenetic discussion
-      reviewStatus: automated-audit-passed
 ---
 
 # Nautiloidea

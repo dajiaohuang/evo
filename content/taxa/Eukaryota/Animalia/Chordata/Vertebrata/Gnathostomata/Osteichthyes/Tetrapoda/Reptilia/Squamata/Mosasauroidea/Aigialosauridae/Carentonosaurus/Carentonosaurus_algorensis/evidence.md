@@ -9,7 +9,6 @@ records:
     name:
       zh: Carentonosaurus algorensis
       en: Carentonosaurus algorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

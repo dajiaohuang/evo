@@ -9,7 +9,6 @@ records:
     name:
       zh: Amorphochilus schnablii
       en: Amorphochilus schnablii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

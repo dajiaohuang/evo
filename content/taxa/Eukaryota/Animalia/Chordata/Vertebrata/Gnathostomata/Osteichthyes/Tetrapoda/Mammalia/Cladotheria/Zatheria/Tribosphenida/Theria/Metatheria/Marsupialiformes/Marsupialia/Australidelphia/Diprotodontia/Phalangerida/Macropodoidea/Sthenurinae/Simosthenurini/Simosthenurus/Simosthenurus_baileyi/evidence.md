@@ -9,7 +9,6 @@ records:
     name:
       zh: Simosthenurus baileyi
       en: Simosthenurus baileyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

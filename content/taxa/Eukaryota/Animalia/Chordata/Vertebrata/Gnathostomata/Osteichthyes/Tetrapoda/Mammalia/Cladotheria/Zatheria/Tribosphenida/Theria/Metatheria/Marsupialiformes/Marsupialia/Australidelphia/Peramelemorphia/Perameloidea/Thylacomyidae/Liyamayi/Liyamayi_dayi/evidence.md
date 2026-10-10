@@ -9,7 +9,6 @@ records:
     name:
       zh: Liyamayi dayi
       en: Liyamayi dayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

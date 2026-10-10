@@ -142,9 +142,9 @@ const record = {
   },
   completeness: {
     status: 'incomplete',
-    reasons: ['One primary laboratory study supports only a narrowly scoped sleep and torpor claim.', 'Six facets remain not assessed and life-history evidence is limited to six captive males under a specific protocol.', 'Independent expert review and comprehensive multi-source review are incomplete.'],
+    reasons: ['One primary laboratory study supports only a narrowly scoped sleep and torpor claim.', 'Six facets remain not assessed and life-history evidence is limited to six captive males under a specific protocol.', 'A comprehensive multi-source search is incomplete.'],
   },
-  expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
 }
 assert.ok(record.facets.lifeHistory.claims[0].sourceIds.every(sourceId => sources.find(s => s.id === sourceId)?.licenseAssessment === 'item-level-verified'))
 

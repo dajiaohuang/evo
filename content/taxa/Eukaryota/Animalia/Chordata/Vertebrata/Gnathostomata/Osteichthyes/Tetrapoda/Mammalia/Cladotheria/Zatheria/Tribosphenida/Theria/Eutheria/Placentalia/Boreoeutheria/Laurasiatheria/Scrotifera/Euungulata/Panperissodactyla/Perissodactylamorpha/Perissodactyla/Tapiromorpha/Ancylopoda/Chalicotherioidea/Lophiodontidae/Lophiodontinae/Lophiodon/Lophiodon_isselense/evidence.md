@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophiodon isselense
       en: Lophiodon isselense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

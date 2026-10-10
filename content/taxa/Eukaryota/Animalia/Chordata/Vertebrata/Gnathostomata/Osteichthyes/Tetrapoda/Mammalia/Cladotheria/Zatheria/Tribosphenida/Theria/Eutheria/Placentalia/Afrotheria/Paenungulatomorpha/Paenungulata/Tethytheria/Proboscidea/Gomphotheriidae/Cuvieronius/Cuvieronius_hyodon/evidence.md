@@ -9,7 +9,6 @@ records:
     name:
       zh: Cuvieronius hyodon
       en: Cuvieronius hyodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus molossus
       en: Crotalus molossus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

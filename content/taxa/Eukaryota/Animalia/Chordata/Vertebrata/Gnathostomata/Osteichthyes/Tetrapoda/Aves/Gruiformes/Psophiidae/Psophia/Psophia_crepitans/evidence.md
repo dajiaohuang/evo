@@ -9,7 +9,6 @@ records:
     name:
       zh: Psophia crepitans
       en: Psophia crepitans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

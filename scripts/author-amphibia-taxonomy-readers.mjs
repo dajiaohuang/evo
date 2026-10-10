@@ -52,7 +52,7 @@ for (const node of groups.values()) {
   }
   const record = {
     scientificName: node.scientificName, rank: node.rank, sourceDatasetId: item?.sourceDatasetId ?? '316115',
-    name: { en: node.scientificName, zh: node.scientificName }, reviewStatus: 'source-linked', checkedAt: '2026-10-02',
+    name: { en: node.scientificName, zh: node.scientificName },  checkedAt: '2026-10-02',
     sections: [
       { topic: 'taxonomy', title: { en: 'Accepted name and placement', zh: '接受名称与分类位置' }, text: section0, sourceIds: ['taxonomy'] },
       { topic: 'overview', title: { en: 'Reading route', zh: '阅读路线' }, text: section1, sourceIds: ['taxonomy'] },
@@ -66,7 +66,7 @@ for (const node of groups.values()) {
         scope: { en: 'Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.', zh: '固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。' },
       }, originalFields: ['id', 'title', 'url', 'locator', 'scope'],
     }] },
-    limitations: { en: 'Taxonomy-only orientation. Biological research coverage is pending and this page is not counted as a complete species account. No external expert review has been completed.', zh: '本页仅提供分类阅读入口。生物学研究覆盖尚待补齐，不计为完整物种档案；没有完成外部专家审评。' },
+    limitations: { en: 'Taxonomy-only orientation. Biological research coverage is pending and this page is not counted as a complete species account. ', zh: '本页仅提供分类阅读入口。生物学研究覆盖尚待补齐，不计为完整物种档案；。' },
   }
   const indexFile = path.join(node.path, 'index.yaml')
   const priorIndex = fs.existsSync(indexFile) ? fs.readFileSync(indexFile) : null

@@ -9,7 +9,6 @@ records:
     name:
       zh: Microscalenodon nanus
       en: Microscalenodon nanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

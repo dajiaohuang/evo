@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesispermophilus macrodon
       en: Plesispermophilus macrodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus grandisonae
       zh: Dendropsophus grandisonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

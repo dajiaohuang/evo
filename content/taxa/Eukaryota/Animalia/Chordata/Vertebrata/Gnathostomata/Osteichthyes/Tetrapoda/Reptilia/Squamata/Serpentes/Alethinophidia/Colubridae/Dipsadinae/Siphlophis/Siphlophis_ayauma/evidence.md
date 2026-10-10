@@ -9,7 +9,6 @@ records:
     name:
       zh: Siphlophis ayauma
       en: Siphlophis ayauma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Talos sampsoni
       en: Talos sampsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

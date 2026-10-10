@@ -9,7 +9,6 @@ records:
     name:
       zh: Borhyaena tuberata
       en: Borhyaena tuberata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

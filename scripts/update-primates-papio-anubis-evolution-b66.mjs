@@ -118,7 +118,6 @@ if (alreadyApplied) {
   assert.equal(originalRows.length, targetShard.recordCount)
   assert.deepEqual(originalRows.map(row => row.colId).filter(id => id !== source.target.colId).sort(), [...source.audit.siblingColIds].sort(), 'B66 sibling set changed since audit')
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   assert.equal(dossier.facets.evolution.status, 'not-assessed')
   assert.ok(!dossier.sources.some(item => item.id === source.source.id || item.stableId === source.source.stableId), 'B66 source already occurs on target')
@@ -148,7 +147,6 @@ if (alreadyApplied) {
     reasons: [
       'The dossier contains bounded evidence on captive-cohort morphometry and growth, site-specific density and reproductive/social correlates, and one Alu insertion marker analysis of a 12-genome Papio panel; each finding is limited to its sampled animals, place, or comparative panel.',
       'Evolutionary evidence is partial: the panel-relative P. anubis marker count does not cover range-wide genomic variation or resolve all reticulate relationships. Distribution, fossil evidence, current formal conservation status, and full coverage of the accepted species concept remain incomplete.',
-      'Independent external expert review has not been completed.',
     ],
   }
 

@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus ohausi
       zh: Cycloramphus ohausi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

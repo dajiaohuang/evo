@@ -9,7 +9,6 @@ records:
     name:
       en: Diasporus vocator
       zh: Diasporus vocator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

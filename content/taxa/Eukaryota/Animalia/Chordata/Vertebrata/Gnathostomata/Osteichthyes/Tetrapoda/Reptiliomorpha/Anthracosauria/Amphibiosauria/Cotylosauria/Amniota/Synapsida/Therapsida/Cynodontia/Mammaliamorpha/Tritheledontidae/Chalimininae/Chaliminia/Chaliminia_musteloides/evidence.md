@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaliminia musteloides
       en: Chaliminia musteloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

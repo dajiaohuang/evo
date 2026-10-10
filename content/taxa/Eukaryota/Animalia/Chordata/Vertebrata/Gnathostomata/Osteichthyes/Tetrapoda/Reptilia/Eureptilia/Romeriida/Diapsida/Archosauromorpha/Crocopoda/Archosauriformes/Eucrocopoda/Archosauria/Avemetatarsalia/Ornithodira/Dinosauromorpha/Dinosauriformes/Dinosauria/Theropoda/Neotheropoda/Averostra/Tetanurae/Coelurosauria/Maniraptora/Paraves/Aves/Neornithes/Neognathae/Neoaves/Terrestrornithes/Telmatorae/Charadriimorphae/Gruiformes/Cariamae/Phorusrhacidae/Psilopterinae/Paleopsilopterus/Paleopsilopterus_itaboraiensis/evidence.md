@@ -9,7 +9,6 @@ records:
     name:
       zh: Paleopsilopterus itaboraiensis
       en: Paleopsilopterus itaboraiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

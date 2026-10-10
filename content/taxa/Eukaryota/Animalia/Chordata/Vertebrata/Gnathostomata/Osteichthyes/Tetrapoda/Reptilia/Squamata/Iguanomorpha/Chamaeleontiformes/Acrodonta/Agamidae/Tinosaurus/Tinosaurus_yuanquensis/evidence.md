@@ -9,7 +9,6 @@ records:
     name:
       zh: Tinosaurus yuanquensis
       en: Tinosaurus yuanquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

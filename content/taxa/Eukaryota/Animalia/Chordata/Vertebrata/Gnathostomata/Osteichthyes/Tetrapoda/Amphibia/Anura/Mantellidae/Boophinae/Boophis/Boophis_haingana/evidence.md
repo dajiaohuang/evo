@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis haingana
       zh: Boophis haingana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

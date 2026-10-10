@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis larutensis
       zh: Ichthyophis larutensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

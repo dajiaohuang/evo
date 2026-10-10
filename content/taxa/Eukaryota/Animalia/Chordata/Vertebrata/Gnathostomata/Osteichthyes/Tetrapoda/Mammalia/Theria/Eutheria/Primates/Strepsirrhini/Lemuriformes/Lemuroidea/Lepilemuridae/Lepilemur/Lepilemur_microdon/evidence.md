@@ -9,7 +9,6 @@ records:
     name:
       zh: 小齿运动狐猴
       en: Small-toothed Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: phylogenetic placement

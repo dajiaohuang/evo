@@ -9,7 +9,6 @@ records:
     name:
       zh: Cariama santacrucensis
       en: Cariama santacrucensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

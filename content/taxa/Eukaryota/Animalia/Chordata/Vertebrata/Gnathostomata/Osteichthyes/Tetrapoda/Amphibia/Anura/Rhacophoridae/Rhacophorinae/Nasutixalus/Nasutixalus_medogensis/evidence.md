@@ -9,7 +9,6 @@ records:
     name:
       en: Nasutixalus medogensis
       zh: Nasutixalus medogensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

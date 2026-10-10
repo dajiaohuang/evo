@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllostomus latifolius
       en: Phyllostomus latifolius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

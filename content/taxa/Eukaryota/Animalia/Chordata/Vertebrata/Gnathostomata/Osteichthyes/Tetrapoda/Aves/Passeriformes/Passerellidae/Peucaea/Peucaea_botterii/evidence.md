@@ -9,7 +9,6 @@ records:
     name:
       zh: Peucaea botterii
       en: Peucaea botterii
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eocenochelus farresi
       en: Eocenochelus farresi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

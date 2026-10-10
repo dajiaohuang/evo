@@ -9,7 +9,6 @@ records:
     name:
       en: Qosqophryne mancoinca
       zh: Qosqophryne mancoinca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

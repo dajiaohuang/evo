@@ -9,7 +9,6 @@ records:
     name:
       zh: Lissemys punctata
       en: Lissemys punctata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

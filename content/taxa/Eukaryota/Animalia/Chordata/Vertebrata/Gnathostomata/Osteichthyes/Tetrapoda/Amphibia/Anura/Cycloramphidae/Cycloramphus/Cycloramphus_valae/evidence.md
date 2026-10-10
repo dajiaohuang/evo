@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus valae
       zh: Cycloramphus valae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

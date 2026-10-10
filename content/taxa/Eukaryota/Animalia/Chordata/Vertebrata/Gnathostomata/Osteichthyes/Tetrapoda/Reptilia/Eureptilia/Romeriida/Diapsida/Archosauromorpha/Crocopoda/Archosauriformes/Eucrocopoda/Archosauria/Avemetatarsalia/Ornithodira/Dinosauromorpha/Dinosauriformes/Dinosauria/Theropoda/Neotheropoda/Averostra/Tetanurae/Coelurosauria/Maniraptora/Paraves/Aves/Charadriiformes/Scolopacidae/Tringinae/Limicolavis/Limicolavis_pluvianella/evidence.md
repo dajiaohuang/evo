@@ -9,7 +9,6 @@ records:
     name:
       zh: Limicolavis pluvianella
       en: Limicolavis pluvianella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

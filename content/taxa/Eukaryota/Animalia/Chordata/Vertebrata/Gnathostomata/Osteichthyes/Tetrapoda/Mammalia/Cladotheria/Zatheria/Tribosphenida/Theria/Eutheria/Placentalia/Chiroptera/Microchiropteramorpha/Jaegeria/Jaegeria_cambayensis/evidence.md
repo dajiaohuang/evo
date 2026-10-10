@@ -9,7 +9,6 @@ records:
     name:
       zh: Jaegeria cambayensis
       en: Jaegeria cambayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Asaccus griseonotus
       en: Asaccus griseonotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vjushkovisaurus berdjanensis
       en: Vjushkovisaurus berdjanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Aglyptodactylus laticeps
       zh: Aglyptodactylus laticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

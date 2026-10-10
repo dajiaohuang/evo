@@ -9,7 +9,6 @@ records:
     name:
       zh: Acidomomys hebeticus
       en: Acidomomys hebeticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

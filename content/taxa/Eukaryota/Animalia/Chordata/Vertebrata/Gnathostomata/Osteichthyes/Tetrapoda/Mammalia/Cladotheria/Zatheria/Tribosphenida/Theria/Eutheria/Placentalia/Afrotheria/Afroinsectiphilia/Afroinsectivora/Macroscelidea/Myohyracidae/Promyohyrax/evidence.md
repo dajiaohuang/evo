@@ -9,7 +9,6 @@ records:
     name:
       zh: Promyohyrax
       en: Promyohyrax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

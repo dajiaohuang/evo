@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrocranion germonpreae
       en: Macrocranion germonpreae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

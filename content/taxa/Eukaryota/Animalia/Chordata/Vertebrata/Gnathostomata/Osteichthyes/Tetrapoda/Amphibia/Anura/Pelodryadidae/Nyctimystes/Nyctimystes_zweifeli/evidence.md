@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes zweifeli
       zh: Nyctimystes zweifeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

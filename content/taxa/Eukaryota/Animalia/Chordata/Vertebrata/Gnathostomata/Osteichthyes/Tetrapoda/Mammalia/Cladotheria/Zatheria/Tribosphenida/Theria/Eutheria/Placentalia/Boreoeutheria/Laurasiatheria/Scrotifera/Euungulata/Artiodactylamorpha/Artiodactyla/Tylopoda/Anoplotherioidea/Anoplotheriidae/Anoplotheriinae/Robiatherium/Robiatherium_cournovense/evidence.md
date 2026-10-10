@@ -9,7 +9,6 @@ records:
     name:
       zh: Robiatherium cournovense
       en: Robiatherium cournovense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

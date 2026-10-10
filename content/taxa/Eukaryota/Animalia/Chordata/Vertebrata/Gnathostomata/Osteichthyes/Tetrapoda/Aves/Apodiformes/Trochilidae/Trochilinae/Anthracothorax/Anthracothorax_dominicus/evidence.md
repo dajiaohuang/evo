@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthracothorax dominicus
       en: Anthracothorax dominicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

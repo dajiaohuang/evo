@@ -9,7 +9,6 @@ records:
     name:
       zh: Boochoerus angustus
       en: Boochoerus angustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

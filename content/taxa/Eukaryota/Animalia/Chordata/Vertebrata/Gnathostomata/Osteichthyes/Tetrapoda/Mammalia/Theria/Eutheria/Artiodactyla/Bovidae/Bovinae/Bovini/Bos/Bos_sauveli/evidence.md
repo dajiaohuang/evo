@@ -9,7 +9,6 @@ records:
     name:
       zh: Bos sauveli
       en: Bos sauveli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

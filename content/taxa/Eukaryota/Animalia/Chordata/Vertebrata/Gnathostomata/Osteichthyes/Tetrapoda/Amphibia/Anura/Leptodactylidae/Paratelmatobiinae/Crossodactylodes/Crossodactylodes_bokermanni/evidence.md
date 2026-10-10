@@ -9,7 +9,6 @@ records:
     name:
       en: Crossodactylodes bokermanni
       zh: Crossodactylodes bokermanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

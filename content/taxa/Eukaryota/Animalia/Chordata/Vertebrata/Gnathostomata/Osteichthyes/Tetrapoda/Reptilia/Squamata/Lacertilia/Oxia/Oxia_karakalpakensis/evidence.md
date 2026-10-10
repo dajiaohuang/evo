@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxia karakalpakensis
       en: Oxia karakalpakensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

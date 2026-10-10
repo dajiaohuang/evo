@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella shangsiensis
       zh: Leptobrachella shangsiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aphelops mutilus
       en: Aphelops mutilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

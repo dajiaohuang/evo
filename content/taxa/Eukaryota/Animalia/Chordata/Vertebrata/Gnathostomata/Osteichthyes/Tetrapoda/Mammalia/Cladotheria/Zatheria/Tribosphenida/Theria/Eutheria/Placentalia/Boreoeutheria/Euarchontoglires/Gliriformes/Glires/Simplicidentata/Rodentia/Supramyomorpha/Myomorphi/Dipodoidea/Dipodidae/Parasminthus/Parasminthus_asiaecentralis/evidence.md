@@ -9,7 +9,6 @@ records:
     name:
       zh: Parasminthus asiaecentralis
       en: Parasminthus asiaecentralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

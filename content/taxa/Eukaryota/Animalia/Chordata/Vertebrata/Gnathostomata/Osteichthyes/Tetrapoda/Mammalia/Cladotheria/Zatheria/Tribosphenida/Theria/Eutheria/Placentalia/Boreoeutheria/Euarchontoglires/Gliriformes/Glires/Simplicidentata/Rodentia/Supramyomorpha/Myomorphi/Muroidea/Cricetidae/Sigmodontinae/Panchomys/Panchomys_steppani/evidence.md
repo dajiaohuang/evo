@@ -9,7 +9,6 @@ records:
     name:
       zh: Panchomys steppani
       en: Panchomys steppani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

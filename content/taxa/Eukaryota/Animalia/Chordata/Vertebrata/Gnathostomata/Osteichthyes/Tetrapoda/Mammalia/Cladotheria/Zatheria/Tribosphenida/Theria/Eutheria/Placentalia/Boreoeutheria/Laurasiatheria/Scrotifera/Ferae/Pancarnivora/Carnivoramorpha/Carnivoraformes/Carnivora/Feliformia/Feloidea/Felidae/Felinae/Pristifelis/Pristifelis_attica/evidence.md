@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristifelis attica
       en: Pristifelis attica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

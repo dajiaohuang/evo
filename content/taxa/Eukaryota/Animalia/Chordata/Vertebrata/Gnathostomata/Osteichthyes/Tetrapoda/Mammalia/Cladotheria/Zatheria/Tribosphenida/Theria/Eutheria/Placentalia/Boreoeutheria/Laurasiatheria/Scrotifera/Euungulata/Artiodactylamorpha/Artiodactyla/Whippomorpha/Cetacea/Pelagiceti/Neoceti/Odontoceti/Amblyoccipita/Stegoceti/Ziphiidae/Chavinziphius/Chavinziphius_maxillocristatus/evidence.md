@@ -9,7 +9,6 @@ records:
     name:
       zh: Chavinziphius maxillocristatus
       en: Chavinziphius maxillocristatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coeligena violifer
       en: Coeligena violifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

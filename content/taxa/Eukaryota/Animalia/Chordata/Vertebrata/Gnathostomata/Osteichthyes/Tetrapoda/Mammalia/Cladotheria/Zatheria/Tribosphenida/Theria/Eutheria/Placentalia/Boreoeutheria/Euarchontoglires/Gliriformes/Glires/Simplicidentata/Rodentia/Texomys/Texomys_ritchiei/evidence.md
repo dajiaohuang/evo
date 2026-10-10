@@ -9,7 +9,6 @@ records:
     name:
       zh: Texomys ritchiei
       en: Texomys ritchiei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

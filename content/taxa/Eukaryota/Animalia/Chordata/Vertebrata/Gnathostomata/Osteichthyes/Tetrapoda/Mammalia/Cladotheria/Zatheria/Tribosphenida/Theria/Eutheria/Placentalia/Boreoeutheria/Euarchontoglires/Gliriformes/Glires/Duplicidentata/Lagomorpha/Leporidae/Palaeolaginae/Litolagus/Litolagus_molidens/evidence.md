@@ -9,7 +9,6 @@ records:
     name:
       zh: Litolagus molidens
       en: Litolagus molidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

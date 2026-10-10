@@ -9,7 +9,6 @@ records:
     name:
       zh: Tsaphanomys
       en: Tsaphanomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

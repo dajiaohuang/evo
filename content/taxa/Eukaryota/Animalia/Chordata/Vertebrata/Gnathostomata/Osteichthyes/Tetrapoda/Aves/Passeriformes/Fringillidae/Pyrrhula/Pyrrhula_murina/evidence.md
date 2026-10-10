@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrrhula murina
       en: Pyrrhula murina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

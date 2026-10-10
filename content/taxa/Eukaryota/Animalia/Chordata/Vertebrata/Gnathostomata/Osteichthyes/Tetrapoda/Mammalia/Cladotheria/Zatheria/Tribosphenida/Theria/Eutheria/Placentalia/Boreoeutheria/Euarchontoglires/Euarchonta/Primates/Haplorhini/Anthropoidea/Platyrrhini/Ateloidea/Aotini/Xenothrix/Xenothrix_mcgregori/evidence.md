@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenothrix mcgregori
       en: Xenothrix mcgregori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

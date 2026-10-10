@@ -9,7 +9,6 @@ records:
     name:
       zh: Procoptodon williamsi
       en: Procoptodon williamsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sminthosinis bowleri
       en: Sminthosinis bowleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

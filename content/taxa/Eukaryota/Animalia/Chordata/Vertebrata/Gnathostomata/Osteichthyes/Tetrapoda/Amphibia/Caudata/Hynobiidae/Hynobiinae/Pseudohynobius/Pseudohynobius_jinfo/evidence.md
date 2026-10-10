@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudohynobius jinfo
       zh: Pseudohynobius jinfo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

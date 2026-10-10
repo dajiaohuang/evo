@@ -9,7 +9,6 @@ records:
     name:
       en: Phantasmarana tamuia
       zh: Phantasmarana tamuia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Arrhyton albicollum
       en: Arrhyton albicollum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

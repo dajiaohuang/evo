@@ -9,7 +9,6 @@ records:
     name:
       en: Mertensophryne usambarae
       zh: Mertensophryne usambarae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

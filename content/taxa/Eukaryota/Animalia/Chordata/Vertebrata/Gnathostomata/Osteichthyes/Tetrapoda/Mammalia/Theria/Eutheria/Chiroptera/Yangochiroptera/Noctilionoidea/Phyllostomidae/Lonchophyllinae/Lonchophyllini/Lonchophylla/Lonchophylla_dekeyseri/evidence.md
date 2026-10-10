@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchophylla dekeyseri
       en: Lonchophylla dekeyseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

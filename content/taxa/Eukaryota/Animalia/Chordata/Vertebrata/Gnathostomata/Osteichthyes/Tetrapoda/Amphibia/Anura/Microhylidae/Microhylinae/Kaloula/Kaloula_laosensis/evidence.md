@@ -9,7 +9,6 @@ records:
     name:
       en: Kaloula laosensis
       zh: Kaloula laosensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

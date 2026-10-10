@@ -9,7 +9,6 @@ records:
     name:
       zh: Tralkasaurus cuyi
       en: Tralkasaurus cuyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

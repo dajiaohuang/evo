@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus baliogaster
       zh: Kurixalus baliogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

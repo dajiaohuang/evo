@@ -9,7 +9,6 @@ records:
     name:
       zh: Talahphiomys lavocati
       en: Talahphiomys lavocati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

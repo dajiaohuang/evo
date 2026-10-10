@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrobates tristrami
       en: Tristram’s Storm-Petrel
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

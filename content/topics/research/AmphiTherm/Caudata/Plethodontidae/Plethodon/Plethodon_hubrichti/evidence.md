@@ -8,7 +8,6 @@ records:
       en: Plethodon hubrichti
       zh: Plethodon hubrichti
     checkedAt: 2026-10-02
-    reviewStatus: source-linked
     sections:
       - topic: overview
         title:
@@ -511,11 +510,11 @@ Animals were collected in Spring 2007 so the range of sampling dates was taken f
 ## amphitherm-source-reader / limitations
 
 <!-- evo:text /records/amphitherm-source-reader/limitations/en -->
-Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete; not externally expert-reviewed.
+Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete;.
 <!-- /evo:text -->
 
 ## amphitherm-source-reader / limitations
 
 <!-- evo:text /records/amphitherm-source-reader/limitations/zh -->
-部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成；未经过外部领域专家评审。
+部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成。
 <!-- /evo:text -->

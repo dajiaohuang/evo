@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena myersi
       en: Amphisbaena myersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

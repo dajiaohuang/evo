@@ -9,7 +9,6 @@ records:
     name:
       zh: Eocricetodon borealis
       en: Eocricetodon borealis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

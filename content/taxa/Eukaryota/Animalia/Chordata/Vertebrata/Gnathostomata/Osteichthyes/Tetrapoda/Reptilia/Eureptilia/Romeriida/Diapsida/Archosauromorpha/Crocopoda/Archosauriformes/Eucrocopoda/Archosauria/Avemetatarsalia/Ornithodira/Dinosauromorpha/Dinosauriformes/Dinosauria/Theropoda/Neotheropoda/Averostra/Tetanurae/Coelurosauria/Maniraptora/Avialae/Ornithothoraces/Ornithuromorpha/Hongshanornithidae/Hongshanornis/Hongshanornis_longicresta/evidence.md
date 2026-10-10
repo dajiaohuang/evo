@@ -9,7 +9,6 @@ records:
     name:
       zh: Hongshanornis longicresta
       en: Hongshanornis longicresta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

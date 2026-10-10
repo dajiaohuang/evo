@@ -9,7 +9,6 @@ records:
     name:
       zh: Aristosuchus pusillus
       en: Aristosuchus pusillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

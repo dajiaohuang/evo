@@ -9,7 +9,6 @@ records:
     name:
       zh: Kolopsoides cultridens
       en: Kolopsoides cultridens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

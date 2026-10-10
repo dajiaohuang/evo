@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton liuyangensis
       zh: Tylototriton liuyangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

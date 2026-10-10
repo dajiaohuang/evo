@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus prasinus
       en: Varanus prasinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

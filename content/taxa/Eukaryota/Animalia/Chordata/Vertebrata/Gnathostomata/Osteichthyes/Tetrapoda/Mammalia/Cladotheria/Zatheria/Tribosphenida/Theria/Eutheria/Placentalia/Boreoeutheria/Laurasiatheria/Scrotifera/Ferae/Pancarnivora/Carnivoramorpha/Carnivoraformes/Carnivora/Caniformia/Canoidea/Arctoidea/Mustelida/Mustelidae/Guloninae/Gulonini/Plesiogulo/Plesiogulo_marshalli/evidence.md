@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiogulo marshalli
       en: Plesiogulo marshalli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

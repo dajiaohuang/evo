@@ -9,7 +9,6 @@ records:
     name:
       zh: 麦克阿瑟鼠狐猴
       en: MacArthur's Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

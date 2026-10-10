@@ -9,7 +9,6 @@ records:
     name:
       en: Triturus pygmaeus
       zh: Triturus pygmaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

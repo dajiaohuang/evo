@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachoseps luciae
       zh: Batrachoseps luciae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

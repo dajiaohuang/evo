@@ -61,9 +61,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: daeschler-2006-tiktaalik-body-plan
           relation: supports
@@ -82,9 +79,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: daeschler-2006-tiktaalik-body-plan
           relation: supports
@@ -103,9 +97,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: daeschler-2006-tiktaalik-body-plan
           relation: supports
@@ -124,9 +115,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: daeschler-2006-tiktaalik-body-plan
           relation: supports
@@ -145,9 +133,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: daeschler-2006-tiktaalik-body-plan
           relation: supports
@@ -199,7 +184,6 @@ records:
       referenceLocators:
         - referenceId: daeschler-2006-tiktaalik-body-plan
           locator: pp. 757–763; Geological setting and age; Figures 2–8
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Sarcopterygii/Osteolepidida/Osteolepidiformes/Cyclolepidoidei/Panderichthyidae/Tiktaalik/research/Tiktaalik
       rangeKind: taxon-range
@@ -223,7 +207,6 @@ records:
       referenceLocators:
         - referenceId: daeschler-2006-tiktaalik-body-plan
           locator: pp. 757–763; Geological setting and age; Figures 2–8
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

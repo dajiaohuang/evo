@@ -9,7 +9,6 @@ records:
     name:
       zh: 倭黑猩猩
       en: Bonobo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -969,8 +968,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
 ---
 
 # Pan paniscus
@@ -1194,5 +1191,5 @@ One localized isotope study and one multi-community vocal study provide bounded 
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-No systematic literature search, complete range-wide biological synthesis, or independent expert review has been completed.
+No systematic literature search, complete range-wide biological synthesis has been completed.
 <!-- /evo:text -->

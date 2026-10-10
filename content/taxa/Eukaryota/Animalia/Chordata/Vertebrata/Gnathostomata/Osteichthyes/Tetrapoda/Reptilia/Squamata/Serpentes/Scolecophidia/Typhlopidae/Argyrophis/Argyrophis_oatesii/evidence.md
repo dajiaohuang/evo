@@ -9,7 +9,6 @@ records:
     name:
       zh: Argyrophis oatesii
       en: Argyrophis oatesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

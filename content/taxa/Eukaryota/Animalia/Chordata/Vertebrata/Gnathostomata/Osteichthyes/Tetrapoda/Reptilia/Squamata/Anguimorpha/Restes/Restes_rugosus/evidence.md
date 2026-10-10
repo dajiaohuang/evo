@@ -9,7 +9,6 @@ records:
     name:
       zh: Restes rugosus
       en: Restes rugosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

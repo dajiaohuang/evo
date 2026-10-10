@@ -9,7 +9,6 @@ records:
     name:
       zh: Monachus monachus
       en: Monachus monachus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenophorus dualis
       en: Ctenophorus dualis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

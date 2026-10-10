@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliodoxa aurescens
       en: Heliodoxa aurescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

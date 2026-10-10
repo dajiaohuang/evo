@@ -9,7 +9,6 @@ records:
     name:
       zh: Alopoglossus romaleos
       en: Alopoglossus romaleos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

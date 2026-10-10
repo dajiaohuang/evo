@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchura maja
       en: Lonchura maja
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

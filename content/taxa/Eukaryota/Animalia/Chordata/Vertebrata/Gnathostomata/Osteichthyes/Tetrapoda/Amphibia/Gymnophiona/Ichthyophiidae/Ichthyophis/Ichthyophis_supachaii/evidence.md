@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis supachaii
       zh: Ichthyophis supachaii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

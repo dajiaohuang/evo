@@ -9,7 +9,6 @@ records:
     name:
       zh: 托平绢毛猴
       en: Toppin's Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

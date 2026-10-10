@@ -9,7 +9,6 @@ records:
     name:
       en: Pelobatrachus kobayashii
       zh: Pelobatrachus kobayashii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

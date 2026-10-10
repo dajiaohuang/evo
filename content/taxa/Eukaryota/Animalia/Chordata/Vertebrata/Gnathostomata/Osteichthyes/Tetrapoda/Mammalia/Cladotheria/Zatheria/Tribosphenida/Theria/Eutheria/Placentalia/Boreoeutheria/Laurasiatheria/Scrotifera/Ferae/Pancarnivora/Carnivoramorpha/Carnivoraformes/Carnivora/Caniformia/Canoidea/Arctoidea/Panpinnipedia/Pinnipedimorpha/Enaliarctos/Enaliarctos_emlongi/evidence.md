@@ -9,7 +9,6 @@ records:
     name:
       zh: Enaliarctos emlongi
       en: Enaliarctos emlongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

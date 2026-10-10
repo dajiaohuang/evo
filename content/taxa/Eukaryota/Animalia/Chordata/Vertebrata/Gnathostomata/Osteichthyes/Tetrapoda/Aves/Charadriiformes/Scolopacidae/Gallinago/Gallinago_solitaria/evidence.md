@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallinago solitaria
       en: Gallinago solitaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

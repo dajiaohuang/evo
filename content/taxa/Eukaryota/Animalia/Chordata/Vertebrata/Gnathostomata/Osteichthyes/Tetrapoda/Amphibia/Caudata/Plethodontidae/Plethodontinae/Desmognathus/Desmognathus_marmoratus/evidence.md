@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus marmoratus
       zh: Desmognathus marmoratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dolicavia minuscula
       en: Dolicavia minuscula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

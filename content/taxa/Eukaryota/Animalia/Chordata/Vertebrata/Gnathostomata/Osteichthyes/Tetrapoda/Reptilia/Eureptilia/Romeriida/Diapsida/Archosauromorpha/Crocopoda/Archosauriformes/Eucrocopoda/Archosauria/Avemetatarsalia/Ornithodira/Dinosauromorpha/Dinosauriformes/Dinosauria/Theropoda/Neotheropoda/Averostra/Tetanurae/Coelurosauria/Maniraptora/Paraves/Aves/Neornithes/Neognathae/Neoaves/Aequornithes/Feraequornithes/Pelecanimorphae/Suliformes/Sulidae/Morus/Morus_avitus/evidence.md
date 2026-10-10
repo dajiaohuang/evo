@@ -9,7 +9,6 @@ records:
     name:
       zh: Morus avitus
       en: Morus avitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus matschiei
       en: Hemidactylus matschiei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

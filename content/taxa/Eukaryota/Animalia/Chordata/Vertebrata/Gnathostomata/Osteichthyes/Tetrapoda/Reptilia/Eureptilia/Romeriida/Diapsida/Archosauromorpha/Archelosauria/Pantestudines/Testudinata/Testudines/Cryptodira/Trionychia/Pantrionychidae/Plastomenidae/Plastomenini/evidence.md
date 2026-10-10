@@ -9,7 +9,6 @@ records:
     name:
       zh: Plastomenini
       en: Plastomenini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

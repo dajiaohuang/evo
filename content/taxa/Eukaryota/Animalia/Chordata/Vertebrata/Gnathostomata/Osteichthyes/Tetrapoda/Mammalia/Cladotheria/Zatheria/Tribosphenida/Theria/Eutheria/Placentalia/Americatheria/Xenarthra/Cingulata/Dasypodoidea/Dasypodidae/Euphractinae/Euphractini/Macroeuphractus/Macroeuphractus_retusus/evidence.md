@@ -9,7 +9,6 @@ records:
     name:
       zh: Macroeuphractus retusus
       en: Macroeuphractus retusus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

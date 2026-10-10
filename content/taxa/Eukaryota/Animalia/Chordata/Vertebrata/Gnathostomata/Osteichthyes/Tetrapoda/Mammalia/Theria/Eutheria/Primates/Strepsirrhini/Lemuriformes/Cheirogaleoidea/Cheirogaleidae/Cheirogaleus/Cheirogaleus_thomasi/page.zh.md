@@ -16,5 +16,5 @@ Sainte Luce 沿海森林的月度样线监测在 2011—2018 年覆盖四个林�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-趋势只适用于 Sainte Luce 的监测林片和该研究时段；单点长期稳定不能外推至全种或当前总体数量。本页尚未经过外部领域专家评审。
+趋势只适用于 Sainte Luce 的监测林片和该研究时段；单点长期稳定不能外推至全种或当前总体数量。。
 <!-- /evo:text -->

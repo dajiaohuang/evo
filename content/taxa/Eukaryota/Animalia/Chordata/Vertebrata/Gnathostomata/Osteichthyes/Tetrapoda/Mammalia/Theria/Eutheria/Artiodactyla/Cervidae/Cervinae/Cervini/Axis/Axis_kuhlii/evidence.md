@@ -9,7 +9,6 @@ records:
     name:
       zh: Axis kuhlii
       en: Axis kuhlii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

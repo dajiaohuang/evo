@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon websteri
       zh: Plethodon websteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

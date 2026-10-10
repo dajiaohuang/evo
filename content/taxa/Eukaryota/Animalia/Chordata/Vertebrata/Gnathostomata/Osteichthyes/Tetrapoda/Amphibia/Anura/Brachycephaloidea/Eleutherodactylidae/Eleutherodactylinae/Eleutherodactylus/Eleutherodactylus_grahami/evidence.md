@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus grahami
       zh: Eleutherodactylus grahami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

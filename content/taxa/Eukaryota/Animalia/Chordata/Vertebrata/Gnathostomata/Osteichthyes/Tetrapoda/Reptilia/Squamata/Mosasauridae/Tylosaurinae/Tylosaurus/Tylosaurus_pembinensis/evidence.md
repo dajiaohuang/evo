@@ -9,7 +9,6 @@ records:
     name:
       zh: Tylosaurus pembinensis
       en: Tylosaurus pembinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

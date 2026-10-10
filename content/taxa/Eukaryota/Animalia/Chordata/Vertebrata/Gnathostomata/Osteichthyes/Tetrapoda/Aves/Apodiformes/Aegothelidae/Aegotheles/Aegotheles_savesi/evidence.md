@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegotheles savesi
       en: Aegotheles savesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

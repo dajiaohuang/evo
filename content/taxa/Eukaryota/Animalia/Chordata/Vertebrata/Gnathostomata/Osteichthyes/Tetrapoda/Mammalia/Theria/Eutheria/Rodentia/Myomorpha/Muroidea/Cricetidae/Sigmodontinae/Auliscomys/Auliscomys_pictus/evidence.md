@@ -9,7 +9,6 @@ records:
     name:
       zh: Auliscomys pictus
       en: Auliscomys pictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

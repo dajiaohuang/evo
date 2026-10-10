@@ -9,7 +9,6 @@ records:
     name:
       zh: Parviderma inexacta
       en: Parviderma inexacta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

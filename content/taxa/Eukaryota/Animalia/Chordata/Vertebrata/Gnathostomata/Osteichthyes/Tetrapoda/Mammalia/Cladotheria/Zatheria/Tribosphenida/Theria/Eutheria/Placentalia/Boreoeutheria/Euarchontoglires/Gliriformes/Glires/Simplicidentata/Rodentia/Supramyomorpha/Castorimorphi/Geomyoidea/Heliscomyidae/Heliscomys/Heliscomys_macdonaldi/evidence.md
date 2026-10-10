@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliscomys macdonaldi
       en: Heliscomys macdonaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

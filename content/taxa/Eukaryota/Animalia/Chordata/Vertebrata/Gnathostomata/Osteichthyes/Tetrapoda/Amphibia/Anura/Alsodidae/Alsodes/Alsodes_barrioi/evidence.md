@@ -9,7 +9,6 @@ records:
     name:
       en: Alsodes barrioi
       zh: Alsodes barrioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

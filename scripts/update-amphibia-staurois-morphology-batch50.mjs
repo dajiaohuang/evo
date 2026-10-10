@@ -93,11 +93,9 @@ dossier.completeness = {
   reasons: [
     'Larval chondrocranial morphology is represented by one developmental series from a single zoo breeding facility; life history, evolution, distribution, fossil evidence and conservation remain unassessed.',
     'The series does not establish variation among wild populations or the taxonomic diagnostic value of the observed feature; broader literature coverage remains incomplete.',
-    'Independent external expert review has not been completed.',
   ],
 }
 assert.equal(dossier.rank, 'species')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
 assert.equal(dossier.facets.morphology.status, 'partially-supported')
 assert.ok(dossier.facets.morphology.claims.every(claim => claim.sourceIds?.includes(sourceRecord.id)))

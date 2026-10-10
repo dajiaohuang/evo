@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis cryophilius
       zh: Pristimantis cryophilius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

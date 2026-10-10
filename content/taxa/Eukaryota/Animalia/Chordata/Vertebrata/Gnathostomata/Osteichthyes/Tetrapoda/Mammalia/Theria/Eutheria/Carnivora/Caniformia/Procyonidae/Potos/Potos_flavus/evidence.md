@@ -9,7 +9,6 @@ records:
     name:
       zh: Potos flavus
       en: Potos flavus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

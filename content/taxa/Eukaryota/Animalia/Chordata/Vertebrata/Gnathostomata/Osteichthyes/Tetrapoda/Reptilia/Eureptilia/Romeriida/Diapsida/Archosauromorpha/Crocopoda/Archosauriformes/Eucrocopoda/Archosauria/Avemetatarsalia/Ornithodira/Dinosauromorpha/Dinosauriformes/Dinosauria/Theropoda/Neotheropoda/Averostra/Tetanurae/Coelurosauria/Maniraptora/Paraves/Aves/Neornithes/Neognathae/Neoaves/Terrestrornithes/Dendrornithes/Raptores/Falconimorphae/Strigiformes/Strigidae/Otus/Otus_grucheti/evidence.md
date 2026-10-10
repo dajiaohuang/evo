@@ -9,7 +9,6 @@ records:
     name:
       zh: Otus grucheti
       en: Otus grucheti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

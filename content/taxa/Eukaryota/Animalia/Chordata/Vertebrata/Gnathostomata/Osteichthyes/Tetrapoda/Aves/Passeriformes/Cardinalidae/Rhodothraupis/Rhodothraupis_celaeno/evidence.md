@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhodothraupis celaeno
       en: Rhodothraupis celaeno
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

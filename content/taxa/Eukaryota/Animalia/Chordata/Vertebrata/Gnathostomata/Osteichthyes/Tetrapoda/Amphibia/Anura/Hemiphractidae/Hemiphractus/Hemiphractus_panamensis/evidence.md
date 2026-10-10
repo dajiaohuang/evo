@@ -9,7 +9,6 @@ records:
     name:
       en: Hemiphractus panamensis
       zh: Hemiphractus panamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

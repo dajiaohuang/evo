@@ -9,7 +9,6 @@ records:
     name:
       en: Osteocephalus leoniae
       zh: Osteocephalus leoniae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protobothrops maolanensis
       en: Protobothrops maolanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

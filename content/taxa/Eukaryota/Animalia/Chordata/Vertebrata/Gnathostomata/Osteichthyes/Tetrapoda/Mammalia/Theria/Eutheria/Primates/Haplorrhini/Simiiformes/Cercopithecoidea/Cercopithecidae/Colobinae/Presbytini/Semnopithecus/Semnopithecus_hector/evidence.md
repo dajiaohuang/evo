@@ -9,7 +9,6 @@ records:
     name:
       en: Terai Sacred Langur
       zh: 特莱神圣叶猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

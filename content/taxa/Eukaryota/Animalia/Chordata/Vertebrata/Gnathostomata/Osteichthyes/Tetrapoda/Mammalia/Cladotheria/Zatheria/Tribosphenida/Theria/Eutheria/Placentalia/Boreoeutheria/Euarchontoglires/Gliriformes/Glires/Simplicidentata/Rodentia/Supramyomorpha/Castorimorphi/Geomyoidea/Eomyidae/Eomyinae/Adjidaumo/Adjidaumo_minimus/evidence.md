@@ -9,7 +9,6 @@ records:
     name:
       zh: Adjidaumo minimus
       en: Adjidaumo minimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

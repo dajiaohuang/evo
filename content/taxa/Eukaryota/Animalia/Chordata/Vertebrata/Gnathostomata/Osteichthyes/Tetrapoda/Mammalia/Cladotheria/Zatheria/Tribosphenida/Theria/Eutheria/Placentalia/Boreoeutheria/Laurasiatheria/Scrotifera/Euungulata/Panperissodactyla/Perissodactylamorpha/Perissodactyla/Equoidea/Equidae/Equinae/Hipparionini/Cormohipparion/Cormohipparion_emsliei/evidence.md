@@ -9,7 +9,6 @@ records:
     name:
       zh: Cormohipparion emsliei
       en: Cormohipparion emsliei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

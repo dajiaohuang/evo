@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeotypotherium pattersoni
       en: Archaeotypotherium pattersoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Prophaethontidae
       en: Prophaethontidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

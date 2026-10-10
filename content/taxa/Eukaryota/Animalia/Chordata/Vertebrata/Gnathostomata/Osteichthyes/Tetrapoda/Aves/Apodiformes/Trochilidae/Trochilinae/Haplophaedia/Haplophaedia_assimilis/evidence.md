@@ -9,7 +9,6 @@ records:
     name:
       zh: Haplophaedia assimilis
       en: Haplophaedia assimilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

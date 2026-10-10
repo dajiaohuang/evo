@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesillas brevicaudata
       en: Nesillas brevicaudata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

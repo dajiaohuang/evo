@@ -9,7 +9,6 @@ records:
     name:
       zh: Chondrodactylus laevigatus
       en: Chondrodactylus laevigatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

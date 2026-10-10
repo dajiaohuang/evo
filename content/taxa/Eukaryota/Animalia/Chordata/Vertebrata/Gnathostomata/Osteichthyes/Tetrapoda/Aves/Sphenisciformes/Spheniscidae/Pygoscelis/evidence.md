@@ -10,7 +10,6 @@ records:
     name:
       en: Brush-tailed penguin genus
       zh: 刷尾企鹅属
-    reviewStatus: source-linked
     sections:
       - topic: evolutionaryComparison
         sourceIds:

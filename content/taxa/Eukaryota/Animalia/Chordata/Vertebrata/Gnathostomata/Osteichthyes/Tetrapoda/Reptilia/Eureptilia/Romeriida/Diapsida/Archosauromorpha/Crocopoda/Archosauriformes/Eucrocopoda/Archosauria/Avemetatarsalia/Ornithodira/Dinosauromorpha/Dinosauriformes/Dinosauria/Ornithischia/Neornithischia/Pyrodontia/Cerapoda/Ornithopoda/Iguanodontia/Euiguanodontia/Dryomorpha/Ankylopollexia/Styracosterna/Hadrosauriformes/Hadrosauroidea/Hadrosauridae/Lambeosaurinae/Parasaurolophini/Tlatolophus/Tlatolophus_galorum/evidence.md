@@ -9,7 +9,6 @@ records:
     name:
       zh: Tlatolophus galorum
       en: Tlatolophus galorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

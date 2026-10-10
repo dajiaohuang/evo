@@ -9,7 +9,6 @@ records:
     name:
       zh: Cephalotropis nectus
       en: Cephalotropis nectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

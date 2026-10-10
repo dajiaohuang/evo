@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalassemys bruntrutana
       en: Thalassemys bruntrutana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

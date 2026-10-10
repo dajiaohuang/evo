@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophocyon paraskevaidisi
       en: Lophocyon paraskevaidisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

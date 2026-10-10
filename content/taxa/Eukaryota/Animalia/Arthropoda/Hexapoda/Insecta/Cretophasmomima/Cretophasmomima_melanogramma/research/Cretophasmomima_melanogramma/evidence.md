@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Wang et al. 2014 DOI 10.1371/journal.pone.0091290
       referenceLinks:
         - referenceId: wang-2014-cretophasmomima
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Wang et al. 2014 DOI 10.1371/journal.pone.0091290
       referenceLinks:
         - referenceId: wang-2014-cretophasmomima
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Wang et al. 2014 DOI 10.1371/journal.pone.0091290
       referenceLinks:
         - referenceId: wang-2014-cretophasmomima
           relation: supports
@@ -123,9 +114,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Wang et al. 2014 DOI 10.1371/journal.pone.0091290
       referenceLinks:
         - referenceId: wang-2014-cretophasmomima
           relation: supports
@@ -144,9 +132,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Wang et al. 2014 DOI 10.1371/journal.pone.0091290
       referenceLinks:
         - referenceId: wang-2014-cretophasmomima
           relation: supports
@@ -200,7 +185,6 @@ records:
       referenceLocators:
         - referenceId: wang-2014-cretophasmomima
           locator: e91290; Abstract and Figures 1–3; Yixian Formation at approximately 126 ± 4 Ma
-      reviewStatus: automated-audit-passed
 ---
 
 # Cretophasmomima melanogramma

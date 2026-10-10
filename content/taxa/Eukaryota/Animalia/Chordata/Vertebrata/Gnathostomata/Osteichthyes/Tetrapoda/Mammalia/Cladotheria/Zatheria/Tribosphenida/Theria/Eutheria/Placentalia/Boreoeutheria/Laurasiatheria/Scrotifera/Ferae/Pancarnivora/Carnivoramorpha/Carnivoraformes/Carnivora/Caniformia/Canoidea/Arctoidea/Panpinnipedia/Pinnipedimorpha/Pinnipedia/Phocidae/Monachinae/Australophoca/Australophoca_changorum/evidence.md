@@ -9,7 +9,6 @@ records:
     name:
       zh: Australophoca changorum
       en: Australophoca changorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

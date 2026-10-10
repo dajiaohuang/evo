@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilabothrus subflavus
       en: Chilabothrus subflavus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

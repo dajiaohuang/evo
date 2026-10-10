@@ -9,7 +9,6 @@ records:
     name:
       zh: Allalmeia atalaensis
       en: Allalmeia atalaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

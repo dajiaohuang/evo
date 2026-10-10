@@ -9,7 +9,6 @@ records:
     name:
       zh: Allosminthus uniconjugatus
       en: Allosminthus uniconjugatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

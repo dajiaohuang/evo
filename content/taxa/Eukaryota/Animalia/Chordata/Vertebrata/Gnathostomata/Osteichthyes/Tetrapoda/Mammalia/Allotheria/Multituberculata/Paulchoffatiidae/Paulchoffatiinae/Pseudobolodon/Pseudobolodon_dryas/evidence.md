@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudobolodon dryas
       en: Pseudobolodon dryas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

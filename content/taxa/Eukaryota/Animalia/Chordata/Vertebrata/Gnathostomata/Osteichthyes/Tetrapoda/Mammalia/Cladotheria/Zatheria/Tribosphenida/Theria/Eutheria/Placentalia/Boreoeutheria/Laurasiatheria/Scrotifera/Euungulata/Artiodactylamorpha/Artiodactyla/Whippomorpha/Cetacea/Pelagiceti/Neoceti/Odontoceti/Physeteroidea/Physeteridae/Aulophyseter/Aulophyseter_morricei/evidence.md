@@ -9,7 +9,6 @@ records:
     name:
       zh: Aulophyseter morricei
       en: Aulophyseter morricei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

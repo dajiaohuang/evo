@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaethornis idaliae
       en: Phaethornis idaliae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

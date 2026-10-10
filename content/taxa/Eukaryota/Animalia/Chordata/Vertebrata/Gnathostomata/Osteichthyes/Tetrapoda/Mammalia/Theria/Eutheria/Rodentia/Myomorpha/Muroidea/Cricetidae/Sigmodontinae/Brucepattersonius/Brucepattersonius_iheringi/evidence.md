@@ -9,7 +9,6 @@ records:
     name:
       zh: Brucepattersonius iheringi
       en: Brucepattersonius iheringi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

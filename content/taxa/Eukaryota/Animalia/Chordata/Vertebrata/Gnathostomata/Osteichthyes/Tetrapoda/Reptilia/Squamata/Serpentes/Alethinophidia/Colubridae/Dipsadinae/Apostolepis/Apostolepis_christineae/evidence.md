@@ -9,7 +9,6 @@ records:
     name:
       zh: Apostolepis christineae
       en: Apostolepis christineae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

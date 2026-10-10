@@ -9,7 +9,6 @@ records:
     name:
       en: Geocrinia leai
       zh: Geocrinia leai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

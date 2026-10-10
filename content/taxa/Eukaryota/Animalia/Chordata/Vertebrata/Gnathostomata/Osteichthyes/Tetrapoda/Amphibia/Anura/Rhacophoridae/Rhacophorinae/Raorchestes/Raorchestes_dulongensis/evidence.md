@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes dulongensis
       zh: Raorchestes dulongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

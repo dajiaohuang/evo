@@ -9,7 +9,6 @@ records:
     name:
       zh: Anabacerthia amaurotis
       en: Anabacerthia amaurotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

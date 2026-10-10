@@ -9,7 +9,6 @@ records:
     name:
       zh: Nototherium watutense
       en: Nototherium watutense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

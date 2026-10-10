@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: schulz-2007-chalicothere-feeding locator audit at 2026-08-31
       referenceLinks:
         - referenceId: schulz-2007-chalicothere-feeding
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: schulz-2007-chalicothere-feeding locator audit at 2026-08-31
       referenceLinks:
         - referenceId: schulz-2007-chalicothere-feeding
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: schulz-2007-chalicothere-feeding locator audit at 2026-08-31
       referenceLinks:
         - referenceId: schulz-2007-chalicothere-feeding
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: schulz-2007-chalicothere-feeding locator audit at 2026-08-31
       referenceLinks:
         - referenceId: schulz-2007-chalicothere-feeding
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: schulz-2007-chalicothere-feeding locator audit at 2026-08-31
       referenceLinks:
         - referenceId: schulz-2007-chalicothere-feeding
           relation: supports
@@ -195,7 +180,6 @@ records:
       referenceLocators:
         - referenceId: schulz-2007-chalicothere-feeding
           locator: pp. 5–23; Figures 1, 5–6; Tables 2–7; southern German MN5–MN9 samples
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

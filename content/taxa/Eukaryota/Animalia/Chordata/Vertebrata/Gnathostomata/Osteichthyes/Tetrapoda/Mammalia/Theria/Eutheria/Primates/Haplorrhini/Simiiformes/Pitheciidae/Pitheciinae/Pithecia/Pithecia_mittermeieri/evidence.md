@@ -9,7 +9,6 @@ records:
     name:
       zh: 米特迈尔塔帕若斯秃猴
       en: Mittermeier's Tapajós Saki
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gondwanatherium patagonicum
       en: Gondwanatherium patagonicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

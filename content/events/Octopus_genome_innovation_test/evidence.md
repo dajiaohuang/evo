@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: albertin-et-al-2015-octopus-genome DOI-linked primary source
       referenceLinks:
         - referenceId: albertin-et-al-2015-octopus-genome
           relation: supports

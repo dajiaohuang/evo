@@ -9,7 +9,6 @@ records:
     name:
       zh: Zanclodon laevis
       en: Zanclodon laevis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

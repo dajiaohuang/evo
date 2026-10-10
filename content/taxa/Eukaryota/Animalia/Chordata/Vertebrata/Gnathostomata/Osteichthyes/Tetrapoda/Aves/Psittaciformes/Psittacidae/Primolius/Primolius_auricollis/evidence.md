@@ -9,7 +9,6 @@ records:
     name:
       zh: Primolius auricollis
       en: Primolius auricollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

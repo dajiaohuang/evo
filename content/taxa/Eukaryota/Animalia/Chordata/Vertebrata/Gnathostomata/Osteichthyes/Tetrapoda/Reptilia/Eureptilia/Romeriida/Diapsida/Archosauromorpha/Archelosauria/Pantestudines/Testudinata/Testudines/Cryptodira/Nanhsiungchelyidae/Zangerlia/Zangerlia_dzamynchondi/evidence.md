@@ -9,7 +9,6 @@ records:
     name:
       zh: Zangerlia dzamynchondi
       en: Zangerlia dzamynchondi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

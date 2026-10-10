@@ -9,7 +9,6 @@ records:
     name:
       zh: 纽卡斯尔漏斗网蛛
       en: Newcastle funnel-web spider
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

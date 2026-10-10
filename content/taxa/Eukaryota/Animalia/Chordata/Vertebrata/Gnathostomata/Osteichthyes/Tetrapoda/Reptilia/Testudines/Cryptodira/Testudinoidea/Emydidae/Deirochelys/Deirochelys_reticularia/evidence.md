@@ -9,7 +9,6 @@ records:
     name:
       zh: Deirochelys reticularia
       en: Deirochelys reticularia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

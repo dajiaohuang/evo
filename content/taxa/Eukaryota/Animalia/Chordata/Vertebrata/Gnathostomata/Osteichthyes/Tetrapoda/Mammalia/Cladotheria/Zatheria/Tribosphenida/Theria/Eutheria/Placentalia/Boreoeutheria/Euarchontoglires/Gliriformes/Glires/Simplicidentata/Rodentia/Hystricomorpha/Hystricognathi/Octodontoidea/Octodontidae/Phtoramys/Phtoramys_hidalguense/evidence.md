@@ -9,7 +9,6 @@ records:
     name:
       zh: Phtoramys hidalguense
       en: Phtoramys hidalguense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

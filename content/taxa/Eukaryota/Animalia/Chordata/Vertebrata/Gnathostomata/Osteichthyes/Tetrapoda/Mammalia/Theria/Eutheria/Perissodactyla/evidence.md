@@ -9,7 +9,6 @@ records:
     name:
       zh: 奇蹄目
       en: Odd-toed ungulates
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

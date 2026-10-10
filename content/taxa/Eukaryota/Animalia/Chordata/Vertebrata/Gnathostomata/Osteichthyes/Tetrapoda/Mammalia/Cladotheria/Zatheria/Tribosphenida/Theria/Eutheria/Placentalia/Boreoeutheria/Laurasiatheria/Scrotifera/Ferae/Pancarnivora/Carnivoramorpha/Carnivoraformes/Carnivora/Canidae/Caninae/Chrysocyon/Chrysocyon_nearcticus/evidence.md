@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysocyon nearcticus
       en: Chrysocyon nearcticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

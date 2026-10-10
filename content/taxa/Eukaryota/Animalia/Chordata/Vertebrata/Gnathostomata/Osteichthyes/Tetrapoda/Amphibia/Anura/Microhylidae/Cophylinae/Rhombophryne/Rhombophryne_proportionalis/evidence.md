@@ -9,7 +9,6 @@ records:
     name:
       en: Rhombophryne proportionalis
       zh: Rhombophryne proportionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

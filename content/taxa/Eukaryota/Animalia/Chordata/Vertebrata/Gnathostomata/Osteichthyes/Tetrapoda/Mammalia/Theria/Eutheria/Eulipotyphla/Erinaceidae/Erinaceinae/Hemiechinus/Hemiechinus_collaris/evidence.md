@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiechinus collaris
       en: Hemiechinus collaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

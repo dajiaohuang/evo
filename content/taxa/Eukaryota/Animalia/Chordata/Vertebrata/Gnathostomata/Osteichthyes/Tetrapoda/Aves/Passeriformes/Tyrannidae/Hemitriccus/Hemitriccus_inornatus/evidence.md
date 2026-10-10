@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemitriccus inornatus
       en: Hemitriccus inornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

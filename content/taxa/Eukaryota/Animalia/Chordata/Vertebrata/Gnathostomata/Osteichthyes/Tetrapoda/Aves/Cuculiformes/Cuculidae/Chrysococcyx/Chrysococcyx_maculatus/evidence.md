@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysococcyx maculatus
       en: Chrysococcyx maculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

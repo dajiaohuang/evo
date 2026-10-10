@@ -9,7 +9,6 @@ records:
     name:
       zh: Kookne yeutensis
       en: Kookne yeutensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

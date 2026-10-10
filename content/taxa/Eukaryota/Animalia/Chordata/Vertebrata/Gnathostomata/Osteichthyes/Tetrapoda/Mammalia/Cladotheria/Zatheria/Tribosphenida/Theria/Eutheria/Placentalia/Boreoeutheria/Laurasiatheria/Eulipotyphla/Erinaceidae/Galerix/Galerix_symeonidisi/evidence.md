@@ -9,7 +9,6 @@ records:
     name:
       zh: Galerix symeonidisi
       en: Galerix symeonidisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

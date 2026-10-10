@@ -9,7 +9,6 @@ records:
     name:
       en: Paramesotriton zhijinensis
       zh: Paramesotriton zhijinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

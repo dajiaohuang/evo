@@ -9,7 +9,6 @@ records:
     name:
       zh: Habia cristata
       en: Habia cristata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

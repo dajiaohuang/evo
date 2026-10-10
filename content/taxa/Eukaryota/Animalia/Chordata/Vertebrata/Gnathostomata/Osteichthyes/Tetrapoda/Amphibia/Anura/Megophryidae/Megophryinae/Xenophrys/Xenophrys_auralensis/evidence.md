@@ -9,7 +9,6 @@ records:
     name:
       en: Xenophrys auralensis
       zh: Xenophrys auralensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

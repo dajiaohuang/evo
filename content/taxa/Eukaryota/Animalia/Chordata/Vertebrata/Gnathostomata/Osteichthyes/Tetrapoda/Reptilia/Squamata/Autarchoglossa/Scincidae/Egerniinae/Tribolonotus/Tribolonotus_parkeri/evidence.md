@@ -9,7 +9,6 @@ records:
     name:
       zh: Tribolonotus parkeri
       en: Tribolonotus parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

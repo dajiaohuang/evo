@@ -9,7 +9,6 @@ records:
     name:
       en: Colleeneremia rueppelli
       zh: Colleeneremia rueppelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

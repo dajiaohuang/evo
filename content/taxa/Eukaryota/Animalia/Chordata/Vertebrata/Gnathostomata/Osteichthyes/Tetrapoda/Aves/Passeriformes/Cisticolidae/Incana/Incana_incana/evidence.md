@@ -9,7 +9,6 @@ records:
     name:
       zh: Incana incana
       en: Incana incana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

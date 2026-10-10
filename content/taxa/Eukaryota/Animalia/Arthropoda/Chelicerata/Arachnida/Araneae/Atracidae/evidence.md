@@ -9,7 +9,6 @@ records:
     name:
       zh: 澳洲漏斗网蛛科
       en: Australian funnel-web spider family
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gregorymys formosus
       en: Gregorymys formosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

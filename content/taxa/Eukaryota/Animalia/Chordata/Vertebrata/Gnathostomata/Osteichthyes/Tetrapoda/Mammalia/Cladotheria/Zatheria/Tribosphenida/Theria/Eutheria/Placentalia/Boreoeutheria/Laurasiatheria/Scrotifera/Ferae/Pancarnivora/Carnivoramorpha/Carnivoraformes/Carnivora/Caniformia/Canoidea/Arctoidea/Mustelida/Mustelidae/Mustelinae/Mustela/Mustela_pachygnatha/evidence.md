@@ -9,7 +9,6 @@ records:
     name:
       zh: Mustela pachygnatha
       en: Mustela pachygnatha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

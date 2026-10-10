@@ -154,9 +154,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: chester-2015-purgatorius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: chester-2015-purgatorius
           relation: supports
@@ -173,9 +170,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: chester-2015-purgatorius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: chester-2015-purgatorius
           relation: supports
@@ -192,9 +186,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: chester-2015-purgatorius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: chester-2015-purgatorius
           relation: supports
@@ -211,9 +202,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: chester-2015-purgatorius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: chester-2015-purgatorius
           relation: supports
@@ -230,9 +218,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: chester-2015-purgatorius primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: chester-2015-purgatorius
           relation: supports
@@ -284,7 +269,6 @@ records:
       referenceLocators:
         - referenceId: chester-2015-purgatorius
           locator: 1487–1492; Figures 1–3; SI Appendix Figures S1–S5 and Tables S1–S3
-      reviewStatus: automated-audit-passed
 ---
 
 # Purgatorius (Garbani Channel sample)

@@ -9,7 +9,6 @@ records:
     name:
       zh: Corynorhinus townsendii
       en: Corynorhinus townsendii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

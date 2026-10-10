@@ -9,7 +9,6 @@ records:
     name:
       en: Platyplectrum aganoposis
       zh: Platyplectrum aganoposis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

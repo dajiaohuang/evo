@@ -9,7 +9,6 @@ records:
     name:
       en: Nannophryne cophotis
       zh: Nannophryne cophotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

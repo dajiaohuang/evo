@@ -9,7 +9,6 @@ records:
     name:
       zh: Proteosaurus platyodon
       en: Proteosaurus platyodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

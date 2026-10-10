@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: richter-scholtz-2001-malacostraca DOI 10.1046/j.1439-0469.2001.00164.x; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: richter-scholtz-2001-malacostraca
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: collette-hagadorn-2010 + van-der-wal-2017 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: collette-hagadorn-2010-archaeostraca
           relation: supports
@@ -98,7 +92,6 @@ records:
             field: /records/ranges/0/referenceLocators/0/locator
         - referenceId: van-der-wal-2017-malacostracan-calibrations
           locator: pp. 1–17; Fossil calibrations; Table 1; phyllocarids identified as the oldest malacostracans at at least 500 Ma
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

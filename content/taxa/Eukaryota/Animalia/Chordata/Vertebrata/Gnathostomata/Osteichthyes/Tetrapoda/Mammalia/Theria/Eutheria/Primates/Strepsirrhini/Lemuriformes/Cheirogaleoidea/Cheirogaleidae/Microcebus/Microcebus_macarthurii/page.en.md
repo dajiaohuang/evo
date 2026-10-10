@@ -22,5 +22,5 @@ In a morphometric comparison with its closest unnamed lineage, the paper reporte
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This account is limited to one northeastern regional study and its comparison with an unnamed lineage; it does not assess current full distribution, natural history or conservation. MDD currently displays Anjiahely Mouse Lemur; this page retains the MacArthur mouse lemur name used in its cited literature. The Chinese common name is editorial; the page is not externally expert-reviewed.
+This account is limited to one northeastern regional study and its comparison with an unnamed lineage; it does not assess current full distribution, natural history or conservation. MDD currently displays Anjiahely Mouse Lemur; this page retains the MacArthur mouse lemur name used in its cited literature. The Chinese common name is editorial.
 <!-- /evo:text -->

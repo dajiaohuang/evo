@@ -117,7 +117,7 @@ SI为一个物种的DBS+TBS+SBS。站点RABI累加全部已记录物种的SI，�
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-部分研究范围内的生物学读本。其余生物学主题仍需更多证据。未经过外部领域专家评审。
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。。
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

@@ -9,7 +9,6 @@ records:
     name:
       en: Boana nigra
       zh: Boana nigra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

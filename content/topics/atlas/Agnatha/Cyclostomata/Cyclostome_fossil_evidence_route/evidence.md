@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: gess-2006-priscomyzon; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: gess-2006-priscomyzon
@@ -82,7 +79,6 @@ records:
           locator: pp. 850–865; Figs. 1–4, 8
         - referenceId: miyashita-2019-tethymyxine
           locator: pp. 2146–2151; Figs. 1–3
-      reviewStatus: automated-audit-passed
 ---
 
 # Cyclostome fossil evidence route

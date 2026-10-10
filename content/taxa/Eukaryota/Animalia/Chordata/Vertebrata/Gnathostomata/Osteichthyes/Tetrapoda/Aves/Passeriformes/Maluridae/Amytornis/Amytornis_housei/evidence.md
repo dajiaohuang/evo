@@ -9,7 +9,6 @@ records:
     name:
       zh: Amytornis housei
       en: Amytornis housei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

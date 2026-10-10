@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremiascincus intermedius
       en: Eremiascincus intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

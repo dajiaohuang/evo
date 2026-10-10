@@ -9,7 +9,6 @@ records:
     name:
       zh: Thoracosaurus isorhynchus
       en: Thoracosaurus isorhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

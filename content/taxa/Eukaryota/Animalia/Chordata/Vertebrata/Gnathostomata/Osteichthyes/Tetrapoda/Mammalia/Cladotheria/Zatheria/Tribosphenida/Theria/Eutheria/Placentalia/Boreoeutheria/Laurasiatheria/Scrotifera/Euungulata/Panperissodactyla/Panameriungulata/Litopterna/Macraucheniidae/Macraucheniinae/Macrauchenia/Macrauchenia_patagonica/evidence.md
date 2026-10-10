@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrauchenia patagonica
       en: Macrauchenia patagonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

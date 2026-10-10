@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoenicopterus chilensis
       en: Phoenicopterus chilensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: researchMaterial

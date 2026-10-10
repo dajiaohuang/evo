@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenomyidae
       en: Ctenomyidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coleonyx nemoralis
       en: Coleonyx nemoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

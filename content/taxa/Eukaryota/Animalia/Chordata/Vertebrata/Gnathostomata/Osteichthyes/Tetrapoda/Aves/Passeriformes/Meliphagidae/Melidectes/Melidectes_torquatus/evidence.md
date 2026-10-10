@@ -9,7 +9,6 @@ records:
     name:
       zh: Melidectes torquatus
       en: Melidectes torquatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

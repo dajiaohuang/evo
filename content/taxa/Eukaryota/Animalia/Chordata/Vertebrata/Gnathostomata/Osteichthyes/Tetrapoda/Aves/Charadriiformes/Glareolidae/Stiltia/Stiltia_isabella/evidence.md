@@ -9,7 +9,6 @@ records:
     name:
       zh: Stiltia isabella
       en: Stiltia isabella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

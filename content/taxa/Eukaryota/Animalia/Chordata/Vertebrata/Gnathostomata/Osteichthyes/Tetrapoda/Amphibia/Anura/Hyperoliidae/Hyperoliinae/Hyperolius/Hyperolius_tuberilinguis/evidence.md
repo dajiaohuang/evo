@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius tuberilinguis
       zh: Hyperolius tuberilinguis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

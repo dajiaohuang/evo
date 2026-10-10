@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus wojnowskii
       en: Lygodactylus wojnowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Rulyrana saxiscandens
       zh: Rulyrana saxiscandens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

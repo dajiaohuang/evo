@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema manezinho
       zh: Ischnocnema manezinho
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Elachistocleis cesarii
       zh: Elachistocleis cesarii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

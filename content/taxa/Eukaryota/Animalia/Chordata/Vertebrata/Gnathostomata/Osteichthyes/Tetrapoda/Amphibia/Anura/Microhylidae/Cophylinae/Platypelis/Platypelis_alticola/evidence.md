@@ -9,7 +9,6 @@ records:
     name:
       en: Platypelis alticola
       zh: Platypelis alticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

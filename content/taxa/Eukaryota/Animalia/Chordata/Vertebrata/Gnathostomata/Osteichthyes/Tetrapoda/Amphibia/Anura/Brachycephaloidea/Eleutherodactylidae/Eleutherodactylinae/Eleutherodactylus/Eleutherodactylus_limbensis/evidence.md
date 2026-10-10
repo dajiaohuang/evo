@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus limbensis
       zh: Eleutherodactylus limbensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

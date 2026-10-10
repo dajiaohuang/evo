@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium hardyi
       en: Glaucidium hardyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

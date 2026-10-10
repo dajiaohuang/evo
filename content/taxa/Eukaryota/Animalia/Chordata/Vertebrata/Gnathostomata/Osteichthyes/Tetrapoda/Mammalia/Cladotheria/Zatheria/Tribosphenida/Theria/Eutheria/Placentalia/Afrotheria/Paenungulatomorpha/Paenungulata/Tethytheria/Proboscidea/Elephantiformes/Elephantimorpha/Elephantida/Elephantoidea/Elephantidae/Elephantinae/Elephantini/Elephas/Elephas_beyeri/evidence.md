@@ -9,7 +9,6 @@ records:
     name:
       zh: Elephas beyeri
       en: Elephas beyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

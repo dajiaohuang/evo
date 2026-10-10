@@ -9,7 +9,6 @@ records:
     name:
       zh: Melaniparus carpi
       en: Melaniparus carpi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

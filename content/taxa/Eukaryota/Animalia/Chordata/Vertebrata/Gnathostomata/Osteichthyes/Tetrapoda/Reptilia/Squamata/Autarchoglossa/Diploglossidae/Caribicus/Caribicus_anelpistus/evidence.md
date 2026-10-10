@@ -9,7 +9,6 @@ records:
     name:
       zh: Caribicus anelpistus
       en: Caribicus anelpistus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Arachnothera everetti
       en: Arachnothera everetti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

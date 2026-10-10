@@ -9,7 +9,6 @@ records:
     name:
       zh: Eobaatar magnus
       en: Eobaatar magnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

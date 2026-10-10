@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctereutes tingi
       en: Nyctereutes tingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

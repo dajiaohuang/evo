@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus changningensis
       en: Hemiphyllodactylus changningensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

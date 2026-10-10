@@ -9,7 +9,6 @@ records:
     name:
       zh: Loddigesia mirabilis
       en: Loddigesia mirabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

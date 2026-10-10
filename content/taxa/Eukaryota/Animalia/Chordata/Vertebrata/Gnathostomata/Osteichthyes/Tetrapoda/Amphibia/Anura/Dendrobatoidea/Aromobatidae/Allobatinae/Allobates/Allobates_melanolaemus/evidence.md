@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates melanolaemus
       zh: Allobates melanolaemus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

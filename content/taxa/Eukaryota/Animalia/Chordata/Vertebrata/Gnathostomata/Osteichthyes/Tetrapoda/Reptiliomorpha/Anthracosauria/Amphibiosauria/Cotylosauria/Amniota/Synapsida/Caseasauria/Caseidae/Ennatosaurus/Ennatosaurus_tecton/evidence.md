@@ -9,7 +9,6 @@ records:
     name:
       zh: Ennatosaurus tecton
       en: Ennatosaurus tecton
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

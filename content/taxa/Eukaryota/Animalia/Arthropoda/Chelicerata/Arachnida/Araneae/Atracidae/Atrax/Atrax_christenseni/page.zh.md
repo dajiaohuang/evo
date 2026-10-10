@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-这是有来源的入门概述，尚未经过外部领域专家评审。新种资料发布于 2025 年且生物学研究有限；狭窄的已知记录区、未公开地点和报道中的收藏风险均不能替代正式保育评估。
+这是有来源的入门概述。新种资料发布于 2025 年且生物学研究有限；狭窄的已知记录区、未公开地点和报道中的收藏风险均不能替代正式保育评估。
 <!-- /evo:text -->

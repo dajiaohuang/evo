@@ -307,9 +307,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: COL26.8 ChecklistBank dataset 316115; accepted usage 3WWP6, source dataset 2144 and immediate parent checked 2026-09-27
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -326,11 +323,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/1/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: ram-2015-lion-tailed-macaque-western-ghats
           relation: supports
@@ -350,11 +342,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/2/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: dhawale-2020-lion-tailed-macaque-habitat-behaviour
           relation: supports
@@ -371,9 +358,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: Ram et al. 2015 DOI 10.1371/journal.pone.0142597; Results, Figure 4 and Table 2 checked 2026-09-27
       referenceLinks:
         - referenceId: ram-2015-lion-tailed-macaque-western-ghats
           relation: supports
@@ -390,11 +374,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/4/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -452,7 +431,6 @@ records:
       referenceLocators:
         - referenceId: col-2026-checklistbank-316115
           locator: COL26.8 dataset 316115; accepted usage 3WWP6 and parent classification (identity only)
-      reviewStatus: automated-audit-passed
   field-claim-overrides:
     - firstAppearance:
         status: not-assessed

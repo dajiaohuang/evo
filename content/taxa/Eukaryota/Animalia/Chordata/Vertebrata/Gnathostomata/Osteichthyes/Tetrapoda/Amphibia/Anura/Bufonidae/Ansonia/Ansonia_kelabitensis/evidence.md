@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia kelabitensis
       zh: Ansonia kelabitensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

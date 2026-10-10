@@ -9,7 +9,6 @@ records:
     name:
       zh: Massospondylus carinatus
       en: Massospondylus carinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

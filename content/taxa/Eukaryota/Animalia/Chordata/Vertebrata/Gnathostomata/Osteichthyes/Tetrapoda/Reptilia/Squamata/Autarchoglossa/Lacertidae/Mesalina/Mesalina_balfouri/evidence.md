@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesalina balfouri
       en: Mesalina balfouri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

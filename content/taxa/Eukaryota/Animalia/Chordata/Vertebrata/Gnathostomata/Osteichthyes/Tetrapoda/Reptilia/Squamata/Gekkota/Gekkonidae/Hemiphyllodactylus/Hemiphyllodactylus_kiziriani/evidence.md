@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus kiziriani
       en: Hemiphyllodactylus kiziriani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

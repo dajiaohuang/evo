@@ -104,9 +104,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Braasch et al. 2016 DOI 10.1038/ng.3526; assembly GCA_000242695.1 and cited SRA accessions
       referenceLinks:
         - relation: supports
           referenceId: braasch-2016-spotted-gar-genome

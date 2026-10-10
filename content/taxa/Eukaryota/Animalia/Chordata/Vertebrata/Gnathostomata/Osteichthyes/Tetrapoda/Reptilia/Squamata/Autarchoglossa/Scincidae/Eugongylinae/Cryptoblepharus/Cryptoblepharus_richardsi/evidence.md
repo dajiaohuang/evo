@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptoblepharus richardsi
       en: Cryptoblepharus richardsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

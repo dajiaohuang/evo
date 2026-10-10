@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycyaenops silberbergi
       en: Lycyaenops silberbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

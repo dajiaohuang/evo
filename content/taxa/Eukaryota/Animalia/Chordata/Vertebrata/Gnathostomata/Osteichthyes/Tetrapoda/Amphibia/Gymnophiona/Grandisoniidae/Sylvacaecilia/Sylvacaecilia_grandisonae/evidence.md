@@ -9,7 +9,6 @@ records:
     name:
       en: Sylvacaecilia grandisonae
       zh: Sylvacaecilia grandisonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

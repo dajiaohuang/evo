@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesoclemmys vanegasorum
       en: Mesoclemmys vanegasorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

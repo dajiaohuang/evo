@@ -9,7 +9,6 @@ records:
     name:
       en: Pyxicephalus edulis
       zh: Pyxicephalus edulis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Purussaurus mirandai
       en: Purussaurus mirandai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bellulia rectusunguis
       en: Bellulia rectusunguis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

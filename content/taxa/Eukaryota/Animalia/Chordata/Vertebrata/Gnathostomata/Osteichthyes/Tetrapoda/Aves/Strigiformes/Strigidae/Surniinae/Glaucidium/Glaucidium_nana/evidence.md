@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium nana
       en: Glaucidium nana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

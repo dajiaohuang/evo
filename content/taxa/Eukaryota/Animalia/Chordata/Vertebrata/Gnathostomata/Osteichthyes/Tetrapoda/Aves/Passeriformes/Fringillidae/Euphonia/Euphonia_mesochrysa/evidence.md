@@ -9,7 +9,6 @@ records:
     name:
       zh: Euphonia mesochrysa
       en: Euphonia mesochrysa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

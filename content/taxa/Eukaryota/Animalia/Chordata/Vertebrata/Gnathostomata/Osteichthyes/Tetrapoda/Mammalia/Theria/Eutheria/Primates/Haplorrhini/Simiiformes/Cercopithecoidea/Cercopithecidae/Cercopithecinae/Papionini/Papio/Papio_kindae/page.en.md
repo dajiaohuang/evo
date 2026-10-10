@@ -16,5 +16,5 @@ Using nine years of data from a population in Kasanka National Park, Zambia, Wey
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked local social-behavior introduction; not externally expert-reviewed. Findings come from one Kasanka National Park population over nine years; they do not establish group structure, population size or uniform social rules across the species.
+Source-linked local social-behavior introduction;. Findings come from one Kasanka National Park population over nine years; they do not establish group structure, population size or uniform social rules across the species.
 <!-- /evo:text -->

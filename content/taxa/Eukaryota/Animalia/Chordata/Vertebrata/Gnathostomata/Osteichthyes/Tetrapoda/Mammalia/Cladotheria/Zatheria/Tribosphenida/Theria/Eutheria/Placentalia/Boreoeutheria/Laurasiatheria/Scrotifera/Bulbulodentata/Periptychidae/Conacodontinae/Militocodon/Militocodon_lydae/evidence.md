@@ -9,7 +9,6 @@ records:
     name:
       zh: Militocodon lydae
       en: Militocodon lydae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

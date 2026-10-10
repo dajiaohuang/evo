@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctalus lasiopterus
       en: Nyctalus lasiopterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

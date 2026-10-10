@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligochelone rupelensis
       en: Oligochelone rupelensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Parectypodus foxi
       en: Parectypodus foxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

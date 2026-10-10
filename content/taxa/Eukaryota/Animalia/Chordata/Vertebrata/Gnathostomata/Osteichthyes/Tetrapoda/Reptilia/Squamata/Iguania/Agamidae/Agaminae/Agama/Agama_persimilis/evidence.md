@@ -9,7 +9,6 @@ records:
     name:
       zh: Agama persimilis
       en: Agama persimilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

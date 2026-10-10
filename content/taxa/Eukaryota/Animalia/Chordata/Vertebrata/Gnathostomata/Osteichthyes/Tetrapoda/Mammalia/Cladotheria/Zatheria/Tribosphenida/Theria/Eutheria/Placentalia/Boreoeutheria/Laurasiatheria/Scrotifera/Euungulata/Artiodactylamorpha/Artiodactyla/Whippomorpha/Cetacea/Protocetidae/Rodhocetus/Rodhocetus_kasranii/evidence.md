@@ -9,7 +9,6 @@ records:
     name:
       zh: Rodhocetus kasranii
       en: Rodhocetus kasranii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

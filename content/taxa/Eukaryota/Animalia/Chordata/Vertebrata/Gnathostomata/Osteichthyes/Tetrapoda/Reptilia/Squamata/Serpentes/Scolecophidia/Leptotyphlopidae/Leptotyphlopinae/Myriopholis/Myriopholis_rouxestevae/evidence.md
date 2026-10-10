@@ -9,7 +9,6 @@ records:
     name:
       zh: Myriopholis rouxestevae
       en: Myriopholis rouxestevae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

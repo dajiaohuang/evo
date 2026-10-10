@@ -9,7 +9,6 @@ records:
     name:
       zh: Vireolanius eximius
       en: Vireolanius eximius
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Asterophrys eurydactyla
       zh: Asterophrys eurydactyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Psammophis trivirgatus
       en: Psammophis trivirgatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Venaticosuchus rusconii
       en: Venaticosuchus rusconii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

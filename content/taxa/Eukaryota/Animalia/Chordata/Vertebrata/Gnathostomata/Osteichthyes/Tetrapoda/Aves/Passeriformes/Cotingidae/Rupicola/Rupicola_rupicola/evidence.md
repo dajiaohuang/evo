@@ -9,7 +9,6 @@ records:
     name:
       zh: Rupicola rupicola
       en: Rupicola rupicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

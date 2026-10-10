@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylopezus ochroleucus
       en: Hylopezus ochroleucus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

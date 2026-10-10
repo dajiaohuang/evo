@@ -9,7 +9,6 @@ records:
     name:
       zh: Micropternodus morgani
       en: Micropternodus morgani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

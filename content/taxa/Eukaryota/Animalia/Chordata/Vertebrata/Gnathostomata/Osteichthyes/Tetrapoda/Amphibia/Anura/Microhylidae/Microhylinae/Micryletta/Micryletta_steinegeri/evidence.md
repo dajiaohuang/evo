@@ -9,7 +9,6 @@ records:
     name:
       en: Micryletta steinegeri
       zh: Micryletta steinegeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

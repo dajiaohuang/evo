@@ -9,7 +9,6 @@ records:
     name:
       zh: Glyptosaurus sylvestris
       en: Glyptosaurus sylvestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

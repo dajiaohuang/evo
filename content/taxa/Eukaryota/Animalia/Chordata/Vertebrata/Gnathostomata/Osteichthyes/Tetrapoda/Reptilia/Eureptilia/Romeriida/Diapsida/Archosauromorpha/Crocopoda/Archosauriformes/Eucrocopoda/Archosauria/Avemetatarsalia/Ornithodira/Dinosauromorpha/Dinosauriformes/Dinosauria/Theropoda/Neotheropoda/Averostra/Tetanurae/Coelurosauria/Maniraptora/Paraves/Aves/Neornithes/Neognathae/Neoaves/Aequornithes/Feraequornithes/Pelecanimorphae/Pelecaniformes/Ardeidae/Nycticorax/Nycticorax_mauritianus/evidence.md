@@ -9,7 +9,6 @@ records:
     name:
       zh: Nycticorax mauritianus
       en: Nycticorax mauritianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

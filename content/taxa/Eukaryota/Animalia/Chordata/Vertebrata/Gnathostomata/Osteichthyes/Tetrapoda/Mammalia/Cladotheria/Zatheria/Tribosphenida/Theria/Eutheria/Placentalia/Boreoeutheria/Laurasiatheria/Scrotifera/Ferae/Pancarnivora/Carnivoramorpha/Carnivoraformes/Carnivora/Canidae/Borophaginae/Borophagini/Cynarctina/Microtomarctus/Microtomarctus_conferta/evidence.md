@@ -9,7 +9,6 @@ records:
     name:
       zh: Microtomarctus conferta
       en: Microtomarctus conferta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

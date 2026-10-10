@@ -9,7 +9,6 @@ records:
     name:
       zh: 西爪哇叶猴
       en: West Javan Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: phylogenetic placement

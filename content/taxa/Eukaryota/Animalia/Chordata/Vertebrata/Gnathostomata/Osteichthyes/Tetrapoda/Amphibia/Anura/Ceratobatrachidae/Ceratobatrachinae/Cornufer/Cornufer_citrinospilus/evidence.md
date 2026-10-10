@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer citrinospilus
       zh: Cornufer citrinospilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphiperatherium
       en: Amphiperatherium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

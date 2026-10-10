@@ -9,7 +9,6 @@ records:
     name:
       zh: Eotaria citrica
       en: Eotaria citrica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax boesemani
       zh: Scinax boesemani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

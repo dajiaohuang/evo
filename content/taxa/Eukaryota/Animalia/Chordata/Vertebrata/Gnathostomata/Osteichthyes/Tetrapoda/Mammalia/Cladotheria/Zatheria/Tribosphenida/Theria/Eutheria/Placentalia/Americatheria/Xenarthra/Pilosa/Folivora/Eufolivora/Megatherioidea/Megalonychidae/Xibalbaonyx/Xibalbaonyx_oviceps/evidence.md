@@ -9,7 +9,6 @@ records:
     name:
       zh: Xibalbaonyx oviceps
       en: Xibalbaonyx oviceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

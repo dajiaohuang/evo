@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreotalpa florissantensis
       en: Oreotalpa florissantensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

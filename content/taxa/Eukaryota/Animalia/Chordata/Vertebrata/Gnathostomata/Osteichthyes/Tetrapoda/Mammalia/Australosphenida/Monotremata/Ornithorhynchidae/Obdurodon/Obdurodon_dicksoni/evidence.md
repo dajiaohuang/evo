@@ -9,7 +9,6 @@ records:
     name:
       zh: Obdurodon dicksoni
       en: Obdurodon dicksoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

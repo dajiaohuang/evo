@@ -9,7 +9,6 @@ records:
     name:
       zh: Gomphotherium connexus
       en: Gomphotherium connexus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

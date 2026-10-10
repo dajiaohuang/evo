@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus latrans
       zh: Leptodactylus latrans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

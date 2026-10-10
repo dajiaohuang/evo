@@ -9,7 +9,6 @@ records:
     name:
       zh: Mastacomys fuscus
       en: Mastacomys fuscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

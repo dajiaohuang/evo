@@ -9,7 +9,6 @@ records:
     name:
       zh: Miracinonyx trumani
       en: Miracinonyx trumani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

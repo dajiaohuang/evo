@@ -9,7 +9,6 @@ records:
     name:
       zh: Parahippus coloradensis
       en: Parahippus coloradensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

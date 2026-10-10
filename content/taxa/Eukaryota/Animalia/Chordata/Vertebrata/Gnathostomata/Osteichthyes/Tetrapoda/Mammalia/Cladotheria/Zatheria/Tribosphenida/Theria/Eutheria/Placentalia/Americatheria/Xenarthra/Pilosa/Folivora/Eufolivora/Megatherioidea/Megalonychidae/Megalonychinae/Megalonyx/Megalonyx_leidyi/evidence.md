@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalonyx leidyi
       en: Megalonyx leidyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

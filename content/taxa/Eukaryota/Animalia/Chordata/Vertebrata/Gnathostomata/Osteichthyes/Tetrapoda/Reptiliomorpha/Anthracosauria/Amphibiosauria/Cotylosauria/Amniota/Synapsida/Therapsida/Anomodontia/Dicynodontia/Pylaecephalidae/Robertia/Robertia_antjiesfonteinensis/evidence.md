@@ -9,7 +9,6 @@ records:
     name:
       zh: Robertia antjiesfonteinensis
       en: Robertia antjiesfonteinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

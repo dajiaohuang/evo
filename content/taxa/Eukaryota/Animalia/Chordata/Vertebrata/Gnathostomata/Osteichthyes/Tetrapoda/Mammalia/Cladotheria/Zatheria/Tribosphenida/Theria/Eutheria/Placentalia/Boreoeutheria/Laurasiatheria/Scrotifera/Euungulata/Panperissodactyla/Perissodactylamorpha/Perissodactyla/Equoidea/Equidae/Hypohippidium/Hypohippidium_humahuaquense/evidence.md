@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypohippidium humahuaquense
       en: Hypohippidium humahuaquense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

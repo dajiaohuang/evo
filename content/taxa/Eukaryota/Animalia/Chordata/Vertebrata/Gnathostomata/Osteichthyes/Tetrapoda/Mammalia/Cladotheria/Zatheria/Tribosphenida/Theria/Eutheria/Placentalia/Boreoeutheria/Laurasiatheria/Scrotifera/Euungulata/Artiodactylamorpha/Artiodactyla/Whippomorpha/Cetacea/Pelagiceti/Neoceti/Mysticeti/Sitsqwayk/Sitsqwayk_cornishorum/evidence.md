@@ -9,7 +9,6 @@ records:
     name:
       zh: Sitsqwayk cornishorum
       en: Sitsqwayk cornishorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

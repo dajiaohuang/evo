@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus ocellatus
       zh: Nymphargus ocellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

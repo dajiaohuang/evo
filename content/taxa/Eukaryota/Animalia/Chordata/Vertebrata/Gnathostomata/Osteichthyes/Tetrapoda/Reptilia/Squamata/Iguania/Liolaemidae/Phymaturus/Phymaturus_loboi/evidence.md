@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus loboi
       en: Phymaturus loboi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

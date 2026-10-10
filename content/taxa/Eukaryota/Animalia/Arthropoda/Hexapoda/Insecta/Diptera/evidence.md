@@ -9,7 +9,6 @@ records:
     name:
       zh: 双翅目
       en: True flies
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

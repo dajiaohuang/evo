@@ -9,7 +9,6 @@ records:
     name:
       en: Squirrel galagos
       zh: 松鼠婴猴属
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

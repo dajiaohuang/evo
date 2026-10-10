@@ -9,7 +9,6 @@ records:
     name:
       zh: Megaderma lugdunensis
       en: Megaderma lugdunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

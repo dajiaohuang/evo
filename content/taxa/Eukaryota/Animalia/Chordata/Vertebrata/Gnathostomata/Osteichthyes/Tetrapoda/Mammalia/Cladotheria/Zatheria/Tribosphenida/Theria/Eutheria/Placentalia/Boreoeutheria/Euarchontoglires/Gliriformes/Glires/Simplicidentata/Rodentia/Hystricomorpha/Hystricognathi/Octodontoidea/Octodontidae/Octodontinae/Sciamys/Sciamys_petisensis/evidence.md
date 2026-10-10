@@ -9,7 +9,6 @@ records:
     name:
       zh: Sciamys petisensis
       en: Sciamys petisensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

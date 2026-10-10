@@ -9,7 +9,6 @@ records:
     name:
       zh: Vireolanius pulchellus
       en: Vireolanius pulchellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -40,5 +40,5 @@ Miller (2025) used Maxent and climate variables at roughly 5 km resolution, then
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The Mufindi galago remains identified only as cf. orinus, and call differences and identities among mountain blocks are unresolved. The climate model used a non-systematically assembled set of heterogeneous occurrences at roughly 5 km resolution; the study also notes possible overprediction in low-elevation reserves. Future scenarios are not observed habitat loss or population forecasts. This page does not claim a complete range, links among mountain populations or an abundance estimate, and has not received external expert review. This page is not externally expert-reviewed.
+The Mufindi galago remains identified only as cf. orinus, and call differences and identities among mountain blocks are unresolved. The climate model used a non-systematically assembled set of heterogeneous occurrences at roughly 5 km resolution; the study also notes possible overprediction in low-elevation reserves. Future scenarios are not observed habitat loss or population forecasts. This page does not claim a complete range, links among mountain populations or an abundance estimate. This page is.
 <!-- /evo:text -->

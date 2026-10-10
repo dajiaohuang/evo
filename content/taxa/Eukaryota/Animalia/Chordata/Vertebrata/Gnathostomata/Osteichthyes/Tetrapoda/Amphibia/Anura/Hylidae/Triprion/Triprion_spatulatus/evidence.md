@@ -9,7 +9,6 @@ records:
     name:
       en: Triprion spatulatus
       zh: Triprion spatulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: 东部白眉长臂猿
       en: Eastern hoolock gibbon
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: ecology
@@ -315,9 +314,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Hoolock leuconedys
@@ -445,7 +441,7 @@ The authors note that detailed vegetation and phenology data were not collected;
 ## facets / ecology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/2 -->
-Morphology, life history, other ecology, evolution, broader distribution, fossils, conservation, systematic search, and independent review remain unassessed.
+Morphology, life history, other ecology, evolution, broader distribution, fossils, conservation, systematic search, remain unassessed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -463,5 +459,5 @@ The study lacks detailed vegetation and phenology measurements and does not esta
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Most biological facets, systematic search, and external expert review remain unassessed.
+Most biological facets, systematic search, remain unassessed.
 <!-- /evo:text -->

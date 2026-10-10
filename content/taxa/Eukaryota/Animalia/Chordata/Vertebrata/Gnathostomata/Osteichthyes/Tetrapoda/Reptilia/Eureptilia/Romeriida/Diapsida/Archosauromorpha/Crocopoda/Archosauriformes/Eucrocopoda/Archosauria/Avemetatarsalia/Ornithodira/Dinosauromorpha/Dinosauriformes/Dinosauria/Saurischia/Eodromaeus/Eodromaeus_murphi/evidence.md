@@ -9,7 +9,6 @@ records:
     name:
       zh: Eodromaeus murphi
       en: Eodromaeus murphi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

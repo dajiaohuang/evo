@@ -9,7 +9,6 @@ records:
     name:
       zh: Leopoldamys milleti
       en: Leopoldamys milleti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

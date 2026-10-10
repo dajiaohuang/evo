@@ -9,7 +9,6 @@ records:
     name:
       en: Boana bischoffi
       zh: Boana bischoffi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

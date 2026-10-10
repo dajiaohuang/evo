@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagiopholis nuchalis
       en: Plagiopholis nuchalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

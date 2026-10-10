@@ -9,7 +9,6 @@ records:
     name:
       zh: Zonosaurus karsteni
       en: Zonosaurus karsteni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

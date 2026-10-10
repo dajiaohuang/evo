@@ -9,7 +9,6 @@ records:
     name:
       zh: Nycticeius cubanus
       en: Nycticeius cubanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis spilogaster
       zh: Pristimantis spilogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

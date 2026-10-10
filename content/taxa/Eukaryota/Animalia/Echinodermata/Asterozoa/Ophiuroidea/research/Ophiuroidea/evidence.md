@@ -56,9 +56,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated literature audit
-      reviewedAt: 2026-08-29
-      reviewedAgainstReferenceVersion: blake-2016-early-asterozoa @ DOI 10.1016/j.annpal.2016.08.002 plus PBDB occ:1541278 retrieved 2026-08-29
       referenceLinks:
         - relation: supports
           referenceId: blake-2016-early-asterozoa
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: blake-2016-early-asterozoa at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: blake-2016-early-asterozoa
           relation: supports
@@ -99,9 +93,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: blake-2016-early-asterozoa plus PBDB occ:1541278 at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: blake-2016-early-asterozoa
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: blake-2016-early-asterozoa at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: blake-2016-early-asterozoa
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: blake-2016-early-asterozoa at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: blake-2016-early-asterozoa
           relation: supports
@@ -197,7 +182,6 @@ records:
           locator: "pp. 161–181; Abstract and Systematic palaeontology: Stenaster sp."
         - referenceId: pbdb-api-2016
           locator: occ:1541278; col:216850; ref:74981; Floian Wah Wah Formation
-      reviewStatus: not-reviewed
       evidenceLevel: literature-synthesized
 ---
 

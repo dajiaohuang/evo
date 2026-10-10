@@ -9,7 +9,6 @@ records:
     name:
       en: Nanorana liebigii
       zh: Nanorana liebigii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

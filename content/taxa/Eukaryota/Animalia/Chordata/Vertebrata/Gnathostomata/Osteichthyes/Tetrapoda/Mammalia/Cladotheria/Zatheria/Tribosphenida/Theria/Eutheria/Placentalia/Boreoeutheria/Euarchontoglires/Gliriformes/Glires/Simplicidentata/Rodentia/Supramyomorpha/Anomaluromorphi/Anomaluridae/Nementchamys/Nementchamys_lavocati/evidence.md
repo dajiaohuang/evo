@@ -9,7 +9,6 @@ records:
     name:
       zh: Nementchamys lavocati
       en: Nementchamys lavocati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

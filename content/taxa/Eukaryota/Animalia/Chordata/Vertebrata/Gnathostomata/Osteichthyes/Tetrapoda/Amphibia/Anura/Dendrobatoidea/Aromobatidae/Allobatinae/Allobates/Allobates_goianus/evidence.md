@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates goianus
       zh: Allobates goianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zhongornis haoae
       en: Zhongornis haoae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

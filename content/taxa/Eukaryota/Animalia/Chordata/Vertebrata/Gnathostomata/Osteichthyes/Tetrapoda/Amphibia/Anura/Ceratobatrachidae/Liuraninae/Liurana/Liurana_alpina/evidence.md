@@ -9,7 +9,6 @@ records:
     name:
       en: Liurana alpina
       zh: Liurana alpina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

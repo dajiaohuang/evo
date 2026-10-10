@@ -9,7 +9,6 @@ records:
     name:
       zh: Helicops petersi
       en: Helicops petersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

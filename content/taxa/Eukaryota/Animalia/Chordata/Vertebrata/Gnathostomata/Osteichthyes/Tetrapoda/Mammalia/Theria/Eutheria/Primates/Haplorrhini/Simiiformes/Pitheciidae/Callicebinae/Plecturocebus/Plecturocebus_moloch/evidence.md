@@ -9,7 +9,6 @@ records:
     name:
       zh: 红腹绢毛猴
       en: Red-bellied Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

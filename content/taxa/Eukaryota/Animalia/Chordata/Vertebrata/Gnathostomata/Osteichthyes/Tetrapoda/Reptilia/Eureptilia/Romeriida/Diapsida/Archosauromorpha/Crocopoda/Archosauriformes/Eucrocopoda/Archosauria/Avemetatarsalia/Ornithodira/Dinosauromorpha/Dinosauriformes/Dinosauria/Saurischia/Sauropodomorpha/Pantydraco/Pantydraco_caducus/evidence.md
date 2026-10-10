@@ -9,7 +9,6 @@ records:
     name:
       zh: Pantydraco caducus
       en: Pantydraco caducus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

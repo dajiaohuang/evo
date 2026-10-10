@@ -9,7 +9,6 @@ records:
     name:
       zh: Protobothrops trungkhanhensis
       en: Protobothrops trungkhanhensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

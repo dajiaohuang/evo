@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys capensis
       zh: Sclerophrys capensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

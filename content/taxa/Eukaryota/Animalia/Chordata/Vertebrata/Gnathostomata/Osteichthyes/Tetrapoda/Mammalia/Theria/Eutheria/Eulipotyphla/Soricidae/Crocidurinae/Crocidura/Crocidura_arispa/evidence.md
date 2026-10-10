@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura arispa
       en: Crocidura arispa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

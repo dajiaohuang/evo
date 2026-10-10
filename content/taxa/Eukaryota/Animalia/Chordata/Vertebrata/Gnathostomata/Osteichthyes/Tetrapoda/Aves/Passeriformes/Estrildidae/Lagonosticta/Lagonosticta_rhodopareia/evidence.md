@@ -9,7 +9,6 @@ records:
     name:
       zh: Lagonosticta rhodopareia
       en: Lagonosticta rhodopareia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

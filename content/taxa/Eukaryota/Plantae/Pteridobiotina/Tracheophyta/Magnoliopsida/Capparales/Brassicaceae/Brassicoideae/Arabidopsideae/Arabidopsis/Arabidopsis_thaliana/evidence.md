@@ -171,10 +171,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Arabidopsis thaliana
@@ -345,10 +341,4 @@ Only selected morphology, UK cultivation, regional ecology, and one population-g
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 A systematic literature review and comparison of all source concepts with the full COL26.8 species concept remain incomplete.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

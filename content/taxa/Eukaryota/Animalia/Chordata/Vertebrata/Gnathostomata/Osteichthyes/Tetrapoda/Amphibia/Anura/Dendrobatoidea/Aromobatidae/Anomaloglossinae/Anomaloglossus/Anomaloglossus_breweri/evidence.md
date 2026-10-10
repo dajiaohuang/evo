@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus breweri
       zh: Anomaloglossus breweri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

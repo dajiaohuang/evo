@@ -9,7 +9,6 @@ records:
     name:
       en: Hadromophryne natalensis
       zh: Hadromophryne natalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

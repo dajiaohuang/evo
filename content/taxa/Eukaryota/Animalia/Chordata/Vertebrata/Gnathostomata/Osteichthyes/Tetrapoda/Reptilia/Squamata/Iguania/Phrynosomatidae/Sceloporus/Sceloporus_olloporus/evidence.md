@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus olloporus
       en: Sceloporus olloporus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Speleomantes supramontis
       zh: Speleomantes supramontis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

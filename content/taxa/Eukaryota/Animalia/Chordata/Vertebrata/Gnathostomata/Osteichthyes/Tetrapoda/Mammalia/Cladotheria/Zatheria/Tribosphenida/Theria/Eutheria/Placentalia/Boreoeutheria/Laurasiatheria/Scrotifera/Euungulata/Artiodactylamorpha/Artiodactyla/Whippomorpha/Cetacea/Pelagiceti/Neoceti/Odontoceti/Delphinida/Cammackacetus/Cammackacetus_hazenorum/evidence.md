@@ -9,7 +9,6 @@ records:
     name:
       zh: Cammackacetus hazenorum
       en: Cammackacetus hazenorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

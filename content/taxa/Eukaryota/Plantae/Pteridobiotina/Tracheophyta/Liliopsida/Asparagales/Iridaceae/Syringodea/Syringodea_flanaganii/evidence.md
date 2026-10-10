@@ -207,10 +207,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Syringodea flanaganii
@@ -416,5 +412,5 @@ The available evidence is regional; evolution and fossil occurrence remain unass
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-No reproducible global literature and occurrence search or external expert review has been completed.
+No reproducible global literature and occurrence search has been completed.
 <!-- /evo:text -->

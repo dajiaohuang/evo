@@ -9,7 +9,6 @@ records:
     name:
       zh: Nasua narica
       en: Nasua narica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus soudthichaki
       en: Cyrtodactylus soudthichaki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

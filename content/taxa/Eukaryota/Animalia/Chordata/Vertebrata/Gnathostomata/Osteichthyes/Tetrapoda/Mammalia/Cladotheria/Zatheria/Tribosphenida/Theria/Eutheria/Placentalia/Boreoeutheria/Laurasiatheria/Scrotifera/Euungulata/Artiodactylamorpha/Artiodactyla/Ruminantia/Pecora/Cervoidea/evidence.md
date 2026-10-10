@@ -9,7 +9,6 @@ records:
     name:
       zh: Cervoidea
       en: Cervoidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Chiasmocleis centralis
       zh: Chiasmocleis centralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

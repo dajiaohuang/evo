@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera heyeri
       zh: Adenomera heyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

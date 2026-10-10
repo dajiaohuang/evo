@@ -9,7 +9,6 @@ records:
     name:
       en: Cacosternum karooicum
       zh: Cacosternum karooicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ankylodon annectens
       en: Ankylodon annectens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

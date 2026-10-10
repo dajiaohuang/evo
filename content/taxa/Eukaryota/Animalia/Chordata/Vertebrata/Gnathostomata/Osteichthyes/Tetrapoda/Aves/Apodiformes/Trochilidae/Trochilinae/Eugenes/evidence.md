@@ -9,7 +9,6 @@ records:
     name:
       zh: Eugenes
       en: Eugenes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracosoryx loxoceros
       en: Paracosoryx loxoceros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

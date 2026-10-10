@@ -9,7 +9,6 @@ records:
     name:
       zh: Kelba quadeemae
       en: Kelba quadeemae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

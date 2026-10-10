@@ -30,7 +30,7 @@ hekkala2011
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked phylogenetic study guide, not externally expert-reviewed. Modern samples and historical mummies address lineage and past occurrence; they do not replace current range surveys, population censuses or conservation assessments.
+Source-linked phylogenetic study guide. Modern samples and historical mummies address lineage and past occurrence; they do not replace current range surveys, population censuses or conservation assessments.
 <!-- /evo:text -->
 
 ## Name and this data account

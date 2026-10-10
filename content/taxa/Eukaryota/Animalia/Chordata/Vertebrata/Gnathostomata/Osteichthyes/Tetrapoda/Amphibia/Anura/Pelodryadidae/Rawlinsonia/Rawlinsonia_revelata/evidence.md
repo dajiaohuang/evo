@@ -9,7 +9,6 @@ records:
     name:
       en: Rawlinsonia revelata
       zh: Rawlinsonia revelata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

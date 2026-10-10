@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor chrysozetetes
       zh: Craugastor chrysozetetes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

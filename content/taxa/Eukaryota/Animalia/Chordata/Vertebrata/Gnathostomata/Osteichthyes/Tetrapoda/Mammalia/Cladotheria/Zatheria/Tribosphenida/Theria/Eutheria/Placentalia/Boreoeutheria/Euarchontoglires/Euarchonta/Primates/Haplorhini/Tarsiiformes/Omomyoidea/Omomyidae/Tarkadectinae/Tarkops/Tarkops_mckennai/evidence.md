@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarkops mckennai
       en: Tarkops mckennai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

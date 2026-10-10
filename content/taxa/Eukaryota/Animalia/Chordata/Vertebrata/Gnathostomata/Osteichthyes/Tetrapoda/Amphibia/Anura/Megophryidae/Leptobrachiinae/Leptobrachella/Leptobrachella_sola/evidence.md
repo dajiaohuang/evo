@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella sola
       zh: Leptobrachella sola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

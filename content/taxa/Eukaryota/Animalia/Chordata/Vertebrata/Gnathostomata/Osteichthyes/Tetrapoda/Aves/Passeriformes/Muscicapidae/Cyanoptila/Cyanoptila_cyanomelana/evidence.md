@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanoptila cyanomelana
       en: Cyanoptila cyanomelana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus samoensis
       en: Pteropus samoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

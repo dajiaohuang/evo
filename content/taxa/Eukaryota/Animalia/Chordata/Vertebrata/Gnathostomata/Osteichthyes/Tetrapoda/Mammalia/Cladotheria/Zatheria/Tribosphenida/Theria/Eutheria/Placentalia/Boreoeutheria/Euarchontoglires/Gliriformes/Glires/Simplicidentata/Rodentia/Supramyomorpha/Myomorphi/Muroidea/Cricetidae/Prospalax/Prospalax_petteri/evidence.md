@@ -9,7 +9,6 @@ records:
     name:
       zh: Prospalax petteri
       en: Prospalax petteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

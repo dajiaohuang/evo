@@ -9,7 +9,6 @@ records:
     name:
       zh: Megaladapis edwardsi
       en: Megaladapis edwardsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

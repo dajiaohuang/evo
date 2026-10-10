@@ -9,7 +9,6 @@ records:
     name:
       zh: Graciliscincus shonae
       en: Graciliscincus shonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

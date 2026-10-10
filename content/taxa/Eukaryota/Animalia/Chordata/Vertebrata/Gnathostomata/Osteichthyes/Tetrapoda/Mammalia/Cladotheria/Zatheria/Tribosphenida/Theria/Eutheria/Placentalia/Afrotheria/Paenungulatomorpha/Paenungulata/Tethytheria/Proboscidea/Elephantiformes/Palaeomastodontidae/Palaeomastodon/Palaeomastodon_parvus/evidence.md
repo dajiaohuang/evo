@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeomastodon parvus
       en: Palaeomastodon parvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

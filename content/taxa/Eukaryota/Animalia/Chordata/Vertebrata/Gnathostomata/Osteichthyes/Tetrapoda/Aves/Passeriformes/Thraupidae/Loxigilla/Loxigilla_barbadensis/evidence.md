@@ -9,7 +9,6 @@ records:
     name:
       zh: Loxigilla barbadensis
       en: Loxigilla barbadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

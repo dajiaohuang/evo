@@ -9,7 +9,6 @@ records:
     name:
       zh: Homo georgicus
       en: Homo georgicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

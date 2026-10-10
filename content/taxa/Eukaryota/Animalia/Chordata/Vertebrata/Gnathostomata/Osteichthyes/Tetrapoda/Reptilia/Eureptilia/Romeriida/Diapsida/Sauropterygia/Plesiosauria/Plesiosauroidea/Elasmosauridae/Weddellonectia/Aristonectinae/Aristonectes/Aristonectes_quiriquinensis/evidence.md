@@ -9,7 +9,6 @@ records:
     name:
       zh: Aristonectes quiriquinensis
       en: Aristonectes quiriquinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

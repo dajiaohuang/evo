@@ -9,7 +9,6 @@ records:
     name:
       en: Plectrohyla insolita
       zh: Plectrohyla insolita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

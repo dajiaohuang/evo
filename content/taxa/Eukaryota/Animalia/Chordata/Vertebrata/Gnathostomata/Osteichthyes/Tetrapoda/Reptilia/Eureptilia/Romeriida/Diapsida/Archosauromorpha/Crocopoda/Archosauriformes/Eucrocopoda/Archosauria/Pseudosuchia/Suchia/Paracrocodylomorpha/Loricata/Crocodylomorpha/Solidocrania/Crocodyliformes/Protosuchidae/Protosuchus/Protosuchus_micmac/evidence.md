@@ -9,7 +9,6 @@ records:
     name:
       zh: Protosuchus micmac
       en: Protosuchus micmac
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

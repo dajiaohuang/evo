@@ -9,7 +9,6 @@ records:
     name:
       zh: Tanaisosaurus kalandadzei
       en: Tanaisosaurus kalandadzei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

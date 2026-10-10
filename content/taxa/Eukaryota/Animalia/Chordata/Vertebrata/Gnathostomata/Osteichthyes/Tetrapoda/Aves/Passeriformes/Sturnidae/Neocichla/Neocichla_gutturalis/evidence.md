@@ -9,7 +9,6 @@ records:
     name:
       zh: Neocichla gutturalis
       en: Neocichla gutturalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

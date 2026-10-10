@@ -9,7 +9,6 @@ records:
     name:
       zh: Nodocephalosaurus kirtlandensis
       en: Nodocephalosaurus kirtlandensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

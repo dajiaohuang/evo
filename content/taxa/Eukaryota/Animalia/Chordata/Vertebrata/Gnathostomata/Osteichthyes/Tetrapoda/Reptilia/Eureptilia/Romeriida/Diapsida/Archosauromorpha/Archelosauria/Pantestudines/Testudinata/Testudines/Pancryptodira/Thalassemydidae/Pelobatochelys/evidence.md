@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelobatochelys
       en: Pelobatochelys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

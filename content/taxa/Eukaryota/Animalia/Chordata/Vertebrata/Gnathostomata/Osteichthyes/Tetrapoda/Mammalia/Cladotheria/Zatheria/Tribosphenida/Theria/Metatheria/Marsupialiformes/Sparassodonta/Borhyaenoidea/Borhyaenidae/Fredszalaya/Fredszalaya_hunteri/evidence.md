@@ -9,7 +9,6 @@ records:
     name:
       zh: Fredszalaya hunteri
       en: Fredszalaya hunteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geothlypis chiriquensis
       en: Geothlypis chiriquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

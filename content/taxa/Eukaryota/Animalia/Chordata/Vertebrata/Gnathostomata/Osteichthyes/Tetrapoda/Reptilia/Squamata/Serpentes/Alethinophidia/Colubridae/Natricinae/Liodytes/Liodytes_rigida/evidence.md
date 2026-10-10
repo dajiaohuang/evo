@@ -9,7 +9,6 @@ records:
     name:
       zh: Liodytes rigida
       en: Liodytes rigida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

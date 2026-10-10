@@ -9,7 +9,6 @@ records:
     name:
       en: Peltophryne cataulaciceps
       zh: Peltophryne cataulaciceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

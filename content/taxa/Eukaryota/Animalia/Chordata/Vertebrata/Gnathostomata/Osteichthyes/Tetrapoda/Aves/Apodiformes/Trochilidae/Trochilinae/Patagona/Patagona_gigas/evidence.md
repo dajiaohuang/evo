@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagona gigas
       en: Patagona gigas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

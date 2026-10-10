@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura fuliginosa
       en: Crocidura fuliginosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

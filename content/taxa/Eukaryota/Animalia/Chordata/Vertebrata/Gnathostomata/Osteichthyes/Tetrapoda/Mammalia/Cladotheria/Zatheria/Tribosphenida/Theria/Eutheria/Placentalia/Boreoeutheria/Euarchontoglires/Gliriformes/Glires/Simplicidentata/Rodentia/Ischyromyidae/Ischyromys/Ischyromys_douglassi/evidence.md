@@ -9,7 +9,6 @@ records:
     name:
       zh: Ischyromys douglassi
       en: Ischyromys douglassi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

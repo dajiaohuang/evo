@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterosphenus schucherti
       en: Pterosphenus schucherti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

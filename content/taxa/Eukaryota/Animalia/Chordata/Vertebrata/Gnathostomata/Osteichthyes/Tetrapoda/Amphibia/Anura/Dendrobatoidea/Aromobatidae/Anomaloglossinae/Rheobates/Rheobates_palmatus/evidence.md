@@ -9,7 +9,6 @@ records:
     name:
       en: Rheobates palmatus
       zh: Rheobates palmatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

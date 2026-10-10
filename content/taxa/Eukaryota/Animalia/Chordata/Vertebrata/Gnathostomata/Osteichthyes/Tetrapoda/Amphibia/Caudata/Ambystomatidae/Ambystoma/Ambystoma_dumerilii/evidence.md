@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma dumerilii
       zh: Ambystoma dumerilii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

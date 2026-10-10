@@ -9,7 +9,6 @@ records:
     name:
       zh: Macroagelaius subalaris
       en: Macroagelaius subalaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

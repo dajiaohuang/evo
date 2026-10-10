@@ -9,7 +9,6 @@ records:
     name:
       zh: Saghatherium magnum
       en: Saghatherium magnum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

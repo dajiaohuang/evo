@@ -9,7 +9,6 @@ records:
     name:
       zh: Pauromys exallos
       en: Pauromys exallos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -48,5 +48,5 @@ Start with Imperobator antarcticus, Variraptor mechinorum, Nuthetes destructor, 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page provides a selective comparison of two holotypes, without treating their anatomy, plumage, diets or locomotion as traits of every roster member. Existing occurrence, collection and age sections organize database fields rather than biological abundance or actual origin/extinction dates. The Dineobellator description and Balaur reassessment retain their study scopes; the full original Balaur description and later literature are not assembled. Recorded PBDB placement remains separate from phylogenetic hypotheses, without reclassification or external expert review.
+This page provides a selective comparison of two holotypes, without treating their anatomy, plumage, diets or locomotion as traits of every roster member. Existing occurrence, collection and age sections organize database fields rather than biological abundance or actual origin/extinction dates. The Dineobellator description and Balaur reassessment retain their study scopes; the full original Balaur description and later literature are not assembled. Recorded PBDB placement remains separate from phylogenetic hypotheses, without reclassification.
 <!-- /evo:text -->

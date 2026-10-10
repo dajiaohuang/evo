@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelodina pritchardi
       en: Chelodina pritchardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

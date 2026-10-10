@@ -9,7 +9,6 @@ records:
     name:
       zh: Viverra tangalunga
       en: Viverra tangalunga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

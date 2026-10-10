@@ -9,7 +9,6 @@ records:
     name:
       zh: Grallaricula peruviana
       en: Grallaricula peruviana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,5 +22,5 @@ The type locality and main records were around Beza-Mahafaly. The authors summar
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Mass and habitat details come from the 2006 description and its limited records; boundaries required further survey and cannot establish present abundance or trends. The COL26.8 accepted name is retained. The Chinese common name is editorial; this guide is not externally expert-reviewed.
+Mass and habitat details come from the 2006 description and its limited records; boundaries required further survey and cannot establish present abundance or trends. The COL26.8 accepted name is retained. The Chinese common name is editorial; this guide is.
 <!-- /evo:text -->

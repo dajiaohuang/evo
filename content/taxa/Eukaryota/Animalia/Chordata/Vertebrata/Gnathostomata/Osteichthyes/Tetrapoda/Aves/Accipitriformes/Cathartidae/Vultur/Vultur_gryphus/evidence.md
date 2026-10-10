@@ -9,7 +9,6 @@ records:
     name:
       zh: 安第斯神鹫
       en: Andean Condor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -682,10 +681,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/2
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Vultur gryphus
@@ -897,7 +892,7 @@ The 2015 Ecuador census and 2016 model are not current assessments; no current g
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-A systematic literature search, source-concept reconciliation, and external expert review have not been completed.
+A systematic literature search, source-concept reconciliation, has not been completed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons

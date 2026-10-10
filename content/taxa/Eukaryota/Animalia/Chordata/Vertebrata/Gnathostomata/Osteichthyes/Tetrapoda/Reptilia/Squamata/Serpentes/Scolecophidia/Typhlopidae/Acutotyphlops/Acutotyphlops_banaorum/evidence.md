@@ -9,7 +9,6 @@ records:
     name:
       zh: Acutotyphlops banaorum
       en: Acutotyphlops banaorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

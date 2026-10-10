@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachoseps gavilanensis
       zh: Batrachoseps gavilanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vassallia minuta
       en: Vassallia minuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

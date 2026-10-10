@@ -9,7 +9,6 @@ records:
     name:
       en: Qosqophryne gymnotis
       zh: Qosqophryne gymnotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

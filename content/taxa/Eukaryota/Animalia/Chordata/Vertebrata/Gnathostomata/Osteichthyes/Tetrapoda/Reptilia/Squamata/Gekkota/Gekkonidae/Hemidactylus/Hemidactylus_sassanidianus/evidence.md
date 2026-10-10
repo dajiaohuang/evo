@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus sassanidianus
       en: Hemidactylus sassanidianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

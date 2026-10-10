@@ -9,7 +9,6 @@ records:
     name:
       zh: Entradasuchus spinosus
       en: Entradasuchus spinosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

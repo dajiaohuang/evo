@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne murrita
       zh: Choerophryne murrita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

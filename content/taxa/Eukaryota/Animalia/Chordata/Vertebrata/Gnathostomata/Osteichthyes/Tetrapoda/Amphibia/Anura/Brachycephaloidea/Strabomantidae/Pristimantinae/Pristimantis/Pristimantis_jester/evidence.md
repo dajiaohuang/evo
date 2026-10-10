@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis jester
       zh: Pristimantis jester
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

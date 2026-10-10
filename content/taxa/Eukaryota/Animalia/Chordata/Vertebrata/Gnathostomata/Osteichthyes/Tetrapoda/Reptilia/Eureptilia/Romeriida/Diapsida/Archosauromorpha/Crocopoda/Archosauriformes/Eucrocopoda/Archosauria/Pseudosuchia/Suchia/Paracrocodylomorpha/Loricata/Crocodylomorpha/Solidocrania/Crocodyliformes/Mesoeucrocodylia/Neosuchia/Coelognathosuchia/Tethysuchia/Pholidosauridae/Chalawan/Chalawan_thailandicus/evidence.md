@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalawan thailandicus
       en: Chalawan thailandicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

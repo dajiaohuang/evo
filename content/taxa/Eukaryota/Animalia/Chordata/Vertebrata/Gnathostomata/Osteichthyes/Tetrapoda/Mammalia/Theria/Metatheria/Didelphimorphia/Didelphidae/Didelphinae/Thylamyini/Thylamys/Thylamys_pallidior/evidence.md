@@ -9,7 +9,6 @@ records:
     name:
       zh: Thylamys pallidior
       en: Thylamys pallidior
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

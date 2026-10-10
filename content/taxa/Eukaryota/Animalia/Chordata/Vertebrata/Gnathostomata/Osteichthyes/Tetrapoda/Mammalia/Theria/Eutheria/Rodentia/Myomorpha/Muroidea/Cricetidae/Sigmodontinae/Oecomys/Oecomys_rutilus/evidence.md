@@ -9,7 +9,6 @@ records:
     name:
       zh: Oecomys rutilus
       en: Oecomys rutilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

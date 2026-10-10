@@ -9,7 +9,6 @@ records:
     name:
       zh: Philepitta castanea
       en: Philepitta castanea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

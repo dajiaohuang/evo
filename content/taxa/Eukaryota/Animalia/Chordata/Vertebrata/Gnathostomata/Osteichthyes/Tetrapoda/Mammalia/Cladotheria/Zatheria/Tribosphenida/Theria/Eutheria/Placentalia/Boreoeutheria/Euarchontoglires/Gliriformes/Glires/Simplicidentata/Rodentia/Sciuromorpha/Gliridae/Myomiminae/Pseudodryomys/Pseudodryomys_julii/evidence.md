@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudodryomys julii
       en: Pseudodryomys julii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

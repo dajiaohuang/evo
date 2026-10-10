@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrocyon sectorius
       en: Acrocyon sectorius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

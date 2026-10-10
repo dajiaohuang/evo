@@ -9,7 +9,6 @@ records:
     name:
       en: Breviceps acutirostris
       zh: Breviceps acutirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

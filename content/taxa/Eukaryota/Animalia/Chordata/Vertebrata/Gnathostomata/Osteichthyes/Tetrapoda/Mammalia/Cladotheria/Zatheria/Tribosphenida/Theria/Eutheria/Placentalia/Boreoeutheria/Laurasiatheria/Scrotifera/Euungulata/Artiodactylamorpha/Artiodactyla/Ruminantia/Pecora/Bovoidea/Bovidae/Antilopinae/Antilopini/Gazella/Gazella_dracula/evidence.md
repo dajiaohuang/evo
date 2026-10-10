@@ -9,7 +9,6 @@ records:
     name:
       zh: Gazella dracula
       en: Gazella dracula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

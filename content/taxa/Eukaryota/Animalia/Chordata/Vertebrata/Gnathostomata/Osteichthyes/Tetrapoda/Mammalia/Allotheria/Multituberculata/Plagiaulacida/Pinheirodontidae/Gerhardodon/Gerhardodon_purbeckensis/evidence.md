@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerhardodon purbeckensis
       en: Gerhardodon purbeckensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

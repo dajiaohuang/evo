@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pictus
       zh: Pristimantis pictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

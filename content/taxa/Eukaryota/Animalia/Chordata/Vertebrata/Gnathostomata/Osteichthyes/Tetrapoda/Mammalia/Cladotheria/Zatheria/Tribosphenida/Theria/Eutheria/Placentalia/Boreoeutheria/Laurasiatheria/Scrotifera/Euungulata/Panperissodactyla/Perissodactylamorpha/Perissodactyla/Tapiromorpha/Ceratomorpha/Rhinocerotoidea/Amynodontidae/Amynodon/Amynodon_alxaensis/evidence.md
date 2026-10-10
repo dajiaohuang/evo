@@ -9,7 +9,6 @@ records:
     name:
       zh: Amynodon alxaensis
       en: Amynodon alxaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

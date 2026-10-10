@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus manyar
       en: Ploceus manyar
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

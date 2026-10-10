@@ -9,7 +9,6 @@ records:
     name:
       zh: Proornis coreae
       en: Proornis coreae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

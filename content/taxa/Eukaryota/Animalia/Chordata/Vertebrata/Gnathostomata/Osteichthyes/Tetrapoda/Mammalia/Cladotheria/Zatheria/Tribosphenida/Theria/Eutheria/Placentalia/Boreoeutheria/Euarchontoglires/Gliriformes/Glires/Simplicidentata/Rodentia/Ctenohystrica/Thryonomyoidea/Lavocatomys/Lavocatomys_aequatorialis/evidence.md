@@ -9,7 +9,6 @@ records:
     name:
       zh: Lavocatomys aequatorialis
       en: Lavocatomys aequatorialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

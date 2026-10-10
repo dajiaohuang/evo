@@ -57,9 +57,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: pnas-2026-perissodactyls + prothero-2009-hoofed-transitions locator audit at 2026-08-31
       referenceLinks:
         - referenceId: pnas-2026-perissodactyls
           relation: supports
@@ -83,9 +80,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: pnas-2026-perissodactyls + prothero-2009-hoofed-transitions locator audit at 2026-08-31
       referenceLinks:
         - referenceId: pnas-2026-perissodactyls
           relation: supports
@@ -109,9 +103,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Tissier and Smith 2026 DOI 10.1073/pnas.2519690122; audited for 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: pnas-2026-perissodactyls
           relation: supports
@@ -132,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: prothero-2009-hoofed-transitions locator audit at 2026-08-31
       referenceLinks:
         - referenceId: prothero-2009-hoofed-transitions
           relation: supports
@@ -153,9 +141,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: prothero-2009-hoofed-transitions locator audit at 2026-08-31
       referenceLinks:
         - referenceId: prothero-2009-hoofed-transitions
           relation: supports
@@ -221,7 +206,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

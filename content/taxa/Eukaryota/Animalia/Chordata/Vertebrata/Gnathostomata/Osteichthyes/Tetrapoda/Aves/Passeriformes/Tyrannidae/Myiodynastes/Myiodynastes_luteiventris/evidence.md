@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiodynastes luteiventris
       en: Myiodynastes luteiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

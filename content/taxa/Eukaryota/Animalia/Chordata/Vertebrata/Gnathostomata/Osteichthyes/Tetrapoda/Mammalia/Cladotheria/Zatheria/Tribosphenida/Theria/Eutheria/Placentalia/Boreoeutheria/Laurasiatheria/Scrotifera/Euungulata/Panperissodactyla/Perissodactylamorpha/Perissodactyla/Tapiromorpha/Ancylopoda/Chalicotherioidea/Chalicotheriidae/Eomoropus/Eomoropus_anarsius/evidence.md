@@ -9,7 +9,6 @@ records:
     name:
       zh: Eomoropus anarsius
       en: Eomoropus anarsius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

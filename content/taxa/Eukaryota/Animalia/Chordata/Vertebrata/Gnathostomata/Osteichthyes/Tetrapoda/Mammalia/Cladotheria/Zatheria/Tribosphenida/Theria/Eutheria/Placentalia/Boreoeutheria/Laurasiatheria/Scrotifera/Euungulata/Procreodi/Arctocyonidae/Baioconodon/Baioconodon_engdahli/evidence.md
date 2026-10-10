@@ -9,7 +9,6 @@ records:
     name:
       zh: Baioconodon engdahli
       en: Baioconodon engdahli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Citellus matachicensis
       en: Citellus matachicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

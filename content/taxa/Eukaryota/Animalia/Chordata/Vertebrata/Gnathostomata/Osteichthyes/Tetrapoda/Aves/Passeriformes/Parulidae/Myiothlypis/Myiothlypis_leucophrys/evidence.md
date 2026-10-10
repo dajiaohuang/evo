@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiothlypis leucophrys
       en: Myiothlypis leucophrys
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

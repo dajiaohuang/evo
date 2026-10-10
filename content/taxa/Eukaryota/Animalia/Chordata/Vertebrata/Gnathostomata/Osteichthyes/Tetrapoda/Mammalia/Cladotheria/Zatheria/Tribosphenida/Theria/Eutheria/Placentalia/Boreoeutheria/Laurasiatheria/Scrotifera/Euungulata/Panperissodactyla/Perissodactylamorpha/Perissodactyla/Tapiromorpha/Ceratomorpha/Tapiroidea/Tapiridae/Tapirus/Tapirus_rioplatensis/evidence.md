@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapirus rioplatensis
       en: Tapirus rioplatensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetrameryx tacubayensis
       en: Tetrameryx tacubayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

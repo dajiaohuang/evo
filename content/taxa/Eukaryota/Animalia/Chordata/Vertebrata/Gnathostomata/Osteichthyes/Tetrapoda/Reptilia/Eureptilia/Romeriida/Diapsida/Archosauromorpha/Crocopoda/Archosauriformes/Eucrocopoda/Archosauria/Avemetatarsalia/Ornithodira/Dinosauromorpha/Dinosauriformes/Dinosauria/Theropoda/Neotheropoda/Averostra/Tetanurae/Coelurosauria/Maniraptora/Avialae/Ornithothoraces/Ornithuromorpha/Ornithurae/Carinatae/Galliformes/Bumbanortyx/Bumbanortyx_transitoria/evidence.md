@@ -9,7 +9,6 @@ records:
     name:
       zh: Bumbanortyx transitoria
       en: Bumbanortyx transitoria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

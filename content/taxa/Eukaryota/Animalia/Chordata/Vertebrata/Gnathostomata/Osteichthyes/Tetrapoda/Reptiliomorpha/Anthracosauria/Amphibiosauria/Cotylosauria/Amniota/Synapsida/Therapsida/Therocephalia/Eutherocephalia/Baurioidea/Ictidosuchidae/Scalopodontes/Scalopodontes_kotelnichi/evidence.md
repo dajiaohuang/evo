@@ -9,7 +9,6 @@ records:
     name:
       zh: Scalopodontes kotelnichi
       en: Scalopodontes kotelnichi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

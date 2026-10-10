@@ -9,7 +9,6 @@ records:
     name:
       zh: Charitomenosuchus leedsi
       en: Charitomenosuchus leedsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

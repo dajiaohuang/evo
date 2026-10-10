@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendroplex picus
       en: Dendroplex picus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

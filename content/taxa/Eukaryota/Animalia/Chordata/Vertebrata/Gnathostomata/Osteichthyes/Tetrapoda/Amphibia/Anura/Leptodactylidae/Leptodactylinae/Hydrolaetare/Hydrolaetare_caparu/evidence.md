@@ -9,7 +9,6 @@ records:
     name:
       en: Hydrolaetare caparu
       zh: Hydrolaetare caparu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

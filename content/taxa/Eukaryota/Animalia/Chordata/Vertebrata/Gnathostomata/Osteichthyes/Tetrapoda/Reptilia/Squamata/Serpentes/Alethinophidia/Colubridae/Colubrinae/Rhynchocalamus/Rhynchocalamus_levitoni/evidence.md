@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhynchocalamus levitoni
       en: Rhynchocalamus levitoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

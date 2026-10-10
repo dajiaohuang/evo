@@ -9,7 +9,6 @@ records:
     name:
       zh: Belonodelphis peruanus
       en: Belonodelphis peruanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

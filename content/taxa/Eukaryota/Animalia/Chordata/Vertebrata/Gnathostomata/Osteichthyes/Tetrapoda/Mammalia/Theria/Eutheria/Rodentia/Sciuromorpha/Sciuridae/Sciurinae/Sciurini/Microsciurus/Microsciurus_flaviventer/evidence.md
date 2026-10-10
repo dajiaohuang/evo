@@ -9,7 +9,6 @@ records:
     name:
       zh: Microsciurus flaviventer
       en: Microsciurus flaviventer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

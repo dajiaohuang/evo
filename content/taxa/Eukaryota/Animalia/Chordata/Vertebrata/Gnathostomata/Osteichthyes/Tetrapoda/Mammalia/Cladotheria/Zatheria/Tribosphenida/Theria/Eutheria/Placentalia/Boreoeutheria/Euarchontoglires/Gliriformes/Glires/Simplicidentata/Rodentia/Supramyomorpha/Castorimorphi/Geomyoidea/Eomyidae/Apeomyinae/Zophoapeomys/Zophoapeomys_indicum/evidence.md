@@ -9,7 +9,6 @@ records:
     name:
       zh: Zophoapeomys indicum
       en: Zophoapeomys indicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

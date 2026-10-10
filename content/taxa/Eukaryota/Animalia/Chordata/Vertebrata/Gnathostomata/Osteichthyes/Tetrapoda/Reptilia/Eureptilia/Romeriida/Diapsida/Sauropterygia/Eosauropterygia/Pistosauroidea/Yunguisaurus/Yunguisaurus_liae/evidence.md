@@ -9,7 +9,6 @@ records:
     name:
       zh: Yunguisaurus liae
       en: Yunguisaurus liae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus spurrelli
       zh: Atelopus spurrelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

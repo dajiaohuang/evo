@@ -9,7 +9,6 @@ records:
     name:
       zh: Indicator conirostris
       en: Indicator conirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

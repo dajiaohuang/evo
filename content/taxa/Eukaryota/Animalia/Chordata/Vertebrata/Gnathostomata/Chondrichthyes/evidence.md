@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Andreev et al. 2022 DOI 10.1038/s41586-022-05166-2; audited for 2026.08-static-v5-rc40
       referenceLinks:
         - referenceId: andreev-2022-qianodus
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: andreev-2022-qianodus
           locator: pp. 964–968, especially 965–967; Figures 1–2; Extended Data Figures 1–3; geological setting and phylogenetic analysis
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

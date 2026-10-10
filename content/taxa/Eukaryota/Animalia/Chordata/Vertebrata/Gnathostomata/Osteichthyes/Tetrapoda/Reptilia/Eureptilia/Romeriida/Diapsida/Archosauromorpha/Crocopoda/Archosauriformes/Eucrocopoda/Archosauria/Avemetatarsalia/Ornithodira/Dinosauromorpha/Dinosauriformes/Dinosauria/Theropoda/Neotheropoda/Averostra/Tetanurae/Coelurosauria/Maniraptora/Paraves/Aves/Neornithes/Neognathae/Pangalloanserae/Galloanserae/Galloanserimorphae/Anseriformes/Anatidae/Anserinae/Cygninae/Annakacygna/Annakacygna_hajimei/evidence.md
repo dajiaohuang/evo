@@ -9,7 +9,6 @@ records:
     name:
       zh: Annakacygna hajimei
       en: Annakacygna hajimei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

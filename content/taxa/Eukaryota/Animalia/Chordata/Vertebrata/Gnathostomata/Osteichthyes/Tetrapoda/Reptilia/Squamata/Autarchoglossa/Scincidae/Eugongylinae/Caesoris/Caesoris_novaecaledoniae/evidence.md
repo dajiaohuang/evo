@@ -9,7 +9,6 @@ records:
     name:
       zh: Caesoris novaecaledoniae
       en: Caesoris novaecaledoniae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

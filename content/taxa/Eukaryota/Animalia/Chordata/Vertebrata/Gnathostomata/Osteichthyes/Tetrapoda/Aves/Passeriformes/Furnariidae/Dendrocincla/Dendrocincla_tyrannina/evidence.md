@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrocincla tyrannina
       en: Dendrocincla tyrannina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

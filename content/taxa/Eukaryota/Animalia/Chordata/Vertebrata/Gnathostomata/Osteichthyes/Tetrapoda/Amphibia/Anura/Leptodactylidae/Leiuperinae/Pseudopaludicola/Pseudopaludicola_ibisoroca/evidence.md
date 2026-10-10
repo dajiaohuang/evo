@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudopaludicola ibisoroca
       zh: Pseudopaludicola ibisoroca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

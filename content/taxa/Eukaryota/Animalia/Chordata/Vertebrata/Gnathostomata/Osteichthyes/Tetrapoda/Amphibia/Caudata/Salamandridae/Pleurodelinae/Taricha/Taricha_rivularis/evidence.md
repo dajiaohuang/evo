@@ -9,7 +9,6 @@ records:
     name:
       en: Taricha rivularis
       zh: Taricha rivularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bunopus blanfordii
       en: Bunopus blanfordii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

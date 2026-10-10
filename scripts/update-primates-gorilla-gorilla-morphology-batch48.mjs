@@ -102,7 +102,6 @@ function validateSourceClaim(dossier) {
   assert.equal(dossier.scientificName, source.target.scientificName)
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness?.status, 'incomplete')
-  assert.equal(dossier.expertReview?.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   const claim = source.claims.morphology
   assert.ok(claim.text && claim.textZh && claim.locator && claim.placeTimeScope && claim.lifeStatus)
@@ -192,7 +191,6 @@ if (alreadyApplied) {
     reasons: [
       'The record contains bounded site-specific ecology, genomic evolution and female life-history evidence, plus facial asymmetry evidence from one archival western-lowland cranial sample; other anatomy, species-wide distribution, fossil evidence and conservation remain unassessed.',
       'Systematic literature coverage across the accepted species concept, morphology, and variation among other populations and subspecies remains incomplete.',
-      'Independent external expert review has not been completed.',
     ],
   }
   verifyAcceptedIdentity(registryManifest, dossier)

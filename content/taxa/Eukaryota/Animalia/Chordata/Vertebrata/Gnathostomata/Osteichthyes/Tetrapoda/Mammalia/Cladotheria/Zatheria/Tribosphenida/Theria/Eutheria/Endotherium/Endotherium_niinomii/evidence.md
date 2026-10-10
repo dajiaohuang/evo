@@ -9,7 +9,6 @@ records:
     name:
       zh: Endotherium niinomii
       en: Endotherium niinomii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

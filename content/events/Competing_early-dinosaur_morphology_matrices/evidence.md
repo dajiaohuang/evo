@@ -113,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: baron-2017-dinosaur-relationships @ DOI 10.1038/nature21700
       referenceLinks:
         - referenceId: baron-2017-dinosaur-relationships
           relation: supports

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ornitholestes hermanni
       en: Ornitholestes hermanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

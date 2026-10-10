@@ -9,7 +9,6 @@ records:
     name:
       zh: Euspondylus excelsum
       en: Euspondylus excelsum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus bugiamapensis
       en: Cyrtodactylus bugiamapensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

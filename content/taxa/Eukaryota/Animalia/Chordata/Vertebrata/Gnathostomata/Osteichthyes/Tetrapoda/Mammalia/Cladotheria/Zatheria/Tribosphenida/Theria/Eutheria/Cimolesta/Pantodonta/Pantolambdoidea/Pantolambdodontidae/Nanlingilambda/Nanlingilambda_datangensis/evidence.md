@@ -9,7 +9,6 @@ records:
     name:
       zh: Nanlingilambda datangensis
       en: Nanlingilambda datangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

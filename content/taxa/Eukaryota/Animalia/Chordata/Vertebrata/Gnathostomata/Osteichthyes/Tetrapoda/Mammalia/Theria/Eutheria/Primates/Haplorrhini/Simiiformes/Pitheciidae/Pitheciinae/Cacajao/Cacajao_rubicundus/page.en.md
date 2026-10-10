@@ -34,7 +34,7 @@ The ICMBio SALVE sheet was published in 2025, but its Least Concern category is 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This guide combines taxonomy, regional assessment and direct Mamirauá observations from 2008. Targeted searches, one feeding observation and local social units do not establish annual diet, species-wide group size, abundance or trend. The assessment’s unknown group size and these observed units have different scopes. Historical names are not automatically equivalent across regions. This is not a complete monograph or externally expert-reviewed account.
+This guide combines taxonomy, regional assessment and direct Mamirauá observations from 2008. Targeted searches, one feeding observation and local social units do not establish annual diet, species-wide group size, abundance or trend. The assessment’s unknown group size and these observed units have different scopes. Historical names are not automatically equivalent across regions. This is not a complete monograph.
 <!-- /evo:text -->
 
 ## Interviews guided a targeted search

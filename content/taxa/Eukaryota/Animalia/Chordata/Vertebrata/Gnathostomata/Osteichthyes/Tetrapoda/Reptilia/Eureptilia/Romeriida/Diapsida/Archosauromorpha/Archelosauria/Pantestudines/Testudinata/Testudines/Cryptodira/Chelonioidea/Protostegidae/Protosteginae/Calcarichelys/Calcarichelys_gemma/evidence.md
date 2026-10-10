@@ -9,7 +9,6 @@ records:
     name:
       zh: Calcarichelys gemma
       en: Calcarichelys gemma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

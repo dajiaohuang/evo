@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus fabiani
       en: Liolaemus fabiani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

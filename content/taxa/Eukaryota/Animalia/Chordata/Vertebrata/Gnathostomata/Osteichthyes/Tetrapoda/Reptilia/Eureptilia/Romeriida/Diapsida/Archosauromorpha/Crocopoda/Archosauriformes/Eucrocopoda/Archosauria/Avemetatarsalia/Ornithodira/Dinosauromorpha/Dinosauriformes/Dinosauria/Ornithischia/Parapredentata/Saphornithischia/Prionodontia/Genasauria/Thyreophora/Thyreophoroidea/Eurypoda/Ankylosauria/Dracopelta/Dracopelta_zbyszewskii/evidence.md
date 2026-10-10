@@ -9,7 +9,6 @@ records:
     name:
       zh: Dracopelta zbyszewskii
       en: Dracopelta zbyszewskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Chirixalus pantaiselatan
       zh: Chirixalus pantaiselatan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

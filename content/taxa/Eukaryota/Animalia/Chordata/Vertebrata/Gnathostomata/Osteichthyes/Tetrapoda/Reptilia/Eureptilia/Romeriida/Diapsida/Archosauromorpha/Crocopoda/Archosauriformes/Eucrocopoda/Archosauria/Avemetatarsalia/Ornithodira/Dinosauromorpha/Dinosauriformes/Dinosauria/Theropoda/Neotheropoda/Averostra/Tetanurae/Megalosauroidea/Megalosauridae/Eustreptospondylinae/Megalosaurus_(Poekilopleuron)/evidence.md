@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalosaurus (Poekilopleuron)
       en: Megalosaurus (Poekilopleuron)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

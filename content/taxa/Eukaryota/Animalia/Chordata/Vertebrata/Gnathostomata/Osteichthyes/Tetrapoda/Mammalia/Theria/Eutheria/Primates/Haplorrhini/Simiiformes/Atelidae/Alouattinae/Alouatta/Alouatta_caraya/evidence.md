@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑金吼猴
       en: Black-and-gold howler monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: evolution

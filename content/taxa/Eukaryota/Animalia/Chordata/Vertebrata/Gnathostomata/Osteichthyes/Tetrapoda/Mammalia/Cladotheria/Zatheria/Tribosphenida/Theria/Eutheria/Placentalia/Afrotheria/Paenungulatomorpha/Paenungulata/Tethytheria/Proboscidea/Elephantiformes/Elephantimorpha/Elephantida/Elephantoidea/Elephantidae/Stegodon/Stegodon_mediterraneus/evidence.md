@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegodon mediterraneus
       en: Stegodon mediterraneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

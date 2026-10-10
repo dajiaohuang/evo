@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia penangensis
       zh: Ansonia penangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

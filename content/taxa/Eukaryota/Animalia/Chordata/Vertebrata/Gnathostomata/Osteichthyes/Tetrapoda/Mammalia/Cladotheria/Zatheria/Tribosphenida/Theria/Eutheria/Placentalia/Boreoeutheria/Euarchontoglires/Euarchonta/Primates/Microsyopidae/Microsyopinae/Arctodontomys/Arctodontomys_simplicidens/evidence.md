@@ -9,7 +9,6 @@ records:
     name:
       zh: Arctodontomys simplicidens
       en: Arctodontomys simplicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

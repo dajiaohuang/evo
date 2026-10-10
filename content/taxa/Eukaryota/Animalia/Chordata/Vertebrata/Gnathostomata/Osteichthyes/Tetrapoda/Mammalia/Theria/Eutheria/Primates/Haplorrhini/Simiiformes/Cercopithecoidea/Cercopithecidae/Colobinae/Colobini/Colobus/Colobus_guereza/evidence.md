@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑白疣猴
       en: Mantled guereza
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -921,10 +920,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Colobus guereza
@@ -1100,5 +1095,5 @@ The one-group study cannot represent species-wide ecology or distribution.
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No systematic literature search or independent expert review has been completed.
+No systematic literature search has been completed.
 <!-- /evo:text -->

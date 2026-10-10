@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus mombergi
       en: Cyrtodactylus mombergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

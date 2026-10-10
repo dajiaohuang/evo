@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynocephalus ananjevae
       en: Phrynocephalus ananjevae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

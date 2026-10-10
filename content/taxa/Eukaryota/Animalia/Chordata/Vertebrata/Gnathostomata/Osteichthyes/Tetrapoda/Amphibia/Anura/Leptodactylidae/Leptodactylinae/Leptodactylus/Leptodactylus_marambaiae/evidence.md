@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus marambaiae
       zh: Leptodactylus marambaiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

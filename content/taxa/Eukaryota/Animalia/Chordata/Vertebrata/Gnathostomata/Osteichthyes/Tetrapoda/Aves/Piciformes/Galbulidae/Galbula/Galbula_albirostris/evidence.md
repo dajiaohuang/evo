@@ -9,7 +9,6 @@ records:
     name:
       zh: Galbula albirostris
       en: Galbula albirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

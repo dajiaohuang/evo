@@ -9,7 +9,6 @@ records:
     name:
       zh: 安卡拉那运动狐猴
       en: Ankarana Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: species delimitation

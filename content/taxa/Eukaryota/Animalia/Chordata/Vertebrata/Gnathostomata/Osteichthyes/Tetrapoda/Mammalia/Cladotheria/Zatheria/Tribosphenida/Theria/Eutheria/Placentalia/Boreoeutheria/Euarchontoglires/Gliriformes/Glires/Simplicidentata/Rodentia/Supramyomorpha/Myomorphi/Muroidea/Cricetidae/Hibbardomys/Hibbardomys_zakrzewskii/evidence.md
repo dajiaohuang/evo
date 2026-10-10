@@ -9,7 +9,6 @@ records:
     name:
       zh: Hibbardomys zakrzewskii
       en: Hibbardomys zakrzewskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

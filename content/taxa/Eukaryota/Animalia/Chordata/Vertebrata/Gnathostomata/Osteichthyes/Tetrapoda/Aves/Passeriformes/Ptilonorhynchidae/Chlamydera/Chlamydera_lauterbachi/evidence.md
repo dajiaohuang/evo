@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlamydera lauterbachi
       en: Chlamydera lauterbachi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: el-albani-2024-trilobite-3d; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: el-albani-2024-trilobite-3d
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: el-albani-2024-trilobite-3d
           locator: 1429–1435; Figures 1–4; Extended Data; Specimens; Microtomographic reconstruction; Ventral anatomy
-      reviewStatus: automated-audit-passed
 ---
 
 # Protolenus

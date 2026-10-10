@@ -9,7 +9,6 @@ records:
     name:
       zh: Plica umbra
       en: Plica umbra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

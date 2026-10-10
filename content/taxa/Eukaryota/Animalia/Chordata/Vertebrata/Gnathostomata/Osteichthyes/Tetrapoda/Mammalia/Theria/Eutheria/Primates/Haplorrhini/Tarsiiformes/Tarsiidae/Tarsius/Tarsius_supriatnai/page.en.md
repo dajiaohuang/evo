@@ -28,5 +28,5 @@ The authors revisited nest trees first recorded in 2018 and reported continued u
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Habitat and site-fidelity findings come from one landscape and a limited nest-tree sample; they do not establish species-wide habitat preferences. This page is not externally expert-reviewed.
+Habitat and site-fidelity findings come from one landscape and a limited nest-tree sample; they do not establish species-wide habitat preferences. This page is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑犀
       en: Black rhinoceros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

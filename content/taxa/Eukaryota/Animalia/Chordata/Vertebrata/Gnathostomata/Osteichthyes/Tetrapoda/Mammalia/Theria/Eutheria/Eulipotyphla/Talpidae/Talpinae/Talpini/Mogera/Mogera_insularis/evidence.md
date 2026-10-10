@@ -9,7 +9,6 @@ records:
     name:
       zh: Mogera insularis
       en: Mogera insularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

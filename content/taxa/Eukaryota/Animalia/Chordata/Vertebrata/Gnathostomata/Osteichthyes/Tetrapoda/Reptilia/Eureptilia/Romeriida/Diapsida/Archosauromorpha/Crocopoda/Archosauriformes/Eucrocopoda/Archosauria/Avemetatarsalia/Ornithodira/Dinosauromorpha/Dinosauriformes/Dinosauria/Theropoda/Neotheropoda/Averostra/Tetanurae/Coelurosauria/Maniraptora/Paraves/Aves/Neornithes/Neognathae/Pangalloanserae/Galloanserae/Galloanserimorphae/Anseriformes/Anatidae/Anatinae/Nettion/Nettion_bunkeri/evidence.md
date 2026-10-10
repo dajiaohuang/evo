@@ -9,7 +9,6 @@ records:
     name:
       zh: Nettion bunkeri
       en: Nettion bunkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

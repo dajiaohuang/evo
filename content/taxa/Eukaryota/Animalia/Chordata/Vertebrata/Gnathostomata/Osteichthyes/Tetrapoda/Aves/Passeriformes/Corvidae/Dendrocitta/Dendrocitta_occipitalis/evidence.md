@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrocitta occipitalis
       en: Dendrocitta occipitalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

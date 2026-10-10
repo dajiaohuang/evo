@@ -9,7 +9,6 @@ records:
     name:
       zh: Spizocorys conirostris
       en: Spizocorys conirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

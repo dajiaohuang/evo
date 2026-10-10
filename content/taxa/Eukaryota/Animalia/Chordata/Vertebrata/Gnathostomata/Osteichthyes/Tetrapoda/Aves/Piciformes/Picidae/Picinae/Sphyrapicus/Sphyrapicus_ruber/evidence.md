@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphyrapicus ruber
       en: Sphyrapicus ruber
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

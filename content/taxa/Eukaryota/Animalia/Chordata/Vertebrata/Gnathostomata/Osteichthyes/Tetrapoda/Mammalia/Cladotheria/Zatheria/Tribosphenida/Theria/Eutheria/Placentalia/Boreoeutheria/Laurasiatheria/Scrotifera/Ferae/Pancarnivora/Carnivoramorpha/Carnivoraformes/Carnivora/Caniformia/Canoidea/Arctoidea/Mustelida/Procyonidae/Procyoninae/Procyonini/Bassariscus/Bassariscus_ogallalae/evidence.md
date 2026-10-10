@@ -9,7 +9,6 @@ records:
     name:
       zh: Bassariscus ogallalae
       en: Bassariscus ogallalae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

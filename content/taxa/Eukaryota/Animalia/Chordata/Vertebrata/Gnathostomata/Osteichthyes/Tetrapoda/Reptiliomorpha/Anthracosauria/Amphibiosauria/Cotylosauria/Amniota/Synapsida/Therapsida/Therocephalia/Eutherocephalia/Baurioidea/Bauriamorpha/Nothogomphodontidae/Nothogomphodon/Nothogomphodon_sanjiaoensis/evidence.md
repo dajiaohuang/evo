@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothogomphodon sanjiaoensis
       en: Nothogomphodon sanjiaoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Podarcis waglerianus
       en: Podarcis waglerianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

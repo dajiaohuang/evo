@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorsetisaurus purbeckensis
       en: Dorsetisaurus purbeckensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

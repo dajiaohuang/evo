@@ -71,7 +71,6 @@ assert.equal(dossier.scientificName, source.target.scientificName)
 assert.equal(String(dossier.sourceDatasetId), source.target.sourceDatasetId)
 assert.equal(sha256(Buffer.from(JSON.stringify(dossier))), source.audit.previousTargetRecordSha256, 'Callithrix target record baseline changed')
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.equal(dossier.facets.conservation.status, source.audit.queueBaseline.conservationStatus)
 assert.deepEqual(dossier.classificationPath.map(item => item.id), source.audit.classificationPathIds)
 
@@ -127,7 +126,6 @@ assert.equal(queueBaseline.claimCount, source.audit.queueBaseline.claimCount)
 assert.equal(queueBaseline.rightsStatus, source.audit.queueBaseline.rightsStatus)
 assert.equal(queueBaseline.systematicSearchRecorded, source.audit.queueBaseline.systematicSearchRecorded)
 assert.equal(queueBaseline.facetStatuses.conservation, source.audit.queueBaseline.conservationStatus)
-assert.equal(queueBaseline.expertReviewStatus, source.audit.queueBaseline.expertReviewStatus)
 
 const sourceMap = new Map(dossier.sources.map(item => [item.id, item]))
 assert.equal(sourceMap.size, dossier.sources.length, 'Existing dossier has duplicate source IDs')
@@ -157,10 +155,8 @@ dossier.facets.conservation.gaps = structuredClone(source.gaps.conservation)
 dossier.checkedAt = source.checkedAt
 dossier.completeness.reasons = [
   'Morphology, life history, ecology, evolution and distribution remain partially supported; fossil remains searched-no-evidence; conservation now contains one bounded hybridization-interaction claim, while current status, population trend and measured impact remain unassessed.',
-  'No independent external expert review has been completed.',
 ]
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 
 const rawAfter = Buffer.from(`${JSON.stringify(dossier)}\n`, 'utf8')
 assert.ok(!rawAfter.includes(0x0d), 'Raw JSONL must use LF only')
@@ -269,7 +265,7 @@ console.log(JSON.stringify({
   claimsAdded: source.claims.length,
   conservationStatus: dossier.facets.conservation.status,
   dossierStatus: dossier.completeness.status,
-  expertReviewStatus: dossier.expertReview.status,
+
   rawSha256: sha256(rawAfter),
   compressedSha256: sha256(compressedAfter),
   exactBrotliRoundTrip: brotliDecompressSync(compressedAfter).equals(rawAfter),

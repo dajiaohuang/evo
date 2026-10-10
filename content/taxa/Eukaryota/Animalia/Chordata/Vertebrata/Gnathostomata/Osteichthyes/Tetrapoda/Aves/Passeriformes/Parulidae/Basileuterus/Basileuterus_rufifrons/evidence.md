@@ -9,7 +9,6 @@ records:
     name:
       zh: Basileuterus rufifrons
       en: Basileuterus rufifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

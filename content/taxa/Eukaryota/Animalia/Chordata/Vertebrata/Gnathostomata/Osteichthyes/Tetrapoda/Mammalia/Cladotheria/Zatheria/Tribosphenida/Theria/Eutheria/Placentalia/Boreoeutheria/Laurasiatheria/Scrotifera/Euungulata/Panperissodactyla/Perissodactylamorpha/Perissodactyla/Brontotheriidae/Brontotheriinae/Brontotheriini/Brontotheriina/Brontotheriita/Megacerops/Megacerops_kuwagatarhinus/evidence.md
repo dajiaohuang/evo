@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacerops kuwagatarhinus
       en: Megacerops kuwagatarhinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

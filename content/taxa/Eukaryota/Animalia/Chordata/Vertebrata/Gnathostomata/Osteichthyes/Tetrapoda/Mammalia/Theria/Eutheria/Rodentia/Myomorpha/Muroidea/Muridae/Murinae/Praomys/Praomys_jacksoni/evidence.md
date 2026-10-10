@@ -9,7 +9,6 @@ records:
     name:
       zh: Praomys jacksoni
       en: Praomys jacksoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

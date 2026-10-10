@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega flavopicta
       zh: Ameerega flavopicta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

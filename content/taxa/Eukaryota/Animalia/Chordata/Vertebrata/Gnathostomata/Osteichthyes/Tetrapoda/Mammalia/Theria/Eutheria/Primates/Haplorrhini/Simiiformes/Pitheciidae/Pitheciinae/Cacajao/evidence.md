@@ -9,7 +9,6 @@ records:
     name:
       en: Cacajao reading path
       zh: Cacajao 属阅读路径
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

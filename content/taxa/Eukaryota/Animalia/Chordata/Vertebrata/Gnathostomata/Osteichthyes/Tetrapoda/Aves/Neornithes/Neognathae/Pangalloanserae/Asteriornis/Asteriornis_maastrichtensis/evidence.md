@@ -135,9 +135,9 @@ records:
 ## Field et al. (2020) / source scope
 
 <!-- evo:text /records/readerSources/0/scope/en -->
-NHMM 2013 008 and its quarry/horizon provenance; Figures 1–3, Extended Data Figures 7–9 and the cited description. Existing research claims delimit anatomy, competing topology results, the skeletal-scaling mass estimate and tentative littoral interpretation. These locators do not establish a complete global range, feeding behaviour, flight performance, direct ancestry or external expert review of this guide.
+NHMM 2013 008 and its quarry/horizon provenance; Figures 1–3, Extended Data Figures 7–9 and the cited description. Existing research claims delimit anatomy, competing topology results, the skeletal-scaling mass estimate and tentative littoral interpretation. These locators do not establish a complete global range, feeding behaviour, flight performance, direct ancestry of this guide.
 <!-- /evo:text -->
 
 <!-- evo:text /records/readerSources/0/scope/zh -->
-NHMM 2013 008 及其采石场和层位来源；图1–3、扩展数据图7–9及所引描述。既有研究 claims 限定解剖观察、竞争拓扑、骨骼尺度体重估计和暂定滨岸解释。这些定位不确立完整全球分布、取食行为、飞行性能、直系祖先关系，也不表示本导读已经外部专家评审。
+NHMM 2013 008 及其采石场和层位来源；图1–3、扩展数据图7–9及所引描述。既有研究 claims 限定解剖观察、竞争拓扑、骨骼尺度体重估计和暂定滨岸解释。这些定位不确立完整全球分布、取食行为、飞行性能、直系祖先关系。
 <!-- /evo:text -->

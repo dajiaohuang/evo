@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus phuketensis
       en: Trimeresurus phuketensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

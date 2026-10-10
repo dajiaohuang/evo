@@ -9,7 +9,6 @@ records:
     name:
       en: Cyclorana platycephala
       zh: Cyclorana platycephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

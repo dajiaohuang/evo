@@ -9,7 +9,6 @@ records:
     name:
       en: Mandrill
       zh: 山魈
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

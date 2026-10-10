@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinnareemimus khonkaenensis
       en: Kinnareemimus khonkaenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

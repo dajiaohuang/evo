@@ -9,7 +9,6 @@ records:
     name:
       zh: Makhaira rossica
       en: Makhaira rossica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

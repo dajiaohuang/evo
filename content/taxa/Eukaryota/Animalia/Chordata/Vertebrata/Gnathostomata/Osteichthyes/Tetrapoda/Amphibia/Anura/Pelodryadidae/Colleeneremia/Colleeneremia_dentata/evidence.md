@@ -9,7 +9,6 @@ records:
     name:
       en: Colleeneremia dentata
       zh: Colleeneremia dentata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

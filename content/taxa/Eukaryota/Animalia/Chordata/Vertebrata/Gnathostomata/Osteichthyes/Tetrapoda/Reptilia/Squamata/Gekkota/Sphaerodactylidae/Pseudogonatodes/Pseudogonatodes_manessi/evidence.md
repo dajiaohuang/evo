@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudogonatodes manessi
       en: Pseudogonatodes manessi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

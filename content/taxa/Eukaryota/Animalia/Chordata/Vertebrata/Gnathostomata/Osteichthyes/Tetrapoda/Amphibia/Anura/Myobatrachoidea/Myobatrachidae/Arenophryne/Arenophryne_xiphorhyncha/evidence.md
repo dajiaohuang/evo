@@ -9,7 +9,6 @@ records:
     name:
       en: Arenophryne xiphorhyncha
       zh: Arenophryne xiphorhyncha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

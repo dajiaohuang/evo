@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus titiwangsaensis
       en: Hemiphyllodactylus titiwangsaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

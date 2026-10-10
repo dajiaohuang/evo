@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus setiba
       zh: Melanophryniscus setiba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

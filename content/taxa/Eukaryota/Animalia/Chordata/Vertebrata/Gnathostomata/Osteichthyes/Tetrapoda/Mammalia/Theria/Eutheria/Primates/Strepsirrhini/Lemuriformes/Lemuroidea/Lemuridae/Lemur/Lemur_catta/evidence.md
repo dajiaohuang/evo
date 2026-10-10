@@ -9,7 +9,6 @@ records:
     name:
       zh: 环尾狐猴
       en: Ring-tailed lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: evolution
@@ -814,10 +813,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Lemur catta
@@ -987,5 +982,5 @@ Only one selected primary study was assessed; unsupported facets remain not-asse
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-No systematic current-literature search or independent expert review has been completed.
+No systematic current-literature search has been completed.
 <!-- /evo:text -->

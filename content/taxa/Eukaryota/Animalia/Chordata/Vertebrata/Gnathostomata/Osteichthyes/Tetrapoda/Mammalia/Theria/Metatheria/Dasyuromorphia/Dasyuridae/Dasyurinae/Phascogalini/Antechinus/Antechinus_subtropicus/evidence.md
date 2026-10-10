@@ -9,7 +9,6 @@ records:
     name:
       zh: Antechinus subtropicus
       en: Antechinus subtropicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

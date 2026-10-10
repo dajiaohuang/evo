@@ -9,7 +9,6 @@ records:
     name:
       zh: Thylacodon pusillus
       en: Thylacodon pusillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

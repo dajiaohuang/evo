@@ -9,7 +9,6 @@ records:
     name:
       zh: Copecion
       en: Copecion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

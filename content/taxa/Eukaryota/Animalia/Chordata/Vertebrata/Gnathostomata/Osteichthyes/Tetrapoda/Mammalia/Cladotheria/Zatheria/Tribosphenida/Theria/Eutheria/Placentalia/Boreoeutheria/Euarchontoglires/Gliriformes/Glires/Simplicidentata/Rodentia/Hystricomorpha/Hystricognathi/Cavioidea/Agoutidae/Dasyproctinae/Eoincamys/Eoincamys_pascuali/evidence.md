@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoincamys pascuali
       en: Eoincamys pascuali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

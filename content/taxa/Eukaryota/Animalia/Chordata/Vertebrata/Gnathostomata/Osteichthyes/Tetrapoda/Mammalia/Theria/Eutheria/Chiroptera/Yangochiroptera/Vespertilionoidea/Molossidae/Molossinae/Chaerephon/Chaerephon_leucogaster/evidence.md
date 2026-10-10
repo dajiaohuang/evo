@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaerephon leucogaster
       en: Chaerephon leucogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

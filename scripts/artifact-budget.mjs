@@ -5,8 +5,8 @@ export function pagesDeploymentBudgetFailure(edition, totalBytes) {
   return `Pages artifact is ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; hard limit is 650 MiB`
 }
 
-// The complete Web release is 722.63 MiB with one retained version.
-// Keep a bounded allowance for that edition without expanding preview storage.
+// Full Web data has no deployment quota; retain one version and report its size.
+// Preview editions keep the actual Pages delivery limit.
 export function releaseRetentionByteLimit(edition) {
-  return (edition === 'full-web' ? 750 : 650) * 1024 * 1024
+  return edition === 'full-web' ? null : 650 * 1024 * 1024
 }

@@ -9,7 +9,6 @@ records:
     name:
       en: Oscaecilia koepckeorum
       zh: Oscaecilia koepckeorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

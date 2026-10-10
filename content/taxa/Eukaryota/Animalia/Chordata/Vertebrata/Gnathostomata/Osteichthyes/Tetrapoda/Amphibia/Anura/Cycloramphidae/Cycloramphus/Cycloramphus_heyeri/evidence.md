@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus heyeri
       zh: Cycloramphus heyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

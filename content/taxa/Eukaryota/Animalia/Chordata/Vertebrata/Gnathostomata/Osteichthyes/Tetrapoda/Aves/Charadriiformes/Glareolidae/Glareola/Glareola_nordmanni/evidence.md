@@ -9,7 +9,6 @@ records:
     name:
       zh: Glareola nordmanni
       en: Glareola nordmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

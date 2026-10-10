@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidurus spinulosus
       en: Tropidurus spinulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

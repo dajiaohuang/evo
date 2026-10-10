@@ -9,7 +9,6 @@ records:
     name:
       zh: Aglaeactis aliciae
       en: Aglaeactis aliciae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

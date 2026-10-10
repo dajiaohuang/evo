@@ -9,7 +9,6 @@ records:
     name:
       zh: Prionochilus olivaceus
       en: Prionochilus olivaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

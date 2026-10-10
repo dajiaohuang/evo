@@ -9,7 +9,6 @@ records:
     name:
       en: Ecnomiohyla miliaria
       zh: Ecnomiohyla miliaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

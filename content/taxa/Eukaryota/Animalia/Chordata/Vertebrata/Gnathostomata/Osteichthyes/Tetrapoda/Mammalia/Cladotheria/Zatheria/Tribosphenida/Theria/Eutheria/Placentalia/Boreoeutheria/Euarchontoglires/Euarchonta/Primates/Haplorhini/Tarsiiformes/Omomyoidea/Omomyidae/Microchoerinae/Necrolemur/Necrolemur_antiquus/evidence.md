@@ -9,7 +9,6 @@ records:
     name:
       zh: Necrolemur antiquus
       en: Necrolemur antiquus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

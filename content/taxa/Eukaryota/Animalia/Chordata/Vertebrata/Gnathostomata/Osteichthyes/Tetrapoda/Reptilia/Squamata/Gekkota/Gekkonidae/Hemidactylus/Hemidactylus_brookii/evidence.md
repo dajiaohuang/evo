@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus brookii
       en: Hemidactylus brookii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Macropus atlas
       en: Macropus atlas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nabotherium aegyptiacum
       en: Nabotherium aegyptiacum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

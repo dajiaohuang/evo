@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ornatus
       zh: Pristimantis ornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

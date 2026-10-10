@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrotyphlops platyrhynchus
       en: Afrotyphlops platyrhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

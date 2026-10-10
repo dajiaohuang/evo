@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia larinki
       zh: Stumpffia larinki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

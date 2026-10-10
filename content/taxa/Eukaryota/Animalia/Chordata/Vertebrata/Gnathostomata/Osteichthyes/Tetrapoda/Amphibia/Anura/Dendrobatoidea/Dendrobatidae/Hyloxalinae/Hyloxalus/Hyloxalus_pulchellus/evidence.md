@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus pulchellus
       zh: Hyloxalus pulchellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

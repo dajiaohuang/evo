@@ -9,7 +9,6 @@ records:
     name:
       zh: Faxinalipterus minima
       en: Faxinalipterus minima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

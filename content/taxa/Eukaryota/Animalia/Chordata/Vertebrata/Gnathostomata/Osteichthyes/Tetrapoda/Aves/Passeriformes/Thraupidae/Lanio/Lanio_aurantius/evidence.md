@@ -9,7 +9,6 @@ records:
     name:
       zh: Lanio aurantius
       en: Lanio aurantius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

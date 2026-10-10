@@ -9,7 +9,6 @@ records:
     name:
       zh: Crithagra sulphurata
       en: Crithagra sulphurata
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kaijiangosaurus
       en: Kaijiangosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

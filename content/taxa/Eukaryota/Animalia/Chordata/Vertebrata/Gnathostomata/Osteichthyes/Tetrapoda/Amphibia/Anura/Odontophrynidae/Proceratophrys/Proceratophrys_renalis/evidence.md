@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys renalis
       zh: Proceratophrys renalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

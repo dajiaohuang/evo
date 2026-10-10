@@ -9,7 +9,6 @@ records:
     name:
       zh: Nochelesaurus alexanderi
       en: Nochelesaurus alexanderi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

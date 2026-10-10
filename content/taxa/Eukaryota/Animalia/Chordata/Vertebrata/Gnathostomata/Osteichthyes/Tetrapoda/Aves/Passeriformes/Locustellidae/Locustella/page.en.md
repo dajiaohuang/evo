@@ -11,7 +11,7 @@ status: source-linked
 ## Locate historical sources through three genus names
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-Seven guides follow COL26.8 Locustella (5G59) and Locustellidae (C5V). Four older Bradypterus BirdTree combinations have exact catalogue synonyms; caudata/tacsanowskia have older endings caudatus/tacsanowskius. BirdTree names match at ochotensis/pryeri/certhiola, while eBird uses Helopsaltes. Their respective Avibase IDs match BirdLife, but the read hel shard did not confirm the exact names. The other four eBird names match, retaining one-to-one types. The genus has 24 immediate catalogue children. Earlier four measurement and three life-history routes retain separate scopes; seven added pages do not complete genus content or expert review.
+Seven guides follow COL26.8 Locustella (5G59) and Locustellidae (C5V). Four older Bradypterus BirdTree combinations have exact catalogue synonyms; caudata/tacsanowskia have older endings caudatus/tacsanowskius. BirdTree names match at ochotensis/pryeri/certhiola, while eBird uses Helopsaltes. Their respective Avibase IDs match BirdLife, but the read hel shard did not confirm the exact names. The other four eBird names match, retaining one-to-one types. The genus has 24 immediate catalogue children. Earlier four measurement and three life-history routes retain separate scopes; seven added pages do not complete genus content.
 <!-- /evo:text -->
 
 ## Separate two complete sets from three total birds
@@ -59,6 +59,6 @@ This batch’s Locustella route includes 3 historical life-history accounts; sta
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
-Seven added guides separate four Bradypterus synonyms from three unconfirmed Helopsaltes names and morphology from Dunning mass; complete content for 24 catalogue children, current maps and expert review remain unfinished.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+Seven added guides separate four Bradypterus synonyms from three unconfirmed Helopsaltes names and morphology from Dunning mass; complete content for 24 catalogue children, current maps remain unfinished.
 <!-- /evo:text -->

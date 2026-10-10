@@ -9,7 +9,6 @@ records:
     name:
       zh: Xantusia gilberti
       en: Xantusia gilberti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Parrassaurus yacahuitztli
       en: Parrassaurus yacahuitztli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

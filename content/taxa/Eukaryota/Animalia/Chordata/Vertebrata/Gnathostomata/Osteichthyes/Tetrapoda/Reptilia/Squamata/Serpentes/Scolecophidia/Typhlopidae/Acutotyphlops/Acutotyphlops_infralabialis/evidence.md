@@ -9,7 +9,6 @@ records:
     name:
       zh: Acutotyphlops infralabialis
       en: Acutotyphlops infralabialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

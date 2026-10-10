@@ -9,7 +9,6 @@ records:
     name:
       zh: Grallina cyanoleuca
       en: Grallina cyanoleuca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptoblepharus exochus
       en: Cryptoblepharus exochus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-形态比较样本较少，分布边界仍待现场确认。更正解决名称可用性与拼写，不构成完整生态研究。中文名为编辑翻译，尚未经过外部领域专家评审。
+形态比较样本较少，分布边界仍待现场确认。更正解决名称可用性与拼写，不构成完整生态研究。中文名为编辑翻译。
 <!-- /evo:text -->

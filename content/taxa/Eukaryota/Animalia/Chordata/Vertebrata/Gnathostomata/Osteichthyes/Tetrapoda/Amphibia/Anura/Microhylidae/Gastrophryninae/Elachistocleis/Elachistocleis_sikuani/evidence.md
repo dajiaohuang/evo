@@ -9,7 +9,6 @@ records:
     name:
       en: Elachistocleis sikuani
       zh: Elachistocleis sikuani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

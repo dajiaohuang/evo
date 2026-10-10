@@ -9,7 +9,6 @@ records:
     name:
       zh: Yamaceratops dorngobiensis
       en: Yamaceratops dorngobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

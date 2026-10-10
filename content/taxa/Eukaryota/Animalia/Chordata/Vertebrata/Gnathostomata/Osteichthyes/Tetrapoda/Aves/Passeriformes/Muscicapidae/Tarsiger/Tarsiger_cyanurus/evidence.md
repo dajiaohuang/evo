@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarsiger cyanurus
       en: Tarsiger cyanurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

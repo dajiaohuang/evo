@@ -9,7 +9,6 @@ records:
     name:
       zh: Ara severus
       en: Ara severus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

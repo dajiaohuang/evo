@@ -9,7 +9,6 @@ records:
     name:
       zh: Tupandactylus navigans
       en: Tupandactylus navigans
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: phylogeneticAnalysis
@@ -358,8 +357,8 @@ records:
             accessedAt: 2026-10-03
             locator: "Official Europe PMC fullTextXML PMC8386889: selected front matter; complete Introduction, Geological setting, Materials and methods, Discussion and Conclusion; Results subsections 0, 2, 12, 14–17, 19, 24 and 30. Other Results, images, supplementary matrices and raw CT data not read."
             scope:
-              zh: 2021 年关联骨架的保存、头冠、喙鞘、部分骨骼、成熟与功能假说导读；不替代原始描述、全部材料或专家审评。
-              en: Guide to preservation, crest, beak sheath, selected skeleton anatomy, maturity and functional hypotheses for the 2021 associated specimen; not the original species description, all material or expert review.
+              zh: 2021 年关联骨架的保存、头冠、喙鞘、部分骨骼、成熟与功能假说导读；不替代原始描述、全部材料。
+              en: Guide to preservation, crest, beak sheath, selected skeleton anatomy, maturity and functional hypotheses for the 2021 associated specimen; not the original species description, all material.
           originalFields:
             - id
             - doi
@@ -841,8 +840,8 @@ records:
           en: "Osteology of an exceptionally well-preserved tapejarid skeleton from Brazil: Revealing the anatomy of a curious pterodactyloid clade"
         url: https://doi.org/10.1371/journal.pone.0254789
         scope:
-          zh: 2021 年关联骨架的保存、头冠、喙鞘、部分骨骼、成熟与功能假说导读；不替代原始描述、全部材料或专家审评。
-          en: Guide to preservation, crest, beak sheath, selected skeleton anatomy, maturity and functional hypotheses for the 2021 associated specimen; not the original species description, all material or expert review.
+          zh: 2021 年关联骨架的保存、头冠、喙鞘、部分骨骼、成熟与功能假说导读；不替代原始描述、全部材料。
+          en: Guide to preservation, crest, beak sheath, selected skeleton anatomy, maturity and functional hypotheses for the 2021 associated specimen; not the original species description, all material.
       - id: beccari2021TupandactylusLimbAnatomy
         referenceId: ref-c653788a-4c5a-4b62-b48d-c764ab363c09
         title:
@@ -920,7 +919,6 @@ records:
       referenceLocators:
         - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
           locator: P5-42 accepted hierarchy oid txn:163700; fea/fla/lea/lla in retained taxa response.
-      reviewStatus: not-reviewed
       evidenceLevel: database-derived
 ---
 

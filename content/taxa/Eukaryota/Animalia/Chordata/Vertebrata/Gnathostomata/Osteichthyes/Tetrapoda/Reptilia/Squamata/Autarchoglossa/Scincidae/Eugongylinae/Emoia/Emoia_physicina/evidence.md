@@ -9,7 +9,6 @@ records:
     name:
       zh: Emoia physicina
       en: Emoia physicina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

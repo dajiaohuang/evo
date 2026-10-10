@@ -16,5 +16,5 @@ Nolan and colleagues used camera traps in Cape Three Points Forest Reserve, Ghan
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The study confirms presence in one reserve during a four-month 2018 deployment; four independent captures do not estimate population size or establish current persistence. No external expert review; Chinese common name is editorial. This page is not externally expert-reviewed.
+The study confirms presence in one reserve during a four-month 2018 deployment; four independent captures do not estimate population size or establish current persistence. Chinese common name is editorial. This page is.
 <!-- /evo:text -->

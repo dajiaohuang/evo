@@ -9,7 +9,7 @@ export interface RetainedRelease {
 export interface ReleaseHistory {
   schemaVersion: number
   retentionLimit: number
-  retentionByteLimit: number
+  retentionByteLimit: number | null
   retainedBytes: number
   releases: RetainedRelease[]
 }

@@ -9,7 +9,6 @@ records:
     name:
       zh: Edworthia greggi
       en: Edworthia greggi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothrops erythromelas
       en: Bothrops erythromelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimetopon pliolepis
       en: Trimetopon pliolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

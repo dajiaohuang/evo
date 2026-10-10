@@ -9,7 +9,6 @@ records:
     name:
       zh: Banderomys leanzai
       en: Banderomys leanzai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

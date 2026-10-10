@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceratonykus
       en: Ceratonykus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

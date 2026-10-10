@@ -9,7 +9,6 @@ records:
     name:
       zh: Neuquenraptor argentinus
       en: Neuquenraptor argentinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

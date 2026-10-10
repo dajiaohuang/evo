@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega planipaleae
       zh: Ameerega planipaleae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

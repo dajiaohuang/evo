@@ -9,7 +9,6 @@ records:
     name:
       zh: Scolosaurus cutleri
       en: Scolosaurus cutleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

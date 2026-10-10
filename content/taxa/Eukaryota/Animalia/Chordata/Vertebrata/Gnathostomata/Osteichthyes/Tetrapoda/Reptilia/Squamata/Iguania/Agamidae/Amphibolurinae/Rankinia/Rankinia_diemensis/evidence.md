@@ -9,7 +9,6 @@ records:
     name:
       zh: Rankinia diemensis
       en: Rankinia diemensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

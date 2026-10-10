@@ -9,7 +9,6 @@ records:
     name:
       en: Hypogeophis brevis
       zh: Hypogeophis brevis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

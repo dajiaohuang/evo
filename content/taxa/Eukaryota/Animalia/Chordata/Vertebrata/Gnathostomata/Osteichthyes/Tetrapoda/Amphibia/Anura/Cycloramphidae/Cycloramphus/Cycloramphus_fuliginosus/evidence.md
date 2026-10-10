@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus fuliginosus
       zh: Cycloramphus fuliginosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

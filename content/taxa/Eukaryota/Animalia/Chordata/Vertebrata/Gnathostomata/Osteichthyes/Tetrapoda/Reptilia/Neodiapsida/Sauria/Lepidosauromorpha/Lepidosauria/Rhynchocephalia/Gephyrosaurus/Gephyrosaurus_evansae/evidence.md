@@ -9,7 +9,6 @@ records:
     name:
       zh: Gephyrosaurus evansae
       en: Gephyrosaurus evansae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

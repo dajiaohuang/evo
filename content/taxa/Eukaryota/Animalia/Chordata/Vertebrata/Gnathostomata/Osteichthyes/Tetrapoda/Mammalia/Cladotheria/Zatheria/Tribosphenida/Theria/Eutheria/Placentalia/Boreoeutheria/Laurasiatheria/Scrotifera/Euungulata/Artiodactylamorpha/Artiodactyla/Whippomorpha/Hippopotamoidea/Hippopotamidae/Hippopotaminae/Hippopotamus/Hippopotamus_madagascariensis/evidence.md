@@ -9,7 +9,6 @@ records:
     name:
       zh: Hippopotamus madagascariensis
       en: Hippopotamus madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

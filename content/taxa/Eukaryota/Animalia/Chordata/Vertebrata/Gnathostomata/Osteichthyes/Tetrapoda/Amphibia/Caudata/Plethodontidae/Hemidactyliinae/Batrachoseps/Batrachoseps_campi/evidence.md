@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachoseps campi
       zh: Batrachoseps campi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

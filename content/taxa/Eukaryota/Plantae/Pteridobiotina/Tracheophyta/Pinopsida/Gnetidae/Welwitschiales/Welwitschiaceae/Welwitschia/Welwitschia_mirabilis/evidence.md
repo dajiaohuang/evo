@@ -208,9 +208,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Welwitschia mirabilis
@@ -308,7 +305,7 @@ Genome assembly statistics are not direct measurements of lifespan, field ecolog
 ## facets / evolution / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/evolution/gaps/2 -->
-Morphology, life history, ecology, complete distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete.
+Morphology, life history, ecology, complete distribution, fossils, and conservation remain unassessed; systematic search are incomplete.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -326,5 +323,5 @@ Other biological facets and complete geographic, fossil, and conservation covera
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-A reproducible systematic search and independent expert review have not been completed.
+A reproducible systematic search has not been completed.
 <!-- /evo:text -->

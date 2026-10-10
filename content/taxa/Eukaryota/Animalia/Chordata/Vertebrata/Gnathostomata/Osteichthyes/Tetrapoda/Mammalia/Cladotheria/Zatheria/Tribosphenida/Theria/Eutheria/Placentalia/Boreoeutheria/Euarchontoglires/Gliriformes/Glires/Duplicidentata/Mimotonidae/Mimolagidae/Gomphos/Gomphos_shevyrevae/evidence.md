@@ -9,7 +9,6 @@ records:
     name:
       zh: Gomphos shevyrevae
       en: Gomphos shevyrevae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

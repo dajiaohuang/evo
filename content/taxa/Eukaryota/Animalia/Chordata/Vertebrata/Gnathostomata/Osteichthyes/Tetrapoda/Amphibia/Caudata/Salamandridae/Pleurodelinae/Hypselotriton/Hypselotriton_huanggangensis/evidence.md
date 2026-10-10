@@ -9,7 +9,6 @@ records:
     name:
       en: Hypselotriton huanggangensis
       zh: Hypselotriton huanggangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

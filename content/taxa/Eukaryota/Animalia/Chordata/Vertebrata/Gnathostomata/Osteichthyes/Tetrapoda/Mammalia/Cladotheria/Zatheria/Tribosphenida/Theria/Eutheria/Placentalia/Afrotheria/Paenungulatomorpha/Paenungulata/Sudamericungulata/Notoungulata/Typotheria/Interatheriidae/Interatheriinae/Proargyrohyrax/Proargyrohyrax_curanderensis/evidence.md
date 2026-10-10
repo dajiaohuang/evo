@@ -9,7 +9,6 @@ records:
     name:
       zh: Proargyrohyrax curanderensis
       en: Proargyrohyrax curanderensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

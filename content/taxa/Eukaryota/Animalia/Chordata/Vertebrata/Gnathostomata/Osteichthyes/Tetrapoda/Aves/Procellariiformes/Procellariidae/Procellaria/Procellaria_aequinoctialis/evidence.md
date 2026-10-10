@@ -9,7 +9,6 @@ records:
     name:
       zh: Procellaria aequinoctialis
       en: Procellaria aequinoctialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

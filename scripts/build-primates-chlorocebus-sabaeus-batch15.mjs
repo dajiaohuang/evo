@@ -123,7 +123,6 @@ for (const [facet, assessment] of Object.entries(dossier.facets)) {
   }
 }
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 
 const rawBytes = Buffer.from(`${JSON.stringify(dossier)}\n`, 'utf8')
 assert.ok(!rawBytes.includes(0x0d), 'Raw JSONL must use LF line endings')

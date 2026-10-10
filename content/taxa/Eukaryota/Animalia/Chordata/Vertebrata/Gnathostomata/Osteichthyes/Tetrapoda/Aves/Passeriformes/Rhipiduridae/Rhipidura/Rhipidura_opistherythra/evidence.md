@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura opistherythra
       en: Rhipidura opistherythra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

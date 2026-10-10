@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus madrensis
       en: Peromyscus madrensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

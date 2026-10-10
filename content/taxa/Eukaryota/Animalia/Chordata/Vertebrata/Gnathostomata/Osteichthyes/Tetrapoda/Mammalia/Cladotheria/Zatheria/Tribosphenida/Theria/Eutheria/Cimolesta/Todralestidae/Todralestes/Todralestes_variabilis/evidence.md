@@ -9,7 +9,6 @@ records:
     name:
       zh: Todralestes variabilis
       en: Todralestes variabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

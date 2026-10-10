@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyrhopus leucomelas
       en: Oxyrhopus leucomelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristurus insignoides
       en: Pristurus insignoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

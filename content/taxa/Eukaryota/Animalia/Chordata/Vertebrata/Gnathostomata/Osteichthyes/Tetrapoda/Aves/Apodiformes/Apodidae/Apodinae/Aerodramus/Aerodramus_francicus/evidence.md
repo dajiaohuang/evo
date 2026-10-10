@@ -9,7 +9,6 @@ records:
     name:
       zh: Aerodramus francicus
       en: Aerodramus francicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

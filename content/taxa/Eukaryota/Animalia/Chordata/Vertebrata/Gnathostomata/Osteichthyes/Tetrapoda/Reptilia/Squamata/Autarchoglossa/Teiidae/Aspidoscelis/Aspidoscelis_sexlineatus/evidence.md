@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidoscelis sexlineatus
       en: Aspidoscelis sexlineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

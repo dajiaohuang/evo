@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinosternon sonoriense
       en: Kinosternon sonoriense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

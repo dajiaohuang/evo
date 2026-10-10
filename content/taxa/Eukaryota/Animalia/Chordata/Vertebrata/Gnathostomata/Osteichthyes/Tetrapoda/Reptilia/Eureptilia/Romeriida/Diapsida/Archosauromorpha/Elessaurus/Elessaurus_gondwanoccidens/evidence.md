@@ -9,7 +9,6 @@ records:
     name:
       zh: Elessaurus gondwanoccidens
       en: Elessaurus gondwanoccidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

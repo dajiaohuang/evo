@@ -9,7 +9,6 @@ records:
     name:
       en: Makassar Tarsier
       zh: 望加锡眼镜猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: taxonomy

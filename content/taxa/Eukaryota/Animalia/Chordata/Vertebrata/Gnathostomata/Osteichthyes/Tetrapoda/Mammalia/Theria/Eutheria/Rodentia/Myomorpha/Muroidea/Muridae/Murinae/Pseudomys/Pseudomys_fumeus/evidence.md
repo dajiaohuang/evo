@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudomys fumeus
       en: Pseudomys fumeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

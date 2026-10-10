@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa sombra
       zh: Bolitoglossa sombra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

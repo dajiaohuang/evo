@@ -9,7 +9,6 @@ records:
     name:
       en: Eurycea sosorum
       zh: Eurycea sosorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchura spectabilis
       en: Lonchura spectabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

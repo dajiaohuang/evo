@@ -9,7 +9,6 @@ records:
     name:
       zh: 马南布毛狐猴
       en: Manombo Woolly Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

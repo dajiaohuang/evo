@@ -9,7 +9,6 @@ records:
     name:
       zh: Albanensia albanensis
       en: Albanensia albanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Temujinia ellisoni
       en: Temujinia ellisoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

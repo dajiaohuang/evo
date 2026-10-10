@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla floresi
       zh: Sarcohyla floresi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

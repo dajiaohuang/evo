@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus bokermanni
       zh: Dendropsophus bokermanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

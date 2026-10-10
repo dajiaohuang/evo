@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelydra acutirostris
       en: Chelydra acutirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

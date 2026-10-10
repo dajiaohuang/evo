@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus
       zh: Physalaemus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

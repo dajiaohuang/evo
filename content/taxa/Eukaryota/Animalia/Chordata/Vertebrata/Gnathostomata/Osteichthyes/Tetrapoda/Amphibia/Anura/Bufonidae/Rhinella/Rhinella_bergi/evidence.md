@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella bergi
       zh: Rhinella bergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

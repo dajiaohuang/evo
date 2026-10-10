@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptolambda schmidti
       en: Leptolambda schmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

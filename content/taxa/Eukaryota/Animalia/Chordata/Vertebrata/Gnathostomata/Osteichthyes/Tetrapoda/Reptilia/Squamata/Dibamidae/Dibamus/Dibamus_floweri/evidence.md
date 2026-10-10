@@ -9,7 +9,6 @@ records:
     name:
       zh: Dibamus floweri
       en: Dibamus floweri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

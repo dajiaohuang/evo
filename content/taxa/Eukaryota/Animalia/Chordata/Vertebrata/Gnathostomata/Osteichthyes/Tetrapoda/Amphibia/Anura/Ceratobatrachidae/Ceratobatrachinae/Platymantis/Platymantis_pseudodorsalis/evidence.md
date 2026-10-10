@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis pseudodorsalis
       zh: Platymantis pseudodorsalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

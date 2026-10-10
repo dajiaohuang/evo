@@ -9,7 +9,6 @@ records:
     name:
       zh: Millardia gleadowi
       en: Millardia gleadowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

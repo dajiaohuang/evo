@@ -3,6 +3,7 @@ import { useAppStore } from './store'
 import { ErrorBoundary } from './components/common/ErrorBoundary'
 import { AppShell } from './components/shell/AppShell'
 import { buildRouteHash, parseRouteHash, type AppRoute } from './utils/routing'
+import { staticPathSegment } from './utils/staticPath.mjs'
 import { useI18n } from './i18n'
 import { isNativeCore, isPagesPreview, isPreviewRouteLocked } from './config/pagesPreview'
 import { isBackendConfigured } from './data-client/backendClient'
@@ -111,7 +112,7 @@ export default function App() {
         const story = route === 'stories' ? getEvolutionStory(id) : null
         const entityTitle = profile?.scientificName ?? (event ? (language === 'zh' ? event.titleZh : event.title) : story ? (language === 'zh' ? story.titleZh : story.title) : null)
         const description = profile?.overview ?? event?.summary ?? story?.dek ?? fallbackDescription
-        const staticPath = profile ? `taxa/${profile.id}/` : event ? `events/${event.id}/` : story ? `stories/${story.id}/` : ''
+        const staticPath = profile ? `taxa/${staticPathSegment(profile.id)}/` : event ? `events/${encodeURIComponent(event.id)}/` : story ? `stories/${encodeURIComponent(story.id)}/` : ''
         applyMetadata(entityTitle, description, staticPath)
       })
     } else {

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerandogekko arambourgi
       en: Gerandogekko arambourgi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

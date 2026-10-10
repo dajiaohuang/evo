@@ -9,7 +9,6 @@ records:
     name:
       en: Pelophylax plancyi
       zh: Pelophylax plancyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

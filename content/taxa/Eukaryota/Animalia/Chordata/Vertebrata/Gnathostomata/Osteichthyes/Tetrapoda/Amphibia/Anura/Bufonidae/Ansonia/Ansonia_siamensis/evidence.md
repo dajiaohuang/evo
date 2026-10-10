@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia siamensis
       zh: Ansonia siamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

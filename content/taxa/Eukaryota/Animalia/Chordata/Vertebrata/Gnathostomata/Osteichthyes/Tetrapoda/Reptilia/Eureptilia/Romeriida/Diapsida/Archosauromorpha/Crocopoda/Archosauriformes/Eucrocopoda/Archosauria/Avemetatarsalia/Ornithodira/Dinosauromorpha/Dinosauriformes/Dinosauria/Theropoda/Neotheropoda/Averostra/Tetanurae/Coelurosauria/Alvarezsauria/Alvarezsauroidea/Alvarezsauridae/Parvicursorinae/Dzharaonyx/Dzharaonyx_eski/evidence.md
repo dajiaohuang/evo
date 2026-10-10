@@ -9,7 +9,6 @@ records:
     name:
       zh: Dzharaonyx eski
       en: Dzharaonyx eski
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

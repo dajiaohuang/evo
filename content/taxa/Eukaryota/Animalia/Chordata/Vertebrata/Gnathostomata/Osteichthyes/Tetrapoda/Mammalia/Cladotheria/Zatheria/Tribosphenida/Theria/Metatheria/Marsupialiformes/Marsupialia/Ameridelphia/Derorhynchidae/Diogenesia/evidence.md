@@ -9,7 +9,6 @@ records:
     name:
       zh: Diogenesia
       en: Diogenesia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

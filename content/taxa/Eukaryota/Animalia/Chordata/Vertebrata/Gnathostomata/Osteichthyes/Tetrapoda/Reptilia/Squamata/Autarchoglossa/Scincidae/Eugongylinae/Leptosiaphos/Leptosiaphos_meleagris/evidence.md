@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptosiaphos meleagris
       en: Leptosiaphos meleagris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protomarctus
       en: Protomarctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

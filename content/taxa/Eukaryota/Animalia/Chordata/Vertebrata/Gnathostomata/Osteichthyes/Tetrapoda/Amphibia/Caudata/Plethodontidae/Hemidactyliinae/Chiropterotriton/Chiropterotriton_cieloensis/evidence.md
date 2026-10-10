@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton cieloensis
       zh: Chiropterotriton cieloensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus petropedetoides
       zh: Phrynobatrachus petropedetoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

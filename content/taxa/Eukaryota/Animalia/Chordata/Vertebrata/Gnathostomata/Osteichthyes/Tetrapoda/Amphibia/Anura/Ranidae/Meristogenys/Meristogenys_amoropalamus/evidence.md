@@ -9,7 +9,6 @@ records:
     name:
       en: Meristogenys amoropalamus
       zh: Meristogenys amoropalamus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

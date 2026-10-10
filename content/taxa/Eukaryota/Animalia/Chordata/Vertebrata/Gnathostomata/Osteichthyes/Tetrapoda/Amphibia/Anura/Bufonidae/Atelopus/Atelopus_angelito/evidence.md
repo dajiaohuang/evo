@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus angelito
       zh: Atelopus angelito
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

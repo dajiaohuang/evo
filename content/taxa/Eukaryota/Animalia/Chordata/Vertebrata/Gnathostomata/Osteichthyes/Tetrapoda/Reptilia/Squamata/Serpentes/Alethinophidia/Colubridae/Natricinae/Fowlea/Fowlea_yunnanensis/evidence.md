@@ -9,7 +9,6 @@ records:
     name:
       zh: Fowlea yunnanensis
       en: Fowlea yunnanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

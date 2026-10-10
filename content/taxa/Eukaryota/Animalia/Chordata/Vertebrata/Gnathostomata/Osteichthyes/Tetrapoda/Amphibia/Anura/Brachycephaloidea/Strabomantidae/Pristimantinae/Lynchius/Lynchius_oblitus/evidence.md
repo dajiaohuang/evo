@@ -9,7 +9,6 @@ records:
     name:
       en: Lynchius oblitus
       zh: Lynchius oblitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

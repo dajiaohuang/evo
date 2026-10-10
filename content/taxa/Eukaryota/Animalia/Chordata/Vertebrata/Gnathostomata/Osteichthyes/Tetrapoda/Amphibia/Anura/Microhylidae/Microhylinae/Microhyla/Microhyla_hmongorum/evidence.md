@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla hmongorum
       zh: Microhyla hmongorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

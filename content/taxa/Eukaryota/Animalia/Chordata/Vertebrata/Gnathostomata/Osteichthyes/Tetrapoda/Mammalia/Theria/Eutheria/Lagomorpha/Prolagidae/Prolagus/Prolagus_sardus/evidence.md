@@ -9,7 +9,6 @@ records:
     name:
       zh: Prolagus sardus
       en: Prolagus sardus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

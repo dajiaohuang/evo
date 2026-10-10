@@ -9,7 +9,6 @@ records:
     name:
       zh: Utaetus laevus
       en: Utaetus laevus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

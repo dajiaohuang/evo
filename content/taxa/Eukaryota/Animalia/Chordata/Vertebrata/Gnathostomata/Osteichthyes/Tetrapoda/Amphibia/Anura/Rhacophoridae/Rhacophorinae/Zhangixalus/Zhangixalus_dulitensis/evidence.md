@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus dulitensis
       zh: Zhangixalus dulitensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

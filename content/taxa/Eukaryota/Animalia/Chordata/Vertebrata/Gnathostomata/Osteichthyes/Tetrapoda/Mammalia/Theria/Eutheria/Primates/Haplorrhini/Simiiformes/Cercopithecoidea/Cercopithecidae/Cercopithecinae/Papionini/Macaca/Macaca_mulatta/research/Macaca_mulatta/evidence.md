@@ -316,9 +316,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: COL26.8 ChecklistBank dataset 316115; accepted usage 3WWNQ, source dataset 2144 and parent chain checked 2026-09-27
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -335,11 +332,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/1/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: sengupta-2015-buxa-provisioning-rhesus
           relation: supports
@@ -359,11 +351,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/2/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: sengupta-2015-buxa-provisioning-rhesus
           relation: supports
@@ -382,11 +369,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/3/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: kimock-2019-cayo-rhesus-morphology
           relation: supports
@@ -403,11 +385,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/4/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -430,9 +407,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-28
-      reviewedAgainstReferenceVersion: Journal of Threatened Taxa 3(4):1656–1662; published 2011-04-26
       referenceLinks:
         - referenceId: pragatheesh-2011-nh7-rhesus-road-mortality
           relation: supports
@@ -486,7 +460,6 @@ records:
       referenceLocators:
         - referenceId: col-2026-checklistbank-316115
           locator: COL26.8 dataset 316115; accepted usage 3WWNQ and parent chain (identity/classification only)
-      reviewStatus: automated-audit-passed
   field-claim-overrides:
     - evidenceSummary:
         claimId: claim:taxon:macaca_mulatta:nh7-road-mortality

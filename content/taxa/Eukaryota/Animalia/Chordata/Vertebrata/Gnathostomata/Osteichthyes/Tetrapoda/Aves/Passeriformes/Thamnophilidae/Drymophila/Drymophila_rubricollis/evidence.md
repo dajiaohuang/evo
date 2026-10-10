@@ -9,7 +9,6 @@ records:
     name:
       zh: Drymophila rubricollis
       en: Drymophila rubricollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

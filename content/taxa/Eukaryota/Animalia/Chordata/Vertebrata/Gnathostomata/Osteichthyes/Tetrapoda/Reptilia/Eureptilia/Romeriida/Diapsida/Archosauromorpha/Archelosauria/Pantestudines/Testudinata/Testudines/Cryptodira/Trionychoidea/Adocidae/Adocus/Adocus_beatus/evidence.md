@@ -9,7 +9,6 @@ records:
     name:
       zh: Adocus beatus
       en: Adocus beatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

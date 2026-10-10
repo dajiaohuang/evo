@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoniscus atrox
       en: Phoniscus atrox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

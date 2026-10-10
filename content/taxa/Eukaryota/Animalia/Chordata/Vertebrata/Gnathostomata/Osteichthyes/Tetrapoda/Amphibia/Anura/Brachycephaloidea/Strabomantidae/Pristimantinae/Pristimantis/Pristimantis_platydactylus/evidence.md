@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis platydactylus
       zh: Pristimantis platydactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

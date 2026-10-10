@@ -9,7 +9,6 @@ records:
     name:
       zh: Lapitiguana impensa
       en: Lapitiguana impensa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

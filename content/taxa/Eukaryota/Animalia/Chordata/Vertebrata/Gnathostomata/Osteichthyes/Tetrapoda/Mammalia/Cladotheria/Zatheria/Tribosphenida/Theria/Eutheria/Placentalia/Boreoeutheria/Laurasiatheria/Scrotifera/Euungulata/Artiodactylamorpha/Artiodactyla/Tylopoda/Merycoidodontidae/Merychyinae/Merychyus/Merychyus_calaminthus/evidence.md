@@ -9,7 +9,6 @@ records:
     name:
       zh: Merychyus calaminthus
       en: Merychyus calaminthus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

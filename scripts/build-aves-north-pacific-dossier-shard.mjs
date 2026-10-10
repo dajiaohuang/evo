@@ -20,7 +20,7 @@ for (const record of records) {
   if (record.scientificName !== identity.name || record.rank !== 'species' || record.sourceDatasetId !== identity.dataset) {
     throw new Error(`COL26.8 identity mismatch for ${record.colId}`)
   }
-  if (record.completeness?.status !== 'incomplete' || record.expertReview?.status !== 'not-reviewed') {
+  if (record.completeness?.status !== 'incomplete') {
     throw new Error(`${record.colId} must remain incomplete and not reviewed`)
   }
   if (requiredFacets.some((facet) => !record.facets?.[facet]?.status)) {

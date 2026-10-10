@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophrynella weiassipuensis
       zh: Oreophrynella weiassipuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Shakiremys
       en: Shakiremys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

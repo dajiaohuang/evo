@@ -9,7 +9,6 @@ records:
     name:
       en: Wallace's Tarsier
       zh: 华莱士眼镜猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: species_evidence

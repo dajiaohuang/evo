@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctanassa violacea
       en: Nyctanassa violacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura dahli
       en: Rhipidura dahli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

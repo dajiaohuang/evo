@@ -9,7 +9,6 @@ records:
     name:
       zh: Galadi adversus
       en: Galadi adversus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

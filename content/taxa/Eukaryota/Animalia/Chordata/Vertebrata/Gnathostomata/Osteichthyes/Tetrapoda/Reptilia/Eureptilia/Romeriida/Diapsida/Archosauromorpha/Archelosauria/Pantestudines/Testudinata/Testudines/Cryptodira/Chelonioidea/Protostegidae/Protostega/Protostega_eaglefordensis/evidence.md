@@ -9,7 +9,6 @@ records:
     name:
       zh: Protostega eaglefordensis
       en: Protostega eaglefordensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scapanulus lampounensis
       en: Scapanulus lampounensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

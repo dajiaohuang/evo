@@ -9,7 +9,6 @@ records:
     name:
       zh: Anadia pulchella
       en: Anadia pulchella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

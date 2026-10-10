@@ -9,7 +9,6 @@ records:
     name:
       zh: Hatcheritherium alpha
       en: Hatcheritherium alpha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

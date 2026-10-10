@@ -9,7 +9,6 @@ records:
     name:
       zh: Spindalidae
       en: Spindalidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

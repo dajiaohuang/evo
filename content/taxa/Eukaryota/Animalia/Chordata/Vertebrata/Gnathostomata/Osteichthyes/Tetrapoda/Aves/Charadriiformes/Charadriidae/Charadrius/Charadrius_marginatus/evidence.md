@@ -9,7 +9,6 @@ records:
     name:
       zh: Charadrius marginatus
       en: Charadrius marginatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

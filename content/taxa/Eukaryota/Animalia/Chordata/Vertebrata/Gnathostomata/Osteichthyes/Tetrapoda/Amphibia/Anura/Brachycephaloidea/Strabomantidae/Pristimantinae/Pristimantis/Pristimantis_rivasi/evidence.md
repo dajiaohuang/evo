@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis rivasi
       zh: Pristimantis rivasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

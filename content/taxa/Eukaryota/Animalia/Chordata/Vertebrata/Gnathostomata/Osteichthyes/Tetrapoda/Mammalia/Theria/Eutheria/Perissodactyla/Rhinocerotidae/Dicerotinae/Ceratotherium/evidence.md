@@ -9,7 +9,6 @@ records:
     name:
       zh: 白犀属
       en: White rhinoceros genus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: heinrich-1997-early-miacids concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: heinrich-1997-early-miacids
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: heinrich-1997-early-miacids
           locator: 1172–1178; Cladistic analysis; Results and Discussion of Vulpavus and early miacid relationships
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Vulpavus
     rank: genus
@@ -72,7 +68,6 @@ records:
     name:
       zh: Vulpavus
       en: Vulpavus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimantis siemersi
       zh: Nyctimantis siemersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

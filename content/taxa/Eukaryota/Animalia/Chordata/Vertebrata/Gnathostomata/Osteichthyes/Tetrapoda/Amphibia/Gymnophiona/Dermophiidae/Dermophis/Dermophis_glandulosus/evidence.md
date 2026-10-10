@@ -9,7 +9,6 @@ records:
     name:
       en: Dermophis glandulosus
       zh: Dermophis glandulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

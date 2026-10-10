@@ -9,7 +9,6 @@ records:
     name:
       zh: Theriosuchus morrisonensis
       en: Theriosuchus morrisonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

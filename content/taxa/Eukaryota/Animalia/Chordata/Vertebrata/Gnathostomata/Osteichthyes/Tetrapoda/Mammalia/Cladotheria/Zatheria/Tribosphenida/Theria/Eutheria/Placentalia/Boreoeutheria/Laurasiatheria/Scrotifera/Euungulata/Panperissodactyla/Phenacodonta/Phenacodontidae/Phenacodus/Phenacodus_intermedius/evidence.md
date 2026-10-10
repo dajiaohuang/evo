@@ -9,7 +9,6 @@ records:
     name:
       zh: Phenacodus intermedius
       en: Phenacodus intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

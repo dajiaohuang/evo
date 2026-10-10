@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura somalica
       en: Crocidura somalica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

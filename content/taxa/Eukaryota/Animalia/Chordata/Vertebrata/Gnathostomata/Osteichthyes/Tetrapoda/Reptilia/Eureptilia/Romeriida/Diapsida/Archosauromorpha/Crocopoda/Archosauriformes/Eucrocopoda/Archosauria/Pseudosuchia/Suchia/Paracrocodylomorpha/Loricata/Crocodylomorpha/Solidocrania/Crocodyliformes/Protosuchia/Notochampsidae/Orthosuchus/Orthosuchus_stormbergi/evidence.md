@@ -9,7 +9,6 @@ records:
     name:
       zh: Orthosuchus stormbergi
       en: Orthosuchus stormbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

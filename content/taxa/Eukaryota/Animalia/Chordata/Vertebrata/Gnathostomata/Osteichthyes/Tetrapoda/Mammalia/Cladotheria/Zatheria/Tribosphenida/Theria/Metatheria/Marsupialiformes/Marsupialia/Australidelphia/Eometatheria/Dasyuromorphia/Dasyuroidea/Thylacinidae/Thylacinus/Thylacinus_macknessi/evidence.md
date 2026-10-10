@@ -9,7 +9,6 @@ records:
     name:
       zh: Thylacinus macknessi
       en: Thylacinus macknessi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

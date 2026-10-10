@@ -9,7 +9,6 @@ records:
     name:
       zh: Mediodactylus russowii
       en: Mediodactylus russowii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

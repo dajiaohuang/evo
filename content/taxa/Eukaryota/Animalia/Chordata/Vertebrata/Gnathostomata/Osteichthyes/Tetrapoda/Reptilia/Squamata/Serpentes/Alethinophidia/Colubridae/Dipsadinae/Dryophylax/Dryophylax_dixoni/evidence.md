@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryophylax dixoni
       en: Dryophylax dixoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

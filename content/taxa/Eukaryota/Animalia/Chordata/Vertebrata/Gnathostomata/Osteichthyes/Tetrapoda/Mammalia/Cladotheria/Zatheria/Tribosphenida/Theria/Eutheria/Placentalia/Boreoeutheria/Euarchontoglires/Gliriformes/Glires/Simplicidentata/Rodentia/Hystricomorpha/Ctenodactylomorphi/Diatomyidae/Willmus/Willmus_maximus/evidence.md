@@ -9,7 +9,6 @@ records:
     name:
       zh: Willmus maximus
       en: Willmus maximus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

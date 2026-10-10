@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudonaja mengdeni
       en: Pseudonaja mengdeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

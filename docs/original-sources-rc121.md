@@ -4,7 +4,7 @@ RC121 freezes two official ChecklistBank source archives issued on 2026-09-01
 and projects their exact source-owned COL26.8 species boundaries. It does not
 change Catalogue of Life's 2,183,133 accepted-species baseline and does not
 claim species-concept equivalence, biological dossier completeness, fossil
-evidence, independent scientific corroboration or human expert review.
+evidence, independent scientific corroboration.
 
 | Source | COL boundary | Source result | Full-data payload |
 | --- | ---: | ---: | ---: |

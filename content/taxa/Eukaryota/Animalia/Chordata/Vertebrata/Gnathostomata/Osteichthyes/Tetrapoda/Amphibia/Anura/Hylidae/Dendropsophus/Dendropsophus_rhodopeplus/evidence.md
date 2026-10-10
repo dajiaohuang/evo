@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus rhodopeplus
       zh: Dendropsophus rhodopeplus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

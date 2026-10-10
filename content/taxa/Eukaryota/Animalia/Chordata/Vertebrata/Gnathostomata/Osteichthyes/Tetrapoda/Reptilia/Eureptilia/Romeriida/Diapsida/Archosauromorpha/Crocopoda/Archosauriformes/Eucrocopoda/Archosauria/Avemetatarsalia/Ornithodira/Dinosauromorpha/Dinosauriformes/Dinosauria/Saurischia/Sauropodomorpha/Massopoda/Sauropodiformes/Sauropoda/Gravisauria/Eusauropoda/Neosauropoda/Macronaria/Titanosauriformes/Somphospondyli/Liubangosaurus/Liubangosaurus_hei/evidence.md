@@ -9,7 +9,6 @@ records:
     name:
       zh: Liubangosaurus hei
       en: Liubangosaurus hei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

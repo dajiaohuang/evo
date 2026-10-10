@@ -9,7 +9,6 @@ records:
     name:
       en: Crinia subinsignifera
       zh: Crinia subinsignifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

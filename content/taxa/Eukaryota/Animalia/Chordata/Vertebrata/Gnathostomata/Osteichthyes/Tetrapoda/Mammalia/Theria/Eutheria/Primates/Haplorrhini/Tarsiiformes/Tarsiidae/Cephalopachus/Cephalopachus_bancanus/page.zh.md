@@ -28,5 +28,5 @@ Welman、Tuen 与 Lovegrove 于 2014–2015 年在婆罗洲 Sama Jaya 自然保�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页连接 Belitung 亚种 C. b. saltator 的一项局地研究与砂拉越一处保护区的独立体温调节研究。两项研究的分类范围、地点、方法和样本量各不相同，不能确定全物种栖息地偏好、丰度、种群趋势、完整分布或当前保育状况。页面身份固定为 COL26.8 ID SDLD；中文显示名为编辑用名。本批未新增 dossier，也未经过外部领域专家评审。
+本页连接 Belitung 亚种 C. b. saltator 的一项局地研究与砂拉越一处保护区的独立体温调节研究。两项研究的分类范围、地点、方法和样本量各不相同，不能确定全物种栖息地偏好、丰度、种群趋势、完整分布或当前保育状况。页面身份固定为 COL26.8 ID SDLD；中文显示名为编辑用名。本批未新增 dossier。
 <!-- /evo:text -->

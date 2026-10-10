@@ -9,7 +9,6 @@ records:
     name:
       zh: Stagonosuchus major
       en: Stagonosuchus major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

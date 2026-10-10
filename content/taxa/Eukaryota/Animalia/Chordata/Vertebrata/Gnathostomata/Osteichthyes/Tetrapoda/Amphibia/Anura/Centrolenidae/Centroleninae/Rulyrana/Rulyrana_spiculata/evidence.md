@@ -9,7 +9,6 @@ records:
     name:
       en: Rulyrana spiculata
       zh: Rulyrana spiculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

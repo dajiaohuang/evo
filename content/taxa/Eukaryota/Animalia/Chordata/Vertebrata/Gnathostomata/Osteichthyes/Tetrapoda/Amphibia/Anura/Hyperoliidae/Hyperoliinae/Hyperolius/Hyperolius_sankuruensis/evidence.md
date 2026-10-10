@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius sankuruensis
       zh: Hyperolius sankuruensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

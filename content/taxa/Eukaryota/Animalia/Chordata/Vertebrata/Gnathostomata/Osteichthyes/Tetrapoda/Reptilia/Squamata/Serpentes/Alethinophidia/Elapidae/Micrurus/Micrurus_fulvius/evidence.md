@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrurus fulvius
       en: Micrurus fulvius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

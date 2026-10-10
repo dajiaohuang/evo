@@ -9,7 +9,6 @@ records:
     name:
       zh: Neafrapus boehmi
       en: Neafrapus boehmi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

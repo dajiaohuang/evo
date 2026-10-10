@@ -9,7 +9,6 @@ records:
     name:
       zh: Mammuthus columbi
       en: Mammuthus columbi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

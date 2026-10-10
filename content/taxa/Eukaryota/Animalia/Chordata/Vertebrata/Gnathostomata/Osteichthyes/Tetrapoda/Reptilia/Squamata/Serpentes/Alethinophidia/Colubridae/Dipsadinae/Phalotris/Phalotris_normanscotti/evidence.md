@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalotris normanscotti
       en: Phalotris normanscotti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

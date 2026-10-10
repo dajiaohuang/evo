@@ -9,7 +9,6 @@ records:
     name:
       en: Colostethus pratti
       zh: Colostethus pratti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

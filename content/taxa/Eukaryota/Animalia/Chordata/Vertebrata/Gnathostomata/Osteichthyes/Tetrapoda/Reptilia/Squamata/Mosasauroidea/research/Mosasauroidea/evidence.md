@@ -61,9 +61,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: madzia-cau-2017-mosasauroid-nomenclature concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: madzia-cau-2017-mosasauroid-nomenclature
           relation: supports
@@ -82,9 +79,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bell-polcyn-2005-dallasaurus; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: bell-polcyn-2005-dallasaurus
@@ -103,9 +97,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Bell and Polcyn 2005 DOI 10.1017/S0016774600020965; Jagt et al. 2008 Fort Hays Studies Special Issue 3
       referenceLinks:
         - referenceId: bell-polcyn-2005-dallasaurus
           relation: supports
@@ -129,9 +120,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Bell and Polcyn 2005 DOI 10.1017/S0016774600020965; Madzia and Cau 2017 DOI 10.7717/peerj.3782
       referenceLinks:
         - referenceId: bell-polcyn-2005-dallasaurus
           relation: supports
@@ -155,9 +143,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Schulp et al. 2013 DOI 10.1017/S001677460000010X; Bell and Polcyn 2005 DOI 10.1017/S0016774600020965
       referenceLinks:
         - referenceId: schulp-et-al-2013-mosasaur-resource-partitioning
           relation: supports
@@ -214,7 +199,6 @@ records:
       referenceLocators:
         - referenceId: bell-polcyn-2005-dallasaurus
           locator: 177–178, 189–190; Figures 1–13; Age and geological context; systematic palaeontology; phylogenetic analysis
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Conothraupis mesoleuca
       en: Conothraupis mesoleuca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

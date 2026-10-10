@@ -9,7 +9,6 @@ records:
     name:
       zh: Indicator indicator
       en: Indicator indicator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

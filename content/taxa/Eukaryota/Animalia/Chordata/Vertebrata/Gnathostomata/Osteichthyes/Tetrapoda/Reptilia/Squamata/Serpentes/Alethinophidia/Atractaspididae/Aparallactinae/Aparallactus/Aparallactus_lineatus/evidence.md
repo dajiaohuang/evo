@@ -9,7 +9,6 @@ records:
     name:
       zh: Aparallactus lineatus
       en: Aparallactus lineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

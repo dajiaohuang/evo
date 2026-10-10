@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocalotes kingdonwardi
       en: Pseudocalotes kingdonwardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

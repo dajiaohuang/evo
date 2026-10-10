@@ -9,7 +9,6 @@ records:
     name:
       zh: Cormohipparion goorisi
       en: Cormohipparion goorisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

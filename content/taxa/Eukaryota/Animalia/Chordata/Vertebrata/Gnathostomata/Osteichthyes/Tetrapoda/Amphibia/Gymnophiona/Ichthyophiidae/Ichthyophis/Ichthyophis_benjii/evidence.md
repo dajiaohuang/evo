@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis benjii
       zh: Ichthyophis benjii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

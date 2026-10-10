@@ -9,7 +9,6 @@ records:
     name:
       zh: Lapampasaurus cholinoi
       en: Lapampasaurus cholinoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

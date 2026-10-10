@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychohyla dendrophasma
       zh: Ptychohyla dendrophasma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

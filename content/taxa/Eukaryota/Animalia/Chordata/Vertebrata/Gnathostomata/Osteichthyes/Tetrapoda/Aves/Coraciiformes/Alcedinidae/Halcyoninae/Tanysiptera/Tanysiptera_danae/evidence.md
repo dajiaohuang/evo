@@ -9,7 +9,6 @@ records:
     name:
       zh: Tanysiptera danae
       en: Tanysiptera danae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

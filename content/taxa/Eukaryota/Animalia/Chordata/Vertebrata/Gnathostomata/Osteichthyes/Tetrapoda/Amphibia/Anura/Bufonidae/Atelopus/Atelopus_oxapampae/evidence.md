@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus oxapampae
       zh: Atelopus oxapampae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

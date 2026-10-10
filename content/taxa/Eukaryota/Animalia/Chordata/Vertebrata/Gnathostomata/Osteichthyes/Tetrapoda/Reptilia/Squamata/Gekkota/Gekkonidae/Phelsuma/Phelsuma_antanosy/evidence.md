@@ -9,7 +9,6 @@ records:
     name:
       zh: Phelsuma antanosy
       en: Phelsuma antanosy
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

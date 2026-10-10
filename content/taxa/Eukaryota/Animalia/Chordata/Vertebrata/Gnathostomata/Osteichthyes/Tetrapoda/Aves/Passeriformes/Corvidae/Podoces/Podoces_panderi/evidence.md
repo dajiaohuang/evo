@@ -9,7 +9,6 @@ records:
     name:
       zh: Podoces panderi
       en: Podoces panderi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhynochetos jubatus
       en: Rhynochetos jubatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Poiana leightoni
       en: Poiana leightoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

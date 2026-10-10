@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca orophylax
       zh: Gastrotheca orophylax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

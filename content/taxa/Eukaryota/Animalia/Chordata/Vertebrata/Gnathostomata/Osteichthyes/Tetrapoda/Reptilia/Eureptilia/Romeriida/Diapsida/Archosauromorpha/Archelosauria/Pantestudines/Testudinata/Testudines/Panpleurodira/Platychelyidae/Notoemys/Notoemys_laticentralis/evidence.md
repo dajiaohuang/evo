@@ -9,7 +9,6 @@ records:
     name:
       zh: Notoemys laticentralis
       en: Notoemys laticentralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

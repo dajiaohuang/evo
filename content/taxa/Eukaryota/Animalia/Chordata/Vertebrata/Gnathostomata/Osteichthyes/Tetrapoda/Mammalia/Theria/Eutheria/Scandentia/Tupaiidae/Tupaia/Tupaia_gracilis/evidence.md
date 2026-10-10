@@ -9,7 +9,6 @@ records:
     name:
       zh: Tupaia gracilis
       en: Tupaia gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

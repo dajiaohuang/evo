@@ -9,7 +9,6 @@ records:
     name:
       zh: Nettapus pulchellus
       en: Nettapus pulchellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

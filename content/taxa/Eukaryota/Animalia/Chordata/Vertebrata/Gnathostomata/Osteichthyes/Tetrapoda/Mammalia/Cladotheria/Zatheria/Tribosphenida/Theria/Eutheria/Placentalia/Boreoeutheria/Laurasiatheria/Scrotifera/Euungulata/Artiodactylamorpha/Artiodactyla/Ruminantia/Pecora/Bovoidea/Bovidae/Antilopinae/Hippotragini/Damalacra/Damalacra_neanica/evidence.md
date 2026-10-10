@@ -9,7 +9,6 @@ records:
     name:
       zh: Damalacra neanica
       en: Damalacra neanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

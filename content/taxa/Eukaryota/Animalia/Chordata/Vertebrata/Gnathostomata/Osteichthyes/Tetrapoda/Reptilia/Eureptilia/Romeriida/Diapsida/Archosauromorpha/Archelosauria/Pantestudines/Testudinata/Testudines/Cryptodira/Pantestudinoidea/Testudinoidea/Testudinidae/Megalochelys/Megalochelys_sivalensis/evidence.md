@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalochelys sivalensis
       en: Megalochelys sivalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

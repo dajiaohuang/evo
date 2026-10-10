@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: andreev-2022-qianodus; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: andreev-2022-qianodus
@@ -103,7 +100,6 @@ records:
           locator: pp. 1–28; Figures 1–15; Systematic palaeontology; phylogenetic analysis
         - referenceId: bronson-2024-cosmoselachus
           locator: pp. 101–117; Figures 1–8; CT reconstruction and phylogenetic analysis
-      reviewStatus: automated-audit-passed
 ---
 
 # Stem-chondrichthyan evidence route

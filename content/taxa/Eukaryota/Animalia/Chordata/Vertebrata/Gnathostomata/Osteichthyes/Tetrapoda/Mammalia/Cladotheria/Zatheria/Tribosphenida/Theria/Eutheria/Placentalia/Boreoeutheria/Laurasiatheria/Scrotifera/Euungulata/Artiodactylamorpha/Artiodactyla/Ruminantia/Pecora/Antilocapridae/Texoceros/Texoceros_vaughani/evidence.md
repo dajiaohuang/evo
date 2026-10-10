@@ -9,7 +9,6 @@ records:
     name:
       zh: Texoceros vaughani
       en: Texoceros vaughani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

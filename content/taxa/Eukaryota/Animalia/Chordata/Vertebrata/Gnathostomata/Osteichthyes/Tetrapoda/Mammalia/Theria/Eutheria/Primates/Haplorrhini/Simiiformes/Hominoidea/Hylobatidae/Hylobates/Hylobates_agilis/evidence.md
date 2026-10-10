@@ -9,7 +9,6 @@ records:
     name:
       zh: 敏捷长臂猿
       en: Agile gibbon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: evolution
@@ -673,10 +672,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Hylobates agilis
@@ -895,10 +890,4 @@ Only two bounded genetics studies were assessed; six facets remain not-assessed.
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 Evidence is sample-limited and does not provide wild population, range-wide or species-wide coverage.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

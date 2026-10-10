@@ -9,7 +9,6 @@ records:
     name:
       en: Mixophyes fasciolatus
       zh: Mixophyes fasciolatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

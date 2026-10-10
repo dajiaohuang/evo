@@ -9,7 +9,6 @@ records:
     name:
       zh: Umbogaulus monodon
       en: Umbogaulus monodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

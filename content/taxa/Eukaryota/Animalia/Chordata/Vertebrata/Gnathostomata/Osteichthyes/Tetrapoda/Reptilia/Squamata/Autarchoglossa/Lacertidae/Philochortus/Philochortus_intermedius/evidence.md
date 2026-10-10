@@ -9,7 +9,6 @@ records:
     name:
       zh: Philochortus intermedius
       en: Philochortus intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

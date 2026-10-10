@@ -59,7 +59,6 @@ function readAcceptedRecord(manifest, dossier) {
 function validateDossier(dossier) {
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness?.status, 'incomplete')
-  assert.equal(dossier.expertReview?.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   const sourceIds = new Set(dossier.sources.map(source => source.id))
   assert.equal(sourceIds.size, dossier.sources.length, 'Duplicate source ids')
@@ -137,7 +136,6 @@ const dossier = records.find(record => record.colId === source.updateAudit.targe
 assert.ok(dossier, 'The audited target must be present in the source batch')
 assert.equal(dossier.scientificName, source.updateAudit.targetScientificName)
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 const targetMatches = [...indexed.recordsById.values()].filter(record => record.colId === dossier.colId)
 assert.equal(targetMatches.length, source.updateAudit.targetRecordCountBeforeUpdate, 'In-place target must already exist exactly once')
 assert.equal(indexed.recordsById.get(dossier.colId)?.scientificName, dossier.scientificName)

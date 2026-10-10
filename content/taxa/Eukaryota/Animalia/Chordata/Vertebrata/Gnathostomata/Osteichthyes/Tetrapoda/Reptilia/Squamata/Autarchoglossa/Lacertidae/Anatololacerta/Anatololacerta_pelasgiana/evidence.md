@@ -9,7 +9,6 @@ records:
     name:
       zh: Anatololacerta pelasgiana
       en: Anatololacerta pelasgiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

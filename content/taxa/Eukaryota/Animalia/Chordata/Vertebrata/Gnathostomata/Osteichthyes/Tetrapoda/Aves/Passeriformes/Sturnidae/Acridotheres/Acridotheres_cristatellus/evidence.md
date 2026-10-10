@@ -9,7 +9,6 @@ records:
     name:
       zh: Acridotheres cristatellus
       en: Acridotheres cristatellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

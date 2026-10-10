@@ -9,7 +9,6 @@ records:
     name:
       zh: Psomophis obtusus
       en: Psomophis obtusus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis morazani
       en: Anolis morazani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

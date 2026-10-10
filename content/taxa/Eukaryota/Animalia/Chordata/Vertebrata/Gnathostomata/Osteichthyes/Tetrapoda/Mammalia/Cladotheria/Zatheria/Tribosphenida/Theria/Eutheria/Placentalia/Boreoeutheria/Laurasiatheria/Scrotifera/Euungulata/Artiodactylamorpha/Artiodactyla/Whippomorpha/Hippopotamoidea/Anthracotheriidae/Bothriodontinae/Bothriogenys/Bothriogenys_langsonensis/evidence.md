@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothriogenys langsonensis
       en: Bothriogenys langsonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Botaurus poiciloptilus
       en: Botaurus poiciloptilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

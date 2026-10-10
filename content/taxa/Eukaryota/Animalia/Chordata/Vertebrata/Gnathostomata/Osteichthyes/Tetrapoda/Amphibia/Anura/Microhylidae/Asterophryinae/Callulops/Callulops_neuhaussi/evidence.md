@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops neuhaussi
       zh: Callulops neuhaussi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

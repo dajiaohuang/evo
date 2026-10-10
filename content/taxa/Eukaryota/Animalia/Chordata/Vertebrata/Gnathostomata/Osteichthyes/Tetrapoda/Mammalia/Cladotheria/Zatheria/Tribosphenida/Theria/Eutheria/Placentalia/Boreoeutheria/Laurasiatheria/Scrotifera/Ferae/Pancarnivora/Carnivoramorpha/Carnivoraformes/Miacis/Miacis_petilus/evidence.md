@@ -9,7 +9,6 @@ records:
     name:
       zh: Miacis petilus
       en: Miacis petilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

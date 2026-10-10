@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes penerisanensis
       zh: Limnonectes penerisanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

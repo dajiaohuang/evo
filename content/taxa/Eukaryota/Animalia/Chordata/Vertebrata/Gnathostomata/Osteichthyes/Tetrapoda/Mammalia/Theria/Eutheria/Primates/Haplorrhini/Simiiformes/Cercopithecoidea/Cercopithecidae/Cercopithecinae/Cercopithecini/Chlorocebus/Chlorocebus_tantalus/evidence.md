@@ -9,7 +9,6 @@ records:
     name:
       en: Tantalus Monkey
       zh: 坦塔鲁斯猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

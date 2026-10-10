@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis infraguttatus
       zh: Pristimantis infraguttatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

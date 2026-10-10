@@ -9,7 +9,6 @@ records:
     name:
       zh: Caprimulgus asiaticus
       en: Caprimulgus asiaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

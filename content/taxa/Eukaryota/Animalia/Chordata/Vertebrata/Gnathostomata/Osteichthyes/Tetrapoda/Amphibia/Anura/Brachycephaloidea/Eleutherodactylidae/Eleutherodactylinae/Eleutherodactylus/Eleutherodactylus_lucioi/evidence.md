@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus lucioi
       zh: Eleutherodactylus lucioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

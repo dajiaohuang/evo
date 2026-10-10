@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys tihamica
       zh: Sclerophrys tihamica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

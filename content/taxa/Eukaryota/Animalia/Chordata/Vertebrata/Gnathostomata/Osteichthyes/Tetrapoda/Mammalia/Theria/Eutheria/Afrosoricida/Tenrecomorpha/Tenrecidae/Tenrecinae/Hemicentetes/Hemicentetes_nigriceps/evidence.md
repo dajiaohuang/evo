@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemicentetes nigriceps
       en: Hemicentetes nigriceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

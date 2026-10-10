@@ -9,7 +9,6 @@ records:
     name:
       zh: Anosteira crowcreekensis
       en: Anosteira crowcreekensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

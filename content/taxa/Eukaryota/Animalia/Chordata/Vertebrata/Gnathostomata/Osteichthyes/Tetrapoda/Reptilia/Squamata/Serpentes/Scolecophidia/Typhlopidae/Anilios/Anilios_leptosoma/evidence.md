@@ -9,7 +9,6 @@ records:
     name:
       zh: Anilios leptosoma
       en: Anilios leptosoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

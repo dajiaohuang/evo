@@ -9,7 +9,6 @@ records:
     name:
       zh: Macronyx ameliae
       en: Macronyx ameliae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

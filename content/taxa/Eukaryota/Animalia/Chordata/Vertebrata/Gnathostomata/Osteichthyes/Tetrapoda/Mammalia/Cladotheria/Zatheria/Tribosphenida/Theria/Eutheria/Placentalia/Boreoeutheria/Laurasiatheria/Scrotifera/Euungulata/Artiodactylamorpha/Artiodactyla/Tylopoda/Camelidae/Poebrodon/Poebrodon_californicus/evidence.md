@@ -9,7 +9,6 @@ records:
     name:
       zh: Poebrodon californicus
       en: Poebrodon californicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

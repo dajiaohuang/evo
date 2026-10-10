@@ -9,7 +9,6 @@ records:
     name:
       zh: Cisticola woosnami
       en: Cisticola woosnami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ecnomiohyla phantasmagoria
       zh: Ecnomiohyla phantasmagoria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

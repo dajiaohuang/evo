@@ -9,7 +9,6 @@ records:
     name:
       zh: 安哥拉疣猴
       en: Angolan colobus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

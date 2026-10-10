@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelonax ramosus
       en: Pelonax ramosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

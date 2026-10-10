@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptotyphlops pungwensis
       en: Leptotyphlops pungwensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

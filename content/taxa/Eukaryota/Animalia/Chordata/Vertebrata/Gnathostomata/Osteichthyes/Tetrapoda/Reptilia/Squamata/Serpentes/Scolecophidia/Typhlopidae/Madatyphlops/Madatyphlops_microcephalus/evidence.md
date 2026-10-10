@@ -9,7 +9,6 @@ records:
     name:
       zh: Madatyphlops microcephalus
       en: Madatyphlops microcephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hylodes meridionalis
       zh: Hylodes meridionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

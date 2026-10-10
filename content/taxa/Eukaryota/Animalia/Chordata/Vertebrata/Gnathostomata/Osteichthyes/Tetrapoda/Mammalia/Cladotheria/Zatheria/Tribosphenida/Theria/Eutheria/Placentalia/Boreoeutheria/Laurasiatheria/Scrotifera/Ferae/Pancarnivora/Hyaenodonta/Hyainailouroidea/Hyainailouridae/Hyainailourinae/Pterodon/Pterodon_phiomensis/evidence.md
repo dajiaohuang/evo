@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodon phiomensis
       en: Pterodon phiomensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

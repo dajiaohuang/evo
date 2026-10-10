@@ -9,7 +9,6 @@ records:
     name:
       zh: Bostrychia hagedash
       en: Bostrychia hagedash
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

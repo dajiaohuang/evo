@@ -9,7 +9,6 @@ records:
     name:
       zh: Hulkepholis willetti
       en: Hulkepholis willetti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

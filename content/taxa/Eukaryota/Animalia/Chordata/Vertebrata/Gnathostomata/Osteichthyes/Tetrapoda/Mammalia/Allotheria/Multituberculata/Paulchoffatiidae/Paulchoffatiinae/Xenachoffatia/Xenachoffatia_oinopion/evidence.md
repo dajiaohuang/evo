@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenachoffatia oinopion
       en: Xenachoffatia oinopion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

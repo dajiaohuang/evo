@@ -9,7 +9,6 @@ records:
     name:
       zh: Cranioleuca semicinerea
       en: Cranioleuca semicinerea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

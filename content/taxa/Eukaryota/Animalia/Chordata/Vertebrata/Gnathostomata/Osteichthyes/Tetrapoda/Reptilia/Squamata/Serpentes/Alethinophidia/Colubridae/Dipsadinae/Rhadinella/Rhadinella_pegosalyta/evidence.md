@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhadinella pegosalyta
       en: Rhadinella pegosalyta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

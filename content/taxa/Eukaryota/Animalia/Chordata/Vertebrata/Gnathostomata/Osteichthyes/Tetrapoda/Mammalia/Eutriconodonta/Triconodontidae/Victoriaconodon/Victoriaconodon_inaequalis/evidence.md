@@ -9,7 +9,6 @@ records:
     name:
       zh: Victoriaconodon inaequalis
       en: Victoriaconodon inaequalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

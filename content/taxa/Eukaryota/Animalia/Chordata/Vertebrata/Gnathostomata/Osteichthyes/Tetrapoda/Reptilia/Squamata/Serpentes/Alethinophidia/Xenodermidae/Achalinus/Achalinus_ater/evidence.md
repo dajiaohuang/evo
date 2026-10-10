@@ -9,7 +9,6 @@ records:
     name:
       zh: Achalinus ater
       en: Achalinus ater
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

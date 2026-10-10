@@ -9,7 +9,6 @@ records:
     name:
       zh: Enantiophoenix electrophyla
       en: Enantiophoenix electrophyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

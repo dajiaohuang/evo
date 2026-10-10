@@ -9,7 +9,6 @@ records:
     name:
       zh: Dolichophis schmidti
       en: Dolichophis schmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

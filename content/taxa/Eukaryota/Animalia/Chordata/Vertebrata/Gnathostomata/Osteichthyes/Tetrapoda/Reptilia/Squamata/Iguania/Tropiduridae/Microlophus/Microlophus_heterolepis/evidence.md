@@ -9,7 +9,6 @@ records:
     name:
       zh: Microlophus heterolepis
       en: Microlophus heterolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

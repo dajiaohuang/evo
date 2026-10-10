@@ -9,7 +9,6 @@ records:
     name:
       en: Capensibufo rosei
       zh: Capensibufo rosei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

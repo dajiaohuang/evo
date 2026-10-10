@@ -9,7 +9,6 @@ records:
     name:
       zh: Microgale thomasi
       en: Microgale thomasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

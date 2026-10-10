@@ -9,7 +9,6 @@ records:
     name:
       zh: Campephilus leucopogon
       en: Campephilus leucopogon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

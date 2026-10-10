@@ -9,7 +9,6 @@ records:
     name:
       zh: Wyonycteris microtis
       en: Wyonycteris microtis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

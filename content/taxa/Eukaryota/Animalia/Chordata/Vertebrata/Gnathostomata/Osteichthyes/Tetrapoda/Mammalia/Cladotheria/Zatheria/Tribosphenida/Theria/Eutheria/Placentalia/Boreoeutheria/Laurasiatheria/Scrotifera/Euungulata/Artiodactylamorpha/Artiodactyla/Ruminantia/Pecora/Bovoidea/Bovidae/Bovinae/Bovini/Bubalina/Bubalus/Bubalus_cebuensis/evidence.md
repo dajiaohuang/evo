@@ -9,7 +9,6 @@ records:
     name:
       zh: Bubalus cebuensis
       en: Bubalus cebuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

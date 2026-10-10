@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurodon silveirinhensis
       en: Eurodon silveirinhensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

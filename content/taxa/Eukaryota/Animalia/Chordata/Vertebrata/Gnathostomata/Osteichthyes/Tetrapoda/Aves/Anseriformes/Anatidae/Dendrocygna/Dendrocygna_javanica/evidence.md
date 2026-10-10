@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrocygna javanica
       en: Dendrocygna javanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

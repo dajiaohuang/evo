@@ -9,7 +9,6 @@ records:
     name:
       zh: Proansomys dureensis
       en: Proansomys dureensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

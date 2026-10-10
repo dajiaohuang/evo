@@ -9,7 +9,6 @@ records:
     name:
       zh: Contomastix leachei
       en: Contomastix leachei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

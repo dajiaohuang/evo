@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperotestudo gilbertii
       en: Hesperotestudo gilbertii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

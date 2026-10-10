@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor megalotympanum
       zh: Craugastor megalotympanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

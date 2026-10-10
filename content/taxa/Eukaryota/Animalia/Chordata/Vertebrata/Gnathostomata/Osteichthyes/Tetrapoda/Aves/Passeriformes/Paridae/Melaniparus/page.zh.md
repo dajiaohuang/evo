@@ -37,5 +37,5 @@ status: source-linked
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本路线使用十条所选 AVONET v7 历史行、同名 eBird 与旧 Parus BirdTree 关联、相关字段定义及本次 COL mel／par 分片。十个旧组合的目录异名提供名称对应，不证明历史物种范围与当前概念完全相同。形态鸟数、完整测量与 Dunning 文献体重保留独立分母；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。Invertivore 生态位与 Carnivore／Omnivore 营养级不互换；没有实测食谱、猎物名录、捕食动作、羽色、鸣声、繁殖、当前分布或迁移路线。本页不计完整自然史或外部专家审评。
+本路线使用十条所选 AVONET v7 历史行、同名 eBird 与旧 Parus BirdTree 关联、相关字段定义及本次 COL mel／par 分片。十个旧组合的目录异名提供名称对应，不证明历史物种范围与当前概念完全相同。形态鸟数、完整测量与 Dunning 文献体重保留独立分母；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。Invertivore 生态位与 Carnivore／Omnivore 营养级不互换；没有实测食谱、猎物名录、捕食动作、羽色、鸣声、繁殖、当前分布或迁移路线。本页不计完整自然史。
 <!-- /evo:text -->

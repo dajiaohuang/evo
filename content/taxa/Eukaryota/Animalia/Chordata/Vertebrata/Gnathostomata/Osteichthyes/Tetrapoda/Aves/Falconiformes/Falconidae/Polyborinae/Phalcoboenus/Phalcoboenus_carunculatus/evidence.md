@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalcoboenus carunculatus
       en: Phalcoboenus carunculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acantholipan gonzalezi
       en: Acantholipan gonzalezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

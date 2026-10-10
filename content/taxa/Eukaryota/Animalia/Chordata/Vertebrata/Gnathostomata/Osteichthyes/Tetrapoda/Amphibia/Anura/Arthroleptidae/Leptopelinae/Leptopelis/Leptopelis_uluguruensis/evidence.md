@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis uluguruensis
       zh: Leptopelis uluguruensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

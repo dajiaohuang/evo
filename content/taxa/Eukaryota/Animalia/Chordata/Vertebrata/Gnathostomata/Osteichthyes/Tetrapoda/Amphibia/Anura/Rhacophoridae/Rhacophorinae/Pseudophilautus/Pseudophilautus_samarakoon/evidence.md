@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus samarakoon
       zh: Pseudophilautus samarakoon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

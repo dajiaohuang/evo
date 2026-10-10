@@ -16,5 +16,5 @@ de Miranda and de Faria observed three free-ranging black-tufted-ear marmoset gr
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked local field observations; not externally expert-reviewed. Three groups in two Cerrado vegetation types and less than one annual cycle do not establish full-range ecology or demography.
+Source-linked local field observations;. Three groups in two Cerrado vegetation types and less than one annual cycle do not establish full-range ecology or demography.
 <!-- /evo:text -->

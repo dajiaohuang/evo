@@ -9,7 +9,6 @@ records:
     name:
       zh: Kentropyx altamazonica
       en: Kentropyx altamazonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

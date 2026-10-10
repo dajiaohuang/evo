@@ -9,7 +9,6 @@ records:
     name:
       zh: Blanus aporus
       en: Blanus aporus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

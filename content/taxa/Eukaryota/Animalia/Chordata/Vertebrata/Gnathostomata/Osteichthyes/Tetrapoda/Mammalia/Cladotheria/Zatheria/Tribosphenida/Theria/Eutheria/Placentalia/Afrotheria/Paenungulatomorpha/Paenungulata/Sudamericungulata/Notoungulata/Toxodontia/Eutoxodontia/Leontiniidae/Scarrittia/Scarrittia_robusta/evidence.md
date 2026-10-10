@@ -9,7 +9,6 @@ records:
     name:
       zh: Scarrittia robusta
       en: Scarrittia robusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

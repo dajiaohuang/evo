@@ -9,7 +9,6 @@ records:
     name:
       zh: Democricetodon hispanicus
       en: Democricetodon hispanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

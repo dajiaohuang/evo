@@ -9,7 +9,6 @@ records:
     name:
       zh: Lagostomus (Lagostomopsis) incisus
       en: Lagostomus (Lagostomopsis) incisus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Spinus magellanicus
       en: Spinus magellanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

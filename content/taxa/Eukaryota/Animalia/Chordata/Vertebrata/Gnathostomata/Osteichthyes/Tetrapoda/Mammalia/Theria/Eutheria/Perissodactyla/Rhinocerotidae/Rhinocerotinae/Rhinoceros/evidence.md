@@ -9,7 +9,6 @@ records:
     name:
       zh: 独角犀属
       en: Asian one-horned rhinoceroses
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

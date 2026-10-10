@@ -9,7 +9,6 @@ records:
     name:
       zh: Locustella certhiola
       en: Locustella certhiola
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

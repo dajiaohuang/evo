@@ -9,7 +9,6 @@ records:
     name:
       zh: 莱兰兹白面僧面猴
       en: Rylands' Bald-faced Saki
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

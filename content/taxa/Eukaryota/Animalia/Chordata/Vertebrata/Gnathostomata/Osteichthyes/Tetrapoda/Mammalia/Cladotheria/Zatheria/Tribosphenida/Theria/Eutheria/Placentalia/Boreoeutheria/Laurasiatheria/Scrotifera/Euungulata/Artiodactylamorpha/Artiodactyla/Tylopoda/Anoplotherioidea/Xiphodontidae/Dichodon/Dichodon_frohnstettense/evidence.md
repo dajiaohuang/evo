@@ -9,7 +9,6 @@ records:
     name:
       zh: Dichodon frohnstettense
       en: Dichodon frohnstettense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

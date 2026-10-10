@@ -9,7 +9,6 @@ records:
     name:
       zh: Bunohyrax fajumensis
       en: Bunohyrax fajumensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Heteromys oresterus
       en: Heteromys oresterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

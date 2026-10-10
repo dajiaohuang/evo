@@ -9,7 +9,6 @@ records:
     name:
       zh: Rallus lowei
       en: Rallus lowei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liotyphlops trefauti
       en: Liotyphlops trefauti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

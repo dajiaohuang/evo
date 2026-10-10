@@ -9,7 +9,6 @@ records:
     name:
       zh: Eolophus roseicapilla
       en: Eolophus roseicapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

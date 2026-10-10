@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis xylochobates
       zh: Pristimantis xylochobates
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

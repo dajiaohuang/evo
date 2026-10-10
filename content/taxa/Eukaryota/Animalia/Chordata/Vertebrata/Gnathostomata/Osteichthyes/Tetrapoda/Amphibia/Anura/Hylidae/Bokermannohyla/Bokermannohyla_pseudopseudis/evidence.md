@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla pseudopseudis
       zh: Bokermannohyla pseudopseudis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

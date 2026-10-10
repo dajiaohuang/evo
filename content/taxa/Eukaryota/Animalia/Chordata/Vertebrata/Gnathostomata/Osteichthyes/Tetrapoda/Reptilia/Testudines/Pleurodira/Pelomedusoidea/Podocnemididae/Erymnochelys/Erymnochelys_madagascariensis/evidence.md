@@ -9,7 +9,6 @@ records:
     name:
       zh: Erymnochelys madagascariensis
       en: Erymnochelys madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

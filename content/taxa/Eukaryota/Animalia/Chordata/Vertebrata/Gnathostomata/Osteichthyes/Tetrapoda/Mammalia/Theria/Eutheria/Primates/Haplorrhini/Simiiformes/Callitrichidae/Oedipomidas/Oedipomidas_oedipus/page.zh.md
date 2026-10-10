@@ -34,5 +34,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-社会观察、繁殖样本和林地调查来自不同年份、地点与抽样设计；调查区估计与全范围外推分开标示。野外论文使用 Saguinus oedipus 组合，页面分类身份仍按固定 COL26.8 ID。尚未经过外部领域专家评审。
+社会观察、繁殖样本和林地调查来自不同年份、地点与抽样设计；调查区估计与全范围外推分开标示。野外论文使用 Saguinus oedipus 组合，页面分类身份仍按固定 COL26.8 ID。。
 <!-- /evo:text -->

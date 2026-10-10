@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma otagense
       en: Oligosoma otagense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

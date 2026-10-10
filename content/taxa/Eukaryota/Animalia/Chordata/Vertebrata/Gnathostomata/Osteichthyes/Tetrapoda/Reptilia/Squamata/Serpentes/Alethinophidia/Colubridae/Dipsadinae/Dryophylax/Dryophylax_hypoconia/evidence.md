@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryophylax hypoconia
       en: Dryophylax hypoconia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

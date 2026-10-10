@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis dezwaani
       en: Cnemaspis dezwaani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

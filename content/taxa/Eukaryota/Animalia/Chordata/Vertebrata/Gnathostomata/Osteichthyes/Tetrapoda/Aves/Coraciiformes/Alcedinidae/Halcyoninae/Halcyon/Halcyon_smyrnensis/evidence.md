@@ -9,7 +9,6 @@ records:
     name:
       zh: Halcyon smyrnensis
       en: Halcyon smyrnensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

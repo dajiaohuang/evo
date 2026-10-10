@@ -9,7 +9,6 @@ records:
     name:
       zh: Anatololacerta
       en: Anatololacerta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

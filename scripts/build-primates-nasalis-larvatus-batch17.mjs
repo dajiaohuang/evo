@@ -108,8 +108,8 @@ const record = {
     fossil: { status: 'not-assessed', claims: [], gaps: ['No fossil or paleontological search was performed; no fossil presence or absence is claimed.'] },
     conservation: { status: 'not-assessed', claims: [], gaps: ['No current formal conservation assessment, trend, or threat status was reviewed.'] },
   },
-  completeness: { status: 'incomplete', reasons: ['One bounded dietary ecology study was assessed; six facets remain not-assessed.', 'The findings concern sampled groups and sites in one sanctuary, with direct observation and metabarcoding limitations.', 'No independent expert review or comprehensive multi-source review has been completed.'] },
-  expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+  completeness: { status: 'incomplete', reasons: ['One bounded dietary ecology study was assessed; six facets remain not-assessed.', 'The findings concern sampled groups and sites in one sanctuary, with direct observation and metabarcoding limitations.', 'A comprehensive multi-source search has not been completed.'] },
+
 }
 assert.equal(record.facets.ecology.claims[0].sourceIds.every(sourceId => sources.find(s => s.id === sourceId)?.licenseAssessment === 'item-level-verified'), true)
 

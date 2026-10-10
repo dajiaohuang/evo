@@ -9,7 +9,6 @@ records:
     name:
       zh: Nanger soemmerringii
       en: Nanger soemmerringii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

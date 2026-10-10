@@ -9,7 +9,6 @@ records:
     name:
       zh: Anas itchtucknee
       en: Anas itchtucknee
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

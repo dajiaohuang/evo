@@ -9,7 +9,6 @@ records:
     name:
       zh: Eulabeornis
       en: Eulabeornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

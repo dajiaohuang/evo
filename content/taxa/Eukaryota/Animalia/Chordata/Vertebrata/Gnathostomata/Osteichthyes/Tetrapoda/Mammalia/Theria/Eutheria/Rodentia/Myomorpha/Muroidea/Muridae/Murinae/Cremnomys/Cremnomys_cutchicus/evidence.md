@@ -9,7 +9,6 @@ records:
     name:
       zh: Cremnomys cutchicus
       en: Cremnomys cutchicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

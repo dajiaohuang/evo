@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella achavali
       zh: Rhinella achavali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

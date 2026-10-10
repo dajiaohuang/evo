@@ -9,7 +9,6 @@ records:
     name:
       zh: Juxia sharamurenensis
       en: Juxia sharamurenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

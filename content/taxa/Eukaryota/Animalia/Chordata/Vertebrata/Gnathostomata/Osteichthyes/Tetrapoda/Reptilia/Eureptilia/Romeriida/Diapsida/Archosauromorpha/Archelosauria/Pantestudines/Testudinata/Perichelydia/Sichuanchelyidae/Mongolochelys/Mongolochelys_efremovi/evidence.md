@@ -9,7 +9,6 @@ records:
     name:
       zh: Mongolochelys efremovi
       en: Mongolochelys efremovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

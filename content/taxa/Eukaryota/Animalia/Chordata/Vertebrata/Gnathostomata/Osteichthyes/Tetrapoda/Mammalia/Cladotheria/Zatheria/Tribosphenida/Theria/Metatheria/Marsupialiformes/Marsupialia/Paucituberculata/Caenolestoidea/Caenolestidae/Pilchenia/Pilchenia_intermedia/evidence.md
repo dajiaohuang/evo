@@ -9,7 +9,6 @@ records:
     name:
       zh: Pilchenia intermedia
       en: Pilchenia intermedia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

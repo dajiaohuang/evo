@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophosaurus boydii
       en: Lophosaurus boydii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

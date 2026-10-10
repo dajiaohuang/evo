@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus africanus
       zh: Phrynobatrachus africanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

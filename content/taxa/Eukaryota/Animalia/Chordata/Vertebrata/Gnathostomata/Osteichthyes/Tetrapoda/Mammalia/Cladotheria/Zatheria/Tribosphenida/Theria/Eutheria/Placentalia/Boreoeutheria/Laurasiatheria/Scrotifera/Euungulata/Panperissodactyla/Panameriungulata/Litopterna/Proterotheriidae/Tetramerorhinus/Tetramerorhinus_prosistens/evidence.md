@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetramerorhinus prosistens
       en: Tetramerorhinus prosistens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

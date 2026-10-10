@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus diringshofeni
       zh: Cycloramphus diringshofeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

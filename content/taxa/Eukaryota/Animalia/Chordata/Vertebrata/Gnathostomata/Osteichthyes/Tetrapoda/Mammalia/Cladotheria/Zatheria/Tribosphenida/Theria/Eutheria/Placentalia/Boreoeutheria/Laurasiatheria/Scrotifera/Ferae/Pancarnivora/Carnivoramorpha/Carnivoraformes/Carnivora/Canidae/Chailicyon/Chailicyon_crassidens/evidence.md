@@ -9,7 +9,6 @@ records:
     name:
       zh: Chailicyon crassidens
       en: Chailicyon crassidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

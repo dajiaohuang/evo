@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: gingerich-1990-basilosaurus-hind-limbs concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: gingerich-1990-basilosaurus-hind-limbs
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: gingerich-1990-basilosaurus-hind-limbs
           locator: pp. 154–157; Figures 1–3
-      reviewStatus: automated-audit-passed
 ---
 
 # Basilosaurus

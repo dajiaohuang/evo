@@ -9,7 +9,6 @@ records:
     name:
       zh: Hadromys humei
       en: Hadromys humei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

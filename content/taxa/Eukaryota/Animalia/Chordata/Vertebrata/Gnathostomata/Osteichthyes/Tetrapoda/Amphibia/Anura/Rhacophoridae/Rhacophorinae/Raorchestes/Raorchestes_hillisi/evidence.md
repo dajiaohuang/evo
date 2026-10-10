@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes hillisi
       zh: Raorchestes hillisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

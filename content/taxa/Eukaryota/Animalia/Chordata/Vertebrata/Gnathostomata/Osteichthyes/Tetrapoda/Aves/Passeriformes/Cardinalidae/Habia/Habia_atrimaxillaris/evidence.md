@@ -9,7 +9,6 @@ records:
     name:
       zh: Habia atrimaxillaris
       en: Habia atrimaxillaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Petracola waka
       en: Petracola waka
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

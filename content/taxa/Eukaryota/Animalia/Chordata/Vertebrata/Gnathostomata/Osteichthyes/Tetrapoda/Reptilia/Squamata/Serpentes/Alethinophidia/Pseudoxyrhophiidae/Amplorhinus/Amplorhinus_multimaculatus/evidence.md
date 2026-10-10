@@ -9,7 +9,6 @@ records:
     name:
       zh: Amplorhinus multimaculatus
       en: Amplorhinus multimaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus rex
       en: Rhinolophus rex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

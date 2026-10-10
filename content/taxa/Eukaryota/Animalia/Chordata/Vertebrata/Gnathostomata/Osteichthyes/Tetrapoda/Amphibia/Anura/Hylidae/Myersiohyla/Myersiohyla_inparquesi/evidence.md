@@ -9,7 +9,6 @@ records:
     name:
       en: Myersiohyla inparquesi
       zh: Myersiohyla inparquesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

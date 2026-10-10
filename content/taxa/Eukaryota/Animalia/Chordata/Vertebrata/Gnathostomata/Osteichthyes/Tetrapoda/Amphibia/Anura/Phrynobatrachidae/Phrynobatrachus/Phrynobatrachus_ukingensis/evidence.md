@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus ukingensis
       zh: Phrynobatrachus ukingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

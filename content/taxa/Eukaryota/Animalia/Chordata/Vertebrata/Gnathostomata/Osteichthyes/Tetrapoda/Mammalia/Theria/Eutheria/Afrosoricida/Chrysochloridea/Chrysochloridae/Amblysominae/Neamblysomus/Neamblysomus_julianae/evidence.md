@@ -9,7 +9,6 @@ records:
     name:
       zh: Neamblysomus julianae
       en: Neamblysomus julianae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

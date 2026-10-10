@@ -9,7 +9,6 @@ records:
     name:
       en: Scolecomorphus kirkii
       zh: Scolecomorphus kirkii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

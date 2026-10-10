@@ -9,7 +9,6 @@ records:
     name:
       zh: Foudia madagascariensis
       en: Foudia madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

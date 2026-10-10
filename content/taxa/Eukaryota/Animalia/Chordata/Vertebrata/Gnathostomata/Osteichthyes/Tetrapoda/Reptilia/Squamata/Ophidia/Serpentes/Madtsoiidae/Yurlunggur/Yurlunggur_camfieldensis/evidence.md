@@ -9,7 +9,6 @@ records:
     name:
       zh: Yurlunggur camfieldensis
       en: Yurlunggur camfieldensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

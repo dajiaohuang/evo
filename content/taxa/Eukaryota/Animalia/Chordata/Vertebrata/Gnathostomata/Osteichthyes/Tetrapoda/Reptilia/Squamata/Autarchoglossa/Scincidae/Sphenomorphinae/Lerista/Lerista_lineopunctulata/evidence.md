@@ -9,7 +9,6 @@ records:
     name:
       zh: Lerista lineopunctulata
       en: Lerista lineopunctulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

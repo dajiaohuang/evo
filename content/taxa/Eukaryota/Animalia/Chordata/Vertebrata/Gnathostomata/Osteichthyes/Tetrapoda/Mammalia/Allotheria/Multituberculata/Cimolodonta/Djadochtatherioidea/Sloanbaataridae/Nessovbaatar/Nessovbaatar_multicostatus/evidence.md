@@ -9,7 +9,6 @@ records:
     name:
       zh: Nessovbaatar multicostatus
       en: Nessovbaatar multicostatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

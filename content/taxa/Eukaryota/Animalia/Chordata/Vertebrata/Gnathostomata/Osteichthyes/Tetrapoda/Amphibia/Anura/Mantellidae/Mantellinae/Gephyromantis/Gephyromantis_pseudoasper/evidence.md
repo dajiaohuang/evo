@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis pseudoasper
       zh: Gephyromantis pseudoasper
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

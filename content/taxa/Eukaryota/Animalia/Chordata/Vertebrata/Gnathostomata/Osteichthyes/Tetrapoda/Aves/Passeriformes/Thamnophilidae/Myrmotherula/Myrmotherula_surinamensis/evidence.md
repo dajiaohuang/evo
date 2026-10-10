@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmotherula surinamensis
       en: Myrmotherula surinamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

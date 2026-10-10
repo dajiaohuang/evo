@@ -9,7 +9,6 @@ records:
     name:
       en: Aromobates orostoma
       zh: Aromobates orostoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

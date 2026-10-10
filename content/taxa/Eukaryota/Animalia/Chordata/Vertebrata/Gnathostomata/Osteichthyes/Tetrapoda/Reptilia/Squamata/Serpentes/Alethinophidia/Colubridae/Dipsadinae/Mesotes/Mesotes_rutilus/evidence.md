@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesotes rutilus
       en: Mesotes rutilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

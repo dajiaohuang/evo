@@ -9,7 +9,6 @@ records:
     name:
       zh: Petroica bivittata
       en: Petroica bivittata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Odontobatrachus ziama
       zh: Odontobatrachus ziama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

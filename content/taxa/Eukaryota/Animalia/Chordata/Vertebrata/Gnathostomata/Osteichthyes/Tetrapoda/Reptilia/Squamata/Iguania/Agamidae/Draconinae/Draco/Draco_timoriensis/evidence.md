@@ -9,7 +9,6 @@ records:
     name:
       zh: Draco timoriensis
       en: Draco timoriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

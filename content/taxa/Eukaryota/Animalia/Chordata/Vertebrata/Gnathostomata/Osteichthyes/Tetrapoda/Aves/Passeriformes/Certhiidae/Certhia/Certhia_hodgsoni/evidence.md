@@ -9,7 +9,6 @@ records:
     name:
       zh: Certhia hodgsoni
       en: Certhia hodgsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

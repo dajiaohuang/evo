@@ -9,7 +9,6 @@ records:
     name:
       zh: 凡佐利尼白面僧面猴
       en: Vanzolini's Bald-faced Saki
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

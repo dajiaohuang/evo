@@ -9,7 +9,6 @@ records:
     name:
       zh: Phenacodus matthewi
       en: Phenacodus matthewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

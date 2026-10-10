@@ -9,7 +9,6 @@ records:
     name:
       zh: Domnina greeni
       en: Domnina greeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

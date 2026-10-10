@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-这是有来源的入门概述，尚未经过外部领域专家评审。所述界定限于 2025 年研究的悉尼地区样本与分析；固定名录用于精确查找名称，不证明更广范围内分类争议已经消失。
+这是有来源的入门概述。所述界定限于 2025 年研究的悉尼地区样本与分析；固定名录用于精确查找名称，不证明更广范围内分类争议已经消失。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Euplectes albonotatus
       en: Euplectes albonotatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

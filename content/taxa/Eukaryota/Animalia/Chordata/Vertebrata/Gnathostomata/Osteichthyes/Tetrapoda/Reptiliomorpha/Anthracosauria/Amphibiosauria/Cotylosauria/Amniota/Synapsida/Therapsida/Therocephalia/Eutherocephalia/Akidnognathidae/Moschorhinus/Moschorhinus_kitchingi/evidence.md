@@ -9,7 +9,6 @@ records:
     name:
       zh: Moschorhinus kitchingi
       en: Moschorhinus kitchingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

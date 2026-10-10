@@ -9,7 +9,6 @@ records:
     name:
       en: Kalophrynus minutus
       zh: Kalophrynus minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

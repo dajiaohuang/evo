@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnodynastes silvai
       en: Thamnodynastes silvai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

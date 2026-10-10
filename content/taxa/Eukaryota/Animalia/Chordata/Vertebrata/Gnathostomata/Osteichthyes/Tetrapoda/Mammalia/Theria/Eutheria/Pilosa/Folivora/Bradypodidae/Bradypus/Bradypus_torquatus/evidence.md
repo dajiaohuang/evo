@@ -9,7 +9,6 @@ records:
     name:
       zh: Bradypus torquatus
       en: Bradypus torquatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidurus guarani
       en: Tropidurus guarani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

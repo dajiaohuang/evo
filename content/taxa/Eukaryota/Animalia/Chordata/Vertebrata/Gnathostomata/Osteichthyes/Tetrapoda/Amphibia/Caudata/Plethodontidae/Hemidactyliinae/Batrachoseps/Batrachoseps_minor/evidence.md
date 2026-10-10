@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachoseps minor
       zh: Batrachoseps minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

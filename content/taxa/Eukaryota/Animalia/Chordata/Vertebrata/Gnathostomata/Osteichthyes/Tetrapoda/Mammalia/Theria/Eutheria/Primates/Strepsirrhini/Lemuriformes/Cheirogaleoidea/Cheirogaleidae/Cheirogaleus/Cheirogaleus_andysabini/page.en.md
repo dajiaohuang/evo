@@ -16,5 +16,5 @@ Dwarf lemurs around Montagne d'Ambre were sampled during a 2005 expedition, and 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page summarizes sampled Montagne d'Ambre material and the original description; it does not infer a complete range, current abundance, or the identity of other northern populations. This page has not received external expert review. This page is not externally expert-reviewed.
+This page summarizes sampled Montagne d'Ambre material and the original description; it does not infer a complete range, current abundance, or the identity of other northern populations. This page. This page is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geothlypis rostrata
       en: Geothlypis rostrata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mokopirirakau granulatus
       en: Mokopirirakau granulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Otus lettia
       en: Otus lettia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

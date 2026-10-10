@@ -9,7 +9,6 @@ records:
     name:
       en: Aromobates ornatissimus
       zh: Aromobates ornatissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

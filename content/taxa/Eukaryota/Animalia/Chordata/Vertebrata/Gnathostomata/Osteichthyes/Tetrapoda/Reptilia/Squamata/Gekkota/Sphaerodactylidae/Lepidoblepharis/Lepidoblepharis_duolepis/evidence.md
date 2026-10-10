@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidoblepharis duolepis
       en: Lepidoblepharis duolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

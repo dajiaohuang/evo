@@ -9,7 +9,6 @@ records:
     name:
       zh: Miacis deutschi
       en: Miacis deutschi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

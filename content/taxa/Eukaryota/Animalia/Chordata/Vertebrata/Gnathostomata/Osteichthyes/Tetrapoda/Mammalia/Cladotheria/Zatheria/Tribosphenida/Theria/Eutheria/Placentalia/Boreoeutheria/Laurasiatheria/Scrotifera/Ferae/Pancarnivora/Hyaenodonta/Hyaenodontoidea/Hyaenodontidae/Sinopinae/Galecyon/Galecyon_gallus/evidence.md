@@ -9,7 +9,6 @@ records:
     name:
       zh: Galecyon gallus
       en: Galecyon gallus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pycnonotus goiavier
       en: Pycnonotus goiavier
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Parafimbrios vietnamensis
       en: Parafimbrios vietnamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

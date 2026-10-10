@@ -9,7 +9,6 @@ records:
     name:
       zh: Nimbacinus dicksoni
       en: Nimbacinus dicksoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

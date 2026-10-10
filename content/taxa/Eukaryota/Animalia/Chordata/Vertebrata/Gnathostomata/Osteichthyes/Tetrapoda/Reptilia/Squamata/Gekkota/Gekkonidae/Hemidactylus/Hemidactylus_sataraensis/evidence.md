@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus sataraensis
       en: Hemidactylus sataraensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

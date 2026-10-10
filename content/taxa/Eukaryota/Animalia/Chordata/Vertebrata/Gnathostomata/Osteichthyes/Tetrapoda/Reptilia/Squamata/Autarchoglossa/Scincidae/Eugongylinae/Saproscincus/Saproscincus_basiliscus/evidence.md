@@ -9,7 +9,6 @@ records:
     name:
       zh: Saproscincus basiliscus
       en: Saproscincus basiliscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

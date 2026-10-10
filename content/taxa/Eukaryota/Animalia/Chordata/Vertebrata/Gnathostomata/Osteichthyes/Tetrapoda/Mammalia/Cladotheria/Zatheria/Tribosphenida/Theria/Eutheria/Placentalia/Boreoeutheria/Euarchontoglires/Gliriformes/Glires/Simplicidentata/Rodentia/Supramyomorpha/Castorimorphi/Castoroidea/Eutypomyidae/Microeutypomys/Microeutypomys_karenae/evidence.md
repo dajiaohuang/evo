@@ -9,7 +9,6 @@ records:
     name:
       zh: Microeutypomys karenae
       en: Microeutypomys karenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

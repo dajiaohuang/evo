@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus derooyae
       en: Sphenomorphus derooyae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

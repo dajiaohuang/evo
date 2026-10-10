@@ -9,7 +9,6 @@ records:
     name:
       zh: 东苏门答腊带叶猴
       en: East Sumatran Banded Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

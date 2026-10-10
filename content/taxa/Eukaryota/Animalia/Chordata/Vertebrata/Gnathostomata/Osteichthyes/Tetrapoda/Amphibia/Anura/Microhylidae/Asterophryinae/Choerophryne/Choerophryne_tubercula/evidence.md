@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne tubercula
       zh: Choerophryne tubercula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

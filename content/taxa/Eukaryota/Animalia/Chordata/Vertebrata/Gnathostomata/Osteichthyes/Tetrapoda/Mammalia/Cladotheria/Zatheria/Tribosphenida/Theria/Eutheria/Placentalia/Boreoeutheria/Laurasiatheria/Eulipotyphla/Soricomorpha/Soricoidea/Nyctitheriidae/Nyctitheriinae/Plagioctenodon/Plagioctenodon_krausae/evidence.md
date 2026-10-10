@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagioctenodon krausae
       en: Plagioctenodon krausae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

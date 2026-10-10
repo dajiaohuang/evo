@@ -9,7 +9,6 @@ records:
     name:
       zh: Campethera cailliautii
       en: Campethera cailliautii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

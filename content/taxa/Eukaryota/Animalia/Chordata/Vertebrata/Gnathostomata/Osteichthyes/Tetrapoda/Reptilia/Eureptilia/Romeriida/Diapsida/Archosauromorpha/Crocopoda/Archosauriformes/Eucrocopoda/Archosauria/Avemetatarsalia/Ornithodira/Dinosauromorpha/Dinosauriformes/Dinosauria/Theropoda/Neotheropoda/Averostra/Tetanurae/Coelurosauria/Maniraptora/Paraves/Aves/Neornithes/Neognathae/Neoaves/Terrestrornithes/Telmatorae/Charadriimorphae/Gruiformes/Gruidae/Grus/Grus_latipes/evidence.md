@@ -9,7 +9,6 @@ records:
     name:
       zh: Grus latipes
       en: Grus latipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

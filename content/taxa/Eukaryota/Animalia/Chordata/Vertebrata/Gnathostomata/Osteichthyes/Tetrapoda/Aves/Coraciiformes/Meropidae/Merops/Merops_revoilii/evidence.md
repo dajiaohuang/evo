@@ -9,7 +9,6 @@ records:
     name:
       zh: Merops revoilii
       en: Merops revoilii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

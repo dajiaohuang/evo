@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: McGowen et al. 2009 DOI 10.1016/j.ympev.2009.08.018
       referenceLinks:
         - referenceId: mcgowen-2009-cetacean-supermatrix
           relation: supports

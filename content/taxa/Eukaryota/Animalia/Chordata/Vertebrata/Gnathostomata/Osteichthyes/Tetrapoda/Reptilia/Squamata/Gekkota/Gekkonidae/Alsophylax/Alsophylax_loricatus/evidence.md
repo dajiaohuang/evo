@@ -9,7 +9,6 @@ records:
     name:
       zh: Alsophylax loricatus
       en: Alsophylax loricatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

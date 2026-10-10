@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesembrinibis cayennensis
       en: Mesembrinibis cayennensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

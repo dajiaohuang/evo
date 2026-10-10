@@ -9,7 +9,6 @@ records:
     name:
       zh: Ingentisorex
       en: Ingentisorex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Steatornis caripensis
       en: Steatornis caripensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

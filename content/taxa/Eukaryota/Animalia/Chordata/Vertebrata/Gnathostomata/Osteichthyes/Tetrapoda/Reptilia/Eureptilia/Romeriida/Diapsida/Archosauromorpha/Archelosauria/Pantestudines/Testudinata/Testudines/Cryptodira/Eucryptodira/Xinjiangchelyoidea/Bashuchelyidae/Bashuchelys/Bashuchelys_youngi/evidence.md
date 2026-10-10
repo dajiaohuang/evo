@@ -9,7 +9,6 @@ records:
     name:
       zh: Bashuchelys youngi
       en: Bashuchelys youngi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

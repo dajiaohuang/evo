@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanerpes herminieri
       en: Melanerpes herminieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

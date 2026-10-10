@@ -9,7 +9,6 @@ records:
     name:
       en: Andinobates bombetes
       zh: Andinobates bombetes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

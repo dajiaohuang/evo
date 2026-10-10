@@ -65,7 +65,7 @@ test('global search lazily resolves accepted Catalogue of Life species without c
   await expect(page.getByRole('heading', { name: 'Exclusive resource ownership' })).toBeVisible()
   await expect(page.locator('.catalogue-owner-card')).toContainText('Primates')
   await expect(page.locator('.catalogue-owner-card')).toContainText('530')
-  await expect(page.locator('.catalogue-owner-card')).toContainText('does not imply an Evo Atlas dossier')
+  await expect(page.locator('.catalogue-owner-card')).toContainText('does not provide morphology, distribution or phylogenetic evidence')
   await expect(page.getByRole('link', { name: /Verify the upstream record/ })).toHaveAttribute('href', /checklistbank\.org\/dataset\/316115\/taxon\/6MB3T$/)
 
   await page.goto('./#/catalog')
@@ -324,7 +324,7 @@ test('marine reptile and pterosaur story keeps specimens and models in three sep
   await expect(page.getByRole('heading', { name: 'A short-snouted ichthyosauromorph holotype' })).toBeVisible()
   await expect(page.getByRole('heading', { name: 'Four flippers tested in a water channel' })).toBeVisible()
   await expect(page.getByRole('heading', { name: 'Hundreds of eggs, sixteen with embryos' })).toBeVisible()
-  await expect(page.getByText('COL26.8 contributes zero accepted species through these fossil-root routes; naming coverage and dossier maturity are independent, and the three radiations remain separate.', { exact: true })).toBeVisible()
+  await expect(page.getByText('COL26.8 contributes zero accepted species through these fossil-root routes; naming coverage does not establish species-specific evidence, and the three radiations remain separate.', { exact: true })).toBeVisible()
   await expect(page.locator('.story-step')).toHaveCount(10)
 })
 

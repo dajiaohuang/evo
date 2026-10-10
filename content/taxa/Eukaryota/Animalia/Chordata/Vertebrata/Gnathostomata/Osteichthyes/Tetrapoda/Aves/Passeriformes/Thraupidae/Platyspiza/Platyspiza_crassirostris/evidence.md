@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyspiza crassirostris
       en: Platyspiza crassirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

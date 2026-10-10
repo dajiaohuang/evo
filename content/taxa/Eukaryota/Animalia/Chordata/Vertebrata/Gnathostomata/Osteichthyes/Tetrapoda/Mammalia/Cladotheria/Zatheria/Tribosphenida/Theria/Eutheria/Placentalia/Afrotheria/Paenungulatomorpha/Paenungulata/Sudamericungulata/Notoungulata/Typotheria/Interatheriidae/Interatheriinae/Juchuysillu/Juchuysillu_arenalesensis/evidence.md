@@ -9,7 +9,6 @@ records:
     name:
       zh: Juchuysillu arenalesensis
       en: Juchuysillu arenalesensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

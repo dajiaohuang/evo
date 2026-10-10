@@ -9,7 +9,6 @@ records:
     name:
       zh: Proechimys gardneri
       en: Proechimys gardneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

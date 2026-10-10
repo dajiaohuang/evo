@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplodactylus tessellatus
       en: Diplodactylus tessellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

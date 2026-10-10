@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrophidion crybelum
       en: Dendrophidion crybelum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

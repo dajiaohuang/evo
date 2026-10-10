@@ -9,7 +9,6 @@ records:
     name:
       zh: Palmulasaurus
       en: Palmulasaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

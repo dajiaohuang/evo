@@ -9,7 +9,6 @@ records:
     name:
       zh: Hebius frenatus
       en: Hebius frenatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

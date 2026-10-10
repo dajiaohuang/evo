@@ -9,7 +9,6 @@ records:
     name:
       zh: Nipponia nippon
       en: Nipponia nippon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

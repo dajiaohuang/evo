@@ -9,7 +9,6 @@ records:
     name:
       zh: Discosaurus vetustus
       en: Discosaurus vetustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

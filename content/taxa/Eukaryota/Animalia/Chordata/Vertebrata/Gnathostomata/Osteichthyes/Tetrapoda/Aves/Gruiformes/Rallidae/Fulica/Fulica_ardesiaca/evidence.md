@@ -9,7 +9,6 @@ records:
     name:
       zh: Fulica ardesiaca
       en: Fulica ardesiaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

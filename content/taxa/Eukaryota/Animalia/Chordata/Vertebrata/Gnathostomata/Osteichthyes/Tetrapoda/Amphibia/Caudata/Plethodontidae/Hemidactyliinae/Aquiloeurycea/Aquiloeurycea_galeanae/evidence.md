@@ -9,7 +9,6 @@ records:
     name:
       en: Aquiloeurycea galeanae
       zh: Aquiloeurycea galeanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

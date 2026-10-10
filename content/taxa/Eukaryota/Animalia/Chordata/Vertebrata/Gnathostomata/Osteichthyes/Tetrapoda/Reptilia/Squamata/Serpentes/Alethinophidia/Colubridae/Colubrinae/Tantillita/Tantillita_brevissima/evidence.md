@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantillita brevissima
       en: Tantillita brevissima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

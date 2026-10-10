@@ -9,7 +9,6 @@ records:
     name:
       zh: Antechinus godmani
       en: Antechinus godmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

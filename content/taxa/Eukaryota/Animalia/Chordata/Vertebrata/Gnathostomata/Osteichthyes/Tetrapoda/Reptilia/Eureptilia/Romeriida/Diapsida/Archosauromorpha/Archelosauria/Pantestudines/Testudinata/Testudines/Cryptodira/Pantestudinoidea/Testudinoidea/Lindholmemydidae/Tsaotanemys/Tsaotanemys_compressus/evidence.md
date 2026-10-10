@@ -9,7 +9,6 @@ records:
     name:
       zh: Tsaotanemys compressus
       en: Tsaotanemys compressus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoplesiosaurus antiquior
       en: Eoplesiosaurus antiquior
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

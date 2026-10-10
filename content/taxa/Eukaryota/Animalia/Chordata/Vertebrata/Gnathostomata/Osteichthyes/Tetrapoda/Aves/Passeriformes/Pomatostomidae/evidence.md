@@ -9,7 +9,6 @@ records:
     name:
       zh: Pomatostomidae
       en: Pomatostomidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

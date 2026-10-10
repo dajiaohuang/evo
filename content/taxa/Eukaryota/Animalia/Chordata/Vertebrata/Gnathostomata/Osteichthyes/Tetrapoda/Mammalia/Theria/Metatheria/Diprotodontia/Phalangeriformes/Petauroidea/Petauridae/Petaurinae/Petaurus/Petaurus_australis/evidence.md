@@ -9,7 +9,6 @@ records:
     name:
       zh: Petaurus australis
       en: Petaurus australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

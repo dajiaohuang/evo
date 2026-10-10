@@ -9,7 +9,6 @@ records:
     name:
       zh: Litokoala kutjamarpensis
       en: Litokoala kutjamarpensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

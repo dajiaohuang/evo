@@ -9,7 +9,6 @@ records:
     name:
       zh: Sporophila nuttingi
       en: Sporophila nuttingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

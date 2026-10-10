@@ -9,7 +9,6 @@ records:
     name:
       zh: Klainjosaura staroskalja
       en: Klainjosaura staroskalja
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

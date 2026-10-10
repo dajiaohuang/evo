@@ -9,7 +9,6 @@ records:
     name:
       zh: Deltatheridium pretrituberculare
       en: Deltatheridium pretrituberculare
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

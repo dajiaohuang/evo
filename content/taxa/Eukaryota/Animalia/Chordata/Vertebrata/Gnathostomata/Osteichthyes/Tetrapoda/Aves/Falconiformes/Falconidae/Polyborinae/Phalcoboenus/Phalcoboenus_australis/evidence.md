@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalcoboenus australis
       en: Phalcoboenus australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

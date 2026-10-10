@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius leucotaenius
       zh: Hyperolius leucotaenius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

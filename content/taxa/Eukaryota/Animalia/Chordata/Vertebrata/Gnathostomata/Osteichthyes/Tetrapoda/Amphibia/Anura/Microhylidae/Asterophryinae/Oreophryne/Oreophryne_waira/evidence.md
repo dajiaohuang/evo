@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne waira
       zh: Oreophryne waira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

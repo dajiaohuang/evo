@@ -9,7 +9,6 @@ records:
     name:
       en: Oreolalax longmenmontis
       zh: Oreolalax longmenmontis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

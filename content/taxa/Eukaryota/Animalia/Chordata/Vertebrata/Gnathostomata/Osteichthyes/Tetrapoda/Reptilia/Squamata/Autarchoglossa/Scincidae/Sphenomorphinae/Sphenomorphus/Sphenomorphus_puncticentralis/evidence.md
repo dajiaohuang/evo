@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus puncticentralis
       en: Sphenomorphus puncticentralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

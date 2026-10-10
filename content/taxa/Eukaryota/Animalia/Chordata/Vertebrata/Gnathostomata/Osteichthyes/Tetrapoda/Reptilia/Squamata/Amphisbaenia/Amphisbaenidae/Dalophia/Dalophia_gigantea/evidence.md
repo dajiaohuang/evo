@@ -9,7 +9,6 @@ records:
     name:
       zh: Dalophia gigantea
       en: Dalophia gigantea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

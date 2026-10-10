@@ -9,7 +9,6 @@ records:
     name:
       zh: Ornithomimus velox
       en: Ornithomimus velox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

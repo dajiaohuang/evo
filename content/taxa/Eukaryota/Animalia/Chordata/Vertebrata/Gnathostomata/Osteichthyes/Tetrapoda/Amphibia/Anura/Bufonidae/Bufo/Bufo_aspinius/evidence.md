@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo aspinius
       zh: Bufo aspinius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

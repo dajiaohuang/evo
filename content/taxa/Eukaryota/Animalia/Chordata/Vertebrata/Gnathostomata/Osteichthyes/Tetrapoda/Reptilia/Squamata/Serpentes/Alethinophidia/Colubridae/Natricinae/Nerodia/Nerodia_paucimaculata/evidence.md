@@ -9,7 +9,6 @@ records:
     name:
       zh: Nerodia paucimaculata
       en: Nerodia paucimaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycephala monacha
       en: Pachycephala monacha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

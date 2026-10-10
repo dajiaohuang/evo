@@ -9,7 +9,6 @@ records:
     name:
       zh: 波帕叶猴
       en: Popa Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: description_sample

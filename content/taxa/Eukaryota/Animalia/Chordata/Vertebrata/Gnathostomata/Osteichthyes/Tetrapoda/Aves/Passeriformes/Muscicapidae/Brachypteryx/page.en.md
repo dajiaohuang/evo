@@ -22,5 +22,5 @@ Recorded category counts are 1 for habitat, 1 for feeding niche, 1 for primary l
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This entry covers this batch’s limited historical ecology records, not every accepted descendant or expert review. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
+This entry covers this batch’s limited historical ecology records, not every accepted descendant. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
 <!-- /evo:text -->

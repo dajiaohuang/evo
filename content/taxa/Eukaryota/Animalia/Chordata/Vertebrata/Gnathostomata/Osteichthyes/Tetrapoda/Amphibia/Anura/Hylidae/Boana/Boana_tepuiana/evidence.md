@@ -9,7 +9,6 @@ records:
     name:
       en: Boana tepuiana
       zh: Boana tepuiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

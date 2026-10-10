@@ -9,7 +9,6 @@ records:
     name:
       zh: Gaudeamus lavocati
       en: Gaudeamus lavocati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

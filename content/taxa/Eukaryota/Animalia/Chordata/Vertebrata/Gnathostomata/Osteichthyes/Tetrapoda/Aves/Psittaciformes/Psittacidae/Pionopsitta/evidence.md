@@ -9,7 +9,6 @@ records:
     name:
       zh: Pionopsitta
       en: Pionopsitta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

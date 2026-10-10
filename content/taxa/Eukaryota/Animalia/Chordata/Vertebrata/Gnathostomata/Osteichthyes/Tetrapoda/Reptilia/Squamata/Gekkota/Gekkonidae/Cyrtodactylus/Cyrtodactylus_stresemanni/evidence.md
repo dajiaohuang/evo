@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus stresemanni
       en: Cyrtodactylus stresemanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

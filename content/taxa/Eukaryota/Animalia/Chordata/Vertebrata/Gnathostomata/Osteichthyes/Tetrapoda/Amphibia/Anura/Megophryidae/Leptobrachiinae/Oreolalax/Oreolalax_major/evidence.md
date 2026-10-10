@@ -9,7 +9,6 @@ records:
     name:
       en: Oreolalax major
       zh: Oreolalax major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

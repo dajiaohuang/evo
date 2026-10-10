@@ -9,7 +9,6 @@ records:
     name:
       zh: Alagomys oriensis
       en: Alagomys oriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

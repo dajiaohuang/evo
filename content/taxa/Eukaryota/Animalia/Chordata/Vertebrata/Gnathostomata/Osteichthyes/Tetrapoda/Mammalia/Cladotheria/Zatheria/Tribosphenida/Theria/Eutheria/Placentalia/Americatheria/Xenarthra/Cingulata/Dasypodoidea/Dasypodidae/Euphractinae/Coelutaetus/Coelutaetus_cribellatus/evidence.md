@@ -9,7 +9,6 @@ records:
     name:
       zh: Coelutaetus cribellatus
       en: Coelutaetus cribellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

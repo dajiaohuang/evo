@@ -9,7 +9,6 @@ records:
     name:
       zh: Snowornis subalaris
       en: Snowornis subalaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

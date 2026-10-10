@@ -9,7 +9,6 @@ records:
     name:
       zh: Bellatona yanghuensis
       en: Bellatona yanghuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

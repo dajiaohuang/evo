@@ -9,7 +9,6 @@ records:
     name:
       zh: Metallura iracunda
       en: Metallura iracunda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

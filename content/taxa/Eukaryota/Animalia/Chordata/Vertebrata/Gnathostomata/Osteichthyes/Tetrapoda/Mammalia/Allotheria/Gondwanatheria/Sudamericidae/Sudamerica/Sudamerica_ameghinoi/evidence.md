@@ -9,7 +9,6 @@ records:
     name:
       zh: Sudamerica ameghinoi
       en: Sudamerica ameghinoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

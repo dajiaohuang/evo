@@ -9,7 +9,6 @@ records:
     name:
       en: Asterophrys slateri
       zh: Asterophrys slateri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

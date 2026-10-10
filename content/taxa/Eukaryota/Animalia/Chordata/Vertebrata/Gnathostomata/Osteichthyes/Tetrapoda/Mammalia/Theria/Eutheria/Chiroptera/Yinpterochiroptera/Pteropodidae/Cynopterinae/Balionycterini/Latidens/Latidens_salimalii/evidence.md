@@ -9,7 +9,6 @@ records:
     name:
       zh: Latidens salimalii
       en: Latidens salimalii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

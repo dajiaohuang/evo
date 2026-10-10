@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurostopodus argus
       en: Eurostopodus argus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

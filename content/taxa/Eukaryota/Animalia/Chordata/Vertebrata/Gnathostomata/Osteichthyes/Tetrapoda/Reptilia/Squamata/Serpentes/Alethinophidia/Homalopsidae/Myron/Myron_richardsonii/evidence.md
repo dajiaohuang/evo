@@ -9,7 +9,6 @@ records:
     name:
       zh: Myron richardsonii
       en: Myron richardsonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

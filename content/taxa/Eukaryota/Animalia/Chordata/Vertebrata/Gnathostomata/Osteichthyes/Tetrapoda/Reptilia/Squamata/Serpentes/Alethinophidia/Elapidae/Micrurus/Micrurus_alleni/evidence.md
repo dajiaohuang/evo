@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrurus alleni
       en: Micrurus alleni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

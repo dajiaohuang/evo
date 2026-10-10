@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bentlage-2010-cubozoa
       referenceLinks:
         - referenceId: bentlage-2010-cubozoa
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bentlage-2010-cubozoa locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: bentlage-2010-cubozoa
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: bentlage-2010-cubozoa
           locator: 493–501; Figures 1–3; extant sampling, phylogenetic analyses and character discussion
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Huoshanornis huji
       en: Huoshanornis huji
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

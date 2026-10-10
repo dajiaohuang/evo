@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis longitibialis
       en: Anolis longitibialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

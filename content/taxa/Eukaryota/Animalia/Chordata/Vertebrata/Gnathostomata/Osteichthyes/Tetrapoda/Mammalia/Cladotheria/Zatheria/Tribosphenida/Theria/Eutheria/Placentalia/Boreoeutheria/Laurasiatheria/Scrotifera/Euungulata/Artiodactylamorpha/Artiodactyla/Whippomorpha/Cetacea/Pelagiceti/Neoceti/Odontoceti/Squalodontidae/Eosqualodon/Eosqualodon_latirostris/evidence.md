@@ -9,7 +9,6 @@ records:
     name:
       zh: Eosqualodon latirostris
       en: Eosqualodon latirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

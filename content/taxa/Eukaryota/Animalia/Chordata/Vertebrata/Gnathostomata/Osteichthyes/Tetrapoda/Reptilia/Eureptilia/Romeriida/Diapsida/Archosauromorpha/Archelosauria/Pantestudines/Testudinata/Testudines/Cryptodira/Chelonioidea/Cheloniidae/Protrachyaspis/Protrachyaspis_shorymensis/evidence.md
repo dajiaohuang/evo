@@ -9,7 +9,6 @@ records:
     name:
       zh: Protrachyaspis shorymensis
       en: Protrachyaspis shorymensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

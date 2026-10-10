@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachychirotherium eyermani
       en: Brachychirotherium eyermani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

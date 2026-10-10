@@ -9,7 +9,6 @@ records:
     name:
       zh: Yaminuechelys sulcipeculiaris
       en: Yaminuechelys sulcipeculiaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

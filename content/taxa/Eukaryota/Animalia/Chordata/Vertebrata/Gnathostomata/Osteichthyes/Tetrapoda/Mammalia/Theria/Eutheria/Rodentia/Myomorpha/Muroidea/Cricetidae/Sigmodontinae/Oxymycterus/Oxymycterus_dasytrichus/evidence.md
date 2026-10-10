@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxymycterus dasytrichus
       en: Oxymycterus dasytrichus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

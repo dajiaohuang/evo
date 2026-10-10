@@ -16,5 +16,5 @@ Read this Mico guide by evidence type and study period. First, Mourthé et al. (
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This guide links selected Mico studies and is not a complete species checklist, range map, ecological synthesis or phylogeny. Map overlays, historical local observations, later surveys, the dated national assessment and integrative taxonomy answer different questions and should not be collapsed into one evidence type. Source-linked; not externally expert-reviewed.
+This guide links selected Mico studies and is not a complete species checklist, range map, ecological synthesis or phylogeny. Map overlays, historical local observations, later surveys, the dated national assessment and integrative taxonomy answer different questions and should not be collapsed into one evidence type. Source-linked;.
 <!-- /evo:text -->

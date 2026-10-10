@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton chondrostega
       zh: Chiropterotriton chondrostega
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

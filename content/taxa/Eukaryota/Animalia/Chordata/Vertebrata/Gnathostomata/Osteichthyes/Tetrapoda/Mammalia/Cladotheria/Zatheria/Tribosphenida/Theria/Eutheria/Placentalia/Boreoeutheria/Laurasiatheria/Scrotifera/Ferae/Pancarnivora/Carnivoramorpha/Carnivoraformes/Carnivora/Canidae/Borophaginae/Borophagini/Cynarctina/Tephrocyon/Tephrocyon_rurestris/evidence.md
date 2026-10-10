@@ -9,7 +9,6 @@ records:
     name:
       zh: Tephrocyon rurestris
       en: Tephrocyon rurestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

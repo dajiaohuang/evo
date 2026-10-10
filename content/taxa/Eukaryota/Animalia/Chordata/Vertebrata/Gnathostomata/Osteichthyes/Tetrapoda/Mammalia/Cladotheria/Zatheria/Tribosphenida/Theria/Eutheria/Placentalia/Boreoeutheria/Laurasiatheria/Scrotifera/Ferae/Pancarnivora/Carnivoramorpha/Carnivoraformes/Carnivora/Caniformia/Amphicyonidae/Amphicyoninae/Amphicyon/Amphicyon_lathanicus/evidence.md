@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphicyon lathanicus
       en: Amphicyon lathanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

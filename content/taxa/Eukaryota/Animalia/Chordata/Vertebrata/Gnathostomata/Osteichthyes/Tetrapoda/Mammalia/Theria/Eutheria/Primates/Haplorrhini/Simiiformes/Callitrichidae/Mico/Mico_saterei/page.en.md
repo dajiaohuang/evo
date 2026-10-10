@@ -22,5 +22,5 @@ The card reports use of primary and secondary terra firme forest and igapó, and
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. This is a dated Brazilian national assessment, not a new global assessment. Extent-of-occurrence and habitat-distribution figures use different methods and remain separate; trend is unknown.
+Source-linked introduction;. This is a dated Brazilian national assessment, not a new global assessment. Extent-of-occurrence and habitat-distribution figures use different methods and remain separate; trend is unknown.
 <!-- /evo:text -->

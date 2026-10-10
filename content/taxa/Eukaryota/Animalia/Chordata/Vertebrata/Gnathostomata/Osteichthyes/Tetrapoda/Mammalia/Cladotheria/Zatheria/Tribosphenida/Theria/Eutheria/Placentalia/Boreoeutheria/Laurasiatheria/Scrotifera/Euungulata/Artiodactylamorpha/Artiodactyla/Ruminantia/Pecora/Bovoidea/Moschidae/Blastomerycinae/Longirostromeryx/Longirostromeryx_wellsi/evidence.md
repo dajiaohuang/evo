@@ -9,7 +9,6 @@ records:
     name:
       zh: Longirostromeryx wellsi
       en: Longirostromeryx wellsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

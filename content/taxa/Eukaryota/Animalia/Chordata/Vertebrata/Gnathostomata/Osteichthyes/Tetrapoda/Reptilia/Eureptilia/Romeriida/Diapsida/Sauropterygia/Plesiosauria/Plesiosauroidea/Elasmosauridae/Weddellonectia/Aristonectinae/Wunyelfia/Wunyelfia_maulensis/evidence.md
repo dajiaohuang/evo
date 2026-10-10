@@ -9,7 +9,6 @@ records:
     name:
       zh: Wunyelfia maulensis
       en: Wunyelfia maulensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius kachalolae
       zh: Hyperolius kachalolae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus yersini
       en: Sphenomorphus yersini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

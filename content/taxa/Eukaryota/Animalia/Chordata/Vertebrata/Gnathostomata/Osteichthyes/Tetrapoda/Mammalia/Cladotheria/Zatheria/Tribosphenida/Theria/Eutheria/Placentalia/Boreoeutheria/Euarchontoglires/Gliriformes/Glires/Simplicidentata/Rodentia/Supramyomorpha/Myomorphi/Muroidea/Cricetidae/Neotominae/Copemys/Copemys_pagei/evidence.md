@@ -9,7 +9,6 @@ records:
     name:
       zh: Copemys pagei
       en: Copemys pagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

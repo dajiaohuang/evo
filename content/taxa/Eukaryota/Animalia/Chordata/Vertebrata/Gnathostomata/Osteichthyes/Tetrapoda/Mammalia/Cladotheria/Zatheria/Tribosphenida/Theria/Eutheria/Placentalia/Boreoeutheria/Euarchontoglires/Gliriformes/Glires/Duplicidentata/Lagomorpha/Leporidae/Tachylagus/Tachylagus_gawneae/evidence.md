@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachylagus gawneae
       en: Tachylagus gawneae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

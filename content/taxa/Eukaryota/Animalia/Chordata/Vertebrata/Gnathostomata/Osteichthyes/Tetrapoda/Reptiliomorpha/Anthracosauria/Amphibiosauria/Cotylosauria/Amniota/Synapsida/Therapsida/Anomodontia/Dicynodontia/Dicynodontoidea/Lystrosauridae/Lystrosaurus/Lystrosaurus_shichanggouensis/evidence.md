@@ -9,7 +9,6 @@ records:
     name:
       zh: Lystrosaurus shichanggouensis
       en: Lystrosaurus shichanggouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

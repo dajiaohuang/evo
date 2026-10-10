@@ -9,7 +9,6 @@ records:
     name:
       en: Thorius macdougalli
       zh: Thorius macdougalli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

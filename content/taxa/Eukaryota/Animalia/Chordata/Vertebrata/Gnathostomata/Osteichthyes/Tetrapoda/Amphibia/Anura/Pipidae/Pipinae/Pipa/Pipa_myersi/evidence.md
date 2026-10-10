@@ -9,7 +9,6 @@ records:
     name:
       en: Pipa myersi
       zh: Pipa myersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

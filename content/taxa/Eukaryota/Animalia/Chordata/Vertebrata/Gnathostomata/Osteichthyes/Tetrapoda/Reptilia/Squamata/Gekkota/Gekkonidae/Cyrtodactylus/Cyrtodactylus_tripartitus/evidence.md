@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus tripartitus
       en: Cyrtodactylus tripartitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

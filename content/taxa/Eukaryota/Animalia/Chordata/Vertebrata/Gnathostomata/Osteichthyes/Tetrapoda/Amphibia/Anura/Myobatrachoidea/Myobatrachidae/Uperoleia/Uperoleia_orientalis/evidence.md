@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia orientalis
       zh: Uperoleia orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

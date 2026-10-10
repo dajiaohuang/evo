@@ -9,7 +9,6 @@ records:
     name:
       zh: Melozone biarcuata
       en: Melozone biarcuata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

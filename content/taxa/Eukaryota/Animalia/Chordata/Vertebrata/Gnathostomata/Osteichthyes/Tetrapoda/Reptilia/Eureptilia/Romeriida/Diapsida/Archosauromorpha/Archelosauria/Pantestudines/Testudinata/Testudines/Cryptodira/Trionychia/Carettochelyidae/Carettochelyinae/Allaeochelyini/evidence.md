@@ -9,7 +9,6 @@ records:
     name:
       zh: Allaeochelyini
       en: Allaeochelyini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

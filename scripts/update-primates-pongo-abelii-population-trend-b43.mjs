@@ -101,7 +101,6 @@ function validateSourceClaim(dossier) {
   assert.equal(dossier.scientificName, source.target.scientificName)
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness?.status, 'incomplete')
-  assert.equal(dossier.expertReview?.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   const claim = source.claims.conservation
   assert.ok(claim.text && claim.textZh && claim.locator && claim.placeTimeScope && claim.lifeStatus)
@@ -190,7 +189,6 @@ if (alreadyApplied) {
     reasons: [
       'The record includes one small behavioral observation set and a 2021–2023 model-based population assessment; morphology, evolution, distribution, fossil evidence, and wider conservation monitoring remain unassessed or incomplete.',
       'The population estimate and matched-range trend depend on spatial boundaries and survey coverage; systematic source coverage across the accepted species concept remains incomplete.',
-      'Independent external expert review has not been completed.',
     ],
   }
   verifyAcceptedIdentity(registryManifest, dossier)

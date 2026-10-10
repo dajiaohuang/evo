@@ -9,7 +9,6 @@ records:
     name:
       zh: Neomorphus pucheranii
       en: Neomorphus pucheranii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

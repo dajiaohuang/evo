@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla darevskii
       zh: Microhyla darevskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -60,7 +60,7 @@ Puthuthottam 群体取食了 19 种植物的不同部分，也摄食非植物食
 <!-- /evo:text -->
 
 <!-- evo:text /records/atlas-profile/readerSections/6/text/zh -->
-所选研究尚未综合体型、生活史、完整分布区、全年生态或当前正式保育状态。生态发现来自一个群体和一个季节；种子传播结果仍为预印本。科学档案尚未完成，也未经过独立专家评审。
+所选研究尚未综合体型、生活史、完整分布区、全年生态或当前正式保育状态。生态发现来自一个群体和一个季节；种子传播结果仍为预印本。科学档案尚未完成。
 <!-- /evo:text -->
 
 ## atlas-profile / readerLimitations

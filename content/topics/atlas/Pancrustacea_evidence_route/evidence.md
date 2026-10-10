@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: zhang-2007-yicaris; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: zhang-2007-yicaris
           relation: supports
@@ -86,7 +83,6 @@ records:
           locator: 595–598
         - referenceId: bernot-2023-pancrustacea-sampling
           locator: msad175; Figures 2–4
-      reviewStatus: automated-audit-passed
 ---
 
 # Pancrustacea evidence route

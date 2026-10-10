@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorostilbon alice
       en: Chlorostilbon alice
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

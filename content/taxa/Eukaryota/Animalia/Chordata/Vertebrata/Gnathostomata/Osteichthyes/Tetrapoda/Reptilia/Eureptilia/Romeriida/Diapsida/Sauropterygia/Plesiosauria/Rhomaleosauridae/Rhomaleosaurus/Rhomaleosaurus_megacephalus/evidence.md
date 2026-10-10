@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhomaleosaurus megacephalus
       en: Rhomaleosaurus megacephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

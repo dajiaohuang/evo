@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsas lavillai
       en: Dipsas lavillai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagotitan mayorum
       en: Patagotitan mayorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

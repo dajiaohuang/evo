@@ -9,7 +9,6 @@ records:
     name:
       en: Black-crowned Dwarf Marmoset
       zh: 罗兹马伦矮绒猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon bilineatus
       en: Plestiodon bilineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

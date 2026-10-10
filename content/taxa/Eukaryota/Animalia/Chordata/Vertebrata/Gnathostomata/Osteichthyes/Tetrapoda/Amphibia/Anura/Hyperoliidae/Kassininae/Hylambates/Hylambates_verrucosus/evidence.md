@@ -9,7 +9,6 @@ records:
     name:
       en: Hylambates verrucosus
       zh: Hylambates verrucosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

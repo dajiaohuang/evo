@@ -9,7 +9,6 @@ records:
     name:
       zh: Ichthyosaurus enthekiodon
       en: Ichthyosaurus enthekiodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

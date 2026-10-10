@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus maestrensis
       zh: Eleutherodactylus maestrensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rattus exulans
       en: Rattus exulans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

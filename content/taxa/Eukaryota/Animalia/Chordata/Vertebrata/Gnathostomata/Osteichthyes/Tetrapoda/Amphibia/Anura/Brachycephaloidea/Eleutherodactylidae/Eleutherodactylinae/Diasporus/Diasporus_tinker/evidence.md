@@ -9,7 +9,6 @@ records:
     name:
       en: Diasporus tinker
       zh: Diasporus tinker
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

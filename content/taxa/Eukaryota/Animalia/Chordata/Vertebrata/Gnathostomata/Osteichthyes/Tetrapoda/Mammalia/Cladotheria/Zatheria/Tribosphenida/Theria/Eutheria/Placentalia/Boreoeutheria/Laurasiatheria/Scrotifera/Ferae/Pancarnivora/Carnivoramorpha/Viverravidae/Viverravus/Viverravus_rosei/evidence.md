@@ -9,7 +9,6 @@ records:
     name:
       zh: Viverravus rosei
       en: Viverravus rosei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

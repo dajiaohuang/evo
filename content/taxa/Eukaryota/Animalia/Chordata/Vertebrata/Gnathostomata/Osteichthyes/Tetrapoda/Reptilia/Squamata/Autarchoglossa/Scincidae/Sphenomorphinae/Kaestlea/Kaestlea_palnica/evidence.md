@@ -9,7 +9,6 @@ records:
     name:
       zh: Kaestlea palnica
       en: Kaestlea palnica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

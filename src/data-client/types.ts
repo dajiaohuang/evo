@@ -35,7 +35,7 @@ export interface RuntimeEntityLinkageCoverage {
   unmatchedOccurrenceTotal: number
   linkageMethods: { exactExternalId: number; acceptedName: number; higherClassification: number }
   indexedEntityCount: number
-  resolutionSummary: { resolved: number; unresolved: number; needsConceptReview: number; conceptResolved: number; humanCuratorDecisions: number }
+  resolutionSummary: { resolved: number; unresolved: number }
   packageCoverage: Record<string, { sourceTotal: number; linkedTotal: number; linkedRate: number | null; coverageStatus: 'sampled' | 'no-sampled-rows' }>
 }
 
@@ -44,10 +44,6 @@ export interface RuntimePackageRegistryEntry {
   title: string
   titleZh: string
   wave: string
-  platformMaturity: 'generated' | 'validated' | 'published'
-  scientificMaturity: 'generated-scaffold' | 'structured' | 'source-linked' | 'curated-draft' | 'published'
-  automatedReviewStatus: 'pending' | 'passed' | 'failed'
-  reviewStatus: 'not-reviewed' | 'in-review' | 'reviewed-with-caveats' | 'reviewed'
   entityCount: number
   runtimePath: string
 }
@@ -102,6 +98,7 @@ export interface RuntimeRangeEvidence {
   status: 'available' | 'withheld-pending-provenance'
   confidence: 'low' | 'medium' | 'high' | 'contested'
   claimIds: string[]
+  referenceLocators?: Array<{ referenceId: string; locator: string }>
 }
 
 export interface RuntimeWormsNomenclatureCollection {
@@ -465,20 +462,6 @@ export interface RuntimePackageManifest {
   version: string
   title: string
   titleZh: string
-  platformMaturity: RuntimePackageRegistryEntry['platformMaturity']
-  scientificMaturity: RuntimePackageRegistryEntry['scientificMaturity']
-  automatedReviewStatus: RuntimePackageRegistryEntry['automatedReviewStatus']
-  reviewStatus: RuntimePackageRegistryEntry['reviewStatus']
-  effectiveReviewStatus: RuntimePackageRegistryEntry['reviewStatus'] | 'stale'
-  reviewFreshness: 'not-applicable' | 'current' | 'stale'
-  reviewedBy: string | null
-  reviewedAt: string | null
-  reviewedCommit: string | null
-  reviewedContentDigest: string | null
-  currentContentDigest: string
-  chatgptAssisted: boolean
-  reviewScope: string[]
-  reviewOpenIssues: string[]
   entityCount: number
   profileCount: number
   claimCount: number
@@ -1669,10 +1652,9 @@ export interface CatalogueKnowledgeProfile {
   rank: string
   sourceDatasetId: string | null
   name: { zh: string; en: string }
-  reviewStatus: 'source-linked'
   checkedAt: string
   sections: Array<{ topic: string; text: { zh: string; en: string }; sourceIds: string[] }>
-  sources: Array<{ id: string; title: string | { zh: string; en: string }; url: string; scope: { zh: string; en: string } }>
+  sources: Array<{ id: string; title: string | { zh: string; en: string }; url: string; scope?: { zh: string; en: string } }>
   limitations: { zh: string; en: string }
 }
 
@@ -1689,7 +1671,6 @@ export interface CatalogueSpeciesDossier {
   }>
   completeness: { status: 'incomplete' | 'complete'; reasons?: string[] }
   systematicSearch?: { date: string; scope: string; method: string; queryOrPath?: string; inclusionCriteria?: string; exclusionCriteria?: string; searcher?: string }
-  expertReview: { status: 'not-reviewed' | 'maintainer-reviewed' | 'externally-reviewed'; reviewers?: Array<{ name: string; expertise: string; conflictOfInterest: string }>; reviewDigest?: string; date?: string; opinion?: string; resolutionLog?: Array<{ finding: string; disposition: string }> }
 }
 
 export interface CatalogueKnowledgeRecord {
@@ -1703,7 +1684,6 @@ export interface CatalogueKnowledgeRecord {
     profiledSpecies: number
     dossierSpecies?: number
     completeDossierSpecies?: number
-    expertReviewedSpecies?: number
     dossierFacets?: Record<string, Record<string, number>>
     sourceFacetEvidenceSpecies?: Record<string, number>
   }
@@ -1714,7 +1694,7 @@ export interface CatalogueRuntimeManifest {
   knowledge?: {
     schemaVersion: 1
     releaseAlias: string
-    counts: { hierarchyNodes: number; ranks: Record<string, number>; describedSpecies: number; profilesByRank: Record<string, number>; sourceFacetEvidenceSpecies?: Record<string, number>; dossierSpecies?: number; completeDossierSpecies?: number; expertReviewedSpecies?: number; dossierFacets?: Record<string, Record<string, number>> }
+    counts: { hierarchyNodes: number; ranks: Record<string, number>; describedSpecies: number; profilesByRank: Record<string, number>; sourceFacetEvidenceSpecies?: Record<string, number>; dossierSpecies?: number; completeDossierSpecies?: number; dossierFacets?: Record<string, Record<string, number>> }
     routes: Record<string, string[]>
     files: CatalogueRuntimeFile[]
   }
@@ -1983,7 +1963,7 @@ export interface RuntimeReleaseSummary {
 export interface RuntimeReleasesIndex {
   schemaVersion: number
   retentionLimit: number
-  retentionByteLimit: number
+  retentionByteLimit: number | null
   retainedBytes: number
   releases: RuntimeReleaseSummary[]
 }

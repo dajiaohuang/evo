@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ocellatus
       zh: Pristimantis ocellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

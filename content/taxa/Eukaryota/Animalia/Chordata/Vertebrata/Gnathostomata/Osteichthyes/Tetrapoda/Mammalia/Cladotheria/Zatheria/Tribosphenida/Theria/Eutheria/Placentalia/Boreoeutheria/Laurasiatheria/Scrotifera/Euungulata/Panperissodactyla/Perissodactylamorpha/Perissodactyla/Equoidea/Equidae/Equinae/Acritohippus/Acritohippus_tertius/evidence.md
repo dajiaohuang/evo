@@ -9,7 +9,6 @@ records:
     name:
       zh: Acritohippus tertius
       en: Acritohippus tertius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

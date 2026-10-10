@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelyoposuchus crassisquamatus
       en: Chelyoposuchus crassisquamatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

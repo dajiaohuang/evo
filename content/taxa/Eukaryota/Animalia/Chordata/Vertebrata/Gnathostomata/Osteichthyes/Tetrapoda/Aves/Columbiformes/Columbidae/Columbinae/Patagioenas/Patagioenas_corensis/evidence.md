@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagioenas corensis
       en: Patagioenas corensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

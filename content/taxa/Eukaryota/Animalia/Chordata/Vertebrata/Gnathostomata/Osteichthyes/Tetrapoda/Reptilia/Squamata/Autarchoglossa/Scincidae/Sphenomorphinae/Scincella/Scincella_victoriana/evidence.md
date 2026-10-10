@@ -9,7 +9,6 @@ records:
     name:
       zh: Scincella victoriana
       en: Scincella victoriana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

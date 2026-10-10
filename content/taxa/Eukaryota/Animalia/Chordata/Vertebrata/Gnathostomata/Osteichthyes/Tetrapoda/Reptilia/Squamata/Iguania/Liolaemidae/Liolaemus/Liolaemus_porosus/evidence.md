@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus porosus
       en: Liolaemus porosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

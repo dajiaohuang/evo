@@ -9,7 +9,6 @@ records:
     name:
       zh: Microlophus theresiae
       en: Microlophus theresiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

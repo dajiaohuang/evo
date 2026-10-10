@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus spurcus
       en: Phymaturus spurcus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

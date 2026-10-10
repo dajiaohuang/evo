@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis javanicus
       zh: Ichthyophis javanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

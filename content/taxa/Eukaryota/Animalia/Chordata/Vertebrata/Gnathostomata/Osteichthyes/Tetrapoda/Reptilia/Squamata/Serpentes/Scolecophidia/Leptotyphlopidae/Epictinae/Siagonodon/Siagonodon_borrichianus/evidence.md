@@ -9,7 +9,6 @@ records:
     name:
       zh: Siagonodon borrichianus
       en: Siagonodon borrichianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

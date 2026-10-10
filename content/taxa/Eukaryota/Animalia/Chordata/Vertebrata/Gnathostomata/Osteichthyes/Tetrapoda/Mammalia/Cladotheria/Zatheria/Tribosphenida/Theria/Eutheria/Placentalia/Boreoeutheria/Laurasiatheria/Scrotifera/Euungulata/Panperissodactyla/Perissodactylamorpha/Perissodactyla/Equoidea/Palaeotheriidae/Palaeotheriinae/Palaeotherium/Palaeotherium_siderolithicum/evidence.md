@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeotherium siderolithicum
       en: Palaeotherium siderolithicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

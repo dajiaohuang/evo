@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptagama aurita
       en: Cryptagama aurita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

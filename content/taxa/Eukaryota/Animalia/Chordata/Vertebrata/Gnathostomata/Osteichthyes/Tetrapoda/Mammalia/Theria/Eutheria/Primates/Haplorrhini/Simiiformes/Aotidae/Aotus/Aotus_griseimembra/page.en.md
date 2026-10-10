@@ -22,5 +22,5 @@ In that group, fruits were the principal food and the monkeys spent about 48% of
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Behavior, diet and space-use statements come from one habituated group at one lowland site during a bounded study period; they are not species-wide averages or a complete ecological account. This page is not externally expert-reviewed.
+Behavior, diet and space-use statements come from one habituated group at one lowland site during a bounded study period; they are not species-wide averages or a complete ecological account. This page is.
 <!-- /evo:text -->

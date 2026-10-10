@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus megacephalus
       zh: Anomaloglossus megacephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

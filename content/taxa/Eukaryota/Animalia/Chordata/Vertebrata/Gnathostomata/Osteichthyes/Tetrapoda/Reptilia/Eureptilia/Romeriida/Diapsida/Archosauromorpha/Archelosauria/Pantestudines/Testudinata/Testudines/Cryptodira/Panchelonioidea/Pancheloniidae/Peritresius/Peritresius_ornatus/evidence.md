@@ -9,7 +9,6 @@ records:
     name:
       zh: Peritresius ornatus
       en: Peritresius ornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

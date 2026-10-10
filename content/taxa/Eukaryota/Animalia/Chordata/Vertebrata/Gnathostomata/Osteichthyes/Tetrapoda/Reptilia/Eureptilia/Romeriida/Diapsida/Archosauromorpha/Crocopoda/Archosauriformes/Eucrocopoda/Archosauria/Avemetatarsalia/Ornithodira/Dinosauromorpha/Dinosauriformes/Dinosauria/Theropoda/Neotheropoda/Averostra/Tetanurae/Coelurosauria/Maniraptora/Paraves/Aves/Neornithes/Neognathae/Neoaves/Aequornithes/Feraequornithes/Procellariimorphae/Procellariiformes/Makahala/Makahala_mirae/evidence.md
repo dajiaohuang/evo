@@ -9,7 +9,6 @@ records:
     name:
       zh: Makahala mirae
       en: Makahala mirae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

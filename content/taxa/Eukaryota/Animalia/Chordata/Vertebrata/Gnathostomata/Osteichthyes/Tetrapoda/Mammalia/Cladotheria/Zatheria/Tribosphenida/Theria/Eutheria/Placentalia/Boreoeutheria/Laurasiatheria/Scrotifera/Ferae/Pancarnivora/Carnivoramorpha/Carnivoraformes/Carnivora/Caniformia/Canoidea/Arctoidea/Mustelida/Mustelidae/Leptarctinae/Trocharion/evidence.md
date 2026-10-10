@@ -9,7 +9,6 @@ records:
     name:
       zh: Trocharion
       en: Trocharion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

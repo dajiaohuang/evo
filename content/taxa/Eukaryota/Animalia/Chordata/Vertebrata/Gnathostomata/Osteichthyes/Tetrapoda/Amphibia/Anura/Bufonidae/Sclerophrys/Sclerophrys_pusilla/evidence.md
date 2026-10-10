@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys pusilla
       zh: Sclerophrys pusilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

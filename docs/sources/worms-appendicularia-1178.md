@@ -23,4 +23,4 @@ python -B scripts/test-appendicularia-source.py
 npm exec vitest -- run scripts/build-appendicularia-source.test.mjs
 ```
 
-The `web-light` profile publishes only descriptor/count/inventory metadata for this extension. The `native-full` profile includes the one complete 68-record gzip shard. The compressed shard is 21,044 bytes and its uncompressed JSON source projection is 495,089 bytes. This archive projection is an authority crosswalk, not a biological dossier, fossil evidence, phylogeny or expert review.
+The `web-light` profile publishes only descriptor/count/inventory metadata for this extension. The `native-full` profile includes the one complete 68-record gzip shard. The compressed shard is 21,044 bytes and its uncompressed JSON source projection is 495,089 bytes. This archive projection is an authority crosswalk, not a biological dossier, fossil evidence, phylogeny.

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon solivagus
       en: Lycodon solivagus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

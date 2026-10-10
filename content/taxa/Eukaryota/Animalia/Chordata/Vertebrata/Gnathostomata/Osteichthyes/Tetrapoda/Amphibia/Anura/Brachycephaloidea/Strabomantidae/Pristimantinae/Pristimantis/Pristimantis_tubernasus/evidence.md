@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis tubernasus
       zh: Pristimantis tubernasus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

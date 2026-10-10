@@ -9,7 +9,6 @@ records:
     name:
       zh: Lapparentemys vilavilensis
       en: Lapparentemys vilavilensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

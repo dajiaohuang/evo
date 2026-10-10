@@ -9,7 +9,6 @@ records:
     name:
       zh: Styriofelis turnauensis
       en: Styriofelis turnauensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

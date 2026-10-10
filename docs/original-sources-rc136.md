@@ -2,8 +2,7 @@
 
 RC136 adds three frozen nomenclatural source projections to the `other-animals`
 resource pack. They improve source traceability without changing the
-2,183,133-species COL26.8 baseline or claiming species-concept equivalence,
-expert review, biological dossiers, fossils or complete historical synonymy.
+2,183,133-species COL26.8 baseline or claiming species-concept equivalence, biological dossiers, fossils or complete historical synonymy.
 
 ## Frozen inputs
 

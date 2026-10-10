@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhadinella hannsteini
       en: Rhadinella hannsteini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

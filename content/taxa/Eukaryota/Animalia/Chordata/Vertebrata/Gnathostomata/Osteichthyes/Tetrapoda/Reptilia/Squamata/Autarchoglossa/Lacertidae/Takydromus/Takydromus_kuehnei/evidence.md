@@ -9,7 +9,6 @@ records:
     name:
       zh: Takydromus kuehnei
       en: Takydromus kuehnei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

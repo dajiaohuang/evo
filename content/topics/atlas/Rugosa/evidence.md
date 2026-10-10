@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: webb-1996-paleozoic-corals
       referenceLinks:
         - referenceId: webb-1996-paleozoic-corals
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: oliver-1996-paleozoic-corals locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: oliver-1996-paleozoic-corals
@@ -95,7 +89,6 @@ records:
           locator: p. 107 Abstract; pp. 107–110; Middle Ordovician to end-Permian Rugosa synthesis
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

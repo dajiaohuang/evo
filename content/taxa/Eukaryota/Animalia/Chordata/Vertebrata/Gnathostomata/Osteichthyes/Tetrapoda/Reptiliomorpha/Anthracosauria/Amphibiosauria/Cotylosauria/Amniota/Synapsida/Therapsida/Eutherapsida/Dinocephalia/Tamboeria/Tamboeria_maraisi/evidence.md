@@ -9,7 +9,6 @@ records:
     name:
       zh: Tamboeria maraisi
       en: Tamboeria maraisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

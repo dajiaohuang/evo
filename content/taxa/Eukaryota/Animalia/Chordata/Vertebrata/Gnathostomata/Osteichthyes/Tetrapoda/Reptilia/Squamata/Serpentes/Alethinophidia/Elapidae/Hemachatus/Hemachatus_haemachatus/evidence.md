@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemachatus haemachatus
       en: Hemachatus haemachatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

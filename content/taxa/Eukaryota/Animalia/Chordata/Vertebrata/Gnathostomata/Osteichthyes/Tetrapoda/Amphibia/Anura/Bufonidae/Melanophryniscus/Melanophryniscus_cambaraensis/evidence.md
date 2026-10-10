@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus cambaraensis
       zh: Melanophryniscus cambaraensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

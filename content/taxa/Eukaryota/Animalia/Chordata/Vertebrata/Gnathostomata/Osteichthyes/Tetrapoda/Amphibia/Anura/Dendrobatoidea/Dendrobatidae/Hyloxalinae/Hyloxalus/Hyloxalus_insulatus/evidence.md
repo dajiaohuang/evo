@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus insulatus
       zh: Hyloxalus insulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

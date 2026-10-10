@@ -9,7 +9,6 @@ records:
     name:
       zh: Balaenoptera borealis
       en: Balaenoptera borealis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

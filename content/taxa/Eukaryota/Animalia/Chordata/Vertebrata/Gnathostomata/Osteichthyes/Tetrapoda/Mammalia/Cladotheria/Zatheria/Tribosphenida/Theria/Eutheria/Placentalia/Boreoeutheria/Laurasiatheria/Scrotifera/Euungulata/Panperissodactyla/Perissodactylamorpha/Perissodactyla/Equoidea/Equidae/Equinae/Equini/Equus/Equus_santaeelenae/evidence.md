@@ -9,7 +9,6 @@ records:
     name:
       zh: Equus santaeelenae
       en: Equus santaeelenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

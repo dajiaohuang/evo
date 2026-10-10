@@ -75,7 +75,7 @@ export const marineZh: Record<string, string> = {
   "Egg and embryo counts do not by themselves demonstrate parental care or post-hatching flight capacity.": "卵和胚胎数量本身不能证明亲代照料或孵化后飞行能力。",
   "Quadrupedal launch is a feasibility model": "四足起飞是一种可行性模型",
   "Scaling, bone mechanics and aerodynamic calculations make powered flight and forelimb-assisted launch feasible for sampled giant-pterosaur reconstructions. The model is not direct observation of an extinct takeoff.": "尺度分析、骨力学和空气动力计算表明，取样巨型翼龙复原可实现动力飞行及前肢辅助起飞。该模型不是对灭绝动物起飞的直接观察。",
-  "COL26.8 contributes zero accepted species through these fossil-root routes; naming coverage and dossier maturity are independent, and the three radiations remain separate.": "COL26.8 通过这些化石根路由贡献零个接受种；命名覆盖与档案成熟度彼此独立，三次辐射也保持分开。",
+  "COL26.8 contributes zero accepted species through these fossil-root routes; naming coverage does not establish species-specific evidence, and the three radiations remain separate.": "COL26.8 通过这些化石根路由贡献零个接受种；命名覆盖不能建立逐物种生物学证据，三次辐射也保持分开。",
   "Short-snouted Ichthyosauromorph": "短吻鱼龙形类",
   "Chaohu Ichthyosaur": "巢湖鱼龙",
   "Narrow-fin Ichthyosaur": "狭翼鱼龙",

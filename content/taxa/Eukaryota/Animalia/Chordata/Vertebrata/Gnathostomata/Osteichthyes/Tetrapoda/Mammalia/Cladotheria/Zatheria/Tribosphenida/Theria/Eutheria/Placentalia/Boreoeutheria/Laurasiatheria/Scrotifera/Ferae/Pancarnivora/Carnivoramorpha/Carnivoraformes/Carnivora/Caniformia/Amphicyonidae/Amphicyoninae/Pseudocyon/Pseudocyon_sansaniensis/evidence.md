@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocyon sansaniensis
       en: Pseudocyon sansaniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

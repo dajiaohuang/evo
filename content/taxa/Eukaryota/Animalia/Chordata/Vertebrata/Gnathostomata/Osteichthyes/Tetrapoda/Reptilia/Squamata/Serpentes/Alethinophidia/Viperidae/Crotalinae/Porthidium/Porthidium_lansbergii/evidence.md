@@ -9,7 +9,6 @@ records:
     name:
       zh: Porthidium lansbergii
       en: Porthidium lansbergii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

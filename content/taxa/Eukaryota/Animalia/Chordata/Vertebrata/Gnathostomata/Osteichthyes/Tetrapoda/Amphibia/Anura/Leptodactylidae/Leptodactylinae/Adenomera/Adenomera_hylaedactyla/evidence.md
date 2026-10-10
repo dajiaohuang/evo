@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera hylaedactyla
       zh: Adenomera hylaedactyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

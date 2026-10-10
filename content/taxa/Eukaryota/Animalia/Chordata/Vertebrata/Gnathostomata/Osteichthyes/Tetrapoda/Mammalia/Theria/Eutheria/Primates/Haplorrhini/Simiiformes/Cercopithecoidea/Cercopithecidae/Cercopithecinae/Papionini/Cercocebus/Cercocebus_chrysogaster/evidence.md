@@ -9,7 +9,6 @@ records:
     name:
       en: Golden-bellied Mangabey
       zh: 金腹白眼丛猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

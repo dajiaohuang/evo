@@ -9,7 +9,6 @@ records:
     name:
       zh: Kupoupou stilwelli
       en: Kupoupou stilwelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

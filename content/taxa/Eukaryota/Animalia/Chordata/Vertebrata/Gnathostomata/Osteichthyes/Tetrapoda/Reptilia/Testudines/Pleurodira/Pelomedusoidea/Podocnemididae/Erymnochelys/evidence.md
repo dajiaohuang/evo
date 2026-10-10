@@ -9,7 +9,6 @@ records:
     name:
       zh: Erymnochelys 属
       en: Erymnochelys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

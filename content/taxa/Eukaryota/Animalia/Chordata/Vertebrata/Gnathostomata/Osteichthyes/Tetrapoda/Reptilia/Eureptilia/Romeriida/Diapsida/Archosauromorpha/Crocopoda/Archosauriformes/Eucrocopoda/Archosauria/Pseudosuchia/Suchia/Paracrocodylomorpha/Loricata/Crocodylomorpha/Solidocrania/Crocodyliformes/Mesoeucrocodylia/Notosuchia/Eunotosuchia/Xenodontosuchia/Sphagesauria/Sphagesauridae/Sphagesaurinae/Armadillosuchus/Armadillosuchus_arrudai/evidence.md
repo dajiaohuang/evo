@@ -9,7 +9,6 @@ records:
     name:
       zh: Armadillosuchus arrudai
       en: Armadillosuchus arrudai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

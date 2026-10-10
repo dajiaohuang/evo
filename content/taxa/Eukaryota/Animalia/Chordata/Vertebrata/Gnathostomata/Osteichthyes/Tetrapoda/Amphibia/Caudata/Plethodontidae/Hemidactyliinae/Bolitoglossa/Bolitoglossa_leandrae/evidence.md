@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa leandrae
       zh: Bolitoglossa leandrae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

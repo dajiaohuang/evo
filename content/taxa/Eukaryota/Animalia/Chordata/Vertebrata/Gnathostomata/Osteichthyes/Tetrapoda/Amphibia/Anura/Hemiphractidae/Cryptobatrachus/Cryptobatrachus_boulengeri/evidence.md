@@ -9,7 +9,6 @@ records:
     name:
       en: Cryptobatrachus boulengeri
       zh: Cryptobatrachus boulengeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lymnocryptes minimus
       en: Lymnocryptes minimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Sachatamia orejuela
       zh: Sachatamia orejuela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

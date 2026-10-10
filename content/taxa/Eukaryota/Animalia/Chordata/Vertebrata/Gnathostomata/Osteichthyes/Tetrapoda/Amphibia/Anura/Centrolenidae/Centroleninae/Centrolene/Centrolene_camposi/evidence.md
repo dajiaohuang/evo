@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene camposi
       zh: Centrolene camposi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

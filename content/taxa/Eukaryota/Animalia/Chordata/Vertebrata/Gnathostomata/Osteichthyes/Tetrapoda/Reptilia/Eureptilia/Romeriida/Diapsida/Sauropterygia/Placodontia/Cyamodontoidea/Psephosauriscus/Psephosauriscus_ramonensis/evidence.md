@@ -9,7 +9,6 @@ records:
     name:
       zh: Psephosauriscus ramonensis
       en: Psephosauriscus ramonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

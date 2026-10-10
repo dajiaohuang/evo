@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinocerotinae
       en: Rhinocerotinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis epacrus
       zh: Pristimantis epacrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

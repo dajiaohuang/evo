@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutreptornis uintae
       en: Eutreptornis uintae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

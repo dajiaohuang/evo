@@ -9,7 +9,6 @@ records:
     name:
       zh: Ferganodon naryensis
       en: Ferganodon naryensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

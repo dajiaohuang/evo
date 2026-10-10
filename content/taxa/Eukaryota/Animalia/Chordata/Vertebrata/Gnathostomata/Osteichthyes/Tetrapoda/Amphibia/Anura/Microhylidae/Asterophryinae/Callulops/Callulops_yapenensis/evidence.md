@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops yapenensis
       zh: Callulops yapenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

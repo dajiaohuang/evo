@@ -16,5 +16,5 @@ Marsh elevated Vanzolini's bald-faced saki from a subspecies of P. irrorata in 2
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The conclusion comes from pelage comparisons of historical museum skins; it does not directly establish current range, reproductive isolation or population status. The Chinese name is editorial; this page has not received external expert review. This page is not externally expert-reviewed.
+The conclusion comes from pelage comparisons of historical museum skins; it does not directly establish current range, reproductive isolation or population status. The Chinese name is editorial. This page is.
 <!-- /evo:text -->

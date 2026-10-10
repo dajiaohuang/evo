@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus bothroboans
       zh: Eleutherodactylus bothroboans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

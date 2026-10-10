@@ -45,8 +45,8 @@ This batch’s Dermochelys route includes 1 historical life-history accounts; st
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked, focused morphology and methods guide; no external expert review and no complete species dossier. Geography, diet, behavior, body size, reproduction, population trends and current conservation status are unknown here. No global first or last appearance, ancestry or fossil range is asserted. The source's character coding is a study design, not a complete account of variation across ages or populations.
-This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+Source-linked, focused morphology and methods guide; Geography, diet, behavior, body size, reproduction, population trends and current conservation status are unknown here. No global first or last appearance, ancestry or fossil range is asserted. The source's character coding is a study design, not a complete account of variation across ages or populations.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 <!-- /evo:text -->

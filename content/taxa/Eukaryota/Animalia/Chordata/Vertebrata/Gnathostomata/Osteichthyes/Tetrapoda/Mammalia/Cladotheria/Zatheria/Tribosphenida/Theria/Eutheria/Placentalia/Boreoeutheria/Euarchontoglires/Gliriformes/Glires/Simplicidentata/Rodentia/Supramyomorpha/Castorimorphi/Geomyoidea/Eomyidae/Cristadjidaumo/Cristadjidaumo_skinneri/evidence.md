@@ -9,7 +9,6 @@ records:
     name:
       zh: Cristadjidaumo skinneri
       en: Cristadjidaumo skinneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

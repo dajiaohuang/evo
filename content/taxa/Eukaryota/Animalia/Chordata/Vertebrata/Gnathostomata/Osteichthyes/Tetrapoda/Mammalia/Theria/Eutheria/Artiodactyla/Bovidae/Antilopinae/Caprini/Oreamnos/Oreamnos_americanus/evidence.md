@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreamnos americanus
       en: Oreamnos americanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

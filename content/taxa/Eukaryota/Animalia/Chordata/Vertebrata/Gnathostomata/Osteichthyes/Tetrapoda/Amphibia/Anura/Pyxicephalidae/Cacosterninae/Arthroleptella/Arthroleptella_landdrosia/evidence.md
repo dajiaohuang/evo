@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptella landdrosia
       zh: Arthroleptella landdrosia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

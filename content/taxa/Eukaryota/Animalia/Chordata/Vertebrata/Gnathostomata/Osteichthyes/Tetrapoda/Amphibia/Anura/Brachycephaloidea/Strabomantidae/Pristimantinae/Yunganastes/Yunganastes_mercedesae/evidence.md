@@ -9,7 +9,6 @@ records:
     name:
       en: Yunganastes mercedesae
       zh: Yunganastes mercedesae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

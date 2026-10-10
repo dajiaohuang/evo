@@ -9,7 +9,6 @@ records:
     name:
       zh: Alticonodon lindoei
       en: Alticonodon lindoei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

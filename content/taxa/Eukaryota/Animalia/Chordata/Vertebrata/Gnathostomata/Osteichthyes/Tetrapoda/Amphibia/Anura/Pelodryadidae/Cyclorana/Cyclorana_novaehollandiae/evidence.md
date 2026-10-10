@@ -9,7 +9,6 @@ records:
     name:
       en: Cyclorana novaehollandiae
       zh: Cyclorana novaehollandiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

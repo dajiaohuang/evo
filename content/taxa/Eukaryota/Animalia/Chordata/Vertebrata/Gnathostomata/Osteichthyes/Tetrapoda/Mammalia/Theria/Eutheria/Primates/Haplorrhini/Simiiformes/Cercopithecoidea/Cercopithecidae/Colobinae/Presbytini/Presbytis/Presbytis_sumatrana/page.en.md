@@ -22,5 +22,5 @@ This is a local study in forest near an industrial area. It does not establish h
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The main ecological evidence is a local study in a 2024 bachelor's thesis, not a species-wide survey. This page has not received external expert review. This page is not externally expert-reviewed.
+The main ecological evidence is a local study in a 2024 bachelor's thesis, not a species-wide survey. This page. This page is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xiphodon intermedium
       en: Xiphodon intermedium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

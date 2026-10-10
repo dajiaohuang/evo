@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegodon miensis
       en: Stegodon miensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

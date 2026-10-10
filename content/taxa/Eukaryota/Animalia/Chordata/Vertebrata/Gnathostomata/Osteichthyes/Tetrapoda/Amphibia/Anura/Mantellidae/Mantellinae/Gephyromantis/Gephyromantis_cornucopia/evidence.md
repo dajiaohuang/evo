@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis cornucopia
       zh: Gephyromantis cornucopia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

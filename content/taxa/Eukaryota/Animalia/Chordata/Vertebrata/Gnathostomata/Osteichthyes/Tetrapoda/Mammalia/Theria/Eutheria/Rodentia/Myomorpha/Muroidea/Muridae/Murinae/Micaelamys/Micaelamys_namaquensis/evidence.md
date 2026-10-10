@@ -9,7 +9,6 @@ records:
     name:
       zh: Micaelamys namaquensis
       en: Micaelamys namaquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

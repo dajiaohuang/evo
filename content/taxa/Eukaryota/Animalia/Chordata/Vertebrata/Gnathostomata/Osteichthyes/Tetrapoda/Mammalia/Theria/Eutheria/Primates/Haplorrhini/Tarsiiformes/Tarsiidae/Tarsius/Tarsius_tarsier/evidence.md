@@ -9,7 +9,6 @@ records:
     name:
       en: Selayar Tarsier
       zh: 塞拉亚眼镜猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: taxonomy

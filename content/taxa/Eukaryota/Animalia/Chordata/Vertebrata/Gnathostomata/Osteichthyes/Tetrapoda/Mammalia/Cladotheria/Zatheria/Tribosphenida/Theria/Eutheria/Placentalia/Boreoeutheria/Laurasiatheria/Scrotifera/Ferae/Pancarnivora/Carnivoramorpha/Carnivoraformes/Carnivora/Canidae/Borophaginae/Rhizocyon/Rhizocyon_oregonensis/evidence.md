@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhizocyon oregonensis
       en: Rhizocyon oregonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

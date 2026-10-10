@@ -16,7 +16,7 @@ COL26.8 genus ID 7BP7 now links selected Saguinus pages for S. bicolor (4TZBJ), 
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This guide connects the matrix in Supplementary Table S1 of Mourthé et al. (2022) with local Gurupi survey methods; it is not a complete natural-history or range review. Range-map overlap is not point-level field confirmation; main-text Table 2 has inconsistent 80/81 totals and 57%/58% reporting. This guide is not externally expert-reviewed.
+This guide connects the matrix in Supplementary Table S1 of Mourthé et al. (2022) with local Gurupi survey methods; it is not a complete natural-history or range review. Range-map overlap is not point-level field confirmation; main-text Table 2 has inconsistent 80/81 totals and 57%/58% reporting. This guide is.
 <!-- /evo:text -->
 
 ## Separate group records from animal counts

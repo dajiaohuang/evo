@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina macrops
       zh: Xenorhina macrops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

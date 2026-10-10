@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia altissima
       zh: Uperoleia altissima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

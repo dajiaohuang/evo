@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilecebus carrascoensis
       en: Chilecebus carrascoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

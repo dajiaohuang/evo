@@ -9,7 +9,6 @@ records:
     name:
       zh: Durudawiri inusitatus
       en: Durudawiri inusitatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

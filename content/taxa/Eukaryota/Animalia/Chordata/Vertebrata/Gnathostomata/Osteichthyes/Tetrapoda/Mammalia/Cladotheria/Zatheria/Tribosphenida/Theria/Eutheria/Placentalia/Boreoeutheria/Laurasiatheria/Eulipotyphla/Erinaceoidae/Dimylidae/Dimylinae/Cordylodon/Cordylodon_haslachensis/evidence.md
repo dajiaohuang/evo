@@ -9,7 +9,6 @@ records:
     name:
       zh: Cordylodon haslachensis
       en: Cordylodon haslachensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

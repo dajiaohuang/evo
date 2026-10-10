@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoebastria 属
       en: Phoebastria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

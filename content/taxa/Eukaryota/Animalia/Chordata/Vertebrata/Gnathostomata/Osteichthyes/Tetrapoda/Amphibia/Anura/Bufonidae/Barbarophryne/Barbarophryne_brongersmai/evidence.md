@@ -9,7 +9,6 @@ records:
     name:
       en: Barbarophryne brongersmai
       zh: Barbarophryne brongersmai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

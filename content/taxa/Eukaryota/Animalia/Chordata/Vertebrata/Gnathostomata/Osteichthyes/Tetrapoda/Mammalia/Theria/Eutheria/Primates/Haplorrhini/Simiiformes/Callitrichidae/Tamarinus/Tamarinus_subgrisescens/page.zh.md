@@ -22,5 +22,5 @@ Pando 省四个月的灵长类调查曾以 *Saguinus imperator* 记录群体大�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-地方野外研究使用旧亚种组合；分类研究支持种级区分，但接触区及杂交状态未知。不得把旧 *S. imperator* 全部记录都重分配给本种。双语初稿尚未经过外部领域专家评审。
+地方野外研究使用旧亚种组合；分类研究支持种级区分，但接触区及杂交状态未知。不得把旧 *S. imperator* 全部记录都重分配给本种。。
 <!-- /evo:text -->

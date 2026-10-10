@@ -9,7 +9,6 @@ records:
     name:
       zh: Goggia matzikamaensis
       en: Goggia matzikamaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

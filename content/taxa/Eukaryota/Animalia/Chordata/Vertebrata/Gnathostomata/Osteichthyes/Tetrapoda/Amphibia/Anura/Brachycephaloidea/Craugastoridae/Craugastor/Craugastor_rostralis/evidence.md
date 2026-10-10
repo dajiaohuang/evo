@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor rostralis
       zh: Craugastor rostralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

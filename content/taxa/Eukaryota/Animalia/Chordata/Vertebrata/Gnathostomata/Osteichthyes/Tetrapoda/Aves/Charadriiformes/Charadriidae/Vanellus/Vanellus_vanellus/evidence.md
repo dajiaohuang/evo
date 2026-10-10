@@ -9,7 +9,6 @@ records:
     name:
       zh: Vanellus vanellus
       en: Vanellus vanellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipestoneomys pattersoni
       en: Pipestoneomys pattersoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

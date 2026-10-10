@@ -9,7 +9,6 @@ records:
     name:
       zh: Anconodon cochranensis
       en: Anconodon cochranensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

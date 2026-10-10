@@ -10,7 +10,6 @@ records:
     name:
       en: Western tarsier genus
       zh: 西方眼镜猴属
-    reviewStatus: source-linked
     sections:
       - topic: readingPath
         text:

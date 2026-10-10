@@ -9,7 +9,6 @@ records:
     name:
       en: Pelobatrachus baluensis
       zh: Pelobatrachus baluensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

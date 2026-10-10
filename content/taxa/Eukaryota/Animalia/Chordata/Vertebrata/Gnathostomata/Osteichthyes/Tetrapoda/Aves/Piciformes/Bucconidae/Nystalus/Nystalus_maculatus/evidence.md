@@ -9,7 +9,6 @@ records:
     name:
       zh: Nystalus maculatus
       en: Nystalus maculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

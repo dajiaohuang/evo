@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramyidae
       en: Paramyidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

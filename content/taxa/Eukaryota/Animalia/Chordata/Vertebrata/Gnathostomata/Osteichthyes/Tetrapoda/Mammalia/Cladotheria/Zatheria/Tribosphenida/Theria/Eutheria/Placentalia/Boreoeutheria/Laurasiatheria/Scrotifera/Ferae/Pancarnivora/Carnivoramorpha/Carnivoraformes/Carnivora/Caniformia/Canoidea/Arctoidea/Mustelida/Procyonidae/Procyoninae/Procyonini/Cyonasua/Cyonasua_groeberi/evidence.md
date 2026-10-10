@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyonasua groeberi
       en: Cyonasua groeberi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus manduriacu
       zh: Nymphargus manduriacu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

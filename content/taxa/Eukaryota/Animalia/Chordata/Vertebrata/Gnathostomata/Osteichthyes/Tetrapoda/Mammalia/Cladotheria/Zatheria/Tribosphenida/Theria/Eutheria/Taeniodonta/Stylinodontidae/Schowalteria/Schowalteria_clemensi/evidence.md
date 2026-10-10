@@ -9,7 +9,6 @@ records:
     name:
       zh: Schowalteria clemensi
       en: Schowalteria clemensi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

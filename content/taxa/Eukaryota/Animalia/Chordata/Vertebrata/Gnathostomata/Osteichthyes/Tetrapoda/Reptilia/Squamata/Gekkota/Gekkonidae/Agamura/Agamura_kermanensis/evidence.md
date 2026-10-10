@@ -9,7 +9,6 @@ records:
     name:
       zh: Agamura kermanensis
       en: Agamura kermanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

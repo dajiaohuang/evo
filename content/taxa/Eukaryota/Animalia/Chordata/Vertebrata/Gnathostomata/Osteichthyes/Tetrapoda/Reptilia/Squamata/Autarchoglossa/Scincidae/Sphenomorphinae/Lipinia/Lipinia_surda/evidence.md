@@ -9,7 +9,6 @@ records:
     name:
       zh: Lipinia surda
       en: Lipinia surda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

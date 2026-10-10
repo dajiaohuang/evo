@@ -9,7 +9,6 @@ records:
     name:
       zh: Geophis annuliferus
       en: Geophis annuliferus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

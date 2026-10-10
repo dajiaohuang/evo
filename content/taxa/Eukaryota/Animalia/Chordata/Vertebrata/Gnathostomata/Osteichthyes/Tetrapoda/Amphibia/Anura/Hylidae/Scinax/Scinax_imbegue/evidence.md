@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax imbegue
       zh: Scinax imbegue
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

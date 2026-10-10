@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus personatus
       en: Pteropus personatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

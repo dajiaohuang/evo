@@ -9,7 +9,6 @@ records:
     name:
       zh: Norellius nyctisaurops
       en: Norellius nyctisaurops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

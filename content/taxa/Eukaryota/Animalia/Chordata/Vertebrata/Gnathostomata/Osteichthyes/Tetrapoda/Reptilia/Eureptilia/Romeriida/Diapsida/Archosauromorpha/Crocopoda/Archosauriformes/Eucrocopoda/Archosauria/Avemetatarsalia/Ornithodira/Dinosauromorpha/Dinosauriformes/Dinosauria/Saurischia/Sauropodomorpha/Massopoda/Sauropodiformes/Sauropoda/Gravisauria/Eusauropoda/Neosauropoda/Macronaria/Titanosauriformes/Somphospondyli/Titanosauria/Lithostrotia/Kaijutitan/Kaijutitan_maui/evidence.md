@@ -9,7 +9,6 @@ records:
     name:
       zh: Kaijutitan maui
       en: Kaijutitan maui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

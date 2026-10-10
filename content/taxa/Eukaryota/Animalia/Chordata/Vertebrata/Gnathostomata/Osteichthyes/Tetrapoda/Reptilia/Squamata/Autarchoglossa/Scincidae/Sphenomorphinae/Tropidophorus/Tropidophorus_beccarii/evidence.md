@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidophorus beccarii
       en: Tropidophorus beccarii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

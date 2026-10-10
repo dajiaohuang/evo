@@ -9,7 +9,6 @@ records:
     name:
       zh: Teleidosaurus calvadosii
       en: Teleidosaurus calvadosii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

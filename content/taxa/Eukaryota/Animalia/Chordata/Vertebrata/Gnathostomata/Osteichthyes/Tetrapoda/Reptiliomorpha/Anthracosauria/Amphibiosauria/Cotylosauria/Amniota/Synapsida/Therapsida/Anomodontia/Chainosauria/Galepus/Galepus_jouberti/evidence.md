@@ -9,7 +9,6 @@ records:
     name:
       zh: Galepus jouberti
       en: Galepus jouberti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geranospiza caerulescens
       en: Geranospiza caerulescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

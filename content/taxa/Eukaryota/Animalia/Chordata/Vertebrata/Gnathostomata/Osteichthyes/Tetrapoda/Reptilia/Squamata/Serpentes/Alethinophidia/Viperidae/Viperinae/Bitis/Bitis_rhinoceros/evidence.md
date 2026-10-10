@@ -9,7 +9,6 @@ records:
     name:
       zh: Bitis rhinoceros
       en: Bitis rhinoceros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

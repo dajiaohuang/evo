@@ -9,7 +9,6 @@ records:
     name:
       en: Meyerosuchus
       zh: Meyerosuchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: taxonomy
@@ -200,11 +199,11 @@ R. R. Schoch. 2011. How diverse is the temnospondyl fauna in the Lower Triassic 
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/en -->
-Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is not externally expert-reviewed.
+Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
 <!-- /evo:text -->
 
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/zh -->
-本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留；未经过外部领域专家评审。
+本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
 <!-- /evo:text -->

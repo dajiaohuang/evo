@@ -22,5 +22,5 @@ The type locality is Zombitse National Park in Madagascar. The authors summarize
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This guide uses the 2006 species description, a limited specimen series, and mitochondrial fragments; it does not provide a current population or conservation assessment. The COL26.8 accepted name is retained. The Chinese common name is editorial, and this guide is not externally expert-reviewed.
+This guide uses the 2006 species description, a limited specimen series, and mitochondrial fragments; it does not provide a current population or conservation assessment. The COL26.8 accepted name is retained. The Chinese common name is editorial, and this guide is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvavis
       en: Parvavis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

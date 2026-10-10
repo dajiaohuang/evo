@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla siopela
       zh: Sarcohyla siopela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

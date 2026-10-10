@@ -9,7 +9,6 @@ records:
     name:
       zh: Anisognathus lacrymosus
       en: Anisognathus lacrymosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

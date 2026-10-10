@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus omari
       en: Stenocercus omari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

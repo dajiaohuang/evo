@@ -9,7 +9,6 @@ records:
     name:
       zh: Casuarius casuarius
       en: Casuarius casuarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: genomeMaterial

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis guazuma
       en: Anolis guazuma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

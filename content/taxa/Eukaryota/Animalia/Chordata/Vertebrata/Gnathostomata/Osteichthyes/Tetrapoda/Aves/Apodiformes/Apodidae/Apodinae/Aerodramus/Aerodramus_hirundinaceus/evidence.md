@@ -9,7 +9,6 @@ records:
     name:
       zh: Aerodramus hirundinaceus
       en: Aerodramus hirundinaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

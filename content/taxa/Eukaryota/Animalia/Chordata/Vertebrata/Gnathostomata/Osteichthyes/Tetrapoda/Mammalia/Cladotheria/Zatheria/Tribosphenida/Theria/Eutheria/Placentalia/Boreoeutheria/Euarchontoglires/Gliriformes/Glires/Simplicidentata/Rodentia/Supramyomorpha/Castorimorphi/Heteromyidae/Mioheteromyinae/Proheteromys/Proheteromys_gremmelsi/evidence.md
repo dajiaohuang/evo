@@ -9,7 +9,6 @@ records:
     name:
       zh: Proheteromys gremmelsi
       en: Proheteromys gremmelsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

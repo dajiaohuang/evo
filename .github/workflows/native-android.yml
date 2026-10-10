@@ -1,9 +1,7 @@
 name: Native Android
 
 on:
-  pull_request:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -15,6 +13,8 @@ concurrency:
 jobs:
   android-build:
     runs-on: ubuntu-latest
+    env:
+      NODE_OPTIONS: --max-old-space-size=8192
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v7

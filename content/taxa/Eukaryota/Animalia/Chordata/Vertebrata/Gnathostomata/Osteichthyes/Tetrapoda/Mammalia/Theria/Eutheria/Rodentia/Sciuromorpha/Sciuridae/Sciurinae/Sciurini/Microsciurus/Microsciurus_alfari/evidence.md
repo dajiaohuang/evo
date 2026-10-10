@@ -9,7 +9,6 @@ records:
     name:
       zh: Microsciurus alfari
       en: Microsciurus alfari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

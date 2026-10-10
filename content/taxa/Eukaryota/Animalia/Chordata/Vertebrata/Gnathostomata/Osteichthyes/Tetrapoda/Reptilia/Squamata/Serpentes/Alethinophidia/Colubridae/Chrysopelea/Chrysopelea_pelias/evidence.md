@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysopelea pelias
       en: Chrysopelea pelias
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

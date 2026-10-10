@@ -9,7 +9,6 @@ records:
     name:
       zh: Caliechthrus leucolophus
       en: Caliechthrus leucolophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

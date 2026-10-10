@@ -9,7 +9,6 @@ records:
     name:
       zh: Syndactyla roraimae
       en: Syndactyla roraimae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

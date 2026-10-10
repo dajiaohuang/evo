@@ -9,7 +9,6 @@ records:
     name:
       zh: Stratimus strobeli
       en: Stratimus strobeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 山貘
       en: Mountain tapir
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Platalearostrum hoekmani
       en: Platalearostrum hoekmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

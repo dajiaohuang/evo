@@ -9,7 +9,6 @@ records:
     name:
       zh: 貘科
       en: Tapir family
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

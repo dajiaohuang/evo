@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypertragulus crawfordensis
       en: Hypertragulus crawfordensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus bordai
       en: Phyllodactylus bordai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

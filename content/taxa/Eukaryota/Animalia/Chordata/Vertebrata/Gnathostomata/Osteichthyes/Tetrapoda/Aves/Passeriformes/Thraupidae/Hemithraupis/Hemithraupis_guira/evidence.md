@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemithraupis guira
       en: Hemithraupis guira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

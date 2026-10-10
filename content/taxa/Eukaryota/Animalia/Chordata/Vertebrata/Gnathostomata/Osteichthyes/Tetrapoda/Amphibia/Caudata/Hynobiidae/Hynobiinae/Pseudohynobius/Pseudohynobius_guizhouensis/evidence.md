@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudohynobius guizhouensis
       zh: Pseudohynobius guizhouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

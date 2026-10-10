@@ -9,7 +9,6 @@ records:
     name:
       zh: Pitekunsaurus macayai
       en: Pitekunsaurus macayai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

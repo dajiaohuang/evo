@@ -9,7 +9,6 @@ records:
     name:
       en: Boulengerula taitana
       zh: Boulengerula taitana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

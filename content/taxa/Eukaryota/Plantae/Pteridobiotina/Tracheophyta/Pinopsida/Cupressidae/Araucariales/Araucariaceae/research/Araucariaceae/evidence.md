@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: escapa-catalano-2013-araucariaceae
       referenceLinks:
         - referenceId: escapa-catalano-2013-araucariaceae
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: axsmith-2008-holyoke-araucaria locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: axsmith-2008-holyoke-araucaria
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Escapa and Catalano 2013 DOI 10.1086/672369
       referenceLinks:
         - referenceId: escapa-catalano-2013-araucariaceae
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Axsmith, Escapa and Huber 2008 Palaeontologia Electronica 11.3.13A
       referenceLinks:
         - referenceId: axsmith-2008-holyoke-araucaria
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Axsmith, Escapa and Huber 2008 Palaeontologia Electronica 11.3.13A
       referenceLinks:
         - referenceId: axsmith-2008-holyoke-araucaria
           relation: supports
@@ -165,9 +150,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Axsmith et al. 2008 Palaeontologia Electronica 11.3.13A; Escapa and Catalano 2013 DOI 10.1086/672369
       referenceLinks:
         - referenceId: axsmith-2008-holyoke-araucaria
           relation: supports
@@ -228,7 +210,6 @@ records:
       referenceLocators:
         - referenceId: axsmith-2008-holyoke-araucaria
           locator: Abstract; Materials and Methods “Locality and Geological Setting”; Figure 2; Discussion; Hettangian specimen J 1430
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

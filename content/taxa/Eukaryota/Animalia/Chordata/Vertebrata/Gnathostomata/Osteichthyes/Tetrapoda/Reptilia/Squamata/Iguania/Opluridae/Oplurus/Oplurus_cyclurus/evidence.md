@@ -9,7 +9,6 @@ records:
     name:
       zh: Oplurus cyclurus
       en: Oplurus cyclurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

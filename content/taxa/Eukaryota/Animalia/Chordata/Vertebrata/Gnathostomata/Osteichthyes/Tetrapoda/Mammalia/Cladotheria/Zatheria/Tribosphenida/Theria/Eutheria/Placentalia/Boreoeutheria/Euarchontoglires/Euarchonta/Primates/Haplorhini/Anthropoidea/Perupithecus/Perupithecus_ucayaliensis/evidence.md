@@ -9,7 +9,6 @@ records:
     name:
       zh: Perupithecus ucayaliensis
       en: Perupithecus ucayaliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

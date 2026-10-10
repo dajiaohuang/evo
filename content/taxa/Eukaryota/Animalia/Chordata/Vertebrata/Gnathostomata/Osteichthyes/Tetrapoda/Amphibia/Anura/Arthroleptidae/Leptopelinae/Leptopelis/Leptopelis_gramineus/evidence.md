@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis gramineus
       zh: Leptopelis gramineus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

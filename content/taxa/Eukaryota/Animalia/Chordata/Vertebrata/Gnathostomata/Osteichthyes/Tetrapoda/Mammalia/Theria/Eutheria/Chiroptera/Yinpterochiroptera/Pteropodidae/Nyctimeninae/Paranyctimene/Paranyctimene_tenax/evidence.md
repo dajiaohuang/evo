@@ -9,7 +9,6 @@ records:
     name:
       zh: Paranyctimene tenax
       en: Paranyctimene tenax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

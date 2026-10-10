@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis samaipatae
       zh: Pristimantis samaipatae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

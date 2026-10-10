@@ -9,7 +9,6 @@ records:
     name:
       zh: Gondwanasuchus scabrosus
       en: Gondwanasuchus scabrosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

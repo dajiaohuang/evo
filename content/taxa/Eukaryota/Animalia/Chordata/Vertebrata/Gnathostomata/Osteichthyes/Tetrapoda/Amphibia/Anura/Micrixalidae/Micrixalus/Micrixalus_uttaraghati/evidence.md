@@ -9,7 +9,6 @@ records:
     name:
       en: Micrixalus uttaraghati
       zh: Micrixalus uttaraghati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

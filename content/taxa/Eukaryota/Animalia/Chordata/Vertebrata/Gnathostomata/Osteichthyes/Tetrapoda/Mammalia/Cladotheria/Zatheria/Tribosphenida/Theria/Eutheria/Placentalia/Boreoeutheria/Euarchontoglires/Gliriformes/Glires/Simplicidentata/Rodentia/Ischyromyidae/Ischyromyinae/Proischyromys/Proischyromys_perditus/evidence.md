@@ -9,7 +9,6 @@ records:
     name:
       zh: Proischyromys perditus
       en: Proischyromys perditus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Poicephalus gulielmi
       en: Poicephalus gulielmi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

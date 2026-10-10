@@ -9,7 +9,6 @@ records:
     name:
       zh: Namazonurus lawrenci
       en: Namazonurus lawrenci
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

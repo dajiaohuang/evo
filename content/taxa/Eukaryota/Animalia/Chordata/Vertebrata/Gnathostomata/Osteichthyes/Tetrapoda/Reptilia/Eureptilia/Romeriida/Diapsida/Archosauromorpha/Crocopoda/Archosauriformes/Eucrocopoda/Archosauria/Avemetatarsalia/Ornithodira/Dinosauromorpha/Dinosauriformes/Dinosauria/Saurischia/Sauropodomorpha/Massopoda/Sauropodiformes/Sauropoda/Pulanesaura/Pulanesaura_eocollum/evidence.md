@@ -9,7 +9,6 @@ records:
     name:
       zh: Pulanesaura eocollum
       en: Pulanesaura eocollum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

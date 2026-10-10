@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus semiremex
       en: Varanus semiremex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

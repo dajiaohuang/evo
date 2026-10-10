@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus andinus
       zh: Atelopus andinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

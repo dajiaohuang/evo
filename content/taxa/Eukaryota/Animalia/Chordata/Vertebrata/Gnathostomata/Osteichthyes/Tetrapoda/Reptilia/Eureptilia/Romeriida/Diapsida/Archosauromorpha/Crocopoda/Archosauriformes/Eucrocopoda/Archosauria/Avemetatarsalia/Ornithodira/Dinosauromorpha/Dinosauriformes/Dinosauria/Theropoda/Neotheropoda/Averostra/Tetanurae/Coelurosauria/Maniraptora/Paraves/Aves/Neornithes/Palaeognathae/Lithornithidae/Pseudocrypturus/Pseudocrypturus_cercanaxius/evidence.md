@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocrypturus cercanaxius
       en: Pseudocrypturus cercanaxius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

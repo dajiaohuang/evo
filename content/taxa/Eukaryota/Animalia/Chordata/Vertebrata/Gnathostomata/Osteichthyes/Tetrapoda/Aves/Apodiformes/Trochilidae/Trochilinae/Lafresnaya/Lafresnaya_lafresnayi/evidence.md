@@ -9,7 +9,6 @@ records:
     name:
       zh: Lafresnaya lafresnayi
       en: Lafresnaya lafresnayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

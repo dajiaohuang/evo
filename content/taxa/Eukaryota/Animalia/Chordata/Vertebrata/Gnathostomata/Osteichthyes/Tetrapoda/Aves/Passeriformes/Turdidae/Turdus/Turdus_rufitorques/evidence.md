@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdus rufitorques
       en: Turdus rufitorques
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

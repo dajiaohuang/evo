@@ -9,7 +9,6 @@ records:
     name:
       zh: Capra sibirica
       en: Capra sibirica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

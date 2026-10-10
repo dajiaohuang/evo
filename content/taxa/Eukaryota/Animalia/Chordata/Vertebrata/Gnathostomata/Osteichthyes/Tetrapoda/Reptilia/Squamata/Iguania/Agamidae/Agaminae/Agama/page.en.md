@@ -36,7 +36,7 @@ This batch’s Agama route includes 13 historical life-history accounts; start w
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 Name correspondence is based on the accepted catalogue usage and synonym list, not specimen reidentification. The vertebral study does not cover every descendant, individual or life-history stage. Distribution, behaviour, conservation status and validated taxonomic diagnoses lie outside this page’s source scope.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 <!-- /evo:text -->
 
 ## Start with sourced trait records

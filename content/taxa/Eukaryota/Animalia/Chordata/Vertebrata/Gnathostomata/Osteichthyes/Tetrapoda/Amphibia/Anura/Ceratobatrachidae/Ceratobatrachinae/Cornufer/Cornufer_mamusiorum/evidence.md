@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer mamusiorum
       zh: Cornufer mamusiorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

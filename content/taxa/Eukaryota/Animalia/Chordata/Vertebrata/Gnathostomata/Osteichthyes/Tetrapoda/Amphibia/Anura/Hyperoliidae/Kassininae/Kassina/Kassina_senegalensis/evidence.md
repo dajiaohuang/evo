@@ -9,7 +9,6 @@ records:
     name:
       en: Kassina senegalensis
       zh: Kassina senegalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

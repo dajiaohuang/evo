@@ -9,7 +9,6 @@ records:
     name:
       zh: 西伯鲁叶猴
       en: Siberut Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

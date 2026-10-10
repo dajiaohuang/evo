@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius constellatus
       zh: Hyperolius constellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

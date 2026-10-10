@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla psittaca
       en: Tantilla psittaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

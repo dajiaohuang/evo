@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhabdodon priscus
       en: Rhabdodon priscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus amoenus
       en: Phylloscopus amoenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenodacnis parina
       en: Xenodacnis parina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

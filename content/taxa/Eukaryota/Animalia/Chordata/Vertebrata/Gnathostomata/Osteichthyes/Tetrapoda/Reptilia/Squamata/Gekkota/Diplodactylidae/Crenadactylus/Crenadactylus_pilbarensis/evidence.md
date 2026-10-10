@@ -9,7 +9,6 @@ records:
     name:
       zh: Crenadactylus pilbarensis
       en: Crenadactylus pilbarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -35,7 +35,7 @@ The WoRMS importer inspects parent closure for **all** archive Species rows with
 - Only an exact trailing COL authorship suffix is stripped. WoRMS explicitly normalises whitespace for comparison while preserving original fields; OSF compares source text exactly. Neither importer folds case/accents, removes subgenera, fuzzy-matches names or asserts concept equivalence.
 - The existing runtime emits source summaries and complete canonical inventories for `web-light`, with no new archive row shards. `native-full` includes every listed COL and source-only shard. Default-collapsed catalogue details fetch at most one COL interval; source-only browsing is separately opt-in.
 
-Canonical descriptors live under the corresponding package's `nomenclature/` directory. The WoRMS and OSF import ledgers in `data/sources/` retain member hashes and acquisition provenance; descriptor counts are the machine-readable outcome totals. Existing source, Pages and native capacity limits remain unchanged. No human or external domain-expert review status is promoted.
+Canonical descriptors live under the corresponding package's `nomenclature/` directory. The WoRMS and OSF import ledgers in `data/sources/` retain member hashes and acquisition provenance; descriptor counts are the machine-readable outcome totals. Existing source, Pages and native capacity limits remain unchanged. No human status is promoted.
 
 ## Reproduce
 

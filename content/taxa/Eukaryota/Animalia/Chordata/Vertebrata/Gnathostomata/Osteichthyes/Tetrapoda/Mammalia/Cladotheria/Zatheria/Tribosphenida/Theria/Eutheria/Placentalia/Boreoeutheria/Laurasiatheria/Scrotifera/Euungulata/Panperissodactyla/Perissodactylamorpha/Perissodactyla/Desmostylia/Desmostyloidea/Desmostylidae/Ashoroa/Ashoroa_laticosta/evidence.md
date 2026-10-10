@@ -9,7 +9,6 @@ records:
     name:
       zh: Ashoroa laticosta
       en: Ashoroa laticosta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

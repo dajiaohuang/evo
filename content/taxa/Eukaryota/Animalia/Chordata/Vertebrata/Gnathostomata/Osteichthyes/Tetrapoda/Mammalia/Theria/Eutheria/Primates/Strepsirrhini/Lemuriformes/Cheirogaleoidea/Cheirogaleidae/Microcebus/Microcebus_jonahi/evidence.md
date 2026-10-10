@@ -9,7 +9,6 @@ records:
     name:
       zh: 乔纳鼠狐猴
       en: Jonah's Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: overview

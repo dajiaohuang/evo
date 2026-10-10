@@ -9,7 +9,6 @@ records:
     name:
       zh: Aenigmys diamantensis
       en: Aenigmys diamantensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lamprolithax simulans
       en: Lamprolithax simulans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

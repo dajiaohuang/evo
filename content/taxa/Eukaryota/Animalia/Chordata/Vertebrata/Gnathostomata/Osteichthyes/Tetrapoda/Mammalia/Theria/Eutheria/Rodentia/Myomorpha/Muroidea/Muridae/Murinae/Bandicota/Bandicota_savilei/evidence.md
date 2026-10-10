@@ -9,7 +9,6 @@ records:
     name:
       zh: Bandicota savilei
       en: Bandicota savilei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

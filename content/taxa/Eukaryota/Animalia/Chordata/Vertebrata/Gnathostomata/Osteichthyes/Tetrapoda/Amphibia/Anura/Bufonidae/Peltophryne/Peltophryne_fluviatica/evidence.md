@@ -9,7 +9,6 @@ records:
     name:
       en: Peltophryne fluviatica
       zh: Peltophryne fluviatica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

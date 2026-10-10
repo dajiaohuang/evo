@@ -9,7 +9,6 @@ records:
     name:
       zh: Lachesis muta
       en: Lachesis muta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

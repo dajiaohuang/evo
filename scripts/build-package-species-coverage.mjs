@@ -59,8 +59,8 @@ const STATIC_ZERO_REASONS = {
   'marine-reptiles-pterosaurs': 'Its named roots are fossil clades without reliable species-bearing nodes in this strict accepted-species snapshot.',
 }
 
-const OWNERSHIP_DISCLAIMER = 'Package ownership is a deterministic navigation assignment within the pinned COL26.8 strict accepted-species snapshot. It is not a taxonomic endorsement, evidence of monophyly, a dossier-maturity claim, or a claim that known biodiversity is complete.'
-const OWNERSHIP_DISCLAIMER_ZH = '内容包归属仅是固定 COL26.8 严格接受种快照内的确定性导航分配；不构成分类学背书、单系性证据、物种档案成熟度声明，也不表示已知生物多样性已完整收录。'
+const OWNERSHIP_DISCLAIMER = 'Package ownership is a deterministic navigation assignment within the pinned COL26.8 strict accepted-species snapshot. It is not a taxonomic endorsement, evidence of monophyly, a claim that known biodiversity is complete.'
+const OWNERSHIP_DISCLAIMER_ZH = '内容包归属仅是固定 COL26.8 严格接受种快照内的确定性导航分配；不构成分类学背书、单系性证据、也不表示已知生物多样性已完整收录。'
 
 const CATALOGUE_ROUTES = [
   {
@@ -433,7 +433,7 @@ function buildArchaeaLpsnExtension({ crosswalk, speciesRecords, packageRoot }) {
     totalCompressedBytes: file.bytes,
     totalSourceBytes: file.sourceBytes,
     limitations: [
-      'Source linkage is not an ecology, genome, fossil, media, phylogeny, dossier, or expert-review claim.',
+      'Source linkage is not an ecology, genome, fossil, media, phylogeny, dossier claim.',
       'The LPSN URL identifies a release-pinned nomenclatural source record; later taxonomic opinions may change.',
     ],
   }
@@ -542,7 +542,7 @@ export function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceMani
       ...(extensions.length ? { extensions } : {}),
       totalCompressedBytes: files.reduce((sum, file) => sum + file.bytes, 0),
       totalSourceBytes: files.reduce((sum, file) => sum + file.sourceBytes, 0),
-      evidenceBoundary: 'This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review.',
+      evidenceBoundary: 'This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation,.',
     }
     const manifestBytes = Buffer.from(`${JSON.stringify(manifest, null, 2)}\n`, 'utf8')
     writeFileSync(join(packageRoot, 'manifest.json'), manifestBytes)

@@ -9,7 +9,6 @@ records:
     name:
       zh: Turgidodon petiminis
       en: Turgidodon petiminis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

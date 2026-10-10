@@ -9,7 +9,6 @@ records:
     name:
       zh: Kowalskia gansunica
       en: Kowalskia gansunica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus alicahuense
       en: Phymaturus alicahuense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

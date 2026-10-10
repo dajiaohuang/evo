@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ballesteros-2020-pycnogonida-phylogenomics DOI 10.1093/molbev/msaa228; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: ballesteros-2020-pycnogonida-phylogenomics
@@ -48,9 +45,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: waloszek-dunlop-2002 + sabroux-2024 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: waloszek-dunlop-2002-cambropycnogon
           relation: supports
@@ -100,7 +94,6 @@ records:
             field: /records/ranges/0/referenceLocators/0/locator
         - referenceId: sabroux-2024-pycnogonid-fossils
           locator: Table 1; Cambropycnogon classified as possibly Pycnogonida rather than a secure crown record
-      reviewStatus: automated-audit-passed
 ---
 
 # Pycnogonida

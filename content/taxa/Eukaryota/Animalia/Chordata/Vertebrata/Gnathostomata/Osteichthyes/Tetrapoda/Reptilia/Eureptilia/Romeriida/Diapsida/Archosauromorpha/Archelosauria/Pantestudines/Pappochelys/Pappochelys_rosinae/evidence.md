@@ -9,7 +9,6 @@ records:
     name:
       zh: Pappochelys rosinae
       en: Pappochelys rosinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

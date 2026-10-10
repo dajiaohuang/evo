@@ -9,7 +9,6 @@ records:
     name:
       en: Hyla hallowellii
       zh: Hyla hallowellii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Telmatornis priscus
       en: Telmatornis priscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

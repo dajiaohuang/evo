@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla scabra
       zh: Amnihyla scabra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

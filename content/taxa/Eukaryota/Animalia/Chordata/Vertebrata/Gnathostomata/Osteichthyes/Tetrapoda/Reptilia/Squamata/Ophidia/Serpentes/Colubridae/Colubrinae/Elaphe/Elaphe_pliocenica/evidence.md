@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaphe pliocenica
       en: Elaphe pliocenica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

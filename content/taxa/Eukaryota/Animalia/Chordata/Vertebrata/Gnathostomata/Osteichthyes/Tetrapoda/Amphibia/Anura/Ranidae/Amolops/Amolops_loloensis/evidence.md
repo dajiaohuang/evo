@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops loloensis
       zh: Amolops loloensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

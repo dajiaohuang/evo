@@ -9,7 +9,6 @@ records:
     name:
       zh: Meizodon plumbiceps
       en: Meizodon plumbiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

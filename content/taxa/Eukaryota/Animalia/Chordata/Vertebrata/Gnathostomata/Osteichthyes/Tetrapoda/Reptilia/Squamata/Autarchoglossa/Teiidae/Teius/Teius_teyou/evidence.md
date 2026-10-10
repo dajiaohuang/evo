@@ -9,7 +9,6 @@ records:
     name:
       zh: Teius teyou
       en: Teius teyou
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

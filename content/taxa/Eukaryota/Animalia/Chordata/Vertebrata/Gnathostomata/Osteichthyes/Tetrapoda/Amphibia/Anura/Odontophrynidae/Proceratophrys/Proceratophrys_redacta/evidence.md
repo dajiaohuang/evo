@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys redacta
       zh: Proceratophrys redacta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

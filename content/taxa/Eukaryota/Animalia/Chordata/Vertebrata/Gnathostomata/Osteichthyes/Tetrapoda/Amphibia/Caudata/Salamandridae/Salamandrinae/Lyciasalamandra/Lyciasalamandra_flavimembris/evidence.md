@@ -9,7 +9,6 @@ records:
     name:
       en: Lyciasalamandra flavimembris
       zh: Lyciasalamandra flavimembris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

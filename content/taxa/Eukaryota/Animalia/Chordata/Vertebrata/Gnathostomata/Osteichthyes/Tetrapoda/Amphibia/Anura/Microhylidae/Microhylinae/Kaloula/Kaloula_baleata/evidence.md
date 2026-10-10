@@ -9,7 +9,6 @@ records:
     name:
       en: Kaloula baleata
       zh: Kaloula baleata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

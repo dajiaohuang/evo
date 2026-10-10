@@ -9,7 +9,6 @@ records:
     name:
       zh: Tangara parzudakii
       en: Tangara parzudakii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Typhlomys hipparionum
       en: Typhlomys hipparionum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

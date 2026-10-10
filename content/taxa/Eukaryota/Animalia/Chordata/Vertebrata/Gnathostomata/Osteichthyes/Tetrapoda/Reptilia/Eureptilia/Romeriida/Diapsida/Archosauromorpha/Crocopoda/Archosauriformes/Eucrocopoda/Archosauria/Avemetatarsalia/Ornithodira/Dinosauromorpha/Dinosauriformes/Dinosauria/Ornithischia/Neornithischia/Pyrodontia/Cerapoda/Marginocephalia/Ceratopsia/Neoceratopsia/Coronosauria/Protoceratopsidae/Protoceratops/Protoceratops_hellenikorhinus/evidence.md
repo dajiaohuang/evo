@@ -9,7 +9,6 @@ records:
     name:
       zh: Protoceratops hellenikorhinus
       en: Protoceratops hellenikorhinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

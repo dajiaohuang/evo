@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis anjanaharibeensis
       zh: Boophis anjanaharibeensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

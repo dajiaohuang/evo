@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhea subpampeana
       en: Rhea subpampeana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

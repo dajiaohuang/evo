@@ -9,7 +9,6 @@ records:
     name:
       en: Mustached monkey
       zh: 须长尾猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

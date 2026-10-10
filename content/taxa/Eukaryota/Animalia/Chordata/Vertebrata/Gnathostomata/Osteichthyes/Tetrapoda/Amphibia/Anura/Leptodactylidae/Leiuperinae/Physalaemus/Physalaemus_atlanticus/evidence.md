@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus atlanticus
       zh: Physalaemus atlanticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

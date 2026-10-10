@@ -9,7 +9,6 @@ records:
     name:
       zh: Amblotherium megistodon
       en: Amblotherium megistodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

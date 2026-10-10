@@ -34,7 +34,7 @@ for (const entry of coverage.filter(x => x.sourceCoverage === 'existing-content-
     }
   }
   const taxon = roster.get(entry.colId)
-  node.records['catalogue-profile'] = { scientificName: taxon.scientificName, rank: 'species', sourceDatasetId: taxon.sourceDatasetId, name: { en: taxon.scientificName, zh: taxon.scientificName }, reviewStatus: 'source-linked', checkedAt: '2026-10-02', sections, sources: structuredClone(dossier.sources), limitations: { en: 'This reader summarizes the retained species-focused research. Study subjects, places, dates and experimental conditions are bounded in each section. The seven-facet dossier remains incomplete; unassessed topics and unresolved questions are retained. No external expert review has occurred.', zh: '本读本概括已保留的种级研究，每节限定研究对象、地点、日期及实验条件。七主题档案仍不完整，未评估主题和未解决问题继续保留；没有完成外部专家审评。' } }
+  node.records['catalogue-profile'] = { scientificName: taxon.scientificName, rank: 'species', sourceDatasetId: taxon.sourceDatasetId, name: { en: taxon.scientificName, zh: taxon.scientificName },  checkedAt: '2026-10-02', sections, sources: structuredClone(dossier.sources), limitations: { en: 'This reader summarizes the retained species-focused research. Study subjects, places, dates and experimental conditions are bounded in each section. The seven-facet dossier remains incomplete; unassessed topics and unresolved questions are retained. ', zh: '本读本概括已保留的种级研究，每节限定研究对象、地点、日期及实验条件。七主题档案仍不完整，未评估主题和未解决问题继续保留；。' } }
   const index = fs.readFileSync(`${entry.path}/index.yaml`)
   writeNodeContent(entry.path, node.index, node.records)
   fs.writeFileSync(`${entry.path}/index.yaml`, index)
@@ -48,5 +48,5 @@ for (const entry of coverage.filter(x => x.sourceCoverage === 'existing-content-
   readers++
 }
 fs.writeFileSync('docs/amphibia-content/species-coverage.json', JSON.stringify(coverage, null, 2) + '\n')
-fs.writeFileSync('docs/amphibia-content/existing-research-authoring.json', JSON.stringify({ readers, translatedClaims, completeDossiers: 0, externalExpertReviews: 0, testsRun: false, projectionsGenerated: false }, null, 2) + '\n')
+fs.writeFileSync('docs/amphibia-content/existing-research-authoring.json', JSON.stringify({ readers, translatedClaims, completeDossiers: 0,  testsRun: false, projectionsGenerated: false }, null, 2) + '\n')
 console.log(JSON.stringify({ readers, translatedClaims }))

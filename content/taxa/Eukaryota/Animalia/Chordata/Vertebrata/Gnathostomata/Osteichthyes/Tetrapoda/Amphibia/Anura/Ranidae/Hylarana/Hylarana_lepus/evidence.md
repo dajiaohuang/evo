@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana lepus
       zh: Hylarana lepus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chiroxiphia pareola
       en: Chiroxiphia pareola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

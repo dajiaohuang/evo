@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesitornis unicolor
       en: Mesitornis unicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

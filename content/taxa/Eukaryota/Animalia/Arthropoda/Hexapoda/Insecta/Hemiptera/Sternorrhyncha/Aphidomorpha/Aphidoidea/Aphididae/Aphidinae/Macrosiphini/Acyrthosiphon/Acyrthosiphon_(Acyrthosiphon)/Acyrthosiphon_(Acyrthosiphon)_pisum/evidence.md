@@ -9,7 +9,6 @@ records:
     name:
       zh: 豌豆修尾蚜
       en: Pea aphid
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

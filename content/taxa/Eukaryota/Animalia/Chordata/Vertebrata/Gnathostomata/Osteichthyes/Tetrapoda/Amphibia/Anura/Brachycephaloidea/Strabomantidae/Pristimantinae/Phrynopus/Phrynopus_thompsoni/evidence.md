@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus thompsoni
       zh: Phrynopus thompsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

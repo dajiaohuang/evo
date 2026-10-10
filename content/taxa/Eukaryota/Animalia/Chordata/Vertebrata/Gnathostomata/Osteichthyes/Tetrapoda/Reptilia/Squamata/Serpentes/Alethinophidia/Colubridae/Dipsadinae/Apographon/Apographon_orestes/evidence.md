@@ -9,7 +9,6 @@ records:
     name:
       zh: Apographon orestes
       en: Apographon orestes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

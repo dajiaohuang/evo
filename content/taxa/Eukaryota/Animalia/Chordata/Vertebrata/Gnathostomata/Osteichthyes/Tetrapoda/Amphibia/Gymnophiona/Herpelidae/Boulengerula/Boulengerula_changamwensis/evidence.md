@@ -9,7 +9,6 @@ records:
     name:
       en: Boulengerula changamwensis
       zh: Boulengerula changamwensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

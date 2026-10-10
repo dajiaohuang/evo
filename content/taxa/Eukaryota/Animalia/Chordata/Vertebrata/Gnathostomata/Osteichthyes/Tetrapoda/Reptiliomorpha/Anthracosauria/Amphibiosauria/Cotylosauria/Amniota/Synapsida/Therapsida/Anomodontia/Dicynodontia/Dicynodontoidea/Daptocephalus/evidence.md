@@ -9,7 +9,6 @@ records:
     name:
       zh: Daptocephalus
       en: Daptocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Carduelis carduelis
       en: Carduelis carduelis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

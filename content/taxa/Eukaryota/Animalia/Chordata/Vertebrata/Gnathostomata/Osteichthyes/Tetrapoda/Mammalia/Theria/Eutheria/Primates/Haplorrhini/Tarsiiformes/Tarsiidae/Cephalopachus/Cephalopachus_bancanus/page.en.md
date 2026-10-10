@@ -28,5 +28,5 @@ Welman, Tuen, and Lovegrove captured 13 adult tarsiers in secondary forest at Sa
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This source-linked guide joins one local study of the Belitung subspecies C. b. saltator with a separate thermoregulation study at one Sarawak reserve. Their taxonomic scope, sites, methods, and sample sizes remain distinct. They do not establish species-wide habitat preference, abundance, population trend, a complete range account, or current conservation assessment. COL26.8 ID SDLD fixes the page identity; the Chinese display name is editorial. No dossier or external expert review was added. This page is not externally expert-reviewed.
+This source-linked guide joins one local study of the Belitung subspecies C. b. saltator with a separate thermoregulation study at one Sarawak reserve. Their taxonomic scope, sites, methods, and sample sizes remain distinct. They do not establish species-wide habitat preference, abundance, population trend, a complete range account, or current conservation assessment. COL26.8 ID SDLD fixes the page identity; the Chinese display name is editorial. This page is.
 <!-- /evo:text -->

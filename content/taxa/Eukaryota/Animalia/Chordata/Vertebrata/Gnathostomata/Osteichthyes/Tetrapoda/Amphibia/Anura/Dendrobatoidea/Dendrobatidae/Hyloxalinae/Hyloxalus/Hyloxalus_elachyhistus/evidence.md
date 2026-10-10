@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus elachyhistus
       zh: Hyloxalus elachyhistus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

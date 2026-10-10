@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus boulengerii
       en: Atractus boulengerii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

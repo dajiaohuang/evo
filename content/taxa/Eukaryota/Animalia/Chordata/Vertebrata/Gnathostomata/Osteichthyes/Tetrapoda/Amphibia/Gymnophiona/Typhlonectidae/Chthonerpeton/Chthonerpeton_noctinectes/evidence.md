@@ -9,7 +9,6 @@ records:
     name:
       en: Chthonerpeton noctinectes
       zh: Chthonerpeton noctinectes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

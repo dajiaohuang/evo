@@ -9,7 +9,6 @@ records:
     name:
       zh: Bucephala islandica
       en: Bucephala islandica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

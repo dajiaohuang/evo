@@ -9,7 +9,6 @@ records:
     name:
       zh: Apatosaurus
       en: Apatosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

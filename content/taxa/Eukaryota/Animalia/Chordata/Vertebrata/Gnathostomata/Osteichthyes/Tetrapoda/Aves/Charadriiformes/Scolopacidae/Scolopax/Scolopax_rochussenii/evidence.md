@@ -9,7 +9,6 @@ records:
     name:
       zh: Scolopax rochussenii
       en: Scolopax rochussenii
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

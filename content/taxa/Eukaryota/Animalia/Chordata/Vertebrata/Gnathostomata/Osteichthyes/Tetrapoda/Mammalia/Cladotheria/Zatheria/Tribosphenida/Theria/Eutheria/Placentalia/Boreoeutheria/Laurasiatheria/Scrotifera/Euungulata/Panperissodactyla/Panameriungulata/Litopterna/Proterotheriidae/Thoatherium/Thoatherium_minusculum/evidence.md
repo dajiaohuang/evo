@@ -9,7 +9,6 @@ records:
     name:
       zh: Thoatherium minusculum
       en: Thoatherium minusculum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

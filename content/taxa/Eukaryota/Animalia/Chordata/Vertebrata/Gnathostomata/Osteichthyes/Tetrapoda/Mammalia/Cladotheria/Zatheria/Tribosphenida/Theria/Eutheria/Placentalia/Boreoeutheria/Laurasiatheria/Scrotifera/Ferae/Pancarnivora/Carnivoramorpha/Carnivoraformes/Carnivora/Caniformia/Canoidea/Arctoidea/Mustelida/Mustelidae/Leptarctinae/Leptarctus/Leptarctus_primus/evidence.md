@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptarctus primus
       en: Leptarctus primus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

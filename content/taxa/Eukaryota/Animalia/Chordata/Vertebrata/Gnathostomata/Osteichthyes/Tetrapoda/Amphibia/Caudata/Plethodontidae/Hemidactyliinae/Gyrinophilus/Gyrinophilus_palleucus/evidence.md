@@ -9,7 +9,6 @@ records:
     name:
       en: Gyrinophilus palleucus
       zh: Gyrinophilus palleucus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidoscelis dixoni
       en: Aspidoscelis dixoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

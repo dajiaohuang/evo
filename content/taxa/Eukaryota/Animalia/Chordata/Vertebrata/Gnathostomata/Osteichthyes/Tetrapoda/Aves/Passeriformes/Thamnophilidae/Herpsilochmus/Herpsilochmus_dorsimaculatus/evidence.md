@@ -9,7 +9,6 @@ records:
     name:
       zh: Herpsilochmus dorsimaculatus
       en: Herpsilochmus dorsimaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

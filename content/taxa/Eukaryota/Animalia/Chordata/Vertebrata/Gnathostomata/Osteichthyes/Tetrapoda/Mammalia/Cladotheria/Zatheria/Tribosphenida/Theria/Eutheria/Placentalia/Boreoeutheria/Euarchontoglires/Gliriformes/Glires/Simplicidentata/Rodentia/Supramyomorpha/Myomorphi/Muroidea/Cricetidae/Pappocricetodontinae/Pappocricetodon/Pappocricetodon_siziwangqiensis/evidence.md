@@ -9,7 +9,6 @@ records:
     name:
       zh: Pappocricetodon siziwangqiensis
       en: Pappocricetodon siziwangqiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

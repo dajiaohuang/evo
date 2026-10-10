@@ -9,7 +9,6 @@ records:
     name:
       zh: Peucedramus taeniatus
       en: Peucedramus taeniatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

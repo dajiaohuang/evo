@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella applebyi
       zh: Leptobrachella applebyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

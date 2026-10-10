@@ -9,7 +9,6 @@ records:
     name:
       zh: Eporeodon (Paraeporeodon) pacificus
       en: Eporeodon (Paraeporeodon) pacificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zaglossus bartoni
       en: Zaglossus bartoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

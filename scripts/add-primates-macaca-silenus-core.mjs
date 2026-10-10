@@ -214,7 +214,7 @@ const references = [
     version: 'Published 2015-11-11',
     sourceRole: 'primary-study',
     fitnessFor: ['biogeography', 'geochronology', 'ecology'],
-    metadataAssignment: 'curator-reviewed',
+
     note: 'Primary mitochondrial-DNA study using wild Western Ghats samples, with separately identified captive samples in some analyses. Claims are bounded to sampled sites and markers; the article states CC BY 4.0.',
   },
   {
@@ -230,7 +230,7 @@ const references = [
     version: 'Published 2020-09-23',
     sourceRole: 'primary-study',
     fitnessFor: ['ecology', 'biogeography', 'methods'],
-    metadataAssignment: 'curator-reviewed',
+
     note: 'Primary field study of one habituated, free-ranging troop in Puthuthottam, Valparai plateau, Tamil Nadu, during February–May 2016. Findings are bounded to one troop, one forest fragment and the dry season; the article states CC BY 4.0.',
   },
 ]
@@ -275,9 +275,9 @@ const claims = [
     statement: identityStatement,
     confidence: 'medium',
       confidenceRationale: 'COL26.8 explicitly records accepted usage 3WWP6 and immediate parent usage 5HYC. The claim reports this checklist placement alone and makes no biological or phylogenetic inference.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'COL26.8 ChecklistBank dataset 316115; accepted usage 3WWP6, source dataset 2144 and immediate parent checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted species usage 3WWP6; immediate parent usage 5HYC Macaca; accepted classification through Primates usage 3W7' }],
   },
   {
@@ -288,9 +288,9 @@ const claims = [
     statement: geographyStatement,
     confidence: 'high',
     confidenceRationale: 'Both primary studies identify their sampled locations directly. The statement retains study-site scope and makes no full-range inference.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Ram et al. 2015 DOI 10.1371/journal.pone.0142597; Dhawale et al. 2020 DOI 10.1371/journal.pone.0238695; methods checked 2026-09-27',
+
+
+
     referenceLinks: [
       { referenceId: ramReferenceId, relation: 'supports', pages: 'Methods, Study area and Sample collection; Figure 1' },
       { referenceId: dhawaleReferenceId, relation: 'supports', pages: 'Methods, Study area and Study troop and individuals; Figure 1' },
@@ -304,9 +304,9 @@ const claims = [
     statement: ecologyStatement,
     confidence: 'medium',
     confidenceRationale: 'The article reports the study troop, dates, follow-hours, habitat classes and modelled behaviour comparisons directly. The observations concern one troop in one dry-season study and do not establish species-wide ecology or causal effects.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Dhawale et al. 2020 DOI 10.1371/journal.pone.0238695; Methods—Study area, Study troop and individuals, Field methods; Results—Ecological and behavioural responses, Figure 3 checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: dhawaleReferenceId, relation: 'supports', pages: 'Methods—Study area, Study troop and individuals, Field methods; Results—Ecological and behavioural responses; Figure 3' }],
   },
   {
@@ -317,9 +317,9 @@ const claims = [
     statement: divergenceStatement,
     confidence: 'medium',
     confidenceRationale: 'The sampled clades and model estimate are reported directly, but the date comes from a fossil-calibrated analysis of 893 mitochondrial bases and is not a genome-wide species split estimate.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Ram et al. 2015 DOI 10.1371/journal.pone.0142597; Results, Figure 4 and Table 2 checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: ramReferenceId, relation: 'supports', pages: 'Results, Genetic structure and diversity; Figure 4; Table 2' }],
   },
   {
@@ -330,9 +330,9 @@ const claims = [
     statement: rangeStatement,
     confidence: 'low',
     confidenceRationale: 'The checklist establishes accepted identity and the selected sources study living populations or regional genetic history; none provides a reviewed temporal fossil-range endpoint or complete distribution inventory.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'COL26.8 usage 3WWP6; Ram et al. 2015 DOI 10.1371/journal.pone.0142597; Dhawale et al. 2020 DOI 10.1371/journal.pone.0238695; scope checked 2026-09-27',
+
+
+
     referenceLinks: [
       { referenceId: colReferenceId, relation: 'supports', pages: 'Accepted usage 3WWP6; identity and classification only' },
       { referenceId: ramReferenceId, relation: 'supports', quoteLocator: 'Regional mitochondrial study; no species fossil-range inventory' },
@@ -396,7 +396,7 @@ appendArrayRecords('data/ranges/range-evidence.json', null, [{
   confidence: 'low',
   claimIds: [],
   referenceLocators: [{ referenceId: colReferenceId, locator: 'COL26.8 dataset 316115; accepted usage 3WWP6 and parent classification (identity only)' }],
-  reviewStatus: 'automated-audit-passed',
+
 }])
 
 const previewPath = 'data/pages-preview.json'
@@ -430,12 +430,12 @@ appendUnique(pbdb.resolutions, {
   localExpectedParentConcept: 'Macaca',
   parentRelationshipKind: 'taxonomic-parent',
   lineageCompatibility: 'indeterminate',
-  conceptReviewStatus: 'unresolved',
-  automatedRecommendation: 'withhold-external-mapping',
-  humanCuratorDecision: null,
-  curatorRationale: null,
-  curatorReviewedAt: null,
-  curatorReviewer: null,
+
+
+
+
+
+
   occurrenceCount: null,
   referenceNo: null,
   snapshotModifiedAt: null,
@@ -443,15 +443,11 @@ appendUnique(pbdb.resolutions, {
 pbdb.summary.ontologyNodes = pbdb.resolutions.length
 pbdb.summary.unresolved = pbdb.resolutions.filter(item => item.resolutionStatus !== 'resolved').length
 pbdb.summary.resolved = pbdb.resolutions.filter(item => item.resolutionStatus === 'resolved').length
-pbdb.summary.needsConceptReview = pbdb.resolutions.filter(item => item.conceptReviewStatus === 'needs-concept-review').length
-pbdb.summary.humanCuratorDecisions = pbdb.resolutions.filter(item => item.humanCuratorDecision).length
+
+
 pbdb.generatedAt = today
 writeJson(pbdbPath, pbdb)
 
-const linkagePath = 'data/indexes/entity-linkage-baseline.json'
-const linkage = readJson(linkagePath)
-linkage.unresolvedEntityIds = [...new Set([...linkage.unresolvedEntityIds, entityId])].sort()
-writeJson(linkagePath, linkage)
 
 const overridePath = 'data/packages/mammalia/primates/evidence/field-claim-overrides.source.json'
 appendNestedObjectEntries(overridePath, 'profiles', {

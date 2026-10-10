@@ -9,7 +9,6 @@ records:
     name:
       zh: Meridiocichla salotti
       en: Meridiocichla salotti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

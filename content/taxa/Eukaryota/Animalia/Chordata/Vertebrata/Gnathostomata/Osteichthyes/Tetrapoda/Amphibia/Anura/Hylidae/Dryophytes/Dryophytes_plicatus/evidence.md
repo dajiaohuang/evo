@@ -9,7 +9,6 @@ records:
     name:
       en: Dryophytes plicatus
       zh: Dryophytes plicatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

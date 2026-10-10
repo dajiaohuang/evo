@@ -9,7 +9,6 @@ records:
     name:
       zh: 马丁斯裸脸狨
       en: Martins's Bare-faced Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

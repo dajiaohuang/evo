@@ -9,7 +9,6 @@ records:
     name:
       zh: Spizaetus grinnelli
       en: Spizaetus grinnelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

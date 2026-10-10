@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus mabouia
       en: Hemidactylus mabouia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

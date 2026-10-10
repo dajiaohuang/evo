@@ -9,7 +9,6 @@ records:
     name:
       en: Buergeria otai
       zh: Buergeria otai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

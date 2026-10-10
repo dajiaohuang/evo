@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliohippus tantalus
       en: Pliohippus tantalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

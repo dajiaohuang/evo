@@ -9,7 +9,6 @@ records:
     name:
       zh: Petenyia dubia
       en: Petenyia dubia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

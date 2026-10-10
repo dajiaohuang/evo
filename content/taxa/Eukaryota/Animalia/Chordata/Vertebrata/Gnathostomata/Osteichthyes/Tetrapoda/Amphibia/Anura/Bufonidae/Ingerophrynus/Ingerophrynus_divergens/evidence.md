@@ -9,7 +9,6 @@ records:
     name:
       en: Ingerophrynus divergens
       zh: Ingerophrynus divergens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Boluochia zhengi
       en: Boluochia zhengi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

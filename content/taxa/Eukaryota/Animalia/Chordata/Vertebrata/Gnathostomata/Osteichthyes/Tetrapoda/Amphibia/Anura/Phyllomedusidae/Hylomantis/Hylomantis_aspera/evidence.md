@@ -9,7 +9,6 @@ records:
     name:
       en: Hylomantis aspera
       zh: Hylomantis aspera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

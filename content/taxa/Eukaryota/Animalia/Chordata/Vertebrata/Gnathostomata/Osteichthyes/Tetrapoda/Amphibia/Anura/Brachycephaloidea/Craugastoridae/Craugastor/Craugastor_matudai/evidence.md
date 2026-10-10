@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor matudai
       zh: Craugastor matudai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

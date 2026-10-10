@@ -9,7 +9,6 @@ records:
     name:
       zh: Ameiseophis robinsoni
       en: Ameiseophis robinsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

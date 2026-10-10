@@ -9,7 +9,6 @@ records:
     name:
       zh: Tamiops mcclellandii
       en: Tamiops mcclellandii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

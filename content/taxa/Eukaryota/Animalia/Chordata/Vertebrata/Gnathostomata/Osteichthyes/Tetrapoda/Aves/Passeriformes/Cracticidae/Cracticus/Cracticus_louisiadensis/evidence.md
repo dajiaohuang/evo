@@ -9,7 +9,6 @@ records:
     name:
       zh: Cracticus louisiadensis
       en: Cracticus louisiadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

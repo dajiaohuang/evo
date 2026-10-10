@@ -9,7 +9,6 @@ records:
     name:
       en: Hylorina sylvatica
       zh: Hylorina sylvatica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

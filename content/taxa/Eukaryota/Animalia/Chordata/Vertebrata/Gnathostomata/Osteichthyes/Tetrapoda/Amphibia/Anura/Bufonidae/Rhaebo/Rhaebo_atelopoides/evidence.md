@@ -9,7 +9,6 @@ records:
     name:
       en: Rhaebo atelopoides
       zh: Rhaebo atelopoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

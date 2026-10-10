@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema gualteri
       zh: Ischnocnema gualteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

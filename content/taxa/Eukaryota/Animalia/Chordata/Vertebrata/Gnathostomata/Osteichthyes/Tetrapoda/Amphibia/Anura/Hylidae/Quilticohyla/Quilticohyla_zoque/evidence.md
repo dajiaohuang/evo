@@ -9,7 +9,6 @@ records:
     name:
       en: Quilticohyla zoque
       zh: Quilticohyla zoque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

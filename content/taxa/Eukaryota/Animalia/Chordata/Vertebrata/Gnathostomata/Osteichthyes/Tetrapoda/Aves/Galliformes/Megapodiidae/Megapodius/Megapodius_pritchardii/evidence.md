@@ -9,7 +9,6 @@ records:
     name:
       zh: Megapodius pritchardii
       en: Megapodius pritchardii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

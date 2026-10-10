@@ -9,7 +9,6 @@ records:
     name:
       zh: Chiniquodon kalanoro
       en: Chiniquodon kalanoro
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates gasconi
       zh: Allobates gasconi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

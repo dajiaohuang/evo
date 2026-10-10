@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypnelus ruficollis
       en: Hypnelus ruficollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

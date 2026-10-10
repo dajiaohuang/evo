@@ -9,7 +9,6 @@ records:
     name:
       zh: Notodiaphorus crassus
       en: Notodiaphorus crassus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Glis glis
       en: Glis glis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

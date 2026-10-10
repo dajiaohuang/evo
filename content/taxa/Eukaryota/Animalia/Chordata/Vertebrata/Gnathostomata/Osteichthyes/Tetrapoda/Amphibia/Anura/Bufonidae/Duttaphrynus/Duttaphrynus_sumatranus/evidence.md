@@ -9,7 +9,6 @@ records:
     name:
       en: Duttaphrynus sumatranus
       zh: Duttaphrynus sumatranus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

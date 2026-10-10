@@ -9,7 +9,6 @@ records:
     name:
       zh: Archboldomys luzonensis
       en: Archboldomys luzonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

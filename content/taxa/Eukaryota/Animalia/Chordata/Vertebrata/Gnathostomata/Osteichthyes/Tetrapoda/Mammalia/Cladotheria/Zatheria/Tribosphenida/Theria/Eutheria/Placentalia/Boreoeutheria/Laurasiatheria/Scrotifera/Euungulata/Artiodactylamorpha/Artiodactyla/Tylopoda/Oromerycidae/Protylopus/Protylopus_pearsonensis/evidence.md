@@ -9,7 +9,6 @@ records:
     name:
       zh: Protylopus pearsonensis
       en: Protylopus pearsonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

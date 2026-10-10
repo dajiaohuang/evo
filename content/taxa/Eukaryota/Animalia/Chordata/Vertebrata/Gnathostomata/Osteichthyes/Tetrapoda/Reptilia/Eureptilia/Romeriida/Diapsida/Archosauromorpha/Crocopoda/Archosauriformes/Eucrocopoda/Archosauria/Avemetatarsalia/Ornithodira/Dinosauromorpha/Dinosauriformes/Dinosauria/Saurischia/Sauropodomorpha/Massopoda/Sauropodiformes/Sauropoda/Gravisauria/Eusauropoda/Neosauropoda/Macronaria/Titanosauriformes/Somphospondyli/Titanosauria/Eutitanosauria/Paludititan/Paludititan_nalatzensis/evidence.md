@@ -9,7 +9,6 @@ records:
     name:
       zh: Paludititan nalatzensis
       en: Paludititan nalatzensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

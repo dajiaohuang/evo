@@ -9,7 +9,6 @@ records:
     name:
       zh: Homonota marthae
       en: Homonota marthae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

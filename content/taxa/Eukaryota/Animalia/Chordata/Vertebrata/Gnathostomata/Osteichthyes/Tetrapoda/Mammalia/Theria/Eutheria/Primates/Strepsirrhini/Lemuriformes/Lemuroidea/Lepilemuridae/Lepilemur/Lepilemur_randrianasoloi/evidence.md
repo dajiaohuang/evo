@@ -9,7 +9,6 @@ records:
     name:
       zh: 兰德里亚纳索洛运动狐猴
       en: Randrianasolo's Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: morphology and field description

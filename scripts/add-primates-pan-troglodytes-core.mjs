@@ -260,7 +260,7 @@ const noRange = id => ({
   confidence: 'low',
   claimIds: [],
   referenceLocators: [{ referenceId: colReferenceId, locator: `COL26.8 release dataset 316115; accepted usage ${id === entityId ? colId : id === 'pan' ? '6D2G' : 'JPH'} (identity/classification only)` }],
-  reviewStatus: 'automated-audit-passed',
+
 })
 const rangesPath = 'data/ranges/range-evidence.json'
 appendArrayRecords(rangesPath, '', ['homininae', 'pan', entityId].map(noRange))
@@ -281,9 +281,9 @@ appendArrayRecords(claimsPath, '', [
     statement: homininaeTaxonomyStatement,
     confidence: 'medium',
     confidenceRationale: 'The accepted COL26.8 species record carries the Homininae parent usage JPH. This is one release-specific classification statement, not a claim of universal consensus or phylogeny.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: '2026-09-27',
-    reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115, accepted usage 4C92G and parent usage JPH; cross-checked against the raw dossier on 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted usage 4C92G; accepted parent usage JPH, Homininae' }],
   },
   {
@@ -294,9 +294,9 @@ appendArrayRecords(claimsPath, '', [
     statement: panTaxonomyStatement,
     confidence: 'medium',
     confidenceRationale: 'The accepted COL26.8 species record carries the Pan parent usage 6D2G. This is one release-specific classification statement, not a claim of universal consensus or phylogeny.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: '2026-09-27',
-    reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115, accepted usage 4C92G and parent usage 6D2G; cross-checked against the raw dossier on 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted usage 4C92G; accepted parent usage 6D2G, Pan' }],
   },
   {
@@ -307,9 +307,9 @@ appendArrayRecords(claimsPath, '', [
     statement: taxonomyStatement,
     confidence: 'medium',
     confidenceRationale: 'The pinned checklist usage and its accepted parent chain are explicit; this claim is limited to that release and makes no phylogenetic or biological inference.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: '2026-09-27',
-    reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115, accepted usage 4C92G; cross-checked against the bundled MDD mammal sidecar and raw dossier on 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted usage 4C92G; source dataset 2144; parent chain Homininae > Pan > Pan troglodytes' }],
   },
   {
@@ -320,9 +320,9 @@ appendArrayRecords(claimsPath, '', [
     statement: rangeStatement,
     confidence: 'medium',
     confidenceRationale: 'The selected checklist is taxonomic and the cited field study is ecological; neither source estimates a fossil or species-duration range, so the numerical interval remains withheld.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: '2026-09-27',
-    reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115, accepted usage 4C92G; Bryson-Morrison et al. 2017 DOI 10.1007/s10764-016-9947-4; source scopes checked 2026-09-27',
+
+
+
     referenceLinks: [
       { referenceId: colReferenceId, relation: 'supports', pages: 'Accepted usage 4C92G; identity and classification only' },
       { referenceId: ecologyReferenceId, relation: 'supports', quoteLocator: 'Methods, Behavioral Observations; single study site and focal community' },
@@ -336,9 +336,9 @@ appendArrayRecords(claimsPath, '', [
     statement: geographyStatement,
     confidence: 'high',
     confidenceRationale: 'The primary field study identifies Bossou as its site; the claim deliberately records only a sampled locality and not the species range.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: '2026-09-27',
-    reviewedAgainstReferenceVersion: 'Bryson-Morrison et al. 2017 DOI 10.1007/s10764-016-9947-4; source dossier license and study-scope record checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: ecologyReferenceId, relation: 'supports', quoteLocator: 'Methods, Behavioral Observations; study site and focal community' }],
   },
   {
@@ -349,9 +349,9 @@ appendArrayRecords(claimsPath, '', [
     statement: ecologyStatement,
     confidence: 'medium',
     confidenceRationale: 'The study directly reports habitat selection and feeding-event distances for one Bossou community. The observations do not represent other sites or establish species-wide habitat use.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: '2026-09-27',
-    reviewedAgainstReferenceVersion: 'Bryson-Morrison et al. 2017 DOI 10.1007/s10764-016-9947-4; Methods, Results and Table II checked against the item-level CC BY 4.0 dossier record on 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: ecologyReferenceId, relation: 'supports', pages: 'Methods, Behavioral Observations and Feeding Event Locations; Results, Habitat Use and Preferences and Distance of Feeding Events in Noncultivated Habitat Relative to Cultivated Fields and Routes; Table II' }],
   },
 ])
@@ -390,7 +390,7 @@ const ecologyReference = {
   version: 'Published 2017-01-30; volume 38, pages 282–302',
   sourceRole: 'primary-study',
   fitnessFor: ['ecology', 'biogeography'],
-  metadataAssignment: 'curator-reviewed',
+
   note: 'One-year field study of the wild Pan troglodytes verus community at Bossou, Guinea. Study claims are bounded to the sampled site and focal individuals. Article license and attribution were checked from the University of Kent repository record; the dossier paraphrases findings and reproduces no figures or tables. CC BY 4.0.',
 }
 appendArrayRecords(referencesPath, '', [ecologyReference])
@@ -427,12 +427,12 @@ const pbdbRecords = ['homininae', 'pan', entityId].map((id, index) => ({
   localExpectedParentConcept: ['Hominidae', 'Homininae', 'Pan'][index],
   parentRelationshipKind: 'taxonomic-parent',
   lineageCompatibility: 'indeterminate',
-  conceptReviewStatus: 'unresolved',
-  automatedRecommendation: 'withhold-external-mapping',
-  humanCuratorDecision: null,
-  curatorRationale: null,
-  curatorReviewedAt: null,
-  curatorReviewer: null,
+
+
+
+
+
+
   occurrenceCount: null,
   referenceNo: null,
   snapshotModifiedAt: null,
@@ -443,10 +443,6 @@ setObjectNumber(pbdbPath, 'summary', 'unresolved', 125)
 let pbdbSource = readFileSync(pbdbPath, 'utf8')
 pbdbSource = pbdbSource.replace('"generatedAt": "2026-09-01"', '"generatedAt": "2026-09-27"')
 writeFileSync(pbdbPath, pbdbSource, 'utf8')
-const linkageBaselinePath = 'data/indexes/entity-linkage-baseline.json'
-const linkageBaseline = readJson(linkageBaselinePath)
-linkageBaseline.unresolvedEntityIds = [...new Set([...linkageBaseline.unresolvedEntityIds, 'homininae', 'pan', entityId])].sort()
-writeJson(linkageBaselinePath, linkageBaseline)
 
 console.log(JSON.stringify({
   colId,

@@ -9,7 +9,6 @@ records:
     name:
       zh: Goniurosaurus zhoui
       en: Goniurosaurus zhoui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

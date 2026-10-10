@@ -9,7 +9,6 @@ records:
     name:
       zh: Konobelodon britti
       en: Konobelodon britti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

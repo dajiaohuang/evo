@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { buildCatalogueKnowledge, catalogueDossierContentDigest } from './catalogue-knowledge.mjs'
+import { buildCatalogueKnowledge } from './catalogue-knowledge.mjs'
 
 const node = (id, rank, parentId = null) => ({ id, rank, parentId, scientificName: id, sourceDatasetId: '1', status: 'accepted' })
 const empty = { releaseAlias: 'test', records: [] }
@@ -15,7 +15,6 @@ const completeDossier = () => {
     facets: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, { status: 'supported', claims: [{ ...claim }] }])),
     completeness: { status: 'complete' },
     systematicSearch: { date: '2026-09-23', scope: 'Named literature databases and species accounts.', method: 'Manual and structured database search.', queryOrPath: 'Exact binomial plus facet terms; saved search URL.', inclusionCriteria: 'Primary sources with direct evidence for the accepted species concept.', exclusionCriteria: 'Unresolved names, unsupported secondary repetition, and out-of-scope life states.', searcher: 'Curator identifier 1.' },
-    expertReview: { status: 'not-reviewed' },
   }
 }
 
@@ -30,7 +29,6 @@ test('rolls up every branch without inventing absent ranks or double-counting so
     profiledSpecies: 0,
     dossierSpecies: 0,
     completeDossierSpecies: 0,
-    expertReviewedSpecies: 0,
     sourceFacetEvidenceSpecies: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, 0])),
     dossierFacets: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, { 'not-assessed': 2 }])),
   })
@@ -57,7 +55,7 @@ test('fails a wrong release, dangling content identity and cyclic tree', () => {
 })
 
 test('validates exact profile identity and every section citation', () => {
-  const profile = { colId: 'a', rank: 'species', scientificName: 'a', sourceDatasetId: '1', reviewStatus: 'source-linked', sections: [{ text: { zh: '介绍', en: 'Account' }, sourceIds: ['source'] }], sources: [{ id: 'source', url: 'https://example.org/account' }] }
+  const profile = { colId: 'a', rank: 'species', scientificName: 'a', sourceDatasetId: '1', sections: [{ text: { zh: '介绍', en: 'Account' }, sourceIds: ['source'] }], sources: [{ id: 'source', url: 'https://example.org/account' }] }
   const profiles = { ...empty, records: [profile] }
   const result = build([node('g', 'genus'), node('a', 'species', 'g')], {}, profiles)
   expect(result.records.find(row => row.colId === 'g').subtree.profiledSpecies).toBe(1)
@@ -78,7 +76,7 @@ test('requires reproducible evidence-search protocols before a facet or dossier 
   expect(() => build(dossierTree, {}, empty, { ...empty, records: [systematicSearch] })).toThrow('reproducible systematic search')
 })
 
-test('requires source language, item-level rights metadata, and auditable reviewer records for completion counts', () => {
+test('requires source language, item-level rights metadata, and source identity for completion counts', () => {
   const invalidDate = completeDossier()
   invalidDate.checkedAt = '2026-02-30'
   expect(() => build(dossierTree, {}, empty, { ...empty, records: [invalidDate] })).toThrow('real ISO calendar date')
@@ -95,13 +93,5 @@ test('requires source language, item-level rights metadata, and auditable review
   delete missingRights.sources[0].rightsHolder
   expect(() => build(dossierTree, {}, empty, { ...empty, records: [missingRights] })).toThrow('item-level rights')
 
-  const fakeReview = completeDossier()
-  fakeReview.expertReview = { status: 'externally-reviewed', reviewers: ['Dr Example'], reviewDigest: 'a'.repeat(64), date: '2026-09-23', opinion: 'Approved.', resolutionLog: [] }
-  expect(() => build(dossierTree, {}, empty, { ...empty, records: [fakeReview] })).toThrow('Named expert')
 
-  const reviewed = completeDossier()
-  reviewed.expertReview = { status: 'externally-reviewed', reviewers: [{ name: 'Dr Example', expertise: 'Species ecology', conflictOfInterest: 'No conflicts declared.' }], reviewDigest: catalogueDossierContentDigest(reviewed), date: '2026-09-23', opinion: 'Approved for the stated scope.', resolutionLog: [] }
-  expect(build(dossierTree, {}, empty, { ...empty, records: [reviewed] }).counts.expertReviewedSpecies).toBe(1)
-  reviewed.facets.morphology.claims[0].text = 'Changed after review.'
-  expect(() => build(dossierTree, {}, empty, { ...empty, records: [reviewed] })).toThrow('content digest is stale')
 })

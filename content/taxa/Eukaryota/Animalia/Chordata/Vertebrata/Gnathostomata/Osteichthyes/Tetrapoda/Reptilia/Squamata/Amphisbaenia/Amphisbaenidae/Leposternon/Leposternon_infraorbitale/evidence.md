@@ -9,7 +9,6 @@ records:
     name:
       zh: Leposternon infraorbitale
       en: Leposternon infraorbitale
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

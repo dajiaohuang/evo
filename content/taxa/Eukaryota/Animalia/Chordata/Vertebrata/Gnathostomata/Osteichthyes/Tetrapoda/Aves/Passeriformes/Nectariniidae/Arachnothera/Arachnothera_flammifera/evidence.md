@@ -9,7 +9,6 @@ records:
     name:
       zh: Arachnothera flammifera
       en: Arachnothera flammifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

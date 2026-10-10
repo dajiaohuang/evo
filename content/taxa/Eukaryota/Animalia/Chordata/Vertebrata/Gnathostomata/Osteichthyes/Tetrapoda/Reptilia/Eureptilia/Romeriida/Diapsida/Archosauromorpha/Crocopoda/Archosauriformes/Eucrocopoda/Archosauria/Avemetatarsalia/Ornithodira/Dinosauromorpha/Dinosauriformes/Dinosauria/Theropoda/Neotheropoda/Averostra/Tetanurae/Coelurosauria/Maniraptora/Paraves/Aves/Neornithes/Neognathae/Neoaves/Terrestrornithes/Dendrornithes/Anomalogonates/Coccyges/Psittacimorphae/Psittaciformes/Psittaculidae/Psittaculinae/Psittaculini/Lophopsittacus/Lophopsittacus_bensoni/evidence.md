@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophopsittacus bensoni
       en: Lophopsittacus bensoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

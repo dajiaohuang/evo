@@ -9,7 +9,6 @@ records:
     name:
       en: Ikakogi ispacue
       zh: Ikakogi ispacue
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

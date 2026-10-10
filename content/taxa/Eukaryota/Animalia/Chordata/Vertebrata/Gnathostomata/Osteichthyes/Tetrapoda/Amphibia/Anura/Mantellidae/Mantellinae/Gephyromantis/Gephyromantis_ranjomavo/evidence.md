@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis ranjomavo
       zh: Gephyromantis ranjomavo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

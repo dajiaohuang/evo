@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliscomys (Syphyriomys)
       en: Heliscomys (Syphyriomys)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

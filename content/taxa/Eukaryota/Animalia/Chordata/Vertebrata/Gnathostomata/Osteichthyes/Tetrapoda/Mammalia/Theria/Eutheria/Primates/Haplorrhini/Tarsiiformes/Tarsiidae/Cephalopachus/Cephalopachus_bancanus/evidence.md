@@ -10,7 +10,6 @@ records:
     name:
       en: Western Tarsier
       zh: 西方眼镜猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

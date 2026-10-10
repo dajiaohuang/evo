@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius molleri
       zh: Hyperolius molleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

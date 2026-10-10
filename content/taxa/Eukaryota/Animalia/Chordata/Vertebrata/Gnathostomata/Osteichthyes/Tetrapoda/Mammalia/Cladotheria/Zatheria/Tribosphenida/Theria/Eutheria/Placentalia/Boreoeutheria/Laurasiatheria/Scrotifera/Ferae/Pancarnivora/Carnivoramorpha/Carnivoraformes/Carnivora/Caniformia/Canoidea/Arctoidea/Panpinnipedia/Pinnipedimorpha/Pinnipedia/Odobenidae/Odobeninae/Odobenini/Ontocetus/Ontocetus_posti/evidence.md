@@ -9,7 +9,6 @@ records:
     name:
       zh: Ontocetus posti
       en: Ontocetus posti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

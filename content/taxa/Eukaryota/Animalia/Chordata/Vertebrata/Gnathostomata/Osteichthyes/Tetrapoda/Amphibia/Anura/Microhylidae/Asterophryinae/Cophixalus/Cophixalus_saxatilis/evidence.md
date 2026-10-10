@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus saxatilis
       zh: Cophixalus saxatilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

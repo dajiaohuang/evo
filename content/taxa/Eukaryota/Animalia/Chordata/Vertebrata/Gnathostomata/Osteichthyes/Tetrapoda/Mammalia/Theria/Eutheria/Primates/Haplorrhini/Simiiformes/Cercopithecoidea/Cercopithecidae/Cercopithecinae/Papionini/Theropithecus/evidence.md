@@ -9,7 +9,6 @@ records:
     name:
       en: Theropithecus guide
       zh: Theropithecus 属导读
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

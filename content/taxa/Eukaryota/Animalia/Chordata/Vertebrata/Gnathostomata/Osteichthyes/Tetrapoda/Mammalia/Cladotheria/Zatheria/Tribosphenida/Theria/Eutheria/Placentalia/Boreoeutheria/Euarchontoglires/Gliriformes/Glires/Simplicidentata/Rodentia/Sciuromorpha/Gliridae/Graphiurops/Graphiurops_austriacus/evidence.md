@@ -9,7 +9,6 @@ records:
     name:
       zh: Graphiurops austriacus
       en: Graphiurops austriacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

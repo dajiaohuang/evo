@@ -9,7 +9,6 @@ records:
     name:
       zh: Ciuciulea davidi
       en: Ciuciulea davidi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

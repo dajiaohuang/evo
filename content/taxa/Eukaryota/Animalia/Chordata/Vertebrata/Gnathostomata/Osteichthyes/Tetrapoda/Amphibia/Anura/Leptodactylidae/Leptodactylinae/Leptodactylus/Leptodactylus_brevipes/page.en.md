@@ -58,7 +58,7 @@ A 2022 report from the Brazilian Cerrado described a female guarding a tadpole s
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Taxonomic orientation with a dated, study-scoped reproductive summary. Historical trait concepts, remaining biological facets and contemporary concept boundaries require further source review; this is not a complete species dossier and is not externally expert-reviewed.
+Taxonomic orientation with a dated, study-scoped reproductive summary. Historical trait concepts, remaining biological facets and contemporary concept boundaries require further source review; this is not a complete species dossier and is.
 <!-- /evo:text -->
 
 ## Research text pending

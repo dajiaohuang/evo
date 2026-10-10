@@ -9,7 +9,6 @@ records:
     name:
       en: Sateré Marmoset
       zh: 萨特雷绒猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

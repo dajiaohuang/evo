@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys dibernardoi
       zh: Proceratophrys dibernardoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

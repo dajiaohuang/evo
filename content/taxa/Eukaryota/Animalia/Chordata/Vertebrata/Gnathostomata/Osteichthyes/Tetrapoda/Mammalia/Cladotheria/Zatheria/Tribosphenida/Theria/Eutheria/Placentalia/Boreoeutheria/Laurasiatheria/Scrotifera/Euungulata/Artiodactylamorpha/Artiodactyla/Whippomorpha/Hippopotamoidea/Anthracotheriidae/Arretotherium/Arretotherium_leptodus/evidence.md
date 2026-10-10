@@ -9,7 +9,6 @@ records:
     name:
       zh: Arretotherium leptodus
       en: Arretotherium leptodus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

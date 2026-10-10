@@ -9,7 +9,6 @@ records:
     name:
       zh: Gloydius shedaoensis
       en: Gloydius shedaoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

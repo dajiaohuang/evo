@@ -9,7 +9,6 @@ records:
     name:
       zh: Axonoscincus sabatieri
       en: Axonoscincus sabatieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

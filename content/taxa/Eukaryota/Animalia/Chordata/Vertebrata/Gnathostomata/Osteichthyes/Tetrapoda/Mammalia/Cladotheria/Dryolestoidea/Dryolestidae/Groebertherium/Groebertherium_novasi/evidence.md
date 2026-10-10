@@ -9,7 +9,6 @@ records:
     name:
       zh: Groebertherium novasi
       en: Groebertherium novasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

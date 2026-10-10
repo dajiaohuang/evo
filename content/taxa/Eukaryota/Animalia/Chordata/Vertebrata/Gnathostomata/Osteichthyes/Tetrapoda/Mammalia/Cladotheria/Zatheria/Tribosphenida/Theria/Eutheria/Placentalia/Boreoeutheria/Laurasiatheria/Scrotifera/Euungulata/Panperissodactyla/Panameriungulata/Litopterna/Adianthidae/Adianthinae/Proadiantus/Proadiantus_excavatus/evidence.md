@@ -9,7 +9,6 @@ records:
     name:
       zh: Proadiantus excavatus
       en: Proadiantus excavatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

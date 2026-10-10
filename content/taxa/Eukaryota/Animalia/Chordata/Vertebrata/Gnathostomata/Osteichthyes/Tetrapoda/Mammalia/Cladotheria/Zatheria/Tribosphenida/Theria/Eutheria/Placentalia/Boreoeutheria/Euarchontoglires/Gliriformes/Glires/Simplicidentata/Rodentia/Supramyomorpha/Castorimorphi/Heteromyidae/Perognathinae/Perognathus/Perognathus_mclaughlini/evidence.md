@@ -9,7 +9,6 @@ records:
     name:
       zh: Perognathus mclaughlini
       en: Perognathus mclaughlini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

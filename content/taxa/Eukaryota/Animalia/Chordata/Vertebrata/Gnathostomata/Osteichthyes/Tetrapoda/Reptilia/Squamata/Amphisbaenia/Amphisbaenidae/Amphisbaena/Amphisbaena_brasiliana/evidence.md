@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena brasiliana
       en: Amphisbaena brasiliana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

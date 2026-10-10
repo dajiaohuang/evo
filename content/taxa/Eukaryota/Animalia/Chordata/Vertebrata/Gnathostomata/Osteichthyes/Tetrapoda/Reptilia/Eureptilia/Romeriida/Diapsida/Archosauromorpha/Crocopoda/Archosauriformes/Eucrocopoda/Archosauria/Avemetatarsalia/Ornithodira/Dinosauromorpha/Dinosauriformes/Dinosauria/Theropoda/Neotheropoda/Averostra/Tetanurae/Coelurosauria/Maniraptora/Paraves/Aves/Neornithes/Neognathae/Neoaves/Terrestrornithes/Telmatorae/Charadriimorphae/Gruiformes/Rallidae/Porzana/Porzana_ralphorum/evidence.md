@@ -9,7 +9,6 @@ records:
     name:
       zh: Porzana ralphorum
       en: Porzana ralphorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

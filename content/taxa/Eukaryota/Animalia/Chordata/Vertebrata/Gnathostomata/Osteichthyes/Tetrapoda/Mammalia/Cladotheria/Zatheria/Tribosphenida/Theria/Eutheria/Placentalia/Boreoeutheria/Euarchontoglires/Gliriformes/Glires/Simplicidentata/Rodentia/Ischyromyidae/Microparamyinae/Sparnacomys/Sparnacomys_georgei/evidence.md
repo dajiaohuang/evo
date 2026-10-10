@@ -9,7 +9,6 @@ records:
     name:
       zh: Sparnacomys georgei
       en: Sparnacomys georgei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

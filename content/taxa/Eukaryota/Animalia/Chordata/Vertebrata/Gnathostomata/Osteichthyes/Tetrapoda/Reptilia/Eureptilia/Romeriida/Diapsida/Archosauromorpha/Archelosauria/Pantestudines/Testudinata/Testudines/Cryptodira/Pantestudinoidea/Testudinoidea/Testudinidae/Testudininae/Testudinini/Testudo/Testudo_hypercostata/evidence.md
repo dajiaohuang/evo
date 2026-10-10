@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo hypercostata
       en: Testudo hypercostata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

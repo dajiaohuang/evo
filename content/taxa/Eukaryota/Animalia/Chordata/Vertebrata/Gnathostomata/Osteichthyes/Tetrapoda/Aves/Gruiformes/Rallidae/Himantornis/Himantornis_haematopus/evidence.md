@@ -9,7 +9,6 @@ records:
     name:
       zh: Himantornis haematopus
       en: Himantornis haematopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

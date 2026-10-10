@@ -9,7 +9,6 @@ records:
     name:
       zh: Tamaulipasaurus morenoi
       en: Tamaulipasaurus morenoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oceanites oceanicus
       en: Oceanites oceanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

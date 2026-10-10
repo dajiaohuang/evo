@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanerpes cyaneus
       en: Cyanerpes cyaneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

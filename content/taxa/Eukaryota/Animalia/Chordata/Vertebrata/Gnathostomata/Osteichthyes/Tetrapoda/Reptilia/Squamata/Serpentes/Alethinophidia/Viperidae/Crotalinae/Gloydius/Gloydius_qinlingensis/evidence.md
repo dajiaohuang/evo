@@ -9,7 +9,6 @@ records:
     name:
       zh: Gloydius qinlingensis
       en: Gloydius qinlingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

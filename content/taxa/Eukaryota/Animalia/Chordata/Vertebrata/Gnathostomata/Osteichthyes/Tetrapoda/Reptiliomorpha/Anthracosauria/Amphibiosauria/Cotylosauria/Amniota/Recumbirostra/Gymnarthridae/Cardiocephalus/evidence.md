@@ -9,7 +9,6 @@ records:
     name:
       zh: Cardiocephalus
       en: Cardiocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

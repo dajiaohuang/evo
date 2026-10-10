@@ -9,7 +9,6 @@ records:
     name:
       en: Eryops megacephalus
       zh: Eryops megacephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: taxonomy
@@ -661,13 +660,13 @@ E. D. Cope. 1882. Third contribution to the history of the Vertebrata of the Per
 ## pbdb-fossil-reader / occurrenceEvidence / bibliography
 
 <!-- evo:text /records/pbdb-fossil-reader/occurrenceEvidence/13/bibliography -->
-E. C. Olson. 1958. Fauna of the Vale and Choza: Summary, Review, and Integration of the Geology and the Faunas. Fieldiana Geology 10(32):397-448
+E. C. Olson. 1958. Fauna of the Vale and Choza: Summary, and Integration of the Geology and the Faunas. Fieldiana Geology 10(32):397-448
 <!-- /evo:text -->
 
 ## pbdb-fossil-reader / occurrenceEvidence / bibliography
 
 <!-- evo:text /records/pbdb-fossil-reader/occurrenceEvidence/14/bibliography -->
-E. C. Olson. 1958. Fauna of the Vale and Choza: Summary, Review, and Integration of the Geology and the Faunas. Fieldiana Geology 10(32):397-448
+E. C. Olson. 1958. Fauna of the Vale and Choza: Summary, and Integration of the Geology and the Faunas. Fieldiana Geology 10(32):397-448
 <!-- /evo:text -->
 
 ## pbdb-fossil-reader / occurrenceEvidence / bibliography
@@ -715,11 +714,11 @@ J. Zidek, G.D. Johnson, and W. May, A. Claborn. 2003. New Specimens of Xenacanth
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/en -->
-A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed; no external expert review is claimed.
+A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
 <!-- /evo:text -->
 
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/zh -->
-本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对；没有外部专家审评。
+本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
 <!-- /evo:text -->

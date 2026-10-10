@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachytypotherium sp
       en: Trachytypotherium sp
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis caprifer
       zh: Pristimantis caprifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

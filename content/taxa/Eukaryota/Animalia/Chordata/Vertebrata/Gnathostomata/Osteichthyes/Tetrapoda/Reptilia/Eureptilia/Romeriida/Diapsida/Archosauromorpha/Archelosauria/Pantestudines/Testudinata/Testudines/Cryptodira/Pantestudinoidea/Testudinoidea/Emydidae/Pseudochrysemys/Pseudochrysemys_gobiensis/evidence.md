@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudochrysemys gobiensis
       en: Pseudochrysemys gobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

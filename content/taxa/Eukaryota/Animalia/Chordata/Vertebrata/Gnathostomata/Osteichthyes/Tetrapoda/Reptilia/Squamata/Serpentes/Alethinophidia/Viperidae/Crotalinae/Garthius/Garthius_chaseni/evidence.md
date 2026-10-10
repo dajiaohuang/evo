@@ -9,7 +9,6 @@ records:
     name:
       zh: Garthius chaseni
       en: Garthius chaseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

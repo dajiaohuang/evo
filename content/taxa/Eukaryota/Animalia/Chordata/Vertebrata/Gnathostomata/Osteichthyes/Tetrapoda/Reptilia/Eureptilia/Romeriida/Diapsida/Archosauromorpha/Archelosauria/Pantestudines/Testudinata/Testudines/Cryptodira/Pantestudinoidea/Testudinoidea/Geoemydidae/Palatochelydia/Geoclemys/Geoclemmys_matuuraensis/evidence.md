@@ -9,7 +9,6 @@ records:
     name:
       zh: Geoclemmys matuuraensis
       en: Geoclemmys matuuraensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

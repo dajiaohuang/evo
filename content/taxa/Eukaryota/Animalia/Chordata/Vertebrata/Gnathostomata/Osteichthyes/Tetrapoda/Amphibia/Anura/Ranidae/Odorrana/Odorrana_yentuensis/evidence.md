@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana yentuensis
       zh: Odorrana yentuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

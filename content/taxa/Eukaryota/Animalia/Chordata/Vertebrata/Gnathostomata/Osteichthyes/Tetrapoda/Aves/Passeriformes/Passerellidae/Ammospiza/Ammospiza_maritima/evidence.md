@@ -9,7 +9,6 @@ records:
     name:
       zh: Ammospiza maritima
       en: Ammospiza maritima
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus williamsi
       en: Liolaemus williamsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

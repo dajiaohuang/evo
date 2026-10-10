@@ -9,7 +9,6 @@ records:
     name:
       zh: Cisticola hunteri
       en: Cisticola hunteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

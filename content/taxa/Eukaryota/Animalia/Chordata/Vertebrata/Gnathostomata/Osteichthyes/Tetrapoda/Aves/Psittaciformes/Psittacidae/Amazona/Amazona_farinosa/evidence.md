@@ -9,7 +9,6 @@ records:
     name:
       zh: Amazona farinosa
       en: Amazona farinosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

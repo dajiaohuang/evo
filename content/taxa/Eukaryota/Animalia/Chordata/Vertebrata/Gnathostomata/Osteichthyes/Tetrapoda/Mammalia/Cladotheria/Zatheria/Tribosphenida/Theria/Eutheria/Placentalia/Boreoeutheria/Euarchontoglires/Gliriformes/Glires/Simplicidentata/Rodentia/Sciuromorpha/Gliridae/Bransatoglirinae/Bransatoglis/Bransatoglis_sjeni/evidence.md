@@ -9,7 +9,6 @@ records:
     name:
       zh: Bransatoglis sjeni
       en: Bransatoglis sjeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

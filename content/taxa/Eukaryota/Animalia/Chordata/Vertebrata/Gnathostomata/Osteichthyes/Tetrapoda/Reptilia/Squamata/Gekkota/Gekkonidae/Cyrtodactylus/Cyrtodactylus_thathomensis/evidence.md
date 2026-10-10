@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus thathomensis
       en: Cyrtodactylus thathomensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

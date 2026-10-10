@@ -9,7 +9,6 @@ records:
     name:
       zh: Puffinus spelaeus
       en: Puffinus spelaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

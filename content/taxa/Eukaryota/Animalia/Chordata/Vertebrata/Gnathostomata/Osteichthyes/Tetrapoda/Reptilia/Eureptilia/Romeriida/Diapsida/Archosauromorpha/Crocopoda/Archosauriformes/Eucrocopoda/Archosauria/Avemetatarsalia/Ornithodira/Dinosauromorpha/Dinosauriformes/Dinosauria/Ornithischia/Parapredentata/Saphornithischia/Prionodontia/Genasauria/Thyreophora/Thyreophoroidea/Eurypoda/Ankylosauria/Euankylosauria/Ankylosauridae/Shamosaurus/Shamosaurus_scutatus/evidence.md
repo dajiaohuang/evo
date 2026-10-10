@@ -9,7 +9,6 @@ records:
     name:
       zh: Shamosaurus scutatus
       en: Shamosaurus scutatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

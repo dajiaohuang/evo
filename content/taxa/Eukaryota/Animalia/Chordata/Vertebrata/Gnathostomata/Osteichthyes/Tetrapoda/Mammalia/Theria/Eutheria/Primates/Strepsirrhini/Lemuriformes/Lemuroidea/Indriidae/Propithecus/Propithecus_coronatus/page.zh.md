@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-观察与估算对应 2009—2010 年西北部选定地点的调查，不是当前总量或完整的全分布区估计。 本页未经过外部领域专家评审。
+观察与估算对应 2009—2010 年西北部选定地点的调查，不是当前总量或完整的全分布区估计。 。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus ochraventer
       en: Peromyscus ochraventer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

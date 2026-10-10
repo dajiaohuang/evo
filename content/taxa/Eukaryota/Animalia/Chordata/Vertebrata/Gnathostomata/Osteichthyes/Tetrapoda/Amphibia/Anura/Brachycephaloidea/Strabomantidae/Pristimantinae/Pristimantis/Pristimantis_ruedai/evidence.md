@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ruedai
       zh: Pristimantis ruedai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

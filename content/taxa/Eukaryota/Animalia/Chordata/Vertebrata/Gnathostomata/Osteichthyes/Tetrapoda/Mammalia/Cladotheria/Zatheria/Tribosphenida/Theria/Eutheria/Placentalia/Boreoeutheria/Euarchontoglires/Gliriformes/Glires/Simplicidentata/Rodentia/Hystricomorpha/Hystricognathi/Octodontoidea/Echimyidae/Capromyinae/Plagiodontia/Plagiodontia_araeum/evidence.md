@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagiodontia araeum
       en: Plagiodontia araeum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

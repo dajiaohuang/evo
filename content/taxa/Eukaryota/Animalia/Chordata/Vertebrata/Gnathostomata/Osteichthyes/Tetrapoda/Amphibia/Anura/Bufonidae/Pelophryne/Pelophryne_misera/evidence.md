@@ -9,7 +9,6 @@ records:
     name:
       en: Pelophryne misera
       zh: Pelophryne misera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

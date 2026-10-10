@@ -9,7 +9,6 @@ records:
     name:
       zh: Zarhachis flagellator
       en: Zarhachis flagellator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

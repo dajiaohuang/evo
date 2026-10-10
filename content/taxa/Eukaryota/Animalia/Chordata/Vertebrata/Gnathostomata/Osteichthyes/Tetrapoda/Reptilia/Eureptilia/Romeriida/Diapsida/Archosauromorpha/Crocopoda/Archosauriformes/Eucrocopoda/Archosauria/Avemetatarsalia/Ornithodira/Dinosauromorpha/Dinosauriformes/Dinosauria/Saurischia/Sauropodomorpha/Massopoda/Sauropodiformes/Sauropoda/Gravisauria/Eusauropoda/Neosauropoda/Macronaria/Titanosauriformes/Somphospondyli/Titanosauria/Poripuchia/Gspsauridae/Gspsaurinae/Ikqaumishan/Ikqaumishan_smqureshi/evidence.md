@@ -9,7 +9,6 @@ records:
     name:
       zh: Ikqaumishan smqureshi
       en: Ikqaumishan smqureshi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

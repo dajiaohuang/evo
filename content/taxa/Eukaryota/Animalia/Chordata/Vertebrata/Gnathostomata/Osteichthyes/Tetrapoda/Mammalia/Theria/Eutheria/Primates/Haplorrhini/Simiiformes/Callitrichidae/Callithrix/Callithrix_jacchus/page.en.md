@@ -16,7 +16,7 @@ In a captive study at the UZH Primate Station in Switzerland, six adult common m
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked captive pair-formation study guide, not externally expert-reviewed. It covers six adults, eight researcher-assigned dyads, and one station; it cannot establish wild mate choice, long-term pair maintenance, or species-wide social behavior.
+Source-linked captive pair-formation study guide. It covers six adults, eight researcher-assigned dyads, and one station; it cannot establish wild mate choice, long-term pair maintenance, or species-wide social behavior.
 <!-- /evo:text -->
 
 ## The name in the historical life-history record

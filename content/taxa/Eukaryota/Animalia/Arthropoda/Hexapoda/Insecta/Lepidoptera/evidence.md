@@ -9,7 +9,6 @@ records:
     name:
       zh: 鳞翅目
       en: Moths and butterflies
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

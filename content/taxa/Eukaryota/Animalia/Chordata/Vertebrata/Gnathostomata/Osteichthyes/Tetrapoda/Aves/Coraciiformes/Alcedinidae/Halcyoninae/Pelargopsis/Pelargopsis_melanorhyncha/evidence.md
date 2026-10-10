@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelargopsis melanorhyncha
       en: Pelargopsis melanorhyncha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

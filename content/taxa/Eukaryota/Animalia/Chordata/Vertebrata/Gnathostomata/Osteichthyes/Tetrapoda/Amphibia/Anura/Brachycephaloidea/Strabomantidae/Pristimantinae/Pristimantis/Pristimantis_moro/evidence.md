@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis moro
       zh: Pristimantis moro
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

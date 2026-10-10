@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracamelus alexejevi
       en: Paracamelus alexejevi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

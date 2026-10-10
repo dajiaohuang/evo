@@ -9,7 +9,6 @@ records:
     name:
       zh: Othnielmarshia reflexa
       en: Othnielmarshia reflexa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

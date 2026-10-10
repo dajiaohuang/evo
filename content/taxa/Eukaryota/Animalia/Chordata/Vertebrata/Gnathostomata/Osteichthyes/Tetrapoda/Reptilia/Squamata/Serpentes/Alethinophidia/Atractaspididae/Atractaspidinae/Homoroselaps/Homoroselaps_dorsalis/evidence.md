@@ -9,7 +9,6 @@ records:
     name:
       zh: Homoroselaps dorsalis
       en: Homoroselaps dorsalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

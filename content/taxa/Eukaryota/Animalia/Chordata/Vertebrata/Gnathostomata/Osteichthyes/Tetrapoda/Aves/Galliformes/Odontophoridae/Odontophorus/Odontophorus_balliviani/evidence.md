@@ -9,7 +9,6 @@ records:
     name:
       zh: Odontophorus balliviani
       en: Odontophorus balliviani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

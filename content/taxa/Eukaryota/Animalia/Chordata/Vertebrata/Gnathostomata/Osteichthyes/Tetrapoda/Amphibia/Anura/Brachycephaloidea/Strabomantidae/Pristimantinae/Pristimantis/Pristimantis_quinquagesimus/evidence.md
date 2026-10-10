@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis quinquagesimus
       zh: Pristimantis quinquagesimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

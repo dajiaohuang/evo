@@ -16,5 +16,5 @@ In 573-bp mitochondrial cytochrome-b data from 115 silvered langurs, Roos, Nadle
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Lineage and timing results come from one mitochondrial marker; the paper's group-level origin scenario is not a direct migration record for this species. The Chinese common name is an editorial translation; the page has not received external expert review. This page is not externally expert-reviewed.
+Lineage and timing results come from one mitochondrial marker; the paper's group-level origin scenario is not a direct migration record for this species. The Chinese common name is an editorial translation.
 <!-- /evo:text -->

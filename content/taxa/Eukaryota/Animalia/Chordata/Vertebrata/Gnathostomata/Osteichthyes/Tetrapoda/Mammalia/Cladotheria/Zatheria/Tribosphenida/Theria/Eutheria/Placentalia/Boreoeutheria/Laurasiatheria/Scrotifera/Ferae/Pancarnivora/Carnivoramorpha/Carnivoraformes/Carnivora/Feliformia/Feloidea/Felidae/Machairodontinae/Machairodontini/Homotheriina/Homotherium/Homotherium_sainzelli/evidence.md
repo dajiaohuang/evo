@@ -9,7 +9,6 @@ records:
     name:
       zh: Homotherium sainzelli
       en: Homotherium sainzelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

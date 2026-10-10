@@ -9,7 +9,6 @@ records:
     name:
       zh: Drymobius melanotropis
       en: Drymobius melanotropis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

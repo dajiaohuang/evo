@@ -9,7 +9,6 @@ records:
     name:
       en: Zanzibar Red Colobus
       zh: 桑给巴尔红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllodytes wuchereri
       zh: Phyllodytes wuchereri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

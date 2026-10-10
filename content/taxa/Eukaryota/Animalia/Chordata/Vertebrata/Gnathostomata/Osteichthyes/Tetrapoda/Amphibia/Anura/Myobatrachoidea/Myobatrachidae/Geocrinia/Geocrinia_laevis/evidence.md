@@ -9,7 +9,6 @@ records:
     name:
       en: Geocrinia laevis
       zh: Geocrinia laevis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

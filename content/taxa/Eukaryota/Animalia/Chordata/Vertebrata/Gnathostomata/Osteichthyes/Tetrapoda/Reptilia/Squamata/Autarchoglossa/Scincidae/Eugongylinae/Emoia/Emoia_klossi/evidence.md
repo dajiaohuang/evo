@@ -9,7 +9,6 @@ records:
     name:
       zh: Emoia klossi
       en: Emoia klossi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

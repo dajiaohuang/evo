@@ -9,7 +9,6 @@ records:
     name:
       zh: Malurus cyanocephalus
       en: Malurus cyanocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

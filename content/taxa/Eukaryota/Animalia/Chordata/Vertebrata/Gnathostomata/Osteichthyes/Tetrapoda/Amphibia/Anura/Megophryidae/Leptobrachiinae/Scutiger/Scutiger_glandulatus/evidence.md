@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger glandulatus
       zh: Scutiger glandulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

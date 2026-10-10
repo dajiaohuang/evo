@@ -22,5 +22,5 @@ Distance sampling estimated density at 8.31 individuals/km²; extrapolation gave
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Density, population size, extent and forest-loss projection are estimates tied to 2012–2015 fieldwork and the paper's assumptions. The recommendation is the authors' dated recommendation, not a present-day reassessment.
+Source-linked introduction;. Density, population size, extent and forest-loss projection are estimates tied to 2012–2015 fieldwork and the paper's assumptions. The recommendation is the authors' dated recommendation, not a present-day reassessment.
 <!-- /evo:text -->

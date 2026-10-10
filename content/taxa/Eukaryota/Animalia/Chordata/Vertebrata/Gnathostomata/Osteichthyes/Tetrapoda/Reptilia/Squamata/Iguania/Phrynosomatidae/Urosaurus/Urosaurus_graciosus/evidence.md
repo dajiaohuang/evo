@@ -9,7 +9,6 @@ records:
     name:
       zh: Urosaurus graciosus
       en: Urosaurus graciosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

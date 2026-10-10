@@ -9,7 +9,6 @@ records:
     name:
       zh: Hapalomys delacouri
       en: Hapalomys delacouri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

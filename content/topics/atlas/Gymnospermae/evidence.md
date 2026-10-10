@@ -26,11 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: gillespie-1981-earliest-seeds
           relation: supports
@@ -73,7 +68,6 @@ records:
           locator: pp. 462–464; Figure 1
         - referenceId: ran-2018-gymnosperm-phylogenomics
           locator: article 20181012, pp. 1–9; Figures 1–2
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

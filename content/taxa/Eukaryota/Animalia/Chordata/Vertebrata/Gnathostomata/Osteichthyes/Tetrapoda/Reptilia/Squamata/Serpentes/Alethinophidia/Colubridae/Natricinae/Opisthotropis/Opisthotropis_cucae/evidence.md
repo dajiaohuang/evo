@@ -9,7 +9,6 @@ records:
     name:
       zh: Opisthotropis cucae
       en: Opisthotropis cucae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

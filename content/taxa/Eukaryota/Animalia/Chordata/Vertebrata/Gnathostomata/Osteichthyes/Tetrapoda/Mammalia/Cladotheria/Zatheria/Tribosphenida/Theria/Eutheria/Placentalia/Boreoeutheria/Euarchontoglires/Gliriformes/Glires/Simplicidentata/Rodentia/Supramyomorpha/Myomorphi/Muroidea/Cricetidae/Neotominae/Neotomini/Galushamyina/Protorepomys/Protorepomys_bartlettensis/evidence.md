@@ -9,7 +9,6 @@ records:
     name:
       zh: Protorepomys bartlettensis
       en: Protorepomys bartlettensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

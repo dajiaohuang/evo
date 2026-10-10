@@ -9,7 +9,6 @@ records:
     name:
       zh: Campestrallomys dawsonae
       en: Campestrallomys dawsonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

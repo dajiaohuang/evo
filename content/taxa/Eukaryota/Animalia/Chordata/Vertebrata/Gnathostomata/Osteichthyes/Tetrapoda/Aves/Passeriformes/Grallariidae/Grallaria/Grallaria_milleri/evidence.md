@@ -9,7 +9,6 @@ records:
     name:
       zh: Grallaria milleri
       en: Grallaria milleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

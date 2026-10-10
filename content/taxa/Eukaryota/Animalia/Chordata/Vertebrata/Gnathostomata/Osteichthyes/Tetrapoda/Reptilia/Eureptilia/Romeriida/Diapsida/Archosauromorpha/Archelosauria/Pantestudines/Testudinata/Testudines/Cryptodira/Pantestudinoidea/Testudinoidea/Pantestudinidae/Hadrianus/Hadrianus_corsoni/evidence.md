@@ -9,7 +9,6 @@ records:
     name:
       zh: Hadrianus corsoni
       en: Hadrianus corsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

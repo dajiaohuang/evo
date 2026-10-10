@@ -9,7 +9,6 @@ records:
     name:
       zh: Mergellus albellus
       en: Mergellus albellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

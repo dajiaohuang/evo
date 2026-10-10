@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrophis spiralis
       en: Hydrophis spiralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

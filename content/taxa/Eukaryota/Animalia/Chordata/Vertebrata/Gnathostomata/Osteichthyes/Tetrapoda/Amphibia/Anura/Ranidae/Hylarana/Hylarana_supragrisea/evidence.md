@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana supragrisea
       zh: Hylarana supragrisea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

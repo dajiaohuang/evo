@@ -9,7 +9,6 @@ records:
     name:
       zh: Prototaria planicephala
       en: Prototaria planicephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

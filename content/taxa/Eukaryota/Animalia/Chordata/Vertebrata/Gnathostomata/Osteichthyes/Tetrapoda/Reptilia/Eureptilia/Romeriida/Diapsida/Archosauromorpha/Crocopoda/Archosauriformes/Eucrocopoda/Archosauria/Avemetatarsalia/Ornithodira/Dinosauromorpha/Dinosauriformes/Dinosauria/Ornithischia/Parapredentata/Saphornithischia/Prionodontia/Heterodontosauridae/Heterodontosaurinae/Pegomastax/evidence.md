@@ -9,7 +9,6 @@ records:
     name:
       zh: Pegomastax
       en: Pegomastax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Manucodia jobiensis
       en: Manucodia jobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

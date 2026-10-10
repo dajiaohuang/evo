@@ -9,7 +9,6 @@ records:
     name:
       zh: Uropeltis rubromaculata
       en: Uropeltis rubromaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

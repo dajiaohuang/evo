@@ -9,7 +9,6 @@ records:
     name:
       zh: Euptilotis neoxenus
       en: Euptilotis neoxenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: janvier-1981-fossil-agnathans DOI 10.1080/02724634.1981.10011886; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: janvier-1981-fossil-agnathans
@@ -48,9 +45,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: janvier-2008-cyclostome-origins; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: janvier-2008-cyclostome-origins
@@ -90,7 +84,6 @@ records:
       referenceLocators:
         - referenceId: janvier-2008-cyclostome-origins
           locator: 1045–1056; Review diagrams and fossil-group discussion; Abstract; fossil agnathans and cyclostome-origin discussion
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

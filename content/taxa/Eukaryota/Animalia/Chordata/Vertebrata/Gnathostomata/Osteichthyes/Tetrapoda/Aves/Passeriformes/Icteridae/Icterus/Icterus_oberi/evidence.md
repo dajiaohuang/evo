@@ -9,7 +9,6 @@ records:
     name:
       zh: Icterus oberi
       en: Icterus oberi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

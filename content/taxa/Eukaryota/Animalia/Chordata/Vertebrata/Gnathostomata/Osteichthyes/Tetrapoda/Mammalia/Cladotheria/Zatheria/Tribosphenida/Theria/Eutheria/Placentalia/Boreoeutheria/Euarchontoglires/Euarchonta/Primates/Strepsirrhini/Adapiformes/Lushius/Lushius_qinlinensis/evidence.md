@@ -9,7 +9,6 @@ records:
     name:
       zh: Lushius qinlinensis
       en: Lushius qinlinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

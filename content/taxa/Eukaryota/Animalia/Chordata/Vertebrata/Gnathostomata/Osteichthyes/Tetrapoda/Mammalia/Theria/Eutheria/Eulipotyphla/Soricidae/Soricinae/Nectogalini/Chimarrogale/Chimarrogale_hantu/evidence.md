@@ -9,7 +9,6 @@ records:
     name:
       zh: Chimarrogale hantu
       en: Chimarrogale hantu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

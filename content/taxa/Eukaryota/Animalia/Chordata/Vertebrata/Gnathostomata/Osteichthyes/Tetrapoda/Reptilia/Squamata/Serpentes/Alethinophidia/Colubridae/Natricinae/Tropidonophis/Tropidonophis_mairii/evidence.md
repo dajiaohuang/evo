@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidonophis mairii
       en: Tropidonophis mairii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

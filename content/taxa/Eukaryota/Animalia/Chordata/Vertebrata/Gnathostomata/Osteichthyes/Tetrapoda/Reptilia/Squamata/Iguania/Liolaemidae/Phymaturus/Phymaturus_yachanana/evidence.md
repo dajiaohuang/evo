@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus yachanana
       en: Phymaturus yachanana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

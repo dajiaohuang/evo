@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana flavescens
       zh: Hylarana flavescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

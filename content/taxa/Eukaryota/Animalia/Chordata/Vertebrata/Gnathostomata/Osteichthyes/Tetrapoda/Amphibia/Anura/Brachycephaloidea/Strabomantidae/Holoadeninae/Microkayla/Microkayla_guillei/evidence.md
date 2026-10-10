@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla guillei
       zh: Microkayla guillei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

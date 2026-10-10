@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinraptor hepingensis
       en: Sinraptor hepingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

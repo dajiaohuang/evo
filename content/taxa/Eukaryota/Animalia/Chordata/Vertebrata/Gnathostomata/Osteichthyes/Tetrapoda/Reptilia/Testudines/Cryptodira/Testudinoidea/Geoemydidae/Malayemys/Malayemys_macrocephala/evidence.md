@@ -9,7 +9,6 @@ records:
     name:
       zh: Malayemys macrocephala
       en: Malayemys macrocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

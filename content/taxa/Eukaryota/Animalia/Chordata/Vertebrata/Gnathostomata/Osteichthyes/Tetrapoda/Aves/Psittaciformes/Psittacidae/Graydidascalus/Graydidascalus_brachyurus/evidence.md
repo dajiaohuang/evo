@@ -9,7 +9,6 @@ records:
     name:
       zh: Graydidascalus brachyurus
       en: Graydidascalus brachyurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

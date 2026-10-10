@@ -9,7 +9,6 @@ records:
     name:
       zh: Diatomys shantungensis
       en: Diatomys shantungensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

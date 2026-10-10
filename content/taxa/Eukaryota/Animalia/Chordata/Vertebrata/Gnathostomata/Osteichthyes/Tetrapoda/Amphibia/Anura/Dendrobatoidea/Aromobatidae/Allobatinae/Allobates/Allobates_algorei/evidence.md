@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates algorei
       zh: Allobates algorei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

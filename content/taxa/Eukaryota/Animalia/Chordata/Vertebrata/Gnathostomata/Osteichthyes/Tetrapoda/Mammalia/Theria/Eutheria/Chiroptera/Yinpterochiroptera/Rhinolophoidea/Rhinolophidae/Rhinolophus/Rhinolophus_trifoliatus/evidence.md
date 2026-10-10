@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus trifoliatus
       en: Rhinolophus trifoliatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

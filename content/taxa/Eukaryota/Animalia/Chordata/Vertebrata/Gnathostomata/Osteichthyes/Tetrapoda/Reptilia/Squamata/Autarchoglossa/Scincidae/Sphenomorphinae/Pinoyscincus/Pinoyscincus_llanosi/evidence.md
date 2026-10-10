@@ -9,7 +9,6 @@ records:
     name:
       zh: Pinoyscincus llanosi
       en: Pinoyscincus llanosi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aphanobelodon zhaoi
       en: Aphanobelodon zhaoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

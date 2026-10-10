@@ -9,7 +9,6 @@ records:
     name:
       zh: Anas crecca
       en: Anas crecca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor fitzingeri
       zh: Craugastor fitzingeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

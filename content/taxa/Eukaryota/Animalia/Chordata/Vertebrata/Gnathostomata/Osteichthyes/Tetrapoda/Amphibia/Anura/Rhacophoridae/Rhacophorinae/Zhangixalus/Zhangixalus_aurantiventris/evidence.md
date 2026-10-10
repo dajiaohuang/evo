@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus aurantiventris
       zh: Zhangixalus aurantiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

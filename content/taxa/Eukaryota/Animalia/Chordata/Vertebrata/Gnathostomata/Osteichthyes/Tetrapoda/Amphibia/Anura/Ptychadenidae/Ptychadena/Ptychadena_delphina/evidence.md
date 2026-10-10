@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena delphina
       zh: Ptychadena delphina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

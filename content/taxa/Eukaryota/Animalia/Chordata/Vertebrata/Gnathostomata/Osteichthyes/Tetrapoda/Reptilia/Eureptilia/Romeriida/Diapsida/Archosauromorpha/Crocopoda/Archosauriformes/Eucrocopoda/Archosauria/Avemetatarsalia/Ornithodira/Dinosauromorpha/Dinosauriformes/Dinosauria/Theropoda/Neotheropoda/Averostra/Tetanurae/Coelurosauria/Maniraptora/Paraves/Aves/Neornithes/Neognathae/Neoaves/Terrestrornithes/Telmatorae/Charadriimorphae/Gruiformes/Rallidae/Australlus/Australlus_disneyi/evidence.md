@@ -9,7 +9,6 @@ records:
     name:
       zh: Australlus disneyi
       en: Australlus disneyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

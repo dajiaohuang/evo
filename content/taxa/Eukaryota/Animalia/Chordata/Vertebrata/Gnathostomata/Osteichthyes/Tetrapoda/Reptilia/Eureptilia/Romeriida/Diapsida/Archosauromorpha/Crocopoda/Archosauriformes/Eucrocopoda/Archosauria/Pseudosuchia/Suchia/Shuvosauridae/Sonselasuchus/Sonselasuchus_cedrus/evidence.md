@@ -9,7 +9,6 @@ records:
     name:
       zh: Sonselasuchus cedrus
       en: Sonselasuchus cedrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurhinodelphis cocheteuxi
       en: Eurhinodelphis cocheteuxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

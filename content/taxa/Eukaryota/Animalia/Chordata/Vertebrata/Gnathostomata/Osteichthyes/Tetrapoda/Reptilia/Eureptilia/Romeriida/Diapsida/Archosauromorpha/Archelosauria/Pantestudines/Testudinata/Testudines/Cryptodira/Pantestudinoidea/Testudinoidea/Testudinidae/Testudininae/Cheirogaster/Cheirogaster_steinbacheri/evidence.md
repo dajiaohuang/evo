@@ -9,7 +9,6 @@ records:
     name:
       zh: Cheirogaster steinbacheri
       en: Cheirogaster steinbacheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

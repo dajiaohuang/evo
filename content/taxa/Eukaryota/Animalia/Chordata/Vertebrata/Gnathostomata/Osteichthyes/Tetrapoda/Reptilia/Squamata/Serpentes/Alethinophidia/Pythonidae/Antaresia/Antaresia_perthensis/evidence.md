@@ -9,7 +9,6 @@ records:
     name:
       zh: Antaresia perthensis
       en: Antaresia perthensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

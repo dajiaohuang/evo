@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyramiodontherium bergi
       en: Pyramiodontherium bergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

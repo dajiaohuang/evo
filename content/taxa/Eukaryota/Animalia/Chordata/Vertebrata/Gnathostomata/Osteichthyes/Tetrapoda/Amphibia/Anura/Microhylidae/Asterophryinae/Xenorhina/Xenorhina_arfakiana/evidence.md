@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina arfakiana
       zh: Xenorhina arfakiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

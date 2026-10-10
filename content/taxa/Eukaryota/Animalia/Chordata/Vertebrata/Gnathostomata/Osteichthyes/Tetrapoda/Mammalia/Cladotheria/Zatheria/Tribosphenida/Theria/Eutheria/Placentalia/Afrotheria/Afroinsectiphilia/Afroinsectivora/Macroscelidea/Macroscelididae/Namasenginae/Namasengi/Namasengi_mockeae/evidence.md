@@ -9,7 +9,6 @@ records:
     name:
       zh: Namasengi mockeae
       en: Namasengi mockeae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

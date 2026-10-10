@@ -9,7 +9,6 @@ records:
     name:
       en: Taudactylus rheophilus
       zh: Taudactylus rheophilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

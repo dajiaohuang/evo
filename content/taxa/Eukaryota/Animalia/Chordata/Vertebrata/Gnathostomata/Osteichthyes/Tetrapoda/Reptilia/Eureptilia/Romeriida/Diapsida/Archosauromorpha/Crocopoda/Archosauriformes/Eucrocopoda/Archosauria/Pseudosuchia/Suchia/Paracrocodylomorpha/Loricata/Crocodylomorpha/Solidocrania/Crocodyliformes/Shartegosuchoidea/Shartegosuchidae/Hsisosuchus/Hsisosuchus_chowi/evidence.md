@@ -9,7 +9,6 @@ records:
     name:
       zh: Hsisosuchus chowi
       en: Hsisosuchus chowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Chlorohyla callista
       zh: Chlorohyla callista
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

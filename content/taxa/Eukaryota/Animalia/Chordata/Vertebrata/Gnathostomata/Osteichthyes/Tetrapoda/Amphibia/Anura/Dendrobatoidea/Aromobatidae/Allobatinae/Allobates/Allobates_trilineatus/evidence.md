@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates trilineatus
       zh: Allobates trilineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

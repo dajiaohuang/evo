@@ -9,7 +9,6 @@ records:
     name:
       en: Tomopterna krugerensis
       zh: Tomopterna krugerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

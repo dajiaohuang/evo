@@ -9,7 +9,6 @@ records:
     name:
       zh: Albertocetus meffordorum
       en: Albertocetus meffordorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

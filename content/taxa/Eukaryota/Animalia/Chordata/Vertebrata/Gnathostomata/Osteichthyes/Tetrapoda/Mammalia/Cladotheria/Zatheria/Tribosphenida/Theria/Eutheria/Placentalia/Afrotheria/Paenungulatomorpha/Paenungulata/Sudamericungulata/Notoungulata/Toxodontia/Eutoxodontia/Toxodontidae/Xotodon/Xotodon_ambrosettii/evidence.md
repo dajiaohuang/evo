@@ -9,7 +9,6 @@ records:
     name:
       zh: Xotodon ambrosettii
       en: Xotodon ambrosettii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

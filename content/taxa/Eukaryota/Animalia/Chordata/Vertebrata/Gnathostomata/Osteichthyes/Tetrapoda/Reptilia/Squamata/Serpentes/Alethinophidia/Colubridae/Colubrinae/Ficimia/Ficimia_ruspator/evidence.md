@@ -9,7 +9,6 @@ records:
     name:
       zh: Ficimia ruspator
       en: Ficimia ruspator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

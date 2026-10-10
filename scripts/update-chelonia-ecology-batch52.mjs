@@ -110,10 +110,8 @@ dossier.completeness = {
     'Life history remains supported by one rookery-specific nesting source; ecology now adds one bounded study of green-turtle grazing effects in a single seagrass meadow.',
     'Morphology, evolution, distribution, fossil evidence and conservation remain not assessed; life history and ecology are not complete reviews.',
     'The ecological source combines simulated clipping with local natural-grazing comparisons and does not directly measure long-term sediment carbon stocks or range-wide population effects.',
-    'Independent external expert review has not been completed.',
   ],
 }
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
 assert.equal(dossier.facets.ecology.claims.length, 1)
 assert.ok(dossier.facets.ecology.claims.every(claim => claim.sourceIds?.every(id => dossier.sources.some(item => item.id === id))))

@@ -9,7 +9,6 @@ records:
     name:
       en: Conraua crassipes
       zh: Conraua crassipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

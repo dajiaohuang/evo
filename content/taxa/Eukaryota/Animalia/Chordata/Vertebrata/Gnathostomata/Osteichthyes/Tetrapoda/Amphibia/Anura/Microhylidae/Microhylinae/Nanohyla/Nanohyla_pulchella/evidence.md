@@ -9,7 +9,6 @@ records:
     name:
       en: Nanohyla pulchella
       zh: Nanohyla pulchella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

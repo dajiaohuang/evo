@@ -9,7 +9,6 @@ records:
     name:
       zh: Alinea luciae
       en: Alinea luciae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

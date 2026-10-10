@@ -9,7 +9,6 @@ records:
     name:
       zh: Sicista betulina
       en: Sicista betulina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

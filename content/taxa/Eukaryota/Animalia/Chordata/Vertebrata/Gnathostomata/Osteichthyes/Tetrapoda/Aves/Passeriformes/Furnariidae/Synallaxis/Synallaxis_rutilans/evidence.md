@@ -9,7 +9,6 @@ records:
     name:
       zh: Synallaxis rutilans
       en: Synallaxis rutilans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

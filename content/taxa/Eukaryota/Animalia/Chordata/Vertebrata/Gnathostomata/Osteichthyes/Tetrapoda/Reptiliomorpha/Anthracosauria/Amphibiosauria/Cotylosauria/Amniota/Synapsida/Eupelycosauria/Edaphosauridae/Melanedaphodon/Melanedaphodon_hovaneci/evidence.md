@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanedaphodon hovaneci
       en: Melanedaphodon hovaneci
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

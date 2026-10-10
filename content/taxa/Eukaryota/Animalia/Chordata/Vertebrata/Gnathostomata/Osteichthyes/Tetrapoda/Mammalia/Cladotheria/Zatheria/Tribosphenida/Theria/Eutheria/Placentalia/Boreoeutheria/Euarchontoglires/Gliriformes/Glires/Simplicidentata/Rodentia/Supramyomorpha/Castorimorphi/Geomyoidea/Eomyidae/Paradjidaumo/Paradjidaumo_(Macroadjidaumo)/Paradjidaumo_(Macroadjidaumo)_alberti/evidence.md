@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradjidaumo (Macroadjidaumo) alberti
       en: Paradjidaumo (Macroadjidaumo) alberti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

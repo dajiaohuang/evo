@@ -28,7 +28,7 @@ All fourteen rows have Migration=1, but niche comprises twelve Invertivore rows,
 ## Enter through older names and measurement scope
 
 <!-- evo:text /records/catalogue-profile/sections/3/text/en -->
-Read older Garrulax names and the two unconfirmed catalogue synonyms before complete-set denominators, compiled mass and ecological categories. These fourteen routes do not replace plumage, calls, breeding, current maps or expert review:
+Read older Garrulax names and the two unconfirmed catalogue synonyms before complete-set denominators, compiled mass and ecological categories. These fourteen routes do not replace plumage, calls, breeding, current maps:
 
 - 1: [Trochalopteron variegatum](Trochalopteron_variegatum/page.en.md), [Trochalopteron erythrocephalum](Trochalopteron_erythrocephalum/page.en.md), [Trochalopteron chrysopterum](Trochalopteron_chrysopterum/page.en.md), [Trochalopteron melanostigma](Trochalopteron_melanostigma/page.en.md), [Trochalopteron peninsulae](Trochalopteron_peninsulae/page.en.md)
 - 2: [Trochalopteron lineatum](Trochalopteron_lineatum/page.en.md), [Trochalopteron squamatum](Trochalopteron_squamatum/page.en.md), [Trochalopteron elliotii](Trochalopteron_elliotii/page.en.md), [Trochalopteron austeni](Trochalopteron_austeni/page.en.md), [Trochalopteron imbricatum](Trochalopteron_imbricatum/page.en.md)
@@ -38,5 +38,5 @@ Read older Garrulax names and the two unconfirmed catalogue synonyms before comp
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page uses the relevant selected historical AVONET v7 rows, crosswalks, Metadata definitions and local COL tro/ga name shards. Source family spelling Leiotrichidae is retained separately from catalogue Leiothrichidae, without claiming an exact family-name match. Morphology birds, complete sets and compiled mass keep separate denominators; one-to-one names or synonym links do not guarantee identical species concepts across dates. Individual specimens, Dunning’s book, the whole workbook and a new full methods-paper reading were not examined. Current range, conservation, plumage, calls, breeding, observed diets and movement paths are outside the evidence here. No expert review or complete natural-history monograph is counted.
+This page uses the relevant selected historical AVONET v7 rows, crosswalks, Metadata definitions and local COL tro/ga name shards. Source family spelling Leiotrichidae is retained separately from catalogue Leiothrichidae, without claiming an exact family-name match. Morphology birds, complete sets and compiled mass keep separate denominators; one-to-one names or synonym links do not guarantee identical species concepts across dates. Individual specimens, Dunning’s book, the whole workbook and a new full methods-paper reading were not examined. Current range, conservation, plumage, calls, breeding, observed diets and movement paths are outside the evidence here.
 <!-- /evo:text -->

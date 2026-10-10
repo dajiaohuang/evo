@@ -9,7 +9,6 @@ records:
     name:
       en: Plectrohyla calvata
       zh: Plectrohyla calvata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

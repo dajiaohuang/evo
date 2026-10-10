@@ -9,7 +9,6 @@ records:
     name:
       en: Occidozyga
       zh: Occidozyga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

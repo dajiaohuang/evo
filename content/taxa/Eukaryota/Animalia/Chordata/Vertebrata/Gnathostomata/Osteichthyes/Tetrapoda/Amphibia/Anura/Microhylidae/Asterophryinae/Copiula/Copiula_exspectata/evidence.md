@@ -9,7 +9,6 @@ records:
     name:
       en: Copiula exspectata
       zh: Copiula exspectata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Enaliarctos barnesi
       en: Enaliarctos barnesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

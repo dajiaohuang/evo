@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo phosphoritarum
       en: Testudo phosphoritarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

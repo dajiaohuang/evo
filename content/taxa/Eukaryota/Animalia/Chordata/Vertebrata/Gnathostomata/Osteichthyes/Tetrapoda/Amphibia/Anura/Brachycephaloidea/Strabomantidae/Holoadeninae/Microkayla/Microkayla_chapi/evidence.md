@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla chapi
       zh: Microkayla chapi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

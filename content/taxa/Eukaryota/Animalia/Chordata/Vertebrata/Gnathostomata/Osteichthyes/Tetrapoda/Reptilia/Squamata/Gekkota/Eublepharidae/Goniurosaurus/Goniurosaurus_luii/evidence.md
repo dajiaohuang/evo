@@ -9,7 +9,6 @@ records:
     name:
       zh: Goniurosaurus luii
       en: Goniurosaurus luii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

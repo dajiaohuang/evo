@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycetus wardii
       en: Pachycetus wardii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

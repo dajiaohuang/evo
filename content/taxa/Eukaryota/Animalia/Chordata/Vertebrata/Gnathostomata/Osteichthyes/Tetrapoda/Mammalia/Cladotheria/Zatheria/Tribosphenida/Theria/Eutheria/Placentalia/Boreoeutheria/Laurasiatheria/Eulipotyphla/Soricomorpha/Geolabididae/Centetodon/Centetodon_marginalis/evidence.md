@@ -9,7 +9,6 @@ records:
     name:
       zh: Centetodon marginalis
       en: Centetodon marginalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

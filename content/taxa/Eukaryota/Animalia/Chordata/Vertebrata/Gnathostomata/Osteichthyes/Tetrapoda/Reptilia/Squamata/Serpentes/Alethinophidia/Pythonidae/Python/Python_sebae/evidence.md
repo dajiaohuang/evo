@@ -9,7 +9,6 @@ records:
     name:
       zh: Python sebae
       en: Python sebae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

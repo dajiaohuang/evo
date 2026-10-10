@@ -9,7 +9,6 @@ records:
     name:
       en: Megastomatohyla nubicola
       zh: Megastomatohyla nubicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

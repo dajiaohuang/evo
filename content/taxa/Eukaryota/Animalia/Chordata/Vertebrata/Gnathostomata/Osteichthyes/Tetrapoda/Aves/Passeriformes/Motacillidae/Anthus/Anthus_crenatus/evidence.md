@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus crenatus
       en: Anthus crenatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

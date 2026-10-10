@@ -9,7 +9,6 @@ records:
     name:
       en: Limnodynastes dumerilii
       zh: Limnodynastes dumerilii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

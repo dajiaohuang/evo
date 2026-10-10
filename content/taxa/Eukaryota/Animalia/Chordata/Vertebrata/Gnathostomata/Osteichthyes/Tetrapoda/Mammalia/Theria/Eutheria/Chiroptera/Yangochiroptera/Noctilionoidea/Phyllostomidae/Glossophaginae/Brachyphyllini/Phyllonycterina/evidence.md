@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllonycterina
       en: Phyllonycterina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

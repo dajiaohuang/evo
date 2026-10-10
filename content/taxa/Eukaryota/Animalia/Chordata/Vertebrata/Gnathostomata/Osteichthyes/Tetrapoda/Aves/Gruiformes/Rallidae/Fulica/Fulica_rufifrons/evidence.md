@@ -9,7 +9,6 @@ records:
     name:
       zh: Fulica rufifrons
       en: Fulica rufifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

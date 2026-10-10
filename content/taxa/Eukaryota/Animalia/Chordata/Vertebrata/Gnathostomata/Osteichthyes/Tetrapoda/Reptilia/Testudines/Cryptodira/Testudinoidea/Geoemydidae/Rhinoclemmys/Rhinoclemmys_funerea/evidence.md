@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinoclemmys funerea
       en: Rhinoclemmys funerea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus patriciaiturrae
       en: Liolaemus patriciaiturrae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus tricolor
       zh: Atelopus tricolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

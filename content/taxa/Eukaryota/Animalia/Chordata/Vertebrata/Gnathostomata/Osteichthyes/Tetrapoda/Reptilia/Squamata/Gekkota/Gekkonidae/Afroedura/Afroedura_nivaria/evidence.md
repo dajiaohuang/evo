@@ -9,7 +9,6 @@ records:
     name:
       zh: Afroedura nivaria
       en: Afroedura nivaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

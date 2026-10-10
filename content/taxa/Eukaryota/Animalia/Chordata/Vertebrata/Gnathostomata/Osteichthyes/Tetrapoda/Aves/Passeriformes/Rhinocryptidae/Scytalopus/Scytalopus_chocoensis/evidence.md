@@ -9,7 +9,6 @@ records:
     name:
       zh: Scytalopus chocoensis
       en: Scytalopus chocoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

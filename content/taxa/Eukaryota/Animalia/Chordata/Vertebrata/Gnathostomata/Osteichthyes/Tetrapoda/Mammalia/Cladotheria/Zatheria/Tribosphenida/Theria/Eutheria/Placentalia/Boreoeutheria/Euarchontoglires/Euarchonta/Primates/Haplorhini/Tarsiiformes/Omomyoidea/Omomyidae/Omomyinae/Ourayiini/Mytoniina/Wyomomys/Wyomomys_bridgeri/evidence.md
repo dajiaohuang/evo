@@ -9,7 +9,6 @@ records:
     name:
       zh: Wyomomys bridgeri
       en: Wyomomys bridgeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aprasia rostrata
       en: Aprasia rostrata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

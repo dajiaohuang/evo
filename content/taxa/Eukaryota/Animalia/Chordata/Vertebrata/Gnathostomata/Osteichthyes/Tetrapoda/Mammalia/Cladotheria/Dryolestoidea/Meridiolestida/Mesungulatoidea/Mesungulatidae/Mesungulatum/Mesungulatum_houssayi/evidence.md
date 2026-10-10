@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesungulatum houssayi
       en: Mesungulatum houssayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

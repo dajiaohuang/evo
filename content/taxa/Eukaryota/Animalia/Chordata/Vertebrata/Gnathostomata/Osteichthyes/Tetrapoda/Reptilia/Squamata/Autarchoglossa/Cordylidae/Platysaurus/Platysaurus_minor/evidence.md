@@ -9,7 +9,6 @@ records:
     name:
       zh: Platysaurus minor
       en: Platysaurus minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

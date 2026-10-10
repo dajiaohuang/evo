@@ -9,7 +9,6 @@ records:
     name:
       zh: Tenuibrachiatum storchi
       en: Tenuibrachiatum storchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

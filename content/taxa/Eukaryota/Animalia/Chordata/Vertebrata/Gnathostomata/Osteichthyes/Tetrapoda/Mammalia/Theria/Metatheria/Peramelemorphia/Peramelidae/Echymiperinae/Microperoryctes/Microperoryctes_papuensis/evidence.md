@@ -9,7 +9,6 @@ records:
     name:
       zh: Microperoryctes papuensis
       en: Microperoryctes papuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

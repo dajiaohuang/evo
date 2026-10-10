@@ -9,7 +9,6 @@ records:
     name:
       zh: Primoprismus fejfari
       en: Primoprismus fejfari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

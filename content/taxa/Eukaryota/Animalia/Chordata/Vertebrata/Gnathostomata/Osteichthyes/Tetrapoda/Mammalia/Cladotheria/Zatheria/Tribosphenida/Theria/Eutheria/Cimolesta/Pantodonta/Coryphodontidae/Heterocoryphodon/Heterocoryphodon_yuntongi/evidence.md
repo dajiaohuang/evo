@@ -9,7 +9,6 @@ records:
     name:
       zh: Heterocoryphodon yuntongi
       en: Heterocoryphodon yuntongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

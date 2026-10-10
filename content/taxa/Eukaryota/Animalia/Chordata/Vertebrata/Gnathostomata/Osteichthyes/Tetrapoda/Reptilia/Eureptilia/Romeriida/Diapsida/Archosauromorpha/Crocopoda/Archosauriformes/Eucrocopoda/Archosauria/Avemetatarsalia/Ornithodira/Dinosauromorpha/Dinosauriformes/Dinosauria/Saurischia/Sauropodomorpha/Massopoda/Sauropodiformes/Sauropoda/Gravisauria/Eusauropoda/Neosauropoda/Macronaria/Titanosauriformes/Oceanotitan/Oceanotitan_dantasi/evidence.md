@@ -9,7 +9,6 @@ records:
     name:
       zh: Oceanotitan dantasi
       en: Oceanotitan dantasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

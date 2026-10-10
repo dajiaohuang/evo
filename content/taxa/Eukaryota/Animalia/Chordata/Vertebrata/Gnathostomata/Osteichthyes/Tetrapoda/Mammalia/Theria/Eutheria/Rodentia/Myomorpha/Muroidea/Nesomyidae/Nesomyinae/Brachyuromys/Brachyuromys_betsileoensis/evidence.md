@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyuromys betsileoensis
       en: Brachyuromys betsileoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

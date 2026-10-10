@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrrhura hoematotis
       en: Pyrrhura hoematotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

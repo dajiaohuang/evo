@@ -9,7 +9,6 @@ records:
     name:
       zh: Megasorex
       en: Megasorex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

@@ -9,7 +9,6 @@ records:
     name:
       zh: Podocnemis medemi
       en: Podocnemis medemi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

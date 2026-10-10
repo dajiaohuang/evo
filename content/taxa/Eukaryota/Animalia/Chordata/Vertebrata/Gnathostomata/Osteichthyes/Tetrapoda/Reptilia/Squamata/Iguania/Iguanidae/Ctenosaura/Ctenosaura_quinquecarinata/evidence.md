@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenosaura quinquecarinata
       en: Ctenosaura quinquecarinata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

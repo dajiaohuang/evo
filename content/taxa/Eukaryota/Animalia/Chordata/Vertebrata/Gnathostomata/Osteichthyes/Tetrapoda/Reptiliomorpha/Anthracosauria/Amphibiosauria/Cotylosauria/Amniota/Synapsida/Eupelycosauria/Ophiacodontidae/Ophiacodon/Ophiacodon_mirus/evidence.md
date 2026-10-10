@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophiacodon mirus
       en: Ophiacodon mirus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

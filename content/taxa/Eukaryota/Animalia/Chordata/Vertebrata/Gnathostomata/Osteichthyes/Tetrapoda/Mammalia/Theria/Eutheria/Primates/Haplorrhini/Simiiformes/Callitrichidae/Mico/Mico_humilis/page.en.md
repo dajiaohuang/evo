@@ -22,5 +22,5 @@ The same short paper presented the first sonogram analysis of the long call and 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. This page follows COL26.8 as Mico humilis, while the field article used Callibella humilis. MDD records Callibella as a subgenus and notes differing generic treatments. The range statement comes from two records, not a current full-range assessment.
+Source-linked introduction;. This page follows COL26.8 as Mico humilis, while the field article used Callibella humilis. MDD records Callibella as a subgenus and notes differing generic treatments. The range statement comes from two records, not a current full-range assessment.
 <!-- /evo:text -->

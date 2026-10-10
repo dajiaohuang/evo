@@ -9,7 +9,6 @@ records:
     name:
       zh: Propleopus chillagoensis
       en: Propleopus chillagoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

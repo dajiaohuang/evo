@@ -9,7 +9,6 @@ records:
     name:
       zh: Eohyrax rusticus
       en: Eohyrax rusticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

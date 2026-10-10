@@ -9,7 +9,6 @@ records:
     name:
       en: Nectophrynoides viviparus
       zh: Nectophrynoides viviparus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

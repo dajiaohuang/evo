@@ -9,7 +9,6 @@ records:
     name:
       en: Julianus pinimus
       zh: Julianus pinimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

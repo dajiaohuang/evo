@@ -9,7 +9,6 @@ records:
     name:
       en: Lathrana
       zh: Lathrana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton zaimeng
       zh: Tylototriton zaimeng
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

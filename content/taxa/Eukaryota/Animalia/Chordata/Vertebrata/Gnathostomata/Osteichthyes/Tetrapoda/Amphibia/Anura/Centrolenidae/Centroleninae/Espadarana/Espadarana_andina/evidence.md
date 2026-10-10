@@ -9,7 +9,6 @@ records:
     name:
       en: Espadarana andina
       zh: Espadarana andina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

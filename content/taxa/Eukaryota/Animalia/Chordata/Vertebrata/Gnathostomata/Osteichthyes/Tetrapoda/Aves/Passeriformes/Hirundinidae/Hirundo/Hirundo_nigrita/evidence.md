@@ -9,7 +9,6 @@ records:
     name:
       zh: Hirundo nigrita
       en: Hirundo nigrita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

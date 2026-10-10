@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑头夜猴
       en: Black-headed night monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

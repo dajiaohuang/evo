@@ -9,7 +9,6 @@ records:
     name:
       zh: Solomys salamonis
       en: Solomys salamonis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

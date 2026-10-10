@@ -9,7 +9,6 @@ records:
     name:
       zh: Borealochelys axelheibergensis
       en: Borealochelys axelheibergensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

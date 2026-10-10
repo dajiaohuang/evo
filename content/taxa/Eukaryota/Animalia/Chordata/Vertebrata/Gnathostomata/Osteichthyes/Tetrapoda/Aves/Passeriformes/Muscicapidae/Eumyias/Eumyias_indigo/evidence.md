@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumyias indigo
       en: Eumyias indigo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

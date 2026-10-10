@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutypomys inexpectatus
       en: Eutypomys inexpectatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

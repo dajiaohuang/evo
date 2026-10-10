@@ -9,7 +9,6 @@ records:
     name:
       zh: Bavayia robusta
       en: Bavayia robusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

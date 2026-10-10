@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega macero
       zh: Ameerega macero
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

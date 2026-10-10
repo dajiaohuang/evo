@@ -9,7 +9,6 @@ records:
     name:
       zh: Spalax galili
       en: Spalax galili
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 巴蒂斯塔湖绢毛猴
       en: Lake Baptista Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zaglossus bruijni
       en: Zaglossus bruijni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nanorana quadranus
       zh: Nanorana quadranus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

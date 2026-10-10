@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeociconia australis
       en: Palaeociconia australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

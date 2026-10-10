@@ -9,7 +9,6 @@ records:
     name:
       zh: Trioceros fuelleborni
       en: Trioceros fuelleborni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

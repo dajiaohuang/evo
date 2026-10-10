@@ -202,7 +202,7 @@ unresolved-current-equivalence
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This reader summarizes the retained species-focused research. Study subjects, places, dates and experimental conditions are bounded in each section. The seven-facet dossier remains incomplete; unassessed topics and unresolved questions are retained. No external expert review has occurred. This reader is not externally expert-reviewed.
+This reader summarizes the retained species-focused research. Study subjects, places, dates and experimental conditions are bounded in each section. The seven-facet dossier remains incomplete; unassessed topics and unresolved questions are retained. This reader is.
 <!-- /evo:text -->
 
 ## Research text pending

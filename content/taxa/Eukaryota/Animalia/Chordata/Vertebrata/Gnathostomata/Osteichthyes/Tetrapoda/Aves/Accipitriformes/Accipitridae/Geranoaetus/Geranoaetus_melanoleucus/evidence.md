@@ -9,7 +9,6 @@ records:
     name:
       zh: Geranoaetus melanoleucus
       en: Geranoaetus melanoleucus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

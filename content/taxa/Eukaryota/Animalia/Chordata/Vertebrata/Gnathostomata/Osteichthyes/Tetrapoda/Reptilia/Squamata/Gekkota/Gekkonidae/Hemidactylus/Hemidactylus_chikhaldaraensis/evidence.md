@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus chikhaldaraensis
       en: Hemidactylus chikhaldaraensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

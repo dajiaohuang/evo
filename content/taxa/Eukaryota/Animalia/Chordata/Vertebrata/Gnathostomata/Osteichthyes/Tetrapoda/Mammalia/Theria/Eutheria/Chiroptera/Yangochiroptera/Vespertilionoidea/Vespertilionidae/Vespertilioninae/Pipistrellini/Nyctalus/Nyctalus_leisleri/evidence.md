@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctalus leisleri
       en: Nyctalus leisleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

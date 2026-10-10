@@ -2,14 +2,18 @@ import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { gunzipSync, strFromU8 } from 'fflate'
 import { describe, expect, it } from 'vitest'
-import { applicationManifest, encodeApplicationReferences, applicationDataPlugin } from './application-data.mjs'
+import { applicationManifest, encodeApplicationData, applicationDataPlugin } from './application-data.mjs'
 
-const decode = source => JSON.parse(strFromU8(gunzipSync(Uint8Array.from(atob(encodeApplicationReferences(source)), value => value.charCodeAt(0)))))
+const decode = source => JSON.parse(strFromU8(gunzipSync(Uint8Array.from(atob(encodeApplicationData(source)), value => value.charCodeAt(0)))))
 
 describe('application source metadata encoding', () => {
   it('preserves every recorded reference field, variant and ordered contributor', () => {
     const references = JSON.parse(readFileSync('data/references.json', 'utf8'))
     expect(decode(references)).toEqual(references)
+    for (const path of ['data/navigation/atlas-ontology.json', 'data/registry/taxon-profiles.json', 'data/events.json', 'data/evidence/claims.json', 'data/registry/entities/entities.json']) {
+      const data = JSON.parse(readFileSync(path, 'utf8'))
+      expect(decode(data)).toEqual(data)
+    }
     expect(decode([{ title: '中文\u2029é', authors: ['A', 'B'], variants: [{ raw: '  exact source  ' }] }])).toEqual([{ title: '中文\u2029é', authors: ['A', 'B'], variants: [{ raw: '  exact source  ' }] }])
   })
   it('retains all displayed manifest metadata and leaves the source checksum table intact', () => {
@@ -24,5 +28,6 @@ describe('application source metadata encoding', () => {
     expect(plugin.resolveId('../../data/manifest.json', importer)).toBe('\0evo:application-manifest')
     expect(plugin.resolveId('../../data/manifest.json?raw', importer)).toBeUndefined()
     expect(plugin.resolveId('../../data/references.json', importer)).toBe('\0evo:application-references')
+    expect(plugin.resolveId('../../data/navigation/atlas-ontology.json', importer)).toBe('\0evo:application-ontology')
   })
 })

@@ -9,7 +9,6 @@ records:
     name:
       en: Scaphiopus couchii
       zh: Scaphiopus couchii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

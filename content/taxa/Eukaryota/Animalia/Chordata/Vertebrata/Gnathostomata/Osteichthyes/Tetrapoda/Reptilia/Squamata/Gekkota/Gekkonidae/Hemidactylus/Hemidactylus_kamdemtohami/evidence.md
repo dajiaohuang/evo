@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus kamdemtohami
       en: Hemidactylus kamdemtohami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

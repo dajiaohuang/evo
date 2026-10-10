@@ -9,7 +9,6 @@ records:
     name:
       zh: Liopeltis philippina
       en: Liopeltis philippina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

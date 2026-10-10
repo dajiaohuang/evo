@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus catenifer
       en: Ctenotus catenifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

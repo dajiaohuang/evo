@@ -9,7 +9,6 @@ records:
     name:
       en: Kaloula walteri
       zh: Kaloula walteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -10,7 +10,6 @@ records:
     name:
       zh: 东部黑掌狨
       en: Eastern Black-handed Tamarin
-    reviewStatus: source-linked
     sections:
       - topic: taxonomyAndIdentification
         text:

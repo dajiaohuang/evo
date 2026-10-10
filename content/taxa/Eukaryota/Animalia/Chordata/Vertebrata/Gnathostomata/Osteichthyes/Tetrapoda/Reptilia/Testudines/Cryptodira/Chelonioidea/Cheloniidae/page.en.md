@@ -41,8 +41,8 @@ This batch’s Cheloniidae route includes 6 historical life-history accounts; st
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This family introduction joins a fixed taxonomy snapshot with a narrowly scoped comparative anatomy study; it is not a full family monograph and has no external expert review. The paper's scan observations and osteological sample have different inclusion rules. Neither the roster nor the study supplies a current conservation assessment or complete species accounts for all six accepted taxa. No figures or tables are reproduced.
-This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This family introduction joins a fixed taxonomy snapshot with a narrowly scoped comparative anatomy study. The paper's scan observations and osteological sample have different inclusion rules. Neither the roster nor the study supplies a current conservation assessment or complete species accounts for all six accepted taxa. No figures or tables are reproduced.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 <!-- /evo:text -->

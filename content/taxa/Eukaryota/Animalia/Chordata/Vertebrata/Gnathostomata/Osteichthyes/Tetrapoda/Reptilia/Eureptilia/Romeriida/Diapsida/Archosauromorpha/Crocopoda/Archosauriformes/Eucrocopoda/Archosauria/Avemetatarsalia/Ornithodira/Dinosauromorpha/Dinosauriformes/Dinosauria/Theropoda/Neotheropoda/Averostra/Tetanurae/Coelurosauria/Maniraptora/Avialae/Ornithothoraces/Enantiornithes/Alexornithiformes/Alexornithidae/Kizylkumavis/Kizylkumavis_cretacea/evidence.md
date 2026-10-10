@@ -9,7 +9,6 @@ records:
     name:
       zh: Kizylkumavis cretacea
       en: Kizylkumavis cretacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

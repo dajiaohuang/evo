@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimetopon viquezi
       en: Trimetopon viquezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

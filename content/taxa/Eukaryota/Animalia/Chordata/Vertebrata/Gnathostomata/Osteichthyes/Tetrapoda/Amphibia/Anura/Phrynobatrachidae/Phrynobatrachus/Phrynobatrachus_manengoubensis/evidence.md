@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus manengoubensis
       zh: Phrynobatrachus manengoubensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

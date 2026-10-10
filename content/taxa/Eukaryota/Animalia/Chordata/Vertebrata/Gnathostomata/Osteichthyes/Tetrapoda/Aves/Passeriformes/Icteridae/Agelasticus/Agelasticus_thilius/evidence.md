@@ -9,7 +9,6 @@ records:
     name:
       zh: Agelasticus thilius
       en: Agelasticus thilius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochalopteron erythrocephalum
       en: Trochalopteron erythrocephalum
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

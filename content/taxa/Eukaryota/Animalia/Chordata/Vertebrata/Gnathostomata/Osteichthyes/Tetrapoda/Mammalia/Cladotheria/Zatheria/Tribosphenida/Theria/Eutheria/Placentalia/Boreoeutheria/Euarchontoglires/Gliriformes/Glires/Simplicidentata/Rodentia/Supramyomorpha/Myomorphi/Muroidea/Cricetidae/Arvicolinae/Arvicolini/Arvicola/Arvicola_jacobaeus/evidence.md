@@ -9,7 +9,6 @@ records:
     name:
       zh: Arvicola jacobaeus
       en: Arvicola jacobaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

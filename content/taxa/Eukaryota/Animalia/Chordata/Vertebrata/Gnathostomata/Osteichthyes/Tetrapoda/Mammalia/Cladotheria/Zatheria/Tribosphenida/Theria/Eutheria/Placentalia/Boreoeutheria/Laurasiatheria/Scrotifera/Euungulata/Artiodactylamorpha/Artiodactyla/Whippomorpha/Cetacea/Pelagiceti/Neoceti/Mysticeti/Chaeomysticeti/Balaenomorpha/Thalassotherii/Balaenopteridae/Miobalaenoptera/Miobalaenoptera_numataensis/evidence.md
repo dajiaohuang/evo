@@ -9,7 +9,6 @@ records:
     name:
       zh: Miobalaenoptera numataensis
       en: Miobalaenoptera numataensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

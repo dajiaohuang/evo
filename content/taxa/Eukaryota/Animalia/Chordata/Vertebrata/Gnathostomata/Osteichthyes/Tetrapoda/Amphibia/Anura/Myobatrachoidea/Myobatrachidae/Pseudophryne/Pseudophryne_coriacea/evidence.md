@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophryne coriacea
       zh: Pseudophryne coriacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

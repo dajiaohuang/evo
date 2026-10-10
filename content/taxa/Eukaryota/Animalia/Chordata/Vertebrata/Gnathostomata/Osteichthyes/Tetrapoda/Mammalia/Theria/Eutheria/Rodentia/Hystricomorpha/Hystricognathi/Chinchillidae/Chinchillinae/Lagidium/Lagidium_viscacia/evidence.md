@@ -9,7 +9,6 @@ records:
     name:
       zh: Lagidium viscacia
       en: Lagidium viscacia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

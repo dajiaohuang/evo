@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptochamops thrinax
       en: Leptochamops thrinax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachycineta albiventer
       en: Tachycineta albiventer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

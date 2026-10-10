@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo stejnegeri
       zh: Bufo stejnegeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

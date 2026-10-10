@@ -9,7 +9,6 @@ records:
     name:
       zh: Roxochampsa paulistanus
       en: Roxochampsa paulistanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

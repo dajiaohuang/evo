@@ -9,7 +9,6 @@ records:
     name:
       zh: Sminthopsis crassicaudata
       en: Sminthopsis crassicaudata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

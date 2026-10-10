@@ -9,7 +9,6 @@ records:
     name:
       zh: Itasuchus jesuinoi
       en: Itasuchus jesuinoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

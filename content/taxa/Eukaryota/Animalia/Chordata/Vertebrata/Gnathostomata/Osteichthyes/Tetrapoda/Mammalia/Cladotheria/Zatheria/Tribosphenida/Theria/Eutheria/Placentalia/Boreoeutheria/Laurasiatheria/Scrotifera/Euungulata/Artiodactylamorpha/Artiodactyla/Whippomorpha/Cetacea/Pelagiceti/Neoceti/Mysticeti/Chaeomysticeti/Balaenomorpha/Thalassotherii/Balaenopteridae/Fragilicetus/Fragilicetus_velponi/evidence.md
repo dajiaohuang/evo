@@ -9,7 +9,6 @@ records:
     name:
       zh: Fragilicetus velponi
       en: Fragilicetus velponi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

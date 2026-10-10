@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelecyodon cristatus
       en: Pelecyodon cristatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 迈达斯狨
       en: Midas Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

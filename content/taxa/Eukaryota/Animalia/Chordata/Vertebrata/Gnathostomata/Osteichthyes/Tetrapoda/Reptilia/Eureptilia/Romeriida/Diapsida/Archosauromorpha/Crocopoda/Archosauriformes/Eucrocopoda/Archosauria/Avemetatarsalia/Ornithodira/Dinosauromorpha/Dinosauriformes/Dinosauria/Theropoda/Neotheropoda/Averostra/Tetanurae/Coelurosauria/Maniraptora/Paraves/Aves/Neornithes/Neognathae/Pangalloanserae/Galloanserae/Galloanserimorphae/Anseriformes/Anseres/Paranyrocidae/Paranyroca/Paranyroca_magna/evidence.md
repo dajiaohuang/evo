@@ -9,7 +9,6 @@ records:
     name:
       zh: Paranyroca magna
       en: Paranyroca magna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

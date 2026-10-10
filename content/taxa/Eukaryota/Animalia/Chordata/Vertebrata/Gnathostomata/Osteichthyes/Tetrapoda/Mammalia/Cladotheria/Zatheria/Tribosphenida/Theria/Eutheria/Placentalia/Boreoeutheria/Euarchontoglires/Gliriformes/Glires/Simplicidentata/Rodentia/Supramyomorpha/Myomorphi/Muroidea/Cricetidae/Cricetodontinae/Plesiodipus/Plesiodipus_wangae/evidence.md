@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiodipus wangae
       en: Plesiodipus wangae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

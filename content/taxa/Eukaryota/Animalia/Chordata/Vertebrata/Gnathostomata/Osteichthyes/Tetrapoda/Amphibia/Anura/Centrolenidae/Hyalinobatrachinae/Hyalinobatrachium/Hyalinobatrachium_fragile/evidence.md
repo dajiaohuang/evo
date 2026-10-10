@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium fragile
       zh: Hyalinobatrachium fragile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

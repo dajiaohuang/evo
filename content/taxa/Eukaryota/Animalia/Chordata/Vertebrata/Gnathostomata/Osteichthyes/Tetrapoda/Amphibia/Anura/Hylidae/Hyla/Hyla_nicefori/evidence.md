@@ -9,7 +9,6 @@ records:
     name:
       en: Hyla nicefori
       zh: Hyla nicefori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

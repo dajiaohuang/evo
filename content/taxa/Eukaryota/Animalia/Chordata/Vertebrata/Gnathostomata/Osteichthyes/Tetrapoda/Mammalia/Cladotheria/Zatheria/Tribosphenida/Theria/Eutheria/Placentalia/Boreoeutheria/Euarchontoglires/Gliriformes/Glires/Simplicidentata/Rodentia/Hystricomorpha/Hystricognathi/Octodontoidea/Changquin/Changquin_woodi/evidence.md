@@ -9,7 +9,6 @@ records:
     name:
       zh: Changquin woodi
       en: Changquin woodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

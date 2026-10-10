@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosymna semifasciata
       en: Prosymna semifasciata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

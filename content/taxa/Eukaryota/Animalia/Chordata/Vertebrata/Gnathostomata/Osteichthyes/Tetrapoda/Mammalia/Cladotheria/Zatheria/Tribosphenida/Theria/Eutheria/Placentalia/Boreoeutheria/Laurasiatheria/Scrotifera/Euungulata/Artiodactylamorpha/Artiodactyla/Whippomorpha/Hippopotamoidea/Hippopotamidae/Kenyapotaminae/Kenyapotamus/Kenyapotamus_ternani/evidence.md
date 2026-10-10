@@ -9,7 +9,6 @@ records:
     name:
       zh: Kenyapotamus ternani
       en: Kenyapotamus ternani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

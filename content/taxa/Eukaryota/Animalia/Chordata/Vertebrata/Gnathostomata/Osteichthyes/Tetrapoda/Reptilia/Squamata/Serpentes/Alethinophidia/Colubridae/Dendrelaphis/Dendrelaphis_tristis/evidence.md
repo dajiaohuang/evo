@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrelaphis tristis
       en: Dendrelaphis tristis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

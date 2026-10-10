@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus hagermanensis
       en: Peromyscus hagermanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

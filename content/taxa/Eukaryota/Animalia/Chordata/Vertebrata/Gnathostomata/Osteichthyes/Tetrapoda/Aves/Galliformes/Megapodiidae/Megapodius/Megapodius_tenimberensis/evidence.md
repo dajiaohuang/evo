@@ -9,7 +9,6 @@ records:
     name:
       zh: Megapodius tenimberensis
       en: Megapodius tenimberensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

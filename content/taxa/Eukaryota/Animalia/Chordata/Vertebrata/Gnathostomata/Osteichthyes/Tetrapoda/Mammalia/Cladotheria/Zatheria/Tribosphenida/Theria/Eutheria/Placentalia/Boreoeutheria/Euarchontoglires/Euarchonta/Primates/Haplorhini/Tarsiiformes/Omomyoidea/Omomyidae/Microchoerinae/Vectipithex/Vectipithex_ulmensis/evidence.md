@@ -9,7 +9,6 @@ records:
     name:
       zh: Vectipithex ulmensis
       en: Vectipithex ulmensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

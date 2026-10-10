@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelocetus calvertensis
       en: Pelocetus calvertensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

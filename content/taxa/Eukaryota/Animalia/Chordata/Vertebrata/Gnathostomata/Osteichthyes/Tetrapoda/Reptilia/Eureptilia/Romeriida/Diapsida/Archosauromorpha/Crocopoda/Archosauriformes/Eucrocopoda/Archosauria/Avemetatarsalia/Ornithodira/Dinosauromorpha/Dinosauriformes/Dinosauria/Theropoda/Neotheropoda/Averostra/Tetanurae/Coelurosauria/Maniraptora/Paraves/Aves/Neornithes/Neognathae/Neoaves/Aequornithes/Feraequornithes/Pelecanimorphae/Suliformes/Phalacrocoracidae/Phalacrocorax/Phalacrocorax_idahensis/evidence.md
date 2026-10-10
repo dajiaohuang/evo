@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalacrocorax idahensis
       en: Phalacrocorax idahensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

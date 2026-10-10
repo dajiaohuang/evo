@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo luchunnicus
       zh: Bufo luchunnicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

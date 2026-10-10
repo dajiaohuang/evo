@@ -9,7 +9,6 @@ records:
     name:
       en: Adelophryne gutturosa
       zh: Adelophryne gutturosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Allacodon pumilus
       en: Allacodon pumilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

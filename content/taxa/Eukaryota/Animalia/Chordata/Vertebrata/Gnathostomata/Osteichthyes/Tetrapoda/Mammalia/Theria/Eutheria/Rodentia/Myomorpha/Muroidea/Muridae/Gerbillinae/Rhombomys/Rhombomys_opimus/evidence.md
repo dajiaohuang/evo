@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhombomys opimus
       en: Rhombomys opimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

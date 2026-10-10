@@ -9,7 +9,6 @@ records:
     name:
       zh: Onychognathus nabouroup
       en: Onychognathus nabouroup
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

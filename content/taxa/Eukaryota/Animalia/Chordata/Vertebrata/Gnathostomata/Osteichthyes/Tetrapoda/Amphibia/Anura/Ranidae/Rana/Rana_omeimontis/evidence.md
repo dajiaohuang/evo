@@ -9,7 +9,6 @@ records:
     name:
       en: Rana omeimontis
       zh: Rana omeimontis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -28,5 +28,5 @@ These sources support a concise bioacoustic and taxonomic guide, not a genus-wid
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a source-linked reading path, not a genus review. The central study concerns calls and morphology at ten locations; later naming and earlier ecology use different taxonomic frames. The cited material does not establish current genus-wide distribution, population trends or a complete life history. The Chinese genus label is editorial; this guide has not been externally expert-reviewed. This page is not externally expert-reviewed.
+This is a source-linked reading path, not a genus review. The central study concerns calls and morphology at ten locations; later naming and earlier ecology use different taxonomic frames. The cited material does not establish current genus-wide distribution, population trends or a complete life history. The Chinese genus label is editorial; this guide has not been. This page is.
 <!-- /evo:text -->

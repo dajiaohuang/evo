@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius spinigularis
       zh: Hyperolius spinigularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

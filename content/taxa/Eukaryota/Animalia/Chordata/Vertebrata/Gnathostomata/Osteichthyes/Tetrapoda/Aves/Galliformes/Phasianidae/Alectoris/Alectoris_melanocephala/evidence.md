@@ -9,7 +9,6 @@ records:
     name:
       zh: Alectoris melanocephala
       en: Alectoris melanocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Zhang et al. 2007 DOI 10.1038/nature06138 checked for 2026.08-static-v5-rc39
       referenceLinks:
         - referenceId: zhang-2007-yicaris
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: zhang-2007-yicaris
           locator: pp. 595–598; Figures 1–3; Yu'anshan and late Atdabanian context
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

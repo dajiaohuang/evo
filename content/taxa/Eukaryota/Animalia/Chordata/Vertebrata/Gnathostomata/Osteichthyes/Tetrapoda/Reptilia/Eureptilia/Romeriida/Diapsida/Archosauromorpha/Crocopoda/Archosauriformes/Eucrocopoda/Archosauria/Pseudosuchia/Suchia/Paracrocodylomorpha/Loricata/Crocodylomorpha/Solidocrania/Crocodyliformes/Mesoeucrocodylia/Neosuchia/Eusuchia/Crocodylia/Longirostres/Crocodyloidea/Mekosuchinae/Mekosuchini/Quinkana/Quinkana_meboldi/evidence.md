@@ -9,7 +9,6 @@ records:
     name:
       zh: Quinkana meboldi
       en: Quinkana meboldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

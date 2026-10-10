@@ -9,7 +9,6 @@ records:
     name:
       zh: Parapontoporia pacifica
       en: Parapontoporia pacifica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

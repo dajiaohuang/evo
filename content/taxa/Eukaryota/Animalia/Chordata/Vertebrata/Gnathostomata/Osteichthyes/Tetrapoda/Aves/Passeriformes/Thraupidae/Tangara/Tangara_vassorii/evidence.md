@@ -9,7 +9,6 @@ records:
     name:
       zh: Tangara vassorii
       en: Tangara vassorii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

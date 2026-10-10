@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptopleuron lacertinum
       en: Leptopleuron lacertinum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

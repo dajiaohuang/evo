@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton panwaensis
       zh: Tylototriton panwaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

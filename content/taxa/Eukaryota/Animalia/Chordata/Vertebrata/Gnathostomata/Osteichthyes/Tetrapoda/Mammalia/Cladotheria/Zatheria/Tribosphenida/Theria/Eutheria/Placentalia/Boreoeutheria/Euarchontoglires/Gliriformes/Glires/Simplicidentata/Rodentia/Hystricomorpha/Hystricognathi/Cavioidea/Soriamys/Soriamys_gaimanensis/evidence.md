@@ -9,7 +9,6 @@ records:
     name:
       zh: Soriamys gaimanensis
       en: Soriamys gaimanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

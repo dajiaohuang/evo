@@ -9,7 +9,6 @@ records:
     name:
       en: Leptomantis gauni
       zh: Leptomantis gauni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

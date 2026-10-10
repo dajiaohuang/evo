@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax albertinae
       zh: Scinax albertinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

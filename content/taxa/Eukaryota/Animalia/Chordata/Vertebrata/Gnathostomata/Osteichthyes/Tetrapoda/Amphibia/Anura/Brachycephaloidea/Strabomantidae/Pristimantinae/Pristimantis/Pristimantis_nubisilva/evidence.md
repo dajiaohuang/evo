@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis nubisilva
       zh: Pristimantis nubisilva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

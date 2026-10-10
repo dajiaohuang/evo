@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius contrerasi
       zh: Telmatobius contrerasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

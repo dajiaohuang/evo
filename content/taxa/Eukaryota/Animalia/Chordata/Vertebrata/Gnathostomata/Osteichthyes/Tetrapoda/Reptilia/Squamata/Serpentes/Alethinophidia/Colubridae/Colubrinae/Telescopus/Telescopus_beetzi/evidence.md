@@ -9,7 +9,6 @@ records:
     name:
       zh: Telescopus beetzi
       en: Telescopus beetzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

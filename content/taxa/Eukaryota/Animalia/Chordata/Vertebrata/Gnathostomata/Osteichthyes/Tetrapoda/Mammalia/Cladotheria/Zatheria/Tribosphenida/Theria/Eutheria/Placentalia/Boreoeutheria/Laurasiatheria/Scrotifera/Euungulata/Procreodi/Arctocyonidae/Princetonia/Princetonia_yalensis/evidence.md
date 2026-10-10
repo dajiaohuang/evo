@@ -9,7 +9,6 @@ records:
     name:
       zh: Princetonia yalensis
       en: Princetonia yalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

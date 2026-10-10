@@ -9,7 +9,6 @@ records:
     name:
       zh: Ashleychelys palmeri
       en: Ashleychelys palmeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

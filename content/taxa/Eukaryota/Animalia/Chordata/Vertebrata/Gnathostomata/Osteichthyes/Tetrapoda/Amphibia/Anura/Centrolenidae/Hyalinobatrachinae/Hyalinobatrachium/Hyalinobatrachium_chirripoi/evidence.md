@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium chirripoi
       zh: Hyalinobatrachium chirripoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

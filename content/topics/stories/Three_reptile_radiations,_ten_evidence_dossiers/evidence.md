@@ -308,5 +308,5 @@ Egg and embryo counts do not by themselves demonstrate parental care or post-hat
 ## story / steps / annotation
 
 <!-- evo:text /records/story/steps/9/annotation -->
-COL26.8 contributes zero accepted species through these fossil-root routes; naming coverage and dossier maturity are independent, and the three radiations remain separate.
+COL26.8 contributes zero accepted species through these fossil-root routes; naming coverage does not establish species-specific evidence, and the three radiations remain separate.
 <!-- /evo:text -->

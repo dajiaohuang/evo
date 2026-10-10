@@ -48,4 +48,4 @@ The raw XLSX files are not committed. Their official immutable records remain av
 
 `ictv-000.jsonl.gz` is an ordinary resource-pack extension. The existing manifest pipeline copies it into the Web runtime, Viruses ZIP, browser offline plan, complete release inventory and Android/iOS bundled data with the same SHA-256.
 
-MSL and VMR are taxonomy and exemplar-virus metadata. They do not establish that viruses are cellular life, revalidate every GenBank accession, or create curated Evo Atlas fossil, morphology, ecology, distribution, phylogeny, media or expert-review dossiers.
+MSL and VMR are taxonomy and exemplar-virus metadata. They do not establish that viruses are cellular life, revalidate every GenBank accession, or create curated Evo Atlas fossil, morphology, ecology, distribution, phylogeny, media.

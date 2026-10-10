@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliopithecus zhanxiangi
       en: Pliopithecus zhanxiangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

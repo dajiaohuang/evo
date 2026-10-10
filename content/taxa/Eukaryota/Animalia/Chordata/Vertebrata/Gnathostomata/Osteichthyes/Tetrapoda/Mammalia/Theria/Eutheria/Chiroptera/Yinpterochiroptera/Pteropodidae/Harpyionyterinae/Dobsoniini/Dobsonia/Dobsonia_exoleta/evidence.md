@@ -9,7 +9,6 @@ records:
     name:
       zh: Dobsonia exoleta
       en: Dobsonia exoleta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

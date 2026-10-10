@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis koki
       zh: Pristimantis koki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

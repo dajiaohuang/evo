@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla kallawaya
       zh: Microkayla kallawaya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

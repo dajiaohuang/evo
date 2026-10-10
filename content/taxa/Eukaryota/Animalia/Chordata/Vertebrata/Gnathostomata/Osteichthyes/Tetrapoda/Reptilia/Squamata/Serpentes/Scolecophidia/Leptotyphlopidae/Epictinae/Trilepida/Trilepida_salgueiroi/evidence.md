@@ -9,7 +9,6 @@ records:
     name:
       zh: Trilepida salgueiroi
       en: Trilepida salgueiroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

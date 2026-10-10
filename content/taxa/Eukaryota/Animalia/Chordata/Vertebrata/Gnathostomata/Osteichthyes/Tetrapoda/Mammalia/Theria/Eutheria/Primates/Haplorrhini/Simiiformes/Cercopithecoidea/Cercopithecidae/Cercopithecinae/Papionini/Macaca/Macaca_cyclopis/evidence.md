@@ -9,7 +9,6 @@ records:
     name:
       zh: 台湾猕猴
       en: Taiwanese Macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: field ecology

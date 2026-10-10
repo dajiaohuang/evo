@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnophis rufipunctatus
       en: Thamnophis rufipunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

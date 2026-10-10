@@ -9,7 +9,6 @@ records:
     name:
       zh: Hummelemys ambigua
       en: Hummelemys ambigua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

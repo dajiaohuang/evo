@@ -34,5 +34,5 @@ The original description shows how calls, specimen comparison and field surveys 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a discovery and identification guide based on the 2017 original description. The source does not provide a complete range, wild population size, long-term behavior or current conservation assessment; those gaps are not filled with close-relative data or model outputs. The page has not received external expert review. This page is not externally expert-reviewed.
+This is a discovery and identification guide based on the 2017 original description. The source does not provide a complete range, wild population size, long-term behavior or current conservation assessment; those gaps are not filled with close-relative data or model outputs. This page is.
 <!-- /evo:text -->

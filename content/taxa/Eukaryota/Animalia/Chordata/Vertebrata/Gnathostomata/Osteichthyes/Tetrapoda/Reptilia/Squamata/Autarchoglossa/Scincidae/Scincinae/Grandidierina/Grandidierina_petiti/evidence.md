@@ -9,7 +9,6 @@ records:
     name:
       zh: Grandidierina petiti
       en: Grandidierina petiti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

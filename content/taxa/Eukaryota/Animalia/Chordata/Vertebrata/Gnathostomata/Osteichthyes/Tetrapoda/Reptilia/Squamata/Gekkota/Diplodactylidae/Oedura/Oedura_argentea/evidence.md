@@ -9,7 +9,6 @@ records:
     name:
       zh: Oedura argentea
       en: Oedura argentea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

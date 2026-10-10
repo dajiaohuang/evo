@@ -9,7 +9,6 @@ records:
     name:
       en: Hylambates boulengeri
       zh: Hylambates boulengeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

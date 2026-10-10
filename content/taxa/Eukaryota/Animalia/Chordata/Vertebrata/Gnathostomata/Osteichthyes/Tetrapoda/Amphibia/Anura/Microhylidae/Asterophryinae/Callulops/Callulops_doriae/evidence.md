@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops doriae
       zh: Callulops doriae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

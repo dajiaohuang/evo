@@ -9,7 +9,6 @@ records:
     name:
       zh: Samotherium boissieri
       en: Samotherium boissieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

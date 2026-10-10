@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnophis fulvus
       en: Thamnophis fulvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

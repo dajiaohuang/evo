@@ -16,5 +16,5 @@ An occurrence-record study across interfluves in southern Amazonia proposed a re
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The regional delimitation is not a complete species-wide survey; the paper leaves type-locality, synonym, and local taxonomy questions open. This guide is not externally expert-reviewed.
+The regional delimitation is not a complete species-wide survey; the paper leaves type-locality, synonym, and local taxonomy questions open. This guide is.
 <!-- /evo:text -->

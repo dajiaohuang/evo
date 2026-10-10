@@ -9,7 +9,6 @@ records:
     name:
       zh: Progne chalybea
       en: Progne chalybea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus sadansinensis
       en: Cyrtodactylus sadansinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothrops germanoi
       en: Bothrops germanoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

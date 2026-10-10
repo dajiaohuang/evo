@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllomedusa bahiana
       zh: Phyllomedusa bahiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

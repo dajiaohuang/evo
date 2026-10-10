@@ -9,7 +9,6 @@ records:
     name:
       zh: Sterna sumatrana
       en: Sterna sumatrana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sicista kluchorica
       en: Sicista kluchorica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

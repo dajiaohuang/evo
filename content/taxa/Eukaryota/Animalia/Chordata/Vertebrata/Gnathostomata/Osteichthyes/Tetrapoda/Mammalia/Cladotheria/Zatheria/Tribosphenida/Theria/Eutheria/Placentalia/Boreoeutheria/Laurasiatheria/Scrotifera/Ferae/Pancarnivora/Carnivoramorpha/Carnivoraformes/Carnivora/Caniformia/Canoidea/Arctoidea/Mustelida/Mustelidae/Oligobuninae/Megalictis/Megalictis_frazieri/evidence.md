@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalictis frazieri
       en: Megalictis frazieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

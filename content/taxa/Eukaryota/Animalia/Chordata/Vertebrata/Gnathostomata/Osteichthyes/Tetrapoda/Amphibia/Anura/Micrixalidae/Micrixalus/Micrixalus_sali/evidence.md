@@ -9,7 +9,6 @@ records:
     name:
       en: Micrixalus sali
       zh: Micrixalus sali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Neurankylus baueri
       en: Neurankylus baueri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

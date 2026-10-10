@@ -9,7 +9,6 @@ records:
     name:
       zh: Natrix astreptophora
       en: Natrix astreptophora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

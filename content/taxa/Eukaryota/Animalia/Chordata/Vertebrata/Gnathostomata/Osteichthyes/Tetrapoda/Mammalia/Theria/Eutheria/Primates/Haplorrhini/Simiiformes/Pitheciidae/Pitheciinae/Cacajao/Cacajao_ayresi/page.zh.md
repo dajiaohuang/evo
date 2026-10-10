@@ -16,5 +16,5 @@ Boubli 等重新调查黑秃乌卡里，并结合多条 Rio Negro 支流的采�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-有来源的分类重估导读，尚未经过外部领域专家评审。调查与标本证据支持 Rio Aracá 的命名分类单元，但不是当前数量评估或完整分布调查。
+有来源的分类重估导读。调查与标本证据支持 Rio Aracá 的命名分类单元，但不是当前数量评估或完整分布调查。
 <!-- /evo:text -->

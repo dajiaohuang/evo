@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko russelltraini
       en: Gekko russelltraini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

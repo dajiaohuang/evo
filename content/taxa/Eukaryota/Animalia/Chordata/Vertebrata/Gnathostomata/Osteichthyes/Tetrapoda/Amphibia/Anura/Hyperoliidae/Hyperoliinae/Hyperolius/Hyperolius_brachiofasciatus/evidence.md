@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius brachiofasciatus
       zh: Hyperolius brachiofasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

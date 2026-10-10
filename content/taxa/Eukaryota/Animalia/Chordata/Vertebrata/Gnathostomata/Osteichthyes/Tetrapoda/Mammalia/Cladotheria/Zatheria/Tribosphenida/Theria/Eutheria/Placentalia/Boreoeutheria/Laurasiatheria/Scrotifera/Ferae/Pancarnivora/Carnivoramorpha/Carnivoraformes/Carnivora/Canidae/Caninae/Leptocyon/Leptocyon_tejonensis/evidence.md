@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptocyon tejonensis
       en: Leptocyon tejonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

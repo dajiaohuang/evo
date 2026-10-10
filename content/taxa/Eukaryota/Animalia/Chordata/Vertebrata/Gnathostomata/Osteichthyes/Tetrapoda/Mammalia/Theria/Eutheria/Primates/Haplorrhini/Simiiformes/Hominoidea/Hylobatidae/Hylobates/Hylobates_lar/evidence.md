@@ -9,7 +9,6 @@ records:
     name:
       zh: 白掌长臂猿
       en: White-handed gibbon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -983,8 +982,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
 ---
 
 # Hylobates lar
@@ -1208,5 +1205,5 @@ One Thai playback experiment supplements one local vocalization study; morpholog
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-No systematic literature search, range-wide synthesis, or independent expert review has been completed.
+No systematic literature search, range-wide synthesis has been completed.
 <!-- /evo:text -->

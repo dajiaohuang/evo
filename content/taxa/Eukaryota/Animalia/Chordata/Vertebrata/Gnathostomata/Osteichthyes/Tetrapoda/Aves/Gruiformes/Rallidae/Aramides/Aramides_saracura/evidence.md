@@ -9,7 +9,6 @@ records:
     name:
       zh: Aramides saracura
       en: Aramides saracura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

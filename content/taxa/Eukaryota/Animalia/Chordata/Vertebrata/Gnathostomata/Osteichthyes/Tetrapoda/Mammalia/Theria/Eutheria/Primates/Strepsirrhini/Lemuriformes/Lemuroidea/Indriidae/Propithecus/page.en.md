@@ -22,8 +22,8 @@ This batch’s Propithecus route includes 7 historical entries; start with Propi
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This reading path selects local studies and does not describe all species or shared genus-wide traits. It is not externally expert-reviewed.
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs and external expert review remain unfinished.
+This reading path selects local studies and does not describe all species or shared genus-wide traits. It is.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 <!-- /evo:text -->
 
 ## Start with the historical entries

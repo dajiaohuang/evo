@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus garbeanus
       zh: Brachycephalus garbeanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

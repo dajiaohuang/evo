@@ -9,7 +9,6 @@ records:
     name:
       zh: Aipysurus eydouxii
       en: Aipysurus eydouxii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

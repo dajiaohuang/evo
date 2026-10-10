@@ -9,7 +9,6 @@ records:
     name:
       zh: Romeosaurus fumanensis
       en: Romeosaurus fumanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

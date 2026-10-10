@@ -9,7 +9,6 @@ records:
     name:
       zh: Menetia greyii
       en: Menetia greyii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dromiceiomimus brevitertius
       en: Dromiceiomimus brevitertius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,5 +22,5 @@ COL26.8 属级 ID 4YHR 下列有接受种页面 Hoolock hoolock（6MD6Q）、H. 
 ## 资料适用范围
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本阅读路径连接三个 COL26.8 物种页面及采用不同方法的局地研究；其结果不是可直接比较的属级生态或种群数据集。中文显示名为编辑用名。本页未新增 dossier，也未经过外部领域专家评审。
+本阅读路径连接三个 COL26.8 物种页面及采用不同方法的局地研究；其结果不是可直接比较的属级生态或种群数据集。中文显示名为编辑用名。本页未新增 dossier。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leucocephalon yuwonoi
       en: Leucocephalon yuwonoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

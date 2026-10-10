@@ -9,7 +9,6 @@ records:
     name:
       zh: Parasauromalus olseni
       en: Parasauromalus olseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

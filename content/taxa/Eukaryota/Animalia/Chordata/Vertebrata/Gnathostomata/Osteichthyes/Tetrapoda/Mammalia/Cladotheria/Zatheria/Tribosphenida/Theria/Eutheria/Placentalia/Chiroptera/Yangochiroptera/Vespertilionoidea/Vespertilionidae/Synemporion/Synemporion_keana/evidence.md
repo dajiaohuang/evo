@@ -9,7 +9,6 @@ records:
     name:
       zh: Synemporion keana
       en: Synemporion keana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

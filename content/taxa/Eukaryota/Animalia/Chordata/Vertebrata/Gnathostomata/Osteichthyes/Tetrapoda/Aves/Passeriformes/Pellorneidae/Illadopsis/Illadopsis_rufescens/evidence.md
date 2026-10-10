@@ -9,7 +9,6 @@ records:
     name:
       zh: Illadopsis rufescens
       en: Illadopsis rufescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

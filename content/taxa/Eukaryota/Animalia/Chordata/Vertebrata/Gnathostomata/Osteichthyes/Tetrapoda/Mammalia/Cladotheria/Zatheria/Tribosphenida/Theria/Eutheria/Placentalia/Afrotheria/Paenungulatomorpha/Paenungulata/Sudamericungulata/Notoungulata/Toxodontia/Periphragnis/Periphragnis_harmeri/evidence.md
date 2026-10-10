@@ -9,7 +9,6 @@ records:
     name:
       zh: Periphragnis harmeri
       en: Periphragnis harmeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

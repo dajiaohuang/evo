@@ -9,7 +9,6 @@ records:
     name:
       zh: Elmisaurus rarus
       en: Elmisaurus rarus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

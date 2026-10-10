@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis nilgala
       en: Cnemaspis nilgala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

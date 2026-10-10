@@ -9,7 +9,6 @@ records:
     name:
       zh: Pariadens kirklandi
       en: Pariadens kirklandi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

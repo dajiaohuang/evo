@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Stein et al. 2007 DOI 10.1038/nature05705 checked for 2026.08-static-v5-rc39
       referenceLinks:
         - referenceId: stein-2007-wattieza
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: stein-2007-wattieza
           locator: pp. 904–907; Figures 1–3
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Talenkauen santacrucensis
       en: Talenkauen santacrucensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

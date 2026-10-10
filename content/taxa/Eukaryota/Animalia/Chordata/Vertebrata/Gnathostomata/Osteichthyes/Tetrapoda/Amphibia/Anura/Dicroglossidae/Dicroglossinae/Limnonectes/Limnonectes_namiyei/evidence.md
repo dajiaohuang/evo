@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes namiyei
       zh: Limnonectes namiyei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

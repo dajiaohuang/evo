@@ -9,7 +9,6 @@ records:
     name:
       zh: Smithornis rufolateralis
       en: Smithornis rufolateralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

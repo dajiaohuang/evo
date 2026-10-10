@@ -9,7 +9,6 @@ records:
     name:
       zh: Horornis parens
       en: Horornis parens
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Petauristodon mathewsi
       en: Petauristodon mathewsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

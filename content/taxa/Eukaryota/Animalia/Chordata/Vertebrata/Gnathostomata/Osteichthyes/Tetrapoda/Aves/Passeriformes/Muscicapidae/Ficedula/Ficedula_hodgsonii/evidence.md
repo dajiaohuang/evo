@@ -9,7 +9,6 @@ records:
     name:
       zh: Ficedula hodgsonii
       en: Ficedula hodgsonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

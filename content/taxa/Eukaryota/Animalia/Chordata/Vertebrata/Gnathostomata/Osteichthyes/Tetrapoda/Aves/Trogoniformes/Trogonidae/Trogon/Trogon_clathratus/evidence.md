@@ -9,7 +9,6 @@ records:
     name:
       zh: Trogon clathratus
       en: Trogon clathratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

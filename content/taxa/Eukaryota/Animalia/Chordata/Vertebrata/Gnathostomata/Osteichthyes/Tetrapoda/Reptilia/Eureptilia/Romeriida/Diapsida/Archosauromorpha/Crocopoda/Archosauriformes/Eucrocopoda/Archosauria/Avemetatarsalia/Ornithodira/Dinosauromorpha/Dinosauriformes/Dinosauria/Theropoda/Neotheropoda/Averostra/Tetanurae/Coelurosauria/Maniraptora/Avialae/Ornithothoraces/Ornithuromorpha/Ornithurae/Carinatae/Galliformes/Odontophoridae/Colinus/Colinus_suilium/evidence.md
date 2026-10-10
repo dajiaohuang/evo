@@ -9,7 +9,6 @@ records:
     name:
       zh: Colinus suilium
       en: Colinus suilium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chauna chavaria
       en: Chauna chavaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

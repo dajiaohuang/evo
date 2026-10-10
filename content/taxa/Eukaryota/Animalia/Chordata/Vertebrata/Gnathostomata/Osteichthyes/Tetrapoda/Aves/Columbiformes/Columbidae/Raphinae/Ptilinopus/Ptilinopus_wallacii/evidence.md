@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus wallacii
       en: Ptilinopus wallacii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

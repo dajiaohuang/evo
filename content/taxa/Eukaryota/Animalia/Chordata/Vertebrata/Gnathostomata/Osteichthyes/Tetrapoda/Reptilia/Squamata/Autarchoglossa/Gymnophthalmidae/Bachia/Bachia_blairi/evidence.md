@@ -9,7 +9,6 @@ records:
     name:
       zh: Bachia blairi
       en: Bachia blairi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

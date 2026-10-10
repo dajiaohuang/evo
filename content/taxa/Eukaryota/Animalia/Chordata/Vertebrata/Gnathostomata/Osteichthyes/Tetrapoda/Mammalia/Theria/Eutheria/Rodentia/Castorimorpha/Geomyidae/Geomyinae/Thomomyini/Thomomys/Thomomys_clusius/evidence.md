@@ -9,7 +9,6 @@ records:
     name:
       zh: Thomomys clusius
       en: Thomomys clusius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

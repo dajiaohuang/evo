@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis w-nigrum
       zh: Pristimantis w-nigrum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus cleofasensis
       en: Phyllodactylus cleofasensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

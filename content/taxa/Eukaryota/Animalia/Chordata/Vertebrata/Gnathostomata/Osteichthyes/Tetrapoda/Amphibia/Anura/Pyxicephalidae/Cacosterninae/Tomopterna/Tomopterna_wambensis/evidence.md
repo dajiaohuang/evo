@@ -9,7 +9,6 @@ records:
     name:
       en: Tomopterna wambensis
       zh: Tomopterna wambensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

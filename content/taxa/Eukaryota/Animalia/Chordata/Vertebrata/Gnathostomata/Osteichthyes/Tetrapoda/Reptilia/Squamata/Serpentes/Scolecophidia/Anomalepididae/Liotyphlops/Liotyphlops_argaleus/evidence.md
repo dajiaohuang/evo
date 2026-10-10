@@ -9,7 +9,6 @@ records:
     name:
       zh: Liotyphlops argaleus
       en: Liotyphlops argaleus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

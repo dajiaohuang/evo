@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia albiventris
       zh: Caecilia albiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

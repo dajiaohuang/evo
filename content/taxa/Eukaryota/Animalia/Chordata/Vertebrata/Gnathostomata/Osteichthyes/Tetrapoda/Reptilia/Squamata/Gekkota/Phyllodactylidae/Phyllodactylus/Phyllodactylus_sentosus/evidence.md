@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus sentosus
       en: Phyllodactylus sentosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

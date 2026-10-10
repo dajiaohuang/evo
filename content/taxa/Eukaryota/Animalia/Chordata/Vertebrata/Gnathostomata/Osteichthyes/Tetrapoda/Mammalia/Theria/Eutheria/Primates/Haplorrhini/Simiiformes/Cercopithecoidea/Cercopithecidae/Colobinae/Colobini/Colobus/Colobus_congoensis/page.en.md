@@ -34,5 +34,5 @@ The source compares Likweli with Colobus satanas using morphology, genetics and 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a guide to a 2026 species description and field observations within its known range, not a long-term population trend or full occupancy assessment. Observation counts, group sizes and habitat records are limited by survey coverage; the paper’s preliminary conservation assessment is not presented as a current official category. Not externally expert-reviewed. This page is not externally expert-reviewed.
+This is a guide to a 2026 species description and field observations within its known range, not a long-term population trend or full occupancy assessment. Observation counts, group sizes and habitat records are limited by survey coverage; the paper’s preliminary conservation assessment is not presented as a current official category.. This page is.
 <!-- /evo:text -->

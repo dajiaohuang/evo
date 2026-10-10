@@ -9,7 +9,6 @@ records:
     name:
       zh: Emoia cyanogaster
       en: Emoia cyanogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

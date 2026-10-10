@@ -9,7 +9,6 @@ records:
     name:
       zh: Alopoglossus bilineatus
       en: Alopoglossus bilineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

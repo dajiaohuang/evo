@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus limosus
       zh: Atelopus limosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

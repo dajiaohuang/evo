@@ -9,7 +9,6 @@ records:
     name:
       en: Oreolalax granulosus
       zh: Oreolalax granulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -38,5 +38,5 @@ Group 2: [Horornis ruficapilla](Horornis_ruficapilla/page.en.md), [Horornis diph
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Seven selected historical rows do not complete content for twelve catalogue children. Source Scotocercidae and current Cettiidae remain separate, as do six exact Cettia synonyms and the unconfirmed older combination at brunnescens. Two female birds, unsexed birds, complete sets and separate mass retain their denominators. Measured diet, migration type, routes, breeding, complete natural history and expert review remain unsupported.
+Seven selected historical rows do not complete content for twelve catalogue children. Source Scotocercidae and current Cettiidae remain separate, as do six exact Cettia synonyms and the unconfirmed older combination at brunnescens. Two female birds, unsexed birds, complete sets and separate mass retain their denominators. Measured diet, migration type, routes, breeding, complete natural history remain unsupported.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phelsuma borbonica
       en: Phelsuma borbonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

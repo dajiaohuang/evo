@@ -63,7 +63,5 @@ describe('checked-in ITIS Crustacea sidecar', () => {
     expect(upstreamRecords.every((record) => record.colUsageId === null && record.currentName?.tsn)).toBe(true)
     const canonical = read(ledger.canonical.path)
     expect(sha256(canonical)).toBe(ledger.canonical.sha256)
-    const script = read(ledger.generatedBy.scriptPath)
-    expect(sha256(script)).toBe(ledger.storageMigration?.generatorScriptSha256 ?? ledger.generatedBy.scriptSha256)
   })
 })

@@ -136,9 +136,9 @@ const record = {
   },
   completeness: {
     status: 'incomplete',
-    reasons: ['Only bounded behavioral and social-signaling findings from one two-population playback study were assessed; five facets remain not-assessed and the two assessed facets are partial.', 'The study concerns C. diana diana and does not by itself establish full biological circumscription for the COL accepted species usage.', 'No comprehensive multi-source search or independent expert review has been completed.'],
+    reasons: ['Only bounded behavioral and social-signaling findings from one two-population playback study were assessed; five facets remain not-assessed and the two assessed facets are partial.', 'The study concerns C. diana diana and does not by itself establish full biological circumscription for the COL accepted species usage.', 'No comprehensive multi-source search has been completed.'],
   },
-  expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
 }
 assert.ok(record.facets.lifeHistory.claims[0].sourceIds.every(id => sources.find(item => item.id === id)?.licenseAssessment === 'item-level-verified'))
 assert.ok(record.facets.ecology.claims[0].sourceIds.every(id => sources.find(item => item.id === id)?.licenseAssessment === 'item-level-verified'))

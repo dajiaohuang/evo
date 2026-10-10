@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus crassicaudatus
       en: Atractus crassicaudatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

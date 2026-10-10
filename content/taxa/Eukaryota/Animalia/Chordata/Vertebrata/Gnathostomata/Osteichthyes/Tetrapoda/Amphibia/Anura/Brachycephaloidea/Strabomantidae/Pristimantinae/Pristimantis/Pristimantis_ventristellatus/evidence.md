@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ventristellatus
       zh: Pristimantis ventristellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Podarcis galerai
       en: Podarcis galerai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

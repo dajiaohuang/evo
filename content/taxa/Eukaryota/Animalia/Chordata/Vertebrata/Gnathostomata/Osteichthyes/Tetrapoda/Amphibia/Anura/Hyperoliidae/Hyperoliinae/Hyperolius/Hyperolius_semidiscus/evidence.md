@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius semidiscus
       zh: Hyperolius semidiscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

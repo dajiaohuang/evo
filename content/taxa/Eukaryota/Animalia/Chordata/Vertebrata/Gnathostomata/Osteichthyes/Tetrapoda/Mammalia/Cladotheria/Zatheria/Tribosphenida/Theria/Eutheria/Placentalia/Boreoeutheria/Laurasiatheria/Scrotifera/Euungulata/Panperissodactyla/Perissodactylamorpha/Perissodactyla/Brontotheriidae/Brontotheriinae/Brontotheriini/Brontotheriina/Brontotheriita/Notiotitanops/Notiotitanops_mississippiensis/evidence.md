@@ -9,7 +9,6 @@ records:
     name:
       zh: Notiotitanops mississippiensis
       en: Notiotitanops mississippiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

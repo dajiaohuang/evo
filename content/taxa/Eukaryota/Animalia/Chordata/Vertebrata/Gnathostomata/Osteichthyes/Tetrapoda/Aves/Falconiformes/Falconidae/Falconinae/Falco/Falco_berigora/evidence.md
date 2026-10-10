@@ -9,7 +9,6 @@ records:
     name:
       zh: Falco berigora
       en: Falco berigora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

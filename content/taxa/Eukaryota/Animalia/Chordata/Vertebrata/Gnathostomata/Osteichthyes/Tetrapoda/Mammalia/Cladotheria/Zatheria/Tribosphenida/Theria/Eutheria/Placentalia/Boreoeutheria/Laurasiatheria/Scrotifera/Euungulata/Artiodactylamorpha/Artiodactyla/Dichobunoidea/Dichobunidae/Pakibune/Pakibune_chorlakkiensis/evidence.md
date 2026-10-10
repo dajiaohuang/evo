@@ -9,7 +9,6 @@ records:
     name:
       zh: Pakibune chorlakkiensis
       en: Pakibune chorlakkiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Caprimulgus donaldsoni
       en: Caprimulgus donaldsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

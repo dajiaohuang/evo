@@ -9,7 +9,6 @@ records:
     name:
       en: Aplastodiscus ibirapitanga
       zh: Aplastodiscus ibirapitanga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

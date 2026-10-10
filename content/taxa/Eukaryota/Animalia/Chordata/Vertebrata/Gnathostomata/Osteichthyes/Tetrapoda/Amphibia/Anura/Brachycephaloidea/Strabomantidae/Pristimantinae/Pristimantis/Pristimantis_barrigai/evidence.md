@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis barrigai
       zh: Pristimantis barrigai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalanger alexandrae
       en: Phalanger alexandrae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

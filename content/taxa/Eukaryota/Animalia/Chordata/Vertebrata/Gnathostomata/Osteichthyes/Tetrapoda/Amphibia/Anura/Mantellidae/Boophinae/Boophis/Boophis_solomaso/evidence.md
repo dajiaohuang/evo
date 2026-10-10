@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis solomaso
       zh: Boophis solomaso
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

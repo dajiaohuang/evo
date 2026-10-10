@@ -9,7 +9,6 @@ records:
     name:
       zh: Notocolossus gonzalezparejasi
       en: Notocolossus gonzalezparejasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

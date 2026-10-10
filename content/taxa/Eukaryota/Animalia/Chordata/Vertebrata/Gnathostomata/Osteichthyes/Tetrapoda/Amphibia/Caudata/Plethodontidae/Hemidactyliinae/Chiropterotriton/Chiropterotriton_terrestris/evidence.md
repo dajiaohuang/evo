@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton terrestris
       zh: Chiropterotriton terrestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

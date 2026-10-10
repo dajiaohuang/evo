@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius guttulatus
       zh: Hyperolius guttulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

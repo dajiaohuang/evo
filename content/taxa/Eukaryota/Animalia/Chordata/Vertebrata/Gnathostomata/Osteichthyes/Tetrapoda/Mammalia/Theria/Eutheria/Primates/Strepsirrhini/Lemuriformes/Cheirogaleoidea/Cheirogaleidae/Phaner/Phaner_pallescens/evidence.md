@@ -9,7 +9,6 @@ records:
     name:
       zh: 苍白叉纹鼠狐猴
       en: Pale Fork-marked Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

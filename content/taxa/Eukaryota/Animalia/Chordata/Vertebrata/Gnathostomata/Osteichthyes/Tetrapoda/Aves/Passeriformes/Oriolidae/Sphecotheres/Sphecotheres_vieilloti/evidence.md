@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphecotheres vieilloti
       en: Sphecotheres vieilloti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

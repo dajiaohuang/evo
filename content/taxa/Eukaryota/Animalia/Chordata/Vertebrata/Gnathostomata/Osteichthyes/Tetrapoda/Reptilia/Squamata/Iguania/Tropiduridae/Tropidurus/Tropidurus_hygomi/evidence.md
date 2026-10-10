@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidurus hygomi
       en: Tropidurus hygomi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

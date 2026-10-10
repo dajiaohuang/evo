@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa engelhardti
       zh: Bolitoglossa engelhardti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

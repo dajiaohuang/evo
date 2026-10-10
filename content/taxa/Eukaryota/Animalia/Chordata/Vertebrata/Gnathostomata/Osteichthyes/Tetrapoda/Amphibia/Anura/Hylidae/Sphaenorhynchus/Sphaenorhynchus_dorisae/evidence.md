@@ -9,7 +9,6 @@ records:
     name:
       en: Sphaenorhynchus dorisae
       zh: Sphaenorhynchus dorisae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xylophis deepaki
       en: Xylophis deepaki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

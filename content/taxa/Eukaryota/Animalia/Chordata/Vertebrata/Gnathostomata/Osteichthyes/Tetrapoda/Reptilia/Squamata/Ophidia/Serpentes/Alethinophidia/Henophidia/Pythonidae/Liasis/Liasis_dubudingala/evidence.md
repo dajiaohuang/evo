@@ -9,7 +9,6 @@ records:
     name:
       zh: Liasis dubudingala
       en: Liasis dubudingala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

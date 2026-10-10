@@ -9,7 +9,6 @@ records:
     name:
       zh: Oodectes jepseni
       en: Oodectes jepseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

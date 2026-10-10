@@ -3,7 +3,7 @@
 Baseline: `a420ec8ec2bf1fb42e0047ec8c80c65b117d574d`, dataset RC148.
 Corrections are projected into RC149. Deployment and release publication remain
 paused. This audit checks source identity, data transformations, numerical
-contracts and runtime behavior; it does not confer external expert review.
+
 
 ## Coverage and evidence
 
@@ -12,7 +12,7 @@ contracts and runtime behavior; it does not confer external expert review.
 | Canonical data | 1,440 manifest checksums; schemas, IDs, package ownership, translations, graph continuity, references and review contracts | Existing `validate-data` and all platform validators pass. A digest verifies identity, not scientific truth. |
 | Occurrences | All 13,600 records across 12 period files | 13,600 unique IDs; 0–538.8 Ma envelope; all retained reconstruction-model labels are `pbdb:gplates`. Age overlap, coordinate pairs, index membership and provenance checks pass. This remains a bounded, non-random API-prefix sample. |
 | Geological time | All 165 units; fresh official 2026/06 RDF replay for 139 epochs/ages; major boundaries against the official PDF | Replay produces identical JSON. Anisian 247.0 Ma, Olenekian 250.8 Ma and Wuchiapingian 259.857 ± 0.084 Ma match the chart. Existing documented Ludlow/Aquitanian RDF-to-PDF corrections remain explicit. Numerical boundaries are display values, not replacements for GSSPs. |
-| Evidence and content | 1,309 claims, 486 references, 417 range records, 403 navigation entities, 133 profiles, 208 events, 29 published stories and 3 blocked drafts | Checked linkage/locators, review-version DOI consistency, bilingual coverage and available/withheld boundaries. This is not a new full-text adjudication of every claim. Scientific review states were not promoted. |
+| Evidence and content | 1,309 claims, 486 references, 417 range records, 403 navigation entities, 133 profiles, 208 events, 29 published stories and 3 blocked drafts | Checked linkage/locators, source-version DOI consistency, bilingual coverage and available/withheld boundaries. This is not a new full-text adjudication of every claim. |
 | Bibliographic identity | All 469 references carrying a DOI | 464 resolve through Crossref and 5 through DataCite. Nine initial rate-limit responses succeeded on a paced retry. Two reference identity errors and four stale claim audit markers were corrected below. The 17 entries without a DOI retain their existing source links; they are not counted as DOI-verified. |
 | CAO model and observations | Six geometry series/1,889 frames; all 44,175 observation records | 41,320 have reconstructed coordinates, 2,855 remain raw-only. All 206 reconstructed magnetic poles contain pole and sample-site positions; all 41,114 other reconstructed records contain sample positions. No cross-role fallback is exercised by the current data. Source ages, out-of-model records and three missing plate circuits remain explicit. |
 | PALEOMAP elevation | All 109 frames, 706,908,709 int16 metre cells | Recomputed every decoded SHA-256 and every min/max. Recreated all 78,676,309 preview cells by the recorded stride: every preview digest matches. Three canonical files use Brotli and 106 use gzip; the audit follows metadata rather than filename assumptions. |
@@ -135,7 +135,7 @@ canonical inputs.
 ## Validation and remaining boundaries
 
 During editing: 39 targeted Lab/SQL tests, 47 numerical/map/tree tests, TypeScript
-checking, full data/platform validation and review freshness checks. New tests
+ New tests
 first reproduced the SQL and missing-summary failures.
 
 Final code/data head: `cd8d7b916212a788621c4b53bac7e4d463b581a4`. One full CI
@@ -155,10 +155,7 @@ pages pass the link/source checks. The final follow-up commit changes only this
 audit report (CI receipts and the independently changed issue status), so it
 does not repeat the full CI cycle. Native CI is not physical-device acceptance.
 
-The 24 package review states are unchanged: 23 not-reviewed; Perissodactyla's
-existing in-review snapshot is stale and remains disclosed. This automated audit
-is not a claim that every scientific statement has received independent expert
-or complete new full-text review. The approximately 2.18 million accepted names
+The approximately 2.18 million accepted names
 remain a nomenclatural catalogue, not 2.18 million scientific dossiers.
 
 [Issue #167](https://github.com/dajiaohuang/evo/issues/167) was closed on

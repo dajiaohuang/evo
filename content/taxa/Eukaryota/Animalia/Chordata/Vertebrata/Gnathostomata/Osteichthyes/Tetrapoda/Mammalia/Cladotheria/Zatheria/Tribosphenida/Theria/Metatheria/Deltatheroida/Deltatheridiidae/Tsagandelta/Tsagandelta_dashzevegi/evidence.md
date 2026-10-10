@@ -9,7 +9,6 @@ records:
     name:
       zh: Tsagandelta dashzevegi
       en: Tsagandelta dashzevegi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

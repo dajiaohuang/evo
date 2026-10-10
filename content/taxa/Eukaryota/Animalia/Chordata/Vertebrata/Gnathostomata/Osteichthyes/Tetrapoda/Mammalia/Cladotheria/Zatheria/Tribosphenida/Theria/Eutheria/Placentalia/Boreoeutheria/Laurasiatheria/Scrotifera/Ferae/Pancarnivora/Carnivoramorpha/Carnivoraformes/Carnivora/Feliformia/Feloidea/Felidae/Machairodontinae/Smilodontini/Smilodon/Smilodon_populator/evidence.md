@@ -9,7 +9,6 @@ records:
     name:
       zh: Smilodon populator
       en: Smilodon populator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

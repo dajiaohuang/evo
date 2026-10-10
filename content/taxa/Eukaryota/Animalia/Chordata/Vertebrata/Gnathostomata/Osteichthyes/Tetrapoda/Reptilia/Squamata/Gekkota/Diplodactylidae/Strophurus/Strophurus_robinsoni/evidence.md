@@ -9,7 +9,6 @@ records:
     name:
       zh: Strophurus robinsoni
       en: Strophurus robinsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

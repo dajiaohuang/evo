@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdoides plebejus
       en: Turdoides plebejus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

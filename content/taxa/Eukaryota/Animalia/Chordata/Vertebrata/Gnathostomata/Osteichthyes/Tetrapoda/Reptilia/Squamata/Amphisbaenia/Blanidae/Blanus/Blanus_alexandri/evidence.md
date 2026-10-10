@@ -9,7 +9,6 @@ records:
     name:
       zh: Blanus alexandri
       en: Blanus alexandri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis kintana
       zh: Gephyromantis kintana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

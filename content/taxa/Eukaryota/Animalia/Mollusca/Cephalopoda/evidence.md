@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lindgren-2012-cephalopoda
       referenceLinks:
         - referenceId: lindgren-2012-cephalopoda
           relation: supports
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: lindgren-2012-cephalopoda
           locator: Article 129; Methods, Taxon sampling and sequence data; Table 1; Figures 1–5
-      reviewStatus: automated-audit-passed
 ---
 
 # Cephalopoda

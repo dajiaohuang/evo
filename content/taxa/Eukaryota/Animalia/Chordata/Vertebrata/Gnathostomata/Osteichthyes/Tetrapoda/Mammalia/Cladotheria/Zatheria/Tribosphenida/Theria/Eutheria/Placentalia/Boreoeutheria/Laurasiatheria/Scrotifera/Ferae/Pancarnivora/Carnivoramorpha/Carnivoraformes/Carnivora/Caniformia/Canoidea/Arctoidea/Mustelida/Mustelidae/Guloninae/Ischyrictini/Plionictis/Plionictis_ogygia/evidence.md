@@ -9,7 +9,6 @@ records:
     name:
       zh: Plionictis ogygia
       en: Plionictis ogygia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

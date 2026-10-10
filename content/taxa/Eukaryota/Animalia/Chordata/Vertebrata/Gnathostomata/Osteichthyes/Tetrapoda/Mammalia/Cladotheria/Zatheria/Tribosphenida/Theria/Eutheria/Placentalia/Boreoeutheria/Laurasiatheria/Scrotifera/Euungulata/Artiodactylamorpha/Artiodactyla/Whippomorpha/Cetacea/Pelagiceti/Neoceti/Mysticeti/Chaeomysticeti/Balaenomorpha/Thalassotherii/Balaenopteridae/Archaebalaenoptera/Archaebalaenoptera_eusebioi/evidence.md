@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaebalaenoptera eusebioi
       en: Archaebalaenoptera eusebioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

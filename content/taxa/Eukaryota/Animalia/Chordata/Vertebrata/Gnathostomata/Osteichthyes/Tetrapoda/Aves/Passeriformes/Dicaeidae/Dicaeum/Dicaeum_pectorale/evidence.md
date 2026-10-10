@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicaeum pectorale
       en: Dicaeum pectorale
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

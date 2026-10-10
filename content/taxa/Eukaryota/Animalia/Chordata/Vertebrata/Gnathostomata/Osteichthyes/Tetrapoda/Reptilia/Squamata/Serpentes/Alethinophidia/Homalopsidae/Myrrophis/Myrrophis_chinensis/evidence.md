@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrrophis chinensis
       en: Myrrophis chinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

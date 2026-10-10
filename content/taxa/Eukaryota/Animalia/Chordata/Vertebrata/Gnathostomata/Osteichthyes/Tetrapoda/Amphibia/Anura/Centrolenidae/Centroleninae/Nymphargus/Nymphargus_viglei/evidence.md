@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus viglei
       zh: Nymphargus viglei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

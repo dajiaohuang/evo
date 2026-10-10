@@ -9,7 +9,6 @@ records:
     name:
       zh: Choeropotamus depereti
       en: Choeropotamus depereti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Agama hispida
       en: Agama hispida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

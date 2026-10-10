@@ -22,5 +22,5 @@ Across several delimitation methods used by the authors, P. f. percura and P. f.
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Molecular evidence comes from a small set of eastern Sumatran faecal samples and mitochondrial markers; older papers used a subspecies name, while this page follows COL26.8. This page has not received external expert review. This page is not externally expert-reviewed.
+Molecular evidence comes from a small set of eastern Sumatran faecal samples and mitochondrial markers; older papers used a subspecies name, while this page follows COL26.8. This page. This page is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius mitchelli
       zh: Hyperolius mitchelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Euprox furcatus
       en: Euprox furcatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

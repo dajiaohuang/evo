@@ -9,7 +9,6 @@ records:
     name:
       zh: Hispanomys peralensis
       en: Hispanomys peralensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

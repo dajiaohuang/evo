@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus dohertyi
       en: Ptilinopus dohertyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

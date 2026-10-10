@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus attenuatus
       en: Atractus attenuatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

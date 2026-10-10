@@ -132,9 +132,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4
       referenceLinks:
         - relation: supports
           referenceId: bronson-2024-cosmoselachus

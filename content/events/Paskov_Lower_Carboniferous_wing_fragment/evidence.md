@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: prokop-2005-paskov-wing DOI-linked primary source
       referenceLinks:
         - referenceId: prokop-2005-paskov-wing
           relation: supports

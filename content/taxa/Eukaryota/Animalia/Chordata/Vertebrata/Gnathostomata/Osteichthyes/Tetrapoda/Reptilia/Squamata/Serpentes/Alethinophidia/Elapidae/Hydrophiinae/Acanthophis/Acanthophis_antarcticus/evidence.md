@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthophis antarcticus
       en: Acanthophis antarcticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

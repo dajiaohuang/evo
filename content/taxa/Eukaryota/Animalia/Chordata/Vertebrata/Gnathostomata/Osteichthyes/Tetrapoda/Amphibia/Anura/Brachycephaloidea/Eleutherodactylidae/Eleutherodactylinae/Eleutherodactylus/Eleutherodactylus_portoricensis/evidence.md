@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus portoricensis
       zh: Eleutherodactylus portoricensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

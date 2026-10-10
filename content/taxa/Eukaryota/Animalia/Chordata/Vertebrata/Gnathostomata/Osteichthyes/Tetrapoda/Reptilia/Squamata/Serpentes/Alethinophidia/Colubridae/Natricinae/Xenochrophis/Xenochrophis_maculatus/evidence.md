@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenochrophis maculatus
       en: Xenochrophis maculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

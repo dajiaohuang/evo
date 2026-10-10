@@ -9,7 +9,6 @@ records:
     name:
       zh: Setophaga tigrina
       en: Setophaga tigrina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

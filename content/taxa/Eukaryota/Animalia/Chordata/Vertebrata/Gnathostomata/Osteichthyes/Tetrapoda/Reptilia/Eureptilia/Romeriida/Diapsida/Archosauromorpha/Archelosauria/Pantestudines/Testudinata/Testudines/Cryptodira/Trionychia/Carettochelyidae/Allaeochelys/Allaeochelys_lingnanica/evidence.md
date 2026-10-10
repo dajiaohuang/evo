@@ -9,7 +9,6 @@ records:
     name:
       zh: Allaeochelys lingnanica
       en: Allaeochelys lingnanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

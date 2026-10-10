@@ -9,7 +9,6 @@ records:
     name:
       zh: Temnodontosaurus trigonodon
       en: Temnodontosaurus trigonodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

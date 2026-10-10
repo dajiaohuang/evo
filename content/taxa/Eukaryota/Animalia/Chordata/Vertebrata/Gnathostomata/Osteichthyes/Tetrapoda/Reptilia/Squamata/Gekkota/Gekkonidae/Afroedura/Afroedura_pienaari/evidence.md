@@ -9,7 +9,6 @@ records:
     name:
       zh: Afroedura pienaari
       en: Afroedura pienaari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

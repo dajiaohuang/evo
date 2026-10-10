@@ -9,7 +9,6 @@ records:
     name:
       en: Sphenophryne allisoni
       zh: Sphenophryne allisoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

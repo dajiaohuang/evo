@@ -9,7 +9,6 @@ records:
     name:
       zh: Centrochelys burchardi
       en: Centrochelys burchardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

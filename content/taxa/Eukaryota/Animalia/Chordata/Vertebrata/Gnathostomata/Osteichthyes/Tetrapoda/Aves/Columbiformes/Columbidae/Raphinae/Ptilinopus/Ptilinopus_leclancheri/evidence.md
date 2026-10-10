@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus leclancheri
       en: Ptilinopus leclancheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

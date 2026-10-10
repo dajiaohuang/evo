@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynohyaenodon magnus
       en: Cynohyaenodon magnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

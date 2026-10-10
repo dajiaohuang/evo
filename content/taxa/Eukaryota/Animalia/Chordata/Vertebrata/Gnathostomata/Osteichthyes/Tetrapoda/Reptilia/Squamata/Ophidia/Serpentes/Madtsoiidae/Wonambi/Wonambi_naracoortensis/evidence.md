@@ -9,7 +9,6 @@ records:
     name:
       zh: Wonambi naracoortensis
       en: Wonambi naracoortensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

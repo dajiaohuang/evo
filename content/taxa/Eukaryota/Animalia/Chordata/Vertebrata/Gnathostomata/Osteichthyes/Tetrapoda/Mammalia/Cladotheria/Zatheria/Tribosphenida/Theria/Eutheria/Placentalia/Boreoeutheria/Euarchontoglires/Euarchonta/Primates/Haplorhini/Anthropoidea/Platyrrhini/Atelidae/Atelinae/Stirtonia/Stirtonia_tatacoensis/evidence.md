@@ -9,7 +9,6 @@ records:
     name:
       zh: Stirtonia tatacoensis
       en: Stirtonia tatacoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Arctotherium (Arctotherium)
       en: Arctotherium (Arctotherium)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

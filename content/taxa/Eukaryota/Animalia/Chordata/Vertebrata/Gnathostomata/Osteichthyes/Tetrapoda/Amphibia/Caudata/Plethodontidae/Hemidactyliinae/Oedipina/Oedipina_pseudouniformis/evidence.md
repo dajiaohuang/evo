@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina pseudouniformis
       zh: Oedipina pseudouniformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

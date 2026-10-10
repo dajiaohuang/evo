@@ -9,7 +9,6 @@ records:
     name:
       zh: Abditosaurus kuehnei
       en: Abditosaurus kuehnei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

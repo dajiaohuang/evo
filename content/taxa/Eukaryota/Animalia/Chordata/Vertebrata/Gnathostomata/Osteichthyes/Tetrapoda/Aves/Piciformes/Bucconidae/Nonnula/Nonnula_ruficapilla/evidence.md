@@ -9,7 +9,6 @@ records:
     name:
       zh: Nonnula ruficapilla
       en: Nonnula ruficapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

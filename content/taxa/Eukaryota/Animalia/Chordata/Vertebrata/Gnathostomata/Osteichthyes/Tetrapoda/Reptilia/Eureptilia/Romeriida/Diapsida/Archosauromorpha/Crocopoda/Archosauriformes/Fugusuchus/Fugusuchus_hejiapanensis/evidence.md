@@ -9,7 +9,6 @@ records:
     name:
       zh: Fugusuchus hejiapanensis
       en: Fugusuchus hejiapanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

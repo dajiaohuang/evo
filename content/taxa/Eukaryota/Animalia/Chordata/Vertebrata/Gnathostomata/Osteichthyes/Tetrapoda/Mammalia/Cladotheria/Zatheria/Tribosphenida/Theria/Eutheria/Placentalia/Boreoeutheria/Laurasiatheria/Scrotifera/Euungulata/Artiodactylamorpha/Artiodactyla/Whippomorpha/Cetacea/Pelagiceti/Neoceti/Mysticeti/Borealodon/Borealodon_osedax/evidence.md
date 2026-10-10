@@ -9,7 +9,6 @@ records:
     name:
       zh: Borealodon osedax
       en: Borealodon osedax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

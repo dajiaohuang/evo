@@ -9,7 +9,6 @@ records:
     name:
       zh: Maremmia lorenzi
       en: Maremmia lorenzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

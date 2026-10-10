@@ -9,7 +9,6 @@ records:
     name:
       zh: 杰氏狨猴
       en: Geoffroy's Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

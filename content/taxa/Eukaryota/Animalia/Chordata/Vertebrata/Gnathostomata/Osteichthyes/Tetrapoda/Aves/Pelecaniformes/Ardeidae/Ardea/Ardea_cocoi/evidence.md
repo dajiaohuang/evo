@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardea cocoi
       en: Ardea cocoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

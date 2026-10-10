@@ -9,7 +9,6 @@ records:
     name:
       zh: Carlia sukur
       en: Carlia sukur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

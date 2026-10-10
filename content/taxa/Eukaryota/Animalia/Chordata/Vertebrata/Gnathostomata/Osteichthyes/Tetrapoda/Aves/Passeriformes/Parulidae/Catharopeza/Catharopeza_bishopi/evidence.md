@@ -9,7 +9,6 @@ records:
     name:
       zh: Catharopeza bishopi
       en: Catharopeza bishopi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vipera (Vipera) meotica
       en: Vipera (Vipera) meotica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

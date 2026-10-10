@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis onca
       en: Anolis onca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

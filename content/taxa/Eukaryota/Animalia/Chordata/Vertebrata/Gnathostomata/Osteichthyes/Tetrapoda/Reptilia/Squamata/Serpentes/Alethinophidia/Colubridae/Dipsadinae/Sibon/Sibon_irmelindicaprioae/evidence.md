@@ -9,7 +9,6 @@ records:
     name:
       zh: Sibon irmelindicaprioae
       en: Sibon irmelindicaprioae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

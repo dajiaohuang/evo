@@ -9,7 +9,6 @@ records:
     name:
       zh: Namadapis interdictus
       en: Namadapis interdictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

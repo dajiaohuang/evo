@@ -9,7 +9,6 @@ records:
     name:
       en: Mantella viridis
       zh: Mantella viridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

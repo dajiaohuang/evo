@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: el-albani-2024-trilobite-3d source inventory at 2026.08-static-v5-rc31
       referenceLinks:
         - referenceId: el-albani-2024-trilobite-3d
           relation: supports

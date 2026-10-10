@@ -9,7 +9,6 @@ records:
     name:
       zh: Geokichla camaronensis
       en: Geokichla camaronensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

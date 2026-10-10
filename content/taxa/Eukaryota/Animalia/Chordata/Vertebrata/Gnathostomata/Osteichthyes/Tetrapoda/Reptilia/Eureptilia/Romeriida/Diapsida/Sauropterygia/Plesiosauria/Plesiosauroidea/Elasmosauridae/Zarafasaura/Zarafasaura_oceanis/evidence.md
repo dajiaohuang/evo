@@ -9,7 +9,6 @@ records:
     name:
       zh: Zarafasaura oceanis
       en: Zarafasaura oceanis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates megapoda
       zh: Lithobates megapoda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

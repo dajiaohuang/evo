@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis bufonides
       zh: Leptopelis bufonides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

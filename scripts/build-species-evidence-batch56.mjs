@@ -132,10 +132,9 @@ function buildDossier(input, checkedAt) {
       reasons: [
         `${partialFacets.length} of seven facets have only partial, source-bounded coverage; remaining facets or subtopics are not assessed.`,
         'The source search was focused and is not an exhaustive species-wide literature review.',
-        'No independent external expert review has been completed.',
       ],
     },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
   }
 }
 

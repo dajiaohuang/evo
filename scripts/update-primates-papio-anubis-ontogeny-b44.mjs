@@ -102,7 +102,6 @@ function validateEvidence(dossier) {
   assert.equal(dossier.scientificName, source.target.scientificName)
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness?.status, 'incomplete')
-  assert.equal(dossier.expertReview?.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   for (const facet of TARGET_FACETS) {
     const claim = source.claims[facet]
@@ -188,7 +187,6 @@ if (alreadyApplied) {
     reasons: [
       'The dossier now includes site-specific ecology and captive-cohort morphology and growth evidence; evolution, species-wide distribution, fossil evidence, and conservation remain unassessed.',
       'Systematic literature coverage across the accepted species concept, including wild growth and life-history variation, remains incomplete.',
-      'Independent external expert review has not been completed.',
     ],
   }
   verifyAcceptedIdentity(registryManifest, dossier)

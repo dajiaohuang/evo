@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes vellikkannan
       zh: Raorchestes vellikkannan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

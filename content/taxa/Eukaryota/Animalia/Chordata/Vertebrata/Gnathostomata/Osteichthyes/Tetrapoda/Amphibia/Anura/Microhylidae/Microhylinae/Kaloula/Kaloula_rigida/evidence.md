@@ -9,7 +9,6 @@ records:
     name:
       en: Kaloula rigida
       zh: Kaloula rigida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

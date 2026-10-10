@@ -9,7 +9,6 @@ records:
     name:
       zh: Troglodytes monticola
       en: Troglodytes monticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

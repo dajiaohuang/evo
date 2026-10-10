@@ -9,7 +9,6 @@ records:
     name:
       zh: Ernestokokenia chaishoer
       en: Ernestokokenia chaishoer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

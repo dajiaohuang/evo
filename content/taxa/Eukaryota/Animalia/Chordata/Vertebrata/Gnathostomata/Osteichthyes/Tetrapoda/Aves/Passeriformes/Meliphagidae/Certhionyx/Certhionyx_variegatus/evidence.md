@@ -9,7 +9,6 @@ records:
     name:
       zh: Certhionyx variegatus
       en: Certhionyx variegatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

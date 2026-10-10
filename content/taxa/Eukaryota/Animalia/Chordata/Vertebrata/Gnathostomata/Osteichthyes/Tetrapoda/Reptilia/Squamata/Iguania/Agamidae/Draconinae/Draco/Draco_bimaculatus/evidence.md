@@ -9,7 +9,6 @@ records:
     name:
       zh: Draco bimaculatus
       en: Draco bimaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

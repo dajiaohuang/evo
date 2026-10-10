@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: anderson-2008-gerobatrachus at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: anderson-2008-gerobatrachus
           relation: supports
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: anderson-2008-gerobatrachus at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: anderson-2008-gerobatrachus
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: anderson-2008-gerobatrachus at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: anderson-2008-gerobatrachus
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: anderson-2008-gerobatrachus at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: anderson-2008-gerobatrachus
           relation: supports
@@ -143,9 +131,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: anderson-2008-gerobatrachus at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: anderson-2008-gerobatrachus
           relation: supports
@@ -198,7 +183,6 @@ records:
       referenceLocators:
         - referenceId: anderson-2008-gerobatrachus
           locator: 515–518; Figures 1–4; Systematic palaeontology; locality; anatomical description and phylogenetic analysis
-      reviewStatus: automated-audit-passed
 ---
 
 # Gerobatrachus hottoni

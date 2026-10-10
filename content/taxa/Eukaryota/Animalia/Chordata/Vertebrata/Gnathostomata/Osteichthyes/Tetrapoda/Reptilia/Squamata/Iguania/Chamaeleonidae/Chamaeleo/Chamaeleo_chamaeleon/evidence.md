@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamaeleo chamaeleon
       en: Chamaeleo chamaeleon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

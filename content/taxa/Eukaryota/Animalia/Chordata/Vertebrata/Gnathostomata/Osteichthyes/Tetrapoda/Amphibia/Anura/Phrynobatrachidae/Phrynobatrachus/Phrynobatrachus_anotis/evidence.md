@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus anotis
       zh: Phrynobatrachus anotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

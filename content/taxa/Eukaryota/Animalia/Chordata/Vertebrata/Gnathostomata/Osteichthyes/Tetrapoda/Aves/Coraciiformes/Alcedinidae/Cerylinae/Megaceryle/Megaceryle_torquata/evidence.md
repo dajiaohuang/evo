@@ -9,7 +9,6 @@ records:
     name:
       zh: Megaceryle torquata
       en: Megaceryle torquata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

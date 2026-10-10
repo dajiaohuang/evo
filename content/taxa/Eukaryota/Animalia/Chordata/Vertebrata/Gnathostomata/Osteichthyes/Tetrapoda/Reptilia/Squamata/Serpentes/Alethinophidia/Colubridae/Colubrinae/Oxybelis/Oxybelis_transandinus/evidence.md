@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxybelis transandinus
       en: Oxybelis transandinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

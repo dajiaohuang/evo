@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis squamulatus
       en: Anolis squamulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

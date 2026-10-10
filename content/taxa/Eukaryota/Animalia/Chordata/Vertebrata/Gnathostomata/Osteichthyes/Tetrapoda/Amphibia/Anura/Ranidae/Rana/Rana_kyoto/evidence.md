@@ -9,7 +9,6 @@ records:
     name:
       en: Rana kyoto
       zh: Rana kyoto
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

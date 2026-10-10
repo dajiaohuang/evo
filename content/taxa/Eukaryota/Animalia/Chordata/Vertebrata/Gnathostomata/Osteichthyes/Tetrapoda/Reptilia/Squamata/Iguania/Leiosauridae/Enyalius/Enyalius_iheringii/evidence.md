@@ -9,7 +9,6 @@ records:
     name:
       zh: Enyalius iheringii
       en: Enyalius iheringii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

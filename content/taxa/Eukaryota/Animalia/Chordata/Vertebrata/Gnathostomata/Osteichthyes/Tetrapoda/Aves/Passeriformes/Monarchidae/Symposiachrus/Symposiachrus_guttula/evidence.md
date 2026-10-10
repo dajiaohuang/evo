@@ -9,7 +9,6 @@ records:
     name:
       zh: Symposiachrus guttula
       en: Symposiachrus guttula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

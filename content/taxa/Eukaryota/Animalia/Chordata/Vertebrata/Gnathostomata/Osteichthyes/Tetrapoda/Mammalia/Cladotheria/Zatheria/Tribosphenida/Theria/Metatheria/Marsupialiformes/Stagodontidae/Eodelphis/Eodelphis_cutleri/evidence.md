@@ -9,7 +9,6 @@ records:
     name:
       zh: Eodelphis cutleri
       en: Eodelphis cutleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Indirana paramakri
       zh: Indirana paramakri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

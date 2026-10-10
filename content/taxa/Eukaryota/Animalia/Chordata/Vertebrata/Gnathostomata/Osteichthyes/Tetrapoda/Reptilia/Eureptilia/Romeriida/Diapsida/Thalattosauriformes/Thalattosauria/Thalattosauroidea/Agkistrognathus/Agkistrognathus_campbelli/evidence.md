@@ -9,7 +9,6 @@ records:
     name:
       zh: Agkistrognathus campbelli
       en: Agkistrognathus campbelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

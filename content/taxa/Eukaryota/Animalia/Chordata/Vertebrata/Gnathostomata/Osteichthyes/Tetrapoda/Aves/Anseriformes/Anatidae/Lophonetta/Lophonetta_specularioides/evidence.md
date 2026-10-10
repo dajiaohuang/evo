@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophonetta specularioides
       en: Lophonetta specularioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

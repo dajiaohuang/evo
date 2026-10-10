@@ -9,7 +9,6 @@ records:
     name:
       zh: Eggysodon osborni
       en: Eggysodon osborni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

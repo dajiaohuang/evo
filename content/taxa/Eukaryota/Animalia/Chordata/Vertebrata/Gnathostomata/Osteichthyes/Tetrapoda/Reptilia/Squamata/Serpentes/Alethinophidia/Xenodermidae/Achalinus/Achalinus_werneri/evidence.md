@@ -9,7 +9,6 @@ records:
     name:
       zh: Achalinus werneri
       en: Achalinus werneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyrannus dominicensis
       en: Tyrannus dominicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

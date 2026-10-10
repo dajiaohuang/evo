@@ -9,7 +9,6 @@ records:
     name:
       zh: Aulacephalodon rubidgei
       en: Aulacephalodon rubidgei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

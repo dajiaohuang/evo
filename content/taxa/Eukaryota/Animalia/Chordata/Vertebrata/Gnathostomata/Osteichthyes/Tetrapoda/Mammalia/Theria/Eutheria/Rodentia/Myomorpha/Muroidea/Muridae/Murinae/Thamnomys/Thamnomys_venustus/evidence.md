@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnomys venustus
       en: Thamnomys venustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

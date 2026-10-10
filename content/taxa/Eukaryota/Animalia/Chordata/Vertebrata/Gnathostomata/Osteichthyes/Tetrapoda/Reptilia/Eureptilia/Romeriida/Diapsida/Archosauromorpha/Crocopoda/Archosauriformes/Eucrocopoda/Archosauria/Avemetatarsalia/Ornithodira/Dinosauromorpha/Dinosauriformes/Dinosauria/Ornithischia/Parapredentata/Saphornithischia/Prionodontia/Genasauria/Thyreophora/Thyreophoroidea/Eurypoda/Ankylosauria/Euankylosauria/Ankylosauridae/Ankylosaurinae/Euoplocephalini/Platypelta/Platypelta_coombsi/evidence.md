@@ -9,7 +9,6 @@ records:
     name:
       zh: Platypelta coombsi
       en: Platypelta coombsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

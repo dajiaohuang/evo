@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhagamys orthodon
       en: Rhagamys orthodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

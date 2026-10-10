@@ -9,7 +9,6 @@ records:
     name:
       zh: Tlaxcallicetus guaycurae
       en: Tlaxcallicetus guaycurae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

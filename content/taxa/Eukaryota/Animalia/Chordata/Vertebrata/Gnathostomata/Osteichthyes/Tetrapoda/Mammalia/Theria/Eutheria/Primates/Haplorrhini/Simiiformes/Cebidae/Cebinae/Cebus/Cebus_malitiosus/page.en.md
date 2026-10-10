@@ -36,7 +36,7 @@ Table II in a 2018 mitogenomic study lists five Colombian samples under the prin
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page covers taxonomic disagreement, type review, historical sample localities, modeled maps and the 2019 handbook’s morphology summary. Independent field ecology attributable to the pinned COL concept remains insufficient, so the first-round gap stays open. Handbook dimensions do not separate sexes or document original samples; maps are not population counts, and pelage is not assigned to the name-bearing skull. There is no external expert review.
+This page covers taxonomic disagreement, type review, historical sample localities, modeled maps and the 2019 handbook’s morphology summary. Independent field ecology attributable to the pinned COL concept remains insufficient, so the first-round gap stays open. Handbook dimensions do not separate sexes or document original samples; maps are not population counts, and pelage is not assigned to the name-bearing skull. .
 <!-- /evo:text -->
 
 ## Separate handbook pelage from the type skin

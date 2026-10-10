@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia talpa
       zh: Uperoleia talpa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

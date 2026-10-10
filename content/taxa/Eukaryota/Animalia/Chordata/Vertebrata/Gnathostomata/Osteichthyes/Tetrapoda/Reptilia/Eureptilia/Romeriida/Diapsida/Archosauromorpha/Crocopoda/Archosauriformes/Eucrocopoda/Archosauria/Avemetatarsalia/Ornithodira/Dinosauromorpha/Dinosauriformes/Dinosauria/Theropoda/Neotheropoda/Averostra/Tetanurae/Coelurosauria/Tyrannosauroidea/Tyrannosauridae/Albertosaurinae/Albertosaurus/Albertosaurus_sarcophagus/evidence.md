@@ -9,7 +9,6 @@ records:
     name:
       zh: Albertosaurus sarcophagus
       en: Albertosaurus sarcophagus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

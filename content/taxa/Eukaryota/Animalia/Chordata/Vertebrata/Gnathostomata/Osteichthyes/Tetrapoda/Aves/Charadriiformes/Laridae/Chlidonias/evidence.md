@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlidonias
       en: Chlidonias
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

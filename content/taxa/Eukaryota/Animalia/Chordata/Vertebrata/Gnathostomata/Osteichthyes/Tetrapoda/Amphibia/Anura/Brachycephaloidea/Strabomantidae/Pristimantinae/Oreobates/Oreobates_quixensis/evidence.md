@@ -9,7 +9,6 @@ records:
     name:
       en: Oreobates quixensis
       zh: Oreobates quixensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

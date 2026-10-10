@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropiocolotes wolfgangboehmei
       en: Tropiocolotes wolfgangboehmei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scolopax mira
       en: Scolopax mira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

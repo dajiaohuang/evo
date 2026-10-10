@@ -9,7 +9,6 @@ records:
     name:
       zh: Natriciteres pembana
       en: Natriciteres pembana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

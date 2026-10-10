@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudochirops albertisii
       en: Pseudochirops albertisii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

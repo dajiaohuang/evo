@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmoborus myotherinus
       en: Myrmoborus myotherinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

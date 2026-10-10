@@ -9,7 +9,6 @@ records:
     name:
       zh: Palasiomys trapezius
       en: Palasiomys trapezius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cacicus cela
       en: Cacicus cela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

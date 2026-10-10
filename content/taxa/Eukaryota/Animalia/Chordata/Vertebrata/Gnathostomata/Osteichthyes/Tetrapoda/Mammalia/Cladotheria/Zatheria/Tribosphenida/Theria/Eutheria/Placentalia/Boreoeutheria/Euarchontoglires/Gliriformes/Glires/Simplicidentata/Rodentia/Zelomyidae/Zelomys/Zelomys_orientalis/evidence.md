@@ -9,7 +9,6 @@ records:
     name:
       zh: Zelomys orientalis
       en: Zelomys orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

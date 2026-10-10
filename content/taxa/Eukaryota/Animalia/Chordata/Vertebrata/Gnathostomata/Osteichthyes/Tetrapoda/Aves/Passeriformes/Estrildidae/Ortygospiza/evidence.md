@@ -9,7 +9,6 @@ records:
     name:
       zh: Ortygospiza
       en: Ortygospiza
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

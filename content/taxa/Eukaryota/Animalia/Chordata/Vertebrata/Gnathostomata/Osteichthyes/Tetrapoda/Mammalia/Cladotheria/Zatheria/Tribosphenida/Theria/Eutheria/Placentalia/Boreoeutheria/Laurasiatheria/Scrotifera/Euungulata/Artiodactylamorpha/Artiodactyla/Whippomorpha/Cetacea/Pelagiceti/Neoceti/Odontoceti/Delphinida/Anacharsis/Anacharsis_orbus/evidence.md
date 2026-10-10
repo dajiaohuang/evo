@@ -9,7 +9,6 @@ records:
     name:
       zh: Anacharsis orbus
       en: Anacharsis orbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligodon lacroixi
       en: Oligodon lacroixi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

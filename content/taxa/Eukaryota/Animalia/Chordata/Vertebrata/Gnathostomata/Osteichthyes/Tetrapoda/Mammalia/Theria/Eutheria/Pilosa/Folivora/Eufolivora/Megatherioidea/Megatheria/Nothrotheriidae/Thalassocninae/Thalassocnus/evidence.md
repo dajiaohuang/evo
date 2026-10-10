@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: amson-2014-thalassocnus-bone-density concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: amson-2014-thalassocnus-bone-density
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: amson-2014-thalassocnus-bone-density
           locator: 20140192; Figures 1–4; Tables S3–S7
-      reviewStatus: automated-audit-passed
 ---
 
 # Thalassocnus

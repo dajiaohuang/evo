@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella flaviglandulosa
       zh: Leptobrachella flaviglandulosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

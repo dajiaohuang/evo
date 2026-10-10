@@ -9,7 +9,6 @@ records:
     name:
       zh: Turpanotherium elegans
       en: Turpanotherium elegans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex raddei
       en: Sorex raddei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

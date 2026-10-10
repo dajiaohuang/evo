@@ -9,7 +9,6 @@ records:
     name:
       zh: Suaptenos whitei
       en: Suaptenos whitei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

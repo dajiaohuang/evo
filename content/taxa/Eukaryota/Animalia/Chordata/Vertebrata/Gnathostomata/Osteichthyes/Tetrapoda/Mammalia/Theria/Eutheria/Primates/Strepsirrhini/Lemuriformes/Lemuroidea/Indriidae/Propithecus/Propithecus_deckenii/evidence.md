@@ -9,7 +9,6 @@ records:
     name:
       en: Decken's Sifaka
       zh: 德肯西法卡
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: behaviour

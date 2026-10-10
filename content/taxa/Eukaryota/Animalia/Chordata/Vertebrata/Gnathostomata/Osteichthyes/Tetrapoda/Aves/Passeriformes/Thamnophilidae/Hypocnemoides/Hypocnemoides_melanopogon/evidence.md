@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypocnemoides melanopogon
       en: Hypocnemoides melanopogon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

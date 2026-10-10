@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipistrellus rusticus
       en: Pipistrellus rusticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

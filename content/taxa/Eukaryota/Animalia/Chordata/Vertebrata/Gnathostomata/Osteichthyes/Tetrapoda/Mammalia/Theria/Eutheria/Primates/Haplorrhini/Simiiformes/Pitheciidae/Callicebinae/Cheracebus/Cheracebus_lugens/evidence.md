@@ -9,7 +9,6 @@ records:
     name:
       zh: 白胸跳猴
       en: White-chested Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

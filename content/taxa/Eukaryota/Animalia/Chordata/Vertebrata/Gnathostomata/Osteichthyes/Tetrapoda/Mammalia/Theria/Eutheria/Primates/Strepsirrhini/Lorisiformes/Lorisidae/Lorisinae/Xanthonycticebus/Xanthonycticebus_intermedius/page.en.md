@@ -28,5 +28,5 @@ The recent field survey provides direct species-level occurrence and local popul
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The 2025 field records are limited to four counties in Guangxi, China; 98 individuals are not a total for the species, and the survey did not cover Laos or Vietnam. Historical museum DNA addresses lineage and taxonomy, not present-day distribution or abundance. The MDD EN category is a version-specific assessment field and was not independently assessed here. The Chinese name is editorial, and the page has not received external expert review. This page is not externally expert-reviewed.
+The 2025 field records are limited to four counties in Guangxi, China; 98 individuals are not a total for the species, and the survey did not cover Laos or Vietnam. Historical museum DNA addresses lineage and taxonomy, not present-day distribution or abundance. The MDD EN category is a version-specific assessment field and was not independently assessed here. The Chinese name is editorial. This page is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ikanogavialis gameroi
       en: Ikanogavialis gameroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

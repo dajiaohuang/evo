@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes megastomias
       zh: Limnonectes megastomias
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Casuariiformes
       en: Casuariiformes
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: palaeognathGenomics

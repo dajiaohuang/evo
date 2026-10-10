@@ -9,7 +9,6 @@ records:
     name:
       zh: Riama labionis
       en: Riama labionis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

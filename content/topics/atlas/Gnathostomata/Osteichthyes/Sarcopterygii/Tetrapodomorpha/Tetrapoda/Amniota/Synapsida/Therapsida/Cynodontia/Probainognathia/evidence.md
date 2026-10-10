@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ruta-2013-cynodont-radiation concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: ruta-2013-cynodont-radiation
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ruta-2013-cynodont-radiation @ DOI 10.1098/rspb.2013.1865
       referenceLinks:
         - relation: supports
           referenceId: ruta-2013-cynodont-radiation
@@ -97,7 +91,6 @@ records:
           locator: "Article 20131865; Abstract; Results: phylogeny, disparity and evolutionary rates"
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
 ---
 
 # Probainognathia

@@ -9,7 +9,6 @@ records:
     name:
       zh: Deuterosaurus biarmicus
       en: Deuterosaurus biarmicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

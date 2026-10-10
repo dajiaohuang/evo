@@ -9,7 +9,6 @@ records:
     name:
       zh: Cacicus microrhynchus
       en: Cacicus microrhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrocincla turdina
       en: Dendrocincla turdina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

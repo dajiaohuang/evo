@@ -9,7 +9,6 @@ records:
     name:
       zh: Sivatherium giganteum
       en: Sivatherium giganteum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

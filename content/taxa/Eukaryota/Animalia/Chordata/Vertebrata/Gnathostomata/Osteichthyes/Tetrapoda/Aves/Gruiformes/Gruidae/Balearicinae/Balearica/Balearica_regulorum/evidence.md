@@ -9,7 +9,6 @@ records:
     name:
       zh: Balearica regulorum
       en: Balearica regulorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

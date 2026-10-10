@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus rouxi
       zh: Phrynobatrachus rouxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

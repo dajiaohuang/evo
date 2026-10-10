@@ -9,7 +9,6 @@ records:
     name:
       zh: Conacodon kohlbergeri
       en: Conacodon kohlbergeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

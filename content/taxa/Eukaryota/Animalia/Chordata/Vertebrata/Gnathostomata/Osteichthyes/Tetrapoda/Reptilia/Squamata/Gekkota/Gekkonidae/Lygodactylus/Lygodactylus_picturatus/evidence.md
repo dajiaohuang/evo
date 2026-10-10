@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus picturatus
       en: Lygodactylus picturatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

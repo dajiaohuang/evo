@@ -9,7 +9,6 @@ records:
     name:
       zh: Grammomys kuru
       en: Grammomys kuru
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Otus silvicola
       en: Otus silvicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipistrellus paterculus
       en: Pipistrellus paterculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

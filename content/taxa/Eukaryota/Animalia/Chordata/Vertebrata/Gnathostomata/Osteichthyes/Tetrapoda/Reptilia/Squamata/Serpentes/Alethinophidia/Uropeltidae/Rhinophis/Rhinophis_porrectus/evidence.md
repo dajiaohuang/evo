@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinophis porrectus
       en: Rhinophis porrectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

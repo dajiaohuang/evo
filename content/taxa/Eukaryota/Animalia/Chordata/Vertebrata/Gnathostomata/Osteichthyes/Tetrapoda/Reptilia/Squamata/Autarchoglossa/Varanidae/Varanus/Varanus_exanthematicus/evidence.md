@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus exanthematicus
       en: Varanus exanthematicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

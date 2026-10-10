@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacerops coloradensis
       en: Megacerops coloradensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

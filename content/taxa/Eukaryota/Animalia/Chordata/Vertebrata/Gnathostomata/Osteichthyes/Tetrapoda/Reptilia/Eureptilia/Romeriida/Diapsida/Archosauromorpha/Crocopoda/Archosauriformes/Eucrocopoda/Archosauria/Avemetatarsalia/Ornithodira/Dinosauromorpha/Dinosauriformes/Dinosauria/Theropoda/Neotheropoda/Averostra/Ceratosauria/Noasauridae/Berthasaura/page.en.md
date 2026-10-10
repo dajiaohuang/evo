@@ -36,5 +36,5 @@ Compare Berthasaura leopoldinae with its named collection and original reference
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route adds a holotype guide, with all genus material, development and later classification research incomplete. An abstract notice is not full-paper review. Preservation and inference are stated separately, without external expert review.
+This route adds a holotype guide, with all genus material, development and later classification research incomplete. An abstract notice is not full-paper review. Preservation and inference are stated separately.
 <!-- /evo:text -->

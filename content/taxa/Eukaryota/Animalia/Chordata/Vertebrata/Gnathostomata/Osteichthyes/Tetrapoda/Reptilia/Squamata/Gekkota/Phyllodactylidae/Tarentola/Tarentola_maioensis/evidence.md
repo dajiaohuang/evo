@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarentola maioensis
       en: Tarentola maioensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Stefania ackawaio
       zh: Stefania ackawaio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

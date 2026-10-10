@@ -9,7 +9,6 @@ records:
     name:
       zh: Anomalurus pusillus
       en: Anomalurus pusillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

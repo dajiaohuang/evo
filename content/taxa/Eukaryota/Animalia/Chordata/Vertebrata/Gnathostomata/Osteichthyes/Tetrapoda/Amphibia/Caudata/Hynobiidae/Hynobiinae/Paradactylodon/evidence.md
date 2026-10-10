@@ -9,7 +9,6 @@ records:
     name:
       en: Paradactylodon
       zh: Paradactylodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

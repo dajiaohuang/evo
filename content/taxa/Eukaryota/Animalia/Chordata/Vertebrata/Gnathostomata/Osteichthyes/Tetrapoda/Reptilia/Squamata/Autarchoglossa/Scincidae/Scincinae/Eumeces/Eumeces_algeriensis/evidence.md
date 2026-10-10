@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumeces algeriensis
       en: Eumeces algeriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

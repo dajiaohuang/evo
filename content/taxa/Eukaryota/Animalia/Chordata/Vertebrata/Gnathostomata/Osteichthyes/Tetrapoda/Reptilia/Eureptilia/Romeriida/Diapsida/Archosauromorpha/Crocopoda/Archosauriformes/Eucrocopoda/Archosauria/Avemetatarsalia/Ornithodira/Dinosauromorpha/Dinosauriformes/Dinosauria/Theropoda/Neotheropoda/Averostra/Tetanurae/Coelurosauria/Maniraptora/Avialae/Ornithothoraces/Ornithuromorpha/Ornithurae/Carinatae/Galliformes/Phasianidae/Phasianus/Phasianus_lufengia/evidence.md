@@ -9,7 +9,6 @@ records:
     name:
       zh: Phasianus lufengia
       en: Phasianus lufengia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

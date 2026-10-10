@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia kyaiktiyoensis
       zh: Ansonia kyaiktiyoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

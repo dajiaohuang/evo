@@ -9,7 +9,6 @@ records:
     name:
       zh: Dakotadens morrowi
       en: Dakotadens morrowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

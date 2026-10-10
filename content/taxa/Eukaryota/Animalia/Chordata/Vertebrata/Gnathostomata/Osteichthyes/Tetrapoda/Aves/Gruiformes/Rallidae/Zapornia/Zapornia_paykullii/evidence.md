@@ -9,7 +9,6 @@ records:
     name:
       zh: Zapornia paykullii
       en: Zapornia paykullii
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

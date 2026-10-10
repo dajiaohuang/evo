@@ -9,7 +9,6 @@ records:
     name:
       zh: Scolotosuchus basileus
       en: Scolotosuchus basileus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

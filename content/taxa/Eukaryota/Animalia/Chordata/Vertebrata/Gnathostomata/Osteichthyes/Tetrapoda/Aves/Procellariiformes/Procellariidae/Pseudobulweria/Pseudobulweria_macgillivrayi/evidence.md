@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudobulweria macgillivrayi
       en: Pseudobulweria macgillivrayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

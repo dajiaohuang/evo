@@ -28,5 +28,5 @@ The study compared it with other northern reddish mouse lemurs rather than treat
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This account is limited to the original northern/northwestern taxonomic study and type locality; current full range, ecology, abundance and conservation status are not assessed. The page is not externally expert-reviewed.
+This account is limited to the original northern/northwestern taxonomic study and type locality; current full range, ecology, abundance and conservation status are not assessed. The page is.
 <!-- /evo:text -->

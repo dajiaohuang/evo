@@ -9,7 +9,6 @@ records:
     name:
       zh: Pediohierax ramenta
       en: Pediohierax ramenta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

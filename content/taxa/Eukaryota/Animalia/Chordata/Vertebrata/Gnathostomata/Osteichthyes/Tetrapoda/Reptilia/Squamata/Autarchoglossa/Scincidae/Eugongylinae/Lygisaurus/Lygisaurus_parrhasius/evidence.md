@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygisaurus parrhasius
       en: Lygisaurus parrhasius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

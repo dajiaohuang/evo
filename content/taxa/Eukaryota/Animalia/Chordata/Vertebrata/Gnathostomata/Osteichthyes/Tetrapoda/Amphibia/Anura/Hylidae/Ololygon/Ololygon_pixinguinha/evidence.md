@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon pixinguinha
       zh: Ololygon pixinguinha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

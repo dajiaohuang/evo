@@ -9,7 +9,6 @@ records:
     name:
       en: Crinia sloanei
       zh: Crinia sloanei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

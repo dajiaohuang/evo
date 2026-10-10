@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella mangshanensis
       zh: Leptobrachella mangshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

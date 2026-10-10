@@ -9,7 +9,6 @@ records:
     name:
       zh: Pedioplanis haackei
       en: Pedioplanis haackei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

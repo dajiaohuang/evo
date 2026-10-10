@@ -9,7 +9,6 @@ records:
     name:
       zh: Calamodontophis ronaldoi
       en: Calamodontophis ronaldoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

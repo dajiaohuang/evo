@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pramukae
       zh: Pristimantis pramukae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

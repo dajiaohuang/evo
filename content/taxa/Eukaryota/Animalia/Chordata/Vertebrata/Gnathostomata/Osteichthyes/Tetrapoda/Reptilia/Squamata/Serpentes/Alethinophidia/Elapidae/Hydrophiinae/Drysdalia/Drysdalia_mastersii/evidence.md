@@ -9,7 +9,6 @@ records:
     name:
       zh: Drysdalia mastersii
       en: Drysdalia mastersii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

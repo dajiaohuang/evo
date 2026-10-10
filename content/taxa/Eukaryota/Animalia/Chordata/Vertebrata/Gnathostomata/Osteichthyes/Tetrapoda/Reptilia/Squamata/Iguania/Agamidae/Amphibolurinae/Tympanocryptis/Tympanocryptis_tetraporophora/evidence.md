@@ -9,7 +9,6 @@ records:
     name:
       zh: Tympanocryptis tetraporophora
       en: Tympanocryptis tetraporophora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

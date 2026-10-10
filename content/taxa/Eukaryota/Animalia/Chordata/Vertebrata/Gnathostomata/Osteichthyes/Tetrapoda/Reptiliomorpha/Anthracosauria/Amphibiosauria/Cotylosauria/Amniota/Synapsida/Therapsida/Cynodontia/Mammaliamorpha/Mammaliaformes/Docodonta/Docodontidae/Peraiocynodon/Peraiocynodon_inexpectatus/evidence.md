@@ -9,7 +9,6 @@ records:
     name:
       zh: Peraiocynodon inexpectatus
       en: Peraiocynodon inexpectatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bohra paulae
       en: Bohra paulae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrochelys schmidti
       en: Macrochelys schmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

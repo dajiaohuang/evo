@@ -9,7 +9,6 @@ records:
     name:
       zh: Anas kurochkini
       en: Anas kurochkini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

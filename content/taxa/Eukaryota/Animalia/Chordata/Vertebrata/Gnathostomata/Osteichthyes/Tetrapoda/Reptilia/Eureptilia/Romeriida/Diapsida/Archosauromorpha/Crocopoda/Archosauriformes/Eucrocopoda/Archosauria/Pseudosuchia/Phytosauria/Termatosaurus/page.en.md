@@ -24,6 +24,6 @@ Start with Termatosaurus crocodilinus, Termatosaurus alberti and compare each pa
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes. No external expert review has occurred.
+This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 This batch covers only the other-archosauria partition of the fixed PBDB Amniota working list, using external OIDs to exclude entries assigned to Dinosauria, Pterosauria and Crocodylomorpha partitions. The partition organizes dated database records; other phylogenetic schemes may place taxa differently, and membership is not an expert adjudication.
 <!-- /evo:text -->

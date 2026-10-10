@@ -9,7 +9,6 @@ records:
     name:
       zh: Aralosorex kalini
       en: Aralosorex kalini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Harmodontosaurus emeryensis
       en: Harmodontosaurus emeryensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis modestus
       zh: Leptopelis modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

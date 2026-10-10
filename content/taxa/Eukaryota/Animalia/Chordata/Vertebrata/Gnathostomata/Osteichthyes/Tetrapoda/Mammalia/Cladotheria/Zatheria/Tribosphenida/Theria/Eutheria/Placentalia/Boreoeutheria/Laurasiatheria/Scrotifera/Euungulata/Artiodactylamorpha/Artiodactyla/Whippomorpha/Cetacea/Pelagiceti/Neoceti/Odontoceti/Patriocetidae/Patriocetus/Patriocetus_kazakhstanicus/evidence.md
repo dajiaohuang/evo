@@ -9,7 +9,6 @@ records:
     name:
       zh: Patriocetus kazakhstanicus
       en: Patriocetus kazakhstanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

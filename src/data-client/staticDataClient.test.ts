@@ -422,10 +422,6 @@ describe('static runtime release coherence', () => {
       version: 'dataset-b',
       title: 'Demo',
       titleZh: '演示',
-      platformMaturity: 'published',
-      scientificMaturity: 'generated-scaffold',
-      automatedReviewStatus: 'passed',
-      reviewStatus: 'not-reviewed',
       queryCoverage: {
         completeness: 'bounded',
         upstreamReportedTotal: null,

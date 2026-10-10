@@ -9,7 +9,6 @@ records:
     name:
       zh: Praesinomegaceros bakri
       en: Praesinomegaceros bakri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

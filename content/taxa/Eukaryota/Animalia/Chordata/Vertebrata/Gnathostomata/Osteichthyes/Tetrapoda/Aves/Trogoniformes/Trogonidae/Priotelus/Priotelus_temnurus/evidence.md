@@ -9,7 +9,6 @@ records:
     name:
       zh: Priotelus temnurus
       en: Priotelus temnurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

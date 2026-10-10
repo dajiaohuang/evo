@@ -9,7 +9,6 @@ records:
     name:
       zh: Kuehneodon simpsoni
       en: Kuehneodon simpsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

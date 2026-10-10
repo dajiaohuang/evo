@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipodomys gravipes
       en: Dipodomys gravipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

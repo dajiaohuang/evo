@@ -9,7 +9,6 @@ records:
     name:
       zh: Cheloidea 总科
       en: Cheloidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

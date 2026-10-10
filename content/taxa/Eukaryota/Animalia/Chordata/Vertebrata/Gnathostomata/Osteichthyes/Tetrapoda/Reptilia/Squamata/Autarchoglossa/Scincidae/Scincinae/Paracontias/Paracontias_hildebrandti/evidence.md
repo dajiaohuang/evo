@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracontias hildebrandti
       en: Paracontias hildebrandti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

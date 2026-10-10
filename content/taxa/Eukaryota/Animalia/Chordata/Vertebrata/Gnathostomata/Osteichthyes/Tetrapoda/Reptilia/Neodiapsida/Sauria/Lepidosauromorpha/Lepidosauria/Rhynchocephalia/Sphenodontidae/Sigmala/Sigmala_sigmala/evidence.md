@@ -9,7 +9,6 @@ records:
     name:
       zh: Sigmala sigmala
       en: Sigmala sigmala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

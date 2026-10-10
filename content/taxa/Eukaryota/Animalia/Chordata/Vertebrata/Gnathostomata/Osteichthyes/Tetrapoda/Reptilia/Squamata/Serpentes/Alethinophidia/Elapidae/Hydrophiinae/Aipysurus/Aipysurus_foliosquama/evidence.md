@@ -9,7 +9,6 @@ records:
     name:
       zh: Aipysurus foliosquama
       en: Aipysurus foliosquama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

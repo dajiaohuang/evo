@@ -9,7 +9,6 @@ records:
     name:
       en: Niceforonia babax
       zh: Niceforonia babax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

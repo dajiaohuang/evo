@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrelaphis gastrostictus
       en: Dendrelaphis gastrostictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

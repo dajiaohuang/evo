@@ -9,7 +9,6 @@ records:
     name:
       zh: Dromatherium sylvestre
       en: Dromatherium sylvestre
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

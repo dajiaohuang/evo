@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor berkenbuschii
       zh: Craugastor berkenbuschii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

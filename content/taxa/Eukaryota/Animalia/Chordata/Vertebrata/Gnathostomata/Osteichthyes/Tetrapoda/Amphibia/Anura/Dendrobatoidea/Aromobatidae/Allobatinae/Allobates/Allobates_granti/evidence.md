@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates granti
       zh: Allobates granti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

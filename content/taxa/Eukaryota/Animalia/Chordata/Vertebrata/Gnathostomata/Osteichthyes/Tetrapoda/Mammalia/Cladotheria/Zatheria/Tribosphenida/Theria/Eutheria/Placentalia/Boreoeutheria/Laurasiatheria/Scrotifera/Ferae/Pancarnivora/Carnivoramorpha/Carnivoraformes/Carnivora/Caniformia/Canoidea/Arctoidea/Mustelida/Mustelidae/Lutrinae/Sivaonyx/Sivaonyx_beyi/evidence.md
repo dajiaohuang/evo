@@ -9,7 +9,6 @@ records:
     name:
       zh: Sivaonyx beyi
       en: Sivaonyx beyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

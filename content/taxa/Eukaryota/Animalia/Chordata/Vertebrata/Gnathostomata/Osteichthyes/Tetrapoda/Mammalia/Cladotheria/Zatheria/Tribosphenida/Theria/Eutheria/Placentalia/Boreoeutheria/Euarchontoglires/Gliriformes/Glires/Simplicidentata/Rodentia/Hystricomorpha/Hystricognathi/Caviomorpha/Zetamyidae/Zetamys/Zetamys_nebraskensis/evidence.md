@@ -9,7 +9,6 @@ records:
     name:
       zh: Zetamys nebraskensis
       en: Zetamys nebraskensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

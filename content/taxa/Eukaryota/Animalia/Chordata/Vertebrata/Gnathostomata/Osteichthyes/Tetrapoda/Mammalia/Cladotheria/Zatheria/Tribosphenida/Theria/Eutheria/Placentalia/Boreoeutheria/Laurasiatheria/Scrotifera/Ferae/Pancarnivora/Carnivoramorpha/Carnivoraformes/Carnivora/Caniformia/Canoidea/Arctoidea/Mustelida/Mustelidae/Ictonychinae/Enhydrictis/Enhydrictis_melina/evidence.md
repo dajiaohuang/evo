@@ -9,7 +9,6 @@ records:
     name:
       zh: Enhydrictis melina
       en: Enhydrictis melina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,5 +22,5 @@ The authors associated L. jamesi with one of the few remaining low-elevation coa
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The source provides a taxonomic description and local habitat context, not a current abundance estimate, threat assessment, or complete range survey. The COL26.8 accepted name is retained. The Chinese common name is editorial; this guide is not externally expert-reviewed.
+The source provides a taxonomic description and local habitat context, not a current abundance estimate, threat assessment, or complete range survey. The COL26.8 accepted name is retained. The Chinese common name is editorial; this guide is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mustela erminea
       en: Mustela erminea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

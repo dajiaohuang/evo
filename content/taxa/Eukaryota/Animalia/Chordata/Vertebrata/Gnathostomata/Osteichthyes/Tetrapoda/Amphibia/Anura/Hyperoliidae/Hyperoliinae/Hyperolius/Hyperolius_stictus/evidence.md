@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius stictus
       zh: Hyperolius stictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

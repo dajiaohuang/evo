@@ -9,7 +9,6 @@ records:
     name:
       en: Taruga longinasus
       zh: Taruga longinasus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

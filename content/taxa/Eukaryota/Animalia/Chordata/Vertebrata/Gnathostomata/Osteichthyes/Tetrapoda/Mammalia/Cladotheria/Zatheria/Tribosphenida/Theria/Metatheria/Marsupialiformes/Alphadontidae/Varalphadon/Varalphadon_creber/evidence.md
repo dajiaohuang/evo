@@ -9,7 +9,6 @@ records:
     name:
       zh: Varalphadon creber
       en: Varalphadon creber
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

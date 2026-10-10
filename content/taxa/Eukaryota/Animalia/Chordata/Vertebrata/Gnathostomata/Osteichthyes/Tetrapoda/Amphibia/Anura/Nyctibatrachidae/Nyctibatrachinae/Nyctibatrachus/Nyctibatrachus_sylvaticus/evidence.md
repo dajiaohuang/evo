@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus sylvaticus
       zh: Nyctibatrachus sylvaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

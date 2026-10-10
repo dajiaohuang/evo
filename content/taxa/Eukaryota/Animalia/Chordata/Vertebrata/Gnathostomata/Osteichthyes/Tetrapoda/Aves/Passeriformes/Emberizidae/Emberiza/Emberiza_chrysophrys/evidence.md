@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberiza chrysophrys
       en: Emberiza chrysophrys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

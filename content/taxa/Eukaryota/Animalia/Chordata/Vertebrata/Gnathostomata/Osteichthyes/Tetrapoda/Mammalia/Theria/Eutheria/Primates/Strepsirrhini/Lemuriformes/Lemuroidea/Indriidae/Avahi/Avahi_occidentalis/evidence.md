@@ -9,7 +9,6 @@ records:
     name:
       zh: 西部毛狐猴
       en: Western Woolly Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: taxonomy

@@ -9,7 +9,6 @@ records:
     name:
       zh: Asio ecuadoriensis
       en: Asio ecuadoriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

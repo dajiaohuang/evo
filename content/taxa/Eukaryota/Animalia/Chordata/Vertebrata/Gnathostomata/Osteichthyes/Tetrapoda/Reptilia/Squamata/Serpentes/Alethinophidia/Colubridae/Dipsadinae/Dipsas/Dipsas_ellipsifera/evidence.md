@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsas ellipsifera
       en: Dipsas ellipsifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

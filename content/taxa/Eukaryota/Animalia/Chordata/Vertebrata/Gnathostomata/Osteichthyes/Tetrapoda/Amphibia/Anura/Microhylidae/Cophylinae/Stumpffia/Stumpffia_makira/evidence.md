@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia makira
       zh: Stumpffia makira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

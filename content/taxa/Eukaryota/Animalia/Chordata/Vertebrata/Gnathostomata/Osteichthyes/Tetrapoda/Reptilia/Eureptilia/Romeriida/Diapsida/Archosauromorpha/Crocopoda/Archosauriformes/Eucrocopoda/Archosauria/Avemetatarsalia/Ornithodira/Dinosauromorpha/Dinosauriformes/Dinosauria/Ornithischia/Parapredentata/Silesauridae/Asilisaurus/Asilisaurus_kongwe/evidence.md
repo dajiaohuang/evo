@@ -9,7 +9,6 @@ records:
     name:
       zh: Asilisaurus kongwe
       en: Asilisaurus kongwe
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

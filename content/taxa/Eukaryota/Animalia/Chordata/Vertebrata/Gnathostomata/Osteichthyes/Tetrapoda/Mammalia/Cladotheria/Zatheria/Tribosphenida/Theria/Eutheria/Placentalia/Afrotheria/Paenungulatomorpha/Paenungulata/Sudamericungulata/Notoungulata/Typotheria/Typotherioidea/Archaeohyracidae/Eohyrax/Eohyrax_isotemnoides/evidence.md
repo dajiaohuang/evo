@@ -9,7 +9,6 @@ records:
     name:
       zh: Eohyrax isotemnoides
       en: Eohyrax isotemnoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

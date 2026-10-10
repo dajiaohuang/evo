@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreodontoides oregonensis
       en: Oreodontoides oregonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

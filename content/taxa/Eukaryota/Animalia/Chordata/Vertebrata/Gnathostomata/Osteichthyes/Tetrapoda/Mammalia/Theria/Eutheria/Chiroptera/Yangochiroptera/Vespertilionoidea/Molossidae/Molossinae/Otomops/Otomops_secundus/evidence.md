@@ -9,7 +9,6 @@ records:
     name:
       zh: Otomops secundus
       en: Otomops secundus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

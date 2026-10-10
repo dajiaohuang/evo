@@ -9,7 +9,6 @@ records:
     name:
       zh: 柯林斯松鼠猴
       en: Collins' Squirrel Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

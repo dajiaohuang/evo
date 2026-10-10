@@ -9,7 +9,6 @@ records:
     name:
       zh: Erliansaurus bellamanus
       en: Erliansaurus bellamanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenosuchus acutus
       en: Sphenosuchus acutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

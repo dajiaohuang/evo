@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ma-2024-coelodonta-paleoecology + gudjonsdottir-2026-coelodonta locator audit at 2026-08-31
       referenceLinks:
         - referenceId: ma-2024-coelodonta-paleoecology
           relation: supports
@@ -86,9 +83,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ma-2024-coelodonta-paleoecology locator audit at 2026-08-31
       referenceLinks:
         - referenceId: ma-2024-coelodonta-paleoecology
           relation: supports
@@ -107,9 +101,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ma-2024-coelodonta-paleoecology locator audit at 2026-08-31
       referenceLinks:
         - referenceId: ma-2024-coelodonta-paleoecology
           relation: supports
@@ -128,9 +119,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ma-2024-coelodonta-paleoecology locator audit at 2026-08-31
       referenceLinks:
         - referenceId: ma-2024-coelodonta-paleoecology
           relation: supports
@@ -149,9 +137,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ma-2024-coelodonta-paleoecology locator audit at 2026-08-31
       referenceLinks:
         - referenceId: ma-2024-coelodonta-paleoecology
           relation: supports
@@ -170,9 +155,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: ma-2024 + gudjonsdottir-2026 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: ma-2024-coelodonta-paleoecology
           relation: supports
@@ -237,7 +219,6 @@ records:
             field: /records/ranges/0/referenceLocators/0/locator
         - referenceId: gudjonsdottir-2026-coelodonta
           locator: pp. 1–8; Figures 1–3 and Supplementary Tables; directly dated 14.4 ka C. antiquitatis individual
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

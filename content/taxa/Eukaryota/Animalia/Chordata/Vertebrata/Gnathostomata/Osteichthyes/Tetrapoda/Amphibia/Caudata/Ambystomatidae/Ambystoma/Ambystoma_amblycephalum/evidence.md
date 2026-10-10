@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma amblycephalum
       zh: Ambystoma amblycephalum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

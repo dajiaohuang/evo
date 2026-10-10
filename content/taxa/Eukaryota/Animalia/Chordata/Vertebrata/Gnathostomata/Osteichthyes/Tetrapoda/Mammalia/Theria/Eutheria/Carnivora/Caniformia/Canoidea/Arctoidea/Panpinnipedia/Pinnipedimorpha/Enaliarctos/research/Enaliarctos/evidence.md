@@ -59,11 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - relation: supports
           referenceId: berta-ray-1990-enaliarctos
@@ -86,9 +81,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: berta-ray-1990-enaliarctos primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - relation: supports
           referenceId: berta-ray-1990-enaliarctos
@@ -107,9 +99,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: berta-ray-1990-enaliarctos primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - relation: supports
           referenceId: berta-ray-1990-enaliarctos
@@ -128,9 +117,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: berta-ray-1990-enaliarctos primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - relation: supports
           referenceId: berta-ray-1990-enaliarctos
@@ -149,9 +135,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: berta-ray-1990-enaliarctos primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - relation: supports
           referenceId: berta-ray-1990-enaliarctos
@@ -206,7 +189,6 @@ records:
           locator: 141–157; Figures 1–8; Tables 1–6; Skeletal description; Limb proportions; Locomotor interpretation
         - referenceId: berta-ray-wyss-1989-enaliarctos
           locator: "60–62; abstract: nearly complete skeleton from California rocks, approximately 23 million years old"
-      reviewStatus: automated-audit-passed
 ---
 
 # Enaliarctos

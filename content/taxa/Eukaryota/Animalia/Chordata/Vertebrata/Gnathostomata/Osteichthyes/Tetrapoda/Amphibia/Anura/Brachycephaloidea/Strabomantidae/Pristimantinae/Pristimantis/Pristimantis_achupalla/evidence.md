@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis achupalla
       zh: Pristimantis achupalla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

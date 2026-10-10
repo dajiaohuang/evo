@@ -9,7 +9,6 @@ records:
     name:
       zh: Chirindia langi
       en: Chirindia langi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

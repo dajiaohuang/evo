@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyclura lewisi
       en: Cyclura lewisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

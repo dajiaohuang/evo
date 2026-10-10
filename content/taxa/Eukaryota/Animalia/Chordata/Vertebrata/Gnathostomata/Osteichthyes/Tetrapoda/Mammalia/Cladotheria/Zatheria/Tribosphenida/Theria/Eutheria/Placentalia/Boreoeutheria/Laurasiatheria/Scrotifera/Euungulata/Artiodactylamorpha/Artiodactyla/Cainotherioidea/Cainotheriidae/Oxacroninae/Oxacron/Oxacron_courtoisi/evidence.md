@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxacron courtoisi
       en: Oxacron courtoisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

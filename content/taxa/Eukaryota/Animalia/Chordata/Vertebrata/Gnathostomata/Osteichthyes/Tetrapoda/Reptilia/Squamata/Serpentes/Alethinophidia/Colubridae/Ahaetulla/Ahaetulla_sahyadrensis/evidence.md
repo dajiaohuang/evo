@@ -9,7 +9,6 @@ records:
     name:
       zh: Ahaetulla sahyadrensis
       en: Ahaetulla sahyadrensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

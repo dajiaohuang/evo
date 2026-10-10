@@ -9,7 +9,6 @@ records:
     name:
       en: Hylodes charadranaetes
       zh: Hylodes charadranaetes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

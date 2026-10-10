@@ -9,7 +9,6 @@ records:
     name:
       zh: Arthropterygius hoybergeti
       en: Arthropterygius hoybergeti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus sinaitus
       en: Hemidactylus sinaitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

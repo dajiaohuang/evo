@@ -9,7 +9,6 @@ records:
     name:
       zh: Bustylus folieae
       en: Bustylus folieae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

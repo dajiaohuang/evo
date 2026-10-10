@@ -9,7 +9,6 @@ records:
     name:
       zh: Elapsoidea broadleyi
       en: Elapsoidea broadleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

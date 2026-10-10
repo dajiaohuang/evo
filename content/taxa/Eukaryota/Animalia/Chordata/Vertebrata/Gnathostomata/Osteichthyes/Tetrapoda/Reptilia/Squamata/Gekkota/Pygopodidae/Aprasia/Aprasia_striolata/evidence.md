@@ -9,7 +9,6 @@ records:
     name:
       zh: Aprasia striolata
       en: Aprasia striolata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chloroceryle inda
       en: Chloroceryle inda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

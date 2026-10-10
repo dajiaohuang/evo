@@ -9,7 +9,6 @@ records:
     name:
       zh: 阿萨姆猕猴
       en: Assamese Macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: population and elevation survey

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutypomys hibernodus
       en: Eutypomys hibernodus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

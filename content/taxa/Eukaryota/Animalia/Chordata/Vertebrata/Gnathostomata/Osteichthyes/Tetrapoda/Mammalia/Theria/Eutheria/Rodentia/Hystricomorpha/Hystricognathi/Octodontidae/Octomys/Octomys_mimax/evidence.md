@@ -9,7 +9,6 @@ records:
     name:
       zh: Octomys mimax
       en: Octomys mimax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

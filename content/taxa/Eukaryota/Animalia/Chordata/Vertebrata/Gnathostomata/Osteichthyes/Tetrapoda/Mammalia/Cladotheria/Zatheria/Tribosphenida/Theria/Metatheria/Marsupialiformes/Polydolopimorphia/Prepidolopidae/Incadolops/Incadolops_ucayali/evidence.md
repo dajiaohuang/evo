@@ -9,7 +9,6 @@ records:
     name:
       zh: Incadolops ucayali
       en: Incadolops ucayali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

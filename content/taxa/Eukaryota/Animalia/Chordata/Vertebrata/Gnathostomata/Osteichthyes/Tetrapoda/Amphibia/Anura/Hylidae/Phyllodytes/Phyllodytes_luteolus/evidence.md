@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllodytes luteolus
       zh: Phyllodytes luteolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

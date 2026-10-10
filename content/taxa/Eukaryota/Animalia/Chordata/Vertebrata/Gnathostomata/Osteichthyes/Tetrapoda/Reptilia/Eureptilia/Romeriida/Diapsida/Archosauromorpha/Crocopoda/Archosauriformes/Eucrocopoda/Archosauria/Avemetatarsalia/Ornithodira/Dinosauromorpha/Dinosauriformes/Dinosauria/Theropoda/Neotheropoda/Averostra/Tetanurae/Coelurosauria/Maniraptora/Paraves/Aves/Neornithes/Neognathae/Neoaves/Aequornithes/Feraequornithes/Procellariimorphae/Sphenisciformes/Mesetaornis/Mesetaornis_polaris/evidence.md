@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesetaornis polaris
       en: Mesetaornis polaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

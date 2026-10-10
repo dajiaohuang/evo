@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor merendonensis
       zh: Craugastor merendonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

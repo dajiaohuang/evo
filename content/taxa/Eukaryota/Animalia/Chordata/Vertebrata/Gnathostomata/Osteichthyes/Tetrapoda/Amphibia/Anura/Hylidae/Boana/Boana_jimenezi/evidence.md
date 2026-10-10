@@ -9,7 +9,6 @@ records:
     name:
       en: Boana jimenezi
       zh: Boana jimenezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus merriami
       en: Sceloporus merriami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

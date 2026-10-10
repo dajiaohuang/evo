@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo yongdeensis
       zh: Bufo yongdeensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

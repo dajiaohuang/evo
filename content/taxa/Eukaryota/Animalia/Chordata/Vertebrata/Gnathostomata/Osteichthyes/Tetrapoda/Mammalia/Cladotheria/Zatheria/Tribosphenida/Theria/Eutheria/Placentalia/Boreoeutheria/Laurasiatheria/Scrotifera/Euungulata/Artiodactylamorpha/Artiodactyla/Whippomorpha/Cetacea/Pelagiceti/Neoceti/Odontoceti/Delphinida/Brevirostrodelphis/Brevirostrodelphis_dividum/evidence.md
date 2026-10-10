@@ -9,7 +9,6 @@ records:
     name:
       zh: Brevirostrodelphis dividum
       en: Brevirostrodelphis dividum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

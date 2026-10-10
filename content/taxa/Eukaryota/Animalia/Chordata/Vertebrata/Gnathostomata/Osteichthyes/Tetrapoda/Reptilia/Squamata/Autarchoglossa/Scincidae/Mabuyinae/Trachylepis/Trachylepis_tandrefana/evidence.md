@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis tandrefana
       en: Trachylepis tandrefana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

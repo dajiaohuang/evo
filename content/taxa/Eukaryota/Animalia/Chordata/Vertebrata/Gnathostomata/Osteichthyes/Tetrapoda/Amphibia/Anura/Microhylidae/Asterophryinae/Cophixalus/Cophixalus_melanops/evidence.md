@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus melanops
       zh: Cophixalus melanops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

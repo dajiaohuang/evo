@@ -9,7 +9,6 @@ records:
     name:
       zh: Cranioleuca erythrops
       en: Cranioleuca erythrops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

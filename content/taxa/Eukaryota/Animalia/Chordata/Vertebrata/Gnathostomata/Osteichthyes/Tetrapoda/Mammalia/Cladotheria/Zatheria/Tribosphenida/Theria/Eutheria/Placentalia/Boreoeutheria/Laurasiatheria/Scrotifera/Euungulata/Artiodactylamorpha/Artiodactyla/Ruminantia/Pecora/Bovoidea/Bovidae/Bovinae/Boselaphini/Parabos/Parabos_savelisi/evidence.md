@@ -9,7 +9,6 @@ records:
     name:
       zh: Parabos savelisi
       en: Parabos savelisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

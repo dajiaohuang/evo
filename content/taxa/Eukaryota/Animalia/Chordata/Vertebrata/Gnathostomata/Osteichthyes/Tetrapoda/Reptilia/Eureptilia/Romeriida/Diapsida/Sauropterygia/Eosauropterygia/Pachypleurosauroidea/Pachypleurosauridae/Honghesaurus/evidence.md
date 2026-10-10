@@ -9,7 +9,6 @@ records:
     name:
       zh: Honghesaurus
       en: Honghesaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

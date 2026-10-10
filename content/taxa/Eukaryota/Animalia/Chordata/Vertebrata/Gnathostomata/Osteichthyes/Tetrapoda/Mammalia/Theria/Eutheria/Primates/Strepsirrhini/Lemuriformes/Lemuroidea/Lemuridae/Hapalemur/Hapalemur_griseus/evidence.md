@@ -10,7 +10,6 @@ records:
     name:
       en: Gray Bamboo Lemur
       zh: 灰竹狐猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

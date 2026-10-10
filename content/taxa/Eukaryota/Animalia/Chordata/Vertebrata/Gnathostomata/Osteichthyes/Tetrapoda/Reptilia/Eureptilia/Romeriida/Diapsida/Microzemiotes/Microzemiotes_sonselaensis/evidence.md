@@ -9,7 +9,6 @@ records:
     name:
       zh: Microzemiotes sonselaensis
       en: Microzemiotes sonselaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

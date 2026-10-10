@@ -9,7 +9,6 @@ records:
     name:
       zh: Spondylurus semitaeniatus
       en: Spondylurus semitaeniatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

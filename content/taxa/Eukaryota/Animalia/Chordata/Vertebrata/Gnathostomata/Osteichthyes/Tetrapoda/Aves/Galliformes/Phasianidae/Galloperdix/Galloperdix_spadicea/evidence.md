@@ -9,7 +9,6 @@ records:
     name:
       zh: Galloperdix spadicea
       en: Galloperdix spadicea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

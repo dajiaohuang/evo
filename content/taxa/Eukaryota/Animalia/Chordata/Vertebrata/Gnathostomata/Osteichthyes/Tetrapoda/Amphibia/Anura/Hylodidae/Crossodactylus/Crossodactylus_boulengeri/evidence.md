@@ -9,7 +9,6 @@ records:
     name:
       en: Crossodactylus boulengeri
       zh: Crossodactylus boulengeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

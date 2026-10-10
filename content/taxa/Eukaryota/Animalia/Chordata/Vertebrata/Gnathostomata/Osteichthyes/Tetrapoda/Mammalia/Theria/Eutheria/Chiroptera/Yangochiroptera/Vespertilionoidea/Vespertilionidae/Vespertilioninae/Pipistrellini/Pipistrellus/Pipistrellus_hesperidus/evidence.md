@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipistrellus hesperidus
       en: Pipistrellus hesperidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

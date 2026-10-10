@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudhyrax strangulatus
       en: Pseudhyrax strangulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

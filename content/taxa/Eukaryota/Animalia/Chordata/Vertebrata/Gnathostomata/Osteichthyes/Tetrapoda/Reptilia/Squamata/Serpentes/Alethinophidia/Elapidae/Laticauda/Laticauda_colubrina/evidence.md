@@ -9,7 +9,6 @@ records:
     name:
       zh: Laticauda colubrina
       en: Laticauda colubrina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

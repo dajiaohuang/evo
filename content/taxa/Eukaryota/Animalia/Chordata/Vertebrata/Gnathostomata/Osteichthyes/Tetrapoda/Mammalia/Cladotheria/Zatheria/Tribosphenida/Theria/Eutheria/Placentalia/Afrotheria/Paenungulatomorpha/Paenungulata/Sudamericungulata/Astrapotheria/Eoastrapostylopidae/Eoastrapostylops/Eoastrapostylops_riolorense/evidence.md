@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoastrapostylops riolorense
       en: Eoastrapostylops riolorense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

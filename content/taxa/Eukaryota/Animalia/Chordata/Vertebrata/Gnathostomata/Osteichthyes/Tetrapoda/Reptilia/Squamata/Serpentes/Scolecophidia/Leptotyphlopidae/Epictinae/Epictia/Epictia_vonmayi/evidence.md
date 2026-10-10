@@ -9,7 +9,6 @@ records:
     name:
       zh: Epictia vonmayi
       en: Epictia vonmayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

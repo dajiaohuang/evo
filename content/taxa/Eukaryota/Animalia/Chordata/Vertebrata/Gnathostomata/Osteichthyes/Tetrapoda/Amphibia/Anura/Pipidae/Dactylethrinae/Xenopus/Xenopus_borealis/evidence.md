@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus borealis
       zh: Xenopus borealis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

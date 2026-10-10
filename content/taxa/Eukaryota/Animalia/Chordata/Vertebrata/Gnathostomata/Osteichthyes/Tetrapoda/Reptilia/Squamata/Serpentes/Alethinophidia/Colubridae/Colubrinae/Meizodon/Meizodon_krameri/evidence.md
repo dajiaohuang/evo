@@ -9,7 +9,6 @@ records:
     name:
       zh: Meizodon krameri
       en: Meizodon krameri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

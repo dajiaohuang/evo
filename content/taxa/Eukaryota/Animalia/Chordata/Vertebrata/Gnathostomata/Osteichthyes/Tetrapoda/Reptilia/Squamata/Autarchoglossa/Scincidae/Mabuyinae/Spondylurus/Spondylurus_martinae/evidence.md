@@ -9,7 +9,6 @@ records:
     name:
       zh: Spondylurus martinae
       en: Spondylurus martinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

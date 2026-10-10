@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus lynchi
       zh: Atelopus lynchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

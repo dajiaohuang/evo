@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis actites
       zh: Pristimantis actites
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

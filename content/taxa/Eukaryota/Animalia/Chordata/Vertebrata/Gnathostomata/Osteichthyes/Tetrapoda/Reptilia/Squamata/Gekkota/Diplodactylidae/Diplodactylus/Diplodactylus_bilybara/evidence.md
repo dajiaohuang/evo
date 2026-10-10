@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplodactylus bilybara
       en: Diplodactylus bilybara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

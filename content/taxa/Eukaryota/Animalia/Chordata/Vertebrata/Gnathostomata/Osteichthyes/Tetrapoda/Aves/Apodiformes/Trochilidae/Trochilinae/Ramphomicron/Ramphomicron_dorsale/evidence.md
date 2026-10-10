@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphomicron dorsale
       en: Ramphomicron dorsale
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

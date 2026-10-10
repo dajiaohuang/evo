@@ -9,7 +9,6 @@ records:
     name:
       zh: Liopholis montana
       en: Liopholis montana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

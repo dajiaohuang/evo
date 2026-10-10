@@ -9,7 +9,6 @@ records:
     name:
       zh: Bangsia rothschildi
       en: Bangsia rothschildi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

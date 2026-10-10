@@ -9,7 +9,6 @@ records:
     name:
       zh: Marymus dalanae
       en: Marymus dalanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

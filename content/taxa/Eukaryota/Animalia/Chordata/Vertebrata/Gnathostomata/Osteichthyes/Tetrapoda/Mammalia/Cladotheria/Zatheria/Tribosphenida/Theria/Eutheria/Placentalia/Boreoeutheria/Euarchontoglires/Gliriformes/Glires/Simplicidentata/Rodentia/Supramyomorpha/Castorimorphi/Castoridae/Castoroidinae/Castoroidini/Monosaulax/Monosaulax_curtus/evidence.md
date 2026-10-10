@@ -9,7 +9,6 @@ records:
     name:
       zh: Monosaulax curtus
       en: Monosaulax curtus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

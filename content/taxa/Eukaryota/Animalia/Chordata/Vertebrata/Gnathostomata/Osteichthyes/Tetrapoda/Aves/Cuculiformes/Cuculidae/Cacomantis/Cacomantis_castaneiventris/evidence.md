@@ -9,7 +9,6 @@ records:
     name:
       zh: Cacomantis castaneiventris
       en: Cacomantis castaneiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

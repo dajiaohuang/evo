@@ -9,7 +9,6 @@ records:
     name:
       zh: Camelus dromedarius
       en: Camelus dromedarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

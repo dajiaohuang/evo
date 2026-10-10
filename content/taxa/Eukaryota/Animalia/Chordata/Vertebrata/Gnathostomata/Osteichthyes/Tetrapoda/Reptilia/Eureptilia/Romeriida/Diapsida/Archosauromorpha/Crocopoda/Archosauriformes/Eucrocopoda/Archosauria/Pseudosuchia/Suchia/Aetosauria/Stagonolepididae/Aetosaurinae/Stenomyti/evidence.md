@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenomyti
       en: Stenomyti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

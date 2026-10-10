@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus cautus
       en: Sceloporus cautus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ilaria lawsoni
       en: Ilaria lawsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

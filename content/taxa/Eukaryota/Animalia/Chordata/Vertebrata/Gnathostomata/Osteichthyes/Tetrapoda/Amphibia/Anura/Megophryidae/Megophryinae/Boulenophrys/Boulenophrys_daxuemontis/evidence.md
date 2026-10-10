@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys daxuemontis
       zh: Boulenophrys daxuemontis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

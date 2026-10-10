@@ -9,7 +9,6 @@ records:
     name:
       zh: Parahippus maxsoni
       en: Parahippus maxsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

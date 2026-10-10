@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachuperus tibetanus
       zh: Batrachuperus tibetanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

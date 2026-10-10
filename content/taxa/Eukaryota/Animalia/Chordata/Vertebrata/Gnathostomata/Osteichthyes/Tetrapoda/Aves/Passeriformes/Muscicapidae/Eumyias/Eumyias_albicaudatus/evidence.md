@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumyias albicaudatus
       en: Eumyias albicaudatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

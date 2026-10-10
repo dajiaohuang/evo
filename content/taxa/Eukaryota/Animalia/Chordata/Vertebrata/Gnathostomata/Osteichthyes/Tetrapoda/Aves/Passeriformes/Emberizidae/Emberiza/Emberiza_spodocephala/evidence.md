@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberiza spodocephala
       en: Emberiza spodocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

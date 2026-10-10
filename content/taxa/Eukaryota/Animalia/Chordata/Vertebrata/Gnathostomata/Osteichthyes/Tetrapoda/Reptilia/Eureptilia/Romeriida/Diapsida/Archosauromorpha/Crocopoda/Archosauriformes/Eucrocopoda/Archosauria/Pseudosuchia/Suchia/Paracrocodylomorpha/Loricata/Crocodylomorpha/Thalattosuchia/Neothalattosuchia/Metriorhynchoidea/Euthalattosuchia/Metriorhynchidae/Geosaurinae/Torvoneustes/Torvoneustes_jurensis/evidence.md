@@ -9,7 +9,6 @@ records:
     name:
       zh: Torvoneustes jurensis
       en: Torvoneustes jurensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

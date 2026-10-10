@@ -9,7 +9,6 @@ records:
     name:
       zh: Dadadon isaloi
       en: Dadadon isaloi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

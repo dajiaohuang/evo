@@ -9,7 +9,6 @@ records:
     name:
       en: Platypelis grandis
       zh: Platypelis grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

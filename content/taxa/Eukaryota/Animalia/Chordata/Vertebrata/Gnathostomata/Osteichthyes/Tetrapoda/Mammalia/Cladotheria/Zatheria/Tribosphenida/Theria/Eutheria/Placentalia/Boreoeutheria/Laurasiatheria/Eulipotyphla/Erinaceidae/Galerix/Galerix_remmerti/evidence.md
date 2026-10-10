@@ -9,7 +9,6 @@ records:
     name:
       zh: Galerix remmerti
       en: Galerix remmerti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

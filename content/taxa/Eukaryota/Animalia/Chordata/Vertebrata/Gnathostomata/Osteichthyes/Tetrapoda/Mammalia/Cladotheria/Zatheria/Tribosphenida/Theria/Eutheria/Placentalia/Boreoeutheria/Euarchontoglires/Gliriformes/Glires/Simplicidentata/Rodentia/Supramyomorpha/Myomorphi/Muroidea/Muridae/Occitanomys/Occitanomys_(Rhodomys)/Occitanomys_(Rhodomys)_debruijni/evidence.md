@@ -9,7 +9,6 @@ records:
     name:
       zh: Occitanomys (Rhodomys) debruijni
       en: Occitanomys (Rhodomys) debruijni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

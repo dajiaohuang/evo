@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia inca
       zh: Caecilia inca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

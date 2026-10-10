@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricetodon hungaricus
       en: Cricetodon hungaricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

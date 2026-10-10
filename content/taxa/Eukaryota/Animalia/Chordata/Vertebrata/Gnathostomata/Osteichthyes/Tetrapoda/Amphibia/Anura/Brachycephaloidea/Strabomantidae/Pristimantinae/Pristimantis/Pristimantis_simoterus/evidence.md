@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis simoterus
       zh: Pristimantis simoterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

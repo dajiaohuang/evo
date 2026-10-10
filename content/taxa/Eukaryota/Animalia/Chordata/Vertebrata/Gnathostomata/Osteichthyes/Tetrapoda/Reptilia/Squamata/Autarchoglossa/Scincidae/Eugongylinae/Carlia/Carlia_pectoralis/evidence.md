@@ -9,7 +9,6 @@ records:
     name:
       zh: Carlia pectoralis
       en: Carlia pectoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

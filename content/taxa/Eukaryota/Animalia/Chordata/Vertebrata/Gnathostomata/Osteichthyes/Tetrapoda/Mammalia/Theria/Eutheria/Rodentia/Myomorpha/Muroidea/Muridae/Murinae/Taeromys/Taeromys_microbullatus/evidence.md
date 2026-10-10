@@ -9,7 +9,6 @@ records:
     name:
       zh: Taeromys microbullatus
       en: Taeromys microbullatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

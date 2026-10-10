@@ -9,7 +9,6 @@ records:
     name:
       zh: Herpetoreas sieboldii
       en: Herpetoreas sieboldii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

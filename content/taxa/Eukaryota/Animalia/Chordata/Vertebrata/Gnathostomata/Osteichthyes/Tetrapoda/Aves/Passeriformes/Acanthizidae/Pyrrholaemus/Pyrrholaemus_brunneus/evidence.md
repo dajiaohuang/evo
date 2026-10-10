@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrrholaemus brunneus
       en: Pyrrholaemus brunneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

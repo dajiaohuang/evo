@@ -9,7 +9,6 @@ records:
     name:
       zh: Lutreolina tracheia
       en: Lutreolina tracheia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

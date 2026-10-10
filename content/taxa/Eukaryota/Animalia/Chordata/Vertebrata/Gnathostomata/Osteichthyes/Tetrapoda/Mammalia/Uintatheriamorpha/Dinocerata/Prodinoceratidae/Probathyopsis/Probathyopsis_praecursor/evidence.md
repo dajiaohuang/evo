@@ -9,7 +9,6 @@ records:
     name:
       zh: Probathyopsis praecursor
       en: Probathyopsis praecursor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

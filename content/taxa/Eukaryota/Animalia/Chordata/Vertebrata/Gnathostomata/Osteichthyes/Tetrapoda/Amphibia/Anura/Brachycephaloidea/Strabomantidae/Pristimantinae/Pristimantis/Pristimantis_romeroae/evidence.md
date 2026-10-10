@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis romeroae
       zh: Pristimantis romeroae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

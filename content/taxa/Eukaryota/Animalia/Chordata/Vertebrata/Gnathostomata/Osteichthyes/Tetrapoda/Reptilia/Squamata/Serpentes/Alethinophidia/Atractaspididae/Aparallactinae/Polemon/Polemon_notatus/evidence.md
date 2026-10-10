@@ -9,7 +9,6 @@ records:
     name:
       zh: Polemon notatus
       en: Polemon notatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

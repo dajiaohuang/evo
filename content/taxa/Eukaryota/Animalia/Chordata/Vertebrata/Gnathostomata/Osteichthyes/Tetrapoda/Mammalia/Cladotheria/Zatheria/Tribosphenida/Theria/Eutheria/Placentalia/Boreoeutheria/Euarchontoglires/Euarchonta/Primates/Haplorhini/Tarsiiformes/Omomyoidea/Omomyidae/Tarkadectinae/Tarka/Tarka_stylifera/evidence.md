@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarka stylifera
       en: Tarka stylifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

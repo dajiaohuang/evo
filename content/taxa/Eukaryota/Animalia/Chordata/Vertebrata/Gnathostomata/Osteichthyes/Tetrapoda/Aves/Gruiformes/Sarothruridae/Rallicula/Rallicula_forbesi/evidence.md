@@ -9,7 +9,6 @@ records:
     name:
       zh: Rallicula forbesi
       en: Rallicula forbesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

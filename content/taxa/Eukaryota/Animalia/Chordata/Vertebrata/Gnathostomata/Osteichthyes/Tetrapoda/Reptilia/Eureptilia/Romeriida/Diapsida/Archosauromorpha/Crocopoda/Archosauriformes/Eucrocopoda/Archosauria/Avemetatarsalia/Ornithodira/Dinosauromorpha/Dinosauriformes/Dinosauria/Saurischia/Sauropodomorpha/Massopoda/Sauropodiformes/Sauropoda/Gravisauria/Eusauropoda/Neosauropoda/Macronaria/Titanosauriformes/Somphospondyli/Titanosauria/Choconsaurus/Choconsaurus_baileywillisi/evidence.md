@@ -9,7 +9,6 @@ records:
     name:
       zh: Choconsaurus baileywillisi
       en: Choconsaurus baileywillisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

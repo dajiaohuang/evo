@@ -215,9 +215,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Tatraea griseoturcoisina
@@ -381,5 +378,5 @@ Life history, fossils, and conservation remain not-assessed; no facet has a syst
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-The linked Index Fungorum identity is exact for this COL usage, but broad species-concept reconciliation and external expert review have not been completed.
+The linked Index Fungorum identity is exact for this COL usage, but broad species-concept reconciliation has not been completed.
 <!-- /evo:text -->

@@ -28,5 +28,5 @@ The comparative study provides behavioural observations from multiple sites, but
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Evidence centers on one comparative observation study across ten sites. Observation counts are not abundance estimates, and the abstract does not provide a complete site-by-site or behaviour-by-species breakdown. This page does not summarize range-wide distribution, diet, current conservation status or long-term trend. The Chinese name is editorial; the page has not received external expert review. This page is not externally expert-reviewed.
+Evidence centers on one comparative observation study across ten sites. Observation counts are not abundance estimates, and the abstract does not provide a complete site-by-site or behaviour-by-species breakdown. This page does not summarize range-wide distribution, diet, current conservation status or long-term trend. The Chinese name is editorial.
 <!-- /evo:text -->

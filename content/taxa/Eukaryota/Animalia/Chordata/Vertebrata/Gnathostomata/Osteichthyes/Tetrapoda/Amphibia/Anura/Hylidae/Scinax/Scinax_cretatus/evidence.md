@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax cretatus
       zh: Scinax cretatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

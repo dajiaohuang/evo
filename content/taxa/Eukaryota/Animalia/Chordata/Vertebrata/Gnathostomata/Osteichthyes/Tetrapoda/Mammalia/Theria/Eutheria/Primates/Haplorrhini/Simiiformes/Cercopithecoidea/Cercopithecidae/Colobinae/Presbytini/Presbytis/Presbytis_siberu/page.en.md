@@ -22,5 +22,5 @@ In the mixed primary forest study area, the paper reported overlapping ranges be
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The main ecological record uses the pre-split name P. potenziani; the page relates it to current P. siberu only through study locality and does not treat it as a modern species-wide conclusion. This page has not received external expert review. This page is not externally expert-reviewed.
+The main ecological record uses the pre-split name P. potenziani; the page relates it to current P. siberu only through study locality and does not treat it as a modern species-wide conclusion. This page. This page is.
 <!-- /evo:text -->

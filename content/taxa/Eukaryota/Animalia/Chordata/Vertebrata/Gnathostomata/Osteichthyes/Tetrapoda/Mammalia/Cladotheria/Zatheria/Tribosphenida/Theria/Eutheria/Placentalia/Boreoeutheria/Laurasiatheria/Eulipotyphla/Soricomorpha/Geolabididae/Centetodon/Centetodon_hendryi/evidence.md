@@ -9,7 +9,6 @@ records:
     name:
       zh: Centetodon hendryi
       en: Centetodon hendryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Echmatemys haydeni
       en: Echmatemys haydeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

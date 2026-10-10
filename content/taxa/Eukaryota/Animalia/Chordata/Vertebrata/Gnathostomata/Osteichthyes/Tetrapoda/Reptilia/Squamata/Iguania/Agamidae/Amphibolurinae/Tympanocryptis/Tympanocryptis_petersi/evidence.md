@@ -9,7 +9,6 @@ records:
     name:
       zh: Tympanocryptis petersi
       en: Tympanocryptis petersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

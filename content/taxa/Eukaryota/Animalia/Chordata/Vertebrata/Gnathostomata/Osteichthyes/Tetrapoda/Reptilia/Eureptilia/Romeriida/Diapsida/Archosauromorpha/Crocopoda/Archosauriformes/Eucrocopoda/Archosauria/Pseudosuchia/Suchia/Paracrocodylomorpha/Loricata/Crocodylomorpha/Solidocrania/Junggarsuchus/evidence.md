@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: clark-2004-junggarsuchus concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: clark-2004-junggarsuchus
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: clark-2004-junggarsuchus
           locator: 1021–1024; Figures 1–3; Holotype and locality; Description; Phylogenetic analysis
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Junggarsuchus
     rank: genus
@@ -74,7 +70,6 @@ records:
     name:
       zh: Junggarsuchus
       en: Junggarsuchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

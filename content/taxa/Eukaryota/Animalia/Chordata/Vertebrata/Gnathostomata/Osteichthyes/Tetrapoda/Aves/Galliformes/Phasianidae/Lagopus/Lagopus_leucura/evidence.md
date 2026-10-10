@@ -9,7 +9,6 @@ records:
     name:
       zh: Lagopus leucura
       en: Lagopus leucura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

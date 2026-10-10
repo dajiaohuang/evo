@@ -9,7 +9,6 @@ records:
     name:
       zh: Thryomanes bewickii
       en: Thryomanes bewickii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

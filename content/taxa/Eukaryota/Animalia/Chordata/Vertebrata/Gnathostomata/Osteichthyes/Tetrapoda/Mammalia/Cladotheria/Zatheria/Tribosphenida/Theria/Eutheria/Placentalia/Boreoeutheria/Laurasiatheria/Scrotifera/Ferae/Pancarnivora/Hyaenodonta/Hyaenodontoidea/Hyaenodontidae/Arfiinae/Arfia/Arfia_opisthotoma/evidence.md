@@ -9,7 +9,6 @@ records:
     name:
       zh: Arfia opisthotoma
       en: Arfia opisthotoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

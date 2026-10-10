@@ -9,7 +9,6 @@ records:
     name:
       zh: Glirudinus modestus
       en: Glirudinus modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

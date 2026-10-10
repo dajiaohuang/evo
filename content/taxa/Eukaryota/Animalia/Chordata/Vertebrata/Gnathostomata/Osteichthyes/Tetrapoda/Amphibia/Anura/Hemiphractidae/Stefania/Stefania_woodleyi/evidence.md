@@ -9,7 +9,6 @@ records:
     name:
       en: Stefania woodleyi
       zh: Stefania woodleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

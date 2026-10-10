@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberizoides duidae
       en: Emberizoides duidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

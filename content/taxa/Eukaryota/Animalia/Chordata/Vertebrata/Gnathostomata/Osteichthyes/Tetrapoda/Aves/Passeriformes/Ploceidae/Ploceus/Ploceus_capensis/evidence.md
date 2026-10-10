@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus capensis
       en: Ploceus capensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

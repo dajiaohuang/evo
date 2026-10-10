@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus melanotus
       en: Erythrolamprus melanotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

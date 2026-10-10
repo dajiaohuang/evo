@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana kuangwuensis
       zh: Odorrana kuangwuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

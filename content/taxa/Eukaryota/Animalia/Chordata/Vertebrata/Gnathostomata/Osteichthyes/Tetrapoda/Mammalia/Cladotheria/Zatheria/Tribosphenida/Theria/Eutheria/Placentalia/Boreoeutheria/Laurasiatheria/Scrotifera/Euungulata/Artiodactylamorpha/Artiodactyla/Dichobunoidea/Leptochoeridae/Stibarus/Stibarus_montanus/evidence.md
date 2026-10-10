@@ -9,7 +9,6 @@ records:
     name:
       zh: Stibarus montanus
       en: Stibarus montanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pelobatrachus edwardinae
       zh: Pelobatrachus edwardinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

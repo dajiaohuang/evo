@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilestylops davidsoni
       en: Chilestylops davidsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

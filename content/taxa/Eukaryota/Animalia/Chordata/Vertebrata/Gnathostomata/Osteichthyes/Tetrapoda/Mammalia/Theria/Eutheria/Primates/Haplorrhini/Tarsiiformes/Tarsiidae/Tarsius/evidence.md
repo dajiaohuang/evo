@@ -9,7 +9,6 @@ records:
     name:
       en: Tarsiers
       zh: 眼镜猴属
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

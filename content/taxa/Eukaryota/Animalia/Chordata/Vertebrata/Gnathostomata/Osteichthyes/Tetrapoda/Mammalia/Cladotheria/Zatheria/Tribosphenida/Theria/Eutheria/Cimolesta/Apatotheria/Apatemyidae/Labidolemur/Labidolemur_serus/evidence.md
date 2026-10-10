@@ -9,7 +9,6 @@ records:
     name:
       zh: Labidolemur serus
       en: Labidolemur serus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

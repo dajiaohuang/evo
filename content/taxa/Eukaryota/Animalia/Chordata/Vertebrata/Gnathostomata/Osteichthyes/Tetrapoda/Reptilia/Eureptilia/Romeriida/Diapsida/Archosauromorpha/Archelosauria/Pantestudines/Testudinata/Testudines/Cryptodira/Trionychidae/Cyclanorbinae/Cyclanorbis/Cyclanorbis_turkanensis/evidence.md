@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyclanorbis turkanensis
       en: Cyclanorbis turkanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

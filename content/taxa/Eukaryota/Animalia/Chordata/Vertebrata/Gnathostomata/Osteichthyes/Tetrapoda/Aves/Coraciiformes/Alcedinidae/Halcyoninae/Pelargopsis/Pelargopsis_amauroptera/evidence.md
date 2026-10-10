@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelargopsis amauroptera
       en: Pelargopsis amauroptera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Honeymys mariae
       en: Honeymys mariae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

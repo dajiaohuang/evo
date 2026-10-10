@@ -9,7 +9,6 @@ records:
     name:
       zh: Caementodon (Beliajevina) fangxianense
       en: Caementodon (Beliajevina) fangxianense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

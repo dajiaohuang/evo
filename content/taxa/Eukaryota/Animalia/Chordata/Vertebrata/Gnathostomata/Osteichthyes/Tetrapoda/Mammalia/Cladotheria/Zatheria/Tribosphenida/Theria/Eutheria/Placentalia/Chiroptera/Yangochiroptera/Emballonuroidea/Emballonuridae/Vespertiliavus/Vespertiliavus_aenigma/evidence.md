@@ -9,7 +9,6 @@ records:
     name:
       zh: Vespertiliavus aenigma
       en: Vespertiliavus aenigma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

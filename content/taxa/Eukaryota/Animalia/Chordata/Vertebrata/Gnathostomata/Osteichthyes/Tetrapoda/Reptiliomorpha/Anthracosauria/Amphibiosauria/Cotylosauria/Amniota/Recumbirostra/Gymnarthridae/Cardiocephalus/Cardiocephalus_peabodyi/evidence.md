@@ -9,7 +9,6 @@ records:
     name:
       zh: Cardiocephalus peabodyi
       en: Cardiocephalus peabodyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

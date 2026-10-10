@@ -9,7 +9,6 @@ records:
     name:
       zh: Scythosuchus basileus
       en: Scythosuchus basileus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

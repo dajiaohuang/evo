@@ -9,7 +9,6 @@ records:
     name:
       en: Phasmahyla timbo
       zh: Phasmahyla timbo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

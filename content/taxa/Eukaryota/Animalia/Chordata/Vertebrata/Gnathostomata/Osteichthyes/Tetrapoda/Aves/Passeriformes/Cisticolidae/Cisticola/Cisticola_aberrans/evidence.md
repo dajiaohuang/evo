@@ -9,7 +9,6 @@ records:
     name:
       zh: Cisticola aberrans
       en: Cisticola aberrans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

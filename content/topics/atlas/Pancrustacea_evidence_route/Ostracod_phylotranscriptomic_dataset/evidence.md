@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: oakley-2013-ostracod-phylotranscriptomics; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: oakley-2013-ostracod-phylotranscriptomics
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: oakley-2013-ostracod-phylotranscriptomics
           locator: 215–233; Figures 1–5; Tables 1–5
-      reviewStatus: automated-audit-passed
 ---
 
 # Ostracod phylotranscriptomic dataset

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrotheridae
       en: Pyrotheridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

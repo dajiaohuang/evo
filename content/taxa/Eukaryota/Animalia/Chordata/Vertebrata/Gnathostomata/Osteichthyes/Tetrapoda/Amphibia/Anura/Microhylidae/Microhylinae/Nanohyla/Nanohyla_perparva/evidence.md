@@ -9,7 +9,6 @@ records:
     name:
       en: Nanohyla perparva
       zh: Nanohyla perparva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

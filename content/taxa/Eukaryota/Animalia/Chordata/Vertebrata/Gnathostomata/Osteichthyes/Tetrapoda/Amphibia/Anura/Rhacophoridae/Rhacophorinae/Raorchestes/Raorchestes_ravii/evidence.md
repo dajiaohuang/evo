@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes ravii
       zh: Raorchestes ravii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

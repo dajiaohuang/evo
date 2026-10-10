@@ -9,7 +9,6 @@ records:
     name:
       zh: 库斯奇努斯卷尾猴
       en: Cebus cuscinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

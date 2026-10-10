@@ -9,7 +9,6 @@ records:
     name:
       en: Aplastodiscus musicus
       zh: Aplastodiscus musicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

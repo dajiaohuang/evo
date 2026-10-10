@@ -9,7 +9,6 @@ records:
     name:
       zh: Dalophia longicauda
       en: Dalophia longicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

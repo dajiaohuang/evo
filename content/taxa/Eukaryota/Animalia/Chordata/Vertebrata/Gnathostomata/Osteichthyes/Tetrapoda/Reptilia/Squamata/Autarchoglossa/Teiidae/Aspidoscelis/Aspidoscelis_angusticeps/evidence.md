@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidoscelis angusticeps
       en: Aspidoscelis angusticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

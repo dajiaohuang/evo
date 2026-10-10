@@ -9,7 +9,6 @@ records:
     name:
       zh: Capito brunneipectus
       en: Capito brunneipectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

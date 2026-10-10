@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis coronatus
       zh: Pristimantis coronatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

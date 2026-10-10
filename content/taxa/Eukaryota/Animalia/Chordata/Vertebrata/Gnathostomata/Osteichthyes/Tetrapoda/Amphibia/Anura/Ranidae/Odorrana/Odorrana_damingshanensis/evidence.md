@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana damingshanensis
       zh: Odorrana damingshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

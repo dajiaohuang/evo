@@ -9,7 +9,6 @@ records:
     name:
       zh: Aseanpithecus myanmarensis
       en: Aseanpithecus myanmarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

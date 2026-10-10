@@ -34,5 +34,5 @@ Hollongapar 與 Lawachara 研究使用不同地点、群体样本和观察设计
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-生态证据限于 Hollongapar 的两群猴和 Lawachara 的一群猴；这些研究不能确定全分布区食谱、当前分布、种群数量或趋势。估计值保留各论文的取样与家域方法。中文显示名为编辑用名。本页未新增 dossier，也未经过外部领域专家评审。
+生态证据限于 Hollongapar 的两群猴和 Lawachara 的一群猴；这些研究不能确定全分布区食谱、当前分布、种群数量或趋势。估计值保留各论文的取样与家域方法。中文显示名为编辑用名。本页未新增 dossier。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophilus (Otospermophilus) boothi
       en: Spermophilus (Otospermophilus) boothi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

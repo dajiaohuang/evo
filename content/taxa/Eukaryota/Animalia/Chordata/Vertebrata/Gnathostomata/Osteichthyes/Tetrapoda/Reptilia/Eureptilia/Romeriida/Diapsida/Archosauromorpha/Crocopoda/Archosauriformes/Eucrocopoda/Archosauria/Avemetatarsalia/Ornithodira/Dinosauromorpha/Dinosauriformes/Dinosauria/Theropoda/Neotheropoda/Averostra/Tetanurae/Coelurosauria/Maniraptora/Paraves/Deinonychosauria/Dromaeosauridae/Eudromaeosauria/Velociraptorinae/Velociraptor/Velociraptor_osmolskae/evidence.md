@@ -9,7 +9,6 @@ records:
     name:
       zh: Velociraptor osmolskae
       en: Velociraptor osmolskae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

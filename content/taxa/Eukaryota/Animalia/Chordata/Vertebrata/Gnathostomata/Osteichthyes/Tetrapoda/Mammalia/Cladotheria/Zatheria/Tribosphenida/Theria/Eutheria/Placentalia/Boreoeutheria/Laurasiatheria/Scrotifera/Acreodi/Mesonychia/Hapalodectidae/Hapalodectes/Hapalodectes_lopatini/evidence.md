@@ -9,7 +9,6 @@ records:
     name:
       zh: Hapalodectes lopatini
       en: Hapalodectes lopatini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

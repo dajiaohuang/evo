@@ -9,7 +9,6 @@ records:
     name:
       zh: Belemnoziphius prorops
       en: Belemnoziphius prorops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chasmaporthetes nitidula
       en: Chasmaporthetes nitidula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

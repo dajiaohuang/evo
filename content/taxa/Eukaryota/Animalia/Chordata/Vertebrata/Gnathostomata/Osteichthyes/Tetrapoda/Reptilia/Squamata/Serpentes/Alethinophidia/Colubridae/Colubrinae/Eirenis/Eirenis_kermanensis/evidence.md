@@ -9,7 +9,6 @@ records:
     name:
       zh: Eirenis kermanensis
       en: Eirenis kermanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

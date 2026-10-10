@@ -9,7 +9,6 @@ records:
     name:
       zh: Protypotherium columnifer
       en: Protypotherium columnifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

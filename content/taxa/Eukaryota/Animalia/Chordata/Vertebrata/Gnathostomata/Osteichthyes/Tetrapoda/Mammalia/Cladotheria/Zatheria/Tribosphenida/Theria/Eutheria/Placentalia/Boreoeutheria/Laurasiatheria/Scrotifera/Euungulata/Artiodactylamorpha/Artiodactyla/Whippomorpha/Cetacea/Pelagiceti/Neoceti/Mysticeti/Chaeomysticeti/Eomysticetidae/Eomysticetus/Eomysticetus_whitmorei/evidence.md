@@ -9,7 +9,6 @@ records:
     name:
       zh: Eomysticetus whitmorei
       en: Eomysticetus whitmorei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

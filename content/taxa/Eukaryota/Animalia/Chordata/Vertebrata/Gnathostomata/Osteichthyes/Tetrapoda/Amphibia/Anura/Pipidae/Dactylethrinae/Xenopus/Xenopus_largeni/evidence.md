@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus largeni
       zh: Xenopus largeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

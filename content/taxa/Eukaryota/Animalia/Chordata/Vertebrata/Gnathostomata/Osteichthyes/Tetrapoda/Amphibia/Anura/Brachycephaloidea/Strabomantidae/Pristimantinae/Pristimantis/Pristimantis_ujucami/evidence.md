@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ujucami
       zh: Pristimantis ujucami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

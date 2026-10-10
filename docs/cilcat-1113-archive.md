@@ -29,6 +29,5 @@ The projection preserves source row locators, `TaxAccRef`-derived
 links to absent ReferenceID 95 rows. Empty source fields remain empty.
 
 This is frozen source provenance, not independent scientific corroboration,
-species-concept equivalence, a biological dossier, fossil/extant evidence, or
-expert review.  The source-only partition is only relative to the COL 1113
+species-concept equivalence, a biological dossier, fossil/extant evidence.  The source-only partition is only relative to the COL 1113
 scope and is not a claim of globally new species or completeness.

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarentola pastoria
       en: Tarentola pastoria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudostegotherium chubutanum
       en: Pseudostegotherium chubutanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

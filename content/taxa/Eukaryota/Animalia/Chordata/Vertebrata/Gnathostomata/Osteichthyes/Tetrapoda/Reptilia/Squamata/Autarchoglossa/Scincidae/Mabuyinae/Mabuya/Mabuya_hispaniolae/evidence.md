@@ -9,7 +9,6 @@ records:
     name:
       zh: Mabuya hispaniolae
       en: Mabuya hispaniolae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

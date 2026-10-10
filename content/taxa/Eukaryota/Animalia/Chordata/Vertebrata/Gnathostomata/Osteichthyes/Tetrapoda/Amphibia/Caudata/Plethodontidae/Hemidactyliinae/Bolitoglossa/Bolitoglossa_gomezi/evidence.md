@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa gomezi
       zh: Bolitoglossa gomezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

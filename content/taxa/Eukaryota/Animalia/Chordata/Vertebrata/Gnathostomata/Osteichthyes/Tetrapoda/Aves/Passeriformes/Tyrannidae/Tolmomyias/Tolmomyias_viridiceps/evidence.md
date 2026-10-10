@@ -9,7 +9,6 @@ records:
     name:
       zh: Tolmomyias viridiceps
       en: Tolmomyias viridiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

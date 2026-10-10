@@ -9,7 +9,6 @@ records:
     name:
       zh: Parsigecko ziaiei
       en: Parsigecko ziaiei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

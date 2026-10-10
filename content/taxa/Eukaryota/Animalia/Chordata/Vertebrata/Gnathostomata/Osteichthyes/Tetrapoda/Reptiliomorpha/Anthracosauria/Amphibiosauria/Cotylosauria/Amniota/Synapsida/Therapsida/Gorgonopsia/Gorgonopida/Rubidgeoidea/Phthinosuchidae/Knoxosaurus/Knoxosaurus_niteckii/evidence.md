@@ -9,7 +9,6 @@ records:
     name:
       zh: Knoxosaurus niteckii
       en: Knoxosaurus niteckii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 安第斯鞍背狨
       en: Andean Saddle-back Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

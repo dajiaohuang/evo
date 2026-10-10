@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptotila rufaxilla
       en: Leptotila rufaxilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

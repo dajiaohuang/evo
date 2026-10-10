@@ -9,7 +9,6 @@ records:
     name:
       zh: Aerodramus salangana
       en: Aerodramus salangana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

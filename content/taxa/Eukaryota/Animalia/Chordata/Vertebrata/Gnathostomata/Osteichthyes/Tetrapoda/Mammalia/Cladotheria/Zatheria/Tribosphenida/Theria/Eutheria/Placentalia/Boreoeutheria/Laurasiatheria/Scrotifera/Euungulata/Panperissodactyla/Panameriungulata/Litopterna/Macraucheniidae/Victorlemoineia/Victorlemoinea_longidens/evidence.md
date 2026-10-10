@@ -9,7 +9,6 @@ records:
     name:
       zh: Victorlemoinea longidens
       en: Victorlemoinea longidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

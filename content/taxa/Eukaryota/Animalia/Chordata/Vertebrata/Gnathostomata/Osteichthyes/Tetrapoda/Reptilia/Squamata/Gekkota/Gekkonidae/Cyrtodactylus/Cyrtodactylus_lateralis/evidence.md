@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus lateralis
       en: Cyrtodactylus lateralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

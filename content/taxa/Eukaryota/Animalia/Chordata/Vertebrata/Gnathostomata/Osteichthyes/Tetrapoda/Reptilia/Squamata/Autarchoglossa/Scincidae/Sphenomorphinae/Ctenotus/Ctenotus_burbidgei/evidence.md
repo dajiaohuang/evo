@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus burbidgei
       en: Ctenotus burbidgei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

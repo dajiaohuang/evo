@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx uintaensis
       en: Trionyx uintaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

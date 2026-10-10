@@ -9,7 +9,6 @@ records:
     name:
       zh: Westmorelandelphis tacheroni
       en: Westmorelandelphis tacheroni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus zygaena
       en: Sphaerodactylus zygaena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

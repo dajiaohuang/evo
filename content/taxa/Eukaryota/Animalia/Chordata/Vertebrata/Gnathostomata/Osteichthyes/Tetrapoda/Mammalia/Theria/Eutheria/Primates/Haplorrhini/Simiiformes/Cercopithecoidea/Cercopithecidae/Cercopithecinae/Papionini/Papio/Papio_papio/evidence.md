@@ -9,7 +9,6 @@ records:
     name:
       zh: 几内亚狒狒
       en: Guinea baboon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: socialBehavior

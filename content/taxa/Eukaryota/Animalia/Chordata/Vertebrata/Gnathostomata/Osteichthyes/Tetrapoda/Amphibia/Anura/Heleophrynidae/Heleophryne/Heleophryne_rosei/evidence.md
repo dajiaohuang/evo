@@ -9,7 +9,6 @@ records:
     name:
       en: Heleophryne rosei
       zh: Heleophryne rosei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

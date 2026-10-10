@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterocetus benguelae
       en: Pterocetus benguelae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

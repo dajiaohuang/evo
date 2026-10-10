@@ -9,7 +9,6 @@ records:
     name:
       en: Crossodactylodes pintoi
       zh: Crossodactylodes pintoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

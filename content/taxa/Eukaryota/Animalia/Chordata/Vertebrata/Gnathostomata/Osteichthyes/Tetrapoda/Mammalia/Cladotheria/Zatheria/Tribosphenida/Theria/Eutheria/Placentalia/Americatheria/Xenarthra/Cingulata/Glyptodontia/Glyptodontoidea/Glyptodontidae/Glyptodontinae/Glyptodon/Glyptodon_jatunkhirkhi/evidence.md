@@ -9,7 +9,6 @@ records:
     name:
       zh: Glyptodon jatunkhirkhi
       en: Glyptodon jatunkhirkhi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

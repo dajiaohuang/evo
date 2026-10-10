@@ -9,7 +9,6 @@ records:
     name:
       zh: Sidersaura marae
       en: Sidersaura marae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

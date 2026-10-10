@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiophobus flavicans
       en: Myiophobus flavicans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cervus sedgwickii
       en: Cervus sedgwickii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

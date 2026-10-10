@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana yeae
       zh: Nidirana yeae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

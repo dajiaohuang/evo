@@ -9,7 +9,6 @@ records:
     name:
       zh: Repomys panacaensis
       en: Repomys panacaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

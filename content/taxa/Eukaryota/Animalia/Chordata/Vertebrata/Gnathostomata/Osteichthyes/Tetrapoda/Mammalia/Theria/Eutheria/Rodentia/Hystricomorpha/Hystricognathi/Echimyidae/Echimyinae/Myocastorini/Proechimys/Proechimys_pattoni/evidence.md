@@ -9,7 +9,6 @@ records:
     name:
       zh: Proechimys pattoni
       en: Proechimys pattoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

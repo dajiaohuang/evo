@@ -9,7 +9,6 @@ records:
     name:
       zh: Europolemur klatti
       en: Europolemur klatti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

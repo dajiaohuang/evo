@@ -9,7 +9,6 @@ records:
     name:
       zh: Chucarosaurus
       en: Chucarosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

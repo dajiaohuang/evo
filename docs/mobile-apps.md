@@ -33,7 +33,7 @@ rc114 / app `0.20.65` / build `68` 重新生成 Haptophyta 来源记录，将失
 
 rc113 / app `0.20.64` / build `67` 补上两栖类、弹尾类／原尾类、28 个其他动物范围与 8 个具有 COL 记录的原生生物范围的默认收起 ITIS 详情。卵菌类严格限于既有四目投影的 1,494 条，不扩为整个门。
 
-在“数据”页面展开“浏览 ITIS 来源记录”，依次选择资源包、ITIS 集合、COL／来源独有分区及文件，即可在 Android/iOS 内置数据中分页浏览；查找功能只搜索当前所选文件。真菌与细菌的独立 ITIS 集合、没有 COL 对应的来源独有类群也可从这里访问。网页版保留摘要，不读取明细分片；来源独有记录不自动归入 COL，也不计为全球去重新增物种。此版本不增加科学行、不替代 Index Fungorum 或 LPSN、不改变评审状态。历史迭代见 [数据更新记录](../data/CHANGELOG.md)。
+在“数据”页面展开“浏览 ITIS 来源记录”，依次选择资源包、ITIS 集合、COL／来源独有分区及文件，即可在 Android/iOS 内置数据中分页浏览；查找功能只搜索当前所选文件。真菌与细菌的独立 ITIS 集合、没有 COL 对应的来源独有类群也可从这里访问。网页版保留摘要，不读取明细分片；来源独有记录不自动归入 COL，也不计为全球去重新增物种。此版本不增加科学行、不替代 Index Fungorum 或 LPSN。历史迭代见 [数据更新记录](../data/CHANGELOG.md)。
 
 rc111 / app `0.20.62` / build `65` 为软骨鱼类与螯肢类增加默认收起的 ITIS 来源入口；页面按真实谱系与资源归属限定范围，展开后原生端只读取一个命中分片，Web 仅提供摘要。卵菌 ITIS 读取器修正为既有四目范围的 1,494 条 COL 结果与 42 条来源独有记录，不改写数据。原计划新增的 Species Fungorum 卵菌来源层因冻结档案缺口及实时接口许可未明确而暂缓，不能把未获取的数据算作已覆盖；见[来源调查](sources/species-fungorum-live-api-oomycota-gap.md)。两端继续包含全部既有 `native-full` 内容。
 
@@ -153,7 +153,7 @@ rc58 增加 8 幅总计不足 0.5 MiB 的 1280×800 WebP 解释性复原。它�
 
 原生应用安装后即可在断网状态读取当前内置发布版，杀进程重启也不依赖缓存配额。升级应用会替换内置数据版本；在线外部 DOI、来源站点和用户主动打开的链接仍需要网络。Web 新数据版本发布后仍需重新保存对应版本，旧版本缓存可在“数据”页清除。
 
-rc57 的 Archaea 命名包在原有 790 条 COL26.8 species shard 之外增加一份 8,116 字节的 LPSN 标识 sidecar。它与 Web 使用完全相同的路径、字节数和 SHA-256，经 `release-files.json` 自动进入 Android/iOS 资源；重复 ZIP 仍不进入原生包。原生测试会核对 790 条映射、manifest、sidecar 与 inventory 的字节和校验和，但不会把 LPSN 标识扩展解释为生态、基因组、菌株、化石、媒体、系统发育或专家评审档案。
+rc57 的 Archaea 命名包在原有 790 条 COL26.8 species shard 之外增加一份 8,116 字节的 LPSN 标识 sidecar。它与 Web 使用完全相同的路径、字节数和 SHA-256，经 `release-files.json` 自动进入 Android/iOS 资源；重复 ZIP 仍不进入原生包。原生测试会核对 790 条映射、manifest、sidecar 与 inventory 的字节和校验和，但不会把 LPSN 标识扩展解释为生态、基因组、菌株、化石、媒体、系统发育档案。
 
 Viruses 命名包同样通过资源包扩展发布固定 ICTV `MSL41.v1` / `VMR_MSL41.v1.20260729` 数据。17,552 个 COL26.8 病毒种全部精确映射，当前 ICTV 多出的 2 个种保留为 null COL ID，合计 17,554 个 ICTV 种与 19,285 条 VMR 分离物记录进入同一 `release-files.json`。Web、Android 与 iOS 不维护不同的病毒数据子集；原生包复制并校验与 Web/包 ZIP 相同的 sidecar 字节。
 

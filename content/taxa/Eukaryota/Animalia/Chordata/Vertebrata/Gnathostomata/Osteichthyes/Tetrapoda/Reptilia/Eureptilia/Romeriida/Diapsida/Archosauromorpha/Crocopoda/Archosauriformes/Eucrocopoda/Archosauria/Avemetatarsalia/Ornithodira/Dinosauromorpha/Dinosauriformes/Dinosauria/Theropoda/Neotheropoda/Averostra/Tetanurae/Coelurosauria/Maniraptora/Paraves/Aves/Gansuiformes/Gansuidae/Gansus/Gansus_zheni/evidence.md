@@ -9,7 +9,6 @@ records:
     name:
       zh: Gansus zheni
       en: Gansus zheni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

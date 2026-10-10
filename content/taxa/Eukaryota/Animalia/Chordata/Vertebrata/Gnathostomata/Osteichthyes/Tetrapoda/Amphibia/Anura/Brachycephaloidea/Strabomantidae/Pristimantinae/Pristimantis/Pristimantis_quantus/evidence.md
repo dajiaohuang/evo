@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis quantus
       zh: Pristimantis quantus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "cetartiodactyla",
-  "version": "2026.09-static-v5-rc154",
+  "version": "2026.09-2026.10-static-v5-rc155",
   "title": "Cetartiodactyl Context and Cetaceans",
   "titleZh": "鲸偶蹄类背景与鲸类",
   "conceptScope": {
-    "en": "Eight primary-evidence dossiers follow named middle- and late-Eocene specimens and bounded living-genome datasets across Whippomorpha and the cetacean total group. They keep preserved anatomy, ecological and locomotor inference, morphology-matrix placement, retroposon topology, molecular-model time and COL26.8 nomenclatural routing separate; no sampled taxon is presented as a rung in a direct ancestor ladder. COL26.8 routes exactly 503 strictly accepted living species names through Artiodactyla usage ID 6227M and Cetacea usage ID WP. That count is naming coverage, not 503 specimen dossiers or a test of fossil, morphology, ecology, media, translation or expert-review maturity.",
-    "zh": "八个一手证据档案沿鲸河马类与鲸类总群追踪具名的始新世中晚期标本及有界现生基因组数据集。档案严格区分保存的解剖结构、生态与运动推断、形态矩阵位置、反转座子拓扑、分子模型时间和 COL26.8 命名路由；任何取样类群都不会被写成直接祖先阶梯的一环。COL26.8 通过偶蹄目 usage ID 6227M 与鲸目 usage ID WP 精确路由 503 个严格接受的现生种名。该数量只表示命名覆盖，不表示有 503 份标本档案，也不检验化石、形态、生态、媒体、翻译或专家评审成熟度。"
+    "en": "Eight primary-evidence dossiers follow named middle- and late-Eocene specimens and bounded living-genome datasets across Whippomorpha and the cetacean total group. They keep preserved anatomy, ecological and locomotor inference, morphology-matrix placement, retroposon topology, molecular-model time and COL26.8 nomenclatural routing separate; no sampled taxon is presented as a rung in a direct ancestor ladder. COL26.8 routes exactly 503 strictly accepted living species names through Artiodactyla usage ID 6227M and Cetacea usage ID WP. That count is naming coverage, not 503 specimen dossiers or a test of fossil, morphology, ecology, media, translation.",
+    "zh": "八个一手证据档案沿鲸河马类与鲸类总群追踪具名的始新世中晚期标本及有界现生基因组数据集。档案严格区分保存的解剖结构、生态与运动推断、形态矩阵位置、反转座子拓扑、分子模型时间和 COL26.8 命名路由；任何取样类群都不会被写成直接祖先阶梯的一环。COL26.8 通过偶蹄目 usage ID 6227M 与鲸目 usage ID WP 精确路由 503 个严格接受的现生种名。该数量只表示命名覆盖，不表示有 503 份标本档案，逐物种生物学证据另见所引档案。"
   },
   "rootEntityIds": [
     "whippomorpha"
@@ -39,10 +39,6 @@
     "occurrences": "data/fossils/*.json",
     "profilesSource": "data/packages/mammalia/cetartiodactyla/profiles.source.json"
   },
-  "platformMaturity": "published",
-  "scientificMaturity": "source-linked",
-  "automatedReviewStatus": "passed",
-  "reviewStatus": "not-reviewed",
   "limitations": [
     "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.",
     "Indohyus bone-bed material, the composite Pakicetus reconstruction, Ambulocetus, Peregocetus, Basilosaurus and Aegicetus are bounded specimen samples with explicit association, dating and interpretation limits; none establishes a direct ancestor, a global FAD or a linear land-to-sea sequence.",

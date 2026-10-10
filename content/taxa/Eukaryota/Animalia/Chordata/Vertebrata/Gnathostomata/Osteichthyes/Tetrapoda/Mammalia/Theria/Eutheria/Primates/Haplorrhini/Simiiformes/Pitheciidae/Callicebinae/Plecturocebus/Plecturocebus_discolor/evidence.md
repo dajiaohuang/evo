@@ -9,7 +9,6 @@ records:
     name:
       zh: 杂色绢毛猴
       en: Discolor Titi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: rejectedTypeAttribution

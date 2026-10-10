@@ -9,7 +9,6 @@ records:
     name:
       zh: Boreostemma acostae
       en: Boreostemma acostae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

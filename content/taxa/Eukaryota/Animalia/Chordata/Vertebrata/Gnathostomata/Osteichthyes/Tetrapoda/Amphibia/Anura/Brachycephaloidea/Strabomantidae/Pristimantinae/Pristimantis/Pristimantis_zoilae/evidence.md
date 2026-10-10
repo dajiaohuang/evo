@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis zoilae
       zh: Pristimantis zoilae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

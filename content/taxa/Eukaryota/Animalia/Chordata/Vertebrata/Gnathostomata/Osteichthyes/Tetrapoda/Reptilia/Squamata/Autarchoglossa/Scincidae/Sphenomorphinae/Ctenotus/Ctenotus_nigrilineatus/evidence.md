@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus nigrilineatus
       en: Ctenotus nigrilineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

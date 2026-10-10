@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Anderson et al. 2008 DOI 10.1038/nature06865
       referenceLinks:
         - relation: supports
           referenceId: anderson-2008-gerobatrachus

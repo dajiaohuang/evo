@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus wakeorum
       en: Cyrtodactylus wakeorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

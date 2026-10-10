@@ -9,7 +9,6 @@ records:
     name:
       zh: Cecropis daurica
       en: Cecropis daurica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

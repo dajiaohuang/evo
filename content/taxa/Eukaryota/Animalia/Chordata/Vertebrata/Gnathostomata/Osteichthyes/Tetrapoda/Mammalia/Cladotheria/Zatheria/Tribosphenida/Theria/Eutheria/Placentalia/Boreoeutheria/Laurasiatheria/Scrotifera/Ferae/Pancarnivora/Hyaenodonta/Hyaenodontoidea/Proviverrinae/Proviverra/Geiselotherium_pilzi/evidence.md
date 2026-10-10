@@ -9,7 +9,6 @@ records:
     name:
       zh: Geiselotherium pilzi
       en: Geiselotherium pilzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

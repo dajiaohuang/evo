@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis infralineata
       en: Trachylepis infralineata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

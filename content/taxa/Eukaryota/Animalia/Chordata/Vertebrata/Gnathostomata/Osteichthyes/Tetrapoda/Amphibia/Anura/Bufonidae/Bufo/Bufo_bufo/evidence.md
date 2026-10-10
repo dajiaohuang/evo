@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo bufo
       zh: Bufo bufo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

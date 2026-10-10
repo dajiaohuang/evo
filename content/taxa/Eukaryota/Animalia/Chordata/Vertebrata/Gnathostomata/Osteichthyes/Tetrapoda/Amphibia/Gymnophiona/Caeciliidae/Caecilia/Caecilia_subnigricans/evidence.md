@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia subnigricans
       zh: Caecilia subnigricans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Maiaspondylus lindoei
       en: Maiaspondylus lindoei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

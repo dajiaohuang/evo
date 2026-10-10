@@ -9,7 +9,6 @@ records:
     name:
       en: Adelophryne meridionalis
       zh: Adelophryne meridionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

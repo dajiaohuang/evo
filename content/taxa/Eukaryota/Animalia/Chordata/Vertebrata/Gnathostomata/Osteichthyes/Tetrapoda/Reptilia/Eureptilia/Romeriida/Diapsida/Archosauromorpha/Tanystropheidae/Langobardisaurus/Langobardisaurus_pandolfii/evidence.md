@@ -9,7 +9,6 @@ records:
     name:
       zh: Langobardisaurus pandolfii
       en: Langobardisaurus pandolfii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

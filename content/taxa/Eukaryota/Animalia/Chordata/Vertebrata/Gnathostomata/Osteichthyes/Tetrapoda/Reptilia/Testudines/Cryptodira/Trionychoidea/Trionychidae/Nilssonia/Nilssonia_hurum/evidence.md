@@ -9,7 +9,6 @@ records:
     name:
       zh: Nilssonia hurum
       en: Nilssonia hurum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

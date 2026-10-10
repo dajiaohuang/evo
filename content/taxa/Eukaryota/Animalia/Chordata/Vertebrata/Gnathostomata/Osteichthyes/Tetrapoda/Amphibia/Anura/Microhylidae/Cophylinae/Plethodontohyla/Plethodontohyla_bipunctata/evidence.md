@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodontohyla bipunctata
       zh: Plethodontohyla bipunctata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon cardosoi
       zh: Ololygon cardosoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Rhyaconastes booroolongensis
       zh: Rhyaconastes booroolongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

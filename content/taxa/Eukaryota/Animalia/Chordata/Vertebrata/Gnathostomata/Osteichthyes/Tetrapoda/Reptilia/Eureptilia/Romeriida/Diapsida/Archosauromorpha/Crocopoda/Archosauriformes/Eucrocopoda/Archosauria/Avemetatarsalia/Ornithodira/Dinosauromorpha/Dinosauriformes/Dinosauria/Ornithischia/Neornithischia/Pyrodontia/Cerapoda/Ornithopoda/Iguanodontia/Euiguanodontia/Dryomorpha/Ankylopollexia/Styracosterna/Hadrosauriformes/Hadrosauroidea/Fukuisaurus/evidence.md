@@ -9,7 +9,6 @@ records:
     name:
       zh: Fukuisaurus
       en: Fukuisaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

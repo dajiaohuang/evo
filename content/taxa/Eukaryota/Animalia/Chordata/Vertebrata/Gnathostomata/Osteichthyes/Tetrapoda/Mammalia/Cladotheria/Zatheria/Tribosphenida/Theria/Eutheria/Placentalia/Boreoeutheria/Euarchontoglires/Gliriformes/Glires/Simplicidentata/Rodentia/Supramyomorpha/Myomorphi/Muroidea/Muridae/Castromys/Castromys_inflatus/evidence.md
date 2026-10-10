@@ -9,7 +9,6 @@ records:
     name:
       zh: Castromys inflatus
       en: Castromys inflatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

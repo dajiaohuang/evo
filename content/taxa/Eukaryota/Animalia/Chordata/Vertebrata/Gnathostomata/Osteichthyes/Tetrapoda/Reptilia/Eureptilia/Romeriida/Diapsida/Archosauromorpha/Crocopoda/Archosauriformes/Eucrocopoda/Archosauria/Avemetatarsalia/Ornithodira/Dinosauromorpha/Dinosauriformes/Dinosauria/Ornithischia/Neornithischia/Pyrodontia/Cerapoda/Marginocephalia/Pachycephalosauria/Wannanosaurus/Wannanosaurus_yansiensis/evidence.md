@@ -9,7 +9,6 @@ records:
     name:
       zh: Wannanosaurus yansiensis
       en: Wannanosaurus yansiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

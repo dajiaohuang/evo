@@ -9,7 +9,6 @@ records:
     name:
       zh: Dynamopterus velox
       en: Dynamopterus velox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

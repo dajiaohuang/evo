@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamaeleo necasi
       en: Chamaeleo necasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

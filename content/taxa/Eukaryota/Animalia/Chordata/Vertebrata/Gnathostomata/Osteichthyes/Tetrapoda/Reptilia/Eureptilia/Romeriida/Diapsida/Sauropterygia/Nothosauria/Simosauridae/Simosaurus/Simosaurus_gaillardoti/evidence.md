@@ -9,7 +9,6 @@ records:
     name:
       zh: Simosaurus gaillardoti
       en: Simosaurus gaillardoti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

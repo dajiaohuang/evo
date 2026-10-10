@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucyon wokari
       en: Eucyon wokari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

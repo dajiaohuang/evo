@@ -9,7 +9,6 @@ records:
     name:
       zh: Purgatorius pinecreeensis
       en: Purgatorius pinecreeensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

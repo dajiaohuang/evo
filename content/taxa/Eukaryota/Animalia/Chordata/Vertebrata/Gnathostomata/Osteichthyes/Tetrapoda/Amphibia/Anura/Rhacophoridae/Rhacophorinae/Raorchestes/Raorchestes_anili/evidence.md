@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes anili
       zh: Raorchestes anili
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

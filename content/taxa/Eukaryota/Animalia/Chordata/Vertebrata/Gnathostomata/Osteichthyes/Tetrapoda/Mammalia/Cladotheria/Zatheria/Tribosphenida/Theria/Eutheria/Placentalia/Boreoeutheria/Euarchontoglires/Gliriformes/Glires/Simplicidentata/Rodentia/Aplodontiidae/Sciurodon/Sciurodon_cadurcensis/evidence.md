@@ -9,7 +9,6 @@ records:
     name:
       zh: Sciurodon cadurcensis
       en: Sciurodon cadurcensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

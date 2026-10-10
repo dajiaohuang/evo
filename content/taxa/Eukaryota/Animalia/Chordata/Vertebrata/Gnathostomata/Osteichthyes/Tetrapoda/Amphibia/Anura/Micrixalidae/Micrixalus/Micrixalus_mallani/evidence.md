@@ -9,7 +9,6 @@ records:
     name:
       en: Micrixalus mallani
       zh: Micrixalus mallani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

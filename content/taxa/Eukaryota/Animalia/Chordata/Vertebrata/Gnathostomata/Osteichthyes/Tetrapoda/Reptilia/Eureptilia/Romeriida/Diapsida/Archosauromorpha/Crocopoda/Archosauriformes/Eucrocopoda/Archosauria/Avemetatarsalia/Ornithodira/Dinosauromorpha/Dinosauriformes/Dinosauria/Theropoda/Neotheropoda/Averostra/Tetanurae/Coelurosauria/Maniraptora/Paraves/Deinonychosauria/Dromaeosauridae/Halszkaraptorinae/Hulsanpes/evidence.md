@@ -9,7 +9,6 @@ records:
     name:
       zh: Hulsanpes
       en: Hulsanpes
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: readingPath

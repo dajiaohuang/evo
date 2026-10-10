@@ -9,7 +9,6 @@ records:
     name:
       zh: Vipera maxima
       en: Vipera maxima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

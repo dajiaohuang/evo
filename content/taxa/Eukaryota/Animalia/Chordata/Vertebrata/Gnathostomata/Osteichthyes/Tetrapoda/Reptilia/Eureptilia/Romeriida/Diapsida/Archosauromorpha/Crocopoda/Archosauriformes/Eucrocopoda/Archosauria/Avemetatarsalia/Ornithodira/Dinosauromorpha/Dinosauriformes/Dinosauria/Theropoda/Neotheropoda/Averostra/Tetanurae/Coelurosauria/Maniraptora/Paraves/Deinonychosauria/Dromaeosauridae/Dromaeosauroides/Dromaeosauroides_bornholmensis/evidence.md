@@ -9,7 +9,6 @@ records:
     name:
       zh: Dromaeosauroides bornholmensis
       en: Dromaeosauroides bornholmensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Caseoides sanangeloensis
       en: Caseoides sanangeloensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

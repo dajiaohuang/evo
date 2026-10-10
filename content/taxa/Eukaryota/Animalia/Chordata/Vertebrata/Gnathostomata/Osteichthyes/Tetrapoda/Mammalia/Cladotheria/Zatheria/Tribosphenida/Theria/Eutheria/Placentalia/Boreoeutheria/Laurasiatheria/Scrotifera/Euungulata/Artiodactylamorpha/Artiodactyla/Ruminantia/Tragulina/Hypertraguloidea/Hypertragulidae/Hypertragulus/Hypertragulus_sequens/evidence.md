@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypertragulus sequens
       en: Hypertragulus sequens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

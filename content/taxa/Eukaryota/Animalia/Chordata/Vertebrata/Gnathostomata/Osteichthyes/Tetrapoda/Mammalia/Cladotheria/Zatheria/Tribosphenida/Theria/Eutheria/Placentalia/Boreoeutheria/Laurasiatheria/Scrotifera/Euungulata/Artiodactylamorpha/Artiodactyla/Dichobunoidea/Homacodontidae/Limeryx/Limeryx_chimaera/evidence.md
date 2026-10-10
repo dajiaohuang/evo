@@ -9,7 +9,6 @@ records:
     name:
       zh: Limeryx chimaera
       en: Limeryx chimaera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gyposaurus sinensis
       en: Gyposaurus sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

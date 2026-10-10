@@ -9,7 +9,6 @@ records:
     name:
       zh: Sparassocynus bahiai
       en: Sparassocynus bahiai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Boulengerula boulengeri
       zh: Boulengerula boulengeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mammut obliquelophus
       en: Mammut obliquelophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

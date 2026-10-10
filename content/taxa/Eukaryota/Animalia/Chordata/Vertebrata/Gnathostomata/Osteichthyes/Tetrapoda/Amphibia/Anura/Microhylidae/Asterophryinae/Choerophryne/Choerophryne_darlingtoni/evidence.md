@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne darlingtoni
       zh: Choerophryne darlingtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

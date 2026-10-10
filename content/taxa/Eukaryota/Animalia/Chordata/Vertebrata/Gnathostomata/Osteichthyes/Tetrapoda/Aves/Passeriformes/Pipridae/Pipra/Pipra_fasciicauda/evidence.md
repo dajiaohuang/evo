@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipra fasciicauda
       en: Pipra fasciicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

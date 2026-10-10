@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyaenodon (Isohyaenodon) andrewsi
       en: Hyaenodon (Isohyaenodon) andrewsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Astylosternus rheophilus
       zh: Astylosternus rheophilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

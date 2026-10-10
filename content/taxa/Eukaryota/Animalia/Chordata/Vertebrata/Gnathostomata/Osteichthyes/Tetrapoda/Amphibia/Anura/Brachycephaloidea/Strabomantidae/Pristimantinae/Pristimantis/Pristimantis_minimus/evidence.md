@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis minimus
       zh: Pristimantis minimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

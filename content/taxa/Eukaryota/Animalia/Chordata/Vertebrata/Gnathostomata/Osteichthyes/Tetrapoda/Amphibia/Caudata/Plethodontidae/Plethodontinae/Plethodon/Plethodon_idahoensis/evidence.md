@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon idahoensis
       zh: Plethodon idahoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

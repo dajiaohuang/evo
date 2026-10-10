@@ -9,7 +9,6 @@ records:
     name:
       en: Afrixalus uluguruensis
       zh: Afrixalus uluguruensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

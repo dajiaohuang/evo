@@ -11,7 +11,7 @@ status: source-linked
 ## Find records through seven Phalacrocorax combinations
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-Seven guides follow COL26.8 Leucocarbo (638ZH) and Phalacrocoracidae (62694). Seven eBird names match, with respective Avibase IDs matching BirdLife and one-to-one types; seven BirdTree Phalacrocorax combinations each have an exact synonym pointing to this batch’s accepted ID. Additional Leucocarbo stewarti and Phalacrocorax stewarti synonyms at chalconotus are not actual crosswalk names. Fifteen immediate genus catalogue children and the earlier four life-history guides remain distinct; seven pages do not complete genus content or expert review.
+Seven guides follow COL26.8 Leucocarbo (638ZH) and Phalacrocoracidae (62694). Seven eBird names match, with respective Avibase IDs matching BirdLife and one-to-one types; seven BirdTree Phalacrocorax combinations each have an exact synonym pointing to this batch’s accepted ID. Additional Leucocarbo stewarti and Phalacrocorax stewarti synonyms at chalconotus are not actual crosswalk names. Fifteen immediate genus catalogue children and the earlier four life-history guides remain distinct; seven pages do not complete genus content.
 <!-- /evo:text -->
 
 ## Read complete sets from one unsexed bird
@@ -45,6 +45,6 @@ This batch’s Leucocarbo route includes 4 historical life-history accounts; sta
 ## Life-history evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
-Seven added older-name guides retain one unsexed bird, no sexed male, complete sets and independent mass separately; aquatic codes supply no measured dive performance. Complete content for 15 catalogue children, current maps and expert review remain unfinished.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+Seven added older-name guides retain one unsexed bird, no sexed male, complete sets and independent mass separately; aquatic codes supply no measured dive performance. Complete content for 15 catalogue children, current maps remain unfinished.
 <!-- /evo:text -->

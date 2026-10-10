@@ -9,7 +9,6 @@ records:
     name:
       zh: Gervachoerus jaegeri
       en: Gervachoerus jaegeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

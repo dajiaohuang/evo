@@ -9,7 +9,6 @@ records:
     name:
       zh: Typhlosaurus vermis
       en: Typhlosaurus vermis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophocetus calvertensis
       en: Lophocetus calvertensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia gimmeli
       zh: Stumpffia gimmeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

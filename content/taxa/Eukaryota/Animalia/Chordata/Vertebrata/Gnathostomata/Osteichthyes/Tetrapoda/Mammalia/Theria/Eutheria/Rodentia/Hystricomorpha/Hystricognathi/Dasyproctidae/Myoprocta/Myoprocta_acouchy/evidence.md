@@ -9,7 +9,6 @@ records:
     name:
       zh: Myoprocta acouchy
       en: Myoprocta acouchy
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

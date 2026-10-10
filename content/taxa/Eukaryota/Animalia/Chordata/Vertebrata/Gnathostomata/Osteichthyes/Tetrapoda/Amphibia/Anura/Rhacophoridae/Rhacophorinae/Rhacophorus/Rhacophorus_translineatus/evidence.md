@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus translineatus
       zh: Rhacophorus translineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

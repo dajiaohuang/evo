@@ -28,5 +28,5 @@ Behavioral observations and conservation concerns in the description are histori
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The taxonomic account is based on very few specimens and localized observations; it is not a current population or island-wide survey. This page is not externally expert-reviewed.
+The taxonomic account is based on very few specimens and localized observations; it is not a current population or island-wide survey. This page is.
 <!-- /evo:text -->

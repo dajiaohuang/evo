@@ -9,7 +9,6 @@ records:
     name:
       zh: Loxaulax valdensis
       en: Loxaulax valdensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

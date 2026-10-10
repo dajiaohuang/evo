@@ -9,7 +9,6 @@ records:
     name:
       zh: Polyonymus
       en: Polyonymus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

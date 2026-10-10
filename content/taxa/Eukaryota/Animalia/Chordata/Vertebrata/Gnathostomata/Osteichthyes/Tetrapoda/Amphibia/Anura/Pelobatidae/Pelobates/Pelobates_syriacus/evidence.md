@@ -9,7 +9,6 @@ records:
     name:
       en: Pelobates syriacus
       zh: Pelobates syriacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

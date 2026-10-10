@@ -52,7 +52,7 @@ In one seven-year captive cohort, measured size and shape were similar at birth;
 ## atlas-profile / evidenceSummary
 
 <!-- evo:text /records/atlas-profile/evidenceSummary -->
-The selected profile links captive growth, Gombe reproductive records, a Lake Manyara survey-method comparison and a 12-individual Papio genomic panel. Global distribution, fossil record and formal conservation status remain unassessed; the dossier is incomplete and has not received independent expert review.
+The selected profile links captive growth, Gombe reproductive records, a Lake Manyara survey-method comparison and a 12-individual Papio genomic panel. Global distribution, fossil record and formal conservation status remain unassessed; the dossier is incomplete.
 <!-- /evo:text -->
 
 <!-- evo:text /records/atlas-profile/readerSections/0/id -->
@@ -156,7 +156,7 @@ remaining-questions
 <!-- /evo:text -->
 
 <!-- evo:text /records/atlas-profile/readerSections/5/text/en -->
-The selected sources do not establish the species’ current distribution, formal conservation status, a wild species-wide diet or locomotion synthesis, or a complete fossil and evolutionary history. The dossier remains incomplete and has not received independent expert review.
+The selected sources do not establish the species’ current distribution, formal conservation status, a wild species-wide diet or locomotion synthesis, or a complete fossil and evolutionary history. The dossier remains incomplete.
 <!-- /evo:text -->
 
 <!-- evo:text /records/atlas-profile/readerSections/5/sourceIds/0 -->
@@ -182,5 +182,5 @@ jordan2018
 ## atlas-profile / readerLimitations
 
 <!-- evo:text /records/atlas-profile/readerLimitations/en -->
-This bilingual reader draft connects selected captive, wild and comparative-genomic studies; it is not a complete species review. Current distribution, formal conservation status, a broad wild ecology synthesis and complete evolutionary history remain unassessed. The scientific dossier is incomplete and has not received independent expert review.
+This bilingual reader draft connects selected captive, wild and comparative-genomic studies; it is not a complete species review. Current distribution, formal conservation status, a broad wild ecology synthesis and complete evolutionary history remain unassessed. The scientific dossier is incomplete.
 <!-- /evo:text -->

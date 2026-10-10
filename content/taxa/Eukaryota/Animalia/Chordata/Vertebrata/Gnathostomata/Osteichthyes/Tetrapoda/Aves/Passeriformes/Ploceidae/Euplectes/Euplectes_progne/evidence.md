@@ -9,7 +9,6 @@ records:
     name:
       zh: Euplectes progne
       en: Euplectes progne
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

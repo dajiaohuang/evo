@@ -9,7 +9,6 @@ records:
     name:
       zh: Coelodonta antiquitatis
       en: Coelodonta antiquitatis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

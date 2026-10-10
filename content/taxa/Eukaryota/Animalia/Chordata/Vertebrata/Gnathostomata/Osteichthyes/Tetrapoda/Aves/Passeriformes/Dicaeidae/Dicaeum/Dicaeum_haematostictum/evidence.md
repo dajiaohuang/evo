@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicaeum haematostictum
       en: Dicaeum haematostictum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

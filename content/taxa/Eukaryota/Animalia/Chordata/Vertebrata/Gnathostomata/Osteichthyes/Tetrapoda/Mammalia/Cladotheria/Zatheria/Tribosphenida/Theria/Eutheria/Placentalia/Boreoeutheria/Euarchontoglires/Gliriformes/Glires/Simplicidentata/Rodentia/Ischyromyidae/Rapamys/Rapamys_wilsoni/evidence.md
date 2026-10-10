@@ -9,7 +9,6 @@ records:
     name:
       zh: Rapamys wilsoni
       en: Rapamys wilsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

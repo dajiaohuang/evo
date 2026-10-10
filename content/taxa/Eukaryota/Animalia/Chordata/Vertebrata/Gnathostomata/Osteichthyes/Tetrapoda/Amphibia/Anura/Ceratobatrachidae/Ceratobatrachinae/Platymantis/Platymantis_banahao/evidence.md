@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis banahao
       zh: Platymantis banahao
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

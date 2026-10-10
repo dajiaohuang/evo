@@ -9,7 +9,6 @@ records:
     name:
       zh: Pleurosaurus ginsburgi
       en: Pleurosaurus ginsburgi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

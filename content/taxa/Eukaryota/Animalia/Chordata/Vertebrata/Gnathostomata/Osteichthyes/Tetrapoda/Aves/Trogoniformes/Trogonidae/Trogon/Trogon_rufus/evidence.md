@@ -9,7 +9,6 @@ records:
     name:
       zh: Trogon rufus
       en: Trogon rufus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Batrachostomus javensis
       en: Batrachostomus javensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

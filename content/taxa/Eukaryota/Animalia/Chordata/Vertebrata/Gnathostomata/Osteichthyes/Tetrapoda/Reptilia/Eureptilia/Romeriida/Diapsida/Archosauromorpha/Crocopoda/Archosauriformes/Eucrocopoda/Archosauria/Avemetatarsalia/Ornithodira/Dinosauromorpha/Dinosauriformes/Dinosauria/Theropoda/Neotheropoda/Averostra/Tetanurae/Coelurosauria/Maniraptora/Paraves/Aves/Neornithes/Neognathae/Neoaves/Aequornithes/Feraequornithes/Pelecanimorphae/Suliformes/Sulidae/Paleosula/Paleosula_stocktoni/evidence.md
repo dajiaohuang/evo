@@ -9,7 +9,6 @@ records:
     name:
       zh: Paleosula stocktoni
       en: Paleosula stocktoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

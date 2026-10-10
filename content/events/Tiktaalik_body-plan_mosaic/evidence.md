@@ -99,9 +99,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Daeschler et al. 2006 DOI 10.1038/nature04639
       referenceLinks:
         - relation: supports
           referenceId: daeschler-2006-tiktaalik-body-plan

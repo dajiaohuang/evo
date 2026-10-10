@@ -9,7 +9,6 @@ records:
     name:
       en: Rana uenoi
       zh: Rana uenoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Propalaeotherium voigti
       en: Propalaeotherium voigti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

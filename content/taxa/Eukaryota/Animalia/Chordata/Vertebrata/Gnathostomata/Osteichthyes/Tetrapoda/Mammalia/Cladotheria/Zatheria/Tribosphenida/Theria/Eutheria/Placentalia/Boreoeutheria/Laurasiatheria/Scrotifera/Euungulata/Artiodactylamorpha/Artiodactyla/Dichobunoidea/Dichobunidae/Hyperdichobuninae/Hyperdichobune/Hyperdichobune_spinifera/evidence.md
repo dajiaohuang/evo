@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyperdichobune spinifera
       en: Hyperdichobune spinifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

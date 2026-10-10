@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus ywanganensis
       en: Cyrtodactylus ywanganensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

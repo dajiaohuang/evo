@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachuperus taibaiensis
       zh: Batrachuperus taibaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

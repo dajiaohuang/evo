@@ -9,7 +9,6 @@ records:
     name:
       en: Clinotarsus curtipes
       zh: Clinotarsus curtipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

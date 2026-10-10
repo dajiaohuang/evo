@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus catalinensis
       en: Crotalus catalinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena amharensis
       zh: Ptychadena amharensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

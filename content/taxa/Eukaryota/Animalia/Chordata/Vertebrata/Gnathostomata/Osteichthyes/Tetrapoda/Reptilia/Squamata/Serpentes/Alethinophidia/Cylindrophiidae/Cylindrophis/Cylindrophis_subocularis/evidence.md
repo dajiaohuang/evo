@@ -9,7 +9,6 @@ records:
     name:
       zh: Cylindrophis subocularis
       en: Cylindrophis subocularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

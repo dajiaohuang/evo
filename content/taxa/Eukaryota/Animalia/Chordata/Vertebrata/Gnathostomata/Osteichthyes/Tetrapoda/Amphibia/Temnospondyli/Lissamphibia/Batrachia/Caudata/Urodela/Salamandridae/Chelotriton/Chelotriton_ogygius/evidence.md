@@ -9,7 +9,6 @@ records:
     name:
       en: Chelotriton ogygius
       zh: Chelotriton ogygius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: taxonomy
@@ -312,13 +311,13 @@ R. Estes. 1981. Handbuch der Paläoherpetologie/Encyclopedia of Paleoherpetology
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/en -->
-Partial database and primary-study fossil reader. Specimen identity, preservation, historical assignments and inferred life habits retain separate scopes. Remaining biological synthesis and external expert review are incomplete.
+Partial database and primary-study fossil reader. Specimen identity, preservation, historical assignments and inferred life habits retain separate scopes. Remaining biological synthesis are incomplete.
 <!-- /evo:text -->
 
 ## pbdb-fossil-reader / limitations
 
 <!-- evo:text /records/pbdb-fossil-reader/limitations/zh -->
-部分数据库及原研究化石读本。标本身份、保存状况、历史归属及推断生活习性各自限定范围，其余生物学综述及外部专家审评尚未完成。
+部分数据库及原研究化石读本。标本身份、保存状况、历史归属及推断生活习性各自限定范围，其余生物学综述及。
 <!-- /evo:text -->
 
 ## pbdb-fossil-reader / primaryStudyScopes / evidenceRead

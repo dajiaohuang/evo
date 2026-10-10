@@ -9,7 +9,6 @@ records:
     name:
       zh: Pternoconius tournoueri
       en: Pternoconius tournoueri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

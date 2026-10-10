@@ -9,7 +9,6 @@ records:
     name:
       zh: Tiuclaenus cotasi
       en: Tiuclaenus cotasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

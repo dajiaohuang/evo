@@ -9,7 +9,6 @@ records:
     name:
       zh: Fregetta grallaria
       en: Fregetta grallaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

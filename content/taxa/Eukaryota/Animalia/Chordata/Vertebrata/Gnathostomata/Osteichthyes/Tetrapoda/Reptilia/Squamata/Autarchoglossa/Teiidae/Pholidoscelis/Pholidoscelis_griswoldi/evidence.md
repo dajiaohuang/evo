@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidoscelis griswoldi
       en: Pholidoscelis griswoldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

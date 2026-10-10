@@ -9,7 +9,6 @@ records:
     name:
       zh: Helochelys danubina
       en: Helochelys danubina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

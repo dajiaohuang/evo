@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachydactylus namaquensis
       en: Pachydactylus namaquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

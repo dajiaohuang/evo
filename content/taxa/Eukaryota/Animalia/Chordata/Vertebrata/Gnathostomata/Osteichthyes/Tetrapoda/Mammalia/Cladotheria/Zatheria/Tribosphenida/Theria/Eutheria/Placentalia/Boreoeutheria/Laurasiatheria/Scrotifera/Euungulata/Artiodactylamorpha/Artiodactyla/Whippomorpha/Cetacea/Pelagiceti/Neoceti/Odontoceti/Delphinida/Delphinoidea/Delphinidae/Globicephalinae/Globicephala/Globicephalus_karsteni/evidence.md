@@ -9,7 +9,6 @@ records:
     name:
       zh: Globicephalus karsteni
       en: Globicephalus karsteni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

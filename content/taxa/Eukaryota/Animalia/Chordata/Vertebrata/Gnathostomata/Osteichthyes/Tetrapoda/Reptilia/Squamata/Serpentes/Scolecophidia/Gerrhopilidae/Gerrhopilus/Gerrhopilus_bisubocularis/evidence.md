@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerrhopilus bisubocularis
       en: Gerrhopilus bisubocularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

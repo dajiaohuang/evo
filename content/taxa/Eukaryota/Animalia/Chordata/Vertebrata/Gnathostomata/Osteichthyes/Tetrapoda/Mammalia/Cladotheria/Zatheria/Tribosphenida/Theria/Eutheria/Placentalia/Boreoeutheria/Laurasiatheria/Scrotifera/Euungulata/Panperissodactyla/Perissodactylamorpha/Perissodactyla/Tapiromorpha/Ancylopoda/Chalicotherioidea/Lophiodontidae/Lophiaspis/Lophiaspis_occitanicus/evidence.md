@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophiaspis occitanicus
       en: Lophiaspis occitanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

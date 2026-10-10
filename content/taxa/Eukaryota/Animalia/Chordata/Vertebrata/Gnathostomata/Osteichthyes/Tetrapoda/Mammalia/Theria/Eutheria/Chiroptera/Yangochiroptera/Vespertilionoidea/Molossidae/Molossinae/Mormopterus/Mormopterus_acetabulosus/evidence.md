@@ -9,7 +9,6 @@ records:
     name:
       zh: Mormopterus acetabulosus
       en: Mormopterus acetabulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

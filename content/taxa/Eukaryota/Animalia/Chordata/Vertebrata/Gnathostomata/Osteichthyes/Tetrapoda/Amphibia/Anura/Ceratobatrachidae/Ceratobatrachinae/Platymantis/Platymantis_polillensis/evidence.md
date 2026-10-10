@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis polillensis
       zh: Platymantis polillensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

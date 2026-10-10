@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: swartz-2012-tinirau DOI 10.1371/journal.pone.0033683; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: swartz-2012-tinirau
@@ -48,9 +45,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: swartz-2012-tinirau; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: swartz-2012-tinirau
@@ -90,7 +84,6 @@ records:
       referenceLocators:
         - referenceId: swartz-2012-tinirau
           locator: "Article e33683, pp. 1–4; Figures 1–4; Age: upper Givetian; locality, holotype and phylogenetic placement"
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

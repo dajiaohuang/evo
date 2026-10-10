@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristerognathus vanderbyli
       en: Pristerognathus vanderbyli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

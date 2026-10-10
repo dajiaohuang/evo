@@ -9,7 +9,6 @@ records:
     name:
       en: Platypelis ando
       zh: Platypelis ando
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

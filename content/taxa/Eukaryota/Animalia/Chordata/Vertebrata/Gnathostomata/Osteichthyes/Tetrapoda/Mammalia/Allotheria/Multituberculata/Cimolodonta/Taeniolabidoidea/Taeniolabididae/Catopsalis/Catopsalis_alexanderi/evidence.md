@@ -9,7 +9,6 @@ records:
     name:
       zh: Catopsalis alexanderi
       en: Catopsalis alexanderi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

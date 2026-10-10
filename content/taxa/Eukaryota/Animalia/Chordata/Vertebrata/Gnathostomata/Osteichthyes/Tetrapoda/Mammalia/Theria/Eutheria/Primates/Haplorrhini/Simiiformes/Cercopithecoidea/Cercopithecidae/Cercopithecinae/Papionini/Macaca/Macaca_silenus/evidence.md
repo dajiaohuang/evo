@@ -9,7 +9,6 @@ records:
     name:
       zh: 狮尾猴
       en: Lion-tailed macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: populationGenetics
@@ -1050,10 +1049,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
   atlas-node:
     name: Macaca silenus
     commonName: Lion-tailed Macaque
@@ -1454,5 +1449,5 @@ Evidence remains geographically and methodologically bounded: regional mitochond
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-Morphology, life history, and fossil evidence remain unassessed; independent expert review has not been completed.
+Morphology, life history, and fossil evidence remain unassessed;
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis curtipes
       zh: Pristimantis curtipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

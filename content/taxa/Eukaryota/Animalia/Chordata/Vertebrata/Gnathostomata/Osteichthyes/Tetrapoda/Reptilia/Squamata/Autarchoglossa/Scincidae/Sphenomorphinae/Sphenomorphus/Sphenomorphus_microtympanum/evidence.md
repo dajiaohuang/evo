@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus microtympanum
       en: Sphenomorphus microtympanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

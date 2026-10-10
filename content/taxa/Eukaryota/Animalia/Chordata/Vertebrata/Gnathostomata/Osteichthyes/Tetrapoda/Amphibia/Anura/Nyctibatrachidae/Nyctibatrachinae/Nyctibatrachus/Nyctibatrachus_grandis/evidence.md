@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus grandis
       zh: Nyctibatrachus grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

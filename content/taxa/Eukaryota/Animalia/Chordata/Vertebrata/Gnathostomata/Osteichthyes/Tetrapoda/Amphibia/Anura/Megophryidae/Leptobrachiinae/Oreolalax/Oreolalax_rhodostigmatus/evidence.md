@@ -9,7 +9,6 @@ records:
     name:
       en: Oreolalax rhodostigmatus
       zh: Oreolalax rhodostigmatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

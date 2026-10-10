@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagiophthalmosuchus gracilirostris
       en: Plagiophthalmosuchus gracilirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

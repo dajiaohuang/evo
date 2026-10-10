@@ -9,7 +9,6 @@ records:
     name:
       zh: Petaurillus kinlochii
       en: Petaurillus kinlochii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

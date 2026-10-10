@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema concolor
       zh: Ischnocnema concolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

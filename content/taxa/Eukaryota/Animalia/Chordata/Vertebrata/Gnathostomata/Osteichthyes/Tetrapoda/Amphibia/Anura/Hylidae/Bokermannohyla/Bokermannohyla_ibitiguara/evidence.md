@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla ibitiguara
       zh: Bokermannohyla ibitiguara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

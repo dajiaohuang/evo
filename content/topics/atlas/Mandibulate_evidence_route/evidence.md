@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: aria-caron-2017-tokummia; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: aria-caron-2017-tokummia
           relation: supports
@@ -74,7 +71,6 @@ records:
           locator: 89–92; Figures 1–4
         - referenceId: vannier-2018-waptia
           locator: 1–34; Figures 8–10, 23–24
-      reviewStatus: automated-audit-passed
 ---
 
 # Mandibulate evidence route

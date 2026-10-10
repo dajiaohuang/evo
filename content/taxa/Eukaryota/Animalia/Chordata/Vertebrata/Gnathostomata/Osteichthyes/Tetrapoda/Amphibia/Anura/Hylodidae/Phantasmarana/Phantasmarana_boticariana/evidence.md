@@ -9,7 +9,6 @@ records:
     name:
       en: Phantasmarana boticariana
       zh: Phantasmarana boticariana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

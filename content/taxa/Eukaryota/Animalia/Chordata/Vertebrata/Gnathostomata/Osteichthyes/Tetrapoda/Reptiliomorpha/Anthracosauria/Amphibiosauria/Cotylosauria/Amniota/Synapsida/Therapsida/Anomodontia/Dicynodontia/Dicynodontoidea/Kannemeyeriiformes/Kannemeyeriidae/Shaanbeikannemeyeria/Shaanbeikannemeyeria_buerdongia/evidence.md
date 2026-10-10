@@ -9,7 +9,6 @@ records:
     name:
       zh: Shaanbeikannemeyeria buerdongia
       en: Shaanbeikannemeyeria buerdongia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

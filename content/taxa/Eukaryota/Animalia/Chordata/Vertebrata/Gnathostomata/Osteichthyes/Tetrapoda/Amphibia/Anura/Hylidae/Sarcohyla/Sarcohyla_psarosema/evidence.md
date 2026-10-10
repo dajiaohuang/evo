@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla psarosema
       zh: Sarcohyla psarosema
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

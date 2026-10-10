@@ -9,7 +9,6 @@ records:
     name:
       zh: Bitis xeropaga
       en: Bitis xeropaga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

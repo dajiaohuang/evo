@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalpomys
       en: Thalpomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

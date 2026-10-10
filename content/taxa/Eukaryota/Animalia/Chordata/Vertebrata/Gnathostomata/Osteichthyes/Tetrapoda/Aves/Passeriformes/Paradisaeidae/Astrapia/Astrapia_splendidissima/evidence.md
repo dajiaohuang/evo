@@ -9,7 +9,6 @@ records:
     name:
       zh: Astrapia splendidissima
       en: Astrapia splendidissima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

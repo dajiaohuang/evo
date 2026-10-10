@@ -9,7 +9,6 @@ records:
     name:
       zh: Circaetus
       en: Circaetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anteosauridae
       en: Anteosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

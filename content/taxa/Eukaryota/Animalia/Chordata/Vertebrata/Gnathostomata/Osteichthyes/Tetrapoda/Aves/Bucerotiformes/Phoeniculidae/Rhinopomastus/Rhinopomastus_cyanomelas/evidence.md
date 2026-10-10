@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinopomastus cyanomelas
       en: Rhinopomastus cyanomelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

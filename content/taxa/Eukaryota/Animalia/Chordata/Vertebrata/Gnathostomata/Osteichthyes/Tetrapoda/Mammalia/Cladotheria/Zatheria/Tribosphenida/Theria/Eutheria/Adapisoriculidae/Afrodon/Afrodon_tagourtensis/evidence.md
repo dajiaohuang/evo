@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrodon tagourtensis
       en: Afrodon tagourtensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

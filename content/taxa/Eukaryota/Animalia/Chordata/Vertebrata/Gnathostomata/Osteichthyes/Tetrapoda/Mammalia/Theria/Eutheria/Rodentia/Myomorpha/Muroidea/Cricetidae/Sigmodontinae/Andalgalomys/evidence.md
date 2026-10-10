@@ -9,7 +9,6 @@ records:
     name:
       zh: Andalgalomys
       en: Andalgalomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

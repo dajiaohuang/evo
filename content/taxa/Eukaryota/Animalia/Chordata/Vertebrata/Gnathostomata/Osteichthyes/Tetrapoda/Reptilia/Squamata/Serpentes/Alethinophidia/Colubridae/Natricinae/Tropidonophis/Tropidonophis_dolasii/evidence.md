@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidonophis dolasii
       en: Tropidonophis dolasii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

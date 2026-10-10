@@ -61,11 +61,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: horner-2011-hell-creek-dinosaur-census
           relation: supports
@@ -82,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Horner et al. 2011 DOI 10.1371/journal.pone.0016574
       referenceLinks:
         - referenceId: horner-2011-hell-creek-dinosaur-census
           relation: supports
@@ -106,9 +98,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Carr 2020 DOI 10.7717/peerj.9192
       referenceLinks:
         - referenceId: carr-2020-tyrannosaurus-growth-series
           relation: supports
@@ -126,9 +115,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Horner et al. 2011 DOI 10.1371/journal.pone.0016574
       referenceLinks:
         - referenceId: gignac-2017-tyrannosaurus-osteophagy
           relation: supports
@@ -146,9 +132,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Carr 2020 DOI 10.7717/peerj.9192
       referenceLinks:
         - referenceId: carr-2020-tyrannosaurus-growth-series
           relation: supports
@@ -202,7 +185,6 @@ records:
           locator: Figure 1; Tables 1 and S1–S6; locality census
         - referenceId: renne-2013-kpg-timescale
           locator: 684–687; Figures 1–3; 40Ar/39Ar boundary age
-      reviewStatus: automated-audit-passed
 ---
 
 # Tyrannosaurus rex

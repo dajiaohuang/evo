@@ -9,7 +9,6 @@ records:
     name:
       en: Guibemantis
       zh: Guibemantis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

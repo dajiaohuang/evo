@@ -9,7 +9,6 @@ records:
     name:
       zh: Cantorchilus leucotis
       en: Cantorchilus leucotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

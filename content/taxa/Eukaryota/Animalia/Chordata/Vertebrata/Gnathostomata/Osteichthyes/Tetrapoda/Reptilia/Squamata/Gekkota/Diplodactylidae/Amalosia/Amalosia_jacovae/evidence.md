@@ -9,7 +9,6 @@ records:
     name:
       zh: Amalosia jacovae
       en: Amalosia jacovae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

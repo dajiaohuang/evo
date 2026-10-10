@@ -9,7 +9,6 @@ records:
     name:
       en: Colleeneremia wisselensis
       zh: Colleeneremia wisselensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

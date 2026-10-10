@@ -9,7 +9,6 @@ records:
     name:
       zh: Zaraapelta nomadis
       en: Zaraapelta nomadis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus malachiticus
       en: Sceloporus malachiticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

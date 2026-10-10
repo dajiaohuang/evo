@@ -9,7 +9,6 @@ records:
     name:
       zh: Camaroptera chloronota
       en: Camaroptera chloronota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

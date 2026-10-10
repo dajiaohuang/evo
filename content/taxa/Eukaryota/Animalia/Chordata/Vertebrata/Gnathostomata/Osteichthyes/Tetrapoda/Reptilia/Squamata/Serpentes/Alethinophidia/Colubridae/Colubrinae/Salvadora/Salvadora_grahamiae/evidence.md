@@ -9,7 +9,6 @@ records:
     name:
       zh: Salvadora grahamiae
       en: Salvadora grahamiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

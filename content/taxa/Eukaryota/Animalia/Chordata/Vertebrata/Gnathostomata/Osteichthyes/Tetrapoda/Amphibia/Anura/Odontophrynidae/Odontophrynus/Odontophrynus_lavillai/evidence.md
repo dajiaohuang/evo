@@ -9,7 +9,6 @@ records:
     name:
       en: Odontophrynus lavillai
       zh: Odontophrynus lavillai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

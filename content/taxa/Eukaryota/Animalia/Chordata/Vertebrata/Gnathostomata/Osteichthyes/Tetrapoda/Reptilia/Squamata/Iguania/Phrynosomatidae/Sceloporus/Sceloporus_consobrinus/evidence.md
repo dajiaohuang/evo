@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus consobrinus
       en: Sceloporus consobrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

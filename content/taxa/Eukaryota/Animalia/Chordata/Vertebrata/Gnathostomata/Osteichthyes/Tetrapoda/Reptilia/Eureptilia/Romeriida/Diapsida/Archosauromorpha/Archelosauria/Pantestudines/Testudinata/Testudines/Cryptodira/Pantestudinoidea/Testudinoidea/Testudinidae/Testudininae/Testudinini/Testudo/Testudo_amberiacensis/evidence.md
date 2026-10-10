@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo amberiacensis
       en: Testudo amberiacensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

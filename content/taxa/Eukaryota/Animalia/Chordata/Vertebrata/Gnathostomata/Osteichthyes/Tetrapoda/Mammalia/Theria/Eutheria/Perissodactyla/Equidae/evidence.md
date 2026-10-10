@@ -9,7 +9,6 @@ records:
     name:
       zh: 马科
       en: Horse family
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -379,9 +378,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: price-2009-perissodactyl-phylogeny concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: price-2009-perissodactyl-phylogeny
@@ -415,7 +411,6 @@ records:
       referenceLocators:
         - referenceId: price-2009-perissodactyl-phylogeny
           locator: pp. 277–292; Equidae results and discussion within the extant-species supertree and supermatrix
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

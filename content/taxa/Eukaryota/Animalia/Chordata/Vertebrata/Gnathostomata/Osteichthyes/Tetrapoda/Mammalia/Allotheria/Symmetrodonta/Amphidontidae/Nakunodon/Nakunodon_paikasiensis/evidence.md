@@ -9,7 +9,6 @@ records:
     name:
       zh: Nakunodon paikasiensis
       en: Nakunodon paikasiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

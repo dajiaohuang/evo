@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaethornis longuemareus
       en: Phaethornis longuemareus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

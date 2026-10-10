@@ -9,7 +9,6 @@ records:
     name:
       zh: Tylomyinae
       en: Tylomyinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemicordylus nebulosus
       en: Hemicordylus nebulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

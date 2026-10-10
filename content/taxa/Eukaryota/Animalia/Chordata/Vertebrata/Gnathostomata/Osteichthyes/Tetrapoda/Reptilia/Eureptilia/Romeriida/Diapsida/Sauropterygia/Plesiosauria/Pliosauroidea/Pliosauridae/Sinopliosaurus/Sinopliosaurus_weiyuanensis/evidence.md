@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinopliosaurus weiyuanensis
       en: Sinopliosaurus weiyuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

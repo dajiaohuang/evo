@@ -9,7 +9,6 @@ records:
     name:
       zh: Heloderma horridum
       en: Heloderma horridum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

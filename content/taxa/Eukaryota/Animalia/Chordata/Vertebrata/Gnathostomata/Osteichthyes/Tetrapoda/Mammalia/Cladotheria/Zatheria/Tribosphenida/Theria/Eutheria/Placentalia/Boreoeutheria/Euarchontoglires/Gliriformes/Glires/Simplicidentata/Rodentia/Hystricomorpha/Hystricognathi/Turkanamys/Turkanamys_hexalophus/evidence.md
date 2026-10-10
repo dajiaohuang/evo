@@ -9,7 +9,6 @@ records:
     name:
       zh: Turkanamys hexalophus
       en: Turkanamys hexalophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

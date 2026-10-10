@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus ambohimitombi
       zh: Mantidactylus ambohimitombi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

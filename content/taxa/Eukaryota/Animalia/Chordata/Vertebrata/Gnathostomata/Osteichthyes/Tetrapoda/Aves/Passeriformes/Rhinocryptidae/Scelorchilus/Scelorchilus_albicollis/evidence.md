@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelorchilus albicollis
       en: Scelorchilus albicollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

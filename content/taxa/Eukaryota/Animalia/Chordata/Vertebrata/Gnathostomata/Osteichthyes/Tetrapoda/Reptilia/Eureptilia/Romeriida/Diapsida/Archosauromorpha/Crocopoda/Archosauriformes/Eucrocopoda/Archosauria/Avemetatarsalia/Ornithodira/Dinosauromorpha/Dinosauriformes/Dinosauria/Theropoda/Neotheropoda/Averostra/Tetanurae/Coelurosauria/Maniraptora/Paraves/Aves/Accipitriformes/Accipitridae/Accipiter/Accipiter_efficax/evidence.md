@@ -9,7 +9,6 @@ records:
     name:
       zh: Accipiter efficax
       en: Accipiter efficax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

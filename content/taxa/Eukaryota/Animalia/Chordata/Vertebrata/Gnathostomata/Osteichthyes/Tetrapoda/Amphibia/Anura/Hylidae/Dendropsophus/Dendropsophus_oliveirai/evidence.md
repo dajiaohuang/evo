@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus oliveirai
       zh: Dendropsophus oliveirai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

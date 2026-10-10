@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinocyon thenardi
       en: Dinocyon thenardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

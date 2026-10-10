@@ -9,7 +9,6 @@ records:
     name:
       zh: Aumelasia gabineaudi
       en: Aumelasia gabineaudi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

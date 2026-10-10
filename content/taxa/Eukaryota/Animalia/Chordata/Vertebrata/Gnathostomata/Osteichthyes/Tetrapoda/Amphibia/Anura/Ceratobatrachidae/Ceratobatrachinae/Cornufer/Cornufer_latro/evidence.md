@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer latro
       zh: Cornufer latro
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

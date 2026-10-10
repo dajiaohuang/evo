@@ -9,7 +9,6 @@ records:
     name:
       zh: Richardoestesia isosceles
       en: Richardoestesia isosceles
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

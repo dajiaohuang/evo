@@ -9,7 +9,6 @@ records:
     name:
       zh: Sunosuchus shunanensis
       en: Sunosuchus shunanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

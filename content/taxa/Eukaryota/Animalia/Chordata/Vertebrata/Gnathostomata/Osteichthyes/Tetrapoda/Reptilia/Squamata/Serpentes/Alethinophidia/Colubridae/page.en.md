@@ -30,7 +30,7 @@ This batch’s Colubridae route includes 110 historical life-history accounts; s
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
-This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 <!-- /evo:text -->
@@ -38,7 +38,7 @@ Some descendant entries have class-scope cautions in source fields. Those values
 ## Citation gaps in some descendant accounts
 
 <!-- evo:text /records/catalogue-profile/sections/2/text/en -->
-In this ReptTraits route, some fields in 58 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage or expert review.
+In this ReptTraits route, some fields in 58 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 <!-- /evo:text -->
 
 ## Start with sourced trait records

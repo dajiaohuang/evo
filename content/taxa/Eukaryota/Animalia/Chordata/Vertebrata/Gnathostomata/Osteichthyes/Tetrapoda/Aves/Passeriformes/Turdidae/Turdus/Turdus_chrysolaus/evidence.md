@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdus chrysolaus
       en: Turdus chrysolaus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

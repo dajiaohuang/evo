@@ -42,9 +42,9 @@ This batch’s Canidae route includes 33 historical entries; start with Vulpes v
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introductory account; not externally expert-reviewed. The ADW Canidae page was last updated in 2000; only its descriptive morphology is retained, not its old species count, predation account or classification as a current conclusion.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs and external expert review remain unfinished.
+Source-linked introductory account;. The ADW Canidae page was last updated in 2000; only its descriptive morphology is retained, not its old species count, predation account or classification as a current conclusion.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 <!-- /evo:text -->
 
 ## Start with the historical entries

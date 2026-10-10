@@ -9,7 +9,6 @@ records:
     name:
       zh: Mystacina robusta
       en: Mystacina robusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

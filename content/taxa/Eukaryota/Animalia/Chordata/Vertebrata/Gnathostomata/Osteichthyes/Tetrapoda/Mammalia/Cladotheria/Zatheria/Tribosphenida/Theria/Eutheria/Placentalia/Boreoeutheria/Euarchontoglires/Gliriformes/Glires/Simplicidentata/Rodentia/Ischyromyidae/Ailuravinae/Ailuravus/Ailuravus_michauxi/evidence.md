@@ -9,7 +9,6 @@ records:
     name:
       zh: Ailuravus michauxi
       en: Ailuravus michauxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

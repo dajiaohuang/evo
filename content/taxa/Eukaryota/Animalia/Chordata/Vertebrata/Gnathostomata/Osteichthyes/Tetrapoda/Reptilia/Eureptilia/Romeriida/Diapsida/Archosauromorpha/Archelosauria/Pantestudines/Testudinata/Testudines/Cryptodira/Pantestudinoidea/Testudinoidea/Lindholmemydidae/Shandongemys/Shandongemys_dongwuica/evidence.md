@@ -9,7 +9,6 @@ records:
     name:
       zh: Shandongemys dongwuica
       en: Shandongemys dongwuica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Homunculus vizcainoi
       en: Homunculus vizcainoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

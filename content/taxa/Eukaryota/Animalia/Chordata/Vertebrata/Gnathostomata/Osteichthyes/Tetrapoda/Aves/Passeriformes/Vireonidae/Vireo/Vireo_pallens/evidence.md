@@ -9,7 +9,6 @@ records:
     name:
       zh: Vireo pallens
       en: Vireo pallens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

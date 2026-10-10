@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus schmidti
       zh: Eleutherodactylus schmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

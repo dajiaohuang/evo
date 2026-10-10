@@ -22,5 +22,5 @@ The study was conducted in 1997–1998 and classified habitat quality by human d
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This entry is not externally expert-reviewed. It is limited to the cited sources and local evidence boundaries.
+This entry is. It is limited to the cited sources and local evidence boundaries.
 <!-- /evo:text -->

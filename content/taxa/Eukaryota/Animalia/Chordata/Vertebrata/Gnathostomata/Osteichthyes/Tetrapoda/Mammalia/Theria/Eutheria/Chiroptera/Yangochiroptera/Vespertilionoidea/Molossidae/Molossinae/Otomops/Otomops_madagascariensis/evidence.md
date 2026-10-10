@@ -9,7 +9,6 @@ records:
     name:
       zh: Otomops madagascariensis
       en: Otomops madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

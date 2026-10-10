@@ -9,7 +9,6 @@ records:
     name:
       zh: Abronia leurolepis
       en: Abronia leurolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

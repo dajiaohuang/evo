@@ -9,7 +9,6 @@ records:
     name:
       zh: Shenzhouraptor sinensis
       en: Shenzhouraptor sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

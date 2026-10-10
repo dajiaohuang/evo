@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: drumheller-2022-edmontosaurus-mummy @ DOI 10.1371/journal.pone.0275240
       referenceLinks:
         - referenceId: drumheller-2022-edmontosaurus-mummy
           relation: supports

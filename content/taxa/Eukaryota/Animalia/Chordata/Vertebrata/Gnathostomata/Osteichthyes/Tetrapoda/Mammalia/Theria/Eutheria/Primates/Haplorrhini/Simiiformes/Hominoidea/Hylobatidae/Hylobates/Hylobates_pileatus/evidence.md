@@ -9,7 +9,6 @@ records:
     name:
       en: Pileated Gibbon
       zh: 冠长臂猿
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

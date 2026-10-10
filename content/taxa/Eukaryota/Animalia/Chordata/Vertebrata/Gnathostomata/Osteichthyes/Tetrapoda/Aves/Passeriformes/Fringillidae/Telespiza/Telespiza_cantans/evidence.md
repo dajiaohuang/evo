@@ -9,7 +9,6 @@ records:
     name:
       zh: Telespiza cantans
       en: Telespiza cantans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

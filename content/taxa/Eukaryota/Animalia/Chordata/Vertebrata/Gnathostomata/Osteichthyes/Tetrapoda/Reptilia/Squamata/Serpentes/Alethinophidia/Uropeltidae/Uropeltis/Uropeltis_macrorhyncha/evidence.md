@@ -9,7 +9,6 @@ records:
     name:
       zh: Uropeltis macrorhyncha
       en: Uropeltis macrorhyncha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

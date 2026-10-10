@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremopterix leucotis
       en: Eremopterix leucotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

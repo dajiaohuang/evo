@@ -673,7 +673,7 @@ export async function buildColRegistry({ archivePath, outputRoot, provenance }) 
           childCount: 'Number of locally projected direct children; zero for accepted species',
         },
       },
-      relationshipToAtlas: 'This registry covers names and taxonomic placement only. It does not imply an Evo Atlas dossier, evidence maturity, media, fossil, ecology, translation, or expert review.',
+      relationshipToAtlas: 'This registry covers names and taxonomic placement only. It does not imply an Evo Atlas dossier, evidence maturity, media, fossil, ecology, translation,.',
       taxonIdScope: 'Catalogue of Life usage IDs identify records in COL26.8. They are not treated as sufficient cross-release concept identity because source-sector resynchronizations can replace IDs.',
       curieTemplate: 'col:{id}',
       recordSchema: {

@@ -9,7 +9,6 @@ records:
     name:
       zh: Furina dunmalli
       en: Furina dunmalli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crithagra xantholaema
       en: Crithagra xantholaema
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

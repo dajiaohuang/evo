@@ -9,7 +9,6 @@ records:
     name:
       zh: Rheinardia ocellata
       en: Rheinardia ocellata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

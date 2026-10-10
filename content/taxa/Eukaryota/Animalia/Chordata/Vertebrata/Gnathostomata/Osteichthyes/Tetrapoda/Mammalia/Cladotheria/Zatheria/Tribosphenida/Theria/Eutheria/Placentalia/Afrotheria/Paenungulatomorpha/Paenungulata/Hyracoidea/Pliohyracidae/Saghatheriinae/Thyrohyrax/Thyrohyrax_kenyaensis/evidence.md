@@ -9,7 +9,6 @@ records:
     name:
       zh: Thyrohyrax kenyaensis
       en: Thyrohyrax kenyaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

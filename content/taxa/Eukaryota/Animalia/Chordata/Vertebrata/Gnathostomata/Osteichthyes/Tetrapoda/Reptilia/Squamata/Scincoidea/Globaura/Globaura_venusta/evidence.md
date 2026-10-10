@@ -9,7 +9,6 @@ records:
     name:
       zh: Globaura venusta
       en: Globaura venusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

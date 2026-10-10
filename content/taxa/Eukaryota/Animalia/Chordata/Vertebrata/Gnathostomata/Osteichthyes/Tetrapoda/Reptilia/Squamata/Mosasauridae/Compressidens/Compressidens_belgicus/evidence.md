@@ -9,7 +9,6 @@ records:
     name:
       zh: Compressidens belgicus
       en: Compressidens belgicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

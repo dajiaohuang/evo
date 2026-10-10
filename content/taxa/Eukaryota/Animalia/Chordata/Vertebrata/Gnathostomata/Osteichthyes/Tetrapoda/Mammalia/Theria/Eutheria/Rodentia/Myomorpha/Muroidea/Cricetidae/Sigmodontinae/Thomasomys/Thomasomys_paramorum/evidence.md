@@ -9,7 +9,6 @@ records:
     name:
       zh: Thomasomys paramorum
       en: Thomasomys paramorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

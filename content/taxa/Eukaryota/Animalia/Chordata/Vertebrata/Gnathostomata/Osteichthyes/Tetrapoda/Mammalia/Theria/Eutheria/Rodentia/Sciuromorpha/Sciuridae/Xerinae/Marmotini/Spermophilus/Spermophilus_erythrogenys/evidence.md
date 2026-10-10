@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophilus erythrogenys
       en: Spermophilus erythrogenys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

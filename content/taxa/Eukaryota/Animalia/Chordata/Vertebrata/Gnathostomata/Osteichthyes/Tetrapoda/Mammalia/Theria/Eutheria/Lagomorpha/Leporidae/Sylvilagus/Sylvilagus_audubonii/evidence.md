@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylvilagus audubonii
       en: Sylvilagus audubonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

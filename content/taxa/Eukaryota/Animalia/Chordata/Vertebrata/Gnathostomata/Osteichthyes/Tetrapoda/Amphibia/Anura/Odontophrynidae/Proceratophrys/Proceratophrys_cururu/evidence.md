@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys cururu
       zh: Proceratophrys cururu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

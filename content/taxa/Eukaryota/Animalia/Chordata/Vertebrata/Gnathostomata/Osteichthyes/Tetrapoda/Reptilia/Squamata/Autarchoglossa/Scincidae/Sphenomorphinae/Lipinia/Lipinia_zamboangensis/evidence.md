@@ -9,7 +9,6 @@ records:
     name:
       zh: Lipinia zamboangensis
       en: Lipinia zamboangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

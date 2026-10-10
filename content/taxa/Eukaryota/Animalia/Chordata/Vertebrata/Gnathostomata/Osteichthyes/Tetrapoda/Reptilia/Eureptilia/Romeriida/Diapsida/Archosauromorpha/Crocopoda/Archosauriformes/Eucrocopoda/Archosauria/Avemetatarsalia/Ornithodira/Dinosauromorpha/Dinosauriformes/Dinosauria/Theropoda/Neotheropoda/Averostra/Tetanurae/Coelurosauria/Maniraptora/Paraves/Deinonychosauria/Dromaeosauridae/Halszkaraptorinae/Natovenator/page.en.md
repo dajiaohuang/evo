@@ -30,5 +30,5 @@ Start with Natovenator polydontus and compare each page’s named collections an
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route connects fixed occurrences with one holotype description, separating anatomy from ecological inference. It is not a complete group monograph. Occurrence and collection counts do not measure ancient abundance; complete reconstructions, propulsion and diet are not direct observations. PBDB paths remain separate from other schemes, without direct specimen inspection or external expert review.
+This route connects fixed occurrences with one holotype description, separating anatomy from ecological inference. It is not a complete group monograph. Occurrence and collection counts do not measure ancient abundance; complete reconstructions, propulsion and diet are not direct observations. PBDB paths remain separate from other schemes, without direct specimen inspection.
 <!-- /evo:text -->

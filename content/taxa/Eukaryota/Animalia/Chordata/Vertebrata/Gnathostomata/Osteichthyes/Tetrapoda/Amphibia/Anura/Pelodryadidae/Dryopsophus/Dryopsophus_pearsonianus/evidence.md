@@ -9,7 +9,6 @@ records:
     name:
       en: Dryopsophus pearsonianus
       zh: Dryopsophus pearsonianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

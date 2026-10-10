@@ -9,7 +9,6 @@ records:
     name:
       en: Trachycephalus macrotis
       zh: Trachycephalus macrotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

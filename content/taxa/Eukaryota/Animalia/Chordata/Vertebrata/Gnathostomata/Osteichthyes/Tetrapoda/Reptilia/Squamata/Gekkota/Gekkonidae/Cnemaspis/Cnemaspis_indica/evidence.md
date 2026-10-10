@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis indica
       en: Cnemaspis indica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

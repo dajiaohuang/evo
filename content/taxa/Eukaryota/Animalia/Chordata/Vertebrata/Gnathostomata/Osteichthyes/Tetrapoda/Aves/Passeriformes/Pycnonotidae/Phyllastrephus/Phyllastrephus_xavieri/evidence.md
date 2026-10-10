@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllastrephus xavieri
       en: Phyllastrephus xavieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

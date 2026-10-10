@@ -9,7 +9,6 @@ records:
     name:
       zh: Venetoraptor gassenae
       en: Venetoraptor gassenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

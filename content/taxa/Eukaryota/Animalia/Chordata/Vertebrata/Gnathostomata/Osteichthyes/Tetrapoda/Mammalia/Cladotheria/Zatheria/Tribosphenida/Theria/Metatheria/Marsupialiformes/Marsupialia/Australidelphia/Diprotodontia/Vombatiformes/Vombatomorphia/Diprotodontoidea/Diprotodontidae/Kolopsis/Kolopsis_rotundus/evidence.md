@@ -9,7 +9,6 @@ records:
     name:
       zh: Kolopsis rotundus
       en: Kolopsis rotundus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

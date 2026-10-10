@@ -9,7 +9,6 @@ records:
     name:
       zh: Parakannemeyeria chengi
       en: Parakannemeyeria chengi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

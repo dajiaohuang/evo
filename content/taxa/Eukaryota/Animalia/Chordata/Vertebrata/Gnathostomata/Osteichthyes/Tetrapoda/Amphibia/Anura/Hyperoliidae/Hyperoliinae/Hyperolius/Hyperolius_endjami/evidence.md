@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius endjami
       zh: Hyperolius endjami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

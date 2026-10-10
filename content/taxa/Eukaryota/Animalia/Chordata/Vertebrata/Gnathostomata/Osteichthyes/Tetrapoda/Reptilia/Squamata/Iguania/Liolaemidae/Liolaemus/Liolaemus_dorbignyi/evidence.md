@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus dorbignyi
       en: Liolaemus dorbignyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

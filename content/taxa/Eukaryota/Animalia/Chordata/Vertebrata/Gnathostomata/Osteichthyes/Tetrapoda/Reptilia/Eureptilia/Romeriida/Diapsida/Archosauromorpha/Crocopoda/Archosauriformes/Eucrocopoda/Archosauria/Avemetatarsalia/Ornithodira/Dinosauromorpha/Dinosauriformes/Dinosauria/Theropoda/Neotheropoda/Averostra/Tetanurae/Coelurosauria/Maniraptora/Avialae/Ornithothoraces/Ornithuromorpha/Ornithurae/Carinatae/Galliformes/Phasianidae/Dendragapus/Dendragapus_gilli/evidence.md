@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendragapus gilli
       en: Dendragapus gilli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

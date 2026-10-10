@@ -9,7 +9,6 @@ records:
     name:
       zh: 黄耳狨
       en: Buffy-tufted-ear marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: ecology

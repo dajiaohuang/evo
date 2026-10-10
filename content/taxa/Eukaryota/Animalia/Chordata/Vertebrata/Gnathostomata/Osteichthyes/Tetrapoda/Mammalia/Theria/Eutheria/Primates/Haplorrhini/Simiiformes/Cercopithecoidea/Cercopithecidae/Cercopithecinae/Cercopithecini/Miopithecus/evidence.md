@@ -10,7 +10,6 @@ records:
     name:
       en: Talapoins
       zh: 塔拉波因猴属
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oenanthe leucura
       en: Oenanthe leucura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

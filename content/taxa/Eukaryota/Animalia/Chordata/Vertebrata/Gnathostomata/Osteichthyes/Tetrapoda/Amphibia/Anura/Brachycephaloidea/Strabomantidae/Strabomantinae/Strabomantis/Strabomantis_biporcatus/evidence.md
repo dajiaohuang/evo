@@ -9,7 +9,6 @@ records:
     name:
       en: Strabomantis biporcatus
       zh: Strabomantis biporcatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

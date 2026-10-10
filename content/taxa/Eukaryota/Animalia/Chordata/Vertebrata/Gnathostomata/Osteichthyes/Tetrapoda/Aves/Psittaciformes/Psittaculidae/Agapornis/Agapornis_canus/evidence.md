@@ -9,7 +9,6 @@ records:
     name:
       zh: Agapornis canus
       en: Agapornis canus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

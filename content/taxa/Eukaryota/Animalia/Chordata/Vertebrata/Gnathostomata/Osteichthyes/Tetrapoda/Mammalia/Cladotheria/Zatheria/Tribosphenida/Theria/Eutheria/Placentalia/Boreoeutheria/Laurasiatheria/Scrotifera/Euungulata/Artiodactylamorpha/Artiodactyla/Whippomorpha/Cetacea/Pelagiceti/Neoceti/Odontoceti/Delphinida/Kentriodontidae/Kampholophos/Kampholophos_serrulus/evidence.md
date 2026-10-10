@@ -9,7 +9,6 @@ records:
     name:
       zh: Kampholophos serrulus
       en: Kampholophos serrulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

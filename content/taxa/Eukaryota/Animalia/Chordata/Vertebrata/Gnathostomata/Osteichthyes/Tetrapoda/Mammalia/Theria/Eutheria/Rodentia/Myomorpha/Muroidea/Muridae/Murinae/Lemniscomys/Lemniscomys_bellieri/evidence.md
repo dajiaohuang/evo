@@ -9,7 +9,6 @@ records:
     name:
       zh: Lemniscomys bellieri
       en: Lemniscomys bellieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

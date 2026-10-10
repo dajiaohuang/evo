@@ -9,7 +9,6 @@ records:
     name:
       zh: Podocnemis 属
       en: Podocnemis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius stejnegeri
       zh: Hynobius stejnegeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

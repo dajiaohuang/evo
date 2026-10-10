@@ -9,7 +9,6 @@ records:
     name:
       zh: Apletotomeus incohatus
       en: Apletotomeus incohatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

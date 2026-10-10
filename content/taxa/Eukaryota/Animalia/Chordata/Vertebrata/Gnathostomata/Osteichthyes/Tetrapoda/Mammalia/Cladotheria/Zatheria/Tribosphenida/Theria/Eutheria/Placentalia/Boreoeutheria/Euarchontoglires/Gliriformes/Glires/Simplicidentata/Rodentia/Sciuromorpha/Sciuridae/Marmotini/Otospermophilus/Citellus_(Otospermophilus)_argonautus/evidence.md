@@ -9,7 +9,6 @@ records:
     name:
       zh: Citellus (Otospermophilus) argonautus
       en: Citellus (Otospermophilus) argonautus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

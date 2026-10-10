@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophilus cragini
       en: Spermophilus cragini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

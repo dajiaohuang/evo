@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana bahuvistara
       zh: Hylarana bahuvistara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

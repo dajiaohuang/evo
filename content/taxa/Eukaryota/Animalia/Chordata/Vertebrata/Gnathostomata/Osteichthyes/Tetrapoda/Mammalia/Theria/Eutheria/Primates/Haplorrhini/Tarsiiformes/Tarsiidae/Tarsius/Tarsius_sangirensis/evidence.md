@@ -9,7 +9,6 @@ records:
     name:
       en: Great Sangihe Tarsier
       zh: 大桑义赫眼镜猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: taxonomy

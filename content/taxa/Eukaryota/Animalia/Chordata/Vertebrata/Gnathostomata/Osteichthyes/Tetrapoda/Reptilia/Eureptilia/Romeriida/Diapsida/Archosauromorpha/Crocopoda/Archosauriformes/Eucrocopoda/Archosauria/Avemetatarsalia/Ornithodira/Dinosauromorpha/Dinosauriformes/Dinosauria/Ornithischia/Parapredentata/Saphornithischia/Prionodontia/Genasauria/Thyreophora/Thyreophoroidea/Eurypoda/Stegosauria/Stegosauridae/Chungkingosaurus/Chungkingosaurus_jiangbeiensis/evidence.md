@@ -9,7 +9,6 @@ records:
     name:
       zh: Chungkingosaurus jiangbeiensis
       en: Chungkingosaurus jiangbeiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

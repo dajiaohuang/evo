@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallinago undulata
       en: Gallinago undulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

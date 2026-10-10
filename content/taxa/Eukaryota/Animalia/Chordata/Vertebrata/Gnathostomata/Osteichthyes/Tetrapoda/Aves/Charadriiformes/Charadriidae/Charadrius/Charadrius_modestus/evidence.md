@@ -9,7 +9,6 @@ records:
     name:
       zh: Charadrius modestus
       en: Charadrius modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

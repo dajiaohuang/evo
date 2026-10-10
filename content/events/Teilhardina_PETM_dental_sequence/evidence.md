@@ -88,9 +88,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: smith-2006-teilhardina @ DOI 10.1073/pnas.0511296103
       referenceLinks:
         - referenceId: smith-2006-teilhardina
           relation: supports

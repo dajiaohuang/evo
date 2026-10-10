@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus reichlei
       zh: Dendropsophus reichlei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

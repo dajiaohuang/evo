@@ -9,7 +9,6 @@ records:
     name:
       zh: Philemon argenticeps
       en: Philemon argenticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

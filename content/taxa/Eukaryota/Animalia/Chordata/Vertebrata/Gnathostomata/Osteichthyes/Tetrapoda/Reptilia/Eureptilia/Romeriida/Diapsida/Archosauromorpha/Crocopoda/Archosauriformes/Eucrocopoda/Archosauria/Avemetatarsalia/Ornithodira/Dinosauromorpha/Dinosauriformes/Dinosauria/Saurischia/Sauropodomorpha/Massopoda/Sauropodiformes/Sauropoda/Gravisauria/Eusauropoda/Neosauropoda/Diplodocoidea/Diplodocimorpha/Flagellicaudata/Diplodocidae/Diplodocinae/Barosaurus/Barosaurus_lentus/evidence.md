@@ -9,7 +9,6 @@ records:
     name:
       zh: Barosaurus lentus
       en: Barosaurus lentus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nectoportheus validus
       en: Nectoportheus validus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

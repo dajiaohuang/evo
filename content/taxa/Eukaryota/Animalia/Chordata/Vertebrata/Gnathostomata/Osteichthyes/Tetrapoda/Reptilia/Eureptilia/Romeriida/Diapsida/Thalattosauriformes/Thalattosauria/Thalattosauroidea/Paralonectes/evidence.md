@@ -9,7 +9,6 @@ records:
     name:
       zh: Paralonectes
       en: Paralonectes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana mangveni
       zh: Nidirana mangveni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

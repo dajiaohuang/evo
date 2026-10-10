@@ -9,7 +9,6 @@ records:
     name:
       zh: Craspedochelys jaccardi
       en: Craspedochelys jaccardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

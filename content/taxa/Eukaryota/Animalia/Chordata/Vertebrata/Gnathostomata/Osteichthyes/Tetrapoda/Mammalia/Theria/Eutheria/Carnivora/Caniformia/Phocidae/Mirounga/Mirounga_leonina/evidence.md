@@ -9,7 +9,6 @@ records:
     name:
       zh: Mirounga leonina
       en: Mirounga leonina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

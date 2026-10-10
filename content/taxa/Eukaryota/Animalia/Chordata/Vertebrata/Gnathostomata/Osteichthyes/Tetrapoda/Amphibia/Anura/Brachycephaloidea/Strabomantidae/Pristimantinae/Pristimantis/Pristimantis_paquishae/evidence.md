@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis paquishae
       zh: Pristimantis paquishae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

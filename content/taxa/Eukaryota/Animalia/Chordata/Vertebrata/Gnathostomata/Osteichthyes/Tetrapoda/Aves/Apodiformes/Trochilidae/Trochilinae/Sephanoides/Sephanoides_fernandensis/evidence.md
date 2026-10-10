@@ -9,7 +9,6 @@ records:
     name:
       zh: Sephanoides fernandensis
       en: Sephanoides fernandensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

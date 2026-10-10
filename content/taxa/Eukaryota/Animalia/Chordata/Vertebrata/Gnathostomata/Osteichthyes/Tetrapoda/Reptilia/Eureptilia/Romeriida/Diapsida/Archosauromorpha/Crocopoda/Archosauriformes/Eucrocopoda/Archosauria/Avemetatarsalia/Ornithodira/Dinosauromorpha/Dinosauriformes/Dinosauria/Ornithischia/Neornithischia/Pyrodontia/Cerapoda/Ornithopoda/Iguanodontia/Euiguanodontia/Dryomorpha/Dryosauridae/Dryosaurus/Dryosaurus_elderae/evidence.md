@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryosaurus elderae
       en: Dryosaurus elderae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Biziura delautouri
       en: Biziura delautouri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coturnix pectoralis
       en: Coturnix pectoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

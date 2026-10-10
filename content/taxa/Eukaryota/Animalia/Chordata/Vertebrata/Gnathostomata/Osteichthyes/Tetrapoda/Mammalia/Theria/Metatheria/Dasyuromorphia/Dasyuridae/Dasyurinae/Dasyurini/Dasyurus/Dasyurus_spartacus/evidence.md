@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasyurus spartacus
       en: Dasyurus spartacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

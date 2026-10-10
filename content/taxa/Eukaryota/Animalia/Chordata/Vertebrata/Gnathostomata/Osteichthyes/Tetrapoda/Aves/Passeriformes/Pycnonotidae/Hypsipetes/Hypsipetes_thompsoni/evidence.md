@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsipetes thompsoni
       en: Hypsipetes thompsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

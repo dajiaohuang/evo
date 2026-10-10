@@ -9,7 +9,6 @@ records:
     name:
       en: Mantophryne menziesi
       zh: Mantophryne menziesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

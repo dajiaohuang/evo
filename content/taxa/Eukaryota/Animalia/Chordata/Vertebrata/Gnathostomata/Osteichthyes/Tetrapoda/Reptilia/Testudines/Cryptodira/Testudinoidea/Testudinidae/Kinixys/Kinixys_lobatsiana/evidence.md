@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinixys lobatsiana
       en: Kinixys lobatsiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

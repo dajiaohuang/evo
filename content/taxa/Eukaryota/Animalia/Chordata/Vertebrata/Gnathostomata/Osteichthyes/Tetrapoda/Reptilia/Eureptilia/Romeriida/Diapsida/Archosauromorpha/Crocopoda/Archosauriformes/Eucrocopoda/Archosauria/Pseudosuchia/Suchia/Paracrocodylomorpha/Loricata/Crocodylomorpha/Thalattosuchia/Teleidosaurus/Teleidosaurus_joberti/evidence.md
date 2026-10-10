@@ -9,7 +9,6 @@ records:
     name:
       zh: Teleidosaurus joberti
       en: Teleidosaurus joberti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

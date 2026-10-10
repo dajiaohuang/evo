@@ -9,7 +9,6 @@ records:
     name:
       en: Hemiphractus elioti
       zh: Hemiphractus elioti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

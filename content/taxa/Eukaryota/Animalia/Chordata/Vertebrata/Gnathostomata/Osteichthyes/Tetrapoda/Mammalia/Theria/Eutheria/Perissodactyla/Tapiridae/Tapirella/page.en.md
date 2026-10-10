@@ -34,5 +34,5 @@ taxonomy
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introductory account; not externally expert-reviewed. Quantitative traits, complete ranges, divergence dates and current conservation assessments require separate evidence. Catalogue counts are not counts of living wild biological species.
+Source-linked introductory account;. Quantitative traits, complete ranges, divergence dates and current conservation assessments require separate evidence. Catalogue counts are not counts of living wild biological species.
 <!-- /evo:text -->

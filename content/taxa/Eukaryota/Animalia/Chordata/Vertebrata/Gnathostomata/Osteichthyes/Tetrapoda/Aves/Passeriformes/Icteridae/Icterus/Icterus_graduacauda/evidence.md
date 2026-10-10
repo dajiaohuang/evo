@@ -9,7 +9,6 @@ records:
     name:
       zh: Icterus graduacauda
       en: Icterus graduacauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

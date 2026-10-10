@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: paijmans-2017-sabertooth-mitogenomics concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: paijmans-2017-sabertooth-mitogenomics
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: paijmans-2017-sabertooth-mitogenomics @ DOI 10.1016/j.cub.2017.09.033
       referenceLinks:
         - relation: supports
           referenceId: paijmans-2017-sabertooth-mitogenomics
@@ -96,7 +90,6 @@ records:
           locator: "3330–3336.e5; Summary; Results: phylogenetic analyses of partial mitogenomes"
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

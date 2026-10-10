@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhadinella stadelmani
       en: Rhadinella stadelmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zapornia tabuensis
       en: Zapornia tabuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

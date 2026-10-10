@@ -9,7 +9,6 @@ records:
     name:
       zh: Tamiasciurus douglasii
       en: Tamiasciurus douglasii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

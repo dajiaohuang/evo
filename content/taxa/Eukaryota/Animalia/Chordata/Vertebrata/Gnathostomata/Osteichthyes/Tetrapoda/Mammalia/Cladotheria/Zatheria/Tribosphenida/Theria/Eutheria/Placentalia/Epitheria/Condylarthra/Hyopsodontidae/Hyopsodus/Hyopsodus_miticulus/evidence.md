@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyopsodus miticulus
       en: Hyopsodus miticulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

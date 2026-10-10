@@ -9,7 +9,6 @@ records:
     name:
       zh: Pygomeles trivittatus
       en: Pygomeles trivittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

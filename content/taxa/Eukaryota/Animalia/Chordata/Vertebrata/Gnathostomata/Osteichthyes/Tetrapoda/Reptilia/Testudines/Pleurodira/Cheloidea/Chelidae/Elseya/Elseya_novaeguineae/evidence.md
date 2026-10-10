@@ -9,7 +9,6 @@ records:
     name:
       zh: Elseya novaeguineae
       en: Elseya novaeguineae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

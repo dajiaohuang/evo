@@ -9,7 +9,6 @@ records:
     name:
       zh: Meniscoessus intermedius
       en: Meniscoessus intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiauchenia minima
       en: Hemiauchenia minima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

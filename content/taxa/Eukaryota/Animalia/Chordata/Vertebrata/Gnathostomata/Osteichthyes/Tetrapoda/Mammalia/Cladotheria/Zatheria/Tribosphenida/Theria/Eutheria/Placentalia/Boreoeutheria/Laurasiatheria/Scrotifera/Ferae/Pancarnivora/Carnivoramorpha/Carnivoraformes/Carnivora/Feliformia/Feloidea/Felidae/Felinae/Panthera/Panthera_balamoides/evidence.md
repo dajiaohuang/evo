@@ -9,7 +9,6 @@ records:
     name:
       zh: Panthera balamoides
       en: Panthera balamoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

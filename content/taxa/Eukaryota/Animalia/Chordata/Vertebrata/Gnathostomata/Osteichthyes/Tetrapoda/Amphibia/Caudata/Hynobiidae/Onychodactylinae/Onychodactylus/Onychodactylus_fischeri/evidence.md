@@ -9,7 +9,6 @@ records:
     name:
       en: Onychodactylus fischeri
       zh: Onychodactylus fischeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilotula flavescens
       en: Ptilotula flavescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeortyx gallica
       en: Palaeortyx gallica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

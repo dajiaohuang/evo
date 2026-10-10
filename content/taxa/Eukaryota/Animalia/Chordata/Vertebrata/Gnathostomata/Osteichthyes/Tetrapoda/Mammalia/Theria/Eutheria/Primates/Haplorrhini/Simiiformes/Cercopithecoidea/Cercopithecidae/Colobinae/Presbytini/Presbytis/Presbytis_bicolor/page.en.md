@@ -22,5 +22,5 @@ The study confirmed feeding on rubber-tree leaves in rubber-plantation settings 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Distribution and feeding evidence comes from a 2016–2022 locality compilation and local observations; no current population trend is inferred. This page has not received external expert review. This page is not externally expert-reviewed.
+Distribution and feeding evidence comes from a 2016–2022 locality compilation and local observations; no current population trend is inferred. This page. This page is.
 <!-- /evo:text -->

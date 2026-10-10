@@ -9,7 +9,6 @@ records:
     name:
       zh: Allokotosauria
       en: Allokotosauria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

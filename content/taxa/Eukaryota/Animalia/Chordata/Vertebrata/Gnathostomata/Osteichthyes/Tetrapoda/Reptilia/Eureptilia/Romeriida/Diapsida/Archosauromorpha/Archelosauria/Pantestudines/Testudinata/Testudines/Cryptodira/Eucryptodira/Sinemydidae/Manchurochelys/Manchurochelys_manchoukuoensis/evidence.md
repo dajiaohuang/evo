@@ -9,7 +9,6 @@ records:
     name:
       zh: Manchurochelys manchoukuoensis
       en: Manchurochelys manchoukuoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

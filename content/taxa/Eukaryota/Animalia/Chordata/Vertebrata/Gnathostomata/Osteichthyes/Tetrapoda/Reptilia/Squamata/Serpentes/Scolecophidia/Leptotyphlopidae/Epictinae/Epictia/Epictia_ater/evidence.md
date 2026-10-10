@@ -9,7 +9,6 @@ records:
     name:
       zh: Epictia ater
       en: Epictia ater
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

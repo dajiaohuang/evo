@@ -9,7 +9,6 @@ records:
     name:
       zh: Lerista vanderduysi
       en: Lerista vanderduysi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

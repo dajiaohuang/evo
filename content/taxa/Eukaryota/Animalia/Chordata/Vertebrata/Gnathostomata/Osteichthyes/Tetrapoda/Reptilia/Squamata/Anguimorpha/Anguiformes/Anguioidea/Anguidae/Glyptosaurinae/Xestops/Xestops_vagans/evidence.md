@@ -9,7 +9,6 @@ records:
     name:
       zh: Xestops vagans
       en: Xestops vagans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

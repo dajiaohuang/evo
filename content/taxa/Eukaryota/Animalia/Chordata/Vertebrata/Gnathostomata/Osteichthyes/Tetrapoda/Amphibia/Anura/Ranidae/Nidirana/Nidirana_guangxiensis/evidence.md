@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana guangxiensis
       zh: Nidirana guangxiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

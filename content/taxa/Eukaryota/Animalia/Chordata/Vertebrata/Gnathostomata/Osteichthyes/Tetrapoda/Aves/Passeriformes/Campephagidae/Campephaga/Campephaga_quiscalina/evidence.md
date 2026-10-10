@@ -9,7 +9,6 @@ records:
     name:
       zh: Campephaga quiscalina
       en: Campephaga quiscalina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

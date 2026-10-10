@@ -9,7 +9,6 @@ records:
     name:
       zh: Threskiornis
       en: Threskiornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

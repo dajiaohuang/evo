@@ -9,7 +9,6 @@ records:
     name:
       en: Cochranella euhystrix
       zh: Cochranella euhystrix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

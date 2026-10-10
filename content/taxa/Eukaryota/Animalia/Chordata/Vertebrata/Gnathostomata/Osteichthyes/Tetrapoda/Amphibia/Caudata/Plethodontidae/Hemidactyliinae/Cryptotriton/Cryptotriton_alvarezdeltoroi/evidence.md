@@ -9,7 +9,6 @@ records:
     name:
       en: Cryptotriton alvarezdeltoroi
       zh: Cryptotriton alvarezdeltoroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Echinotriton andersoni
       zh: Echinotriton andersoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

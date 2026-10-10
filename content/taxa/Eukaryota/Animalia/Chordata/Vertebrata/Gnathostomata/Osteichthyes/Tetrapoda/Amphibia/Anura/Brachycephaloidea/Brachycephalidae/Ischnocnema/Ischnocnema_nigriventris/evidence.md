@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema nigriventris
       zh: Ischnocnema nigriventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

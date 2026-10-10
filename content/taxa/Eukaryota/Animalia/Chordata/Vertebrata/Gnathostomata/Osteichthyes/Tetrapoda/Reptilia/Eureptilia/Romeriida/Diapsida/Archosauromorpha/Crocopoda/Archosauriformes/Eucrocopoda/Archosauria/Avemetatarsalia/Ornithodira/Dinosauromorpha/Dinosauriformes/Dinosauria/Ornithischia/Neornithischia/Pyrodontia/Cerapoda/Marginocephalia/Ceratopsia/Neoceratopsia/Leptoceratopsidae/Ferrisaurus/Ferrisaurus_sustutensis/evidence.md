@@ -9,7 +9,6 @@ records:
     name:
       zh: Ferrisaurus sustutensis
       en: Ferrisaurus sustutensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

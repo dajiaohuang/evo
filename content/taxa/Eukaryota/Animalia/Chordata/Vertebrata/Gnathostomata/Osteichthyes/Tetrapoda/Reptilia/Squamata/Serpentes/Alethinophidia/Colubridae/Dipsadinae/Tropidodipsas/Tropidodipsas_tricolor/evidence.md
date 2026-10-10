@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidodipsas tricolor
       en: Tropidodipsas tricolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

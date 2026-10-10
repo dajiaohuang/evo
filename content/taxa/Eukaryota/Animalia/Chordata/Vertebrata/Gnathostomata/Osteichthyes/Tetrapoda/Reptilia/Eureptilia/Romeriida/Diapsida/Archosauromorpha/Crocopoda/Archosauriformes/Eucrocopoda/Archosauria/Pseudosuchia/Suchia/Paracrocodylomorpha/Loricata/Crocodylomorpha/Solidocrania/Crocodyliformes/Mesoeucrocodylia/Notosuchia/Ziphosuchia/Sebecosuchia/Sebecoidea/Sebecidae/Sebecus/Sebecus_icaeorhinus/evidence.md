@@ -9,7 +9,6 @@ records:
     name:
       zh: Sebecus icaeorhinus
       en: Sebecus icaeorhinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

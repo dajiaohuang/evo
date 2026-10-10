@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesophylla macconnelli
       en: Mesophylla macconnelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ocreatus
       zh: Pristimantis ocreatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

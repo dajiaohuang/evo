@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis fortunensis
       en: Anolis fortunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Climacoceras africanus
       en: Climacoceras africanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

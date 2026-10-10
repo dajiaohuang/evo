@@ -9,7 +9,6 @@ records:
     name:
       zh: Montanamus taranae
       en: Montanamus taranae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

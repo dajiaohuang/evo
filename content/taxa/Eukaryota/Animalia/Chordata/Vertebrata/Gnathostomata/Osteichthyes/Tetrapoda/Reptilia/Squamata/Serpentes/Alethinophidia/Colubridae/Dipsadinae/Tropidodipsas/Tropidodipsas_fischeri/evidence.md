@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidodipsas fischeri
       en: Tropidodipsas fischeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

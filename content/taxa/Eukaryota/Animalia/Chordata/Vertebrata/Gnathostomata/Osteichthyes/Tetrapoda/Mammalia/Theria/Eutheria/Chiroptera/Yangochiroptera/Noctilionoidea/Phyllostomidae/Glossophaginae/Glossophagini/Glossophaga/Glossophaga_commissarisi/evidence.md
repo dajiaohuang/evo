@@ -9,7 +9,6 @@ records:
     name:
       zh: Glossophaga commissarisi
       en: Glossophaga commissarisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

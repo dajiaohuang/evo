@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus dispersus
       zh: Hyloscirtus dispersus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -99,9 +99,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: dalla-vecchia-2006-bobosaurus
           relation: supports

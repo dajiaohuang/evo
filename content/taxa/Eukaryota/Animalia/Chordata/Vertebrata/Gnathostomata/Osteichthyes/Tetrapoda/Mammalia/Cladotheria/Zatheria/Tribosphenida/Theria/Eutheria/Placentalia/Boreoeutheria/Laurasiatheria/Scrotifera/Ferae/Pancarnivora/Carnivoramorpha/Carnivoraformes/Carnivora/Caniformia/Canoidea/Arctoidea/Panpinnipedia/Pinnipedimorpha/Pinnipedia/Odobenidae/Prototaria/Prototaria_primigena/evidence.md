@@ -9,7 +9,6 @@ records:
     name:
       zh: Prototaria primigena
       en: Prototaria primigena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

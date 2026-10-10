@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraenhydrocyon wallovianus
       en: Paraenhydrocyon wallovianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

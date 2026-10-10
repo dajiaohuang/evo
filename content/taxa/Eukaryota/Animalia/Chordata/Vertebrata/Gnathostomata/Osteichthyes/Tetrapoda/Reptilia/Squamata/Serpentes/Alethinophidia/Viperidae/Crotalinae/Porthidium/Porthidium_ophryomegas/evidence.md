@@ -9,7 +9,6 @@ records:
     name:
       zh: Porthidium ophryomegas
       en: Porthidium ophryomegas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

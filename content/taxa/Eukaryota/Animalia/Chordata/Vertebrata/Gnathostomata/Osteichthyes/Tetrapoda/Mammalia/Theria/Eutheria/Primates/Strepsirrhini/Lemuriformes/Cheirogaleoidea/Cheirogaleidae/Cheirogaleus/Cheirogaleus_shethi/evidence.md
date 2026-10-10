@@ -9,7 +9,6 @@ records:
     name:
       zh: 安卡拉纳侏狐猴
       en: Ankarana Dwarf Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

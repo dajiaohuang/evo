@@ -9,7 +9,6 @@ records:
     name:
       zh: Vidua paradisaea
       en: Vidua paradisaea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

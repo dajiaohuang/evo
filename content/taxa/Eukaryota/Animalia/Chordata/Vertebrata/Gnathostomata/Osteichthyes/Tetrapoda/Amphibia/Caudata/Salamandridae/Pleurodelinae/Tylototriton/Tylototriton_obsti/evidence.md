@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton obsti
       zh: Tylototriton obsti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

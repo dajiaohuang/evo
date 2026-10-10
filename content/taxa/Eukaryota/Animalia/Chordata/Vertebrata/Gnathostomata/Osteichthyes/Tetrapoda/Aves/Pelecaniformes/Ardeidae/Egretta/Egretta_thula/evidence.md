@@ -9,7 +9,6 @@ records:
     name:
       zh: Egretta thula
       en: Egretta thula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

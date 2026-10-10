@@ -45,8 +45,8 @@ This batch’s Caretta route includes 1 historical life-history accounts; start 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked morphology and methods guide; no external expert review and no complete species dossier. Collection localities, collection dates, geography, diet, behavior, body size, reproduction, population trends and current conservation status remain unknown here. No global first or last appearance, ancestry or fossil range is asserted. These study characters do not describe variation across every age or population.
-This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+Source-linked morphology and methods guide; Collection localities, collection dates, geography, diet, behavior, body size, reproduction, population trends and current conservation status remain unknown here. No global first or last appearance, ancestry or fossil range is asserted. These study characters do not describe variation across every age or population.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 <!-- /evo:text -->

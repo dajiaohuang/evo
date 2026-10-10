@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops assamensis
       zh: Amolops assamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

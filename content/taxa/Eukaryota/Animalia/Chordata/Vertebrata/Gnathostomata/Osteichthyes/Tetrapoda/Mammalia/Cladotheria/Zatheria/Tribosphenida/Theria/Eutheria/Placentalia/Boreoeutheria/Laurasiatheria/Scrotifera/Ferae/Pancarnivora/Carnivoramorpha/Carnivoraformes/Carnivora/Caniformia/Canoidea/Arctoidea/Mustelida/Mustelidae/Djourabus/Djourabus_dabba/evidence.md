@@ -9,7 +9,6 @@ records:
     name:
       zh: Djourabus dabba
       en: Djourabus dabba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

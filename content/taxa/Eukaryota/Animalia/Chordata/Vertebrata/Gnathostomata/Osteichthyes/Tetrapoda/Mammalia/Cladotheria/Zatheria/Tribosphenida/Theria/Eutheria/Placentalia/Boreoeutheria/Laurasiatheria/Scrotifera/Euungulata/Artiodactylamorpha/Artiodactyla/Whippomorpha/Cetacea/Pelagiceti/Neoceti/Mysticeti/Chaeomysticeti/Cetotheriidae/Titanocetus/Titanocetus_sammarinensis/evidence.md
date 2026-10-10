@@ -9,7 +9,6 @@ records:
     name:
       zh: Titanocetus sammarinensis
       en: Titanocetus sammarinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

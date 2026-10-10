@@ -9,7 +9,6 @@ records:
     name:
       zh: Shamolagus grangeri
       en: Shamolagus grangeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

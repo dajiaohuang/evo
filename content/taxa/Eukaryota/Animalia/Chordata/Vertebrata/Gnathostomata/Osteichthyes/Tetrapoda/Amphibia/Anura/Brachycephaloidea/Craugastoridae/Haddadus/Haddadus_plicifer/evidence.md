@@ -9,7 +9,6 @@ records:
     name:
       en: Haddadus plicifer
       zh: Haddadus plicifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

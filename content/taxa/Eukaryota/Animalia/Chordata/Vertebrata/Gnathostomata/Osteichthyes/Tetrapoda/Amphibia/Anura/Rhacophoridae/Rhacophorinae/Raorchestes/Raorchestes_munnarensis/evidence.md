@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes munnarensis
       zh: Raorchestes munnarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

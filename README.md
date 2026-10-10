@@ -17,7 +17,7 @@ GitHub Pages 提供无需 JavaScript 的中英文静态阅读版，包含实体�
 Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它同时维护两种覆盖范围，并在界面中明确区分：
 
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。24 个富内容包直接拥有 1,819,973 种；余下 363,160 种由 7 个静态命名资源包提供。完整目录和这些资源通过 Web/静态数据资源提供；Android/iOS App 永远只打包 `native-core` 核心内容，不内置完整名录或全量数据包。第 32 个 `other-eukaryotes` 分区在本固定发布版中为零记录边界，不伪造空内容。
-- 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。当前已无 `generated-scaffold` 或 `structured`：23 个包为 `source-linked`，奇蹄目为唯一的 `curated-draft`；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
+- 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。各条记录保留来源、引用定位、适用范围和内容缺口。
 
 当前发布的数据规模、版本号和校验结果以 [data/manifest.json](data/manifest.json) 为准。完整版本更新记录统一维护在 [data/CHANGELOG.md](data/CHANGELOG.md)；README 不再重复逐版本说明。
 
@@ -38,8 +38,8 @@ Current release versions, counts, and checksums are authoritative in [data/manif
 ### 物种、生命树与内容包
 
 - 搜索完整的 `COL26.8` 接受种及解析名称，并在内部页面查看固定版本的祖先链和直接子级。
-- 查看 403 个策展导航实体、24 个富内容资源包及其实际科学成熟度。
-- 逐包访问 7 个静态命名资源包：Web 可下载 ZIP 或显式保存离线副本，Android/iOS 安装包已包含完全相同的 363,160 条记录。
+- 查看策展导航实体、24 个富内容资源包及其来源和资料局限；当前数量以数据清单为准。
+- 逐包访问 7 个静态命名资源包：Web 可下载 ZIP 或显式保存离线副本。Android/iOS 使用 `native-core` 核心内容包。
 - 在导航树、范围、径向树和校准证据之间切换；追踪谱系、折叠支系并导出 Newick/Nexus。
 - 将命名学位置、导航节点、系统发育假说、化石首现和分子钟分化时间作为不同类型的信息阅读。
 
@@ -70,14 +70,14 @@ Android/iOS 和交互式 Web 共享 `src/` 中的客户端与数据协议。GitH
 | --- | --- | --- | --- |
 | GitHub Pages | `npm run pages:build` → `dist-pages/` | 中英文 HTML、13 帧轻量地图、来源元数据；目录筛选与地图缩放为可选增强 | 无 JavaScript 可阅读和导航；研究工作区、完整地形与 PWA 属于完整应用 |
 | Interactive Web / PWA | `npm run build` → `dist/` | 完整客户端、Service Worker 与按需数据缓存 | 可独立托管；GitHub Pages 不部署此产物 |
-| Android | `android/` + Capacitor 8 | API 24+，完整离线数据、离线 SQL、系统返回键和深链 | CI 生成可安装的调试 APK；商店 AAB 签名与发布另行配置 |
-| iOS / iPadOS | `ios/` + Capacitor 8 / Swift Package Manager | iOS 15+，完整离线数据、离线 SQL、安全区和深链 | macOS CI 执行模拟器应用测试并生成未签名设备 Archive；安装到真机需 Apple 签名 |
+| Android | `android/` + Capacitor 8 | API 24+，核心离线资料、系统返回键和深链 | 手动触发 CI 生成调试 APK；商店 AAB 签名与发布另行配置 |
+| iOS / iPadOS | `ios/` + Capacitor 8 / Swift Package Manager | iOS 15+，核心离线资料、安全区和深链 | 手动触发 macOS CI 测试模拟器应用并生成未签名设备 Archive；安装到真机需 Apple 签名 |
 
 移动端不是把线上网页作为远程首页打开的空壳：HTML、CSS、JavaScript、图标和当前不可变科学数据发布版都进入原生包。Android 与 iOS 使用和 Web 完全相同的路由、资源包注册表、化石分片、CAO2024 地图帧与 COL 名录；“数据”页直接报告内置文件数和体积，不会再把相同数据重复写入 WebView 缓存。详细工作流见 [`docs/mobile-apps.md`](docs/mobile-apps.md)。
 
 ## 快速开始
 
-需要 Node.js 22+。
+使用 Node.js 22.x，与 CI 配置一致。
 
 ```bash
 npm ci
@@ -97,7 +97,13 @@ npm run dev
 npm run verify
 ```
 
-`verify` 包含 ESLint、Vitest、注册表与资源包投影一致性、数据/主张/翻译/来源/审查门禁、TypeScript、生产 PWA 构建、体积预算、静态页面 smoke test、完整移动数据构建、三浏览器 Playwright 路由和 axe 可访问性检查。
+`verify` 包含 ESLint、基础 Vitest、注册表与资源包投影一致性、数据/主张/翻译/来源校验、TypeScript、生产 PWA 构建、体积预算、静态页面 smoke test、移动数据构建，以及实际页面调用和可访问性的浏览器测试。
+
+来源导入器的重放测试通过 `npm run test:authoring` 手动运行；修改巴西植物批次生成器或输入时，另行运行 `npm run data:brazil-flora-dossiers:check`。物种资料队列用于内容维护，不进入应用运行时；修改其输入时运行 `npm run data:species-queue:build` 和 `npm run data:species-queue:check`。这两项全量重放不进入日常 CI，常规数据校验仍检查实际文件和来源完整性。
+
+`npm run source:size` 手动报告源资料体积；发布限制由 Web、Pages 和移动产物的实际体积检查执行。
+
+完整 Web 资料只保留当前一版，并报告实际体积；Pages 阅读版、预览产物、应用代码和静态正文分别执行自己的交付预算。
 
 ## 构建移动端
 
@@ -139,7 +145,7 @@ data/
 ├── evidence/              # typed claims、中文陈述与置信度理由
 ├── fossils/               # 规范化 PBDB 教学样本
 ├── navigation/            # Atlas 导航本体
-├── packages/              # 24 个静态资源包投影与 review.json
+├── packages/              # 静态资源包投影
 ├── paleogeography/        # CAO2024 provenance、帧清单与几何
 ├── ranges/                # 与叙事分离的范围证据账本
 ├── registry/              # 实体、包注册表和物种归属
@@ -191,7 +197,6 @@ npm run data:split:geojson -- --input staging/world.geojson
 - 当前跨图谱 PBDB 数据是 13,600 行非随机、有界的时期分层样本，不能用记录数推断真实丰富度、缺失或全球首现。24 个包另有各自的定向 `base_id` 查询账本；“完整”仅指记录时该项查询返回的所有页，子查询之间允许重叠，141 个不满足名称、等级、父链、概念或固定边界条件的目标不会被伪装成零记录。
 - 生命树总览是教学导航本体，不是唯一系统发育假说。包内拓扑、分化时间、形态和地层出现必须分别标注。
 - first/last appearance 受采样控制，不等于精确起源/灭绝；分子钟后验不等于化石出现。
-- `automatedReviewStatus: passed` 只说明工程门禁通过，不等于维护者科学审查，更不等于外部专家同行评议。
 - canonical 范围账本已无 `legacy-display`：有足够证据的记录标明其真实样本、地层、区域或模型边界，证据不足的端点明确 withheld；两者都不冒充全球 FAD/LAD。
 
 ## 维护资源包
@@ -201,9 +206,9 @@ npm run data:split:geojson -- --input staging/world.geojson
 1. 在共享 canonical 文件中确认实体概念、来源、范围和主张；不要直接手改生成投影。
 2. 每条可见科学陈述连接到合适角色的一手研究或系统综述，并提供页码、图版、表格或章节 locator。
 3. 明确标本观察、功能推断、系统模型、生态解释和全球范围之间的边界。
-4. 运行投影、清单和完整 `npm run verify`；维护者 review 与外部专家 review 保持独立。
+4. 运行投影、清单和完整 `npm run verify`，检查来源定位、引用闭合与实际页面调用。
 
-详见 [`DATA_PACKAGE_AUTHORING.md`](DATA_PACKAGE_AUTHORING.md)、[`SCIENTIFIC_REVIEW.md`](SCIENTIFIC_REVIEW.md) 和 [`docs/review-workflow.md`](docs/review-workflow.md)。
+详见 [`DATA_PACKAGE_AUTHORING.md`](DATA_PACKAGE_AUTHORING.md) 和 [`物种档案内容标准`](docs/species-dossier-standard.md)。
 
 ## 参与贡献
 
@@ -225,6 +230,6 @@ Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏�
 
 ## English summary
 
-Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. It synchronizes geological time, CAO2024 geometry and typed observation layers, PaleoDEM surfaces, bounded fossil samples, a curated navigation tree and claim-level evidence without presenting model output as direct observation. The pinned COL26.8 registry routes every strictly accepted species to one resource owner; that is complete release-scoped nomenclature, not a claim that every species has a prose dossier, media, fossils, ecology or expert review. Android and iOS share the Capacitor client and ship only the selected `native-core` content; they never bundle the full catalogue or full-data packages. The complete catalogue and other static resources stay in the Web delivery, while the GitHub Pages reading edition remains `web-light`. No account, analytics SDK, private API key, database or application server is required. Current versions, counts and checksums are recorded in [`data/manifest.json`](data/manifest.json), and all release notes are kept in [`data/CHANGELOG.md`](data/CHANGELOG.md).
+Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. It synchronizes geological time, CAO2024 geometry and typed observation layers, PaleoDEM surfaces, bounded fossil samples, a curated navigation tree and claim-level evidence without presenting model output as direct observation. The pinned COL26.8 registry routes every strictly accepted species to one resource owner; that is complete release-scoped nomenclature, not a claim that every species has a prose dossier, media, fossils or ecology. Android and iOS share the Capacitor client and ship only the selected `native-core` content; they never bundle the full catalogue or full-data packages. The complete catalogue and other static resources stay in the Web delivery, while the GitHub Pages reading edition remains `web-light`. No account, analytics SDK, private API key, database or application server is required. Current versions, counts and checksums are recorded in [`data/manifest.json`](data/manifest.json), and all release notes are kept in [`data/CHANGELOG.md`](data/CHANGELOG.md).
 
-GitHub Pages is a separate bilingual reading edition with 13 lightweight paleogeography maps and optional zoom/pan controls built into dist-pages/. It retains evidence documents and source metadata without shipping the interactive runtime or scientific shards. Android CI produces a debug APK; iOS CI runs hosted simulator tests and produces an unsigned device archive requiring Apple signing for installation. Canonical scientific data is preserved.
+GitHub Pages is a separate bilingual reading edition with 13 lightweight paleogeography maps and optional zoom/pan controls built into dist-pages/. It retains evidence documents and source metadata without shipping the interactive runtime or scientific shards. Manually triggered Android CI produces a debug APK; manually triggered iOS CI runs hosted simulator tests and produces an unsigned device archive requiring Apple signing for installation. Both package the core offline edition. Canonical scientific data is preserved.

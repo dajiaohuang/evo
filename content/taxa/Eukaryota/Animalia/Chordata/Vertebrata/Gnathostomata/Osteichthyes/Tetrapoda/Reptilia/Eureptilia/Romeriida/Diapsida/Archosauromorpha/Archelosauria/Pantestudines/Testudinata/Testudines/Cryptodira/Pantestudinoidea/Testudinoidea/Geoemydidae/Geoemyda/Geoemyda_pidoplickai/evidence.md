@@ -9,7 +9,6 @@ records:
     name:
       zh: Geoemyda pidoplickai
       en: Geoemyda pidoplickai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

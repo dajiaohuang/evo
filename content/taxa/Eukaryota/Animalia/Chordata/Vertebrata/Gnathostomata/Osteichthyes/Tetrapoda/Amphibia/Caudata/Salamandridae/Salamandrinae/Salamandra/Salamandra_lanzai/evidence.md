@@ -9,7 +9,6 @@ records:
     name:
       en: Salamandra lanzai
       zh: Salamandra lanzai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

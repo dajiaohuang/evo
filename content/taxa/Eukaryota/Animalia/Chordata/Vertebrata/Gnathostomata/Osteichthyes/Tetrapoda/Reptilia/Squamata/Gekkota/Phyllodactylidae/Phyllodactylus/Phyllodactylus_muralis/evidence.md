@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus muralis
       en: Phyllodactylus muralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

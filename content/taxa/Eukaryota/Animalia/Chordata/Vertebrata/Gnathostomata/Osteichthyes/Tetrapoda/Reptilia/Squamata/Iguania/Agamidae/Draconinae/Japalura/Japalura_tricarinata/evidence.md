@@ -9,7 +9,6 @@ records:
     name:
       zh: Japalura tricarinata
       en: Japalura tricarinata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

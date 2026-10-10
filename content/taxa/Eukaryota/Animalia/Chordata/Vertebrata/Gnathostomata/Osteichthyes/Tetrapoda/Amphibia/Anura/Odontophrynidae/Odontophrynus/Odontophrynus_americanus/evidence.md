@@ -9,7 +9,6 @@ records:
     name:
       en: Odontophrynus americanus
       zh: Odontophrynus americanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

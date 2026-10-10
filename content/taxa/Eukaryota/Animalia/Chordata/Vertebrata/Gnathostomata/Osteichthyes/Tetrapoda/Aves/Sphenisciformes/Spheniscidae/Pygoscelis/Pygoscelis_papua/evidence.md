@@ -10,7 +10,6 @@ records:
     name:
       en: Gentoo Penguin
       zh: 巴布亚企鹅
-    reviewStatus: source-linked
     sections:
       - topic: researchScope
         sourceIds:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Diploglossus delasagra
       en: Diploglossus delasagra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

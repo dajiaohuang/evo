@@ -9,7 +9,6 @@ records:
     name:
       zh: Panuridae
       en: Panuridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

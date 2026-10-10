@@ -9,7 +9,6 @@ records:
     name:
       zh: Lythronax argestes
       en: Lythronax argestes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

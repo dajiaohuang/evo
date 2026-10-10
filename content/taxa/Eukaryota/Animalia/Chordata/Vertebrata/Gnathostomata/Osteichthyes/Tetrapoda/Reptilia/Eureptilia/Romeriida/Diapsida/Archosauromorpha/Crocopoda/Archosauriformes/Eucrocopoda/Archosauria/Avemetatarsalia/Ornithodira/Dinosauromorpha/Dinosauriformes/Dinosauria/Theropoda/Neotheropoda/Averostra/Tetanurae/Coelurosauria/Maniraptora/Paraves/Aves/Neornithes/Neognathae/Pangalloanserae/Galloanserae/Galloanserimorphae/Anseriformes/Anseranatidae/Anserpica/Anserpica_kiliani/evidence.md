@@ -9,7 +9,6 @@ records:
     name:
       zh: Anserpica kiliani
       en: Anserpica kiliani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

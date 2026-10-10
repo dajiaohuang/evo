@@ -9,7 +9,6 @@ records:
     name:
       zh: Calotes versicolor
       en: Calotes versicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

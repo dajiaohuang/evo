@@ -9,7 +9,6 @@ records:
     name:
       en: Philautus surdus
       zh: Philautus surdus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aulolithomys bounites
       en: Aulolithomys bounites
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

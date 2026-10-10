@@ -9,7 +9,6 @@ records:
     name:
       zh: Teleosaurus
       en: Teleosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

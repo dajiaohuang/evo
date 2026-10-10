@@ -9,7 +9,6 @@ records:
     name:
       en: Nanohyla annamensis
       zh: Nanohyla annamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

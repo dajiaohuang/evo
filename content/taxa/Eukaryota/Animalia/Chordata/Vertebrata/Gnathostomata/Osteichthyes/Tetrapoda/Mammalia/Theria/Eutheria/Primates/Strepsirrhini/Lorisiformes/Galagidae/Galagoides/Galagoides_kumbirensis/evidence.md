@@ -9,7 +9,6 @@ records:
     name:
       zh: 安哥拉小婴猴
       en: Angolan Dwarf Galago
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

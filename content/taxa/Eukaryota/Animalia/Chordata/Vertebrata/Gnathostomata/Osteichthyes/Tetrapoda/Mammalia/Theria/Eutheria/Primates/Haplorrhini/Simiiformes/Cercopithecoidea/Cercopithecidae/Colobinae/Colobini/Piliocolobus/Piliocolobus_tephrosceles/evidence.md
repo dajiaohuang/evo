@@ -9,7 +9,6 @@ records:
     name:
       en: Ashy Red Colobus
       zh: 灰红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

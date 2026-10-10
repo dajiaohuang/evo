@@ -9,7 +9,6 @@ records:
     name:
       zh: Geotrygon saphirina
       en: Geotrygon saphirina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

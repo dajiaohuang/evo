@@ -9,7 +9,6 @@ records:
     name:
       zh: Notosyodon gusevi
       en: Notosyodon gusevi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

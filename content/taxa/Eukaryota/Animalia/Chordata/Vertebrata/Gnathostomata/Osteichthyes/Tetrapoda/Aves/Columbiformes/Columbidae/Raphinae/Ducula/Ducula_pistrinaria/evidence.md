@@ -9,7 +9,6 @@ records:
     name:
       zh: Ducula pistrinaria
       en: Ducula pistrinaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

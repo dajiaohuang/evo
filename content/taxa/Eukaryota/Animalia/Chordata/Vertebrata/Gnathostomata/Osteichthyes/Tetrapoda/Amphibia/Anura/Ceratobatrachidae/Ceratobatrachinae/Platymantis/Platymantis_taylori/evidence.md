@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis taylori
       zh: Platymantis taylori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

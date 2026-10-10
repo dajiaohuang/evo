@@ -9,7 +9,6 @@ records:
     name:
       zh: Mandagomphodon hirschsoni
       en: Mandagomphodon hirschsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

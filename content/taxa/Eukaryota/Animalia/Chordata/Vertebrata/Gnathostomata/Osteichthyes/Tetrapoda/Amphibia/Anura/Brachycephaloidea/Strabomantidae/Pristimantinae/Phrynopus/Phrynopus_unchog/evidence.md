@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus unchog
       zh: Phrynopus unchog
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -28,5 +28,5 @@ Kupsch 等（2014）在 2011 年雨季至旱季过渡期观察两群：一群可
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-生态结论来自 Quebrada Blanco 一处地点、2011 年一个季节窗口和两群动物；旧属名与固定 COL 属名均保留在来源上下文中。MDD v2.5 的 Saguinus 亚属记录与 COL ID 未精确联接。尚未外审。 尚未经过外部领域专家评审。
+生态结论来自 Quebrada Blanco 一处地点、2011 年一个季节窗口和两群动物；旧属名与固定 COL 属名均保留在来源上下文中。MDD v2.5 的 Saguinus 亚属记录与 COL ID 未精确联接。尚未外审。 。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Metallura baroni
       en: Metallura baroni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

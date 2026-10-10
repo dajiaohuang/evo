@@ -9,7 +9,6 @@ records:
     name:
       zh: Lerista bougainvillii
       en: Lerista bougainvillii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

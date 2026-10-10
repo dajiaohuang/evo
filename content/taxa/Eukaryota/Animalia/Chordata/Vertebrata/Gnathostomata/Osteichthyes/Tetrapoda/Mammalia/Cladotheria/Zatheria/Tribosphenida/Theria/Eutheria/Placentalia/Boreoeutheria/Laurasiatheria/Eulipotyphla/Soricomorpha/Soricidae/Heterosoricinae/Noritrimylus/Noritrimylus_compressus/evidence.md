@@ -9,7 +9,6 @@ records:
     name:
       zh: Noritrimylus compressus
       en: Noritrimylus compressus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

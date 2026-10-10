@@ -9,7 +9,6 @@ records:
     name:
       zh: Zapus hudsonius
       en: Zapus hudsonius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crithagra atrogularis
       en: Crithagra atrogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

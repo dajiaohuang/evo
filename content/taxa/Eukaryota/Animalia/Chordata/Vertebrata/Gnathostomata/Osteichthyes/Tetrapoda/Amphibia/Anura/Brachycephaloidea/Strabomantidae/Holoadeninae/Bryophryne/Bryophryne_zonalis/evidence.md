@@ -9,7 +9,6 @@ records:
     name:
       en: Bryophryne zonalis
       zh: Bryophryne zonalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

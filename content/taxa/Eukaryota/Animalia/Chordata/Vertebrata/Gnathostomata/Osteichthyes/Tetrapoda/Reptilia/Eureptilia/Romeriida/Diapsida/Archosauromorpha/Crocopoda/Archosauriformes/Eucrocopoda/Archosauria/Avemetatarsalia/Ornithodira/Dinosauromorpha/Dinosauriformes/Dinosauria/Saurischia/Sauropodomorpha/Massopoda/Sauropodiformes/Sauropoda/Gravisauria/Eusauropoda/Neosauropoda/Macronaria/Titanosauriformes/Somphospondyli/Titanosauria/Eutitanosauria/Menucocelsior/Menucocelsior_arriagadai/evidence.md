@@ -9,7 +9,6 @@ records:
     name:
       zh: Menucocelsior arriagadai
       en: Menucocelsior arriagadai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

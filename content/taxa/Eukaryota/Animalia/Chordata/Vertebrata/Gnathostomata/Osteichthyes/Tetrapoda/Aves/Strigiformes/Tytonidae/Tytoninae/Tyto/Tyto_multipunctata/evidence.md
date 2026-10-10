@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyto multipunctata
       en: Tyto multipunctata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

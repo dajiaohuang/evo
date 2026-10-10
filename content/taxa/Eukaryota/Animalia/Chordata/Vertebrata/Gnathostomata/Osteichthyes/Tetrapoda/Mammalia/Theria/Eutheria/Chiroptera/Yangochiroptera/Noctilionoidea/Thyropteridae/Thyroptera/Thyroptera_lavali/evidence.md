@@ -9,7 +9,6 @@ records:
     name:
       zh: Thyroptera lavali
       en: Thyroptera lavali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

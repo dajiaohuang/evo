@@ -9,7 +9,6 @@ records:
     name:
       zh: 白耳绢毛猴
       en: White-eared Titi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: typeMaterial

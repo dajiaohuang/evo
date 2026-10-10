@@ -9,7 +9,6 @@ records:
     name:
       zh: Orienspterodon dahkoensis
       en: Orienspterodon dahkoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

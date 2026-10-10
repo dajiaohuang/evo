@@ -9,7 +9,6 @@ records:
     name:
       zh: Ivanantonia efremovi
       en: Ivanantonia efremovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

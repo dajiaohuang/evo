@@ -9,7 +9,6 @@ records:
     name:
       zh: Epomophorus grandis
       en: Epomophorus grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

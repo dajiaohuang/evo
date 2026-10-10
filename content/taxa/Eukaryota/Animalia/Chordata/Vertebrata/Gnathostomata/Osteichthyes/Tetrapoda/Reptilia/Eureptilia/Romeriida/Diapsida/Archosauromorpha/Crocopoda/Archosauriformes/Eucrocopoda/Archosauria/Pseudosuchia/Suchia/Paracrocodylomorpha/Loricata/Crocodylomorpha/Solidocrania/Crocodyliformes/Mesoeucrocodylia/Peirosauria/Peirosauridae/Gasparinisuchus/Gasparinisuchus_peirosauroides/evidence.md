@@ -9,7 +9,6 @@ records:
     name:
       zh: Gasparinisuchus peirosauroides
       en: Gasparinisuchus peirosauroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

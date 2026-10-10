@@ -9,7 +9,6 @@ records:
     name:
       zh: Miosorex grivensis
       en: Miosorex grivensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

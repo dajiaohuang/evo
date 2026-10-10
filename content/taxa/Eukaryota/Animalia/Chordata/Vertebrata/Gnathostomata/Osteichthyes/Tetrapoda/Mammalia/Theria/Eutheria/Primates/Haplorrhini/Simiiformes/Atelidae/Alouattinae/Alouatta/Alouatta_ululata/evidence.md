@@ -9,7 +9,6 @@ records:
     name:
       zh: 马拉尼昂红手吼猴
       en: Maranhão Red-handed Howler
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: distribution

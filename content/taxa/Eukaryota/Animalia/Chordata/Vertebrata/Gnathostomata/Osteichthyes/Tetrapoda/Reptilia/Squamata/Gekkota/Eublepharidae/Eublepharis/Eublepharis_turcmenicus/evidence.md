@@ -9,7 +9,6 @@ records:
     name:
       zh: Eublepharis turcmenicus
       en: Eublepharis turcmenicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

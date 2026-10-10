@@ -9,7 +9,6 @@ records:
     name:
       en: Hypogeophis pti
       zh: Hypogeophis pti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nautilornis proavitus
       en: Nautilornis proavitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

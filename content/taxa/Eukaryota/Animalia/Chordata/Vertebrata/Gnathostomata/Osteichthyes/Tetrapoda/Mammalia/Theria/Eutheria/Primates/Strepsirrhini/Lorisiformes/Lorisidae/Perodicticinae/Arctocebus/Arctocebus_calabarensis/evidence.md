@@ -10,7 +10,6 @@ records:
     name:
       en: Calabar Angwantibo
       zh: 卡拉巴尔熊猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella macrops
       zh: Leptobrachella macrops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

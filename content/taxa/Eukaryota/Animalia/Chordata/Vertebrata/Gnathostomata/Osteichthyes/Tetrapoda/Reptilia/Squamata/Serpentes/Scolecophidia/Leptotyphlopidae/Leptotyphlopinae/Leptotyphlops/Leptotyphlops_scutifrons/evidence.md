@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptotyphlops scutifrons
       en: Leptotyphlops scutifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

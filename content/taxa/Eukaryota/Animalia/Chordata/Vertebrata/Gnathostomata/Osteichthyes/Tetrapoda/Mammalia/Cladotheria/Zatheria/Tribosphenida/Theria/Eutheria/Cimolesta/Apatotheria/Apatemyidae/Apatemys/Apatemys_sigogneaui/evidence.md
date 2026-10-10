@@ -9,7 +9,6 @@ records:
     name:
       zh: Apatemys sigogneaui
       en: Apatemys sigogneaui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

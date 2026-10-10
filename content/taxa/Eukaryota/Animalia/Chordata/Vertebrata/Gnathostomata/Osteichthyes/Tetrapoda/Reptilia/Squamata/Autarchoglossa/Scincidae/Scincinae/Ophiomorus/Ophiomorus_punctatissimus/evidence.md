@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophiomorus punctatissimus
       en: Ophiomorus punctatissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

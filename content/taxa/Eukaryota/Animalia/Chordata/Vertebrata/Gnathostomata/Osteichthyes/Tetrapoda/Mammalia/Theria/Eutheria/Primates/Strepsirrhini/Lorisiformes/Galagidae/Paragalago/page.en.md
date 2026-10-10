@@ -22,5 +22,5 @@ The genus-level classification and species-level field evidence answer different
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked bilingual draft; not externally expert-reviewed.
+Source-linked bilingual draft;.
 <!-- /evo:text -->

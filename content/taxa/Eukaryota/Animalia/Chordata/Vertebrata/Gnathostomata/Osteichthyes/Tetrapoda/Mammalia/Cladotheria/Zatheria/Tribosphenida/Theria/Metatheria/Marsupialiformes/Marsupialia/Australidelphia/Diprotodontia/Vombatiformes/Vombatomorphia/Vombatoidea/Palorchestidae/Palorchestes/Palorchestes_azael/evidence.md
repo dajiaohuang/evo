@@ -9,7 +9,6 @@ records:
     name:
       zh: Palorchestes azael
       en: Palorchestes azael
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

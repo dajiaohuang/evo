@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidoblepharis festae
       en: Lepidoblepharis festae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

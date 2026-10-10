@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus calchaqui
       en: Liolaemus calchaqui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

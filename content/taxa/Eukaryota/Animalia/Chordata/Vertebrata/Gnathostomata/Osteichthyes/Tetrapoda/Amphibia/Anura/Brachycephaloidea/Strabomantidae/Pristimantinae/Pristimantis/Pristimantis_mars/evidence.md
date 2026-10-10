@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis mars
       zh: Pristimantis mars
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

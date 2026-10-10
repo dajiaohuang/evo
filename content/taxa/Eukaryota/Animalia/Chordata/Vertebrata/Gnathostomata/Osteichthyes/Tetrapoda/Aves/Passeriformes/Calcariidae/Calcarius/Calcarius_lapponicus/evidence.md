@@ -9,7 +9,6 @@ records:
     name:
       zh: Calcarius lapponicus
       en: Calcarius lapponicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

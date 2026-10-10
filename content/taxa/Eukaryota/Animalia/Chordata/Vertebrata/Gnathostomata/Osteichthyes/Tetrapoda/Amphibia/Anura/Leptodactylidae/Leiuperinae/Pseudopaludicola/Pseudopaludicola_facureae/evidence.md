@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudopaludicola facureae
       zh: Pseudopaludicola facureae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

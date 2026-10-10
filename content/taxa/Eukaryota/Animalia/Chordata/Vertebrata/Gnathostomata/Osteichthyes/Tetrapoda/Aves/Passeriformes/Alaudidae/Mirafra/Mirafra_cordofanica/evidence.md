@@ -9,7 +9,6 @@ records:
     name:
       zh: Mirafra cordofanica
       en: Mirafra cordofanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

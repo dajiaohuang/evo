@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelusios cupulatta
       en: Pelusios cupulatta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

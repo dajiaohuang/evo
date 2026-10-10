@@ -9,7 +9,6 @@ records:
     name:
       zh: Aktautitan hippopotamopus
       en: Aktautitan hippopotamopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

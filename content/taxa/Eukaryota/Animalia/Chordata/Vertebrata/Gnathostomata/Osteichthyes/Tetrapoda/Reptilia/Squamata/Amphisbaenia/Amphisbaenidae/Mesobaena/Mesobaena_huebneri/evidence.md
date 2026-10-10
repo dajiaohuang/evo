@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesobaena huebneri
       en: Mesobaena huebneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

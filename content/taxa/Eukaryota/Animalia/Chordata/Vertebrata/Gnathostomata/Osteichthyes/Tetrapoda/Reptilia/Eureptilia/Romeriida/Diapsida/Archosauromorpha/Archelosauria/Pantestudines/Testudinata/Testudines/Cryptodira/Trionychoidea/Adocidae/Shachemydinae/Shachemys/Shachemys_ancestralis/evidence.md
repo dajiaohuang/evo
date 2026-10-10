@@ -9,7 +9,6 @@ records:
     name:
       zh: Shachemys ancestralis
       en: Shachemys ancestralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

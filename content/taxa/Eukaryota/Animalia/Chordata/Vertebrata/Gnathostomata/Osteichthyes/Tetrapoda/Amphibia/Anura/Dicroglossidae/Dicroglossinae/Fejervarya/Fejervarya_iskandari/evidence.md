@@ -9,7 +9,6 @@ records:
     name:
       en: Fejervarya iskandari
       zh: Fejervarya iskandari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

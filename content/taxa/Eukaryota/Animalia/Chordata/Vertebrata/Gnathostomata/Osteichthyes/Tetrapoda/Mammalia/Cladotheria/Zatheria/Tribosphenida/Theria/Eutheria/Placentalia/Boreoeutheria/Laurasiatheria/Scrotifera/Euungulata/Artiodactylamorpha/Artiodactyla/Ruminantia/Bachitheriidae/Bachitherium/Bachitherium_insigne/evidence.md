@@ -9,7 +9,6 @@ records:
     name:
       zh: Bachitherium insigne
       en: Bachitherium insigne
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

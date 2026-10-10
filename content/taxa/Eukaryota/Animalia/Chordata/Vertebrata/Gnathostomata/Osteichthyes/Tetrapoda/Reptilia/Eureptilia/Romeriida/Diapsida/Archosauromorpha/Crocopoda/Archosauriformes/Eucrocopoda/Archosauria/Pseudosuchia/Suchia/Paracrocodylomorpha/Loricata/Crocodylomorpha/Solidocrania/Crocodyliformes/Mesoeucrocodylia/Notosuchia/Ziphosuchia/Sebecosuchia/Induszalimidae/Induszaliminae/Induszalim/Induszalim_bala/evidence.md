@@ -9,7 +9,6 @@ records:
     name:
       zh: Induszalim bala
       en: Induszalim bala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

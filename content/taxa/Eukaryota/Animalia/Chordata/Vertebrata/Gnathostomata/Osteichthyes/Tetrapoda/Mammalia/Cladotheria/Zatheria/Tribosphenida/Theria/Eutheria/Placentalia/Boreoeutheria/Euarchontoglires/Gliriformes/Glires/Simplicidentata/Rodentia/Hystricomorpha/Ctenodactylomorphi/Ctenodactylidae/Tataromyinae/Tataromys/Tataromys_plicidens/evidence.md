@@ -9,7 +9,6 @@ records:
     name:
       zh: Tataromys plicidens
       en: Tataromys plicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

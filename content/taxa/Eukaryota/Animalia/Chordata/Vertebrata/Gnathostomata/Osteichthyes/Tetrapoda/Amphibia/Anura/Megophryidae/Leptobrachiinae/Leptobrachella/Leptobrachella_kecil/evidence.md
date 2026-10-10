@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella kecil
       zh: Leptobrachella kecil
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

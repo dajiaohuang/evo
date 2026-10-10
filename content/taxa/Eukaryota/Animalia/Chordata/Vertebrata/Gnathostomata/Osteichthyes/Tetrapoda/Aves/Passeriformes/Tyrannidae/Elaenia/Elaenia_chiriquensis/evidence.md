@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaenia chiriquensis
       en: Elaenia chiriquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

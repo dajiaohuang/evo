@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagioctenodon dawsonae
       en: Plagioctenodon dawsonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

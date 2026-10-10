@@ -9,7 +9,6 @@ records:
     name:
       zh: Prognathodon rapax
       en: Prognathodon rapax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

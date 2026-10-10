@@ -9,7 +9,6 @@ records:
     name:
       zh: Aondelphis talen
       en: Aondelphis talen
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

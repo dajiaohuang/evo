@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyclanorbis senegalensis
       en: Cyclanorbis senegalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

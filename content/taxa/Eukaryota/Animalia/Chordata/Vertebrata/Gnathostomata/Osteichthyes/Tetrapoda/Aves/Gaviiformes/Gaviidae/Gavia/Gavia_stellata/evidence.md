@@ -9,7 +9,6 @@ records:
     name:
       zh: Gavia stellata
       en: Gavia stellata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Equus excelsus
       en: Equus excelsus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

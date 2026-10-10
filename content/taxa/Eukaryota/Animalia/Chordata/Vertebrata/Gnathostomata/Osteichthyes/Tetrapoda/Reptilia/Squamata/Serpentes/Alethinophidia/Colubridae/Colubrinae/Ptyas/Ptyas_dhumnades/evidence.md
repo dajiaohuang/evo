@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptyas dhumnades
       en: Ptyas dhumnades
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Potamotherium miocenicum
       en: Potamotherium miocenicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

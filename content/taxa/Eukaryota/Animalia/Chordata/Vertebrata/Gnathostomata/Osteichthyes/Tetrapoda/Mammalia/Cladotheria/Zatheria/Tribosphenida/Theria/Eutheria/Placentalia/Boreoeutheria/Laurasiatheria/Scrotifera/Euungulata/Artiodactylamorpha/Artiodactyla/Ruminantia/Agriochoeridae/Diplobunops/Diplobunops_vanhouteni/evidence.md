@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplobunops vanhouteni
       en: Diplobunops vanhouteni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

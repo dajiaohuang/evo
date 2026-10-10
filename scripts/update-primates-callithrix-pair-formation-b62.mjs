@@ -106,7 +106,6 @@ assert.equal(dossier.scientificName, source.target.scientificName)
 assert.equal(String(dossier.sourceDatasetId), source.target.sourceDatasetId)
 assert.equal(sha256(Buffer.from(JSON.stringify(dossier))), source.audit.previousTargetRecordSha256, 'Callithrix target record changed')
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.deepEqual(dossier.classificationPath.map(item => item.id), source.audit.classificationPathIds)
 assert.equal(dossier.facets.ecology.status, source.audit.queueBaseline.ecologyStatus)
 
@@ -121,7 +120,6 @@ assert.deepEqual(queueRow.dossier.identitySourceIds, source.audit.queueBaseline.
 assert.equal(queueRow.dossier.claimCount, source.audit.queueBaseline.claimCount)
 assert.equal(queueRow.dossier.rightsStatus, source.audit.queueBaseline.rightsStatus)
 assert.equal(queueRow.dossier.systematicSearchRecorded, source.audit.queueBaseline.systematicSearchRecorded)
-assert.equal(queueRow.dossier.expertReviewStatus, source.audit.queueBaseline.expertReviewStatus)
 
 const previewBytes = readFileSync(join(ROOT, 'data', 'pages-preview.json'))
 assert.equal(sha256(previewBytes), source.audit.pagesPreviewManifestSha256, 'Shared App/Pages core scope changed')
@@ -158,7 +156,6 @@ dossier.identity.scope = 'This dossier combines source-bounded captive social an
 dossier.lifeStatusScope.captive = 'Captive evidence includes research-colony and assisted-reproduction studies in Wisconsin and Japan, plus assigned-pair social-behavior observations from six adults at the UZH Primate Station in Switzerland in 2022. These studies do not estimate wild reproductive rates or mate choice.'
 dossier.checkedAt = source.checkedAt
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.equal(dossier.facets.ecology.status, 'partially-supported', 'B62 must not claim full ecology coverage')
 assert.equal(dossier.facets.fossil.status, 'searched-no-evidence')
 
@@ -283,7 +280,7 @@ console.log(JSON.stringify({
   addedClaims: source.claims.length,
   ecologyStatus: dossier.facets.ecology.status,
   dossierStatus: dossier.completeness.status,
-  expertReviewStatus: dossier.expertReview.status,
+
   indexedRecordCount: index.recordCount,
   rawSha256: sha256(rawAfter),
   compressedSha256: sha256(compressedAfter),

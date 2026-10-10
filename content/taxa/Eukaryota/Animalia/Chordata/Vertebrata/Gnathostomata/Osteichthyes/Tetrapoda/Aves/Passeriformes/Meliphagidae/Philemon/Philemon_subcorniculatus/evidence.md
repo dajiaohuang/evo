@@ -9,7 +9,6 @@ records:
     name:
       zh: Philemon subcorniculatus
       en: Philemon subcorniculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

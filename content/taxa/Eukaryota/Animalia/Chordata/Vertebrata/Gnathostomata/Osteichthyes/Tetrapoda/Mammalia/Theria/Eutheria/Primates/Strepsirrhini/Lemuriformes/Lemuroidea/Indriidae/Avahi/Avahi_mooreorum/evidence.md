@@ -9,7 +9,6 @@ records:
     name:
       zh: 马苏阿拉毛狐猴
       en: Masoala Woolly Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

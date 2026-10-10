@@ -9,7 +9,6 @@ records:
     name:
       en: Siren sphagnicola
       zh: Siren sphagnicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

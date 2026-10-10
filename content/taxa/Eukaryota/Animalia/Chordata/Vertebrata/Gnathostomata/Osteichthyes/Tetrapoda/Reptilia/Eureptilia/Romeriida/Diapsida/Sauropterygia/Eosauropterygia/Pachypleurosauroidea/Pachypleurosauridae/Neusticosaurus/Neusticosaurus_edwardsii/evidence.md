@@ -9,7 +9,6 @@ records:
     name:
       zh: Neusticosaurus edwardsii
       en: Neusticosaurus edwardsii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

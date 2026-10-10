@@ -9,7 +9,6 @@ records:
     name:
       zh: Perochirus scutellatus
       en: Perochirus scutellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

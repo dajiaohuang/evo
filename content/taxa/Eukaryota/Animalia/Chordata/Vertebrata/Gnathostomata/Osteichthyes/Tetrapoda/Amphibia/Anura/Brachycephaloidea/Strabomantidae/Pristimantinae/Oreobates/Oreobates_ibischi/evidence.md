@@ -9,7 +9,6 @@ records:
     name:
       en: Oreobates ibischi
       zh: Oreobates ibischi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

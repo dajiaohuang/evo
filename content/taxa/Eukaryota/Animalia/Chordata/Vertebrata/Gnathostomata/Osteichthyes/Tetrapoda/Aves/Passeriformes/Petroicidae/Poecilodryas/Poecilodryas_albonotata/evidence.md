@@ -9,7 +9,6 @@ records:
     name:
       zh: Poecilodryas albonotata
       en: Poecilodryas albonotata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

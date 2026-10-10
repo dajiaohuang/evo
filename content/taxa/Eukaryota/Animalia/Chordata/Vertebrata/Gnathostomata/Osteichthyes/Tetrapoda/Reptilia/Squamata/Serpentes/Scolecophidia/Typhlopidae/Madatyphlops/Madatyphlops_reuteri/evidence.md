@@ -9,7 +9,6 @@ records:
     name:
       zh: Madatyphlops reuteri
       en: Madatyphlops reuteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

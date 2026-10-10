@@ -9,7 +9,6 @@ records:
     name:
       en: Silverstoneia minutissima
       zh: Silverstoneia minutissima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

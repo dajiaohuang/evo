@@ -9,7 +9,6 @@ records:
     name:
       zh: Iridosornis porphyrocephalus
       en: Iridosornis porphyrocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

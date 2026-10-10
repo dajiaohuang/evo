@@ -9,7 +9,6 @@ records:
     name:
       zh: Omeisaurus luoquanensis
       en: Omeisaurus luoquanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

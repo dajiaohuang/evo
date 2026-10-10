@@ -9,7 +9,6 @@ records:
     name:
       zh: Francolinus pictus
       en: Francolinus pictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

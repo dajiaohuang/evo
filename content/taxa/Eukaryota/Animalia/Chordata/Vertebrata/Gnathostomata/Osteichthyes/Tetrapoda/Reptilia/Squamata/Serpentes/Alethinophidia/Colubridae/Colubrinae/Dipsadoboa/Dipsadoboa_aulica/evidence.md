@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsadoboa aulica
       en: Dipsadoboa aulica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -207,10 +207,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Saprolegnia parasitica
@@ -363,10 +359,4 @@ Only bounded ecology, isolate-level ITS grouping and farm-sample distribution ev
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 No systematic literature search or complete comparison with the accepted species concept has been completed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

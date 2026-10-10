@@ -22,5 +22,5 @@ The doctoral study spanned 18 months, but its field ecology chiefly concerned P.
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Direct field evidence for P. sabana is limited in this source set; the doctoral study chiefly focused on P. hosei. This page has not received external expert review. This page is not externally expert-reviewed.
+Direct field evidence for P. sabana is limited in this source set; the doctoral study chiefly focused on P. hosei. This page. This page is.
 <!-- /evo:text -->

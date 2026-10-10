@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinornithomimus dongi
       en: Sinornithomimus dongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: assemblageMaterial

@@ -9,7 +9,6 @@ records:
     name:
       zh: Woutersia butleri
       en: Woutersia butleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

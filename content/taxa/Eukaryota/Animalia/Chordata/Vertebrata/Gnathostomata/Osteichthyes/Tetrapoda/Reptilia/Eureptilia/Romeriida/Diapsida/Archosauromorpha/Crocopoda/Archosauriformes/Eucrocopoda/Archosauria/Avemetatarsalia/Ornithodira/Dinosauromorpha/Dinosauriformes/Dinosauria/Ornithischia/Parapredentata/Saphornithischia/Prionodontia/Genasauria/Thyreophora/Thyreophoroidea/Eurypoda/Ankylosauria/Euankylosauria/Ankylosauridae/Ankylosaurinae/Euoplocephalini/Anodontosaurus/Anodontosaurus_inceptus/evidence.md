@@ -9,7 +9,6 @@ records:
     name:
       zh: Anodontosaurus inceptus
       en: Anodontosaurus inceptus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

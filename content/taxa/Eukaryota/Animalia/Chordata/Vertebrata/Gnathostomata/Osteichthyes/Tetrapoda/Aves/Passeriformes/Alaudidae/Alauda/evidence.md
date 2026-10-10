@@ -9,7 +9,6 @@ records:
     name:
       zh: Alauda
       en: Alauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

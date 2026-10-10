@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis glandulosus
       zh: Ichthyophis glandulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

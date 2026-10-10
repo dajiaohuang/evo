@@ -9,7 +9,6 @@ records:
     name:
       zh: Boavus occidentalis
       en: Boavus occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

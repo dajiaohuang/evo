@@ -9,7 +9,6 @@ records:
     name:
       zh: Aratinga jandaya
       en: Aratinga jandaya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

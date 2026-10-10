@@ -9,7 +9,6 @@ records:
     name:
       en: Dicamptodon aterrimus
       zh: Dicamptodon aterrimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

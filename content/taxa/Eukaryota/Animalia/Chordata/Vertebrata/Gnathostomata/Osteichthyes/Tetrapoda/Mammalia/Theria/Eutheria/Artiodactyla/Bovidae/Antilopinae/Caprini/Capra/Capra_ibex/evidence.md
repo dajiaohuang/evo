@@ -9,7 +9,6 @@ records:
     name:
       zh: Capra ibex
       en: Capra ibex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

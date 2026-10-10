@@ -9,7 +9,6 @@ records:
     name:
       zh: Gretcheniao
       en: Gretcheniao
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

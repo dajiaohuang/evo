@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: spaulding-flynn-2012-carnivoramorpha concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: spaulding-flynn-2012-carnivoramorpha
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: spaulding-flynn-2012-carnivoramorpha
           locator: 653–677; Taxon and character sampling; Carnivoraformes and crown Carnivora results
-      reviewStatus: automated-audit-passed
 ---
 
 # Carnivoraformes dossier route

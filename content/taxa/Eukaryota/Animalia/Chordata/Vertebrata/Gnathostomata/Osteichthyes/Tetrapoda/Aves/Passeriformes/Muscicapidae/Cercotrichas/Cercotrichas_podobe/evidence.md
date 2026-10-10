@@ -9,7 +9,6 @@ records:
     name:
       zh: Cercotrichas podobe
       en: Cercotrichas podobe
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

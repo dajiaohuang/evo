@@ -9,7 +9,6 @@ records:
     name:
       zh: Selasphorus ardens
       en: Selasphorus ardens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

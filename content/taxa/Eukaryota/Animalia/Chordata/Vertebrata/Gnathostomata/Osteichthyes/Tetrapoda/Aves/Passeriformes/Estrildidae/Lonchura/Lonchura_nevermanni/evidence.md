@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchura nevermanni
       en: Lonchura nevermanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

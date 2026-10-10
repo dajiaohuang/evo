@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptella kogelbergensis
       zh: Arthroleptella kogelbergensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

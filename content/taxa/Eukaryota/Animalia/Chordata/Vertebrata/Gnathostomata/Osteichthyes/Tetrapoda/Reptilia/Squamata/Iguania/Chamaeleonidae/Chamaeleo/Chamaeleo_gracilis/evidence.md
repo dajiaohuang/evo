@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamaeleo gracilis
       en: Chamaeleo gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

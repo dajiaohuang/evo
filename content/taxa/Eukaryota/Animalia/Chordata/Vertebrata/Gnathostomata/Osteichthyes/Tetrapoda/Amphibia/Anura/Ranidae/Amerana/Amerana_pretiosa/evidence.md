@@ -9,7 +9,6 @@ records:
     name:
       en: Amerana pretiosa
       zh: Amerana pretiosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

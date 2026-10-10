@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina alleni
       zh: Oedipina alleni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothriogenys orientalis
       en: Bothriogenys orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

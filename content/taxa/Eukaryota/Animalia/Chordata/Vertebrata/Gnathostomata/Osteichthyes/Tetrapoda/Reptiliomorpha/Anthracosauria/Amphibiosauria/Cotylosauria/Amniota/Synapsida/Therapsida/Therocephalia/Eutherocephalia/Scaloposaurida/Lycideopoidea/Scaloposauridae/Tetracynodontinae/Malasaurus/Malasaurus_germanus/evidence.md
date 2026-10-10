@@ -9,7 +9,6 @@ records:
     name:
       zh: Malasaurus germanus
       en: Malasaurus germanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

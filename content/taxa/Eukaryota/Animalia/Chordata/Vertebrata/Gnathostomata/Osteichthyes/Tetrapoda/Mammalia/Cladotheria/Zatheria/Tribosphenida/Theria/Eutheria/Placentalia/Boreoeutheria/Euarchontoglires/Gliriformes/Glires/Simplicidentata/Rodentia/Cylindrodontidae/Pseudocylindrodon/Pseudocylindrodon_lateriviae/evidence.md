@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocylindrodon lateriviae
       en: Pseudocylindrodon lateriviae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

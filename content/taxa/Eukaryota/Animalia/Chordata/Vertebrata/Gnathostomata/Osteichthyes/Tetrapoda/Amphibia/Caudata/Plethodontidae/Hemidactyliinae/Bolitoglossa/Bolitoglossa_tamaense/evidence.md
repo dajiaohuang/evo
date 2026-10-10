@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa tamaense
       zh: Bolitoglossa tamaense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Necromys temchuki
       en: Necromys temchuki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

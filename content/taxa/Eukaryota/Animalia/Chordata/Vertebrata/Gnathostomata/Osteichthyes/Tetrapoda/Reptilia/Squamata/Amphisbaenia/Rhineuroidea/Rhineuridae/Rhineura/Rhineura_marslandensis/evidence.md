@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhineura marslandensis
       en: Rhineura marslandensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

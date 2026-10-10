@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryornis pampeanus
       en: Dryornis pampeanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyphorhinus thoracicus
       en: Cyphorhinus thoracicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

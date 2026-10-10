@@ -9,7 +9,6 @@ records:
     name:
       zh: Histiotus macrotus
       en: Histiotus macrotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

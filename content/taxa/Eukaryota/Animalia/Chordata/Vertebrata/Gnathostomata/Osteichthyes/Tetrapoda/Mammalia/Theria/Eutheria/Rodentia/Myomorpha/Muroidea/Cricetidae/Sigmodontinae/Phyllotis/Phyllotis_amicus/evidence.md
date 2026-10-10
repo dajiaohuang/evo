@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllotis amicus
       en: Phyllotis amicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryophiops rubescens
       en: Dryophiops rubescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

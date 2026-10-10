@@ -9,7 +9,6 @@ records:
     name:
       zh: Myosorex geata
       en: Myosorex geata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

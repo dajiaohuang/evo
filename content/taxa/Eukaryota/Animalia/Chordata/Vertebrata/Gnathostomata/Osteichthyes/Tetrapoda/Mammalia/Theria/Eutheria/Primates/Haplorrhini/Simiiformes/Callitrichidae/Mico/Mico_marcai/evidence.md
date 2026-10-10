@@ -9,7 +9,6 @@ records:
     name:
       en: Marca's Marmoset
       zh: 马尔凯绒猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

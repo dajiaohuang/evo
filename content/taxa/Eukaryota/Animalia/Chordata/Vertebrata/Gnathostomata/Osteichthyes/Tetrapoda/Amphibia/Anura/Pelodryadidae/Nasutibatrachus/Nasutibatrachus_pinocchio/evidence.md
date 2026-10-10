@@ -9,7 +9,6 @@ records:
     name:
       en: Nasutibatrachus pinocchio
       zh: Nasutibatrachus pinocchio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

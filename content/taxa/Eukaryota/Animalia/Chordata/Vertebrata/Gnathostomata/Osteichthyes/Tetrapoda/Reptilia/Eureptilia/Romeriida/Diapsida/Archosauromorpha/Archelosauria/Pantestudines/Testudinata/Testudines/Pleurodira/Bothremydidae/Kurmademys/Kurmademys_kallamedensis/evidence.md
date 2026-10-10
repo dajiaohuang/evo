@@ -9,7 +9,6 @@ records:
     name:
       zh: Kurmademys kallamedensis
       en: Kurmademys kallamedensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

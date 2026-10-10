@@ -9,7 +9,6 @@ records:
     name:
       zh: Odobenocetops peruvianus
       en: Odobenocetops peruvianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

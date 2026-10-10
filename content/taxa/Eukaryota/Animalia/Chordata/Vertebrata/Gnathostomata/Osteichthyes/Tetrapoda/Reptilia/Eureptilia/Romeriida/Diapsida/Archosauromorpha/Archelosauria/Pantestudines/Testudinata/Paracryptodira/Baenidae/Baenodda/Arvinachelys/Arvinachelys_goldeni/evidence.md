@@ -9,7 +9,6 @@ records:
     name:
       zh: Arvinachelys goldeni
       en: Arvinachelys goldeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

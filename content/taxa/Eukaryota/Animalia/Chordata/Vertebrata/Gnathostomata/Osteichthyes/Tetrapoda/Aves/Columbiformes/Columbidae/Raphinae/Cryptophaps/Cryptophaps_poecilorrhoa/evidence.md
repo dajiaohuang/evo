@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptophaps poecilorrhoa
       en: Cryptophaps poecilorrhoa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

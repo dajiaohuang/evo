@@ -9,7 +9,6 @@ records:
     name:
       zh: Bumbanipes aramoides
       en: Bumbanipes aramoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

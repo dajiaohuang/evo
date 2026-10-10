@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylaeochampsa vectiana
       en: Hylaeochampsa vectiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paromomys
       en: Paromomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

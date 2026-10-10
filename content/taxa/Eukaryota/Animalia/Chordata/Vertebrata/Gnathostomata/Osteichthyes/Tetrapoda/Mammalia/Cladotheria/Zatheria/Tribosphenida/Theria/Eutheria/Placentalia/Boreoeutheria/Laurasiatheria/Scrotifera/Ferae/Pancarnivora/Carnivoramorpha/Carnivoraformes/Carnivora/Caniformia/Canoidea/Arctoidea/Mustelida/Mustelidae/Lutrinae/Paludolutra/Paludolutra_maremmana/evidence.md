@@ -9,7 +9,6 @@ records:
     name:
       zh: Paludolutra maremmana
       en: Paludolutra maremmana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

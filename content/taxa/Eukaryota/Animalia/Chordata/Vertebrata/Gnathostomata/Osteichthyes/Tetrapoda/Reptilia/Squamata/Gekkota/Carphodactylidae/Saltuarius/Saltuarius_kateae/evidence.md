@@ -9,7 +9,6 @@ records:
     name:
       zh: Saltuarius kateae
       en: Saltuarius kateae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

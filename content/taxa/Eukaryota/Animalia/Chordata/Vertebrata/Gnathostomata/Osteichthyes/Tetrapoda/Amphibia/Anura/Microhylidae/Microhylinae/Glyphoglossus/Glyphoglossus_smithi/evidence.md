@@ -9,7 +9,6 @@ records:
     name:
       en: Glyphoglossus smithi
       zh: Glyphoglossus smithi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

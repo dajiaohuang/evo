@@ -16,5 +16,5 @@ Lins and Ferreira studied a group of 133 blond capuchins in a 270-ha Atlantic Fo
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked local group study; not externally expert-reviewed. The reported diet and competition concern one group in one northeastern Brazilian fragment over a study year.
+Source-linked local group study;. The reported diet and competition concern one group in one northeastern Brazilian fragment over a study year.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dimekodontosaurus madseni
       en: Dimekodontosaurus madseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

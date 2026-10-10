@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius sibiricus
       zh: Telmatobius sibiricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

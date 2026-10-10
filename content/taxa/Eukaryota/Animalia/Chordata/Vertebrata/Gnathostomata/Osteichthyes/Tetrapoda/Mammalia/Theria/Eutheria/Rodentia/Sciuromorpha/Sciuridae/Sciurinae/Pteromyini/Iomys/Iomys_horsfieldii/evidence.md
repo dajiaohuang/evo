@@ -9,7 +9,6 @@ records:
     name:
       zh: Iomys horsfieldii
       en: Iomys horsfieldii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

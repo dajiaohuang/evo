@@ -9,7 +9,6 @@ records:
     name:
       zh: Psittacosaurus lujiatunensis
       en: Psittacosaurus lujiatunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

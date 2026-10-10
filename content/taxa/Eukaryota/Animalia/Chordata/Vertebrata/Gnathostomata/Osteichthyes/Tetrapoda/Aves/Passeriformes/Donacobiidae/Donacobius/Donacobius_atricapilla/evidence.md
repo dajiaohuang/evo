@@ -9,7 +9,6 @@ records:
     name:
       zh: Donacobius atricapilla
       en: Donacobius atricapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Isthmohyla debilis
       zh: Isthmohyla debilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

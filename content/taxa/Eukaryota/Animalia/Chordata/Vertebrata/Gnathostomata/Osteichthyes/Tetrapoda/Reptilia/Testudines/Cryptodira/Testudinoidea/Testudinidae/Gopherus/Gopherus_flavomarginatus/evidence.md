@@ -9,7 +9,6 @@ records:
     name:
       zh: Gopherus flavomarginatus
       en: Gopherus flavomarginatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

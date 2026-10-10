@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiodasypus colombianus
       en: Plesiodasypus colombianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

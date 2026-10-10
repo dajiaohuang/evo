@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsas vagrans
       en: Dipsas vagrans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

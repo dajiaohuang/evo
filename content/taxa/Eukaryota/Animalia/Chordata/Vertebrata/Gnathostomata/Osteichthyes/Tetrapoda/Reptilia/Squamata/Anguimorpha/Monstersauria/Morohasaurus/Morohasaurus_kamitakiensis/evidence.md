@@ -9,7 +9,6 @@ records:
     name:
       zh: Morohasaurus kamitakiensis
       en: Morohasaurus kamitakiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

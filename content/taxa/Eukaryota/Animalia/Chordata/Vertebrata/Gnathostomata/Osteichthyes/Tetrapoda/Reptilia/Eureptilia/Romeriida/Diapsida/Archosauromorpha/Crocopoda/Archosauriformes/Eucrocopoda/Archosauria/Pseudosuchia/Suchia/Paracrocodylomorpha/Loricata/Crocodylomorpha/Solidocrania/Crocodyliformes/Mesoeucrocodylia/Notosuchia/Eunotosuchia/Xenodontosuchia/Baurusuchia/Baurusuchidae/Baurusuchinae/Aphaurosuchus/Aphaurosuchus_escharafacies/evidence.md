@@ -9,7 +9,6 @@ records:
     name:
       zh: Aphaurosuchus escharafacies
       en: Aphaurosuchus escharafacies
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

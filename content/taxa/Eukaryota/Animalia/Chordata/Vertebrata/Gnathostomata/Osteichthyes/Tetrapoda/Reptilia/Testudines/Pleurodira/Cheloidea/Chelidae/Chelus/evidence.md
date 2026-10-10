@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelus 属
       en: Chelus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

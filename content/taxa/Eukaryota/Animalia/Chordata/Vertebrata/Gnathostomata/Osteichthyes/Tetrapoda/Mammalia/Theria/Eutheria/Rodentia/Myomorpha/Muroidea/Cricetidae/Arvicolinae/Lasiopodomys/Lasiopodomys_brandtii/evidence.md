@@ -9,7 +9,6 @@ records:
     name:
       zh: Lasiopodomys brandtii
       en: Lasiopodomys brandtii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

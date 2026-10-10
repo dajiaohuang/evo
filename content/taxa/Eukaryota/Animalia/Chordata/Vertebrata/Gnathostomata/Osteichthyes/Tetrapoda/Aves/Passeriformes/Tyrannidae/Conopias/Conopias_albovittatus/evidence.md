@@ -9,7 +9,6 @@ records:
     name:
       zh: Conopias albovittatus
       en: Conopias albovittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis burnhamae
       zh: Boophis burnhamae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

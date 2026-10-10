@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis rufioculis
       zh: Boophis rufioculis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

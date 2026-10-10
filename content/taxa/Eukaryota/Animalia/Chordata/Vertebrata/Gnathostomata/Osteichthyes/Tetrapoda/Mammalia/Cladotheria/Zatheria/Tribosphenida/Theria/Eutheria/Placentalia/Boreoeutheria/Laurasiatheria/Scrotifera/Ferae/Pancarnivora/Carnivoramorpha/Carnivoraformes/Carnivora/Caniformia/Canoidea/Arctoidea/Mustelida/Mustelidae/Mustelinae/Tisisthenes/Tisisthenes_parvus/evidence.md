@@ -9,7 +9,6 @@ records:
     name:
       zh: Tisisthenes parvus
       en: Tisisthenes parvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

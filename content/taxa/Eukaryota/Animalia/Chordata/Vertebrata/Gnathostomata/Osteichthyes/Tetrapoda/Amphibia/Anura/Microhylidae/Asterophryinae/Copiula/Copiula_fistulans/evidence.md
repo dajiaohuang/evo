@@ -9,7 +9,6 @@ records:
     name:
       en: Copiula fistulans
       zh: Copiula fistulans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Trachycephalus typhonius
       zh: Trachycephalus typhonius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

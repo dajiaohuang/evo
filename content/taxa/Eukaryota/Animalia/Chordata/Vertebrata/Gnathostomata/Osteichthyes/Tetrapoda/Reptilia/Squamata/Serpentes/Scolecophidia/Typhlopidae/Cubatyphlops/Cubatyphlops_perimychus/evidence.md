@@ -9,7 +9,6 @@ records:
     name:
       zh: Cubatyphlops perimychus
       en: Cubatyphlops perimychus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

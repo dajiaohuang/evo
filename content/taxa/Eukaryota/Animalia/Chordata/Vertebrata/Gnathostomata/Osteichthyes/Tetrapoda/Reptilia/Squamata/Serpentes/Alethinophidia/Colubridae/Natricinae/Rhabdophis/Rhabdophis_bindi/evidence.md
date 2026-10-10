@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhabdophis bindi
       en: Rhabdophis bindi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

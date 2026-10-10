@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinotyphlops unitaeniatus
       en: Rhinotyphlops unitaeniatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

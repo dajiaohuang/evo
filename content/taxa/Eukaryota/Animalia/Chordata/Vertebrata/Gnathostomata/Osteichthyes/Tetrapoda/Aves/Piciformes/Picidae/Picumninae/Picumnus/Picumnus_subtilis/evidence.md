@@ -9,7 +9,6 @@ records:
     name:
       zh: Picumnus subtilis
       en: Picumnus subtilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinofelis barlowi
       en: Dinofelis barlowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coronosaurus brinkmani
       en: Coronosaurus brinkmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

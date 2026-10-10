@@ -16,7 +16,7 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-未经过外部领域专家评审。数量及来源构成是 2014 年调查估计，不表示当前种群大小或后续变化。
+。数量及来源构成是 2014 年调查估计，不表示当前种群大小或后续变化。
 <!-- /evo:text -->
 
 ## 历史生活史记录的名称

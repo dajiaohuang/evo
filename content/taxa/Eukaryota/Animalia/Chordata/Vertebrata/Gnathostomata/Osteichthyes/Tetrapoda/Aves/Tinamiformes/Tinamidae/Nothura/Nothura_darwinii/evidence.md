@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothura darwinii
       en: Nothura darwinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

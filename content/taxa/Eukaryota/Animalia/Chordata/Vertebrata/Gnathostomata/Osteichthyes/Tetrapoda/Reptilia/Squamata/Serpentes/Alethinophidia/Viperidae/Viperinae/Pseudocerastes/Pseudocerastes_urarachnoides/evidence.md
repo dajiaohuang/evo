@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocerastes urarachnoides
       en: Pseudocerastes urarachnoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

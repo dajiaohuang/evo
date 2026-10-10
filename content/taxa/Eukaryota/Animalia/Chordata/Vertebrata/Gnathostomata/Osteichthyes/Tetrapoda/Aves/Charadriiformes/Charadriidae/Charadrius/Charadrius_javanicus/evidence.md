@@ -9,7 +9,6 @@ records:
     name:
       zh: Charadrius javanicus
       en: Charadrius javanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brujadelphis ankylorostris
       en: Brujadelphis ankylorostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

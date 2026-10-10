@@ -9,7 +9,6 @@ records:
     name:
       en: Odontophrynus monachus
       zh: Odontophrynus monachus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

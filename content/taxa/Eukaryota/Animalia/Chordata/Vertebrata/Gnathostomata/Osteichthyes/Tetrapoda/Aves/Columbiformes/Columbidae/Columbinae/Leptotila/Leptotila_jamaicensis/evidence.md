@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptotila jamaicensis
       en: Leptotila jamaicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

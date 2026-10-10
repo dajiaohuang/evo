@@ -9,7 +9,6 @@ records:
     name:
       zh: Boutersemia belgica
       en: Boutersemia belgica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

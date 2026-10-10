@@ -9,7 +9,6 @@ records:
     name:
       zh: Aramornis longurio
       en: Aramornis longurio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

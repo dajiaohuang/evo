@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura foxi
       en: Crocidura foxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

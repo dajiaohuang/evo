@@ -9,7 +9,6 @@ records:
     name:
       zh: Phloeomys pallidus
       en: Phloeomys pallidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

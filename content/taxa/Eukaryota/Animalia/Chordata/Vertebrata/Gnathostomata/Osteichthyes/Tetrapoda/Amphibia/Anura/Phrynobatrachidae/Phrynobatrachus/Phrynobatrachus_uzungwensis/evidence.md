@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus uzungwensis
       zh: Phrynobatrachus uzungwensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

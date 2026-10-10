@@ -9,7 +9,6 @@ records:
     name:
       zh: Alopoglossus vallensis
       en: Alopoglossus vallensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

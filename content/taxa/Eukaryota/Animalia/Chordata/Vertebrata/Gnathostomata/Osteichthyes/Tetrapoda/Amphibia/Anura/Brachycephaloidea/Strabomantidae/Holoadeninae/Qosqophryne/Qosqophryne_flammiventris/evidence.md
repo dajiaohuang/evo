@@ -9,7 +9,6 @@ records:
     name:
       en: Qosqophryne flammiventris
       zh: Qosqophryne flammiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

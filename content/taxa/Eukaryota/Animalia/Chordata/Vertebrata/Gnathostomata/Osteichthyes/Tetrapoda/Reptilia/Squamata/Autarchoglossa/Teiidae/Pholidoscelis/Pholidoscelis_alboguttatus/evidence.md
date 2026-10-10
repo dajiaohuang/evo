@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidoscelis alboguttatus
       en: Pholidoscelis alboguttatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

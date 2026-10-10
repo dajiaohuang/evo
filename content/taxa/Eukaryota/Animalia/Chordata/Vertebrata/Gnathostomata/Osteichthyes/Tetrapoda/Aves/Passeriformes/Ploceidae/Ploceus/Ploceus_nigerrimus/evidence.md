@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus nigerrimus
       en: Ploceus nigerrimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

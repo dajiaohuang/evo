@@ -9,7 +9,6 @@ records:
     name:
       zh: Columba elphinstonii
       en: Columba elphinstonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

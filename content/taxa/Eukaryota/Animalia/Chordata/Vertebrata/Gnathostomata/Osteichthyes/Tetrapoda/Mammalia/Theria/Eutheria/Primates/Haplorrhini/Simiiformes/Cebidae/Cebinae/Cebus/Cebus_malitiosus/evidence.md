@@ -9,7 +9,6 @@ records:
     name:
       zh: 圣玛尔塔白额卷尾猴
       en: Cebus malitiosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

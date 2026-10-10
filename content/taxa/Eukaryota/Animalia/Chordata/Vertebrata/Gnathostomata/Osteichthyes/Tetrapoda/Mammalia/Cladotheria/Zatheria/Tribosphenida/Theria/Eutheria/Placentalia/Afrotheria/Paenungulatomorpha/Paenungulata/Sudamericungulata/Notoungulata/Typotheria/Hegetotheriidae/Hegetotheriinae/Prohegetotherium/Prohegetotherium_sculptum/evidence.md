@@ -9,7 +9,6 @@ records:
     name:
       zh: Prohegetotherium sculptum
       en: Prohegetotherium sculptum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

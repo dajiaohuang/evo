@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus chaltin
       en: Liolaemus chaltin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

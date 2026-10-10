@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeostylops iturus
       en: Palaeostylops iturus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

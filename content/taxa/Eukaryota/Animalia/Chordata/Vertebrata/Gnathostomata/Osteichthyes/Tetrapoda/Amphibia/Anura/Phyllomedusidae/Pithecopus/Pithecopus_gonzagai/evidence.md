@@ -9,7 +9,6 @@ records:
     name:
       en: Pithecopus gonzagai
       zh: Pithecopus gonzagai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

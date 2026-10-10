@@ -9,7 +9,6 @@ records:
     name:
       zh: Anas marecula
       en: Anas marecula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

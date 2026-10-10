@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus pratensis
       en: Anthus pratensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

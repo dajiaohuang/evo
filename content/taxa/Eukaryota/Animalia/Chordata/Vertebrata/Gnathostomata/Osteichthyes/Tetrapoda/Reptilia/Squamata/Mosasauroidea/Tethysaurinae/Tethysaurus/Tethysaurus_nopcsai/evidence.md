@@ -9,7 +9,6 @@ records:
     name:
       zh: Tethysaurus nopcsai
       en: Tethysaurus nopcsai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

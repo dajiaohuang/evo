@@ -9,7 +9,6 @@ records:
     name:
       zh: Eunectes
       en: Eunectes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

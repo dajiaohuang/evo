@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus calcaratus
       zh: Phrynobatrachus calcaratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

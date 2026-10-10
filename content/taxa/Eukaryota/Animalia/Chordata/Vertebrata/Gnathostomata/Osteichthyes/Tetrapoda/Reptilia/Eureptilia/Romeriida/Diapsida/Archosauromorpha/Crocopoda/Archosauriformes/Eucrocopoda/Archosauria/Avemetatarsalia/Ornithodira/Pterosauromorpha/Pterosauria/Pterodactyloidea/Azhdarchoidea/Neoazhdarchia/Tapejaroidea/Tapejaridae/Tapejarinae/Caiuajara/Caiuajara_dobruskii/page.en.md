@@ -105,7 +105,7 @@ The database retains its original Manzig et al. (2014), ref:52235 attribution. T
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page combines the principal 2014 original-description text, selected 2022 cranial passages and fixed PBDB occurrences. The original age discussion depends on stratigraphic correlations of its time and is not narrowed to an exact age or used to revise the broad database bracket. All supplements, the full 2022 anatomy, later histology and all taxonomic literature remain unread. No independent specimen inspection, individual recount or matrix rerun occurred. Aggregation, juvenile flight, sexual dimorphism, diet and mortality retain inference limits; a full monograph and external expert review remain pending.
+This page combines the principal 2014 original-description text, selected 2022 cranial passages and fixed PBDB occurrences. The original age discussion depends on stratigraphic correlations of its time and is not narrowed to an exact age or used to revise the broad database bracket. All supplements, the full 2022 anatomy, later histology and all taxonomic literature remain unread. No independent specimen inspection, individual recount or matrix rerun occurred. Aggregation, juvenile flight, sexual dimorphism, diet and mortality retain inference limits; a full monograph remain pending.
 
 The comparative route additionally uses the already-read 2019 shared-bonebed and 2020 dinosaur-histology main texts. Samples and models apply to their respective taxa; cross-links do not complete the site fauna or all developmental research.
 <!-- /evo:text -->

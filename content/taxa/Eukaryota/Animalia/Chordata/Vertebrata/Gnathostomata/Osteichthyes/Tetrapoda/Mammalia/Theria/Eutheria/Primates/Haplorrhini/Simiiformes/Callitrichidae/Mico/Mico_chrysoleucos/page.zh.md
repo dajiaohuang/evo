@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-这是有来源的入门页，尚未经过外部领域专家评审。两项调查的时段、区域和方法不同。基于记录的边界与延伸不能测量数量、当前占域或种群趋势。
+这是有来源的入门页。两项调查的时段、区域和方法不同。基于记录的边界与延伸不能测量数量、当前占域或种群趋势。
 <!-- /evo:text -->

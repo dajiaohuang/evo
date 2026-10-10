@@ -9,7 +9,6 @@ records:
     name:
       zh: Pareas nuchalis
       en: Pareas nuchalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

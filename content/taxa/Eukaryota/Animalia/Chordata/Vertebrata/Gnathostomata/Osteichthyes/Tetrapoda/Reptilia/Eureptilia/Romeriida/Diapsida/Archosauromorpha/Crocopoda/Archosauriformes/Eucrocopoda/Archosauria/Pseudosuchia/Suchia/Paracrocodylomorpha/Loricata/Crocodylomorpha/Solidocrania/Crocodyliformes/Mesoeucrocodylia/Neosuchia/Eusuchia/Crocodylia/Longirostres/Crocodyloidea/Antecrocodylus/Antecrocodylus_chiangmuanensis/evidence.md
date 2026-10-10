@@ -9,7 +9,6 @@ records:
     name:
       zh: Antecrocodylus chiangmuanensis
       en: Antecrocodylus chiangmuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

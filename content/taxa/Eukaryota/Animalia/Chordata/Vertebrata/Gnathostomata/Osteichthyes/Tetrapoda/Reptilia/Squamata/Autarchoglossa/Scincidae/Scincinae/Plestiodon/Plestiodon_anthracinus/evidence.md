@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon anthracinus
       en: Plestiodon anthracinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hippopotamus laloumena
       en: Hippopotamus laloumena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

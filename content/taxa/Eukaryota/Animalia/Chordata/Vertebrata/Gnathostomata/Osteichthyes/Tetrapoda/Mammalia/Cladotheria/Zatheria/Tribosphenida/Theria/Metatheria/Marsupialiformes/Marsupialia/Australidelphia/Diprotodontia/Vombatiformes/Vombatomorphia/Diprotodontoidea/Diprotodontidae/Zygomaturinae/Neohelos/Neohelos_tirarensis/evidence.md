@@ -9,7 +9,6 @@ records:
     name:
       zh: Neohelos tirarensis
       en: Neohelos tirarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

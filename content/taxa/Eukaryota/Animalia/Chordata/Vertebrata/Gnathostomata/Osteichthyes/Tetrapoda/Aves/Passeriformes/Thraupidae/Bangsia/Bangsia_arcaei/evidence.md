@@ -9,7 +9,6 @@ records:
     name:
       zh: Bangsia arcaei
       en: Bangsia arcaei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Maip macrothorax
       en: Maip macrothorax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

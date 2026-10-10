@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthracotherium bugtiense
       en: Anthracotherium bugtiense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

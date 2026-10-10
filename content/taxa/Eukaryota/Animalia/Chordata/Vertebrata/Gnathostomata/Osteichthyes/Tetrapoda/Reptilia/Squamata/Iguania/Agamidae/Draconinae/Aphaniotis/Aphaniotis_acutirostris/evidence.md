@@ -9,7 +9,6 @@ records:
     name:
       zh: Aphaniotis acutirostris
       en: Aphaniotis acutirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

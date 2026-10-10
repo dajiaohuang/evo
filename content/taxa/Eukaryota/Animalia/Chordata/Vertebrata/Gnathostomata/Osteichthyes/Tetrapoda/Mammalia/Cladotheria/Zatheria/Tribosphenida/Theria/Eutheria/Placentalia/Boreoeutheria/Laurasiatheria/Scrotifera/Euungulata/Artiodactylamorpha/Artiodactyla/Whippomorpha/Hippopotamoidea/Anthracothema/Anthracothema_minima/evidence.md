@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthracothema minima
       en: Anthracothema minima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

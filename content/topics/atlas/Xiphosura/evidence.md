@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lamsdell-2020-xiphosura; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: lamsdell-2020-xiphosura
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: lamsdell-2020-xiphosura
           locator: e10431; Figures 1–13; Supplemental matrices; Character matrix; Phylogenetic results; Revised systematics
-      reviewStatus: automated-audit-passed
 ---
 
 # Xiphosura

@@ -9,7 +9,6 @@ records:
     name:
       zh: Shanwangia unexpectata
       en: Shanwangia unexpectata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

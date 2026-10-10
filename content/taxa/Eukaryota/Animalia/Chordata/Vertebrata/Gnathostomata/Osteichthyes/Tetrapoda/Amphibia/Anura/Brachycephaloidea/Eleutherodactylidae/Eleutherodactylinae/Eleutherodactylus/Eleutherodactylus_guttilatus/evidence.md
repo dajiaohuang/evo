@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus guttilatus
       zh: Eleutherodactylus guttilatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

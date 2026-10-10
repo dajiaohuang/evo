@@ -9,7 +9,6 @@ records:
     name:
       en: Atympanophrys gigantica
       zh: Atympanophrys gigantica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

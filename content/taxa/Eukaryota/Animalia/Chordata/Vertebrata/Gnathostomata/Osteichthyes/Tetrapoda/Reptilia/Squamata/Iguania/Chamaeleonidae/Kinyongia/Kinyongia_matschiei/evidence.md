@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinyongia matschiei
       en: Kinyongia matschiei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

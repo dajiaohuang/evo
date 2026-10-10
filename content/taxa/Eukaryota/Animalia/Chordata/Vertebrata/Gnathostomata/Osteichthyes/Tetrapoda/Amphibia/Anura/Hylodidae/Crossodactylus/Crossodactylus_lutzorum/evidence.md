@@ -9,7 +9,6 @@ records:
     name:
       en: Crossodactylus lutzorum
       zh: Crossodactylus lutzorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Papagomys theodorverhoeveni
       en: Papagomys theodorverhoeveni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

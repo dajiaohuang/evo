@@ -9,7 +9,6 @@ records:
     name:
       zh: Lankascincus sameerai
       en: Lankascincus sameerai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

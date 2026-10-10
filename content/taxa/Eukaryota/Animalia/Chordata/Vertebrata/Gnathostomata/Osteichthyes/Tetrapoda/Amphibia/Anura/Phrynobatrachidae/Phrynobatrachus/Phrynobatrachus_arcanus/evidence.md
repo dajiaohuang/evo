@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus arcanus
       zh: Phrynobatrachus arcanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

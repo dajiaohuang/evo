@@ -9,7 +9,6 @@ records:
     name:
       zh: 北白颊长臂猿
       en: Northern white-cheeked gibbon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: lifeHistory
@@ -695,12 +694,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Nomascus leucogenys
@@ -925,10 +918,4 @@ No formal conservation assessment with system, status, date, and population scop
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The source search was focused and is not an exhaustive species-wide literature review.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

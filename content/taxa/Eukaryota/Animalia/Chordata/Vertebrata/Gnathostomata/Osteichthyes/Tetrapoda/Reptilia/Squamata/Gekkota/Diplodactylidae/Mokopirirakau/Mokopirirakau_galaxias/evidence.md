@@ -9,7 +9,6 @@ records:
     name:
       zh: Mokopirirakau galaxias
       en: Mokopirirakau galaxias
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

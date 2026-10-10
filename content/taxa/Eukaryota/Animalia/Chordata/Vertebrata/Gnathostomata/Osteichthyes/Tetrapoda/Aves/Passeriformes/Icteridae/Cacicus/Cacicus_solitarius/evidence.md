@@ -9,7 +9,6 @@ records:
     name:
       zh: Cacicus solitarius
       en: Cacicus solitarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

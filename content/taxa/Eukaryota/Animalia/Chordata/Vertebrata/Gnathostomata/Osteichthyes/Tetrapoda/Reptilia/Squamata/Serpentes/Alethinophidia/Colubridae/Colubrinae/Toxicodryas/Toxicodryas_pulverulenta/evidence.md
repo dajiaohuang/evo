@@ -9,7 +9,6 @@ records:
     name:
       zh: Toxicodryas pulverulenta
       en: Toxicodryas pulverulenta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

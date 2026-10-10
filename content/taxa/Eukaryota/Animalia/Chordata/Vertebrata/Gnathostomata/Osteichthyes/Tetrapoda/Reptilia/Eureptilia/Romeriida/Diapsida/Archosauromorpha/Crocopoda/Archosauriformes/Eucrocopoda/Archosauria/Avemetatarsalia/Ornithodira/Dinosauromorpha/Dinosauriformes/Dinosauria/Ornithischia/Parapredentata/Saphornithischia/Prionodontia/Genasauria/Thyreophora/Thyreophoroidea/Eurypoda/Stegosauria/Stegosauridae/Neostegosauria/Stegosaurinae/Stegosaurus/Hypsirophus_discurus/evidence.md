@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsirophus discurus
       en: Hypsirophus discurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

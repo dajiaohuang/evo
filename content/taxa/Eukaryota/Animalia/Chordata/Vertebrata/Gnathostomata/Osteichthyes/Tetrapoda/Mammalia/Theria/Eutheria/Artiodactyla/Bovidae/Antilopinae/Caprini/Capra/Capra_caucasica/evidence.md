@@ -9,7 +9,6 @@ records:
     name:
       zh: Capra caucasica
       en: Capra caucasica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

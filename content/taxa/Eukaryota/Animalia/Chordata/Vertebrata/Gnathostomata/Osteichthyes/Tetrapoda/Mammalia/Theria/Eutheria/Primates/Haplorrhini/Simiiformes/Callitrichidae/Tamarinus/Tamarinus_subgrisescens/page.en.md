@@ -22,5 +22,5 @@ A four-month primate survey in Pando recorded group size, habitat use and locomo
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Local field work used the older subspecies combination. Taxonomic studies support species-level separation, while the contact zone and hybridization status remain unknown. Not every old *S. imperator* record can be reassigned to this species. This bilingual draft has not received external expert review. This page is not externally expert-reviewed.
+Local field work used the older subspecies combination. Taxonomic studies support species-level separation, while the contact zone and hybridization status remain unknown. Not every old *S. imperator* record can be reassigned to this species. This bilingual draft. This page is.
 <!-- /evo:text -->

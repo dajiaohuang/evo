@@ -9,7 +9,6 @@ records:
     name:
       zh: Jacobsomys dailyi
       en: Jacobsomys dailyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

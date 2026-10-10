@@ -9,7 +9,6 @@ records:
     name:
       zh: Hohlachia multidens
       en: Hohlachia multidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

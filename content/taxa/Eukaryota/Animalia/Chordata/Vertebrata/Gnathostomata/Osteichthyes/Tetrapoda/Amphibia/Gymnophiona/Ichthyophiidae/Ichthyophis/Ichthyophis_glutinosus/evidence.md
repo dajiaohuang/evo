@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis glutinosus
       zh: Ichthyophis glutinosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

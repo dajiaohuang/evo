@@ -9,7 +9,6 @@ records:
     name:
       zh: Neochmia ruficauda
       en: Neochmia ruficauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

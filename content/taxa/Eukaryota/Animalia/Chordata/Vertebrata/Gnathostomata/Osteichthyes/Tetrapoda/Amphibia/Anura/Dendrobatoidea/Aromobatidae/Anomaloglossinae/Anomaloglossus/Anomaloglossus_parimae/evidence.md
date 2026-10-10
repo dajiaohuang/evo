@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus parimae
       zh: Anomaloglossus parimae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

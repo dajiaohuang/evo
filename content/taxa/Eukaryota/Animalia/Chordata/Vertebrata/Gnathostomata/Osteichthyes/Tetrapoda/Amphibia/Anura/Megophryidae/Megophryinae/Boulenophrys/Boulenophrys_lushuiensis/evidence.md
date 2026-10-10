@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys lushuiensis
       zh: Boulenophrys lushuiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

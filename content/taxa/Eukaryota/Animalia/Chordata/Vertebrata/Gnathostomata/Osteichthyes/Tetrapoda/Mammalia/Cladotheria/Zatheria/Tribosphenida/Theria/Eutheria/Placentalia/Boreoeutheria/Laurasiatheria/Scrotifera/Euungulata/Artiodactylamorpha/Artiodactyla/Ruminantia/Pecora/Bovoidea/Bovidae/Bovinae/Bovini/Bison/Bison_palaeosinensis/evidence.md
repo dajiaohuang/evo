@@ -9,7 +9,6 @@ records:
     name:
       zh: Bison palaeosinensis
       en: Bison palaeosinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinomyias
       en: Rhinomyias
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

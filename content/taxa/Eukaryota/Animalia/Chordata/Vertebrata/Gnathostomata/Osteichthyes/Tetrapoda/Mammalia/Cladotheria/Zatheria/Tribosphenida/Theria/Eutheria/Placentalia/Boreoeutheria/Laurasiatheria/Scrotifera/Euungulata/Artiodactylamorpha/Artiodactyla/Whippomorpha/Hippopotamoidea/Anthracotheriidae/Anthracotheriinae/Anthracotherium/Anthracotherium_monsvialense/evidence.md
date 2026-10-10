@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthracotherium monsvialense
       en: Anthracotherium monsvialense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

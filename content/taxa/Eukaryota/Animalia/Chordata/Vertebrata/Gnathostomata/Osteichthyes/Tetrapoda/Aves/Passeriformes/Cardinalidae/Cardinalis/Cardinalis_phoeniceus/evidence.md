@@ -9,7 +9,6 @@ records:
     name:
       zh: Cardinalis phoeniceus
       en: Cardinalis phoeniceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis suetus
       zh: Pristimantis suetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

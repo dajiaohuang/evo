@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis bearsei
       zh: Pristimantis bearsei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

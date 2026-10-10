@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrops caesurus
       en: Hydrops caesurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

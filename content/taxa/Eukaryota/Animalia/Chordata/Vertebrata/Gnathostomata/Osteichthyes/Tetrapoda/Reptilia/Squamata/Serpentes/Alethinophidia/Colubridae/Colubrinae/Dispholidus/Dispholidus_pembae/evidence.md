@@ -9,7 +9,6 @@ records:
     name:
       zh: Dispholidus pembae
       en: Dispholidus pembae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

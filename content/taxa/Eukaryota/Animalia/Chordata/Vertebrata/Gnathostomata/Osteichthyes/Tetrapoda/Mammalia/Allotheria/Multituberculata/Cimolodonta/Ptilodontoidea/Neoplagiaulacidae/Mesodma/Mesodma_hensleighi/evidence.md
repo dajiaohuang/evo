@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesodma hensleighi
       en: Mesodma hensleighi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

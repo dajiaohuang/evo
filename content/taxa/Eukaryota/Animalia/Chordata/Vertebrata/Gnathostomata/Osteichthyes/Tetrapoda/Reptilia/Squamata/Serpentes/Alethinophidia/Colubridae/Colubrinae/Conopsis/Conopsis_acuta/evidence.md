@@ -9,7 +9,6 @@ records:
     name:
       zh: Conopsis acuta
       en: Conopsis acuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdus amaurochalinus
       en: Turdus amaurochalinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

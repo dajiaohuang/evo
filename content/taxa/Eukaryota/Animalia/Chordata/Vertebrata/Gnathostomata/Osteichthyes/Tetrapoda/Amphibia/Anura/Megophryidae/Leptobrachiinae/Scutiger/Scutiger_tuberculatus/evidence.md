@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger tuberculatus
       zh: Scutiger tuberculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

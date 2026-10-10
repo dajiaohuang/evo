@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Torres et al. 2025 DOI 10.1038/s41586-024-08390-0
       referenceLinks:
         - referenceId: torres-2025-vegavis-skull
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Torres et al. 2025 DOI 10.1038/s41586-024-08390-0
       referenceLinks:
         - referenceId: torres-2025-vegavis-skull
           relation: supports
@@ -104,9 +98,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Torres et al. 2025 DOI 10.1038/s41586-024-08390-0
       referenceLinks:
         - referenceId: torres-2025-vegavis-skull
           relation: supports
@@ -129,9 +120,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Torres et al. 2025 DOI 10.1038/s41586-024-08390-0
       referenceLinks:
         - referenceId: torres-2025-vegavis-skull
           relation: supports
@@ -148,9 +136,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Torres et al. 2025 DOI 10.1038/s41586-024-08390-0
       referenceLinks:
         - referenceId: torres-2025-vegavis-skull
           relation: supports
@@ -210,7 +195,6 @@ records:
           locator: 146–151; Figures 1–4; age statement; phylogenetic analyses
         - referenceId: field-2020-asteriornis
           locator: 397–401; Figures 1–4; phylogenetic analyses
-      reviewStatus: automated-audit-passed
 ---
 
 # Neornithes

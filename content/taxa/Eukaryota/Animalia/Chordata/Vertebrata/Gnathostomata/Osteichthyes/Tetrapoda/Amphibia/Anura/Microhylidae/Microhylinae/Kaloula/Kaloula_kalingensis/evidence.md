@@ -9,7 +9,6 @@ records:
     name:
       en: Kaloula kalingensis
       zh: Kaloula kalingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

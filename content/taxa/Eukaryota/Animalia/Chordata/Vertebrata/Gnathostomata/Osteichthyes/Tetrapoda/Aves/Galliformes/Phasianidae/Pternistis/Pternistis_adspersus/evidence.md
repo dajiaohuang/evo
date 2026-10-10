@@ -9,7 +9,6 @@ records:
     name:
       zh: Pternistis adspersus
       en: Pternistis adspersus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

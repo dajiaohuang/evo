@@ -9,7 +9,6 @@ records:
     name:
       zh: Natalus tumidirostris
       en: Natalus tumidirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

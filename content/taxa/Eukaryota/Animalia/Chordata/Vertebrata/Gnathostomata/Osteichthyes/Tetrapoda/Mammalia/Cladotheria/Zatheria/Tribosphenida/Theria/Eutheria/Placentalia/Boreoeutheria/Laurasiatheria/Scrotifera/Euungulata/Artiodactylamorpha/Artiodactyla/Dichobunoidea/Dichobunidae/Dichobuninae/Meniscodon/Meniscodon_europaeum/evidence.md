@@ -9,7 +9,6 @@ records:
     name:
       zh: Meniscodon europaeum
       en: Meniscodon europaeum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

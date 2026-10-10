@@ -9,7 +9,6 @@ records:
     name:
       zh: Peratherium comstocki
       en: Peratherium comstocki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

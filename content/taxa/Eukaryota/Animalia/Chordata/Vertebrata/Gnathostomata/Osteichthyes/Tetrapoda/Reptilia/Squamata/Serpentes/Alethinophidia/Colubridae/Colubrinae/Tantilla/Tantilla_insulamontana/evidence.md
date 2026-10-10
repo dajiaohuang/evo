@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla insulamontana
       en: Tantilla insulamontana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

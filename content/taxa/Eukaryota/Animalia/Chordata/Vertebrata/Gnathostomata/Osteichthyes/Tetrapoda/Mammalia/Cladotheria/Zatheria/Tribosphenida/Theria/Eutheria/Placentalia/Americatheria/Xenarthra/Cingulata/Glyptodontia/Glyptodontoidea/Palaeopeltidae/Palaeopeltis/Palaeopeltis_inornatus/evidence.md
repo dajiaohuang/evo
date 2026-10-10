@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeopeltis inornatus
       en: Palaeopeltis inornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

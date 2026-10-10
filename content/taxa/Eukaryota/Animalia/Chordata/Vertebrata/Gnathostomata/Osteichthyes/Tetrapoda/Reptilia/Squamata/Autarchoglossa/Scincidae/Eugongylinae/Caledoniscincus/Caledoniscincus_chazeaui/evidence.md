@@ -9,7 +9,6 @@ records:
     name:
       zh: Caledoniscincus chazeaui
       en: Caledoniscincus chazeaui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

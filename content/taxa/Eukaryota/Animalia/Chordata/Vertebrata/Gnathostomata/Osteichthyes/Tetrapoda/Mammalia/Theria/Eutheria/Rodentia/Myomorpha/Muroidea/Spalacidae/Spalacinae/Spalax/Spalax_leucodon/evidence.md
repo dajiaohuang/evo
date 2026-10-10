@@ -9,7 +9,6 @@ records:
     name:
       zh: Spalax leucodon
       en: Spalax leucodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

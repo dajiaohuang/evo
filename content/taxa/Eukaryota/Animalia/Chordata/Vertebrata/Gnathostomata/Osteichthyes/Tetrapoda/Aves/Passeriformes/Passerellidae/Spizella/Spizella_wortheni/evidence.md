@@ -9,7 +9,6 @@ records:
     name:
       zh: Spizella wortheni
       en: Spizella wortheni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

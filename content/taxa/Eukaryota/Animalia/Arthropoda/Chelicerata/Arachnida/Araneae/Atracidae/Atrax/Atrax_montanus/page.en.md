@@ -52,5 +52,5 @@ account
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introductory account; not externally expert-reviewed. The sources chiefly report the post-2025 New South Wales range; no global trend, total-population state or formal conservation assessment is inferred.
+Source-linked introductory account;. The sources chiefly report the post-2025 New South Wales range; no global trend, total-population state or formal conservation assessment is inferred.
 <!-- /evo:text -->

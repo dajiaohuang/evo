@@ -9,7 +9,6 @@ records:
     name:
       zh: Tsagantegia longicranialis
       en: Tsagantegia longicranialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

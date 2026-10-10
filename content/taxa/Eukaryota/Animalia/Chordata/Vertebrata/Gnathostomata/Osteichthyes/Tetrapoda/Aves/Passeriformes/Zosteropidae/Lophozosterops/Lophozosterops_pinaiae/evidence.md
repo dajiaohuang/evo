@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophozosterops pinaiae
       en: Lophozosterops pinaiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

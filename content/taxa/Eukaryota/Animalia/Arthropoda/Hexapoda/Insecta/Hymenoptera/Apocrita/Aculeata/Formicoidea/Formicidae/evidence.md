@@ -9,7 +9,6 @@ records:
     name:
       zh: 蚁科
       en: Ants
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

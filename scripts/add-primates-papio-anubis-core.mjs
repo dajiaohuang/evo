@@ -157,7 +157,7 @@ const references = [
     version: 'Published 2022-02-02',
     sourceRole: 'primary-study',
     fitnessFor: ['ecology', 'methods'],
-    metadataAssignment: 'curator-reviewed',
+
     note: 'Primary study of road-transect surveys and sleeping-site comparison for wild olive baboons at Lake Manyara National Park, Tanzania, from 2011 to 2019. The authors report poor fit for detection models and caution that road use may bias density estimates. The article states CC BY 4.0; the summary is paraphrased.',
   },
   {
@@ -173,7 +173,7 @@ const references = [
     version: 'First published 2017-03-14',
     sourceRole: 'primary-study',
     fitnessFor: ['morphology', 'ecology', 'methods'],
-    metadataAssignment: 'curator-reviewed',
+
     note: 'Longitudinal body-morphometry study of 14 female and 16 male captive olive baboons at the CNRS Primatology Station in Rousset-sur-Arc, France. The source record identifies CC BY 4.0; the summary is paraphrased and does not reproduce figures or tables.',
   },
   {
@@ -189,7 +189,7 @@ const references = [
     version: 'Published 2021-02-17',
     sourceRole: 'primary-study',
     fitnessFor: ['ecology', 'methods'],
-    metadataAssignment: 'curator-reviewed',
+
     note: 'Primary observational study of wild olive baboons in Gombe National Park, Tanzania, using reproductive and miscarriage records from 1972 to 2002. The article states CC BY 4.0; its conditional associations are not evidence of a species-wide rate or deliberate causation.',
   },
 ]
@@ -223,7 +223,7 @@ appendUnique(profiles, {
   },
   traits: ['In one seven-year captive cohort, measured size and shape were similar at birth; later differences in growth rate and duration produced substantial size differences while measured body shape remained similar.'],
   traitsAssessmentStatus: 'assessed',
-  evidenceSummary: 'The selected profile links primary evidence for morphology, reproduction, and a site-specific population-monitoring bias. Global distribution, fossil record, formal conservation status, and species-wide evolutionary synthesis remain unassessed; this dossier is incomplete and has not received independent expert review.',
+  evidenceSummary: 'The selected profile links primary evidence for morphology, reproduction, and a site-specific population-monitoring bias. Global distribution, fossil record, formal conservation status, and species-wide evolutionary synthesis remain unassessed; this dossier is incomplete.',
   confidence: 'medium',
   referenceIds: [colReferenceId, kiffnerReferenceId, druelleReferenceId, baileyReferenceId],
 }, profile => profile.id)
@@ -238,9 +238,9 @@ const claimRecords = [
     statement: taxonomyGenusStatement,
     confidence: 'medium',
     confidenceRationale: 'The pinned COL26.8 accepted parent chain explicitly records Papio usage 6DGR below Papionini usage L4C. This is checklist classification, not a phylogenetic result.',
-    reviewedBy: 'Evo Atlas source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'COL26.8 ChecklistBank dataset 316115; accepted usage 6TM9B and parent chain checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted species usage 6TM9B; immediate genus usage 6DGR and Papionini tribe usage L4C' }],
   },
   {
@@ -251,9 +251,9 @@ const claimRecords = [
     statement: taxonomySpeciesStatement,
     confidence: 'medium',
     confidenceRationale: 'The pinned accepted usage and immediate parent are explicitly recorded in COL26.8. This statement is limited to checklist identity and classification.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'COL26.8 ChecklistBank dataset 316115; accepted usage 6TM9B, source dataset 2144, and parent chain checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted species usage 6TM9B; immediate parent Papio usage 6DGR; parent chain through Papionini L4C and Primates 3W7' }],
   },
   {
@@ -264,9 +264,9 @@ const claimRecords = [
     statement: geographyStatement,
     confidence: 'high',
     confidenceRationale: 'Each cited primary study directly identifies its sampled location and captive or wild study status. The statement explicitly does not infer a geographic range.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Druelle et al. 2017 DOI 10.1111/joa.12602; Bailey et al. 2021 DOI 10.1038/s41598-021-83175-3; Kiffner et al. 2022 DOI 10.1371/journal.pone.0263314; study locations checked 2026-09-27',
+
+
+
     referenceLinks: [
       { referenceId: druelleReferenceId, relation: 'supports', quoteLocator: 'Materials and methods, Study site and subjects' },
       { referenceId: baileyReferenceId, relation: 'supports', quoteLocator: 'Methods, Study area and population' },
@@ -281,9 +281,9 @@ const claimRecords = [
     statement: morphologyStatement,
     confidence: 'medium',
     confidenceRationale: 'The source describes its captive cohort, seven-year longitudinal design, measured segment morphometrics, and age- and sex-related results directly. The conclusion is restricted to that cohort.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Druelle et al. 2017 DOI 10.1111/joa.12602; Abstract; Materials and methods; Results and Discussion checked against the source-linked article record 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: druelleReferenceId, relation: 'supports', pages: 'Abstract; Materials and methods, Study site and subjects; Results, Changes in morphotypes with age; Discussion, Sex-related differences' }],
   },
   {
@@ -294,9 +294,9 @@ const claimRecords = [
     statement: ecologyStatement,
     confidence: 'medium',
     confidenceRationale: 'The paper reports the survey years, constrained road design, sleeping-site comparison, and possible road-use bias. It reports poor detection-model fit, so this selected result remains method- and site-specific.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Kiffner et al. 2022 DOI 10.1371/journal.pone.0263314; Abstract; Methods; Results and Discussion checked against the CC BY 4.0 version of record on 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: kiffnerReferenceId, relation: 'supports', pages: 'Abstract; Methods, Line distance surveys and abundance maximum; Results and Discussion; Tables 1–3' }],
   },
   {
@@ -307,9 +307,9 @@ const claimRecords = [
     statement: reproductionStatement,
     confidence: 'medium',
     confidenceRationale: 'The primary study reports the Gombe observation period, pregnancy sample, rank and rainfall interaction, and difference between rapid-rising males and immigrant males overall. It is observational and conditional; it does not show a species-wide rate or prove deliberate causation.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Bailey et al. 2021 DOI 10.1038/s41598-021-83175-3; Abstract; Results; Methods, Study area and population and Miscarriage analyses checked against the CC BY 4.0 version of record on 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: baileyReferenceId, relation: 'supports', pages: 'Abstract; Results, rank, rainfall and miscarriage interaction; Methods, Study area and population and Miscarriage data and analyses' }],
   },
   {
@@ -320,9 +320,9 @@ const claimRecords = [
     statement: rangeStatement,
     confidence: 'medium',
     confidenceRationale: 'The checklist establishes identity and classification, while the selected biological papers concern living populations and do not estimate a complete geographic range or temporal fossil endpoints. Those ranges therefore remain withheld.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115 usage 6TM9B; Druelle et al. 2017, Bailey et al. 2021, and Kiffner et al. 2022 study scopes checked 2026-09-27',
+
+
+
     referenceLinks: [
       { referenceId: colReferenceId, relation: 'supports', pages: 'Accepted species usage 6TM9B; identity and classification only' },
       { referenceId: druelleReferenceId, relation: 'contextualizes', quoteLocator: 'Captive living-cohort morphometry study; no range endpoint estimate' },
@@ -373,7 +373,7 @@ for (const [entityId, label, usageId, parentName] of [
   confidence: 'low',
   claimIds: [],
   referenceLocators: [{ referenceId: colReferenceId, locator: `COL26.8 dataset 316115; accepted usage ${usageId}, with ${parentName} parent classification (identity and classification only)` }],
-  reviewStatus: 'automated-audit-passed',
+
 }, range => range.id)
 writeJson('data/ranges/range-evidence.json', ranges)
 
@@ -413,7 +413,7 @@ const papioTranslations = {
   'The Lake Manyara paper compares road-transect estimates with a sleeping-site-based upper limit; roads are a possible source of sampling bias, not a full habitat account.': '曼雅拉湖研究将道路样线估计值与基于夜宿地点的数量上限进行比较；道路可能造成抽样偏差，因此这并非完整的栖息地描述。',
   'A seven-year captive cohort study measured segmental morphometrics from infancy to adulthood; its growth pattern is not a species-wide body-size estimate.': '一项为期七年的圈养群体研究从幼年到成年测量身体分段形态；其生长模式不能代表该物种整体的体型估计。',
   'In one seven-year captive cohort, measured size and shape were similar at birth; later differences in growth rate and duration produced substantial size differences while measured body shape remained similar.': '在一项七年圈养群体研究中，个体出生时的测量体型和形状相近；此后生长速度与持续时间差异带来显著体型差异，而测得的身体形状仍相近。',
-  'The selected profile links primary evidence for morphology, reproduction, and a site-specific population-monitoring bias. Global distribution, fossil record, formal conservation status, and species-wide evolutionary synthesis remain unassessed; this dossier is incomplete and has not received independent expert review.': '该档案链接了形态、繁殖生态和特定地点种群监测偏差的一手证据。全球分布、化石记录、正式保护状况及全物种演化综述仍未评估；本档案不完整，且尚未经独立专家评审。',
+  'The selected profile links primary evidence for morphology, reproduction, and a site-specific population-monitoring bias. Global distribution, fossil record, formal conservation status, and species-wide evolutionary synthesis remain unassessed; this dossier is incomplete.': '该档案链接了形态、繁殖生态和特定地点种群监测偏差的一手证据。全球分布、化石记录、正式保护状况及全物种演化综述仍未评估；本档案不完整。',
 }
 appendTsDictionaryEntries('src/i18n/primatesZh.ts', papioTranslations)
 appendTsSetEntries('src/i18n/primatesZhKeys.ts', Object.keys(papioTranslations))
@@ -445,12 +445,12 @@ for (const [entityId, localName, localRank, localExpectedParentConcept] of [
   localExpectedParentConcept,
   parentRelationshipKind: 'taxonomic-parent',
   lineageCompatibility: 'indeterminate',
-  conceptReviewStatus: 'unresolved',
-  automatedRecommendation: 'withhold-external-mapping',
-  humanCuratorDecision: null,
-  curatorRationale: null,
-  curatorReviewedAt: null,
-  curatorReviewer: null,
+
+
+
+
+
+
   occurrenceCount: null,
   referenceNo: null,
   snapshotModifiedAt: null,
@@ -458,15 +458,11 @@ for (const [entityId, localName, localRank, localExpectedParentConcept] of [
 pbdb.summary.ontologyNodes = pbdb.resolutions.length
 pbdb.summary.unresolved = pbdb.resolutions.filter(item => item.resolutionStatus !== 'resolved').length
 pbdb.summary.resolved = pbdb.resolutions.filter(item => item.resolutionStatus === 'resolved').length
-pbdb.summary.needsConceptReview = pbdb.resolutions.filter(item => item.conceptReviewStatus === 'needs-concept-review').length
-pbdb.summary.humanCuratorDecisions = pbdb.resolutions.filter(item => item.humanCuratorDecision).length
+
+
 pbdb.generatedAt = today
 writeJson(pbdbPath, pbdb)
 
-const linkagePath = 'data/indexes/entity-linkage-baseline.json'
-const linkage = readJson(linkagePath)
-linkage.unresolvedEntityIds = [...new Set([...linkage.unresolvedEntityIds, genusId, speciesId])].sort()
-writeJson(linkagePath, linkage)
 
 console.log(JSON.stringify({
   sourceColId: colId,

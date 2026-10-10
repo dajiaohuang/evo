@@ -9,7 +9,6 @@ records:
     name:
       zh: Lagostomus pretrichodactyla
       en: Lagostomus pretrichodactyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

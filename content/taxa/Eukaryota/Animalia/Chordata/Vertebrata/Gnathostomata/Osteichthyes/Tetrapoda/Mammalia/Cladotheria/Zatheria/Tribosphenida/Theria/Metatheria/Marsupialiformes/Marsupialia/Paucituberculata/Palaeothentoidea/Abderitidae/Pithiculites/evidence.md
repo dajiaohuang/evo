@@ -9,7 +9,6 @@ records:
     name:
       zh: Pithiculites
       en: Pithiculites
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

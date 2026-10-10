@@ -9,7 +9,6 @@ records:
     name:
       zh: Neophractus martae
       en: Neophractus martae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

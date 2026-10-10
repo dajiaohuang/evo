@@ -9,7 +9,6 @@ records:
     name:
       zh: Guildayomys hibbardi
       en: Guildayomys hibbardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

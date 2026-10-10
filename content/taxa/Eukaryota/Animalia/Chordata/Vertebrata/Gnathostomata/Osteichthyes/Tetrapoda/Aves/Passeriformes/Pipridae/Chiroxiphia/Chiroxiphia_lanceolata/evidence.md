@@ -9,7 +9,6 @@ records:
     name:
       zh: Chiroxiphia lanceolata
       en: Chiroxiphia lanceolata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachygyia microlepis
       en: Tachygyia microlepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

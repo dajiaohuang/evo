@@ -65,7 +65,7 @@ bytes and 8,012,727 compressed bytes; the largest uncompressed shard is
 native-full profile lists all 44 shards and all 53,415 records.
 
 This is a nomenclatural/source projection, not a biological dossier, fossil
-dataset, distribution-completeness claim, phylogeny or expert review. The
+dataset, distribution-completeness claim, phylogeny. The
 source catalog's own exclusion of fossils is not expanded into a project-wide
 fossil conclusion.
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiolepis rubritaeniata
       en: Leiolepis rubritaeniata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

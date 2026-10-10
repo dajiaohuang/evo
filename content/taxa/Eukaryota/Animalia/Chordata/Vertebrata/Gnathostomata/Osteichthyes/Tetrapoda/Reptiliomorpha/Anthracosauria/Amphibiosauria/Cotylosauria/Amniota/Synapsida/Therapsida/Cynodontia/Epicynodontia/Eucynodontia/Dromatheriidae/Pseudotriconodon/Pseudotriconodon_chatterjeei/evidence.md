@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudotriconodon chatterjeei
       en: Pseudotriconodon chatterjeei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

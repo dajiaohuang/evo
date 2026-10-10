@@ -9,7 +9,6 @@ records:
     name:
       zh: Aigialosaurus dalmaticus
       en: Aigialosaurus dalmaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

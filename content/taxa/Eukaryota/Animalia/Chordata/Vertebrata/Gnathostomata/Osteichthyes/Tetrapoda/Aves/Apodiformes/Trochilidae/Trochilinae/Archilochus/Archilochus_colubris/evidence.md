@@ -9,7 +9,6 @@ records:
     name:
       zh: Archilochus colubris
       en: Archilochus colubris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

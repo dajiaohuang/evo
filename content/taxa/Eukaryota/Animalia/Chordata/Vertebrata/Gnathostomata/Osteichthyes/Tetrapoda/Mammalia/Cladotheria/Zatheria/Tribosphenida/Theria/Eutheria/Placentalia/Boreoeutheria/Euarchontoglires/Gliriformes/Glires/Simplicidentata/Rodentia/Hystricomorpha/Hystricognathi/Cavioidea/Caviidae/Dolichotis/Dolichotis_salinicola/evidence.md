@@ -9,7 +9,6 @@ records:
     name:
       zh: Dolichotis salinicola
       en: Dolichotis salinicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

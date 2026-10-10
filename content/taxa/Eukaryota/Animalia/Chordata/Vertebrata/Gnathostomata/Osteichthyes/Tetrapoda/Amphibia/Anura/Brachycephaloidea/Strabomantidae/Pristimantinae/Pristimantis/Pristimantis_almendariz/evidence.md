@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis almendariz
       zh: Pristimantis almendariz
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

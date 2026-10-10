@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis viridis
       zh: Leptopelis viridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

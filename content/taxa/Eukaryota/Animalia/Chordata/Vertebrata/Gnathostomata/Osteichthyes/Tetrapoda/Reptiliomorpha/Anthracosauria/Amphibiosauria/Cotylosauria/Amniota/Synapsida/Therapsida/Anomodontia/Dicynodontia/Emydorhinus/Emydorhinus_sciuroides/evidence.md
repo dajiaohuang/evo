@@ -9,7 +9,6 @@ records:
     name:
       zh: Emydorhinus sciuroides
       en: Emydorhinus sciuroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

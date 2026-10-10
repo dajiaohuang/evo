@@ -9,7 +9,6 @@ records:
     name:
       zh: Haasiasaurus
       en: Haasiasaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Microtus australis
       en: Microtus australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

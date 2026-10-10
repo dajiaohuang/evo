@@ -9,7 +9,6 @@ records:
     name:
       zh: Pleurosternon moncayensis
       en: Pleurosternon moncayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Isolobodontinae
       en: Isolobodontinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

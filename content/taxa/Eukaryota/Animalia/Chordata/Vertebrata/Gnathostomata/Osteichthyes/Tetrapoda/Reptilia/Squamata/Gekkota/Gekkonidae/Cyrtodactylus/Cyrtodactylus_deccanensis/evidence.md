@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus deccanensis
       en: Cyrtodactylus deccanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

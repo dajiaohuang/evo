@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus versicolor
       zh: Phrynobatrachus versicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

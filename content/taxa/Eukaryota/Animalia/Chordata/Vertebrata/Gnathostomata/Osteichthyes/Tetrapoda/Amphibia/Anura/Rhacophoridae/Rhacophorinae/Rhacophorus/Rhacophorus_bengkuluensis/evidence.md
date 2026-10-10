@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus bengkuluensis
       zh: Rhacophorus bengkuluensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

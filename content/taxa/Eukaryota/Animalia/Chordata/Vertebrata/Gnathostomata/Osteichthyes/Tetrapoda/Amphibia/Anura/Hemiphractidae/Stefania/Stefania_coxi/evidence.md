@@ -9,7 +9,6 @@ records:
     name:
       en: Stefania coxi
       zh: Stefania coxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

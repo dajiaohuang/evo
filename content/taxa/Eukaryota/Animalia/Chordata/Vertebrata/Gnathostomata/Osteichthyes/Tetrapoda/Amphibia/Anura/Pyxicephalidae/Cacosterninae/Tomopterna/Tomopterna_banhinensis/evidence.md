@@ -9,7 +9,6 @@ records:
     name:
       en: Tomopterna banhinensis
       zh: Tomopterna banhinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

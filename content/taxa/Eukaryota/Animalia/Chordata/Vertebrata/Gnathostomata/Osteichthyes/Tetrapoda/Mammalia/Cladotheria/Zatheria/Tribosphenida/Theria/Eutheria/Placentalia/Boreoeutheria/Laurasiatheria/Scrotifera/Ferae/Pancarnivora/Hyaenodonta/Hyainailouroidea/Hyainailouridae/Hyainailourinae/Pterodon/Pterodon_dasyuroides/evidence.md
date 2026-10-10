@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodon dasyuroides
       en: Pterodon dasyuroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

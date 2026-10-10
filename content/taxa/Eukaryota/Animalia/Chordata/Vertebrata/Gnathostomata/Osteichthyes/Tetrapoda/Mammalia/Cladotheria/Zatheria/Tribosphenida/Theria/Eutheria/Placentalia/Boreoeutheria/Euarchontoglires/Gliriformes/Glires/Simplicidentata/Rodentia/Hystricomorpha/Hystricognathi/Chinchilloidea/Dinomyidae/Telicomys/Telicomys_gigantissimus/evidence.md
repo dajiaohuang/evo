@@ -9,7 +9,6 @@ records:
     name:
       zh: Telicomys gigantissimus
       en: Telicomys gigantissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

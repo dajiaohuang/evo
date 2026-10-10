@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa veracrucis
       zh: Bolitoglossa veracrucis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

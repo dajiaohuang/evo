@@ -9,7 +9,6 @@ records:
     name:
       zh: Venenosaurus
       en: Venenosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

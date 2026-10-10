@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus tigroides
       en: Cyrtodactylus tigroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

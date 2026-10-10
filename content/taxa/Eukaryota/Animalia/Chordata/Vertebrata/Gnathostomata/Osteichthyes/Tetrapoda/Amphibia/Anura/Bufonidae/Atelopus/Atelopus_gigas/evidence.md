@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus gigas
       zh: Atelopus gigas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

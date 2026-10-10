@@ -9,7 +9,6 @@ records:
     name:
       zh: Chiromyoides minor
       en: Chiromyoides minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus bifurcus
       zh: Dendropsophus bifurcus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

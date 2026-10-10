@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyaenodon pervagus
       en: Hyaenodon pervagus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

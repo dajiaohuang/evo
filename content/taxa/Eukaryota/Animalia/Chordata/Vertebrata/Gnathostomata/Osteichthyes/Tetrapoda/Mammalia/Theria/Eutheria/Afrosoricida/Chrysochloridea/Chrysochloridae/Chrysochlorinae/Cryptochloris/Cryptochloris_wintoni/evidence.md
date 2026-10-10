@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptochloris wintoni
       en: Cryptochloris wintoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

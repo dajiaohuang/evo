@@ -9,7 +9,6 @@ records:
     name:
       zh: Python molurus
       en: Python molurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

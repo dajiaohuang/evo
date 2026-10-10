@@ -9,7 +9,6 @@ records:
     name:
       en: Novaes’s Bald Uacari
       zh: 诺瓦埃斯秃乌卡里
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: taxonomy

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenerodiopidae
       en: Xenerodiopidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Miosciurus ballovianus
       en: Miosciurus ballovianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

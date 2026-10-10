@@ -9,7 +9,6 @@ records:
     name:
       zh: Dusisiren reinharti
       en: Dusisiren reinharti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mioechinus sansaniensis
       en: Mioechinus sansaniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

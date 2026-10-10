@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus rubicundulus
       zh: Dendropsophus rubicundulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

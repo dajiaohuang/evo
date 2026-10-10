@@ -9,7 +9,6 @@ records:
     name:
       en: Oscaecilia ochrocephala
       zh: Oscaecilia ochrocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia longidigita
       zh: Ansonia longidigita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

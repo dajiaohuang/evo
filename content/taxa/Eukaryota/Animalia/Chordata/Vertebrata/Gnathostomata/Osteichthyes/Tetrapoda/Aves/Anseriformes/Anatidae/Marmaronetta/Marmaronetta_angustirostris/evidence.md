@@ -9,7 +9,6 @@ records:
     name:
       zh: Marmaronetta angustirostris
       en: Marmaronetta angustirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

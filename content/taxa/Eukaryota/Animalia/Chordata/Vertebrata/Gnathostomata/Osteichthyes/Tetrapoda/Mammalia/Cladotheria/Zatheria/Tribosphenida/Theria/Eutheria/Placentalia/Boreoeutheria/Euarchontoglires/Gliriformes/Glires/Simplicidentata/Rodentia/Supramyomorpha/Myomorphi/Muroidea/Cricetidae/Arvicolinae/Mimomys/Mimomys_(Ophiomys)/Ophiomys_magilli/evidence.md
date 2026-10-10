@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophiomys magilli
       en: Ophiomys magilli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

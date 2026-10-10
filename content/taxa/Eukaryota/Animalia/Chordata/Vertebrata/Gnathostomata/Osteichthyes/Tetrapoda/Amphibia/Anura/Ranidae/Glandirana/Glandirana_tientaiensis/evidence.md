@@ -9,7 +9,6 @@ records:
     name:
       en: Glandirana tientaiensis
       zh: Glandirana tientaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

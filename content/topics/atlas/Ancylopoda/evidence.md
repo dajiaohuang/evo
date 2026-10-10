@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: froehlich-1999-basal-perissodactyls concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: froehlich-1999-basal-perissodactyls
@@ -62,7 +59,6 @@ records:
       referenceLocators:
         - referenceId: froehlich-1999-basal-perissodactyls
           locator: pp. 140–159; morphological matrix and cladistic topology; no complete Ancylopoda range synthesis
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

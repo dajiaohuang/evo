@@ -9,7 +9,6 @@ records:
     name:
       zh: Aizengyps toomeyae
       en: Aizengyps toomeyae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

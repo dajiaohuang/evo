@@ -9,7 +9,6 @@ records:
     name:
       zh: Limicorallus saiensis
       en: Limicorallus saiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

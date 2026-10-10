@@ -9,7 +9,6 @@ records:
     name:
       zh: Neoromicia zuluensis
       en: Neoromicia zuluensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

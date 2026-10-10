@@ -8,7 +8,6 @@ records:
       en: Ranoidea kroombitensis
       zh: Ranoidea kroombitensis
     checkedAt: 2026-10-02
-    reviewStatus: source-linked
     sections:
       - topic: overview
         title:
@@ -1205,11 +1204,11 @@ Hoskin, C. J., Hines, H. B., Meyer, E., Clarke, J., & Cunningham, M. (2013). A n
 ## tadpole-traits-reader / limitations
 
 <!-- evo:text /records/tadpole-traits-reader/limitations/en -->
-A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete. No external expert review.
+A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
 <!-- /evo:text -->
 
 ## tadpole-traits-reader / limitations
 
 <!-- evo:text /records/tadpole-traits-reader/limitations/zh -->
-本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成；没有外部专家审评。
+本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。
 <!-- /evo:text -->

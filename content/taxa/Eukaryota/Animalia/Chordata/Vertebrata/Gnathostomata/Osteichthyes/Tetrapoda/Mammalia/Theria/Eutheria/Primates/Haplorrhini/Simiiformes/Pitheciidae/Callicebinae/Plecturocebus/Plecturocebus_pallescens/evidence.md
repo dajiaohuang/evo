@@ -9,7 +9,6 @@ records:
     name:
       zh: 淡色绢毛猴
       en: Pale Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

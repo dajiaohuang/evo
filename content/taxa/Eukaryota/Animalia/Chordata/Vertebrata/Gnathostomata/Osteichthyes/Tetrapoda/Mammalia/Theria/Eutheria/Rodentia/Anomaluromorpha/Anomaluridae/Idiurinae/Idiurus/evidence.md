@@ -9,7 +9,6 @@ records:
     name:
       zh: Idiurus
       en: Idiurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

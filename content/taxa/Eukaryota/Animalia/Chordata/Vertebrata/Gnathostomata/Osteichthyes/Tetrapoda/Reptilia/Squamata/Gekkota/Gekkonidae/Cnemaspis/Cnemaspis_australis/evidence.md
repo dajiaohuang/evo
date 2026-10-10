@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis australis
       en: Cnemaspis australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

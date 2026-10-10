@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: conway-morris-caron-2007-orthrozanclus DOI-linked primary source
       referenceLinks:
         - referenceId: conway-morris-caron-2007-orthrozanclus
           relation: supports

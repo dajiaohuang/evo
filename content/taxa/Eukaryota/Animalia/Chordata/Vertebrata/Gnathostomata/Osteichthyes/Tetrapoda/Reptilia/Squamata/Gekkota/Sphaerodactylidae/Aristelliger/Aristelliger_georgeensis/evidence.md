@@ -9,7 +9,6 @@ records:
     name:
       zh: Aristelliger georgeensis
       en: Aristelliger georgeensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

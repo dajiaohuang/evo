@@ -9,7 +9,6 @@ records:
     name:
       zh: Ducula rosacea
       en: Ducula rosacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

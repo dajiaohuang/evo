@@ -9,7 +9,6 @@ records:
     name:
       zh: Anancus kenyensis
       en: Anancus kenyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

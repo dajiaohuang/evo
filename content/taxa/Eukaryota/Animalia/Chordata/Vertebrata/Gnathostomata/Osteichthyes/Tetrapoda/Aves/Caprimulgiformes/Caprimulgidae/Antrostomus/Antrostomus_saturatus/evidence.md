@@ -9,7 +9,6 @@ records:
     name:
       zh: Antrostomus saturatus
       en: Antrostomus saturatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

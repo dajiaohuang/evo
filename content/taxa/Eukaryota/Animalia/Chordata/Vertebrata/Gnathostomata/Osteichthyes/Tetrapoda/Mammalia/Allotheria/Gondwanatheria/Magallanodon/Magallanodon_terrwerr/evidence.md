@@ -9,7 +9,6 @@ records:
     name:
       zh: Magallanodon terrwerr
       en: Magallanodon terrwerr
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

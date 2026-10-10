@@ -9,7 +9,6 @@ records:
     name:
       zh: Venkatasuchus armatum
       en: Venkatasuchus armatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Micromys bendai
       en: Micromys bendai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

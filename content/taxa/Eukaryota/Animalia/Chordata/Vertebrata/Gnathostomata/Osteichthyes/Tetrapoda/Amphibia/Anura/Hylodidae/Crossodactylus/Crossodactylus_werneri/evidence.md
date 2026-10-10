@@ -9,7 +9,6 @@ records:
     name:
       en: Crossodactylus werneri
       zh: Crossodactylus werneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

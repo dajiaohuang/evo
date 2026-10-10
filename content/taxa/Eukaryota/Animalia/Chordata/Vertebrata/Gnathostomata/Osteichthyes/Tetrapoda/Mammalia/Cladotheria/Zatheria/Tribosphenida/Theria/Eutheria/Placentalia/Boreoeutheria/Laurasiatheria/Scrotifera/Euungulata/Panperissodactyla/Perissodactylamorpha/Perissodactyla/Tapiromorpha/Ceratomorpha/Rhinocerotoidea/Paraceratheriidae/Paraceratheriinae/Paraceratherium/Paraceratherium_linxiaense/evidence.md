@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraceratherium linxiaense
       en: Paraceratherium linxiaense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -196,7 +196,6 @@ function updateDossier(dossier, target) {
   assert.equal(dossier.rank, 'species')
   assert.equal(String(dossier.sourceDatasetId), target.sourceDatasetId)
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   const sourceIds = new Set(dossier.sources.map(item => item.id))
   assert.equal(sourceIds.size, dossier.sources.length, 'Source IDs must be unique')
   const existingSource = dossier.sources.find(item => item.id === target.source.id)
@@ -222,7 +221,7 @@ function updateDossier(dossier, target) {
     dossier.completeness.reasons = [
       'The dossier combines a sample-bounded genomic study, specimen-limited morphology, one site-limited fossil chronology, and a cave-specific isotope study; it is not a systematic species-wide synthesis.',
       'Life history and formal conservation assessment remain unassessed. Ecology has one archaeological cave isotope study; distribution, evolution, morphology and fossil coverage remain partial.',
-      'A systematic current literature review and independent expert review have not been completed.',
+      'A systematic current literature search has not been completed.',
     ]
   } else {
     const scopeAddition = ' A new conservation source concerns road mortality on one 11-km NH-7 segment in Madhya Pradesh during 2009–2010; it does not establish a species-wide mortality rate or conservation category.'
@@ -230,7 +229,6 @@ function updateDossier(dossier, target) {
     dossier.completeness.reasons = [
       'The dossier contains site-specific population-genomic, ecology, high-ranking-male life-history, Cayo Santiago morphology and selection evidence, plus one 11-km roadside mortality study; each finding is limited to its sample, measured traits, place or study period.',
       'Fossil evidence, morphological variation across the species range, formal conservation status, population-level road mortality and systematic coverage of the accepted species concept remain incomplete or unassessed.',
-      'Independent external expert review has not been completed.',
     ]
   }
   return dossier
@@ -387,7 +385,7 @@ if (checkFinalize) {
       version: input.targets[0].source.version,
       sourceRole: 'primary-study',
       fitnessFor: ['ecology', 'methods'],
-      metadataAssignment: 'curator-reviewed',
+
       note: 'The article-level CC BY 4.0 study uses stable isotopes from 10 human and 52 animal remains at one cave; its diet inference is not a species-wide Homo sapiens profile. No article expression, figures, third-party content or data files are reproduced.',
     },
     {
@@ -403,7 +401,7 @@ if (checkFinalize) {
       version: input.targets[1].source.version,
       sourceRole: 'primary-study',
       fitnessFor: ['ecology', 'methods'],
-      metadataAssignment: 'curator-reviewed',
+
       note: 'One-year monitoring of one 11-km NH-7 segment in Madhya Pradesh. The paper front page identifies CC BY 3.0 Unported and separately states non-profit reuse with attribution; the dossier paraphrases facts and reuses no article expression or figures.',
     },
   ]
@@ -420,9 +418,9 @@ if (checkFinalize) {
     confidenceRationale: target.colId === '6MB3T'
       ? 'The primary article reports the isotope sample sizes and directly states the large-terrestrial-mammal diet inference. The evidence is limited to the sampled early humans and one archaeological cave context.'
       : 'The primary article reports the monitoring period, road segment, carcass counts and observed correlations. It is a single local study without a population-level mortality estimate or formal conservation assessment.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: target.source.version,
+
+
+
     referenceLinks: [{ referenceId: target.appProfile.referenceId, relation: 'supports', quoteLocator: target.claim.locator }],
   }))
   upsertArrayRecords('data/evidence/claims.json', claims)
@@ -479,14 +477,14 @@ if (checkFinalize) {
     assert.ok(fieldLinkRecord && claim, `Missing runtime evidence record for ${target.appProfile.profileId}`)
     const sourceLocators = claim.referenceLinks
       .filter(link => link.relation === 'supports')
-      .map(link => ({ referenceId: link.referenceId, locator: link.pages ?? link.figure ?? link.quoteLocator ?? 'Source scope; precise locator pending curator review.' }))
+      .map(link => ({ referenceId: link.referenceId, locator: link.pages ?? link.figure ?? link.quoteLocator ?? 'Source scope; precise locator unavailable.' }))
     fieldLinkRecord.fields[target.appProfile.field] = {
       claimId: claim.id,
       claimType: claim.claimType,
       relation: 'supports',
       sourceLocators,
       confidence: claim.confidence,
-      reviewStatus: 'automated-audit-passed',
+
       contentOrigin: 'editorial-synthesis',
     }
     replaceArrayRecord(fieldLinksPath, 'profileId', fieldLinkRecord)

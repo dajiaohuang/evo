@@ -112,7 +112,6 @@ function readQueueRow(item, queueManifest) {
   } else {
     assert.equal(row.dossier.status, 'missing')
     assert.equal(row.dossier.claimCount, 0)
-    assert.equal(row.dossier.expertReviewStatus, 'no-dossier')
     assert.ok(Object.values(row.dossier.facetStatuses).every(status => status === 'not-assessed'))
   }
   return { row, lineSha256: sha256(rowBytes), shard }
@@ -161,11 +160,10 @@ function buildDossier(item) {
       status: 'incomplete',
       reasons: item.completenessReasons,
     },
-    expertReview: { status: 'not-reviewed', reviewers: [] },
+
   }
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort(), `Missing facets for ${target.colId}`)
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   const sourceIds = new Set(sources.map(source => source.id))
   assert.equal(sourceIds.size, sources.length, `Duplicate source IDs for ${target.colId}`)
   for (const [facetName, facet] of Object.entries(dossier.facets)) {
@@ -301,7 +299,7 @@ const batchManifest = {
       facets: FACETS.filter(facet => item.dossier.facets[facet].status === 'not-assessed'),
     })),
     completeDossiersAdded: 0,
-    externallyReviewedDossiersAdded: 0,
+
   },
   queueAudit: {
     queueManifestSha256Before: input.audit.queueManifestSha256,
@@ -332,7 +330,7 @@ const batchManifest = {
   dossierCountAfter: nextIndex.recordCount,
   generator: 'scripts/build-cross-clade-evidence-batch-2026-09-28-d.mjs',
   fullDossierCountAdded: 0,
-  expertReviewedDossierCountAdded: 0,
+
 }
 const batchManifestBytes = Buffer.from(`${JSON.stringify(batchManifest, null, 2)}\n`, 'utf8')
 

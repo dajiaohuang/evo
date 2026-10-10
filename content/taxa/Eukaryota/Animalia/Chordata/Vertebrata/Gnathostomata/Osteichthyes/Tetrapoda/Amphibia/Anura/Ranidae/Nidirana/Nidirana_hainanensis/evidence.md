@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana hainanensis
       zh: Nidirana hainanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

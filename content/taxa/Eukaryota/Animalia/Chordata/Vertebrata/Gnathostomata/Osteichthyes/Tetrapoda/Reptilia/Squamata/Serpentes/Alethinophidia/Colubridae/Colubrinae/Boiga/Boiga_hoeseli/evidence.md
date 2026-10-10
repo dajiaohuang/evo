@@ -9,7 +9,6 @@ records:
     name:
       zh: Boiga hoeseli
       en: Boiga hoeseli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

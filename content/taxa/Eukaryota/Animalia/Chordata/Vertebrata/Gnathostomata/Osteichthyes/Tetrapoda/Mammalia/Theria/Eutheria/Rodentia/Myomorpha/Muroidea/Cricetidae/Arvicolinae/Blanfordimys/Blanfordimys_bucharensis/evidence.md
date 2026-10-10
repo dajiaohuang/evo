@@ -9,7 +9,6 @@ records:
     name:
       zh: Blanfordimys bucharensis
       en: Blanfordimys bucharensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

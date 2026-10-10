@@ -9,7 +9,6 @@ records:
     name:
       en: Dyscophus insularis
       zh: Dyscophus insularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

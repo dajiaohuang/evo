@@ -9,7 +9,6 @@ records:
     name:
       en: Beduka koynayensis
       zh: Beduka koynayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

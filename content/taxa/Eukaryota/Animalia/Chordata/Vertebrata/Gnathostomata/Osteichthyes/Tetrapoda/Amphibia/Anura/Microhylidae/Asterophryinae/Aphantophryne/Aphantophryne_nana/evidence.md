@@ -9,7 +9,6 @@ records:
     name:
       en: Aphantophryne nana
       zh: Aphantophryne nana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

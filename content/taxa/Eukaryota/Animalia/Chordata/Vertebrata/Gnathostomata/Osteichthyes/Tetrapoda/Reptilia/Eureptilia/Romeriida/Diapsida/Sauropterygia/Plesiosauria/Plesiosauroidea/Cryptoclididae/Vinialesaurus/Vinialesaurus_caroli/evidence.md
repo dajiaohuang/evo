@@ -9,7 +9,6 @@ records:
     name:
       zh: Vinialesaurus caroli
       en: Vinialesaurus caroli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

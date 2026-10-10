@@ -9,7 +9,6 @@ records:
     name:
       zh: Hexaprotodon coryndoni
       en: Hexaprotodon coryndoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

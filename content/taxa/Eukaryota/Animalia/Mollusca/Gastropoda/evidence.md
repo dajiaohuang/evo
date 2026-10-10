@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: zapata-2014-gastropod-phylogenomics
       referenceLinks:
         - referenceId: zapata-2014-gastropod-phylogenomics
           relation: supports
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: zapata-2014-gastropod-phylogenomics
           locator: Article 20141739; pp. 2–3, Taxon sampling; Figure 2 matrices; Figure 3 topology
-      reviewStatus: automated-audit-passed
 ---
 
 # Gastropoda

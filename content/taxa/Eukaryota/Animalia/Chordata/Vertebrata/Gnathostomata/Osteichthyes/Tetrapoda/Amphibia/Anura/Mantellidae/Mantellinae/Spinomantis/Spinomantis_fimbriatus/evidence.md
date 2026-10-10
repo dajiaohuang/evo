@@ -9,7 +9,6 @@ records:
     name:
       en: Spinomantis fimbriatus
       zh: Spinomantis fimbriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

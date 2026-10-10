@@ -9,7 +9,6 @@ records:
     name:
       en: Hylodes pipilans
       zh: Hylodes pipilans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

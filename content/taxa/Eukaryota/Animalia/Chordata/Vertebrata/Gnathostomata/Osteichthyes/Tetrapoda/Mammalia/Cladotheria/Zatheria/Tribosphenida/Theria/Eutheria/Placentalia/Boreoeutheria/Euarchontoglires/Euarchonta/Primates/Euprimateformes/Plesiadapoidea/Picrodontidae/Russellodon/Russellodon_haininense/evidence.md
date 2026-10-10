@@ -9,7 +9,6 @@ records:
     name:
       zh: Russellodon haininense
       en: Russellodon haininense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lumbrerasaurus scagliai
       en: Lumbrerasaurus scagliai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

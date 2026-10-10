@@ -9,7 +9,6 @@ records:
     name:
       zh: Macropus (Notamacropus) greyi
       en: Macropus (Notamacropus) greyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

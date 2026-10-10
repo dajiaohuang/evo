@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipile jacutinga
       en: Pipile jacutinga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

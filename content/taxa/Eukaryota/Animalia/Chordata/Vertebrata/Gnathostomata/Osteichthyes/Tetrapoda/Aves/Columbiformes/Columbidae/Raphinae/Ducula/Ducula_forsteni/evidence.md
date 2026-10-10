@@ -9,7 +9,6 @@ records:
     name:
       zh: Ducula forsteni
       en: Ducula forsteni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

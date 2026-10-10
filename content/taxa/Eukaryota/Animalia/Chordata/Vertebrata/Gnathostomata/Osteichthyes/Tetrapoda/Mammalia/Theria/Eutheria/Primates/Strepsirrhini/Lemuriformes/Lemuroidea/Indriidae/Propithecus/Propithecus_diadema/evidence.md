@@ -9,7 +9,6 @@ records:
     name:
       en: Diademed Sifaka
       zh: 冠冕西法卡
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding

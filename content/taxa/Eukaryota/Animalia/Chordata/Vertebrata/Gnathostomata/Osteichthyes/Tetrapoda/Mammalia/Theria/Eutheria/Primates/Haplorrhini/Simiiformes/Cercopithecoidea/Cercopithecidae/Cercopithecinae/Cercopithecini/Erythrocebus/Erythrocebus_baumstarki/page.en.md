@@ -28,5 +28,5 @@ The 2021 paper reports the first evidence for E. baumstarki in Kenya and combine
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The Tanzanian paper uses the pre-split subspecies combination and combines several kinds of locality evidence; its estimates are historical. The 2021 review’s estimates are not a live census. MDD v2.5 lists the authority year as 1906, while COL26.8 lists 1905; the pinned COL identity is retained. The Chinese common name is editorial; this page has not been externally expert-reviewed. This page is not externally expert-reviewed.
+The Tanzanian paper uses the pre-split subspecies combination and combines several kinds of locality evidence; its estimates are historical. The 2021 review’s estimates are not a live census. MDD v2.5 lists the authority year as 1906, while COL26.8 lists 1905; the pinned COL identity is retained. The Chinese common name is editorial. This page is.
 <!-- /evo:text -->

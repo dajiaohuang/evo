@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramelomys gressitti
       en: Paramelomys gressitti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

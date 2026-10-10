@@ -9,7 +9,6 @@ records:
     name:
       zh: Anomochilus leonardi
       en: Anomochilus leonardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipestoneia douglassi
       en: Pipestoneia douglassi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

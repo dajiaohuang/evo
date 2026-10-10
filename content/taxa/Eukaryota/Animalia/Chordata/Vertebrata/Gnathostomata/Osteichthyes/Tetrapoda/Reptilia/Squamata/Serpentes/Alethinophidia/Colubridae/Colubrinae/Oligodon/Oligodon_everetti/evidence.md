@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligodon everetti
       en: Oligodon everetti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Delma inornata
       en: Delma inornata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

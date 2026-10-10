@@ -9,7 +9,6 @@ records:
     name:
       en: Micrixalus nudis
       zh: Micrixalus nudis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

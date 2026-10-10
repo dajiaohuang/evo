@@ -9,7 +9,6 @@ records:
     name:
       zh: Democricetodon fejfari
       en: Democricetodon fejfari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

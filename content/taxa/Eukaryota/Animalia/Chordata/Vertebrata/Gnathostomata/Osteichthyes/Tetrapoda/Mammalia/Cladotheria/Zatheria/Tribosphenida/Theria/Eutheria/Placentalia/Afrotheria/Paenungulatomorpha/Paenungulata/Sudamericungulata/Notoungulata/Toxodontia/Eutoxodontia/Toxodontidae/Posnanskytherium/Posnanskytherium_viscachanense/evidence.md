@@ -9,7 +9,6 @@ records:
     name:
       zh: Posnanskytherium viscachanense
       en: Posnanskytherium viscachanense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

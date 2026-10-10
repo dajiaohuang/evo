@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis varia
       en: Trachylepis varia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

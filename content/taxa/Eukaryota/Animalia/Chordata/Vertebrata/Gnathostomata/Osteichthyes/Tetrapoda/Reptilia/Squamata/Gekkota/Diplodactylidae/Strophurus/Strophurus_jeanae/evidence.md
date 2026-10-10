@@ -9,7 +9,6 @@ records:
     name:
       zh: Strophurus jeanae
       en: Strophurus jeanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

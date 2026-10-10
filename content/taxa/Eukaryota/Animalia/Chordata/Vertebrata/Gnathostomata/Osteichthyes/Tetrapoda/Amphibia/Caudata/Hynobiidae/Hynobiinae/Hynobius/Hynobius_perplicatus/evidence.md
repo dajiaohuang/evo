@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius perplicatus
       zh: Hynobius perplicatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

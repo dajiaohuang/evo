@@ -9,7 +9,6 @@ records:
     name:
       zh: Nactus pelagicus
       en: Nactus pelagicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

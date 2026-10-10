@@ -9,7 +9,6 @@ records:
     name:
       zh: Proneotherium repenningi
       en: Proneotherium repenningi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

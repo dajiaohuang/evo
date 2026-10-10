@@ -9,7 +9,6 @@ records:
     name:
       zh: Gorgonops kaiseri
       en: Gorgonops kaiseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

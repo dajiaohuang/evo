@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys strussmannae
       zh: Proceratophrys strussmannae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

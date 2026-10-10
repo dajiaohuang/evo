@@ -9,7 +9,6 @@ records:
     name:
       zh: Saltator maxillosus
       en: Saltator maxillosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

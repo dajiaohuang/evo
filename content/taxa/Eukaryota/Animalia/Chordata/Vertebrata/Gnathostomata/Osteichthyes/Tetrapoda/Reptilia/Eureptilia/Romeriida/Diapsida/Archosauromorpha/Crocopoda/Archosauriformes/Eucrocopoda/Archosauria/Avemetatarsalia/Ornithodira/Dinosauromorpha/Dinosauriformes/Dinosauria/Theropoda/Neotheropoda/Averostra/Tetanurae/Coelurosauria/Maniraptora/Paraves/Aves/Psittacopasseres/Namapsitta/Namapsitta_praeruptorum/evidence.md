@@ -9,7 +9,6 @@ records:
     name:
       zh: Namapsitta praeruptorum
       en: Namapsitta praeruptorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

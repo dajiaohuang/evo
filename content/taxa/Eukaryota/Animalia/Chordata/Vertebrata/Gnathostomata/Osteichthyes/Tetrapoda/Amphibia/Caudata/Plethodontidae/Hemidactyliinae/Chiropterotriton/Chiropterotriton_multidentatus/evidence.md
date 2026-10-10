@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton multidentatus
       zh: Chiropterotriton multidentatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

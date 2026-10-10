@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalassarche cauta
       en: Thalassarche cauta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

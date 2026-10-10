@@ -9,7 +9,6 @@ records:
     name:
       zh: Eliurus tanala
       en: Eliurus tanala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

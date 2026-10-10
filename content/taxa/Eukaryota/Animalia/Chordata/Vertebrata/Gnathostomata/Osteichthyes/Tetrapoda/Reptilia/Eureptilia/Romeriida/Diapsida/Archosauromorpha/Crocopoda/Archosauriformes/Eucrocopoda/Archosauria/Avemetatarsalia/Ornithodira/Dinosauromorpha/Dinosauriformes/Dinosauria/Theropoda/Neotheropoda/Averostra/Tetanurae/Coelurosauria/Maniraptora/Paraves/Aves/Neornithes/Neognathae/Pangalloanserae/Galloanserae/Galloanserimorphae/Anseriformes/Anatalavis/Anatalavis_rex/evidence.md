@@ -9,7 +9,6 @@ records:
     name:
       zh: Anatalavis rex
       en: Anatalavis rex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

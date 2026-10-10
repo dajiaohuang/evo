@@ -9,7 +9,6 @@ records:
     name:
       zh: Carlia ailanpalai
       en: Carlia ailanpalai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

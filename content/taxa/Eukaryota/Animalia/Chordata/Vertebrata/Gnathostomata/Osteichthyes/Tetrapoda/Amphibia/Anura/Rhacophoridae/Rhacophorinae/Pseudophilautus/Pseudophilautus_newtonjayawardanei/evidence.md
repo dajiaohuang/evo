@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus newtonjayawardanei
       zh: Pseudophilautus newtonjayawardanei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

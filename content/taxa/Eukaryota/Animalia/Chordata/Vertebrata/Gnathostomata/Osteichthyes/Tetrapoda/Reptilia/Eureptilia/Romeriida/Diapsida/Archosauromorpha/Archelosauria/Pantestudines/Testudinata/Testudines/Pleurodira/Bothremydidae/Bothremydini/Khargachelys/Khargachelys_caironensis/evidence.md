@@ -9,7 +9,6 @@ records:
     name:
       zh: Khargachelys caironensis
       en: Khargachelys caironensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

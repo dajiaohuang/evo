@@ -9,7 +9,6 @@ records:
     name:
       zh: Beckiasorex hibbardi
       en: Beckiasorex hibbardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

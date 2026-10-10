@@ -9,7 +9,6 @@ records:
     name:
       zh: Tringa glareola
       en: Tringa glareola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapirus (Helicotapirus) veroensis
       en: Tapirus (Helicotapirus) veroensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 帽叶猴
       en: Capped Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

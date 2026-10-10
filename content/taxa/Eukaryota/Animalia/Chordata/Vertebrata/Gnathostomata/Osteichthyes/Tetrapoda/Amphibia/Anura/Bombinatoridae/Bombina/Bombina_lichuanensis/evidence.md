@@ -9,7 +9,6 @@ records:
     name:
       en: Bombina lichuanensis
       zh: Bombina lichuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

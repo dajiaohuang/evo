@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyonosaurus kitchingi
       en: Cyonosaurus kitchingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

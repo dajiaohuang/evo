@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctixalus pictus
       zh: Nyctixalus pictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

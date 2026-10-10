@@ -9,7 +9,6 @@ records:
     name:
       en: Nanorana hazarensis
       zh: Nanorana hazarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

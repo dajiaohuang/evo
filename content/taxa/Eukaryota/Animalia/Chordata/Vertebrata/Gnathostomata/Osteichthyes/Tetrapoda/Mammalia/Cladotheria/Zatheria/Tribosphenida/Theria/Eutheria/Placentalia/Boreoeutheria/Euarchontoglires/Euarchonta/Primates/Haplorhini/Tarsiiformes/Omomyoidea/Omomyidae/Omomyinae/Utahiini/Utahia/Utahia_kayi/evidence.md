@@ -9,7 +9,6 @@ records:
     name:
       zh: Utahia kayi
       en: Utahia kayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

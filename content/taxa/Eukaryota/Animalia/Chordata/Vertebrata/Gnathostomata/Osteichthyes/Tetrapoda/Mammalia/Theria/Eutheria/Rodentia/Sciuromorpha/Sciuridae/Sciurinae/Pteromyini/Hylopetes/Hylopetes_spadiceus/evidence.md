@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylopetes spadiceus
       en: Hylopetes spadiceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus cupreus
       en: Sceloporus cupreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

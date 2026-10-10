@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys subguttata
       zh: Proceratophrys subguttata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

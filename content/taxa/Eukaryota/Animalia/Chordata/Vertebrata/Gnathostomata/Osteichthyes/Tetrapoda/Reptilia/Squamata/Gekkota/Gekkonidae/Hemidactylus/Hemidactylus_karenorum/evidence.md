@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus karenorum
       en: Hemidactylus karenorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

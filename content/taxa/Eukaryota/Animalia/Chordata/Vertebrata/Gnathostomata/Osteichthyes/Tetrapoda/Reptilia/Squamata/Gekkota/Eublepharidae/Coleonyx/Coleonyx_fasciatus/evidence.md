@@ -9,7 +9,6 @@ records:
     name:
       zh: Coleonyx fasciatus
       en: Coleonyx fasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

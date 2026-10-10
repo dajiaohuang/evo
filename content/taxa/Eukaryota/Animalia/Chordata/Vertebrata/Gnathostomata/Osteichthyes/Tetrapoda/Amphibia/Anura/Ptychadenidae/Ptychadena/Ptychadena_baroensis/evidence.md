@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena baroensis
       zh: Ptychadena baroensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

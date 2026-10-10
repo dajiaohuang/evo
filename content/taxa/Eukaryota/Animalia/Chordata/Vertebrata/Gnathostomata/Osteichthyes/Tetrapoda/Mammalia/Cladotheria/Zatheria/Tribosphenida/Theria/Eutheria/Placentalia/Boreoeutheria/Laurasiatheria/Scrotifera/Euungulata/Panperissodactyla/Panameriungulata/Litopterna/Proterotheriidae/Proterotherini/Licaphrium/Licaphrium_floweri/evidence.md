@@ -9,7 +9,6 @@ records:
     name:
       zh: Licaphrium floweri
       en: Licaphrium floweri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

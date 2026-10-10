@@ -9,7 +9,6 @@ records:
     name:
       zh: Yaminuechelys maior
       en: Yaminuechelys maior
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

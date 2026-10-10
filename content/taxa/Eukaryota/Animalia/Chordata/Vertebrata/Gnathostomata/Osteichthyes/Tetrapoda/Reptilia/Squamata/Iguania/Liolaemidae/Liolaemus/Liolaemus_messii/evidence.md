@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus messii
       en: Liolaemus messii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

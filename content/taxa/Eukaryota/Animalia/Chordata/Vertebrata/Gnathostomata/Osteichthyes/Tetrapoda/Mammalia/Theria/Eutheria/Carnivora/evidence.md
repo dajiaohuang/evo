@@ -9,7 +9,6 @@ records:
     name:
       zh: 食肉目
       en: Carnivora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -549,9 +548,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: sole-2014-dormaalocyon primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: sole-2014-dormaalocyon
           relation: supports
@@ -587,7 +583,6 @@ records:
       referenceLocators:
         - referenceId: sole-2014-dormaalocyon
           locator: pp. 1–21; Figures 3 and 8–10; Appendices 1–3
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

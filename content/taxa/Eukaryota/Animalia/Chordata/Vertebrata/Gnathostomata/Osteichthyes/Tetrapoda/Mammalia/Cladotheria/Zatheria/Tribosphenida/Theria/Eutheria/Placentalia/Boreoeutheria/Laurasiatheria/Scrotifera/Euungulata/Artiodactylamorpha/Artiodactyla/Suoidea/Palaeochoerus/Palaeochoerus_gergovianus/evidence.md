@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeochoerus gergovianus
       en: Palaeochoerus gergovianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

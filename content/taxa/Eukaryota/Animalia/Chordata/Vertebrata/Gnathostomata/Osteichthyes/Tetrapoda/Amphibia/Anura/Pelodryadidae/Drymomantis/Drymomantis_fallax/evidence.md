@@ -9,7 +9,6 @@ records:
     name:
       en: Drymomantis fallax
       zh: Drymomantis fallax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

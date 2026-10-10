@@ -28,5 +28,5 @@ Ambrose 在加蓬、喀麦隆与比奥科岛的十个地点，对当时归作 Ga
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-主要证据是一项使用历史广义名称 Galago alleni 的区域声学研究；它不能确定当前种群数量、变化趋势、全域生态，也不能裁决 cameronensis 的分类边界。中文名为编辑译名，本页尚未经过外部领域专家评审。
+主要证据是一项使用历史广义名称 Galago alleni 的区域声学研究；它不能确定当前种群数量、变化趋势、全域生态，也不能裁决 cameronensis 的分类边界。中文名为编辑译名。
 <!-- /evo:text -->

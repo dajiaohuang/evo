@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocolopteryx sclateri
       en: Pseudocolopteryx sclateri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

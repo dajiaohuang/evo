@@ -9,7 +9,6 @@ records:
     name:
       zh: Myophonus melanurus
       en: Myophonus melanurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

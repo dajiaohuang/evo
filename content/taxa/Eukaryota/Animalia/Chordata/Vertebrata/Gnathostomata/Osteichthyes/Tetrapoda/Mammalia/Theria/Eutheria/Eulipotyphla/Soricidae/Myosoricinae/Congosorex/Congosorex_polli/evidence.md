@@ -9,7 +9,6 @@ records:
     name:
       zh: Congosorex polli
       en: Congosorex polli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

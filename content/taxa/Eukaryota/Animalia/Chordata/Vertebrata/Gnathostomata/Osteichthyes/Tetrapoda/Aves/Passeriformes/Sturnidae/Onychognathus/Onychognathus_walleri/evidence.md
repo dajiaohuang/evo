@@ -9,7 +9,6 @@ records:
     name:
       zh: Onychognathus walleri
       en: Onychognathus walleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

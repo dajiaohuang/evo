@@ -9,7 +9,6 @@ records:
     name:
       zh: Nactus serpensinsula
       en: Nactus serpensinsula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

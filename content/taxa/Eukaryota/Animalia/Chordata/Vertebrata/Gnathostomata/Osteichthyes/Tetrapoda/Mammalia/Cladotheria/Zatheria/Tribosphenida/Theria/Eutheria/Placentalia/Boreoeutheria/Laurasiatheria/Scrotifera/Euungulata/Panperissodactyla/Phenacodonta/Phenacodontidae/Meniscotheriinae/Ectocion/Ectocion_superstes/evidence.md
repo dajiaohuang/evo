@@ -9,7 +9,6 @@ records:
     name:
       zh: Ectocion superstes
       en: Ectocion superstes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

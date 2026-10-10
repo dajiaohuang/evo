@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus bufonoides
       zh: Brachycephalus bufonoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

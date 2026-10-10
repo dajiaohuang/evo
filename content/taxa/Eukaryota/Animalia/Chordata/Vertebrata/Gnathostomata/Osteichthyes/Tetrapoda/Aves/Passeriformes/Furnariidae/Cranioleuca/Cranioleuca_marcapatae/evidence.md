@@ -9,7 +9,6 @@ records:
     name:
       zh: Cranioleuca marcapatae
       en: Cranioleuca marcapatae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

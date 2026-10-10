@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothrops ayerbei
       en: Bothrops ayerbei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

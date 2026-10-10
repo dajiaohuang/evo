@@ -34,5 +34,5 @@ Cerro Ancón 自然保护区研究在 2019 年 8 月至 2020 年 3 月沿 1.75 �
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-三个研究分别来自多地点短期调查、两个林冠研究点和 Cerro Ancón 单一保护区；其密度、观测时数和林冠指标不能合并成全种参数。野外来源使用 Saguinus geoffroyi 组合，页面分类身份仍按固定 COL26.8 ID。尚未经过外部领域专家评审。
+三个研究分别来自多地点短期调查、两个林冠研究点和 Cerro Ancón 单一保护区；其密度、观测时数和林冠指标不能合并成全种参数。野外来源使用 Saguinus geoffroyi 组合，页面分类身份仍按固定 COL26.8 ID。。
 <!-- /evo:text -->

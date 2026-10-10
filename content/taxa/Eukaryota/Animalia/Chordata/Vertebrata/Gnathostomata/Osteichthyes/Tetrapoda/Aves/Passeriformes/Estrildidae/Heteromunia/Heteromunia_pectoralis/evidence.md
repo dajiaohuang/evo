@@ -9,7 +9,6 @@ records:
     name:
       zh: Heteromunia pectoralis
       en: Heteromunia pectoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

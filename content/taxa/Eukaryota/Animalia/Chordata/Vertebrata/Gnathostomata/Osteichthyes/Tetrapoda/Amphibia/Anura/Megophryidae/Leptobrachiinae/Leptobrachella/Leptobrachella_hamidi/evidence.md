@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella hamidi
       zh: Leptobrachella hamidi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

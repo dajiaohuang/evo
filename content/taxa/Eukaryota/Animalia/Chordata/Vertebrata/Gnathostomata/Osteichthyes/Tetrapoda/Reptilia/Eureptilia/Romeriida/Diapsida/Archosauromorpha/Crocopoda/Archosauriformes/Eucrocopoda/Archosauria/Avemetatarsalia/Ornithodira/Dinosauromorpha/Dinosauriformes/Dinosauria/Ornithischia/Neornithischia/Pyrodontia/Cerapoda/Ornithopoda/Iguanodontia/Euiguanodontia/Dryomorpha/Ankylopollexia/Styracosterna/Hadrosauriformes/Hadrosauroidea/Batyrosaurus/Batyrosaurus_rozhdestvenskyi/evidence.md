@@ -9,7 +9,6 @@ records:
     name:
       zh: Batyrosaurus rozhdestvenskyi
       en: Batyrosaurus rozhdestvenskyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

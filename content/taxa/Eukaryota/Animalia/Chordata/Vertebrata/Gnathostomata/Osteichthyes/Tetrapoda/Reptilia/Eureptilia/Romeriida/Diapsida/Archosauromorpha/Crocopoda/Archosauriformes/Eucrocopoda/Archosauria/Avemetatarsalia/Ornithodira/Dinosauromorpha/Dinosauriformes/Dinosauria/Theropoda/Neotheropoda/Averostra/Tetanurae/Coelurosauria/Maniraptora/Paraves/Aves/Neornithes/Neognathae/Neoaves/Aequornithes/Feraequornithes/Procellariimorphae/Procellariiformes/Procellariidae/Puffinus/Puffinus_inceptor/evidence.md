@@ -9,7 +9,6 @@ records:
     name:
       zh: Puffinus inceptor
       en: Puffinus inceptor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liopleurodon pachydeirus
       en: Liopleurodon pachydeirus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

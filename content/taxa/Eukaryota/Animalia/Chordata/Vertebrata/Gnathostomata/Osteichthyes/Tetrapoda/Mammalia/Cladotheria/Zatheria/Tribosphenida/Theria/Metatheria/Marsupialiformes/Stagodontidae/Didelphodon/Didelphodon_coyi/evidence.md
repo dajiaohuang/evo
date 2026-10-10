@@ -9,7 +9,6 @@ records:
     name:
       zh: Didelphodon coyi
       en: Didelphodon coyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

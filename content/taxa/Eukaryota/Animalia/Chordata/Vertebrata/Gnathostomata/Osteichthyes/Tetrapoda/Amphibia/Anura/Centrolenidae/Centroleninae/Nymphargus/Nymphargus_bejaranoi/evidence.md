@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus bejaranoi
       zh: Nymphargus bejaranoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

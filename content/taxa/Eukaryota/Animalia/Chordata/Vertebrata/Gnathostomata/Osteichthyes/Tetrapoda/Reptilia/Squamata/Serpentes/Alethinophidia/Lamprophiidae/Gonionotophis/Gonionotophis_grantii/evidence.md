@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonionotophis grantii
       en: Gonionotophis grantii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

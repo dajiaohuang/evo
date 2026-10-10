@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrelaphis terrificus
       en: Dendrelaphis terrificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

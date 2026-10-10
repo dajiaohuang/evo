@@ -9,7 +9,6 @@ records:
     name:
       zh: Platygonus compressus
       en: Platygonus compressus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

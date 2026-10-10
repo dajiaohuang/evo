@@ -22,5 +22,5 @@ The review distinguishes examined specimens, unexamined specimens, literature, p
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The Paraguayan review notes a record base weighted toward older specimens and evidence of varying reliability; departmental occurrences do not replace surveys of neighboring countries or current distribution. The Chinese name is editorial; this guide is not externally expert-reviewed.
+The Paraguayan review notes a record base weighted toward older specimens and evidence of varying reliability; departmental occurrences do not replace surveys of neighboring countries or current distribution. The Chinese name is editorial; this guide is.
 <!-- /evo:text -->

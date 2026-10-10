@@ -9,7 +9,6 @@ records:
     name:
       en: Epipedobates anthonyi
       zh: Epipedobates anthonyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

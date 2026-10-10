@@ -9,7 +9,6 @@ records:
     name:
       zh: Larutia penangensis
       en: Larutia penangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

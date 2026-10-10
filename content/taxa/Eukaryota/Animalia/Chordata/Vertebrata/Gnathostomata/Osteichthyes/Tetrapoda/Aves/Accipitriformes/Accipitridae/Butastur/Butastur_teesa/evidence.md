@@ -9,7 +9,6 @@ records:
     name:
       zh: Butastur teesa
       en: Butastur teesa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

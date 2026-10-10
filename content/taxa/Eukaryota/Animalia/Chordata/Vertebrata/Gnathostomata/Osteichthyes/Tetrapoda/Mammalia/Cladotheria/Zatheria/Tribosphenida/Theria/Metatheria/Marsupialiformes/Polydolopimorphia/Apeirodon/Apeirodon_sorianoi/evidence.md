@@ -9,7 +9,6 @@ records:
     name:
       zh: Apeirodon sorianoi
       en: Apeirodon sorianoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

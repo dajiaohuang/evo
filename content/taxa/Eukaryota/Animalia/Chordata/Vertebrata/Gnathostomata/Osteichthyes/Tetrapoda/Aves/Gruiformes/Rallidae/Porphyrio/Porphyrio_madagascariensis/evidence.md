@@ -9,7 +9,6 @@ records:
     name:
       zh: Porphyrio madagascariensis
       en: Porphyrio madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

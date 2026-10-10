@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo sphaerica
       en: Testudo sphaerica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

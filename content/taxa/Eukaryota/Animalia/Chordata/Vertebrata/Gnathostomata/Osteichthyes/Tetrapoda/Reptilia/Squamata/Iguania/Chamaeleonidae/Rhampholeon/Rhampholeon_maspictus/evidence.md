@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhampholeon maspictus
       en: Rhampholeon maspictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

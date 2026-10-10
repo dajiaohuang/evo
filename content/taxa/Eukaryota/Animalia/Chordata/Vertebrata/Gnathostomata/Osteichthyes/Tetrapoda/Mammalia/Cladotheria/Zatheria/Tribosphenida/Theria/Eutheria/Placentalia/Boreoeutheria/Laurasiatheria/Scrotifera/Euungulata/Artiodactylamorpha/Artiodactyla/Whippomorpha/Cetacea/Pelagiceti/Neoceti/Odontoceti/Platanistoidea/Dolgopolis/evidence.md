@@ -9,7 +9,6 @@ records:
     name:
       zh: Dolgopolis
       en: Dolgopolis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptoprocta ferox
       en: Cryptoprocta ferox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

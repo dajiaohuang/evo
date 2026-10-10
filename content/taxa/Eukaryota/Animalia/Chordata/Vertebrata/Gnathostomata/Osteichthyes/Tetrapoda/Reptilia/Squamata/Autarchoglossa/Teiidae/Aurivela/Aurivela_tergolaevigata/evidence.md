@@ -9,7 +9,6 @@ records:
     name:
       zh: Aurivela tergolaevigata
       en: Aurivela tergolaevigata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

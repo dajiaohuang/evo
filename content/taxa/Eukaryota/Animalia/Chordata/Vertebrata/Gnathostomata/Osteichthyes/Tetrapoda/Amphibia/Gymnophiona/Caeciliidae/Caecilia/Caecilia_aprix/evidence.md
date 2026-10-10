@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia aprix
       zh: Caecilia aprix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

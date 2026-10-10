@@ -9,7 +9,6 @@ records:
     name:
       en: Makande Squirrel Galago
       zh: 马坎代松鼠婴猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

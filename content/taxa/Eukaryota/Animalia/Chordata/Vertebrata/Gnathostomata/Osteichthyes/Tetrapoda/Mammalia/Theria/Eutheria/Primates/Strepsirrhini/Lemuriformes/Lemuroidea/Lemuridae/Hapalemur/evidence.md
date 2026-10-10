@@ -9,7 +9,6 @@ records:
     name:
       zh: 竹狐猴属
       en: Bamboo Lemurs
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

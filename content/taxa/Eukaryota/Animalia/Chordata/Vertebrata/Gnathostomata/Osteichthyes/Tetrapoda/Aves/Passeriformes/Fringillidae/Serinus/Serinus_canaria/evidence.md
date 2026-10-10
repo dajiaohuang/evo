@@ -9,7 +9,6 @@ records:
     name:
       zh: Serinus canaria
       en: Serinus canaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

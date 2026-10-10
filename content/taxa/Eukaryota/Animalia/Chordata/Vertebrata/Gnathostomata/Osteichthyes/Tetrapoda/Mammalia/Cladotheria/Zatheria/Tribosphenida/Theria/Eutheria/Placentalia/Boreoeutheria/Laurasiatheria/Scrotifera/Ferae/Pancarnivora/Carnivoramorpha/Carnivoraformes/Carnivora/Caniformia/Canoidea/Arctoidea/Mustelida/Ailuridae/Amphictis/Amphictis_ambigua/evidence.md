@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphictis ambigua
       en: Amphictis ambigua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

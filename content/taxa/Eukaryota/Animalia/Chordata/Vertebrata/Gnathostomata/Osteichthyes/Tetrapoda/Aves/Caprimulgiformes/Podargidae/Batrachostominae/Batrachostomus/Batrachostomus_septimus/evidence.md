@@ -9,7 +9,6 @@ records:
     name:
       zh: Batrachostomus septimus
       en: Batrachostomus septimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

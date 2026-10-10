@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys danielae
       zh: Sclerophrys danielae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

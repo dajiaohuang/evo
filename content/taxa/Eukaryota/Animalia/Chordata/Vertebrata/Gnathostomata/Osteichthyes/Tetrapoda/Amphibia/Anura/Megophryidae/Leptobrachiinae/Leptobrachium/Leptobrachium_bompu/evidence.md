@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachium bompu
       zh: Leptobrachium bompu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

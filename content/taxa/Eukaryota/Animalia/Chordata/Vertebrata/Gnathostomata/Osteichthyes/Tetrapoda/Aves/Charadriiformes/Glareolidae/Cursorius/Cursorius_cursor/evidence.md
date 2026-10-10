@@ -9,7 +9,6 @@ records:
     name:
       zh: Cursorius cursor
       en: Cursorius cursor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

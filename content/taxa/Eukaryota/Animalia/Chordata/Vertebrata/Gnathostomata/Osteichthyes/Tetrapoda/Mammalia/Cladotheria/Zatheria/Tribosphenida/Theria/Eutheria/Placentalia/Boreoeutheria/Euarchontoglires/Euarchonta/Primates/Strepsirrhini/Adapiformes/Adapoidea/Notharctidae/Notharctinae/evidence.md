@@ -9,7 +9,6 @@ records:
     name:
       zh: Notharctinae
       en: Notharctinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

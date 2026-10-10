@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidothrix coeruleocapilla
       en: Lepidothrix coeruleocapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

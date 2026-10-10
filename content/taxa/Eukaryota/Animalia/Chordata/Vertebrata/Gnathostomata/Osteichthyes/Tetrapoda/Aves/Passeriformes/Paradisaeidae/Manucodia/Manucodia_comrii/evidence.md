@@ -9,7 +9,6 @@ records:
     name:
       zh: Manucodia comrii
       en: Manucodia comrii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

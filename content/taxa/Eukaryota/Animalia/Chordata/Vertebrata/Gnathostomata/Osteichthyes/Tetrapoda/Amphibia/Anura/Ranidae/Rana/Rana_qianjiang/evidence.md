@@ -9,7 +9,6 @@ records:
     name:
       en: Rana qianjiang
       zh: Rana qianjiang
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus schioetzi
       zh: Phrynobatrachus schioetzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

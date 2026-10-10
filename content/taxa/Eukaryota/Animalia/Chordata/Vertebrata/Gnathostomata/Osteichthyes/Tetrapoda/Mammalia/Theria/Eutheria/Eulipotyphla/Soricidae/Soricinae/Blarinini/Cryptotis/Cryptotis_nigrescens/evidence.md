@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptotis nigrescens
       en: Cryptotis nigrescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zonosaurus bemaraha
       en: Zonosaurus bemaraha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

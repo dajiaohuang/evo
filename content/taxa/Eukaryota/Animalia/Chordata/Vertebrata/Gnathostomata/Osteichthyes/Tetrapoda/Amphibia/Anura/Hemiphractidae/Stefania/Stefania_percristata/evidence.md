@@ -9,7 +9,6 @@ records:
     name:
       en: Stefania percristata
       zh: Stefania percristata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

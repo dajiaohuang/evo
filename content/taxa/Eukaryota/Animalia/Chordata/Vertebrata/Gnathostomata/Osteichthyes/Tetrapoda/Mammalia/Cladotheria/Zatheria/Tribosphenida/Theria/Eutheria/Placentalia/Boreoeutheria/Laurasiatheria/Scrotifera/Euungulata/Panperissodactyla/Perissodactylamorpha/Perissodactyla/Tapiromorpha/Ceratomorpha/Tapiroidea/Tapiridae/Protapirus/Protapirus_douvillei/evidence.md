@@ -9,7 +9,6 @@ records:
     name:
       zh: Protapirus douvillei
       en: Protapirus douvillei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

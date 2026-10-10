@@ -9,7 +9,6 @@ records:
     name:
       zh: Arfia junnei
       en: Arfia junnei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

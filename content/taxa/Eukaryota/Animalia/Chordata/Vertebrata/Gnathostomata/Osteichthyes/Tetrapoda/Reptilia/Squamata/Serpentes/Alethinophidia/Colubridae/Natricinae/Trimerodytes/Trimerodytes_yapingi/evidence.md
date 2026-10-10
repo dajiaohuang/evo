@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimerodytes yapingi
       en: Trimerodytes yapingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

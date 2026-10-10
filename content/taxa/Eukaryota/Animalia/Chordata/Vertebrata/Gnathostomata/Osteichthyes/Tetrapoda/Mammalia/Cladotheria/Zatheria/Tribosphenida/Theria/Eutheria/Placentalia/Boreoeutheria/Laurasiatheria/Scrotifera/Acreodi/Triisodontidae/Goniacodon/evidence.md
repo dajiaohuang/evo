@@ -9,7 +9,6 @@ records:
     name:
       zh: Goniacodon
       en: Goniacodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 髭狨
       en: Mustached Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

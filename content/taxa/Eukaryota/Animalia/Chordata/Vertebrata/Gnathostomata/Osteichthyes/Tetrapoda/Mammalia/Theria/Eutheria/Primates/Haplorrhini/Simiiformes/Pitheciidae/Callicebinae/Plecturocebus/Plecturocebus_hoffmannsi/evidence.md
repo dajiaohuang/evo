@@ -9,7 +9,6 @@ records:
     name:
       zh: 霍夫曼绢毛猴
       en: Hoffmann's Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

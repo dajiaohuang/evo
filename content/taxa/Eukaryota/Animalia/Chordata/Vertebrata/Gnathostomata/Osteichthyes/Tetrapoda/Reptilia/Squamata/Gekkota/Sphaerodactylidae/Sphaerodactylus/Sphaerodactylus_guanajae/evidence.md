@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus guanajae
       en: Sphaerodactylus guanajae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

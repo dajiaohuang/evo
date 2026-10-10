@@ -9,7 +9,6 @@ records:
     name:
       zh: Coelodontognathus donensis
       en: Coelodontognathus donensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

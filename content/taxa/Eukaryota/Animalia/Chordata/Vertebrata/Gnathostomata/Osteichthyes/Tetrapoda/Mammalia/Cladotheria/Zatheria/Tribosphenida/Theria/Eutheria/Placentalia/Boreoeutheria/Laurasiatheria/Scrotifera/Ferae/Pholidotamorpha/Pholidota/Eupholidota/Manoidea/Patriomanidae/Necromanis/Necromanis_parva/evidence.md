@@ -9,7 +9,6 @@ records:
     name:
       zh: Necromanis parva
       en: Necromanis parva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

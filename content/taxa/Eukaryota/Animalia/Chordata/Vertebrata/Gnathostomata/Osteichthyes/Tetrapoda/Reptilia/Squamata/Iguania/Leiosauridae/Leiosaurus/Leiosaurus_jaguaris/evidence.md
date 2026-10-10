@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiosaurus jaguaris
       en: Leiosaurus jaguaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

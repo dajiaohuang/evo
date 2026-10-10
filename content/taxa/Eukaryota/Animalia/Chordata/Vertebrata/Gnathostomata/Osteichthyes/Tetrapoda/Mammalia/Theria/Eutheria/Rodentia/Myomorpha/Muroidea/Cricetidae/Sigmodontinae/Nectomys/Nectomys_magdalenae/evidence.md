@@ -9,7 +9,6 @@ records:
     name:
       zh: Nectomys magdalenae
       en: Nectomys magdalenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

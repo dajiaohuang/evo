@@ -9,7 +9,6 @@ records:
     name:
       en: Colostethus agilis
       zh: Colostethus agilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremias stummeri
       en: Eremias stummeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

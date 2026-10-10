@@ -9,7 +9,6 @@ records:
     name:
       zh: Kolpochoerus evronensis
       en: Kolpochoerus evronensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

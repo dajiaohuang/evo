@@ -9,7 +9,6 @@ records:
     name:
       zh: Zapatadon ejidoensis
       en: Zapatadon ejidoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

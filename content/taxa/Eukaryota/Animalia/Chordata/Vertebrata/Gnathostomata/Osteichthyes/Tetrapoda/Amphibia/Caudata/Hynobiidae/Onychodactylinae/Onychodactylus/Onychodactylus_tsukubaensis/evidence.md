@@ -9,7 +9,6 @@ records:
     name:
       en: Onychodactylus tsukubaensis
       zh: Onychodactylus tsukubaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

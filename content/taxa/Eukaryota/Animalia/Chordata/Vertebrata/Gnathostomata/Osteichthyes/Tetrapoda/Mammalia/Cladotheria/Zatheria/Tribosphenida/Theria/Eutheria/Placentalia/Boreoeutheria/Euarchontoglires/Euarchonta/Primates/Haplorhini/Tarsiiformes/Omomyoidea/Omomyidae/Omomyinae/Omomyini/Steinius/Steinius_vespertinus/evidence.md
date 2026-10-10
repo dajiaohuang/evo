@@ -9,7 +9,6 @@ records:
     name:
       zh: Steinius vespertinus
       en: Steinius vespertinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

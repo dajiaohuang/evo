@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus sonsonensis
       zh: Atelopus sonsonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

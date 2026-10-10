@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhodanomys hugueneyae
       en: Rhodanomys hugueneyae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

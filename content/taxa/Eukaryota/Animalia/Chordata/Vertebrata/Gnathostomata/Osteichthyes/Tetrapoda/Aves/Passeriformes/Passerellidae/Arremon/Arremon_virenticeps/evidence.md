@@ -9,7 +9,6 @@ records:
     name:
       zh: Arremon virenticeps
       en: Arremon virenticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bashanosaurus primitivus
       en: Bashanosaurus primitivus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

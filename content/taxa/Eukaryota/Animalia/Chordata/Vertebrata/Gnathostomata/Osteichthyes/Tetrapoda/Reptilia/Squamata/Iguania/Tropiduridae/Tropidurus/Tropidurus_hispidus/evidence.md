@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidurus hispidus
       en: Tropidurus hispidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

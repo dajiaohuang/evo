@@ -9,7 +9,6 @@ records:
     name:
       zh: Anilios margaretae
       en: Anilios margaretae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

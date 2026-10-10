@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctalus plancyi
       en: Nyctalus plancyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Oreobates sanderi
       zh: Oreobates sanderi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

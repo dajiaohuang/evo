@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus pinchoni
       zh: Eleutherodactylus pinchoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

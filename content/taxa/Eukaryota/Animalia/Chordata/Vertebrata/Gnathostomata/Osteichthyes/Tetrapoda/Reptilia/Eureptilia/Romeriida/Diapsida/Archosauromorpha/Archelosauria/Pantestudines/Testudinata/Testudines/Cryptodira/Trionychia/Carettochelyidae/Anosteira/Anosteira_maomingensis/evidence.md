@@ -9,7 +9,6 @@ records:
     name:
       zh: Anosteira maomingensis
       en: Anosteira maomingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

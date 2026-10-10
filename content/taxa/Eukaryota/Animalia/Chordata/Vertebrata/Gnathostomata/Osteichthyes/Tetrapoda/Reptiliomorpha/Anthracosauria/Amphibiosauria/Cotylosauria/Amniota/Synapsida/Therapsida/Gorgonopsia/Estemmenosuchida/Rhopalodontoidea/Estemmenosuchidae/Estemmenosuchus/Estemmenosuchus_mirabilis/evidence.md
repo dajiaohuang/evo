@@ -9,7 +9,6 @@ records:
     name:
       zh: Estemmenosuchus mirabilis
       en: Estemmenosuchus mirabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

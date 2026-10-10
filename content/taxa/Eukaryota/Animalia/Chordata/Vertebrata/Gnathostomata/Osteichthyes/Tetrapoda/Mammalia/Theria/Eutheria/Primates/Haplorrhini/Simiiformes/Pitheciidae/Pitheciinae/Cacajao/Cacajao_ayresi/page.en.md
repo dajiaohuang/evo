@@ -16,5 +16,5 @@ Boubli and colleagues reassessed black uakaris using surveys and collecting alon
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked taxonomic reassessment; not externally expert-reviewed. Survey and specimen evidence supports the named Rio Aracá form but is not a current abundance assessment or complete range survey.
+Source-linked taxonomic reassessment;. Survey and specimen evidence supports the named Rio Aracá form but is not a current abundance assessment or complete range survey.
 <!-- /evo:text -->

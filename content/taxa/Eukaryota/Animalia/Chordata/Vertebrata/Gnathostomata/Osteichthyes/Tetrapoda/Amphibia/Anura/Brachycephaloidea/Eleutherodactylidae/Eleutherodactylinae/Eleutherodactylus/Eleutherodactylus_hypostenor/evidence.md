@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus hypostenor
       zh: Eleutherodactylus hypostenor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

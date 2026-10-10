@@ -9,7 +9,6 @@ records:
     name:
       en: Kassina cochranae
       zh: Kassina cochranae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

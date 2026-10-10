@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidophorus guangxiensis
       en: Tropidophorus guangxiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

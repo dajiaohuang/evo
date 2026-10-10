@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryophylax chimanta
       en: Dryophylax chimanta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tillodon fodiens
       en: Tillodon fodiens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

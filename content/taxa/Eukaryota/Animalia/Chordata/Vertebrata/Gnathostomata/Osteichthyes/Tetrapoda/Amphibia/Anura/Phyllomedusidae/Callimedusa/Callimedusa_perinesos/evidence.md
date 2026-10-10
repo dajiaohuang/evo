@@ -9,7 +9,6 @@ records:
     name:
       en: Callimedusa perinesos
       zh: Callimedusa perinesos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

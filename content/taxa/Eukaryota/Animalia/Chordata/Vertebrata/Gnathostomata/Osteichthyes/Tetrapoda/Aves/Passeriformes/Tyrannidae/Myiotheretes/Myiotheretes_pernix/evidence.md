@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiotheretes pernix
       en: Myiotheretes pernix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

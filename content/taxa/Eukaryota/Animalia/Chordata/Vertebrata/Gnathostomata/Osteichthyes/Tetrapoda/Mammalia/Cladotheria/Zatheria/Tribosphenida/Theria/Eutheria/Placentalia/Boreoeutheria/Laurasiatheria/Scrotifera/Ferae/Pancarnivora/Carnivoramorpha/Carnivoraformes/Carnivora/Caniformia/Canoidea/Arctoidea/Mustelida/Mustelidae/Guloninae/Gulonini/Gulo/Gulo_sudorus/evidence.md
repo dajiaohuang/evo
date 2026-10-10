@@ -9,7 +9,6 @@ records:
     name:
       zh: Gulo sudorus
       en: Gulo sudorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

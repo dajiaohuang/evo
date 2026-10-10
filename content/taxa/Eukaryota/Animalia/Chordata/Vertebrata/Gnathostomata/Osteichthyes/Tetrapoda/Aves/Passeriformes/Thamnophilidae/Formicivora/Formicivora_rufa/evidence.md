@@ -9,7 +9,6 @@ records:
     name:
       zh: Formicivora rufa
       en: Formicivora rufa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

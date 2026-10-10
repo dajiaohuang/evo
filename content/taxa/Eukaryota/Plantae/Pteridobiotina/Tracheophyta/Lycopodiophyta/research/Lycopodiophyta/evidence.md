@@ -57,9 +57,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: hetherington-2021-asteroxylon primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: hetherington-2021-asteroxylon
           relation: supports
@@ -76,9 +73,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: hetherington-2021-asteroxylon primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: hetherington-2021-asteroxylon
           relation: supports
@@ -95,9 +89,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: hetherington-2021-asteroxylon primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: hetherington-2021-asteroxylon
           relation: supports
@@ -114,9 +105,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: hetherington-2021-asteroxylon primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: hetherington-2021-asteroxylon
           relation: supports
@@ -133,9 +121,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: hetherington-2021-asteroxylon primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: hetherington-2021-asteroxylon
           relation: supports
@@ -189,7 +174,6 @@ records:
           locator: https://opentreeoflife.github.io/use
         - referenceId: pbdb-api-2016
           locator: doi:10.1017/pab.2015.39
-      reviewStatus: not-reviewed
       evidenceLevel: literature-synthesized
 ---
 

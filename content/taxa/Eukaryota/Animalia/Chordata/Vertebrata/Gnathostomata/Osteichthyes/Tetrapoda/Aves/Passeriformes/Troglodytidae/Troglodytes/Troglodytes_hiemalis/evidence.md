@@ -9,7 +9,6 @@ records:
     name:
       zh: Troglodytes hiemalis
       en: Troglodytes hiemalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

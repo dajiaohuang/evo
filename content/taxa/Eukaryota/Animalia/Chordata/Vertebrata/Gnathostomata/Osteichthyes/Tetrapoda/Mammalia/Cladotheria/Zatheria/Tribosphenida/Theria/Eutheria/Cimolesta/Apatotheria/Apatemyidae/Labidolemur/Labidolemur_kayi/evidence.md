@@ -9,7 +9,6 @@ records:
     name:
       zh: Labidolemur kayi
       en: Labidolemur kayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

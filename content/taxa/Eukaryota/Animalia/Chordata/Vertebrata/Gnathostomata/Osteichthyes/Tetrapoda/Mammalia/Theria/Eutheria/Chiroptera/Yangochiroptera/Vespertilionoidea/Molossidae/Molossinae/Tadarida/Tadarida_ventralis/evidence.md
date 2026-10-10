@@ -9,7 +9,6 @@ records:
     name:
       zh: Tadarida ventralis
       en: Tadarida ventralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

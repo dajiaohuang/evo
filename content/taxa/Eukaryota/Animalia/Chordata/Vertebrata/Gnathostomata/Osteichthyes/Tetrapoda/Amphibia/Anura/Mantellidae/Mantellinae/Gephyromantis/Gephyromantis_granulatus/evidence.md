@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis granulatus
       zh: Gephyromantis granulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

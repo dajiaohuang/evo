@@ -9,7 +9,6 @@ records:
     name:
       zh: Fahlbuschia koenigswaldi
       en: Fahlbuschia koenigswaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: braddy-2008-jaekelopterus; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: braddy-2008-jaekelopterus
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: braddy-2008-jaekelopterus
           locator: 106–109; Figures 1–2; Willwerath chelicera; Body-length scaling; Assumptions
-      reviewStatus: automated-audit-passed
 ---
 
 # Jaekelopterus

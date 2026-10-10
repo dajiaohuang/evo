@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus appendiculatus
       zh: Kurixalus appendiculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

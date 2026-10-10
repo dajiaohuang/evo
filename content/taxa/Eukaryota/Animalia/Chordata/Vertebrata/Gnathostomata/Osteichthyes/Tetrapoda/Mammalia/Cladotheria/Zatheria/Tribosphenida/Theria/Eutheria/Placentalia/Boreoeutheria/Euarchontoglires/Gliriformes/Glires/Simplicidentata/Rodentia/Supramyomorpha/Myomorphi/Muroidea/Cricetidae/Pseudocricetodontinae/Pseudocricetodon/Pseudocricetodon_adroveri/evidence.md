@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocricetodon adroveri
       en: Pseudocricetodon adroveri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

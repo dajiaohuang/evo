@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius vilhenai
       zh: Hyperolius vilhenai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

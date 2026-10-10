@@ -9,7 +9,6 @@ records:
     name:
       zh: Allodesmus uraiporensis
       en: Allodesmus uraiporensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

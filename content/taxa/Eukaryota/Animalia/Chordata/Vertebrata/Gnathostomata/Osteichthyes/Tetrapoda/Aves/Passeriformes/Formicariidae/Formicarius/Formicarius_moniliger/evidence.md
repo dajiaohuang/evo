@@ -9,7 +9,6 @@ records:
     name:
       zh: Formicarius moniliger
       en: Formicarius moniliger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

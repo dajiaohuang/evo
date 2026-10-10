@@ -9,7 +9,6 @@ records:
     name:
       zh: Corvus unicolor
       en: Corvus unicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

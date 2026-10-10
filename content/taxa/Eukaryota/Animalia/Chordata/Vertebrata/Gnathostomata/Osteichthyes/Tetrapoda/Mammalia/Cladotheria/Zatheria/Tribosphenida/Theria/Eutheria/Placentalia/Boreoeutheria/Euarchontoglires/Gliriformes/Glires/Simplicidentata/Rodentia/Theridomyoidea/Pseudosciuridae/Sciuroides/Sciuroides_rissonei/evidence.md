@@ -9,7 +9,6 @@ records:
     name:
       zh: Sciuroides rissonei
       en: Sciuroides rissonei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

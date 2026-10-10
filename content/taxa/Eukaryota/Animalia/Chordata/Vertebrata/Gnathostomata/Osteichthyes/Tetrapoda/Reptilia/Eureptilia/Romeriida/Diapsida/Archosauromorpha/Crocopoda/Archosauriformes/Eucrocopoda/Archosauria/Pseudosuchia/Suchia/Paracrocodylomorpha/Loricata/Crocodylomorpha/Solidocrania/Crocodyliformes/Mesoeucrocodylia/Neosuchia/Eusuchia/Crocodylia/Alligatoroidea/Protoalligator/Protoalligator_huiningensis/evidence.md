@@ -9,7 +9,6 @@ records:
     name:
       zh: Protoalligator huiningensis
       en: Protoalligator huiningensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

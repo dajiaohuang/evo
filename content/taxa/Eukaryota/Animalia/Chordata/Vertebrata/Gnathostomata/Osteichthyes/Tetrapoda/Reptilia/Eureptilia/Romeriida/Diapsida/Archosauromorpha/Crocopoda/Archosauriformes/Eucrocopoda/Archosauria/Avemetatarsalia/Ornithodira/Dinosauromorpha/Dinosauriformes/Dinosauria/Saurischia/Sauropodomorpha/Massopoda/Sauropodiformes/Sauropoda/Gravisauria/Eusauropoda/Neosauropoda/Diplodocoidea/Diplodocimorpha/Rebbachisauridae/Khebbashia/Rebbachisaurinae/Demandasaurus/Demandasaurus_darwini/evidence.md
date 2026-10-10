@@ -9,7 +9,6 @@ records:
     name:
       zh: Demandasaurus darwini
       en: Demandasaurus darwini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

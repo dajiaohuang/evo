@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra paranana
       en: Gehyra paranana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pygmaeascincus koshlandae
       en: Pygmaeascincus koshlandae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

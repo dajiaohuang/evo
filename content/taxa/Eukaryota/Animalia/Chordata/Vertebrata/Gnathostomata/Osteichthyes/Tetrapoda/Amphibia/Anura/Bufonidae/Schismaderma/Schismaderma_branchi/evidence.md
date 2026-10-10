@@ -9,7 +9,6 @@ records:
     name:
       en: Schismaderma branchi
       zh: Schismaderma branchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

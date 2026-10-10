@@ -9,7 +9,6 @@ records:
     name:
       zh: Kenopia striata
       en: Kenopia striata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

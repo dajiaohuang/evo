@@ -9,7 +9,6 @@ records:
     name:
       zh: Cormobates placens
       en: Cormobates placens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

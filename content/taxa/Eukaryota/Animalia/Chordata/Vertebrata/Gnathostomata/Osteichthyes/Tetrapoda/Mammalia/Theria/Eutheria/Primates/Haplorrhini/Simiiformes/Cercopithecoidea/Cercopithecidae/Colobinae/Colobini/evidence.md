@@ -9,7 +9,6 @@ records:
     name:
       zh: Colobini
       en: Colobini
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: typeMaterialComparison

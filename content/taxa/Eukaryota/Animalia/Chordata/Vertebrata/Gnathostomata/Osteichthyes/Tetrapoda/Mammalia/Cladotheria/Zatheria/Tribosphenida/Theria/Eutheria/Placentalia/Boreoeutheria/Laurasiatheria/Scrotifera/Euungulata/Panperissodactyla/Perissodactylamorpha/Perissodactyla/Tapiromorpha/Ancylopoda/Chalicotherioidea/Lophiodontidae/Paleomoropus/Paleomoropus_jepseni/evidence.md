@@ -9,7 +9,6 @@ records:
     name:
       zh: Paleomoropus jepseni
       en: Paleomoropus jepseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

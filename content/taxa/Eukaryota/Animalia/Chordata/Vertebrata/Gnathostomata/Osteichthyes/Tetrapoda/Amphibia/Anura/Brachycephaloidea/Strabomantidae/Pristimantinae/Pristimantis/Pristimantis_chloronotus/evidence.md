@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis chloronotus
       zh: Pristimantis chloronotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

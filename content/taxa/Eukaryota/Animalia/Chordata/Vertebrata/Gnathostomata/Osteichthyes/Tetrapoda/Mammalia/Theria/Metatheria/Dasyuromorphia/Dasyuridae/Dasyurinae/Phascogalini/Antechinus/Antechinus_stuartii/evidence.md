@@ -9,7 +9,6 @@ records:
     name:
       zh: Antechinus stuartii
       en: Antechinus stuartii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

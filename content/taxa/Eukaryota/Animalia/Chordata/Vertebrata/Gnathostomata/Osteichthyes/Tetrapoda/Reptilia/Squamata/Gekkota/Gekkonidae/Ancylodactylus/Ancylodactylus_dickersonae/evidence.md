@@ -9,7 +9,6 @@ records:
     name:
       zh: Ancylodactylus dickersonae
       en: Ancylodactylus dickersonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

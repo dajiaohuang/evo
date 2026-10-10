@@ -111,9 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: ou-2017-xianguangia @ DOI 10.1073/pnas.1701650114; zhao-2023-xianguangia @ DOI 10.1080/14772019.2023.2215787
       referenceLinks:
         - referenceId: ou-2017-xianguangia
           relation: supports

@@ -11,7 +11,6 @@ records:
       family: Siphonopidae
       genus: Microcaecilia
     checkedAt: 2026-10-02
-    reviewStatus: source-linked
     sections:
       - topic: overview
         title:
@@ -414,11 +413,11 @@ The deposited source concept and its categorical fields and measurement-row prov
 ## caecilian-traits-reader / limitations
 
 <!-- evo:text /records/caecilian-traits-reader/limitations/en -->
-Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets and external expert review remain to be resolved.
+Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets remain to be resolved.
 <!-- /evo:text -->
 
 ## caecilian-traits-reader / limitations
 
 <!-- evo:text /records/caecilian-traits-reader/limitations/zh -->
-本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题及外部专家审评仍待核对。
+本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题仍待核对。
 <!-- /evo:text -->

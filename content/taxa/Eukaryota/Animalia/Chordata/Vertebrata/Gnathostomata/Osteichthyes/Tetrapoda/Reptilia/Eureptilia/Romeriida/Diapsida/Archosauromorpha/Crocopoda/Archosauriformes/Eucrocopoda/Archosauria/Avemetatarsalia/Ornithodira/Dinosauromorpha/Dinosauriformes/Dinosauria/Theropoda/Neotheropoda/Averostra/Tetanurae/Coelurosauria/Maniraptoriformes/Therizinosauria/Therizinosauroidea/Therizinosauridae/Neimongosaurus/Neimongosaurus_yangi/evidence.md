@@ -9,7 +9,6 @@ records:
     name:
       zh: Neimongosaurus yangi
       en: Neimongosaurus yangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

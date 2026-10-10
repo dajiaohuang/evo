@@ -9,7 +9,6 @@ records:
     name:
       zh: Acontias breviceps
       en: Acontias breviceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

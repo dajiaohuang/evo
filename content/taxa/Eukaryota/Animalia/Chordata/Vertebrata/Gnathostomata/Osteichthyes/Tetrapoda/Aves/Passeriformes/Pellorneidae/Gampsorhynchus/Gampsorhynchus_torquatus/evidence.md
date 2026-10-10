@@ -9,7 +9,6 @@ records:
     name:
       zh: Gampsorhynchus torquatus
       en: Gampsorhynchus torquatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

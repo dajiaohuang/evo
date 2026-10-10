@@ -9,7 +9,6 @@ records:
     name:
       zh: Sivachoerus syrticus
       en: Sivachoerus syrticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

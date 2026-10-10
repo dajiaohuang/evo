@@ -9,7 +9,6 @@ records:
     name:
       zh: Cisticola lais
       en: Cisticola lais
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

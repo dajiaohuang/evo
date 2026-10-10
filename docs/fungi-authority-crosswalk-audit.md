@@ -49,7 +49,7 @@ The six payloads are sorted by COL ID with non-overlapping inclusive `minColId` 
 
 ## Limitations
 
-- An identifier link is nomenclatural provenance, not an expert review by Evo Atlas.
+
 - Accepted status is pinned to the stated source snapshots and can change upstream.
 - The crosswalk does not provide ecology, morphology, fossils, distributions, phylogeny, genomes, media, or biological dossiers.
 - `upstream-only` describes the pinned authority snapshots, not membership in COL26.8.

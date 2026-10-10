@@ -9,7 +9,6 @@ records:
     name:
       zh: Argusianus argus
       en: Argusianus argus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

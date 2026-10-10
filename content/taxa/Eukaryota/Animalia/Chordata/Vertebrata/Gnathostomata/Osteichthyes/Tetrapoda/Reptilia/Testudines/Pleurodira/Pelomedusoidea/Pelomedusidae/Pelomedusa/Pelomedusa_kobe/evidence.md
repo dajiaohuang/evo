@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelomedusa kobe
       en: Pelomedusa kobe
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

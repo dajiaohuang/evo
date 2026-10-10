@@ -9,7 +9,6 @@ records:
     name:
       zh: Apodemus peninsulae
       en: Apodemus peninsulae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

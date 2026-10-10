@@ -9,7 +9,6 @@ records:
     name:
       zh: Pasquiaornis tankei
       en: Pasquiaornis tankei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ducula badia
       en: Ducula badia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

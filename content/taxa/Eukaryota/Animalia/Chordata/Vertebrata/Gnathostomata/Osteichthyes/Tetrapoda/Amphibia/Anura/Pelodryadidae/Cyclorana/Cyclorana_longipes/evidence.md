@@ -9,7 +9,6 @@ records:
     name:
       en: Cyclorana longipes
       zh: Cyclorana longipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

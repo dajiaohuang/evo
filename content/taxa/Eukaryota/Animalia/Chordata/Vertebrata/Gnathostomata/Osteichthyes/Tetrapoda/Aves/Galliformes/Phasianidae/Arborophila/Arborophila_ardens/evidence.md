@@ -9,7 +9,6 @@ records:
     name:
       zh: Arborophila ardens
       en: Arborophila ardens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

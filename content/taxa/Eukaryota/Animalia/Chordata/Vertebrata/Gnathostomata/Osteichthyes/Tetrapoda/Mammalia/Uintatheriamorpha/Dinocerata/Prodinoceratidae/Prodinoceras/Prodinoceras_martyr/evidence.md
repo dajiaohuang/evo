@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodinoceras martyr
       en: Prodinoceras martyr
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

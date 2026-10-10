@@ -9,7 +9,6 @@ records:
     name:
       zh: Taishanomys parvulus
       en: Taishanomys parvulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega hahneli
       zh: Ameerega hahneli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

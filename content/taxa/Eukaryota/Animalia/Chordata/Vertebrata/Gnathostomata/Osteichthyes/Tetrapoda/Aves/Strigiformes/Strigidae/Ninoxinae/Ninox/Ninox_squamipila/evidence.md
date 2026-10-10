@@ -9,7 +9,6 @@ records:
     name:
       zh: Ninox squamipila
       en: Ninox squamipila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

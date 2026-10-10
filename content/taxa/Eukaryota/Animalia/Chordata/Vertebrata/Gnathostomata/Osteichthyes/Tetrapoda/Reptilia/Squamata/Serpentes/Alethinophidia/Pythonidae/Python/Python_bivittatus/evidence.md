@@ -9,7 +9,6 @@ records:
     name:
       zh: Python bivittatus
       en: Python bivittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Lissotriton boscai
       zh: Lissotriton boscai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

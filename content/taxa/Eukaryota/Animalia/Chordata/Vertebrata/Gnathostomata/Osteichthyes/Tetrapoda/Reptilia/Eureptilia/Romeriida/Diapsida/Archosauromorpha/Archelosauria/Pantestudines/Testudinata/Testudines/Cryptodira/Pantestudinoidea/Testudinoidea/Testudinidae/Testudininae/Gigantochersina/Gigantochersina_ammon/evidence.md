@@ -9,7 +9,6 @@ records:
     name:
       zh: Gigantochersina ammon
       en: Gigantochersina ammon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

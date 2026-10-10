@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasypeltis medici
       en: Dasypeltis medici
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

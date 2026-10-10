@@ -126,7 +126,7 @@ export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, re
       files,
       totalCompressedBytes: files.reduce((sum, file) => sum + file.bytes, 0),
       totalSourceBytes: files.reduce((sum, file) => sum + file.sourceBytes, 0),
-      evidenceBoundary: 'Exact release-pinned nomenclatural linkage only; no fuzzy matching, concept equivalence, phylogeny, ecology, fossil, media, translation, dossier or expert-review claim.',
+      evidenceBoundary: 'Exact release-pinned nomenclatural linkage only; no fuzzy matching, concept equivalence, phylogeny, ecology, fossil, media, translation, dossier claim.',
     }
     writeFileSync(join(root, 'manifest.json'), `${JSON.stringify(descriptor, null, 2)}\n`, 'utf8')
   }

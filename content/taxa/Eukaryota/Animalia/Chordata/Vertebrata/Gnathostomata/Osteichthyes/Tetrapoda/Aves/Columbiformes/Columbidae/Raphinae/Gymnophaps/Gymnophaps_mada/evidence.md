@@ -9,7 +9,6 @@ records:
     name:
       zh: Gymnophaps mada
       en: Gymnophaps mada
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

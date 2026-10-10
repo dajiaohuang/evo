@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsicalotes kinabaluensis
       en: Hypsicalotes kinabaluensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

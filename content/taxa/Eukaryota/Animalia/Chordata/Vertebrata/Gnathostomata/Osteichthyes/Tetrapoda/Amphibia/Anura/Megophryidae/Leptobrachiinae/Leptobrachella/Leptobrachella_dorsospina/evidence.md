@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella dorsospina
       zh: Leptobrachella dorsospina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

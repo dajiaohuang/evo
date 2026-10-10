@@ -9,7 +9,6 @@ records:
     name:
       zh: 侏狐猴属
       en: Dwarf Lemurs
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: methods

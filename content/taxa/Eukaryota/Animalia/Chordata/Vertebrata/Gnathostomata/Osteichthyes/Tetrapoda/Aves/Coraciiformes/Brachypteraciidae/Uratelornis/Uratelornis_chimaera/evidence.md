@@ -9,7 +9,6 @@ records:
     name:
       zh: Uratelornis chimaera
       en: Uratelornis chimaera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

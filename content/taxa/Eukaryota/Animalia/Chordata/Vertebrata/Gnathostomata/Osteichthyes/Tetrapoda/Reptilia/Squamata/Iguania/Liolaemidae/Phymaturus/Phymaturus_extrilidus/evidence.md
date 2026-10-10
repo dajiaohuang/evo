@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus extrilidus
       en: Phymaturus extrilidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

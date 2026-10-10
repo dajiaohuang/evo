@@ -297,9 +297,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
   catalogue-profile:
     scientificName: Oophaga pumilio (Schmidt, 1857)
     rank: species
@@ -307,7 +304,6 @@ records:
     name:
       en: Oophaga pumilio
       zh: Oophaga pumilio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -1839,7 +1835,7 @@ The study covers six selected populations and does not provide a complete specie
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-A reproducible systematic search and independent expert review have not been completed.
+A reproducible systematic search has not been completed.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / title

@@ -9,7 +9,6 @@ records:
     name:
       zh: Polonodon wozniekiensis
       en: Polonodon wozniekiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

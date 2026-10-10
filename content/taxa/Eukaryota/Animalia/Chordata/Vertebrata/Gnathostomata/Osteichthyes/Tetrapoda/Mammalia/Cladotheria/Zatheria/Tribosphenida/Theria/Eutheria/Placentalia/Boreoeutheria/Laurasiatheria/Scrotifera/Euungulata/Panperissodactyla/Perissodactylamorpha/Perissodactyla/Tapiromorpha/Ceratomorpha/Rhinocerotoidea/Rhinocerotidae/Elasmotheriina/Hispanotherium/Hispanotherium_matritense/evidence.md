@@ -9,7 +9,6 @@ records:
     name:
       zh: Hispanotherium matritense
       en: Hispanotherium matritense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

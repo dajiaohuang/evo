@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudhipparion gratum
       en: Pseudhipparion gratum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

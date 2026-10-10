@@ -9,7 +9,6 @@ records:
     name:
       zh: Alilepus wilsoni
       en: Alilepus wilsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

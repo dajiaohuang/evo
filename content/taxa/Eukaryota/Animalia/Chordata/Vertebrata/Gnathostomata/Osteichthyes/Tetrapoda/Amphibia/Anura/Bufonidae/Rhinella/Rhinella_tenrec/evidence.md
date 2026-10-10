@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella tenrec
       zh: Rhinella tenrec
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

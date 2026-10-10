@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus albonotatus
       zh: Physalaemus albonotatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus haddadi
       zh: Dendropsophus haddadi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothriechis schlegelii
       en: Bothriechis schlegelii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

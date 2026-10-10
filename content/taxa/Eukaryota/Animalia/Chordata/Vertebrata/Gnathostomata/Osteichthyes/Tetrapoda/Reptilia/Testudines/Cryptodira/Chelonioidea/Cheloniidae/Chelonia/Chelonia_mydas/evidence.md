@@ -329,12 +329,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
   catalogue-profile:
     scientificName: Chelonia mydas (Linnaeus, 1758)
     rank: species
@@ -342,7 +336,6 @@ records:
     name:
       zh: 绿海龟
       en: Green turtle
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -952,12 +945,6 @@ Morphology, evolution, distribution, fossil evidence and conservation remain not
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
 The ecological source combines simulated clipping with local natural-grazing comparisons and does not directly measure long-term sediment carbon stocks or range-wide population effects.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / title

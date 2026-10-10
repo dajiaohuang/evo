@@ -9,7 +9,6 @@ records:
     name:
       en: Dryaderces inframaculata
       zh: Dryaderces inframaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

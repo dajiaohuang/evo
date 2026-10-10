@@ -9,7 +9,6 @@ records:
     name:
       zh: Barracudasauroides panxianensis
       en: Barracudasauroides panxianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

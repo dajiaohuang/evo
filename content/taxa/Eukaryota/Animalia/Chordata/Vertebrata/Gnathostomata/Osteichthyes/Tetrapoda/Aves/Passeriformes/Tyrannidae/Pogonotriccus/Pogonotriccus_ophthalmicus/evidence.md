@@ -9,7 +9,6 @@ records:
     name:
       zh: Pogonotriccus ophthalmicus
       en: Pogonotriccus ophthalmicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

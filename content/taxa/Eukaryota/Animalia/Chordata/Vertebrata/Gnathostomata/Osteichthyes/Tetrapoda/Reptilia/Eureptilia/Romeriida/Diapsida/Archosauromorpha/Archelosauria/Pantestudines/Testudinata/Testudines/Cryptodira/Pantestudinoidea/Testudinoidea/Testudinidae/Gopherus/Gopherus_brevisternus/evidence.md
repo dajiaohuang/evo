@@ -9,7 +9,6 @@ records:
     name:
       zh: Gopherus brevisternus
       en: Gopherus brevisternus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

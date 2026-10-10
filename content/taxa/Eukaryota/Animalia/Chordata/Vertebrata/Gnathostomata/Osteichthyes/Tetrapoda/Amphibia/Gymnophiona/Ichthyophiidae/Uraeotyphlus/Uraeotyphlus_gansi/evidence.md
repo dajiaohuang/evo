@@ -9,7 +9,6 @@ records:
     name:
       en: Uraeotyphlus gansi
       zh: Uraeotyphlus gansi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Caipirasuchus stenognathus
       en: Caipirasuchus stenognathus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

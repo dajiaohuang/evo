@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus sahgali
       en: Hemidactylus sahgali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

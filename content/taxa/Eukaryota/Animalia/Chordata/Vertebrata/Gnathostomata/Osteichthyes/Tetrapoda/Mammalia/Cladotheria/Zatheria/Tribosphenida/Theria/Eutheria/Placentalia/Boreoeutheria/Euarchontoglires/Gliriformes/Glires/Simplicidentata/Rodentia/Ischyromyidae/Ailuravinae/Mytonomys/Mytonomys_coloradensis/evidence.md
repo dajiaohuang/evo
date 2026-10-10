@@ -9,7 +9,6 @@ records:
     name:
       zh: Mytonomys coloradensis
       en: Mytonomys coloradensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

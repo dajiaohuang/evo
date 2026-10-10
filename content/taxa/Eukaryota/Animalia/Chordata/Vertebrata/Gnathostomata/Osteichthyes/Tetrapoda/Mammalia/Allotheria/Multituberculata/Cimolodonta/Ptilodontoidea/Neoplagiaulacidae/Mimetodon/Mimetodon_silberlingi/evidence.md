@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimetodon silberlingi
       en: Mimetodon silberlingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

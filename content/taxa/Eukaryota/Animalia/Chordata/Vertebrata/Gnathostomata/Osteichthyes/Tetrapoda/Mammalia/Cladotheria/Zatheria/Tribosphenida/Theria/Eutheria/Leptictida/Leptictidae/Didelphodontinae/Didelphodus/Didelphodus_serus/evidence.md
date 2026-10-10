@@ -9,7 +9,6 @@ records:
     name:
       zh: Didelphodus serus
       en: Didelphodus serus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

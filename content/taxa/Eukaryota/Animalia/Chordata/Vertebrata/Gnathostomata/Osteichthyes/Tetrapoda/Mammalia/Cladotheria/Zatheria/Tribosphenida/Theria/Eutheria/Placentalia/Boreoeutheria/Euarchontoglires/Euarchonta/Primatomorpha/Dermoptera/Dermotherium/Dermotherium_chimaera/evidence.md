@@ -9,7 +9,6 @@ records:
     name:
       zh: Dermotherium chimaera
       en: Dermotherium chimaera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

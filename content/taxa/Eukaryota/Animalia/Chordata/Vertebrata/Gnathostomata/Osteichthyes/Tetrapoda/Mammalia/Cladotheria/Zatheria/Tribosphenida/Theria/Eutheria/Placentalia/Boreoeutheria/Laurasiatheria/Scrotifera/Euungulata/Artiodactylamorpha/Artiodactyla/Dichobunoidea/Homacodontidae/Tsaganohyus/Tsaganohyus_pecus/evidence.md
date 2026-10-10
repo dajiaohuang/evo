@@ -9,7 +9,6 @@ records:
     name:
       zh: Tsaganohyus pecus
       en: Tsaganohyus pecus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

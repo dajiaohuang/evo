@@ -9,7 +9,6 @@ records:
     name:
       zh: Nycticorax caledonicus
       en: Nycticorax caledonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

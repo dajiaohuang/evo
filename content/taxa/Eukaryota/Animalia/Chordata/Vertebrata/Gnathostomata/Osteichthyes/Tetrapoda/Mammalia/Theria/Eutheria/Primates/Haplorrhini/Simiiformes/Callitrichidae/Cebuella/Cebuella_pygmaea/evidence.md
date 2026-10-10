@@ -9,7 +9,6 @@ records:
     name:
       zh: 北侏儒狨
       en: Northern Pygmy Marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

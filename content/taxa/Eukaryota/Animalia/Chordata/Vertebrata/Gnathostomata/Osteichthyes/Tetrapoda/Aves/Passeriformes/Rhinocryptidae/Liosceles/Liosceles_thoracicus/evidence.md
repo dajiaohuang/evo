@@ -9,7 +9,6 @@ records:
     name:
       zh: Liosceles thoracicus
       en: Liosceles thoracicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

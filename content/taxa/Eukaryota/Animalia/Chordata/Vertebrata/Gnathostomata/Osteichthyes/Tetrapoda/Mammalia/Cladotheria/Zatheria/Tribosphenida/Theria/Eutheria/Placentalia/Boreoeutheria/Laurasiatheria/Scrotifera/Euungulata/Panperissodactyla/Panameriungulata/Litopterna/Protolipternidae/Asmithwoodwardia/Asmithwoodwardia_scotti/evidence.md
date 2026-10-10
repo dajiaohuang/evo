@@ -9,7 +9,6 @@ records:
     name:
       zh: Asmithwoodwardia scotti
       en: Asmithwoodwardia scotti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

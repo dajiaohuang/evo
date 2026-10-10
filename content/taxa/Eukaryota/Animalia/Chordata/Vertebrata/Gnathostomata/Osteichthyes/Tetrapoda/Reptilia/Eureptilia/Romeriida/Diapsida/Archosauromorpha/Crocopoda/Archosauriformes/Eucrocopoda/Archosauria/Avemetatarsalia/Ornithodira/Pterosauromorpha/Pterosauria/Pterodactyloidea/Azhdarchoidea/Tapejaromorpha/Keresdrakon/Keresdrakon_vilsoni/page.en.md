@@ -117,7 +117,7 @@ The database retains Kellner et al. (2019), ref:71269. A shared original-descrip
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The added text follows the original 2019 main article. Captions and measurement-table text were read, without independent inspection of images, fossils or thin sections, a matrix rerun or a complete collection of later material and revisions. Isolated-bone assignments, the minimum of three individuals, juvenile-to-subadult interpretation, comparative three-metre wingspan and ecological hypotheses retain their scopes. Fixed broad database ages do not resolve stratigraphic disputes. Growth, diet, behavior and species-wide coverage remain incomplete; a full monograph, external expert review and reader-visible publication are pending.
+The added text follows the original 2019 main article. Captions and measurement-table text were read, without independent inspection of images, fossils or thin sections, a matrix rerun or a complete collection of later material and revisions. Isolated-bone assignments, the minimum of three individuals, juvenile-to-subadult interpretation, comparative three-metre wingspan and ecological hypotheses retain their scopes. Fixed broad database ages do not resolve stratigraphic disputes. Growth, diet, behavior and species-wide coverage remain incomplete; a full monograph and reader-visible publication are pending.
 
 The comparative route additionally uses the already-read 2019 shared-bonebed and 2020 dinosaur-histology main texts. Samples and models apply to their respective taxa; cross-links do not complete the site fauna or all developmental research.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nectosaurus halius
       en: Nectosaurus halius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

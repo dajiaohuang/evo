@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus antioquia
       zh: Hyloscirtus antioquia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

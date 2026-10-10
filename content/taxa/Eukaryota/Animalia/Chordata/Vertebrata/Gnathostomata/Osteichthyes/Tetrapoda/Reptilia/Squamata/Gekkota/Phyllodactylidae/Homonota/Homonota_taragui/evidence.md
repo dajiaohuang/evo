@@ -9,7 +9,6 @@ records:
     name:
       zh: Homonota taragui
       en: Homonota taragui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

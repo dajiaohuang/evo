@@ -9,7 +9,6 @@ records:
     name:
       zh: Ericiolacerta parva
       en: Ericiolacerta parva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pitta maxima
       en: Pitta maxima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

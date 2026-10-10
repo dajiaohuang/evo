@@ -9,7 +9,6 @@ records:
     name:
       zh: Mystacodon selenensis
       en: Mystacodon selenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachychampsa montana
       en: Brachychampsa montana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

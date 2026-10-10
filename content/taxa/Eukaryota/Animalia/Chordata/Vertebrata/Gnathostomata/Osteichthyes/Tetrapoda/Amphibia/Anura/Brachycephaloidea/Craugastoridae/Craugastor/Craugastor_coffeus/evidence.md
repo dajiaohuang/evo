@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor coffeus
       zh: Craugastor coffeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

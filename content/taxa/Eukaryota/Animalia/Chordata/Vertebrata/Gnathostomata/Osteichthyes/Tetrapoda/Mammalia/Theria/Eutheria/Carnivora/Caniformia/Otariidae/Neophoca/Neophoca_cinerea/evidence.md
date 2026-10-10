@@ -9,7 +9,6 @@ records:
     name:
       zh: Neophoca cinerea
       en: Neophoca cinerea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

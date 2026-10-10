@@ -9,7 +9,6 @@ records:
     name:
       zh: Melomys frigicola
       en: Melomys frigicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

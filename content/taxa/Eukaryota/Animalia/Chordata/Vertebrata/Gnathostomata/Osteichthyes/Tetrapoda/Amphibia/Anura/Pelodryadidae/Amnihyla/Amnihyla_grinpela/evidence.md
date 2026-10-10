@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla grinpela
       zh: Amnihyla grinpela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

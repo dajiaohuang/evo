@@ -9,7 +9,6 @@ records:
     name:
       zh: 瓢虫科
       en: Lady beetles
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

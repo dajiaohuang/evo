@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrobates matsudairae
       en: Hydrobates matsudairae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

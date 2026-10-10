@@ -9,7 +9,6 @@ records:
     name:
       zh: Milosaurus mccordi
       en: Milosaurus mccordi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

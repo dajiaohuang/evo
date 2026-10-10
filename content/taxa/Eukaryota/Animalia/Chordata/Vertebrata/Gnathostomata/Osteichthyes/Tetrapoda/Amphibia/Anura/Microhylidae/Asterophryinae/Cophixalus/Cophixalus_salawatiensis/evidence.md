@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus salawatiensis
       zh: Cophixalus salawatiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

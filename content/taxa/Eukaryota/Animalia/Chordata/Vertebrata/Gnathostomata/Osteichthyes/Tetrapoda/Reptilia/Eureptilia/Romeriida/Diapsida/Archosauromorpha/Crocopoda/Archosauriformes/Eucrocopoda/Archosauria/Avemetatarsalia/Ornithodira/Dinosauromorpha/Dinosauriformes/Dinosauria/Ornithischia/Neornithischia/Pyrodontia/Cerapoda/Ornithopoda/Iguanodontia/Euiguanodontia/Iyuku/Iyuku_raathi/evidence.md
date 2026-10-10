@@ -9,7 +9,6 @@ records:
     name:
       zh: Iyuku raathi
       en: Iyuku raathi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

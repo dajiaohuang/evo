@@ -9,7 +9,6 @@ records:
     name:
       zh: Atlanticetus lavei
       en: Atlanticetus lavei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

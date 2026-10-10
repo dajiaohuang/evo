@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pichincha
       zh: Pristimantis pichincha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

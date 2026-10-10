@@ -9,7 +9,6 @@ records:
     name:
       zh: Cicinnurus regius
       en: Cicinnurus regius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

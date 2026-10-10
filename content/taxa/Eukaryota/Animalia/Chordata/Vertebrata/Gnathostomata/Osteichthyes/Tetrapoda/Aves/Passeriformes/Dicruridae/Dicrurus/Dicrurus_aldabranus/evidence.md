@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicrurus aldabranus
       en: Dicrurus aldabranus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

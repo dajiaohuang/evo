@@ -9,7 +9,6 @@ records:
     name:
       en: Phyzelaphryne nimio
       zh: Phyzelaphryne nimio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

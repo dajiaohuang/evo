@@ -9,7 +9,6 @@ records:
     name:
       zh: Aplonis minor
       en: Aplonis minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

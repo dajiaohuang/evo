@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeotupaia sivalicus
       en: Palaeotupaia sivalicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

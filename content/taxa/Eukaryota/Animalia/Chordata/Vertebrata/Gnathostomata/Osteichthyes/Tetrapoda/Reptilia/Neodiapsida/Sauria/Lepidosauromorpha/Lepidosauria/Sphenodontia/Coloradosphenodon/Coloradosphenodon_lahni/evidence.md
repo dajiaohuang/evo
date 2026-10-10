@@ -9,7 +9,6 @@ records:
     name:
       zh: Coloradosphenodon lahni
       en: Coloradosphenodon lahni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

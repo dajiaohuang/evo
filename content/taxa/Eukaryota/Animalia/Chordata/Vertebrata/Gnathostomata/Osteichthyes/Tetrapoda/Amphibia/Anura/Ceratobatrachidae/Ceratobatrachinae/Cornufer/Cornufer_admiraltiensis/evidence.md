@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer admiraltiensis
       zh: Cornufer admiraltiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

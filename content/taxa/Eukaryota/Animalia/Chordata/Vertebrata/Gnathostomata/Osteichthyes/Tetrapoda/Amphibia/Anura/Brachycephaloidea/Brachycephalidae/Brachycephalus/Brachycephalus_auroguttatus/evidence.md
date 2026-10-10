@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus auroguttatus
       zh: Brachycephalus auroguttatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

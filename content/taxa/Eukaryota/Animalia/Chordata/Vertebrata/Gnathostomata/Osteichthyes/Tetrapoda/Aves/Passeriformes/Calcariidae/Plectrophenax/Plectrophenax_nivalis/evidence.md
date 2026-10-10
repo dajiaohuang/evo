@@ -9,7 +9,6 @@ records:
     name:
       zh: Plectrophenax nivalis
       en: Plectrophenax nivalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

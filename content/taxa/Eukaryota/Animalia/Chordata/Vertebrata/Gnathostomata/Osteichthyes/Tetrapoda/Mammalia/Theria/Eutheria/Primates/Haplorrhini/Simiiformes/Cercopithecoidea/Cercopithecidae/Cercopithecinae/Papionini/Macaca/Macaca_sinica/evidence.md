@@ -9,7 +9,6 @@ records:
     name:
       zh: 锡兰猕猴
       en: Toque macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

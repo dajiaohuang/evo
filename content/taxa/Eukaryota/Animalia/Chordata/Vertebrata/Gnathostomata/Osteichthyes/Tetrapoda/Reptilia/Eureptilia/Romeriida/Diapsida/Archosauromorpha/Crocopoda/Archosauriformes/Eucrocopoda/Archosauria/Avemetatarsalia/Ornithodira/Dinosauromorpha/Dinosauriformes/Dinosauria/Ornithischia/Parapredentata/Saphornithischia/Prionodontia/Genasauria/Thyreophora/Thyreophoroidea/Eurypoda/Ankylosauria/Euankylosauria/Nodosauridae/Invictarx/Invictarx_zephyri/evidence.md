@@ -9,7 +9,6 @@ records:
     name:
       zh: Invictarx zephyri
       en: Invictarx zephyri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

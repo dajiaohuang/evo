@@ -9,7 +9,6 @@ records:
     name:
       zh: Nannodectes gazini
       en: Nannodectes gazini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gorgonops dixeyi
       en: Gorgonops dixeyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

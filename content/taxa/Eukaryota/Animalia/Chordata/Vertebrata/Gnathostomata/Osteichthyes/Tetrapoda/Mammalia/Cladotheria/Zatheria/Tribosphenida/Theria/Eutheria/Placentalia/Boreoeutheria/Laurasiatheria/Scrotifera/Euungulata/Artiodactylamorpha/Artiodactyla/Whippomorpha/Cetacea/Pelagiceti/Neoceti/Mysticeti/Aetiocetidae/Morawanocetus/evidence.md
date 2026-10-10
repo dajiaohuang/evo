@@ -9,7 +9,6 @@ records:
     name:
       zh: Morawanocetus
       en: Morawanocetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

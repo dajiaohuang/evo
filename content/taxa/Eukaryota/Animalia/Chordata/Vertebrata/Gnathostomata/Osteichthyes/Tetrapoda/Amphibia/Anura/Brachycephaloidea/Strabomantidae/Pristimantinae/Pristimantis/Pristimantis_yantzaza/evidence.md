@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis yantzaza
       zh: Pristimantis yantzaza
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

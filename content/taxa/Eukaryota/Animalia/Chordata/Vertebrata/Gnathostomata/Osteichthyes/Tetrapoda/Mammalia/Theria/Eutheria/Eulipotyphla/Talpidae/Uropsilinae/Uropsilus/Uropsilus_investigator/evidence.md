@@ -9,7 +9,6 @@ records:
     name:
       zh: Uropsilus investigator
       en: Uropsilus investigator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

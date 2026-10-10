@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus superciliosus
       en: Ploceus superciliosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

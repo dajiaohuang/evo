@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis pogus
       en: Anolis pogus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

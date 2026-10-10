@@ -9,7 +9,6 @@ records:
     name:
       zh: Pheucticus ludovicianus
       en: Pheucticus ludovicianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

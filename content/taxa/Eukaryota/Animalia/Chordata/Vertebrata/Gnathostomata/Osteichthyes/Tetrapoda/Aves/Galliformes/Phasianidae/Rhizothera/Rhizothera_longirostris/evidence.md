@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhizothera longirostris
       en: Rhizothera longirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

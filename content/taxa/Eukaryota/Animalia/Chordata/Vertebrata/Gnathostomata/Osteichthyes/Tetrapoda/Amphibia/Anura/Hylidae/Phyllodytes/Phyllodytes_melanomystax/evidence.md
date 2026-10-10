@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllodytes melanomystax
       zh: Phyllodytes melanomystax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

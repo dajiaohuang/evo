@@ -9,7 +9,6 @@ records:
     name:
       zh: Eupodotis caerulescens
       en: Eupodotis caerulescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobiotheriodon infinitus
       en: Gobiotheriodon infinitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

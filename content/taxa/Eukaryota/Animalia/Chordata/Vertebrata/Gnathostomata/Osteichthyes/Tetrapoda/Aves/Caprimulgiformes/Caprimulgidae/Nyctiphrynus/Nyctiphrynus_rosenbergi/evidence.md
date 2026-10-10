@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctiphrynus rosenbergi
       en: Nyctiphrynus rosenbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

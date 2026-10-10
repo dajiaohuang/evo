@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys branti
       zh: Proceratophrys branti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

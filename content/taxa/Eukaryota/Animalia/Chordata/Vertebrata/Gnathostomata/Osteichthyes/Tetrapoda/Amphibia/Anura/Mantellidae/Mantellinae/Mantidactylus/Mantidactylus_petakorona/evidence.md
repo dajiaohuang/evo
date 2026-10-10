@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus petakorona
       zh: Mantidactylus petakorona
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

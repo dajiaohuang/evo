@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: butler-2008-ornithischian-phylogeny concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: butler-2008-ornithischian-phylogeny
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: butler-2008-ornithischian-phylogeny @ DOI 10.1017/S1477201907002271
       referenceLinks:
         - relation: supports
           referenceId: butler-2008-ornithischian-phylogeny
@@ -96,7 +90,6 @@ records:
           locator: 1–40; Methods and taxon sample; Results; discussion of unstable nodes
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

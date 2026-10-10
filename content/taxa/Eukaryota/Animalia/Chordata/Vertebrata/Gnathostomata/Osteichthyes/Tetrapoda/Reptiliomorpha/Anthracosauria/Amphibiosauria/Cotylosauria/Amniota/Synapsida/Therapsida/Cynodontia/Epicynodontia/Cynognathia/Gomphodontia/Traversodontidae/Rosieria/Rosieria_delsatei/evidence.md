@@ -9,7 +9,6 @@ records:
     name:
       zh: Rosieria delsatei
       en: Rosieria delsatei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

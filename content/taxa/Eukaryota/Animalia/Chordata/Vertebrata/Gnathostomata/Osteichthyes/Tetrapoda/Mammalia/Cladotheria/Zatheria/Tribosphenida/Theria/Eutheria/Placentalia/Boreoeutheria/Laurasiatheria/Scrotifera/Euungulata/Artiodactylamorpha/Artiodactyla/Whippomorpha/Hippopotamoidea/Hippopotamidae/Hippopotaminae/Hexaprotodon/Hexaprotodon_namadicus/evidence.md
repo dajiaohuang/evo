@@ -9,7 +9,6 @@ records:
     name:
       zh: Hexaprotodon namadicus
       en: Hexaprotodon namadicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

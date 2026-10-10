@@ -9,7 +9,6 @@ records:
     name:
       zh: Polychrus jacquelinae
       en: Polychrus jacquelinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

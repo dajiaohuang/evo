@@ -9,7 +9,6 @@ records:
     name:
       en: Anilany helenae
       zh: Anilany helenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

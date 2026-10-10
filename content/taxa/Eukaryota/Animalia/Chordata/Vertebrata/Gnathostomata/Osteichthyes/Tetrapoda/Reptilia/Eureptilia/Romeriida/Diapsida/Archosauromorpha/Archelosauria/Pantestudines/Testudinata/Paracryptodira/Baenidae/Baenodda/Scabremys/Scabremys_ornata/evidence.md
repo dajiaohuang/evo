@@ -9,7 +9,6 @@ records:
     name:
       zh: Scabremys ornata
       en: Scabremys ornata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

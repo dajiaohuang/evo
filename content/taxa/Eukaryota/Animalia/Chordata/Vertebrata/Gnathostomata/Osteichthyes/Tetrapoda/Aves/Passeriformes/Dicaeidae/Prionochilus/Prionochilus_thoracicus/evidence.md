@@ -9,7 +9,6 @@ records:
     name:
       zh: Prionochilus thoracicus
       en: Prionochilus thoracicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

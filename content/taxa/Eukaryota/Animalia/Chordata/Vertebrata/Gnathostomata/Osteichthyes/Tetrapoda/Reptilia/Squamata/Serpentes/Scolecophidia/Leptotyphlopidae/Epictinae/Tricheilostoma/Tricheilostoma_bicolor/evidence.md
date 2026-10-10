@@ -9,7 +9,6 @@ records:
     name:
       zh: Tricheilostoma bicolor
       en: Tricheilostoma bicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brodavis mongoliensis
       en: Brodavis mongoliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

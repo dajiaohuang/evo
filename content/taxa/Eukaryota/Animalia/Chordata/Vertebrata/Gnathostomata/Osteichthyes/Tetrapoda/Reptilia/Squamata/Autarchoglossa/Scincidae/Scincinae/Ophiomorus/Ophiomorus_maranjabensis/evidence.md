@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophiomorus maranjabensis
       en: Ophiomorus maranjabensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

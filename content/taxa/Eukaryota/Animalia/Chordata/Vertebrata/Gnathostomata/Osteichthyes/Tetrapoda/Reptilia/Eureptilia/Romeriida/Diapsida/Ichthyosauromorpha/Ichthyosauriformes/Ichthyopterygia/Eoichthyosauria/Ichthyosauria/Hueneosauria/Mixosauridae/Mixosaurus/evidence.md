@@ -9,7 +9,6 @@ records:
     name:
       zh: Mixosaurus
       en: Mixosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

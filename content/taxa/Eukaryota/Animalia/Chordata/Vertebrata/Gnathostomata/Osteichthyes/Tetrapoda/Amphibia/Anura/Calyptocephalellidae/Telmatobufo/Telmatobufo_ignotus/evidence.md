@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobufo ignotus
       zh: Telmatobufo ignotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

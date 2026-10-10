@@ -9,7 +9,6 @@ records:
     name:
       zh: Laterallus exilis
       en: Laterallus exilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

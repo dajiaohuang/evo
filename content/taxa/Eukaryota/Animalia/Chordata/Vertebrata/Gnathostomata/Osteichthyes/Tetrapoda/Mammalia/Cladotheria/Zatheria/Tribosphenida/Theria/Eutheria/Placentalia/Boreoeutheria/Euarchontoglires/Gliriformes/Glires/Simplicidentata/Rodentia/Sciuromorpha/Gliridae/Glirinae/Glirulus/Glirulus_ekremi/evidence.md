@@ -9,7 +9,6 @@ records:
     name:
       zh: Glirulus ekremi
       en: Glirulus ekremi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

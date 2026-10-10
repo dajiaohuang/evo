@@ -9,7 +9,6 @@ records:
     name:
       zh: Kobus presigmoidalis
       en: Kobus presigmoidalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus ornatus
       en: Pteropus ornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

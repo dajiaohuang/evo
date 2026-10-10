@@ -9,7 +9,6 @@ records:
     name:
       zh: Abronia cuetzpali
       en: Abronia cuetzpali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracias spatulatus
       en: Coracias spatulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

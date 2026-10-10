@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo eichwaldi
       zh: Bufo eichwaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenomylus keelinensis
       en: Stenomylus keelinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

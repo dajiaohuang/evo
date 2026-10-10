@@ -9,7 +9,6 @@ records:
     name:
       zh: Tamias ateles
       en: Tamias ateles
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

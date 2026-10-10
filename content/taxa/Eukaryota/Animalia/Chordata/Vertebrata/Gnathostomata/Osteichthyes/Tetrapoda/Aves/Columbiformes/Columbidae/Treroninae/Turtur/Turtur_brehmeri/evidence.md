@@ -9,7 +9,6 @@ records:
     name:
       zh: Turtur brehmeri
       en: Turtur brehmeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

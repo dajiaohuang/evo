@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrotyphlops nigrocandidus
       en: Afrotyphlops nigrocandidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

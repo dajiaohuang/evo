@@ -61,9 +61,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: liu-2014-haootia; miranda-2015-haootia; mcilroy-2024-haootia
       referenceLinks:
         - referenceId: liu-2014-haootia
           relation: supports
@@ -92,9 +89,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: liu-2014-haootia locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: liu-2014-haootia
@@ -123,11 +117,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/2/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: liu-2014-haootia
           relation: supports
@@ -156,9 +145,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: McIlroy et al. 2024 DOI 10.3390/life14091096
       referenceLinks:
         - referenceId: mcilroy-2024-haootia
           relation: supports
@@ -177,9 +163,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Liu et al. 2014 DOI 10.1098/rspb.2014.1202
       referenceLinks:
         - referenceId: liu-2014-haootia
           relation: supports
@@ -198,11 +181,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/5/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: liu-2014-haootia
           relation: supports
@@ -272,7 +250,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Haootia quadriformis

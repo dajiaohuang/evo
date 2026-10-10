@@ -9,7 +9,6 @@ records:
     name:
       zh: Oecomys cleberi
       en: Oecomys cleberi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

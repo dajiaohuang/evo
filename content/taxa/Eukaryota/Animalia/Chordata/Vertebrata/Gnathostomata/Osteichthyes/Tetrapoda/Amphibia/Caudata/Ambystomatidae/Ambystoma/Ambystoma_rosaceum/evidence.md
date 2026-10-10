@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma rosaceum
       zh: Ambystoma rosaceum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

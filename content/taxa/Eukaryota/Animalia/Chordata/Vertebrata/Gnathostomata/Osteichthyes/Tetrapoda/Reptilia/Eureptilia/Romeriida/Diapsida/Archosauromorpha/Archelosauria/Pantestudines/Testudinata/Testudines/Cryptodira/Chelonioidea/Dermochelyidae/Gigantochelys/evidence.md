@@ -9,7 +9,6 @@ records:
     name:
       zh: Gigantochelys
       en: Gigantochelys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

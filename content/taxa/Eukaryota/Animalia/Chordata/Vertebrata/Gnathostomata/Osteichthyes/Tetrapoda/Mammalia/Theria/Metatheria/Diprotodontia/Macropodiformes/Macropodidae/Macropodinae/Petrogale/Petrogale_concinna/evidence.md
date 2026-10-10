@@ -9,7 +9,6 @@ records:
     name:
       zh: Petrogale concinna
       en: Petrogale concinna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

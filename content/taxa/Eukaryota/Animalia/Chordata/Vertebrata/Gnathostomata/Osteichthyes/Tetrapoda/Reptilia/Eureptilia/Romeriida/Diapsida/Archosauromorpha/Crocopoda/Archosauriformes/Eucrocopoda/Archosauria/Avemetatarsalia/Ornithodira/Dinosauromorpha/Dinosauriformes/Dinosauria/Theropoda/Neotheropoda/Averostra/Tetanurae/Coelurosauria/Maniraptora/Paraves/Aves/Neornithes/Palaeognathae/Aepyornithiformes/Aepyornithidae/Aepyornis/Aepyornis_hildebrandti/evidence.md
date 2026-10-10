@@ -9,7 +9,6 @@ records:
     name:
       zh: Aepyornis hildebrandti
       en: Aepyornis hildebrandti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

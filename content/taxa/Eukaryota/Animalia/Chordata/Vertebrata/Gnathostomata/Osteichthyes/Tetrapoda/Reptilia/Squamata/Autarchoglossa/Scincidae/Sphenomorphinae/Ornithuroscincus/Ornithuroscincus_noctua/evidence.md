@@ -9,7 +9,6 @@ records:
     name:
       zh: Ornithuroscincus noctua
       en: Ornithuroscincus noctua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

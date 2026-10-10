@@ -11,7 +11,7 @@ status: source-linked
 ## Find seven historical rows through Basileuterus combinations
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-Seven guides follow COL26.8 Myiothlypis (VHF9Q) and Parulidae (626BR). Seven eBird names match BirdLife with matching respective Avibase IDs and one-to-one types. Seven BirdTree Basileuterus combinations each have an exact synonym pointing to this batch’s accepted ID. Older endings are leucoblepharus, nigrocristatus, flaveolus, coronatus and signatus for leucoblephara, nigrocristata, flaveola, coronata and signata; fraseri and leucophrys keep their endings. An additional Myiodioctes coronatus catalogue synonym is not an actual crosswalk name. The genus has 18 immediate catalogue children; the earlier fulvicauda life-history route remains separate. Seven pages do not complete genus content or expert review.
+Seven guides follow COL26.8 Myiothlypis (VHF9Q) and Parulidae (626BR). Seven eBird names match BirdLife with matching respective Avibase IDs and one-to-one types. Seven BirdTree Basileuterus combinations each have an exact synonym pointing to this batch’s accepted ID. Older endings are leucoblepharus, nigrocristatus, flaveolus, coronatus and signatus for leucoblephara, nigrocristata, flaveola, coronata and signata; fraseri and leucophrys keep their endings. An additional Myiodioctes coronatus catalogue synonym is not an actual crosswalk name. The genus has 18 immediate catalogue children; the earlier fulvicauda life-history route remains separate. Seven pages do not complete genus content.
 <!-- /evo:text -->
 
 ## More total birds need not mean more complete sets
@@ -45,6 +45,6 @@ This batch’s Myiothlypis route includes 1 historical life-history account; sta
 ## Life-history evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
-Seven added Basileuterus guides separate total, complete and unsexed counts from independent mass. Three lifestyle codes do not supply direct behavioral observations; complete content for 18 catalogue children, current maps and expert review remain unfinished.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+Seven added Basileuterus guides separate total, complete and unsexed counts from independent mass. Three lifestyle codes do not supply direct behavioral observations; complete content for 18 catalogue children, current maps remain unfinished.
 <!-- /evo:text -->

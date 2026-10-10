@@ -9,7 +9,6 @@ records:
     name:
       zh: Ursus etruscus
       en: Ursus etruscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

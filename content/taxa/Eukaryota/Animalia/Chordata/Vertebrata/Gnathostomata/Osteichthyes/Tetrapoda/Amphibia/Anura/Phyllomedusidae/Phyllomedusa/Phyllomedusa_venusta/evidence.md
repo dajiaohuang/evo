@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllomedusa venusta
       zh: Phyllomedusa venusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

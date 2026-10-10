@@ -9,7 +9,6 @@ records:
     name:
       zh: Causus rasmusseni
       en: Causus rasmusseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

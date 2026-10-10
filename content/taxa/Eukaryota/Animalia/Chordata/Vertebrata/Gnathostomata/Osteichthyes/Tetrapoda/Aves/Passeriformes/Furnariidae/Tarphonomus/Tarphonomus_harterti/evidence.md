@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarphonomus harterti
       en: Tarphonomus harterti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

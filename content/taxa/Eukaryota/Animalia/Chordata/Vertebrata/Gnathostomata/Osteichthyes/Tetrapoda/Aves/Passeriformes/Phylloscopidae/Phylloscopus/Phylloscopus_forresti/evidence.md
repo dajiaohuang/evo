@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus forresti
       en: Phylloscopus forresti
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

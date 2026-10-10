@@ -9,7 +9,6 @@ records:
     name:
       zh: Catharus gracilirostris
       en: Catharus gracilirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

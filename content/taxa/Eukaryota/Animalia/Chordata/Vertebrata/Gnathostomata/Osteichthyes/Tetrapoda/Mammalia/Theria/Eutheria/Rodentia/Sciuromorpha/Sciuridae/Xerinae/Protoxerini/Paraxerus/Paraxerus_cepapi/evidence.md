@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraxerus cepapi
       en: Paraxerus cepapi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

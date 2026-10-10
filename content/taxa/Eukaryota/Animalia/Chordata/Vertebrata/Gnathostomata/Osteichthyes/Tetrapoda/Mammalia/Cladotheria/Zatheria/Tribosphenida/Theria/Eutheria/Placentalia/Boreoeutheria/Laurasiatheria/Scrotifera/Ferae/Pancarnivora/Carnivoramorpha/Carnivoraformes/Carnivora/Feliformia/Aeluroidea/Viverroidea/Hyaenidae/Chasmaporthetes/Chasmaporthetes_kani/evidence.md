@@ -9,7 +9,6 @@ records:
     name:
       zh: Chasmaporthetes kani
       en: Chasmaporthetes kani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

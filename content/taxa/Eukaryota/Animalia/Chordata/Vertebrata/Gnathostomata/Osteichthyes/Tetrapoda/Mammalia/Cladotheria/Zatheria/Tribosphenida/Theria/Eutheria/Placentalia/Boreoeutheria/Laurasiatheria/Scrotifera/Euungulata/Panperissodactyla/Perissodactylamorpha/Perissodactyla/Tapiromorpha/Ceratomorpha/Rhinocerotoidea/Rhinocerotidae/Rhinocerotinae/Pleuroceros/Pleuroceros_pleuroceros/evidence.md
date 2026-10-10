@@ -9,7 +9,6 @@ records:
     name:
       zh: Pleuroceros pleuroceros
       en: Pleuroceros pleuroceros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

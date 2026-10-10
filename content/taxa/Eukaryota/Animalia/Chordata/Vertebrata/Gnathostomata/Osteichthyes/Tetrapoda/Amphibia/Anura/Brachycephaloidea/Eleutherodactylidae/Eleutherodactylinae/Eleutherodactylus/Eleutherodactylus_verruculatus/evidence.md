@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus verruculatus
       zh: Eleutherodactylus verruculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

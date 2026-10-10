@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia glandulosa
       zh: Uperoleia glandulosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

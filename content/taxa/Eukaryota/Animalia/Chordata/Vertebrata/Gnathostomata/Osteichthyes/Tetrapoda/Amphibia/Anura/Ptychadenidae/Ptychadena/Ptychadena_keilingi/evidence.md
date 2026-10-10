@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena keilingi
       zh: Ptychadena keilingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

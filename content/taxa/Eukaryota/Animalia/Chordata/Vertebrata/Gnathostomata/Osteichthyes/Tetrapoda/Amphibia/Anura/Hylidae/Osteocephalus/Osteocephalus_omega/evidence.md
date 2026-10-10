@@ -9,7 +9,6 @@ records:
     name:
       en: Osteocephalus omega
       zh: Osteocephalus omega
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Byeoljubuchelys yeosuensis
       en: Byeoljubuchelys yeosuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

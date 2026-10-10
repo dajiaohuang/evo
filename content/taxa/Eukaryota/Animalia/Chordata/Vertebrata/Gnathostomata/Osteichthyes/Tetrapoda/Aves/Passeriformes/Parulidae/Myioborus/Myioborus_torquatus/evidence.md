@@ -9,7 +9,6 @@ records:
     name:
       zh: Myioborus torquatus
       en: Myioborus torquatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

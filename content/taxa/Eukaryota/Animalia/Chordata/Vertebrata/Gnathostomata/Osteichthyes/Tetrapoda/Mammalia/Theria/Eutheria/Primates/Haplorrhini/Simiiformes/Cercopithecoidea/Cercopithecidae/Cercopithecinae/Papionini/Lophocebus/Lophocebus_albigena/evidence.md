@@ -10,7 +10,6 @@ records:
     name:
       en: Grey-cheeked Mangabey
       zh: 灰颊獒猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

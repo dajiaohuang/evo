@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaenostictus mcleannani
       en: Phaenostictus mcleannani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

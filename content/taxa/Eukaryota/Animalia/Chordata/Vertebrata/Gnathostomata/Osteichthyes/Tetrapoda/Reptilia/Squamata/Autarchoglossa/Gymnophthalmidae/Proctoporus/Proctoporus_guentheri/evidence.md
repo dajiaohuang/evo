@@ -9,7 +9,6 @@ records:
     name:
       zh: Proctoporus guentheri
       en: Proctoporus guentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

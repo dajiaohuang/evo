@@ -9,7 +9,6 @@ records:
     name:
       zh: Sonora mutabilis
       en: Sonora mutabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pappotherium pattersoni
       en: Pappotherium pattersoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

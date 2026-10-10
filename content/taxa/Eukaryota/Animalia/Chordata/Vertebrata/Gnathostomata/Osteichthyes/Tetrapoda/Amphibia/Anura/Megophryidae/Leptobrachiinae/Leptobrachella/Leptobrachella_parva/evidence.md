@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella parva
       zh: Leptobrachella parva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aepinacodon americanus
       en: Aepinacodon americanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

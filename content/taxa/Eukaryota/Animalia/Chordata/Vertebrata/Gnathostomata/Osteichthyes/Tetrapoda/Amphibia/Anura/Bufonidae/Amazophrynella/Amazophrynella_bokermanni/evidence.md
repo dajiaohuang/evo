@@ -9,7 +9,6 @@ records:
     name:
       en: Amazophrynella bokermanni
       zh: Amazophrynella bokermanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

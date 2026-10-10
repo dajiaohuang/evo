@@ -9,7 +9,6 @@ records:
     name:
       en: Oreobates colanensis
       zh: Oreobates colanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

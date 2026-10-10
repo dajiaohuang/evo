@@ -9,7 +9,6 @@ records:
     name:
       zh: Platybelodon danovi
       en: Platybelodon danovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kennalestes gobiensis
       en: Kennalestes gobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

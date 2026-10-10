@@ -9,7 +9,6 @@ records:
     name:
       en: Limnodynastes dorsalis
       zh: Limnodynastes dorsalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

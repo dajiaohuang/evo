@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudohynobius puxiongensis
       zh: Pseudohynobius puxiongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

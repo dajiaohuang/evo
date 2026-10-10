@@ -9,7 +9,6 @@ records:
     name:
       en: Indirana brachytarsus
       zh: Indirana brachytarsus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

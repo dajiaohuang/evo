@@ -9,7 +9,6 @@ records:
     name:
       zh: Touit dilectissimus
       en: Touit dilectissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

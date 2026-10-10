@@ -9,7 +9,6 @@ records:
     name:
       en: Micrixalus gadgili
       zh: Micrixalus gadgili
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

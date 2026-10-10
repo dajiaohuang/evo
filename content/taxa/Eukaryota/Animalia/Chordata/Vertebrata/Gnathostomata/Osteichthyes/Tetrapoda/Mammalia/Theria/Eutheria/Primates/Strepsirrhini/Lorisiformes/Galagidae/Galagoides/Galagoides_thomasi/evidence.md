@@ -9,7 +9,6 @@ records:
     name:
       zh: 托马斯小婴猴
       en: Thomas's Dwarf Galago
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

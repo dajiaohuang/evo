@@ -9,7 +9,6 @@ records:
     name:
       zh: Interatherium extensus
       en: Interatherium extensus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla izecksohni
       zh: Bokermannohyla izecksohni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

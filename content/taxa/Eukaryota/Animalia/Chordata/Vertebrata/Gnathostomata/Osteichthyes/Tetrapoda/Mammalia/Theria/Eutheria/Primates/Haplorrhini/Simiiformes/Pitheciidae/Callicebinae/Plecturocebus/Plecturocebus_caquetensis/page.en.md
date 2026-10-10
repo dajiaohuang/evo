@@ -28,5 +28,5 @@ COL26.8 accepts Plecturocebus caquetensis. The 2021 account uses this genus and 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The 104 localities are occurrence records, not a population estimate; the account notes gaps in habitat preference, reproduction and home-range knowledge. The Chinese name is editorial; this guide is not externally expert-reviewed.
+The 104 localities are occurrence records, not a population estimate; the account notes gaps in habitat preference, reproduction and home-range knowledge. The Chinese name is editorial; this guide is.
 <!-- /evo:text -->

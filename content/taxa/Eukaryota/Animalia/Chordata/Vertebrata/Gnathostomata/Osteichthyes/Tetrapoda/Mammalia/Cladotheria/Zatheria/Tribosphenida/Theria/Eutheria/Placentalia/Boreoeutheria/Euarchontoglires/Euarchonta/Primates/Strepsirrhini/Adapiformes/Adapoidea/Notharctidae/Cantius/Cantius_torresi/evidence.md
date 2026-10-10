@@ -9,7 +9,6 @@ records:
     name:
       zh: Cantius torresi
       en: Cantius torresi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

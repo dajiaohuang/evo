@@ -9,7 +9,6 @@ records:
     name:
       zh: 库库拉塔斯卷尾猴
       en: Cucullatus Capuchin
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: studySites
@@ -168,8 +167,8 @@ records:
             accessedAt: 2026-10-03
             locator: Materials and Methods > Study sites, Study groups, Selecting females and Captures; Results; Discussion. Main prose only; Table I measurements and figure pixels not read.
             scope:
-              zh: 本批读取 2024 年捕获与项圈研究主文的方法、结果与讨论，补充两个地点／四群／三只成功佩戴项圈成年雌性的研究设计。未读取表 I 的个体测量、检查图像像素、复核底层遗传样本或重跑分析；不提供捕获或兽医操作指引。正文的“每群三只”措辞与明确的三个事件计数分别保留。研究采用旧亚种名 S. nigritus cucullatus；地点和研究关联不独立证明与固定种概念等同，84J8Q 对应缺口仍开，无新增专家审评。
-              en: This pass read the 2024 capture-and-collaring paper’s main methods, results and discussion, adding the design of two sites, four groups and three successfully collared adult females. Table I individual measurements, figure pixels and underlying genetic samples were not examined, and analyses were not rerun; this is not a capture or veterinary procedure guide. The “in each group” wording remains distinguished from the explicit count of three events. The study used the historical subspecies name S. nigritus cucullatus; sites and study association do not independently prove equivalence to the pinned species concept. The 84J8Q correspondence gap remains open without new expert review.
+              zh: 本批读取 2024 年捕获与项圈研究主文的方法、结果与讨论，补充两个地点／四群／三只成功佩戴项圈成年雌性的研究设计。未读取表 I 的个体测量、检查图像像素、复核底层遗传样本或重跑分析；不提供捕获或兽医操作指引。正文的“每群三只”措辞与明确的三个事件计数分别保留。研究采用旧亚种名 S. nigritus cucullatus；地点和研究关联不独立证明与固定种概念等同，84J8Q 对应缺口仍开。
+              en: This pass read the 2024 capture-and-collaring paper’s main methods, results and discussion, adding the design of two sites, four groups and three successfully collared adult females. Table I individual measurements, figure pixels and underlying genetic samples were not examined, and analyses were not rerun; this is not a capture or veterinary procedure guide. The “in each group” wording remains distinguished from the explicit count of three events. The study used the historical subspecies name S. nigritus cucullatus; sites and study association do not independently prove equivalence to the pinned species concept. The 84J8Q correspondence gap remains open.
           originalFields:
             - id
             - title

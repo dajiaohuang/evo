@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidophis maculatus
       en: Tropidophis maculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

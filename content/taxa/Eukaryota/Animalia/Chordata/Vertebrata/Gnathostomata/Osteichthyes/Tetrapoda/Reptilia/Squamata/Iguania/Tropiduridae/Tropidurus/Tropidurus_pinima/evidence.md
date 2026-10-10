@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidurus pinima
       en: Tropidurus pinima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

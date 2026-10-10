@@ -9,7 +9,6 @@ records:
     name:
       zh: Charina umbratica
       en: Charina umbratica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

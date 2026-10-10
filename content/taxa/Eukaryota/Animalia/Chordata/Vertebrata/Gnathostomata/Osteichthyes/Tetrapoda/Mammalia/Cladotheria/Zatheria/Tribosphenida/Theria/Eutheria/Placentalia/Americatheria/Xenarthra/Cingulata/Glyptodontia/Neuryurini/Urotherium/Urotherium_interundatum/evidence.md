@@ -9,7 +9,6 @@ records:
     name:
       zh: Urotherium interundatum
       en: Urotherium interundatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Doliochoerus
       en: Doliochoerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

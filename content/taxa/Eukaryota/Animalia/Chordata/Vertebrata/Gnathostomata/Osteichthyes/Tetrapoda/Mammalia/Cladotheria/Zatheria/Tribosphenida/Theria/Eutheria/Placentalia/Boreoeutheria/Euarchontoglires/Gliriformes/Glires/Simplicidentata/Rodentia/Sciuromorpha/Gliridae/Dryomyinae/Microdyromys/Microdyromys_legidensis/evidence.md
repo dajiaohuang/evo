@@ -9,7 +9,6 @@ records:
     name:
       zh: Microdyromys legidensis
       en: Microdyromys legidensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

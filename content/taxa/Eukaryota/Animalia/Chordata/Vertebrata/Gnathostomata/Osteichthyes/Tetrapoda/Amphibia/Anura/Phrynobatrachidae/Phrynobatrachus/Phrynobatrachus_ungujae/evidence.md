@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus ungujae
       zh: Phrynobatrachus ungujae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

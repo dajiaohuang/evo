@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus phenax
       zh: Nymphargus phenax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

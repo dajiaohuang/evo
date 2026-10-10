@@ -9,7 +9,6 @@ records:
     name:
       zh: Variodens inopinatus
       en: Variodens inopinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

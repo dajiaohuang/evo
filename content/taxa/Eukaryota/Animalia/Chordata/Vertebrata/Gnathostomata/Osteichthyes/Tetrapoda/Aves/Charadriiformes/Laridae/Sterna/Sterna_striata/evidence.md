@@ -9,7 +9,6 @@ records:
     name:
       zh: Sterna striata
       en: Sterna striata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

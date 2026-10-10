@@ -34,5 +34,5 @@ Shanee 与 Shanee 比较了 2008/09 年和 2012/13 年在同一处约 700 公顷
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-密度数值和群体记录均受各自调查地点与方法限制。La Esperanza 比较的是单一地点两个时期；Huánuco 的发现和 2016 年分布记录都不能确定当前全分布区种群。中文显示名为编辑用名。本页没有新增 dossier，也未经过外部领域专家评审。
+密度数值和群体记录均受各自调查地点与方法限制。La Esperanza 比较的是单一地点两个时期；Huánuco 的发现和 2016 年分布记录都不能确定当前全分布区种群。中文显示名为编辑用名。本页没有新增 dossier。
 <!-- /evo:text -->

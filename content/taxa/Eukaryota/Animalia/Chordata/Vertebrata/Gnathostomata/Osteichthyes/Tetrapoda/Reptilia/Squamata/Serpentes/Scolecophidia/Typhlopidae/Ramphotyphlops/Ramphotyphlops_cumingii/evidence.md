@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphotyphlops cumingii
       en: Ramphotyphlops cumingii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

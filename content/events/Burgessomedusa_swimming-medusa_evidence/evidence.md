@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: moon-2023-burgessomedusa @ DOI 10.1098/rspb.2022.2490
       referenceLinks:
         - referenceId: moon-2023-burgessomedusa
           relation: supports

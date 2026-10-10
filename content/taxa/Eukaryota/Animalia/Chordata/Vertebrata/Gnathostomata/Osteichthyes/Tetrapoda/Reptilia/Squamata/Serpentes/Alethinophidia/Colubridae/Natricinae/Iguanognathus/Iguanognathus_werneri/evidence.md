@@ -9,7 +9,6 @@ records:
     name:
       zh: Iguanognathus werneri
       en: Iguanognathus werneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

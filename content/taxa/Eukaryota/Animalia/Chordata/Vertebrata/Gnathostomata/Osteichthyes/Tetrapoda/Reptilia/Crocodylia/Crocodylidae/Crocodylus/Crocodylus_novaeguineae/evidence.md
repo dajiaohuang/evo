@@ -9,7 +9,6 @@ records:
     name:
       zh: 新几内亚鳄
       en: New Guinea crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

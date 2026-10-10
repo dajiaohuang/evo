@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega panguana
       zh: Ameerega panguana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

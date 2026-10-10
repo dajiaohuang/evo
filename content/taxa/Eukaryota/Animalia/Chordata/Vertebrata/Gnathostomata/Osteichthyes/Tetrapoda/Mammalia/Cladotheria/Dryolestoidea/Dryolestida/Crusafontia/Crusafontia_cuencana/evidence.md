@@ -9,7 +9,6 @@ records:
     name:
       zh: Crusafontia cuencana
       en: Crusafontia cuencana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

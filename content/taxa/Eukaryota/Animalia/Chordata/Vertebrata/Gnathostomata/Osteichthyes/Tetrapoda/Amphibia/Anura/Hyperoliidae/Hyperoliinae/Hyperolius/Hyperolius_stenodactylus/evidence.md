@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius stenodactylus
       zh: Hyperolius stenodactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

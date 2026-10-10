@@ -9,7 +9,6 @@ records:
     name:
       zh: Apodemus draco
       en: Apodemus draco
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

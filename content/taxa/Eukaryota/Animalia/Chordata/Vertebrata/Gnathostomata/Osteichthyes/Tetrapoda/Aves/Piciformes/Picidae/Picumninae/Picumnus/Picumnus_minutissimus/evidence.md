@@ -9,7 +9,6 @@ records:
     name:
       zh: Picumnus minutissimus
       en: Picumnus minutissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

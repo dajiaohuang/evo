@@ -9,7 +9,6 @@ records:
     name:
       zh: Riolama grandis
       en: Riolama grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

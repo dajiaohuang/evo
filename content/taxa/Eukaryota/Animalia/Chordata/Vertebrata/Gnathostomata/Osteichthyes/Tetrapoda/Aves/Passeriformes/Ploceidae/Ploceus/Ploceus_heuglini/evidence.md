@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus heuglini
       en: Ploceus heuglini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

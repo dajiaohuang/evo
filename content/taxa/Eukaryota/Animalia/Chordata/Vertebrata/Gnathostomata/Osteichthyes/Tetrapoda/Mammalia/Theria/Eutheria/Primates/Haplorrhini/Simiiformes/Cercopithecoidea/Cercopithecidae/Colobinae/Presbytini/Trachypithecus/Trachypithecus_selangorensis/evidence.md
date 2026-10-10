@@ -9,7 +9,6 @@ records:
     name:
       zh: 雪兰莪银叶猴
       en: Selangor Silvery Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy_story

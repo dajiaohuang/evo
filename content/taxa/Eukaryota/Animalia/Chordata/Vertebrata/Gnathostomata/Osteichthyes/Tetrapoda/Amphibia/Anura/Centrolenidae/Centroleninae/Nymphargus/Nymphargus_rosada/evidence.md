@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus rosada
       zh: Nymphargus rosada
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

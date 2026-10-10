@@ -9,7 +9,6 @@ records:
     name:
       zh: Basilornis galeatus
       en: Basilornis galeatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella festae
       zh: Rhinella festae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

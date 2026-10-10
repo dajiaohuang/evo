@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelotes anguinus
       en: Scelotes anguinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

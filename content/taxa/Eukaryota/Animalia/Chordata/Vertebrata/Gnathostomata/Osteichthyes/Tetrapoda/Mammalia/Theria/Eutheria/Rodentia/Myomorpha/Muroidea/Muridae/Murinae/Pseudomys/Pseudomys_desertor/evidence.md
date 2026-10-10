@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudomys desertor
       en: Pseudomys desertor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

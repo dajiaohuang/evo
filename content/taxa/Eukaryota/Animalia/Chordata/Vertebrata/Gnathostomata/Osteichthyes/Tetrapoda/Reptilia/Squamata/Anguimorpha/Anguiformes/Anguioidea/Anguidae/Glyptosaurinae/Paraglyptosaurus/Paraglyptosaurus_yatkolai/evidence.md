@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraglyptosaurus yatkolai
       en: Paraglyptosaurus yatkolai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus macrosternum
       zh: Leptodactylus macrosternum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

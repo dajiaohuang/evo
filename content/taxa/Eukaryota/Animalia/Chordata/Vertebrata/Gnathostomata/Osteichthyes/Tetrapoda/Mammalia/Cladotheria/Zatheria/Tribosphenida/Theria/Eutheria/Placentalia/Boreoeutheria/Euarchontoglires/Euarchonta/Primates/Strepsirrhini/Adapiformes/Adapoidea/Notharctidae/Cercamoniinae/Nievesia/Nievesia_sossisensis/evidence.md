@@ -9,7 +9,6 @@ records:
     name:
       zh: Nievesia sossisensis
       en: Nievesia sossisensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

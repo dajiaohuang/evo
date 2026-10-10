@@ -176,5 +176,5 @@ fu2014
 ## atlas-profile / readerLimitations
 
 <!-- evo:text /records/atlas-profile/readerLimitations/en -->
-This bilingual reader draft selects ancient evidence from four sites and studies; it is not a complete account of living human populations, life history, present-day geographic range or human origins. Site ages, fossil dates and model-based genomic comparisons remain distinct. The dossier is incomplete and has not received independent expert review.
+This bilingual reader draft selects ancient evidence from four sites and studies; it is not a complete account of living human populations, life history, present-day geographic range or human origins. Site ages, fossil dates and model-based genomic comparisons remain distinct. The dossier is incomplete.
 <!-- /evo:text -->

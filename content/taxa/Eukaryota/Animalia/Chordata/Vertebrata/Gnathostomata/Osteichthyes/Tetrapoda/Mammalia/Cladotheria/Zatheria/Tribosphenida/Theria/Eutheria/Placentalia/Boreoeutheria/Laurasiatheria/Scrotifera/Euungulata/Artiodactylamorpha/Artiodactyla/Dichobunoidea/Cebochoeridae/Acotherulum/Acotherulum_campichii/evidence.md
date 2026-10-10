@@ -9,7 +9,6 @@ records:
     name:
       zh: Acotherulum campichii
       en: Acotherulum campichii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

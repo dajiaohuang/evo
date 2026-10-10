@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor aurilegulus
       zh: Craugastor aurilegulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiopagis subplacens
       en: Myiopagis subplacens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

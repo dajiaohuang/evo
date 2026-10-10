@@ -9,7 +9,6 @@ records:
     name:
       zh: Morenia ocellata
       en: Morenia ocellata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

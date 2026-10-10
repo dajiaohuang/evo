@@ -9,7 +9,6 @@ records:
     name:
       zh: Chometokadmon fitzingeri
       en: Chometokadmon fitzingeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

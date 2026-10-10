@@ -9,7 +9,6 @@ records:
     name:
       en: Mertensophryne taitana
       zh: Mertensophryne taitana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

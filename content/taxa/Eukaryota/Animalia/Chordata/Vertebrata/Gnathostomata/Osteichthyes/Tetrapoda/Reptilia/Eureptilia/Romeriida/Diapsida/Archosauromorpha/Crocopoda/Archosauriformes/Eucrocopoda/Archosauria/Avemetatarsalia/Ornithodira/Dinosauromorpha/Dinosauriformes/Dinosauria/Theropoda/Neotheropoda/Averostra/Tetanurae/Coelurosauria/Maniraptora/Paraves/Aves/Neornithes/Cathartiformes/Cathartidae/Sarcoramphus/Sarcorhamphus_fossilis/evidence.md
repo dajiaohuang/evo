@@ -9,7 +9,6 @@ records:
     name:
       zh: Sarcorhamphus fossilis
       en: Sarcorhamphus fossilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

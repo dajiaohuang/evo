@@ -225,5 +225,5 @@ Soft tissues and vasculature make the living complex richer than the component u
 ## story / steps / annotation
 
 <!-- evo:text /records/story/steps/6/annotation -->
-COL26.8 routes 35,928 strictly accepted species names below Actinopterygii (usage ID 8VR36); that is naming coverage, not 35,928 mature dossiers, verified morphologies, fossil ranges, media records or expert reviews.
+COL26.8 routes 35,928 strictly accepted species names below Actinopterygii (usage ID 8VR36); that is naming coverage, not 35,928 mature dossiers, verified morphologies, fossil ranges, media recordss.
 <!-- /evo:text -->

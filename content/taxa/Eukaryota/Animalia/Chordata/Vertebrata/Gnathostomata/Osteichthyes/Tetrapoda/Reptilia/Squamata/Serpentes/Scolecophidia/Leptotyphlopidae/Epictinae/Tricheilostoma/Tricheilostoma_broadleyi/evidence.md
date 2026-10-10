@@ -9,7 +9,6 @@ records:
     name:
       zh: Tricheilostoma broadleyi
       en: Tricheilostoma broadleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

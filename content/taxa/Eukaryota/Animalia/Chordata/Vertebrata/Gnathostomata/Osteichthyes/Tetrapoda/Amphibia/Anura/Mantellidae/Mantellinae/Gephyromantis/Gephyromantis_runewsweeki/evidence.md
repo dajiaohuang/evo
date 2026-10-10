@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis runewsweeki
       zh: Gephyromantis runewsweeki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

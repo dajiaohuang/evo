@@ -9,7 +9,6 @@ records:
     name:
       zh: Calodactylodes aureus
       en: Calodactylodes aureus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

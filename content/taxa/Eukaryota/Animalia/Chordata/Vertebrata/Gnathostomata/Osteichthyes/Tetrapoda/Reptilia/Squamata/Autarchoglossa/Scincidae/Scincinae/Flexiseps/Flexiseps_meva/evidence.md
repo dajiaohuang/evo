@@ -9,7 +9,6 @@ records:
     name:
       zh: Flexiseps meva
       en: Flexiseps meva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

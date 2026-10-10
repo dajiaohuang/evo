@@ -9,7 +9,6 @@ records:
     name:
       zh: Peratherium constans
       en: Peratherium constans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

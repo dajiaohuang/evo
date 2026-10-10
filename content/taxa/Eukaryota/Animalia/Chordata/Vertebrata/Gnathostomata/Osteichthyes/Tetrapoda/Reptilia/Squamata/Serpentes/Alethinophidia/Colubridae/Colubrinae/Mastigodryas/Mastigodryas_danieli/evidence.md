@@ -9,7 +9,6 @@ records:
     name:
       zh: Mastigodryas danieli
       en: Mastigodryas danieli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

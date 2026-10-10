@@ -36,5 +36,5 @@ Begin with Dsungaripterus weii and compare named collections and original refere
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-All five scientific main sections from 2020 and seven from 2024, textual tables and figure captions were read. Images, raw CT, models, specimens and the original 1964/1973 descriptions were not independently inspected. Revised boundaries, soft tissues, diet, maturity, sex and same-horizon coexistence retain their inferential scopes; database rows were not individually matched to scans. A full species monograph, complete geographic and growth material, external expert review and reader-facing delivery remain pending.
+All five scientific main sections from 2020 and seven from 2024, textual tables and figure captions were read. Images, raw CT, models, specimens and the original 1964/1973 descriptions were not independently inspected. Revised boundaries, soft tissues, diet, maturity, sex and same-horizon coexistence retain their inferential scopes; database rows were not individually matched to scans. A full species monograph, complete geographic and growth material and reader-facing delivery remain pending.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Urochroa
       en: Urochroa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

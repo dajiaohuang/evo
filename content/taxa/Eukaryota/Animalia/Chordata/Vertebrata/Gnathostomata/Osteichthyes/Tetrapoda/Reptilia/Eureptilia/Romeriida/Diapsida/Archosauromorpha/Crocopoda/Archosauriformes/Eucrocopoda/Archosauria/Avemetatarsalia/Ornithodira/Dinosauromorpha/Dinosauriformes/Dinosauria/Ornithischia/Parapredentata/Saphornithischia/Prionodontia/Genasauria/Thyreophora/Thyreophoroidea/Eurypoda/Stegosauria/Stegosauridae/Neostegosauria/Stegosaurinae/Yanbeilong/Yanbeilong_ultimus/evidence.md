@@ -9,7 +9,6 @@ records:
     name:
       zh: Yanbeilong ultimus
       en: Yanbeilong ultimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

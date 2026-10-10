@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: miranda-2016-staurozoa
       referenceLinks:
         - referenceId: miranda-2016-staurozoa
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: miranda-2016-staurozoa locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: miranda-2016-staurozoa
@@ -96,7 +90,6 @@ records:
           locator: Article e1951; Figures 3–8; Table 1; extant systematic revision
         - referenceId: miranda-2015-haootia
           locator: Article 20142396; Figure 1; reassessment of the staurozoan comparison
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

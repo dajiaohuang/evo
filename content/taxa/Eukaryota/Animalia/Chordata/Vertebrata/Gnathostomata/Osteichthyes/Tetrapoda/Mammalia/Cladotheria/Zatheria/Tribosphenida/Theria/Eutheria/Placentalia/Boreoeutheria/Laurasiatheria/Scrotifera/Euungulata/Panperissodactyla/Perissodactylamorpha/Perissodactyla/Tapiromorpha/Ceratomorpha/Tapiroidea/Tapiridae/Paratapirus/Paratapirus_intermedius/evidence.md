@@ -9,7 +9,6 @@ records:
     name:
       zh: Paratapirus intermedius
       en: Paratapirus intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

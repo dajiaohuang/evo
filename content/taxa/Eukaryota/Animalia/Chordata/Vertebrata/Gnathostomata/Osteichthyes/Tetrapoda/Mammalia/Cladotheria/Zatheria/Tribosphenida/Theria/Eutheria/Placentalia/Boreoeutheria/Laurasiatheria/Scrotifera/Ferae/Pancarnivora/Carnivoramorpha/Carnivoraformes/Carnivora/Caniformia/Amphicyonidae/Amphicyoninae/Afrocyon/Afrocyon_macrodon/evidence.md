@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrocyon macrodon
       en: Afrocyon macrodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

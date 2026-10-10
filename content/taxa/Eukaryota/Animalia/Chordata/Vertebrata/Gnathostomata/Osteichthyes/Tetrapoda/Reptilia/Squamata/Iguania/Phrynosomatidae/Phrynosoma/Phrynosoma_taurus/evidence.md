@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynosoma taurus
       en: Phrynosoma taurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

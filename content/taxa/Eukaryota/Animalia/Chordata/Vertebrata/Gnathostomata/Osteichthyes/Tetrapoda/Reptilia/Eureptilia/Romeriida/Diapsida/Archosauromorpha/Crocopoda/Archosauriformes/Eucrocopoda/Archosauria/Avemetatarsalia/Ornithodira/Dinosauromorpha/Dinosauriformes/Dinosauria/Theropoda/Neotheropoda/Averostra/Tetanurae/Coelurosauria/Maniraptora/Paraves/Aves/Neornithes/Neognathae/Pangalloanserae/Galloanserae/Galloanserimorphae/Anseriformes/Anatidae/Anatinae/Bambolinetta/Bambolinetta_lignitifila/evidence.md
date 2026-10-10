@@ -9,7 +9,6 @@ records:
     name:
       zh: Bambolinetta lignitifila
       en: Bambolinetta lignitifila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

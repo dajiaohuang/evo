@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus neohibernicus
       en: Pteropus neohibernicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

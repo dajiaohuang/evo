@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligoryctes altitalonidus
       en: Oligoryctes altitalonidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

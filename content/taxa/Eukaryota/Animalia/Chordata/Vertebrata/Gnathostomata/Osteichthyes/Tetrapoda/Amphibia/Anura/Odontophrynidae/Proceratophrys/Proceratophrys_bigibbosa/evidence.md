@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys bigibbosa
       zh: Proceratophrys bigibbosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

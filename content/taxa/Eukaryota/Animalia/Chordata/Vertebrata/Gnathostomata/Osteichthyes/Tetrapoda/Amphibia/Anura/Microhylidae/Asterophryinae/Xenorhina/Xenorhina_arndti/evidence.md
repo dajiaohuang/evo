@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina arndti
       zh: Xenorhina arndti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

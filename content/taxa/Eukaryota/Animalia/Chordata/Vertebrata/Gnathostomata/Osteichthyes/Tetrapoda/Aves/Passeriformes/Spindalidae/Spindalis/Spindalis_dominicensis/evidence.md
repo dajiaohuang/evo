@@ -9,7 +9,6 @@ records:
     name:
       zh: Spindalis dominicensis
       en: Spindalis dominicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Poiana richardsonii
       en: Poiana richardsonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Actophilornis albinucha
       en: Actophilornis albinucha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

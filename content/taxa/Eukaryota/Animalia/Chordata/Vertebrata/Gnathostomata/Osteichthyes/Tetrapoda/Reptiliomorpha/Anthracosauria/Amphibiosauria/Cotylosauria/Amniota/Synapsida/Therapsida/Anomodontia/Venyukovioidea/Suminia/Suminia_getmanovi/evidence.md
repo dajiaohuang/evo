@@ -9,7 +9,6 @@ records:
     name:
       zh: Suminia getmanovi
       en: Suminia getmanovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

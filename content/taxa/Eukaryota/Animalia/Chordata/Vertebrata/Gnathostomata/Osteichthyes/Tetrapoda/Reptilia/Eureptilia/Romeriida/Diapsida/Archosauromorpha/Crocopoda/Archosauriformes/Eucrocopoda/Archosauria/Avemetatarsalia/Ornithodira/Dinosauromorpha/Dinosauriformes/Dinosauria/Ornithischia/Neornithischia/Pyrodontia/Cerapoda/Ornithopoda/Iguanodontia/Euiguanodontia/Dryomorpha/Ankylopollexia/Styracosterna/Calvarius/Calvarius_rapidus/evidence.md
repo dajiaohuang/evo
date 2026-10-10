@@ -9,7 +9,6 @@ records:
     name:
       zh: Calvarius rapidus
       en: Calvarius rapidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

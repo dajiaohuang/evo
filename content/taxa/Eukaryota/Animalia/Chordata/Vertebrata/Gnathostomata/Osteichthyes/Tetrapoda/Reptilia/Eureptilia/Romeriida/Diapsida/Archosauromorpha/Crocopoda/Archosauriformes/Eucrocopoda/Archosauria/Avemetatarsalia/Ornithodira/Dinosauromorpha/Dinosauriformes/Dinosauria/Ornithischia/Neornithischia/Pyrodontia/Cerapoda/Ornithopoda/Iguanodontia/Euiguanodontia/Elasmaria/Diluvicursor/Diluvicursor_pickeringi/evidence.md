@@ -9,7 +9,6 @@ records:
     name:
       zh: Diluvicursor pickeringi
       en: Diluvicursor pickeringi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

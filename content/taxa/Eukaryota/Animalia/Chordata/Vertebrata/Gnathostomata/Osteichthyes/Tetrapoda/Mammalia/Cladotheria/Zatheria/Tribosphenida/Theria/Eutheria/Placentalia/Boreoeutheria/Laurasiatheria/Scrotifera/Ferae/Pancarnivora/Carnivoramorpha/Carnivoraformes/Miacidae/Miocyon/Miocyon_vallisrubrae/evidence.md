@@ -9,7 +9,6 @@ records:
     name:
       zh: Miocyon vallisrubrae
       en: Miocyon vallisrubrae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

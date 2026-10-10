@@ -9,7 +9,6 @@ records:
     name:
       zh: Storchodon cingulatus
       en: Storchodon cingulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

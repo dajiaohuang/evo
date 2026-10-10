@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis percultus
       zh: Pristimantis percultus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

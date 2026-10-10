@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptis nlonakoensis
       zh: Arthroleptis nlonakoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

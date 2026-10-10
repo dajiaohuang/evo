@@ -9,7 +9,6 @@ records:
     name:
       zh: Sibon manzanaresi
       en: Sibon manzanaresi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

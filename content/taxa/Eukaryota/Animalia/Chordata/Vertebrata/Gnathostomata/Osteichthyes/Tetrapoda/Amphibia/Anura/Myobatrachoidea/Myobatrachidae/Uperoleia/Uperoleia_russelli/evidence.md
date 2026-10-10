@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia russelli
       zh: Uperoleia russelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

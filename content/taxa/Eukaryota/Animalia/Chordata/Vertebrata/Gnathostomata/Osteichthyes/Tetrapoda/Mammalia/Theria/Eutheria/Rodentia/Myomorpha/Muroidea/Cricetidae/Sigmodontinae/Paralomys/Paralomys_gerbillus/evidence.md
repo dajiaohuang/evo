@@ -9,7 +9,6 @@ records:
     name:
       zh: Paralomys gerbillus
       en: Paralomys gerbillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliauchenia raki
       en: Pliauchenia raki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

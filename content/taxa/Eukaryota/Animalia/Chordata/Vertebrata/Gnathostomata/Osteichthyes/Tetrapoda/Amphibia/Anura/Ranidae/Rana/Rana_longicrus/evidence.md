@@ -9,7 +9,6 @@ records:
     name:
       en: Rana longicrus
       zh: Rana longicrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Caledoniscincus auratus
       en: Caledoniscincus auratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

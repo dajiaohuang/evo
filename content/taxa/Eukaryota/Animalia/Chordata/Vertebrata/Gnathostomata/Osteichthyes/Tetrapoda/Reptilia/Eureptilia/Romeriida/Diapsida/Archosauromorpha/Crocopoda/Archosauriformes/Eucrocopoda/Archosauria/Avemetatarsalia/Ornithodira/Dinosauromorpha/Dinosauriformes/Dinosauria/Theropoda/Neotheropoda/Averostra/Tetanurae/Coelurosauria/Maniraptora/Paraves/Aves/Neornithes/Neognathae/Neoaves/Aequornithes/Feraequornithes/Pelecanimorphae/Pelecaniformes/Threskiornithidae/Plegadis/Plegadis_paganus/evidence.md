@@ -9,7 +9,6 @@ records:
     name:
       zh: Plegadis paganus
       en: Plegadis paganus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

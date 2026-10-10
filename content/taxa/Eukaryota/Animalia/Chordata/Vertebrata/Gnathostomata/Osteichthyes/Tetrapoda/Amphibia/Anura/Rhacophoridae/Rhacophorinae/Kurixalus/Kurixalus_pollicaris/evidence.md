@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus pollicaris
       zh: Kurixalus pollicaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

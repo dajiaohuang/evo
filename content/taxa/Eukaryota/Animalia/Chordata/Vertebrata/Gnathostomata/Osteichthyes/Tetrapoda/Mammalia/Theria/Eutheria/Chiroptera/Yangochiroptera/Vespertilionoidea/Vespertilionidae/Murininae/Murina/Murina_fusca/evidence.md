@@ -9,7 +9,6 @@ records:
     name:
       zh: Murina fusca
       en: Murina fusca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

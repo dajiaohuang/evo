@@ -9,7 +9,6 @@ records:
     name:
       zh: Ourebia ourebi
       en: Ourebia ourebi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cadurcodon suhaituensis
       en: Cadurcodon suhaituensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

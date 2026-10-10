@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemitriccus nidipendulus
       en: Hemitriccus nidipendulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus occidentalis
       en: Atractus occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

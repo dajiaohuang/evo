@@ -9,7 +9,6 @@ records:
     name:
       zh: Daphoenodon (Borocyon) neomexicanus
       en: Daphoenodon (Borocyon) neomexicanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

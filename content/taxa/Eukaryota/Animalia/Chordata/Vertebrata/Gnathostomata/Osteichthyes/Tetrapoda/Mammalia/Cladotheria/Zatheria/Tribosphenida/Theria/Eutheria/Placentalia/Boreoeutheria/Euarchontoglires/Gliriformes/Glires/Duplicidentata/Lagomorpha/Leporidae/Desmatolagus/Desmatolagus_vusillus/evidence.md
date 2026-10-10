@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmatolagus vusillus
       en: Desmatolagus vusillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

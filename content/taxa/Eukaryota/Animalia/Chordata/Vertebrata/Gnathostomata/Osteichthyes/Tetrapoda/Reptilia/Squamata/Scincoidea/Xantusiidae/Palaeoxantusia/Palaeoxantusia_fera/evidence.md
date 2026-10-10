@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoxantusia fera
       en: Palaeoxantusia fera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

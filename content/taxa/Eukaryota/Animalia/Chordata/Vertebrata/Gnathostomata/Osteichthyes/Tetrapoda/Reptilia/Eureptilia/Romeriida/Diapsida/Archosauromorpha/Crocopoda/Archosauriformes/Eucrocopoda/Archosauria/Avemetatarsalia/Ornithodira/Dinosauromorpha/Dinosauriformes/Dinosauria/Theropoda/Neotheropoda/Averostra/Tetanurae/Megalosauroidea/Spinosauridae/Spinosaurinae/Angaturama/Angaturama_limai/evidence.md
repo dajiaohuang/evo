@@ -9,7 +9,6 @@ records:
     name:
       zh: Angaturama limai
       en: Angaturama limai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

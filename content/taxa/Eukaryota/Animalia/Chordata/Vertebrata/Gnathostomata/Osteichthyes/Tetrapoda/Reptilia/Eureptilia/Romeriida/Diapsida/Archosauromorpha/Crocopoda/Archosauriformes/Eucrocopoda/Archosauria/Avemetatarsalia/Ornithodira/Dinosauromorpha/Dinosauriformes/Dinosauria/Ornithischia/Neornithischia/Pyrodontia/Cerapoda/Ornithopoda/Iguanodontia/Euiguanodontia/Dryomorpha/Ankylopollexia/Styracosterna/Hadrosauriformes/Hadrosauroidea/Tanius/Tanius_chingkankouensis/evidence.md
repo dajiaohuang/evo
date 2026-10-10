@@ -9,7 +9,6 @@ records:
     name:
       zh: Tanius chingkankouensis
       en: Tanius chingkankouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

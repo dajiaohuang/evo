@@ -9,7 +9,6 @@ records:
     name:
       zh: Bottosaurus
       en: Bottosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

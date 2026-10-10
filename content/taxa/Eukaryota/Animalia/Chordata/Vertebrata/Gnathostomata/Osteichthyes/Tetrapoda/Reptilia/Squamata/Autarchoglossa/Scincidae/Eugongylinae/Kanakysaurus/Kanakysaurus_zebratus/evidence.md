@@ -9,7 +9,6 @@ records:
     name:
       zh: Kanakysaurus zebratus
       en: Kanakysaurus zebratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

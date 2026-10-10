@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrocephalus dumetorum
       en: Acrocephalus dumetorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

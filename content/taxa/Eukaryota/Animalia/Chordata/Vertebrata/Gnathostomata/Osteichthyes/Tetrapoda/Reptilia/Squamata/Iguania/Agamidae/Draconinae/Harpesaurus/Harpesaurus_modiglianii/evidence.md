@@ -9,7 +9,6 @@ records:
     name:
       zh: Harpesaurus modiglianii
       en: Harpesaurus modiglianii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

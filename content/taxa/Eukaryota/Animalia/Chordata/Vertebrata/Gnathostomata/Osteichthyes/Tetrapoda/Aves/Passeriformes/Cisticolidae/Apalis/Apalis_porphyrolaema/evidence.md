@@ -9,7 +9,6 @@ records:
     name:
       zh: Apalis porphyrolaema
       en: Apalis porphyrolaema
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Baminornis zhenghensis
       en: Baminornis zhenghensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

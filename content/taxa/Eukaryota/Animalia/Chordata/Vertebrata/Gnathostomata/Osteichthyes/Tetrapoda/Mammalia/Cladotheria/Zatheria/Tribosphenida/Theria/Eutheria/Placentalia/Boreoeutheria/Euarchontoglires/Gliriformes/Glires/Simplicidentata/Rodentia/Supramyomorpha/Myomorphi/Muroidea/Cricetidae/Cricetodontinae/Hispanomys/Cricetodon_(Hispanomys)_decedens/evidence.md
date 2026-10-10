@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricetodon (Hispanomys) decedens
       en: Cricetodon (Hispanomys) decedens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Duerotherium sudrei
       en: Duerotherium sudrei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

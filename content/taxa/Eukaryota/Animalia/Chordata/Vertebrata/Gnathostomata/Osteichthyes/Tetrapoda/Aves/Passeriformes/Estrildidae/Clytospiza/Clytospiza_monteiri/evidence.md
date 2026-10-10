@@ -9,7 +9,6 @@ records:
     name:
       zh: Clytospiza monteiri
       en: Clytospiza monteiri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -28,5 +28,5 @@ COL26.8 接受 Cebus versicolor Pucheran, 1845；MDD v2.5 将 C. versicolor 作�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-来源链接的地方研究导读，尚未经过外部领域专家评审。占域模型只覆盖 Selva de Florencia；寄生虫比例是跨三种灵长类的合并样本结果。两项研究都不能代表全分布区、全年生态或当前保育状态。
+来源链接的地方研究导读。占域模型只覆盖 Selva de Florencia；寄生虫比例是跨三种灵长类的合并样本结果。两项研究都不能代表全分布区、全年生态或当前保育状态。
 <!-- /evo:text -->

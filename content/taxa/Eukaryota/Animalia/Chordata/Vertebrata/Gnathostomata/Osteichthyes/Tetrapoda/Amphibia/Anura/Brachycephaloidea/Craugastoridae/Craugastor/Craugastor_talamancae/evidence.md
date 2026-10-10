@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor talamancae
       zh: Craugastor talamancae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

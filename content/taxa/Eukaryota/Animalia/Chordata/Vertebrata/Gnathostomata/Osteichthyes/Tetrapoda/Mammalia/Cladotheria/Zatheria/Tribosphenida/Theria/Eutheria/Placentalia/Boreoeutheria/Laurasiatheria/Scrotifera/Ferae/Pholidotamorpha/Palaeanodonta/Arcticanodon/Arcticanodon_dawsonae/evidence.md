@@ -9,7 +9,6 @@ records:
     name:
       zh: Arcticanodon dawsonae
       en: Arcticanodon dawsonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

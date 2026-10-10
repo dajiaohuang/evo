@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius maoershanensis
       zh: Hynobius maoershanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

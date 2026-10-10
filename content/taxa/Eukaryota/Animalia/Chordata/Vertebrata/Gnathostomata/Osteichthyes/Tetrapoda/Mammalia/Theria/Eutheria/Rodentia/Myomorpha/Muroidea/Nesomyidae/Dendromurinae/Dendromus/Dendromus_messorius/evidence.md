@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendromus messorius
       en: Dendromus messorius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

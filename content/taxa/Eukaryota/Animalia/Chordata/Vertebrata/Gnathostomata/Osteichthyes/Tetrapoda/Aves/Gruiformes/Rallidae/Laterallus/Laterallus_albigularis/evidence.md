@@ -9,7 +9,6 @@ records:
     name:
       zh: Laterallus albigularis
       en: Laterallus albigularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phosphatherium escuilliei
       en: Phosphatherium escuilliei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 河静叶猴
       en: Hatinh Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding_ecology

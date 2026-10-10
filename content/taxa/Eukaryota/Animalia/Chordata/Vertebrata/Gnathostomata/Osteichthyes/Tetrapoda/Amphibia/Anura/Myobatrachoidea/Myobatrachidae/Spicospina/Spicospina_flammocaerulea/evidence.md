@@ -9,7 +9,6 @@ records:
     name:
       en: Spicospina flammocaerulea
       zh: Spicospina flammocaerulea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

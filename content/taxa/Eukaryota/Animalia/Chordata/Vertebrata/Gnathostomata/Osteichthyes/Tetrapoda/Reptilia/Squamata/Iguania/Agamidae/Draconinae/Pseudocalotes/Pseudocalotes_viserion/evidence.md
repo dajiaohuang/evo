@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocalotes viserion
       en: Pseudocalotes viserion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

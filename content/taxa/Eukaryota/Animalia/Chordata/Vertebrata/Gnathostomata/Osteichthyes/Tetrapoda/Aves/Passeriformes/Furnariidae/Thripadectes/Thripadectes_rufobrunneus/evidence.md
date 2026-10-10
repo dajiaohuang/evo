@@ -9,7 +9,6 @@ records:
     name:
       zh: Thripadectes rufobrunneus
       en: Thripadectes rufobrunneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

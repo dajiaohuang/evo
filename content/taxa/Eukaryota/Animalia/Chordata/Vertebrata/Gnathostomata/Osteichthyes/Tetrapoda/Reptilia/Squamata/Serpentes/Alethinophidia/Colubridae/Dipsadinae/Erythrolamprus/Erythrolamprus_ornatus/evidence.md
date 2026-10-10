@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus ornatus
       en: Erythrolamprus ornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

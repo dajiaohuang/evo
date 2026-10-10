@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremias afghanistanica
       en: Eremias afghanistanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

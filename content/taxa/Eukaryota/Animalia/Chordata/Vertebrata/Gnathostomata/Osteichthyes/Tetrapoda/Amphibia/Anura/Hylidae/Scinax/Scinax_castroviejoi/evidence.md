@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax castroviejoi
       zh: Scinax castroviejoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

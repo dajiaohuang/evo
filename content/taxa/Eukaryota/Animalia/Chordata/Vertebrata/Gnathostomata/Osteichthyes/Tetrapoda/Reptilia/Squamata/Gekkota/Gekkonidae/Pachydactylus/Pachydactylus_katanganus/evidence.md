@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachydactylus katanganus
       en: Pachydactylus katanganus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

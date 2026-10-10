@@ -9,7 +9,6 @@ records:
     name:
       zh: Eretmorhipis carrolldongi
       en: Eretmorhipis carrolldongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

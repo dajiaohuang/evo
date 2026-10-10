@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnophilus aethiops
       en: Thamnophilus aethiops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium costaricanum
       en: Glaucidium costaricanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leontocebus fuscus
       en: Leontocebus fuscus
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

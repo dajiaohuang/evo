@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus pesantesi
       zh: Phrynopus pesantesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

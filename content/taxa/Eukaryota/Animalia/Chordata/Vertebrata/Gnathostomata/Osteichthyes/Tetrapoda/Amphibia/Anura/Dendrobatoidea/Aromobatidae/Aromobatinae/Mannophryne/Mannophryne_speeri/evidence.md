@@ -9,7 +9,6 @@ records:
     name:
       en: Mannophryne speeri
       zh: Mannophryne speeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

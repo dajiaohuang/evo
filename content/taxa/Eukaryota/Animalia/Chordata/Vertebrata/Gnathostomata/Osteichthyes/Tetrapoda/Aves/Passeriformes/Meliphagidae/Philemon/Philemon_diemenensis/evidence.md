@@ -9,7 +9,6 @@ records:
     name:
       zh: Philemon diemenensis
       en: Philemon diemenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

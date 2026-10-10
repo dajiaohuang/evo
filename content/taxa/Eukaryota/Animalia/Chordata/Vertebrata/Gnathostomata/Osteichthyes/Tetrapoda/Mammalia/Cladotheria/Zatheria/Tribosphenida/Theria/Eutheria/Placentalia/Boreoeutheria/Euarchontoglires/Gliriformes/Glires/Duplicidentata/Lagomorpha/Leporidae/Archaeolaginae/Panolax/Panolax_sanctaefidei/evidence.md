@@ -9,7 +9,6 @@ records:
     name:
       zh: Panolax sanctaefidei
       en: Panolax sanctaefidei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

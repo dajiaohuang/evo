@@ -9,7 +9,6 @@ records:
     name:
       zh: Pantherophis emoryi
       en: Pantherophis emoryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

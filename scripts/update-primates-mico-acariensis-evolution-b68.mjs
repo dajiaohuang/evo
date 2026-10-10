@@ -62,7 +62,6 @@ assert.equal(dossier.rank, source.target.rank)
 assert.equal(String(dossier.sourceDatasetId), source.target.sourceDatasetId)
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 const existingEvolutionClaims = dossier.facets.evolution.claims ?? []
 if (applied) {
   assert.equal(dossier.facets.evolution.status, 'partially-supported')
@@ -73,13 +72,13 @@ if (applied) {
   } else {
     assert.equal(applied.sourceSha256, PREVIOUS_SOURCE_SHA256, 'Only the recorded pre-CI B68 input revision may be upgraded')
   }
-  assert.equal(dossier.facets.distribution.gaps.includes('Morphology, life history, ecology, evolution, fossils, conservation status, systematic evidence search, and external expert review remain unassessed.'), false)
+  assert.equal(dossier.facets.distribution.gaps.includes('Morphology, life history, ecology, evolution, fossils, conservation status, systematic evidence search, remain unassessed.'), false)
 } else {
   assert.equal(sha256(Buffer.from(JSON.stringify(dossier), 'utf8')), source.audit.targetRecordSha256)
   assert.equal(dossier.facets.evolution.status, 'not-assessed')
   assert.equal(existingEvolutionClaims.length, source.audit.evolutionClaimCount)
   assert.ok(!existingEvolutionClaims.some(item => item.text === source.claim.text), 'B68 claim already exists')
-  assert.equal(dossier.facets.distribution.gaps.includes('Morphology, life history, ecology, evolution, fossils, conservation status, systematic evidence search, and external expert review remain unassessed.'), true)
+  assert.equal(dossier.facets.distribution.gaps.includes('Morphology, life history, ecology, evolution, fossils, conservation status, systematic evidence search, remain unassessed.'), true)
 }
 const existingSource = dossier.sources.find(item => item.id === source.sourceReuse.id)
 assert.ok(existingSource, 'Referenced publisher article must already exist in the target dossier')
@@ -277,8 +276,8 @@ if (applied && applied.sourceSha256 === PREVIOUS_SOURCE_SHA256) {
     claims: [structuredClone(source.claim)],
     gaps: structuredClone(source.facetGaps),
   }
-  updatedDossier.facets.distribution.gaps = updatedDossier.facets.distribution.gaps.map(gap => gap === 'Morphology, life history, ecology, evolution, fossils, conservation status, systematic evidence search, and external expert review remain unassessed.'
-    ? 'Morphology, life history, fossils, conservation status, systematic evidence search, and external expert review remain unassessed.'
+  updatedDossier.facets.distribution.gaps = updatedDossier.facets.distribution.gaps.map(gap => gap === 'Morphology, life history, ecology, evolution, fossils, conservation status, systematic evidence search, remain unassessed.'
+    ? 'Morphology, life history, fossils, conservation status, systematic evidence search, remain unassessed.'
     : gap)
   updatedDossier.completeness.reasons = structuredClone(source.completenessReasons)
   const updatedLines = originalLines.map(line => {

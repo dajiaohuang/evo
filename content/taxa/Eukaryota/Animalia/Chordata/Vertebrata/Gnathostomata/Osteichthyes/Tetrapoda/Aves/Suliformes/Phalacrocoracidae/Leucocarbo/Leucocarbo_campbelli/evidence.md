@@ -9,7 +9,6 @@ records:
     name:
       zh: Leucocarbo campbelli
       en: Leucocarbo campbelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

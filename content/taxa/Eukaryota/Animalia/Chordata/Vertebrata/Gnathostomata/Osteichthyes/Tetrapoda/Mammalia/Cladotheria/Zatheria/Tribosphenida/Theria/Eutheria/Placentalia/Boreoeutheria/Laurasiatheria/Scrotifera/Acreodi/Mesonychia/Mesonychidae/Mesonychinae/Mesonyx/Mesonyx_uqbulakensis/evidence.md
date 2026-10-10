@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesonyx uqbulakensis
       en: Mesonyx uqbulakensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

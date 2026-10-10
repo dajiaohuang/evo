@@ -9,7 +9,6 @@ records:
     name:
       zh: 红色细懒猴
       en: Red slender loris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutropis multifasciata
       en: Eutropis multifasciata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

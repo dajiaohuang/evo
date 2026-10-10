@@ -9,7 +9,6 @@ records:
     name:
       zh: Halcyon badia
       en: Halcyon badia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

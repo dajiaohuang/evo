@@ -9,7 +9,6 @@ records:
     name:
       en: Sigalegalephrynus minangkabauensis
       zh: Sigalegalephrynus minangkabauensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

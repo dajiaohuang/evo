@@ -9,7 +9,6 @@ records:
     name:
       zh: Glossotherium chapadmalense
       en: Glossotherium chapadmalense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

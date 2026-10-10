@@ -9,7 +9,6 @@ records:
     name:
       en: Morerella cyanophthalma
       zh: Morerella cyanophthalma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

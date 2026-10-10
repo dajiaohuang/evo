@@ -9,7 +9,6 @@ records:
     name:
       zh: Acaremys major
       en: Acaremys major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

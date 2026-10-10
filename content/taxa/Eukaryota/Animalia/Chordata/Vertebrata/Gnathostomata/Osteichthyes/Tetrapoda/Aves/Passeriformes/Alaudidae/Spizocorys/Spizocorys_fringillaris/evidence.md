@@ -9,7 +9,6 @@ records:
     name:
       zh: Spizocorys fringillaris
       en: Spizocorys fringillaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

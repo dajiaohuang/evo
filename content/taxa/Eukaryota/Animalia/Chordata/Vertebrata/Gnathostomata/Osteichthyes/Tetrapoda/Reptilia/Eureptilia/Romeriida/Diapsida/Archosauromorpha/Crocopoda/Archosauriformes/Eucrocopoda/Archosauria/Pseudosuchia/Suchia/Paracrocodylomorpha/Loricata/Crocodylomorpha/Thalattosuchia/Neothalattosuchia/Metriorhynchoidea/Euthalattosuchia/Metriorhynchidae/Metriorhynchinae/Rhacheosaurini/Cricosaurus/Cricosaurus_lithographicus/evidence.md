@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricosaurus lithographicus
       en: Cricosaurus lithographicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

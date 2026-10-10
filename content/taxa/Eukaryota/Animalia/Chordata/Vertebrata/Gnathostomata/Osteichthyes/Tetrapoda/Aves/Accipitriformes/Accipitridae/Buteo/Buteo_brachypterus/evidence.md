@@ -9,7 +9,6 @@ records:
     name:
       zh: Buteo brachypterus
       en: Buteo brachypterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

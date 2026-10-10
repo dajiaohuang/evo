@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: betancur-2017-bony-fish-classification DOI 10.1186/s12862-017-0958-3; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: betancur-2017-bony-fish-classification
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: qi-2024-teleost-wgd-dating; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: qi-2024-teleost-wgd-dating
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: qi-2024-teleost-wgd-dating
           locator: "Article evae128; Figure 1; Supplementary Table S1; Results: crown Teleostei 254.36–234.16 Ma"
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

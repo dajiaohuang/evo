@@ -9,7 +9,6 @@ records:
     name:
       zh: Asthenodipsas ingeri
       en: Asthenodipsas ingeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

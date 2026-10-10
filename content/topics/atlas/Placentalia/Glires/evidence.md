@@ -27,11 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: oleary-2013-placental-ancestor-model
           relation: contextualizes
@@ -75,7 +70,6 @@ records:
           locator: pp. 662–667; Figures 1–2; Table 1
         - referenceId: fostowicz-frelik-2015-mimolagus
           locator: Article 9394; Figures 1–5; Supplementary Information
-      reviewStatus: automated-audit-passed
 ---
 
 # Glires

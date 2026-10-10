@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptictidium auderiense
       en: Leptictidium auderiense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

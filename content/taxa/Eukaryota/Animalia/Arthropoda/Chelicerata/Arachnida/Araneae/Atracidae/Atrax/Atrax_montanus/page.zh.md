@@ -22,5 +22,5 @@ A. montanus 曾在分类处理中被并入悉尼漏斗网蛛的种内变异；20
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-这是有来源的入门概述，尚未经过外部领域专家评审。来源主要是 2025 年修订后的新南威尔士州范围说明；不推导全球趋势、全种群状态或正式保育等级。
+这是有来源的入门概述。来源主要是 2025 年修订后的新南威尔士州范围说明；不推导全球趋势、全种群状态或正式保育等级。
 <!-- /evo:text -->

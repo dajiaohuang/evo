@@ -9,7 +9,6 @@ records:
     name:
       en: Paradoxophyla
       zh: Paradoxophyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: leslie-2018-conifer-evolution
       referenceLinks:
         - referenceId: leslie-2018-conifer-evolution
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: leslie-2018-conifer-evolution locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: leslie-2018-conifer-evolution
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Leslie et al. 2012 DOI 10.1073/pnas.1213621109
       referenceLinks:
         - referenceId: leslie-2012-conifer-hemispheres
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Leslie et al. 2012 DOI 10.1073/pnas.1213621109
       referenceLinks:
         - referenceId: leslie-2012-conifer-hemispheres
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Leslie et al. 2012 DOI 10.1073/pnas.1213621109
       referenceLinks:
         - referenceId: leslie-2012-conifer-hemispheres
           relation: supports
@@ -163,9 +148,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Leslie et al. 2012 DOI 10.1073/pnas.1213621109
       referenceLinks:
         - referenceId: leslie-2012-conifer-hemispheres
           relation: supports
@@ -221,7 +203,6 @@ records:
       referenceLocators:
         - referenceId: leslie-2018-conifer-evolution
           locator: 1531–1544; Abstract; Figures 1–3; fossil-record synthesis and conclusions
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

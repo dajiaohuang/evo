@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus sisyphodemus
       zh: Eleutherodactylus sisyphodemus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

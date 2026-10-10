@@ -9,7 +9,6 @@ records:
     name:
       zh: Thlypopsis fulviceps
       en: Thlypopsis fulviceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

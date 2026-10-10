@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycalopex gymnocercus
       en: Lycalopex gymnocercus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

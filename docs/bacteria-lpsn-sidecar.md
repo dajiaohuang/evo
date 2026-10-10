@@ -1,6 +1,6 @@
 # Bacteria LPSN identifier sidecar
 
-This data line enriches the pinned COL26.8 Bacteria nomenclatural resource pack with source-record identifiers only. It does not change the accepted-species shard or claim complete LPSN, ecology, genome, strain, fossil, media, phylogeny, dossier, translation, or expert-review coverage.
+This data line enriches the pinned COL26.8 Bacteria nomenclatural resource pack with source-record identifiers only. It does not change the accepted-species shard or claim complete LPSN, ecology, genome, strain, fossil, media, phylogeny, dossier, translation coverage.
 
 ## Fixed scope and eligibility
 

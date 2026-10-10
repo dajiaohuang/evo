@@ -9,7 +9,6 @@ records:
     name:
       zh: Maiaspondylus
       en: Maiaspondylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

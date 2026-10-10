@@ -9,7 +9,6 @@ records:
     name:
       zh: Surnia ulula
       en: Surnia ulula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

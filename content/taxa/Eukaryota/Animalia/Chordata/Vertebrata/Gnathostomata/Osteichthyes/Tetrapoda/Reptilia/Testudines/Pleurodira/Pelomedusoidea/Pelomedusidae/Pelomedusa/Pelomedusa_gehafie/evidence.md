@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelomedusa gehafie
       en: Pelomedusa gehafie
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

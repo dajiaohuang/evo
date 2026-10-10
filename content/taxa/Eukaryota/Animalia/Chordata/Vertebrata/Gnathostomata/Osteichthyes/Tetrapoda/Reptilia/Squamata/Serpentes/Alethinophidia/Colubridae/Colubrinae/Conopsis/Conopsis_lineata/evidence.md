@@ -9,7 +9,6 @@ records:
     name:
       zh: Conopsis lineata
       en: Conopsis lineata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

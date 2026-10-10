@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena wadei
       zh: Ptychadena wadei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

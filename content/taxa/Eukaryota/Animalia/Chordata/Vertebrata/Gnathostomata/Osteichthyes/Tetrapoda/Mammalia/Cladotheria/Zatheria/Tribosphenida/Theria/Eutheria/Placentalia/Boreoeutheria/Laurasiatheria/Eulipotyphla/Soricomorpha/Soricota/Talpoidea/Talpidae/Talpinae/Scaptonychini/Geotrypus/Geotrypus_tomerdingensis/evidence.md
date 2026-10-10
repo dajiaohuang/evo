@@ -9,7 +9,6 @@ records:
     name:
       zh: Geotrypus tomerdingensis
       en: Geotrypus tomerdingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

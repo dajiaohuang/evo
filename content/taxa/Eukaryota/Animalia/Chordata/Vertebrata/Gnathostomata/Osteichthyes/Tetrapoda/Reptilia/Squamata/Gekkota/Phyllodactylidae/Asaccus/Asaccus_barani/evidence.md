@@ -9,7 +9,6 @@ records:
     name:
       zh: Asaccus barani
       en: Asaccus barani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

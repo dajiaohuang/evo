@@ -9,7 +9,6 @@ records:
     name:
       zh: Balaena meneghinii
       en: Balaena meneghinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

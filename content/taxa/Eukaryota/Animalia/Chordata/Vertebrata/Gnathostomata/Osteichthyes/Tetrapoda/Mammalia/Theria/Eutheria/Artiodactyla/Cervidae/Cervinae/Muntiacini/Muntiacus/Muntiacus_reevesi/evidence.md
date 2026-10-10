@@ -9,7 +9,6 @@ records:
     name:
       zh: Muntiacus reevesi
       en: Muntiacus reevesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

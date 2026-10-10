@@ -9,7 +9,6 @@ records:
     name:
       zh: Pantolambdodon inermis
       en: Pantolambdodon inermis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 大竹狐猴属
       en: Greater Bamboo Lemur Genus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

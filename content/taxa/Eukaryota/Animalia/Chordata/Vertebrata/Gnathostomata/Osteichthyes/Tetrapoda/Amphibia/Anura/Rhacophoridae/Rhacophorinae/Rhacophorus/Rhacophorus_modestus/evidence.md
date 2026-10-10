@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus modestus
       zh: Rhacophorus modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

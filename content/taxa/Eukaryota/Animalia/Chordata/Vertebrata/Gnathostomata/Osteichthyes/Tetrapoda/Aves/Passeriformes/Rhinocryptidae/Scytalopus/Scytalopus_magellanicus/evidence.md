@@ -9,7 +9,6 @@ records:
     name:
       zh: Scytalopus magellanicus
       en: Scytalopus magellanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

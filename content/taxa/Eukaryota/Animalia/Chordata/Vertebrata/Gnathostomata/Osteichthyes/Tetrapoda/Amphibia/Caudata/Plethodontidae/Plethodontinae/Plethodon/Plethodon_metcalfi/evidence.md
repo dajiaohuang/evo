@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon metcalfi
       zh: Plethodon metcalfi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

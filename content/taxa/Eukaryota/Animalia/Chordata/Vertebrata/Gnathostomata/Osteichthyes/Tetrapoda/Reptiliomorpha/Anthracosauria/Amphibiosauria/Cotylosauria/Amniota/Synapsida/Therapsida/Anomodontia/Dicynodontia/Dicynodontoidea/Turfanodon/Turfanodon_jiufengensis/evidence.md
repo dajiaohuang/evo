@@ -9,7 +9,6 @@ records:
     name:
       zh: Turfanodon jiufengensis
       en: Turfanodon jiufengensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

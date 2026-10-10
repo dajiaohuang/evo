@@ -28,7 +28,7 @@ This is a reading path, not a complete genus account. The studies differ in site
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The guide draws on four site-specific studies and existing profile pages; it is not a complete genus account. Sampling periods and methods are not comparable enough to infer shared ecology or current population size. The Chinese genus name is editorial; this guide has not been externally expert-reviewed. This page is not externally expert-reviewed.
+The guide draws on four site-specific studies and existing profile pages; it is not a complete genus account. Sampling periods and methods are not comparable enough to infer shared ecology or current population size. The Chinese genus name is editorial; this guide has not been. This page is.
 <!-- /evo:text -->
 
 ## Follow the life-history records

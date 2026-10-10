@@ -9,7 +9,6 @@ records:
     name:
       en: Guibemantis razoky
       zh: Guibemantis razoky
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

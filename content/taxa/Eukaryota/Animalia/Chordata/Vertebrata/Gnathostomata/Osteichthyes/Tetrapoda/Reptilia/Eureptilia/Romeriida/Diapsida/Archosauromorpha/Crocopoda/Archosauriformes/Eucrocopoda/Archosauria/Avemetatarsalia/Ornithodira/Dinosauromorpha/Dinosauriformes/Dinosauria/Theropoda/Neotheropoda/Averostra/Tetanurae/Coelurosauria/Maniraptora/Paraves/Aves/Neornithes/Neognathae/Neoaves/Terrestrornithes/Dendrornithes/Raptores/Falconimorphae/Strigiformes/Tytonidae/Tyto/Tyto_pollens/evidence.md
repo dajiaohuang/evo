@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyto pollens
       en: Tyto pollens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

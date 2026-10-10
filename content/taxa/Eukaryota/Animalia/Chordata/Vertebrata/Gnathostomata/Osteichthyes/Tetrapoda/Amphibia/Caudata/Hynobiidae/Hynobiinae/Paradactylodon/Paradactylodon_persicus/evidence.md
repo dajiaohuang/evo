@@ -9,7 +9,6 @@ records:
     name:
       en: Paradactylodon persicus
       zh: Paradactylodon persicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

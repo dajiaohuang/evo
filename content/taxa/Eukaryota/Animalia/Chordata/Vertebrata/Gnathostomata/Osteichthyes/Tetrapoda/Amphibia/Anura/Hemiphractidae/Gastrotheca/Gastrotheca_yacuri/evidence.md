@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca yacuri
       zh: Gastrotheca yacuri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

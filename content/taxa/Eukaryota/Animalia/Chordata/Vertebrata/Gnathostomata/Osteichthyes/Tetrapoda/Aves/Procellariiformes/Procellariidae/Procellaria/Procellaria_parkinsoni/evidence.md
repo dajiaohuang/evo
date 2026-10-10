@@ -9,7 +9,6 @@ records:
     name:
       zh: Procellaria parkinsoni
       en: Procellaria parkinsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

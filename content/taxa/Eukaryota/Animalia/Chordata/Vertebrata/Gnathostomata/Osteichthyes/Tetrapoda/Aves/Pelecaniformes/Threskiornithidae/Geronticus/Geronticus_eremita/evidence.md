@@ -9,7 +9,6 @@ records:
     name:
       zh: Geronticus eremita
       en: Geronticus eremita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

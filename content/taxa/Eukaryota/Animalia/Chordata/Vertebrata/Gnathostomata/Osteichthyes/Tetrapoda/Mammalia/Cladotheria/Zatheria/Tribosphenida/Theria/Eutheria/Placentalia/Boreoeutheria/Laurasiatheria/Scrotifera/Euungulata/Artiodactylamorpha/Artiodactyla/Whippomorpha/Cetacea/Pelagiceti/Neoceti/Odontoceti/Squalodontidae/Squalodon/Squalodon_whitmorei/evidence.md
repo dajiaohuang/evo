@@ -9,7 +9,6 @@ records:
     name:
       zh: Squalodon whitmorei
       en: Squalodon whitmorei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -28,5 +28,5 @@ COL26.8 接受 Rungwecebus kipunji 为种级 ID 4TQGL，父属 ID 7B5R；MDD v2.
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-各项数量来自不同年份、地区和调查设计。首次清点、后续 Southern Highlands 复查与 Ndundulu 扫查没有合并为当前全物种总量。中文显示名为编辑用名。本页没有新增 dossier，也未经过外部领域专家评审。
+各项数量来自不同年份、地区和调查设计。首次清点、后续 Southern Highlands 复查与 Ndundulu 扫查没有合并为当前全物种总量。中文显示名为编辑用名。本页没有新增 dossier。
 <!-- /evo:text -->

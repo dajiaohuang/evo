@@ -9,7 +9,6 @@ records:
     name:
       zh: Phlegopsis nigromaculata
       en: Phlegopsis nigromaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

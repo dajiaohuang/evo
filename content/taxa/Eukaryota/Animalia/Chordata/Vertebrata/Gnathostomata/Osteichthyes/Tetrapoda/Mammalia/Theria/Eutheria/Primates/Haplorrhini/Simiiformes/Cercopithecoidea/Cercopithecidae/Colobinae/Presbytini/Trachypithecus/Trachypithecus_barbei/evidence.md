@@ -9,7 +9,6 @@ records:
     name:
       zh: 德林达依叶猴
       en: Tenasserim Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: morphology

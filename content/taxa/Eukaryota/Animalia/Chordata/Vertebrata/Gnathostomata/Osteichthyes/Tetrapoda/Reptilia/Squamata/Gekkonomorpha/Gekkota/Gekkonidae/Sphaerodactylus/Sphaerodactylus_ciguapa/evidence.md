@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus ciguapa
       en: Sphaerodactylus ciguapa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

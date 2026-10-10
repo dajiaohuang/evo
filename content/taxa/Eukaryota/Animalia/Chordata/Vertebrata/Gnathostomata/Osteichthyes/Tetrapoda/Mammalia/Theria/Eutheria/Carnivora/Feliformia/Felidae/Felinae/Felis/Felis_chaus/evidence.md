@@ -9,7 +9,6 @@ records:
     name:
       zh: Felis chaus
       en: Felis chaus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

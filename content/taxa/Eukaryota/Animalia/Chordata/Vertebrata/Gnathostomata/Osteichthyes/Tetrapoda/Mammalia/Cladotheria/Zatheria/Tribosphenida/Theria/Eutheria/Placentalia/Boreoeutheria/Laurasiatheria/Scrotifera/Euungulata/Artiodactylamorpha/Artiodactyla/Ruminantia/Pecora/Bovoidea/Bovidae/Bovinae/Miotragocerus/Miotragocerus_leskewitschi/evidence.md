@@ -9,7 +9,6 @@ records:
     name:
       zh: Miotragocerus leskewitschi
       en: Miotragocerus leskewitschi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

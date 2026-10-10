@@ -9,7 +9,6 @@ records:
     name:
       zh: Asteromys puelche
       en: Asteromys puelche
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

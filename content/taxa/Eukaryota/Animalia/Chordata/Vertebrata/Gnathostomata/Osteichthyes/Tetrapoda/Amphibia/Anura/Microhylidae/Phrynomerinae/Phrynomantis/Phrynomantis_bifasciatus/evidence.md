@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynomantis bifasciatus
       zh: Phrynomantis bifasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

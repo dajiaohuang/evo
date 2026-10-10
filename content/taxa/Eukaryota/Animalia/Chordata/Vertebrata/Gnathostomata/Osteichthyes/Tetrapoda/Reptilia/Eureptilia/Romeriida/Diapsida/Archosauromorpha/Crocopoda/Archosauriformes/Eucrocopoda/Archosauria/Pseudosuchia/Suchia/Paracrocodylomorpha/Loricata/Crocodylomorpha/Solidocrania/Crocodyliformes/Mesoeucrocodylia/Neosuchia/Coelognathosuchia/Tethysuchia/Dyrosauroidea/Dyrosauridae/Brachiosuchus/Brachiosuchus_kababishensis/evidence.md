@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachiosuchus kababishensis
       en: Brachiosuchus kababishensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

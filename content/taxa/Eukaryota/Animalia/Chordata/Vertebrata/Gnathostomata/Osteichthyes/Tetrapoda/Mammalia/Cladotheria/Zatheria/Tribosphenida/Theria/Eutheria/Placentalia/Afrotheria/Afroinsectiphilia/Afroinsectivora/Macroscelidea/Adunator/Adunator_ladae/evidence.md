@@ -9,7 +9,6 @@ records:
     name:
       zh: Adunator ladae
       en: Adunator ladae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

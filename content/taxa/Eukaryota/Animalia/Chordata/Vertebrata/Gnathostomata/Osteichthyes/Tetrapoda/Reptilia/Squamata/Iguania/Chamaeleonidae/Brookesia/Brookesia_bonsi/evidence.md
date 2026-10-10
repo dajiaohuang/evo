@@ -9,7 +9,6 @@ records:
     name:
       zh: Brookesia bonsi
       en: Brookesia bonsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

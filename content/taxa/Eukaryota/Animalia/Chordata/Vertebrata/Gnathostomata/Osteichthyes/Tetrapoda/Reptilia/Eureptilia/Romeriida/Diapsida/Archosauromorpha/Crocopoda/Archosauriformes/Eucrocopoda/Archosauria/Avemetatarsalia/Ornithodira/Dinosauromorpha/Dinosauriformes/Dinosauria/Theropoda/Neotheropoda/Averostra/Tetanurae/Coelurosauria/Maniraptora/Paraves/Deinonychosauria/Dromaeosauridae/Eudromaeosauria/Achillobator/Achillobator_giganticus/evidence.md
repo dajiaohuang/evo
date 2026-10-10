@@ -9,7 +9,6 @@ records:
     name:
       zh: Achillobator giganticus
       en: Achillobator giganticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

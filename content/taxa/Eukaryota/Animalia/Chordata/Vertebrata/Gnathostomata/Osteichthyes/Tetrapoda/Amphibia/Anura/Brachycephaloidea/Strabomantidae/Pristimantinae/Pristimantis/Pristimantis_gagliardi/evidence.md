@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis gagliardi
       zh: Pristimantis gagliardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

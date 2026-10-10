@@ -9,7 +9,6 @@ records:
     name:
       zh: Coburgosuchus goeckeli
       en: Coburgosuchus goeckeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

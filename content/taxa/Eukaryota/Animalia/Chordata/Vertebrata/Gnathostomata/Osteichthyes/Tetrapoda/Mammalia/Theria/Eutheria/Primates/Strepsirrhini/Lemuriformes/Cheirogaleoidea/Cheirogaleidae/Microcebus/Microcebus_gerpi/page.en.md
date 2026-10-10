@@ -22,5 +22,5 @@ The study combined phylogenetic analyses of three mitochondrial genes with morph
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Evidence comes from a taxonomic study at one lowland-rainforest site; the page does not infer a current full range, abundance or conservation category. The Chinese common name is editorial; the page is not externally expert-reviewed.
+Evidence comes from a taxonomic study at one lowland-rainforest site; the page does not infer a current full range, abundance or conservation category. The Chinese common name is editorial.
 <!-- /evo:text -->

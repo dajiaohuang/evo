@@ -9,7 +9,6 @@ records:
     name:
       zh: Casarea dussumieri
       en: Casarea dussumieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

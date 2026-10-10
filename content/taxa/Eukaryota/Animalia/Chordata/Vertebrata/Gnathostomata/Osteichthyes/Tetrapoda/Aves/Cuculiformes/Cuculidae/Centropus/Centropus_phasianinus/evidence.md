@@ -9,7 +9,6 @@ records:
     name:
       zh: Centropus phasianinus
       en: Centropus phasianinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer hedigeri
       zh: Cornufer hedigeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

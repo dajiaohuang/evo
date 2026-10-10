@@ -9,7 +9,6 @@ records:
     name:
       zh: Tanysiptera sylvia
       en: Tanysiptera sylvia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

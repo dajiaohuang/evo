@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyopsodus wardi
       en: Hyopsodus wardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

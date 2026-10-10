@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis espedeus
       zh: Pristimantis espedeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

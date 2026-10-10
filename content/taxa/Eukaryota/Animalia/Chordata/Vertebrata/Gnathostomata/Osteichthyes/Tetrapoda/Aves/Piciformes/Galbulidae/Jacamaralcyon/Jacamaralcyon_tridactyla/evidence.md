@@ -9,7 +9,6 @@ records:
     name:
       zh: Jacamaralcyon tridactyla
       en: Jacamaralcyon tridactyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

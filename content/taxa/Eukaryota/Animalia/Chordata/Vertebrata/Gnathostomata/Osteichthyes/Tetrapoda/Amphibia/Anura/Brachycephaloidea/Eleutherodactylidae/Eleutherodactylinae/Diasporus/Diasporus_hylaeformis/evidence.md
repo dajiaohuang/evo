@@ -9,7 +9,6 @@ records:
     name:
       en: Diasporus hylaeformis
       zh: Diasporus hylaeformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

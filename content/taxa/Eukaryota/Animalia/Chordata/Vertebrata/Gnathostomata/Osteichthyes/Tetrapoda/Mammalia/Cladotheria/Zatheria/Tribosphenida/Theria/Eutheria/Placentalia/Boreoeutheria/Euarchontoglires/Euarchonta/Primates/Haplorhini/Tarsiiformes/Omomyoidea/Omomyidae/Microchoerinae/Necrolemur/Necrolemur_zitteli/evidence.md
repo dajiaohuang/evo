@@ -9,7 +9,6 @@ records:
     name:
       zh: Necrolemur zitteli
       en: Necrolemur zitteli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

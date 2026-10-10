@@ -9,7 +9,6 @@ records:
     name:
       zh: Euscarthmus rufomarginatus
       en: Euscarthmus rufomarginatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphicyon giganteus
       en: Amphicyon giganteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

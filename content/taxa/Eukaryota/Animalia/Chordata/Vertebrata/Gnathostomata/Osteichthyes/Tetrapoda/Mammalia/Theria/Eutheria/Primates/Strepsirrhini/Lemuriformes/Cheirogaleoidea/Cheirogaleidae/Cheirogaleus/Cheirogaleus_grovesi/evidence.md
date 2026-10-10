@@ -9,7 +9,6 @@ records:
     name:
       zh: 格罗夫斯侏狐猴
       en: Groves's Dwarf Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

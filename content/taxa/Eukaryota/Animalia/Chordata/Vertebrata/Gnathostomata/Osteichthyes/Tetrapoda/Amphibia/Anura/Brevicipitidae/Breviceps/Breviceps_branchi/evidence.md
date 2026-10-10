@@ -9,7 +9,6 @@ records:
     name:
       en: Breviceps branchi
       zh: Breviceps branchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

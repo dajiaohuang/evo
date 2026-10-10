@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptacodon nascimentoi
       en: Leptacodon nascimentoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

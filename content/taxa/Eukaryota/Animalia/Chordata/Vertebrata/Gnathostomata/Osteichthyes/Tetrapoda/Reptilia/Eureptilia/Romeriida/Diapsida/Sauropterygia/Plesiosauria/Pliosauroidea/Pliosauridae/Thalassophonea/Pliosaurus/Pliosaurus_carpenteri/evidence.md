@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliosaurus carpenteri
       en: Pliosaurus carpenteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

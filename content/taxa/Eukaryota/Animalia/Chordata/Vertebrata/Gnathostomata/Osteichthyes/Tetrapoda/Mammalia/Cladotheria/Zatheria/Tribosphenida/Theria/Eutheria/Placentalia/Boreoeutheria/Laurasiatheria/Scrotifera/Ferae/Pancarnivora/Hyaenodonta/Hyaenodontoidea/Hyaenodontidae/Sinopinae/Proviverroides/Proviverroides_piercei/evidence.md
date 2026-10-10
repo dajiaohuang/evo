@@ -9,7 +9,6 @@ records:
     name:
       zh: Proviverroides piercei
       en: Proviverroides piercei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

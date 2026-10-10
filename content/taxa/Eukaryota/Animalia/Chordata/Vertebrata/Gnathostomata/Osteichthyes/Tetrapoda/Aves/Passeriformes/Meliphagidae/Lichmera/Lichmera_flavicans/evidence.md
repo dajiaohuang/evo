@@ -9,7 +9,6 @@ records:
     name:
       zh: Lichmera flavicans
       en: Lichmera flavicans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lerista karlschmidti
       en: Lerista karlschmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

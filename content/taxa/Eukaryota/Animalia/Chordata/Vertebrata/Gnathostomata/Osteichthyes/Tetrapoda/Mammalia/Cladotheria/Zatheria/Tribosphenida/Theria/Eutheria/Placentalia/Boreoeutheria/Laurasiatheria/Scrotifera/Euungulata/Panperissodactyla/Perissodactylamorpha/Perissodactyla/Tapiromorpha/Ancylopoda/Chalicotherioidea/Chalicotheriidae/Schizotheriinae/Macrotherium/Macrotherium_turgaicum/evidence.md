@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrotherium turgaicum
       en: Macrotherium turgaicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

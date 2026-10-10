@@ -9,7 +9,6 @@ records:
     name:
       en: Cryptotriton veraepacis
       zh: Cryptotriton veraepacis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

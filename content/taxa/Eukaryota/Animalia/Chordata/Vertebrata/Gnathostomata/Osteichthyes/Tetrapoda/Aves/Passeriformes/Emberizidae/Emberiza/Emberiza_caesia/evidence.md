@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberiza caesia
       en: Emberiza caesia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

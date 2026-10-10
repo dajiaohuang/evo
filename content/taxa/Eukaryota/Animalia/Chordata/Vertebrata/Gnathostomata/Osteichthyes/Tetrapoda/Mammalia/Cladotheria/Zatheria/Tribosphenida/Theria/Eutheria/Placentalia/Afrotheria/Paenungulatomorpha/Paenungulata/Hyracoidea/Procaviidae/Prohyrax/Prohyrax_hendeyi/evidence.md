@@ -9,7 +9,6 @@ records:
     name:
       zh: Prohyrax hendeyi
       en: Prohyrax hendeyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

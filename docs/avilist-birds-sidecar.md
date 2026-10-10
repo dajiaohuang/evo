@@ -2,7 +2,7 @@
 
 This data-only extension crosswalks the strict accepted species below the pinned COL26.8 Aves root to the official AviList v2025b global avian checklist. It keeps every package record and every AviList-only species visible without changing the current runtime, package ZIPs, offline inventory, mobile projects or release version.
 
-It is a nomenclatural and taxonomic-concept sidecar. It is not a phylogeny, complete biological history, fossil or distribution dataset, expert-review dossier, or assertion that COL and AviList use identical species concepts.
+It is a nomenclatural and taxonomic-concept sidecar. It is not a phylogeny, complete biological history, fossil or distribution dataset dossier, or assertion that COL and AviList use identical species concepts.
 
 ## Correct package scope
 

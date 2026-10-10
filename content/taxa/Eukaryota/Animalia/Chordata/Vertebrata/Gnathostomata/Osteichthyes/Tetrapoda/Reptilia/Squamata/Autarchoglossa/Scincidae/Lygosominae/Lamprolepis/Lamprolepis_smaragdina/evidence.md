@@ -9,7 +9,6 @@ records:
     name:
       zh: Lamprolepis smaragdina
       en: Lamprolepis smaragdina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

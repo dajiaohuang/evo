@@ -9,7 +9,6 @@ records:
     name:
       zh: Clevosaurus convallis
       en: Clevosaurus convallis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurostopodus mystacalis
       en: Eurostopodus mystacalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

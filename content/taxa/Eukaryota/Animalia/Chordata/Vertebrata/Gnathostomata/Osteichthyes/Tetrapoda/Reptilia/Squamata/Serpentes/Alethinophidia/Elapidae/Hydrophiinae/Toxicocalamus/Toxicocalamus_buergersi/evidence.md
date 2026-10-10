@@ -9,7 +9,6 @@ records:
     name:
       zh: Toxicocalamus buergersi
       en: Toxicocalamus buergersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

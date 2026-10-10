@@ -9,7 +9,6 @@ records:
     name:
       zh: 非洲矮鳄
       en: African dwarf crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

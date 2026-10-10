@@ -9,7 +9,6 @@ records:
     name:
       zh: Hexacodus uintensis
       en: Hexacodus uintensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

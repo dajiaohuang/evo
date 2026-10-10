@@ -9,7 +9,6 @@ records:
     name:
       zh: Heterospingus xanthopygius
       en: Heterospingus xanthopygius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

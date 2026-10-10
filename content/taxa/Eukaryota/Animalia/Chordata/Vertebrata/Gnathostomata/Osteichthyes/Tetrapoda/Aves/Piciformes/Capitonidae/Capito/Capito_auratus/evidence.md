@@ -9,7 +9,6 @@ records:
     name:
       zh: Capito auratus
       en: Capito auratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

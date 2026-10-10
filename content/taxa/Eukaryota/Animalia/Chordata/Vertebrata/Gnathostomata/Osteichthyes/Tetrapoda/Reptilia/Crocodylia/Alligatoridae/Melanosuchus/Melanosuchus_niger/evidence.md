@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑凯门鳄
       en: Black caiman
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

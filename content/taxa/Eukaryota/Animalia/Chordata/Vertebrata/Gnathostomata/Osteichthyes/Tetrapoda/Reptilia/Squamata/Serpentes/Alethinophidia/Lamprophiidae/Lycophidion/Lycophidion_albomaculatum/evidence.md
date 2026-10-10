@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycophidion albomaculatum
       en: Lycophidion albomaculatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

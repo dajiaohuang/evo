@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyornis djampeanus
       en: Cyornis djampeanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiarchus apicalis
       en: Myiarchus apicalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

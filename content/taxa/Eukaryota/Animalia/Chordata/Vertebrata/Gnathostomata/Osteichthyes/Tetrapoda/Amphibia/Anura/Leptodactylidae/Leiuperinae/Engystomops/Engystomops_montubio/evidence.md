@@ -9,7 +9,6 @@ records:
     name:
       en: Engystomops montubio
       zh: Engystomops montubio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

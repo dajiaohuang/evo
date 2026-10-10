@@ -9,7 +9,6 @@ records:
     name:
       en: Hymenochirus boulengeri
       zh: Hymenochirus boulengeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

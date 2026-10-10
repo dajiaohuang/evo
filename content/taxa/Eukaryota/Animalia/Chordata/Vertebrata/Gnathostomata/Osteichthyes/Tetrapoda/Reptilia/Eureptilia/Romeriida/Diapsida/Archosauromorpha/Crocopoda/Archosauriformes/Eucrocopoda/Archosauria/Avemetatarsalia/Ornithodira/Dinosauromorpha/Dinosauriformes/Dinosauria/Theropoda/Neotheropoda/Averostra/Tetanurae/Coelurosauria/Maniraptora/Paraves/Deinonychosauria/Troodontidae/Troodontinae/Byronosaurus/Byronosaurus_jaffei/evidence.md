@@ -9,7 +9,6 @@ records:
     name:
       zh: Byronosaurus jaffei
       en: Byronosaurus jaffei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

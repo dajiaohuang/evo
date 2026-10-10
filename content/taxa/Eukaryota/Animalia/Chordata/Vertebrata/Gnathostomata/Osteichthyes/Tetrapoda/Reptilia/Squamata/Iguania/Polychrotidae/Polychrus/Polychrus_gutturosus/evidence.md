@@ -9,7 +9,6 @@ records:
     name:
       zh: Polychrus gutturosus
       en: Polychrus gutturosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

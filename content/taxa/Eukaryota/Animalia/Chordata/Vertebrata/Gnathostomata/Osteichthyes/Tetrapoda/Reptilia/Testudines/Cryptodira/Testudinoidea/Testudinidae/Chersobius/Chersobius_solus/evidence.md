@@ -9,7 +9,6 @@ records:
     name:
       zh: Chersobius solus
       en: Chersobius solus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

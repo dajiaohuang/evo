@@ -9,7 +9,6 @@ records:
     name:
       zh: Isopachys gyldenstolpei
       en: Isopachys gyldenstolpei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 普通松鼠猴
       en: Common squirrel monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: evolution
@@ -525,10 +524,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
     classificationPath:
       - id: CS5HF
         scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
@@ -831,5 +826,5 @@ The sample panel includes historical specimen labels and unresolved individual a
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No comprehensive facet-by-facet literature search or independent external expert review has been completed.
+No comprehensive facet-by-facet literature search has been completed.
 <!-- /evo:text -->

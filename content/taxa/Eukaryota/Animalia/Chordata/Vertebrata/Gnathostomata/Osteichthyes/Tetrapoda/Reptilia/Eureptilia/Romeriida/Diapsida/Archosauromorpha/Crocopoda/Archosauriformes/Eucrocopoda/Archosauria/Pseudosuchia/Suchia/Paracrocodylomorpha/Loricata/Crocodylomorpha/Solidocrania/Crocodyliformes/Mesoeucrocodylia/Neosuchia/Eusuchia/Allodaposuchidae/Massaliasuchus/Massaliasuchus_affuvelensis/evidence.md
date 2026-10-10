@@ -9,7 +9,6 @@ records:
     name:
       zh: Massaliasuchus affuvelensis
       en: Massaliasuchus affuvelensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

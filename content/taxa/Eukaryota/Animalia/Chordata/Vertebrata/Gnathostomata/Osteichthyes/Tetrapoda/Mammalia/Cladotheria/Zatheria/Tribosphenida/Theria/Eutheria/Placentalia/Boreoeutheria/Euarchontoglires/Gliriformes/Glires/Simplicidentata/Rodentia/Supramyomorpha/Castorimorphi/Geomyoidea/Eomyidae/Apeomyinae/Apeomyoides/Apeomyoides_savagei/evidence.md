@@ -9,7 +9,6 @@ records:
     name:
       zh: Apeomyoides savagei
       en: Apeomyoides savagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

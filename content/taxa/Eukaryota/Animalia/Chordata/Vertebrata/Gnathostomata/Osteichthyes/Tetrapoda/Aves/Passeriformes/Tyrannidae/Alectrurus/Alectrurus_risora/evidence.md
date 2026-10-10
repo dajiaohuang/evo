@@ -9,7 +9,6 @@ records:
     name:
       zh: Alectrurus risora
       en: Alectrurus risora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

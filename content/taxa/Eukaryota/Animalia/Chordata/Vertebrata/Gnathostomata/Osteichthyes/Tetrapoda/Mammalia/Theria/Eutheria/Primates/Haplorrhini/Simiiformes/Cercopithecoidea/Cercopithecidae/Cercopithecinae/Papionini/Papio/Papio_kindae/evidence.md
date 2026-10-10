@@ -9,7 +9,6 @@ records:
     name:
       zh: 金达狒狒
       en: Kinda baboon
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: socialBehavior

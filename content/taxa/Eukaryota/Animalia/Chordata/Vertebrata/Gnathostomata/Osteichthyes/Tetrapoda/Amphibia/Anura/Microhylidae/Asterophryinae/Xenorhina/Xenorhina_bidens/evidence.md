@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina bidens
       zh: Xenorhina bidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

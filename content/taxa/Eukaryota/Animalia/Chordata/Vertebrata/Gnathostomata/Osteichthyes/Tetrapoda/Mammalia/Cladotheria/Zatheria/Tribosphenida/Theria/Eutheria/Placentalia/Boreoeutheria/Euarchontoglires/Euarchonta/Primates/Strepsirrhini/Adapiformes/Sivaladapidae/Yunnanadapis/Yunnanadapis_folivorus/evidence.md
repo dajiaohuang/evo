@@ -9,7 +9,6 @@ records:
     name:
       zh: Yunnanadapis folivorus
       en: Yunnanadapis folivorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

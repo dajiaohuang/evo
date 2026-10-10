@@ -95,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Leslie et al. 2012 DOI 10.1073/pnas.1213621109
       referenceLinks:
         - relation: supports
           referenceId: leslie-2012-conifer-hemispheres

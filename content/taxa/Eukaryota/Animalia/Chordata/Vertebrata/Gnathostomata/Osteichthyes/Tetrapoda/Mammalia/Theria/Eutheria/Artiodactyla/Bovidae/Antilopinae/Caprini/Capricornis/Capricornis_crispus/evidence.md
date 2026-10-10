@@ -9,7 +9,6 @@ records:
     name:
       zh: Capricornis crispus
       en: Capricornis crispus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

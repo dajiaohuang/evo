@@ -34,5 +34,5 @@ In 2016, Aquino et al. walked 213 km over 532 hours and recorded five groups bet
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Density values and groups are tied to individual survey areas and methods. The La Esperanza comparison covers two periods at one site; Huánuco detections and the 2016 distribution record do not establish a current range-wide population. The Chinese display name is editorial. No dossier or external expert review was added. This page is not externally expert-reviewed.
+Density values and groups are tied to individual survey areas and methods. The La Esperanza comparison covers two periods at one site; Huánuco detections and the 2016 distribution record do not establish a current range-wide population. The Chinese display name is editorial. This page is.
 <!-- /evo:text -->

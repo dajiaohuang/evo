@@ -9,7 +9,6 @@ records:
     name:
       zh: Coronella austriaca
       en: Coronella austriaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

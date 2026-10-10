@@ -9,7 +9,6 @@ records:
     name:
       zh: Entomyzon cyanotis
       en: Entomyzon cyanotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

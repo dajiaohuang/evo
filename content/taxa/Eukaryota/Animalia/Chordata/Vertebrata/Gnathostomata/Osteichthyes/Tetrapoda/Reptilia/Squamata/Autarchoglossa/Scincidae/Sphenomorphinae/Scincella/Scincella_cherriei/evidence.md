@@ -9,7 +9,6 @@ records:
     name:
       zh: Scincella cherriei
       en: Scincella cherriei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

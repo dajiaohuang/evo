@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus seniculus
       zh: Dendropsophus seniculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

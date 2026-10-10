@@ -9,7 +9,6 @@ records:
     name:
       zh: Entomophontes hutchisoni
       en: Entomophontes hutchisoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

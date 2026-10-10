@@ -9,7 +9,6 @@ records:
     name:
       zh: 叉纹鼠狐猴属
       en: Fork-marked lemurs
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

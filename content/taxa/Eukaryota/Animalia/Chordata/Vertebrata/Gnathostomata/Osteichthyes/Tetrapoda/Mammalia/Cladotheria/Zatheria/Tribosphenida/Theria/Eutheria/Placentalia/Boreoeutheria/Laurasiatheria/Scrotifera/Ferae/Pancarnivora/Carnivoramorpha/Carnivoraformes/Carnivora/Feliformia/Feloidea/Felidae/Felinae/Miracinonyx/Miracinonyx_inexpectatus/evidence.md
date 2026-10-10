@@ -9,7 +9,6 @@ records:
     name:
       zh: Miracinonyx inexpectatus
       en: Miracinonyx inexpectatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Staurotypus moschus
       en: Staurotypus moschus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

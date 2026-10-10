@@ -9,7 +9,6 @@ records:
     name:
       en: Callixalus
       zh: Callixalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

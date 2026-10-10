@@ -9,7 +9,6 @@ records:
     name:
       zh: Neosaurus cynodus
       en: Neosaurus cynodus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lee-2008-missisquoiidae-revision DOI 10.1016/j.palaeo.2007.11.008; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: lee-2008-missisquoiidae-revision
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: lee-2008-missisquoiidae-revision
           locator: pp. 315–341; Figures 1–8; family-level Missisquoiidae revision and cladograms
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

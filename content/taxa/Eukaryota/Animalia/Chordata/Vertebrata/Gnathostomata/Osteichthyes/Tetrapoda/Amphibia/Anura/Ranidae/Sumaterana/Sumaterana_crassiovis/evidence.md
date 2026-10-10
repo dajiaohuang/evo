@@ -9,7 +9,6 @@ records:
     name:
       en: Sumaterana crassiovis
       zh: Sumaterana crassiovis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Epipedobates currulao
       zh: Epipedobates currulao
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

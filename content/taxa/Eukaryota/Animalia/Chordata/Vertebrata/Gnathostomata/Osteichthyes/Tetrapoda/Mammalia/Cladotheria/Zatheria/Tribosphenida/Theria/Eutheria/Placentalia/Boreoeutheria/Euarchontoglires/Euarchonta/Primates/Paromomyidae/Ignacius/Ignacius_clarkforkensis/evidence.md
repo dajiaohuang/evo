@@ -9,7 +9,6 @@ records:
     name:
       zh: Ignacius clarkforkensis
       en: Ignacius clarkforkensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

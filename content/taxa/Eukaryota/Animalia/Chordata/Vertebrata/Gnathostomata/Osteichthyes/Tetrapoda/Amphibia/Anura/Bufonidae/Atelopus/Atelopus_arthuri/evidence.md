@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus arthuri
       zh: Atelopus arthuri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cordylus momboloensis
       en: Cordylus momboloensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

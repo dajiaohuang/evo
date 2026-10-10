@@ -9,7 +9,6 @@ records:
     name:
       zh: Proteopithecus sylviae
       en: Proteopithecus sylviae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

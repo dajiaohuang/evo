@@ -9,7 +9,6 @@ records:
     name:
       zh: Parapliohippus carrizoensis
       en: Parapliohippus carrizoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

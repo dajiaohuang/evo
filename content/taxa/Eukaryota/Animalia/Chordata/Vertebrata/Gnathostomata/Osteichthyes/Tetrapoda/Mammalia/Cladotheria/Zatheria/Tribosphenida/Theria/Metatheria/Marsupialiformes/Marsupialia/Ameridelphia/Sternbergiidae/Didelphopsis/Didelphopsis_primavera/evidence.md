@@ -9,7 +9,6 @@ records:
     name:
       zh: Didelphopsis primavera
       en: Didelphopsis primavera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

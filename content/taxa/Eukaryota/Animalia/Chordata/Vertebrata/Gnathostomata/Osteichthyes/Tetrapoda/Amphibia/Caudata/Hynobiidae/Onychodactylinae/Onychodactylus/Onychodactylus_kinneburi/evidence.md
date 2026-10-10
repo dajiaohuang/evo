@@ -9,7 +9,6 @@ records:
     name:
       en: Onychodactylus kinneburi
       zh: Onychodactylus kinneburi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Albertadromeus syntarsus
       en: Albertadromeus syntarsus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

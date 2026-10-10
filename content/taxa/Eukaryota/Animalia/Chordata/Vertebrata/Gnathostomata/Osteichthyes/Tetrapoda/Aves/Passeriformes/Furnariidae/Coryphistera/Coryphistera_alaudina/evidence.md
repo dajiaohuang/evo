@@ -9,7 +9,6 @@ records:
     name:
       zh: Coryphistera alaudina
       en: Coryphistera alaudina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

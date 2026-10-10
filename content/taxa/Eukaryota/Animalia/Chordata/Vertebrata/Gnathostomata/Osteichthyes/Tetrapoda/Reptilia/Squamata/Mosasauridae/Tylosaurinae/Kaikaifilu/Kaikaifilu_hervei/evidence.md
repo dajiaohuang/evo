@@ -9,7 +9,6 @@ records:
     name:
       zh: Kaikaifilu hervei
       en: Kaikaifilu hervei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

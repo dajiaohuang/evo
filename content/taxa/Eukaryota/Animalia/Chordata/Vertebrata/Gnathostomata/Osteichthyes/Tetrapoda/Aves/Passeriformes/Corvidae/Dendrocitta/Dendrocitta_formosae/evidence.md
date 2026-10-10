@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrocitta formosae
       en: Dendrocitta formosae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

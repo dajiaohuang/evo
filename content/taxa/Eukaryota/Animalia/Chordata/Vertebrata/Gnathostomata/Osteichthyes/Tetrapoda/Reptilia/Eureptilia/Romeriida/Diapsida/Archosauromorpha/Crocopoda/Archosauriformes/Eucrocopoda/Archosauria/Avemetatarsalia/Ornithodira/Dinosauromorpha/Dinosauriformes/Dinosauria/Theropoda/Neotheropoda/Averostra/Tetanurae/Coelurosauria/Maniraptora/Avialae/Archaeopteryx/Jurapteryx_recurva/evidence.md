@@ -9,7 +9,6 @@ records:
     name:
       zh: Jurapteryx recurva
       en: Jurapteryx recurva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

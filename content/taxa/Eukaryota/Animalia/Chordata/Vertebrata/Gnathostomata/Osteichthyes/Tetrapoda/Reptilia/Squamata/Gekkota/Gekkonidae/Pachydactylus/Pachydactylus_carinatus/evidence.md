@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachydactylus carinatus
       en: Pachydactylus carinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis andersonii
       en: Cnemaspis andersonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

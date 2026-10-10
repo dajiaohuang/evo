@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Zanno, L.E. et al. 2015 DOI 10.1038/srep09276
       referenceLinks:
         - referenceId: zanno-2015-carnufex
           relation: supports

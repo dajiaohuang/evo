@@ -9,7 +9,6 @@ records:
     name:
       zh: Shinisauroides latipalatum
       en: Shinisauroides latipalatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

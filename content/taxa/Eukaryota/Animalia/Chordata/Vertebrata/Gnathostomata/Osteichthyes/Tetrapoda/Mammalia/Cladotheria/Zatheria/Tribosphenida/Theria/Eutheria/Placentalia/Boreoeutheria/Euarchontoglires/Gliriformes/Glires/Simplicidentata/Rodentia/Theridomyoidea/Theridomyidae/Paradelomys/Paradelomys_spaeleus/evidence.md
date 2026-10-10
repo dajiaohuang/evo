@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradelomys spaeleus
       en: Paradelomys spaeleus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

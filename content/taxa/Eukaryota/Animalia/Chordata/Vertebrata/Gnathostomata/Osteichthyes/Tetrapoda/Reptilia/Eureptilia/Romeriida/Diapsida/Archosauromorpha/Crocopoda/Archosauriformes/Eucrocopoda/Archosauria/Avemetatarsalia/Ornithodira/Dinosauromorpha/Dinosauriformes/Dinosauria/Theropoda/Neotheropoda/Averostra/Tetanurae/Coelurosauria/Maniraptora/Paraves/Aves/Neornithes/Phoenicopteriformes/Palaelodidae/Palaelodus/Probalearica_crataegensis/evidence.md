@@ -9,7 +9,6 @@ records:
     name:
       zh: Probalearica crataegensis
       en: Probalearica crataegensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

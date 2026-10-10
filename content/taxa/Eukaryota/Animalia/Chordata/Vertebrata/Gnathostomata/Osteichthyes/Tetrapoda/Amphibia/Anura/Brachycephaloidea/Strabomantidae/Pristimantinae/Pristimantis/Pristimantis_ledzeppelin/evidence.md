@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ledzeppelin
       zh: Pristimantis ledzeppelin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

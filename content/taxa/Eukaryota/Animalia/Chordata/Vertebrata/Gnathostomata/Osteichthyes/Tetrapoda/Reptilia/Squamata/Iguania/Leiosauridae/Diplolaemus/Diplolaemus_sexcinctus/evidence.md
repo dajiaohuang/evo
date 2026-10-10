@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplolaemus sexcinctus
       en: Diplolaemus sexcinctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

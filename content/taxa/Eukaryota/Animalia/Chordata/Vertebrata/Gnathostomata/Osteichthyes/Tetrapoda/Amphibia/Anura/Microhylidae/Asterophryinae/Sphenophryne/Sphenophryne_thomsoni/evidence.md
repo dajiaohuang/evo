@@ -9,7 +9,6 @@ records:
     name:
       en: Sphenophryne thomsoni
       zh: Sphenophryne thomsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

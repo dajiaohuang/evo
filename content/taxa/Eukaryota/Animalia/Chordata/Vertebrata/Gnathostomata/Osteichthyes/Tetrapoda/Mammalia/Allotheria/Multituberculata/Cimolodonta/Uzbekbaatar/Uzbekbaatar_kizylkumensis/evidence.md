@@ -9,7 +9,6 @@ records:
     name:
       zh: Uzbekbaatar kizylkumensis
       en: Uzbekbaatar kizylkumensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

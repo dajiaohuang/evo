@@ -9,7 +9,6 @@ records:
     name:
       zh: Cavia porcellus
       en: Cavia porcellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

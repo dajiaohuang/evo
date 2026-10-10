@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: cronier-2011-phacopidae-species DOI 10.1016/j.crpv.2010.10.003; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: cronier-2011-phacopidae-species
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion: cronier-2011-phacopidae-species DOI 10.1016/j.crpv.2010.10.003; concrete locators audited 2026-09-11
       referenceLinks:
         - referenceId: cronier-2011-phacopidae-species
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion: cronier-2011-phacopidae-species DOI 10.1016/j.crpv.2010.10.003; concrete locators audited 2026-09-11
       referenceLinks:
         - referenceId: cronier-2011-phacopidae-species
           relation: supports
@@ -122,11 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/3/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: cronier-2011-phacopidae-species
           relation: supports
@@ -150,11 +136,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/4/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: cronier-2011-phacopidae-species
           relation: supports
@@ -202,7 +183,6 @@ records:
       referenceLocators:
         - referenceId: cronier-2011-phacopidae-species
           locator: pp. 143–153; Figures 1–6; Tables 1–2; Siluro-Devonian Phacopidae species and ontogeny only
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

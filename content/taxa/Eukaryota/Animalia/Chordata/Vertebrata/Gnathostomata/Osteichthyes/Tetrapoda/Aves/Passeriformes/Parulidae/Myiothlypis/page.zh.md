@@ -11,7 +11,7 @@ status: source-linked
 ## 沿 Basileuterus 旧组合找七条历史行
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-本批七条导读按 COL26.8 Myiothlypis（VHF9Q）与 Parulidae（626BR）组织。七条 eBird同名，各 Avibase ID与BirdLife相同，类型均为一对一；七条 BirdTree记 Basileuterus，逐字异名均指向本批接受ID。leucoblephara、nigrocristata、flaveola、coronata、signata旧词尾分别为leucoblepharus、nigrocristatus、flaveolus、coronatus、signatus；fraseri和leucophrys词尾不变。另有 Myiodioctes coronatus目录异名，不当作实际名称表组合。目录属18个直接子项，原fulvicauda生活史入口保持独立；七页不计完整属内容或专家审评。
+本批七条导读按 COL26.8 Myiothlypis（VHF9Q）与 Parulidae（626BR）组织。七条 eBird同名，各 Avibase ID与BirdLife相同，类型均为一对一；七条 BirdTree记 Basileuterus，逐字异名均指向本批接受ID。leucoblephara、nigrocristata、flaveola、coronata、signata旧词尾分别为leucoblepharus、nigrocristatus、flaveolus、coronatus、signatus；fraseri和leucophrys词尾不变。另有 Myiodioctes coronatus目录异名，不当作实际名称表组合。目录属18个直接子项，原fulvicauda生活史入口保持独立；七页不计完整属内容。
 <!-- /evo:text -->
 
 ## 较多总鸟数不等于较多完整测量
@@ -45,6 +45,6 @@ Myiothlypis 的本批路线包含 1 条历史生活史导读，可从 Myiothlypi
 ## 生活史资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成，未经过外部专家评审。
-另增七条 Basileuterus旧名导读，总数、完整数、未定性别和独立体重分别读；三活动类别不补直接行为观察，18目录子项完整内容、当前地图与专家审评未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+另增七条 Basileuterus旧名导读，总数、完整数、未定性别和独立体重分别读；三活动类别不补直接行为观察，18目录子项完整内容、当前地图未完成。
 <!-- /evo:text -->

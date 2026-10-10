@@ -95,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: VanAller Hernick et al. 2008 DOI 10.1016/j.revpalbo.2007.09.002
       referenceLinks:
         - relation: supports
           referenceId: hernick-2008-metzgeriothallus
@@ -116,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: VanAller Hernick et al. 2008 DOI 10.1016/j.revpalbo.2007.09.002
       referenceLinks:
         - relation: supports
           referenceId: hernick-2008-metzgeriothallus

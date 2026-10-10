@@ -9,7 +9,6 @@ records:
     name:
       zh: Asiomomys changbaicus
       en: Asiomomys changbaicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Platysteira albifrons
       en: Platysteira albifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

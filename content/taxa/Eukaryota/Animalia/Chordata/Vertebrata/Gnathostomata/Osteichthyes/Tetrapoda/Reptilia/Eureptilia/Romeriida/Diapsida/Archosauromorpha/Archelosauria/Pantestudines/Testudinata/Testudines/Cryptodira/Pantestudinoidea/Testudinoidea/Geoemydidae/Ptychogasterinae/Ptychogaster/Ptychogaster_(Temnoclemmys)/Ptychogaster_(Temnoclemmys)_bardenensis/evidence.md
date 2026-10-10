@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptychogaster (Temnoclemmys) bardenensis
       en: Ptychogaster (Temnoclemmys) bardenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

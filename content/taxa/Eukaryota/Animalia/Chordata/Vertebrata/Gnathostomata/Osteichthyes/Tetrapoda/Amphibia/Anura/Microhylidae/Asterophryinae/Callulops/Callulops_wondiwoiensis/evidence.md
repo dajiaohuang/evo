@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops wondiwoiensis
       zh: Callulops wondiwoiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

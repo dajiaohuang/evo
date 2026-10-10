@@ -9,7 +9,6 @@ records:
     name:
       zh: Riama striata
       en: Riama striata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

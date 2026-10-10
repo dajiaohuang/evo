@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycalopex vetulus
       en: Lycalopex vetulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

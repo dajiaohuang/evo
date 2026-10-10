@@ -9,7 +9,6 @@ records:
     name:
       zh: Petrogale purpureicollis
       en: Petrogale purpureicollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

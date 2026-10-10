@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla chaupi
       zh: Microkayla chaupi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

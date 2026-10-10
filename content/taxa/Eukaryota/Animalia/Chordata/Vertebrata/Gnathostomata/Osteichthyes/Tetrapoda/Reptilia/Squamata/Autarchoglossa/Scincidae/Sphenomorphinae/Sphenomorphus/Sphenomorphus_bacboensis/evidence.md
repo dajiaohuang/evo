@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus bacboensis
       en: Sphenomorphus bacboensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

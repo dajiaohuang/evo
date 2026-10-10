@@ -9,7 +9,6 @@ records:
     name:
       zh: 恒河猴
       en: Rhesus macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: morphology
@@ -1116,12 +1115,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
   atlas-node:
     name: Macaca mulatta
     commonName: Rhesus Macaque
@@ -1541,10 +1534,4 @@ The dossier contains site-specific population-genomic, ecology, high-ranking-mal
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 Fossil evidence, morphological variation across the species range, formal conservation status, population-level road mortality and systematic coverage of the accepted species concept remain incomplete or unassessed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->

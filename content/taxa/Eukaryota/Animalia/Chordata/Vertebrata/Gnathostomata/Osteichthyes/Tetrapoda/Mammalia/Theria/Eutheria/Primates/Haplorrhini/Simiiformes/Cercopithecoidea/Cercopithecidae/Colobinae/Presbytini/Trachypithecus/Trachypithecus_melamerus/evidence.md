@@ -9,7 +9,6 @@ records:
     name:
       zh: 掸邦叶猴
       en: Shan Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: name correspondence and classification

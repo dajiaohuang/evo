@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon ochoterenae
       en: Plestiodon ochoterenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

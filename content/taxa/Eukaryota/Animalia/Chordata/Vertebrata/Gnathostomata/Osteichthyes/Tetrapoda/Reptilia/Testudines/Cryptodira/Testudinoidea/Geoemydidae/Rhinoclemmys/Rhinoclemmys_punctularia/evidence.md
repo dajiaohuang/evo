@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinoclemmys punctularia
       en: Rhinoclemmys punctularia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

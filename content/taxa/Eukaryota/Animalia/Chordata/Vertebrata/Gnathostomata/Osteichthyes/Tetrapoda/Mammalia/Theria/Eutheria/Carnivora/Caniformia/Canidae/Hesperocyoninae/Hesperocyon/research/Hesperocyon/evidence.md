@@ -57,9 +57,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: wang-1994-hesperocyoninae concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: wang-1994-hesperocyoninae
@@ -77,9 +74,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: wang-1994-hesperocyoninae primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - relation: supports
           referenceId: wang-1994-hesperocyoninae
@@ -98,9 +92,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: wang-1994-hesperocyoninae primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - relation: supports
           referenceId: wang-1994-hesperocyoninae
@@ -118,9 +109,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: wang-1994-hesperocyoninae primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - relation: supports
           referenceId: wang-1994-hesperocyoninae
@@ -138,9 +126,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: wang-1994-hesperocyoninae primary-study locator checked for 2026.09 carnivora profile expansion
       referenceLinks:
         - relation: supports
           referenceId: wang-1994-hesperocyoninae
@@ -158,9 +143,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Wang 1994 Bulletin AMNH 221, official AMNH handle 2246/829
       referenceLinks:
         - relation: supports
           referenceId: wang-1994-hesperocyoninae
@@ -223,7 +205,6 @@ records:
           locator: 1–207; Systematics of Hesperocyon; character matrix; phylogenetic analysis
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
 ---
 
 # Hesperocyon

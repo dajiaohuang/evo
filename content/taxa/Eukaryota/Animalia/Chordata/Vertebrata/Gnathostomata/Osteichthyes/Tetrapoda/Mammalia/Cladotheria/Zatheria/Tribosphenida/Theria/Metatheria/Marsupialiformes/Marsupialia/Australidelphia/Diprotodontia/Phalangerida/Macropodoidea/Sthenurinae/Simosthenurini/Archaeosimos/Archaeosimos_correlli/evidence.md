@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeosimos correlli
       en: Archaeosimos correlli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

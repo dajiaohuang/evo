@@ -9,7 +9,6 @@ records:
     name:
       zh: Alligatorellus bavaricus
       en: Alligatorellus bavaricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

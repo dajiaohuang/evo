@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerrhopilus mcdowelli
       en: Gerrhopilus mcdowelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

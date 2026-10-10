@@ -9,7 +9,6 @@ records:
     name:
       zh: Agelaius xanthomus
       en: Agelaius xanthomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

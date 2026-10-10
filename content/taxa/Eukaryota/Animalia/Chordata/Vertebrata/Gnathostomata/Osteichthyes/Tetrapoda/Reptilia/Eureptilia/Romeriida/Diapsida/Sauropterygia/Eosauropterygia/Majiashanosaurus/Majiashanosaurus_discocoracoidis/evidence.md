@@ -9,7 +9,6 @@ records:
     name:
       zh: Majiashanosaurus discocoracoidis
       en: Majiashanosaurus discocoracoidis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

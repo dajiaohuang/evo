@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis pyrrhus
       zh: Boophis pyrrhus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Calochaetes coccineus
       en: Calochaetes coccineus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

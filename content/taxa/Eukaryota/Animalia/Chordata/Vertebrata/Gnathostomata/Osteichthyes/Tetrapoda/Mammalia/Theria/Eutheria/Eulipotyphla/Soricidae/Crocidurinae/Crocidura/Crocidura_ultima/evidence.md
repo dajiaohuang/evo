@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura ultima
       en: Crocidura ultima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

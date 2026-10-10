@@ -9,7 +9,6 @@ records:
     name:
       zh: Eotriceratops xerinsularis
       en: Eotriceratops xerinsularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

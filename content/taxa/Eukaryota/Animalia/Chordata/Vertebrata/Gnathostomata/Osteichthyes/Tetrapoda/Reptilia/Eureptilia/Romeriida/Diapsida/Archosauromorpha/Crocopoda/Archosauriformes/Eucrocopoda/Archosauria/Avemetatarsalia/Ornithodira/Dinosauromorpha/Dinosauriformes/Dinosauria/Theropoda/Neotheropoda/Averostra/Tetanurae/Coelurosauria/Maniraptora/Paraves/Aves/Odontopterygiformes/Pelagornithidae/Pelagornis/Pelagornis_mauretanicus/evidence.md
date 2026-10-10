@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelagornis mauretanicus
       en: Pelagornis mauretanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

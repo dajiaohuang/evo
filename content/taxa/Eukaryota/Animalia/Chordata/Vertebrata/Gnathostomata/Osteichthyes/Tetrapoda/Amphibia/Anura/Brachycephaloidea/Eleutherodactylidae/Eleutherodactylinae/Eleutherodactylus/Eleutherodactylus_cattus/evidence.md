@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus cattus
       zh: Eleutherodactylus cattus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

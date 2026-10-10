@@ -9,7 +9,6 @@ records:
     name:
       en: Congolius robustus
       zh: Congolius robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

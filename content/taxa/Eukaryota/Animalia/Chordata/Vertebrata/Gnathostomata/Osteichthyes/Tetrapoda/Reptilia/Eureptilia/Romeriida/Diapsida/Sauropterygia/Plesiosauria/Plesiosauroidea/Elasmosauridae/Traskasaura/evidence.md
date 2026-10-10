@@ -9,7 +9,6 @@ records:
     name:
       zh: Traskasaura
       en: Traskasaura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

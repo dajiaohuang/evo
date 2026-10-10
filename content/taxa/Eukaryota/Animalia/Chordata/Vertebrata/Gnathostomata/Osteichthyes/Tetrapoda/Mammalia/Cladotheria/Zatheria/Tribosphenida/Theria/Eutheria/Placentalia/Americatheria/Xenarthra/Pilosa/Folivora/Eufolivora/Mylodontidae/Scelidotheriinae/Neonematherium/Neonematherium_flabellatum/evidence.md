@@ -9,7 +9,6 @@ records:
     name:
       zh: Neonematherium flabellatum
       en: Neonematherium flabellatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

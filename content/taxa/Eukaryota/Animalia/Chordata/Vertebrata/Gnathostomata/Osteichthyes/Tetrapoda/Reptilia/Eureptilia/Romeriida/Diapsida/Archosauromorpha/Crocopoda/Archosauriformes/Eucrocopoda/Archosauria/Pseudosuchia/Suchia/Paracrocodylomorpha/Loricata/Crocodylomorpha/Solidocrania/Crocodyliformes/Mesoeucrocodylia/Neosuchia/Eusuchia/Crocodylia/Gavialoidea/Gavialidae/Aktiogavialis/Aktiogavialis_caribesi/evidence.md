@@ -9,7 +9,6 @@ records:
     name:
       zh: Aktiogavialis caribesi
       en: Aktiogavialis caribesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

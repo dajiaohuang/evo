@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophura leucomelanos
       en: Lophura leucomelanos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

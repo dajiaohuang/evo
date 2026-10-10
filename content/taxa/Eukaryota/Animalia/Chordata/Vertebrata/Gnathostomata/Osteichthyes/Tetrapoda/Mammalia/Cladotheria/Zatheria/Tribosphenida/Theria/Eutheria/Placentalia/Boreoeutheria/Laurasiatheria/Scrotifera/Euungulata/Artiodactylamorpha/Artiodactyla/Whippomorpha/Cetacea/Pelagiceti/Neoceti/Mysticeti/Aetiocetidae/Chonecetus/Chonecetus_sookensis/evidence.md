@@ -9,7 +9,6 @@ records:
     name:
       zh: Chonecetus sookensis
       en: Chonecetus sookensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

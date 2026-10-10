@@ -9,7 +9,6 @@ records:
     name:
       en: Thorius schmidti
       zh: Thorius schmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

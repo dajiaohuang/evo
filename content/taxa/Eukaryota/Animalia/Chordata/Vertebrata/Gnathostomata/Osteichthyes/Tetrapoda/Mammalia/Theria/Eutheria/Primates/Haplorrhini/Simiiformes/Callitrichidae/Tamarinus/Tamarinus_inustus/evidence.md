@@ -9,7 +9,6 @@ records:
     name:
       zh: 斑脸狨
       en: Mottled-face Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

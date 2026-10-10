@@ -9,7 +9,6 @@ records:
     name:
       zh: 阿扎拉夜猴
       en: Azara's Night Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

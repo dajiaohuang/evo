@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus albertguentheri
       en: Erythrolamprus albertguentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pamizinsaurus tlayuanensis
       en: Pamizinsaurus tlayuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nimbadon whitelawi
       en: Nimbadon whitelawi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

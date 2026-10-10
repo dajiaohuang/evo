@@ -9,7 +9,6 @@ records:
     name:
       en: Nototriton saslaya
       zh: Nototriton saslaya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

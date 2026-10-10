@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus andrei
       zh: Xenopus andrei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

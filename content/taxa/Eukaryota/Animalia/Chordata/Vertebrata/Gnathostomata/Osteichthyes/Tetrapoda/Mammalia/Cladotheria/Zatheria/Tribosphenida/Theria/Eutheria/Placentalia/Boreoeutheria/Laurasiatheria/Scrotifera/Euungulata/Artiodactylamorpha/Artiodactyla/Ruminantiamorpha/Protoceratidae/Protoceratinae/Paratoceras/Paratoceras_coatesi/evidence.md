@@ -9,7 +9,6 @@ records:
     name:
       zh: Paratoceras coatesi
       en: Paratoceras coatesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

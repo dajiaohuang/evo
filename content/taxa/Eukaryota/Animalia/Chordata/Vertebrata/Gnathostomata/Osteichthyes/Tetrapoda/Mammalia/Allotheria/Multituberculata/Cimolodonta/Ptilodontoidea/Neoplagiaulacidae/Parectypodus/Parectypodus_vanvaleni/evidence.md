@@ -9,7 +9,6 @@ records:
     name:
       zh: Parectypodus vanvaleni
       en: Parectypodus vanvaleni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

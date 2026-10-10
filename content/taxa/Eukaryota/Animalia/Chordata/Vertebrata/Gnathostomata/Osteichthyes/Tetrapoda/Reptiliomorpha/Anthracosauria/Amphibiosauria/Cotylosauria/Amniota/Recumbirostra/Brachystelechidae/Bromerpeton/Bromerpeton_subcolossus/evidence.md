@@ -9,7 +9,6 @@ records:
     name:
       zh: Bromerpeton subcolossus
       en: Bromerpeton subcolossus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

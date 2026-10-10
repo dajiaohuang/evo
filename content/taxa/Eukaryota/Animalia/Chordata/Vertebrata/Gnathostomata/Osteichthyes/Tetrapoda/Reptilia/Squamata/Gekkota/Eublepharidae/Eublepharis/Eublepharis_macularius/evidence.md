@@ -9,7 +9,6 @@ records:
     name:
       zh: Eublepharis macularius
       en: Eublepharis macularius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

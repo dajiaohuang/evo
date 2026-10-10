@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates palmipes
       zh: Lithobates palmipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mediodactylus bartoni
       en: Mediodactylus bartoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

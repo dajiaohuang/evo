@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagorhacos terrificus
       en: Patagorhacos terrificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Polioptila caerulea
       en: Polioptila caerulea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

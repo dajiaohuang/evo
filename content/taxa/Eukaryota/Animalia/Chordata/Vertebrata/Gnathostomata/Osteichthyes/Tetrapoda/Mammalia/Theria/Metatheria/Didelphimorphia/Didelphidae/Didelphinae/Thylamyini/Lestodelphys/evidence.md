@@ -9,7 +9,6 @@ records:
     name:
       zh: Lestodelphys
       en: Lestodelphys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegosiren macei
       en: Stegosiren macei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenacodon brentbaatar
       en: Ctenacodon brentbaatar
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

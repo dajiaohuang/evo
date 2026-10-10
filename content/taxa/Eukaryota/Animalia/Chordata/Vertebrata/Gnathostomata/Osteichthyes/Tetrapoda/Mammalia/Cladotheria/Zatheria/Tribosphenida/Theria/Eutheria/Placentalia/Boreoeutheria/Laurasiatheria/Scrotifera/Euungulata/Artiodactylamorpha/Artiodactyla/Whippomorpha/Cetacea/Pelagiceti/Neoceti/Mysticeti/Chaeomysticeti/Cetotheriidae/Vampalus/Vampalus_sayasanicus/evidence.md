@@ -9,7 +9,6 @@ records:
     name:
       zh: Vampalus sayasanicus
       en: Vampalus sayasanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

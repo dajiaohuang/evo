@@ -9,7 +9,6 @@ records:
     name:
       zh: Axainamasia sandersi
       en: Axainamasia sandersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

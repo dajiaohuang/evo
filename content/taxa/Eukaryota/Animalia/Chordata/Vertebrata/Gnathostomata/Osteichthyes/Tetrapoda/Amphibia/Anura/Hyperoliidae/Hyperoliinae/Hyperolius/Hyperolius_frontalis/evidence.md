@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius frontalis
       zh: Hyperolius frontalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

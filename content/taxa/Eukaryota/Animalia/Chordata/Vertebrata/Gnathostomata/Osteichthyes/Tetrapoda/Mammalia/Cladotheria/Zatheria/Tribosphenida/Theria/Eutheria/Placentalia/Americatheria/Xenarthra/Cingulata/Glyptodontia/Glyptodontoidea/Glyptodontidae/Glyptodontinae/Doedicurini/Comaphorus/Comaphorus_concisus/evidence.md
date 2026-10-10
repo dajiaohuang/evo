@@ -9,7 +9,6 @@ records:
     name:
       zh: Comaphorus concisus
       en: Comaphorus concisus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

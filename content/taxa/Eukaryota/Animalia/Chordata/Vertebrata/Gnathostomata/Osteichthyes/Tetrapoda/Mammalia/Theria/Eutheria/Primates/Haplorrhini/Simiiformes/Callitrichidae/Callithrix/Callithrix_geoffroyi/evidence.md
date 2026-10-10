@@ -9,7 +9,6 @@ records:
     name:
       en: Geoffroy’s Tufted-ear Marmoset
       zh: 杰弗鲁瓦簇耳绒猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: feeding

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lasiopodomys mandarinus
       en: Lasiopodomys mandarinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

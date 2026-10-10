@@ -9,7 +9,6 @@ records:
     name:
       zh: Carpodectes nitidus
       en: Carpodectes nitidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nactus coindemirensis
       en: Nactus coindemirensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

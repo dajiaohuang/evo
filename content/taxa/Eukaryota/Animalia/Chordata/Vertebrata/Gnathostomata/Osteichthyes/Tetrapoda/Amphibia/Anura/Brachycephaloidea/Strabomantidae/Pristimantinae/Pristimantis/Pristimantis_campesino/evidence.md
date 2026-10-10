@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis campesino
       zh: Pristimantis campesino
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

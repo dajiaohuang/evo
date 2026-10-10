@@ -9,7 +9,6 @@ records:
     name:
       en: Semliki Red Colobus
       zh: 塞姆利基红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

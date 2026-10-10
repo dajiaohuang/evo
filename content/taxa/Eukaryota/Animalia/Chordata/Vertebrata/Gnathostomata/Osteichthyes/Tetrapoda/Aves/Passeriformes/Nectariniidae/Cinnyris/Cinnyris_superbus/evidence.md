@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris superbus
       en: Cinnyris superbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

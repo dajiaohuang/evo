@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus stelzneri
       zh: Melanophryniscus stelzneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

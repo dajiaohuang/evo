@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: wang-2024-helicolocellus primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: wang-2024-helicolocellus
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: wang-2024-helicolocellus primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: wang-2024-helicolocellus
           relation: supports
@@ -97,9 +91,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: wang-2024-helicolocellus primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: wang-2024-helicolocellus
           relation: supports
@@ -116,9 +107,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: wang-2024-helicolocellus primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: wang-2024-helicolocellus
           relation: supports
@@ -135,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: wang-2024-helicolocellus primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: wang-2024-helicolocellus
           relation: supports
@@ -191,7 +176,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Helicolocellus cantori

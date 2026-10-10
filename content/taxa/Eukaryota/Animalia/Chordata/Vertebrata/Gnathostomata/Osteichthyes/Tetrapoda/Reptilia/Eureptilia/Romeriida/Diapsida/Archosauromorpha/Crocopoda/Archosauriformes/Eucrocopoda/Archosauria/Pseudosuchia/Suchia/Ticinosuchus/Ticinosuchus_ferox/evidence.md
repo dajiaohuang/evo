@@ -9,7 +9,6 @@ records:
     name:
       zh: Ticinosuchus ferox
       en: Ticinosuchus ferox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

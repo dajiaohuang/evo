@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus ornatus
       zh: Cophixalus ornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

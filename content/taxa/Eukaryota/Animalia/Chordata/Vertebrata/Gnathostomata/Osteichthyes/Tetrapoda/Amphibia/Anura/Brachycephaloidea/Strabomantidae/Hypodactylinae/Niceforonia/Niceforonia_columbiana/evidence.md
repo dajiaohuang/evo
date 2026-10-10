@@ -9,7 +9,6 @@ records:
     name:
       en: Niceforonia columbiana
       zh: Niceforonia columbiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

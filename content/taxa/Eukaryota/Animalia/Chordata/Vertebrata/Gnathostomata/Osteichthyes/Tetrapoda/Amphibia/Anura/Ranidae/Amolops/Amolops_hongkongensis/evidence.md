@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops hongkongensis
       zh: Amolops hongkongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

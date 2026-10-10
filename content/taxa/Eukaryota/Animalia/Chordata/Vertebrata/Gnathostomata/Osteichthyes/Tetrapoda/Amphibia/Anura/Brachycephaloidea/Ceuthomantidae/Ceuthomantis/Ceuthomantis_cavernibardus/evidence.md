@@ -9,7 +9,6 @@ records:
     name:
       en: Ceuthomantis cavernibardus
       zh: Ceuthomantis cavernibardus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

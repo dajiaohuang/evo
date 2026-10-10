@@ -28,5 +28,5 @@ The study combined pelage categories, morphometrics and mitochondrial relationsh
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Evidence is limited to the 2007 northern/northwestern samples and taxonomic analysis; current full range, abundance, diet and conservation status are not assessed. Common-name wording is editorial and the page has not received external expert review. The page is not externally expert-reviewed.
+Evidence is limited to the 2007 northern/northwestern samples and taxonomic analysis; current full range, abundance, diet and conservation status are not assessed. Common-name wording is editorial. The page is.
 <!-- /evo:text -->

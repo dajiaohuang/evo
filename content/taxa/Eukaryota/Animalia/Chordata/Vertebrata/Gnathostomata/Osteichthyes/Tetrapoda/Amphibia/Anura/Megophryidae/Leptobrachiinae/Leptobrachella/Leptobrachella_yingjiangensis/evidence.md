@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella yingjiangensis
       zh: Leptobrachella yingjiangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

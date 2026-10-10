@@ -9,7 +9,6 @@ records:
     name:
       zh: Coccyzus rufigularis
       en: Coccyzus rufigularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

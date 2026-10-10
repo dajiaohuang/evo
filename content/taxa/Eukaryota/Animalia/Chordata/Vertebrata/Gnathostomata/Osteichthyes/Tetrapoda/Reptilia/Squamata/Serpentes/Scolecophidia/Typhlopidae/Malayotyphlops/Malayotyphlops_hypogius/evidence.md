@@ -9,7 +9,6 @@ records:
     name:
       zh: Malayotyphlops hypogius
       en: Malayotyphlops hypogius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis chrysolepis
       en: Anolis chrysolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

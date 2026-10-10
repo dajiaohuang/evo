@@ -9,7 +9,6 @@ records:
     name:
       zh: Jawharia tenrecoides
       en: Jawharia tenrecoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

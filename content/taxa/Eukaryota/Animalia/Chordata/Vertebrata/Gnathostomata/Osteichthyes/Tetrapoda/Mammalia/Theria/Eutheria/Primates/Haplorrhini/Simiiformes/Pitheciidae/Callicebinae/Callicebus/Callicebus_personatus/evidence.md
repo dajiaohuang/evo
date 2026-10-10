@@ -9,7 +9,6 @@ records:
     name:
       zh: 面罩蒂蒂猴
       en: Masked Titi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

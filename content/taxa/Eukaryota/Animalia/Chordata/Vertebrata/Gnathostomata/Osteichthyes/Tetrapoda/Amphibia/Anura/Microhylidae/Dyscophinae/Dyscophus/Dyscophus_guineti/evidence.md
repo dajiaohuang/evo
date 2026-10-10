@@ -9,7 +9,6 @@ records:
     name:
       en: Dyscophus guineti
       zh: Dyscophus guineti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

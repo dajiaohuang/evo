@@ -9,7 +9,6 @@ records:
     name:
       en: Niceforonia fallaciosa
       zh: Niceforonia fallaciosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

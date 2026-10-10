@@ -9,7 +9,6 @@ records:
     name:
       zh: 贝尼河绢毛猴
       en: Río Beni Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: vocalization

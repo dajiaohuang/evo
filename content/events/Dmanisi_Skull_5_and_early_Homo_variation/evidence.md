@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: lordkipanidze-2013-dmanisi @ DOI 10.1126/science.1238484
       referenceLinks:
         - referenceId: lordkipanidze-2013-dmanisi
           relation: supports

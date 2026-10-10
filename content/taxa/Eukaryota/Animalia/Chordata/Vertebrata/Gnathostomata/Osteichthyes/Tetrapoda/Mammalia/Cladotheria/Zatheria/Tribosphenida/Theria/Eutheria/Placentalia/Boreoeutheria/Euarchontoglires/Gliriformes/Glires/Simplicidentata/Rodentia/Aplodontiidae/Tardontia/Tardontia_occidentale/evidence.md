@@ -9,7 +9,6 @@ records:
     name:
       zh: Tardontia occidentale
       en: Tardontia occidentale
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

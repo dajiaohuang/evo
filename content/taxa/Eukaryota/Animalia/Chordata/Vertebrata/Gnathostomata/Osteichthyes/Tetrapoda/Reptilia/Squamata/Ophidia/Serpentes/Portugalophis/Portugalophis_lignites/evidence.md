@@ -9,7 +9,6 @@ records:
     name:
       zh: Portugalophis lignites
       en: Portugalophis lignites
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

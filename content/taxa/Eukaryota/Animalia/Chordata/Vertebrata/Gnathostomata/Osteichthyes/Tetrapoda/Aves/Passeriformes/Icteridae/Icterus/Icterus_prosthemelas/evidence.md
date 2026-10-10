@@ -9,7 +9,6 @@ records:
     name:
       zh: Icterus prosthemelas
       en: Icterus prosthemelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

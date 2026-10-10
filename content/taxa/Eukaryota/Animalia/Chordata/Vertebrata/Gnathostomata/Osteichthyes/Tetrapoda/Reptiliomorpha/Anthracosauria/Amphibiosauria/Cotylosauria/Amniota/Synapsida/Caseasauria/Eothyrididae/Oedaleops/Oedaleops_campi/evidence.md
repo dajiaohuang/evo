@@ -9,7 +9,6 @@ records:
     name:
       zh: Oedaleops campi
       en: Oedaleops campi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

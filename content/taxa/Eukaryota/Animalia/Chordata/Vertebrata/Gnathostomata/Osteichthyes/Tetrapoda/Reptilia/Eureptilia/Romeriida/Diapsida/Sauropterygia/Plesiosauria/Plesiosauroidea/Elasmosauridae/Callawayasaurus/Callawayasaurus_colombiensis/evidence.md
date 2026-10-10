@@ -9,7 +9,6 @@ records:
     name:
       zh: Callawayasaurus colombiensis
       en: Callawayasaurus colombiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

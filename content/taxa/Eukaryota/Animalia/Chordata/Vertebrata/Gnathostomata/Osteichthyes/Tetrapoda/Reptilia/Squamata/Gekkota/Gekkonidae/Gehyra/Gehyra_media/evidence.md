@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra media
       en: Gehyra media
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

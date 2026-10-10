@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynarctoides acridens
       en: Cynarctoides acridens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

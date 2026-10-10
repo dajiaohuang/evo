@@ -9,7 +9,6 @@ records:
     name:
       zh: Prolimnocyon haematus
       en: Prolimnocyon haematus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

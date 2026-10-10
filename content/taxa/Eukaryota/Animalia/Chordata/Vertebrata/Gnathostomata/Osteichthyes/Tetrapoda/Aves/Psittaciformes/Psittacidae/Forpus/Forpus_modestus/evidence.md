@@ -9,7 +9,6 @@ records:
     name:
       zh: Forpus modestus
       en: Forpus modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

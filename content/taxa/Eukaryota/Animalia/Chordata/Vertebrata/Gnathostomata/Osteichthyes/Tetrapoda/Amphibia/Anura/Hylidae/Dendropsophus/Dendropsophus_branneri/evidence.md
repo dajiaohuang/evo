@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus branneri
       zh: Dendropsophus branneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

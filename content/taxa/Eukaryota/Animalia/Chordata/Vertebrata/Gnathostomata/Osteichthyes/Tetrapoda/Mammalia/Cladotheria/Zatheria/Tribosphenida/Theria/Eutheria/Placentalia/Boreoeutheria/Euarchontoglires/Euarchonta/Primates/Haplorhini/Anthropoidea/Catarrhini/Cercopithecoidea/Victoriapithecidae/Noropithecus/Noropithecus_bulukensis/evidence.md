@@ -9,7 +9,6 @@ records:
     name:
       zh: Noropithecus bulukensis
       en: Noropithecus bulukensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lamprotornis australis
       en: Lamprotornis australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

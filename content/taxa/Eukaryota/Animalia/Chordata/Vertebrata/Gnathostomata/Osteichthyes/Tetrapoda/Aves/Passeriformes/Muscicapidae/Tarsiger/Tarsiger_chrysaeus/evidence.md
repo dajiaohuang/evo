@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarsiger chrysaeus
       en: Tarsiger chrysaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

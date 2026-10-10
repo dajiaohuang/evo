@@ -9,7 +9,6 @@ records:
     name:
       zh: Canis mosbachensis
       en: Canis mosbachensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

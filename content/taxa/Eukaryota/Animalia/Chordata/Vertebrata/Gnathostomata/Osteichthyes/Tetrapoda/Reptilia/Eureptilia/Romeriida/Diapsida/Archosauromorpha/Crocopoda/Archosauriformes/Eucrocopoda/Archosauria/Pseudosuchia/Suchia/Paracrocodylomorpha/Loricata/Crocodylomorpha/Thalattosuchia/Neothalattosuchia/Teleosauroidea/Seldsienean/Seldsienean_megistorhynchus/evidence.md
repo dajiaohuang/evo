@@ -9,7 +9,6 @@ records:
     name:
       zh: Seldsienean megistorhynchus
       en: Seldsienean megistorhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

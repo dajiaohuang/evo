@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑白叶猴
       en: Black-and-white Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

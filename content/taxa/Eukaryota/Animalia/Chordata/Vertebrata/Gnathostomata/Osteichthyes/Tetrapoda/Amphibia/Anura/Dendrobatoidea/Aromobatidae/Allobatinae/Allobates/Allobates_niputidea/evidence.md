@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates niputidea
       zh: Allobates niputidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

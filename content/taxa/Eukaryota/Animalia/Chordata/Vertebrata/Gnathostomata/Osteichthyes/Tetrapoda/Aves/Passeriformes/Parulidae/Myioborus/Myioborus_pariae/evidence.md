@@ -9,7 +9,6 @@ records:
     name:
       zh: Myioborus pariae
       en: Myioborus pariae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

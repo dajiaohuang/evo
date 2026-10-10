@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus albolabris
       en: Trimeresurus albolabris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -300,7 +300,7 @@ def main():
         "counts": {"total": len(output), "accepted": sum(row["status"] == "accepted" for row in output), "redirect": 0, "ambiguous": sum(row["status"] == "ambiguous" for row in output), "unmatched": sum(row["status"] == "unmatched" for row in output), "withheld": 0, "upstreamOnly": len(upstream), "records": len(output) + len(upstream)},
         "files": files,
         "upstreamOnlyFiles": upstream_files,
-        "evidenceBoundary": {"en": "Frozen CilCat source provenance, not independent scientific corroboration, species-concept equivalence, biological dossier, fossil evidence or expert review.", "zh": "冻结的 CilCat 来源追溯，不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"},
+        "evidenceBoundary": {"en": "Frozen CilCat source provenance, not independent scientific corroboration, species-concept equivalence, biological dossier, fossil evidence.", "zh": "冻结的 CilCat 来源追溯，不是独立科学佐证、物种概念等同、生物档案、化石证据。"},
         "limitations": ["The 8,505 COL source-1113 species comprise 8,477 strict name+authorship matches and 28 accepted rows resolved only by their frozen official COL source relation; 27 additional accepted archive rows remain in a separate upstream-only partition and 81 provisional rows are excluded.", "The archive's nomenclatural/taxonomic references support source name provenance only; they do not constitute biological dossiers.", "34 TaxAccRef links point to ReferenceID 95, which is absent from References.tsv; those links retain their NameReferences locator and explicit referenceMissing=true."],
         "totalCompressedBytes": len(out_bytes) + len(upstream_bytes),
         "totalSourceBytes": len(payload) + len(upstream_payload),

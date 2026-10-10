@@ -9,7 +9,6 @@ records:
     name:
       en: Grillitschia aceras
       zh: Grillitschia aceras
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

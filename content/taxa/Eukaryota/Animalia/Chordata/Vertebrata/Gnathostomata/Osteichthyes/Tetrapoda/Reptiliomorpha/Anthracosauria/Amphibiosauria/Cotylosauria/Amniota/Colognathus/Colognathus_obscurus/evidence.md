@@ -9,7 +9,6 @@ records:
     name:
       zh: Colognathus obscurus
       en: Colognathus obscurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

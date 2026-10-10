@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus alcyone
       en: Rhinolophus alcyone
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

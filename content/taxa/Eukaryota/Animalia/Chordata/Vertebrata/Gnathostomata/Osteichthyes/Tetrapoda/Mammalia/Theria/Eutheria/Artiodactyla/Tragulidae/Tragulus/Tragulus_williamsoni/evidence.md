@@ -9,7 +9,6 @@ records:
     name:
       zh: Tragulus williamsoni
       en: Tragulus williamsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zygomaturus gilli
       en: Zygomaturus gilli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

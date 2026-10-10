@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla picta
       zh: Microhyla picta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

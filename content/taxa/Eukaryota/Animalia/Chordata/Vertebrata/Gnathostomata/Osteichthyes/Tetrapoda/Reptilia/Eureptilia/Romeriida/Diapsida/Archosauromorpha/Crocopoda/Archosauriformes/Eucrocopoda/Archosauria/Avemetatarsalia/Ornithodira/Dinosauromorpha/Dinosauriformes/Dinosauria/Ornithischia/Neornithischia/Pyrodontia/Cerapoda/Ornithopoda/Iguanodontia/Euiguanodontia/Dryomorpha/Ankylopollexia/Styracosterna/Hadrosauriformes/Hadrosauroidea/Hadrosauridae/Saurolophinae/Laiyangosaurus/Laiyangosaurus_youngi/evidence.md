@@ -9,7 +9,6 @@ records:
     name:
       zh: Laiyangosaurus youngi
       en: Laiyangosaurus youngi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

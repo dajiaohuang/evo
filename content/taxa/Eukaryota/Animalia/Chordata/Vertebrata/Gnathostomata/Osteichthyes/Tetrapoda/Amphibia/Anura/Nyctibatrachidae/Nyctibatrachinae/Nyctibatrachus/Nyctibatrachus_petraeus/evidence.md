@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus petraeus
       zh: Nyctibatrachus petraeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

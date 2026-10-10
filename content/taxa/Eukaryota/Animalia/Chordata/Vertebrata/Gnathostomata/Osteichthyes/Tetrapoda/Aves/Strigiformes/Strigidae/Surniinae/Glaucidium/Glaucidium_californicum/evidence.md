@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium californicum
       en: Glaucidium californicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

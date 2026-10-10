@@ -9,7 +9,6 @@ records:
     name:
       zh: Litodonomys xishuiensis
       en: Litodonomys xishuiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

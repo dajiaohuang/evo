@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko similignum
       en: Gekko similignum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

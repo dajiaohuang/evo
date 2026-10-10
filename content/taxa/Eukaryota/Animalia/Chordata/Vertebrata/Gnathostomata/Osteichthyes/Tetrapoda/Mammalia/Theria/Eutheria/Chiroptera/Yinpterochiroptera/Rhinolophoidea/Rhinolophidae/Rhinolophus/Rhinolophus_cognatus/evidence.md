@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus cognatus
       en: Rhinolophus cognatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

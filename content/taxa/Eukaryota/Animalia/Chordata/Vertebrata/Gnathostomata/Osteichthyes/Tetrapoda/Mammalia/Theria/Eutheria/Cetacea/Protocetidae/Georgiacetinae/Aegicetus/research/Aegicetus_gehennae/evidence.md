@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gingerich-2019-aegicetus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: gingerich-2019-aegicetus
           relation: supports
@@ -83,9 +80,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gingerich-2019-aegicetus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: gingerich-2019-aegicetus
           relation: supports
@@ -106,9 +100,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gingerich-2019-aegicetus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: gingerich-2019-aegicetus
           relation: supports
@@ -129,9 +120,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gingerich-2019-aegicetus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: gingerich-2019-aegicetus
           relation: supports
@@ -152,9 +140,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gingerich-2019-aegicetus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: gingerich-2019-aegicetus
           relation: supports
@@ -210,7 +195,6 @@ records:
       referenceLocators:
         - referenceId: gingerich-2019-aegicetus
           locator: Geological setting and age; Figures 2–4
-      reviewStatus: automated-audit-passed
 ---
 
 # Aegicetus gehennae

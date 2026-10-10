@@ -9,7 +9,6 @@ records:
     name:
       zh: Amytornis dorotheae
       en: Amytornis dorotheae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sordellina punctata
       en: Sordellina punctata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

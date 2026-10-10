@@ -9,7 +9,6 @@ records:
     name:
       zh: Torontoceros hypogaeus
       en: Torontoceros hypogaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

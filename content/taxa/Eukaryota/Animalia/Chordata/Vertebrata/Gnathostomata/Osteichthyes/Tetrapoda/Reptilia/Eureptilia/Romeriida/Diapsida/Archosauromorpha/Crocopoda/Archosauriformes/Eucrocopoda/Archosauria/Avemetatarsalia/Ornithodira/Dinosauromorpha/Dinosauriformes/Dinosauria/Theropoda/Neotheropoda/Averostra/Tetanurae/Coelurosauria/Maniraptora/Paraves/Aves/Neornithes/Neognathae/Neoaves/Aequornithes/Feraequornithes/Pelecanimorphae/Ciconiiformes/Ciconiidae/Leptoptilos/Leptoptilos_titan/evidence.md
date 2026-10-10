@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptoptilos titan
       en: Leptoptilos titan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

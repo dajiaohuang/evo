@@ -9,7 +9,6 @@ records:
     name:
       zh: Parapistocalamus hedigeri
       en: Parapistocalamus hedigeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

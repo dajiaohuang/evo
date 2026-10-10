@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoberodon arctirostris
       en: Phoberodon arctirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

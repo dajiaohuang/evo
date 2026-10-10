@@ -9,7 +9,6 @@ records:
     name:
       en: Paramesotriton malipoensis
       zh: Paramesotriton malipoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

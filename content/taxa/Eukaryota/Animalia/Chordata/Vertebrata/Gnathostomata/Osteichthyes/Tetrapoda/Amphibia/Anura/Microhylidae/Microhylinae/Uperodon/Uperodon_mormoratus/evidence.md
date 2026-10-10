@@ -9,7 +9,6 @@ records:
     name:
       en: Uperodon mormoratus
       zh: Uperodon mormoratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

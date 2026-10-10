@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis shevaroyensis
       en: Cnemaspis shevaroyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

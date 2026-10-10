@@ -9,7 +9,6 @@ records:
     name:
       zh: Nazcacetus urbinai
       en: Nazcacetus urbinai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Iaremys batrachomorpha
       en: Iaremys batrachomorpha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

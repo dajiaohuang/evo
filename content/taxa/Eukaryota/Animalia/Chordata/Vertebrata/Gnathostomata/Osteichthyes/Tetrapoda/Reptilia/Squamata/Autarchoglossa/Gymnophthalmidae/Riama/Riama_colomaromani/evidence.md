@@ -9,7 +9,6 @@ records:
     name:
       zh: Riama colomaromani
       en: Riama colomaromani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

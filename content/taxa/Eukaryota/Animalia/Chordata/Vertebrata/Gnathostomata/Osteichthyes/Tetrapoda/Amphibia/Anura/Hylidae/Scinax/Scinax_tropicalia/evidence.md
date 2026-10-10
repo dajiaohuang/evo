@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax tropicalia
       zh: Scinax tropicalia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

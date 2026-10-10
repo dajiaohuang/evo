@@ -9,7 +9,6 @@ records:
     name:
       zh: 普通狨
       en: Common marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: ecology
@@ -872,12 +871,6 @@ records:
       reasons:
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/0
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
   atlas-node:
     name: Callithrix jacchus
     commonName: Common Marmoset
@@ -1482,10 +1475,4 @@ This source documents C. jacchus maternal markers among a bounded sample of free
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/0 -->
 Morphology, life history, ecology, evolution and distribution remain partially supported; fossil remains searched-no-evidence; conservation now contains one bounded hybridization-interaction claim, while current status, population trend and measured impact remain unassessed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

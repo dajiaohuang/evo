@@ -61,9 +61,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: cloutier-2020-elpistostege-hand; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: cloutier-2020-elpistostege-hand
@@ -82,9 +79,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Cloutier et al. 2020 DOI 10.1038/s41586-020-2100-8
       referenceLinks:
         - referenceId: cloutier-2020-elpistostege-hand
           relation: supports
@@ -103,9 +97,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Cloutier et al. 2020 DOI 10.1038/s41586-020-2100-8
       referenceLinks:
         - referenceId: cloutier-2020-elpistostege-hand
           relation: supports
@@ -124,9 +115,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Cloutier et al. 2020 DOI 10.1038/s41586-020-2100-8
       referenceLinks:
         - referenceId: cloutier-2020-elpistostege-hand
           relation: supports
@@ -145,9 +133,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Cloutier et al. 2020 DOI 10.1038/s41586-020-2100-8
       referenceLinks:
         - referenceId: cloutier-2020-elpistostege-hand
           relation: supports
@@ -198,7 +183,6 @@ records:
       referenceLocators:
         - referenceId: cloutier-2020-elpistostege-hand
           locator: pp. 549–554; Figures 1–5 and Extended Data
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Sarcopterygii/Osteolepidida/Osteolepidiformes/Cyclolepidoidei/Panderichthyidae/Elpistostege/research/Elpistostege
       rangeKind: taxon-range
@@ -224,7 +208,6 @@ records:
       referenceLocators:
         - referenceId: cloutier-2020-elpistostege-hand
           locator: pp. 549–554; Figure 1; Figures 2–5; Extended Data Figures 1–2
-      reviewStatus: automated-audit-passed
 ---
 
 # Elpistostege

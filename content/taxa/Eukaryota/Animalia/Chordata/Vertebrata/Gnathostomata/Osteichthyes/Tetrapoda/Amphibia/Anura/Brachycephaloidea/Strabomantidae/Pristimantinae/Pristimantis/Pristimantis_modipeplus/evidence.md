@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis modipeplus
       zh: Pristimantis modipeplus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

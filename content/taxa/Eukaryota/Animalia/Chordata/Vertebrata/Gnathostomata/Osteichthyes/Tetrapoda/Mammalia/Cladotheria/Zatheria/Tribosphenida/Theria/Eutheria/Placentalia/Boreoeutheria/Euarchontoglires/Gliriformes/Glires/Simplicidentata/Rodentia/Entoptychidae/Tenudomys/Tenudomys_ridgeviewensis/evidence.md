@@ -9,7 +9,6 @@ records:
     name:
       zh: Tenudomys ridgeviewensis
       en: Tenudomys ridgeviewensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

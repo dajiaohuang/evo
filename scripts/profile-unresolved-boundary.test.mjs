@@ -13,9 +13,10 @@ describe('explicitly unresolved atlas geography', () => {
     expect(generated.pbdbTaxonId).toBe(null)
     expect(source.pbdbTaxonId).toBe(null)
   })
-  it('permits an empty geographical list only with a null identifier and provisional range', () => {
+  it('keeps geography availability independent of identity and range confidence', () => {
     expect(validate({ ...source, pbdbTaxonId: null, geography: [], rangeProvisional: true })).toBe(true)
-    expect(validate({ ...source, pbdbTaxonId: 'txn:1', geography: [], rangeProvisional: true })).toBe(false)
-    expect(validate({ ...source, pbdbTaxonId: null, geography: [], rangeProvisional: false })).toBe(false)
+    expect(validate({ ...source, pbdbTaxonId: 'txn:1', geography: [], rangeProvisional: true })).toBe(true)
+    expect(validate({ ...source, pbdbTaxonId: null, geography: [], rangeProvisional: false })).toBe(true)
+    expect(validate({ ...source, geography: [''] })).toBe(false)
   })
 })

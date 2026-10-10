@@ -9,7 +9,6 @@ records:
     name:
       en: Wied’s Marmoset
       zh: 维德绒猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: feeding

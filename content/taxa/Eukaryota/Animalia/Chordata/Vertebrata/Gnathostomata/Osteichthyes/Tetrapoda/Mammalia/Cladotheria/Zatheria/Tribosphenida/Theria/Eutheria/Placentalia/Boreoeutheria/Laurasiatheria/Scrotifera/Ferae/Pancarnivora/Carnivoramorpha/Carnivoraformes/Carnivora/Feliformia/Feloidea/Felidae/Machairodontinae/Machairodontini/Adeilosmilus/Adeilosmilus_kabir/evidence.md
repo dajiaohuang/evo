@@ -9,7 +9,6 @@ records:
     name:
       zh: Adeilosmilus kabir
       en: Adeilosmilus kabir
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

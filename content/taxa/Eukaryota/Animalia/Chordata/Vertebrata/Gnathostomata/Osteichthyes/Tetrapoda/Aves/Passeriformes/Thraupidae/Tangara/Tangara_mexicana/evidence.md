@@ -9,7 +9,6 @@ records:
     name:
       zh: Tangara mexicana
       en: Tangara mexicana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

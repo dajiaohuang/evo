@@ -9,7 +9,6 @@ records:
     name:
       zh: Metaliomys sevierensis
       en: Metaliomys sevierensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anilios tovelli
       en: Anilios tovelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

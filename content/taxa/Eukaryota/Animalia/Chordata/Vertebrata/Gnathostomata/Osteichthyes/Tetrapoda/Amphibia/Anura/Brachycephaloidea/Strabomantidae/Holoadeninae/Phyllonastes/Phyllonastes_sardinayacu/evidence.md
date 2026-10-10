@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllonastes sardinayacu
       zh: Phyllonastes sardinayacu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

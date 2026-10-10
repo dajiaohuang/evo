@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura euryura
       en: Rhipidura euryura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

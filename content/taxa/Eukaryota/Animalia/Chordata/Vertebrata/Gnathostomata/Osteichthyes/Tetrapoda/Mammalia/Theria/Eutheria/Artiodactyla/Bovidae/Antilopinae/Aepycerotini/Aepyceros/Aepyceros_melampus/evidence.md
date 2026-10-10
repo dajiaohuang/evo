@@ -9,7 +9,6 @@ records:
     name:
       zh: Aepyceros melampus
       en: Aepyceros melampus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -190,7 +190,7 @@ const ecologyReference = {
   version: 'Published 2015-11-04',
   sourceRole: 'primary-study',
   fitnessFor: ['ecology', 'biogeography'],
-  metadataAssignment: 'curator-reviewed',
+
   note: 'Primary study of one 64-individual rhesus macaque troop at Buxa Tiger Reserve, India, from October 2013 to September 2014. Ecological comparisons are limited to that troop and study-defined seasonal provisioning periods; the article states CC BY 4.0.',
 }
 const morphologyReference = {
@@ -206,7 +206,7 @@ const morphologyReference = {
   version: 'Published 2019-12-24',
   sourceRole: 'primary-study',
   fitnessFor: ['morphology'],
-  metadataAssignment: 'curator-reviewed',
+
   note: 'Primary study measuring a selected Cayo Santiago free-ranging cohort in 2015. Heritability conclusions are bounded to the sampled pedigree, measured traits and models; the article states CC BY 4.0.',
 }
 appendArrayRecords('data/references.json', '', [ecologyReference, morphologyReference])
@@ -248,9 +248,9 @@ for (const claim of [
     statement: taxonomyStatement,
     confidence: 'medium',
     confidenceRationale: 'The pinned accepted usage and immediate parent are explicit in COL26.8. This statement is limited to checklist identity and does not infer biology or phylogeny.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'COL26.8 ChecklistBank dataset 316115; accepted usage 3WWNQ, source dataset 2144 and parent chain checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted species usage 3WWNQ; immediate parent usage 5HYC Macaca; accepted parent chain through Primates usage 3W7' }],
   },
   {
@@ -261,9 +261,9 @@ for (const claim of [
     statement: geographyStatement,
     confidence: 'high',
     confidenceRationale: 'Both primary studies identify their sampled location directly. The statement retains study-site scope and makes no full-range inference.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Sengupta et al. 2015 DOI 10.1371/journal.pone.0140961; Kimock et al. 2019 DOI 10.1038/s41598-019-52633-4; methods checked 2026-09-27',
+
+
+
     referenceLinks: [
       { referenceId: ecologyReferenceId, relation: 'supports', quoteLocator: 'Methods, Study Area and Study Troop' },
       { referenceId: morphologyReferenceId, relation: 'supports', quoteLocator: 'Methods, Study Population and Morphometric Data Collection' },
@@ -277,9 +277,9 @@ for (const claim of [
     statement: ecologyStatement,
     confidence: 'medium',
     confidenceRationale: 'The paper directly reports the troop size, study period, diet percentages and mean daily ranges. It is an observational one-troop study and does not establish a controlled causal effect or species-wide ecology.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Sengupta et al. 2015 DOI 10.1371/journal.pone.0140961; Methods, Results and Tables 1–3 checked against the CC BY 4.0 article on 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: ecologyReferenceId, relation: 'supports', pages: 'Methods, Study Area and Study Troop; Results, Fruit availability, degree of provisioning and degree of frugivory; Sites of seed deposition; Table 3' }],
   },
   {
@@ -290,9 +290,9 @@ for (const claim of [
     statement: morphologyStatement,
     confidence: 'medium',
     confidenceRationale: 'The source directly states its 2015 Cayo Santiago capture cohort, measured traits and pedigree-model results. The conclusion is bounded to the sampled population, pedigree and measured traits.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Kimock et al. 2019 DOI 10.1038/s41598-019-52633-4; Abstract, Morphometric Data Collection and Results checked against the CC BY 4.0 article on 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: morphologyReferenceId, relation: 'supports', pages: 'Abstract; Methods, Morphometric Data Collection, Genetic Parentage Information and Dominance Rank; Results' }],
   },
   {
@@ -303,9 +303,9 @@ for (const claim of [
     statement: rangeStatement,
     confidence: 'medium',
     confidenceRationale: 'The checklist establishes classification and the cited papers study living populations; none supplies a temporal fossil-range endpoint. The numerical interval therefore remains withheld.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115, usage 3WWNQ; Sengupta et al. 2015 DOI 10.1371/journal.pone.0140961; Kimock et al. 2019 DOI 10.1038/s41598-019-52633-4; source scopes checked 2026-09-27',
+
+
+
     referenceLinks: [
       { referenceId: colReferenceId, relation: 'supports', pages: 'Accepted usage 3WWNQ; identity and classification only' },
       { referenceId: ecologyReferenceId, relation: 'supports', quoteLocator: 'Living-troop ecology study; no temporal fossil-range estimate' },
@@ -345,7 +345,7 @@ appendArrayRecords('data/ranges/range-evidence.json', '', [{
   confidence: 'low',
   claimIds: [],
   referenceLocators: [{ referenceId: colReferenceId, locator: 'COL26.8 dataset 316115; accepted usage 3WWNQ and parent chain (identity/classification only)' }],
-  reviewStatus: 'automated-audit-passed',
+
 }])
 
 const storyId = 'primates-evidence-without-an-ancestor-ladder'
@@ -377,12 +377,12 @@ appendArrayRecords(pbdbPath, 'resolutions', [{
   localExpectedParentConcept: 'Macaca',
   parentRelationshipKind: 'taxonomic-parent',
   lineageCompatibility: 'indeterminate',
-  conceptReviewStatus: 'unresolved',
-  automatedRecommendation: 'withhold-external-mapping',
-  humanCuratorDecision: null,
-  curatorRationale: null,
-  curatorReviewedAt: null,
-  curatorReviewer: null,
+
+
+
+
+
+
   occurrenceCount: null,
   referenceNo: null,
   snapshotModifiedAt: null,
@@ -391,15 +391,11 @@ const pbdb = readJson(pbdbPath)
 setObjectNumber(pbdbPath, 'summary', 'ontologyNodes', pbdb.resolutions.length)
 setObjectNumber(pbdbPath, 'summary', 'unresolved', pbdb.resolutions.filter(item => item.resolutionStatus !== 'resolved').length)
 setObjectNumber(pbdbPath, 'summary', 'resolved', pbdb.resolutions.filter(item => item.resolutionStatus === 'resolved').length)
-setObjectNumber(pbdbPath, 'summary', 'needsConceptReview', pbdb.resolutions.filter(item => item.conceptReviewStatus === 'needs-concept-review').length)
-setObjectNumber(pbdbPath, 'summary', 'humanCuratorDecisions', pbdb.resolutions.filter(item => item.humanCuratorDecision).length)
+
+
 let pbdbSource = readFileSync(pbdbPath, 'utf8')
 pbdbSource = pbdbSource.replace(/("generatedAt"\s*:\s*")\d{4}-\d{2}-\d{2}(")/u, `$1${today}$2`)
 writeFileSync(pbdbPath, pbdbSource, 'utf8')
 
-const linkagePath = 'data/indexes/entity-linkage-baseline.json'
-const linkage = readJson(linkagePath)
-linkage.unresolvedEntityIds = [...new Set([...linkage.unresolvedEntityIds, entityId])].sort()
-writeJson(linkagePath, linkage)
 
 console.log(JSON.stringify({ entityId, colId, claims: [taxonomyClaimId, geographyClaimId, ecologyClaimId, morphologyClaimId, rangeClaimId], rawDossierBundled: false }, null, 2))

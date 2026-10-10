@@ -9,7 +9,6 @@ records:
     name:
       zh: Mediodactylus spinicauda
       en: Mediodactylus spinicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

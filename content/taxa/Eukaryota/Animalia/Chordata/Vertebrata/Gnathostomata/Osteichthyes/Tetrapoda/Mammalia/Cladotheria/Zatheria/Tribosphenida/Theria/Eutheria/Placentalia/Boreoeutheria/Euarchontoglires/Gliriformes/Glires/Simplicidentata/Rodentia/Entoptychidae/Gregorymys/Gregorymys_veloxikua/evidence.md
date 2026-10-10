@@ -9,7 +9,6 @@ records:
     name:
       zh: Gregorymys veloxikua
       en: Gregorymys veloxikua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

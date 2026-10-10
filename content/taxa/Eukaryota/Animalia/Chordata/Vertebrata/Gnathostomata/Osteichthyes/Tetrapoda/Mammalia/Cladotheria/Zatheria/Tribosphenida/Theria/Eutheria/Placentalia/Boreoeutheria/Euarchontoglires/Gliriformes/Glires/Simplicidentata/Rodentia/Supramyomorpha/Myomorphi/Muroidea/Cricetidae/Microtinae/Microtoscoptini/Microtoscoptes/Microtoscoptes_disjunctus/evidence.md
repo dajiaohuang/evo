@@ -9,7 +9,6 @@ records:
     name:
       zh: Microtoscoptes disjunctus
       en: Microtoscoptes disjunctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus sarmientoi
       en: Liolaemus sarmientoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

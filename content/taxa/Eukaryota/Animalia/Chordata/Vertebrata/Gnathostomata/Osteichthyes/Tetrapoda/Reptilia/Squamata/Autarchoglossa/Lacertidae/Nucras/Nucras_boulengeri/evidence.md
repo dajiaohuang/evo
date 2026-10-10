@@ -9,7 +9,6 @@ records:
     name:
       zh: Nucras boulengeri
       en: Nucras boulengeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

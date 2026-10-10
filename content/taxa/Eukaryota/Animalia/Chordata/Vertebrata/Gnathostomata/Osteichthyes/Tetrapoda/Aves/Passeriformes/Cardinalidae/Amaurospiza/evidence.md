@@ -9,7 +9,6 @@ records:
     name:
       zh: Amaurospiza
       en: Amaurospiza
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

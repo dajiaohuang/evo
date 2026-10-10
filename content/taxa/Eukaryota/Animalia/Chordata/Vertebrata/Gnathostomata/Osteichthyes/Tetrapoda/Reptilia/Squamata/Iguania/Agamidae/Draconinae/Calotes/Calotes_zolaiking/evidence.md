@@ -9,7 +9,6 @@ records:
     name:
       zh: Calotes zolaiking
       en: Calotes zolaiking
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Reithrodon
       en: Reithrodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

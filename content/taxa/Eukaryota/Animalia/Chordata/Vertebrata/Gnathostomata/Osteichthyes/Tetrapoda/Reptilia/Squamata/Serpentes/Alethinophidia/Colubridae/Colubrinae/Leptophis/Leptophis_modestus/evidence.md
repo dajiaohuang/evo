@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptophis modestus
       en: Leptophis modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

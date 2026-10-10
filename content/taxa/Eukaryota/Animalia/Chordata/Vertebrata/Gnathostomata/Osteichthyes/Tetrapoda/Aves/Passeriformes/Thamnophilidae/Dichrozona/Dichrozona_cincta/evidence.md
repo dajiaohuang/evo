@@ -9,7 +9,6 @@ records:
     name:
       zh: Dichrozona cincta
       en: Dichrozona cincta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Alophoixus bres
       en: Alophoixus bres
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

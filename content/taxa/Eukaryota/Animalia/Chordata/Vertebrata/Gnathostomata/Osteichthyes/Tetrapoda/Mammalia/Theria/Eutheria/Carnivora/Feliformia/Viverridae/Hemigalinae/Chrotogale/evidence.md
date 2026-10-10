@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrotogale
       en: Chrotogale
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

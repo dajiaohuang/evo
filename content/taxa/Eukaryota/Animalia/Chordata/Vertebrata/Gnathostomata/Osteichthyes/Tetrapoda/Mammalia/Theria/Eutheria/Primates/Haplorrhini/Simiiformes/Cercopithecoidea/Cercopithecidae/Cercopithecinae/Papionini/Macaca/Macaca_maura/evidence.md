@@ -9,7 +9,6 @@ records:
     name:
       zh: 摩尔猕猴
       en: Moor Macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: local population and diet

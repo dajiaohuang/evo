@@ -9,7 +9,6 @@ records:
     name:
       en: Blythophryne beryet
       zh: Blythophryne beryet
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -34,5 +34,5 @@ Migration=2 is partially migratory, covering minority long-distance migration or
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Scope is the selected historical AVONET v7 rows, relevant field definitions, two name crosswalks and local COL accepted/synonym records. The whole workbook, individual raw measurements, Dunning’s book and a new full methods-paper reading are excluded. Morphology counts are not literature-mass denominators, and ecological categories are not seasonal diet surveys. Plumage identification, breeding, lifespan, current range and conservation status need other sources; no expert review or complete monograph is claimed.
+Scope is the selected historical AVONET v7 rows, relevant field definitions, two name crosswalks and local COL accepted/synonym records. The whole workbook, individual raw measurements, Dunning’s book and a new full methods-paper reading are excluded. Morphology counts are not literature-mass denominators, and ecological categories are not seasonal diet surveys. Plumage identification, breeding, lifespan, current range and conservation status need other sources;
 <!-- /evo:text -->

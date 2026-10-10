@@ -9,7 +9,6 @@ records:
     name:
       en: Noblella carrascoicola
       zh: Noblella carrascoicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

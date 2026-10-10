@@ -9,7 +9,6 @@ records:
     name:
       zh: Metridiochoerus hopwoodi
       en: Metridiochoerus hopwoodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylophylax naevius
       en: Hylophylax naevius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nhandumirim waldsangae
       en: Nhandumirim waldsangae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus biancae
       zh: Melanophryniscus biancae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

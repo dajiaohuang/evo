@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis memorans
       zh: Pristimantis memorans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

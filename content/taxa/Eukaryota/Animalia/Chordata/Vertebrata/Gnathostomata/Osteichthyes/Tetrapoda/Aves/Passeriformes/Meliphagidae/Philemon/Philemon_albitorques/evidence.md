@@ -9,7 +9,6 @@ records:
     name:
       zh: Philemon albitorques
       en: Philemon albitorques
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

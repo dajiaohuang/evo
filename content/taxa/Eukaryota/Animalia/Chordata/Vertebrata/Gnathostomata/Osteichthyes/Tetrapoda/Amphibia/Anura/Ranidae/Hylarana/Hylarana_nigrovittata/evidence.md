@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana nigrovittata
       zh: Hylarana nigrovittata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

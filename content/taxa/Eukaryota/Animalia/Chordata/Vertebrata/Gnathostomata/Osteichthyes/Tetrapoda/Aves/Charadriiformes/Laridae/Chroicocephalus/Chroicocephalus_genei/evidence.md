@@ -9,7 +9,6 @@ records:
     name:
       zh: Chroicocephalus genei
       en: Chroicocephalus genei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

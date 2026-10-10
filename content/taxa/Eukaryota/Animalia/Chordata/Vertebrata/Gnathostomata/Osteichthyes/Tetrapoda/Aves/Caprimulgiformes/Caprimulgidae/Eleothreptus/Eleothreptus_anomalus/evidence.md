@@ -9,7 +9,6 @@ records:
     name:
       zh: Eleothreptus anomalus
       en: Eleothreptus anomalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

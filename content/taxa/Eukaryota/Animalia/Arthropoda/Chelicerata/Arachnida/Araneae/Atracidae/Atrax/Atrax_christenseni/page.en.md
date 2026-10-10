@@ -52,5 +52,5 @@ account
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introductory account; not externally expert-reviewed. The species was described in 2025 and its biology is limited; a narrow known-record area, withheld localities and reported collecting risk do not substitute for a formal conservation assessment.
+Source-linked introductory account;. The species was described in 2025 and its biology is limited; a narrow known-record area, withheld localities and reported collecting risk do not substitute for a formal conservation assessment.
 <!-- /evo:text -->

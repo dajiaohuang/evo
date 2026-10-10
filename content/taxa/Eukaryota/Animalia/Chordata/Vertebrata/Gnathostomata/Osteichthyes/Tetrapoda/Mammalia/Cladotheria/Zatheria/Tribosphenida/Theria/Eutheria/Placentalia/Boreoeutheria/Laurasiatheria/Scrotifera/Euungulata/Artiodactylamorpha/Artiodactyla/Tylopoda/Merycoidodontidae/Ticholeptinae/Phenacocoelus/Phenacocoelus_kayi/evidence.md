@@ -9,7 +9,6 @@ records:
     name:
       zh: Phenacocoelus kayi
       en: Phenacocoelus kayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

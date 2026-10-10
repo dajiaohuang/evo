@@ -40,5 +40,5 @@ Primary.Lifestyle=Terrestrial，来源定义为多数时间在地面并边走或
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页使用十二条所选 AVONET v7 历史行之一、完整 eBird／BirdTree 关联、字段定义和本次 COL tu 分片。来源科名 Leiotrichidae 与目录 Leiothrichidae 分开；reinwardii 的逐字目录对应在已读分片未确认，不外推为所有目录都无此拼写。同名行也不证明历史物种范围等同当前概念。形态鸟数、完整测量和 Dunning 文献体重分母分开；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。生态位与营养级不互换，未读底层食性文献，不补季节食谱、猎物名录、群体合作、繁殖、羽色、鸣声、当前分布或迁移路线。不计完整自然史或外部专家审评。
+本页使用十二条所选 AVONET v7 历史行之一、完整 eBird／BirdTree 关联、字段定义和本次 COL tu 分片。来源科名 Leiotrichidae 与目录 Leiothrichidae 分开；reinwardii 的逐字目录对应在已读分片未确认，不外推为所有目录都无此拼写。同名行也不证明历史物种范围等同当前概念。形态鸟数、完整测量和 Dunning 文献体重分母分开；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。生态位与营养级不互换，未读底层食性文献，不补季节食谱、猎物名录、群体合作、繁殖、羽色、鸣声、当前分布或迁移路线。不计完整自然史。
 <!-- /evo:text -->

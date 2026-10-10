@@ -9,7 +9,6 @@ records:
     name:
       zh: Lessnessina praecipuus
       en: Lessnessina praecipuus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

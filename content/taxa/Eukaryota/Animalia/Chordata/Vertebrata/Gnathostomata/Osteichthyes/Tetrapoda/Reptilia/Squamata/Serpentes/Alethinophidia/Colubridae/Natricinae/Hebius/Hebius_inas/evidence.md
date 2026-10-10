@@ -9,7 +9,6 @@ records:
     name:
       zh: Hebius inas
       en: Hebius inas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

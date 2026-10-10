@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax funereus
       zh: Scinax funereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

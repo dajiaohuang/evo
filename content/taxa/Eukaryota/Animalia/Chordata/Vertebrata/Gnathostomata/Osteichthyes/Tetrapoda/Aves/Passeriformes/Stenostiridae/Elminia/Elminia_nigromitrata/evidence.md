@@ -9,7 +9,6 @@ records:
     name:
       zh: Elminia nigromitrata
       en: Elminia nigromitrata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

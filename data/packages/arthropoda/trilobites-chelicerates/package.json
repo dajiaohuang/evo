@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "trilobites-chelicerates",
-  "version": "2026.09-static-v5-rc154",
+  "version": "2026.09-2026.10-static-v5-rc155",
   "title": "Trilobites and Chelicerates",
   "titleZh": "三叶虫与螯肢动物",
   "conceptScope": {
@@ -48,15 +48,11 @@
     "occurrences": "data/fossils/*.json",
     "profilesSource": "data/packages/arthropoda/trilobites-chelicerates/profiles.source.json"
   },
-  "platformMaturity": "published",
-  "scientificMaturity": "source-linked",
-  "automatedReviewStatus": "passed",
-  "reviewStatus": "not-reviewed",
   "limitations": [
     "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.",
     "Early-trilobite timing, agnostid affinity, stem-chelicerate branch order, xiphosuran systematics and arachnid monophyly are sampled topology or clock results; they are not directly observed origins or universal classifications.",
     "Named fossils and imaged anatomy are study-bounded occurrences. Formation or stage envelopes do not establish global FADs, LADs, uninterrupted lineages or direct ancestor–descendant sequences.",
     "Gill function, gut chemistry, predation, body-size scaling and terrestrial physiology are explicit functional or ecological inferences rather than direct measurements of extinct behaviour or performance.",
-    "COL26.8 routes exactly 104,126 strictly accepted species names through Chelicerata and Trilobita. That count is nomenclatural coverage, not dossier, fossil, morphology, translation, media or expert-review completeness."
+    "COL26.8 routes exactly 104,126 strictly accepted species names through Chelicerata and Trilobita. That count is nomenclatural coverage, not dossier, fossil, morphology, translation, media."
   ]
 }

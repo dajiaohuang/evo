@@ -9,7 +9,6 @@ records:
     name:
       zh: Miopetaurista gibberosa
       en: Miopetaurista gibberosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

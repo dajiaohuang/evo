@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena ansorgii
       zh: Ptychadena ansorgii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucodon ballaratensis
       en: Glaucodon ballaratensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

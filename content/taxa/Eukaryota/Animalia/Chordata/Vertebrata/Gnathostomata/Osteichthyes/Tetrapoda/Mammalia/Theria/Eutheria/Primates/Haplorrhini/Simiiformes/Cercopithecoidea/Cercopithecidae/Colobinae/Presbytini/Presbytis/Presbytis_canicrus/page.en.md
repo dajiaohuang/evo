@@ -22,5 +22,5 @@ The mineral springs provided opportunities for direct observations; the paper no
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The main field evidence comes from two Wehea mineral springs in 2011; the original paper used a pre-split name. This page has not received external expert review. This page is not externally expert-reviewed.
+The main field evidence comes from two Wehea mineral springs in 2011; the original paper used a pre-split name. This page. This page is.
 <!-- /evo:text -->

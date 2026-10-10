@@ -9,7 +9,6 @@ records:
     name:
       zh: Demansia flagellatio
       en: Demansia flagellatio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

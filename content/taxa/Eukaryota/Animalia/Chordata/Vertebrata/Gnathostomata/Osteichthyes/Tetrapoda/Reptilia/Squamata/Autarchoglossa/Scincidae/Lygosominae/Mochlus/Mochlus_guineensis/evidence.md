@@ -9,7 +9,6 @@ records:
     name:
       zh: Mochlus guineensis
       en: Mochlus guineensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

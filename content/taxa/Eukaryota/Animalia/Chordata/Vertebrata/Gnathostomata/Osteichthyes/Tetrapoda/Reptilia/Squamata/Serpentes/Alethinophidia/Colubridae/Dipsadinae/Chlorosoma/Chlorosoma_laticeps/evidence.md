@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorosoma laticeps
       en: Chlorosoma laticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

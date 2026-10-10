@@ -9,7 +9,6 @@ records:
     name:
       en: Neobatrachus wilsmorei
       zh: Neobatrachus wilsmorei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

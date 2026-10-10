@@ -9,7 +9,6 @@ records:
     name:
       zh: Coendou prehensilis
       en: Coendou prehensilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

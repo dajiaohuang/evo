@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus khlonglanensis
       en: Hemiphyllodactylus khlonglanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

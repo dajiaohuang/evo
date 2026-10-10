@@ -9,7 +9,6 @@ records:
     name:
       zh: Cardiodon rugulosus
       en: Cardiodon rugulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

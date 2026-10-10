@@ -9,7 +9,6 @@ records:
     name:
       en: Litoria coplandi
       zh: Litoria coplandi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

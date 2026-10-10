@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla carvalhoi
       zh: Bokermannohyla carvalhoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

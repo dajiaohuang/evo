@@ -9,7 +9,6 @@ records:
     name:
       zh: Hitonkala andersontau
       en: Hitonkala andersontau
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

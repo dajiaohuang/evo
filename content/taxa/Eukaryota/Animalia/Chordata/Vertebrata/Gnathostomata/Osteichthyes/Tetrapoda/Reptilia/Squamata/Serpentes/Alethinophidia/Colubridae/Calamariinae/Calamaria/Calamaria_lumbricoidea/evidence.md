@@ -9,7 +9,6 @@ records:
     name:
       zh: Calamaria lumbricoidea
       en: Calamaria lumbricoidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

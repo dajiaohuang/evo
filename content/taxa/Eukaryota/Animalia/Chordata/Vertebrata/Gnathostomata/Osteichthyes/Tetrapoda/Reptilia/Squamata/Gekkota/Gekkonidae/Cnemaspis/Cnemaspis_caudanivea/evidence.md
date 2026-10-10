@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis caudanivea
       en: Cnemaspis caudanivea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Primolius couloni
       en: Primolius couloni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

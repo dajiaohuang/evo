@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeonictis occidentalis
       en: Palaeonictis occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

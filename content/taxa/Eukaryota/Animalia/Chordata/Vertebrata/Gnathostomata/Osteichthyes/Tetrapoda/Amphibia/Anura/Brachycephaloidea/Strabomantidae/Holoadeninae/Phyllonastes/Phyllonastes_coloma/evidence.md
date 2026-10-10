@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllonastes coloma
       zh: Phyllonastes coloma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

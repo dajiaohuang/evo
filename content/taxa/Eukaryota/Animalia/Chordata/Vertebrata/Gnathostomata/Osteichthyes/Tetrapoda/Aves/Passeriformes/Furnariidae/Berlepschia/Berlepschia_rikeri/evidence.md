@@ -9,7 +9,6 @@ records:
     name:
       zh: Berlepschia rikeri
       en: Berlepschia rikeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

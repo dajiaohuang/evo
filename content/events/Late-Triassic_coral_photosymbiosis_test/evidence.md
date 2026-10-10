@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: frankowiak-2016-coral-symbiosis @ DOI 10.1126/sciadv.1601122
       referenceLinks:
         - referenceId: frankowiak-2016-coral-symbiosis
           relation: supports

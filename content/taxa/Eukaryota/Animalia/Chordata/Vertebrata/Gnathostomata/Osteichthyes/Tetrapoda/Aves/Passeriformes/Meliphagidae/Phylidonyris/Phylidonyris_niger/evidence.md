@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylidonyris niger
       en: Phylidonyris niger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

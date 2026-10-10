@@ -9,7 +9,6 @@ records:
     name:
       zh: Vanellus leucurus
       en: Vanellus leucurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

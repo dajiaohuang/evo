@@ -9,7 +9,6 @@ records:
     name:
       zh: Manis sindiensis
       en: Manis sindiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

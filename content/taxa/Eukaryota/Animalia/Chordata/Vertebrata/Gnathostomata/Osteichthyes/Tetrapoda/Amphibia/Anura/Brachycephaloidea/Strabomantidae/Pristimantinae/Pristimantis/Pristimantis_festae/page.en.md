@@ -373,7 +373,7 @@ Festae MZUTI4813 versus QCAZ11677 is 1.0%, and QCAZ17950 versus QCAZ11677 is 1.3
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial study-scoped biological reader. Remaining biological facets require further evidence. Not externally expert-reviewed.
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

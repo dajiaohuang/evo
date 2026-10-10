@@ -9,7 +9,6 @@ records:
     name:
       zh: Vespertiliavus lapradei
       en: Vespertiliavus lapradei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

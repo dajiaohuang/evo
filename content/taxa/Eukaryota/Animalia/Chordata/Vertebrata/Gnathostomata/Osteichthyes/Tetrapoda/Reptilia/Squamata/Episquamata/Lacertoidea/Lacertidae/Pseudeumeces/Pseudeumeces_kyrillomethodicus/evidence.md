@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudeumeces kyrillomethodicus
       en: Pseudeumeces kyrillomethodicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

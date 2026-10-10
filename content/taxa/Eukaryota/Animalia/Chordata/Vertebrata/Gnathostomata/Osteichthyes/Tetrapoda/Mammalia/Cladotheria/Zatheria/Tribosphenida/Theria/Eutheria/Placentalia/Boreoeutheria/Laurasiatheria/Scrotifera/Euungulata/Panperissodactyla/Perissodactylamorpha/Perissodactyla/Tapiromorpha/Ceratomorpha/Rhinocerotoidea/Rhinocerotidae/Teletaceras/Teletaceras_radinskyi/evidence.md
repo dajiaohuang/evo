@@ -9,7 +9,6 @@ records:
     name:
       zh: Teletaceras radinskyi
       en: Teletaceras radinskyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

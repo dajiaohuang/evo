@@ -9,7 +9,6 @@ records:
     name:
       zh: Exaeretodon argentinus
       en: Exaeretodon argentinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

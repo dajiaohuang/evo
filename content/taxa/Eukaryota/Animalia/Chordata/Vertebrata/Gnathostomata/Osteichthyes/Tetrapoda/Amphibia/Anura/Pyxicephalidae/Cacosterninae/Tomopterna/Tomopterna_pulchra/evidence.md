@@ -9,7 +9,6 @@ records:
     name:
       en: Tomopterna pulchra
       zh: Tomopterna pulchra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

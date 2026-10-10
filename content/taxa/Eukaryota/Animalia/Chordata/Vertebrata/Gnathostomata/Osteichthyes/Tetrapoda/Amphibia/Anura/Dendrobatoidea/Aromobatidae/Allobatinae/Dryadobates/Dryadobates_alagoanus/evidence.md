@@ -9,7 +9,6 @@ records:
     name:
       en: Dryadobates alagoanus
       zh: Dryadobates alagoanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vulpavoides cooperi
       en: Vulpavoides cooperi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

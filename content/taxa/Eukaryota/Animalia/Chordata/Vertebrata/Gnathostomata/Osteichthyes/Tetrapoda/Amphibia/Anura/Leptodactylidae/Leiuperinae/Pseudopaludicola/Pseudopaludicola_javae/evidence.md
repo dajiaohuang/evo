@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudopaludicola javae
       zh: Pseudopaludicola javae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

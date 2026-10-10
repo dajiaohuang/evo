@@ -9,7 +9,6 @@ records:
     name:
       en: Mini scule
       zh: Mini scule
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus langonei
       zh: Melanophryniscus langonei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys concavitympanum
       zh: Proceratophrys concavitympanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

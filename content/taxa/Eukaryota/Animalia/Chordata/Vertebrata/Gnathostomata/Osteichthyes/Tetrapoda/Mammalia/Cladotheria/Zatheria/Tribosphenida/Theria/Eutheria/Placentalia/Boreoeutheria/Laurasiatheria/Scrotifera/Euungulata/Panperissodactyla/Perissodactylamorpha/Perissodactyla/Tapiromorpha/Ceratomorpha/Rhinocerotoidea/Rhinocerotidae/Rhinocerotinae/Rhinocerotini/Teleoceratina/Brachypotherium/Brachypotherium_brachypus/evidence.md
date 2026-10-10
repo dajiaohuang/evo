@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachypotherium brachypus
       en: Brachypotherium brachypus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

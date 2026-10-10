@@ -9,7 +9,6 @@ records:
     name:
       zh: 何氏叶猴
       en: Hose's Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

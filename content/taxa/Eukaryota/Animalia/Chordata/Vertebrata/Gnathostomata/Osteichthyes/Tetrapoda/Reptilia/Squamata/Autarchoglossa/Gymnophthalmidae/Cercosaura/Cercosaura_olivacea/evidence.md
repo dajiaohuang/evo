@@ -9,7 +9,6 @@ records:
     name:
       zh: Cercosaura olivacea
       en: Cercosaura olivacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

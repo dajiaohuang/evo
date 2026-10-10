@@ -9,7 +9,6 @@ records:
     name:
       zh: Schizogalerix evae
       en: Schizogalerix evae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

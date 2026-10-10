@@ -28,5 +28,5 @@ The 28 animals are study observations, not a population estimate or a range-repr
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page centers on one comparative behavioural study. Observation counts are not abundance estimates, and the abstract does not partition every behavioural result by species. This page does not summarize range-wide distribution, a species-specific diet, current conservation status or long-term trend. The Chinese name is editorial; the page has not received external expert review. This page is not externally expert-reviewed.
+This page centers on one comparative behavioural study. Observation counts are not abundance estimates, and the abstract does not partition every behavioural result by species. This page does not summarize range-wide distribution, a species-specific diet, current conservation status or long-term trend. The Chinese name is editorial.
 <!-- /evo:text -->

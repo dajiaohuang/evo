@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella crucifer
       zh: Rhinella crucifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

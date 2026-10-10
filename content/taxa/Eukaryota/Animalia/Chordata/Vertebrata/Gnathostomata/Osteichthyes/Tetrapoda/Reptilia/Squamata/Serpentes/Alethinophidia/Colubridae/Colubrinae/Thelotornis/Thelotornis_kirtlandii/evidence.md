@@ -9,7 +9,6 @@ records:
     name:
       zh: Thelotornis kirtlandii
       en: Thelotornis kirtlandii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

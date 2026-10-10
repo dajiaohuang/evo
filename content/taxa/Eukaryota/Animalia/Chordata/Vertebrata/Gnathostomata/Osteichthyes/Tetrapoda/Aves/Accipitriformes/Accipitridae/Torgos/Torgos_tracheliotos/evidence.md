@@ -9,7 +9,6 @@ records:
     name:
       zh: Torgos tracheliotos
       en: Torgos tracheliotos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

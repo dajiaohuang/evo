@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumegamys paranensis
       en: Eumegamys paranensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

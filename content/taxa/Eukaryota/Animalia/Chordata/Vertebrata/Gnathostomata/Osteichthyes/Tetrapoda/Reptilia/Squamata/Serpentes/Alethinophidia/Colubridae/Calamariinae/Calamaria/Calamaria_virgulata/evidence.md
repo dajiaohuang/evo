@@ -9,7 +9,6 @@ records:
     name:
       zh: Calamaria virgulata
       en: Calamaria virgulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

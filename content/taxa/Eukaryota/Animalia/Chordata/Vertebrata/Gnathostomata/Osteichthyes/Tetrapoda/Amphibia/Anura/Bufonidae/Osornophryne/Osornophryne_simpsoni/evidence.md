@@ -9,7 +9,6 @@ records:
     name:
       en: Osornophryne simpsoni
       zh: Osornophryne simpsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Caloenas nicobarica
       en: Caloenas nicobarica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

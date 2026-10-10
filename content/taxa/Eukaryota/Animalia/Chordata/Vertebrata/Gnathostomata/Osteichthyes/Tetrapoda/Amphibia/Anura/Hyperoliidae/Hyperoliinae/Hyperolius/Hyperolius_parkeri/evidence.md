@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius parkeri
       zh: Hyperolius parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

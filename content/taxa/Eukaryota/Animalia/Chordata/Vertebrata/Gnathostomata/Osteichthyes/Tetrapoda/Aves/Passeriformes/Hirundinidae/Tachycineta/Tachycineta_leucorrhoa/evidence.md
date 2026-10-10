@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachycineta leucorrhoa
       en: Tachycineta leucorrhoa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

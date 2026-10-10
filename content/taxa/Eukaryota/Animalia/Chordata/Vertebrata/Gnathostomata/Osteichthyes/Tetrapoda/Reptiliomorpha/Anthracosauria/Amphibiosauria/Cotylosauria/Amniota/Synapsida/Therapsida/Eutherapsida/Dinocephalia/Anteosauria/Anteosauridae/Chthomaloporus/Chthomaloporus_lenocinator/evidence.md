@@ -9,7 +9,6 @@ records:
     name:
       zh: Chthomaloporus lenocinator
       en: Chthomaloporus lenocinator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

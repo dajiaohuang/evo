@@ -9,7 +9,6 @@ records:
     name:
       zh: Penemabuya antecessor
       en: Penemabuya antecessor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

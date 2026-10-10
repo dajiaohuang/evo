@@ -342,11 +342,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -363,11 +358,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/1/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: bryson-morrison-2017-bossou-habitat
           relation: supports
@@ -384,11 +374,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/2/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: bryson-morrison-2017-bossou-habitat
           relation: supports
@@ -407,11 +392,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/3/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -460,7 +440,6 @@ records:
       referenceLocators:
         - referenceId: col-2026-checklistbank-316115
           locator: COL26.8 release dataset 316115; accepted usage 4C92G (identity/classification only)
-      reviewStatus: automated-audit-passed
 ---
 
 # Pan troglodytes

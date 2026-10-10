@@ -7,12 +7,22 @@
     "baseHead": "cac8b494a7192e8c1a5050eb4a1552202cd97b9e",
     "mainIndexedRecordCount": 6901,
     "openPullRequests": [
-      {"number": 357, "head": "845b8c3db1d96bb34d3986bda668949ba2cfe9b2", "indexedRecordCount": 6907}
+      {
+        "number": 357,
+        "head": "845b8c3db1d96bb34d3986bda668949ba2cfe9b2",
+        "indexedRecordCount": 6907
+      }
     ],
-    "candidateColIds": ["3F8JD"],
-    "candidateNames": ["Gammarus pulex (Linnaeus, 1758)"],
+    "candidateColIds": [
+      "3F8JD"
+    ],
+    "candidateNames": [
+      "Gammarus pulex (Linnaeus, 1758)"
+    ],
     "matches": [],
-    "excludedColIds": ["6CCSV"],
+    "excludedColIds": [
+      "6CCSV"
+    ],
     "result": "Candidate 3F8JD was absent from every COL26.8 dossier shard indexed on origin/main and PR #357 head 845b8c3; the PR contains Crustacea usage 6CCSV, which was excluded. PR #357 was the only open pull request at audit time."
   },
   "records": [
@@ -26,7 +36,9 @@
       "identity": {
         "method": "Exact COL26.8 accepted species usage, including verbatim scientific name and authorship, rank, status, sourceDatasetId, and higher classification, verified against the pinned registry search record.",
         "scope": "Nominal species as represented by COL26.8 usage 3F8JD. The biological evidence below concerns one laboratory microcosm comparison and does not establish variation among wild populations or a complete species concept.",
-        "sourceIds": ["col"]
+        "sourceIds": [
+          "col"
+        ]
       },
       "lifeStatusScope": {
         "wild": "The selected paper identifies G. pulex as native in the U.K.; its laboratory microcosms do not measure wild population dynamics or field rates.",
@@ -73,14 +85,20 @@
         }
       ],
       "facets": {
-        "morphology": {"status": "not-assessed"},
-        "lifeHistory": {"status": "not-assessed"},
+        "morphology": {
+          "status": "not-assessed"
+        },
+        "lifeHistory": {
+          "status": "not-assessed"
+        },
         "ecology": {
           "status": "partially-supported",
           "claims": [
             {
               "text": "In laboratory microcosms, native Gammarus pulex processed leaf detritus faster than the two tested invasive Dikerogammarus species at the lower temperature treatments; the between-species differences decreased as the temperature treatments increased.",
-              "sourceIds": ["fincham2023"],
+              "sourceIds": [
+                "fincham2023"
+              ],
               "locator": "Abstract",
               "placeTimeScope": "Laboratory microcosms compared treatments at 8, 14, and 20 C using oak, sycamore, and alder leaf diets; paper published in 2023. These conditions describe the experiment and not the species' realized field ecology.",
               "lifeStatus": "Experimental animals in laboratory microcosms; the result is not generalized to wild population rates or to other environmental conditions.",
@@ -88,18 +106,31 @@
               "originalLanguage": "en"
             }
           ],
-          "gaps": ["The laboratory comparison does not establish field detrital processing, natural population dynamics, responses across the full environmental range, or variation among G. pulex populations."]
+          "gaps": [
+            "The laboratory comparison does not establish field detrital processing, natural population dynamics, responses across the full environmental range, or variation among G. pulex populations."
+          ]
         },
-        "evolution": {"status": "not-assessed"},
-        "distribution": {"status": "not-assessed"},
-        "fossil": {"status": "not-assessed"},
-        "conservation": {"status": "not-assessed"}
+        "evolution": {
+          "status": "not-assessed"
+        },
+        "distribution": {
+          "status": "not-assessed"
+        },
+        "fossil": {
+          "status": "not-assessed"
+        },
+        "conservation": {
+          "status": "not-assessed"
+        }
       },
       "completeness": {
         "status": "incomplete",
-        "reasons": ["Only one bounded laboratory comparison of detrital processing has been assessed; six facets remain not-assessed.", "The cited study is not a systematic review or complete account of the COL26.8 species concept.", "No independent expert review has been completed."]
-      },
-      "expertReview": {"status": "not-reviewed"}
+        "reasons": [
+          "Only one bounded laboratory comparison of detrital processing has been assessed; six facets remain not-assessed.",
+          "The cited study is not a systematic review or complete account of the COL26.8 species concept.",
+          ""
+        ]
+      }
     }
   ]
 }

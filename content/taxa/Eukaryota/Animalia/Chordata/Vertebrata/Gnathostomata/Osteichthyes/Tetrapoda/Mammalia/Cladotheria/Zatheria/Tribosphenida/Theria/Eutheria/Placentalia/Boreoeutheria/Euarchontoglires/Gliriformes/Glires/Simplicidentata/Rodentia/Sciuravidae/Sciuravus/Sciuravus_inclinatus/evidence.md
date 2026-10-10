@@ -9,7 +9,6 @@ records:
     name:
       zh: Sciuravus inclinatus
       en: Sciuravus inclinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

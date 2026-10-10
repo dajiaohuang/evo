@@ -9,7 +9,6 @@ records:
     name:
       zh: Dacelo gaudichaud
       en: Dacelo gaudichaud
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

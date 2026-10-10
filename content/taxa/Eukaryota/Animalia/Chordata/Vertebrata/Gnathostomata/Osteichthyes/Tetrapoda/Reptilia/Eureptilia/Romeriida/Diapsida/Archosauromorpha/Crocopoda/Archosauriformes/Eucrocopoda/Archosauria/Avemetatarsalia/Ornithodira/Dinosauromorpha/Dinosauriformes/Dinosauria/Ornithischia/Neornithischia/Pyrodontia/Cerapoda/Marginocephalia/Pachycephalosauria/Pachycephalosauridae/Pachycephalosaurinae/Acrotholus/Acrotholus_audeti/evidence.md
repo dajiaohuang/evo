@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrotholus audeti
       en: Acrotholus audeti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

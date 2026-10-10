@@ -192,10 +192,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
   catalogue-profile:
     scientificName: Staurois parvus Inger & Haile, 1959
     rank: species
@@ -203,7 +199,6 @@ records:
     name:
       en: Staurois parvus
       zh: Staurois parvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -1256,12 +1251,6 @@ Larval chondrocranial morphology is represented by one developmental series from
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The series does not establish variation among wild populations or the taxonomic diagnostic value of the observed feature; broader literature coverage remains incomplete.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / title

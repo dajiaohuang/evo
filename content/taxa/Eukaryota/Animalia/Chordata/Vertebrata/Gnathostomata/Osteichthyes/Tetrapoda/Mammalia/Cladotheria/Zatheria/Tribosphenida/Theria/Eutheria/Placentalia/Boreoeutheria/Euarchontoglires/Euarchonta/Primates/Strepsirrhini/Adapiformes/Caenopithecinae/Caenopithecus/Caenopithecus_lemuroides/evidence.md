@@ -9,7 +9,6 @@ records:
     name:
       zh: Caenopithecus lemuroides
       en: Caenopithecus lemuroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Smilisca dentata
       zh: Smilisca dentata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

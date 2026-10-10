@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinophis homolepis
       en: Rhinophis homolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

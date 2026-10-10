@@ -9,7 +9,6 @@ records:
     name:
       zh: Qufutitan zhoui
       en: Qufutitan zhoui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Labes quintanillensis
       en: Labes quintanillensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

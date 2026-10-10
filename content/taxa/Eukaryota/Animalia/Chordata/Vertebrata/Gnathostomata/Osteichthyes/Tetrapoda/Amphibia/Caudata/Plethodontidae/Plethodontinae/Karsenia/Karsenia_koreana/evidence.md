@@ -9,7 +9,6 @@ records:
     name:
       en: Karsenia koreana
       zh: Karsenia koreana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

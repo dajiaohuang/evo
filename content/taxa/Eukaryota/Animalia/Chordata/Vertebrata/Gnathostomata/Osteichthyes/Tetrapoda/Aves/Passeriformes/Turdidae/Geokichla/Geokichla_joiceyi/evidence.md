@@ -9,7 +9,6 @@ records:
     name:
       zh: Geokichla joiceyi
       en: Geokichla joiceyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

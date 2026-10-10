@@ -9,7 +9,6 @@ records:
     name:
       zh: Ninamys kazimierzi
       en: Ninamys kazimierzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

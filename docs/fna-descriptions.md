@@ -21,7 +21,7 @@ this does not prove biological truncation. No selected row reaches the observed
 
 Full Web loads hash-partitioned gzip shards on demand with details collapsed.
 Pages preview excludes this collection. Historical regional descriptions are not
-modern global range assessments, complete dossiers or expert review. Identifier
+modern global range assessments, complete dossiers. Identifier
 links do not prove identical taxonomic concepts across dates. Web checks do not
 certify native delivery.
 

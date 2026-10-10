@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilonorhynchus violaceus
       en: Ptilonorhynchus violaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

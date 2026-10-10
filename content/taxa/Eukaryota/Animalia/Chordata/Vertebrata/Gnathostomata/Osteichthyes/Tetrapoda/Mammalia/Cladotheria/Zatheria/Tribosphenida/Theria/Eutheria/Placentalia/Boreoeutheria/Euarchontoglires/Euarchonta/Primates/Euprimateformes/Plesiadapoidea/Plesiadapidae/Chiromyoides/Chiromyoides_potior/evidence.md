@@ -9,7 +9,6 @@ records:
     name:
       zh: Chiromyoides potior
       en: Chiromyoides potior
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

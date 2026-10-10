@@ -9,7 +9,6 @@ records:
     name:
       zh: Neosteiromys pattoni
       en: Neosteiromys pattoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

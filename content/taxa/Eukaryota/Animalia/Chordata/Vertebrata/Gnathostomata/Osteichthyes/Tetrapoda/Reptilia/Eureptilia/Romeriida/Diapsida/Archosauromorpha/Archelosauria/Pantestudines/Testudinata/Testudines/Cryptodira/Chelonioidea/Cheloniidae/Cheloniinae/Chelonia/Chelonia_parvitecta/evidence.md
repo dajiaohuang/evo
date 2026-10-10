@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelonia parvitecta
       en: Chelonia parvitecta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

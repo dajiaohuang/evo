@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko brooksii
       en: Gekko brooksii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

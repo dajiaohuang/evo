@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax dolloi
       zh: Scinax dolloi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

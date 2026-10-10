@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes separatus
       zh: Limnonectes separatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

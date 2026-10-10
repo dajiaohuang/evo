@@ -9,7 +9,6 @@ records:
     name:
       zh: Laomaki yunnanensis
       en: Laomaki yunnanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

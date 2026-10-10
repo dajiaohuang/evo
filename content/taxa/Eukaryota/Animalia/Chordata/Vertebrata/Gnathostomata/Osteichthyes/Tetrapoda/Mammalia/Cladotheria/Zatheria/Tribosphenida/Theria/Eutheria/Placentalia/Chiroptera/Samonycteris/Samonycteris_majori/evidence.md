@@ -9,7 +9,6 @@ records:
     name:
       zh: Samonycteris majori
       en: Samonycteris majori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

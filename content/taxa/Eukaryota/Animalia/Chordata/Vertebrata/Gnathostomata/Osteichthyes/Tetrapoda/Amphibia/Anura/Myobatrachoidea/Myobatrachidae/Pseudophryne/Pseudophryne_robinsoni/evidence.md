@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophryne robinsoni
       zh: Pseudophryne robinsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

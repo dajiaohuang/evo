@@ -9,7 +9,6 @@ records:
     name:
       zh: Colymbus (Dytes) oligocaenus
       en: Colymbus (Dytes) oligocaenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon capucinus
       en: Lycodon capucinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

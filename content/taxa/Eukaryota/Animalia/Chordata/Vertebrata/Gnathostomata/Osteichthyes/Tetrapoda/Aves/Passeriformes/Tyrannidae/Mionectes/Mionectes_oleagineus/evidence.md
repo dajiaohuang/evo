@@ -9,7 +9,6 @@ records:
     name:
       zh: Mionectes oleagineus
       en: Mionectes oleagineus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trogonophis wiegmanni
       en: Trogonophis wiegmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

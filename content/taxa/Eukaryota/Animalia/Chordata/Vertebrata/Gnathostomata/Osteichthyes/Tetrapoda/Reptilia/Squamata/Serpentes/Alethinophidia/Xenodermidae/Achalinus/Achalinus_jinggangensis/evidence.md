@@ -9,7 +9,6 @@ records:
     name:
       zh: Achalinus jinggangensis
       en: Achalinus jinggangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

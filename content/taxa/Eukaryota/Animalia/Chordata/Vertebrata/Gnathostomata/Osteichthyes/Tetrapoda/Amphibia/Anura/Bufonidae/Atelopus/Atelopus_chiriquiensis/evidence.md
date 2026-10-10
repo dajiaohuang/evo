@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus chiriquiensis
       zh: Atelopus chiriquiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

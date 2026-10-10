@@ -9,7 +9,6 @@ records:
     name:
       zh: Carollia sowelli
       en: Carollia sowelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

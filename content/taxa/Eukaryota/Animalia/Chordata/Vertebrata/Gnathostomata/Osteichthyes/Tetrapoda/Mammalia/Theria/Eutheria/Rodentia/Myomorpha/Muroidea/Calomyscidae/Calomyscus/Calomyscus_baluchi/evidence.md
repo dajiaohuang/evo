@@ -9,7 +9,6 @@ records:
     name:
       zh: Calomyscus baluchi
       en: Calomyscus baluchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

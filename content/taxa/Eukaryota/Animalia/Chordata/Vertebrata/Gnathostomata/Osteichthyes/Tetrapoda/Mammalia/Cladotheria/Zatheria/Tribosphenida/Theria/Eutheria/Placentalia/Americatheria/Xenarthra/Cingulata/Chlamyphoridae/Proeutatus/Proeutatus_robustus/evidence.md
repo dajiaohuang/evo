@@ -9,7 +9,6 @@ records:
     name:
       zh: Proeutatus robustus
       en: Proeutatus robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

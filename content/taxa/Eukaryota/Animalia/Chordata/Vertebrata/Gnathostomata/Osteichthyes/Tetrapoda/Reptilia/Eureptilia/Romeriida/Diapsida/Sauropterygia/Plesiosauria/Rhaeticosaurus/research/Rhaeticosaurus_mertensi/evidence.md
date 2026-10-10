@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: wintrich-2017-rhaeticosaurus concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: wintrich-2017-rhaeticosaurus
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: wintrich-2017-rhaeticosaurus concrete-locator audit at 2026.09-static-v5-rc83
       referenceLinks:
         - referenceId: wintrich-2017-rhaeticosaurus
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: wintrich-2017-rhaeticosaurus concrete-locator audit at 2026.09-static-v5-rc83
       referenceLinks:
         - referenceId: wintrich-2017-rhaeticosaurus
           relation: supports
@@ -123,9 +114,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: wintrich-2017-rhaeticosaurus concrete-locator audit at 2026.09-static-v5-rc83
       referenceLinks:
         - referenceId: wintrich-2017-rhaeticosaurus
           relation: supports
@@ -144,9 +132,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: wintrich-2017-rhaeticosaurus concrete-locator audit at 2026.09-static-v5-rc83
       referenceLinks:
         - referenceId: wintrich-2017-rhaeticosaurus
           relation: supports
@@ -199,7 +184,6 @@ records:
       referenceLocators:
         - referenceId: wintrich-2017-rhaeticosaurus
           locator: Figure 1; Geological setting; Supplementary Figure S1
-      reviewStatus: automated-audit-passed
 ---
 
 # Rhaeticosaurus mertensi

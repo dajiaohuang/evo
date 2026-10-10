@@ -9,7 +9,6 @@ records:
     name:
       zh: Megascops koepckeae
       en: Megascops koepckeae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

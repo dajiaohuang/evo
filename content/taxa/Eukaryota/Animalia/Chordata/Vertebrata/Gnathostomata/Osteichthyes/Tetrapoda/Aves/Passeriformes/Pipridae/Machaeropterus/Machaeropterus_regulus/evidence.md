@@ -9,7 +9,6 @@ records:
     name:
       zh: Machaeropterus regulus
       en: Machaeropterus regulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

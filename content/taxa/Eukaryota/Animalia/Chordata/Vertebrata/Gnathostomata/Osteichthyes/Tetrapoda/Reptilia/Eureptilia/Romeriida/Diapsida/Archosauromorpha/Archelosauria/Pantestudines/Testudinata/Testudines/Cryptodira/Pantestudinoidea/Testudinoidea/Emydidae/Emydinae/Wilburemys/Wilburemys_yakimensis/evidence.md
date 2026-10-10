@@ -9,7 +9,6 @@ records:
     name:
       zh: Wilburemys yakimensis
       en: Wilburemys yakimensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

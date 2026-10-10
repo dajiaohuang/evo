@@ -9,7 +9,6 @@ records:
     name:
       zh: Blasisaurus canudoi
       en: Blasisaurus canudoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

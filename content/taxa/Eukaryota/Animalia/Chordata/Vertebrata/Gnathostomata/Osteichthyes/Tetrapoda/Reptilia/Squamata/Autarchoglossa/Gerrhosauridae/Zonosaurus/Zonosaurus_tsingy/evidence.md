@@ -9,7 +9,6 @@ records:
     name:
       zh: Zonosaurus tsingy
       en: Zonosaurus tsingy
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

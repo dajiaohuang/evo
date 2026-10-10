@@ -9,7 +9,6 @@ records:
     name:
       zh: Dioplotherium allisoni
       en: Dioplotherium allisoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

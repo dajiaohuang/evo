@@ -9,7 +9,6 @@ records:
     name:
       zh: Choloepus hoffmanni
       en: Choloepus hoffmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 中非树熊猴
       en: Central African Potto
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

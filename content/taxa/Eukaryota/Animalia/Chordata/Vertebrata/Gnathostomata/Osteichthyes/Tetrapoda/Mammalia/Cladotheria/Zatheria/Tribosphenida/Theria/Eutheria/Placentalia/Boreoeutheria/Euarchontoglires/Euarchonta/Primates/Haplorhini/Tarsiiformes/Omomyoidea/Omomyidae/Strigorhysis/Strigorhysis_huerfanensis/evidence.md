@@ -9,7 +9,6 @@ records:
     name:
       zh: Strigorhysis huerfanensis
       en: Strigorhysis huerfanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

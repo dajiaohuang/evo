@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhadiodromus mariae
       en: Rhadiodromus mariae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

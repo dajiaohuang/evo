@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapirus (Helicotapirus) haysii
       en: Tapirus (Helicotapirus) haysii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

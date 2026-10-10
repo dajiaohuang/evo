@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus asenlignus
       en: Stenocercus asenlignus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

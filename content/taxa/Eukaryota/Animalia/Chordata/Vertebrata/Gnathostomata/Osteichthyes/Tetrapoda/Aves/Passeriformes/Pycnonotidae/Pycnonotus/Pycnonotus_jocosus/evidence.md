@@ -9,7 +9,6 @@ records:
     name:
       zh: Pycnonotus jocosus
       en: Pycnonotus jocosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

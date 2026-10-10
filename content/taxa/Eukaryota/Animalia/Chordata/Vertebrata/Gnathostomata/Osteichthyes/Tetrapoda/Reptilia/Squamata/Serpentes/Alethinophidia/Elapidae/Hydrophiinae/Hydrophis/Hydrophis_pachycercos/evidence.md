@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrophis pachycercos
       en: Hydrophis pachycercos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

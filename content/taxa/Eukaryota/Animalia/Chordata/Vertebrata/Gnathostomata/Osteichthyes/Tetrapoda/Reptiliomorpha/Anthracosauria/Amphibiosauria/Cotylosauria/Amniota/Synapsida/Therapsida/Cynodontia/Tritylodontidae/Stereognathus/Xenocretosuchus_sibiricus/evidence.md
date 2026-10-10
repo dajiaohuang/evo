@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenocretosuchus sibiricus
       en: Xenocretosuchus sibiricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

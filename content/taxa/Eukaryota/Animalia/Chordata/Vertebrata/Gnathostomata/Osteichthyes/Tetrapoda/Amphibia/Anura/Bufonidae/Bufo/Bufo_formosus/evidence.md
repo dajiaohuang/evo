@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo formosus
       zh: Bufo formosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

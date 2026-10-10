@@ -9,7 +9,6 @@ records:
     name:
       zh: Zimmerius albigularis
       en: Zimmerius albigularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Platyplectrum ornatum
       zh: Platyplectrum ornatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

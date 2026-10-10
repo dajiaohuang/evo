@@ -9,7 +9,6 @@ records:
     name:
       zh: Pternistis capensis
       en: Pternistis capensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

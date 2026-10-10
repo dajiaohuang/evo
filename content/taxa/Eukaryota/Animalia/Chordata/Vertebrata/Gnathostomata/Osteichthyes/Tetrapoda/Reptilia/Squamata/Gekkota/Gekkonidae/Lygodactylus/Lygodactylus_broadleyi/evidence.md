@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus broadleyi
       en: Lygodactylus broadleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

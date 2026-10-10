@@ -9,7 +9,6 @@ records:
     name:
       zh: Apsisaurus witteri
       en: Apsisaurus witteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

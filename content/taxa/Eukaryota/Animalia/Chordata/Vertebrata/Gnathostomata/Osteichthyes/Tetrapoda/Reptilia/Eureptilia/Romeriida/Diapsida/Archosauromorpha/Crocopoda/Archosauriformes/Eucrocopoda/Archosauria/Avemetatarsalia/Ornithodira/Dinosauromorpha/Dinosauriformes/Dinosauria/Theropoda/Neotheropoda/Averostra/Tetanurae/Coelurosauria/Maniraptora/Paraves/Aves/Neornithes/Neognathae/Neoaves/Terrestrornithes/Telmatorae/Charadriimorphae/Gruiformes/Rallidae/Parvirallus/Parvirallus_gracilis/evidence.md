@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvirallus gracilis
       en: Parvirallus gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

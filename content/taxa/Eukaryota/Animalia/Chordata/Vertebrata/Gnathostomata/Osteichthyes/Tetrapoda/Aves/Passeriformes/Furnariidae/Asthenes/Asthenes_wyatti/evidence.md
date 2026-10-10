@@ -9,7 +9,6 @@ records:
     name:
       zh: Asthenes wyatti
       en: Asthenes wyatti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

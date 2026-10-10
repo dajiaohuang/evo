@@ -9,7 +9,6 @@ records:
     name:
       zh: Praeteropus gowi
       en: Praeteropus gowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

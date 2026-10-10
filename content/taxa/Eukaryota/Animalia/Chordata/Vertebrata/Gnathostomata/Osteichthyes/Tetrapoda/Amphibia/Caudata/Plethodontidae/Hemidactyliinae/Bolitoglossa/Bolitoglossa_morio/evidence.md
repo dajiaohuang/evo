@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa morio
       zh: Bolitoglossa morio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

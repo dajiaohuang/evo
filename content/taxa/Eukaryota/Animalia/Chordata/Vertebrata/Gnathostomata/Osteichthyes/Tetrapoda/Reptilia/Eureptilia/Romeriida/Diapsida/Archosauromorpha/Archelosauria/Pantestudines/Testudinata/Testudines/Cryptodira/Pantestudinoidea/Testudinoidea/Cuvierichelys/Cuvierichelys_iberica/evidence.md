@@ -9,7 +9,6 @@ records:
     name:
       zh: Cuvierichelys iberica
       en: Cuvierichelys iberica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

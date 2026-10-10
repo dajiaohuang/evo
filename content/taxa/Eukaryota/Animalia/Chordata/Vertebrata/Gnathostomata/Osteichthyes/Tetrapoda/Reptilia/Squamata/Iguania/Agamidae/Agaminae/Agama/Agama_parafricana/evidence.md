@@ -9,7 +9,6 @@ records:
     name:
       zh: Agama parafricana
       en: Agama parafricana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

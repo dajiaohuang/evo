@@ -40,5 +40,5 @@ Migration=2 is partially migratory: the definition can include a minority moving
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page interprets historical species averages and coarse ecology in AVONET v7. Selected rows, field definitions and name crosswalks were read; individual raw measurements, Dunning’s original book, independent field behaviour and expert review were not. Morphology counts are not mass-literature sample sizes, and Inference=NO does not establish concept identity with COL26.8. Plumage identification, breeding, lifespan, current range and conservation status remain unsupplied; this is not a complete monograph.
+This page interprets historical species averages and coarse ecology in AVONET v7. Selected rows, field definitions and name crosswalks were read; individual raw measurements, Dunning’s original book, independent field behaviour were not. Morphology counts are not mass-literature sample sizes, and Inference=NO does not establish concept identity with COL26.8. Plumage identification, breeding, lifespan, current range and conservation status remain unsupplied; this is not a complete monograph.
 <!-- /evo:text -->

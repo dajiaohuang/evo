@@ -106,9 +106,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Liu, Rubidge and Li 2009 DOI 10.4202/app.2008.0071
       referenceLinks:
         - referenceId: liu-2009-raranimus
           relation: supports

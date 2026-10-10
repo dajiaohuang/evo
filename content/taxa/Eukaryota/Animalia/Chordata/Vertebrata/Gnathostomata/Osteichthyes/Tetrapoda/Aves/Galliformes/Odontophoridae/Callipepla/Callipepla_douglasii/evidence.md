@@ -9,7 +9,6 @@ records:
     name:
       zh: Callipepla douglasii
       en: Callipepla douglasii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

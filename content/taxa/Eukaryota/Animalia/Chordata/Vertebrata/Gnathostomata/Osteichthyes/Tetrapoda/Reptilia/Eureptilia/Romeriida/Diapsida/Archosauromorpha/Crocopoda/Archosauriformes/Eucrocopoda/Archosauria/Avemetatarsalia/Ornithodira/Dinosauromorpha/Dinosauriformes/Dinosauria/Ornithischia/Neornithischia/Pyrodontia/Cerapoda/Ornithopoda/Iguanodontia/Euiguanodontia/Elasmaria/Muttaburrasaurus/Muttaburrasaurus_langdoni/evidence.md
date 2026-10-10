@@ -9,7 +9,6 @@ records:
     name:
       zh: Muttaburrasaurus langdoni
       en: Muttaburrasaurus langdoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

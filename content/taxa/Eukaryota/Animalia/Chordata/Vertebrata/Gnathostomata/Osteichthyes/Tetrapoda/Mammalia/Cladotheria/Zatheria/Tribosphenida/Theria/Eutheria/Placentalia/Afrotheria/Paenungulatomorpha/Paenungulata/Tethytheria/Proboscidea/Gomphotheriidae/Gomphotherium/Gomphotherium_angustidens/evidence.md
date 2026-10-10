@@ -9,7 +9,6 @@ records:
     name:
       zh: Gomphotherium angustidens
       en: Gomphotherium angustidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

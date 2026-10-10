@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemithlaeus kowalevskianus
       en: Hemithlaeus kowalevskianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

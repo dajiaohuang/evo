@@ -9,7 +9,6 @@ records:
     name:
       zh: Peiropemys mezzalirai
       en: Peiropemys mezzalirai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

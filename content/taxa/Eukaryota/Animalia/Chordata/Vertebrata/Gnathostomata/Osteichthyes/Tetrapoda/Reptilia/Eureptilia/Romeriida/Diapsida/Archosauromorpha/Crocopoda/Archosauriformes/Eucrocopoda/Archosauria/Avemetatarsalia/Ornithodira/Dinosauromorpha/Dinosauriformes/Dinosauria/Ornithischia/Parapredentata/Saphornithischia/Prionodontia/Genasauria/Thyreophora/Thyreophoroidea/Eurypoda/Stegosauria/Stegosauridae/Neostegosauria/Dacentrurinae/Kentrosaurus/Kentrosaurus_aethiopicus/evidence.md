@@ -9,7 +9,6 @@ records:
     name:
       zh: Kentrosaurus aethiopicus
       en: Kentrosaurus aethiopicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

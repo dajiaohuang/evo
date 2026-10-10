@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacricetodon andrewsi
       en: Megacricetodon andrewsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hylophorbus myopicus
       zh: Hylophorbus myopicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

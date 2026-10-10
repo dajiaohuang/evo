@@ -9,7 +9,6 @@ records:
     name:
       zh: Aeronautes andecolus
       en: Aeronautes andecolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

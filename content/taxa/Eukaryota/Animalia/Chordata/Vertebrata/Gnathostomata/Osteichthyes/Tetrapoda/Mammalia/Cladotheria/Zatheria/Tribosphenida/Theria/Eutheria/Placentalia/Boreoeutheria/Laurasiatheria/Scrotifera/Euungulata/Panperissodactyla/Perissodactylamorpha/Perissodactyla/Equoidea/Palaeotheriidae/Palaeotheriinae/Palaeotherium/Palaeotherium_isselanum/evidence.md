@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeotherium isselanum
       en: Palaeotherium isselanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

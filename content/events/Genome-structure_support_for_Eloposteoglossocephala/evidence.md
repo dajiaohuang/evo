@@ -107,9 +107,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Parey et al. 2023 DOI 10.1126/science.abq4257; INRAE dataset DOI 10.15454/GWL0GP
       referenceLinks:
         - relation: supports
           referenceId: parey-2023-teleost-genome-structures

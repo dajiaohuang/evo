@@ -10,7 +10,6 @@ records:
     name:
       en: Pig-tailed langur genus
       zh: 豚尾叶猴属
-    reviewStatus: source-linked
     sections:
       - topic: readingPath
         text:

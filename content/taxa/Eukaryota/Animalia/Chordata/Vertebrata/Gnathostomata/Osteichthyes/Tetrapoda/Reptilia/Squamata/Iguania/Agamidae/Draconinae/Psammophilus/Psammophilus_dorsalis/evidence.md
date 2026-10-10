@@ -9,7 +9,6 @@ records:
     name:
       zh: Psammophilus dorsalis
       en: Psammophilus dorsalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

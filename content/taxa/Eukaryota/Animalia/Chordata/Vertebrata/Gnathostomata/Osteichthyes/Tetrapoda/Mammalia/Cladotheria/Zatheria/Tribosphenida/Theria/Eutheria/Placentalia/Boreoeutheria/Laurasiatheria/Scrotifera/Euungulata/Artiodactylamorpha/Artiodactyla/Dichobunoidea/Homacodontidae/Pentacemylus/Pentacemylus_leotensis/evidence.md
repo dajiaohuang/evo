@@ -9,7 +9,6 @@ records:
     name:
       zh: Pentacemylus leotensis
       en: Pentacemylus leotensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

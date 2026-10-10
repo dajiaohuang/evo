@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoxyrhopus quinquelineatus
       en: Pseudoxyrhopus quinquelineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

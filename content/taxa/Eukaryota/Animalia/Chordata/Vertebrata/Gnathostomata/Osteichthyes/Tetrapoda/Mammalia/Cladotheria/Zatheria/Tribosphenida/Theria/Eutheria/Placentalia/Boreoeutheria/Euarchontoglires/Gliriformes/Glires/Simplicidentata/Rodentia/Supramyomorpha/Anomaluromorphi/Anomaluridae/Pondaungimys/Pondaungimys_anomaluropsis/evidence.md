@@ -9,7 +9,6 @@ records:
     name:
       zh: Pondaungimys anomaluropsis
       en: Pondaungimys anomaluropsis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Carlia munda
       en: Carlia munda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

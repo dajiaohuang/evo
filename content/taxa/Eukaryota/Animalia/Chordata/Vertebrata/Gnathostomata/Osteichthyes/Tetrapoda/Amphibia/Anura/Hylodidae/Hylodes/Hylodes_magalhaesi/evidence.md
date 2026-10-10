@@ -9,7 +9,6 @@ records:
     name:
       en: Hylodes magalhaesi
       zh: Hylodes magalhaesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

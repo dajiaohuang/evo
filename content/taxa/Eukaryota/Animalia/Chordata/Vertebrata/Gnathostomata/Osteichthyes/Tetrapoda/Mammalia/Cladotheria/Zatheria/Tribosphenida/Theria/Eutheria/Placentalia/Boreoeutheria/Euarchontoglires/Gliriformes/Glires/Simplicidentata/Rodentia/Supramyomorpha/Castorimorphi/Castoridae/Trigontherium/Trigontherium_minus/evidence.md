@@ -9,7 +9,6 @@ records:
     name:
       zh: Trigontherium minus
       en: Trigontherium minus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

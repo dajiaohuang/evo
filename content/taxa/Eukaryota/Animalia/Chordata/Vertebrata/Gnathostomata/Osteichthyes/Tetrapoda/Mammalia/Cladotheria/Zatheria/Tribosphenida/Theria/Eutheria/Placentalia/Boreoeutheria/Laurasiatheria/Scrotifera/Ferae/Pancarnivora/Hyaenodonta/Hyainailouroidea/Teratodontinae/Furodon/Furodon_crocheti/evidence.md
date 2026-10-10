@@ -9,7 +9,6 @@ records:
     name:
       zh: Furodon crocheti
       en: Furodon crocheti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

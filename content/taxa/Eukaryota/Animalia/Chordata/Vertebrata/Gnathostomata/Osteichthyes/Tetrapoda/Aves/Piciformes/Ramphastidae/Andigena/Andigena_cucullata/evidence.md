@@ -9,7 +9,6 @@ records:
     name:
       zh: Andigena cucullata
       en: Andigena cucullata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

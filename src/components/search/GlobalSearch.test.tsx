@@ -8,7 +8,7 @@ import type { RuntimeSearchEntry } from '../../data-client/types'
 vi.mock('../../data-client/staticDataClient', () => ({ searchCatalogue: vi.fn(), searchStaticData: vi.fn() }))
 vi.mock('../../data-client/backendClient', () => ({ isBackendConfigured: vi.fn(), loadBackendCapabilities: vi.fn(), searchBackendNames: vi.fn() }))
 vi.mock('../../i18n', () => ({ useI18n: () => ({ language: 'en', t: (value: string, params?: { count?: number }) => value.replace('{count}', String(params?.count)) }) }))
-vi.mock('../../services/publication', () => ({ getPackagePublication: () => null, scientificMaturityLabel: (value: string) => value }))
+vi.mock('../../services/publication', () => ({ getPackagePublication: () => null }))
 vi.mock('../../config/pagesPreview', () => ({ isPagesPreview: false, isPreviewRouteLocked: () => false }))
 
 const horse: RuntimeSearchEntry = { id: 'horse', kind: 'profile', title: 'Horse evidence', route: '#/explore?taxon=equus', terms: ['horse'] }

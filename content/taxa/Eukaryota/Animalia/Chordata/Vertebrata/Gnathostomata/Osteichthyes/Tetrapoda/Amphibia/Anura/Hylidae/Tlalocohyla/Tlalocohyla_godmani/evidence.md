@@ -9,7 +9,6 @@ records:
     name:
       en: Tlalocohyla godmani
       zh: Tlalocohyla godmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca testudinea
       zh: Gastrotheca testudinea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

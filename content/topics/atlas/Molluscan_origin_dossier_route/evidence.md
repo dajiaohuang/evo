@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: fedonkin-waggoner-1997-kimberella; conway-morris-caron-2007-orthrozanclus
       referenceLinks:
         - referenceId: fedonkin-waggoner-1997-kimberella
           relation: supports
@@ -69,7 +66,6 @@ records:
       referenceLocators:
         - referenceId: fedonkin-waggoner-1997-kimberella
           locator: 868–871; White Sea Kimberella sample; Figures 1–3; separate local specimen evidence only
-      reviewStatus: automated-audit-passed
 ---
 
 # Molluscan origin dossier route

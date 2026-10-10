@@ -9,7 +9,6 @@ records:
     name:
       zh: Hippocamelus
       en: Hippocamelus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

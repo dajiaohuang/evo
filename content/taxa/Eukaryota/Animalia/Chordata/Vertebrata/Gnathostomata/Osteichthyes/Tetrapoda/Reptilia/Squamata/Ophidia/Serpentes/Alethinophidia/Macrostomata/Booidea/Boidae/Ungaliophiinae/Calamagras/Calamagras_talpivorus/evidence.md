@@ -9,7 +9,6 @@ records:
     name:
       zh: Calamagras talpivorus
       en: Calamagras talpivorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmelastes humaythae
       en: Myrmelastes humaythae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

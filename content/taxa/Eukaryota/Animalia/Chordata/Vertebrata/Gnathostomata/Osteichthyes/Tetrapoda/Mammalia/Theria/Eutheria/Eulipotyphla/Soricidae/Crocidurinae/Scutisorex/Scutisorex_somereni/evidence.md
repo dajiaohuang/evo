@@ -9,7 +9,6 @@ records:
     name:
       zh: Scutisorex somereni
       en: Scutisorex somereni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

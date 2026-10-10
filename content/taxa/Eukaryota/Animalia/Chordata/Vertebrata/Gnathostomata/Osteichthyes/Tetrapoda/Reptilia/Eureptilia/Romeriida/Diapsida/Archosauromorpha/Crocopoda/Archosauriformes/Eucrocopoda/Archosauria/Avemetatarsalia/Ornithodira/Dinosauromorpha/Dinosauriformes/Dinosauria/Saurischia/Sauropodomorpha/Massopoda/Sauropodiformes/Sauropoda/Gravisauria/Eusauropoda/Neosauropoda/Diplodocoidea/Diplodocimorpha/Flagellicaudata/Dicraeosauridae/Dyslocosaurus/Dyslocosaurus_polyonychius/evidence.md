@@ -9,7 +9,6 @@ records:
     name:
       zh: Dyslocosaurus polyonychius
       en: Dyslocosaurus polyonychius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

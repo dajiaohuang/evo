@@ -9,7 +9,6 @@ records:
     name:
       zh: Spatula smithii
       en: Spatula smithii
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

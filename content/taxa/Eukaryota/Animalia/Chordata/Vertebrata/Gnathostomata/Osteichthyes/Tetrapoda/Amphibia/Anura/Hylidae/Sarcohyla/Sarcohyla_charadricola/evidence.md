@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla charadricola
       zh: Sarcohyla charadricola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Megastus elongatus
       en: Megastus elongatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

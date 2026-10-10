@@ -9,7 +9,6 @@ records:
     name:
       zh: Laniocera hypopyrra
       en: Laniocera hypopyrra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

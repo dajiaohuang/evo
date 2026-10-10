@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus tritaeniatus
       zh: Dendropsophus tritaeniatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

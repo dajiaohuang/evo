@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis dorsopictus
       zh: Pristimantis dorsopictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

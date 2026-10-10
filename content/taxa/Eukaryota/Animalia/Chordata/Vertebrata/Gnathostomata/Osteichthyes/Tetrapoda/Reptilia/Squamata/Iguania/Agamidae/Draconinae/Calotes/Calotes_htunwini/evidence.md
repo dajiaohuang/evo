@@ -9,7 +9,6 @@ records:
     name:
       zh: Calotes htunwini
       en: Calotes htunwini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

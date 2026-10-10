@@ -36,4 +36,4 @@ requirements.
 Names, authorship, source IDs, original fields, reference records and member
 row locators are preserved, including empty fields and missing references.
 This is frozen nomenclatural/source provenance, not species-concept equivalence,
-a biological dossier, fossil evidence or expert review.
+a biological dossier, fossil evidence.

@@ -9,7 +9,6 @@ records:
     name:
       zh: Platysteira castanea
       en: Platysteira castanea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

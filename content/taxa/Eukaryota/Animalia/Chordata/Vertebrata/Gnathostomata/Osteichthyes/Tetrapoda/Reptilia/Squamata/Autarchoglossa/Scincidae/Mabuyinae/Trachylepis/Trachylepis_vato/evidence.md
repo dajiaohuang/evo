@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis vato
       en: Trachylepis vato
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

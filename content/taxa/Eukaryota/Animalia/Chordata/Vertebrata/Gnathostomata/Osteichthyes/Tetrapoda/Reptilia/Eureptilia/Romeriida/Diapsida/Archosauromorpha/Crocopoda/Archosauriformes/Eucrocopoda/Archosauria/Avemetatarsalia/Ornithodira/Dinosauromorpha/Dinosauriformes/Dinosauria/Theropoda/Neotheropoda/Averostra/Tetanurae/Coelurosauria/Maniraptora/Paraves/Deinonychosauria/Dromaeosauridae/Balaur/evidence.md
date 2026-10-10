@@ -9,7 +9,6 @@ records:
     name:
       zh: Balaur
       en: Balaur
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: readingPath

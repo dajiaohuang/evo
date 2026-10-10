@@ -9,7 +9,6 @@ records:
     name:
       zh: Cymbalophus cuniculus
       en: Cymbalophus cuniculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

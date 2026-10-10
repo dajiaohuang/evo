@@ -9,7 +9,6 @@ records:
     name:
       zh: Umbogaulus galushai
       en: Umbogaulus galushai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

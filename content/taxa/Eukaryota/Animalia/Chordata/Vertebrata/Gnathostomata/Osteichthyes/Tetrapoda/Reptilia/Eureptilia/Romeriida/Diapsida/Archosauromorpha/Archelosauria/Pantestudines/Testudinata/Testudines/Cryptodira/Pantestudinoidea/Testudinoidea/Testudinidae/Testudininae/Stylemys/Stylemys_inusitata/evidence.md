@@ -9,7 +9,6 @@ records:
     name:
       zh: Stylemys inusitata
       en: Stylemys inusitata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

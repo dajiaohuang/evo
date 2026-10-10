@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothoprocta perdicaria
       en: Nothoprocta perdicaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: genomeMaterial

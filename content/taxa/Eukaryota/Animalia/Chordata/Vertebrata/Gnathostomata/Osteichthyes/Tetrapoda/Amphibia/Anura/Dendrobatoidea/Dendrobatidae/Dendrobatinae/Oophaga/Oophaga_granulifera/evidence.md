@@ -9,7 +9,6 @@ records:
     name:
       en: Oophaga granulifera
       zh: Oophaga granulifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Equus (Amerhippus) martinei
       en: Equus (Amerhippus) martinei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

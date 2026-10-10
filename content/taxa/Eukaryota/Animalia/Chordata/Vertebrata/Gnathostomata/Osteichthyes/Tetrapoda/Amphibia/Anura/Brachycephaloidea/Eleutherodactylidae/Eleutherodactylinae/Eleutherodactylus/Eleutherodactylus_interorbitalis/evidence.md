@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus interorbitalis
       zh: Eleutherodactylus interorbitalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

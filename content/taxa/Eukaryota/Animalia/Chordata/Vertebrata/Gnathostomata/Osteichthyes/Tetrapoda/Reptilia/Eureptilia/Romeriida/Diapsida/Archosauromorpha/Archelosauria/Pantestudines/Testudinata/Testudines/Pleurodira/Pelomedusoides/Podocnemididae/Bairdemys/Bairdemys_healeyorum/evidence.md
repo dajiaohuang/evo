@@ -9,7 +9,6 @@ records:
     name:
       zh: Bairdemys healeyorum
       en: Bairdemys healeyorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

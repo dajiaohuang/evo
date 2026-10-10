@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrochoerus ballesterensis
       en: Hydrochoerus ballesterensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

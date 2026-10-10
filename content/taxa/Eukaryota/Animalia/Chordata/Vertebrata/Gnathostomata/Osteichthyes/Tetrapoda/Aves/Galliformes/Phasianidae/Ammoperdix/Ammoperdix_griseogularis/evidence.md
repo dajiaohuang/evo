@@ -9,7 +9,6 @@ records:
     name:
       zh: Ammoperdix griseogularis
       en: Ammoperdix griseogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myophonus horsfieldii
       en: Myophonus horsfieldii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

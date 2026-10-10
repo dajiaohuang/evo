@@ -9,7 +9,6 @@ records:
     name:
       zh: Downsimus rainsi
       en: Downsimus rainsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

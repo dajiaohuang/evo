@@ -9,7 +9,6 @@ records:
     name:
       zh: Lavanttalornis hassleri
       en: Lavanttalornis hassleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

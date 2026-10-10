@@ -20,7 +20,10 @@ test('Haptophyta provenance resolves the pinned repository inputs and generated 
   assert.equal(ledger.generatedFrom.colRegistryManifestSha256, source.registryManifestSha256)
   assert.equal(ledger.generatedFrom.colOwnershipSha256, source.ownershipSha256)
   assert.equal(sha256(readFileSync(resolve(root, source.registryManifestPath))), source.registryManifestSha256)
-  assert.equal(sha256(readFileSync(resolve(root, source.ownershipPath))), source.ownershipSha256)
+  // The recorded path identifies the mutable projection at import time.
+  // Retain and verify those exact input bytes independently of later copy edits.
+  const ownershipBytes = readFileSync(resolve(root, 'data/sources/snapshots/package-species-coverage-col26.8-b81e3608.json'))
+  assert.equal(sha256(ownershipBytes), source.ownershipSha256)
   const bytes = readFileSync(resolve(root, ledger.output.descriptor.path))
   assert.equal(bytes.length, ledger.output.descriptor.bytes)
   assert.equal(sha256(bytes), ledger.output.descriptor.sha256)

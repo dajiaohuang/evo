@@ -9,7 +9,6 @@ records:
     name:
       zh: Egernia mcpheei
       en: Egernia mcpheei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

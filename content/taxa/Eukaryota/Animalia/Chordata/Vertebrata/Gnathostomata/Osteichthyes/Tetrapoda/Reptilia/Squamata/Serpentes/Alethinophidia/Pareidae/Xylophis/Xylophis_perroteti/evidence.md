@@ -9,7 +9,6 @@ records:
     name:
       zh: Xylophis perroteti
       en: Xylophis perroteti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

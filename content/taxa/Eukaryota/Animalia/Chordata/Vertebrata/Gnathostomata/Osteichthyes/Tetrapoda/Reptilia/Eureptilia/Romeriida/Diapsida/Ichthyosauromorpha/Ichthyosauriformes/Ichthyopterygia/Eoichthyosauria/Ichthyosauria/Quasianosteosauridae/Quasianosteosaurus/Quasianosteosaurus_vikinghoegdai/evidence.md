@@ -9,7 +9,6 @@ records:
     name:
       zh: Quasianosteosaurus vikinghoegdai
       en: Quasianosteosaurus vikinghoegdai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

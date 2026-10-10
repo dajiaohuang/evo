@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeovaranus lismonimenos
       en: Palaeovaranus lismonimenos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

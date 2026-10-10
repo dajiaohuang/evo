@@ -9,7 +9,6 @@ records:
     name:
       zh: Myosorex longicaudatus
       en: Myosorex longicaudatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

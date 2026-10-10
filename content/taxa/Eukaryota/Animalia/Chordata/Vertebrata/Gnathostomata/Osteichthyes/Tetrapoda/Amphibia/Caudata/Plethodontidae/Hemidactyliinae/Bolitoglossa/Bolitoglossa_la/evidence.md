@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa la
       zh: Bolitoglossa la
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lindgren-2018-stenopterygius-soft-tissues concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: lindgren-2018-stenopterygius-soft-tissues
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: lindgren-2018-stenopterygius-soft-tissues
           locator: pp. 359–365; Figure 1; Methods
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Stenopterygius
     rank: genus
@@ -73,7 +69,6 @@ records:
     name:
       zh: Stenopterygius
       en: Stenopterygius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Occidozyga celebensis
       zh: Occidozyga celebensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

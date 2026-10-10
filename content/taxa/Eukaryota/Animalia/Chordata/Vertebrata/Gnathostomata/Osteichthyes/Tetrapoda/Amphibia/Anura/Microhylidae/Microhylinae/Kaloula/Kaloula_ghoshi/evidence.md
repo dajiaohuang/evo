@@ -9,7 +9,6 @@ records:
     name:
       en: Kaloula ghoshi
       zh: Kaloula ghoshi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

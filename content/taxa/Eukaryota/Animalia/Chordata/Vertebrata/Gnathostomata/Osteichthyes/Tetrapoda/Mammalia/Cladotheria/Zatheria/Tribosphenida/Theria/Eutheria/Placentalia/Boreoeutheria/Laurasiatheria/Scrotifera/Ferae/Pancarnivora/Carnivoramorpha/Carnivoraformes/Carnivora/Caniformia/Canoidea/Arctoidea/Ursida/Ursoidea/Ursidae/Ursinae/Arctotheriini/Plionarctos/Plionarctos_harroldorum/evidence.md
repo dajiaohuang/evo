@@ -9,7 +9,6 @@ records:
     name:
       zh: Plionarctos harroldorum
       en: Plionarctos harroldorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

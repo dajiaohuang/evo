@@ -9,7 +9,6 @@ records:
     name:
       zh: Asiocoryphodon lophodontus
       en: Asiocoryphodon lophodontus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

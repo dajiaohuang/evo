@@ -9,7 +9,6 @@ records:
     name:
       zh: Viverra civettina
       en: Viverra civettina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

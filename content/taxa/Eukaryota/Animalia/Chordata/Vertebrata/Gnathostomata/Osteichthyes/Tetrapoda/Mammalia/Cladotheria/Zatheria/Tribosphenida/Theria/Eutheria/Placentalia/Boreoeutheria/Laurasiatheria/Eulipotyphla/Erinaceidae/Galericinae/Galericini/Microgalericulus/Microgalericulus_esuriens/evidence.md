@@ -9,7 +9,6 @@ records:
     name:
       zh: Microgalericulus esuriens
       en: Microgalericulus esuriens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

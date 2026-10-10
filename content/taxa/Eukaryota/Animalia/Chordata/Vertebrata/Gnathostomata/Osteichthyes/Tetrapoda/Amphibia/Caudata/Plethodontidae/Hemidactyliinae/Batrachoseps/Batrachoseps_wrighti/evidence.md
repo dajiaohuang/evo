@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachoseps wrighti
       zh: Batrachoseps wrighti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

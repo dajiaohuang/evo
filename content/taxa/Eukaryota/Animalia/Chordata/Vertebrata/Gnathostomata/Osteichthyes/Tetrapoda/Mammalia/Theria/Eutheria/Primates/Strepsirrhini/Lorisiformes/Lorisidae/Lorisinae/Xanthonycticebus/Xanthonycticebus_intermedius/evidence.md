@@ -10,7 +10,6 @@ records:
     name:
       zh: 北部倭蜂猴
       en: Northern Pygmy Slow Loris
-    reviewStatus: source-linked
     sections:
       - topic: taxonomyAndLineage
         text:

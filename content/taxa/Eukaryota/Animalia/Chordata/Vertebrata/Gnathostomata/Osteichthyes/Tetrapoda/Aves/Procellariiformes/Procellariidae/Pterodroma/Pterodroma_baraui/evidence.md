@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodroma baraui
       en: Pterodroma baraui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

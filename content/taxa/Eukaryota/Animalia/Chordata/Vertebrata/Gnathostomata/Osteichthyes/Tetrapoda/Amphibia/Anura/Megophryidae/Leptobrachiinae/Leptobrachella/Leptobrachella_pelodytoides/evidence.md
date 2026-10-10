@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella pelodytoides
       zh: Leptobrachella pelodytoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

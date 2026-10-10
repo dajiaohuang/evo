@@ -9,7 +9,6 @@ records:
     name:
       en: Red-eared monkey
       zh: 红耳长尾猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: conservation

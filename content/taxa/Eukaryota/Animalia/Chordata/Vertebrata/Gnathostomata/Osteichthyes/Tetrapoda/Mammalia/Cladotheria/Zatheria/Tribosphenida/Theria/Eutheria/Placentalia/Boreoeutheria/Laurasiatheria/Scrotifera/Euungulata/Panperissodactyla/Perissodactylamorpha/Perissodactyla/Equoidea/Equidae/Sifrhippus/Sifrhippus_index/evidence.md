@@ -9,7 +9,6 @@ records:
     name:
       zh: Sifrhippus index
       en: Sifrhippus index
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

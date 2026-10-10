@@ -9,7 +9,6 @@ records:
     name:
       zh: Galileomys baios
       en: Galileomys baios
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

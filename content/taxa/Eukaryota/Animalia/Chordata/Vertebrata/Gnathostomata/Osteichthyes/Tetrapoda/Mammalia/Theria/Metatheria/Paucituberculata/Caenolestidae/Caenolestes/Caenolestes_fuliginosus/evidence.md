@@ -9,7 +9,6 @@ records:
     name:
       zh: Caenolestes fuliginosus
       en: Caenolestes fuliginosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

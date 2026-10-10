@@ -9,7 +9,6 @@ records:
     name:
       zh: Euspondylus monsfumus
       en: Euspondylus monsfumus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

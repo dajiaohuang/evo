@@ -9,7 +9,6 @@ records:
     name:
       zh: Hadrosaurus foulkii
       en: Hadrosaurus foulkii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

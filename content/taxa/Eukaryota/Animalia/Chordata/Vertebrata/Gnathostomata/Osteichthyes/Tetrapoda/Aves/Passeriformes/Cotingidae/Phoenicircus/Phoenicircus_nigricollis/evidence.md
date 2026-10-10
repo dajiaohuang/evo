@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoenicircus nigricollis
       en: Phoenicircus nigricollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

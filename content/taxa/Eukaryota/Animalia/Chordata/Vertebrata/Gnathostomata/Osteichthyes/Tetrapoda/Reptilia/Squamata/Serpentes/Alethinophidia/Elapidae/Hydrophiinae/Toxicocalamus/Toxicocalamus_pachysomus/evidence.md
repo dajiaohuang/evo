@@ -9,7 +9,6 @@ records:
     name:
       zh: Toxicocalamus pachysomus
       en: Toxicocalamus pachysomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

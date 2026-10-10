@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanodera xanthogramma
       en: Melanodera xanthogramma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

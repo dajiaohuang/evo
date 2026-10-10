@@ -9,7 +9,6 @@ records:
     name:
       zh: Peramuroides tenuiscus
       en: Peramuroides tenuiscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

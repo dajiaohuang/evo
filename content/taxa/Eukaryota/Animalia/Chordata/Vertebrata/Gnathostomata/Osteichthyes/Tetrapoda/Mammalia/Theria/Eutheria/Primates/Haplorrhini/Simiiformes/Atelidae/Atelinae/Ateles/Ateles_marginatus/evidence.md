@@ -9,7 +9,6 @@ records:
     name:
       zh: 白颊蜘蛛猴
       en: White-cheeked Spider Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

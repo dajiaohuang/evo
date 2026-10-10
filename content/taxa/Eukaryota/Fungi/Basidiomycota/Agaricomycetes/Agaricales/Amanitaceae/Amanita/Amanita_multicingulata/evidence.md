@@ -219,9 +219,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Amanita multicingulata
@@ -397,5 +394,5 @@ Life history, fossils, and conservation have not been assessed; no facet has a r
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-The species concept is linked by the source-owned Fungal Names / Index Fungorum identifier, but broader taxonomic concept reconciliation and external expert review have not been completed.
+The species concept is linked by the source-owned Fungal Names / Index Fungorum identifier, but broader taxonomic concept reconciliation has not been completed.
 <!-- /evo:text -->

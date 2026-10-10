@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne exclamitans
       zh: Choerophryne exclamitans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

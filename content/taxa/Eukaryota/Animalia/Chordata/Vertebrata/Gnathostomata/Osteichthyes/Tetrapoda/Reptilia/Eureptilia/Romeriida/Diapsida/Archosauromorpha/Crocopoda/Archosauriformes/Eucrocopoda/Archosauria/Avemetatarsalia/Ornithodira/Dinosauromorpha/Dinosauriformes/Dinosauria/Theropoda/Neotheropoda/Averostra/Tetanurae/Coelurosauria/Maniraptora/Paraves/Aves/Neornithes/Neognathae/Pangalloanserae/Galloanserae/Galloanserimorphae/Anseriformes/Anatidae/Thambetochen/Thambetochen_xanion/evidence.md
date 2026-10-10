@@ -9,7 +9,6 @@ records:
     name:
       zh: Thambetochen xanion
       en: Thambetochen xanion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

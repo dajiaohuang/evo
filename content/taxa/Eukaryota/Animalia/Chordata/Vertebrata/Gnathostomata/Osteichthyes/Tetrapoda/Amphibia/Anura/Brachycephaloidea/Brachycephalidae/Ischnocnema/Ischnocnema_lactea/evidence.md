@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema lactea
       zh: Ischnocnema lactea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bemalambda crassa
       en: Bemalambda crassa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

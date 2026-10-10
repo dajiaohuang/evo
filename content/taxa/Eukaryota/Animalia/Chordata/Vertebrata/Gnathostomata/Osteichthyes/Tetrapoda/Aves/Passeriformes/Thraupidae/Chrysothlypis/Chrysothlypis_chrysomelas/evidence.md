@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysothlypis chrysomelas
       en: Chrysothlypis chrysomelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

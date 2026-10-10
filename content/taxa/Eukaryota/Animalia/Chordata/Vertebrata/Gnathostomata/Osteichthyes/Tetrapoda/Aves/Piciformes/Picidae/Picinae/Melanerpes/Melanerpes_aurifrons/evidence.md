@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanerpes aurifrons
       en: Melanerpes aurifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Janetaescincus veseyfitzgeraldi
       en: Janetaescincus veseyfitzgeraldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

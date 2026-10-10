@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina salvadorensis
       zh: Oedipina salvadorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

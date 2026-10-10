@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrelaphis formosus
       en: Dendrelaphis formosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

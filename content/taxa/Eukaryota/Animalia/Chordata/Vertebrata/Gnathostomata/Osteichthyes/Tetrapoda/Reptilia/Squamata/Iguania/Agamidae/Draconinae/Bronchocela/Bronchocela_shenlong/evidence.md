@@ -9,7 +9,6 @@ records:
     name:
       zh: Bronchocela shenlong
       en: Bronchocela shenlong
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

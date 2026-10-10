@@ -9,7 +9,6 @@ records:
     name:
       zh: Maremmia haupti
       en: Maremmia haupti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

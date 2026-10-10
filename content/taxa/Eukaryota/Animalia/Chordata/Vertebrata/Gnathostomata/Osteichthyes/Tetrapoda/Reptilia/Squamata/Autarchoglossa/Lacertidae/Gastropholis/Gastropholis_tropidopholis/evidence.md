@@ -9,7 +9,6 @@ records:
     name:
       zh: Gastropholis tropidopholis
       en: Gastropholis tropidopholis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

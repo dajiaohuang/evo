@@ -22,5 +22,5 @@ Lhota 等人 2011 年在东加里曼丹 Wehea 森林两处相距 4.2 公里的�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-主要野外证据来自 2011 年 Wehea 两处矿物泉点；原论文采用的是分种前名称。本页尚未经过外部领域专家评审。
+主要野外证据来自 2011 年 Wehea 两处矿物泉点；原论文采用的是分种前名称。。
 <!-- /evo:text -->

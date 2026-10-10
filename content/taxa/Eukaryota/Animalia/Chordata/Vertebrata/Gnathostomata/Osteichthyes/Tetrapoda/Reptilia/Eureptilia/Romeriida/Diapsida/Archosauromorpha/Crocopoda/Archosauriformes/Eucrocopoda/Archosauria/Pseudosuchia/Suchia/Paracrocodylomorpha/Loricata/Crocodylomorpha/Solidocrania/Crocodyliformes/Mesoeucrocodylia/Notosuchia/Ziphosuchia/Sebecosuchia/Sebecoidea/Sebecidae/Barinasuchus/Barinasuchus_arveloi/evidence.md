@@ -9,7 +9,6 @@ records:
     name:
       zh: Barinasuchus arveloi
       en: Barinasuchus arveloi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

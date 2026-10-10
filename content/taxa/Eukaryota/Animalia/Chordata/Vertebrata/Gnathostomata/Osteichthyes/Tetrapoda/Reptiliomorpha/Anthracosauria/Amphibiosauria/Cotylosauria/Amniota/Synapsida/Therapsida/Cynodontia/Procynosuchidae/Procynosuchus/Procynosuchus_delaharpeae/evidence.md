@@ -9,7 +9,6 @@ records:
     name:
       zh: Procynosuchus delaharpeae
       en: Procynosuchus delaharpeae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

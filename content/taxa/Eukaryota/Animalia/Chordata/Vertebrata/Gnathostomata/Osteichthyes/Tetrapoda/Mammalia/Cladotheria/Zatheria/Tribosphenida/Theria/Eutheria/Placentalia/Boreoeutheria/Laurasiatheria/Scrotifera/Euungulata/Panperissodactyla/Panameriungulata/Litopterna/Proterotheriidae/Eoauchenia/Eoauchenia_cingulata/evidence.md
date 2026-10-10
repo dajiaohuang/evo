@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoauchenia cingulata
       en: Eoauchenia cingulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

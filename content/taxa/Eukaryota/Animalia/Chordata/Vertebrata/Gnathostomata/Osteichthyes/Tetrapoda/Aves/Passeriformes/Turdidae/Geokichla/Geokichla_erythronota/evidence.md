@@ -9,7 +9,6 @@ records:
     name:
       zh: Geokichla erythronota
       en: Geokichla erythronota
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis wicksi
       en: Cnemaspis wicksi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aulacorhynchus caeruleogularis
       en: Aulacorhynchus caeruleogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

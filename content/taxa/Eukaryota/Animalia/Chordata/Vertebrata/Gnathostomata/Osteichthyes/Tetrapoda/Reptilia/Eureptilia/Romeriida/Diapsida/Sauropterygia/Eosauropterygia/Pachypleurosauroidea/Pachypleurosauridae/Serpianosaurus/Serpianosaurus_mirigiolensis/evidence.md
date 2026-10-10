@@ -9,7 +9,6 @@ records:
     name:
       zh: Serpianosaurus mirigiolensis
       en: Serpianosaurus mirigiolensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

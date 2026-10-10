@@ -23,7 +23,7 @@ for (const work of works) {
     if (!binding.originalFields.includes('scope')) binding.originalFields.push('scope')
   }
   profile.primaryStudyScopes ??= []
-  profile.limitations = { en: 'Taxonomic orientation with a dated, study-scoped reproductive summary. Historical trait concepts, remaining biological facets and contemporary concept boundaries require further source review; this is not a complete species dossier and is not externally expert-reviewed.', zh: '分类阅读入口包含有年代和研究范围限定的繁殖摘要；历史性状概念、其余生物学主题与当代概念范围仍需进一步来源核对。本页不是完整物种档案，未经过外部领域专家评审。' }
+  profile.limitations = { en: 'Taxonomic orientation with a dated, study-scoped reproductive summary. Historical trait concepts, remaining biological facets and contemporary concept boundaries require further source review; this is not a complete species dossier and is.', zh: '分类阅读入口包含有年代和研究范围限定的繁殖摘要；历史性状概念、其余生物学主题与当代概念范围仍需进一步来源核对。本页不是完整物种档案。' }
   if (!profile.primaryStudyScopes.some(x => x.doi === work.doi)) profile.primaryStudyScopes.push({ doi: work.doi, locator: work.locator, identityStatus: 'study uses the recorded species name; observational scope preserved, contemporary concept boundaries not independently certified', evidenceRead: work.colId === '4H7QP' ? 'publisher-full-paper' : work.colId === '3TN3T' ? 'author-institution-repository-abstract' : 'publisher-abstract-only', rightsBoundary: 'new short factual synthesis; no reproduced source text, translation of source text or figures' })
   writeNodeContent(entry.path, node.index, node.records)
   fs.writeFileSync(`${entry.path}/index.yaml`, index)

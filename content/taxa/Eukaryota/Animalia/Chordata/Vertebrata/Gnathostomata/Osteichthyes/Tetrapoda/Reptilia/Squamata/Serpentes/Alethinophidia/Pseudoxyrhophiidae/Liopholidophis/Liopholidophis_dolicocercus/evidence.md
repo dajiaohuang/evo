@@ -9,7 +9,6 @@ records:
     name:
       zh: Liopholidophis dolicocercus
       en: Liopholidophis dolicocercus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

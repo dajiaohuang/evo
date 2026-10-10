@@ -9,7 +9,6 @@ records:
     name:
       zh: Otus sunia
       en: Otus sunia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

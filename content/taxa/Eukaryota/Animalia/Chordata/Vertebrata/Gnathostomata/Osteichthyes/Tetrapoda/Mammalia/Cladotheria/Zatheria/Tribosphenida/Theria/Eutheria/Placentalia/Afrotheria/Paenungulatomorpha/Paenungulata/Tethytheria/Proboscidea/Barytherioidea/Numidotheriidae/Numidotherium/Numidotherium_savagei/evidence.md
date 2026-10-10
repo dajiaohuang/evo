@@ -9,7 +9,6 @@ records:
     name:
       zh: Numidotherium savagei
       en: Numidotherium savagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

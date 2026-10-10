@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiothrichidae
       en: Leiothrichidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

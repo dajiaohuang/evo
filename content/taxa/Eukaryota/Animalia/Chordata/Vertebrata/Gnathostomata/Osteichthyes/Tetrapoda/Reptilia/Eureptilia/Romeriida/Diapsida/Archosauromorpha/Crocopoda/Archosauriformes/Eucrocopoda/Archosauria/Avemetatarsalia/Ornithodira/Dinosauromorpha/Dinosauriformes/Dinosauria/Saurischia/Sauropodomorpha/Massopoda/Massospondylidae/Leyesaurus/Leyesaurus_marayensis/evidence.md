@@ -9,7 +9,6 @@ records:
     name:
       zh: Leyesaurus marayensis
       en: Leyesaurus marayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

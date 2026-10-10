@@ -9,7 +9,6 @@ records:
     name:
       zh: Litocherus zygeus
       en: Litocherus zygeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

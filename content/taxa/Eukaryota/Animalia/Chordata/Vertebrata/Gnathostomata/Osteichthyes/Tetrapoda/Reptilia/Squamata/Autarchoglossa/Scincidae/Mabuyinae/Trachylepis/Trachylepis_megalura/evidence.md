@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis megalura
       en: Trachylepis megalura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

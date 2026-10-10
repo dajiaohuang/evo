@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia daviesae
       zh: Uperoleia daviesae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

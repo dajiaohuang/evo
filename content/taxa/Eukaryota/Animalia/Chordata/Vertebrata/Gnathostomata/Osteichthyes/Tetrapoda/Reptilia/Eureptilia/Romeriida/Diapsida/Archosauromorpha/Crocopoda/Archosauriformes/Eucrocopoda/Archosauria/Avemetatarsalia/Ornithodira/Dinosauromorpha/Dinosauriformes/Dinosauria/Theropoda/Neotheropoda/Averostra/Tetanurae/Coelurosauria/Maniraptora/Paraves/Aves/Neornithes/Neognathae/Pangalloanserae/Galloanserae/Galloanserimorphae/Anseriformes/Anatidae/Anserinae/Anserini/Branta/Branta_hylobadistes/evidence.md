@@ -9,7 +9,6 @@ records:
     name:
       zh: Branta hylobadistes
       en: Branta hylobadistes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

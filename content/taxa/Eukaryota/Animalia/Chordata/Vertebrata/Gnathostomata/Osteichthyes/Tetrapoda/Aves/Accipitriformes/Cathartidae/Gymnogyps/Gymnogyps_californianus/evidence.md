@@ -9,7 +9,6 @@ records:
     name:
       zh: 加州神鹫
       en: California condor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -630,10 +629,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Gymnogyps californianus
@@ -785,5 +780,5 @@ Only bounded population-monitoring evidence was assessed for conservation; six f
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-A systematic literature search and external expert review have not been completed.
+A systematic literature search has not been completed.
 <!-- /evo:text -->

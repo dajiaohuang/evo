@@ -9,7 +9,6 @@ records:
     name:
       en: Nectophryne afra
       zh: Nectophryne afra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

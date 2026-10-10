@@ -9,7 +9,6 @@ records:
     name:
       zh: Piscolithax longirostris
       en: Piscolithax longirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

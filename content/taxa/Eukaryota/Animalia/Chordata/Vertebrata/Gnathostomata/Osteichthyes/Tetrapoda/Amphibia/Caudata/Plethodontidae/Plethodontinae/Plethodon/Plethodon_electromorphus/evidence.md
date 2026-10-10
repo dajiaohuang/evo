@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon electromorphus
       zh: Plethodon electromorphus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Tepuihyla rodriguezi
       zh: Tepuihyla rodriguezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

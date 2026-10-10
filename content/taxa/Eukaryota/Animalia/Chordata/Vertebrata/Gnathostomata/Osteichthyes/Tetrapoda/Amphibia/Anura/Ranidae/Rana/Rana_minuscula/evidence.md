@@ -9,7 +9,6 @@ records:
     name:
       en: Rana minuscula
       zh: Rana minuscula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

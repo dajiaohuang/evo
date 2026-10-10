@@ -28,5 +28,5 @@ Quintero-Tapia 与 Carretero-Pinzón（2024）用扫描取样比较生活在不�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-研究仅比较哥伦比亚亚诺斯的两个群体；群体间差异不能单独证明破碎化的普遍因果作用。MDD 英文标签与 COL26.8 接受 ID 精确联接；中文名为编辑译名。页面尚未经过外部领域专家评审。
+研究仅比较哥伦比亚亚诺斯的两个群体；群体间差异不能单独证明破碎化的普遍因果作用。MDD 英文标签与 COL26.8 接受 ID 精确联接；中文名为编辑译名。。
 <!-- /evo:text -->

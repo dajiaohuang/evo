@@ -9,7 +9,6 @@ records:
     name:
       zh: Megaderma spasma
       en: Megaderma spasma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

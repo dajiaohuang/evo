@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis axelmeyeri
       zh: Boophis axelmeyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

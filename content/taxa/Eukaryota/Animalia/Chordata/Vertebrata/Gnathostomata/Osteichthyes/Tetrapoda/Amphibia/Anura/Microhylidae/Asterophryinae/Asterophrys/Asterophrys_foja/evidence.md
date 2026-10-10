@@ -9,7 +9,6 @@ records:
     name:
       en: Asterophrys foja
       zh: Asterophrys foja
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

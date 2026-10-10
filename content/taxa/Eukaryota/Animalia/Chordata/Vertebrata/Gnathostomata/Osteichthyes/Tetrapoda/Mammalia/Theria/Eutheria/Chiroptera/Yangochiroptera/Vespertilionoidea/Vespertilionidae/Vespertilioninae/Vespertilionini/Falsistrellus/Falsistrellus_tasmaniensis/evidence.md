@@ -9,7 +9,6 @@ records:
     name:
       zh: Falsistrellus tasmaniensis
       en: Falsistrellus tasmaniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptodeira nigrofasciata
       en: Leptodeira nigrofasciata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

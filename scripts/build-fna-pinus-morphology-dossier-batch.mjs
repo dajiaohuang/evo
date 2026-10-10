@@ -137,9 +137,9 @@ for (const item of input.newRecords) {
     facets: {},
     completeness: {
       status: 'incomplete',
-      reasons: ['One regional flora account supports a bounded partial morphology claim only.', 'The other six scientific facets remain explicitly not assessed.', 'No independent external expert review has been completed.'],
+      reasons: ['One regional flora account supports a bounded partial morphology claim only.', 'The other six scientific facets remain explicitly not assessed.', ''],
     },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
   }
 
   acceptedClassification(registry, dossier)

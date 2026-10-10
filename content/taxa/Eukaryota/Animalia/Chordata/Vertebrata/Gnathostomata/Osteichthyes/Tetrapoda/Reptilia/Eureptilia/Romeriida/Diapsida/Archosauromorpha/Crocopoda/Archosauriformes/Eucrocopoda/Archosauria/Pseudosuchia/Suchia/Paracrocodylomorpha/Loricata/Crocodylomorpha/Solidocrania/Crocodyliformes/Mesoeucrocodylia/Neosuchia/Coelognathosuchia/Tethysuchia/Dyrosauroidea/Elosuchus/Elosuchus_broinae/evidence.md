@@ -9,7 +9,6 @@ records:
     name:
       zh: Elosuchus broinae
       en: Elosuchus broinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

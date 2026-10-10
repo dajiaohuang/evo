@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus pantherinus
       en: Liolaemus pantherinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus famelicus
       zh: Atelopus famelicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

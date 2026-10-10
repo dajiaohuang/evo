@@ -9,7 +9,6 @@ records:
     name:
       zh: Rattus omichlodes
       en: Rattus omichlodes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

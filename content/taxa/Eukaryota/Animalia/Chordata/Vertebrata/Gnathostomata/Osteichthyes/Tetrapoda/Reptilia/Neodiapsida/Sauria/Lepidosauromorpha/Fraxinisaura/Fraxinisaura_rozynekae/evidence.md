@@ -9,7 +9,6 @@ records:
     name:
       zh: Fraxinisaura rozynekae
       en: Fraxinisaura rozynekae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

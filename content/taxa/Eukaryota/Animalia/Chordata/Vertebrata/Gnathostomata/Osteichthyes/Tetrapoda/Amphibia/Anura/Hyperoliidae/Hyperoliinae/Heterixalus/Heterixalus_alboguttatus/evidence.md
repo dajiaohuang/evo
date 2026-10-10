@@ -9,7 +9,6 @@ records:
     name:
       en: Heterixalus alboguttatus
       zh: Heterixalus alboguttatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

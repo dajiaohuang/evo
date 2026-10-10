@@ -9,7 +9,6 @@ records:
     name:
       zh: Orthoscincus malperiensis
       en: Orthoscincus malperiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stelocyon arctylos
       en: Stelocyon arctylos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

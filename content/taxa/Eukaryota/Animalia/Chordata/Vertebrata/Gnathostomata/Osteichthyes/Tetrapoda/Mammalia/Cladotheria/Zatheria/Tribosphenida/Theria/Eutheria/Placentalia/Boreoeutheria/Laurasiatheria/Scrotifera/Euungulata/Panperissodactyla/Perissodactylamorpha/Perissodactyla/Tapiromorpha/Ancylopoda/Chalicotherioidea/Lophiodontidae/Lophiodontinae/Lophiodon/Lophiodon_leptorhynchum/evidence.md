@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophiodon leptorhynchum
       en: Lophiodon leptorhynchum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

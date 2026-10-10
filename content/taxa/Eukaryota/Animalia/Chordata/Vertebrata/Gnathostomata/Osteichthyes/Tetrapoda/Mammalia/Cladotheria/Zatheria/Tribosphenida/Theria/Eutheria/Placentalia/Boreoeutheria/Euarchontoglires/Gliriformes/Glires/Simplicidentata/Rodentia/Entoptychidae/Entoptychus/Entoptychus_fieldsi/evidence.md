@@ -9,7 +9,6 @@ records:
     name:
       zh: Entoptychus fieldsi
       en: Entoptychus fieldsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

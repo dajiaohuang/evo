@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla pentheter
       zh: Sarcohyla pentheter
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

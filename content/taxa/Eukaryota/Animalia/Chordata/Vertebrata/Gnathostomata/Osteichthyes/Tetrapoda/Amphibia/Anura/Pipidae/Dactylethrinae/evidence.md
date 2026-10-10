@@ -9,7 +9,6 @@ records:
     name:
       en: Dactylethrinae
       zh: Dactylethrinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

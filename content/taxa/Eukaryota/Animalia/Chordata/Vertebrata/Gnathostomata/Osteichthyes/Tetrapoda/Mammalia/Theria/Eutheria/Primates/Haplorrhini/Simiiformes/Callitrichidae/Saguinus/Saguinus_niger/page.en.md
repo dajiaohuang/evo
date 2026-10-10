@@ -16,5 +16,5 @@ The study overlaid IUCN range maps on ten major Brazilian Amazon interfluves and
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The abstract and methods describe 80 species, while main-text Table 2 occupancy classes sum to 81 and report the 46 single-interfluve species as 57%, unlike the 58% stated in the text. Names and counts here come from Supplementary Table S1; they are range-map overlaps, not point-level field confirmations, population counts or complete range assessments. Chinese common names are editorial translations, and these guides are not externally expert-reviewed.
+The abstract and methods describe 80 species, while main-text Table 2 occupancy classes sum to 81 and report the 46 single-interfluve species as 57%, unlike the 58% stated in the text. Names and counts here come from Supplementary Table S1; they are range-map overlaps, not point-level field confirmations, population counts or complete range assessments. Chinese common names are editorial translations.
 <!-- /evo:text -->

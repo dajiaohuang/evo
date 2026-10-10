@@ -9,7 +9,6 @@ records:
     name:
       zh: Subdoluseps
       en: Subdoluseps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

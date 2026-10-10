@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrocanthosaurus atokensis
       en: Acrocanthosaurus atokensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

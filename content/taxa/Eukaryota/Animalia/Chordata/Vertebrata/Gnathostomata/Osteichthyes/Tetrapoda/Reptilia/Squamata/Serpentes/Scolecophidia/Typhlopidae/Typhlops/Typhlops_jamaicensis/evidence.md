@@ -9,7 +9,6 @@ records:
     name:
       zh: Typhlops jamaicensis
       en: Typhlops jamaicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

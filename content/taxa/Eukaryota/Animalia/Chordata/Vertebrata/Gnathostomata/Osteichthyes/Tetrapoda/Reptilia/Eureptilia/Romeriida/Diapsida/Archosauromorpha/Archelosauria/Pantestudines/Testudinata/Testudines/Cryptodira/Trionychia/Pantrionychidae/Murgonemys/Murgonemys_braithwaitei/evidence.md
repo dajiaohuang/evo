@@ -9,7 +9,6 @@ records:
     name:
       zh: Murgonemys braithwaitei
       en: Murgonemys braithwaitei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

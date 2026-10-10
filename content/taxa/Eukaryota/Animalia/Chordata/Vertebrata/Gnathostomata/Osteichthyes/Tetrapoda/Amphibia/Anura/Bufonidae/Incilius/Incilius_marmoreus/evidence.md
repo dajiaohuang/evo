@@ -9,7 +9,6 @@ records:
     name:
       en: Incilius marmoreus
       zh: Incilius marmoreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

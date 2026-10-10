@@ -9,7 +9,6 @@ records:
     name:
       zh: Negodiaetictis rugatrulleum
       en: Negodiaetictis rugatrulleum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

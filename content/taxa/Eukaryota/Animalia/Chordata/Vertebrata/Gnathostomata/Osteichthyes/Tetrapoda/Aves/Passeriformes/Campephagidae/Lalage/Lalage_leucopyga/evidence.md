@@ -9,7 +9,6 @@ records:
     name:
       zh: Lalage leucopyga
       en: Lalage leucopyga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

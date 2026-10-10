@@ -9,7 +9,6 @@ records:
     name:
       zh: Balaenula balaenopsis
       en: Balaenula balaenopsis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

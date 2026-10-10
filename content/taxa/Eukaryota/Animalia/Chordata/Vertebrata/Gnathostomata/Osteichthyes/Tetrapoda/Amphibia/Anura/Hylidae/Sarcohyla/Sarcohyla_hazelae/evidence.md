@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla hazelae
       zh: Sarcohyla hazelae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aprasia aurita
       en: Aprasia aurita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

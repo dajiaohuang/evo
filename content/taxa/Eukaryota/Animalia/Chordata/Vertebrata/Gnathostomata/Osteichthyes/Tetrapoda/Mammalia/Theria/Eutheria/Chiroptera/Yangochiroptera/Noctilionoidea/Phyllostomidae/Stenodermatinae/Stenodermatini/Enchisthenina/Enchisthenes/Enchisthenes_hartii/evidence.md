@@ -9,7 +9,6 @@ records:
     name:
       zh: Enchisthenes hartii
       en: Enchisthenes hartii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

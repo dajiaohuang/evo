@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinomicrurus annularis
       en: Sinomicrurus annularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

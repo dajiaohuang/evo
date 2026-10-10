@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenogale intermedia
       en: Stenogale intermedia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

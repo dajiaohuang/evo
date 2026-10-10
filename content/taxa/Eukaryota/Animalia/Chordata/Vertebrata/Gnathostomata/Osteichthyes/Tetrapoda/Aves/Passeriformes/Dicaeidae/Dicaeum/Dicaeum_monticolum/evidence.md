@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicaeum monticolum
       en: Dicaeum monticolum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

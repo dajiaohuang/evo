@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina multisica
       zh: Xenorhina multisica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

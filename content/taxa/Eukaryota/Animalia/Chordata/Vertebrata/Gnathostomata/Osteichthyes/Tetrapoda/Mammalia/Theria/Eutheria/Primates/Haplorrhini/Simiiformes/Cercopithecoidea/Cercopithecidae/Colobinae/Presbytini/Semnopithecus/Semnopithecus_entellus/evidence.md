@@ -9,7 +9,6 @@ records:
     name:
       en: Bengal Sacred Langur
       zh: 孟加拉神圣叶猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: population

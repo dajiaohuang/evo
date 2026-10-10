@@ -9,7 +9,6 @@ records:
     name:
       zh: Pleiolama mckennai
       en: Pleiolama mckennai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

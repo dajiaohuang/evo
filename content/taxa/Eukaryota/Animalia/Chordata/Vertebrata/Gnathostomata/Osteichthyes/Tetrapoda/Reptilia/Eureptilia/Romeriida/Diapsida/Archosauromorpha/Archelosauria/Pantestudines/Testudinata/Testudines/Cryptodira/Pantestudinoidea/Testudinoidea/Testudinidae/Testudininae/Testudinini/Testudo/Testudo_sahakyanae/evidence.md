@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo sahakyanae
       en: Testudo sahakyanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

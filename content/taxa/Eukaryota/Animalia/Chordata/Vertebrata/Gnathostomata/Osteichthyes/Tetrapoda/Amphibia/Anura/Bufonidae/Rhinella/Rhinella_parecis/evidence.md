@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella parecis
       zh: Rhinella parecis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

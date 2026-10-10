@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeomylus lii
       en: Palaeomylus lii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

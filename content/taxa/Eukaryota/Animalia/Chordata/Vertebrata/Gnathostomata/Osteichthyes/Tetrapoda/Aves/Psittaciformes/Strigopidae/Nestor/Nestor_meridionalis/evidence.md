@@ -9,7 +9,6 @@ records:
     name:
       zh: Nestor meridionalis
       en: Nestor meridionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenotarsosaurus
       en: Xenotarsosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

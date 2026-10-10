@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomus kandianus
       zh: Adenomus kandianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

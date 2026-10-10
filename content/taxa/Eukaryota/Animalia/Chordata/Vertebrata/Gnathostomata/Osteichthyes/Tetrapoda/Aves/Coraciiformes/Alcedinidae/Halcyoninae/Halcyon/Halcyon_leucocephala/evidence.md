@@ -9,7 +9,6 @@ records:
     name:
       zh: Halcyon leucocephala
       en: Halcyon leucocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

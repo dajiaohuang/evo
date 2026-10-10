@@ -9,7 +9,6 @@ records:
     name:
       en: Peltophryne florentinoi
       zh: Peltophryne florentinoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

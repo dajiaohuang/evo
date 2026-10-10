@@ -9,7 +9,6 @@ records:
     name:
       zh: Euplectes gierowii
       en: Euplectes gierowii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

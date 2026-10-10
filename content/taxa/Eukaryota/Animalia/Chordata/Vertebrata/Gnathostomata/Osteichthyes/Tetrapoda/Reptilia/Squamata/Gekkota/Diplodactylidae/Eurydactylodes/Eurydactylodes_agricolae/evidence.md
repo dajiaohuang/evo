@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurydactylodes agricolae
       en: Eurydactylodes agricolae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

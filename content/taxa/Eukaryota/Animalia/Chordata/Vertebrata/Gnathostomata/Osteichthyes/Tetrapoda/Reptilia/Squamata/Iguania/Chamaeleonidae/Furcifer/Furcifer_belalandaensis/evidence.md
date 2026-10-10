@@ -9,7 +9,6 @@ records:
     name:
       zh: Furcifer belalandaensis
       en: Furcifer belalandaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

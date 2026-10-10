@@ -9,7 +9,6 @@ records:
     name:
       zh: Cadurcogekko verus
       en: Cadurcogekko verus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

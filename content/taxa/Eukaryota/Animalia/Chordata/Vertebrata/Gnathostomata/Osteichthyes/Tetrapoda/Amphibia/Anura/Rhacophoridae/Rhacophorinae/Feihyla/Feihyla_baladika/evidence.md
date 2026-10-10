@@ -9,7 +9,6 @@ records:
     name:
       en: Feihyla baladika
       zh: Feihyla baladika
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

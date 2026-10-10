@@ -9,7 +9,6 @@ records:
     name:
       zh: Qarunycteris moerisae
       en: Qarunycteris moerisae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

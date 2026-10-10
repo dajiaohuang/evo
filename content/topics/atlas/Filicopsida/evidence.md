@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lehtonen-2011-fern-tree
       referenceLinks:
         - referenceId: lehtonen-2011-fern-tree
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: galtier-scott-1985-early-ferns locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: galtier-scott-1985-early-ferns
@@ -95,7 +89,6 @@ records:
           locator: Article e24851; Methods; Figures 1–3; extant-heavy fern topology
         - referenceId: galtier-scott-1985-early-ferns
           locator: 289–301; Synopsis and opening discussion; uncertain Devonian assignments versus Lower Carboniferous Filicales
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

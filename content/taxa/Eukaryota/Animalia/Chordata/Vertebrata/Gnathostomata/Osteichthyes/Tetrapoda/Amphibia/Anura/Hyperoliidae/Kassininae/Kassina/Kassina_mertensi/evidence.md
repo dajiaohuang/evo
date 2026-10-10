@@ -9,7 +9,6 @@ records:
     name:
       en: Kassina mertensi
       zh: Kassina mertensi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

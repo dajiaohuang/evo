@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus monacha
       en: Ptilinopus monacha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

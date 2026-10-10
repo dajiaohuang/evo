@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus mcdonaldi
       zh: Cophixalus mcdonaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

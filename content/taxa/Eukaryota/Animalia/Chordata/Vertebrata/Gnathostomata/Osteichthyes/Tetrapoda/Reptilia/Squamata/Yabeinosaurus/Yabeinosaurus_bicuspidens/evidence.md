@@ -9,7 +9,6 @@ records:
     name:
       zh: Yabeinosaurus bicuspidens
       en: Yabeinosaurus bicuspidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

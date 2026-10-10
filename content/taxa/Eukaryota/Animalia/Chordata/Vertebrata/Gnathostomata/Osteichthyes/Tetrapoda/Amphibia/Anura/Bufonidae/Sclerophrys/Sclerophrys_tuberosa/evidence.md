@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys tuberosa
       zh: Sclerophrys tuberosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

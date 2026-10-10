@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus cattienensis
       en: Cyrtodactylus cattienensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

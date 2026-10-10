@@ -9,7 +9,6 @@ records:
     name:
       zh: Parotomys littledalei
       en: Parotomys littledalei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

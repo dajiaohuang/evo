@@ -9,7 +9,6 @@ records:
     name:
       zh: Schiffornis olivacea
       en: Schiffornis olivacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

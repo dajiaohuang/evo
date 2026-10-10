@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis chaloensis
       zh: Ichthyophis chaloensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

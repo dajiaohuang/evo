@@ -9,7 +9,6 @@ records:
     name:
       zh: Panamacebus transitus
       en: Panamacebus transitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

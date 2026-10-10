@@ -9,7 +9,6 @@ records:
     name:
       en: Kaloula indochinensis
       zh: Kaloula indochinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

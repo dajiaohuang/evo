@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylopezus
       en: Hylopezus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

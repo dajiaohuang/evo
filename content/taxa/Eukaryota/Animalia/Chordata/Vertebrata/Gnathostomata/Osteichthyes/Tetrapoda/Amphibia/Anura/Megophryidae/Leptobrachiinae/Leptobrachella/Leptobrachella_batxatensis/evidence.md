@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella batxatensis
       zh: Leptobrachella batxatensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aethomys stannarius
       en: Aethomys stannarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

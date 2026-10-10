@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates kauffeldi
       zh: Lithobates kauffeldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

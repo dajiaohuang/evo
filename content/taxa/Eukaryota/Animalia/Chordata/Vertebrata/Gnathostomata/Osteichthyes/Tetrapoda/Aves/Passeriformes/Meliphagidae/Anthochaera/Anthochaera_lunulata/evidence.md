@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthochaera lunulata
       en: Anthochaera lunulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mygalea jaegeri
       en: Mygalea jaegeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

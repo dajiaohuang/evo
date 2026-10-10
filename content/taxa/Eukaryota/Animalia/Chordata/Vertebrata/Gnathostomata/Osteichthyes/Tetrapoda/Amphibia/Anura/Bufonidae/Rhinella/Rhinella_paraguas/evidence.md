@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella paraguas
       zh: Rhinella paraguas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

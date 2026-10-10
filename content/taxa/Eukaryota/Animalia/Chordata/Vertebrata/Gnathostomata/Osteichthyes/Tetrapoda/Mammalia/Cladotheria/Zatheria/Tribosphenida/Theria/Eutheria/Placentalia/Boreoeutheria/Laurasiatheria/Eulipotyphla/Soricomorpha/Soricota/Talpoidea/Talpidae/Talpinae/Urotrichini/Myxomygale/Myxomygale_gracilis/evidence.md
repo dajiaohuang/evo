@@ -9,7 +9,6 @@ records:
     name:
       zh: Myxomygale gracilis
       en: Myxomygale gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

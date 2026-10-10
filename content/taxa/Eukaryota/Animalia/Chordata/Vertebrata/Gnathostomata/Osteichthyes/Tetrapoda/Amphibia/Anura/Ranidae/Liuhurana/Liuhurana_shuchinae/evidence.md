@@ -9,7 +9,6 @@ records:
     name:
       en: Liuhurana shuchinae
       zh: Liuhurana shuchinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

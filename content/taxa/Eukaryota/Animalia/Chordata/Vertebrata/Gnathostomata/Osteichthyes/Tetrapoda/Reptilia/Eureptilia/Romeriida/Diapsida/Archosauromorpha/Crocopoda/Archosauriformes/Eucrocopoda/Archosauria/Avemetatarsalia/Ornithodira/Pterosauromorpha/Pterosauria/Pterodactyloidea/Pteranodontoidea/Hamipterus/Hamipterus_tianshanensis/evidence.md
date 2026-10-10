@@ -9,7 +9,6 @@ records:
     name:
       zh: Hamipterus tianshanensis
       en: Hamipterus tianshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: taxonomy
@@ -838,7 +837,6 @@ records:
       referenceLocators:
         - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
           locator: P5-42 accepted hierarchy oid txn:304280; fea/fla/lea/lla in retained taxa response.
-      reviewStatus: not-reviewed
       evidenceLevel: database-derived
 ---
 

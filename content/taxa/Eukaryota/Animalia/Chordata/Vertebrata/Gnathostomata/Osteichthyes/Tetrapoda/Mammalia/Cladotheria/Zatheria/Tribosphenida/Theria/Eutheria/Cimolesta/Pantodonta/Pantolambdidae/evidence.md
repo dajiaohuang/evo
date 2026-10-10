@@ -9,7 +9,6 @@ records:
     name:
       zh: Pantolambdidae
       en: Pantolambdidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

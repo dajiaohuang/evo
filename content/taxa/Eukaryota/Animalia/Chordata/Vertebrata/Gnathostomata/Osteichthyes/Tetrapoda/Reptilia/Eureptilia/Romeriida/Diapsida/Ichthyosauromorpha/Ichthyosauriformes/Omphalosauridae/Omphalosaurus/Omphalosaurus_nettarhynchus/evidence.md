@@ -9,7 +9,6 @@ records:
     name:
       zh: Omphalosaurus nettarhynchus
       en: Omphalosaurus nettarhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

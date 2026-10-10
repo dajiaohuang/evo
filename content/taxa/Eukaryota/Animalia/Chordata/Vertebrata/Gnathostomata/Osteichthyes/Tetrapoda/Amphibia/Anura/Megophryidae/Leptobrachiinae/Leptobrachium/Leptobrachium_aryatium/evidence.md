@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachium aryatium
       zh: Leptobrachium aryatium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

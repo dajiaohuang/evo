@@ -368,7 +368,7 @@ Pyrrhomerus MZUTI1941 versus sirnigeli MZUTI1825 is 3.5%; MZUTI1943 versus sirni
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial study-scoped biological reader. Remaining biological facets require further evidence. Not externally expert-reviewed.
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

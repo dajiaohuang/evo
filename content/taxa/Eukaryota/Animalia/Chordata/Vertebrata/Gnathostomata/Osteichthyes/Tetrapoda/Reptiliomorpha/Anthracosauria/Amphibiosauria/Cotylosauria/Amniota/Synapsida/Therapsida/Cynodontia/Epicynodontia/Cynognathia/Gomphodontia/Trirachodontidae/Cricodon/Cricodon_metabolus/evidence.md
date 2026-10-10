@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricodon metabolus
       en: Cricodon metabolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

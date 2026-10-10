@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius nasutus
       zh: Hyperolius nasutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

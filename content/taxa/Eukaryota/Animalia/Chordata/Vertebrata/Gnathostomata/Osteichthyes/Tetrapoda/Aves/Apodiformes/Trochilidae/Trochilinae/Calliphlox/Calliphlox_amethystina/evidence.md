@@ -9,7 +9,6 @@ records:
     name:
       zh: Calliphlox amethystina
       en: Calliphlox amethystina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

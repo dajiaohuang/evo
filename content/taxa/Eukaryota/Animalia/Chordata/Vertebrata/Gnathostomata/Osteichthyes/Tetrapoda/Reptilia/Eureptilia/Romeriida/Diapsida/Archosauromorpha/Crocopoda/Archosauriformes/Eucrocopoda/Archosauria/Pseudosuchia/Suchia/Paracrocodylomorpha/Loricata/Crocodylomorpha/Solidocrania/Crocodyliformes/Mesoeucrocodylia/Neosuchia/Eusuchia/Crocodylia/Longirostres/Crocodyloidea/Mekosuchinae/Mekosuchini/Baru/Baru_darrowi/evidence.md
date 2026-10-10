@@ -9,7 +9,6 @@ records:
     name:
       zh: Baru darrowi
       en: Baru darrowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

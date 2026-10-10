@@ -202,7 +202,7 @@
 .explorer-first-run__actions button { min-height: 34px; padding: 0 12px; border: 1px solid var(--color-border); background: transparent; color: var(--color-text-muted); font: 700 8px var(--font-mono); cursor: pointer; text-transform: uppercase; }
 .explorer-first-run__actions button:disabled { opacity: .35; cursor: default; }
 .explorer-first-run__actions .explorer-first-run__next { border-color: var(--color-accent); background: var(--color-accent); color: #06130f; }
-.explorer-inspector .evidence-status { width: 100%; margin-bottom: 10px; }
+.explorer-inspector .evidence-issue-link { width: 100%; margin-bottom: 10px; }
 
 .dashboard-welcome { position: absolute; inset: 0; z-index: 2100; display: grid; place-items: center; padding: 22px; background: rgba(2, 8, 11, .7); backdrop-filter: blur(8px); }
 .dashboard-welcome > div { width: min(610px, 100%); padding: clamp(24px, 4vw, 42px); border: 1px solid #7a684e; background: linear-gradient(145deg, rgba(14, 28, 31, .99), rgba(7, 15, 19, .99)); box-shadow: 0 35px 100px rgba(0, 0, 0, .48); }

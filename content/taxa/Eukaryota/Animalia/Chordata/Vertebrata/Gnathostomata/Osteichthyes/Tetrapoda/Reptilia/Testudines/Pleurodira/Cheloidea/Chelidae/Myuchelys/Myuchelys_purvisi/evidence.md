@@ -9,7 +9,6 @@ records:
     name:
       zh: Myuchelys purvisi
       en: Myuchelys purvisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

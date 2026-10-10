@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis tasymena
       zh: Boophis tasymena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

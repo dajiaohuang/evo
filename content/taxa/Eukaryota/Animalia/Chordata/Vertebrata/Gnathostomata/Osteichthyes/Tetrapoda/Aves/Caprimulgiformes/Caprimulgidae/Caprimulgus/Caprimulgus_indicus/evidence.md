@@ -9,7 +9,6 @@ records:
     name:
       zh: Caprimulgus indicus
       en: Caprimulgus indicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

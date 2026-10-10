@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreopholus ruficollis
       en: Oreopholus ruficollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

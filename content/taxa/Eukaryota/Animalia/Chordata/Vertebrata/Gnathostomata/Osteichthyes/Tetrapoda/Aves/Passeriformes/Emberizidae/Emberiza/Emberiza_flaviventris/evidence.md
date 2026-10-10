@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberiza flaviventris
       en: Emberiza flaviventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ampelognathus coheni
       en: Ampelognathus coheni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

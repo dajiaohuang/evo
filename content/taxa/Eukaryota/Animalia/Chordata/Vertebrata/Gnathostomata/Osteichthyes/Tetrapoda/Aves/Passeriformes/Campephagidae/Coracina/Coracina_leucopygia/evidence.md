@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracina leucopygia
       en: Coracina leucopygia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra versicolor
       en: Gehyra versicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Gegeneophis carnosus
       zh: Gegeneophis carnosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

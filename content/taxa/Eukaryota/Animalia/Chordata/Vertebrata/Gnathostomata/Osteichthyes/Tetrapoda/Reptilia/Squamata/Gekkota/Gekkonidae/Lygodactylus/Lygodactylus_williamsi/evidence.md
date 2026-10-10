@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus williamsi
       en: Lygodactylus williamsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

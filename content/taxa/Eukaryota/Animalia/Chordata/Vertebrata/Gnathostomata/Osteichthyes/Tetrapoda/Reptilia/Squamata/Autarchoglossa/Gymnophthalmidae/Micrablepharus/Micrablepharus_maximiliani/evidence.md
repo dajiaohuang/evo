@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrablepharus maximiliani
       en: Micrablepharus maximiliani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

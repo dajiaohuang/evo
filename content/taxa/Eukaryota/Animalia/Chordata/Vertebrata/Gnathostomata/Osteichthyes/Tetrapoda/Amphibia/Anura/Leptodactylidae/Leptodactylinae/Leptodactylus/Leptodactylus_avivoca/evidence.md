@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus avivoca
       zh: Leptodactylus avivoca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

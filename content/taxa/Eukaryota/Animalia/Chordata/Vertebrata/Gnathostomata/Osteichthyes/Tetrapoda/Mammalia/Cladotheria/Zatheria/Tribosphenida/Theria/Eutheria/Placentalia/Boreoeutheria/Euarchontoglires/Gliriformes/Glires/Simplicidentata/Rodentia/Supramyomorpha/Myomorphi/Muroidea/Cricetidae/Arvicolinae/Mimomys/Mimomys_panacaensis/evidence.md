@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimomys panacaensis
       en: Mimomys panacaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

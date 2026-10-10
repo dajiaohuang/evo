@@ -9,7 +9,6 @@ records:
     name:
       zh: Microlophus barringtonensis
       en: Microlophus barringtonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

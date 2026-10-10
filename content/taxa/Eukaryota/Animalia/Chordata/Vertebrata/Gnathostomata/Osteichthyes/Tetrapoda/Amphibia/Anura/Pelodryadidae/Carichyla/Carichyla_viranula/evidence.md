@@ -9,7 +9,6 @@ records:
     name:
       en: Carichyla viranula
       zh: Carichyla viranula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

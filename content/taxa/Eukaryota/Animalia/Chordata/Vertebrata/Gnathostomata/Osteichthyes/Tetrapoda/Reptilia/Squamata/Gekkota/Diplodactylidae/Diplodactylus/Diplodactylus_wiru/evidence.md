@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplodactylus wiru
       en: Diplodactylus wiru
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

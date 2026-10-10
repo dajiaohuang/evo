@@ -9,7 +9,6 @@ records:
     name:
       en: Spinomantis massi
       zh: Spinomantis massi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

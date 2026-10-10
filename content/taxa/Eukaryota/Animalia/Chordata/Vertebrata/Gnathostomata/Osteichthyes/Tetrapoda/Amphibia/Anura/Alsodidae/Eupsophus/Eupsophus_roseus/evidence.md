@@ -9,7 +9,6 @@ records:
     name:
       en: Eupsophus roseus
       zh: Eupsophus roseus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

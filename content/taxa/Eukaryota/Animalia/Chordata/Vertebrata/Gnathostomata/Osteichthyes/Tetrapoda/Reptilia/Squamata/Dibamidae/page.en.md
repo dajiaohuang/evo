@@ -37,7 +37,7 @@ Start with Hoeckosaurus mongoliensis and compare each page’s named collections
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes. No external expert review has occurred.
+This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 <!-- /evo:text -->
 
 ## Start with sourced trait records

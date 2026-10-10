@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegonotus borneensis
       en: Stegonotus borneensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

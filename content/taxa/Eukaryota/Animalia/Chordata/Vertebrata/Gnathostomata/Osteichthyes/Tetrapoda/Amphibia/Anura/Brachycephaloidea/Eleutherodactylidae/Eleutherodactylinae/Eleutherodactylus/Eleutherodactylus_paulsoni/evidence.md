@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus paulsoni
       zh: Eleutherodactylus paulsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

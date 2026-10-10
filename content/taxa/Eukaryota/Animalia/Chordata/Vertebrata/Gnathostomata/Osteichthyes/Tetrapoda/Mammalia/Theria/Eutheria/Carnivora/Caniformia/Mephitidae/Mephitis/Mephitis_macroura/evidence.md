@@ -9,7 +9,6 @@ records:
     name:
       zh: Mephitis macroura
       en: Mephitis macroura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

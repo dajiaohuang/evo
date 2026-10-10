@@ -9,7 +9,6 @@ records:
     name:
       en: Pachytriton inexpectatus
       zh: Pachytriton inexpectatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

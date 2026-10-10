@@ -9,7 +9,6 @@ records:
     name:
       zh: Gyalopion quadrangulare
       en: Gyalopion quadrangulare
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

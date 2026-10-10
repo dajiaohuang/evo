@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrotyphlops congestus
       en: Afrotyphlops congestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

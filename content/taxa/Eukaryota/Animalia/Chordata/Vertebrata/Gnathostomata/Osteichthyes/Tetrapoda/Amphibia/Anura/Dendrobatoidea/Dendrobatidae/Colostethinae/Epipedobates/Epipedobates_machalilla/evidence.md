@@ -9,7 +9,6 @@ records:
     name:
       en: Epipedobates machalilla
       zh: Epipedobates machalilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

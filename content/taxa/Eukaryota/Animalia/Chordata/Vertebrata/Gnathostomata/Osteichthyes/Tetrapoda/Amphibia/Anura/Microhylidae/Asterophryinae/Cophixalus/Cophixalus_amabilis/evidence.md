@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus amabilis
       zh: Cophixalus amabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

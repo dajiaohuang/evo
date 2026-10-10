@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalcites megarhynchus
       en: Chalcites megarhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

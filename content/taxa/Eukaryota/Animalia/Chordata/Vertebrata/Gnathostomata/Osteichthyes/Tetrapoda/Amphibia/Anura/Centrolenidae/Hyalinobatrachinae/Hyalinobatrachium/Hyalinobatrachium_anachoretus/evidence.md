@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium anachoretus
       zh: Hyalinobatrachium anachoretus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

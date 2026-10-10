@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptodeira frenata
       en: Leptodeira frenata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

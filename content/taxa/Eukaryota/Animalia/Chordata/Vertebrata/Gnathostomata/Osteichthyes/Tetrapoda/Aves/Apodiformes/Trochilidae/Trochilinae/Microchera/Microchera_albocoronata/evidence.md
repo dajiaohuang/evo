@@ -9,7 +9,6 @@ records:
     name:
       zh: Microchera albocoronata
       en: Microchera albocoronata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

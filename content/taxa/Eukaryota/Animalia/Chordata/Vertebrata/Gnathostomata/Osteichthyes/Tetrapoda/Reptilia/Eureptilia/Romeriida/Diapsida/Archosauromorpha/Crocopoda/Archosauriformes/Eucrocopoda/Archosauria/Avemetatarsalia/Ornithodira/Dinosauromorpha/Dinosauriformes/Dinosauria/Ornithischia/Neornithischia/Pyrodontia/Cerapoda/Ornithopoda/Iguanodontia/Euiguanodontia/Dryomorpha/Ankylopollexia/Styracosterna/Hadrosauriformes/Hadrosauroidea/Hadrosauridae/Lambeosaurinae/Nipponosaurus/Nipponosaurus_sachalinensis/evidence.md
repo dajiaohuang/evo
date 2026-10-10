@@ -9,7 +9,6 @@ records:
     name:
       zh: Nipponosaurus sachalinensis
       en: Nipponosaurus sachalinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

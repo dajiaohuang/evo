@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: kocot-et-al-2011-mollusca
       referenceLinks:
         - referenceId: kocot-et-al-2011-mollusca
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: kocot-et-al-2011-mollusca
           locator: 452–456; taxon and gene sampling; Figures 1–3; supplementary matrices
-      reviewStatus: automated-audit-passed
 ---
 
 # Aculifera

@@ -9,7 +9,6 @@ records:
     name:
       zh: Asterattus longicristatus
       en: Asterattus longicristatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

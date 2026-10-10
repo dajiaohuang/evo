@@ -9,7 +9,6 @@ records:
     name:
       zh: Pedioplanis gaerdesi
       en: Pedioplanis gaerdesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

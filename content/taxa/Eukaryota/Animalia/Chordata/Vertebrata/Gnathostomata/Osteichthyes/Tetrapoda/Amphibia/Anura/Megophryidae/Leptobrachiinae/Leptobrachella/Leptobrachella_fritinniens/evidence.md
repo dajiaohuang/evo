@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella fritinniens
       zh: Leptobrachella fritinniens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana parva
       zh: Hylarana parva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

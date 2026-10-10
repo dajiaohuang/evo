@@ -35,6 +35,6 @@ status: source-linked
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-所选八条 Sarothrura 历史导读，不计全科接受种覆盖；Rallidae 原科名与 COL 分类独立。类别、文献平均体重与形态鸟数不替代实测自然史或专家审评。
-另增四条Rallicula旧名导读；两只但无已定雄鸟、完整分母与低手翼指数边界保留，不计全科内容或专家审评完成。
+所选八条 Sarothrura 历史导读，不计全科接受种覆盖；Rallidae 原科名与 COL 分类独立。类别、文献平均体重与形态鸟数不替代实测自然史。
+另增四条Rallicula旧名导读；两只但无已定雄鸟、完整分母与低手翼指数边界保留，不计全科内容完成。
 <!-- /evo:text -->

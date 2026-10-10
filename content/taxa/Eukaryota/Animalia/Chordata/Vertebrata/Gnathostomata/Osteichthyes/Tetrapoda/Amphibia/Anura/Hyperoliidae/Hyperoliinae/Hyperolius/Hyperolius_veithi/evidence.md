@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius veithi
       zh: Hyperolius veithi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Daouitherium rebouli
       en: Daouitherium rebouli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalcoboenus napieri
       en: Phalcoboenus napieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

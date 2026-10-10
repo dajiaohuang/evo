@@ -9,7 +9,6 @@ records:
     name:
       zh: Rallus limicola
       en: Rallus limicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

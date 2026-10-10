@@ -9,7 +9,6 @@ records:
     name:
       zh: Emoia digul
       en: Emoia digul
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

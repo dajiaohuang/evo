@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelodina parkeri
       en: Chelodina parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

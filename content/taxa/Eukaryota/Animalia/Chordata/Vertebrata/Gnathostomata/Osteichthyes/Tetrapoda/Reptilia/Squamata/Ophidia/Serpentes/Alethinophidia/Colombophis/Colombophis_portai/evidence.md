@@ -9,7 +9,6 @@ records:
     name:
       zh: Colombophis portai
       en: Colombophis portai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

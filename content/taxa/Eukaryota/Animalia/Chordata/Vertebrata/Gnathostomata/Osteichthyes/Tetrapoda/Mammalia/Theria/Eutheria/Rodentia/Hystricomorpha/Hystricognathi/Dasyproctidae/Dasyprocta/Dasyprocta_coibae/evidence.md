@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasyprocta coibae
       en: Dasyprocta coibae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

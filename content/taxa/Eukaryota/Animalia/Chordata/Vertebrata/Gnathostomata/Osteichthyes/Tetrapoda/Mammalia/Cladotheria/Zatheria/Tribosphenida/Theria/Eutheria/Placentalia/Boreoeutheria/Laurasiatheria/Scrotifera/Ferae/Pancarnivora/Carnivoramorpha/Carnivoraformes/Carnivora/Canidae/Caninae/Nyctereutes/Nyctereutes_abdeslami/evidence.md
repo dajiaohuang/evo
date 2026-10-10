@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctereutes abdeslami
       en: Nyctereutes abdeslami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

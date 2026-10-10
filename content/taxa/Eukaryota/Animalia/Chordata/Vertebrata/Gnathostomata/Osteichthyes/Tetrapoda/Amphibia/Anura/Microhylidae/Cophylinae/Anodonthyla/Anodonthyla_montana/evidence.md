@@ -9,7 +9,6 @@ records:
     name:
       en: Anodonthyla montana
       zh: Anodonthyla montana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

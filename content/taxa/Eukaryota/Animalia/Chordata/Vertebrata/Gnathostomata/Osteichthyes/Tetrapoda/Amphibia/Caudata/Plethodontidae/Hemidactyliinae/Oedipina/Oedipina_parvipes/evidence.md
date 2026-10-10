@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina parvipes
       zh: Oedipina parvipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

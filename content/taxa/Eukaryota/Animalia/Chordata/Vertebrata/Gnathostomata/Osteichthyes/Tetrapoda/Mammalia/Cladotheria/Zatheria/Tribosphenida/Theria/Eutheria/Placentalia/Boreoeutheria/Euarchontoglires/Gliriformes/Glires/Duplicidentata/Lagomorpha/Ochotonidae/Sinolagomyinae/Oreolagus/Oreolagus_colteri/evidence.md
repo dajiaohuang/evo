@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreolagus colteri
       en: Oreolagus colteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

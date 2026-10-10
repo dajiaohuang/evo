@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhynchaeites litoralis
       en: Rhynchaeites litoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

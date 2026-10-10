@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrolagus mbaiso
       en: Dendrolagus mbaiso
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

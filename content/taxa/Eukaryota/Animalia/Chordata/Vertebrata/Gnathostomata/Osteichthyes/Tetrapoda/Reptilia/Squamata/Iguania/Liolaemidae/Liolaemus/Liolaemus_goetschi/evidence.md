@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus goetschi
       en: Liolaemus goetschi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

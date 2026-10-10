@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx baynshirensis
       en: Trionyx baynshirensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

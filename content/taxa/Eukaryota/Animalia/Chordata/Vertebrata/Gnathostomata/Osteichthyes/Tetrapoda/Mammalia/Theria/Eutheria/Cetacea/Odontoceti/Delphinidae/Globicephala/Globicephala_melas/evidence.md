@@ -9,7 +9,6 @@ records:
     name:
       zh: Globicephala melas
       en: Globicephala melas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

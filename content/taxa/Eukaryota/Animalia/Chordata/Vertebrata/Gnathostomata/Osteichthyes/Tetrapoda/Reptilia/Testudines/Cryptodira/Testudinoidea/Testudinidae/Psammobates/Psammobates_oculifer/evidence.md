@@ -9,7 +9,6 @@ records:
     name:
       zh: Psammobates oculifer
       en: Psammobates oculifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -1,6 +1,6 @@
 # ITIS arthropod authority sidecars
 
-Release `2026.08-static-v5-rc71` adds four release-pinned, exact ITIS `2026-08-26` nomenclatural crosswalks for the declared COL26.8 arthropod scopes. They are authority sidecars, not biological dossiers, phylogenies, fossil records, expert reviews, final classifications, or assertions that ITIS and Catalogue of Life (COL) use identical species concepts.
+Release `2026.08-static-v5-rc71` adds four release-pinned, exact ITIS `2026-08-26` nomenclatural crosswalks for the declared COL26.8 arthropod scopes. They are authority sidecars, not biological dossiers, phylogenies, fossil recordss, final classifications, or assertions that ITIS and Catalogue of Life (COL) use identical species concepts.
 
 The inputs are the official ITIS monthly SQLite export `itisSqlite082626` (CC0 1.0; DOI `10.5066/F7KH0KBK`) and the immutable COL26.8 release dated 2026-08-20 (CC BY 4.0; DOI `10.48580/dgywk`). Descriptors and source ledgers pin input hashes, exact matching rules, file bytes and SHA-256 values.
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sairadelphys tocantinensis
       en: Sairadelphys tocantinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Momotus lessonii
       en: Momotus lessonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

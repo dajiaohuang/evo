@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudis minuta
       zh: Pseudis minuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

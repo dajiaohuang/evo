@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax ruberoculatus
       zh: Scinax ruberoculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

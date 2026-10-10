@@ -9,7 +9,6 @@ records:
     name:
       zh: Huberophis georgiensis
       en: Huberophis georgiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

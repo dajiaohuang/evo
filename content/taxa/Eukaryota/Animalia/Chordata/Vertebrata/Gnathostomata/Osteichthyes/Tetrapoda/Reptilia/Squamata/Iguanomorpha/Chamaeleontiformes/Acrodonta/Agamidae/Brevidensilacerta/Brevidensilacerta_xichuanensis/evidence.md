@@ -9,7 +9,6 @@ records:
     name:
       zh: Brevidensilacerta xichuanensis
       en: Brevidensilacerta xichuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

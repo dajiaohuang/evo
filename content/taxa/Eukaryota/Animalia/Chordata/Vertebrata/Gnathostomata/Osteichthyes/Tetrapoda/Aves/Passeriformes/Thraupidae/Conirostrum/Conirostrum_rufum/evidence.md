@@ -9,7 +9,6 @@ records:
     name:
       zh: Conirostrum rufum
       en: Conirostrum rufum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

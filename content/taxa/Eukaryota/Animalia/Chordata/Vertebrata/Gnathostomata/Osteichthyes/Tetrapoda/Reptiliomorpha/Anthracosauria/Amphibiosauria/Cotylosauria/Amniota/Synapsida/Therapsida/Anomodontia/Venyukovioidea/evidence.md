@@ -9,7 +9,6 @@ records:
     name:
       zh: Venyukovioidea
       en: Venyukovioidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus pictissimus
       zh: Eleutherodactylus pictissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Jaculus jaculus
       en: Jaculus jaculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

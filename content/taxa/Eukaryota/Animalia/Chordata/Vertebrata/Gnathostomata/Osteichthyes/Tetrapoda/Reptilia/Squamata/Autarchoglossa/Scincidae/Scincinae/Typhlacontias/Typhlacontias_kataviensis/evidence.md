@@ -9,7 +9,6 @@ records:
     name:
       zh: Typhlacontias kataviensis
       en: Typhlacontias kataviensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

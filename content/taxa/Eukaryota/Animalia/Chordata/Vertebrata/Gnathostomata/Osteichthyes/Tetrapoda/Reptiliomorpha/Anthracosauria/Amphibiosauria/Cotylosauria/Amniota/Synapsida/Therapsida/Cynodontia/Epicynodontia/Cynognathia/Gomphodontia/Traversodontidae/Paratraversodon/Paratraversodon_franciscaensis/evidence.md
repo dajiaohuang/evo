@@ -9,7 +9,6 @@ records:
     name:
       zh: Paratraversodon franciscaensis
       en: Paratraversodon franciscaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

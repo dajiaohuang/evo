@@ -9,7 +9,6 @@ records:
     name:
       zh: 细纹斑马
       en: Grevy’s zebra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

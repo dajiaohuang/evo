@@ -9,7 +9,6 @@ records:
     name:
       zh: Notoemys tlaxiacoensis
       en: Notoemys tlaxiacoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

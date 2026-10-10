@@ -9,7 +9,6 @@ records:
     name:
       zh: Fossorcastor greeni
       en: Fossorcastor greeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

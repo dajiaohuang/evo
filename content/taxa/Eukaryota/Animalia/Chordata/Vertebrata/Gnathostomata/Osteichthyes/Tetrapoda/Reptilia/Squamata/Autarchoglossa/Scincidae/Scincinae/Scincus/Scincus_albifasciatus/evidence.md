@@ -9,7 +9,6 @@ records:
     name:
       zh: Scincus albifasciatus
       en: Scincus albifasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

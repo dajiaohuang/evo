@@ -9,7 +9,6 @@ records:
     name:
       zh: Neafrapus cassini
       en: Neafrapus cassini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

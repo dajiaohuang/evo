@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus symingtoni
       zh: Eleutherodactylus symingtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

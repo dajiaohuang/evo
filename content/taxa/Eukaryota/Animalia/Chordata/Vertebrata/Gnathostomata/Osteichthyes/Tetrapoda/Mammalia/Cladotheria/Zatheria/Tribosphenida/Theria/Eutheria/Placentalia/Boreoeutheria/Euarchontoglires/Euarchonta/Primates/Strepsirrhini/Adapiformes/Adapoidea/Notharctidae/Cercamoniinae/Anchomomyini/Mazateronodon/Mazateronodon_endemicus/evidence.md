@@ -9,7 +9,6 @@ records:
     name:
       zh: Mazateronodon endemicus
       en: Mazateronodon endemicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

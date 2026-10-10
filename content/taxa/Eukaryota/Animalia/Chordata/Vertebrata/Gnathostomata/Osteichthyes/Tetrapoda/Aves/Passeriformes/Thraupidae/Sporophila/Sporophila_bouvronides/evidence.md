@@ -9,7 +9,6 @@ records:
     name:
       zh: Sporophila bouvronides
       en: Sporophila bouvronides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

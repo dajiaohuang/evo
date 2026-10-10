@@ -9,7 +9,6 @@ records:
     name:
       zh: Poicephalus
       en: Poicephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

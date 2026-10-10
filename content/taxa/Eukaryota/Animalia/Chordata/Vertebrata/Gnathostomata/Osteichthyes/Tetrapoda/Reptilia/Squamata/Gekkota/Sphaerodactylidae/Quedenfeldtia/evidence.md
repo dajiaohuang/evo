@@ -9,7 +9,6 @@ records:
     name:
       zh: Quedenfeldtia
       en: Quedenfeldtia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

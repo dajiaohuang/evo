@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocuta crocuta
       en: Crocuta crocuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

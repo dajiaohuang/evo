@@ -9,7 +9,6 @@ records:
     name:
       en: Elachistocleis nigrogularis
       zh: Elachistocleis nigrogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

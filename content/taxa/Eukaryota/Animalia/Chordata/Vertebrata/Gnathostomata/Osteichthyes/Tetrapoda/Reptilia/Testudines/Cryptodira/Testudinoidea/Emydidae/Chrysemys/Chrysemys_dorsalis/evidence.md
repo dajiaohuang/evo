@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysemys dorsalis
       en: Chrysemys dorsalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

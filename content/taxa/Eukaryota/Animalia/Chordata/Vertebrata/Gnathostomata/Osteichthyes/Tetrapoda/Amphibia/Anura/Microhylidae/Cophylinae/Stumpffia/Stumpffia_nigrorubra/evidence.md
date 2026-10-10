@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia nigrorubra
       zh: Stumpffia nigrorubra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

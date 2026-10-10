@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsimylus beijingensis
       en: Hypsimylus beijingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

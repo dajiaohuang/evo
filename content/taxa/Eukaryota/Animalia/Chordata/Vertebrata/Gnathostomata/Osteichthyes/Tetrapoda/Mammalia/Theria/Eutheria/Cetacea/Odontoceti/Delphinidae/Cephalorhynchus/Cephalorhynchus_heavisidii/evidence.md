@@ -9,7 +9,6 @@ records:
     name:
       zh: Cephalorhynchus heavisidii
       en: Cephalorhynchus heavisidii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

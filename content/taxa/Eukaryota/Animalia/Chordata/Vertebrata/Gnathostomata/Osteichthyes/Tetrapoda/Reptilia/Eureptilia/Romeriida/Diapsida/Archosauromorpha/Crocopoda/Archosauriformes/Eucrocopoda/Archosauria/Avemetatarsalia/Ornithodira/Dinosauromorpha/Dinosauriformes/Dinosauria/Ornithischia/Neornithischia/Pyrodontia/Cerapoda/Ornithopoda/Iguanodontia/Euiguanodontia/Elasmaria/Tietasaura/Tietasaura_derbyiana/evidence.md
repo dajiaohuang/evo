@@ -9,7 +9,6 @@ records:
     name:
       zh: Tietasaura derbyiana
       en: Tietasaura derbyiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachuperus yenyuanensis
       zh: Batrachuperus yenyuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

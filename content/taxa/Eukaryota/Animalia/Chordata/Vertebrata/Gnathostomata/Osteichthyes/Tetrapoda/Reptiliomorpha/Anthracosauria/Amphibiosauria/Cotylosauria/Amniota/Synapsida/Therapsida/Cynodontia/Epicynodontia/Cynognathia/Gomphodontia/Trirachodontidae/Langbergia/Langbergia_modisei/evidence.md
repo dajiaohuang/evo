@@ -9,7 +9,6 @@ records:
     name:
       zh: Langbergia modisei
       en: Langbergia modisei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

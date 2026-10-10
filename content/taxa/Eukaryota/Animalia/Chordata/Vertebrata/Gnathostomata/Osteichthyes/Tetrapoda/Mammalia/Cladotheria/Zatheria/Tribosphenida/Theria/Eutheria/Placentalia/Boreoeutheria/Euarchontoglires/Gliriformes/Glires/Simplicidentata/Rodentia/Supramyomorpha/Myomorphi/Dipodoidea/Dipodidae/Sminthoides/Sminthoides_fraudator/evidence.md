@@ -9,7 +9,6 @@ records:
     name:
       zh: Sminthoides fraudator
       en: Sminthoides fraudator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

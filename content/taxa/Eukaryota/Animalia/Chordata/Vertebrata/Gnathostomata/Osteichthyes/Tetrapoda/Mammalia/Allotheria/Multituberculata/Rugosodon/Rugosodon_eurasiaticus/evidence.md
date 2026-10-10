@@ -9,7 +9,6 @@ records:
     name:
       zh: Rugosodon eurasiaticus
       en: Rugosodon eurasiaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mustela putorius
       en: Mustela putorius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

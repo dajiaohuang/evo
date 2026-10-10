@@ -9,7 +9,6 @@ records:
     name:
       en: Spinomantis nussbaumi
       zh: Spinomantis nussbaumi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

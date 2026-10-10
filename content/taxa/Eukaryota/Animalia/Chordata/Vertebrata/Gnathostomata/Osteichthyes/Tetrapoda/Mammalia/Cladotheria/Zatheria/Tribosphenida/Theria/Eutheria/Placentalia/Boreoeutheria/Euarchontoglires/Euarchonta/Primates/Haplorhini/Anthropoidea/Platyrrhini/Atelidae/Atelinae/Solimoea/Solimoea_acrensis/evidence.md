@@ -9,7 +9,6 @@ records:
     name:
       zh: Solimoea acrensis
       en: Solimoea acrensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

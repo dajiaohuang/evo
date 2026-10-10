@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophaetus occipitalis
       en: Lophaetus occipitalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

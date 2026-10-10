@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus microcephalus
       zh: Dendropsophus microcephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

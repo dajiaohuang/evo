@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus limbus
       zh: Pseudophilautus limbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

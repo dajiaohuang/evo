@@ -9,7 +9,6 @@ records:
     name:
       zh: 明打威叶猴
       en: Mentawai Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

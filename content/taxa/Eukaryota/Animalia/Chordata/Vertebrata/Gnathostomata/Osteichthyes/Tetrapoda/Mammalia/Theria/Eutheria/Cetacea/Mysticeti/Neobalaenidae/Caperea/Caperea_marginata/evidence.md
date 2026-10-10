@@ -9,7 +9,6 @@ records:
     name:
       zh: Caperea marginata
       en: Caperea marginata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

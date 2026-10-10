@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyornis ruckii
       en: Cyornis ruckii
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

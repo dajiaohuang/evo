@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina collaris
       zh: Oedipina collaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

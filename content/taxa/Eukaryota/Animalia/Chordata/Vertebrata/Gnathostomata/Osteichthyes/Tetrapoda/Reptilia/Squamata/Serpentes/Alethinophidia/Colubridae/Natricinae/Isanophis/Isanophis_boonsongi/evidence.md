@@ -9,7 +9,6 @@ records:
     name:
       zh: Isanophis boonsongi
       en: Isanophis boonsongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

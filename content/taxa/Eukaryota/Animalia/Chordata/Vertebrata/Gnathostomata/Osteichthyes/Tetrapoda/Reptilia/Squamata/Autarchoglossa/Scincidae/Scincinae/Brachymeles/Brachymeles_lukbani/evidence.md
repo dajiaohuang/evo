@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachymeles lukbani
       en: Brachymeles lukbani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

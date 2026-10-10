@@ -9,7 +9,6 @@ records:
     name:
       en: Dryophytes avivoca
       zh: Dryophytes avivoca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

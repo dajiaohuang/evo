@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis illotus
       zh: Pristimantis illotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

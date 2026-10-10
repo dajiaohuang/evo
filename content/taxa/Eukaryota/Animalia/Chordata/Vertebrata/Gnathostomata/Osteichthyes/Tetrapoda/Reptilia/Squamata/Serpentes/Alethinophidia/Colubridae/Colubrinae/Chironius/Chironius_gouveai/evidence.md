@@ -9,7 +9,6 @@ records:
     name:
       zh: Chironius gouveai
       en: Chironius gouveai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

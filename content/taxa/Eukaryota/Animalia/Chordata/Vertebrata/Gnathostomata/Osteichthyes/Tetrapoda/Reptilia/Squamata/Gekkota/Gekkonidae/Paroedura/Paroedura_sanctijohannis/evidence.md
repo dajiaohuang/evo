@@ -9,7 +9,6 @@ records:
     name:
       zh: Paroedura sanctijohannis
       en: Paroedura sanctijohannis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Fratercula arctica
       en: Fratercula arctica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

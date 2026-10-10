@@ -9,7 +9,6 @@ records:
     name:
       en: Barygenys resima
       zh: Barygenys resima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

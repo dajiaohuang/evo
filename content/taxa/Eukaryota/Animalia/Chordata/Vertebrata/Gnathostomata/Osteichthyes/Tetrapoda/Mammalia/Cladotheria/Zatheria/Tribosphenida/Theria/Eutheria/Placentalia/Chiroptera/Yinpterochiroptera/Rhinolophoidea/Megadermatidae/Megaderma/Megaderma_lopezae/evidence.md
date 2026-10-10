@@ -9,7 +9,6 @@ records:
     name:
       zh: Megaderma lopezae
       en: Megaderma lopezae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

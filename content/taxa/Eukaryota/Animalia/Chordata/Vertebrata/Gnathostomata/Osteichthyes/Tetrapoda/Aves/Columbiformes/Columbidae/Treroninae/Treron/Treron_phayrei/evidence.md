@@ -9,7 +9,6 @@ records:
     name:
       zh: Treron phayrei
       en: Treron phayrei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sarcolestes leedsi
       en: Sarcolestes leedsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

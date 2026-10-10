@@ -9,7 +9,6 @@ records:
     name:
       zh: Neurankylus lithographicus
       en: Neurankylus lithographicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

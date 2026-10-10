@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis tarutaoensis
       en: Cnemaspis tarutaoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

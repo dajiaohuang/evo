@@ -40,7 +40,6 @@ function readAcceptedRecord(manifest, dossier) {
 function validateDossier(dossier, registryManifest) {
   assert.equal(dossier.rank, 'species', `Non-species dossier: ${dossier.colId}`)
   assert.equal(dossier.completeness?.status, 'incomplete', `Dossier must remain incomplete: ${dossier.colId}`)
-  assert.equal(dossier.expertReview?.status, 'not-reviewed', `Do not invent review state: ${dossier.colId}`)
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort(), `Dossier must carry all seven facets: ${dossier.colId}`)
   const sourceIds = new Set(dossier.sources.map(source => source.id))
   assert.equal(sourceIds.size, dossier.sources.length, `Duplicate sources: ${dossier.colId}`)

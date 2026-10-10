@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus delatorreae
       zh: Hyloxalus delatorreae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

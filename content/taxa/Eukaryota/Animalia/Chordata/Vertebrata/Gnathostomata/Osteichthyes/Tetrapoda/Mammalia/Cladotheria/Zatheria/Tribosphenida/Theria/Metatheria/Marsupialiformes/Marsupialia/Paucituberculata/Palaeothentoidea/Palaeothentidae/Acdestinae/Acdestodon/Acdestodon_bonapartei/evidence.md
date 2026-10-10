@@ -9,7 +9,6 @@ records:
     name:
       zh: Acdestodon bonapartei
       en: Acdestodon bonapartei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

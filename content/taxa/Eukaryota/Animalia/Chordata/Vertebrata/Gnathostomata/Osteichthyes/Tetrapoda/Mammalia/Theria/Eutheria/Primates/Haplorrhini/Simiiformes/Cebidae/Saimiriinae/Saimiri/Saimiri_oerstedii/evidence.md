@@ -9,7 +9,6 @@ records:
     name:
       zh: 中美松鼠猴
       en: Central American Squirrel Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: habitat

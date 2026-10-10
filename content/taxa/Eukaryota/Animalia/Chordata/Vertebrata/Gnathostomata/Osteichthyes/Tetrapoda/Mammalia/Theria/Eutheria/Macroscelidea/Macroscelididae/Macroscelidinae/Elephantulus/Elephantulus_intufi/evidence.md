@@ -9,7 +9,6 @@ records:
     name:
       zh: Elephantulus intufi
       en: Elephantulus intufi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -87,9 +87,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: nel-2013-eumetabola-fossils DOI-linked primary source
       referenceLinks:
         - referenceId: nel-2013-eumetabola-fossils
           relation: supports

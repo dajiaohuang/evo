@@ -9,7 +9,6 @@ records:
     name:
       zh: Apeomys asiaticus
       en: Apeomys asiaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Larutia sumatrensis
       en: Larutia sumatrensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Notoetayoa gargantuai
       en: Notoetayoa gargantuai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

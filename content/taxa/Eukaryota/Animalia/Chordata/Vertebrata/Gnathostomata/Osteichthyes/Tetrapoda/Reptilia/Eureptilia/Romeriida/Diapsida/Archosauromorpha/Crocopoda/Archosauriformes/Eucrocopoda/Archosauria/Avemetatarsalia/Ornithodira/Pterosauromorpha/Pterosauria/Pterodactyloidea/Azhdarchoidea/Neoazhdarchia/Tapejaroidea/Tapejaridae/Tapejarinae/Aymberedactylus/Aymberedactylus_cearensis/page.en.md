@@ -99,5 +99,5 @@ The database collection uses abbreviated attribution Pegas et al. (2016), refere
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-All five scientific main sections and textual figure captions of the 2016 description, plus the complete genus account in the 2025 review, were read. Images, physical specimens, supplementary matrices and later primary relationship studies were not independently examined. Damage, compression, wingspan scaling, subadult interpretation, function and biogeographic hypotheses retain their scopes. Complete development, body anatomy and diet remain incomplete. A full monograph, external expert review and reader-facing delivery are pending.
+All five scientific main sections and textual figure captions of the 2016 description, plus the complete genus account in the 2025 review, were read. Images, physical specimens, supplementary matrices and later primary relationship studies were not independently examined. Damage, compression, wingspan scaling, subadult interpretation, function and biogeographic hypotheses retain their scopes. Complete development, body anatomy and diet remain incomplete. A full monograph and reader-facing delivery are pending.
 <!-- /evo:text -->

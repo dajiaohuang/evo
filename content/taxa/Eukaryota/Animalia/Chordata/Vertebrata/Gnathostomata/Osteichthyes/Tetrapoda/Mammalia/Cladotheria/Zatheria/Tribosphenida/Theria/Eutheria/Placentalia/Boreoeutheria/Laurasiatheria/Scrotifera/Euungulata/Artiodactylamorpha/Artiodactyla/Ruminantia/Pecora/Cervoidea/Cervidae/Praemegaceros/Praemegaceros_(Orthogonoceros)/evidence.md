@@ -9,7 +9,6 @@ records:
     name:
       zh: Praemegaceros (Orthogonoceros)
       en: Praemegaceros (Orthogonoceros)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

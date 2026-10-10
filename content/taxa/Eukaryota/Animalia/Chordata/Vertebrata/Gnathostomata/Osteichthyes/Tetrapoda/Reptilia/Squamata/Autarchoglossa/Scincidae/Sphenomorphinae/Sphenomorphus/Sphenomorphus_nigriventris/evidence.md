@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus nigriventris
       en: Sphenomorphus nigriventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

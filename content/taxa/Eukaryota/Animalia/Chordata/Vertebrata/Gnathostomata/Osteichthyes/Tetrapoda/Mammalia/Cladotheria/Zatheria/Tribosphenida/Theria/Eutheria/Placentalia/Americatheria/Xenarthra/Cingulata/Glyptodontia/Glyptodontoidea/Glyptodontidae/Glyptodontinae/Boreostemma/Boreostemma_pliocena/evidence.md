@@ -9,7 +9,6 @@ records:
     name:
       zh: Boreostemma pliocena
       en: Boreostemma pliocena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sporophila fringilloides
       en: Sporophila fringilloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

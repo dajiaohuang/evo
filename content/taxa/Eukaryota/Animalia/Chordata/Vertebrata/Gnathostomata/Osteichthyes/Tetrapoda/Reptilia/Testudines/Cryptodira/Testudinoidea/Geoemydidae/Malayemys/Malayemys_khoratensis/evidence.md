@@ -9,7 +9,6 @@ records:
     name:
       zh: Malayemys khoratensis
       en: Malayemys khoratensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

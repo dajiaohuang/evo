@@ -9,7 +9,6 @@ records:
     name:
       zh: Blainvillimys gemellus
       en: Blainvillimys gemellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

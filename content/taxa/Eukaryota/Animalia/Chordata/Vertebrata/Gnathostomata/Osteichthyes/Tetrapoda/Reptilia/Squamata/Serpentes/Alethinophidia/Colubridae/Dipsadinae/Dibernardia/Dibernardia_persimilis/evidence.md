@@ -9,7 +9,6 @@ records:
     name:
       zh: Dibernardia persimilis
       en: Dibernardia persimilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

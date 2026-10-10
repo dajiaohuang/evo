@@ -9,7 +9,6 @@ records:
     name:
       zh: Alioramus sinensis
       en: Alioramus sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

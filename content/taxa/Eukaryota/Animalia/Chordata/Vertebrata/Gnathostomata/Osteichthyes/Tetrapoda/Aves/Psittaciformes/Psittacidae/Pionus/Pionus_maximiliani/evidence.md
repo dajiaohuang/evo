@@ -9,7 +9,6 @@ records:
     name:
       zh: Pionus maximiliani
       en: Pionus maximiliani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Alces alces
       en: Alces alces
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

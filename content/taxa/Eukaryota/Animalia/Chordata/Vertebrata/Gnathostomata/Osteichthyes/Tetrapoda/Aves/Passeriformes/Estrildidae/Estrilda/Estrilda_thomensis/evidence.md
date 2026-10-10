@@ -9,7 +9,6 @@ records:
     name:
       zh: Estrilda thomensis
       en: Estrilda thomensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

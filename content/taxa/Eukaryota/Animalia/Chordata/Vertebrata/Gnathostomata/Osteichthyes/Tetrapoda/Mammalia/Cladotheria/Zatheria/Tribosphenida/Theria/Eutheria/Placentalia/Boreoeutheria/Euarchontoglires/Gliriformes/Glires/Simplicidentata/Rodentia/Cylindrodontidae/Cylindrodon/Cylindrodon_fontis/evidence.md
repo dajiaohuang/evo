@@ -9,7 +9,6 @@ records:
     name:
       zh: Cylindrodon fontis
       en: Cylindrodon fontis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,6 +9,23 @@ const source = { title: 'Flora de Nicaragua', sourceUrl: 'https://example.org/so
 const manifest = { releaseAlias: 'COL26.8', knowledge: {}, sanbiDescriptions: { source }, nicaraguaDescriptions: { source }, panamaDescriptions: { source }, plaziDescriptions: { source } } as unknown as CatalogueRuntimeManifest
 beforeEach(() => { Object.values(mocks).forEach(mock => mock.mockReset().mockResolvedValue(null)) })
 
+it('renders source-linked introductions after editorial source scopes are removed', async () => {
+  const record: CatalogueKnowledgeRecord = {
+    colId: 'species', descriptionCollections: [],
+    profile: {
+      colId: 'species', scientificName: 'Example species', rank: 'species', sourceDatasetId: null,
+      name: { en: 'Example species', zh: '示例种' }, checkedAt: '2026-10-11',
+      sections: [{ topic: 'identity', text: { en: 'Source-linked text.', zh: '来源正文。' }, sourceIds: ['source'] }],
+      sources: [{ id: 'source', title: 'Original source', url: 'https://example.org/source' }],
+      limitations: { en: 'Names only.', zh: '仅名称。' },
+    },
+  }
+  mocks.loadCatalogueKnowledge.mockResolvedValue(record)
+  render(<CatalogueContent id="species" rank="species" manifest={manifest} zh={false} />)
+  expect(await screen.findByText('Source-linked text.')).toBeInTheDocument()
+  expect(screen.getAllByRole('link', { name: 'Original source' })).toHaveLength(2)
+})
+
 it('checks one index and skips all description collections when content is absent', async () => {
   render(<CatalogueContent id="species" rank="species" manifest={manifest} zh={false} />)
   expect(await screen.findByText(/does not mean the species is unstudied/)).toBeInTheDocument()

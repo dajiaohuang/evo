@@ -38,5 +38,5 @@ acanthizoides 四只雌二雄二，完整四只；parens 两只均雌、完整�
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-七条所选历史行不计十二个目录直接子项的完整内容；来源 Scotocercidae 与当前 Cettiidae 分开，六逐字 Cettia 异名与 brunnescens 的未确认旧组合分开。两只雌鸟、性别未定鸟、完整测量和独立体重保留分母；不补实测食谱、迁移类型、路线、繁殖、完整自然史或专家审评。
+七条所选历史行不计十二个目录直接子项的完整内容；来源 Scotocercidae 与当前 Cettiidae 分开，六逐字 Cettia 异名与 brunnescens 的未确认旧组合分开。两只雌鸟、性别未定鸟、完整测量和独立体重保留分母；不补实测食谱、迁移类型、路线、繁殖、完整自然史。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenastrapotherium kraglievichi
       en: Xenastrapotherium kraglievichi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

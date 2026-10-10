@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoniscus papuensis
       en: Phoniscus papuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

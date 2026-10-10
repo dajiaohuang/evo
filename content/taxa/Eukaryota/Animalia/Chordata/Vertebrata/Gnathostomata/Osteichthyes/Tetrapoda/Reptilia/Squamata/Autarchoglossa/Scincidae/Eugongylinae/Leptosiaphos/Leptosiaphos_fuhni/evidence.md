@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptosiaphos fuhni
       en: Leptosiaphos fuhni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

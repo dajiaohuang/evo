@@ -9,7 +9,6 @@ records:
     name:
       zh: Coeligena phalerata
       en: Coeligena phalerata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

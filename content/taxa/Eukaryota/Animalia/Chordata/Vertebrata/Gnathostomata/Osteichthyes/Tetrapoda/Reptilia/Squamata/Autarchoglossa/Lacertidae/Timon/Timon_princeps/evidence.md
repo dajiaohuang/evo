@@ -9,7 +9,6 @@ records:
     name:
       zh: Timon princeps
       en: Timon princeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

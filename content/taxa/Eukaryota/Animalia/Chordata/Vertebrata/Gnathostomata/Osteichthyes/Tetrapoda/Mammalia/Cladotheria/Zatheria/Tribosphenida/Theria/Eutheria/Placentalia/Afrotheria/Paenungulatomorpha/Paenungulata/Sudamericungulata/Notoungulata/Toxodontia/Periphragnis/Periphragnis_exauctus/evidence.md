@@ -9,7 +9,6 @@ records:
     name:
       zh: Periphragnis exauctus
       en: Periphragnis exauctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

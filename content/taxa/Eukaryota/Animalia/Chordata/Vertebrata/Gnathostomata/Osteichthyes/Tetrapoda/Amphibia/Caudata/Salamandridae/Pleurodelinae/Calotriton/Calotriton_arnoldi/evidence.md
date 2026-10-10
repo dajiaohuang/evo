@@ -9,7 +9,6 @@ records:
     name:
       en: Calotriton arnoldi
       zh: Calotriton arnoldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

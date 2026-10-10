@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius bakan
       zh: Hynobius bakan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

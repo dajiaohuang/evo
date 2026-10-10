@@ -9,7 +9,6 @@ records:
     name:
       zh: Litodonomys lajeensis
       en: Litodonomys lajeensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

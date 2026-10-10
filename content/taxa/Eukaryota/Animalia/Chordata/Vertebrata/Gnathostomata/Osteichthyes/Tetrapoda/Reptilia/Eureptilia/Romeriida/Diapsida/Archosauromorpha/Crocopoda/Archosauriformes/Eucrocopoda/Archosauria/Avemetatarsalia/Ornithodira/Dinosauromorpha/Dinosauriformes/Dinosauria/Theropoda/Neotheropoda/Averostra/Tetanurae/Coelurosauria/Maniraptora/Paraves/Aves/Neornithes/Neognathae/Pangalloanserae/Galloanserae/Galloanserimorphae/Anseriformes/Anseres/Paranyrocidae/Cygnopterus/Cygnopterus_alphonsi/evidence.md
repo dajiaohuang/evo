@@ -9,7 +9,6 @@ records:
     name:
       zh: Cygnopterus alphonsi
       en: Cygnopterus alphonsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

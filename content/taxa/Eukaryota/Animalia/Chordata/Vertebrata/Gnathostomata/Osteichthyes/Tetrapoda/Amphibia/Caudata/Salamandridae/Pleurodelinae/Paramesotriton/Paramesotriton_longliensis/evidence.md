@@ -9,7 +9,6 @@ records:
     name:
       en: Paramesotriton longliensis
       zh: Paramesotriton longliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptenochirus minor
       en: Ptenochirus minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cygnus (Olor)
       en: Cygnus (Olor)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

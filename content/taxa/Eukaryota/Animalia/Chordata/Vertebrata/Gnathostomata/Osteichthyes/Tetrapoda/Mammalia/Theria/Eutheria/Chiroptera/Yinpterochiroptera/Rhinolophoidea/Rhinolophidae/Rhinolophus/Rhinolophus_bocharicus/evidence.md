@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus bocharicus
       en: Rhinolophus bocharicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

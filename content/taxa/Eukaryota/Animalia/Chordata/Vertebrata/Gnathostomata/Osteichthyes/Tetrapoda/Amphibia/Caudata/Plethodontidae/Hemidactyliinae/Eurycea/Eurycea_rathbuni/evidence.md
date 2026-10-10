@@ -9,7 +9,6 @@ records:
     name:
       en: Eurycea rathbuni
       zh: Eurycea rathbuni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

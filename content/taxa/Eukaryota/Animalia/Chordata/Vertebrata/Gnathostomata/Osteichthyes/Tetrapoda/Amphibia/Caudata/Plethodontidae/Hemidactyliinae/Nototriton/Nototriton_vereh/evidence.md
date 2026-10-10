@@ -9,7 +9,6 @@ records:
     name:
       en: Nototriton vereh
       zh: Nototriton vereh
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

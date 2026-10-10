@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucricetodon huberi
       en: Eucricetodon huberi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

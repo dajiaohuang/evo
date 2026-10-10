@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinoceros sinensis
       en: Rhinoceros sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

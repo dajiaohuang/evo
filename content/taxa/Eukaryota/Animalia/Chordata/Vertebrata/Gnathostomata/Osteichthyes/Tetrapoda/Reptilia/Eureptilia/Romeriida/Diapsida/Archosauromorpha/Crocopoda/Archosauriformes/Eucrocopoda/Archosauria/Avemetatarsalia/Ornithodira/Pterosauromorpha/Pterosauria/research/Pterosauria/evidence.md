@@ -155,9 +155,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: witton-habib-2010-giant-pterosaur-flight
           relation: contextualizes
@@ -180,9 +177,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Dalla Vecchia 2009 DOI 10.13130/2039-4942/6377; audited for 2026.08-static-v5-rc40
       referenceLinks:
         - referenceId: dalla-vecchia-2009-carniadactylus
           relation: supports
@@ -201,9 +195,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: witton-habib-2010-giant-pterosaur-flight
           relation: contextualizes
@@ -227,9 +218,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: witton-habib-2010-giant-pterosaur-flight
           relation: supports
@@ -248,9 +236,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: witton-habib-2010-giant-pterosaur-flight
           relation: supports
@@ -304,7 +289,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

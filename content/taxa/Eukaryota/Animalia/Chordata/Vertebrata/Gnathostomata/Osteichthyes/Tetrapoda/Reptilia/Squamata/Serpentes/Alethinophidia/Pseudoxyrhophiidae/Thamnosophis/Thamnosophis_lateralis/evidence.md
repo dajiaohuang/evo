@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnosophis lateralis
       en: Thamnosophis lateralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

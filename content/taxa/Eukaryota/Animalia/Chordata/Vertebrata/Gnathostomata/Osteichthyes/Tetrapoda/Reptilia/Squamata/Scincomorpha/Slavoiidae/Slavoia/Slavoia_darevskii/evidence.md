@@ -9,7 +9,6 @@ records:
     name:
       zh: Slavoia darevskii
       en: Slavoia darevskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

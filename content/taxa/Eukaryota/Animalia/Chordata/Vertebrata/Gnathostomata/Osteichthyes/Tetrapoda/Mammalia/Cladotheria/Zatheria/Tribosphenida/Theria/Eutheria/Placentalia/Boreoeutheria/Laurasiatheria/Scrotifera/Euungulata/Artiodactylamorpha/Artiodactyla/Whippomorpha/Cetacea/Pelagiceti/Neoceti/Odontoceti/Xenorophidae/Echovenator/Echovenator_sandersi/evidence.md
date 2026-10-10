@@ -9,7 +9,6 @@ records:
     name:
       zh: Echovenator sandersi
       en: Echovenator sandersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

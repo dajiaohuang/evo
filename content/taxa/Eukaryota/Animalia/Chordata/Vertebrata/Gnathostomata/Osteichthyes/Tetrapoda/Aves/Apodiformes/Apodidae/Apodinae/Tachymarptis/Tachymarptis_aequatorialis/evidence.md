@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachymarptis aequatorialis
       en: Tachymarptis aequatorialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

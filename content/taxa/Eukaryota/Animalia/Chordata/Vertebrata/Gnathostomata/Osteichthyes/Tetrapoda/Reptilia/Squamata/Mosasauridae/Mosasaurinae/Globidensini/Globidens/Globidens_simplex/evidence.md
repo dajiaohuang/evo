@@ -9,7 +9,6 @@ records:
     name:
       zh: Globidens simplex
       en: Globidens simplex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

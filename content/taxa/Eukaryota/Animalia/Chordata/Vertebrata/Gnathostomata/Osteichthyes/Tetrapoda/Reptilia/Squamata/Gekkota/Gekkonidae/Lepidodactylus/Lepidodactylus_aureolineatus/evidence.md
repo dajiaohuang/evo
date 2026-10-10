@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidodactylus aureolineatus
       en: Lepidodactylus aureolineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

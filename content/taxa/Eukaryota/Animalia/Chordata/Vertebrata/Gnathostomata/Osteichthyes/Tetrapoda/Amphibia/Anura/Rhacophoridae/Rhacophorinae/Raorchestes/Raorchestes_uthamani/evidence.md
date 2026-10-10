@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes uthamani
       zh: Raorchestes uthamani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

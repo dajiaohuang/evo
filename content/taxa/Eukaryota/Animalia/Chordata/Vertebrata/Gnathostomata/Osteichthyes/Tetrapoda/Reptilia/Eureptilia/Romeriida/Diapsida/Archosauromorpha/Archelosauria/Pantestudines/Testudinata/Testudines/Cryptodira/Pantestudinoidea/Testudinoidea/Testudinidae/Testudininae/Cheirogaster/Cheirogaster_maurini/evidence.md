@@ -9,7 +9,6 @@ records:
     name:
       zh: Cheirogaster maurini
       en: Cheirogaster maurini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

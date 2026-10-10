@@ -9,7 +9,6 @@ records:
     name:
       zh: Grammomys aridulus
       en: Grammomys aridulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

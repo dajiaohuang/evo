@@ -9,7 +9,6 @@ records:
     name:
       zh: Siamochoerus
       en: Siamochoerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

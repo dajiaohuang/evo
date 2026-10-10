@@ -9,7 +9,6 @@ records:
     name:
       zh: Aletomeryx occidentalis
       en: Aletomeryx occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

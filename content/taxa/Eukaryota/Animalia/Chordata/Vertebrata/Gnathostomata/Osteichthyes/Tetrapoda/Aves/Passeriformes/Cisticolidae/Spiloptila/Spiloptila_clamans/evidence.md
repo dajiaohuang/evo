@@ -9,7 +9,6 @@ records:
     name:
       zh: Spiloptila clamans
       en: Spiloptila clamans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

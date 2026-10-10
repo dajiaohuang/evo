@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseuderemias erythrosticta
       en: Pseuderemias erythrosticta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

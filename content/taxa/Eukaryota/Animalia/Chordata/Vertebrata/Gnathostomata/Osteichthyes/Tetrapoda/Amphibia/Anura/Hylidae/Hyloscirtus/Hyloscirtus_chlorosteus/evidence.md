@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus chlorosteus
       zh: Hyloscirtus chlorosteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

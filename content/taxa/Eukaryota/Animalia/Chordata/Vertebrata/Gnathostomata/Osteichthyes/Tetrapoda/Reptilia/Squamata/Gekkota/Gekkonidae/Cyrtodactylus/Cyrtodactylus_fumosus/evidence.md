@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus fumosus
       en: Cyrtodactylus fumosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

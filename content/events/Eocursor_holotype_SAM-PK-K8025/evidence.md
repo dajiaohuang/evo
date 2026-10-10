@@ -84,9 +84,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: butler-2007-eocursor @ DOI 10.1098/rspb.2007.0367
       referenceLinks:
         - referenceId: butler-2007-eocursor
           relation: supports

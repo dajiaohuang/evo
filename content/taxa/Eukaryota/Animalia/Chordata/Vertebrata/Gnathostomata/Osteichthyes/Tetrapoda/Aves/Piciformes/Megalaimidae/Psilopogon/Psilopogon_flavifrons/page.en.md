@@ -40,5 +40,5 @@ Insessorial means primarily perching above ground on branches or other substrate
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This guide uses selected historical AVONET v7 rows, two name crosswalks, relevant Metadata definitions and local COL name shards. Morphometric means and compiled mass have separate denominators; one-to-one names and catalogue synonyms do not prove identical concepts across dates. Individual specimens, the whole workbook, Dunning’s book and a new full methods-paper reading were not examined. Nest cavities, breeding, calls, plumage identification, current range and conservation status remain unsupported here. No expert review or complete natural-history monograph is counted.
+This guide uses selected historical AVONET v7 rows, two name crosswalks, relevant Metadata definitions and local COL name shards. Morphometric means and compiled mass have separate denominators; one-to-one names and catalogue synonyms do not prove identical concepts across dates. Individual specimens, the whole workbook, Dunning’s book and a new full methods-paper reading were not examined. Nest cavities, breeding, calls, plumage identification, current range and conservation status remain unsupported here.
 <!-- /evo:text -->

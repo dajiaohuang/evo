@@ -9,7 +9,6 @@ records:
     name:
       zh: Psarisomus dalhousiae
       en: Psarisomus dalhousiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema izecksohni
       zh: Ischnocnema izecksohni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

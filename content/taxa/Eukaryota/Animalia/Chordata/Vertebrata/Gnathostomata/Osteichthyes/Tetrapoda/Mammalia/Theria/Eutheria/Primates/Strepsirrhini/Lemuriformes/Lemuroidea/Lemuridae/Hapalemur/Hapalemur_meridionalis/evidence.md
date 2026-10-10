@@ -9,7 +9,6 @@ records:
     name:
       zh: 南部竹狐猴
       en: Southern Bamboo Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

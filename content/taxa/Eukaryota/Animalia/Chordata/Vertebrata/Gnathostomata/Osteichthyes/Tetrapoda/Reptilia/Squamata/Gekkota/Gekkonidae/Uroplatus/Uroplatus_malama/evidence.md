@@ -9,7 +9,6 @@ records:
     name:
       zh: Uroplatus malama
       en: Uroplatus malama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

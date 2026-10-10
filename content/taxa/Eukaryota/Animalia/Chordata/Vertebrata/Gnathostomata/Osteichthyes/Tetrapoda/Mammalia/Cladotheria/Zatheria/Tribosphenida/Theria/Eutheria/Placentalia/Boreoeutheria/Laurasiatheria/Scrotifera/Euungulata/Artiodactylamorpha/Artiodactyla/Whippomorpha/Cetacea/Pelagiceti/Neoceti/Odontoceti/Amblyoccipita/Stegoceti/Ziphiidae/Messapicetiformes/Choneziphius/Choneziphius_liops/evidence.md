@@ -9,7 +9,6 @@ records:
     name:
       zh: Choneziphius liops
       en: Choneziphius liops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

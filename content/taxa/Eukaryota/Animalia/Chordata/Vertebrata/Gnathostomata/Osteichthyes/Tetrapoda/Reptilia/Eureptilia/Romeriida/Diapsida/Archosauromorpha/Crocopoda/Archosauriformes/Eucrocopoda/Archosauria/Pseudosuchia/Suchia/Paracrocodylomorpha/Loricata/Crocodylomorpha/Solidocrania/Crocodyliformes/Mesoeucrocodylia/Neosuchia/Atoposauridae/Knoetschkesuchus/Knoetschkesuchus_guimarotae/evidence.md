@@ -9,7 +9,6 @@ records:
     name:
       zh: Knoetschkesuchus guimarotae
       en: Knoetschkesuchus guimarotae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

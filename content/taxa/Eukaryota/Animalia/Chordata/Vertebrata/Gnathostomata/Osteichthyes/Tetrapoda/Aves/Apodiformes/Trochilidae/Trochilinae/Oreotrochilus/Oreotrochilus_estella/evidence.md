@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreotrochilus estella
       en: Oreotrochilus estella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

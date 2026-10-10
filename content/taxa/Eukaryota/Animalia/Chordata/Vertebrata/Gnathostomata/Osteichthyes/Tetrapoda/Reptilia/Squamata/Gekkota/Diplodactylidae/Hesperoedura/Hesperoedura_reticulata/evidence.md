@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperoedura reticulata
       en: Hesperoedura reticulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

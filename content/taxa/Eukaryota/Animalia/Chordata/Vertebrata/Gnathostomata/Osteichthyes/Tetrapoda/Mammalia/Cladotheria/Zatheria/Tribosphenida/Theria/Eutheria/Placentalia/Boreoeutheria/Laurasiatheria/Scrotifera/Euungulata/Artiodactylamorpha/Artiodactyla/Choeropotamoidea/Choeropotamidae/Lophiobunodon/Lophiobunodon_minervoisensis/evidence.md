@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophiobunodon minervoisensis
       en: Lophiobunodon minervoisensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

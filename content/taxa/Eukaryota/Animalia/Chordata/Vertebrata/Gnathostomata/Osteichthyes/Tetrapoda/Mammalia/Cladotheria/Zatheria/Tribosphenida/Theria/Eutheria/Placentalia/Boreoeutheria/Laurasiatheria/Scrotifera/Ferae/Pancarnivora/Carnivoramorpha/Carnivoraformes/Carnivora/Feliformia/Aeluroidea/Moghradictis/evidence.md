@@ -9,7 +9,6 @@ records:
     name:
       zh: Moghradictis
       en: Moghradictis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops wuyiensis
       zh: Amolops wuyiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

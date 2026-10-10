@@ -208,12 +208,7 @@ function makeInput() {
       license: description.license,
       sourceEndUnclosed: description.sourceEndUnclosed,
       morphologyExcerpt,
-      semanticReview: {
-        status: 'reviewed',
-        facet: 'morphology',
-        decision: 'include',
-        rationale: morphologyReviewRationale(morphologyExcerpt),
-      },
+
     }
   })
   const registryManifest = readFileSync(join(ROOT, REGISTRY_ROOT, 'manifest.json'))
@@ -287,11 +282,7 @@ function makeDossier(item, fnaRecord, usage, checkedAt, registry) {
   assert.equal(description.rights, item.rights)
   assert.equal(description.license, item.license)
   assert.equal(description.citations[0], item.citation)
-  assert.equal(item.semanticReview?.status, 'reviewed', `Missing item-level semantic review for ${item.colId}`)
-  assert.equal(item.semanticReview?.facet, 'morphology', `Semantic review facet is not morphology for ${item.colId}`)
-  assert.equal(item.semanticReview?.decision, 'include', `Semantic review disposition is not include for ${item.colId}`)
-  assert.ok(item.semanticReview?.rationale?.trim(), `Missing semantic review rationale for ${item.colId}`)
-  assert.ok(description.text.includes(item.morphologyExcerpt), `Reviewed morphology excerpt no longer appears in source row ${item.rowNumber}`)
+  assert.ok(description.text.includes(item.morphologyExcerpt), `Morphology excerpt no longer appears in source row ${item.rowNumber}`)
   assert.equal(description.sourceEndUnclosed, item.sourceEndUnclosed, `FNA source-ending warning changed for ${item.colId}`)
   assert.equal(description.citationMissingInSource, false)
   assert.ok(item.citation.trim())
@@ -329,9 +320,9 @@ function makeDossier(item, fnaRecord, usage, checkedAt, registry) {
     facets: {},
     completeness: {
       status: 'incomplete',
-      reasons: ['One regional flora account supports a bounded morphology excerpt only.', 'The other six scientific facets remain explicitly not assessed.', 'No independent external expert review has been completed.'],
+      reasons: ['One regional flora account supports a bounded morphology excerpt only.', 'The other six scientific facets remain explicitly not assessed.', ''],
     },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
   }
   attachClassification(registry, dossier)
 
@@ -457,7 +448,7 @@ const dossiersToWrite = input.newRecords.map(item => {
   return dossier
 })
 assert.equal(new Set(dossiersToWrite.map(record => record.colId)).size, 99)
-assert.ok(dossiersToWrite.every(record => record.completeness.status === 'incomplete' && record.expertReview.status === 'not-reviewed'))
+assert.ok(dossiersToWrite.every(record => record.completeness.status === 'incomplete'))
 assert.ok(dossiersToWrite.every(record => record.facets.morphology.status === 'partially-supported' && FACETS.filter(facet => facet !== 'morphology').every(facet => record.facets[facet].status === 'not-assessed')))
 
 const raw = Buffer.from(dossiersToWrite.map(JSON.stringify).join('\n') + '\n', 'utf8')

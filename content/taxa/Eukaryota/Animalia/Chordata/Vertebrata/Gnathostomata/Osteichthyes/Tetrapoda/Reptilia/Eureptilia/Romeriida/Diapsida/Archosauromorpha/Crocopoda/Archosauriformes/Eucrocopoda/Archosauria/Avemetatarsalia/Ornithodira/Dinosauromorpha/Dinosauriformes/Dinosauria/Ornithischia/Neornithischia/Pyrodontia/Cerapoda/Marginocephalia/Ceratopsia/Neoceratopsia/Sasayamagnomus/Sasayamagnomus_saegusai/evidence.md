@@ -9,7 +9,6 @@ records:
     name:
       zh: Sasayamagnomus saegusai
       en: Sasayamagnomus saegusai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

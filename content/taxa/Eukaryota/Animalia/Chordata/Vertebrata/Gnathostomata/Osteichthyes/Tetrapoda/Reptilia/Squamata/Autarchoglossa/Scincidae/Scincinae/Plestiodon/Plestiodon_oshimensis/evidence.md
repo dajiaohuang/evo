@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon oshimensis
       en: Plestiodon oshimensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

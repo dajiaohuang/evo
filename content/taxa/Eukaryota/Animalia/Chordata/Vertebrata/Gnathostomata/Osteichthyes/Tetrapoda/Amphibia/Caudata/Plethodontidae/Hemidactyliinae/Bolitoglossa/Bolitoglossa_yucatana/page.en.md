@@ -258,7 +258,7 @@ primary-pmc10654480-mdsz
 <!-- /evo:text -->
 
 <!-- evo:text /records/catalogue-profile/sections/8/text/en -->
-The 2023 study ranked Bolitoglossa yucatana highest for genetic diversity estimated from its ddRAD loci among the sampled bolitoglossine species. The study deliberately sequenced one individual per species and estimated diversity only at loci containing at least one heterozygous site, using the median across loci. Low coverage could miss one allele and rare variants, and the authors considered ddRAD diversity likely underestimated. This ranking is therefore specific to the sampled individual, loci and comparison set. It is not a population-wide allele-frequency estimate, a ranking across all salamanders, a measured adaptation rate or evidence of present demographic security. The pooled ddRAD range is not reported as a numerical value for yucatana without reviewing the appendix.
+The 2023 study ranked Bolitoglossa yucatana highest for genetic diversity estimated from its ddRAD loci among the sampled bolitoglossine species. The study deliberately sequenced one individual per species and estimated diversity only at loci containing at least one heterozygous site, using the median across loci. Low coverage could miss one allele and rare variants, and the authors considered ddRAD diversity likely underestimated. This ranking is therefore specific to the sampled individual, loci and comparison set. It is not a population-wide allele-frequency estimate, a ranking across all salamanders, a measured adaptation rate or evidence of present demographic security. The pooled ddRAD range is not reported as a numerical value for yucatanaing the appendix.
 <!-- /evo:text -->
 
 <!-- evo:text /records/catalogue-profile/sections/9/topic -->
@@ -312,13 +312,13 @@ The authors place this species among six Bolitoglossa with broad ERV divergence 
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial study-scoped biological reader. Remaining biological facets require further evidence. Not externally expert-reviewed.
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary
 
 <!-- evo:text /records/catalogue-profile/primaryStudyScopes/0/sectionEvidence/0/evidenceSummary/en -->
-The 2023 study ranked Bolitoglossa yucatana highest for genetic diversity estimated from its ddRAD loci among the sampled bolitoglossine species. The study deliberately sequenced one individual per species and estimated diversity only at loci containing at least one heterozygous site, using the median across loci. Low coverage could miss one allele and rare variants, and the authors considered ddRAD diversity likely underestimated. This ranking is therefore specific to the sampled individual, loci and comparison set. It is not a population-wide allele-frequency estimate, a ranking across all salamanders, a measured adaptation rate or evidence of present demographic security. The pooled ddRAD range is not reported as a numerical value for yucatana without reviewing the appendix.
+The 2023 study ranked Bolitoglossa yucatana highest for genetic diversity estimated from its ddRAD loci among the sampled bolitoglossine species. The study deliberately sequenced one individual per species and estimated diversity only at loci containing at least one heterozygous site, using the median across loci. Low coverage could miss one allele and rare variants, and the authors considered ddRAD diversity likely underestimated. This ranking is therefore specific to the sampled individual, loci and comparison set. It is not a population-wide allele-frequency estimate, a ranking across all salamanders, a measured adaptation rate or evidence of present demographic security. The pooled ddRAD range is not reported as a numerical value for yucatanaing the appendix.
 <!-- /evo:text -->
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary

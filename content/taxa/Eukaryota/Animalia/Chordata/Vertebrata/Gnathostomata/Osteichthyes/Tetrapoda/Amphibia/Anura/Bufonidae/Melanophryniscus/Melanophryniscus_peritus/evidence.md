@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus peritus
       zh: Melanophryniscus peritus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidophyma gaigeae
       en: Lepidophyma gaigeae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

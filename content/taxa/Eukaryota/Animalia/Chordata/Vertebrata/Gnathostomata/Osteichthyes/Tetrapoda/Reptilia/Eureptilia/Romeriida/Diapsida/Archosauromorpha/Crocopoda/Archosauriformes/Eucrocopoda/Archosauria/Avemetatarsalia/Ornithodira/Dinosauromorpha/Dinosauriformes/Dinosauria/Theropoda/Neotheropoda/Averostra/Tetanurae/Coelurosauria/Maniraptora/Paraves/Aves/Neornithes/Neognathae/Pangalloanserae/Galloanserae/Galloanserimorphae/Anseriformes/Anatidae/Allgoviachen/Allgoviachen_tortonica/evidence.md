@@ -9,7 +9,6 @@ records:
     name:
       zh: Allgoviachen tortonica
       en: Allgoviachen tortonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

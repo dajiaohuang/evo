@@ -9,7 +9,6 @@ records:
     name:
       zh: Microcosmodon arcuatus
       en: Microcosmodon arcuatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

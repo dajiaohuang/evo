@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus leali
       zh: Dendropsophus leali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

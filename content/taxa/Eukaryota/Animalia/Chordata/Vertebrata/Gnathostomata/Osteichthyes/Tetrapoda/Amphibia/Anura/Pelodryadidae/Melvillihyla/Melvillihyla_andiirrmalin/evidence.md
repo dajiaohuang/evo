@@ -9,7 +9,6 @@ records:
     name:
       en: Melvillihyla andiirrmalin
       zh: Melvillihyla andiirrmalin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

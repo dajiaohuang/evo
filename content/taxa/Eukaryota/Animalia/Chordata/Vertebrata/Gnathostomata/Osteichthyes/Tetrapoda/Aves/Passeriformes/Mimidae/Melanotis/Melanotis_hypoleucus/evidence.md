@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanotis hypoleucus
       en: Melanotis hypoleucus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

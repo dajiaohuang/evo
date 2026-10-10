@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis scitulus
       zh: Pristimantis scitulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

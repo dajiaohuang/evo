@@ -9,7 +9,6 @@ records:
     name:
       zh: Problastomeryx
       en: Problastomeryx
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

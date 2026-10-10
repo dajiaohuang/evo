@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis atricollaris
       zh: Ichthyophis atricollaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

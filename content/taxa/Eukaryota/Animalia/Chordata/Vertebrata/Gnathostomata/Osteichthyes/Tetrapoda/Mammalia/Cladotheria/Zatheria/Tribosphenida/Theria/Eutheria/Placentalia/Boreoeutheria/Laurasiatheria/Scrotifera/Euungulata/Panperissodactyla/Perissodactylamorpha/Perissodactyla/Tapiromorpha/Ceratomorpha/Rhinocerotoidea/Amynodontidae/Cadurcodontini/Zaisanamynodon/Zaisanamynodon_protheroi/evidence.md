@@ -9,7 +9,6 @@ records:
     name:
       zh: Zaisanamynodon protheroi
       en: Zaisanamynodon protheroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

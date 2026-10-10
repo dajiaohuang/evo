@@ -9,7 +9,6 @@ records:
     name:
       zh: Delapparentia turolensis
       en: Delapparentia turolensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

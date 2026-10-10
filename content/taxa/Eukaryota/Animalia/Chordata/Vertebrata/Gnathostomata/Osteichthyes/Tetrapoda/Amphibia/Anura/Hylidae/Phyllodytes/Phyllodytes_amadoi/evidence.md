@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllodytes amadoi
       zh: Phyllodytes amadoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Paramesotriton chinensis
       zh: Paramesotriton chinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

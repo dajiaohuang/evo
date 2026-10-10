@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys yangmingensis
       zh: Boulenophrys yangmingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

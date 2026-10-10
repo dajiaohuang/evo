@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrodon gheerbranti
       en: Afrodon gheerbranti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

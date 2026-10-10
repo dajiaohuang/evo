@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrotarsius chatrathi
       en: Afrotarsius chatrathi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

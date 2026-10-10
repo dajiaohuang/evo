@@ -9,7 +9,6 @@ records:
     name:
       zh: Simpsonodon sibiricus
       en: Simpsonodon sibiricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

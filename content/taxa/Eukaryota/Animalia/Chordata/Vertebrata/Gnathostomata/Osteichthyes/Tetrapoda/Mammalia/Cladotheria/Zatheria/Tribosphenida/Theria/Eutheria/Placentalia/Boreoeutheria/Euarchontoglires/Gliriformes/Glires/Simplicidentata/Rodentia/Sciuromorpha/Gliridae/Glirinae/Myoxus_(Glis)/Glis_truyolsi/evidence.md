@@ -9,7 +9,6 @@ records:
     name:
       zh: Glis truyolsi
       en: Glis truyolsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

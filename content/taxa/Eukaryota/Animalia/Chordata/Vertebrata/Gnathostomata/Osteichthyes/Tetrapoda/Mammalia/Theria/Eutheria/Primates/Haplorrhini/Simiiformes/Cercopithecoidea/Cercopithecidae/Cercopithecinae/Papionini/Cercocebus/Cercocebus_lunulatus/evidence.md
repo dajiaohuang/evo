@@ -9,7 +9,6 @@ records:
     name:
       en: White-naped Mangabey
       zh: 白枕白眼丛猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: survey

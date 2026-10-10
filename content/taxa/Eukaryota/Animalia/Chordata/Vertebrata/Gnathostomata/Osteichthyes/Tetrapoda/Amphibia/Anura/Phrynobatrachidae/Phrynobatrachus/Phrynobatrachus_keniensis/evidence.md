@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus keniensis
       zh: Phrynobatrachus keniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

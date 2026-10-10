@@ -9,7 +9,6 @@ records:
     name:
       zh: Aquila chrysaetos
       en: Aquila chrysaetos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

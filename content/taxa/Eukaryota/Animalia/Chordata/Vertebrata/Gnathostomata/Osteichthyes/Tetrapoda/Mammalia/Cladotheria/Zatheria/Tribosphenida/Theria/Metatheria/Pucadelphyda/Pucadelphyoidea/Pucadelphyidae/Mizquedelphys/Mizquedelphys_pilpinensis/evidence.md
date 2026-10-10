@@ -9,7 +9,6 @@ records:
     name:
       zh: Mizquedelphys pilpinensis
       en: Mizquedelphys pilpinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

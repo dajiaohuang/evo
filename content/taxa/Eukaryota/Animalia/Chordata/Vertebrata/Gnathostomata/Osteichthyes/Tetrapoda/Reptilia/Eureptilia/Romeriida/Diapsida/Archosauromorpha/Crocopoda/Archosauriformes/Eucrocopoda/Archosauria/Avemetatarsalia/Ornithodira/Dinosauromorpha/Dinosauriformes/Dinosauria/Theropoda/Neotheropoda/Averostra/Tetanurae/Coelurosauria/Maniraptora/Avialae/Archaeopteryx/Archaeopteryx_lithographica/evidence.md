@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeopteryx lithographica
       en: Archaeopteryx lithographica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

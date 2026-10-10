@@ -9,7 +9,6 @@ records:
     name:
       zh: Euryptila subcinnamomea
       en: Euryptila subcinnamomea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

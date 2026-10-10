@@ -9,7 +9,6 @@ records:
     name:
       en: Uperodon anamalaiensis
       zh: Uperodon anamalaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

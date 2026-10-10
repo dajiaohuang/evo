@@ -9,7 +9,6 @@ records:
     name:
       zh: Nephrurus sheai
       en: Nephrurus sheai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

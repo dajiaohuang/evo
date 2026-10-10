@@ -9,7 +9,6 @@ records:
     name:
       zh: Locustella luteoventris
       en: Locustella luteoventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

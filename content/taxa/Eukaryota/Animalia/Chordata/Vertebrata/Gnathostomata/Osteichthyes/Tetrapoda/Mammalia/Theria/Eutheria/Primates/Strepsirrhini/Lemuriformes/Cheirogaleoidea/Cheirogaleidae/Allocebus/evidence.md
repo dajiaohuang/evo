@@ -10,7 +10,6 @@ records:
     name:
       en: Hairy-eared dwarf lemur genus
       zh: 毛耳鼠狐猴属
-    reviewStatus: source-linked
     sections:
       - topic: readingPath
         text:

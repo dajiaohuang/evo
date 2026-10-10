@@ -9,7 +9,6 @@ records:
     name:
       zh: Cichladusa ruficauda
       en: Cichladusa ruficauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

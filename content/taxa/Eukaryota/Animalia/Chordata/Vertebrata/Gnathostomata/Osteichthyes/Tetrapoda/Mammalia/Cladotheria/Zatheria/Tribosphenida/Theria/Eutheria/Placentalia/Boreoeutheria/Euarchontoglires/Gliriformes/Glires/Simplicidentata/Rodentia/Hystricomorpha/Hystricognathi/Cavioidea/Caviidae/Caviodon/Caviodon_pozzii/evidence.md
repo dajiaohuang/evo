@@ -9,7 +9,6 @@ records:
     name:
       zh: Caviodon pozzii
       en: Caviodon pozzii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

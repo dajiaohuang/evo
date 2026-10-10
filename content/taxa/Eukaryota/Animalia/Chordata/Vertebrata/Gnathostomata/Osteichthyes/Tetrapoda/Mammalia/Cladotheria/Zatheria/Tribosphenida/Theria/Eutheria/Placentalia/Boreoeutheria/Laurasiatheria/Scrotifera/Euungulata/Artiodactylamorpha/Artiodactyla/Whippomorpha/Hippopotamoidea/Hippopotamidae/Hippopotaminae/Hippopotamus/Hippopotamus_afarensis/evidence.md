@@ -9,7 +9,6 @@ records:
     name:
       zh: Hippopotamus afarensis
       en: Hippopotamus afarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

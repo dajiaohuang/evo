@@ -9,7 +9,6 @@ records:
     name:
       zh: Asaccus elisae
       en: Asaccus elisae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

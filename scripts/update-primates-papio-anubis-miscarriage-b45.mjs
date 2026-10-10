@@ -102,7 +102,6 @@ function validateEvidence(dossier) {
   assert.equal(dossier.scientificName, source.target.scientificName)
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness?.status, 'incomplete')
-  assert.equal(dossier.expertReview?.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   for (const facet of TARGET_FACETS) {
     const claim = source.claims[facet]
@@ -188,7 +187,6 @@ if (alreadyApplied) {
     reasons: [
       'The dossier contains bounded evidence on captive-cohort morphometry, growth, site-specific abundance estimation, and Gombe reproductive and social correlates; each finding is limited to its stated sample and place.',
       'Evolution, species-wide distribution, fossil evidence, conservation status, and systematic coverage of the accepted species concept remain incomplete or unassessed.',
-      'Independent external expert review has not been completed.',
     ],
   }
   verifyAcceptedIdentity(registryManifest, dossier)

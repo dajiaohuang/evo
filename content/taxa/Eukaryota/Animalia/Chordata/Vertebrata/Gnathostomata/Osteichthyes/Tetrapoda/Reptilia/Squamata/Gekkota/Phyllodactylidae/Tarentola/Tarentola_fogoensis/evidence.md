@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarentola fogoensis
       en: Tarentola fogoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

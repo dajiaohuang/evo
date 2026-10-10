@@ -9,7 +9,6 @@ records:
     name:
       zh: Zosterops stalkeri
       en: Zosterops stalkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

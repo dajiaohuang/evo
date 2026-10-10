@@ -9,7 +9,6 @@ records:
     name:
       zh: Adunator abditus
       en: Adunator abditus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

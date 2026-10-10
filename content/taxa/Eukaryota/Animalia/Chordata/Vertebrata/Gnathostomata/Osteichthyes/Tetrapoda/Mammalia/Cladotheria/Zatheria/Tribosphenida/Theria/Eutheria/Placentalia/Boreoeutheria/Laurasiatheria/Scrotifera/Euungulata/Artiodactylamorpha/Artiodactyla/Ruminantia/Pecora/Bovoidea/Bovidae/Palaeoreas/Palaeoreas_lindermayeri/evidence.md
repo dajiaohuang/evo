@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoreas lindermayeri
       en: Palaeoreas lindermayeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

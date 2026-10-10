@@ -9,7 +9,6 @@ records:
     name:
       zh: Genetta pardina
       en: Genetta pardina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

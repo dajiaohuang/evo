@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: stolarski-2011-scleractinia @ DOI 10.1186/1471-2148-11-316
       referenceLinks:
         - referenceId: stolarski-2011-scleractinia
           relation: supports

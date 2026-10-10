@@ -9,7 +9,6 @@ records:
     name:
       zh: Geitonomys
       en: Geitonomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

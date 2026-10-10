@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvoscincus boyingi
       en: Parvoscincus boyingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

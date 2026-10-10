@@ -9,7 +9,6 @@ records:
     name:
       zh: Helonetta brodkorbi
       en: Helonetta brodkorbi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

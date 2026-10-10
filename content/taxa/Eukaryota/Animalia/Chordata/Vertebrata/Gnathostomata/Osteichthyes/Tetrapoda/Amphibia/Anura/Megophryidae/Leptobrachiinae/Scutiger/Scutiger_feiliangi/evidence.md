@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger feiliangi
       zh: Scutiger feiliangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

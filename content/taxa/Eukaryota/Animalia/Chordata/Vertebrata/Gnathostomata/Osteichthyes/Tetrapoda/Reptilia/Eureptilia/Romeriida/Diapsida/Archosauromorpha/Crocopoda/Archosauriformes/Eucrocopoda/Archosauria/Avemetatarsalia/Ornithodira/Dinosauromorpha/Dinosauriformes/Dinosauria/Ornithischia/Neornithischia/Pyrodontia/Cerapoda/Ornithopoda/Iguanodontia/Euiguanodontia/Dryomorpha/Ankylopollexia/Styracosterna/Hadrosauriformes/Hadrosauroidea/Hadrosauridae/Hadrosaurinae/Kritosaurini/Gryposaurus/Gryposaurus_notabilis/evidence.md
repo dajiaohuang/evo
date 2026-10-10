@@ -9,7 +9,6 @@ records:
     name:
       zh: Gryposaurus notabilis
       en: Gryposaurus notabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

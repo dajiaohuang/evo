@@ -9,7 +9,6 @@ records:
     name:
       zh: Stereorhachis dominans
       en: Stereorhachis dominans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

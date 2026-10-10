@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacamelus merriami
       en: Megacamelus merriami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

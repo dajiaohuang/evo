@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus thaoae
       zh: Zhangixalus thaoae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

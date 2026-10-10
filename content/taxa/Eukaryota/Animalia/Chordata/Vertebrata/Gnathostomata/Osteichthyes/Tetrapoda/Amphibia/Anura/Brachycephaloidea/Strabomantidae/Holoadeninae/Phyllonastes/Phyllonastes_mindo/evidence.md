@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllonastes mindo
       zh: Phyllonastes mindo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

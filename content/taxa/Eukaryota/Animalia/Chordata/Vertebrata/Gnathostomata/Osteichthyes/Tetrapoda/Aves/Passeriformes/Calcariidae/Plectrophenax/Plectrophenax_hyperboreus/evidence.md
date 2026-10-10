@@ -9,7 +9,6 @@ records:
     name:
       zh: Plectrophenax hyperboreus
       en: Plectrophenax hyperboreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

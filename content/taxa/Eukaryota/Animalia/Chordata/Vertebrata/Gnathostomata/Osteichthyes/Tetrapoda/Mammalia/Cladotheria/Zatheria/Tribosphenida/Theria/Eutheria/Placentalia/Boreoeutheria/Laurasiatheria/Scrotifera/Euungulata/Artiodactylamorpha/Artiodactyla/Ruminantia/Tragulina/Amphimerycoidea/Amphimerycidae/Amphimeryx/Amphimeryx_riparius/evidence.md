@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphimeryx riparius
       en: Amphimeryx riparius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

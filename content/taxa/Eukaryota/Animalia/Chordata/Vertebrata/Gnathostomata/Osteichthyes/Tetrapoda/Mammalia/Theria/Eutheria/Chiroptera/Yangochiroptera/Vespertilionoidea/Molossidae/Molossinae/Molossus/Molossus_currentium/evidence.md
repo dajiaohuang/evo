@@ -215,10 +215,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/2
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
   catalogue-profile:
     scientificName: Molossus currentium
     rank: species
@@ -226,7 +222,6 @@ records:
     name:
       zh: Molossus currentium
       en: Molossus currentium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview
@@ -688,5 +683,5 @@ Evolutionary evidence is limited to one mitochondrial phylogenetic analysis and 
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-The exact COL-to-ITIS nomenclatural link does not by itself establish full biological species-concept equivalence; no external expert review was completed.
+The exact COL-to-ITIS nomenclatural link does not by itself establish full biological species-concept equivalence;
 <!-- /evo:text -->

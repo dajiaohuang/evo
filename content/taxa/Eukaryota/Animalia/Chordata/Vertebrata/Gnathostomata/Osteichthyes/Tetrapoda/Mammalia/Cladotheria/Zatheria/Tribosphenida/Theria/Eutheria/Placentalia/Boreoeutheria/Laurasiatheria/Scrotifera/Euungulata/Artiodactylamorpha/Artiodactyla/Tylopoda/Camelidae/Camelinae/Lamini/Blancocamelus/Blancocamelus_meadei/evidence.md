@@ -9,7 +9,6 @@ records:
     name:
       zh: Blancocamelus meadei
       en: Blancocamelus meadei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus epikeisthos
       zh: Atelopus epikeisthos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

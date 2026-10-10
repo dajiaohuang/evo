@@ -9,7 +9,6 @@ records:
     name:
       en: Gegeneophis goaensis
       zh: Gegeneophis goaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

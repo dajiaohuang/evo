@@ -9,7 +9,6 @@ records:
     name:
       en: Sphaenorhynchus cammaeus
       zh: Sphaenorhynchus cammaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

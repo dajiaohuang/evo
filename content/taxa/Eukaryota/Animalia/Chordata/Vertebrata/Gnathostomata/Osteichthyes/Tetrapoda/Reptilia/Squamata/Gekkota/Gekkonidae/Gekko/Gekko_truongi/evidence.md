@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko truongi
       en: Gekko truongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

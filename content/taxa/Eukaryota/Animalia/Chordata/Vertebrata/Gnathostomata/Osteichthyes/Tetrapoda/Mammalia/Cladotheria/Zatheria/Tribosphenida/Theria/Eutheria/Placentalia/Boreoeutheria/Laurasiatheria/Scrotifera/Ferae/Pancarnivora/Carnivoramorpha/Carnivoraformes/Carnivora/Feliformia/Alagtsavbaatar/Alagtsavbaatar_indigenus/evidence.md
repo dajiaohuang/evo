@@ -9,7 +9,6 @@ records:
     name:
       zh: Alagtsavbaatar indigenus
       en: Alagtsavbaatar indigenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

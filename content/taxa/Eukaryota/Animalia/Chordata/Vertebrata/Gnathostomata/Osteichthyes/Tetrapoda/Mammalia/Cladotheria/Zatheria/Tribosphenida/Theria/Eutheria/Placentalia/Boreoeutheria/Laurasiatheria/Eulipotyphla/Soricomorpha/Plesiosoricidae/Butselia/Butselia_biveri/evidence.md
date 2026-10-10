@@ -9,7 +9,6 @@ records:
     name:
       zh: Butselia biveri
       en: Butselia biveri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

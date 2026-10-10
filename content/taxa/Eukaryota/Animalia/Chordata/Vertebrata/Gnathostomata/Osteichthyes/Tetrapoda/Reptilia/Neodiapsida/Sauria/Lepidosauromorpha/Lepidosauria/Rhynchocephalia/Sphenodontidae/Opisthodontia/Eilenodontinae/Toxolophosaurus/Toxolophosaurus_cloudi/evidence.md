@@ -9,7 +9,6 @@ records:
     name:
       zh: Toxolophosaurus cloudi
       en: Toxolophosaurus cloudi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

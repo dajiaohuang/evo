@@ -9,7 +9,6 @@ records:
     name:
       en: Stereocyclops palmipes
       zh: Stereocyclops palmipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cuculiformes
       en: Cuculiformes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

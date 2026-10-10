@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis phuketensis
       en: Cnemaspis phuketensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

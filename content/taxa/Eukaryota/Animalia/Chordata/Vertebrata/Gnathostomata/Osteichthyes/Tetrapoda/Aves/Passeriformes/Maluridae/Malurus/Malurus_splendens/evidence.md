@@ -9,7 +9,6 @@ records:
     name:
       zh: Malurus splendens
       en: Malurus splendens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

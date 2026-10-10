@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: maidment-2010-stegosauria-review concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: maidment-2010-stegosauria-review
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: maidment-2010-stegosauria-review @ DOI 10.1007/s00015-010-0023-3
       referenceLinks:
         - relation: supports
           referenceId: maidment-2010-stegosauria-review
@@ -96,7 +90,6 @@ records:
           locator: 199–210; Abstract and pp. 199–201 fossil-record scope; pp. 205–209 phylogeny and limitations
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

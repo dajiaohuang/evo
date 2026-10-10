@@ -9,7 +9,6 @@ records:
     name:
       en: Spelaeophryne methneri
       zh: Spelaeophryne methneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

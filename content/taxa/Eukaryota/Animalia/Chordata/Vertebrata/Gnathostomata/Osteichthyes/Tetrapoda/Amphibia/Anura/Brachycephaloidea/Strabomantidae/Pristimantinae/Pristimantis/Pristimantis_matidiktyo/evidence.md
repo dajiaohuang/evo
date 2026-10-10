@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis matidiktyo
       zh: Pristimantis matidiktyo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

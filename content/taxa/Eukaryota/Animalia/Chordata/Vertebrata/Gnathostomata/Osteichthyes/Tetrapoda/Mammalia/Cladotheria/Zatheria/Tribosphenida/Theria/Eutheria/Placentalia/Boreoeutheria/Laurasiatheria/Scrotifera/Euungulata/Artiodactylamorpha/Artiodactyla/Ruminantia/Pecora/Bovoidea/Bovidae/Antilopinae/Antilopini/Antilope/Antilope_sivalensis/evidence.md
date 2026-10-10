@@ -9,7 +9,6 @@ records:
     name:
       zh: Antilope sivalensis
       en: Antilope sivalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

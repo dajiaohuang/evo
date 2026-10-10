@@ -9,7 +9,6 @@ records:
     name:
       zh: Puppigerus nessovi
       en: Puppigerus nessovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

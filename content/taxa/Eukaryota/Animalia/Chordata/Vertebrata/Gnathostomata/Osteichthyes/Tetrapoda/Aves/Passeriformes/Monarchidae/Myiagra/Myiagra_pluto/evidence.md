@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiagra pluto
       en: Myiagra pluto
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

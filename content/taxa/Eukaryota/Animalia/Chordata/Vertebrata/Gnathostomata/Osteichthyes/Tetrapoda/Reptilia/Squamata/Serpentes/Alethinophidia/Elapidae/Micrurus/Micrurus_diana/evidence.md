@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrurus diana
       en: Micrurus diana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

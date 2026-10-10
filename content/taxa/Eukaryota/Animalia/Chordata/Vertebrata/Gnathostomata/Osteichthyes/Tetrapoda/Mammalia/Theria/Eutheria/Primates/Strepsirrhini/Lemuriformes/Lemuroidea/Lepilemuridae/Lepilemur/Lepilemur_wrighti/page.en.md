@@ -22,5 +22,5 @@ The type locality is Befarara in Kalambatritra Special Reserve. The paper then k
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The sexual-coloration observation came from five animals, and the distribution reflects the 2006 sample. This guide retains those uncertainties and does not generalize the claim. The COL26.8 accepted name is retained. The Chinese common name is editorial; this guide is not externally expert-reviewed.
+The sexual-coloration observation came from five animals, and the distribution reflects the 2006 sample. This guide retains those uncertainties and does not generalize the claim. The COL26.8 accepted name is retained. The Chinese common name is editorial; this guide is.
 <!-- /evo:text -->

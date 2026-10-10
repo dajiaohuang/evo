@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea amuzga
       zh: Pseudoeurycea amuzga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

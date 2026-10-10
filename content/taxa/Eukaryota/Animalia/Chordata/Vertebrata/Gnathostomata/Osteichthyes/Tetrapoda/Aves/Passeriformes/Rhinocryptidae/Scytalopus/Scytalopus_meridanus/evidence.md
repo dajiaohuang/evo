@@ -9,7 +9,6 @@ records:
     name:
       zh: Scytalopus meridanus
       en: Scytalopus meridanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

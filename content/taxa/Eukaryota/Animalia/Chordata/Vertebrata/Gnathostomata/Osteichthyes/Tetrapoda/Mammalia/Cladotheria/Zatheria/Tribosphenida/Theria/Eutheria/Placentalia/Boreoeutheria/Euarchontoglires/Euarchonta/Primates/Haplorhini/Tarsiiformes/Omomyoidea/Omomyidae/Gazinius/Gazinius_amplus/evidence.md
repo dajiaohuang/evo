@@ -9,7 +9,6 @@ records:
     name:
       zh: Gazinius amplus
       en: Gazinius amplus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagiomene multicuspis
       en: Plagiomene multicuspis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

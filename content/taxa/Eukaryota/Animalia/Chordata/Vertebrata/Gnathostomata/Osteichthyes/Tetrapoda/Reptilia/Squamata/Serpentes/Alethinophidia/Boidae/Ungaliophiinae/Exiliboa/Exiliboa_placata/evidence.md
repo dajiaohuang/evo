@@ -9,7 +9,6 @@ records:
     name:
       zh: Exiliboa placata
       en: Exiliboa placata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

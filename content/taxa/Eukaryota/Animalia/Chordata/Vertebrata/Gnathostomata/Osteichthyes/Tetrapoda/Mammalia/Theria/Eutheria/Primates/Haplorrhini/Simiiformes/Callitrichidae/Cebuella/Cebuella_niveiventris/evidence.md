@@ -9,7 +9,6 @@ records:
     name:
       zh: 南侏儒狨
       en: Southern Pygmy Marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

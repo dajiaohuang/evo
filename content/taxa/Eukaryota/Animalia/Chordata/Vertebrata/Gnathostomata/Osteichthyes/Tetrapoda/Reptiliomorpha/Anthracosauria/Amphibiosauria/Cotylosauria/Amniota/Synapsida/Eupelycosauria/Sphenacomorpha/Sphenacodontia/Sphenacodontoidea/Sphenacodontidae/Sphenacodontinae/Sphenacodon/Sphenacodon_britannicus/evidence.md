@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenacodon britannicus
       en: Sphenacodon britannicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

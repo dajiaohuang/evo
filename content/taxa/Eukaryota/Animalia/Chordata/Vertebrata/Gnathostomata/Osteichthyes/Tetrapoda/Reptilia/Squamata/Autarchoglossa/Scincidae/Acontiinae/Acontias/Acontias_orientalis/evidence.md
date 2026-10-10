@@ -9,7 +9,6 @@ records:
     name:
       zh: Acontias orientalis
       en: Acontias orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

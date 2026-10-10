@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiocephalus barahonensis
       en: Leiocephalus barahonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

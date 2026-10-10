@@ -9,7 +9,6 @@ records:
     name:
       zh: Prionops plumatus
       en: Prionops plumatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

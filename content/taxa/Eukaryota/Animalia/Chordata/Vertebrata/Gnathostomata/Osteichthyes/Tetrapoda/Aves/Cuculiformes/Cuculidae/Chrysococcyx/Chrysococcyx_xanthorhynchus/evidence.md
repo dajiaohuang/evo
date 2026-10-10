@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysococcyx xanthorhynchus
       en: Chrysococcyx xanthorhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

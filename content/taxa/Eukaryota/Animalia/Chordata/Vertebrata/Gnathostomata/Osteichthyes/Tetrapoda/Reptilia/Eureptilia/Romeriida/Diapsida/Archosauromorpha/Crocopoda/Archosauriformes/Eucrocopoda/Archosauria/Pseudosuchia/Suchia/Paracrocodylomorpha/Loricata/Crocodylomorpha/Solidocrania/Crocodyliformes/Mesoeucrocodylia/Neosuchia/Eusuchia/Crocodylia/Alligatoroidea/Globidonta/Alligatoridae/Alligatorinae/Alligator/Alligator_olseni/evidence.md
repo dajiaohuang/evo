@@ -9,7 +9,6 @@ records:
     name:
       zh: Alligator olseni
       en: Alligator olseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

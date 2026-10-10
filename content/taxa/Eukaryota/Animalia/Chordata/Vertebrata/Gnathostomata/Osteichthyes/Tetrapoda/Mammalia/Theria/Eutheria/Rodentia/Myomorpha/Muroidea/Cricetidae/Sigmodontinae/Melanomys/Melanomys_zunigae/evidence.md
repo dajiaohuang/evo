@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanomys zunigae
       en: Melanomys zunigae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex portenkoi
       en: Sorex portenkoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

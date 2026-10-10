@@ -9,7 +9,6 @@ records:
     name:
       zh: Heteraletes leotanus
       en: Heteraletes leotanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

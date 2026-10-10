@@ -9,7 +9,6 @@ records:
     name:
       zh: Leontocebus 属
       en: Leontocebus
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus crassicaudatus
       en: Stenocercus crassicaudatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

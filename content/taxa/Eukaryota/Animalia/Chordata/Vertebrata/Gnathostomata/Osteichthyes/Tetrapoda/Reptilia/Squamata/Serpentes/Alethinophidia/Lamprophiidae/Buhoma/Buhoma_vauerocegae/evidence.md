@@ -9,7 +9,6 @@ records:
     name:
       zh: Buhoma vauerocegae
       en: Buhoma vauerocegae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

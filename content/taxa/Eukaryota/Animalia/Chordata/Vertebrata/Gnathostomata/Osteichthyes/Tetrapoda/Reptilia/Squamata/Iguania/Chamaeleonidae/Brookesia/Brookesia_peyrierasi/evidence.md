@@ -9,7 +9,6 @@ records:
     name:
       zh: Brookesia peyrierasi
       en: Brookesia peyrierasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus atacamensis
       en: Liolaemus atacamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

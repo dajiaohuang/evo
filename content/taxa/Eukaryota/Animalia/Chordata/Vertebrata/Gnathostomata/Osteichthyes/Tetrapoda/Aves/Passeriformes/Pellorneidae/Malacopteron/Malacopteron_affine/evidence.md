@@ -9,7 +9,6 @@ records:
     name:
       zh: Malacopteron affine
       en: Malacopteron affine
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Lomami Red Colobus
       zh: 洛马米红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: survey

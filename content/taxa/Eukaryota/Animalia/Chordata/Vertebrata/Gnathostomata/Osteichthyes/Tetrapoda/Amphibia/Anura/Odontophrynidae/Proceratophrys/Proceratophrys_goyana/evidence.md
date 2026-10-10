@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys goyana
       zh: Proceratophrys goyana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

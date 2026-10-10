@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynelos caroniavorus
       en: Cynelos caroniavorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

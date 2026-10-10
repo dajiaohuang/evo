@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudacris fouquettei
       zh: Pseudacris fouquettei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

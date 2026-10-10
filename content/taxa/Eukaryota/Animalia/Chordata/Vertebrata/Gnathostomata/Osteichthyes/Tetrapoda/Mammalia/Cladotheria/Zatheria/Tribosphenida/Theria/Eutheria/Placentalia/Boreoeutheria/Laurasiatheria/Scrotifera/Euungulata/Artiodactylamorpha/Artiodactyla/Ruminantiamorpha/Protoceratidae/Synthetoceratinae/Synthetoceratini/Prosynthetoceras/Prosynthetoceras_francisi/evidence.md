@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosynthetoceras francisi
       en: Prosynthetoceras francisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

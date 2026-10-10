@@ -9,7 +9,6 @@ records:
     name:
       zh: Eriocnemis isabellae
       en: Eriocnemis isabellae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates fisheri
       zh: Lithobates fisheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

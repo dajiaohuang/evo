@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidodactylus oligoporus
       en: Lepidodactylus oligoporus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

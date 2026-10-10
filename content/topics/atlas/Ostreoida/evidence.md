@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: matsumoto-2003-pteriomorphia
       referenceLinks:
         - referenceId: matsumoto-2003-pteriomorphia
           relation: supports
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: matsumoto-2003-pteriomorphia
           locator: 429–440; taxon sampling and COI sequence methods; Figures 1–3
-      reviewStatus: automated-audit-passed
 ---
 
 # Ostreoida

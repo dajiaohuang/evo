@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyrrhinus aurarius
       en: Platyrrhinus aurarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

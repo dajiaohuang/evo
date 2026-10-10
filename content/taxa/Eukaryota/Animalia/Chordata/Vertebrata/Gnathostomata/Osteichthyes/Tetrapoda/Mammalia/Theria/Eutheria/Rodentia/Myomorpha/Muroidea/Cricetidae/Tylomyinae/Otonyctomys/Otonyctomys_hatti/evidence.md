@@ -9,7 +9,6 @@ records:
     name:
       zh: Otonyctomys hatti
       en: Otonyctomys hatti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardenna davealleni
       en: Ardenna davealleni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

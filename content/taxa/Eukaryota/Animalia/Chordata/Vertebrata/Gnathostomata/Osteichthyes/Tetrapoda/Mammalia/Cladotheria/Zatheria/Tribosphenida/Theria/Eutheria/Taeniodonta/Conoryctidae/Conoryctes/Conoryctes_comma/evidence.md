@@ -9,7 +9,6 @@ records:
     name:
       zh: Conoryctes comma
       en: Conoryctes comma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

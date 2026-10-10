@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegosaurus duplex
       en: Stegosaurus duplex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

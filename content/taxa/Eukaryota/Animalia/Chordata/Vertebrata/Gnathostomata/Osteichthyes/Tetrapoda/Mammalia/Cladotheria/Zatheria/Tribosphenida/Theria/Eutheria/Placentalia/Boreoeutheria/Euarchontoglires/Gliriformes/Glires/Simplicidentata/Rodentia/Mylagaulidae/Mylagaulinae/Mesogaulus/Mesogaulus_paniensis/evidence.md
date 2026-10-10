@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesogaulus paniensis
       en: Mesogaulus paniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

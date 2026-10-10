@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius tsuensis
       zh: Hynobius tsuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

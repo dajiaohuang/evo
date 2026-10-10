@@ -9,7 +9,6 @@ records:
     name:
       zh: Rutimeyeria conulifera
       en: Rutimeyeria conulifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyhyrax aequatorialis
       en: Brachyhyrax aequatorialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Australonyx aquae
       en: Australonyx aquae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

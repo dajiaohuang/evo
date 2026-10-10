@@ -9,7 +9,6 @@ records:
     name:
       zh: Capreolus constantini
       en: Capreolus constantini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

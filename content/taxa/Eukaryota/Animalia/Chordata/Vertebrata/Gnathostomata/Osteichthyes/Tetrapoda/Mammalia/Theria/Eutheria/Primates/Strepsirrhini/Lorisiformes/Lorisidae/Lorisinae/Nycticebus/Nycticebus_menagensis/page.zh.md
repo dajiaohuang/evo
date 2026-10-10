@@ -22,5 +22,5 @@ Timm 与 Birney 讨论 menagensis 名称的历史及 Tawi-Tawi 材料。Munds �
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-旧文献对 menagensis 的使用范围与当前 MDD 英文显示名并不完全同义；模式标本已遗失，历史标本记录不是现今调查。本文按 COL26.8 身份收录并明确保留用名边界。中文普通名为编辑译名；未经过外部领域专家评审。
+旧文献对 menagensis 的使用范围与当前 MDD 英文显示名并不完全同义；模式标本已遗失，历史标本记录不是现今调查。本文按 COL26.8 身份收录并明确保留用名边界。中文普通名为编辑译名。
 <!-- /evo:text -->

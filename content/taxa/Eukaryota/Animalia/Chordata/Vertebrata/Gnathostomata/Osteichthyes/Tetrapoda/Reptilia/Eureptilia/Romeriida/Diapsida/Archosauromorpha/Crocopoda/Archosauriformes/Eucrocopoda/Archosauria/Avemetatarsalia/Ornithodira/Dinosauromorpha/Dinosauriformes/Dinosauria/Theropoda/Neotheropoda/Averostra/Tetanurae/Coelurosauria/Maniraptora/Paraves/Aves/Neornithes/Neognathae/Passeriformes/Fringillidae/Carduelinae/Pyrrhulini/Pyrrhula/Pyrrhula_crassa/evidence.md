@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrrhula crassa
       en: Pyrrhula crassa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

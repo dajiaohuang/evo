@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapirus (Helicotapirus) lundeliusi
       en: Tapirus (Helicotapirus) lundeliusi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

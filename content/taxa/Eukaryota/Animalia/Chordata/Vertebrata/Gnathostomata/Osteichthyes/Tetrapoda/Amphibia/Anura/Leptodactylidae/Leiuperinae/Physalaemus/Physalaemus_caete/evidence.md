@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus caete
       zh: Physalaemus caete
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tinamisornis parvulus
       en: Tinamisornis parvulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

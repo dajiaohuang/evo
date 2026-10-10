@@ -9,7 +9,6 @@ records:
     name:
       en: Wolterstorffina chirioi
       zh: Wolterstorffina chirioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

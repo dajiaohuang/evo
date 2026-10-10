@@ -9,7 +9,6 @@ records:
     name:
       zh: Ursavus pawniensis
       en: Ursavus pawniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

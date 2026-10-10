@@ -9,7 +9,6 @@ records:
     name:
       zh: Carollia perspicillata
       en: Carollia perspicillata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

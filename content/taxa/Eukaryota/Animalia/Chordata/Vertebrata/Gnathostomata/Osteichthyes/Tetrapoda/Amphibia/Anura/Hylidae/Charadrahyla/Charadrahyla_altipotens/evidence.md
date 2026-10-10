@@ -9,7 +9,6 @@ records:
     name:
       en: Charadrahyla altipotens
       zh: Charadrahyla altipotens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

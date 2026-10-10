@@ -9,7 +9,6 @@ records:
     name:
       zh: Boiga drapiezii
       en: Boiga drapiezii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

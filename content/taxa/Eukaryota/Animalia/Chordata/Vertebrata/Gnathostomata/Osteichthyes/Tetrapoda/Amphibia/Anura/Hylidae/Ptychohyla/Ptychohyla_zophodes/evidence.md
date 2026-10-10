@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychohyla zophodes
       zh: Ptychohyla zophodes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

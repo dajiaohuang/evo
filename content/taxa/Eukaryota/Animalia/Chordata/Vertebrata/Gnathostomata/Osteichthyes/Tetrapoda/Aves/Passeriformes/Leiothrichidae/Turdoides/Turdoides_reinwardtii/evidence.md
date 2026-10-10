@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdoides reinwardtii
       en: Turdoides reinwardtii
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

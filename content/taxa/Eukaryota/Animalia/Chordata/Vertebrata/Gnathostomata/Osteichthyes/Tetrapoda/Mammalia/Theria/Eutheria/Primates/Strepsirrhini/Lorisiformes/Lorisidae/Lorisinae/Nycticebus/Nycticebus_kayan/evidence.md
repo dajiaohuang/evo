@@ -9,7 +9,6 @@ records:
     name:
       zh: 卡延蜂猴
       en: Kayan Slow Loris
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

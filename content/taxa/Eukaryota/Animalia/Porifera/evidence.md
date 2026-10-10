@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Wang et al. 2024 DOI 10.1038/s41586-024-07520-y checked for 2026.08-static-v5-rc39
       referenceLinks:
         - referenceId: wang-2024-helicolocellus
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: wang-2024-helicolocellus
           locator: pp. 905–911; Figures 1–4 and Extended Data Figures 1–10
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

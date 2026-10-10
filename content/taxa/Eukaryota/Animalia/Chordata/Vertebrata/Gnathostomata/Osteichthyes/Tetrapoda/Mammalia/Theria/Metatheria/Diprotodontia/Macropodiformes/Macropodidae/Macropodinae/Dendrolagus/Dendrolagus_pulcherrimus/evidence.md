@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrolagus pulcherrimus
       en: Dendrolagus pulcherrimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Disallomys intermedius
       en: Disallomys intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

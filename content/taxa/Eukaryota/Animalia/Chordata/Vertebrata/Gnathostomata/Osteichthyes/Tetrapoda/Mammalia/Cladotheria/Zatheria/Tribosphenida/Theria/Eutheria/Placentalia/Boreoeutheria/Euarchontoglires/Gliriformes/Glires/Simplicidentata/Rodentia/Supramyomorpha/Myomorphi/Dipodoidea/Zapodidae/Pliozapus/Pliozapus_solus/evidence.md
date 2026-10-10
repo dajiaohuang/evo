@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliozapus solus
       en: Pliozapus solus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

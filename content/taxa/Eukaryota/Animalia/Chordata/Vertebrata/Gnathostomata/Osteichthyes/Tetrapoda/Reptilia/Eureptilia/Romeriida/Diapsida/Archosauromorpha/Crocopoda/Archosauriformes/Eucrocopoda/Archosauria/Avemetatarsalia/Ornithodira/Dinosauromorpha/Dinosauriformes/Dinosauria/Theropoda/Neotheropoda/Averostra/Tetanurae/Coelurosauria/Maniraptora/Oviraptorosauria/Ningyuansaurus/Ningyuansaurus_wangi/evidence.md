@@ -9,7 +9,6 @@ records:
     name:
       zh: Ningyuansaurus wangi
       en: Ningyuansaurus wangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

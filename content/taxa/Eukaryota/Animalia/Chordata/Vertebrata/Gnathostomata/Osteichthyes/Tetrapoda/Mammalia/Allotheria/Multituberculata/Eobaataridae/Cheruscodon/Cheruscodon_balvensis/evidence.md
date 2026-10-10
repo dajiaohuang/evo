@@ -9,7 +9,6 @@ records:
     name:
       zh: Cheruscodon balvensis
       en: Cheruscodon balvensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

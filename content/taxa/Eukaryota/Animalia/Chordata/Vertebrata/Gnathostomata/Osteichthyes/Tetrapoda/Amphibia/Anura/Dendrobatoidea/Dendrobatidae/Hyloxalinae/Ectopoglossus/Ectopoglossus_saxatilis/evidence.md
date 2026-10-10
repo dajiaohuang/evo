@@ -9,7 +9,6 @@ records:
     name:
       en: Ectopoglossus saxatilis
       zh: Ectopoglossus saxatilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

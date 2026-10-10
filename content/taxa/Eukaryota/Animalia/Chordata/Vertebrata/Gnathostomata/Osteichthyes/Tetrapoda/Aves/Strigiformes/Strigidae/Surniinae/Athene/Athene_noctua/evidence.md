@@ -9,7 +9,6 @@ records:
     name:
       zh: Athene noctua
       en: Athene noctua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

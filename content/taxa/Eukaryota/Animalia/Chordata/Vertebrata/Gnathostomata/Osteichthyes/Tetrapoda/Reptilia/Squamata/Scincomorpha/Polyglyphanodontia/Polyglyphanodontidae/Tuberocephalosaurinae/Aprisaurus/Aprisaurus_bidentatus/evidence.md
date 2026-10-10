@@ -9,7 +9,6 @@ records:
     name:
       zh: Aprisaurus bidentatus
       en: Aprisaurus bidentatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

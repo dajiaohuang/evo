@@ -9,7 +9,6 @@ records:
     name:
       zh: Trinomys mirapitanga
       en: Trinomys mirapitanga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

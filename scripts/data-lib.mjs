@@ -38,11 +38,7 @@ export function dataFiles() {
 
 export function sha256(path) {
   const bytes = readFileSync(join(rootDir, path))
-  if (path.startsWith('data/paleotopography/') && path.endsWith('.gz')) {
-    return createHash('sha256').update(bytes).digest('hex')
-  }
-  const canonicalJson = (path.endsWith('.gz') ? gunzipSync(bytes) : path.endsWith('.br') ? brotliDecompressSync(bytes) : bytes).toString('utf8').replaceAll('\r\n', '\n')
-  return createHash('sha256').update(canonicalJson, 'utf8').digest('hex')
+  return createHash('sha256').update(bytes).digest('hex')
 }
 
 export function countTreeNodes(root) {
@@ -118,7 +114,6 @@ export function collectDataSummary() {
       speciesWithIntroductorySummary: speciesEvidenceQueue.counts.introductorySummarySpecies,
       speciesWithDossier: speciesEvidenceQueue.counts.dossierSpecies,
       speciesWithCompleteDossier: speciesEvidenceQueue.counts.completeDossierSpecies,
-      speciesWithExternalReview: speciesEvidenceQueue.counts.externallyReviewedSpecies,
       speciesWithAnyEvidenceStage: speciesEvidenceQueue.counts.speciesWithAnyEvidenceStage,
       speciesWithoutAnyEvidenceStage: speciesEvidenceQueue.counts.speciesWithoutAnyEvidenceStage,
       speciesWithoutDossier: speciesEvidenceQueue.counts.speciesWithoutDossier,

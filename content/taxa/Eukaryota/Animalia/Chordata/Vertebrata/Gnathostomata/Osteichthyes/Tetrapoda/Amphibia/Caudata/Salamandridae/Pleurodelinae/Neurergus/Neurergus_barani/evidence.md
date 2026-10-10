@@ -9,7 +9,6 @@ records:
     name:
       en: Neurergus barani
       zh: Neurergus barani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

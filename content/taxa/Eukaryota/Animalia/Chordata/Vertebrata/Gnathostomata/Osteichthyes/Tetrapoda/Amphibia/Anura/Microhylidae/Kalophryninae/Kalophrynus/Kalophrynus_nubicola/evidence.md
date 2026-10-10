@@ -9,7 +9,6 @@ records:
     name:
       en: Kalophrynus nubicola
       zh: Kalophrynus nubicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

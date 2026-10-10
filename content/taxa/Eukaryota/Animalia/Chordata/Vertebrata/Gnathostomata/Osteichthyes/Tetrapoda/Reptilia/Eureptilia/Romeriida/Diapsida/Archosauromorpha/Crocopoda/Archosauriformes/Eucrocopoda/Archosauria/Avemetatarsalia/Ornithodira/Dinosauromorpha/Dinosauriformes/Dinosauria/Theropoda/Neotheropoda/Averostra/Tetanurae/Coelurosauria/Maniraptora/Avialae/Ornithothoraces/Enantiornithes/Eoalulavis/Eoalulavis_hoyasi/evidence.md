@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoalulavis hoyasi
       en: Eoalulavis hoyasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

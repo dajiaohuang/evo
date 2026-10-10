@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia kibomena
       zh: Stumpffia kibomena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

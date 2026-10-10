@@ -147,7 +147,7 @@ for (const item of species) {
   dossier.completeness.status = 'incomplete'
   dossier.completeness.reasons = [
     'Only four regional account topics have preliminary evidence; required scientific coverage checks across all seven facets are incomplete.',
-    'Claims have not received verified translations or independent expert review.',
+    'Claims have not received verified translations.',
     'No systematic evidence search across literature and databases has been completed.',
   ]
   generated.push(dossier)

@@ -9,7 +9,6 @@ records:
     name:
       en: Edalorhina perezi
       zh: Edalorhina perezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

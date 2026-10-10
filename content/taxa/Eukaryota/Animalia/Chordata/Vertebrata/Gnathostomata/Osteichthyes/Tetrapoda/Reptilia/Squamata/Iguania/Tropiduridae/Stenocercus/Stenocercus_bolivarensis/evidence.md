@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus bolivarensis
       en: Stenocercus bolivarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

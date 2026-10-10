@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus paucari
       zh: Phrynopus paucari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Planocrania datangensis
       en: Planocrania datangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

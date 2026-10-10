@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus deimaticus
       zh: Physalaemus deimaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

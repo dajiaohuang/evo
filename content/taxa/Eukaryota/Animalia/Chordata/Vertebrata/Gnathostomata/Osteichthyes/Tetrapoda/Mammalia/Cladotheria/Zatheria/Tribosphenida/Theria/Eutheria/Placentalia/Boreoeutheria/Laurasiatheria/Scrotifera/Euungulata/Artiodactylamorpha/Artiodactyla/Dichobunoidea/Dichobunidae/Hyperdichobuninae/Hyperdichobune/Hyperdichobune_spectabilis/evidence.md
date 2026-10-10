@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyperdichobune spectabilis
       en: Hyperdichobune spectabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

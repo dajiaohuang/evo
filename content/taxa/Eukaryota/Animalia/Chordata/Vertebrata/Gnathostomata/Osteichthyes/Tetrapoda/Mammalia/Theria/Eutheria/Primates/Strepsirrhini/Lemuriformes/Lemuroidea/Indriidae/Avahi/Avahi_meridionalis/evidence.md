@@ -9,7 +9,6 @@ records:
     name:
       zh: 南部毛狐猴
       en: Southern Woolly Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

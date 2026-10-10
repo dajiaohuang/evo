@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis orcus
       zh: Pristimantis orcus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

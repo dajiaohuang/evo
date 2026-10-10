@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachynolophus duvali
       en: Pachynolophus duvali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

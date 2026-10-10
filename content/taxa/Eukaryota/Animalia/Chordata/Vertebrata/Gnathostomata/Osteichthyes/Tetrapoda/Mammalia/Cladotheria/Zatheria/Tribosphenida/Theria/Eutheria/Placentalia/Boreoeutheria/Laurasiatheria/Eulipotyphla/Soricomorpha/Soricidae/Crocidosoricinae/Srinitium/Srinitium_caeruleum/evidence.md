@@ -9,7 +9,6 @@ records:
     name:
       zh: Srinitium caeruleum
       en: Srinitium caeruleum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

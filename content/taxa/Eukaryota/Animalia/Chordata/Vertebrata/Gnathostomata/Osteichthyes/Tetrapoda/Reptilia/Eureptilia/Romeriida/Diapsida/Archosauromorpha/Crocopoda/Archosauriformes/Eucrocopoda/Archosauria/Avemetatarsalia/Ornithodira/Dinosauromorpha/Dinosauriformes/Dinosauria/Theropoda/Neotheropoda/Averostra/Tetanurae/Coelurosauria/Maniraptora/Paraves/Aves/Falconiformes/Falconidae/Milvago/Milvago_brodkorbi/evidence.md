@@ -9,7 +9,6 @@ records:
     name:
       zh: Milvago brodkorbi
       en: Milvago brodkorbi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

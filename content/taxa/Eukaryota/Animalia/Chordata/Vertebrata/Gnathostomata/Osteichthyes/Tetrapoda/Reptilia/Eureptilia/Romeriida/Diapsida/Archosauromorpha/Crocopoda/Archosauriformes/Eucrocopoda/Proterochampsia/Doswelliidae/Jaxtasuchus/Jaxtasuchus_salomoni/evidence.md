@@ -9,7 +9,6 @@ records:
     name:
       zh: Jaxtasuchus salomoni
       en: Jaxtasuchus salomoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

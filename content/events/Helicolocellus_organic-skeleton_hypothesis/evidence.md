@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: wang-2024-helicolocellus @ DOI 10.1038/s41586-024-07520-y
       referenceLinks:
         - referenceId: wang-2024-helicolocellus
           relation: supports

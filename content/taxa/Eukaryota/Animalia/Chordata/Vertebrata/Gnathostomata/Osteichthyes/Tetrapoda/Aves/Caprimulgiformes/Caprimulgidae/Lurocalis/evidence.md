@@ -9,7 +9,6 @@ records:
     name:
       zh: Lurocalis
       en: Lurocalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

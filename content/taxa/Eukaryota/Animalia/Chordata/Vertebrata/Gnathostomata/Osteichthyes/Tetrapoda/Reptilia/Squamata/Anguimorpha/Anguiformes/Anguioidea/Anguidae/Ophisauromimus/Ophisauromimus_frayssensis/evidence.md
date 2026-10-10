@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophisauromimus frayssensis
       en: Ophisauromimus frayssensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

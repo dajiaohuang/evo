@@ -24,6 +24,6 @@ Start with Libypithecus markgrafi and compare each page’s named collections an
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes. No external expert review has occurred.
+This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 Parent placement remains unresolved: accepted PBDB Colobinae identifiers txn:234343 (Blyth, 1875) and txn:430278 (Jerdon, 1867) each return distinct records. Their shared spelling does not establish concept equivalence. This independent topic preserves the genus and species identities and occurrence material; it is not counted as a resolved primate classification route.
 <!-- /evo:text -->

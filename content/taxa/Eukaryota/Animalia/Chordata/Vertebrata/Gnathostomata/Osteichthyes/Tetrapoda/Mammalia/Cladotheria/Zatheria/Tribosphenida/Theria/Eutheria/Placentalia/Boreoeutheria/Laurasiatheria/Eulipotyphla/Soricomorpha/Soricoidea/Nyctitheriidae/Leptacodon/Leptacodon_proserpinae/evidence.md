@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptacodon proserpinae
       en: Leptacodon proserpinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Egarapithecus narcisoi
       en: Egarapithecus narcisoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

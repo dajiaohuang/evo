@@ -9,7 +9,6 @@ records:
     name:
       zh: Annatherapsidus postum
       en: Annatherapsidus postum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

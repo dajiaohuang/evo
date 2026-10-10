@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis guianensis
       zh: Pristimantis guianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

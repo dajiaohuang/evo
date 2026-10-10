@@ -9,7 +9,6 @@ records:
     name:
       zh: Strigorhysis bridgerensis
       en: Strigorhysis bridgerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

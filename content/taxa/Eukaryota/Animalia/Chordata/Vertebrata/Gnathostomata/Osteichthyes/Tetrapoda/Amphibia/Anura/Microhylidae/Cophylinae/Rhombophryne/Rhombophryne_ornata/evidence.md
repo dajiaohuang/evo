@@ -9,7 +9,6 @@ records:
     name:
       en: Rhombophryne ornata
       zh: Rhombophryne ornata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

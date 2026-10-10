@@ -32,14 +32,62 @@
         "method": "Exact accepted COL26.8 species usage 3WWND verified in the pinned registry search and hierarchy records: verbatim name/authorship, species rank, accepted status, parentId 5HYC, sourceDatasetId 2144, and classification through Primates.",
         "scope": "Nominal species as represented by accepted COL26.8 usage 3WWND. The biological claim concerns comparative whole-genome analyses of selected allopatric and parapatric samples and does not represent every population or the species-wide range.",
         "parentChain": [
-          { "id": "5HYC", "name": "Macaca", "authorship": "Lacépède, 1799", "rank": "genus", "status": "accepted" },
-          { "id": "L4C", "name": "Papionini", "authorship": null, "rank": "tribe", "status": "accepted" },
-          { "id": "JB3", "name": "Cercopithecinae", "authorship": "Gray, 1821", "rank": "subfamily", "status": "accepted" },
-          { "id": "7X9", "name": "Cercopithecidae", "authorship": "Gray, 1821", "rank": "family", "status": "accepted" },
-          { "id": "4X9", "name": "Cercopithecoidea", "authorship": "Gray, 1821", "rank": "superfamily", "status": "accepted" },
-          { "id": "4PM", "name": "Simiiformes", "authorship": "Haeckel, 1866", "rank": "infraorder", "status": "accepted" },
-          { "id": "4DT", "name": "Haplorrhini", "authorship": "Pocock, 1918", "rank": "suborder", "status": "accepted" },
-          { "id": "3W7", "name": "Primates", "authorship": "Linnaeus, 1758", "rank": "order", "status": "accepted" }
+          {
+            "id": "5HYC",
+            "name": "Macaca",
+            "authorship": "Lacépède, 1799",
+            "rank": "genus",
+            "status": "accepted"
+          },
+          {
+            "id": "L4C",
+            "name": "Papionini",
+            "authorship": null,
+            "rank": "tribe",
+            "status": "accepted"
+          },
+          {
+            "id": "JB3",
+            "name": "Cercopithecinae",
+            "authorship": "Gray, 1821",
+            "rank": "subfamily",
+            "status": "accepted"
+          },
+          {
+            "id": "7X9",
+            "name": "Cercopithecidae",
+            "authorship": "Gray, 1821",
+            "rank": "family",
+            "status": "accepted"
+          },
+          {
+            "id": "4X9",
+            "name": "Cercopithecoidea",
+            "authorship": "Gray, 1821",
+            "rank": "superfamily",
+            "status": "accepted"
+          },
+          {
+            "id": "4PM",
+            "name": "Simiiformes",
+            "authorship": "Haeckel, 1866",
+            "rank": "infraorder",
+            "status": "accepted"
+          },
+          {
+            "id": "4DT",
+            "name": "Haplorrhini",
+            "authorship": "Pocock, 1918",
+            "rank": "suborder",
+            "status": "accepted"
+          },
+          {
+            "id": "3W7",
+            "name": "Primates",
+            "authorship": "Linnaeus, 1758",
+            "rank": "order",
+            "status": "accepted"
+          }
         ]
       },
       "lifeStatusScope": {
@@ -107,14 +155,26 @@
         }
       ],
       "facets": {
-        "morphology": { "status": "not-assessed", "gaps": ["The selected comparative-genomics study does not assess anatomical morphology or diagnostic variation."] },
-        "lifeHistory": { "status": "not-assessed", "gaps": ["No life-cycle, reproductive, growth, survival, or longevity evidence was assessed."] },
+        "morphology": {
+          "status": "not-assessed",
+          "gaps": [
+            "The selected comparative-genomics study does not assess anatomical morphology or diagnostic variation."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed",
+          "gaps": [
+            "No life-cycle, reproductive, growth, survival, or longevity evidence was assessed."
+          ]
+        },
         "ecology": {
           "status": "partially-supported",
           "claims": [
             {
               "text": "At Mt Calebasses, Mauritius, one group of 19–23 long-tailed macaques had a 34.9-ha total home range during the study. Its mean monthly range was 10.6 ± 3.0 ha during the high-fruit period (February–June 2020) and 17.8 ± 5.6 ha outside that period; monthly range was negatively correlated with fruit availability (r = −0.65, adjusted p = 0.037). This is a one-group, one-site seasonal result, not a species-wide estimate.",
-              "sourceIds": ["reinegger2023"],
+              "sourceIds": [
+                "reinegger2023"
+              ],
               "locator": "Results, Effects of Fruit Availability on Home Range; paragraphs beginning ‘Our study group had a total home range’; Figure 3.",
               "placeTimeScope": "Mt Calebasses, Mauritius; one study group observed from December 2019 to December 2020, with the high-fruit period defined as February–June 2020.",
               "lifeStatus": "One free-ranging introduced (non-native) group; not representative of native-range populations.",
@@ -123,7 +183,9 @@
             },
             {
               "text": "At this site, invasive plants accounted for 98% of plant-feeding scans and 97% of fruit-feeding scans. In the scan-based fruit-feeding observations, recorded dietary proportions were concentrated in invasive Litsea sp. (40.2%), Psidium cattleyanum (39.3%), and Flacourtia indica (9.5%). The authors discuss possible seed-dispersal effects, but these observations do not measure germination, seedling recruitment, or realized plant-invasion rates.",
-              "sourceIds": ["reinegger2023"],
+              "sourceIds": [
+                "reinegger2023"
+              ],
               "locator": "Results, Effects of Food Availability on Diet; paragraphs beginning ‘The macaques spent the largest percentage’ and ‘Macaques consumed plant parts’; Table S2.",
               "placeTimeScope": "Mt Calebasses, Mauritius; feeding observations of one study group during the December 2019–December 2020 field study.",
               "lifeStatus": "One free-ranging introduced (non-native) group; no inference to other populations or the native range.",
@@ -131,14 +193,18 @@
               "originalLanguage": "en"
             }
           ],
-          "gaps": ["One field study covers one introduced group at one Mauritius site; species-wide habitat use and diet, population variation, and causal or realized effects on plant invasion remain unassessed."]
+          "gaps": [
+            "One field study covers one introduced group at one Mauritius site; species-wide habitat use and diet, population variation, and causal or realized effects on plant invasion remain unassessed."
+          ]
         },
         "evolution": {
           "status": "partially-supported",
           "claims": [
             {
               "text": "Bailey et al. compared whole-genome data from allopatric and parapatric rhesus and cynomolgus macaque sample groups. They reported 184 candidate genes consistent with reinforcement-related patterns and Y-chromosome introgression from M. mulatta into M. fascicularis populations, while describing the results as consistent with, rather than proof of, reinforcement. This is a study-specific comparative result, not a complete species phylogeny.",
-              "sourceIds": ["bailey2023"],
+              "sourceIds": [
+                "bailey2023"
+              ],
               "locator": "Abstract; Results; Figures 1 and 3.",
               "placeTimeScope": "Comparative samples grouped as allopatric or parapatric; study published 2023. The claim reports genomic analysis, not a dated natural event or geographic range assessment.",
               "lifeStatus": "Biological sample provenance and group definitions are limited to those in the comparative whole-genome study; not a species-wide census.",
@@ -146,17 +212,36 @@
               "originalLanguage": "en"
             }
           ],
-          "gaps": ["One comparative genomic study does not resolve the species' full phylogeny, divergence history, or all introgression events."]
+          "gaps": [
+            "One comparative genomic study does not resolve the species' full phylogeny, divergence history, or all introgression events."
+          ]
         },
-        "distribution": { "status": "not-assessed", "gaps": ["Study sample group origins and a referenced range map do not constitute a reviewed current or historical range inventory."] },
-        "fossil": { "status": "not-assessed", "gaps": ["The selected study does not assess the fossil record."] },
-        "conservation": { "status": "not-assessed", "gaps": ["No formal conservation assessment, global population trend, or risk category was reviewed."] }
+        "distribution": {
+          "status": "not-assessed",
+          "gaps": [
+            "Study sample group origins and a referenced range map do not constitute a reviewed current or historical range inventory."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "gaps": [
+            "The selected study does not assess the fossil record."
+          ]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "gaps": [
+            "No formal conservation assessment, global population trend, or risk category was reviewed."
+          ]
+        }
       },
       "completeness": {
         "status": "incomplete",
-        "reasons": ["Two studies support only bounded claims in ecology and evolution; five facets remain not-assessed, and both assessed facets are partial.", "No systematic literature search or independent expert review has been completed."]
-      },
-      "expertReview": { "status": "not-reviewed", "reviewers": [], "reviewDigest": null }
+        "reasons": [
+          "Two studies support only bounded claims in ecology and evolution; five facets remain not-assessed, and both assessed facets are partial.",
+          "No systematic literature search has been completed."
+        ]
+      }
     }
   ]
 }

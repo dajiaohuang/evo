@@ -9,7 +9,6 @@ records:
     name:
       zh: Jinchuanloong niedu
       en: Jinchuanloong niedu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

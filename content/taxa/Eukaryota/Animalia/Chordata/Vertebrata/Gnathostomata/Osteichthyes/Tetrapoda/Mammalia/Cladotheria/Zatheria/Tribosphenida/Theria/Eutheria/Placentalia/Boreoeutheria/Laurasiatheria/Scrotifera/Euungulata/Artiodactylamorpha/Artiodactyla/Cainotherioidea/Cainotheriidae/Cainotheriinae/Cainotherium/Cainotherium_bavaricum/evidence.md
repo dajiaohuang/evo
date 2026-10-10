@@ -9,7 +9,6 @@ records:
     name:
       zh: Cainotherium bavaricum
       en: Cainotherium bavaricum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

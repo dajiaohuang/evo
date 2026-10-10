@@ -9,7 +9,6 @@ records:
     name:
       zh: Proctoporus rahmi
       en: Proctoporus rahmi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

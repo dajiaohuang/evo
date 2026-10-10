@@ -9,7 +9,6 @@ records:
     name:
       zh: Redondagnathus hunti
       en: Redondagnathus hunti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

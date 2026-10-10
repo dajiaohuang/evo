@@ -9,7 +9,6 @@ records:
     name:
       zh: Zentrygon linearis
       en: Zentrygon linearis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

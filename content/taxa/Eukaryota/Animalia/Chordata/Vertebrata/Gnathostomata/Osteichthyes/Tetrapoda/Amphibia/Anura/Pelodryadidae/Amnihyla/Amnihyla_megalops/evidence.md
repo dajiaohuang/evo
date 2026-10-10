@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla megalops
       zh: Amnihyla megalops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

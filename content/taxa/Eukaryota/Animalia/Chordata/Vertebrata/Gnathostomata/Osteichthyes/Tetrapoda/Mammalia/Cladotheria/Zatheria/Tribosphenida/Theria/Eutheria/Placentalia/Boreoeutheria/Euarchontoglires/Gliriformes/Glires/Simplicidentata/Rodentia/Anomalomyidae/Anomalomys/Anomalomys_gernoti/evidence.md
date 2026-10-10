@@ -9,7 +9,6 @@ records:
     name:
       zh: Anomalomys gernoti
       en: Anomalomys gernoti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

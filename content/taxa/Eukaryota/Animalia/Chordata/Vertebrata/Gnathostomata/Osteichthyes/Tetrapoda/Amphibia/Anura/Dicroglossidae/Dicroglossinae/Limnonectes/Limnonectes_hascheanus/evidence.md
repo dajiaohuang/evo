@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes hascheanus
       zh: Limnonectes hascheanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Homopholis mulleri
       en: Homopholis mulleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

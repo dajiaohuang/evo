@@ -9,7 +9,6 @@ records:
     name:
       zh: Chipetaia lamporea
       en: Chipetaia lamporea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

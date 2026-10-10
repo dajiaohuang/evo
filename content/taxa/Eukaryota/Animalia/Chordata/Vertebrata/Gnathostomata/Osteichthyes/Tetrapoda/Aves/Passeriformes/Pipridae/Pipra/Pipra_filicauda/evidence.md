@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipra filicauda
       en: Pipra filicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

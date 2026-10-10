@@ -9,7 +9,6 @@ records:
     name:
       zh: Siamodon nimngami
       en: Siamodon nimngami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,5 +22,5 @@ A later genus-level analysis identified two mitochondrial types assigned to A. p
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The taxonomic and genetic account is limited to the cited collections and analyses; it does not establish current occupancy or a complete range. This page has not received external expert review. This page is not externally expert-reviewed.
+The taxonomic and genetic account is limited to the cited collections and analyses; it does not establish current occupancy or a complete range. This page. This page is.
 <!-- /evo:text -->

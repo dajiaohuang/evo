@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus linnaeus
       zh: Cophixalus linnaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Egernia epsisolus
       en: Egernia epsisolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Picoides
       en: Picoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

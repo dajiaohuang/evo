@@ -9,7 +9,6 @@ records:
     name:
       zh: Gymnophthalmus cryptus
       en: Gymnophthalmus cryptus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

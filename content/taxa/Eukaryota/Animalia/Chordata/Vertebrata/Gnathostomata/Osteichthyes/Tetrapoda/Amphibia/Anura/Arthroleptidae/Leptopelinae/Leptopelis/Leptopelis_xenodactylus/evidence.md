@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis xenodactylus
       zh: Leptopelis xenodactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

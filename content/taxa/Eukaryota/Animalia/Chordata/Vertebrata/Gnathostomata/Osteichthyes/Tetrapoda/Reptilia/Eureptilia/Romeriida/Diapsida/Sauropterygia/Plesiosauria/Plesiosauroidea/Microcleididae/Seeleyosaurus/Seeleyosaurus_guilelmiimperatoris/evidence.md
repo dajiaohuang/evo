@@ -9,7 +9,6 @@ records:
     name:
       zh: Seeleyosaurus guilelmiimperatoris
       en: Seeleyosaurus guilelmiimperatoris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

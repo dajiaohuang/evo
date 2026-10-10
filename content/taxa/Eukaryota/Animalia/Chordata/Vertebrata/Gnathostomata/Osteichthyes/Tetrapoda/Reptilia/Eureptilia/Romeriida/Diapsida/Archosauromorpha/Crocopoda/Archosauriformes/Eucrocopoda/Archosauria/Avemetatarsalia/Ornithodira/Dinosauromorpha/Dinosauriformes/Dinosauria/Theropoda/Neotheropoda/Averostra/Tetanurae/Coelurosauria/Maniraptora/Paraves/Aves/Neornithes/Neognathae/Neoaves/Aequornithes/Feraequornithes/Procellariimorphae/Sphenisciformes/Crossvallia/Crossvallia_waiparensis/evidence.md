@@ -9,7 +9,6 @@ records:
     name:
       zh: Crossvallia waiparensis
       en: Crossvallia waiparensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

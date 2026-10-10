@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: arratia-schultze-2024-triassic-teleosteomorphs at 2026.09-static-v5-rc79
       referenceLinks:
         - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
           relation: supports
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: arratia-schultze-2024-triassic-teleosteomorphs at 2026.09-static-v5-rc79
       referenceLinks:
         - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: arratia-schultze-2024-triassic-teleosteomorphs at 2026.09-static-v5-rc79
       referenceLinks:
         - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: arratia-schultze-2024-triassic-teleosteomorphs at 2026.09-static-v5-rc79
       referenceLinks:
         - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
           relation: supports
@@ -143,9 +131,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: arratia-schultze-2024-triassic-teleosteomorphs at 2026.09-static-v5-rc79
       referenceLinks:
         - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
           relation: supports
@@ -198,7 +183,6 @@ records:
       referenceLocators:
         - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
           locator: pp. 30, 45; Scheme 1; Figure 11; Stratigraphy; type material and age
-      reviewStatus: automated-audit-passed
 ---
 
 # Ruedersdorfia berlinensis

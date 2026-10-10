@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochalopteron austeni
       en: Trochalopteron austeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

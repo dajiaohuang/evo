@@ -9,7 +9,6 @@ records:
     name:
       zh: Heteropelta boboi
       en: Heteropelta boboi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

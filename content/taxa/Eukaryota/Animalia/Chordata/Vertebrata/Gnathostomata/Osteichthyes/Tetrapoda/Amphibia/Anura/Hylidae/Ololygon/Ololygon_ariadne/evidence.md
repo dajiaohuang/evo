@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon ariadne
       zh: Ololygon ariadne
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

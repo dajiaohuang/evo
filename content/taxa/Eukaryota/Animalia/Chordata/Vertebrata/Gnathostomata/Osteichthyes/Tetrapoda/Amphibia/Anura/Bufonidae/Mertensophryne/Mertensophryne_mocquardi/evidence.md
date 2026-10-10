@@ -9,7 +9,6 @@ records:
     name:
       en: Mertensophryne mocquardi
       zh: Mertensophryne mocquardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

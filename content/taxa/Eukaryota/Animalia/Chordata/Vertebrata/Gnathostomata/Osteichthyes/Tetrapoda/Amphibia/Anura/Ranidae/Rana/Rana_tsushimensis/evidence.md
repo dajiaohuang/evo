@@ -9,7 +9,6 @@ records:
     name:
       en: Rana tsushimensis
       zh: Rana tsushimensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

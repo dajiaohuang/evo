@@ -9,7 +9,6 @@ records:
     name:
       zh: Teilhardina demissa
       en: Teilhardina demissa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

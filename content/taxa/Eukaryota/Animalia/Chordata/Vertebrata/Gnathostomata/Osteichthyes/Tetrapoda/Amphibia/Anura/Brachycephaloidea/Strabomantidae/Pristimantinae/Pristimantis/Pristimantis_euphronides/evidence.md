@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis euphronides
       zh: Pristimantis euphronides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

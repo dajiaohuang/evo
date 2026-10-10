@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyto aurantia
       en: Tyto aurantia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

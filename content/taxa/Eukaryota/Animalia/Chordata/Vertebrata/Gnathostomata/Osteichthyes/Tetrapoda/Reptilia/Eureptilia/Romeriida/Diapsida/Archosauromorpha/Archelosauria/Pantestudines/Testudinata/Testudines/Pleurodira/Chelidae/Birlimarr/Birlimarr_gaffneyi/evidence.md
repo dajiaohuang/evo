@@ -9,7 +9,6 @@ records:
     name:
       zh: Birlimarr gaffneyi
       en: Birlimarr gaffneyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

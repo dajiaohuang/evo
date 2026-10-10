@@ -9,7 +9,6 @@ records:
     name:
       zh: Geospiza scandens
       en: Geospiza scandens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

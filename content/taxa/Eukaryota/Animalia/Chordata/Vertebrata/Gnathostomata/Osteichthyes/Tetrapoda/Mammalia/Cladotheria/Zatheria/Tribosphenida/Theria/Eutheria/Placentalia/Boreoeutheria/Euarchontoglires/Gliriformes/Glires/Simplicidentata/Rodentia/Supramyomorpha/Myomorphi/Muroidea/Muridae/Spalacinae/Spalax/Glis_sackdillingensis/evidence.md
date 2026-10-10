@@ -9,7 +9,6 @@ records:
     name:
       zh: Glis sackdillingensis
       en: Glis sackdillingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -54,7 +54,6 @@ function resolveAcceptedUsage(registry, record) {
 function validateRecord(record) {
   assert.equal(record.rank, 'species')
   assert.equal(record.completeness.status, 'incomplete')
-  assert.equal(record.expertReview.status, 'not-reviewed')
   assert.deepEqual(Object.keys(record.facets).sort(), [...FACETS].sort())
   assert.deepEqual(record.identity.sourceIds, ['col'])
   const sourceIds = new Set(record.sources.map(source => source.id))

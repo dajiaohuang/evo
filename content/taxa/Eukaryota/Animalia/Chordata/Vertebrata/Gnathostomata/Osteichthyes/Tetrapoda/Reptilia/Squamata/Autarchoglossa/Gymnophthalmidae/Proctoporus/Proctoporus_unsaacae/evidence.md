@@ -9,7 +9,6 @@ records:
     name:
       zh: Proctoporus unsaacae
       en: Proctoporus unsaacae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dynamoterror dynastes
       en: Dynamoterror dynastes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

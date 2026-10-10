@@ -9,7 +9,6 @@ records:
     name:
       zh: Pascualhyrax irqi
       en: Pascualhyrax irqi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

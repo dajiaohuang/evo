@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis extremus
       en: Anolis extremus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

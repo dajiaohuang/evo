@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus walfordi
       zh: Dendropsophus walfordi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

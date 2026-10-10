@@ -9,7 +9,6 @@ records:
     name:
       zh: Shaanxispira chowi
       en: Shaanxispira chowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

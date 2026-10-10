@@ -9,7 +9,6 @@ records:
     name:
       zh: Rattus nativitatis
       en: Rattus nativitatis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

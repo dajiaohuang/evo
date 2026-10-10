@@ -9,7 +9,6 @@ records:
     name:
       zh: Trogosus castoridens
       en: Trogosus castoridens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

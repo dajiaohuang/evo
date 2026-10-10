@@ -9,7 +9,6 @@ records:
     name:
       zh: Alloeumyarion sihongensis
       en: Alloeumyarion sihongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Macronyx aurantiigula
       en: Macronyx aurantiigula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

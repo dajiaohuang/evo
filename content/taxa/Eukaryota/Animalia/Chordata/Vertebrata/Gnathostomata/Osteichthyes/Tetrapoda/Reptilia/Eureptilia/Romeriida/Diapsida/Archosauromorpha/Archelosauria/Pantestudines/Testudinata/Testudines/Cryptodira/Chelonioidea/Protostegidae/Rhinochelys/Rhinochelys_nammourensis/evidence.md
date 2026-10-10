@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinochelys nammourensis
       en: Rhinochelys nammourensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea exspectata
       zh: Pseudoeurycea exspectata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

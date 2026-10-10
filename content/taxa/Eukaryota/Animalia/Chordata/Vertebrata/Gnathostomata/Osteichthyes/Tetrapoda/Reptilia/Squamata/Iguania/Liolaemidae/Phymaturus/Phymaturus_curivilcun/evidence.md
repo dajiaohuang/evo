@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus curivilcun
       en: Phymaturus curivilcun
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

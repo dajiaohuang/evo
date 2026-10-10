@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页不把线粒体谱系当作完整物种树，也不从研究中有限的来源地推断完整分布。中文普通名为编辑译名；未经过外部领域专家评审。
+本页不把线粒体谱系当作完整物种树，也不从研究中有限的来源地推断完整分布。中文普通名为编辑译名。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothrops jararacussu
       en: Bothrops jararacussu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

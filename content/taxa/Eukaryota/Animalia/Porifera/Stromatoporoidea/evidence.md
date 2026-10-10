@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: stearn-1975-stromatoporoid-animal
       referenceLinks:
         - referenceId: stearn-1975-stromatoporoid-animal
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: kershaw-jeon-2024-stromatoporoids-extinctions locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: kershaw-jeon-2024-stromatoporoids-extinctions
@@ -88,7 +82,6 @@ records:
       referenceLocators:
         - referenceId: kershaw-jeon-2024-stromatoporoids-extinctions
           locator: Abstract; two-major-episodes synthesis; conclusions on Palaeozoic and Mesozoic–rare Cenozoic records
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

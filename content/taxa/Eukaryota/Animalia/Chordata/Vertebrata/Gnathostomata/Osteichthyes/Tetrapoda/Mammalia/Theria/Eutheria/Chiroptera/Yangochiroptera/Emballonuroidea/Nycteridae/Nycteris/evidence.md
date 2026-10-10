@@ -9,7 +9,6 @@ records:
     name:
       zh: Nycteris
       en: Nycteris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

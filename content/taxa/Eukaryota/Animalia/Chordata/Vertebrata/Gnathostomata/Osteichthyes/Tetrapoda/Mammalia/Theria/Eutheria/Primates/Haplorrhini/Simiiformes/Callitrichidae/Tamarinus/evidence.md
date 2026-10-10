@@ -9,7 +9,6 @@ records:
     name:
       zh: Tamarinus 属
       en: Tamarinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

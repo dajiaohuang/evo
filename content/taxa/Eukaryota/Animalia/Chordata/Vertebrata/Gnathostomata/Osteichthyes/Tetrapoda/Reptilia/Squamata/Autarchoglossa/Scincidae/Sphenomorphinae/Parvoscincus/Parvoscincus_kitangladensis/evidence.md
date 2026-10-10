@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvoscincus kitangladensis
       en: Parvoscincus kitangladensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

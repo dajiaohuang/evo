@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudonaja textilis
       en: Pseudonaja textilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

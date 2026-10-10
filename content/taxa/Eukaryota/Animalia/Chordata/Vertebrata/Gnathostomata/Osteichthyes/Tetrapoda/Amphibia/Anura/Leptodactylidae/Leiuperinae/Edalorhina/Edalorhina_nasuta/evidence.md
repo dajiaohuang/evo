@@ -9,7 +9,6 @@ records:
     name:
       en: Edalorhina nasuta
       zh: Edalorhina nasuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

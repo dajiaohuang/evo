@@ -9,7 +9,6 @@ records:
     name:
       zh: Koilamasuchus
       en: Koilamasuchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phodilinae
       en: Phodilinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

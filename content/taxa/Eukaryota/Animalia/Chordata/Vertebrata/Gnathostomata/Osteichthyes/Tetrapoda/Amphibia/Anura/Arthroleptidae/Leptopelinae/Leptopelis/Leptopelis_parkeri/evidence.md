@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis parkeri
       zh: Leptopelis parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

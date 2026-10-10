@@ -9,7 +9,6 @@ records:
     name:
       zh: Scytalopus caracae
       en: Scytalopus caracae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

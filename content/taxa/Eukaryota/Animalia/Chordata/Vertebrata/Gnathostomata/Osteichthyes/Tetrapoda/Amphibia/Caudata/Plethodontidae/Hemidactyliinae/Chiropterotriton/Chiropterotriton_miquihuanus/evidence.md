@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton miquihuanus
       zh: Chiropterotriton miquihuanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

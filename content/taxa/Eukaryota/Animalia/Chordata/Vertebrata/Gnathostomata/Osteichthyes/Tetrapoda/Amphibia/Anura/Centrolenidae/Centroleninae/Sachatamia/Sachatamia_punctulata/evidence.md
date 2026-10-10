@@ -9,7 +9,6 @@ records:
     name:
       en: Sachatamia punctulata
       zh: Sachatamia punctulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

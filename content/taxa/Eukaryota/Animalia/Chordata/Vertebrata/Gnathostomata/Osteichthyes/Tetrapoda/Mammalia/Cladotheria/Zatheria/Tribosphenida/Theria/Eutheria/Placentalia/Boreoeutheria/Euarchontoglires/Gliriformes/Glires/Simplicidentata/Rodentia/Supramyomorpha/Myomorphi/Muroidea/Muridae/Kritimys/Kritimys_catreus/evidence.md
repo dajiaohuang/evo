@@ -9,7 +9,6 @@ records:
     name:
       zh: Kritimys catreus
       en: Kritimys catreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

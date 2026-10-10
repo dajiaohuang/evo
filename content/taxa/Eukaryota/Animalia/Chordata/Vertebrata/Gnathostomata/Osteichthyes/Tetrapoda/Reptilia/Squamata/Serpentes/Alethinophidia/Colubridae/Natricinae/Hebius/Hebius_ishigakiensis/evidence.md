@@ -9,7 +9,6 @@ records:
     name:
       zh: Hebius ishigakiensis
       en: Hebius ishigakiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Haplobunodon lydekkeri
       en: Haplobunodon lydekkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

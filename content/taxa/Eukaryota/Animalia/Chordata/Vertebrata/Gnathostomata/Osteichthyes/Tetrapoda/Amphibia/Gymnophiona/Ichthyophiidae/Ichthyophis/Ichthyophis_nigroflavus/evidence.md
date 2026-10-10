@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis nigroflavus
       zh: Ichthyophis nigroflavus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinesuchus overoi
       en: Kinesuchus overoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

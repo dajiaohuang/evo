@@ -3,43 +3,144 @@
   "$id": "https://dajiaohuang.github.io/evo/schemas/range-evidence.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "entityId", "rangeKind", "taxonomicConcept", "geographicScope", "olderMa", "youngerMa", "status", "uncertainty", "evidenceBasis", "evidenceLevel", "confidence", "claimIds", "referenceLocators", "reviewStatus"],
+  "required": [
+    "id",
+    "entityId",
+    "rangeKind",
+    "taxonomicConcept",
+    "geographicScope",
+    "olderMa",
+    "youngerMa",
+    "status",
+    "uncertainty",
+    "evidenceBasis",
+    "evidenceLevel",
+    "confidence",
+    "claimIds",
+    "referenceLocators"
+  ],
   "properties": {
-    "id": { "type": "string", "minLength": 1 },
-    "entityId": { "type": "string", "minLength": 1 },
-    "rangeKind": { "enum": ["global-composite", "taxon-range", "dispersal-window", "regional-last-appearance-window"] },
-    "taxonomicConcept": { "type": "string", "minLength": 1 },
-    "geographicScope": { "type": "string", "minLength": 1 },
-    "olderMa": { "type": "number", "minimum": 0, "maximum": 4567 },
-    "youngerMa": { "type": "number", "minimum": 0, "maximum": 4567 },
-    "status": { "enum": ["available", "unknown", "unavailable", "unmapped", "withheld-pending-provenance"] },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entityId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rangeKind": {
+      "enum": [
+        "global-composite",
+        "taxon-range",
+        "dispersal-window",
+        "regional-last-appearance-window"
+      ]
+    },
+    "taxonomicConcept": {
+      "type": "string",
+      "minLength": 1
+    },
+    "geographicScope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "olderMa": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 4567
+    },
+    "youngerMa": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 4567
+    },
+    "status": {
+      "enum": [
+        "available",
+        "unknown",
+        "unavailable",
+        "unmapped",
+        "withheld-pending-provenance"
+      ]
+    },
     "uncertainty": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["olderMa", "youngerMa", "note"],
+      "required": [
+        "olderMa",
+        "youngerMa",
+        "note"
+      ],
       "properties": {
-        "olderMa": { "type": ["number", "null"], "minimum": 0 },
-        "youngerMa": { "type": ["number", "null"], "minimum": 0 },
-        "note": { "type": "string", "minLength": 10 }
+        "olderMa": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "youngerMa": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "note": {
+          "type": "string",
+          "minLength": 10
+        }
       }
     },
-    "evidenceBasis": { "type": "string", "minLength": 20 },
-    "evidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "withheld-no-range-evidence", "expert-reviewed"] },
-    "confidence": { "enum": ["high", "medium", "low", "contested"] },
-    "claimIds": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^claim:" } },
+    "evidenceBasis": {
+      "type": "string",
+      "minLength": 20
+    },
+    "evidenceLevel": {
+      "enum": [
+        "legacy-display",
+        "database-derived",
+        "literature-synthesized",
+        "withheld-no-range-evidence"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "contested"
+      ]
+    },
+    "claimIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^claim:"
+      }
+    },
     "referenceLocators": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["referenceId", "locator"],
+        "required": [
+          "referenceId",
+          "locator"
+        ],
         "properties": {
-          "referenceId": { "type": "string", "minLength": 1 },
-          "locator": { "type": "string", "minLength": 1 }
+          "referenceId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          }
         }
       }
-    },
-    "reviewStatus": { "enum": ["not-reviewed", "automated-audit-passed", "expert-reviewed"] }
+    }
   }
 }

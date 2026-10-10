@@ -9,7 +9,6 @@ records:
     name:
       zh: Setophaga citrina
       en: Setophaga citrina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

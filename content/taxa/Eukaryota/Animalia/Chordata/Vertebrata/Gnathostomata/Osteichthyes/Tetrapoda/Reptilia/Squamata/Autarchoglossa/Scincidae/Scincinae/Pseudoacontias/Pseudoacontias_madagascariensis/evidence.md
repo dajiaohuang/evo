@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoacontias madagascariensis
       en: Pseudoacontias madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview
